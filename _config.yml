@@ -12,7 +12,7 @@ description: >
   Skylight is a HUBZone digital consultancy focused
   on making government work in a digital world.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://skylight.digital" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site (https://skylight.digital)
 localhost: "localhost:4000"
 twitter_username:
 github_username: skylight-digital
