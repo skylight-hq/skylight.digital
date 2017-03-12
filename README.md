@@ -8,7 +8,7 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 
 Setup
 ---
-1. If you're using a Mac, install homebrew (see http://brew.sh/)
+1. If you're using a Mac, install homebrew (see https://brew.sh/)
 2. After installing git (`brew install git`), `cd` to the directory where you
    want to check-out the site, and then clone it (`git clone
    https://github.com/skylight-digital/skylight.digital.git`)
