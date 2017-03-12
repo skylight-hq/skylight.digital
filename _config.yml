@@ -12,10 +12,14 @@ description: >
   Skylight is a HUBZone digital consultancy focused
   on making government work in a digital world.
 baseurl: "" # the subpath of your site, e.g. /blog
+permalink: title
 url: "" # the base hostname & protocol for your site (https://skylight.digital)
 localhost: "localhost:4000"
 twitter_username:
 github_username: skylight-digital
+
+bootstrap_css_url: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+bootstrap_js_url: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
 
 # Build settings
 markdown: kramdown
@@ -30,3 +34,9 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE.md
   - README.md
+  - vendor
+
+# Jekyll plugins
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemaps
