@@ -1,3 +1,6 @@
+---
+---
+
 This project includes a mix of commercial works, as well as open source works that are and are not in the public domain.
 
 ## Parts of this project that are under commercial licenses
@@ -8,9 +11,9 @@ The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofou
 
 ### Files licensed under the MIT License
 
-The remotely-hosted [Twitter Bootstrap CSS file](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css) linked to in `src/_includes/head.html` is from [The Bootstrap Authors](http://getbootstrap.com/), copyright Twitter, Inc., under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
+The remotely-hosted [Twitter Bootstrap CSS file]({{ site.bootstrap_css_url }}) linked to in `src/_includes/head.html` is from [The Bootstrap Authors](http://getbootstrap.com/), copyright Twitter, Inc., under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
-The remotely-hosted [Twitter Bootstrap JavaScript file](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js) linked to in `src/_includes/head.html` is from [The Bootstrap Authors](http://getbootstrap.com/), copyright Twitter, Inc., under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
+The remotely-hosted [Twitter Bootstrap JavaScript file]({{ site.bootstrap_js_url }}) linked to in `src/_includes/head.html` is from [The Bootstrap Authors](http://getbootstrap.com/), copyright Twitter, Inc., under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
 The file `src/js/html5shiv.js` is from [HTML5 Shiv](https://github.com/afarkas/html5shiv), copyright Alexander Farkas (aFarkas), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
 
