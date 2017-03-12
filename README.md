@@ -4,7 +4,7 @@ Skylight Website
 This repo is for our public-facing site, which is hosted on
 [https://skylight.digital](https://skylight.digital).
 
-The site is built with the [Twitter Bootstrap front-end framework](http://getbootstrap.com/) (for now) and uses Jekyll to generate static pages.
+The site is built with the [Twitter Bootstrap front-end framework](http://getbootstrap.com/) (for now), and uses [Jekyll](https://jekyllrb.com/) to generate static pages, which are served through [GitHub Pages](https://pages.github.com/).
 
 Setup
 ---
