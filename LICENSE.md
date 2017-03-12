@@ -1,7 +1,7 @@
 This project includes a mix of commercial works, as well as open source works that are and are not in the public domain.
 
 ## Parts of this project that are under commercial licenses
-{% baseurl %}
+
 The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofoundry.com/fonts/geomanist), copyright atipo, under [atipo's licensing terms](http://atipofoundry.com/license).
 
 ## Parts of this project that are not in the public domain
