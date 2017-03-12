@@ -8,11 +8,15 @@ The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofou
 
 ### Files licensed under the MIT License
 
-The remotely-hosted [Twitter Bootstrap CSS file](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css) linked to in `src/_includes/head.html` is from [The Bootstrap Authors](http://getbootstrap.com/), copyright Twitter, Inc., under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
+The remotely-hosted `bootstrap.min.css` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
-The remotely-hosted [Twitter Bootstrap JavaScript file](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js) linked to in `src/_includes/head.html` is from [The Bootstrap Authors](http://getbootstrap.com/), copyright Twitter, Inc., under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
+The remotely-hosted `jquery-3.1.1.slim.min.js` file located in `src/_includes/head.html` is from the [JS Foundation](https://jquery.com/), copyright JS Foundation, under the [MIT license](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
+
+The remotely-hosted `bootstrap.min.js` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
 The file `src/js/html5shiv.js` is from [HTML5 Shiv](https://github.com/afarkas/html5shiv), copyright Alexander Farkas (aFarkas), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
+
+The file `src/js/jquery.scrolldepth.min` is from [Scroll Depth](https://github.com/robflaherty/jquery-scrolldepth), copyright Rob Flaherty (robflaherty), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
 
 ### Skylight-produced content licensed under Creative Commons Attribution-Share Alike License
 
