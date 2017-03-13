@@ -1,7 +1,20 @@
-// Use of ID selector #skylight-styles in cobmo
-// with tags, etc. overrides Twitter Bootstrap styles
+// ID selector #skylight-styles ensures
+// Twitter Bootstrap styles are overriden
 
 body#skylight-styles {
   font-family: $base-font-family;
   background-color: $background-color;
+
+  // Header styles
+  .header {
+    background-color: yellow;
+  }
+
+  .logo {
+
+  }
+
+  .nav {
+
+  }
 }
