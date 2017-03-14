@@ -1,20 +1,41 @@
-// ID selector #skylight-styles ensures
-// Twitter Bootstrap styles are overriden
-
+// Ensures TBS customizations are overridden
 body#skylight-styles {
   font-family: $base-font-family;
   background-color: $background-color;
 
+  // ***
+  // Utilities
+  // ***
+  .hidden {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  // ***
   // Header styles
-  .header {
+  // ***
+  header { // remove
     background-color: yellow;
   }
 
-  .logo {
-
+  // TBS override
+  .navbar-toggler {
+    padding: .35rem;
+    font-size: 1.5rem;
   }
 
-  .nav {
+  #navbar-toggler-change {
+    color: red;
 
+    &:hover, &:focus {
+      color: pink;
+    }
+  }
+
+  // ***
+  // Main styles
+  // ***
+  main { // remove
+    background-color: red;
   }
 }
