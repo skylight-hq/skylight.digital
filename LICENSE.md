@@ -6,11 +6,17 @@ The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofou
 
 ## Parts of this project that are not in the public domain
 
+### Files licensed under the SIL Open Font License
+
+The Font Awesome files in `src/fonts` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
 ### Files licensed under the MIT License
 
 The remotely-hosted `bootstrap.min.css` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
 The remotely-hosted `jquery-3.1.1.slim.min.js` file located in `src/_includes/head.html` is from the [JS Foundation](https://jquery.com/), copyright JS Foundation, under the [MIT license](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
+
+The remotely-hosted `tether.min.js` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
 The remotely-hosted `bootstrap.min.js` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 

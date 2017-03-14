@@ -5,9 +5,11 @@
 
   <body id="skylight-styles">
 
+    <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
+
     {% include header.html %}
 
-    <main>
+    <main class="container" id="content" role="main" tabindex="-1">
       {{ content }}
     </main>
 
