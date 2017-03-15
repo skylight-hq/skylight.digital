@@ -3,17 +3,17 @@ body#skylight-styles {
   font-family: $base-font-family;
   background-color: $background-color;
 
-  // ***
+  // **************************************************
   // Utilities
-  // ***
+  // **************************************************
   .hidden {
     display: none !important;
     visibility: hidden !important;
   }
 
-  // ***
+  // **************************************************
   // Header styles
-  // ***
+  // **************************************************
   header { // remove
     background-color: yellow;
   }
@@ -24,41 +24,39 @@ body#skylight-styles {
     font-size: 1.5rem;
   }
 
+  #main-nav .nav-link:last-child {
+    padding-right: 0;
+  }
+
   #navbar-toggler-change {
     color: red;
 
-    &:hover {
+    &:hover, &:focus {
       color: pink;
     }
   }
 
-  // ***
+  // **************************************************
   // Main styles
-  // ***
+  // **************************************************
   main { // remove
     background-color: red;
   }
 
-  // ***
+  // **************************************************
   // Footer styles
-  // ***
+  // **************************************************
   footer { // remove
     background-color: yellow;
   }
 
   .footer-content {
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
-  @media (min-width: $md-breakpoint) {
-    .footer-content {
-      margin-top: 64px;
-      margin-bottom: 64px;
-    }
-
-    .footer-nav {
-      text-align: right;
+    .row > [class^="col-"] {
+      padding-top: .75rem;
+      padding-bottom: .75rem;
     }
   }
 
@@ -66,7 +64,7 @@ body#skylight-styles {
     font-size: .9rem;
 
     &:not(:first-child), &:not(:last-child):after {
-      padding-left: 3px
+      padding-left: 3px;
     }
 
     &:not(:last-child)::after {
@@ -75,10 +73,25 @@ body#skylight-styles {
     }
   }
 
+  .footer-socials {
+    a:not(:last-child) {
+      padding-right: 25px;
+    }
+  }
+
   @media (min-width: $md-breakpoint) {
+    .footer-content {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .footer-nav, .footer-socials {
+      text-align: right;
+    }
+
     .footer-nav-link {
       &:not(:first-child), &:not(:last-child):after {
-        padding-left: 6px
+        padding-left: 6px;
       }
 
       &:not(:last-child)::after {
