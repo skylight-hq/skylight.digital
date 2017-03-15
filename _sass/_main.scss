@@ -38,4 +38,53 @@ body#skylight-styles {
   main { // remove
     background-color: red;
   }
+
+  // ***
+  // Footer styles
+  // ***
+  footer { // remove
+    background-color: yellow;
+  }
+
+  .footer-content {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  @media (min-width: $md-breakpoint) {
+    .footer-content {
+      margin-top: 64px;
+      margin-bottom: 64px;
+    }
+
+    .footer-nav {
+      text-align: right;
+    }
+  }
+
+  .footer-nav-link {
+    font-size: .9rem;
+
+    &:not(:first-child), &:not(:last-child):after {
+      padding-left: 3px
+    }
+
+    &:not(:last-child)::after {
+      content: "/";
+      padding-left: 6px;
+    }
+  }
+
+  @media (min-width: $md-breakpoint) {
+    .footer-nav-link {
+      &:not(:first-child), &:not(:last-child):after {
+        padding-left: 6px
+      }
+
+      &:not(:last-child)::after {
+        content: "/";
+        padding-left: 12px;
+      }
+    }
+  }
 }
