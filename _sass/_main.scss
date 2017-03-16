@@ -18,13 +18,12 @@ body#skylight-styles {
     background-color: yellow;
   }
 
-  // TBS override
-  .navbar-toggler {
+  .navbar-toggler { // TBS override
     padding: .35rem;
     font-size: 1.5rem;
   }
 
-  #main-nav .nav-link:last-child {
+  #main-nav .nav-link:last-child { // TBS override
     padding-right: 0;
   }
 
@@ -37,10 +36,29 @@ body#skylight-styles {
   }
 
   // **************************************************
-  // Main styles
+  // Jumbotron styles
   // **************************************************
-  main { // remove
-    background-color: red;
+  .jumbotron {
+    .display-4 { // TBS ovverride
+      font-weight: 400;
+      font-size: 2.5rem;
+    }
+
+    .lead { // TBS ovverride
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: $md-breakpoint) {
+    .jumbotron {
+      .display-4 { // TBS ovverride
+        font-size: 3.5rem;
+      }
+
+      .lead { // TBS ovverride
+        font-size: 1.25rem;
+      }
+    }
   }
 
   // **************************************************
