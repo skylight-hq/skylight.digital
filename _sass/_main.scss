@@ -6,9 +6,38 @@ body#skylight-styles {
   // **************************************************
   // Utilities
   // **************************************************
-  .hidden {
-    display: none !important;
-    visibility: hidden !important;
+
+  // **************************************************
+  // Global TBS ovverides
+  // **************************************************
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+
+  h2, .h2 {
+    font-size: 2rem;
+  }
+
+  .display-1 {
+    @include display-1;
+  }
+
+  .display-2 {
+    @include display-2;
+  }
+
+  .display-3 {
+    @include display-3;
+  }
+
+  .lead-1 {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  .lead-2 {
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   // **************************************************
@@ -36,27 +65,35 @@ body#skylight-styles {
   }
 
   // **************************************************
-  // Jumbotron styles
+  // Landing page styles
   // **************************************************
-  .jumbotron {
-    .display-4 { // TBS ovverride
-      font-weight: 400;
-      font-size: 2.5rem;
+  .jumbotron { // TBS override
+    margin-bottom: 0;
+  }
+
+  .section-lp {
+    text-align: center;
+
+    margin-top: 3rem;
+
+    h2 { // TBS override
+      margin-bottom: 0;
     }
 
-    .lead { // TBS ovverride
+    p {
+      text-align: left;
       font-size: 1rem;
+    }
+
+    p:last-child { // TBS override
+      margin-bottom: 0;
     }
   }
 
   @media (min-width: $md-breakpoint) {
-    .jumbotron {
-      .display-4 { // TBS ovverride
-        font-size: 3.5rem;
-      }
-
-      .lead { // TBS ovverride
-        font-size: 1.25rem;
+    .section-lp {
+      .display-3 {
+        @include display-1;
       }
     }
   }
@@ -64,8 +101,9 @@ body#skylight-styles {
   // **************************************************
   // Footer styles
   // **************************************************
-  footer { // remove
+  footer {
     background-color: yellow;
+    margin-top: 3rem;
   }
 
   .footer-content {
@@ -118,4 +156,5 @@ body#skylight-styles {
       }
     }
   }
+
 }

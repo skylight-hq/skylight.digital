@@ -82,6 +82,23 @@ $base-font-family: "Geomanist", sans-serif;
 $background-color: #ffffff;
 $md-breakpoint: 768px;
 
+// Mixins
+@mixin display-1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+@mixin display-2 {
+  @include display-1;
+  font-size: 2.5rem;
+}
+
+@mixin display-3 {
+  @include display-2;
+  font-size: 2rem;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "main"
