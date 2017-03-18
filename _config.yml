@@ -14,7 +14,7 @@ description: >
 
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: title
-url: "" # the base hostname & protocol for your site (https://skylight.digital)
+url: https://skylight.digital
 localhost: localhost:4000
 twitter_url: ""
 github_repo_url: ""
