@@ -44,6 +44,8 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE.md
   - README.md
+  - vendor
+  - snippets
 
 # Jekyll plugins
 gems:
