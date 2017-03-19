@@ -1,0 +1,63 @@
+.page-cta {
+  background-color: green;
+  color: white;
+  text-align: center;
+  @extend .mt-5;
+  @extend .pt-3;
+  @extend .pb-3;
+
+  blockquote {
+    margin: 0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .page-cta {
+    @include pt-5;
+    @include pb-5;
+  }
+}
+
+// Testimonial CTA
+.testimonial-quote {
+  font-size: $font-size-xl;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.25;
+
+  &:before {
+    content: "“";
+    opacity: .5;
+    font-size: inherit;
+  }
+
+  &:after {
+    content: "”";
+    opacity: .5;
+    font-size: inherit;
+  }
+}
+
+.testimonial-cite {
+  font-size: $font-size-sm;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.testimonial-author, .testimonial-position, .testimonial-org {
+  display: block;
+}
+
+.testimonial-author:before {
+  content: "— ";
+}
+
+@include media-breakpoint-up(md) {
+  .testimonial-quote {
+    font-size: $font-size-xxxl;
+  }
+
+  .testimonial-cite {
+    font-size: $font-size-lg;
+  }
+}

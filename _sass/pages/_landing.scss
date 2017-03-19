@@ -9,7 +9,7 @@
 }
 
 .lp-headline-content {
-  @include make-container();
+  @extend .container;
 
   @include media-breakpoint-down(xs) {
     .lead { font-size: $font-size-base; }
@@ -17,7 +17,7 @@
 }
 
 .lp-body {
-  @include make-container();
+  @extend .container;
 }
 
 .lp-body-text {
