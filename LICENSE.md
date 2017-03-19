@@ -12,13 +12,11 @@ The Font Awesome files in `src/fonts` are from [Font Awesome](http://fontawesome
 
 ### Files licensed under the MIT License
 
-The remotely-hosted `bootstrap.min.css` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
+The files located in `src/_sass/bootstrap` are from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
-The remotely-hosted `jquery-3.1.1.slim.min.js` file located in `src/_includes/head.html` is from the [JS Foundation](https://jquery.com/), copyright JS Foundation, under the [MIT license](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
+The files `src/js/tether.min.js` and `src/js/bootstrap.min.js` are from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
 
-The remotely-hosted `tether.min.js` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
-
-The remotely-hosted `bootstrap.min.js` file located in `src/_includes/head.html` is from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
+The file `src/js/jquery.slim.min.js` is from the [JS Foundation](https://jquery.com/), copyright JS Foundation, under the [MIT license](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
 
 The file `src/js/html5shiv.js` is from [HTML5 Shiv](https://github.com/afarkas/html5shiv), copyright Alexander Farkas (aFarkas), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
 

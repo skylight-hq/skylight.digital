@@ -1,0 +1,3 @@
+.nav-wrapper {
+  @extend .container; // for some reason @include make-container(); won't work
+}

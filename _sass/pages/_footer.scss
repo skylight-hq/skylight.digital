@@ -5,7 +5,7 @@
 }
 
 .footer-content {
-  @extend .container; // for some reason @include make-container(); won't work
+  @extend .container;
 }
 
 .footer-brand, .footer-contribute-cta {
