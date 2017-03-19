@@ -1,0 +1,69 @@
+.page-footer {
+  background-color: yellow;
+  @include pt-3;
+  @include pb-3;
+}
+
+.footer-content {
+  @extend .container; // for some reason @include make-container(); won't work
+}
+
+.footer-brand, .footer-contribute-cta {
+  @extend .col-md-3;
+}
+
+.footer-nav, .footer-socials {
+  @extend .col-md-9;
+}
+
+.footer-nav-link {
+  font-size: .9rem;
+
+  &:not(:first-child), &:not(:last-child):after {
+    padding-left: 3px;
+  }
+
+  &:not(:last-child)::after {
+    content: "/";
+    padding-left: 6px;
+  }
+}
+
+.footer-socials a:not(:last-child) {
+  padding-right: 25px;
+}
+
+@include media-breakpoint-down(md) {
+  .footer-content > div.row > * {
+    @include mb-3;
+  }
+  .footer-content > div:last-child > div:last-child {
+    @include mb-0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .page-footer {
+    @include pt-5;
+    @include pb-5;
+  }
+
+  .footer-content > div.row:first-child {
+    @include mb-3;
+  }
+
+  .footer-nav, .footer-socials {
+    text-align: right;
+  }
+
+  .footer-nav-link {
+    &:not(:first-child), &:not(:last-child):after {
+      padding-left: 6px;
+    }
+
+    &:not(:last-child)::after {
+      content: "/";
+      padding-left: 12px;
+    }
+  }
+}

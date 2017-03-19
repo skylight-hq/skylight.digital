@@ -1,0 +1,9 @@
+@include media-breakpoint-between(xs, sm) {
+  h1 { font-size: $font-size-h1-sm; }
+  h2 { font-size: $font-size-h2-sm; }
+}
+
+@include media-breakpoint-between(sm, md) {
+  h1 { font-size: $font-size-h1-md; }
+  h2 { font-size: $font-size-h2-md; }
+}

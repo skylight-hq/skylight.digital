@@ -1,0 +1,55 @@
+.landing-page {
+  text-align: center;
+}
+
+.lp-headline {
+  @extend .jumbotron;
+  @extend .jumbotron-fluid;
+  @extend .mb-0;
+}
+
+.lp-headline-content {
+  @include make-container();
+
+  @include media-breakpoint-down(xs) {
+    .lead { font-size: $font-size-base; }
+  }
+}
+
+.lp-body {
+  @include make-container();
+}
+
+.lp-body-text {
+  @extend .col-11;
+  @extend .col-sm-9;
+  @extend .col-md-7;
+  @extend .col-lg-6;
+  @extend .mx-auto;
+}
+
+.lp-body-cta {
+  @extend .btn;
+  @extend .btn-outline-primary;
+  @extend .btn-lg;
+}
+
+.background-statement, .services-statement, .experience-statement, .culture-statement {
+  @extend .mt-5;
+
+  .row:not(:last-child) {
+    @extend .mb-4;
+  }
+
+  h2 {
+    @extend .mb-0;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  p:last-child {
+    @extend .mb-0;
+  }
+}
