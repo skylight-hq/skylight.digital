@@ -17,7 +17,7 @@
 }
 
 .footer-nav-link {
-  font-size: .9rem;
+  font-size: $font-size-md;
 
   &:not(:first-child), &:not(:last-child):after {
     padding-left: 3px;
