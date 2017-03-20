@@ -1,3 +1,32 @@
 .about-us {
   @include page;
 }
+
+.about-section {
+  h2 { @extend .mb-3; }
+  .about-content p:last-child { @extend .mb-0; }
+  &:not(:last-child) { @extend .mb-3; }
+}
+
+@include media-breakpoint-up(md) {
+  .about-section {
+    &:not(:last-child) { @include mb-5; }
+    h2 { @include mb-4; }
+  }
+}
+
+.about-subheading-wrapper, .about-content-wrapper {
+  @extend .row;
+}
+
+.about-subheading {
+  @extend .col;
+}
+
+.about-content {
+  @extend .col-11;
+  @extend .col-md-8;
+  @extend .mx-auto;
+  p { text-align: left; }
+  img { @extend .mb-3; }
+}

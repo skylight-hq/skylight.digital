@@ -1,42 +1,28 @@
 @mixin page {
-  @extend .container;
   text-align: center;
   @extend .mt-5;
 }
 
-.page-section {
-  &:not(:last-child) { @extend .mb-3; }
-  h2 { @extend .mb-3; }
-  p:last-child { @extend .mb-0; }
+.page-header {
+  @extend .container;
+  @extend .mb-3;
 }
 
 @include media-breakpoint-up(md) {
-  .page-section {
-    &:not(:last-child) { @include mb-5; }
-    h2 { @include mb-4; }
+  .page-header {
+    @include mb-5;
   }
 }
 
-.page-header-wrapper, .page-subheading-wrapper, .page-content-wrapper {
+.page-header-title-wrapper, .page-header-content-wrapper {
   @extend .row;
 }
 
-.page-header, .page-subheading {
+.page-header-title, .page-header-content {
   @extend .col;
-}
-
-.page-header-title {
-  color: black;
 }
 
 .page-header-content {
   @extend .mt-4;
-}
-
-.page-content {
-  @extend .col-11;
-  @extend .col-md-8;
-  @extend .mx-auto;
-  p { text-align: left; }
   img { @extend .mb-3; }
 }
