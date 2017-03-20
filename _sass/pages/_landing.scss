@@ -20,36 +20,36 @@
   @extend .container;
 }
 
-.lp-body-text {
+.lp-body-heading-wrapper, .lp-body-content-wrapper, .lp-body-cta-wrapper {
+  @extend .row;
+}
+
+.lp-body-heading, .lp-body-cta  {
+  @extend .col;
+}
+
+.lp-body-heading img {
+  @extend .mt-4;
+}
+
+.lp-body-content {
   @extend .col-11;
   @extend .col-sm-9;
-  @extend .col-md-7;
-  @extend .col-lg-6;
+  @extend .col-md-8;
+  @extend .col-lg-7;
   @extend .mx-auto;
 }
 
-.lp-body-cta {
+.lp-body-cta-btn {
   @extend .btn;
   @extend .btn-outline-primary;
   @extend .btn-lg;
 }
 
-.background-statement, .services-statement, .experience-statement, .culture-statement {
+.lp-body-section {
   @extend .mt-5;
-
-  .row:not(:last-child) {
-    @extend .mb-4;
-  }
-
-  h2 {
-    @extend .mb-0;
-  }
-
-  p {
-    text-align: left;
-  }
-
-  p:last-child {
-    @extend .mb-0;
-  }
+  .row:not(:last-child) { @extend .mb-4; }
+  h2 { @extend .mb-0; }
+  p { text-align: left; }
+  p:last-child { @extend .mb-0; }
 }
