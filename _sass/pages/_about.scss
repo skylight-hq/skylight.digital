@@ -31,21 +31,14 @@
   img { @extend .mb-3; }
 }
 
-.employee-links {
-  border-top: 1px solid $gray-lighter;
-  @extend .mx-auto;
-  @extend .pt-2;
-}
-
 .employees {
   @extend .row;
 }
 
 .employee {
-  //@extend .col-sm-6;
   @extend .col-md-6;
   @extend .col-lg-4;
-  @extend .mb-4;
+  @extend .mt-4;
 }
 
 .employee-card {
@@ -63,6 +56,11 @@
   @extend .card-block;
 }
 
+.employee-links {
+  @extend .card-footer;
+  background-color: white;
+}
+
 .employee-name {
   @extend .card-title;
   font-size: $font-size-xl;
@@ -70,7 +68,7 @@
 
 .employee-position {
   @extend .card-subtitle;
-  @extend .mb-2;
+  @extend .mb-3;
   @extend .text-muted;
   font-size: $font-size-md;
 }
