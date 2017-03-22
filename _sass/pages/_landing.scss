@@ -18,6 +18,7 @@
 
 .lp-body {
   @extend .container;
+  img { @extend .img-fluid; }
 }
 
 .lp-body-heading-wrapper, .lp-body-content-wrapper, .lp-body-cta-wrapper {

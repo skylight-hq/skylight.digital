@@ -24,5 +24,9 @@
 
 .page-header-content {
   @extend .mt-4;
-  img { @extend .mb-3; }
+
+  img {
+    @extend .mb-3;
+    @extend .img-fluid;
+  }
 }

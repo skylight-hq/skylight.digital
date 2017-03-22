@@ -34,6 +34,9 @@ analytics:
 # Build settings
 markdown: kramdown
 
+collections:
+  employees:
+
 sass:
   style: compressed
 

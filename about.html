@@ -15,7 +15,7 @@ title: About Us
     <div class="page-header-content-wrapper">
       <div class="page-header-content">
         <p> Our mission is to make government work in a digital world. </p>
-        <img class="img-fluid" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="" />
+        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="" />
       </div>
     </div>
   </section>
@@ -81,44 +81,9 @@ title: About Us
     </div>
   </section>
 
-  <section class="about-section container-fluid">
-    <div class="about-subheading-wrapper">
-      <div class="about-subheading">
-        <h2> Meet the team </h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card card-outline-primary">
-          <img class="card-img-top img-fluid" src="img/employee.jpg" alt="">
-          <div class="card-block">
-            <h6 class="card-title">Johnny Awesome</h6>
-            <h6 class="card-subtitle mb-2 text-muted">Partner</h6>
-            <p class="card-text">I do important stuff.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-      </div>
-
-      <div class="col-sm-4">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-4">
-      </div>
-
-      <div class="col-sm-4">
-      </div>
-
-      <div class="col-sm-4">
-      </div>
-    </div>
-  </section>
+  {% if site.employees[0] != null %}
+    {% include meet_the_team.html %}
+  {% endif %}
 
   <section class="about-section container">
     <div class="about-subheading-wrapper">

@@ -30,3 +30,76 @@
   p { text-align: left; }
   img { @extend .mb-3; }
 }
+
+.employee-links {
+  border-top: 1px solid $gray-lighter;
+  @extend .mx-auto;
+  @extend .pt-2;
+}
+
+.employees {
+  @extend .row;
+}
+
+.employee {
+  //@extend .col-sm-6;
+  @extend .col-md-6;
+  @extend .col-lg-4;
+  @extend .mb-4;
+}
+
+.employee-card {
+  @extend .card;
+  @extend .card-outline-primary;
+  height: 100%;
+}
+
+.employee-img {
+  @extend .card-img-top;
+  @extend .img-fluid;
+}
+
+.employee-profile {
+  @extend .card-block;
+}
+
+.employee-name {
+  @extend .card-title;
+  font-size: $font-size-xl;
+}
+
+.employee-position {
+  @extend .card-subtitle;
+  @extend .mb-2;
+  @extend .text-muted;
+  font-size: $font-size-md;
+}
+
+.employee-bio {
+  @extend .card-text;
+  font-size: $font-size-sm;
+  text-align: left;
+}
+
+.employee-socials {
+  a:last-child { padding-right: 10px; }
+  a:not(:first-child) { padding-left: 2px;}
+}
+
+.employee-contributions {
+  border-left: 1px solid $gray-lighter;
+  a:first-child { padding-left: 10px; }
+  a:not(:last-child) { padding-right: 2px; }
+}
+
+@include media-breakpoint-up(md) {
+  .employee-socials {
+    a:last-child { padding-right: 15px; }
+    a:not(:first-child) { padding-left: 5px;}
+  }
+
+  .employee-contributions {
+    a:first-child { padding-left: 15px; }
+    a:not(:last-child) { padding-right: 5px; }
+  }
+}
