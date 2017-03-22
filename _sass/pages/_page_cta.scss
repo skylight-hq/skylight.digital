@@ -5,10 +5,6 @@
   @extend .mt-5;
   @extend .pt-3;
   @extend .pb-3;
-
-  blockquote {
-    margin: 0;
-  }
 }
 
 @include media-breakpoint-up(md) {
@@ -18,7 +14,57 @@
   }
 }
 
+.page-cta-hdr-wrapper {
+  @extend .row;
+  @extend .mb-3;
+}
+
+.page-cta-hdr {
+  @extend .col;
+}
+
+.page-cta-content-wrapper {
+  @extend .row;
+  @extend .mb-2;
+}
+
+.page-cta-content {
+  @extend .col;
+  @extend .col-md-9;
+  @extend .col-lg-7;
+  @extend .mx-auto;
+  line-height: 1.75;
+}
+
+.page-cta-btn-wrapper {
+  @extend .row;
+}
+
+.page-cta-btn {
+  @extend .col;
+
+  a {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-lg;
+  }
+}
+
 // Testimonial CTA
+.testimonial-wrapper {
+  @extend .row;
+}
+
+.testimonial {
+  @extend .col-md;
+  @extend .col-lg-9;
+  @extend .mx-auto;
+
+  blockquote {
+    margin: 0;
+  }
+}
+
 .testimonial-quote {
   font-size: $font-size-xl;
   font-style: italic;

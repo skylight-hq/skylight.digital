@@ -3,26 +3,26 @@
   @extend .mt-5;
 }
 
-.page-header {
+.page-hdr {
   @extend .container;
   @extend .mb-3;
 }
 
 @include media-breakpoint-up(md) {
-  .page-header {
+  .page-hdr {
     @include mb-5;
   }
 }
 
-.page-header-title-wrapper, .page-header-content-wrapper {
+.page-hdr-title-wrapper, .page-hdr-content-wrapper {
   @extend .row;
 }
 
-.page-header-title, .page-header-content {
+.page-hdr-title, .page-hdr-content {
   @extend .col;
 }
 
-.page-header-content {
+.page-hdr-content {
   @extend .mt-4;
 
   img {
