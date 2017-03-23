@@ -28,7 +28,11 @@
   @extend .col-md-8;
   @extend .mx-auto;
   p { text-align: left; }
-  img { @extend .mb-3; }
+
+  img {
+    @extend .img-fluid;
+    @extend .mb-3;
+  }
 }
 
 .employees {
