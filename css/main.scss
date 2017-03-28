@@ -4,10 +4,8 @@
 
 @charset "utf-8";
 
-@import "font_faces";
-@import "custom"; // bootstrap customizations
+@import "custom";
 @import "bootstrap/bootstrap";
-@import "variables";
 @import "mixins";
 @import "utilities";
 @import "responsive_typography";

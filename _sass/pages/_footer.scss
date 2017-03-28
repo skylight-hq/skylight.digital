@@ -1,42 +1,91 @@
 .page-footer {
-  background-color: yellow;
-  @include pt-3;
-  @include pb-3;
+  @include py-3;
 }
 
 .footer-content {
   @extend .container;
 }
 
-.footer-brand, .footer-contribute-cta {
+.footer-brand-outer-wrapper,
+.footer-contribute-cta-wrapper {
+  @extend .row;
+}
+
+.footer-brand-inner-wrapper,
+.footer-contribute-cta {
   @extend .col-md-3;
 }
 
-.footer-nav, .footer-socials {
+.footer-brand {
+  @include logo($height: 40);
+}
+
+.footer-contribute-cta a {
+  @extend %button-tertiary;
+}
+
+.footer-nav,
+.footer-socials {
   @extend .col-md-9;
 }
 
-.footer-nav-link {
-  font-size: $font-size-md;
+.footer-nav,
+.footer-socials {
+  a {
+    color: $footer-link-color;
 
-  &:not(:first-child), &:not(:last-child):after {
-    padding-left: 3px;
-  }
-
-  &:not(:last-child)::after {
-    content: "/";
-    padding-left: 6px;
+    &:hover,
+    &:focus {
+      color: $footer-link-hover-color;
+    }
   }
 }
 
-.footer-socials a:not(:last-child) {
-  padding-right: 25px;
+.footer-nav {
+  font-size: $font-size-sm;
+  font-weight: $footer-link-font-weight;
+
+  ul {
+    @extend .list-inline;
+    @extend .m-0;
+  }
+
+  ul li {
+    @extend .list-inline-item;
+  }
+
+  li+li:before
+  {
+  	content: '/';
+  	color: $footer-link-divider-color;
+  	display: inline-block;
+  	margin: 0 5px;
+  }
+
+  a {
+    border-bottom: 1px dotted $footer-link-color;
+
+    &:hover, &:focus {
+      border-bottom: 1px solid $footer-link-hover-color;
+    }
+  }
+}
+
+.footer-socials {
+  a:not(:last-child) {
+    padding-right: 25px;
+  }
+
+  span {
+    @extend .sr-only;
+  }
 }
 
 @include media-breakpoint-down(md) {
   .footer-content > div.row > * {
     @include mb-3;
   }
+
   .footer-content > div:last-child > div:last-child {
     @include mb-0;
   }
@@ -44,26 +93,24 @@
 
 @include media-breakpoint-up(md) {
   .page-footer {
-    @include pt-5;
-    @include pb-5;
+    @include py-5;
   }
 
   .footer-content > div.row:first-child {
     @include mb-3;
   }
 
-  .footer-nav, .footer-socials {
+  .footer-nav,
+  .footer-socials {
     text-align: right;
   }
 
-  .footer-nav-link {
-    &:not(:first-child), &:not(:last-child):after {
-      padding-left: 6px;
-    }
+  .footer-nav {
+    font-size: $font-size-md;
 
-    &:not(:last-child)::after {
-      content: "/";
-      padding-left: 12px;
+    li+li:before
+    {
+      margin: 0 10px;
     }
   }
 }

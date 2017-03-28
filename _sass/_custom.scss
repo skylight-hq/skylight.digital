@@ -1,7 +1,119 @@
+//
+//
+// Skylight font faces and brand colors
+//
+//
+
+// Font faces
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: normal;
+  font-weight: 400;
+  src:  url(/fonts/geomanist-regular-webfont.eot);
+  src:  url(/fonts/geomanist-regular-webfont.eot?#iefix) format("embedded-opentype"),
+        url(/fonts/geomanist-regular-webfont.woff2) format("woff2"),
+        url(/fonts/geomanist-regular-webfont.woff) format("woff"),
+        url(/fonts/geomanist-regular-webfont.ttf) format("truetype"),
+        url(/fonts/geomanist-regular-webfont.svg#geomanist_regularregular) format("svg");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: normal;
+  font-weight: 700;
+  src:  url(/fonts/geomanist-medium-webfont.eot);
+  src:  url(/fonts/geomanist-medium-webfont.eot?#iefix) format("embedded-opentype"),
+        url(/fonts/geomanist-medium-webfont.woff2) format("woff2"),
+        url(/fonts/geomanist-medium-webfont.woff) format("woff"),
+        url(/fonts/geomanist-medium-webfont.ttf) format("truetype"),
+        url(/fonts/geomanist-medium-webfont.svg#geomanistmedium) format("svg");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: normal;
+  font-weight: 100;
+  src:  url(/fonts/geomanist-light-webfont.eot);
+  src:  url(/fonts/geomanist-light-webfont.eot?#iefix) format("embedded-opentype"),
+        url(/fonts/geomanist-light-webfont.woff2) format("woff2"),
+        url(/fonts/geomanist-light-webfont.woff) format("woff"),
+        url(/fonts/geomanist-light-webfont.ttf) format("truetype"),
+        url(/fonts/geomanist-light-webfont.svg#geomanistlight) format("svg");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: italic;
+  font-weight: 400;
+  src:  url(/fonts/geomanist-regular-italic-webfont.eot);
+  src:  url(/fonts/geomanist-regular-italic-webfont.eot?#iefix) format("embedded-opentype"),
+        url(/fonts/geomanist-regular-italic-webfont.woff2) format("woff2"),
+        url(/fonts/geomanist-regular-italic-webfont.woff) format("woff"),
+        url(/fonts/geomanist-regular-italic-webfont.ttf) format("truetype"),
+        url(/fonts/geomanist-regular-italic-webfont.svg#geomanistregular_italic) format("svg");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: italic;
+  font-weight: 700;
+  src:  url(/fonts/geomanist-medium-italic-webfont.eot);
+  src:  url(/fonts/geomanist-medium-italic-webfont.eot?#iefix) format("embedded-opentype"),
+        url(/fonts/geomanist-medium-italic-webfont.woff2) format("woff2"),
+        url(/fonts/geomanist-medium-italic-webfont.woff) format("woff"),
+        url(/fonts/geomanist-medium-italic-webfont.ttf) format("truetype"),
+        url(/fonts/geomanist-medium-italic-webfont.svg#geomanistmedium_italic) format("svg");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: italic;
+  font-weight: 100;
+  src:  url(/fonts/geomanist-light-italic-webfont.eot);
+  src:  url(/fonts/geomanist-light-italic-webfont.eot?#iefix) format("embedded-opentype"),
+        url(/fonts/geomanist-light-italic-webfont.woff2) format("woff2"),
+        url(/fonts/geomanist-light-italic-webfont.woff) format("woff"),
+        url(/fonts/geomanist-light-italic-webfont.ttf) format("truetype"),
+        url(/fonts/geomanist-light-italic-webfont.svg#geomanistlight_italic) format("svg");
+}
+
+// Brand colors
+
+$cool-gray: #53565a;
+$deep-cerulean: #0076a8;
+$eucalyptus: #228848;
+$tangerine: #ed8b00;
+$flush-mahogany: #cb333b;
+
 // Bootstrap overrides
 //
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
+//
+
+// Colors
+$white: #fff;
+
+$gray: $cool-gray;
+$gray-dark: darken($gray, 10%);
+$gray-light: lighten($gray, 10%);
+$gray-lighter: lighten($gray, 30%);
+$gray-lightest: lighten($gray, 50%);
+
+$brand-primary: $deep-cerulean;
+$brand-success: $eucalyptus;
+$brand-info: $deep-cerulean;
+$brand-warning: $tangerine;
+$brand-danger: $flush-mahogany;
+$brand-inverse: $gray-dark;
+
+// Body
+$body-color: $gray;
+
+// Links
+$link-color: $brand-primary;
+$link-hover-decoration: none;
 
 // Fonts
 $font-family-sans-serif: "Geomanist", sans-serif;
@@ -11,11 +123,92 @@ $font-size-lg: 1.25rem;
 $font-size-sm: .9rem;
 $font-size-xs: .8rem;
 
-$font-size-h1: 3.25rem;
+$font-size-h1: 3.75rem;
 $font-size-h2: 3.0rem;
 $font-size-h3: 2.75rem;
 $font-size-h4: 2.50rem;
 $font-size-h5: 2.25rem;
 $font-size-h6: 2.0rem;
 
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
 $headings-font-weight: 700;
+
+$text-muted: $gray-light;
+
+$list-inline-padding: 0;
+
+// Buttons
+$btn-primary-color: $white;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: $white;
+
+$btn-secondary-color: $brand-primary;
+$btn-secondary-bg: $white;
+$btn-secondary-border: $brand-primary;
+
+// Jumbotron
+$jumbotron-bg: $brand-primary;
+
+// Cards
+$card-border-color: $gray-lightest;
+
+// Tooltips
+$tooltip-bg: $brand-primary;
+
+//
+//
+// Skylight variables
+//
+//
+
+// Links
+$text-link-color: $brand-primary;
+$text-link-decoration-color: $brand-primary;
+$text-link-hover-color: $text-link-color;
+$text-link-decoration-hover-color: $text-link-decoration-color;
+
+// Fonts
+$font-size-h1-md: 2.75rem;
+$font-size-h2-md: 2.50rem;
+$font-size-h3-md: 2.25rem;
+$font-size-h1-sm: 2rem;
+$font-size-h2-sm: 1.75rem;
+$font-size-h3-sm: 1.5rem;
+
+$font-size-xxxl: 2.5rem;
+$font-size-xxl: 2.0rem;
+$font-size-md: 1rem;
+$font-size-xl: 1.50rem;
+$font-size-xs: .85rem;
+
+// Buttons
+$btn-tertiary-color: $body-color;
+$btn-tertiary-bg: $white;
+$btn-tertiary-border: $btn-tertiary-color;
+$btn-tertiary-active-color: $brand-primary;
+
+// Main nav
+$nav-link-color: $body-color;
+$nav-link-decoration: none;
+$nav-link-hover-color: $nav-link-color;
+$nav-link-hover-decoration: none;
+$nav-link-border-color: $brand-primary;
+
+$nav-toggler-color: $nav-link-color;
+$nav-toggler-hover-color: $brand-primary;
+
+// Jumbotron
+$jumbotron-color: $white;
+
+// Page CTA
+$page-cta-color: $white;
+$page-cta-bg-color: $brand-primary;
+
+// Footer
+$footer-link-color: $body-color;
+$footer-link-hover-color: $brand-primary;
+$footer-link-divider-color: $footer-link-color;
+
+$footer-link-font-weight: 100;

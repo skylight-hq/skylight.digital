@@ -1,23 +1,25 @@
 <footer class="page-footer">
 
   <div class="footer-content">
-    <div class="row">
-      <div class="footer-brand">
-        <a href="/">Skylight</a>
+    <div class="footer-brand-outer-wrapper">
+      <div class="footer-brand-inner-wrapper">
+        <a class="footer-brand" href="/"></a>
       </div>
 
       <nav class="footer-nav">
-        <a class="footer-nav-link" href="/guilds">Guilds</a>
-        <a class="footer-nav-link" href="/guides">Guides</a>
-        <a class="footer-nav-link" href="/alliances">Alliances</a>
-        <a class="footer-nav-link" href="/press">Press</a>
-        <a class="footer-nav-link" href="/policies">Policies</a>
+        <ul>
+          <li><a href="/guilds">Guilds</a></li>
+          <li><a href="/guides">Guides</a></li>
+          <li><a href="/alliances">Alliances</a></li>
+          <li><a href="/press">Press</a></li>
+          <li><a href="/policies">Policies</a></li>
+        </ul>
       </nav>
     </div>
 
-    <div class="row">
+    <div class="footer-contribute-cta-wrapper">
       <div class="footer-contribute-cta">
-        <a class="btn btn-outline-primary btn-sm" href="{{ site.github_issues_url }}" role="button" target="_blank">
+        <a href="{{ site.github_issues_url }}" role="button" target="_blank">
           Contribute to this site
         </a>
       </div>
@@ -25,17 +27,17 @@
       <div class="footer-socials">
         <a href="{{ site.twitter_url }}" target="_blank">
           <i class="fa fa-2x fa-twitter" aria-hidden="true" title="Twitter"></i>
-          <span class="sr-only">Twitter</span>
+          <span>Twitter</span>
         </a>
 
         <a href="{{ site.linkedin_url }}" target="_blank">
           <i class="fa fa-2x fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
-          <span class="sr-only">LinkedIn</span>
+          <span>LinkedIn</span>
         </a>
 
         <a href="{{ site.github_url }}" target="_blank">
           <i class="fa fa-2x fa-github" aria-hidden="true" title="GitHub"></i>
-          <span class="sr-only">GitHub</span>
+          <span>GitHub</span>
         </a>
       </div>
     </div>

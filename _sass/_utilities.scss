@@ -1,1 +1,12 @@
+.text {
+  a {
+    color: $text-link-color;
+    border-bottom: 1px dotted $text-link-decoration-color;
 
+    &:hover,
+    &:focus {
+      color: $text-link-hover-color;
+      border-bottom: 1px solid $text-link-decoration-hover-color;
+    }
+  }
+}

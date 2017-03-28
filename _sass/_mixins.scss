@@ -1,10 +1,125 @@
 // Spacing
 @mixin mt-5 { margin-top: 3rem !important; }
+
 @mixin mb-0 { margin-bottom: 0 !important; }
 @mixin mb-3 { margin-bottom: 1rem !important; }
 @mixin mb-4 { margin-bottom: 1.5rem !important; }
 @mixin mb-5 { margin-bottom: 3rem !important; }
+
 @mixin pt-3 { padding-top: 1rem !important; }
 @mixin pb-3 { padding-bottom: 1rem !important; }
+
 @mixin pt-5 { padding-top: 3rem !important; }
 @mixin pb-5 { padding-bottom: 3rem !important; }
+
+@mixin pr-2 { padding-right: 0.5rem !important; }
+@mixin pl-2 { padding-left: 0.5rem !important; }
+
+@mixin pr-3 { padding-right: 1rem !important; }
+@mixin pl-3 { padding-left: 1rem !important; }
+
+@mixin py-3 {
+  @include pt-3;
+  @include pb-3;
+}
+
+@mixin py-5 {
+  @include pt-5;
+  @include pb-5;
+}
+
+@mixin px-2 {
+  @include pr-2;
+  @include pl-2;
+}
+
+@mixin px-3 {
+  @include pr-3;
+  @include pl-3;
+}
+
+// Buttons
+
+// Copy of Bootstrap's button variant mixin with
+// disabled and active styles removed
+@mixin button-tertiary($color, $background, $border, $active-color) {
+  $active-background: $background;
+  $active-border: $active-color;
+
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+  @include box-shadow($btn-box-shadow);
+
+  @include hover { // styles focus state as well
+    color: $active-color;
+    background-color: $active-background;
+    border-color: $active-border;
+  }
+
+  &:focus,
+  &.focus {
+    @if $enable-shadows {
+      box-shadow: $btn-box-shadow, 0 0 0 2px rgba($border, .5);
+    } @else {
+      box-shadow: 0 0 0 2px rgba($border, .5);
+    }
+  }
+
+  i {
+    color: $active-color;
+  }
+}
+
+%button-base {
+  @extend .btn;
+  @extend .font-weight-bold;
+
+  i {
+    @extend .ml-2;
+  }
+}
+
+%button-primary {
+  @extend %button-base;
+  @extend .btn-primary;
+  @extend .btn-lg;
+  @extend .text-uppercase;
+}
+
+%button-secondary {
+  @extend %button-base;
+  @extend .btn-secondary;
+  @extend .btn-outline-secondary;
+  @extend .btn-lg;
+}
+
+%button-tertiary {
+  @extend %button-base;
+  @extend .btn-sm;
+  @include button-tertiary($btn-tertiary-color, $btn-tertiary-bg,
+    $btn-tertiary-border, $btn-tertiary-active-color);
+}
+
+// Brand
+@mixin logo($width: 200, $height: 50) {
+  display: block;
+  background: url(/img/logo.png) no-repeat;
+  background: url(/img/logo.svg) no-repeat;
+  width: #{$width}px;
+  height: #{$height}px;
+  background-size: contain;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+  @include media-breakpoint-down(sm) {
+    width: 150px;
+    height: 40px;
+  }
+}
