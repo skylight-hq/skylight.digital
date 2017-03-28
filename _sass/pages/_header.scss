@@ -1,7 +1,69 @@
+header {
+  @extend .container;
+}
+
+header nav {
+  @extend .navbar;
+  @extend .navbar-toggleable-sm;
+  @extend .py-3;
+}
+
 .navbar {
   font-size: $font-size-md;
 }
 
-.nav-wrapper {
-  @extend .container; // for some reason @include make-container(); won't work
+.navbar-nav {
+  a {
+    @extend .nav-item;
+    @extend .nav-link;
+    @extend .px-3;
+
+    @include media-breakpoint-down(md) {
+      @include px-2;
+    }
+
+    &:last-child {
+      @extend .pr-0;
+    }
+
+    color: $nav-link-color;
+    text-decoration: $nav-link-decoration;
+
+    &:hover,
+    &:focus,
+    &.current {
+      color: $nav-link-hover-color;
+      text-decoration: $nav-link-hover-decoration;
+
+      span {
+        padding-bottom: 3px;
+        border-bottom: 5px $nav-link-border-color solid;
+      }
+    }
+  }
+}
+
+.navbar-brand-toggler-wrapper {
+  @extend .d-flex;
+  @extend .justify-content-between;
+}
+
+.navbar-brand {
+  @include logo;
+}
+
+.navbar-toggler {
+  color: $nav-toggler-color;
+  align-self: center;
+
+  &:hover,
+  &:focus {
+    color: $nav-toggler-hover-color;
+  }
+}
+
+#main-nav {
+  @extend .collapse;
+  @extend .navbar-collapse;
+  @extend .justify-content-end;
 }

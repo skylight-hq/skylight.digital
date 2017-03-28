@@ -1,5 +1,5 @@
 .landing-page {
-  text-align: center;
+  @extend .text-center;
 }
 
 .lp-headline {
@@ -10,30 +10,35 @@
 
 .lp-headline-content {
   @extend .container;
+  color: $jumbotron-color;
 
   @include media-breakpoint-down(xs) {
-    .lead { font-size: $font-size-base; }
+    .lead {
+      font-size: $font-size-base;
+    }
   }
 }
 
 .lp-headline-cta-btn {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-lg;
-  @extend .text-uppercase;
-  @extend .font-weight-bold;
+  @extend %button-primary;
 }
 
 .lp-body {
   @extend .container;
-  img { @extend .img-fluid; }
+
+  img {
+    @extend .img-fluid;
+  }
 }
 
-.lp-body-hdr-wrapper, .lp-body-content-wrapper, .lp-body-cta-wrapper {
+.lp-body-hdr-wrapper,
+.lp-body-content-wrapper,
+.lp-body-cta-wrapper {
   @extend .row;
 }
 
-.lp-body-hdr, .lp-body-cta  {
+.lp-body-hdr,
+.lp-body-cta {
   @extend .col;
 }
 
@@ -47,18 +52,29 @@
   @extend .col-md-8;
   @extend .col-lg-7;
   @extend .mx-auto;
+  @extend .text;
 }
 
 .lp-body-cta-btn {
-  @extend .btn;
-  @extend .btn-outline-primary;
-  @extend .btn-lg;
+  @extend %button-secondary;
 }
 
 .lp-body-section {
   @extend .mt-5;
-  .row:not(:last-child) { @extend .mb-4; }
-  h2 { @extend .mb-0; }
-  p { text-align: left; }
-  p:last-child { @extend .mb-0; }
+
+  .row:not(:last-child) {
+    @extend .mb-4;
+  }
+
+  h2 {
+    @extend .mb-0;
+  }
+
+  p {
+    @extend .text-left;
+  }
+
+  p:last-child {
+    @extend .mb-0;
+  }
 }

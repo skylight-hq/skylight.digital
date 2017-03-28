@@ -1,16 +1,14 @@
 .page-cta {
-  background-color: green;
-  color: white;
-  text-align: center;
+  background-color: $page-cta-bg-color;
+  color: $page-cta-color;
+  @extend .text-center;
   @extend .mt-5;
-  @extend .pt-3;
-  @extend .pb-3;
+  @extend .py-3;
 }
 
 @include media-breakpoint-up(md) {
   .page-cta {
-    @include pt-5;
-    @include pb-5;
+    @include py-5;
   }
 }
 
@@ -44,9 +42,7 @@
   @extend .col;
 
   a {
-    @extend .btn;
-    @extend .btn-primary;
-    @extend .btn-lg;
+    @extend %button-primary;
   }
 }
 
@@ -67,7 +63,7 @@
 
 .testimonial-quote {
   font-size: $font-size-xl;
-  font-style: italic;
+  @extend .font-italic;
   font-weight: 400;
   line-height: 1.25;
 
@@ -90,7 +86,9 @@
   font-style: normal;
 }
 
-.testimonial-author, .testimonial-position, .testimonial-org {
+.testimonial-author,
+.testimonial-position,
+.testimonial-org {
   display: block;
 }
 

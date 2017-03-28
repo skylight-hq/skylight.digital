@@ -1,6 +1,14 @@
-@mixin page {
-  text-align: center;
+%page {
   @extend .mt-5;
+  @extend .text-center;
+
+  h1 {
+    color: $brand-primary;
+  }
+
+  h2 {
+    font-weight: 400;
+  }
 }
 
 .page-hdr {
@@ -14,11 +22,13 @@
   }
 }
 
-.page-hdr-title-wrapper, .page-hdr-content-wrapper {
+.page-hdr-title-wrapper,
+.page-hdr-content-wrapper {
   @extend .row;
 }
 
-.page-hdr-title, .page-hdr-content {
+.page-hdr-title,
+.page-hdr-content {
   @extend .col;
 }
 
