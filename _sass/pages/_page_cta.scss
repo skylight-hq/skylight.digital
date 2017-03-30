@@ -29,7 +29,7 @@
 .page-cta-content {
   @extend .col;
   @extend .col-md-9;
-  @extend .col-lg-7;
+  //@extend .col-lg-7;
   @extend .mx-auto;
   line-height: 1.75;
 }

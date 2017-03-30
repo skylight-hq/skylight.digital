@@ -36,6 +36,7 @@ markdown: kramdown
 
 collections:
   employees:
+  service_areas:
 
 sass:
   style: compressed
