@@ -3,7 +3,7 @@ name: sean-johnson
 fname: Sean
 lname: Johnson
 full_name: Sean Johnson
-image_url: /img/people/sean-johnson.jpg
+image_path: /img/people/sean-johnson.png
 image_description: Photo of Sean Johnson
 position: Software Engineer
 bio: >
