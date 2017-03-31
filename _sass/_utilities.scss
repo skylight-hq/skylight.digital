@@ -7,6 +7,10 @@
 }
 
 @include media-breakpoint-up(md) {
+  .mt-md-6 {
+    @include mt-6;
+  }
+
   .mb-md-10 {
     @include mb-10;
   }
