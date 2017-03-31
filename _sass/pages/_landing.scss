@@ -15,6 +15,10 @@
   @extend .container;
   color: $jumbotron-color;
 
+  h1 {
+    @extend .mt-md-5;
+  }
+
   .lead {
     @extend .mt-3;
 
@@ -28,7 +32,7 @@
   @extend %button-primary;
   @extend .mt-3;
   @extend .mb-sm-3;
-  @extend .mb-md-5;
+  @extend .mb-md-10;
 }
 
 .lp-body {
