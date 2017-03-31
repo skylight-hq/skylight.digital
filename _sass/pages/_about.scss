@@ -3,27 +3,13 @@
 }
 
 .about-section {
-  h2 {
-    @extend .mb-3;
-  }
-
-  .about-content p:last-child {
-    @extend .mb-0;
-  }
-
   &:not(:last-child) {
     @extend .mb-3;
   }
-}
 
-@include media-breakpoint-up(md) {
-  .about-section {
+  @include media-breakpoint-up(md) {
     &:not(:last-child) {
       @include mb-5;
-    }
-
-    h2 {
-      @include mb-4;
     }
   }
 }
@@ -31,6 +17,14 @@
 .about-subheading-wrapper,
 .about-content-wrapper {
   @extend .row;
+}
+
+.about-subheading-wrapper {
+  @extend .mb-3;
+
+  @include media-breakpoint-up(md) {
+    @include mb-4;
+  }
 }
 
 .about-subheading {
@@ -45,6 +39,10 @@
 
   p {
     @extend .text-left;
+
+    &:last-child {
+      @extend .mb-0;
+    }
   }
 
   img {
