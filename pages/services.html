@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Our Services
+permalink: /services/
 ---
 
 <div class="our-services">
@@ -22,21 +23,24 @@ title: Our Services
   <section class="service-areas-section">
     <div class="service-areas">
 
-      {% for service_area in site.service_areas %}
-        <div class="service-area">
-          <a href="{{service_area.path}}">
-            <div class="service-area-card">
-              <img class="service-area-icon" src="{{service_area.icon_path}}" alt="{{service_area.icon_description}}">
-              <div class="service-area-description">
-                <h3>{{service_area.name}}</h3>
-                <p>{{service_area.description}}</p>
+      {% assign service_areas = site.service_areas | sort: 'order' %}
+      {% for service_area in service_areas %}
+        {% if service_area.feature %}
+          <div class="service-area">
+            <a href="{{service_area.permalink}}">
+              <div class="service-area-card">
+                <img class="service-area-icon" src="{{service_area.icon_path}}" alt="{{service_area.icon_description}}">
+                <div class="service-area-description">
+                  <h3>{{service_area.title}}</h3>
+                  <p>{{service_area.teaser}}</p>
+                </div>
+                <div class="service-area-directional-icon">
+                  <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
+                </div>
               </div>
-              <div class="service-area-directional-icon">
-                <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
-              </div>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
+        {% endif %}
       {% endfor %}
 
     </div>
@@ -44,7 +48,7 @@ title: Our Services
     <div class="minor-service-areas">
       <div class="minor-service-area">
         <p>
-          Also, check out our <a class="text" href="/services/microconsulting">Microconsulting Services</a>.
+          Also, check out our <a class="text" href="/services/microconsulting/">Microconsulting Services</a>.
         </p>
       </div>
     </div>

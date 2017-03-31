@@ -1,0 +1,30 @@
+.service-area-showcase {
+  @extend %page;
+}
+
+.service-elements {
+  @extend .container;
+}
+
+.service-element-wrapper {
+  @extend .row;
+}
+
+.service-element {
+  @extend .col-md-6;
+  @extend .col-lg-4;
+  @extend .mb-3;
+  @extend .mb-md-5;
+}
+
+.service-element-content-box {
+  @extend .text-left;
+  border-top: 1px solid $gray-lightest;
+  width: 90%;
+
+  h3 {
+    @extend .my-3;
+    @extend .text-uppercase;
+    font-size: $font-size-md;
+  }
+}

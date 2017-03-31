@@ -6,7 +6,7 @@
   @extend .jumbotron;
   @extend .jumbotron-fluid;
   @extend .mb-0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("../img/buzzword-stickies.jpg");
   background-size: cover;
 }
@@ -16,11 +16,11 @@
   color: $jumbotron-color;
 
   h1 {
-    @extend .mt-md-5;
+    @extend .mt-md-6;
   }
 
   .lead {
-    @extend .mt-3;
+    @extend .mt-4;
 
     @include media-breakpoint-down(xs) {
       font-size: $font-size-base;
@@ -30,7 +30,7 @@
 
 .lp-headline-cta-btn {
   @extend %button-primary;
-  @extend .mt-3;
+  @extend .mt-4;
   @extend .mb-sm-3;
   @extend .mb-md-10;
 }

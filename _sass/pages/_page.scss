@@ -14,12 +14,7 @@
 .page-hdr {
   @extend .container;
   @extend .mb-3;
-}
-
-@include media-breakpoint-up(md) {
-  .page-hdr {
-    @include mb-5;
-  }
+  @extend .mb-md-5;
 }
 
 .page-hdr-title-wrapper,
@@ -27,16 +22,33 @@
   @extend .row;
 }
 
-.page-hdr-title,
-.page-hdr-content {
+.page-hdr-title {
   @extend .col;
 }
 
-.page-hdr-content {
+%page-hdr-content-base {
   @extend .mt-4;
 
   img {
     @extend .mb-3;
     @extend .img-fluid;
+  }
+}
+
+.page-hdr-content {
+  @extend .col;
+  @extend %page-hdr-content-base;
+}
+
+.page-hdr-content-variant {
+  @extend %page-hdr-content-base;
+  @extend .col-11;
+  @extend .col-sm-12;
+  @extend .col-lg-10;
+  @extend .mx-auto;
+
+  p {
+    @extend .text-left;
+    line-height: 1.75;
   }
 }

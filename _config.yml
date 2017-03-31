@@ -13,7 +13,7 @@ description: >
   on making government work in a digital world.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: title
+permalink: /:title/
 url: https://skylight.digital
 localhost: localhost:4000
 twitter_url: ""
@@ -35,12 +35,17 @@ analytics:
 markdown: kramdown
 
 collections:
+  service_areas:
+    permalink: /services/:path/
   employees:
   service_areas:
   capability_groups:
 
 sass:
   style: compressed
+
+include:
+  - _service_areas
 
 exclude:
   - .gitignore

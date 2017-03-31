@@ -1,0 +1,13 @@
+<div class="service-elements">
+  <div class="service-element-wrapper">
+    {% assign service_elements = page.service_elements | sort: 'order' %}
+    {% for service_element in service_elements %}
+      <div class="service-element">
+        <div class="service-element-content-box">
+          <h3>{{service_element.name}}</h3>
+          <p>{{service_element.description}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
