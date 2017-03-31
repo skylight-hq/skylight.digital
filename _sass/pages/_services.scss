@@ -2,6 +2,19 @@
   @extend %page;
 }
 
+.service-areas-section, .capabilities-section {
+  @extend .mb-5;
+
+  @include media-breakpoint-up(md) {
+    @include mb-7;
+  }
+}
+
+// Service areas
+.service-areas-section {
+  @extend .container-fluid;
+}
+
 .service-areas {
   @extend .row;
 }
@@ -41,6 +54,7 @@
   h3 {
     @extend .card-title;
     @extend .text-uppercase;
+    @extend .font-weight-normal;
     font-size: $font-size-md;
     color: $brand-primary;
 
@@ -66,4 +80,139 @@
   @extend .card-footer;
   @extend .no-border;
   padding: 0rem 1.25rem;
+}
+
+.minor-service-areas {
+  @extend .row;
+  @extend .mt-5;
+}
+
+.minor-service-area {
+  @extend .col;
+
+  p {
+    @extend .text;
+    @extend .m-0;
+  }
+}
+
+// Key capabilities
+.capabilities-section {
+  .container:first-child {
+    @extend .mb-3;
+  }
+
+  @include media-breakpoint-up(md) {
+    .container:first-child {
+      @include mb-5;
+    }
+  }
+}
+
+.capabilities-hdr-wrapper {
+  @extend .row;
+}
+
+.capabilities-hdr {
+  @extend .col;
+}
+
+.capabilities-lead-wrapper {
+  @extend .row;
+  @extend .mt-3;
+
+  @include media-breakpoint-up(md) {
+    @include mt-5;
+  }
+}
+
+.capabilities-lead {
+  @extend .col;
+  @extend .col-md-10;
+  @extend .col-lg-9;
+  @extend .mx-auto;
+
+  p {
+    @extend .text-left;
+    @extend .mb-0;
+  }
+}
+
+.capabilities {
+  @extend .row;
+}
+
+.capability-group {
+  @extend .col-md-6;
+  @extend .col-lg-4;
+  @extend .mt-4;
+
+  div {
+    @extend .mx-auto;
+    @extend .mb-4;
+    border-top: 1px solid $gray-lightest;
+    width: 75%;
+  }
+
+  h3 {
+    @extend .mb-3;
+    @extend .text-uppercase;
+    font-size: $font-size-md;
+  }
+
+  ul {
+    @extend .list-unstyled;
+    font-size: $font-size-md;
+    line-height: 1.75;
+  }
+}
+
+// Industry information
+.industry-info-section {
+  @extend .container;
+}
+
+.industry-info-hdr-wrapper {
+  @extend .row;
+  @extend .mb-3;
+
+  @include media-breakpoint-up(sm) {
+    @include mb-5;
+  }
+}
+
+.industry-info-hdr {
+  @extend .col;
+}
+
+.industry-info-list {
+  @extend .row;
+}
+
+.industry-info-items {
+  @extend .col-sm-6;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-between;
+  @extend .mb-4;
+
+  @include media-breakpoint-up(sm) {
+    @include mb-0;
+  }
+
+  .industry-info-item:not(:last-child) {
+    @extend .mb-4;
+  }
+}
+
+.industry-info-item {
+  h4 {
+    @extend .font-weight-bold;
+    @extend .m-0;
+    font-size: $font-size-base;
+  }
+
+  div + div {
+    @extend .mt-1;
+  }
 }

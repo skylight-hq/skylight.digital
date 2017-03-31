@@ -8,18 +8,18 @@ title: Our Services
   <section class="page-hdr">
     <div class="page-hdr-title-wrapper">
       <div class="page-hdr-title">
-        <h1> Our Services </h1>
+        <h1>Our Services</h1>
       </div>
     </div>
 
     <div class="page-hdr-content-wrapper">
       <div class="page-hdr-content">
-        <p> A lot goes into making you a digital-first agency. </p>
+        <p>A lot goes into making you a digital-first agency.</p>
       </div>
     </div>
   </section>
 
-  <div class="container-fluid">
+  <section class="service-areas-section">
     <div class="service-areas">
 
       {% for service_area in site.service_areas %}
@@ -40,7 +40,104 @@ title: Our Services
       {% endfor %}
 
     </div>
-  </div>
+
+    <div class="minor-service-areas">
+      <div class="minor-service-area">
+        <p>
+          Also, check out our <a class="text" href="/services/microconsulting">Microconsulting Services</a>.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="capabilities-section">
+
+    <div class="container">
+      <div class="capabilities-hdr-wrapper">
+        <div class="capabilities-hdr">
+          <h2>Key capabilities</h2>
+        </div>
+      </div>
+
+      <div class="capabilities-lead-wrapper">
+        <div class="capabilities-lead">
+          <p>
+            Your digital challenges aren't siloed and static. Our teams are smartly
+            tailored to meet your unique and evolving needs, and to impart you with
+            the competencies necessary to succeed in the digital era.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="capabilities">
+        {% for capability_group in site.capability_groups %}
+          <div class="capability-group">
+            <div aria-hidden="true"></div>
+            <h3>{{capability_group.name}}</h3>
+            <ul>
+              {% for capabilitiy in capability_group.capabilities %}
+                <li>{{capabilitiy.name}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </section>
+
+  <section class="industry-info-section">
+
+    <div class="industry-info-hdr-wrapper">
+      <div class="industry-info-hdr">
+        <h2>Industry information</h2>
+      </div>
+    </div>
+
+    <div class="industry-info-list">
+
+      <div class="industry-info-items">
+        <div class="industry-info-item">
+          <h4>Legal Name</h4>
+          <div>Skylight Digital LLC</div>
+        </div>
+
+        <div class="industry-info-item">
+          <h4>DUNS #</h4>
+          <div>080202677</div>
+        </div>
+
+        <div class="industry-info-item">
+          <h4>CAGE Code</h4>
+          <div>7QNG6</div>
+        </div>
+      </div>
+
+      <div class="industry-info-items">
+        <div class="industry-info-item">
+          <h4>SIC Codes</h4>
+          <div>8742 (Management Consulting Services)</div>
+          <div>7371 (Computer Programming Services)</div>
+        </div>
+
+        <div class="industry-info-item">
+          <h4>NAICS Codes</h4>
+          <div>541611</div>
+          <div>541511</div>
+        </div>
+
+        <div class="industry-info-item">
+          <h4>HUBZone Certification #</h4>
+          <div>56905</div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
 </div>
 

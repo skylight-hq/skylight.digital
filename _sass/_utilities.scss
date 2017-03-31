@@ -1,3 +1,11 @@
+.mb-6 {
+  @include mb-6;
+}
+
+.mb-7 {
+  @include mb-7;
+}
+
 .text {
   a {
     color: $text-link-color;
@@ -12,5 +20,5 @@
 }
 
 .no-border {
-  border: none;
+  border: none !important;
 }
