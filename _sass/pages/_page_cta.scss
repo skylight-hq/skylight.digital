@@ -26,12 +26,22 @@
   @extend .mb-2;
 }
 
-.page-cta-content {
+%page-cta-content-base {
   @extend .col;
-  @extend .col-md-9;
-  @extend .col-lg-7;
   @extend .mx-auto;
   line-height: 1.75;
+}
+
+.page-cta-content {
+  @extend %page-cta-content-base;
+  @extend .col-md-9;
+  @extend .col-lg-7;
+}
+
+.page-cta-content-narrow {
+  @extend %page-cta-content-base;
+  @extend .col-md-7;
+  @extend .col-lg-5;
 }
 
 .page-cta-btn-wrapper {
