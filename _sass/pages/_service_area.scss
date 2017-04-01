@@ -11,10 +11,12 @@
 }
 
 .service-element {
+  @extend .col-11;
   @extend .col-md-6;
   @extend .col-lg-4;
   @extend .mb-3;
   @extend .mb-md-5;
+  @extend .mx-auto;
 }
 
 .service-element-content-box {

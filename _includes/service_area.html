@@ -1,0 +1,33 @@
+<div class="service-area-showcase">
+
+  <div class="page-hdr">
+    <div class="page-hdr-title-wrapper">
+      <div class="page-hdr-title">
+        <h1>{{page.title}}</h1>
+      </div>
+    </div>
+
+    <div class="page-hdr-content-wrapper">
+      <div class="page-hdr-content-variant">
+        <p>{{page.description}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-elements">
+    <div class="service-element-wrapper">
+      {% assign service_elements = page.service_elements | sort: 'order' %}
+      {% for service_element in service_elements %}
+        <div class="service-element">
+          <div class="service-element-content-box">
+            <h3>{{service_element.name}}</h3>
+            <p>{{service_element.description}}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+
+{% include hire_us_cta.html %}

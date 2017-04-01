@@ -1,5 +1,6 @@
 .page-footer {
-  @include py-3;
+  @extend .py-4;
+  @extend .py-md-5;
 }
 
 .footer-content {
@@ -31,6 +32,8 @@
 
 .footer-nav,
 .footer-socials {
+  @extend .text-md-right;
+
   a {
     color: $footer-link-color;
 
@@ -92,17 +95,8 @@
 }
 
 @include media-breakpoint-up(md) {
-  .page-footer {
-    @include py-5;
-  }
-
   .footer-content > div.row:first-child {
-    @include mb-3;
-  }
-
-  .footer-nav,
-  .footer-socials {
-    text-align: right;
+    @include mb-4;
   }
 
   .footer-nav {

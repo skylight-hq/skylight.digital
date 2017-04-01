@@ -4,10 +4,7 @@
 
 .service-areas-section, .capabilities-section {
   @extend .mb-5;
-
-  @include media-breakpoint-up(md) {
-    @include mb-7;
-  }
+  @extend .mb-md-7;
 }
 
 // Service areas
@@ -98,15 +95,12 @@
 
 // Key capabilities
 .capabilities-section {
+
   .container:first-child {
     @extend .mb-3;
+    @extend .mb-md-5;
   }
 
-  @include media-breakpoint-up(md) {
-    .container:first-child {
-      @include mb-5;
-    }
-  }
 }
 
 .capabilities-hdr-wrapper {
@@ -120,10 +114,7 @@
 .capabilities-lead-wrapper {
   @extend .row;
   @extend .mt-3;
-
-  @include media-breakpoint-up(md) {
-    @include mt-5;
-  }
+  @extend .mt-md-5;
 }
 
 .capabilities-lead {
@@ -195,10 +186,7 @@
   @extend .flex-column;
   @extend .justify-content-between;
   @extend .mb-4;
-
-  @include media-breakpoint-up(sm) {
-    @include mb-0;
-  }
+  @extend .mb-sm-0;
 
   .industry-info-item:not(:last-child) {
     @extend .mb-4;
