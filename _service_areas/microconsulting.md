@@ -3,11 +3,11 @@ layout: default
 title: Microconsulting
 header_content_css_class: page-hdr-content-2
 header_content: >
-  Sometimes, you need immediate support to address critical challenges or questions, which
-  does not require a full-blown engagement. Our Microconsulting services are designed
-  for that purpose, providing you with on-demand access to our digital expertise.
-  These services are conveniently priced within the federal government
-  micropurchase threshold, making us just a swipe of a credit card away.
+  Need immediate, quick-hit support to address a critical challenge or question that does not require a
+  full-blown engagement? Our Microconsulting services are designed specifically for that purpose,
+  providing you with on-demand access to our digital expertise. These services are conveniently
+  priced within the federal government micropurchase threshold, making us just a swipe of a credit
+  card away.
 permalink: /services/microconsulting/
 img_path: /img/buzzword-stickies.jpg
 img_description:
