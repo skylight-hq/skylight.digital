@@ -1,10 +1,10 @@
 ---
 name: People &amp; Organization
 capabilities:
-  - name: Lean-Agile Enterprise &amp; DevOps
-  - name: Digital Talent &amp; Fellowship Programs
-  - name: Innovation Labs
-  - name: Agile Coaching &amp; Training
-  - name: Instructional Design
-  - name: Agile Project Management
+  - Lean-Agile Enterprise &amp; DevOps
+  - Digital Talent &amp; Fellowship Programs
+  - Innovation Labs
+  - Agile Coaching &amp; Training
+  - Instructional Design
+  - Agile Project Management
 ---

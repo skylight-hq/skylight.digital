@@ -1,24 +1,20 @@
 <div class="service-area-showcase">
 
-  <div class="page-hdr">
-    <div class="page-hdr-title-wrapper">
-      <div class="page-hdr-title">
-        <h1>{{page.title}}</h1>
-      </div>
-    </div>
+  {% include page_header.html %}
 
-    <div class="page-hdr-content-wrapper">
-      <div class="page-hdr-content-variant">
-        <p>{{page.description}}</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="service-elements">
-    <div class="service-element-wrapper">
+  <section class="page-block container">
+    <div class="service-elements">
       {% assign service_elements = page.service_elements | sort: 'order' %}
+      {% assign service_elements_count = service_elements.size %}
+      {% assign remainder = service_elements_count | modulo:2 %}
+      {% assign css_class = "service-element" %}
+
+      {% if remainder != 0 %}
+        {% assign css_class = css_class | append: " " | append: "uneven" %}
+      {% endif %}
+
       {% for service_element in service_elements %}
-        <div class="service-element">
+        <div class="{{ css_class }}">
           <div class="service-element-content-box">
             <h3>{{service_element.name}}</h3>
             <p>{{service_element.description}}</p>
@@ -26,6 +22,20 @@
         </div>
       {% endfor %}
     </div>
+  </section>
+
+  <div class="image-block">
+    <img src="{{page.img_path}}" alt="{{page.img_description}}">
+  </div>
+
+  <div class="page-block">
+    <div class="page-block-hdr-1">
+      <h2>Our work</h2>
+    </div>
+
+    {% capture tag_id %}{{ page.slug | replace: '_', ' ' }}{% endcapture %}
+    {% assign projects = site.projects | where: 'tags', tag_id | sort: 'order_weight' %}
+    {% include project_list.html projects = projects limit = 3 %}
   </div>
 
 </div>

@@ -2,39 +2,29 @@
 layout: default
 title: Our Services
 permalink: /services/
+header_title: Our Services
+header_content_css_class: page-hdr-content-1
+header_content: A lot goes into making you a digital-first agency.
 ---
 
 <div class="our-services">
 
-  <section class="page-hdr">
-    <div class="page-hdr-title-wrapper">
-      <div class="page-hdr-title">
-        <h1>Our Services</h1>
-      </div>
-    </div>
+  {% include page_header.html %}
 
-    <div class="page-hdr-content-wrapper">
-      <div class="page-hdr-content">
-        <p>A lot goes into making you a digital-first agency.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="service-areas-section">
+  <section class="page-block extra-space container-fluid">
     <div class="service-areas">
-
       {% assign service_areas = site.service_areas | sort: 'order' %}
       {% for service_area in service_areas %}
         {% if service_area.feature %}
           <div class="service-area">
             <a href="{{service_area.permalink}}">
               <div class="service-area-card">
-                <img class="service-area-icon" src="{{service_area.icon_path}}" alt="{{service_area.icon_description}}">
-                <div class="service-area-description">
+                <img class="service-area-img" src="{{service_area.icon_path}}" alt="{{service_area.icon_description}}">
+                <div class="service-area-block">
                   <h3>{{service_area.title}}</h3>
                   <p>{{service_area.teaser}}</p>
                 </div>
-                <div class="service-area-directional-icon">
+                <div class="service-area-footer">
                   <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
                 </div>
               </div>
@@ -42,7 +32,6 @@ permalink: /services/
           </div>
         {% endif %}
       {% endfor %}
-
     </div>
 
     <div class="minor-service-areas">
@@ -55,17 +44,13 @@ permalink: /services/
 
   </section>
 
-  <section class="capabilities-section">
+  <section class="page-block">
 
-    <div class="container">
-      <div class="capabilities-hdr-wrapper">
-        <div class="capabilities-hdr">
-          <h2>Key capabilities</h2>
-        </div>
-      </div>
+    <div class="page-block-hdr-2">
+      <h2>Key capabilities</h2>
 
-      <div class="capabilities-lead-wrapper">
-        <div class="capabilities-lead">
+      <div class="row">
+        <div class="page-hdr-content-2">
           <p>
             Your digital challenges aren't siloed and static. Our teams are smartly
             tailored to meet your unique and evolving needs, and to impart you with
@@ -83,7 +68,7 @@ permalink: /services/
             <h3>{{capability_group.name}}</h3>
             <ul>
               {% for capabilitiy in capability_group.capabilities %}
-                <li>{{capabilitiy.name}}</li>
+                <li>{{capabilitiy}}</li>
               {% endfor %}
             </ul>
           </div>
@@ -93,52 +78,50 @@ permalink: /services/
 
   </section>
 
-  <section class="industry-info-section">
+  <section class="page-block">
 
-    <div class="industry-info-hdr-wrapper">
-      <div class="industry-info-hdr">
-        <h2>Industry information</h2>
-      </div>
+    <div class="page-block-hdr-3">
+      <h2>Industry information</h2>
     </div>
 
-    <div class="industry-info-list">
+    <div class="container">
+      <div class="industry-info-list">
+        <div class="industry-info-items">
+          <div class="industry-info-item">
+            <h4>Legal Name</h4>
+            <div>Skylight Digital LLC</div>
+          </div>
 
-      <div class="industry-info-items">
-        <div class="industry-info-item">
-          <h4>Legal Name</h4>
-          <div>Skylight Digital LLC</div>
+          <div class="industry-info-item">
+            <h4>DUNS #</h4>
+            <div>080202677</div>
+          </div>
+
+          <div class="industry-info-item">
+            <h4>CAGE Code</h4>
+            <div>7QNG6</div>
+          </div>
         </div>
 
-        <div class="industry-info-item">
-          <h4>DUNS #</h4>
-          <div>080202677</div>
-        </div>
+        <div class="industry-info-items">
+          <div class="industry-info-item">
+            <h4>SIC Codes</h4>
+            <div>8742 (Management Consulting Services)</div>
+            <div>7371 (Computer Programming Services)</div>
+          </div>
 
-        <div class="industry-info-item">
-          <h4>CAGE Code</h4>
-          <div>7QNG6</div>
+          <div class="industry-info-item">
+            <h4>NAICS Codes</h4>
+            <div>541611</div>
+            <div>541511</div>
+          </div>
+
+          <div class="industry-info-item">
+            <h4>HUBZone Certification #</h4>
+            <div>56905</div>
+          </div>
         </div>
       </div>
-
-      <div class="industry-info-items">
-        <div class="industry-info-item">
-          <h4>SIC Codes</h4>
-          <div>8742 (Management Consulting Services)</div>
-          <div>7371 (Computer Programming Services)</div>
-        </div>
-
-        <div class="industry-info-item">
-          <h4>NAICS Codes</h4>
-          <div>541611</div>
-          <div>541511</div>
-        </div>
-
-        <div class="industry-info-item">
-          <h4>HUBZone Certification #</h4>
-          <div>56905</div>
-        </div>
-      </div>
-
     </div>
 
   </section>

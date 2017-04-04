@@ -1,8 +1,14 @@
+.mt-6 { @include mt-6; }
+.mt-7 { @include mt-7; }
+
 .mb-6 { @include mb-6; }
 .mb-7 { @include mb-7; }
 
 @include media-breakpoint-up(md) {
   .mt-md-6 { @include mt-6; }
+  .mt-md-7 { @include mt-7; }
+
+  .mb-md-6 { @include mb-6; }
   .mb-md-7 { @include mb-7; }
   .mb-md-10 { @include mb-10; }
 }

@@ -1,110 +1,21 @@
 .about-us {
-  @extend %page;
-}
-
-.about-section {
-  &:not(:last-child) {
-    @extend .mb-3;
-  }
-
-  @include media-breakpoint-up(md) {
-    &:not(:last-child) {
-      @include mb-5;
-    }
-  }
-}
-
-.about-subheading-wrapper,
-.about-content-wrapper {
-  @extend .row;
-}
-
-.about-subheading-wrapper {
-  @extend .mb-3;
-
-  @include media-breakpoint-up(md) {
-    @include mb-4;
-  }
-}
-
-.about-subheading {
-  @extend .col;
-}
-
-.about-content {
-  @extend .col-11;
-  @extend .col-md-8;
-  @extend .mx-auto;
-  @extend .text;
-
-  p {
-    @extend .text-left;
-
-    &:last-child {
-      @extend .mb-0;
-    }
-  }
-
-  img {
-    @extend .img-fluid;
-    @extend .mb-3;
-  }
+  @extend %page-base;
 }
 
 .employees {
   @extend .row;
 }
 
-.employee {
-  @extend .col-md-6;
-  @extend .col-lg-4;
-  @extend .mt-4;
-}
-
-.employee-card {
-  @extend .card;
-  @extend .card-outline-primary;
-  height: 100%;
-}
-
-.employee-img {
-  @extend .card-img-top;
-  @extend .img-fluid;
-}
-
-.employee-profile {
-  @extend .card-block;
-}
-
-.employee-links {
-  @extend .card-footer;
-}
-
-.employee-name {
-  @extend .card-title;
-  font-size: $font-size-xl;
-}
-
-.employee-position {
-  @extend .card-subtitle;
-  @extend .mb-3;
-  @extend .text-muted;
-  font-size: $font-size-md;
-}
-
-.employee-bio {
-  @extend .card-text;
-  font-size: $font-size-sm;
-  @extend .text-left;
-}
+@include semantic-card("employee", $clickable: false, $title-alignment: center,
+  $title-color: $body-color, $subtitle-color: $text-muted, $footer-border-off: false);
 
 .employee-socials {
   a:last-child {
-    padding-right: 10px;
+    padding-right: 15px;
   }
 
   a:not(:first-child) {
-    padding-left: 2px;
+    padding-left: 5px;
   }
 }
 
@@ -112,32 +23,10 @@
   border-left: 1px solid $gray-lightest;
 
   a:first-child {
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
   a:not(:last-child) {
-    padding-right: 2px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .employee-socials {
-    a:last-child {
-      padding-right: 15px;
-    }
-
-    a:not(:first-child) {
-      padding-left: 5px;
-    }
-  }
-
-  .employee-contributions {
-    a:first-child {
-      padding-left: 15px;
-    }
-
-    a:not(:last-child) {
-      padding-right: 5px;
-    }
+    padding-right: 5px;
   }
 }

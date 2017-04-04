@@ -1,12 +1,12 @@
 ---
 name: Strategy
 capabilities:
-  - name: Research &amp; Testing
-  - name: Service Design Thinking
-  - name: Content Strategy
-  - name: Product Strategy
-  - name: Platform Strategy
-  - name: Analytics &amp; Optimization
-  - name: Sprints &amp; Intensives
-  - name: User &amp; Community Growth
+  - Research &amp; Testing
+  - Service Design Thinking
+  - Content Strategy
+  - Product Strategy
+  - Platform Strategy
+  - Analytics &amp; Optimization
+  - Sprints &amp; Intensives
+  - User &amp; Community Growth
 ---

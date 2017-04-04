@@ -1,22 +1,27 @@
 .service-area-showcase {
-  @extend %page;
+  @extend %page-base;
 }
 
 .service-elements {
-  @extend .container;
-}
-
-.service-element-wrapper {
   @extend .row;
 }
 
-.service-element {
+%service-element-base {
   @extend .col-11;
-  @extend .col-md-6;
+  @extend .col-md-4;
   @extend .col-lg-4;
   @extend .mb-3;
   @extend .mb-md-5;
   @extend .mx-auto;
+}
+
+.service-element {
+  @extend %service-element-base;
+  @extend .col-sm-6;
+}
+
+.service-element.uneven {
+  @extend %service-element-base;
 }
 
 .service-element-content-box {

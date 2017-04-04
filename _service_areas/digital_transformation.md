@@ -2,7 +2,9 @@
 layout: default
 title: Digital Transformation
 teaser: Digital organizations built to last and attract top digital talent.
-description: >
+header_title: Digital Transformation
+header_content_css_class: page-hdr-content-2
+header_content: >
   “Going digital” is about people first and technology second. At Skylight,
   we possess first-hand experience with embedding digital expertise throughout
   government organizations, and putting the operating principles, structures,
@@ -14,6 +16,8 @@ description: >
 permalink: /services/digital-transformation/
 icon_path: /img/digital-transformation-icon.svg
 icon_description: Digital Transformation Icon
+img_path: /img/buzzword-stickies.jpg
+img_description:
 order: 3
 feature: true
 service_elements:
