@@ -3,6 +3,7 @@
   color: $page-cta-color;
   @extend .text-center;
   @extend .mt-5;
+  @extend .mt-md-6;
   @extend .py-4;
   @extend .py-md-5;
 }
@@ -62,7 +63,7 @@
   @extend .mx-auto;
 
   blockquote {
-    margin: 0;
+    @extend .m-0;
   }
 }
 

@@ -5,7 +5,6 @@
 //
 
 // Font faces
-
 @font-face {
   font-family: "Geomanist";
   font-style: normal;
@@ -79,7 +78,6 @@
 }
 
 // Brand colors
-
 $cool-gray: #53565a;
 $deep-cerulean: #0076a8;
 $eucalyptus: #228848;
@@ -113,6 +111,7 @@ $body-color: $gray;
 
 // Links
 $link-color: $brand-primary;
+$link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none;
 
 // Fonts
@@ -139,6 +138,9 @@ $text-muted: $gray-light;
 
 $list-inline-padding: 0;
 
+// Navbar
+$navbar-padding-x: 0;
+
 // Buttons
 $btn-primary-color: $white;
 $btn-primary-bg: $brand-primary;
@@ -164,6 +166,9 @@ $tooltip-bg: $brand-primary;
 //
 //
 
+// Colors
+$brand-primary-muted: rgba($brand-primary, 0.7);
+
 // Links
 $text-link-color: $brand-primary;
 $text-link-decoration-color: $brand-primary;
@@ -174,15 +179,15 @@ $text-link-decoration-hover-color: $text-link-decoration-color;
 $font-size-h1-md: 2.75rem;
 $font-size-h2-md: 2.50rem;
 $font-size-h3-md: 2.25rem;
-$font-size-h1-sm: 2rem;
+$font-size-h1-sm: 2.0rem;
 $font-size-h2-sm: 1.75rem;
 $font-size-h3-sm: 1.5rem;
 
 $font-size-xxxl: 2.5rem;
 $font-size-xxl: 2.0rem;
-$font-size-md: 1rem;
+$font-size-md: 1.0rem;
 $font-size-xl: 1.50rem;
-$font-size-xs: .85rem;
+$font-size-xs: 0.85rem;
 
 // Buttons
 $btn-tertiary-color: $body-color;
@@ -202,6 +207,9 @@ $nav-toggler-hover-color: $brand-primary;
 
 // Jumbotron
 $jumbotron-color: $white;
+
+// Cards
+$card-box-shadow: 0 0 1px 1px rgba($link-hover-color, 1);
 
 // Page CTA
 $page-cta-color: $white;

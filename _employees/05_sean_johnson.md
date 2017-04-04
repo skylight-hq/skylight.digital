@@ -3,8 +3,8 @@ name: sean-johnson
 fname: Sean
 lname: Johnson
 full_name: Sean Johnson
-image_path: /img/people/sean-johnson.png
-image_description: Photo of Sean Johnson
+img_path: /img/people/sean-johnson.jpg
+img_description: Photo of Sean Johnson
 position: Software Engineer
 bio: >
   Sean's built and exited two tech startups, one of which was bought by

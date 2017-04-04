@@ -2,7 +2,9 @@
 layout: default
 title: Digital Procurement
 teaser: Tech procurements that succeed and inspire public confidence.
-description: >
+header_title: Digital Procurement
+header_content_css_class: page-hdr-content-2
+header_content: >
   To support digital progress, procurement must change. At Skylight, we combine
   technical and acquisition brains to make procurement work for you in the digital age.
   That means greater collaboration with vendors, faster delivery of value, higher quality
@@ -13,6 +15,8 @@ description: >
 permalink: /services/digital-procurement/
 icon_path: /img/digital-procurement-icon.svg
 icon_description: Digital Procurement Icon
+img_path: /img/buzzword-stickies.jpg
+img_description:
 order: 2
 feature: true
 service_elements:
@@ -45,7 +49,7 @@ service_elements:
   - name: Agile Coaching
     description: >
       Propel the performance of your software delivery teams to the next
-      level and beyond through our agile adoption pattern of ShuHaRi.
+      level and beyond through our agile adoption pattern of Shu-Ha-Ri.
     order: 6
 ---
 

@@ -1,6 +1,30 @@
+// Brand
+@mixin logo($width: 200, $height: 50) {
+  display: block;
+  background: url(/img/logo.png) no-repeat;
+  background: url(/img/logo.svg) no-repeat;
+  width: #{$width}px;
+  height: #{$height}px;
+  background-size: contain;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+  @include media-breakpoint-down(sm) {
+    width: 150px;
+    height: 40px;
+  }
+}
+
 // Spacing
 @mixin mt-5 { margin-top: 3rem !important; }
 @mixin mt-6 { margin-top: 4rem !important; }
+@mixin mt-7 { margin-top: 5rem !important; }
 
 @mixin mb-0 { margin-bottom: 0 !important; }
 @mixin mb-3 { margin-bottom: 1rem !important; }
@@ -11,15 +35,15 @@
 @mixin mb-10 { margin-bottom: 8rem !important; }
 
 @mixin pt-3 { padding-top: 1rem !important; }
-@mixin pb-3 { padding-bottom: 1rem !important; }
-
 @mixin pt-5 { padding-top: 3rem !important; }
+
+@mixin pb-3 { padding-bottom: 1rem !important; }
 @mixin pb-5 { padding-bottom: 3rem !important; }
 
 @mixin pr-2 { padding-right: 0.5rem !important; }
-@mixin pl-2 { padding-left: 0.5rem !important; }
-
 @mixin pr-3 { padding-right: 1rem !important; }
+
+@mixin pl-2 { padding-left: 0.5rem !important; }
 @mixin pl-3 { padding-left: 1rem !important; }
 
 @mixin py-3 {
@@ -112,25 +136,97 @@
   }
 }
 
-// Brand
-@mixin logo($width: 200, $height: 50) {
-  display: block;
-  background: url(/img/logo.png) no-repeat;
-  background: url(/img/logo.svg) no-repeat;
-  width: #{$width}px;
-  height: #{$height}px;
-  background-size: contain;
-  text-indent: -9999px;
-  white-space: nowrap;
-  overflow: hidden;
+// Cards
+@mixin card-box-shadow($box-shadow: $card-box-shadow, $border-color: $link-hover-color) {
+  border-color: $border-color;
+  -webkit-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+}
 
-  &:focus,
-  &:hover {
-    text-decoration: none;
+@mixin semantic-card($class-name, $clickable: true, $title-alignment: left,
+  $title-color: $brand-primary, $subtitle-color: $brand-primary-muted, $footer-border-off: true) {
+
+  $title-font-size: $font-size-xl;
+
+  $subtitle-font-size: $font-size-md;
+  $subtitle-alignment: $title-alignment;
+
+  $text-color: $body-color;
+  $text-font-size: $font-size-md;
+  $text-alignment: left;
+
+  $footer-font-size: $font-size-md;
+  $footer-alignment: $title-alignment;
+
+  .#{$class-name} {
+    @extend .col-md-6;
+    @extend .col-lg-4;
+    @extend .mt-3;
+    @extend .mt-md-4;
   }
 
-  @include media-breakpoint-down(sm) {
-    width: 150px;
-    height: 40px;
+  .#{$class-name}.uneven {
+    @extend .col-md-4;
+    @extend .col-lg-4;
   }
+
+  .#{$class-name}-card {
+    @extend .card;
+    @extend .card-outline-primary;
+    height: 100%;
+
+    @if $clickable {
+      &:hover,
+      &:focus {
+        @include card-box-shadow();
+      }
+    }
+  }
+
+  .#{$class-name}-img {
+    @extend .card-img-top;
+    @extend .img-fluid;
+  }
+
+  .#{$class-name}-block {
+    @extend .card-block;
+  }
+
+  .#{$class-name}-title {
+    @extend .card-title;
+    color: $title-color;
+    font-size: $title-font-size;
+    text-align: $title-alignment;
+  }
+
+  .#{$class-name}-subtitle {
+    @extend .card-subtitle;
+    color: $subtitle-color;
+    font-size: $subtitle-font-size;
+    text-align: $subtitle-alignment;
+  }
+
+  .#{$class-name}-text {
+    @extend .card-text;
+    @extend .mt-4;
+    color: $text-color;
+    font-size: $text-font-size;
+    text-align: $text-alignment;
+  }
+
+  .#{$class-name}-footer {
+    @extend .card-footer;
+    font-size: $footer-font-size;
+    text-align: $footer-alignment;
+
+    @if $footer-border-off {
+      @extend .no-border;
+    }
+
+    span ~ i {
+      @extend .ml-2;
+      vertical-align: middle;
+    }
+  }
+
 }

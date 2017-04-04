@@ -1,10 +1,10 @@
 ---
 name: Policies & Standards
 capabilities:
-  - name: Federal Acquisition Regulation
-  - name: Section 508
-  - name: Paperwork Reduction Act
-  - name: FISMA
-  - name: Privacy Act
-  - name: Schedule A(r) Hiring Authority
+  - Federal Acquisition Regulation
+  - Section 508
+  - Paperwork Reduction Act
+  - FISMA
+  - Privacy Act
+  - Schedule A(r) Hiring Authority
 ---

@@ -1,0 +1,13 @@
+<section class="page-hdr">
+  <h1>{{ page.header_title }}</h1>
+
+  <div class="row">
+    <div class="{{ page.header_content_css_class }}">
+      <p>{{ page.header_content }}</p>
+
+      {% if page.header_content_img_path %}
+        <img src="{{ page.header_content_img_path }}" alt="{{ page.header_content_img_description }}" />
+      {% endif %}
+    </div>
+  </div>
+</section>

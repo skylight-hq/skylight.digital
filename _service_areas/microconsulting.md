@@ -1,11 +1,17 @@
 ---
 layout: default
 title: Microconsulting
-description: >
-  Sometimes it doesn’t take a lot to make a huge impact. Our Microconsulting services
-  are designed for that purpose. They’re also priced within the federal government
+header_title: Microconsulting
+header_content_css_class: page-hdr-content-2
+header_content: >
+  Sometimes, you need immediate support to address critical challenges or questions, which
+  does not require a full-blown engagement. Our Microconsulting services are designed
+  for that purpose, providing you with on-demand access to our digital expertise.
+  These services are conveniently priced within the federal government
   micropurchase threshold, making us just a swipe of a credit card away.
 permalink: /services/microconsulting/
+img_path: /img/buzzword-stickies.jpg
+img_description:
 order: 4
 feature: false
 service_elements:
@@ -19,7 +25,8 @@ service_elements:
     description: >
       Identify code-quality issues holding your software development
       team back from delivering faster. We’re experts at rapidly evaluating
-      the quality of large or small codebases and recommending improvement actions.
+      the quality of any codebase (large, small, legacy, modern), measuring
+      technical debt, and recommending improvement actions.
     order: 2
   - name: Protosketching
     description: >

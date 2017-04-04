@@ -1,15 +1,5 @@
 .our-services {
-  @extend %page;
-}
-
-.service-areas-section, .capabilities-section {
-  @extend .mb-5;
-  @extend .mb-md-7;
-}
-
-// Service areas
-.service-areas-section {
-  @extend .container-fluid;
+  @extend %page-base;
 }
 
 .service-areas {
@@ -33,20 +23,14 @@
   height: 100%;
 }
 
-.service-area-icon {
+.service-area-img {
   @extend .card-img-top;
   @extend .img-fluid;
 }
 
-.service-area-description {
+.service-area-block {
   @extend .card-block;
-  text-decoration: none;
   padding: 2rem 1.25rem 1.25rem 1.25rem;
-
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
 
   h3 {
     @extend .card-title;
@@ -54,26 +38,16 @@
     @extend .font-weight-normal;
     font-size: $font-size-md;
     color: $brand-primary;
-
-    &:hover,
-    &:focus {
-      color: $brand-primary;
-    }
   }
 
   p {
     @extend .card-text;
     @extend .font-weight-bold;
     color: $body-color;
-
-    &:hover,
-    &:focus {
-      color: $body-color;
-    }
   }
 }
 
-.service-area-directional-icon {
+.service-area-footer {
   @extend .card-footer;
   @extend .no-border;
   padding: 0rem 1.25rem;
@@ -90,42 +64,6 @@
   p {
     @extend .text;
     @extend .m-0;
-  }
-}
-
-// Key capabilities
-.capabilities-section {
-
-  .container:first-child {
-    @extend .mb-3;
-    @extend .mb-md-5;
-  }
-
-}
-
-.capabilities-hdr-wrapper {
-  @extend .row;
-}
-
-.capabilities-hdr {
-  @extend .col;
-}
-
-.capabilities-lead-wrapper {
-  @extend .row;
-  @extend .mt-3;
-  @extend .mt-md-5;
-}
-
-.capabilities-lead {
-  @extend .col;
-  @extend .col-md-10;
-  @extend .col-lg-9;
-  @extend .mx-auto;
-
-  p {
-    @extend .text-left;
-    @extend .mb-0;
   }
 }
 
@@ -156,24 +94,6 @@
     font-size: $font-size-md;
     line-height: 1.75;
   }
-}
-
-// Industry information
-.industry-info-section {
-  @extend .container;
-}
-
-.industry-info-hdr-wrapper {
-  @extend .row;
-  @extend .mb-3;
-
-  @include media-breakpoint-up(sm) {
-    @include mb-5;
-  }
-}
-
-.industry-info-hdr {
-  @extend .col;
 }
 
 .industry-info-list {

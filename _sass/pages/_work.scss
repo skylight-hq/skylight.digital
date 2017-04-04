@@ -1,0 +1,14 @@
+.our-work {
+  @extend %page-base;
+
+  .page-hdr {
+    @extend .mb-4;
+    @extend .mb-md-5;
+  }
+}
+
+.projects {
+  @extend .row;
+}
+
+@include semantic-card("project");

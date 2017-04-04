@@ -2,7 +2,9 @@
 layout: default
 title: Digital Services Delivery
 teaser: Beautiful, enduring digital services that customers love.
-description: >
+header_title: Digital Services Delivery
+header_content_css_class: page-hdr-content-2
+header_content: >
   Today's public expects their interactions with government to be simple,
   delightful, secure, and empowering. At Skylight, we specialize in creating
   exceptional customer experiences and enduring solution architectures out of
@@ -10,6 +12,8 @@ description: >
 permalink: /services/digital-services-delivery/
 icon_path: /img/digital-services-delivery-icon.svg
 icon_description: Digital Services Delivery Icon
+img_path: /img/buzzword-stickies.jpg
+img_description:
 order: 1
 feature: true
 service_elements:

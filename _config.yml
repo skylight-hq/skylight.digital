@@ -36,16 +36,22 @@ markdown: kramdown
 
 collections:
   service_areas:
+    output: true
     permalink: /services/:path/
   employees:
-  service_areas:
+      output: false
   capability_groups:
+      output: false
+  projects:
+    output: true
+    permalink: /work/:path/
 
 sass:
   style: compressed
 
 include:
   - _service_areas
+  - _projects
 
 exclude:
   - .gitignore
@@ -61,4 +67,4 @@ exclude:
 gems:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemaps
+  - jekyll-sitemap
