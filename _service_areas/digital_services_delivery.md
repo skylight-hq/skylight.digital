@@ -2,7 +2,6 @@
 layout: default
 title: Digital Services Delivery
 teaser: Beautiful, enduring digital services that customers love.
-header_title: Digital Services Delivery
 header_content_css_class: page-hdr-content-2
 header_content: >
   Today's public expects their interactions with government to be simple,

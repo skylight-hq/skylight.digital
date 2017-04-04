@@ -5,16 +5,8 @@
   <section class="page-block container">
     <div class="service-elements">
       {% assign service_elements = page.service_elements | sort: 'order' %}
-      {% assign service_elements_count = service_elements.size %}
-      {% assign remainder = service_elements_count | modulo:2 %}
-      {% assign css_class = "service-element" %}
-
-      {% if remainder != 0 %}
-        {% assign css_class = css_class | append: " " | append: "uneven" %}
-      {% endif %}
-
       {% for service_element in service_elements %}
-        <div class="{{ css_class }}">
+        <div class="service-element">
           <div class="service-element-content-box">
             <h3>{{service_element.name}}</h3>
             <p>{{service_element.description}}</p>

@@ -2,7 +2,6 @@
 layout: default
 title: Digital Transformation
 teaser: Digital organizations built to last and attract top digital talent.
-header_title: Digital Transformation
 header_content_css_class: page-hdr-content-2
 header_content: >
   “Going digital” is about people first and technology second. At Skylight,

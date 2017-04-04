@@ -159,15 +159,9 @@
   $footer-alignment: $title-alignment;
 
   .#{$class-name} {
-    @extend .col-md-6;
-    @extend .col-lg-4;
-    @extend .mt-3;
-    @extend .mt-md-4;
-  }
-
-  .#{$class-name}.uneven {
     @extend .col-md-4;
-    @extend .col-lg-4;
+    @extend .mb-3;
+    @extend .mb-md-4;
   }
 
   .#{$class-name}-card {
