@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Microconsulting
-header_title: Microconsulting
 header_content_css_class: page-hdr-content-2
 header_content: >
   Sometimes, you need immediate support to address critical challenges or questions, which

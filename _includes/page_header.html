@@ -1,13 +1,28 @@
-<section class="page-hdr">
-  <h1>{{ page.header_title }}</h1>
+{% if page.header_css_class == nil %}
+  {% assign header_css_class = "page-hdr-2" %}
+{% else %}
+  {% assign header_css_class = page.header_css_class %}
+{% endif %}
 
-  <div class="row">
-    <div class="{{ page.header_content_css_class }}">
-      <p>{{ page.header_content }}</p>
+<section class="{{ header_css_class }}">
 
-      {% if page.header_content_img_path %}
-        <img src="{{ page.header_content_img_path }}" alt="{{ page.header_content_img_description }}" />
-      {% endif %}
+  {% if page.header_title %}
+    {% assign title = page.header_title %}
+  {% else %}
+    {% assign title = page.title %}
+  {% endif %}
+
+  <h1>{{ page.title }}</h1>
+
+  {% if page.header_content_css_class != nil and page.header_content != nil %}
+    <div class="row">
+      <div class="{{ page.header_content_css_class }}">
+        <p>{{ page.header_content }}</p>
+
+        {% if page.header_content_img_path %}
+          <img src="{{ page.header_content_img_path }}" alt="{{ page.header_content_img_description }}" />
+        {% endif %}
+      </div>
     </div>
-  </div>
+  {% endif %}
 </section>

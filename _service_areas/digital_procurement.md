@@ -2,7 +2,6 @@
 layout: default
 title: Digital Procurement
 teaser: Tech procurements that succeed and inspire public confidence.
-header_title: Digital Procurement
 header_content_css_class: page-hdr-content-2
 header_content: >
   To support digital progress, procurement must change. At Skylight, we combine

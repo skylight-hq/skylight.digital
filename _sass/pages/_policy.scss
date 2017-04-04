@@ -1,0 +1,7 @@
+.policy {
+  @extend %page-base;
+}
+
+.policy-content {
+  @extend .narrative;
+}

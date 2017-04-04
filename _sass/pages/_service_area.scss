@@ -6,22 +6,12 @@
   @extend .row;
 }
 
-%service-element-base {
+.service-element {
   @extend .col-11;
   @extend .col-md-4;
-  @extend .col-lg-4;
   @extend .mb-3;
   @extend .mb-md-5;
   @extend .mx-auto;
-}
-
-.service-element {
-  @extend %service-element-base;
-  @extend .col-sm-6;
-}
-
-.service-element.uneven {
-  @extend %service-element-base;
 }
 
 .service-element-content-box {

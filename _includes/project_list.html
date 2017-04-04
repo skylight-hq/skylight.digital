@@ -1,22 +1,7 @@
 <div class="container">
   <div class="projects">
-
-    {% if include.limit %}
-      {% assign projects_count = include.limit %}
-    {% else %}
-      {% assign projects_count = projects.size %}
-    {% endif %}
-
-    {% assign remainder = projects_count | modulo:2 %}
-
-    {% if remainder != 0 %}
-      {% assign css_class = "project uneven" %}
-    {% else %}
-      {% assign css_class = "project" %}
-    {% endif %}
-
     {% for project in projects | limit: include.limit %}
-      <article class="{{ css_class }}">
+      <article class="project">
         <a href="{{ project.permalink }}">
           <div class="project-card">
             <img class="project-img" src="{{ project.img_icon_path }}" alt="{{ project.img_icon_description }}">
