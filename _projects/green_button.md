@@ -41,3 +41,5 @@ news_coverage:
     url: http://www.cnn.com/
 project_url: https://opencompany.com/
 ---
+
+{% include project.html %}
