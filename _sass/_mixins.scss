@@ -66,6 +66,34 @@
   @include pl-3;
 }
 
+// Tables
+%table-borderless {
+  .table td, .table th {
+    border: none !important;
+  }
+}
+
+// Lists
+%list-base {
+  ul {
+    li:not(:last-child) {
+      @extend .pb-3;
+    }
+  }
+}
+
+%list-inside {
+  @extend %list-base;
+
+  ul {
+    @extend .pl-0;
+
+    li {
+      list-style-position: inside;
+    }
+  }
+}
+
 // Buttons
 
 // Copy of Bootstrap's button variant mixin with
@@ -127,13 +155,6 @@
   @extend .btn-sm;
   @include button-tertiary($btn-tertiary-color, $btn-tertiary-bg,
     $btn-tertiary-border, $btn-tertiary-active-color);
-}
-
-// Tables
-%table-borderless {
-  .table td, .table th {
-    border: none !important;
-  }
 }
 
 // Cards
@@ -223,4 +244,18 @@
     }
   }
 
+}
+
+// Misc
+%text-lead-col-base {
+  @extend .col-11;
+  @extend .col-sm-12;
+  @extend .col-md-10;
+  @extend .col-lg-8;
+  @extend .mx-auto;
+  @extend .text-left;
+}
+
+%form-col-base {
+  @extend %text-lead-col-base;
 }
