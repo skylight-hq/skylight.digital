@@ -1,7 +1,7 @@
 ---
 layout: policy
 title: Intellectual Property Policy
-permalink: /policies/intellectual-property
+permalink: /policies/intellectual-property/
 ---
 
 ## Copyright

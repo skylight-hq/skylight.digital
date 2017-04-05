@@ -1,7 +1,7 @@
 ---
 layout: policy
 title: Linking Policy
-permalink: /policies/linking
+permalink: /policies/linking/
 ---
 
 ## Links to third-party sites
