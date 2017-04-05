@@ -3,6 +3,5 @@
 }
 
 .alliances-contact {
-  @extend .col;
-  @extend .text-left;
+  @extend %form-col-base;
 }

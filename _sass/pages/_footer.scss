@@ -102,7 +102,7 @@
   .footer-nav {
     font-size: $font-size-md;
 
-    li+li:before
+    li+li::before
     {
       margin: 0 10px;
     }

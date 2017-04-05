@@ -1,0 +1,13 @@
+form {
+  label.required {
+    &::after {
+      content: "*";
+      @extend .pl-1;
+    }
+  }
+
+  label {
+    color: $brand-primary;
+    @extend .font-weight-bold;
+  }
+}
