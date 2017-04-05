@@ -18,7 +18,7 @@ The files `src/js/tether.min.js` and `src/js/bootstrap.min.js` are from [Twitter
 
 The file `src/js/jquery.slim.min.js` is from the [JS Foundation](https://jquery.com/), copyright JS Foundation, under the [MIT license](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
 
-The file `src/js/html5shiv.js` is from [HTML5 Shiv](https://github.com/afarkas/html5shiv), copyright Alexander Farkas (aFarkas), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
+The file `src/js/html5shiv.min.js` is from [HTML5 Shiv](https://github.com/afarkas/html5shiv), copyright Alexander Farkas (aFarkas), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
 
 The file `src/js/jquery.scrolldepth.min` is from [Scroll Depth](https://github.com/robflaherty/jquery-scrolldepth), copyright Rob Flaherty (robflaherty), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
 
