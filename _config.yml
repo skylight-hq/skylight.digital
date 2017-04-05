@@ -55,6 +55,7 @@ sass:
 include:
   - _service_areas
   - _projects
+  - _policy_items
 
 exclude:
   - .gitignore

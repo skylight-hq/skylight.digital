@@ -3,14 +3,6 @@
 }
 
 .alliances-contact {
-  @extend .col-11;
-  @extend .col-sm-12;
-  @extend .col-md-10;
-  @extend .col-lg-8;
-  @extend .mx-auto;
+  @extend .col;
   @extend .text-left;
-
-  p {
-    @extend .mb-5;
-  }
 }

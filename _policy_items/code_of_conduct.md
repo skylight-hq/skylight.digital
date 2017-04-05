@@ -1,7 +1,7 @@
 ---
 layout: policy
 title: Code of Conduct Policy
-permalink: /policies/code-of-conduct
+permalink: /policies/code-of-conduct/
 ---
 
 ## Creating an inclusive culture, as the basis for innovation

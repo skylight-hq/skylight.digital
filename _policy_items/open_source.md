@@ -1,7 +1,7 @@
 ---
 layout: policy
 title: Open Source Policy
-permalink: /policies/open-source
+permalink: /policies/open-source/
 ---
 
 ## An open source team

@@ -88,3 +88,17 @@
     @extend .mb-4;
   }
 }
+
+.text-lead {
+  @extend .col-11;
+  @extend .col-sm-12;
+  @extend .col-md-10;
+  @extend .col-lg-8;
+  @extend .mx-auto;
+  @extend .text-left;
+  @extend .mb-5;
+
+  p {
+    @extend .mb-0;
+  }
+}
