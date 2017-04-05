@@ -10,4 +10,11 @@ form {
     color: $brand-primary;
     @extend .font-weight-bold;
   }
+
+  button[type="submit"] {
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+  }
 }
