@@ -105,7 +105,7 @@
   @extend .d-flex;
   @extend .flex-column;
   @extend .justify-content-between;
-  
+
   &:first-child {
     @extend .mb-4;
   }
