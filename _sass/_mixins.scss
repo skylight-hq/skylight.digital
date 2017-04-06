@@ -157,6 +157,21 @@
     $btn-tertiary-border, $btn-tertiary-active-color);
 }
 
+// Grid
+@mixin more-than-three-sets-of-cols($mb-size, $mb-md-size) {
+  @extend .mb-#{$mb-size};
+  &:last-child {
+    @extend .mb-0;
+  }
+
+  @extend .mb-md-#{$mb-md-size};
+  &:nth-last-of-type(1),
+  &:nth-last-of-type(2),
+  &:nth-last-of-type(3) {
+    @extend .mb-md-0;
+  }
+}
+
 // Cards
 @mixin card-box-shadow($box-shadow: $card-box-shadow, $border-color: $link-hover-color) {
   border-color: $border-color;
@@ -181,8 +196,7 @@
 
   .#{$class-name} {
     @extend .col-md-4;
-    @extend .mb-3;
-    @extend .mb-md-4;
+    @include more-than-three-sets-of-cols($mb-size: 3, $mb-md-size: 4);
   }
 
   .#{$class-name}-card {

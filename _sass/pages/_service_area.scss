@@ -9,9 +9,8 @@
 .service-element {
   @extend .col-11;
   @extend .col-md-4;
-  @extend .mb-3;
-  @extend .mb-md-5;
   @extend .mx-auto;
+  @include more-than-three-sets-of-cols($mb-size: 5, $mb-md-size: 5);
 }
 
 .service-element-content-box {
@@ -23,5 +22,9 @@
     @extend .my-3;
     @extend .text-uppercase;
     font-size: $font-size-md;
+  }
+
+  p {
+    @extend .mb-0;
   }
 }
