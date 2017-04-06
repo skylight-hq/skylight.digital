@@ -43,8 +43,6 @@ collections:
     permalink: /services/:path/
   employees:
       output: false
-  capability_groups:
-      output: false
   projects:
     output: true
     permalink: /work/:path/
