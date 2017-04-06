@@ -61,7 +61,8 @@ header_content: A lot goes into making you a digital-first agency.
 
     <div class="container">
       <div class="capabilities">
-        {% for capability_group in site.capability_groups %}
+        {% assign capability_groups = site.data.capability_groups | sort: 'order' %}
+        {% for capability_group in capability_groups %}
           <div class="capability-group">
             <div aria-hidden="true"></div>
             <h3>{{capability_group.name}}</h3>

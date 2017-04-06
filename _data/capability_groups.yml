@@ -1,0 +1,65 @@
+- name: Strategy
+  capabilities:
+    - Research &amp; Testing
+    - Service Design Thinking
+    - Content Strategy
+    - Product Strategy
+    - Platform Strategy
+    - Analytics &amp; Optimization
+    - Sprints &amp; Intensives
+    - User &amp; Community Growth
+  order: 10
+- name: Design &amp; Content
+  capabilities:
+    - Brand &amp; Identity
+    - User Experience
+    - Content Development
+    - Illustration
+    - Photography &amp; Video
+    - Animation
+    - Copywriting &amp; Messaging
+    - Data Visualization
+    - Responsive Design
+    - Accessibility
+  order: 20
+- name: Tech &amp; Data
+  capabilities:
+    - Software Delivery
+    - Legacy Reengineering
+    - Microservices &amp; Evolutionary Architecture
+    - Continuous Delivery
+    - Open Source Software
+    - Open Data &amp; APIs
+    - Data Science &amp; Engineering
+    - Internet of Things
+    - Security &amp; Privacy
+    - Cloud
+    - Standards Development
+  order: 30
+- name: Procurement
+  capabilities:
+    - Challenge-based Acquisitions
+    - Performance-based Acquisitions
+    - Modular Contracting
+    - Solicitation Development
+    - Technical Evaluation
+    - Agile Vendor Management
+  order: 40
+- name: People &amp; Organization
+  capabilities:
+    - Lean-Agile Enterprise &amp; DevOps
+    - Digital Talent &amp; Fellowship Programs
+    - Innovation Labs
+    - Agile Coaching &amp; Training
+    - Instructional Design
+    - Agile Project Management
+  order: 50
+- name: Policies & Standards
+  capabilities:
+    - Federal Acquisition Regulation
+    - Section 508
+    - Paperwork Reduction Act
+    - FISMA
+    - Privacy Act
+    - Schedule A(r) Hiring Authority
+  order: 60
