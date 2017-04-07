@@ -40,10 +40,18 @@
 }
 
 .lp-body-section {
-  @extend .mt-6;
+  &:first-child {
+    @extend .mt-5;
+    @extend .mt-md-7;
+  }
+
+  &:not(:last-child) {
+    @extend .mb-5;
+    @extend .mb-md-7;
+  }
 
   .row:not(:last-child) {
-    @extend .mb-4;
+    @extend .mb-5;
   }
 
   h2 {
@@ -72,14 +80,14 @@
 
 .lp-body-hdr img {
   @extend .img-fluid;
-  @extend .mt-4;
+  @extend .mt-5;
 }
 
 .lp-body-content {
   @extend .col-11;
-  @extend .col-sm-9;
-  @extend .col-md-8;
-  @extend .col-lg-7;
+  @extend .col-sm-10;
+  @extend .col-md-9;
+  @extend .col-lg-8;
   @extend .mx-auto;
   @extend .text;
 }
