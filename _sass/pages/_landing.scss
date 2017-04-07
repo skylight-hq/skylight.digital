@@ -46,7 +46,7 @@
   }
 
   &:not(:last-child) {
-    @extend .mb-5;
+    @extend .mb-6;
     @extend .mb-md-7;
   }
 
@@ -70,7 +70,8 @@
 }
 
 .lp-body-hdr-wrapper {
-  @extend .mb-5;
+  @extend .mb-4;
+  @extend .mb-md-5;
 }
 
 .lp-body-hdr,
@@ -80,7 +81,8 @@
 
 .lp-body-hdr img {
   @extend .img-fluid;
-  @extend .mt-5;
+  @extend .mt-4;
+  @extend .mt-md-5;
 }
 
 .lp-body-content {
