@@ -1,0 +1,63 @@
+.header-display-1 {
+  font-size: $header-display-1;
+}
+
+.header-display-2 {
+  font-size: $header-display-2;
+}
+
+.header-display-3 {
+  font-size: $header-display-3;
+}
+
+.header-display-4 {
+  font-size: $header-display-4;
+}
+
+.header-display-5 {
+  font-size: $header-display-5;
+}
+
+.header-display-6 {
+  font-size: $header-display-6;
+}
+
+.header-display-7 {
+  font-size: $header-display-7;
+}
+
+@include media-breakpoint-between(xs, sm) {
+  h1 {
+    font-size: $font-size-h1 * .55;
+  }
+
+  h2 {
+    font-size: $font-size-h2 * .60;
+  }
+
+  .header-display-3 {
+    font-size: $header-display-3 * .60;
+  }
+
+  h3 {
+    font-size: $font-size-h3 * .65;
+  }
+}
+
+@include media-breakpoint-between(sm, md) {
+  h1 {
+    font-size: $font-size-h1 * .75;
+  }
+
+  h2 {
+    font-size: $font-size-h2 * .80;
+  }
+
+  .header-display-3 {
+    font-size: $header-display-3 * .80;
+  }
+
+  h3 {
+    font-size: $font-size-h3 * .85;
+  }
+}

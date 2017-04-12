@@ -4,5 +4,6 @@
 
 .policy-list {
   @extend .text-lead;
+  @extend .text;
   @extend %list-inside;
 }

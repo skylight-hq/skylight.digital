@@ -120,14 +120,14 @@ $font-family-sans-serif: "Geomanist", sans-serif;
 $font-size-base: 1.125rem;
 $font-size-lg: 1.25rem;
 $font-size-sm: .9rem;
-$font-size-xs: .8rem;
+$font-size-xs: .85rem;
 
 $font-size-h1: 3.75rem;
-$font-size-h2: 3.0rem;
+$font-size-h2: 3rem;
 $font-size-h3: 2.75rem;
-$font-size-h4: 2.50rem;
+$font-size-h4: 2.5rem;
 $font-size-h5: 2.25rem;
-$font-size-h6: 2.0rem;
+$font-size-h6: 2rem;
 
 $font-weight-normal: 400;
 $font-weight-bold: 700;
@@ -179,18 +179,19 @@ $text-link-hover-color: $text-link-color;
 $text-link-decoration-hover-color: $text-link-decoration-color;
 
 // Fonts
-$font-size-h1-md: 2.75rem;
-$font-size-h2-md: 2.50rem;
-$font-size-h3-md: 2.25rem;
-$font-size-h1-sm: 2.0rem;
-$font-size-h2-sm: 1.75rem;
-$font-size-h3-sm: 1.5rem;
+$header-display-1: 4rem;
+$header-display-2: 3.5rem;
+$header-display-3: 3rem;
+$header-display-4: 2.5rem;
+$header-display-5: 2rem;
+$header-display-6: 1.75rem;
+$header-display-7: 1.5rem;
 
-$font-size-xxxl: 2.5rem;
-$font-size-xxl: 2.0rem;
-$font-size-md: 1.0rem;
-$font-size-xl: 1.50rem;
-$font-size-xs: 0.85rem;
+$font-size-xxxxl: 2.5rem;
+$font-size-xxxl: 2rem;
+$font-size-xxl: 1.75rem;
+$font-size-xl: 1.5rem;
+$font-size-md: 1rem;
 
 // Buttons
 $btn-tertiary-color: $body-color;

@@ -66,6 +66,18 @@
   @include pl-3;
 }
 
+// Links
+%nav-link-decoration {
+  color: $nav-link-color;
+  text-decoration: $nav-link-decoration;
+
+  &:hover,
+  &:focus {
+    color: $nav-link-hover-color;
+    text-decoration: $nav-link-hover-decoration;
+  }
+}
+
 // Tables
 %table-borderless {
   .table td, .table th {
@@ -75,9 +87,9 @@
 
 // Lists
 %list-base {
-  ul {
+  ol, ul {
     li:not(:last-child) {
-      @extend .pb-3;
+      @extend .pb-2;
     }
   }
 }
@@ -85,7 +97,7 @@
 %list-inside {
   @extend %list-base;
 
-  ul {
+  ol, ul {
     @extend .pl-0;
 
     li {

@@ -16,6 +16,7 @@ header nav {
   a {
     @extend .nav-item;
     @extend .nav-link;
+    @extend %nav-link-decoration;
     @extend .px-3;
 
     @include media-breakpoint-down(md) {
@@ -26,15 +27,9 @@ header nav {
       @extend .pr-0;
     }
 
-    color: $nav-link-color;
-    text-decoration: $nav-link-decoration;
-
     &:hover,
     &:focus,
     &.current {
-      color: $nav-link-hover-color;
-      text-decoration: $nav-link-hover-decoration;
-
       span {
         padding-bottom: 3px;
         border-bottom: 5px $nav-link-border-color solid;
