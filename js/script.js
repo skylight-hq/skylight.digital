@@ -35,16 +35,16 @@ function swapJoinContent(hash) {
 
   $navElements.removeClass('current')
   $navElementToActivate.addClass('current')
+
+  $('html, body').scrollTop(0);
 }
 
 $(function() {
-  if ($('.join-us').length > 0) {
-    $('.join-content > div').not('#application').hide()
+  $('.join-content > div').not('#application').hide()
 
-    if (location.hash.length > 0) {
-      var hash = location.hash.substr(1);
-      swapJoinContent(hash)
-    }
+  if (location.hash.length > 0) {
+    var hash = location.hash.substr(1);
+    swapJoinContent(hash)
   }
 
   var $navAnchors = $('.join-us .subnav a')
@@ -68,7 +68,5 @@ $(function() {
 
     var hash = this.hash.substr(1)
     swapJoinContent(hash)
-
-    $('html, body').scrollTop(0);
   })
 })
