@@ -22,49 +22,19 @@
 }
 
 // Spacing
-@mixin mt-5 { margin-top: 3rem !important; }
 @mixin mt-6 { margin-top: 4rem !important; }
 @mixin mt-7 { margin-top: 5rem !important; }
 
 @mixin mb-0 { margin-bottom: 0 !important; }
 @mixin mb-3 { margin-bottom: 1rem !important; }
 @mixin mb-4 { margin-bottom: 1.5rem !important; }
-@mixin mb-5 { margin-bottom: 3rem !important; }
 @mixin mb-6 { margin-bottom: 4rem !important; }
 @mixin mb-7 { margin-bottom: 5rem !important; }
 @mixin mb-10 { margin-bottom: 8rem !important; }
 
-@mixin pt-3 { padding-top: 1rem !important; }
-@mixin pt-5 { padding-top: 3rem !important; }
+@mixin pt-6 { padding-top: 4rem !important; }
 
-@mixin pb-3 { padding-bottom: 1rem !important; }
-@mixin pb-5 { padding-bottom: 3rem !important; }
-
-@mixin pr-2 { padding-right: 0.5rem !important; }
-@mixin pr-3 { padding-right: 1rem !important; }
-
-@mixin pl-2 { padding-left: 0.5rem !important; }
-@mixin pl-3 { padding-left: 1rem !important; }
-
-@mixin py-3 {
-  @include pt-3;
-  @include pb-3;
-}
-
-@mixin py-5 {
-  @include pt-5;
-  @include pb-5;
-}
-
-@mixin px-2 {
-  @include pr-2;
-  @include pl-2;
-}
-
-@mixin px-3 {
-  @include pr-3;
-  @include pl-3;
-}
+@mixin pb-6 { padding-bottom: 4rem !important; }
 
 // Links
 %nav-link-decoration {
@@ -110,7 +80,7 @@
 
 // Copy of Bootstrap's button variant mixin with
 // disabled and active styles removed
-@mixin button-tertiary($color, $background, $border, $active-color) {
+@mixin button-outline-variant2($color, $background, $border, $active-color) {
   $active-background: $background;
   $active-border: $active-color;
 
@@ -139,7 +109,7 @@
   }
 }
 
-%button-base {
+%btn-base {
   @extend .btn;
   @extend .font-weight-bold;
 
@@ -148,25 +118,39 @@
   }
 }
 
-%button-primary {
-  @extend %button-base;
+%btn-cta-primary {
+  @extend %btn-base;
   @extend .btn-primary;
   @extend .btn-lg;
   @extend .text-uppercase;
 }
 
-%button-secondary {
-  @extend %button-base;
+%btn-cta-secondary {
+  @extend %btn-base;
   @extend .btn-secondary;
   @extend .btn-outline-secondary;
   @extend .btn-lg;
 }
 
-%button-tertiary {
-  @extend %button-base;
+%btn-page-cta {
+  @extend %btn-base;
+  @extend .btn-lg;
+  @extend .text-uppercase;
+  @include button-variant($btn-page-cta-color, $btn-page-cta-bg, $btn-page-cta-border);
+}
+
+%btn-footer {
+  @extend %btn-base;
   @extend .btn-sm;
-  @include button-tertiary($btn-tertiary-color, $btn-tertiary-bg,
-    $btn-tertiary-border, $btn-tertiary-active-color);
+  @include button-outline-variant2($btn-footer-color, $btn-footer-bg,
+    $btn-footer-border, $btn-footer-active-color);
+}
+
+%btn-form {
+  @extend %btn-base;
+  @extend .btn-lg;
+  @extend .btn-block;
+  @include button-variant($btn-form-color, $btn-form-bg, $btn-form-border);
 }
 
 // Grid
