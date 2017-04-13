@@ -9,10 +9,8 @@
 .service-area {
   @extend .col-md-4;
 
-  @include media-breakpoint-down(sm) {
-    &:not(:last-child) {
-      @include mb-5;
-    }
+  &:not(:last-child) {
+    @extend .mb-sm-down-5;
   }
 }
 

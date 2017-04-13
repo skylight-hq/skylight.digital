@@ -79,10 +79,18 @@
 
 // Brand colors
 $cool-gray: #53565a;
+$reflex-blue: #001489;
+$chathams-blue: #1d428a;
+$matisse: #1d4f91;
 $deep-cerulean: #0076a8;
 $eucalyptus: #228848;
+$sushi: #6ba539;
+$supernova: #f2cd00;
 $tangerine: #ed8b00;
+$flame-pea: #dc6b2f;
+$trinidad: #dc4405;
 $flush-mahogany: #cb333b;
+$honey-flower: #6d2077;
 
 // Bootstrap overrides
 //
@@ -107,7 +115,7 @@ $brand-danger: $flush-mahogany;
 $brand-inverse: $gray-dark;
 
 // Body
-$body-color: $gray;
+$body-color: $gray-dark;
 
 // Links
 $link-color: $brand-primary;
@@ -134,6 +142,8 @@ $font-weight-bold: 700;
 
 $headings-font-weight: 700;
 
+$lead-font-weight: 100;
+
 $text-muted: $gray-light;
 
 $list-inline-padding: 0;
@@ -147,7 +157,7 @@ $input-color-placeholder: $gray-lighter;
 // Buttons
 $btn-primary-color: $white;
 $btn-primary-bg: $brand-primary;
-$btn-primary-border: $white;
+$btn-primary-border: $brand-primary;
 
 $btn-secondary-color: $brand-primary;
 $btn-secondary-bg: $white;
@@ -194,10 +204,18 @@ $font-size-xl: 1.5rem;
 $font-size-md: 1rem;
 
 // Buttons
-$btn-tertiary-color: $body-color;
-$btn-tertiary-bg: $white;
-$btn-tertiary-border: $btn-tertiary-color;
-$btn-tertiary-active-color: $brand-primary;
+$btn-page-cta-color: $white;
+$btn-page-cta-bg: $tangerine;
+$btn-page-cta-border: $tangerine;
+
+$btn-form-color: $white;
+$btn-form-bg: $cool-gray;
+$btn-form-border: $cool-gray;
+
+$btn-footer-color: $body-color;
+$btn-footer-bg: $white;
+$btn-footer-border: $btn-footer-color;
+$btn-footer-active-color: $brand-primary;
 
 // Main nav
 $nav-link-color: $body-color;
@@ -207,10 +225,13 @@ $nav-link-hover-decoration: none;
 $nav-link-border-color: $brand-primary;
 
 $nav-toggler-color: $nav-link-color;
-$nav-toggler-hover-color: $brand-primary;
+$nav-toggler-hover-color: $body-color;
 
 // Jumbotron
 $jumbotron-color: $white;
+
+// Forms
+$input-label-color: $body-color;
 
 // Cards
 $card-box-shadow: 0 0 1px 1px rgba($link-hover-color, 1);

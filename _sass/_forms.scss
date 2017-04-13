@@ -8,9 +8,12 @@ form {
 
   label {
     @extend .font-weight-bold;
+    color: $input-label-color;
   }
 
   button[type="submit"] {
+    @extend %btn-form;
+
     &:hover,
     &:focus {
       cursor: pointer;
