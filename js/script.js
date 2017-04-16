@@ -26,7 +26,7 @@ function swapJoinContent(hash) {
   var $contentElements = $('.join-content > div')
   var $contentElementToActivate = $(`#${hash}`)
   var $navElements = $('.subnav li')
-  var $navElementToActivate = $('.subnav li').has('a[href$="#' + hash + '"]')
+  var $navElementToActivate = $navElements.has('a[href$="#' + hash + '"]')
 
   // Guard against answer that is not present on the page
   if (($contentElementToActivate.length === 0) || ($navElementToActivate.length === 0)) {
@@ -36,8 +36,11 @@ function swapJoinContent(hash) {
   $contentElements.hide()
   $contentElementToActivate.show()
 
-  $navElements.removeAttr('aria-current')
-  $navElementToActivate.attr('aria-current', 'location')
+  $navElements.removeClass('current')
+  $navElements.find('a').removeAttr('aria-current')
+
+  $navElementToActivate.addClass('current')
+  $navElementToActivate.find('a').attr('aria-current', 'location')
 
   $('html, body').scrollTop(0);
 }
