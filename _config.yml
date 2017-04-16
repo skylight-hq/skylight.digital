@@ -9,21 +9,21 @@
 title: Skylight - Digital Government Consulting
 email: hello@skylight.digital
 description: >
-  Skylight is a HUBZone digital consultancy focused
-  on making government work in a digital world.
+  Skylight is a HUBZone digital consultancy driven
+  by making government work in a digital world.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title/
 url: https://skylight.digital
 localhost: localhost:4000
-twitter_url: ""
-github_repo_url: ""
+twitter_url: https://twitter.com/skylight_hq
+github_repo_url: https://github.com/skylight-digital
 github_issues_url: https://github.com/skylight-digital/skylight.digital/issues
 linkedin_url: ""
 openco_url: ""
 
 twitter:
-  username: ""
+  username: skylight_hq
 github:
   username: skylight-digital
 

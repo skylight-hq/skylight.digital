@@ -31,6 +31,173 @@ permalink: /join/
           talented technologists</a> who embody <a href="/culture/">our culture</a> and strive
           to bring out the best in each other.
         </p>
+
+        <form>
+          <fieldset class="form-group">
+            <legend>Contact information</legend>
+
+            <div class="form-group">
+              <label class="required" for="name-input">Name</label>
+              <input id="name-input" class="form-control" type="text" placeholder="Olivia Jones" required>
+            </div>
+
+            <div class="form-group">
+              <label class="required" for="email-input">Email</label>
+              <input id="email-input" class="form-control" type="email" placeholder="olivia@jones.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="required" for="zip-input">Zip code</label>
+              <input id="zip-input" class="form-control" type="text" pattern="[0-9]{5}" title="Five-digit zip code" placeholder="55555" aria-describedby="zip-help" required>
+              <small id="zip-help" class="form-text text-muted">
+                This helps us identify if you live in a <a href="/about/#hubzone" target="_blank">HUBZone</a>.
+              </small>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Experience</legend>
+
+            <div class="form-group">
+              <label class="btn-file required" role="button">
+                <input id="resume-input-file" class="sr-only" type="file" title="Upload your resume" aria-describedby="resume-help" required>
+                <span>Upload Resume</span>
+              </label>
+              <small id="resume-help" class="form-text text-muted">
+                PDF, please.
+              </small>
+            </div>
+
+            <div class="form-group">
+              <label class="required" for="experience-select">What is your primary field of expertise?</label>
+              <select id="experience-select" class="form-control" required>
+                <option>-select-</option>
+                <option>Software engineering</option>
+                <option>Frontend web development</option>
+                <option>Legacy software reengineering</option>
+                <option>DevOps and site reliability engineering</option>
+                <option>Security engineering</option>
+                <option>Engineering management</option>
+                <option>Data engineering</option>
+                <option>Data science</option>
+                <option>Data analytics</option>
+                <option>Internet of things</option>
+                <option>Product management</option>
+                <option>Product design</option>
+                <option>Service design</option>
+                <option>User experience design</option>
+                <option>Visual design</option>
+                <option>Content design</option>
+                <option>Technology procurement</option>
+                <option>Technical recruiting and talent operations</option>
+                <option>Enterprise agile transformation</option>
+                <option>Client engagement management</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                Are you applying for an internship?
+              </label>
+            </div>
+
+            <fieldset class="fieldset-nested">
+              <legend>
+                Where can we find you online?
+                <small>(select those that apply)</small>
+              </legend>
+
+              <div class="form-icons">
+                <div role="button" data-toggle="github-toggle" aria-controls="github-toggle" aria-expanded="false">
+                  <span class="sr-only">Toggle GitHub Form Input Field</span>
+                  <i class="fa fa-github fa-2x" title="GitHub" aria-hidden="true"></i>
+                </div>
+
+                <div role="button" data-toggle="linkedin-toggle" aria-controls="linkedin-toggle" aria-expanded="false">
+                  <span class="sr-only">Toggle LinkedIn Form Input Field</span>
+                  <i class="fa fa-linkedin fa-2x" title="LinkedIn" aria-hidden="true"></i>
+                </div>
+
+                <div role="button" data-toggle="medium-toggle" aria-controls="medium-toggle" aria-expanded="false">
+                  <span class="sr-only">Toggle Medium Form Input Field</span>
+                  <i class="fa fa-medium fa-2x" title="Medium" aria-hidden="true"></i>
+                </div>
+
+                <div role="button" data-toggle="dribbble-toggle" aria-controls="dribbble-toggle" aria-expanded="false">
+                  <span class="sr-only">Toggle Dribbble Form Input Field</span>
+                  <i class="fa fa-dribbble fa-2x" title="Dribbble" aria-hidden="true"></i>
+                </div>
+
+                <div role="button" data-toggle="website-toggle" aria-controls="website-toggle" aria-expanded="false">
+                  <span class="sr-only">Toggle Personal Website Form Input Field</span>
+                  <i class="fa fa-home fa-2x" title="Personal Website" aria-hidden="true"></i>
+                </div>
+              </div>
+
+              <div id="github-toggle" class="form-group sr-only">
+                <label for="github-input">GitHub</label>
+                <input id="github-input" class="form-control" type="text" placeholder="https://github.com/oliviajones">
+              </div>
+
+              <div id="linkedin-toggle" class="form-group sr-only">
+                <label for="linkedin-input">LinkedIn</label>
+                <input id="linkedin-input" class="form-control" type="text" placeholder="https://linkedin.com/in/oliviajones">
+              </div>
+
+              <div id="medium-toggle" class="form-group sr-only">
+                <label for="medium-input">Medium</label>
+                <input id="medium-input" class="form-control" type="text" placeholder="https://medium.com/@oliviajones">
+              </div>
+
+              <div id="dribbble-toggle" class="form-group sr-only">
+                <label for="dribbble-input">Dribbble</label>
+                <input id="dribbble-input" class="form-control" type="text" placeholder="https://dribbble.com/oliviajones">
+              </div>
+
+              <div id="website-toggle" class="form-group sr-only">
+                <label for="website-input">Personal website</label>
+                <input id="website-input" class="form-control" type="text" placeholder="https://oliviajones.me/">
+              </div>
+            </fieldset>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Other information</legend>
+
+            <div class="form-group">
+              <label for="authorization-select" aria-describedby="authorization-help">Are you authorized to work in the U.S.?</label>
+              <select id="authorization-select" class="form-control">
+                <option>-select-</option>
+                <option>Yes, I’m a U.S. citizen.</option>
+                <option>Yes, I’m authorized to work in the U.S., though I’m not a citizen.</option>
+                <option>No.</option>
+                <option>I don’t know.</option>
+              </select>
+              <small id="authorization-help" class="form-text text-muted">
+                All positions require work authorization.
+              </small>
+            </div>
+
+            <div class="form-group">
+              <label for="hear-select">How did you hear about Skylight?</label>
+              <select id="hear-select" class="form-control">
+                <option>-select-</option>
+                <option>A current/former Skylight team member</option>
+                <option>An article, video, or blog post</option>
+                <option>Twitter</option>
+                <option>A friend of colleague</option>
+                <option>An event</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <button type="submit" role="button">Submit</button>
+          </div>
+        </form>
       </div>
 
       <div id="who">

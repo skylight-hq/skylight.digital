@@ -22,31 +22,26 @@
 }
 
 .footer-contribute-cta a {
-  @extend %btn-footer;
+  @extend %btn-base;
+  @extend .btn-sm;
+  @include button-outline-variant2($btn-footer-color, $btn-footer-bg,
+    $btn-footer-border, $btn-footer-active-color);
 }
 
 .footer-nav,
 .footer-socials {
   @extend .col-md-9;
-}
-
-.footer-nav,
-.footer-socials {
   @extend .text-md-right;
-
-  a {
-    color: $footer-link-color;
-
-    &:hover,
-    &:focus {
-      color: $footer-link-hover-color;
-    }
-  }
 }
 
 .footer-nav {
+  a {
+    @include link-decoration($footer-nav-link-color, $footer-nav-link-hover-color,
+      $footer-nav-link-border, $footer-nav-link-border-hover);
+  }
+
   font-size: $font-size-sm;
-  font-weight: $footer-link-font-weight;
+  font-weight: 100;
 
   ul {
     @extend .list-inline;
@@ -60,21 +55,18 @@
   li+li:before
   {
   	content: '/';
-  	color: $footer-link-divider-color;
+  	color: $footer-nav-link-divider-color;
   	display: inline-block;
   	margin: 0 5px;
-  }
-
-  a {
-    border-bottom: 1px dotted $footer-link-color;
-
-    &:hover, &:focus {
-      border-bottom: 1px solid $footer-link-hover-color;
-    }
   }
 }
 
 .footer-socials {
+  a {
+    @include link-decoration($footer-socials-link-color, $footer-socials-link-hover-color,
+      $footer-socials-link-border, $footer-socials-link-border-hover);
+  }
+
   a:not(:last-child) {
     padding-right: 25px;
   }

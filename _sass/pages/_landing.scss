@@ -29,7 +29,10 @@
   }
 
   a {
-    @extend %btn-cta-primary;
+    @extend %btn-base;
+    @extend .btn-primary;
+    @extend .btn-lg;
+    @extend .text-uppercase;
     @extend .mt-4;
   }
 }
@@ -98,5 +101,8 @@
 }
 
 .lp-body-cta-btn {
-  @extend %btn-cta-secondary;
+  @extend %btn-base;
+  @extend .btn-secondary;
+  @extend .btn-outline-secondary;
+  @extend .btn-lg;
 }

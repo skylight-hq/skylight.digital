@@ -1,31 +1,8 @@
-<div class="page-cta">
-
-  <div class="container">
-
-    <div class="page-cta-hdr-wrapper ">
-      <div class="page-cta-hdr">
-        <h3 class="header-display-3">Change lives every day.</h3>
-      </div>
-    </div>
-
-    <div class="page-cta-content-wrapper">
-      <div class="page-cta-content">
-        <p>
-          We need great technologists, designers, and more to work on
-          changing how the government serves the public.
-        </p>
-      </div>
-    </div>
-
-    <div class="page-cta-btn-wrapper">
-      <div class="page-cta-btn">
-        <a href="/join/" role="button">
-          <span>Join Us</span>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-
-  </div>
-
-</div>
+{% include cta.html
+  header = "Change lives every day."
+  content = "We need great technologists, designers, and more to work on changing how the government serves the public."
+  content_css_class = "page-cta-content"
+  cta_path = "/join/"
+  cta = "Join Us"
+  icon_css_class = "fa fa-arrow-right"
+%}

@@ -152,6 +152,9 @@ $list-inline-padding: 0;
 $navbar-padding-x: 0;
 
 // Forms
+$form-group-margin-bottom: 2rem;
+$form-check-margin-bottom: $form-group-margin-bottom;
+
 $input-color-placeholder: $gray-lighter;
 
 // Buttons
@@ -184,9 +187,9 @@ $brand-primary-muted: rgba($brand-primary, 0.7);
 
 // Links
 $text-link-color: $brand-primary;
-$text-link-decoration-color: $brand-primary;
 $text-link-hover-color: $text-link-color;
-$text-link-decoration-hover-color: $text-link-decoration-color;
+$text-link-border: 1px dotted $text-link-color;
+$text-link-border-hover: 1px solid $text-link-hover-color;
 
 // Fonts
 $header-display-1: 4rem;
@@ -212,6 +215,10 @@ $btn-form-color: $white;
 $btn-form-bg: $cool-gray;
 $btn-form-border: $cool-gray;
 
+$btn-file-color: $gray-dark;
+$btn-file-bg: $gray-lightest;
+$btn-file-border: $gray-lightest;
+
 $btn-footer-color: $body-color;
 $btn-footer-bg: $white;
 $btn-footer-border: $btn-footer-color;
@@ -225,13 +232,23 @@ $nav-link-hover-decoration: none;
 $nav-link-border-color: $brand-primary;
 
 $nav-toggler-color: $nav-link-color;
-$nav-toggler-hover-color: $body-color;
+$nav-toggler-hover-color: $brand-primary;
 
 // Jumbotron
 $jumbotron-color: $white;
 
 // Forms
-$input-label-color: $body-color;
+$form-icons-margin-bottom: $form-group-margin-bottom;
+
+$control-label-color: $body-color;
+$control-label-font-size: $font-size-base;
+
+$help-text-link-color: $text-muted;
+$help-text-link-hover-color: $brand-primary;
+$help-text-link-border: 1px dotted $help-text-link-color;
+$help-text-link-border-hover: 1px solid $help-text-link-hover-color;
+
+$form-icon-hover-color: $brand-primary;
 
 // Cards
 $card-box-shadow: 0 0 1px 1px rgba($link-hover-color, 1);
@@ -241,8 +258,14 @@ $page-cta-color: $white;
 $page-cta-bg-color: $brand-primary;
 
 // Footer
-$footer-link-color: $body-color;
-$footer-link-hover-color: $brand-primary;
-$footer-link-divider-color: $footer-link-color;
+$footer-nav-link-color: $body-color;
+$footer-nav-link-hover-color: $brand-primary;
+$footer-nav-link-border: 1px dotted $footer-nav-link-color;
+$footer-nav-link-border-hover: 1px solid $footer-nav-link-hover-color;
 
-$footer-link-font-weight: 100;
+$footer-socials-link-color: $footer-nav-link-color;
+$footer-socials-link-hover-color: $footer-nav-link-hover-color;
+$footer-socials-link-border: none;
+$footer-socials-link-border-hover: none;
+
+$footer-nav-link-divider-color: $footer-nav-link-color;

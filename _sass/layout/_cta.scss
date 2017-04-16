@@ -49,7 +49,10 @@
   @extend .col;
 
   a {
-    @extend %btn-page-cta;
+    @extend %btn-base;
+    @extend .btn-lg;
+    @extend .text-uppercase;
+    @include button-variant($btn-page-cta-color, $btn-page-cta-bg, $btn-page-cta-border);
   }
 }
 

@@ -1,31 +1,8 @@
-<div class="page-cta">
-
-  <div class="container">
-
-    <div class="page-cta-hdr-wrapper ">
-      <div class="page-cta-hdr">
-        <h3 class="header-display-3">Let's get to work.</h3>
-      </div>
-    </div>
-
-    <div class="page-cta-content-wrapper">
-      <div class="page-cta-content-narrow">
-        <p>
-          Have a bold idea or unsolvable problem?
-          We’d love to hear about it.
-        </p>
-      </div>
-    </div>
-
-    <div class="page-cta-btn-wrapper">
-      <div class="page-cta-btn">
-        <a href="/hire-us/" role="button">
-          <span>Contact Us</span>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-
-  </div>
-
-</div>
+{% include cta.html
+  header = "Let's get to work."
+  content = "Have a bold idea or unsolvable problem? We’d love to hear about it."
+  content_css_class = "page-cta-content-narrow"
+  cta_path = "/hire-us/"
+  cta = "Contact Us"
+  icon_css_class = "fa fa-arrow-right"
+%}

@@ -1,31 +1,8 @@
-<div class="page-cta">
-
-  <div class="container">
-
-    <div class="page-cta-hdr-wrapper ">
-      <div class="page-cta-hdr">
-        <h3 class="header-display-3">Introduce yourself.</h3>
-      </div>
-    </div>
-
-    <div class="page-cta-content-wrapper">
-      <div class="page-cta-content">
-        <p>
-          Interested in Skylight, but not ready to apply?
-          Get on our radar by dropping us an email.
-        </p>
-      </div>
-    </div>
-
-    <div class="page-cta-btn-wrapper">
-      <div class="page-cta-btn">
-        <a href="mailto:hello@skylight.digital" role="button">
-          <span>Email us</span>
-          <i class="fa fa-at" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-
-  </div>
-
-</div>
+{% include cta.html
+  header = "Introduce yourself."
+  content = "Interested in Skylight, but not ready to apply? Get on our radar by dropping us an email."
+  content_css_class = "page-cta-content"
+  cta_path = "mailto:hello@skylight.digital"
+  cta = "Email Us"
+  icon_css_class = "fa fa-at"
+%}

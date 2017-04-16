@@ -24,12 +24,12 @@
     }
 
     padding-left: 0.5em;
-    border-left: 7px $white solid;
+    border-left: 7px solid $white;
 
     &:hover,
     &:focus,
     &.current {
-      border-left: 7px $nav-link-border-color solid;
+      border-left: 7px solid $nav-link-border-color;
     }
   }
 
@@ -37,10 +37,10 @@
     @extend .nav-link;
     @extend %nav-link-decoration;
     padding: 0;
-    border-bottom: 1px $white solid;
+    border-bottom: 1px solid $white;
 
     &:hover {
-      border-bottom: 1px $nav-link-border-color solid;
+      border-bottom: 1px solid $nav-link-border-color;
     }
   }
 }
