@@ -26,7 +26,7 @@ header nav {
 
     &:hover,
     &:focus,
-    &.current {
+    &[aria-current] {
       span {
         padding-bottom: 3px;
         border-bottom: 5px solid $nav-link-border-color;
