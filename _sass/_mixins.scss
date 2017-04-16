@@ -48,6 +48,17 @@
   }
 }
 
+@mixin link-decoration($color, $hover-color, $border, $border-hover) {
+  color: $color;
+  border-bottom: $border;
+
+  &:hover,
+  &:focus {
+    color: $hover-color;
+    border-bottom: $border-hover;
+  }
+}
+
 // Tables
 %table-borderless {
   .table td, .table th {
@@ -116,41 +127,6 @@
   i {
     @extend .ml-2;
   }
-}
-
-%btn-cta-primary {
-  @extend %btn-base;
-  @extend .btn-primary;
-  @extend .btn-lg;
-  @extend .text-uppercase;
-}
-
-%btn-cta-secondary {
-  @extend %btn-base;
-  @extend .btn-secondary;
-  @extend .btn-outline-secondary;
-  @extend .btn-lg;
-}
-
-%btn-page-cta {
-  @extend %btn-base;
-  @extend .btn-lg;
-  @extend .text-uppercase;
-  @include button-variant($btn-page-cta-color, $btn-page-cta-bg, $btn-page-cta-border);
-}
-
-%btn-footer {
-  @extend %btn-base;
-  @extend .btn-sm;
-  @include button-outline-variant2($btn-footer-color, $btn-footer-bg,
-    $btn-footer-border, $btn-footer-active-color);
-}
-
-%btn-form {
-  @extend %btn-base;
-  @extend .btn-lg;
-  @extend .btn-block;
-  @include button-variant($btn-form-color, $btn-form-bg, $btn-form-border);
 }
 
 // Grid
@@ -248,7 +224,7 @@
       @extend .no-border;
     }
 
-    span ~ i {
+    span + i {
       @extend .ml-2;
       vertical-align: middle;
     }

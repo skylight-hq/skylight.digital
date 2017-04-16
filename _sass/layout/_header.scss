@@ -29,7 +29,7 @@ header nav {
     &.current {
       span {
         padding-bottom: 3px;
-        border-bottom: 5px $nav-link-border-color solid;
+        border-bottom: 5px solid $nav-link-border-color;
       }
     }
   }
@@ -45,8 +45,8 @@ header nav {
 }
 
 .navbar-toggler {
+  @extend .align-self-center;
   color: $nav-toggler-color;
-  align-self: center;
 
   &:hover,
   &:focus {

@@ -8,15 +8,67 @@ form {
 
   label {
     @extend .font-weight-bold;
-    color: $input-label-color;
+    color: $control-label-color;
+    font-size: $control-label-font-size;
+  }
+
+  legend {
+    @extend .font-weight-bold;
+    @extend .mb-4;
   }
 
   button[type="submit"] {
-    @extend %btn-form;
+    @extend %btn-base;
+    @extend .btn-lg;
+    @extend .btn-block;
+    @include button-variant($btn-form-color, $btn-form-bg, $btn-form-border);
+  }
+
+  .form-text {
+    a {
+      @include link-decoration($help-text-link-color, $help-text-link-hover-color,
+        $help-text-link-border, $help-text-link-border-hover);
+    }
+  }
+}
+
+.btn-file {
+  @extend %btn-base;
+  @include button-variant($btn-file-color, $btn-file-bg, $btn-file-border);
+  @extend .mb-0;
+  @extend .text-truncate;
+}
+
+.file-width-max {
+  width: 225px;
+}
+
+.fieldset-nested {
+  legend {
+    font-size: $control-label-font-size;
+
+    small {
+      @extend .d-block;
+      @extend .d-md-inline;
+      @extend .text-muted;
+    }
+  }
+
+  .form-icons {
+    @extend .d-flex;
+    @extend .justify-content-between;
+    @extend .mt-2;
+    margin-bottom: $form-icons-margin-bottom;
+    border-bottom: 1px dashed $gray-lightest;
+  }
+
+  i {
+    @extend .pb-2;
 
     &:hover,
-    &:focus {
-      cursor: pointer;
+    &:focus,
+    &.current {
+      color: $form-icon-hover-color;
     }
   }
 }

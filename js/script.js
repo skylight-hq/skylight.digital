@@ -60,7 +60,7 @@ $(function() {
 
   $allAnchors = $navAnchors.add($pageAnchors)
 
-  $allAnchors.on('click', function (e) {
+  $allAnchors.on('click', function(e) {
     e.preventDefault()
 
     var dest = $(this).attr('href')
@@ -68,5 +68,32 @@ $(function() {
 
     var hash = this.hash.substr(1)
     swapJoinContent(hash)
+  })
+})
+
+// Form file upload
+$(function() {
+  $('#resume-input-file').change(function() {
+    var fileName = this.files[0].name
+    $('.btn-file').addClass('file-width-max')
+    $('#resume-input-file + span').html(fileName)
+  })
+})
+
+// Form icons
+$(function() {
+  $('.form-icons div').click(function(e) {
+    e.preventDefault()
+
+    var targetElementId = $(this).data('toggle')
+
+    if ($(this).attr('aria-expanded') == 'false') {
+      $(this).attr('aria-expanded', true)
+    } else {
+      $(this).attr('aria-expanded', false)
+    }
+
+    $(this).find('i').toggleClass('current')
+    $(`#${targetElementId}`).toggleClass('sr-only')
   })
 })
