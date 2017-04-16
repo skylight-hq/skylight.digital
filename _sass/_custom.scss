@@ -238,8 +238,6 @@ $nav-toggler-hover-color: $brand-primary;
 $jumbotron-color: $white;
 
 // Forms
-$form-icons-margin-bottom: $form-group-margin-bottom;
-
 $control-label-color: $body-color;
 $control-label-font-size: $font-size-base;
 
@@ -248,6 +246,9 @@ $help-text-link-hover-color: $brand-primary;
 $help-text-link-border: 1px dotted $help-text-link-color;
 $help-text-link-border-hover: 1px solid $help-text-link-hover-color;
 
+$form-icons-margin-bottom: $form-group-margin-bottom;
+$form-icons-border-color: $gray-lightest;
+$form-icon-color: $form-icons-border-color;
 $form-icon-hover-color: $brand-primary;
 
 // Cards

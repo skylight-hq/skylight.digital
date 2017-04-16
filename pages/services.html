@@ -11,6 +11,9 @@ header_content: A lot goes into making you a digital-first agency.
   {% include page_header.html %}
 
   <section class="page-block extra-space container-fluid">
+
+    <h2 class="sr-only">What we offer</h2>
+
     <div class="service-areas">
       {% assign service_areas = site.service_areas | sort: 'order' %}
       {% for service_area in service_areas %}
