@@ -10,7 +10,7 @@ permalink: /join/
 
     <aside class="subnav" role="navigation">
       <ul>
-        <li class="current"><a href="/join/#application">Apply now</a></li>
+        <li aria-current="location"><a href="/join/#application">Apply now</a></li>
         <li><a href="/join/#who">Who we're hiring</a></li>
         <li><a href="/join/#openings">Open positions</a></li>
         <li><a href="/join/#interviewing">Interview process</a></li>
@@ -38,17 +38,17 @@ permalink: /join/
 
             <div class="form-group">
               <label class="required" for="name-input">Name</label>
-              <input id="name-input" class="form-control" type="text" placeholder="Olivia Jones" required>
+              <input id="name-input" class="form-control" type="text" placeholder="Olivia Jones" name="name" autocomplete="name" required>
             </div>
 
             <div class="form-group">
               <label class="required" for="email-input">Email</label>
-              <input id="email-input" class="form-control" type="email" placeholder="olivia@jones.com" required>
+              <input id="email-input" class="form-control" type="email" placeholder="olivia@jones.com" name="email" autocomplete="email" required>
             </div>
 
             <div class="form-group">
               <label class="required" for="zip-input">Zip code</label>
-              <input id="zip-input" class="form-control" type="text" pattern="[0-9]{5}" title="Five-digit zip code" placeholder="55555" aria-describedby="zip-help" required>
+              <input id="zip-input" class="form-control" type="text" pattern="[0-9]{5}" title="Five-digit zip code" placeholder="55555" name="zip" autocomplete="postal-code" aria-describedby="zip-help" required>
               <small id="zip-help" class="form-text text-muted">
                 This helps us identify if you live in a <a href="/about/#hubzone" target="_blank">HUBZone</a>.
               </small>
@@ -187,7 +187,7 @@ permalink: /join/
                 <option>A current/former Skylight team member</option>
                 <option>An article, video, or blog post</option>
                 <option>Twitter</option>
-                <option>A friend of colleague</option>
+                <option>A friend or colleague</option>
                 <option>An event</option>
                 <option>Other</option>
               </select>

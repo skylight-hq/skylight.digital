@@ -4,10 +4,13 @@ $(function() {
 
 // Activate current main nav item
 $(function() {
-  $('#main-nav a.current').removeClass('current')
+  var $anchorToDeactivate = $('#main-nav a[aria-current]')
+  $anchorToDeactivate.removeAttr('aria-current')
+
   var pathArray = location.pathname.split('/')
   var firstLevelPath = pathArray[1]
-  $('#main-nav a[href*="' + firstLevelPath + '"]').closest('a').addClass('current')
+  var $anchorToActivate = $('#main-nav a[href*="' + firstLevelPath + '"]').closest('a')
+  $anchorToActivate.attr('aria-current', 'page')
 })
 
 
@@ -33,8 +36,8 @@ function swapJoinContent(hash) {
   $contentElements.hide()
   $contentElementToActivate.show()
 
-  $navElements.removeClass('current')
-  $navElementToActivate.addClass('current')
+  $navElements.removeAttr('aria-current')
+  $navElementToActivate.attr('aria-current', 'location')
 
   $('html, body').scrollTop(0);
 }

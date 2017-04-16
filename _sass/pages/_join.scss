@@ -28,7 +28,7 @@
 
     &:hover,
     &:focus,
-    &.current {
+    &[aria-current] {
       border-left: 7px solid $nav-link-border-color;
     }
   }
