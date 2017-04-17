@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_area
 title: Digital Procurement
 teaser: Tech procurements that succeed and inspire public confidence.
 header_content_css_class: page-hdr-content-2
@@ -51,5 +51,3 @@ service_elements:
       level and beyond through our agile adoption pattern of Shu-Ha-Ri.
     order: 6
 ---
-
-{% include service_area.html %}

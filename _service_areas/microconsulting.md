@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_area
 title: Microconsulting
 header_content_css_class: page-hdr-content-2
 header_content: >
@@ -30,5 +30,3 @@ service_elements:
       to create product prototypes at warp speed.
     order: 3
 ---
-
-{% include service_area.html %}
