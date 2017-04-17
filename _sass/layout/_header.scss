@@ -54,6 +54,22 @@ header nav {
   }
 }
 
+.can-touch {
+  .navbar-toggler {
+    &:hover {
+      color: $nav-toggler-color;
+    }
+
+    &:focus {
+      color: $nav-toggler-hover-color;
+    }
+  }
+
+  .navbar-toggler[aria-expanded="true"] {
+    color: $nav-toggler-hover-color;
+  }
+}
+
 #main-nav {
   @extend .collapse;
   @extend .navbar-collapse;
