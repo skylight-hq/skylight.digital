@@ -109,9 +109,9 @@ $(function() {
 $(function() {
 	var isTouch = false // var to indicate current input type (is touch versus no touch)
 	var isTouchTimer
-	var curRootClass = 'html' // var indicating current document root class ("can-touch" or "")
+	var curRootClass = '' // var indicating current document root class ("can-touch" or "")
 
-	function addtouchclass(e){
+	function addtouchclass(e) {
 		clearTimeout(isTouchTimer)
 		isTouch = true
 		if (curRootClass != 'can-touch') { // add "can-touch' class if it's not already present
@@ -121,7 +121,7 @@ $(function() {
 		isTouchTimer = setTimeout(function(){isTouch = false}, 1000) // maintain "istouch" state for 1000ms so removetouchclass doesn't get fired immediately following a touch event
 	}
 
-	function removetouchclass(e){
+	function removetouchclass(e) {
 		if (!isTouch && curRootClass == 'can-touch') { // remove 'can-touch' class if not triggered by a touch event and class is present
 			isTouch = false
 			curRootClass = ''
@@ -130,5 +130,5 @@ $(function() {
 	}
 
 	document.addEventListener('touchstart', addtouchclass, false) // this event only gets called when input type is touch
-	document.addEventListener('mouseover', removetouchclass, false) // this event gets called when input type is everything from touch to mouse/ trackpad
+	document.addEventListener('mouseover', removetouchclass, false) // this event gets called when input type is everything from touch to mouse/trackpad
 })
