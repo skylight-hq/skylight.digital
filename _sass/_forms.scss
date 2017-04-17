@@ -73,3 +73,14 @@ form {
     }
   }
 }
+
+.can-touch .form-icons i {
+  &:hover {
+    color: $form-icon-color;
+  }
+
+  &:focus,
+  &.current {
+    color: $form-icon-hover-color;
+  }
+}
