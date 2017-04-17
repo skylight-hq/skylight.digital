@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_area
 title: Digital Services Delivery
 teaser: Beautiful, enduring digital services that customers love.
 header_content_css_class: page-hdr-content-2
@@ -48,5 +48,3 @@ service_elements:
       extensible, as well as building vibrant user communities.
     order: 6
 ---
-
-{% include service_area.html %}

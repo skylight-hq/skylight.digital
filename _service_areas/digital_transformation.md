@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: service_area
 title: Digital Transformation
 teaser: Digital organizations built to last, plus attract top digital talent.
 header_content_css_class: page-hdr-content-2
@@ -39,5 +39,3 @@ service_elements:
       principles and practices at enterprise scale.
     order: 3
 ---
-
-{% include service_area.html %}
