@@ -125,7 +125,8 @@
 
   .#{$class-name} {
     @extend .col-md-4;
-    @include more-than-three-sets-of-cols($mb-size: 3, $mb-md-size: 4);
+    @extend .mb-4;
+    //@include more-than-three-sets-of-cols($mb-size: 3, $mb-md-size: 4);
   }
 
   .#{$class-name}-card {
