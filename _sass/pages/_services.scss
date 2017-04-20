@@ -65,11 +65,11 @@
   }
 }
 
-.capabilities {
+.capabilities, .industry-info-list {
   @extend .row;
 }
 
-.capability-group {
+.capability-group, .industry-info-item {
   @extend .col-md-6;
   @extend .col-lg-4;
   @extend .mt-4;
@@ -86,7 +86,9 @@
     @extend .text-uppercase;
     font-size: $font-size-md;
   }
+}
 
+.capability-group {
   ul {
     @extend .list-unstyled;
     font-size: $font-size-md;
@@ -94,33 +96,17 @@
   }
 }
 
-.industry-info-list {
-  @extend .row;
-}
-
-.industry-info-items {
-  @extend .col-sm-6;
-  //@extend .d-flex;
-  //@extend .flex-column;
-  //@extend .justify-content-between;
-
-  &:first-child {
-    @extend .mb-4;
-  }
-
-  .industry-info-item:not(:last-child) {
-    @extend .mb-4;
-  }
-}
-
 .industry-info-item {
-  h4 {
-    @extend .font-weight-bold;
-    @extend .m-0;
-    font-size: $font-size-base;
+  //div {
+    //border-top: 1px solid $honey-flower;
+  //}
+
+  p {
+    @extend .mb-0;
+    font-size: $font-size-md;
   }
 
-  div + div {
-    @extend .mt-1;
+  p + p {
+    @extend .mt-3;
   }
 }
