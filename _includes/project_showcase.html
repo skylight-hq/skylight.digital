@@ -1,0 +1,46 @@
+<div class="screenshots">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="row">
+        {% for screenshot in page.screenshots %}
+          {% assign modal_id = screenshot.filename | append: '-modal' %}
+          {% assign modal_header_id = modal_id | append: '-header' %}
+          <div class="screenshot">
+            <figure class="figure">
+              <div class="img-wrapper" role="button" data-toggle="modal" data-target="{{modal_id}}">
+                <img src="{{screenshot.img_path}}" alt="{{screenshot.img_description}}">
+              </div>
+              <figcaption>{{screenshot.caption}}</figcaption>
+            </figure>
+
+            <div id="{{modal_id}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{modal_header_id}}" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 id="{{modal_header_id}}" class="modal-title sr-only">{{screenshot.img_description}}</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+                    <figure class="figure">
+                      <img src="{{screenshot.img_path}}" alt="{{screenshot.img_description}}">
+                      <figcaption>{{screenshot.caption}}</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a class="btn-page" href="page.project_url" role="button">Visit the site</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,6 +3,14 @@ $(function() {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
+// Screenshot modals
+$(function() {
+  $('[data-toggle="modal"]').click(function() {
+    var targetId = $(this).data('target')
+    $('#' + targetId).modal('show')
+  })
+})
+
 // Activate current main nav item
 $(function() {
   var $anchorToDeactivate = $('#main-nav a[aria-current]')
@@ -25,7 +33,7 @@ function swapJoinContent(hash) {
   hash = hash.split('-')[0] // handle scenario involving "child page anchors"
 
   var $contentElements = $('.join-content > div')
-  var $contentElementToActivate = $(`#${hash}`)
+  var $contentElementToActivate = $('#' + hash)
   var $navElements = $('.subnav li')
   var $navElementToActivate = $navElements.has('a[href$="#' + hash + '"]')
 
@@ -43,14 +51,14 @@ function swapJoinContent(hash) {
   $navElementToActivate.addClass('current')
   $navElementToActivate.find('a').attr('aria-current', 'location')
 
-  $('html, body').scrollTop(0);
+  $('html, body').scrollTop(0)
 }
 
 $(function() {
   $('.join-content > div').not('#application').hide()
 
   if (location.hash.length > 0) {
-    var hash = location.hash.substr(1);
+    var hash = location.hash.substr(1)
     swapJoinContent(hash)
   }
 
@@ -62,7 +70,7 @@ $(function() {
 
   var $pageAnchors = $('.join-content a')
   $pageAnchors = $pageAnchors.filter(function(index) {
-    return $.inArray(this.getAttribute('href'), navPaths) != -1;
+    return $.inArray(this.getAttribute('href'), navPaths) != -1
   })
 
   $allAnchors = $navAnchors.add($pageAnchors)
@@ -101,7 +109,7 @@ $(function() {
     }
 
     $(this).find('i').toggleClass('current')
-    $(`#${targetElementId}`).toggleClass('sr-only')
+    $('#' + targetElementId).toggleClass('sr-only')
   })
 })
 

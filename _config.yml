@@ -41,8 +41,6 @@ collections:
   service_areas:
     output: true
     permalink: /services/:path/
-  employees:
-      output: false
   projects:
     output: true
     permalink: /work/:path/

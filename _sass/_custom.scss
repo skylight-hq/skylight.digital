@@ -252,11 +252,10 @@ $form-icon-color: $form-icons-border-color;
 $form-icon-hover-color: $brand-primary;
 
 // Cards
-$card-box-shadow: 0 0 1px 1px rgba($link-hover-color, 1);
+$card-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.3);
 
-// Page CTA
-$page-cta-color: $white;
-$page-cta-bg-color: $brand-primary;
+// Modals
+$modal-header-color: $brand-primary;
 
 // Footer
 $footer-nav-link-color: $body-color;
@@ -270,3 +269,15 @@ $footer-socials-link-border: none;
 $footer-socials-link-border-hover: none;
 
 $footer-nav-link-divider-color: $footer-nav-link-color;
+
+// Page CTA
+$page-cta-color: $white;
+$page-cta-bg-color: $brand-primary;
+
+// Project case studies
+$project-aside-link-color: $body-color;
+$project-aside-link-hover-color: $brand-primary;
+$project-aside-link-border: 1px dotted $project-aside-link-color;
+$project-aside-link-border-hover: 1px solid $project-aside-link-hover-color;
+
+$project-aside-bg-color: lighten($gray, 60%);

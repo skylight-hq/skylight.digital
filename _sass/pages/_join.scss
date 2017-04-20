@@ -52,6 +52,10 @@
   @extend .text;
   @extend %list-base;
 
+  form {
+    @extend .mt-5;
+  }
+
   h2 {
     font-size: $font-size-xxl;
     color: $brand-primary;

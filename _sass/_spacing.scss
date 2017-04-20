@@ -5,11 +5,13 @@
 .mb-7 { @include mb-7; }
 
 @include media-breakpoint-down(sm) {
+  .mb-sm-down-3 { margin-bottom: 1rem !important; }
+  .mb-sm-down-4 { margin-bottom: 1.5rem !important; }
   .mb-sm-down-5 { margin-bottom: 3rem !important; }
 }
 
 @include media-breakpoint-down(md) {
-  .px-md-down-2 { 
+  .px-md-down-2 {
     padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
   }

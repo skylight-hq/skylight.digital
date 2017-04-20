@@ -30,7 +30,7 @@ layout: default
     </div>
 
     {% capture tag_id %}{{ page.slug | replace: '_', ' ' }}{% endcapture %}
-    {% assign projects = site.projects | where: 'tags', tag_id | sort: 'order_weight' %}
+    {% assign projects = site.projects | where: 'tags', tag_id | sort: 'order' %}
     {% include project_list.html projects = projects limit = 3 %}
   </div>
 

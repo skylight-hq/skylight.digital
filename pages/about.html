@@ -74,8 +74,50 @@ header_content_img_description:
     </div>
   </section>
 
-  {% if site.employees[0] != null %}
-    {% include meet_the_team.html %}
+  {% if site.data.team[0] %}
+    <section id="meet-the-team" class="page-block">
+      <div class="page-block-hdr-1">
+        <h2>Meet the team</h2>
+      </div>
+
+      <div class="container-fluid">
+        <div class="employees">
+          {% assign employees = site.data.team | sort: 'order' %}
+          {% for emp in employees %}
+            {% if emp.active %}
+              <div id="{{emp.name}}" class="employee">
+                <div class="employee-card">
+                  <img class="employee-img" src="{{emp.img_path}}" alt="{{emp.img_description}}">
+                  <div class="employee-block">
+                    <h3 class="employee-title">{{emp.full_name}}</h3>
+                    <h4 class="employee-subtitle">{{emp.position}}</h4>
+                    <p class="employee-text">{{emp.bio}}</p>
+                  </div>
+                  <div class="employee-footer">
+                      <span class="employee-socials">
+                        {% for social in emp.socials %}
+                          <a href="{{social.link}}" target="_blank" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{social.link_description}}">
+                            <i class="fa fa-{{social.fa_icon_name}}" aria-hidden="true" title="{{social.name}}"></i>
+                            <span class="sr-only">{{social.link_description}}</span>
+                          </a>
+                        {% endfor %}
+                      </span>
+                      <span class="employee-contributions">
+                        {% for contr in emp.contributions %}
+                          <a href="{{contr.link}}" target="_blank" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{contr.link_description}}">
+                            <i class="fa fa-{{contr.fa_icon_name}}" aria-hidden="true" title="{{contr.name}}"></i>
+                            <span class="sr-only">{{contr.link_description}}</span>
+                          </a>
+                        {% endfor %}
+                      </span>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
   {% endif %}
 
   <section class="page-block">

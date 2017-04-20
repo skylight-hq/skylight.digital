@@ -59,34 +59,6 @@
   }
 }
 
-// Tables
-%table-borderless {
-  .table td, .table th {
-    border: none !important;
-  }
-}
-
-// Lists
-%list-base {
-  ol, ul {
-    li:not(:last-child) {
-      @extend .pb-2;
-    }
-  }
-}
-
-%list-inside {
-  @extend %list-base;
-
-  ol, ul {
-    @extend .pl-0;
-
-    li {
-      list-style-position: inside;
-    }
-  }
-}
-
 // Buttons
 
 // Copy of Bootstrap's button variant mixin with
@@ -120,15 +92,6 @@
   }
 }
 
-%btn-base {
-  @extend .btn;
-  @extend .font-weight-bold;
-
-  i {
-    @extend .ml-2;
-  }
-}
-
 // Grid
 @mixin more-than-three-sets-of-cols($mb-size, $mb-md-size) {
   @extend .mb-#{$mb-size};
@@ -145,14 +108,9 @@
 }
 
 // Cards
-@mixin card-box-shadow($box-shadow: $card-box-shadow, $border-color: $link-hover-color) {
-  border-color: $border-color;
-  -webkit-box-shadow: $box-shadow;
-  box-shadow: $box-shadow;
-}
-
 @mixin semantic-card($class-name, $clickable: true, $title-alignment: left,
-  $title-color: $brand-primary, $subtitle-color: $brand-primary-muted, $footer-border-off: true) {
+  $title-color: $brand-primary, $subtitle-color: $brand-primary-muted, $footer-border-off: true,
+  $footer-font-size: $font-size-md) {
 
   $title-font-size: $font-size-xl;
 
@@ -163,7 +121,6 @@
   $text-font-size: $font-size-md;
   $text-alignment: left;
 
-  $footer-font-size: $font-size-md;
   $footer-alignment: $title-alignment;
 
   .#{$class-name} {
@@ -173,13 +130,14 @@
 
   .#{$class-name}-card {
     @extend .card;
-    @extend .card-outline-primary;
     height: 100%;
 
     @if $clickable {
+      box-shadow: $card-box-shadow;
+
       &:hover,
       &:focus {
-        @include card-box-shadow();
+        box-shadow: none;
       }
     }
   }
@@ -222,6 +180,8 @@
 
     @if $footer-border-off {
       @extend .no-border;
+    } @else {
+      @extend .mx-0;
     }
 
     span + i {
@@ -230,18 +190,4 @@
     }
   }
 
-}
-
-// Misc
-%text-lead-col-base {
-  @extend .col-11;
-  @extend .col-sm-12;
-  @extend .col-md-10;
-  @extend .col-lg-8;
-  @extend .mx-auto;
-  @extend .text-left;
-}
-
-%form-col-base {
-  @extend %text-lead-col-base;
 }

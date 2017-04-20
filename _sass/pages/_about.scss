@@ -9,9 +9,19 @@
 @include semantic-card("employee", $clickable: false, $title-alignment: center,
   $title-color: $body-color, $subtitle-color: $text-muted, $footer-border-off: false);
 
+.employee-footer {
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-lg;
+  }
+
+  a {
+    @include link-decoration($gray-light, $brand-primary, none, none);
+  }
+}
+
 .employee-socials {
   a:last-child {
-    padding-right: 15px;
+    padding-right: 10px;
   }
 
   a:not(:first-child) {
