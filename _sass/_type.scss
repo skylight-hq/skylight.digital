@@ -61,3 +61,23 @@
     font-size: $font-size-h3 * .85;
   }
 }
+
+%list-base {
+  ol, ul {
+    li:not(:last-child) {
+      @extend .pb-2;
+    }
+  }
+}
+
+%list-inside {
+  @extend %list-base;
+
+  ol, ul {
+    @extend .pl-0;
+
+    li {
+      list-style-position: inside;
+    }
+  }
+}

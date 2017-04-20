@@ -1,0 +1,10 @@
+<aside class="news-coverage">
+  <h3>News coverage</h3>
+  <ul>
+    {% for post in page.news_posts %}
+      <li>
+        <a href="{{post.url}}" target="_blank">{{post.title}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>

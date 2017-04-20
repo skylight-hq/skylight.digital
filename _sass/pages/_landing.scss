@@ -88,11 +88,7 @@
 }
 
 .lp-body-content {
-  @extend .col-11;
-  @extend .col-sm-10;
-  @extend .col-md-9;
-  @extend .col-lg-8;
-  @extend .mx-auto;
+  @extend %text-heavy-col-base;
   @extend .text;
 }
 
@@ -101,8 +97,5 @@
 }
 
 .lp-body-cta-btn {
-  @extend %btn-base;
-  @extend .btn-secondary;
-  @extend .btn-outline-secondary;
-  @extend .btn-lg;
+  @extend %btn-page;
 }

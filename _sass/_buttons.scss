@@ -1,0 +1,8 @@
+%btn-base {
+  @extend .btn;
+  @extend .font-weight-bold;
+
+  i {
+    @extend .ml-2;
+  }
+}

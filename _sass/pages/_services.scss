@@ -100,9 +100,9 @@
 
 .industry-info-items {
   @extend .col-sm-6;
-  @extend .d-flex;
-  @extend .flex-column;
-  @extend .justify-content-between;
+  //@extend .d-flex;
+  //@extend .flex-column;
+  //@extend .justify-content-between;
 
   &:first-child {
     @extend .mb-4;
