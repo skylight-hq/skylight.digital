@@ -10,7 +10,7 @@
   background-color: $project-aside-bg-color;
 
   h3, ul {
-    font-size: $font-size-md;
+    font-size: $font-size-sm;
   }
 
   h3 {
@@ -20,6 +20,10 @@
 
   ul {
     @extend .mb-0;
+
+    li:not(:last-child) {
+      @extend .pb-3;
+    }
   }
 }
 
