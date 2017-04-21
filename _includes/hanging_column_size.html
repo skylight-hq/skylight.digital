@@ -1,0 +1,15 @@
+{% assign collection_size = include.collection_size %}
+{% assign col_size = include.col_size %}
+{% assign hanging_col_size = collection_size | modulo:col_size %}
+
+{% if collection_size > col_size %}
+  {% if hanging_col_size == 0 %}
+    {% assign hanging_col_size_css_class = "hanging-col-size-3" %}
+  {% elsif hanging_col_size == 2 %}
+    {% assign hanging_col_size_css_class = "hanging-col-size-2" %}
+  {% else %}
+    {% assign hanging_col_size_css_class = "hanging-col-size-1" %}
+  {% endif %}
+{% else %}
+  {% assign hanging_col_size_css_class = "hanging-col-size-0" %}
+{% endif %}

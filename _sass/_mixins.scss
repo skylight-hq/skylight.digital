@@ -93,17 +93,40 @@
 }
 
 // Grid
-@mixin more-than-three-sets-of-cols($mb-size, $mb-md-size) {
-  @extend .mb-#{$mb-size};
-  &:last-child {
-    @extend .mb-0;
+@mixin multi-col-spacing($class-name, $mb-size, $mb-md-size) {
+  .#{$class-name} {
+    @extend .mb-#{$mb-size};
+
+    &:last-child {
+      @extend .mb-0;
+    }
+
+    @extend .mb-md-#{$mb-md-size};
   }
 
-  @extend .mb-md-#{$mb-md-size};
-  &:nth-last-of-type(1),
-  &:nth-last-of-type(2),
-  &:nth-last-of-type(3) {
+  .hanging-col-size-0 > .#{$class-name} {
     @extend .mb-md-0;
+  }
+
+  .hanging-col-size-1 > .#{$class-name} {
+    &:nth-last-of-type(1) {
+      @extend .mb-md-0;
+    }
+  }
+
+  .hanging-col-size-2 > .#{$class-name} {
+    &:nth-last-of-type(1),
+    &:nth-last-of-type(2) {
+      @extend .mb-md-0;
+    }
+  }
+
+  .hanging-col-size-3 > .#{$class-name} {
+    &:nth-last-of-type(1),
+    &:nth-last-of-type(2),
+    &:nth-last-of-type(3) {
+      @extend .mb-md-0;
+    }
   }
 }
 
@@ -125,8 +148,6 @@
 
   .#{$class-name} {
     @extend .col-md-4;
-    @extend .mb-4;
-    //@include more-than-three-sets-of-cols($mb-size: 3, $mb-md-size: 4);
   }
 
   .#{$class-name}-card {
