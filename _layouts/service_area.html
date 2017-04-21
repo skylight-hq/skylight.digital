@@ -7,8 +7,14 @@ layout: default
   {% include page_header.html %}
 
   <section class="page-block container">
-    <div class="service-elements">
-      {% assign service_elements = page.service_elements | sort: 'order' %}
+    {% assign service_elements = page.service_elements | sort: 'order' %}
+
+    {% include hanging_column_size.html
+      collection_size = service_elements.size
+      col_size = 3
+    %}
+
+    <div class="service-elements {{hanging_col_size_css_class}}">
       {% for service_element in service_elements %}
         <div class="service-element">
           <div class="service-element-content-box">
@@ -31,7 +37,11 @@ layout: default
 
     {% capture tag_id %}{{ page.slug | replace: '_', ' ' }}{% endcapture %}
     {% assign projects = site.projects | where: 'tags', tag_id | sort: 'order' %}
-    {% include project_list.html projects = projects limit = 3 %}
+
+    {% include project_list.html
+      projects = projects
+      limit = 3
+    %}
   </div>
 
 </div>

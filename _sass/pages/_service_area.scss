@@ -10,8 +10,9 @@
   @extend .col-11;
   @extend .col-md-4;
   @extend .mx-auto;
-  @include more-than-three-sets-of-cols($mb-size: 5, $mb-md-size: 5);
 }
+
+@include multi-col-spacing("service-element", $mb-size: 5, $mb-md-size: 5);
 
 .service-element-content-box {
   @extend .text-left;

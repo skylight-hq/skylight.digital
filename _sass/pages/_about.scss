@@ -9,6 +9,8 @@
 @include semantic-card("employee", $clickable: false, $title-alignment: center,
   $title-color: $body-color, $subtitle-color: $text-muted, $footer-border-off: false);
 
+@include multi-col-spacing("employee", $mb-size: 3, $mb-md-size: 4);
+
 .employee-footer {
   @include media-breakpoint-up(sm) {
     font-size: $font-size-lg;

@@ -81,8 +81,14 @@ header_content_img_description:
       </div>
 
       <div class="container-fluid">
-        <div class="employees">
-          {% assign employees = site.data.team | sort: 'order' %}
+        {% assign employees = site.data.team | sort: 'order' %}
+
+        {% include hanging_column_size.html
+          collection_size = employees.size
+          col_size = 3
+        %}
+
+        <div class="employees {{hanging_col_size_css_class}}">
           {% for emp in employees %}
             {% if emp.active %}
               <div id="{{emp.name}}" class="employee">

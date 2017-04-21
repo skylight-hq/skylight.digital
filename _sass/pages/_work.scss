@@ -7,3 +7,4 @@
 }
 
 @include semantic-card("project");
+@include multi-col-spacing("project", $mb-size: 3, $mb-md-size: 4);
