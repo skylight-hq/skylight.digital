@@ -19,7 +19,7 @@ localhost: localhost:4000
 twitter_url: https://twitter.com/skylight_hq
 github_repo_url: https://github.com/skylight-hq
 github_issues_url: https://github.com/skylight-hq/skylight.digital/issues
-linkedin_url: ""
+linkedin_url: https://www.linkedin.com/company/skylight-hq
 openco_url: ""
 hackerone_url: https://hackerone.com/skylight_qgvpb
 slack_invite_url: https://skylight-hq.slack.com/signup
@@ -27,6 +27,8 @@ slack_invite_url: https://skylight-hq.slack.com/signup
 twitter:
   username: skylight_hq
 github:
+  username: skylight-hq
+linkedin:
   username: skylight-hq
 
 analytics:
