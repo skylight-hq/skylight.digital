@@ -30,12 +30,20 @@ function swapJoinContent(hash) {
     return false
   }
 
-  hash = hash.split('-')[0] // handle scenario involving "child page anchors"
+  var parentHash
+  var childHash
+
+  if (hash.indexOf('-') > -1) {
+    parentHash = '#' + hash.split('-')[0]
+    childHash = '#' + hash
+  } else {
+    parentHash = '#' + hash
+  }
 
   var $contentElements = $('.join-content > div')
-  var $contentElementToActivate = $('#' + hash)
+  var $contentElementToActivate = $(parentHash)
   var $navElements = $('.subnav li')
-  var $navElementToActivate = $navElements.has('a[href$="#' + hash + '"]')
+  var $navElementToActivate = $navElements.has('a[href$="' + parentHash + '"]')
 
   // Guard against answer that is not present on the page
   if (($contentElementToActivate.length === 0) || ($navElementToActivate.length === 0)) {
@@ -52,6 +60,10 @@ function swapJoinContent(hash) {
   $navElementToActivate.find('a').attr('aria-current', 'location')
 
   $('html, body').scrollTop(0)
+
+  if (childHash) {
+    location.hash = childHash
+  }
 }
 
 $(function() {
