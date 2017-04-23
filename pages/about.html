@@ -110,7 +110,7 @@ header_content_img_description:
                       </span>
                       <span class="employee-contributions">
                         {% for contr in emp.contributions %}
-                          <a href="{{contr.link}}" target="_blank" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{contr.link_description}}">
+                          <a href="{{contr.link}}" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{contr.link_description}}">
                             <i class="fa fa-{{contr.fa_icon_name}}" aria-hidden="true" title="{{contr.name}}"></i>
                             <span class="sr-only">{{contr.link_description}}</span>
                           </a>
