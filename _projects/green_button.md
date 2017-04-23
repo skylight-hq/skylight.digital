@@ -15,9 +15,6 @@ excerpt: >
   employees and other stakeholders through transparency.
 project_members:
   - name: sean-johnson
-    member_path: /about/#sean-johnson
-    img_path: /img/people/sean-johnson.jpg
-    img_description: Photo of Sean Johnson
 technologies:
   - Clojure
   - Amazon Web Services

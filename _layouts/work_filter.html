@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign projects = site.projects | where: 'tags', page.tag %}
+{% assign project_size = projects.size %}
+{% assign employee = site.data.team | where: 'name', page.name | first %}
+
+{% if project_size == 1 %}
+  {% assign project_count = project_size %}
+{% else %}
+  {% assign project_count = project_size | append: ' projects' %}
+{% endif %}
+
+<div class="filter">
+
+  <div class="container">
+    <h1>Work Search Results</h1>
+    <div class="row">
+      <div class="filter-header-col">
+        <header class="filter-header">
+          <img class="filter-image" src="{{employee.img_path}}" alt="{{employee.img_description}}">
+
+          <div class="filter-employee">
+            <h2 class="filter-title">{{employee.full_name}}</h2>
+            <h3 class="filter-subtitle">{{employee.position}}</h3>
+          </div>
+
+          <div class="filter-count">
+            {{project_count}}
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="filter-items-col">
+        {% for project in projects %}
+        <article class="filter-item">
+          <h2 class="filter-item-title header-display-5">
+            <a class="filter-item-link" href="{{project.permalink}}">{{project.title}}</a>
+          </h2>
+          <p class="filter-item-description">{{project.subtitle}}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% include hire_us_cta.html %}

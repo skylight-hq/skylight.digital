@@ -26,6 +26,10 @@
   font-size: $header-display-7;
 }
 
+h1 {
+  color: $brand-primary;
+}
+
 @include media-breakpoint-between(xs, sm) {
   h1 {
     font-size: $font-size-h1 * .55;
@@ -35,12 +39,16 @@
     font-size: $font-size-h2 * .60;
   }
 
+  h3 {
+    font-size: $font-size-h3 * .65;
+  }
+
   .header-display-3 {
     font-size: $header-display-3 * .60;
   }
 
-  h3 {
-    font-size: $font-size-h3 * .65;
+  .header-display-5 {
+    font-size: $header-display-5 * .65;
   }
 }
 
@@ -53,12 +61,16 @@
     font-size: $font-size-h2 * .80;
   }
 
+  h3 {
+    font-size: $font-size-h3 * .85;
+  }
+
   .header-display-3 {
     font-size: $header-display-3 * .80;
   }
 
-  h3 {
-    font-size: $font-size-h3 * .85;
+  .header-display-5 {
+    font-size: $header-display-5 * .85;
   }
 }
 

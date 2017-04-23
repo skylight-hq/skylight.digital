@@ -280,4 +280,10 @@ $project-aside-link-hover-color: $body-color;
 $project-aside-link-border: 1px dotted $project-aside-link-color;
 $project-aside-link-border-hover: 1px solid $project-aside-link-hover-color;
 
-$project-aside-bg-color: lighten($gray, 60%);
+$project-aside-bg-color: lighten($gray, 64%);
+
+// Filters
+$filter-item-link-color: $body-color;
+$filter-item-link-hover-color: $brand-primary;
+$filter-item-link-border: none;
+$filter-item-link-border-hover: 1px none;

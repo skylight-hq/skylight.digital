@@ -48,6 +48,9 @@ collections:
   projects:
     output: true
     permalink: /work/:path/
+  project_team_members:
+    output: true
+    permalink: /work/team-member/:name
 
 sass:
   style: compressed
