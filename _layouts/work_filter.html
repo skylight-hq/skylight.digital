@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign projects = site.projects | where: 'tags', page.tag %}
+{% assign projects = site.projects | where: 'tags', page.tag | sort: 'order' %}
 {% assign project_size = projects.size %}
 {% assign employee = site.data.team | where: 'name', page.name | first %}
 
