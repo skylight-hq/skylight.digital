@@ -20,6 +20,10 @@
   color: $jumbotron-color;
   background: radial-gradient(rgba(0,0,5,0.5) 40%, rgba(0,0,5,0) 70%);
 
+  h1 {
+    color: $white;
+  }
+
   .lead {
     @extend .mt-4;
 
