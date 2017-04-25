@@ -50,15 +50,16 @@ collections:
     permalink: /work/:path/
   project_team_members:
     output: true
-    permalink: /work/team-member/:name
+    permalink: /work/team-member/:name/
+  guides:
+    output: true
+    permalink: /guide/:path/
+  policies:
+    output: true
+    permalink: /policy/:path/
 
 sass:
   style: compressed
-
-include:
-  - _service_areas
-  - _projects
-  - _policy_items
 
 exclude:
   - .gitignore
@@ -73,5 +74,4 @@ exclude:
 # Jekyll plugins
 gems:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap

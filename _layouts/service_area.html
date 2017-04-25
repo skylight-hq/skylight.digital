@@ -27,7 +27,7 @@ layout: default
   </section>
 
   <div class="image-block">
-    <img src="{{page.img_path}}" alt="{{page.img_description}}">
+    <img src="{{page.image}}" alt="{{page.image_description}}">
   </div>
 
   <div class="page-block">
@@ -35,8 +35,8 @@ layout: default
       <h2>Our work</h2>
     </div>
 
-    {% capture tag_id %}{{ page.slug | replace: '_', ' ' }}{% endcapture %}
-    {% assign projects = site.projects | where: 'tags', tag_id | sort: 'order' %}
+    {% capture tag_filter %}{{ page.slug | replace: '_', ' ' }}{% endcapture %}
+    {% assign projects = site.projects | where: 'tags', tag_filter | sort: 'order' %}
 
     {% include project_list.html
       projects = projects

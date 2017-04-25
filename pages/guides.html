@@ -1,0 +1,48 @@
+---
+layout: default
+title: Guides
+permalink: /guides/
+header_content_css_class: page-hdr-content-2
+header_content: >
+  Improving how government works in a digital world through our shared,
+  open-source repository of how-to's and best practices.
+---
+
+<div class="our-guides">
+
+  {% include page_header.html %}
+
+  <div class="container">
+
+    {% assign guides = site.guides | sort: 'order' %}
+    {% assign collection_size = guides.size %}
+
+    {% include hanging_column_size.html
+      collection_size = collection_size
+      col_size = 3
+    %}
+
+    <div class="guides {{hanging_col_size_css_class}}">
+      {% for guide in guides | limit: limit %}
+        <article class="guide">
+          <a href="{{guide.permalink}}">
+            <div class="guide-card">
+              <img class="guide-img" src="{{guide.image}}" alt="{{guide.image_description}}">
+              <div class="guide-block">
+                <h3 class="guide-title">{{guide.title}}</h3>
+                <p class="guide-text">{{guide.excerpt}}</p>
+              </div>
+              <div class="guide-footer">
+                <span>Learn more</span>
+                <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+
+{% include hire_us_cta.html %}

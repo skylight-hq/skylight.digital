@@ -1,10 +1,70 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
 
+  <meta property="og:site_name" content="Skylight">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{site.url}}">
 
-  {% seo %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@{{site.twitter.username}}">
+  <meta name="twitter:site" content="@{{site.twitter.username}}">
+
+  {% if page.title %}
+    <title>{{site.title}} | {{page.title}}</title>
+    <meta property="og:title" content="{{site.title | xml_escape}} | {{page.title | xml_escape}}">
+    <meta name="twitter:title" content="{{site.title | xml_escape}} | {{page.title | xml_escape}}">
+  {% else %}
+    <title>{{site.title}} | {{site.description}}</title>
+    <meta property="og:title" content="{{site.title | xml_escape}} | {{site.description | xml_escape}}">
+    <meta property="twitter:title" content="{{site.title | xml_escape}} | {{site.description | xml_escape}}">
+  {% endif %}
+
+  {% if page.excerpt %}
+    <meta name="description" content="{{page.excerpt | xml_escape}}">
+    <meta property="og:description" content="{{page.excerpt | xml_escape}}">
+    <meta property="twitter:description" content="{{page.excerpt | xml_escape}}">
+  {% else %}
+    <meta name="description" content="{{site.description | xml_escape}}">
+    <meta property="og:description" content="{{site.description | xml_escape}}">
+    <meta property="twitter:description" content="{{site.description | xml_escape}}">
+  {% endif %}
+
+  {% if page.image %}
+    <link rel="image_src" href="{{site.url}}{{page.image}}">
+    <meta name="image" content="{{site.url}}{{page.image}}">
+    <meta property="og:image" content="{{site.url}}{{page.image}}">
+    <meta name="twitter:image" content="{{site.url}}{{page.image}}">
+    {% if page.image_description %}
+      <meta name="twitter:image:alt" content="{{page.image_description}}">
+    {% endif %}
+  {% else %}
+    <link rel="image_src" href="{{site.url}}/img/twitter-card.png">
+    <meta name="image" content="{{site.url}}/img/twitter-card.png">
+    <meta property="og:image" content="{{site.url}}/img/twitter-card.png">
+    <meta name="twitter:image" content="{{site.url}}/img/twitter-card.png">
+    <meta name="twitter:image:alt" content="Skylight Avatar">
+  {% endif %}
+
+  {% if page.authors %}
+    <meta name="author" content="{{page.authors | array_to_sentence_string}}">
+  {% endif %}
+
+  {% if page.date_published %}
+    <meta name="date" content="{{page.date_published}}" scheme="YYYY-MM-DD">
+  {% endif %}
+
+  {% if page.tags %}
+    <meta name="keywords" content="{{page.tags | array_to_sentence_string}}">
+  {% else %}
+    <meta name="keywords" content="digital consulting, digital government, digital transformation, and digital services">
+  {% endif %}
+
+  <link rel="canonical" href="{{site.url}}{{page.url}}">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">

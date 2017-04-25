@@ -1,15 +1,15 @@
-header {
+header[role="banner"] {
   @extend .container;
-}
 
-header nav {
-  @extend .navbar;
-  @extend .navbar-toggleable-sm;
-  @extend .py-3;
+  nav {
+    @extend .navbar;
+    @extend .navbar-toggleable-sm;
+    @extend .py-3;
+  }
 }
 
 .navbar {
-  font-size: $font-size-md;
+  font-size: $font-size-small;
 }
 
 .navbar-nav {

@@ -1,7 +1,7 @@
 ---
 layout: service_area
 title: Digital Services Delivery
-teaser: Beautiful, enduring digital services that customers love.
+excerpt: Beautiful, enduring digital services that customers love.
 header_content_css_class: page-hdr-content-2
 header_content: >
   <strong>Today's public expects their interactions with government to be simple,
@@ -9,12 +9,17 @@ header_content: >
   exceptional customer experiences and enduring solution architectures out of
   your most complex design and technology challenges.
 permalink: /services/digital-services-delivery/
-icon_path: /img/digital-services-delivery-icon.svg
-icon_description: Digital Services Delivery Icon
-img_path: /img/buzzword-stickies.jpg
-img_description:
+image: /img/buzzword-stickies.jpg
+image_description: Buzzword Stickies
+image_icon: /img/digital-services-delivery-icon.svg
+image_icon_description: Digital Services Delivery Icon
 order: 1
 feature: true
+tags:
+  - digital services delivery
+  - legacy modernization
+  - product development
+  - customer experience design
 service_elements:
   - name: Legacy Modernization
     description: >

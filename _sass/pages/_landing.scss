@@ -28,7 +28,7 @@
     @extend .mt-4;
 
     @include media-breakpoint-down(xs) {
-      font-size: $font-size-base;
+      font-size: $font-size-medium;
     }
   }
 

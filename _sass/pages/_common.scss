@@ -121,19 +121,13 @@
   @extend .mx-auto;
 }
 
-.narrative {
-  @extend %text-heavy-col-base;
+%narrative-base {
   @extend .text;
   @extend %list-base;
 
-  h2, p, ul {
-    @extend .text-left;
-  }
-
   h2 {
-    @extend .font-weight-bold;
     @extend .mb-3;
-    font-size: $font-size-xxl;
+    font-size: $font-size-xx-large;
     color: $brand-primary;
 
     &:not(:first-child) {
@@ -149,6 +143,19 @@
     @extend .img-fluid;
     @extend .mt-3;
     @extend .mb-4;
+  }
+}
+
+.narrative {
+  @extend %text-heavy-col-base;
+  @extend %narrative-base;
+
+  h2, p, ul {
+    @extend .text-left;
+  }
+
+  h2 {
+    @extend .font-weight-bold;
   }
 
   a.btn-page {

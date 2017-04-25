@@ -40,7 +40,7 @@
       $footer-nav-link-border, $footer-nav-link-border-hover);
   }
 
-  font-size: $font-size-sm;
+  font-size: $font-size-xx-small;
   font-weight: 100;
 
   ul {
@@ -92,7 +92,7 @@
   }
 
   .footer-nav {
-    font-size: $font-size-md;
+    font-size: $font-size-small;
 
     li+li::before
     {

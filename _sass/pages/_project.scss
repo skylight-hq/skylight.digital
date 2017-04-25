@@ -4,13 +4,13 @@
 
 %project-aside-base {
   @extend .text-left;
-  @extend .mt-4;
-  @extend .p-3;
-  @extend .rounded;
-  background-color: $project-aside-bg-color;
+  @extend .mt-5;
+  @extend .py-3;
+  border-top: 1px dashed $gray-lightest;
+  border-bottom: 1px dashed $gray-lightest;
 
   h3, ul {
-    font-size: $font-size-sm;
+    font-size: $font-size-xx-small;
   }
 
   h3 {
@@ -44,13 +44,11 @@
   @extend .no-border;
   @extend .p-0;
   height: 100%;
-  background-color: $project-aside-bg-color;
 }
 
 .approach-area-card-block {
   @extend .card-block;
   @extend .p-0;
-
   ul {
     @extend .list-unstyled;
   }
@@ -129,7 +127,7 @@
 
     h3 {
       color: $modal-header-color;
-      font-size: $font-size-xxl;
+      font-size: $font-size-xx-large;
     }
 
     .close {
@@ -143,17 +141,19 @@
   }
 }
 
+.profile {
+  .profile-img {
+    @extend .rounded-circle;
+    @extend .m-0;
+    @extend .mr-2;
+    height: 2rem;
+  }
+}
+
 a.profile-link {
   @include link-decoration($project-aside-link-color, $project-aside-link-hover-color, none, none);
 
-  img {
-    @extend .rounded-circle;
-    @extend .m-0;
-    height: 2rem;
-  }
-
   span {
-    @extend .ml-2;
     border-bottom: $project-aside-link-border;
   }
 

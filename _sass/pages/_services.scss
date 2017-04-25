@@ -34,7 +34,7 @@
     @extend .card-title;
     @extend .text-uppercase;
     @extend .font-weight-normal;
-    font-size: $font-size-md;
+    font-size: $font-size-small;
     color: $brand-primary;
   }
 
@@ -84,26 +84,22 @@
   h3 {
     @extend .mb-3;
     @extend .text-uppercase;
-    font-size: $font-size-md;
+    font-size: $font-size-small;
   }
 }
 
 .capability-group {
   ul {
     @extend .list-unstyled;
-    font-size: $font-size-md;
+    font-size: $font-size-small;
     line-height: 1.75;
   }
 }
 
 .industry-info-item {
-  //div {
-    //border-top: 1px solid $honey-flower;
-  //}
-
   p {
     @extend .mb-0;
-    font-size: $font-size-md;
+    font-size: $font-size-small;
   }
 
   p + p {

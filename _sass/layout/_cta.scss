@@ -72,7 +72,7 @@
 }
 
 .testimonial-quote {
-  font-size: $font-size-xl;
+  font-size: $font-size-x-large;
   @extend .font-italic;
   line-height: 1.25;
 
@@ -89,12 +89,12 @@
   }
 
   @include media-breakpoint-up(md) {
-    font-size: $font-size-xxxxl;
+    font-size: $font-size-xxxx-large;
   }
 }
 
 .testimonial-cite {
-  font-size: $font-size-sm;
+  font-size: $font-size-xx-small;
   line-height: 1.5;
   font-style: normal;
   font-weight: 100;
