@@ -9,12 +9,19 @@
               <h3>Team Members</h3>
               <ul>
                 {% for member in page.project_members %}
-                  {% assign emp = site.data.team | where: 'name', member.name | first %}
+                  {% assign emp = site.data.team | where: 'name', member | first %}
                   <li>
-                    <a class="profile-link" href="{{emp.profile_path}}" target="_blank">
-                      <img src="{{emp.img_path}}" alt="{{emp.img_description}}">
-                      <span>{{emp.short_name}}</span>
-                    </a>
+                    {% if emp.active %}
+                      <a class="profile profile-link" href="{{emp.profile_path}}" target="_blank">
+                        <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                        <span>{{emp.short_name}}</span>
+                      </a>
+                    {% else %}
+                      <div class="profile">
+                        <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                        <span>{{emp.short_name}}</span>
+                      </div>
+                    {% endif %}
                   </li>
                 {% endfor %}
               </ul>

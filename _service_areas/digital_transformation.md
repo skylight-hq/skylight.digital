@@ -1,7 +1,7 @@
 ---
 layout: service_area
 title: Digital Transformation
-teaser: Digital organizations built to last, plus attract top digital talent.
+excerpt: Digital organizations built to last, plus attract top digital talent.
 header_content_css_class: page-hdr-content-2
 header_content: >
   <strong>“Going digital” is about people first and technology second.</strong> At Skylight,
@@ -13,12 +13,16 @@ header_content: >
   We’re experts at managing large-scale, high-performing digital talent within
   government settings.
 permalink: /services/digital-transformation/
-icon_path: /img/digital-transformation-icon.svg
-icon_description: Digital Transformation Icon
-img_path: /img/buzzword-stickies.jpg
-img_description:
+image: /img/buzzword-stickies.jpg
+image_description: Buzzword Stickies
+image_icon: /img/digital-transformation-icon.svg
+image_icon_description: Digital Transformation Icon
 order: 3
 feature: true
+tags:
+  - digital transformation
+  - lean-agile enterprise
+  - devops
 service_elements:
   - name: Digital Transformation Strategy
     description: >

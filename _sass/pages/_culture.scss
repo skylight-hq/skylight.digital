@@ -37,11 +37,11 @@
   h3 {
     @extend .card-title;
     @extend .mb-3;
-    font-size: $font-size-xl;
+    font-size: $font-size-x-large;
   }
 
   p {
     @extend .card-text;
-    font-size: $font-size-md;
+    font-size: $font-size-small;
   }
 }

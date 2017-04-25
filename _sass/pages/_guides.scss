@@ -1,0 +1,10 @@
+.our-guides {
+  @extend %page-base;
+}
+
+.guides {
+  @extend .row;
+}
+
+@include semantic-card("guide");
+@include multi-col-spacing("guide", $mb-size: 3, $mb-md-size: 4);

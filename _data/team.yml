@@ -4,8 +4,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -57,8 +57,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -110,8 +110,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -163,8 +163,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -216,8 +216,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -269,8 +269,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -322,8 +322,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -375,8 +375,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  img_path: /img/people/sean-johnson.jpg
-  img_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.jpg
+  image_description: Photo of Sean Johnson
   position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by

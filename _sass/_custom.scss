@@ -1,6 +1,6 @@
 //
 //
-// Skylight font faces and brand colors
+// Skylight font faces, brand colors, and font sizes
 //
 //
 
@@ -92,6 +92,18 @@ $trinidad: #dc4405;
 $flush-mahogany: #cb333b;
 $honey-flower: #6d2077;
 
+// Font sizes
+$font-size-xxxx-large: 2.5rem;
+$font-size-xxx-large: 2rem;
+$font-size-xx-large: 1.75rem;
+$font-size-x-large: 1.5rem;
+$font-size-large: 1.25rem;
+$font-size-medium: 1.125rem;
+$font-size-small: 1rem;
+$font-size-x-small: .95rem;
+$font-size-xx-small: .9rem;
+$font-size-xxx-small: .85rem;
+
 // Bootstrap overrides
 //
 // Copy variables from `_variables.scss` to this file to override default values
@@ -125,10 +137,10 @@ $link-hover-decoration: none;
 // Fonts
 $font-family-sans-serif: "Geomanist", sans-serif;
 
-$font-size-base: 1.125rem;
-$font-size-lg: 1.25rem;
-$font-size-sm: .9rem;
-$font-size-xs: .85rem;
+$font-size-base: $font-size-medium;
+$font-size-lg: $font-size-large;
+$font-size-sm: $font-size-xx-small;
+$font-size-xs: $font-size-xxx-small;
 
 $font-size-h1: 3.75rem;
 $font-size-h2: 3rem;
@@ -191,7 +203,7 @@ $text-link-hover-color: $text-link-color;
 $text-link-border: 1px dotted $text-link-color;
 $text-link-border-hover: 1px solid $text-link-hover-color;
 
-// Fonts
+// Header font sizes
 $header-display-1: 4rem;
 $header-display-2: 3.5rem;
 $header-display-3: 3rem;
@@ -199,12 +211,6 @@ $header-display-4: 2.5rem;
 $header-display-5: 2rem;
 $header-display-6: 1.75rem;
 $header-display-7: 1.5rem;
-
-$font-size-xxxxl: 2.5rem;
-$font-size-xxxl: 2rem;
-$font-size-xxl: 1.75rem;
-$font-size-xl: 1.5rem;
-$font-size-md: 1rem;
 
 // Buttons
 $btn-page-cta-color: $white;
@@ -280,10 +286,15 @@ $project-aside-link-hover-color: $body-color;
 $project-aside-link-border: 1px dotted $project-aside-link-color;
 $project-aside-link-border-hover: 1px solid $project-aside-link-hover-color;
 
-$project-aside-bg-color: lighten($gray, 64%);
-
 // Filters
 $filter-item-link-color: $body-color;
 $filter-item-link-hover-color: $brand-primary;
 $filter-item-link-border: none;
-$filter-item-link-border-hover: 1px none;
+$filter-item-link-border-hover: none;
+
+// Posts
+$byline-color: $gray-light;
+$author-link-color: $byline-color;
+$author-link-hover-color: $brand-primary;
+$author-link-border: none;
+$author-link-border-hover: none;

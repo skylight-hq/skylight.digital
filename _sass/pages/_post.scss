@@ -1,0 +1,46 @@
+.post {
+  @extend .mt-5;
+}
+
+.post-col {
+  @extend .col;
+  @extend .mx-auto;
+}
+
+.post-header {
+}
+
+.post-title {
+  @extend .mb-3;
+}
+
+.post-byline {
+  @extend .mb-0;
+  font-size: $font-size-small;
+  color: $byline-color;
+}
+
+a.post-author {
+  @extend .font-weight-bold;
+  @include link-decoration($author-link-color, $author-link-hover-color,
+    $author-link-border, $author-link-border-hover)
+}
+
+.post-author-comma {
+  margin-left: -4px;
+}
+
+.post-date {
+  @extend .d-block;
+}
+
+.post-feature-img {
+  @extend .img-fluid;
+  @extend .d-block;
+  @extend .mt-3;
+}
+
+.post-content {
+  @extend %narrative-base;
+  @extend .mt-5;
+}

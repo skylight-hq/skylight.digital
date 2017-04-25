@@ -5,8 +5,8 @@ subtitle: Transforming how organizations maintain transparency.
 permalink: /work/agile-delivery-services-marketplace/
 header_title: Agile Delivery <br> Services Marketplace
 header_content_css_class: page-hdr-content-1
-img_icon_path: /img/projects/opencompany/opencompany.jpg
-img_icon_description: OpenCompany Transparency Platform
+image: /img/projects/opencompany/opencompany.jpg
+image_description: OpenCompany Transparency Platform
 order: 200
 tags:
   - digital services delivery
@@ -15,7 +15,7 @@ excerpt: >
   A digital platform for organizations to more effectively engage
   employees and other stakeholders through transparency.
 project_members:
-  - name: sean-johnson
+  - sean-johnson
 technologies:
   - Clojure
   - Amazon Web Services
@@ -26,16 +26,16 @@ practices:
   - Lean Startup
   - Open Source
 screenshots:
-  - img_path: /img/projects/opencompany/oc-small-dashboard.jpg
-    img_description: Image of the dashboard
+  - image: /img/projects/opencompany/oc-small-dashboard.jpg
+    image_description: Image of the dashboard
     caption: Screenshot of the dashboard
     filename: oc-small-dashboard
-  - img_path: /img/projects/opencompany/oc-medium-dashboard.jpg
-    img_description: Image of the dashboard
+  - image: /img/projects/opencompany/oc-medium-dashboard.jpg
+    image_description: Image of the dashboard
     caption: Screenshot of the dashboard
     filename: oc-medium-dashboard
-  - img_path: /img/projects/opencompany/oc-big-dashboard.jpg
-    img_description: Image of the dashboard
+  - image: /img/projects/opencompany/oc-big-dashboard.jpg
+    image_description: Image of the dashboard
     caption: Screenshot of the dashboard
     filename: oc-big-dashboard
 news_posts:

@@ -9,7 +9,7 @@
   }
 }
 
-.filter-header-col {
+.filter-col {
   @extend .col;
   @extend .col-sm-11;
   @extend .col-md-9;
@@ -21,7 +21,6 @@
   @extend .d-flex;
   @extend .justify-content-start;
   @extend .pb-4;
-  @extend .px-0;
   border-bottom: 1px solid $gray-lightest;
 }
 
@@ -38,21 +37,21 @@
 
 .filter-title {
   @extend .mb-1;
-  font-size: $font-size-sm;
+  font-size: $font-size-xx-small;
 }
 
 .filter-subtitle {
   @extend .mb-0;
   @extend .text-uppercase;
   @extend .text-muted;
-  font-size: $font-size-xs;
+  font-size: $font-size-xxx-small;
 }
 
 .filter-count {
   @extend .ml-auto;
   @extend .text-muted;
   @extend .font-italic;
-  font-size: $font-size-sm;
+  font-size: $font-size-xx-small;
 }
 
 @include media-breakpoint-up(md) {
@@ -67,20 +66,16 @@
   }
 
   .filter-title {
-    font-size: $font-size-xl;
+    font-size: $font-size-x-large;
   }
 
   .filter-subtitle {
-    font-size: $font-size-md;
+    font-size: $font-size-small;
   }
 
   .filter-count {
-    font-size: $font-size-base;
+    font-size: $font-size-medium;
   }
-}
-
-.filter-items-col {
-  @extend .filter-header-col;
 }
 
 .filter-item {

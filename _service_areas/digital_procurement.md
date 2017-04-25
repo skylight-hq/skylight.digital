@@ -1,7 +1,7 @@
 ---
 layout: service_area
 title: Digital Procurement
-teaser: Tech procurements that succeed and inspire public confidence.
+excerpt: Tech procurements that succeed and inspire public confidence.
 header_content_css_class: page-hdr-content-2
 header_content: >
   <strong>To support digital progress, procurement must change.</strong> At Skylight, we combine
@@ -12,12 +12,15 @@ header_content: >
   Agile Delivery Services Marketplace, RFP Ghostwriting, Digital Acquisition Accelerator,
   and Micro-purchase Platform.
 permalink: /services/digital-procurement/
-icon_path: /img/digital-procurement-icon.svg
-icon_description: Digital Procurement Icon
-img_path: /img/buzzword-stickies.jpg
-img_description:
+image: /img/buzzword-stickies.jpg
+image_description: Buzzword Stickies
+image_icon: /img/digital-procurement-icon.svg
+image_icon_description: Digital Procurement Icon
 order: 2
 feature: true
+tags:
+  - digital procurement
+  - digital acquisition
 service_elements:
   - name: Vendor Marketplaces
     description: >

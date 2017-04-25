@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign projects = site.projects | where: 'tags', page.tag | sort: 'order' %}
+{% assign projects = site.projects | where: 'tags', page.tag_filter | sort: 'order' %}
 {% assign project_size = projects.size %}
 {% assign employee = site.data.team | where: 'name', page.name | first %}
 
@@ -17,9 +17,9 @@ layout: default
   <div class="container">
     <h1>Work Search Results</h1>
     <div class="row">
-      <div class="filter-header-col">
+      <div class="filter-col">
         <header class="filter-header">
-          <img class="filter-image" src="{{employee.img_path}}" alt="{{employee.img_description}}">
+          <img class="filter-image" src="{{employee.image}}" alt="{{employee.image_description}}">
 
           <div class="filter-employee">
             <h2 class="filter-title">{{employee.full_name}}</h2>
@@ -34,7 +34,7 @@ layout: default
     </div>
 
     <div class="row">
-      <div class="filter-items-col">
+      <div class="filter-col">
         {% for project in projects %}
         <article class="filter-item">
           <h2 class="filter-item-title header-display-5">

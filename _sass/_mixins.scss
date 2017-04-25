@@ -135,15 +135,15 @@
 // Cards
 @mixin semantic-card($class-name, $clickable: true, $title-alignment: left,
   $title-color: $brand-primary, $subtitle-color: $brand-primary-muted, $footer-border-off: true,
-  $footer-font-size: $font-size-md) {
+  $footer-font-size: $font-size-small) {
 
-  $title-font-size: $font-size-xl;
+  $title-font-size: $font-size-x-large;
 
-  $subtitle-font-size: $font-size-md;
+  $subtitle-font-size: $font-size-small;
   $subtitle-alignment: $title-alignment;
 
   $text-color: $body-color;
-  $text-font-size: $font-size-md;
+  $text-font-size: $font-size-small;
   $text-alignment: left;
 
   $footer-alignment: $title-alignment;
