@@ -1,6 +1,7 @@
 ---
 layout: service_area
 title: Digital Services Delivery
+permalink: /services/digital-services-delivery/
 excerpt: Beautiful, enduring digital services that customers love.
 header_content_css_class: page-hdr-content-2
 header_content: >
@@ -8,7 +9,6 @@ header_content: >
   delightful, secure, and empowering.</strong> At Skylight, we specialize in creating
   exceptional customer experiences and enduring solution architectures out of
   your most complex design and technology challenges.
-permalink: /services/digital-services-delivery/
 image: /img/buzzword-stickies.jpg
 image_description: Buzzword Stickies
 image_icon: /img/digital-services-delivery-icon.svg

@@ -20,10 +20,12 @@
   color: $byline-color;
 }
 
-a.post-author {
-  @extend .font-weight-bold;
-  @include link-decoration($author-link-color, $author-link-hover-color,
-    $author-link-border, $author-link-border-hover)
+.post-author {
+  a {
+    @extend .font-weight-bold;
+    @include link-decoration($author-link-color, $author-link-hover-color,
+      $author-link-border, $author-link-border-hover)
+  }
 }
 
 .post-author-comma {

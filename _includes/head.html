@@ -5,66 +5,255 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
 
-  <meta property="og:site_name" content="Skylight">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{site.url}}">
+  {% assign site_url = site.url %}
+  {% assign site_name = 'Skylight' %}
+  {% assign site_title = site.title | xml_escape %}
+  {% assign site_description = site.description | xml_escape %}
+  {% assign site_image = site_url | append: '/img/twitter-card.png' %}
+  {% assign site_image_description = 'Skylight Avatar' %}
+  {% assign site_keywords = site.keywords %}
+  {% assign site_published = site.published %}
+  {% assign site_modified = site.modified %}
+  {% assign site_logo = site_url | append: '/img/logo.png' %}
+  {% assign site_logo_height = '200' %}
+  {% assign site_logo_width = '50' %}
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="@{{site.twitter.username}}">
-  <meta name="twitter:site" content="@{{site.twitter.username}}">
+  {% assign twitter_username = site.twitter.username %}
+  {% assign twitter_url = site.twitter_url %}
+  {% assign github_url = site.github_repo_url %}
+  {% assign linkedin_url = site.linkedin_url %}
+
+  {% assign page_url = page.url %}
 
   {% if page.title %}
-    <title>{{site.title}} | {{page.title}}</title>
-    <meta property="og:title" content="{{site.title | xml_escape}} | {{page.title | xml_escape}}">
-    <meta name="twitter:title" content="{{site.title | xml_escape}} | {{page.title | xml_escape}}">
+    {% assign page_title = page.title | xml_escape %}
   {% else %}
-    <title>{{site.title}} | {{site.description}}</title>
-    <meta property="og:title" content="{{site.title | xml_escape}} | {{site.description | xml_escape}}">
-    <meta property="twitter:title" content="{{site.title | xml_escape}} | {{site.description | xml_escape}}">
+    {% assign page_title = nil %}
   {% endif %}
 
   {% if page.excerpt %}
-    <meta name="description" content="{{page.excerpt | xml_escape}}">
-    <meta property="og:description" content="{{page.excerpt | xml_escape}}">
-    <meta property="twitter:description" content="{{page.excerpt | xml_escape}}">
+    {% assign page_excerpt = page.excerpt | xml_escape %}
   {% else %}
-    <meta name="description" content="{{site.description | xml_escape}}">
-    <meta property="og:description" content="{{site.description | xml_escape}}">
-    <meta property="twitter:description" content="{{site.description | xml_escape}}">
+    {% assign page_excerpt = nil %}
   {% endif %}
 
   {% if page.image %}
-    <link rel="image_src" href="{{site.url}}{{page.image}}">
-    <meta name="image" content="{{site.url}}{{page.image}}">
-    <meta property="og:image" content="{{site.url}}{{page.image}}">
-    <meta name="twitter:image" content="{{site.url}}{{page.image}}">
-    {% if page.image_description %}
-      <meta name="twitter:image:alt" content="{{page.image_description}}">
-    {% endif %}
+    {% assign page_image = site_url | append: page.image %}
   {% else %}
-    <link rel="image_src" href="{{site.url}}/img/twitter-card.png">
-    <meta name="image" content="{{site.url}}/img/twitter-card.png">
-    <meta property="og:image" content="{{site.url}}/img/twitter-card.png">
-    <meta name="twitter:image" content="{{site.url}}/img/twitter-card.png">
-    <meta name="twitter:image:alt" content="Skylight Avatar">
+    {% assign page_image = nil %}
+  {% endif %}
+
+  {% assign page_image_description = page.image_description %}
+
+  {% if page.tags %}
+    {% assign page_keywords = page.tags | array_to_sentence_string %}
+  {% else %}
+    {% assign page_keywords = nil %}
   {% endif %}
 
   {% if page.authors %}
-    <meta name="author" content="{{page.authors | array_to_sentence_string}}">
-  {% endif %}
-
-  {% if page.date_published %}
-    <meta name="date" content="{{page.date_published}}" scheme="YYYY-MM-DD">
-  {% endif %}
-
-  {% if page.tags %}
-    <meta name="keywords" content="{{page.tags | array_to_sentence_string}}">
+    {% assign page_authors = page.authors %}
   {% else %}
-    <meta name="keywords" content="digital consulting, digital government, digital transformation, and digital services">
+    {% assign page_authors = nil %}
   {% endif %}
 
-  <link rel="canonical" href="{{site.url}}{{page.url}}">
+  {% assign page_date_published = page.date_published %}
+  {% assign page_date_modified = page.date %}
+
+  {% if page_title %}
+    {% assign title = site_title | append: ' | ' | append: page_title %}
+  {% else %}
+    {% assign title = site_title %}
+  {% endif %}
+
+  {% if page_excerpt %}
+    {% assign description = page_excerpt %}
+  {% else %}
+    {% assign description = site_description %}
+  {% endif %}
+
+  {% if page_keywords %}
+    {% assign keywords = page_keywords %}
+  {% else %}
+    {% assign keywords = site_keywords %}
+  {% endif %}
+
+  {% if page_image %}
+    {% assign image = page_image %}
+  {% else %}
+    {% assign image = site_image %}
+  {% endif %}
+
+  {% if page_image and page_image_description %}
+    {% assign image_description = page_image_description %}
+  {% else %}
+    {% assign image_description = site_image_description %}
+  {% endif %}
+
+  {% if page_authors %}
+    {% assign authors = page_authors %}
+  {% else %}
+    {% assign authors = site_name %}
+  {% endif %}
+
+  {% if page_date_published %}
+    {% assign date_published = page_date_published %}
+  {% else %}
+    {% assign date_published = site_published %}
+  {% endif %}
+
+  {% if page_date_modified %}
+    {% assign date_modified = page_date_modified %}
+  {% else %}
+    {% assign date_modified = site_modified %}
+  {% endif %}
+
+
+  {% assign content_type = page.content_type %}
+  {% assign canonical_url = site_url | append: page_url %}
+
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="keywords" content="{{keywords}}">
+  <meta name="image" content="{{image}}">
+
+  {% if authors.first %}
+    <meta name="author" content="{{authors | array_to_sentence_string}}">
+  {% else %}
+    <meta name="author" content="{{authors}}">
+  {% endif %}
+
+  <meta name="date" content="{{date_published}}" scheme="YYYY-MM-DD">
+  <link rel="image_src" href="{{image}}">
+  <link rel="canonical" href="{{canonical_url}}">
+
+  <meta property="og:site_name" content="{{site_name}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{site_url}}">
+  <meta property="og:image" content="{{image}}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@{{twitter_username}}">
+  <meta name="twitter:site" content="@{{twitter_username}}">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{image}}">
+  <meta name="twitter:image:alt" content="{{image_description}}">
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "{{site_url}}",
+      "name": "{{site_title}}",
+      "description": "{{site_description}}",
+      "keywords": "{{site_keywords}}"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "{{site_name}}",
+     "legalName": "Skylight Digital LLC",
+     "url": "{{site_url}}",
+     "logo": {
+       "@type": "ImageObject",
+       "url": "{{site_logo}}",
+       "height": "{{site_logo_height}}",
+       "width": "{{site_logo_width}}"
+     },
+     "foundingDate": "2016",
+     "founders": [
+        { "@type": "Person", "name": "Sean Johnson" },
+        { "@type": "Person", "name": "" },
+        { "@type": "Person", "name": "" },
+        { "@type": "Person", "name": "" }
+      ],
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Chapel Hill",
+       "addressRegion": "NC",
+       "postalCode": "27516",
+       "addressCountry": "USA"
+     },
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "sales",
+       "telephone": "",
+       "email": "hello@skylight.digital"
+     },
+     "sameAs": [
+       "{{twitter_url}}",
+       "{{github_url}}",
+       "{{linkedin_url}}"
+     ]
+    }
+  </script>
+
+  {% if content_type == 'Article' or content_type == 'BlogPosting' %}
+    {% assign wordcount = page.content | number_of_words %}
+    {% assign body = page.content | xml_escape | strip_newlines %}
+    {% assign contributors = page.contributors %}
+
+    <script type="application/ld+json">
+      { "@context": "http://schema.org",
+        "@type": "{{content_type}}",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{canonical_url}}"
+        },
+        "headline": "{{title}}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{image}}",
+          "height": "400",
+          "width": "400"
+        },
+        "author": [
+          {% for author in authors %}
+            { "@type": "Person", "name": "{{author}}" }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ],
+        {% if contributors %}
+          "contributor": [
+            {% for contributor in contributors %}
+              { "@type": "Person", "name": "{{contributor}}" }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+        {% endif %}
+        "keywords": "{{keywords}}",
+        "wordcount": "{{wordcount}}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{site_name}}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{site_logo}}",
+            "height": "{{site_logo_height}}",
+            "width": "{{site_logo_width}}"
+          }
+        },
+        "datePublished": "{{date_published}}",
+        "dateModified": "{{date_modified}}",
+        "description": "{{description}}",
+        "articleBody": "{{body}}"
+      }
+    </script>
+  {% else %}
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "url": "{{canonical_url}}",
+        "name": "{{title}}",
+        "description": "{{description}}",
+        "keywords": "{{keywords}}"
+      }
+    </script>
+  {% endif %}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">

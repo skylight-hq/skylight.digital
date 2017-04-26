@@ -1,6 +1,7 @@
 ---
 layout: service_area
 title: Digital Procurement
+permalink: /services/digital-procurement/
 excerpt: Tech procurements that succeed and inspire public confidence.
 header_content_css_class: page-hdr-content-2
 header_content: >
@@ -11,7 +12,6 @@ header_content: >
   led several game-changing acquisition initiatives, including Agile Acquisition,
   Agile Delivery Services Marketplace, RFP Ghostwriting, Digital Acquisition Accelerator,
   and Micro-purchase Platform.
-permalink: /services/digital-procurement/
 image: /img/buzzword-stickies.jpg
 image_description: Buzzword Stickies
 image_icon: /img/digital-procurement-icon.svg
@@ -21,6 +21,7 @@ feature: true
 tags:
   - digital procurement
   - digital acquisition
+  - agile acquisition
 service_elements:
   - name: Vendor Marketplaces
     description: >

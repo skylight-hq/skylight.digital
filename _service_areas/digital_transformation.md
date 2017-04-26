@@ -1,6 +1,7 @@
 ---
 layout: service_area
 title: Digital Transformation
+permalink: /services/digital-transformation/
 excerpt: Digital organizations built to last, plus attract top digital talent.
 header_content_css_class: page-hdr-content-2
 header_content: >
@@ -12,7 +13,6 @@ header_content: >
   experts, distributed across 30 cities, using existing federal-wide hiring authorities.
   We’re experts at managing large-scale, high-performing digital talent within
   government settings.
-permalink: /services/digital-transformation/
 image: /img/buzzword-stickies.jpg
 image_description: Buzzword Stickies
 image_icon: /img/digital-transformation-icon.svg

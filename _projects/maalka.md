@@ -10,9 +10,7 @@ order: 600
 tags:
   - digital services delivery
   - sean johnson
-excerpt: >
-  A digital platform for organizations to more effectively engage
-  employees and other stakeholders through transparency.
+excerpt: A digital platform for organizations to more effectively engage employees and other stakeholders through transparency.
 project_members:
   - sean-johnson
 technologies:

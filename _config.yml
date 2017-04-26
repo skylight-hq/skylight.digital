@@ -8,9 +8,10 @@
 # Site settings
 title: Skylight - Digital Government Consulting
 email: hello@skylight.digital
-description: >
-  Skylight is a HUBZone digital consultancy driven
-  by making government work in a digital world.
+description: Skylight is a HUBZone digital consultancy driven by making government work in a digital world.
+keywords: digital consulting, digital government, digital transformation, and digital services
+published: 2017-06-18
+modified: 2017-06-18
 
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title/
