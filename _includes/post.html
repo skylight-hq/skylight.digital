@@ -1,29 +1,21 @@
-{% if include.context == 'guide' %}
-  {% assign item_type = 'http://schema.org/Article' %}
-{% else %}
-  {% assign item_type = 'http://schema.org/BlogPosting' %}
-{% endif %}
-
-
-<article class="post" itemscope="" itemtype="{{item_type}}">
-  <meta itemprop="datePublished" content="{{page.date_published}}">
+<article class="post">
 
   <div class="container">
     <div class="row">
       <div class="post-col">
         <header class="post-header">
-          <h1 class="post-title header-display-3" itemprop="name headline">{{page.title}}</h1>
+          <h1 class="post-title header-display-3">{{page.title}}</h1>
           <p class="post-byline">
             By
             {% assign authors = page.authors %}
             {% for author in authors %}
               {% assign author_name = author | slugify %}
               {% assign employee = site.data.team | where: 'name', author_name | first %}
-              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="post-author">
                 {% if employee.active %}
-                  <a class="post-author" itemprop="name" href="{{employee.profile_path}}">{{employee.full_name}}</a>
+                  <a href="{{employee.profile_path}}">{{employee.full_name}}</a>
                 {% else %}
-                  <span class="post-author" itemprop="name">{{employee.full_name}}</span>
+                  {{employee.full_name}}
                 {% endif %}
               </span>
               {% assign author_count = authors | size %}
@@ -35,7 +27,7 @@
             {% endfor %}
             <span class="post-date">
               Updated
-              <time datetime="{{page.date | date_to_xmlschema}}" itemprop="dateModified">
+              <time datetime="{{page.date | date_to_xmlschema}}">
                 {{page.date | date: "%B %-d, %Y" }}
               </time>
             <span>
@@ -47,7 +39,7 @@
 
     <div class="row">
       <div class="post-col">
-        <div class="post-content" itemprop="articleBody">
+        <div class="post-content">
           {{content}}
         </div>
       </div>
