@@ -235,11 +235,13 @@ $help-text-link-border: 1px dotted $help-text-link-color;
 $help-text-link-border-hover: 1px solid $help-text-link-hover-color;
 
 $form-icons-margin-bottom: $form-group-margin-bottom;
-$form-icons-border-color: $gray-lightest;
-$form-icon-color: $form-icons-border-color;
-$form-icon-hover-color: $brand-primary;
 
-$btn-file-color: $gray-dark;
+$form-icons-border-color: $gray-lightest;
+
+$form-icon-color: $form-icons-border-color;
+$form-icon-hover-color: $body-color;
+
+$btn-file-color: $body-color;
 $btn-file-bg: $gray-lightest;
 $btn-file-border: $gray-lightest;
 
