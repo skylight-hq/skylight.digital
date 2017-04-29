@@ -55,6 +55,9 @@ collections:
   guides:
     output: true
     permalink: /guide/:path/
+  guide_authors:
+    output: true
+    permalink: /guides/author/:name/
   policies:
     output: true
     permalink: /policy/:path/

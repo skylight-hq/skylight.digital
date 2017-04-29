@@ -1,32 +1,18 @@
 <article class="post">
 
   <div class="container">
+
     <div class="row">
       <div class="post-col">
         <header class="post-header">
           <h1 class="post-title header-display-3">{{page.title}}</h1>
           <p class="post-byline">
-            By
-            {% assign authors = page.authors %}
-            {% for author in authors %}
-              {% assign author_name = author | slugify %}
-              {% assign employee = site.data.team | where: 'name', author_name | first %}
-              <span class="post-author">
-                {% if employee.active %}
-                  <a href="{{employee.profile_path}}">{{employee.full_name}}</a>
-                {% else %}
-                  {{employee.full_name}}
-                {% endif %}
-              </span>
-              {% assign author_count = authors | size %}
-              {% if author_count > 1 %}
-                {% unless forloop.last %}
-                  <span class="post-author-comma">,</span>
-                {% endunless %}
-              {% endif %}
-            {% endfor %}
+            {% include post_authorship.html
+              authors = page.authors
+              prefix = 'By:'
+            %}
             <span class="post-date">
-              Updated
+              Updated:
               <time datetime="{{page.date | date_to_xmlschema}}">
                 {{page.date | date: "%B %-d, %Y" }}
               </time>
@@ -34,24 +20,93 @@
           </p>
           <img class="post-feature-img" src="{{page.image}}" alt="{{page.image_description}}">
         </header>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="post-col">
         <div class="post-content">
           {{content}}
         </div>
+
+        <footer class="post-footer">
+          {% if page.contributors %}
+            <div class="post-contributors">
+              {% include post_authorship.html
+                authors = page.contributors
+                prefix = 'Contributors:'
+              %}
+            </div>
+          {% endif %}
+
+          {% if page.content_type == 'BlogPosting' or page.content_type == 'Article' %}
+            <div class="post-tags">
+              {% for tag in page.tags %}
+                <a href="/blog/tags/{{tag | slugify}}/">{{tag}}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          <div class="post-share">
+            {% assign post_title = page.title | cgi_escape %}
+            {% assign post_url = site.url | append: page.url | cgi_escape %}
+            {% assign tweet_source = site.twitter.username | cgi_escape %}
+
+            <div>
+              <a href="https://twitter.com/intent/tweet?url={{post_url}}&text={{post_title}}&via={{tweet_source}}" role="button" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
+                Share on Twitter
+              </a>
+            </div>
+
+            <div>
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{post_url}}" role="button" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+                Share on LinkedIn
+              </a>
+            </div>
+          </div>
+
+          {% if page.content_type == 'BlogPosting' %}
+            {% assign posts = site.blog_posts %}
+            {% assign header_suffix = 'posts' %}
+          {% else %}
+            {% assign posts = site.guides %}
+            {% assign header_suffix = 'guides' %}
+          {% endif %}
+
+          {% assign max_related = 3 %}
+          {% assign min_common_tags = 1 %}
+          {% assign max_related_counter = 0 %}
+
+          {% for post in posts %}
+            {% assign same_tag_count = 0 %}
+
+            {% for tag in post.tags %}
+              {% if post.url != page.url %}
+                {% if page.tags contains tag %}
+                  {% assign same_tag_count = same_tag_count | plus: 1 %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+
+            {% if same_tag_count >= min_common_tags %}
+              {% capture related_post_markup %} <li><a href="{{post.url}}">{{post.title}}</a></li> {% endcapture %}
+              {% assign related_post_markups = related_post_markups | append: related_post_markup %}
+              {% assign max_related_counter = max_related_counter | plus: 1 %}
+              {% if max_related_counter >= max_related %}
+                {% break %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+
+          {% if related_post_markups %}
+            <div class="post-related">
+              <h4>Related {{header_suffix}}</h4>
+              <ul>{{related_post_markups}}</ul>
+            </div>
+          {% endif %}
+        </footer>
+
       </div>
     </div>
 
-    <div class="row">
-      <div class="post-col">
-        <footer class="post-footer">
-          Post Footer
-        </footer>
-      </div>
-    </div>
   </div>
 
 </article>

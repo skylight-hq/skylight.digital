@@ -24,6 +24,7 @@
 // Spacing
 @mixin mt-6 { margin-top: 4rem !important; }
 @mixin mt-7 { margin-top: 5rem !important; }
+@mixin mt-8 { margin-top: 6rem !important; }
 
 @mixin mb-0 { margin-bottom: 0 !important; }
 @mixin mb-3 { margin-bottom: 1rem !important; }
@@ -65,19 +66,16 @@
 
 // Copy of Bootstrap's button variant mixin with
 // disabled and active styles removed
-@mixin button-outline-variant2($color, $background, $border, $active-color) {
-  $active-background: $background;
-  $active-border: $active-color;
-
+@mixin button-outline-variant-2($color, $background, $border, $active-color) {
   color: $color;
   background-color: $background;
   border-color: $border;
   @include box-shadow($btn-box-shadow);
 
   @include hover { // styles focus state as well
-    color: $active-color;
-    background-color: $active-background;
-    border-color: $active-border;
+    color: $background;
+    background-color: $active-color;
+    border-color: $active-color;
   }
 
   &:focus,
@@ -87,10 +85,6 @@
     } @else {
       box-shadow: 0 0 0 2px rgba($border, .5);
     }
-  }
-
-  i {
-    color: $active-color;
   }
 }
 
@@ -177,6 +171,7 @@
 
   .#{$class-name}-title {
     @extend .card-title;
+    @extend .mb-0;
     color: $title-color;
     font-size: $title-font-size;
     text-align: $title-alignment;
@@ -184,6 +179,7 @@
 
   .#{$class-name}-subtitle {
     @extend .card-subtitle;
+    @extend .mt-2;
     color: $subtitle-color;
     font-size: $subtitle-font-size;
     text-align: $subtitle-alignment;

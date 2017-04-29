@@ -212,24 +212,6 @@ $header-display-5: 2rem;
 $header-display-6: 1.75rem;
 $header-display-7: 1.5rem;
 
-// Buttons
-$btn-page-cta-color: $white;
-$btn-page-cta-bg: $tangerine;
-$btn-page-cta-border: $tangerine;
-
-$btn-form-color: $white;
-$btn-form-bg: $cool-gray;
-$btn-form-border: $cool-gray;
-
-$btn-file-color: $gray-dark;
-$btn-file-bg: $gray-lightest;
-$btn-file-border: $gray-lightest;
-
-$btn-footer-color: $body-color;
-$btn-footer-bg: $white;
-$btn-footer-border: $btn-footer-color;
-$btn-footer-active-color: $brand-primary;
-
 // Main nav
 $nav-link-color: $body-color;
 $nav-link-decoration: none;
@@ -257,6 +239,13 @@ $form-icons-border-color: $gray-lightest;
 $form-icon-color: $form-icons-border-color;
 $form-icon-hover-color: $brand-primary;
 
+$btn-file-color: $gray-dark;
+$btn-file-bg: $gray-lightest;
+$btn-file-border: $gray-lightest;
+
+$btn-form-color: $body-color;
+$btn-form-bg: $white;
+
 // Cards
 $card-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.3);
 
@@ -276,9 +265,17 @@ $footer-socials-link-border-hover: none;
 
 $footer-nav-link-divider-color: $footer-nav-link-color;
 
-// Page CTA
+$btn-footer-color: $body-color;
+$btn-footer-bg: $white;
+$btn-footer-border: $btn-footer-color;
+$btn-footer-active-color: $brand-primary;
+
+// Page CTA (subfooter)
 $page-cta-color: $white;
 $page-cta-bg-color: $brand-primary;
+
+$btn-page-cta-color: $white;
+$btn-page-cta-bg: $brand-primary;
 
 // Project case studies
 $project-aside-link-color: $body-color;
@@ -293,8 +290,12 @@ $filter-item-link-border: none;
 $filter-item-link-border-hover: none;
 
 // Posts
-$byline-color: $gray-light;
-$author-link-color: $byline-color;
-$author-link-hover-color: $brand-primary;
-$author-link-border: none;
-$author-link-border-hover: none;
+$post-header-footer-color: $gray-light;
+
+$post-header-footer-link-color: $post-header-footer-color;
+$post-header-footer-link-hover-color: $post-header-footer-color;
+$post-header-footer-link-border: 1px dotted $post-header-footer-link-color;
+$post-header-footer-link-border-hover: 1px solid $post-header-footer-link-hover-color;
+
+$btn-share-color: $post-header-footer-color;
+$btn-share-bg: $white;
