@@ -86,7 +86,7 @@
 
 a.filter-item-link {
   @include link-decoration($filter-item-link-color, $filter-item-link-hover-color,
-    $filter-item-link-border, $filter-item-link-border-hover)
+    $filter-item-link-border, $filter-item-link-border-hover);
 }
 
 .filter-item-title {
@@ -95,4 +95,8 @@ a.filter-item-link {
 
 .filter-item-description {
   @extend .mb-0;
+}
+
+.filter-no-results {
+  @extend .mt-5;
 }

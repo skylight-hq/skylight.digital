@@ -1,13 +1,22 @@
 .post {
   @extend .mt-5;
+  @extend .mt-md-7;
 }
 
 .post-col {
   @extend .col;
+  @extend .col-sm-11;
+  @extend .col-lg-8;
   @extend .mx-auto;
 }
 
+%post-header-footer-font-base {
+  font-size: $font-size-small;
+  color: $post-header-footer-color;
+}
+
 .post-header {
+  @extend .mb-5;
 }
 
 .post-title {
@@ -16,15 +25,13 @@
 
 .post-byline {
   @extend .mb-0;
-  font-size: $font-size-small;
-  color: $byline-color;
+  @extend %post-header-footer-font-base;
 }
 
 .post-author {
   a {
-    @extend .font-weight-bold;
-    @include link-decoration($author-link-color, $author-link-hover-color,
-      $author-link-border, $author-link-border-hover)
+    @include link-decoration($post-header-footer-link-color, $post-header-footer-link-hover-color,
+      $post-header-footer-link-border, $post-header-footer-link-border-hover);
   }
 }
 
@@ -44,5 +51,72 @@
 
 .post-content {
   @extend %narrative-base;
+  @extend .mb-5;
+}
+
+.post-footer {
+  @extend .pt-4;
+  border-top: 1px solid $gray-lightest;
+}
+
+.post-contributors {
+  @extend .mb-4;
+  @extend %post-header-footer-font-base;
+}
+
+.post-tags {
+  @extend .mb-4;
+
+  a {
+    @extend .badge;
+    @extend .badge-default;
+  }
+}
+
+.post-share {
+  div {
+    @extend .d-sm-inline-block;
+
+    &:first-child {
+      @extend .mb-3;
+      @extend .mb-sm-0;
+      @extend .mr-sm-2;
+    }
+  }
+
+  a {
+    @extend %btn-base;
+    @extend %btn-icon-left;
+    @extend .btn-sm;
+    @include button-outline-variant($btn-share-color, $btn-share-bg);
+  }
+}
+
+.post-related {
   @extend .mt-5;
+  @extend %list-base;
+  @extend %list-inside;
+
+  h4, ul {
+    @extend %post-header-footer-font-base;
+  }
+
+  h4 {
+    @extend .text-uppercase;
+    @extend .mb-3;
+  }
+
+  ul {
+    @extend .mb-0;
+    list-style: none;
+
+    li:not(:last-child) {
+      @extend .pb-3;
+    }
+  }
+
+  a {
+    @include link-decoration($post-header-footer-link-color, $post-header-footer-link-hover-color,
+      $post-header-footer-link-border, $post-header-footer-link-border-hover);
+  }
 }

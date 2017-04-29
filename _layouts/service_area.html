@@ -38,8 +38,10 @@ layout: default
     {% capture tag_filter %}{{ page.slug | replace: '_', ' ' }}{% endcapture %}
     {% assign projects = site.projects | where: 'tags', tag_filter | sort: 'order' %}
 
-    {% include project_list.html
-      projects = projects
+    {% include card_list.html
+      collection = projects
+      prefix = 'project'
+      cta_text = 'Read case study'
       limit = 3
     %}
   </div>

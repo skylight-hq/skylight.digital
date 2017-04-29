@@ -1,0 +1,38 @@
+{% assign collection = include.collection %}
+{% assign prefix = include.prefix %}
+{% assign cta_text = include.cta_text %}
+{% assign context = include.context %}
+{% assign limit = include.limit %}
+
+{% if limit %}
+  {% assign collection_size = limit %}
+{% else %}
+  {% assign collection_size = collection.size %}
+{% endif %}
+
+{% include hanging_column_size.html
+  collection_size = collection_size
+  col_size = 3
+%}
+
+{% unless context == 'related' %}<div class="container">{% endunless %}
+  <div class="{{prefix}}s {{hanging_col_size_css_class}}">
+    {% for item in collection | limit: limit %}
+      <article class="{{prefix}}">
+        <a href="{{item.permalink}}">
+          <div class="{{prefix}}-card">
+            <img class="{{prefix}}-img" src="{{item.image}}" alt="{{item.image_description}}">
+            <div class="{{prefix}}-block">
+              <h3 class="{{prefix}}-title {{context}}">{{item.title}}</h3>
+              <p class="{{prefix}}-text">{{item.excerpt}}</p>
+            </div>
+            <div class="{{prefix}}-footer">
+              <span>{{cta_text}}</span>
+              <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+{% unless context == 'related' %}</div>{% endunless %}

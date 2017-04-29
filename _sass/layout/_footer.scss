@@ -24,7 +24,7 @@
 .footer-contribute-cta a {
   @extend %btn-base;
   @extend .btn-sm;
-  @include button-outline-variant2($btn-footer-color, $btn-footer-bg,
+  @include button-outline-variant-2($btn-footer-color, $btn-footer-bg,
     $btn-footer-border, $btn-footer-active-color);
 }
 

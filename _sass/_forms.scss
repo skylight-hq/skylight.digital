@@ -19,9 +19,9 @@ form {
 
   button[type="submit"] {
     @extend %btn-base;
-    @extend .btn-lg;
-    @extend .btn-block;
-    @include button-variant($btn-form-color, $btn-form-bg, $btn-form-border);
+    @extend .py-2;
+    @extend .px-6;
+    @include button-outline-variant($btn-form-color, $btn-form-bg);
   }
 
   .form-text {

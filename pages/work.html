@@ -15,7 +15,11 @@ header_content: >
 
   {% assign projects = site.projects | sort: 'order' %}
 
-  {% include project_list.html projects = projects %}
+  {% include card_list.html
+    collection = projects
+    prefix = 'project'
+    cta_text = 'Read case study'
+  %}
 
 </div>
 

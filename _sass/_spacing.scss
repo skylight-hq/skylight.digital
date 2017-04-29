@@ -4,6 +4,11 @@
 .mb-6 { @include mb-6; }
 .mb-7 { @include mb-7; }
 
+.px-6 {
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
+}
+
 @include media-breakpoint-down(sm) {
   .mb-sm-down-3 { margin-bottom: 1rem !important; }
   .mb-sm-down-4 { margin-bottom: 1.5rem !important; }
@@ -20,6 +25,7 @@
 @include media-breakpoint-up(md) {
   .mt-md-6 { @include mt-6; }
   .mt-md-7 { @include mt-7; }
+  .mt-md-8 { @include mt-8; }
 
   .mb-md-6 { @include mb-6; }
   .mb-md-7 { @include mb-7; }

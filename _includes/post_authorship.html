@@ -1,0 +1,19 @@
+{{include.prefix}}
+{% assign authors = include.authors %}
+{% for author in authors %}
+  {% assign author_name = author | slugify %}
+  {% assign employee = site.data.team | where: 'name', author_name | first %}
+  <span class="post-author">
+    {% if employee.active %}
+      <a href="{{employee.profile_path}}">{{employee.full_name}}</a>
+    {% else %}
+      {{employee.full_name}}
+    {% endif %}
+  </span>
+  {% assign author_count = authors | size %}
+  {% if author_count > 1 %}
+    {% unless forloop.last %}
+      <span class="post-author-comma">,</span>
+    {% endunless %}
+  {% endif %}
+{% endfor %}

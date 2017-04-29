@@ -19,7 +19,7 @@
 
 .page-cta-content-wrapper {
   @extend .row;
-  @extend .mb-2;
+  @extend .mb-4;
 }
 
 %page-cta-content-base {
@@ -50,9 +50,10 @@
 
   a {
     @extend %btn-base;
+    @extend %btn-icon-right;
     @extend .btn-lg;
     @extend .text-uppercase;
-    @include button-variant($btn-page-cta-color, $btn-page-cta-bg, $btn-page-cta-border);
+    @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
   }
 }
 

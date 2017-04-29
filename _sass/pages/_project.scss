@@ -4,10 +4,9 @@
 
 %project-aside-base {
   @extend .text-left;
-  @extend .mt-5;
-  @extend .py-3;
-  border-top: 1px dashed $gray-lightest;
-  border-bottom: 1px dashed $gray-lightest;
+  @extend .mt-4;
+  @extend .p-2;
+  border: 1px dotted $gray-lightest;
 
   h3, ul {
     font-size: $font-size-xx-small;

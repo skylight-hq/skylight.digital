@@ -1,6 +1,6 @@
 ---
-layout: work_filter
+layout: employee_filter
 title: Sean Johnson's Project Work
 name: sean-johnson
-tag_filter: sean johnson
+filter_type: project
 ---
