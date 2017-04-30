@@ -16,17 +16,16 @@
   {% assign header_content = page.header_content %}
 {% endif %}
 
-<header class="{{ header_css_class }}">
-
-  <h1>{{ header_title }}</h1>
+<header class="{{header_css_class}}">
+  <h1>{{header_title}}</h1>
 
   {% if page.header_content_css_class and header_content %}
     <div class="row">
-      <div class="{{ page.header_content_css_class }}">
-        <p>{{ header_content }}</p>
+      <div class="{{page.header_content_css_class}}">
+        <p>{{header_content}}</p>
 
         {% if page.header_content_img_path %}
-          <img src="{{ page.header_content_img_path }}" alt="{{ page.header_content_img_description }}" />
+          <img src="{{page.header_content_img_path}}" alt="{{page.header_content_img_description}}">
         {% endif %}
       </div>
     </div>

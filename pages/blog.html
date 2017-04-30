@@ -1,0 +1,21 @@
+---
+layout: default
+title: Our Blog
+permalink: /blog/
+header_content_css_class: page-hdr-content-2
+header_content: Our shared thoughts on technology, design, procurement, business, culture, and more.
+---
+
+<div class="our-blog">
+  {% include page_header.html %}
+
+  {% assign blog_posts = (site.blog_posts | sort: 'date_published') | reverse %}
+
+  {% include card_list.html
+    collection = blog_posts
+    prefix = 'blog-post'
+    cta_text = 'Read more'
+  %}
+</div>
+
+{% include hire_us_cta.html %}

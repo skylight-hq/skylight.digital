@@ -1,9 +1,9 @@
 ---
-layout: guide
-title: A Guide to Agile Acquisitions
-permalink: /guides/guide-3/
-content_type: Article
-image: /img/guides/guide/guide-1.jpg
+layout: blog_post
+title: A Blog Post Title 3
+permalink: /blog/blog-post-3/
+content_type: BlogPosting
+image: /img/blog/blog_post_1/blog-post-1.jpg
 image_description: Agile Acquisition Framework
 order: 300
 tags:
@@ -17,8 +17,8 @@ authors:
 contributors:
   - Sean Johnson
   - Sean Johnson
-date_published: 2017-04-24
-date: 2017-04-24
+date_published: 2017-04-30
+date: 2017-04-30
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.

@@ -1,0 +1,10 @@
+.our-blog {
+  @extend %page-base;
+}
+
+.blog-posts {
+  @extend .row;
+}
+
+@include semantic-card("blog-post");
+@include multi-col-spacing("blog-post", $mb-size: 4, $mb-md-size: 5);

@@ -8,19 +8,16 @@ layout: default
 
 {% if filter_type == 'project' %}
   {% assign filtered_items = site.projects | where: 'tags', tag_filter | sort: 'order' %}
-  {% assign filter_header = 'Work' %}
-{% elsif filter_type == 'guide' %}
+  {% assign filter_header = 'Work Search Results' %}
+{% elsif filter_type == 'post' %}
+  {% assign filtered_items = (site.blog_posts | where: 'tags', tag_filter | sort: 'date_published') | reverse %}
+  {% assign filter_header = 'Blog Search Results' %}
+{% else %}
   {% assign filtered_items = site.guides | where: 'tags', tag_filter | sort: 'order' %}
-  {% assign filter_header = 'Guides' %}
+  {% assign filter_header = 'Guides Search Results' %}
 {% endif %}
 
 {% assign filtered_items_size = filtered_items.size %}
-
-{% if filtered_items %}
-  {% assign filtered_items_size = filtered_items.size %}
-{% else %}
-  {% assign filtered_items_size = 0 %}
-{% endif %}
 
 {% if filtered_items_size == 1 %}
   {% assign filter_count = filtered_items_size | append: ' ' | append: filter_type %}
@@ -32,7 +29,7 @@ layout: default
 <div class="filter">
 
   <div class="container">
-    <h1>{{filter_header}} Search Results</h1>
+    <h1>{{filter_header}}</h1>
     <div class="row">
       <div class="filter-col">
         <header class="filter-header">
@@ -52,7 +49,7 @@ layout: default
 
     <div class="row">
       <div class="filter-col">
-        {% if filtered_items %}
+        {% if filtered_items_size > 0 %}
           {% for filtered_item in filtered_items %}
             <article class="filter-item">
               <h2 class="filter-item-title header-display-5">
