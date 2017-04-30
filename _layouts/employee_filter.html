@@ -8,10 +8,10 @@ layout: default
 
 {% if filter_type == 'project' %}
   {% assign filtered_items = site.projects | where: 'tags', tag_filter | sort: 'order' %}
-  {% assign filter_header = 'Work Search Results' %}
+  {% assign filter_header = 'Work' %}
 {% elsif filter_type == 'guide' %}
   {% assign filtered_items = site.guides | where: 'tags', tag_filter | sort: 'order' %}
-  {% assign filter_header = 'Guides Search Results' %}
+  {% assign filter_header = 'Guides' %}
 {% endif %}
 
 {% assign filtered_items_size = filtered_items.size %}
@@ -32,7 +32,7 @@ layout: default
 <div class="filter">
 
   <div class="container">
-    <h1>{{filter_header}}</h1>
+    <h1>{{filter_header}} Search Results</h1>
     <div class="row">
       <div class="filter-col">
         <header class="filter-header">
