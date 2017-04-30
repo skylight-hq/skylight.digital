@@ -36,6 +36,9 @@ analytics:
   google:
     code: 'UA-93543424-1' # change this to your Google analytics code
 
+posts_max_related: 3
+posts_min_common_tags: 1
+
 # Build settings
 markdown: kramdown
 
@@ -52,6 +55,12 @@ collections:
   project_team_members:
     output: true
     permalink: /work/team-member/:name/
+  blog_posts:
+    output: true
+    permalink: /blog/:path/
+  blog_post_authors:
+    output: true
+    permalink: /blog/author/:name/
   guides:
     output: true
     permalink: /guide/:path/

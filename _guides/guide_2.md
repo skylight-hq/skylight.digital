@@ -5,7 +5,7 @@ permalink: /guides/guide-2/
 content_type: Article
 image: /img/guides/guide/guide-1.jpg
 image_description: Agile Acquisition Framework
-order: 100
+order: 200
 tags:
   - digital procurement
   - digital acquisition

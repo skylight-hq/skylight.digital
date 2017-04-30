@@ -71,8 +71,8 @@
             {% assign header_suffix = 'guides' %}
           {% endif %}
 
-          {% assign max_related = 3 %}
-          {% assign min_common_tags = 1 %}
+          {% assign max_related = site.posts_max_related %}
+          {% assign min_common_tags = site.posts_min_common_tags %}
           {% assign max_related_counter = 0 %}
 
           {% for post in posts %}
