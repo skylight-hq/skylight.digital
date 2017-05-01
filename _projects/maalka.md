@@ -7,9 +7,7 @@ header_content_class: page-hdr-content-1
 image: /img/projects/opencompany/opencompany.jpg
 image_description: OpenCompany Transparency Platform
 order: 600
-tags:
-  - digital-services-delivery
-  - sean-johnson
+tags: [digital services delivery, sean johnson]
 excerpt: A digital platform for organizations to more effectively engage employees and other stakeholders through transparency.
 project_members:
   - sean-johnson

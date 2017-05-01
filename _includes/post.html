@@ -38,7 +38,7 @@
           {% if page.content_type == 'BlogPosting' %}
             <div class="post-tags">
               {% for tag in page.tags %}
-                <a href="/blog/tag/{{tag | slugify}}/">{{tag | replace: '-', ' '}}</a>
+                <a href="/blog/tag/{{tag | slugify}}/">{{tag}}</a>
               {% endfor %}
             </div>
           {% endif %}
