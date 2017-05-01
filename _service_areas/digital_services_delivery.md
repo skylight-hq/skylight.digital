@@ -16,10 +16,10 @@ image_icon_description: Digital Services Delivery Icon
 order: 1
 feature: true
 tags:
-  - digital services delivery
-  - legacy modernization
-  - product development
-  - customer experience design
+  - digital-services-delivery
+  - legacy-modernization
+  - product-development
+  - customer-experience-design
 service_elements:
   - name: Legacy Modernization
     description: >

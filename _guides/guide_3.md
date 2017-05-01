@@ -7,9 +7,9 @@ image: /img/guides/guide/guide-1.jpg
 image_description: Agile Acquisition Framework
 order: 300
 tags:
-  - digital procurement
-  - digital acquisition
-  - sean johnson
+  - digital-procurement
+  - digital-acquisition
+  - sean-johnson
 excerpt: A comprehensive guide to acquiring custom software solutions using agile principles and practices.
 authors:
   - Sean Johnson
