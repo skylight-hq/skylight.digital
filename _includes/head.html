@@ -45,7 +45,7 @@
 
   {% assign page_image_description = page.image_description %}
 
-  {% if page.tags %}
+  {% if page.tags.size > 0 %}
     {% assign page_keywords = page.tags | array_to_sentence_string %}
   {% else %}
     {% assign page_keywords = nil %}

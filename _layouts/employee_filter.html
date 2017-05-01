@@ -2,75 +2,41 @@
 layout: default
 ---
 
-{% assign employee = site.data.team | where: 'name', page.name | first %}
+{% assign employee_name = page.slug | replace: '_', '-' %}
+{% assign employee = site.data.team | where: 'name', employee_name | first %}
 {% assign filter_type = page.filter_type %}
-{% assign tag_filter = page.name | replace: '-', ' ' %}
+{% assign tag_filter = employee_name | replace: '-', ' ' %}
 
 {% if filter_type == 'project' %}
-  {% assign filtered_items = site.projects | where: 'tags', tag_filter | sort: 'order' %}
-  {% assign filter_header = 'Work Search Results' %}
+  {% assign items = site.projects | where: 'tags', tag_filter | sort: 'order' %}
+  {% assign header = 'Work Search Results' %}
 {% elsif filter_type == 'post' %}
-  {% assign filtered_items = (site.blog_posts | where: 'tags', tag_filter | sort: 'date_published') | reverse %}
-  {% assign filter_header = 'Blog Search Results' %}
+  {% assign items = (site.blog_posts | where: 'tags', tag_filter | sort: 'date_published') | reverse %}
+  {% assign header = 'Blog Search Results' %}
 {% else %}
-  {% assign filtered_items = site.guides | where: 'tags', tag_filter | sort: 'order' %}
-  {% assign filter_header = 'Guides Search Results' %}
+  {% assign items = site.guides | where: 'tags', tag_filter | sort: 'order' %}
+  {% assign header = 'Guides Search Results' %}
 {% endif %}
 
-{% assign filtered_items_size = filtered_items.size %}
+{% assign items_size = items.size %}
 
-{% if filtered_items_size == 1 %}
-  {% assign filter_count = filtered_items_size | append: ' ' | append: filter_type %}
+{% if items_size == 1 %}
+  {% assign count = items_size | append: ' ' | append: filter_type %}
 {% else %}
   {% assign filter_type_plural = filter_type | append: 's' %}
-  {% assign filter_count = filtered_items_size | append: ' ' | append: filter_type_plural %}
+  {% assign count = items_size | append: ' ' | append: filter_type_plural %}
 {% endif %}
 
-<div class="filter">
+{% capture no_results %} Oops, there aren't any {{filter_type_plural}} yet for {{employee.full_name}}. {% endcapture %}
 
-  <div class="container">
-    <h1>{{filter_header}}</h1>
-    <div class="row">
-      <div class="filter-col">
-        <header class="filter-header">
-          <img class="filter-image" src="{{employee.image}}" alt="{{employee.image_description}}">
-          <div class="filter-employee">
-            <h2 class="filter-title">{{employee.full_name}}</h2>
-            <h3 class="filter-subtitle">{{employee.position}}</h3>
-          </div>
-
-          <div class="filter-count">
-            {{filter_count}}
-          </div>
-        </header>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="filter-col">
-        {% if filtered_items_size > 0 %}
-          {% for filtered_item in filtered_items %}
-            <article class="filter-item">
-              <h2 class="filter-item-title header-display-5">
-                <a class="filter-item-link" href="{{filtered_item.permalink}}">{{filtered_item.title}}</a>
-              </h2>
-              {% if filtered_item.subtitle %}
-                {% assign filtered_item_desc = filtered_item.subtitle %}
-              {% else %}
-                {% assign filtered_item_desc = filtered_item.excerpt %}
-              {% endif %}
-              <p class="filter-item-description">{{filtered_item_desc}}</p>
-            </article>
-          {% endfor %}
-        {% else %}
-          <p class="filter-no-results">
-            Oops, there aren't any {{filter_type_plural}} yet for {{employee.full_name}}.
-          </p>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-
-</div>
-
-{% include hire_us_cta.html %}
+{% include filter.html
+  filtered_items = items
+  filter_header = header
+  filter_image = employee.image
+  filter_image_description = employee.image_description
+  filter_title = employee.full_name
+  filter_subtitle = employee.position
+  filter_count = count
+  filter_no_results = no_results
+  context = 'employee'
+%}
