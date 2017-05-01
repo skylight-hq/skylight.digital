@@ -35,7 +35,7 @@
             </div>
           {% endif %}
 
-          {% if page.content_type == 'BlogPosting' %}
+          {% if page.content_type == 'BlogPosting' and page.tags.size > 1 %}
             <div class="post-tags">
               {% for tag in page.tags %}
                 <a href="/blog/tag/{{tag | slugify}}/">{{tag}}</a>
