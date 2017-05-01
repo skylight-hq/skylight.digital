@@ -3,7 +3,7 @@ layout: service_area
 title: Microconsulting
 permalink: /services/microconsulting/
 excerpt: Immediate, quick-turnaround answers to critical digital challenges or questions.
-header_content_css_class: page-hdr-content-2
+header_content_class: page-hdr-content-2
 header_content: >
   <strong>Need immediate, quick-hit support to address a critical challenge or question that doesn't require a full-blown engagement?</strong> Our Microconsulting services are designed specifically for that purpose, providing you with on-demand access to our digital expertise. These services are conveniently priced within the federal government micropurchase threshold, making us just a swipe of a credit card away.
 image: /img/buzzword-stickies.jpg

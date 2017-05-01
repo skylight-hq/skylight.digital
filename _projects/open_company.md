@@ -3,7 +3,7 @@ layout: project
 title: OpenCompany
 subtitle: Transforming how organizations maintain transparency.  
 permalink: /work/opencompany/
-header_content_css_class: page-hdr-content-1
+header_content_class: page-hdr-content-1
 image: /img/projects/opencompany/opencompany.jpg
 image_description: OpenCompany Transparency Platform
 order: 100

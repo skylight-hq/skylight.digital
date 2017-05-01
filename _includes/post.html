@@ -45,18 +45,21 @@
 
           <div class="post-share">
             {% assign post_title = page.title | cgi_escape %}
-            {% assign post_url = site.url | append: page.url | cgi_escape %}
-            {% assign tweet_source = site.twitter.username | cgi_escape %}
+            {% assign post_url = site.url | append: page.url %}
+            {% assign tweet_source = site.twitter.username %}
+
+            {% capture tweet_url %} https://twitter.com/intent/tweet?url={{post_url}}&text={{post_title}}&via={{tweet_source}} {% endcapture %}
+            {% capture linkedin_url %} https://www.linkedin.com/shareArticle?mini=true&url={{post_url}} {% endcapture %}
 
             <div>
-              <a href="https://twitter.com/intent/tweet?url={{post_url}}&text={{post_title}}&via={{tweet_source}}" role="button" target="_blank">
+              <a href="{{tweet_url}}" role="button" target="_blank">
                 <i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
                 Share on Twitter
               </a>
             </div>
 
             <div>
-              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{post_url}}" role="button" target="_blank">
+              <a href="{{linkedin_url}}" role="button" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
                 Share on LinkedIn
               </a>
@@ -65,10 +68,10 @@
 
           {% if page.content_type == 'BlogPosting' %}
             {% assign posts = site.blog_posts %}
-            {% assign header_suffix = 'posts' %}
+            {% assign related_header = 'Related blog posts' %}
           {% else %}
             {% assign posts = site.guides %}
-            {% assign header_suffix = 'guides' %}
+            {% assign related_header = 'Related guides' %}
           {% endif %}
 
           {% assign max_related = site.posts_max_related %}
@@ -98,7 +101,7 @@
 
           {% if related_post_markups %}
             <div class="post-related">
-              <h4>Related {{header_suffix}}</h4>
+              <h4>{{related_header}}</h4>
               <ul>{{related_post_markups}}</ul>
             </div>
           {% endif %}
