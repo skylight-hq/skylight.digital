@@ -26,88 +26,44 @@
   {% assign page_url = page.url %}
 
   {% if page.title %}
-    {% assign page_title = page.title | xml_escape %}
-  {% else %}
-    {% assign page_title = nil %}
-  {% endif %}
-
-  {% if page.excerpt %}
-    {% assign page_excerpt = page.excerpt | xml_escape %}
-  {% else %}
-    {% assign page_excerpt = nil %}
-  {% endif %}
-
-  {% if page.image %}
-    {% assign page_image = site_url | append: page.image %}
-  {% else %}
-    {% assign page_image = nil %}
-  {% endif %}
-
-  {% assign page_image_description = page.image_description %}
-
-  {% if page.tags.size > 0 %}
-    {% assign page_keywords = page.tags | array_to_sentence_string %}
-  {% else %}
-    {% assign page_keywords = nil %}
-  {% endif %}
-
-  {% if page.authors %}
-    {% assign page_authors = page.authors %}
-  {% else %}
-    {% assign page_authors = nil %}
-  {% endif %}
-
-  {% assign page_date_published = page.date_published %}
-  {% assign page_date_modified = page.date %}
-
-  {% if page_title %}
-    {% assign title = site_title | append: ' | ' | append: page_title %}
+    {% assign title = site_title | append: ' | ' | append: (page.title | xml_escape) %}
   {% else %}
     {% assign title = site_title %}
   {% endif %}
 
-  {% if page_excerpt %}
-    {% assign description = page_excerpt %}
+  {% if page.excerpt %}
+    {% assign description = page.excerpt | xml_escape %}
   {% else %}
     {% assign description = site_description %}
   {% endif %}
 
-  {% if page_keywords %}
-    {% assign keywords = page_keywords %}
+  {% if page.image and page.image_description %}
+    {% assign image = site_url | append: page.image %}
+    {% assign image_description = page.image_description %}
+  {% else %}
+    {% assign image = site_image %}
+    {% assign image_description = site_image_description %}
+  {% endif %}
+
+  {% if page.tags.size > 0 %}
+    {% assign keywords = page.tags | array_to_sentence_string %}
   {% else %}
     {% assign keywords = site_keywords %}
   {% endif %}
 
-  {% if page_image %}
-    {% assign image = page_image %}
-  {% else %}
-    {% assign image = site_image %}
-  {% endif %}
-
-  {% if page_image and page_image_description %}
-    {% assign image_description = page_image_description %}
-  {% else %}
-    {% assign image_description = site_image_description %}
-  {% endif %}
-
-  {% if page_authors %}
-    {% assign authors = page_authors %}
+  {% if page.authors.size > 0 %}
+    {% assign authors = page.authors %}
   {% else %}
     {% assign authors = site_name %}
   {% endif %}
 
-  {% if page_date_published %}
-    {% assign date_published = page_date_published %}
+  {% if page.date_published and page.date %}
+    {% assign date_published = page.date_published %}
+    {% assign date_modified = page.date %}
   {% else %}
     {% assign date_published = site_published %}
-  {% endif %}
-
-  {% if page_date_modified %}
-    {% assign date_modified = page_date_modified %}
-  {% else %}
     {% assign date_modified = site_modified %}
   {% endif %}
-
 
   {% assign content_type = page.content_type %}
   {% assign canonical_url = site_url | append: page_url %}
@@ -149,7 +105,9 @@
       "url": "{{site_url}}",
       "name": "{{site_title}}",
       "description": "{{site_description}}",
-      "keywords": "{{site_keywords}}"
+      "keywords": "{{site_keywords}}",
+      "datePublished": "{{site_published}}",
+      "dateModified": "{{site_modified}}"
     }
   </script>
 
