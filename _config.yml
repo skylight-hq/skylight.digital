@@ -61,15 +61,18 @@ collections:
   blog_post_authors:
     output: true
     permalink: /blog/author/:name/
+  blog_post_tags:
+    output: true
+    permalink: /blog/tag/:name/
   guides:
     output: true
-    permalink: /guide/:path/
+    permalink: /guides/:path/
   guide_authors:
     output: true
     permalink: /guides/author/:name/
   policies:
     output: true
-    permalink: /policy/:path/
+    permalink: /policies/:path/
 
 sass:
   style: compressed
