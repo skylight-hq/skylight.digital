@@ -18,10 +18,7 @@ image_icon: /img/digital-procurement-icon.svg
 image_icon_description: Digital Procurement Icon
 order: 2
 feature: true
-tags:
-  - digital-procurement
-  - digital-acquisition
-  - agile-acquisition
+tags: [digital procurement, digital acquisition, agile acquisition]
 service_elements:
   - name: Vendor Marketplaces
     description: >

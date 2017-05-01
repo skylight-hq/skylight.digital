@@ -4,7 +4,7 @@ layout: default
 
 {% assign employee = site.data.team | where: 'name', page.name | first %}
 {% assign filter_type = page.filter_type %}
-{% assign tag_filter = page.name %}
+{% assign tag_filter = page.name | replace: '-', ' ' %}
 
 {% if filter_type == 'project' %}
   {% assign filtered_items = site.projects | where: 'tags', tag_filter | sort: 'order' %}
