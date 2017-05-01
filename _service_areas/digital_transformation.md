@@ -20,8 +20,8 @@ image_icon_description: Digital Transformation Icon
 order: 3
 feature: true
 tags:
-  - digital transformation
-  - lean-agile enterprise
+  - digital-transformation
+  - lean-agile-enterprise
   - devops
 service_elements:
   - name: Digital Transformation Strategy

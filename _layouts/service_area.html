@@ -35,7 +35,7 @@ layout: default
       <h2>Our work</h2>
     </div>
 
-    {% assign tag_filter = page.slug | replace: '_', ' ' %}
+    {% assign tag_filter = page.slug | slugify %}
     {% assign projects = site.projects | where: 'tags', tag_filter | sort: 'order' %}
 
     {% include card_list.html
