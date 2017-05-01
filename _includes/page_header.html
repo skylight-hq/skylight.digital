@@ -19,13 +19,13 @@
 <header class="{{header_css_class}}">
   <h1>{{header_title}}</h1>
 
-  {% if page.header_content_css_class and header_content %}
+  {% if page.header_content_class and header_content %}
     <div class="row">
-      <div class="{{page.header_content_css_class}}">
+      <div class="{{page.header_content_class}}">
         <p>{{header_content}}</p>
 
-        {% if page.header_content_img_path %}
-          <img src="{{page.header_content_img_path}}" alt="{{page.header_content_img_description}}">
+        {% if page.header_content_img %}
+          <img src="{{page.header_content_img}}" alt="{{page.header_content_img_description}}">
         {% endif %}
       </div>
     </div>

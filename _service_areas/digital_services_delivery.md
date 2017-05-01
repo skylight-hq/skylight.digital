@@ -3,7 +3,7 @@ layout: service_area
 title: Digital Services Delivery
 permalink: /services/digital-services-delivery/
 excerpt: Beautiful, enduring digital services that customers love.
-header_content_css_class: page-hdr-content-2
+header_content_class: page-hdr-content-2
 header_content: >
   <strong>Today's public expects their interactions with government to be simple,
   delightful, secure, and empowering.</strong> At Skylight, we specialize in creating

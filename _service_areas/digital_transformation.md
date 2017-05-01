@@ -3,7 +3,7 @@ layout: service_area
 title: Digital Transformation
 permalink: /services/digital-transformation/
 excerpt: Digital organizations built to last, plus attract top digital talent.
-header_content_css_class: page-hdr-content-2
+header_content_class: page-hdr-content-2
 header_content: >
   <strong>“Going digital” is about people first and technology second.</strong> At Skylight,
   we possess first-hand experience with embedding digital expertise throughout
