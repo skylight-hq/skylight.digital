@@ -89,6 +89,5 @@ exclude:
 
 # Jekyll plugins
 gems:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
