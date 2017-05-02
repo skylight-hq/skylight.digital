@@ -73,24 +73,37 @@
 }
 
 .testimonial-quote {
-  font-size: $font-size-x-large;
   @extend .font-italic;
+  @extend .mb-4;
+  font-size: $font-size-x-large;
   line-height: 1.25;
 
   &::before {
-    content: "“";
+    @extend .align-middle;
+    content: "\201C";
     opacity: .5;
-    font-size: inherit;
+    font-size: $font-size-xxx-large;
+    line-height: 0.1;
   }
 
   &::after {
-    content: "”";
+    @extend .align-middle;
+    content: "\201D";
     opacity: .5;
-    font-size: inherit;
+    font-size: $font-size-xxx-large;
+    line-height: 0.1;
   }
 
   @include media-breakpoint-up(md) {
     font-size: $font-size-xxxx-large;
+
+    &::before {
+      font-size: 4rem;
+    }
+
+    &::after {
+      font-size: 4rem;
+    }
   }
 }
 
