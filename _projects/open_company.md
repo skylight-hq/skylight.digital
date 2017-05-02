@@ -1,9 +1,8 @@
 ---
-layout: project
+layout: default
 title: OpenCompany
 subtitle: Transforming how organizations maintain transparency.  
 permalink: /work/opencompany/
-header_content_class: page-hdr-content-1
 image: /img/projects/opencompany/opencompany.jpg
 image_description: OpenCompany Transparency Platform
 order: 100
@@ -42,6 +41,10 @@ news_posts:
     url: http://www.cnn.com/
 project_url: https://opencompany.com/
 ---
+
+{% include page_header.html
+  header_content_class = 'page-hdr-content-1'
+%}
 
 <h2 class="sr-only">Summary</h2>
 

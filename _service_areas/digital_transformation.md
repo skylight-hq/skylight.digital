@@ -1,18 +1,8 @@
 ---
-layout: service_area
+layout: default
 title: Digital Transformation
 permalink: /services/digital-transformation/
 excerpt: Digital organizations built to last, plus attract top digital talent.
-header_content_class: page-hdr-content-2
-header_content: >
-  <strong>“Going digital” is about people first and technology second.</strong> At Skylight,
-  we possess first-hand experience with embedding digital expertise throughout
-  government organizations, and putting the operating principles, structures,
-  and tools in place to unleash the superpowers of high-caliber digital teams.
-  As founders of 18F, we built and scaled the organization to over 200 digital
-  experts, distributed across 30 cities, using existing federal-wide hiring authorities.
-  We’re experts at managing large-scale, high-performing digital talent within
-  government settings.
 image: /img/buzzword-stickies.jpg
 image_description: Buzzword Stickies
 image_icon: /img/digital-transformation-icon.svg
@@ -40,3 +30,21 @@ service_elements:
       principles and practices at enterprise scale.
     order: 3
 ---
+
+{% capture header_content %}
+  <strong>“Going digital” is about people first and technology second.</strong> At Skylight,
+  we possess first-hand experience with embedding digital expertise throughout
+  government organizations, and putting the operating principles, structures,
+  and tools in place to unleash the superpowers of high-caliber digital teams.
+  As founders of 18F, we built and scaled the organization to over 200 digital
+  experts, distributed across 30 cities, using existing federal-wide hiring authorities.
+  We’re experts at managing large-scale, high-performing digital talent within
+  government settings.
+{% endcapture %}
+
+{% include page_header.html
+  header_content_class = 'page-hdr-content-2'
+  header_content = header_content
+%}
+
+{% include service_area.html %}

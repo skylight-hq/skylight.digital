@@ -1,11 +1,8 @@
 ---
-layout: service_area
+layout: default
 title: Microconsulting
 permalink: /services/microconsulting/
 excerpt: Immediate, quick-turnaround answers to critical digital challenges or questions.
-header_content_class: page-hdr-content-2
-header_content: >
-  <strong>Need immediate, quick-hit support to address a critical challenge or question that doesn't require a full-blown engagement?</strong> Our Microconsulting services are designed specifically for that purpose, providing you with on-demand access to our digital expertise. These services are conveniently priced within the federal government micropurchase threshold, making us just a swipe of a credit card away.
 image: /img/buzzword-stickies.jpg
 image_description: Buzzword Stickies
 image_icon: /img/microconsulting-icon.svg
@@ -35,3 +32,14 @@ service_elements:
       to create product prototypes at warp speed.
     order: 3
 ---
+
+{% capture header_content %}
+  <strong>Need immediate, quick-hit support to address a critical challenge or question that doesn't require a full-blown engagement?</strong> Our Microconsulting services are designed specifically for that purpose, providing you with on-demand access to our digital expertise. These services are conveniently priced within the federal government micropurchase threshold, making us just a swipe of a credit card away.
+{% endcapture %}
+
+{% include page_header.html
+  header_content_class = 'page-hdr-content-2'
+  header_content = header_content
+%}
+
+{% include service_area.html %}

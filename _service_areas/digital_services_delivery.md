@@ -1,14 +1,8 @@
 ---
-layout: service_area
+layout: default
 title: Digital Services Delivery
 permalink: /services/digital-services-delivery/
 excerpt: Beautiful, enduring digital services that customers love.
-header_content_class: page-hdr-content-2
-header_content: >
-  <strong>Today's public expects their interactions with government to be simple,
-  delightful, secure, and empowering.</strong> At Skylight, we specialize in creating
-  exceptional customer experiences and enduring solution architectures out of
-  your most complex design and technology challenges.
 image: /img/buzzword-stickies.jpg
 image_description: Buzzword Stickies
 image_icon: /img/digital-services-delivery-icon.svg
@@ -49,3 +43,17 @@ service_elements:
       extensible, as well as building vibrant user communities.
     order: 6
 ---
+
+{% capture header_content %}
+  <strong>Today's public expects their interactions with government to be simple,
+  delightful, secure, and empowering.</strong> At Skylight, we specialize in creating
+  exceptional customer experiences and enduring solution architectures out of
+  your most complex design and technology challenges.
+{% endcapture %}
+
+{% include page_header.html
+  header_content_class = 'page-hdr-content-2'
+  header_content = header_content
+%}
+
+{% include service_area.html %}
