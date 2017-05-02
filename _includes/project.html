@@ -2,7 +2,24 @@
   <div class="container">
     <div class="row">
       <article class="narrative">
-        {{content}}
+        <h2 class="sr-only">Summary</h2>
+        <p>{{include.summary}}</p>
+
+        <h2>The challenge</h2>
+        <p>{{include.challenge}}</p>
+
+        <h2>The solution</h2>
+        <p>{{include.solution}}</p>
+        {% include project_approach.html %}
+
+        <h2>The results</h2>
+        <p>{{include.results}}</p>
+        {% if page.news_posts %} {% include project_news.html %} {% endif %}
+
+        {% if page.screenshots %}
+          <h2>Showcase</h2>
+          {% include project_showcase.html %}
+        {% endif %}
       </article>
     </div>
   </div>
