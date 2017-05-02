@@ -1,3 +1,10 @@
+// Logo transformation
+$(function() {
+  $('a.navbar-brand').click(function() {
+    $(this).css('transform', 'scale(0.95)')
+  })
+})
+
 // Enable tooltips
 $(function() {
   $('[data-toggle="tooltip"]').tooltip()

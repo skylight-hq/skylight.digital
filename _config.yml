@@ -13,7 +13,7 @@ keywords: digital consulting, digital government, digital transformation, and di
 published: 2017-06-18
 modified: 2017-06-18
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 permalink: /:title/
 url: https://skylight.digital
 localhost: localhost:4000
@@ -21,9 +21,9 @@ twitter_url: https://twitter.com/skylight_hq
 github_repo_url: https://github.com/skylight-hq
 github_issues_url: https://github.com/skylight-hq/skylight.digital/issues
 linkedin_url: https://www.linkedin.com/company/skylight-hq
-openco_url: ""
+openco_url: ''
 hackerone_url: https://hackerone.com/skylight_qgvpb
-slack_invite_url: https://skylight-hq.slack.com/signup
+slack_invite_url: ''
 
 twitter:
   username: skylight_hq
