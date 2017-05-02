@@ -64,8 +64,7 @@
 
 // Buttons
 
-// Copy of Bootstrap's button variant mixin with
-// disabled and active styles removed
+// Copy of Bootstrap's button variant mixin with disabled and active styles removed
 @mixin button-outline-variant-2($color, $background, $border, $active-color) {
   color: $color;
   background-color: $background;

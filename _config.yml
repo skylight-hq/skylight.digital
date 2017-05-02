@@ -91,3 +91,4 @@ exclude:
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
