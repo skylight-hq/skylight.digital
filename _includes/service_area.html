@@ -1,22 +1,28 @@
 <div class="service-area-showcase">
 
-  <section class="page-block container">
-    {% assign service_elements = page.service_elements | sort: 'order' %}
+  <section class="page-block">
+    <div class="page-block-hdr-1 sr-only">
+      <h2>Service elements</h2>
+    </div>
 
-    {% include hanging_column_size.html
-      collection_size = service_elements.size
-      col_size = 3
-    %}
+    <div class="container">
+      {% assign service_elements = page.service_elements | sort: 'order' %}
 
-    <div class="service-elements {{hanging_col_size_css_class}}">
-      {% for service_element in service_elements %}
-        <div class="service-element">
-          <div class="service-element-content-box">
-            <h3>{{service_element.name}}</h3>
-            <p>{{service_element.description}}</p>
+      {% include hanging_column_size.html
+        collection_size = service_elements.size
+        col_size = 3
+      %}
+
+      <div class="service-elements {{hanging_col_size_css_class}}">
+        {% for service_element in service_elements %}
+          <div class="service-element">
+            <div class="service-element-content-box">
+              <h3>{{service_element.name}}</h3>
+              <p>{{service_element.description}}</p>
+            </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </section>
 
