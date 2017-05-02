@@ -2,17 +2,20 @@
 layout: default
 title: Our Work
 permalink: /work/
-header_content_class: page-hdr-content-2
-header_content: >
+---
+
+{% capture header_content %}
   We’re a newly-found HUBZone digital consultancy. Although our company is new,
   our people are not. Explore a sampling of the experience that we bring to your
   biggest digital challenges and opportunities.
----
+{% endcapture %}
+
+{% include page_header.html
+  header_content_class = 'page-hdr-content-2'
+  header_content = header_content
+%}
 
 <div class="our-work">
-
-  {% include page_header.html %}
-
   {% assign projects = site.projects | sort: 'order' %}
 
   {% include card_list.html

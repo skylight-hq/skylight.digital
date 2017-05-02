@@ -2,19 +2,21 @@
 layout: default
 title: Our Culture
 permalink: /culture/
-header_content_class: page-hdr-content-2
-header_content: >
+---
+
+{% capture header_content %}
   Our values are the core of our culture, offering a set of guidelines on the
   behaviors and mindsets needed to achieve our mission of making government work
   in a digital world.
----
+{% endcapture %}
+
+{% include page_header.html
+  header_content_class = 'page-hdr-content-2'
+  header_content = header_content
+%}
 
 <div class="our-culture">
-
-  {% include page_header.html %}
-
   <div class="container">
-
     <div class="values">
       {% assign values = site.data.values | sort: 'order' %}
       {% for value in values %}
@@ -28,9 +30,7 @@ header_content: >
         </div>
       {% endfor %}
     </div>
-
   </div>
-
 </div>
 
 {% include carry_culture_cta.html %}

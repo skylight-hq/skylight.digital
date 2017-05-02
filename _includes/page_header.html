@@ -1,11 +1,11 @@
-{% if page.header_css_class %}
-  {% assign header_css_class = page.header_css_class %}
+{% if include.header_css_class %}
+  {% assign header_css_class = include.header_css_class %}
 {% else %}
   {% assign header_css_class = 'page-hdr-2' %}
 {% endif %}
 
-{% if page.header_title %}
-  {% assign header_title = page.header_title %}
+{% if include.header_title %}
+  {% assign header_title = include.header_title %}
 {% else %}
   {% assign header_title = page.title %}
 {% endif %}
@@ -13,21 +13,23 @@
 {% if page.subtitle %}
   {% assign header_content = page.subtitle %}
 {% else %}
-  {% assign header_content = page.header_content %}
+  {% assign header_content = include.header_content %}
 {% endif %}
 
-<header class="{{header_css_class}}">
-  <h1>{{header_title}}</h1>
+<div class="{{header_css_class}}">
+  <header>
+    <h1>{{header_title}}</h1>
 
-  {% if page.header_content_class and header_content %}
-    <div class="row">
-      <div class="{{page.header_content_class}}">
-        <p>{{header_content}}</p>
+    {% if include.header_content_class and header_content %}
+      <div class="row">
+        <div class="{{include.header_content_class}}">
+          <p>{{header_content}}</p>
 
-        {% if page.header_content_img %}
-          <img src="{{page.header_content_img}}" alt="{{page.header_content_img_description}}">
-        {% endif %}
+          {% if include.header_content_img %}
+            <img src="{{include.header_content_img}}" alt="{{include.header_content_img_description}}">
+          {% endif %}
+        </div>
       </div>
-    </div>
-  {% endif %}
-</header>
+    {% endif %}
+  </header>
+</div>

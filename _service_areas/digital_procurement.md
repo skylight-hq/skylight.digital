@@ -1,17 +1,8 @@
 ---
-layout: service_area
+layout: default
 title: Digital Procurement
 permalink: /services/digital-procurement/
 excerpt: Tech procurements that succeed and inspire public confidence.
-header_content_class: page-hdr-content-2
-header_content: >
-  <strong>To support digital progress, procurement must change.</strong> At Skylight, we combine
-  technical and acquisition brains to make procurement work for you in the digital age.
-  That means greater collaboration with vendors, faster delivery of value, higher quality
-  results, lower costs, and breakthrough innovations. As founders of 18F, we pioneered and
-  led several game-changing acquisition initiatives, including Agile Acquisition,
-  Agile Delivery Services Marketplace, RFP Ghostwriting, Digital Acquisition Accelerator,
-  and Micro-purchase Platform.
 image: /img/buzzword-stickies.jpg
 image_description: Buzzword Stickies
 image_icon: /img/digital-procurement-icon.svg
@@ -52,3 +43,20 @@ service_elements:
       level and beyond through our agile adoption pattern of Shu-Ha-Ri.
     order: 6
 ---
+
+{% capture header_content %}
+  <strong>To support digital progress, procurement must change.</strong> At Skylight, we combine
+  technical and acquisition brains to make procurement work for you in the digital age.
+  That means greater collaboration with vendors, faster delivery of value, higher quality
+  results, lower costs, and breakthrough innovations. As founders of 18F, we pioneered and
+  led several game-changing acquisition initiatives, including Agile Acquisition,
+  Agile Delivery Services Marketplace, RFP Ghostwriting, Digital Acquisition Accelerator,
+  and Micro-purchase Platform.
+{% endcapture %}
+
+{% include page_header.html
+  header_content_class = 'page-hdr-content-2'
+  header_content = header_content
+%}
+
+{% include service_area.html %}

@@ -2,13 +2,14 @@
 layout: default
 title: Our Services
 permalink: /services/
-header_content_class: page-hdr-content-1
-header_content: A lot goes into making you a digital-first agency.
 ---
 
-<div class="our-services">
+{% include page_header.html
+  header_content_class = 'page-hdr-content-1'
+  header_content = 'A lot goes into making you a digital-first agency.'
+%}
 
-  {% include page_header.html %}
+<div class="our-services">
 
   <section class="page-block extra-space container-fluid">
 

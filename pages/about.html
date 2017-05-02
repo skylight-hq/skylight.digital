@@ -2,16 +2,17 @@
 layout: default
 title: About Us
 permalink: /about/
-header_title: We're Skylight!
-header_content_class: page-hdr-content-1
-header_content: Our mission is to make government work in a digital world.
-header_content_img: https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150
-header_content_img_description:
 ---
 
-<div class="about-us">
+{% include page_header.html
+  header_title = 'We&apos;re Skylight!'
+  header_content_class = 'page-hdr-content-1'
+  header_content = 'Our mission is to make government work in a digital world.'
+  header_content_img = 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150'
+  header_content_img_description = ''
+%}
 
-  {% include page_header.html %}
+<div class="about-us">
 
   <section class="page-block">
     <div class="page-block-hdr-1">

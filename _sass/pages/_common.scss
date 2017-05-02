@@ -1,26 +1,21 @@
-%page-base {
-  @extend .mt-5;
+%page-hdr-base {
+  @extend .container;
   @extend .text-center;
+  @extend .mt-5;
+  @extend .mb-5;
 
   h1 {
-    @extend .mb-0;
-  }
-
-  h2 {
-    @extend .font-weight-normal;
     @extend .mb-0;
   }
 }
 
 .page-hdr-1 {
-  @extend .container;
-  @extend .mb-5;
+  @extend %page-hdr-base;
   @extend .mb-md-5;
 }
 
 .page-hdr-2 {
-  @extend .container;
-  @extend .mb-5;
+  @extend %page-hdr-base;
   @extend .mb-md-6;
 }
 
@@ -55,6 +50,19 @@
   p {
     @extend .mt-5;
     @extend .text-left;
+  }
+}
+
+%page-main-base {
+  @extend .text-center;
+
+  h1 {
+    @extend .mb-0;
+  }
+
+  h2 {
+    @extend .font-weight-normal;
+    @extend .mb-0;
   }
 }
 
