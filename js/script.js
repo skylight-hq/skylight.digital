@@ -1,6 +1,6 @@
 // Logo transformation
 $(function() {
-  $('a.navbar-brand').click(function() {
+  $('.navbar-brand-wrapper a').click(function() {
     $(this).css('transform', 'scale(0.95)')
   })
 })

@@ -10,6 +10,8 @@ The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofou
 
 The Font Awesome files in `src/fonts` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
 
+The remotely-hosted Courgette font file linked to in `src/_includes/head.html` is from [Google Web Fonts](https://fonts.googleapis.com/css?family=Courgette), copyright Karolina Lach, under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
 ### Files licensed under the MIT License
 
 The files located in `src/_sass/bootstrap` are from [Twitter Bootstrap](http://getbootstrap.com/), copyright Twitter, Inc. and The Bootstrap Authors, under the [MIT license](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE).
