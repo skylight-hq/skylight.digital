@@ -160,3 +160,23 @@ a.profile-link {
     border-bottom: $project-aside-link-border-hover;
   }
 }
+
+.work-example-ctas {
+  @extend .mt-3;
+  @extend .mt-sm-5;
+
+  div {
+    @extend .d-sm-inline-block;
+
+    &:first-child {
+      @extend .mb-3;
+      @extend .mb-sm-0;
+      @extend .mr-sm-5;
+    }
+  }
+
+  a {
+    @extend .btn-page;
+    min-width: 185px;
+  }
+}
