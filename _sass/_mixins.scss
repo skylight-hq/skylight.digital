@@ -1,10 +1,10 @@
 // Brand
-@mixin logo($width: 200, $height: 50) {
+@mixin logo($width: $nav-brand-width, $height: $nav-brand-height) {
   display: block;
   background: url(/img/logo.png) no-repeat;
   background: url(/img/logo.svg) no-repeat;
-  width: #{$width}px;
-  height: #{$height}px;
+  width: $width;
+  height: $height;
   background-size: contain;
   text-indent: -9999px;
   white-space: nowrap;
@@ -17,8 +17,8 @@
   }
 
   @include media-breakpoint-down(sm) {
-    width: 150px;
-    height: 40px;
+    width: $nav-brand-width-sm-down;
+    height: $nav-brand-height-sm-down;
   }
 }
 

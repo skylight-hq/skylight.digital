@@ -17,8 +17,10 @@
   @extend .col-md-3;
 }
 
-.footer-brand {
-  @include logo($height: 40);
+.footer-brand-inner-wrapper {
+  a {
+    @include logo($height: 40px);
+  }
 }
 
 .footer-contribute-cta a {
