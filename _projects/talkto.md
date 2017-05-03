@@ -5,6 +5,7 @@ subtitle: Transforming how organizations maintain transparency.
 permalink: /work/talkto/
 image: /img/projects/opencompany/opencompany.jpg
 image_description: OpenCompany Transparency Platform
+feature_image: true
 order: 400
 tags: [digital services delivery, sean johnson]
 excerpt: A digital platform for organizations to more effectively engage employees and other stakeholders through transparency.
