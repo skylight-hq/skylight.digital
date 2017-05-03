@@ -40,6 +40,7 @@ news_posts:
   - title: Why I love OpenCompany
     url: http://www.cnn.com/
 project_url: https://opencompany.com/
+source_code_url:
 ---
 
 {% include page_header.html

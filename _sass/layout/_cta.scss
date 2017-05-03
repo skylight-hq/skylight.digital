@@ -1,11 +1,11 @@
 .page-cta {
-  background-color: $page-cta-bg-color;
-  color: $page-cta-color;
   @extend .text-center;
   @extend .mt-5;
   @extend .mt-md-6;
   @extend .py-4;
   @extend .py-md-5;
+  background-color: $page-cta-bg-color;
+  color: $page-cta-color;
 }
 
 .page-cta-hdr-wrapper {
