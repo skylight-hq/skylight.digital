@@ -3,8 +3,9 @@ layout: default
 title: OpenCompany
 subtitle: Transforming how organizations maintain transparency.  
 permalink: /work/opencompany/
-image: /img/projects/opencompany/opencompany.jpg
+image: /img/projects/opencompany/oc-small-dashboard.jpg
 image_description: OpenCompany Transparency Platform
+feature_image: true
 order: 100
 tags: [digital services delivery, sean johnson]
 excerpt: A digital platform for organizations to more effectively engage employees and other stakeholders through transparency.

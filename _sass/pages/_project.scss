@@ -2,6 +2,10 @@
   @extend %page-main-base;
 }
 
+.narrative .project-feature-image {
+  @extend .mb-0;
+}
+
 %project-aside-base {
   @extend .text-left;
   @extend .mt-4;
@@ -48,6 +52,7 @@
 .approach-area-card-block {
   @extend .card-block;
   @extend .p-0;
+
   ul {
     @extend .list-unstyled;
   }
@@ -65,10 +70,6 @@
 
 .screenshots {
   @extend .mt-4;
-
-  .row:last-child {
-    @extend .mt-3;
-  }
 }
 
 .screenshot {
@@ -175,8 +176,7 @@ a.profile-link {
     }
   }
 
-  a {
-    @extend .btn-page;
+  .btn-page {
     min-width: 185px;
   }
 }

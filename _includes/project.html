@@ -5,6 +5,10 @@
         <h2 class="sr-only">Summary</h2>
         <p>{{include.summary}}</p>
 
+        {% if page.feature_image %}
+          <img class="project-feature-image" src="{{page.image}}" alt="{{page.image_description}}">
+        {% endif %}
+
         <h2>The challenge</h2>
         <p>{{include.challenge}}</p>
 
@@ -136,11 +140,11 @@
         {% if page.project_url or page.source_code_url %}
           <div class="work-example-ctas">
             {% capture project_link_markup %}
-              <a href="{{page.project_url}}" role="button" target="_blank">See the site</a>
+              <a class="btn-page" href="{{page.project_url}}" role="button" target="_blank">See the site</a>
             {% endcapture %}
 
             {% capture source_code_link_markup %}
-              <a href="{{page.source_code_url}}" role="button" target="_blank">Read the code</a>
+              <a class="btn-page" href="{{page.source_code_url}}" role="button" target="_blank">Read the code</a>
             {% endcapture %}
 
             {% if page.project_url and page.source_code_url %}
