@@ -88,11 +88,11 @@ $(function() {
   })
 
   var $pageAnchors = $('.join-content a')
-  $pageAnchors = $pageAnchors.filter(function(index) {
+  $pageAnchors = $pageAnchors.filter(function() {
     return $.inArray(this.getAttribute('href'), navPaths) != -1
   })
 
-  $allAnchors = $navAnchors.add($pageAnchors)
+  var $allAnchors = $navAnchors.add($pageAnchors)
 
   $allAnchors.on('click', function(e) {
     e.preventDefault()
@@ -138,17 +138,21 @@ $(function() {
 	var isTouchTimer
 	var curRootClass = '' // var indicating current document root class ("can-touch" or "")
 
-	function addtouchclass(e) {
+	function addtouchclass() {
 		clearTimeout(isTouchTimer)
 		isTouch = true
+
 		if (curRootClass != 'can-touch') { // add "can-touch' class if it's not already present
 			curRootClass = 'can-touch'
 			document.documentElement.classList.add(curRootClass)
 		}
-		isTouchTimer = setTimeout(function(){isTouch = false}, 1000) // maintain "istouch" state for 1000ms so removetouchclass doesn't get fired immediately following a touch event
+
+		isTouchTimer = setTimeout(function() {
+      isTouch = false
+    }, 1000) // maintain "istouch" state for 1000ms so removetouchclass doesn't get fired immediately following a touch event
 	}
 
-	function removetouchclass(e) {
+	function removetouchclass() {
 		if (!isTouch && curRootClass == 'can-touch') { // remove 'can-touch' class if not triggered by a touch event and class is present
 			isTouch = false
 			curRootClass = ''

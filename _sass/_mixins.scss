@@ -65,7 +65,7 @@
 
 // Buttons
 
-// Copy of Bootstrap's button variant mixin with disabled and active styles removed
+// Modified copy of Bootstrap's button variant mixin
 @mixin button-outline-variant-2($color, $background, $border, $active-color) {
   color: $color;
   background-color: $background;
@@ -78,13 +78,18 @@
     border-color: $active-color;
   }
 
-  &:focus,
-  &.focus {
+  &:focus {
     @if $enable-shadows {
       box-shadow: $btn-box-shadow, 0 0 0 2px rgba($border, .5);
     } @else {
       box-shadow: 0 0 0 2px rgba($border, .5);
     }
+  }
+
+  &:active {
+    color: $background;
+    background-color: $active-color;
+    border-color: $active-color;
   }
 }
 
