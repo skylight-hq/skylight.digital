@@ -12,28 +12,8 @@ header[role="banner"] {
   @extend .justify-content-between;
 }
 
-.navbar-brand-wrapper {
-  a {
-    @include logo;
-  }
-
-  p {
-    @extend .mb-0;
-    padding-left: 3px;
-    color: lighten($gray, 35%);
-    font-family: 'Courgette', cursive;
-    font-size: $font-size-xxx-small;
-    letter-spacing: 1.3px;
-    width: $nav-brand-width-sm-down;
-    white-space: nowrap;
-    overflow: hidden;
-
-    @include media-breakpoint-up(md) {
-      font-size: $font-size-xx-small;
-      letter-spacing: 4px;
-      width: $nav-brand-width;
-    }
-  }
+.nav-brand {
+  @include logo;
 }
 
 .navbar-toggler {
