@@ -78,6 +78,7 @@ sass:
   style: compressed
 
 exclude:
+  - .eslintrc
   - .gitignore
   - Gemfile
   - Gemfile.lock
@@ -86,6 +87,10 @@ exclude:
   - README.md
   - vendor
   - snippets
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - npm-debug.log
 
 # Jekyll plugins
 gems:

@@ -1,0 +1,36 @@
+{
+  "name": "skylight.digital",
+  "version": "1.0.0",
+  "description": "Skylight's flagship website",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "eslint": "^3.19.0",
+    "grunt-accessibility": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=7.10.0"
+  },
+  "scripts": {
+    "scss-lint": "bundle exec scss-lint ./_sass",
+    "html-lint": "bundle exec htmlproofer ./_site",
+    "access-lint": "grunt accessibility:test",
+    "js-lint": "eslint ./_site/js/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylight-hq/skylight.digital.git"
+  },
+  "keywords": [
+    "skylight",
+    "site",
+    "consulting",
+    "digital-government"
+  ],
+  "author": "Skylight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skylight-hq/skylight.digital/issues"
+  },
+  "homepage": "https://skylight.digital"
+}

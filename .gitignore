@@ -4,3 +4,4 @@ _site/
 **/.DS_Store
 vendor/
 snippets/
+node_modules/
