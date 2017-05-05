@@ -52,15 +52,22 @@
   }
 }
 
-@mixin link-decoration($color, $hover-color, $border, $border-hover) {
+@mixin link-inactive-decoration($color, $border) {
   color: $color;
   border-bottom: $border;
+}
 
+@mixin link-active-decoration($hover-color, $border-hover) {
   &:hover,
   &:focus {
     color: $hover-color;
     border-bottom: $border-hover;
   }
+}
+
+@mixin link-decoration($color, $hover-color, $border, $border-hover) {
+  @include link-inactive-decoration($color, $border);
+  @include link-active-decoration($hover-color, $border-hover);
 }
 
 // Buttons
@@ -157,6 +164,7 @@
 
     @if $clickable {
       box-shadow: $card-box-shadow;
+      cursor: pointer;
 
       &:hover,
       &:focus {

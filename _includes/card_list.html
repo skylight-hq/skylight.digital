@@ -19,19 +19,19 @@
   <div class="{{prefix}}s {{hanging_col_size_css_class}}">
     {% for item in collection | limit: limit %}
       <article class="{{prefix}}">
-        <a href="{{item.permalink}}">
-          <div class="{{prefix}}-card">
-            <img class="{{prefix}}-img" src="{{item.image}}" alt="{{item.image_description}}">
-            <div class="{{prefix}}-block">
-              <h3 class="{{prefix}}-title {{context}}">{{item.title}}</h3>
-              <p class="{{prefix}}-text">{{item.excerpt}}</p>
-            </div>
-            <div class="{{prefix}}-footer">
+        <div class="{{prefix}}-card card-link" data-href="{{item.permalink}}">
+          <img class="{{prefix}}-img" src="{{item.image}}" alt="{{item.image_description}}">
+          <div class="{{prefix}}-block">
+            <h3 class="{{prefix}}-title {{context}}">{{item.title}}</h3>
+            <p class="{{prefix}}-text">{{item.excerpt}}</p>
+          </div>
+          <div class="{{prefix}}-footer">
+            <a href="{{item.permalink}}">
               <span>{{cta_text}}</span>
               <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
-            </div>
+            </a>
           </div>
-        </a>
+        </div>
       </article>
     {% endfor %}
   </div>
