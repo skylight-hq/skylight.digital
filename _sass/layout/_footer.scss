@@ -72,10 +72,6 @@
   a:not(:last-child) {
     padding-right: 25px;
   }
-
-  span {
-    @extend .sr-only;
-  }
 }
 
 @include media-breakpoint-down(md) {

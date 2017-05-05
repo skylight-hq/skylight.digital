@@ -10,6 +10,10 @@ header[role="banner"] {
 .navbar-brand-toggler-wrapper {
   @extend .d-flex;
   @extend .justify-content-between;
+
+  h1 {
+    @extend .mb-0;
+  }
 }
 
 .nav-brand {
@@ -46,19 +50,27 @@ header[role="banner"] {
   @extend .collapse;
   @extend .navbar-collapse;
   @extend .justify-content-end;
+
+  &.collapse.show {
+    @extend .mt-3;
+  }
 }
 
 .navbar-nav {
-  a {
+  li {
     @extend .nav-item;
-    @extend .nav-link;
-    @extend %nav-link-decoration;
     @extend .px-3;
     @extend .px-md-down-2;
 
     &:last-child {
       @extend .pr-0;
     }
+  }
+
+  a {
+    @extend .nav-link;
+    @extend %nav-link-decoration;
+    @extend .px-0;
 
     &:hover,
     &:focus,

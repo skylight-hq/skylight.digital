@@ -1,7 +1,31 @@
-// Logo transformation
+// Logo click handler
 $(function() {
   $('.nav-brand').click(function() {
     $(this).css('transform', 'scale(0.95)')
+  })
+})
+
+// Activate current main nav item
+$(function() {
+  var $anchorToDeactivate = $('#main-nav a[aria-current]')
+  $anchorToDeactivate.removeAttr('aria-current')
+
+  var pathArray = location.pathname.split('/')
+  var firstLevelPath = pathArray[1]
+  var $anchorToActivate = $('#main-nav a[href*="' + firstLevelPath + '"]').closest('a')
+  $anchorToActivate.attr('aria-current', 'page')
+})
+
+// Onclick window location handler
+$(function() {
+  $('.card-link').on('click', function(e) {
+    var url = $(this).data().href
+
+    if (e.shiftKey || e.ctrlKey || e.metaKey) {
+      window.open(url, '_blank')
+    } else {
+      window.location = url
+    }
   })
 })
 
@@ -17,18 +41,6 @@ $(function() {
     $('#' + targetId).modal('show')
   })
 })
-
-// Activate current main nav item
-$(function() {
-  var $anchorToDeactivate = $('#main-nav a[aria-current]')
-  $anchorToDeactivate.removeAttr('aria-current')
-
-  var pathArray = location.pathname.split('/')
-  var firstLevelPath = pathArray[1]
-  var $anchorToActivate = $('#main-nav a[href*="' + firstLevelPath + '"]').closest('a')
-  $anchorToActivate.attr('aria-current', 'page')
-})
-
 
 // Join page navigation behavior
 function swapJoinContent(hash) {
@@ -147,9 +159,9 @@ $(function() {
 			document.documentElement.classList.add(curRootClass)
 		}
 
-		isTouchTimer = setTimeout(function() {
+		isTouchTimer = setTimeout(function() { // maintain "istouch" state for 1000ms so removetouchclass doesn't get fired immediately following a touch event
       isTouch = false
-    }, 1000) // maintain "istouch" state for 1000ms so removetouchclass doesn't get fired immediately following a touch event
+    }, 1000)
 	}
 
 	function removetouchclass() {
