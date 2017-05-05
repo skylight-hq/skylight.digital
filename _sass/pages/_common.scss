@@ -87,11 +87,11 @@
     @extend .mb-5;
     @extend .mb-md-6;
   }
-}
 
-.page-block.extra-space {
-  @extend .mb-6;
-  @extend .mb-md-7;
+  &.extra-space {
+    @extend .mb-6;
+    @extend .mb-md-7;
+  }
 }
 
 .image-block {
@@ -134,8 +134,8 @@
 
   h2 {
     @extend .mb-3;
-    font-size: $font-size-xx-large;
     color: $brand-primary;
+    font-size: $font-size-xx-large;
 
     &:not(:first-child) {
       @extend .mt-5;
@@ -157,16 +157,14 @@
   @extend %text-heavy-col-base;
   @extend %narrative-base;
 
-  h2, p, ul {
+  h2,
+  p,
+  ul {
     @extend .text-left;
   }
 
   h2 {
     @extend .font-weight-bold;
-  }
-
-  a.btn-page {
-    @extend %btn-page;
   }
 }
 

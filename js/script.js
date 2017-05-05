@@ -1,18 +1,18 @@
 // Logo click handler
 $(function() {
-  $('.nav-brand').click(function() {
+  $('.navbar-brand-toggler-wrapper a').click(function() {
     $(this).css('transform', 'scale(0.95)')
   })
 })
 
 // Activate current main nav item
 $(function() {
-  var $anchorToDeactivate = $('#main-nav a[aria-current]')
+  var $anchorToDeactivate = $('#navbar-nav-collapsible a[aria-current]')
   $anchorToDeactivate.removeAttr('aria-current')
 
   var pathArray = location.pathname.split('/')
   var firstLevelPath = pathArray[1]
-  var $anchorToActivate = $('#main-nav a[href*="' + firstLevelPath + '"]').closest('a')
+  var $anchorToActivate = $('#navbar-nav-collapsible a[href*="' + firstLevelPath + '"]').closest('a')
   $anchorToActivate.attr('aria-current', 'page')
 })
 

@@ -1,10 +1,7 @@
-header[role="banner"] {
-  nav {
-    @extend .navbar;
-    @extend .navbar-toggleable-sm;
-    @extend .py-3;
-    font-size: $font-size-small;
-  }
+.navbar {
+  @extend .navbar-toggleable-sm;
+  @extend .py-3;
+  font-size: $font-size-small;
 }
 
 .navbar-brand-toggler-wrapper {
@@ -14,10 +11,10 @@ header[role="banner"] {
   h1 {
     @extend .mb-0;
   }
-}
 
-.nav-brand {
-  @include logo;
+  a {
+    @include logo;
+  }
 }
 
 .navbar-toggler {
@@ -46,7 +43,7 @@ header[role="banner"] {
   }
 }
 
-#main-nav {
+.navbar-nav-collapsible {
   @extend .collapse;
   @extend .navbar-collapse;
   @extend .justify-content-end;
@@ -76,8 +73,8 @@ header[role="banner"] {
     &:focus,
     &[aria-current] {
       span {
-        padding-bottom: 3px;
         border-bottom: 5px solid $nav-link-border-color;
+        padding-bottom: 3px;
       }
     }
   }

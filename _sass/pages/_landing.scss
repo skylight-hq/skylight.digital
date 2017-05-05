@@ -6,7 +6,7 @@
   @extend .jumbotron;
   @extend .jumbotron-fluid;
   @extend .mb-0;
-  background-image: linear-gradient(rgba(0,0,5,0.75), rgba(0,0,5,0.75)), url("../img/buzzword-stickies.jpg");
+  background-image: linear-gradient(rgba(0, 0, 5, .75), rgba(0, 0, 5, .75)), url('../img/buzzword-stickies.jpg');
   background-size: cover;
 }
 
@@ -16,8 +16,8 @@
   @extend .mb-md-7;
   @extend .py-4;
   @extend .py-md-5;
+  background: radial-gradient(rgba(0, 0, 5, .5) 40%, rgba(0, 0, 5, 0) 70%);
   color: $jumbotron-color;
-  background: radial-gradient(rgba(0,0,5,0.5) 40%, rgba(0,0,5,0) 70%);
 
   h1 {
     color: $white;

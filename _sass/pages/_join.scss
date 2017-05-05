@@ -3,7 +3,7 @@
   @extend .mt-6;
 }
 
-.subnav  {
+.subnav {
   @extend .col-11;
   @extend .col-md-4;
   @extend .mx-auto;
@@ -23,8 +23,8 @@
       @extend .mb-2;
     }
 
-    padding-left: 0.5rem;
     border-left: 7px solid $white;
+    padding-left: .5rem;
 
     &:hover,
     &:focus,
@@ -36,7 +36,7 @@
   a {
     @extend .nav-link;
     @extend %nav-link-decoration;
-    padding: 0;
+    @extend .p-0;
     border-bottom: 1px solid $white;
 
     &:hover {
@@ -57,8 +57,8 @@
   }
 
   h2 {
-    font-size: $font-size-xx-large;
     color: $brand-primary;
+    font-size: $font-size-xx-large;
 
     &:not(:first-child) {
       @extend .mt-4;

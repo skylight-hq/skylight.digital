@@ -18,8 +18,8 @@
   @extend .card;
   @extend .no-border;
   @extend .text-center;
-  height: 100%;
   cursor: pointer;
+  height: 100%;
 }
 
 .service-area-img {
@@ -29,14 +29,14 @@
 
 .service-area-block {
   @extend .card-block;
-  padding: 2rem 1.25rem 1.25rem 1.25rem;
+  padding: 2rem 1.25rem 1.25rem;
 
   h3 {
     @extend .card-title;
     @extend .text-uppercase;
     @extend .font-weight-normal;
-    font-size: $font-size-small;
     color: $brand-primary;
+    font-size: $font-size-small;
   }
 
   p {
@@ -66,11 +66,13 @@
   }
 }
 
-.capabilities, .industry-info-list {
+.capabilities,
+.industry-info-list {
   @extend .row;
 }
 
-.capability-group, .industry-info-item {
+.capability-group,
+.industry-info-item {
   @extend .col-md-6;
   @extend .col-lg-4;
   @extend .mt-4;
@@ -101,9 +103,9 @@
   p {
     @extend .mb-0;
     font-size: $font-size-small;
-  }
 
-  p + p {
-    @extend .mt-3;
+    & + p {
+      @extend .mt-3;
+    }
   }
 }

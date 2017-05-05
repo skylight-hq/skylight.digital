@@ -37,29 +37,28 @@
 }
 
 .footer-nav {
+  font-size: $font-size-xx-small;
+  font-weight: 100;
+
   a {
     @include link-decoration($footer-nav-link-color, $footer-nav-link-hover-color,
       $footer-nav-link-border, $footer-nav-link-border-hover);
   }
 
-  font-size: $font-size-xx-small;
-  font-weight: 100;
-
   ul {
     @extend .list-inline;
     @extend .m-0;
+
+    li {
+      @extend .list-inline-item;
+    }
   }
 
-  ul li {
-    @extend .list-inline-item;
-  }
-
-  li+li:before
-  {
+  li+li::before {
+    @extend .d-inline-block;
+    color: $footer-nav-link-divider-color;
   	content: '/';
-  	color: $footer-nav-link-divider-color;
-  	display: inline-block;
-  	margin: 0 5px;
+    margin: 0 5px;
   }
 }
 
@@ -92,8 +91,7 @@
   .footer-nav {
     font-size: $font-size-small;
 
-    li+li::before
-    {
+    li+li::before {
       margin: 0 10px;
     }
   }

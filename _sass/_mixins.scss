@@ -3,8 +3,8 @@
   display: block;
   background: url(/img/logo.png) no-repeat;
   background: url(/img/logo.svg) no-repeat;
-  width: $width;
   height: $height;
+  width: $width;
   background-size: contain;
   text-indent: -9999px;
   white-space: nowrap;
@@ -60,8 +60,8 @@
 @mixin link-active-decoration($hover-color, $border-hover) {
   &:hover,
   &:focus {
-    color: $hover-color;
     border-bottom: $border-hover;
+    color: $hover-color;
   }
 }
 
@@ -80,9 +80,9 @@
   @include box-shadow($btn-box-shadow);
 
   @include hover {
-    color: $background;
     background-color: $active-color;
     border-color: $active-color;
+    color: $background;
   }
 
   &:focus {
@@ -94,9 +94,9 @@
   }
 
   &:active {
-    color: $background;
     background-color: $active-color;
     border-color: $active-color;
+    color: $background;
   }
 }
 

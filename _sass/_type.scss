@@ -75,7 +75,8 @@ h1 {
 }
 
 %list-base {
-  ol, ul {
+  ol,
+  ul {
     li:not(:last-child) {
       @extend .pb-2;
     }
@@ -85,7 +86,8 @@ h1 {
 %list-inside {
   @extend %list-base;
 
-  ol, ul {
+  ol,
+  ul {
     @extend .pl-0;
 
     li {

@@ -5,8 +5,8 @@
 .mb-7 { @include mb-7; }
 
 .px-6 {
-  padding-right: 4rem !important;
   padding-left: 4rem !important;
+  padding-right: 4rem !important;
 }
 
 @include media-breakpoint-down(sm) {
@@ -17,8 +17,8 @@
 
 @include media-breakpoint-down(md) {
   .px-md-down-2 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
   }
 }
 

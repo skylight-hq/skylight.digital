@@ -1,15 +1,13 @@
 form {
-  label.required {
-    &::after {
-      content: "*";
-      @extend .pl-1;
-    }
-  }
-
   label {
     @extend .font-weight-bold;
     color: $control-label-color;
     font-size: $control-label-font-size;
+  }
+
+  .required::after {
+    @extend .pl-1;
+    content: '*';
   }
 
   legend {
@@ -17,7 +15,7 @@ form {
     @extend .mb-4;
   }
 
-  button[type="submit"] {
+  button[type='submit'] {
     @extend %btn-base;
     @extend .py-2;
     @extend .px-6;

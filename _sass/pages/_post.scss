@@ -11,8 +11,8 @@
 }
 
 %post-header-footer-font-base {
-  font-size: $font-size-small;
   color: $post-header-footer-color;
+  font-size: $font-size-small;
 }
 
 .post-header {
@@ -97,7 +97,8 @@
   @extend %list-base;
   @extend %list-inside;
 
-  h3, ul {
+  h3,
+  ul {
     @extend %post-header-footer-font-base;
   }
 
