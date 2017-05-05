@@ -25,8 +25,8 @@
 %page-cta-content-base {
   @extend .col;
   @extend .mx-auto;
-  line-height: 1.75;
   font-weight: 100;
+  line-height: 1.75;
 }
 
 .page-cta-content {
@@ -80,18 +80,18 @@
 
   &::before {
     @extend .align-middle;
-    content: "\201C";
-    opacity: .5;
+    content: '\201C';
     font-size: $font-size-xxx-large;
-    line-height: 0.1;
+    line-height: .1;
+    opacity: .5;
   }
 
   &::after {
     @extend .align-middle;
-    content: "\201D";
-    opacity: .5;
+    content: '\201D';
     font-size: $font-size-xxx-large;
-    line-height: 0.1;
+    line-height: .1;
+    opacity: .5;
   }
 
   @include media-breakpoint-up(md) {
@@ -109,9 +109,9 @@
 
 .testimonial-cite {
   font-size: $font-size-xx-small;
-  line-height: 1.5;
   font-style: normal;
   font-weight: 100;
+  line-height: 1.5;
 
   @include media-breakpoint-up(md) {
     font-size: $font-size-lg;
@@ -125,5 +125,5 @@
 }
 
 .testimonial-author::before {
-  content: "— ";
+  content: '— ';
 }

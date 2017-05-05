@@ -12,7 +12,8 @@
   @extend .p-2;
   border: 1px dotted $gray-lightest;
 
-  h3, ul {
+  h3,
+  ul {
     font-size: $font-size-xx-small;
   }
 
@@ -84,19 +85,19 @@
       position: relative;
 
       &::before {
-        content: '\f06e';
-        z-index: 5;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding: 0 10px 0 10px;
-        color: $white;
-        font-family: 'FontAwesome';
-        font-size: 30px;
-        background-color: rgba($flush-mahogany, 0.5);
         @extend .rounded;
         @include transition($btn-transition);
+        background-color: rgba($flush-mahogany, 0.5);
+        color: $white;
+        content: '\f06e';
+        font-family: 'FontAwesome';
+        font-size: 30px;
+        left: 50%;
+        padding: 0 10px;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
       }
 
       &:hover {
@@ -123,7 +124,7 @@
   .modal-header {
     @extend .pb-0;
     @extend .justify-content-end;
-    border-bottom: none;
+    border-bottom: 0;
 
     h3 {
       color: $modal-header-color;
@@ -141,16 +142,14 @@
   }
 }
 
-.profile {
-  .profile-img {
-    @extend .rounded-circle;
-    @extend .m-0;
-    @extend .mr-2;
-    height: 2rem;
-  }
+.profile .profile-img {
+  @extend .rounded-circle;
+  @extend .m-0;
+  @extend .mr-2;
+  height: 2rem;
 }
 
-a.profile-link {
+.profile-link {
   @include link-decoration($project-aside-link-color, $project-aside-link-hover-color, none, none);
 
   span {
@@ -176,7 +175,8 @@ a.profile-link {
     }
   }
 
-  .btn-page {
+  a {
+    @extend %btn-page;
     min-width: 185px;
   }
 }

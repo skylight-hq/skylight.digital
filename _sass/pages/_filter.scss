@@ -26,8 +26,8 @@
 
 .filter-image {
   @extend .rounded-circle;
-  height: 3rem;
   box-shadow: 0 0 0 2px $white, 0 0 0 3px $gray-lightest;
+  height: 3rem;
   margin-left: 3px;
 }
 
@@ -56,8 +56,8 @@
 
 @include media-breakpoint-up(md) {
   .filter-image {
-    height: 4rem;
     box-shadow: 0 0 0 6px $white, 0 0 0 7px $gray-lightest;
+    height: 4rem;
     margin-left: 7px;
   }
 
@@ -84,7 +84,7 @@
   border-bottom: 1px solid $gray-lightest;
 }
 
-a.filter-item-link {
+.filter-item-link {
   @include link-decoration($filter-item-link-color, $filter-item-link-hover-color,
     $filter-item-link-border, $filter-item-link-border-hover);
 }

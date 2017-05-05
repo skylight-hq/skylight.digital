@@ -6,5 +6,5 @@
   @extend .row;
 }
 
-@include semantic-card("blog-post");
-@include multi-col-spacing("blog-post", $mb-size: 4, $mb-md-size: 5);
+@include semantic-card('blog-post');
+@include multi-col-spacing('blog-post', $mb-size: 4, $mb-md-size: 5);
