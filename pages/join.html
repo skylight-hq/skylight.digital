@@ -8,16 +8,18 @@ permalink: /join/
 
   <div class="row">
 
-    <aside class="subnav" role="navigation">
-      <ul role="presentation">
-        <li class="current"><a href="/join/#application" aria-current="location">Apply now</a></li>
-        <li><a href="/join/#who">Who we're hiring</a></li>
-        <li><a href="/join/#openings">Open positions</a></li>
-        <li><a href="/join/#interviewing">Interview process</a></li>
-        <li><a href="/join/#benefits">Pay &amp; benefits</a></li>
-        <li><a href="/join/#relocation">Relocation</a></li>
-        <li><a href="/join/#internships">Internships</a></li>
-      </ul>
+    <aside class="subnav">
+      <nav>
+        <ul role="presentation">
+          <li class="current"><a href="/join/#application" aria-current="location">Apply now</a></li>
+          <li><a href="/join/#who">Who we're hiring</a></li>
+          <li><a href="/join/#openings">Open positions</a></li>
+          <li><a href="/join/#interviewing">Interview process</a></li>
+          <li><a href="/join/#benefits">Pay &amp; benefits</a></li>
+          <li><a href="/join/#relocation">Relocation</a></li>
+          <li><a href="/join/#internships">Internships</a></li>
+        </ul>
+      </nav>
     </aside>
 
     <section class="join-content">
@@ -71,7 +73,7 @@ permalink: /join/
             <div class="form-group">
               <label class="required" for="experience-select">What is your primary field of expertise?</label>
               <select id="experience-select" class="form-control" required>
-                <option>-select-</option>
+                <option disabled="" selected="">-select-</option>
                 <option>Software engineering</option>
                 <option>Frontend web development</option>
                 <option>Legacy software reengineering</option>
@@ -169,7 +171,7 @@ permalink: /join/
             <div class="form-group">
               <label for="authorization-select" aria-describedby="authorization-help">Are you authorized to work in the U.S.?</label>
               <select id="authorization-select" class="form-control">
-                <option>-select-</option>
+                <option disabled="" selected="">-select-</option>
                 <option>Yes, I’m a U.S. citizen.</option>
                 <option>Yes, I’m authorized to work in the U.S., though I’m not a citizen.</option>
                 <option>No.</option>
@@ -183,7 +185,7 @@ permalink: /join/
             <div class="form-group">
               <label for="hear-select">How did you hear about Skylight?</label>
               <select id="hear-select" class="form-control">
-                <option>-select-</option>
+                <option disabled="" selected="">-select-</option>
                 <option>A current/former Skylight team member</option>
                 <option>An article, video, or blog post</option>
                 <option>Twitter</option>
@@ -195,7 +197,7 @@ permalink: /join/
           </fieldset>
 
           <div class="form-group">
-            <button type="submit" role="button">Submit</button>
+            <button type="submit">Submit</button>
           </div>
         </form>
       </div>
