@@ -97,11 +97,11 @@
   @extend %list-base;
   @extend %list-inside;
 
-  h4, ul {
+  h3, ul {
     @extend %post-header-footer-font-base;
   }
 
-  h4 {
+  h3 {
     @extend .text-uppercase;
     @extend .mb-3;
   }
