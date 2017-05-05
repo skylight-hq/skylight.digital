@@ -57,7 +57,7 @@
   li+li::before {
     @extend .d-inline-block;
     color: $footer-nav-link-divider-color;
-  	content: '/';
+    content: '/';
     margin: 0 5px;
   }
 }

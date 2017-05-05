@@ -24,10 +24,10 @@
 .value-card {
   @extend .card;
   @extend .text-left;
-  height: 100%;
   border: 0;
-  border-radius: 0;
   border-left: 14px solid $brand-primary;
+  border-radius: 0;
+  height: 100%;
 }
 
 .value-block {
