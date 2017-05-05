@@ -87,7 +87,7 @@
       &::before {
         @extend .rounded;
         @include transition($btn-transition);
-        background-color: rgba($flush-mahogany, 0.5);
+        background-color: rgba($flush-mahogany, .5);
         color: $white;
         content: '\f06e';
         font-family: 'FontAwesome';

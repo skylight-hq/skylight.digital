@@ -6,5 +6,5 @@
   @extend .row;
 }
 
-@include semantic-card("project");
-@include multi-col-spacing("project", $mb-size: 4, $mb-md-size: 5);
+@include semantic-card('project');
+@include multi-col-spacing('project', $mb-size: 4, $mb-md-size: 5);

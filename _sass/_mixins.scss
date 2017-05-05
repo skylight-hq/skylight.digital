@@ -17,8 +17,8 @@
   }
 
   @include media-breakpoint-down(sm) {
-    width: $nav-brand-width-sm-down;
     height: $nav-brand-height-sm-down;
+    width: $nav-brand-width-sm-down;
   }
 }
 
