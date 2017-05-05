@@ -22,6 +22,7 @@ form {
     @extend .py-2;
     @extend .px-6;
     @include button-outline-variant($btn-form-color, $btn-form-bg);
+    cursor: pointer;
   }
 
   .form-text {
