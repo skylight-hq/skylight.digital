@@ -2,6 +2,6 @@
   @extend %page-main-base;
 }
 
-.policy-content {
-  @extend .narrative;
+.policy-content-col {
+  @extend %narrative;
 }

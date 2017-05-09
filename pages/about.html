@@ -30,7 +30,7 @@ permalink: /about/
             originates from Washington DC.
           </p>
 
-          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="" />
+          <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="">
 
           <p>
             We're impact junkies who are driven to create better outcomes for the public through
@@ -89,10 +89,10 @@ permalink: /about/
           col_size = 3
         %}
 
-        <div class="employees {{hanging_col_size_css_class}}">
+        <div class="employees-row {{hanging_col_size_css_class}}">
           {% for emp in employees %}
             {% if emp.active %}
-              <div id="{{emp.name}}" class="employee">
+              <div id="{{emp.name}}" class="employee-col">
                 <div class="employee-card">
                   <img class="employee-img" src="{{emp.image}}" alt="{{emp.image_description}}">
                   <div class="employee-block">

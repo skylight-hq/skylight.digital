@@ -2,110 +2,110 @@
   @extend %page-main-base;
 }
 
-.service-areas {
-  @extend .row;
+.service-areas-row {
+  @extend %row;
 }
 
-.service-area {
-  @extend .col-md-4;
+.service-area-col {
+  @extend %col-md-4;
 
   &:not(:last-child) {
-    @extend .mb-sm-down-5;
+    @extend %mb-sm-down-5;
   }
 }
 
 .service-area-card {
-  @extend .card;
-  @extend .no-border;
-  @extend .text-center;
+  @extend %card;
+  @extend %no-border;
+  @extend %text-center;
   cursor: pointer;
   height: 100%;
 }
 
 .service-area-img {
-  @extend .card-img-top;
-  @extend .img-fluid;
+  @extend %card-img-top;
+  @extend %img-fluid;
 }
 
 .service-area-block {
-  @extend .card-block;
+  @extend %card-block;
   padding: 2rem 1.25rem 1.25rem;
 
   h3 {
-    @extend .card-title;
-    @extend .text-uppercase;
-    @extend .font-weight-normal;
+    @extend %card-title;
+    @extend %text-uppercase;
+    @extend %font-weight-normal;
     color: $brand-primary;
     font-size: $font-size-small;
   }
 
   p {
-    @extend .card-text;
-    @extend .font-weight-bold;
+    @extend %card-text;
+    @extend %font-weight-bold;
     color: $body-color;
   }
 }
 
 .service-area-footer {
-  @extend .card-footer;
-  @extend .no-border;
+  @extend %card-footer;
+  @extend %no-border;
   padding: 0 1.25rem;
 }
 
-.minor-service-areas {
-  @extend .row;
-  @extend .mt-5;
+.minor-service-areas-row {
+  @extend %row;
+  @extend %mt-5;
 }
 
-.minor-service-area {
-  @extend .col;
+.minor-service-area-col {
+  @extend %col;
 
   p {
-    @extend .text;
-    @extend .m-0;
+    @extend %text;
+    @extend %m-0;
   }
 }
 
-.capabilities,
-.industry-info-list {
-  @extend .row;
+.capabilities-row,
+.industry-info-list-row {
+  @extend %row;
 }
 
-.capability-group,
-.industry-info-item {
-  @extend .col-md-6;
-  @extend .col-lg-4;
-  @extend .mt-4;
+.capability-group-col,
+.industry-info-item-col {
+  @extend %col-md-6;
+  @extend %col-lg-4;
+  @extend %mt-4;
 
   div {
-    @extend .mx-auto;
-    @extend .mb-4;
+    @extend %mx-auto;
+    @extend %mb-4;
     border-top: 1px solid $gray-lightest;
     width: 75%;
   }
 
   h3 {
-    @extend .mb-3;
-    @extend .text-uppercase;
+    @extend %mb-3;
+    @extend %text-uppercase;
     font-size: $font-size-small;
   }
 }
 
-.capability-group {
+.capability-group-col {
   ul {
-    @extend .list-unstyled;
+    @extend %list-unstyled;
     font-size: $font-size-small;
     line-height: 1.75;
   }
 }
 
-.industry-info-item {
+.industry-info-item-col {
   p {
-    @extend .mb-0;
+    @extend %mb-0;
     font-size: $font-size-small;
 
     + p {
-      @extend .mt-3;
+      @extend %mt-3;
     }
   }
 }

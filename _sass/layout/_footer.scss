@@ -1,42 +1,35 @@
-.page-footer {
-  @extend .py-4;
-  @extend .py-md-5;
+.global-footer {
+  @extend %py-4;
+  @extend %py-md-5;
 }
 
 .footer-content {
-  @extend .container;
+  @extend %container;
 }
 
-.footer-brand-outer-wrapper,
-.footer-contribute-cta-wrapper {
-  @extend .row;
+.footer-row {
+  @extend %row;
 }
 
-.footer-brand-inner-wrapper,
-.footer-contribute-cta {
-  @extend .col-md-3;
+%footer-col-left-base {
+  @extend %col-md-3;
 }
 
-.footer-brand-inner-wrapper {
+%footer-col-right-base {
+  @extend %col-md-9;
+  @extend %text-md-right;
+}
+
+.footer-brand-col {
+  @extend %footer-col-left-base;
+
   a {
     @include logo($height: 40px);
   }
 }
 
-.footer-contribute-cta a {
-  @extend %btn-base;
-  @extend .btn-sm;
-  @include button-outline-variant-2($btn-footer-color, $btn-footer-bg,
-    $btn-footer-border, $btn-footer-active-color);
-}
-
-.footer-nav,
-.footer-socials {
-  @extend .col-md-9;
-  @extend .text-md-right;
-}
-
-.footer-nav {
+.footer-nav-col {
+  @extend %footer-col-right-base;
   font-size: $font-size-xx-small;
   font-weight: 100;
 
@@ -46,53 +39,66 @@
   }
 
   ul {
-    @extend .list-inline;
-    @extend .m-0;
+    @extend %list-inline;
+    @extend %m-0;
 
     li {
-      @extend .list-inline-item;
+      @extend %list-inline-item;
     }
   }
 
   li+li::before {
-    @extend .d-inline-block;
+    @extend %d-inline-block;
     color: $footer-nav-link-divider-color;
     content: '/';
     margin: 0 5px;
   }
-}
 
-.footer-socials {
-  a {
-    @include link-decoration($footer-socials-link-color, $footer-socials-link-hover-color,
-      $footer-socials-link-border, $footer-socials-link-border-hover);
-  }
-
-  a:not(:last-child) {
-    padding-right: 25px;
-  }
-}
-
-@include media-breakpoint-down(md) {
-  .footer-content > div.row > * {
-    @include mb-3;
-  }
-
-  .footer-content > div:last-child > div:last-child {
-    @include mb-0;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .footer-content > div.row:first-child {
-    @include mb-4;
-  }
-
-  .footer-nav {
+  @include media-breakpoint-up(md) {
     font-size: $font-size-small;
 
     li+li::before {
       margin: 0 10px;
     }
+  }
+}
+
+.footer-contribute-cta-col {
+  @extend %footer-col-left-base;
+
+  a {
+    @extend %btn-base;
+    @extend %btn-sm;
+    @include button-outline-variant-2($btn-footer-color, $btn-footer-bg,
+      $btn-footer-border, $btn-footer-active-color);
+  }
+}
+
+.footer-socials-col {
+  @extend %footer-col-right-base;
+
+  a {
+    @include link-decoration($footer-socials-link-color, $footer-socials-link-hover-color,
+      $footer-socials-link-border, $footer-socials-link-border-hover);
+
+    &:not(:last-child) {
+      padding-right: 25px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .footer-row > * {
+    @include mb-3;
+  }
+
+  .footer-socials-col {
+    @include mb-0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .footer-row:first-child {
+    @include mb-4;
   }
 }

@@ -1,28 +1,24 @@
-<footer class="page-cta">
-
+<footer class="page-subfooter">
   <div class="container">
-
-    <div class="page-cta-hdr-wrapper ">
-      <div class="page-cta-hdr">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
         <h3 class="header-display-3">{{include.header}}</h3>
       </div>
     </div>
 
-    <div class="page-cta-content-wrapper">
+    <div class="page-subfooter-content-row">
       <div class="{{include.content_css_class}}">
         <p>{{include.content}}</p>
       </div>
     </div>
 
-    <div class="page-cta-btn-wrapper">
-      <div class="page-cta-btn">
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
         <a href="{{include.cta_path}}" role="button">
           <span>{{include.cta}}</span>
           <i class="{{include.icon_css_class}}" aria-hidden="true"></i>
         </a>
       </div>
     </div>
-
   </div>
-
 </footer>

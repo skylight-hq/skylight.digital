@@ -1,85 +1,85 @@
-.page-cta {
-  @extend .text-center;
-  @extend .mt-5;
-  @extend .mt-md-6;
-  @extend .py-4;
-  @extend .py-md-5;
+.page-subfooter {
+  @extend %text-center;
+  @extend %mt-5;
+  @extend %mt-md-6;
+  @extend %py-4;
+  @extend %py-md-5;
   background-color: $page-cta-bg-color;
   color: $page-cta-color;
 }
 
-.page-cta-hdr-wrapper {
-  @extend .row;
-  @extend .mb-3;
+.page-subfooter-header-row {
+  @extend %row;
+  @extend %mb-3;
 }
 
-.page-cta-hdr {
-  @extend .col;
+.page-subfooter-header-col {
+  @extend %col;
 }
 
-.page-cta-content-wrapper {
-  @extend .row;
-  @extend .mb-4;
+.page-subfooter-content-row {
+  @extend %row;
+  @extend %mb-4;
 }
 
-%page-cta-content-base {
-  @extend .col;
-  @extend .mx-auto;
+%page-subfooter-content-col-base {
+  @extend %col;
+  @extend %mx-auto;
   font-weight: 100;
   line-height: 1.75;
 }
 
-.page-cta-content {
-  @extend %page-cta-content-base;
-  @extend .col-md-9;
-  @extend .col-lg-7;
+.page-subfooter-content-col {
+  @extend %page-subfooter-content-col-base;
+  @extend %col-md-9;
+  @extend %col-lg-7;
 }
 
-.page-cta-content-narrow {
-  @extend %page-cta-content-base;
-  @extend .col-md-7;
-  @extend .col-lg-5;
+.page-subfooter-content-col-narrow {
+  @extend %page-subfooter-content-col-base;
+  @extend %col-md-7;
+  @extend %col-lg-5;
 }
 
-.page-cta-btn-wrapper {
-  @extend .row;
+.page-subfooter-cta-row {
+  @extend %row;
 }
 
-.page-cta-btn {
-  @extend .col;
+.page-subfooter-cta-col {
+  @extend %col;
 
   a {
     @extend %btn-base;
     @extend %btn-icon-right;
-    @extend .btn-lg;
-    @extend .text-uppercase;
+    @extend %btn-lg;
+    @extend %text-uppercase;
     @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
   }
 }
 
 // Testimonial CTA
-.testimonial-wrapper {
-  @extend .row;
+.testimonial-row {
+  @extend %row;
 }
 
-.testimonial {
-  @extend .col-md;
-  @extend .col-lg-9;
-  @extend .mx-auto;
+.testimonial-col {
+  @extend %col-md;
+  @extend %col-lg-9;
+  @extend %mx-auto;
 
   blockquote {
-    @extend .m-0;
+    @extend %m-0;
   }
 }
 
 .testimonial-quote {
-  @extend .font-italic;
-  @extend .mb-4;
+  @extend %font-italic;
+  @extend %mb-4;
   font-size: $font-size-x-large;
   line-height: 1.25;
 
   &::before {
-    @extend .align-middle;
+    @extend %align-middle;
     content: '\201C';
     font-size: $font-size-xxx-large;
     line-height: .1;
@@ -87,7 +87,7 @@
   }
 
   &::after {
-    @extend .align-middle;
+    @extend %align-middle;
     content: '\201D';
     font-size: $font-size-xxx-large;
     line-height: .1;
@@ -121,7 +121,7 @@
 .testimonial-author,
 .testimonial-position,
 .testimonial-org {
-  display: block;
+  @extend %d-block;
 }
 
 .testimonial-author::before {

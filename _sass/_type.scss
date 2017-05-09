@@ -78,7 +78,7 @@ h1 {
   ol,
   ul {
     li:not(:last-child) {
-      @extend .pb-2;
+      @extend %pb-2;
     }
   }
 }
@@ -88,7 +88,7 @@ h1 {
 
   ol,
   ul {
-    @extend .pl-0;
+    @extend %pl-0;
 
     li {
       list-style-position: inside;

@@ -1,6 +1,6 @@
 %table-borderless {
   .table td,
   .table th {
-    border: none !important;
+    @extend %no-border;
   }
 }

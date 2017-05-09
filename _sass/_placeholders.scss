@@ -1,0 +1,136 @@
+// Placeholder wrappers for Bootstrap classes
+%container { @extend .container; }
+%row { @extend .row; }
+%col { @extend .col; }
+%col-11 { @extend .col-11; }
+%col-sm-4 { @extend .col-sm-4; }
+%col-sm-6 { @extend .col-sm-6; }
+%col-sm-10 { @extend .col-sm-10; }
+%col-sm-11 { @extend .col-sm-11; }
+%col-md { @extend .col-md; }
+%col-md-3 { @extend .col-md-3; }
+%col-md-4 { @extend .col-md-4; }
+%col-md-6 { @extend .col-md-6; }
+%col-md-7 { @extend .col-md-7; }
+%col-md-8 { @extend .col-md-8; }
+%col-md-9 { @extend .col-md-9; }
+%col-lg-4 { @extend .col-lg-4; }
+%col-lg-5 { @extend .col-lg-5; }
+%col-lg-7 { @extend .col-lg-7; }
+%col-lg-8 { @extend .col-lg-8; }
+%col-lg-9 { @extend .col-lg-9; }
+
+%d-flex { @extend .d-flex; }
+%justify-content-start { @extend .justify-content-start; }
+%justify-content-between { @extend .justify-content-between; }
+%justify-content-end { @extend .justify-content-end; }
+%align-self-center { @extend .align-self-center; }
+%flex-column { @extend .flex-column; }
+
+%mt-3 { @extend .mt-3; }
+%mt-4 { @extend .mt-4; }
+%mt-5 { @extend .mt-5; }
+%mt-0 { @extend .mt-0; }
+%mt-1 { @extend .mt-1; }
+%mt-2 { @extend .mt-2; }
+%mt-sm-5 { @extend .mt-sm-5; }
+%mt-md-4 { @extend .mt-md-4; }
+%mt-md-5 { @extend .mt-md-5; }
+%mr-2 { @extend .mr-2; }
+%mr-sm-2 { @extend .mr-sm-2; }
+%mr-sm-5 { @extend .mr-sm-5; }
+%mb-0 { @extend .mb-0; }
+%mb-2 { @extend .mb-2; }
+%mb-3 { @extend .mb-3; }
+%mb-4 { @extend .mb-4; }
+%mb-5 { @extend .mb-5; }
+%mb-sm-0 { @extend .mb-sm-0; }
+%mb-md-0 { @extend .mb-md-0; }
+%mb-md-4 { @extend .mb-md-4; }
+%mb-md-5 { @extend .mb-md-5; }
+%ml-2 { @extend .ml-2; }
+%m-0 { @extend .m-0; }
+%mx-0 { @extend .mx-0; }
+%my-3 { @extend .my-3; }
+
+%pt-2 { @extend .pt-2; }
+%pt-4 { @extend .pt-4; }
+%pr-0 { @extend .pr-0; }
+%pb-0 { @extend .pb-0; }
+%pb-2 { @extend .pb-2; }
+%pb-3 { @extend .pb-3; }
+%pb-4 { @extend .pb-4; }
+%pl-0 { @extend .pl-0; }
+%pl-1 { @extend .pl-1; }
+%p-0 { @extend .p-0; }
+%p-2 { @extend .p-2; }
+%px-0 { @extend .px-0; }
+%px-3 { @extend .px-3; }
+%py-2 { @extend .py-2; }
+%py-3 { @extend .py-3; }
+%py-4 { @extend .py-4; }
+%py-md-5 { @extend .py-md-5; }
+
+%jumbotron { @extend .jumbotron; }
+%jumbotron-fluid { @extend .jumbotron-fluid; }
+%lead { @extend .lead; }
+
+%navbar-toggleable-sm { @extend .navbar-toggleable-sm; }
+%navbar-collapse { @extend .navbar-collapse; }
+%collapse { @extend .collapse; }
+%nav { @extend .nav; }
+%nav-item { @extend .nav-item; }
+%nav-link { @extend .nav-link; }
+
+%btn { @extend .btn; }
+%btn-primary { @extend .btn-primary; }
+%btn-lg { @extend .btn-lg; }
+%btn-sm { @extend .btn-sm; }
+%btn-secondary { @extend .btn-secondary; }
+%btn-outline-secondary { @extend .btn-outline-secondary; }
+
+%card { @extend .card; }
+%card-img-top { @extend .card-img-top; }
+%card-block { @extend .card-block; }
+%card-title { @extend .card-title; }
+%card-subtitle { @extend .card-subtitle; }
+%card-text { @extend .card-text; }
+%card-footer { @extend .card-footer; }
+
+%text-truncate { @extend .text-truncate; }
+%text-center { @extend .text-center; }
+%text-left { @extend .text-left; }
+%text-md-right { @extend .text-md-right; }
+%text-uppercase { @extend .text-uppercase; }
+
+%font-italic { @extend .font-italic; }
+%font-weight-normal { @extend .font-weight-normal; }
+%font-weight-bold { @extend .font-weight-bold; }
+
+%align-middle { @extend .align-middle; }
+%mx-auto { @extend .mx-auto; }
+%ml-auto { @extend .ml-auto; }
+
+%img-fluid { @extend .img-fluid; }
+%figure-img { @extend .figure-img; }
+%figure-caption { @extend .figure-caption; }
+%img-thumbnail { @extend .img-thumbnail; }
+%rounded { @extend .rounded; }
+%rounded-circle { @extend .rounded-circle; }
+
+%d-block { @extend .d-block; }
+%d-inline-block { @extend .d-inline-block; }
+%d-inline-flex { @extend .d-inline-flex; }
+%d-sm-inline-block { @extend .d-sm-inline-block; }
+%d-md-inline { @extend .d-md-inline; }
+
+%list-inline { @extend .list-inline; }
+%list-inline-item { @extend .list-inline-item; }
+%list-unstyled { @extend .list-unstyled; }
+
+%sr-only { @extend .sr-only; }
+
+%text-muted { @extend .text-muted; }
+
+%badge { @extend .badge; }
+%badge-default { @extend .badge-default; }

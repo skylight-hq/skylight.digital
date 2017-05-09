@@ -1,13 +1,13 @@
 .post {
-  @extend .mt-5;
-  @extend .mt-md-7;
+  @extend %mt-5;
+  @extend %mt-md-7;
 }
 
 .post-col {
-  @extend .col;
-  @extend .col-sm-11;
-  @extend .col-lg-8;
-  @extend .mx-auto;
+  @extend %col;
+  @extend %col-sm-11;
+  @extend %col-lg-8;
+  @extend %mx-auto;
 }
 
 %post-header-footer-font-base {
@@ -16,15 +16,15 @@
 }
 
 .post-header {
-  @extend .mb-5;
+  @extend %mb-5;
 }
 
 .post-title {
-  @extend .mb-3;
+  @extend %mb-3;
 }
 
 .post-byline {
-  @extend .mb-0;
+  @extend %mb-0;
   @extend %post-header-footer-font-base;
 }
 
@@ -40,60 +40,60 @@
 }
 
 .post-date {
-  @extend .d-block;
+  @extend %d-block;
 }
 
 .post-feature-img {
-  @extend .img-fluid;
-  @extend .d-block;
-  @extend .mt-3;
+  @extend %img-fluid;
+  @extend %d-block;
+  @extend %mt-3;
 }
 
 .post-content {
   @extend %narrative-base;
-  @extend .mb-5;
+  @extend %mb-5;
 }
 
 .post-footer {
-  @extend .pt-4;
+  @extend %pt-4;
   border-top: 1px solid $gray-lightest;
 }
 
 .post-contributors {
-  @extend .mb-4;
+  @extend %mb-4;
   @extend %post-header-footer-font-base;
 }
 
 .post-tags {
-  @extend .mb-4;
+  @extend %mb-4;
 
   a {
-    @extend .badge;
-    @extend .badge-default;
+    @extend %badge;
+    @extend %badge-default;
   }
 }
 
 .post-share {
   div {
-    @extend .d-sm-inline-block;
+    @extend %d-sm-inline-block;
 
     &:first-child {
-      @extend .mb-3;
-      @extend .mb-sm-0;
-      @extend .mr-sm-2;
+      @extend %mb-3;
+      @extend %mb-sm-0;
+      @extend %mr-sm-2;
     }
   }
 
   a {
     @extend %btn-base;
     @extend %btn-icon-left;
-    @extend .btn-sm;
+    @extend %btn-sm;
     @include button-outline-variant($btn-share-color, $btn-share-bg);
   }
 }
 
 .post-related {
-  @extend .mt-5;
+  @extend %mt-5;
   @extend %list-base;
   @extend %list-inside;
 
@@ -103,16 +103,16 @@
   }
 
   h3 {
-    @extend .text-uppercase;
-    @extend .mb-3;
+    @extend %text-uppercase;
+    @extend %mb-3;
   }
 
   ul {
-    @extend .mb-0;
+    @extend %mb-0;
     list-style: none;
 
     li:not(:last-child) {
-      @extend .pb-3;
+      @extend %pb-3;
     }
   }
 

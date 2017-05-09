@@ -2,9 +2,9 @@
   @extend %page-main-base;
 }
 
-.guides {
-  @extend .row;
+.guides-row {
+  @extend %row;
 }
 
 @include semantic-card('guide');
-@include multi-col-spacing('guide', $mb-size: 4, $mb-md-size: 5);
+@include multi-col-spacing('guide-col', $mb-size: 4, $mb-md-size: 5);

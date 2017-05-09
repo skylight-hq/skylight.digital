@@ -19,7 +19,7 @@
             <div class="col-sm-12">
               <div class="row">
 
-                <div class="approach-area">
+                <div class="approach-area-col">
                   <div class="approach-area-card">
                     <div class="approach-area-card-block">
                       <h3>Team Members</h3>
@@ -45,7 +45,7 @@
                   </div>
                 </div>
 
-                <div class="approach-area">
+                <div class="approach-area-col">
                   <div class="approach-area-card">
                     <div class="approach-area-card-block">
                       <h3>Technology</h3>
@@ -58,7 +58,7 @@
                   </div>
                 </div>
 
-                <div class="approach-area">
+                <div class="approach-area-col">
                   <div class="approach-area-card">
                     <div class="approach-area-card-block">
                       <h3>Practices</h3>
@@ -100,7 +100,7 @@
                   {% for screenshot in page.screenshots %}
                     {% assign modal_id = screenshot.filename | append: '-modal' %}
                     {% assign modal_header_id = modal_id | append: '-header' %}
-                    <div class="screenshot">
+                    <div class="screenshot-col">
                       <figure class="figure">
                         <div class="img-wrapper" role="button" data-toggle="modal" data-target="{{modal_id}}">
                           <img src="{{screenshot.image}}" alt="{{screenshot.image_description}}">
@@ -138,11 +138,11 @@
         {% if page.project_url or page.source_code_url %}
           <div class="work-example-ctas">
             {% capture project_link_markup %}
-              <a class="work-example-cta-btn" href="{{page.project_url}}" role="button" target="_blank">See the site</a>
+              <a class="work-example-cta" href="{{page.project_url}}" role="button" target="_blank">See the site</a>
             {% endcapture %}
 
             {% capture source_code_link_markup %}
-              <a class="work-example-cta-btn" href="{{page.source_code_url}}" role="button" target="_blank">Read the code</a>
+              <a class="work-example-cta" href="{{page.source_code_url}}" role="button" target="_blank">Read the code</a>
             {% endcapture %}
 
             {% if page.project_url and page.source_code_url %}

@@ -1,38 +1,38 @@
 .filter {
-  @extend .mt-7;
+  @extend %mt-7;
 
   h1 {
-    @extend .text-center;
-    @extend .mb-5;
-    @extend .mb-md-5;
-    @extend .sr-only;
+    @extend %text-center;
+    @extend %mb-5;
+    @extend %mb-md-5;
+    @extend %sr-only;
   }
 }
 
 .filter-col {
-  @extend .col;
-  @extend .col-sm-11;
-  @extend .col-md-9;
-  @extend .col-lg-7;
-  @extend .mx-auto;
+  @extend %col;
+  @extend %col-sm-11;
+  @extend %col-md-9;
+  @extend %col-lg-7;
+  @extend %mx-auto;
 }
 
 .filter-header {
-  @extend .d-flex;
-  @extend .justify-content-start;
-  @extend .pb-4;
+  @extend %d-flex;
+  @extend %justify-content-start;
+  @extend %pb-4;
   border-bottom: 1px solid $gray-lightest;
 }
 
 .filter-image {
-  @extend .rounded-circle;
+  @extend %rounded-circle;
   box-shadow: 0 0 0 2px $white, 0 0 0 3px $gray-lightest;
   height: 3rem;
   margin-left: 3px;
 }
 
 .filter-title-wrapper.filter-employee {
-  @extend .ml-2;
+  @extend %ml-2;
 }
 
 .filter-title {
@@ -40,17 +40,17 @@
 }
 
 .filter-subtitle {
-  @extend .mt-1;
-  @extend .mb-0;
-  @extend .text-uppercase;
-  @extend .text-muted;
+  @extend %mt-1;
+  @extend %mb-0;
+  @extend %text-uppercase;
+  @extend %text-muted;
   font-size: $font-size-xxx-small;
 }
 
 .filter-count {
-  @extend .ml-auto;
-  @extend .text-muted;
-  @extend .font-italic;
+  @extend %ml-auto;
+  @extend %text-muted;
+  @extend %font-italic;
   font-size: $font-size-xx-small;
 }
 
@@ -79,8 +79,8 @@
 }
 
 .filter-item {
-  @extend .py-4;
-  @extend .py-md-5;
+  @extend %py-4;
+  @extend %py-md-5;
   border-bottom: 1px solid $gray-lightest;
 }
 
@@ -90,13 +90,13 @@
 }
 
 .filter-item-title {
-  @extend .mb-2;
+  @extend %mb-2;
 }
 
 .filter-item-description {
-  @extend .mb-0;
+  @extend %mb-0;
 }
 
 .filter-no-results {
-  @extend .mt-5;
+  @extend %mt-5;
 }

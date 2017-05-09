@@ -1,21 +1,21 @@
 .landing-page {
-  @extend .text-center;
+  @extend %text-center;
 }
 
-.lp-headline {
-  @extend .jumbotron;
-  @extend .jumbotron-fluid;
-  @extend .mb-0;
-  background-image: linear-gradient(rgba(0, 0, 5, .75), rgba(0, 0, 5, .75)), url('../img/buzzword-stickies.jpg');
+.landing-jumbotron {
+  @extend %jumbotron;
+  @extend %jumbotron-fluid;
+  @extend %mb-0;
+  background-image: linear-gradient(rgba(0, 0, 5, .80), rgba(0, 0, 5, .80)), url('../img/buzzword-stickies.jpg');
   background-size: cover;
 }
 
-.lp-headline-content {
-  @extend .container;
-  @extend .mt-md-4;
-  @extend .mb-md-7;
-  @extend .py-4;
-  @extend .py-md-5;
+.landing-jumbotron-content {
+  @extend %container;
+  @extend %mt-md-4;
+  @extend %mb-md-7;
+  @extend %py-4;
+  @extend %py-md-5;
   background: radial-gradient(rgba(0, 0, 5, .5) 40%, rgba(0, 0, 5, 0) 70%);
   color: $jumbotron-color;
 
@@ -23,8 +23,9 @@
     color: $white;
   }
 
-  .lead {
-    @extend .mt-4;
+  p {
+    @extend %lead;
+    @extend %mt-4;
 
     @include media-breakpoint-down(xs) {
       font-size: $font-size-medium;
@@ -34,72 +35,75 @@
   a {
     @extend %btn-base;
     @extend %btn-icon-right;
-    @extend .btn-primary;
-    @extend .btn-lg;
-    @extend .text-uppercase;
-    @extend .mt-4;
+    @extend %btn-primary;
+    @extend %btn-lg;
+    @extend %text-uppercase;
+    @extend %mt-4;
   }
 }
 
-.lp-body {
-  @extend .container;
+.landing-body {
+  @extend %container;
 }
 
-.lp-body-section {
+.landing-section {
   &:first-child {
-    @extend .mt-5;
-    @extend .mt-md-7;
+    @extend %mt-5;
+    @extend %mt-md-7;
   }
 
   &:not(:last-child) {
-    @extend .mb-6;
-    @extend .mb-md-7;
+    @extend %mb-6;
+    @extend %mb-md-7;
   }
 
   h2 {
-    @extend .mb-0;
+    @extend %mb-0;
   }
 
   p {
-    @extend .text-left;
+    @extend %text-left;
+
+    &:last-child {
+      @extend %mb-0;
+    }
   }
+}
 
-  p:last-child {
-    @extend .mb-0;
+.landing-header-row {
+  @extend %row;
+  @extend %mb-4;
+  @extend %mb-md-5;
+}
+
+.landing-header-col {
+  @extend %col;
+
+  img {
+    @extend %img-fluid;
+    @extend %mt-4;
+    @extend %mt-md-5;
   }
 }
 
-.lp-body-hdr-wrapper,
-.lp-body-content-wrapper,
-.lp-body-cta-wrapper {
-  @extend .row;
+.landing-content-row {
+  @extend %row;
 }
 
-.lp-body-hdr-wrapper {
-  @extend .mb-4;
-  @extend .mb-md-5;
-}
-
-.lp-body-hdr,
-.lp-body-cta {
-  @extend .col;
-}
-
-.lp-body-hdr img {
-  @extend .img-fluid;
-  @extend .mt-4;
-  @extend .mt-md-5;
-}
-
-.lp-body-content {
+.landing-content-col {
   @extend %text-heavy-col-base;
-  @extend .text;
+  @extend %text;
 }
 
-.lp-body-cta-wrapper {
-  @extend .mt-4;
+.landing-cta-row {
+  @extend %row;
+  @extend %mt-4;
 }
 
-.lp-body-cta-btn {
+.landing-cta-col {
+  @extend %col;
+}
+
+.landing-cta {
   @extend %btn-page;
 }

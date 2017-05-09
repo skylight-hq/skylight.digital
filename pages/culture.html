@@ -17,10 +17,10 @@ permalink: /culture/
 
 <div class="our-culture">
   <div class="container">
-    <div class="values">
+    <div class="values-row">
       {% assign values = site.data.values | sort: 'order' %}
       {% for value in values %}
-        <div class="value">
+        <div class="value-col">
           <div class="value-card">
             <div class="value-block">
               <h3>{{value.title}}</h3>

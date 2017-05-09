@@ -2,14 +2,14 @@
   @extend %page-main-base;
 }
 
-.employees {
-  @extend .row;
+.employees-row {
+  @extend %row;
 }
 
-@include semantic-card("employee", $clickable: false, $title-alignment: center,
+@include semantic-card('employee', $clickable: false, $title-alignment: center,
   $title-color: $body-color, $subtitle-color: $text-muted, $footer-border-off: false);
 
-@include multi-col-spacing("employee", $mb-size: 4, $mb-md-size: 5);
+@include multi-col-spacing('employee-col', $mb-size: 4, $mb-md-size: 5);
 
 .employee-footer {
   @include media-breakpoint-up(sm) {
