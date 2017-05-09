@@ -2,16 +2,17 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@charset "utf-8";
+@charset 'utf-8';
 
-@import "custom";
-@import "bootstrap/bootstrap";
-@import "mixins";
-@import "utilities";
-@import "spacing";
-@import "type";
-@import "forms";
-@import "buttons";
-@import "tables";
-@import "layout/manifest";
-@import "pages/manifest";
+@import 'custom';
+@import 'bootstrap/bootstrap';
+@import 'mixins';
+@import 'placeholders';
+@import 'utilities';
+@import 'spacing';
+@import 'type';
+@import 'forms';
+@import 'buttons';
+@import 'tables';
+@import 'layout/manifest';
+@import 'pages/manifest';

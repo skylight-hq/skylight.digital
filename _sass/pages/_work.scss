@@ -2,9 +2,9 @@
   @extend %page-main-base;
 }
 
-.projects {
-  @extend .row;
+.projects-row {
+  @extend %row;
 }
 
 @include semantic-card('project');
-@include multi-col-spacing('project', $mb-size: 4, $mb-md-size: 5);
+@include multi-col-spacing('project-col', $mb-size: 4, $mb-md-size: 5);

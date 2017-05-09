@@ -2,8 +2,8 @@
   @extend %page-main-base;
 }
 
-.policy-list {
-  @extend .text-lead;
-  @extend .text;
+.policy-list-col {
+  @extend %text-lead;
+  @extend %text;
   @extend %list-inside;
 }

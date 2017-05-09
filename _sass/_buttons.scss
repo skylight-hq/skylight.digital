@@ -1,16 +1,16 @@
 %btn-base {
-  @extend .btn;
-  @extend .font-weight-bold;
+  @extend %btn;
+  @extend %font-weight-bold;
 }
 
 %btn-icon-right {
   i {
-    @extend .ml-2;
+    @extend %ml-2;
   }
 }
 
 %btn-icon-left {
   i {
-    @extend .mr-2;
+    @extend %mr-2;
   }
 }

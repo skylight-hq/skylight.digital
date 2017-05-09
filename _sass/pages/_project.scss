@@ -3,13 +3,13 @@
 }
 
 .narrative .project-feature-image {
-  @extend .mb-0;
+  @extend %mb-0;
 }
 
 %project-aside-base {
-  @extend .text-left;
-  @extend .mt-4;
-  @extend .p-2;
+  @extend %text-left;
+  @extend %mt-4;
+  @extend %p-2;
   border: 1px dotted $gray-lightest;
 
   h3,
@@ -18,15 +18,15 @@
   }
 
   h3 {
-    @extend .text-uppercase;
-    @extend .mb-4;
+    @extend %text-uppercase;
+    @extend %mb-4;
   }
 
   ul {
-    @extend .mb-0;
+    @extend %mb-0;
 
     li:not(:last-child) {
-      @extend .pb-3;
+      @extend %pb-3;
     }
   }
 }
@@ -35,27 +35,27 @@
   @extend %project-aside-base;
 }
 
-.approach-area {
-  @extend .col-sm-4;
+.approach-area-col {
+  @extend %col-sm-4;
 
   &:not(:last-child) {
-    @extend .mb-sm-down-5;
+    @extend %mb-sm-down-5;
   }
 }
 
 .approach-area-card {
-  @extend .card;
-  @extend .no-border;
-  @extend .p-0;
+  @extend %card;
+  @extend %no-border;
+  @extend %p-0;
   height: 100%;
 }
 
 .approach-area-card-block {
-  @extend .card-block;
-  @extend .p-0;
+  @extend %card-block;
+  @extend %p-0;
 
   ul {
-    @extend .list-unstyled;
+    @extend %list-unstyled;
   }
 }
 
@@ -70,22 +70,22 @@
 }
 
 .screenshots {
-  @extend .mt-4;
+  @extend %mt-4;
 }
 
-.screenshot {
-  @extend .col-sm-6;
-  @extend .col-md-4;
-  @extend .mb-4;
+.screenshot-col {
+  @extend %col-sm-6;
+  @extend %col-md-4;
+  @extend %mb-4;
 
   .figure {
-    @extend .m-0;
+    @extend %m-0;
 
     .img-wrapper {
       position: relative;
 
       &::before {
-        @extend .rounded;
+        @extend %rounded;
         @include transition($btn-transition);
         background-color: rgba($flush-mahogany, .5);
         color: $white;
@@ -108,22 +108,22 @@
     }
 
     img {
-      @extend .figure-img;
-      @extend .img-fluid;
-      @extend .img-thumbnail;
-      @extend .mt-0;
-      @extend .mb-2;
+      @extend %figure-img;
+      @extend %img-fluid;
+      @extend %img-thumbnail;
+      @extend %mt-0;
+      @extend %mb-2;
     }
 
     figcaption {
-      @extend .figure-caption;
-      @extend .text-left;
+      @extend %figure-caption;
+      @extend %text-left;
     }
   }
 
   .modal-header {
-    @extend .pb-0;
-    @extend .justify-content-end;
+    @extend %pb-0;
+    @extend %justify-content-end;
     border-bottom: 0;
 
     h3 {
@@ -132,50 +132,52 @@
     }
 
     .close {
-      @extend .ml-auto;
-      @extend .p-2;
+      @extend %ml-auto;
+      @extend %p-2;
     }
   }
 
   .modal-body {
-    @extend .pt-2;
+    @extend %pt-2;
   }
 }
 
-.profile .profile-img {
-  @extend .rounded-circle;
-  @extend .m-0;
-  @extend .mr-2;
-  height: 2rem;
-}
-
-.profile-link {
-  @include link-decoration($project-aside-link-color, $project-aside-link-hover-color, none, none);
-
-  span {
-    border-bottom: $project-aside-link-border;
+.profile {
+  .profile-img {
+    @extend %rounded-circle;
+    @extend %m-0;
+    @extend %mr-2;
+    height: 2rem;
   }
 
-  &:hover span {
-    border-bottom: $project-aside-link-border-hover;
+  &.profile-link {
+    @include link-decoration($project-aside-link-color, $project-aside-link-hover-color, none, none);
+
+    span {
+      border-bottom: $project-aside-link-border;
+    }
+
+    &:hover span {
+      border-bottom: $project-aside-link-border-hover;
+    }
   }
 }
 
 .work-example-ctas {
-  @extend .mt-3;
-  @extend .mt-sm-5;
+  @extend %mt-3;
+  @extend %mt-sm-5;
 
   div {
-    @extend .d-sm-inline-block;
+    @extend %d-sm-inline-block;
 
     &:first-child {
-      @extend .mb-3;
-      @extend .mb-sm-0;
-      @extend .mr-sm-5;
+      @extend %mb-3;
+      @extend %mb-sm-0;
+      @extend %mr-sm-5;
     }
   }
 
-  .work-example-cta-btn {
+  .work-example-cta {
     @extend %btn-page;
     min-width: 185px;
   }

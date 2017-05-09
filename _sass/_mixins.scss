@@ -26,19 +26,21 @@
 @mixin mt-6 { margin-top: 4rem !important; }
 @mixin mt-7 { margin-top: 5rem !important; }
 @mixin mt-8 { margin-top: 6rem !important; }
-
 @mixin mb-0 { margin-bottom: 0 !important; }
 @mixin mb-3 { margin-bottom: 1rem !important; }
 @mixin mb-4 { margin-bottom: 1.5rem !important; }
+@mixin mb-5 { margin-bottom: 3rem !important; }
 @mixin mb-6 { margin-bottom: 4rem !important; }
 @mixin mb-7 { margin-bottom: 5rem !important; }
 @mixin mb-10 { margin-bottom: 8rem !important; }
-
 @mixin ml-3 { margin-left: 1rem !important; }
 
 @mixin pt-6 { padding-top: 4rem !important; }
-
 @mixin pb-6 { padding-bottom: 4rem !important; }
+@mixin pl-2 { padding-left: .5rem !important; }
+@mixin pl-6 { padding-left: 4rem !important; }
+@mixin pr-2 { padding-right: .5rem !important; }
+@mixin pr-6 { padding-right: 4rem !important; }
 
 // Links
 %nav-link-decoration {
@@ -103,29 +105,29 @@
 // Grid
 @mixin multi-col-spacing($class-name, $mb-size, $mb-md-size) {
   .#{$class-name} {
-    @extend .mb-#{$mb-size};
+    @extend %mb-#{$mb-size};
 
     &:last-child {
-      @extend .mb-0;
+      @extend %mb-0;
     }
 
-    @extend .mb-md-#{$mb-md-size};
+    @extend %mb-md-#{$mb-md-size};
   }
 
   .hanging-col-size-0 > .#{$class-name} {
-    @extend .mb-md-0;
+    @extend %mb-md-0;
   }
 
   .hanging-col-size-1 > .#{$class-name} {
     &:nth-last-of-type(1) {
-      @extend .mb-md-0;
+      @extend %mb-md-0;
     }
   }
 
   .hanging-col-size-2 > .#{$class-name} {
     &:nth-last-of-type(1),
     &:nth-last-of-type(2) {
-      @extend .mb-md-0;
+      @extend %mb-md-0;
     }
   }
 
@@ -133,7 +135,7 @@
     &:nth-last-of-type(1),
     &:nth-last-of-type(2),
     &:nth-last-of-type(3) {
-      @extend .mb-md-0;
+      @extend %mb-md-0;
     }
   }
 }
@@ -154,12 +156,12 @@
 
   $footer-alignment: $title-alignment;
 
-  .#{$class-name} {
-    @extend .col-md-4;
+  .#{$class-name}-col {
+    @extend %col-md-4;
   }
 
   .#{$class-name}-card {
-    @extend .card;
+    @extend %card;
     height: 100%;
 
     @if $clickable {
@@ -174,52 +176,52 @@
   }
 
   .#{$class-name}-img {
-    @extend .card-img-top;
-    @extend .img-fluid;
+    @extend %card-img-top;
+    @extend %img-fluid;
   }
 
   .#{$class-name}-block {
-    @extend .card-block;
+    @extend %card-block;
   }
 
   .#{$class-name}-title {
-    @extend .card-title;
-    @extend .mb-0;
+    @extend %card-title;
+    @extend %mb-0;
     color: $title-color;
     font-size: $title-font-size;
     text-align: $title-alignment;
   }
 
   .#{$class-name}-subtitle {
-    @extend .card-subtitle;
-    @extend .mt-2;
+    @extend %card-subtitle;
+    @extend %mt-2;
     color: $subtitle-color;
     font-size: $subtitle-font-size;
     text-align: $subtitle-alignment;
   }
 
   .#{$class-name}-text {
-    @extend .card-text;
-    @extend .mt-4;
+    @extend %card-text;
+    @extend %mt-4;
     color: $text-color;
     font-size: $text-font-size;
     text-align: $text-alignment;
   }
 
   .#{$class-name}-footer {
-    @extend .card-footer;
+    @extend %card-footer;
     font-size: $footer-font-size;
     text-align: $footer-alignment;
 
     @if $footer-border-off {
-      @extend .no-border;
+      @extend %no-border;
     } @else {
-      @extend .mx-0;
+      @extend %mx-0;
     }
 
     span + i {
-      @extend .ml-2;
-      vertical-align: middle;
+      @extend %ml-2;
+      @extend %align-middle;
     }
   }
 

@@ -1,26 +1,26 @@
 .join-us {
-  @extend .container;
-  @extend .mt-6;
+  @extend %container;
+  @extend %mt-6;
 }
 
-.subnav {
-  @extend .col-11;
-  @extend .col-md-4;
-  @extend .mx-auto;
-  @extend .mb-5;
-  @extend .mb-md-0;
+.subnav-col {
+  @extend %col-11;
+  @extend %col-md-4;
+  @extend %mx-auto;
+  @extend %mb-5;
+  @extend %mb-md-0;
 
   ul {
-    @extend .nav;
-    @extend .flex-column;
-    @extend .d-inline-flex;
+    @extend %nav;
+    @extend %flex-column;
+    @extend %d-inline-flex;
   }
 
   li {
-    @extend .nav-item;
+    @extend %nav-item;
 
     &:not(:last-child) {
-      @extend .mb-2;
+      @extend %mb-2;
     }
 
     border-left: 7px solid $white;
@@ -34,9 +34,9 @@
   }
 
   a {
-    @extend .nav-link;
+    @extend %nav-link;
     @extend %nav-link-decoration;
-    @extend .p-0;
+    @extend %p-0;
     border-bottom: 1px solid $white;
 
     &:hover {
@@ -45,15 +45,15 @@
   }
 }
 
-.join-content {
-  @extend .col-11;
-  @extend .col-md-8;
-  @extend .mx-auto;
-  @extend .text;
+.join-content-col {
+  @extend %col-11;
+  @extend %col-md-8;
+  @extend %mx-auto;
+  @extend %text;
   @extend %list-base;
 
   form {
-    @extend .mt-5;
+    @extend %mt-5;
   }
 
   h2 {
@@ -61,14 +61,14 @@
     font-size: $font-size-xx-large;
 
     &:not(:first-child) {
-      @extend .mt-4;
-      @extend .mt-md-5;
+      @extend %mt-4;
+      @extend %mt-md-5;
     }
 
-    @extend .mb-3;
+    @extend %mb-3;
   }
 
   p:last-child {
-    @extend .mb-0;
+    @extend %mb-0;
   }
 }

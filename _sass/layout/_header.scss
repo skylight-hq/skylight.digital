@@ -1,24 +1,24 @@
+.global-header {
+  @extend %container;
+}
+
 .navbar {
-  @extend .navbar-toggleable-sm;
-  @extend .py-3;
+  @extend %navbar-toggleable-sm;
+  @extend %py-3;
   font-size: $font-size-small;
 }
 
-.navbar-brand-toggler-wrapper {
-  @extend .d-flex;
-  @extend .justify-content-between;
+.navbar-flex-container {
+  @extend %d-flex;
+  @extend %justify-content-between;
+}
 
-  h1 {
-    @extend .mb-0;
-  }
-
-  a {
-    @include logo;
-  }
+.navbar-logo {
+  @include logo;
 }
 
 .navbar-toggler {
-  @extend .align-self-center;
+  @extend %align-self-center;
   color: $nav-toggler-color;
 
   &:hover,
@@ -38,44 +38,40 @@
     }
   }
 
-  .navbar-toggler[aria-expanded="true"] {
+  .navbar-toggler[aria-expanded='true'] {
     color: $nav-toggler-hover-color;
   }
 }
 
 .navbar-nav-collapsible {
-  @extend .collapse;
-  @extend .navbar-collapse;
-  @extend .justify-content-end;
+  @extend %collapse;
+  @extend %navbar-collapse;
+  @extend %justify-content-end;
 
   &.collapse.show {
-    @extend .mt-3;
+    @extend %mt-3;
   }
 }
 
-.navbar-nav {
-  li {
-    @extend .nav-item;
-    @extend .px-3;
-    @extend .px-md-down-2;
+.nav-item {
+  @extend %px-3;
+  @extend %px-md-down-2;
 
-    &:last-child {
-      @extend .pr-0;
-    }
+  &:last-child {
+    @extend %pr-0;
   }
+}
 
-  a {
-    @extend .nav-link;
-    @extend %nav-link-decoration;
-    @extend .px-0;
+.nav-link {
+  @extend %nav-link-decoration;
+  @extend %px-0;
 
-    &:hover,
-    &:focus,
-    &[aria-current] {
-      span {
-        border-bottom: 5px solid $nav-link-border-color;
-        padding-bottom: 3px;
-      }
+  &:hover,
+  &:focus,
+  &[aria-current] {
+    span {
+      border-bottom: 5px solid $nav-link-border-color;
+      padding-bottom: 3px;
     }
   }
 }

@@ -16,9 +16,9 @@
 %}
 
 {% unless context == 'related' %}<div class="container">{% endunless %}
-  <div class="{{prefix}}s {{hanging_col_size_css_class}}">
+  <div class="{{prefix}}s-row {{hanging_col_size_css_class}}">
     {% for item in collection | limit: limit %}
-      <article class="{{prefix}}">
+      <article class="{{prefix}}-col">
         <div class="{{prefix}}-card card-link" data-href="{{item.permalink}}">
           <img class="{{prefix}}-img" src="{{item.image}}" alt="{{item.image_description}}">
           <div class="{{prefix}}-block">

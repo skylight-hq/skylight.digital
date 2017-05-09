@@ -1,6 +1,6 @@
 // Logo click handler
 $(function() {
-  $('.navbar-brand-toggler-wrapper a').click(function() {
+  $('.navbar-logo').click(function() {
     $(this).css('transform', 'scale(0.95)')
   })
 })
@@ -59,9 +59,9 @@ function swapJoinContent(hash) {
     parentHash = '#' + hash
   }
 
-  var $contentElements = $('.join-content > div')
+  var $contentElements = $('.join-content-col > div')
   var $contentElementToActivate = $(parentHash)
-  var $navElements = $('.subnav li')
+  var $navElements = $('.subnav-col li')
   var $navElementToActivate = $navElements.has('a[href$="' + parentHash + '"]')
 
   // Guard against answer that is not present on the page
@@ -86,20 +86,20 @@ function swapJoinContent(hash) {
 }
 
 $(function() {
-  $('.join-content > div').not('#application').hide()
+  $('.join-content-col > div').not('#application').hide()
 
   if (location.hash.length > 0) {
     var hash = location.hash.substr(1)
     swapJoinContent(hash)
   }
 
-  var $navAnchors = $('.join-us .subnav a')
+  var $navAnchors = $('.join-us .subnav-col a')
 
   var navPaths = $.map($navAnchors, function(anchor) {
     return anchor.getAttribute('href')
   })
 
-  var $pageAnchors = $('.join-content a')
+  var $pageAnchors = $('.join-content-col a')
   $pageAnchors = $pageAnchors.filter(function() {
     return $.inArray(this.getAttribute('href'), navPaths) != -1
   })

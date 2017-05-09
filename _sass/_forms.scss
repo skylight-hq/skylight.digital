@@ -1,24 +1,24 @@
 form {
   label {
-    @extend .font-weight-bold;
+    @extend %font-weight-bold;
     color: $control-label-color;
     font-size: $control-label-font-size;
   }
 
   .required::after {
-    @extend .pl-1;
+    @extend %pl-1;
     content: '*';
   }
 
   legend {
-    @extend .font-weight-bold;
-    @extend .mb-4;
+    @extend %font-weight-bold;
+    @extend %mb-4;
   }
 
   button[type='submit'] {
     @extend %btn-base;
-    @extend .py-2;
-    @extend .px-6;
+    @extend %py-2;
+    @extend %px-6;
     @include button-outline-variant($btn-form-color, $btn-form-bg);
     cursor: pointer;
   }
@@ -34,8 +34,8 @@ form {
 .btn-file {
   @extend %btn-base;
   @include button-variant($btn-file-color, $btn-file-bg, $btn-file-border);
-  @extend .mb-0;
-  @extend .text-truncate;
+  @extend %mb-0;
+  @extend %text-truncate;
 }
 
 .file-width-max {
@@ -47,22 +47,22 @@ form {
     font-size: $control-label-font-size;
 
     small {
-      @extend .d-block;
-      @extend .d-md-inline;
-      @extend .text-muted;
+      @extend %d-block;
+      @extend %d-md-inline;
+      @extend %text-muted;
     }
   }
 
   .form-icons {
-    @extend .d-flex;
-    @extend .justify-content-between;
-    @extend .mt-2;
+    @extend %d-flex;
+    @extend %justify-content-between;
+    @extend %mt-2;
     border-bottom: 1px dashed $form-icons-border-color;
     margin-bottom: $form-icons-margin-bottom;
   }
 
   i {
-    @extend .pb-2;
+    @extend %pb-2;
     color: $form-icon-color;
 
     &:hover,
