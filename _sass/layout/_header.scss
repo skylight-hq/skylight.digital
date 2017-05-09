@@ -17,6 +17,10 @@
   @include logo;
 }
 
+.navbar-logo-transform {
+  transform: scale(.95);
+}
+
 .navbar-toggler {
   @extend %align-self-center;
   color: $nav-toggler-color;

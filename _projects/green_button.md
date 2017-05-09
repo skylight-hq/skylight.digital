@@ -45,7 +45,7 @@ source_code_url:
 ---
 
 {% include page_header.html
-  header_content_class = 'page-hdr-content-1'
+  header_content_class = 'page-header-content-1'
 %}
 
 {% capture summary %}

@@ -1,162 +1,160 @@
 <div class="project-case-study">
-  <div class="container">
-    <div class="row">
-      <article class="narrative">
-        <h2 class="sr-only">Summary</h2>
-        <p>{{include.summary}}</p>
+  <div class="project-case-study-row">
+    <article class="project-case-study-col">
+      <h2 class="sr-only">Summary</h2>
+      <p>{{include.summary}}</p>
 
-        {% if page.feature_image %}
-          <img class="project-feature-image" src="{{page.image}}" alt="{{page.image_description}}">
-        {% endif %}
+      {% if page.feature_image %}
+        <img class="project-feature-image" src="{{page.image}}" alt="{{page.image_description}}">
+      {% endif %}
 
-        <h2>The challenge</h2>
-        <p>{{include.challenge}}</p>
+      <h2>The challenge</h2>
+      <p>{{include.challenge}}</p>
 
-        <h2>The solution</h2>
-        <p>{{include.solution}}</p>
-        <aside class="approach">
+      <h2>The solution</h2>
+      <p>{{include.solution}}</p>
+      <aside class="approach">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+
+              <div class="approach-area-col">
+                <div class="approach-area-card">
+                  <div class="approach-area-card-block">
+                    <h3>Team Members</h3>
+                    <ul>
+                      {% for member in page.project_members %}
+                        {% assign emp = site.data.team | where: 'name', member | first %}
+                        <li>
+                          {% if emp.active %}
+                            <a class="profile profile-link" href="{{emp.profile_path}}" target="_blank">
+                              <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                              <span>{{emp.short_name}}</span>
+                            </a>
+                          {% else %}
+                            <div class="profile">
+                              <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                              <span>{{emp.short_name}}</span>
+                            </div>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="approach-area-col">
+                <div class="approach-area-card">
+                  <div class="approach-area-card-block">
+                    <h3>Technology</h3>
+                    <ul>
+                      {% for tech in page.technologies %}
+                        <li>{{tech}}</li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="approach-area-col">
+                <div class="approach-area-card">
+                  <div class="approach-area-card-block">
+                    <h3>Practices</h3>
+                    <ul>
+                      {% for practice in page.practices %}
+                        <li>{{practice}}</li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <h2>The results</h2>
+      <p>{{include.results}}</p>
+      {% if page.news_posts %}
+        <aside class="news-coverage">
+          <h3>News coverage</h3>
+          <ul>
+            {% for post in page.news_posts %}
+              <li>
+                <a href="{{post.url}}" target="_blank">{{post.title}}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </aside>
+      {% endif %}
+
+      {% if page.screenshots %}
+        <h2>Showcase</h2>
+        <div class="screenshots">
           <div class="row">
             <div class="col-sm-12">
               <div class="row">
+                {% for screenshot in page.screenshots %}
+                  {% assign modal_id = screenshot.filename | append: '-modal' %}
+                  {% assign modal_header_id = modal_id | append: '-header' %}
+                  <div class="screenshot-col">
+                    <figure class="figure">
+                      <div class="img-wrapper" role="button" data-toggle="modal" data-target="{{modal_id}}">
+                        <img src="{{screenshot.image}}" alt="{{screenshot.image_description}}">
+                      </div>
+                      <figcaption>{{screenshot.caption}}</figcaption>
+                    </figure>
 
-                <div class="approach-area-col">
-                  <div class="approach-area-card">
-                    <div class="approach-area-card-block">
-                      <h3>Team Members</h3>
-                      <ul>
-                        {% for member in page.project_members %}
-                          {% assign emp = site.data.team | where: 'name', member | first %}
-                          <li>
-                            {% if emp.active %}
-                              <a class="profile profile-link" href="{{emp.profile_path}}" target="_blank">
-                                <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                                <span>{{emp.short_name}}</span>
-                              </a>
-                            {% else %}
-                              <div class="profile">
-                                <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                                <span>{{emp.short_name}}</span>
-                              </div>
-                            {% endif %}
-                          </li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                    <div id="{{modal_id}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{modal_header_id}}" aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 id="{{modal_header_id}}" class="modal-title sr-only">{{screenshot.image_description}}</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
 
-                <div class="approach-area-col">
-                  <div class="approach-area-card">
-                    <div class="approach-area-card-block">
-                      <h3>Technology</h3>
-                      <ul>
-                        {% for tech in page.technologies %}
-                          <li>{{tech}}</li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="approach-area-col">
-                  <div class="approach-area-card">
-                    <div class="approach-area-card-block">
-                      <h3>Practices</h3>
-                      <ul>
-                        {% for practice in page.practices %}
-                          <li>{{practice}}</li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </aside>
-
-        <h2>The results</h2>
-        <p>{{include.results}}</p>
-        {% if page.news_posts %}
-          <aside class="news-coverage">
-            <h3>News coverage</h3>
-            <ul>
-              {% for post in page.news_posts %}
-                <li>
-                  <a href="{{post.url}}" target="_blank">{{post.title}}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </aside>
-        {% endif %}
-
-        {% if page.screenshots %}
-          <h2>Showcase</h2>
-          <div class="screenshots">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="row">
-                  {% for screenshot in page.screenshots %}
-                    {% assign modal_id = screenshot.filename | append: '-modal' %}
-                    {% assign modal_header_id = modal_id | append: '-header' %}
-                    <div class="screenshot-col">
-                      <figure class="figure">
-                        <div class="img-wrapper" role="button" data-toggle="modal" data-target="{{modal_id}}">
-                          <img src="{{screenshot.image}}" alt="{{screenshot.image_description}}">
-                        </div>
-                        <figcaption>{{screenshot.caption}}</figcaption>
-                      </figure>
-
-                      <div id="{{modal_id}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{modal_header_id}}" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h3 id="{{modal_header_id}}" class="modal-title sr-only">{{screenshot.image_description}}</h3>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-
-                            <div class="modal-body">
-                              <figure class="figure">
-                                <img src="{{screenshot.image}}" alt="{{screenshot.image_description}}">
-                                <figcaption>{{screenshot.caption}}</figcaption>
-                              </figure>
-                            </div>
+                          <div class="modal-body">
+                            <figure class="figure">
+                              <img src="{{screenshot.image}}" alt="{{screenshot.image_description}}">
+                              <figcaption>{{screenshot.caption}}</figcaption>
+                            </figure>
                           </div>
                         </div>
                       </div>
                     </div>
-                  {% endfor %}
-                </div>
+                  </div>
+                {% endfor %}
               </div>
             </div>
           </div>
-        {% endif %}
+        </div>
+      {% endif %}
 
-        {% if page.project_url or page.source_code_url %}
-          <div class="work-example-ctas">
-            {% capture project_link_markup %}
-              <a class="work-example-cta" href="{{page.project_url}}" role="button" target="_blank">See the site</a>
-            {% endcapture %}
+      {% if page.project_url or page.source_code_url %}
+        <div class="work-example-ctas">
+          {% capture project_link_markup %}
+            <a class="work-example-cta" href="{{page.project_url}}" role="button" target="_blank">See the site</a>
+          {% endcapture %}
 
-            {% capture source_code_link_markup %}
-              <a class="work-example-cta" href="{{page.source_code_url}}" role="button" target="_blank">Read the code</a>
-            {% endcapture %}
+          {% capture source_code_link_markup %}
+            <a class="work-example-cta" href="{{page.source_code_url}}" role="button" target="_blank">Read the code</a>
+          {% endcapture %}
 
-            {% if page.project_url and page.source_code_url %}
-              <div>{{project_link_markup}}</div>
-              <div>{{source_code_link_markup}}</div>
-            {% elsif page.project_url %}
-              {{project_link_markup}}
-            {% else %}
-              {{source_code_link_markup}}
-            {% endif %}
-          </div>
-        {% endif %}
-      </article>
-    </div>
+          {% if page.project_url and page.source_code_url %}
+            <div>{{project_link_markup}}</div>
+            <div>{{source_code_link_markup}}</div>
+          {% elsif page.project_url %}
+            {{project_link_markup}}
+          {% else %}
+            {{source_code_link_markup}}
+          {% endif %}
+        </div>
+      {% endif %}
+    </article>
   </div>
 </div>
 

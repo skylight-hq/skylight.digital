@@ -2,6 +2,10 @@
   @extend %page-main-base;
 }
 
+.projects {
+  @extend %container;
+}
+
 .projects-row {
   @extend %row;
 }

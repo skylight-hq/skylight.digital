@@ -2,6 +2,10 @@
   @extend %page-main-base;
 }
 
+.values {
+  @extend %container;
+}
+
 .values-row {
   @extend %row;
 }

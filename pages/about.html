@@ -6,7 +6,7 @@ permalink: /about/
 
 {% include page_header.html
   header_title = 'We&apos;re Skylight!'
-  header_content_class = 'page-hdr-content-1'
+  header_content_class = 'page-header-content-1'
   header_content = 'Our mission is to make government work in a digital world.'
   header_content_img = 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150'
   header_content_img_description = ''
@@ -15,13 +15,13 @@ permalink: /about/
 <div class="about-us">
 
   <section class="page-block">
-    <div class="page-block-hdr-1">
+    <div class="page-block-header-1">
       <h2>Our story</h2>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="narrative">
+    <div class="about-info">
+      <div class="about-info-row">
+        <div class="about-info-col">
           <p>
             Skylight was founded in 2016. We're currently made up of X people and one ferret.
             We're working hard to maintain disciplined growth while at the same time cultivating
@@ -45,13 +45,13 @@ permalink: /about/
   </section>
 
   <section id="hubzone" class="page-block">
-    <div class="page-block-hdr-1">
+    <div class="page-block-header-1">
       <h2>Certified HUBZone</h2>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="narrative">
+    <div class="about-info">
+      <div class="about-info-row">
+        <div class="about-info-col">
           <p>
             We're certified by the Small Business Administration (SBA) as a <a href="https://www.sba.gov/contracting/government-contracting-programs/hubzone-program" target="_blank">
             Historically Underutilized Business Zone (HUBZone)</a> company. This special SBA designation
@@ -77,11 +77,11 @@ permalink: /about/
 
   {% if site.data.team[0] %}
     <section id="meet-the-team" class="page-block">
-      <div class="page-block-hdr-1">
+      <div class="page-block-header-1">
         <h2>Meet the team</h2>
       </div>
 
-      <div class="container-fluid">
+      <div class="employees">
         {% assign employees = site.data.team | sort: 'order' %}
 
         {% include hanging_column_size.html
@@ -128,13 +128,13 @@ permalink: /about/
   {% endif %}
 
   <section class="page-block">
-    <div class="page-block-hdr-1">
+    <div class="page-block-header-1">
       <h2>Always at your service</h2>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="narrative">
+    <div class="about-info">
+      <div class="about-info-row">
+        <div class="about-info-col">
           <p>
             If you have a question for us, or would just like to get in touch, drop us a message
             at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>.

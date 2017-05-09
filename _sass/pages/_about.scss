@@ -2,6 +2,22 @@
   @extend %page-main-base;
 }
 
+.about-info {
+  @extend %container;
+}
+
+.about-info-row {
+  @extend %row;
+}
+
+.about-info-col {
+  @extend %narrative-col;
+}
+
+.employees {
+  @extend %container-fluid;
+}
+
 .employees-row {
   @extend %row;
 }

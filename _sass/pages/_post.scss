@@ -1,6 +1,11 @@
 .post {
+  @extend %container;
   @extend %mt-5;
   @extend %mt-md-7;
+}
+
+.post-row {
+  @extend %row;
 }
 
 .post-col {

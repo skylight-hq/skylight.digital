@@ -1,9 +1,14 @@
 .our-policies {
   @extend %page-main-base;
+  @extend %container;
+}
+
+.policies-row {
+  @extend %row;
 }
 
 .policy-list-col {
-  @extend %text-lead;
+  @extend %text-lead-col;
   @extend %text;
   @extend %list-inside;
 }

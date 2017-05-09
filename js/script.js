@@ -1,7 +1,7 @@
 // Logo click handler
 $(function() {
   $('.navbar-logo').click(function() {
-    $(this).css('transform', 'scale(0.95)')
+    $(this).addClass('navbar-logo-transform')
   })
 })
 

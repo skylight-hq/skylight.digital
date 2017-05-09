@@ -8,6 +8,10 @@
   color: $page-cta-color;
 }
 
+.page-subfooter-content {
+  @extend %container;
+}
+
 .page-subfooter-header-row {
   @extend %row;
   @extend %mb-3;
@@ -17,26 +21,26 @@
   @extend %col;
 }
 
-.page-subfooter-content-row {
+.page-subfooter-text-row {
   @extend %row;
   @extend %mb-4;
 }
 
-%page-subfooter-content-col-base {
+%page-subfooter-text-col-base {
   @extend %col;
   @extend %mx-auto;
   font-weight: 100;
   line-height: 1.75;
 }
 
-.page-subfooter-content-col {
-  @extend %page-subfooter-content-col-base;
+.page-subfooter-text-col {
+  @extend %page-subfooter-text-col-base;
   @extend %col-md-9;
   @extend %col-lg-7;
 }
 
-.page-subfooter-content-col-narrow {
-  @extend %page-subfooter-content-col-base;
+.page-subfooter-text-col-narrow {
+  @extend %page-subfooter-text-col-base;
   @extend %col-md-7;
   @extend %col-lg-5;
 }
@@ -58,6 +62,10 @@
 }
 
 // Testimonial CTA
+.testimonial {
+  @extend %container;
+}
+
 .testimonial-row {
   @extend %row;
 }

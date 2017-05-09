@@ -2,6 +2,10 @@
   @extend %page-main-base;
 }
 
+.blog-posts {
+  @extend %container;
+}
+
 .blog-posts-row {
   @extend %row;
 }

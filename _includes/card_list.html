@@ -15,7 +15,7 @@
   col_size = 3
 %}
 
-{% unless context == 'related' %}<div class="container">{% endunless %}
+{% unless context == 'related' %}<div class="{{prefix}}s">{% endunless %}
   <div class="{{prefix}}s-row {{hanging_col_size_css_class}}">
     {% for item in collection | limit: limit %}
       <article class="{{prefix}}-col">

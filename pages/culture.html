@@ -11,12 +11,12 @@ permalink: /culture/
 {% endcapture %}
 
 {% include page_header.html
-  header_content_class = 'page-hdr-content-2'
+  header_content_class = 'page-header-content-2'
   header_content = header_content
 %}
 
 <div class="our-culture">
-  <div class="container">
+  <div class="values">
     <div class="values-row">
       {% assign values = site.data.values | sort: 'order' %}
       {% for value in values %}

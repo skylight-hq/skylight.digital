@@ -45,7 +45,7 @@ source_code_url: https://github.com/open-company
 ---
 
 {% include page_header.html
-  header_content_class = 'page-hdr-content-1'
+  header_content_class = 'page-header-content-1'
 %}
 
 {% capture summary %}
