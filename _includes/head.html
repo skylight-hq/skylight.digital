@@ -59,7 +59,7 @@
 
   {% if page.date_published and page.date %}
     {% assign date_published = page.date_published %}
-    {% assign date_modified = page.date %}
+    {% assign date_modified = page.date | date: '%Y-%m-%d' %}
   {% else %}
     {% assign date_published = site_published %}
     {% assign date_modified = site_modified %}

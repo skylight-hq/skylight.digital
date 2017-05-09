@@ -1,21 +1,21 @@
-%page-hdr-base {
+%page-header-base {
   @extend %container;
   @extend %text-center;
   @extend %mt-5;
   @extend %mb-5;
 }
 
-.page-hdr-1 {
-  @extend %page-hdr-base;
+.page-header-1 {
+  @extend %page-header-base;
   @extend %mb-md-5;
 }
 
-.page-hdr-2 {
-  @extend %page-hdr-base;
+.page-header-2 {
+  @extend %page-header-base;
   @extend %mb-md-6;
 }
 
-%page-hdr-content-base {
+%page-header-content-base {
   @extend %col-11;
   @extend %mx-auto;
 
@@ -30,16 +30,16 @@
   }
 }
 
-.page-hdr-content-1 {
-  @extend %page-hdr-content-base;
+.page-header-content-1 {
+  @extend %page-header-content-base;
 
   p {
     @extend %mt-4;
   }
 }
 
-.page-hdr-content-2 {
-  @extend %page-hdr-content-base;
+.page-header-content-2 {
+  @extend %page-header-content-base;
   @extend %col-lg-8;
 
   p {
@@ -56,18 +56,18 @@
   }
 }
 
-.page-block-hdr-1 {
+.page-block-header-1 {
   @extend %container;
   @extend %mb-4;
 }
 
-.page-block-hdr-2 {
+.page-block-header-2 {
   @extend %container;
   @extend %mb-4;
   @extend %mb-md-5;
 }
 
-.page-block-hdr-3 {
+.page-block-header-3 {
   @extend %container;
   @extend %mb-5;
   @extend %mb-md-6;
@@ -143,8 +143,7 @@
   }
 }
 
-%narrative,
-.narrative {
+%narrative-col {
   @extend %text-heavy-col-base;
   @extend %narrative-base;
 
@@ -164,8 +163,8 @@
   @extend %text-left;
 }
 
-%text-lead,
-.text-lead {
+%text-lead-col,
+.text-lead-col {
   @extend %text-lead-col-base;
   @extend %mb-5;
 

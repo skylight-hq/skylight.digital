@@ -2,6 +2,10 @@
   @extend %page-main-base;
 }
 
+.service-elements {
+  @extend %container;
+}
+
 .service-elements-row {
   @extend %row;
 }

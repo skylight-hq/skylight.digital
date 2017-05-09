@@ -1,11 +1,11 @@
 <div class="service-area-showcase">
 
   <section class="page-block">
-    <div class="page-block-hdr-1 sr-only">
+    <div class="page-block-header-1 sr-only">
       <h2>Service elements</h2>
     </div>
 
-    <div class="container">
+    <div class="service-elements">
       {% assign service_elements = page.service_elements | sort: 'order' %}
 
       {% include hanging_column_size.html
@@ -31,7 +31,7 @@
   </div>
 
   <div class="page-block">
-    <div class="page-block-hdr-1">
+    <div class="page-block-header-1">
       <h2>Our work</h2>
     </div>
 

@@ -5,55 +5,57 @@ permalink: /services/
 ---
 
 {% include page_header.html
-  header_content_class = 'page-hdr-content-1'
+  header_content_class = 'page-header-content-1'
   header_content = 'A lot goes into making you a digital-first agency.'
 %}
 
 <div class="our-services">
 
-  <section class="page-block extra-space container-fluid">
-    <div class="page-block-hdr-2 sr-only">
+  <section class="page-block extra-space">
+    <div class="page-block-header-2 sr-only">
       <h2>What we offer</h2>
     </div>
 
-    <div class="service-areas-row">
-      {% assign service_areas = site.service_areas | sort: 'order' %}
-      {% for service_area in service_areas %}
-        {% if service_area.feature %}
-          <div class="service-area-col">
-            <div class="service-area-card card-link" data-href="{{service_area.permalink}}">
-              <img class="service-area-img" src="{{service_area.image_icon}}" alt="{{service_area.image_icon_description}}">
-              <div class="service-area-block">
-                <h3>{{service_area.title}}</h3>
-                <p>{{service_area.excerpt}}</p>
-              </div>
-              <div class="service-area-footer">
-                <a href="{{service_area.permalink}}">
-                  <span class="sr-only">Learn More About Our {{service_area.title}} Service</span>
-                  <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
-                </a>
+    <div class="service-areas">
+      <div class="service-areas-row">
+        {% assign service_areas = site.service_areas | sort: 'order' %}
+        {% for service_area in service_areas %}
+          {% if service_area.feature %}
+            <div class="service-area-col">
+              <div class="service-area-card card-link" data-href="{{service_area.permalink}}">
+                <img class="service-area-img" src="{{service_area.image_icon}}" alt="{{service_area.image_icon_description}}">
+                <div class="service-area-block">
+                  <h3>{{service_area.title}}</h3>
+                  <p>{{service_area.excerpt}}</p>
+                </div>
+                <div class="service-area-footer">
+                  <a href="{{service_area.permalink}}">
+                    <span class="sr-only">Learn More About Our {{service_area.title}} Service</span>
+                    <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+          {% endif %}
+        {% endfor %}
+      </div>
 
-    <div class="minor-service-areas-row">
-      <div class="minor-service-area-col">
-        <p>
-          Also, check out our <a class="text" href="/services/microconsulting/">Microconsulting Services</a>.
-        </p>
+      <div class="minor-service-areas-row">
+        <div class="minor-service-area-col">
+          <p>
+            Also, check out our <a class="text" href="/services/microconsulting/">Microconsulting Services</a>.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="page-block">
-    <div class="page-block-hdr-2">
+    <div class="page-block-header-2">
       <h2>Key capabilities</h2>
 
       <div class="row">
-        <div class="page-hdr-content-2">
+        <div class="page-header-content-2">
           <p>
             Your digital challenges are neither siloed nor static. Our teams are smartly
             tailored to meet your holistic and dynamic needs, and to impart you with
@@ -63,7 +65,7 @@ permalink: /services/
       </div>
     </div>
 
-    <div class="container">
+    <div class="capabilities">
       <div class="capabilities-row">
         {% assign capability_groups = site.data.capability_groups | sort: 'order' %}
         {% for capability_group in capability_groups %}
@@ -82,11 +84,11 @@ permalink: /services/
   </section>
 
   <section class="page-block">
-    <div class="page-block-hdr-3">
+    <div class="page-block-header-3">
       <h2>Industry information</h2>
     </div>
 
-    <div class="container">
+    <div class="industry-info-list">
       <div class="industry-info-list-row">
         <div class="industry-info-item-col">
           <div aria-hidden="true"></div>

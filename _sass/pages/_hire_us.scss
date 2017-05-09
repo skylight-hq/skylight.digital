@@ -1,7 +1,12 @@
 .hire-us {
   @extend %page-main-base;
+  @extend %container;
 }
 
-.hire-us-contact-col {
+.hire-row {
+  @extend %row;
+}
+
+.hire-contact-col {
   @extend %text-lead-col-base;
 }

@@ -2,6 +2,10 @@
   @extend %page-main-base;
 }
 
+.service-areas {
+  @extend %container-fluid;
+}
+
 .service-areas-row {
   @extend %row;
 }
@@ -64,6 +68,11 @@
     @extend %text;
     @extend %m-0;
   }
+}
+
+.capabilities,
+.industry-info-list {
+  @extend %container;
 }
 
 .capabilities-row,

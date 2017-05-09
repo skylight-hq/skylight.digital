@@ -1,15 +1,25 @@
+// Vendor prefixes (@author Hugo Giraudel)
+@mixin prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    #{$property}: $value;
+  }
+}
+
 // Brand
 @mixin logo($width: $nav-brand-width, $height: $nav-brand-height) {
-  display: block;
-  background: url(/img/logo.png) no-repeat;
-  background: url(/img/logo.svg) no-repeat;
+  @extend %d-block;
+  background: url('/img/logo.png') no-repeat;
+  background: url('/img/logo.svg') no-repeat;
   height: $height;
   width: $width;
   background-size: contain;
   text-indent: -9999px;
   white-space: nowrap;
   overflow: hidden;
-  transition: transform 0s;
 
   &:focus,
   &:hover {

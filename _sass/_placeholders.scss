@@ -1,5 +1,6 @@
 // Placeholder wrappers for Bootstrap classes
 %container { @extend .container; }
+%container-fluid { @extend .container-fluid; }
 %row { @extend .row; }
 %col { @extend .col; }
 %col-11 { @extend .col-11; }

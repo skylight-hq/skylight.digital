@@ -38,7 +38,7 @@ service_elements:
 {% endcapture %}
 
 {% include page_header.html
-  header_content_class = 'page-hdr-content-2'
+  header_content_class = 'page-header-content-2'
   header_content = header_content
 %}
 

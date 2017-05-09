@@ -2,6 +2,10 @@
   @extend %page-main-base;
 }
 
+.guides {
+  @extend %container;
+}
+
 .guides-row {
   @extend %row;
 }

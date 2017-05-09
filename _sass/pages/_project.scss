@@ -1,9 +1,18 @@
 .project-case-study {
   @extend %page-main-base;
+  @extend %container;
 }
 
-.narrative .project-feature-image {
-  @extend %mb-0;
+.project-case-study-row {
+  @extend %row;
+}
+
+.project-case-study-col {
+  @extend %narrative-col;
+
+  .project-feature-image {
+    @extend %mb-0;
+  }
 }
 
 %project-aside-base {
