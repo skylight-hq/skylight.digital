@@ -24,6 +24,13 @@
   @extend %text-center;
   cursor: pointer;
   height: 100%;
+
+  &:hover,
+  &:focus {
+    a {
+      color: $link-hover-color;
+    }
+  }
 }
 
 .service-area-img {

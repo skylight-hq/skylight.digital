@@ -10,10 +10,10 @@
 }
 
 // Brand
-@mixin logo($width: $nav-brand-width, $height: $nav-brand-height) {
+@mixin logo($width: $nav-brand-width, $height: $nav-brand-height, $version: 'logo-hubzone') {
   @extend %d-block;
-  background: url('/img/logo.png') no-repeat;
-  background: url('/img/logo.svg') no-repeat;
+  background: url('/img/#{$version}.png') no-repeat;
+  background: url('/img/#{$version}.svg') no-repeat;
   height: $height;
   width: $width;
   background-size: contain;
@@ -21,8 +21,8 @@
   white-space: nowrap;
   overflow: hidden;
 
-  &:focus,
-  &:hover {
+  &:hover,
+  &:focus {
     text-decoration: none;
   }
 

@@ -1,10 +1,3 @@
-// Logo click handler
-$(function() {
-  $('.navbar-logo').click(function() {
-    $(this).addClass('navbar-logo-transform')
-  })
-})
-
 // Activate current main nav item
 $(function() {
   var $anchorToDeactivate = $('#navbar-nav-collapsible a[aria-current]')

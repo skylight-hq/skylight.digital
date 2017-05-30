@@ -24,7 +24,7 @@
   @extend %footer-col-left-base;
 
   a {
-    @include logo($height: 40px);
+    @include logo($height: 40px, $version: 'logo');
   }
 }
 
