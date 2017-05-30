@@ -15,10 +15,12 @@
 
 .navbar-logo {
   @include logo;
-}
+  transition: all 0.1s ease-in-out;
 
-.navbar-logo-transform {
-  transform: scale(.95);
+  &:focus,
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
 }
 
 .navbar-toggler {
