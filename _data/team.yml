@@ -43,10 +43,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -92,10 +88,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -141,10 +133,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -190,10 +178,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -239,10 +223,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -288,10 +268,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -337,10 +313,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -386,7 +358,3 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: tasks
-    - name: Guilds
-      link: /guilds/member/sean-johnson/
-      link_description: Sean's Guilds
-      fa_icon_name: users
