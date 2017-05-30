@@ -51,6 +51,7 @@
   @extend %mx-auto;
   @extend %text;
   @extend %list-base;
+  @extend %flex-last;
 
   form {
     @extend %mt-5;
