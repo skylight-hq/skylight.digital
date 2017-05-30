@@ -33,7 +33,7 @@
           </div>
         {% endif %}
 
-        {% if page.content_type == 'BlogPosting' and page.tags.size > 0 %}
+        {% if page.tags.size > 0 %}
           <div class="post-tags">
             {% for tag in page.tags %}
               <a href="/blog/tag/{{tag | slugify}}/">{{tag}}</a>
@@ -64,14 +64,8 @@
           </div>
         </div>
 
-        {% if page.content_type == 'BlogPosting' %}
-          {% assign posts = site.blog_posts %}
-          {% assign related_header = 'Related blog posts' %}
-        {% else %}
-          {% assign posts = site.guides %}
-          {% assign related_header = 'Related guides' %}
-        {% endif %}
-
+        {% assign posts = site.blog_posts %}
+        {% assign related_header = 'Related blog posts' %}
         {% assign max_related = site.posts_max_related %}
         {% assign min_common_tags = site.posts_min_common_tags %}
         {% assign max_related_counter = 0 %}

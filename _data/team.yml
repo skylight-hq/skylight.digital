@@ -47,10 +47,6 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -100,10 +96,6 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -153,10 +145,6 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -206,10 +194,6 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -259,10 +243,6 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -312,10 +292,6 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -365,10 +341,6 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -418,7 +390,3 @@
       link: /guilds/member/sean-johnson/
       link_description: Sean's Guilds
       fa_icon_name: users
-    - name: Guides
-      link: /guides/author/sean-johnson/
-      link_description: Sean's Guides
-      fa_icon_name: map

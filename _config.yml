@@ -64,12 +64,6 @@ collections:
   blog_post_tags:
     output: true
     permalink: /blog/tag/:name/
-  guides:
-    output: true
-    permalink: /guides/:path/
-  guide_authors:
-    output: true
-    permalink: /guides/author/:name/
   policies:
     output: true
     permalink: /policies/:path/

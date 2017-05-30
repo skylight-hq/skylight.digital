@@ -149,7 +149,7 @@
     }
   </script>
 
-  {% if content_type == 'Article' or content_type == 'BlogPosting' %}
+  {% if content_type == 'BlogPosting' %}
     {% assign wordcount = page.content | number_of_words %}
     {% assign body = page.content | xml_escape | strip_newlines %}
     {% assign contributors = page.contributors %}
