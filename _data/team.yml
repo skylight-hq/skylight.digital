@@ -1,3 +1,44 @@
+- name: chris-cairns
+  fname: Chris
+  lname: Cairns
+  full_name: Chris Cairns
+  short_name: C. Cairns
+  profile_path: /about/#chris-cairns
+  image: /img/people/chris-cairns.jpg
+  image_description: Photo of Chris Cairns
+  position: Transformation Specialist
+  bio: >
+    Chris served as a Presidential Innovation Fellow in 2013, and co-founded 18F
+    and the Technology Transformation Service, both housed within the General Services
+    Administration. He specializes in digital leadership and transformation, digital procurement,
+    and product development and management.
+  active: true
+  order: 10
+  socials:
+    - name: Twitter
+      link: https://twitter.com/cscairns
+      link_description: Chris' Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/chriscairns/
+      link_description: Chris' LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/cscairns
+      link_description: Chris' GitHub Account
+      fa_icon_name: github
+    - name: Medium
+      link: https://medium.com/@ccairns
+      link_description: Chris' Medium Account
+      fa_icon_name: medium
+    - name: Blog Posts
+      link: /blog/author/chris-cairns/
+      link_description: Chris' Blog Posts
+      fa_icon_name: pencil
+    - name: Projects
+      link: /work/team-member/chris-cairns/
+      link_description: Chris' Project Work
+      fa_icon_name: wrench
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -6,13 +47,13 @@
   profile_path: /about/#sean-johnson
   image: /img/people/sean-johnson.jpg
   image_description: Photo of Sean Johnson
-  position: Software Engineer
+  position: Full Stack Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
     IBM. He’s been programming since he was six years old, and specializes in
     software engineering, product management, and cloud computing.
   active: true
-  order: 10
+  order: 20
   socials:
     - name: Twitter
       link: https://twitter.com/BeLucid
@@ -26,335 +67,146 @@
       link: https://github.com/belucid
       link_description: Sean's GitHub Account
       fa_icon_name: github
-    - name: Medium
-      link:
-      link_description: Sean's Medium Account
-      fa_icon_name: medium
-    - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
-      fa_icon_name: home
-  contributions:
-    - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
     - name: Projects
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
-      fa_icon_name: tasks
-- name: sean-johnson
-  fname: Sean
-  lname: Johnson
-  full_name: Sean Johnson
-  short_name: S. Johnson
-  profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
-  position: Software Engineer
+      fa_icon_name: wrench
+- name: robert-read
+  fname: Robert
+  lname: Read
+  full_name: Robert Read
+  short_name: R. Read
+  profile_path: /about/#robert-read
+  image: /img/people/robert-read.jpg
+  image_description: Photo of Robert Read
+  position: Full Stack Engineer
   bio: >
-    Sean's built and exited two tech startups, one of which was bought by
-    IBM. He’s been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
+    Robert served as a Presidential Innovation Fellow in 2013 and co-founded 18F.
+    He’s been programming since he was 13 years old, and holds a PhD in computer science.
+    Robert builds robots, among other things, for public good. He specializes in software
+    engineering, data science and engineering, engineering management, and agile practices.
   active: true
-  order: 10
+  order: 30
   socials:
     - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
+      link: https://twitter.com/RobertLeeRead
+      link_description: Robert's Twitter Account
       fa_icon_name: twitter
     - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
+      link: https://www.linkedin.com/in/robert-read-878987/
+      link_description: Robert's LinkedIn Account
       fa_icon_name: linkedin
     - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
+      link: https://github.com/RobertLRead
+      link_description: Robert's GitHub Account
       fa_icon_name: github
     - name: Medium
-      link:
-      link_description: Sean's Medium Account
+      link: https://medium.com/@RobertLeeRead
+      link_description: Robert's Medium Account
       fa_icon_name: medium
-    - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
-      fa_icon_name: home
-  contributions:
     - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
+      link: /blog/author/robert-read/
+      link_description: Robert's Blog Posts
+      fa_icon_name: pencil
     - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: tasks
-- name: sean-johnson
-  fname: Sean
-  lname: Johnson
-  full_name: Sean Johnson
-  short_name: S. Johnson
-  profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
-  position: Software Engineer
+      link: /work/team-member/robert-read/
+      link_description: Robert's Project Work
+      fa_icon_name: wrench
+- name: john-teeter
+  fname: John
+  lname: Teeter
+  full_name: John Teeter
+  short_name: J. Teeter
+  profile_path: /about/#john-teeter
+  image: /img/people/john-teeter.jpg
+  image_description: Photo of John Teeter
+  position: Full Stack Engineer
   bio: >
-    Sean's built and exited two tech startups, one of which was bought by
-    IBM. He’s been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
+    John served as a Presidential Innovation Fellow in 2013, and has held
+    various senior technology executive positions over his career. He specializes
+    in software engineering, distributed and embedded systems engineering, data science
+    and engineering, cloud computing, and engineering management.
   active: true
-  order: 10
+  order: 40
   socials:
     - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
+      link: https://twitter.com/NewEnergyShift
+      link_description: John's Twitter Account
       fa_icon_name: twitter
     - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
+      link: https://www.linkedin.com/in/john-teeter-aa508545/
+      link_description: John's LinkedIn Account
       fa_icon_name: linkedin
     - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
+      link: https://github.com/jateeter
+      link_description: John's GitHub Account
       fa_icon_name: github
-    - name: Medium
-      link:
-      link_description: Sean's Medium Account
-      fa_icon_name: medium
-    - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
-      fa_icon_name: home
-  contributions:
-    - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
     - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: tasks
-- name: sean-johnson
-  fname: Sean
-  lname: Johnson
-  full_name: Sean Johnson
-  short_name: S. Johnson
-  profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
-  position: Software Engineer
+      link: /work/team-member/john-teeter/
+      link_description: John's Project Work
+      fa_icon_name: wrench
+- name: geoff-mulligan
+  fname: Geoff
+  lname: Mulligan
+  full_name: Geoff Mulligan
+  short_name: G. Mulligan
+  profile_path: /about/#geoff-mulligan
+  image: /img/people/geoff-mulligan.jpg
+  image_description: Photo of Geoff Mulligan
+  position: IoT Architect
   bio: >
-    Sean's built and exited two tech startups, one of which was bought by
-    IBM. He’s been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
+    Geoff served as a Presidential Innovation Fellow in 2013, and has developed
+    standards that power the internet, including IPv6. He specializes in Internet of Things,
+    embedded and distributed systems engineering, networking technologies, and security.
   active: true
-  order: 10
+  order: 50
   socials:
     - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
+      link: https://twitter.com/GeoffCMulligan
+      link_description: Geoff's Twitter Account
       fa_icon_name: twitter
     - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
+      link: https://www.linkedin.com/in/geoffmulligan/
+      link_description: Geoff's LinkedIn Account
       fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
-      fa_icon_name: github
-    - name: Medium
-      link:
-      link_description: Sean's Medium Account
-      fa_icon_name: medium
-    - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
-      fa_icon_name: home
-  contributions:
-    - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
     - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: tasks
-- name: sean-johnson
-  fname: Sean
-  lname: Johnson
-  full_name: Sean Johnson
-  short_name: S. Johnson
-  profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
-  position: Software Engineer
+      link: /work/team-member/geoff-mulligan/
+      link_description: Geoff's Project Work
+      fa_icon_name: wrench
+- name: kin-lane
+  fname: Kin
+  lname: Lane
+  full_name: Kin Lane
+  short_name: K. Lane
+  profile_path: /about/#kin-lane
+  image: /img/people/kin-lane.jpg
+  image_description: Photo of Kin Lane
+  position: Full Stack Engineer
   bio: >
-    Sean's built and exited two tech startups, one of which was bought by
-    IBM. He’s been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
+    Kin served as a Presidential Innovation Fellow in 2013, and is a
+    world-recognized expert in Application Programming Interfaces. He specializes
+    in API architecture and design, software engineering, data science and engineering,
+    cloud computing, and enterprise software.
   active: true
-  order: 10
+  order: 60
   socials:
     - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
+      link: https://twitter.com/apievangelist
+      link_description: Kin's Twitter Account
       fa_icon_name: twitter
     - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
+      link: https://www.linkedin.com/in/kinlane/
+      link_description: Kin's LinkedIn Account
       fa_icon_name: linkedin
     - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
+      link: https://github.com/kinlane
+      link_description: Kin's GitHub Account
       fa_icon_name: github
-    - name: Medium
-      link:
-      link_description: Sean's Medium Account
-      fa_icon_name: medium
     - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
+      link: http://kinlane.com/
+      link_description: Kin's Personal Website
       fa_icon_name: home
-  contributions:
-    - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
     - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: tasks
-- name: sean-johnson
-  fname: Sean
-  lname: Johnson
-  full_name: Sean Johnson
-  short_name: S. Johnson
-  profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
-  position: Software Engineer
-  bio: >
-    Sean's built and exited two tech startups, one of which was bought by
-    IBM. He’s been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
-  active: true
-  order: 10
-  socials:
-    - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
-      fa_icon_name: github
-    - name: Medium
-      link:
-      link_description: Sean's Medium Account
-      fa_icon_name: medium
-    - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
-      fa_icon_name: home
-  contributions:
-    - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
-    - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: tasks
-- name: sean-johnson
-  fname: Sean
-  lname: Johnson
-  full_name: Sean Johnson
-  short_name: S. Johnson
-  profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
-  position: Software Engineer
-  bio: >
-    Sean's built and exited two tech startups, one of which was bought by
-    IBM. He’s been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
-  active: true
-  order: 10
-  socials:
-    - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
-      fa_icon_name: github
-    - name: Medium
-      link:
-      link_description: Sean's Medium Account
-      fa_icon_name: medium
-    - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
-      fa_icon_name: home
-  contributions:
-    - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
-    - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: tasks
-- name: sean-johnson
-  fname: Sean
-  lname: Johnson
-  full_name: Sean Johnson
-  short_name: S. Johnson
-  profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
-  position: Software Engineer
-  bio: >
-    Sean's built and exited two tech startups, one of which was bought by
-    IBM. He’s been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
-  active: true
-  order: 10
-  socials:
-    - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
-      fa_icon_name: github
-    - name: Medium
-      link:
-      link_description: Sean's Medium Account
-      fa_icon_name: medium
-    - name: Personal Website
-      link:
-      link_description: Sean's Personal Website
-      fa_icon_name: home
-  contributions:
-    - name: Blog Posts
-      link: /blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil-square
-    - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: tasks
+      link: /work/team-member/kin-lane/
+      link_description: Kin's Project Work
+      fa_icon_name: wrench

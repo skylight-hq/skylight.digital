@@ -28,33 +28,17 @@
 @include multi-col-spacing('employee-col', $mb-size: 4, $mb-md-size: 5);
 
 .employee-footer {
-  @include media-breakpoint-up(sm) {
-    font-size: $font-size-lg;
-  }
+  font-size: $font-size-large;
 
   a {
     @include link-decoration($gray-light, $brand-primary, none, none);
-  }
-}
 
-.employee-socials {
-  a:last-child {
-    padding-right: 10px;
+    &:not(:first-child) {
+      padding-left: 10px;
+    }
   }
 
-  a:not(:first-child) {
-    padding-left: 5px;
-  }
-}
-
-.employee-contributions {
-  border-left: 1px solid $gray-lightest;
-
-  a:first-child {
-    padding-left: 15px;
-  }
-
-  a:not(:last-child) {
-    padding-right: 5px;
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-x-large;
   }
 }
