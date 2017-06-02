@@ -14,7 +14,7 @@
 }
 
 .navbar-logo {
-  @include logo;
+  @include logo($version: 'logo');
   transition: all 0.1s ease-in-out;
 
   &:focus,
