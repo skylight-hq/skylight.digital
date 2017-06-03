@@ -76,8 +76,13 @@
   @extend %mb-md-5;
 }
 
+%landing-section-col {
+  @extend %col-11;
+  @extend %mx-auto;
+}
+
 .landing-header-col {
-  @extend %col;
+  @extend %landing-section-col;
 
   img {
     @extend %img-fluid;
@@ -101,7 +106,7 @@
 }
 
 .landing-cta-col {
-  @extend %col;
+  @extend %landing-section-col;
 }
 
 .landing-cta {
