@@ -1,46 +1,54 @@
 ---
 layout: default
 title: Agile Delivery Services Marketplace
-subtitle: Transforming how organizations maintain transparency.  
+subtitle: Streamlining procurement of custom software solutions.
 permalink: /work/agile-delivery-services-marketplace/
-image: /img/projects/opencompany/opencompany.jpg
-image_description: OpenCompany Transparency Platform
+image: /img/projects/adsm/adsm.jpg
+image_description: Abstract image representing a marketplace of agile vendors.
 feature_image: true
 order: 200
-tags: [digital services delivery, sean johnson]
-excerpt: A digital platform for organizations to more effectively engage employees and other stakeholders through transparency.
+tags: [digital procurement, chris cairns, robert read]
+excerpt: A federal-wide marketplace of pre-vetted software development vendors who practice agile the right way.
 project_members:
-  - sean-johnson
+  - chris-cairns
+  - robert-read
 technologies:
-  - Clojure
-  - Amazon Web Services
-  - HTML5 / CSS3
+  - GitHub
+  - G Suite
+  - Adobe Connect
 practices:
-  - Agile Development
-  - Microservices Architecture
   - Lean Startup
-  - Open Source
+  - Market Research
+  - Customer Research
+  - Acquisition Planning
+  - Vendor Outreach
+  - Challenge-based Acquisition
+  - Best Value Contracting
+  - Public Domain Contracting
+  - Oral Presentations
 screenshots:
-  - image: /img/projects/opencompany/oc-small-dashboard.jpg
-    image_description: Image of the dashboard
-    caption: Screenshot of the dashboard
-    filename: oc-small-dashboard
-  - image: /img/projects/opencompany/oc-medium-dashboard.jpg
-    image_description: Image of the dashboard
-    caption: Screenshot of the dashboard
-    filename: oc-medium-dashboard
-  - image: /img/projects/opencompany/oc-big-dashboard.jpg
-    image_description: Image of the dashboard
-    caption: Screenshot of the dashboard
-    filename: oc-big-dashboard
 news_posts:
-  - title: OpenCompany changes the world
-    url: http://www.cnn.com/
-  - title: OpenCompany does it again
-    url: http://www.cnn.com/
-  - title: Why I love OpenCompany
-    url: http://www.cnn.com/
-project_url: https://opencompany.com/
+  - title: GSA’s agile RFI beginning of ‘systemic change’ in IT acquisition
+    url: http://federalnewsradio.com/management/2015/01/gsas-agile-rfi-beginning-of-systemic-change-in-it-acquisition/
+  - title: GSA’s new contract to feed hunger for agile IT development services
+    url: http://federalnewsradio.com/technology/2015/02/gsas-new-contract-to-feed-hunger-for-agile-it-development-services/
+  - title: Failure is an option for GSA’s new 18F agile contract
+    url: http://federalnewsradio.com/technology/2015/06/failure-is-an-option-for-gsas-new-18f-agile-contract/
+  - title: GSA Developing Contract for Agile Delivery Services
+    url: http://www.fedweek.com/fedweek-information-technology/gsa-developing-contract-agile-delivery-services/
+  - title: GSA takes a big step towards baking agile into federal procurement
+    url: https://govfresh.com/2015/01/gsa-takes-big-step-towards-baking-agile-federal-procurement/
+  - title: Say goodbye to 100 page RFPs – 18F found another way
+    url: http://www.federaltimes.com/story/government/acquisition/2015/07/27/18f-show-dont-tell/30737575/
+  - title: 18F awards 16 spots on new Agile BPA
+    url: http://www.federaltimes.com/story/government/acquisition/gsa-gwac/2015/08/28/agile-bpa-awards/71327396/
+  - title: 18F steps up its acquisition game
+    url: https://washingtontechnology.com/articles/2015/08/14/insights-soloway-18f-progress.aspx
+  - title: Ohio Launches Highly Anticipated 18F-Style RFP
+    url: http://www.govtech.com/data/Ohio-Launches-Highly-Anticipated-18F-Style-RFP.html
+  - title: Guidelines for Agile, Challenge-based Procurement
+    url: https://hackernoon.com/guidelines-for-agile-challenge-based-procurement-4531ff335422
+project_url:
 source_code_url:
 ---
 
@@ -52,19 +60,44 @@ source_code_url:
 %}
 
 {% capture summary %}
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+  The Agile Delivery Services Marketplace is a federal-wide, pre-vetted pool of software development vendors who practice agile the right way.
 {% endcapture %}
 
 {% capture challenge %}
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+  Following the Healthcare.gov launch failure, federal agencies started looking more and more toward agile as an alternative method to waterfall for delivering custom software solutions. Finding a vendor who excelled at agile, however, was difficult. And even if agencies could find one, traditional methods of contracting often fell short of: (a) revealing the makers from the fakers; (b) protecting the government’s data and source-code ownership rights to prevent vendor lock-in; and (c) acquiring services at the speed of need.
 {% endcapture %}
 
 {% capture solution %}
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+  To address these challenges, Chris Cairns, Robert Read, and other team members within the General Services Administration created the first-ever, federal-wide contract vehicle of vendors who specialize in agile delivery services (for example, user-centered design, agile software development, DevOps) using several groundbreaking approaches:
+
+  <ul>
+    <li>
+      A “show, don’t tell” or “prototype-as-proposal” approach in which vendors were required to submit working prototypes (over written narratives) using <a href="https://open.fda.gov/" target="_blank">openFDA</a> as the basis for evaluating capabilities;
+    </li>
+
+    <li>
+      A robust contractual clause that, by default, requires all vendors to agree to commit all data, source code, and documentation produced for the government to the public domain; and
+    </li>
+
+    <li>
+      Combination of a blanket purchase agreement contract type under IT Schedule 70, ready-made assets (for example, solicitation templates), performance work statements, oral presentations, and other methods for rapidly issuing and awarding task/work orders.
+    </li>
+  </ul>
 {% endcapture %}
 
 {% capture results %}
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+  Notable results include:
+
+  <ul>
+    <li>Attracted over 700 attendees to industry outreach events</li>
+    <li>Received over 200 proposal submissions, all delivered via public GitHub repos</li>
+    <li>Evaluated all proposals within 4 weeks</li>
+    <li>Issued awards to 17 vendors</li>
+    <li>Soundness of evaluation methodology withstood 8 protests</li>
+    <li>Heralded by industry, Congress, and the White House’s Office of Management and Budget as a model for agencies to follow</li>
+    <li>Inspired several federal and state & local agencies (for example, Department of Homeland Security, Environmental Protection Agency, State of California, State of Mississippi) to create a similar marketplace</li>
+    <li>Used by nearly a dozen federal agencies who are experiencing improved contractual outcomes</li>
+  </ul>
 {% endcapture %}
 
 {% include project.html
