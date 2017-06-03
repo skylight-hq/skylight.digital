@@ -187,7 +187,14 @@
 
   .#{$class-name}-img {
     @extend %card-img-top;
-    @extend %img-fluid;
+    @extend .m-0;
+    @extend .p-0;
+    background-color: $gray-lighter;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
   }
 
   .#{$class-name}-block {
