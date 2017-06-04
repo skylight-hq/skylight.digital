@@ -2,17 +2,18 @@
   <div class="project-case-study-row">
     <article class="project-case-study-col">
       <h2 class="sr-only">Summary</h2>
-      <p>{{include.summary}}</p>
+      {{include.summary}}
 
       {% if page.feature_image %}
         <img class="project-feature-image" src="{{page.image}}" alt="{{page.image_description}}">
       {% endif %}
 
       <h2>The challenge</h2>
-      <p>{{include.challenge}}</p>
+      {{include.challenge}}
 
       <h2>The solution</h2>
-      <p>{{include.solution}}</p>
+      {{include.solution}}
+
       <aside class="approach">
         <div class="row">
           <div class="col-sm-12">
@@ -76,7 +77,8 @@
       </aside>
 
       <h2>The results</h2>
-      <p>{{include.results}}</p>
+      {{include.results}}
+
       {% if page.news_posts %}
         <aside class="news-coverage">
           <h3>News coverage</h3>
