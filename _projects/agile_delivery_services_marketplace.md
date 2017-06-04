@@ -3,7 +3,7 @@ layout: default
 title: Agile Delivery Services Marketplace
 subtitle: Streamlining procurement of custom software solutions.
 permalink: /work/agile-delivery-services-marketplace/
-image: /img/projects/adsm/adsm.jpg
+image: /img/projects/agile_delivery_services_marketplace/agile-delivery-services-marketplace.jpg
 image_description: Abstract image representing a marketplace of agile vendors.
 feature_image: true
 order: 200
@@ -86,7 +86,7 @@ source_code_url:
 {% endcapture %}
 
 {% capture results %}
-  Notable results include:
+  Notable results thus far include:
 
   <ul>
     <li>Attracted over 700 attendees to industry outreach events</li>
