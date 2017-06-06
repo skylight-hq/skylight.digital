@@ -1,0 +1,104 @@
+---
+layout: default
+title: TalkTo
+subtitle: Text questions to any business, and receive a response.
+permalink: /work/talkto/
+image: /img/projects/talkto/talkto.jpg
+image_description: The logo of TalkTo.
+feature_image: true
+order: 800
+tags: [digital services delivery, sean johnson]
+excerpt: A digital messaging service that lets consumers text any business, and receive an immediate response.
+project_members:
+  - sean-johnson
+technologies:
+  - HTML5 / CSS3
+  - JavaScript / Backbone
+  - iOS SDK
+  - Android SDK
+  - Python / Django
+  - Erlang / XMPP
+  - PostgreSQL
+  - Twilio
+  - Amazon Web Services
+practices:
+  - User Experience Design
+  - Lean Startup
+  - Agile Development
+  - RESTful API Architecture
+screenshots:
+news_posts:
+  - title: TechCrunch Disrupt SF Battlefield Semifinals&#58; The Judges React
+    url: https://techcrunch.com/2011/09/14/techcrunch-disrupt-sf-battlefield-semifinals-the-judges-react/
+  - title: TalkTo Allows Consumers To SMS Any Local Business And Get A Quick Response
+    url: https://techcrunch.com/2011/09/13/talkto-allows-consumers-to-sms-any-local-business-and-get-a-quick-response/
+  - title: TalkTo raises $3 million for app that lets you text questions to businesses
+    url: http://archive.boston.com/business/technology/innoeco/2012/04/talkto_raises_3_million_for_ap.html
+  - title: Path Looks To Combine Commerce And Messaging With TalkTo Acquisition, Release Of New 'Talk' App
+    url: https://techcrunch.com/2014/06/20/path-talk-talkto/
+project_url:
+source_code_url:
+---
+
+{% include page_header.html
+  header_content_class = 'page-header-content-1'
+%}
+
+{% capture summary %}
+  <p>
+    TalkTo was a digital messaging service that let consumers text any business,
+    and receive an immediate response.
+  </p>
+{% endcapture %}
+
+{% capture challenge %}
+  <p>
+    People find traditional ways of communicating with businesses
+    (such as via telephone) annoying and inefficient.
+  </p>
+{% endcapture %}
+
+{% capture solution %}
+  <p>
+    Given the rise and convenience of text messaging, Sean Johnson and the TalkTo
+    team created web and native mobile versions of an application that lets consumers
+    text any business at all, even those that have never heard of TalkTo, and receive
+    a response within 5 minutes. Speed and reliability were critical aspects of the
+    user experience so Erlang, which is known for its ability to support massively
+    scalable soft real-time systems with requirements on high availability, was chosen
+    as the backend.
+  </p>
+{% endcapture %}
+
+{% capture results %}
+  <p>Notable results include:</p>
+
+  <ul>
+    <li>
+      TechCrunch Disrupt runner-up
+    </li>
+
+    <li>
+      Averaged business-to-consumer text response time of 5 minutes
+    </li>
+
+    <li>
+      Awarded $250K research grant from DARPA
+    </li>
+
+    <li>
+      Raised $3M in a Series A round
+    </li>
+
+    <li>
+      Acquired by Path
+    </li>
+  </ul>
+{% endcapture %}
+
+{% include project.html
+  summary = summary
+  challenge = challenge
+  solution = solution
+  results = results
+%}
