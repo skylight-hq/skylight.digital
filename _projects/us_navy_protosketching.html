@@ -1,0 +1,82 @@
+---
+layout: default
+title: Protosketching with the U.S. Navy
+subtitle: Facilitating decision-making through rapid prototyping.
+permalink: /work/us-navy-protosketching/
+image: /img/projects/us_navy_protosketching/protosketching.jpg
+image_description: An abstract image of a website being prototyped on a laptop.
+feature_image: true
+order: 900
+tags: [microconsulting, robert read]
+excerpt: Empowering the U.S. Navy to make critical design and technology decisions through a unique form of rapid prototyping.
+project_members:
+  - robert-read
+technologies:
+  - HTML5 / CSS3
+  - JavaScript
+  - Twitter Bootstrap
+  - Temporary URLs
+  - Heroku
+  - GitHub
+practices:
+  - Rapid Prototyping
+  - User Story Writing and Estimation
+  - User Testing
+  - Responsive Web Design
+  - Open Source Development
+  - Cloud Hosting
+screenshots:
+news_posts:
+  - title: How protosketching can help digital development
+    url: https://gcn.com/articles/2015/01/16/protosketching-18f.aspx
+  - title: Ready-2-Serve (R2S)
+    url: https://www.youtube.com/watch?v=-3l4Kulqq5I
+project_url:
+source_code_url:
+---
+
+{% capture header_title %} Protosketching with <br> the U.S. Navy {% endcapture %}
+
+{% include page_header.html
+  header_title = header_title
+  header_content_class = 'page-header-content-1'
+%}
+
+{% capture summary %}
+  <p>
+    To introduce the U.S. Navy to modern development practices and technologies, we
+    implemented a mobile website in a single afternoon that mocked the functionality
+    of what was really needed, allowing critical design and technology decisions to be
+    made rapidly.
+  </p>
+{% endcapture %}
+
+{% capture challenge %}
+  <p>
+    The U.S. Navy Reserve had a critical need to improve the digital experience of
+    sailors writing orders for their reserve duties. Making this functionality accessible
+    via mobile devices was a critical requirement, but whether to do this via native
+    mobile apps or responsive web design remained an open question.
+  </p>
+{% endcapture %}
+
+{% capture solution %}
+  <p>
+    Using a technique that we pioneered, called "<a href="https://18f.gsa.gov/2015/01/06/protosketch/" target="_blank">protosketching</a>,"
+    we broke the afternoon into 3 sprints of one hour each. In this space of time, we were
+    able to quickly write user stories that were acted upon by our programmers in the
+    protosketching session to complete a functional mock-up in 3 hours. This allowed
+    the Navy to make decisions efficiently and effectively about next steps in a major project.
+  </p>
+{% endcapture %}
+
+{% capture results %}
+  <p>Major project decisions were de-risked at relatively low cost.</p>
+{% endcapture %}
+
+{% include project.html
+  summary = summary
+  challenge = challenge
+  solution = solution
+  results = results
+%}
