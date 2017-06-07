@@ -33,6 +33,7 @@
 
   ul {
     @extend %mb-0;
+    @extend %list-unstyled;
 
     li:not(:last-child) {
       @extend %pb-3;
@@ -62,19 +63,10 @@
 .approach-area-card-block {
   @extend %card-block;
   @extend %p-0;
-
-  ul {
-    @extend %list-unstyled;
-  }
 }
 
 .news-coverage {
   @extend %project-aside-base;
-  @extend %list-inside;
-
-  ul {
-    @extend %list-unstyled;
-  }
 
   a {
     @include link-decoration($project-aside-link-color, $project-aside-link-hover-color,
