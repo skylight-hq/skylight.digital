@@ -3,10 +3,10 @@ layout: default
 title: Digital Transformation
 permalink: /services/digital-transformation/
 excerpt: Digital organizations built to last, plus attract top digital talent.
-image: /img/buzzword-stickies.jpg
-image_description: Buzzword Stickies
-image_icon: /img/digital-transformation-icon.svg
-image_icon_description: Digital Transformation Icon
+image: /img/digital-transformation.png
+image_description: An image of a government building that is digitized with 0's and 1's.
+image_icon: /img/digital-transformation-icon.png
+image_icon_description: An image of a government building that is digitized with 0's and 1's.
 order: 3
 feature: true
 tags: [digital transformation, lean-agile enterprise, devops]

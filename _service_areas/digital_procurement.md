@@ -3,10 +3,10 @@ layout: default
 title: Digital Procurement
 permalink: /services/digital-procurement/
 excerpt: Tech procurements that succeed and inspire public confidence.
-image: /img/buzzword-stickies.jpg
-image_description: Buzzword Stickies
-image_icon: /img/digital-procurement-icon.svg
-image_icon_description: Digital Procurement Icon
+image: /img/digital-procurement.png
+image_description: An image of a government building with abstract vendor icons around it.
+image_icon: /img/digital-procurement-icon.png
+image_icon_description: An image of a government building with abstract vendor icons around it.
 order: 2
 feature: true
 tags: [digital procurement, digital acquisition, agile acquisition]

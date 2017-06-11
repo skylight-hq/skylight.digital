@@ -3,10 +3,10 @@ layout: default
 title: Microconsulting
 permalink: /services/microconsulting/
 excerpt: Immediate, quick-turnaround answers to critical digital challenges or questions.
-image: /img/buzzword-stickies.jpg
-image_description: Buzzword Stickies
-image_icon: /img/microconsulting-icon.svg
-image_icon_description: Microconsulting Icon
+image: /img/microconsulting.png
+image_description: An image of several mini-brains representing different types of microconsulting services.
+image_icon:
+image_icon_description:
 order: 4
 feature: false
 tags:
