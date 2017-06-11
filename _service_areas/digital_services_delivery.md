@@ -3,10 +3,10 @@ layout: default
 title: Digital Services Delivery
 permalink: /services/digital-services-delivery/
 excerpt: Beautiful, enduring digital services that customers love.
-image: /img/buzzword-stickies.jpg
-image_description: Buzzword Stickies
-image_icon: /img/digital-services-delivery-icon.svg
-image_icon_description: Digital Services Delivery Icon
+image: /img/digital-services-delivery.png
+image_description: An image of a government building being rendered in a computer browser.
+image_icon: /img/digital-services-delivery-icon.png
+image_icon_description: An image of a government building being rendered in a computer browser.
 order: 1
 feature: true
 tags: [digital services delivery, legacy modernization, product development, customer experience design]
