@@ -57,6 +57,18 @@
 .post-content {
   @extend %narrative-base;
   @extend %mb-5;
+
+  blockquote {
+    @extend %blockquote;
+    @extend %my-4;
+  }
+
+  table {
+    @extend %table;
+    @extend %table-bordered;
+    @extend %table-responsive;
+    @extend %my-4;
+  }
 }
 
 .post-footer {
