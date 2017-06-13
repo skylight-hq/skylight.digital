@@ -8,7 +8,7 @@ image_description: An abstract image of lines of programming code on a computer 
 image_display: true
 order: 200
 tags: [digital services delivery, robert read]
-excerpt: Until a more robust model for measuring technical debt is developed, we suggest using a simple formula for measuring the "badness" of a codebase in order to make improvement decisions.
+excerpt: Until a more robust model for measuring technical debt is developed, we suggest using a simple formula for measuring the "badness" of a codebase in order to facilitate system improvement decisions.
 authors:
   - Robert Read
 date_published: 2017-04-29
