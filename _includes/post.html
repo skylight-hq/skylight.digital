@@ -16,7 +16,9 @@
             </time>
           </span>
         </p>
-        <img class="post-feature-img" src="{{page.image}}" alt="{{page.image_description}}">
+        {% if page.image_display %}
+          <img class="post-feature-img" src="{{page.image}}" alt="{{page.image_description}}">
+        {% endif %}
       </header>
 
       <div class="post-content">
