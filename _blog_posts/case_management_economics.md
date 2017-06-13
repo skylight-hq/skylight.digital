@@ -3,12 +3,12 @@ layout: blog_post
 title: "Case management: a study in non-traditional economics for government"
 permalink: /blog/case-management-a-study-in-non-traditional-economics-for-government/
 content_type: BlogPosting
-image: /img/blog/case_mgmt/case-files.jpg
+image: /img/blog/case_management/case-files.jpg
 image_description: A photo of various case files organized on racks.
 image_display: true
 order: 100
 tags: [digital services delivery, digital procurement, robert read, chris cairns]
-excerpt: Case management systems are commonplace and largely overlap. Agencies and vendors need to cooperate across both time and space by creating consortia, or less formal means of cooperating.
+excerpt: Case management systems are commonplace and largely overlap. Agencies and vendors should consider innovative models for cooperating with one another in order to reduce duplicative efforts.
 authors:
   - Robert Read
   - Chris Cairns
