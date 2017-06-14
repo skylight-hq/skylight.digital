@@ -23,9 +23,9 @@ date: 2017-04-29
 
 Programming, a form of literature, is greatest when it does the most with the least.
 
-The job of a programmer is to produce order out of chaos, and the more compactly that order can be expressed the better.
+The job of a programmer is to produce order out of chaos, and the more compactly that order can be expressed, the better.
 
-Although we can all think of exceptions which prove the rule, shorter code is better code in general.
+Although we can all think of exceptions that prove the rule, shorter code is better code in general.
 
 But how is the software architect or executive to make use of this? It is all very well for programmers to talk about regular expressions, lambda-lifting, and higher-order programming, and I wish more did. But many of us are stuck in the dreary dull world of enterprise software where oceans of fluffy code suffocate the user, like a child falling into a vat of cotton candy. Working with enterprise software sometimes feels like beating a cloud.
 
