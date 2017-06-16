@@ -6,7 +6,7 @@
   profile_path: /about/#chris-cairns
   image: /img/people/chris-cairns.jpg
   image_description: Photo of Chris Cairns
-  position: Transformation Specialist
+  position: Digital Transformer
   bio: >
     Chris served as a Presidential Innovation Fellow in 2013, and co-founded 18F
     and the Technology Transformation Service, both housed within the General Services
@@ -169,10 +169,6 @@
       link: https://www.linkedin.com/in/geoffmulligan/
       link_description: Geoff's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/geoff-mulligan/
-      link_description: Geoff's Project Work
-      fa_icon_name: wrench
 - name: kin-lane
   fname: Kin
   lname: Lane
