@@ -140,8 +140,8 @@ You do not have to pay to make it easy for others to reuse your system; making i
 
 The fundamental strategy for agencies, however, is based on how you spend your time: government employees must dedicate a small fraction of their time to seeking cooperation in order to obtain the savings benefit of huge overlaps between case management systems.
 
-The fundamental strategy for vendors is similar: vendors need to focus on building case management systems in ways that can be reused across both space and time.
+The fundamental strategy for vendors is similar: vendors need to focus on building case management systems in ways that can be reused across both space and time. This will require vendors to devote a certain amount of time to activities which support this cooperation: creating open standards, communicating with other vendors, and writing clear APIs (application programming interfaces) and automated tests and documentation of the system.
 
 ## Conclusion
 
-Case management systems are commonplace and largely overlap. Agencies and vendors need to cooperate across both time and space by creating consortia, or less formal means of cooperating. In order to do this, architectural and application programming interface standards need to be explored and explained. Agencies need to support a small but significant amount of time for their officers and agents to collaborate with other agencies to form consortia. Vendors need to provide leadership in this area, and this is article is our initial attack on that problem.
+Case management systems are commonplace and largely overlap. Agencies and vendors need to cooperate across both time and space by creating consortia, or less formal means of cooperating. In order to do this, architectural and API standards need to be explored and explained. Agencies need to support a small but significant amount of time for their officers and agents to collaborate with other agencies to form consortia. Vendors need to provide leadership in this area, and this is article is our initial attack on that problem.
