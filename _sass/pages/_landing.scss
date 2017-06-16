@@ -44,71 +44,44 @@
 
 .landing-body {
   @extend %container;
+  @extend %mt-5;
+  @extend %mt-md-7;
 }
 
-.landing-section {
-  &:first-child {
-    @extend %mt-5;
-    @extend %mt-md-7;
-  }
+.landing-section-row-temp {
+  @extend %row;
 
   &:not(:last-child) {
     @extend %mb-6;
-    @extend %mb-md-7;
+    @extend %mb-md-8;
   }
+}
+
+.landing-section-col-temp {
+  @extend %col-11;
+  @extend %col-sm-10;
+  @extend %col-md-9;
+  @extend %col-lg-8;
+  @extend %mx-auto;
 
   h2 {
     @extend %mb-0;
   }
 
-  p {
-    @extend %text-left;
+  img {
+    @extend %img-fluid;
+    @extend %my-4;
+    @extend %my-md-5;
+  }
 
-    &:last-child {
+  p {
+    &:last-of-type {
       @extend %mb-0;
     }
   }
-}
 
-.landing-header-row {
-  @extend %row;
-  @extend %mb-4;
-  @extend %mb-md-5;
-}
-
-%landing-section-col {
-  @extend %col-11;
-  @extend %mx-auto;
-}
-
-.landing-header-col {
-  @extend %landing-section-col;
-
-  img {
-    @extend %img-fluid;
+  a {
+    @extend %btn-page;
     @extend %mt-4;
-    @extend %mt-md-5;
   }
-}
-
-.landing-content-row {
-  @extend %row;
-}
-
-.landing-content-col {
-  @extend %text-heavy-col-base;
-  @extend %text;
-}
-
-.landing-cta-row {
-  @extend %row;
-  @extend %mt-4;
-}
-
-.landing-cta-col {
-  @extend %landing-section-col;
-}
-
-.landing-cta {
-  @extend %btn-page;
 }

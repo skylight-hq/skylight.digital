@@ -26,7 +26,7 @@ Using FOSS allows for product customization, advances interoperability between t
 
 Active involvement from the open source community is integral to the success of open source code. Skylight will be an active contributor to FOSS projects that it or its clients utilize.
 
-Code written entirely by Skylight staff will be dedicated to the public domain. In addition, any contracts Skylight enters into, where others will develop software on Skylight’s behalf, will ensure that all results are dedicated to the public domain to the greatest extent practicable. In general, all discussion in this document about the licensing of work of Skylight’s contractors means that Skylight’s will aim to ensure that their contracts guarantee those terms.
+Code written entirely by Skylight staff will be dedicated to the public domain. In addition, any contracts Skylight enters into, where others will develop software on Skylight's behalf, will ensure that all results are dedicated to the public domain to the greatest extent practicable. In general, all discussion in this document about the licensing of work of Skylight's contractors means that Skylight's will aim to ensure that their contracts guarantee those terms.
 
 Skylight encourages contributions to its open source projects, whether it be code, commentary, bug reports, feature requests, or overall strategic direction.
 
@@ -46,7 +46,7 @@ However, certain projects will require the usage of licensed open source softwar
 
 There is a misconception that FOSS that is distributed to the public should not be integrated or modified for use in sensitive systems. On the contrary, FOSS is often preferred for use in sensitive systems, due in part to its increased auditability. In other words, security in FOSS must be designed never to rely on obscurity in how the code works.
 
-In addition, while open source licenses permit the user to modify FOSS for internal use without obligating them to distribute source code to the public, when the user chooses to distribute the modified FOSS outside the user’s organization, then the code is subject to whatever license it carries.
+In addition, while open source licenses permit the user to modify FOSS for internal use without obligating them to distribute source code to the public, when the user chooses to distribute the modified FOSS outside the user's organization, then the code is subject to whatever license it carries.
 
 ## Exceptions
 

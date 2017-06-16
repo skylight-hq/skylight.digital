@@ -10,12 +10,12 @@ Skylight is committed to protecting individual privacy and securing the personal
 
 <strong>Automatically collected.</strong> Skylight automatically collects non-personally identifying information such as browser type, operating system, referring site, user events (for example, a click), and the date and time of each site visit.
 
-<strong>Cookies.</strong> A cookie is a string of information that a website stores on a visitor’s computer and that the visitor’s browser provides to the website each time the visitor returns. Skylight uses cookies to identify visitors and to track their usage of our website. Visitors who do not wish to have cookies placed on their computer should disable cookies within their browser before using our website. You will still be able to access the information on our website if you choose to opt-out of accepting cookies from our site.
+<strong>Cookies.</strong> A cookie is a string of information that a website stores on a visitor's computer and that the visitor's browser provides to the website each time the visitor returns. Skylight uses cookies to identify visitors and to track their usage of our website. Visitors who do not wish to have cookies placed on their computer should disable cookies within their browser before using our website. You will still be able to access the information on our website if you choose to opt-out of accepting cookies from our site.
 Information You Give Us
 
 <strong>Generally and applications.</strong>You do not have to provide Skylight with any personal information or create a user account to access information on skylight.digital. However, if you choose to submit a form for the purpose of applying to a job, inquiring about our services, or inquiring about a business relationship, we need some personal information from you such as your name and email.
 
-<strong>Third-party sites.</strong> Skylight maintains official pages or accounts on third-party websites (these are generally social media) in order to better engage with our target audiences. You can submit or publish information to these sites that we will receive &mdash; for example by sending a message, posting a comment, “following,” “friending,” or taking similar actions. This information may contain personal information, such as an individual’s username and other public account information, when such information is available based on your privacy settings and the terms of the site.
+<strong>Third-party sites.</strong> Skylight maintains official pages or accounts on third-party websites (these are generally social media) in order to better engage with our target audiences. You can submit or publish information to these sites that we will receive &mdash; for example by sending a message, posting a comment, “following,” “friending,” or taking similar actions. This information may contain personal information, such as an individual's username and other public account information, when such information is available based on your privacy settings and the terms of the site.
 
 ## How Information is Used
 
@@ -33,13 +33,13 @@ Information You Give Us
 
 <strong>Additional use.</strong> In some cases, we may share information you have provided or automatically generated information in response to lawful judicial or law enforcement requests or to protect skylight.digital from security threats.
 
-<strong>Analytics.</strong> Skylight uses a third-party analytics provider (currently Google Analytics) to analyze data from cookies. The third-party analytics provider does not receive personally identifiable information through these cookies. We have also limited the provider’s ability to see your full IP address (a process known as “IP masking”). You can get more information about [how Google Analytics uses cookies that are on our site](https://www.google.com/policies/privacy/partners/), or review [Google Analytics privacy policy](https://www.google.com/intl/en/policies/privacy/) for additional information.
+<strong>Analytics.</strong> Skylight uses a third-party analytics provider (currently Google Analytics) to analyze data from cookies. The third-party analytics provider does not receive personally identifiable information through these cookies. We have also limited the provider's ability to see your full IP address (a process known as “IP masking”). You can get more information about [how Google Analytics uses cookies that are on our site](https://www.google.com/policies/privacy/partners/), or review [Google Analytics privacy policy](https://www.google.com/intl/en/policies/privacy/) for additional information.
 
 <strong>Other sharing.</strong> We do not use or share your information for commercial purposes.
 
 ## Third-Party Sites
 
-<strong>Third-party policies.</strong> Your activity on those sites is governed by the website’s security and privacy policies. Users of third-party sites often share information with the general public, user community, and/or the third-party operating the site. Consequently, you should review the privacy policies of third-party sites before using them and ensure that you understand how your information may be shared and used. You should also adjust privacy settings on your account on any third-party site to match your preferences. All official Skylight accounts are clearly labeled.
+<strong>Third-party policies.</strong> Your activity on those sites is governed by the website's security and privacy policies. Users of third-party sites often share information with the general public, user community, and/or the third-party operating the site. Consequently, you should review the privacy policies of third-party sites before using them and ensure that you understand how your information may be shared and used. You should also adjust privacy settings on your account on any third-party site to match your preferences. All official Skylight accounts are clearly labeled.
 
 <strong>Analytics.</strong> For aggregate statistical analysis and to improve the quality of our services, we may integrate web measurement tools with our social media pages. These tools enable basic analysis of social media traffic (such as the number of people visiting a certain page).
 
@@ -47,7 +47,7 @@ Information You Give Us
 
 ## Children and Privacy
 
-We believe in the importance of protecting the privacy of children online. The Children’s Online Privacy Protection Act governs information gathered online from or about children under the age of 13. Verifiable consent from a child’s parent or guardian is required before collecting, using, or disclosing personal information from a child under age 13. Our site is not intended to solicit information of any kind from children under age 13.
+We believe in the importance of protecting the privacy of children online. The Children's Online Privacy Protection Act governs information gathered online from or about children under the age of 13. Verifiable consent from a child's parent or guardian is required before collecting, using, or disclosing personal information from a child under age 13. Our site is not intended to solicit information of any kind from children under age 13.
 
 ## Security
 

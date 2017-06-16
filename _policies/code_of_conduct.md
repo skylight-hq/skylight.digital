@@ -12,13 +12,13 @@ This is our code of conduct policy. We follow all Equal Employment Opportunity (
 
 ## Be empowering
 
-Consider what you can do to encourage and support others. Make room for quieter voices to contribute. Offer support and enthusiasm for great ideas. Leverage the low cost of experimentation to support your colleagues’ ideas, and take care to acknowledge the original source, not just the most recent or loudest contributor. When someone offers something unexpected, look for ways you can contribute and collaborate. Share your knowledge and skills. Prioritize access for and input from those who are traditionally excluded from the civic process.
+Consider what you can do to encourage and support others. Make room for quieter voices to contribute. Offer support and enthusiasm for great ideas. Leverage the low cost of experimentation to support your colleagues' ideas, and take care to acknowledge the original source, not just the most recent or loudest contributor. When someone offers something unexpected, look for ways you can contribute and collaborate. Share your knowledge and skills. Prioritize access for and input from those who are traditionally excluded from the civic process.
 
 ## Boundaries
 
 Create boundaries to your own behavior and consider how you can create safe space that helps prevent unacceptable behavior by others. We do not seek to list all cases of unacceptable behavior, but provide examples to help guide our community in thinking through how to respond when we experience these types of behavior, whether directed at ourselves or others.
 
-If you are unsure if something is appropriate behavior, it probably isn’t. Each person you interact with can define where that line is for them. <em>Impact matters more than intent.</em> Ensuring that your behavior does not have a negative impact is your responsibility. Problems happen when we assume that our way of thinking or behaving is the norm or ok with everyone. This is particularly problematic when we are in a position of power or privilege.
+If you are unsure if something is appropriate behavior, it probably isn't. Each person you interact with can define where that line is for them. <em>Impact matters more than intent.</em> Ensuring that your behavior does not have a negative impact is your responsibility. Problems happen when we assume that our way of thinking or behaving is the norm or ok with everyone. This is particularly problematic when we are in a position of power or privilege.
 
 Here are a few examples of unacceptable behavior:
 
@@ -26,7 +26,7 @@ Here are a few examples of unacceptable behavior:
 - Touching people without their affirmative consent.
 - Sustained disruption of meetings, talks, or discussions, including chatrooms.
 - Patronizing language or behavior.
-- Aggressive and micro-aggressive behavior, such as unconstructive criticism, providing corrections that do not improve the conversation (sometimes referred to as “well actually”s), repeatedly interrupting or talking over someone else, feigning surprise at someone’s lack of knowledge or awareness about a topic, or subtle prejudice (for example, comments like “That’s so easy my grandmother could do it.”).
+- Aggressive and micro-aggressive behavior, such as unconstructive criticism, providing corrections that do not improve the conversation (sometimes referred to as “well actually”s), repeatedly interrupting or talking over someone else, feigning surprise at someone's lack of knowledge or awareness about a topic, or subtle prejudice (for example, comments like “That's so easy my grandmother could do it.”).
 - Referring to people in a way that misidentifies their gender and/or rejects the validity of their gender identity; for instance by using incorrect pronouns or forms of address (misgendering).
 - Retaliating against anyone who files a formal complaint that someone has violated these codes or EEO laws.
 

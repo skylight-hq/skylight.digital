@@ -21,7 +21,7 @@ service_elements:
   - name: Code Quality Assessment
     description: >
       Identify code-quality issues holding your software development
-      team back from delivering faster. We’re experts at rapidly evaluating
+      team back from delivering faster. We're experts at rapidly evaluating
       the quality of any codebase (large, small, legacy, modern), measuring
       technical debt, and recommending improvement actions.
     order: 2

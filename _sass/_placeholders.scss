@@ -3,6 +3,8 @@
 %container-fluid { @extend .container-fluid; }
 %row { @extend .row; }
 %col { @extend .col; }
+%col-7 { @extend .col-7; }
+%col-10 { @extend .col-10; }
 %col-11 { @extend .col-11; }
 %col-sm-4 { @extend .col-sm-4; }
 %col-sm-6 { @extend .col-sm-6; }
@@ -56,6 +58,7 @@
 %my-3 { @extend .my-3; }
 %my-4 { @extend .my-4; }
 %my-5 { @extend .my-5; }
+%my-md-5 { @extend .my-md-5; }
 
 %pt-2 { @extend .pt-2; }
 %pt-4 { @extend .pt-4; }
