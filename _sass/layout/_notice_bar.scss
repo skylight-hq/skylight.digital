@@ -5,7 +5,7 @@
   color: $white;
   background-color: $brand-primary;
 
-  p {
-    @extend %mb-0;
+  i {
+    @extend %mr-1;
   }
 }
