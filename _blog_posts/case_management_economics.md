@@ -12,8 +12,8 @@ excerpt: Case management systems are commonplace and largely overlap. Agencies a
 authors:
   - Robert Read
   - Chris Cairns
-date_published: 2017-04-28
-date: 2017-04-28
+date_published: 2017-06-14
+date: 2017-06-14
 ---
 
 Fundamentally, government is about getting things done and getting things done requires keeping track of problems. In government, these problems are often called cases. A case could be a pothole, a criminal investigation, a water leak, a disability claim, or an industrial accident. No matter the precise situation, the citizens demand accountability and efficiency demands organized record keeping. It is not surprising, therefore, in the information age that most governments require computer-based *case management systems*.
