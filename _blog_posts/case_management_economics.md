@@ -80,7 +80,7 @@ In other words, your system could well have 76% commonality with any given other
 
 These components could be drawn on a 3-layer business diagram:
 
-![A 3-layer diagram of a case management system.](/img/blog/case_mgmt/case-management-system-diagram.jpg)
+![A 3-layer diagram of a case management system.](/img/blog/case_management/case-management-system-diagram.jpg)
 
 First among these is the relational database. There is no excuse for building a case management on anything other than an off-the-shelf free database. I hope that the world will explore better ways to store data; I personally do not like relational databases, and am a fan of the "not-only-SQL" movement. But if you are government employee building a case management system, you might not be a researcher in computer science, nor an expert in how to select competing NoSQL technologies. So my advice to use is to stick with commodity components, such as MySQL or PostgreSQL.
 
