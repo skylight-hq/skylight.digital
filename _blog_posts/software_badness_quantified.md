@@ -11,8 +11,8 @@ tags: [digital services delivery, robert read]
 excerpt: Until a more robust model for measuring technical debt is developed, we suggest using a simple formula for measuring the "badness" of a codebase in order to facilitate system improvement decisions.
 authors:
   - Robert Read
-date_published: 2017-04-29
-date: 2017-04-29
+date_published: 2017-06-15
+date: 2017-06-15
 ---
 
 <blockquote cite="http://quoteinvestigator.com/2012/04/28/shorter-letter/">If I had more time, I would have written a shorter letter. &mdash; <a href="http://quoteinvestigator.com/2012/04/28/shorter-letter/" target="&#95;blank">attribution unclear</a></blockquote>

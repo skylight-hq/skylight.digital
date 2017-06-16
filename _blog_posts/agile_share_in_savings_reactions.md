@@ -12,8 +12,8 @@ excerpt: Several months ago, we published a blog post series on a concept called
 authors:
   - Chris Cairns
   - Robert Read
-date_published: 2017-04-30
-date: 2017-04-30
+date_published: 2017-06-16
+date: 2017-06-16
 ---
 
 Last December, Robert Read and I published a <a href="https://medium.com/@ccairns/bootstrapping-the-modernization-of-federal-legacy-systems-through-agile-share-in-savings-a1294b0f9877" target="&#95;blank">four-part blog post series</a> on a concept that we call Agile Share-in-Savings. The basic idea behind Agile Share-in-Savings is to marry the underutilized procurement practice of share-in-savings contracting with modern agile delivery practices in order to finance the federal government's way out of its legacy-systems crisis.
