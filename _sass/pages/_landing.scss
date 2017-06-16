@@ -48,7 +48,7 @@
   @extend %mt-md-7;
 }
 
-.landing-section-row-temp {
+.landing-section-row{
   @extend %row;
 
   &:not(:last-child) {
@@ -57,7 +57,7 @@
   }
 }
 
-.landing-section-col-temp {
+.landing-section-col{
   @extend %col-11;
   @extend %col-sm-10;
   @extend %col-md-9;
