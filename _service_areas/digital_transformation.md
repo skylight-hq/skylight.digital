@@ -38,7 +38,7 @@ service_elements:
   and tools in place to unleash the superpowers of high-caliber digital teams.
   As founders of 18F, we built and scaled the organization to over 200 digital
   experts, distributed across 30 cities, using existing federal-wide hiring authorities.
-  We’re experts at managing large-scale, high-performing digital talent within
+  We're experts at managing large-scale, high-performing digital talent within
   government settings.
 {% endcapture %}
 
