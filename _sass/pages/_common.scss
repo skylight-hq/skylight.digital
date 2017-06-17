@@ -14,27 +14,27 @@
   @extend %mb-md-6;
 }
 
+.page-header-title-1 {
+  @extend %col;
+}
+
+.page-header-title-2 {
+  @extend %text-heavy-col-base;
+}
+
 %page-header-content-base {
   @extend %col-11;
   @extend %mx-auto;
 
   p {
+    @extend %mt-4;
     @extend %mb-0;
     line-height: 1.75;
-  }
-
-  img {
-    @extend %mt-5;
-    @extend %img-fluid;
   }
 }
 
 .page-header-content-1 {
   @extend %page-header-content-base;
-
-  p {
-    @extend %mt-4;
-  }
 }
 
 .page-header-content-2 {
@@ -45,6 +45,11 @@
     @extend %mt-5;
     @extend %text-left;
   }
+}
+
+.page-header-content-3 {
+  @extend %page-header-content-base;
+  @extend %text-heavy-col-base;
 }
 
 %page-main-base {
