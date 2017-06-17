@@ -22,14 +22,14 @@ permalink: /services/
         {% for service_area in service_areas %}
           {% if service_area.feature %}
             <div class="service-area-col">
-              <div class="service-area-card card-link" data-href="{{service_area.permalink}}">
+              <div class="service-area-card card-link" data-href="{{service_area.permalink}}" tabindex="-1">
                 <img class="service-area-img" src="{{service_area.image_icon}}" alt="{{service_area.image_icon_description}}">
                 <div class="service-area-block">
                   <h3>{{service_area.title}}</h3>
                   <p>{{service_area.excerpt}}</p>
                 </div>
                 <div class="service-area-footer">
-                  <a href="{{service_area.permalink}}">
+                  <a href="{{service_area.permalink}}" tabindex="0">
                     <span class="sr-only">Learn More About Our {{service_area.title}} Service</span>
                     <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
                   </a>
