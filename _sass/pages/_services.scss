@@ -34,8 +34,14 @@
 }
 
 .service-area-img {
-  @extend %card-img-top;
-  @extend %img-fluid;
+  @extend %mx-auto;
+  width: 240px;
+  height: 171px;
+
+  @include media-breakpoint-up(lg) {
+    width: 285px;
+    height: 203px;
+  }
 }
 
 .service-area-block {
