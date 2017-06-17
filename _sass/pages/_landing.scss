@@ -75,6 +75,8 @@
   }
 
   p {
+    //@extend %text-left;
+
     &:last-of-type {
       @extend %mb-0;
     }
