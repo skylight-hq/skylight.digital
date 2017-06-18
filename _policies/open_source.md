@@ -32,7 +32,7 @@ Skylight encourages contributions to its open source projects, whether it be cod
 
 Forks or clones of our code repositories are free to be re-distributed. This means code created by Skylight can be integrated into work that is under a more restrictive license, even those that are not considered open source licenses.
 
-This changes when our code repositories include code that was not created by Skylight and carries an open license. Code previously released under an open source license and then modified by Skylight or its contractors is considered a “joint work” and must be released under terms permitted by the original open source license.
+This changes when our code repositories include code that was not created by Skylight and carries an open license. Code previously released under an open source license and then modified by Skylight or its contractors is considered a "joint work" and must be released under terms permitted by the original open source license.
 
 The public can use our code as the basis of wholly proprietary and commercial systems. Skylight would appreciate that users of our code disclose its lineage, but Skylight maintains no legal right to require disclosure. Notifications that our work is used in a new system are always greatly appreciated.
 
