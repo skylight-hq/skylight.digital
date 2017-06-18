@@ -32,7 +32,7 @@ service_elements:
 ---
 
 {% capture header_content %}
-  <strong>“Going digital” is about people first and technology second.</strong> At Skylight,
+  <strong>"Going digital" is about people first and technology second.</strong> At Skylight,
   we possess first-hand experience with embedding digital expertise throughout
   government organizations, and putting the operating principles, structures,
   and tools in place to unleash the superpowers of high-caliber digital teams.

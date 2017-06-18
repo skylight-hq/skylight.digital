@@ -26,7 +26,7 @@ Here are a few examples of unacceptable behavior:
 - Touching people without their affirmative consent.
 - Sustained disruption of meetings, talks, or discussions, including chatrooms.
 - Patronizing language or behavior.
-- Aggressive and micro-aggressive behavior, such as unconstructive criticism, providing corrections that do not improve the conversation (sometimes referred to as “well actually”s), repeatedly interrupting or talking over someone else, feigning surprise at someone's lack of knowledge or awareness about a topic, or subtle prejudice (for example, comments like “That's so easy my grandmother could do it.”).
+- Aggressive and micro-aggressive behavior, such as unconstructive criticism, providing corrections that do not improve the conversation (sometimes referred to as "well actually"s), repeatedly interrupting or talking over someone else, feigning surprise at someone's lack of knowledge or awareness about a topic, or subtle prejudice (for example, comments like "That's so easy my grandmother could do it.").
 - Referring to people in a way that misidentifies their gender and/or rejects the validity of their gender identity; for instance by using incorrect pronouns or forms of address (misgendering).
 - Retaliating against anyone who files a formal complaint that someone has violated these codes or EEO laws.
 
