@@ -1,7 +1,15 @@
 .notice-bar {
+  @extend %container-fluid;
+}
+
+.notice-bar-row {
+  @extend %row;
+}
+
+.notice-bar-col {
+  @extend %col;
   @extend %text-center;
-  @extend %py-1;
-  font-size: $font-size-xx-small;
+  font-size: $font-size-xxxx-small;
   color: $white;
   background-color: $brand-primary;
 

@@ -33,7 +33,7 @@
                         {% assign emp = site.data.team | where: 'name', member | first %}
                         <li>
                           {% if emp.active %}
-                            <a class="profile profile-link" href="{{emp.profile_path}}" target="_blank">
+                            <a class="profile profile-link" href="{{emp.profile_path}}">
                               <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
                               <span>{{emp.short_name}}</span>
                             </a>
