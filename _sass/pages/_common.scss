@@ -83,9 +83,9 @@
     @extend %mb-md-6;
   }
 
-  &.extra-space {
-    @extend %mb-6;
-    @extend %mb-md-7;
+  &.separated {
+    @extend %mt-5;
+    @extend %mt-md-6;
   }
 }
 
@@ -175,4 +175,19 @@
   p {
     @extend %mb-0;
   }
+}
+
+.separator-wrapper {
+  padding: 0 40px;
+
+  @include media-breakpoint-up(md) {
+    padding: 0 70px;
+  }
+}
+
+.separator {
+  border: none;
+  height: 15px;
+  width: 100%;
+  background: url('../img/wave.svg') center center repeat-x;
 }
