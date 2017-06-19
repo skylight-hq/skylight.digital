@@ -4,7 +4,7 @@
 }
 
 .subnav-col {
-  @extend %col-11;
+  @extend %col;
   @extend %col-md-4;
   @extend %mx-auto;
   @extend %mb-5;
@@ -46,7 +46,7 @@
 }
 
 .join-content-col {
-  @extend %col-11;
+  @extend %col;
   @extend %col-md-8;
   @extend %mx-auto;
   @extend %text;
