@@ -58,7 +58,7 @@
 }
 
 .landing-section-col{
-  @extend %col-11;
+  @extend %col;
   @extend %col-sm-10;
   @extend %col-md-9;
   @extend %col-lg-8;
@@ -75,8 +75,6 @@
   }
 
   p {
-    //@extend %text-left;
-
     &:last-of-type {
       @extend %mb-0;
     }

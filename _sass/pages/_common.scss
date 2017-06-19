@@ -23,7 +23,7 @@
 }
 
 %page-header-content-base {
-  @extend %col-11;
+  @extend %col;
   @extend %mx-auto;
 
   p {
@@ -115,7 +115,7 @@
 }
 
 %text-heavy-col-base {
-  @extend %col-11;
+  @extend %col;
   @extend %col-sm-10;
   @extend %col-md-9;
   @extend %col-lg-8;
