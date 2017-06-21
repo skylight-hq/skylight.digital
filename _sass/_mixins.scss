@@ -154,7 +154,7 @@
 // Cards
 @mixin semantic-card($class-name, $clickable: true, $title-alignment: left,
   $title-color: $brand-primary, $subtitle-color: $brand-primary-muted, $footer-border-off: true,
-  $footer-font-size: $font-size-small) {
+  $footer-font-size: $font-size-small, $card-img-height: 225px) {
 
   $title-font-size: $font-size-x-large;
 
@@ -194,7 +194,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: $card-img-height;
     width: 100%;
   }
 
