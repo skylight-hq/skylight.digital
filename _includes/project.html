@@ -10,8 +10,16 @@
       {{include.summary}}
 
       {% if page.feature_image %}
-        <img class="project-feature-image" src="{{page.image}}" alt="{{page.image_description}}">
+        {% assign image = page.feature_image %}
+        {% assign image_description = page.feature_image_description %}
+        {% assign image_class = 'project-feature-image img-thumbnail' %}
+      {% else %}
+        {% assign image = page.image %}
+        {% assign image_description = page.image_description %}
+        {% assign image_class = 'project-feature-image' %}
       {% endif %}
+
+      <img class="{{image_class}}" src="{{image}}" alt="{{image_description}}">
 
       <h2>The challenge</h2>
       {{include.challenge}}
