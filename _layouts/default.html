@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include notice_bar.html %}
+  {% if site.notice_bar %}
+    {% include notice_bar.html %}
+  {% endif %}
 
   {% include head.html %}
 
