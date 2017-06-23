@@ -40,3 +40,8 @@
     @include pb-6;
   }
 }
+
+@include media-breakpoint-up(lg) {
+  %mb-lg-8 { @include mb-8; }
+  %mb-lg-9 { @include mb-9; }
+}

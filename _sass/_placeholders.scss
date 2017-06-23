@@ -3,33 +3,47 @@
 %container-fluid { @extend .container-fluid; }
 %row { @extend .row; }
 %col { @extend .col; }
+%col-5 { @extend .col-5; }
+%col-6 { @extend .col-6; }
 %col-7 { @extend .col-7; }
+%col-8 { @extend .col-8; }
 %col-10 { @extend .col-10; }
 %col-11 { @extend .col-11; }
+%col-12 { @extend .col-12; }
 %col-sm-4 { @extend .col-sm-4; }
 %col-sm-6 { @extend .col-sm-6; }
+%col-sm-9 { @extend .col-sm-9; }
 %col-sm-10 { @extend .col-sm-10; }
 %col-sm-11 { @extend .col-sm-11; }
 %col-md { @extend .col-md; }
 %col-md-3 { @extend .col-md-3; }
 %col-md-4 { @extend .col-md-4; }
+%col-md-5 { @extend .col-md-5; }
 %col-md-6 { @extend .col-md-6; }
 %col-md-7 { @extend .col-md-7; }
 %col-md-8 { @extend .col-md-8; }
 %col-md-9 { @extend .col-md-9; }
+%col-md-10 { @extend .col-md-10; }
 %col-lg-4 { @extend .col-lg-4; }
 %col-lg-5 { @extend .col-lg-5; }
+%col-lg-6 { @extend .col-lg-6; }
 %col-lg-7 { @extend .col-lg-7; }
 %col-lg-8 { @extend .col-lg-8; }
 %col-lg-9 { @extend .col-lg-9; }
+%col-lg-11 { @extend .col-lg-11; }
 
 %d-flex { @extend .d-flex; }
+%flex-row { @extend .flex-row; }
+%flex-wrap { @extend .flex-wrap; }
 %justify-content-start { @extend .justify-content-start; }
 %justify-content-between { @extend .justify-content-between; }
 %justify-content-end { @extend .justify-content-end; }
 %align-self-center { @extend .align-self-center; }
 %flex-column { @extend .flex-column; }
+%flex-lg-first { @extend .flex-lg-first; }
 %flex-last { @extend .flex-last; }
+%align-items-center { @extend .align-items-center; }
+%justify-content-md-end { @extend .justify-content-md-end; }
 
 %mt-3 { @extend .mt-3; }
 %mt-4 { @extend .mt-4; }
@@ -38,12 +52,17 @@
 %mt-1 { @extend .mt-1; }
 %mt-2 { @extend .mt-2; }
 %mt-sm-5 { @extend .mt-sm-5; }
+%mt-md-0 { @extend .mt-md-0; }
+%mt-md-3 { @extend .mt-md-3; }
 %mt-md-4 { @extend .mt-md-4; }
 %mt-md-5 { @extend .mt-md-5; }
+%mt-lg-0 { @extend .mt-lg-0; }
 %mr-1 { @extend .mr-1; }
 %mr-2 { @extend .mr-2; }
 %mr-sm-2 { @extend .mr-sm-2; }
 %mr-sm-5 { @extend .mr-sm-5; }
+%mr-md-5 { @extend .mr-md-5; }
+%mr-lg-5 { @extend .mr-lg-5; }
 %mb-0 { @extend .mb-0; }
 %mb-2 { @extend .mb-2; }
 %mb-3 { @extend .mb-3; }
@@ -53,9 +72,13 @@
 %mb-md-0 { @extend .mb-md-0; }
 %mb-md-4 { @extend .mb-md-4; }
 %mb-md-5 { @extend .mb-md-5; }
+%mb-lg-0 { @extend .mb-lg-0; }
 %ml-2 { @extend .ml-2; }
+%ml-3 { @extend .ml-3; }
 %m-0 { @extend .m-0; }
 %mx-0 { @extend .mx-0; }
+%mx-2 { @extend .mx-2; }
+%mx-1 { @extend .mx-1; }
 %my-3 { @extend .my-3; }
 %my-4 { @extend .my-4; }
 %my-5 { @extend .my-5; }
@@ -74,6 +97,7 @@
 %p-2 { @extend .p-2; }
 %p-3 { @extend .p-3; }
 %px-0 { @extend .px-0; }
+%px-2 { @extend .px-2; }
 %px-3 { @extend .px-3; }
 %py-0 { @extend .py-0; }
 %py-1 { @extend .py-1; }
@@ -111,6 +135,7 @@
 %text-truncate { @extend .text-truncate; }
 %text-center { @extend .text-center; }
 %text-left { @extend .text-left; }
+%text-lg-left { @extend .text-lg-left; }
 %text-md-right { @extend .text-md-right; }
 %text-uppercase { @extend .text-uppercase; }
 
@@ -133,6 +158,8 @@
 %d-inline-block { @extend .d-inline-block; }
 %d-inline-flex { @extend .d-inline-flex; }
 %d-sm-inline-block { @extend .d-sm-inline-block; }
+%d-md-inline-block { @extend .d-md-inline-block; }
+%d-lg-inline-block { @extend .d-lg-inline-block; }
 %d-md-inline { @extend .d-md-inline; }
 
 %list-inline { @extend .list-inline; }

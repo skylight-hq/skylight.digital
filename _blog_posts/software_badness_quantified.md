@@ -55,6 +55,8 @@ Perhaps I have the exponent wrong. Perhaps we should consider other curves. In t
 - The green line is y = x<sup>2.5</sup>.
 - The amber line is y =x<sup>3</sup>.
 
+![A graph showing the plot curves of different software badness quantification formulas.](/img/blog/software_badness_quantified/software-badness-quantified-graph.png)
+
 The vertical or y-axis is "badness relative to the original system." The horizontal or x-axis is "lines of code relative to the original system." Where on the y-axis these curves cross the "x = 0.8" line gives us some idea what each of these curves mean.
 
 - The red line says that y = 0.8, or 80% of the badness of the original system.

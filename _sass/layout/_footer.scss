@@ -9,6 +9,17 @@
 
 .footer-row {
   @extend %row;
+
+  &:first-child {
+    @extend %mb-md-4;
+  }
+}
+
+%footer-col-left-base,
+%footer-col-right-base {
+  @extend %d-flex;
+  @extend %align-items-center;
+  @extend %justify-content-start;
 }
 
 %footer-col-left-base {
@@ -17,14 +28,22 @@
 
 %footer-col-right-base {
   @extend %col-md-9;
-  @extend %text-md-right;
+  @extend %justify-content-md-end;
+}
+
+.footer-brand-col,
+.footer-nav-col {
+  @extend %mb-3;
+  @extend %mb-md-0;
 }
 
 .footer-brand-col {
   @extend %footer-col-left-base;
 
   a {
-    @include logo($height: 40px, $version: 'logo');
+    @include brandmark($width: $footer-brand-width, $height: $footer-brand-height,
+    $width-sm-down: $footer-brand-width-sm-down, $height-sm-down: $footer-brand-height-sm-down,
+    $filename: 'hubzone-badge');
   }
 }
 
@@ -76,6 +95,7 @@
 
 .footer-socials-col {
   @extend %footer-col-right-base;
+  @extend %mb-0;
 
   a {
     @include link-decoration($footer-socials-link-color, $footer-socials-link-hover-color,
@@ -84,21 +104,5 @@
     &:not(:last-child) {
       padding-right: 25px;
     }
-  }
-}
-
-@include media-breakpoint-down(md) {
-  .footer-row > * {
-    @include mb-3;
-  }
-
-  .footer-socials-col {
-    @include mb-0;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .footer-row:first-child {
-    @include mb-4;
   }
 }
