@@ -169,16 +169,15 @@
 }
 
 .work-example-ctas {
-  @extend %mt-3;
-  @extend %mt-sm-5;
+  @extend %mt-5;
 
-  div {
-    @extend %d-sm-inline-block;
+  .work-example-cta-wrapper {
+    @extend %d-md-inline-block;
 
     &:first-child {
       @extend %mb-3;
-      @extend %mb-sm-0;
-      @extend %mr-sm-5;
+      @extend %mb-md-0;
+      @extend %mr-md-5;
     }
   }
 
