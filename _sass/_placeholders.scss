@@ -147,11 +147,7 @@
 %mx-auto { @extend .mx-auto; }
 %ml-auto { @extend .ml-auto; }
 
-%img-fluid {
-  @extend .img-fluid;
-  width: 100%;
-}
-
+%img-fluid { @extend .img-fluid; width: 100%;}
 %figure-img { @extend .figure-img; }
 %figure-caption { @extend .figure-caption; }
 %img-thumbnail { @extend .img-thumbnail; }
