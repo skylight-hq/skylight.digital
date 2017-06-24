@@ -141,5 +141,6 @@
 .landing-info-img {
   img {
     @extend %img-fluid;
+    width: 100%;
   }
 }

@@ -96,6 +96,7 @@
 
   img {
     @extend %img-fluid;
+    width: 100%;
   }
 }
 
@@ -144,6 +145,7 @@
     @extend %img-fluid;
     @extend %mt-3;
     @extend %mb-4;
+    width: 100%;
   }
 }
 
