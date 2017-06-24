@@ -118,8 +118,6 @@
 
 .post-related {
   @extend %mt-5;
-  @extend %list-base;
-  @extend %list-inside;
 
   h3,
   ul {
@@ -132,8 +130,8 @@
   }
 
   ul {
+    @extend %list-unstyled;
     @extend %mb-0;
-    list-style: none;
 
     li:not(:last-child) {
       @extend %pb-3;
