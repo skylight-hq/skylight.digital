@@ -103,11 +103,6 @@
   a {
     @extend %btn-page;
     min-width: 260px;
-
-    span + i {
-      @extend %ml-3;
-      @extend %align-middle;
-    }
   }
 }
 
