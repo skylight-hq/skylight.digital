@@ -9,7 +9,7 @@
 }
 
 .post-col {
-  @extend %col;
+  @extend %col-12;
   @extend %col-sm-11;
   @extend %col-lg-8;
   @extend %mx-auto;

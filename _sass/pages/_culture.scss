@@ -11,7 +11,7 @@
 }
 
 .value-col {
-  @extend %col;
+  @extend %col-12;
   @extend %col-md-6;
   @extend %mb-5;
 

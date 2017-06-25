@@ -171,6 +171,7 @@
   $footer-alignment: $title-alignment;
 
   .#{$class-name}-col {
+    @extend %col-12;
     @extend %col-md-4;
   }
 

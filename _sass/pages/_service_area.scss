@@ -11,7 +11,7 @@
 }
 
 .service-element-col {
-  @extend %col;
+  @extend %col-12;
   @extend %col-md-4;
   @extend %mx-auto;
 }
