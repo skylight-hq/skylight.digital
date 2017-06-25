@@ -15,7 +15,7 @@
 }
 
 .filter-col {
-  @extend %col;
+  @extend %col-12;
   @extend %col-sm-11;
   @extend %col-md-9;
   @extend %col-lg-7;
