@@ -28,7 +28,7 @@ service_elements:
     order: 3
   - name: Rapid Prototyping
     description: >
-      Assumptions are risky. Answer critical design and tech questions
+      Assumptions are risky. Answer critical strategy, design, and tech questions
       with our rapid, customer-driven, iterative approach to prototyping.
     order: 4
   - name: Product Delivery

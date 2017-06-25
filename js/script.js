@@ -71,10 +71,11 @@ function swapJoinContent(hash) {
   $navElementToActivate.addClass('current')
   $navElementToActivate.find('a').attr('aria-current', 'location')
 
-  $('html, body').scrollTop(0)
-
   if (childHash) {
     location.hash = childHash
+  }
+  else {
+    $('html, body').scrollTop(0)
   }
 }
 
