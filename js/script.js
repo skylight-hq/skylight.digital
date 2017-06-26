@@ -111,15 +111,6 @@ $(function() {
   })
 })
 
-// Form file upload
-$(function() {
-  $('#resume-input-file').change(function() {
-    var fileName = this.files[0].name
-    $('.btn-file').addClass('file-width-max')
-    $('#resume-input-file + span').html(fileName)
-  })
-})
-
 // Form icons
 $(function() {
   $('.form-icons div').click(function(e) {
