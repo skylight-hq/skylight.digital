@@ -87,6 +87,11 @@
     @extend %mt-5;
     @extend %mt-md-6;
   }
+
+  &.extra-space {
+    @extend %mb-7;
+    @extend %mb-md-8;
+  }
 }
 
 .image-block {
