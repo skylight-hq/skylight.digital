@@ -1,0 +1,21 @@
+---
+layout: default
+title: Thanks for submitting!
+permalink: /thankyou.html
+skip_index: true
+---
+
+{% capture header_content %}
+  We received your submission, and will be in touch shortly.
+  In the meantime, feel free to check out <a href="/blog/">our blog</a>,
+  or follow us on <a href="{{site.twitter_url}}">Twitter</a> or
+  <a href="{{site.linkedin_url}}">LinkedIn</a>.
+{% endcapture %}
+
+{% include page_header.html
+  header_title = 'Thank you!'
+  header_content_class = 'page-header-content-2'
+  header_content = header_content
+%}
+
+{% include testimonial_cta.html %}
