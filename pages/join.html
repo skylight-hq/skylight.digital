@@ -49,16 +49,6 @@ permalink: /join/
             <legend>Experience</legend>
 
             <div class="form-group">
-              <label class="btn-file required" role="button" for="resume-input-file">
-                <input id="resume-input-file" class="sr-only" type="file" title="Upload your resume" aria-describedby="resume-help" required>
-                <span>Upload Resume</span>
-              </label>
-              <small id="resume-help" class="form-text text-muted">
-                PDF, please.
-              </small>
-            </div>
-
-            <div class="form-group">
               <label class="required" for="experience-select">What is your primary field of expertise?</label>
               <select id="experience-select" class="form-control" required>
                 <option disabled selected>-select-</option>
@@ -84,6 +74,11 @@ permalink: /join/
                 <option>Client engagement management</option>
                 <option>Other</option>
               </select>
+            </div>
+
+            <div class="form-group">
+              <label class="required" for="about-input">Tell us about yourself...</label>
+              <textarea id="about-input" class="form-control" rows="3" placeholder="I have 3 years of software engineering experience..." required></textarea>
             </div>
 
             <div class="form-check">
