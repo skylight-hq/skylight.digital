@@ -49,8 +49,8 @@ permalink: /join/
             <legend>Experience</legend>
 
             <div class="form-group">
-              <label class="required" for="experience-select">What is your primary field of expertise?</label>
-              <select id="experience-select" class="form-control" required>
+              <label class="required" for="expertise-select">What is your primary field of expertise?</label>
+              <select id="expertise-select" class="form-control" name="expertise" required>
                 <option disabled selected>-select-</option>
                 <option>Software engineering</option>
                 <option>Frontend web development</option>
@@ -78,12 +78,12 @@ permalink: /join/
 
             <div class="form-group">
               <label class="required" for="about-input">Tell us about yourself...</label>
-              <textarea id="about-input" class="form-control" rows="3" placeholder="I have 3 years of software engineering experience..." required></textarea>
+              <textarea id="about-input" class="form-control" rows="3" placeholder="I have 3 years of software engineering experience..." name="about" required></textarea>
             </div>
 
             <div class="form-check">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input">
+                <input type="checkbox" class="form-check-input" name="internship">
                 Are you applying for an internship?
               </label>
             </div>
@@ -123,27 +123,27 @@ permalink: /join/
 
               <div id="github-toggle" class="form-group sr-only">
                 <label for="github-input">GitHub</label>
-                <input id="github-input" class="form-control" type="text" placeholder="https://github.com/oliviajones">
+                <input id="github-input" class="form-control" type="text" placeholder="https://github.com/oliviajones" name="github">
               </div>
 
               <div id="linkedin-toggle" class="form-group sr-only">
                 <label for="linkedin-input">LinkedIn</label>
-                <input id="linkedin-input" class="form-control" type="text" placeholder="https://linkedin.com/in/oliviajones">
+                <input id="linkedin-input" class="form-control" type="text" placeholder="https://linkedin.com/in/oliviajones" name="linkedin">
               </div>
 
               <div id="medium-toggle" class="form-group sr-only">
                 <label for="medium-input">Medium</label>
-                <input id="medium-input" class="form-control" type="text" placeholder="https://medium.com/@oliviajones">
+                <input id="medium-input" class="form-control" type="text" placeholder="https://medium.com/@oliviajones" name="medium">
               </div>
 
               <div id="dribbble-toggle" class="form-group sr-only">
                 <label for="dribbble-input">Dribbble</label>
-                <input id="dribbble-input" class="form-control" type="text" placeholder="https://dribbble.com/oliviajones">
+                <input id="dribbble-input" class="form-control" type="text" placeholder="https://dribbble.com/oliviajones" name="dribble">
               </div>
 
               <div id="website-toggle" class="form-group sr-only">
                 <label for="website-input">Personal website</label>
-                <input id="website-input" class="form-control" type="text" placeholder="https://oliviajones.me/">
+                <input id="website-input" class="form-control" type="text" placeholder="https://oliviajones.me/" name="website">
               </div>
             </fieldset>
           </fieldset>
@@ -153,7 +153,7 @@ permalink: /join/
 
             <div class="form-group">
               <label for="authorization-select" aria-describedby="authorization-help">Are you authorized to work in the U.S.?</label>
-              <select id="authorization-select" class="form-control">
+              <select id="authorization-select" class="form-control" name="authorization">
                 <option disabled selected>-select-</option>
                 <option>Yes, I'm a U.S. citizen.</option>
                 <option>Yes, I'm authorized to work in the U.S., though I'm not a citizen.</option>
@@ -167,7 +167,7 @@ permalink: /join/
 
             <div class="form-group">
               <label for="hear-select">How did you hear about Skylight?</label>
-              <select id="hear-select" class="form-control">
+              <select id="hear-select" class="form-control" name="hear">
                 <option disabled selected>-select-</option>
                 <option>A current/former Skylight team member</option>
                 <option>An article, video, or blog post</option>
