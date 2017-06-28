@@ -19,7 +19,8 @@ Today, I'm happy to announce that five former <a href="https://presidentialinnov
 
 As a [certified HUBZone](/about/#hubzone), Skylight's mission is to make government work in a digital world using design, technology, and procurement.
 
-Chris, Robert, Geoff, John, and Kin each bring a rare combination of institutional knowledge, technical expertise, and leadership experience to the Skylight team that will advance our mission in new and exciting ways. Just as importantly, they all embody the spirit of the digital movement sweeping governments across the world, such as 18F and the <a href="https://www.usds.gov/" target="&#95;blank">U.S. Digital Service</a>.
+Chris, Robert, Geoff, John, and Kin each bring a rare combination of institutional knowledge, technical expertise, and leadership experience to the Skylight team that will advance our mission in new and exciting ways. Just as importantly, each one embodies the spirit of the digital
+government movement that's led to the creation of organizations such as 18F and the <a href="https://www.usds.gov/" target="&#95;blank">U.S. Digital Service</a>.
 
 Chris served as a Presidential Innovation Fellow in 2013, and co-founded 18F and the <a href="https://www.gsa.gov/portal/category/25729" target="&#95;blank">Technology Transformation Service</a> (TTS), both housed within the General Services Administration. He specializes in digital leadership and transformation, digital procurement, and product development and management.
 
