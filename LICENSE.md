@@ -12,6 +12,8 @@ The stock image file in `src/img/blog/software_badness_quantified/programming-co
 
 The stock image file in `src/img/blog/case_management/case-files.jpg` is from [Shutterstock](https://www.shutterstock.com/image-photo/keeping-records-72113317), copyright Shutterstock/gibleho, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
 
+The stock image file in `src/img/blog/five_pifs_join/welcome.jpg` is from [Shutterstock](http://www.istockphoto.com/photo/welcome-new-employee-colleague-refugees-refugee-immigrants-desk-gm589970886-101347157), copyright Shutterstock/Boarding1Now, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
+
 ## Parts of this project that are not in the public domain
 
 ### Files licensed under the SIL Open Font License

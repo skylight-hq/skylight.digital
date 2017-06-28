@@ -67,6 +67,10 @@
       link: https://github.com/belucid
       link_description: Sean's GitHub Account
       fa_icon_name: github
+    - name: Blog Posts
+      link: /blog/author/sean-johnson/
+      link_description: Sean's Blog Posts
+      fa_icon_name: pencil
     - name: Projects
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
@@ -157,7 +161,7 @@
   bio: >
     Geoff served as a Presidential Innovation Fellow in 2013, and has developed
     standards that power the internet, including IPv6. He specializes in Internet of Things,
-    embedded and distributed systems engineering, networking technologies, and security.
+    distributed and embedded systems engineering, networking technologies, and security.
   active: true
   order: 50
   socials:
