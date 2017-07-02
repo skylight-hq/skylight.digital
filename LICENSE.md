@@ -14,6 +14,8 @@ The stock image file in `src/img/blog/case_management/case-files.jpg` is from [S
 
 The stock image file in `src/img/blog/five_pifs_join/welcome.jpg` is from [Shutterstock](http://www.istockphoto.com/photo/welcome-new-employee-colleague-refugees-refugee-immigrants-desk-gm589970886-101347157), copyright Shutterstock/Boarding1Now, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
 
+The stock image file in `src/img/blog/mentor_protege_search/trusted-partnership.jpg` is from [Shutterstock](http://www.istockphoto.com/photo/trust-in-business-partnership-background-gm517418290-89480701), copyright Shutterstock/olm26250, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
+
 ## Parts of this project that are not in the public domain
 
 ### Files licensed under the SIL Open Font License
