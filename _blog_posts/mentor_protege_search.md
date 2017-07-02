@@ -11,8 +11,8 @@ tags: [chris cairns]
 excerpt: We're actively looking to establish mentor-protégé relationships with companies interested in joint, ongoing pursuit of digital project opportunities.
 authors:
   - Chris Cairns
-date_published: 2017-07-03
-date: 2017-07-03
+date_published: 2017-07-02
+date: 2017-07-02
 ---
 
 As a newfound [HUBZone](/about/#hubzone) digital government consultancy, we're not naive about the difficulties of competing for federal contracts. It's tough business, which is why you must admire and respect any company whose grown to a significant size (such as 80 people) in this space. While there's much we do know, there's even more we need to learn. What better way to close that knowledge gap than to learn from an established company with a proven track record of federal contracting success?
