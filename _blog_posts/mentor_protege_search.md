@@ -27,7 +27,8 @@ So why take us on as a protégé? Here's some of what we offer in return:
 - A proven track record of building first-rate digital products (such as [TalkTo](/work/talkto/)) and leading high-caliber digital teams (such as [18F Consulting](/work/18f-consulting/));
 - Unique first-hand experience working with multiple agencies on their digital transformation initiatives, particularly the Department of Homeland Security;
 - A solid understanding of the government's digital landscape, including trends and technologies;
-- Excellent relationships both within and outside of government; and
+- Excellent relationships both within and outside of government;
+- Past experience winning federal contract work; and
 - A [certified HUBZone status](/about/#hubzone), which grants us privileged access to federal contract opportunities.
 
 If you're interested in exploring a mentor-protégé relationship, please reach out to Chris Cairns at <a href="mailto:chris@skylight.digital">chris@skylight.digital</a>.
