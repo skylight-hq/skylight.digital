@@ -29,6 +29,6 @@ So why take us on as a protégé? Here's some of what we offer in return:
 - A solid understanding of the government's digital landscape, including trends and technologies;
 - Excellent relationships both within and outside of government;
 - Past experience winning federal contract work; and
-- A [certified HUBZone status](/about/#hubzone), which grants us privileged access to federal contract opportunities.
+- A [certified HUBZone status](/about/#hubzone), which can be great for small business set-aside contracts.
 
 If you're interested in exploring a mentor-protégé relationship, please reach out to Chris Cairns at <a href="mailto:chris@skylight.digital">chris@skylight.digital</a>.
