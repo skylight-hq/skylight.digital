@@ -7,7 +7,7 @@ image: /img/blog/microconsulting_services/microconsulting.png
 image_description: An image of several mini-brains representing different types of microconsulting services.
 image_display: true
 order: 600
-tags: [microconsulting services, chris cairns, robert read]
+tags: [microconsulting, chris cairns, robert read]
 excerpt: Not every problem requires a full-blown consulting engagement. Often times, a short burst of work on a specific topic is all that's needed to help propel government managers and teams forward.
 authors:
   - Chris Cairns
