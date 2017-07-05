@@ -12,8 +12,8 @@ excerpt: Not every problem requires a full-blown consulting engagement. Often ti
 authors:
   - Chris Cairns
   - Robert Read
-date_published: 2017-07-10
-date: 2017-07-10
+date_published: 2017-07-05
+date: 2017-07-05
 ---
 
 If there's one thing that we learned during our time at [18F](https://skylight.digital/work/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need in order to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
