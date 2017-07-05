@@ -12,11 +12,10 @@ feature: false
 tags:
   - microconsulting
 service_elements:
-  - name: Solicitation Support
+  - name: Agile Solicitation Support
     description: >
       Increase the probability of your acquisition's success through
-      a smartly-crafted solicitation. Our team of technical and acquisition
-      experts thoroughly review and recommend improvements to your solicitation package.
+      a smartly-crafted solicitation aligned to agile delivery practices. Our team of technical and acquisition experts thoroughly review and recommend improvements to your solicitation package.
     order: 1
   - name: Code Quality Assessment
     description: >
@@ -28,9 +27,21 @@ service_elements:
   - name: Protosketching
     description: >
       Stimulate stakeholder imaginations about what's possible,
-      and focus the direction of your project, with our ability
+      and focus the strategic direction of your project, with our ability
       to create product prototypes at warp speed.
     order: 3
+  - name: Coding Dojo
+    description: >
+      Quickly gain expertise with a specific programming language/framework, development practice, or technology through one of our well-orchestrated mini-coding bootcamps.
+    order: 4
+  - name: Agile Micro-sprint
+    description: >
+      Gain direct hands-on experience with agile while simultaneously advancing the development of your software product through a facilitated multi-day agile workshop.
+    order: 5
+  - name: Rent-a-CTO
+    description: >
+      Obtain advice on the suitability and trade-offs of using a particular architectural pattern, delivery practice, or technology from one of our digital experts.
+    order: 6
 ---
 
 {% capture header_content %}
