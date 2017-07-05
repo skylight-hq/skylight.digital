@@ -40,7 +40,7 @@ service_elements:
     order: 5
   - name: Rent-a-CTO
     description: >
-      Obtain advice on the suitability and trade-offs of using a particular architectural pattern, delivery practice, or technology from one of our digital experts.
+      Obtain quick advice on the suitability and trade-offs of using a particular architectural pattern, delivery practice, or technology from one of our digital experts.
     order: 6
 ---
 
