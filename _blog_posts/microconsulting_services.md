@@ -16,7 +16,7 @@ date_published: 2017-07-05
 date: 2017-07-05
 ---
 
-If there's one thing that we learned during our time at [18F](https://skylight.digital/work/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need in order to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
+If there's one thing that we learned during our time at [18F](https://skylight.digital/work/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
 
 With Skylight, we're excited to take what we've learned from executing these types of focused, quick-turnaround, high-impact consulting engagements to the next level. We call it [Microconsulting Services](https://skylight.digital/services/microconsulting/).
 
