@@ -16,31 +16,31 @@ service_elements:
       Create a curated marketplace of amazing tech vendors (called a "micro-market")
       through our heralded experience with challenge-based procurements.
     order: 1
-  - name: Open Source Marketplace
-    description: >
-      Engage thousands of great design and development firms through a
-      platform-enabled marketplace for open-source work.
-    order: 2
-  - name: Challenges &amp; Prizes
-    description: >
-      Source innovative digital solutions to problems from public communities
-      through the use of challenge and prize competitions.
-    order: 3
   - name: Agile Acquisition
     description: >
       Break free from your old acquisition habits with our proven
       lean-agile approach to software-based acquisitions, which we pioneered.
-    order: 4
+    order: 2
   - name: Good Practices Assurance
     description: >
       Pinpoint areas to improve your software delivery practices
       where contractors are involved via our integrated approach to
       conducting UX audits, code audits, and agile health checks.
-    order: 5
+    order: 3
   - name: Agile Coaching
     description: >
       Propel the performance of your software delivery teams to the next
       level and beyond through our agile adoption pattern of Shu-Ha-Ri.
+    order: 4
+  - name: Open Source Marketplace
+    description: >
+      Engage thousands of great design and development firms through a
+      platform-enabled marketplace for open-source work.
+    order: 5
+  - name: Challenges &amp; Prizes
+    description: >
+      Source innovative digital solutions to problems from public communities
+      through the use of challenge and prize competitions.
     order: 6
 ---
 
