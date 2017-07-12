@@ -39,7 +39,7 @@ But in the meantime, I suggest this simple formula for measuring the "badness" o
 
 Where **B** is the "badness" of the code, and **L** is the number of lines of code in the system.
 
-Obviously, this is a bit of joke, but there is a grain of truth in any good joke. We do not have a crisp definition of "badness." And two systems can have equal badness with different numbers of lines of code, so this equation cannot be, strictly speaking, true. A physicist will point out that a dimensional analysis of this equation produces nothing meaningful at all, whereas E = mc<sup>2</sup> actually produces units of kg.m/s<sup>2</sup> (Joules) on both sides. Nonetheless, if forced to give a rule for code badness in only six symbols, I will stand behind this one as the best possible.
+Obviously, this is a bit of joke, but there is a grain of truth in any good joke. We do not have a crisp definition of "badness." And two systems can have equal badness with different numbers of lines of code, so this equation cannot be, strictly speaking, true. A physicist will point out that a dimensional analysis of this equation produces nothing meaningful at all, whereas E = mc<sup>2</sup> actually produces units of kg * m/s<sup>2</sup> (Joules) on both sides. Nonetheless, if forced to give a rule for code badness in only six symbols, I will stand behind this one as the best possible.
 
 Q: When can we possibly compare the "badness" of a system to something in order to make a decision?
 
