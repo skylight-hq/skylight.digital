@@ -11,7 +11,7 @@
   @extend %text-center;
   font-size: $font-size-xxxx-small;
   color: $white;
-  background-color: $brand-primary;
+  background-image: linear-gradient(-90deg, #003d58, #0073a4);
 
   i {
     @extend %mr-1;

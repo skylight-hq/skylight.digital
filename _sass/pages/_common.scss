@@ -198,3 +198,10 @@
   width: 100%;
   background: url('../img/wave.svg') center center repeat-x;
 }
+
+.divider-line {
+  @extend %mb-4;
+  width: 82px;
+  height: 2px;
+  background-color: $gray-lightest;
+}

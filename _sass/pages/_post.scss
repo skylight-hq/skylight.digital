@@ -78,6 +78,13 @@
   }
 }
 
+.excerpt {
+  @extend %mb-3;
+  @extend %p-3;
+  font-size: $font-size-x-small;
+  background-color: $gray-lightest;
+}
+
 .post-footer {
   @extend %pt-4;
   border-top: 1px solid $gray-lightest;
