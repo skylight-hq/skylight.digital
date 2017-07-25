@@ -61,6 +61,11 @@
   blockquote {
     @extend %blockquote;
     @extend %my-4;
+
+    &.excerpt {
+      font-size: $font-size-x-small;
+      background-color: lighten($gray, 63%);
+    }
   }
 
   table {
@@ -76,13 +81,6 @@
       -ms-overflow-style: -ms-autohiding-scrollbar;
     }
   }
-}
-
-.excerpt {
-  @extend %mb-3;
-  @extend %p-3;
-  font-size: $font-size-x-small;
-  background-color: $gray-lightest;
 }
 
 .post-footer {
