@@ -20,7 +20,7 @@ So what can the government do to protect itself and better serve citizens? Under
 
 In constructing [18F's Agile Delivery Services Marketplace](https://skylight.digital/work/agile-delivery-services-marketplace/), I, along with several others, went to great lengths to assert the government's unlimited rights at the contract-vehicle level, which is a blanket purchase agreement (BPA) under the General Services Administration's (GSA's) IT Schedule 70. Not only that, we took it one step further by transferring ownership rights to the public domain using the following language, courtesy of <a href="https://www.linkedin.com/in/noahkunin/" target="&#95;blank">Noah Kunin</a> and many legal reviews:    
 
-<div class="excerpt">
+<blockquote class="excerpt" cite="https://ads.18f.gov/assets/ADS_RFQ_Final.pdf">
 
 <p>15.0 DATA RIGHTS AND OWNERSHIP OF DELIVERABLES</p>
 
@@ -32,7 +32,7 @@ In constructing [18F's Agile Delivery Services Marketplace](https://skylight.dig
 
 <p>…</p>
 
-</div>
+</blockquote>
 
 We did so for a number of reasons:
 
