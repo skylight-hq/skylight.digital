@@ -20,6 +20,8 @@
 
 .service-element-content-box {
   @extend %text-left;
+  border-top: 1px solid $brand-primary;
+  width: 90%;
 
   h3 {
     @extend %my-3;
