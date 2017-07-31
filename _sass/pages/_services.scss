@@ -99,8 +99,11 @@
   @extend %col-lg-4;
   @extend %mt-4;
 
-  .divider-line {
+  div {
     @extend %mx-auto;
+    @extend %mb-4;
+    border-top: 1px solid $brand-primary;
+    width: 75%;
   }
 
   h3 {
