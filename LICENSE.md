@@ -6,15 +6,15 @@ The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofou
 
 The stock image file in `src/img/projects/ssa_agile_microsprints/people-brainstorming-stickies.jpg` is from [iStockphoto](http://www.istockphoto.com/photo/brainstorming-with-notes-on-the-wall-gm639955668-115646939), copyright iStockphoto/adamkaz, under [iStockphoto's licensing terms](http://www.istockphoto.com/legal/license-agreement).
 
+The stock image file in `src/img/blog/five_pifs_join/welcome.jpg` is from [iStockphoto](http://www.istockphoto.com/photo/welcome-new-employee-colleague-refugees-refugee-immigrants-desk-gm589970886-101347157), copyright iStockphoto/Boarding1Now, under [iStockphoto's licensing terms](http://www.istockphoto.com/legal/license-agreement).
+
+The stock image file in `src/img/blog/mentor_protege_search/trusted-partnership.jpg` is from [iStockphoto](http://www.istockphoto.com/photo/trust-in-business-partnership-background-gm517418290-89480701), copyright iStockphoto/olm26250, under [iStockphoto's licensing terms](http://www.istockphoto.com/legal/license-agreement).
+
 The stock image file in `src/img/projects/dol_legacy_system_modernization/old-mainframe-system.jpg` is from [Shutterstock](https://www.shutterstock.com/image-photo/mainframe-computer-94202284), copyright Shutterstock/Everett Collection, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
 
 The stock image file in `src/img/blog/software_badness_quantified/programming-code.jpg` is from [Shutterstock](https://www.shutterstock.com/image-photo/programming-code-abstract-screen-software-developer-230705539), copyright Shutterstock/BEST-BACKGROUNDS, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
 
 The stock image file in `src/img/blog/case_management/case-files.jpg` is from [Shutterstock](https://www.shutterstock.com/image-photo/keeping-records-72113317), copyright Shutterstock/gibleho, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
-
-The stock image file in `src/img/blog/five_pifs_join/welcome.jpg` is from [Shutterstock](http://www.istockphoto.com/photo/welcome-new-employee-colleague-refugees-refugee-immigrants-desk-gm589970886-101347157), copyright Shutterstock/Boarding1Now, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
-
-The stock image file in `src/img/blog/mentor_protege_search/trusted-partnership.jpg` is from [Shutterstock](http://www.istockphoto.com/photo/trust-in-business-partnership-background-gm517418290-89480701), copyright Shutterstock/olm26250, under [Shutterstock's licensing terms](https://www.shutterstock.com/license).
 
 ## Parts of this project that are not in the public domain
 
