@@ -8,7 +8,7 @@ image_description: An abstract image of a marketplace for microconsulting servic
 image_display: true
 order: 800
 tags: [digital procurement, digital services delivery, robert read, chris cairns]
-excerpt: A preannouncement for an unsolicited proposal to construct a microconsulting services marketplace platform that we plan to pitch to the entire federal government.
+excerpt: A preannouncement for an unsolicited proposal to construct a microconsulting services marketplace platform, which we plan to pitch to the entire federal government.
 authors:
   - Robert Read
   - Chris Cairns
