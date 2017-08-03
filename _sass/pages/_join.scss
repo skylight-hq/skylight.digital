@@ -69,7 +69,25 @@
     @extend %mb-3;
   }
 
-  p:last-child {
+  p:last-child,
+  ul:last-child {
     @extend %mb-0;
+  }
+}
+
+.open-positions-list {
+  @extend %list-inside;
+
+  ul {
+    @extend %list-unstyled;
+    @extend %mt-4;
+
+    li:not(:last-child) {
+      @extend %pb-4;
+    }
+
+    p {
+      font-size: $font-size-x-small;
+    }
   }
 }

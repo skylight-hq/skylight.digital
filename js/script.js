@@ -80,7 +80,7 @@ function swapJoinContent(hash) {
 }
 
 $(function() {
-  $('.join-content-col > div').not('#application').hide()
+  $('.join-content-col > div').not('#join').hide()
 
   if (location.hash.length > 0) {
     var hash = location.hash.substr(1)

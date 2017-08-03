@@ -67,8 +67,8 @@ It turns out there is such a mechanism in the ever-flexible FAR: <a href="https:
 
 Regardless of how well or not a particular agency handles unsolicited proposals, we believe that a microconsulting services marketplace platform is a concept worth experimenting with using [modern digital delivery practices](https://skylight.digital/services/digital-services-delivery/). And we would like to support the government in that endeavor. Therefore, we will be submitting a fully open, unsolicited proposal to the government shortly, in accordance with FAR Subpart 15.6.
 
-If you are a government contracting official reading this, please <a href="mailto:chris@skylight.digital">let us know</a> where we should submit the proposal.
+If you are a government contracting official reading this, please <a href="mailto:hello@skylight.digital">let us know</a> where we should submit the proposal.
 
-If you are a fellow government contractor reading this, please <a href="mailto:chris@skylight.digital">let us know</a> if you are interested in teaming on the delivery. FAR Subpart 15.6 rules state that an unsolicited proposal must "be independently originated and developed by the offeror," but there is nothing that states we cannot work together on the delivery, should the government make an award.
+If you are a fellow government contractor reading this, please <a href="mailto:hello@skylight.digital">let us know</a> if you are interested in teaming on the delivery. FAR Subpart 15.6 rules state that an unsolicited proposal must "be independently originated and developed by the offeror," but there is nothing that states we cannot work together on the delivery, should the government make an award.
 
-For everyone else reading this, <a href="mailto:chris@skylight.digital">wish us luck</a> with our proposal!
+For everyone else reading this, <a href="mailto:hello@skylight.digital">wish us luck</a> with our proposal!
