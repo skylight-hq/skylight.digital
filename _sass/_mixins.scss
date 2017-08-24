@@ -15,7 +15,7 @@
   $filename: 'logo') {
   @extend %d-block;
   background: url('/img/#{$filename}.png') no-repeat;
-  //background: url('/img/#{$filename}.svg') no-repeat;
+  background: url('/img/#{$filename}.svg') no-repeat;
   height: $height;
   width: $width;
   background-size: contain;
