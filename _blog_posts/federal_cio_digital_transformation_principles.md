@@ -8,7 +8,7 @@ image_description: An abstract image of the letters CIO with digital-looking eff
 image_display: true
 order: 900
 tags: [digital transformation, chris cairns]
-excerpt: The digital revolution presents a unique leadership opportunity for Federal CIOs to reinvent themselves and their agencies. Here we present a set of key principles for Federal CIOs to consider following in order to seize this opportunity.
+excerpt: The digital revolution presents a unique leadership opportunity for Federal CIOs to reinvent themselves and their agencies. Here we present a set of key principles for Federal CIOs to consider following in order to seize it.
 authors:
   - Chris Cairns
 date_published: 2017-09-17
