@@ -14,7 +14,6 @@ authors:
 date_published: 2017-06-15
 date: 2017-06-15
 ---
-
 <blockquote cite="http://quoteinvestigator.com/2012/04/28/shorter-letter/">If I had more time, I would have written a shorter letter. &mdash; <a href="http://quoteinvestigator.com/2012/04/28/shorter-letter/" target="&#95;blank">attribution unclear</a></blockquote>
 
 <blockquote cite="http://www.paulgraham.com/power.html">Succinctness is power. &mdash; <a href="http://www.paulgraham.com/power.html" target="&#95;blank">Paul Graham</a></blockquote>
