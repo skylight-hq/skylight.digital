@@ -14,7 +14,6 @@ authors:
 date_published: 2017-06-27
 date: 2017-06-27
 ---
-
 Today, I'm happy to announce that five former <a href="https://presidentialinnovationfellows.gov/" target="&#95;blank">Presidential Innovation Fellows</a> (PIFs) and <a href="https://18f.gsa.gov/" target="&#95;blank">18F</a> co-founders have joined Skylight &mdash; Chris Cairns, Robert Read, Geoff Mulligan, John Teeter, and Kin Lane.
 
 As a [certified HUBZone](/about/#hubzone), Skylight's mission is to make government work in a digital world using design, technology, and procurement.

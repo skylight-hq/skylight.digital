@@ -15,7 +15,6 @@ authors:
 date_published: 2017-06-16
 date: 2017-06-16
 ---
-
 Last December, Robert Read and I published a <a href="https://medium.com/@ccairns/bootstrapping-the-modernization-of-federal-legacy-systems-through-agile-share-in-savings-a1294b0f9877" target="&#95;blank">four-part blog post series</a> on a concept that we call Agile Share-in-Savings. The basic idea behind Agile Share-in-Savings is to marry the underutilized procurement practice of share-in-savings contracting with modern agile delivery practices in order to finance the federal government's way out of its legacy-systems crisis.
 
 Since releasing the blog post series, we have received a number of positive reactions and press coverage, including <a href="https://federalnewsradio.com/commentary/2017/05/bootstrapping-the-way-out-of-the-legacy-it-systems-crisis/" target="&#95;blank">Federal News Radio</a>, <a href="https://fcw.com/blogs/lectern/2017/01/kelman-agile-share-in-savings.aspx" target="&#95;blank">Federal Computer Week</a>, <a href="https://www.fedscoop.com/agile-financing-model-agile-share-savings/" target="&#95;blank">FedScoop</a>, and <a href="https://iq.govwin.com/neo/marketAnalysis/view/1847?researchTypeId=1" target="&#95;blank">GovWin</a>.
