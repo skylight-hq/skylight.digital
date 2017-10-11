@@ -72,3 +72,5 @@ If you are a government contracting official reading this, please <a href="mailt
 If you are a fellow government contractor reading this, please <a href="mailto:hello@skylight.digital">let us know</a> if you are interested in teaming on the delivery. FAR Subpart 15.6 rules state that an unsolicited proposal must "be independently originated and developed by the offeror," but there is nothing that states we cannot work together on the delivery, should the government make an award.
 
 For everyone else reading this, <a href="mailto:hello@skylight.digital">wish us luck</a> with our proposal!
+
+*Update: [click here](https://github.com/skylight-hq/microconsulting-platform-proposal) to view the public version of the unsolicited proposal.*
