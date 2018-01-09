@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: Story of a DARPA Proposal
+title: Story of a DARPA proposal
 permalink: /blog/story-of-a-darpa-proposal/
 content_type: BlogPosting
 image: /img/blog/darpa_proposal_story/darpa-iot.jpg
