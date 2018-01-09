@@ -25,7 +25,7 @@ As the idea sank in, it became clear that we had the talent to perform the work.
 
 So we started putting the grant proposal together. I spent about a week on it; there were probably three weeks total labor involved. Chris, as our Managing Partner, had to do a lot of it: getting a solid budget and all the other paperwork done was no joke. I worked a lot with Martin and Geoff come up with a phased approach that would mitigate risk by letting us test each major risk factor independently.
 
-In the end we proposed covering a 10 square mile test area with up to 30 sensors, each of which would have a battery, a microphone, minimal signal processing, and a LoRa radio chip. The data would be collected via the LoRaWAN and sent to our open platform. The platform would have pluggable processing, of which relative simple gunshot detection and geolocation would be the first plug-in. Each sensor would cost about $35; in other words, they would be almost "throwable" &mdash; you could just pitch them out of a moving truck to cover the area.
+In the end we proposed covering a 10-square-mile test area with up to 30 sensors, each of which would have a battery, a microphone, minimal signal processing, and a LoRa radio chip. The data would be collected via the LoRaWAN and sent to our open platform. The platform would have pluggable processing, of which relative simple gunshot detection and geolocation would be the first plug-in. Each sensor would cost about $35; in other words, they would be almost "throwable" &mdash; you could just pitch them out of a moving truck to cover the area.
 
 Unfortunately DARPA didn't fund it; they wanted more specific hypothesis-testing than we wrote-up.
 
