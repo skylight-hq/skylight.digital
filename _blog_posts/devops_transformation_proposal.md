@@ -11,8 +11,8 @@ tags: [digital transformation, chris cairns]
 excerpt: Summary of a winning proposal that we put together to deliver DevOps transformation services to a large commercial enterprise.
 authors:
   - Chris Cairns
-date_published: 2018-02-03
-date: 2018-02-03
+date_published: 2018-02-08
+date: 2018-02-08
 ---
 
 We recently won a competitive contract to deliver DevOps transformation services to a large commercial enterprise. For confidentiality, we'll refer to this company as none other than "ACME Corp."
