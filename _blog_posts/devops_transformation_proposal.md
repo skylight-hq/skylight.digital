@@ -11,8 +11,8 @@ tags: [digital transformation, chris cairns]
 excerpt: Summary of a winning proposal that we put together to deliver DevOps transformation services to a large commercial enterprise.
 authors:
   - Chris Cairns
-date_published: 2018-02-08
-date: 2018-02-08
+date_published: 2018-02-03
+date: 2018-02-03
 ---
 
 We recently won a competitive contract to deliver DevOps transformation services to a large commercial enterprise. For confidentiality, we'll refer to this company as none other than "ACME Corp."
@@ -34,7 +34,7 @@ Those words &mdash; *sustainably*, *self-sufficiently*, and *effectively* &mdash
 
 **Sustainability** is about helping ACME chart a course that doesn't overload the organization with too many simultaneous change initiatives. Steady progress is best achieved by focusing on improving a couple of high-impact capabilities (e.g., test automation and deployment automation) at a time. Once those are mastered, then the organization is ready to take on more. Think of it as Kanban for transformation that enables rapid incremental capability development.
 
-**Self-sufficiency** is about building-up ACME's internal DevOps expertise to point where dependence on expensive outside consultancies is minimized or eliminated. One of the things that we proposed to accomplish that is the establishment of a DevOps Center of Excellence (CoE), similar to <a href="https://thenewstack.io/magic-behind-disney-devops-experience/" target="&#95;blank">Disney's highly successful DevOps CoE</a>. To staff ACME's DevOps CoE, we proposed the use of an emerging, innovative talent management practice called "<a href="https://blog.codingitforward.com/people-flow-in-action-coding-it-forward-d9e94d1d0ff9" target="&#95;blank">people flow</a>."
+**Self-sufficiency** is about building-up ACME's internal DevOps expertise to point where dependence on expensive outside consultancies is minimized or eliminated. One of the things that we proposed to accomplish that is the establishment of a DevOps Center of Excellence (CoE), similar to <a href="https://thenewstack.io/magic-behind-disney-devops-experience/" target="&#95;blank">Disney's highly successful DevOps CoE</a>. To staff ACME's DevOps CoE, we proposed the use of an emerging, innovative talent management practice called "<a href="https://blog.codingitforward.com/people-flow-in-action-coding-it-forward-d9e94d1d0ff9" target="&#95;blank">people flow</a>" such as the <a href="https://presidentialinnovationfellows.gov/" target="&#95;blank">Presidential Innovation Fellows</a> or Capital One's Tech Fellows.
 
 **Effectiveness** is about giving ACME a decision-making framework that enables leadership to decide how best to plan budget allocations so initial and ongoing investments in improving their DevOps capabilities yield the highest impact on IT performance.
 
