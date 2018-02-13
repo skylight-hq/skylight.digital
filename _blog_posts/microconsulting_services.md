@@ -15,9 +15,9 @@ authors:
 date_published: 2017-07-05
 date: 2017-07-05
 ---
-If there's one thing that we learned during our time at [18F](https://skylight.digital/work/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
+If there's one thing that we learned during our time at [18F](/work/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
 
-Now with Skylight, we're excited to take what we've learned from executing these types of focused, quick-turnaround, high-impact consulting engagements to the next level. We call it [Microconsulting Services](https://skylight.digital/services/microconsulting/).
+Now with Skylight, we're excited to take what we've learned from executing these types of focused, quick-turnaround, high-impact consulting engagements to the next level. We call it [Microconsulting Services](/services/microconsulting/).
 
 ## What is microconsulting?
 
@@ -42,7 +42,7 @@ It's also a great, low-risk way to test out the capabilities of a firm before en
 
 We possess digital expertise in a number of different areas &mdash; for example, design/product workshops, agile acquisition, agile delivery, open-source software, rapid prototyping, software engineering, legacy modernization, microservice architecture, application programming interfaces, IPv6, and cloud computing. So we can provide a wide range of Microconsulting Services tailored to your specific needs.
 
-We also offer several [standard ones](https://skylight.digital/services/microconsulting/) as well. These include:
+We also offer several [standard ones](/services/microconsulting/) as well. These include:
 
 - **Agile Solicitation Support** for increasing the probability of your acquisition's success through a smartly-crafted solicitation aligned to agile delivery practices.
 - **Code Quality Assessment** for identifying code-quality issues such as technical debt that are holding your software development team back from delivering faster.
