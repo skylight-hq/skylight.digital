@@ -206,6 +206,10 @@
       link: http://kinlane.com/
       link_description: Kin's Personal Website
       fa_icon_name: home
+    - name: Blog Posts
+      link: /blog/author/kin-lane/
+      link_description: Kin's Blog Posts
+      fa_icon_name: pencil
     - name: Projects
       link: /work/team-member/kin-lane/
       link_description: Kin's Project Work
