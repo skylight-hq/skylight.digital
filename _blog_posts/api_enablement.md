@@ -9,6 +9,7 @@ image_display: true
 order: 1300
 tags: [digital services delivery, apis, robert read, kin lane]
 excerpt: A lighthearted, mock email between two government program managers discussing the immediate benefits of API enablement as a precursor to modernizing a legacy system.
+authors:
   - Robert Read
   - Kin Lane
 date_published: 2018-02-14
