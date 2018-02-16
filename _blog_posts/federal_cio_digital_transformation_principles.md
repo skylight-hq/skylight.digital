@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: Principles for a Federal CIO-led digital transformation
+title: Principles for a federal CIO-led digital transformation
 permalink: /blog/principles-for-a-federal-cio-led-digital-transformation/
 content_type: BlogPosting
 image: /img/blog/federal_cio_digital_transformation_principles/cio-letters-digitized.png
@@ -8,15 +8,15 @@ image_description: An abstract image of the letters CIO with digital-looking eff
 image_display: true
 order: 900
 tags: [digital transformation, chris cairns]
-excerpt: The digital revolution presents a unique leadership opportunity for Federal CIOs to reinvent themselves and their agencies. Here we present a set of key principles for Federal CIOs to consider following in order to seize it.
+excerpt: The digital revolution presents a unique leadership opportunity for federal CIOs to reinvent themselves and their agencies. Here we present a set of key principles for federal CIOs to consider following in order to seize it.
 authors:
   - Chris Cairns
 date_published: 2017-09-17
 date: 2017-09-17
 ---
-The digitization megatrend presents unique challenges for Federal CIOs. Users expect simple, secure, reliable, multichannel digital experiences. Agile teams must be supported with new management practices, workspace environments, and tools. Legacy systems must be reengineered to enable the rapid, iterative delivery of new business and mission capabilities. Data silos must be broken down to capitalize on advances in the application of data such as predictive analytics, data science, artificial intelligence, and bots. Above all, fundamental new ways of thinking and working must be adopted at nearly every level of the organization. In other words, wholesale culture change. Despite such challenges, the digital revolution also creates an opportunity for Federal CIOs to completely reinvent their business models, and assume a central role (buoyed by the Federal Information Technology Acquisition Reform Act) in transforming their agencies into a digitally-powered organizations.
+The digitization megatrend presents unique challenges for federal CIOs. Users expect simple, secure, reliable, multichannel digital experiences. Agile teams must be supported with new management practices, workspace environments, and tools. Legacy systems must be reengineered to enable the rapid, iterative delivery of new business and mission capabilities. Data silos must be broken down to capitalize on advances in the application of data such as predictive analytics, data science, artificial intelligence, and bots. Above all, fundamental new ways of thinking and working must be adopted at nearly every level of the organization. In other words, wholesale culture change. Despite such challenges, the digital revolution also creates an opportunity for federal CIOs to completely reinvent their business models, and assume a central role (buoyed by the Federal Information Technology Acquisition Reform Act) in transforming their agencies into a digitally-powered organizations.
 
-Given this unique opportunity for reinvention, the question becomes: how should you, as a progressive Federal CIO, go about rewiring your agency for the digital age? Based on my experience co-building <a href="https://18f.gsa.gov/" target="&#95;blank">18F</a> into 200-person digital center of excellence within the General Services Administration, conducting first-hand research of digital transformation best practices at progressive government organizations such as the <a href="https://gds.blog.gov.uk/" target="&#95;blank">UK's Government Digital Service</a>, and developing and executing comprehensive approaches to digital transformation in collaboration with multiple agency executives (mostly Federal CIOs), I recommend subscribing to the following key principles, many of which interact and reinforce one another:
+Given this unique opportunity for reinvention, the question becomes: how should you, as a progressive federal CIO, go about rewiring your agency for the digital age? Based on my experience co-building <a href="https://18f.gsa.gov/" target="&#95;blank">18F</a> into 200-person digital center of excellence within the General Services Administration, conducting first-hand research of digital transformation best practices at progressive government organizations such as the <a href="https://gds.blog.gov.uk/" target="&#95;blank">UK's Government Digital Service</a>, and developing and executing comprehensive approaches to digital transformation in collaboration with multiple agency executives (mostly federal CIOs), I recommend subscribing to the following key principles, many of which interact and reinforce one another:
 
 **Develop, execute, and maintain a flexible strategic plan for change.** Transformational success hinges on an executable, adaptable plan for change, which leaders and frontline staff must buy into. The process should generally involve:
 
@@ -52,6 +52,6 @@ When combining this principle with the one above, there's an important implicati
 
 ...
 
-I've heard a lot of arguments that Federal CIOs aren't up the task of playing a leading role in transforming their agencies into digitally-powered organizations. Instead, what's really needed are completely new functional roles such as Chief Digital Officer or Chief Data Officer to lead the way. Personally, I don't *yet* subscribe to that theory of change, although many would point to examples such the UK's Government Digital Service as outside-of-the-CIO models to follow.
+I've heard a lot of arguments that federal CIOs aren't up the task of playing a leading role in transforming their agencies into digitally-powered organizations. Instead, what's really needed are completely new functional roles such as Chief Digital Officer or Chief Data Officer to lead the way. Personally, I don't *yet* subscribe to that theory of change, although many would point to examples such the UK's Government Digital Service as outside-of-the-CIO models to follow.
 
-I believe that Federal CIOs are up to the challenge. With the right leadership and the right approach, they can reinvent themselves &mdash; and their agencies &mdash; to succeed in today's digital age.
+I believe that federal CIOs are up to the challenge. With the right leadership and the right approach, they can reinvent themselves &mdash; and their agencies &mdash; to succeed in today's digital age.
