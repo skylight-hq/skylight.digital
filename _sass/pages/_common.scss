@@ -142,6 +142,16 @@
     }
   }
 
+  h3 {
+    @extend %mb-2;
+    color: $brand-primary;
+    font-size: $font-size-large;
+
+    &:not(:first-child) {
+      @extend %mt-4;
+    }
+  }
+
   p:last-child {
     @extend %mb-0;
   }
