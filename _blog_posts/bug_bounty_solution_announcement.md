@@ -11,8 +11,8 @@ tags: [digital services delivery, chris cairns]
 excerpt: Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure services. Here's a look at our new bug bounty solution.
 authors:
   - Chris Cairns
-date_published: 2018-02-24
-date: 2018-02-24
+date_published: 2018-02-27
+date: 2018-02-27
 ---
 
 Citizens expect public digital services to be useful, usable, and *secure*. When the security of these services are compromised and exploited by malicious actors, *real* people are put at risk of any number of cyber-related crimes such as identity theft. As stewards of public trust, the government must hold itself to the highest, most appropriate levels of security standards in order to protect the people it serves. Unfortunately, the combination of limited resources and expanding attack surface areas are creating even more opportunities for adversaries. To counteract this trend, more and more organizations are embracing the use of bug bounties, a crowdsourced approach to security research. Through the power of the crowd, bug bounties can uncover <a href="https://www.bugcrowd.com/?utm_source=channel&utm_medium=skylight&utm_content=blog&utm_campaign=integration_partner" target="&#95;blank">8x more critical vulnerabilities</a> than traditional penetration testing and security assessments.
