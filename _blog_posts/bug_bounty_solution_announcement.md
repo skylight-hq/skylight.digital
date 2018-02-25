@@ -8,7 +8,7 @@ image_description: Illustration of bugs eating a computer with a crosshair over 
 image_display: true
 order: 1500
 tags: [digital services delivery, chris cairns]
-excerpt: Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure services. Here's a look at our new bug bounty solution.
+excerpt: Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure digital services. Here's a look at our new bug bounty solution.
 authors:
   - Chris Cairns
 date_published: 2018-02-24
