@@ -13,7 +13,7 @@ authors:
   - Chris Cairns
   - Robert Read
 date_published: 2017-07-05
-date: 2017-07-05
+date: 2018-02-25
 ---
 If there's one thing that we learned during our time at [18F](/work/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
 
@@ -40,19 +40,10 @@ It's also a great, low-risk way to test out the capabilities of a firm before en
 
 ## What types of microconsulting do we offer?
 
-We possess digital expertise in a number of different areas &mdash; for example, design/product workshops, agile acquisition, agile delivery, open-source software, rapid prototyping, software engineering, legacy modernization, microservice architecture, application programming interfaces, IPv6, and cloud computing. So we can provide a wide range of Microconsulting Services tailored to your specific needs.
-
-We also offer several [standard ones](/services/microconsulting/) as well. These include:
-
-- **Agile Solicitation Support** for increasing the probability of your acquisition's success through a smartly-crafted solicitation aligned to agile delivery practices.
-- **Code Quality Assessment** for identifying code-quality issues such as technical debt that are holding your software development team back from delivering faster.
-- **Protosketching** (a unique form of rapid product prototyping) for stimulating stakeholder imaginations about what's possible and focusing the strategic direction of your project.
-- **Coding Dojo** (a mini-coding bootcamp) for quickly gaining expertise with a specific programming language/framework, development practice, or technology.
-- **Agile Micro-sprint** for giving you and your team direct hands-on experience with agile while simultaneously advancing the development of your software product.
-- **Rent-a-CTO** for obtaining quick expert advice on the suitability and trade-offs of using a particular architectural pattern, delivery practice, or technology.
+We possess digital expertise in a number of different areas &mdash; for example, design/product workshops, agile acquisition, agile delivery, open-source software, rapid prototyping, software engineering, legacy modernization, microservice architecture, application programming interfaces, IPv6, and cloud computing. So we can provide a wide range of Microconsulting Services tailored to your specific needs. We also offer several [standard ones](/services/microconsulting/) as well.
 
 ## What prices do we charge?
 
-All of our Microconsulting Services are conveniently priced within the federal government's micropurchase thresholds (civilian: $3,500, defense: $5,000), making us just a swipe of the credit away.
+All of our Microconsulting Services are conveniently priced within the federal government's micropurchase thresholds (civilian: $10,000, defense: $5,000), making us just a swipe of the credit away.
 
 If you'd like to learn more about our Microconsulting Services, please drop us an email at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>.
