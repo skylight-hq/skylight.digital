@@ -66,7 +66,7 @@ Over the course of the launch stage, you'll gain valuable experience running bug
 
 When shopping for bug bounty platforms, there are a number of good options available to you. From a "value-added" services standpoint, we can work fairly well with any of them. However, our top choice and recommendation is Bugcrowd, which is why we've decided to engage in a strategic partnership with them. There are a number of reasons for this, but the biggest ones are:
 
-- Bugcrowd provides a fully managed service as their standard offering, which is especially great for resource-constrained organizations. For example, their security specialists provide not only triage and validation support, but remediation advice as well.
+- Bugcrowd provides a fully managed service as their standard offering, which is especially great for resource-constrained organizations. (The federal government's widespread <a href="https://www.opm.gov/blogs/Director/2016/7/12/Strengthening-the-Federal-Cybersecurity-Workforce/" target="&#95;blank">shortage of cybersecurity talent</a> is well documented.) For example, Bugcrowd's security specialists provide not only triage and validation support, but remediation advice as well.
 - Bugcrowd's Head of Government Solutions, <a href="https://www.linkedin.com/in/chungmj/" target="&#95;blank">Michael Chung</a>, ran DoD's Hack the Pentagon, the federal government's first bug bounty program, during his tour with the Defense Digital Service. It's hard to discount that type of experience.
 - As a managed service, Bugcrowd derives revenue from charging a management fee, as opposed to taking a cut out of the researchers' bounty rewards pool.
 
