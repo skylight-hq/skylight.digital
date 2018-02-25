@@ -32,10 +32,9 @@ service_elements:
       Propel the performance of your software delivery teams to the next
       level and beyond through our agile adoption pattern of Shu-Ha-Ri.
     order: 4
-  - name: Open Source Marketplace
+  - name: Developers Exchange
     description: >
-      Engage thousands of great design and development firms through a
-      platform-enabled marketplace for open-source work.
+      Make it easier to engage thousands of great designers and developers through the use of micro-purchase platforms.
     order: 5
   - name: Challenges &amp; Prizes
     description: >
@@ -45,13 +44,7 @@ service_elements:
 ---
 
 {% capture header_content %}
-  <strong>To support digital progress, procurement must change.</strong> At Skylight, we combine
-  technical and acquisition brains to make procurement work for you in the digital age.
-  That means greater collaboration with vendors, faster delivery of value, higher quality
-  results, lower costs, and breakthrough innovations. As founders of 18F, we pioneered and
-  led several game-changing acquisition initiatives, including Agile Acquisition,
-  Agile Delivery Services Marketplace, RFP Ghostwriting, Digital Acquisition Accelerator,
-  and Micro-purchase Platform.
+  <strong>To support digital progress, procurement must change.</strong> At Skylight, we combine technical and acquisition brains to make procurement work for you in the digital age. That means greater collaboration with vendors, faster delivery of value, higher quality results, lower costs, and breakthrough innovations.
 {% endcapture %}
 
 {% include page_header.html
