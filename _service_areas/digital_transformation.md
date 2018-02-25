@@ -17,7 +17,7 @@ service_elements:
       digital-first agency through our holistic approach to assessing
       your unique needs and developing a plan for change.
     order: 1
-  - name: Digital Talent
+  - name: Digital Talent Management
     description: >
       Increase and empower the digital talent within your agency,
       IT organization, business unit, or program office through our
@@ -32,14 +32,9 @@ service_elements:
 ---
 
 {% capture header_content %}
-  <strong>"Going digital" is about people first and technology second.</strong> At Skylight,
-  we possess first-hand experience with embedding digital expertise throughout
+  <strong>"Going digital" is about people first and technology second.</strong> At Skylight, we possess first-hand experience with embedding digital expertise throughout
   government organizations, and putting the operating principles, structures,
   and tools in place to unleash the superpowers of high-caliber digital teams.
-  As founders of 18F, we built and scaled the organization to over 200 digital
-  experts, distributed across 30 cities, using existing federal-wide hiring authorities.
-  We're experts at managing large-scale, high-performing digital talent within
-  government settings.
 {% endcapture %}
 
 {% include page_header.html
