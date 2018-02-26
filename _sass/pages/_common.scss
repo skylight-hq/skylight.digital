@@ -148,7 +148,7 @@
     font-size: $font-size-large;
 
     &:not(:first-child) {
-      @extend %mt-4;
+      @extend %mt-5;
     }
   }
 
