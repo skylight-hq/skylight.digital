@@ -34,7 +34,7 @@ service_elements:
     order: 4
   - name: Developers Exchange
     description: >
-      Make it easier to engage thousands of great designers and developers through the use of micro-purchase platforms.
+      Make it easier to engage thousands of great designers and developers through the use of micropurchase platforms.
     order: 5
   - name: Challenges &amp; Prizes
     description: >
