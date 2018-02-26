@@ -17,30 +17,28 @@ service_elements:
       Increase the probability of your acquisition's success through
       a smartly-crafted solicitation aligned to agile delivery practices. Our team of technical and acquisition experts thoroughly review and recommend improvements to your solicitation package.
     order: 1
+  - name: Design Sprint
+    description: >
+      Engage with one of our cross-functional teams to help you answer critical business questions through design, prototyping, and testing ideas with customers over a period of five days. Design Sprints are a proven method codified by Google Ventures.
+    order: 2
+  - name: Technical Advice
+    description: >
+      Obtain targeted advice on the suitability and trade-offs of using a particular architectural pattern, delivery practice, or technology from one of our digital experts.
+    order: 3
   - name: Code Quality Assessment
     description: >
       Identify code-quality issues holding your software development
       team back from delivering faster. We're experts at rapidly evaluating
       the quality of any codebase (large, small, legacy, modern), measuring
       technical debt, and recommending improvement actions.
-    order: 2
-  - name: Protosketching
-    description: >
-      Stimulate stakeholder imaginations about what's possible,
-      and focus the strategic direction of your project, with our ability
-      to create product prototypes at warp speed.
-    order: 3
+    order: 4
   - name: Coding Dojo
     description: >
       Quickly gain expertise with a specific programming language/framework, development practice, or technology through one of our well-orchestrated mini-coding bootcamps.
-    order: 4
-  - name: Agile Micro-sprint
-    description: >
-      Gain direct hands-on experience with agile while simultaneously advancing the development of your software product through a facilitated multi-day agile workshop.
     order: 5
-  - name: Rent-a-CTO
+  - name: Bug Bounty Bootcamp
     description: >
-      Obtain quick advice on the suitability and trade-offs of using a particular architectural pattern, delivery practice, or technology from one of our digital experts.
+      A one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed.
     order: 6
 ---
 

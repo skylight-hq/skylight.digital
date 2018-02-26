@@ -29,11 +29,11 @@ For most government organizations, bug bounty programs represent a new approach 
 
 ![Four phases of Skylight's bug bounty lifecycle support services.](/img/blog/bug_bounty_solution_announcement/bug-bounty-services.png)
 
-### Boot Camp
+### Bootcamp
 
-Our Bug Bounty Boot Camp is a one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed. As part of this training, we dive deep into several different case studies (e.g., Google Security Reward Programs, DoD's Hack the Pentagon), survey and demo commercial bug bounty platforms, facilitate a collaborative workshop in which we launch a mock program, and assess whether your organization is ready for a bug bounty program. Our aim is to equip you with all the critical knowledge, tools, and templates that you need to move forward successfully.
+Our Bug Bounty Bootcamp is a one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed. As part of this training, we dive deep into several different case studies (e.g., Google Security Reward Programs, DoD's Hack the Pentagon), survey and demo commercial bug bounty platforms, facilitate a collaborative workshop in which we launch a mock program, and assess whether your organization is ready for a bug bounty program. Our aim is to equip you with all the critical knowledge, tools, and templates that you need to move forward successfully.
 
-**The great thing about this Boot Camp is that it's scoped and priced within the federal government's <a href="https://www.acquisition.gov/far/html/Subpart%2013_2.html" target="&#95;blank">micropurchase threshold</a>.**
+**The great thing about this Bootcamp is that it's scoped and priced within the federal government's <a href="https://www.acquisition.gov/far/html/Subpart%2013_2.html" target="&#95;blank">micropurchase threshold</a>.**
 
 ### Design & Preparation
 

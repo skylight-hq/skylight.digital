@@ -37,10 +37,9 @@ service_elements:
       Introduce your legacy software system to the 21st century through our
       evolutionary, high-impact, low-risk approach to modernization.
     order: 5
-  - name: Tech Surge Support
+  - name: Bug Bounty Program
     description: >
-      Turn around a tech crisis affecting your mission critical
-      functions quickly with one or more of our full-stack, rapid-response teams.
+      Create more robust and secure digital services by integrating bug bounties into your development, security, and operational processes.
     order: 6
 ---
 
