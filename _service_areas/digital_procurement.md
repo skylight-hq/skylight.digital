@@ -13,8 +13,7 @@ tags: [digital procurement, digital acquisition, agile acquisition]
 service_elements:
   - name: Vendor Marketplaces
     description: >
-      Create a curated marketplace of amazing tech vendors (called a "micro-market")
-      through our lauded experience with challenge-based procurements.
+      Create a curated marketplace of amazing tech vendors through our lauded experience with innovative procurement approaches such as technical challenges.
     order: 1
   - name: Agile Acquisition
     description: >
