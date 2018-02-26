@@ -19,7 +19,7 @@ service_elements:
     order: 1
   - name: Design Sprint
     description: >
-      Engage one of our cross-functional teams to help you answer critical business questions through design, prototyping, and testing ideas with customers over a period of five days. Design Sprints are a proven method codified by Google Ventures.
+      Engage one of our cross-functional teams to help you answer critical business questions through design, prototyping, and testing ideas with customers over a five-day period. Design Sprints are a proven method codified by Google Ventures.
     order: 2
   - name: Technical Advice
     description: >
