@@ -58,6 +58,10 @@
   @extend %narrative-base;
   @extend %mb-5;
 
+  h3 {
+    color: $flame-pea;
+  }
+
   blockquote {
     @extend %blockquote;
     @extend %my-4;
