@@ -30,7 +30,7 @@ service_elements:
   - name: Agile Coaching
     description: >
       Propel the performance of your software delivery teams to the next
-      level and beyond through our agile adoption pattern of Shu-Ha-Ri.
+      level and beyond through our proven ability to coach at at all levels of your organization (executive, portfolio, program, team, and technical).
     order: 4
   - name: Developers Exchange
     description: >
