@@ -1,18 +1,28 @@
 <h2>Open positions</h2>
 
-<p>
-  Below are the roles that we're looking to hire for. We're 100% open to freelancers or
-  boutique firms who would prefer to work on a contract basis. If you don't see a position
-  that fits you, we'd still love to talk! <a href="/join/#application">Simply send us your info</a>.
-</p>
+{% if site.data.open_positions[0] %}
+  <p>
+    Below are the roles that we're looking to hire for. We're 100% open to freelancers or
+    boutique firms who would prefer to work on a contract basis. If you don't see a position
+    that fits you, we'd still love to talk! <a href="/join/#application">Simply send us your info</a>.
+  </p>
 
-<div class="open-positions-list">
-  <ul>
-    <li>
-      <a href="https://skylight.workable.com/jobs/604049" target="_blank" title="View job posting for Experienced DevOps Engineer">
-        Experienced DevOps Engineer
-      </a>
-      <p>Washington DC</p>
-    </li>
-  </ul>
-</div>
+  <div class="open-positions-list">
+    <ul>
+      {% assign open_positions = site.data.open_positions | sort: 'order' %}
+      {% for open_position in open_positions %}
+        <li>
+          <a href="{{open_position.url}}" target="_blank" title="View job posting for {{open_position.title}}">
+            {{open_position.title}}
+          </a>
+          <p>{{open_position.location}}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% else %}
+  <p>
+    We're not currently hiring at the moment, but that can change quickly.
+    So please don't hesitate to <a href="/join/#application">apply</a>!
+  </p>
+{% endif %}
