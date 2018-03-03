@@ -98,6 +98,7 @@
   @extend %container;
   @extend %mb-5;
   @extend %mb-md-6;
+  @extend %hidden-xs-down;
 
   img {
     @extend %img-fluid;
