@@ -192,8 +192,8 @@
 
   .#{$class-name}-img {
     @extend %card-img-top;
-    @extend .m-0;
-    @extend .p-0;
+    @extend %m-0;
+    @extend %p-0;
     background-color: $gray-lighter;
     background-position: center;
     background-repeat: no-repeat;
