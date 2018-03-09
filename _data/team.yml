@@ -214,3 +214,32 @@
       link: /work/team-member/kin-lane/
       link_description: Kin's Project Work
       fa_icon_name: wrench
+- name: josh-dorothy
+  fname: Josh
+  lname: Dorothy
+  full_name: Josh Dorothy
+  short_name: J. Dorothy
+  profile_path: /about/#josh-dorothy
+  image: /img/people/josh-dorothy.png
+  image_description: Placeholder Photo of Josh Dorothy
+  position: DevOps Engineer
+  bio: >
+    Josh is a former member of the U.S. Digital Service, with a
+    passion for building both great platforms and great products.
+    He specializes in DevOps engineering, cloud computing,
+    and user-focused software development.
+  active: true
+  order: 70
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/joshdorothy/
+      link_description: Josh's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/jdorothy
+      link_description: Josh's GitHub Account
+      fa_icon_name: github
+    - name: Blog Posts
+      link: /blog/author/josh-dorothy/
+      link_description: Josh's Blog Posts
+      fa_icon_name: pencil
