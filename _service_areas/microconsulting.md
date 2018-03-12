@@ -43,7 +43,7 @@ service_elements:
 ---
 
 {% capture header_content %}
-  <strong>Need immediate, quick-hit support to address a critical need that doesn't require a full-blown engagement?</strong> Our Microconsulting services are designed specifically for that purpose, providing you with on-demand access to our digital expertise. These services are conveniently priced within the federal government micropurchase threshold, making us just a swipe of a credit card away.
+  <strong>Need immediate, quick-hit support to address a critical need that doesn't require a full-blown engagement?</strong> Our Microconsulting services are designed specifically for that purpose, providing you with on-demand access to our digital expertise. These services are conveniently priced within the federal government's micropurchase threshold, making us just a swipe of a credit card away.
 {% endcapture %}
 
 {% include page_header.html
