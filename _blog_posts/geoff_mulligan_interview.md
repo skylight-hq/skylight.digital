@@ -27,7 +27,7 @@ With my experience in IoT, coupled with Skylight's expertise in areas such as le
 
 **Chris Cairns: How did you find out about Skylight?**
 
-**Geoff Mulligan:** I met several members of the now-Skylight team such as [Kin Lane](/blog/kin-lane-harnessing-the-connective-power-of-apis/) and [Dr. Robert Read](/about/#robert-read) during Round 2 of the Presidential Innovation Fellows. After finishing my tour as a fellow, I felt that there was more all of us could be doing to continue applying innovation pressure on the government. Skylight presented a platform to help effectuate that, and I felt that it could be a force of change. After chatting with members of the team, I saw an incredible opportunity to improve how government serves people through a combination of technologies such as IoT, APIs, microservices, and cloud computing.
+**Geoff Mulligan:** I met several members of the now-Skylight team such as [Kin Lane](/blog/kin-lane-harnessing-the-connective-power-of-apis/) and [Dr. Robert Read](/about/#robert-read) during Round 2 of the Presidential Innovation Fellows. After finishing my tour as a fellow, I felt that there was more all of us could be doing to continue applying innovation pressure on the government. Skylight presented a platform to help effectuate that, and I felt that it could be a force of change. The rest is history.
 
 **Chris Cairns: Why did you decide to join?**
 
