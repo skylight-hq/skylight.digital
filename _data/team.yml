@@ -160,8 +160,8 @@
   position: IoT Architect
   bio: >
     Geoff served as a Presidential Innovation Fellow in 2013, and has developed
-    standards that power the internet, including IPv6. He specializes in Internet of Things,
-    distributed and embedded systems engineering, networking technologies, and security.
+    standards that power the internet, including IPv6 and 6LoWPAN. He specializes in Internet of Things,
+    distributed and embedded systems engineering, networking technologies, and privacy and security.
   active: true
   order: 50
   socials:
@@ -173,6 +173,10 @@
       link: https://www.linkedin.com/in/geoffmulligan/
       link_description: Geoff's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Blog Posts
+      link: /blog/author/geoff-mulligan/
+      link_description: Geoff's Blog Posts
+      fa_icon_name: pencil
 - name: kin-lane
   fname: Kin
   lname: Lane
