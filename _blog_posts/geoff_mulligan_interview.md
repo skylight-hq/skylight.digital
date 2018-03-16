@@ -19,7 +19,7 @@ date: 2018-03-15
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
-**Geoff Mulligan:** While developing and leading the LoRa Alliance, I saw a need for the intersection of IoT, Application Programming Interfaces (APIs), microservices, and cloud computing. Too many IoT projects are siloed solutions, and often on a grand and glorious scale &mdash; biting off more than can possibly be chewed (an entire smart city all at once). The Internet, our transportation system, and our cities did not spring forth fully formed. They grew incrementally, but with the understanding that they were not being created in a vacuum and would be connected. Yet today purveyors of smart city solutions seem to view theirs as the only system to be deployed across an entire city and that it is "OK" to ignore interfacing with other systems.
+**Geoff Mulligan:** While developing and leading the LoRa Alliance, I saw a need for the intersection of IoT, Application Programming Interfaces (APIs), microservices, and cloud computing. Too many IoT projects are siloed solutions, and often on a grand and glorious scale &mdash; biting off more than can possibly be chewed (an entire smart city all at once). The internet, our transportation system, and our cities did not spring forth fully formed. They grew incrementally, but with the understanding that they were not being created in a vacuum and would be connected. Yet today purveyors of smart city solutions seem to view theirs as the only system to be deployed across an entire city and that it is "OK" to ignore interfacing with other systems.
 
 Rather than build huge, monolithic IoT systems, we should take a page from lean-agile engineering: smart cities &mdash; and in fact all IoT systems &mdash; should be designed and implemented in small, focused, interoperable pieces. Be defining and using open and interoperable standards, smart city pieces and IoT systems can be snapped together like LEGO building blocks.
 
@@ -31,7 +31,7 @@ With my experience in IoT, coupled with Skylight's expertise in areas such as le
 
 **Chris Cairns: Why did you decide to join?**
 
-**Geoff Mulligan:** I want IoT to truly move from hype to reality, and to advocate for open and interoperable solutions where IoT can create new opportunities and solutions to solve real-world problems. I don't want IoT be just another way to sell us more stuff we didn't know we needed in the first place. Just as the government helped by building the original ARPANET, which led to the Internet of today, I believe that the Skylight team can help the government leverage the power of IoT to drive improvements in healthcare, energy, transportation, water management, manufacturing, and elsewhere.
+**Geoff Mulligan:** I want IoT to truly move from hype to reality, and to advocate for open and interoperable solutions where IoT can create new opportunities and solutions to solve real-world problems. I don't want IoT be just another way to sell us more stuff we didn't know we needed in the first place. Just as the government helped by building the original ARPANET, which led to the internet of today, I believe that the Skylight team can help the government leverage the power of IoT to drive improvements in healthcare, energy, transportation, water management, manufacturing, and elsewhere.
 
 **Chris Cairns: What have you worked on so far?**
 
