@@ -40,7 +40,7 @@ It's also a great, low-risk way to test out the capabilities of a firm before en
 
 ## What types of microconsulting do we offer?
 
-We possess digital expertise in a number of different areas &mdash; for example, design/product workshops, agile acquisition, agile delivery, open-source software, rapid prototyping, software engineering, legacy modernization, microservice architecture, application programming interfaces, IPv6, and cloud computing. So we can provide a wide range of Microconsulting Services tailored to your specific needs. We also offer several [standard ones](/services/microconsulting/) as well.
+We possess digital expertise in a number of different areas &mdash; for example, design/product workshops, agile acquisition, agile delivery, open-source software, rapid prototyping, software engineering, legacy modernization, microservice architecture, application programming interfaces, and cloud computing. So we can provide a wide range of Microconsulting Services tailored to your specific needs. We also offer several [standard ones](/services/microconsulting/) as well.
 
 ## What prices do we charge?
 
