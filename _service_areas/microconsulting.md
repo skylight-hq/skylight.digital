@@ -12,33 +12,29 @@ feature: false
 tags:
   - microconsulting
 service_elements:
-  - name: Agile Solicitation Support
+  - name: Solicitation Review
     description: >
-      Increase the probability of your acquisition's success through
-      a smartly-crafted solicitation aligned to agile delivery practices. Our team of technical and acquisition experts thoroughly review and recommend improvements to your solicitation package.
+      Increase the probability of your acquisition's success through a smartly-crafted solicitation aligned to agile delivery practices. Our team of technical and acquisition experts thoroughly review and recommend improvements to your solicitation package.
     order: 1
   - name: Design Sprint
     description: >
-      Engage one of our cross-functional teams to help you answer critical business questions through design, prototyping, and testing ideas with customers over a five-day period. Design Sprints are a proven method codified by Google Ventures.
+      Engage one of our cross-functional teams to help you answer critical business questions through design, prototyping, and testing ideas with customers over a five-day period. Design Sprint is a proven method codified by Google Ventures.
     order: 2
-  - name: Technical Advice
+  - name: Delivery Support
     description: >
-      Obtain targeted advice on the suitability and trade-offs of using a particular architectural pattern, delivery practice, or technology from one of our digital experts.
+      Obtain targeted, hands-on digital delivery support such as a design workshop, a prototype, or an open-source code contribution through access to our talented team of digital specialists.
     order: 3
-  - name: Code Quality Assessment
+  - name: Design &amp; Tech Advice
     description: >
-      Identify code-quality issues holding your software development
-      team back from delivering faster. We're experts at rapidly evaluating
-      the quality of any codebase (large, small, legacy, modern), measuring
-      technical debt, and recommending improvement actions.
+      Obtain targeted advice on the suitability and trade-offs of using a particular delivery practice, architectural pattern, or technology from one of our digital experts.
     order: 4
-  - name: Coding Dojo
+  - name: Health Check
     description: >
-      Quickly gain expertise with a specific programming language/framework, development practice, or technology through one of our well-orchestrated mini-coding bootcamps.
+      Identify high-impact opportunities to improve the health of your digital delivery project. We rapidly assess all key dimensions &mdash; such as the user experience and code quality &mdash; and recommend priority areas for improvement.
     order: 5
-  - name: Bug Bounty Bootcamp
+  - name: Immersive Learning
     description: >
-      A one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed.
+      Quickly gain expertise with a specific programming language/framework, delivery practice, or technology through one of our well-orchestrated, mini bootcamps.
     order: 6
 ---
 

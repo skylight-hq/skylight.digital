@@ -13,31 +13,25 @@ tags: [digital services delivery, legacy modernization, product development, cus
 service_elements:
   - name: Customer Experience Design
     description: >
-      Go beyond user experience design, and delight customers
-      at every step of the journey with your service.
+      Go beyond user experience design, and delight customers at every step of the journey with your service.
     order: 1
   - name: Rapid Prototyping
     description: >
-      Assumptions are risky. Answer critical strategy, design, and tech questions
-      with our rapid, customer-driven, iterative approach to prototyping.
+      Assumptions are risky. Answer critical strategy, design, and tech questions with our rapid, customer-driven, iterative approach to prototyping.
     order: 2
   - name: Product Delivery
     description: >
-      Deliver an amazing product to your users through our unique mix of
-      research, strategy, design, engineering, data science, and agile project management.
+      Deliver an amazing product to your users through our unique mix of research, strategy, design, engineering, data science, and agile project management.
     order: 3
   - name: Platform Delivery
     description: >
-      Innovate from the outside-in with our experience making public assets &mdash;
-      such as data, code, and standards &mdash; digitally open, accessible, and
-      extensible, as well as building vibrant user communities.
+      Innovate from the outside-in with our experience making public assets &mdash; such as data, code, and standards &mdash; digitally open, accessible, and extensible, as well as building vibrant user communities.
     order: 4
   - name: Legacy Modernization
     description: >
-      Introduce your legacy software system to the 21st century through our
-      evolutionary, high-impact, low-risk approach to modernization.
+      Introduce your legacy software system to the 21st century through our evolutionary, high-impact, low-risk approach to modernization.
     order: 5
-  - name: Bug Bounty Program
+  - name: Security Penetration Testing
     description: >
       Create more robust and secure digital services by integrating bug bounties into your development, security, and operational processes.
     order: 6

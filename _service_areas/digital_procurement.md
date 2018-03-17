@@ -17,28 +17,23 @@ service_elements:
     order: 1
   - name: Agile Acquisition
     description: >
-      Break free from your old acquisition habits with our proven
-      lean-agile approach to software-based acquisitions, which we pioneered.
+      Break free from your old acquisition habits with our proven lean-agile approach to software-based acquisitions, which we pioneered.
     order: 2
+  - name: Microconsulting
+    description: >
+      Obtain on-demand and ongoing access to thousands of digital experts &mdash; such as designers and developers &mdash; through the creative use of micropurchasing procurement authorities, which we pioneered.
+    order: 3
   - name: Good Practices Assurance
     description: >
-      Pinpoint areas to improve your software delivery practices
-      where contractors are involved via our integrated approach to
-      conducting UX audits, code audits, and agile health checks.
-    order: 3
+      Continually pinpoint areas to improve your digital delivery practices where contractors are involved via our integrated approach to conducting UX audits, architecture/code audits, and lean-agile health checks.
+    order: 4
   - name: Agile Coaching
     description: >
-      Propel the performance of your software delivery teams to the next
-      level and beyond through our proven ability to coach at at all levels of your organization (executive, portfolio, program, team, and technical).
-    order: 4
-  - name: Developers Exchange
-    description: >
-      Make it easier to engage thousands of great designers and developers through the use of micropurchase platforms.
+      Propel the performance of your digital delivery teams to the next level and beyond through our proven ability to coach at at all levels of your organization (executive, portfolio, program, team, and technical).
     order: 5
   - name: Challenges &amp; Prizes
     description: >
-      Source innovative digital solutions to problems from public communities
-      through the use of challenge and prize competitions.
+      Source innovative digital solutions to problems from public communities through the use of challenge and prize competitions.
     order: 6
 ---
 
