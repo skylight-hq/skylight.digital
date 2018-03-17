@@ -22,7 +22,7 @@ service_elements:
     order: 2
   - name: Delivery Support
     description: >
-      Obtain targeted, hands-on digital delivery support such as a design workshop, a prototype, or an open-source code contribution through access to our talented team of digital specialists.
+      Obtain targeted, hands-on digital delivery support &mdash; such as a design workshop, a prototype, or an open-source code contribution &mdash; through access to our talented team of digital specialists.
     order: 3
   - name: Design &amp; Tech Advice
     description: >
