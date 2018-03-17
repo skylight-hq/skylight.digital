@@ -13,21 +13,15 @@ tags: [digital transformation, lean-agile enterprise, devops]
 service_elements:
   - name: Digital Transformation Strategy
     description: >
-      Chart a sustainable, self-sufficient path to becoming a
-      digital-first agency through our holistic approach to assessing
-      your unique needs and developing a plan for change.
+      Chart a sustainable, self-sufficient path to becoming a digital-first agency through our holistic approach to assessing your unique needs and developing a plan for change.
     order: 1
   - name: Digital Talent Management
     description: >
-      Increase and empower the digital talent within your agency,
-      IT organization, business unit, or program office through our
-      experience with large-scale digital talent management.
+      Increase and empower the digital talent within your agency, IT organization, business unit, or program office through our experience with large-scale digital talent management.
     order: 2
   - name: Lean-Agile Enterprise
     description: >
-      Engage and empower teams across your organization to
-      achieve unprecedented levels of performance by instituting lean-agile
-      principles and practices at enterprise scale.
+      Engage and empower teams across your organization to achieve unprecedented levels of performance by instituting lean-agile principles and practices at enterprise scale.
     order: 3
 ---
 
