@@ -2,7 +2,7 @@
 layout: default
 title: Microconsulting
 permalink: /services/microconsulting/
-excerpt: Immediate, quick-turnaround answers to critical digital challenges or questions.
+excerpt: On-demand access to targeted, high-impact digital expertise.
 image: /img/microconsulting.png
 image_description: An image of several mini-brains representing different types of microconsulting services.
 image_icon:
@@ -34,7 +34,7 @@ service_elements:
     order: 5
   - name: Immersive Learning
     description: >
-      Quickly gain expertise with a specific programming language/framework, delivery practice, or technology through one of our well-orchestrated, mini bootcamps.
+      Quickly gain expertise with a specific management approach, programming language/framework, delivery practice, or technology through one of our well-orchestrated training sessions.
     order: 6
 ---
 
