@@ -8,7 +8,7 @@ image_description: A stack of colorful cargo containers.
 image_display: true
 order: 1800
 tags: [digital services delivery, devops, josh dorothy]
-excerpt: Containerization is a powerful tool to increase organizational efficiency and allow you to focus on what really matters &mdash; delivering a better solution.
+excerpt: Containers enable software portability across a wide range of computing environments. Here's what you need to know about their budgetary, technical, and organizational value.
 authors:
   - Josh Dorothy
 date_published: 2018-04-29
