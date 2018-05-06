@@ -35,7 +35,7 @@ Unfortunately, you can't effect change by principle alone. I knew I needed to bu
 
 **Chris Cairns: What have you worked on so far?**
 
-**Josh Dorothy:** Right now I'm actually a contractor at United States Citizenship and Immigration Services (USCIS). I'm providing DevOps support as part of Skylight's engagement with USCIS, after which I'll be joining Skylight full-time.
+**Josh Dorothy:** Right now I'm actually a contractor at U.S. Citizenship and Immigration Services (USCIS). I'm providing DevOps support as part of Skylight's engagement with USCIS, after which I'll be joining Skylight full-time.
 
 **Chris Cairns: What was most surprising to you about joining Skylight?**
 
