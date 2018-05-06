@@ -224,7 +224,7 @@
   full_name: Josh Dorothy
   short_name: J. Dorothy
   profile_path: /about/#josh-dorothy
-  image: /img/people/josh-dorothy.png
+  image: /img/people/josh-dorothy.jpg
   image_description: Placeholder Photo of Josh Dorothy
   position: DevOps Engineer
   bio: >
@@ -246,4 +246,33 @@
     - name: Blog Posts
       link: /blog/author/josh-dorothy/
       link_description: Josh's Blog Posts
+      fa_icon_name: pencil
+- name: nick-bristow
+  fname: Nick
+  lname: Bristow
+  full_name: Nick Bristow
+  short_name: N. Bristow
+  profile_path: /about/#nick-bristow
+  image: /img/people/nick-bristow.png
+  image_description: Photo of Nick Bristow
+  position: Full Stack Engineer
+  bio: >
+    Nick is a former member of 18F, with a passion for creating
+    products that are accessible and meet the needs of all
+    users. He specializes in accessibility, software engineering,
+    frontend development, and cloud computing.
+  active: true
+  order: 80
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nick-bristow-5b983118/
+      link_description: Nick's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/nickbristow
+      link_description: Nick's GitHub Account
+      fa_icon_name: github
+    - name: Blog Posts
+      link: /blog/author/nick-bristow/
+      link_description: Nick's Blog Posts
       fa_icon_name: pencil
