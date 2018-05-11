@@ -12,9 +12,9 @@ feature: false
 tags:
   - microconsulting
 service_elements:
-  - name: Solicitation Review
+  - name: RFx Ghostwriting
     description: >
-      Increase the probability of your acquisition's success through a smartly-crafted solicitation aligned to agile delivery practices. Our team of technical and acquisition experts thoroughly review and recommend improvements to your solicitation package.
+      Increase the probability of your acquisition's success through a smartly-crafted solicitation aligned to agile delivery principles. Our team of technical and acquisition experts work hand-in-hand with you to develop an agile solicitation package.
     order: 1
   - name: Design Sprint
     description: >
