@@ -12,7 +12,7 @@ feature: false
 tags:
   - microconsulting
 service_elements:
-  - name: RFx Ghostwriting
+  - name: Solicitation Ghostwriting
     description: >
       Increase the probability of your acquisition's success through a smartly-crafted solicitation aligned to agile delivery principles. Our team of technical and acquisition experts work hand-in-hand with you to develop an agile solicitation package.
     order: 1
