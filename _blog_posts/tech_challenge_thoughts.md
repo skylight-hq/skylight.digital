@@ -8,7 +8,7 @@ image_description: Illustration of two laptop computers boxing each other.
 image_display: true
 order: 2100
 tags: [digital procurement, chris cairns]
-excerpt: The use of technical challenges in government procurements is on the rise. Here are some thoughts on what the government can do to make even better use of them.
+excerpt: The use of technical challenges in government procurements is on the rise. Here are some thoughts on what acquisition professionals can do to make even better use of them.
 authors:
   - Chris Cairns
 date_published: 2018-05-22
