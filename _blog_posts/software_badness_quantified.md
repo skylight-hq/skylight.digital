@@ -14,11 +14,20 @@ authors:
 date_published: 2017-06-15
 date: 2017-06-15
 ---
-<blockquote cite="http://quoteinvestigator.com/2012/04/28/shorter-letter/">If I had more time, I would have written a shorter letter. &mdash; <a href="http://quoteinvestigator.com/2012/04/28/shorter-letter/" target="&#95;blank">attribution unclear</a></blockquote>
+<blockquote cite="http://quoteinvestigator.com/2012/04/28/shorter-letter/">
+<p>"If I had more time, I would have written a shorter letter."</p>
+<cite><strong>attribution unclear</strong></cite>
+</blockquote>
 
-<blockquote cite="http://www.paulgraham.com/power.html">Succinctness is power. &mdash; <a href="http://www.paulgraham.com/power.html" target="&#95;blank">Paul Graham</a></blockquote>
+<blockquote cite="http://www.paulgraham.com/power.html">
+<p>"Succinctness is power."</p>
+<cite><strong>Paul Graham</strong></cite>
+</blockquote>
 
-> Great literature is simply language charged with meaning to the utmost possible degree. &mdash; Ezra Pound
+<blockquote cite="https://www.brainyquote.com/quotes/ezra_pound_398432">
+<p>"Great literature is simply language charged with meaning to the utmost possible degree."</p>
+<cite><strong>Ezra Pound</strong></cite>
+</blockquote>
 
 Programming, a form of literature, is greatest when it does the most with the least.
 

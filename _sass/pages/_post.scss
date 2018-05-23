@@ -66,6 +66,10 @@
     @extend %blockquote;
     @extend %my-4;
 
+    cite::before {
+      content: '— ';
+    }
+
     &.excerpt {
       font-size: $font-size-x-small;
       background-color: lighten($gray, 63%);
