@@ -21,7 +21,7 @@ service_elements:
     order: 2
   - name: Microconsulting
     description: >
-      Obtain on-demand and ongoing access to thousands of digital experts &mdash; such as designers and developers &mdash; through the creative use of micropurchasing procurement authorities, which we pioneered.
+      Establish a program for obtaining on-demand and ongoing access to thousands of digital experts &mdash; such as designers and developers &mdash; through the creative use of micropurchasing procurement authorities, which we pioneered.
     order: 3
   - name: Good Practices Assurance
     description: >
