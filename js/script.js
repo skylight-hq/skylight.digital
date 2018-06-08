@@ -81,7 +81,6 @@ function swapJoinContent(hash) {
 
 $(function() {
   $('.join-content-col > div').not('#join').hide()
-
   if (location.hash.length > 0) {
     var hash = location.hash.substr(1)
     swapJoinContent(hash)
@@ -93,9 +92,16 @@ $(function() {
     return anchor.getAttribute('href')
   })
 
-  var $pageAnchors = $('.join-content-col a')
+  var $pageAnchors = $('.join-content-col').find('a')
+
   $pageAnchors = $pageAnchors.filter(function() {
-    return $.inArray(this.getAttribute('href'), navPaths) != -1
+    var href = this.getAttribute('href');
+    var include = false;
+    navPaths.some(function(path){
+      include = href.includes(path)
+      return include
+    }) 
+    return include
   })
 
   var $allAnchors = $navAnchors.add($pageAnchors)
@@ -106,8 +112,10 @@ $(function() {
     var dest = $(this).attr('href')
     history.pushState(null, null, dest)
 
-    var hash = this.hash.substr(1)
-    swapJoinContent(hash)
+    var hash = this.hash.substr(1);
+    swapJoinContent(hash);
+    var hash_element = document.getElementById(hash);
+    hash_element.scrollIntoView();
   })
 })
 
