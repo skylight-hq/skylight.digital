@@ -35,6 +35,11 @@ service_elements:
     description: >
       Create more robust and secure digital services by integrating bug bounties into your development, security, and operational processes.
     order: 6
+  - name: Tech Surge Support
+    description: >
+      Turn around a tech crisis affecting your mission critical
+      functions quickly with one or more of our full-stack, rapid-response teams.
+    order: 7
 ---
 
 {% capture header_content %}
