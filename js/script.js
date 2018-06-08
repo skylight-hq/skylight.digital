@@ -168,3 +168,10 @@ $(function() {
 	document.addEventListener('touchstart', addtouchclass, false) // this event only gets called when input type is touch
 	document.addEventListener('mouseover', removetouchclass, false) // this event gets called when input type is everything from touch to mouse/trackpad
 })
+
+//External links open in new window
+$(function(){
+  $(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+  }).attr('target', '_blank');
+})
