@@ -114,8 +114,12 @@ $(function() {
 
     var hash = this.hash.substr(1);
     swapJoinContent(hash);
-    var hash_element = document.getElementById(hash);
-    hash_element.scrollIntoView();
+
+    if(!navPaths.includes(dest))
+    {
+      var hash_element = document.getElementById(hash);
+      hash_element.scrollIntoView();
+    }
   })
 })
 
