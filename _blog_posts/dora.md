@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title: Jumpstart your DevOps transformation smartly with Skylight and DORA
-permalink: /blog/jumpstart-your-devops-transformation-with-skylight-and-dora/
+permalink: /blog/jumpstart-your-devops-transformation-smartly-with-skylight-and-dora/
 content_type: BlogPosting
 image: /img/blog/dora/devops-accelerate.png
 image_description: Image showing gears and arrows to illustrate the concept of DevOps transformation.
