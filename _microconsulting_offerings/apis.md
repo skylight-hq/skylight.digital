@@ -1,7 +1,7 @@
 ---
 layout: default
 title: API Microconsulting
-permalink: /services/microconsulting/apis
+permalink: /services/microconsulting/apis/
 excerpt: Our API expertise delivered in bite-sized, high-impact chunks.
 image: /img/api-microconsulting.png
 image_description: An arm showing a flexed muscle enclosed within API computing symbols.
