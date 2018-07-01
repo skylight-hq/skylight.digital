@@ -9,8 +9,7 @@ image_icon:
 image_icon_description:
 order: 4
 feature: false
-tags:
-  - microconsulting
+tags: [microconsulting]
 service_elements:
   - name: Strategy
     description: >
