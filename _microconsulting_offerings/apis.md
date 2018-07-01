@@ -7,7 +7,7 @@ image: /img/api-microconsulting.png
 image_description: An arm showing a flexed muscle enclosed within API computing symbols.
 tags: [api microconsulting]
 service_elements:
-  - name: Introduction to APIs
+  - name: Introduction to API<span class="text-lowercase">s</span>
     description: >
       Know everything you to know in order to get started with delivering mission-centric APIs. We'll guide you through all the key areas, including API strategy, user-centric API design, API design principles, and the rest of the API lifecycle.
     order: 1
@@ -35,7 +35,7 @@ service_elements:
     description: >
       Cultivate vibrant communities who use and benefit from your APIs. We'll guide you through all the steps required to develop and execute a successful API outreach program, such as developing a communications strategy, creating developer-friendly documentation and a developer portal, and much more.
     order: 7
-  - name: Health APIs
+  - name: Health API<span class="text-lowercase">s</span>
     description: >
       Tap into the potential of APIs to transform healthcare outcomes, including the quality and cost of care, patient experience, and innovation. We'll show you how to achieve this by leveraging APIs to liberate healthcare data for use by patients, providers, researchers, and developers.
     order: 8
