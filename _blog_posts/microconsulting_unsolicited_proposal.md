@@ -7,7 +7,7 @@ image: /img/blog/microconsulting_unsolicited_proposal/microconsulting-services-m
 image_description: An abstract image of a marketplace for microconsulting services.
 image_display: true
 order: 800
-tags: [digital procurement, digital services delivery, robert read, chris cairns]
+tags: [microconsulting, digital procurement, digital services delivery, robert read, chris cairns]
 excerpt: A preannouncement for an unsolicited proposal to construct a microconsulting services marketplace platform, which we plan to pitch to the entire federal government.
 authors:
   - Robert Read

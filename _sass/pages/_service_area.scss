@@ -25,6 +25,7 @@
   h3 {
     @extend %my-3;
     @extend %text-uppercase;
+    @extend %text;
     font-size: $font-size-small;
   }
 

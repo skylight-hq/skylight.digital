@@ -7,7 +7,7 @@ image: /img/blog/nick_bristow_interview/nick-bristow-accessibility.png
 image_description: Stylized lettering of Nick Bristow's name surrounded by accessibility symbols such as an eye.
 image_display: true
 order: 1900
-tags: [digital services delivery, accessibility, nick bristow]
+tags: [accessibility, digital services delivery, nick bristow]
 excerpt: "Skylight's Nick Bristow is one of the world's leading experts in technology accessibility. Here, he has been working with our government clients to deliver digital services that are accessible and meet the needs of all users."
 authors:
   - Chris Cairns

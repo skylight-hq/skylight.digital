@@ -7,7 +7,7 @@ image: /img/blog/api_enablement/api-benefits-napkin.png
 image_description: Illustration of two people at a happy hour looking at a napkin describing the benefits of API enablement.
 image_display: true
 order: 1300
-tags: [digital services delivery, apis, robert read, kin lane]
+tags: [apis, digital services delivery, robert read, kin lane]
 excerpt: A lighthearted, mock email between two government program managers discussing the immediate benefits of API enablement as a precursor to modernizing a legacy system.
 authors:
   - Robert Read
