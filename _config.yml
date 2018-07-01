@@ -50,6 +50,9 @@ collections:
   service_areas:
     output: true
     permalink: /services/:path/
+  microconsulting_offerings:
+    output: true
+    permalink: /services/microconsulting/:path/
   projects:
     output: true
     permalink: /work/:path/

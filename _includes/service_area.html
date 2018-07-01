@@ -17,7 +17,11 @@
         {% for service_element in service_elements %}
           <div class="service-element-col">
             <div class="service-element-content-box">
-              <h3>{{service_element.name}}</h3>
+              {% if service_element.path %}
+                <h3><a href="{{service_element.path}}">{{service_element.name}}</a></h3>
+              {% else %}
+                <h3>{{service_element.name}}</h3>
+              {% endif %}
               <p>{{service_element.description}}</p>
             </div>
           </div>
@@ -26,25 +30,27 @@
     </div>
   </section>
 
-  <div class="image-block">
-    <img src="{{page.image}}" alt="{{page.image_description}}">
-  </div>
+  {% assign tag_filter = page.slug | replace: '_', ' ' %}
+  {% assign projects = site.projects | where: 'tags', tag_filter | sort: 'order' %}
 
-  <div class="page-block">
-    <div class="page-block-header-2">
-      <h2>Our work</h2>
+  {% if projects.size > 0 %}
+    <div class="image-block">
+      <img src="{{page.image}}" alt="{{page.image_description}}">
     </div>
 
-    {% assign tag_filter = page.slug | replace: '_', ' ' %}
-    {% assign projects = site.projects | where: 'tags', tag_filter | sort: 'order' %}
+    <div class="page-block">
+      <div class="page-block-header-2">
+        <h2>Our work</h2>
+      </div>
 
-    {% include card_list.html
-      collection = projects
-      prefix = 'project'
-      cta_text = 'Read case study'
-      limit = 3
-    %}
-  </div>
+      {% include card_list.html
+        collection = projects
+        prefix = 'project'
+        cta_text = 'Read case study'
+        limit = 3
+      %}
+    </div>
+  {% endif %}
 
 </div>
 
