@@ -9,7 +9,7 @@ tags: [apis, microconsulting, api microconsulting]
 service_elements:
   - name: Introduction to API<span class="text-lowercase">s</span>
     description: >
-      Know everything you to know in order to get started with delivering mission-centric APIs. We'll guide you through all the key areas, including API strategy, user-centric API design, API design principles, and the rest of the API lifecycle.
+      Know everything you need to know in order to get started with delivering mission-centric APIs. We'll guide you through all the key areas, including API strategy, user-centric API design, API design principles, and the rest of the API lifecycle.
     order: 1
   - name: API Lifecycle
     description: >
