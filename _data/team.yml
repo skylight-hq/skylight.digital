@@ -53,7 +53,7 @@
     IBM. He's been programming since he was six years old, and specializes in
     software engineering, product management, and cloud computing.
   active: true
-  order: 20
+  order: 70
   socials:
     - name: Twitter
       link: https://twitter.com/BeLucid
@@ -90,7 +90,7 @@
     Robert builds robots, among other things, for public good. He specializes in software
     engineering, data science and engineering, engineering management, and agile practices.
   active: true
-  order: 30
+  order: 50
   socials:
     - name: Twitter
       link: https://twitter.com/RobertLeeRead
@@ -131,7 +131,7 @@
     in software engineering, distributed and embedded systems engineering, data science
     and engineering, cloud computing, and engineering management.
   active: true
-  order: 40
+  order: 90
   socials:
     - name: Twitter
       link: https://twitter.com/NewEnergyShift
@@ -163,7 +163,7 @@
     standards that power the internet, including IPv6 and 6LoWPAN. He specializes in Internet of Things,
     distributed and embedded systems engineering, networking technologies, and privacy and security.
   active: true
-  order: 50
+  order: 80
   socials:
     - name: Twitter
       link: https://twitter.com/GeoffCMulligan
@@ -192,7 +192,7 @@
     in API architecture and design, software engineering, data science and engineering,
     cloud computing, and enterprise software.
   active: true
-  order: 60
+  order: 30
   socials:
     - name: Twitter
       link: https://twitter.com/apievangelist
@@ -233,7 +233,7 @@
     He specializes in DevOps engineering, cloud computing,
     and user-focused software development.
   active: true
-  order: 70
+  order: 40
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/joshdorothy/
@@ -262,8 +262,12 @@
     users. He specializes in accessibility, software engineering,
     frontend development, and cloud computing.
   active: true
-  order: 80
+  order: 60
   socials:
+    - name: Twitter
+      link: https://twitter.com/rbristow
+      link_description: Nick's Twitter Account
+      fa_icon_name: twitter
     - name: LinkedIn
       link: https://www.linkedin.com/in/nick-bristow-5b983118/
       link_description: Nick's LinkedIn Account
@@ -276,3 +280,32 @@
       link: /blog/author/nick-bristow/
       link_description: Nick's Blog Posts
       fa_icon_name: pencil
+- name: victor-zapanta
+  fname: Victor
+  lname: Zapanta
+  full_name: Victor Zapanta
+  short_name: V. Zapanta
+  profile_path: /about/#victor-zapanta
+  image: /img/people/victor-zapanta.jpg
+  image_description: Photo of Victor Zapanta
+  position: UX Designer
+  bio: >
+    Victor co-founded the Consumer Financial Protection Bureau's design+tech team,
+    and served as a member of 18F. His design leadership spans multiple high-profile
+    projects, including data.gov, foia.gov, my.uscis.gov, and cloud.gov. He specializes
+    in design leadership, service design, user experience design, and design research.
+  active: true
+  order: 20
+  socials:
+    - name: Twitter
+      link: https://twitter.com/victorzapanta
+      link_description: Victor's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/victorzapanta/
+      link_description: Victor's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/vz3
+      link_description: Victor's GitHub Account
+      fa_icon_name: github
