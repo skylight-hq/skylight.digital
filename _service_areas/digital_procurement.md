@@ -38,7 +38,7 @@ service_elements:
 ---
 
 {% capture header_content %}
-  <strong>To support digital progress, procurement must change.</strong> At Skylight, we combine technical and acquisition brains to make procurement work for you in the digital age. That means greater collaboration with vendors, faster delivery of value, higher quality results, lower costs, and breakthrough innovations.
+  <strong>To support digital progress, procurement must change.</strong> At Skylight, we combine technical and acquisition brains to make procurement work for you in the digital age. That means greater collaboration with vendors, faster delivery of value, higher quality results, lower costs, and more breakthrough innovations.
 {% endcapture %}
 
 {% include page_header.html
