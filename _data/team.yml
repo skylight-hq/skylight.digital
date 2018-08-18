@@ -53,7 +53,7 @@
     IBM. He's been programming since he was six years old, and specializes in
     software engineering, product management, and cloud computing.
   active: true
-  order: 70
+  order: 80
   socials:
     - name: Twitter
       link: https://twitter.com/BeLucid
@@ -163,7 +163,7 @@
     standards that power the internet, including IPv6 and 6LoWPAN. He specializes in Internet of Things,
     distributed and embedded systems engineering, networking technologies, and privacy and security.
   active: true
-  order: 80
+  order: 70
   socials:
     - name: Twitter
       link: https://twitter.com/GeoffCMulligan
