@@ -71,11 +71,13 @@
 
 .landing-content-primary-col {
   @extend %col-md-8;
+  @extend %col-lg-10;
   @extend %mb-3;
 }
 
 .landing-content-secondary-col {
   @extend %col-md-6;
+  @extend %col-lg-7;
 
   p {
     @extend %mb-0;
