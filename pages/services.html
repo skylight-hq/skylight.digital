@@ -16,36 +16,34 @@ permalink: /services/
       <h2>What we offer</h2>
     </div>
 
-    <div class="service-areas">
-      <div class="service-areas-row">
-        {% assign service_areas = site.service_areas | sort: 'order' %}
-        {% for service_area in service_areas %}
-          {% if service_area.feature %}
-            <div class="service-area-col">
-              <div class="service-area-card card-link" data-href="{{service_area.permalink}}" tabindex="-1">
-                <img class="service-area-img" src="{{service_area.image_icon}}" alt="{{service_area.image_icon_description}}">
-                <div class="service-area-block">
-                  <h3>{{service_area.title}}</h3>
-                  <p>{{service_area.excerpt}}</p>
-                </div>
-                <div class="service-area-footer">
-                  <a href="{{service_area.permalink}}" tabindex="0">
-                    <span class="sr-only">Learn More About Our {{service_area.title}} Service</span>
-                    <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
-                  </a>
-                </div>
+    <div class="service-areas-row">
+      {% assign service_areas = site.service_areas | sort: 'order' %}
+      {% for service_area in service_areas %}
+        {% if service_area.feature %}
+          <div class="service-area-col">
+            <div class="service-area-card card-link" data-href="{{service_area.permalink}}" tabindex="-1">
+              <img class="service-area-img" src="{{service_area.image_icon}}" alt="{{service_area.image_icon_description}}">
+              <div class="service-area-block">
+                <h3>{{service_area.title}}</h3>
+                <p>{{service_area.excerpt}}</p>
+              </div>
+              <div class="service-area-footer">
+                <a href="{{service_area.permalink}}" tabindex="0">
+                  <span class="sr-only">Learn More About Our {{service_area.title}} Service</span>
+                  <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
+                </a>
               </div>
             </div>
-          {% endif %}
-        {% endfor %}
-      </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
 
-      <div class="minor-service-areas-row">
-        <div class="minor-service-area-col">
-          <p>
-            Also, check out our <a class="text" href="/services/microconsulting/">Microconsulting Services</a>.
-          </p>
-        </div>
+    <div class="minor-service-areas-row">
+      <div class="minor-service-area-col">
+        <p>
+          Also, check out our <a class="text" href="/services/microconsulting/">Microconsulting Services</a>.
+        </p>
       </div>
     </div>
   </section>
@@ -69,21 +67,19 @@ permalink: /services/
       </div>
     </div>
 
-    <div class="capabilities">
-      <div class="capabilities-row">
-        {% assign capability_groups = site.data.capability_groups | sort: 'order' %}
-        {% for capability_group in capability_groups %}
-          <div class="capability-group-col">
-            <div aria-hidden="true"></div>
-            <h3>{{capability_group.name}}</h3>
-            <ul>
-              {% for capabilitiy in capability_group.capabilities %}
-                <li>{{capabilitiy}}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endfor %}
-      </div>
+    <div class="capabilities-row">
+      {% assign capability_groups = site.data.capability_groups | sort: 'order' %}
+      {% for capability_group in capability_groups %}
+        <div class="capability-group-col">
+          <div aria-hidden="true"></div>
+          <h3>{{capability_group.name}}</h3>
+          <ul>
+            {% for capabilitiy in capability_group.capabilities %}
+              <li>{{capabilitiy}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
     </div>
   </section>
 
@@ -96,46 +92,44 @@ permalink: /services/
       <h2>Industry information</h2>
     </div>
 
-    <div class="industry-info-list">
-      <div class="industry-info-list-row">
-        <div class="industry-info-item-col">
-          <div aria-hidden="true"></div>
-          <h3>Legal Name</h3>
-          <p>Skylight Digital LLC</p>
-        </div>
+    <div class="industry-info-list-row">
+      <div class="industry-info-item-col">
+        <div aria-hidden="true"></div>
+        <h3>Legal Name</h3>
+        <p>Skylight Digital LLC</p>
+      </div>
 
-        <div class="industry-info-item-col">
-          <div aria-hidden="true"></div>
-          <h3><abbr title="Data Universal Numbering System">DUNS</abbr> #</h3>
-          <p>080202677</p>
-        </div>
+      <div class="industry-info-item-col">
+        <div aria-hidden="true"></div>
+        <h3><abbr title="Data Universal Numbering System">DUNS</abbr> #</h3>
+        <p>080202677</p>
+      </div>
 
-        <div class="industry-info-item-col">
-          <div aria-hidden="true"></div>
-          <h3><abbr title="Commercial and Government Entity">CAGE</abbr> Code</h3>
-          <p>7QNG6</p>
-        </div>
+      <div class="industry-info-item-col">
+        <div aria-hidden="true"></div>
+        <h3><abbr title="Commercial and Government Entity">CAGE</abbr> Code</h3>
+        <p>7QNG6</p>
+      </div>
 
-        <div class="industry-info-item-col">
-          <div aria-hidden="true"></div>
-          <h3><abbr title=" Historically Underutilized Business Zone">HUBZone</abbr> Certification #</h3>
-          <p>56905</p>
-        </div>
+      <div class="industry-info-item-col">
+        <div aria-hidden="true"></div>
+        <h3><abbr title=" Historically Underutilized Business Zone">HUBZone</abbr> Certification #</h3>
+        <p>56905</p>
+      </div>
 
-        <div class="industry-info-item-col">
-          <div aria-hidden="true"></div>
-          <h3><abbr title="Standard Industrial Classification">SIC</abbr> Codes</h3>
-          <p><abbr title="Management Consulting Services">8742</abbr></p>
-          <p><abbr title="Computer Programming Services">7371</abbr></p>
-        </div>
+      <div class="industry-info-item-col">
+        <div aria-hidden="true"></div>
+        <h3><abbr title="Standard Industrial Classification">SIC</abbr> Codes</h3>
+        <p><abbr title="Management Consulting Services">8742</abbr></p>
+        <p><abbr title="Computer Programming Services">7371</abbr></p>
+      </div>
 
-        <div class="industry-info-item-col">
-          <div aria-hidden="true"></div>
-          <h3><abbr title="North American Industry Classification System">NAICS</abbr> Codes</h3>
-          <p><abbr title="Administrative Management and General Management Consulting">541611</abbr></p>
-          <p><abbr title="Custom Computer Programming Services">541511</abbr></p>
-          <p><abbr title="Other Computer Related Services">541519</abbr></p>
-        </div>
+      <div class="industry-info-item-col">
+        <div aria-hidden="true"></div>
+        <h3><abbr title="North American Industry Classification System">NAICS</abbr> Codes</h3>
+        <p><abbr title="Administrative Management and General Management Consulting">541611</abbr></p>
+        <p><abbr title="Custom Computer Programming Services">541511</abbr></p>
+        <p><abbr title="Other Computer Related Services">541519</abbr></p>
       </div>
     </div>
   </section>

@@ -3,7 +3,7 @@
 }
 
 .blog-posts {
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .blog-posts-row {

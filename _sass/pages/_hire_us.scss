@@ -1,6 +1,6 @@
 .hire-us {
   @extend %page-main-base;
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .hire-row {

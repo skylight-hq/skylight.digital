@@ -13,7 +13,7 @@
 }
 
 .landing-jumbotron-content {
-  @extend %container;
+  @extend %container-fluid;
   @extend %py-4;
   @extend %py-md-5;
   color: $jumbotron-color;
@@ -42,7 +42,7 @@
 }
 
 .landing-body {
-  @extend %container;
+  @extend %container-fluid;
   @extend %mt-5;
   @extend %mt-md-7;
   line-height: 1.5;
@@ -55,9 +55,8 @@
 
 .landing-content-row-margin,
 .landing-info-row {
-  @extend %mb-6;
-  @extend %mb-md-7;
-  @extend %mb-lg-8;
+  @extend %mb-7;
+  @extend %mb-md-8;
 }
 
 .landing-content-primary-col,
@@ -65,17 +64,18 @@
 .landing-info-text-col,
 .landing-info-img-col {
   @extend %col-12;
+  @extend %col-md-10;
   @extend %col-sm-9;
   @extend %mx-auto;
 }
 
 .landing-content-primary-col {
-  @extend %col-md-10;
+  @extend %col-md-8;
   @extend %mb-3;
 }
 
 .landing-content-secondary-col {
-  @extend %col-md-8;
+  @extend %col-md-6;
 
   p {
     @extend %mb-0;

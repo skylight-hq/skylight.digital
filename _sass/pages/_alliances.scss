@@ -1,6 +1,6 @@
 .alliances {
   @extend %page-main-base;
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .alliances-row {

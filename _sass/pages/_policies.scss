@@ -1,6 +1,6 @@
 .our-policies {
   @extend %page-main-base;
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .policies-row {

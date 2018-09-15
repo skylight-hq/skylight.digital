@@ -6,7 +6,7 @@ permalink: /policies/privacy/
 
 Skylight is committed to protecting individual privacy and securing the personal information made available to us when you visit skylight.digital. This privacy policy describes what information is made available to us and how that information is used and shared.
 
-## Information Collected from Visits
+## Information collected from visits
 
 <strong>Automatically collected.</strong> Skylight automatically collects non-personally identifying information such as browser type, operating system, referring site, user events (for example, a click), and the date and time of each site visit.
 
@@ -17,13 +17,13 @@ Information You Give Us
 
 <strong>Third-party sites.</strong> Skylight maintains official pages or accounts on third-party websites (these are generally social media) in order to better engage with our target audiences. You can submit or publish information to these sites that we will receive &mdash; for example by sending a message, posting a comment, "following," "friending," or taking similar actions. This information may contain personal information, such as an individual's username and other public account information, when such information is available based on your privacy settings and the terms of the site.
 
-## How Information is Used
+## How information is used
 
 <strong>Generally.</strong> If you choose to provide us with information, we may use that information to contact you, consider you for a job, or respond to your message. In order to serve you better, we may analyze multiple sources of data you have provided (for example, to look up whether you previously contacted Skylight about the same topic so that we do not send you a duplicative response). We may also use messages or comments collected through our website or official third-party pages to inform business decisions.
 
 <strong>Aggregated.</strong> We may use data you provide and automatically generated data for statistical analysis to assess, for example, what information is of interest to users, technical design specifications, and system performance. This allows us to make general improvements to our site and business. We will not link automatically collected information about your site visits with your personally identifiable information.
 
-## Sharing of This Information
+## Sharing of this information
 
 <strong>Generally.</strong> Information you choose to share with the Skylight (directly and via third-party sites) may be treated as information that is shareable with individuals outside of our organization. We may, for example, publish compilations of messages or comments collected through official social media pages and provide them to members of the press. However, we exercise discretion to limit such disclosures to protect your privacy (for example, we generally do not publish last names of commenters).
 
@@ -37,7 +37,7 @@ Information You Give Us
 
 <strong>Other sharing.</strong> We do not use or share your information for commercial purposes.
 
-## Third-Party Sites
+## Third-party sites
 
 <strong>Third-party policies.</strong> Your activity on those sites is governed by the website's security and privacy policies. Users of third-party sites often share information with the general public, user community, and/or the third-party operating the site. Consequently, you should review the privacy policies of third-party sites before using them and ensure that you understand how your information may be shared and used. You should also adjust privacy settings on your account on any third-party site to match your preferences. All official Skylight accounts are clearly labeled.
 
@@ -45,7 +45,7 @@ Information You Give Us
 
 <strong>Links to External Sites.</strong> <a href="/policies/linking/">See our linking policy</a>.
 
-## Children and Privacy
+## Children and privacy
 
 We believe in the importance of protecting the privacy of children online. The Children's Online Privacy Protection Act governs information gathered online from or about children under the age of 13. Verifiable consent from a child's parent or guardian is required before collecting, using, or disclosing personal information from a child under age 13. Our site is not intended to solicit information of any kind from children under age 13.
 

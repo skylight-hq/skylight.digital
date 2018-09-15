@@ -13,6 +13,8 @@
   %mb-sm-down-3 { @include mb-3; }
   %mb-sm-down-4 { @include mb-4; }
   %mb-sm-down-5 { @include mb-5; }
+  %mb-sm-down-6 { @include mb-6; }
+  %mb-sm-down-7 { @include mb-7; }
 }
 
 @include media-breakpoint-down(md) {
@@ -34,6 +36,11 @@
   %mb-md-7 { @include mb-7; }
   %mb-md-8 { @include mb-8; }
   %mb-md-10 { @include mb-10; }
+
+  %px-md-5 {
+    @include pl-5;
+    @include pr-5;
+  }
 
   %py-md-6 {
     @include pt-6;

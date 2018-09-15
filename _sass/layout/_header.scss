@@ -1,5 +1,5 @@
 .global-header {
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .navbar {
@@ -25,6 +25,7 @@
 
 .navbar-toggler {
   @extend %align-self-center;
+  @extend %p-0;
   color: $nav-toggler-color;
 
   &:hover,

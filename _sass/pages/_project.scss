@@ -1,6 +1,6 @@
 .project-case-study {
   @extend %page-main-base;
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .project-case-study-row {
@@ -71,79 +71,6 @@
   a {
     @include link-decoration($project-aside-link-color, $project-aside-link-hover-color,
       $project-aside-link-border, $project-aside-link-border-hover);
-  }
-}
-
-.screenshots {
-  @extend %mt-4;
-}
-
-.screenshot-col {
-  @extend %col-sm-6;
-  @extend %col-md-4;
-  @extend %mb-4;
-
-  .figure {
-    @extend %m-0;
-
-    .img-wrapper {
-      position: relative;
-
-      &::before {
-        @extend %rounded;
-        @include transition($btn-transition);
-        background-color: rgba($flush-mahogany, .5);
-        color: $white;
-        content: '\f06e';
-        font-family: 'FontAwesome';
-        font-size: 30px;
-        left: 50%;
-        padding: 0 10px;
-        position: absolute;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 5;
-      }
-
-      &:hover {
-        &::before {
-          background-color: rgba($flush-mahogany, 1);
-        }
-      }
-    }
-
-    img {
-      @extend %figure-img;
-      @extend %img-fluid;
-      @extend %img-thumbnail;
-      @extend %mt-0;
-      @extend %mb-2;
-    }
-
-    figcaption {
-      @extend %figure-caption;
-      @extend %text-left;
-    }
-  }
-
-  .modal-header {
-    @extend %pb-0;
-    @extend %justify-content-end;
-    border-bottom: 0;
-
-    h3 {
-      color: $modal-header-color;
-      font-size: $font-size-xx-large;
-    }
-
-    .close {
-      @extend %ml-auto;
-      @extend %p-2;
-    }
-  }
-
-  .modal-body {
-    @extend %pt-2;
   }
 }
 

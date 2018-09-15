@@ -3,7 +3,7 @@
 }
 
 .projects {
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .projects-row {

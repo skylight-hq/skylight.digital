@@ -3,7 +3,7 @@
 }
 
 .about-info {
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .about-info-row {

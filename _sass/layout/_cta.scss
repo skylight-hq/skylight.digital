@@ -9,7 +9,7 @@
 }
 
 .page-subfooter-content {
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .page-subfooter-header-row {
@@ -63,7 +63,7 @@
 
 // Testimonial CTA
 .testimonial {
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .testimonial-row {

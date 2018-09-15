@@ -1,5 +1,5 @@
 .join-us {
-  @extend %container;
+  @include container-fluid-base;
   @extend %mt-6;
 }
 
@@ -76,8 +76,6 @@
 }
 
 .open-positions-list {
-  @extend %list-inside;
-
   ul {
     @extend %list-unstyled;
     @extend %mt-4;
