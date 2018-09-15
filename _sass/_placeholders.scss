@@ -24,12 +24,14 @@
 %col-md-8 { @extend .col-md-8; }
 %col-md-9 { @extend .col-md-9; }
 %col-md-10 { @extend .col-md-10; }
+%col-md-11 { @extend .col-md-11; }
 %col-lg-4 { @extend .col-lg-4; }
 %col-lg-5 { @extend .col-lg-5; }
 %col-lg-6 { @extend .col-lg-6; }
 %col-lg-7 { @extend .col-lg-7; }
 %col-lg-8 { @extend .col-lg-8; }
 %col-lg-9 { @extend .col-lg-9; }
+%col-lg-10 { @extend .col-lg-10; }
 %col-lg-11 { @extend .col-lg-11; }
 
 %d-flex { @extend .d-flex; }
@@ -100,6 +102,8 @@
 %px-0 { @extend .px-0; }
 %px-2 { @extend .px-2; }
 %px-3 { @extend .px-3; }
+%px-4 { @extend .px-4; }
+%px-5 { @extend .px-5; }
 %py-0 { @extend .py-0; }
 %py-1 { @extend .py-1; }
 %py-2 { @extend .py-2; }

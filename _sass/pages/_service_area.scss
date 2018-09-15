@@ -3,7 +3,7 @@
 }
 
 .service-elements {
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .service-elements-row {

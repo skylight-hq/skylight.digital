@@ -1,9 +1,6 @@
 .our-services {
   @extend %page-main-base;
-}
-
-.service-areas {
-  @extend %container-fluid;
+  @include container-fluid-base;
 }
 
 .service-areas-row {
@@ -14,7 +11,7 @@
   @extend %col-md-4;
 
   &:not(:last-child) {
-    @extend %mb-sm-down-5;
+    @extend %mb-sm-down-7;
   }
 }
 
@@ -71,7 +68,7 @@
 
 .minor-service-areas-row {
   @extend %row;
-  @extend %mt-5;
+  @extend %mt-7;
 }
 
 .minor-service-area-col {
@@ -81,11 +78,6 @@
     @extend %text;
     @extend %m-0;
   }
-}
-
-.capabilities,
-.industry-info-list {
-  @extend %container;
 }
 
 .capabilities-row,

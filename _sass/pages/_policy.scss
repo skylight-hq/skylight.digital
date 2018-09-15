@@ -1,6 +1,6 @@
 .policy {
   @extend %page-main-base;
-  @extend %container;
+  @include container-fluid-base;
 }
 
 .policy-row {

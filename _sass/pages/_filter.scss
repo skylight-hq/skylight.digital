@@ -1,5 +1,5 @@
 .filter {
-  @extend %container;
+  @include container-fluid-base;
   @extend %mt-7;
 
   h1 {

@@ -1,5 +1,5 @@
 %page-header-base {
-  @extend %container;
+  @include container-fluid-base;
   @extend %text-center;
   @extend %my-5;
 }
@@ -60,19 +60,23 @@
   }
 }
 
+%page-block-header-base {
+  @include container-fluid-base;
+}
+
 .page-block-header-1 {
-  @extend %container;
+  @extend %page-block-header-base;
   @extend %mb-4;
 }
 
 .page-block-header-2 {
-  @extend %container;
+  @extend %page-block-header-base;
   @extend %mb-4;
   @extend %mb-md-5;
 }
 
 .page-block-header-3 {
-  @extend %container;
+  @extend %page-block-header-base;
   @extend %mb-5;
   @extend %mb-md-6;
 }
@@ -95,7 +99,7 @@
 }
 
 .image-block {
-  @extend %container;
+  @include container-fluid-base;
   @extend %mb-5;
   @extend %mb-md-6;
   @extend %hidden-xs-down;
