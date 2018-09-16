@@ -1,55 +1,69 @@
 %page-header-base {
   @include container-fluid-base;
   @extend %text-center;
-  @extend %my-5;
 }
 
 .page-header-1 {
   @extend %page-header-base;
-  @extend %mb-md-5;
+  @extend %my-8;
 }
 
 .page-header-2 {
   @extend %page-header-base;
-  @extend %mb-md-6;
+  @include mt-8;
+  @include mb-6;
 }
 
-.page-header-title-1 {
-  @extend %col;
+.page-header-title-1,
+.page-header-title-2,
+.page-header-content-1,
+.page-header-content-2,
+.page-header-content-3 {
+  @extend %col-sm-11;
+  @extend %col-md-10;
+  @extend %mx-auto;
 }
 
-.page-header-title-2 {
-  @extend %text-heavy-col-base;
+.page-header-title-1,
+.page-header-content-1 {
+  @extend %col-lg-8;
+}
+
+.page-header-title-2,
+.page-header-content-2,
+.page-header-content-3 {
+  @extend %col-lg-9;
 }
 
 %page-header-content-base {
-  @extend %col;
-  @extend %mx-auto;
+  @extend %text-left;
 
   p {
-    @extend %mt-4;
+    @extend %mt-5;
     @extend %mb-0;
     line-height: 1.75;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-x-large;
   }
 }
 
 .page-header-content-1 {
   @extend %page-header-content-base;
+  @extend %text-center;
 }
 
 .page-header-content-2 {
   @extend %page-header-content-base;
-  @extend %col-lg-8;
-
-  p {
-    @extend %mt-5;
-    @extend %text-left;
-  }
 }
 
 .page-header-content-3 {
   @extend %page-header-content-base;
-  @extend %text-heavy-col-base;
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-large;
+  }
 }
 
 %page-main-base {

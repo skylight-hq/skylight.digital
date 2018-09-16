@@ -55,8 +55,7 @@
 
 .landing-content-row-margin,
 .landing-info-row {
-  @extend %mb-7;
-  @extend %mb-md-8;
+  @include mb-8;
 }
 
 .landing-content-primary-col,
@@ -70,14 +69,12 @@
 }
 
 .landing-content-primary-col {
-  @extend %col-md-8;
-  @extend %col-lg-10;
-  @extend %mb-3;
+  @extend %col-lg-8;
+  @extend %mb-4;
 }
 
 .landing-content-secondary-col {
-  @extend %col-md-6;
-  @extend %col-lg-7;
+  @extend %col-lg-8;
 
   p {
     @extend %mb-0;
@@ -90,7 +87,7 @@
 
 .landing-content-ctas-col {
   @extend %col-12;
-  @extend %mt-5;
+  @extend %mt-6;
 }
 
 .landing-content-cta-wrapper {

@@ -4,6 +4,21 @@
 %mb-6 { @include mb-6; }
 %mb-7 { @include mb-7; }
 
+%my-6 {
+  @include mt-6;
+  @include mb-6;
+}
+
+%my-7 {
+  @include mt-7;
+  @include mb-7;
+}
+
+%my-8 {
+  @include mt-8;
+  @include mb-8;
+}
+
 %px-6 {
   @include pl-6;
   @include pr-6;
