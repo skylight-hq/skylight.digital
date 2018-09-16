@@ -31,17 +31,6 @@ form {
   }
 }
 
-.btn-file {
-  @extend %btn-base;
-  @include button-variant($btn-file-color, $btn-file-bg, $btn-file-border);
-  @extend %mb-0;
-  @extend %text-truncate;
-}
-
-.file-width-max {
-  width: 225px;
-}
-
 .fieldset-nested {
   legend {
     font-size: $control-label-font-size;
