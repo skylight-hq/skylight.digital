@@ -5,10 +5,18 @@
 
 .policies-row {
   @extend %row;
+
+  .policy-list-col {
+    @extend %mb-0;
+  }
 }
 
 .policy-list-col {
   @extend %text-lead-col;
   @extend %text;
   @extend %list-inside;
+
+  ul {
+    @extend %mb-0;
+  }
 }

@@ -26,23 +26,16 @@
   @extend %mb-4;
 }
 
-%page-subfooter-text-col-base {
-  @extend %col;
+.page-subfooter-text-col {
+  @extend %col-sm-9;
+  @extend %col-lg-7;
   @extend %mx-auto;
   font-weight: 100;
   line-height: 1.75;
-}
 
-.page-subfooter-text-col {
-  @extend %page-subfooter-text-col-base;
-  @extend %col-md-9;
-  @extend %col-lg-7;
-}
-
-.page-subfooter-text-col-narrow {
-  @extend %page-subfooter-text-col-base;
-  @extend %col-md-7;
-  @extend %col-lg-5;
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-x-large;
+  }
 }
 
 .page-subfooter-cta-row {
@@ -71,8 +64,9 @@
 }
 
 .testimonial-col {
-  @extend %col-md;
-  @extend %col-lg-9;
+  @extend %col-sm-7;
+  @extend %col-md-10;
+  @extend %col-lg-8;
   @extend %mx-auto;
 
   blockquote {
