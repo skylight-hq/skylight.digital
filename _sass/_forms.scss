@@ -19,7 +19,8 @@ form {
     @extend %btn-base;
     @extend %py-2;
     @extend %px-6;
-    @include button-outline-variant($btn-form-color, $btn-form-bg);
+    @include button-outline-variant-2($btn-form-color, $btn-form-bg,
+      $btn-form-border, $btn-form-active-color);
     cursor: pointer;
   }
 

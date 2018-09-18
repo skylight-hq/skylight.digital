@@ -231,7 +231,7 @@ $control-label-color: $body-color;
 $control-label-font-size: $font-size-base;
 
 $help-text-link-color: $text-muted;
-$help-text-link-hover-color: $text-muted;
+$help-text-link-hover-color: $brand-primary;
 $help-text-link-border: 1px dotted $help-text-link-color;
 $help-text-link-border-hover: 1px solid $help-text-link-hover-color;
 
@@ -240,10 +240,12 @@ $form-icons-margin-bottom: $form-group-margin-bottom;
 $form-icons-border-color: $gray-lightest;
 
 $form-icon-color: $form-icons-border-color;
-$form-icon-hover-color: $body-color;
+$form-icon-hover-color: $brand-primary;
 
 $btn-form-color: $body-color;
 $btn-form-bg: $white;
+$btn-form-border: $btn-form-color;
+$btn-form-active-color: $brand-primary;
 
 // Cards
 $card-box-shadow: 0 1px 9px rgba(0, 0, 0, .3);
@@ -283,7 +285,7 @@ $btn-page-cta-bg: $brand-primary;
 
 // Project case studies
 $project-aside-link-color: $body-color;
-$project-aside-link-hover-color: $body-color;
+$project-aside-link-hover-color: $brand-primary;
 $project-aside-link-border: 1px dotted $project-aside-link-color;
 $project-aside-link-border-hover: 1px solid $project-aside-link-hover-color;
 
@@ -297,9 +299,11 @@ $filter-item-link-border-hover: none;
 $post-header-footer-color: $gray-light;
 
 $post-header-footer-link-color: $post-header-footer-color;
-$post-header-footer-link-hover-color: $post-header-footer-color;
+$post-header-footer-link-hover-color: $brand-primary;
 $post-header-footer-link-border: 1px dotted $post-header-footer-link-color;
 $post-header-footer-link-border-hover: 1px solid $post-header-footer-link-hover-color;
 
 $btn-share-color: $post-header-footer-color;
 $btn-share-bg: $white;
+$btn-share-border: $btn-share-color;
+$btn-share-active-color: $brand-primary;
