@@ -108,6 +108,13 @@
     @extend %badge;
     @extend %badge-default;
   }
+
+  a.tag-badge {
+    &:hover,
+    &:focus {
+      background-color: $brand-primary;
+    }
+  }
 }
 
 .post-share {
@@ -125,7 +132,8 @@
     @extend %btn-base;
     @extend %btn-icon-left;
     @extend %btn-sm;
-    @include button-outline-variant($btn-share-color, $btn-share-bg);
+    @include button-outline-variant-2($btn-share-color, $btn-share-bg,
+      $btn-share-border, $btn-share-active-color);
   }
 }
 
