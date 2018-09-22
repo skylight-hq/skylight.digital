@@ -14,7 +14,7 @@
 .policy-list-col {
   @extend %text-lead-col;
   @extend %text;
-  @extend %list-inside;
+  @extend %left-justified-list;
 
   ul {
     @extend %mb-0;

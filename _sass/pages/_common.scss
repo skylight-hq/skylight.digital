@@ -155,7 +155,7 @@
 
 %narrative-base {
   @extend %text;
-  @extend %list-base;
+  @extend %left-justified-list;
 
   h2 {
     @extend %mb-3;

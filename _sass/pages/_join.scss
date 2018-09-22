@@ -50,7 +50,7 @@
   @extend %col-md-8;
   @extend %mx-auto;
   @extend %text;
-  @extend %list-base;
+  @extend %left-justified-list;
   @extend %flex-last;
 
   form {
@@ -77,7 +77,7 @@
 
 .open-positions-list {
   ul {
-    @extend %list-unstyled;
+    @extend %list-item-unstyled;
     @extend %mt-4;
 
     li:not(:last-child) {
