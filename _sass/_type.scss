@@ -83,7 +83,7 @@ h1 {
 
   ul {
     li::before {
-      border-radius: 50%;
+      @extend %rounded-circle;
       content: '\2022';
       position: absolute;
     }
