@@ -307,3 +307,29 @@ $btn-share-color: $post-header-footer-color;
 $btn-share-bg: $white;
 $btn-share-border: $btn-share-color;
 $btn-share-active-color: $brand-primary;
+
+.left-justified-list{
+  ol,
+  ul,
+  dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-inline-start: 1.3rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+  }
+
+  ul li:before {
+      content: "\2022";
+      position: absolute;
+      left: -1em;
+      color: $gray-light;
+  }
+  
+}
