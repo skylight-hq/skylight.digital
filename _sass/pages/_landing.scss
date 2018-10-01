@@ -55,7 +55,8 @@
 
 .landing-content-row-margin,
 .landing-info-row {
-  @include mb-8;
+  @extend %mb-6;
+  @extend %mb-md-8;
 }
 
 .landing-content-primary-col,
@@ -74,7 +75,7 @@
 }
 
 .landing-content-secondary-col {
-  @extend %col-lg-8;
+  @extend %col-lg-7;
 
   p {
     @extend %mb-0;
@@ -87,7 +88,8 @@
 
 .landing-content-ctas-col {
   @extend %col-12;
-  @extend %mt-6;
+  @extend %mt-5;
+  @extend %mt-md-6;
 }
 
 .landing-content-cta-wrapper {

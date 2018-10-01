@@ -33,7 +33,7 @@
 
   ul {
     @extend %mb-0;
-    @extend %list-unstyled;
+    @extend %list-item-unstyled;
 
     li:not(:last-child) {
       @extend %pb-3;

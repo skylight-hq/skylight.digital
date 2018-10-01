@@ -58,22 +58,60 @@ h1 {
   ol,
   ul {
     li:not(:last-child) {
-      @extend %pb-2;
+      @extend %pb-3;
     }
   }
 }
 
-%list-inside {
+%left-justified-list {
   @extend %list-base;
 
   ol,
   ul {
-    @extend %pl-0;
+    @extend %list-unstyled;
+  }
 
-    li {
-      list-style-position: inside;
-      padding-left: 1rem;
-      text-indent: -1rem;
+  ol,
+  ul {
+    li::before {
+      color: $gray-lighter;
+      position: absolute;
+      left: 0;
+      top: 0;
     }
+  }
+
+  ul {
+    li::before {
+      @extend %rounded-circle;
+      content: '\2022';
+      position: absolute;
+    }
+  }
+
+  ol {
+    counter-reset: item;
+
+    li::before {
+      content: counter(item) '. ';
+      counter-increment: item;
+    }
+  }
+
+  li {
+    padding-left: 1.5rem;
+    position: relative;
+  }
+}
+
+%list-item-unstyled {
+  li::before {
+    border-radius: 0;
+    content: none;
+  }
+
+  li {
+    @extend %ml-0;
+    @extend %pl-0;
   }
 }

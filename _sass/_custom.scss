@@ -78,19 +78,11 @@
 }
 
 // Brand colors
-$cool-gray: #53565a;
-$reflex-blue: #001489;
-$chathams-blue: #1d428a;
-$matisse: #1d4f91;
-$deep-cerulean: #0076a8;
-$eucalyptus: #228848;
-$sushi: #6ba539;
-$supernova: #f2cd00;
-$tangerine: #ed8b00;
-$flame-pea: #dc6b2f;
-$trinidad: #dc4405;
-$flush-mahogany: #cb333b;
-$honey-flower: #6d2077;
+$sk-red: #df635c;
+$sk-blue: #468fba;
+$sk-green: #5fa373;
+$sk-yellow: #f4c55c;
+$sk-grey: #54565a;
 
 // Font sizes
 $font-size-xxxxx-large: 3rem;
@@ -115,17 +107,17 @@ $font-size-xxxx-small: .8rem;
 // Colors
 $white: #fff;
 
-$gray: $cool-gray;
+$gray: $sk-grey;
 $gray-dark: darken($gray, 10%);
 $gray-light: lighten($gray, 10%);
 $gray-lighter: lighten($gray, 30%);
 $gray-lightest: lighten($gray, 50%);
 
-$brand-primary: $deep-cerulean;
-$brand-success: $eucalyptus;
-$brand-info: $deep-cerulean;
-$brand-warning: $tangerine;
-$brand-danger: $flush-mahogany;
+$brand-primary: darken($sk-blue, 5%);
+$brand-success: $sk-green;
+$brand-info: $sk-blue;
+$brand-warning: $sk-yellow;
+$brand-danger: $sk-red;
 $brand-inverse: $gray-dark;
 
 // Body
@@ -173,8 +165,8 @@ $input-color-placeholder: $gray-lighter;
 
 // Buttons
 $btn-primary-color: $white;
-$btn-primary-bg: $flame-pea;
-$btn-primary-border: $flame-pea;
+$btn-primary-bg: $sk-green;
+$btn-primary-border: $sk-green;
 
 $btn-secondary-color: $brand-primary;
 $btn-secondary-bg: $white;
