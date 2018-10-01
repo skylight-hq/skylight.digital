@@ -70,12 +70,12 @@
 }
 
 .landing-content-primary-col {
-  @extend %col-lg-9;
+  @extend %col-lg-8;
   @extend %mb-4;
 }
 
 .landing-content-secondary-col {
-  @extend %col-lg-7;
+  @extend %col-lg-8;
 
   p {
     @extend %mb-0;

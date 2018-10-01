@@ -113,7 +113,7 @@ $gray-light: lighten($gray, 10%);
 $gray-lighter: lighten($gray, 30%);
 $gray-lightest: lighten($gray, 50%);
 
-$brand-primary: $sk-blue;
+$brand-primary: darken($sk-blue, 5%);
 $brand-success: $sk-green;
 $brand-info: $sk-blue;
 $brand-warning: $sk-yellow;
