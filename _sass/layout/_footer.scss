@@ -1,15 +1,16 @@
 .global-footer {
-  @extend %py-4;
-  @extend %py-md-5;
+  @extend %py-2;
+  @extend %py-md-2;
 }
 
 .footer-content {
   @include container-fluid-base;
+  @extend %my-3;
 }
 
 .footer-row {
   @extend %row;
-
+  padding: 0 4rem 0 6rem;
   &:first-child {
     @extend %mb-md-4;
   }
@@ -39,7 +40,6 @@
 }
 
 .footer-brand-col {
-  @extend %footer-col-left-base;
 
   a {
     @include brandmark($width: $footer-brand-width, $height: $footer-brand-height,
@@ -85,6 +85,13 @@
 
 .footer-contribute-cta-col {
   @extend %footer-col-left-base;
+  position: absolute;
+  bottom: 3rem;
+
+  @include media-breakpoint-down(sm) {
+    position: relative;
+    bottom: 0;
+  }
 
   a {
     @extend %btn-base;
@@ -105,5 +112,14 @@
     &:not(:last-child) {
       padding-right: 25px;
     }
+  }
+}
+
+.footer-links-col{
+  a{
+    color: #3b3d40;
+  }
+  li a{
+    font-size: 12px;
   }
 }
