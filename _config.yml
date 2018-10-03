@@ -12,7 +12,7 @@ description: Skylight is a HUBZone digital consultancy driven by making governme
 keywords: digital consulting, digital government, digital transformation, and digital services
 published: 2017-06-18
 modified: 2017-06-18
-notice_bar: true
+notice_bar: false
 
 baseurl: '' # the subpath of your site, e.g. /blog
 permalink: /:title/
