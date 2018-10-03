@@ -95,6 +95,8 @@ We have created an [interactive map](https://www.plectica.com/maps/D26TZT0CX?pre
 
 The Puerto Rican Fast Map Project seeks to be the simplest possible way to crowdsource map-based data. It was born of the need for such data about power and drinking water availability after Hurricane Maria.
 
+![Illustration of Puerto Rico as a connected network grid.](/img/blog/puerto_rico_disaster_lab/fast-map.png)
+
 **Draft project breakdown:**
 
 1. Create an API that extracts geolocation from photos automatically. ([EXIF.js](https://github.com/exif-js/exif-js) is a tool for this.) Offer this is as a free, PR-branded API to the world. This could be an exercise in API design and throttling. Possibly the mobile app "WhatsApp" could be used instead of extracting geolocation from an image.
