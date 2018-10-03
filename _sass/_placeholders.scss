@@ -46,7 +46,9 @@
 %flex-column { @extend .flex-column; }
 %flex-lg-first { @extend .flex-lg-first; }
 %flex-last { @extend .flex-last; }
+%align-items-start { @extend .align-items-start; }
 %align-items-center { @extend .align-items-center; }
+%align-items-stretch { @extend .align-items-stretch; }
 %justify-content-md-end { @extend .justify-content-md-end; }
 
 %mt-3 { @extend .mt-3; }
@@ -91,6 +93,7 @@
 %my-5 { @extend .my-5; }
 %my-md-5 { @extend .my-md-5; }
 
+%pt-0 { @extend .pt-0; }
 %pt-2 { @extend .pt-2; }
 %pt-4 { @extend .pt-4; }
 %pr-0 { @extend .pr-0; }
