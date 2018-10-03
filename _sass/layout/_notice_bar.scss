@@ -10,9 +10,9 @@
   @extend %col;
   @extend %text-center;
   @extend %py-2;
-  font-size: $font-size-xxx-small;
+  font-size: $font-size-xx-small;
   color: $white;
-  background-image: $notice-bar-bg-color;
+  background-color: $notice-bar-bg-color;
 
   a {
     @include link-decoration($notice-bar-link-color, $notice-bar-link-hover-color,

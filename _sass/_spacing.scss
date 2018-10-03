@@ -52,6 +52,11 @@
   %mb-md-8 { @include mb-8; }
   %mb-md-10 { @include mb-10; }
 
+  %my-md-7 {
+    @include mt-7;
+    @include mb-7;
+  }
+
   %my-md-8 {
     @include mt-8;
     @include mb-8;
