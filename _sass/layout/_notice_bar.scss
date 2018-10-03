@@ -9,7 +9,7 @@
 .notice-bar-col {
   @extend %col;
   @extend %text-center;
-  @extend %py-2;
+  @extend %py-1;
   font-size: $font-size-xx-small;
   color: $white;
   background-color: $notice-bar-bg-color;
