@@ -9,11 +9,17 @@
 .notice-bar-col {
   @extend %col;
   @extend %text-center;
-  font-size: $font-size-xxxx-small;
+  @extend %py-2;
+  font-size: $font-size-xxx-small;
   color: $white;
-  background-image: linear-gradient(-90deg, #003d58, #0073a4);
+  background-image: $notice-bar-bg-color;
+
+  a {
+    @include link-decoration($notice-bar-link-color, $notice-bar-link-hover-color,
+      $notice-bar-link-border, $notice-bar-link-border-hover);
+  }
 
   i {
-    @extend %mr-1;
+    @extend %ml-1;
   }
 }

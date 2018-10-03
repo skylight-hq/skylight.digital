@@ -200,6 +200,13 @@ $text-link-border-hover: 1px solid $text-link-hover-color;
 $header-display-1: 4rem;
 $header-display-2: 3rem;
 
+// Notice bar
+$notice-bar-link-color: $white;
+$notice-bar-link-hover-color: lighten($sk-red, 25%);
+$notice-bar-link-border: none;
+$notice-bar-link-border-hover: none;
+$notice-bar-bg-color: linear-gradient(90deg, darken($sk-red, 5%), darken($sk-red, 15%));
+
 // Main nav
 $nav-brand-width-sm-down: 150px;
 $nav-brand-height-sm-down: 40px;
@@ -270,7 +277,7 @@ $btn-footer-active-color: $brand-primary;
 
 // Page CTA (subfooter)
 $page-cta-color: $white;
-$page-cta-bg-color: $brand-primary;
+$page-cta-bg-color: linear-gradient(90deg, $brand-primary, darken($brand-primary, 15%));
 
 $btn-page-cta-color: $white;
 $btn-page-cta-bg: $brand-primary;
