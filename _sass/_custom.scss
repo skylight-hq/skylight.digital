@@ -78,10 +78,10 @@
 }
 
 // Brand colors
-$sk-red: #df635c;
-$sk-blue: #468fba;
-$sk-green: #5fa373;
-$sk-yellow: #f4c55c;
+$sk-red: darken(#df635c, 7%);
+$sk-blue: darken(#468fba, 7%);
+$sk-green: darken(#5fa373, 7%);
+$sk-yellow: darken(#f4c55c, 7%);
 $sk-grey: #54565a;
 
 // Font sizes
@@ -113,7 +113,7 @@ $gray-light: lighten($gray, 10%);
 $gray-lighter: lighten($gray, 30%);
 $gray-lightest: lighten($gray, 50%);
 
-$brand-primary: darken($sk-blue, 7%);
+$brand-primary: $sk-blue;
 $brand-success: $sk-green;
 $brand-info: $sk-blue;
 $brand-warning: $sk-yellow;
@@ -205,7 +205,7 @@ $notice-bar-link-color: $white;
 $notice-bar-link-hover-color: lighten($sk-red, 25%);
 $notice-bar-link-border: none;
 $notice-bar-link-border-hover: none;
-$notice-bar-bg-color: darken($sk-red, 5%);
+$notice-bar-bg-color: $sk-red;
 
 // Main nav
 $nav-brand-width-sm-down: 150px;
