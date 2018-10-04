@@ -17,7 +17,7 @@ date: 2018-02-24
 
 Citizens expect public digital services to be useful, usable, and *secure*. When the security of these services are compromised and exploited by malicious actors, *real* people are put at risk of any number of cyber-related crimes such as identity theft. As stewards of public trust, the government must hold itself to the highest, most appropriate levels of security standards in order to protect the people it serves. Unfortunately, the combination of limited resources and expanding attack surface areas are creating even more opportunities for adversaries. To counteract this trend, more and more organizations are embracing the use of bug bounties, a crowdsourced approach to security research. Through the power of the crowd, bug bounties can uncover <a href="https://www.bugcrowd.com/how-it-works/" target="&#95;blank">8x more critical vulnerabilities</a> than traditional penetration testing and security assessments.
 
-At Skylight, we know firsthand how integrating bug bounties into government's DevSecOps processes &mdash; even before systems are deployed into production ("shift-left security") &mdash; can produce far more robust and secure services. That's why we're excited to announce our new bug bounty solution in partnership with <a href="https://www.bugcrowd.com/?utm_source=channel&utm_medium=skylight&utm_content=blog&utm_campaign=integration_partner" target="&#95;blank">Bugcrowd</a>, a platform for connecting organizations to a crowd of trusted security researchers.
+At Skylight, we know firsthand how integrating bug bounties into government's DevSecOps processes &mdash; even before systems are deployed into production ("shift-left security") &mdash; can produce far more robust and secure services. That's why we're excited to announce our new bug bounty solution.
 
 ## Some background
 
@@ -43,6 +43,7 @@ Based on what your specific organizational needs and testing requirements are, w
 - Setting the initial scope of the assessment. That is, what **digital assets** (e.g., 3&ndash;5 public-facing websites, all web services under a particular domain, a highly-sensitive system in pre-production) and **bug types** (e.g., XSS, SQL injection) you want &mdash; and don't want &mdash; researchers to focus on.
 - Determining what type of program you want to run. For example, it could be **private** (invite-only) or **public** (open to the collective intelligence of thousands) coupled with a **Vulnerability Disclosure Program** (open-door policy to anyone who wants to report a security flaw).
 - Calibrating the rewards structure based on your available budget.
+- Choosing and setting up a bug bounty platform &mdash; such as Bugcrowd or HackerOne &mdash; for receiving, organizing, analyzing, understanding, and offering rewards for vulnerability reports from third-party researchers. (We do not recommend trying to build-out and manage this infrastructure yourself.)
 - Priming your vulnerability management processes to handle the influx of new reports that will come and need to be triaged and remediated. This includes highlighting how triages are handled and designating remediation teams.
 - Crafting your policy/rules page. This page commonly contains your disclosure policy, rules of engagement, scope, service-level agreements (e.g., time to respond to a new report, time to bounty after validation), and other important information.
 
@@ -61,14 +62,6 @@ Over the course of the launch stage, you'll gain valuable experience running bug
 - Scaling the program. This could mean increasing the scope to include more digital assets and types of bugs, opening it up to more hackers, increasing the bounty rewards, or any combo thereof. In doing so, you might need to iterate through the design & preparation and launch phases again.
 - Optimizing bug bounty and vulnerability management processes to handle a larger volume of reports.
 - Leveraging bug bounty data to perform an analysis of the root causes behind systemic issues (e.g., XSS keeps popping-up) with your existing security and software development practices. This is particularly useful for gaining insight into the performance of specific contractors.
-
-## Why we're partnering with Bugcrowd
-
-When shopping for bug bounty platforms, there are a number of good options available to you. From a "value-added" services standpoint, we can work fairly well with any of them. However, our top choice and recommendation is Bugcrowd, which is why we've decided to engage in a strategic partnership with them. There are a number of reasons for this, but the biggest ones are:
-
-- Bugcrowd provides a fully managed service as their standard offering, which is especially great for resource-constrained organizations. (The federal government's widespread <a href="https://www.opm.gov/blogs/Director/2016/7/12/Strengthening-the-Federal-Cybersecurity-Workforce/" target="&#95;blank">shortage of cybersecurity talent</a> is well documented.) For example, Bugcrowd's security specialists provide not only triage and validation support, but remediation advice as well.
-- Bugcrowd's Head of Government Solutions, <a href="https://www.linkedin.com/in/chungmj/" target="&#95;blank">Michael Chung</a>, ran DoD's Hack the Pentagon, the federal government's first bug bounty program, during his tour with the Defense Digital Service. It's hard to discount that type of experience.
-- As a managed service, Bugcrowd derives revenue from charging a management fee, as opposed to taking a cut out of the researchers' bounty rewards pool.
 
 ## Let's get secure!
 
