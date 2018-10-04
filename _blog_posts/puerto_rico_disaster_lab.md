@@ -170,3 +170,5 @@ Although any company is welcome to take these proposals and build a product from
 * A research grant could provide equipment and logistical support to undertake these with appropriate technology.
 
 * Finally, directly connecting leaders inside and outside Puerto Rico who are interested in these projects could nucleate the projects, bringing together commercial interests with humanitarian disaster relief interests.
+
+*At Skylight, we encourage our team members to pursue meaningful and impactful activities such as this. If you're interested in being part of our team, please [get in touch](/join/).*
