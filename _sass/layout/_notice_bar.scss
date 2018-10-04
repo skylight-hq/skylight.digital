@@ -9,10 +9,10 @@
 .notice-bar-col {
   @extend %col;
   @extend %text-center;
-  @extend %py-1;
+  @extend %py-2;
   font-size: $font-size-xx-small;
   color: $white;
-  background-color: $notice-bar-bg-color;
+  background-image: $notice-bar-bg-color;
 
   a {
     @include link-decoration($notice-bar-link-color, $notice-bar-link-hover-color,
