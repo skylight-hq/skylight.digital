@@ -205,7 +205,7 @@ $notice-bar-link-color: $white;
 $notice-bar-link-hover-color: lighten($sk-red, 40%);
 $notice-bar-link-border: none;
 $notice-bar-link-border-hover: none;
-$notice-bar-bg-color: $sk-red;
+$notice-bar-bg-color: linear-gradient(90deg, $brand-primary, darken($brand-primary, 15%));
 
 // Main nav
 $nav-brand-width-sm-down: 150px;

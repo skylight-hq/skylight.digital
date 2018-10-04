@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% if site.notice_bar %}
-    {% include notice_bar.html %}
-  {% endif %}
-
   {% include head.html %}
 
   <body>
@@ -17,6 +13,11 @@
     </main>
 
     {% include footer.html %}
+
+    {% if site.notice_bar %}
+      {% include notice_bar.html %}
+    {% endif %}
+
     {% include analytics.html %}
   </body>
 
