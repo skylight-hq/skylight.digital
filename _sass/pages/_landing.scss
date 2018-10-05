@@ -110,7 +110,7 @@
 .landing-info-text-col,
 .landing-info-img-col {
   @extend %d-flex;
-  @extend %align-items-start;
+  @extend %align-items-center;
 }
 
 .landing-info-text-col {
