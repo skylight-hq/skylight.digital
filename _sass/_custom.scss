@@ -78,10 +78,10 @@
 }
 
 // Brand colors
-$sk-red: darken(#df635c, 7%);
-$sk-blue: darken(#468fba, 7%);
-$sk-green: darken(#5fa373, 7%);
-$sk-yellow: darken(#f4c55c, 7%);
+$sk-red: darken(#df635c, 0%);
+$sk-blue: darken(#468fba, 0%);
+$sk-green: darken(#5fa373, 0%);
+$sk-yellow: darken(#f4c55c, 0%);
 $sk-grey: #54565a;
 
 // Font sizes
@@ -165,8 +165,8 @@ $input-color-placeholder: $gray-lighter;
 
 // Buttons
 $btn-primary-color: $white;
-$btn-primary-bg: $sk-green;
-$btn-primary-border: $sk-green;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: $brand-primary;
 
 $btn-secondary-color: $brand-primary;
 $btn-secondary-bg: $white;
