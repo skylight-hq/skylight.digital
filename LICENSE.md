@@ -4,11 +4,7 @@ This project includes a mix of commercial works, as well as open source works th
 
 The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofoundry.com/fonts/geomanist), copyright atipo, under [atipo's licensing terms](http://atipofoundry.com/license).
 
-The stock image file in `src/img/projects/rescue_failing_programs/emergency-vehicle-siren-lights.jpg` is from [iStockphoto](http://www.istockphoto.com/photo/emergency-vehicle-gm540210644-96409571), copyright iStockphoto/barbol88, under [iStockphoto's licensing terms](http://www.istockphoto.com/legal/license-agreement).
-
 The stock image file in `src/img/projects/ssa_agile_microsprints/people-brainstorming-stickies.jpg` is from [iStockphoto](http://www.istockphoto.com/photo/brainstorming-with-notes-on-the-wall-gm639955668-115646939), copyright iStockphoto/adamkaz, under [iStockphoto's licensing terms](http://www.istockphoto.com/legal/license-agreement).
-
-The stock image file in `src/img/blog/five_pifs_join/welcome.jpg` is from [iStockphoto](http://www.istockphoto.com/photo/welcome-new-employee-colleague-refugees-refugee-immigrants-desk-gm589970886-101347157), copyright iStockphoto/Boarding1Now, under [iStockphoto's licensing terms](http://www.istockphoto.com/legal/license-agreement).
 
 The stock image file in `src/img/blog/mentor_protege_search/trusted-partnership.jpg` is from [iStockphoto](http://www.istockphoto.com/photo/trust-in-business-partnership-background-gm517418290-89480701), copyright iStockphoto/olm26250, under [iStockphoto's licensing terms](http://www.istockphoto.com/legal/license-agreement).
 
