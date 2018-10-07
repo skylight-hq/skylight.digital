@@ -3,7 +3,7 @@ layout: blog_post
 title: How to rescue failing programs
 permalink: /blog/how-to-rescue-failing-programs/
 content_type: BlogPosting
-image: /img/blog/rescue_failing_programs/emergency-vehicle-siren-lights.jpg
+image: /img/blog/rescue_failing_programs/rescue.png
 image_description: Image of an emergency vehicle's siren lights.
 image_display: true
 order: 1000
