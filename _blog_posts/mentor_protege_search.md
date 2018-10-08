@@ -3,8 +3,8 @@ layout: blog_post
 title: The search for mentor-protégé relationships
 permalink: /blog/the-search-for-mentor-protege-relationships/
 content_type: BlogPosting
-image: /img/blog/mentor_protege_search/trusted-partnership.jpg
-image_description: Image showing trusted partner stamp on white paper.
+image: /img/blog/mentor_protege_search/mentor-protege.png
+image_description: Illustration of a magnifying glass highlighting the words mentor and protégé.
 image_display: true
 order: 500
 tags: [chris cairns]
