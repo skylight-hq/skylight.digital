@@ -4,7 +4,7 @@ title: Five former Presidential Innovation Fellows and 18F co-founders join Skyl
 permalink: /blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/
 content_type: BlogPosting
 image: /img/blog/five_pifs_join/welcome.png
-image_description: A photo of a welcome sticky note near a computer.
+image_description: An illustration of a welcome sticky note near a computer.
 image_display: true
 order: 400
 tags: [sean johnson]

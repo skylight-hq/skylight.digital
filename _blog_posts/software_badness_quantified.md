@@ -3,8 +3,8 @@ layout: blog_post
 title: Software badness quantified
 permalink: /blog/software-badness-quantified/
 content_type: BlogPosting
-image: /img/blog/software_badness_quantified/programming-code.jpg
-image_description: An abstract image of lines of programming code on a computer screen.
+image: /img/blog/software_badness_quantified/bad-code-quantified.png
+image_description: Illustration of a graphing calculator against a background showing abstract lines of code.
 image_display: true
 order: 200
 tags: [digital services delivery, robert read]
