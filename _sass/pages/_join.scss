@@ -89,3 +89,13 @@
     }
   }
 }
+
+.join-us-form {
+  .social-button{
+    background-color: white;
+    border-color: white;
+  }
+  .social-button:not(.collapsed) i{
+    color: $form-icon-hover-color;
+  }
+}
