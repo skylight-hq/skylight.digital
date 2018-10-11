@@ -2,6 +2,15 @@
   @extend %page-main-base;
 }
 
+.about-skylight-img {
+  @include container-fluid-base;
+  @extend %img-fluid;
+  @extend %text-heavy-col-base;
+  @include mb-7;
+  @extend %mb-md-8;
+  width: 100%;
+}
+
 .about-info {
   @include container-fluid-base;
 }
