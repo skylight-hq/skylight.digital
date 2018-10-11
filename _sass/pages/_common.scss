@@ -3,19 +3,23 @@
   @extend %text-center;
 }
 
-.page-header-1,
-.page-header-2 {
+.page-header-1 {
   @extend %page-header-base;
+  @extend %my-7;
   @extend %my-md-8;
 }
 
-.page-header-1 {
-  @extend %my-7;
-}
-
 .page-header-2 {
+  @extend %page-header-base;
   @include mt-7;
   @include mb-6;
+}
+
+.page-header-3 {
+  @extend %page-header-base;
+  @extend %mt-7;
+  @extend %mt-md-8;
+  @extend %mb-5;
 }
 
 .page-header-title-1,
