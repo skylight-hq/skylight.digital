@@ -93,9 +93,21 @@
 .join-us-form {
   .social-button{
     background-color: white;
-    border-color: white;
+    border: none;
+    &:active{
+      border: none;
+    }
+    &:hover i{
+      color: $form-icon-hover-color;
+    }
   }
   .social-button:not(.collapsed) i{
     color: $form-icon-hover-color;
   }
 }
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {border:0;padding:0;margin:0;}
