@@ -96,6 +96,10 @@
     border: none;
     &:active{
       border: none;
+      outline: none;
+    }
+    &:hover{
+      box-shadow: none;
     }
     &:hover i{
       color: $form-icon-hover-color;
