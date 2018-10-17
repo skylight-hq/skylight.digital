@@ -125,7 +125,7 @@ $(function() {
 
 // Form icons
 $(function() {
-  $('.form-social-btn-icons button').click(function(e) {
+  $('.form-social-btn-icons button').click(function() {
     $(this).blur()
 
     var targetElementId = $(this).data('toggle')
