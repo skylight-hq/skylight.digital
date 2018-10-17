@@ -42,34 +42,51 @@ form {
       @extend %text-muted;
     }
   }
-
-  .form-icons {
-    @extend %d-flex;
-    @extend %justify-content-between;
-    @extend %mt-2;
-    border-bottom: 1px dashed $form-icons-border-color;
-    margin-bottom: $form-icons-margin-bottom;
-  }
-
-  i {
-    @extend %pb-2;
-    color: $form-icon-color;
-
-    &:hover,
-    &:focus,
-    &.current {
-      color: $form-icon-hover-color;
-    }
-  }
 }
 
-.can-touch .form-icons i {
-  &:hover {
+.form-icons {
+  @extend %d-flex;
+  @extend %justify-content-between;
+  @extend %mt-2;
+  @extend %pb-2;
+  border-bottom: 1px dashed $form-icons-border-color;
+  margin-bottom: $form-icons-margin-bottom;
+}
+
+.social-button {
+  @extend %btn;
+  @extend %p-0;
+  background-color: $white;
+  border: none;
+
+  i {
     color: $form-icon-color;
   }
 
-  &:focus,
-  &.current {
+  &:active {
+    border: none;
+    outline: none;
+  }
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  &:hover i {
+    color: $form-icon-hover-color;
+  }
+
+  &:not(.collapsed) i {
     color: $form-icon-hover-color;
   }
 }
+
+//.can-touch .form-icons i {
+  //&:hover {
+    //color: $form-icon-color;
+  //}
+
+  //&:focus {
+    //color: $form-icon-hover-color;
+  //}
+//}
