@@ -126,7 +126,10 @@ $(function() {
 // Form icons
 $(function() {
   $('.form-social-btn-icons button').click(function() {
-    $(this).blur()
+
+    if (!$('.can-touch').length) {
+      $(this).blur()
+    }
 
     var targetElementId = $(this).data('toggle')
 
