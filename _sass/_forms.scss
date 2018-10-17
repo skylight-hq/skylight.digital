@@ -82,11 +82,12 @@ form {
 }
 
 .can-touch .form-social-btn-icons button {
-  &:hover i {
+  &:hover i,
+  &:focus i {
     color: $form-icon-color;
   }
 
-  &:focus i {
+  &:active i {
     color: $form-icon-hover-color;
   }
 }
