@@ -81,12 +81,12 @@ form {
   }
 }
 
-.can-touch .form-social-btn-icons i {
-  &:hover {
+.can-touch .form-social-btn-icons button {
+  &:hover i {
     color: $form-icon-color;
   }
 
-  &:focus {
+  &:focus i {
     color: $form-icon-hover-color;
   }
 }
