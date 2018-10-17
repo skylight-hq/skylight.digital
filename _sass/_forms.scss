@@ -81,13 +81,12 @@ form {
   }
 }
 
-.can-touch .form-social-btn-icons button {
-  &:hover i {
+.form-social-btn-icons button {
+  &.collapsed i {
     color: $form-icon-color;
   }
 
-  &:active i,
-  &:focus i {
+  &:not(.collapsed) i {
     color: $form-icon-hover-color;
   }
 }
