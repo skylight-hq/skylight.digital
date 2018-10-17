@@ -81,12 +81,12 @@ form {
   }
 }
 
-//.can-touch .form-icons i {
-  //&:hover {
-    //color: $form-icon-color;
-  //}
+.can-touch .form-icons i {
+  &:hover {
+    color: $form-icon-color;
+  }
 
-  //&:focus {
-    //color: $form-icon-hover-color;
-  //}
-//}
+  &:focus {
+    color: $form-icon-hover-color;
+  }
+}
