@@ -100,7 +100,7 @@ $(function() {
     navPaths.some(function(path){
       include = href.includes(path)
       return include
-    }) 
+    })
     return include
   })
 
@@ -125,7 +125,7 @@ $(function() {
 
 // Form icons
 $(function() {
-  $('.form-icons div').click(function(e) {
+  $('.form-icons button').click(function(e) {
     e.preventDefault()
 
     var targetElementId = $(this).data('toggle')

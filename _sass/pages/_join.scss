@@ -91,21 +91,27 @@
 }
 
 .join-us-form {
-  .social-button{
-    background-color: white;
+  .social-button {
+    @extend %btn;
+
+    background-color: $white;
     border: none;
-    &:active{
+
+    &:active {
       border: none;
       outline: none;
     }
-    &:hover{
+
+    &:hover {
       box-shadow: none;
     }
-    &:hover i{
+
+    &:hover i {
       color: $form-icon-hover-color;
     }
   }
-  .social-button:not(.collapsed) i{
+
+  .social-button:not(.collapsed) i {
     color: $form-icon-hover-color;
   }
 }
