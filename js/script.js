@@ -100,7 +100,7 @@ $(function() {
     navPaths.some(function(path){
       include = href.includes(path)
       return include
-    }) 
+    })
     return include
   })
 
@@ -125,8 +125,8 @@ $(function() {
 
 // Form icons
 $(function() {
-  $('.form-icons div').click(function(e) {
-    e.preventDefault()
+  $('.form-icons button').click(function(e) {
+    $(this).blur()
 
     var targetElementId = $(this).data('toggle')
 
@@ -136,7 +136,6 @@ $(function() {
       $(this).attr('aria-expanded', false)
     }
 
-    $(this).find('i').toggleClass('current')
     $('#' + targetElementId).toggleClass('sr-only')
   })
 })
@@ -173,9 +172,9 @@ $(function() {
 	document.addEventListener('mouseover', removetouchclass, false) // this event gets called when input type is everything from touch to mouse/trackpad
 })
 
-//External links open in new window
+// External links open in new window
 $(function(){
   $(document.links).filter(function() {
-    return this.hostname != window.location.hostname;
-  }).attr('target', '_blank');
+    return this.hostname != window.location.hostname
+  }).attr('target', '_blank')
 })
