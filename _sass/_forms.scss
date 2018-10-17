@@ -44,44 +44,44 @@ form {
   }
 }
 
-.form-icons {
+.form-social-btn-icons {
   @extend %d-flex;
   @extend %justify-content-between;
   @extend %mt-2;
   @extend %pb-2;
   border-bottom: 1px dashed $form-icons-border-color;
   margin-bottom: $form-icons-margin-bottom;
-}
 
-.social-button {
-  @extend %btn;
-  @extend %p-0;
-  background-color: $white;
-  border: none;
-
-  i {
-    color: $form-icon-color;
-  }
-
-  &:active {
+  button {
+    @extend %btn;
+    @extend %p-0;
+    background-color: $white;
     border: none;
-    outline: none;
-  }
 
-  &:hover {
-    box-shadow: none;
-  }
+    i {
+      color: $form-icon-color;
+    }
 
-  &:hover i {
-    color: $form-icon-hover-color;
-  }
+    &:active {
+      border: none;
+      outline: none;
+    }
 
-  &:not(.collapsed) i {
-    color: $form-icon-hover-color;
+    &:hover {
+      box-shadow: none;
+    }
+
+    &:hover i {
+      color: $form-icon-hover-color;
+    }
+
+    &:not(.collapsed) i {
+      color: $form-icon-hover-color;
+    }
   }
 }
 
-.can-touch .form-icons i {
+.can-touch .form-social-btn-icons i {
   &:hover {
     color: $form-icon-color;
   }
