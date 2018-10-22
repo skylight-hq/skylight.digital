@@ -10,6 +10,7 @@
 %col-10 { @extend .col-10; }
 %col-11 { @extend .col-11; }
 %col-12 { @extend .col-12; }
+%col-sm-3 { @extend .col-sm-3; }
 %col-sm-4 { @extend .col-sm-4; }
 %col-sm-6 { @extend .col-sm-6; }
 %col-sm-7 { @extend .col-sm-7; }
@@ -27,6 +28,7 @@
 %col-md-9 { @extend .col-md-9; }
 %col-md-10 { @extend .col-md-10; }
 %col-md-11 { @extend .col-md-11; }
+%col-lg-3 { @extend .col-lg-3; }
 %col-lg-4 { @extend .col-lg-4; }
 %col-lg-5 { @extend .col-lg-5; }
 %col-lg-6 { @extend .col-lg-6; }
@@ -37,18 +39,28 @@
 %col-lg-11 { @extend .col-lg-11; }
 
 %d-flex { @extend .d-flex; }
+%d-sm-flex { @extend .d-sm-flex; }
+%d-md-flex { @extend .d-md-flex; }
 %flex-row { @extend .flex-row; }
+%flex-md-row { @extend .flex-md-row; }
+%flex-lg-row { @extend .flex-lg-row; }
 %flex-wrap { @extend .flex-wrap; }
 %justify-content-start { @extend .justify-content-start; }
 %justify-content-between { @extend .justify-content-between; }
+%justify-content-md-between { @extend .justify-content-md-between; }
 %justify-content-end { @extend .justify-content-end; }
+%justify-content-sm-end { @extend .justify-content-sm-end; }
+%justify-content-md-end { @extend .justify-content-md-end; }
 %align-self-center { @extend .align-self-center; }
 %flex-column { @extend .flex-column; }
 %flex-lg-first { @extend .flex-lg-first; }
 %flex-last { @extend .flex-last; }
 %align-items-start { @extend .align-items-start; }
+%align-items-md-start { @extend .align-items-md-start; }
+%align-items-lg-start { @extend .align-items-lg-start; }
 %align-items-center { @extend .align-items-center; }
 %align-items-stretch { @extend .align-items-stretch; }
+%align-items-md-stretch { @extend .align-items-md-stretch; }
 %justify-content-md-end { @extend .justify-content-md-end; }
 
 %mt-3 { @extend .mt-3; }
@@ -75,6 +87,7 @@
 %mb-4 { @extend .mb-4; }
 %mb-5 { @extend .mb-5; }
 %mb-sm-0 { @extend .mb-sm-0; }
+%mb-sm-5 { @extend .mb-sm-5; }
 %mb-md-0 { @extend .mb-md-0; }
 %mb-md-4 { @extend .mb-md-4; }
 %mb-md-5 { @extend .mb-md-5; }
@@ -120,6 +133,7 @@
 %py-2 { @extend .py-2; }
 %py-3 { @extend .py-3; }
 %py-4 { @extend .py-4; }
+%py-5 { @extend .py-5; }
 %py-md-5 { @extend .py-md-5; }
 
 %jumbotron { @extend .jumbotron; }
@@ -150,7 +164,10 @@
 
 %text-truncate { @extend .text-truncate; }
 %text-center { @extend .text-center; }
+%text-lg-center { @extend .text-lg-center; }
 %text-left { @extend .text-left; }
+%text-sm-left { @extend .text-sm-left; }
+%text-md-left { @extend .text-md-left; }
 %text-lg-left { @extend .text-lg-left; }
 %text-md-right { @extend .text-md-right; }
 %text-uppercase { @extend .text-uppercase; }

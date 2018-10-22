@@ -258,22 +258,10 @@ $footer-brand-height-sm-down: 50px;
 $footer-brand-width: 190px;
 $footer-brand-height: 60px;
 
-$footer-nav-link-color: $body-color;
-$footer-nav-link-hover-color: $brand-primary;
-$footer-nav-link-border: 1px dotted $footer-nav-link-color;
-$footer-nav-link-border-hover: 1px solid $footer-nav-link-hover-color;
-
-$footer-socials-link-color: $footer-nav-link-color;
-$footer-socials-link-hover-color: $footer-nav-link-hover-color;
-$footer-socials-link-border: none;
-$footer-socials-link-border-hover: none;
-
-$footer-nav-link-divider-color: $footer-nav-link-color;
-
-$btn-footer-color: $body-color;
-$btn-footer-bg: $white;
-$btn-footer-border: $btn-footer-color;
-$btn-footer-active-color: $brand-primary;
+$footer-link-color: $gray-light;
+$footer-link-hover-color: $brand-primary;
+$footer-link-border: none;
+$footer-link-border-hover: 1px solid $footer-link-hover-color;
 
 // Page CTA (subfooter)
 $page-cta-color: $white;
