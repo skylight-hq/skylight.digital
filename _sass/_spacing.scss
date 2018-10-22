@@ -67,6 +67,10 @@
     @include pr-5;
   }
 
+  %pt-md-5 {
+    @include pt-5;
+  }
+
   %py-md-6 {
     @include pt-6;
     @include pb-6;
