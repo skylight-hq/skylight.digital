@@ -78,10 +78,6 @@
 
 %page-main-base {
   @extend %text-center;
-
-  h2 {
-    @extend %font-weight-normal;
-  }
 }
 
 %page-block-header-base {
@@ -201,10 +197,6 @@
   p,
   ul {
     @extend %text-left;
-  }
-
-  h2 {
-    @extend %font-weight-bold;
   }
 }
 
