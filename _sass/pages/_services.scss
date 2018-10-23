@@ -48,7 +48,6 @@
   h3 {
     @extend %card-title;
     @extend %text-uppercase;
-    @extend %font-weight-normal;
     color: $brand-primary;
     font-size: $font-size-small;
   }
