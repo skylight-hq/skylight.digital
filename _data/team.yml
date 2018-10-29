@@ -45,15 +45,15 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
+  image: /img/people/thomas-jefferson.png
+  image_description: Sean Johnson
   position: Full Stack Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
     IBM. He's been programming since he was six years old, and specializes in
     software engineering, product management, and cloud computing.
   active: true
-  order: 80
+  order: 90
   socials:
     - name: Twitter
       link: https://twitter.com/BeLucid
@@ -90,7 +90,7 @@
     Robert builds robots, among other things, for public good. He specializes in software
     engineering, data science and engineering, engineering management, and agile practices.
   active: true
-  order: 50
+  order: 60
   socials:
     - name: Twitter
       link: https://twitter.com/RobertLeeRead
@@ -130,7 +130,7 @@
     various senior technology executive positions over his career. He specializes
     in software engineering, distributed and embedded systems engineering, data science
     and engineering, cloud computing, and engineering management.
-  active: true
+  active: false
   order: 90
   socials:
     - name: Twitter
@@ -163,7 +163,7 @@
     standards that power the internet, including IPv6 and 6LoWPAN. He specializes in Internet of Things,
     distributed and embedded systems engineering, networking technologies, and privacy and security.
   active: true
-  order: 70
+  order: 80
   socials:
     - name: Twitter
       link: https://twitter.com/GeoffCMulligan
@@ -262,7 +262,7 @@
     users. He specializes in accessibility, software engineering,
     frontend development, and cloud computing.
   active: true
-  order: 60
+  order: 70
   socials:
     - name: Twitter
       link: https://twitter.com/rbristow
@@ -309,3 +309,21 @@
       link: https://github.com/vz3
       link_description: Victor's GitHub Account
       fa_icon_name: github
+- name: aera-hoffman
+  fname: Aera
+  lname: Hoffman
+  full_name: Aera Hoffman
+  short_name: A. Hoffman
+  profile_path: /about/#aera-hoffman
+  image: /img/people/aera-hoffman.jpg
+  image_description: Photo of Aera Hoffman
+  position: User Researcher
+  bio: >
+    TBD
+  active: false
+  order: 50
+  socials:
+    - name: LinkedIn
+      link: TBD
+      link_description: Aera's LinkedIn Account
+      fa_icon_name: linkedin

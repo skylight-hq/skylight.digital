@@ -1,0 +1,6 @@
+{% assign employee = site.data.team | where: 'name', include.name | first %}
+{% if employee.active %}
+  <a href="{{employee.profile_path}}">{{employee.full_name}}</a>
+{% else %}
+  {{employee.full_name}}
+{% endif %}
