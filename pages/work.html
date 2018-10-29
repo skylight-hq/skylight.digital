@@ -19,7 +19,7 @@ redirect_from:
 %}
 
 <div class="our-work">
-  {% assign projects = site.projects | where: 'display', 'true' | sort: 'order' %} %}
+  {% assign projects = site.projects | where: 'display', 'true' | sort: 'order' %}
 
   {% include card_list.html
     collection = projects
