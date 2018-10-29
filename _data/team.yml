@@ -319,11 +319,18 @@
   image_description: Photo of Aera Hoffman
   position: User Researcher
   bio: >
-    TBD
-  active: false
+    Aera formerly served as a user research for the University of Maryland.
+    She's passionate about creating positive change through great user experiences,
+    and specializes in user interviews, analytics, usability testing, and information
+    architecture.
+  active: true
   order: 50
   socials:
     - name: LinkedIn
-      link: TBD
+      link: https://www.linkedin.com/in/hoffmaa/
       link_description: Aera's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://ahoffman.co/
+      link_description: Aera's Personal Website
+      fa_icon_name: home
