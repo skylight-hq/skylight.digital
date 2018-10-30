@@ -31,7 +31,7 @@
   </section>
 
   {% assign tag_filter = page.slug | replace: '_', ' ' %}
-  {% assign projects = site.projects | where: 'tags', tag_filter | sort: 'order' %}
+  {% assign projects = site.projects | where: 'tags', tag_filter | where: 'display', 'true' | sort: 'order' %}
 
   {% if projects.size > 0 %}
     <div class="image-block">
