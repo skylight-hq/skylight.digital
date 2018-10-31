@@ -23,7 +23,7 @@ One strong counter-argument that we have heard is that what is *not* needed is a
 
 Let us think about this argument in terms of numbers and IT economic behavior.
 
-Right now the federal government spends about <a href="http://www.gao.gov/products/GAO-16-696T" target="&#95;blank">$80B annually on IT</a>, with about 75% (or $60B) of that going toward operations & maintenance activities. That means about 25% (or $20B) is available for legacy modernizations now. That should plenty, particularly if cost-efficient methods such as agile are used, right?
+Right now the federal government spends about <a href="http://www.gao.gov/products/GAO-16-696T" target="&#95;blank">$80B annually on IT</a>, with about 75% (or $60B) of that going toward operations & maintenance activities. That means about 25% (or $20B) is available for legacy modernizations now. That should be plenty, particularly if cost-efficient methods such as agile are used, right?
 
 Looking at this from a macro perspective, the answer really depends on how much and how quickly that annual amount of $20B could pay down the decades' worth of accumulated "IT debt," which we are willing to guesstimate runs north of $200 billion.
 
