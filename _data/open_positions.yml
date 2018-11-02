@@ -8,15 +8,27 @@
   url: https://skylight.workable.com/jobs/819900
   location: Remote
   order: 10
-- title: Software Engineer (Ruby/Rails)
-  url: https://skylight.workable.com/jobs/828704
+- title: Data Engineer
+  url: https://skylight.workable.com/jobs/860144
   location: Remote
   order: 20
+- title: Frontend React Developer
+  url: https://skylight.workable.com/jobs/860149
+  location: Remote
+  order: 30
+- title: Node.js Developer
+  url: https://skylight.workable.com/j/7BBAEC86D7
+  location: Remote
+  order: 40
+- title: DevOps Engineer
+  url: https://skylight.workable.com/jobs/860161
+  location: Washington D.C.
+  order: 50
 - title: DevOps Consultant
   url: https://skylight.workable.com/jobs/831195
   location: Baltimore, MD
-  order: 30
+  order: 60
 - title: Administrative Assistant
   url: https://skylight.workable.com/jobs/827160
   location: Remote
-  order: 40
+  order: 70
