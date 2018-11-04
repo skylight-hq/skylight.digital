@@ -8,7 +8,7 @@
   image_description: Photo of Chris Cairns
   position: Digital Transformer
   bio: >
-    Chris served as a Presidential Innovation Fellow in 2013, and co-founded 18F
+    Chris served as a Presidential Innovation Fellow, and co-founded 18F
     and the Technology Transformation Service, both housed within the General Services
     Administration. He specializes in digital leadership and transformation, digital procurement,
     and product development and management.
@@ -53,7 +53,7 @@
     IBM. He's been programming since he was six years old, and specializes in
     software engineering, product management, and cloud computing.
   active: true
-  order: 90
+  order: 100
   socials:
     - name: Twitter
       link: https://twitter.com/BeLucid
@@ -85,12 +85,12 @@
   image_description: Photo of Robert Read
   position: Full Stack Engineer
   bio: >
-    Robert served as a Presidential Innovation Fellow in 2013 and co-founded 18F.
+    Robert served as a Presidential Innovation Fellow and co-founded 18F.
     He's been programming since he was 13 years old, and holds a PhD in computer science.
     Robert builds robots, among other things, for public good. He specializes in software
     engineering, data science and engineering, engineering management, and agile practices.
   active: true
-  order: 60
+  order: 80
   socials:
     - name: Twitter
       link: https://twitter.com/RobertLeeRead
@@ -126,12 +126,12 @@
   image_description: Photo of John Teeter
   position: Full Stack Engineer
   bio: >
-    John served as a Presidential Innovation Fellow in 2013, and has held
+    John served as a Presidential Innovation Fellow, and has held
     various senior technology executive positions over his career. He specializes
     in software engineering, distributed and embedded systems engineering, data science
     and engineering, cloud computing, and engineering management.
   active: false
-  order: 90
+  order: 1000
   socials:
     - name: Twitter
       link: https://twitter.com/NewEnergyShift
@@ -159,11 +159,12 @@
   image_description: Photo of Geoff Mulligan
   position: IoT Architect
   bio: >
-    Geoff served as a Presidential Innovation Fellow in 2013, and has developed
-    standards that power the internet, including IPv6 and 6LoWPAN. He specializes in Internet of Things,
-    distributed and embedded systems engineering, networking technologies, and privacy and security.
+    Geoff served as a Presidential Innovation Fellow, and has developed
+    standards that power the internet, including IPv6 and 6LoWPAN. He specializes
+    in Internet of Things, distributed and embedded systems engineering,
+    networking technologies, and privacy and security.
   active: true
-  order: 80
+  order: 120
   socials:
     - name: Twitter
       link: https://twitter.com/GeoffCMulligan
@@ -187,12 +188,13 @@
   image_description: Photo of Kin Lane
   position: API Architect
   bio: >
-    Kin served as a Presidential Innovation Fellow in 2013, and is a
-    world-recognized expert in Application Programming Interfaces. He specializes
-    in API architecture and design, software engineering, data science and engineering,
-    cloud computing, and enterprise software.
+    Kin served as a Presidential Innovation Fellow, and is a
+    world-recognized expert in APIs. Since 2010, he has written
+    over 3,000 articles and spoken at over 50 events on API-related topics.
+    Kin also specializes in software engineering, microservices, data science
+    and engineering, cloud computing, and enterprise software.
   active: true
-  order: 30
+  order: 40
   socials:
     - name: Twitter
       link: https://twitter.com/apievangelist
@@ -233,7 +235,7 @@
     He specializes in DevOps engineering, cloud computing,
     and user-focused software development.
   active: true
-  order: 40
+  order: 60
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/joshdorothy/
@@ -262,7 +264,7 @@
     users. He specializes in accessibility, software engineering,
     frontend development, and cloud computing.
   active: true
-  order: 70
+  order: 90
   socials:
     - name: Twitter
       link: https://twitter.com/rbristow
@@ -295,7 +297,7 @@
     projects, including data.gov, foia.gov, my.uscis.gov, and cloud.gov. He specializes
     in design leadership, service design, user experience design, and design research.
   active: true
-  order: 20
+  order: 30
   socials:
     - name: Twitter
       link: https://twitter.com/victorzapanta
@@ -309,6 +311,10 @@
       link: https://github.com/vz3
       link_description: Victor's GitHub Account
       fa_icon_name: github
+    - name: Personal Website
+      link: http://vz3.co/
+      link_description: Victor's Personal Website
+      fa_icon_name: home
 - name: aera-hoffman
   fname: Aera
   lname: Hoffman
@@ -317,13 +323,13 @@
   profile_path: /about/#aera-hoffman
   image: /img/people/aera-hoffman.jpg
   image_description: Photo of Aera Hoffman
-  position: User Researcher
+  position: UX Researcher
   bio: >
-    Aera formerly served as a user research for the University of Maryland.
+    Aera formerly served as a UX researcher for the University of Maryland.
     She's passionate about creating positive change through great user experiences,
     and specializes in user research and information architecture.
   active: true
-  order: 50
+  order: 110
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/hoffmaa/
@@ -333,3 +339,196 @@
       link: https://ahoffman.co/
       link_description: Aera's Personal Website
       fa_icon_name: home
+- name: emily-wright-moore
+  fname: Emily
+  lname: Wright-Moore
+  full_name: Emily Wright-Moore
+  short_name: E. Wright-Moore
+  profile_path: /about/#emily-wright-moore
+  image: /img/people/emily-wright-moore.jpg
+  image_description: Photo of Emily Wright-Moore
+  position: UX Designer
+  bio: >
+    Emily is a former member of the U.S. Digital Service, where she
+    co-founded the Veterans Affairs Digital Service and served as the
+    UX lead over vets.gov. She's also a former Code for America fellow.
+    She specializes in design leadership, service design, user experience
+    design, and design research.
+  active: false
+  order: 20
+  socials:
+    - name: Twitter
+      link: https://twitter.com/emilyville
+      link_description: Emily's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/emilyville/
+      link_description: Emily's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/emilyville
+      link_description: Emily's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: http://emilyville.com/
+      link_description: Emily's Personal Website
+      fa_icon_name: home
+- name: shashank-khandelwal
+  fname: Shashank
+  lname: Khandelwal
+  full_name: Shashank Khandelwal
+  short_name: S. Khandelwal
+  profile_path: /about/#shashank-khandelwal
+  image: /img/people/theodore-roosevelt.png
+  image_description: Photo of Shashank Khandelwal
+  position: Digital Transformer
+  bio: >
+    Shashank is a former member of 18F, where he held multiple leadership positions,
+    including Director of cloud.gov. He's also a former Consumer Financial Protection
+    Bureau design+tech fellow. Shashank specializes in digital leadership and transformation,
+    digital procurement, software engineering, and cloud computing.
+  active: true
+  order: 50
+  socials:
+    - name: Twitter
+      link: https://twitter.com/gazeti
+      link_description: Shashank's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/shashankkhandelwal/
+      link_description: Shashank's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/khandelwal
+      link_description: Shashank's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/shashank-khandelwal/
+      link_description: Shashank's Project Work
+      fa_icon_name: wrench
+- name: lesley-evans
+  fname: Lesley
+  lname: Evans
+  full_name: Lesley Evans
+  short_name: L. Evans
+  profile_path: /about/#lesley-evans
+  image: /img/people/lesley-evans.jpg
+  image_description: Photo of Lesley Evans
+  position: UX Researcher
+  bio: >
+    Lesley is a UX researcher, with a passion for creating delightful user experiences.
+    She specializes in a variety of qualitative and quantitative research techniques,
+    including user interviews, user modeling, usability testing, prototyping, and more.
+  active: true
+  order: 70
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lesley-evans-3b57b79b/
+      link_description: Lesley's LinkedIn Account
+      fa_icon_name: linkedin
+- name: tom-black
+  fname: Tom
+  lname: Black
+  full_name: Tom Black
+  short_name: T. Black
+  profile_path: /about/#tom-black
+  image: /img/people/tom-black.jpg
+  image_description: Photo of Tom Black
+  position: Full Stack Engineer
+  bio: >
+    Tom is a former Presidential Innovation Fellow and member of 18F.
+    His product and technical leadership spans multiple high-profile projects,
+    including the GI Bill Comparison Tool and login.gov. He specializes in
+    software engineering, product management, and identity management.
+  active: true
+  order: 140
+  socials:
+    - name: Twitter
+      link: https://twitter.com/blacktm
+      link_description: Tom's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/blacktm/
+      link_description: Tom's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/blacktm
+      link_description: Tom's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: http://www.blacktm.com/
+      link_description: Tom's Personal Website
+      fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/tom-black/
+      link_description: Tom's Project Work
+      fa_icon_name: wrench
+- name: andrew-wagner
+  fname: Andrew
+  lname: Wagner
+  full_name: Andrew Wagner
+  short_name: A. Wagner
+  profile_path: /about/#andrew-wagner
+  image: /img/people/george-washington.png
+  image_description: Photo of Andrew Wagner
+  position: Software Engineer
+  bio: >
+    Andrew is a polyglot software engineer, with a passion for delivering
+    technical excellence. He's worked in the govtech space his entire career,
+    and specializes in software engineering, DevOps, microservices, APIs, and
+    cloud computing.
+  active: true
+  order: 130
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/andrew-wagner-6675bb8/
+      link_description: Andrew's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/arwagner
+      link_description: Andrew's GitHub Account
+      fa_icon_name: github
+- name: jay-danielian
+  fname: Jay
+  lname: Danielian
+  full_name: Jay Danielian
+  short_name: J. Danielian
+  profile_path: /about/#jay-danielian
+  image: /img/people/abraham-lincoln.png
+  image_description: Photo of Jay Danielian
+  position: Software Engineer
+  bio: >
+    Jay is a polyglot software engineer, with a passion for tackling tough
+    technical challenges. He specializes in software engineering, APIs,
+    microservices, distributed search and analytics, and cloud computing.
+  active: true
+  order: 150
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jaydanielian/
+      link_description: Jay's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/jdanielian
+      link_description: Jay's GitHub Account
+      fa_icon_name: github
+- name: brandon-mader
+  fname: Brandon
+  lname: Mader
+  full_name: Brandon Mader
+  short_name: B. Mader
+  profile_path: /about/#brandon-mader
+  image: /img/people/brandon-mader.jpg
+  image_description: Photo of Brandon Mader
+  position: Data Science Engineer
+  bio: >
+    Brandon is a recent graduate of Dartmouth College, where he earned
+    a double major in Math and Computer Science. He's passionate about making
+    a positive difference through data science, engineering, and analytics.
+  active: true
+  order: 160
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brandon-mader-5447aaa4/
+      link_description: Brandon's LinkedIn Account
+      fa_icon_name: linkedin
