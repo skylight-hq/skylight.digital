@@ -10,8 +10,8 @@
   bio: >
     Chris served as a Presidential Innovation Fellow, and co-founded 18F
     and the Technology Transformation Service, both housed within the General Services
-    Administration. He specializes in digital leadership and transformation, digital procurement,
-    and product development and management.
+    Administration. He specializes in digital leadership and transformation,
+    digital procurement, and product development and management. Chris lives in Florida.
   active: true
   order: 10
   socials:
@@ -45,13 +45,14 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
-  image: /img/people/thomas-jefferson.png
+  image: /img/people/theodore-roosevelt.png
   image_description: Sean Johnson
   position: Full Stack Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
     IBM. He's been programming since he was six years old, and specializes in
-    software engineering, product management, and cloud computing.
+    software engineering, product management, and cloud computing. Sean lives in
+    North Carolina.
   active: true
   order: 100
   socials:
@@ -89,6 +90,7 @@
     He's been programming since he was 13 years old, and holds a PhD in computer science.
     Robert builds robots, among other things, for public good. He specializes in software
     engineering, data science and engineering, engineering management, and agile practices.
+    Robert lives in Texas.
   active: true
   order: 80
   socials:
@@ -129,7 +131,7 @@
     John served as a Presidential Innovation Fellow, and has held
     various senior technology executive positions over his career. He specializes
     in software engineering, distributed and embedded systems engineering, data science
-    and engineering, cloud computing, and engineering management.
+    and engineering, cloud computing, and engineering management. John lives in Idaho.
   active: false
   order: 1000
   socials:
@@ -162,7 +164,7 @@
     Geoff served as a Presidential Innovation Fellow, and has developed
     standards that power the internet, including IPv6 and 6LoWPAN. He specializes
     in Internet of Things, distributed and embedded systems engineering,
-    networking technologies, and privacy and security.
+    networking technologies, and privacy and security. Geoff resides in Colorado.
   active: true
   order: 120
   socials:
@@ -193,6 +195,7 @@
     over 3,000 articles and spoken at over 50 events on API-related topics.
     Kin also specializes in software engineering, microservices, data science
     and engineering, cloud computing, and enterprise software.
+    He lives in California.
   active: true
   order: 40
   socials:
@@ -233,7 +236,7 @@
     Josh is a former member of the U.S. Digital Service, with a
     passion for building both great platforms and great products.
     He specializes in DevOps engineering, cloud computing,
-    and user-focused software development.
+    and user-focused software development. Josh resides in Virginia.
   active: true
   order: 60
   socials:
@@ -262,7 +265,7 @@
     Nick is a former member of 18F, with a passion for creating
     products that are accessible and meet the needs of all
     users. He specializes in accessibility, software engineering,
-    frontend development, and cloud computing.
+    frontend development, and cloud computing. Nick resides in Virginia.
   active: true
   order: 90
   socials:
@@ -296,6 +299,7 @@
     and served as a member of 18F. His design leadership spans multiple high-profile
     projects, including data.gov, foia.gov, my.uscis.gov, and cloud.gov. He specializes
     in design leadership, service design, user experience design, and design research.
+    Victor resides in New York.
   active: true
   order: 30
   socials:
@@ -327,7 +331,8 @@
   bio: >
     Aera formerly served as a UX researcher for the University of Maryland.
     She's passionate about creating positive change through great user experiences,
-    and specializes in user research and information architecture.
+    and specializes in user research and information architecture. Aera lives in
+    Maryland.
   active: true
   order: 110
   socials:
@@ -353,7 +358,7 @@
     co-founded the Veterans Affairs Digital Service and served as the
     UX lead over vets.gov. She's also a former Code for America fellow.
     She specializes in design leadership, service design, user experience
-    design, and design research.
+    design, and design research. Emily lives in North Carolina.
   active: false
   order: 20
   socials:
@@ -386,7 +391,7 @@
     Shashank is a former member of 18F, where he held multiple leadership positions,
     including Director of cloud.gov. He's also a former Consumer Financial Protection
     Bureau design+tech fellow. Shashank specializes in digital leadership and transformation,
-    digital procurement, software engineering, and cloud computing.
+    digital procurement, software engineering, and cloud computing. He lives in Maryland.
   active: true
   order: 50
   socials:
@@ -419,6 +424,7 @@
     Lesley is a UX researcher, with a passion for creating delightful user experiences.
     She specializes in a variety of qualitative and quantitative research techniques,
     including user interviews, user modeling, usability testing, prototyping, and more.
+    Lesley lives in Colorado.
   active: true
   order: 70
   socials:
@@ -439,7 +445,8 @@
     Tom is a former Presidential Innovation Fellow and member of 18F.
     His product and technical leadership spans multiple high-profile projects,
     including the GI Bill Comparison Tool and login.gov. He specializes in
-    software engineering, product management, and identity management.
+    software engineering, product management, and identity management. Tom lives
+    in Oregon.
   active: true
   order: 140
   socials:
@@ -476,7 +483,7 @@
     Andrew is a polyglot software engineer, with a passion for delivering
     technical excellence. He's worked in the govtech space his entire career,
     and specializes in software engineering, DevOps, microservices, APIs, and
-    cloud computing.
+    cloud computing. Andrew lives in Virginia.
   active: true
   order: 130
   socials:
@@ -501,6 +508,7 @@
     Jay is a polyglot software engineer, with a passion for tackling tough
     technical challenges. He specializes in software engineering, APIs,
     microservices, distributed search and analytics, and cloud computing.
+    Jay resides in Maryland.
   active: true
   order: 150
   socials:
@@ -525,6 +533,7 @@
     Brandon is a recent graduate of Dartmouth College, where he earned
     a double major in Math and Computer Science. He's passionate about making
     a positive difference through data science, engineering, and analytics.
+    Brandon lives in Ohio.
   active: true
   order: 160
   socials:
