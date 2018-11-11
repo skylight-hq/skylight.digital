@@ -1,5 +1,27 @@
 .accordion-header{
+  h5{
+    display: flex;
+    align-items: all;
+    justify-content: space-between;
+    align-content: stretch;
+    border-bottom: none !important;
+  }
   border-bottom: none !important;
+  .accordion-icon-plus{
+      display: none;
+  }
+  .accordion-icon-minus{
+    display: flex;
+  }
+  .collapsed{
+    .accordion-icon-plus{
+      display: flex;
+    }
+    .accordion-icon-minus{
+      display: none;
+    }
+  }
+
 }
 
 .accordion-card{

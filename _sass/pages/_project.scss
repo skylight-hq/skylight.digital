@@ -42,7 +42,25 @@
 }
 
 .approach {
-  @extend %project-aside-base;
+  @extend %text-left;
+  h3,
+  ul {
+    font-size: $font-size-xx-small;
+  }
+
+  h3 {
+    @extend %text-uppercase;
+    @extend %mb-4;
+  }
+
+  ul {
+    @extend %mb-0;
+    @extend %list-item-unstyled;
+
+    li:not(:last-child) {
+      @extend %pb-3;
+    }
+  }
 }
 
 .approach-area-col {
@@ -66,7 +84,17 @@
 }
 
 .news-coverage {
-  @extend %project-aside-base;
+  ul {
+    font-size: $font-size-xx-small;
+  }
+  ul {
+    @extend %mb-0;
+    @extend %list-item-unstyled;
+
+    li:not(:last-child) {
+      @extend %pb-3;
+    }
+  }
 
   a {
     @include link-decoration($project-aside-link-color, $project-aside-link-hover-color,
