@@ -5,6 +5,10 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
 
+  {% if page.skip_index %}
+    <meta name="robots" content="noindex, follow">
+  {% endif %}
+
   {% assign site_url = site.url %}
   {% assign site_name = 'Skylight' %}
   {% assign site_title = site.title | xml_escape %}
