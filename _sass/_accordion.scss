@@ -1,0 +1,15 @@
+.accordion-header{
+  border-bottom: none !important;
+}
+
+.accordion-card{
+  margin-bottom: 16px;
+  border-radius: .25rem;
+  border: none;
+  padding: 10px;
+  box-shadow: -4px -4px 8px 0 rgba(0, 0, 0, 0.05), 4px -4px 8px 0 rgba(0, 0, 0, 0.05), -4px 4px 8px 0 rgba(0, 0, 0, 0.05), 4px 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.accordion-card-body{
+  padding: 20px;
+}
