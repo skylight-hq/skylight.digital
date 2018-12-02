@@ -28,7 +28,7 @@ Every case management system is different &mdash; but not *that* different. All 
 - **Information Architecture:** all fundamentally have an information architecture that is similar, which includes data elements such as cases, supporting evidence, dates, and relations to specific persons such as a suspect or complainant.
 - **Access Control:** most require some sort of access control as to whom is permitted to read or write the cases.
 - **Fields:** all require additional fields of data, but there are a limited number of types of such fields such as names, dates, currencies, free-form-text, and percentages.
-- **GUI:** most require some sort of user interface such as a Graphical User Interface.
+- **User Interface (UI):** most require some sort of user interface.
 - **Business Rules:** all require specific business rules such as "a pothole case is not closed until we have a photo of the repaired pothole or a signature from a supervisor."
 
 The Business Rules are in fact the aspect of a case management system that is most specific to that system. If we think about how much overlap there is between any two case management systems, no matter how wildly different their apparent purposes are, such as potholes and terror attacks, we can build a table estimating the general overlap in these systems:
@@ -38,7 +38,7 @@ The Business Rules are in fact the aspect of a case management system that is mo
 - Architecture: 90%
 - Access Control: 90%
 - Fields: 80%
-- GUI: 70%
+- UI: 70%
 - Business Rules: 15%
 
 ## Cooperation for agencies
@@ -73,7 +73,7 @@ Let us hypothetically assume that each of the seven areas of overlap above is ab
 | Architecture   | 14%      | 90%             | 12.6%                |
 | Access Control | 14%      | 90%             | 12.6%                |
 | Fields         | 14%      | 80%             | 11.2%                |
-| GUI            | 14%      | 70%             | 9.8%                 |
+| UI             | 14%      | 70%             | 9.8%                 |
 | Business Rules | 14%      | 15%             | 2.1%                 |
 | **Sum**        | **98%**  |                 | **76.3%**            |
 
