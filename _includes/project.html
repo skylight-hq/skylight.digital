@@ -1,112 +1,114 @@
-{% include page_header.html
-  header_class = 'page-header-2'
-  header_content_class = 'page-header-content-1'
-%}
-
-<div class="project-case-study">
+<article class="project-case-study">
   <div class="project-case-study-row">
-    <article class="project-case-study-col">
-      <h2 class="sr-only">Summary</h2>
-      {{include.summary}}
+    <div class="project-case-study-col">
+      <header class="project-case-study-header">
+        <h1 class="project-case-study-title-tag header-display-5">{{page.title_tag}}</h1>
+        <h1 class="project-case-study-title header-display-2">{{page.title}}</h1>
+      </header>
 
-      {% if page.feature_image %}
-        {% assign image = page.feature_image %}
-        {% assign image_description = page.feature_image_description %}
-        {% assign image_class = 'project-feature-image img-thumbnail' %}
-      {% else %}
-        {% assign image = page.image %}
-        {% assign image_description = page.image_description %}
-        {% assign image_class = 'project-feature-image' %}
-      {% endif %}
+      <div class="project-case-study-content">
+        <h2 class="sr-only">Summary</h2>
+        {{include.summary}}
 
-      <img class="{{image_class}}" src="{{image}}" alt="{{image_description}}">
+        {% if page.feature_image %}
+          {% assign image = page.feature_image %}
+          {% assign image_description = page.feature_image_description %}
+          {% assign image_class = 'project-feature-image img-thumbnail' %}
+        {% else %}
+          {% assign image = page.image %}
+          {% assign image_description = page.image_description %}
+          {% assign image_class = 'project-feature-image' %}
+        {% endif %}
 
-      <h2>The challenge</h2>
-      {{include.challenge}}
+        <img class="{{image_class}}" src="{{image}}" alt="{{image_description}}">
 
-      <h2>The solution</h2>
-      {{include.solution}}
+        <h2>The challenge</h2>
+        {{include.challenge}}
 
-      <aside class="approach">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="row">
+        <h2>The solution</h2>
+        {{include.solution}}
 
-              <div class="approach-area-col">
-                <div class="approach-area-card">
-                  <div class="approach-area-card-block">
-                    <h3>Team Members</h3>
-                    <ul>
-                      {% for member in page.project_members %}
-                        {% assign emp = site.data.team | where: 'name', member | first %}
-                        <li>
-                          {% if emp.active %}
-                            <a class="profile profile-link" href="{{emp.profile_path}}">
-                              <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                              <span>{{emp.short_name}}</span>
-                            </a>
-                          {% else %}
-                            <div class="profile">
-                              <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                              <span>{{emp.short_name}}</span>
-                            </div>
-                          {% endif %}
-                        </li>
-                      {% endfor %}
-                    </ul>
+        <aside class="approach">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+
+                <div class="approach-area-col">
+                  <div class="approach-area-card">
+                    <div class="approach-area-card-block">
+                      <h3>Team Members</h3>
+                      <ul>
+                        {% for member in page.project_members %}
+                          {% assign emp = site.data.team | where: 'name', member | first %}
+                          <li>
+                            {% if emp.active %}
+                              <a class="profile profile-link" href="{{emp.profile_path}}">
+                                <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                                <span>{{emp.short_name}}</span>
+                              </a>
+                            {% else %}
+                              <div class="profile">
+                                <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                                <span>{{emp.short_name}}</span>
+                              </div>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="approach-area-col">
-                <div class="approach-area-card">
-                  <div class="approach-area-card-block">
-                    <h3>Technology</h3>
-                    <ul>
-                      {% for tech in page.technologies %}
-                        <li>{{tech}}</li>
-                      {% endfor %}
-                    </ul>
+                <div class="approach-area-col">
+                  <div class="approach-area-card">
+                    <div class="approach-area-card-block">
+                      <h3>Technology</h3>
+                      <ul>
+                        {% for tech in page.technologies %}
+                          <li>{{tech}}</li>
+                        {% endfor %}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="approach-area-col">
-                <div class="approach-area-card">
-                  <div class="approach-area-card-block">
-                    <h3>Practices</h3>
-                    <ul>
-                      {% for practice in page.practices %}
-                        <li>{{practice}}</li>
-                      {% endfor %}
-                    </ul>
+                <div class="approach-area-col">
+                  <div class="approach-area-card">
+                    <div class="approach-area-card-block">
+                      <h3>Practices</h3>
+                      <ul>
+                        {% for practice in page.practices %}
+                          <li>{{practice}}</li>
+                        {% endfor %}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
 
+              </div>
             </div>
           </div>
-        </div>
-      </aside>
-
-      <h2>The results</h2>
-      {{include.results}}
-
-      {% if page.news_posts %}
-        <aside class="news-coverage">
-          <h3>News coverage</h3>
-          <ul>
-            {% for post in page.news_posts %}
-              <li>
-                <a href="{{post.url}}" target="_blank">{{post.title}}</a>
-              </li>
-            {% endfor %}
-          </ul>
         </aside>
-      {% endif %}
+
+        <h2>The results</h2>
+        {{include.results}}
+
+        {% if page.news_posts %}
+          <aside class="news-coverage">
+            <h3>News coverage</h3>
+            <ul>
+              {% for post in page.news_posts %}
+                <li>
+                  <a href="{{post.url}}" target="_blank">{{post.title}}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </aside>
+        {% endif %}
+      </div>
 
       {% if page.project_url or page.source_code_url %}
-        <div class="work-example-ctas">
+        <div class="project-case-study-footer">
           {% capture project_link_markup %}
             <a class="work-example-cta" href="{{page.project_url}}" role="button" target="_blank">See the site</a>
           {% endcapture %}
@@ -125,8 +127,8 @@
           {% endif %}
         </div>
       {% endif %}
-    </article>
+    </div>
   </div>
-</div>
+</article>
 
 {% include hire_us_cta.html %}
