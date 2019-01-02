@@ -6,6 +6,14 @@
   font-size: $header-display-2;
 }
 
+.header-display-4 {
+  font-size: $header-display-4;
+}
+
+.header-display-5 {
+  font-size: $header-display-5;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +47,14 @@ h1 {
   .header-display-2 {
     font-size: $header-display-2 * .60;
   }
+
+  .header-display-4 {
+    font-size: $header-display-4 * .75;
+  }
+
+  .header-display-5 {
+    font-size: $header-display-5 * .80;
+  }
 }
 
 @include media-breakpoint-between(sm, md) {
@@ -60,6 +76,14 @@ h1 {
 
   .header-display-2 {
     font-size: $header-display-2 * .80;
+  }
+
+  .header-display-4 {
+    font-size: $header-display-4 * .85;
+  }
+
+  .header-display-5 {
+    font-size: $header-display-5 * .90;
   }
 }
 

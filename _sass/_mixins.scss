@@ -159,8 +159,9 @@
 
 // Cards
 @mixin semantic-card($class-name, $clickable: true, $title-alignment: left,
-  $title-color: $brand-primary, $subtitle-color: $brand-primary-muted, $footer-border-off: true,
-  $footer-font-size: $font-size-small, $card-img-height: 225px) {
+  $title-color: $brand-primary, $subtitle-color: $brand-primary-muted,
+  $footer-border-off: true, $footer-font-size: $font-size-small,
+  $card-img-height: 225px) {
 
   $title-font-size: $font-size-x-large;
 
@@ -172,6 +173,10 @@
   $text-alignment: left;
 
   $footer-alignment: $title-alignment;
+
+  $tag-color: $gray-light;
+  $tag-font-size: $font-size-xx-small;
+  $tag-alignment: $title-alignment;
 
   .#{$class-name}-col {
     @extend %col-12;
@@ -207,6 +212,17 @@
 
   .#{$class-name}-block {
     @extend %card-block;
+  }
+
+  .#{$class-name}-title-tag {
+    @extend %mb-3;
+    @extend %text-uppercase;
+    @extend %font-weight-bold;
+    color: $tag-color;
+    font-size: $tag-font-size;
+    letter-spacing: 0.5px;
+    line-height: 1.25;
+    text-align: $tag-alignment;
   }
 
   .#{$class-name}-title {
