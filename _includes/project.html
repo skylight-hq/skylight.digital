@@ -99,7 +99,7 @@
             <ul>
               {% for post in page.news_posts %}
                 <li>
-                  <a href="{{post.url}}" target="_blank">{{post.title}}</a>
+                  <a href="{{post.url}}">{{post.title}}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -110,11 +110,11 @@
       {% if page.project_url or page.source_code_url %}
         <div class="project-case-study-footer">
           {% capture project_link_markup %}
-            <a class="work-example-cta" href="{{page.project_url}}" role="button" target="_blank">See the site</a>
+            <a class="work-example-cta" href="{{page.project_url}}" role="button">See the site</a>
           {% endcapture %}
 
           {% capture source_code_link_markup %}
-            <a class="work-example-cta" href="{{page.source_code_url}}" role="button" target="_blank">Read the code</a>
+            <a class="work-example-cta" href="{{page.source_code_url}}" role="button">Read the code</a>
           {% endcapture %}
 
           {% if page.project_url and page.source_code_url %}
