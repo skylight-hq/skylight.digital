@@ -22,7 +22,7 @@ Given this unique opportunity for reinvention, the question becomes: how should 
 
 - Assessing your present situation, including as-is capabilities, business and mission priorities, current measures of performance, and existing cultural characteristics.
 - Crafting a clear, compelling, aspirational vision for digital transformation that articulates what needs to change and why.
-- Defining a set of core values/principles (for example, "deliver joyful customer experiences" and "the strategy is delivery") that provides guidance to the organization on the new behaviors and mindsets needed in order to change the culture.
+- Defining a set of core values/principles (for example, "deliver joyful customer experiences" or "the strategy is delivery") that provides guidance to the organization on the new behaviors and mindsets needed in order to change the culture.
 - Formulating objectives (for example, "improve customer experience for transactional service X") and defining quantifiable outcomes (for example, "95% of online tasks completed successfully") for measuring success. <a href="https://library.gv.com/how-google-sets-goals-okrs-a1f69b0b72c7">Google's Objectives and Key Results</a> (OKRs) is great framework for measuring change.
 - Defining specific actions (or tactics) to achieve the Key Results, and cascading the OKRs and actions throughout the organization.
 Periodically assessing progress against the Key Results, and making data-influenced adjustments to the plan as deemed necessary.
