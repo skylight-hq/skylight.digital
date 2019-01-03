@@ -21,7 +21,7 @@ service_elements:
     order: 3
   - name: API Architecture
     description: >
-      Deliver a portfolio of APIs that are flexible, scalable, and secure. We'll show you how to establish an API architecture framework and management team for consistently crafting APIs, whether they are REST, GraphQL, Microservices, or even gRPC, across all of your API development teams.
+      Deliver a portfolio of APIs that are flexible, scalable, and secure. We'll show you how to establish an API architecture framework and management team for consistently crafting APIs, whether they're REST, GraphQL, Microservices, or even gRPC, across all of your API development teams.
     order: 4
   - name: API Design
     description: >
