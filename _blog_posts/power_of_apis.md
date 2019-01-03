@@ -97,7 +97,7 @@ As an exercise to the reader, think about how each of the practices listed below
 5. Force all applications to go through an approval process before being granted API keys.
 6. Provide a sandbox and test if applications can use data responsibly.
 7. Enforce encryption in storage as well as in transit.
-8. Employ 3-legged OAuth to govern platform, developer, and user engagement.
+8. Employ three-legged OAuth to govern platform, developer, and user engagement.
 9. Subject all applications to regular auditing and review of API usage.
 10. Validate request and response schema at API request time.
 

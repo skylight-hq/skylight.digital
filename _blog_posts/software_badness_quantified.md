@@ -41,7 +41,7 @@ What is really needed is a model of technical debt that would allow software eng
 
 We can of course judge a codebase by two active criteria: if people use it, it is valuable. If it is testable, it is somewhat sound, to the extent that our tests measure fitness. But we cannot examine a codebase and determine what the maintenance costs will be.
 
-Codebases tend to have <a href="https://18f.gsa.gov/2015/09/04/what-is-technical-debt/" target="&#95;blank">technical debt</a>. That is, they have problems that are not apparent at first use or inspection, which prevent the evolution of the codebase efficiently and increase the maintenance costs. I will take my hat off to anyone who can produce a good model of technical debt that is as useful as double-entry bookkeeping.
+Codebases tend to have <a href="https://18f.gsa.gov/2015/09/04/what-is-technical-debt/">technical debt</a>. That is, they have problems that are not apparent at first use or inspection, which prevent the evolution of the codebase efficiently and increase the maintenance costs. I will take my hat off to anyone who can produce a good model of technical debt that is as useful as double-entry bookkeeping.
 
 But in the meantime, I suggest this simple formula for measuring the "badness" of the a codebase: **B = L<sup>2.5</sup>**.
 
