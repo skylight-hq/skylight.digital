@@ -31,7 +31,7 @@ For most government organizations, bug bounty programs represent a new approach 
 
 ### Bootcamp
 
-Our Bug Bounty Bootcamp is a one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed. As part of this training, we dive deep into several different case studies (e.g., Google Security Reward Programs, DoD's Hack the Pentagon), survey and demo commercial bug bounty platforms, facilitate a collaborative workshop in which we launch a mock program, and assess whether your organization is ready for a bug bounty program. Our aim is to equip you with all the critical knowledge, tools, and templates that you need to move forward successfully.
+Our Bug Bounty Bootcamp is a one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed. As part of this training, we dive deep into several different case studies (for example, Google Security Reward Programs and DoD's Hack the Pentagon), survey and demo commercial bug bounty platforms, facilitate a collaborative workshop in which we launch a mock program, and assess whether your organization is ready for a bug bounty program. Our aim is to equip you with all the critical knowledge, tools, and templates that you need to move forward successfully.
 
 **The great thing about this Bootcamp is that it's scoped and priced within the federal government's <a href="https://www.acquisition.gov/far/html/Subpart%2013_2.html">micropurchase threshold</a>.**
 
@@ -39,20 +39,20 @@ Our Bug Bounty Bootcamp is a one-day event that instructs you and other stakehol
 
 Based on what your specific organizational needs and testing requirements are, we work with you to design and prepare for a successful bug bounty program. If this is your first one, we recommend starting out with a pilot program to test the waters. Some of the key activities at this stage include:
 
-- Assembling the bug bounty team who will support the program (e.g., engaging key stakeholders from across the organization, responding to bug reports, making awards, building relationships with the security research community), including the team's leader (e.g., Chief Information Security Officer) who will own and champion the program.
-- Setting the initial scope of the assessment. That is, what **digital assets** (e.g., 3&ndash;5 public-facing websites, all web services under a particular domain, a highly-sensitive system in pre-production) and **bug types** (e.g., XSS, SQL injection) you want &mdash; and don't want &mdash; researchers to focus on.
+- Assembling the bug bounty team who will support the program (for example, engaging key stakeholders from across the organization, responding to bug reports, making awards, building relationships with the security research community), including the team's leader (for example, Chief Information Security Officer) who will own and champion the program.
+- Setting the initial scope of the assessment. That is, what **digital assets** (for example, 3&ndash;5 public-facing websites, all web services under a particular domain, a highly-sensitive system in pre-production) and **bug types** (for example, XSS and SQL injection) you want &mdash; and don't want &mdash; researchers to focus on.
 - Determining what type of program you want to run. For example, it could be **private** (invite-only) or **public** (open to the collective intelligence of thousands) coupled with a **Vulnerability Disclosure Program** (open-door policy to anyone who wants to report a security flaw).
 - Calibrating the rewards structure based on your available budget.
 - Choosing and setting up a bug bounty platform &mdash; such as Bugcrowd or HackerOne &mdash; for receiving, organizing, analyzing, understanding, and offering rewards for vulnerability reports from third-party researchers. (We don't recommend trying to build-out and manage this infrastructure yourself.)
 - Priming your vulnerability management processes to handle the influx of new reports that will come and need to be triaged and remediated. This includes highlighting how triages are handled and designating remediation teams.
-- Crafting your policy/rules page. This page commonly contains your disclosure policy, rules of engagement, scope, service-level agreements (e.g., time to respond to a new report, time to bounty after validation), and other important information.
+- Crafting your policy/rules page. This page commonly contains your disclosure policy, rules of engagement, scope, service-level agreements (for example, time to respond to a new report and time to bounty after validation), and other important information.
 
 ### Launch
 
 Once you're fully prepared, we work with you to launch and iterate on your program. A few of the main activities include:
 
 - Receiving vulnerability reports from security researchers and coordinating the validation, prioritization, and remediation of those reported flaws within the target service-level agreements.
-- Adjusting elements of the program (e.g., policy/rules page, bounty amounts), if need be, to ensure researchers are hitting the right targets and reporting the types of bugs that you want to see.
+- Adjusting elements of the program (for example, policy/rules page and bounty amounts), if need be, to ensure researchers are hitting the right targets and reporting the types of bugs that you want to see.
 - Incentivizing more participation and increasing the volume of reports through such actions as increasing the scope, adding more hackers, and increasing the bounty amounts.
 
 ### Scaling & Improvement
@@ -61,7 +61,7 @@ Over the course of the launch stage, you'll gain valuable experience running bug
 
 - Scaling the program. This could mean increasing the scope to include more digital assets and types of bugs, opening it up to more hackers, increasing the bounty rewards, or any combo thereof. In doing so, you might need to iterate through the design & preparation and launch phases again.
 - Optimizing bug bounty and vulnerability management processes to handle a larger volume of reports.
-- Leveraging bug bounty data to perform an analysis of the root causes behind systemic issues (e.g., XSS keeps popping-up) with your existing security and software development practices. This is particularly useful for gaining insight into the performance of specific contractors.
+- Leveraging bug bounty data to perform an analysis of the root causes behind systemic issues (for example, XSS keeps popping-up) with your existing security and software development practices. This is particularly useful for gaining insight into the performance of specific contractors.
 
 ## Let's get secure!
 
