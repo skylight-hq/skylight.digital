@@ -15,7 +15,7 @@ authors:
 date_published: 2017-08-01
 date: 2017-08-01
 ---
-The post that follows is a preannouncement for an unsolicited proposal that we plan to make to the entire federal government. It will be an open unsolicited proposal.
+The post that follows is a preannouncement for an unsolicited proposal that we plan to make to the entire federal government. It'll be an open unsolicited proposal.
 
 Generally such a proposal wouldn't be made public, but we're doing so specifically to spark conversation about how the government can better acquire some kinds of digital and technology services support. But it isn't pure activism &mdash; we'd like to earn the business. We are also trying to nudge the government into the gig economy.
 
