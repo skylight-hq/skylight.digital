@@ -24,7 +24,7 @@ The past, present, and future of 18F's Agile Delivery Services Marketplace is a 
 <cite><strong>Dan Levenson,</strong> Former CMS Digital Service Contracting Advisor and Lead Contracting Officer for the Quality Payment Program</cite>
 </blockquote>
 
- Over the past few years, I've had time to reflect on my own personal experience running a tech challenge. I've also had the opportunity to observe and participate in several others. Given the increasing use of tech challenges in government procurements (for example, [Department of Homeland Security's Flexible Agile Support for the Homeland](https://medium.com/@EricHysen/lessons-learned-from-the-governments-biggest-attempt-to-fix-tech-procurement-bd2265421211) and [State of California's Agile Development Prequalified Vendor Pool](https://github.com/CDTProcurement/adpq)), I'd like to share my thoughts on what we, as a community, can do to make even better use of them.
+ Over the past few years, I've had time to reflect on my own personal experience running a tech challenge. I've also had the opportunity to observe and participate in several others. Given the increasing use of tech challenges in government procurements (for example, the [Department of Homeland Security's Flexible Agile Support for the Homeland](https://medium.com/@EricHysen/lessons-learned-from-the-governments-biggest-attempt-to-fix-tech-procurement-bd2265421211) and the [State of California's Agile Development Prequalified Vendor Pool](https://github.com/CDTProcurement/adpq)), I'd like to share my thoughts on what we, as a community, can do to make even better use of them.
 
 ## Understand the underlying principle at work
 
