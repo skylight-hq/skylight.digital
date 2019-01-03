@@ -17,7 +17,7 @@ date: 2017-06-14
 ---
 Fundamentally, government is about getting things done and getting things done requires keeping track of problems. In government, these problems are often called cases. A case could be a pothole, a criminal investigation, a water leak, a disability claim, or an industrial accident. No matter the precise situation, the citizens demand accountability and efficiency demands organized record keeping. It is not surprising, therefore, in the information age that most governments require computer-based *case management systems*.
 
-We have personally been in contact with case management systems for the Social Security Administration, the Department of Labor, and tangentially the <a href="https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/" target="&#95;blank">California Child Welfare System program</a>.
+We have personally been in contact with case management systems for the Social Security Administration, the Department of Labor, and tangentially the <a href="https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/">California Child Welfare System program</a>.
 
 ## Recognizing overlap
 
@@ -79,7 +79,7 @@ Let us hypothetically assume that each of the seven areas of overlap above is ab
 
 In other words, your system could well have 76% commonality with any given other case management system. Although this is just a model and must be taken with a grain of salt, the basis of all computer science is finding commonalities which can be abstracted away to simplify a problem. We can name many such examples of existing tools that have been identified and abstracted to produce common, reusable tools, in what Simon Wardley has identified as "commoditization."
 
-These components could be drawn on a 3-layer business diagram:
+These components could be drawn on a three-layer business diagram:
 
 ![A 3-layer diagram of a case management system.](/img/blog/case_management/case-management-system-diagram.png)
 
@@ -107,7 +107,7 @@ The first substantive objection is this: We are making something more useful, so
 
 You are wise to raise such an objection; after all, it is harder to make two sandwiches than to make one. However, we must also understand that we are not making sandwiches. In fact, we are not dealing with scarce resources at all. The code is infinitely replicable; replicating it has a marginal cost of zero. The time and energy to write the code is indeed a scarce resource, but we are specifically attempting to leverage that as highly as possible by sharing it as much as possible.
 
-We believe rather than being like sandwich-making, this is more like invention, and the Inventor's Paradox applies. To quote the <a href="https://en.wikipedia.org/wiki/Inventor%27s_paradox" target="&#95;blank">Wikipedia article</a>:
+We believe rather than being like sandwich-making, this is more like invention, and the Inventor's Paradox applies. To quote the <a href="https://en.wikipedia.org/wiki/Inventor%27s_paradox">Wikipedia article</a>:
 
 <blockquote cite="https://en.wikipedia.org/wiki/Inventor%27s_paradox">
 <p>"The <strong>inventor's paradox</strong> is a phenomenon that occurs in seeking a solution to a given problem. Instead of solving a specific type of problem, which would seem intuitively easier, it can be easier to solve a more general problem, which covers the specifics of the sought after solution. The <em>inventor's paradox</em> has been used to describe phenomena in mathematics, programming, and logic, as well as other areas that involve critical thinking."</p>
@@ -123,7 +123,7 @@ So we can imagine that you are sitting at a table with Jane on your right and Ja
 
 In other words, it is economically more efficient to cooperate on code reuse before the purchase than to allow the vendor to arrange for haphazard code reuse after the purchase. Vendors who support this cooperation, whether with an "invisible hand" or open source or through social interaction with other agencies and vendors should be rewarded.
 
-You will also occasionally hear the specious argument that has been called "security through obscurity." Someone will likely say that it will be easier to hack your system if the code is kept a secret. Debunking this hooey is beyond the scope of this article. We refer you to <a href="https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/" target="&#95;blank">"How to use more open source in your next federal IT acquisition"</a> for a related discussion.
+You will also occasionally hear the specious argument that has been called "security through obscurity." Someone will likely say that it will be easier to hack your system if the code is kept a secret. Debunking this hooey is beyond the scope of this article. We refer you to <a href="https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/">"How to use more open source in your next federal IT acquisition"</a> for a related discussion.
 
 In addition to greater economic efficiency, demanding an open, freely reusable source code has other benefits. It naturally forces a separation or *modularization* of your business rules from the rest of the system. This is precisely what you want, because your business rules may be subject to change from a regulatory or legislative body. If your business rules are in a separate module clearly separate from other features of your complete system, it is unlikely that a business rule change will force you to rewrite more than just your own business rule module.
 

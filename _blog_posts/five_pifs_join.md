@@ -14,18 +14,18 @@ authors:
 date_published: 2017-06-27
 date: 2017-06-27
 ---
-Today, I'm happy to announce that five former <a href="https://presidentialinnovationfellows.gov/" target="&#95;blank">Presidential Innovation Fellows</a> (PIFs) and <a href="https://18f.gsa.gov/" target="&#95;blank">18F</a> co-founders have joined Skylight &mdash; Chris Cairns, Robert Read, Geoff Mulligan, John Teeter, and Kin Lane.
+Today, I'm happy to announce that five former <a href="https://presidentialinnovationfellows.gov/">Presidential Innovation Fellows</a> (PIFs) and <a href="https://18f.gsa.gov/">18F</a> co-founders have joined Skylight &mdash; Chris Cairns, Robert Read, Geoff Mulligan, John Teeter, and Kin Lane.
 
 As a [certified HUBZone](/about/#hubzone), Skylight's mission is to make government work in a digital world using design, technology, and procurement.
 
 Chris, Robert, Geoff, John, and Kin each bring a rare combination of institutional knowledge, technical expertise, and leadership experience to the Skylight team that will advance our mission in new and exciting ways. Just as importantly, each one embodies the spirit of the digital
-government movement that's led to the creation of organizations such as 18F and the <a href="https://www.usds.gov/" target="&#95;blank">U.S. Digital Service</a>.
+government movement that's led to the creation of organizations such as 18F and the <a href="https://www.usds.gov/">U.S. Digital Service</a>.
 
-Chris served as a Presidential Innovation Fellow in 2013, and co-founded 18F and the <a href="https://www.gsa.gov/portal/category/25729" target="&#95;blank">Technology Transformation Service</a> (TTS), both housed within the General Services Administration. He specializes in digital leadership and transformation, digital procurement, and product development and management.
+Chris served as a Presidential Innovation Fellow in 2013, and co-founded 18F and the <a href="https://www.gsa.gov/portal/category/25729">Technology Transformation Service</a> (TTS), both housed within the General Services Administration. He specializes in digital leadership and transformation, digital procurement, and product development and management.
 
 Robert served as a Presidential Innovation Fellow in 2013 and co-founded 18F. He holds a PhD in computer science, and specializes in software engineering, data science and engineering, engineering management, and agile practices.
 
-Both Chris and Robert started and built 18F's acquisition arm (now within TTS), including its core services such as [Agile Acquisition Consulting](/work/agile-acquisition-framework/), [Agile Delivery Services Marketplace](/work/agile-delivery-services-marketplace/), <a href="https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/" target="&#95;blank">RFP Ghostwriting</a>, <a href="https://micropurchase.18f.gov/" target="&#95;blank">Micro-purchase Marketplace</a>, and [Digital Acquisition Accelerator](/work/digital-acquisition-accelerator/).
+Both Chris and Robert started and built 18F's acquisition arm (now within TTS), including its core services such as [Agile Acquisition Consulting](/work/agile-acquisition-framework/), [Agile Delivery Services Marketplace](/work/agile-delivery-services-marketplace/), <a href="https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/">RFP Ghostwriting</a>, <a href="https://micropurchase.18f.gov/">Micro-purchase Marketplace</a>, and [Digital Acquisition Accelerator](/work/digital-acquisition-accelerator/).
 
 Geoff served as a Presidential Innovation Fellow in 2013, and has developed standards that power the internet, including IPv6. He specializes in Internet of Things, distributed and embedded systems engineering, networking technologies, and security.
 

@@ -29,17 +29,17 @@ Here is an attempt to storyboard this:
 
 ![Storyboard illustrating one potential use case for a microconsulting services marketplace platform.](/img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace-platform-storyboard.jpg)
 
-We have been gratified by the positive reaction to our [Microconsulting Services announcement](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/). In particular, we accord with Harvard professor Dr. Steve Kelman's <a href="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx" target="&#95;blank">piece</a> on the disruptive implications of such small-scoped services, who writes:
+We have been gratified by the positive reaction to our [Microconsulting Services announcement](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/). In particular, we accord with Harvard professor Dr. Steve Kelman's <a href="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">piece</a> on the disruptive implications of such small-scoped services, who writes:
 
 <blockquote cite="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">
 <p>"If microconsulting can gain traction, this could become a disruptive innovation that forces legacy contractors to change their consulting scoping models."</p>
 </blockquote>
 
-Indeed. We want to hasten that. Already, we are starting to see more and more parallel trends toward the acquisition of bite-sized professional services facilitated via digital marketplace platforms. For example, 18F's <a href="https://micropurchase.18f.gov/" target="&#95;blank">micropurchase platform</a> can be used to procure open-source-code contributions from vendors under the federal micropurchase threshold.
+Indeed. We want to hasten that. Already, we are starting to see more and more parallel trends toward the acquisition of bite-sized professional services facilitated via digital marketplace platforms. For example, 18F's <a href="https://micropurchase.18f.gov/">micropurchase platform</a> can be used to procure open-source-code contributions from vendors under the federal micropurchase threshold.
 
 ![Screenshot of 18F's micropurchase platform.](/img/blog/microconsulting_unsolicited_proposal/18f-micropurchase-platform-screenshot.jpg)
 
-In addition, <a href="https://www.codementor.io/" target="&#95;blank">Codementor</a>, which is a new startup, can be used to obtain programming advice and mentoring in 15-minute, paid increments.
+In addition, <a href="https://www.codementor.io/">Codementor</a>, which is a new startup, can be used to obtain programming advice and mentoring in 15-minute, paid increments.
 
 ![Screenshot of Codementor.](/img/blog/microconsulting_unsolicited_proposal/codementor-screenshot.jpg)
 
@@ -57,7 +57,7 @@ Ideally, this would not be based on personal relationships, but would be a free 
 
 Currently, the government is not actively looking in the marketplace for such an idea to be tested and developed. So what is a federal contractor to do in this situation? How can we, as the federal contracting community, help push government forward with a potentially promising innovation, even if it is not currently being asked for?
 
-It turns out there is such a mechanism in the ever-flexible FAR: <a href="https://www.acquisition.gov/far/current/html/Subpart%2015_6.html#wp1104869" target="&#95;blank">Subpart 15.6 &mdash; Unsolicited Proposals</a>. Unfortunately, like many other permitted practices under the FAR, such as [share-in-savings contracting](/blog/reactions-to-our-agile-share-in-savings-model/), unsolicited proposals are an underutilized yet powerful procurement practice, as Jonathan Mostowski of the U.S. Digital Service indicated in a <a href="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/" target="&#95;blank">LinkedIn post</a>:
+It turns out there is such a mechanism in the ever-flexible FAR: <a href="https://www.acquisition.gov/far/current/html/Subpart%2015_6.html#wp1104869">Subpart 15.6 &mdash; Unsolicited Proposals</a>. Unfortunately, like many other permitted practices under the FAR, such as [share-in-savings contracting](/blog/reactions-to-our-agile-share-in-savings-model/), unsolicited proposals are an underutilized yet powerful procurement practice, as Jonathan Mostowski of the U.S. Digital Service indicated in a <a href="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">LinkedIn post</a>:
 
 <blockquote cite="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">
 <p>"The Federal Government needs to improve they way it deals with unsolicited proposals. Most agencies have a process but I have not come across one that worked well.</p>

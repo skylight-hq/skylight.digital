@@ -15,7 +15,7 @@ date_published: 2018-03-09
 date: 2018-03-09
 ---
 
-*[Josh Dorothy](/about/#josh-dorothy) joined Skylight in January of 2018. He's a lawyer turned software engineer who has spent the last several years immersed in (and evangelizing for) infrastructure as code and DevOps in general. He previously served with the <a href="https://www.usds.gov/" target="&#95;blank">U.S. Digital Service</a>, helping the federal government solve its most difficult technical problems and improve the way it delivers digital services to the American public (and sometimes the world!).*
+*[Josh Dorothy](/about/#josh-dorothy) joined Skylight in January of 2018. He's a lawyer turned software engineer who has spent the last several years immersed in (and evangelizing for) infrastructure as code and DevOps in general. He previously served with the <a href="https://www.usds.gov/">U.S. Digital Service</a>, helping the federal government solve its most difficult technical problems and improve the way it delivers digital services to the American public (and sometimes the world!).*
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
@@ -25,7 +25,7 @@ My time with USDS fundamentally changed the way that I saw the world and my role
 
 **Chris Cairns: How did you find out about Skylight?**
 
-**Josh Dorothy:** It was pretty fortuitous, actually. You had added me on LinkedIn, which is, of course, how all great friendships start. Your previous organization (<a href="https://18f.gsa.gov/" target="&#95;blank">18F</a>) and USDS have a very close working relationship and the community tends to be a small world. But as I started contemplating my next move and how I could continue my work longer-term, your posts started jumping out at me. It sounded like you were trying to build what I wanted to build, and so I reached out in order to hear more about Skylight and what it hoped to accomplish.
+**Josh Dorothy:** It was pretty fortuitous, actually. You had added me on LinkedIn, which is, of course, how all great friendships start. Your previous organization (<a href="https://18f.gsa.gov/">18F</a>) and USDS have a very close working relationship and the community tends to be a small world. But as I started contemplating my next move and how I could continue my work longer-term, your posts started jumping out at me. It sounded like you were trying to build what I wanted to build, and so I reached out in order to hear more about Skylight and what it hoped to accomplish.
 
 **Chris Cairns: Why did you decide to join?**
 
