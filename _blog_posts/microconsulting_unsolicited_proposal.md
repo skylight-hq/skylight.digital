@@ -4,7 +4,7 @@ title: Unsolicited proposal for a microconsulting services marketplace platform
 permalink: /blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
 content_type: BlogPosting
 image: /img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace.png
-image_description: An abstract image of a marketplace for microconsulting services.
+image_description: An illustration of a marketplace for microconsulting services.
 image_display: true
 order: 800
 tags: [microconsulting, digital procurement, digital services delivery, robert read, chris cairns]
