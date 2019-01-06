@@ -5,7 +5,7 @@ permalink: /services/microconsulting/apis/
 excerpt: Our API expertise delivered in bite-sized, high-impact chunks.
 image: /img/api-microconsulting.png
 image_description: An arm showing a flexed muscle enclosed within API computing symbols.
-tags: [apis, microconsulting, api microconsulting]
+tags: [api microconsulting, apis, microconsulting]
 service_elements:
   - name: Introduction to API<span class="text-lowercase">s</span>
     description: >
