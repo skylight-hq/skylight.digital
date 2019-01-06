@@ -11,7 +11,7 @@ layout: default
   {% assign items = site.projects | where: 'tags', tag_filter | sort: 'order' %}
   {% assign header = 'Work Search Results' %}
 {% else %}
-  {% assign items = (site.blog_posts | where: 'tags', tag_filter | sort: 'date_published') | reverse %}
+  {% assign items = site.blog_posts | where: 'tags', tag_filter | sort: 'date_published' | reverse %}
   {% assign header = 'Blog Search Results' %}
 {% endif %}
 
