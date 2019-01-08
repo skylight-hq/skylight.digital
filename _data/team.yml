@@ -285,6 +285,10 @@
       link: /blog/author/nick-bristow/
       link_description: Nick's Blog Posts
       fa_icon_name: pencil
+    - name: Projects
+      link: /work/team-member/nick-bristow/
+      link_description: Nick's Project Work
+      fa_icon_name: wrench
 - name: victor-zapanta
   fname: Victor
   lname: Zapanta
@@ -319,6 +323,10 @@
       link: http://vz3.co/
       link_description: Victor's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/victor-zapanta/
+      link_description: Victor's Project Work
+      fa_icon_name: wrench
 - name: aera-hoffman
   fname: Aera
   lname: Hoffman
@@ -344,6 +352,10 @@
       link: https://ahoffman.co/
       link_description: Aera's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/aera-hoffman/
+      link_description: Aera's Project Work
+      fa_icon_name: wrench
 - name: emily-wright-moore
   fname: Emily
   lname: Wright-Moore
