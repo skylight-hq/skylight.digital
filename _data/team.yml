@@ -532,6 +532,10 @@
       link: https://github.com/jdanielian
       link_description: Jay's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/jay-danielian/
+      link_description: Jay's Project Work
+      fa_icon_name: wrench
 - name: brandon-mader
   fname: Brandon
   lname: Mader
