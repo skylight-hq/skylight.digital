@@ -252,6 +252,10 @@
       link: /blog/author/josh-dorothy/
       link_description: Josh's Blog Posts
       fa_icon_name: pencil
+    - name: Projects
+      link: /work/team-member/josh-dorothy/
+      link_description: Josh's Project Work
+      fa_icon_name: wrench
 - name: nick-bristow
   fname: Nick
   lname: Bristow
