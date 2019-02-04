@@ -18,6 +18,6 @@ The Skylight logo is trademarked, and your use of it must comply with intellectu
 
 ## Future changes
 
-If we decide to change this policy, we will update the modification date below.
+If we decide to change this policy, we'll update the modification date below.
 
 <em>Updated: April 4, 2017</em>

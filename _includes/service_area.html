@@ -30,7 +30,7 @@
     </div>
   </section>
 
-  {% assign tag_filter = page.slug | replace: '_', ' ' %}
+  {% assign tag_filter = page.tags[0] %}
   {% assign projects = site.projects | where: 'tags', tag_filter | where: 'display', 'true' | sort: 'order' %}
 
   {% if projects.size > 0 %}

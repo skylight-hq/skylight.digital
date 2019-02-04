@@ -33,7 +33,7 @@ An analogy may be taken from the handling of rare manuscripts. A curator may cho
 
 Analogously, if you offer access to your data through a website, a human being may be able to access any individual datum conveniently. However, many other uses of the data that can be accomplished programmatically can't be accomplished through a website &mdash; or at least not easily.
 
-A website is a natural lowest common denominator, and likewise seems egalitarian. Because 95% of your customers don't have the skills to directly use an API, we can't conclude that those 95% will not benefit from API-based access being given to the remaining 5%. In fact, the 5% that can use the API may offer new and unexpected ways of using the data to the other 95%. As I have argued [elsewhere](https://thepolicy.us/the-minimum-government-responsibility-api-first-24cf67b9ec73), offering an API is in a sense the first duty of government, because it gives people the freedom to do all other things.
+A website is a natural lowest common denominator, and likewise seems egalitarian. Because 95% of your customers don't have the skills to directly use an API, we can't conclude that those 95% won't benefit from API-based access being given to the remaining 5%. In fact, the 5% that can use the API may offer new and unexpected ways of using the data to the other 95%. As I've argued [elsewhere](https://thepolicy.us/the-minimum-government-responsibility-api-first-24cf67b9ec73), offering an API is in a sense the first duty of government, because it gives people the freedom to do all other things.
 
 ## An example of balancing freedom and power
 
@@ -69,7 +69,7 @@ However, APIs allow us to break this general relationship between risk and utili
 
 ![Diagram showing relationship between risk and utility with an API.](/img/blog/power_of_apis/risk-utility-graph-with-api.png)
 
-With an API, you can have a solution, such as the example "Compiled Query Menu" that's high utility and low risk. Such an API offers a set of vetted, pre-defined queries, which are guaranteed to run efficiently &mdash; and perhaps documented &mdash; to ensure validity and inform their interpretation. This is not possible without an API, because there's no solution that offers that much utility without being too free and giving up too much control.
+With an API, you can have a solution, such as the example "Compiled Query Menu" that's high utility and low risk. Such an API offers a set of vetted, pre-defined queries, which are guaranteed to run efficiently &mdash; and perhaps documented &mdash; to ensure validity and inform their interpretation. This isn't possible without an API, because there's no solution that offers that much utility without being too free and giving up too much control.
 
 Loosely inspired by Simon Wardley's "[map](http://blog.gardeviance.org/2015/02/an-introduction-to-wardley-value-chain.html)" concept, we can analyze solutions on this two dimensional risk vs. utility diagram. Any proposed solution has a certain risk and a certain utility.  Our goal, of course, is to seek high utility, low risk, and low authority. The figure "With an API" above shows two examples of this. One is access by a "naked" SQL query &mdash; that is, an API could allow arbitrary SQL to be executed on behalf of the user (presumably against a read-only database). This is generally a bad idea. It has a lot of risk that computer resources will be tied-up answering inefficient queries. Moreover, it doesn't offer the highest utility, because the user has to figure out how to write queries themselves, which may be quite burdensome and subject to unexpected change.
 
@@ -97,7 +97,7 @@ As an exercise to the reader, think about how each of the practices listed below
 5. Force all applications to go through an approval process before being granted API keys.
 6. Provide a sandbox and test if applications can use data responsibly.
 7. Enforce encryption in storage as well as in transit.
-8. Employ 3-legged OAuth to govern platform, developer, and user engagement.
+8. Employ three-legged OAuth to govern platform, developer, and user engagement.
 9. Subject all applications to regular auditing and review of API usage.
 10. Validate request and response schema at API request time.
 

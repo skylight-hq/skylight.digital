@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Legacy System Modernization at the DOL
-subtitle: De-risking the complexities of modernizing an aging system.
+title_tag: Department of Labor
+title: De-risking a legacy system modernization
 permalink: /work/dol-legacy-system-modernization/
 image: /img/projects/dol_legacy_system_modernization/old-mainframe.png
 image_description: Illustration of an old mainframe system.
 feature_image:
 feature_image_description:
-order: 70
+order: 80
 display: true
 tags: [digital services delivery, robert read, chris cairns]
 excerpt: Using code forensics and modern API practices to dramatically de-risk the modernization of a legacy system at the Department of Labor.
@@ -15,7 +15,8 @@ project_members:
   - robert-read
   - chris-cairns
 technologies:
-  - HTML5 / CSS3
+  - HTML / CSS
+  - JavaScript
   - Twitter Bootstrap
   - Python
   - APIs
@@ -25,45 +26,51 @@ technologies:
   - Puppet
   - Automated testing frameworks
   - Amazon Web Services
+  - Git / GitHub
 practices:
   - Spike solutions
   - Rapid prototyping
   - API encapsulation
   - Automated testing
+  - Artifical data
   - Programmatic deployment scripts
   - Cloud hosting
   - Virtual collaboration
 news_posts:
 project_url:
+project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
   <p>
-    A Department of Labor (DOL) legacy system with a desktop-only graphical user
-    interface (GUI) needed a web-based GUI. By careful inspection of the code and
-    experimentation, a deep "spike" solution was created that allows a small fraction
-    of the system to be implemented with a web-based system utilizing in-situ business
-    rules and stored procedures. This spike is the basis of planned broadening to provide
-    a practical means of rewriting the entire legacy system, thus de-risking the whole project.
+    The Wage and Hour Division (WHD) at the Department of Labor (DOL) has been
+    relying on an aging system, called Wage Hour Investigative Support
+    and Reporting Database (WHISARD), to support its labor law enforcement activities.
+    The entire system needs modernized, which includes replacing the existing
+    desktop-only user interface (UI) with a new web-based UI. By careful inspection
+    of the code and experimentation, we created a deep "spike" solution that allows a small
+    fraction of the system to be implemented with a web-based system using in-situ business
+    rules and stored procedures. This spike served as a basis for planning the entire
+    rewrite of WHISARD, thus de-risking the whole project.
   </p>
 {% endcapture %}
 
 {% capture challenge %}
   <p>
-    The existing technology was ancient and nearly undocumented. In order to have a
-    functioning spike, a complete and valid environment would have to be duplicated.
-    Because the data was potentially subject to litigation and sensitive, we would have
-    to work entirely with artificially created data.
+    The existing technology behind WHISARD was ancient and nearly undocumented. In order to
+    have a functioning spike, a complete and valid environment would have to be duplicated.
+    Because the data was sensitive and potentially subject to litigation, we'd have
+    to work entirely with artificially-created data.
   </p>
 {% endcapture %}
 
 {% capture solution %}
   <p>
-    After installing a DB2 instance and extensive study of the stored procedures,
-    we were able to interface to the database with a simple Python program that
-    implemented a web service interface, thus allowing a simple but possibility-expanding,
-    browser-based demo.
+    After setting up a DB2 instance with artifical data and extensive study
+    of the stored procedures, we were able to interface to the database with a
+    simple Python program that implemented a web service interface. This allowed
+    a simple but possibility-expanding, browser-based demo.
   </p>
 {% endcapture %}
 
