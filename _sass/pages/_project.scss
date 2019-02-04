@@ -1,6 +1,6 @@
 .project-case-study {
-  @extend %page-main-base;
   @include container-fluid-base;
+  @include mt-7;
 }
 
 .project-case-study-row {
@@ -8,7 +8,26 @@
 }
 
 .project-case-study-col {
-  @extend %narrative-col;
+  @extend %text-heavy-col-base;
+}
+
+.project-case-study-header {
+  @extend %text-center;
+  @include mb-6;
+}
+
+.project-case-study-title-tag {
+  @extend %text-uppercase;
+  color: $gray-light;
+  letter-spacing: 0.5px;
+}
+
+.project-case-study-title {
+  @extend %mt-4;
+}
+
+.project-case-study-content {
+  @extend %narrative-base;
 
   .project-feature-image {
     @extend %mb-0;
@@ -29,6 +48,7 @@
   h3 {
     @extend %text-uppercase;
     @extend %mb-4;
+    color: $gray-light;
   }
 
   ul {
@@ -124,7 +144,8 @@
   }
 }
 
-.work-example-ctas {
+.project-case-study-footer {
+  @extend %text-center;
   @extend %mt-5;
 
   .work-example-cta-wrapper {

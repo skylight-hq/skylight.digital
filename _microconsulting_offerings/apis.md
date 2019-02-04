@@ -5,7 +5,7 @@ permalink: /services/microconsulting/apis/
 excerpt: Our API expertise delivered in bite-sized, high-impact chunks.
 image: /img/api-microconsulting.png
 image_description: An arm showing a flexed muscle enclosed within API computing symbols.
-tags: [apis, microconsulting, api microconsulting]
+tags: [api microconsulting, apis, microconsulting]
 service_elements:
   - name: Introduction to API<span class="text-lowercase">s</span>
     description: >
@@ -21,7 +21,7 @@ service_elements:
     order: 3
   - name: API Architecture
     description: >
-      Deliver a portfolio of APIs that are flexible, scalable, and secure. We'll show you how to establish an API architecture framework and management team for consistently crafting APIs, whether they are REST, GraphQL, Microservices, or even gRPC, across all of your API development teams.
+      Deliver a portfolio of APIs that are flexible, scalable, and secure. We'll show you how to establish an API architecture framework and management team for consistently crafting APIs, whether they're REST, GraphQL, Microservices, or even gRPC, across all of your API development teams.
     order: 4
   - name: API Design
     description: >

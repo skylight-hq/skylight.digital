@@ -22,6 +22,9 @@
         <div class="{{prefix}}-card card-link" data-href="{{item.permalink}}" tabindex="-1">
           <div role="img" class="{{prefix}}-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
           <div class="{{prefix}}-block">
+            {% if item.title_tag %}
+              <p class="{{prefix}}-title-tag">{{item.title_tag}}</p>
+            {% endif %}
             <h3 class="{{prefix}}-title {{context}}">{{item.title}}</h3>
             <p class="{{prefix}}-text">{{item.excerpt}}</p>
           </div>
