@@ -29,69 +29,50 @@
         {{include.solution}}
 
         {% capture accordion_body %}
-        <aside class="approach">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="row">
-
-                <div class="approach-area-col">
-                  <div class="approach-area-card">
-                    <div class="approach-area-card-block">
-                      <h3>Team Members</h3>
-                      <ul>
-                        {% for member in page.project_members %}
-                          {% assign emp = site.data.team | where: 'name', member | first %}
-                          <li>
-                            {% if emp.active %}
-                              <a class="profile profile-link" href="{{emp.profile_path}}">
-                                <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                                <span>{{emp.short_name}}</span>
-                              </a>
-                            {% else %}
-                              <div class="profile">
-                                <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                                <span>{{emp.short_name}}</span>
-                              </div>
-                            {% endif %}
-                          </li>
-                        {% endfor %}
-                      </ul>
-                    </div>
+        <div class="approach">
+          <ul>
+            {% for member in page.project_members %}
+              {% assign emp = site.data.team | where: 'name', member | first %}
+              <li>
+                {% if emp.active %}
+                  <a class="profile profile-link" href="{{emp.profile_path}}">
+                    <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                    <span>{{emp.short_name}}</span>
+                  </a>
+                {% else %}
+                  <div class="profile">
+                    <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                    <span>{{emp.short_name}}</span>
                   </div>
-                </div>
-
-                <div class="approach-area-col">
-                  <div class="approach-area-card">
-                    <div class="approach-area-card-block">
-                      <h3>Technology</h3>
-                      <ul>
-                        {% for tech in page.technologies %}
-                          <li>{{tech}}</li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="approach-area-col">
-                  <div class="approach-area-card">
-                    <div class="approach-area-card-block">
-                      <h3>Practices</h3>
-                      <ul>
-                        {% for practice in page.practices %}
-                          <li>{{practice}}</li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </aside>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
         {% endcapture %}
-        {% include accordion.html accordion_header = 'Approach' accordion_body = accordion_body accordion_index = '0' %}
+        {% include accordion.html accordion_header = 'Team Members' accordion_body = accordion_body accordion_index = '0' %}
+        
+        {% capture accordion_body %}
+        <div class="approach">
+          <ul>
+            {% for tech in page.technologies %}
+              <li>{{tech}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endcapture %}
+        {% include accordion.html accordion_header = 'Technologies used' accordion_body = accordion_body accordion_index = '1' %}
+
+        {% capture accordion_body %}
+        <div class="approach">
+          <ul>
+            {% for practice in page.practices %}
+              <li>{{practice}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endcapture %}
+        {% include accordion.html accordion_header = 'Practices used' accordion_body = accordion_body accordion_index = '2' %}
 
         <h2>The results</h2>
         {{include.results}}
@@ -108,7 +89,7 @@
               </ul>
             </aside>
           {% endcapture %}
-          {% include accordion.html accordion_header = 'News coverage' accordion_body = accordion_body accordion_index = '1' %}
+          {% include accordion.html accordion_header = 'News coverage' accordion_body = accordion_body accordion_index = '3' %}
         {% endif %}
       </div>
 

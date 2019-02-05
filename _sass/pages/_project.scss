@@ -63,17 +63,9 @@
 
 .approach {
   @extend %text-left;
-  h3,
+
   ul {
     font-size: $font-size-xx-small;
-  }
-
-  h3 {
-    @extend %text-uppercase;
-    @extend %mb-4;
-  }
-
-  ul {
     @extend %mb-0;
     @extend %list-item-unstyled;
 
@@ -83,31 +75,9 @@
   }
 }
 
-.approach-area-col {
-  @extend %col-sm-4;
-
-  &:not(:last-child) {
-    @extend %mb-sm-down-5;
-  }
-}
-
-.approach-area-card {
-  @extend %card;
-  @extend %no-border;
-  @extend %p-0;
-  height: 100%;
-}
-
-.approach-area-card-block {
-  @extend %card-block;
-  @extend %p-0;
-}
-
 .news-coverage {
   ul {
     font-size: $font-size-xx-small;
-  }
-  ul {
     @extend %mb-0;
     @extend %list-item-unstyled;
 
