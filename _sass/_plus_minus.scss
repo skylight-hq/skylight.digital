@@ -1,17 +1,17 @@
 .plus-minus-toggle {
-    height: 17px;
+    height: 15px;
     position: relative;
-    width: 17px;
+    width: 15px;
 
     &:before,
     &:after{
-        background: #fff;
+        background: $white;
         content: '';
-        height: 5px;
+        height: 3px;
         left: 0;
         position: absolute;
         top: 50%;
-        width: 17px;
+        width: 15px;
         transition: transform 20ms ease;
     }
 
