@@ -1,7 +1,8 @@
-.accordion-header{
+.accordion-header {
   border-bottom: none !important;
 
   a {
+    @extend %d-block;
     background-color: $sk-green;
     display: block;
     padding: $card-spacer-y $card-spacer-x;
@@ -28,19 +29,20 @@
     color: $white;
   }
 
-  .accordion-icon-plus{
-      display: none;
+  .accordion-icon-plus {
+    display: none;
   }
 
-  .accordion-icon-minus{
+  .accordion-icon-minus {
     display: flex;
   }
 
-  .collapsed{
-    .accordion-icon-plus{
+  .collapsed {
+    .accordion-icon-plus {
       display: flex;
     }
-    .accordion-icon-minus{
+
+    .accordion-icon-minus {
       display: none;
     }
   }
@@ -52,7 +54,7 @@
   border: none;
 }
 
-.accordion-card-body{
+.accordion-card-body {
   padding: 20px;
   border: 1px solid $sk-green;
 }
