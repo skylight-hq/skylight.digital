@@ -16,15 +16,16 @@
     }
 
     &:after {
-        transform-origin: center;
+      transform-origin: center;
     }
 }
 
 .collapsed .plus-minus-toggle {
-    &:after {
-        transform: rotate(90deg);
-    }
-    &:before {
-        transform: rotate(180deg);
-    }
+  &:after {
+    transform: rotate(90deg);
+  }
+
+  &:before {
+    transform: rotate(180deg);
+  }
 }

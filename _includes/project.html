@@ -29,49 +29,52 @@
         {{include.solution}}
 
         {% capture accordion_body %}
-        <div class="approach">
-          <ul>
-            {% for member in page.project_members %}
-              {% assign emp = site.data.team | where: 'name', member | first %}
-              <li>
-                {% if emp.active %}
-                  <a class="profile profile-link" href="{{emp.profile_path}}">
-                    <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                    <span>{{emp.short_name}}</span>
-                  </a>
-                {% else %}
-                  <div class="profile">
-                    <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                    <span>{{emp.short_name}}</span>
-                  </div>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
+          <aside class="approach">
+            <ul>
+              {% for member in page.project_members %}
+                {% assign emp = site.data.team | where: 'name', member | first %}
+                <li>
+                  {% if emp.active %}
+                    <a class="profile profile-link" href="{{emp.profile_path}}">
+                      <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                      <span>{{emp.short_name}}</span>
+                    </a>
+                  {% else %}
+                    <div class="profile">
+                      <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                      <span>{{emp.short_name}}</span>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </aside>
         {% endcapture %}
-        {% include accordion.html accordion_header = 'Team Members' accordion_body = accordion_body accordion_index = '0' %}
-        
+
+        {% include accordion.html accordion_header = 'Team members' accordion_body = accordion_body accordion_index = '0' %}
+
         {% capture accordion_body %}
-        <div class="approach">
-          <ul>
-            {% for tech in page.technologies %}
-              <li>{{tech}}</li>
-            {% endfor %}
-          </ul>
-        </div>
+          <aside class="approach">
+            <ul>
+              {% for tech in page.technologies %}
+                <li>{{tech}}</li>
+              {% endfor %}
+            </ul>
+          </aside>
         {% endcapture %}
+
         {% include accordion.html accordion_header = 'Technologies used' accordion_body = accordion_body accordion_index = '1' %}
 
         {% capture accordion_body %}
-        <div class="approach">
-          <ul>
-            {% for practice in page.practices %}
-              <li>{{practice}}</li>
-            {% endfor %}
-          </ul>
-        </div>
+          <aside class="approach">
+            <ul>
+              {% for practice in page.practices %}
+                <li>{{practice}}</li>
+              {% endfor %}
+            </ul>
+          </aside>
         {% endcapture %}
+
         {% include accordion.html accordion_header = 'Practices used' accordion_body = accordion_body accordion_index = '2' %}
 
         <h2>The results</h2>
