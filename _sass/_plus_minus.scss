@@ -1,23 +1,23 @@
 .plus-minus-toggle {
-    height: 15px;
-    position: relative;
-    width: 15px;
+  height: 15px;
+  position: relative;
+  width: 15px;
 
-    &:before,
-    &:after{
-        background: $white;
-        content: '';
-        height: 3px;
-        left: 0;
-        position: absolute;
-        top: 50%;
-        width: 15px;
-        transition: transform 20ms ease;
-    }
+  &:before,
+  &:after {
+      background: $white;
+      content: '';
+      height: 3px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      width: 15px;
+      transition: transform 20ms ease;
+  }
 
-    &:after {
-      transform-origin: center;
-    }
+  &:after {
+    transform-origin: center;
+  }
 }
 
 .collapsed .plus-minus-toggle {
