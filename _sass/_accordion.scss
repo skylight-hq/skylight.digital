@@ -1,16 +1,17 @@
-.accordion-header{
+.accordion-header {
   border-bottom: none !important;
 
   a {
+    @extend %d-block;
     background-color: $sk-green;
-    color: #fff;
+    color: $white;
     display: block;
     padding: $card-spacer-y $card-spacer-x;
 
     @include border-radius($card-border-radius-inner $card-border-radius-inner 0 0);
 
     &:hover {
-      color: #fff;
+      color: $white;
       background-color: darken($sk-green, 10%);
     }
 
@@ -18,8 +19,8 @@
       @include border-radius($card-border-radius-inner $card-border-radius-inner);
     }
   }
-  
-  h5{
+
+  h5 {
     display: flex;
     align-items: all;
     justify-content: space-between;
@@ -27,19 +28,20 @@
     border-bottom: none !important;
   }
 
-  .accordion-icon-plus{
-      display: none;
+  .accordion-icon-plus {
+    display: none;
   }
 
-  .accordion-icon-minus{
+  .accordion-icon-minus {
     display: flex;
   }
 
-  .collapsed{
-    .accordion-icon-plus{
+  .collapsed {
+    .accordion-icon-plus {
       display: flex;
     }
-    .accordion-icon-minus{
+
+    .accordion-icon-minus {
       display: none;
     }
   }
@@ -51,7 +53,7 @@
   border: none;
 }
 
-.accordion-card-body{
+.accordion-card-body {
   padding: 20px;
   border: 1px solid $sk-green;
 }
