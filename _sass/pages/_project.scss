@@ -62,31 +62,29 @@
 }
 
 .approach {
-  @extend %project-aside-base;
-}
+  @extend %text-left;
 
-.approach-area-col {
-  @extend %col-sm-4;
+  ul {
+    font-size: $font-size-xx-small;
+    @extend %mb-0;
+    @extend %list-item-unstyled;
 
-  &:not(:last-child) {
-    @extend %mb-sm-down-5;
+    li:not(:last-child) {
+      @extend %pb-3;
+    }
   }
 }
 
-.approach-area-card {
-  @extend %card;
-  @extend %no-border;
-  @extend %p-0;
-  height: 100%;
-}
-
-.approach-area-card-block {
-  @extend %card-block;
-  @extend %p-0;
-}
-
 .news-coverage {
-  @extend %project-aside-base;
+  ul {
+    font-size: $font-size-xx-small;
+    @extend %mb-0;
+    @extend %list-item-unstyled;
+
+    li:not(:last-child) {
+      @extend %pb-3;
+    }
+  }
 
   a {
     @include link-decoration($project-aside-link-color, $project-aside-link-hover-color,
