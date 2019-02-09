@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Skylight's flagship website",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
     "grunt-cli": "^1.2.0",
     "eslint": "^3.19.0",
     "grunt-accessibility": "^4.2.0"

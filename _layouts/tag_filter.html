@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign tag_filter = page.slug | replace: '_', ' ' %}
-{% assign posts = (site.blog_posts | where: 'tags', tag_filter | sort: 'date_published') | reverse %}
+{% assign posts = site.blog_posts | where: 'tags', tag_filter | sort: 'date_published' | reverse %}
 {% assign header = page.title %}
 
 {% if posts.size == 1 %}
