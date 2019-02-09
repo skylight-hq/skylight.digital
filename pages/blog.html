@@ -10,7 +10,7 @@ permalink: /blog/
 %}
 
 <div class="our-blog">
-  {% assign blog_posts = (site.blog_posts | sort: 'date_published') | reverse %}
+  {% assign blog_posts = site.blog_posts | sort: 'date_published' | reverse %}
 
   {% include card_list.html
     collection = blog_posts

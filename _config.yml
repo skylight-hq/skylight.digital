@@ -91,6 +91,6 @@ exclude:
   - npm-debug.log
 
 # Jekyll plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
