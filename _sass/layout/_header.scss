@@ -55,9 +55,6 @@
 }
 
 .nav-item {
-  @extend %px-3;
-  @extend %px-md-down-2;
-
   &:last-child {
     @extend %pr-0;
   }
@@ -65,14 +62,22 @@
 
 .nav-link {
   @extend %nav-link-decoration;
-  @extend %px-0;
 
-  &:hover,
+  span {
+    padding: 7px 15px;
+    background: $white;
+  }
+
+  &:hover {
+    span {
+      background: #f8f8f8;
+    }
+  }
+
   &:focus,
   &[aria-current] {
     span {
-      border-bottom: 5px solid $nav-link-border-color;
-      padding-bottom: 3px;
+      font-weight: 700;
     }
   }
 }
