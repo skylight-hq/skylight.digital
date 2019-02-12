@@ -19,11 +19,13 @@
 .project-case-study-title-tag {
   @extend %text-uppercase;
   color: $gray-light;
+  font-weight: 700;
   letter-spacing: 0.5px;
+  text-align: left;
 }
 
 .project-case-study-title {
-  @extend %mt-4;
+  text-align: left;
 }
 
 .project-case-study-content {
