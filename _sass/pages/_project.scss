@@ -12,8 +12,12 @@
 }
 
 .project-case-study-header {
-  @extend %text-center;
-  @include mb-6;
+  @include mb-3;
+}
+
+.project-case-study-summary {
+  font-size: $font-size-x-large;
+  @include mb-4;
 }
 
 .project-case-study-title-tag {

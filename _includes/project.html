@@ -8,12 +8,12 @@
 
       <div class="project-case-study-content">
         <h2 class="sr-only">Summary</h2>
-        {{include.summary}}
+        <div class="project-case-study-summary">{{include.summary}}</div>
 
         {% if page.feature_image %}
           {% assign image = page.feature_image %}
           {% assign image_description = page.feature_image_description %}
-          {% assign image_class = 'project-feature-image img-thumbnail' %}
+          {% assign image_class = 'project-feature-image' %}
         {% else %}
           {% assign image = page.image %}
           {% assign image_description = page.image_description %}
