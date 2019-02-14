@@ -64,14 +64,12 @@
   @extend %nav-link-decoration;
 
   span {
-    padding: 7px 15px;
-    background: $white;
+    padding: 0 7px;
+    background: transparent;
   }
 
   &:hover {
-    span {
-      background: #f8f8f8;
-    }
+    background: #f8f8f8;
   }
 
   &:focus,
