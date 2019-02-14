@@ -1,6 +1,5 @@
 %page-header-base {
   @include container-fluid-base;
-  @extend %text-center;
 }
 
 .page-header-1 {
@@ -59,7 +58,6 @@
 .page-header-content-1 {
   @extend %page-header-content-base;
   @extend %mt-4;
-  @extend %text-center;
 }
 
 .page-header-content-2 {
