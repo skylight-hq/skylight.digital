@@ -4,16 +4,19 @@
 }
 
 .page-header-1 {
+  @extend %page-header-base;
   @extend %my-7;
   @extend %my-md-8;
 }
 
 .page-header-2 {
+  @extend %page-header-base;
   @include mt-7;
   @include mb-6;
 }
 
 .page-header-3 {
+  @extend %page-header-base;
   @extend %mt-7;
   @extend %mt-md-8;
   @extend %mb-5;
@@ -26,8 +29,18 @@
 .page-header-content-3 {
   @extend %col-sm-11;
   @extend %col-md-10;
-  @extend %col-lg-8;
   @extend %mx-auto;
+}
+
+.page-header-title-1,
+.page-header-content-1 {
+  @extend %col-lg-8;
+}
+
+.page-header-title-2,
+.page-header-content-2,
+.page-header-content-3 {
+  @extend %col-lg-9;
 }
 
 %page-header-content-base {
@@ -68,10 +81,7 @@
 }
 
 %page-block-header-base {
-  @extend %col-sm-11;
-  @extend %col-md-10;
-  @extend %col-lg-8;
-  @extend %mx-auto;
+  @include container-fluid-base;
 }
 
 .page-block-header-1 {
@@ -80,7 +90,6 @@
 }
 
 .page-block-header-2 {
-  @extend %text-left;
   @extend %page-block-header-base;
   @extend %mb-4;
   @extend %mb-md-5;
