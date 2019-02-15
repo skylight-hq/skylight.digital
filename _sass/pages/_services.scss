@@ -1,9 +1,6 @@
 .our-services {
   @extend %page-main-base;
-  @extend %col-sm-11;
-  @extend %col-md-10;
-  @extend %col-lg-9;
-  @extend %mx-auto;
+  @include container-fluid-base;
 }
 
 .service-areas-row {
