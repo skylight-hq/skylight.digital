@@ -3,10 +3,7 @@
 }
 
 .about-skylight-img {
-  @extend %col-sm-11;
-  @extend %col-md-10;
-  @extend %col-lg-9;
-  @extend %mx-auto;
+  @include container-fluid-base;
   @extend %img-fluid;
   @extend %text-heavy-col-base;
   @include mb-7;
@@ -15,18 +12,19 @@
 }
 
 .about-info {
-  @extend %col-sm-11;
-  @extend %col-md-10;
-  @extend %col-lg-8;
-  @extend %mx-auto;
-  @extend %text-left;
+  @include container-fluid-base;
+}
+
+.about-info-row {
+  @extend %row;
+}
+
+.about-info-col {
+  @extend %narrative-col;
 }
 
 .employees {
-  @extend %col-sm-11;
-  @extend %col-md-10;
-  @extend %col-lg-9;
-  @extend %mx-auto;
+  @extend %container-fluid;
 }
 
 .employees-row {
