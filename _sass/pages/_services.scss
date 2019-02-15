@@ -1,6 +1,6 @@
 .our-services {
   @extend %page-main-base;
-  @include container-fluid-base;
+  @extend %wide-column;
 }
 
 .service-areas-row {

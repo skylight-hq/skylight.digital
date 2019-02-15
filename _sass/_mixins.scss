@@ -271,5 +271,19 @@
 // Misc
 @mixin container-fluid-base {
   @extend %container-fluid;
-  @extend %px-md-5;
+  @extend %px-md-10;
+}
+
+%wide-column {
+  @extend %col-sm-11;
+  @extend %col-md-10;
+  @extend %col-lg-9;
+  @extend %mx-auto;
+}
+
+%readability-column {
+  @extend %col-sm-11;
+  @extend %col-md-10;
+  @extend %col-lg-6;
+  @extend %mx-auto;
 }

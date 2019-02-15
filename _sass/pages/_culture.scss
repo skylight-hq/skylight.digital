@@ -3,7 +3,7 @@
 }
 
 .values {
-  @include container-fluid-base;
+  @extend %wide-column;
 }
 
 .values-row {

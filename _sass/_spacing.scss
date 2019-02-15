@@ -75,6 +75,11 @@
     @include pt-6;
     @include pb-6;
   }
+
+  %px-md-10 {
+    @include pl-5;
+    @include pr-5;
+  }
 }
 
 @include media-breakpoint-up(lg) {
