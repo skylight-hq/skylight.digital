@@ -1,6 +1,5 @@
 .hire-us {
-  @extend %page-main-base;
-  @include container-fluid-base;
+  @extend %readability-column;
 }
 
 .hire-row {
@@ -8,5 +7,6 @@
 }
 
 .hire-contact-col {
-  @extend %text-lead-col-base;
+  @include mt-6;
+  width: 100%;
 }

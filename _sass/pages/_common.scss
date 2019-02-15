@@ -34,7 +34,7 @@
 
 .page-header-title-1,
 .page-header-content-1 {
-  @extend %col-lg-8;
+  @extend %col-lg-7;
 }
 
 .page-header-title-2,
@@ -58,7 +58,7 @@
 
 .page-header-content-1 {
   @extend %page-header-content-base;
-  @extend %mt-4;
+  @extend %mt-2;
   @extend %text-center;
 }
 

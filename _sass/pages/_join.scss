@@ -1,5 +1,5 @@
 .join-us {
-  @include container-fluid-base;
+  @extend %wide-column;
   @extend %mt-6;
 }
 

@@ -3,7 +3,7 @@
 }
 
 .blog-posts {
-  @include container-fluid-base;
+  @extend %wide-column;
 }
 
 .blog-posts-row {
