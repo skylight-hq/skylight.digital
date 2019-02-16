@@ -1,9 +1,7 @@
 .accordion-header {
-  border-bottom: none !important;
-
   a {
-    @extend %d-block;
     background-color: $brand-primary;
+    border-bottom: none !important;
     display: block;
     padding: $card-spacer-y $card-spacer-x;
 
