@@ -3,21 +3,21 @@
 
   a {
     @extend %d-block;
-    background-color: $sk-green;
+    background-color: $brand-primary;
     display: block;
     padding: $card-spacer-y $card-spacer-x;
 
     @include border-radius($card-border-radius-inner $card-border-radius-inner 0 0);
 
     &:hover {
-      background-color: darken($sk-green, 10%);
+      background-color: darken($brand-primary, 10%);
     }
 
     &.collapsed {
       @include border-radius($card-border-radius-inner $card-border-radius-inner);
     }
   }
-  
+
   h3 {
     display: flex;
     font-size: $font-size-h6;
@@ -56,5 +56,5 @@
 
 .accordion-card-body {
   padding: 20px;
-  border: 1px solid $sk-green;
+  border: 1px solid $brand-primary;
 }
