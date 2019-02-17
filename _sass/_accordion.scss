@@ -1,6 +1,6 @@
 .accordion-header {
   a {
-    background-color: $gray-light;
+    background-color: $body-color;
     border-bottom: none !important;
     display: block;
     padding: $card-spacer-y $card-spacer-x;
@@ -8,7 +8,7 @@
     @include border-radius($card-border-radius-inner $card-border-radius-inner 0 0);
 
     &:hover {
-      background-color: darken($gray-light, 10%);
+      background-color: lighten($body-color, 10%);
     }
 
     &.collapsed {
@@ -54,5 +54,5 @@
 
 .accordion-card-body {
   padding: 20px;
-  border: 1px solid $gray-light;
+  border: 1px solid $body-color;
 }
