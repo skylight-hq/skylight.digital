@@ -29,14 +29,14 @@
   @extend %card;
   @extend %text-left;
   border: 0;
-  border-left: 14px solid $brand-success;
+  border-left: 14px solid $brand-primary;
   border-radius: 0;
   height: 100%;
 }
 
 .value-block {
   @extend %card-block;
-  padding: .5rem 1.25rem 1.25rem;
+  padding: 1.25rem 1.25rem 1.25rem;
 
   h3 {
     @extend %card-title;
