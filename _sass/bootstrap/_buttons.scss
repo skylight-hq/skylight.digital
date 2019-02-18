@@ -55,6 +55,7 @@ fieldset[disabled] a.btn {
 .btn-primary {
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
 }
+
 .btn-secondary {
   @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
 }
@@ -145,6 +146,14 @@ fieldset[disabled] a.btn {
   @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $btn-border-radius-sm);
 }
 
+//
+// Button widths
+//
+
+.btn-width-md {
+  min-width: 185px;
+}
+
 
 //
 // Block button
@@ -167,4 +176,8 @@ input[type="button"] {
   &.btn-block {
     width: 100%;
   }
+}
+
+.btn-cursor {
+  cursor: pointer;
 }
