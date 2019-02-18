@@ -34,7 +34,11 @@
   line-height: 1.75;
 
   @include media-breakpoint-up(md) {
-    font-size: $font-size-x-large;
+    font-size: $font-size-large;
+  }
+
+  p {
+    margin-bottom: 0;
   }
 }
 
