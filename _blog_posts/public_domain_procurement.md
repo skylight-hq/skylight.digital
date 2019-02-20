@@ -4,7 +4,7 @@ title: Public domain procurement
 permalink: /blog/public-domain-procurement/
 content_type: BlogPosting
 image: /img/blog/public_domain_procurement/creative-commons-public-domain.png
-image_description: An image of the Creative Commons Public Domain badge symbol.
+image_description: Image of the Creative Commons Public Domain badge symbol.
 image_display: true
 order: 700
 tags: [digital procurement, chris cairns]
