@@ -17,11 +17,11 @@ date: 2019-02-20
 
 The government IT professional sometimes has to decide how modern to be in their technology choices. By the time an IT professional is making strategic decisions, they may no longer be coding on a daily basis, if they ever were. When making decisions, they'll hear two voices, which we might call the safe and the modern. The safe voice tells them to use the same systems they've been using. That, "Sure, Apple and Google might be using a new technology, but it's not appropriate for the *Department* (or the Agency, or the State, or the City.) Startups might be using the latest thing, but sometimes the latest thing is just a passing fad, and an inappropriate one for us at that. The old ways are less risky; we should stick with what we know."
 
-Even though the modern voice doesn't have as much of a foothold in government, its whispers can still be heard if you know how to listen. "There are *huge* benefits to using the latest technology," it says. "Productivity will soar if you use the latest language. The cloud is better, not-only-SQL is better, Agile is better. APIs matter as much as coding. It should take weeks and not years to build a system." In short: "We should do what the cool kids are doing."
+Even though the modern voice doesn't have as much of a foothold in government, its whispers can still be heard if you know how to listen. "There are *huge* benefits to using the latest technology," it says. "Productivity will soar if you use the latest language. The cloud is better, NoSQL is better, agile is better. APIs matter as much as coding. It should take weeks and not years to build a system." In short: "We should do what the cool kids are doing."
 
 In many cases, a decision-maker doesn't have enough basis in actual experience to make their decision. This makes the decision a choice between the relative merits of different voices which they hear, neither of which they can fully trust.
 
-Even framing the question in terms of what is best for the citizens/patients/customers that a system serves can be inconclusive. While focusing on the end user should always be a priority, the focus itself may not tilt the scales much between safe and modern technologies.
+Even framing the question in terms of what's best for the citizens/patients/customers that a system serves can be inconclusive. While focusing on the end user should always be a priority, the focus itself may not tilt the scales much between safe and modern technologies.
 
 However, the government decision-maker should strive to find, and listen to, the modern voice, and that they should intentionally give it more weight. There are three main reasons for this.
 
