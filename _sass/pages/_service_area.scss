@@ -3,7 +3,7 @@
 }
 
 .service-elements {
-  @include container-fluid-base;
+  @extend %wide-column;
 }
 
 .service-elements-row {
@@ -20,7 +20,6 @@
 .service-element-content-box {
   @extend %text-left;
   border-top: 1px solid $gray-lightest;
-  width: 90%;
 
   h3 {
     @extend %my-3;

@@ -119,7 +119,7 @@
 }
 
 .image-block {
-  @include container-fluid-base;
+  @extend %wide-column;
   @extend %mb-5;
   @extend %mb-md-6;
   @extend %hidden-xs-down;
