@@ -15,11 +15,7 @@
 }
 
 .filter-col {
-  @extend %col-12;
-  @extend %col-sm-11;
-  @extend %col-md-9;
-  @extend %col-lg-7;
-  @extend %mx-auto;
+  @extend %text-heavy-col-base;
 }
 
 .filter-header {
@@ -81,6 +77,10 @@
   .filter-count {
     font-size: $font-size-medium;
   }
+
+  .filter-item-description {
+    font-size: $font-size-x-large;
+  }
 }
 
 .filter-item {
@@ -100,6 +100,7 @@
 
 .filter-item-description {
   @extend %mb-0;
+  font-size: $font-size-large;
 }
 
 .filter-no-results {
