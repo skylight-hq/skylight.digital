@@ -8,7 +8,7 @@
 }
 
 .service-area-col {
-  @extend %col-md-4;
+  @extend %col-lg-4;
 
   &:not(:last-child) {
     @extend %mb-sm-down-7;
@@ -32,13 +32,8 @@
 
 .service-area-img {
   @extend %mx-auto;
-  width: 240px;
-  height: 171px;
-
-  @include media-breakpoint-up(lg) {
-    width: 285px;
-    height: 203px;
-  }
+  width: 75%;
+  max-width: 320px;
 }
 
 .service-area-block {
