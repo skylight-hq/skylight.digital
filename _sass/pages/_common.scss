@@ -215,14 +215,6 @@
   }
 }
 
-.separator-wrapper {
-  padding: 0 40px;
-
-  @include media-breakpoint-up(md) {
-    padding: 0 70px;
-  }
-}
-
 .separator {
   border: none;
   height: 15px;
