@@ -1,5 +1,7 @@
 .join-us {
-  @extend %wide-column;
+  @extend %col-sm-11;
+  @extend %col-lg-8;
+  @extend %mx-auto;
   @extend %mt-6;
 }
 
@@ -73,6 +75,10 @@
   ul:last-child {
     @extend %mb-0;
   }
+}
+
+.join-content-col > div {
+  min-height: 500px;
 }
 
 .open-positions-list {
