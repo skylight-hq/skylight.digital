@@ -2,10 +2,6 @@
   @extend %readability-column;
 }
 
-.hire-row {
-  @extend %row;
-}
-
 .hire-contact-col {
   @include mt-6;
   width: 100%;
