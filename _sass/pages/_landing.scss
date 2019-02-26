@@ -42,7 +42,7 @@
 }
 
 .landing-body {
-  @extend %container-fluid;
+  @extend %wide-column;
   @extend %mt-5;
   @extend %mt-md-7;
   line-height: 1.5;
