@@ -22,6 +22,7 @@
   text-indent: -9999px;
   white-space: nowrap;
   overflow: hidden;
+  transition: 0.15s all ease;
 
   &:hover,
   &:focus {
@@ -271,7 +272,7 @@
 // Misc
 @mixin container-fluid-base {
   @extend %container-fluid;
-  @extend %px-md-10;
+  @extend %px-md-5;
 }
 
 %wide-column {

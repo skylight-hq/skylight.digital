@@ -62,21 +62,23 @@
     @include mb-8;
   }
 
+  %pt-md-5 {
+    @include pt-5;
+  }
+
   %px-md-5 {
     @include pl-5;
     @include pr-5;
-  }
-
-  %pt-md-5 {
-    @include pt-5;
   }
 
   %py-md-6 {
     @include pt-6;
     @include pb-6;
   }
+}
 
-  %px-md-10 {
+@include media-breakpoint-up(lg) {
+  %px-lq-5 {
     @include pl-5;
     @include pr-5;
   }

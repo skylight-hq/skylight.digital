@@ -1,5 +1,8 @@
 .header {
-  @include container-fluid-base;
+  @extend %container-fluid;
+  @extend %px-lq-5;
+  transform: scale(1);
+  transition: 0.25s all ease;
 }
 
 .navbar {
@@ -76,6 +79,15 @@
   &[aria-current] {
     span {
       font-weight: 700;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .nav-link {
+    span {
+      padding: 0 3px;
+      background: transparent;
     }
   }
 }
