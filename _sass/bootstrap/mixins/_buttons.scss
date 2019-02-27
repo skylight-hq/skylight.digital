@@ -51,6 +51,7 @@
   background-image: none;
   background-color: transparent;
   border-color: $color;
+  font-weight: 700;
 
   @include hover {
     color: $color-hover;
