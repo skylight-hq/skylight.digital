@@ -143,6 +143,8 @@
   @extend %btn-secondary;
   @extend %btn-outline-secondary;
   @extend %btn-lg;
+  font-family: $font-family-sans-serif;
+  cursor: pointer;
 }
 
 %text-heavy-col-base {
@@ -220,4 +222,9 @@
   height: 15px;
   width: 100%;
   background: url('../img/wave.svg') center center repeat-x;
+}
+
+.btn-submit-outline {
+  @extend %btn-page;
+  min-width: 200px;
 }
