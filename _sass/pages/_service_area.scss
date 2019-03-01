@@ -12,7 +12,8 @@
 
 .service-element-col {
   @extend %col-12;
-  @extend %col-md-4;
+  @extend %col-lg-6;
+  @extend %col-xl-4;
 }
 
 @include multi-col-spacing('service-element-col', $mb-size: 5, $mb-md-size: 5);
@@ -31,5 +32,6 @@
 
   p {
     @extend %mb-0;
+    padding-right: 3%;
   }
 }
