@@ -15,6 +15,14 @@
   }
 }
 
+@include media-breakpoint-down(md) {
+  .service-area-col {
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+  }
+}
+
 .service-area-card {
   @extend %card;
   @extend %no-border;
