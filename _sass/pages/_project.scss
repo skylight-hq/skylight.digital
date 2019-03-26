@@ -73,40 +73,24 @@
   ul {
     font-size: $font-size-xx-small;
     column-count: 3;
-    column-fill: balance-all;
     column-width: 30%;
     column-gap: 16px;
+    column-width: 200px;
 
     @extend %mb-0;
     @extend %list-item-unstyled;
 
     @include media-breakpoint-down(lg) {
       column-count: 2;
-      column-width: 48%;
     }
 
     @include media-breakpoint-down(sm) {
       column-count: 1;
-      column-width: 100%;
-    }
-
-    li {
-      box-sizing: border-box;
-      background-color: #fff;
-      -webkit-column-break-inside: avoid;
-      page-break-inside: avoid;
-      break-inside: avoid;
-      overflow: hidden;
-    }
-
-    li:last-child {
-      .approach-item {
-        margin-bottom: 0;
-      }
     }
 
     li:not(:last-child) {
-      padding-bottom: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
     }
 
     .approach-item {
