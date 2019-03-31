@@ -46,7 +46,7 @@
   short_name: S. Johnson
   profile_path: /about/#sean-johnson
   image: /img/people/theodore-roosevelt.png
-  image_description: Sean Johnson
+  image_description: Placeholder Photo of Sean Johnson
   position: Full Stack Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
@@ -54,7 +54,7 @@
     software engineering, product management, and cloud computing. Sean lives in
     North Carolina.
   active: true
-  order: 100
+  order: 90
   socials:
     - name: Twitter
       link: https://twitter.com/BeLucid
@@ -92,7 +92,7 @@
     engineering, data science and engineering, engineering management, and agile practices.
     Robert lives in Texas.
   active: true
-  order: 80
+  order: 60
   socials:
     - name: Twitter
       link: https://twitter.com/RobertLeeRead
@@ -133,7 +133,7 @@
     in software engineering, distributed and embedded systems engineering, data science
     and engineering, cloud computing, and engineering management. John lives in Idaho.
   active: false
-  order: 1000
+  order: 10000
   socials:
     - name: Twitter
       link: https://twitter.com/NewEnergyShift
@@ -166,7 +166,7 @@
     in Internet of Things, distributed and embedded systems engineering,
     networking technologies, and privacy and security. Geoff resides in Colorado.
   active: true
-  order: 120
+  order: 100
   socials:
     - name: Twitter
       link: https://twitter.com/GeoffCMulligan
@@ -195,9 +195,9 @@
     over 3,000 articles and spoken at over 50 events on API-related topics.
     Kin also specializes in software engineering, microservices, data science
     and engineering, cloud computing, and enterprise software.
-    He lives in California.
+    He lives in Washington.
   active: true
-  order: 40
+  order: 150
   socials:
     - name: Twitter
       link: https://twitter.com/apievangelist
@@ -238,7 +238,7 @@
     He specializes in DevOps engineering, cloud computing,
     and user-focused software development. Josh resides in Virginia.
   active: true
-  order: 60
+  order: 50
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/joshdorothy/
@@ -271,7 +271,7 @@
     users. He specializes in accessibility, software engineering,
     frontend development, and cloud computing. Nick resides in Virginia.
   active: true
-  order: 90
+  order: 80
   socials:
     - name: Twitter
       link: https://twitter.com/rbristow
@@ -345,8 +345,8 @@
     She's passionate about creating positive change through great user experiences,
     and specializes in user research and information architecture. Aera lives in
     Maryland.
-  active: true
-  order: 110
+  active: false
+  order: 10010
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/hoffmaa/
@@ -360,40 +360,32 @@
       link: /work/team-member/aera-hoffman/
       link_description: Aera's Project Work
       fa_icon_name: wrench
-- name: emily-wright-moore
-  fname: Emily
-  lname: Wright-Moore
-  full_name: Emily Wright-Moore
-  short_name: E. Wright-Moore
-  profile_path: /about/#emily-wright-moore
-  image: /img/people/emily-wright-moore.jpg
-  image_description: Photo of Emily Wright-Moore
+- name: lara-kohl
+  fname: Lara
+  lname: Kohl
+  full_name: Lara Kohl
+  short_name: L. Kohl
+  profile_path: /about/#lara-kohl
+  image: /img/people/lara-kohl.jpg
+  image_description: Photo of Lara Kohl
   position: UX Designer
   bio: >
-    Emily is a former member of the U.S. Digital Service, where she
-    co-founded the Veterans Affairs Digital Service and served as the
-    UX lead over vets.gov. She's also a former Code for America fellow.
-    She specializes in design leadership, service design, user experience
-    design, and design research. Emily lives in North Carolina.
-  active: false
+    Lara is a former member of the U.S. Digital Service, where she
+    served as the UX lead over the Appeals Modernization initiative.
+    She's also a former professor at NYU, SUNY, and Pratt Institute.
+    Lara specializes in design leadership, design research, service design,
+    and user experience design. Lara lives in New York.
+  active: true
   order: 20
   socials:
     - name: Twitter
-      link: https://twitter.com/emilyville
-      link_description: Emily's Twitter Account
+      link: https://twitter.com/lkohl
+      link_description: Lara's Twitter Account
       fa_icon_name: twitter
     - name: LinkedIn
-      link: https://www.linkedin.com/in/emilyville/
-      link_description: Emily's LinkedIn Account
+      link: https://www.linkedin.com/in/lakohl/
+      link_description: Lara's LinkedIn Account
       fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/emilyville
-      link_description: Emily's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://emilyville.com/
-      link_description: Emily's Personal Website
-      fa_icon_name: home
 - name: shashank-khandelwal
   fname: Shashank
   lname: Khandelwal
@@ -409,7 +401,7 @@
     Bureau design+tech fellow. Shashank specializes in digital leadership and transformation,
     digital procurement, software engineering, and cloud computing. He lives in Maryland.
   active: true
-  order: 50
+  order: 40
   socials:
     - name: Twitter
       link: https://twitter.com/gazeti
@@ -448,6 +440,10 @@
       link: https://www.linkedin.com/in/lesley-evans-3b57b79b/
       link_description: Lesley's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/lesley-evans/
+      link_description: Lesley's Project Work
+      fa_icon_name: wrench
 - name: tom-black
   fname: Tom
   lname: Black
@@ -464,7 +460,7 @@
     software engineering, product management, and identity management. Tom lives
     in Oregon.
   active: true
-  order: 140
+  order: 130
   socials:
     - name: Twitter
       link: https://twitter.com/blacktm
@@ -501,7 +497,7 @@
     and specializes in software engineering, DevOps, microservices, APIs, and
     cloud computing. Andrew lives in Virginia.
   active: true
-  order: 130
+  order: 110
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/andrew-wagner-6675bb8/
@@ -525,8 +521,8 @@
     technical challenges. He specializes in software engineering, APIs,
     microservices, distributed search and analytics, and cloud computing.
     Jay resides in Maryland.
-  active: true
-  order: 150
+  active: false
+  order: 10020
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/jaydanielian/
@@ -555,9 +551,41 @@
     a positive difference through data science, engineering, and analytics.
     Brandon lives in Ohio.
   active: true
-  order: 160
+  order: 140
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/brandon-mader-5447aaa4/
       link_description: Brandon's LinkedIn Account
       fa_icon_name: linkedin
+- name: becca-bartola
+  fname: Becca
+  lname: Bartola
+  full_name: Becca Bartola
+  short_name: B. Bartola
+  profile_path: /about/#becca-bartola
+  image: /img/people/eleanor-roosevelt.png
+  image_description: Placeholder Photo of Becca Bartola
+  position: UX Designer
+  bio: >
+    Becca is a former Etsy designer, with a passion for creating positive change
+    through great user experiences. She specializes in user research, user experience
+    design, and visual design. Becca lives in Pennsylvania.
+  active: true
+  order: 120
+  socials:
+    - name: Twitter
+      link: https://twitter.com/rebeccabartola
+      link_description: Becca's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/rebecca-bartola/
+      link_description: Becca's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://www.rebeccabartola.com/
+      link_description: Becca's Personal Website
+      fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/becca-bartola/
+      link_description: Becca's Project Work
+      fa_icon_name: wrench
