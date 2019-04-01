@@ -77,6 +77,26 @@
   }
 }
 
+.can-touch {
+  .navbar-toggler[aria-expanded=true] {
+    .burger {
+      &:hover {
+        span {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  .burger {
+    &:hover {
+      span, span:before, span:after {
+        background-color: $nav-toggler-color;
+      }
+    }
+  }
+}
+
 .navbar-collapse {
   @extend %justify-content-end;
 }
