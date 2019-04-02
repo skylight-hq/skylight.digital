@@ -30,7 +30,8 @@
 
         {% capture accordion_body %}
           <aside class="approach">
-            <ul>
+            {% assign member_count = page.project_members.size %}
+            <ul{% if member_count > 4 %} class="has-col col-big"{% endif %}>
               {% for member in page.project_members %}
                 {% assign emp = site.data.team | where: 'name', member | first %}
                 <li>
@@ -55,9 +56,15 @@
 
         {% include accordion.html accordion_header = 'Team members' accordion_body = accordion_body accordion_index = '0' %}
 
+        {% if page.practices.size > page.technologies.size %}
+          {% assign practice_count = page.practices.size %}
+        {% else %}
+          {% assign practice_count = page.technologies.size %}
+        {% endif %}
+
         {% capture accordion_body %}
           <aside class="approach">
-            <ul>
+            <ul{% if practice_count > 4 %} class="has-col{% if practice_count > 5 %} col-big{% endif %}"{% endif %}>
               {% for tech in page.technologies %}
                 <li><span class="approach-item">{{tech}}</span></li>
               {% endfor %}
@@ -69,7 +76,7 @@
 
         {% capture accordion_body %}
           <aside class="approach">
-            <ul>
+            <ul{% if practice_count > 4 %} class="has-col{% if practice_count > 5 %} col-big{% endif %}"{% endif %}>
               {% for practice in page.practices %}
                 <li><span class="approach-item">{{practice}}</span></li>
               {% endfor %}
