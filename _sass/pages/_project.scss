@@ -70,23 +70,33 @@
 .approach {
   @extend %text-left;
 
-  ul {
-    font-size: $font-size-xx-small;
-    column-count: 3;
-    column-width: 30%;
+  .has-col {
+    column-count: 2;
+    column-fill: balance-all;
     column-gap: 16px;
-    column-width: 200px;
-
-    @extend %mb-0;
-    @extend %list-item-unstyled;
-
-    @include media-breakpoint-down(lg) {
-      column-count: 2;
-    }
 
     @include media-breakpoint-down(sm) {
       column-count: 1;
     }
+
+    &.col-big {
+      column-count: 3;
+
+      @include media-breakpoint-down(lg) {
+        column-count: 2;
+      }
+
+      @include media-breakpoint-down(sm) {
+        column-count: 1;
+      }
+    }
+  }
+
+  ul {
+    font-size: $font-size-xx-small;
+
+    @extend %mb-0;
+    @extend %list-item-unstyled;
 
     li:not(:last-child) {
       margin: 0 !important;
