@@ -233,10 +233,9 @@
   image_description: Photo of Josh Dorothy
   position: DevOps Engineer
   bio: >
-    Josh is a former member of the U.S. Digital Service, with a
-    passion for building both great platforms and great products.
-    He specializes in DevOps engineering, cloud computing,
-    and user-focused software development. Josh resides in Virginia.
+    Josh is a former member of the U.S. Digital Service, with an interest in building
+    both great platforms and great products. He specializes in DevOps engineering,
+    cloud computing, and user-focused software development. Josh resides in Virginia.
   active: true
   order: 50
   socials:
@@ -266,7 +265,7 @@
   image_description: Photo of Nick Bristow
   position: Full Stack Engineer
   bio: >
-    Nick is a former member of 18F, with a passion for creating
+    Nick is a former member of 18F, who relentlessly pursues creating
     products that are accessible and meet the needs of all
     users. He specializes in accessibility, software engineering,
     frontend development, and cloud computing. Nick resides in Virginia.
