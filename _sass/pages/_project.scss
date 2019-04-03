@@ -70,13 +70,30 @@
 .approach {
   @extend %text-left;
 
+  .has-col {
+    column-count: 2;
+    column-fill: balance-all;
+    column-gap: 16px;
+
+    @include media-breakpoint-down(sm) {
+      column-count: 1;
+    }
+  }
+
   ul {
     font-size: $font-size-xx-small;
+
     @extend %mb-0;
     @extend %list-item-unstyled;
 
     li:not(:last-child) {
-      @extend %pb-3;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .approach-item {
+      display: inline-block;
+      margin-bottom: 10px;
     }
   }
 }

@@ -30,21 +30,24 @@
 
         {% capture accordion_body %}
           <aside class="approach">
-            <ul>
+            {% assign member_count = page.project_members.size %}
+            <ul class="has-col">
               {% for member in page.project_members %}
                 {% assign emp = site.data.team | where: 'name', member | first %}
                 <li>
-                  {% if emp.active %}
-                    <a class="profile profile-link" href="{{emp.profile_path}}">
-                      <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                      <span>{{emp.short_name}}</span>
-                    </a>
-                  {% else %}
-                    <div class="profile">
-                      <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                      <span>{{emp.short_name}}</span>
-                    </div>
-                  {% endif %}
+                  <span class="approach-item">
+                    {% if emp.active %}
+                      <a class="profile profile-link" href="{{emp.profile_path}}">
+                        <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                        <span>{{emp.short_name}}</span>
+                      </a>
+                    {% else %}
+                      <div class="profile">
+                        <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                        <span>{{emp.short_name}}</span>
+                      </div>
+                    {% endif %}
+                  </span>
                 </li>
               {% endfor %}
             </ul>
@@ -55,9 +58,9 @@
 
         {% capture accordion_body %}
           <aside class="approach">
-            <ul>
+            <ul class="has-col">
               {% for tech in page.technologies %}
-                <li>{{tech}}</li>
+                <li><span class="approach-item">{{tech}}</span></li>
               {% endfor %}
             </ul>
           </aside>
@@ -67,9 +70,9 @@
 
         {% capture accordion_body %}
           <aside class="approach">
-            <ul>
+            <ul class="has-col">
               {% for practice in page.practices %}
-                <li>{{practice}}</li>
+                <li><span class="approach-item">{{practice}}</span></li>
               {% endfor %}
             </ul>
           </aside>
