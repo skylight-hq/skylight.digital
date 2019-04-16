@@ -56,3 +56,9 @@
   padding: 20px;
   border: 1px solid $brand-primary;
 }
+
+.can-touch .accordion-header a {
+  &:hover {
+    background-color: $brand-primary;
+  }
+}
