@@ -197,7 +197,7 @@
     and engineering, cloud computing, and enterprise software.
     He lives in Washington.
   active: true
-  order: 150
+  order: 140
   socials:
     - name: Twitter
       link: https://twitter.com/apievangelist
@@ -458,8 +458,8 @@
     including the GI Bill Comparison Tool and login.gov. He specializes in
     software engineering, product management, and identity management. Tom lives
     in Minnesota.
-  active: true
-  order: 130
+  active: false
+  order: 10030
   socials:
     - name: Twitter
       link: https://twitter.com/blacktm
@@ -550,7 +550,7 @@
     a positive difference through data science, engineering, and analytics.
     Brandon lives in Ohio.
   active: true
-  order: 140
+  order: 130
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/brandon-mader-5447aaa4/
@@ -562,7 +562,7 @@
   full_name: Becca Bartola
   short_name: B. Bartola
   profile_path: /about/#becca-bartola
-  image: /img/people/eleanor-roosevelt.png
+  image: /img/people/becca-bartola.jpg
   image_description: Placeholder Photo of Becca Bartola
   position: UX Designer
   bio: >
