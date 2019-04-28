@@ -20,7 +20,11 @@
   url: https://skylight.workable.com/jobs/919836
   location: Remote
   order: 40
+- title: DevOps Engineer
+  url: https://skylight.workable.com/jobs/1007323
+  location: Remote
+  order: 50
 - title: Data Engineer
   url: https://skylight.workable.com/jobs/919832
   location: Remote
-  order: 50
+  order: 60
