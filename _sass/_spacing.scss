@@ -24,6 +24,21 @@
   @include pr-6;
 }
 
+%py-6 {
+  @include pt-6;
+  @include pb-6;
+}
+
+%py-7 {
+  @include pt-7;
+  @include pb-7;
+}
+
+%py-8 {
+  @include pt-8;
+  @include pb-8;
+}
+
 @include media-breakpoint-down(sm) {
   %mb-sm-down-3 { @include mb-3; }
   %mb-sm-down-4 { @include mb-4; }

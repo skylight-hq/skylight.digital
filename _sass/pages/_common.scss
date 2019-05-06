@@ -229,3 +229,34 @@
   @extend %btn-page;
   min-width: 200px;
 }
+
+.bg {
+  background-color: #efefef;
+
+  &-blue {
+    background: #356d8e;
+  }
+}
+
+.inner-container {
+  @extend %py-6;
+  @extend %col-sm-11;
+  @extend %col-lg-8;
+  @extend %mx-auto;
+}
+
+.quote {
+  font-style: italic;
+  font-size: $font-size-h4;
+  margin: 0;
+  padding-left: 2rem;
+  border-left: 15px solid $sk-yellow;
+}
+
+.btn-yellow {
+  @include button-variant($nav-link-color, $sk-yellow, $sk-yellow);
+}
+
+.btn-outline-white {
+  @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
+}
