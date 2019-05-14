@@ -4,6 +4,7 @@ title_tag: Digital IT Acquisition Professional Training
 title: Register for our next course
 start_date: August 14, 2019
 end_date: March 20, 2020
+cost: $6,500
 permalink: /training/ditap/
 excerpt: Our API expertise delivered in bite-sized, high-impact chunks.
 tags: [api microconsulting, apis, microconsulting]

@@ -94,6 +94,22 @@ permalink: /training/
                 <p><strong>To enroll, we suggest you already have a Level II or Level III FAC-C certification, though it is not required</strong> as long as you have the requisite acquisition skills and knowledge to complete the program.</p>
                 <p><strong>Your peers will be fellow acquisition professionals who are as passionate about changing procurement outcomes as you are.</strong> These colleagues will be valuable (to us and to you) as future collaborators and friends.</p>
                 <div><strong>Each course requires a minimum of 25 participants.</strong> The run dates are contingent upon meeting this minimum, and we will communicate with applicants accordingly.</div>
+                <h2 id="upcoming" class="header-display-3 mb-2 mt-3 pt-2">Upcoming Courses</h2>
+                {% for training in site.training_offerings %}
+                    <a href="{{training.permalink}}">
+                        <div class="">{{training.start_date}} - {{training.end_date}}</div>
+                        <div class="">{{training.location}}</div>
+                        <div class="">Instructors:</div>
+                        <div>
+                            {% for member in training.instructors %}
+                                {% assign emp = site.data.team | where: 'name', member | first %}
+                                {{emp.full_name}}{% if forloop.last != true %}, {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="">Cost: {{training.cost}}</div>
+                        <div class="">Apply to this course -></div>
+                    </a>
+                {% endfor %}
             </div>
         </div>
     </div>
