@@ -260,9 +260,3 @@
 .btn-outline-white {
   @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
 }
-
-.affix {
-  position: fixed;
-  padding-top: 20px;
-  z-index: 10;
-}

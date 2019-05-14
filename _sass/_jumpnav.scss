@@ -1,0 +1,59 @@
+.subnav-button {
+  display: none;
+}
+
+.jumpnav {
+  @extend %col-md-3;
+}
+
+.jumpnav-content {
+  @extend %col-12;
+  @extend %col-md-9;
+}
+
+@include media-breakpoint-up(md) {
+  .affix {
+    position: fixed;
+    padding-top: 20px;
+    z-index: 10;
+  }
+}
+ 
+@include media-breakpoint-down(md) {
+  .affix-top, .affix-bottom {
+    visibility: hidden;
+  }
+
+  .jumpnav {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 5;
+    text-align: right;
+
+    #subnav {
+      background: #ffffff;
+      border-radius: 6px;
+      box-shadow: 0 0 4px rgba(0,0,0,0.25);
+      display: none;
+      padding: 20px;
+      position: absolute;
+      bottom: 50px;
+      right: 0;
+      width: 230px;
+      text-align: left;
+
+      ul {
+        width: 100%;
+      }
+    }
+
+    .subnav-button {
+      display: inline-block;
+    }
+
+    .subnav-visible {
+      display: block !important;
+    }
+  }
+}

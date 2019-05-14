@@ -94,6 +94,11 @@ $(function(){
   }).attr('target', '_blank')
 })
 
+let toggleSubnav = function(e) {
+  e.stopPropagation();
+  $('#subnav').toggleClass('subnav-visible');
+}
+
 // Handle scroll styles
 $(function() {
   let topOffsetEls = $('.scroll-top-offset')
@@ -114,11 +119,15 @@ $(function() {
   $('.subnav-col').affix({
     offset: { 
       top: topOffset + 20,
-      bottom: bvottomOffset
+      bottom: bvottomOffset + 400
     }
   });
 
   if ($('.subnav-col').length > 0) {
     $('body').scrollspy({target: "#subnav"});
+
+    $('.subnav-button').click(toggleSubnav);
+
+    $('#subnav a').click(toggleSubnav);
   } 
 })
