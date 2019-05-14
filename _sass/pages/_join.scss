@@ -6,11 +6,8 @@
 }
 
 .subnav-col {
-  @extend %col-12;
-  @extend %col-md-4;
-  @extend %mx-auto;
-  @extend %mb-5;
-  @extend %mb-md-0;
+  position: sticky;
+  top: 0;
 
   ul {
     @extend %nav;
@@ -24,25 +21,31 @@
     &:not(:last-child) {
       @extend %mb-2;
     }
-
-    border-left: 7px solid $white;
-    padding-left: .5rem;
-
-    &:hover,
-    &:focus,
-    &.current {
-      border-left: 7px solid $nav-link-border-color;
-    }
   }
 
   a {
+    display: block;
+
     @extend %nav-link;
     @extend %nav-link-decoration;
     @extend %p-0;
-    border-bottom: 1px solid $white;
 
-    &:hover {
-      border-bottom: 1px solid $nav-link-border-color;
+    border-left: 7px solid $white;
+
+    &:hover,
+    &:focus,
+    &.active {
+      border-left-color: $nav-link-border-color;
+    }
+
+    span {
+      display: block;
+      border-bottom: 1px solid $white;
+      margin-left: 0.25rem;
+
+      &:hover {
+        border-bottom: 1px solid $nav-link-border-color;
+      }
     }
   }
 }

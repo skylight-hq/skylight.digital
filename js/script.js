@@ -93,3 +93,32 @@ $(function(){
     return this.hostname != window.location.hostname
   }).attr('target', '_blank')
 })
+
+// Handle scroll styles
+$(function() {
+  let topOffsetEls = $('.scroll-top-offset')
+  let topOffset = 0;
+
+  topOffsetEls.each(function() {
+    topOffset += $(this).outerHeight();
+  })
+
+  let bottomOffsetEls = $('.scroll-bottom-offset')
+  let bvottomOffset = 0;
+
+  bottomOffsetEls.each(function() {
+    bvottomOffset += $(this).outerHeight();
+  })
+
+
+  $('.subnav-col').affix({
+    offset: { 
+      top: topOffset + 20,
+      bottom: bvottomOffset
+    }
+  });
+
+  if ($('.subnav-col').length > 0) {
+    $('body').scrollspy({target: "#subnav"});
+  } 
+})

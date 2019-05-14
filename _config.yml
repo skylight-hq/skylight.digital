@@ -47,6 +47,9 @@ kramdown:
   auto_ids: false
 
 collections:
+  training_offerings:
+    output: true
+    permalink: /training/:path/
   service_areas:
     output: true
     permalink: /services/:path/
