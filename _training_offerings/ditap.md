@@ -2,6 +2,8 @@
 layout: default
 title_tag: Digital IT Acquisition Professional Training
 title: Register for our next course
+location: Online + Washington, DC
+image: /img/ditap-icon.png
 start_date: August 14, 2019
 end_date: March 20, 2020
 cost: $6,500
@@ -44,7 +46,7 @@ instructors:
 {% endcapture %}
 
 {% capture instructors %}
-  <h3>Meet your instructors</h3>
+  <h3 class="header-display-3 mb-2 mt-5 pt-2">Meet your instructors</h3>
   {% assign member_count = page.instructors.size %}
   {% for member in page.instructors %}
     {% assign emp = site.data.team | where: 'name', member | first %}
@@ -54,7 +56,7 @@ instructors:
       </div>
       <div class="col-sm-8">
         <div class="p-sm-3">
-          <h4 class="mb-3">{{emp.short_name}}</h4>
+          <h4 class="mb-3">{{emp.full_name}}</h4>
           <p>{{emp.bio}}</p>
         </div>
       </div>

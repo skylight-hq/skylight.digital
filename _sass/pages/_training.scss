@@ -1,0 +1,19 @@
+.course-card:last-child {
+  margin-top: 3rem;
+}
+
+@include semantic-card('course');
+
+@include media-breakpoint-up(md) {
+  .course-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .course-img {
+    height: auto;
+    width: 33.33%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(.25rem - 1px);
+  }
+}
