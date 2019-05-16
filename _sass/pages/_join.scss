@@ -85,15 +85,25 @@
 
 .open-positions-list {
   ul {
-    @extend %list-item-unstyled;
-    @extend %mt-4;
+    @extend %mt-2;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-    li:not(:last-child) {
-      @extend %pb-4;
-    }
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
-    p {
-      font-size: $font-size-x-small;
+    &:not(:first-child) {
+      @extend %mt-3;
     }
+  }
+
+  p  {
+    margin: 0;
+    font-size: $font-size-h6;
+    color: $gray;
   }
 }
