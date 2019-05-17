@@ -115,12 +115,9 @@ $(function() {
     bvottomOffset += $(this).outerHeight();
   })
 
-
-  $('.subnav-col').affix({
-    offset: { 
-      top: topOffset + 20,
-      bottom: bvottomOffset + 400
-    }
+  $('.subnav-col').stickySidebar({
+    topSpacing: 20,
+    bottomSpacing: $('#subnav').outerHeight() + 100
   });
 
   if ($('.subnav-col').length > 0) {
