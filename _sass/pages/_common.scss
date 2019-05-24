@@ -5,7 +5,7 @@
 
 .page-header-1 {
   @extend %page-header-base;
-  @extend %my-7;
+  @extend %my-5;
   @extend %my-md-8;
 }
 
@@ -240,6 +240,7 @@
 
 .inner-container {
   @extend %py-6;
+  @extend %py-md-down-3;
   @extend %col-sm-11;
   @extend %col-lg-8;
   @extend %mx-auto;
@@ -259,4 +260,13 @@
 
 .btn-outline-white {
   @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
+}
+
+.section-break {
+  @extend .mt-5;
+  width: 65%;
+  margin: 0 auto;
+  height: 1px;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, $sk-green));
+  border: none;
 }

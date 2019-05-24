@@ -1,4 +1,4 @@
-<h2 id="join-open-positions" class="header-display-3 mb-2 mt-5">Open positions</h2>
+<h2 id="join-open-positions" class="header-display-2 mb-3 mt-5">Open positions</h2>
 
 {% if site.data.open_positions[0] %}
   <p>
@@ -10,7 +10,7 @@
   <div class="open-positions-list">
     {% assign open_positions = site.data.open_positions | sort: 'order' %}
     {% for open_position in open_positions %}
-      <h3 class="header-display-4 mb-2 mt-3">{{open_position.name}}</h3>
+      <h3 class="header-display-3 mb-2 mt-4">{{open_position.name}}</h3>
       {% assign positions = open_position.positions | sort: 'order' %}
       <ul>
         {% for position in positions %}

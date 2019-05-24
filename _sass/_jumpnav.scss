@@ -3,8 +3,7 @@
 }
 
 .jumpnav {
-  @extend %col-md-3;
-  @extend %col-lg-3;
+  @extend %col-md-4;
   display: flex;
   flex-direction: column;
 
@@ -15,7 +14,7 @@
 
 .jumpnav-content {
   @extend %col-12;
-  @extend %col-md-9;
+  @extend %col-md-8;
 }
 
 @include media-breakpoint-up(sm) {
@@ -32,31 +31,46 @@
   }
 
   .jumpnav {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
     z-index: 5;
-    text-align: right;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    @include mb-4;
 
     #subnav {
+      box-sizing: border-box;
       background: #ffffff;
-      border-radius: 6px;
-      box-shadow: 0 0 4px rgba(0,0,0,0.25);
       display: none;
-      padding: 20px;
-      position: absolute;
-      bottom: 50px;
-      right: 0;
-      width: 230px;
       text-align: left;
 
       ul {
         width: 100%;
       }
+
+      .nav-item {
+        margin-bottom: 0 !important;
+      }
+
+      .nav-link {
+        width: 100%;
+
+        span {
+          margin-left: 0;
+          padding: 0.875rem 1rem;
+        }
+      }
     }
 
     .subnav-button {
-      display: inline-block;
+      padding: 0.875rem 1rem;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      text-align: left;
+      border-radius: 0;
+      background-color: #f8f8f8;
+      border-bottom: 1px solid $gray-lightest;
     }
 
     .subnav-visible {

@@ -2,7 +2,8 @@
   @extend %col-sm-11;
   @extend %col-lg-8;
   @extend %mx-auto;
-  @extend %mt-6;
+  @extend %mt-3;
+  @extend %mt-md-6;
 }
 
 .subnav-col {
@@ -31,6 +32,8 @@
 
     border-left: 7px solid $white;
 
+    width: 75%;
+
     &:hover,
     &:focus,
     &.active {
@@ -39,8 +42,9 @@
 
     span {
       display: block;
-      border-bottom: 1px solid $white;
+      border-bottom: 1px solid $gray-lightest;
       margin-left: 0.25rem;
+      white-space: nowrap;
 
       &:hover {
         border-bottom: 1px solid $nav-link-border-color;

@@ -55,6 +55,11 @@
     @include pl-2;
     @include pr-2;
   }
+
+  %py-md-down-3 {
+    @include pt-3;
+    @include pb-3;
+  }
 }
 
 @include media-breakpoint-up(md) {
