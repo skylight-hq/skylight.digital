@@ -96,7 +96,7 @@ $(function(){
 
 let toggleSubnav = function(e) {
   e.stopPropagation();
-  $('#subnav').toggleClass('subnav-visible');
+  $('.jumpnav').toggleClass('subnav-visible');
 }
 
 // Handle scroll styles

@@ -38,6 +38,18 @@
     top: 0;
     @include mb-4;
 
+    &.subnav-visible {
+      #subnav {
+        display: block !important;
+      }
+
+      .subnav-button {
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
     #subnav {
       box-sizing: border-box;
       background: #ffffff;
@@ -65,16 +77,17 @@
     .subnav-button {
       padding: 0.875rem 1rem;
       cursor: pointer;
-      display: block;
+      display: flex;
       width: 100%;
       text-align: left;
       border-radius: 0;
       background-color: #f8f8f8;
       border-bottom: 1px solid $gray-lightest;
-    }
 
-    .subnav-visible {
-      display: block !important;
+      i {
+        margin-left: auto;
+        transition: 0.1s all;
+      }
     }
   }
 }
