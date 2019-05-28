@@ -263,9 +263,10 @@
 }
 
 .section-break {
-  @extend .mt-5;
+  @extend %my-6;
+  margin-left: auto;
+  margin-right: auto;
   width: 65%;
-  margin: 0 auto;
   height: 1px;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, $sk-green));
   border: none;
