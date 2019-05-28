@@ -15,6 +15,12 @@
 .jumpnav-content {
   @extend %col-12;
   @extend %col-md-8;
+  @extend %narrative-base;
+
+  blockquote {
+    @extend %blockquote;
+    @extend %my-4;
+  }
 }
 
 @include media-breakpoint-up(sm) {
