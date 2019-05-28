@@ -8,12 +8,17 @@
             {{include.summary}}
             {{include.dates}}
             {{include.cost}}
+            <hr class="section-break" />
             {{include.instructors}}
+            <hr class="section-break" />
+            {% include training_form.html
+                date_field=include.date_field
+            %}
         </div>
     </div>
     {% include training_cta.html
-        header = "Register for this course"
-        text = "Send us an email below to start the registration process"
+        header = "Still have questions?"
+        text = "Please don’t hesitate to get in touch with us"
     %}
 </article>
     

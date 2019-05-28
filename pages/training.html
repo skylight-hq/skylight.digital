@@ -9,7 +9,7 @@ permalink: /training/
         <h1 class="text-white mb-4 header-display-2">Digital IT Acquisition Professional (DITAP) Training</h1>
         <p class="text-white mb-4">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you’ll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS) and up to 80 Continuous Learning Points.</p>
         <div>
-            <a href="mailto:chris@skylight.digital" role="button" class="btn btn-yellow mr-3 btn-md-block">Apply Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a href="/training/general" role="button" class="btn btn-yellow mr-3 btn-md-block">Apply Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             <a href="#" role="button" class="btn btn-outline-white mr-3 btn-md-block">Download syllabus</a>
         </div>
     </div>
@@ -101,22 +101,24 @@ permalink: /training/
                 <h2 class="header-display-3 mb-2 mt-5 pt-2">Upcoming Courses</h2>
                 <div class="courses">
                     {% for training in site.training_offerings %}
-                        <a href="{{training.permalink}}" class='course-card'>
-                            <div role="img" class="course-img" style="background-image: url({{training.image}});" title="Illustration of Hurricane Maria engulfing Puerto Rico."></div>
-                            <div class="course-preview p-4">
-                                <div class="font-weight-bold mb-3">{{training.start_date}} - {{training.end_date}}</div>
-                                <div class="font-weight-bold">{{training.location}}</div>
-                                <div class="text-gray-dark">
-                                    <strong>Instructors:</strong>
-                                    {% for member in training.instructors %}
-                                        {% assign emp = site.data.team | where: 'name', member | first %}
-                                        {{emp.full_name}}{% if forloop.last != true %}, {% endif %}
-                                    {% endfor %}
+                        {% if training.display_in_list %}
+                            <a href="{{training.permalink}}" class='course-card'>
+                                <div role="img" class="course-img" style="background-image: url({{training.image}});" title="Illustration of Hurricane Maria engulfing Puerto Rico."></div>
+                                <div class="course-preview p-4">
+                                    <div class="font-weight-bold mb-3">{{training.start_date}} - {{training.end_date}}</div>
+                                    <div class="font-weight-bold">{{training.location}}</div>
+                                    <div class="text-gray-dark">
+                                        <strong>Instructors:</strong>
+                                        {% for member in training.instructors %}
+                                            {% assign emp = site.data.team | where: 'name', member | first %}
+                                            {{emp.full_name}}{% if forloop.last != true %}, {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                    <div class="text-gray-dark mb-3"><strong>Cost:</strong> {{training.cost}}</div>
+                                    <div class="">Apply to this course →</div>
                                 </div>
-                                <div class="text-gray-dark mb-3"><strong>Cost:</strong> {{training.cost}}</div>
-                                <div class="">Apply to this course →</div>
-                            </div>
-                        </a>
+                            </a>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>

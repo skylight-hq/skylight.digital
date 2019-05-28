@@ -1,14 +1,12 @@
 ---
 layout: default
 title_tag: Digital IT Acquisition Professional Training
-title: Register for our next course
+title: Register for a future course
 location: Online + Washington, DC
 image: /img/ditap-icon.png
-start_date: August 14, 2019
-end_date: March 20, 2020
-display_in_list: true
+display_in_list: false
 cost: $6,500
-permalink: /training/ditap/
+permalink: /training/general/
 instructors:
   - chris-cairns
   - robert-read
@@ -17,23 +15,25 @@ instructors:
 
 {% capture summary %}
   <p>
-    We are now registering for our next course that runs from {{ page.start_date }} to {{ page.end_date }}. Each course spans 6 months with a combination of remote and in-person attendance. 
+    We are now registering for our Digital IT Acquisition Professional Training course. Each course spans 6 months with a combination of remote and in-person attendance. 
   </p>
 {% endcapture %}
 
 {% capture date_field %}
-  <input type="hidden" name="dates" value="{{ page.start_date }} - {{ page.end_date }}">
+  <div class="form-group">
+    <label for="dates">Dates</label>
+    <select id="dates" name="dates" class="form-control">
+      <option>Select a course date</option>
+      <option value="later">I'll choose later</option>
+      <option value="August 14, 2019 - March 20, 2020">August 14, 2019 - March 20, 2020</option>
+    </select>
+  </div>
 {% endcapture %}
 
 {% capture dates %}
   <p>
-    This session of the course will require the following in-person dates to complete the course:
+    This session of the course will require in-person dates to complete the course.
   </p>
-  <ul>
-    <li>August 20-23, 2019</li>
-    <li>November 20-23, 2019</li>
-    <li>March 1-4, 2020</li>
-  </ul>
 {% endcapture %}
 
 {% capture cost %}
@@ -49,7 +49,7 @@ instructors:
 {% endcapture %}
 
 {% capture instructors %}
-  <h3 class="header-display-3 mb-3">Meet your instructors</h3>
+  <h3 class="header-display-3 mb-3">Our instructors</h3>
   {% assign member_count = page.instructors.size %}
   {% for member in page.instructors %}
     {% assign emp = site.data.team | where: 'name', member | first %}
@@ -69,8 +69,8 @@ instructors:
 
 {% include training.html
   summary = summary
+  date_field = date_field
   dates = dates
   cost = cost
   instructors = instructors
-  date_field = date_field
 %}
