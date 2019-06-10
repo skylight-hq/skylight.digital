@@ -742,3 +742,35 @@
       link: https://github.com/cacraig
       link_description: Colin's GitHub Account
       fa_icon_name: github
+- name: ashley-treni
+  fname: Ashley
+  lname: Treni
+  full_name: Ashley Treni
+  short_name: A. Treni
+  profile_path: /about/#ashley-treni
+  image: /img/people/eleanor-roosevelt.png
+  image_description: Placeholder Photo of Ashley Treni
+  position: UX Designer
+  bio: >
+    Ashely is a UX researcher and designer. As a Design Fellow for the social
+    impact incubator, Blue Ridge Labs, she launched and co-founded Justfix.nyc.
+    Ashley currently teaches UX design at General Assembly. She lives in New York.
+  active: true
+  order: 110
+  socials:
+    - name: Twitter
+      link: https://twitter.com/ashleytreni
+      link_description: Ashley's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/ashleytreni/
+      link_description: Ashley's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/atreni
+      link_description: Ashley's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: http://www.designtaxonomy.com/
+      link_description: Ashley's Personal Website
+      fa_icon_name: home
