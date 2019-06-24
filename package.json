@@ -4,7 +4,7 @@
   "description": "Skylight's flagship website",
   "devDependencies": {
     "cryptiles": ">=4.1.2",
-    "eslint": "^3.19.0",
+    "eslint": "^4.18.2",
     "grunt": "^1.0.4",
     "grunt-accessibility": "^6.0.0",
     "grunt-cli": "^1.3.2"
