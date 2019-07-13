@@ -775,3 +775,59 @@
       link: http://www.designtaxonomy.com/
       link_description: Ashley's Personal Website
       fa_icon_name: home
+- name: mitchell-sipus
+  fname: Mitchell
+  lname: Sipus
+  full_name: Mitchell Sipus
+  short_name: M. Sipus
+  profile_path: /about/#mitchell-sipus
+  image: /img/people/mitchell-sipus.jpg
+  image_description: Mitchell Sipus
+  position: Service Designer
+  bio: >
+    Mitchell served as a Presidential Innovation Fellow, and is best known for
+    designing and launching Africa's first data-driven conflict reconstruction strategy
+    in Mogadishu, Somalia. He's currently completing a PhD in design at Carnegie Mellon,
+    and specializes in design-centric approaches to advanced technology fields such as
+    robotics, artificial intelligence, and Internet of Things. Mitchell lives in Pennsylvania.
+  active: true
+  order: 25
+  socials:
+    - name: Twitter
+      link: https://twitter.com/msipus
+      link_description: Mitchell's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mitchellsipus/
+      link_description: Mitchell's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: http://www.sipusdesign.com/
+      link_description: Mitchell's Personal Website
+      fa_icon_name: home
+- name: marvo-dolor
+  fname: Marvo
+  lname: Dolor
+  full_name: Marvo Dolor
+  short_name: M. Dolor
+  profile_path: /about/#marvo-dolor
+  image: /img/people/eleanor-roosevelt.png
+  image_description: Placeholder Photo of Marvo Dolor
+  position: Engagement Manager
+  bio: >
+    Marvo is a former member of the U.S. Digital Service, where she
+    held multiple executive leadership positions in support of major
+    initiatives at the Veterans Affairs, including vets.gov (now va.gov) and
+    the Appeals Modernization. She specializes in digital leadership,
+    strategy & operations, and product management. Marvo lives in Maryland.
+  active: true
+  order: 20
+  socials:
+    - name: Twitter
+      link: https://twitter.com/marvokdolor
+      link_description: Marvo's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/marvokdolor/
+      link_description: Marvo's LinkedIn Account
+      fa_icon_name: linkedin
