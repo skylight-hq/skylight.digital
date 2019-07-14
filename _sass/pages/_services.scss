@@ -82,13 +82,11 @@
   }
 }
 
-.capabilities-row,
-.industry-info-list-row {
+.capabilities-row {
   @extend %row;
 }
 
-.capability-group-col,
-.industry-info-item-col {
+.capability-group-col {
   @extend %col-md-6;
   @extend %col-lg-4;
   @extend %mt-4;
@@ -112,16 +110,5 @@
     @extend %list-unstyled;
     font-size: $font-size-small;
     line-height: 1.75;
-  }
-}
-
-.industry-info-item-col {
-  p {
-    @extend %mb-0;
-    font-size: $font-size-small;
-
-    + p {
-      @extend %mt-3;
-    }
   }
 }
