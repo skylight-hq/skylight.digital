@@ -57,11 +57,9 @@
 - name: Policies & Standards
   capabilities:
     - Federal Acquisition Regulation
-    - Section 508
     - Paperwork Reduction Act
-    - Privacy Act
     - FISMA
-    - HIPAA
-    - FERPA
+    - Privacy Act / HIPAA / FERPA
+    - Section 508
     - Schedule A(r) Hiring Authority
   order: 60
