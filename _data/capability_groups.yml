@@ -50,16 +50,16 @@
     - Lean-Agile Enterprise &amp; DevOps
     - Digital Talent &amp; Fellowship Programs
     - Innovation Labs
-    - Agile Coaching &amp; Training
-    - Instructional Design
+    - Instructional Design & Training
+    - Coaching
     - Agile Project Management
   order: 50
 - name: Policies & Standards
   capabilities:
     - Federal Acquisition Regulation
-    - Section 508
     - Paperwork Reduction Act
     - FISMA
-    - Privacy Act
+    - Privacy Act / HIPAA / FERPA
+    - Section 508
     - Schedule A(r) Hiring Authority
   order: 60
