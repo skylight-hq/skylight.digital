@@ -728,9 +728,10 @@
   position: Full Stack Engineer
   bio: >
     Colin is a former member of 18F, who is passionate about coaching, mentoring,
-    and leading. While at 18F, he served as the technical lead over analytics.usa.gov
-    and everykidinapark.gov. He specializes in software engineering, APIs, DevOps,
-    and data engineering. Colin lives in North Carolina.
+    and leading. While at 18F, he served in technical leadership roles on products
+    such as login.gov, analytics.usa.gov, everykidinapark.gov, and FBI Crime Data Explorer.
+    He specializes in software engineering, APIs, DevOps, and data engineering.
+    Colin lives in North Carolina.
   active: true
   order: 170
   socials:
