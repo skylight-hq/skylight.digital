@@ -24,7 +24,7 @@ To support these new projects, we've grown our design, product, engineering, and
 [Marvo](https://skylight.digital/about/#marvo-dolor) is drawn to solving complex, multi-faceted government problems. At Skylight, she works with our clients to plan and execute [service delivery](https://skylight.digital/services/digital-services-delivery/), [procurement](https://skylight.digital/services/digital-procurement/), and [transformation](https://skylight.digital/services/digital-transformation/) initiatives using agile project management techniques. Prior to joining us, Marvo served as a member of the [U.S. Digital Service](https://www.usds.gov/) at the Department of Veterans Affairs (VA), where she held multiple leadership positions in support of major initiatives, such as the successful [redesign of VA.gov](https://www.va.gov/) and the [modernization of the benefits appeals process](https://www.fedscoop.com/help-usds-va-improves-benefits-appeals-tracking-tool/).
 
 <blockquote>
-<p>"I believe technology can do more than entertain and amaze us, which is why one of my most meaningful projects was working with state and federal governments on sustainable shipping regulations and ocean-observing systems."
+<p>"I believe technology can do more than entertain and amaze us &mdash; it can also be a force for good in people's lives. That's why it was an honor to do a tour of duty with the U.S. Digital Service."
 </p>
 </blockquote>
 
@@ -40,7 +40,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 ## Chris Given, Data Engineer
 
-[Chris](https://skylight.digital/about/#chris-given) loves untangling complex data and system problems. At Skylight, he helps our clients turn unwieldy datasets into useful and accessible resources -- for everyone. Prior to Skylight, Chris worked at the U.S. Digital Service at VA and the District of Columbia, where he worked on the city's open data policy.
+[Chris](https://skylight.digital/about/#chris-given) loves untangling complex data and system problems. At Skylight, he helps our clients turn unwieldy datasets into useful and accessible resources &mdash; for everyone. Prior to Skylight, Chris worked at the U.S. Digital Service at VA and the District of Columbia, where he worked on the city's open data policy.
 
 <blockquote>
 <p>
