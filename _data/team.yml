@@ -833,3 +833,7 @@
       link: https://www.linkedin.com/in/marvokdolor/
       link_description: Marvo's LinkedIn Account
       fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/marvokdolor-gov
+      link_description: Marvo's GitHub Account
+      fa_icon_name: github
