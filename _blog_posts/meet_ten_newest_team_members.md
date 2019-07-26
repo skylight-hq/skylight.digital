@@ -8,7 +8,7 @@ image_description: Illustration of a waving hand emoji.
 image_display: true
 order: 2600
 tags: [chris cairns]
-excerpt: Announcing the addition of 10 new members to the Skylight team who are working together to make government services better for everyone.
+excerpt: Introducing the 10 newest members of the Skylight team, who are working together to make government services better for everyone.
 authors:
   - Chris Cairns
 date_published: 2019-07-24
