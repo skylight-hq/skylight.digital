@@ -837,3 +837,38 @@
       link: https://github.com/marvokdolor-gov
       link_description: Marvo's GitHub Account
       fa_icon_name: github
+- name: cailyn-hansen
+  fname: Cailyn
+  lname: Hansen
+  full_name: Cailyn Hansen
+  short_name: C. Hansen
+  profile_path: /about/#cailyn-hansen
+  image: /img/people/cailyn-hansen.jpg
+  image_description: Photo of Cailyn Hansen
+  position: Data Engineer
+  bio: >
+    Cailyn is a data engineer and full-stack web developer,
+    with a passion for making data open and accessible and
+    unravelling legacy code. She specializes in human-centered
+    data science & engineering, DevOps, and test-driven development.
+    Cailyn interned at Facebook and graduated from Brown.
+    She lives in New York.
+  active: true
+  order: 145
+  socials:
+    - name: Twitter
+      link: https://twitter.com/cailynhansen
+      link_description: Cailyn's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://linkedin.com/in/cailynhansen
+      link_description: Cailyn's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/cailyncodes
+      link_description: Cailyn's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: http://cailynhansen.com
+      link_description: Cailyn's Personal Website
+      fa_icon_name: home
