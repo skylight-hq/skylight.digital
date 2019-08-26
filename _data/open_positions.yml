@@ -8,27 +8,19 @@
   url: https://skylight.workable.com/jobs/1083508
   location: Remote
   order: 10
-- title: UX Researcher
-  url: https://skylight.workable.com/jobs/1083246
-  location: Remote
-  order: 20
-- title: UX Designer
-  url: https://skylight.workable.com/jobs/1083270
-  location: Remote
-  order: 30
 - title: Sofware Engineer
   url: https://skylight.workable.com/jobs/1083190
   location: Remote
-  order: 40
+  order: 20
 - title: DevOps Engineer
   url: https://skylight.workable.com/jobs/1083314
   location: Remote
-  order: 50
+  order: 30
 - title: Security Lead
   url: https://skylight.workable.com/jobs/1093809
   location: Remote
-  order: 60
+  order: 40
 - title: Digital Transformer
   url: https://skylight.workable.com/jobs/1095653
   location: Remote
-  order: 70
+  order: 50
