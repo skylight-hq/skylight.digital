@@ -966,3 +966,29 @@
       link: https://github.com/brandocalrissian
       link_description: Brandon's GitHub Account
       fa_icon_name: github
+- name: julia-hogan
+  fname: Julia
+  lname: Hogan
+  full_name: Julia Hogan
+  short_name: J. Hogan
+  profile_path: /about/#julia-hogan
+  image: /img/people/julia-hogan.jpg
+  image_description: Photo of Julia Hogan
+  position: Software Engineer
+  bio: >
+    Julia is a software engineer excited that she's figured out how to use
+    technology to help people. She's committed to the challenge of
+    improving government services through integration of smart digital
+    solutions. She most recently worked as an employee of NYC government,
+    building sites and services to increase data access. She lives in New York.
+  active: true
+  order: 178
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/julialhogan/
+      link_description: Julia's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/jlhogan
+      link_description: Julia's GitHub Account
+      fa_icon_name: github
