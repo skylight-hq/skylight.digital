@@ -872,3 +872,33 @@
       link: http://cailynhansen.com
       link_description: Cailyn's Personal Website
       fa_icon_name: home
+- name: amelia-wellers
+  fname: Amelia
+  lname: Wellers
+  full_name: Amelia Wellers
+  short_name: A. Wellers
+  profile_path: /about/#amelia-wellers
+  image: /img/people/amelia-wellers.jpg
+  image_description: Photo of Amelia Wellers
+  position: Engagement Manager
+  bio: >
+    Amelia is a builder at heart. A recent graduate of Cornell Tech's MBA
+    program, she has expertise in product management, digital strategy,
+    and marketing. Amelia led digital transformation initiatives at the NYC
+    Mayor's Office for Economic Opportunity and the Cambridge Innovation Center.
+    She lives in New York.
+  active: true
+  order: 175
+  socials:
+    - name: Twitter
+      link: https://twitter.com/Awellia
+      link_description: Amelia's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/ameliawellers/
+      link_description: Amelia's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://awellia.com/
+      link_description: Amelia's Personal Website
+      fa_icon_name: home
