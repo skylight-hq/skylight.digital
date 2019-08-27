@@ -308,7 +308,7 @@
     in design leadership, service design, user experience design, and design research.
     Victor resides in New York.
   active: true
-  order: 40
+  order: 30
   socials:
     - name: Twitter
       link: https://twitter.com/victorzapanta
@@ -375,7 +375,7 @@
     Lara specializes in design leadership, design research, service design,
     and user experience design. Lara lives in New York.
   active: true
-  order: 30
+  order: 40
   socials:
     - name: Twitter
       link: https://twitter.com/lkohl
@@ -902,3 +902,67 @@
       link: https://awellia.com/
       link_description: Amelia's Personal Website
       fa_icon_name: home
+- name: maya-benari
+  fname: Maya
+  lname: Benari
+  full_name: Maya Benari
+  short_name: M. Benari
+  profile_path: /about/#maya-benari
+  image: /img/people/maya-benari.jpg
+  image_description: Photo of Maya Benari
+  position: UX Developer
+  bio: >
+    Maya is a former member of 18F where she worked on improving
+    the user experience of government and developed the U.S.
+    Web Design System. She specializes in front-end development, UX design,
+    accessibility, and design systems. She's also a former
+    Code for America fellow. Maya lives in California.
+  active: true
+  order: 28
+  socials:
+    - name: Twitter
+      link: https://twitter.com/mayabenari
+      link_description: Maya's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mayab/
+      link_description: Maya's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/maya
+      link_description: Maya's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: http://maya-benari.com/
+      link_description: Maya's Personal Website
+      fa_icon_name: home
+- name: brandon-kirby
+  fname: Brandon
+  lname: Kirby
+  full_name: Brandon Kirby
+  short_name: B. Kirby
+  profile_path: /about/#brandon-kirby
+  image: /img/people/brandon-kirby.jpg
+  image_description: Photo of Brandon Kirby
+  position: Digital Transformer
+  bio: >
+    Brandon is a former member of 18F where he delivered strategy,
+    software, and technology guidance to many government agencies.
+    He's a generalist who uses his experience in software development,
+    agile practices, strategy, and product management to help partners
+    find the right path. He lives in Georgia.
+  active: true
+  order: 45
+  socials:
+    - name: Twitter
+      link: https://twitter.com/BrandoKirby
+      link_description: Brandon's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brandocalrissian/
+      link_description: Brandon's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/brandocalrissian
+      link_description: Brandon's GitHub Account
+      fa_icon_name: github
