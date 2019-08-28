@@ -1,0 +1,25 @@
+.hero {
+  background: linear-gradient(67.15deg, #183751 -5.79%, #235384 107.23%), #162D44;
+
+  .container {
+    padding-bottom: 55px;
+    padding-top: 55px;
+    max-width: 700px;
+  }
+
+  .btn-warning {
+    font-weight: $font-weight-bold;
+  }
+}
+
+.hero-heading {
+  color: $white;
+  font-size: $font-size-h2;
+}
+
+.hero-content {
+  color: $white;
+  font-size: $font-size-large;
+  line-height: 1.5;
+  margin-top: 1em;
+}
