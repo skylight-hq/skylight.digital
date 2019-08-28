@@ -1,0 +1,134 @@
+---
+layout: default
+title: Digital Acquisition Training for Professionals (DITAP)
+permalink: /services/ditap/
+excerpt: Excerpt text
+image: /img/api-microconsulting.png
+image_description: Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course. 
+tags: [services]
+---
+
+<div class="hero">
+  <div class="container">
+    <h1 class="hero-heading">Digital Acquisition Training for Professionals (DITAP)</h1>
+    <p class="hero-content">Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course.</p>
+    <a class="btn btn-warning btn-lg text-dark mr-1" href="#">Apply now →</a>
+    <a class="btn btn-outline-light btn-lg" href="#">Request syllabus</a>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <h2 class="">Become a digital acquisition professional</h2>
+  <p class="">Acquire the skills you need to make procurement work for government in today’s digital world.</p>
+
+  <div class="row">
+    <div class="col-12 col-lg-4">
+      <h3>Learn to lead</h3>
+      <p>Understand how modern approaches to delivering technology -- from agile to cloud computing -- have changed the way your agency needs to acquire products and services. Learn how to prepare your agency, and win stakeholder support, for digital acquisition methods.</p>
+    </div>
+    <div class="col-12 col-lg-4">
+      <h3>Achieve Mastery</h3>
+      <p>Master the concepts, tools, and techniques you need to succeed with digital acquisitions through our comprehensive, in-depth, richly-structured learning environment. Engage with real experts who pioneered the art of digital acquisition. Earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS).</p>
+    </div>
+    <div class="col-12 col-lg-4">
+      <h3>Reinvent Procurement</h3>
+      <p>Fundamentally change the way you and your agency procures. Experience greater collaboration with vendors, higher quality results, and lower costs.</p>
+    </div>
+  </div>
+
+  <h2>Engage in a unique learning experience</h2>
+  <p>Skylight believes that learning, like acquisitions in government, should be collaborative and hands-on. As part of Skylight’s DITAP cohort, you won’t just receive a seminar--you’ll actively participate in a community devoted to the pillars of acquisitions and digital services. We’ve designed our learning environment to work with you, and our team of master educators and coaches will leverage their real-world knowledge to give you an immersive experience in both the theory and applied practice of digital acquisitions.</p>
+
+  <h3>Our top instructors come to you</h3>
+  <p>Our instructors don’t just present the DITAP material -- they live it every day. We’ve assembled a second-to-none team of educators, coaches, and acquisition professionals who are eager to share their experiences. Through our blend of remote and onsite learning, you’ll have the chance to engage with the men and women who helped pioneer the modern landscape of digital acquisitions.</p>
+
+  <h3>Dynamic learning opportunities</h3>
+  <p>We’ve developed a variety of methods to help you engage with the DITAP material. We blend traditional in-person classroom learning (full of activities, seminars, panels, and guest speakers) with flexible, asynchronous online learning content such as readings, modules, team projects, and plenty of interactive discussion and collaboration. Our balanced and holistic approach to teaching will give you the tools to succeed to the best of your abilities, whatever your learning style.</p>
+
+  <h3>Personalized guidance</h3>
+  <p>As a member of Skylight’s cohort, not only will you receive a hands-on education from the best in the business, but our skilled facilitators will help mentor you every step of the way. Through collaboration webinars, feedback and discussion sessions, and even helping coach project teams, our team of educators wants to help you learn however you feel you’ll best succeed.</p>
+
+  <h2>What you’ll learn</h2>
+  <p>In this program, you’ll learn how to translate critical concepts and resources in the field of digital acquisition into effective, real-world practice.</p>
+
+  <h3>Digital Services in the 21st Century Government</h3>
+  <p>Learn the fundamentals of digital services, including agile software delivery, human-centered design, cloud computing, and X-as-a-service.</p>
+  <h3>Understanding What You’re Buying</h3>
+  <p>Learn how to determine what your customer’s needs are, how to assess which digital service solutions are most likely to succeed given your agency’s current level of maturity, and how to conduct market research.</p>
+  <h3>How to buy</h3>
+  <p>Understand how to develop an acquisition strategy that effectively factors in the needs of your customer, your agency’s digital service maturity, your market research findings, and digital acquisition best practices.</p>
+  <h3>Awarding and Administering Digital Service Contracts</h3>
+  <p>Learn proven tools and techniques for awarding and administering digital service contracts that actually deliver results.</p>
+  <h3>Leading change as a digital acquisition professional</h3>
+  <p>Master the leadership and communication skills you need to win stakeholder buy-in for digital acquisition.</p>
+
+  <div class="bg-primary text-white p-4">
+    <p>Want to know more about our course?</p>
+    <a class="btn btn-outline-light" href="#">Request syllabus</a>
+  </div>
+</div>
+
+<div class="bg-warning py-5">
+  <div class="container">
+    <p class="font-size-large">“As one of the first students to complete the DITAP program and earn the FAC-C-DS certification in 201X, I walked away with the critical know-how necessary to help change the way my agency acquires technology services. The contracting results that I experienced supporting some of the government’s most critical programs were the reasons why I became an acquisition professional in the first place.”</p>
+    <p class="font-size-large"><i><strong>Dan Levenson,</strong> Former Centers for Medicare & Medicaid Services Digital Service Contracting Advisor and Lead Contracting Officer for the Quality Payment Program</i></p>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Meet your instructors</h2>
+  <p>Learn from skilled instructors with unparalleled experience in the field.</p>
+
+  <h3>Chris Cairns</h3>
+  <p>Chris served as a White House Presidential Innovation Fellow, and co-founded 18F. He started and built 18F’s influential acquisition group, which specializes in digital acquisition methods. Chris is known for pioneering 18F’s agile acquisition framework, and for architecting the government’s first-ever agile vendor contract vehicle using a tech challenge.</p>
+  <h3>Robert Read, PhD</h3>
+  <p>Robert served as a White House Presidential Innovation Fellow, and co-founded 18F. Originally trained by agile pioneer Kent Beck, Robert has over 15 years experience as an agile practitioner and coach. He holds a PhD in computer science, and is best known for writing a popular, multilingual guide on how to be a programmer.</p>
+  <h3>Lesley Evans</h3>
+  <p>Lesley is a UX researcher, with a passion for creating delightful user experiences. She specializes in a variety of qualitative and quantitative research techniques, including user interviews, user modeling, usability testing, prototyping, and more. Lesley lives in Colorado.</p>
+
+  <h2>Tuition and dates</h2>
+  <h3>August 14, 2018 to March 29, 2019</h3>
+  <p><strong>Location:</strong> Online + Washington DC</p>
+  <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
+  <p><strong>Cost:</strong> $6500 USD</p>
+  <p><a href="#">Apply now →</a></p>
+
+  <h2>Get answers</h2>
+  <p>Here are some questions that we’re typically asked, along with our responses:</p>
+
+  {% capture accordion_body %}
+  <ul>
+    <li>15 hours of webinars across 6 months.</li>
+    <li>9 full days of mandatory, in-person classroom instruction.</li>
+    <li>Additional 12 hours per week to read articles, participate in online discussions, contribute to group activities, and work on assignments.</li>
+  </ul>
+  {% endcapture %}
+
+  {% include accordion.html accordion_header = 'What’s the expected workload?' accordion_body = accordion_body accordion_index = '0' %}
+  {% include accordion.html accordion_header = 'What do I earn for successfully completing the course?' accordion_body = "Accordion content" accordion_index = '1' %}
+
+  <p>Still have more questions? Please don’t hesitate to <a href="mailto:admin@skylight.digital">email us</a>.</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

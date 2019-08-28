@@ -67,6 +67,7 @@ fieldset[disabled] a.btn {
 }
 .btn-warning {
   @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
+  color: $black;
 }
 .btn-danger {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
@@ -91,7 +92,9 @@ fieldset[disabled] a.btn {
 .btn-outline-danger {
   @include button-outline-variant($btn-danger-bg);
 }
-
+.btn-outline-light {
+  @include button-outline-variant($white);
+}
 
 //
 // Link buttons
