@@ -10,10 +10,14 @@ tags: [services]
 
 <div class="hero">
   <div class="container">
-    <h1 class="hero-heading">Digital Acquisition Training for Professionals (DITAP)</h1>
-    <p class="hero-content">Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course.</p>
-    <a class="btn btn-warning btn-lg text-dark mr-1" href="#">Apply now →</a>
-    <a class="btn btn-outline-light btn-lg" href="#">Request syllabus</a>
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <h1 class="hero-heading">Digital Acquisition Training for Professionals (DITAP)</h1>
+        <p class="hero-content">Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course.</p>
+        <a class="btn btn-warning btn-lg text-dark mr-1" href="#">Apply now →</a>
+        <a class="btn btn-outline-light btn-lg" href="#">Request syllabus</a>
+      </div>
+    </div>
   </div>
 </div>
 
