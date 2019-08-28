@@ -19,8 +19,8 @@ tags: [services]
 
 <div class="container page-ditap-content">
   <div class="row">
-    <div class="subnav-col col-12 col-md-2 mt-5">
-      <nav>
+    <div class="col-12 col-md-2 mt-5">
+      <nav  class="subnav-col px-0">
         <ul role="presentation">
           <li><a href="#overview">Overview</a></li>
           <li><a href="#learning-experience">Learning experience</a></li>
@@ -30,6 +30,7 @@ tags: [services]
           <li><a href="#faqs">FAQs</a></li>
         </ul>
       </nav>
+      <a class="btn btn-primary font-weight-bold mt-2" href="#">Apply now →</a>
     </div>
 
     <div class="col-12 col-md-10">
