@@ -1,0 +1,25 @@
+.page-ditap-content {
+  .subnav-col {
+    flex: none;
+    margin-left: initial !important;
+    margin-right: initial !important;
+  }
+}
+
+.quote-container {
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  &:before {
+    box-shadow: -100px 0;
+  }
+
+  &:after {
+    box-shadow: 100px 0;
+  }
+}
