@@ -4,7 +4,7 @@
   }
 
   h2 {
-    font-size: $font-size-h3;
+    font-size: 32px;
     margin-top: 3.5rem;
   }
 
@@ -26,6 +26,14 @@
   .sticky {
     position: sticky;
     top: 1rem;
+  }
+
+  .employee-img {
+    background-color: #f2f2f2;
+
+    @include media-breakpoint-up(lg) {
+      height: 226px;
+    }
   }
 }
 
@@ -79,6 +87,11 @@
 
 .text-intro {
   font-size: $font-size-h4;
+  line-height: 1.5;
+  
+  h2 + & {
+    margin-top: 0.5em !important;
+  }
 }
 
 .quote-text {
@@ -88,5 +101,18 @@
 .image-list {
   > div {
     margin-top: 1.5rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.tuition {
+  border: 2px solid #f2f2f2;
+
+  p {
+    font-size: 1rem;
+    margin-top: 12px;
   }
 }
