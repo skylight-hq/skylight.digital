@@ -1,0 +1,57 @@
+---
+layout: default
+title: Submit your application
+permalink: /services/ditap/apply/
+excerpt: Excerpt text
+image: /img/api-microconsulting.png
+image_description: 
+tags: [services]
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mx-md-auto">
+      <h1 class="h3 mt-5">{{ page.title }}</h1>
+
+      <p class="mt-3">We’ll review your application and follow up within 1–2 business days to ask you a few questions. We want you to have the best experience possible, so it’s important to determine whether you’re a good fit for the program at this time. Once you’re approved, we’ll then walk you through the process of formally enrolling, including tuition payment.</p>
+
+      <form accept-charset="UTF-8" action="" method="POST">
+        <input type="hidden" name="utf8" value="✓">
+
+          <div class="form-small">
+            <div class="form-group">
+              <label class="required" for="name-input">Name</label>
+              <input id="name-input" class="form-control" type="text" placeholder="" name="name" autocomplete="name" required>
+            </div>
+
+            <div class="form-group">
+              <label class="required" for="organization-input">Organization</label>
+              <input id="organization-input" class="form-control" type="text" placeholder="" name="organization" autocomplete="" required>
+            </div>
+
+            <div class="form-group">
+              <label class="required" for="email-input">Email</label>
+              <input id="email-input" class="form-control" type="email" placeholder="" name="email" autocomplete="email" required>
+            </div>
+
+            <div class="form-group">
+              <label class="required" for="telephone-input">Telephone</label>
+              <input id="telephone-input" class="form-control" type="number" placeholder="" name="telephone" autocomplete="tel" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="required" for="why-input">Why do you want to take this course?</label>
+            <textarea id="why-input" class="form-control" rows="5" placeholder="" name="why" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="required" for="experience-input">What’s your current level of acquisition experience?</label>
+            <textarea id="experience-input" class="form-control" rows="5" placeholder="" name="experience" required></textarea>
+          </div>
+
+          <button class="btn btn-primary-dark font-weight-bold">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
