@@ -65,21 +65,21 @@ tags: [services]
 
         <div class="image-list row mt-4">
           <div class="col-12 col-lg-4">
-            <img src="#" alt="pic">
+            <img src="/img/blog/api_enablement/api-benefits-napkin.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Our top instructors come to you</h3>
             <p>Our instructors don’t just present the DITAP material -- they live it every day. We’ve assembled a second-to-none team of educators, coaches, and acquisition professionals who are eager to share their experiences. Through our blend of remote and onsite learning, you’ll have the chance to engage with the men and women who helped pioneer the modern landscape of digital acquisitions.</p>
           </div>
           <div class="col-12 col-lg-4">
-            <img src="#" alt="pic">
+            <img src="/img/about-skylight.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Dynamic learning opportunities</h3>
             <p>We’ve developed a variety of methods to help you engage with the DITAP material. We blend traditional in-person classroom learning (full of activities, seminars, panels, and guest speakers) with flexible, asynchronous online learning content such as readings, modules, team projects, and plenty of interactive discussion and collaboration. Our balanced and holistic approach to teaching will give you the tools to succeed to the best of your abilities, whatever your learning style.</p>
           </div>
           <div class="col-12 col-lg-4">
-            <img src="#" alt="pic">
+            <img src="/img/blog/meet_ten_newest_team_members/waving-hand-emoji.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Personalized guidance</h3>
@@ -131,21 +131,21 @@ tags: [services]
 
       <div class="image-list row">
         <div class="col-12 col-lg-4">
-          <img src="#" alt="Chris Cairns">
+          <div role="img" class="employee-img" style="background-image: url(/img/people/chris-cairns.jpg);" title="Chris Cairns"></div>
         </div>
         <div class="col-12 col-lg-8">
           <h3>Chris Cairns</h3>
           <p>Chris served as a White House Presidential Innovation Fellow, and co-founded 18F. He started and built 18F’s influential acquisition group, which specializes in digital acquisition methods. Chris is known for pioneering 18F’s agile acquisition framework, and for architecting the government’s first-ever agile vendor contract vehicle using a tech challenge.</p>
         </div>
         <div class="col-12 col-lg-4">
-          <img src="#" alt="Robert Read, PhD">
+          <div role="img" class="employee-img" style="background-image: url(/img/people/robert-read.jpg);" title="Robert Read, PhD"></div>
         </div>
         <div class="col-12 col-lg-8">
           <h3>Robert Read, PhD</h3>
           <p>Robert served as a White House Presidential Innovation Fellow, and co-founded 18F. Originally trained by agile pioneer Kent Beck, Robert has over 15 years experience as an agile practitioner and coach. He holds a PhD in computer science, and is best known for writing a popular, multilingual guide on how to be a programmer.</p>
         </div>
         <div class="col-12 col-lg-4">
-          <img src="#" alt="Lesley Evans">
+          <div role="img" class="employee-img" style="background-image: url(/img/people/lesley-evans.jpg);" title="Lesley Evans"></div>
         </div>
         <div class="col-12 col-lg-8">
           <h3>Lesley Evans</h3>
@@ -154,11 +154,19 @@ tags: [services]
       </div>
 
       <h2 id="tuition-and-dates">Tuition and dates</h2>
-      <h3>August 14, 2018 to March 29, 2019</h3>
-      <p><strong>Location:</strong> Online + Washington DC</p>
-      <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
-      <p><strong>Cost:</strong> $6500 USD</p>
-      <p><a href="#">Apply now →</a></p>
+      <div class="row tuition no-gutters mt-4">
+        <div class="col-12 col-lg-4">
+          <div role="img" class="employee-img" style="background-image: url(/img/digital-procurement-icon.png);" title="Illustration of a government building with icons representing different vendor offerings around it."></div>
+        </div>
+        <div class="col-12 col-lg-8 pl-4 py-3">
+          <h3>August 14, 2018 to March 29, 2019</h3>
+          <p><strong>Location:</strong> Online + Washington DC</p>
+          <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
+          <p><strong>Cost:</strong> $6500 USD</p>
+          <p><a href="#">Apply now →</a></p>
+        </div>
+      </div>
+
 
       <h2 id="faqs">Get answers</h2>
       <p class="text-intro mb-4">Here are some questions that we’re typically asked, along with our responses:</p>
