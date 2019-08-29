@@ -180,7 +180,48 @@ tags: [services]
       {% endcapture %}
 
       {% include accordion.html accordion_header = 'What’s the expected workload?' accordion_body = accordion_body accordion_index = '0' %}
-      {% include accordion.html accordion_header = 'What do I earn for successfully completing the course?' accordion_body = "Accordion content" accordion_index = '1' %}
+
+      {% capture accordion_body %}
+      <ul>
+        <li>6 months of Digital Acquisition training.</li>
+        <li>Access to all course materials and our online learning platform.</li>
+        <li>Access to our training team, who will be available for 1-on-1 sessions during non-classroom hours.</li>
+        <li>Collaboration and networking opportunities.</li>
+        <li>While most of the program can be completely remotely, travel for the in-person classroom session isn’t included.</li>
+      </ul>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'What does my tuition cover?' accordion_body = accordion_body accordion_index = '1' %}
+
+      {% capture accordion_body %}
+      <ul>
+        <li>Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS).</li>
+        <li>Up to 80 Continuous Learning Points (CLPs) based on your level of achievement in the program.</li>
+      </ul>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'What do I earn for successfully completing the course?' accordion_body = accordion_body accordion_index = '2' %}
+
+      {% capture accordion_body %}
+      <p>Level II or Level III FAC-C certification is preferred, but not required as long as you have the requisite acquisition skills and knowledge to complete the program.</p>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'What are the prerequisites for taking this course?' accordion_body = accordion_body accordion_index = '3' %}
+
+      {% capture accordion_body %}
+      <ul>
+        <li>Fellow acquisition professionals who are as passionate about changing procurement outcomes as you are.</li>
+        <li>Future collaborators and friends.</li>
+      </ul>
+
+      {% endcapture %}
+      {% include accordion.html accordion_header = 'Who else will be attending this course with me?' accordion_body = accordion_body accordion_index = '4' %}
+
+      {% capture accordion_body %}
+      <p>Each course requires a minimum of 25 participants. The run dates are contingent upon meeting this minimum.</p>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'Is the course guaranteed to run if I sign-up?' accordion_body = accordion_body accordion_index = '5' %}
 
       <p>Still have more questions? Please don’t hesitate to <a href="mailto:admin@skylight.digital">email us</a>.</p>
     </div>
