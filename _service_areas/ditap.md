@@ -34,7 +34,7 @@ tags: [services]
           <li><a href="#faqs">FAQs</a></li>
         </ul>
       </nav>
-      <a class="btn btn-primary font-weight-bold mt-2" href="#">Apply now →</a>
+      <a class="btn btn-primary-dark font-weight-bold mt-2" href="#">Apply now →</a>
     </div>
 
     <div class="col-12 col-md-10">

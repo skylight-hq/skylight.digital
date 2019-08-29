@@ -55,7 +55,9 @@ fieldset[disabled] a.btn {
 .btn-primary {
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
 }
-
+.btn-primary-dark {
+  @include button-variant($btn-primary-dark-color, $btn-primary-dark-bg, $btn-primary-dark-border);
+}
 .btn-secondary {
   @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
 }
