@@ -47,7 +47,7 @@ tags: [services]
         <div class="text-grid row">
           <div class="col-12 col-lg-4">
             <h3>Learn to lead</h3>
-            <p>Understand how modern approaches to delivering technology -- from agile to cloud computing -- have changed the way your agency needs to acquire products and services. Learn how to prepare your agency, and win stakeholder support, for digital acquisition methods.</p>
+            <p>Understand how modern approaches to delivering technology—from agile to cloud computing—have changed the way your agency needs to acquire products and services. Learn how to prepare your agency, and win stakeholder support, for digital acquisition methods.</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Achieve Mastery</h3>
@@ -60,7 +60,7 @@ tags: [services]
         </div>
 
         <h2 id="learning-experience">Engage in a unique learning experience</h2>
-        <p class="text-intro">Skylight believes that learning, like acquisitions in government, should be collaborative and hands-on. As part of Skylight’s DITAP cohort, you won’t just receive a seminar--you’ll actively participate in a community devoted to the pillars of acquisitions and digital services. We’ve designed our learning environment to work with you, and our team of master educators and coaches will leverage their real-world knowledge to give you an immersive experience in both the theory and applied practice of digital acquisitions.</p>
+        <p class="text-intro">Skylight believes that learning, like acquisitions in government, should be collaborative and hands-on. As part of Skylight’s DITAP cohort, you won’t just receive a seminar—you’ll actively participate in a community devoted to the pillars of acquisitions and digital services. We’ve designed our learning environment to work with you, and our team of master educators and coaches will leverage their real-world knowledge to give you an immersive experience in both the theory and applied practice of digital acquisitions.</p>
 
 
         <div class="image-list row mt-4">
@@ -69,7 +69,7 @@ tags: [services]
           </div>
           <div class="col-12 col-lg-8">
             <h3>Our top instructors come to you</h3>
-            <p>Our instructors don’t just present the DITAP material -- they live it every day. We’ve assembled a second-to-none team of educators, coaches, and acquisition professionals who are eager to share their experiences. Through our blend of remote and onsite learning, you’ll have the chance to engage with the men and women who helped pioneer the modern landscape of digital acquisitions.</p>
+            <p>Our instructors don’t just present the DITAP material—they live it every day. We’ve assembled a second-to-none team of educators, coaches, and acquisition professionals who are eager to share their experiences. Through our blend of remote and onsite learning, you’ll have the chance to engage with the men and women who helped pioneer the modern landscape of digital acquisitions.</p>
           </div>
           <div class="col-12 col-lg-4">
             <img src="/img/about-skylight.png" alt="">
