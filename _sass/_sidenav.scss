@@ -23,7 +23,8 @@
     &:hover,
     &:focus,
     &.current {
-      border-left: 7px solid $nav-link-border-color;
+      border-left: 4px solid $nav-link-border-color;
+      padding-left: 11px;
     }
   }
 

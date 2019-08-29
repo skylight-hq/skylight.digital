@@ -80,6 +80,7 @@
 // Brand colors
 $sk-red: darken(#df635c, 0%);
 $sk-blue: darken(#468fba, 0%);
+$sk-blue-dark: darken(#235384, 0%);
 $sk-green: darken(#5fa373, 0%);
 $sk-yellow: darken(#f4c55c, 0%);
 $sk-grey: #54565a;
@@ -115,6 +116,7 @@ $gray-lighter: lighten($gray, 30%);
 $gray-lightest: lighten($gray, 50%);
 
 $brand-primary: $sk-blue;
+$brand-primary-dark: $sk-blue-dark;
 $brand-success: $sk-green;
 $brand-info: $sk-blue;
 $brand-warning: $sk-yellow;
@@ -223,7 +225,7 @@ $nav-link-color: $body-color;
 $nav-link-decoration: none;
 $nav-link-hover-color: $nav-link-color;
 $nav-link-hover-decoration: none;
-$nav-link-border-color: $brand-primary;
+$nav-link-border-color: $brand-primary-dark;
 
 $nav-toggler-color: $nav-link-color;
 $nav-toggler-hover-color: $brand-primary;
