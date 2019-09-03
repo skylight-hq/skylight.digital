@@ -59,7 +59,7 @@ service_elements:
 ---
 
 {% capture header_content %}
-  <strong>Need immediate, high-impact support to address a problem or opportunity that doesn't require a full-blown engagement?</strong> Our Microconsulting services are designed specifically for that purpose, providing you with on-demand access to our digital expertise. These services are conveniently priced within the government's micropurchase thresholds. And can be delivered in a variety of modular formats, including training, workshop, or custom engagement.
+  <strong>Need immediate, high-impact support to address a problem or opportunity that doesn't require a full-blown engagement?</strong> Our Microconsulting Services are designed specifically for that purpose, providing you with on-demand access to our digital expertise. They're conveniently priced within the government's micropurchase thresholds. And can be delivered in a variety of modular formats, including training, workshop, or custom engagement.
 {% endcapture %}
 
 {% include page_header.html
