@@ -4,7 +4,7 @@
   }
 
   h2 {
-    font-size: 32px; // See if we should change to 28px or $font-size-xx-large
+    font-size: $font-size-xx-large;
     margin-top: 3.5rem;
   }
 
@@ -105,7 +105,7 @@
 }
 
 .quote-text {
-  font-size: 22px;
+  font-size: $font-size-large;
 }
 
 .image-list {
