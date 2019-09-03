@@ -60,7 +60,7 @@ tags: [services]
             <textarea id="experience-input" class="form-control" rows="5" placeholder="" name="experience" required></textarea>
           </div>
 
-          <button class="btn btn-primary-dark font-weight-bold">Submit</button>
+          <button class="btn btn-primary-dark font-weight-bold font-sans">Submit</button>
       </form>
     </div>
   </div>
