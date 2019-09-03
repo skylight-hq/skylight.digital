@@ -119,7 +119,7 @@ tags: [services]
           </div>
       </div>
 
-      <div class="quote-container bg-warning py-5 mt-5">
+      <div class="quote-container bg-warning py-5 mt-6">
         <div class="container">
           <p class="quote-text font-size-large">“As one of the first students to complete the DITAP program and earn the FAC-C-DS certification in 201X, I walked away with the critical know-how necessary to help change the way my agency acquires technology services. The contracting results that I experienced supporting some of the government’s most critical programs were the reasons why I became an acquisition professional in the first place.”</p>
           <p class="text-intro"><i><strong>Dan Levenson,</strong> Former Centers for Medicare & Medicaid Services Digital Service Contracting Advisor and Lead Contracting Officer for the Quality Payment Program</i></p>

@@ -165,6 +165,10 @@ $spacers: (
   5: (
     x: ($spacer-x * 3),
     y: ($spacer-y * 3)
+  ),
+  6: (
+    x: ($spacer-x * 4),
+    y: ($spacer-y * 4)
   )
 ) !default;
 $border-width: 1px !default;
