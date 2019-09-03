@@ -29,6 +29,7 @@
   }
 
   .employee-img {
+    @include border-radius($border-radius);
     background-color: #f2f2f2;
 
     @include media-breakpoint-up(lg) {
