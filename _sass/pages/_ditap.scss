@@ -47,6 +47,7 @@
 
 .quote-container {
   box-shadow: 800px 0px #f4c55c;
+  line-height: 1.5;
 
   &:before,
   &:after {
@@ -62,6 +63,11 @@
 
   &:after {
     box-shadow: 100px 0;
+  }
+
+
+  .text-intro {
+    margin-top: 1em;
   }
 }
 
@@ -84,14 +90,6 @@
     &:first-of-type {
       // margin-top: 1em;
     }
-  }
-}
-
-.quote-container {
-  line-height: 1.5;
-
-  .text-intro {
-    margin-top: 1em;
   }
 }
 
