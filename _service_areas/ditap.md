@@ -112,9 +112,9 @@ tags: [services]
             <p>Master the leadership and communication skills you need to win stakeholder buy-in for digital acquisition.</p>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="bg-primary text-white p-4">
+            <div class="course-cta card border p-4">
               <p>Want to know more about our course?</p>
-              <a class="btn btn-outline-light mt-4" href="#">Request syllabus</a>
+              <a class="btn btn-outline-primary mt-4" href="#">Request syllabus</a>
             </div>
           </div>
       </div>
@@ -154,18 +154,18 @@ tags: [services]
       </div>
 
       <h2 id="tuition-and-dates">Tuition and dates</h2>
-      <div class="row tuition no-gutters mt-4">
-        <div class="col-12 col-lg-4">
-          <div role="img" class="employee-img" style="background-image: url(/img/digital-procurement-icon.png);" title="Illustration of a government building with icons representing different vendor offerings around it."></div>
-        </div>
-        <div class="col-12 col-lg-8 pl-4 py-3">
-          <h3>August 14, 2018 to March 29, 2019</h3>
-          <p><strong>Location:</strong> Online + Washington DC</p>
-          <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
-          <p><strong>Cost:</strong> $6500 USD</p>
-          <p><a href="#">Apply now →</a></p>
-        </div>
-      </div>
+      <a href="#" class="row tuition-card no-gutters mt-4">
+          <div class="col-12 col-lg-4">
+            <div role="img" class="employee-img" style="background-image: url(/img/digital-procurement-icon.png);" title="Illustration of a government building with icons representing different vendor offerings around it."></div>
+          </div>
+          <div class="tuition-card-content col-12 col-lg-8">
+            <h3 class="project-title">August 14, 2018 to March 29, 2019</h3>
+            <p><strong>Location:</strong> Online + Washington DC</p>
+            <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
+            <p><strong>Cost:</strong> $6500 USD</p>
+            <p><strong>Apply now →</strong></p>
+          </div>
+      </a>
 
 
       <h2 id="faqs">Get answers</h2>
