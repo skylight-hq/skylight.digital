@@ -9,6 +9,12 @@
   .btn-warning {
     font-weight: $font-weight-bold;
   }
+
+  .btn-outline-light {
+    &:hover {
+      color: $brand-primary-dark;
+    }
+  }
 }
 
 .hero-heading {
