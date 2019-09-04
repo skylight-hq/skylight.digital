@@ -165,8 +165,8 @@ tags: [services]
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
             <p><strong>Cost:</strong> $6500 USD</p>
-            <p class="tuition-card-link">
-              <strong>Apply now →</strong>
+            <p>
+              <strong class="tuition-card-link">Apply now →</strong>
             </p>
           </div>
       </a>
