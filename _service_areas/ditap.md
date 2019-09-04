@@ -156,7 +156,7 @@ tags: [services]
       </div>
 
       <h2 id="tuition-and-dates">Tuition and dates</h2>
-      <a href="#" class="row tuition-card no-gutters mt-4">
+      <a href="/services/ditap/apply/" class="row tuition-card no-gutters mt-4">
           <div class="col-12 col-lg-4">
             <div role="img" class="employee-img" style="background-image: url(/img/digital-procurement-icon.png);" title="Illustration of a government building with icons representing different vendor offerings around it."></div>
           </div>
