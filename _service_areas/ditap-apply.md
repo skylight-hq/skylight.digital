@@ -23,7 +23,12 @@ tags: [services]
     <div class="col-md-8 mx-md-auto">
       <p>We’ll review your application and follow up within 1–2 business days to ask you a few questions. We want you to have the best experience possible, so it’s important to determine whether you’re a good fit for the program at this time. Once you’re approved, we’ll then walk you through the process of formally enrolling, including tuition payment.</p>
 
-      <form class="mt-4" accept-charset="UTF-8" action="" method="POST">
+      <form class="mt-4"
+        action="https://formkeep.com/f/9220d7c9269b"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+        method="POST">
+        
         <input type="hidden" name="utf8" value="✓">
 
           <div class="form-small">
