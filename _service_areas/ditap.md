@@ -114,7 +114,9 @@ tags: [services]
           <div class="col-12 col-lg-4">
             <div class="course-cta card border p-4">
               <p>Want to know more about our course?</p>
-              <a class="btn btn-outline-primary mt-4" href="#">Request syllabus</a>
+              <p class="mt-3">
+                <a href="#">Request syllabus →</a>
+              </p>
             </div>
           </div>
       </div>
