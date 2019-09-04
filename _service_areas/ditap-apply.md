@@ -28,7 +28,7 @@ tags: [services]
         accept-charset="UTF-8"
         enctype="multipart/form-data"
         method="POST">
-        
+
         <input type="hidden" name="utf8" value="✓">
 
           <div class="form-small">
@@ -56,10 +56,8 @@ tags: [services]
           <div class="form-group">
             <label class="required" for="exampleFormControlSelect1">What course date would you like to take?</label>
             <select class="form-control" id="exampleFormControlSelect1" required>
-              <option value>- Select -</option>
+              <!-- <option value>- Select -</option> -->
               <option value="value1">August 14, 2018 to March 29, 2019</option>
-              <option value="value2">September 2, 2019 to October 4, 2019</option>
-              <option value="value3">October 31, 2019 to November 15, 2019</option>
             </select>
           </div>
 
