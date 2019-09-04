@@ -113,8 +113,6 @@
   @include media-breakpoint-up(lg) {
     font-size: $font-size-x-large;
   }
-
-  line-height: 1.5;
   
   h2 + & {
     margin-top: 0.5em !important;
