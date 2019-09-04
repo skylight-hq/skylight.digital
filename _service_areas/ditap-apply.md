@@ -8,12 +8,20 @@ image_description:
 tags: [services]
 ---
 
-<div class="container">
+<div class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <h1 class="hero-heading">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-6">
   <div class="row">
     <div class="col-md-8 mx-md-auto">
-      <h1 class="h3 mt-5">{{ page.title }}</h1>
-
-      <p class="mt-3">We’ll review your application and follow up within 1–2 business days to ask you a few questions. We want you to have the best experience possible, so it’s important to determine whether you’re a good fit for the program at this time. Once you’re approved, we’ll then walk you through the process of formally enrolling, including tuition payment.</p>
+      <p>We’ll review your application and follow up within 1–2 business days to ask you a few questions. We want you to have the best experience possible, so it’s important to determine whether you’re a good fit for the program at this time. Once you’re approved, we’ll then walk you through the process of formally enrolling, including tuition payment.</p>
 
       <form accept-charset="UTF-8" action="" method="POST">
         <input type="hidden" name="utf8" value="✓">
