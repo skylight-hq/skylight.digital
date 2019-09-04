@@ -161,11 +161,11 @@ tags: [services]
             <div role="img" class="employee-img" style="background-image: url(/img/digital-procurement-icon.png);" title="Illustration of a government building with icons representing different vendor offerings around it."></div>
           </div>
           <div class="tuition-card-content col-12 col-lg-8">
-            <h3 class="project-title">August 14, 2018 to March 29, 2019</h3>
+            <h3>August 14, 2018 to March 29, 2019</h3>
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
             <p><strong>Cost:</strong> $6500 USD</p>
-            <p><strong>Apply now →</strong></p>
+            <p class="text-primary"><strong>Apply now →</strong></p>
           </div>
       </a>
 
