@@ -95,10 +95,6 @@ fieldset[disabled] a.btn {
 }
 .btn-outline-light {
   @include button-outline-variant($white);
-
-  &:hover {
-    background-color: transparent;
-  }
 }
 
 //
