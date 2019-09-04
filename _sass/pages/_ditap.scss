@@ -158,6 +158,14 @@ $outline-light: 2px solid #f2f2f2;
   }
 }
 
+.tuition-card-link {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
 .tuition-card-content {
   padding: 1.25rem !important;
 }
