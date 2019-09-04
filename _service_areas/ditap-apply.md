@@ -51,14 +51,14 @@ tags: [services]
               <label class="required" for="telephone-input">Telephone</label>
               <input id="telephone-input" class="form-control" type="number" placeholder="" name="telephone" autocomplete="tel" required>
             </div>
-          </div>
 
-          <div class="form-group">
-            <label class="required" for="exampleFormControlSelect1">What course date would you like to take?</label>
-            <select class="form-control" id="exampleFormControlSelect1" required>
-              <!-- <option value>- Select -</option> -->
-              <option value="value1">August 14, 2018 to March 29, 2019</option>
-            </select>
+            <div class="form-group">
+              <label class="required" for="exampleFormControlSelect1">What course date would you like to take?</label>
+              <select class="form-control" id="exampleFormControlSelect1" required>
+                <!-- <option value>- Select -</option> -->
+                <option value="value1">August 14, 2018 to March 29, 2019</option>
+              </select>
+            </div>
           </div>
 
           <div class="form-group">
