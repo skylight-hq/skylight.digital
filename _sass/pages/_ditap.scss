@@ -117,13 +117,31 @@
   }
 }
 
-.tuition {
-  border: 2px solid #f2f2f2;
+$outline-light: 2px solid #f2f2f2;
+
+.course-cta {
+  border: $card-border-width solid $card-border-color;
+}
+
+.tuition-card {
+  @include border-radius($border-radius);
+  border: $card-border-width solid $card-border-color;
+  box-shadow: $card-box-shadow;
+  color: $body-color;
+
+  &:hover {
+    box-shadow: none;
+    color: $body-color;
+  }
 
   p {
     font-size: $font-size-small;
     margin-top: 12px;
   }
+}
+
+.tuition-card-content {
+  padding: 1.25rem !important;
 }
 
 .form-small {
