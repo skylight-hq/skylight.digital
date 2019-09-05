@@ -53,8 +53,8 @@ tags: [services]
             </div>
 
             <div class="form-group">
-              <label class="required" for="exampleFormControlSelect1">What course date would you like to take?</label>
-              <select class="form-control" id="exampleFormControlSelect1" required>
+              <label class="required" for="date-input">What course date would you like to take?</label>
+              <select class="form-control" id="date-input" name="date" required>
                 <!-- <option value>- Select -</option> -->
                 <option value="value1">August 14, 2018 to March 29, 2019</option>
               </select>
