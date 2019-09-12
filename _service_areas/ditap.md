@@ -68,22 +68,22 @@ tags: [services]
             <img src="/img/blog/api_enablement/api-benefits-napkin.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
-            <h3>Our top instructors come to you</h3>
-            <p>Our instructors don’t just present the DITAP material—they live it every day. We’ve assembled a second-to-none team of educators, coaches, and acquisition professionals who are eager to share their experiences. Through our blend of remote and onsite learning, you’ll have the chance to engage with the men and women who helped pioneer the modern landscape of digital acquisitions.</p>
+            <h3>Expert instructors</h3>
+            <p>Our instructors are recognized experts in the field of digital acquisition, and are eager to share their past and current experiences with you. Through our blend of remote and onsite learning, you'll have the chance to engage with the pioneers of modern procurement techniques.</p>
           </div>
           <div class="col-12 col-lg-4">
             <img src="/img/about-skylight.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Dynamic learning opportunities</h3>
-            <p>We’ve developed a variety of methods to help you engage with the DITAP material. We blend traditional in-person classroom learning (full of activities, seminars, panels, and guest speakers) with flexible, asynchronous online learning content such as readings, modules, team projects, and plenty of interactive discussion and collaboration. Our balanced and holistic approach to teaching will give you the tools to succeed to the best of your abilities, whatever your learning style.</p>
+            <p>Our balanced, holistic approach to teaching will give you the tools you need to master the course material -- whatever your learning style. We blend traditional in-person classroom learning (such as seminars, panels, and guest speakers) with flexible, asynchronous online learning content (such as readings, team projects, and interactive discussions).</p>
           </div>
           <div class="col-12 col-lg-4">
             <img src="/img/blog/meet_ten_newest_team_members/waving-hand-emoji.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Personalized guidance</h3>
-            <p>As a member of Skylight’s cohort, not only will you receive a hands-on education from the best in the business, but our skilled facilitators will help mentor you every step of the way. Through collaboration webinars, feedback and discussion sessions, and even helping coach project teams, our team of educators wants to help you learn however you feel you’ll best succeed.</p>
+            <p>When you train with Skylight, you can always rely on us to provide the support you need. Through office hours and other channels, our skilled facilitators are here to provide you with answers, tips, and more to help maximize your learning opportunities.</p>
           </div>
         </div>
 
