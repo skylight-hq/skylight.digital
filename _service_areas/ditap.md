@@ -143,7 +143,7 @@ tags: [services]
           <div role="img" class="employee-img" style="background-image: url(/img/people/chris-cairns.jpg);" title="Chris Cairns"></div>
         </div>
         <div class="col-12 col-lg-8">
-          <h3>Dan</h3>
+          <h3>Dan Levenson</h3>
           <p>Dan is a senior executive with <a href="https://agile6.com/">Agile Six</a>. He previously served as a certified digital acquisition expert and contracting officer for the Centers for Medicare & Medicaid Services (CMS). At CMS, Dan architected and managed a highly successful agile vendor contract vehicle, which supports programs such as the Quality Payment Program.</p>
         </div>
         <div class="col-12 col-lg-4">
