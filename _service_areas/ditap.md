@@ -234,6 +234,19 @@ tags: [services]
 
       {% include accordion.html accordion_header = 'Is the course guaranteed to run if I sign-up?' accordion_body = accordion_body accordion_index = '5' %}
 
+      {% capture accordion_body %}
+      <p>The term <i>digital services</i> refers to the delivery of services to customers in the internet era. Great digital services are built by teams who make effective use of practices and technologies in areas such as user-centered design, agile software delivery, and cloud computing. From an acquisition standpoint, these solutions represent a fundamental change to the way you and your agency needs to approach procurement. We call this new and modern approach to procurement <i>digital acquisition</i>.</p>
+      <p>To increase the development of digital acquisition experts across the government, the U.S. Digital Service and the Office of Federal Procurement Policy launched the DITAP program. By 2022, all federal acquisition professionals managing contracts of $7M or more will require <a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS certification</a>. This certification can be obtained by completing our accredited DITAP training course, led by experts who pioneered the field as former members of 18F and the U.S. Digital Service.</p>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'Where did DITAP come from?' accordion_body = accordion_body accordion_index = '6' %}
+
+      {% capture accordion_body %}
+      <p>DITAP training isn’t just for contracting professionals seeking certification, however. Our training is for anyone who plays a role in the lifecycle of an acquisition, and wants to learn how to transform acquisition outcomes through digital acquisition methods. So whether you’re a finance officer, legal counsellor, procurement officer, program manager, or technical manager, you’ll benefit greatly from this training.</p>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'Is this course for someone like me?' accordion_body = accordion_body accordion_index = '7' %}
+
       <p>Still have more questions? Please don’t hesitate to <a href="mailto:admin@skylight.digital">email us</a>.</p>
     </div>
   </div>
