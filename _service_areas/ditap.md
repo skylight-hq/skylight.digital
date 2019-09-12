@@ -2,7 +2,7 @@
 layout: default
 title: Digital Acquisition Training for Professionals (DITAP)
 permalink: /services/ditap/
-excerpt: Excerpt text
+excerpt: Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course.
 image: /img/api-microconsulting.png
 image_description: Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course. 
 tags: [services]
