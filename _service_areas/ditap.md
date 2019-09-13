@@ -170,7 +170,7 @@ tags: [digital acquisition training, agile acquisition training]
           <div class="tuition-card-content col-12 col-lg-8">
             <h3>August 14, 2018 to March 29, 2019</h3>
             <p><strong>Location:</strong> Online + Washington DC</p>
-            <p><strong>Instructors:</strong> Chris Cairns, Robert Read, Lesley Evans</p>
+            <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl.</p>
             <p><strong>Cost:</strong> $6500 USD</p>
             <p>
               <strong class="tuition-card-link">Apply now →</strong>
@@ -253,7 +253,7 @@ tags: [digital acquisition training, agile acquisition training]
 
 {% include cta.html
   header = "Still have more questions?"
-  text = "Please don't hesitate to email us."
+  text = "Please don't hesitate to ask."
   text_css_class = "page-subfooter-text-col"
   cta_path = "#"
   cta = "Email Us"
