@@ -3,6 +3,8 @@ layout: default
 title: Digital IT Acquisition Professional (DITAP) Training
 permalink: /services/ditap/
 excerpt: Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course.
+image:
+image_description:
 tags: [digital acquisition training, agile acquisition training]
 ---
 
