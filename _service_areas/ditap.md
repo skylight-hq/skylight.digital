@@ -1,21 +1,19 @@
 ---
 layout: default
-title: Digital Acquisition Training for Professionals (DITAP)
+title: Digital IT Acquisition Professional (DITAP) Training
 permalink: /services/ditap/
-excerpt: Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course.
-image: /img/api-microconsulting.png
-image_description: Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course. 
-tags: [services]
+excerpt: Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course.
+tags: [digital acquisition training, agile acquisition training]
 ---
 
 <div class="hero">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8 offset-lg-2">
-        <h1 class="hero-heading">Digital Acquisition Training for Professionals (DITAP)</h1>
-        <p class="hero-content">Learn the skills required to master the art of digital acquisition from those who pioneered the field through our 6-month, part-time course.</p>
+        <h1 class="hero-heading">Digital IT Acquisition Professional (DITAP) Training</h1>
+        <p class="hero-content">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you'll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services and up to 80 Continuous Learning Points.</p>
         <a class="btn btn-warning btn-lg text-dark mr-1" href="/services/ditap/apply">Apply now →</a>
-        <a class="btn btn-outline-light btn-lg" href="#">Request syllabus</a>
+        <a class="btn btn-outline-light btn-lg" href="#">Download syllabus</a>
       </div>
     </div>
   </div>
@@ -29,7 +27,7 @@ tags: [services]
           <ul role="presentation">
             <li><a href="#overview">Overview</a></li>
             <li><a href="#learning-experience">Learning experience</a></li>
-            <li><a href="#what-youll-learn">What you’ll learn</a></li>
+            <li><a href="#what-youll-learn">Curriculum</a></li>
             <li><a href="#instructors">Instructors</a></li>
             <li><a href="#tuition-and-dates">Tuition and dates</a></li>
             <li><a href="#faqs">FAQs</a></li>
@@ -42,25 +40,25 @@ tags: [services]
     <div class="col-12 col-md-9">
       <div class="mt-5">
         <h2 class="" id="overview">Become a digital acquisition professional</h2>
-        <p class="text-intro">Acquire the skills you need to make procurement work for government in today’s digital world.</p>
+        <p class="text-intro">Acquire the skills you need to make procurement work for government in today's digital world.</p>
 
         <div class="text-grid row">
           <div class="col-12 col-lg-4">
             <h3>Learn to lead</h3>
-            <p>Understand how modern approaches to delivering technology—from agile to cloud computing—have changed the way your agency needs to acquire products and services. Learn how to prepare your agency, and win stakeholder support, for digital acquisition methods.</p>
+            <p>Understand how modern approaches to delivering technology 	&mdash; from agile to cloud computing &mdash; have changed the way your agency needs to buy. Learn how to lead your agency through the process of adopting modern procurement methods successfully.</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Achieve Mastery</h3>
-            <p>Master the concepts, tools, and techniques you need to succeed with digital acquisitions through our comprehensive, in-depth, richly-structured learning environment. Engage with real experts who pioneered the art of digital acquisition. Earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS).</p>
+            <p>Master the concepts, tools, and techniques you need to excel at digital acquisitions through our expert-led, dynamic learning environment. Earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (<a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS</a>).</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Reinvent Procurement</h3>
-            <p>Fundamentally change the way you and your agency procures. Experience greater collaboration with vendors, higher quality results, and lower costs.</p>
+            <p>Fundamentally change the way you and your agency procures products and services. Experience greater collaboration with vendors, more breakthrough innovations, faster delivery of value, higher quality results, and lower costs.</p>
           </div>
         </div>
 
         <h2 id="learning-experience">Engage in a unique learning experience</h2>
-        <p class="text-intro">Skylight believes that learning, like acquisitions in government, should be collaborative and hands-on. As part of Skylight’s DITAP cohort, you won’t just receive a seminar—you’ll actively participate in a community devoted to the pillars of acquisitions and digital services. We’ve designed our learning environment to work with you, and our team of master educators and coaches will leverage their real-world knowledge to give you an immersive experience in both the theory and applied practice of digital acquisitions.</p>
+        <p class="text-intro">Led by our team of master coaches and educators, our learning environment is designed to immerse you in both the theory and applied practice of digital acquisitions.</p>
 
 
         <div class="image-list row mt-4">
@@ -87,8 +85,8 @@ tags: [services]
           </div>
         </div>
 
-        <h2 id="what-youll-learn">What you’ll learn</h2>
-        <p class="text-intro">In this program, you’ll learn how to translate critical concepts and resources in the field of digital acquisition into effective, real-world practice.</p>
+        <h2 id="what-youll-learn">What you'll learn</h2>
+        <p class="text-intro">In this program, you'll learn how to translate critical concepts and resources in the field of digital acquisition into effective, real-world practice.</p>
 
         <div class="text-grid row">
           <div class="col-12 col-lg-4">
@@ -96,12 +94,12 @@ tags: [services]
             <p>Learn the fundamentals of digital services, including agile software delivery, human-centered design, cloud computing, and X-as-a-service.</p>
           </div>
           <div class="col-12 col-lg-4">
-            <h3>Understanding What You’re Buying</h3>
-            <p>Learn how to determine what your customer’s needs are, how to assess which digital service solutions are most likely to succeed given your agency’s current level of maturity, and how to conduct market research.</p>
+            <h3>Understanding What You're Buying</h3>
+            <p>Learn how to determine what your customer's needs are, how to assess which digital service solutions are most likely to succeed given your agency's current level of maturity, and how to conduct market research.</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>How to buy</h3>
-            <p>Understand how to develop an acquisition strategy that effectively factors in the needs of your customer, your agency’s digital service maturity, your market research findings, and digital acquisition best practices.</p>
+            <p>Understand how to develop an acquisition strategy that effectively factors in the needs of your customer, your agency's digital service maturity, your market research findings, and digital acquisition best practices.</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Awarding and Administering Digital Service Contracts</h3>
@@ -115,7 +113,7 @@ tags: [services]
             <div class="course-cta card border p-4">
               <p>Want to know more about our course?</p>
               <p class="mt-3">
-                <a href="#">Request syllabus →</a>
+                <a href="#">Download syllabus →</a>
               </p>
             </div>
           </div>
@@ -123,7 +121,7 @@ tags: [services]
 
       <div class="quote-container bg-warning py-5 mt-6">
         <div class="container">
-          <p class="quote-text font-size-large">“As one of the first students to complete the DITAP program and earn the FAC-C-DS certification in 201X, I walked away with the critical know-how necessary to help change the way my agency acquires technology services. The contracting results that I experienced supporting some of the government’s most critical programs were the reasons why I became an acquisition professional in the first place.”</p>
+          <p class="quote-text font-size-large">“As one of the first students to complete the DITAP program and earn the FAC-C-DS certification in 201X, I walked away with the critical know-how necessary to help change the way my agency acquires technology services. The contracting results that I experienced supporting some of the government's most critical programs were the reasons why I became an acquisition professional in the first place.”</p>
           <p class="text-intro"><i><strong>Dan Levenson,</strong> Former Centers for Medicare & Medicaid Services Digital Service Contracting Advisor and Lead Contracting Officer for the Quality Payment Program</i></p>
         </div>
       </div>
@@ -137,7 +135,7 @@ tags: [services]
         </div>
         <div class="col-12 col-lg-8">
           <h3>Chris Cairns</h3>
-          <p>Chris served as a White House Presidential Innovation Fellow, and co-founded 18F. He started and built 18F’s influential acquisition group, which specializes in digital acquisition methods. Chris is known for pioneering 18F’s <a href="https://skylight.digital/work/agile-acquisition-framework/">agile acquisition framework</a>, and for architecting the government’s first-ever <a href="https://skylight.digital/work/agile-delivery-services-marketplace/">agile vendor contract vehicle</a> using a tech challenge.</p>
+          <p>Chris served as a White House Presidential Innovation Fellow, and co-founded 18F. He started and built 18F's influential acquisition group, which specializes in digital acquisition methods. Chris is known for pioneering 18F's <a href="https://skylight.digital/work/agile-acquisition-framework/">agile acquisition framework</a>, and for architecting the government's first-ever <a href="https://skylight.digital/work/agile-delivery-services-marketplace/">agile vendor contract vehicle</a> using a tech challenge.</p>
         </div>
         <div class="col-12 col-lg-4">
           <div role="img" class="employee-img" style="background-image: url(/img/people/chris-cairns.jpg);" title="Chris Cairns"></div>
@@ -180,7 +178,7 @@ tags: [services]
 
 
       <h2 id="faqs">Get answers</h2>
-      <p class="text-intro mb-4">Here are some questions that we’re typically asked, along with our responses:</p>
+      <p class="text-intro mb-4">Here are some questions that we're typically asked, along with our responses:</p>
 
       {% capture accordion_body %}
       <ul>
@@ -190,7 +188,7 @@ tags: [services]
       </ul>
       {% endcapture %}
 
-      {% include accordion.html accordion_header = 'What’s the expected workload?' accordion_body = accordion_body accordion_index = '0' %}
+      {% include accordion.html accordion_header = 'What&#39;s the expected workload?' accordion_body = accordion_body accordion_index = '0' %}
 
       {% capture accordion_body %}
       <ul>
@@ -246,8 +244,6 @@ tags: [services]
       {% endcapture %}
 
       {% include accordion.html accordion_header = 'Is this course for someone like me?' accordion_body = accordion_body accordion_index = '7' %}
-
-      <p>Still have more questions? Please don’t hesitate to <a href="mailto:admin@skylight.digital">email us</a>.</p>
     </div>
   </div>
 </div>
@@ -255,7 +251,7 @@ tags: [services]
 
 {% include cta.html
   header = "Still have more questions?"
-  text = "Please don’t hesitate to email us."
+  text = "Please don't hesitate to email us."
   text_css_class = "page-subfooter-text-col"
   cta_path = "#"
   cta = "Email Us"
