@@ -72,14 +72,14 @@ tags: [digital acquisition training, agile acquisition training]
             <p>Our instructors are recognized experts in the field of digital acquisition, and are eager to share their past and current experiences with you. Through our blend of remote and onsite learning, you'll have the chance to engage with the pioneers of modern procurement techniques.</p>
           </div>
           <div class="col-12 col-lg-4">
-            <img src="/img/ditap-02.png" alt="">
+            <img src="/img/ditap-03-flipped.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Dynamic learning opportunities</h3>
             <p>Our balanced, holistic approach to teaching will give you the tools you need to master the course material -- whatever your learning style. We blend traditional in-person classroom learning (such as seminars, panels, and guest speakers) with flexible, asynchronous online learning content (such as readings, team projects, and interactive discussions).</p>
           </div>
           <div class="col-12 col-lg-4">
-            <img src="/img/ditap-02.png" alt="">
+            <img src="/img/ditap-02-flipped.png" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Personalized guidance</h3>
