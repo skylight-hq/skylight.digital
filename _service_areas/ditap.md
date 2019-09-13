@@ -140,7 +140,7 @@ tags: [digital acquisition training, agile acquisition training]
           <p>Chris served as a White House Presidential Innovation Fellow, and co-founded 18F. He started and built 18F's influential acquisition group, which specializes in digital acquisition methods. Chris is known for pioneering 18F's <a href="https://skylight.digital/work/agile-acquisition-framework/">agile acquisition framework</a>, and for architecting the government's first-ever <a href="https://skylight.digital/work/agile-delivery-services-marketplace/">agile vendor contract vehicle</a> using a tech challenge.</p>
         </div>
         <div class="col-12 col-lg-4">
-          <div role="img" class="employee-img" style="background-image: url(/img/people/chris-cairns.jpg);" title="Chris Cairns"></div>
+          <div role="img" class="employee-img" style="background-image: url(/img/people/dan-levenson.jpg);" title="Dan Levenson"></div>
         </div>
         <div class="col-12 col-lg-8">
           <h3>Dan Levenson</h3>
