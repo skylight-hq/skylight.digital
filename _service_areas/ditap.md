@@ -186,7 +186,7 @@ tags: [digital acquisition training, agile acquisition training]
       {% include accordion.html accordion_header = 'Where did DITAP come from?' accordion_body = accordion_body accordion_index = '6' %}
 
       {% capture accordion_body %}
-      <p>DITAP training isn't just for contracting professionals seeking certification, however. Our training is for anyone who plays a role in the lifecycle of an acquisition, and wants to learn how to transform acquisition outcomes through digital acquisition methods. So whether you're a finance officer, legal counsellor, procurement officer, program manager, or technical manager, you'll benefit greatly from this training.</p>
+      <p>DITAP training isn't just for contracting professionals seeking certification. Our training is for anyone who plays a role in the lifecycle of an acquisition, and wants to learn how to transform acquisition outcomes through digital acquisition methods. So whether you're a finance officer, legal counsellor, procurement officer, program manager, or technical manager, you'll benefit greatly from this training.</p>
       {% endcapture %}
 
       {% include accordion.html accordion_header = 'Is this course for someone like me?' accordion_body = accordion_body accordion_index = '7' %}
