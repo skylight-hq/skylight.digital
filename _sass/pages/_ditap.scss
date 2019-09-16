@@ -176,7 +176,11 @@ $outline-light: 2px solid #f2f2f2;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  min-height: 225px;
+
+  @include media-breakpoint-up(lg) {
+    height: 100%;
+  }
 }
 
 .tuition-card-link {
