@@ -47,7 +47,7 @@
 
   .image-list {
     img {
-      max-height: 180px;
+      max-height: 183px;
       width: auto;      
     }
 
@@ -165,6 +165,18 @@ $outline-light: 2px solid #f2f2f2;
     font-size: $font-size-small;
     margin-top: 12px;
   }
+
+  .tuition-card-note {
+    font-size: $font-size-xxx-small;
+  }
+}
+
+.tuition-card-img {
+  background-color: #f2f2f2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .tuition-card-link {
