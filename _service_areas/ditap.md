@@ -3,8 +3,6 @@ layout: default
 title: Digital IT Acquisition Professional (DITAP) Training
 permalink: /services/ditap/
 excerpt: Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course.
-image:
-image_description:
 tags: [digital acquisition training, agile acquisition training]
 ---
 
@@ -123,7 +121,7 @@ tags: [digital acquisition training, agile acquisition training]
 
       <div class="quote-container bg-warning py-5 mt-6">
         <div class="container">
-          <p class="quote-text font-size-large">“As one of the first students to complete the DITAP program and earn the FAC-C-DS certification in 201X, I walked away with the critical know-how necessary to help change the way my agency acquires technology services. The contracting results that I experienced supporting some of the government's most critical programs were the reasons why I became an acquisition professional in the first place.”</p>
+          <p class="quote-text font-size-large">"As one of the first students to complete the DITAP program and earn the FAC-C-DS certification in 2015, I walked away with the critical know-how necessary to help change the way my agency acquires technology services. The contracting results that I experienced supporting some of the government's most critical programs were the reasons why I became an acquisition professional in the first place."</p>
           <p class="text-intro"><i><strong>Dan Levenson,</strong> Former Centers for Medicare & Medicaid Services Digital Service Contracting Advisor and Lead Contracting Officer for the Quality Payment Program</i></p>
         </div>
       </div>
@@ -171,16 +169,27 @@ tags: [digital acquisition training, agile acquisition training]
             <h3>August 14, 2018 to March 29, 2019</h3>
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
-            <p><strong>Cost:</strong> $6500 USD</p>
+            <p><strong>Cost:</strong> $7,500 USD</p>
             <p>
               <strong class="tuition-card-link">Apply now →</strong>
             </p>
           </div>
       </a>
 
-
       <h2 id="faqs">Get answers</h2>
       <p class="text-intro mb-4">Here are some questions that we're typically asked, along with our responses:</p>
+
+      {% capture accordion_body %}
+      <p>The U.S. Digital Service and the Office of Federal Procurement Policy launched the DITAP program in order to increase the development of digital acquisition experts across government. By 2022, all federal acquisition professionals managing contracts of $7M or more will require <a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS certification</a>. This certification can be obtained by completing our accredited DITAP training course, led by experts who pioneered the field as former members of 18F and the U.S. Digital Service.</p>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'Where did DITAP come from?' accordion_body = accordion_body accordion_index = '6' %}
+
+      {% capture accordion_body %}
+      <p>DITAP training isn't just for contracting professionals seeking certification, however. Our training is for anyone who plays a role in the lifecycle of an acquisition, and wants to learn how to transform acquisition outcomes through digital acquisition methods. So whether you're a finance officer, legal counsellor, procurement officer, program manager, or technical manager, you'll benefit greatly from this training.</p>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'Is this course for someone like me?' accordion_body = accordion_body accordion_index = '7' %}
 
       {% capture accordion_body %}
       <ul>
@@ -198,7 +207,7 @@ tags: [digital acquisition training, agile acquisition training]
         <li>Access to all course materials and our online learning platform.</li>
         <li>Access to our training team, who will be available for 1-on-1 sessions during non-classroom hours.</li>
         <li>Collaboration and networking opportunities.</li>
-        <li>While most of the program can be completely remotely, travel for the in-person classroom session isn’t included.</li>
+        <li>While most of the program can be completely remotely, travel for the in-person classroom session isn't included.</li>
       </ul>
       {% endcapture %}
 
@@ -206,8 +215,8 @@ tags: [digital acquisition training, agile acquisition training]
 
       {% capture accordion_body %}
       <ul>
-        <li>Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (FAC-C-DS).</li>
-        <li>Up to 80 Continuous Learning Points (CLPs) based on your level of achievement in the program.</li>
+        <li>Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (<a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS</a>).</li>
+        <li>Up to 80 Continuous Learning Points, or CLPs, based on your level of achievement in the program.</li>
       </ul>
       {% endcapture %}
 
@@ -233,19 +242,6 @@ tags: [digital acquisition training, agile acquisition training]
       {% endcapture %}
 
       {% include accordion.html accordion_header = 'Is the course guaranteed to run if I sign-up?' accordion_body = accordion_body accordion_index = '5' %}
-
-      {% capture accordion_body %}
-      <p>The term <i>digital services</i> refers to the delivery of services to customers in the internet era. Great digital services are built by teams who make effective use of practices and technologies in areas such as user-centered design, agile software delivery, and cloud computing. From an acquisition standpoint, these solutions represent a fundamental change to the way you and your agency needs to approach procurement. We call this new and modern approach to procurement <i>digital acquisition</i>.</p>
-      <p>To increase the development of digital acquisition experts across the government, the U.S. Digital Service and the Office of Federal Procurement Policy launched the DITAP program. By 2022, all federal acquisition professionals managing contracts of $7M or more will require <a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS certification</a>. This certification can be obtained by completing our accredited DITAP training course, led by experts who pioneered the field as former members of 18F and the U.S. Digital Service.</p>
-      {% endcapture %}
-
-      {% include accordion.html accordion_header = 'Where did DITAP come from?' accordion_body = accordion_body accordion_index = '6' %}
-
-      {% capture accordion_body %}
-      <p>DITAP training isn’t just for contracting professionals seeking certification, however. Our training is for anyone who plays a role in the lifecycle of an acquisition, and wants to learn how to transform acquisition outcomes through digital acquisition methods. So whether you’re a finance officer, legal counsellor, procurement officer, program manager, or technical manager, you’ll benefit greatly from this training.</p>
-      {% endcapture %}
-
-      {% include accordion.html accordion_header = 'Is this course for someone like me?' accordion_body = accordion_body accordion_index = '7' %}
     </div>
   </div>
 </div>
