@@ -162,19 +162,18 @@ tags: [digital acquisition training, agile acquisition training]
 
       <h2 id="tuition-and-dates">Tuition and dates</h2>
       <a href="/services/ditap/apply/" class="row tuition-card no-gutters mt-4">
-          <div class="col-12 col-lg-4">
-            <div role="img" class="tuition-card-img" style="background-image: url(/img/digital-procurement-icon.png);" title="Illustration of a government building with icons representing different vendor offerings around it."></div>
-          </div>
-          <div class="tuition-card-content col-12 col-lg-8">
+          <div class="col-12 col-lg-8">
             <h3>August 14, 2018 to March 29, 2019</h3>
             <p class="tuition-card-note">Nine full days of mandatory, in-person classroom instruction in Washington DC on the following dates: Aug 28-30, 2018, Nov 6-8, 2018, and Feb 5-7, 2019</p>
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
             <p><strong>Cost:</strong> $7,500 USD</p>
+          </div>
+          <div class="tuition-card-link col-12 col-lg-4 text-lg-right">
             <p>
               <strong class="tuition-card-link">Apply now →</strong>
             </p>
-          </div>
+          </div>            
       </a>
 
       <h2 id="faqs">Get answers</h2>

@@ -154,6 +154,7 @@ $outline-light: 2px solid #f2f2f2;
   border: $card-border-width solid $card-border-color;
   box-shadow: $card-box-shadow;
   color: $body-color;
+  padding: 1.25rem;
 
   &:hover {
     box-shadow: none;
@@ -170,6 +171,15 @@ $outline-light: 2px solid #f2f2f2;
   }
 }
 
+.tuition-card-link {
+  @include media-breakpoint-up(lg) {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+// Deprecated
 .tuition-card-img {
   background-color: #f2f2f2;
   background-position: center;
@@ -188,10 +198,6 @@ $outline-light: 2px solid #f2f2f2;
   &:hover {
     color: $link-hover-color;
   }
-}
-
-.tuition-card-content {
-  padding: 1.25rem !important;
 }
 
 .form-small {
