@@ -115,7 +115,8 @@ $gray-light: lighten($gray, 10%);
 $gray-lighter: lighten($gray, 30%);
 $gray-lightest: lighten($gray, 50%);
 
-$brand-primary: $sk-blue;
+$brand-primary: $sk-blue-dark;
+$brand-primary-light: $sk-blue;
 $brand-primary-dark: $sk-blue-dark;
 $brand-success: $sk-green;
 $brand-info: $sk-blue;
@@ -127,7 +128,7 @@ $brand-inverse: $gray-dark;
 $body-color: $gray-dark;
 
 // Links
-$link-color: $brand-primary;
+$link-color: $brand-primary-dark;
 $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none;
 
@@ -197,10 +198,10 @@ $tooltip-bg: $brand-primary;
 $brand-primary-muted: rgba($brand-primary, .7);
 
 // Links
-$text-link-color: $brand-primary;
-$text-link-hover-color: $text-link-color;
-$text-link-border: 1px dotted $text-link-color;
-$text-link-border-hover: 1px solid $text-link-hover-color;
+$text-link-color: $link-color;
+$text-link-hover-color: $link-hover-color;
+$text-link-border: 1px dotted $link-color;
+$text-link-border-hover: 1px solid $link-hover-color;
 
 $header-display-1: $font-size-h1;
 $header-display-2: $font-size-h2;
@@ -273,7 +274,7 @@ $footer-link-border-hover: 1px solid $footer-link-hover-color;
 
 // Page CTA (subfooter)
 $page-cta-color: $white;
-$page-cta-bg-color: linear-gradient(90deg, $brand-primary, darken($brand-primary, 15%));
+$page-cta-bg-color: linear-gradient(67.15deg, #183751 -5.79%, #235384 107.23%), #162D44;
 
 $btn-page-cta-color: $white;
 $btn-page-cta-bg: $brand-primary;
