@@ -27,7 +27,7 @@ Right now the federal government spends about <a href="http://www.gao.gov/produc
 
 Looking at this from a macro perspective, the answer really depends on how much and how quickly that annual amount of $20B could pay down the decades' worth of accumulated "IT debt," which we're willing to guesstimate runs north of $200 billion.
 
-You might think that's too crazily high, but imagine all the instances over the years in which the thousands of existing systems out there needed to be refactored, re-architected, re-platformed, upgraded, etc. but were not in favor of slapping on new features, building new systems, or being neglected altogether. That is a lot of accumulated IT debt, and by that we mean all the money that *should* have been spent to keep the escalating costs of changing, operating, and maintaining those systems down &mdash; but was not.
+You might think that's too crazily high, but imagine all the instances over the years in which the thousands of existing systems out there needed to be refactored, re-architected, re-platformed, upgraded, etc. but were not in favor of slapping on new features, building new systems, or being neglected altogether. That's a lot of accumulated IT debt, and by that we mean all the money that *should* have been spent to keep the escalating costs of changing, operating, and maintaining those systems down &mdash; but wasn't.
 
 Given the probable size of this accrued debt, and the reality that a good portion of the "available" 25% would likely be siphoned off to support new requirements anyway, we don't think it'd be enough to dig agencies out of the hole expeditiously.
 
