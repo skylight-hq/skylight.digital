@@ -294,12 +294,12 @@ $filter-item-link-border-hover: none;
 // Posts
 $post-header-footer-color: $gray-light;
 
-$post-header-footer-link-color: $post-header-footer-color;
-$post-header-footer-link-hover-color: $brand-primary;
+$post-header-footer-link-color: $brand-primary;
+$post-header-footer-link-hover-color: $link-hover-color;
 $post-header-footer-link-border: 1px dotted $post-header-footer-link-color;
 $post-header-footer-link-border-hover: 1px solid $post-header-footer-link-hover-color;
 
-$btn-share-color: $post-header-footer-color;
+$btn-share-color: $brand-primary;
 $btn-share-bg: $white;
 $btn-share-border: $btn-share-color;
-$btn-share-active-color: $brand-primary;
+$btn-share-active-color: $btn-share-color;
