@@ -39,7 +39,7 @@ tags: [digital acquisition training, agile acquisition training]
       </div>
     </div>
 
-    <div class="col-12 col-md-9">
+    <div class="col-12 col-md-9 text">
       <div class="mt-5">
         <h2 class="" id="overview">Become a digital acquisition professional</h2>
         <p class="text-intro">Acquire the skills you need to make procurement work for government in today's digital world.</p>

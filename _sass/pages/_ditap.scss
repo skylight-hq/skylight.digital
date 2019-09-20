@@ -149,7 +149,7 @@ $outline-light: 2px solid #f2f2f2;
   border: $card-border-width solid $card-border-color;
 }
 
-.tuition-card {
+.tuition-card.tuition-card { // higher specificity so it doesn't inheret link styles
   @include border-radius($border-radius);
   border: $card-border-width solid $card-border-color;
   box-shadow: $card-box-shadow;
@@ -158,16 +158,13 @@ $outline-light: 2px solid #f2f2f2;
   padding: 1.25rem;
 
   &:hover {
+    border: $card-border-width solid $card-border-color;
     box-shadow: none;
     color: $body-color;
   }
 
   p {
 
-  }
-
-  .tuition-card-note {
-//    font-size: $font-size-base;
   }
 }
 
