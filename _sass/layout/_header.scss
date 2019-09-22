@@ -1,7 +1,7 @@
 .header {
   @extend %container-fluid;
   @extend %px-lq-5;
-  transform: scale(1);
+  // transform: scale(1); What is this for?
   transition: 0.25s all ease;
 }
 
