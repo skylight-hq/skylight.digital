@@ -56,7 +56,7 @@ tags: [services]
               <label class="required" for="date-input">What course date would you like to take?</label>
               <select class="form-control" id="date-input" name="date" required>
                 <!-- <option value>- Select -</option> -->
-                <option>August 14, 2018 to March 29, 2019</option>
+                <option>November 6, 2019, to May 7, 2020</option>
               </select>
             </div>
           </div>
