@@ -64,24 +64,24 @@ tags: [digital acquisition training, agile acquisition training]
 
 
         <div class="image-list row mt-4">
-          <div class="image-list-img col-12 col-lg-4">
-            <img class="image-list-md" src="/img/ditap-01b.jpg" alt="">
+          <div class="image-list-img col-12 col-lg-3">
+            <img src="/img/ditap-01.svg" alt="">
           </div>
-          <div class="col-12 col-lg-8">
+          <div class="col-12 col-lg-9">
             <h3>Expert instructors</h3>
             <p>Our instructors are recognized experts in the field of digital acquisition, and are eager to share their past and current experiences with you. Through our blend of remote and onsite learning, you'll have the chance to engage with the pioneers of modern procurement techniques.</p>
           </div>
-          <div class="image-list-img col-12 col-lg-4">
-            <img class="image-list-md" src="/img/ditap-02b.jpg" alt="">
+          <div class="image-list-img col-12 col-lg-3">
+            <img src="/img/ditap-02.svg" alt="">
           </div>
-          <div class="col-12 col-lg-8">
+          <div class="col-12 col-lg-9">
             <h3>Dynamic learning opportunities</h3>
             <p>Our balanced, holistic approach to teaching will give you the tools you need to master the course material &mdash; whatever your learning style. We blend traditional in-person classroom learning (such as seminars, panels, and guest speakers) with flexible, asynchronous online learning content (such as readings, team projects, and interactive discussions).</p>
           </div>
-          <div class="image-list-img col-12 col-lg-4">
-            <img class="image-list-sm" src="/img/ditap-03b.jpg" alt="">
+          <div class="image-list-img col-12 col-lg-3">
+            <img src="/img/ditap-03.svg" alt="">
           </div>
-          <div class="col-12 col-lg-8">
+          <div class="col-12 col-lg-9">
             <h3>Personalized guidance</h3>
             <p>When you train with Skylight, you can always rely on us to provide the support you need. Through office hours and other channels, our skilled facilitators are here to provide you with answers, tips, and more to help maximize your learning opportunities.</p>
           </div>
