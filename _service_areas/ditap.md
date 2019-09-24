@@ -14,7 +14,7 @@ tags: [digital acquisition training, agile acquisition training]
         <p class="hero-content">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you'll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services and up to 80 Continuous Learning Points.</p>
         <div class="hero-btn-group mt-2">
           <a class="btn btn-warning btn-lg text-dark mr-2 mt-3" href="/services/ditap/apply">Apply now →</a>
-          <a class="btn btn-outline-light btn-lg mt-3" href="#">Download syllabus</a>          
+          <a class="btn btn-outline-light btn-lg mt-3" href="/assets/DITAP-Syllabus.pdf">Download syllabus</a>          
         </div>
       </div>
     </div>
@@ -115,7 +115,7 @@ tags: [digital acquisition training, agile acquisition training]
             <div class="course-cta card border p-4">
               <p>Want to know more about our course?</p>
               <p class="mt-3">
-                <a href="#">Download syllabus →</a>
+                <a href="/assets/DITAP-Syllabus.pdf">Download syllabus →</a>
               </p>
             </div>
           </div>
