@@ -65,14 +65,14 @@ tags: [digital acquisition training, agile acquisition training]
 
         <div class="image-list row mt-4">
           <div class="image-list-img col-12 col-lg-4">
-            <img class="image-list-sm" src="/img/ditap-01b.jpg" alt="">
+            <img class="image-list-md" src="/img/ditap-01b.jpg" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Expert instructors</h3>
             <p>Our instructors are recognized experts in the field of digital acquisition, and are eager to share their past and current experiences with you. Through our blend of remote and onsite learning, you'll have the chance to engage with the pioneers of modern procurement techniques.</p>
           </div>
           <div class="image-list-img col-12 col-lg-4">
-            <img src="/img/ditap-02b.jpg" alt="">
+            <img class="image-list-md" src="/img/ditap-02b.jpg" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Dynamic learning opportunities</h3>
