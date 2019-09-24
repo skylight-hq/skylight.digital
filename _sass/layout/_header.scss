@@ -127,6 +127,13 @@
   }
 }
 
+// Restore dropdown focus browser default style
+.dropdown-toggle {
+  &:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+  }
+}
+
 @include media-breakpoint-down(md) {
   .nav-link {
     span {
