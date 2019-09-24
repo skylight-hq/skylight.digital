@@ -43,6 +43,17 @@
       margin-bottom: 0;
     }
   }
+
+  .image-list {
+    .image-list-sm {
+      max-height: 183px;
+      width: auto;      
+    }
+
+    .image-list-img {
+      text-align: center;
+    }
+  }
 }
 
 .quote-container {

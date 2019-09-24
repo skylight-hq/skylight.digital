@@ -65,7 +65,7 @@ tags: [digital acquisition training, agile acquisition training]
 
         <div class="image-list row mt-4">
           <div class="image-list-img col-12 col-lg-4">
-            <img src="/img/ditap-01b.jpg" alt="">
+            <img class="image-list-sm" src="/img/ditap-01b.jpg" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Expert instructors</h3>
@@ -79,7 +79,7 @@ tags: [digital acquisition training, agile acquisition training]
             <p>Our balanced, holistic approach to teaching will give you the tools you need to master the course material &mdash; whatever your learning style. We blend traditional in-person classroom learning (such as seminars, panels, and guest speakers) with flexible, asynchronous online learning content (such as readings, team projects, and interactive discussions).</p>
           </div>
           <div class="image-list-img col-12 col-lg-4">
-            <img src="/img/ditap-03b.jpg" alt="">
+            <img class="image-list-sm" src="/img/ditap-03b.jpg" alt="">
           </div>
           <div class="col-12 col-lg-8">
             <h3>Personalized guidance</h3>
