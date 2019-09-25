@@ -25,7 +25,7 @@ tags: [digital acquisition training, agile acquisition training]
   <div class="row">
     <div class="col-12 col-md-3 mt-5">
       <div class="sticky">
-        <nav  class="subnav-col px-0">
+        <nav class="subnav-col px-0">
           <ul role="presentation">
             <li><a href="#overview">Overview</a></li>
             <li><a href="#learning-experience">Learning experience</a></li>
