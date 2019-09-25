@@ -14,7 +14,7 @@ tags: [digital acquisition training, agile acquisition training]
         <p class="hero-content">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you'll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services and up to 80 Continuous Learning Points.</p>
         <div class="hero-btn-group mt-2">
           <a class="btn btn-warning btn-lg text-dark mr-2 mt-3" href="/services/ditap/apply">Apply now →</a>
-          <a class="btn btn-outline-light btn-lg mt-3" href="/assets/DITAP-Syllabus.pdf">Download syllabus</a>          
+          <a class="btn btn-outline-light btn-lg mt-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus</a>          
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ tags: [digital acquisition training, agile acquisition training]
           </div>
           <div class="col-12 col-lg-4">
             <h3>Achieve Mastery</h3>
-            <p>Master the concepts, tools, and techniques you need to excel at digital acquisitions through our expert-led, dynamic learning environment. Earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (<a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS</a>).</p>
+            <p>Master the concepts, tools, and techniques you need to excel at digital acquisition through our expert-led, dynamic learning environment. Earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (<a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS</a>).</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Reinvent Procurement</h3>
@@ -60,7 +60,7 @@ tags: [digital acquisition training, agile acquisition training]
         </div>
 
         <h2 id="learning-experience">Engage in a unique learning experience</h2>
-        <p class="text-intro">Led by our team of master coaches and educators, our learning environment is designed to immerse you in both the theory and applied practice of digital acquisitions.</p>
+        <p class="text-intro">Led by our team of master coaches and educators, our learning environment is designed to immerse you in both the theory and applied practice of digital acquisition.</p>
 
 
         <div class="image-list row mt-4">
@@ -115,7 +115,7 @@ tags: [digital acquisition training, agile acquisition training]
             <div class="course-cta card border p-4">
               <p>Want to know more about our course?</p>
               <p class="mt-3">
-                <a href="/assets/DITAP-Syllabus.pdf">Download syllabus →</a>
+                <a href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus →</a>
               </p>
             </div>
           </div>
@@ -165,8 +165,8 @@ tags: [digital acquisition training, agile acquisition training]
       <h2 id="tuition-and-dates">Tuition and dates</h2>
       <a href="/services/ditap/apply/" class="row tuition-card no-gutters mt-4">
           <div class="col-12">
-            <h3>November 6, 2019, to May 7, 2020</h3>
-            <p class="tuition-card-note">In-person classroom sessions will be held in Washington, D.C. on the following dates: Nov. 6-8, 2019; Jan. 27-31, 2019; Mar. 16-20, 2019; May 4-7, 2019. Holiday breaks included in course schedule.</p>
+            <h3>November 6, 2019 to May 7, 2020</h3>
+            <p class="tuition-card-note">In-person classroom sessions will be held on Nov 6&ndash;8, Jan 27&ndash;31, Mar 16&ndash;20, and May 4&ndash;7.</p>
             <div class="tuition-card-meta mt-3">
               <p><strong>Location:</strong> Online + Washington DC</p>
               <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>

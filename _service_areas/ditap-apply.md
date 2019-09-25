@@ -1,11 +1,7 @@
 ---
 layout: default
-title: Submit your application
+title: Submit Your Application
 permalink: /services/ditap/apply/
-excerpt: Excerpt text
-image: /img/api-microconsulting.png
-image_description: 
-tags: [services]
 ---
 
 <div class="hero">
@@ -56,7 +52,7 @@ tags: [services]
               <label class="required" for="date-input">What course date would you like to take?</label>
               <select class="form-control" id="date-input" name="date" required>
                 <!-- <option value>- Select -</option> -->
-                <option>November 6, 2019, to May 7, 2020</option>
+                <option>November 6, 2019 to May 7, 2020</option>
               </select>
             </div>
           </div>
