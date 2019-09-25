@@ -51,7 +51,7 @@ tags: [digital acquisition training, agile acquisition training]
           </div>
           <div class="col-12 col-lg-4">
             <h3>Achieve Mastery</h3>
-            <p>Master the concepts, tools, and techniques you need to excel at digital acquisitions through our expert-led, dynamic learning environment. Earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (<a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS</a>).</p>
+            <p>Master the concepts, tools, and techniques you need to excel at digital acquisition through our expert-led, dynamic learning environment. Earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services (<a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS</a>).</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Reinvent Procurement</h3>
@@ -60,7 +60,7 @@ tags: [digital acquisition training, agile acquisition training]
         </div>
 
         <h2 id="learning-experience">Engage in a unique learning experience</h2>
-        <p class="text-intro">Led by our team of master coaches and educators, our learning environment is designed to immerse you in both the theory and applied practice of digital acquisitions.</p>
+        <p class="text-intro">Led by our team of master coaches and educators, our learning environment is designed to immerse you in both the theory and applied practice of digital acquisition.</p>
 
 
         <div class="image-list row mt-4">
