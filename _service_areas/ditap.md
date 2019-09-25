@@ -166,7 +166,7 @@ tags: [digital acquisition training, agile acquisition training]
       <a href="/services/ditap/apply/" class="row tuition-card no-gutters mt-4">
           <div class="col-12">
             <h3>November 6, 2019 to May 7, 2020</h3>
-            <p class="tuition-card-note">In-person classroom sessions will be held in Washington DC on the following dates: Nov 6&ndash;8, Jan 27&ndash;31, Mar 16&ndash;20, May 4&ndash;7.</p>
+            <p class="tuition-card-note">In-person classroom sessions will be held on Nov 6&ndash;8, Jan 27&ndash;31, Mar 16&ndash;20, and May 4&ndash;7.</p>
             <div class="tuition-card-meta mt-3">
               <p><strong>Location:</strong> Online + Washington DC</p>
               <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
