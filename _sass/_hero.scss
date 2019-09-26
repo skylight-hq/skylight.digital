@@ -29,3 +29,27 @@
   margin-bottom: 0;
   margin-top: 1.5rem;
 }
+
+.hero-btn-group {
+  background: $brand-primary;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  padding: 16px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+
+  @include media-breakpoint-up(md) {
+    background: transparent;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+  }
+
+  .btn {
+    flex: 0 0 50%;
+    margin-top: 0;
+  }
+}
