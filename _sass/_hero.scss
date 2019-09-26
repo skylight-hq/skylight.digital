@@ -50,6 +50,7 @@
 
   .btn {
     flex: 0 0 50%;
+    font-size: 17px;
     margin-top: 0;
 
     @include media-breakpoint-up(md) {
