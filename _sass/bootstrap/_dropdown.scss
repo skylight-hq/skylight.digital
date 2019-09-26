@@ -98,6 +98,10 @@
       background-image: none;
     }
   }
+
+  &[aria-current] {
+    font-weight: 700;
+  }
 }
 
 // Open state for the dropdown

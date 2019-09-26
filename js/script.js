@@ -5,7 +5,19 @@ $(function() {
 
   var pathArray = location.pathname.split('/')
   var firstLevelPath = pathArray[1]
-  var $anchorToActivate = $('#navbar-nav-collapsible a[href*="' + firstLevelPath + '"]').closest('a')
+  var $anchorToActivate = $('#navbar-nav-collapsible a[href*="' + firstLevelPath + '"]')
+
+  if ($anchorToActivate.length > 1) {
+    var secondLevelPath = pathArray[2];
+    var parent = $anchorToActivate.first().parents('.dropdown')
+    var path = secondLevelPath ? secondLevelPath : firstLevelPath;
+
+    $anchorToActivate = parent.find('.dropdown-toggle')
+    $subAnchorToActivate = parent.find('.dropdown-item[href*="' + path + '"]').first();
+
+    $subAnchorToActivate.attr('aria-current', 'page')
+  }
+
   $anchorToActivate.attr('aria-current', 'page')
 })
 
