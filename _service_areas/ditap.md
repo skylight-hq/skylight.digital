@@ -55,7 +55,7 @@ tags: [digital acquisition training, agile acquisition training]
           </div>
           <div class="col-12 col-lg-4">
             <h3>Reinvent Procurement</h3>
-            <p>Fundamentally change the way you and your agency procures products and services. Experience greater collaboration with vendors, more breakthrough innovations, faster delivery of value, higher quality results, and lower costs.</p>
+            <p>Fundamentally change the way you and your agency procures products and services from industry. Experience greater collaboration with vendors, more breakthrough innovations, faster delivery of value, higher quality results, and lower costs.</p>
           </div>
         </div>
 
