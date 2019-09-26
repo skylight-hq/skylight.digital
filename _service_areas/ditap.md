@@ -13,8 +13,8 @@ tags: [digital acquisition training, agile acquisition training]
         <h1 class="hero-heading">Digital IT Acquisition Professional (DITAP) Training</h1>
         <p class="hero-content">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you'll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services and up to 80 Continuous Learning Points.</p>
         <div class="hero-btn-group mt-2">
-          <a class="btn btn-warning btn-lg text-dark mr-2 mt-md-3" href="/services/ditap/apply">Apply now →</a>
-          <a class="btn btn-outline-light btn-lg mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus</a>          
+          <a class="btn btn-warning text-dark mr-2 mt-md-3" href="/services/ditap/apply">Apply now →</a>
+          <a class="btn btn-outline-light mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus</a>          
         </div>
       </div>
     </div>
