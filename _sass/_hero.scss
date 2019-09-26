@@ -33,6 +33,7 @@
 .hero-btn-group {
   background: $brand-primary;
   bottom: 0;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .5);
   display: flex;
   left: 0;
   padding: 16px;
@@ -43,6 +44,7 @@
 
   @include media-breakpoint-up(md) {
     background: transparent;
+    box-shadow: none;
     display: inline-block;
     padding: 0;
     position: relative;
