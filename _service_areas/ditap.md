@@ -13,8 +13,8 @@ tags: [digital acquisition training, agile acquisition training]
         <h1 class="hero-heading">Digital IT Acquisition Professional (DITAP) Training</h1>
         <p class="hero-content">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you'll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services and up to 80 Continuous Learning Points.</p>
         <div class="hero-btn-group mt-2">
-          <a class="btn btn-warning btn-lg text-dark mr-2 mt-3" href="/services/ditap/apply">Apply now →</a>
-          <a class="btn btn-outline-light btn-lg mt-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus</a>          
+          <a class="btn btn-warning btn-lg text-dark mr-2 mt-md-3" href="/services/ditap/apply">Apply now →</a>
+          <a class="btn btn-outline-light btn-lg mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus</a>          
         </div>
       </div>
     </div>
@@ -47,7 +47,7 @@ tags: [digital acquisition training, agile acquisition training]
         <div class="text-grid row">
           <div class="col-12 col-lg-4">
             <h3>Learn to lead</h3>
-            <p>Understand how modern approaches to delivering technology 	&mdash; from agile to cloud computing &mdash; have changed the way your agency needs to buy. Learn how to lead your agency through the process of adopting modern procurement methods successfully.</p>
+            <p>Understand how modern approaches to delivering technology, such as agile, have changed the way your agency needs to buy. Learn how to lead your agency through the process of adopting modern procurement methods successfully.</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Achieve Mastery</h3>
@@ -55,13 +55,12 @@ tags: [digital acquisition training, agile acquisition training]
           </div>
           <div class="col-12 col-lg-4">
             <h3>Reinvent Procurement</h3>
-            <p>Fundamentally change the way you and your agency procures products and services. Experience greater collaboration with vendors, more breakthrough innovations, faster delivery of value, higher quality results, and lower costs.</p>
+            <p>Fundamentally change the way you and your agency procures products and services from industry. Experience greater collaboration with vendors, more breakthrough innovations, faster delivery of value, higher quality results, and lower costs.</p>
           </div>
         </div>
 
         <h2 id="learning-experience">Engage in a unique learning experience</h2>
         <p class="text-intro">Led by our team of master coaches and educators, our learning environment is designed to immerse you in both the theory and applied practice of digital acquisition.</p>
-
 
         <div class="image-list row mt-4">
           <div class="image-list-img col-12 col-lg-3">
