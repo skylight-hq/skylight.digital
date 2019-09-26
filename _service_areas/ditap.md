@@ -47,7 +47,7 @@ tags: [digital acquisition training, agile acquisition training]
         <div class="text-grid row">
           <div class="col-12 col-lg-4">
             <h3>Learn to lead</h3>
-            <p>Understand how modern approaches to delivering technology 	&mdash; from agile to cloud computing &mdash; have changed the way your agency needs to buy. Learn how to lead your agency through the process of adopting modern procurement methods successfully.</p>
+            <p>Understand how modern approaches to delivering technology, such as agile, have changed the way your agency needs to buy. Learn how to lead your agency through the process of adopting modern procurement methods successfully.</p>
           </div>
           <div class="col-12 col-lg-4">
             <h3>Achieve Mastery</h3>
