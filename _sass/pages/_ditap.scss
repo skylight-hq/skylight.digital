@@ -1,3 +1,14 @@
+// Extra footer padding for sticky footer
+.page-ditap {
+  footer {
+    padding-bottom: 6rem !important;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 3rem !important;
+    }
+  }
+}
+
 .page-ditap-content {
   .subnav-col {
     margin-left: -15px !important;
@@ -112,7 +123,6 @@
     margin-bottom: 0;
 
     &:first-of-type {
-      // margin-top: 1em;
     }
   }
 }
