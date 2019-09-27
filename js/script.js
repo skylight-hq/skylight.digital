@@ -193,3 +193,20 @@ $(function(){
     return this.hostname != window.location.hostname
   }).attr('target', '_blank')
 })
+
+// Hash update with scroll on ditap page
+$(function(){
+  if (location.pathname == '/services/ditap/') {
+    $(document).bind('scroll',function(e){
+      $('h2').each(function(){
+          if (
+            $(this).offset().top < window.pageYOffset + 10 &&
+            $(this).offset().top + $(this).height() > window.pageYOffset + 10
+          ) {
+             var urlId = '#' + $(this).attr('id');
+             history.replaceState(null, null, urlId);
+          }
+      });
+    });
+  }
+});
