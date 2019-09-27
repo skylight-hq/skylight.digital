@@ -83,7 +83,7 @@ class: ditap
             <p>Our balanced, holistic approach to teaching will give you the tools you need to master the course material &mdash; whatever your learning style. We blend traditional in-person classroom learning (such as seminars, panels, and guest speakers) with flexible, asynchronous online learning content (such as readings, team projects, and interactive discussions).</p>
           </div>
           <div class="image-list-img col-12 col-lg-3">
-            <img src="/img/ditap-03.jpg" alt="">
+            <img src="/img/ditap-03g.jpg" alt="">
           </div>
           <div class="col-12 col-lg-9">
             <h3>Personalized guidance</h3>
