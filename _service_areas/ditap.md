@@ -18,7 +18,7 @@ class: ditap
             <a class="btn btn-warning text-dark mr-2 mt-md-3" href="/services/ditap/apply">Apply now →</a>
           </div>
           <div class="hero-btn-wrapper pl-1">
-            <a class="btn btn-outline-light mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus</a>  
+            <a class="btn btn-outline-light mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Read syllabus</a>  
           </div>        
         </div>
       </div>
@@ -119,7 +119,7 @@ class: ditap
             <div class="course-cta card border p-4">
               <p>Want to know more about our course?</p>
               <p class="mt-3">
-                <a href="/assets/Skylight-DITAP-Syllabus.pdf">Download syllabus →</a>
+                <a href="/assets/Skylight-DITAP-Syllabus.pdf">Read syllabus →</a>
               </p>
             </div>
           </div>
