@@ -8,9 +8,9 @@ class: ditap
 ---
 
 <div class="hero">
-  <div class="container">
+  <div class="hero-container container-fluid">
     <div class="row">
-      <div class="col-12 col-lg-8 offset-lg-2">
+      <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2">
         <h1 class="hero-heading">Digital IT Acquisition Professional (DITAP) Training</h1>
         <p class="hero-content">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you'll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services and up to 80 Continuous Learning Points.</p>
         <div class="hero-btn-group mt-2">

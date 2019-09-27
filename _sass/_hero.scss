@@ -1,11 +1,6 @@
 .hero {
   background: linear-gradient(67.15deg, #183751 -5.79%, #235384 107.23%), #162D44;
 
-  .container {
-    padding-bottom: 56px; // Is there a spacing variable we can use?
-    padding-top: 56px;
-  }
-
   .btn-warning {
     font-weight: $font-weight-bold;
   }
@@ -15,6 +10,11 @@
       color: $brand-primary-dark;
     }
   }
+}
+
+.hero-container  {
+  padding-bottom: 56px; // Is there a spacing variable we can use?
+  padding-top: 56px;
 }
 
 .hero-heading {
