@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="page-{% if page.class %}{{ page.class }}{% else %}{{ page.title | slugify }}{% endif %}" data-spy="scroll" data-target="#sidenav" data-offset="0">
+  <body class="page-{% if page.class %}{{ page.class }}{% else %}{{ page.title | slugify }}{% endif %}" data-spy="scroll" data-target="#sidenav">
     <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
 
     {% include header.html %}
