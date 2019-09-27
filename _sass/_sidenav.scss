@@ -21,10 +21,24 @@
     padding-left: .5rem;
 
     &:hover,
-    &:focus,
-    &.current {
+    &:focus {
       border-left: 4px solid $nav-link-border-color;
       padding-left: 11px;
+    }
+
+    .active {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            margin-left: -15px;
+            padding-left: 11px;
+            border-left: 4px solid $nav-link-border-color;
+            content: "";
+        }
     }
   }
 

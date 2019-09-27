@@ -32,12 +32,12 @@ class: ditap
       <div class="sticky">
         <nav class="subnav-col px-0" id="sidenav">
           <ul role="presentation">
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#learning-experience">Learning experience</a></li>
-            <li><a href="#what-youll-learn">Curriculum</a></li>
-            <li><a href="#instructors">Instructors</a></li>
-            <li><a href="#tuition-and-dates">Tuition and dates</a></li>
-            <li><a href="#faqs">FAQs</a></li>
+            <li><a class="nav-link active" href="#overview">Overview</a></li>
+            <li><a class="nav-link" href="#learning-experience">Learning experience</a></li>
+            <li><a class="nav-link" href="#what-youll-learn">Curriculum</a></li>
+            <li><a class="nav-link" href="#instructors">Instructors</a></li>
+            <li><a class="nav-link" href="#tuition-and-dates">Tuition and dates</a></li>
+            <li><a class="nav-link" href="#faqs">FAQs</a></li>
           </ul>
         </nav>
         <a class="btn btn-primary-dark font-weight-bold mt-2" href="/services/ditap/apply">Apply now →</a>
