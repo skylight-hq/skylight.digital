@@ -34,7 +34,7 @@ class: ditap
           <ul role="presentation">
             <li><a class="nav-link" href="#overview">Overview</a></li>
             <li><a class="nav-link" href="#learning-experience">Learning experience</a></li>
-            <li><a class="nav-link" href="#what-youll-learn">Curriculum</a></li>
+            <li><a class="nav-link" href="#curriculum">Curriculum</a></li>
             <li><a class="nav-link" href="#instructors">Instructors</a></li>
             <li><a class="nav-link" href="#tuition-and-dates">Tuition and dates</a></li>
             <li><a class="nav-link" href="#faqs">FAQs</a></li>
@@ -91,7 +91,7 @@ class: ditap
           </div>
         </div>
 
-        <h2 id="what-youll-learn">What you'll learn</h2>
+        <h2 id="curriculum">What you'll learn</h2>
         <p class="text-intro">In this program, you'll learn how to translate critical concepts and resources in the field of digital acquisition into effective, real-world practice.</p>
 
         <div class="text-grid row">
