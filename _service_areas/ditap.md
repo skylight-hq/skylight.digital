@@ -32,7 +32,7 @@ class: ditap
       <div class="sticky">
         <nav class="subnav-col px-0" id="sidenav">
           <ul role="presentation">
-            <li><a class="nav-link active" href="#overview">Overview</a></li>
+            <li><a class="nav-link" href="#overview">Overview</a></li>
             <li><a class="nav-link" href="#learning-experience">Learning experience</a></li>
             <li><a class="nav-link" href="#what-youll-learn">Curriculum</a></li>
             <li><a class="nav-link" href="#instructors">Instructors</a></li>
