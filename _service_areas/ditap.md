@@ -28,7 +28,7 @@ class: ditap
 
 <div class="container page-ditap-content">
   <div class="row">
-    <div class="col-12 col-md-3 mt-5">
+    <div class="sidenav col-12 col-md-3 mt-5 d-none d-md-block">
       <div class="sticky">
         <nav class="subnav-col px-0" id="sidenav">
           <ul role="presentation">
@@ -115,7 +115,7 @@ class: ditap
             <h3>Leading change as a digital acquisition professional</h3>
             <p>Master the leadership and communication skills you need to win stakeholder buy-in for digital acquisition.</p>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-4 d-none d-md-block">
             <div class="course-cta card border p-4">
               <p>Want to know more about our course?</p>
               <p class="mt-3">
