@@ -5,7 +5,19 @@ $(function() {
 
   var pathArray = location.pathname.split('/')
   var firstLevelPath = pathArray[1]
-  var $anchorToActivate = $('#navbar-nav-collapsible a[href*="' + firstLevelPath + '"]').closest('a')
+  var $anchorToActivate = $('#navbar-nav-collapsible a[href*="' + firstLevelPath + '"]')
+
+  if ($anchorToActivate.length > 1) {
+    var secondLevelPath = pathArray[2];
+    var parent = $anchorToActivate.first().parents('.dropdown')
+    var path = secondLevelPath ? secondLevelPath : firstLevelPath;
+
+    $anchorToActivate = parent.find('.dropdown-toggle')
+    $subAnchorToActivate = parent.find('.dropdown-item[href*="' + path + '"]').first();
+
+    $subAnchorToActivate.attr('aria-current', 'page')
+  }
+
   $anchorToActivate.attr('aria-current', 'page')
 })
 
@@ -181,3 +193,20 @@ $(function(){
     return this.hostname != window.location.hostname
   }).attr('target', '_blank')
 })
+
+// Hash update with scroll on ditap page
+$(function(){
+  if (location.pathname == '/services/ditap/') {
+    $(document).bind('scroll',function(e){
+      $('h2').each(function(){
+          if (
+            $(this).offset().top < window.pageYOffset + 10 &&
+            $(this).offset().top + $(this).height() > window.pageYOffset + 10
+          ) {
+             var urlId = '#' + $(this).attr('id');
+             history.replaceState(null, null, urlId);
+          }
+      });
+    });
+  }
+});

@@ -1,0 +1,73 @@
+.hero {
+  background: linear-gradient(67.15deg, #183751 -5.79%, #235384 107.23%), #162D44;
+
+  .btn-warning {
+    font-weight: $font-weight-bold;
+  }
+
+  .btn-outline-light {
+    &:hover {
+      color: $brand-primary-dark;
+    }
+  }
+}
+
+.hero-container  {
+  max-width: 1140px;
+  padding-bottom: 56px; // Is there a spacing variable we can use?
+  padding-top: 56px;
+}
+
+.hero-heading {
+  color: $white;
+  font-size: $font-size-h2;
+}
+
+.hero-content {
+  color: $white;
+  font-size: $font-size-large;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+.hero-btn-group {
+  background: $gray-dark;
+  bottom: 0;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .5);
+  display: flex;
+  left: 0;
+  padding: 16px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+
+  @include media-breakpoint-up(md) {
+    background: transparent;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    text-align: left;
+  }
+
+  .hero-btn-wrapper {
+    flex: 0 0 50%;
+
+    @include media-breakpoint-up(md) {
+      display: inline-block;
+    }
+  }
+
+  .btn {
+    font-size: 16px;
+    margin-top: 0;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      font-size: 20px;
+      padding: 0.75rem 1.5rem;
+    }
+  }
+}

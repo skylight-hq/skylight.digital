@@ -33,7 +33,7 @@ Information You Give Us
 
 <strong>Additional use.</strong> In some cases, we may share information you've provided or automatically generated information in response to lawful judicial or law enforcement requests or to protect skylight.digital from security threats.
 
-<strong>Analytics.</strong> Skylight uses a third-party analytics provider (currently Google Analytics) to analyze data from cookies. The third-party analytics provider doesn't receive personally identifiable information through these cookies. We have also limited the provider's ability to see your full IP address (a process known as "IP masking"). You can get more information about [how Google Analytics uses cookies that are on our site](https://www.google.com/policies/privacy/partners/), or review [Google Analytics privacy policy](https://www.google.com/intl/en/policies/privacy/) for additional information.
+<strong>Analytics.</strong> Skylight uses a third-party analytics provider (currently Google Analytics) to analyze data from cookies. The third-party analytics provider doesn't receive personally identifiable information through these cookies. We've also limited the provider's ability to see your full IP address (a process known as "IP masking"). You can get more information about [how Google Analytics uses cookies that are on our site](https://www.google.com/policies/privacy/partners/), or review [Google Analytics privacy policy](https://www.google.com/intl/en/policies/privacy/) for additional information.
 
 <strong>Other sharing.</strong> We don't use or share your information for commercial purposes.
 

@@ -165,6 +165,10 @@ $spacers: (
   5: (
     x: ($spacer-x * 3),
     y: ($spacer-y * 3)
+  ),
+  6: (
+    x: ($spacer-x * 4),
+    y: ($spacer-y * 4)
   )
 ) !default;
 $border-width: 1px !default;
@@ -371,6 +375,10 @@ $btn-primary-color:              $white !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             $btn-primary-bg !default;
 
+$btn-primary-dark-color:         $white !default;
+$btn-primary-dark-bg:            $brand-primary-dark !default;
+$btn-primary-dark-border:        $btn-primary-dark-bg !default;
+
 $btn-secondary-color:            $gray-dark !default;
 $btn-secondary-bg:               $white !default;
 $btn-secondary-border:           #ccc !default;
@@ -383,7 +391,7 @@ $btn-success-color:              $white !default;
 $btn-success-bg:                 $brand-success !default;
 $btn-success-border:             $btn-success-bg !default;
 
-$btn-warning-color:              $white !default;
+$btn-warning-color:              $black !default;
 $btn-warning-bg:                 $brand-warning !default;
 $btn-warning-border:             $btn-warning-bg !default;
 

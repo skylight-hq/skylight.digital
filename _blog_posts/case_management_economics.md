@@ -17,7 +17,7 @@ date: 2017-06-14
 ---
 Fundamentally, government is about getting things done and getting things done requires keeping track of problems. In government, these problems are often called cases. A case could be a pothole, a criminal investigation, a water leak, a disability claim, or an industrial accident. No matter the precise situation, the citizens demand accountability and efficiency demands organized record keeping. It isn't surprising, therefore, in the information age that most governments require computer-based *case management systems*.
 
-We have personally been in contact with case management systems for the Social Security Administration, the Department of Labor, and tangentially the <a href="https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/">California Child Welfare System program</a>.
+We've personally been in contact with case management systems for the Social Security Administration, the Department of Labor, and tangentially the <a href="https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/">California Child Welfare System program</a>.
 
 ## Recognizing overlap
 
@@ -96,7 +96,7 @@ Now suppose that you and Jane have contracted your system, and you're approached
 The way to save yourself this hassle is simply to demand that the software that you and Jane are developing be made free-libre open source from the first line. By doing this you and Jane are in effect saying:
 
 <blockquote>
-<p>"We know that there are many systems out there that are similar to this, and we'd like you to get the benefit of our system, and we'd like to benefit from your system. So we have demanded that our system, except for our business rules, is freely reusable so that we can freely reuse contributions to it which we hope you'll make. However, we can't spend all of our time helping you figure out how to use this, so we're attempting to distribute that burden across all potential users."</p>
+<p>"We know that there are many systems out there that are similar to this, and we'd like you to get the benefit of our system, and we'd like to benefit from your system. So we've demanded that our system, except for our business rules, is freely reusable so that we can freely reuse contributions to it which we hope you'll make. However, we can't spend all of our time helping you figure out how to use this, so we're attempting to distribute that burden across all potential users."</p>
 </blockquote>
 
 ## Objections

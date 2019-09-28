@@ -1,0 +1,12 @@
+.hire-us,
+.alliances,
+.ditap-apply {
+  @extend %readability-col;
+}
+
+.hire-us-form,
+.alliances-form,
+.ditap-apply-form {
+  @include mt-6;
+  width: 100%;
+}
