@@ -1,0 +1,218 @@
+// Extra footer padding for sticky footer
+.page-ditap {
+  footer {
+    padding-bottom: 6rem !important;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 3rem !important;
+    }
+  }
+}
+
+.page-ditap-content {
+  .subnav-col {
+    margin-left: -15px !important;
+  }
+
+  h2 {
+    font-size: $font-size-xx-large;
+    margin-top: 4rem;
+  }
+
+  h3 {
+    font-size: $font-size-x-large;
+  }
+
+  h2,
+  h3 {
+    + p {
+      margin-top: 0.75em;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 1rem;
+  }
+
+  .employee-img {
+    @include border-radius($border-radius);
+
+    @include media-breakpoint-up(lg) {
+      height: 226px;
+    }
+  }
+
+  .accordion-card-body {
+    font-size: $font-size-small;
+
+    *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .image-list {
+    img {
+      max-height: 183px;
+      width: auto;      
+    }
+
+    .image-list-img {
+      text-align: center;
+    }
+  }
+}
+
+.quote-container {
+  line-height: 1.5;
+
+  // Box shadow "hack" to add a full-bleed to the right side of quote box
+  // Uses multiple breakpoints for different responsive sizes 
+  @include media-breakpoint-up(md) {
+    box-shadow: 510px 0px $sk-yellow;
+  }
+
+  @include media-breakpoint-up(lg) {
+    box-shadow: 690px 0px $sk-yellow;
+  }
+
+  @include media-breakpoint-up(xl) {
+    box-shadow: 824px 0px $sk-yellow;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  &:before {
+    box-shadow: -100px 0;
+  }
+
+  &:after {
+    box-shadow: 100px 0;
+  }
+
+
+  .text-intro {
+    margin-top: 1em;
+  }
+}
+
+.text-grid {
+  > * {
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: $font-size-small;
+    letter-spacing: 0.05em;
+    line-height: 1.375;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: $font-size-small;
+    margin-bottom: 0;
+
+    &:first-of-type {
+    }
+  }
+}
+
+.text-intro {
+  font-size: $font-size-medium;
+
+  @include media-breakpoint-up(lg) {
+    font-size: $font-size-x-large;
+  }
+  
+  h2 + & {
+    margin-top: 0.5em !important;
+  }
+}
+
+.quote-text {
+  font-size: $font-size-large;
+}
+
+.image-list {
+  > div {
+    margin-top: 1.5rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+$outline-light: 2px solid #f2f2f2;
+
+.course-cta {
+  border: $card-border-width solid $card-border-color;
+}
+
+.tuition-card.tuition-card { // higher specificity so it doesn't inheret link styles
+  @include border-radius($border-radius);
+  border: $card-border-width solid $card-border-color;
+  box-shadow: $card-box-shadow;
+  color: $body-color;
+  font-size: $font-size-small;
+  padding: 1.25rem;
+
+  &:hover {
+    border: $card-border-width solid $card-border-color;
+    box-shadow: none;
+    color: $body-color;
+  }
+
+  p {
+
+  }
+}
+
+.tuition-card-meta {
+  p {
+    font-size: $font-size-xx-small;
+    margin-top: 4px;
+  }
+}
+// .tuition-card-link {
+//   @include media-breakpoint-up(lg) {
+//     align-items: center;
+//     display: flex;
+//     justify-content: flex-end;
+//   }
+// }
+
+// Deprecated
+.tuition-card-img {
+  background-color: #f2f2f2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 225px;
+
+  @include media-breakpoint-up(lg) {
+    height: 100%;
+  }
+}
+
+.tuition-card-link {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.form-small {
+  max-width: 392px;
+}

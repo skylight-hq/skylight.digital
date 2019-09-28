@@ -29,7 +29,7 @@ Here is an attempt to storyboard this:
 
 ![Storyboard illustrating one potential use case for a microconsulting services marketplace platform.](/img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace-platform-storyboard.jpg)
 
-We have been gratified by the positive reaction to our [Microconsulting Services announcement](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/). In particular, we accord with Harvard professor Dr. Steve Kelman's <a href="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">piece</a> on the disruptive implications of such small-scoped services, who writes:
+We've been gratified by the positive reaction to our [Microconsulting Services announcement](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/). In particular, we accord with Harvard professor Dr. Steve Kelman's <a href="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">piece</a> on the disruptive implications of such small-scoped services, who writes:
 
 <blockquote cite="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">
 <p>"If microconsulting can gain traction, this could become a disruptive innovation that forces legacy contractors to change their consulting scoping models."</p>
@@ -60,7 +60,7 @@ Currently, the government isn't actively looking in the marketplace for such an 
 It turns out there's such a mechanism in the ever-flexible FAR: <a href="https://www.acquisition.gov/far/current/html/Subpart%2015_6.html#wp1104869">Subpart 15.6 &mdash; Unsolicited Proposals</a>. Unfortunately, like many other permitted practices under the FAR, such as [share-in-savings contracting](/blog/reactions-to-our-agile-share-in-savings-model/), unsolicited proposals are an underutilized yet powerful procurement practice, as Jonathan Mostowski of the U.S. Digital Service indicated in a <a href="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">LinkedIn post</a>:
 
 <blockquote cite="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">
-<p>"The Federal Government needs to improve they way it deals with unsolicited proposals. Most agencies have a process but I have not come across one that worked well.</p>
+<p>"The Federal Government needs to improve they way it deals with unsolicited proposals. Most agencies have a process but I haven't come across one that worked well.</p>
 
 <p>The need to protect competition should be balanced with rewarding innovation targeted at government needs. I like an open BAA [Broad Agency Announcement] as a work around, but the process for unsolicited proposal acceptance should be straightforward, budgeted, and efficient.</p>  
 

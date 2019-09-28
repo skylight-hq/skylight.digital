@@ -1,7 +1,7 @@
 .header {
   @extend %container-fluid;
   @extend %px-lq-5;
-  transform: scale(1);
+  // transform: scale(1); What is this for?
   transition: 0.25s all ease;
 }
 
@@ -124,6 +124,17 @@
     span {
       font-weight: 700;
     }
+  }
+}
+
+.dropdown-menu {
+  font-size: $font-size-small;
+}
+
+// Restore dropdown focus browser default style
+.dropdown-toggle {
+  &:focus {
+    outline: 5px auto -webkit-focus-ring-color;
   }
 }
 

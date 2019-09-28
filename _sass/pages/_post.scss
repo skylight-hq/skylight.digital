@@ -58,7 +58,7 @@
   @extend %mb-5;
 
   h3 {
-    color: $sk-red;
+//    color: $sk-red;
   }
 
   blockquote {
@@ -105,13 +105,13 @@
 
   a {
     @extend %badge;
-    @extend %badge-default;
+    background-color: $brand-primary;
   }
 
   a.tag-badge {
     &:hover,
     &:focus {
-      background-color: $brand-primary;
+      background-color: $link-hover-color;
     }
   }
 }

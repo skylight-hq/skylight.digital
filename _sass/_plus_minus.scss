@@ -2,17 +2,21 @@
   height: 15px;
   position: relative;
   width: 15px;
-
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+    
   &:before,
   &:after {
-      background: $white;
-      content: '';
-      height: 3px;
-      left: 0;
-      position: absolute;
-      top: 50%;
-      width: 15px;
-      transition: transform 20ms ease;
+    background: $white;
+    content: '';
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    transition: transform 20ms ease;
   }
 
   &:after {
