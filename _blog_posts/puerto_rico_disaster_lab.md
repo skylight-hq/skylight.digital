@@ -87,7 +87,7 @@ To prepare for such a HackWeekend, information architects and technical communit
 
 4. Publication mechanisms, such as open-source outlets, media coverage, and, not least, academic publications, which would be a target of the research project.
 
-We have created an [interactive map](https://www.plectica.com/maps/D26TZT0CX?present=1) that represents our proposal graphically.
+We've created an [interactive map](https://www.plectica.com/maps/D26TZT0CX?present=1) that represents our proposal graphically.
 
 ## Three specific Puerto Rican-branded projects
 
