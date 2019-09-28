@@ -127,6 +127,10 @@
   }
 }
 
+.dropdown-menu {
+  font-size: $font-size-small;
+}
+
 // Restore dropdown focus browser default style
 .dropdown-toggle {
   &:focus {
