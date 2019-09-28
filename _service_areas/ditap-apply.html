@@ -1,0 +1,78 @@
+---
+layout: default
+title: Submit Your Application
+permalink: /services/ditap/apply/
+---
+
+{% include page_header.html
+  header_class = 'page-header-2'
+%}
+
+<div class="ditap-apply">
+  <p>
+    <strong>You're one step closer to mastering the art of digital acquisition!</strong>
+    If you're ready to apply, please complete the form below. Our team will review your
+    application and follow up within 1&ndash;2 business days to ask you a few
+    questions. We want you to have the best experience possible, so it's important
+    to determine whether you're a good fit for the program at this time. Once
+    you're approved, we'll then walk you through the process of formally enrolling,
+    including tuition payment.
+  </p>
+
+  <div class="ditap-apply-form">
+    <form accept-charset="UTF-8" action="https://formkeep.com/f/9220d7c9269b" method="POST">
+      <input type="hidden" name="utf8" value="✓">
+
+      <div class="form-group">
+        <label class="required" for="name-input">Name</label>
+        <input id="name-input" class="form-control" type="text" placeholder="Brenda Buyer" name="name" autocomplete="name" required>
+      </div>
+
+      <div class="form-group">
+        <label class="required" for="org-input">Organization</label>
+        <input id="org-input" class="form-control" type="text" placeholder="Department of Great Procurements" name="org" autocomplete="org" required>
+      </div>
+
+      <div class="form-group">
+        <label class="required" for="email-input">Email</label>
+        <input id="email-input" class="form-control" type="email" placeholder="brenda@dgp.gov" name="email" autocomplete="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="tel-input">Telephone</label>
+        <input id="tel-input" class="form-control" type="tel" placeholder="555-555-5555" name="phone" autocomplete="tel">
+      </div>
+
+      <div class="form-group">
+        <label class="required" for="date-input">What course date would you like to take?</label>
+        <select class="form-control" id="date-input" name="date" required>
+          <!-- <option value>- Select -</option> -->
+          <option>November 6, 2019 to May 7, 2020</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="required" for="why-input">Why do you want to take this course?</label>
+        <textarea id="why-input" class="form-control" rows="5" placeholder="I want to improve contract outcomes..." name="why" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="required" for="experience-input">What's your current level of acquisition experience?</label>
+        <textarea id="experience-input" class="form-control" rows="5" placeholder="I have 5 years of acquisition experience..." name="experience" required></textarea>
+      </div>
+
+      <div class="form-group text-center">
+        <button class="btn-submit-outline">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% include cta.html
+  header = "Still have more questions?"
+  text = "Please don't hesitate to email us."
+  text_css_class = "page-subfooter-text-col"
+  cta_path = "#"
+  cta = "Email Us"
+  icon_css_class = "fa fa-arrow-right"
+%}
