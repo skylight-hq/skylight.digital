@@ -69,21 +69,21 @@ class: ditap
 
         <div class="image-list row mt-4">
           <div class="image-list-img col-12 col-lg-3">
-            <img src="/img/ditap-01.jpg" alt="">
+            <img src="/img/ditap-01.svg" alt="Woman teaching in front of a whiteboard">
           </div>
           <div class="col-12 col-lg-9">
             <h3>Expert instructors</h3>
             <p>Our instructors are recognized experts in the field of digital acquisition, and are eager to share their past and current experiences with you. Through our blend of remote and onsite learning, you'll have the chance to engage with the pioneers of modern procurement techniques.</p>
           </div>
           <div class="image-list-img col-12 col-lg-3">
-            <img src="/img/ditap-02.jpg" alt="">
+            <img src="/img/ditap-02.svg" alt="Man walking up an incline holding a laptop">
           </div>
           <div class="col-12 col-lg-9">
             <h3>Dynamic learning opportunities</h3>
             <p>Our balanced, holistic approach to teaching will give you the tools you need to master the course material &mdash; whatever your learning style. We blend traditional in-person classroom learning (such as seminars, panels, and guest speakers) with flexible, asynchronous online learning content (such as readings, team projects, and interactive discussions).</p>
           </div>
           <div class="image-list-img col-12 col-lg-3">
-            <img src="/img/ditap-03g.jpg" alt="">
+            <img src="/img/ditap-03.svg" alt="Woman walking with a book in front of a map pin">
           </div>
           <div class="col-12 col-lg-9">
             <h3>Personalized guidance</h3>
