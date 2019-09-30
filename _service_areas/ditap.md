@@ -167,7 +167,7 @@ class: ditap
       </div>
 
       <h2 id="tuition-and-dates">Tuition and dates</h2>
-      <a href="/services/ditap/apply/" class="row tuition-card no-gutters mt-4">
+      <a href="/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
           <h3>November 6, 2019 to May 7, 2020</h3>
           <p class="tuition-card-note">In-person classroom sessions will be held on Nov 6&ndash;8, Jan 27&ndash;31, Mar 16&ndash;20, and May 4&ndash;7.</p>
@@ -181,7 +181,7 @@ class: ditap
           </p>
         </div>
       </a>
-      <a href="/services/ditap/apply/" class="row tuition-card no-gutters mt-4">
+      <a href="/services/ditap/apply/?date=2" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
           <h3>March 4, 2020 to August 27, 2020</h3>
           <p class="tuition-card-note">In-person classroom sessions will be held on Mar 4&ndash;6, May 11&ndash;15, July 6&ndash;10, and Aug 24&ndash;27.</p>
