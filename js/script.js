@@ -210,3 +210,12 @@ $(function(){
     });
   }
 });
+
+// Pre-populate date select on ditap application
+$(function(){
+  if (location.pathname == '/services/ditap/apply/') {
+    var urlParams = new URLSearchParams(window.location.search);
+    var courseDate = urlParams.get('date');
+    $('#date-input').val(courseDate);
+  }
+});
