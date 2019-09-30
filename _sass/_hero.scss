@@ -20,7 +20,6 @@
 
 .hero-heading {
   color: $white;
-  font-size: $font-size-h1 * .60;
 
   @include media-breakpoint-up(sm) {
     font-size: $font-size-h2;
