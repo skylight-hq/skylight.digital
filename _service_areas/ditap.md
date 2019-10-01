@@ -5,6 +5,8 @@ permalink: /services/ditap/
 excerpt: Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course.
 tags: [digital acquisition training, agile acquisition training]
 class: ditap
+class_1_spots: 
+class_2_spots: 
 ---
 
 <div class="hero">
@@ -169,7 +171,12 @@ class: ditap
       <h2 id="tuition-and-dates">Tuition and dates</h2>
       <a href="/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
-          <h3>November 6, 2019 to May 7, 2020</h3>
+          <h3 class="class-heading">November 6, 2019 to May 7, 2020</h3>
+          {% if page.class_1_spots %}
+            <div class="class-spots">
+              <span>{{ page.class_1_spots }} spots left</span>
+            </div>
+          {% endif %}
           <p class="tuition-card-note">In-person classroom sessions will be held on Nov 6&ndash;8, Jan 27&ndash;31, Mar 16&ndash;20, and May 4&ndash;7.</p>
           <div class="tuition-card-meta mt-3">
             <p><strong>Location:</strong> Online + Washington DC</p>
@@ -183,7 +190,12 @@ class: ditap
       </a>
       <a href="/services/ditap/apply/?date=2" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
-          <h3>March 4, 2020 to August 27, 2020</h3>
+          <h3 class="class-heading">March 4, 2020 to August 27, 2020</h3>
+          {% if page.class_2_spots %}
+            <div class="class-spots">
+              <span>{{ page.class_2_spots }} spots left</span>
+            </div>
+          {% endif %}
           <p class="tuition-card-note">In-person classroom sessions will be held on Mar 4&ndash;6, May 11&ndash;15, July 6&ndash;10, and Aug 24&ndash;27.</p>
           <div class="tuition-card-meta mt-3">
             <p><strong>Location:</strong> Online + Washington DC</p>
