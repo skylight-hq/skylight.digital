@@ -5,8 +5,8 @@ permalink: /services/ditap/
 excerpt: Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course.
 tags: [digital acquisition training, agile acquisition training]
 class: ditap
-class_1_spots: 
-class_2_spots: 
+class_1_spots: 4
+class_2_spots: 5
 ---
 
 <div class="hero">
