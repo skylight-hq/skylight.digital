@@ -6,10 +6,20 @@
   @extend %jumbotron;
   @extend %jumbotron-fluid;
   @extend %mb-0;
-  background-image: url('../img/government-digitization.png');
-  background-position: center;
+  // background:
+  //   /* top, transparent red, faked with gradient */ 
+  //   linear-gradient(
+  //     rgba(255, 0, 0, 0.45), 
+  //     rgba(255, 0, 0, 0.45)
+  //   ),
+  //   /* bottom, image */
+  //   url('../img/hero-2.jpg');
+  background-image: url('../img/hero-2.jpg');
+  background-color: #fff;
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 80%;
+  height: 780px;
 }
 
 .landing-jumbotron-content {
@@ -17,6 +27,7 @@
   @extend %py-4;
   @extend %py-md-5;
   color: $jumbotron-color;
+  display: none;
 
   h1 {
     color: $white;
