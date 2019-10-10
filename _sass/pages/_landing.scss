@@ -22,6 +22,21 @@
   padding-bottom: 56.25%;
 }
 
+.page-hero-2 {
+  .landing-jumbotron {
+    background-image: url('../img/hero-1b.jpg');
+    background-size: 90%;
+  }
+}
+
+.page-hero-3 {
+  .landing-jumbotron {
+    background-image: url('../img/hero-1c.jpg');
+    background-color: $brand-primary;
+    background-size: 90%;
+  }
+}
+
 .landing-jumbotron-content {
   @extend %container-fluid;
   @extend %py-4;
