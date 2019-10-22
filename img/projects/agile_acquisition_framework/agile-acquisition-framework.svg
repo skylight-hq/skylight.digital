@@ -14,7 +14,7 @@
                     <path d="M5618.8,41.79 C4980.05,41.79 4408.99,330.78 4028.58,784.92 C4318.8,1141.7 4493,1596.64 4493,2092.4 C4493,2598.94 4311.15,3062.86 4009.48,3423 C4389.71,3890.44 4969.27,4189.25 5618.79,4189.25 C6764.08,4189.25 7692.52,3260.81 7692.52,2115.52 C7692.52,970.23 6764.09,41.79 5618.8,41.79 Z" id="Path" fill="#488FBA"></path>
                     <path d="M3866.41,731.83 C3565.34,1091.26 3383.85,1554.26 3383.85,2059.8 C3383.85,2554.58 3557.7,3008.62 3847.35,3364.69 C4148.42,3005.26 4329.91,2542.26 4329.91,2036.72 C4329.9,1541.94 4156.05,1087.9 3866.41,731.83 Z" id="Path" fill="#F6C65D"></path>
                 </g>
-                <g id="Group" transform="translate(727.000000, 1804.840000)" font-family="'Geomanist', sans-serif" font-size="432.3182" font-weight="normal">
+                <g id="Group" transform="translate(727.000000, 1804.840000)" font-family="'Geomanist', sans-serif" font-size="432.3182" font-weight="bold">
                     <text id="Acquisition" fill="#F4F4F4">
                         <tspan x="0.1528" y="419.6694">Acquisition</tspan>
                     </text>
@@ -22,7 +22,7 @@
                         <tspan x="0.1528" y="419.6694">Acquisition</tspan>
                     </text>
                 </g>
-                <g id="Group" transform="translate(5328.000000, 1790.840000)" fill="#FFFFFF" font-family="'Geomanist', sans-serif" font-size="430.1938" font-weight="normal">
+                <g id="Group" transform="translate(5328.000000, 1790.840000)" fill="#FFFFFF" font-family="'Geomanist', sans-serif" font-size="430.1938" font-weight="bold">
                     <text id="Agile">
                         <tspan x="0.6074" y="417.3911">Agile</tspan>
                     </text>
