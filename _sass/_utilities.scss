@@ -1,3 +1,7 @@
 %no-border {
   border: none !important;
 }
+
+.shadow {
+  box-shadow: $card-box-shadow;
+}
