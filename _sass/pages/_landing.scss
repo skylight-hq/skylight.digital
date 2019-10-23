@@ -14,11 +14,11 @@
   //   ),
   //   /* bottom, image */
   //   url('../img/hero-2.jpg');
-  background-image: url('../img/hero-2.jpg');
-  background-color: #fff;
+  background-image: url('../img/hero-1e.jpg');
+  background-color: $brand-primary;
+  background-size: 90%;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 80%;
   padding-bottom: 56.25%;
 }
 
@@ -31,9 +31,9 @@
 
 .page-hero-3 {
   .landing-jumbotron {
-    background-image: url('../img/hero-1d.jpg');
-    background-color: $brand-primary;
-    background-size: 90%;
+    background-image: url('../img/hero-2.jpg');
+    background-color: #fff;
+    background-size: 80%;
   }
 }
 
