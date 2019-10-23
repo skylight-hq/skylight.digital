@@ -1,42 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 9000 6500" style="enable-background:new 0 0 9000 6500;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#245486;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#E1635D;}
-	.st3{fill:#488FBA;}
-	.st4{fill:#F6C65D;}
-	.st5{fill:#F4F4F4;}
-	.st6{font-family:'Avenir-Black';}
-	.st7{font-size:432.3182px;}
-	.st8{font-size:430.1938px;}
-	.st9{fill:none;stroke:#55585C;stroke-width:24.8124;stroke-miterlimit:10;}
-</style>
-<rect x="-41.26" y="-109.03" class="st0" width="9082.51" height="6718.06"/>
-<circle class="st1" cx="2873.41" cy="3250" r="2122.84"/>
-<circle class="st1" cx="6126.59" cy="3250" r="2122.84"/>
-<g>
-	<path class="st2" d="M4328.05,1927.23c-383.75-471.76-968.65-773.33-1624.18-773.33C1548,1153.9,610.98,2090.92,610.98,3246.8
-		S1548,5339.69,2703.87,5339.69c644.65,0,1220.99-291.66,1604.91-749.99c-292.9-360.08-468.71-819.22-468.71-1319.56
-		C3840.07,2758.91,4023.6,2290.7,4328.05,1927.23z"/>
-	<path class="st3" d="M6228.8,1194.79c-638.75,0-1209.81,288.99-1590.22,743.13C4928.8,2294.7,5103,2749.64,5103,3245.4
-		c0,506.54-181.85,970.46-483.52,1330.6c380.23,467.44,959.79,766.25,1609.31,766.25c1145.29,0,2073.73-928.44,2073.73-2073.73
-		S7374.09,1194.79,6228.8,1194.79z"/>
-	<path class="st4" d="M4476.41,1884.83c-301.07,359.43-482.56,822.43-482.56,1327.97c0,494.78,173.85,948.82,463.5,1304.89
-		c301.07-359.43,482.56-822.43,482.56-1327.97C4939.9,2694.94,4766.05,2240.9,4476.41,1884.83z"/>
-</g>
-<g>
-	<text transform="matrix(1 0 0 1 1337.1528 3351.6694)" class="st5 st6 st7">Acquisition</text>
-	<text transform="matrix(1 0 0 1 1337.1528 3351.6694)" class="st1 st6 st7">Acquisition</text>
-</g>
-<g>
-	<g>
-		<text transform="matrix(1 0 0 1 5938.6074 3335.3911)" class="st1 st6 st8">Agile</text>
-	</g>
-	<text transform="matrix(1 0 0 1 5938.6074 3335.3911)" class="st1 st6 st8">Agile</text>
-</g>
-<circle class="st9" cx="2873.41" cy="3250" r="2122.84"/>
-<circle class="st9" cx="6126.59" cy="3250" r="2122.84"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9084px" height="6720px" viewBox="0 0 9084 6720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>agile-acquisition-framework</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="agile-acquisition-framework">
+            <rect id="Rectangle" fill="#245486" fill-rule="nonzero" x="0.74" y="0.97" width="9082.51" height="6718.06"></rect>
+            <g id="Group-2" transform="translate(695.000000, 1237.000000)">
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="2263.41" cy="2122.84" r="2122.84"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="5516.59" cy="2122.84" r="2122.84"></circle>
+                <g id="Group" transform="translate(0.000000, 25.840000)" fill-rule="nonzero">
+                    <path d="M3718.05,774.23 C3334.3,302.47 2749.4,0.9 2093.87,0.9 C938,0.9 0.98,937.92 0.98,2093.8 C0.98,3249.68 938,4186.69 2093.87,4186.69 C2738.52,4186.69 3314.86,3895.03 3698.78,3436.7 C3405.88,3076.62 3230.07,2617.48 3230.07,2117.14 C3230.07,1605.91 3413.6,1137.7 3718.05,774.23 Z" id="Path" fill="#E1635D"></path>
+                    <path d="M5618.8,41.79 C4980.05,41.79 4408.99,330.78 4028.58,784.92 C4318.8,1141.7 4493,1596.64 4493,2092.4 C4493,2598.94 4311.15,3062.86 4009.48,3423 C4389.71,3890.44 4969.27,4189.25 5618.79,4189.25 C6764.08,4189.25 7692.52,3260.81 7692.52,2115.52 C7692.52,970.23 6764.09,41.79 5618.8,41.79 Z" id="Path" fill="#488FBA"></path>
+                    <path d="M3866.41,731.83 C3565.34,1091.26 3383.85,1554.26 3383.85,2059.8 C3383.85,2554.58 3557.7,3008.62 3847.35,3364.69 C4148.42,3005.26 4329.91,2542.26 4329.91,2036.72 C4329.9,1541.94 4156.05,1087.9 3866.41,731.83 Z" id="Path" fill="#F6C65D"></path>
+                </g>
+                <g id="Group" transform="translate(727.000000, 1804.840000)" font-family="'Geomanist', sans-serif" font-size="432.3182" font-weight="bold">
+                    <text id="Acquisition" fill="#F4F4F4">
+                        <tspan x="0.1528" y="419.6694">Acquisition</tspan>
+                    </text>
+                    <text id="Acquisition" fill="#FFFFFF">
+                        <tspan x="0.1528" y="419.6694">Acquisition</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(5328.000000, 1790.840000)" fill="#FFFFFF" font-family="'Geomanist', sans-serif" font-size="430.1938" font-weight="bold">
+                    <text id="Agile">
+                        <tspan x="0.6074" y="417.3911">Agile</tspan>
+                    </text>
+                    <text id="Agile">
+                        <tspan x="0.6074" y="417.3911">Agile</tspan>
+                    </text>
+                </g>
+                <circle id="Oval" stroke="#55585C" stroke-width="24.8124" cx="2263.41" cy="2122.84" r="2122.84"></circle>
+                <circle id="Oval" stroke="#55585C" stroke-width="24.8124" cx="5516.59" cy="2122.84" r="2122.84"></circle>
+            </g>
+        </g>
+    </g>
 </svg>
