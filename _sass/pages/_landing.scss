@@ -6,27 +6,38 @@
   @extend %jumbotron;
   @extend %jumbotron-fluid;
   @extend %mb-0;
-  background-image: url('../img/government-digitization.png');
-  background-position: center;
+  background-image: url('../img/hero.svg');
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 870px;
 }
 
 .landing-jumbotron-content {
   @extend %container-fluid;
-  @extend %py-4;
-  @extend %py-md-5;
   color: $jumbotron-color;
+  padding-top: 14rem;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 13rem;
+  }
 
   h1 {
     color: $white;
+    font-size: 42px;
+
+
+    @include media-breakpoint-up(sm) {
+      font-size: 52px;
+    }
   }
 
   p {
-    @extend %lead;
-    @extend %mt-4;
+    @extend %mt-2;
+    // font-size: 1rem;
+    // @extend %lead;
 
-    @include media-breakpoint-down(xs) {
+    @include media-breakpoint-up(sm) {
       font-size: $font-size-medium;
     }
   }
@@ -36,7 +47,7 @@
     @extend %btn-icon-right;
     @extend %btn-lg;
     @extend %text-uppercase;
-    @extend %mt-4;
+    // @extend %mt-4;
   }
 }
 
