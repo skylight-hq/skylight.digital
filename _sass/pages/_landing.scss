@@ -7,10 +7,14 @@
   @extend %jumbotron-fluid;
   @extend %mb-0;
   background-image: url('../img/hero.svg');
-  background-position: center top;
+  background-position: -24rem top;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 870px;
+
+  @include media-breakpoint-up(sm) {
+    background-position: center top;
+  }
 }
 
 .landing-jumbotron-content {
@@ -18,7 +22,7 @@
   color: $jumbotron-color;
   padding-top: 14rem;
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     padding-top: 13rem;
   }
 
@@ -33,6 +37,7 @@
   }
 
   p {
+    // @extend %mb-2;
     @extend %mt-2;
     // font-size: 1rem;
     // @extend %lead;
