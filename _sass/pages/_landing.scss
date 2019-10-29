@@ -6,14 +6,27 @@
   @extend %jumbotron;
   @extend %jumbotron-fluid;
   @extend %mb-0;
-  background-image: url('../img/hero.svg');
-  background-position: -24rem top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #235384;
   min-height: 870px;
+  position: relative;
 
-  @include media-breakpoint-up(sm) {
-    background-position: center top;
+  &:before {
+    background-image: url('../img/hero.svg');
+    background-position: -24rem top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+
+    @include media-breakpoint-up(sm) {
+      background-position: center top;
+    }
   }
 }
 
