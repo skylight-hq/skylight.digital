@@ -7,11 +7,12 @@
   @extend %jumbotron-fluid;
   @extend %mb-0;
   background-color: #235384;
-  min-height: 870px;
+//  min-height: 870px;
   position: relative;
+  height: calc(100vh - 82px);
 
   &:before {
-    background-image: url('../img/hero.svg');
+    background-image: url('../img/hero-text.jpg');
     background-position: -24rem top;
     background-repeat: no-repeat;
     background-size: cover;
