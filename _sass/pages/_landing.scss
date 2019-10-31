@@ -12,7 +12,7 @@
   height: calc(100vh - 82px);
 
   &:before {
-    background-image: url('../img/hero.svg');
+    background-image: url('../img/hero-moved.svg');
     background-position: -24rem top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@
   padding-top: 8rem;
 
   @include media-breakpoint-up(sm) {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
 
   h1 {
@@ -46,7 +46,7 @@
 
 
     @include media-breakpoint-up(sm) {
-      font-size: 48px;
+      font-size: 52px;
     }
   }
 
