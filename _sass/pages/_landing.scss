@@ -12,7 +12,7 @@
   height: calc(100vh - 82px);
 
   &:before {
-    background-image: url('../img/hero-text.jpg');
+    background-image: url('../img/hero.svg');
     background-position: -24rem top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,10 +34,10 @@
 .landing-jumbotron-content {
   @extend %container-fluid;
   color: $jumbotron-color;
-  padding-top: 14rem;
+  padding-top: 8rem;
 
   @include media-breakpoint-up(sm) {
-    padding-top: 13rem;
+    padding-top: 6rem;
   }
 
   h1 {
@@ -46,7 +46,7 @@
 
 
     @include media-breakpoint-up(sm) {
-      font-size: 52px;
+      font-size: 48px;
     }
   }
 
