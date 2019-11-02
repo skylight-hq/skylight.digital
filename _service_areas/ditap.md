@@ -5,8 +5,8 @@ permalink: /services/ditap/
 excerpt: Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course.
 tags: [digital acquisition training, agile acquisition training]
 class: ditap
-class_1_spots: 
-class_2_spots: 
+class_1_spots:
+class_2_spots:
 ---
 
 <div class="hero">
@@ -171,13 +171,13 @@ class_2_spots:
       <h2 id="tuition-and-dates">Tuition and dates</h2>
       <a href="/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
-          <h3 class="class-heading">November 6, 2019 to May 7, 2020</h3>
-          {% if page.class_1_spots %}
+          <h3 class="class-heading">March 4, 2020 to August 27, 2020</h3>
+          {% if page.class_2_spots %}
             <div class="class-spots">
-              <span>{{ page.class_1_spots }} spots left</span>
+              <span>{{ page.class_2_spots }} spots left</span>
             </div>
           {% endif %}
-          <p class="tuition-card-note">In-person classroom sessions will be held on Nov 6&ndash;8, Jan 27&ndash;31, Mar 16&ndash;20, and May 4&ndash;7.</p>
+          <p class="tuition-card-note">In-person classroom sessions will be held on Mar 4&ndash;6, May 11&ndash;15, July 6&ndash;10, and Aug 24&ndash;27.</p>
           <div class="tuition-card-meta mt-3">
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
@@ -188,15 +188,15 @@ class_2_spots:
           </p>
         </div>
       </a>
-      <a href="/services/ditap/apply/?date=2" class="row tuition-card no-gutters mt-4">
+      <a href="/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
-          <h3 class="class-heading">March 4, 2020 to August 27, 2020</h3>
-          {% if page.class_2_spots %}
+          <h3 class="class-heading">August 5, 2020 to February 11, 2021</h3>
+          {% if page.class_1_spots %}
             <div class="class-spots">
-              <span>{{ page.class_2_spots }} spots left</span>
+              <span>{{ page.class_1_spots }} spots left</span>
             </div>
           {% endif %}
-          <p class="tuition-card-note">In-person classroom sessions will be held on Mar 4&ndash;6, May 11&ndash;15, July 6&ndash;10, and Aug 24&ndash;27.</p>
+          <p class="tuition-card-note">In-person classroom sessions will be held on Aug 5&ndash;7, Oct 19&ndash;23, Dec 14&ndash;18, and Feb 8&ndash;11.</p>
           <div class="tuition-card-meta mt-3">
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
