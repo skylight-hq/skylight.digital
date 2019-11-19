@@ -44,7 +44,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 <blockquote>
 <p>
-"Veterans described the VA appeals process as a &apos;black hole,&apos; where their disability compensation claim could sit for years without any updates from the VA. I led a team to develop an Appeals Status tool that provided veterans with plain-language updates. It contributed to a 40% reduction in call center volumes, but more importantly a Veteran said of the new tool, &apos;It gives me hope.&apos;"
+"Veterans described the VA appeals process as a &apos;black hole,&apos; where their disability compensation claim could sit for years without any updates from the VA. I led a team to develop an Appeals Status tool that provided veterans with plain-language updates. It contributed to a 40% reduction in call center volumes, but more importantly a veteran said of the new tool, &apos;It gives me hope.&apos;"
 </p>
 </blockquote>
 
