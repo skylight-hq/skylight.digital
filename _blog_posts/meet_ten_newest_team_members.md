@@ -34,7 +34,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 <blockquote>
 <p>
-"I'm really proud of the technically-complex, user-research-driven project that I worked on to help the VA track and distribute new appeal requests sent by Veterans under the then-recently-passed Appeals Improvement and Modernization Act."
+"I'm really proud of the technically-complex, user-research-driven project that I worked on to help the VA track and distribute new appeal requests sent by veterans under the then-recently-passed Appeals Improvement and Modernization Act."
 </p>
 </blockquote>
 
@@ -44,7 +44,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 <blockquote>
 <p>
-"Veterans described the VA appeals process as a ‘black hole,’ where their disability compensation claim could sit for years without any updates from the VA. I led a team to develop an Appeals Status tool that provided veterans with plain-language updates. It contributed to a 40% reduction in call center volumes, but more importantly a Veteran said of the new tool, ‘It gives me hope.’"
+"Veterans described the VA appeals process as a &apos;black hole,&apos; where their disability compensation claim could sit for years without any updates from the VA. I led a team to develop an Appeals Status tool that provided veterans with plain-language updates. It contributed to a 40% reduction in call center volumes, but more importantly a Veteran said of the new tool, &apos;It gives me hope.&apos;"
 </p>
 </blockquote>
 
