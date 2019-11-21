@@ -7,9 +7,11 @@
   @extend %jumbotron-fluid;
   @extend %mb-0;
   background-color: #235384;
-//  min-height: 870px;
   position: relative;
-  height: calc(100vh - 82px);
+
+  @include media-breakpoint-up(sm) {
+    height: calc(100vh - 82px);
+  }
 
   &:before {
     background-image: url('../img/hero-mobile.svg');
