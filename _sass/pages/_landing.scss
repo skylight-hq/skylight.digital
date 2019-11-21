@@ -12,8 +12,8 @@
   height: calc(100vh - 82px);
 
   &:before {
-    background-image: url('../img/hero.svg');
-    background-position: -24rem top;
+    background-image: url('../img/hero-mobile.svg');
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
@@ -26,7 +26,7 @@
     z-index: 0;
 
     @include media-breakpoint-up(sm) {
-      background-position: center top;
+      background-image: url('../img/hero.svg');
     }
   }
 }
@@ -34,7 +34,7 @@
 .landing-jumbotron-content {
   @extend %container-fluid;
   color: $jumbotron-color;
-  padding-top: 8rem;
+  padding-top: 3rem;
 
   @include media-breakpoint-up(sm) {
     padding-top: 1rem;
