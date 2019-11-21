@@ -15,7 +15,7 @@
     background-image: url('../img/hero-mobile.svg');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     opacity: 1;
     content: "";
     height: 100%;
@@ -27,6 +27,7 @@
 
     @include media-breakpoint-up(sm) {
       background-image: url('../img/hero.svg');
+      background-size: cover;
     }
   }
 }
@@ -34,7 +35,7 @@
 .landing-jumbotron-content {
   @extend %container-fluid;
   color: $jumbotron-color;
-  padding-top: 3rem;
+  padding-top: 1rem;
 
   @include media-breakpoint-up(sm) {
     padding-top: 1rem;
