@@ -29,6 +29,7 @@
 
     @include media-breakpoint-up(sm) {
       background-image: url('../img/hero.svg');
+      background-position: center top;
       background-size: cover;
     }
   }
@@ -37,7 +38,6 @@
 .landing-jumbotron-content {
   @extend %container-fluid;
   color: $jumbotron-color;
-  padding-top: 1rem;
 
   @include media-breakpoint-up(sm) {
     padding-top: 1rem;
