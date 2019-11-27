@@ -4,7 +4,7 @@ title: Quick wins for legacy systems through API enablement
 permalink: /blog/quick-wins-for-legacy-systems-through-api-enablement/
 content_type: BlogPosting
 image: /img/blog/api_enablement/api-benefits-napkin.png
-image_description: Illustration of two people at a happy hour looking at a napkin describing the benefits of API enablement.
+image_description: Two people at a happy hour looking at a napkin describing the benefits of API enablement.
 image_display: true
 order: 1300
 tags: [apis, digital services delivery, robert read, kin lane]

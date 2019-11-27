@@ -4,9 +4,9 @@ title: Digital Procurement
 permalink: /services/digital-procurement/
 excerpt: Tech procurements that succeed and inspire public confidence.
 image: /img/digital-procurement.png
-image_description: Illustration of a government building with icons representing different vendor offerings around it.
+image_description: A government building with icons representing different vendor offerings around it.
 image_icon: /img/digital-procurement-icon.png
-image_icon_description: Illustration of a government building with icons representing different vendor offerings around it.
+image_icon_description: A government building with icons representing different vendor offerings around it.
 order: 2
 feature: true
 tags: [digital procurement, digital acquisition, agile acquisition]

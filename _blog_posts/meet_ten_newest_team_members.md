@@ -4,7 +4,7 @@ title: Meet the 10 newest members of the Skylight team
 permalink: /blog/meet-the-10-newest-members-of-the-skylight-team/
 content_type: BlogPosting
 image: /img/blog/meet_ten_newest_team_members/waving-hand-emoji.png
-image_description: Illustration of a waving hand emoji.
+image_description: A waving hand emoji.
 image_display: true
 order: 2600
 tags: [chris cairns]

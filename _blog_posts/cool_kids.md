@@ -4,7 +4,7 @@ title: Why government IT professionals need to do what the cool kids are doing
 permalink: /blog/why-government-it-professionals-need-to-do-what-the-cool-kids-are-doing/
 content_type: BlogPosting
 image: /img/blog/cool_kids/cool-kid.png
-image_description: Illustration of a cool kid programmer wearing sunglasses, with people admiring him in the background.
+image_description: A cool kid programmer wearing sunglasses, with people admiring him in the background.
 image_display: true
 order: 2400
 tags: [digital transformation, robert read]
