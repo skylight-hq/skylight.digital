@@ -4,7 +4,7 @@ title: Thoughts on the use of technical challenges in government procurements
 permalink: /blog/thoughts-on-the-use-of-technical-challenges-in-government-procurements/
 content_type: BlogPosting
 image: /img/blog/tech_challenge_thoughts/tech-challenge-laptops-boxing.png
-image_description: Illustration of two laptop computers boxing each other.
+image_description: Two laptop computers boxing each other.
 image_display: true
 order: 2100
 tags: [digital procurement, chris cairns]

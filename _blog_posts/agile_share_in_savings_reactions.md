@@ -4,7 +4,7 @@ title: Reactions to our Agile Share-in-Savings model
 permalink: /blog/reactions-to-our-agile-share-in-savings-model/
 content_type: BlogPosting
 image: /img/blog/agile_share_in_savings/agile-share-in-savings-financing.png
-image_description: Illustration of an iterative agile cycle with a dollar sign in the middle.
+image_description: An iterative agile cycle with a dollar sign in the middle.
 image_display: true
 order: 300
 tags: [digital services delivery, digital procurement, chris cairns, robert read]

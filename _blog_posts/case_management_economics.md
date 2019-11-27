@@ -4,7 +4,7 @@ title: "Case management: a study in non-traditional economics for government"
 permalink: /blog/case-management-a-study-in-non-traditional-economics-for-government/
 content_type: BlogPosting
 image: /img/blog/case_management/case-files.png
-image_description: Illustration of paper case files.
+image_description: Paper case files.
 image_display: true
 order: 100
 tags: [digital services delivery, digital procurement, robert read, chris cairns]

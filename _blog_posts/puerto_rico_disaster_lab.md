@@ -4,7 +4,7 @@ title: "Puerto Rico, a disaster lab: three research proposals"
 permalink: /blog/puerto-rico-a-disaster-lab-three-research-proposals/
 content_type: BlogPosting
 image: /img/blog/puerto_rico_disaster_lab/hurricane-maria.png
-image_description: Illustration of Hurricane Maria engulfing Puerto Rico.
+image_description: Hurricane Maria engulfing Puerto Rico.
 image_display: true
 order: 2300
 tags: [internet of things, robert read]
@@ -37,7 +37,7 @@ I've interpreted this in text at the end of this article, but let me try to expl
 
 Puerto Rico's [geography](https://en.wikipedia.org/wiki/Geography_of_Puerto_Rico) is in many ways an ideal laboratory for natural disasters. In the first place, it's a medium-sized island (3,515 square miles), which is neither too small nor too big. It's big enough that it has mountains, a dry forest, a rainforest, coastal regions, and beaches, but it's small enough that you can reach any point on the island with an SUV in two hours.
 
-![Illustration of Puerto Rico's unique geography.](/img/blog/puerto_rico_disaster_lab/map-terrain.png)
+![Puerto Rico's unique geography.](/img/blog/puerto_rico_disaster_lab/map-terrain.png)
 
 The mountains of Puerto Rico are very steep, rugged, and covered with dense vegetation making this terrain hard to cover with cell towers, or any other radio technology. However, a lot of people live in communities in these mountains, and so the need for telecommunications is great. This disadvantage is a perfect challenge for testing radio technology.
 
@@ -49,7 +49,7 @@ Puerto Rico has a well-developed startup culture and 24.6% of the population ove
 
 Politically, Puerto Rico is divided into 78 semi-autonomous and somewhat competitive [municipalities](https://en.wikipedia.org/wiki/Municipalities_of_Puerto_Rico). This means that it's quite possible to find a municipality incented to try a new idea.
 
-![Illustration of Puerto Rico's many municipalities.](/img/blog/puerto_rico_disaster_lab/municipalities.png)
+![Puerto Rico's many municipalities.](/img/blog/puerto_rico_disaster_lab/municipalities.png)
 
 ### Infrastructure
 
@@ -95,7 +95,7 @@ We've created an [interactive map](https://www.plectica.com/maps/D26TZT0CX?prese
 
 The Puerto Rican Fast Map Project seeks to be the simplest possible way to crowdsource map-based data. It was born of the need for such data about power and drinking water availability after Hurricane Maria.
 
-![Illustration of Puerto Rico as a connected network grid.](/img/blog/puerto_rico_disaster_lab/fast-map.png)
+![Puerto Rico as a connected network grid.](/img/blog/puerto_rico_disaster_lab/fast-map.png)
 
 **Draft project breakdown:**
 

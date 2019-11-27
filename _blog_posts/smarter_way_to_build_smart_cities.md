@@ -4,7 +4,7 @@ title: A smarter way to build Smart Cities
 permalink: /blog/a-smarter-way-to-build-smart-cities/
 content_type: BlogPosting
 image: /img/blog/smarter_way_to_build_smart_cities/smart-city.png
-image_description: Illustration of smart city functions such as health and transportation.
+image_description: Smart city functions such as health and transportation.
 image_display: true
 order: 2500
 tags: [internet of things, geoff mulligan]
