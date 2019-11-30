@@ -992,3 +992,51 @@
       link: https://github.com/jlhogan
       link_description: Julia's GitHub Account
       fa_icon_name: github
+- name: ari-perez
+  fname: Ari
+  lname: Perez
+  full_name: Ari Perez
+  short_name: A. Perez
+  profile_path: /about/#ari-perez
+  image: /img/people/ari-perez.jpg
+  image_description: Photo of Ari Perez
+  position: DevOps Engineer
+  bio: >
+    Ari is a former member of the U.S. Digital Service, where he
+    worked on improving the veteran appeals process and the asylum
+    seeker process. Ari also worked at Hala Systems, using tech to
+    help civilians in Syria and other conflict zones receive advanced
+    warnings of impending attacks. Ari specializes in software engineering,
+    DevOps, and cloud computing. He lives in Arkansas.
+  active: true
+  order: 230
+  socials:
+    - name: GitHub
+      link: https://github.com/ariperez
+      link_description: Ari's GitHub Account
+      fa_icon_name: github
+- name: peggy-chau
+  fname: Peggy
+  lname: Chau
+  full_name: Peggy Chau
+  short_name: P. Chau
+  profile_path: /about/#peggy-chau
+  image: /img/people/peggy-chau.jpg
+  image_description: Photo of Peggy Chau
+  position: UX Researcher
+  bio: >
+    Peggy is a UX researcher and designer who transitioned from clinical
+    neuroscience research. She has worked on various projects, from researching
+    robot vacuums with Samsung to redesigning a pain communication app with UPMC.
+    Peggy lives in Massachusetts. 
+  active: true
+  order: 240
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/peggykychau/
+      link_description: Peggy's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/pkchau
+      link_description: Peggy's GitHub Account
+      fa_icon_name: github
