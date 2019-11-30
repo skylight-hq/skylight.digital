@@ -1026,9 +1026,9 @@
   position: UX Researcher
   bio: >
     Peggy is a UX researcher and designer who transitioned from clinical
-    neuroscience research. She has worked on various projects, from researching
+    neuroscience research. She's worked on various projects, from researching
     robot vacuums with Samsung to redesigning a pain communication app with UPMC.
-    Peggy lives in Massachusetts. 
+    Peggy lives in Massachusetts.
   active: true
   order: 240
   socials:
@@ -1040,3 +1040,105 @@
       link: https://github.com/pkchau
       link_description: Peggy's GitHub Account
       fa_icon_name: github
+- name: zack-gehin
+  fname: Zack
+  lname: Gehin
+  full_name: Zack Gehin
+  short_name: Z. Gehin
+  profile_path: /about/#zack-gehin
+  image: /img/people/zack-gehin.jpg
+  image_description: Photo of Zack Gehin
+  position: UX Designer
+  bio: >
+    Zack is certified in UX by Nielsen Norman Group and specializes in complex
+    application design. His entrepreneurial spirit adds a unique approach towards
+    empathizing for users and identifying the right problems to solve. He's helped
+    form design teams, and served as a design leader in the non-profit,
+    financial investments, and healthcare industries. Zack lives in Alabama.
+  active: true
+  order: 250
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/zackgehin/
+      link_description: Zack's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://zacksguide.com
+      link_description: Zack's Personal Website
+      fa_icon_name: home
+- name: mical-nobel
+  fname: Mical
+  lname: Nobel
+  full_name: Mical Nobel
+  short_name: M. Nobel
+  profile_path: /about/#mical-nobel
+  image: /img/people/eleanor-roosevelt.png
+  image_description: Placeholder Photo of Mical Nobel
+  position: Product Manager
+  bio: >
+    Mical is an experienced engineer and avid social impact enthusiast.
+    She led technical projects for four years as a full-stack engineer in
+    the healthcare tech space. She also executed strategic and financial
+    projects for the City of Chicago, where she worked while she pursued her
+    MBA at the University of Chicago Booth School of Business.
+    Mical lives in Illinois.
+  active: true
+  order: 260
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mical-nobel
+      link_description: Mical's LinkedIn Account
+      fa_icon_name: linkedin
+- name: nick-clyde
+  fname: Nick
+  lname: Clyde
+  full_name: Nick Clyde
+  short_name: N. Clyde
+  profile_path: /about/#nick-clyde
+  image: /img/people/nick-clyde.jpg
+  image_description: Photo of Nick Clyde
+  position: Software Engineer
+  bio: >
+    Nick is a software engineer with a passion for using technology to solve the
+    right kinds of problems. He especially enjoys building APIs, designing and
+    optimizing databases, and crafting system architectures. He has experience
+    working on and improving high-traffic government digital services.
+    Nick lives in California.
+  active: true
+  order: 270
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nick-clyde-b80967b6/
+      link_description: Nick's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/ClydeDroid
+      link_description: Nick's GitHub Account
+      fa_icon_name: github
+- name: eric-richards
+  fname: Eric
+  lname: Richards
+  full_name: Eric Richards
+  short_name: E. Richards
+  profile_path: /about/#eric-richards
+  image: /img/people/eric-richards.jpg
+  image_description: Photo of Eric Richards
+  position: UX Designer
+  bio: >
+    Eric is a current undergraduate student at UC San Diego studying
+    Human-Computer Interaction and Design for Social Innovation. He was a
+    2019 Civic Digital Fellow where he worked as a part of 18F Strategy on
+    10x projects. He's also a studio lead for Design for America and conducts
+    civic design research for the city-wide Design for San Diego 2020 initiative.
+    Eric lives in California.
+  active: true
+  order: 280
+  socials:
+    - name: Twitter
+      link: https://twitter.com/ericorichards
+      link_description: Eric's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/eric-richards/
+      link_description: Eric's LinkedIn Account
+      fa_icon_name: linkedin
