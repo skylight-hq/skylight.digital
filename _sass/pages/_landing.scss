@@ -8,10 +8,11 @@
   @extend %mb-0;
   background-color: #235384;
   position: relative;
-  padding-bottom: 5rem;
+  padding-bottom: 22%;
 
   @include media-breakpoint-up(sm) {
     height: calc(100vh - 82px);
+    padding-bottom: initial;
   }
 
   &:before {
