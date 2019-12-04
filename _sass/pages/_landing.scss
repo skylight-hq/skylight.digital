@@ -57,11 +57,8 @@
   }
 
   p {
-    // @extend %mb-2;
     @extend %mt-2;
     font-weight: 100;
-    // font-size: 1rem;
-    // @extend %lead;
 
     @include media-breakpoint-up(sm) {
       font-size: $font-size-medium;
@@ -73,7 +70,6 @@
     @extend %btn-icon-right;
     @extend %btn-lg;
     @extend %text-uppercase;
-    // @extend %mt-4;
   }
 }
 
@@ -92,7 +88,7 @@
 .landing-content-row-margin,
 .landing-info-row {
   @extend %mb-6;
-  @extend %mb-md-8;
+  @extend %mb-md-6;
 }
 
 .landing-content-primary-col,
@@ -157,6 +153,11 @@
 .landing-info-text {
   h3 {
     @extend %mb-3;
+    margin-top: 2rem;
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 0;
+    }
   }
 
   p {
