@@ -11,7 +11,7 @@
   padding-bottom: 22%;
 
   @include media-breakpoint-up(sm) {
-    height: calc(100vh - 82px);
+    min-height: calc(100vh - 82px);
     padding-bottom: initial;
   }
 
@@ -42,6 +42,7 @@
   color: $jumbotron-color;
 
   @include media-breakpoint-up(sm) {
+    padding-bottom: 3rem;
     padding-top: 1rem;
   }
 
