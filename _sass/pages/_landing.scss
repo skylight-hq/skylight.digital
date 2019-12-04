@@ -6,27 +6,61 @@
   @extend %jumbotron;
   @extend %jumbotron-fluid;
   @extend %mb-0;
-  background-image: url('../img/government-digitization.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #235384;
+  position: relative;
+  padding-bottom: 22%;
+
+  @include media-breakpoint-up(sm) {
+    min-height: calc(100vh - 82px);
+    padding-bottom: initial;
+  }
+
+  &:before {
+    background-image: url('../img/hero-mobile.svg');
+    background-position: right 4px bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    opacity: 1;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+
+    @include media-breakpoint-up(sm) {
+      background-image: url('../img/hero.svg');
+      background-position: center top;
+      background-size: cover;
+    }
+  }
 }
 
 .landing-jumbotron-content {
   @extend %container-fluid;
-  @extend %py-4;
-  @extend %py-md-5;
   color: $jumbotron-color;
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+  }
 
   h1 {
     color: $white;
+    font-size: 42px;
+
+
+    @include media-breakpoint-up(sm) {
+      font-size: 52px;
+    }
   }
 
   p {
-    @extend %lead;
-    @extend %mt-4;
+    @extend %mt-2;
+    font-weight: 100;
 
-    @include media-breakpoint-down(xs) {
+    @include media-breakpoint-up(sm) {
       font-size: $font-size-medium;
     }
   }
@@ -36,7 +70,6 @@
     @extend %btn-icon-right;
     @extend %btn-lg;
     @extend %text-uppercase;
-    @extend %mt-4;
   }
 }
 
@@ -55,7 +88,7 @@
 .landing-content-row-margin,
 .landing-info-row {
   @extend %mb-6;
-  @extend %mb-md-8;
+  @extend %mb-md-6;
 }
 
 .landing-content-primary-col,
@@ -108,18 +141,23 @@
 
 .landing-info-text-col,
 .landing-info-img-col {
-  @extend %d-flex;
   @extend %align-items-center;
+  @extend %d-flex;
 }
 
 .landing-info-text-col {
-  @extend %col-lg-5;
-  @extend %text-lg-left;
+  @extend %col-lg-7;
+  @extend %text-left;
 }
 
 .landing-info-text {
   h3 {
     @extend %mb-3;
+    margin-top: 2rem;
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 0;
+    }
   }
 
   p {
@@ -134,29 +172,14 @@
 }
 
 .landing-info-img {
+  margin: 0 auto;
+
   img {
-    width: 90%;
-    margin: 0 auto;
-    transform: scale(1);
-    transition: 0.05s all ease;
-  }
-}
+    max-width: 100%;
+    text-align: center;
 
-@include media-breakpoint-up(lg) {
-  .landing-info-img {
-    img {
-      width: 130%;
-      margin: 0 -15%;
+    @include media-breakpoint-up(lg) {
+      max-width: 80%;
     }
   }
 }
-
-@include media-breakpoint-up(xl) {
-  .landing-info-img {
-    img {
-      width: 114%;
-      margin: 0 -7%;
-    }
-  }
-}
-
