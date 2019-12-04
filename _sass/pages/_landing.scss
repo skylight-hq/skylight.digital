@@ -171,28 +171,28 @@
 
 .landing-info-img {
   img {
-    width: 90%;
+    // width: 90%;
     margin: 0 auto;
-    transform: scale(1);
-    transition: 0.05s all ease;
+    // transform: scale(1);
+    // transition: 0.05s all ease;
   }
 }
 
 @include media-breakpoint-up(lg) {
   .landing-info-img {
     img {
-      width: 130%;
-      margin: 0 -15%;
+      width: 80%;
+      // margin: 0 -15%;
     }
   }
 }
 
-@include media-breakpoint-up(xl) {
-  .landing-info-img {
-    img {
-      width: 114%;
-      margin: 0 -7%;
-    }
-  }
-}
+// @include media-breakpoint-up(xl) {
+//   .landing-info-img {
+//     img {
+//       width: 114%;
+//       margin: 0 -7%;
+//     }
+//   }
+// }
 
