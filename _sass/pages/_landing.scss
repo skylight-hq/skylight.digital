@@ -141,6 +141,7 @@
 
 .landing-info-text-col,
 .landing-info-img-col {
+  @extend %align-items-center;
   @extend %d-flex;
 }
 
@@ -165,7 +166,6 @@
 }
 
 .landing-info-img-col {
-  @extend %align-items-center;
   @extend %col-lg-5;
   @extend %mt-4;
   @extend %mt-lg-0;
