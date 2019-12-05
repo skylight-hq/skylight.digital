@@ -139,14 +139,10 @@
   }
 }
 
-.landing-info-text-col,
-.landing-info-img-col {
-  @extend %align-items-center;
-  @extend %d-flex;
-}
-
 .landing-info-text-col {
+  @extend %align-items-center;
   @extend %col-lg-7;
+  @extend %d-flex;
   @extend %text-left;
 }
 
