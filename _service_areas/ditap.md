@@ -20,8 +20,8 @@ class_2_spots:
             <a class="btn btn-warning text-dark mr-2 mt-md-3" href="/services/ditap/apply">Apply now →</a>
           </div>
           <div class="hero-btn-wrapper pl-1">
-            <a class="btn btn-outline-light mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Read syllabus</a>  
-          </div>        
+            <a class="btn btn-outline-light mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Read syllabus</a>
+          </div>
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@ class_2_spots:
 <div class="container page-ditap-content">
   <div class="row">
     <div class="sidenav col-12 col-md-3 mt-5 d-none d-md-block">
-      <div class="sticky">
+      <div class="is-sticky">
         <nav class="subnav-col px-0" id="sidenav">
           <ul role="presentation">
             <li><a class="nav-link" href="#overview">Overview</a></li>
@@ -181,7 +181,7 @@ class_2_spots:
           <div class="tuition-card-meta mt-3">
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
-            <p><strong>Cost:</strong> $7,500 USD</p>              
+            <p><strong>Cost:</strong> $7,500 USD</p>
           </div>
           <p class="mt-2">
             <strong class="tuition-card-link">Apply now →</strong>
@@ -200,7 +200,7 @@ class_2_spots:
           <div class="tuition-card-meta mt-3">
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
-            <p><strong>Cost:</strong> $7,500 USD</p>              
+            <p><strong>Cost:</strong> $7,500 USD</p>
           </div>
           <p class="mt-2">
             <strong class="tuition-card-link">Apply now →</strong>

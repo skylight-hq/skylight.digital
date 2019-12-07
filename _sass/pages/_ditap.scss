@@ -34,11 +34,6 @@
     margin-bottom: 0;
   }
 
-  .sticky {
-    position: sticky;
-    top: 1rem;
-  }
-
   .employee-img {
     @include border-radius($border-radius);
 
@@ -58,7 +53,7 @@
   .image-list {
     img {
       max-height: 183px;
-      width: auto;      
+      width: auto;
     }
 
     .image-list-img {
@@ -71,7 +66,7 @@
   line-height: 1.5;
 
   // Box shadow "hack" to add a full-bleed to the right side of quote box
-  // Uses multiple breakpoints for different responsive sizes 
+  // Uses multiple breakpoints for different responsive sizes
   @include media-breakpoint-up(md) {
     box-shadow: 510px 0px $sk-yellow;
   }
@@ -133,7 +128,7 @@
   @include media-breakpoint-up(lg) {
     font-size: $font-size-x-large;
   }
-  
+
   h2 + & {
     margin-top: 0.5em !important;
   }

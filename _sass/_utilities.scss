@@ -5,3 +5,8 @@
 .shadow {
   box-shadow: $card-box-shadow;
 }
+
+.is-sticky {
+  position: sticky;
+  top: 1rem;
+}
