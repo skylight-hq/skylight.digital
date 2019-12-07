@@ -1,6 +1,6 @@
 .page-careers {
   h2 {
-    // font-size: $font-size-xx-large;
+    font-size: $font-size-xxx-large;
     margin-top: 4rem;
   }
 
@@ -20,8 +20,21 @@
     }
   }
 
+  p + p {
+    margin-top: 0.75em;
+  }
+
   p {
     margin-bottom: 0;
+  }
+
+  .hero-heading {
+    font-size: $font-size-xxx-large;
+  }
+
+  .hero-content {
+    font-size: $font-size-x-large;
+    margin-top: 1rem;
   }
 }
 
@@ -87,10 +100,16 @@
 
   a {
     font-weight: bold;
-    font-size: $font-size-medium;
+    font-size: $font-size-large;
   }
 
   li {
     border: 2px solid $gray-lightest;
   }
+}
+
+.care-square {
+  background-color: $sk-blue;
+  width: 60px;
+  height: 60px;
 }

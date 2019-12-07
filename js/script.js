@@ -108,7 +108,7 @@ $(function(){
 
 // Hash update with scroll on ditap page
 $(function(){
-  if (location.pathname == '/services/ditap/') {
+  if (location.pathname == '/services/ditap/' || '/careers/') {
     $(document).bind('scroll',function(e){
       $('h2').each(function(){
           if (
