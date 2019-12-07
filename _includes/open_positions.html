@@ -1,17 +1,13 @@
 <h2 id="join-open-positions">Open positions</h2>
 
 {% if site.data.open_positions[0] %}
-  <p>
-    Below are the roles that we're looking to hire for. We're 100% open to freelancers or
-    boutique firms who would prefer to work on a contract basis. If you don't see a position
-    that fits you, we'd still love to talk! <a href="/join/#application">Simply send us your info</a>.
-  </p>
+  <p class="text-intro">Below are the roles that we’re actively hiring for:</p>
 
   <div class="open-positions-list">
     <ul>
       {% assign open_positions = site.data.open_positions | sort: 'order' %}
       {% for open_position in open_positions %}
-        <li>
+        <li class="rounded p-3">
           <a href="{{open_position.url}}" title="View job posting for {{open_position.title}}">
             {{open_position.title}}
           </a>
@@ -26,3 +22,6 @@
     So please don't hesitate to <a href="/join/#application">apply</a>!
   </p>
 {% endif %}
+
+<p>Don’t see your role? Don’t worry, we could be hiring sooner than you think, so we’d still love to talk. Simply send us your info.</p>
+<p>For most roles, we also offer apprenticeship opportunities for post-graduate professionals and internship opportunities for current or recently graduated college students.</p>
