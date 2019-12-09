@@ -8,7 +8,7 @@
       {% assign open_positions = site.data.open_positions | sort: 'order' %}
       {% for open_position in open_positions %}
         <li class="rounded p-3">
-          <a href="{{open_position.url}}" title="View job posting for {{open_position.title}}">
+          <a class="no-border" href="{{open_position.url}}" title="View job posting for {{open_position.title}}">
             {{open_position.title}}
           </a>
           <p>{{open_position.location}}</p>
@@ -23,5 +23,5 @@
   </p>
 {% endif %}
 
-<p>Don’t see your role? Don’t worry, we could be hiring sooner than you think, so we’d still love to talk. Simply send us your info.</p>
+<p>Don’t see your role? Don’t worry, we could be hiring sooner than you think, so we’d still love to talk. <a href="/join/#application">Simply send us your info</a>.</p>
 <p>For most roles, we also offer apprenticeship opportunities for post-graduate professionals and internship opportunities for current or recently graduated college students.</p>
