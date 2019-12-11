@@ -95,6 +95,7 @@
 .open-positions-list {
   ul {
     list-style-type: none;
+    margin-bottom: 2.5em;
     padding-left: 0;
     @extend %mt-4;
 
@@ -118,8 +119,7 @@
 }
 
 .open-positions-heading.open-positions-heading {
-  margin-bottom: 1.25em;
-  margin-top: 2.5em;;
+  margin-top: 2.5em;
 }
 
 .care-square {
