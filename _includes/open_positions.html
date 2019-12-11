@@ -4,20 +4,20 @@
   <p class="text-intro">Below are the roles that we’re actively hiring for:</p>
 
   <div class="open-positions-list">
-    <ul>
-      {% assign groups = site.data.open_positions | group_by: 'category' | sort: 'order' %}
-      {% for group in groups %}
-        <h3 class="open-positions-heading">{{ group.name }}</h3>
-        {% for item in group.items %}
+    {% assign groups = site.data.open_positions | group_by: 'category' | sort: 'order' %}
+    {% for group in groups %}
+      <h3 class="open-positions-heading">{{ group.name }}</h3>
+      {% for item in group.items %}
+      <ul>
         <li class="rounded p-3">
           <a class="no-border" href="{{ item.url }}" title="View job posting for {{ item.title }}">
             {{ item.title }}
           </a>
           <p>{{ item.location }}</p>
         </li>
-        {% endfor %}
       {% endfor %}
-    </ul>
+      </ul>
+    {% endfor %}
   </div>
 {% else %}
   <p>
