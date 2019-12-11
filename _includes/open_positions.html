@@ -5,14 +5,17 @@
 
   <div class="open-positions-list">
     <ul>
-      {% assign open_positions = site.data.open_positions | sort: 'order' %}
-      {% for open_position in open_positions %}
+      {% assign groups = site.data.open_positions | group_by: 'category' | sort: 'order' %}
+      {% for group in groups %}
+        <h3 class="open-positions-heading">{{ group.name }}</h3>
+        {% for item in group.items %}
         <li class="rounded p-3">
-          <a class="no-border" href="{{open_position.url}}" title="View job posting for {{open_position.title}}">
-            {{open_position.title}}
+          <a class="no-border" href="{{ item.url }}" title="View job posting for {{ item.title }}">
+            {{ item.title }}
           </a>
-          <p>{{open_position.location}}</p>
+          <p>{{ item.location }}</p>
         </li>
+        {% endfor %}
       {% endfor %}
     </ul>
   </div>
