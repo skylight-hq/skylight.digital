@@ -1,20 +1,19 @@
 .page-careers {
   h2 {
     font-size: $font-size-xxx-large;
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
 
   h3 {
     font-size: $font-size-small;
     letter-spacing: 0.05em;
     line-height: 1.375;
+    margin-top: 1.5em;
     text-transform: uppercase;
   }
 
   h2,
   h3 {
-    margin-top: 1.5em;
-
     + p {
       margin-top: 0.75em;
     }
