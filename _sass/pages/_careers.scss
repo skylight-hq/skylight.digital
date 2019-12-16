@@ -8,19 +8,19 @@
     font-size: $font-size-small;
     letter-spacing: 0.05em;
     line-height: 1.375;
-    margin-top: 2rem;
+    margin-top: 1.5em;
     text-transform: uppercase;
   }
 
   h2,
   h3 {
     + p {
-      margin-top: 0.75em;
+      margin-top: 0.5em;
     }
   }
 
   p + p {
-    margin-top: 0.75em;
+    margin-top: 0.5em;
   }
 
   p {
