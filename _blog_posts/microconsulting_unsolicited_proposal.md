@@ -37,7 +37,7 @@ We've been gratified by the positive reaction to our [Microconsulting Services a
 
 Indeed. We want to hasten that. Already, we're starting to see more and more parallel trends toward the acquisition of bite-sized professional services facilitated via digital marketplace platforms. For example, 18F's <a href="https://micropurchase.18f.gov/">micropurchase platform</a> can be used to procure open-source-code contributions from vendors under the federal micropurchase threshold.
 
-![Screenshot of 18F's micropurchase platform.](/img/blog/microconsulting_unsolicited_proposal/18f-micropurchase-platform-screenshot.jpg)
+<img class="shadow" src="/img/blog/microconsulting_unsolicited_proposal/18f-micropurchase-platform-screenshot.jpg" alt="Screenshot of 18F's micropurchase platform." />
 
 In addition, <a href="https://www.codementor.io/">Codementor</a>, which is a new startup, can be used to obtain programming advice and mentoring in 15-minute, paid increments.
 
