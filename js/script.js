@@ -107,19 +107,21 @@ $(function(){
 })
 
 // Hash update with scroll on ditap page
-$(function(){
-  if (location.pathname == '/services/ditap/' || '/careers/') {
-    $(document).bind('scroll',function(e){
-      $('h2').each(function(){
-          if (
-            $(this).offset().top < window.pageYOffset + 10 &&
-            $(this).offset().top + $(this).height() > window.pageYOffset + 10
-          ) {
-             var urlId = '#' + $(this).attr('id');
-             history.replaceState(null, null, urlId);
-          }
+$(function() {
+  if (location.pathname == "/services/ditap/" || '/careers/') {
+    const headings = $("h2");
+    window.setInterval(function() {
+      headings.each(function(i) {
+        if (
+          window.pageYOffset > $(this).offset().top &&
+          (i === headings.length - 1 ||
+            window.pageYOffset < headings.eq(i + 1).offset().top)
+        ) {
+          var urlId = "#" + $(this).attr("id");
+          history.replaceState(null, null, urlId);
+        }
       });
-    });
+    }, 100);
   }
 });
 
