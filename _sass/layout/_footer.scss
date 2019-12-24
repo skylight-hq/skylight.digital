@@ -9,7 +9,7 @@
 
 .footer-brand {
   @extend %col-12;
-  @extend %col-lg-3;
+  @extend %col-lg-5;
   @extend %d-flex;
   @extend %flex-column;
   @extend %align-items-center;
@@ -20,7 +20,7 @@
 
 .footer-nav {
   @extend %col-12;
-  @extend %col-lg-9;
+  @extend %col-lg-7;
 }
 
 .footer-brandmark {
@@ -37,7 +37,7 @@
 
 .footer-link-group {
   @extend %col-12;
-  @extend %col-sm-3;
+  @extend %col-sm-4;
   @extend %d-sm-flex;
   @extend %justify-content-sm-end;
 
