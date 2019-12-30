@@ -137,9 +137,11 @@
 }
 
 .dropdown-item {
+  padding-left: 15px;
+
   &:focus,
   &:hover {
-    background-color: transparent;
+    background-color: darken($sk-yellow, 15%);
   }
 }
 
