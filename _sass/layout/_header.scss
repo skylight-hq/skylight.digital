@@ -109,6 +109,7 @@
 
 .nav-link {
   @extend %nav-link-decoration;
+  border-radius: 0.25rem;
 
   span {
     padding: 0 7px;
@@ -116,7 +117,7 @@
   }
 
   &:hover {
-    background: #f8f8f8;
+    background-color: $brand-gray-light;
   }
 
   &:focus,
@@ -128,13 +129,32 @@
 }
 
 .dropdown-menu {
+  background-color: $sk-yellow;
+  border: none;
+  border-radius: 0 0.25rem 0.25rem 0.25rem;
   font-size: $font-size-small;
+  margin-top: 0;
+}
+
+.dropdown-item {
+  &:focus,
+  &:hover {
+    background-color: transparent;
+  }
 }
 
 // Restore dropdown focus browser default style
 .dropdown-toggle {
+  border-radius: 0.25rem;
+
   &:focus {
     outline: 5px auto -webkit-focus-ring-color;
+  }
+
+  &::after {
+    @include media-breakpoint-up(sm) {
+      margin-left: 0;
+    }
   }
 }
 
@@ -151,4 +171,9 @@
   .navbar-nav {
     padding-top: 20px;
   }
+}
+
+.dropdown-toggle[aria-expanded="true"] {
+  background-color: $sk-yellow;
+  border-radius: 0.25rem 0.25rem 0 0;
 }
