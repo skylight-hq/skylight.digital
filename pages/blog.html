@@ -32,7 +32,30 @@ pagination:
 <div class="our-blog">
   <div class="blog-posts">
     <div class="blog-posts-row hanging-col-size-2">
+      {% for item in site.blog_posts %}
+      {% if item.featured == true %}
+        <article class="col-12 mb-6">
+          <div class="blog-post-card card-link" data-href="{{item.permalink}}" tabindex="-1">
+            <div role="img" class="blog-post-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
+            <div class="blog-post-block">
+              {% if item.title_tag %}
+                <p class="blog-post-title-tag">{{item.title_tag}}</p>
+              {% endif %}
+              <h3 class="blog-post-title {{context}}">{{item.title}}</h3>
+              <p class="blog-post-text">{{item.excerpt}}</p>
+            </div>
+            <div class="blog-post-footer">
+              <a href="{{item.permalink}}" tabindex="0">
+                <span>Read more</span>
+                <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      {% endif %}
+      {% endfor %}
       {% for item in paginator.posts %}
+      {% if item.featured != true %}
         <article class="blog-post-col">
           <div class="blog-post-card card-link" data-href="{{item.permalink}}" tabindex="-1">
             <div role="img" class="blog-post-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
@@ -51,6 +74,7 @@ pagination:
             </div>
           </div>
         </article>
+      {% endif %}
       {% endfor %}
     </div>
   {% unless context == 'related' %}</div>{% endunless %}

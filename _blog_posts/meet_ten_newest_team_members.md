@@ -13,6 +13,7 @@ authors:
   - Chris Cairns
 date_published: 2019-07-24
 date: 2019-07-24
+featured: true
 ---
 
 Over the past few months, we've engaged with a number of new clients, including the State of Connecticut to improve how preschool development services are provided to children (from birth through age five) and families and the Air Force to modernize a twenty-something-year-old aviation resource management system.
@@ -30,7 +31,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 ## Abby Raskin, Product Manager
 
-[Abby](https://skylight.digital/about/#abby-raskin) is passionate about modernizing complex legacy systems with a policy angle. As an expert in product management, she works closely with our clients to translate their goals into valuable, high-quality solutions. Throughout her career, Abby has worked on entrenched civic and government problems as a product manager at the U.S. Digital Service at VA and Edovo (an education platform for incarcerated people).  
+[Abby](https://skylight.digital/about/#abby-raskin) is passionate about modernizing complex legacy systems with a policy angle. As an expert in product management, she works closely with our clients to translate their goals into valuable, high-quality solutions. Throughout her career, Abby has worked on entrenched civic and government problems as a product manager at the U.S. Digital Service at VA and Edovo (an education platform for incarcerated people).
 
 <blockquote>
 <p>
