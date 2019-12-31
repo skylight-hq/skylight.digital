@@ -7,6 +7,9 @@ redirect_from:
   - /work/maalka/
   - /work/people-power/
   - /work/team-member/john-teeter/
+pagination:
+  enabled: true
+  collection: projects
 ---
 
 {% capture header_content %}
@@ -19,15 +22,72 @@ redirect_from:
   header_content = header_content
 %}
 
+{% assign collection = include.collection %}
+{% assign prefix = 'project' %}
+{% assign cta_text = include.cta_text %}
+{% assign context = include.context %}
+{% assign limit = include.limit %}
+
+{% if limit %}
+  {% assign collection_size = limit %}
+{% else %}
+  {% assign collection_size = collection.size %}
+{% endif %}
+
+{% include hanging_column_size.html
+  collection_size = collection_size
+  col_size = 3
+%}
+
 <div class="our-work">
-  {% assign projects = site.projects | where: 'display', 'true' | sort: 'order' %}
-
-  {% include card_list.html
-    collection = projects
-    prefix = 'project'
-    cta_text = 'Read case study'
-  %}
-
+  <div class="projects">
+    <div class="projects-row hanging-col-size-2">
+      {% for item in paginator.posts %}
+        <article class="project-col">
+          <div class="project-card card-link" data-href="{{item.permalink}}" tabindex="-1">
+            <div role="img" class="project-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
+            <div class="project-block">
+              {% if item.title_tag %}
+                <p class="project-title-tag">{{item.title_tag}}</p>
+              {% endif %}
+              <h3 class="project-title {{context}}">{{item.title}}</h3>
+              <p class="project-text">{{item.excerpt}}</p>
+            </div>
+            <div class="project-footer">
+              <a href="{{item.permalink}}" tabindex="0">
+                <span>Read more</span>
+                <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% unless context == 'related' %}</div>{% endunless %}
 </div>
+
+{% if paginator.total_pages > 1 %}
+<div class="projects">
+  <div class="mt-5 d-flex flex-row justify-content-center">
+    <div class="">
+    {% if paginator.previous_page %}
+      <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+        <i class="fas fa-chevron-left mr-2"></i><b>Previous</b>
+      </a>
+    {% endif %}
+    </div>
+    <div class="mx-5">
+      <p class="d-inline-block">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+    </div>
+    <div class="">
+    {% if paginator.next_page %}
+      <a class="" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+        <b>Next</b><i class="fas fa-chevron-right ml-2"></i>
+      </a>
+    {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
 
 {% include hire_us_cta.html %}
