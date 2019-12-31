@@ -1,0 +1,237 @@
+I""
+<header class="page-header-1">
+  <div class="row">
+    <div class="page-header-title-1">
+      <h1>Digital Services Delivery</h1>
+    </div>
+  </div>
+
+  
+    <div class="row">
+      <div class="page-header-content-2">
+        <p>
+  <strong>Today's public expects their interactions with government to be simple,
+  delightful, secure, and empowering.</strong> At Skylight, we specialize in creating
+  exceptional customer experiences and enduring solution architectures out of
+  your most complex design and technology challenges.
+</p>
+      </div>
+    </div>
+  
+</header>
+
+<div class="service-area-showcase">
+
+  <section class="page-block">
+    <div class="page-block-header-1 sr-only">
+      <h2>Service elements</h2>
+    </div>
+
+    <div class="service-elements">
+      
+
+      
+
+
+
+
+
+
+      <div class="service-elements-row hanging-col-size-1">
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Customer Experience Design</h3>
+              
+              <p>Go beyond user experience design, and delight customers at every step of the journey with your service.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Rapid Prototyping</h3>
+              
+              <p>Assumptions are risky. Answer critical strategy, design, and tech questions with our rapid, customer-driven, iterative approach to prototyping.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Product Delivery</h3>
+              
+              <p>Deliver an amazing product to your users through our unique mix of research, strategy, design, engineering, data science, and agile project management.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Platform Delivery</h3>
+              
+              <p>Innovate from the outside-in with our experience making public assets &mdash; such as data, code, and standards &mdash; digitally open, accessible, and extensible, as well as building vibrant user communities.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Legacy Modernization</h3>
+              
+              <p>Introduce your legacy software system to the 21st century through our evolutionary, high-impact, low-risk approach to modernization.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Security Penetration Testing</h3>
+              
+              <p>Create more robust and secure digital services by integrating bug bounties into your development, security, and operational processes.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Tech Surge Support</h3>
+              
+              <p>Turn around a tech crisis affecting your mission critical functions quickly with one or more of our full-stack, rapid-response teams.
+</p>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  
+
+  
+    <div class="image-block">
+      <img src="/img/digital-services-delivery.png" alt="An image of a government building being rendered in a computer browser." />
+    </div>
+
+    <div class="page-block">
+      <div class="page-block-header-2">
+        <h2>Our work</h2>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="projects">
+  <div class="projects-row hanging-col-size-0">
+    
+      <article class="project-col">
+        <div class="project-card card-link" data-href="/work/va-diffusion-marketplace/" tabindex="-1">
+          <div role="img" class="project-img" style="background-image: url(/img/projects/va_diffusion_marketplace/diffusion-marketplace.svg);" title="Doctors, administrators, and veteran patients interacting through digital panes."></div>
+          <div class="project-block">
+            
+              <p class="project-title-tag">Veterans Affairs</p>
+            
+            <h3 class="project-title ">Creating a knowledge platform for improving healthcare</h3>
+            <p class="project-text">A knowledge management platform for improving how the Veterans Affairs delivers healthcare to veterans through the dissemination of promising clinical and administrative practices.</p>
+          </div>
+          <div class="project-footer">
+            <a href="/work/va-diffusion-marketplace/" tabindex="0">
+              <span>Read case study</span>
+              <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="project-col">
+        <div class="project-card card-link" data-href="/work/uscis-everify-modernization/" tabindex="-1">
+          <div role="img" class="project-img" style="background-image: url(/img/projects/uscis_everify_modernization/employment-eligibility-verification.svg);" title="A person using a punchcard to enter work."></div>
+          <div class="project-block">
+            
+              <p class="project-title-tag">U.S. Citizenship and Immigration Services</p>
+            
+            <h3 class="project-title ">Modernizing employment eligibility verification</h3>
+            <p class="project-text">A modernized digital service for employers to confirm the eligibility of their employees to work in the U.S.</p>
+          </div>
+          <div class="project-footer">
+            <a href="/work/uscis-everify-modernization/" tabindex="0">
+              <span>Read case study</span>
+              <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="project-col">
+        <div class="project-card card-link" data-href="/work/carrot/" tabindex="-1">
+          <div role="img" class="project-img" style="background-image: url(/img/projects/carrot/carrot.svg);" title="Multiple people together reading a page out of a huge newsletter."></div>
+          <div class="project-block">
+            
+              <p class="project-title-tag">Carrot</p>
+            
+            <h3 class="project-title ">Building a communication application for leaders</h3>
+            <p class="project-text">A "non-chat" communication solution for leaders struggling to keep everyone focused on what matters most.</p>
+          </div>
+          <div class="project-footer">
+            <a href="/work/carrot/" tabindex="0">
+              <span>Read case study</span>
+              <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    
+  </div>
+</div>
+
+    </div>
+  
+
+</div>
+
+<footer class="page-subfooter">
+  <div class="page-subfooter-content">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
+        <h3 class="header-display-2">Let's deliver together.</h3>
+      </div>
+    </div>
+
+    <div class="page-subfooter-text-row">
+      <div class="page-subfooter-text-col">
+        <p>However bold the idea or complex the problem, we work with you to deliver results in weeks, not years.</p>
+      </div>
+    </div>
+
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
+        <a href="/hire-us/" role="button">
+          <span>Contact Us</span>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+:ET
