@@ -58,18 +58,24 @@ pagination:
 
 {% if paginator.total_pages > 1 %}
 <div class="blog-posts">
-  <div class="text-center mt-5">
-  {% if paginator.previous_page %}
-    <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
-      <i class="fas fa-chevron-left mr-2"></i><b>Previous</b>
-    </a>
-  {% endif %}
-  <p class="d-inline-block mx-4">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
-  {% if paginator.next_page %}
-    <a class="" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-      <b>Next</b><i class="fas fa-chevron-right ml-2"></i>
-    </a>
-  {% endif %}
+  <div class="mt-5 d-flex flex-row justify-content-center">
+    <div class="">
+    {% if paginator.previous_page %}
+      <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+        <i class="fas fa-chevron-left mr-2"></i><b>Previous</b>
+      </a>
+    {% endif %}
+    </div>
+    <div class="mx-5">
+      <p class="d-inline-block">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+    </div>
+    <div class="">
+    {% if paginator.next_page %}
+      <a class="" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+        <b>Next</b><i class="fas fa-chevron-right ml-2"></i>
+      </a>
+    {% endif %}
+    </div>
   </div>
 </div>
 {% endif %}
