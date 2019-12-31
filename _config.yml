@@ -72,6 +72,17 @@ collections:
     output: true
     permalink: /policies/:path/
 
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 12
+  offset: 0
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 sass:
   style: compressed
 
@@ -94,3 +105,4 @@ exclude:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate-v2

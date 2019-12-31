@@ -1,0 +1,196 @@
+I"
+<header class="page-header-1">
+  <div class="row">
+    <div class="page-header-title-1">
+      <h1>Digital Transformation</h1>
+    </div>
+  </div>
+
+  
+    <div class="row">
+      <div class="page-header-content-2">
+        <p>
+  <strong>"Going digital" is about people first and technology second.</strong> At Skylight, we possess first-hand experience with embedding digital expertise throughout
+  government organizations, and putting the operating principles, structures,
+  and tools in place to unleash the superpowers of high-caliber digital teams.
+</p>
+      </div>
+    </div>
+  
+</header>
+
+<div class="service-area-showcase">
+
+  <section class="page-block">
+    <div class="page-block-header-1 sr-only">
+      <h2>Service elements</h2>
+    </div>
+
+    <div class="service-elements">
+      
+
+      
+
+
+
+
+
+
+      <div class="service-elements-row hanging-col-size-1">
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Digital Transformation Strategy</h3>
+              
+              <p>Chart a sustainable, self-sufficient path to becoming a digital-first agency through our holistic approach to assessing your unique needs and developing a plan for change.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Digital Talent Management</h3>
+              
+              <p>Increase and empower the digital talent within your agency, IT organization, business unit, or program office through our experience with large-scale digital talent management.
+</p>
+            </div>
+          </div>
+        
+          <div class="service-element-col">
+            <div class="service-element-content-box">
+              
+                <h3>Lean-Agile Enterprise</h3>
+              
+              <p>Engage and empower teams across your organization to achieve unprecedented levels of performance by instituting lean-agile principles and practices at enterprise scale.
+</p>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  
+
+  
+    <div class="image-block">
+      <img src="/img/digital-transformation.png" alt="An image of a government building that's digitized with 0's and 1's." />
+    </div>
+
+    <div class="page-block">
+      <div class="page-block-header-2">
+        <h2>Our work</h2>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="projects">
+  <div class="projects-row hanging-col-size-0">
+    
+      <article class="project-col">
+        <div class="project-card card-link" data-href="/work/tsa-cloud-adoption/" tabindex="-1">
+          <div role="img" class="project-img" style="background-image: url(/img/projects/tsa_cloud_adoption/cloud-jumpstarter.svg);" title="An engineer using jumper cables on a cloud."></div>
+          <div class="project-block">
+            
+              <p class="project-title-tag">Transportation Security Administration</p>
+            
+            <h3 class="project-title ">Jumpstarting cloud adoption</h3>
+            <p class="project-text">Accelerating the Transportation Security Administration's transition to a cloud-based operating model.</p>
+          </div>
+          <div class="project-footer">
+            <a href="/work/tsa-cloud-adoption/" tabindex="0">
+              <span>Read case study</span>
+              <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="project-col">
+        <div class="project-card card-link" data-href="/work/digital-transformation-framework/" tabindex="-1">
+          <div role="img" class="project-img" style="background-image: url(/img/projects/digital_transformation_framework/digital-transformation-framework.png);" title="A diagram image showing various digital transformation dimensions."></div>
+          <div class="project-block">
+            
+              <p class="project-title-tag">Digital Transformation Framework</p>
+            
+            <h3 class="project-title ">Digitally transforming government</h3>
+            <p class="project-text">A comprehensive framework designed to help government agencies transform into digitally-powered organizations.</p>
+          </div>
+          <div class="project-footer">
+            <a href="/work/digital-transformation-framework/" tabindex="0">
+              <span>Read case study</span>
+              <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="project-col">
+        <div class="project-card card-link" data-href="/work/18f-consulting/" tabindex="-1">
+          <div role="img" class="project-img" style="background-image: url(/img/projects/18f_consulting/18f-consulting.png);" title="The logo of 18F Consulting."></div>
+          <div class="project-block">
+            
+              <p class="project-title-tag">18F Consulting</p>
+            
+            <h3 class="project-title ">Helping agencies achieve digital mastery</h3>
+            <p class="project-text">A specialized team of digital experts within 18F focused on helping government agencies digitally transform.</p>
+          </div>
+          <div class="project-footer">
+            <a href="/work/18f-consulting/" tabindex="0">
+              <span>Read case study</span>
+              <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    
+  </div>
+</div>
+
+    </div>
+  
+
+</div>
+
+<footer class="page-subfooter">
+  <div class="page-subfooter-content">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
+        <h3 class="header-display-2">Let's deliver together.</h3>
+      </div>
+    </div>
+
+    <div class="page-subfooter-text-row">
+      <div class="page-subfooter-text-col">
+        <p>However bold the idea or complex the problem, we work with you to deliver results in weeks, not years.</p>
+      </div>
+    </div>
+
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
+        <a href="/hire-us/" role="button">
+          <span>Contact Us</span>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+:ET

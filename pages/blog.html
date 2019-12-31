@@ -2,6 +2,9 @@
 layout: default
 title: Our Blog
 permalink: /blog/
+pagination:
+  enabled: true
+  collection: blog_posts
 ---
 
 {% include page_header.html
@@ -9,14 +12,66 @@ permalink: /blog/
   header_content = 'Our thoughts on design, technology, and more.'
 %}
 
-<div class="our-blog">
-  {% assign blog_posts = site.blog_posts | sort: 'date_published' | reverse %}
+{% assign collection = include.collection %}
+{% assign prefix = 'blog' %}
+{% assign cta_text = include.cta_text %}
+{% assign context = include.context %}
+{% assign limit = include.limit %}
 
-  {% include card_list.html
-    collection = blog_posts
-    prefix = 'blog-post'
-    cta_text = 'Read more'
-  %}
+{% if limit %}
+  {% assign collection_size = limit %}
+{% else %}
+  {% assign collection_size = collection.size %}
+{% endif %}
+
+{% include hanging_column_size.html
+  collection_size = collection_size
+  col_size = 3
+%}
+
+<div class="our-blog">
+  <div class="blog-posts">
+    <div class="blog-posts-row hanging-col-size-2">
+      {% for item in paginator.posts %}
+        <article class="blog-post-col">
+          <div class="blog-post-card card-link" data-href="{{item.permalink}}" tabindex="-1">
+            <div role="img" class="blog-post-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
+            <div class="blog-post-block">
+              {% if item.title_tag %}
+                <p class="blog-post-title-tag">{{item.title_tag}}</p>
+              {% endif %}
+              <h3 class="blog-post-title {{context}}">{{item.title}}</h3>
+              <p class="blog-post-text">{{item.excerpt}}</p>
+            </div>
+            <div class="blog-post-footer">
+              <a href="{{item.permalink}}" tabindex="0">
+                <span>Read more</span>
+                <i class="fa fa-2x fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% unless context == 'related' %}</div>{% endunless %}
 </div>
+
+{% if paginator.total_pages > 1 %}
+<div class="blog-posts">
+  <div class="text-center mt-5">
+  {% if paginator.previous_page %}
+    <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+      <i class="fas fa-chevron-left mr-2"></i><b>Previous</b>
+    </a>
+  {% endif %}
+  <p class="d-inline-block mx-4">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+  {% if paginator.next_page %}
+    <a class="" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+      <b>Next</b><i class="fas fa-chevron-right ml-2"></i>
+    </a>
+  {% endif %}
+  </div>
+</div>
+{% endif %}
 
 {% include hire_us_cta.html %}
