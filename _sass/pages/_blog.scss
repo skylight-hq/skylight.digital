@@ -10,5 +10,23 @@
   @extend %row;
 }
 
+.page-blog {
+  article {
+    @include media-breakpoint-up(md) {
+      &:nth-child(1) {
+        @include make-col(12);
+      }
+
+      &:nth-child(2) {
+        @include make-col(6);
+      }
+
+      &:nth-child(3) {
+        @include make-col(6);
+      }
+    }
+  }
+}
+
 @include semantic-card('blog-post');
 @include multi-col-spacing('blog-post-col', $mb-size: 4, $mb-md-size: 5);
