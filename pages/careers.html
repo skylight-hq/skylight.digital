@@ -3,18 +3,17 @@ layout: default
 title: Careers
 permalink: /careers/
 redirect_from: /join/
+hero_content: Help us change the way government works.
 ---
 
-<div class="hero">
-  <div class="hero-container container-fluid text-center page--careers__text">
-    <h1 class="hero-heading">{{ page.title }}</h1>
-    <p class="hero-content">Help us change the way government works.</p>
-  </div>
-</div>
+{% include hero_banner.html
+  hero_content = "Help us change the way government works."
+  hero_large = true
+%}
 
 <div class="container">
   <div class="row">
-    <div class="sidenav col-12 col-md-3 mt-5 d-none d-md-block">
+    <div class="sidenav col-12 col-md-3 d-none d-md-block">
       <div class="is-sticky">
         <nav class="subnav-col px-0" id="sidenav">
           <ul role="presentation">
@@ -29,7 +28,7 @@ redirect_from: /join/
       </div>
     </div>
     <section class="col-12 col-md-9 page--careers__text">
-      <div class="mt-5 text" id="join">
+      <div class="text" id="join">
         <h2 class="mt-0" id="why-skylight">Why Skylight?</h2>
         <h3>Our mission matters</h3>
         <p>We’re more than a company. We represent a movement to reinvent how the government serves families, patients, veterans, immigrants, and many others in today’s digital world. Everything about us — our structure, <a href="/culture/">culture</a>, <a href="/services/">services</a>, <a href="/work/">work</a>, <a href="/blog/">thoughts</a>, and <a href="/about/">team</a> — is designed with that purpose in mind.</p>

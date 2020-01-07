@@ -74,3 +74,28 @@
     }
   }
 }
+
+.hero-banner {
+  .hero-container {
+    max-width: 476px;
+    padding-bottom: 44px;
+    padding-top: 47px;
+  }
+
+  .hero-container--large {
+    max-width: none;
+  }
+
+  .hero-heading {
+    font-size: $font-size-xxx-large;
+  }
+
+  .hero-content {
+    font-size: $font-size-medium;
+    margin-top: 1rem;
+  }
+
+  .hero-content--large {
+    font-size: $font-size-x-large;
+  }
+}
