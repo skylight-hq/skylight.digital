@@ -1,5 +1,5 @@
 .hero {
-  background: linear-gradient(67.15deg, #183751 -5.79%, #235384 107.23%), #162D44;
+  background-color: $brand-primary;
 
   .btn-warning {
     font-weight: $font-weight-bold;
@@ -76,6 +76,9 @@
 }
 
 .hero-banner {
+  background-position: top center;
+  background-size: auto;
+
   .hero-container {
     max-width: 506px;
     padding-bottom: 44px;
@@ -84,10 +87,12 @@
 
   .hero-heading {
     font-size: $font-size-xxx-large;
+    text-shadow: $card-box-shadow;
   }
 
   .hero-content {
     font-size: $font-size-medium;
     margin-top: 1rem;
+    text-shadow: $card-box-shadow;
   }
 }
