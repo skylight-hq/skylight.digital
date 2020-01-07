@@ -1,5 +1,5 @@
 <div class="hero hero-banner mb-5">
-  <div class="hero-container container-fluid text-center page--careers__text {% if include.hero_large == true %}hero-container--large{% endif %}">
+  <div class="hero-container container-fluid text-center page--careers__text">
     <h1 class="hero-heading">
       {% if include.hero_title %}
         {{ include.hero_title }}
@@ -7,6 +7,6 @@
         {{ page.title }}
       {% endif %}
     </h1>
-    <p class="hero-content {% if include.hero_large == true %}hero-content--large{% endif %}">{{ include.hero_content }}</p>
+    <p class="hero-content">{{ include.hero_content }}</p>
   </div>
 </div>
