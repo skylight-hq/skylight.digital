@@ -189,12 +189,11 @@
     height: 100%;
 
     @if $clickable {
-      box-shadow: $card-box-shadow;
       cursor: pointer;
 
       &:hover,
       &:focus {
-        box-shadow: none;
+        box-shadow: $card-box-shadow;
       }
     }
   }
