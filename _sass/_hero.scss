@@ -88,11 +88,19 @@
   .hero-heading {
     font-size: $font-size-xxx-large;
     text-shadow: $card-box-shadow;
+
+    &.text-ink {
+      text-shadow: none;
+    }
   }
 
   .hero-content {
     font-size: $font-size-medium;
     margin-top: 1rem;
     text-shadow: $card-box-shadow;
+
+    &.text-ink {
+      text-shadow: none;
+    }
   }
 }
