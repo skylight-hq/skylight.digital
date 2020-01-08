@@ -117,3 +117,8 @@
   width: 60px;
   height: 60px;
 }
+
+.subnav-col li .active:after,
+.subnav-col li:hover {
+  border-left-color: $sk-yellow;
+}

@@ -46,10 +46,5 @@
     @extend %nav-link;
     @extend %nav-link-decoration;
     @extend %p-0;
-    border-bottom: 1px solid $white;
-
-    &:hover {
-      border-bottom: 1px solid $nav-link-border-color;
-    }
   }
 }
