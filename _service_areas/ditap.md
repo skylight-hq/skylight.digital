@@ -284,5 +284,5 @@ class_2_spots:
   text_css_class = "page-subfooter-text-col"
   cta_path = "mailto:edu@skylight.digital"
   cta = "Email Us"
-  icon_css_class = "fa fa-arrow-right"
+  icon_css_class = "fa fa-chevron-right"
 %}
