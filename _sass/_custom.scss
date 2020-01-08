@@ -275,7 +275,7 @@ $footer-link-border-hover: 1px solid $footer-link-hover-color;
 
 // Page CTA (subfooter)
 $page-cta-color: $white;
-$page-cta-bg-color: linear-gradient(67.15deg, #183751 -5.79%, $brand-primary 107.23%), #162D44;
+$page-cta-bg-color: $brand-primary;
 
 $btn-page-cta-color: $white;
 $btn-page-cta-bg: $brand-primary;
