@@ -120,11 +120,15 @@
     background-color: $brand-gray-light;
   }
 
-//  &:focus,
   &[aria-current] {
     span {
       font-weight: 700;
     }
+  }
+
+  @include media-breakpoint-up(sm) {
+    border: 1px solid transparent;
+    border-bottom: none;
   }
 }
 
@@ -134,6 +138,12 @@
   border-radius: 0 0.25rem 0.25rem 0.25rem;
   font-size: $font-size-small;
   margin-top: 0;
+
+  @include media-breakpoint-up(sm) {
+    border: 1px solid #d2aa56;
+    margin-top: -1px;
+    z-index: 1;
+  }
 }
 
 .dropdown-item {
@@ -158,6 +168,11 @@
       margin-left: 0;
     }
   }
+
+  @include media-breakpoint-up(sm) {
+    position: relative;
+    z-index: 9999;
+  }
 }
 
 @include media-breakpoint-down(md) {
@@ -178,4 +193,9 @@
 .dropdown-toggle[aria-expanded="true"] {
   background-color: $sk-yellow;
   border-radius: 0.25rem 0.25rem 0 0;
+
+  @include media-breakpoint-up(sm) {
+    border: 1px solid #d2aa56;
+    border-bottom: none;
+  }
 }
