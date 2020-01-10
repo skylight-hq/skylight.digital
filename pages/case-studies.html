@@ -42,7 +42,7 @@ pagination:
 
 <div class="our-work">
   <div class="projects">
-    <div class="projects-row hanging-col-size-2">
+    <div class="projects-row">
       {% for item in paginator.posts %}
         <article class="project-col">
           <div class="project-card card-link" data-href="{{item.permalink}}" tabindex="-1">
@@ -69,7 +69,7 @@ pagination:
 
 {% if paginator.total_pages > 1 %}
 <div class="projects">
-  <div class="mt-5 d-flex flex-row justify-content-center">
+  <div class="mt-5 mt-md-0 d-flex flex-row justify-content-center">
     <div class="">
     {% if paginator.previous_page %}
       <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
