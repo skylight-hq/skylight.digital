@@ -31,17 +31,19 @@ pagination:
 
 <div class="our-blog">
   <div class="blog-posts">
-    <div class="blog-posts-row hanging-col-size-2">
+    <div class="blog-posts-row">
       {% for item in paginator.posts %}
         <article class="blog-post-col">
           <div class="blog-post-card card-link" data-href="{{item.permalink}}" tabindex="-1">
             <div role="img" class="blog-post-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
-            <div class="blog-post-block">
-              {% if item.title_tag %}
-                <p class="blog-post-title-tag">{{item.title_tag}}</p>
-              {% endif %}
-              <h3 class="blog-post-title {{context}}">{{item.title}}</h3>
-              <p class="blog-post-text">{{item.excerpt}}</p>
+            <div class="post-card-content">
+              <div class="blog-post-block">
+                {% if item.title_tag %}
+                  <p class="blog-post-title-tag">{{item.title_tag}}</p>
+                {% endif %}
+                <h3 class="blog-post-title {{context}}">{{item.title}}</h3>
+                <p class="blog-post-text">{{item.excerpt}}</p>
+              </div>
               <div class="blog-post-footer">
                 <a href="{{item.permalink}}" tabindex="0">
                   <span>Read more</span><i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -57,7 +59,7 @@ pagination:
 
 {% if paginator.total_pages > 1 %}
 <div class="blog-posts">
-  <div class="mt-5 d-flex flex-row justify-content-center">
+  <div class="mt-5 mt-md-0 d-flex flex-row justify-content-center">
     <div class="">
     {% if paginator.previous_page %}
       <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
