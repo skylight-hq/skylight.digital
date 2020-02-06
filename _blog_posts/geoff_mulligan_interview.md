@@ -27,7 +27,7 @@ With my experience in IoT, coupled with Skylight's expertise in areas such as le
 
 **Chris Cairns: How did you find out about Skylight?**
 
-**Geoff Mulligan:** I met several members of the now-Skylight team such as [Kin Lane](/blog/kin-lane-harnessing-the-connective-power-of-apis/) and [Dr. Robert Read](/about/#robert-read) during Round 2 of the Presidential Innovation Fellows. After finishing my tour as a fellow, I felt that there was more all of us could be doing to continue applying innovation pressure on the government. Skylight presented a platform to help effectuate that, and I felt that it could be a force of change.
+**Geoff Mulligan:** I met several members of the now-Skylight team such as [Kin Lane](/blog/kin-lane-harnessing-the-connective-power-of-apis/) and [Dr. Robert Read](/company/about/#robert-read) during Round 2 of the Presidential Innovation Fellows. After finishing my tour as a fellow, I felt that there was more all of us could be doing to continue applying innovation pressure on the government. Skylight presented a platform to help effectuate that, and I felt that it could be a force of change.
 
 **Chris Cairns: Why did you decide to join?**
 
@@ -51,4 +51,4 @@ One of the big things I'm going to focus on is collaborating with the Skylight t
 
 I'm also going to focus on building Skylight's IoT practice. There are good reasons why IoT is regarded as one of the top "disruptive" emerging technologies. We're eager to work with government organizations who are looking to harness the potential of IoT to better serve citizens.
 
-**Chris Cairns: Geoff, thank you for your time. It's been inspiring, and I'm looking forward to supporting you in your endeavors. To our readers, if you're interested in engaging with Geoff on smart city and IoT topics, [we'd love to hear from you](/hire-us/).**
+**Chris Cairns: Geoff, thank you for your time. It's been inspiring, and I'm looking forward to supporting you in your endeavors. To our readers, if you're interested in engaging with Geoff on smart city and IoT topics, [we'd love to hear from you](/contact/).**

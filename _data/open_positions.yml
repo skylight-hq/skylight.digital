@@ -4,6 +4,9 @@
 #   location: Washington DC
 #   order: 10
 
+# Categories:
+# Research, Design, Product, Engineering, Data, Program Delivery, Transformation, Corporate
+
 - title: UX Researcher
   url: https://skylight.workable.com/jobs/1128363
   category: Research
@@ -36,12 +39,12 @@
   order: 60
 - title: Data Engineer
   url: https://skylight.workable.com/jobs/1145622
-  category: Engineering
+  category: Data
   location: Remote
   order: 70
 - title: Data Scientist
   url: https://skylight.workable.com/jobs/1145644
-  category: Engineering
+  category: Data
   location: Remote
   order: 80
 - title: Digital Transformer
@@ -51,16 +54,16 @@
   order: 90
 - title: Vice President of Human Services
   url: https://apply.workable.com/skylight/j/9E1132A1B6/
-  category: Program Delivery
+  category: Corporate
   location: Remote
   order: 100
 - title: Vice President of Delivery Excellence
   url: https://apply.workable.com/skylight/j/2D3D1B7688/
-  category: Program Delivery
+  category: Corporate
   location: Remote
   order: 110
 - title: Vice President of Training Services
   url: https://apply.workable.com/skylight/j/FB764D28B5/
-  category: Program Delivery
+  category: Corporate
   location: Remote
   order: 120

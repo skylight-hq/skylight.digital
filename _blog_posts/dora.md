@@ -46,4 +46,4 @@ IT budgets aren't unlimited, so DORA knows that you're looking to target investm
 
 ## Ready to experience DORA for yourself?
 
-Accelerating your journey to becoming a DevOps-enabled organization requires making smart investments in developing capabilities across your teams. Why waste valuable IT resources when you don't know the most effective path, or even the outcome? With Skylight's partnership with DORA, you'll have the roadmap you need. So [drop us a line](/join/) and let's get started.
+Accelerating your journey to becoming a DevOps-enabled organization requires making smart investments in developing capabilities across your teams. Why waste valuable IT resources when you don't know the most effective path, or even the outcome? With Skylight's partnership with DORA, you'll have the roadmap you need. So [drop us a line](/careers/) and let's get started.

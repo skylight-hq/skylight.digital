@@ -18,11 +18,11 @@ featured: true
 
 Over the past few months, we've engaged with a number of new clients, including the State of Connecticut to improve how preschool development services are provided to children (from birth through age five) and families and the Air Force to modernize a twenty-something-year-old aviation resource management system.
 
-To support these new projects, we've grown our design, product, engineering, and transformation teams. Since [launching two years ago](https://skylight.digital/blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/), we've been working incredibly hard to recruit and cultivate an [amazing group of people](https://skylight.digital/about/). With that said, we're excited to introduce you to our newest team members!
+To support these new projects, we've grown our design, product, engineering, and transformation teams. Since [launching two years ago](/blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/), we've been working incredibly hard to recruit and cultivate an [amazing group of people](/company/about/). With that said, we're excited to introduce you to our newest team members!
 
 ## Marvo Dolor, Engagement Manager
 
-[Marvo](https://skylight.digital/about/#marvo-dolor) is drawn to solving complex, multi-faceted government problems. At Skylight, she works with our clients to plan and execute [service delivery](https://skylight.digital/services/digital-services-delivery/), [procurement](https://skylight.digital/services/digital-procurement/), and [transformation](https://skylight.digital/services/digital-transformation/) initiatives using agile project management techniques. Prior to joining us, Marvo served as a member of the [U.S. Digital Service](https://www.usds.gov/) at the Department of Veterans Affairs (VA), where she held multiple leadership positions in support of major initiatives, such as the successful [redesign of VA.gov](https://www.va.gov/) and the [modernization of the benefits appeals process](https://www.fedscoop.com/help-usds-va-improves-benefits-appeals-tracking-tool/).
+[Marvo](/company/about/#marvo-dolor) is drawn to solving complex, multi-faceted government problems. At Skylight, she works with our clients to plan and execute [service delivery](/work/services/#digital-services-delivery), [procurement](/work/services/#digital-procurement), and [transformation](/work/services/#digital-transformation) initiatives using agile project management techniques. Prior to joining us, Marvo served as a member of the [U.S. Digital Service](https://www.usds.gov/) at the Department of Veterans Affairs (VA), where she held multiple leadership positions in support of major initiatives, such as the successful [redesign of VA.gov](https://www.va.gov/) and the [modernization of the benefits appeals process](https://www.fedscoop.com/help-usds-va-improves-benefits-appeals-tracking-tool/).
 
 <blockquote>
 <p>"I believe technology can do more than entertain and amaze us &mdash; it can also be a force for good in people's lives. That's why it was an honor to do a tour of duty with the U.S. Digital Service."
@@ -31,7 +31,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 ## Abby Raskin, Product Manager
 
-[Abby](https://skylight.digital/about/#abby-raskin) is passionate about modernizing complex legacy systems with a policy angle. As an expert in product management, she works closely with our clients to translate their goals into valuable, high-quality solutions. Throughout her career, Abby has worked on entrenched civic and government problems as a product manager at the U.S. Digital Service at VA and Edovo (an education platform for incarcerated people).
+[Abby](/company/about/#abby-raskin) is passionate about modernizing complex legacy systems with a policy angle. As an expert in product management, she works closely with our clients to translate their goals into valuable, high-quality solutions. Throughout her career, Abby has worked on entrenched civic and government problems as a product manager at the U.S. Digital Service at VA and Edovo (an education platform for incarcerated people).
 
 <blockquote>
 <p>
@@ -41,7 +41,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 ## Chris Given, Data Engineer
 
-[Chris](https://skylight.digital/about/#chris-given) loves untangling complex data and system problems. At Skylight, he helps our clients turn unwieldy datasets into useful and accessible resources &mdash; for everyone. Prior to Skylight, Chris worked at the U.S. Digital Service at VA and the District of Columbia, where he worked on the city's open data policy.
+[Chris](/company/about/#chris-given) loves untangling complex data and system problems. At Skylight, he helps our clients turn unwieldy datasets into useful and accessible resources &mdash; for everyone. Prior to Skylight, Chris worked at the U.S. Digital Service at VA and the District of Columbia, where he worked on the city's open data policy.
 
 <blockquote>
 <p>
@@ -51,7 +51,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 ## Ashley Treni, UX Designer
 
-[Ashley](https://skylight.digital/about/#ashley-treni) is passionate about better serving people and communities through great design. At Skylight, she works with our clients to solve their toughest challenges using human-centered design techniques. Before Skylight, Ashley co-founded [JustFix.nyc](https://www.justfix.nyc/), a data-driven nonprofit that supports tenants and advocates fighting displacement.
+[Ashley](/company/about/#ashley-treni) is passionate about better serving people and communities through great design. At Skylight, she works with our clients to solve their toughest challenges using human-centered design techniques. Before Skylight, Ashley co-founded [JustFix.nyc](https://www.justfix.nyc/), a data-driven nonprofit that supports tenants and advocates fighting displacement.
 
 <blockquote>
 <p>
@@ -61,7 +61,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 ## Victoria Suwardiman, UX Researcher
 
-Originally a software engineer, [Victoria](https://skylight.digital/about/#victoria-suwardiman) brings her technical prowess to the field of UX research. As part of Skylight, she uses a range of qualitative and quantitative research techniques to help our clients pinpoint opportunities to improve user journeys. Prior to joining us, she held engineering and research roles at Abila (a platform for nonprofits) and Pearson, respectively.
+Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) brings her technical prowess to the field of UX research. As part of Skylight, she uses a range of qualitative and quantitative research techniques to help our clients pinpoint opportunities to improve user journeys. Prior to joining us, she held engineering and research roles at Abila (a platform for nonprofits) and Pearson, respectively.
 
 <blockquote>
 <p>
@@ -71,7 +71,7 @@ Originally a software engineer, [Victoria](https://skylight.digital/about/#victo
 
 ## Gabriel Ramirez, Full Stack Engineer
 
-[Gabriel](https://skylight.digital/about/#gabriel-ramirez) is passionate about coaching, mentoring, and technical excellence. At Skylight, he works closely with our clients to engineer high-quality systems that make the continuous delivery of value possible. Gabriel also teaches government teams on how to make more effective use of modern engineering practices and technologies through pair programming. Prior to Skylight, he worked for Pivotal (a services and software company) and 18F.
+[Gabriel](/company/about/#gabriel-ramirez) is passionate about coaching, mentoring, and technical excellence. At Skylight, he works closely with our clients to engineer high-quality systems that make the continuous delivery of value possible. Gabriel also teaches government teams on how to make more effective use of modern engineering practices and technologies through pair programming. Prior to Skylight, he worked for Pivotal (a services and software company) and 18F.
 
 <blockquote>
 <p>
@@ -81,7 +81,7 @@ Originally a software engineer, [Victoria](https://skylight.digital/about/#victo
 
 ## Mitchell Sipus, Service Designer
 
-[Mitchell](https://skylight.digital/about/#mitchell-sipus) has knack for turning high-friction problems into delightful user experiences. As part of Skylight, he works with our clients to determine how Skylight can help them solve their toughest digital challenges. Prior to joining us, Mitchell co-founded TulcoLabs, an applied artificial intelligence lab as part of a billion-dollar-private-equity portfolio. Mitchell previously served as a Presidential Innovation Fellow and developed Africa's first data-driven conflict reconstruction strategy in Mogadishu, Somalia.
+[Mitchell](/company/about/#mitchell-sipus) has knack for turning high-friction problems into delightful user experiences. As part of Skylight, he works with our clients to determine how Skylight can help them solve their toughest digital challenges. Prior to joining us, Mitchell co-founded TulcoLabs, an applied artificial intelligence lab as part of a billion-dollar-private-equity portfolio. Mitchell previously served as a Presidential Innovation Fellow and developed Africa's first data-driven conflict reconstruction strategy in Mogadishu, Somalia.
 
 <blockquote>
 <p>
@@ -91,7 +91,7 @@ Originally a software engineer, [Victoria](https://skylight.digital/about/#victo
 
 ## Lara Kohl, UX Designer
 
-[Lara](https://skylight.digital/about/#lara-kohl) is drawn to solving tough civic and government problems through research and design. At Skylight, she relies on her 15 years of experience in the field of UX to help our clients solve the *right* problems and design the *right* products. Prior to Skylight, Lara worked at the U.S. Digital Service at VA, where she served as the UX lead over the Appeals Modernization initiative, and taught as a professor at NYU, SUNY, and Pratt Institute.
+[Lara](/company/about/#lara-kohl) is drawn to solving tough civic and government problems through research and design. At Skylight, she relies on her 15 years of experience in the field of UX to help our clients solve the *right* problems and design the *right* products. Prior to Skylight, Lara worked at the U.S. Digital Service at VA, where she served as the UX lead over the Appeals Modernization initiative, and taught as a professor at NYU, SUNY, and Pratt Institute.
 
 <blockquote>
 <p>
@@ -101,7 +101,7 @@ Originally a software engineer, [Victoria](https://skylight.digital/about/#victo
 
 ## Colin Craig, Full Stack Engineer
 
-[Colin](https://skylight.digital/about/#colin-craig) has an aptitude for working in a multitude of technical environments. As part of our team, he engineers high-quality systems using modern practices and technologies such as APIs, test automation, and clean code. Prior to Skylight, Colin worked at 18F, where he provided technical leadership on products such as [login.gov](https://login.gov/), [analytics.usa.gov](https://analytics.usa.gov/), and [everykidinapark.gov](https://everykidinapark.gov/).
+[Colin](/company/about/#colin-craig) has an aptitude for working in a multitude of technical environments. As part of our team, he engineers high-quality systems using modern practices and technologies such as APIs, test automation, and clean code. Prior to Skylight, Colin worked at 18F, where he provided technical leadership on products such as [login.gov](https://login.gov/), [analytics.usa.gov](https://analytics.usa.gov/), and [everykidinapark.gov](https://everykidinapark.gov/).
 
 <blockquote>
 <p>
@@ -111,7 +111,7 @@ Originally a software engineer, [Victoria](https://skylight.digital/about/#victo
 
 ## Laura Vlassarev, UX Designer
 
-[Laura](https://skylight.digital/about/#laura-vlassarev) loves to solve complex problems by empathizing with and understanding the needs of users. At Skylight, she uses her unique combination of skills in UX research and design to accelerate the delivery of useful and usable products. Prior to Skylight, she held research and design roles at Aetna, Pearson, and HomeAdvisor.
+[Laura](/company/about/#laura-vlassarev) loves to solve complex problems by empathizing with and understanding the needs of users. At Skylight, she uses her unique combination of skills in UX research and design to accelerate the delivery of useful and usable products. Prior to Skylight, she held research and design roles at Aetna, Pearson, and HomeAdvisor.
 
 <blockquote>
 <p>
@@ -119,4 +119,4 @@ Originally a software engineer, [Victoria](https://skylight.digital/about/#victo
 </p>
 </blockquote>
 
-*P.S. We're always looking to hire great people who are passionate about driving better public outcomes through design, technology, and procurement. If this sounds like you, please [get in touch](https://skylight.digital/join/).*
+*P.S. We're always looking to hire great people who are passionate about driving better public outcomes through design, technology, and procurement. If this sounds like you, please [get in touch](https://skylight.digital/careers/).*

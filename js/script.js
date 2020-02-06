@@ -108,7 +108,7 @@ $(function(){
 
 // Hash update with scroll on ditap page
 $(function() {
-  if (location.pathname == "/services/ditap/" || '/careers/') {
+  if (location.pathname == "/work/services/ditap/" || '/careers/') {
     const headings = $("h2");
     window.setInterval(function() {
       headings.each(function(i) {
@@ -127,7 +127,7 @@ $(function() {
 
 // Pre-populate date select on ditap application
 $(function(){
-  if (location.pathname == '/services/ditap/apply/') {
+  if (location.pathname == '/work/services/ditap/apply/') {
     var urlParams = new URLSearchParams(window.location.search);
     var courseDate = urlParams.get('date');
     $('#date-input').val(courseDate);

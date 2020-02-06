@@ -3,7 +3,7 @@
   lname: Cairns
   full_name: Chris Cairns
   short_name: C. Cairns
-  profile_path: /about/#chris-cairns
+  profile_path: /company/about/#chris-cairns
   image: /img/people/chris-cairns.jpg
   image_description: Photo of Chris Cairns
   position: Digital Transformer
@@ -44,7 +44,7 @@
   lname: Johnson
   full_name: Sean Johnson
   short_name: S. Johnson
-  profile_path: /about/#sean-johnson
+  profile_path: /company/about/#sean-johnson
   image: /img/people/sean-johnson.jpg
   image_description: Photo of Sean Johnson
   position: Full Stack Engineer
@@ -81,7 +81,7 @@
   lname: Read
   full_name: Robert Read
   short_name: R. Read
-  profile_path: /about/#robert-read
+  profile_path: /company/about/#robert-read
   image: /img/people/robert-read.jpg
   image_description: Photo of Robert Read
   position: Full Stack Engineer
@@ -123,7 +123,7 @@
   lname: Teeter
   full_name: John Teeter
   short_name: J. Teeter
-  profile_path: /about/#john-teeter
+  profile_path: /company/about/#john-teeter
   image: /img/people/john-teeter.jpg
   image_description: Photo of John Teeter
   position: Full Stack Engineer
@@ -156,7 +156,7 @@
   lname: Mulligan
   full_name: Geoff Mulligan
   short_name: G. Mulligan
-  profile_path: /about/#geoff-mulligan
+  profile_path: /company/about/#geoff-mulligan
   image: /img/people/geoff-mulligan.jpg
   image_description: Photo of Geoff Mulligan
   position: IoT Architect
@@ -185,7 +185,7 @@
   lname: Lane
   full_name: Kin Lane
   short_name: K. Lane
-  profile_path: /about/#kin-lane
+  profile_path: /company/about/#kin-lane
   image: /img/people/kin-lane.jpg
   image_description: Photo of Kin Lane
   position: API Architect
@@ -228,7 +228,7 @@
   lname: Dorothy
   full_name: Josh Dorothy
   short_name: J. Dorothy
-  profile_path: /about/#josh-dorothy
+  profile_path: /company/about/#josh-dorothy
   image: /img/people/josh-dorothy.jpg
   image_description: Photo of Josh Dorothy
   position: DevOps Engineer
@@ -260,7 +260,7 @@
   lname: Bristow
   full_name: Nick Bristow
   short_name: N. Bristow
-  profile_path: /about/#nick-bristow
+  profile_path: /company/about/#nick-bristow
   image: /img/people/nick-bristow.jpg
   image_description: Photo of Nick Bristow
   position: Full Stack Engineer
@@ -297,7 +297,7 @@
   lname: Zapanta
   full_name: Victor Zapanta
   short_name: V. Zapanta
-  profile_path: /about/#victor-zapanta
+  profile_path: /company/about/#victor-zapanta
   image: /img/people/victor-zapanta.jpg
   image_description: Photo of Victor Zapanta
   position: UX Designer
@@ -335,7 +335,7 @@
   lname: Hoffman
   full_name: Aera Hoffman
   short_name: A. Hoffman
-  profile_path: /about/#aera-hoffman
+  profile_path: /company/about/#aera-hoffman
   image: /img/people/aera-hoffman.jpg
   image_description: Photo of Aera Hoffman
   position: UX Researcher
@@ -364,7 +364,7 @@
   lname: Kohl
   full_name: Lara Kohl
   short_name: L. Kohl
-  profile_path: /about/#lara-kohl
+  profile_path: /company/about/#lara-kohl
   image: /img/people/lara-kohl.jpg
   image_description: Photo of Lara Kohl
   position: UX Designer
@@ -390,7 +390,7 @@
   lname: Khandelwal
   full_name: Shashank Khandelwal
   short_name: S. Khandelwal
-  profile_path: /about/#shashank-khandelwal
+  profile_path: /company/about/#shashank-khandelwal
   image: /img/people/shashank-khandelwal.jpg
   image_description: Photo of Shashank Khandelwal
   position: Digital Transformer
@@ -423,7 +423,7 @@
   lname: Evans
   full_name: Lesley Evans
   short_name: L. Evans
-  profile_path: /about/#lesley-evans
+  profile_path: /company/about/#lesley-evans
   image: /img/people/lesley-evans.jpg
   image_description: Photo of Lesley Evans
   position: UX Researcher
@@ -448,7 +448,7 @@
   lname: Black
   full_name: Tom Black
   short_name: T. Black
-  profile_path: /about/#tom-black
+  profile_path: /company/about/#tom-black
   image: /img/people/tom-black.jpg
   image_description: Photo of Tom Black
   position: Full Stack Engineer
@@ -486,7 +486,7 @@
   lname: Wagner
   full_name: Andrew Wagner
   short_name: A. Wagner
-  profile_path: /about/#andrew-wagner
+  profile_path: /company/about/#andrew-wagner
   image: /img/people/andrew-wagner.jpg
   image_description: Photo of Andrew Wagner
   position: Software Engineer
@@ -511,7 +511,7 @@
   lname: Danielian
   full_name: Jay Danielian
   short_name: J. Danielian
-  profile_path: /about/#jay-danielian
+  profile_path: /company/about/#jay-danielian
   image: /img/people/jay-danielian.jpg
   image_description: Photo of Jay Danielian
   position: Software Engineer
@@ -540,7 +540,7 @@
   lname: Mader
   full_name: Brandon Mader
   short_name: B. Mader
-  profile_path: /about/#brandon-mader
+  profile_path: /company/about/#brandon-mader
   image: /img/people/brandon-mader.jpg
   image_description: Photo of Brandon Mader
   position: Data Scientist
@@ -561,7 +561,7 @@
   lname: Bartola
   full_name: Becca Bartola
   short_name: B. Bartola
-  profile_path: /about/#becca-bartola
+  profile_path: /company/about/#becca-bartola
   image: /img/people/becca-bartola.jpg
   image_description: Photo of Becca Bartola
   position: UX Designer
@@ -593,7 +593,7 @@
   lname: Vlassarev
   full_name: Laura Vlassarev
   short_name: L. Vlassarev
-  profile_path: /about/#laura-vlassarev
+  profile_path: /company/about/#laura-vlassarev
   image: /img/people/laura-vlassarev.jpg
   image_description: Photo of Laura Vlassarev
   position: UX Designer
@@ -621,7 +621,7 @@
   lname: Suwardiman
   full_name: Victoria Suwardiman
   short_name: V. Suwardiman
-  profile_path: /about/#victoria-suwardiman
+  profile_path: /company/about/#victoria-suwardiman
   image: /img/people/victoria-suwardiman.jpg
   image_description: Victoria Suwardiman
   position: UX Researcher
@@ -642,7 +642,7 @@
   lname: Raskin
   full_name: Abby Raskin
   short_name: A. Raskin
-  profile_path: /about/#abby-raskin
+  profile_path: /company/about/#abby-raskin
   image: /img/people/abby-raskin.jpg
   image_description: Photo of Abby Raskin
   position: Product Manager
@@ -667,7 +667,7 @@
   lname: Ramirez
   full_name: Gabriel Ramirez
   short_name: G. Ramirez
-  profile_path: /about/#gabriel-ramirez
+  profile_path: /company/about/#gabriel-ramirez
   image: /img/people/gabriel-ramirez.jpg
   image_description: Photo of Gabriel Ramirez
   position: Full Stack Engineer
@@ -696,7 +696,7 @@
   lname: Given
   full_name: Chris Given
   short_name: C. Given
-  profile_path: /about/#chris-given
+  profile_path: /company/about/#chris-given
   image: /img/people/chris-given.jpg
   image_description: Photo of Chris Given
   position: Data Engineer
@@ -722,7 +722,7 @@
   lname: Craig
   full_name: Colin Craig
   short_name: C. Craig
-  profile_path: /about/#colin-craig
+  profile_path: /company/about/#colin-craig
   image: /img/people/colin-craig.jpg
   image_description: Photo of Colin Craig
   position: Full Stack Engineer
@@ -748,7 +748,7 @@
   lname: Treni
   full_name: Ashley Treni
   short_name: A. Treni
-  profile_path: /about/#ashley-treni
+  profile_path: /company/about/#ashley-treni
   image: /img/people/ashley-treni.jpg
   image_description: Photo of Ashley Treni
   position: UX Designer
@@ -781,7 +781,7 @@
   lname: Sipus
   full_name: Mitchell Sipus
   short_name: M. Sipus
-  profile_path: /about/#mitchell-sipus
+  profile_path: /company/about/#mitchell-sipus
   image: /img/people/mitchell-sipus.jpg
   image_description: Mitchell Sipus
   position: Service Designer
@@ -790,7 +790,7 @@
     designing and launching Africa's first data-driven conflict reconstruction strategy
     in Mogadishu, Somalia. He's currently completing a PhD in design at Carnegie Mellon,
     and specializes in design-centric approaches to advanced technology fields such as
-    robotics, artificial intelligence, and Internet of Things. Mitchell lives in Pennsylvania.
+    artificial intelligence. Mitchell lives in Pennsylvania.
   active: true
   order: 25
   socials:
@@ -811,7 +811,7 @@
   lname: Dolor
   full_name: Marvo Dolor
   short_name: M. Dolor
-  profile_path: /about/#marvo-dolor
+  profile_path: /company/about/#marvo-dolor
   image: /img/people/marvo-dolor.jpg
   image_description: Photo of Marvo Dolor
   position: Engagement Manager
@@ -842,7 +842,7 @@
   lname: Hansen
   full_name: Cailyn Hansen
   short_name: C. Hansen
-  profile_path: /about/#cailyn-hansen
+  profile_path: /company/about/#cailyn-hansen
   image: /img/people/cailyn-hansen.jpg
   image_description: Photo of Cailyn Hansen
   position: Data Engineer
@@ -877,7 +877,7 @@
   lname: Wellers
   full_name: Amelia Wellers
   short_name: A. Wellers
-  profile_path: /about/#amelia-wellers
+  profile_path: /company/about/#amelia-wellers
   image: /img/people/amelia-wellers.jpg
   image_description: Photo of Amelia Wellers
   position: Engagement Manager
@@ -907,7 +907,7 @@
   lname: Benari
   full_name: Maya Benari
   short_name: M. Benari
-  profile_path: /about/#maya-benari
+  profile_path: /company/about/#maya-benari
   image: /img/people/maya-benari.jpg
   image_description: Photo of Maya Benari
   position: UX Designer
@@ -941,7 +941,7 @@
   lname: Kirby
   full_name: Brandon Kirby
   short_name: B. Kirby
-  profile_path: /about/#brandon-kirby
+  profile_path: /company/about/#brandon-kirby
   image: /img/people/brandon-kirby.jpg
   image_description: Photo of Brandon Kirby
   position: Digital Transformer
@@ -971,7 +971,7 @@
   lname: Hogan
   full_name: Julia Hogan
   short_name: J. Hogan
-  profile_path: /about/#julia-hogan
+  profile_path: /company/about/#julia-hogan
   image: /img/people/julia-hogan.jpg
   image_description: Photo of Julia Hogan
   position: Software Engineer
@@ -997,7 +997,7 @@
   lname: Perez
   full_name: Ari Perez
   short_name: A. Perez
-  profile_path: /about/#ari-perez
+  profile_path: /company/about/#ari-perez
   image: /img/people/ari-perez.jpg
   image_description: Photo of Ari Perez
   position: DevOps Engineer
@@ -1020,7 +1020,7 @@
   lname: Chau
   full_name: Peggy Chau
   short_name: P. Chau
-  profile_path: /about/#peggy-chau
+  profile_path: /company/about/#peggy-chau
   image: /img/people/peggy-chau.jpg
   image_description: Photo of Peggy Chau
   position: UX Researcher
@@ -1045,7 +1045,7 @@
   lname: Gehin
   full_name: Zack Gehin
   short_name: Z. Gehin
-  profile_path: /about/#zack-gehin
+  profile_path: /company/about/#zack-gehin
   image: /img/people/zack-gehin.jpg
   image_description: Photo of Zack Gehin
   position: UX Designer
@@ -1071,7 +1071,7 @@
   lname: Nobel
   full_name: Mical Nobel
   short_name: M. Nobel
-  profile_path: /about/#mical-nobel
+  profile_path: /company/about/#mical-nobel
   image: /img/people/eleanor-roosevelt.png
   image_description: Placeholder Photo of Mical Nobel
   position: Product Manager
@@ -1094,7 +1094,7 @@
   lname: Clyde
   full_name: Nick Clyde
   short_name: N. Clyde
-  profile_path: /about/#nick-clyde
+  profile_path: /company/about/#nick-clyde
   image: /img/people/nick-clyde.jpg
   image_description: Photo of Nick Clyde
   position: Software Engineer
@@ -1120,7 +1120,7 @@
   lname: Richards
   full_name: Eric Richards
   short_name: E. Richards
-  profile_path: /about/#eric-richards
+  profile_path: /company/about/#eric-richards
   image: /img/people/eric-richards.jpg
   image_description: Photo of Eric Richards
   position: UX Designer

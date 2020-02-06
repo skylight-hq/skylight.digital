@@ -15,9 +15,9 @@ authors:
 date_published: 2017-07-05
 date: 2018-02-25
 ---
-If there's one thing that we learned during our time at [18F](/work/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
+If there's one thing that we learned during our time at [18F](/work/experience/18f-consulting/) it's that delivering short bursts of consulting work, focused on a specific topic, can empower government managers and teams with the critical know-how they need to produce great technology outcomes. In other words, not everything requires a full-fledged consulting engagement.
 
-Now with Skylight, we're excited to take what we've learned from executing these types of focused, quick-turnaround, high-impact consulting engagements to the next level. We call it [Microconsulting Services](/services/microconsulting/).
+Now with Skylight, we're excited to take what we've learned from executing these types of focused, quick-turnaround, high-impact consulting engagements to the next level. We call it [Microconsulting Services](/work/services/#microconsulting).
 
 ## What is microconsulting?
 
@@ -40,7 +40,7 @@ It's also a great, low-risk way to test out the capabilities of a firm before en
 
 ## What types of microconsulting do we offer?
 
-We possess digital expertise in a number of different areas &mdash; for example, design/product workshops, agile acquisition, agile delivery, open-source software, rapid prototyping, software engineering, legacy modernization, microservices architecture, application programming interfaces, and cloud computing. So we can provide a wide range of Microconsulting Services tailored to your specific needs. We also offer several [standard ones](/services/microconsulting/) as well.
+We possess digital expertise in a number of different areas &mdash; for example, design/product workshops, agile acquisition, agile delivery, open-source software, rapid prototyping, software engineering, legacy modernization, microservices architecture, application programming interfaces, and cloud computing. So we can provide a wide range of Microconsulting Services tailored to your specific needs. We also offer several [standard ones](/work/services/#microconsulting) as well.
 
 ## What prices do we charge?
 

@@ -15,7 +15,7 @@ date_published: 2018-05-06
 date: 2018-05-06
 ---
 
-*[Nick Bristow](/about/#nick-bristow) joined Skylight in March of 2017. He's a software engineer with deep expertise in technology accessibility and Section 508 standards. For the past eight years, Nick has helped software delivery teams create more accessible products through the adoption of accessibility development best practices. During the Obama Administration, he supported the White House in developing new Section 508 rules. Nick also founded and ran 18F's influential accessibility community of practice. Nick works closely with our clients to deliver digital services that are accessible and meet the needs of all users.*
+*[Nick Bristow](/company/about/#nick-bristow) joined Skylight in March of 2017. He's a software engineer with deep expertise in technology accessibility and Section 508 standards. For the past eight years, Nick has helped software delivery teams create more accessible products through the adoption of accessibility development best practices. During the Obama Administration, he supported the White House in developing new Section 508 rules. Nick also founded and ran 18F's influential accessibility community of practice. Nick works closely with our clients to deliver digital services that are accessible and meet the needs of all users.*
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
@@ -27,7 +27,7 @@ During my four years at 18F, I worked on numerous projects &mdash; such as [logi
 
 **Chris Cairns: How did you find out about Skylight?**
 
-**Nick Bristow:** I met several members of the now-Skylight team such as [Dr. Robert Read](/about/#robert-read) and [Chris Cairns](/about/#chris-cairns) at 18F in 2014. Chris approached me about joining to help make government more accessible for everyone.
+**Nick Bristow:** I met several members of the now-Skylight team such as [Dr. Robert Read](/company/about/#robert-read) and [Chris Cairns](/company/about/#chris-cairns) at 18F in 2014. Chris approached me about joining to help make government more accessible for everyone.
 
 **Chris Cairns: Why did you decide to join?**
 
@@ -47,4 +47,4 @@ When I found out what Skylight was doing, I recognized a lot of what I witnessed
 
 **Nick Bristow:** If you aren't ready to give up fighting to make things better, this is what you've been looking for.
 
-**Chris Cairns: Nick, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Nick to help making government digital services more accessible, [we'd love to hear from you](/hire-us/).**
+**Chris Cairns: Nick, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Nick to help making government digital services more accessible, [we'd love to hear from you](/contact/).**

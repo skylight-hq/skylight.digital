@@ -1,7 +1,7 @@
 <h2 id="open-positions">Open positions</h2>
 
 {% if site.data.open_positions[0] %}
-  <p class="text-intro">Below are the roles that we’re actively hiring for:</p>
+  <p class="text-intro">Below are the roles that we're actively hiring for:</p>
 
   <div class="open-positions-list">
     {% assign groups = site.data.open_positions | group_by: 'category' | sort: 'order' %}
@@ -19,12 +19,24 @@
       </ul>
     {% endfor %}
   </div>
+
+  <p>
+    Don't see your role? Don't worry, we could be hiring sooner than you think, so we'd
+    still love to talk. We typically hire people with skills in research, design, product
+    management, engineering, data science, security, procurement, digital transformation,
+    and client engagement management.
+    Please don't hesitate to <a href="mailto:hello@skylight.digital">reach out to us</a>.
+  </p>
+
+  <p>
+    For most roles, we also offer apprenticeship opportunities for post-graduate
+    professionals and internship opportunities for current or recent college graduates.
+    If you're interested in an apprenticeship or internship,
+    please <a href="mailto:hello@skylight.digital">>get in touch</a>.
+  </p>
 {% else %}
   <p>
     We're not currently hiring at the moment, but that can change quickly.
-    So please don't hesitate to <a href="/join/#application">apply</a>!
+    So please don't hesitate to <a href="/careers/#application">apply</a>!
   </p>
 {% endif %}
-
-<p>Don’t see your role? Don’t worry, we could be hiring sooner than you think, so we’d still love to talk. <a href="/join-form/">Simply send us your info</a>.</p>
-<p>For most roles, we also offer apprenticeship opportunities for post-graduate professionals and internship opportunities for current or recently graduated college students.</p>

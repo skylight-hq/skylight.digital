@@ -1,7 +1,13 @@
 ---
 layout: default
-title: Our services
-permalink: /services/
+title: Our Services
+permalink: /work/services/
+redirect_from:
+  - /services/digital-procurement/
+  - /services/digital-services-delivery/
+  - /services/digital-transformation/
+  - /services/microconsulting/
+  - /services/microconsulting/apis/
 ---
 
 {% include hero_banner.html
@@ -10,79 +16,6 @@ permalink: /services/
 %}
 
 <div class="our-services">
-
-  <section class="page-block">
-    <div class="page-block-header-2 sr-only">
-      <h2>What we offer</h2>
-    </div>
-
-    <div class="service-areas-row">
-      {% assign service_areas = site.service_areas | sort: 'order' %}
-      {% for service_area in service_areas %}
-        {% if service_area.feature %}
-          <div class="service-area-col">
-            <div class="service-area-card card-link" data-href="{{service_area.permalink}}" tabindex="-1">
-              <img class="service-area-img" src="{{service_area.image_icon}}" alt="{{service_area.image_icon_description}}">
-              <div class="service-area-block">
-                <h3>{{service_area.title}}</h3>
-                <p>{{service_area.excerpt}}</p>
-              </div>
-              <div class="service-area-footer">
-                <a href="{{service_area.permalink}}" tabindex="0">
-                  <span class="sr-only">Learn More About Our {{service_area.title}} Service</span>
-                  <i class="fa fa-3x fa-arrow-circle-o-right" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="minor-service-areas-row">
-      <div class="minor-service-area-col">
-        <p>
-          Also, check out our <a class="text" href="/services/microconsulting/">Microconsulting Services</a>
-          and <a class="text" href="/services/ditap/">DITAP Training</a>.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="separator-wrapper">
-    <hr>
-  </div>
-
-  <section class="page-block separated">
-    <div class="page-block-header-2 text-center">
-      <h2>Key capabilities</h2>
-
-      <div class="row">
-        <div class="page-header-content-3 text-center">
-          <p>
-            Your digital challenges are neither siloed nor static. Our teams are smartly
-            tailored to meet your holistic and dynamic needs, and to impart you with
-            the competencies necessary to succeed in the digital era.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="capabilities-row">
-      {% assign capability_groups = site.data.capability_groups | sort: 'order' %}
-      {% for capability_group in capability_groups %}
-        <div class="capability-group-col">
-          <div aria-hidden="true"></div>
-          <h3>{{capability_group.name}}</h3>
-          <ul>
-            {% for capabilitiy in capability_group.capabilities %}
-              <li>{{capabilitiy}}</li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
-    </div>
-  </section>
 
 </div>
 

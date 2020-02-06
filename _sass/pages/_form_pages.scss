@@ -1,11 +1,9 @@
-.hire-us,
-.alliances,
+.contact-us,
 .ditap-apply {
   @extend %readability-col;
 }
 
-.hire-us-form,
-.alliances-form,
+.contact-us-form,
 .ditap-apply-form {
   @include mt-6;
   width: 100%;
