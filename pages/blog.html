@@ -36,19 +36,17 @@ pagination:
         <article class="blog-post-col">
           <div class="blog-post-card card-link" data-href="{{item.permalink}}" tabindex="-1">
             <div role="img" class="blog-post-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
-            <div class="post-card-content">
-              <div class="blog-post-block">
-                {% if item.title_tag %}
-                  <p class="blog-post-title-tag">{{item.title_tag}}</p>
-                {% endif %}
-                <h3 class="blog-post-title {{context}}">{{item.title}}</h3>
-                <p class="blog-post-text">{{item.excerpt}}</p>
-              </div>
-              <div class="blog-post-footer">
-                <a href="{{item.permalink}}" tabindex="0">
-                  <span>Read more</span><i class="fa fa-chevron-right" aria-hidden="true"></i>
-                </a>
-              </div>
+            <div class="blog-post-block">
+              {% if item.title_tag %}
+                <p class="blog-post-title-tag">{{item.title_tag}}</p>
+              {% endif %}
+              <h3 class="blog-post-title {{context}}">{{item.title}}</h3>
+              <p class="blog-post-text">{{item.excerpt}}</p>
+            </div>
+            <div class="blog-post-footer">
+              <a href="{{item.permalink}}" tabindex="0">
+                <span>Read more</span><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </article>
