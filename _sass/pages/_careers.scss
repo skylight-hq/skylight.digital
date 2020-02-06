@@ -38,50 +38,6 @@
   }
 }
 
-// .join-us {
-//   @extend %col-sm-11;
-//   @extend %col-lg-8;
-//   @extend %mx-auto;
-//   @extend %mt-6;
-
-//   .subnav-col {
-//     @extend %col-md-4;
-//   }
-// }
-
-// .join-content-col {
-//   @extend %col;
-//   @extend %col-md-8;
-//   @extend %mx-auto;
-//   @extend %text;
-//   @extend %left-justified-list;
-//   @extend %flex-last;
-
-//   form {
-//     @extend %mt-5;
-//   }
-
-//   h2 {
-//     font-size: $font-size-xx-large;
-
-//     &:not(:first-child) {
-//       @extend %mt-4;
-//       @extend %mt-md-5;
-//     }
-
-//     @extend %mb-3;
-//   }
-
-//   p:last-child,
-//   ul:last-child {
-//     @extend %mb-0;
-//   }
-// }
-
-// .join-content-col > div {
-//   min-height: 500px;
-// }
-
 .open-positions-list {
   ul {
     list-style-type: none;

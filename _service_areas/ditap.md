@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Digital IT Acquisition Professional (DITAP) Training"
-permalink: /services/ditap/
+permalink: /work/services/ditap/
 excerpt: Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course.
 tags: [digital acquisition training, agile acquisition training]
 class: ditap
@@ -17,7 +17,7 @@ class_2_spots:
         <p class="hero-content">Learn the skills required to master the art of digital acquisition through our expert-led, 6-month, part-time course. Upon completion, you'll earn the Federal Acquisition Certification in Contracting Core-Plus Specialization in Digital Services and up to 80 Continuous Learning Points.</p>
         <div class="hero-btn-group mt-2">
           <div class="hero-btn-wrapper pr-1">
-            <a class="btn btn-warning text-dark mr-2 mt-md-3" href="/services/ditap/apply">Apply now →</a>
+            <a class="btn btn-warning text-dark mr-2 mt-md-3" href="/work/services/ditap/apply">Apply now →</a>
           </div>
           <div class="hero-btn-wrapper pl-1">
             <a class="btn btn-outline-light mt-md-3" href="/assets/Skylight-DITAP-Syllabus.pdf">Read syllabus</a>
@@ -42,7 +42,7 @@ class_2_spots:
             <li><a class="nav-link" href="#faqs">FAQs</a></li>
           </ul>
         </nav>
-        <a class="btn btn-primary-dark font-weight-bold mt-2" href="/services/ditap/apply">Apply now →</a>
+        <a class="btn btn-primary-dark font-weight-bold mt-2" href="/work/services/ditap/apply">Apply now →</a>
       </div>
     </div>
 
@@ -143,7 +143,7 @@ class_2_spots:
         </div>
         <div class="col-12 col-lg-8">
           <h3>Chris Cairns</h3>
-          <p>Chris served as a White House Presidential Innovation Fellow, and co-founded 18F. He started and built 18F's influential acquisition group, which specializes in digital acquisition methods. Chris is known for pioneering 18F's <a href="https://skylight.digital/work/agile-acquisition-framework/">agile acquisition framework</a>, and for architecting the government's first-ever <a href="https://skylight.digital/work/agile-delivery-services-marketplace/">agile vendor contract vehicle</a> using a tech challenge.</p>
+          <p>Chris served as a White House Presidential Innovation Fellow, and co-founded 18F. He started and built 18F's influential acquisition group, which specializes in digital acquisition methods. Chris is known for pioneering 18F's <a href="/work/experience/agile-acquisition-framework/">agile acquisition framework</a>, and for architecting the government's first-ever <a href="/work/experience/agile-delivery-services-marketplace/">agile vendor contract vehicle</a> using a tech challenge.</p>
         </div>
         <div class="col-12 col-lg-4">
           <div role="img" class="employee-img" style="background-image: url(/img/people/dan-levenson.jpg);" title="Dan Levenson"></div>
@@ -169,7 +169,7 @@ class_2_spots:
       </div>
 
       <h2 id="tuition-and-dates">Tuition and dates</h2>
-      <a href="/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
+      <a href="/work/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
           <h3 class="class-heading">March 4, 2020 to August 27, 2020</h3>
           {% if page.class_2_spots %}
@@ -188,7 +188,7 @@ class_2_spots:
           </p>
         </div>
       </a>
-      <a href="/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
+      <a href="/work/services/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
           <h3 class="class-heading">August 5, 2020 to February 11, 2021</h3>
           {% if page.class_1_spots %}

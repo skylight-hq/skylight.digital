@@ -103,4 +103,4 @@ As an exercise to the reader, think about how each of the practices listed below
 
 ## Need help leveraging the power of APIs?
 
-API management has grown into a rich field that offers tremendous benefits, but with that power comes many choices that must be made. The risk/utility diagram may be a useful in having executive whiteboard discussions of these choices. [Kin Lane](/blog/kin-lane-harnessing-the-connective-power-of-apis/) is an expert in these issues and is available to [work with you](/hire-us/).
+API management has grown into a rich field that offers tremendous benefits, but with that power comes many choices that must be made. The risk/utility diagram may be a useful in having executive whiteboard discussions of these choices. [Kin Lane](/blog/kin-lane-harnessing-the-connective-power-of-apis/) is an expert in these issues and is available to [work with you](/contact/).

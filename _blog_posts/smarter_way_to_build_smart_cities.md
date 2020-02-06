@@ -95,4 +95,4 @@ Through the strict application and requirement of openness, your Smart City proj
 
 ## Looking to make your Smart City initiative a success?
 
-Skylight possess a unique combination of expertise in the Internet of Things, open systems, APIs, microservices, lean-agile, legacy modernization, and user-centered design. We'd love to [work with you](https://skylight.digital/hire-us/) on making your city smarter.
+Skylight possess a unique combination of expertise in the Internet of Things, open systems, APIs, microservices, lean-agile, legacy modernization, and user-centered design. We'd love to [work with you](https://skylight.digital/contact/) on making your city smarter.

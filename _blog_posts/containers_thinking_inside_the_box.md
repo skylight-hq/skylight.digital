@@ -69,4 +69,4 @@ It's true that in terms of security, some of the advantages of containers could 
 
 ## So, are containers right for you?
 
-Containerization is a powerful tool to increase organizational efficiency and allow you to focus on what really matters &mdash; delivering a better solution. What could you do with a budget that wasn't tied up in infrastructure, technical debt, and an inefficient development lifecycle? We can help you develop a containerization strategy for your organization. [Drop us a line](/hire-us/) and let's get started.
+Containerization is a powerful tool to increase organizational efficiency and allow you to focus on what really matters &mdash; delivering a better solution. What could you do with a budget that wasn't tied up in infrastructure, technical debt, and an inefficient development lifecycle? We can help you develop a containerization strategy for your organization. [Drop us a line](/contact/) and let's get started.

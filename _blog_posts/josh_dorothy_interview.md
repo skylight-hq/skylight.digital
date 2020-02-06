@@ -15,7 +15,7 @@ date_published: 2018-03-09
 date: 2018-03-09
 ---
 
-*[Josh Dorothy](/about/#josh-dorothy) joined Skylight in January of 2018. He's a lawyer turned software engineer who's spent the last several years immersed in (and evangelizing for) infrastructure as code and DevOps in general. He previously served with the <a href="https://www.usds.gov/">U.S. Digital Service</a>, helping the federal government solve its most difficult technical problems and improve the way it delivers digital services to the American public (and sometimes the world!).*
+*[Josh Dorothy](/company/about/#josh-dorothy) joined Skylight in January of 2018. He's a lawyer turned software engineer who's spent the last several years immersed in (and evangelizing for) infrastructure as code and DevOps in general. He previously served with the <a href="https://www.usds.gov/">U.S. Digital Service</a>, helping the federal government solve its most difficult technical problems and improve the way it delivers digital services to the American public (and sometimes the world!).*
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
@@ -35,7 +35,7 @@ Unfortunately, you can't effect change by principle alone. I knew I needed to bu
 
 **Chris Cairns: What have you worked on so far?**
 
-**Josh Dorothy:** I'm currently working as a DevOps Engineer on the U.S. Citizenship and Immigration Services' [E-Verify modernization initiative](/work/uscis-everify-modernization/).
+**Josh Dorothy:** I'm currently working as a DevOps Engineer on the U.S. Citizenship and Immigration Services' [E-Verify modernization initiative](/work/experience/uscis-everify-modernization/).
 
 **Chris Cairns: What was most surprising to you about joining Skylight?**
 
@@ -45,4 +45,4 @@ Unfortunately, you can't effect change by principle alone. I knew I needed to bu
 
 **Josh Dorothy:** If you're passionate about public service, and you want to help solve technical problems that are at the core of how government programs function, [we'd love to talk to you](/join). If you're part of a government effort like 18F or USDS, or feel similarly, you're not alone. We're dedicated public servants who want to build a platform and a movement, and we need your help.
 
-**Chris Cairns: Josh, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Josh to help integrate DevOps into your organization, [we'd love to hear from you](/hire-us/)**
+**Chris Cairns: Josh, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Josh to help integrate DevOps into your organization, [we'd love to hear from you](/contact/)**

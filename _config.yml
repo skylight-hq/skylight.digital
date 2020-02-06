@@ -49,13 +49,10 @@ kramdown:
 collections:
   service_areas:
     output: true
-    permalink: /services/:path/
-  microconsulting_offerings:
-    output: true
-    permalink: /services/microconsulting/:path/
+    permalink: /work/services/:path/
   projects:
     output: true
-    permalink: /work/:path/
+    permalink: /work/experience/:path/
   project_team_members:
     output: true
     permalink: /work/team-member/:name/
@@ -70,7 +67,7 @@ collections:
     permalink: /blog/tag/:name/
   policies:
     output: true
-    permalink: /policies/:path/
+    permalink: /company/policies/:path/
 
 # Pagination Settings
 pagination:

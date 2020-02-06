@@ -15,7 +15,7 @@ date_published: 2018-02-13
 date: 2018-02-13
 ---
 
-*[Kin Lane](/about/#kin-lane) joined Skylight in June of 2017. He's a world-recognized expert in Application Programming Interfaces (APIs). For the past 10 years, Kin's focused solely on mastering the lifecycle of APIs, from initial strategy to deprecation. During that time, he has <a href="http://apievangelist.com/archive/">written over 3,000 articles</a> and <a href="http://talks.kinlane.com/">spoken at over 50 events</a> on API-related topics. Kin works closely with our clients to harness the connective power of APIs.*
+*[Kin Lane](/company/about/#kin-lane) joined Skylight in June of 2017. He's a world-recognized expert in Application Programming Interfaces (APIs). For the past 10 years, Kin's focused solely on mastering the lifecycle of APIs, from initial strategy to deprecation. During that time, he has <a href="http://apievangelist.com/archive/">written over 3,000 articles</a> and <a href="http://talks.kinlane.com/">spoken at over 50 events</a> on API-related topics. Kin works closely with our clients to harness the connective power of APIs.*
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
@@ -27,13 +27,13 @@ Skylight presented me with a compelling opportunity to amplify my role as The AP
 
 **Chris Cairns: How did you find out about Skylight?**
 
-**Kin Lane:** I met several members of the now-Skylight team such as [Dr. Robert Read](/about/#robert-read) and [Geoff Mulligan](/about/#geoff-mulligan) through the Presidential Innovation Fellows program in 2013. They approached me about joining forces with them for public good, and the rest is history.
+**Kin Lane:** I met several members of the now-Skylight team such as [Dr. Robert Read](/company/about/#robert-read) and [Geoff Mulligan](/company/about/#geoff-mulligan) through the Presidential Innovation Fellows program in 2013. They approached me about joining forces with them for public good, and the rest is history.
 
 **Chris Cairns: Why did you decide to join?**
 
 **Kin Lane:** There were a number of compelling reasons, actually. One of the big ones was the opportunity to advance the government's adoption and use of APIs. Every day millions of people and organizations depend on government services to fulfill their needs. These services are powered by, and interact with, countless internal and external systems. I truly believe that the more fluently these systems can talk to each other, the more impactful government can be. Unfortunately, I see a lot of government organizations needlessly struggling to realize the strategic value of APIs. Skylight gives me a platform to help change that.
 
-Another major reason was that I identified with the [culture that Skylight is striving to build](/culture/). For example, there's a strong focus on developing one another's areas of expertise. There's a lot I'd like to teach others, but there's also a lot I'd like to learn. Being able to learn from people who are absolute experts in their field &mdash; such as legacy modernization, microservices, DevOps, and Internet of Things &mdash; really drew me in.
+Another major reason was that I identified with the [culture that Skylight is striving to build](/about/culture/). For example, there's a strong focus on developing one another's areas of expertise. There's a lot I'd like to teach others, but there's also a lot I'd like to learn. Being able to learn from people who are absolute experts in their field &mdash; such as legacy modernization, microservices, DevOps, and Internet of Things &mdash; really drew me in.
 
 The last reason, but certainly not the least, was the opportunity to build-up a business practice area focused on APIs. Skylight is run like a true partnership, and in that kind of model, people are supported and empowered to develop autonomous businesses in marketspaces that will move government forward in impactful ways. In other words, you can be a civic tech entrepreneur without having to start your own firm from scratch, yet still reap similar rewards. That appealed to me.
 
@@ -49,4 +49,4 @@ The last reason, but certainly not the least, was the opportunity to build-up a 
 
 **Kin Lane:** If you're looking to be part of an exciting and growing startup that's digital to the core, open by default, public servants at heart, and a platform for amplifying people's superpowers and facilitating the realization of their public ambitions, then look no further!
 
-**Chris Cairns: Kin, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Kin to help you in harnessing the connective power of APIs, [we'd love to hear from you](/hire-us/).**
+**Chris Cairns: Kin, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Kin to help you in harnessing the connective power of APIs, [we'd love to hear from you](/contact/).**

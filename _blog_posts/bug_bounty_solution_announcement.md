@@ -65,4 +65,4 @@ Over the course of the launch stage, you'll gain valuable experience running bug
 
 ## Let's get secure!
 
-If you're interested in chatting with us about how we could support your bug bounty initiative, [we'd love to hear from you](https://skylight.digital/hire-us/).
+If you're interested in chatting with us about how we could support your bug bounty initiative, [we'd love to hear from you](/contact/).
