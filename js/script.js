@@ -1,114 +1,125 @@
 // Activate current main nav item
 $(function() {
-  var $anchorToDeactivate = $('#navbar-nav-collapsible a[aria-current]')
-  $anchorToDeactivate.removeAttr('aria-current')
+  var $anchorToDeactivate = $("#navbar-nav-collapsible a[aria-current]");
+  $anchorToDeactivate.removeAttr("aria-current");
 
-  var pathArray = location.pathname.split('/')
-  var firstLevelPath = pathArray[1]
-  var $anchorToActivate = $('#navbar-nav-collapsible a[href*="' + firstLevelPath + '"]')
+  var pathArray = location.pathname.split("/");
+  var firstLevelPath = pathArray[1];
+  var $anchorToActivate = $(
+    '#navbar-nav-collapsible a[href*="' + firstLevelPath + '"]'
+  );
 
   if ($anchorToActivate.length > 1) {
     var secondLevelPath = pathArray[2];
-    var parent = $anchorToActivate.first().parents('.dropdown')
+    var parent = $anchorToActivate.first().parents(".dropdown");
     var path = secondLevelPath ? secondLevelPath : firstLevelPath;
 
-    $anchorToActivate = parent.find('.dropdown-toggle')
-    $subAnchorToActivate = parent.find('.dropdown-item[href*="' + path + '"]').first();
+    $anchorToActivate = parent.find(".dropdown-toggle");
+    $subAnchorToActivate = parent
+      .find('.dropdown-item[href*="' + path + '"]')
+      .first();
 
-    $subAnchorToActivate.attr('aria-current', 'page')
+    $subAnchorToActivate.attr("aria-current", "page");
   }
 
-  $anchorToActivate.attr('aria-current', 'page')
-})
+  $anchorToActivate.attr("aria-current", "page");
+});
 
 // Onclick window location handler
 $(function() {
-  $('.card-link').on('click', function(e) {
-    var url = $(this).data().href
+  $(".card-link").on("click", function(e) {
+    var url = $(this).data().href;
 
     if (e.shiftKey || e.ctrlKey || e.metaKey) {
-      window.open(url, '_blank')
+      window.open(url, "_blank");
     } else {
-      window.location = url
+      window.location = url;
     }
-  })
-})
+  });
+});
 
 // Enable tooltips
 $(function() {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+  $('[data-toggle="tooltip"]').tooltip();
+});
 
 // Screenshot modals
 $(function() {
   $('[data-toggle="modal"]').click(function() {
-    var targetId = $(this).data('target')
-    $('#' + targetId).modal('show')
-  })
-})
+    var targetId = $(this).data("target");
+    $("#" + targetId).modal("show");
+  });
+});
 
 // Form icons
 $(function() {
-  $('.form-social-btn-icons button').click(function() {
-
-    if (!$('.can-touch').length) {
-      $(this).blur()
+  $(".form-social-btn-icons button").click(function() {
+    if (!$(".can-touch").length) {
+      $(this).blur();
     }
 
-    var targetElementId = $(this).data('toggle')
+    var targetElementId = $(this).data("toggle");
 
-    if ($(this).attr('aria-expanded') == 'false') {
-      $(this).attr('aria-expanded', true)
+    if ($(this).attr("aria-expanded") == "false") {
+      $(this).attr("aria-expanded", true);
     } else {
-      $(this).attr('aria-expanded', false)
+      $(this).attr("aria-expanded", false);
     }
 
-    $('#' + targetElementId).toggleClass('sr-only')
-  })
-})
+    $("#" + targetElementId).toggleClass("sr-only");
+  });
+});
 
 // Solution for dealing with sticky :hover effects on mobile devices
 $(function() {
-	var isTouch = false // var to indicate current input type (is touch versus no touch)
-	var isTouchTimer
-	var curRootClass = '' // var indicating current document root class ("can-touch" or "")
+  var isTouch = false; // var to indicate current input type (is touch versus no touch)
+  var isTouchTimer;
+  var curRootClass = ""; // var indicating current document root class ("can-touch" or "")
 
-	function addtouchclass() {
-		clearTimeout(isTouchTimer)
-		isTouch = true
+  function addtouchclass() {
+    clearTimeout(isTouchTimer);
+    isTouch = true;
 
-		if (curRootClass != 'can-touch') { // add "can-touch' class if it's not already present
-			curRootClass = 'can-touch'
-			document.documentElement.classList.add(curRootClass)
-		}
+    if (curRootClass != "can-touch") {
+      // add "can-touch' class if it's not already present
+      curRootClass = "can-touch";
+      document.documentElement.classList.add(curRootClass);
+    }
 
-		isTouchTimer = setTimeout(function() { // maintain "istouch" state for 1000ms so removetouchclass doesn't get fired immediately following a touch event
-      isTouch = false
-    }, 1000)
-	}
+    isTouchTimer = setTimeout(function() {
+      // maintain "istouch" state for 1000ms so removetouchclass doesn't get fired immediately following a touch event
+      isTouch = false;
+    }, 1000);
+  }
 
-	function removetouchclass() {
-		if (!isTouch && curRootClass == 'can-touch') { // remove 'can-touch' class if not triggered by a touch event and class is present
-			isTouch = false
-			curRootClass = ''
-			document.documentElement.classList.remove('can-touch')
-		}
-	}
+  function removetouchclass() {
+    if (!isTouch && curRootClass == "can-touch") {
+      // remove 'can-touch' class if not triggered by a touch event and class is present
+      isTouch = false;
+      curRootClass = "";
+      document.documentElement.classList.remove("can-touch");
+    }
+  }
 
-	document.addEventListener('touchstart', addtouchclass, false) // this event only gets called when input type is touch
-	document.addEventListener('mouseover', removetouchclass, false) // this event gets called when input type is everything from touch to mouse/trackpad
-})
+  document.addEventListener("touchstart", addtouchclass, false); // this event only gets called when input type is touch
+  document.addEventListener("mouseover", removetouchclass, false); // this event gets called when input type is everything from touch to mouse/trackpad
+});
 
 // External links open in new window
-$(function(){
-  $(document.links).filter(function() {
-    return this.hostname != window.location.hostname
-  }).attr('target', '_blank')
-})
+$(function() {
+  $(document.links)
+    .filter(function() {
+      return this.hostname != window.location.hostname;
+    })
+    .attr("target", "_blank");
+});
 
 // Hash update with scroll on ditap page
 $(function() {
-  if (location.pathname == "/work/services/ditap/" || '/careers/') {
+  if (
+    location.pathname == "/work/services/ditap/" ||
+    location.pathname == "/careers/"
+  ) {
     const headings = $("h2");
     window.setInterval(function() {
       headings.each(function(i) {
@@ -126,10 +137,10 @@ $(function() {
 });
 
 // Pre-populate date select on ditap application
-$(function(){
-  if (location.pathname == '/work/services/ditap/apply/') {
+$(function() {
+  if (location.pathname == "/work/services/ditap/apply/") {
     var urlParams = new URLSearchParams(window.location.search);
-    var courseDate = urlParams.get('date');
-    $('#date-input').val(courseDate);
+    var courseDate = urlParams.get("date");
+    $("#date-input").val(courseDate);
   }
 });
