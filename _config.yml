@@ -77,8 +77,6 @@ pagination:
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
-  sort_field: 'date'
-  sort_reverse: true
 
 sass:
   style: compressed
