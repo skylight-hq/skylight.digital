@@ -102,3 +102,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-paginate-v2
+
+gems:
+  - octopress-debugger
