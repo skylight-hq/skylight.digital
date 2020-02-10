@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Public domain procurement
-permalink: /blog/public-domain-procurement/
+permalink: /thoughts/blog/public-domain-procurement/
+redirect_from:
+  - /blog/public-domain-procurement/
 content_type: BlogPosting
 image: /img/blog/public_domain_procurement/creative-commons-public-domain.png
 image_description: Image of the Creative Commons Public Domain badge symbol.

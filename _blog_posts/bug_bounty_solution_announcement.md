@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: New bug bounty program solution to secure government digital services
-permalink: /blog/new-bug-bounty-program-solution-to-secure-government-digital-services/
+permalink: /thoughts/blog/new-bug-bounty-program-solution-to-secure-government-digital-services/
+redirect_from:
+  - /blog/new-bug-bounty-program-solution-to-secure-government-digital-services/
 content_type: BlogPosting
 image: /img/blog/bug_bounty_solution_announcement/bugs-eating-computer.png
 image_description: Bugs eating a computer with a crosshair over one of them, conveying the concept of a bug bounty.
@@ -65,4 +67,4 @@ Over the course of the launch stage, you'll gain valuable experience running bug
 
 ## Let's get secure!
 
-If you're interested in chatting with us about how we could support your bug bounty initiative, [we'd love to hear from you](/contact/).
+If you're interested in chatting with us about how we could support your bug bounty initiative, [we'd love to hear from you](/connect/contact/).

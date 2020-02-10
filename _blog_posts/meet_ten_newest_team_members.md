@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Meet the 10 newest members of the Skylight team
-permalink: /blog/meet-the-10-newest-members-of-the-skylight-team/
+permalink: /thoughts/blog/meet-the-10-newest-members-of-the-skylight-team/
+redirect_from:
+  - /blog/meet-the-10-newest-members-of-the-skylight-team/
 content_type: BlogPosting
 image: /img/blog/meet_ten_newest_team_members/waving-hand-emoji.png
 image_description: A waving hand emoji.
@@ -119,4 +121,4 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 </p>
 </blockquote>
 
-*P.S. We're always looking to hire great people who are passionate about driving better public outcomes through design, technology, and procurement. If this sounds like you, please [get in touch](https://skylight.digital/careers/).*
+*P.S. We're always looking to hire great people who are passionate about driving better public outcomes through design, technology, and procurement. If this sounds like you, [consider joining us](/careers/join/).*

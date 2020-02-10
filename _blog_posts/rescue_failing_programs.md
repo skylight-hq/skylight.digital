@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: How to rescue failing programs
-permalink: /blog/how-to-rescue-failing-programs/
+permalink: /thoughts/blog/how-to-rescue-failing-programs/
+redirect_from:
+  - /blog/how-to-rescue-failing-programs/
 content_type: BlogPosting
 image: /img/blog/rescue_failing_programs/rescue.png
 image_description: An emergency vehicle's siren lights.

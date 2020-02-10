@@ -118,7 +118,7 @@ $(function() {
 $(function() {
   if (
     location.pathname == "/work/services/ditap/" ||
-    location.pathname == "/careers/"
+    location.pathname == "/careers/join/"
   ) {
     const headings = $("h2");
     window.setInterval(function() {

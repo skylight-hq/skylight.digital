@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Supplement your team with specific digital expertise through our Microconsulting Services
-permalink: /blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/
+permalink: /thoughts/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/
+redirect_from:
+  - /blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/
 content_type: BlogPosting
 image: /img/blog/microconsulting_services/microconsulting.png
 image_description: Image of several mini-brains representing different types of microconsulting services.

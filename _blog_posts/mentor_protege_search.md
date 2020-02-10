@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: The search for mentor-protégé relationships
-permalink: /blog/the-search-for-mentor-protege-relationships/
+permalink: /thoughts/blog/the-search-for-mentor-protege-relationships/
+redirect_from:
+  - /blog/the-search-for-mentor-protege-relationships/
 content_type: BlogPosting
 image: /img/blog/mentor_protege_search/mentor-protege.png
 image_description: A magnifying glass highlighting the words mentor and protégé.

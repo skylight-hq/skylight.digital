@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Thoughts on the use of technical challenges in government procurements
-permalink: /blog/thoughts-on-the-use-of-technical-challenges-in-government-procurements/
+permalink: /thoughts/blog/thoughts-on-the-use-of-technical-challenges-in-government-procurements/
+redirect_from:
+  - /blog/thoughts-on-the-use-of-technical-challenges-in-government-procurements/
 content_type: BlogPosting
 image: /img/blog/tech_challenge_thoughts/tech-challenge-laptops-boxing.png
 image_description: Two laptop computers boxing each other.
@@ -81,6 +83,6 @@ There are few reasons a $100M or even a $2M contract should be awarded to a sing
 
 ## Looking to pioneer the next procurement breakthrough?
 
-We can't make government IT better without buying better. The Skylight team has pioneered several acquisition breakthroughs, including [Microconsulting](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/), [18F's Agile Delivery Services Marketplace](/work/experience/agile-delivery-services-marketplace/), and [18F's Agile Acquisition Framework](/work/experience/agile-acquisition-framework/). We'd love to [work with you](/contact/) on making the next one happen!
+We can't make government IT better without buying better. The Skylight team has pioneered several acquisition breakthroughs, including [Microconsulting](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/), [18F's Agile Delivery Services Marketplace](/work/experience/agile-delivery-services-marketplace/), and [18F's Agile Acquisition Framework](/work/experience/agile-acquisition-framework/). We'd love to [work with you](/connect/contact/) on making the next one happen!
 
 *Special thanks to [Dan Levenson](https://www.linkedin.com/in/dan-levenson/) for his input on this article. Dan architected and ran the Centers for Medicare and Medicaid Services' Agile Delivery to Execute Legislative Endeavors contract vehicle, and is currently the Vice President of Digital Services at [Agile Six](https://agile6.com/).*

@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: "Nick Bristow: Making government digital services more accessible"
-permalink: /blog/nick-bristow-making-government-digital-services-more-accessible/
+permalink: /thoughts/blog/nick-bristow-making-government-digital-services-more-accessible/
+redirect_from:
+  - /blog/nick-bristow-making-government-digital-services-more-accessible/
 content_type: BlogPosting
 image: /img/blog/nick_bristow_interview/nick-bristow-accessibility.png
 image_description: Stylized lettering of Nick Bristow's name surrounded by accessibility symbols such as an eye.
@@ -47,4 +49,4 @@ When I found out what Skylight was doing, I recognized a lot of what I witnessed
 
 **Nick Bristow:** If you aren't ready to give up fighting to make things better, this is what you've been looking for.
 
-**Chris Cairns: Nick, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Nick to help making government digital services more accessible, [we'd love to hear from you](/contact/).**
+**Chris Cairns: Nick, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Nick to help making government digital services more accessible, [we'd love to hear from you](/connect/contact/).**

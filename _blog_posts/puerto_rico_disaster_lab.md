@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: "Puerto Rico, a disaster lab: three research proposals"
-permalink: /blog/puerto-rico-a-disaster-lab-three-research-proposals/
+permalink: /thoughts/blog/puerto-rico-a-disaster-lab-three-research-proposals/
+redirect_from:
+  - /blog/puerto-rico-a-disaster-lab-three-research-proposals/
 content_type: BlogPosting
 image: /img/blog/puerto_rico_disaster_lab/hurricane-maria.png
 image_description: Hurricane Maria engulfing Puerto Rico.
@@ -67,7 +69,7 @@ In short, Puerto Rico is an ideal place for investigating and testing emergency-
 
 By showing a small amount of technical and architectural leadership, we can capitalize on unique geographic, cultural, and structural opportunities that Puerto Rico has to focus its local talent and attract off-island sponsorship to research projects of global value.
 
-I propose that we identify specific projects that can be the focus of research efforts, meaning specifically that someone should initiate and seek funding for these or similar projects. Skylight has [published](https://skylight.digital/blog/story-of-a-darpa-proposal/) the story of it's attempt to get a DARPA grant focusing on LoRa technology. We're open to potentially partnering on these projects, but probably aren't going to execute them in the absence of energetic partners. An ideal partnership would include researchers living in Puerto Rico, grants from outside Puerto Rico, and collaborating leadership from both inside and outside Puerto Rico.
+I propose that we identify specific projects that can be the focus of research efforts, meaning specifically that someone should initiate and seek funding for these or similar projects. Skylight has [published](/blog/story-of-a-darpa-proposal/) the story of it's attempt to get a DARPA grant focusing on LoRa technology. We're open to potentially partnering on these projects, but probably aren't going to execute them in the absence of energetic partners. An ideal partnership would include researchers living in Puerto Rico, grants from outside Puerto Rico, and collaborating leadership from both inside and outside Puerto Rico.
 
 ### Puerto Rican technological branding
 
@@ -171,4 +173,4 @@ Although any company is welcome to take these proposals and build a product from
 
 * Finally, directly connecting leaders inside and outside Puerto Rico who are interested in these projects could nucleate the projects, bringing together commercial interests with humanitarian disaster relief interests.
 
-*At Skylight, we encourage our team members to pursue meaningful and impactful activities such as this. If you're interested in being part of our team, please [get in touch](/careers/).*
+*At Skylight, we encourage our team members to pursue meaningful and impactful activities such as this. If you're interested in being part of our team, [consider joining us](/careers/join/).*

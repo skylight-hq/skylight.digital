@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Five former Presidential Innovation Fellows and 18F co-founders join Skylight
-permalink: /blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/
+permalink: /thoughts/blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/
+redirect_from:
+  - /blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/
 content_type: BlogPosting
 image: /img/blog/five_pifs_join/welcome.png
 image_description: A welcome sticky note near a computer.

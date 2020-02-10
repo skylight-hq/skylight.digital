@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Quick wins for legacy systems through API enablement
-permalink: /blog/quick-wins-for-legacy-systems-through-api-enablement/
+permalink: /thoughts/blog/quick-wins-for-legacy-systems-through-api-enablement/
+redirect_from:
+  - /blog/quick-wins-for-legacy-systems-through-api-enablement/
 content_type: BlogPosting
 image: /img/blog/api_enablement/api-benefits-napkin.png
 image_description: Two people at a happy hour looking at a napkin describing the benefits of API enablement.

@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: "Case management: a study in non-traditional economics for government"
-permalink: /blog/case-management-a-study-in-non-traditional-economics-for-government/
+permalink: /thoughts/blog/case-management-a-study-in-non-traditional-economics-for-government/
+redirect_from:
+  - /blog/case-management-a-study-in-non-traditional-economics-for-government/
 content_type: BlogPosting
 image: /img/blog/case_management/case-files.png
 image_description: Paper case files.

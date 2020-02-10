@@ -58,13 +58,13 @@ collections:
     permalink: /work/team-member/:name/
   blog_posts:
     output: true
-    permalink: /blog/:path/
+    permalink: /thoughts/blog/:path/
   blog_post_authors:
     output: true
-    permalink: /blog/author/:name/
+    permalink: /thoughts/blog/author/:name/
   blog_post_tags:
     output: true
-    permalink: /blog/tag/:name/
+    permalink: /thoughts/blog/tag/:name/
   policies:
     output: true
     permalink: /company/policies/:path/
