@@ -9,7 +9,7 @@ image: /img/blog/devops_transformation_proposal/devops-transformation.png
 image_description: The words DevOps transformation against a background of arrows symbolizing progress.
 image_display: true
 order: 1400
-tags: [devops, digital transformation, chris cairns]
+tags: [devops, transformation, chris cairns]
 excerpt: Summary of a winning proposal that we put together to deliver DevOps transformation services to a large commercial enterprise.
 authors:
   - Chris Cairns

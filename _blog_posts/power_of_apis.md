@@ -9,7 +9,7 @@ image: /img/blog/power_of_apis/power-of-apis.png
 image_description: An arm showing a flexed muscle enclosed within API computing symbols.
 image_display: true
 order: 2000
-tags: [apis, digital services delivery, robert read]
+tags: [apis, service delivery, robert read]
 excerpt: If an organization really wants to empower its users, it needs a way to provide maximum power to the user with both safety and security. APIs allow you to design a solution that's not simply the average of these extremes, but rather provides 90% of the power with 99% of the security.
 authors:
   - Robert Read
