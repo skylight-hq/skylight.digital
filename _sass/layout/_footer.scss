@@ -9,18 +9,21 @@
 
 .footer-brand {
   @extend %col-12;
-  @extend %col-lg-5;
   @extend %d-flex;
   @extend %flex-column;
   @extend %align-items-center;
   @extend %align-items-lg-start;
   @extend %mb-5;
   @extend %mb-lg-0;
+
+  @include media-breakpoint-up(md) {
+    @include make-col(2);
+  }
 }
 
 .footer-nav {
   @extend %col-12;
-  @extend %col-lg-7;
+  @extend %col-lg-10;
 }
 
 .footer-brandmark {
@@ -32,14 +35,17 @@
 .footer-link-groups {
   @extend %row;
   @extend %text-center;
-  @extend %text-lg-left;
+  @extend %text-sm-left;
+  @extend %justify-content-md-end;
 }
 
 .footer-link-group {
   @extend %col-12;
-  @extend %col-sm-4;
   @extend %d-sm-flex;
-  @extend %justify-content-sm-end;
+
+  @include media-breakpoint-up(sm) {
+    @include make-col(2);
+  }
 
   &:not(:last-of-type) {
     @extend %mb-5;
