@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Unsolicited proposal for a microconsulting services marketplace platform
-permalink: /blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
+permalink: /thoughts/blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
+redirect_from:
+  - /blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
 content_type: BlogPosting
 image: /img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace.png
 image_description: A marketplace for microconsulting services.

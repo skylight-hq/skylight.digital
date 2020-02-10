@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: A smarter way to build Smart Cities
-permalink: /blog/a-smarter-way-to-build-smart-cities/
+permalink: /thoughts/blog/a-smarter-way-to-build-smart-cities/
+redirect_from:
+  - /blog/a-smarter-way-to-build-smart-cities/
 content_type: BlogPosting
 image: /img/blog/smarter_way_to_build_smart_cities/smart-city.png
 image_description: Smart city functions such as health and transportation.
@@ -95,4 +97,4 @@ Through the strict application and requirement of openness, your Smart City proj
 
 ## Looking to make your Smart City initiative a success?
 
-Skylight possess a unique combination of expertise in the Internet of Things, open systems, APIs, microservices, lean-agile, legacy modernization, and user-centered design. We'd love to [work with you](https://skylight.digital/contact/) on making your city smarter.
+Skylight possess a unique combination of expertise in the Internet of Things, open systems, APIs, microservices, lean-agile, legacy modernization, and user-centered design. We'd love to [work with you](/connect/contact/) on making your city smarter.

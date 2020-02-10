@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: "Josh Dorothy: Engineering great developer experiences through DevOps"
-permalink: /blog/josh-dorothy-engineering-great-developer-experiences-through-devops/
+permalink: /thoughts/blog/josh-dorothy-engineering-great-developer-experiences-through-devops/
+redirect_from:
+  - /blog/josh-dorothy-engineering-great-developer-experiences-through-devops/
 content_type: BlogPosting
 image: /img/blog/josh_dorothy_interview/josh-dorothy-devops.png
 image_description: Stylized lettering of Josh Dorothy's name surrounded by gears symbolizing DevOps.
@@ -45,4 +47,4 @@ Unfortunately, you can't effect change by principle alone. I knew I needed to bu
 
 **Josh Dorothy:** If you're passionate about public service, and you want to help solve technical problems that are at the core of how government programs function, [we'd love to talk to you](/join). If you're part of a government effort like 18F or USDS, or feel similarly, you're not alone. We're dedicated public servants who want to build a platform and a movement, and we need your help.
 
-**Chris Cairns: Josh, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Josh to help integrate DevOps into your organization, [we'd love to hear from you](/contact/)**
+**Chris Cairns: Josh, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Josh to help integrate DevOps into your organization, [we'd love to hear from you](/connect/contact/)**

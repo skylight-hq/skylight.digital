@@ -32,7 +32,7 @@
       link_description: Chris' Medium Account
       fa_icon_name: medium
     - name: Blog Posts
-      link: /blog/author/chris-cairns/
+      link: /thoughts/blog/author/chris-cairns/
       link_description: Chris' Blog Posts
       fa_icon_name: pencil
     - name: Projects
@@ -69,7 +69,7 @@
       link_description: Sean's GitHub Account
       fa_icon_name: github
     - name: Blog Posts
-      link: /blog/author/sean-johnson/
+      link: /thoughts/blog/author/sean-johnson/
       link_description: Sean's Blog Posts
       fa_icon_name: pencil
     - name: Projects
@@ -111,7 +111,7 @@
       link_description: Robert's Medium Account
       fa_icon_name: medium
     - name: Blog Posts
-      link: /blog/author/robert-read/
+      link: /thoughts/blog/author/robert-read/
       link_description: Robert's Blog Posts
       fa_icon_name: pencil
     - name: Projects
@@ -177,7 +177,7 @@
       link_description: Geoff's LinkedIn Account
       fa_icon_name: linkedin
     - name: Blog Posts
-      link: /blog/author/geoff-mulligan/
+      link: /thoughts/blog/author/geoff-mulligan/
       link_description: Geoff's Blog Posts
       fa_icon_name: pencil
 - name: kin-lane
@@ -216,7 +216,7 @@
       link_description: Kin's Personal Website
       fa_icon_name: home
     - name: Blog Posts
-      link: /blog/author/kin-lane/
+      link: /thoughts/blog/author/kin-lane/
       link_description: Kin's Blog Posts
       fa_icon_name: pencil
     - name: Projects
@@ -248,7 +248,7 @@
       link_description: Josh's GitHub Account
       fa_icon_name: github
     - name: Blog Posts
-      link: /blog/author/josh-dorothy/
+      link: /thoughts/blog/author/josh-dorothy/
       link_description: Josh's Blog Posts
       fa_icon_name: pencil
     - name: Projects
@@ -285,7 +285,7 @@
       link_description: Nick's GitHub Account
       fa_icon_name: github
     - name: Blog Posts
-      link: /blog/author/nick-bristow/
+      link: /thoughts/blog/author/nick-bristow/
       link_description: Nick's Blog Posts
       fa_icon_name: pencil
     - name: Projects

@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Software badness quantified
-permalink: /blog/software-badness-quantified/
+permalink: /thoughts/blog/software-badness-quantified/
+redirect_from:
+  - /blog/software-badness-quantified/
 content_type: BlogPosting
 image: /img/blog/software_badness_quantified/bad-code-quantified.png
 image_description: A graphing calculator against a background showing abstract lines of code.

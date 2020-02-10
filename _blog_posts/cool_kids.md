@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Why government IT professionals need to do what the cool kids are doing
-permalink: /blog/why-government-it-professionals-need-to-do-what-the-cool-kids-are-doing/
+permalink: /thoughts/blog/why-government-it-professionals-need-to-do-what-the-cool-kids-are-doing/
+redirect_from:
+  - /blog/why-government-it-professionals-need-to-do-what-the-cool-kids-are-doing/
 content_type: BlogPosting
 image: /img/blog/cool_kids/cool-kid.png
 image_description: A cool kid programmer wearing sunglasses, with people admiring him in the background.

@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: "Geoff Mulligan: Engineering open and interoperable IoT solutions"
-permalink: /blog/geoff-mulligan-engineering-open-and-interoperable-iot-solutions/
+permalink: /thoughts/blog/geoff-mulligan-engineering-open-and-interoperable-iot-solutions/
+redirect_from:
+  - /blog/geoff-mulligan-engineering-open-and-interoperable-iot-solutions/
 content_type: BlogPosting
 image: /img/blog/geoff_mulligan_interview/geoff-mulligan-iot.png
 image_description: Stylized lettering of Geoff Mulligan's name with interconnected nodes symbolizing IoT.
@@ -51,4 +53,4 @@ One of the big things I'm going to focus on is collaborating with the Skylight t
 
 I'm also going to focus on building Skylight's IoT practice. There are good reasons why IoT is regarded as one of the top "disruptive" emerging technologies. We're eager to work with government organizations who are looking to harness the potential of IoT to better serve citizens.
 
-**Chris Cairns: Geoff, thank you for your time. It's been inspiring, and I'm looking forward to supporting you in your endeavors. To our readers, if you're interested in engaging with Geoff on smart city and IoT topics, [we'd love to hear from you](/contact/).**
+**Chris Cairns: Geoff, thank you for your time. It's been inspiring, and I'm looking forward to supporting you in your endeavors. To our readers, if you're interested in engaging with Geoff on smart city and IoT topics, [we'd love to hear from you](/connect/contact/).**

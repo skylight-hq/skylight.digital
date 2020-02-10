@@ -1,8 +1,10 @@
 ---
 layout: blog_post
 title: Achieve DevOps Transformation with Skylight and DORA
-redirect_from: /blog/jumpstart-your-devops-transformation-smartly-with-skylight-and-dora/
-permalink: /blog/achieve-devops-transformation-with-skylight-and-dora/
+permalink: /thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/
+redirect_from:
+  - /blog/jumpstart-your-devops-transformation-smartly-with-skylight-and-dora/
+  - /blog/achieve-devops-transformation-with-skylight-and-dora/
 content_type: BlogPosting
 image: /img/blog/dora/devops-accelerate.png
 image_description: Image showing gears and arrows to illustrate the concept of DevOps transformation.
@@ -46,4 +48,4 @@ IT budgets aren't unlimited, so DORA knows that you're looking to target investm
 
 ## Ready to experience DORA for yourself?
 
-Accelerating your journey to becoming a DevOps-enabled organization requires making smart investments in developing capabilities across your teams. Why waste valuable IT resources when you don't know the most effective path, or even the outcome? With Skylight's partnership with DORA, you'll have the roadmap you need. So [drop us a line](/careers/) and let's get started.
+Accelerating your journey to becoming a DevOps-enabled organization requires making smart investments in developing capabilities across your teams. Why waste valuable IT resources when you don't know the most effective path, or even the outcome? With Skylight's partnership with DORA, you'll have the roadmap you need. So [drop us a line](/connect/contact/) and let's get started.

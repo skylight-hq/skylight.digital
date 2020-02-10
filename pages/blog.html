@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Our Blog
-permalink: /blog/
+permalink: /thoughts/blog/
+redirect_from:
+  - /blog/
 pagination:
   enabled: true
   collection: blog_posts
@@ -11,7 +13,7 @@ pagination:
 
 {% include page_header.html
   header_content_class = 'page-header-content-1'
-  header_content = 'Our thoughts on design, technology, and more.'
+  header_content = 'Our written thoughts on design, technology, and more.'
 %}
 
 {% assign collection = include.collection %}

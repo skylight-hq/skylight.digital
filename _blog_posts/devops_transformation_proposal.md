@@ -1,7 +1,9 @@
 ---
 layout: blog_post
 title: Our winning DevOps transformation consulting proposal
-permalink: /blog/our-winning-devops-transformation-consulting-proposal/
+permalink: /thoughts/blog/our-winning-devops-transformation-consulting-proposal/
+redirect_from:
+  - /blog/our-winning-devops-transformation-consulting-proposal/
 content_type: BlogPosting
 image: /img/blog/devops_transformation_proposal/devops-transformation.png
 image_description: The words DevOps transformation against a background of arrows symbolizing progress.
@@ -42,4 +44,4 @@ To help realize these engagement outcomes, we partnered-up with <a href="https:/
 
 You can read our <a href="https://github.com/skylight-hq/devops-transformation-consulting-proposal/blob/master/Skylight%20-%20ACME%20Corp%20-%20DevOps%20Transformation%20Consulting%20-%20Technical%20Proposal.pdf">full technical proposal</a> on GitHub, as well as our <a href="https://github.com/skylight-hq/devops-transformation-consulting-proposal/blob/master/Skylight%20-%20ACME%20Corp%20-%20DevOps%20Transformation%20Consulting%20-%20Oral%20Presentation%20Slide%20Deck.pdf">oral presentation</a>. Most companies would deem such information as proprietary or sensitive competitive material; however, we're not interested in hoarding any knowledge or thinking that might improve the world we live in. We'd rather take our chances competing on the grounds of who offers the best talent and cultural fit for the job.
 
-If you're interested in chatting with us about how we could support your DevOps transformation journey, [we'd love to hear from you](/contact/).
+If you're interested in chatting with us about how we could support your DevOps transformation journey, [we'd love to hear from you](/connect/contact/).
