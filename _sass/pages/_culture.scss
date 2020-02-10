@@ -49,3 +49,18 @@
     font-size: $font-size-small;
   }
 }
+
+.employee-gradient::after {
+    background: linear-gradient(-135deg, #478FB9 0%, #F4C55C 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 275px;
+    content: '';
+    left: 0;
+    mix-blend-mode: color;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
