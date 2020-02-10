@@ -142,6 +142,7 @@
   @include media-breakpoint-up(sm) {
     border: 1px solid #d2aa56;
     margin-top: -1px;
+    min-width: 9rem;
     z-index: 1;
   }
 }
