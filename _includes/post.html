@@ -71,6 +71,7 @@
         {% assign max_related = site.posts_max_related %}
         {% assign min_common_tags = site.posts_min_common_tags %}
         {% assign max_related_counter = 0 %}
+        {% assign related_post_markups = [] %}
 
         {% for post in posts %}
           {% assign same_tag_count = 0 %}
