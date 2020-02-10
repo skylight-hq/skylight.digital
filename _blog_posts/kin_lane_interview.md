@@ -9,7 +9,7 @@ image: /img/blog/kin_lane_interview/kin-lane-as-api.png
 image_description: Stylized lettering of Kin Lane's name enclosed within API computing symbols.
 image_display: true
 order: 1200
-tags: [apis, digital services delivery, kin lane]
+tags: [apis, service delivery, kin lane]
 excerpt: "Kin Lane's career path has taken him from software engineer to one of the world's foremost API experts before joining Skylight. Here, he has been working with our government clients to improve their use of APIs. His advice for people thinking about joining us: Do it."
 authors:
   - Chris Cairns

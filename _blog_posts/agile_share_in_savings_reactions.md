@@ -9,7 +9,7 @@ image: /img/blog/agile_share_in_savings/agile-share-in-savings-financing.png
 image_description: An iterative agile cycle with a dollar sign in the middle.
 image_display: true
 order: 300
-tags: [digital services delivery, digital procurement, chris cairns, robert read]
+tags: [service delivery, procurement, chris cairns, robert read]
 excerpt: Several months ago, we published a blog post series on a concept called Agile Share-in-Savings. We received a number of positive reactions, as well as some worthy counter-arguments.
 authors:
   - Chris Cairns

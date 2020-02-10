@@ -9,7 +9,7 @@ image: /img/blog/public_domain_procurement/creative-commons-public-domain.png
 image_description: Image of the Creative Commons Public Domain badge symbol.
 image_display: true
 order: 700
-tags: [digital procurement, chris cairns]
+tags: [procurement, chris cairns]
 excerpt: Avoiding vendor lock-in situations is just one of many reasons that the government should consider using public domain procurements.
 authors:
   - Chris Cairns

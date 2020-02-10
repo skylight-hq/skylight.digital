@@ -10,7 +10,7 @@ image: /img/blog/dora/devops-accelerate.png
 image_description: Image showing gears and arrows to illustrate the concept of DevOps transformation.
 image_display: true
 order: 2200
-tags: [devops, digital transformation, josh dorothy, chris cairns]
+tags: [devops, transformation, josh dorothy, chris cairns]
 excerpt: Transforming your software delivery performance through DevOps requires using a metrics-driven, continuous improvement cycle. Here's how you can do that smartly with Skylight and DORA.
 authors:
   - Josh Dorothy

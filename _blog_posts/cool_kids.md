@@ -9,7 +9,7 @@ image: /img/blog/cool_kids/cool-kid.png
 image_description: A cool kid programmer wearing sunglasses, with people admiring him in the background.
 image_display: true
 order: 2400
-tags: [digital transformation, robert read]
+tags: [transformation, robert read]
 excerpt: A case for why hiring and growing great people requires government IT professionals to do what the cool kids are doing.
 authors:
   - Robert Read

@@ -9,7 +9,7 @@ image: /img/blog/josh_dorothy_interview/josh-dorothy-devops.png
 image_description: Stylized lettering of Josh Dorothy's name surrounded by gears symbolizing DevOps.
 image_display: true
 order: 1600
-tags: [devops, digital services delivery, josh dorothy]
+tags: [devops, service delivery, josh dorothy]
 excerpt: "Josh Dorothy's career path has taken him from lawyer to DevOps engineer with the U.S. Digital Service before joining Skylight. Here, he has been working with our government clients to engineer great developer experiences through DevOps."
 authors:
   - Chris Cairns
