@@ -2,19 +2,12 @@
 layout: default
 title: Press
 permalink: /company/press/
-press:
-  - title: Digital Services Coalition Works to Deliver IT in a New Way to the Federal Government
-    heading: We’re in the press
-    date: 01-07-2020
-    source: Digital Services Coalition
-    url: https://medium.com/@DigitalServicesCoalition/digital-services-coalition-works-to-deliver-it-in-a-new-way-to-the-federal-government-3bc1e59bc4e7
-    summary: 16 agile digital services firms are coming together to form the Digital Services Coalition to bring innovation and agility to government IT contracting.
-  - title: "Application rationalization playbook: A prescriptive AND flexible approach to the cloud"
-    heading: We’re in the press
-    source: Federal News Network
-    date: 06-01-2019
-    url: https://federalnewsnetwork.com/reporters-notebook-jason-miller/2019/07/application-rationalization-playbook-a-prescriptive-and-flexible-approach-to-the-cloud/
-    summary: The Small Business Administration may be the perfect case study for why agencies needed the new application rationalization playbook from the Chief Information Officer’s Council.
+pagination:
+  enabled: true
+  collection: press
+  sort_field: 'date'
+  sort_reverse: true
+  per_page: 2
 ---
 
 {% include hero_banner.html
@@ -22,9 +15,9 @@ press:
 %}
 
 <div class="container container-md text">
-  {% for item in page.press %}
-    <p class="font-weight-bold mb-1 small mt-5">{{ item.source }}: {{ item.date }}</p>
-    <h2 class="h3 text-primary">
+  {% for item in paginator.posts %}
+    <p class="font-weight-bold mb-1 small mt-5">{{ item.source }}: {{ item.date | date: "%B %-d, %Y" }}</p>
+    <h2 class="h3">
       {% if item.heading %}
         {{ item.heading }}
       {% else %}
@@ -32,9 +25,33 @@ press:
       {% endif %}
     </h2>
     <p class="mt-3">{{ item.summary }}</p>
-    <p class="font-weight-bold">Full story: <a href="#0">{{ item.title }}</a></p>
+    <p class="font-weight-bold">Full story: <a href="{{ item.href }}">{{ item.title }}</a></p>
   {% endfor %}
 </div>
+
+{% if paginator.total_pages > 1 %}
+<div class="blog-posts">
+  <div class="mt-5 mt-md-0 d-flex flex-row justify-content-center">
+    <div class="">
+    {% if paginator.previous_page %}
+      <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+        <i class="fa fa-chevron-left mr-2 pagination-icon"></i><b>Previous</b>
+      </a>
+    {% endif %}
+    </div>
+    <div class="mx-5">
+      <p class="d-inline-block">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+    </div>
+    <div class="">
+    {% if paginator.next_page %}
+      <a class="" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+        <b>Next</b><i class="fa fa-chevron-right ml-2 pagination-icon"></i>
+      </a>
+    {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
 
 https://medium.com/@DigitalServicesCoalition/digital-services-coalition-works-to-deliver-it-in-a-new-way-to-the-federal-government-3bc1e59bc4e7
 
