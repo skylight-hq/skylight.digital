@@ -34,3 +34,11 @@
 .text-ink {
   color: $black;
 }
+
+.container-lg {
+  max-width: map-get($container-max-widths, "lg");
+}
+
+.container-md {
+  max-width: map-get($container-max-widths, "md");
+}
