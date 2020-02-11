@@ -42,3 +42,7 @@
 .container-md {
   max-width: map-get($container-max-widths, "md");
 }
+
+.container-sm {
+  max-width: map-get($container-max-widths, "sm");
+}
