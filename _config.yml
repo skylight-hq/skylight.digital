@@ -72,7 +72,7 @@ collections:
 # Pagination Settings
 pagination:
   enabled: true
-  debug: true
+  debug: false
   per_page: 12
   offset: 0
   permalink: '/page/:num/'
