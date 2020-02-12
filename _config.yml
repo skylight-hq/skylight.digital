@@ -68,6 +68,9 @@ collections:
   policies:
     output: true
     permalink: /company/policies/:path/
+  press:
+    output: false
+    permalink: /company/press/:path/
 
 # Pagination Settings
 pagination:
