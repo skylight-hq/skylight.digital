@@ -47,3 +47,11 @@
     font-size: $font-size-x-large;
   }
 }
+
+.page-company-about {
+  .hero-banner {
+    background-image: url("../img/hero-about.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
