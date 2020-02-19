@@ -3,6 +3,7 @@ layout: toolkit
 title: Digital Talent Management
 permalink: /work/toolkits/digital-talent-management/understanding-your-talent-gaps/
 hero_content: A practical guide for federal, state, and local governments looking to build out their digital capacity.
+sidenav: digital_talent_management
 ---
 
 ## Understanding your talent gaps
