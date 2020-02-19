@@ -1,16 +1,10 @@
 ---
-layout: default
+layout: toolkit
 title: Digital Talent Management
 permalink: /work/toolkits/digital-talent-management/understanding-your-talent-gaps/
 hero_content: A practical guide for federal, state, and local governments looking to build out their digital capacity.
 ---
 
-{% include hero_banner.html
-  hero_content = page.hero_content
-  color = "green"
-%}
-
-{% capture pageContent %}
 ## Understanding your talent gaps
 Every organization has gaps related to talent. These gaps may include skill sets and competencies missing from their ranks, a lack of diversity, or employees who don’t have the resources to be successful in their roles. However, few organizations intentionally and successfully understand these gaps. And organizations can only improve by first understanding where they are falling short.
 
@@ -65,28 +59,3 @@ When conducting an employee engagement survey:
 - Use the “funnel” technique — start with questions that are easy respondents to answer, move into complex questions, and finish with simple questions.
 - Make responding as easy as possible. Only ask relevant questions, accept partial responses, and use an online survey tool that can be accessed from any device.
 </div>
-{% endcapture %}
-
-<div class="container">
-  <div class="row">
-    <div class="sidenav col-12 col-md-3 d-none d-md-block">
-      <div class="is-sticky">
-        <nav class="subnav-col px-0" id="sidenav">
-          <ul role="presentation">
-            <li class="current">
-              <a class="nav-link" href="/work/toolkits/digital-talent-management/">Introduction</a>
-            </li>
-            <li><a class="nav-link active" href="/work/toolkits/digital-talent-management/understanding-your-talent-gaps/">Understanding your talent gaps</a></li>
-            <li><a class="nav-link" href="#0">Developing a digital talent strategy</a></li>
-            <li><a class="nav-link" href="#0">Building a digital team</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <section class="col-12 col-md-9 page--toolkit text prose">
-      {{ pageContent | markdownify }}
-    </section>
-  </div>
-</div>
-
-{% include intro_cta.html %}

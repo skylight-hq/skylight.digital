@@ -1,16 +1,10 @@
 ---
-layout: default
+layout: toolkit
 title: Digital Talent Management
 permalink: /work/toolkits/digital-talent-management/
 hero_content: A practical guide for federal, state, and local governments looking to build out their digital capacity.
 ---
 
-{% include hero_banner.html
-  hero_content = page.hero_content
-  color = "green"
-%}
-
-{% capture pageContent %}
 ## Introduction
 Regardless of mission, all government agencies are now technology organizations. Technology is used extensively behind the scenes to run the organization, manage, and do the work. The services an agency offers to the public are increasingly available online.
 
@@ -36,28 +30,4 @@ Start small, and test the success of each initiative before rolling it out to a 
 
 ### Intended audience
 We expect this to be read by agency technology leadership: CIOs, team leads, and other hiring managers. Agency leadership such as commissioners and administrators should skim this handbook, paying particular attention to the leadership and culture sections. Both of those sections apply to the entire organization, not just the technical staff.
-{% endcapture %}
 
-<div class="container">
-  <div class="row">
-    <div class="sidenav col-12 col-md-3 d-none d-md-block">
-      <div class="is-sticky">
-        <nav class="subnav-col px-0" id="sidenav">
-          <ul role="presentation">
-            <li class="current">
-              <a class="nav-link active" href="/work/toolkits/digital-talent-management/" aria-current="location">Introduction</a>
-            </li>
-            <li><a class="nav-link" href="/work/toolkits/digital-talent-management/understanding-your-talent-gaps/">Understanding your talent gaps</a></li>
-            <li><a class="nav-link" href="#0">Developing a digital talent strategy</a></li>
-            <li><a class="nav-link" href="#0">Building a digital team</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <section class="col-12 col-md-9 page--toolkit text prose">
-      {{ pageContent | markdownify }}
-    </section>
-  </div>
-</div>
-
-{% include intro_cta.html %}
