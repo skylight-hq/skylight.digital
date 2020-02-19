@@ -7,29 +7,13 @@ layout: default
   color = "green"
 %}
 
-{% if page.sidenav == "digital_talent_management" %}
-  {% assign sidenav = site.data.toolkits.digital_talent_management %}
-
-{% elsif page.sidenav == "data_sharing_playbook" %}
-  {% assign sidenav = site.data.toolkits.data_sharing_playbook %}
-
-{% elsif page.sidenav == "data_culture_playbook" %}
-  {% assign sidenav = site.data.toolkits.data_culture_playbook %}
-
-{% elsif page.sidenav == "accessibility_guide" %}
-  {% assign sidenav = site.data.toolkits.accessibility_guide %}
-
-{% elsif page.sidenav == "agile_procurement_playbook" %}
-  {% assign sidenav = site.data.toolkits.agile_procurement_playbook %}
-{% endif %}
-
 <div class="container">
   <div class="row d-flex">
     <div class="sidenav col-12 col-md-3 order-2 order-md-1">
       <div class="toolkit-sticky">
         <nav class="subnav-col px-0" id="sidenav">
           <ul role="presentation">
-           {% for item in sidenav %}
+           {% for item in site.data.toolkits[page.sidenav] %}
               <li>
                 <a class="nav-link {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
               </li>
