@@ -19,3 +19,10 @@
     font-size: $font-size-medium;
   }
 }
+
+.toolkit-sticky {
+  @include media-breakpoint-up(md) {
+    position: sticky;
+    top: 1rem;
+  }
+}
