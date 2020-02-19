@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include hero_banner.html
+  hero_content = page.hero_content
+  color = "green"
+%}
+
+<div class="container">
+  <div class="row">
+    <div class="sidenav col-12 col-md-3 d-none d-md-block">
+      <div class="is-sticky">
+        <nav class="subnav-col px-0" id="sidenav">
+          <ul role="presentation">
+           {% for item in site.data.toolkits.digital_talent_management %}
+              <li>
+                <a class="nav-link {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+           {% endfor %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="col-12 col-md-9 page--toolkit text prose">
+      {{ page.content | markdownify }}
+    </section>
+  </div>
+</div>
+{% include intro_cta.html %}
