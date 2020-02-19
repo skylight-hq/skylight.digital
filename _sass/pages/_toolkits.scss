@@ -9,14 +9,14 @@
   }
 
   h3 {
+    font-size: $font-size-x-large;
+  }
+
+  h4 {
     font-size: $font-size-small;
     letter-spacing: 0.05em;
     line-height: 1.375;
     text-transform: uppercase;
-  }
-
-  h4 {
-    font-size: $font-size-medium;
   }
 }
 
