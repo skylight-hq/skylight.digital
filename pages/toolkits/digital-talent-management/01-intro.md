@@ -3,6 +3,7 @@ layout: toolkit
 title: Digital Talent Management
 permalink: /work/toolkits/digital-talent-management/
 hero_content: A practical guide for federal, state, and local governments looking to build out their digital capacity.
+sidenav: digital_talent_management
 ---
 
 ## Introduction
@@ -30,4 +31,3 @@ Start small, and test the success of each initiative before rolling it out to a 
 
 ### Intended audience
 We expect this to be read by agency technology leadership: CIOs, team leads, and other hiring managers. Agency leadership such as commissioners and administrators should skim this handbook, paying particular attention to the leadership and culture sections. Both of those sections apply to the entire organization, not just the technical staff.
-
