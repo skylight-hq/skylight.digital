@@ -1,0 +1,63 @@
+---
+layout: default
+title: Digital Talent Management
+permalink: /work/toolkits/digital-talent-management/
+hero_content: A practical guide for federal, state, and local governments looking to build out their digital capacity.
+---
+
+{% include hero_banner.html
+  hero_content = page.hero_content
+  color = "green"
+%}
+
+{% capture pageContent %}
+## Introduction
+Regardless of mission, all government agencies are now technology organizations. Technology is used extensively behind the scenes to run the organization, manage, and do the work. The services an agency offers to the public are increasingly available online.
+
+However, most of these technology efforts leave much to be desired. Systems are hard to maintain, interfaces are unfriendly, and errors are common. In the worst cases, getting services from the government still needs to be done in person or through the mail.
+
+Governments need to get better at building and buying technology. To do so, agencies need to build in-house digital teams with expertise in building and buying modern technology services. These technology teams need to be cross-functional, with skills from user experience, visual design, product management, and software development. They need to be comfortable using the latest methods such as: agile and iterative development, human centered design, and DevOps. And lastly, these teams need to be empowered to make decisions, operate in a self-organizing manner, and initiate change where they see fit.
+
+Enabling this requires a change to how governments recruit, hire, onboard, and retain digital talent. It requires shifting the work culture to be even more collaborative. Changes in management style happen hand in hand.
+
+This handbook is intended to be a practical guide for federal, state, and local governments looking to build out their digital capacity to meet the needs in delivering technical products and programs.
+
+### How to use this handbook
+This handbook is written in chronological order, covering all of the steps it takes to build your digital teams.
+
+Be intentional about increasing your digital capacity: start by understanding and quantifying your talent gaps. This will help reveal where digital teams are needed the most throughout your organization. Then use this research to build your digital talent strategy, which will likely involve a mix of hiring new talent and modernizing the skills of existing employees.
+
+Building a successful digital organization requires focusing on three major areas:
+1. **Talent.** Recruit, hire, and onboard digital talent into cross-functional, empowered, self-organizing teams. Commit to modernizing the skills of existing employees through continual education.
+1. **Environment.** Build a collaborative work environment. Provide your teams with the tolls, physical space, culture, and leadership they need to succeed.
+1. **Communication.** Instigate digital transformation throughout your organization by telling the stories of how you do the work. These stories will help inspire your organization.
+
+Start small, and test the success of each initiative before rolling it out to a wider audience. What works elsewhere may not work here, so be prepared to iterate. Regular retrospectives will help you iteratively improve and build your organization.
+
+### Intended audience
+We expect this to be read by agency technology leadership: CIOs, team leads, and other hiring managers. Agency leadership such as commissioners and administrators should skim this handbook, paying particular attention to the leadership and culture sections. Both of those sections apply to the entire organization, not just the technical staff.
+{% endcapture %}
+
+<div class="container">
+  <div class="row">
+    <div class="sidenav col-12 col-md-3 d-none d-md-block">
+      <div class="is-sticky">
+        <nav class="subnav-col px-0" id="sidenav">
+          <ul role="presentation">
+            <li class="current">
+              <a class="nav-link active" href="/work/toolkits/digital-talent-management/" aria-current="location">Introduction</a>
+            </li>
+            <li><a class="nav-link" href="/work/toolkits/digital-talent-management/understanding-your-talent-gaps/">Understanding your talent gaps</a></li>
+            <li><a class="nav-link" href="#0">Developing a digital talent strategy</a></li>
+            <li><a class="nav-link" href="#0">Building a digital team</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="col-12 col-md-9 page--toolkit text prose">
+      {{ pageContent | markdownify }}
+    </section>
+  </div>
+</div>
+
+{% include intro_cta.html %}
