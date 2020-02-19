@@ -2,3 +2,20 @@
   border: 1px solid $gray-lightest;
   border-bottom: 4px solid $brand-primary-light;
 }
+
+.page--toolkit {
+  h2 {
+    font-size: $font-size-xxx-large;
+  }
+
+  h3 {
+    font-size: $font-size-small;
+    letter-spacing: 0.05em;
+    line-height: 1.375;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-size: $font-size-medium;
+  }
+}
