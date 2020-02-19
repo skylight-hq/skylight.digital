@@ -2,7 +2,7 @@
 layout: toolkit
 title: Digital Talent Management
 permalink: /work/toolkits/digital-talent-management/
-hero_content: A practical guide for federal, state, and local governments looking to build out their digital capacity.
+hero_content: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
 sidenav: digital_talent_management
 ---
 
