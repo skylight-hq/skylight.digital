@@ -7,3 +7,27 @@ digital_talent_management:
     url: #0
   - title: Building a digital team
     url: #0
+
+data_sharing_playbook:
+  - title: Introduction
+    url: /work/toolkits/data-sharing-playbook/
+  - title: Another nav item
+    url: #0
+
+data_culture_playbook:
+  - title: Introduction
+    url: /work/toolkits/data-culture-playbook/
+  - title: Another nav item
+    url: #0
+
+accessibility_guide:
+  - title: Introduction
+    url: /work/toolkits/accessibility-guide/
+  - title: Another nav item
+    url: #0
+
+agile_procurement_playbook:
+  - title: Introduction
+    url: /work/toolkits/agile-procurement-playbook/
+  - title: Another nav item
+    url: #0
