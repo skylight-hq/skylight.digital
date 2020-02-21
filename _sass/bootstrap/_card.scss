@@ -72,7 +72,7 @@
 }
 
 .card-footer {
-  padding: $card-spacer-y $card-spacer-x;
+  padding: 0 $card-spacer-x $card-spacer-y $card-spacer-x;
   background-color: $card-cap-bg;
   border-top: $card-border-width solid $card-border-color;
 
