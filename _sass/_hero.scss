@@ -20,6 +20,8 @@
 
 .hero-heading {
   color: $white;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
 
   @include media-breakpoint-up(sm) {
     font-size: $font-size-h2;
