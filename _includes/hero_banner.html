@@ -1,4 +1,4 @@
-<section class="hero hero-banner mb-5 {% if include.color %}bg-{{ include.color }}{% endif %}" {% if include.image %}style="background-image: url({{ include.image }});"{% endif %}>
+<header class="hero hero-banner mb-5 {% if include.color %}bg-{{ include.color }}{% endif %}" {% if include.image %}style="background-image: url({{ include.image }});"{% endif %}>
   <div class="hero-container container-fluid text-center page--join__text">
     <{% if page.layout == "toolkit" %}p{% else %}h1{% endif %} class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %}">
       {% if include.hero_title %}
@@ -17,4 +17,4 @@
       {% endif %}
     </p>
   </div>
-</section>
+</header>
