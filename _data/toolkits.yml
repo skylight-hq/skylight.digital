@@ -1,4 +1,5 @@
 digital_talent_management:
+  title: Digital Talent Management Handbook
   description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
   toc:
     - title: Introduction
@@ -11,6 +12,7 @@ digital_talent_management:
       url: #0
 
 data_sharing_playbook:
+  title: Data Sharing Playbook
   description: A guide for state & local agencies on how to improve cross-organizational data sharing.
   toc:
     - title: Introduction
@@ -19,6 +21,7 @@ data_sharing_playbook:
       url: #0
 
 data_culture_playbook:
+  title: Data Culture Playbook
   description: An introductory guide on how to cultivate a data culture in order to improve data-informed decision-making.
   toc:
     - title: Introduction
@@ -27,6 +30,7 @@ data_culture_playbook:
       url: #0
 
 accessibility_guide:
+  title: Accessibility Guide
   description: Tools and practices making products and services accessible to everyone.
   toc:
     - title: Introduction
@@ -35,6 +39,7 @@ accessibility_guide:
       url: #0
 
 agile_procurement_playbook:
+  title: Agile Procurement Playbook
   description: A guide on how to apply the principles of agile to procurement.
   toc:
     - title: Introduction
