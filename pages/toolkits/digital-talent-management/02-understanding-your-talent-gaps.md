@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Digital Talent Management
+title: Digital Talent Management Handbook
 permalink: /work/toolkits/digital-talent-management/understanding-your-talent-gaps/
 hero_content: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
 sidenav: digital_talent_management
