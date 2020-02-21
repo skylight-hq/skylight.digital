@@ -26,6 +26,10 @@
   @extend %row;
 }
 
+.employee-img {
+  filter: grayscale(1);
+}
+
 @include semantic-card('employee', $clickable: false, $title-alignment: center,
   $title-color: $body-color, $subtitle-color: $text-muted, $footer-border-off: false,
   $card-img-height: 275px);
