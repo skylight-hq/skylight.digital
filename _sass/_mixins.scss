@@ -207,6 +207,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: $card-img-height;
+    filter: grayscale(1);
     width: 100%;
   }
 
