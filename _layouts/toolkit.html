@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% include hero_banner.html
-  hero_content = page.hero_content
   color = "blue"
 %}
 
@@ -13,7 +12,7 @@ layout: default
       <div class="toolkit-sticky">
         <nav class="subnav-col px-0" id="sidenav">
           <ul role="presentation">
-           {% for item in site.data.toolkits[page.sidenav] %}
+           {% for item in site.data.toolkits[page.sidenav].toc %}
               <li>
                 <a class="nav-link {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
               </li>

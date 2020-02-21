@@ -2,7 +2,6 @@
 layout: toolkit
 title: Accessibility Guide
 permalink: /work/toolkits/accessibility-guide/
-hero_content: Tools and practices making products and services accessible to everyone.
 sidenav: accessibility_guide
 ---
 

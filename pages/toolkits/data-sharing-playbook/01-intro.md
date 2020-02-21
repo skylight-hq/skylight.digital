@@ -2,7 +2,6 @@
 layout: toolkit
 title: Data Sharing Playbook
 permalink: /work/toolkits/data-sharing-playbook/
-hero_content: A guide for state & local agencies on how to improve cross-organizational data sharing.
 sidenav: data_sharing_playbook
 ---
 

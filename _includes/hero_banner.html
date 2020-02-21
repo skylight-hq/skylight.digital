@@ -7,6 +7,12 @@
         {{ page.title }}
       {% endif %}
     </h1>
-    <p class="hero-content {% if include.text == 'dark' %}text-ink{% endif %}">{{ include.hero_content }}</p>
+    <p class="hero-content {% if include.text == 'dark' %}text-ink{% endif %}">
+      {% if page.layout == "toolkit" %}
+        {{ site.data.toolkits[page.sidenav].description }}
+      {% else %}
+        {{ include.hero_content }}
+      {% endif %}
+    </p>
   </div>
 </div>
