@@ -215,13 +215,13 @@
   }
 
   .#{$class-name}-title-tag {
-    @extend %mb-3;
     @extend %text-uppercase;
     @extend %font-weight-bold;
     color: $tag-color;
     font-size: $tag-font-size;
     letter-spacing: 0.5px;
     line-height: 1.25;
+    margin-bottom: 3rem;
     text-align: $tag-alignment;
   }
 

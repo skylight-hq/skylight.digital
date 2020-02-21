@@ -16,7 +16,7 @@ pagination:
 
 <div class="container container-md text">
   {% for item in paginator.posts %}
-    <p class="font-weight-bold mb-1 small mt-5">{{ item.source }}: {{ item.date | date: "%B %-d, %Y" }}</p>
+    <p class="font-weight-bold mb-2 small mt-5 project-title-tag">{{ item.source }}: {{ item.date | date: "%B %-d, %Y" }}</p>
     <h2 class="h3">
       {% if item.heading %}
         {{ item.heading }}
