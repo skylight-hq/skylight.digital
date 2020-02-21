@@ -2,7 +2,6 @@
 layout: toolkit
 title: Data Culture Playbook
 permalink: /work/toolkits/data-culture-playbook/
-hero_content: An introductory guide on how to cultivate a data culture in order to improve data-informed decision-making.
 sidenav: data_culture_playbook
 ---
 

@@ -2,7 +2,6 @@
 layout: toolkit
 title: Agile Procurement Playbook
 permalink: /work/toolkits/agile-procurement-playbook/
-hero_content: A guide on how to apply the principles of agile to procurement.
 sidenav: agile_procurement_playbook
 ---
 

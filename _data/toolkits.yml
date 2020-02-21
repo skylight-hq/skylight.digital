@@ -1,33 +1,43 @@
 digital_talent_management:
-  - title: Introduction
-    url: /work/toolkits/digital-talent-management/
-  - title: Understanding your talent gaps
-    url: /work/toolkits/digital-talent-management/understanding-your-talent-gaps/
-  - title: Developing a digital talent strategy
-    url: #0
-  - title: Building a digital team
-    url: #0
+  description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+  toc:
+    - title: Introduction
+      url: /work/toolkits/digital-talent-management/
+    - title: Understanding your talent gaps
+      url: /work/toolkits/digital-talent-management/understanding-your-talent-gaps/
+    - title: Developing a digital talent strategy
+      url: #0
+    - title: Building a digital team
+      url: #0
 
 data_sharing_playbook:
-  - title: Introduction
-    url: /work/toolkits/data-sharing-playbook/
-  - title: Another nav item
-    url: #0
+  description: A guide for state & local agencies on how to improve cross-organizational data sharing.
+  toc:
+    - title: Introduction
+      url: /work/toolkits/data-sharing-playbook/
+    - title: Another nav item
+      url: #0
 
 data_culture_playbook:
-  - title: Introduction
-    url: /work/toolkits/data-culture-playbook/
-  - title: Another nav item
-    url: #0
+  description: An introductory guide on how to cultivate a data culture in order to improve data-informed decision-making.
+  toc:
+    - title: Introduction
+      url: /work/toolkits/data-culture-playbook/
+    - title: Another nav item
+      url: #0
 
 accessibility_guide:
-  - title: Introduction
-    url: /work/toolkits/accessibility-guide/
-  - title: Another nav item
-    url: #0
+  description: Tools and practices making products and services accessible to everyone.
+  toc:
+    - title: Introduction
+      url: /work/toolkits/accessibility-guide/
+    - title: Another nav item
+      url: #0
 
 agile_procurement_playbook:
-  - title: Introduction
-    url: /work/toolkits/agile-procurement-playbook/
-  - title: Another nav item
-    url: #0
+  description: A guide on how to apply the principles of agile to procurement.
+  toc:
+    - title: Introduction
+      url: /work/toolkits/agile-procurement-playbook/
+    - title: Another nav item
+      url: #0
