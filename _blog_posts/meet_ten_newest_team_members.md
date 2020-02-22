@@ -9,7 +9,7 @@ image: /img/blog/meet_ten_newest_team_members/waving-hand-emoji.png
 image_description: A waving hand emoji.
 image_display: true
 order: 2600
-tags: [chris cairns]
+tags: [people and culture, chris cairns]
 excerpt: Introducing the 10 newest members of the Skylight team, who are working together to make government services better for everyone.
 authors:
   - Chris Cairns

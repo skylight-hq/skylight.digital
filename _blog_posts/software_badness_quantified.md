@@ -9,7 +9,7 @@ image: /img/blog/software_badness_quantified/bad-code-quantified.png
 image_description: A graphing calculator against a background showing abstract lines of code.
 image_display: true
 order: 200
-tags: [service delivery, robert read]
+tags: [engineering, robert read]
 excerpt: Until a more robust model for measuring technical debt is developed, we suggest using a simple formula for measuring the "badness" of a codebase in order to facilitate system improvement decisions.
 authors:
   - Robert Read

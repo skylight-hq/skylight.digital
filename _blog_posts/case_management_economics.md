@@ -9,7 +9,7 @@ image: /img/blog/case_management/case-files.png
 image_description: Paper case files.
 image_display: true
 order: 100
-tags: [service delivery, procurement, robert read, chris cairns]
+tags: [engineering, modernization, procurement, robert read, chris cairns]
 excerpt: Case management systems are commonplace and largely overlap. Agencies and vendors should consider innovative models for cooperating with one another in order to reduce duplicative efforts.
 authors:
   - Robert Read

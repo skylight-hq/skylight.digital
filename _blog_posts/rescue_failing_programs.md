@@ -9,7 +9,7 @@ image: /img/blog/rescue_failing_programs/rescue.png
 image_description: An emergency vehicle's siren lights.
 image_display: true
 order: 1000
-tags: [service delivery, procurement, robert read]
+tags: [delivery management, procurement, robert read]
 excerpt: To rescue a failing program, you must protect the four freedoms of enterprise system development.
 authors:
   - Robert Read
