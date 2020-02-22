@@ -9,7 +9,7 @@ image: /img/blog/darpa_proposal_story/darpa-iot.png
 image_description: Stylized image of the DARPA logo conveying the concept of the Internet of Things.
 image_display: true
 order: 1100
-tags: [internet of things, service delivery, robert read]
+tags: [internet of things, robert read]
 excerpt: A brief story of our experience submitting a proposal to DARPA to conduct research on the latest Low Power Wide Area Network technology.
 authors:
   - Robert Read

@@ -9,7 +9,7 @@ image: /img/blog/five_pifs_join/welcome.png
 image_description: A welcome sticky note near a computer.
 image_display: true
 order: 400
-tags: [sean johnson]
+tags: [people and culture, sean johnson]
 excerpt: Announcing the addition of Chris Cairns, Robert Read, John Teeter, Geoff Mulligan, and Kin Lane to the Skylight team.
 authors:
   - Sean Johnson

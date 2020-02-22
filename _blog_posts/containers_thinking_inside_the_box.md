@@ -9,7 +9,7 @@ image: /img/blog/containers_thinking_inside_the_box/containers.png
 image_description: A stack of colorful cargo containers.
 image_display: true
 order: 1800
-tags: [devops, service delivery, josh dorothy]
+tags: [devops, josh dorothy]
 excerpt: Containers enable software portability across a wide range of computing environments. Here's what you need to know about their budgetary, technical, and organizational value.
 authors:
   - Josh Dorothy

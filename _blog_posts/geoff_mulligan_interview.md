@@ -9,7 +9,7 @@ image: /img/blog/geoff_mulligan_interview/geoff-mulligan-iot.png
 image_description: Stylized lettering of Geoff Mulligan's name with interconnected nodes symbolizing IoT.
 image_display: true
 order: 1700
-tags: [internet of things, service delivery, geoff mulligan]
+tags: [people and culture, internet of things, geoff mulligan]
 excerpt: "Skylight's Geoff Mulligan is one of the world's leading experts in smart cities and IoT systems. Here, he has been working with our government clients to engineer open and interoperable IoT solutions."
 authors:
   - Chris Cairns
