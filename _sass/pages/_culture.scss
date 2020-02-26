@@ -51,7 +51,7 @@
 }
 
 .employee-gradient::after {
-  background: linear-gradient(-135deg, #478FB9 0%, #F4C55C 100%);
+  background: linear-gradient(45deg, #478FB9 0%, #F4C55C 100%);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -59,7 +59,7 @@
   content: '';
   left: 0;
   mix-blend-mode: color;
-  opacity: 0.6;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   z-index: 3;
