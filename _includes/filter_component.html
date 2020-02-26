@@ -1,4 +1,6 @@
-<div class="container bg-gray-light p-4 mb-5">
+
+{% capture accordion_body %}
+<div class="">
   <div class="row">
     {% assign filter = site.data.filters %}
     <div class="col-sm">
@@ -28,4 +30,9 @@
       </ul>
     </div>
   </div>
+</div>
+{% endcapture %}
+
+<div class="container col-md-10 mb-5">
+  {% include accordion.html accordion_header = 'Filters' accordion_body = accordion_body %}
 </div>
