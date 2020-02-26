@@ -25,6 +25,8 @@ pagination:
   header_content = header_content
 %}
 
+{% include filter_component.html %}
+
 {% assign collection = include.collection %}
 {% assign prefix = 'project' %}
 {% assign cta_text = include.cta_text %}
