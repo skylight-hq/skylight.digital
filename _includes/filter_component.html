@@ -1,0 +1,31 @@
+<div class="container bg-gray-light p-4 mb-5">
+  <div class="row">
+    {% assign filter = site.data.filters %}
+    <div class="col-sm">
+      <h3 class="margin-heading mt-sm-0">Type of service</h3>
+      <ul class="mb-0 list-unstyled">
+        {% for item in filter.type_of_service %}
+          <li><a href="#0">{{ item }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col-sm">
+      <h3 class="margin-heading mt-sm-0">Capabilities</h3>
+      <ul class="mb-0 list-unstyled">
+        {% for item in filter.capabilities %}
+          <li><a href="#0">{{ item }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col-sm">
+      <h3 class="margin-heading mt-sm-0">Mission areas</h3>
+      <ul class="mb-0 list-unstyled">
+        {% for item in filter.mission_areas %}
+          <li><a href="#0">{{ item }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

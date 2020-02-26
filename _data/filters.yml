@@ -1,0 +1,29 @@
+type_of_service:
+  - Services Delivery
+  - Procurement
+  - Transformation
+  - Microconsulting
+  - Training
+
+capabilities:
+  - Research & Design
+  - Software Delivery
+  - Legacy Modernization
+  - DevOps
+  - Data & Analytics
+  - Open Data & APIs
+  - Internet of Things
+  - Security & Privacy
+  - Product Management
+  - Delivery Management
+  - Procurement
+  - Transformation
+  - Coaching & Training
+
+mission_areas:
+  - Early Childhood Services
+  - Veteran Services
+  - Social Safety Net
+  - Healthcare
+  - Economic Development
+  - Defense
