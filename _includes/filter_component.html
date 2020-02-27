@@ -6,9 +6,14 @@
     <div class="col-sm">
       <h3 class="margin-heading mt-sm-0">Type of service</h3>
       <ul class="mb-0 list-unstyled">
-        {% for item in filter.type_of_service %}
+<!--         {% for item in filter.type_of_service %}
           <li><a href="#0">{{ item }}</a></li>
-        {% endfor %}
+        {% endfor %} -->
+        <li><a href="#0">Services Delivery</a></li>
+        <li><a class="font-weight-bold" href="#0">Procurement</a></li>
+        <li><a href="#0">Transformation</a></li>
+        <li><a class="font-weight-bold" href="#0">Microconsulting</a></li>
+        <li><a href="#0">Training</a></li>
       </ul>
     </div>
 
@@ -34,5 +39,35 @@
 {% endcapture %}
 
 <div class="container col-md-10 mb-5">
-  {% include accordion.html accordion_header = 'Filters' accordion_body = accordion_body %}
+  <div class="post-tags filter-post-tags">
+    <a class="tag-badge" href="#0">Procurement<i class="fa fa-times-circle ml-1"></i></a>
+    <a class="tag-badge" href="#0">Microconsulting<i class="fa fa-times-circle ml-1"></i></a>
+  </div>
+
+  <!-- Accordion card -->
+  <div class="card accordion-card accordion-filter">
+
+    <!-- Card header -->
+    <div class="accordion-header" role="tab" id="accordionHeading-{{include.accordion_index}}">
+      <a class="bg-gray-light collapsed" data-toggle="collapse" href="#accordionCollapse-{{include.accordion_index}}" aria-expanded="false" aria-controls="accordionCollapse-{{include.accordion_index}}" class="collapsed">
+        <div>
+          <h3 class="mb-0">
+            <div class="text-ink">
+              Filters
+            </div>
+            <div class="plus-minus-toggle"></div>
+          </h3>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="accordionCollapse-{{include.accordion_index}}" class="collapse" role="tabpanel" aria-labelledby="accordionHeading-{{include.accordion_index}}">
+      <div class="card-body accordion-card-body">
+        {{ accordion_body }}
+      </div>
+    </div>
+
+  </div>
+<!-- Accordion card -->
 </div>

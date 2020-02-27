@@ -71,3 +71,25 @@
     background-color: darken($brand-primary, 10%);
   }
 }
+
+.accordion-filter {
+  .accordion-header a {
+    background-color: $gray-lightest;
+
+    &:hover {
+      background-color: $gray-lighter;
+    }
+  }
+
+  .accordion-card-body {
+    border-color: $gray-lightest;
+  }
+
+  .plus-minus-toggle,
+  .plus-minus-toggle {
+    &:before,
+    &:after {
+      background-color: $black;
+    }
+  }
+}

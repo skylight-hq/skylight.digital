@@ -2,6 +2,16 @@
   @extend %page-main-base;
 }
 
+.page-our-experience {
+  .page-header-1 {
+    @extend %mb-md-6;
+  }
+
+  .filter-post-tags {
+    @extend %mb-3;
+  }
+}
+
 .projects {
   @extend %wide-column;
 }
