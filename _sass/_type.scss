@@ -92,10 +92,11 @@ h1 {
 }
 
 %list-base {
-  ol,
-  ul {
-    li:not(:last-child) {
-      @extend %pb-3;
+  li {
+    padding-bottom: 1rem;
+
+    &:last-child {
+      padding-bottom: 0;
     }
   }
 }
@@ -143,6 +144,12 @@ h1 {
 
 .left-justified-list {
   @extend %left-justified-list;
+}
+
+.left-justified-list-compact {
+  li {
+    padding-bottom: 0.25rem;
+  }
 }
 
 %list-item-unstyled {
