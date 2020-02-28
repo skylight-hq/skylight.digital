@@ -16,7 +16,7 @@ $(function() {
     var path = secondLevelPath ? secondLevelPath : firstLevelPath;
 
     $anchorToActivate = parent.find(".dropdown-toggle");
-    
+
     let $subAnchorToActivate = parent
       .find('.dropdown-item[href*="' + path + '"]')
       .first();
@@ -121,7 +121,7 @@ $(function() {
 // Hash update with scroll on ditap page
 $(function() {
   if (
-    location.pathname == "/work/services/ditap/" ||
+    location.pathname == "/work/services/training/ditap/" ||
     location.pathname == "/careers/join/"
   ) {
     const headings = $("h2");
@@ -142,7 +142,7 @@ $(function() {
 
 // Pre-populate date select on ditap application
 $(function() {
-  if (location.pathname == "/work/services/ditap/apply/") {
+  if (location.pathname == "/work/services/training/ditap/apply/") {
     var urlParams = new URLSearchParams(window.location.search);
     var courseDate = urlParams.get("date");
     $("#date-input").val(courseDate);
