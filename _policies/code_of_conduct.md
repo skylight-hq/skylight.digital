@@ -2,6 +2,8 @@
 layout: policy
 title: Code of Conduct Policy
 permalink: /company/policies/code-of-conduct/
+redirect_from:
+  - /policies/code-of-conduct/
 ---
 
 ## Creating an inclusive culture, as the basis for innovation

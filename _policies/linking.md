@@ -2,6 +2,8 @@
 layout: policy
 title: Linking Policy
 permalink: /company/policies/linking/
+redirect_from:
+  - /policies/linking/
 ---
 
 ## Links to third-party sites
