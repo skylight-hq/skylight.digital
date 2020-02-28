@@ -118,7 +118,7 @@ $(function() {
     .attr("target", "_blank");
 });
 
-// Hash update with scroll on ditap page
+// Hash update with scroll
 $(function() {
   if (
     location.pathname == "/work/services/training/ditap/" ||
