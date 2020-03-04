@@ -121,19 +121,21 @@ $(function() {
 // Hash update with scroll
 $(function() {
   if (
-    location.pathname == "/work/services/training/ditap/" ||
-    location.pathname == "/careers/join/"
+    location.pathname === "/work/services/training/ditap/" ||
+    location.pathname === "/careers/join/"
   ) {
     const headings = $("h2");
     window.setInterval(function() {
       headings.each(function(i) {
         if (
-          window.pageYOffset > $(this).offset().top &&
+          window.pageYOffset >= $(this).offset().top &&
           (i === headings.length - 1 ||
             window.pageYOffset < headings.eq(i + 1).offset().top)
         ) {
           var urlId = "#" + $(this).attr("id");
           history.replaceState(null, null, urlId);
+        } else if (i === 0 && window.pageYOffset < $(this).offset().top - 1) {
+          history.replaceState(null, null, '#');
         }
       });
     }, 100);
