@@ -135,7 +135,8 @@ $(function() {
           var urlId = "#" + $(this).attr("id");
           history.replaceState(null, null, urlId);
         } else if (i === 0 && window.pageYOffset < $(this).offset().top - 1) {
-          history.replaceState(null, null, '#');
+          var newUrl = window.location.pathname + window.location.search;
+          history.pushState("", document.title, newUrl);
         }
       });
     }, 100);
