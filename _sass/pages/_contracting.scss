@@ -1,0 +1,12 @@
+.badge-sub--container {
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-top: -5px;
+  vertical-align: text-top;
+}
+
+.badge-sub {
+  background-color: $gray-light;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
