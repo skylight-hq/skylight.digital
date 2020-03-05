@@ -4,11 +4,12 @@
 
 .page-our-experience {
   .page-header-1 {
-    @extend %mb-md-6;
+    @extend %mb-5;
   }
 
   .filter-post-tags {
     @extend %mb-3;
+    min-height: 30px;
   }
 }
 
