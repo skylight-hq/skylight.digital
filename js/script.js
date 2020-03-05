@@ -151,3 +151,25 @@ $(function() {
     $("#date-input").val(courseDate);
   }
 });
+
+// Experience filters
+$(function() {
+  if (location.pathname === "/work/experience/") {
+    const filters = [];
+    const addRemoveHandler = () => {
+      $(".remove-tag").off("click").click(function() {
+        const tag = $(this).parent();
+        const text = tag.text();
+        filters.splice(filters.indexOf(text), 1);
+        tag.remove();
+      });
+    }
+    $(".exp-filter-item").click(function() {
+      const text = $(this).text();
+      filters.push(text);
+      $(".filter-post-tags")
+        .append(`<a class="tag-badge" href="#0">${text}<i class="fa fa-times-circle ml-1 remove-tag"></i></a>`);
+      addRemoveHandler();
+    });
+  }
+});
