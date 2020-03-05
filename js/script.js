@@ -157,19 +157,23 @@ $(function() {
   if (location.pathname === "/work/experience/") {
     const filters = [];
     const addRemoveHandler = () => {
-      $(".remove-tag").off("click").click(function() {
-        const tag = $(this).parent();
-        const text = tag.text();
+      $(".tag-badge").off("click").click(function() {
+        const text = $(this).text();
         filters.splice(filters.indexOf(text), 1);
-        tag.remove();
+        $(this).remove();
+        $(`.exp-filter-item:contains("${text}")`)
+          .removeClass("font-weight-bold");
       });
     }
     $(".exp-filter-item").click(function() {
       const text = $(this).text();
-      filters.push(text);
-      $(".filter-post-tags")
-        .append(`<a class="tag-badge" href="#0">${text}<i class="fa fa-times-circle ml-1 remove-tag"></i></a>`);
-      addRemoveHandler();
+      if (!filters.includes(text)) {
+        filters.push(text);
+        $(this).addClass("font-weight-bold")
+        $(".filter-post-tags")
+          .append(`<a class="tag-badge" href="#0">${text}<i class="fa fa-times-circle ml-1"></i></a>`);
+        addRemoveHandler();
+      }
     });
   }
 });
