@@ -6,14 +6,9 @@
     <div class="col-sm">
       <h3 class="margin-heading mt-sm-0">Type of service</h3>
       <ul class="mb-0 list-unstyled">
-<!--         {% for item in filter.type_of_service %}
-          <li><a href="#0">{{ item }}</a></li>
-        {% endfor %} -->
-        <li><a href="#0">Services Delivery</a></li>
-        <li><a class="font-weight-bold" href="#0">Procurement</a></li>
-        <li><a href="#0">Transformation</a></li>
-        <li><a class="font-weight-bold" href="#0">Microconsulting</a></li>
-        <li><a href="#0">Training</a></li>
+        {% for item in filter.type_of_service %}
+          <li><a class="exp-filter-item" href="#0">{{ item }}</a></li>
+        {% endfor %}
       </ul>
     </div>
 
@@ -21,7 +16,7 @@
       <h3 class="margin-heading mt-sm-0">Capabilities</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.capabilities %}
-          <li><a href="#0">{{ item }}</a></li>
+          <li><a class="exp-filter-item" href="#0">{{ item }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -30,7 +25,7 @@
       <h3 class="margin-heading mt-sm-0">Mission areas</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.mission_areas %}
-          <li><a href="#0">{{ item }}</a></li>
+          <li><a class="exp-filter-item" href="#0">{{ item }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -39,10 +34,7 @@
 {% endcapture %}
 
 <div class="container col-md-10 mb-5">
-  <div class="post-tags filter-post-tags">
-    <a class="tag-badge" href="#0">Procurement<i class="fa fa-times-circle ml-1"></i></a>
-    <a class="tag-badge" href="#0">Microconsulting<i class="fa fa-times-circle ml-1"></i></a>
-  </div>
+  <div class="post-tags filter-post-tags"></div>
 
   <!-- Accordion card -->
   <div class="card accordion-card accordion-filter">
