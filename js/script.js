@@ -163,9 +163,27 @@ $(function() {
         $(this).remove();
         $(`.exp-filter-item:contains("${text}")`)
           .removeClass("font-weight-bold");
+        if (!filters.length) {
+          filterPosts('all', 'show')
+        } else {
+          filterPosts(text, 'hide');
+        }
       });
-    }
+    };
+    const filterPosts = (tag, toggle) => {
+      $("article").each(function() {
+        if (tag === 'all') {
+          toggle === 'show' ? $(this).show() : $(this).hide()
+        } else {
+          const tags = $(this).attr("data-tags");
+          if (tags.includes(tag.toLowerCase())) {
+            toggle === 'show' ? $(this).show() : $(this).hide()
+          }
+        }
+      });
+    };
     $(".exp-filter-item").click(function() {
+      if (!filters.length) filterPosts('all', 'hide');
       const text = $(this).text();
       if (!filters.includes(text)) {
         filters.push(text);
@@ -173,6 +191,7 @@ $(function() {
         $(".filter-post-tags")
           .append(`<a class="tag-badge" href="#0">${text}<i class="fa fa-times-circle ml-1"></i></a>`);
         addRemoveHandler();
+        filterPosts(text, 'show');
       }
     });
   }
