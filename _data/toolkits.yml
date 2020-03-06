@@ -35,8 +35,50 @@ accessibility_guide:
   toc:
     - title: Introduction
       url: /work/toolkits/accessibility-guide/
-    - title: Another nav item
-      url: #0
+    - title: Checklist
+      url: /work/toolkits/accessibility-guide/checklist/
+    - title: Tools
+      url: /work/toolkits/accessibility-guide/tools/
+    - title: Keyboard access
+      url: /work/toolkits/accessibility-guide/keyboard/
+    - title: Images
+      url: /work/toolkits/accessibility-guide/images/
+    - title: Color and contrast
+      url: /work/toolkits/accessibility-guide/color/
+    - title: Forms
+      url: /work/toolkits/accessibility-guide/forms/
+    - title: Flashing
+      url: /work/toolkits/accessibility-guide/flashing/
+    - title: Page titles
+      url: /work/toolkits/accessibility-guide/page-titles/
+    - title: Headings
+      url: /work/toolkits/accessibility-guide/headings/
+    - title: Hidden Content
+      url: /work/toolkits/accessibility-guide/hidden-content/
+    - title: Landmarks
+      url: /work/toolkits/accessibility-guide/landmarks/
+    - title: Multimedia
+      url: /work/toolkits/accessibility-guide/multimedia/
+    - title: Timeouts
+      url: /work/toolkits/accessibility-guide/timeouts/
+    - title: Language
+      url: /work/toolkits/accessibility-guide/language/
+    - title: Tables
+      url: /work/toolkits/accessibility-guide/tables/
+    - title: CSS dependence
+      url: /work/toolkits/accessibility-guide/css/
+    - title: iFrames
+      url: /work/toolkits/accessibility-guide/iframes/
+    - title: Links and repetitive content
+      url: /work/toolkits/accessibility-guide/links/
+    - title: Plug-ins
+      url: /work/toolkits/accessibility-guide/plugins/
+    - title: Alternative versions
+      url: /work/toolkits/accessibility-guide/alternative-versions/
+    - title: Writing guide
+      url: /work/toolkits/accessibility-guidewriting-guide/
+    - title: Trainings and videos
+      url: /work/toolkits/accessibility-guide/training-videos/
 
 agile_procurement_playbook:
   title: Agile Procurement Playbook
