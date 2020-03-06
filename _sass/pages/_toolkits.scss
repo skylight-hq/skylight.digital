@@ -19,10 +19,3 @@
     text-transform: uppercase;
   }
 }
-
-.toolkit-sticky {
-  @include media-breakpoint-up(md) {
-    position: sticky;
-    top: 1rem;
-  }
-}
