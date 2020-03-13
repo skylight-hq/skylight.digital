@@ -107,10 +107,7 @@ h1 {
   ol,
   ul {
     @extend %list-unstyled;
-  }
 
-  ol,
-  ul {
     li::before {
       color: $gray-light;
       position: absolute;
@@ -146,12 +143,6 @@ h1 {
   @extend %left-justified-list;
 }
 
-.left-justified-list-compact {
-  li {
-    padding-bottom: 0.25rem;
-  }
-}
-
 %list-item-unstyled {
   li::before {
     border-radius: 0;
@@ -170,6 +161,12 @@ h1 {
 }
 
 .prose {
+  @extend %left-justified-list;
+
+  li {
+    padding-bottom: 0.25rem;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
   }
