@@ -2,3 +2,11 @@
   @extend %page-main-base;
   @extend %wide-column;
 }
+
+.page-our-services {
+  .prose {
+    li {
+      padding-bottom: 1rem;
+    }
+  }
+}
