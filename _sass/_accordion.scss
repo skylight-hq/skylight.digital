@@ -93,3 +93,9 @@
     }
   }
 }
+
+// Sticky hover fix
+.can-touch .accordion-filter .accordion-header a:hover {
+  background-color: $gray-lightest;
+}
+
