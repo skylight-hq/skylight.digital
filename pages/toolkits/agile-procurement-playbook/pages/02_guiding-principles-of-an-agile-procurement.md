@@ -21,8 +21,7 @@ strategy:
 
 -   Buy digital service skill sets, not software, and
 
--   Embrace a [*one-team, one-dream
-    > mindset*](#working-together-building-an-agile-culture).
+-   Embrace a *[one-team, one-dream mindset](#working-together-building-an-agile-culture)*.
 
 USDS’s principles of procurement are a [*great launching
 pad*](https://playbook.cio.gov/#play5) for an agency contracting
@@ -56,8 +55,6 @@ An agile procurement strategy recognizes that:
 
 -   The team’s understanding of the product will develop as the product
     > is being built, and
-
-<!-- -->
 
 -   This growing understanding can inform the requirements for the
     > current and subsequent modular contracts.
@@ -170,7 +167,7 @@ determine whether the agency is ready:
     > of success for the product?
 
 By conducting an [*analysis of
-alternatives*](#appendix-e-sample-analysis-of-procurement-options) on
+alternatives*](/work/toolkits/agile-procurement-playbook/appendix#appendix-e-sample-analysis-of-procurement-options) on
 the different procurement options for a particular product, the product
 team can involve stakeholders in the decision-making process and
 increase buy-in if the team opts to test out a new strategy.
