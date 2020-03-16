@@ -95,6 +95,10 @@
       }
     }
   }
+
+  .navbar .nav-item.dropdown:not(.show) a {
+    background-color: transparent !important;
+  }
 }
 
 .navbar-collapse {
