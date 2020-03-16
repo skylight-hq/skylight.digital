@@ -156,3 +156,9 @@ to an agile approach, the agency is able to:
 
 -   Adapt its approach to align with the changes in technology and best
     > practice that are inevitable over such a long-term initiative.
+
+
+[^1]: *Big bang is a common term in software development when switching
+    from one system to another. You can think of this as turning off the
+    lights on one system and then turning on the lights on another. This
+    approach is very risky with a high probability of failure.*

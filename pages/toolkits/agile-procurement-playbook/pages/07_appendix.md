@@ -33,7 +33,7 @@ QUALITY MANAGEMENT PLAN (QMP)
 
 **Introduction**
 
-[]{#_gjdgxs .anchor}This Quality Management Plan (QMP), which contains a
+This Quality Management Plan (QMP), which contains a
 Quality Assurance Surveillance Plan (QASP) and Quality Control Plan
 (QCP) is pursuant to the requirements listed in the performance-based
 \[Performance Work Statement (PWS) or Statement of Objectives (SOO)\]
@@ -161,7 +161,7 @@ quality project deliverables. It involves following and meeting
 standards, continuously improving project work, and correcting project
 defects.
 
-[]{#_30j0zll .anchor}**Quality Control Plan**
+**Quality Control Plan**
 
 The Vendor shall develop and maintain effective quality control metrics
 to ensure services are performed in accordance with this Task Order and
@@ -176,8 +176,6 @@ The focus of quality control is on the deliverables of the project.
 Quality control monitors project deliverables to verify that the
 deliverables are of acceptable quality and the customer is satisfied.
 
-[]{#_1fob9te .anchor}
-
 **Evaluation Methods**
 
 The methods of evaluating Vendor compliance may vary depending on the
@@ -185,7 +183,7 @@ PWS. The COR is responsible for selection of the method(s) to be used
 and the specific detailing of the method(s). The following describes
 alternative methods of observation:
 
-[]{#_3znysh7 .anchor}**100 Percent Evaluation**
+**100 Percent Evaluation**
 
 This is the appropriate method of evaluating infrequent tasks or tasks
 with stringent performance requirements, e.g., where safety or health is
@@ -193,14 +191,12 @@ a concern. With this method, performance is inspected/evaluated at each
 occurrence. One hundred percent inspection is too expensive to be used
 in most cases.
 
-[]{#_2et92p0 .anchor}**Random Review**
+**Random Review**
 
 This is an appropriate method of surveillance for recurring tasks.
 Random sampling works best when the number of instances of the services
 being performed is very large and a statistically valid sample can be
 obtained.
-
-[]{#_tyjcwt .anchor}
 
 **Customer or Other Government Feedback**
 
@@ -215,7 +211,7 @@ quality of performance is poor, e.g., dining facilities, building
 services; customer surveys and customer complaints may be a primary
 surveillance method.
 
-**Performance Criteria **
+**Performance Criteria**
 
 **Acceptable Performance**
 
@@ -257,38 +253,28 @@ for determining appropriate action:
 
 **QUALITY MEASURES / METRICS**
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Process / Deliverable**                                                                   **Delivery / Performance Standards**                       **Allowable Deviation / Acceptable Quality Level**                                                                                                                                                         **Method of Assessment**                                                                                                               **Date/**                                                                                                                 **Iteration Payment Impact**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           **Schedule**                                                                                                              
-  ------------------------------------------------------------------------------------------- ---------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
-  ***Instructions: Indicate Tasks from SOO. Please add any additional tasks, as needed. ***   ***Instructions: Indicate expectations or standards. ***   ***Instructions: Indicate “none” if there is no allowable deviation or e.g., “100% of calendar arrangements are correctly processed within 6 days”, or “2 day slippage allowance from due date”, etc.***   ***Instructions: Indicate how often this task will be reviewed, e.g., “Random review”, “100% review”, or “Quarterly review”, etc.***   ***Instructions: Indicate when the task is due with a specific date or e.g., “On-going”, “daily”, “quarterly”, etc. ***   ***Instructions:***
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ***Indicate what the associated impact to payment of iteration is or if not applicable***
-
-  **TO BE COMPLETED/PROPOSED BY QUOTER**
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Process/Deliverable | Delivery/Performance Standards | Allowable Deviation/Acceptable Quality Level | Method of Assessment | Date/Schedule | Iteration Payment Impact |
+|---------------------------------------------------------------------------------------|---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+|  Instructions: Indicate Tasks from SOO.   Please add any additional tasks, as needed. | Instructions: Indicate expectations or standards. | Instructions: Indicate “none” if there is no allowable deviation or e.g., “100% of calendar arrangements are correctly processed within 6 days”, or “2 day slippage allowance from due date”, etc. | Instructions: Indicate how often this task will be reviewed, e.g., “Random review”, “100% review”, or “Quarterly review”, etc. | Instructions: Indicate when the task is due with a specific date or e.g., “On-going”, “daily”, “quarterly”, etc. | Instructions: Indicate what the associated impact to payment of iteration is or if not applicable |
+|TO BE COMPLETED/PROPOSED BY QUOTER|  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
 ### Additional Quality Metrics Table Template from [*18F*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
 
 Here is an example of a Quality Metrics Table that includes a QASP.
 [*Source*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
 
-  Deliverable            Performance Standard(s)                                                                                                                                                                                                                                                                                         Acceptable Quality Level                                                                                                                                                           Method of Assessment
-  ---------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Tested Code            Code delivered under the order must have substantial test code coverage and a clean code baseVersion-controlled, public repository of code comprising the product, which will remain in the government domain                                                                                                   Minimum of 90% test coverage of all code                                                                                                                                           Combination of manual review and automated testing
-  Properly Styled Code   [GSA 18F Front-End Guide](https://frontend.18f.gov/)                                                                                                                                                                                                                                                            0 linting errors and 0 warnings                                                                                                                                                    Combination of manual review and automated testing
-  Accessibility          Web Content Accessibility Guidelines 2.1 AA standards                                                                                                                                                                                                                                                           0 errors reported using an automated scanner, and 0 errors reported in manual testing                                                                                              [Pa11y](https://github.com/pa11y/pa11y)
-  Deployed               Code must successfully build and deploy into staging environment                                                                                                                                                                                                                                                Successful build with a single command                                                                                                                                             Combination of manual review and automated testing
-  Documented             All dependencies are listed and the licenses are documented. Major functionality in the software/source code is documented. Individual methods are documented inline using comments that permit the use of documentation-generation tools such as [JSDoc](http://usejsdoc.org/). A system diagram is provided   Combination of manual review and automated testing, if available                                                                                                                   Manual review
-  Security               [OWASP Application Security Verification Standard 4.0, Level 2](https://www.owasp.org/images/d/d4/OWASP_Application_Security_Verification_Standard_4.0-en.pdf)                                                                                                                                                  Code submitted must be free of medium- and high-level static and dynamic security vulnerabilities                                                                                  Clean tests from a static testing SaaS (such as [npm audit](https://docs.npmjs.com/cli/audit)) and from [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), along with documentation explaining any false positives
-  User research          Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end)                                                                                                                                                  Artifacts from usability testing and/or other research methods with end users are available at the end of every applicable sprint, in accordance with the vendor’s research plan   Manual review
 
-#### 
+|  Deliverable | Performance Standard(s) | Acceptable Quality Level | Method of Assessment |
+| :---: | :---: | :---: | :---: |
+|  Tested Code | Code delivered under the order must have substantial test code coverage and a clean code baseVersion-controlled, public repository of code comprising the product, which will remain in the government domain | Minimum of 90% test coverage of all code | Combination of manual review and automated testing |
+|  Properly Styled Code | [GSA 18F Front-End Guide](https://frontend.18f.gov/) | 0 linting errors and 0 warnings | Combination of manual review and automated testing |
+|  Accessibility | Web Content Accessibility Guidelines 2.1 AA standards | 0 errors reported using an automated scanner, and 0 errors reported in manual testing | [Pa11y](https://github.com/pa11y/pa11y) |
+|  Deployed | Code must successfully build and deploy into staging environment | Successful build with a single command | Combination of manual review and automated testing |
+|  Documented | All dependencies are listed and the licenses are documented. Major functionality in the software/source code is documented. Individual methods are documented inline using comments that permit the use of documentation-generation tools such as [JSDoc](http://usejsdoc.org/). A system diagram is provided | Combination of manual review and automated testing, if available | Manual review |
+|  Security | [OWASP Application Security Verification Standard 4.0, Level 2](https://www.owasp.org/images/d/d4/OWASP_Application_Security_Verification_Standard_4.0-en.pdf) | Code submitted must be free of medium- and high-level static and dynamic security vulnerabilities | Clean tests from a static testing SaaS (such as [npm audit](https://docs.npmjs.com/cli/audit)) and from [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), along with documentation explaining any false positives |
+|  User research | Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end) | Artifacts from usability testing and/or other research methods with end users are available at the end of every applicable sprint, in accordance with the vendor’s research plan | Manual review |
 
 Appendix C: Examples of TEP rating systems
 ------------------------------------------
@@ -356,8 +342,6 @@ practices.
 
 Here is an example of a recent design challenge put on by CMS.
 
-### 
-
 ### [*The Medicare Payment System Modernization*](https://usds.gov/projects/medicare-payment-program) [*Design Challenge*](https://fcw.com/blogs/lectern/2019/07/kelman-non-traditional-contractors.aspx)
 
 Imagine that you have come upon the large monolithic legacy system
@@ -404,7 +388,7 @@ modernization of this system:
     > identify and extract the exact data they need, when they need it.
 
 With the goals provided and as part of this design challenge, CMS wishes
-you to help develop of a longer-term vision and product strategy for
+you to help develop a longer-term vision and product strategy for
 this modernization effort.
 
 Because the existing system is so large and has many groups that are
@@ -487,29 +471,22 @@ proof of concepts to be transitioned into production, this effort
 shouldn’t be limited to just that system. This is a unique opportunity
 to synthesize diverse Medicare payment systems. Including the following:
 
-> · Common Working File (CWF)
->
-> · Multi-Carrier System (MCS)
->
-> · VIPS Medicare Shared System (VMS)
->
-> · CMMI models
+* Common Working File (CWF)
+* Multi-Carrier System (MCS)
+* VIPS Medicare Shared System (VMS)
+* CMMI models
 
 To achieve the goal of a successful payment modernization effort,
 contracting strategy must enable the following factors:
 
-> · Ability to award new tasks quickly
->
-> · Quality of technical talent available via contract vehicle
->
-> · Contractor Digital Service experience and approach (this is
-> different than “agile development”)
->
-> · Familiarity with CMS systems, specifically complex business logic
-> associated with Medicare FFS payment processing
->
-> · Ability to define development and infrastructure requirements at the
-> BPA level so details are not missed in task orders
+* Ability to award new tasks quickly
+* Quality of technical talent available via contract vehicle
+* Contractor Digital Service experience and approach (this is
+different than “agile development”)
+* Familiarity with CMS systems, specifically complex business logic
+associated with Medicare FFS payment processing
+* Ability to define development and infrastructure requirements at the
+BPA level so details are not missed in task orders
 
 There exists a variety of contracting options, each with pros and cons.
 It is the effort of this document to determine which contracting option
@@ -527,14 +504,15 @@ be the one-stop shop for agency development. There are certainly
 advantages to leveraging work already completed as well as drawbacks to
 leveraging a generic development contacting vehicle.
 
-  Pros                                                                           Cons
-  ------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  The IDIQ is already existing and vendors have been pre-vetted.                 The vendor pool is not specialized to any project.
-  The vendor pool is diverse based on company size.                              The vendor pool is so large the agile contracting is impossible.
-  The ceiling on the IDIQ is extremely high – low risk of breaking through it.   The probability of protest per contract is substantially higher due to more vendor bids and issues with small business sizes.
-  Orders under \$10M are not protestable.                                        Agile methodologies, user-center design, user design, and DevOps practices are not baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest.
-  All contract types permissible giving CMS added flexibility.                   Most vendors are not familiar with CMS payment processing and could struggle to meet the quick on boarding and rapidly changing needs of this project
-  Helping CMS meet small business goals.                                         Ability to award new tasks quickly.
+ 
+|  Pros | Cons |
+| :--- | :--- |
+|  The IDIQ is already existing and vendors have been pre-vetted. | The vendor pool is not specialized to any project. |
+|  The vendor pool is diverse based on company size. | The vendor pool is so large the agile contracting is impossible. |
+|  The ceiling on the IDIQ is extremely high – low risk of breaking through it. | The probability of protest per contract is substantially higher due to more vendor bids and issues with small business sizes. |
+|  Orders under $10M are not protestable. | Agile methodologies, user-center design, user design, and DevOps practices are not baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest. |
+|  All contract types permissible giving CMS added flexibility. | Most vendors are not familiar with CMS payment processing and could struggle to meet the quick on boarding and rapidly changing needs of this project |
+|  Helping CMS meet small business goals. | Ability to award new tasks quickly. |
 
 ***SPARC with on-ramp***
 
@@ -543,73 +521,57 @@ for new vendors to be added to the IDIQ. This list includes all of the
 Pros and Cons listed previous with SPARC with the following
 consideration.
 
-  Pros                                                                                                              Cons
-  ----------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work   High protest probability - would require a competitive process which could be protested – there are two points of protest because we already have a large vetted pool of contractors plus the source selection decision
-                                                                                                                    Additional resources need on OAGM and program side to manage source selection process
+|  Pros | Cons |
+| :--- | :--- |
+|  Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work | High protest probability - would require a competitive process which could be protested – there are two points of protest because we already have a large vetted pool of contractors plus the source selection decision |
+|  - | Additional resources need on OAGM and program side to manage source selection process |
 
 ***GWAC – Alliant 2, CIO SP3***
 
-  Pros                                                       Cons
-  ---------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Existing pre-vetted cadre of qualified vendors             BIC designation which will help CMS meet OMB targets
-  Orders under \$10M not protestable                         Agency could receive criticism for not using SPARC which was intended, in part, for agile development; however, climate is pushing agencies toward Category Management and SUM/BIC use
-  All contract types permissible                             Not all vendors will have subject matter expertise with CMS systems or payment processing
-  Alliant 2 explicitly includes agile development services   
+|  Pros | Cons |
+| :--- | :--- |
+|  Existing pre-vetted cadre of qualified vendors | BIC designation which will help CMS meet OMB targets |
+|  Orders under $10M not protestable | Agency could receive criticism for not using SPARC which was intended, in part, for agile development; however, climate is pushing agencies toward Category Management and SUM/BIC use |
+|  All contract types permissible | Not all vendors will have subject matter expertise with CMS systems or payment processing |
+|  Alliant 2 explicitly includes agile development services |  |
 
 ***Agency Wide BPA***
 
-  Pros                                                                                                                                                                           Cons
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------
-  Targeted competition possible; however, must provide RFQ to any company requesting it                                                                                          Vendors are not tailored to the project’s specific goals.
-  Ability to reach new contractors who have entered the market for initial competition                                                                                           Initial award and any calls are protestable
-  BPA holders will be specifically selected based upon demonstrated ability to develop and deploy digital services using agile methodologies, user centered design and DevOps.   New umbrella contract vehicle is resource intensive versus placing individual orders against existing contract vehicles
-  Could receive OMB designation as a SUM vehicle but requires mandatory use policy and other reporting requirements                                                              If significant overlap to existing SUM/BIC vehicle, modified business case to OMB required
-                                                                                                                                                                                 If approved by OMB, and BPA put in place, CMS mandatory use policy and rigorous reporting requirements needed
-                                                                                                                                                                                 Inability to add new contractors to mix after award of BPA
-                                                                                                                                                                                 Risk of ending up with a significant number of vendors in pool
-                                                                                                                                                                                 Agency could receive criticism for not using SPARC which was intended, in part, for agile development
+|  Pros | Cons |
+| :--- | :--- |
+|  Targeted competition possible; however, must provide RFQ to any company requesting it | Vendors are not tailored to the project’s specific goals. |
+|  Ability to reach new contractors who have entered the market for initial competition | Initial award and any calls are protestable |
+|  BPA holders will be specifically selected based upon demonstrated ability to develop and deploy digital services using agile methodologies, user centered design and DevOps. | New umbrella contract vehicle is resource intensive versus placing individual orders against existing contract vehicles |
+|  Could receive OMB designation as a SUM vehicle but requires mandatory use policy and other reporting requirements | If significant overlap to existing SUM/BIC vehicle, modified business case to OMB required |
+|  - | If approved by OMB, and BPA put in place, CMS mandatory use policy and rigorous reporting requirements needed |
+|  - | Inability to add new contractors to mix after award of BPA |
+|  - | Risk of ending up with a significant number of vendors in pool |
+|  - | Agency could receive criticism for not using SPARC which was intended, in part, for agile development |
 
 ***GSA Schedule Task Order Competitions***
 
 The GSA Schedule is available for individual task orders as they are
 necessary.
 
-  Pros                                                                                                                                    Cons
-  --------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Existing pre-vetted cadre of qualified vendors                                                                                          Not a SUM or BIC vehicle.
-  New contractors are constantly being added to the industrial base.                                                                      Hundreds of vendors; however, FPDS data shows that \[x\] proposals are received on average
-  Targeted competition possible (to reasonably ensure receipt of at least 3 quotations); must provide RFQ to any company requesting it.   Limited to FFP or L-H; however, these contract types are consistent with commercial practices for buying agile development
-                                                                                                                                          Potential for new entrant who has no prior knowledge of complexity of CMS programs; however, discriminating evaluation criteria can mitigate this risk when this issue is critical to CMS
-                                                                                                                                          Agency could receive criticism for not using SPARC which was intended, in part, for agile development
+|  Pros | Cons |
+| :--- | :--- |
+|  Existing pre-vetted cadre of qualified vendors | Not a SUM or BIC vehicle. |
+|  New contractors are constantly being added to the industrial base. | Hundreds of vendors; however, FPDS data shows that [x] proposals are received on average |
+|  Targeted competition possible (to reasonably ensure receipt of at least 3 quotations); must provide RFQ to any company requesting it. | Limited to FFP or L-H; however, these contract types are consistent with commercial practices for buying agile development |
+
+
 
 ***Project Specific BPA off of GSA Schedule***
 
-This is a contracting strategy that creates a BPA tailored to the
-project. There have been plenty of lessons learned from constructing
-project specific BPAs such as ADELE.
-
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Pros                                                                                                                                                                                      Cons
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
-  The vendors are tailored to the project’s needs                                                                                                                                           Initial award and any calls are protestable
-
-  Contracts can be issued as new problems or requirements are encountered.                                                                                                                  Multiple program specific BPAs are resource intensive for the agency to award and manage
-
-  Smaller pool of specialized vendors.                                                                                                                                                      If the vendors are smaller companies, there is risk of being unable to meet the needs of the total work necessary for the project.
-
-  The pool of vendors all become domain experts as the project matures.                                                                                                                     If significant overlap to existing SUM/BIC vehicle, modified business case to OMB required
-
-  Agile methodologies, user-center design, user design, and DevOps practices can be baked into the BPA. This avoids proposals with boilerplate language while focusing on the objectives.   If approved by OMB, and BPA put in place, CMS mandatory use policy and rigorous reporting requirements needed
-
-  The base period on awarded contracts is shorter.                                                                                                                                          
-                                                                                                                                                                                            
-  CMS is put into the position of less risk by requiring results from vendors faster.                                                                                                       
-                                                                                                                                                                                            
-  CMS does not have the pressure to award existing vendors on a contract re-compete due to transition time shorten via domain knowledge. This drive competition.                            
-
-  Avoids single points of failure. Re-competes are actually encouraged.                                                                                                                     
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Pros | Cons |
+| :--- | :--- |
+|  The vendors are tailored to the project’s needs | Initial award and any calls are protestable |
+|  Contracts can be issued as new problems or requirements are encountered. | Multiple program specific BPAs are resource intensive for the agency to award and manage |
+|  Smaller pool of specialized vendors. | If the vendors are smaller companies, there is risk of being unable to meet the needs of the total work necessary for the project. |
+|  The pool of vendors all become domain experts as the project matures. | If significant overlap to existing SUM/BIC vehicle, modified business case to OMB required |
+|  Agile methodologies, user-center design, user design, and DevOps practices can be baked into the BPA. This avoids proposals with boilerplate language while focusing on the objectives. | If approved by OMB, and BPA put in place, CMS mandatory use policy and rigorous reporting requirements needed |
+|  The base period on awarded contracts is shorter.<br/> <br/>CMS is put into the position of less risk by requiring results from vendors faster.<br/> <br/>CMS does not have the pressure to award existing vendors on a contract re-compete due to transition time shorten via domain knowledge. This drive competition. | - |
+|  Avoids single points of failure. Re-competes are actually encouraged. | - |
 
 While there are a variety of potential contracting options available, to
 date, the most successful approach to complex system development at CMS
@@ -618,42 +580,30 @@ Payment Program.
 
 Some high-level stats on the QPP BPA to date:
 
-> · There have been 16 task orders awarded under ADELE.
->
-> · All vendors are small businesses.
->
-> · Every ADELE BPA holder has won an award at this point.
->
-> · All ADELE task orders have been competitively awarded.
->
-> · Zero Protests.
->
-> · The average procurement action lead time is 67 days.
->
-> · The average Period of Performance for an ADELE task order is 2.2
-> years.
->
-> · Responses were typically limited to 20-25 pages with 2-week
-> turnarounds.
->
-> · Low dollar value allows for COR II rather than COR III.
+* There have been 16 task orders awarded under ADELE.
+* All vendors are small businesses.
+* Every ADELE BPA holder has won an award at this point.
+* All ADELE task orders have been competitively awarded.
+* Zero Protests.
+* The average procurement action lead time is 67 days.
+* The average Period of Performance for an ADELE task order is 2.2
+years.
+* Responses were typically limited to 20-25 pages with 2-week
+turnarounds.
+* Low dollar value allows for COR II rather than COR III.
 
 ***A Tale of Two Contract Vehicles: A Retrospective***
 
 As previously listed, the goals for our contracting strategy are:
 
-> · Ability to award new tasks quickly
->
-> · Quality of technical talent available via contract vehicle
->
-> · Contractor Digital Service experience and approach (this is
-> different than “agile development”)
->
-> · Familiarity with CMS systems, specifically complex business logic
-> associated with Medicare FFS payment processing
->
-> · Ability to define development and infrastructure requirements at the
-> BPA level so details are not missed in task orders
+* Ability to award new tasks quickly
+* Quality of technical talent available via contract vehicle
+* Contractor Digital Service experience and approach (this is
+different than “agile development”)
+* Familiarity with CMS systems, specifically complex business logic
+associated with Medicare FFS payment processing
+* Ability to define development and infrastructure requirements at the
+BPA level so details are not missed in task orders
 
 CMS has experience over the past year issuing contracts through both
 SPARC and ADELE and there are some great data points that can be
@@ -669,10 +619,13 @@ a complex system is incorrect. As new requirements come to light
 throughout the modernization process, the ability to issue contracts
 rapidly is necessary.
 
-  **Vehicle**   **Ability to award new tasks quickly**
-  ------------- --------------------------------------------------------
-  SPARC         Competitive task orders averaged 139 days (19.9 weeks)
-  ADELE BPA     Competitive task orders averaged 67 days. (9.5 weeks)
+
+|  **Vehicle** | **Ability to award new tasks quickly** |
+| :--- | :--- |
+|  SPARC | Competitive task orders averaged 139 days (19.9 weeks) |
+|  ADELE BPA | Competitive task orders averaged 67 days. (9.5 weeks) |
+
+
 
 ***Quality of technical talent available via contract vehicle***
 
@@ -684,10 +637,10 @@ through previous proposals. Finding the sweet spot of the vendor pool
 size that allows for competition and allows vendors to continuously
 challenge each other to rise the skill level is important.
 
-  **Vehicle**   **Quality of technical talent available via contract vehicle**
-  ------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  SPARC         The density of high skilled vendors is variable. Roughly 5% of the total vendors have won a competitive proposal under SPARC.
-  ADELE BPA     100% of the vendors have won a competitive proposal under ADELE. Each one of these competitive proposals included a design challenge that required working software and designs to be submitted.
+|  **Vehicle** | **Quality of technical talent available via contract vehicle** |
+| :--- | :--- |
+|  SPARC | The density of high skilled vendors is variable. Roughly 5% of the total vendors have won a competitive proposal under SPARC. |
+|  ADELE BPA | 100% of the vendors have won a competitive proposal under ADELE. Each one of these competitive proposals included a design challenge that required working software and designs to be submitted. |
 
 ***Contractor Digital Service experience and approach (this is different
 than “agile development”)***
@@ -698,10 +651,11 @@ an agile methodology are necessary in delivering working software in
 small increments allowing for quickly changing development and design as
 new requirements are discovered.
 
-  **Vehicle**   **Contractor Digital Service Experience**
-  ------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-  SPARC         Partners offer agile, waterfall, and hybrid development methodology. Having digital service skill sets were not prerequisites for joining SPARC.
-  ADELE BPA     100% of the vendors on ADELE went through market research making sure that modern digital services and agile development practices were core to their business.
+
+|  **Vehicle** | **Contractor Digital Service Experience** |
+| :--- | :--- |
+|  SPARC | Partners offer agile, waterfall, and hybrid development methodology. Having digital service skill sets were not prerequisites for joining SPARC. |
+|  ADELE BPA | 100% of the vendors on ADELE went through market research making sure that modern digital services and agile development practices were core to their business. |
 
 ***Familiarity with CMS systems, specifically complex business logic
 associated with Medicare FFS payment processing***
@@ -720,10 +674,10 @@ In some cases it takes over two months for *new* contractors to get
 access to CMS systems, this would make any attempt at iterative
 development dead on arrival.
 
-  **Vehicle**   **Familiarity with CMS systems.**
-  ------------- -------------------------------------------------------------------------
-  SPARC         The average period of performance for a SPARC task order is 3.8 years.
-  ADELE BPA     The average period of performance for an ADELE task order is 2.2 years.
+|  **Vehicle** | **Familiarity with CMS systems.** |
+| :--- | :--- |
+|  SPARC | The average period of performance for a SPARC task order is 3.8 years. |
+|  ADELE BPA | The average period of performance for an ADELE task order is 2.2 years. |
 
 ***Ability to define development and infrastructure requirements at the
 BPA level so details are not missed in task orders***
@@ -735,21 +689,19 @@ on each contract. This protects CMS from potentially missing common
 contracting needs with each contract issued. This also cuts down on the
 size of the proposal that needs to be reviewed with each task order.
 
-  **Vehicle**   **Requirements baked into the vehicle**
-  ------------- ----------------------------------------------------
-  SPARC         None.
-  ADELE BPA     Agile methodologies. Digital Service requirements.
+
+|  **Vehicle** | **Requirements baked into the vehicle** |
+| :--- | :--- |
+|  SPARC | None. |
+|  ADELE BPA | Agile methodologies. Digital Service requirements. |
+
 
 Appendix F: Sample Statement of Objectives
 ------------------------------------------
 
-### 
-
-Modern Payment Services for the
-
-Medicare Fee for Service (FFS) Program
-
-Statement of Objectives (SOO)
+### Modern Payment Services for the
+### Medicare Fee for Service (FFS) Program
+### Statement of Objectives (SOO)
 
 ### Overview and Background Information
 
@@ -911,61 +863,49 @@ team:
 
 **Enable effective, production-ready cloud operations**
 
-> · Found and nurture a DevOps culture following best practices laid out
-> in the SRE book\[1\]
->
-> · Adopt and champion effective tooling to support a DevOps approach,
-> making effective use of tools already available (such as Splunk and
-> New Relic)
->
-> · Determine the risk tolerance of the modernized modules and devise
-> processes and infrastructure that ensure an appropriate level of
-> availability
->
-> · Implement practical and effective monitoring and alerting to enable
-> efficient detection and response to any discovered defects,
-> availability incidents, or security incidents
->
-> · Provide a team capable of fast and effective incident response which
-> mitigates issues within hours, and transparently communicates the
-> incident status to stakeholders
->
-> o Incident response should have battle-tested mechanisms for rapidly
-> contacting and collaborating existing shared system developers and
-> maintainers
+* Found and nurture a DevOps culture following best practices laid out
+in the SRE book[^1]
+* Adopt and champion effective tooling to support a DevOps approach,
+making effective use of tools already available (such as Splunk and
+New Relic)
+* Determine the risk tolerance of the modernized modules and devise
+processes and infrastructure that ensure an appropriate level of
+availability
+* Implement practical and effective monitoring and alerting to enable
+efficient detection and response to any discovered defects,
+availability incidents, or security incidents
+* Provide a team capable of fast and effective incident response which
+mitigates issues within hours, and transparently communicates the
+incident status to stakeholders
+  * Incident response should have battle-tested mechanisms for rapidly
+contacting and collaborating existing shared system developers and
+maintainers
 
 **Build tools to empower and accelerate development, testing, and
 deployment in the cloud**
 
-> · Design and build infrastructure tooling to enable testing and
-> development that allows all stakeholders to have high confidence that
-> shared system updates function as expected, especially with respect to
-> their interaction and interface with other systems
->
-> o Develop performance testing methodologies to ensure that updates
-> will not cause unacceptable negative impacts on nightly batch cycle
-> processing time.
->
-> · Build and maintain development, staging, and production environments
->
-> · Implement deployment tools that allow for fast, push-button
-> automated deployment and rollback of high availability applications
->
-> · Ensure tools are easy to use for development teams new to or
-> unfamiliar with modern cloud infrastructure, and with varying levels
-> of engineering expertise
->
-> · Improve and maintain a continuous integration system to build and
-> test updates
->
-> · Ensure the system is highly secure, and has a well understood threat
-> model which is actively monitored and updated
->
-> · Help navigate security compliance process to ensure efficient
-> delivery of updates on a regular schedule, for example gaining
-> approval of necessary Security Impact Analyses and supporting the
-> aspects of the shared systems’ Security Control Assessments impacted
-> by this work
+* Design and build infrastructure tooling to enable testing and
+development that allows all stakeholders to have high confidence that
+shared system updates function as expected, especially with respect to
+their interaction and interface with other systems
+  * Develop performance testing methodologies to ensure that updates
+will not cause unacceptable negative impacts on nightly batch cycle
+processing time.
+* Build and maintain development, staging, and production environments
+* Implement deployment tools that allow for fast, push-button
+automated deployment and rollback of high availability applications
+* Ensure tools are easy to use for development teams new to or
+unfamiliar with modern cloud infrastructure, and with varying levels
+of engineering expertise
+* Improve and maintain a continuous integration system to build and
+test updates
+* Ensure the system is highly secure, and has a well understood threat
+model which is actively monitored and updated
+* Help navigate security compliance process to ensure efficient
+delivery of updates on a regular schedule, for example gaining
+approval of necessary Security Impact Analyses and supporting the
+aspects of the shared systems’ Security Control Assessments impacted
+by this work
 
 ###  
 
@@ -1018,55 +958,45 @@ Research** team to focus on;
 
 **Effective use of modern technologies and methodologies**
 
-> · Embed developers on existing sprint teams, writing and review code
-> required to enable each module to be effectively used via a modern
-> interface, and if necessary, deployed into a modern cloud environment
->
-> · Effectively utilize modern technology within the modules where it
-> will add substantial value and is an appropriate solution, while also
-> recognizing areas where the benefits of migrating to a modern
-> technology are not substantial enough to warrant the move
->
-> · Assist in building modern development environment and testing tools
-> to facilitate maintenance and ongoing development of modules
->
-> · Ensure that the quality of the system remains high throughout the
-> shift to using modern Agile processes for development, testing, and
-> deployment
->
-> o Provide mechanisms for thorough and efficient testing, ensuring the
-> rate of defects in the code is at a threshold determined by CMS to be
-> appropriate for the extremely critical sensitivity of this system
->
-> o Ensure the system is highly secure, and has a well understood threat
-> model which is actively monitored and updated
->
-> o Help navigate security compliance process for cloud environments to
-> ensure efficient delivery of updates on a regular schedule
->
-> o Assess and optimize the performance impact of incorporating
-> modernized modules in the existing system
+* Embed developers on existing sprint teams, writing and review code
+required to enable each module to be effectively used via a modern
+interface, and if necessary, deployed into a modern cloud environment
+* Effectively utilize modern technology within the modules where it
+will add substantial value and is an appropriate solution, while also
+recognizing areas where the benefits of migrating to a modern
+technology are not substantial enough to warrant the move
+* Assist in building modern development environment and testing tools
+to facilitate maintenance and ongoing development of modules
+* Ensure that the quality of the system remains high throughout the
+shift to using modern Agile processes for development, testing, and
+deployment
+  * Provide mechanisms for thorough and efficient testing, ensuring the
+rate of defects in the code is at a threshold determined by CMS to be
+appropriate for the extremely critical sensitivity of this system
+  * Ensure the system is highly secure, and has a well understood threat
+model which is actively monitored and updated
+  * Help navigate security compliance process for cloud environments to
+ensure efficient delivery of updates on a regular schedule
+  * Assess and optimize the performance impact of incorporating
+modernized modules in the existing system
 
 **Collaborative user research to inform, propose, design, and execute on
 projects that achieve modernization goals**
 
-> · Perform user research to determine the impact (both positive and
-> negative) of each module on providers, beneficiaries, maintainers,
-> MACs (including systems cycle run times) and CMS stakeholders, and use
-> that understanding to provide suggestions to leverage technology to
-> maximize the benefit of modernization to the Medicare ecosystem
->
-> · Provide input and suggestions, stemming from research into the needs
-> of users and the design of the system, on the overall goals of the FFS
-> modernization program
->
-> · Participate in the design and architecture of the proofs of concept
-> and modernized modules in collaboration with the existing sprint
-> teams, providing expertise on effective usage of current industry
-> standard open source technologies
->
-> · Develop, execute, and iterate on effective methodologies that allow
-> the regular, efficient deployment of modernized modules to production
+* Perform user research to determine the impact (both positive and
+negative) of each module on providers, beneficiaries, maintainers,
+MACs (including systems cycle run times) and CMS stakeholders, and use
+that understanding to provide suggestions to leverage technology to
+maximize the benefit of modernization to the Medicare ecosystem
+* Provide input and suggestions, stemming from research into the needs
+of users and the design of the system, on the overall goals of the FFS
+modernization program
+* Participate in the design and architecture of the proofs of concept
+and modernized modules in collaboration with the existing sprint
+teams, providing expertise on effective usage of current industry
+standard open source technologies
+* Develop, execute, and iterate on effective methodologies that allow
+the regular, efficient deployment of modernized modules to production
 
 ### Collaboration with existing groups
 
@@ -1276,9 +1206,4 @@ existing process as well, with help from the existing Maintainer
 Modernization Team, so that they understand how to interact and
 integrate with that system in an effective way.
 
-\[1\] https://landing.google.com/sre/book/index.html
-
-[^1]: *Big bang is a common term in software development when switching
-    from one system to another. You can think of this as turning off the
-    lights on one system and then turning on the lights on another. This
-    approach is very risky with a high probability of failure.*
+[^1] https://landing.google.com/sre/book/index.html
