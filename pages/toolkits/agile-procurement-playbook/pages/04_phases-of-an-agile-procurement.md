@@ -28,15 +28,11 @@ product:
 Another approach would be to use these key questions to guide the
 process:
 
--   [*What is the scope of the project? What are the key
-    > deliverables?*](#aligning-on-goals-and-strategy)
+-   [*What is the scope of the project? What are the key deliverables?*](#aligning-on-goals-and-strategy)
 
--   [*What are the objectives and milestones? How frequent are
-    > they?*](#drafting-a-statement-of-objectives-vs.-a-statement-of-work)
+-   [*What are the objectives and milestones? How frequent are they?*](#drafting-a-statement-of-objectives-vs-a-statement-of-work)
 
--   [*What are the performance metrics defined in the
-    > contract*](#quality-management-plan-qmp)? (e.g., response time,
-    > system uptime, time period to address priority issues)
+-   [*What are the performance metrics defined in the contract*](#quality-management-plan-qmp)? (e.g., response time,system uptime, time period to address priority issues)
 
 ### Defining the goals and objectives
 
@@ -219,7 +215,7 @@ avoids having to constantly modify existing contracts as it gains new
 information and insights.
 
 For an example of an SOO, see [*Appendix
-F*](#appendix-f-sample-statement-of-objectives)
+F*](/work/toolkits/agile-procurement-playbook/appendix#appendix-f-sample-statement-of-objectives)
 
 ### Planning the proposal evaluation process
 
@@ -255,7 +251,7 @@ milestones and backlog of prioritized work), or any other range of
 artifacts that will be essential for the specific procurement.
 
 For an example of a design challenge, see [*Appendix
-D*](#appendix-d-example-design-challenges)
+D*](/work/toolkits/agile-procurement-playbook/appendix#appendix-d-example-design-challenges)
 
 #### Quality Management Plan (QMP)
 
@@ -278,7 +274,7 @@ to come up with most — if not all — of the performance metrics they are
 to be measured on.
 
 For a Quality Management Plan template, refer to [*Appendix
-B*](#appendix-b-list-of-templates)
+B*](/work/toolkits/agile-procurement-playbook/appendix#appendix-b-list-of-templates)
 
 ##### Quality Assurance Surveillance Plan (QASP)
 
@@ -369,7 +365,7 @@ office for awarding the contract. Following receipt of Quotes, the TEP
 will perform an analysis on a factor-by-factor basis, noting the
 positive and negative aspects of each proposal, and assigning each
 proposal a score based on [*an agreed upon
-method*](#appendix-c-examples-of-tep-rating-systems).
+method*](/work/toolkits/agile-procurement-playbook/appendix#appendix-c-examples-of-tep-rating-systems).
 
 SMEs are experts in research, design, engineering, or any other subject.
 These individuals may have years of experience in private industry or be
@@ -421,7 +417,7 @@ upset.
 
 The government can benefit through the terms/language in which it
 evaluates whether vendors are down-selected. [*Appendix
-C*](#appendix-c-examples-of-tep-rating-systems) provides an example of
+C*](/work/toolkits/agile-procurement-playbook/appendix#appendix-c-examples-of-tep-rating-systems) provides an example of
 how the government can be transparent about the down-select criteria.
 
 #### Selection and award

@@ -75,7 +75,7 @@ support the project’s short- and long-term objectives.
 CMS put together an analysis of alternatives to help them decide which
 vehicle would be best suited to supporting the new procurement needs.
 (See [*Appendix
-E*](#appendix-e-sample-analysis-of-procurement-options)). Ultimately,
+E*](/work/toolkits/agile-procurement-playbook/appendix#appendix-e-sample-analysis-of-procurement-options)). Ultimately,
 they selected a blanket purchase agreement (BPA) as the best vehicle to:
 
 -   Quickly create a small pool of vendors that would become experts in

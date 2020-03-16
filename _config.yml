@@ -43,9 +43,6 @@ posts_min_common_tags: 2
 # Build settings
 markdown: kramdown
 
-kramdown:
-  auto_ids: false
-
 collections:
   projects:
     output: true

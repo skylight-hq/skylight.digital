@@ -107,11 +107,8 @@ together.
 
 **For more on building an agile culture, check out:**
 
--   [*How to Build a Sustainable Agile
-    > Culture*](https://www.cmswire.com/digital-workplace/how-to-build-a-sustainable-agile-culture/)
+-   [*How to Build a Sustainable Agile Culture*](https://www.cmswire.com/digital-workplace/how-to-build-a-sustainable-agile-culture/)
 
--   [*The five trademarks of agile
-    > organizations*](https://www.mckinsey.com/business-functions/organization/our-insights/the-five-trademarks-of-agile-organizations)
+-   [*The five trademarks of agile organizations*](https://www.mckinsey.com/business-functions/organization/our-insights/the-five-trademarks-of-agile-organizations)
 
--   [*How To (Really) Build An Agile Culture Through Coaching
-    > Skills*](https://www.forbes.com/sites/forbescoachescouncil/2018/02/27/how-to-really-build-an-agile-culture-through-coaching-skills/#4a4327dd1e1e)
+-   [*How To (Really) Build An Agile Culture Through Coaching Skills*](https://www.forbes.com/sites/forbescoachescouncil/2018/02/27/how-to-really-build-an-agile-culture-through-coaching-skills/#4a4327dd1e1e)
