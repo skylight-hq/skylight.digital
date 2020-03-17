@@ -16,7 +16,7 @@ One way to de-identify data is to remove all of the fields that could be used to
 ### Aggregating data
 Data owners can also choose to aggregate data. This is accomplished by providing counts of specific fields for a dataset. For example, sensitive fields like birthday and address can be converted to age range and zip code in order to provide the counts of each age group living in a specific area. 
 
-When aggregating data, it’s important to ensure that groups aren’t split up so much that it’s still possible to identify individuals. For example, if you’re aggregating based on school, test scores, grade, and race and ethnicity, the counts can’t be small enough for someone to identify individual students. 
+When aggregating data, it’s important to ensure that groups aren’t split up so much that it’s still possible to identify individuals. For example, if you’re aggregating data based on any one of school, test scores, grade, or race and ethnicity, the counts can’t be small enough for someone to identify individual students. 
 
 ### Recommended reading 
 * [Guidance Regarding Methods for De-identification of Protected Health Information in Accordance with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html)
@@ -31,7 +31,7 @@ Once the parties have agreed to share data, it’s time to consider the logistic
 Data that is open to the public doesn’t require a secure channel for data transfer. Some options that might be suited for file transfers are:
 
 1. Email for small data files
-1. Commercial cloud storage solutions (dropbox, google drive, Microsoft Office OneDrive, etc.) for large data files
+1. Commercial cloud storage solutions (dropbox, google drive, Microsoft Office OneDrive, Amazon AWS, etc.) for large data files
 1. FTP (File Transfer Protocol) for large data files
 
 ### Zipping on Windows OS
