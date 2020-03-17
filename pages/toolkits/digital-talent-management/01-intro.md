@@ -4,29 +4,82 @@ title: Digital Talent Management Handbook
 permalink: /work/toolkits/digital-talent-management/
 sidenav: digital_talent_management
 ---
+Introduction
+============
 
-## Introduction
-Regardless of mission, all government agencies are now technology organizations. Technology is used extensively behind the scenes to run the organization, manage, and do the work. The services an agency offers to the public are increasingly available online.
+Regardless of mission, all government agencies are now technology
+organizations. Technology is used extensively behind the scenes to run
+the organization, manage, and do the work. The services an agency offers
+to the public are increasingly available online.
 
-However, most of these technology efforts leave much to be desired. Systems are hard to maintain, interfaces are unfriendly, and errors are common. In the worst cases, getting services from the government still needs to be done in person or through the mail.
+However, most of these technology efforts leave much to be desired.
+Systems are hard to maintain, interfaces are unfriendly, and errors are
+common. In the worst cases, getting services from the government still
+needs to be done in person or through the mail.
 
-Governments need to get better at building and buying technology. To do so, agencies need to build in-house digital teams with expertise in building and buying modern technology services. These technology teams need to be cross-functional, with skills from user experience, visual design, product management, and software development. They need to be comfortable using the latest methods such as: agile and iterative development, human centered design, and DevOps. And lastly, these teams need to be empowered to make decisions, operate in a self-organizing manner, and initiate change where they see fit.
+Governments need to get better at building and buying technology. To do
+so, agencies need to build in-house digital teams with expertise in
+building and buying modern technology services. These technology teams
+need to be cross-functional, with skills from user experience, visual
+design, product management, and software development. They need to be
+comfortable using the latest methods such as: agile and iterative
+development, human centered design, and DevOps. And lastly, these teams
+need to be empowered to make decisions, operate in a self-organizing
+manner, and initiate change where they see fit. In this document, we
+refer to members of these teams as digital talent.
 
-Enabling this requires a change to how governments recruit, hire, onboard, and retain digital talent. It requires shifting the work culture to be even more collaborative. Changes in management style happen hand in hand.
+Enabling this requires a change to how governments recruit, hire,
+onboard, and retain digital talent. It requires shifting the work
+culture to be even more collaborative. Changes in management style
+happen hand in hand.
 
-This handbook is intended to be a practical guide for federal, state, and local governments looking to build out their digital capacity to meet the needs in delivering technical products and programs.
+This handbook is intended to be a practical guide for federal, state,
+and local governments looking to build out their digital capacity to
+meet the needs in delivering technical products and programs.
 
-### How to use this handbook
-This handbook is written in chronological order, covering all of the steps it takes to build your digital teams.
+How to use this handbook 
+-------------------------
 
-Be intentional about increasing your digital capacity: start by understanding and quantifying your talent gaps. This will help reveal where digital teams are needed the most throughout your organization. Then use this research to build your digital talent strategy, which will likely involve a mix of hiring new talent and modernizing the skills of existing employees.
+This handbook is written in chronological order, covering all of the
+steps it takes to build your digital teams.
 
-Building a successful digital organization requires focusing on three major areas:
-1. **Talent.** Recruit, hire, and onboard digital talent into cross-functional, empowered, self-organizing teams. Commit to modernizing the skills of existing employees through continual education.
-1. **Environment.** Build a collaborative work environment. Provide your teams with the tolls, physical space, culture, and leadership they need to succeed.
-1. **Communication.** Instigate digital transformation throughout your organization by telling the stories of how you do the work. These stories will help inspire your organization.
+Be intentional about increasing your digital capacity. Start by
+understanding where digital teams are needed most in your organization.
+Plan to start by forming teams around public facing services that need
+the most improvement. Digital teams can be effective at bringing
+paper-based processes online, streamlining bureaucratic processes, and
+modernizing error-prone legacy systems, amongst other things. Use this
+research to build your digital talent strategy, which will likely
+involve a mix of hiring new talent and modernizing the skills of
+existing employees.
 
-Start small, and test the success of each initiative before rolling it out to a wider audience. What works elsewhere may not work here, so be prepared to iterate. Regular retrospectives will help you iteratively improve and build your organization.
+Building a successful digital organization requires focusing on three
+major areas:
 
-### Intended audience
-We expect this to be read by agency technology leadership: CIOs, team leads, and other hiring managers. Agency leadership such as commissioners and administrators should skim this handbook, paying particular attention to the leadership and culture sections. Both of those sections apply to the entire organization, not just the technical staff.
+1.  **Talent**. Recruit, hire, and onboard digital talent into
+    > cross-functional, empowered, self-organizing teams. Commit to
+    > modernizing the skills of existing employees through continual
+    > education.
+
+2.  **Environment**. Build a collaborative work environment. Provide
+    > your teams with the tolls, physical space, culture, and leadership
+    > they need to succeed.
+
+3.  **Communication**. Instigate digital transformation throughout your
+    > organization by telling the stories of how you do the work. These
+    > stories will help inspire your organization.
+
+Start small, and test the success of each initiative before rolling it
+out to a wider audience. What works elsewhere may not work here, so be
+prepared to iterate. Regular retrospectives will help you iteratively
+improve and build your organization.
+
+Intended audience
+-----------------
+
+We expect this to be read by agency technology leadership: CIOs, team
+leads, hiring managers and human resources. Agency leadership such as
+commissioners and administrators should skim this handbook, paying
+particular attention to the leadership and culture sections. Both of
+those sections apply to the entire organization, not just the technical
+staff.
