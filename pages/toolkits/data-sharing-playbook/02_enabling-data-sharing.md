@@ -80,7 +80,7 @@ Researchers discovered that a major health provider’s algorithm favored white 
 
 Data analysts are ultimately responsible for how they use your agency’s data; however, as the data owners and experts, you can help data analysts avoid biases in data that perpetuate racism, sexism, and other forms of discrimination. 
 
-First, be open about the limitations of the agency’s data to reduce the likelihood that it will be used in ways that have unintended consequences. Second, works towards systemic changes to data collection practices. Finally, require data requesters to demonstrate responsible use of your agency’s data. The recommended reading below provides guidance on identifying and eliminating sources of implicit bias. 
+First, be open about the limitations of the agency’s data to reduce the likelihood that it will be used in ways that have unintended consequences. Second, work towards systemic changes to data collection practices. Finally, require data requesters to demonstrate responsible use of your agency’s data. The recommended reading below provides guidance on identifying and eliminating sources of implicit bias. 
 
 ### Recommended reading
 
@@ -106,7 +106,7 @@ Ensure that the data requester answers the questions below in order to evaluate 
 * What is the purpose of the request?
 * How does the requester plan to use the data?
 * Who will have access to the data?
-* What are the specific data they are requesting, and what are the specific parameters, such as individual or aggregate data and over what time period?
+* What are the specific data they are requesting, and what are the specific parameters (such as individual or aggregate data, and over what time period) of that data?
 * How frequently will this data be needed? For example, is this a one-time need or a recurring need?
 * How long is the requester seeking to keep the data? When and how will the data be destroyed? How is this reported or disseminated to the data owner?
 
