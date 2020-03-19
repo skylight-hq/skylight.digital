@@ -17,9 +17,20 @@ data_sharing_playbook:
   toc:
     - title: Introduction
       url: /work/toolkits/data-sharing-playbook/
-    - title: Another nav item
-      url: #0
-
+    - title: Enabling Data Sharing
+      url: /work/toolkits/data-sharing-playbook/enabling-data-sharing
+    - title: Responding to Data Requests
+      url: /work/toolkits/data-sharing-playbook/responding-to-data-requests
+    - title: Safeguarding Data
+      url: /work/toolkits/data-sharing-playbook/safeguarding-data
+    - title: Preparing a Successful Data Request
+      url: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request
+    - title: Transferring Data
+      url: /work/toolkits/data-sharing-playbook/transferring-data
+    - title: Setting Smart Goals
+      url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals
+    - title: Linking Datasets
+      url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets
 data_culture_playbook:
   title: Data Culture Playbook
   description: An introductory guide on how to cultivate a data culture in order to improve data-informed decision-making.
