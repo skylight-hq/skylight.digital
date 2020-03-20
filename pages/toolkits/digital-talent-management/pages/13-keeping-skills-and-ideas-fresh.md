@@ -71,7 +71,6 @@ Recommended reading
 -   [*Agile Government Leaders
     Academy*](https://www.agilegovleaders.org/academy/)
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: Peak Academy
 
 “*Peak Academy trains and coaches employees at all levels to improve the way government works. Through innovation, employees do more with less and enhance the Denver city experience*.” — Mission Statement of [*Denver’s Peak Academy*](https://www.denvergov.org/content/denvergov/en/mayors-office/programs-initiatives/peak-performance/peak-academy/About.html)
@@ -91,4 +90,3 @@ Some cities are replicating Denver’s success with their own Peak Academies. Ot
 -   The City of Durham publishes [*training resources online*](https://durhamnc.gov/3753/OPI-Trainings-Resources) so anyone can learn about Lean and other innovative strategies for problem solving.
 
 As more state and local governments adopt this training mentality, Elms sees that many others hesitate to allocate already overworked resources to set up and implement the program. “You can dip your toe in the water and have some success. But if you jump in, you’ll have tremendous success,” he says.[^19]
-</div>
