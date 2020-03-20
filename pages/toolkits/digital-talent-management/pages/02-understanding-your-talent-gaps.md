@@ -52,9 +52,9 @@ Document and benchmark your talent gaps
 
 When possible, look at what’s been most successful in organizations with
 similar resources and structure. For example, it may be unreasonable for
-the State of CT to successfully employ the same tactics as an extremely
+a state agency to successfully employ the same tactics as an extremely
 large and well-resourced HR team. Model your efforts after successful
-efforts at organizations most similar to CT in terms of resources and
+practices at organizations most similar to yours in terms of resources and
 regulations.
 
 That said, some of the larger and more well-resourced organizations will
