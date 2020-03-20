@@ -252,7 +252,6 @@ Recommended reading
 -   [*https://playbook.cityofnewyork.us/*](https://playbook.cityofnewyork.us/)
 
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: Bloomberg Cities
 
 Mayor Michael Bloomberg’s [*American Cities Initiative*](https://www.bloomberg.org/program/founders-projects/american-cities-initiative/) promotes bold leadership and effective decision making, supports critical policy actions, and encourages residents, entrepreneurs, and more to uplift cities and solve problems. Through active [*Twitter*](https://twitter.com/BloombergCities) and [*Medium*](https://medium.com/@BloombergCities) accounts, Bloomberg Cities tells engaging stories of local change.
@@ -262,4 +261,3 @@ They use Medium extremely effectively, writing interesting, concise, and clear s
 It’s not enough to simply post great stories — you have to make sure people will find and read them. In order to spread a mission or develop a brand, stories must be shared through the civic tech and larger government community. Share articles with relevant local groups, ask influential colleagues to tweet them out, and send them to civic tech mailing lists.
 
 If your network is limited, you can start by publishing articles through existing platforms that already reach your audience. As you build momentum, you’ll also build your network and reach.
-</div>
