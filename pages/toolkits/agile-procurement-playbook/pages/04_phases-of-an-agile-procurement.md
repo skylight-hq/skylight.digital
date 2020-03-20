@@ -99,11 +99,11 @@ into answering basic questions such as:
 -   Does there need to be custom development?
 
 -   Is there a comparable service already available? (i.e. We wouldn’t
-    > build a point-of-sale system by hand if a service like
-    > [*Square*](https://squareup.com) would meet the needs.)
+    build a point-of-sale system by hand if a service like
+    [*Square*](https://squareup.com) would meet the needs.)
 
 -   Are there development teams that specialize in the type of
-    > development needed?
+    development needed?
 
 The basic answers to these questions will help guide any market research
 needed.
@@ -115,7 +115,7 @@ be difficult to have a good understanding of the large bucket of product
 development requirements. This is a great time to solicit feedback from
 the vendor community. When asking for vendor input, the government
 should be specific about the product goals. This will help the vendor
-community provide detailed feedback about how they would approach and —
+community provide detailed feedback about how they would approach — and 
 ultimately solve — some of the problems that the government will face
 when building out digital services.
 
@@ -151,7 +151,7 @@ needs of the government.
 
 ##### Industry day
 
-Industry days can get a great way to bring together the vendor community
+Industry days can be a great way to bring together the vendor community
 for a day or two to share trends, products, services, and overall ideas.
 They provide interested vendors the opportunity to meet the government’s
 program and procurement officials. In addition, these types of events
@@ -165,7 +165,7 @@ business workshops, and participate in one-on-one matchmaking sessions.
 
 ##### Attracting a diverse set of vendors (non-traditional vendors)
 
-##### The small business community can often be overlooked due to possible lack of past experience within the government. These vendors are an incredible source of information and can provide a set of fresh eyes on development as well as bringing current industry best practices into the government. Many of these vendors are experts in providing and delivering digital services.
+The small business community can often be overlooked due to possible lack of past experience within the government. These vendors are an incredible source of information and can provide a set of fresh eyes on development as well as bringing current industry best practices into the government. Many of these vendors are experts in providing and delivering digital services.
 
 ### Drafting a Statement of Objectives (vs. a Statement of Work)
 
@@ -201,14 +201,14 @@ A SOO is a much better fit for agile development. Shifting from an SOW
 to an SOO is a shift from a document explaining, “this is what you
 **need** to do” to one that says “here are the objectives for this
 product.” The goal of the procurement is to bring in experts to help
-determine what needs to be built, this includes understanding the needs
-of the users driven through research and discovery, and the best way to
+determine what needs to be built; this includes understanding the needs
+of the users through research and discovery, as well as the best way to
 go about building it in order to meet the objectives.
 
 When thinking about an SOO, the government should focus on defining the
 mission, vision, and goals of the product or service. Procurement
-against a SOO provides more flexibility for making changes to the
-product during the the development lifecycle. While changes to the
+with an SOO provides more flexibility for making changes to the
+product during the development lifecycle. While changes to the
 product will be frequent, the goals and objectives of the product will
 not change. By focusing the procurement towards an SOO, the government
 avoids having to constantly modify existing contracts as it gains new
@@ -260,14 +260,14 @@ understanding of expectations for delivering product artifacts
 (software, wireframes, user research findings, etc). It includes:
 
 -   Specifics about how the government will evaluate the vendor’s
-    > performance metrics (called a quality assurance surveillance
-    > plan),
+    performance metrics (called a quality assurance surveillance
+    plan),
 
 -   Roles and responsibilities for enforcing those metrics, and
 
 -   The vendor’s planned response if metrics aren’t met (called a
-    > quality control plan) — for example, there could be financial
-    > impacts tied to some of the performance metrics.
+    quality control plan) — for example, there could be financial
+    impacts tied to some of the performance metrics.
 
 Much of the QMP can be captured in a single table. The vendor will have
 to come up with most — if not all — of the performance metrics they are
@@ -311,12 +311,12 @@ that will be taken under specific circumstances.
 
 ##### Page limits
 
-Just as gases expand to fill the container they're in, proposals expand
+Just as gasses expand to fill the container they're in, proposals expand
 to reach the maximum page limit. Boilerplate text doesn’t add value to
 proposals, but the time it takes to read it is costly when evaluating
 proposals. Imposing strict page limits forces vendors to prioritize the
 information they deem important, and it saves the government hours on
-potentially zero-value add content. A proposal limit of 10 pages is
+potentially zero-value content. A proposal limit of 10 pages is
 often sufficient.
 
 ### Evaluating proposals
@@ -400,13 +400,13 @@ winning the contract. The down-select can be either mandatory or
 voluntary.
 
 -   In a **mandatory down-select** process, the government notifies a
-    > subsection of the applicant pool that they’re not going to be
-    > considered and are being removed from the procurement process.
+    subsection of the applicant pool that they’re not going to be
+    considered and are being removed from the procurement process.
 
 -   In a **voluntary down-select** process, the government notifies a
-    > subsection of the pool that they should consider not proceeding
-    > through the rest of the procurement process based on the TEPs
-    > findings.
+    subsection of the pool that they should consider not proceeding
+    through the rest of the procurement process based on the TEPs
+    findings.
 
 When the government gives transparent feedback to vendors throughout the
 process — including when some proposals have a low probability of
