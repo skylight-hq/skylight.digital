@@ -161,7 +161,6 @@ Recommended reading
 * [*18F labor category descriptions (for agile procurements) *](https://agile-labor-categories.18f.gov/)
 * [*What each role does in a service team*](https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team)
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: Georgia Digital Service
 
   When Nikhil Deshpande started the [*Georgia Digital Service*](https://digitalservices.georgia.gov/) (GADS), he knew it would be hard to hire digital talent with the breadth and depth of skills needed. He developed an approach that would allow him to supplement internal staff with a strong vendor pool as needed.
@@ -178,4 +177,3 @@ Recommended reading
   * Use a multi-tiered evaluation approach. Filter out unqualified vendors through a short written submission. Then invite the most qualified vendors to participate in a technical challenge where subject matter experts can evaluate their skills.
   * Work with your procurement team to ensure that your process follows internal policies.
   * Scope work in short-term projects. You can add options for additional work based on vendor performance.
-</div>
