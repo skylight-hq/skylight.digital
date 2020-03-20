@@ -19,12 +19,12 @@ buy-in. Leadership will need to actively support the procurement team as
 they:
 
 -   Try out flexible and creative approaches and solutions to
-    > procurement and contracting,
+    procurement and contracting,
 
 -   Work across traditional government silos, and
 
 -   Potentially ruffle some feathers as the product team introduces new
-    > ways of building products and services.
+    ways of building products and services.
 
 ### Building a cross-functional procurement team
 
@@ -57,7 +57,7 @@ products, there are:
 
 -   Known knowns,
 
--   Known unknowns, and most dangerously,
+-   Known unknowns, and, most dangerously,
 
 -   Unknown unknowns.
 
@@ -93,11 +93,11 @@ etc.), agile culture suggests that agencies think in terms of product
 teams. The product team should consist of all of the disciplines
 required to deliver the product.
 
-A one-team, one-dream mentality, which considers every person to being
-is necessary even across the different vendors that support a product’s
-development. The government will be responsible for managing these
-vendor relationships, and it will be in their best interest to treat
-every vendor supporting the product as if they were on a single team.
+A one-team, one-dream mentality is necessary even across the different 
+vendors that support a product’s development. The government will be 
+responsible for managing these vendor relationships, and it will be 
+in their best interest to treat every vendor supporting the product as 
+if they were on a single team.
 
 The importance of creating cross-functional teams can’t be overstated.
 The overall success of the product will depend on how well the team is
