@@ -55,6 +55,7 @@ beforehand.
     process*](https://www.govexec.com/management/2019/09/weichert-agencies-should-include-experts-hiring-process/159871/)
 
 Workshop the candidate evaluation criteria
+-------------------------------------------
 
 Because the review and hiring process is subjective, it’s important to
 plan how you will evaluate candidates up front. By using the same
@@ -195,7 +196,6 @@ Checklist
 -   Ask all candidates the same interview questions, in the same order
 -   Be tough, but friendly
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: USDS and OPM
 
 Historically, the federal government hiring process hasn’t involved subject matter experts (SMEs) to qualify candidates. Instead, HR specialists review resumes and questionnaires, screening candidates in and out of the pool for consideration. The result is that agencies often don't receive qualified candidates to select from.
@@ -207,4 +207,3 @@ The acting director of OPM [*issued a memo*](https://www.chcoc.gov/sites/default
 With executive support, the team has worked with agency partners to hire approximately 20 qualified IT specialists to the Department of Health and Human Services and the Department of the Interior.
 
 The [*SME-QA*](https://smeqa.usds.gov/hiring-phases/getting-started/) website provides resources for other agencies and levels of government to try it themselves.
-</div>
