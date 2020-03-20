@@ -112,7 +112,6 @@ Recommended reading
 -   [*How rethinking your workspace can spur
     innovation*](https://medium.com/@BloombergCities/how-rethinking-your-workspace-can-spur-innovation-ef6ff553b75b)
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: 18F
 
 [*18F*](https://18f.gsa.gov/), a tech team within the General Services Administration, partners with agencies to help them build and buy technology that improves the user experience of government services. With team members all over the country, 18F employs a number of strategies to [*make their “remote first” mindset work*](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/):
@@ -120,4 +119,4 @@ Recommended reading
 -   They use modern collaboration tools, shared cloud storage, and collaborative document editing to make it easy for remote teams to chat, meet, share work, and preserve decisions.
 -   They require each team member to be at their own computer during meetings to ensure that remote team members have a voice equal to that of those in the office.
 -   They adjust work hours to provide enough overlap between employees in different timezones. Staggered hours across time zones allows the teams to spend 12 hours per day delivering client value, and everyone is online working between 12pm and 5pm EST.
-</div>
+
