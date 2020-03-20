@@ -183,16 +183,15 @@ word about your job opening on Twitter, LinkedIn, and Facebook. You can
 help by providing text people can copy and paste. These messages can be
 simple, like the examples below:
 
-![](media/image2.png){width="5.234375546806649in"
-height="1.803510498687664in"}
+![]({{ site.baseurl }}/img/toolkits/talent/image2.png){:class="img-fluid w-50"}
 
 [*https://twitter.com/laurabeaufort/status/1192079706423746560*](https://twitter.com/laurabeaufort/status/1192079706423746560)
 
-![](media/image3.png){width="4.567708880139983in"
-height="2.0112215660542434in"}[*https://twitter.com/waldojaquith/status/1190300713676611585*](https://twitter.com/waldojaquith/status/1190300713676611585)
+![]({{ site.baseurl }}/img/toolkits/talent/image3.png){:class="img-fluid w-50"}
 
-![](media/image1.png){width="4.536458880139983in"
-height="5.136470909886264in"}
+[*https://twitter.com/waldojaquith/status/1190300713676611585*](https://twitter.com/waldojaquith/status/1190300713676611585)
+
+![]({{ site.baseurl }}/img/toolkits/talent/image1.png){:class="img-fluid w-50"}
 
 [*https://twitter.com/Citylajobs/status/954084813790728193*](https://twitter.com/Citylajobs/status/954084813790728193)
 
@@ -279,7 +278,7 @@ The City of San Francisco has a very high-touch hiring process. They
 require that someone is in touch with candidates at least once a week.
 
 “*We have gotten feedback from a lot of candidates that this was a
-really great interaction with government, pleasantly surprised by 
+really great interaction with government, pleasantly surprised by
 high-touch experience.*” — Deputy Chief Digital Officer.
 
 Reduce the hiring time
