@@ -74,7 +74,7 @@ Take steps to close gaps
 
 - Establish tactical steps for improvement
 
-Hold yourselves accountable to progress 
+Hold yourselves accountable to progress
 ----------------------------------------
 
 * Identify and empower individuals to implement improvement plans
@@ -87,19 +87,18 @@ Checklist
 * Look at similar organizations for inspiration
 * Document gaps and identify benchmarks
 
-
 <div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: Durham, North Carolina
 
-  The city of [*Durham*](https://durhamnc.gov/) in North Carolina conducts an annual workforce survey and publishes the results. While employee engagement surveys are standard across many levels of government, this survey’s feedback loop makes it stand out from the rest. In addition to traditional questions to identify pain points, the survey measures whether or not employees felt action was taken after the previous survey.
-  
-  When conducting an employee engagement survey:
-  
-  - Write clear, concise questions that touch on one issue at a time (avoid [*double-barreled questions*](https://en.wikipedia.org/wiki/Double-barreled_question)). Test these questions with a few people to ensure their meaning is straightforward.
-  
-  - Incorporate both open and closed questions. Open questions allow for longer, more personal responses, while closed questions have a fixed number of options to respond to (like yes/no or multiple choice). Open questions will generally produce better results. But they can also get tedious for respondents to answer, and introduce more complexity into the survey evaluation process.
-  
-  - Use the “[*funnel” technique*](https://www.qualtrics.com/experience-management/research/question-sequence-flow-style/) — start with questions that are easy respondents to answer, move into complex questions, and finish with simple questions.
-  
-  - Make responding as easy as possible. Only ask relevant questions, accept partial responses, and use an online survey tool that can be accessed from any device.
+The city of [*Durham*](https://durhamnc.gov/) in North Carolina conducts an annual workforce survey and publishes the results. While employee engagement surveys are standard across many levels of government, this survey’s feedback loop makes it stand out from the rest. In addition to traditional questions to identify pain points, the survey measures whether or not employees felt action was taken after the previous survey.
+
+When conducting an employee engagement survey:
+
+- Write clear, concise questions that touch on one issue at a time (avoid [*double-barreled questions*](https://en.wikipedia.org/wiki/Double-barreled_question)). Test these questions with a few people to ensure their meaning is straightforward.
+
+- Incorporate both open and closed questions. Open questions allow for longer, more personal responses, while closed questions have a fixed number of options to respond to (like yes/no or multiple choice). Open questions will generally produce better results. But they can also get tedious for respondents to answer, and introduce more complexity into the survey evaluation process.
+
+- Use the “[*funnel” technique*](https://www.qualtrics.com/experience-management/research/question-sequence-flow-style/) — start with questions that are easy respondents to answer, move into complex questions, and finish with simple questions.
+
+- Make responding as easy as possible. Only ask relevant questions, accept partial responses, and use an online survey tool that can be accessed from any device.
 </div>

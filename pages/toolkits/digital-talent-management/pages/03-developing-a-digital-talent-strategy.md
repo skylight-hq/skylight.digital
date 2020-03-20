@@ -80,7 +80,7 @@ Using technology to create additional capacity
 ----------------------------------------------
 
 Government agencies are increasingly asked to do more with less — smaller budgets, fewer staff. Many government organizations are used to thinking of technology as a cost center rather than a mission enabler. But the right technology can increase efficiency, helping to augment or
-replace some government jobs. 
+replace some government jobs.
 
 Although machine learning and artificial intelligence are often touted as necessary automation tools, they are difficult to implement well in environments that aren’t ready for modern technology. Luckily, there are often simpler alternatives to many labor intensive tasks:
 
@@ -98,19 +98,19 @@ Checklist
 
 <div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: UK Government Digital Service
-  
+
   The UK Government Digital Service (GDS) is the oldest of the civic digital service teams. In many ways, it set the standards for teams in the United States, including 18F and USDS. GDS operates on a mixed model, hiring people into a centralized team, providing oversight for new IT acquisition, and staffing teams within agencies. Through this model, they have brought hundreds of technologists into the UK government.
-  
+
   The centralized team focuses on setting standards and building shared tools. For example, it’s responsible for the [*Gov.UK design system*](https://design-system.service.gov.uk/?_ga=2.48215079.183259153.1574016435-578254373.1574016435) that standardizes the look, feel, and interaction for UK government websites, as well as for shared services like [*Verify*](https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify), an online identity management system.
-  
+
   GDS sets the standards for hiring and helps hire a variety of technologists into the UK government. These designers, engineers, product managers, and other technologists are placed within agencies and work with other government staff to design and build vital public services.
-  
+
   Another key to the GDS strategy for success is budget. GDS must approve any IT acquisition over £5 million. This helps ensure that large technology projects follow best practices. Each of these projects:
   * Is user-centered
   * Is cloud-hosted
   * Adheres to the UK design systems
   * Uses a single voice to communicate to the public
-</div> 
+</div>
 
 [^1]: Hana Schank and Sara Hudson, “What Should Teams Look Like”, New America, October 2018, [*https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/*](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/)
 
