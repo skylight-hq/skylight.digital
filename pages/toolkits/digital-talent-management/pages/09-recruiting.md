@@ -23,9 +23,7 @@ this through:
 -   [*Medium*](https://medium.com/) articles
 -   Twitter posts
 -   LinkedIn articles and profiles of your team members
--   [*Slack*](https://slack.com/) communities (e.g.,
-    [*newhaven.io*](https://newhavenio-slackin.herokuapp.com/) and
-    [*CT UX*](https://tinyurl.com/CTUXPAslack2))
+-   [*Slack*](https://slack.com/) communities
 
 **Share details about your culture, benefits, and commitment to staff**
 — not just the mechanics of the work you do. When you speak and write,
@@ -44,7 +42,7 @@ Write an appealing position description
 
 ### Use plain language
 
-Government is full of jargon and alphabet soup. It’s likely that
+Government is full of jargon. It’s likely that
 candidates outside of government could bring useful skills and
 experience. To access these potential candidates, you’ll need to make
 sure they can understand what you’re looking for.
@@ -70,11 +68,10 @@ Invision isn’t required for candidates.
 Shorter, more realistic requirements lists show that you understand what
 you need. And they’ll also bring in a more diverse applicant pool.
 
-"*Men like to apply to jobs for which they meet only 60% of the
+"*Men are willing to apply to jobs for which they meet only 60% of the
 qualifications, women are much more likely to hesitate unless they meet
 100% of the listed requirements.*” [^11]
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Outline of a position description
 
   -   Location
@@ -86,11 +83,10 @@ qualifications, women are much more likely to hesitate unless they meet
   -   A distilled list of the top priority qualifications
 
   The position description outline is adapted from 18F’s position descriptions, viewable here: [*https://join.tts.gsa.gov/*](https://join.tts.gsa.gov/)
-</div>
 
 In addition to most of the sections above, you can consider adding what
 the new hire will do in one, three, six, and 12 months. This is
-especially effective for roles that are shorter term ‘tours of duty’ in
+especially effective for roles that are shorter-term ‘tours of duty’ in
 the government. This also reassures candidates that you have meaningful
 work for them right away.
 
@@ -175,8 +171,6 @@ Here are key places to post:
     America*](https://jobs.codeforamerica.org/)
 -   [*Tech Jobs for Good*](https://www.techjobsforgood.com/)
 -   Slack communities (e.g.
-    [*newhaven.io*](https://newhavenio-slackin.herokuapp.com/) and
-    [*CT UX*](https://tinyurl.com/CTUXPAslack2))
 
 The following boards help reach candidates who are often
 under-represented in technology:
@@ -208,19 +202,15 @@ In addition to posting your job opening online, consider attending
 events and meetups to personally invite candidates to apply. Here are
 some resources to give you ideas on where to go:
 
--   Local Code for America brigade, like Code &lt;For&gt; Connecticut
+-   Local Code for America brigade
 -   Meetups for modern technology, like:
-    -   Python ([*The Greater Hartford Python
-        Group*](https://www.meetup.com/greaterhartfordpython/))
-    -   Open source (Greater Hartford Open Source Developers)
-    -   Javascript (Javascript Connecticut)
-    -   DevOps ([*DevOps CT*](https://www.meetup.com/DevOps-CT/))
-    -   Agile ([*Agile
-        Hartford*](https://www.agilealliance.org/communities/agile-hartford/))
-    -   Salesforce ([*Connecticut Salesforce Developer
-        Group*](https://www.meetup.com/Connecticut-Salesforce-Developer-User-Group/))
-    -   Cloud ([*Connecticut AWS
-        Meetup*](https://www.meetup.com/Connecticut-AWS-Meetup/))
+    -   Python
+    -   Open source
+    -   Javascript
+    -   DevOps
+    -   Agile
+    -   Salesforce
+    -   Cloud
 
 Going in person provides the opportunity to talk passionately about the
 work you do. It also allows prospective applicants to meet the people
@@ -285,12 +275,12 @@ Table from: Technology Transformation Services, “Navigating the hiring
 process”, accessed December 2019,
 [*https://join.tts.gsa.gov/hiring-process/*](https://join.tts.gsa.gov/hiring-process/)
 
-The City of San Francisco has a very high touch hiring process. They
+The City of San Francisco has a very high-touch hiring process. They
 require that someone is in touch with candidates at least once a week.
 
 “*We have gotten feedback from a lot of candidates that this was a
-really great interaction with government, pleasantly surprised by high
-touch experience.*” — Deputy Chief Digital Officer.
+really great interaction with government, pleasantly surprised by 
+high-touch experience.*” — Deputy Chief Digital Officer.
 
 Reduce the hiring time
 ----------------------
@@ -348,7 +338,6 @@ Checklist
     -   Identify and improve parts of the process that can be
         streamlined
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: City and County of San Francisco
 
 One might think that the overwhelming amount of digital talent in the Bay Area makes it easy to recruit for the San Francisco Digital Service. In fact, they face the same recruitment challenges as digital teams in state and local governments across the country. And they’re competing against top tech companies that pay much higher salaries than local government.
@@ -360,4 +349,3 @@ To ease and streamline their recruiting process, the SF Digital Service team:
 -   Uses a high touch model, reaching out to prospective hires at least once a week to guide them through the process
 -   Tracks hiring metrics like passthrough rates, time to hire, and acceptance rates using modern applicant tracking software
 -   Sets candidate expectations for salary, work environment, and government culture up front, increasing the acceptance rate for job offers
-</div>
