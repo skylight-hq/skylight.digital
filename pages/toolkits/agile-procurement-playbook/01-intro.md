@@ -16,8 +16,8 @@ for software services, cover how it differs from some of the more
 traditional procurement plays, and introduce an iterative roadmap on
 transitioning towards a more agile procurement environment. While the
 handbook can help government contracting teams strategize on new
-procurements, this information is best treated as helpful suggestions
-rather than strict guidance.
+procurements, the information within is best treated as a collection of 
+helpful suggestions rather than strict guidance.
 
 ### Intended audience
 
@@ -54,8 +54,8 @@ reported that in 2014:
 
 Setting up the correct contracting strategy has the largest impact on
 the probability of success on most government products. Because of this
-importance, it’s essential to measure performance indicators tracking
-towards outcomes in order to:
+importance, it’s essential to measure performance indicators that track 
+outcomes in order to:
 
 -   Set direction and monitor the progress of the work, and
 
