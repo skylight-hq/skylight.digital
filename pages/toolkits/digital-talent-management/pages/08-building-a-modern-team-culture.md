@@ -215,7 +215,7 @@ Code.
 ### Empower people to speak up
 
 Create a community where everyone feels empowered to speak up. It’s
-useful to do this in a town hall setting, as well as in 1:1s. Create
+useful to do this in a town hall setting, as well as in 1-on-1's. Create
 office hours for people to drop in and chat about anything. And create
 an anonymous feedback forum so that those who are uncomfortable bringing
 up issues in person can do so anonymously.
@@ -239,8 +239,8 @@ the services you build. These resources can help:
 ### Provide training on unconscious bias
 
 Unconscious bias is “learned stereotypes that are automatic,
-unintentional, deeply ingrained, and able to influence behavior.” [^9]
-And everyone has these biases.
+unintentional, deeply ingrained, and able to influence behavior.” [^9] 
+Everyone has these biases.
 
 Unconscious bias training helps create awareness for this ingrained
 bias. Have everyone on your team attend unconscious bias training. This
@@ -256,7 +256,7 @@ Checklist
 
 -   Identify where your organization lies on the Westrum category of
     organizational cultures, and move towards a generative culture
--   Conduct team and organization-wide blameless retrospective
+-   Conduct team and organization-wide blameless retrospectives
 -   Regularly ask for feedback on organizational initiatives
 -   Encourage employees to be accountable and responsible for their
     actions
@@ -291,14 +291,12 @@ Recommended reading
 -   [*Survey to measure team
     culture*](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: Ontario Digital Service
 
 Direct communication lines between staff and leadership help empower staff to create change in their workplace. Hilary Hartley, Chief Digital Officer of the Ontario Digital Service, knows this from her time as a founding member of 18F. 18F’s [*Diversity, Equity, and Inclusion*](https://handbook.18f.gov/diversity/) policy is a model for any level of government.
 
 Ontario Digital Service adopted these principles into the People Board, a group whose mission is to make work better. They engage employees to create change in the office, support diversity and inclusion initiatives, and represent employee voices to senior management.[^10] A representative from the People Board sits on the Senior Management Table to advocate for employees. This representative is elected by peers based on their capacity to represent staff voices and perspectives.
 
-People Board members meet every two weeks for the six months of their term, and can only serve two consecutive terms to ensure other staff get an opportunity to participate.
+People Board members meet every two weeks for the six months of their term and can only serve two consecutive terms to ensure other staff get an opportunity to participate.
 
 Employees know that the People Board represents them fairly, and as a result, elected members are trusted advocates. They create a feedback loop between employees and management that motivates employees to change their workplace.
-</div>
