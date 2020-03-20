@@ -181,14 +181,12 @@ the conventional and unconventional. For example, you can share work
 effectively through threads and posts on Twitter. We’ve included some
 examples below.
 
-![](media/image5.png){width="5.199272747156606in"
-height="5.078125546806649in"}
+![]({{ site.baseurl }}/img/toolkits/talent/image5.png){:class="img-fluid w-50"}
 
 Source:
 [*https://twitter.com/MassGovDigital/status/1055878033415041024*](https://twitter.com/MassGovDigital/status/1055878033415041024)
 
-![](media/image4.png){width="4.89470363079615in"
-height="4.682292213473316in"}
+![]({{ site.baseurl }}/img/toolkits/talent/image4.png){:class="img-fluid w-50"}
 
 Source:
 [*https://twitter.com/mattcutts/status/1195524566602395649*](https://twitter.com/mattcutts/status/1195524566602395649)
