@@ -375,17 +375,17 @@ CMS has given you the following goals while approaching the
 modernization of this system:
 
 -   Sustainability: the system, resources, and processes must maintain
-    > their current levels of service during modernization efforts
+    their current levels of service during modernization efforts
 
 -   Agility: the system needs to evolve, sustainably, at the same speed
-    > as the business
+    as the business
 
 -   Integration: systems involved in making payments, and other CMS
-    > business functions, need the option to use modern technology to
-    > interact with the current state of the legacy system.
+    business functions, need the option to use modern technology to
+    interact with the current state of the legacy system.
 
 -   Usability: users’ interaction with the legacy system need to easily
-    > identify and extract the exact data they need, when they need it.
+    identify and extract the exact data they need, when they need it.
 
 With the goals provided and as part of this design challenge, CMS wishes
 you to help develop a longer-term vision and product strategy for
@@ -1156,9 +1156,6 @@ strong understanding and experience using modern user research and
 [*service design*](https://en.wikipedia.org/wiki/Service_design)
 techniques to accurately identify issues and design an effective
 solution.
-
- 
--
 
 ### Interaction with non-modernization development and deployment
 
