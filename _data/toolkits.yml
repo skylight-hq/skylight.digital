@@ -7,9 +7,33 @@ digital_talent_management:
     - title: Understanding your talent gaps
       url: /work/toolkits/digital-talent-management/understanding-your-talent-gaps/
     - title: Developing a digital talent strategy
-      url: #0
+      url: /work/toolkits/digital-talent-management/developing-a-digital-talent-strategy/
     - title: Building a digital team
-      url: #0
+      url: /work/toolkits/digital-talent-management/building-a-digital-team
+    - title: Leading and managing a digital team
+      url: /work/toolkits/digital-talent-management/leading-and-managing-a-digital-team/
+    - title: Guiding your digital transformation
+      url: /work/toolkits/digital-talent-management/guiding-your-digital-transformation/
+    - title: Creating a productive and collaborative work environment
+      url: /work/toolkits/digital-talent-management/creating-a-productive-and-collaborative-work-environment/
+    - title: Building a modern team culture
+      url: /work/toolkits/digital-talent-management/building-a-modern-team-culture/
+    - title: Recruiting
+      url: /work/toolkits/digital-talent-management/recruiting/
+    - title: Hiring
+      url: /work/toolkits/digital-talent-management/hiring/
+    - title: Onboarding
+      url: /work/toolkits/digital-talent-management/onboarding/
+    - title: Ensuring happy and engaged employees
+      url: /work/toolkits/digital-talent-management/ensuring-happy-and-engaged-employees/
+    - title: Keeping skills and ideas fresh
+      url: /work/toolkits/digital-talent-management/keeping-skills-and-ideas-fresh/
+    - title: Building a movement and a presence
+      url: /work/toolkits/digital-talent-management/building-a-movement-and-a-presence/
+    - title: How we wrote this guide
+      url: /work/toolkits/digital-talent-management/how-we-wrote-this-guide/
+    - title: "Appendix A: Interview questions for UX Designers"
+      url: /work/toolkits/digital-talent-management/appendix-a-interview-questions-for-ux-designers/
 
 data_sharing_playbook:
   title: Data Sharing Playbook
