@@ -699,9 +699,7 @@ size of the proposal that needs to be reviewed with each task order.
 Appendix F: Sample Statement of Objectives
 ------------------------------------------
 
-### Modern Payment Services for the
-### Medicare Fee for Service (FFS) Program
-### Statement of Objectives (SOO)
+### Modern Payment Services for the Medicare Fee for Service (FFS) Program Statement of Objectives (SOO)
 
 ### Overview and Background Information
 
@@ -906,8 +904,6 @@ delivery of updates on a regular schedule, for example gaining
 approval of necessary Security Impact Analyses and supporting the
 aspects of the shared systems’ Security Control Assessments impacted
 by this work
-
-###  
 
 ### **Join and participate in selection, design, development, and deployment of proof of concepts and production modernization modules**
 
