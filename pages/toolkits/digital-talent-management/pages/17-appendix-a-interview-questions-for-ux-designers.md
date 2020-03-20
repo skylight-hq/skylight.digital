@@ -62,7 +62,7 @@ aggressive.
     [*https://content-guide.18f.gov/inclusive-language/*](https://content-guide.18f.gov/inclusive-language/)
 
 [9] Wikipedia, “Unconscious Bias Training”, accessed December 2019,
-    [*https://en.wikipedia.org/wiki/Unconscious\_bias\_training*](https://en.wikipedia.org/wiki/Unconscious_bias_training)
+    [*https://en.wikipedia.org/wiki/Unconscious_bias_training*](https://en.wikipedia.org/wiki/Unconscious_bias_training)
 
 [10] Kelsey Merkley, “A Better Place to Work”, Ontario Digital, June
     2019.
@@ -80,7 +80,7 @@ aggressive.
     Service,
     [*https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/*](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)
 
-[14] ^Hana\ Schank\ and\ Sara\ Hudson,\ “What\ the\ Work\ Really\ Looks\ Like”,\ October\ 2018,\ New\ America,\ [*https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-the-work-really-looks-like/*](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-the-work-really-looks-like/)^
+[14] ^Hana Schank and Sara Hudson, “What the Work Really Looks Like”, October 2018, New America, [*https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-the-work-really-looks-like/*](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-the-work-really-looks-like/)^
 
 [15] Josh Bersin, “New Research Shows ‘Heavy Learners’ More Confident,
     Sucessful, and Happy at Work”, November 2018, Josh Bersin Academy,
