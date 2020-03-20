@@ -155,44 +155,85 @@ $(function() {
 // Experience filters
 $(function() {
   if (location.pathname === "/work/experience/") {
+    // Initialize empty filters array
     const filters = [];
+    // All posts to be filtered
+    const posts = $("article");
+    // All filter tags actually used by posts
+    const usedTags = $.unique(
+      Object.values(
+        posts.map(function() {
+          return $(this).attr("data-tags").split(', ');
+        })
+      )
+    );
+    // This function will ensure all added filters have a remove handler
     const addRemoveHandler = () => {
       $(".tag-badge").off("click").click(function() {
         const text = $(this).text();
-        filters.splice(filters.indexOf(text), 1);
+        const filterText = text.toLowerCase();
+        filters.splice(filters.indexOf(filterText), 1);
         $(this).remove();
         $(`.exp-filter-item:contains("${text}")`)
           .removeClass("font-weight-bold");
-        if (!filters.length) {
-          filterPosts('all', 'show')
-        } else {
-          filterPosts(text, 'hide');
-        }
+        filterPosts();
       });
     };
-    const filterPosts = (tag, toggle) => {
-      $("article").each(function() {
-        if (tag === 'all') {
-          toggle === 'show' ? $(this).show() : $(this).hide()
-        } else {
-          const tags = $(this).attr("data-tags");
-          if (tags.includes(tag.toLowerCase())) {
-            toggle === 'show' ? $(this).show() : $(this).hide()
+    // This function will paginate all visible posts
+    const paginatePosts = () => {
+      $('.projects').pagination({
+        dataSource: $('article.filter-match').get(),
+        pageSize: 3,
+        ulClassName: 'pagination d-flex justify-content-center',
+        callback: function(data) {
+          posts.addClass('hidden');
+          data.forEach(post => post.className = 'project-col');
+          $('ul.pagination li').addClass('page-item');
+          $('ul.pagination li a').addClass('page-link');
+        }
+      });
+
+    };
+    // This function will filter all posts based on the contents of the
+    // filters array
+    const filterPosts = () => {
+      if (filters.length) {
+        posts.each(function() {
+          const tags = $(this).attr("data-tags").split(', ');
+          if (tags && tags.filter(tag => filters.includes(tag)).length) {
+            $(this).addClass('filter-match');
+          } else {
+            $(this).removeClass('filter-match');
           }
-        }
-      });
+        });
+      } else {
+        posts.addClass('filter-match');
+      }
+      paginatePosts();
     };
-    $(".exp-filter-item").click(function() {
-      if (!filters.length) filterPosts('all', 'hide');
+    // Disable filter options that won't result in any posts
+    $(".exp-filter-item").each(function() {
+      const filterText = $(this).text().toLowerCase();
+      if (!usedTags.includes(filterText)) {
+        $(this).addClass("filter-disabled");
+      } else {
+        $(this).addClass("filter-enabled");
+      }
+    });
+    // Add click handler to non-disabled filter options
+    $(".exp-filter-item.filter-enabled").click(function() {
       const text = $(this).text();
-      if (!filters.includes(text)) {
-        filters.push(text);
+      const filterText = text.toLowerCase();
+      if (!filters.includes(filterText)) {
+        filters.push(filterText);
         $(this).addClass("font-weight-bold")
         $(".filter-post-tags")
           .append(`<a class="tag-badge" href="#0">${text}<i class="fa fa-times-circle ml-1"></i></a>`);
         addRemoveHandler();
-        filterPosts(text, 'show');
+        filterPosts();
       }
     });
+    // Do initial filter
+    filterPosts();
   }
 });

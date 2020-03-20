@@ -79,3 +79,14 @@
 .text-shadow {
   text-shadow: $card-box-shadow;
 }
+
+.hidden {
+  display: none;
+}
+
+.filter-disabled {
+  color: $gray-light;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
