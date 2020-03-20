@@ -33,7 +33,7 @@ Structure for success
 
 ### Report to the highest levels
 
-***“**The most successful, delivery-driven government efforts tend to
+*“The most successful, delivery-driven government efforts tend to
 have technology leadership reporting to the highest levels of the
 organization, not buried within it.”* [^3]
 
