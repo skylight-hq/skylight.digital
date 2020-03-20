@@ -9,7 +9,7 @@ How we wrote this guide
 =======================
 
 Research for this handbook was conducted as part of an engagement with
-the State of Connecticut. This research included the following
+state agencies. This research included the following
 activities:
 
 -   Desk review of many articles, blog posts, and reports from digital
