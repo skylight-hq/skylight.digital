@@ -6,35 +6,27 @@ sidenav: agile_procurement_playbook
 ---
 
 
-Phases of an agile procurement
-------------------------------
+# Phases of an agile procurement
 
 The phases of an agile procurement are flexible, but they typically
 follow this pattern when starting the procurement process for a new
 product:
 
 -   Defining the goals and objectives of the product
-
 -   Understanding the skills required for development
-
 -   Drafting the Statement of Objectives (vs. the Statement of Work)
-
 -   Planning the proposal evaluation process
-
 -   Evaluating proposals
-
 -   Meeting with unsuccessful vendors
 
 Another approach would be to use these key questions to guide the
 process:
 
 -   [*What is the scope of the project? What are the key deliverables?*](#aligning-on-goals-and-strategy)
-
 -   [*What are the objectives and milestones? How frequent are they?*](#drafting-a-statement-of-objectives-vs-a-statement-of-work)
-
 -   [*What are the performance metrics defined in the contract*](#quality-management-plan-qmp)? (e.g., response time,system uptime, time period to address priority issues)
 
-### Defining the goals and objectives
+## Defining the goals and objectives
 
 Before thinking about a procurement approach, the government must first
 understand the needs, goals, mission, and rough scope of the product
@@ -45,7 +37,7 @@ practice (e.g. design, research, engineering) has full context before
 making recommendations on the specific areas where the community will
 support the product.
 
-#### Aligning on goals and strategy
+### Aligning on goals and strategy
 
 When products involve multiple parties or stakeholders, it’s a good idea
 to have working sessions early on in the process to ground all parties
@@ -56,9 +48,7 @@ avoid costly assumptions down the road.
 These working sessions will align stakeholders on:
 
 -   What is being built,
-
 -   Why it’s being built, and
-
 -   Who it’s being built for.
 
 Frameworks such as
@@ -82,40 +72,37 @@ For particularly complex procurements, having a
 helps the whole team have a clear understanding of roles and
 responsibilities.
 
-### Understanding the skills required for development
+## Understanding the skills required for development
 
 Once the team has a common understanding of the overall picture, the
 team needs to start thinking about how to build the product. This is
 where much of the specific procurement work begins.
 
-#### Research
+### Research
 
 With all products, there's a variety of possible solutions. In this
 phase, the team will explore what the needs are for the product and look
 into answering basic questions such as:
 
 -   Who are the end users of the system and what are their expectations?
-
 -   Does there need to be custom development?
-
 -   Is there a comparable service already available? (i.e. We wouldn’t
     build a point-of-sale system by hand if a service like
     [*Square*](https://squareup.com) would meet the needs.)
-
 -   Are there development teams that specialize in the type of
     development needed?
 
 The basic answers to these questions will help guide any market research
 needed.
 
-##### Market research
+#### Market research
 
 At the beginning of the procurement process for digital services, it can
 be difficult to have a good understanding of the large bucket of product
 development requirements. This is a great time to solicit feedback from
 the vendor community. When asking for vendor input, the government
 should be specific about the product goals. This will help the vendor
-community provide detailed feedback about how they would approach — and 
+community provide detailed feedback about how they would approach — and
 ultimately solve — some of the problems that the government will face
 when building out digital services.
 
@@ -133,7 +120,7 @@ turnaround is for answering requirement questions. Also, the informal
 nature can be helpful in putting a face to government employees and
 building stronger relationships with vendors.
 
-#### Outreach
+### Outreach
 
 In an effort to continue to build relationships with the vendor
 community, there are a variety of ways the government can engage. The
@@ -149,7 +136,7 @@ on what the government values, where it might be going in terms of
 digital transformation, and how to best position itself to meet the
 needs of the government.
 
-##### Industry day
+#### Industry day
 
 Industry days can be a great way to bring together the vendor community
 for a day or two to share trends, products, services, and overall ideas.
@@ -163,11 +150,11 @@ agencies. Industry days should be open to all industries and business
 classifications. Attendees will market their products/services, attend
 business workshops, and participate in one-on-one matchmaking sessions.
 
-##### Attracting a diverse set of vendors (non-traditional vendors)
+#### Attracting a diverse set of vendors (non-traditional vendors)
 
 The small business community can often be overlooked due to possible lack of past experience within the government. These vendors are an incredible source of information and can provide a set of fresh eyes on development as well as bringing current industry best practices into the government. Many of these vendors are experts in providing and delivering digital services.
 
-### Drafting a Statement of Objectives (vs. a Statement of Work)
+## Drafting a Statement of Objectives (vs. a Statement of Work)
 
 All procurement strategies require a main description of the work that’s
 being procured. This description is typically documented in either a
@@ -181,7 +168,7 @@ be built next. This feedback loop or reevaluating is in conflict with a
 traditional SOW because the team is constantly reevaluating what’s next,
 versus sticking with what was predicted up front.
 
-#### Statement of work (SOW)
+### Statement of work (SOW)
 
 Traditionally, SOWs dictate what is going to be built and how it’s going
 to be built. SOWs use language that is explicitly binding (i.e. Vendor
@@ -195,7 +182,7 @@ restrictive when building a digital product. The most advanced technical
 companies such as Google, Facebook, and Apple don’t attempt to build
 products with a 100% understanding of the requirements up front.
 
-#### Statement of objectives (SOO)
+### Statement of objectives (SOO)
 
 A SOO is a much better fit for agile development. Shifting from an SOW
 to an SOO is a shift from a document explaining, “this is what you
@@ -217,7 +204,7 @@ information and insights.
 For an example of an SOO, see [*Appendix
 F*](/work/toolkits/agile-procurement-playbook/appendix#appendix-f-sample-statement-of-objectives)
 
-### Planning the proposal evaluation process
+## Planning the proposal evaluation process
 
 As we’ve discussed, agile procurement focuses on acquiring the skill
 sets needed to meet product objectives. Therefore, the proposal process
@@ -226,7 +213,7 @@ compare and contrast the skills of the vendor pool. This section
 describes the tools for getting the right types of information from
 vendors.
 
-#### Design challenge
+### Design challenge
 
 This is the classic “show, don’t tell” part of the procurement. The
 design challenge is arguably the single most important part of the
@@ -253,7 +240,7 @@ artifacts that will be essential for the specific procurement.
 For an example of a design challenge, see [*Appendix
 D*](/work/toolkits/agile-procurement-playbook/appendix#appendix-d-example-design-challenges)
 
-#### Quality Management Plan (QMP)
+### Quality Management Plan (QMP)
 
 A QMP ensures that the government and vendor have a clear, common
 understanding of expectations for delivering product artifacts
@@ -262,9 +249,7 @@ understanding of expectations for delivering product artifacts
 -   Specifics about how the government will evaluate the vendor’s
     performance metrics (called a quality assurance surveillance
     plan),
-
 -   Roles and responsibilities for enforcing those metrics, and
-
 -   The vendor’s planned response if metrics aren’t met (called a
     quality control plan) — for example, there could be financial
     impacts tied to some of the performance metrics.
@@ -276,7 +261,7 @@ to be measured on.
 For a Quality Management Plan template, refer to [*Appendix
 B*](/work/toolkits/agile-procurement-playbook/appendix#appendix-b-list-of-templates)
 
-##### Quality Assurance Surveillance Plan (QASP)
+#### Quality Assurance Surveillance Plan (QASP)
 
 A QASP consists of a roles and responsibilities section that describes
 the formal relationship between the vendor and the Government’s
@@ -300,16 +285,16 @@ based on a solid, focused goal that can produce qualitative and
 quantitative measurements. A good example would be “All web pages shall
 load in under 3 seconds measured at the 95th and 99th percentile.”
 
-##### Quality Control Plan (QCP)
+#### Quality Control Plan (QCP)
 
 A QCP is the other side to the QASP performance metric coin. It
 describes how the vendor plans to respond to each metric that is not
 being met. Like the QASP, the QCP should include the concrete actions
 that will be taken under specific circumstances.
 
-#### Additional Plays
+### Additional Plays
 
-##### Page limits
+#### Page limits
 
 Just as gasses expand to fill the container they're in, proposals expand
 to reach the maximum page limit. Boilerplate text doesn’t add value to
@@ -319,7 +304,7 @@ information they deem important, and it saves the government hours on
 potentially zero-value content. A proposal limit of 10 pages is
 often sufficient.
 
-### Evaluating proposals
+## Evaluating proposals
 
 Once the solicitation has been posted, there will be a window when
 vendors are putting together their responses. The product team can use
@@ -330,7 +315,7 @@ Depending on the urgency of the procurement and the number of proposals
 received, the government has a couple of options for setting up the
 review process.
 
-##### Group review
+#### Group review
 
 If there’s a large number of proposals, evaluators could review the
 proposals in real-time as a group. This approach helps evaluators keep
@@ -340,7 +325,7 @@ cause others to rush in their personal analysis. And the logistics of
 aligning people’s schedules for large blocks of time can add to the
 total time it takes to review proposals.
 
-##### Individual review
+#### Individual review
 
 The evaluating group can agree to read through proposals on their own
 time and schedule regular check-ins. The team will use these check-ins
@@ -353,7 +338,7 @@ The check-ins can be remote/call-in meetings if that’s more practical.
 While it’s always nice to see people face-to-face, it typically isn’t
 required. This also speeds up the process of evaluation.
 
-#### Technical Evaluation Panel (TEP)
+### Technical Evaluation Panel (TEP)
 
 In the federal procurement process, it’s common to have a technical
 evaluation panel (TEP) select the winning proposal.
@@ -384,7 +369,7 @@ contract. This team of experts will evaluate, document, and ultimately
 make recommendations on who they think best suited to successfully
 deliver the product in question.
 
-#### Down-select
+### Down-select
 
 The down-select process is a very powerful tool in the agency’s
 acquisition toolbelt that saves time for both the government and vendors
@@ -402,7 +387,6 @@ voluntary.
 -   In a **mandatory down-select** process, the government notifies a
     subsection of the applicant pool that they’re not going to be
     considered and are being removed from the procurement process.
-
 -   In a **voluntary down-select** process, the government notifies a
     subsection of the pool that they should consider not proceeding
     through the rest of the procurement process based on the TEPs
@@ -420,14 +404,14 @@ evaluates whether vendors are down-selected. [*Appendix
 C*](/work/toolkits/agile-procurement-playbook/appendix#appendix-c-examples-of-tep-rating-systems) provides an example of
 how the government can be transparent about the down-select criteria.
 
-#### Selection and award
+### Selection and award
 
 At the end of reviewing a proposal and design challenge, if included,
 the TEP needs to reach a rough consensus on the best submission that
 will have the highest probability of success in delivering the product
 or service for the government.
 
-#### Meeting with unsuccessful vendors
+### Meeting with unsuccessful vendors
 
 This is probably one of the most important, yet most awkward phases of
 the post-award procurement process. The procurement team should schedule

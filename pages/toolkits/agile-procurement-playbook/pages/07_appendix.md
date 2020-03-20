@@ -6,8 +6,7 @@ sidenav: agile_procurement_playbook
 ---
 
 
-Appendix A: Short introduction to agile software development
-------------------------------------------------------------
+# Appendix A: Short introduction to agile software development
 
 Agile is a time-bound, iterative approach to software delivery that
 builds software incrementally from the start of the project, instead of
@@ -27,7 +26,7 @@ delivery.
 Appendix B: List of templates
 -----------------------------
 
-### Quality Metric Plan Template
+## Quality Metric Plan Template
 
 QUALITY MANAGEMENT PLAN (QMP)
 
@@ -261,7 +260,7 @@ for determining appropriate action:
 |  |  |  |  |  |  |
 {: .table style="font-size:15px"}
 
-### Additional Quality Metrics Table Template from [*18F*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
+## Additional Quality Metrics Table Template from [*18F*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
 
 Here is an example of a Quality Metrics Table that includes a QASP.
 [*Source*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
@@ -286,7 +285,7 @@ they are going to be evaluating proposals. Picking a system in which
 rating will be made is important in how the overall selection is going
 to be made.
 
-### Confidence Factors
+## Confidence Factors
 
 A confidence rating system reflected the government’s confidence on
 whether a vendor will be able to successfully build the product based on
@@ -307,7 +306,7 @@ Offeror understands the requirement, proposes a sound approach, or will
 be successful in performing the contract ***even with*** Government
 intervention.
 
-### Adjectival Ratings
+## Adjectival Ratings
 
 An adjectival rating system for scoring will be utilized and the
 technical panel will determine final scoring, based on a consensus. The
@@ -344,7 +343,7 @@ practices.
 
 Here is an example of a recent design challenge put on by CMS.
 
-### [*The Medicare Payment System Modernization*](https://usds.gov/projects/medicare-payment-program) [*Design Challenge*](https://fcw.com/blogs/lectern/2019/07/kelman-non-traditional-contractors.aspx)
+## [*The Medicare Payment System Modernization*](https://usds.gov/projects/medicare-payment-program) [*Design Challenge*](https://fcw.com/blogs/lectern/2019/07/kelman-non-traditional-contractors.aspx)
 
 Imagine that you have come upon the large monolithic legacy system
 responsible for executing and maintaining the workflow that processes
@@ -378,14 +377,11 @@ modernization of this system:
 
 -   Sustainability: the system, resources, and processes must maintain
     their current levels of service during modernization efforts
-
 -   Agility: the system needs to evolve, sustainably, at the same speed
     as the business
-
 -   Integration: systems involved in making payments, and other CMS
     business functions, need the option to use modern technology to
     interact with the current state of the legacy system.
-
 -   Usability: users’ interaction with the legacy system need to easily
     identify and extract the exact data they need, when they need it.
 
@@ -461,7 +457,7 @@ Here is an example of an analysis of alternatives that the Centers for
 Medicare and Medicaid Services (CMS) did when determining which
 contracting vehicle would best support the product.
 
-### Medicare Payment Modernization Contracting Strategy
+## Medicare Payment Modernization Contracting Strategy
 
 As modernization efforts transitions from proof of concepts on the
 Fiscal Intermediary Standard System (FISS) to a production roadmap,
@@ -709,9 +705,9 @@ size of the proposal that needs to be reviewed with each task order.
 Appendix F: Sample Statement of Objectives
 ------------------------------------------
 
-### Modern Payment Services for the Medicare Fee for Service (FFS) Program Statement of Objectives (SOO)
+## Modern Payment Services for the Medicare Fee for Service (FFS) Program Statement of Objectives (SOO)
 
-### Overview and Background Information
+## Overview and Background Information
 
 As we create modernized systems at CMS, it also creates the need for
 those systems to be able to communicate via real-time system-to-system
@@ -803,7 +799,7 @@ and in general building a system that we can confidently change at
 larger scales with confidence that we will not disrupt the critical
 operations that the system supports in the present.
 
-#### How we expect this team to work
+### How we expect this team to work
 
 We expect a successful Modern Payment Services team to be flexible and
 competent in solving both infrastructure and application development
@@ -838,7 +834,7 @@ effort, which includes several groups at CMS from the Center for
 Medicare (CM) and Office of Information Technology (OIT), as well as
 modernization teams from the existing system maintainer, Perspecta.
 
-### Problem Statement/Objectives
+## Problem Statement/Objectives
 
 CMS seeks the skills of a **Modern Payment Services** team that is
 well-versed in industry standard software architecture and development
@@ -855,7 +851,7 @@ maintainer modernization team.
 
 Objectives
 
-### **Develop, monitor, and maintain a cloud infrastructure for modernized modules, using a DevOps informed approach to application deployment and maintenance**
+## **Develop, monitor, and maintain a cloud infrastructure for modernized modules, using a DevOps informed approach to application deployment and maintenance**
 
 USDS has begun developing a cloud infrastructure which is ultimately
 intended to serve as the core environment in which modernized modules
@@ -915,7 +911,7 @@ approval of necessary Security Impact Analyses and supporting the
 aspects of the shared systems’ Security Control Assessments impacted
 by this work
 
-### **Join and participate in selection, design, development, and deployment of proof of concepts and production modernization modules**
+## **Join and participate in selection, design, development, and deployment of proof of concepts and production modernization modules**
 
 The existing modernization team, consisting of CMS (AMG, PBG, MCMG and
 USDS) and the maintainer modernization team from Perspecta, is
@@ -1004,7 +1000,7 @@ standard open source technologies
 * Develop, execute, and iterate on effective methodologies that allow
 the regular, efficient deployment of modernized modules to production
 
-### Collaboration with existing groups
+## Collaboration with existing groups
 
 We expect this team’s work to be highly collaborative. The team will be
 joining a preexisting modernization effort undertaken by several groups
@@ -1015,7 +1011,7 @@ work effectively with the existing team and should have a plan to
 address those issues. We have outlined important other teams and parties
 below and specific expectations around each.
 
-#### CMS FFS Modernization Team (OIT/AMG, CM/PBG, CM/MCMG, USDS)
+### CMS FFS Modernization Team (OIT/AMG, CM/PBG, CM/MCMG, USDS)
 
 The existing CMS FFS Modernization team consists of stakeholders from
 the Office of Information Technology’s Applications Management Group and
@@ -1031,7 +1027,7 @@ working together with the CMS FFS Modernization team on a day to day
 basis, ensuring that their goals are met, and providing information and
 expert advice on upcoming decisions or project direction.
 
-#### USDS Individual Contributors
+### USDS Individual Contributors
 
 In addition to USDS’ role as part of the CMS FFS Modernization team,
 members of USDS are also serving in a number of roles as individual
@@ -1048,7 +1044,7 @@ USDS individual contributors to learn about what has already been built
 and what the current state of the project is, and then to continue to
 build off of the momentum and work that USDS has started.
 
-#### Shared System Maintainer Modernization Team
+### Shared System Maintainer Modernization Team
 
 The Shared System Maintainer Modernization team is a team from Perspecta
 (the vendor currently responsible for maintaining FISS and MCS) which is
@@ -1082,9 +1078,9 @@ aware of the needs of the proof of concept sprint teams and work in
 tandem with them to deliver what they need without becoming an
 impediment to progress.
 
-### Interaction with other stakeholders
+## Interaction with other stakeholders
 
-#### CMS Stakeholders
+### CMS Stakeholders
 
 In addition to AMG, MCMG, and PBG, there are a number of other
 stakeholders within CMS who will be affected by the FFS modernization
@@ -1095,7 +1091,7 @@ their contributions to the proofs of concept and production
 modernization modules, and in their advice and input on the direction of
 the modernization project.
 
-#### Shared System Maintainers and Operators
+### Shared System Maintainers and Operators
 
 In addition to the Maintainer Modernization Team, there are other teams
 involved in maintaining and operating the Shared Systems. Specifically,
@@ -1119,7 +1115,7 @@ in their own incident response processes for issues with the cloud
 infrastructure, so that issues can be solved correctly and efficiently
 as quickly as possible.
 
-#### Cloud Services Provider
+### Cloud Services Provider
 
 As is common on other CMS projects such as QPP, AWS cloud services are
 being procured through a vendor who is maintaining a network and
@@ -1132,7 +1128,7 @@ issues getting services provisioned or configured, understanding and
 using the existing compliance infrastructure, and running incident
 response operations.
 
-#### Medicare Administrative Contractors (MACs)
+### Medicare Administrative Contractors (MACs)
 
 The Medicare Administrative Contractors, or MACs, are private health
 care insurers that have been awarded a geographic jurisdiction to
@@ -1163,7 +1159,7 @@ strong understanding and experience using modern user research and
 techniques to accurately identify issues and design an effective
 solution.
 
-### Interaction with non-modernization development and deployment
+## Interaction with non-modernization development and deployment
 
 As part of this modernization undertaking, we are looking to use Agile
 techniques and methodology appropriately, developing a process which is

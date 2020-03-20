@@ -5,8 +5,7 @@ permalink: /work/toolkits/agile-procurement-playbook/managing-an-agile-project
 sidenav: agile_procurement_playbook
 ---
 
-Managing an agile project
--------------------------
+# Managing an agile project
 
 This is one of the greatest challenges in terms of product delivery
 risk. With a traditional procurement, the whole product’s success
@@ -57,7 +56,7 @@ This would be another reason why it is important that the procurement
 team is part of the whole product team throughout the development of the
 product.
 
-### Source code
+## Source code
 
 Eventually, engineering will need to write code to build the product,
 design will need to create wireframes and mockups for the product, and
