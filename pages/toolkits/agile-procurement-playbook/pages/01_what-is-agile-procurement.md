@@ -16,15 +16,15 @@ iterations for the correct users.
 As contracts increase in scope and size, the ability to quickly award
 those contracts diminishes greatly. Likewise, the smaller the scope of a
 contract, the faster it can be awarded. An agile procurement strategy
-favors breaking up large monolithic contracts into smaller well-defined
+favors breaking up large monolithic contracts into smaller, well-defined
 components called modules. The modules are pieces of work that are
 required for the product’s success, such as:
 
 -   Conducting user research to ensure the right services are being
-    > built,
+    built,
 
 -   Designing to ensure that the end user is at the center of all
-    > development, and
+    development, and
 
 -   Engineering to build out any services that might be required.
 
