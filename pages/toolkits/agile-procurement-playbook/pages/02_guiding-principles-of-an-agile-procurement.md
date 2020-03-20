@@ -13,8 +13,8 @@ Both the [*United States Digital Service*](https://usds.gov/) and
 [*overviews*](https://techfarhub.cio.gov/learning-center/principles/) of
 the
 [*principles*](https://github.com/18F/technology-budgeting/blob/master/handbook.md)
-that guide generic agile procurement. The principles generally fall into
-the following buckets that are fundamental for an agile procurement
+that guide general agile procurement. These principles typically fall into
+the following areas, and each one is fundamental for an agile procurement
 strategy:
 
 -   Keep procurements small and quick,
@@ -24,7 +24,7 @@ strategy:
 -   Embrace a *[one-team, one-dream mindset](#working-together-building-an-agile-culture)*.
 
 USDS’s principles of procurement are a [*great launching
-pad*](https://playbook.cio.gov/#play5) for an agency contracting
+point*](https://playbook.cio.gov/#play5) for an agency contracting
 specialist who’s rethinking traditional procurement approaches. The goal
 is to mirror the procurement process after the way software is delivered
 in an agile format. For contracting specialists, this means focusing on
@@ -33,7 +33,7 @@ procuring skill sets that can build software.
 ### How it differs from other procurements
 
 An agile procurement strategy is distinct from other procurement
-strategies, such as the common waterfall strategy in these primary
+strategies, such as the common waterfall strategy, in these primary
 areas:
 
 -   Size of the contracts being awarded,
@@ -54,15 +54,15 @@ The approach to requirements gathering is also fundamentally different.
 An agile procurement strategy recognizes that:
 
 -   The team’s understanding of the product will develop as the product
-    > is being built, and
+    is being built, and
 
 -   This growing understanding can inform the requirements for the
-    > current and subsequent modular contracts.
+    current and subsequent modular contracts.
 
 Therefore, the procurement team doesn’t attempt to have all of the
 technical requirements defined up front. An agile procurement strategy
 relies on the team having a greater understanding of the product as the
-product is being built, and that new knowledge can be turned into
+product is being built; that new knowledge can be turned into
 contractual requirements for a modular contract.
 
 ### Modular contracting
@@ -80,21 +80,21 @@ differences between traditional and agile procurement approaches.
 -   Write a statement of work against the gathered requirements.
 
 -   Award the contract to a single prime contractor that could have
-    > multiple subcontractors underneath them.
+    multiple subcontractors underneath them.
 
 -   Set a long initial period of performance in which the vendor should
-    > deliver working software at the end of it.
+    deliver working software at the end of it.
 
 **Agile procurement approach**:
 
--   Recognize the complexity of the ask (moving DMV services online).
+-   Recognize the complexity of the task (moving DMV services online).
 
 -   Identify the different components necessary to accomplish the goal —
-    > like cloud infrastructure, research and design, and backend
-    > development .
+    things like cloud infrastructure, research and design, and backend
+    development .
 
--   Break up the product into discrete parts as they become known and
-    > use modular contracts to procure services against those.
+-   Break up the product into discrete parts as they become known, and
+    use modular contracts to procure services against those.
 
 There are many benefits to using a modular contracting strategy:
 
@@ -102,15 +102,15 @@ There are many benefits to using a modular contracting strategy:
     > vendor*](#vendor-lock-in-risk-mitigation) to deliver services.
 
 -   The period of performance can be shortened to protect the
-    > government, since it’s much easier to replace an underperforming
-    > vendor for a single component than it is to replace an
-    > all-encompassing contractor.
+    government, since it’s much easier to replace an underperforming
+    vendor for a single component than it is to replace an
+    all-encompassing contractor.
 
 -   It results in a pool of expert vendors for the product being built,
-    > broadening the options available for contracting out new work.
+    broadening the options available for contracting out new work.
 
 -   Vendors have to focus on delivering working software in a shorter
-    > time frame, providing tangible benefits much sooner.
+    time frame, providing tangible benefits much sooner.
 
 Of course, with any procurement approach, there are drawbacks. The
 approach requires a higher level of effort for project management, since
@@ -119,10 +119,10 @@ the government will need to:
 -   Manage more contracts,
 
 -   Provide strong coordination/leadership to orchestrate the different
-    > contracts and vendors on the product, and
+    contracts and vendors on the product, and
 
 -   Involve more people to manage the extra moving pieces introduced
-    > through modular contracting.
+    through modular contracting.
 
 #### Vendor lock-in risk mitigation
 
@@ -155,16 +155,16 @@ procurement strategy for an upcoming product, these questions can help
 determine whether the agency is ready:
 
 -   Do you have examples of when the current procurement strategy didn’t
-    > support a product’s chances of success?
+    support a product’s chances of success?
 
 -   Is the upcoming product for development risky? (e.g. high budget,
-    > mission-critical service, long development timeline, etc.)
+    mission-critical service, long development timeline, etc.)
 
 -   Does the current procurement strategy help mitigate the risks in
-    > product development and delivery?
+    product development and delivery?
 
 -   Does the current procurement strategy contribute to the probability
-    > of success for the product?
+    of success for the product?
 
 By conducting an [*analysis of
 alternatives*](/work/toolkits/agile-procurement-playbook/appendix#appendix-e-sample-analysis-of-procurement-options) on
