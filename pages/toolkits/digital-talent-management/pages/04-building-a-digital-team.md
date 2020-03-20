@@ -165,15 +165,15 @@ Recommended reading
 ### Case study: Georgia Digital Service
 
   When Nikhil Deshpande started the [*Georgia Digital Service*](https://digitalservices.georgia.gov/) (GADS), he knew it would be hard to hire digital talent with the breadth and depth of skills needed. He developed an approach that would allow him to supplement internal staff with a strong vendor pool as needed.
-  
+
   First, Deshpande needed to hire a team. He used his strong personal network to identify and hire an internal team of strategists. He started out by filling these strategic positions primarily with contractors. Over the next year, he worked with human resources to hire permanent staff. His internal team has now grown to a core team of 15.
-  
+
   Deshpande and his core team then turned their attention to creating a multi-disciplinary vendor pool. To supplement their internal skill set, they needed additional expertise in content strategy, user experience, product management, development, and testing. After rigorous evaluations, GADS identified and retained multiple vendors in each area of expertise. Now they pull these vendors into projects as necessary.
-  
+
   The state and vendor teams work together to support GADS. Strong project management practices allow the vendors to work well with each other and the state team. Shared tools, like Slack and Jira, allow teams to collaborate without friction.
-  
+
   Tips for procuring high-caliber vendors:
-  
+
   * Look for specific evidence of the skills you need. When GADS issued an RFP for Drupal engineers, it required respondee vendors to get most of their business from Drupal engagements. It also required them to make public contributions to the Drupal community.
   * Use a multi-tiered evaluation approach. Filter out unqualified vendors through a short written submission. Then invite the most qualified vendors to participate in a technical challenge where subject matter experts can evaluate their skills.
   * Work with your procurement team to ensure that your process follows internal policies.
