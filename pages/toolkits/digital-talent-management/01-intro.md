@@ -37,7 +37,7 @@ This handbook is intended to be a practical guide for federal, state,
 and local governments looking to build out their digital capacity to
 meet the needs in delivering technical products and programs.
 
-How to use this handbook 
+How to use this handbook
 -------------------------
 
 This handbook is written in chronological order, covering all of the
