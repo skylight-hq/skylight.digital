@@ -37,15 +37,16 @@ responsibilities, learning from failures, and encouragement of new ideas
 Westrum provides a useful typology that contrasts the qualities of three
 different types of organizational culture:
 
-  **Pathological**                **Bureaucratic**            **Generative**
-  ------------------------------- --------------------------- --------------------------
-  Power oriented                  Rule oriented               Performance oriented
-  Low cooperation                 Modest cooperation          High cooperation
-  Messengers shot                 Messengers neglected        Messengers trained
-  Responsibilities shirked        Narrow responsibilities     Risks are shared
-  Bridging discouraged            Bridging tolerated          Bridging encouraged
-  Failure leads to scapegoating   Failure leads to justice    Failure leads to inquiry
-  Novelty crushed                 Novelty leads to problems   Novelty implemented
+Pathological                    | Bureaucratic                | Generative
+------------------------------- | --------------------------- | --------------------------
+Power oriented                  | Rule oriented               | Performance oriented
+Low cooperation                 | Modest cooperation          | High cooperation
+Messengers shot                 | Messengers neglected        | Messengers trained
+Responsibilities shirked        | Narrow responsibilities     | Risks are shared
+Bridging discouraged            | Bridging tolerated          | Bridging encouraged
+Failure leads to scapegoating   | Failure leads to justice    | Failure leads to inquiry
+Novelty crushed                 | Novelty leads to problems   | Novelty implemented
+{: .table}
 
 Most traditional government organizations tend to be bureaucratic.
 However, digital teams thrive in generative cultures, which allow for
