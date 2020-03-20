@@ -259,6 +259,7 @@ for determining appropriate action:
 |TO BE COMPLETED/PROPOSED BY QUOTER|  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
+{: .table style="font-size:15px"}
 
 ### Additional Quality Metrics Table Template from [*18F*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
 
@@ -267,7 +268,7 @@ Here is an example of a Quality Metrics Table that includes a QASP.
 
 
 |  Deliverable | Performance Standard(s) | Acceptable Quality Level | Method of Assessment |
-| :---: | :---: | :---: | :---: |
+| --- | --- | --- | --- |
 |  Tested Code | Code delivered under the order must have substantial test code coverage and a clean code baseVersion-controlled, public repository of code comprising the product, which will remain in the government domain | Minimum of 90% test coverage of all code | Combination of manual review and automated testing |
 |  Properly Styled Code | [GSA 18F Front-End Guide](https://frontend.18f.gov/) | 0 linting errors and 0 warnings | Combination of manual review and automated testing |
 |  Accessibility | Web Content Accessibility Guidelines 2.1 AA standards | 0 errors reported using an automated scanner, and 0 errors reported in manual testing | [Pa11y](https://github.com/pa11y/pa11y) |
@@ -275,6 +276,7 @@ Here is an example of a Quality Metrics Table that includes a QASP.
 |  Documented | All dependencies are listed and the licenses are documented. Major functionality in the software/source code is documented. Individual methods are documented inline using comments that permit the use of documentation-generation tools such as [JSDoc](http://usejsdoc.org/). A system diagram is provided | Combination of manual review and automated testing, if available | Manual review |
 |  Security | [OWASP Application Security Verification Standard 4.0, Level 2](https://www.owasp.org/images/d/d4/OWASP_Application_Security_Verification_Standard_4.0-en.pdf) | Code submitted must be free of medium- and high-level static and dynamic security vulnerabilities | Clean tests from a static testing SaaS (such as [npm audit](https://docs.npmjs.com/cli/audit)) and from [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), along with documentation explaining any false positives |
 |  User research | Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end) | Artifacts from usability testing and/or other research methods with end users are available at the end of every applicable sprint, in accordance with the vendor’s research plan | Manual review |
+{: .table}
 
 Appendix C: Examples of TEP rating systems
 ------------------------------------------
@@ -504,7 +506,7 @@ be the one-stop shop for agency development. There are certainly
 advantages to leveraging work already completed as well as drawbacks to
 leveraging a generic development contacting vehicle.
 
- 
+
 |  Pros | Cons |
 | :--- | :--- |
 |  The IDIQ is already existing and vendors have been pre-vetted. | The vendor pool is not specialized to any project. |
@@ -513,6 +515,7 @@ leveraging a generic development contacting vehicle.
 |  Orders under $10M are not protestable. | Agile methodologies, user-center design, user design, and DevOps practices are not baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest. |
 |  All contract types permissible giving CMS added flexibility. | Most vendors are not familiar with CMS payment processing and could struggle to meet the quick on boarding and rapidly changing needs of this project |
 |  Helping CMS meet small business goals. | Ability to award new tasks quickly. |
+{: .table}
 
 ***SPARC with on-ramp***
 
@@ -525,6 +528,7 @@ consideration.
 | :--- | :--- |
 |  Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work | High protest probability - would require a competitive process which could be protested – there are two points of protest because we already have a large vetted pool of contractors plus the source selection decision |
 |  - | Additional resources need on OAGM and program side to manage source selection process |
+{: .table}
 
 ***GWAC – Alliant 2, CIO SP3***
 
@@ -534,6 +538,7 @@ consideration.
 |  Orders under $10M not protestable | Agency could receive criticism for not using SPARC which was intended, in part, for agile development; however, climate is pushing agencies toward Category Management and SUM/BIC use |
 |  All contract types permissible | Not all vendors will have subject matter expertise with CMS systems or payment processing |
 |  Alliant 2 explicitly includes agile development services |  |
+{: .table}
 
 ***Agency Wide BPA***
 
@@ -547,6 +552,7 @@ consideration.
 |  - | Inability to add new contractors to mix after award of BPA |
 |  - | Risk of ending up with a significant number of vendors in pool |
 |  - | Agency could receive criticism for not using SPARC which was intended, in part, for agile development |
+{: .table}
 
 ***GSA Schedule Task Order Competitions***
 
@@ -558,7 +564,7 @@ necessary.
 |  Existing pre-vetted cadre of qualified vendors | Not a SUM or BIC vehicle. |
 |  New contractors are constantly being added to the industrial base. | Hundreds of vendors; however, FPDS data shows that [x] proposals are received on average |
 |  Targeted competition possible (to reasonably ensure receipt of at least 3 quotations); must provide RFQ to any company requesting it. | Limited to FFP or L-H; however, these contract types are consistent with commercial practices for buying agile development |
-
+{: .table}
 
 
 ***Project Specific BPA off of GSA Schedule***
@@ -572,6 +578,7 @@ necessary.
 |  Agile methodologies, user-center design, user design, and DevOps practices can be baked into the BPA. This avoids proposals with boilerplate language while focusing on the objectives. | If approved by OMB, and BPA put in place, CMS mandatory use policy and rigorous reporting requirements needed |
 |  The base period on awarded contracts is shorter.<br/> <br/>CMS is put into the position of less risk by requiring results from vendors faster.<br/> <br/>CMS does not have the pressure to award existing vendors on a contract re-compete due to transition time shorten via domain knowledge. This drive competition. | - |
 |  Avoids single points of failure. Re-competes are actually encouraged. | - |
+{: .table}
 
 While there are a variety of potential contracting options available, to
 date, the most successful approach to complex system development at CMS
@@ -624,7 +631,7 @@ rapidly is necessary.
 | :--- | :--- |
 |  SPARC | Competitive task orders averaged 139 days (19.9 weeks) |
 |  ADELE BPA | Competitive task orders averaged 67 days. (9.5 weeks) |
-
+{: .table}
 
 
 ***Quality of technical talent available via contract vehicle***
@@ -641,6 +648,7 @@ challenge each other to rise the skill level is important.
 | :--- | :--- |
 |  SPARC | The density of high skilled vendors is variable. Roughly 5% of the total vendors have won a competitive proposal under SPARC. |
 |  ADELE BPA | 100% of the vendors have won a competitive proposal under ADELE. Each one of these competitive proposals included a design challenge that required working software and designs to be submitted. |
+{: .table}
 
 ***Contractor Digital Service experience and approach (this is different
 than “agile development”)***
@@ -656,6 +664,7 @@ new requirements are discovered.
 | :--- | :--- |
 |  SPARC | Partners offer agile, waterfall, and hybrid development methodology. Having digital service skill sets were not prerequisites for joining SPARC. |
 |  ADELE BPA | 100% of the vendors on ADELE went through market research making sure that modern digital services and agile development practices were core to their business. |
+{: .table}
 
 ***Familiarity with CMS systems, specifically complex business logic
 associated with Medicare FFS payment processing***
@@ -678,6 +687,7 @@ development dead on arrival.
 | :--- | :--- |
 |  SPARC | The average period of performance for a SPARC task order is 3.8 years. |
 |  ADELE BPA | The average period of performance for an ADELE task order is 2.2 years. |
+{: .table}
 
 ***Ability to define development and infrastructure requirements at the
 BPA level so details are not missed in task orders***
@@ -694,7 +704,7 @@ size of the proposal that needs to be reviewed with each task order.
 | :--- | :--- |
 |  SPARC | None. |
 |  ADELE BPA | Agile methodologies. Digital Service requirements. |
-
+{: .table}
 
 Appendix F: Sample Statement of Objectives
 ------------------------------------------
