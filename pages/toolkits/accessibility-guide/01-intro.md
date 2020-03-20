@@ -1,12 +1,9 @@
 ---
 layout: toolkit
-title: Accessibility Guide
+title: Introduction
 permalink: /work/toolkits/accessibility-guide/
 sidenav: accessibility_guide
 ---
-
-
-## Introduction
 
 Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And least of all, it is required by law for all federal EIT products to be accessible (with a few minor exceptions).
 
@@ -22,7 +19,7 @@ This tool kit is a fork of [18F's accessibility guide](https://accessibility.18f
 
 ### Testing Tools
 
-* [Accessibility Insights](https://accessibilityinsights.io/) - Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Accessibility Insights](https://accessibilityinsights.io/) - Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1.
 * [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) - Mac and Windows application to test for color contrast against WCAG 2.0 and 2.1 guidelines.
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
 * [Pa11y Automated Tool](http://pa11y.org/) - Open-source
@@ -33,7 +30,7 @@ This tool kit is a fork of [18F's accessibility guide](https://accessibility.18f
 * [Windows: NVDA Screenreader](https://www.nvaccess.org/) - Open-source
 
 ### Browser Testing Tools
-* [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1.
 * [Firefox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
 * [Chrome:  Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) - Great for gradients & images.
 * [Chrome: Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
@@ -54,7 +51,7 @@ This tool kit is a fork of [18F's accessibility guide](https://accessibility.18f
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
 * [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
 * [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
-* [Accessible Rich Internet Applications (ARIA) Documentation](https://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) 
+* [Accessible Rich Internet Applications (ARIA) Documentation](https://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria)
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
 ### Misc Sites and tutorials
@@ -69,5 +66,5 @@ This tool kit is a fork of [18F's accessibility guide](https://accessibility.18f
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Free web accessibility course by Google
 * [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility guide (W3C/WebAIM)
 * [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
-* [CanIUse.com](http://caniuse.com/) - useful for HTML5, ARIA & CSS 
+* [CanIUse.com](http://caniuse.com/) - useful for HTML5, ARIA & CSS
 * [New Zealand Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/)

@@ -5,12 +5,11 @@ permalink: /work/toolkits/agile-procurement-playbook/agile-acquisition-case-stud
 sidenav: agile_procurement_playbook
 ---
 
-Agile acquisition case study
-----------------------------
+# Agile acquisition case study
 
-### Medicare Payment Systems Modernization (MPSM)
+## Medicare Payment Systems Modernization (MPSM)
 
-#### Project background
+### Project background
 
 The Centers for Medicare and Medicaid Services (CMS) is the largest
 medical insurer in the world. CMS pays providers roughly \$500 billion
@@ -35,7 +34,7 @@ system was driven through a traditional SOW that required many contract
 modifications to include new work as it came to light. The contract
 value was hundreds of millions of dollars over the course of five years.
 
-#### Project scope
+### Project scope
 
 The need for modernization didn’t go away with the failed attempts. CMS
 decided to look at different approaches for modernization that would be
@@ -55,18 +54,15 @@ computers. By moving from mainframe computers to the cloud, CMS would be
 able to:
 
 -   Cut down on the cost of computing,
-
 -   Make changes to the programs in a modular fashion instead of having
     to make edits to the monolithic codebase,
-
 -   Change pieces of the system at a much more rapid pace, and
-
 -   Provide real-time analytics and feedback to the CMS policy team.
 
 To do this successfully, CMS needed a new approach to procurement that
 could deliver business value much more rapidly than before.
 
-#### The procurement strategy
+### The procurement strategy
 
 Because the modernization initiative was going to be a long, multi-year
 effort, CMS needed a contracting vehicle that could be tailored to
@@ -80,9 +76,7 @@ they selected a blanket purchase agreement (BPA) as the best vehicle to:
 
 -   Quickly create a small pool of vendors that would become experts in
     the system,
-
 -   Allow for rapidly issuing modular contracts, and
-
 -   Bake common requirements into each contract into the BPA to avoid
     copying and pasting common language into each SOO and vendor
     proposal.
@@ -99,16 +93,14 @@ modernization initiative. This would clear the way for CMS to write SOOs
 for the specific modular contracts that would be awarded through the
 BPA.
 
-#### Awarding the BPA
+### Awarding the BPA
 
 The PWS in the BPA consisted of a mix of requirements that included the
 vendor’s ability to:
 
 -   Develop software in an agile fashion,
-
 -   Demonstrate the ability to conduct modern user research and product
     development, and
-
 -   Show how user-centered design was plugged into the development
     lifecycle.
 
@@ -127,14 +119,14 @@ all of the different disciplines. By taking this approach, CMS could be
 assured that all vendors awarded a spot on the BPA would be ready to
 work in an agile fashion, saving time down the road.
 
-#### Modular contracting
+### Modular contracting
 
 Now that CMS had a contracting vehicle in place to support the product
 through its lifetime, it shifted focus to individual pieces of work.
 Modular contracting was vital for CMS to chunk out the work as it came
 up during the process of modernization.
 
-#### The outcome (so far…)
+### The outcome (so far…)
 
 It’s early days for this new approach at CMS, but there are some
 promising signs. The first modular contract to come out of the newly
@@ -143,17 +135,15 @@ development could be built on top of. CMS was able to competitively bid
 this task of work to all of the BPA winners and award the contract **in
 less than 45 days** from initial inception.
 
-#### Summary
+### Summary
 
 CMS had a complicated problem to solve on a massive scale. By shifting
 to an agile approach, the agency is able to:
 
 -   Retain flexibility for the modernization effort — even at this
     massive scale,
-
 -   Reduce the risks inherent in putting all resources into one vendor’s
     hands,
-
 -   Adapt its approach to align with the changes in technology and best
     practice that are inevitable over such a long-term initiative.
 

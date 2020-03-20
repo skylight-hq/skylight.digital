@@ -8,7 +8,7 @@ sidenav: accessibility_guide
 ---
 This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: A, B and C. Please check and address these issues in the order in which they appear.
 
-For more detail on accessibility standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
+For more detail on accessibility standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/)
 
  * A - Critical issues that will cause serious problems and/or stop most users of assistive technology from using the site
  * B - Issues that may cause problems or increased frustration for certain users

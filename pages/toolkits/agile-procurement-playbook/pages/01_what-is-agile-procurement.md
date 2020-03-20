@@ -5,8 +5,7 @@ permalink: /work/toolkits/agile-procurement-playbook/what-is-agile-procurement
 sidenav: agile_procurement_playbook
 ---
 
-What is agile procurement?
---------------------------
+# What is agile procurement?
 
 Agile procurement is a procurement strategy that focuses on issuing
 contracts quickly as well as de-risking the overall product by ensuring
@@ -22,10 +21,8 @@ required for the product’s success, such as:
 
 -   Conducting user research to ensure the right services are being
     built,
-
 -   Designing to ensure that the end user is at the center of all
     development, and
-
 -   Engineering to build out any services that might be required.
 
 When an agency is starting a new initiative or modernizing an existing

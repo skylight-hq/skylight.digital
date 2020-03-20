@@ -111,7 +111,7 @@ accessibility_guide:
     - title: Alternative versions
       url: /work/toolkits/accessibility-guide/alternative-versions/
     - title: Writing guide
-      url: /work/toolkits/accessibility-guidewriting-guide/
+      url: /work/toolkits/accessibility-guide/writing-guide/
     - title: Trainings and videos
       url: /work/toolkits/accessibility-guide/training-videos/
 
@@ -133,5 +133,5 @@ agile_procurement_playbook:
       url: /work/toolkits/agile-procurement-playbook/managing-an-agile-project
     - title: Agile acquisition case study
       url: /work/toolkits/agile-procurement-playbook/agile-acquisition-case-study
-    - title: Appendix 
+    - title: Appendix
       url: /work/toolkits/agile-procurement-playbook/appendix
