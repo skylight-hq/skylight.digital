@@ -69,7 +69,7 @@ Leveraging alternative sources of talent
 
 Hiring people is not the only way to access digital talent. Consider some alternatives to increase the digital talent density on your team:
 
-* Partner with universities to **offer internships** Government offers the ability for students to make an impact.
+* Partner with universities to **offer internships**. Government offers the ability for students to make an impact.
 * Support and partner with **technology boot camps** such as General Assembly, or programs like Coding IT Forward, to hire recent graduates.
 * Partner with **organizations like Code For America**.
 * Bring in **freelancers** on short duration temporary assignments to solve a particular problem. This can work well for tasks that don’t need to be done frequently, such as setting up DevOps pipelines or uncovering security bugs.
