@@ -85,7 +85,7 @@ welcome on their first day, and:
 
 ### The first week
 
--   Encourage team members to schedule 1:1s with the new hire to welcome
+-   Encourage team members to schedule 1-on-1's with the new hire to welcome
     them and give an intro to the different projects throughout the
     organization
 -   Schedule deep-dives for the project they will be involved with
@@ -132,7 +132,6 @@ Recommended reading
 -   [*How we dramatically improved 18F's onboarding process in 3
     months*](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/)
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: Coding it Forward
 
 Since 2017, Coding it Forward has brought over 100 undergraduate and
