@@ -49,7 +49,7 @@ pagination:
   <div class="projects">
     <div class="projects-row">
       {% for item in paginator.posts %}
-        <article class="project-col" data-tags="{{item.tags | join}}">
+        <article class="project-col" data-tags="{{item.tags | join: ', '}}">
           <div class="project-card card-link" data-href="{{item.permalink}}" tabindex="-1">
             <div role="img" class="project-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
             <div class="project-block">
