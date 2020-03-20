@@ -22,7 +22,7 @@ changes to healthcare policy.
 CMS had tried to modernize these systems three separate times in the
 past, and all attempts resulted in various degrees of failure. The
 attempts to modernize all involved waterfall approaches to software
-delivery. Two of the three planned for a big bang[^1] switch between
+delivery. Two of the three planned for a major[^1] switch between
 systems and resulted in lost data, system downtime, and business logic
 that did not match the original legacy system. CMS was forced to roll
 back all efforts to the original system to ensure that payments were
@@ -57,7 +57,7 @@ able to:
 -   Cut down on the cost of computing,
 
 -   Make changes to the programs in a modular fashion instead of having
-    > to make edits to the monolithic codebase,
+    to make edits to the monolithic codebase,
 
 -   Change pieces of the system at a much more rapid pace, and
 
@@ -79,13 +79,13 @@ E*](/work/toolkits/agile-procurement-playbook/appendix#appendix-e-sample-analysi
 they selected a blanket purchase agreement (BPA) as the best vehicle to:
 
 -   Quickly create a small pool of vendors that would become experts in
-    > the system,
+    the system,
 
 -   Allow for rapidly issuing modular contracts, and
 
 -   Bake common requirements into each contract into the BPA to avoid
-    > copying and pasting common language into each SOO and vendor
-    > proposal.
+    copying and pasting common language into each SOO and vendor
+    proposal.
 
 Constructing the BPA required an analysis of the types of skill sets
 that would be necessary to successfully execute on the long-term vision
@@ -107,10 +107,10 @@ vendor’s ability to:
 -   Develop software in an agile fashion,
 
 -   Demonstrate the ability to conduct modern user research and product
-    > development, and
+    development, and
 
 -   Show how user-centered design was plugged into the development
-    > lifecycle.
+    lifecycle.
 
 CMS knew that all of these skills would be necessary in the successful
 delivery of the modernization effort. The BPA also included a
@@ -149,13 +149,13 @@ CMS had a complicated problem to solve on a massive scale. By shifting
 to an agile approach, the agency is able to:
 
 -   Retain flexibility for the modernization effort — even at this
-    > massive scale,
+    massive scale,
 
 -   Reduce the risks inherent in putting all resources into one vendor’s
-    > hands,
+    hands,
 
 -   Adapt its approach to align with the changes in technology and best
-    > practice that are inevitable over such a long-term initiative.
+    practice that are inevitable over such a long-term initiative.
 
 
 [^1]: *Big bang is a common term in software development when switching
