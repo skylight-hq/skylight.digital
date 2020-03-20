@@ -33,7 +33,7 @@ on new products that will be requiring procurements:
 -   Agency product manager, and
 
 -   The agency’s digital services team of engineering, design, and
-    > research.
+    research.
 
 This procurement strategy is most effective when these roles act as a
 single team supporting the overall product.
@@ -46,7 +46,7 @@ In a quick overview of the US federal IT project landscape,
 reported that in 2014:
 
 -   \$75.6 billion was spent on IT per year — this is more than the
-    > entire venture capital industry spends annually combined.
+    entire venture capital industry spends annually combined.
 
 -   94% of the projects are over budget or behind schedule.
 
@@ -60,7 +60,7 @@ outcomes in order to:
 -   Set direction and monitor the progress of the work, and
 
 -   Intervene promptly when progress isn’t tracking towards the
-    > product’s objectives.
+    product’s objectives.
 
 Procurement flexibility is the substrate underlying successful project
 management. Procurement flexibility can be defined as the ability to:
@@ -70,10 +70,10 @@ management. Procurement flexibility can be defined as the ability to:
 -   Shorten the initial period of performance,
 
 -   Optimize for contracts that speed digital service delivery for end
-    > users, and
+    users, and
 
 -   Have a diverse pool of quality vendors that has digital service
-    > experience to draw from.
+    experience to draw from.
 
 The overarching goal for every procurement is presumably to deliver
 defined, expected outcomes for the product or service being procured.
