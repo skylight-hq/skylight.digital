@@ -96,7 +96,6 @@ Checklist
 * Create a comprehensive digital talent strategy
 * Use technology to create additional capacity
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
 ### Case study: UK Government Digital Service
 
   The UK Government Digital Service (GDS) is the oldest of the civic digital service teams. In many ways, it set the standards for teams in the United States, including 18F and USDS. GDS operates on a mixed model, hiring people into a centralized team, providing oversight for new IT acquisition, and staffing teams within agencies. Through this model, they have brought hundreds of technologists into the UK government.
@@ -110,7 +109,6 @@ Checklist
   * Is cloud-hosted
   * Adheres to the UK design systems
   * Uses a single voice to communicate to the public
-</div>
 
 [^1]: Hana Schank and Sara Hudson, “What Should Teams Look Like”, New America, October 2018, [*https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/*](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/)
 
