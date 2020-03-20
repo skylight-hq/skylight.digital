@@ -54,11 +54,12 @@ as ‘remote friendly.’
 
 ### Project management and other tools
 
-  **Name**                                            **Purpose**                                                                   **Remote Friendly**
-  --------------------------------------------------- ----------------------------------------------------------------------------- ---------------------
-  [*Miro*](https://miro.com/)                         Allows creation of product management, UX, and other types of online boards   X
-  [*Trello*](https://trello.com/en)                   Kanban-style list making application for agile project management             X
-  [*Jira*](https://www.atlassian.com/software/jira)   Bug tracking and agile project management                                     X
+Name | Purpose | Remote Friendly
+--- | --- | ---
+[*Miro*](https://miro.com/)| Allows creation of product management, UX, and other types of online boards| X
+[*Trello*](https://trello.com/en)| Kanban-style list making application for agile project management| X
+[*Jira*](https://www.atlassian.com/software/jira)| Bug tracking and agile project management | X
+{: .table}
 
 ### Collaboration tools
 
@@ -66,30 +67,33 @@ Communication tools are a constant barrier for government employees.
 Increase productivity and foster creative, serendipitous problem solving
 by procuring collaborative editing and chat software.
 
-  **Name**                                           **Purpose**                          **Remote Friendly**
-  -------------------------------------------------- ------------------------------------ ---------------------
-  [*Slack*](https://slack.com/) or Microsoft Teams   Real-time chat                       X
-  [*Zoom*](https://zoom.us/)                         Video conferencing                   X
-  [*Google Docs*](https://docs.google.com/)          Collaborative creating and editing   X
+Name                                           | Purpose                          | Remote Friendly
+--- | --- | ---
+[*Slack*](https://slack.com/) or Microsoft Teams  | Real-time chat                      | X
+[*Zoom*](https://zoom.us/)                        | Video conferencing                  | X
+[*Google Docs*](https://docs.google.com/)         | Collaborative creating and editing  | X
+{: .table}
 
 Microsoft Teams also allows for video conferencing and collaborative
 document authoring in addition to real-time chat.
 
 ### Tools for engineers
 
-  **Name**                                                             **Purpose**                                                                                                   **Remote Friendly**
-  -------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- ---------------------
-  [*Github*](https://github.com/) or [*Gitlab*](https://gitlab.com/)   Distributed version control, features to make collaborating on code easier, and features for issue tracking   X
-  [*Code climate*](https://codeclimate.com/)                           Code quality and other code metrics static scans
+Name |Purpose | Remote Friendly
+--- | --- | ---
+[*Github*](https://github.com/) or [*Gitlab*](https://gitlab.com/)  | Distributed version control, features to make collaborating on code easier, and features for issue tracking  | X
+[*Code climate*](https://codeclimate.com/)                          | Code quality and other code metrics static scans
+{: .table}
 
 ### Tools for designers
 
-  **Name**                                     **Purpose**                                                                                              **Remote Friendly**
-  -------------------------------------------- -------------------------------------------------------------------------------------------------------- ---------------------
-  [*Sketch*](https://www.sketch.com/)          Create high fidelity mockups and prototypes and build UI components that can be reused across projects
-  [*Invision*](https://www.invisionapp.com/)   Interactive prototypes and feedback                                                                      X
-  [*Abstract*](https://www.abstract.com/)      Version control for Sketch files
-  [*Axure*](https://www.axure.com/)            Prototyping
+Name | Purpose | Remote Friendly
+--- | --- | ---
+[*Sketch*](https://www.sketch.com/)         | Create high fidelity mockups and prototypes and build UI components that can be reused across projects
+[*Invision*](https://www.invisionapp.com/)  | Interactive prototypes and feedback | X
+[*Abstract*](https://www.abstract.com/)     | Version control for Sketch files
+[*Axure*](https://www.axure.com/)           | Prototyping
+{: .table}
 
 Checklist
 ---------
