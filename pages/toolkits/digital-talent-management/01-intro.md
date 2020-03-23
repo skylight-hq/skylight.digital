@@ -60,11 +60,9 @@ major areas:
     cross-functional, empowered, self-organizing teams. Commit to
     modernizing the skills of existing employees through continual
     education.
-
 2.  **Environment**. Build a collaborative work environment. Provide
     your teams with the tolls, physical space, culture, and leadership
     they need to succeed.
-
 3.  **Communication**. Instigate digital transformation throughout your
     organization by telling the stories of how you do the work. These
     stories will help inspire your organization.
