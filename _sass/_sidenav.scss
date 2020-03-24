@@ -36,7 +36,8 @@
       }
     }
 
-    .active {
+    .active,
+    .current {
       position: relative;
 
       &:after {

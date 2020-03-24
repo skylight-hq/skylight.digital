@@ -15,7 +15,7 @@ layout: default
           <ul role="presentation">
            {% for item in site.data.toolkits[page.sidenav].toc %}
               <li>
-                <a class="nav-link {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+                <a class="nav-link {% if item.url == page.url %}current{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
               </li>
            {% endfor %}
           </ul>
