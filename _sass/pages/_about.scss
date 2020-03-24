@@ -41,10 +41,6 @@
 
   a {
     @include link-decoration($gray-light, $brand-primary, none, none);
-
-    &:not(:first-child) {
-      padding-left: 10px;
-    }
   }
 
   @include media-breakpoint-up(sm) {
