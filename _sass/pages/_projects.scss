@@ -23,3 +23,13 @@
 
 @include semantic-card('project');
 @include multi-col-spacing('project-col', $mb-size: 4, $mb-md-size: 5);
+
+.employee-footer {
+  display: flex;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+
+  a {
+    margin: 0 8px;
+  }
+}
