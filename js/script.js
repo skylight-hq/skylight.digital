@@ -183,7 +183,7 @@ $(function() {
     const paginatePosts = () => {
       $('.projects').pagination({
         dataSource: $('article.filter-match').get(),
-        pageSize: 3,
+        pageSize: 12,
         ulClassName: 'pagination d-flex justify-content-center',
         callback: function(data) {
           posts.addClass('hidden');
