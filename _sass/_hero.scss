@@ -80,6 +80,8 @@
 .hero-banner {
   background-position: top center;
   background-size: auto;
+  -webkit-animation: myfirst 1s ; /* Chrome, Safari, Opera */
+  animation: herofadein 1s ;
 
   .hero-container {
     max-width: 506px;
@@ -104,5 +106,16 @@
     &.text-ink {
       text-shadow: none;
     }
+  }
+}
+
+/* Standard syntax */
+@keyframes herofadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
