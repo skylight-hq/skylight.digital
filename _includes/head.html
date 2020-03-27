@@ -226,6 +226,9 @@
 
   <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" type="text/css">
+  {% if page.preload %}
+    <link rel="preload" href="/img/{{ page.preload }}" as="image">
+  {% endif %}
   <script src="/js/jquery.slim.min.js"></script>
   <script src="/js/tether.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
