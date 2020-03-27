@@ -1,7 +1,9 @@
-<header class="hero hero-banner mb-5
+<div class="
   {% if include.color %}
     bg-{{ include.color }}
-  {% endif %}"
+  {% endif %}
+">
+<header class="hero hero-banner mb-5"
   {% if include.image %}
     style="
       background-image: url(/img/{{ include.image }});
@@ -28,3 +30,4 @@
     </p>
   </div>
 </header>
+</div>
