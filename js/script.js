@@ -185,11 +185,21 @@ $(function() {
         dataSource: $('article.filter-match').get(),
         pageSize: 12,
         ulClassName: 'pagination d-flex justify-content-center',
+        prevText: '<i class="fa fa-chevron-left mr-2 pagination-icon"></i><b>Previous</b>',
+        nextText: '<b>Next</b><i class="fa fa-chevron-right ml-2 pagination-icon"></i>',
+        showPageNumbers: false,
+        showNavigator: true,
+        formatNavigator: 'Page <%= currentPage %> of <%= totalPage %>',
+        autoHidePrevious: true,
+        autoHideNext: true,
         callback: function(data) {
           posts.addClass('hidden');
           data.forEach(post => post.className = 'project-col');
-          $('ul.pagination li').addClass('page-item');
-          $('ul.pagination li a').addClass('page-link');
+          $('.paginationjs-nav')
+            .detach()
+            .prependTo('.pagination')
+            .addClass('mx-3 mx-sm-5');
+          $('.paginationjs-prev').detach().prependTo('.pagination');
         }
       });
 
