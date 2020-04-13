@@ -181,9 +181,11 @@ $(function() {
     };
     // This function will paginate all visible posts
     const paginatePosts = () => {
+      const dataSource = $('article.filter-match').get();
+      const pageSize = 12;
       $('.projects').pagination({
-        dataSource: $('article.filter-match').get(),
-        pageSize: 12,
+        dataSource,
+        pageSize,
         ulClassName: 'pagination d-flex justify-content-center',
         prevText: '<i class="fa fa-chevron-left mr-2 pagination-icon"></i><b>Previous</b>',
         nextText: '<b>Next</b><i class="fa fa-chevron-right ml-2 pagination-icon"></i>',
@@ -195,11 +197,15 @@ $(function() {
         callback: function(data) {
           posts.addClass('hidden');
           data.forEach(post => post.className = 'project-col');
-          $('.paginationjs-nav')
-            .detach()
-            .prependTo('.pagination')
-            .addClass('mx-3 mx-sm-5');
-          $('.paginationjs-prev').detach().prependTo('.pagination');
+          if (dataSource.length <= pageSize) {
+            $('.paginationjs').hide();
+          } else {
+            $('.paginationjs-nav')
+              .detach()
+              .prependTo('.pagination')
+              .addClass('mx-3 mx-sm-5');
+            $('.paginationjs-prev').detach().prependTo('.pagination');
+          }
         }
       });
 
@@ -236,12 +242,18 @@ $(function() {
       const filterText = text.toLowerCase();
       if (!filters.includes(filterText)) {
         filters.push(filterText);
-        $(this).addClass("font-weight-bold")
+        $(`.exp-filter-item:contains("${text}")`)
+          .addClass("font-weight-bold");
         $(".filter-post-tags")
           .append(`<a class="tag-badge" href="#0">${text}<i class="fa fa-times-circle ml-1"></i></a>`);
         addRemoveHandler();
-        filterPosts();
+      } else {
+        filters.splice(filters.indexOf(filterText), 1);
+        $(`.exp-filter-item:contains("${text}")`)
+          .removeClass("font-weight-bold");
+        $(`.tag-badge:contains("${text}")`).remove();
       }
+      filterPosts();
     });
     // Do initial filter
     filterPosts();
