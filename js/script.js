@@ -179,9 +179,6 @@ $(function() {
         filterPosts();
       });
     };
-    // Scrollpoint to use when flipping pages
-    const scrollpoint = $('.projects').offset()
-    scrollpoint.top -= 10;
     // This function will paginate all visible posts
     const paginatePosts = () => {
       const dataSource = $('article.filter-match').get();
@@ -208,7 +205,7 @@ $(function() {
               .prependTo('.pagination')
               .addClass('mx-3 mx-sm-5');
             $('.paginationjs-prev').detach().prependTo('.pagination');
-            window.scrollTo(scrollpoint);
+            window.scrollTo(0, 0);
           }
         }
       });
