@@ -55,14 +55,6 @@ data_sharing_playbook:
       url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals
     - title: Linking Datasets
       url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets
-data_culture_playbook:
-  title: Data Culture Playbook
-  description: An introductory guide on how to cultivate a data culture in order to improve data-informed decision-making.
-  toc:
-    - title: Introduction
-      url: /work/toolkits/data-culture-playbook/
-    - title: Another nav item
-      url: #0
 
 accessibility_guide:
   title: Accessibility Guide
