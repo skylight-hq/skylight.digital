@@ -194,6 +194,12 @@ $(function() {
         formatNavigator: 'Page <%= currentPage %> of <%= totalPage %>',
         autoHidePrevious: true,
         autoHideNext: true,
+        afterPreviousOnClick: () => {
+window.scrollTo(0, 0)
+},
+        afterNextOnClick: () => {
+window.scrollTo(0, 0)
+},
         callback: function(data) {
           posts.addClass('hidden');
           data.forEach(post => post.className = 'project-col');
@@ -205,7 +211,6 @@ $(function() {
               .prependTo('.pagination')
               .addClass('mx-3 mx-sm-5');
             $('.paginationjs-prev').detach().prependTo('.pagination');
-            window.scrollTo(0, 0);
           }
         }
       });

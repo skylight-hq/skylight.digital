@@ -7,23 +7,30 @@ type_of_service:
 
 capabilities:
   - Research & Design
+  - Product Management
   - Software Delivery
   - Legacy Modernization
   - DevOps
+  - Cloud & Platforms
   - Data & Analytics
-  - Open Data & APIs
-  - Internet of Things
+  - APIs
+  - Open Government
   - Security & Privacy
-  - Product Management
-  - Delivery Management
+  - Internet of Things
   - Procurement
   - Transformation
   - Coaching & Training
 
 mission_areas:
-  - Early Childhood Services
-  - Veteran Services
+  - Early Childhood
+  - Veterans
   - Social Safety Net
   - Healthcare
   - Economic Development
   - Defense
+  - Air Force
+  - Navy
+  - Homeland Security
+  - Citizenship & Immigration
+  - Labor
+  - Agriculture
