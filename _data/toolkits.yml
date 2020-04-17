@@ -58,7 +58,7 @@ data_sharing_playbook:
 
 accessibility_guide:
   title: Accessibility Guide
-  description: Tools and practices making products and services accessible to everyone.
+  description: Tools and practices for making products and services accessible to everyone.
   toc:
     - title: Introduction
       url: /work/toolkits/accessibility-guide/
@@ -80,7 +80,7 @@ accessibility_guide:
       url: /work/toolkits/accessibility-guide/page-titles/
     - title: Headings
       url: /work/toolkits/accessibility-guide/headings/
-    - title: Hidden Content
+    - title: Hidden content
       url: /work/toolkits/accessibility-guide/hidden-content/
     - title: Landmarks
       url: /work/toolkits/accessibility-guide/landmarks/
@@ -98,7 +98,7 @@ accessibility_guide:
       url: /work/toolkits/accessibility-guide/iframes/
     - title: Links and repetitive content
       url: /work/toolkits/accessibility-guide/links/
-    - title: Plug-ins
+    - title: Plugins
       url: /work/toolkits/accessibility-guide/plugins/
     - title: Alternative versions
       url: /work/toolkits/accessibility-guide/alternative-versions/
