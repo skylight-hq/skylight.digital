@@ -6,17 +6,15 @@ page_title: checklist
 layout: toolkit
 sidenav: accessibility_guide
 ---
-This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: A, B and C. Please check and address these issues in the order in which they appear.
+This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: **A**, **B** and, **C**. Please check and address these issues in the order in which they appear:
 
-For more detail on accessibility standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/)
+ * **A &mdash;** Critical issues that will cause serious problems and/or stop most users of assistive technology from using the site.
+ * **B &mdash;** Issues that may cause problems or increased frustration for certain users.
+ * **C &mdash;** Minor issues that will cause problems or frustration for a small number of users
 
- * A - Critical issues that will cause serious problems and/or stop most users of assistive technology from using the site
- * B - Issues that may cause problems or increased frustration for certain users
- * C - Minor issues that will cause problems or frustration for a small number of users
+It's important to note, while **B** and **C** are noted as less critical, they're still required to be truly 508 compliant. This checklist should be used as a reference for development and isn't a substitute for compliance checks by a Section 508 coordinator.
 
-It is important to note, while B and C are noted as less critical, they are still required to be truly 508 compliant. This checklist should be used as a reference for development and is not a substitute for compliance checks by a section 508 coordinator.
-
-###  A - Critical
+###  A &mdash; Critical
 
 1. <a href='../keyboard/'>Site is keyboard accessible</a>
  * All interactions can be accessed with a keyboard
@@ -30,7 +28,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 7. <a href='../color/'>Text has sufficient color contrast</a>
  * All text has a contrast ratio of 4.5:1 with the background
 
-### B - Less Critical
+### B &mdash; Less Critical
 
 1. <a href='../keyboard/'>Site never loses focus</a>
  * Focus is always visible when moving through the page with the keyboard
@@ -43,7 +41,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 6. <a href='../headings/'>Headings are nested properly</a>
  * Heading elements are nested in a logical way
 
-### C - Minor
+### C &mdash; Minor
 1. <a href='../iframes/'>Frames are named</a>
  * All frames have a name element
 2. <a href='../flashing/'>Flashing elements are compliant</a>
@@ -54,6 +52,6 @@ It is important to note, while B and C are noted as less critical, they are stil
 4. <a href='../css/'>CSS is not required to use the page</a>
  * The page makes sense with or without CSS
 5. <a href='../links/'>Links are unique and contextual</a>
- * All links can be understood taken alone, i.e 'Read more - about 508'
+ * All links can be understood taken alone (for example, "read more about 508")
 6. <a href='../page-titles/'>Page titles are descriptive</a>
 7. <a href='../plugins/'>Required plugins are linked on the page</a>
