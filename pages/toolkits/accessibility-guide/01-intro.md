@@ -19,22 +19,22 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 
 ### Testing Tools
 
-* [Accessibility Insights](https://accessibilityinsights.io/) &ndash; Windows application for automated and guided-manual testing for accessibility, including WCAG 2.0 and 2.1
-* [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) &ndash; Mac and Windows application for testing color contrast against WCAG 2.0 and 2.1 guidelines
-* [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) &ndash; open-source tool for analyzing a page's HTML source and detects coding-standard violations
-* [Pa11y](http://pa11y.org/) &ndash; open-source tools for automatically testing and highlighting accessibility issues
-* [Tenon](https://tenon.io/) &ndash; suite of automated accessibility testing tools
-* [Tanaguru Contrast Finder](http://contrast-finder.tanaguru.com/) &ndash; open-source tool for finding better color contrast options
-* [Accessible Color Palette Builder](https://toolness.github.io/accessible-color-matrix/) &ndash; open-source tool for finding accessible color combinations
-* [Windows NVDA Screenreader](https://www.nvaccess.org/download/) &ndash; free tool for testing non-visual access
+* [Accessibility Insights](https://accessibilityinsights.io/) &mdash; Windows application for automated and guided-manual testing for accessibility, including WCAG 2.0 and 2.1
+* [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) &mdash; Mac and Windows application for testing color contrast against WCAG 2.0 and 2.1 guidelines
+* [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) &mdash; open-source bookmarklet tool for analyzing a page's HTML source and detects coding-standard violations
+* [Pa11y](http://pa11y.org/) &mdash; open-source tools for automatically testing and highlighting accessibility issues
+* [Tenon](https://tenon.io/) &mdash; suite of automated accessibility testing tools
+* [Tanaguru Contrast Finder](http://contrast-finder.tanaguru.com/) &mdash; open-source tool for finding better color contrast options
+* [Accessible Color Palette Builder](https://toolness.github.io/accessible-color-matrix/) &mdash; open-source tool for finding accessible color combinations
+* [Windows NVDA Screenreader](https://www.nvaccess.org/download/) &mdash; free tool for testing non-visual access
 
 ### Browser Testing Tools
-* [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) &ndash; browser plugin for automated and guided-manual testing for accessibility, including WCAG 2.0 and 2.1
-* [Firefox: WCAG Contrast Checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) &ndash; browser plugin for evaluating CSS color contrast
-* [Chrome: Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) &ndash; browser plugin for evaluating color contrast, including images and gradients
-* [Chrome: Lighthouse](https://developers.google.com/web/tools/lighthouse) &ndash; built-in feature of Chrome DevTools for improving the quality of web pages, including accessibility
-* [Firefox/Chrome: WAVE Toolbar](http://wave.webaim.org/extension/) &ndash; browser plugin for evaluating web content accessibility issues
-* [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/) &ndash;  extension that adds various web developer tools to a browser
+* [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) &mdash; browser plugin for automated and guided-manual testing for accessibility, including WCAG 2.0 and 2.1
+* [Firefox: WCAG Contrast Checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) &mdash; browser plugin for evaluating CSS color contrast
+* [Chrome: Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) &mdash; browser plugin for evaluating color contrast, including images and gradients
+* [Chrome: Lighthouse](https://developers.google.com/web/tools/lighthouse) &mdash; built-in feature of Chrome DevTools for improving the quality of web pages, including accessibility
+* [Firefox/Chrome: WAVE Toolbar](http://wave.webaim.org/extension/) &mdash; browser plugin for evaluating web content accessibility issues
+* [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/) &mdash;  extension that adds various web developer tools to a browser
 
 ### Government Sites and Tutorials
 * [Section 508](https://section508.gov/)
