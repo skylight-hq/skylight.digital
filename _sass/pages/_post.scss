@@ -57,24 +57,6 @@
   @extend %narrative-base;
   @extend %mb-5;
 
-  h3 {
-//    color: $sk-red;
-  }
-
-  blockquote {
-    @extend %blockquote;
-    @extend %my-4;
-
-    cite::before {
-      content: '— ';
-    }
-
-    &.excerpt {
-      font-size: $font-size-x-small;
-      background-color: lighten($gray, 63%);
-    }
-  }
-
   table {
     @extend %table;
     @extend %table-bordered;
@@ -87,6 +69,20 @@
       overflow-x: auto;
       -ms-overflow-style: -ms-autohiding-scrollbar;
     }
+  }
+}
+
+.post-blockquote {
+  @extend %blockquote;
+  @extend %my-4;
+
+  cite::before {
+    content: '— ';
+  }
+
+  &.excerpt {
+    font-size: $font-size-x-small;
+    background-color: lighten($gray, 63%);
   }
 }
 
