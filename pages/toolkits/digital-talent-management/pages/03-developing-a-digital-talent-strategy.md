@@ -24,7 +24,7 @@ Modernizing the skills of current technical workers in government is necessary, 
 
 Governments tend to hire people as permanent employees. Hiring happens infrequently and is difficult because you're potentially employing someone for decades.
 
-USDS, 18F, and CFPB have used fellowship mechanisms and special hiring authorities to hire digital talent into government for "tours of duty" that can last up to four years. The mechanism you use will depend on the hiring authorities available to you.
+[18F](https://18f.gsa.gov/), the [U.S. Digital Service](https://www.usds.gov/) (USDS), and the [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/) have used fellowship mechanisms and special hiring authorities to hire digital talent into government for "tours of duty" that can last up to four years. The mechanism you use will depend on the hiring authorities available to you.
 
 ### Attracting talent to bright spots
 
@@ -32,7 +32,7 @@ It's easier to attract digital talent to come work for the government if they kn
 
 There a few different ways to create bright spots:
 
-* **A centralized hub supporting multiple agencies &mdash;** 18F and USDS are centralized hubs that work on projects for difference agencies. ([See 18F's partnership principles](https://18f.gsa.gov/partnership-principles/)). One of the benefits of this approach is that it [opens the door for teams to work on problems that span multiple agencies](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/). It also allows for shared solutions, resulting in economies of scale.
+* **A centralized hub supporting multiple agencies &mdash;** 18F and USDS are centralized hubs that work on projects for different agencies. ([See 18F's partnership principles](https://18f.gsa.gov/partnership-principles/)). One of the benefits of this approach is that it [opens the door for teams to work on problems that span multiple agencies](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/). It also allows for shared solutions, resulting in economies of scale.
 * **Dedicated agency teams &mdash;** These teams are an embedded part of an agency's mission and share the same values. The teams can form around critical services, providing long-term support. They can build the strong, lasting relationships, and trust needed to effect change.
 
 ## Recognizing and training existing technology talent
@@ -94,9 +94,4 @@ One of the core functions of the centralized team is to create shared standards 
 
 GDS also sets the standards for hiring, and helps hire a variety of technologists into the U.K. government. These designers, engineers, and other experts are placed within agencies and work with other government staff to deliver vital public services.
 
-Another key to the GDS's success is its spending oversight authority. GDS must approve any IT acquisition over £5 million. This helps ensure that large technology projects follow best practices. Each of these projects:
-
-* Is user-centered
-* Is cloud-hosted
-* Adheres to the GOV.UK Design System
-* Uses a single voice to communicate to the public
+Another key to the GDS's success is its spending oversight authority. GDS must approve any IT acquisition over £5 million. This helps ensure that large technology projects adhere to key standards (such as the GOV.UK Design System) and follow best practices (such as user-centered design).
