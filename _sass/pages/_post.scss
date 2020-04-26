@@ -56,19 +56,19 @@
 .post-content {
   @extend %narrative-base;
   @extend %mb-5;
+}
 
-  table {
-    @extend %table;
-    @extend %table-bordered;
-    @extend %my-4;
+.post-table {
+  @extend %table;
+  @extend %table-bordered;
+  @extend %my-4;
 
-    @include media-breakpoint-down(sm) {
-      display: block;
-      width: 100%;
-      border: 0;
-      overflow-x: auto;
-      -ms-overflow-style: -ms-autohiding-scrollbar;
-    }
+  @include media-breakpoint-down(sm) {
+    display: block;
+    width: 100%;
+    border: 0;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
 

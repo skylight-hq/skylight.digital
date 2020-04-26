@@ -25,6 +25,7 @@ Now with Skylight, we're excited to take what we've learned from executing these
 
 Microconsulting is a special type consulting format that features an individual or small team who produces an immediate deliverable on a specific topic for a low cost. Think of it as a quick and easy means of supplementing your team with supercharged brains.
 
+{:.post-table}
 | Traditional Consulting | Microconsulting          |
 |------------------------|--------------------------|
 | Large teams            | Individual or small team |

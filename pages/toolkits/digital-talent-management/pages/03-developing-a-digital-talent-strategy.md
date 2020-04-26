@@ -55,7 +55,7 @@ Plan to send them to formal training for human-centered design, agile, DevOps, a
 
 All government employees &mdash; including those outside of your technology team &mdash; will need training and support to help them work collaboratively on technology projects. At a minimum, they'll need to understand the basics of human-centered design, product management, and agile project management.
 
-Plan to offer incentives and opportunities for continuously training your staff. Your staff needs to keep up with the pace of change in technology. The section on ["Keeping skills and ideas fresh"](/work/toolkits/digital-talent-management/keeping-skills-and-ideas-fresh/) discusses how to do this in detail.
+Plan to offer incentives and opportunities for continuously training your staff. Your staff needs to keep up with the pace of change in technology. The section on [Keeping skills and ideas fresh](/work/toolkits/digital-talent-management/keeping-skills-and-ideas-fresh/) discusses how to do this in detail.
 
 ## Leveraging alternative sources of talent
 

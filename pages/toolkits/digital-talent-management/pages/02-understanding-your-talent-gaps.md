@@ -31,14 +31,14 @@ questions](https://www.cnbc.com/2018/03/30/amazon-employee-reaction-to-hr-progra
 ### Establish goals for your organization by comparing your metrics to those of high-performing organizations
 
 * Focus comparisons on organizations who are leaders in that space (for example, [U.S. Digital Service at the federal level](https://www.govloop.com/new-hiring-pilot-could-help-agencies-find-qualified-candidates-faster/)) since there's a great amount of variety among performance of government institutions
-* Organizations like Glassdoor are a good source of information on industry standards (for example, ["How Long Should Your Hiring Process Take?"](https://www.glassdoor.com/blog/how-long-should-interviews-take/))
+* Organizations like Glassdoor are a good source of information on industry standards (for example, [How Long Should Your Hiring Process Take?](https://www.glassdoor.com/blog/how-long-should-interviews-take/))
 
 ### Review progress made in other organizations to build on what works
 
 When possible, look at what's been most successful in organizations with similar resources and structure. For example, it may be unreasonable for a state agency to successfully employ the same tactics as an extremely large and well-resourced human-resources team. Model your efforts after successful practices at organizations most similar to yours in terms of resources and regulations.
 
-That said, some of the larger and more well-resourced organizations will be the most likely to measure and document progress made with respect to talent. For example, ["Mobilizing Tech
-Talent"](https://ourpublicservice.org/wp-content/uploads/2018/09/Mobilizing_Tech_Talent-2018.09.26.pdf) is an excellent resource for metrics and best practices on improving
+That said, some of the larger and more well-resourced organizations will be the most likely to measure and document progress made with respect to talent. For example, [Mobilizing Tech
+Talent](https://ourpublicservice.org/wp-content/uploads/2018/09/Mobilizing_Tech_Talent-2018.09.26.pdf) is an excellent resource for metrics and best practices on improving
 hiring tech talent into government.
 
 ## Take steps to close gaps
