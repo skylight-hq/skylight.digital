@@ -68,6 +68,7 @@ First of all, don't fall into the trap of believing your case management system 
 
 Let us hypothetically assume that each of the seven areas of overlap above is about 14% of the total effort of building any specific case management system. The the commonality between any two chosen at random is likely to be:
 
+{:.post-table}
 | Area           | Size (S) | Commonality (C) | Code-in-Common (S*C) |
 |----------------|----------|-----------------|----------------------|
 | Database       | 14%      | 100%            | 14%                  |
