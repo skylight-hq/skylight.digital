@@ -616,7 +616,7 @@ aiming for.
 ***Ability to award new tasks quickly***
 
 Working in an agile fashion means not having all of the business
-requirements upfront. Most of the time this process is impossible and a
+requirements up front. Most of the time this process is impossible and a
 vast majority of the time the initial business requirement gathering for
 a complex system is incorrect. As new requirements come to light
 throughout the modernization process, the ability to issue contracts

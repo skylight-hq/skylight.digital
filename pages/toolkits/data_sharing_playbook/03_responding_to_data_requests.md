@@ -13,10 +13,10 @@ Having an established protocol for responding to a request for data will save yo
 
 Establish a process for how key questions are asked, answered, and documented. We've included a detailed list of questions to ask in the section above about [developing a request process](/work/toolkits/data-sharing-playbook/enabling-data-sharing#develop-a-data-request-process), but here are the main areas to cover:
 
-- What is the purpose of the request?
+- What's the purpose of the request?
 - How does the requester plan to use the data?
-- Who will have access to the data?
-- What is the specific data they are requesting and what are the specific parameters?
+- Who'll have access to the data?
+- What's the specific data they are requesting and what are the specific parameters?
 
 If the requester is planning to combine data with another dataset, this will require careful review and consideration from both teams. This could be a complex process and we've included some discussion of data linking in [Appendix B](/work/toolkits/data-sharing-playbook/appendix-b-linking-datasets).
 
@@ -32,13 +32,14 @@ The type of agreement you will need depends on factors like:
 - How the data will be used
 - The scope and duration of the request
 
-There are multiple types of data sharing mechanisms available to state agencies. Each of them is governed by unique requirements and legal considerations.
+There are multiple types of data-sharing mechanisms available to state agencies. Each of them is governed by unique requirements and legal considerations.
 
 ### But first: Do you even need an agreement?
 
-Sharing data that is open to the public does not require an agreement. If the requesting party doesn't need to identify specific individuals, it may be preferable to release the data to the public.
+Sharing data that's open to the public doesn't require an agreement. If the requesting party doesn't need to identify specific individuals, it may be preferable to release the data to the public.
 
 ## Common types of agreements
+
 The following section provides a brief description of these common types of agreement and when to use them:
 
 - Memorandum of Understanding (MOU)
@@ -49,9 +50,10 @@ The following section provides a brief description of these common types of agre
 - Statement of Work (SOW)
 - Non-Disclosure Agreement (NDA)
 
-While each of these agreements has a specific function (and a context in which they are appropriate to use), it is not necessarily the case that an agency looking to share data can solely choose any one of these agreements and move forward. These agreements often work together to provide the full details of the nature of a data sharing agreement (for example, the E-MOU, DSA, and DUA tend to work together rather than operating alone).
+While each of these agreements has a specific function (and a context in which they are appropriate to use), it isn't necessarily the case that an agency looking to share data can solely choose any one of these agreements and move forward. These agreements often work together to provide the full details of the nature of a data sharing agreement (for example, the E-MOU, DSA, and DUA tend to work together rather than operating alone).
 
 ### Memorandum of Understanding (MOU)
+
 MOUs are best suited for **ongoing data transfers** that have consistent and formalized parameters. An MOU:
 
 - Identifies the roles and responsibilities of the involved groups
@@ -61,11 +63,13 @@ MOUs are best suited for **ongoing data transfers** that have consistent and for
 MOUs are especially important when the basis for a data sharing relationship is grant funding or a service contract. The process of establishing an "MOU enables potential partners to identify similarities and differences in their priorities and goals, available resources (time, money, and expertise), project timelines, and expected outcomes prior to collaboration."
 
 ### Data Use Agreement (DUA) or Data Use Licenses (DUL)
-Data Use Agreements (DUAs) or Data Use Licenses (DULs) are best suited for **individual data sharing transactions**. DUAs precisely specify the parameters for the data transfer, who will have access to the data, the intended use of the data, and how the requester should destroy data.
+
+Data Use Agreements (DUAs) or Data Use Licenses (DULs) are best suited for **individual data sharing transactions**. DUAs precisely specify the parameters for the data transfer, who'll have access to the data, the intended use of the data, and how the requester should destroy data.
 
 They may also "include specific time parameters for data use or provide special provisions for data disclosure or requirements for the data holding agency to review resulting research before its publication."
 
 ### Enterprise Memorandum of Understanding (E-MOU)
+
 An E-MOU is a long-term agreement signed by **multiple parties** in order to facilitate **multiple and diverse data sharing requests**. E-MOUs usually:
 
 - Describe involved parties
@@ -87,7 +91,7 @@ A Business Associate Agreement is a written arrangement that specifies each part
 
 ### Statement of Work
 
-The statement of work is a detailed overview of the project in all its dimensions. It's also a way to share what the project entails with those who are working on the project, whether they are collaborating or contracted to work on the project. This includes vendors and contractors who are bidding to work on the project.
+The statement of work is a detailed overview of the project in all its dimensions. It's also a way to share what the project entails with those who are working on the project, whether they're collaborating or contracted to work on the project. This includes vendors and contractors who are bidding to work on the project.
 
 ### Non-Disclosure Agreement (NDA)
 
@@ -95,13 +99,13 @@ A non-disclosure agreement is a binding contract between two or more parties tha
 
 ## Types of data sharing relationships
 
-Below is a list of data sharing relationship types along with guidance on the types of agreements that might best facilitate data sharing. We will cover:
+Below is a list of data sharing relationship types along with guidance on the types of agreements that might best facilitate data sharing. We'll cover:
 
 - Government organization to government organization
 - Government to external company
 - Government to public
 
-### Government organization to other government organizations (Interagency data sharing)
+### Government organization to other government organizations (interagency data sharing)
 
 We recommend that agencies develop more flexible, durable agreements by:
 
@@ -121,7 +125,7 @@ In these cases, the SOW contract, BAA, or MOU forces the contractor to abide by 
 
 ### Government to public
 
-Releasing data to the public does not require a special agreement. However, it does require that the government organization:
+Releasing data to the public doesn't require a special agreement. However, it does require that the government organization:
 
 - Aggregate or anonymize the data to prevent misuse. For an example, see the public data on [Data.gov](https://www.data.gov/).
 - If the agency determines the data must be anonymized or aggregated, they should follow cell suppression techniques according to the regulations that govern the data. Cell suppression is an important means of masking attributes of personally identifying or protected health information that could become damaging to an individual if the data were used (possibly in combination with other datasets) to identify them.
