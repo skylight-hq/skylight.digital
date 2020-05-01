@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Managing an agile project
-permalink: /work/toolkits/agile-procurement-playbook/managing-an-agile-project
+permalink: /work/toolkits/agile-procurement-playbook/managing-an-agile-project/
 sidenav: agile_procurement_playbook
 ---
 

@@ -42,19 +42,19 @@ data_sharing_playbook:
     - title: Introduction
       url: /work/toolkits/data-sharing-playbook/
     - title: Enabling data sharing
-      url: /work/toolkits/data-sharing-playbook/enabling-data-sharing
+      url: /work/toolkits/data-sharing-playbook/enabling-data-sharing/
     - title: Responding to data requests
-      url: /work/toolkits/data-sharing-playbook/responding-to-data-requests
+      url: /work/toolkits/data-sharing-playbook/responding-to-data-requests/
     - title: Safeguarding data
-      url: /work/toolkits/data-sharing-playbook/safeguarding-data
+      url: /work/toolkits/data-sharing-playbook/safeguarding-data/
     - title: Preparing a successful data request
-      url: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request
+      url: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request/
     - title: Transferring data
-      url: /work/toolkits/data-sharing-playbook/transferring-data
+      url: /work/toolkits/data-sharing-playbook/transferring-data/
     - title: Appendix A&#58; Setting smart goals
-      url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals
+      url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals/
     - title: Appendix B&#58; Linking datasets
-      url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets
+      url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets/
 
 accessibility_guide:
   title: Accessibility Guide
@@ -114,16 +114,26 @@ agile_procurement_playbook:
     - title: Introduction
       url: /work/toolkits/agile-procurement-playbook/
     - title: What is agile procurement?
-      url: /work/toolkits/agile-procurement-playbook/what-is-agile-procurement
+      url: /work/toolkits/agile-procurement-playbook/what-is-agile-procurement/
     - title: Guiding principles of an agile procurement
-      url: /work/toolkits/agile-procurement-playbook/guiding-principles-of-an-agile-procurement
+      url: /work/toolkits/agile-procurement-playbook/guiding-principles-of-an-agile-procurement/
     - title: Standing up a team to guide the procurement process
-      url: /work/toolkits/agile-procurement-playbook/standing-up-a-team-to-guide-the-procurement-process
+      url: /work/toolkits/agile-procurement-playbook/standing-up-a-team-to-guide-the-procurement-process/
     - title: Phases of an agile procurement
-      url: /work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement
+      url: /work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement/
     - title: Managing an agile project
-      url: /work/toolkits/agile-procurement-playbook/managing-an-agile-project
-    - title: Agile acquisition case study
-      url: /work/toolkits/agile-procurement-playbook/agile-acquisition-case-study
-    - title: Appendix
-      url: /work/toolkits/agile-procurement-playbook/appendix
+      url: /work/toolkits/agile-procurement-playbook/managing-an-agile-project/
+    - title: Appendix A&#58; MPSM case study
+      url: /work/toolkits/agile-procurement-playbook/appendix-a-mpsm-case-study/
+    - title: Appendix B&#58; Short intro to agile
+      url: /work/toolkits/agile-procurement-playbook/appendix-b-short-introduction-to-agile-software-development/
+    - title: Appendix C&#58; List of templates
+      url: /work/toolkits/agile-procurement-playbook/appendix-c-list-of-templates/
+    - title: Appendix D&#58; Examples of TEP rating systems
+      url: /work/toolkits/agile-procurement-playbook/appendix-d-examples-of-tep-rating-systems/
+    - title: Appendix E&#58; Example design challenges
+      url: /work/toolkits/agile-procurement-playbook/appendix-e-example-design-challenges/
+    - title: Appendix F&#58; Sample analysis of procurement options
+      url: /work/toolkits/agile-procurement-playbook/appendix-f-sample-analysis-of-procurement-options/
+    - title: Appendix G&#58; Sample Statement of Objectives
+      url: /work/toolkits/agile-procurement-playbook/appendix-g-sample-statement-of-objectives/

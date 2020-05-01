@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Agile acquisition case study
-permalink: /work/toolkits/agile-procurement-playbook/agile-acquisition-case-study
+title: Appendix A&#58; MPSM case study
+permalink: /work/toolkits/agile-procurement-playbook/appendix-a-mpsm-case-study/
 sidenav: agile_procurement_playbook
 ---
 

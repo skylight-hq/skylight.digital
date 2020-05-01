@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Appendix B&#58; Linking datasets
-permalink: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets
+permalink: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets/
 sidenav: data_sharing_playbook
 ---
 

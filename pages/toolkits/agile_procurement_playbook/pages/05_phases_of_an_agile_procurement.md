@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Phases of an agile procurement
-permalink: /work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement
+permalink: /work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement/
 sidenav: agile_procurement_playbook
 ---
 

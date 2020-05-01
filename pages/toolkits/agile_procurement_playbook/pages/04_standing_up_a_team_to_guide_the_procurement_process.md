@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Standing up a team to guide the procurement process
-permalink: /work/toolkits/agile-procurement-playbook/standing-up-a-team-to-guide-the-procurement-process
+permalink: /work/toolkits/agile-procurement-playbook/standing-up-a-team-to-guide-the-procurement-process/
 sidenav: agile_procurement_playbook
 ---
 
