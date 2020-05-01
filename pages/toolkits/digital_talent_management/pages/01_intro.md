@@ -32,5 +32,4 @@ Start small, and test the success of each initiative before rolling it out to a 
 
 ## Intended audience
 
-We expect this to be read by agency technology leadership, such as Chief Information Officers, Chief Technology Officers, Chief Digital Officers, program managers, and human resource managers. Agency leadership such as commissioners and administrators should skim this handbook, paying
-particular attention to the leadership and culture sections. Both of those sections apply to the entire organization, not just the technical staff.
+We expect this to be read by agency technology leadership, such as Chief Information Officers, Chief Technology Officers, Chief Digital Officers, program managers, and human resource managers. Agency leadership such as commissioners and administrators should skim this handbook, paying particular attention to the leadership and culture sections. Both of those sections apply to the entire organization, not just the technical staff.
