@@ -8,12 +8,15 @@ sidenav: data_sharing_playbook
 # Transferring data
 
 ## De-identify data as needed.
+
 Depending on the data request, the data owner may need to de-identify data in order to protect the privacy and rights of individuals. There are a number of ways to de-identify data, and these are summarized below.
 
 ### Removing PII and confidential data
+
 One way to de-identify data is to remove all of the fields that could be used to identify a specific individual from the data. Examples include names, phone numbers, and birthdays. (For more information about confidential data, see the section [Document critical data elements](/work/toolkits/data-sharing-playbook/safeguarding-data#document-critical-data-elements).)
 
 ### Aggregating data
+
 Data owners can also choose to aggregate data. This is accomplished by providing counts of specific fields for a dataset. For example, sensitive fields like birthday and address can be converted to age range and zip code in order to provide the counts of each age group living in a specific area.
 
 When aggregating data, it's important to ensure that groups aren't split up so much that it's still possible to identify individuals. For example, if you're aggregating data based on any one of school, test scores, grade, or race and ethnicity, the counts can't be small enough for someone to identify individual students.
@@ -31,10 +34,10 @@ Once the parties have agreed to share data, it's time to consider the logistics 
 
 ### Open and public data
 
-Data that is open to the public doesn't require a secure channel for data transfer. Some options that might be suited for file transfers are:
+Data that's open to the public doesn't require a secure channel for data transfer. Some options that might be suited for file transfers are:
 
 - Email for small data files
-- Commercial cloud storage solutions (dropbox, google drive, Microsoft Office OneDrive, Amazon AWS, etc.) for large data files
+- Commercial cloud storage solutions (Dropbox, Google Drive, Microsoft Office OneDrive, Amazon AWS, etc.) for large data files
 - FTP (File Transfer Protocol) for large data files
 
 ### Zipping on Windows OS
@@ -51,7 +54,7 @@ All data that isn't open to the public should be transferred through secure chan
 
 Failure to transfer non-public data securely may result in harm to citizens, lawsuits filed against the responsible government office, and severe professional consequences for the offending employee. It's important to pay careful attention when sharing non-public data. Secure channels may include:
 
-1. encrypted email service for small data files
+1. Encrypted email service for small data files
 2. SFTP (SSH File Transfer Protocol) for large data files
 3. Approved and encrypted external drives for large data files
 
@@ -65,9 +68,8 @@ To zip a file:
 2. Navigate to "Send to" option
 3. Click on "Compressed (zipped) folder"
 
-
 To encrypt a file:
 
-1. Right-click on the zipped folder and open Properties.
-2. Under the General tab, click Advanced.
-3. Check the "Encrypt contents to secure data" box.
+1. Right-click on the zipped folder and open "Properties"
+2. Under the "General" tab, click "Advanced"
+3. Check the "Encrypt contents to secure data" box
