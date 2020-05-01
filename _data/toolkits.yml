@@ -51,9 +51,9 @@ data_sharing_playbook:
       url: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request
     - title: Transferring data
       url: /work/toolkits/data-sharing-playbook/transferring-data
-    - title: Setting smart goals
+    - title: Appendix A&#58; Setting smart goals
       url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals
-    - title: Linking datasets
+    - title: Appendix B&#58; Linking datasets
       url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets
 
 accessibility_guide:

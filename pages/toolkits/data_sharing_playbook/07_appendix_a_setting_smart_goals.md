@@ -1,26 +1,27 @@
 ---
 layout: toolkit
-title: Setting smart goals
+title: Appendix A&#58; Setting smart goals
 permalink: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals
 sidenav: data_sharing_playbook
 ---
 
-# Setting smart goals
+# Appendix A: Setting smart goals
 
-Data can help you track progress toward agency goals. The SMART methodology is an excellent strategy for connecting what you want to accomplish to the data that will indicate whether you are headed in the right direction.
+Data can help you track progress toward agency goals. The SMART methodology is an excellent strategy for connecting what you want to accomplish to the data that'll indicate whether you are headed in the right direction.
 
-Goals are SMART when they are:
+Goals are SMART when they're:
 
-- Specific — You've stated exactly what you want to achieve
-- Measurable — You have a way to know if you are making progress
-- Attainable — You have resources and a strategy
-- Realistic — You've taken into account other commitments
-- Time-bound — You have a timeframe for achieving what you've set out to do
+- **Specific &mdash;** You've stated exactly what you want to achieve
+- **Measurable &mdash;** You have a way to know if you're making progress
+- **Attainable &mdash;** You have resources and a strategy
+- **Realistic &mdash;** You've taken into account other commitments
+- **Time-bound &mdash;** You have a timeframe for achieving what you've set out to do
 
-Let's say that your agency operates a help line, and the manager regularly receives complaints that constituents are waiting on hold for too long.
+Let's say that your agency operates a helpline, and the manager regularly receives complaints that constituents are waiting on hold for too long.
 
 Here's what a SMART goal might look like:
-We will decrease the average on-hold wait time from 2 minutes to 1 minute by the end of 2020.
+
+*We will decrease the average on-hold wait time from 2 minutes to 1 minute by the end of 2020.*
 
 Based on this, it's easy to determine what data you will need:
 
