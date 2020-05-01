@@ -1,27 +1,27 @@
 ---
 layout: toolkit
-title: Safeguarding Data
+title: Safeguarding data
 permalink: /work/toolkits/data-sharing-playbook/safeguarding-data
 sidenav: data_sharing_playbook
 ---
 
-# Safeguarding Data
+# Safeguarding data
 
 ## Develop privacy and security compliance policies, standards, and controls.
 
 **Policies** are high-level statements about how data should be handled, similar to a vision statement. **Standards** outline the rules that govern putting policies into action, and **controls** provide specific instructions about how to implement a standard.
 
 In order to facilitate secure and compliant data sharing:
-* **Data requesters** must understand the privacy and security compliance standards of the data they are requesting 
+* **Data requesters** must understand the privacy and security compliance standards of the data they are requesting
 * **Data owners** must ensure that they clearly define the privacy and security compliance standards that govern the data they own
 
 The points below highlight how to define and understand privacy and security compliance.
 
 ## Establish a privacy policy.
 
-A privacy policy is an externally-facing document for the people from whom you might collect data. It explains how your agency uses personal information that may be collected when the public interacts with the agency. The privacy policy should include the types of information gathered, how the information is used, to whom the information is disclosed, and how the information is safeguarded. 
+A privacy policy is an externally-facing document for the people from whom you might collect data. It explains how your agency uses personal information that may be collected when the public interacts with the agency. The privacy policy should include the types of information gathered, how the information is used, to whom the information is disclosed, and how the information is safeguarded.
 
-Here are some of the questions to ask when you document a privacy policy: 
+Here are some of the questions to ask when you document a privacy policy:
 * Why do we collect personal information?
 * What information do we collect? (Review the data dictionary.)
 * When and how do we disclose/share information?
@@ -30,7 +30,7 @@ Here are some of the questions to ask when you document a privacy policy:
 
 ## Document critical data elements.
 
-Confidential Information (CI) is any non-public information pertaining to the agency’s business. Personally identifiable information (PII) is any data that can be used to identify an individual. Examples of PII include a user’s name, address, phone number, and social security number. 
+Confidential Information (CI) is any non-public information pertaining to the agency’s business. Personally identifiable information (PII) is any data that can be used to identify an individual. Examples of PII include a user’s name, address, phone number, and social security number.
 
 Data owners should also document subsets of PII, such as:
 * Payment Card Industry (PCI) data — credit card information
@@ -41,7 +41,7 @@ Data owners should also document subsets of PII, such as:
 
 State agencies need to understand the laws that govern each dataset based on its CI and PII. The standards and laws that govern data are critical in order to know:
 * How data should be stored
-* How data can be used 
+* How data can be used
 * What data can be shared (e.g., individual rows or aggregate totals)
 * How data are transferred
 * How data are disposed of
@@ -54,13 +54,13 @@ For more information about applicable federal and state laws, refer to the Legal
 
 ## Define acceptable use standards.
 
-Define acceptable use standards based on the laws and regulations that govern the use of your agency’s data. These standards will help define the specific requirements in data sharing agreements for keeping data secure. For example, for sensitive data, the data owner may require that the requesting party dispose of the data after a specific time frame. 
+Define acceptable use standards based on the laws and regulations that govern the use of your agency’s data. These standards will help define the specific requirements in data sharing agreements for keeping data secure. For example, for sensitive data, the data owner may require that the requesting party dispose of the data after a specific time frame.
 
 ## Develop, implement, and maintain a comprehensive data-security program.
 
 Your agency will need legal assistance creating a comprehensive data-security program that adequately protects CI. The program will need to be consistent with and comply with all applicable federal and state laws and written policies related to protecting CI.
 
-The data-security program should cover considerations like: 
+The data-security program should cover considerations like:
 * A security policy for employees related to the storage, access, and transportation of data containing confidential information
 * Reasonable restrictions on access to records containing confidential information, including access to any locked storage where such records are kept
 * A process for reviewing policies and security measures at least annually
@@ -69,4 +69,4 @@ The data-security program should cover considerations like:
 
 ## Enforce compliance controls.
 
-A control is a safeguard to avoid, detect, or minimize security risks that might compromise the confidentiality, integrity, and accessibility of data. For example, a data owner might require a quarterly review of all users with access to a database or that people working with the data undergo compliance training. 
+A control is a safeguard to avoid, detect, or minimize security risks that might compromise the confidentiality, integrity, and accessibility of data. For example, a data owner might require a quarterly review of all users with access to a database or that people working with the data undergo compliance training.
