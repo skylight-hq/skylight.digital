@@ -1,10 +1,10 @@
 ---
 layout: toolkit
-title: Enabling Data Sharing
+title: Enabling data sharing
 permalink: /work/toolkits/data-sharing-playbook/enabling-data-sharing
 sidenav: data_sharing_playbook
 ---
-#  Enabling Data Sharing
+#  Enabling data sharing
 
 ## Identify who plays each data-related role.
 
@@ -12,19 +12,19 @@ Identifying who plays each data-related role allows organizations to establish w
 
 Although the roles below are described separately, the same person may exercise more than one role and may have a separate job title and function. For example, a single contractor may act as both the steward and custodian for the agency's data. In small agencies, the data officer may also fulfill the data owner, custodian, and steward roles. The important takeaway is that agency leadership and the team need to know who’s the go-to for each set of responsibilities in the data system.
 
-### Data owner 
+### Data owner
 
 The data owner is accountable for the quality and security of the data and holds the decision-making authority about data within their domain. The data owner varies by dataset and there may be multiple data owners. For some datasets, a data officer is the data owner, and in others, it may be the program lead.
 
-### Data steward 
+### Data steward
 
 The data steward is responsible for the governance of data and ensures the fitness of content and metadata. Stewards exercise established processes, policies, guidance, compliance, and rules in this effort. They are usually the subject matter experts and data analysts that work with the data on a daily basis.
 
-### Data custodian 
+### Data custodian
 
 A data custodian is responsible for the technology used to store and transport the data. The role can be filled by either a person or team, and data custodians are usually database administrators, data analysts, or software engineers.
 
-### Legal counsel 
+### Legal counsel
 
 Legal counsel is a person or team that can evaluate data access and use and help craft appropriate legal agreements when needed.
 
@@ -41,7 +41,7 @@ A publicly available data dictionary helps requesters understand what data your 
 
 ## Document metadata.
 
-Metadata is a set of information that describes what the fields in a dataset are. It provides data about your data. It includes information such as when and how the data was gathered or any other information that might describe an aspect of the data. It is important to keep detailed notes on the metadata and process by which the data was collected, because this information can facilitate easier and more effective use later on. 
+Metadata is a set of information that describes what the fields in a dataset are. It provides data about your data. It includes information such as when and how the data was gathered or any other information that might describe an aspect of the data. It is important to keep detailed notes on the metadata and process by which the data was collected, because this information can facilitate easier and more effective use later on.
 
 One common misconception about metadata is that it is solely the definitions of the various fields you’ve tracked in the dataset. However, metadata includes much more than these surface-level characteristics. Anything that gives additional information about the nature, structure, or gathering process of the dataset counts as metadata. Some examples of metadata for different types of media include:
 
@@ -58,19 +58,19 @@ When tracking metadata, it’s important to:
 
 ### Recommended reading
  * [Manually creating a data dictionary](https://data.nal.usda.gov/manually-creating-data-dictionary)
- * [Smithsonian Data Management Best Practices](https://data.nal.usda.gov/manually-creating-data-dictionary) 
+ * [Smithsonian Data Management Best Practices](https://data.nal.usda.gov/manually-creating-data-dictionary)
 
-## Review data for implicit biases. 
+## Review data for implicit biases.
 
-As organizations become more data-driven, data experts are discovering more instances in which unaccounted biases in data perpetuate racism, sexism, and other forms of discrimination. 
+As organizations become more data-driven, data experts are discovering more instances in which unaccounted biases in data perpetuate racism, sexism, and other forms of discrimination.
 
-The data that government agencies, academic researchers, and other organizations collect most likely contain implicit biases. These biases can be introduced due to: 
+The data that government agencies, academic researchers, and other organizations collect most likely contain implicit biases. These biases can be introduced due to:
 
 * **Whose data is collected** — Does a dataset contain a representative sample of people across different demographics and backgrounds (i.e. multiple races, ethnicities, geographic locations, ages, genders, etc.)?
 * **Whose data isn’t collected** — Does the data leave out a specific demographic group that might not frequent the service where the data is collected?  
 * **How the data is collected** — For example, is the data collected via interview in one area and via a form somewhere else?
 
-Consider possible sources of bias in your agency’s data carefully. If you don’t identify possible bias, communicate it to data requesters, and work to reduce it, the decisions made based on your data may have unintended, serious societal implications. 
+Consider possible sources of bias in your agency’s data carefully. If you don’t identify possible bias, communicate it to data requesters, and work to reduce it, the decisions made based on your data may have unintended, serious societal implications.
 
 ### Here’s an example of how implicit bias can have unintended consequences:
 
@@ -78,16 +78,16 @@ Researchers discovered that a major health provider’s algorithm favored white 
 
 ## Work to eliminate possible sources of bias.
 
-Data analysts are ultimately responsible for how they use your agency’s data; however, as the data owners and experts, you can help data analysts avoid biases in data that perpetuate racism, sexism, and other forms of discrimination. 
+Data analysts are ultimately responsible for how they use your agency’s data; however, as the data owners and experts, you can help data analysts avoid biases in data that perpetuate racism, sexism, and other forms of discrimination.
 
-First, be open about the limitations of the agency’s data to reduce the likelihood that it will be used in ways that have unintended consequences. Second, work towards systemic changes to data collection practices. Finally, require data requesters to demonstrate responsible use of your agency’s data. The recommended reading below provides guidance on identifying and eliminating sources of implicit bias. 
+First, be open about the limitations of the agency’s data to reduce the likelihood that it will be used in ways that have unintended consequences. Second, work towards systemic changes to data collection practices. Finally, require data requesters to demonstrate responsible use of your agency’s data. The recommended reading below provides guidance on identifying and eliminating sources of implicit bias.
 
 ### Recommended reading
 
  * [Algorithmic Justice League](https://www.ajlunited.org/)
  * [Confronting Structural Racism in Research and Policy Analysis](https://www.urban.org/sites/default/files/publication/99852/confronting_structural_racism_in_research_and_policy_analysis_0.pdf), Urban Institute, 2019
  * [Data 4 Black Lives](http://d4bl.org/conference.html), MIT, 2019
- * [How I'm Fighting Bias in Algorithms](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms) - Joy Buolamwini, TED Talks, 2016 
+ * [How I'm Fighting Bias in Algorithms](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms) - Joy Buolamwini, TED Talks, 2016
  * [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/), The Washington Post, 2019
  * [The era of blind faith in big data must end](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end) - Cathy O'Neil, Ted Talks, 2017
  * [Weapons of Math Destruction](https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/), Cathy O’Neil, 2017
@@ -95,7 +95,7 @@ First, be open about the limitations of the agency’s data to reduce the likeli
 
 ## Develop a data request process.
 
-A clearly documented data request process can facilitate successful requests. This section covers some of the supporting documents to develop as part of a comprehensive data request process. 
+A clearly documented data request process can facilitate successful requests. This section covers some of the supporting documents to develop as part of a comprehensive data request process.
 
 Remember that the data request process must abide by the regulations and laws that apply to each dataset. For more detailed information, refer to [Establish a privacy policy](/work/toolkits/data-sharing-playbook/safeguarding-data#establish-a-privacy-policy).
 
@@ -111,9 +111,9 @@ Ensure that the data requester answers the questions below in order to evaluate 
 * How long is the requester seeking to keep the data? When and how will the data be destroyed? How is this reported or disseminated to the data owner?
 
 
-### Flow diagram or detailed narrative of the steps 
+### Flow diagram or detailed narrative of the steps
 
-It’s important to have a way to show the data sharing process from start to finish. Common ways include using a flow diagram or descriptions for each step. 
+It’s important to have a way to show the data sharing process from start to finish. Common ways include using a flow diagram or descriptions for each step.
 
 ### Data dictionary
 
@@ -121,6 +121,6 @@ A data dictionary describes the agency’s data. (See [Create and publish a data
 
 ### Data request fees
 
-A request fee schedule communicates the cost of requesting data. Both the Department of Public Health and P20 WIN have fee schedules, but each agency may have unique procedures for enacting request fees. We recommend that you consult your agency’s legal counsel for specific guidance on fee schedules. 
+A request fee schedule communicates the cost of requesting data. Both the Department of Public Health and P20 WIN have fee schedules, but each agency may have unique procedures for enacting request fees. We recommend that you consult your agency’s legal counsel for specific guidance on fee schedules.
 
 [^1]: [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/), The Washington Post, 2019

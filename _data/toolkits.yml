@@ -41,19 +41,19 @@ data_sharing_playbook:
   toc:
     - title: Introduction
       url: /work/toolkits/data-sharing-playbook/
-    - title: Enabling Data Sharing
+    - title: Enabling data sharing
       url: /work/toolkits/data-sharing-playbook/enabling-data-sharing
-    - title: Responding to Data Requests
+    - title: Responding to data requests
       url: /work/toolkits/data-sharing-playbook/responding-to-data-requests
-    - title: Safeguarding Data
+    - title: Safeguarding data
       url: /work/toolkits/data-sharing-playbook/safeguarding-data
-    - title: Preparing a Successful Data Request
+    - title: Preparing a successful data request
       url: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request
-    - title: Transferring Data
+    - title: Transferring data
       url: /work/toolkits/data-sharing-playbook/transferring-data
-    - title: Setting Smart Goals
+    - title: Setting smart goals
       url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals
-    - title: Linking Datasets
+    - title: Linking datasets
       url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets
 
 accessibility_guide:
