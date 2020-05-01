@@ -17,12 +17,12 @@ Stanley McChrystal</strong></cite>
 
 As a [servant leader](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx), your job is to:
 
--   Empower the people who work for you
--   Unlock the potential of your employees by allowing them to grow
--   Explain the mission, strategy, and context for the work
--   Remove any blockers the teams encounter
--   Provide executive air cover for the decisions, methods, and outputs of the teams
--   Help teams and individuals make decisions
+- Empower the people who work for you
+- Unlock the potential of your employees by allowing them to grow
+- Explain the mission, strategy, and context for the work
+- Remove any blockers the teams encounter
+- Provide executive air cover for the decisions, methods, and outputs of the teams
+- Help teams and individuals make decisions
 
 Always ask your teams what they need from you to be successful and schedule regular check-ins to stay up to date with what they need.
 
@@ -48,18 +48,18 @@ Your role will be to support and advocate for the team's approach. Build and mai
 
 Make time for your teams and participate in workshops and other events. For example:
 
--   Attend and participate in workshops, interviews, and usability tests
--   Encourage access to users
--   Help teams prioritize work and build their backlog
+- Attend and participate in workshops, interviews, and usability tests
+- Encourage access to users
+- Help teams prioritize work and build their backlog
 
 As an executive, your participation lends legitimacy to the activities. When others in the organization see you as an active participant, they'll be more likely to join in and take things seriously.
 
 ## Checklist
 
--   Have I scheduled regular check-ins with my team?
--   Have I asked my team what they need to be successful?
--   Can I explain to others in plain language what my team is doing?
--   Does my team have a way to showcase their work incrementally to all my staff?
--   Have I done all I can do to remove artificial barriers to my team being productive?
--   Can I clearly articulate what direct benefit my team provides to the public?
--   Is my team working well with others? If not, why not?
+- Have I scheduled regular check-ins with my team?
+- Have I asked my team what they need to be successful?
+- Can I explain to others in plain language what my team is doing?
+- Does my team have a way to showcase their work incrementally to all my staff?
+- Have I done all I can do to remove artificial barriers to my team being productive?
+- Can I clearly articulate what direct benefit my team provides to the public?
+- Is my team working well with others? If not, why not?

@@ -10,11 +10,11 @@ sidenav: digital_talent_management
 
 After you understand your talent gaps and established goals and metrics, it's time to develop a digital talent strategy. A comprehensive digital talent strategy will combine the following approaches:
 
-* Recruiting new digital talent
-* Recognizing and training existing technology talent
-* Preparing government employees to work collaboratively with technical teams
-* Leveraging alternative sources of talent
-* Using technology to create additional capacity
+- Recruiting new digital talent
+- Recognizing and training existing technology talent
+- Preparing government employees to work collaboratively with technical teams
+- Leveraging alternative sources of talent
+- Using technology to create additional capacity
 
 ## Recruiting new digital talent
 
@@ -32,8 +32,8 @@ It's easier to attract digital talent to come work for the government if they kn
 
 There a few different ways to create bright spots:
 
-* **A centralized hub supporting multiple agencies &mdash;** 18F and USDS are centralized hubs that work on projects for different agencies. ([See 18F's partnership principles](https://18f.gsa.gov/partnership-principles/)). One of the benefits of this approach is that it [opens the door for teams to work on problems that span multiple agencies](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/). It also allows for shared solutions, resulting in economies of scale.
-* **Dedicated agency teams &mdash;** These teams are an embedded part of an agency's mission and share the same values. The teams can form around critical services, providing long-term support. They can build the strong, lasting relationships, and trust needed to effect change.
+- **A centralized hub supporting multiple agencies &mdash;** 18F and USDS are centralized hubs that work on projects for different agencies. ([See 18F's partnership principles](https://18f.gsa.gov/partnership-principles/)). One of the benefits of this approach is that it [opens the door for teams to work on problems that span multiple agencies](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/). It also allows for shared solutions, resulting in economies of scale.
+- **Dedicated agency teams &mdash;** These teams are an embedded part of an agency's mission and share the same values. The teams can form around critical services, providing long-term support. They can build the strong, lasting relationships, and trust needed to effect change.
 
 ## Recognizing and training existing technology talent
 
@@ -41,7 +41,6 @@ There a few different ways to create bright spots:
 <p>"It's common that there are dozens or even hundreds of civil servants who both know how the system works inside and out and have been trying to change it to improve outcomes for years. While it's likely that building a delivery-driven government will require hiring new talent, failing to recognize, elevate, and support the champions you already have (and who have the battle scars) as a new generation of leaders can set a change agenda back years, even decades."</p>
 <cite><strong>Jennifer Pahlka</strong></cite>
 </blockquote>
-
 
 ### Find people to guide new technology teams
 
@@ -61,10 +60,10 @@ Plan to offer incentives and opportunities for continuously training your staff.
 
 Hiring people isn't the only way to access digital talent. Consider some alternatives to increase the digital talent density on your team:
 
-* Partner with universities to offer internships. Government offers the ability for students to make an impact.
-* Support and partner with technology boot camps such as [General Assembly](https://generalassemb.ly/), or programs like [Coding it Forward](https://www.codingitforward.com/), to hire recent graduates.
-* Partner with non-profit, civic-technology organizations such as [Code For America](https://www.codeforamerica.org/).
-* Bring in freelancers on short-duration, temporary assignments to solve a particular problem. This can work well for tasks that don't need to be done frequently, such as setting up DevOps pipelines or uncovering security bugs.
+- Partner with universities to offer internships. Government offers the ability for students to make an impact.
+- Support and partner with technology boot camps such as [General Assembly](https://generalassemb.ly/), or programs like [Coding it Forward](https://www.codingitforward.com/), to hire recent graduates.
+- Partner with non-profit, civic-technology organizations such as [Code For America](https://www.codeforamerica.org/).
+- Bring in freelancers on short-duration, temporary assignments to solve a particular problem. This can work well for tasks that don't need to be done frequently, such as setting up DevOps pipelines or uncovering security bugs.
 
 These alternative options for talent work best when projects are well defined.
 
@@ -74,17 +73,17 @@ Government agencies are increasingly asked to do more with less &mdash; smaller 
 
 Although machine learning and artificial intelligence are often touted as necessary automation tools, they're difficult to implement well in environments that aren't ready for modern technology. Luckily, there are often simpler alternatives to many labor-intensive tasks:
 
-* **Self-service, web-based tools** for common tasks like password resets and data edits
-* **Software as a Service (SaaS) tools**, like G Suite or Office 365, for collaboration instead of hosting your own tools
-* **Cloud-based hosting** instead of self-hosted data centers for compute and storage infrastructure
-* **Web-based forms** (when forms are necessary) to replace mailing paper back and forth
+- **Self-service, web-based tools** for common tasks like password resets and data edits
+- **Software as a Service (SaaS) tools**, like G Suite or Office 365, for collaboration instead of hosting your own tools
+- **Cloud-based hosting** instead of self-hosted data centers for compute and storage infrastructure
+- **Web-based forms** (when forms are necessary) to replace mailing paper back and forth
 
 Digital teams are well-suited to looking at entire processes to determine where technology can add value.
 
 ## Checklist
 
-* Create a comprehensive digital talent strategy
-* Use technology to create additional capacity
+- Create a comprehensive digital talent strategy
+- Use technology to create additional capacity
 
 ### Case study: U.K. Government Digital Service
 

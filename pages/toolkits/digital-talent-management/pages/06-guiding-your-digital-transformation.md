@@ -11,11 +11,11 @@ By introducing digital teams, you're changing the way the entire organization op
 
 Spend the effort to:
 
--   Talk about the methods just as much as you talk about the output
--   Ask your digital teams to lead workshops that teach others about the methods they're using
--   Offer training opportunities to your staff
+- Talk about the methods just as much as you talk about the output
+- Ask your digital teams to lead workshops that teach others about the methods they're using
+- Offer training opportunities to your staff
 
-For these and similar ideas, see the section called ["Keeping skills and ideas fresh"](/work/toolkits/digital-talent-management/keeping-skills-and-ideas-fresh/).
+For these and similar ideas, see the section called [Keeping skills and ideas fresh](/work/toolkits/digital-talent-management/keeping-skills-and-ideas-fresh/).
 
 Pair each team with an internal agency champion. The champion will be someone who has been at the agency for a long time and has the relationships to help pave a smoother path for the team. The champion will help the team navigate the bureaucracy.
 
@@ -88,17 +88,17 @@ All executive leadership in an agency must be digital savvy. They have to recogn
 
 ## Checklist
 
--   Empower your team by pushing decision-making to the team level
--   Foster a blameless culture
--   Be a vocal advocate for the methods your team uses
--   Lend your support by being an active participant in team activities, such as workshops
--   Educate the rest of the organization to avoid alienating them
--   Pair each digital team with an internal champion
--   Structure your organization for success
--   Measure project progress by value delivered to the user
--   Establish a Quality Assurance Surveillance Plan (QASP) for software development contracts
--   Hire digital-savvy executive leadership
--   Hire technology leadership with hands-on experience
+- Empower your team by pushing decision-making to the team level
+- Foster a blameless culture
+- Be a vocal advocate for the methods your team uses
+- Lend your support by being an active participant in team activities, such as workshops
+- Educate the rest of the organization to avoid alienating them
+- Pair each digital team with an internal champion
+- Structure your organization for success
+- Measure project progress by value delivered to the user
+- Establish a Quality Assurance Surveillance Plan (QASP) for software development contracts
+- Hire digital-savvy executive leadership
+- Hire technology leadership with hands-on experience
 
 ## Recommended reading
 

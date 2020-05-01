@@ -15,23 +15,23 @@ questions](https://www.cnbc.com/2018/03/30/amazon-employee-reaction-to-hr-progra
 
 ## Listen to your current, past, and prospective employees
 
-* Survey candidates in your hiring pipeline
-* Capture information as part of exit interviews
-* Conduct stay interviews to learn what current employees like and dislike about coming to work
-* Create other pathways for existing employees to safely and effectively share what they need
+- Survey candidates in your hiring pipeline
+- Capture information as part of exit interviews
+- Conduct stay interviews to learn what current employees like and dislike about coming to work
+- Create other pathways for existing employees to safely and effectively share what they need
 
 ## Document and benchmark your talent gaps
 
 ### Capture data related to talent-related deficiencies
 
-* Identify talent goals (for example, reducing time-to-hire)
-* Identify metrics associated with those goals (for example, number of days from job posting to start date)
-* Measure the organization's current performance as a baseline
+- Identify talent goals (for example, reducing time-to-hire)
+- Identify metrics associated with those goals (for example, number of days from job posting to start date)
+- Measure the organization's current performance as a baseline
 
 ### Establish goals for your organization by comparing your metrics to those of high-performing organizations
 
-* Focus comparisons on organizations who are leaders in that space (for example, [U.S. Digital Service at the federal level](https://www.govloop.com/new-hiring-pilot-could-help-agencies-find-qualified-candidates-faster/)) since there's a great amount of variety among performance of government institutions
-* Organizations like Glassdoor are a good source of information on industry standards (for example, [How Long Should Your Hiring Process Take?](https://www.glassdoor.com/blog/how-long-should-interviews-take/))
+- Focus comparisons on organizations who are leaders in that space (for example, [U.S. Digital Service at the federal level](https://www.govloop.com/new-hiring-pilot-could-help-agencies-find-qualified-candidates-faster/)) since there's a great amount of variety among performance of government institutions
+- Organizations like Glassdoor are a good source of information on industry standards (for example, [How Long Should Your Hiring Process Take?](https://www.glassdoor.com/blog/how-long-should-interviews-take/))
 
 ### Review progress made in other organizations to build on what works
 
@@ -43,22 +43,22 @@ hiring tech talent into government.
 
 ## Take steps to close gaps
 
-* Work with staff closest to the issue areas to understand the current process and existing constraints
-    * Consider producing a process map ([example](https://talentsum.com/wp-content/uploads/2015/04/candidate-journey-map.png)) to clearly identify the steps in a process and to ensure other stakeholders also have that visibility
-    * Identify the aspects of the process that pose the biggest challenges and target these for improvement
+- Work with staff closest to the issue areas to understand the current process and existing constraints
+    - Consider producing a process map ([example](https://talentsum.com/wp-content/uploads/2015/04/candidate-journey-map.png)) to clearly identify the steps in a process and to ensure other stakeholders also have that visibility
+    - Identify the aspects of the process that pose the biggest challenges and target these for improvement
 - Establish tactical steps for improvement
 
 ## Hold yourselves accountable to progress
 
-* Identify and empower individuals to implement improvement plans
-* Review progress at regular (and reasonable) intervals
-* Be transparent: report out publicly on your process and accomplishments
+- Identify and empower individuals to implement improvement plans
+- Review progress at regular (and reasonable) intervals
+- Be transparent: report out publicly on your process and accomplishments
 
 ## Checklist
 
-* Identify talent gaps
-* Look at similar organizations for inspiration
-* Document gaps and identify benchmarks
+- Identify talent gaps
+- Look at similar organizations for inspiration
+- Document gaps and identify benchmarks
 
 ### Case study: The City of Durham
 
