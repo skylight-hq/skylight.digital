@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Addressing Connecticut-specific challenges
+title: Appendix A&#58; Interview questions for UX Designers
 permalink: /work/toolkits/digital-talent-management/appendix-a-interview-questions-for-ux-designers/
 sidenav: digital_talent_management
 ---
