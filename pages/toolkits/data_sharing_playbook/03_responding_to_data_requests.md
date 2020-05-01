@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Responding to data requests
-permalink: /work/toolkits/data-sharing-playbook/responding-to-data-requests
+permalink: /work/toolkits/data-sharing-playbook/responding-to-data-requests/
 sidenav: data_sharing_playbook
 ---
 

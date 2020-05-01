@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Preparing a successful data request
-permalink: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request
+permalink: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request/
 sidenav: data_sharing_playbook
 ---
 

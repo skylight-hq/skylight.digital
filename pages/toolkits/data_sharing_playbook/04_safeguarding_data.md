@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Safeguarding data
-permalink: /work/toolkits/data-sharing-playbook/safeguarding-data
+permalink: /work/toolkits/data-sharing-playbook/safeguarding-data/
 sidenav: data_sharing_playbook
 ---
 

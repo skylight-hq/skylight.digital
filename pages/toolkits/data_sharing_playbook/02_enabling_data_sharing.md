@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Enabling data sharing
-permalink: /work/toolkits/data-sharing-playbook/enabling-data-sharing
+permalink: /work/toolkits/data-sharing-playbook/enabling-data-sharing/
 sidenav: data_sharing_playbook
 ---
 

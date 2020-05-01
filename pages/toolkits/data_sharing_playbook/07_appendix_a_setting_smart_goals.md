@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Appendix A&#58; Setting smart goals
-permalink: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals
+permalink: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals/
 sidenav: data_sharing_playbook
 ---
 

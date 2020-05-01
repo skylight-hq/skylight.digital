@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: What is agile procurement?
-permalink: /work/toolkits/agile-procurement-playbook/what-is-agile-procurement
+permalink: /work/toolkits/agile-procurement-playbook/what-is-agile-procurement/
 sidenav: agile_procurement_playbook
 ---
 

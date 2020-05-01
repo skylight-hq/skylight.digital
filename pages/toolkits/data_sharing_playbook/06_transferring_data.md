@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Transferring data
-permalink: /work/toolkits/data-sharing-playbook/transferring-data
+permalink: /work/toolkits/data-sharing-playbook/transferring-data/
 sidenav: data_sharing_playbook
 ---
 
