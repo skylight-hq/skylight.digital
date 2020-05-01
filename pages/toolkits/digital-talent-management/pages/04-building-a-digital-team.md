@@ -21,8 +21,8 @@ Improving digital services requires organizational change, and it takes a team a
 
 A small team is often going to be more efficient and effective than a larger team. By keeping teams small, you can:
 
-* **Save time.** Fewer people means you can spend less time learning how to work together and more time getting the work done.
-* **Focus on quality, not quantity.** A small team may do fewer things at once, but they will do them right the first time.
+- **Save time.** Fewer people means you can spend less time learning how to work together and more time getting the work done.
+- **Focus on quality, not quantity.** A small team may do fewer things at once, but they will do them right the first time.
 
 When you're putting together a core digital team for product or service, aim for a team of no more than 6 to 8 people.
 
@@ -32,11 +32,11 @@ It's better to have many small teams working together than to have one large tea
 
 Even a team working on a single service won't work in a silo. A digital team will need help from other parts of your organization, such as:
 
-* Legal
-* Security
-* Privacy
-* Infrastructure
-* Public relations and communication
+- Legal
+- Security
+- Privacy
+- Infrastructure
+- Public relations and communication
 
 ## Include multiple roles on each digital team
 
@@ -50,76 +50,76 @@ Developers design, implement, and maintain software applications. Developers may
 
 **Frontend software developers** build user-facing components. They work with user experience (UX) and visual designers. **Backend engineers** work with frontend engineers to build services that drive the interface. The software developers on your team:
 
-* Write and maintain custom software applications
-* Configure and customize COTS applications
-* Help pre-process and analyze data
-* Operate and monitor services in development, staging, and production
+- Write and maintain custom software applications
+- Configure and customize COTS applications
+- Help pre-process and analyze data
+- Operate and monitor services in development, staging, and production
 
 ### DevOps engineer
 
 DevOps engineers help product teams deploy code quickly, securely, and reliably. They work closely with software developers and:
 
-* Write code to solve problems with software infrastructure, deployment, and operations
-* Configure and maintain continuous integration and continuous deployment (CI/CD) pipelines to automatically build and test the software
-* Define, configure, and secure the application's hardware and software infrastructure
-* Configure and maintain the tools that monitor hardware and software
-* Help software developers architect and develop software that is scalable and reliable
+- Write code to solve problems with software infrastructure, deployment, and operations
+- Configure and maintain continuous integration and continuous deployment (CI/CD) pipelines to automatically build and test the software
+- Define, configure, and secure the application's hardware and software infrastructure
+- Configure and maintain the tools that monitor hardware and software
+- Help software developers architect and develop software that is scalable and reliable
 
 ### Security engineer
 
 Security engineers ensure the privacy of users by securing user data. This is essential, since many government systems deal with Personally Identifiable Information (PII) and Protected Health Information (PHI). Security engineers work closely with software developers and DevOps engineers. Their key tasks are to:
 
-* Conduct regular security audits and scans
-* Work with DevOps engineers to patch systems against vulnerabilities
-* Help software engineers architect and develop secure systems
+- Conduct regular security audits and scans
+- Work with DevOps engineers to patch systems against vulnerabilities
+- Help software engineers architect and develop secure systems
 
 ### Product manager
 
 Government services should be managed the same way a company manages a commercial product. Product managers help determine the roadmap for your service, and they establish a product-market fit. Product managers work closely with UX researchers and designers and:
 
-* Guide the team in deciding how to iteratively build features for users
-* Define the product/service vision by describing future goals and features
-* Work with the team to define the feature and technical roadmaps
-* Gather and analyze usage data to drive changes
-* Create assets for users, stakeholders, and government officials with the communication team
-* Apply for grants and other funding
+- Guide the team in deciding how to iteratively build features for users
+- Define the product/service vision by describing future goals and features
+- Work with the team to define the feature and technical roadmaps
+- Gather and analyze usage data to drive changes
+- Create assets for users, stakeholders, and government officials with the communication team
+- Apply for grants and other funding
 
 ### UX researcher
 
 UX researchers learn about and empathize with the users of your service. They test the usability of each feature. UX researchers work closely with UX designers, content strategists, and product managers. UX researchers:
 
-* Understand who the users of the service are
-* Help the team understand what the users expect by conducting research
-* Work with other designers to develop interfaces that are useful, usable, and accessibly
-* Conduct usability tests on features
-* Work with the product manager to define the next iterations
+- Understand who the users of the service are
+- Help the team understand what the users expect by conducting research
+- Work with other designers to develop interfaces that are useful, usable, and accessibly
+- Conduct usability tests on features
+- Work with the product manager to define the next iterations
 
 ### UX designer
 
 UX designers turn user research into interactions and interfaces that work for everybody. They design how someone will interact with a service. UX designers work closely with UX researchers, visual designers, content strategists, and frontend engineers. Their key responsibilities are to:
 
-* Generate low-fidelity prototypes
-* Work closely with visual designers to define the look and feel of applications
-* Plan and conduct usability testing for prototypes and implemented interfaces
+- Generate low-fidelity prototypes
+- Work closely with visual designers to define the look and feel of applications
+- Plan and conduct usability testing for prototypes and implemented interfaces
 
 ### Visual designer
 
 Visual designers build the look and feel of the service. They ensure that the design provides a consistent and accessible user experience. Good design reflects the purpose of the service. Veterans' benefits applications should look different from picnic table reservations. Visual designers work closely with UX designers, content strategists, and frontend developers. They:
 
-* Build the visual style guide for the application
-* Design implementation-ready interfaces
-* Ensure accessibility throughout the design
+- Build the visual style guide for the application
+- Design implementation-ready interfaces
+- Ensure accessibility throughout the design
 
 ### Content strategist
 
 Government services often have complex information to communicate to users. Examples include: eligibility rules for benefits, applicable laws and regulations, and complex data. Content strategists ensure that content is easy to read and presented where it's needed. Content strategists work closely with other designers to:
 
-* Develop user workflows and information architecture
-* Create and edit plain language content for the service and any related assets
-* Ensure content is understandable and actionable
-* Define the voice and tone of your communication
-* Develop content guidelines for all members of the team to use
-* Help tell user stories
+- Develop user workflows and information architecture
+- Create and edit plain language content for the service and any related assets
+- Ensure content is understandable and actionable
+- Define the voice and tone of your communication
+- Develop content guidelines for all members of the team to use
+- Help tell user stories
 
 ## Create cross-functional digital teams
 
@@ -129,16 +129,16 @@ Your digital teams need to be cross-functional. Structure teams so that most of 
 
 With commercial products, use these questions to help you identify the right team members:
 
-* Does the platform allow you to change the look and feel? If there's limited flexibility, the team won't need UX and visual designers.
-* Do existing staff have experience with the platform? For example, for Salesforce, you'll need Salesforce developers. If you don't have the in-house experience, you'll need to bring on a new developer or allow time for training.
-* Who's responsible for the security of the system? With SaaS, the software company will ensure the system's security and you won't need a security engineer.
+- Does the platform allow you to change the look and feel? If there's limited flexibility, the team won't need UX and visual designers.
+- Do existing staff have experience with the platform? For example, for Salesforce, you'll need Salesforce developers. If you don't have the in-house experience, you'll need to bring on a new developer or allow time for training.
+- Who's responsible for the security of the system? With SaaS, the software company will ensure the system's security and you won't need a security engineer.
 
 ### Software projects that are mostly contracted out
 
 Many governments contract out most of their software development. You'll still need a cross-functional digital team to manage their work. Creating mixed government and contractor teams is a good idea for knowledge transfer. Create a "one-badge" culture, and treat each member the same. Roles you'll need:
 
-* Senior software developer to review the code written by the contractors
-* UX researcher to work with the UX researchers on the contractor team and ensure that the government team builds institutional knowledge about its users
+- Senior software developer to review the code written by the contractors
+- UX researcher to work with the UX researchers on the contractor team and ensure that the government team builds institutional knowledge about its users
 
 ### Custom software projects
 
@@ -146,15 +146,15 @@ When you're developing custom software, you'll need representation from all of t
 
 ## Checklist
 
-* Create cross-functional teams of digital talent of no more than 6 to 8 people each
-* Decide the composition of your team based on the type of project: COTS, mostly contracted out, or custom software built in-house
-* Vary the size and composition of your team based on which phase your project is in: discovery, alpha, beta, live
+- Create cross-functional teams of digital talent of no more than 6 to 8 people each
+- Decide the composition of your team based on the type of project: COTS, mostly contracted out, or custom software built in-house
+- Vary the size and composition of your team based on which phase your project is in: discovery, alpha, beta, live
 
 ## Recommended reading
 
-* [Design Methods](https://methods.18f.gov/) (18F)
-* [Labor Category Descriptions for Agile Procurements](https://agile-labor-categories.18f.gov/) (18F)
-* [What each role does in a service team](https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team) (GDS)
+- [Design Methods](https://methods.18f.gov/) (18F)
+- [Labor Category Descriptions for Agile Procurements](https://agile-labor-categories.18f.gov/) (18F)
+- [What each role does in a service team](https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team) (GDS)
 
 ### Case study: Georgia Digital Service
 
@@ -168,7 +168,7 @@ The state and vendor teams work together to support GADS. Strong project managem
 
 Tips for procuring high-caliber vendors:
 
-* Look for specific evidence of the skills you need. When GADS issued a solicitation for Drupal engineers, it required responding vendors to get most of their business from Drupal engagements. It also required them to make public contributions to the Drupal community.
-* Use a multi-tiered evaluation approach. Filter out unqualified vendors through a short written submission. Then invite the most qualified vendors to participate in a technical challenge where subject matter experts can evaluate their skills.
-* Work with your procurement team to ensure that your process follows internal policies.
-* Scope work in short-term projects. You can add options for additional work based on vendor performance.
+- Look for specific evidence of the skills you need. When GADS issued a solicitation for Drupal engineers, it required responding vendors to get most of their business from Drupal engagements. It also required them to make public contributions to the Drupal community.
+- Use a multi-tiered evaluation approach. Filter out unqualified vendors through a short written submission. Then invite the most qualified vendors to participate in a technical challenge where subject matter experts can evaluate their skills.
+- Work with your procurement team to ensure that your process follows internal policies.
+- Scope work in short-term projects. You can add options for additional work based on vendor performance.

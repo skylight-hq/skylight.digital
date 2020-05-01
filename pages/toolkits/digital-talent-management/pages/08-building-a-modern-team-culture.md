@@ -14,12 +14,12 @@ sidenav: digital_talent_management
 
 Building the right organizational culture is the most important thing you can do. The right organizational culture:
 
--   Guides everyday interactions between the people on your team
--   Creates an environment where people are happy to come to work
--   Helps with recruiting and retention
--   Increases team performance because everyone is aligned around common goals and values
--   Creates an inclusive environment
--   Determines how leadership and teams react to failures and setbacks
+- Guides everyday interactions between the people on your team
+- Creates an environment where people are happy to come to work
+- Helps with recruiting and retention
+- Increases team performance because everyone is aligned around common goals and values
+- Creates an inclusive environment
+- Determines how leadership and teams react to failures and setbacks
 
 Culture is built and sustained intentionally. Don't expect to organically grow into the culture you want.
 
@@ -46,11 +46,11 @@ Most traditional government organizations tend to be bureaucratic. However, digi
 
 [re:Work from Google](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/identify-dynamics-of-effective-teams/) identifies five characteristics of effective teams, and these all support a generative organizational culture:
 
-1.  **Psychological safety** &mdash; team members feel safe to take risks and be vulnerable in front of each other
-2.  **Dependability** &mdash; team members get things done on time and meet the high bar for excellence
-3.  **Structure and clarity** &mdash; team members have clear roles, plans, and goals
-4.  **Meaning** &mdash; work is personally important to team members
-5.  **Impact** &mdash; team members think their work matters and creates change
+1. **Psychological safety** &mdash; team members feel safe to take risks and be vulnerable in front of each other
+2. **Dependability** &mdash; team members get things done on time and meet the high bar for excellence
+3. **Structure and clarity** &mdash; team members have clear roles, plans, and goals
+4. **Meaning** &mdash; work is personally important to team members
+5. **Impact** &mdash; team members think their work matters and creates change
 
 Next, we'll break down the basics of encouraging these cultural characteristics.
 
@@ -94,9 +94,9 @@ Teams should also collectively set goals and support each other to achieve them.
 
 **Remind people of the mission.** Have a clear and concise mission, and include vision and values statements on posters in your physical space. The constant reminder is important so that teams don't forget the larger picture.
 
--   [Our values: a series of posters from the USDS](https://medium.com/the-u-s-digital-service/our-values-1fc02b53598)
--   [Posters from U.K.'s GDS](https://govdesign.tumblr.com/)
--   [A set of posters emphasizing 18F's principles and values](https://github.com/18F/18f-posters)
+- [Our values: a series of posters from the USDS](https://medium.com/the-u-s-digital-service/our-values-1fc02b53598)
+- [Posters from U.K.'s GDS](https://govdesign.tumblr.com/)
+- [A set of posters emphasizing 18F's principles and values](https://github.com/18F/18f-posters)
 
 **Build with shared empathy.** To understand the potential impact of their work, encourage everyone on the team to participate in research/discovery work. By interacting with users, the team will understand the problem they're trying to solve and the impact that problem has on everyday lives.
 
@@ -128,8 +128,8 @@ Create a community where everyone feels empowered to speak up. It's useful to do
 
 Use inclusive language in all communications with your organization and the services you build. These resources can help:
 
--   This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/)is short and easy to internalize for all communications.
--   The Ontario Digital Service has a useful [inclusive design toolkit available online](https://www.ontario.ca/page/inclusive-design-toolkit).
+- This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/)is short and easy to internalize for all communications.
+- The Ontario Digital Service has a useful [inclusive design toolkit available online](https://www.ontario.ca/page/inclusive-design-toolkit).
 
 ### Provide training on unconscious bias
 
@@ -139,34 +139,33 @@ Everyone has these biases.
 
 Unconscious bias training helps create awareness for this ingrained bias. Have everyone on your team attend unconscious bias training. This will help improve everyday interactions. It'll also help during the interview process as you attempt to build a diverse team.
 
--  Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases)
+- Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases)
 
 ## Checklist
 
--   Identify where your organization lies on the Westrum category of organizational cultures, and move towards a generative culture
--   Conduct team and organization-wide blameless retrospectives
--   Regularly ask for feedback on organizational initiatives
--   Encourage employees to be accountable and responsible for their actions
--   Remove workplace distractions
--   Remove blockers
--   Set organization, team, and individual goals using something like [Google's OKR
-    framework](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/)
--   Have everyone participate in research/discovery activities
--   Assign people to projects they're passionate about
--   Create and enforce a Code of Conduct
--   Have everyone attend unconscious bias training
--   Use inclusive language in all communications
+- Identify where your organization lies on the Westrum category of organizational cultures, and move towards a generative culture
+- Conduct team and organization-wide blameless retrospectives
+- Regularly ask for feedback on organizational initiatives
+- Encourage employees to be accountable and responsible for their actions
+- Remove workplace distractions
+- Remove blockers
+- Set organization, team, and individual goals using something like [Google's OKR framework](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/)
+- Have everyone participate in research/discovery activities
+- Assign people to projects they're passionate about
+- Create and enforce a Code of Conduct
+- Have everyone attend unconscious bias training
+- Use inclusive language in all communications
 
 ## Recommended reading
 
--   [How to Create a Great Team Culture (and Why It Matters)](https://queue.acm.org/detail.cfm?ref=rss&id=3323993)
--   [Diversity, Equity, and Inclusion at TTS](https://handbook.18f.gov/diversity/)
--   [18F's Inclusive Language Guide ](https://content-guide.18f.gov/inclusive-language/)
--   [Sample Code of Conduct (Ontario Digital Service)](https://docs.google.com/document/d/1heWtqC8AnAF4-5FNEdX311o5E4FPNnfboOxbsTpYmco/edit#heading=h.1xz7dk9v8pux)
--   [A typology of organisational cultures](https://qualitysafety.bmj.com/content/13/suppl_2/ii22.full)
--   [Inclusive design toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
--   [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
--   [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
+- [How to Create a Great Team Culture (and Why It Matters)](https://queue.acm.org/detail.cfm?ref=rss&id=3323993)
+- [Diversity, Equity, and Inclusion at TTS](https://handbook.18f.gov/diversity/)
+- [18F's Inclusive Language Guide ](https://content-guide.18f.gov/inclusive-language/)
+- [Sample Code of Conduct (Ontario Digital Service)](https://docs.google.com/document/d/1heWtqC8AnAF4-5FNEdX311o5E4FPNnfboOxbsTpYmco/edit#heading=h.1xz7dk9v8pux)
+- [A typology of organisational cultures](https://qualitysafety.bmj.com/content/13/suppl_2/ii22.full)
+- [Inclusive design toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
+- [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
+- [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
 
 ### Case study: Ontario Digital Service
 
