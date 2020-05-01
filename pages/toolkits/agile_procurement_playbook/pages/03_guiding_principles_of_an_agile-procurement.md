@@ -83,7 +83,7 @@ Testing out or adopting a new procurement strategy takes buy-in and support from
 - Does the current procurement strategy help mitigate the risks in product development and delivery?
 - Does the current procurement strategy contribute to the probability of success for the product?
 
-By conducting an [analysis of alternatives]() on the different procurement options for a particular product, the product team can involve stakeholders in the decision-making process and increase buy-in if the team opts to test out a new strategy.
+By conducting an [analysis of alternatives](/work/toolkits/agile-procurement-playbook/appendix-f-sample-analysis-of-procurement-options/) on the different procurement options for a particular product, the product team can involve stakeholders in the decision-making process and increase buy-in if the team opts to test out a new strategy.
 
 As with trying out any new method, start small. This will allow stakeholders to become comfortable with the new process and way of procuring services. Once you have some experience and more buy-in, you can scale up to larger initiatives.
 
