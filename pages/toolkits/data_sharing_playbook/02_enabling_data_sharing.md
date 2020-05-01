@@ -4,7 +4,8 @@ title: Enabling data sharing
 permalink: /work/toolkits/data-sharing-playbook/enabling-data-sharing
 sidenav: data_sharing_playbook
 ---
-#  Enabling data sharing
+
+# Enabling data sharing
 
 ## Identify who plays each data-related role.
 
@@ -18,7 +19,7 @@ The data owner is accountable for the quality and security of the data and holds
 
 ### Data steward
 
-The data steward is responsible for the governance of data and ensures the fitness of content and metadata. Stewards exercise established processes, policies, guidance, compliance, and rules in this effort. They are usually the subject matter experts and data analysts that work with the data on a daily basis.
+The data steward is responsible for the governance of data and ensures the fitness of content and metadata. Stewards exercise established processes, policies, guidance, compliance, and rules in this effort. They're usually the subject matter experts and data analysts that work with the data on a daily basis.
 
 ### Data custodian
 
@@ -42,9 +43,9 @@ A publicly available data dictionary helps requesters understand what data your 
 
 ## Document metadata.
 
-Metadata is a set of information that describes what the fields in a dataset are. It provides data about your data. It includes information such as when and how the data was gathered or any other information that might describe an aspect of the data. It is important to keep detailed notes on the metadata and process by which the data was collected, because this information can facilitate easier and more effective use later on.
+Metadata is a set of information that describes what the fields in a dataset are. It provides data about your data. It includes information such as when and how the data was gathered or any other information that might describe an aspect of the data. It's important to keep detailed notes on the metadata and process by which the data was collected, because this information can facilitate easier and more effective use later on.
 
-One common misconception about metadata is that it is solely the definitions of the various fields you've tracked in the dataset. However, metadata includes much more than these surface-level characteristics. Anything that gives additional information about the nature, structure, or gathering process of the dataset counts as metadata. Some examples of metadata for different types of media include:
+One common misconception about metadata is that it's solely the definitions of the various fields you've tracked in the dataset. However, metadata includes much more than these surface-level characteristics. Anything that gives additional information about the nature, structure, or gathering process of the dataset counts as metadata. Some examples of metadata for different types of media include:
 
 - **Photographs / images**: date and time the photo was taken, who took the photo, location where the image was captured, and camera settings used to take the photo
 - **Books / reports / documents**: title, author, publishing information, year of publication, table of contents, index, date of last update / modification, and number of pages
@@ -57,11 +58,10 @@ When tracking metadata, it's important to:
 - Be consistent about the language you use to describe metadata
 - Avoid acronyms and language that might be specific to you or your agency, since metadata can help recipients of data sharing understand what a dataset is all about
 
-
 ### Recommended reading
 
 - [Manually creating a data dictionary](https://data.nal.usda.gov/manually-creating-data-dictionary)
-- [Smithsonian Data Management Best Practices](https://data.nal.usda.gov/manually-creating-data-dictionary)
+- [Smithsonian data management best practices](https://data.nal.usda.gov/manually-creating-data-dictionary)
 
 ## Review data for implicit biases.
 
@@ -69,15 +69,15 @@ As organizations become more data-driven, data experts are discovering more inst
 
 The data that government agencies, academic researchers, and other organizations collect most likely contain implicit biases. These biases can be introduced due to:
 
-- **Whose data is collected** — Does a dataset contain a representative sample of people across different demographics and backgrounds (i.e. multiple races, ethnicities, geographic locations, ages, genders, etc.)?
-- **Whose data isn't collected** — Does the data leave out a specific demographic group that might not frequent the service where the data is collected?  
-- **How the data is collected** — For example, is the data collected via interview in one area and via a form somewhere else?
+- **Whose data is collected** &mdash; Does a dataset contain a representative sample of people across different demographics and backgrounds (that is, multiple races, ethnicities, geographic locations, ages, genders, etc.)?
+- **Whose data isn't collected** &mdash; Does the data leave out a specific demographic group that might not frequent the service where the data is collected?  
+- **How the data is collected** &mdash; For example, is the data collected via interview in one area and via a form somewhere else?
 
 Consider possible sources of bias in your agency's data carefully. If you don't identify possible bias, communicate it to data requesters, and work to reduce it, the decisions made based on your data may have unintended, serious societal implications.
 
 ### Here's an example of how implicit bias can have unintended consequences:
 
-Researchers discovered that a major health provider's algorithm favored white patients over black patients when deciding who would benefit from extra medical care. The researchers attributed the algorithm's bias to the data that was used to create it. Researchers noted that the health provider attempted to prevent bias by omitting the patient's race in the algorithm. Nevertheless, the algorithm amplified underlying inequities in access to healthcare. In the US, white patients incur more medical costs than black patients due to long-standing disparities in wealth and access to healthcare. Because of this difference in access to care, the algorithm perpetuated the disparity by determining that white patients would benefit more from extra medical care than sicker black patients. [^1]
+Researchers discovered that a major health provider's algorithm favored white patients over black patients when deciding who would benefit from extra medical care. The researchers attributed the algorithm's bias to the data that was used to create it. Researchers noted that the health provider attempted to prevent bias by omitting the patient's race in the algorithm. Nevertheless, the algorithm amplified underlying inequities in access to healthcare. In the U.S., white patients incur more medical costs than black patients due to long-standing disparities in wealth and access to healthcare. Because of this difference in access to care, the algorithm perpetuated the disparity by determining that white patients would benefit more from extra medical care than sicker black patients. (Source: [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/).)
 
 ## Work to eliminate possible sources of bias.
 
@@ -88,13 +88,13 @@ First, be open about the limitations of the agency's data to reduce the likeliho
 ### Recommended reading
 
  - [Algorithmic Justice League](https://www.ajlunited.org/)
- - [Confronting Structural Racism in Research and Policy Analysis](https://www.urban.org/sites/default/files/publication/99852/confronting_structural_racism_in_research_and_policy_analysis_0.pdf), Urban Institute, 2019
- - [Data 4 Black Lives](http://d4bl.org/conference.html), MIT, 2019
- - [How I'm Fighting Bias in Algorithms](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms) - Joy Buolamwini, TED Talks, 2016
- - [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/), The Washington Post, 2019
- - [The era of blind faith in big data must end](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end) - Cathy O'Neil, Ted Talks, 2017
- - [Weapons of Math Destruction](https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/), Cathy O'Neil, 2017
- - [When computers make biased health decisions, black patients pay the price, study says, Los Angeles Times](https://www.latimes.com/science/story/2019-10-24/computer-algorithm-fuels-racial-bias-in-us-healthcare), 2019
+ - [Confronting Structural Racism in Research and Policy Analysis](https://www.urban.org/sites/default/files/publication/99852/confronting_structural_racism_in_research_and_policy_analysis_0.pdf)
+ - [Data 4 Black Lives](http://d4bl.org/conference.html)
+ - [How I'm fighting bias in algorithms](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms)
+ - [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/)
+ - [The era of blind faith in big data must end](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end)
+ - [Weapons of Math Destruction](https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/)
+ - [When computers make biased health decisions, black patients pay the price, study says](https://www.latimes.com/science/story/2019-10-24/computer-algorithm-fuels-racial-bias-in-us-healthcare)
 
 ## Develop a data request process.
 
@@ -103,20 +103,20 @@ A clearly documented data request process can facilitate successful requests. Th
 Remember that the data request process must abide by the regulations and laws that apply to each dataset. For more detailed information, refer to [Establish a privacy policy](/work/toolkits/data-sharing-playbook/safeguarding-data#establish-a-privacy-policy).
 
 ### Request form
-Ensure that the data requester answers the questions below in order to evaluate the benefits and mitigate the risks of sharing data.
 
-- What is the requestor's contact information and organization?
-- What is the purpose of the request?
+Ensure that the data requester answers the questions below in order to evaluate the benefits and mitigate the risks of sharing data:
+
+- What's the requestor's contact information and organization?
+- What's the purpose of the request?
 - How does the requester plan to use the data?
-- Who will have access to the data?
-- What are the specific data they are requesting, and what are the specific parameters (such as individual or aggregate data, and over what time period) of that data?
+- Who'll have access to the data?
+- What are the specific data they're requesting, and what are the specific parameters (such as individual or aggregate data, and over what time period) of that data?
 - How frequently will this data be needed? For example, is this a one-time need or a recurring need?
-- How long is the requester seeking to keep the data? When and how will the data be destroyed? How is this reported or disseminated to the data owner?
-
+- How long is the requester seeking to keep the data? When and how will the data be destroyed? How's this reported or disseminated to the data owner?
 
 ### Flow diagram or detailed narrative of the steps
 
-It's important to have a way to show the data sharing process from start to finish. Common ways include using a flow diagram or descriptions for each step.
+It's important to have a way to show the data-sharing process from start to finish. Common ways include using a flow diagram or descriptions for each step.
 
 ### Data dictionary
 
@@ -124,6 +124,4 @@ A data dictionary describes the agency's data. (See [Create and publish a data d
 
 ### Data request fees
 
-A request fee schedule communicates the cost of requesting data. Both the Department of Public Health and P20 WIN have fee schedules, but each agency may have unique procedures for enacting request fees. We recommend that you consult your agency's legal counsel for specific guidance on fee schedules.
-
-[^1]: [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/), The Washington Post, 2019
+A request fee schedule communicates the cost of requesting data. Each agency may have unique procedures for enacting request fees. We recommend that you consult your agency's legal counsel for specific guidance on fee schedules.

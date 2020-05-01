@@ -51,7 +51,7 @@ Data owners are accountable for the proper use and security of their data. In or
 - What data you need to study your objective (including as much specific discussion of the fields of interest as possible)
 - How you will account for potential sources of implicit bias in the data you are requesting. See Review data for implicit biases for more information.
 - Why you need that data and what you hope to gain or analyze from the data
-- Who will have access to the data if you receive it
+- Who'll have access to the data if you receive it
 - How you will ensure that the data is handled ethically, safely, and securely, particularly in reference to the sister agency's data practices
 - The timeline with which you hope to answer the question and analyze the data.
 - How communication between your agency and your partner agency will take place (should there be weekly check-ins about the data usage? Reports filed about data activity? etc.)
