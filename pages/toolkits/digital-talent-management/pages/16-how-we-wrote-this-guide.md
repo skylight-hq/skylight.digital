@@ -11,4 +11,4 @@ Research for this handbook was conducted as part of an engagement with state age
 
 -   Desk review of many articles, blog posts, and reports from digital service teams, commercial industry, government organizations, and academic institutions
 -   Interviews with leaders of existing digital service teams
--   Team members’ personal experiences hiring, onboarding, and managing digital service teams
+-   Team members' personal experiences hiring, onboarding, and managing digital service teams
