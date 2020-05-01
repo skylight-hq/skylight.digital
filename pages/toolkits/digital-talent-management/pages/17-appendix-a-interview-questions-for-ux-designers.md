@@ -13,16 +13,16 @@ These are questions we've used in the past to evaluate UX designers.
 
 ### Project walkthrough
 
--   Walk us through a couple of your favorite projects in your portfolio
-    -   What was your design process?
-    -   What problems were you trying to solve?
-    -   How did you make certain design decisions?
+- Walk us through a couple of your favorite projects in your portfolio
+    - What was your design process?
+    - What problems were you trying to solve?
+    - How did you make certain design decisions?
 
 **Discovery exercise**
 
 The government wants to implement an advanced data analytics tool to help doctors get better insight into their patients. We currently have access to the patient database. The data is vast. Timelines are aggressive.
 
--   Who would you interview to learn more about what's needed?
--   What exercises would you conduct to define product scope and vision?
--   How would you define and measure success for a project like this?
--   What does your discovery plan look like?
+- Who would you interview to learn more about what's needed?
+- What exercises would you conduct to define product scope and vision?
+- How would you define and measure success for a project like this?
+- What does your discovery plan look like?
