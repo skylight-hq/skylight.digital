@@ -1,11 +1,11 @@
 ---
 layout: toolkit
-title: Appendix A&#58; MPSM case study
+title: Appendix A&#58; MPSM agile acquisition case study
 permalink: /work/toolkits/agile-procurement-playbook/appendix-a-mpsm-case-study/
 sidenav: agile_procurement_playbook
 ---
 
-# Medicare Payment Systems Modernization (MPSM) agile acquisition case study
+# Appendix A: Medicare Payment Systems Modernization (MPSM) agile acquisition case study
 
 ## Project background
 
