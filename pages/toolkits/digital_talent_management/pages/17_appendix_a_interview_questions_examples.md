@@ -1,13 +1,13 @@
 ---
 layout: toolkit
-title: Appendix A&#58; Interview questions for UX Designers
-permalink: /work/toolkits/digital-talent-management/appendix-a-interview-questions-for-ux-designers/
+title: Appendix A&#58; Interview questions examples
+permalink: /work/toolkits/digital-talent-management/appendix-a-interview-questions-examples/
 sidenav: digital_talent_management
 ---
 
-# Appendix A: Interview questions for UX Designers
+# Appendix A: Interview questions examples
 
-## Interview questions
+## UX designer
 
 These are questions we've used in the past to evaluate UX designers.
 
