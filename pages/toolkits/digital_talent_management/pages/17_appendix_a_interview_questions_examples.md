@@ -1,11 +1,11 @@
 ---
 layout: toolkit
-title: Appendix A&#58; Interview questions examples
-permalink: /work/toolkits/digital-talent-management/appendix-a-interview-questions-examples/
+title: Appendix A&#58; Sample interview questions
+permalink: /work/toolkits/digital-talent-management/appendix-a-sample-interview-questions/
 sidenav: digital_talent_management
 ---
 
-# Appendix A: Interview questions examples
+# Appendix A: Sample interview questions
 
 ## UX designer
 
