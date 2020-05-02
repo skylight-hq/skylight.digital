@@ -1,11 +1,11 @@
 ---
 layout: toolkit
-title: Appendix C&#58; List of templates
-permalink: /work/toolkits/agile-procurement-playbook/appendix-c-list-of-templates/
+title: Appendix C&#58; Templates
+permalink: /work/toolkits/agile-procurement-playbook/appendix-c-templates/
 sidenav: agile_procurement_playbook
 ---
 
-# Appendix C: List of templates
+# Appendix C: Templates
 
 ## Quality Metric Plan Template
 
