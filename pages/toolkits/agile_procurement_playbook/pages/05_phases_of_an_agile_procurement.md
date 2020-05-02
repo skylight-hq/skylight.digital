@@ -97,7 +97,7 @@ A SOO is a much better fit for agile development. Shifting from an SOW to an SOO
 
 When thinking about an SOO, the government should focus on defining the mission, vision, and goals of the product or service. Procurement with an SOO provides more flexibility for making changes to the product during the development lifecycle. While changes to the product will be frequent, the goals and objectives of the product will not change. By focusing the procurement towards an SOO, the government avoids having to constantly modify existing contracts as it gains new information and insights.
 
-For an example of an SOO, see [Appendix G](/work/toolkits/agile-procurement-playbook/appendix-g-sample-statement-of-objectives/).
+For an example of an SOO, see [Appendix G](/work/toolkits/agile-procurement-playbook/appendix-g-statement-of-objectives-examples/).
 
 ## Planning the proposal evaluation process
 
@@ -111,7 +111,7 @@ To get the most accurate insight into each vendor's ability to successfully exec
 
 The government will need to come up with a realistic scenario that vendors can respond to with either working software, design artifacts (for example, wireframes), product management approaches (for example, product milestones and backlog of prioritized work), or any other range of artifacts that will be essential for the specific procurement.
 
-For an example of a design challenge, see [Appendix E](/work/toolkits/agile-procurement-playbook/appendix-e-example-design-challenges/).
+For an example of a design challenge, see [Appendix E](/work/toolkits/agile-procurement-playbook/appendix-e-design-challenge-examples/).
 
 ### Quality Management Plan (QMP)
 
@@ -123,7 +123,7 @@ A QMP ensures that the government and vendor have a clear, common understanding 
 
 Much of the QMP can be captured in a single table. The vendor will have to come up with most &mdash; if not all &mdash; of the performance metrics they're to be measured on.
 
-For a Quality Management Plan template, refer to [Appendix C](/work/toolkits/agile-procurement-playbook/appendix-c-list-of-templates/).
+For a Quality Management Plan template, refer to [Appendix C](/work/toolkits/agile-procurement-playbook/appendix-c-templates#quality-metric-plan-template).
 
 #### Quality Assurance Surveillance Plan (QASP)
 
@@ -163,7 +163,7 @@ The check-ins can be remote/call-in meetings if that's more practical. While it'
 
 In the federal procurement process, it's common to have a technical evaluation panel (TEP) select the winning proposal.
 
-A TEP is a group of subject matter experts (SMEs) from the agency/government that reviews each proposal's non-price merits and ultimately makes a selection and recommendation to the acquisition office for awarding the contract. Following receipt of quotes, the TEP will perform an analysis on a factor-by-factor basis, noting the positive and negative aspects of each proposal, and assigning each proposal a score based on [an agreed upon method](/work/toolkits/agile-procurement-playbook/appendix-d-examples-of-tep-rating-systems/).
+A TEP is a group of subject matter experts (SMEs) from the agency/government that reviews each proposal's non-price merits and ultimately makes a selection and recommendation to the acquisition office for awarding the contract. Following receipt of quotes, the TEP will perform an analysis on a factor-by-factor basis, noting the positive and negative aspects of each proposal, and assigning each proposal a score based on [an agreed upon method](/work/toolkits/agile-procurement-playbook/appendix-d-tep-rating-system-examples/).
 
 SMEs are experts in research, design, engineering, or any other subject. These individuals may have years of experience in private industry or be active individual contributors for their respective discipline on government projects. Make sure that the designated SMEs are actually SMEs. They'll have the ability to provide in-depth analysis on design challenge submissions and be able to back that analysis with industry research and best practices.
 
@@ -176,11 +176,11 @@ The down-select process is a very powerful tool in the agency's acquisition tool
 The down-select is a phase in the procurement lifecycle that requires the evaluation of some information (for example, past experience, technical skillsets) to determine the likelihood of a vendor's success in winning the contract. The down-select can be either mandatory or voluntary.
 
 - In a **mandatory down-select** process, the government notifies a subsection of the applicant pool that they're not going to be considered and are being removed from the procurement process.
-- In a **voluntary down-select** process, the government notifies a subsection of the pool that they should consider not proceeding through the rest of the procurement process based on the TEPs findings.
+- In a **voluntary down-select** process, the government notifies a subsection of the pool that they should consider not proceeding through the rest of the procurement process based on the TEP's findings.
 
 When the government gives transparent feedback to vendors throughout the process &mdash; including when some proposals have a low probability of winning &mdash; this allows vendors to decide whether they want to put more time and resources into the procurement process. Without this feedback, vendors may feel like they might have wasted time and be understandably upset.
 
-The government can benefit through the terms/language in which it evaluates whether vendors are down-selected. [Appendix D](/work/toolkits/agile-procurement-playbook/appendix-d-examples-of-tep-rating-systems/) provides an example of how the government can be transparent about the down-select criteria.
+The government can benefit through the terms/language in which it evaluates whether vendors are down-selected. [Appendix D](/work/toolkits/agile-procurement-playbook/appendix-d-tep-rating-system-examples/) provides an example of how the government can be transparent about the down-select criteria.
 
 ### Selection and award
 
