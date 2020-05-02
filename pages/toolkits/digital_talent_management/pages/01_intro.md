@@ -4,6 +4,7 @@ title: Digital Talent Management Handbook
 permalink: /work/toolkits/digital-talent-management/
 sidenav: digital_talent_management
 ---
+
 # Introduction
 
 Regardless of mission, all government agencies are now technology organizations. Technology is used extensively behind the scenes to run the organization, manage, and do the work. The services an agency offers to the public are increasingly available online.
