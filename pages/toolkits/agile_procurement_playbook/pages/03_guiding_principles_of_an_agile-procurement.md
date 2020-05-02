@@ -43,7 +43,7 @@ The process of modular contracting matches the natural work streams that arise o
 **Traditional procurement approach**:
 
 - Gather 100% of the requirements up front
-- Write a statement of work against the gathered requirements
+- Write a Statement of Work against the gathered requirements
 - Award the contract to a single prime contractor that could have multiple subcontractors underneath them
 - Set a long initial period of performance in which the vendor should deliver working software at the end of it
 

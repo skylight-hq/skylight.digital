@@ -91,7 +91,7 @@ A Business Associate Agreement is a written arrangement that specifies each part
 
 ### Statement of Work
 
-The statement of work is a detailed overview of the project in all its dimensions. It's also a way to share what the project entails with those who are working on the project, whether they're collaborating or contracted to work on the project. This includes vendors and contractors who are bidding to work on the project.
+The Statement of Work is a detailed overview of the project in all its dimensions. It's also a way to share what the project entails with those who are working on the project, whether they're collaborating or contracted to work on the project. This includes vendors and contractors who are bidding to work on the project.
 
 ### Non-Disclosure Agreement (NDA)
 
