@@ -5,260 +5,6 @@ permalink: /work/toolkits/agile-procurement-playbook/appendix
 sidenav: agile_procurement_playbook
 ---
 
-Appendix B: List of templates
------------------------------
-
-## Quality Metric Plan Template
-
-QUALITY MANAGEMENT PLAN (QMP)
-
-**Introduction**
-
-This Quality Management Plan (QMP), which contains a
-Quality Assurance Surveillance Plan (QASP) and Quality Control Plan
-(QCP) is pursuant to the requirements listed in the performance-based
-\[Performance Work Statement (PWS) or Statement of Objectives (SOO)\]
-for \[program that the procurement is being ran against\], agile
-development services. This performance-based plan sets forth the
-procedures and guidelines the \[agency name\] will use in evaluating the
-technical performance of the contractor’s services as required beneath
-the Task Order.
-
-After acceptance of the quality management plan the Vendor shall receive
-the Government Contracting Officer’s acceptance in writing of any
-proposed change to his Quality Control system.
-
-**Purpose**
-
-This QMP has been developed to evaluate Vendor actions while
-implementing this \[PWS or SOO\]. It is designed to provide an effective
-surveillance method of monitoring Vendor performance for each listed
-deliverable. By employing a fully developed QMP, the Government and the
-Vendor achieve an understanding of performance expectations and how
-performance will be measured against those expectations.
-
-The QMP is designed to define roles and responsibilities, identify the
-performance objectives, define the methodologies used to monitor and
-evaluate the contractor’s performance, describe quality assurance
-reporting, and describe analysis of quality assurance monitoring
-results.
-
-The goals for the quality management plan are to provide the best means
-to ensure contract standards and deliverables meet their stated
-requirements and project management processes are appropriately followed
-to maintain a high metric of performance and quality.
-
-**Performance Management Strategy**
-
-The contractor’s internal quality control system will set forth the
-staffing and procedures for self inspecting the quality, timeliness,
-responsiveness, customer satisfaction, and other performance
-requirements in the PWS. The contractor will utilize its internal
-quality control system to assess and report their performance to the
-designated Government representative.
-
-The Government representative will monitor performance and review
-performance reports furnished by the contractor to determine how the
-contractor is performing against communicated performance objectives.
-The Government will make decisions based on performance measurement
-metric data and notify the contractor of those decisions. The contractor
-will be responsible for making required changes in processes and
-practices to ensure performance is managed effectively.
-
-**Roles and Responsibilities**
-
-The Contracting Officer (CO) is responsible for monitoring contract
-compliance, contract administration and cost control; and resolving any
-differences between the observations documented by the Contracting
-Officer’s Representative (COR) and the contractor’s performance.
-
-The CO will designate one full-time COR as the Government authority for
-performance management. The number of additional representatives serving
-as Technical Inspectors, such as respective Product Owner(s), depends
-upon the complexity of the services measured as well as the contractor’s
-performance.
-
-The COR is responsible for monitoring, assessing, and communicating the
-technical performance of the contractor and assisting the contractor.
-The COR will have the responsibility for documenting the inspection and
-evaluation of the contractor’s work performance. Government surveillance
-may occur under the Inspection of Services clause for any services
-relating to the contract.
-
-**Performance Management Approach**
-
-The performance-based \[PWS or SOO\] structures the acquisition around
-“what” services are required as opposed to “how” the contractor should
-perform the work. This QMP will define the performance management
-approach taken by the \[agency name\] to monitor, manage, and take
-appropriate action on the contractor’s performance against expected
-outcomes or performance objectives communicated in the \[PWS or SOO\].
-Performance management rests upon developing a capability to review and
-analyze information generated through performance metrics. The ability
-to make decisions based on the analysis of performance data is the
-cornerstone of performance management. The data generated in a
-performance management approach provides information that indicates
-whether or not expected outcomes for required services are being
-achieved adequately by the contractor.
-
-Performance management also represents a significant shift from the more
-traditional Quality Assurance (QA) concepts in several ways. Performance
-management focuses on assessing whether or not outcomes are being
-achieved and migrates away from scrutiny on compliance with the
-processes and practices used to achieve the outcome. The only exceptions
-to process reviews are those required by law (Federal, State, and local)
-and compelling business situations such as safety and health. An outcome
-focus provides the contractor flexibility to continuously improves and
-innovate over the course of the contract as long as the critical
-outcomes expected are being achieved at the desired levels of
-performance.
-
-**Performance Management Strategy**
-
-The contractor’s internal quality control system will set forth the
-staffing and procedures for self inspecting the quality, timeliness,
-responsiveness, customer satisfaction, and other performance
-requirements in the PWS. The contractor will utilize its internal
-quality control system to assess and report their performance to the
-designated Government representative.
-
-The Government representative will monitor performance and review
-performance reports furnished by the contractor to determine how the
-contractor is performing against communicated performance objectives.
-The Government will make decisions based on performance measurement
-metric data and notify the contractor of those decisions. The contractor
-will be responsible for making required changes in processes and
-practices to ensure performance is managed effectively.
-
-**Quality Assurance Surveillance Plan**
-
-The Vendor shall develop and maintain effective quality assurance
-metrics to ensure services are performed in accordance with this Task
-Order and include the Quality Assurance metrics either within the
-Quality Metrics Table or as an attachment to this QMP with their quote.
-The focus of quality assurance is on the processes used to deliver.
-Quality assurance ensures that processes are used effectively to produce
-quality project deliverables. It involves following and meeting
-standards, continuously improving project work, and correcting project
-defects.
-
-**Quality Control Plan**
-
-The Vendor shall develop and maintain effective quality control metrics
-to ensure services are performed in accordance with this Task Order and
-include the Quality Control metrics either within the Quality Metrics
-Table or as an attachment to this QMP with their quote. The Vendor shall
-develop and implement procedures to identify, prevent, and ensure
-non-recurrence of defective services. The Vendor’s quality control plan
-is the means by which the Vendor assures that their work complies with
-the requirement of the contract.
-
-The focus of quality control is on the deliverables of the project.
-Quality control monitors project deliverables to verify that the
-deliverables are of acceptable quality and the customer is satisfied.
-
-**Evaluation Methods**
-
-The methods of evaluating Vendor compliance may vary depending on the
-PWS. The COR is responsible for selection of the method(s) to be used
-and the specific detailing of the method(s). The following describes
-alternative methods of observation:
-
-**100 Percent Evaluation**
-
-This is the appropriate method of evaluating infrequent tasks or tasks
-with stringent performance requirements, e.g., where safety or health is
-a concern. With this method, performance is inspected/evaluated at each
-occurrence. One hundred percent inspection is too expensive to be used
-in most cases.
-
-**Random Review**
-
-This is an appropriate method of surveillance for recurring tasks.
-Random sampling works best when the number of instances of the services
-being performed is very large and a statistically valid sample can be
-obtained.
-
-**Customer or Other Government Feedback**
-
-Customer feedback can come from interaction with the general public or
-through interaction with Government employees and other Government
-Offices/Agencies. Although usually not a primary method, this is a
-valuable supplement to more systematic methods. For example, in a case
-where random sampling indicates unsatisfactory service, customer
-complaints can be used as substantiating evidence. In certain situations
-where customers can be relied upon to complain consistently when the
-quality of performance is poor, e.g., dining facilities, building
-services; customer surveys and customer complaints may be a primary
-surveillance method.
-
-**Performance Criteria**
-
-**Acceptable Performance**
-
-Acceptable performance meets the specified standard and does not exceed
-the allowable deviation. The Government may conduct trend analysis of
-surveillance results to increase or decrease the level of surveillance
-for specific requirements.
-
-**Unacceptable Performance**
-
-Unacceptable performance does not meet the specified standard and
-exceeds the allowable deviation/acceptable quality level. The contractor
-may receive deductions or even termination based on failure to perform/
-deliver at the acceptable quality level. The following criteria apply
-for determining appropriate action:
-
-> 1\. *Notifications.* Consistent with FAR Part 49, the CO shall notify the
-> service provider of failure to meet standards through quality
-> performance monitoring forms, cure notices, or show cause notices and
-> shall inform the service provider project manager or designated
-> alternate of such notices.
->
-> 2\. *Deductions.* The Government has the right to withhold a percentage
-> or value of payment of the iteration cost for performing particular
-> services based on failure to meet performance standards/metrics. The
-> percentage or value of such withholdings is identified in the Quality
-> Measures/Metrics table.
->
-> 3\. *Termination.* If the CO determines that the contractor has failed to
-> perform to the extent that a termination for default is justified, the
-> CO shall issue a notice of termination, consistent with FAR Part 49.
->
-> 4\. *Government Remedies.* “The Government Contracting Officer shall
-> follow FAR 52.212-4, “Contract Terms and Conditions-Commercial Items”
-> for Vendor’s failure to perform satisfactory services or failure to
-> correct non-conforming services.”
-
-**Performance Criteria Quality Measures / Metrics**
-
-**QUALITY MEASURES / METRICS**
-
-| Process/Deliverable | Delivery/Performance Standards | Allowable Deviation/Acceptable Quality Level | Method of Assessment | Date/Schedule | Iteration Payment Impact |
-|---------------------------------------------------------------------------------------|---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-|  Instructions: Indicate Tasks from SOO.   Please add any additional tasks, as needed. | Instructions: Indicate expectations or standards. | Instructions: Indicate “none” if there is no allowable deviation or e.g., “100% of calendar arrangements are correctly processed within 6 days”, or “2 day slippage allowance from due date”, etc. | Instructions: Indicate how often this task will be reviewed, e.g., “Random review”, “100% review”, or “Quarterly review”, etc. | Instructions: Indicate when the task is due with a specific date or e.g., “On-going”, “daily”, “quarterly”, etc. | Instructions: Indicate what the associated impact to payment of iteration is or if not applicable |
-|TO BE COMPLETED/PROPOSED BY QUOTER|  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-{: .table style="font-size:15px"}
-
-## Additional Quality Metrics Table Template from [*18F*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
-
-Here is an example of a Quality Metrics Table that includes a QASP.
-[*Source*](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
-
-
-|  Deliverable | Performance Standard(s) | Acceptable Quality Level | Method of Assessment |
-| --- | --- | --- | --- |
-|  Tested Code | Code delivered under the order must have substantial test code coverage and a clean code baseVersion-controlled, public repository of code comprising the product, which will remain in the government domain | Minimum of 90% test coverage of all code | Combination of manual review and automated testing |
-|  Properly Styled Code | [GSA 18F Front-End Guide](https://frontend.18f.gov/) | 0 linting errors and 0 warnings | Combination of manual review and automated testing |
-|  Accessibility | Web Content Accessibility Guidelines 2.1 AA standards | 0 errors reported using an automated scanner, and 0 errors reported in manual testing | [Pa11y](https://github.com/pa11y/pa11y) |
-|  Deployed | Code must successfully build and deploy into staging environment | Successful build with a single command | Combination of manual review and automated testing |
-|  Documented | All dependencies are listed and the licenses are documented. Major functionality in the software/source code is documented. Individual methods are documented inline using comments that permit the use of documentation-generation tools such as [JSDoc](http://usejsdoc.org/). A system diagram is provided | Combination of manual review and automated testing, if available | Manual review |
-|  Security | [OWASP Application Security Verification Standard 4.0, Level 2](https://www.owasp.org/images/d/d4/OWASP_Application_Security_Verification_Standard_4.0-en.pdf) | Code submitted must be free of medium- and high-level static and dynamic security vulnerabilities | Clean tests from a static testing SaaS (such as [npm audit](https://docs.npmjs.com/cli/audit)) and from [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), along with documentation explaining any false positives |
-|  User research | Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end) | Artifacts from usability testing and/or other research methods with end users are available at the end of every applicable sprint, in accordance with the vendor’s research plan | Manual review |
-{: .table}
-
 Appendix C: Examples of TEP rating systems
 ------------------------------------------
 
@@ -269,7 +15,7 @@ to be made.
 
 ## Confidence Factors
 
-A confidence rating system reflected the government’s confidence on
+A confidence rating system reflected the government's confidence on
 whether a vendor will be able to successfully build the product based on
 the proposal submitted.
 
@@ -310,6 +56,15 @@ corrected; no deficiencies exist.
 **Unacceptable:** Fails to meet the minimum requirements of the
 criteria; contains multiple significant weaknesses or one or more.
 
+
+
+
+
+
+
+
+
+
 Appendix D: Example Design Challenges
 -------------------------------------
 
@@ -345,7 +100,7 @@ subsequent changes to modernize it, must take into consideration the
 flexibility that is required to quickly react to these types of changes
 so that business is not interrupted.
 
-This work is fundamental to the agency’s mission and will require teams
+This work is fundamental to the agency's mission and will require teams
 that can take pragmatic steps toward modernizing the legacy systems as
 well as supporting new payment workflows in the future. Due to the
 complexity of the work, teams must be comfortable with requirements that
@@ -364,7 +119,7 @@ modernization of this system:
 -   Integration: systems involved in making payments, and other CMS
     business functions, need the option to use modern technology to
     interact with the current state of the legacy system.
--   Usability: users’ interaction with the legacy system need to easily
+-   Usability: users' interaction with the legacy system need to easily
     identify and extract the exact data they need, when they need it.
 
 With the goals provided and as part of this design challenge, CMS wishes
@@ -375,7 +130,7 @@ Because the existing system is so large and has many groups that are
 involved with maintaining it, there are competing business needs that
 will require prioritizing development work. Knowing what to immediately
 modernize can change based on shifting business requirements. These
-potential changes shouldn’t impact the longer-term vision of the
+potential changes shouldn't impact the longer-term vision of the
 modernization effort.
 
 The business owners of the current system have identified modules that
@@ -384,7 +139,7 @@ the mainframe to support existing payment methodologies, Other business
 owners are developing new payment methodologies and would like the new
 system to be flexible enough to accommodate both existing and new
 methods simultaneously. CMS executives want to understand both why and
-how the work that you’ve chosen to do accomplishes the project’s goals
+how the work that you've chosen to do accomplishes the project's goals
 that CMS has provided and the vision that you have created.
 
 **Business Owner 1:** In order to support existing fee-for-service
@@ -399,7 +154,7 @@ planning, developing, testing, and deploying. The business owner wishes
 to make changes to the pricer that can be pushed out to production in a
 much more rapid cadence.
 
-These files don’t have the most extensive testing associated with them.
+These files don't have the most extensive testing associated with them.
 CMS policy should have the expected outputs based on inputs but because
 they are removed from the development lifecycle, their inputs/outputs
 may or may not match what was actually development. You should plan for
@@ -421,12 +176,22 @@ workflow.
 
 **Deliverables**
 
-You are to prioritize the above business owners’ needs with your
+You are to prioritize the above business owners' needs with your
 deliverables and provide justifications for decisions made. These
 decisions should be in sync with your proposed long-term vision for this
 system. CMS is looking to you to provide software artifacts that deliver
 on the business needs and support those artifacts with research, design,
 and product roadmaps.
+
+
+
+
+
+
+
+
+
+
 
 Appendix E: Sample Analysis of Procurement Options
 --------------------------------------------------
@@ -448,7 +213,7 @@ this effort for the next 5-10 years. ***Setting up the correct
 contracting strategy has the largest impact on the probability of
 success on this effort***. The FISS system is the initial target for
 proof of concepts to be transitioned into production, this effort
-shouldn’t be limited to just that system. This is a unique opportunity
+shouldn't be limited to just that system. This is a unique opportunity
 to synthesize diverse Medicare payment systems. Including the following:
 
 * Common Working File (CWF)
@@ -477,9 +242,9 @@ Modernization effort to have the greatest probability of success?
 
 ***SPARC***
 
-OIT at CMS has an existing IDIQ, SPARC, that is the agency’s answer to
+OIT at CMS has an existing IDIQ, SPARC, that is the agency's answer to
 agile, waterfall, and hybrid development methodologies. This vehicle has
-a \$25B ceiling that houses over 140 different vendors. Its goal is to
+a $25B ceiling that houses over 140 different vendors. Its goal is to
 be the one-stop shop for agency development. There are certainly
 advantages to leveraging work already completed as well as drawbacks to
 leveraging a generic development contacting vehicle.
@@ -522,7 +287,7 @@ consideration.
 
 |  Pros | Cons |
 | :--- | :--- |
-|  Targeted competition possible; however, must provide RFQ to any company requesting it | Vendors are not tailored to the project’s specific goals. |
+|  Targeted competition possible; however, must provide RFQ to any company requesting it | Vendors are not tailored to the project's specific goals. |
 |  Ability to reach new contractors who have entered the market for initial competition | Initial award and any calls are protestable |
 |  BPA holders will be specifically selected based upon demonstrated ability to develop and deploy digital services using agile methodologies, user centered design and DevOps. | New umbrella contract vehicle is resource intensive versus placing individual orders against existing contract vehicles |
 |  Could receive OMB designation as a SUM vehicle but requires mandatory use policy and other reporting requirements | If significant overlap to existing SUM/BIC vehicle, modified business case to OMB required |
@@ -549,7 +314,7 @@ necessary.
 
 |  Pros | Cons |
 | :--- | :--- |
-|  The vendors are tailored to the project’s needs | Initial award and any calls are protestable |
+|  The vendors are tailored to the project's needs | Initial award and any calls are protestable |
 |  Contracts can be issued as new problems or requirements are encountered. | Multiple program specific BPAs are resource intensive for the agency to award and manage |
 |  Smaller pool of specialized vendors. | If the vendors are smaller companies, there is risk of being unable to meet the needs of the total work necessary for the project. |
 |  The pool of vendors all become domain experts as the project matures. | If significant overlap to existing SUM/BIC vehicle, modified business case to OMB required |
@@ -684,6 +449,14 @@ size of the proposal that needs to be reviewed with each task order.
 |  ADELE BPA | Agile methodologies. Digital Service requirements. |
 {: .table}
 
+
+
+
+
+
+
+
+
 Appendix F: Sample Statement of Objectives
 ------------------------------------------
 
@@ -705,7 +478,7 @@ functionality to keep up with the constant innovations in Medicare, the
 inflexibility of the shared systems that are responsible for claims
 processing will continue to grow as a barrier to innovation if not
 addressed. The shared systems, as the system that processes
-approximately 1.2 billion claims a year, worth close to \$400 billion
+approximately 1.2 billion claims a year, worth close to $400 billion
 dollars, must be able to change to meet the needs of the future, without
 disruption to the critical services provided in the present.
 
@@ -737,20 +510,20 @@ utilization history, and pre-payment validation from that perspective.
 Together, these four systems form the key core of systems which
 determine if and how Medicare claims are paid out. These systems are
 currently hosted on the CMS Virtual Data Centers (VDCs) and consist of
-COBOL programs running on IBM z/OS mainframes in IBM’s Customer
+COBOL programs running on IBM z/OS mainframes in IBM's Customer
 Information Control System (CICS) environment. The primary users of
 these systems are the Medicare Administrative Contractors (MACs), who
 are responsible for receiving and processing claims from healthcare
 providers in a timely and efficient manner. The MACs interface with the
 shared systems through green-screen terminal interactions, and via
 flat-file uploads and downloads from the shared systems. In addition,
-each of the MACs has built their own ‘mid-tier’ systems, which are
+each of the MACs has built their own ‘mid-tier' systems, which are
 proprietary systems designed to handle the workload and interface with
 the shared systems.
 
 The ongoing modernization effort is an attempt to take an incremental
 approach to modernization – it focuses on finding portions or aspects of
-the shared systems which may be good ‘proof of concepts’ for a
+the shared systems which may be good ‘proof of concepts' for a
 particular goal, and then setting a team to achieve that goal. The goals
 of modernization are plentiful and varied, but they include updating the
 languages and tools to current industry standards to allow the system to
@@ -771,7 +544,7 @@ systems are going to keep up with the pace of innovation in Medicare in
 the long-term, allowing the system to adapt to needs five, ten, or
 twenty years in the future that are impossible to predict now, we must
 develop strategies for making substantial changes and improvements to
-the system quickly. At this point in time, we don’t have the experience
+the system quickly. At this point in time, we don't have the experience
 to predict and plan changes at that scale, and so our focus is on
 delivering and learning from smaller scale proof of concepts. We expect
 these proof of concepts, though they start at a small scale, to form the
@@ -890,7 +663,7 @@ model which is actively monitored and updated
 * Help navigate security compliance process to ensure efficient
 delivery of updates on a regular schedule, for example gaining
 approval of necessary Security Impact Analyses and supporting the
-aspects of the shared systems’ Security Control Assessments impacted
+aspects of the shared systems' Security Control Assessments impacted
 by this work
 
 ## **Join and participate in selection, design, development, and deployment of proof of concepts and production modernization modules**
@@ -923,7 +696,7 @@ looking for a robust collaboration between these two groups, leveraging
 the existing strengths of both groups and providing opportunities for
 each group to learn from the other.
 
-While we don’t expect expertise with Medicare claims processing or the
+While we don't expect expertise with Medicare claims processing or the
 shared systems, as Perspecta will be primarily providing that, some
 prior experience with Medicare claims data or processing would be
 valuable for this team to have to enable a smoother integration and
@@ -984,7 +757,7 @@ the regular, efficient deployment of modernized modules to production
 
 ## Collaboration with existing groups
 
-We expect this team’s work to be highly collaborative. The team will be
+We expect this team's work to be highly collaborative. The team will be
 joining a preexisting modernization effort undertaken by several groups
 within CMS, a USDS team, as well as a team already highly familiar with
 the shared systems. The Modern Payment Services teams should identify
@@ -996,8 +769,8 @@ below and specific expectations around each.
 ### CMS FFS Modernization Team (OIT/AMG, CM/PBG, CM/MCMG, USDS)
 
 The existing CMS FFS Modernization team consists of stakeholders from
-the Office of Information Technology’s Applications Management Group and
-Center for Medicare’s Provider Billing Group and Medicare Contractor
+the Office of Information Technology's Applications Management Group and
+Center for Medicare's Provider Billing Group and Medicare Contractor
 Management Group, as well as members of the U.S. Digital Service at HHS
 team. These CMS stakeholders serve both as the leadership and product
 management team for the FFS modernization effort and are responsible for
@@ -1011,7 +784,7 @@ expert advice on upcoming decisions or project direction.
 
 ### USDS Individual Contributors
 
-In addition to USDS’ role as part of the CMS FFS Modernization team,
+In addition to USDS' role as part of the CMS FFS Modernization team,
 members of USDS are also serving in a number of roles as individual
 contributors. This includes writing code, doing user research, and
 generally participating in the FFS Modernization sprints as part of the
@@ -1043,7 +816,7 @@ We expect the Modern Payment Services Application and Research team to
 join as team members onto one or more of the existing proof of concept
 teams with Perspecta, to provide complementary expertise and perspective
 on the modernization effort. Together, we expect that this team will
-build proof of concepts that serve CMS’s modernization goals, and that
+build proof of concepts that serve CMS's modernization goals, and that
 are turned into production-ready modules that are actually deployed,
 providing real value to providers, beneficiaries, MACs, and other CMS
 stakeholders. We also expect that this team will join with Perspecta to
@@ -1126,7 +899,7 @@ One of the key benefits of modernizing the FFS Shared Systems is that it
 will enable the MACs to improve the quality and efficiency of the
 services that they provide to Medicare FFS providers and other claim
 submitters, by enabling more real-time system-to-system interfaces
-between the MACs’ internal systems and CMS’s shared systems.
+between the MACs' internal systems and CMS's shared systems.
 
 We expect the Modern Payment Services Application and Research Team,
 jointly with the existing Maintainer Modernization Team to research and
