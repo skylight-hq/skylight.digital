@@ -5,13 +5,13 @@ permalink: /work/toolkits/agile-procurement-playbook/
 sidenav: agile_procurement_playbook
 ---
 
-# Agile Procurement Handbook
+# Introduction
 
-## Purpose of this handbook
+## Purpose of this playbook
 
-The purpose of this handbook is to introduce an agile procurement model for software services, cover how it differs from some of the more traditional procurement plays, and introduce an iterative roadmap on transitioning toward a more agile procurement environment. While the handbook can help government contracting teams strategize on new procurements, the information within is best treated as a collection of helpful suggestions rather than strict guidance.
+The purpose of this playbook is to introduce an agile procurement model for software services, cover how it differs from some of the more traditional procurement plays, and introduce an iterative roadmap on transitioning toward a more agile procurement environment. While the handbook can help government contracting teams strategize on new procurements, the information within is best treated as a collection of helpful suggestions rather than strict guidance.
 
-### Intended audience
+## Intended audience
 
 An agile procurement strategy includes stakeholders that traditionally might not have had a seat at the table during a product's initial planning phases. Because the strategy requires a greater understanding of a product's objectives along with the adoption of a modular contracting approach, the following roles will need to have early input on new products that'll be requiring procurements:
 

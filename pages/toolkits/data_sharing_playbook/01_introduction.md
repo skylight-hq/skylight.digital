@@ -5,7 +5,7 @@ permalink: /work/toolkits/data-sharing-playbook/
 sidenav: data_sharing_playbook
 ---
 
-# About the Data Sharing Playbook
+# Introduction
 
 In this playbook, we lay out strategies that will help government agencies share data safely, securely, and ethically. The strategies are focused on interagency data sharing, although many practices will also benefit sharing data with the public.
 
