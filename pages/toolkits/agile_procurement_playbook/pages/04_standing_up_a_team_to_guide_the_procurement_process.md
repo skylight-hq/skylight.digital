@@ -37,9 +37,9 @@ This team member is an expert in your agency's contracting methods. They work cl
 
 A user researcher will help the team identify, understand, and prioritize the knowledge gaps that you'll need to fill. With all products, there are:
 
--   Known knowns
--   Known unknowns
--   Unknown unknowns (most dangerous)
+- Known knowns
+- Known unknowns
+- Unknown unknowns (most dangerous)
 
 If a product is large, there are going to be gaps of understanding in areas of research, design, and development. The user researcher will work with the product owner to define the initial steps to incorporate into procurement requirements.
 
