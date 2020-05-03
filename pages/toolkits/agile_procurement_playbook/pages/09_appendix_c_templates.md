@@ -71,7 +71,7 @@ This is an appropriate method of surveillance for recurring tasks. Random sampli
 
 Customer feedback can come from interaction with the general public or through interaction with Government employees and other Government Offices/Agencies. Although usually not a primary method, this is a valuable supplement to more systematic methods. For example, in a case where random sampling indicates unsatisfactory service, customer complaints can be used as substantiating evidence. In certain situations where customers can be relied upon to complain consistently when the quality of performance is poor (for example, dining facilities, building services), customer surveys and customer complaints may be a primary surveillance method.
 
-**Performance Criteria**
+**PERFORMANCE CRITERIA**
 
 **Acceptable Performance**
 

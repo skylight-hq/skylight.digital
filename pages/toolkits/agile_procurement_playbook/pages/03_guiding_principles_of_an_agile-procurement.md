@@ -49,9 +49,9 @@ The process of modular contracting matches the natural work streams that arise o
 
 **Agile procurement approach**:
 
--   Recognize the complexity of the task (moving DMV services online)
--   Identify the different components necessary to accomplish the goal &mdash; things like cloud infrastructure, research and design, and backend development
--   Break up the product into discrete parts as they become known, and use modular contracts to procure services against those
+- Recognize the complexity of the task (moving DMV services online)
+- Identify the different components necessary to accomplish the goal &mdash; things like cloud infrastructure, research and design, and backend development
+- Break up the product into discrete parts as they become known, and use modular contracts to procure services against those
 
 There are many benefits to using a modular contracting strategy:
 
