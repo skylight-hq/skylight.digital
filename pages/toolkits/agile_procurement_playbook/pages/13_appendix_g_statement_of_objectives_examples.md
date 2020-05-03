@@ -7,7 +7,7 @@ sidenav: agile_procurement_playbook
 
 # Appendix G: Statement of Objectives examples
 
-## Modern Payment Services for the Medicare Fee for Service (FFS) Program Statement of Objectives (SOO)
+## Example #1: Modern Payment Services for the Medicare Fee for Service (FFS) Program Statement of Objectives (SOO)
 
 ###  Overview and background information
 
