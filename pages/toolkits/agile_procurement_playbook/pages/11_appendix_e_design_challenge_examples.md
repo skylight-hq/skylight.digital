@@ -9,7 +9,7 @@ sidenav: agile_procurement_playbook
 
 Typically a design challenge should resemble the type of work that the government hopes to procure. This can take a variety of forms, from working software proof-of-concepts to visual artifacts that include user personas and journey maps to examples of what product development would look like through various tools such as Jira and Confluence. It's important that the [Technical Evaluation Panel](/work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement#technical-evaluation-panel-tep) has a cross representation of digital experts to evaluate the vendor technical solutions for best practices.
 
-## MPSM design challenge
+## Example #1: MPSM design challenge
 
 Here's an example of a recent [design challenge]((https://fcw.com/blogs/lectern/2019/07/kelman-non-traditional-contractors.aspx)) put on by the Centers for Medicare & Medicaid Services (CMS) for its [Medicare Payment System Modernization](https://usds.gov/projects/medicare-payment-program) (MPSM) initiative:
 
