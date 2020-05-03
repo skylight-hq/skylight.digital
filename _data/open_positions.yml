@@ -2,6 +2,7 @@
 # - title: Experienced DevOps Engineer
 #   url: https://skylight.workable.com/jobs/604049
 #   location: Washington DC
+#   summary: Save lives
 #   order: 10
 
 # Categories:
@@ -12,24 +13,29 @@
   url: https://skylight.workable.com/jobs/1128366
   category: Design
   location: Remote
+  summary: We're anticipating the need to hire multiple UX designers to work on projects for agencies, such as the U.S. Department of Health and Human Services and the U.S. Air Force, within the coming months.
   order: 10
 - title: Product Manager
   url: https://skylight.workable.com/jobs/1083508
   category: Product
   location: Remote
+  summary: We're anticipating the need to hire 1&ndash;2 product managers to work on projects for agencies, such as the U.S. Department of Health and Human Services and the U.S. Air Force, within the coming months.
   order: 20
 - title: Sofware Engineer
   url: https://skylight.workable.com/jobs/1083190
   category: Engineering
   location: Remote
+  summary: We're anticipating the need to hire multiple software engineers to work on projects for agencies, such as the U.S. Department of Health and Human Services and the U.S. Air Force, within the coming months.
   order: 30
 - title: DevOps Engineer
   url: https://skylight.workable.com/jobs/1083314
   category: Engineering
   location: Remote
+  summary: Help the Conneticut Office of Early Childhood ship software with speed, stability, and security.
   order: 40
 - title: Vice President of Delivery Excellence
   url: https://apply.workable.com/skylight/j/2D3D1B7688/
   category: Business Strategy & Operations
   location: Remote
+  summary: Make Skylight the premiere provider of digital government consulting services.
   order: 50
