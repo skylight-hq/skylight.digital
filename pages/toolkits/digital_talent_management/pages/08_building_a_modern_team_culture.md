@@ -8,7 +8,7 @@ sidenav: digital_talent_management
 # Building a modern team culture
 
 <blockquote class="post-blockquote">
-<p>"Culture eats strategy for breakfast"</p>
+<p>"Culture eats strategy for breakfast."</p>
 <cite><strong>Peter Drucker</strong></cite>
 </blockquote>
 
