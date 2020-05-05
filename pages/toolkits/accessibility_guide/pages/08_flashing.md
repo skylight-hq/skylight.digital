@@ -1,8 +1,7 @@
 ---
 title: Flashing
-description: 'How we deal with flashing'
+description: "How we deal with flashing"
 permalink: /work/toolkits/accessibility-guide/flashing/
-page_title: Flashing
 layout: toolkit
 sidenav: accessibility_guide
 scripts:
@@ -10,9 +9,9 @@ scripts:
 ---
 Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element, there are a few things to consider.
 
-### Testing
+## Testing
 
-* Failure at any step below constitutes a 508 compliance issue.
+Failure at any step below constitutes a 508 compliance issue.
 
 1. Look for elements that contain flashing.
   * Scrolling or blinking text
@@ -22,7 +21,7 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 2. Check if you can determine the frequency of "flashing."
 3. Check that the rate of flashing is less than 3 Hz (3 times a second), or scroll delay is set to >= 400.
 
-### Examples
+## Examples
 
 #### Fails
 <button type='button' id='blinkbutton'>Click to see non-compliant flashing</button>
