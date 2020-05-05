@@ -24,7 +24,7 @@ Failure at any step below constitutes a 508 compliance issue.
 ## Examples
 
 #### Fails
-<button type='button' id='blinkbutton'>Click to see non-compliant flashing</button>
-<span class='blink' style='display:none;'>This text is blinking</span>
+<button type="button" id="blinkbutton">Click to see non-compliant flashing</button>
+<span class="blink" style="display:none;">This text is blinking</span>
 
 > This blinking text fails because the rate of flashing can't be determined and its greater than 3 Hz.

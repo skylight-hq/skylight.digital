@@ -1,6 +1,6 @@
 ---
 title: Keyboard access
-description: 'How we work with keyboards only'
+description: "How we work with keyboards only"
 permalink: /work/toolkits/accessibility-guide/keyboard/
 layout: toolkit
 sidenav: accessibility_guide
@@ -60,7 +60,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 
 > Avoid using tabindex of >= 1 as this will disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
 
-<h4 id='keyboard-trap'>Keyboard Trap</h4>
+<h4 id="keyboard-trap">Keyboard Trap</h4>
 
 <a class="sr-only moveFocus" href="#">hidden</a>
 
