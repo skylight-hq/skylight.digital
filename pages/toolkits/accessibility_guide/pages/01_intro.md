@@ -5,6 +5,8 @@ permalink: /work/toolkits/accessibility-guide/
 sidenav: accessibility_guide
 ---
 
+# Introduction
+
 Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And least of all, it's required by law for all federal EIT (electronic information technology) products to be accessible (with a few minor exceptions).
 
 Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost effective. The best and perhaps only way to ensure this is done is training and education. Every member of a production team should be aware of what accessibility concerns are and have a basic understanding of how they're addressed.
@@ -30,6 +32,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [Windows NVDA Screenreader](https://www.nvaccess.org/download/) &mdash; free tool for testing non-visual access
 
 ### Browser-based Testing Tools
+
 * [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) &mdash; browser plugin for automated and guided-manual testing for accessibility, including WCAG 2.0 and 2.1
 * [Firefox: WCAG Contrast Checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) &mdash; browser plugin for evaluating CSS color contrast
 * [Chrome: Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) &mdash; browser plugin for evaluating color contrast, including images and gradients
@@ -39,6 +42,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) &mdash; open-source bookmarklet tool for analyzing a page's HTML source and detects coding-standard violations
 
 ### Government Sites and Tutorials
+
 * [Section 508](https://section508.gov/)
 * [Accessibility for Teams](https://accessibility.digital.gov/)
 * [Skylight Accessibility Checklist](./checklist/)
@@ -56,6 +60,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
 ### Misc. Sites and Tutorials
+
 * [Inclusive Components](https://inclusive-components.design/)
 * [WebAIM's Blog](http://webaim.org/blog/)
 * [The Accessibility Project](http://a11yproject.com/)
