@@ -7,7 +7,7 @@ sidenav: agile_procurement_playbook
 
 # Appendix E: Design challenge examples
 
-Typically a design challenge should resemble the type of work that the government hopes to procure. This can take a variety of forms, from working software proof-of-concepts to visual artifacts that include user personas and journey maps to examples of what product development would look like through various tools such as Jira and Confluence. It's important that the [Technical Evaluation Panel](/work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement#technical-evaluation-panel-tep) has a cross representation of digital experts to evaluate the vendor technical solutions for best practices.
+Typically a design challenge should resemble the type of work that the government hopes to procure. This can take a variety of forms, from working software proof-of-concepts to visual artifacts that include user personas and journey maps to examples of what product development would look like through various tools such as Jira and Confluence. It's important that the [Technical Evaluation Panel](../phases-of-an-agile-procurement#technical-evaluation-panel-tep) has a cross representation of digital experts to evaluate the vendor technical solutions for best practices.
 
 ## Example #1: MPSM design challenge
 

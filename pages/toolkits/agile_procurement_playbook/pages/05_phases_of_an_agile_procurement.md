@@ -18,9 +18,9 @@ The phases of an agile procurement are flexible, but they typically follow this 
 
 Another approach would be to use these key questions to guide the process:
 
-- [What is the scope of the project? What are the key deliverables?](/work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement#aligning-on-goals-and-strategy)
-- [What are the objectives and milestones? How frequent are they?](/work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement#drafting-a-statement-of-objectives-versus-a-statement-of-work)
-- [What are the performance metrics defined in the contract?](/work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement#quality-management-plan-qmp) (For example, response time, system uptime, time period to address priority issues.)
+- [What is the scope of the project? What are the key deliverables?](../phases-of-an-agile-procurement#aligning-on-goals-and-strategy)
+- [What are the objectives and milestones? How frequent are they?](../phases-of-an-agile-procurement#drafting-a-statement-of-objectives-versus-a-statement-of-work)
+- [What are the performance metrics defined in the contract?](../phases-of-an-agile-procurement#quality-management-plan-qmp) (For example, response time, system uptime, time period to address priority issues.)
 
 ## Defining the goals and objectives
 
@@ -123,7 +123,7 @@ A QMP ensures that the government and vendor have a clear, common understanding 
 
 Much of the QMP can be captured in a single table. The vendor will have to come up with most &mdash; if not all &mdash; of the performance metrics they're to be measured on.
 
-For a Quality Management Plan template, refer to [Appendix C](/work/toolkits/agile-procurement-playbook/appendix-c-templates#quality-metric-plan-template).
+For a Quality Management Plan template, refer to [Appendix C](../appendix-c-templates#quality-metric-plan-template).
 
 #### Quality Assurance Surveillance Plan (QASP)
 
@@ -163,7 +163,7 @@ The check-ins can be remote/call-in meetings if that's more practical. While it'
 
 In the federal procurement process, it's common to have a technical evaluation panel (TEP) select the winning proposal.
 
-A TEP is a group of subject matter experts (SMEs) from the agency/government that reviews each proposal's non-price merits and ultimately makes a selection and recommendation to the acquisition office for awarding the contract. Following receipt of quotes, the TEP will perform an analysis on a factor-by-factor basis, noting the positive and negative aspects of each proposal, and assigning each proposal a score based on [an agreed upon method](/work/toolkits/agile-procurement-playbook/appendix-d-tep-rating-system-examples/).
+A TEP is a group of subject matter experts (SMEs) from the agency/government that reviews each proposal's non-price merits and ultimately makes a selection and recommendation to the acquisition office for awarding the contract. Following receipt of quotes, the TEP will perform an analysis on a factor-by-factor basis, noting the positive and negative aspects of each proposal, and assigning each proposal a score based on [an agreed upon method](../appendix-d-tep-rating-system-examples/).
 
 SMEs are experts in research, design, engineering, or any other subject. These individuals may have years of experience in private industry or be active individual contributors for their respective discipline on government projects. Make sure that the designated SMEs are actually SMEs. They'll have the ability to provide in-depth analysis on design challenge submissions and be able to back that analysis with industry research and best practices.
 
@@ -180,7 +180,7 @@ The down-select is a phase in the procurement lifecycle that requires the evalua
 
 When the government gives transparent feedback to vendors throughout the process &mdash; including when some proposals have a low probability of winning &mdash; this allows vendors to decide whether they want to put more time and resources into the procurement process. Without this feedback, vendors may feel like they might have wasted time and be understandably upset.
 
-The government can benefit through the terms/language in which it evaluates whether vendors are down-selected. [Appendix D](/work/toolkits/agile-procurement-playbook/appendix-d-tep-rating-system-examples/) provides an example of how the government can be transparent about the down-select criteria.
+The government can benefit through the terms/language in which it evaluates whether vendors are down-selected. [Appendix D](../appendix-d-tep-rating-system-examples/) provides an example of how the government can be transparent about the down-select criteria.
 
 ### Selection and award
 
