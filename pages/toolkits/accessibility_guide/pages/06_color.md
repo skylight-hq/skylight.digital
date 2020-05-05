@@ -2,19 +2,19 @@
 title: Color and contrast
 description: 'How we work with color and contrast'
 permalink: /work/toolkits/accessibility-guide/color/
-page_title: Color and contrast
 layout: toolkit
 sidenav: accessibility_guide
 ---
+
 There are two main accessibility concerns for color: contrast and color dependence. Color contrast is the ratio of the foreground color (text) and the background color. Text should have a ratio of 4.5:1 or greater with the background.
 
 Color dependence is the need to see color to understand the information. An example of this would be `The required fields are red.` Some users may not be able to distinguish red from other colors and would lack information to fill out this form.
 
-Links that only rely on color also fail this requirement. Links must be distinguished by more than just color (hue). Links can be distinguished by underlines, symbols, context (in a menu for example), or lightness. If the contrast between the surrounding text and a link is greater than 3:1, it's acceptable. Also note, the link text itself still needs to have a contrast ratio of 4.5:1 or greater with the background. [Read more information about link color dependence.](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F73)
+Links that only rely on color also fail this requirement. Links must be distinguished by more than just color (hue). Links can be distinguished by underlines, symbols, context (in a menu for example), or lightness. If the contrast between the surrounding text and a link is greater than 3:1, it's acceptable. Also note, the link text itself still needs to have a contrast ratio of 4.5:1 or greater with the background. [Read more information about link color dependence](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F73).
 
-### Testing
+## Testing
 
-#### Color contrast
+### Color contrast
 
 1. Using a [color contrast checker](http://www.paciellogroup.com/resources/contrastanalyser/), compare the color of the text with the color of the background.
 2. In situations where the color is a gradient or can't be determined programmatically, compare the lightest part of the text with the lightest part of the background using the color picker. Then compare the darkest part of the text with the darkest part of the background.
@@ -24,24 +24,24 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 **Note:** Logos, disabled form fields, and disabled buttons are **exempt** from this test and don't need to be tested for contrast.
 
-#### Color dependence
+### Color dependence
 
 1. Identify sections that use color to convey information.
 2. Check to see if the information is conveyed in another way visually and programatically.
 3. If links are only distinguished by color surrounded by normal text.
 4. Check if the link has a contrast ratio of 3:1 with the surrounding text.
 
-### Examples
+## Examples
 
-#### Failures
+### Failures
 
 <span style = "color:#58AA02">This text fails.</span>
 
-> This text fails because it's too light. The contrast ratio is (2.93:1).
+> This text fails because it's too light. The contrast ratio is 2.93:1.
 
 <span style = "color:#FFFFFF; background:#8D8E90">This text fails.</span>
 
-> This text fails because the background isn't dark enough. The contrast ratio is (3.28:1).
+> This text fails because the background isn't dark enough. The contrast ratio is 3.28:1.
 
 <span style="color:red;">Red text indicates a required field</span>
 
@@ -55,15 +55,15 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 > This fails because the contrast ratio between the link and surrounding text is less than 3:1.
 
-#### Passes
+### Passes
 
 <span style = "color:#458503">This text passes.</span>
 
-> This text passes. The contrast ratio is (4.56:1).
+> This text passes. The contrast ratio is 4.56:1.
 
 <span style = "color:#FFFFFF; background:#757679">This text passes.</span>
 
-> This text passes. The contrast ratio is (4.54:1).
+> This text passes. The contrast ratio is 4.54:1.
 
 <span style="color:red;">* indicates a required field</span>
 
