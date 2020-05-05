@@ -55,7 +55,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [WCAG](https://www.w3.org/TR/WCAG21/)
 * [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
 * [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
-* [Accessible Rich Internet Applications (ARIA) Documentation](https://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria)
+* [ARIA in HTML](https://www.w3.org/TR/html-aria/)
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
 ### Misc. sites and tutorials
