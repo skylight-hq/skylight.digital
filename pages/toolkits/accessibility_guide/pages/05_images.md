@@ -37,7 +37,7 @@ When using images on a page, you must provide an alternate method for that conte
 > Preferred method for providing alternate content.
 > Clear `alt` attribute with all text included.
 
----
+<hr>
 
 <img src="{{site.baseurl}}/images/sign.jpg" title="Warning do not read this sign">
 
@@ -48,7 +48,7 @@ When using images on a page, you must provide an alternate method for that conte
 > Acceptable, but less compatible with certain assistive technologies.
 > Clear title attribute with all text included. {{site.baseurl}}
 
----
+<hr>
 
 <img src="{{site.baseurl}}/images/sign.jpg" alt="">
 <span>Warning do not read this sign</span>
@@ -62,7 +62,7 @@ When using images on a page, you must provide an alternate method for that conte
 > In most instances, an `alt` attribute would be preferred.
 > Images marked with an empty `alt` (`alt=""`) are considered "Decorative" and not read by AT.
 
----
+<hr>
 
 ### Incorrect
 
@@ -74,7 +74,7 @@ When using images on a page, you must provide an alternate method for that conte
 
 > Image is missing an `alt` attribute and alternative content
 
----
+<hr>
 
 <img src="{{site.baseurl}}/images/sign.jpg" alt="sign">
 
@@ -84,7 +84,7 @@ When using images on a page, you must provide an alternate method for that conte
 
 > `Alt` attribute is missing text from image
 
----
+<hr>
 
 <img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 
