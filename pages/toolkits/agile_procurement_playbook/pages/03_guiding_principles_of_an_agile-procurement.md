@@ -12,7 +12,7 @@ overviews of the principles that guide general agile procurement: [TechFAR Hub](
 
 - Keep procurements small and quick
 - Buy digital service skillsets, not software
-- Embrace a [one-team, one-dream mindset](/work/toolkits/agile-procurement-playbook/standing-up-a-team-to-guide-the-procurement-process#working-together-building-an-agile-culture)
+- Embrace a [one-team, one-dream mindset](../standing-up-a-team-to-guide-the-procurement-process#working-together-building-an-agile-culture)
 
 USDS's principles of procurement are a [great launching point](https://playbook.cio.gov/#play5) for an agency contracting specialist who's rethinking traditional procurement approaches. The goal is to mirror the procurement process after the way software is delivered in an agile format. For contracting specialists, this means focusing on procuring skillsets that can build software.
 
@@ -55,7 +55,7 @@ The process of modular contracting matches the natural work streams that arise o
 
 There are many benefits to using a modular contracting strategy:
 
-- The government [isn't dependent on a single prime vendor](/work/toolkits/agile-procurement-playbook/guiding-principles-of-an-agile-procurement#vendor-lock-in-risk-mitigation) to deliver services
+- The government [isn't dependent on a single prime vendor](../guiding-principles-of-an-agile-procurement#vendor-lock-in-risk-mitigation) to deliver services
 - The period of performance can be shortened to protect the government, since it's much easier to replace an underperforming vendor for a single component than it is to replace an all-encompassing contractor
 - It results in a pool of expert vendors for the product being built, broadening the options available for contracting out new work
 - Vendors have to focus on delivering working software in a shorter timeframe, providing tangible benefits much sooner
@@ -83,7 +83,7 @@ Testing out or adopting a new procurement strategy takes buy-in and support from
 - Does the current procurement strategy help mitigate the risks in product development and delivery?
 - Does the current procurement strategy contribute to the probability of success for the product?
 
-By conducting an [analysis of alternatives](/work/toolkits/agile-procurement-playbook/appendix-f-procurement-options-analysis-examples/) on the different procurement options for a particular product, the product team can involve stakeholders in the decision-making process and increase buy-in if the team opts to test out a new strategy.
+By conducting an [analysis of alternatives](../appendix-f-procurement-options-analysis-examples/) on the different procurement options for a particular product, the product team can involve stakeholders in the decision-making process and increase buy-in if the team opts to test out a new strategy.
 
 As with trying out any new method, start small. This will allow stakeholders to become comfortable with the new process and way of procuring services. Once you have some experience and more buy-in, you can scale up to larger initiatives.
 

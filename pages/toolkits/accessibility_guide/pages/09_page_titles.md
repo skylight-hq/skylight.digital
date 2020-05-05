@@ -1,11 +1,11 @@
 ---
 title: Page titles
-description: 'How we deal with page titles'
+description: "How we deal with page titles"
 permalink: /work/toolkits/accessibility-guide/page-titles/
-page_title: Page titles
 layout: toolkit
 sidenav: accessibility_guide
 ---
+
 Page titles are important because they help a user navigate their browser. Most users have multiple tabs open at once. It's easier to jump between pages if each page title is unique. It's also helpful to have the unique portion first, usually the name of the page.
 
 ### Testing
@@ -20,4 +20,4 @@ Page titles are important because they help a user navigate their browser. Most 
 <title>Page Titles - Skylight Accessibility</title>
 ```
 
-> The title for this page is 'Page Titles - Skylight Accessibility'. The first half is the name of this page and the second is the name of the site.
+> The title for this page is "Page Titles - Skylight Accessibility". The first half is the name of this page and the second is the name of the site.
