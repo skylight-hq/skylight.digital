@@ -1,28 +1,28 @@
 ---
 title: Forms
-description: 'How we work with forms'
+description: "How we work with forms"
 permalink: /work/toolkits/accessibility-guide/forms/
-page_title: Forms
 layout: toolkit
 sidenav: accessibility_guide
 ---
+
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.
 
-### Testing
+## Testing
 
 1. Identify each form element.
 2. Find all instructions associated with each element.
-  * __It is a failure if a form element isn't programatically associated with _all_ instructions. This includes legends, labels, hint text and tooltips.__
-  * A common way of achieving this is using `fieldset` and `legend` tags. `Fieldset` is used to group a set of elements. `Legend` is the first child of a `fieldset` tag and provides context for those fields. 
+  * **It's a failure if a form element isn't programatically associated with _all_ instructions. This includes legends, labels, hint text and tooltips.**
+  * A common way of achieving this is using `fieldset` and `legend` tags. `Fieldset` is used to group a set of elements. `Legend` is the first child of a `fieldset` tag and provides context for those fields.
 3. Ensure all field elements are accessible via the keyboard.
-  * __If the form cannot be filled out with just a keyboard, this is a failure.__
+  * **If the form can't be filled out with just a keyboard, this is a failure.**
 4. Check for title attributes
   * Title attributes can be a substitute for labels.
-  * __If the title attributes provides all the related information it passes, if it provides extra information it fails.__
-    * Title attributes are not accessible via keyboard.
+  * **If the title attributes provides all the related information it passes, if it provides extra information it fails.**
+  * Title attributes aren't accessible via keyboard.
 
-### Examples
-#### Passes
+## Examples
+### Passes
 
 <fieldset>
   <legend>Name</legend>
@@ -56,11 +56,11 @@ Making forms accessible is a simple process. Each form element should be associa
   <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'><label for="tomato">Tomato</label>
 </fieldset>
 ```
-> ___Name:___ Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, 'First' and 'Last' wouldn't make sense without 'Name.' This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
+> ***Name:*** Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, "First" and "Last" wouldn't make sense without "Name." This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
 
-> ___Favorite Soup:___ ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
+> ***Favorite Soup:*** ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
-#### Fails
+### Fails
 
 <fieldset>
   <legend>Name</legend>
@@ -98,26 +98,25 @@ Making forms accessible is a simple process. Each form element should be associa
 <br>
 ```
 
-> ___Failure:___ First name label ```for``` and ```id``` don't match.
+> ***Failure:*** First name label ```for``` and ```id``` don't match.
 
-> ___Failure:___ Last name has an invalid ```id```.
+> ***Failure:*** Last name has an invalid ```id```.
 
-> ___Failure:___ "This Question Is Required" is not associated with the form fields.
+> ***Failure:*** "This Question Is Required" isn't associated with the form fields.
 
-> ___Failure:___ The ```title``` tag for Pea Soup indicates it's 'Chick Pea Soup.' This information is not available to keyboard, sighted users.
+> ***Failure:*** The ```title``` tag for Pea Soup indicates it's "Chick Pea Soup." This information isn't available to keyboard, sighted users.
 
+### How ARIA affects form inputs
 
-#### How ARIA affects form inputs
-
-Screen readers vary on what they read and the additional information they provide by default. This is a broad summary of what is read based on VoiceOver for Mac OSX.
+Screen readers vary on what they read and the additional information they provide by default. This is a broad summary of what's read based on VoiceOver for Mac OSX.
 
 You can test these with your own screen reader. If you have a OSX you can turn VoiceOver on by hitting command+F5.
 
-**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
+**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. For example: `aria-labelledby='car1 car_description car-error-message'`.
 
-##### No ARIA
+#### No ARIA
 
-Reads just the `label` and not the description
+Reads just the `label` and not the description.
 
 <label for="car_1">Car</label>
 <input type="text" id="car_1"/><br/>
@@ -132,7 +131,7 @@ Reads just the `label` and not the description
 **Screen Reader reads input as:** `Car Edit text`
 <hr>
 
-##### With aria-label
+#### With aria-label
 
 Reads the `aria-label` and doesn't read the normal `label`.
 
@@ -147,11 +146,12 @@ Reads the `aria-label` and doesn't read the normal `label`.
 ```
 
 **Screen Reader reads input as:** `Car, please enter make and model Edit text`
+
 <hr>
 
-##### With aria-labelledby pointing at `carmakedescription`
+#### With aria-labelledby pointing at `carmakedescription`
 
-Reads only the `aria-labelledby` attribute and not the default label
+Reads only the `aria-labelledby` attribute and not the default label.
 
 <label for="car_3">Car</label>
 <input type="text" id="car_3" aria-labelledby="carmakedescription_3" /><br/>
@@ -166,9 +166,9 @@ Reads only the `aria-labelledby` attribute and not the default label
 **Screen Reader reads input as:** `Please enter Make and Model Edit text`
 <hr>
 
-##### With aria-labelledby pointing at `carlabel carmakedescription`
+#### With aria-labelledby pointing at `carlabel carmakedescription`
 
-Reads both labels indicated by the `aria-labelledby` attribute
+Reads both labels indicated by the `aria-labelledby` attribute.
 
 <label for="car_4" id="carlabel_4">Car</label>
 <input type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" /><br/>
@@ -183,9 +183,9 @@ Reads both labels indicated by the `aria-labelledby` attribute
 **Screen Reader reads input as:** `Car Please enter Make and Model Edit text`
 <hr>
 
-##### With aria-describedby pointing at `carmakedescription`
+#### With aria-describedby pointing at `carmakedescription`
 
-Jaws reads both the label and the description. So does VoiceOver, but there is a slight delay before it reads the description.
+Jaws reads both the label and the description. So does VoiceOver, but there's a slight delay before it reads the description.
 
 <label for="car_5">Car</label>
 <input type="text" id="car_5" aria-describedby="carmakedescription_5" /><br/>
