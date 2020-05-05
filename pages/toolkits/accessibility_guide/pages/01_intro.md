@@ -5,8 +5,6 @@ permalink: /work/toolkits/accessibility-guide/
 sidenav: accessibility_guide
 ---
 
-# Introduction
-
 Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And least of all, it's required by law for all federal EIT (electronic information technology) products to be accessible (with a few minor exceptions).
 
 Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost effective. The best and perhaps only way to ensure this is done is training and education. Every member of a production team should be aware of what accessibility concerns are and have a basic understanding of how they're addressed.
@@ -19,7 +17,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 
 ## Resources
 
-### Standalone Testing Tools
+### Standalone testing tools
 
 * [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) &mdash; command-line interface for Google's Lighthouse test suite
 * [JAWS Screen Reader](https://www.freedomscientific.com/products/software/jaws/) &mdash; one of the most-commonly-used screen readers
@@ -31,7 +29,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [Accessible Color Palette Builder](https://toolness.github.io/accessible-color-matrix/) &mdash; open-source tool for finding accessible color combinations
 * [Windows NVDA Screenreader](https://www.nvaccess.org/download/) &mdash; free tool for testing non-visual access
 
-### Browser-based Testing Tools
+### Browser-based testing tools
 
 * [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) &mdash; browser plugin for automated and guided-manual testing for accessibility, including WCAG 2.0 and 2.1
 * [Firefox: WCAG Contrast Checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) &mdash; browser plugin for evaluating CSS color contrast
@@ -41,7 +39,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/) &mdash;  extension that adds various web developer tools to a browser
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) &mdash; open-source bookmarklet tool for analyzing a page's HTML source and detects coding-standard violations
 
-### Government Sites and Tutorials
+### Government sites and tutorials
 
 * [Section 508](https://section508.gov/)
 * [Accessibility for Teams](https://accessibility.digital.gov/)
@@ -52,14 +50,15 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [Required Fixes for PDFs](http://www.hhs.gov/web/section-508/making-files-accessible/pdf-required/index.html)
 * [Making Files Accessible (PDF, Word, Excel, Powerpoint)](http://www.hhs.gov/web/section-508/making-files-accessible/index.html)
 
-### World Wide Web Consortium's Web Accessibility Initiative
+### World Wide Web Consortium's web accessibility initiative
+
 * [WCAG](https://www.w3.org/TR/WCAG21/)
 * [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
 * [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
 * [Accessible Rich Internet Applications (ARIA) Documentation](https://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria)
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
-### Misc. Sites and Tutorials
+### Misc. sites and tutorials
 
 * [Inclusive Components](https://inclusive-components.design/)
 * [WebAIM's Blog](http://webaim.org/blog/)
