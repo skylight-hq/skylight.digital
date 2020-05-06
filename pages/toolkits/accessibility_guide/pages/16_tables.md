@@ -28,7 +28,7 @@ If a table has text associated with it, ensure the text is programatically linke
 
 ### Passes
 
-#### Simple Table
+#### Simple table
 
 <table class="table">
   <caption>User's Height and Weight</caption>

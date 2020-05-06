@@ -18,7 +18,7 @@ Setting the language of your site allows assistive technology to interacts with 
 
 ## Examples
 
-### Failure
+### Fails
 
 Sus ojos son verdes.
 
