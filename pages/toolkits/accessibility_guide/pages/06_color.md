@@ -33,7 +33,7 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 ## Examples
 
-### Failures
+### Fails
 
 <span style = "color:#58AA02">This text fails.</span>
 
