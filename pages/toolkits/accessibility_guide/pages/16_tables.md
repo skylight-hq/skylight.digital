@@ -1,58 +1,57 @@
 ---
 title: Tables
-description: 'How we deal with tables'
+description: "How we deal with tables"
 permalink: /work/toolkits/accessibility-guide/tables/
-page_title: Tables
 layout: toolkit
 sidenav: accessibility_guide
 ---
 
 When tables are used to show data, the header cells that relate to the data cells need to be programatically linked. This makes table navigation for screen readers less painful.
 
-**Simple tables** can have up to two levels of headings. One row of headers and/or one column of headings. A table with more than one row or more than one column of headings, is considered to be a complex table. Each table header cell should have `<th scope='col'>` or `<th scope='row'>`.
+**Simple tables** can have up to two levels of headings. One row of headers and/or one column of headings. A table with more than one row, or more than one column of headings, is considered to be a complex table. Each table header cell should have `<th scope="col">` or `<th scope="row">`.
 
-**Note:** Simple tables with headers in the first row and/or column don't actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either scope or id attributes.
+**Note:** Simple tables with headers in the first row and/or column don't actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either `scope` or `id` attributes.
 
-Complex tables are tables with more than two levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cell's id listed.
+Complex tables are tables with more than two levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cell's `id` listed.
 
-If a table has text associated with it, ensure the text is programatically linked to the table. This is usually with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data.
+If a table has text associated with it, ensure the text is programatically linked to the table. This is usually with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` isn't required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data.
 
-### Testing
+## Testing
 
-1. Identify 'data' tables (layout tables are exempt).
+1. Identify "data" tables (layout tables are exempt).
 2. View the table source code.
 3. Identify the table headers.
-  * Check for scope on simple tables.
-  * Check for id and headers on complex tables.
+  * Check for `scope` on simple tables.
+  * Check for `id` and `headers` on complex tables.
 
-### Examples
+## Examples
 
-#### Passes
+### Passes
 
-##### Simple Table
+#### Simple Table
 
 <table class="table">
   <caption>User's Height and Weight</caption>
   <tr>
-    <th scope='col'>
+    <th scope="col">
       Name
     </th>
-    <th scope='col'>
+    <th scope="col">
       Height
     </th>
-    <th scope='col'>
+    <th scope="col">
       Age
     </th>
   </tr>
   <tr>
-    <th scope='row'>
+    <th scope="row">
       Walter
     </th>
     <td>6'4</td>
     <td>34</td>
   </tr>
   <tr>
-    <th scope='row'>
+    <th scope="row">
       Steve
     </th>
     <td>5'4</td>
@@ -64,25 +63,25 @@ If a table has text associated with it, ensure the text is programatically linke
 <table>
   <caption>User's Height and Weight</caption>
   <tr>
-    <th scope='col'>
+    <th scope="col">
       Name
     </th>
-    <th scope='col'>
+    <th scope="col">
       Height
     </th>
-    <th scope='col'>
+    <th scope="col">
       Age
     </th>
   </tr>
   <tr>
-    <th scope='row'>
+    <th scope="row">
       Walter
     </th>
     <td>6'4</td>
     <td>34</td>
   </tr>
   <tr>
-    <th scope='row'>
+    <th scope="row">
       Steve
     </th>
     <td>5'4</td>
@@ -91,46 +90,46 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope='col'```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
+> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope="col"```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
 
-##### Complex table
+#### Complex table
 
 <table class="table">
   <caption>User's Height and Weight</caption>
   <tr>
-    <th rowspan='2' id='name' scope='col'>
+    <th rowspan="2" id="name" scope="col">
       Name
     </th>
-    <th colspan='2' id='height' scope='col'>
+    <th colspan="2" id="height" scope="col">
       Height
     </th>
-    <th rowspan='2' id='age' scope='col'>
+    <th rowspan="2" id="age" scope="col">
       Age
     </th>
   </tr>
   <tr>
-    <th id='feet' headers='height' scope='col'>
+    <th id="feet" headers="height" scope="col">
       Feet
     </th>
-    <th id='inches' headers='height' scope='col'>
+    <th id="inches" headers="height" scope="col">
       Inches
     </th>
   </tr>
   <tr>
-    <th headers='name' scope='row'>
+    <th headers="name" scope="row">
       Walter
     </th>
-    <td headers='height feet'>6</td>
-    <td headers='height inches'>4</td>
-    <td headers='age'>34</td>
+    <td headers="height feet">6</td>
+    <td headers="height inches">4</td>
+    <td headers="age">34</td>
   </tr>
   <tr>
-    <th headers='name' scope='row'>
+    <th headers="name" scope="row">
       Steve
     </th>
-    <td headers='height feet'>5</td>
-    <td headers='height inches'>4</td>
-    <td headers='age'>30</td>
+    <td headers="height feet">5</td>
+    <td headers="height inches">4</td>
+    <td headers="age">30</td>
   </tr>
 </table>
 
@@ -138,39 +137,39 @@ If a table has text associated with it, ensure the text is programatically linke
 <table>
   <caption>User's Height and Weight</caption>
   <tr>
-    <th rowspan='2' id='name'>
+    <th rowspan="2" id="name">
       Name
     </th>
-    <th colspan='2' id='height'>
+    <th colspan="2" id="height">
       Height
     </th>
-    <th rowspan='2' id='age'>
+    <th rowspan="2" id="age">
       Age
     </th>
   </tr>
   <tr>
-    <th id='feet' headers='height'>
+    <th id="feet" headers="height">
       Feet
     </th>
-    <th id='inches' headers='height'>
+    <th id="inches" headers="height">
       Inches
     </th>
   </tr>
   <tr>
-    <th headers='name' id='walter'>
+    <th headers="name" id="walter">
       Walter
     </th>
-    <td headers='height feet walter'>6</td>
-    <td headers='height inches walter'>4</td>
-    <td headers='age walter'>34</td>
+    <td headers="height feet walter">6</td>
+    <td headers="height inches walter">4</td>
+    <td headers="age walter">34</td>
   </tr>
   <tr>
-    <th headers='name' id='steve'>
+    <th headers="name" id="steve">
       Steve
     </th>
-    <td headers='height feet steve'>5</td>
-    <td headers='height inches steve'>4</td>
-    <td headers='age steve'>30</td>
+    <td headers="height feet steve">5</td>
+    <td headers="height inches steve">4</td>
+    <td headers="age steve">30</td>
   </tr>
 </table>
 ```
