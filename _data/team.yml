@@ -1262,3 +1262,63 @@
       link: https://github.com/emyl3
       link_description: Elisa's GitHub Account
       fa_icon_name: github
+- name: kyle-magida
+  fname: Kyle
+  lname: Magida
+  full_name: Kyle Magida
+  short_name: K. Magida
+  profile_path: /company/about/#kyle-magida
+  image: /img/people/kyle-magida.jpg
+  image_description: Photo of Kyle Magida
+  position: Data Scientist & Engineer
+  bio: >
+    Kyle specializes in data science and engineering. He's passionate about getting
+    people solving complex problems the right data at the right time. He formerly
+    worked for the Massachusetts Data Office, and was in the inaugural class of
+    the University of Chicago's Computational Analysis & Public Policy program.
+    Kyle lives in Massachusetts.
+  active: true
+  order: 340
+  socials:
+    - name: Twitter
+      link: https://twitter.com/kmagida110
+      link_description: Kyle's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kmagida/
+      link_description: Kyle's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/kmagida110
+      link_description: Kyle's GitHub Account
+      fa_icon_name: github
+- name: suzanne-chapman
+  fname: Suzanne
+  lname: Chapman
+  full_name: Suzanne Chapman
+  short_name: S. Chapman
+  profile_path: /company/about/#suzanne-chapman
+  image: /img/people/eleanor-roosevelt.png
+  image_description: Placeholder Photo of Suzanne Chapman
+  position: UX Designer
+  bio: >
+    Suzanne is a user experience generalist with 14 years of experience doing user
+    research, service design, interaction design, and content strategy. Previously,
+    she worked at the Center for Civic Design to help state agencies improve voting
+    and elections and lead a team of designers at the U.S. Digital Service working
+    with the Department of Veterans Affairs. Suzanne lives in Tennessee.
+  active: true
+  order: 350
+  socials:
+    - name: Twitter
+      link: https://twitter.com/LibraryUX
+      link_description: Suzanne's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/suzannechapman/
+      link_description: Suzanne's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/suzchap
+      link_description: Suzanne's GitHub Account
+      fa_icon_name: github
