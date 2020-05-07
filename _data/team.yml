@@ -706,7 +706,7 @@
     accessible and useful to everyone. Chris specializes in
     data engineering, data science, and data analytics.
     He lives in Illinois.
-  active: true
+  active: false
   order: 100
   socials:
     - name: Twitter
@@ -951,7 +951,7 @@
     He's a generalist who uses his experience in software development,
     agile practices, strategy, and product management to help partners
     find the right path. He lives in Georgia.
-  active: true
+  active: false
   order: 45
   socials:
     - name: Twitter
@@ -1008,7 +1008,7 @@
     help civilians in Syria and other conflict zones receive advanced
     warnings of impending attacks. Ari specializes in software engineering,
     DevOps, and cloud computing. He lives in Arkansas.
-  active: true
+  active: false
   order: 230
   socials:
     - name: GitHub
@@ -1050,7 +1050,7 @@
   image_description: Photo of Zack Gehin
   position: UX Designer
   bio: >
-    Zack is certified in UX by Nielsen Norman Group and specializes in complex
+    Zack is certified in UX by the Nielsen Norman Group and specializes in complex
     application design. His entrepreneurial spirit adds a unique approach towards
     empathizing for users and identifying the right problems to solve. He's helped
     form design teams, and served as a design leader in the non-profit,
@@ -1142,3 +1142,123 @@
       link: https://www.linkedin.com/in/eric-richards/
       link_description: Eric's LinkedIn Account
       fa_icon_name: linkedin
+- name: charlye-delgado
+  fname: Charlye
+  lname: Delgado
+  full_name: Charlye Delgado
+  short_name: C. Delgado
+  profile_path: /company/about/#charlye-delgado
+  image: /img/people/charlye-delgado.jpg
+  image_description: Photo of Charlye Delgado
+  position: Product Manager
+  bio: >
+    Charlye loves to solve complex problems. As a former software and data
+    engineer, she now specializes in product management and is certified in
+    UX by Nielsen Norman Group. Charlye lives in Alabama.
+  active: true
+  order: 290
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/charlyetran/
+      link_description: Charlye's LinkedIn Account
+      fa_icon_name: linkedin
+- name: tomi-obikunle
+  fname: Tomi
+  lname: Obikunle
+  full_name: Tomi Obikunle
+  short_name: T. Obikunle
+  profile_path: /company/about/#tomi-obikunle
+  image: /img/people/tomi-obikunle.jpg
+  image_description: Photo of Tomi Obikunle
+  position: UX Researcher
+  bio: >
+    Tomi is a UX researcher and designer who strives to meet and honor people
+    where they are. She specializes in continuous discovery, usability testing,
+    and  user-centered design. Tomi currently lives in Illinois.
+  active: true
+  order: 300
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/tomiobikunle/
+      link_description: Tomi's LinkedIn Account
+      fa_icon_name: linkedin
+- name: adam-weber
+  fname: Adam
+  lname: Weber
+  full_name: Adam Weber
+  short_name: A. Weber
+  profile_path: /company/about/#adam-weber
+  image: /img/people/adam-weber.jpg
+  image_description: Photo of Adam Weber
+  position: Software Engineer
+  bio: >
+    TBD
+  active: true
+  order: 310
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nullflux/
+      link_description: Adam's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/nullflux
+      link_description: Adam's GitHub Account
+      fa_icon_name: github
+- name: phoebe-espiritu
+  fname: Phoebe
+  lname: Espiritu
+  full_name: Phoebe Espiritu
+  short_name: P. Espiritu
+  profile_path: /company/about/#phoebe-espiritu
+  image: /img/people/eleanor-roosevelt.png
+  image_description: Placeholder Photo of Phoebe Espiritu
+  position: Product Designer
+  bio: >
+    Phoebe has over 20 years of product design, UX design, and leadership experience.
+    She was named among the 25 Women Driving New York's Tech Scene. Previously,
+    she served as a member of 18F, taught MFA Design Entrepreneurship at Parsons
+    Design and Technology, mentored dozens of startups, and led design at a number
+    of technology companies.
+  active: true
+  order: 320
+  socials:
+    - name: Twitter
+      link: https://twitter.com/femmebot
+      link_description: Phoebe's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/phoebeespiritu/
+      link_description: Phoebe's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/femmebot
+      link_description: Phoebe's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://simplifierlab.com/
+      link_description: Phoebe's Personal Website
+      fa_icon_name: home
+- name: elisa-lee
+  fname: Elisa
+  lname: Lee
+  full_name: Elisa Lee
+  short_name: E. Lee
+  profile_path: /company/about/#elisa-lee
+  image: /img/people/elisa-lee.jpg
+  image_description: Photo of Elisa Lee
+  position: Software Engineer
+  bio: >
+    Elisa is a software engineer with a desire to use technology to support positive
+    change in communities. Elisa's previously worked in the developer tools,
+    education technology, and non-profit spaces. Elisa lives in Minnesota.
+  active: true
+  order: 330
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/emyl3/
+      link_description: Elisa's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/emyl3
+      link_description: Elisa's GitHub Account
+      fa_icon_name: github
