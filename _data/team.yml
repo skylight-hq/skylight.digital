@@ -1192,7 +1192,10 @@
   image_description: Photo of Adam Weber
   position: Software Engineer
   bio: >
-    TBD
+    Adam is a software engineer who likes to solve hard problems and build products
+    that delight users. He's been coding since age 10 and specializes in fixing
+    mystery bugs, integrating with legacy systems, and "just making stuff work."
+    Adam lives in Oregon.
   active: true
   order: 310
   socials:
