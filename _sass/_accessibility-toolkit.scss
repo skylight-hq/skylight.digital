@@ -6,4 +6,18 @@
     margin-inline-start: 40px;
     margin-inline-end: 40px;
   }
+  
+  fieldset {
+    border: 1px solid #393939;
+    border-radius: 0.6rem;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  legend {
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 0;
+    padding: 0;
+  }
 }
