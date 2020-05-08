@@ -137,15 +137,15 @@ Get everyone you know to use their social media channels to spread the word abou
 
 ![]({{ site.baseurl }}/img/toolkits/talent/image2.png){:class="img-fluid mw-mobile-lg border p-3"}
 
-[https://twitter.com/laurabeaufort/status/1192079706423746560](https://twitter.com/laurabeaufort/status/1192079706423746560)
+[Tweet source](https://twitter.com/laurabeaufort/status/1192079706423746560)
 
 ![]({{ site.baseurl }}/img/toolkits/talent/image3.png){:class="img-fluid mw-mobile-lg border p-3"}
 
-[https://twitter.com/waldojaquith/status/1190300713676611585](https://twitter.com/waldojaquith/status/1190300713676611585)
+[Tweet source](https://twitter.com/waldojaquith/status/1190300713676611585)
 
 ![]({{ site.baseurl }}/img/toolkits/talent/image1.png){:class="img-fluid mw-mobile-lg border p-3"}
 
-[https://twitter.com/Citylajobs/status/954084813790728193](https://twitter.com/Citylajobs/status/954084813790728193)
+[Tweet source](https://twitter.com/Citylajobs/status/954084813790728193)
 
 ### Attend meetups and other events
 
