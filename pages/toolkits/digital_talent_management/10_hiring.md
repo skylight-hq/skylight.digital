@@ -139,7 +139,7 @@ Follow the same interview process for each candidate:
 - Be tough, but friendly
 {: .list-checklist}
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
+<div class="callout" markdown="1">
 ## Case study: USDS and OPM
 
 Historically, the federal government hiring process hasn't involved subject matter experts to qualify candidates. Instead, HR specialists review resumes and questionnaires, screening candidates in and out of the pool for consideration. The result is that agencies often don't receive qualified candidates to select from.
