@@ -2,7 +2,7 @@
 title: Headings
 description: "Proper use of heading elements"
 permalink: /work/toolkits/accessibility-guide/headings/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

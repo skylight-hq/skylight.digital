@@ -2,7 +2,7 @@
 title: Training and videos
 description: "Videos and trainings from around the web"
 permalink: /work/toolkits/accessibility-guide/training-videos/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

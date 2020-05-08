@@ -2,7 +2,7 @@
 title: Writing guide
 description: "When writing about accessibility, here are some things to keep in mind"
 permalink: /work/toolkits/accessibility-guide/writing-guide/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

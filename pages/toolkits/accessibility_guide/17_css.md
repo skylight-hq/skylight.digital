@@ -2,7 +2,7 @@
 title: CSS dependence
 description: "How we deal with CSS"
 permalink: /work/toolkits/accessibility-guide/css/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

@@ -2,7 +2,7 @@
 title: Links and repetitive content
 description: "How we deal with links and repetitive content"
 permalink: /work/toolkits/accessibility-guide/links/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

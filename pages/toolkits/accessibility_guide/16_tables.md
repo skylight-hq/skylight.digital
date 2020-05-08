@@ -2,7 +2,7 @@
 title: Tables
 description: "How we deal with tables"
 permalink: /work/toolkits/accessibility-guide/tables/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

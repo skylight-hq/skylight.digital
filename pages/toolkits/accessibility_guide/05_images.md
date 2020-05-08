@@ -2,7 +2,7 @@
 title: Images
 description: 'How we work with images'
 permalink: /work/toolkits/accessibility-guide/images/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

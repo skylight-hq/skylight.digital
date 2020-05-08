@@ -2,7 +2,7 @@
 title: Timeouts
 description: "How we deal with time outs"
 permalink: /work/toolkits/accessibility-guide/timeouts/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 scripts:
   - js/accessibility/timeouts.js

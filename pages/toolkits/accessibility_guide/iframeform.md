@@ -3,7 +3,7 @@ title: iframe form
 description: Fill out this form
 permalink: /work/toolkits/accessibility-guide/iframeform/
 page_title: iFrame
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

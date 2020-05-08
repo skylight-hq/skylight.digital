@@ -2,7 +2,7 @@
 title: Keyboard access
 description: "How we work with keyboards only"
 permalink: /work/toolkits/accessibility-guide/keyboard/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 scripts:
   - js/accessibility/keyboard-access.js
