@@ -32,7 +32,6 @@
 }
 
 @mixin callout {
-  margin-top: 3rem;
   padding: 1.5rem;
 
   > *:last-child {
@@ -43,9 +42,11 @@
 .callout {
   @include callout;
   background-color: $sk-yellow;
+  margin-top: 2.25rem;
 }
 
 .callout--alt {
   @include callout;
   background-color: $brand-primary-lightest;
+  margin-bottom: 1em;
 }
