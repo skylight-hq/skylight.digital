@@ -248,6 +248,7 @@ The HR department may not have the metrics you're looking for, so the first step
 - Reduce the hiring time
     - Work with your HR department to map the hiring process
     - Identify and improve parts of the process that can be streamlined
+{: .list-checklist}
 
 <div class='bg-warning p-4 mt-5' markdown='1'>
 ## Case study: City and County of San Francisco

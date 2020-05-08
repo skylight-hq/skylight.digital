@@ -63,3 +63,4 @@ As an executive, your participation lends legitimacy to the activities. When oth
 - Have I done all I can do to remove artificial barriers to my team being productive?
 - Can I clearly articulate what direct benefit my team provides to the public?
 - Is my team working well with others? If not, why not?
+{: .list-checklist}

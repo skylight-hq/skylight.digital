@@ -137,6 +137,7 @@ Follow the same interview process for each candidate:
 - Have two or more SMEs review each resume
 - Ask all candidates the same interview questions, in the same order
 - Be tough, but friendly
+{: .list-checklist}
 
 <div class='bg-warning p-4 mt-5' markdown='1'>
 ## Case study: USDS and OPM

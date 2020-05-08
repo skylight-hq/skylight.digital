@@ -79,6 +79,7 @@ Name | Purpose | Remote Friendly
 - Use the list above to equip a new team with commonly-used digital tools
 - Start procuring these as early as possible, since most large organizations have lengthy procedures for permitting and acquiring new tools and software
 - Establish a simple process for teams to request additional software and services
+{: .list-checklist}
 
 ## Recommended reading
 
