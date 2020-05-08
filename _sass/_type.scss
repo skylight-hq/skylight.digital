@@ -122,6 +122,12 @@ h1 {
       content: '\2022';
       position: absolute;
     }
+
+    ul {
+      li::before {
+        content: '\25E6';
+      }
+    }
   }
 
   ol {
@@ -136,6 +142,12 @@ h1 {
   li {
     padding-left: 1.5rem;
     position: relative;
+  }
+}
+
+.list-checklist {
+  li::before {
+    content: '□' !important;
   }
 }
 

@@ -59,6 +59,7 @@ hiring tech talent into government.
 - Identify talent gaps
 - Look at similar organizations for inspiration
 - Document gaps and identify benchmarks
+{: .list-checklist}
 
 <div class='bg-warning p-4 mt-5' markdown='1'>
 ## Case study: The City of Durham
