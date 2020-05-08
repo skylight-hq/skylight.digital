@@ -155,6 +155,7 @@ Unconscious bias training helps create awareness for this ingrained bias. Have e
 - Create and enforce a Code of Conduct
 - Have everyone attend unconscious bias training
 - Use inclusive language in all communications
+{: .list-checklist}
 
 ## Recommended reading
 

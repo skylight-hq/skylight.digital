@@ -137,6 +137,7 @@ Send your team to national conferences that are aligned with the work. They'll m
 - Be authentic: maintain a presence even when you don't want something from the community
 - Use web and social media metrics and analytics to continually evaluate your strategies and tactics
 - Revisit your strategies and activities every three to six months.
+{: .list-checklist}
 
 ## Recommended reading
 

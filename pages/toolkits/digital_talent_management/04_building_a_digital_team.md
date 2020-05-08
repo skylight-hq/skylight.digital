@@ -149,6 +149,7 @@ When you're developing custom software, you'll need representation from all of t
 - Create cross-functional teams of digital talent of no more than 6 to 8 people each
 - Decide the composition of your team based on the type of project: COTS, mostly contracted out, or custom software built in-house
 - Vary the size and composition of your team based on which phase your project is in: discovery, alpha, beta, live
+{: .list-checklist}
 
 ## Recommended reading
 

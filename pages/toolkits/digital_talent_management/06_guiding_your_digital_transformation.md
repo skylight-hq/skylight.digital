@@ -99,6 +99,7 @@ All executive leadership in an agency must be digital savvy. They have to recogn
 - Establish a Quality Assurance Surveillance Plan (QASP) for software development contracts
 - Hire digital-savvy executive leadership
 - Hire technology leadership with hands-on experience
+{: .list-checklist}
 
 ## Recommended reading
 

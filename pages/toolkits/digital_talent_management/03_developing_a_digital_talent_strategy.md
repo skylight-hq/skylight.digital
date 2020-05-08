@@ -84,6 +84,7 @@ Digital teams are well-suited to looking at entire processes to determine where 
 
 - Create a comprehensive digital talent strategy
 - Use technology to create additional capacity
+{: .list-checklist}
 
 <div class='bg-warning p-4 mt-5' markdown='1'>
 ## Case study: U.K. Government Digital Service

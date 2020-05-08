@@ -83,6 +83,7 @@ Create an employee handbook that's easy for everyone to access. A well-written h
 - Create an onboarding checklist for new hires
 - Create an employee handbook
 - Ask new hires to make updates to the onboarding guide, onboarding checklist, and employee handbook
+{: .list-checklist}
 
 ## Recommended reading
 
