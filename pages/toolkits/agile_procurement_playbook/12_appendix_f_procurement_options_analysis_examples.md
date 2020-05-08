@@ -36,7 +36,7 @@ There exists a variety of contracting options, each with pros and cons. It's the
 
 The Office of Information Technology (OIT) at CMS has an existing indefinite delivery/indefinite quantity (IDIQ) vehicle called SPARC that's the agency's answer to agile, waterfall, and hybrid development methodologies. This vehicle has a $25B ceiling that houses over 140 different vendors. Its goal is to be the one-stop shop for agency development. There are certainly advantages to leveraging work already completed as well as drawbacks to leveraging a generic development contacting vehicle.
 
-{:.post-table}
+{: .post-table .table-even }
 | Pros | Cons |
 |------|------|
 | The IDIQ is already existing and vendors have been pre-vetted. | The vendor pool isn't specialized to any project. |
@@ -50,7 +50,7 @@ The Office of Information Technology (OIT) at CMS has an existing indefinite del
 
 This option has the ability to continue leveraging SPARC while allowing for new vendors to be added to the IDIQ. This list includes all of the Pros and Cons listed previous with SPARC with the following consideration.
 
-{:.post-table}
+{:.post-table .table-even}
 | Pros | Cons |
 |------|------|
 | Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work. | High-protest probability &mdash; would require a competitive process that could be protested. There are two points of protest because we already have a large-vetted pool of contractors plus the source selection decision. |
@@ -58,7 +58,7 @@ This option has the ability to continue leveraging SPARC while allowing for new 
 
 #### Governmentwide Acquisition Contract (GWAC) &mdash; General Services Administration (GSA) Alliant 2, National Institutes of Health (NIH) CIO-SP3, etc.
 
-{:.post-table}
+{:.post-table .table-even}
 | Pros | Cons |
 |------|------|
 | Existing pre-vetted cadre of qualified vendors. | Best-in-Class (BIC) designation that'll help CMS meet Office of Management and Budget (OMB) targets. |
@@ -68,7 +68,7 @@ This option has the ability to continue leveraging SPARC while allowing for new 
 
 #### Agency-wide BPA
 
-{:.post-table}
+{:.post-table .table-even}
 | Pros | Cons |
 |------|------|
 | Targeted competition possible; however, must provide Request for Quote (RFQ) to any company requesting it. | Vendors aren't tailored to the project's specific goals. |
@@ -84,7 +84,7 @@ This option has the ability to continue leveraging SPARC while allowing for new 
 
 The GSA Schedule is available for individual task orders as they are necessary.
 
-{:.post-table}
+{:.post-table .table-even}
 | Pros | Cons |
 |------|------|
 | Existing pre-vetted cadre of qualified vendors. | Not a SUM or BIC vehicle. |
@@ -93,7 +93,7 @@ The GSA Schedule is available for individual task orders as they are necessary.
 
 #### Project-specific BPA off of GSA Schedule
 
-{:.post-table}
+{:.post-table .table-even}
 | Pros | Cons |
 |------|------|
 | The vendors are tailored to the project's needs. | Initial award and any calls are protestable. |
@@ -136,7 +136,7 @@ CMS has experience over the past year issuing contracts through both SPARC and A
 
 Working in an agile fashion means not having all of the business requirements up front. Most of the time this process is impossible and a vast majority of the time the initial business requirement gathering for a complex system is incorrect. As new requirements come to light throughout the modernization process, the ability to issue contracts rapidly is necessary.
 
-{:.post-table}
+{:.post-table .table-small-first}
 | Vehicle | Ability to award new tasks quickly |
 |---------|------------------------------------|
 | SPARC | Competitive task orders averaged 139 days (19.9 weeks). |
@@ -146,7 +146,7 @@ Working in an agile fashion means not having all of the business requirements up
 
 Competition is vital in making sure the government is getting the best possible vendor for the job. More vendors doesn't always mean better competition. Contracts see the best competition when vendors specialize in the work that issued. Overall competition increases as vendors learn through previous proposals. Finding the sweet spot of the vendor pool size that allows for competition and allows vendors to continuously challenge each other to rise the skill level is important.
 
-{:.post-table}
+{:.post-table .table-small-first}
 | Vehicle | Quality of technical talent available |
 |---------|---------------------------------------|
 | SPARC | The density of high-skilled vendors is variable. Roughly 5% of the total vendors have won a competitive proposal under SPARC. |
@@ -156,7 +156,7 @@ Competition is vital in making sure the government is getting the best possible 
 
 User-centered design, DevOps, and product management are required to deliver modern digital services. These skillsets along with an agile methodology are necessary in delivering working software in small increments allowing for quickly changing development and design as new requirements are discovered.
 
-{:.post-table}
+{:.post-table .table-small-first}
 | Vehicle | Contractor digital service experience |
 |---------|---------------------------------------|
 | SPARC | Partners offer agile, waterfall, and hybrid development methodology. Having digital service skillsets weren't prerequisites for joining SPARC. |
@@ -168,7 +168,7 @@ Having a background with CMS programs allows vendors to hit the ground running w
 
 In some cases it takes over two months for *new* contractors to get access to CMS systems, this would make any attempt at iterative development dead on arrival.
 
-{:.post-table}
+{:.post-table .table-small-first}
 | Vehicle | Familiarity with CMS systems |
 |---------|------------------------------|
 | SPARC | The average period of performance for a SPARC task order is 3.8 years. |
@@ -178,7 +178,7 @@ In some cases it takes over two months for *new* contractors to get access to CM
 
 Having certain requirements that can be found in all contracts that are intended to go out under the vehicle can benefit from having these requirements baked into the vehicle directly vs. requiring justification on each contract. This protects CMS from potentially missing common contracting needs with each contract issued. This also cuts down on the size of the proposal that needs to be reviewed with each task order.
 
-{:.post-table}
+{:.post-table .table-small-first}
 | Vehicle | Requirements baked into the vehicle |
 |---------|-------------------------------------|
 | SPARC | None. |
