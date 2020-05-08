@@ -4,3 +4,15 @@
     @extend %no-border;
   }
 }
+
+.table-even {
+  thead th {
+    width: 50%;
+  }
+}
+
+.table-small-first {
+  thead th:first-child {
+    width: 20%;
+  }
+}
