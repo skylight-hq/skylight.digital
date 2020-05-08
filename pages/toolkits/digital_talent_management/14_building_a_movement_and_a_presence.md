@@ -101,11 +101,11 @@ Sharing your work doesn't always have to be long-form articles. Embrace the conv
 
 ![]({{ site.baseurl }}/img/toolkits/talent/image5.png){:class="img-fluid mw-mobile-lg border p-3"}
 
-Source: [https://twitter.com/MassGovDigital/status/1055878033415041024](https://twitter.com/MassGovDigital/status/1055878033415041024)
+[Tweet source](https://twitter.com/MassGovDigital/status/1055878033415041024)
 
 ![]({{ site.baseurl }}/img/toolkits/talent/image4.png){:class="img-fluid mw-mobile-lg border p-3"}
 
-Source: [https://twitter.com/mattcutts/status/1195524566602395649](https://twitter.com/mattcutts/status/1195524566602395649)
+[Tweet source](https://twitter.com/mattcutts/status/1195524566602395649)
 
 ## Participate in meetups and conferences
 
