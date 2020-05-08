@@ -157,6 +157,7 @@ Unconscious bias training helps create awareness for this ingrained bias. Have e
 - Use inclusive language in all communications
 {: .list-checklist}
 
+<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [How to Create a Great Team Culture (and Why It Matters)](https://queue.acm.org/detail.cfm?ref=rss&id=3323993)
@@ -167,8 +168,9 @@ Unconscious bias training helps create awareness for this ingrained bias. Have e
 - [Inclusive design toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
 - [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
 - [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
+</div>
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
+<div class="callout" markdown="1">
 ## Case study: Ontario Digital Service
 
 Direct communication lines between staff and leadership help empower staff to create change in their workplace. Hilary Hartley, Chief Digital Officer of the Ontario Digital Service, knows this from her time as a founding member of 18F. 18F's [Diversity, Equity, and Inclusion](https://handbook.18f.gov/diversity/) policy is a model for any level of government.

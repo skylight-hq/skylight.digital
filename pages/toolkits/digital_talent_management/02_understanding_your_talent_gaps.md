@@ -61,7 +61,7 @@ hiring tech talent into government.
 - Document gaps and identify benchmarks
 {: .list-checklist}
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
+<div class="callout" markdown="1">
 ## Case study: The City of Durham
 
 The [City of Durham](https://durhamnc.gov/) in North Carolina conducts an annual workforce survey and publishes the results. While employee engagement surveys are standard across many levels of government, this survey's feedback loop makes it stand out from the rest. In addition to traditional questions to identify pain points, the survey measures whether or not employees felt action was taken after the previous survey.

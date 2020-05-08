@@ -30,3 +30,22 @@
     vertical-align: middle;
   }
 }
+
+@mixin callout {
+  margin-top: 3rem;
+  padding: 1.5rem;
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.callout {
+  @include callout;
+  background-color: $sk-yellow;
+}
+
+.callout--alt {
+  @include callout;
+  background-color: $brand-primary-lightest;
+}

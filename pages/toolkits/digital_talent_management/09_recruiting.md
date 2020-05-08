@@ -250,7 +250,7 @@ The HR department may not have the metrics you're looking for, so the first step
     - Identify and improve parts of the process that can be streamlined
 {: .list-checklist}
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
+<div class="callout" markdown="1">
 ## Case study: City and County of San Francisco
 
 One might think that the overwhelming amount of digital talent in the Bay Area makes it easy to recruit for the San Francisco Digital Service. In fact, they face the same recruitment challenges as digital teams in state and local governments across the country. And they're competing against top tech companies that pay much higher salaries than local government.
