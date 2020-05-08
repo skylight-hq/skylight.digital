@@ -5,7 +5,7 @@ permalink: /work/toolkits/accessibility-guide/flashing/
 layout: toolkit
 sidenav: accessibility_guide
 scripts:
-- assets/js/flashing.js
+  - js/accessibility/flashing.js
 ---
 Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element, there are a few things to consider.
 

@@ -5,7 +5,7 @@ permalink: /work/toolkits/accessibility-guide/timeouts/
 layout: toolkit
 sidenav: accessibility_guide
 scripts:
-- assets/js/timeouts.js
+  - js/accessibility/timeouts.js
 ---
 
 If timeouts are used, you must give the user at least 20 seconds to easily request more time.
