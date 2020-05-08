@@ -49,6 +49,7 @@ Shorter, more realistic requirements lists show that you understand what you nee
 <cite><strong>Tara Sophia Mohr</strong></cite>
 </blockquote>
 
+<div class="callout--alt" markdown="1">
 ### Outline of a position description
 
 - Location
@@ -58,6 +59,7 @@ Shorter, more realistic requirements lists show that you understand what you nee
 - 3 to 5 key objectives for the role
 - How applications will be evaluated
 - A distilled list of the top priority qualifications
+</div>
 
 The position description outline is adapted from 18F's position descriptions, viewable here: [https://join.tts.gsa.gov/](https://join.tts.gsa.gov/)
 
@@ -75,6 +77,7 @@ Companies that work almost exclusively with government can also be a good refere
 - [https://adhocteam.us/join/](https://adhocteam.us/join/)
 - [https://skylight.digital/careers/join/](/careers/join/)
 
+<div class="callout--alt" markdown="1">
 ### Resources
 
 - [Textio](https://textio.com/products/) can help you write better, more inclusive position descriptions
@@ -83,6 +86,7 @@ Companies that work almost exclusively with government can also be a good refere
 - [Why Women Don’t Apply for Jobs Unless They're 100% Qualified](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified)
 - [Tools for government hiring](http://www.govtalent.org/)
 - [Improving the Hiring Process](https://medium.com/@bellmar/sre-as-a-lifestyle-choice-de9f5a82d73d)
+</div>
 
 ## Attract candidates new to government
 

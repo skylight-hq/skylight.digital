@@ -25,9 +25,11 @@ To improve your hiring process:
 - Measure the impact
 - Repeat
 
+<div class="callout--alt" markdown="1">
 ### Resources
 
 - [A description of U.K. Government Digital Service's interview process](https://technology.blog.gov.uk/2015/07/14/applying-for-a-job-at-gds-update/)
+</div>
 
 ## Establish a hiring team and evaluation protocol
 
