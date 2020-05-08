@@ -133,7 +133,7 @@ h1 {
   ol {
     counter-reset: item;
 
-    li::before {
+    & > li::before {
       content: counter(item) '. ';
       counter-increment: item;
     }
