@@ -28,10 +28,10 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Correct
 
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="Warning do not read this sign">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="Warning do not read this sign">
 
 ```html
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="Warning do not read this sign">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="Warning do not read this sign">
 ```
 
 > Preferred method for providing alternate content.
@@ -39,22 +39,22 @@ When using images on a page, you must provide an alternate method for that conte
 
 <hr>
 
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" title="Warning do not read this sign">
+<img src="/img/toolkits/accessibility/sign.jpg" title="Warning do not read this sign">
 
 ```html
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" title="Warning do not read this sign">
+<img src="/img/toolkits/accessibility/sign.jpg" title="Warning do not read this sign">
 ```
 
 > Acceptable, but less compatible with certain assistive technologies.
-> Clear title attribute with all text included. {{site.baseurl}}
+> Clear title attribute with all text included. 
 
 <hr>
 
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="">
 <span>Warning do not read this sign</span>
 
 ```html
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="">
 <span>Warning do not read this sign</span>
 ```
 
@@ -69,27 +69,27 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{'/img/toolkits/accessibility/sign.jpg' | prepend: site.baseurl}}">
 
 ```html
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg">
+<img src="/img/toolkits/accessibility/sign.jpg">
 ```
 
 > Image is missing an `alt` attribute and alternative content
 
 <hr>
 
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="sign">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="sign">
 
 ```html
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="sign">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="sign">
 ```
 
 > `Alt` attribute is missing text from image
 
 <hr>
 
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 
 ```html
-<img src="{{site.baseurl}}/img/toolkits/accessibility/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
+<img src="/img/toolkits/accessibility/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
 > Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter (for example) W-A-R-N-I-N-G).
