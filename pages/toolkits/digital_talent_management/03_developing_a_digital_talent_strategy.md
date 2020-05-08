@@ -85,7 +85,8 @@ Digital teams are well-suited to looking at entire processes to determine where 
 - Create a comprehensive digital talent strategy
 - Use technology to create additional capacity
 
-### Case study: U.K. Government Digital Service
+<div class='bg-warning p-4 mt-5' markdown='1'>
+## Case study: U.K. Government Digital Service
 
 The U.K. Government Digital Service (GDS) is the oldest and one of the most successful of the government digital service teams. In many ways, it set the standards for teams in the U.S., including 18F and USDS. GDS operates on a mixed model &mdash; they hire people into a centralized team but also help other agencies staff their own teams. Through this model, they've brought hundreds of technologists into the U.K. government.
 
@@ -94,3 +95,4 @@ One of the core functions of the centralized team is to create shared standards 
 GDS also sets the standards for hiring, and helps hire a variety of technologists into the U.K. government. These designers, engineers, and other experts are placed within agencies and work with other government staff to deliver vital public services.
 
 Another key to the GDS's success is its spending oversight authority. GDS must approve any IT acquisition over £5 million. This helps ensure that large technology projects adhere to key standards (such as the GOV.UK Design System) and follow best practices (such as user-centered design).
+</div>

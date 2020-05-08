@@ -37,7 +37,8 @@ Some conferences worth attending:
 
 - [Maine Workforce 2025](https://www.maine.gov/bhr/sites/maine.gov.bhr/files/inline-files/MaineWorkforce2025.pdf)
 
-### Case study: Peak Academy
+<div class='bg-warning p-4 mt-5' markdown='1'>
+## Case study: Peak Academy
 
 [Denver's Peak Academy mission statement reads](https://www.denvergov.org/content/denvergov/en/mayors-office/programs-initiatives/peak-performance/peak-academy/About.html):
 
@@ -59,3 +60,4 @@ Some cities are replicating Denver's success with their own "Peak Academies." Ot
 - The City of Durham publishes [training resources online](https://durhamnc.gov/3753/OPI-Trainings-Resources) so anyone can learn about Lean and other innovative strategies for problem solving.
 
 As more agencies adopt this training mentality, Elms sees that many others hesitate to allocate already overworked resources to set up and implement the program. "You can dip your toe in the water and have some success. But if you jump in, you'll have tremendous success," [he says](https://medium.com/@BloombergCities/replicating-denvers-peak-academy-a-conversation-with-brian-elms-8a24d5b5be0e).
+</div>

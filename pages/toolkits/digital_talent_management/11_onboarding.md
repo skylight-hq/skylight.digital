@@ -90,10 +90,12 @@ Create an employee handbook that's easy for everyone to access. A well-written h
 - [Making a great first impression: Onboarding matters](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)
 - [How we dramatically improved 18F's onboarding process in 3 months](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/)
 
-### Case study: Coding it Forward
+<div class='bg-warning p-4 mt-5' markdown='1'>
+## Case study: Coding it Forward
 
 Since 2017, Coding it Forward has brought over 100 undergraduate and graduate students into the federal government through their Civic Digital Fellowship. In addition to delivering real value to the agencies where interns are placed, the Fellowship is educating the next generation of our civic workforce.
 
 Most interns are used to working in tech companies, so Coding it Forward proactively manages their experience to ensure a smooth transition to government culture. Each intern is paired with a mentor to help them navigate the civic tech world, introduce them to the community, and provide valuable guidance and support.
 
 Agencies must host at least four interns to build community among the interns and ensure that no one is isolated at their agency. To help create positive experiences and spread the word about civic employment to other young people, plan social events, demos, and opportunities [for interns to share their work publicly](https://github.com/codingitforward/cdfdemoday2019).
+</div>
