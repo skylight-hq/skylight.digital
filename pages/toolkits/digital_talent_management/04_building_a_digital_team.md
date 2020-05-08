@@ -149,14 +149,17 @@ When you're developing custom software, you'll need representation from all of t
 - Create cross-functional teams of digital talent of no more than 6 to 8 people each
 - Decide the composition of your team based on the type of project: COTS, mostly contracted out, or custom software built in-house
 - Vary the size and composition of your team based on which phase your project is in: discovery, alpha, beta, live
+{: .list-checklist}
 
+<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [Design Methods](https://methods.18f.gov/) (18F)
 - [Labor Category Descriptions for Agile Procurements](https://agile-labor-categories.18f.gov/) (18F)
 - [What each role does in a service team](https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team) (GDS)
+</div>
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
+<div class="callout" markdown="1">
 ## Case study: Georgia Digital Service
 
 When Nikhil Deshpande started the [Georgia Digital Service](https://digitalservices.georgia.gov/) (GADS), he knew it would be hard to hire digital talent with the breadth and depth of skills needed. He developed an approach that would allow him to supplement internal staff with a strong vendor pool as needed.

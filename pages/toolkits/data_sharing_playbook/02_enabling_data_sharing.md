@@ -58,10 +58,12 @@ When tracking metadata, it's important to:
 - Be consistent about the language you use to describe metadata
 - Avoid acronyms and language that might be specific to you or your agency, since metadata can help recipients of data sharing understand what a dataset is all about
 
-### Recommended reading
+<div class="callout--alt" markdown="1">
+## Recommended reading
 
 - [Manually creating a data dictionary](https://data.nal.usda.gov/manually-creating-data-dictionary)
 - [Smithsonian data management best practices](https://data.nal.usda.gov/manually-creating-data-dictionary)
+</div>
 
 ## Review data for implicit biases.
 
@@ -70,7 +72,7 @@ As organizations become more data-driven, data experts are discovering more inst
 The data that government agencies, academic researchers, and other organizations collect most likely contain implicit biases. These biases can be introduced due to:
 
 - **Whose data is collected** &mdash; Does a dataset contain a representative sample of people across different demographics and backgrounds (that is, multiple races, ethnicities, geographic locations, ages, genders, etc.)?
-- **Whose data isn't collected** &mdash; Does the data leave out a specific demographic group that might not frequent the service where the data is collected?  
+- **Whose data isn't collected** &mdash; Does the data leave out a specific demographic group that might not frequent the service where the data is collected?
 - **How the data is collected** &mdash; For example, is the data collected via interview in one area and via a form somewhere else?
 
 Consider possible sources of bias in your agency's data carefully. If you don't identify possible bias, communicate it to data requesters, and work to reduce it, the decisions made based on your data may have unintended, serious societal implications.
@@ -85,7 +87,8 @@ Data analysts are ultimately responsible for how they use your agency's data; ho
 
 First, be open about the limitations of the agency's data to reduce the likelihood that it will be used in ways that have unintended consequences. Second, work towards systemic changes to data collection practices. Finally, require data requesters to demonstrate responsible use of your agency's data. The recommended reading below provides guidance on identifying and eliminating sources of implicit bias.
 
-### Recommended reading
+<div class="callout--alt" markdown="1">
+## Recommended reading
 
  - [Algorithmic Justice League](https://www.ajlunited.org/)
  - [Confronting Structural Racism in Research and Policy Analysis](https://www.urban.org/sites/default/files/publication/99852/confronting_structural_racism_in_research_and_policy_analysis_0.pdf)
@@ -95,6 +98,7 @@ First, be open about the limitations of the agency's data to reduce the likeliho
  - [The era of blind faith in big data must end](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end)
  - [Weapons of Math Destruction](https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/)
  - [When computers make biased health decisions, black patients pay the price, study says](https://www.latimes.com/science/story/2019-10-24/computer-algorithm-fuels-racial-bias-in-us-healthcare)
+</div>
 
 ## Develop a data request process.
 

@@ -83,14 +83,17 @@ Create an employee handbook that's easy for everyone to access. A well-written h
 - Create an onboarding checklist for new hires
 - Create an employee handbook
 - Ask new hires to make updates to the onboarding guide, onboarding checklist, and employee handbook
+{: .list-checklist}
 
+<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [18F's onboarding schedule](https://handbook.18f.gov/onboarding-schedule/)
 - [Making a great first impression: Onboarding matters](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)
 - [How we dramatically improved 18F's onboarding process in 3 months](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/)
+</div>
 
-<div class='bg-warning p-4 mt-5' markdown='1'>
+<div class="callout" markdown="1">
 ## Case study: Coding it Forward
 
 Since 2017, Coding it Forward has brought over 100 undergraduate and graduate students into the federal government through their Civic Digital Fellowship. In addition to delivering real value to the agencies where interns are placed, the Fellowship is educating the next generation of our civic workforce.
