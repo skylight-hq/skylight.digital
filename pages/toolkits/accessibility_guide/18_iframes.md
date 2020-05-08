@@ -2,7 +2,7 @@
 title: iFrames
 description: "How we deal with iFrames"
 permalink: /work/toolkits/accessibility-guide/iframes/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 When using `iframe`s, it's important that all content contained in them is accessible.

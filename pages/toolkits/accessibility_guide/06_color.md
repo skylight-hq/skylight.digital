@@ -2,7 +2,7 @@
 title: Color and contrast
 description: "How we work with color and contrast"
 permalink: /work/toolkits/accessibility-guide/color/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

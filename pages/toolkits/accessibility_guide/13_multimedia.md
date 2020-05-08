@@ -2,7 +2,7 @@
 title: Multimedia
 description: "How we deal with multimedia"
 permalink: /work/toolkits/accessibility-guide/multimedia/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

@@ -2,7 +2,7 @@
 title: Checklist
 description: "A simple checklist for determining if your site is accessible"
 permalink: /work/toolkits/accessibility-guide/checklist/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 
