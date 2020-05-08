@@ -89,15 +89,18 @@ Dependability is an individual trait. As a team member, you have to personally b
 
 Teams should also collectively set goals and support each other to achieve them. The [Objectives and Key Results](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) (OKRs) framework from Google works well to set goals and track progress at multiple levels in your organization. OKRs help align individual and team goals with organization goals. Each goal should have an associated plan on how to achieve it.
 
-- [How we use OKRs on GOV.UK, the U.K. government website](https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/)
+[How we use OKRs on GOV.UK, the U.K. government website](https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/)
+{: .callout--alt}
 
 ### Meaning and impact
 
 **Remind people of the mission.** Have a clear and concise mission, and include vision and values statements on posters in your physical space. The constant reminder is important so that teams don't forget the larger picture.
 
+<div class="callout--alt" markdown="1">
 - [Our values: a series of posters from the USDS](https://medium.com/the-u-s-digital-service/our-values-1fc02b53598)
 - [Posters from U.K.'s GDS](https://govdesign.tumblr.com/)
 - [A set of posters emphasizing 18F's principles and values](https://github.com/18F/18f-posters)
+</div>
 
 **Build with shared empathy.** To understand the potential impact of their work, encourage everyone on the team to participate in research/discovery work. By interacting with users, the team will understand the problem they're trying to solve and the impact that problem has on everyday lives.
 
@@ -114,7 +117,8 @@ A welcoming and inclusive culture empowers people to provide outstanding public 
 
 A Code of Conduct puts into writing how you expect people to behave in the workplace and at work events. It codifies your commitment to an inclusive environment. Create a documented process for enforcing the Code of Conduct and an anonymous process for reporting violations of the Code.
 
--   18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) that you can adopt and modify as necessary
+18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) that you can adopt and modify as necessary
+{: .callout--alt}
 
 ### Empower people to speak up
 
@@ -140,7 +144,8 @@ Everyone has these biases.
 
 Unconscious bias training helps create awareness for this ingrained bias. Have everyone on your team attend unconscious bias training. This will help improve everyday interactions. It'll also help during the interview process as you attempt to build a diverse team.
 
-- Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases)
+Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases)
+{: .callout--alt}
 
 ## Checklist
 
