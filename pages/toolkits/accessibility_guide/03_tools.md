@@ -2,7 +2,7 @@
 title: Tools
 description: "Tools we use to improve and test accessibility"
 permalink: /work/toolkits/accessibility-guide/tools/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

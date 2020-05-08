@@ -1,5 +1,5 @@
 ---
-layout: toolkit
+layout: toolkit-accessibility
 title: Introduction
 permalink: /work/toolkits/accessibility-guide/
 sidenav: accessibility_guide

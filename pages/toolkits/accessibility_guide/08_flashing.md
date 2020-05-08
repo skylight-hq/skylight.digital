@@ -2,7 +2,7 @@
 title: Flashing
 description: "How we deal with flashing"
 permalink: /work/toolkits/accessibility-guide/flashing/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 scripts:
   - js/accessibility/flashing.js
