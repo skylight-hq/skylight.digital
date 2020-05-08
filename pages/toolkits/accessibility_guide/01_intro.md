@@ -10,8 +10,11 @@ Accessibility is one of the most important aspects of modern web development. Ac
 Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost effective. The best and perhaps only way to ensure this is done is training and education. Every member of a production team should be aware of what accessibility concerns are and have a basic understanding of how they're addressed.
 
 Here at Skylight we follow [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) as our standard for accessibility. We do so for a couple reasons. WCAG has long been the gold standard for accessibility on the web. It also incorporates Section 508 standards. Under 1194.5 of the Section 508 standards, we can use a different set of standards as long as they meet the current Section 508 standards.
+<div class="callout--alt" markdown='1'>
+## Disclaimer
 
-*Disclaimer:* This resource is intended to help Skylight develop accessible products and isn't a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+This resource is intended to help Skylight develop accessible products and isn't a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+</div>
 
 This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.gov/) originally created by Skylight's Nick Bristow.
 
