@@ -131,15 +131,15 @@ The following boards help reach candidates who are often under-represented in te
 
 Get everyone you know to use their social media channels to spread the word about your job opening on Twitter, LinkedIn, and Facebook. You can help by providing text people can copy and paste. These messages can be simple, like the examples below:
 
-![]({{ site.baseurl }}/img/toolkits/talent/image2.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image2.png){:class="img-fluid w-50 border"}
 
 [https://twitter.com/laurabeaufort/status/1192079706423746560](https://twitter.com/laurabeaufort/status/1192079706423746560)
 
-![]({{ site.baseurl }}/img/toolkits/talent/image3.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image3.png){:class="img-fluid w-50 border"}
 
 [https://twitter.com/waldojaquith/status/1190300713676611585](https://twitter.com/waldojaquith/status/1190300713676611585)
 
-![]({{ site.baseurl }}/img/toolkits/talent/image1.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image1.png){:class="img-fluid w-50 border"}
 
 [https://twitter.com/Citylajobs/status/954084813790728193](https://twitter.com/Citylajobs/status/954084813790728193)
 
