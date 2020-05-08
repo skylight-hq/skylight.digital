@@ -5,7 +5,7 @@ permalink: /work/toolkits/accessibility-guide/keyboard/
 layout: toolkit
 sidenav: accessibility_guide
 scripts:
-- assets/js/keyboard-access.js
+  - js/accessibility/keyboard-access.js
 ---
 
 Keyboard access to a website is key to the usability of your site. All interactions and information that can be accessed with a mouse **must** be accessible with just a keyboard. This doesn't mean everyone who can't use a mouse will use a keyboard, but alternative AT inputs use keyboard-like inputs to navigate the web.
