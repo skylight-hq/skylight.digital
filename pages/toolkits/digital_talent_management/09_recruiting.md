@@ -91,17 +91,23 @@ Government often can't compete with industry on salary. To counter this, lead wi
 The [San Francisco Digital Services](https://digitalservices.sfgov.org/) website does this well
 with a concise paragraph:
 
-*"We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up."*
+<blockquote class="post-blockquote">
+"We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up."
+</blockquote>
 
 The first sentence refers to impactful critical issues that are part of the city's mission. This draws the applicant in. A job description for a product manager similarly describes the mission aspect first:
 
-*"You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting."*
+<blockquote class="post-blockquote">
+"You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting."
+</blockquote>
 
 Anyone who's tried to get a permit with the city will want to work on making that process better.
 
 Candidates like hearing about what they'll be working on. Include short descriptions of the projects (or similar ones) they'll be working on. These can be simple descriptions, such as:
 
-*"Our team is also building the city's website from the ground up."*
+<blockquote class="post-blockquote">
+"Our team is also building the city's website from the ground up."
+</blockquote>
 
 ## Advertise your job opening
 
