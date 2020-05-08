@@ -2,7 +2,7 @@
 title: Plugins
 description: "How we deal with plugins"
 permalink: /work/toolkits/accessibility-guide/plugins/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

@@ -2,7 +2,7 @@
 title: Hidden content
 description: "How and when to hide content"
 permalink: /work/toolkits/accessibility-guide/hidden-content/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

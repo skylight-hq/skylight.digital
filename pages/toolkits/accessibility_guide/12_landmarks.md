@@ -2,7 +2,7 @@
 title: Landmarks
 description: "Proper page layout using Landmarks"
 permalink: /work/toolkits/accessibility-guide/landmarks/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

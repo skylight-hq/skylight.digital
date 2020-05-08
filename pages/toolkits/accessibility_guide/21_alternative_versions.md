@@ -2,7 +2,7 @@
 title: Alternative versions
 description: "How we deal with alternative versions"
 permalink: /work/toolkits/accessibility-guide/alternative-versions/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

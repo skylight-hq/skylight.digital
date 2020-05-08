@@ -2,7 +2,7 @@
 title: Language
 description: "How we tell assistive technology what language a page is in"
 permalink: /work/toolkits/accessibility-guide/language/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

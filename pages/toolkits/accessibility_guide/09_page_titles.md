@@ -2,7 +2,7 @@
 title: Page titles
 description: "How we deal with page titles"
 permalink: /work/toolkits/accessibility-guide/page-titles/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 

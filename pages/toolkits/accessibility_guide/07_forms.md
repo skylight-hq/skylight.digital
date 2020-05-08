@@ -2,7 +2,7 @@
 title: Forms
 description: "How we work with forms"
 permalink: /work/toolkits/accessibility-guide/forms/
-layout: toolkit
+layout: toolkit-accessibility
 sidenav: accessibility_guide
 ---
 
