@@ -30,8 +30,10 @@ Based on this, it's easy to determine what data you will need:
 
 While this is a simple example, the same principles can be applied to larger goals: take the time and effort necessary to make them specific, measurable, attainable, realistic, and time-bound.
 
-### Recommended reading
+<div class="callout--alt" markdown="1">
+## Recommended reading
 
 - [University of California Smart Goals: A How-To Guide](https://www.ucop.edu/local-human-resources/_files/performance-appraisal/How%20to%20write%20SMART%20Goals%20v2.pdf)
 - [Five Elements of a SMART Goal](https://www.thebalancesmb.com/elements-of-a-smart-business-goal-2951530)
 - [Write Achievable Goals with the SMART Framework](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)
+</div>
