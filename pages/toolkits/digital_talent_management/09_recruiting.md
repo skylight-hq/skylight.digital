@@ -91,17 +91,23 @@ Government often can't compete with industry on salary. To counter this, lead wi
 The [San Francisco Digital Services](https://digitalservices.sfgov.org/) website does this well
 with a concise paragraph:
 
-*"We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up."*
+<blockquote class="post-blockquote">
+"We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up."
+</blockquote>
 
 The first sentence refers to impactful critical issues that are part of the city's mission. This draws the applicant in. A job description for a product manager similarly describes the mission aspect first:
 
-*"You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting."*
+<blockquote class="post-blockquote">
+"You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting."
+</blockquote>
 
 Anyone who's tried to get a permit with the city will want to work on making that process better.
 
 Candidates like hearing about what they'll be working on. Include short descriptions of the projects (or similar ones) they'll be working on. These can be simple descriptions, such as:
 
-*"Our team is also building the city's website from the ground up."*
+<blockquote class="post-blockquote">
+"Our team is also building the city's website from the ground up."
+</blockquote>
 
 ## Advertise your job opening
 
@@ -125,15 +131,15 @@ The following boards help reach candidates who are often under-represented in te
 
 Get everyone you know to use their social media channels to spread the word about your job opening on Twitter, LinkedIn, and Facebook. You can help by providing text people can copy and paste. These messages can be simple, like the examples below:
 
-![]({{ site.baseurl }}/img/toolkits/talent/image2.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image2.png){:class="img-fluid w-50 border"}
 
 [https://twitter.com/laurabeaufort/status/1192079706423746560](https://twitter.com/laurabeaufort/status/1192079706423746560)
 
-![]({{ site.baseurl }}/img/toolkits/talent/image3.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image3.png){:class="img-fluid w-50 border"}
 
 [https://twitter.com/waldojaquith/status/1190300713676611585](https://twitter.com/waldojaquith/status/1190300713676611585)
 
-![]({{ site.baseurl }}/img/toolkits/talent/image1.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image1.png){:class="img-fluid w-50 border"}
 
 [https://twitter.com/Citylajobs/status/954084813790728193](https://twitter.com/Citylajobs/status/954084813790728193)
 
