@@ -55,11 +55,15 @@ Establish your public website as early as possible. As with everything, iteratio
 
 For example, consider as a minimal viable product:
 
-*A single page with some basic introductory text and an email address to contact you; the initial focus and use would be recruitment*
+<blockquote class="post-blockquote">
+A single page with some basic introductory text and an email address to contact you; the initial focus and use would be recruitment
+</blockquote>
 
 A second iteration might include:
 
-*Changing the perception that government is a boring, bureaucratic place to work by adding information about the mission and impact of upcoming projects*
+<blockquote class="post-blockquote">
+Changing the perception that government is a boring, bureaucratic place to work by adding information about the mission and impact of upcoming projects
+</blockquote>
 
 The story behind a digital team should never stop evolving. Transition the focus of the online presence from recruitment to a more sustainable resource when you're ready.
 
@@ -95,11 +99,11 @@ On a broader scale, writing about your work helps other digital services teams g
 
 Sharing your work doesn't always have to be long-form articles. Embrace the conventional and unconventional. For example, you can share work effectively through threads and posts on Twitter. We've included some examples below.
 
-![]({{ site.baseurl }}/img/toolkits/talent/image5.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image5.png){:class="img-fluid w-50 border"}
 
 Source: [https://twitter.com/MassGovDigital/status/1055878033415041024](https://twitter.com/MassGovDigital/status/1055878033415041024)
 
-![]({{ site.baseurl }}/img/toolkits/talent/image4.png){:class="img-fluid w-50"}
+![]({{ site.baseurl }}/img/toolkits/talent/image4.png){:class="img-fluid w-50 border"}
 
 Source: [https://twitter.com/mattcutts/status/1195524566602395649](https://twitter.com/mattcutts/status/1195524566602395649)
 
