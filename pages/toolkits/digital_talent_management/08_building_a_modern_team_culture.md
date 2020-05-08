@@ -63,6 +63,7 @@ While all aspects of culture start at the top, creating a psychologically-safe e
 **Require blameless retrospectives.** Empower teams to make changes in how they work. It's important to act on all follow-ups from retrospectives. Through action, you'll show that learning from retrospectives is important to you.
 
 [How to run an agile retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
+{: .callout--alt}
 
 **During meetings and workshops, encourage all voices to be heard.** Work through how you might implement a suggestion, rather than rejecting it immediately. Discourage interruptions. Create multiple avenues for people to contribute. For example, some people may not feel comfortable speaking up, but might be happy to write some thoughts down on a post-it.
 
