@@ -167,7 +167,8 @@ Unconscious bias training helps create awareness for this ingrained bias. Have e
 - [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
 - [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
 
-### Case study: Ontario Digital Service
+<div class='bg-warning p-4 mt-5' markdown='1'>
+## Case study: Ontario Digital Service
 
 Direct communication lines between staff and leadership help empower staff to create change in their workplace. Hilary Hartley, Chief Digital Officer of the Ontario Digital Service, knows this from her time as a founding member of 18F. 18F's [Diversity, Equity, and Inclusion](https://handbook.18f.gov/diversity/) policy is a model for any level of government.
 
@@ -176,3 +177,4 @@ Ontario Digital Service adopted these principles into the [People Board](https:/
 People Board members meet every two weeks for the six months of their term and can only serve two consecutive terms to ensure other staff get an opportunity to participate.
 
 Employees know that the People Board represents them fairly, and as a result, elected members are trusted advocates. They create a feedback loop between employees and management that motivates employees to change their workplace.
+</div>

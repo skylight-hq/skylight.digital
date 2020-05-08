@@ -243,7 +243,8 @@ The HR department may not have the metrics you're looking for, so the first step
     - Work with your HR department to map the hiring process
     - Identify and improve parts of the process that can be streamlined
 
-### Case study: City and County of San Francisco
+<div class='bg-warning p-4 mt-5' markdown='1'>
+## Case study: City and County of San Francisco
 
 One might think that the overwhelming amount of digital talent in the Bay Area makes it easy to recruit for the San Francisco Digital Service. In fact, they face the same recruitment challenges as digital teams in state and local governments across the country. And they're competing against top tech companies that pay much higher salaries than local government.
 
@@ -254,3 +255,4 @@ To ease and streamline their recruiting process, the SF Digital Service team:
 - Uses a high-touch model, reaching out to prospective hires at least once a week to guide them through the process
 - Tracks hiring metrics like passthrough rates, time-to-hire, and acceptance rates using modern applicant tracking software
 - Sets candidate expectations for salary, work environment, and government culture up front, increasing the acceptance rate for job offers
+</div>

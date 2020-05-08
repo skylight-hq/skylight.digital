@@ -60,7 +60,8 @@ hiring tech talent into government.
 - Look at similar organizations for inspiration
 - Document gaps and identify benchmarks
 
-### Case study: The City of Durham
+<div class='bg-warning p-4 mt-5' markdown='1'>
+## Case study: The City of Durham
 
 The [City of Durham](https://durhamnc.gov/) in North Carolina conducts an annual workforce survey and publishes the results. While employee engagement surveys are standard across many levels of government, this survey's feedback loop makes it stand out from the rest. In addition to traditional questions to identify pain points, the survey measures whether or not employees felt action was taken after the previous survey.
 
@@ -70,3 +71,4 @@ When conducting an employee engagement survey:
 - Incorporate both open and closed questions. Open questions allow for longer, more personal responses, while closed questions have a fixed number of options to respond to (like yes/no or multiple choice). Open questions will generally produce better results. But they can also get tedious for respondents to answer, and introduce more complexity into the survey evaluation process.
 - Use the ["funnel" technique](https://www.qualtrics.com/experience-management/research/question-sequence-flow-style/) &mdash; start with questions that are easy respondents to answer, move into complex questions, and finish with simple questions.
 - Make responding as easy as possible. Only ask relevant questions, accept partial responses, and use an online survey tool that can be accessed from any device.
+</div>
