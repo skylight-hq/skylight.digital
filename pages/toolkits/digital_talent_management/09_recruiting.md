@@ -83,7 +83,7 @@ Companies that work almost exclusively with government can also be a good refere
 - [Textio](https://textio.com/products/) can help you write better, more inclusive position descriptions
 - [Hemingway App](http://www.hemingwayapp.com/) makes your writing clearer
 - [5 Must-Do's for Writing Inclusive Job Descriptions](https://business.linkedin.com/talent-solutions/blog/job-descriptions/2018/5-must-dos-for-writing-inclusive-job-descriptions)
-- [Why Women Don’t Apply for Jobs Unless They're 100% Qualified](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified)
+- [Why Women Don't Apply for Jobs Unless They're 100% Qualified](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified)
 - [Tools for government hiring](http://www.govtalent.org/)
 - [Improving the Hiring Process](https://medium.com/@bellmar/sre-as-a-lifestyle-choice-de9f5a82d73d)
 </div>
