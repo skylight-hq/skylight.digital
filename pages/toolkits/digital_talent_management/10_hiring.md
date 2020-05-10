@@ -124,7 +124,7 @@ Follow the same interview process for each candidate:
 - [Interview questions for UX designers](/work/toolkits/digital-talent-management/appendix-a-sample-interview-questions#ux-designer/)
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/interviews/)
 - [Providing tools in one place (State of Oregon)](https://www.oregon.gov/das/HR/Pages/success-plan.aspx#)
-- [It’s Better to Avoid a Toxic Employee than Hire a Superstar](https://hbr.org/2015/12/its-better-to-avoid-a-toxic-employee-than-hire-a-superstar)
+- [It's Better to Avoid a Toxic Employee than Hire a Superstar](https://hbr.org/2015/12/its-better-to-avoid-a-toxic-employee-than-hire-a-superstar)
 - [7 Practical Ways to Reduce Bias in Your Hiring Process](https://www.shrm.org/resourcesandtools/hr-topics/talent-acquisition/pages/7-practical-ways-to-reduce-bias-in-your-hiring-process.aspx)
 
 ## Checklist

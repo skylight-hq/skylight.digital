@@ -65,7 +65,7 @@ The following metrics can be used to measure the performance of your team(s):
 | Mean time to recover (MTTR) | How long it takes to restore service when an incident occurs. |
 | Change failure rate | What percentage of changes either result in degraded service or subsequently require remediation. |
 | Lead time from validated procurement need to quality minimum viable product (MVP) | How long it takes to go from a validated digital/IT procurement need to a quality MVP deployed to an initial subset of users. |
-| Digital talent density | The ratio of qualified internal digital experts to external digital/IT contractors. (Digital/IT is a critical core competency that can’t be fully outsourced in today’s world.) |
+| Digital talent density | The ratio of qualified internal digital experts to external digital/IT contractors. (Digital/IT is a critical core competency that can't be fully outsourced in today's world.) |
 | Employee Net Promoter Score (eNPS) | The degree to which employees are willing to be ambassadors for the organization. |
 | API proliferation | Number of applications/services/reports powered by APIs. |
 
