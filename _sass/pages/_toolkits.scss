@@ -22,6 +22,10 @@
   h4 {
     font-size: $font-size-h5;
   }
+
+  p, li {
+    max-width: 68ex;
+  }
 }
 
 .page-creating-a-productive-and-collaborative-work-environment {
@@ -32,6 +36,7 @@
 }
 
 @mixin callout {
+  max-width: calc(68ex + 3rem);
   padding: 1.5rem;
 
   > *:last-child {
