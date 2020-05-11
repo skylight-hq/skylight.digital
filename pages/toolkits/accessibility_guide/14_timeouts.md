@@ -19,16 +19,33 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
 
 ## Examples
 
+{:.passes}
+{:.passes}
 ### Passes
 
 Fill out this form
 
 <form id="pForm">
-<label for="t1">Field 1</label>&nbsp;<input type="text" id="t1"><br>
-<label for="t2">Field 2</label>&nbsp;<input type="text" id="t2"><br>
-<label for="t3">Field 3</label>&nbsp;<input type="text" id="t3"><br>
-<label for="t4">Field 4</label>&nbsp;<input type="text" id="t4"><br>
-<label for="t5">Field 5</label>&nbsp;<input type="text" id="t5"><br>
+  <div class="form-group col-sm-5">
+    <label for="t1">Field 1</label>
+    <input class="form-control" type="text" id="t1">
+  </div>
+  <div class="form-group col-sm-5">
+    <label for="t2">Field 2</label>
+    <input class="form-control" type="text" id="t2">
+  </div>
+  <div class="form-group col-sm-5">
+    <label for="t3">Field 3</label>
+    <input class="form-control" type="text" id="t3">
+  </div>
+  <div class="form-group col-sm-5">
+    <label for="t4">Field 4</label>
+    <input class="form-control" type="text" id="t4">
+  </div>
+  <div class="form-group col-sm-5">
+    <label for="t5">Field 5</label>
+    <input class="form-control" type="text" id="t5">
+  </div>
 </form>
 
 > This passes because a timeout does occur, but you're given more than 20 seconds to request more time.

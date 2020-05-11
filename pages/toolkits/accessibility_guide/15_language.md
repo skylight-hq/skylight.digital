@@ -18,13 +18,15 @@ Setting the language of your site allows assistive technology to interacts with 
 
 ## Examples
 
+{:.fails}
 ### Fails
 
 Sus ojos son verdes.
 
 > This text is Spanish and lacks a ```lang``` attribute.
 
-#### Passes
+{:.passes}
+### Passes
 
 <p lang="es">Sus ojos son verdes.</p>
 

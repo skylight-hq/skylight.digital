@@ -23,7 +23,9 @@ Failure at any step below constitutes a 508 compliance issue.
 
 ## Examples
 
-#### Fails
+{:.fails}
+### Fails
+
 <div class="row">
   <div class="col-sm-5">
     <button class="btn btn-primary" type="button" id="blinkbutton">
@@ -35,4 +37,4 @@ Failure at any step below constitutes a 508 compliance issue.
   </div>
 </div>
 
-> This blinking text fails because the rate of flashing can't be determined and its greater than 3 Hz.
+> This blinking text fails because the rate of flashing can't be determined and its greater than 3Hz.

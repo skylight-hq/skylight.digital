@@ -36,6 +36,7 @@ Logos, disabled form fields, and disabled buttons are **exempt** from this test 
 
 ## Examples
 
+{:.fails}
 ### Fails
 
 <span style = "color:#58AA02">This text fails.</span>
@@ -58,6 +59,7 @@ Logos, disabled form fields, and disabled buttons are **exempt** from this test 
 
 > This fails because the contrast ratio between the link and surrounding text is less than 3:1.
 
+{:.passes}
 ### Passes
 
 <span style = "color:#458503">This text passes.</span>

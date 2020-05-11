@@ -32,16 +32,16 @@ Hiding content is very useful for accessibility. We can hide things visually and
     }
   ```
 {% endcapture %}
-<table class="table">
+<table class="table table-bordered">
 <thead>
-  <tr>
+  <tr class='table-active'>
     <th style="width:40%;" scope="col">
       Technique
     </th>
     <th scope="col">
       Visually Hidden
     </th>
-    <th scope="col">
+    <th scope="col" style='font-size: 1.05rem'>
       Screen reader hidden
     </th>
     <th scope="col">
