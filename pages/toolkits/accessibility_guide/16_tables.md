@@ -10,7 +10,10 @@ When tables are used to show data, the header cells that relate to the data cell
 
 **Simple tables** can have up to two levels of headings. One row of headers and/or one column of headings. A table with more than one row, or more than one column of headings, is considered to be a complex table. Each table header cell should have `<th scope="col">` or `<th scope="row">`.
 
-**Note:** Simple tables with headers in the first row and/or column don't actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either `scope` or `id` attributes.
+<div class="callout--alt" markdown='1'>
+<h2 class='h3'>Note</h2>
+Simple tables with headers in the first row and/or column don't actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either `scope` or `id` attributes.
+</div>
 
 Complex tables are tables with more than two levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cell's `id` listed.
 
@@ -26,6 +29,7 @@ If a table has text associated with it, ensure the text is programatically linke
 
 ## Examples
 
+{:.passes}
 ### Passes
 
 #### Simple table

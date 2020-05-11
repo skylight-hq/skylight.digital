@@ -25,4 +25,28 @@
     margin-bottom: 0; // Override default `<label>` bottom margin
     cursor: pointer;
   }
+
+  .passes:after {
+    display: inline-block;
+    content: '  ';
+    background-image: url('/img/check-circle-solid.svg');
+    background-size: 14px 14px;
+    height: 14px;
+    width: 14px;
+    margin-left: 5px;
+  }
+
+  .fails:after {
+    display: inline-block;
+    content: '  ';
+    background-image: url('/img/times-circle-solid.svg');
+    background-size: 14px 14px;
+    height: 14px;
+    width: 14px;
+    margin-left: 5px;
+  }
+  .h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
+  }
 }
