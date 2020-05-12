@@ -29,7 +29,9 @@
 
   {% assign page_url = page.url %}
 
-  {% if page.title %}
+  {% if page.content_type == 'Toolkit' %}
+    {% assign title = page.title %}
+  {% elsif page.title %}
     {% assign title = site_title | append: ' | ' | append: (page.title | xml_escape) %}
   {% else %}
     {% assign title = site_title %}
@@ -37,6 +39,8 @@
 
   {% if page.excerpt %}
     {% assign description = page.excerpt | xml_escape %}
+  {% elsif page.description %}
+    {% assign description = page.description | xml_escape %}
   {% else %}
     {% assign description = site_description %}
   {% endif %}
@@ -50,7 +54,7 @@
   {% endif %}
 
   {% if page.tags.size > 0 %}
-    {% assign keywords = page.tags | array_to_sentence_string %}
+    {% assign keywords = page.tags | join: ', ' %}
   {% else %}
     {% assign keywords = site_keywords %}
   {% endif %}
@@ -127,9 +131,9 @@
        "height": "{{site_logo_height}}",
        "width": "{{site_logo_width}}"
      },
-     "foundingDate": "2016",
+     "foundingDate": "2017",
      "founders": [
-        { "@type": "Person", "name": "Sean Johnson" }
+        { "@type": "Person", "name": "Chris Cairns" }
       ],
      "address": {
        "@type": "PostalAddress",

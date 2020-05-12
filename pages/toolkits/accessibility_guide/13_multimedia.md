@@ -1,10 +1,14 @@
 ---
-title: Multimedia
+layout: toolkit
+title: Multimedia | Skylight Accessibility Guide
 description: "How we deal with multimedia"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/multimedia/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Multimedia
 
 When using multimedia, we must provide means for everyone to consume the media. Multimedia is anything that uses audio and video.
 

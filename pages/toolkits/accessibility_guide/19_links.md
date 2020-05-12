@@ -1,10 +1,14 @@
 ---
-title: Links and repetitive content
+layout: toolkit
+title: Links and repetitive content | Skylight Accessibility Guide
 description: "How we deal with links and repetitive content"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/links/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Links
 
 Links are commonly used to quickly navigate a site when someone is using AT. Often, screen reader users won't read through an entire page to find what they are looking for. They simply move from link to link.
 
@@ -47,6 +51,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 
 ## Examples
 
+{:.passes}
 ### Passes
 
 Home <a href="../" title="home">Click Here</a>

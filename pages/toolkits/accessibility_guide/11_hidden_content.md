@@ -1,10 +1,14 @@
 ---
-title: Hidden content
+layout: toolkit
+title: Hidden content | Skylight Accessibility Guide
 description: "How and when to hide content"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/hidden-content/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Hidden content
 
 Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both.
 
@@ -32,16 +36,16 @@ Hiding content is very useful for accessibility. We can hide things visually and
     }
   ```
 {% endcapture %}
-<table class="table">
+<table class="table table-bordered">
 <thead>
-  <tr>
+  <tr class='table-active'>
     <th style="width:40%;" scope="col">
       Technique
     </th>
     <th scope="col">
       Visually Hidden
     </th>
-    <th scope="col">
+    <th scope="col" style='font-size: 1.05rem'>
       Screen reader hidden
     </th>
     <th scope="col">

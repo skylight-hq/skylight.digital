@@ -1,8 +1,11 @@
 ---
 layout: toolkit
-title: Appendix B&#58; Linking datasets
+title: Appendix B&#58; Linking datasets | Skylight Data Sharing Playbook
+description: A guide for state & local agencies on how to improve cross-organizational data sharing.
+tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets/
 sidenav: data_sharing_playbook
+content_type: Toolkit
 ---
 
 # Appendix B: Linking datasets

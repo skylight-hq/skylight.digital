@@ -1,8 +1,11 @@
 ---
 layout: toolkit
-title: Appendix A&#58; Sample interview questions
+title: Appendix A&#58; Sample interview questions | Skylight Digital Talent Management Handbook
+description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/appendix-a-sample-interview-questions/
 sidenav: digital_talent_management
+content_type: Toolkit
 ---
 
 # Appendix A: Sample interview questions

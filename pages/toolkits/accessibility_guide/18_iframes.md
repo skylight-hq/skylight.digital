@@ -1,10 +1,15 @@
 ---
-title: iFrames
+layout: toolkit
+title: iFrames | Skylight Accessibility Guide
 description: "How we deal with iFrames"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/iframes/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# iFrames
+
 When using `iframe`s, it's important that all content contained in them is accessible.
 
 ## Testing
@@ -15,6 +20,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 
 ## Examples
 
+{:.fails}
 ### Fails
 
 <iframe src="../iframeform/"></iframe>
@@ -33,6 +39,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 
 > This `name` isn't correct.
 
+{:.passes}
 ### Passes
 
 <iframe src="../iframeform/" title="Provide Name Form"></iframe>

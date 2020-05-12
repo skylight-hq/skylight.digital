@@ -1,10 +1,14 @@
 ---
-title: Checklist
+layout: toolkit
+title: Checklist | Skylight Accessibility Guide
 description: "A simple checklist for determining if your site is accessible"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/checklist/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Checklist
 
 This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: **A**, **B** and, **C**. Please check and address these issues in the order in which they appear:
 
