@@ -6,6 +6,7 @@ tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/flashing/
 sidenav: accessibility_guide
 content_type: Toolkit
+toolkit_name: accessibility-guide
 scripts:
   - js/accessibility/flashing.js
 ---
@@ -33,12 +34,14 @@ Failure at any step below constitutes a 508 compliance issue.
 
 <div class="row">
   <div class="col-sm-5">
-    <button class="btn btn-primary" type="button" id="blinkbutton">
-      Click to see non-compliant flashing
-    </button>
+    <p>
+      <button class="btn btn-primary" type="button" id="blinkbutton">
+        Click to see non-compliant flashing
+      </button>
+    </p>
   </div>
   <div class="col-sm-3">
-    <span class="blink" style="display:none;">Blinking Text</span>
+    <p class="blink" style="display:none;">Blinking Text</p>
   </div>
 </div>
 
