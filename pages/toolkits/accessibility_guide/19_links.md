@@ -51,6 +51,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 
 ## Examples
 
+{:.passes}
 ### Passes
 
 Home <a href="../" title="home">Click Here</a>

@@ -20,6 +20,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 
 ## Examples
 
+{:.fails}
 ### Fails
 
 <iframe src="../iframeform/"></iframe>
@@ -38,6 +39,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 
 > This `name` isn't correct.
 
+{:.passes}
 ### Passes
 
 <iframe src="../iframeform/" title="Provide Name Form"></iframe>

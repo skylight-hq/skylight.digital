@@ -40,6 +40,7 @@ lorum ipsum
 
 ## Examples
 
+{:.passes}
 ### Passes
 
 <div>
@@ -78,6 +79,7 @@ lorum ipsum
 
 > This section has a main category and two subcategories. The subcategories are on the same level and as such use the the same heading element.
 
+{:.fails}
 ### Fails
 
 <div>
