@@ -1,10 +1,14 @@
 ---
-title: Landmarks
+layout: toolkit
+title: Landmarks | Skylight Accessibility Guide
 description: "Proper page layout using Landmarks"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/landmarks/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Landmarks
 
 All elements on a page should be contained in a landmark element. This helps users of AT quickly navigate a page. HTML5 provides built-in landmark elements such as `main`, `nav`, `aside`, `header`, `footer`. When using HTML5 elements, don't define role.
 

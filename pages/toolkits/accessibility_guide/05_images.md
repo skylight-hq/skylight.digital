@@ -1,10 +1,14 @@
 ---
-title: Images
-description: 'How we work with images'
+layout: toolkit
+title: Images | Skylight Accessibility Guide
+description: "How we work with images"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/images/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Images
 
 When using images on a page, you must provide an alternate method for that content. This can be provided in multiple ways. You can provide this information with a caption, `alt` attribute (`alt` tag), `title` attribute, or `aria-label` attribute. If an image has text, all the text in the image must be provided in the alternate content. No matter which method is used, an `alt` or title attribute must be provided, even if the attribute is blank.
 
@@ -46,7 +50,7 @@ When using images on a page, you must provide an alternate method for that conte
 ```
 
 > Acceptable, but less compatible with certain assistive technologies.
-> Clear title attribute with all text included. 
+> Clear title attribute with all text included.
 
 <hr>
 

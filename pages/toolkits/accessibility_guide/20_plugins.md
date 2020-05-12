@@ -1,10 +1,14 @@
 ---
-title: Plugins
+layout: toolkit
+title: Plugins | Skylight Accessibility Guide
 description: "How we deal with plugins"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/plugins/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Plugins
 
 Plugins provide extended functionality not native to the browser. Examples include PDF, Flash, Shockwave, Silverlight, and Java.
 

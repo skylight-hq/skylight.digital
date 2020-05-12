@@ -1,9 +1,14 @@
 ---
-layout: toolkit-accessibility
-title: Introduction
+layout: toolkit
+title: Introduction | Skylight Accessibility Guide
+description: Tools and practices for making products and services accessible to everyone.
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Introduction
 
 Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And least of all, it's required by law for all federal EIT (electronic information technology) products to be accessible (with a few minor exceptions).
 
