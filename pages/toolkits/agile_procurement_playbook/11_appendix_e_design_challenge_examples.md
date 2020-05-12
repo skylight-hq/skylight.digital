@@ -1,8 +1,11 @@
 ---
 layout: toolkit
-title: Appendix E&#58; Design challenge examples
+title: Appendix E&#58; Design challenge examples | Skylight Agile Procurement Playbook
+description: A guide on how to apply the principles of agile to procurement.
+tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-e-design-challenge-examples/
 sidenav: agile_procurement_playbook
+content_type: Toolkit
 ---
 
 # Appendix E: Design challenge examples

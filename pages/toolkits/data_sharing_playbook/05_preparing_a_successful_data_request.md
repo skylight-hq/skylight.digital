@@ -1,8 +1,11 @@
 ---
 layout: toolkit
-title: Preparing a successful data request
+title: Preparing a successful data request | Skylight Data Sharing Playbook
+description: A guide for state & local agencies on how to improve cross-organizational data sharing.
+tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request/
 sidenav: data_sharing_playbook
+content_type: Toolkit
 ---
 
 # Preparing a successful data request

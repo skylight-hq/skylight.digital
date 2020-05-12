@@ -1,10 +1,14 @@
 ---
-title: Tables
+layout: toolkit
+title: Tables | Skylight Accessibility Guide
 description: "How we deal with tables"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/tables/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Tables
 
 When tables are used to show data, the header cells that relate to the data cells need to be programatically linked. This makes table navigation for screen readers less painful.
 

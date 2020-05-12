@@ -1,10 +1,14 @@
 ---
-title: Training and videos
+layout: toolkit
+title: Training and videos | Skylight Accessibility Guide
 description: "Videos and trainings from around the web"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/training-videos/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Training and videos
 
 There are tons of great talks and videos about accessibility online. This is a collection of videos we found useful.
 

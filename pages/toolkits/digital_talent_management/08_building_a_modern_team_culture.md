@@ -1,8 +1,11 @@
 ---
 layout: toolkit
-title: Building a modern team culture
+title: Building a modern team culture | Skylight Digital Talent Management Handbook
+description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/building-a-modern-team-culture/
 sidenav: digital_talent_management
+content_type: Toolkit
 ---
 
 # Building a modern team culture

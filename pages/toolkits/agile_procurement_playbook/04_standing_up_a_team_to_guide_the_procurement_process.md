@@ -1,8 +1,11 @@
 ---
 layout: toolkit
-title: Standing up a team to guide the procurement process
+title: Standing up a team to guide the procurement process | Skylight Agile Procurement Playbook
+description: A guide on how to apply the principles of agile to procurement.
+tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/standing-up-a-team-to-guide-the-procurement-process/
 sidenav: agile_procurement_playbook
+content_type: Toolkit
 ---
 
 # Standing up a team to guide the procurement process

@@ -1,8 +1,11 @@
 ---
 layout: toolkit
-title: Guiding your digital transformation
+title: Guiding your digital transformation | Skylight Digital Talent Management Handbook
+description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/guiding-your-digital-transformation/
 sidenav: digital_talent_management
+content_type: Toolkit
 ---
 
 # Guiding your digital transformation

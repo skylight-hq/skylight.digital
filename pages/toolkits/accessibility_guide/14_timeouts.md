@@ -1,12 +1,16 @@
 ---
-title: Timeouts
+layout: toolkit
+title: Timeouts | Skylight Accessibility Guide
 description: "How we deal with time outs"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/timeouts/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
 scripts:
   - js/accessibility/timeouts.js
+content_type: Toolkit
 ---
+
+# Timeouts
 
 If timeouts are used, you must give the user at least 20 seconds to easily request more time.
 
