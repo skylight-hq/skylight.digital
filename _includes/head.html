@@ -54,7 +54,7 @@
   {% endif %}
 
   {% if page.tags.size > 0 %}
-    {% assign keywords = page.tags | array_to_sentence_string: '' %}
+    {% assign keywords = page.tags | join: ', ' %}
   {% else %}
     {% assign keywords = site_keywords %}
   {% endif %}
