@@ -1,10 +1,14 @@
 ---
-title: Headings
+layout: toolkit
+title: Headings | Skylight Accessibility Guide
 description: "Proper use of heading elements"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/headings/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Headings
 
 When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/).
 
@@ -36,6 +40,7 @@ lorum ipsum
 
 ## Examples
 
+{:.passes}
 ### Passes
 
 <div>
@@ -74,6 +79,7 @@ lorum ipsum
 
 > This section has a main category and two subcategories. The subcategories are on the same level and as such use the the same heading element.
 
+{:.fails}
 ### Fails
 
 <div>

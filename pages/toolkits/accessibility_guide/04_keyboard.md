@@ -1,12 +1,16 @@
 ---
-title: Keyboard access
+layout: toolkit
+title: Keyboard access | Skylight Accessibility Guide
 description: "How we work with keyboards only"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/keyboard/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 scripts:
   - js/accessibility/keyboard-access.js
 ---
+
+# Keyboard access
 
 Keyboard access to a website is key to the usability of your site. All interactions and information that can be accessed with a mouse **must** be accessible with just a keyboard. This doesn't mean everyone who can't use a mouse will use a keyboard, but alternative AT inputs use keyboard-like inputs to navigate the web.
 

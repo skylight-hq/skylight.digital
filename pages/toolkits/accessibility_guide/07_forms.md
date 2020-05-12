@@ -1,10 +1,14 @@
 ---
-title: Forms
+layout: toolkit
+title: Forms | Skylight Accessibility Guide
 description: "How we work with forms"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/forms/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# Forms
 
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.
 
@@ -22,6 +26,8 @@ Making forms accessible is a simple process. Each form element should be associa
   * Title attributes aren't accessible via keyboard.
 
 ## Examples
+
+{:.passes}
 ### Passes
 
 <fieldset class="form-group col-sm-8">
@@ -86,6 +92,7 @@ Code examples do not include styling markup for clarity of the technique being e
 
 > ***Favorite Soup:*** ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
+{:.fails}
 ### Fails
 
 <fieldset class="form-group col-sm-8">

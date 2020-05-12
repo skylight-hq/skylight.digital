@@ -1,12 +1,17 @@
 ---
-title: Flashing
+layout: toolkit
+title: Flashing | Skylight Accessibility Guide
 description: "How we deal with flashing"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/flashing/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 scripts:
   - js/accessibility/flashing.js
 ---
+
+# Flashing
+
 Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element, there are a few things to consider.
 
 ## Testing
@@ -23,7 +28,9 @@ Failure at any step below constitutes a 508 compliance issue.
 
 ## Examples
 
-#### Fails
+{:.fails}
+### Fails
+
 <div class="row">
   <div class="col-sm-5">
     <button class="btn btn-primary" type="button" id="blinkbutton">
@@ -35,4 +42,4 @@ Failure at any step below constitutes a 508 compliance issue.
   </div>
 </div>
 
-> This blinking text fails because the rate of flashing can't be determined and its greater than 3 Hz.
+> This blinking text fails because the rate of flashing can't be determined and its greater than 3Hz.

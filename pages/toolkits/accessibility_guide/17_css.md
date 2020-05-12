@@ -1,10 +1,14 @@
 ---
-title: CSS dependence
+layout: toolkit
+title: CSS dependence | Skylight Accessibility Guide
 description: "How we deal with CSS"
+tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/css/
-layout: toolkit-accessibility
 sidenav: accessibility_guide
+content_type: Toolkit
 ---
+
+# CSS dependence
 
 CSS dependence refers to sites that rely on CSS to be functional or understandable. This is a concern for accessibility because most assistive technology ignores CSS.
 
