@@ -6,6 +6,7 @@ tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/keyboard/
 sidenav: accessibility_guide
 content_type: Toolkit
+toolkit_name: accessibility-guide
 scripts:
   - js/accessibility/keyboard-access.js
 ---
