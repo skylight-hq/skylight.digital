@@ -1,12 +1,8 @@
-.accessibility-toolkit {
+.accessibility-guide{
   blockquote {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+    @extend .callout--alt;
   }
-  
+
   fieldset {
     border: 1px solid #393939;
     border-radius: 0.6rem;
@@ -49,4 +45,5 @@
     font-size: 1.25rem;
     margin-bottom: 0.5em;
   }
+  
 }

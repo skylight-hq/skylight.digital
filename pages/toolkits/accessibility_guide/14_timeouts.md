@@ -8,6 +8,7 @@ sidenav: accessibility_guide
 scripts:
   - js/accessibility/timeouts.js
 content_type: Toolkit
+toolkit_name: accessibility-guide
 ---
 
 # Timeouts

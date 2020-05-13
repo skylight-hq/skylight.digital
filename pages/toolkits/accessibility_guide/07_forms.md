@@ -6,6 +6,7 @@ tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/forms/
 sidenav: accessibility_guide
 content_type: Toolkit
+toolkit_name: accessibility-guide
 ---
 
 # Forms
@@ -30,9 +31,9 @@ Making forms accessible is a simple process. Each form element should be associa
 {:.passes}
 ### Passes
 
-<fieldset class="form-group col-sm-8">
+<fieldset class="accessibility-fieldset form-group col-sm-8">
   <div class="row">
-    <legend class="col-form-label col-sm-2 pt-0">Name</legend>
+    <legend class="accessibility-legendcol-form-label col-sm-2 pt-0">Name</legend>
     <div class="col-sm-8">
       <div class="form-group">
         <label for="firstname">First</label>
@@ -46,9 +47,9 @@ Making forms accessible is a simple process. Each form element should be associa
   </div>
 </fieldset>
 
-<fieldset class="form-group col-sm-8">
+<fieldset class="accessibility-fieldset form-group col-sm-8">
   <div class="row">
-    <legend class="col-form-label col-sm-3 pt-0">Favorite Soup?</legend>
+    <legend class="accessibility legend col-form-label col-sm-3 pt-0">Favorite Soup?</legend>
     <div class="col-sm-9">
       <div class="form-check">
         <input class="form-check-input" type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup">
@@ -88,16 +89,18 @@ Code examples do not include styling markup for clarity of the technique being e
 </fieldset>
 ```
 
-> ***Name:*** Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, "First" and "Last" wouldn't make sense without "Name." This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
+> #### First and Last Name Form
+> Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, "First" and "Last" wouldn't make sense without "Name." This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
 
-> ***Favorite Soup:*** ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
+> #### Favorite Soup Form
+> ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
 {:.fails}
 ### Fails
 
-<fieldset class="form-group col-sm-8">
+<fieldset class="accessibility-fieldset form-group col-sm-8">
   <div class="row">
-    <legend class="col-form-label col-sm-2 pt-0">Name</legend>
+    <legend class="accessibility-legend col-form-label col-sm-2 pt-0">Name</legend>
     <div class="col-sm-8">
       <div class="form-group">
         <label for="first_name-2">First</label>
@@ -111,13 +114,13 @@ Code examples do not include styling markup for clarity of the technique being e
   </div>
 </fieldset>
 
-<fieldset class="form-group col-sm-8">
+<fieldset class="accessibility-fieldset form-group col-sm-8">
   <div class="row">
     <div class="col-sm-2"></div>
     <div class="col-sm-10">
       <span style="color:#990000;">This Question Is Required</span>
     </div>
-    <legend class="col-form-label col-sm-3 pt-0">Favorite Soup?</legend>
+    <legend class="accessibility-legend col-form-label col-sm-3 pt-0">Favorite Soup?</legend>
     <div class="col-sm-9">
       <div class="form-check">
         <input class="form-check-input" type="radio" name="soup" value="pea" id="pea-2" title="Chick Pea Soup">
@@ -155,13 +158,11 @@ Code examples do not include styling markup for clarity of the technique being e
 <br>
 ```
 
-> ***Failure:*** First name label ```for``` and ```id``` don't match.
-
-> ***Failure:*** Last name has an invalid ```id```.
-
-> ***Failure:*** "This Question Is Required" isn't associated with the form fields.
-
-> ***Failure:*** The ```title``` tag for Pea Soup indicates it's "Chick Pea Soup." This information isn't available to keyboard, sighted users.
+> #### Failing Elements
+> - First name label ```for``` and ```id``` don't match.
+> - Last name has an invalid ```id```.
+> - "This Question Is Required" isn't associated with the form fields.
+> - The ```title``` tag for Pea Soup indicates it's "Chick Pea Soup." This information isn't available to keyboard, sighted users.
 
 ### How ARIA affects form inputs
 
