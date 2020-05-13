@@ -126,6 +126,13 @@ h1 {
     ul {
       li::before {
         content: '\25E6';
+        font-size: $font-size-small;
+        margin-top: 1px;
+
+        @-moz-document url-prefix() {
+          font-size: 28px;
+          margin-top: -8px;
+        }
       }
     }
   }
