@@ -67,7 +67,7 @@ Data owners are accountable for the proper use and security of their data. In or
 - How communication between your agency and your partner agency will take place (should there be weekly check-ins about the data usage? reports filed about data activity? etc.)
 
 <div class="callout--alt" markdown="1">
-## Recommended reading
+### Recommended reading
 
 - [Getting Organized: Steps to Take before Negotiating](https://www.neighborhoodindicators.org/library/guides/getting-organized-steps-take-negotiating)
 - [Safeguarding data: Develop privacy and security compliance policies, standards, and controls](/work/toolkits/data-sharing-playbook/safeguarding-data#develop-privacy-and-security-compliance-policies-securities-and-controls)
@@ -92,7 +92,7 @@ It may also help to think about how you will respond if your first request is de
 - "The data are a mess."
 
 <div class="callout--alt" markdown="1">
-## Recommended reading
+### Recommended reading
 
 - [Why Data Providers Say No...And Why They Should Say Yes](https://www.neighborhoodindicators.org/library/guides/why-data-providers-say-noand-why-they-should-say-yes)
 </div>

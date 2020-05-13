@@ -62,7 +62,7 @@ When tracking metadata, it's important to:
 - Avoid acronyms and language that might be specific to you or your agency, since metadata can help recipients of data sharing understand what a dataset is all about
 
 <div class="callout--alt" markdown="1">
-## Recommended reading
+### Recommended reading
 
 - [Manually creating a data dictionary](https://data.nal.usda.gov/manually-creating-data-dictionary)
 - [Smithsonian data management best practices](https://data.nal.usda.gov/manually-creating-data-dictionary)
@@ -80,9 +80,11 @@ The data that government agencies, academic researchers, and other organizations
 
 Consider possible sources of bias in your agency's data carefully. If you don't identify possible bias, communicate it to data requesters, and work to reduce it, the decisions made based on your data may have unintended, serious societal implications.
 
-### Here's an example of how implicit bias can have unintended consequences:
+<div class="callout" markdown="1">
+### An example of how implicit bias can have unintended consequences:
 
 Researchers discovered that a major health provider's algorithm favored white patients over black patients when deciding who would benefit from extra medical care. The researchers attributed the algorithm's bias to the data that was used to create it. Researchers noted that the health provider attempted to prevent bias by omitting the patient's race in the algorithm. Nevertheless, the algorithm amplified underlying inequities in access to healthcare. In the U.S., white patients incur more medical costs than black patients due to long-standing disparities in wealth and access to healthcare. Because of this difference in access to care, the algorithm perpetuated the disparity by determining that white patients would benefit more from extra medical care than sicker black patients. (Source: [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/).)
+</div>
 
 ## Work to eliminate possible sources of bias.
 
@@ -91,7 +93,7 @@ Data analysts are ultimately responsible for how they use your agency's data; ho
 First, be open about the limitations of the agency's data to reduce the likelihood that it will be used in ways that have unintended consequences. Second, work towards systemic changes to data collection practices. Finally, require data requesters to demonstrate responsible use of your agency's data. The recommended reading below provides guidance on identifying and eliminating sources of implicit bias.
 
 <div class="callout--alt" markdown="1">
-## Recommended reading
+### Recommended reading
 
  - [Algorithmic Justice League](https://www.ajlunited.org/)
  - [Confronting Structural Racism in Research and Policy Analysis](https://www.urban.org/sites/default/files/publication/99852/confronting_structural_racism_in_research_and_policy_analysis_0.pdf)

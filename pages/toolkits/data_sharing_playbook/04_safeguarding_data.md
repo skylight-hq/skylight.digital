@@ -54,7 +54,7 @@ State agencies need to understand the laws that govern each dataset based on its
 - How data are disposed of
 
 <div class="callout--alt" markdown="1">
-## Recommended reading
+### Recommended reading
 
 - [The Health Insurance Information Portability and Accountability Act of 1966 (HIPAA): Implications for Research with Administrative Records](https://www.datanetwork.org/wp-content/uploads/CDN-HIPAA-Overview_Final.pdf)
 - [Family Educational Rights Privacy Act of 1974 (FERPA): Implications for Research with Administrative Records](https://www.datanetwork.org/wp-content/uploads/CDN-FERPA-Overview_Final.pdf)
