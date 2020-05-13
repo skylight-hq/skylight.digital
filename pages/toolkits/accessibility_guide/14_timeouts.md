@@ -28,7 +28,7 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
 {:.passes}
 ### Passes
 
-Fill out this form
+Fill out this form:
 
 <form id="pForm">
   <div class="form-group col-sm-5">

@@ -16,7 +16,7 @@ Plugins provide extended functionality not native to the browser. Examples inclu
 Anytime a plugin is used on a page, they must be tested for accessibility.
 
 <div class="callout--alt" markdown='1'>
-  <h2 class='h3'>Pro-tip</h2>
+## Professional tip
 Flash always fails for accessibility but is often given an exception.
 </div>
 

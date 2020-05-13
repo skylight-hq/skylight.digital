@@ -13,13 +13,13 @@ toolkit_name: accessibility-guide
 
 This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: **A**, **B** and, **C**. Please check and address these issues in the order in which they appear:
 
- * **A &mdash;** Critical issues that'll cause serious problems and/or stop most users of assistive technology from using the site.
- * **B &mdash;** Issues that may cause problems or increased frustration for certain users.
- * **C &mdash;** Minor issues that'll cause problems or frustration for a small number of users
+ * **A &ndash;** Critical issues that'll cause serious problems and/or stop most users of assistive technology from using the site.
+ * **B &ndash;** Issues that may cause problems or increased frustration for certain users.
+ * **C &ndash;** Minor issues that'll cause problems or frustration for a small number of users
 
 It's important to note, while **B** and **C** are noted as less critical, they're still required to be truly Section 508 compliant. This checklist should be used as a reference for development and isn't a substitute for compliance checks by a Section 508 coordinator.
 
-##  A &mdash; Critical
+##  A &ndash; Critical
 
 1. <a href='../keyboard/'>Site is keyboard accessible</a>
  * All interactions can be accessed with a keyboard
@@ -33,7 +33,7 @@ It's important to note, while **B** and **C** are noted as less critical, they'r
 7. <a href='../color/'>Text has sufficient color contrast</a>
  * All text has a contrast ratio of 4.5:1 with the background
 
-## B &mdash; Less Critical
+## B &ndash; Less Critical
 
 1. <a href='../keyboard/'>Site never loses focus</a>
  * Focus is always visible when moving through the page with the keyboard
@@ -46,7 +46,7 @@ It's important to note, while **B** and **C** are noted as less critical, they'r
 6. <a href='../headings/'>Headings are nested properly</a>
  * Heading elements are nested in a logical way
 
-## C &mdash; Minor
+## C &ndash; Minor
 1. <a href='../iframes/'>Frames are named</a>
  * All frames have a name element
 2. <a href='../flashing/'>Flashing elements are compliant</a>

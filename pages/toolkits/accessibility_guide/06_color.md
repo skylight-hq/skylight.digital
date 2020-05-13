@@ -27,9 +27,8 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 <div class="callout--alt" markdown='1'>
 #### Note
-Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text.
-
-Logos, disabled form fields, and disabled buttons are **exempt** from this test and don't need to be tested for contrast.
+- Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text.
+- Logos, disabled form fields, and disabled buttons are **exempt** from this test and don't need to be tested for contrast.
 </div>
 
 ### Color dependence

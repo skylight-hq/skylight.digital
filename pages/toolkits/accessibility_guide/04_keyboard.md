@@ -63,7 +63,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 </div>
 ```
 
-> Avoid using tabindex of >= 1 as this will disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
+Avoid using tabindex of >= 1 as this will disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
 
 <h4 id="keyboard-trap">Keyboard Trap</h4>
 
@@ -79,4 +79,4 @@ Keyboard access to a website is key to the usability of your site. All interacti
 
 <a class="sr-only moveFocus" href="#">hidden</a>
 
-> This is an example of a keyboard trap. Focus moves in a loop making the rest of the page inaccessible. A quick test is to tab through the page quickly and ensure you can get focus back to the address bar.
+This is an example of a keyboard trap. Focus moves in a loop making the rest of the page inaccessible. A quick test is to tab through the page quickly and ensure you can get focus back to the address bar.
