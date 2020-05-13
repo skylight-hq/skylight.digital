@@ -60,6 +60,10 @@
 .accordion-card-body {
   padding: 20px;
   border: 1px solid $brand-primary;
+
+  p + p {
+    margin-top: 1em;
+  }
 }
 
 .can-touch .accordion-header a {
