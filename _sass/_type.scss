@@ -116,7 +116,7 @@ h1 {
     }
   }
 
-  ul {
+  ul:not(.list-checklist) {
     li::before {
       @extend %rounded-circle;
       content: '\2022';
