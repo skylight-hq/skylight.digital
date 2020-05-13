@@ -24,7 +24,13 @@ Plan to offer incentives and opportunities for continuously training your staff.
 
 Technology staff will benefit from the opportunity to learn new languages, tools, and technologies. Everyone should learn human-centered design, product management, and agile project management, among other topics. Digital transformation requires everyone to participate.
 
-High-quality courses are available online from companies like [Udacity](https://www.udacity.com/), [edX](https://www.edx.org/), [Coursera](https://www.coursera.org/), [Agile Government Leaders Academy](https://www.agilegovleaders.org/academy/), and [General Assembly](https://generalassemb.ly/).
+High-quality courses are available online from companies like:
+
+- [Udacity](https://www.udacity.com/)
+- [edX](https://www.edx.org/)
+- [Coursera](https://www.coursera.org/)
+- [Agile Government Leaders Academy](https://www.agilegovleaders.org/academy/)
+- [General Assembly](https://generalassemb.ly/)
 
 ## Make it easy for staff to attend conferences
 
@@ -36,11 +42,9 @@ Some conferences worth attending:
 - [Strange Loop](https://www.thestrangeloop.com/)
 - [An Event Apart](https://aneventapart.com/)
 
-<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [Maine Workforce 2025](https://www.maine.gov/bhr/sites/maine.gov.bhr/files/inline-files/MaineWorkforce2025.pdf)
-</div>
 
 <div class="callout" markdown="1">
 ## Case study: Peak Academy

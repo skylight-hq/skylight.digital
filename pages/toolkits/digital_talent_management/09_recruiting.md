@@ -45,15 +45,14 @@ Too often, job descriptions list every single technology under the sun. Narrow t
 
 Shorter, more realistic requirements lists show that you understand what you need. And they'll also bring in a more diverse applicant pool.
 
-"Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements." [^11]
-
 <blockquote class="post-blockquote" cite="https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified">
 <p>"Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements."</p>
 <cite><strong>Tara Sophia Mohr</strong></cite>
 </blockquote>
 
-<div class="callout--alt" markdown="1">
-### Outline of a position description
+### Sections of a position description
+
+The following position description outline is adapted from [18F's position descriptions](https://join.tts.gsa.gov/):
 
 - Location
 - Salary range and benefits
@@ -62,9 +61,6 @@ Shorter, more realistic requirements lists show that you understand what you nee
 - 3 to 5 key objectives for the role
 - How applications will be evaluated
 - A distilled list of the top priority qualifications
-</div>
-
-The position description outline is adapted from 18F's position descriptions, viewable here: [https://join.tts.gsa.gov/](https://join.tts.gsa.gov/)
 
 In addition to most of the sections above, you can consider adding what the new hire will do in one, three, six, and 12 months. This is especially effective for roles that are shorter-term "tours of duty" in the government. This also reassures candidates that you have meaningful work for them right away.
 
@@ -80,7 +76,6 @@ Companies that work almost exclusively with government can also be a good refere
 - [https://adhocteam.us/join/](https://adhocteam.us/join/)
 - [https://skylight.digital/careers/join/](/careers/join/)
 
-<div class="callout--alt" markdown="1">
 ### Resources
 
 - [Textio](https://textio.com/products/) can help you write better, more inclusive position descriptions
@@ -89,14 +84,12 @@ Companies that work almost exclusively with government can also be a good refere
 - [Why Women Don't Apply for Jobs Unless They're 100% Qualified](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified)
 - [Tools for government hiring](http://www.govtalent.org/)
 - [Improving the Hiring Process](https://medium.com/@bellmar/sre-as-a-lifestyle-choice-de9f5a82d73d)
-</div>
 
 ## Attract candidates new to government
 
 Government often can't compete with industry on salary. To counter this, lead with a strong mission statement and focus on the agency's impact.
 
-The [San Francisco Digital Services](https://digitalservices.sfgov.org/) website does this well
-with a concise paragraph:
+The [San Francisco Digital Services](https://digitalservices.sfgov.org/) website does this well with a concise paragraph:
 
 <blockquote class="post-blockquote">
 "We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up."
@@ -155,14 +148,7 @@ Get everyone you know to use their social media channels to spread the word abou
 In addition to posting your job opening online, consider attending events and meetups to personally invite candidates to apply. Here are some resources to give you ideas on where to go:
 
 - [Local Code for America Brigade](https://brigade.codeforamerica.org/)
-- Modern tech meetups, like:
-    - Python
-    - Open source
-    - JavaScript
-    - DevOps
-    - Agile
-    - Salesforce
-    - Cloud
+- Modern tech meetups on topics such as Python, Open Source, JavaScript, DevOps, Agile, Salesforce, and Cloud
 
 Going in-person provides the opportunity to talk passionately about the work you do. It also allows prospective applicants to meet the people they'll be working with. Emphasize that they'll be in a supportive team environment and not the lone technologist.
 
@@ -170,7 +156,7 @@ In addition, by encouraging your team to attend technology meetups you allow the
 
 ### Resources
 
-- [Ask 18F - How do you recruit employees?](https://18f.gsa.gov/2018/08/02/ask-18f-talent/)
+- [Ask 18F &mdash; How do you recruit employees?](https://18f.gsa.gov/2018/08/02/ask-18f-talent/)
 - [How to Recruit for Local Government in the Digital Age](https://www.civicplus.com/hubfs/CivicHR/PDFs/CivicHR-eBook-How-to-Recruit-for-Local-Government-in-the-Digital-Age-HR-5002-042517.pdf)
 
 ## Consider remote employees

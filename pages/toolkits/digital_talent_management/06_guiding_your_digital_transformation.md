@@ -104,11 +104,9 @@ All executive leadership in an agency must be digital savvy. They have to recogn
 - Hire technology leadership with hands-on experience
 {: .list-checklist}
 
-<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [Delivery-Driven Government](http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/Delivery-Driven-Government.pdf)
 - [Five Qualities of a Digital Leader](https://medium.com/swlh/five-qualities-of-a-digital-leader-9b58c398a312)
 - [The Art of Servant Leadership](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx)
 - [De-risking custom technology projects: A handbook for state grantee budgeting and oversight](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan)
-</div>

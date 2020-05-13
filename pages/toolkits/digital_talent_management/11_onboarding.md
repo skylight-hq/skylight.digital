@@ -88,13 +88,11 @@ Create an employee handbook that's easy for everyone to access. A well-written h
 - Ask new hires to make updates to the onboarding guide, onboarding checklist, and employee handbook
 {: .list-checklist}
 
-<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [18F's onboarding schedule](https://handbook.18f.gov/onboarding-schedule/)
 - [Making a great first impression: Onboarding matters](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)
 - [How we dramatically improved 18F's onboarding process in 3 months](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/)
-</div>
 
 <div class="callout" markdown="1">
 ## Case study: Coding it Forward

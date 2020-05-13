@@ -65,8 +65,9 @@ While all aspects of culture start at the top, creating a psychologically-safe e
 
 **Require blameless retrospectives.** Empower teams to make changes in how they work. It's important to act on all follow-ups from retrospectives. Through action, you'll show that learning from retrospectives is important to you.
 
-[How to run an agile retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
-{: .callout--alt}
+<div class="callout--alt" markdown="1">
+Learn how to run an agile retrospective by [reading this guide](https://www.atlassian.com/team-playbook/plays) from Atlassian.
+</div>
 
 **During meetings and workshops, encourage all voices to be heard.** Work through how you might implement a suggestion, rather than rejecting it immediately. Discourage interruptions. Create multiple avenues for people to contribute. For example, some people may not feel comfortable speaking up, but might be happy to write some thoughts down on a post-it.
 
@@ -92,14 +93,17 @@ Dependability is an individual trait. As a team member, you have to personally b
 
 Teams should also collectively set goals and support each other to achieve them. The [Objectives and Key Results](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) (OKRs) framework from Google works well to set goals and track progress at multiple levels in your organization. OKRs help align individual and team goals with organization goals. Each goal should have an associated plan on how to achieve it.
 
-[How we use OKRs on GOV.UK, the U.K. government website](https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/)
-{: .callout--alt}
+<div class="callout--alt" markdown="1">
+Learn more about how the U.K. Government Digital Service uses OKRs on GOV.UK website by [reading this article]((https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/)).
+</div>
 
 ### Meaning and impact
 
 **Remind people of the mission.** Have a clear and concise mission, and include vision and values statements on posters in your physical space. The constant reminder is important so that teams don't forget the larger picture.
 
 <div class="callout--alt" markdown="1">
+<strong>Examples of well-designed posters:</strong>
+
 - [Our values: a series of posters from the USDS](https://medium.com/the-u-s-digital-service/our-values-1fc02b53598)
 - [Posters from U.K.'s GDS](https://govdesign.tumblr.com/)
 - [A set of posters emphasizing 18F's principles and values](https://github.com/18F/18f-posters)
@@ -166,7 +170,6 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - Use inclusive language in all communications
 {: .list-checklist}
 
-<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [How to Create a Great Team Culture (and Why It Matters)](https://queue.acm.org/detail.cfm?ref=rss&id=3323993)
@@ -177,7 +180,6 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - [Inclusive design toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
 - [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
 - [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
-</div>
 
 <div class="callout" markdown="1">
 ## Case study: Ontario Digital Service
