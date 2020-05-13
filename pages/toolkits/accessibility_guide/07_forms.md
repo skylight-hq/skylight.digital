@@ -69,7 +69,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 <div class="callout--alt" markdown='1'>
 #### Note
-Code examples do not include styling markup for clarity of the technique being explained.
+Code examples don't include styling markup for clarity of the technique being explained.
 </div>
 
 ```html
@@ -158,7 +158,7 @@ Code examples do not include styling markup for clarity of the technique being e
 <br>
 ```
 
-> #### Failing Elements
+> #### Failing elements
 > - First name label ```for``` and ```id``` don't match.
 > - Last name has an invalid ```id```.
 > - "This Question Is Required" isn't associated with the form fields.
@@ -171,7 +171,7 @@ Screen readers vary on what they read and the additional information they provid
 You can test these with your own screen reader. If you have a OSX you can turn VoiceOver on by hitting command+F5.
 
 <div class="callout--alt" markdown='1'>
-#### Further Information
+#### Further information
 Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. For example: `aria-labelledby="car1 car_description car-error-message"`.
 </div>
 
@@ -270,4 +270,3 @@ Jaws reads both the label and the description. So does VoiceOver, but there's a 
 ```
 
 **Screen reader reads input as:** `Car Edit text Please enter Make and Model`
-<hr>

@@ -39,8 +39,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="/img/toolkits/accessibility/sign.jpg" alt="Warning do not read this sign">
 ```
 
-> Preferred method for providing alternate content.
-> Clear `alt` attribute with all text included.
+> Preferred method for providing alternate content. Clear `alt` attribute with all text included.
 
 <hr>
 
@@ -50,8 +49,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="/img/toolkits/accessibility/sign.jpg" title="Warning do not read this sign">
 ```
 
-> Acceptable, but less compatible with certain assistive technologies.
-> Clear title attribute with all text included.
+> Acceptable, but less compatible with certain assistive technologies. Clear title attribute with all text included.
 
 <hr>
 
@@ -63,9 +61,7 @@ When using images on a page, you must provide an alternate method for that conte
 <span>Warning do not read this sign</span>
 ```
 
-> Information contained in the image is provided on the page.
-> In most instances, an `alt` attribute would be preferred.
-> Images marked with an empty `alt` (`alt=""`) are considered "Decorative" and not read by AT.
+> Information contained in the image is provided on the page. In most instances, an `alt` attribute would be preferred. Images marked with an empty `alt` (`alt=""`) are considered "Decorative" and not read by AT.
 
 <hr>
 
@@ -77,7 +73,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="/img/toolkits/accessibility/sign.jpg">
 ```
 
-> Image is missing an `alt` attribute and alternative content
+> Image is missing an `alt` attribute and alternative content.
 
 <hr>
 
@@ -87,7 +83,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="/img/toolkits/accessibility/sign.jpg" alt="sign">
 ```
 
-> `Alt` attribute is missing text from image
+> `alt` attribute is missing text from image.
 
 <hr>
 
@@ -97,4 +93,4 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="/img/toolkits/accessibility/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
-> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter (for example) W-A-R-N-I-N-G).
+> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter, for example: W-A-R-N-I-N-G.

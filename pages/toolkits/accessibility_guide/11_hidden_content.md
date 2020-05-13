@@ -44,13 +44,13 @@ Hiding content is very useful for accessibility. We can hide things visually and
       Technique
     </th>
     <th scope="col">
-      Visually Hidden
+      Visually hidden
     </th>
     <th scope="col" style='font-size: 1.05rem'>
       Screen reader hidden
     </th>
     <th scope="col">
-      Additional Info
+      Additional info
     </th>
   </tr>
 </thead>
