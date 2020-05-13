@@ -23,8 +23,8 @@
     font-size: $font-size-h5;
   }
 
-  p, li {
-    max-width: 68ex;
+  p, li, h1, h2, h3, h4, h5, h6, .callout, .callout--alt, .post-blockquote {
+    max-width: 636px;
   }
 }
 
@@ -36,7 +36,7 @@
 }
 
 @mixin callout {
-  max-width: calc(68ex + 3rem);
+  // max-width: calc(68ex + 3rem);
   padding: 1.5rem;
 
   > *:last-child {
