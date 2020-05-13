@@ -102,7 +102,7 @@ Learn more about how the U.K. Government Digital Service uses OKRs on GOV.UK web
 **Remind people of the mission.** Have a clear and concise mission, and include vision and values statements on posters in your physical space. The constant reminder is important so that teams don't forget the larger picture.
 
 <div class="callout--alt" markdown="1">
-<strong>Examples of well-designed posters:</strong>
+### Examples of well-designed posters
 
 - [Our values: a series of posters from the USDS](https://medium.com/the-u-s-digital-service/our-values-1fc02b53598)
 - [Posters from U.K.'s GDS](https://govdesign.tumblr.com/)

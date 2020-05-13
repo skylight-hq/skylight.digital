@@ -125,7 +125,7 @@ Search on [Meetup](https://www.meetup.com/find/groups/), or LinkedIn for groups 
 Send your team to national conferences that are aligned with the work. They'll meet other folks working on similar problems and technology, and they'll benefit from attending or speaking. Attending conferences encourages your team to bring back new ideas and methods. Speaking at conferences gives them an opportunity to be proud of the work they've done.
 
 <div class="callout--alt" markdown="1">
-**Recommended conferences:**
+### Recommended conferences
 
 - A good civic technology conference to attend and speak at is the [Code for America Summit](https://www.codeforamerica.org/summit)
 - [SXSW](https://www.sxsw.com/) in recent years has hosted many government and government adjacent topics

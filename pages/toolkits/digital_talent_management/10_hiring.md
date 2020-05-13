@@ -70,7 +70,7 @@ Look for red flags, like an applicant who has:
 - A history of switching jobs too frequently &mdash; while it's common to switch jobs frequently in technology, someone who's moved on every few months might be a problem
 
 <div class="callout--alt" markdown="1">
-<strong>Resume review resources:</strong>
+### Resume review resources
 
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/resume-review/)
 - [The Best Interviewing Techniques and Practices Explained](https://medium.com/swlh/the-best-interviewing-techniques-and-practices-explained-61cf41c3175f)
