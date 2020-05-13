@@ -18,7 +18,7 @@ The Centers for Medicare & Medicaid Services (CMS) is the largest medical insure
 
 CMS had tried to modernize these systems three separate times in the past, and all attempts resulted in various degrees of failure. The attempts to modernize all involved waterfall approaches to software delivery. Two of the three planned for a "big bang" switch between systems and resulted in lost data, system downtime, and business logic that did not match the original legacy system. CMS was forced to roll back all efforts to the original system to ensure that payments were still being made.
 
-**Big bang** is a common term in software development when switching from one system to another. You can think of this as turning off the lights on one system and then turning on the lights on another. This approach is very risky with a high probability of failure.
+**"Big bang"** is a common term in software development when switching from one system to another. You can think of this as turning off the lights on one system and then turning on the lights on another. This approach is very risky with a high probability of failure.
 {: .callout--alt}
 
 Meanwhile, the effort to simply maintain these critical systems became so resource-intensive that there was no actionable roadmap for modernizing them. The continued maintenance and development of the system was driven through a traditional SOW that required many contract modifications to include new work as it came to light. The contract value was hundreds of millions of dollars over the course of five years.
