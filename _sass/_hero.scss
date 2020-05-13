@@ -46,7 +46,7 @@
   text-align: center;
   z-index: 1;
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     background: transparent;
     box-shadow: none;
     display: inline-block;
@@ -58,7 +58,7 @@
   .hero-btn-wrapper {
     flex: 0 0 50%;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
       display: inline-block;
     }
   }
@@ -68,7 +68,7 @@
     margin-top: 0;
     width: 100%;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
       font-size: 20px;
       padding: 0.75rem 1.5rem;
     }

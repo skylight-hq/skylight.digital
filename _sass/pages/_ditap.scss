@@ -247,3 +247,14 @@ $outline-light: 2px solid #f2f2f2;
     }
   }
 }
+
+.page-work-services-training-ditap-executive {
+  .hero-btn-group .hero-btn-wrapper {
+    flex: 1;
+
+    @include media-breakpoint-up(sm) {
+      flex: none;
+    }
+  }
+}
+
