@@ -63,7 +63,7 @@ A one-team, one-dream mentality is necessary even across the different vendors t
 The importance of creating cross-functional teams can't be overstated. The overall success of the product will depend on how well the team is able to function. Leadership can support effective collaboration by investing in the tools and workspaces that help team members come  together.
 
 <div class="callout--alt" markdown="1">
-**For more on building an agile culture, check out:**
+### Recommended reading
 
 - [How to Build a Sustainable Agile Culture](https://www.cmswire.com/digital-workplace/how-to-build-a-sustainable-agile-culture/)
 - [The five trademarks of agile organizations](https://www.mckinsey.com/business-functions/organization/our-insights/the-five-trademarks-of-agile-organizations)
