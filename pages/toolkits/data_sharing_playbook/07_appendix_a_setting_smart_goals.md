@@ -25,7 +25,7 @@ Let's say that your agency operates a helpline, and the manager regularly receiv
 Here's what a SMART goal might look like:
 
 *We will decrease the average on-hold wait time from 2 minutes to 1 minute by the end of 2020.*
-{: .pl-5}
+{: .pl-4}
 
 Based on this, it's easy to determine what data you will need:
 
