@@ -35,7 +35,7 @@ There exists a variety of contracting options, each with pros and cons. It's the
 
 ### Pros and cons of different procurement options
 
-#### SPARC
+#### Strategic Partners Acquisition Readiness Contract (SPARC)
 
 The Office of Information Technology (OIT) at CMS has an existing indefinite delivery/indefinite quantity (IDIQ) vehicle called SPARC that's the agency's answer to agile, waterfall, and hybrid development methodologies. This vehicle has a $25B ceiling that houses over 140 different vendors. Its goal is to be the one-stop shop for agency development. There are certainly advantages to leveraging work already completed as well as drawbacks to leveraging a generic development contacting vehicle.
 
