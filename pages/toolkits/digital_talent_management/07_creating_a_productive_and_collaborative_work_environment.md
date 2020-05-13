@@ -32,10 +32,7 @@ Digital team members will need access to modern software and services to do thei
 
 ## Have a remote-first mindset
 
-A geographically-distributed team needs to be able to access data, documents, and tools from anywhere.
-
-- Invest in decent collaboration tools
-- Work with your network and security teams to ensure tools and other services your team relies on can be accessed remotely
+A geographically-distributed team needs to be able to access data, documents, and tools from anywhere. You should invest in decent collaboration tools. And work with your network and security teams to ensure tools and other services your team relies on can be accessed remotely.
 
 In the tables below, we've identified tools that facilitate remote work as "remote friendly."
 
@@ -84,11 +81,9 @@ Name | Purpose | Remote Friendly
 - Establish a simple process for teams to request additional software and services
 {: .list-checklist}
 
-<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [How rethinking your workspace can spur innovation](https://medium.com/@BloombergCities/how-rethinking-your-workspace-can-spur-innovation-ef6ff553b75b)
-</div>
 
 <div class="callout" markdown="1">
 ## Case study: 18F

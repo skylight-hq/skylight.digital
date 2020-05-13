@@ -144,7 +144,6 @@ Send your team to national conferences that are aligned with the work. They'll m
 - Revisit your strategies and activities every three to six months.
 {: .list-checklist}
 
-<div class="callout--alt" markdown="1">
 ## Recommended reading
 
 - [https://medium.com/civiqueso](https://medium.com/civiqueso)
@@ -153,7 +152,6 @@ Send your team to national conferences that are aligned with the work. They'll m
 - [https://www.newamerica.org/public-interest-technology/](https://www.newamerica.org/public-interest-technology/)
 - [https://digitalservices.georgia.gov/](https://digitalservices.georgia.gov/)
 - [https://playbook.cityofnewyork.us/](https://playbook.cityofnewyork.us/)
-</div>
 
 <div class="callout" markdown="1">
 ## Case study: Bloomberg Cities

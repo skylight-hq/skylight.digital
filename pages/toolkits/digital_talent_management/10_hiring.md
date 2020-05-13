@@ -29,9 +29,7 @@ To improve your hiring process:
 - Repeat
 
 <div class="callout--alt" markdown="1">
-### Resources
-
-- [A description of U.K. Government Digital Service's interview process](https://technology.blog.gov.uk/2015/07/14/applying-for-a-job-at-gds-update/)
+Learn how the U.K. Government Digital Service runs its interview process by [reading this article](https://technology.blog.gov.uk/2015/07/14/applying-for-a-job-at-gds-update/).
 </div>
 
 ## Establish a hiring team and evaluation protocol
@@ -44,9 +42,9 @@ For each job description, you'll want to pull together a team to evaluate candid
 
 The traditional resume review and hiring process is subjective and susceptible to bias. Work to ensure your hiring team is diverse. It's also helpful to have team members attend unconscious bias training beforehand.
 
-### Resources
-
-- [Agencies Should Include Experts in Hiring Process](https://www.govexec.com/management/2019/09/weichert-agencies-should-include-experts-hiring-process/159871/)
+<div class="callout--alt" markdown="1">
+The U.S. federal government has been encouraging agencies to include experts in their hiring process. [Check out this article](https://www.govexec.com/management/2019/09/weichert-agencies-should-include-experts-hiring-process/159871/).
+</div>
 
 ## Workshop the candidate evaluation criteria
 
@@ -71,10 +69,12 @@ Look for red flags, like an applicant who has:
 - No demonstrable experience for the position they're applying for
 - A history of switching jobs too frequently &mdash; while it's common to switch jobs frequently in technology, someone who's moved on every few months might be a problem
 
-### Resources
+<div class="callout--alt" markdown="1">
+<strong>Resume review resources:</strong>
 
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/resume-review/)
 - [The Best Interviewing Techniques and Practices Explained](https://medium.com/swlh/the-best-interviewing-techniques-and-practices-explained-61cf41c3175f)
+</div>
 
 ## Conduct phone interviews to screen candidates
 
