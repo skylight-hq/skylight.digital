@@ -6,6 +6,7 @@
     font-family: monospace, monospace;
     font-size: 1.0rem !important;
   }
+  max-width: $prose-max-width;
 }
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }

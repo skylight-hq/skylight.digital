@@ -26,13 +26,17 @@ Setting the language of your site allows assistive technology to interacts with 
 {:.fails}
 ### Fails
 
+<div class="example">
 Sus ojos son verdes.
+</div>
 
-> This text is Spanish and lacks a ```lang``` attribute.
+This text is Spanish and lacks a ```lang``` attribute.
 
 {:.passes}
 ### Passes
 
+<div class="example">
 <p lang="es">Sus ojos son verdes.</p>
+</div>
 
-> This text passes because the ```lang="es"``` attribute identifies its content as Spanish.
+This text passes because the ```lang="es"``` attribute identifies its content as Spanish.

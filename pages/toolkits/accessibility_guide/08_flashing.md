@@ -35,7 +35,7 @@ Failure at any step below constitutes a 508 compliance issue.
 <div class="row">
   <div class="col-sm-5">
     <p>
-      <button class="btn btn-primary" type="button" id="blinkbutton">
+      <button class="btn-submit-outline" type="button" id="blinkbutton">
         Click to see non-compliant flashing
       </button>
     </p>

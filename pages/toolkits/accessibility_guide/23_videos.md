@@ -27,7 +27,7 @@ There are tons of great talks and videos about accessibility online. This is a c
 
 ## Accessible SVG Data Visualization
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/W1VUr544i84" allowfullscreen title="Accessible SVG Data Visualization"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W1VUr544i84" allowfullscreen title="Accessible SVG Data Visualization"></iframe>
 
 ## Derek Featherstone: Accessibility is a Design Tool
 
