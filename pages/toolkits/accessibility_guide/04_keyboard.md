@@ -41,7 +41,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 9. Check that the focus never goes to elements that won't be available to somebody using a mouse.
 
 ### Examples
-
+<div class="example" markdown='1'>
 <a href="#">Link to nowhere 1</a>
 
 <a href="#">Link to nowhere 2</a>
@@ -49,6 +49,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 <a href="javascript:var link = document.getElementById('hiddenContent'); link.setAttribute('style', 'display: block'); link.focus();">Reveal Hidden Content</a>
 
 <div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now it's not!</div>
+</div>
 
 ```html
 <a href="#">Link to nowhere 1</a>
@@ -63,10 +64,13 @@ Keyboard access to a website is key to the usability of your site. All interacti
 </div>
 ```
 
-> Avoid using tabindex of >= 1 as this will disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
+Avoid using tabindex of >= 1 as this will disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
 
 <h4 id="keyboard-trap">Keyboard Trap</h4>
 
+Use your keyboard to tab through these links.
+
+<div class="example" markdown='1'>
 <a class="sr-only moveFocus" href="#">hidden</a>
 
 <a class="keyboardTrap" href="#">Select to disable keyboard trap</a>
@@ -78,5 +82,6 @@ Keyboard access to a website is key to the usability of your site. All interacti
 <a class="keyboardTrap" href="#">Select to disable keyboard trap</a>
 
 <a class="sr-only moveFocus" href="#">hidden</a>
+</div>
 
-> This is an example of a keyboard trap. Focus moves in a loop making the rest of the page inaccessible. A quick test is to tab through the page quickly and ensure you can get focus back to the address bar.
+This is an example of a keyboard trap. Focus moves in a loop making the rest of the page inaccessible. A quick test is to tab through the page quickly and ensure you can get focus back to the address bar.
