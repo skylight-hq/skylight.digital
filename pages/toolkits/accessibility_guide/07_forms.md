@@ -196,10 +196,16 @@ Using `aria-label` or `aria-labelledby` will cause a screen reader to only read 
 Reads just the `label` and not the description.
 
 <div class="example">
-  <div class="form-group col-sm-5">
-    <label for="car_1">Car</label>
-    <input class="form-control" type="text" id="car_1"/><br/>
-    <span id="carmakedescription"><i>Please enter Make and Model</i></span>
+  <div class="row">
+    <div class="col-sm-1">
+      <label for="car_1">Car</label>
+    </div>
+    <div class="col-sm-5">
+      <input class="form-control" type="text" id="car_1"/><br/>
+    </div>
+  </div>
+  <div class="row">
+    <span class="col-sm-6" id="carmakedescription"><i>Please enter Make and Model</i></span>
   </div>
 </div>
 
@@ -252,7 +258,6 @@ Reads only the `aria-labelledby` attribute and not the default label.
   </div>
   <div class="row">
     <span class='col-sm-6' id="carmakedescription_3"><i>Please enter Make and Model</i></span>
-  </div>
   </div>
 </div>
 
