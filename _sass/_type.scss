@@ -101,6 +101,19 @@ h1 {
   }
 }
 
+@mixin hollow-list {
+  li::before {
+    content: '\25E6';
+    font-size: $font-size-small;
+    margin-top: 1px;
+
+    @-moz-document url-prefix() {
+      font-size: 28px;
+      margin-top: -8px;
+    }
+  }
+}
+
 %left-justified-list {
   @extend %list-base;
 
@@ -116,7 +129,7 @@ h1 {
     }
   }
 
-  ul:not(.list-checklist) {
+  ul {
     li::before {
       @extend %rounded-circle;
       content: '\2022';
@@ -124,16 +137,7 @@ h1 {
     }
 
     ul {
-      li::before {
-        content: '\25E6';
-        font-size: $font-size-small;
-        margin-top: 1px;
-
-        @-moz-document url-prefix() {
-          font-size: 28px;
-          margin-top: -8px;
-        }
-      }
+      @include hollow-list;
     }
   }
 
@@ -144,6 +148,10 @@ h1 {
       content: counter(item) '. ';
       counter-increment: item;
     }
+
+    ul {
+      @include hollow-list;
+    }
   }
 
   li {
@@ -153,8 +161,14 @@ h1 {
 }
 
 .list-checklist {
-  li::before {
-    content: '□' !important;
+  li {
+    &::before {
+      content: '□' !important;
+    }
+  }
+
+  ul li::before {
+    font-size: $font-size-base !important;
   }
 }
 
