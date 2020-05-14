@@ -40,6 +40,7 @@
     display: inline-block;
     content: '  ';
     background-image: url('/img/check-circle-solid.svg');
+    color: $brand-success;
     background-size: 14px 14px;
     height: 14px;
     width: 14px;
@@ -51,6 +52,7 @@
     content: '  ';
     background-image: url('/img/times-circle-solid.svg');
     background-size: 14px 14px;
+    color: $sk-red;
     height: 14px;
     width: 14px;
     margin-left: 5px;

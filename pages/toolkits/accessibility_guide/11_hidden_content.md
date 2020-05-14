@@ -37,7 +37,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
     }
   ```
 {% endcapture %}
-<table class="table table-bordered">
+<table class="post-table">
 <thead>
   <tr class='table-active'>
     <th style="width:40%;" scope="col">

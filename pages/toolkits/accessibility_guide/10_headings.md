@@ -44,7 +44,7 @@ lorum ipsum
 {:.passes}
 ### Passes
 
-<div>
+<div class="example">
   <h3>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
   <h4>Sub Category 1</h4>
@@ -78,12 +78,12 @@ lorum ipsum
 </div>
 ```
 
-> This section has a main category and two subcategories. The subcategories are on the same level and as such use the the same heading element.
+This section has a main category and two subcategories. The subcategories are on the same level and as such use the the same heading element.
 
 {:.fails}
 ### Fails
 
-<div>
+<div class="example">
   <h3>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
   <h2>Sub Category 1</h2>
@@ -118,4 +118,4 @@ lorum ipsum
 </div>
 ```
 
-> This section has several issues. The first subcategory has a lower value than the main category. The second subcategory has skipped a heading level which while is better, this can cause confusion as it's not clear if this category is the subcategory of `Category` or `Subcategory 1`
+This section has several issues. The first subcategory has a lower value than the main category. The second subcategory has skipped a heading level which while is better, this can cause confusion as it's not clear if this category is the subcategory of `Category` or `Subcategory 1`

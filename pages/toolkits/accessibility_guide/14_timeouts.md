@@ -28,29 +28,56 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
 {:.passes}
 ### Passes
 
-Fill out this form:
+<div class="example">
 
-<form id="pForm">
-  <div class="form-group col-sm-5">
-    <label for="t1">Field 1</label>
-    <input class="form-control" type="text" id="t1">
+  <div class="row">
+    <div class="col-sm-12" style='padding-bottom: 1rem;'>
+      Fill out this form to see an example of a time out.
+    </div>
   </div>
-  <div class="form-group col-sm-5">
-    <label for="t2">Field 2</label>
-    <input class="form-control" type="text" id="t2">
-  </div>
-  <div class="form-group col-sm-5">
-    <label for="t3">Field 3</label>
-    <input class="form-control" type="text" id="t3">
-  </div>
-  <div class="form-group col-sm-5">
-    <label for="t4">Field 4</label>
-    <input class="form-control" type="text" id="t4">
-  </div>
-  <div class="form-group col-sm-5">
-    <label for="t5">Field 5</label>
-    <input class="form-control" type="text" id="t5">
-  </div>
-</form>
+
+  <form id="pForm">
+    <div class="row">
+      <div class="form-group col-sm-2">
+        <label for="t1">Field 1</label>
+      </div>
+      <div class="col-sm-5">
+        <input class="form-control" type="text" id="t1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-sm-2">
+        <label for="t2">Field 2</label>
+      </div>
+      <div class="col-sm-5">
+        <input class="form-control" type="text" id="t2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-sm-2">
+        <label for="t3">Field 3</label>
+      </div>
+      <div class="col-sm-5">
+        <input class="form-control" type="text" id="t3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-sm-2">
+        <label for="t4">Field 4</label>
+      </div>
+      <div class="col-sm-5">
+        <input class="form-control" type="text" id="t4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-sm-2">
+        <label for="t5">Field 5</label>
+      </div>
+      <div class="col-sm-5">
+        <input class="form-control" type="text" id="t5">
+      </div>
+    </div>
+  </form>
+</div>
 
 > This passes because a timeout does occur, but you're given more than 20 seconds to request more time.
