@@ -55,11 +55,27 @@ This text fails because it's too light. The contrast ratio is 2.93:1.
 This text fails because the background isn't dark enough. The contrast ratio is 3.28:1.
 
 <div class="example">
-  <span style="color:red;">Red text indicates a required field</span>
-  <br>
-  <label for="name">First Name&nbsp;</label><input type = "text" id="name">
-  <br>
-  <label for="lname" style="color:red">Last Name&nbsp;</label><input type= "text" id="lname">
+  <div class="row">
+    <div class="col-sm-12">
+      <span style="color:red;">Red text indicates a required field</span>      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="name">First Name&nbsp;</label>
+    </div>
+    <div class="col-sm-9">
+      <input type = "text" id="name">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="lname" style="color:red">Last Name&nbsp;</label>
+    </div>
+    <div class="col-sm-9">
+      <input type= "text" id="lname">
+    </div>
+  </div>
 </div>
 
 This is a failure because the only indication of which fields are required is the color of the text label.
