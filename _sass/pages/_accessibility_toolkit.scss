@@ -5,11 +5,16 @@
   }
 
   .example {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 1rem;
     font-size: 1.125rem;
     padding: 1rem;
     border: 1px solid $gray-lightest;
+    max-width: $prose-max-width;
+
+    + p {
+      margin-bottom: 2em;
+    }
   }
 
   fieldset {
