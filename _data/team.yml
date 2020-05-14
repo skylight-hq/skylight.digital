@@ -385,6 +385,10 @@
       link: https://www.linkedin.com/in/lakohl/
       link_description: Lara's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/lara-kohl/
+      link_description: Lara's Project Work
+      fa_icon_name: wrench
 - name: shashank-khandelwal
   fname: Shashank
   lname: Khandelwal
@@ -556,6 +560,10 @@
       link: https://www.linkedin.com/in/brandon-mader-5447aaa4/
       link_description: Brandon's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/brandon-mader/
+      link_description: Brandon's Project Work
+      fa_icon_name: wrench
 - name: becca-bartola
   fname: Becca
   lname: Bartola
@@ -616,6 +624,10 @@
       link: https://www.lauravlassarev.com/
       link_description: Laura's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/laura-vlassarev/
+      link_description: Laura's Project Work
+      fa_icon_name: wrench
 - name: victoria-suwardiman
   fname: Victoria
   lname: Suwardiman
@@ -637,6 +649,10 @@
       link: https://www.linkedin.com/in/suwardimanvictoria/
       link_description: Victoria's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/victoria-suwardiman/
+      link_description: Victoria's Project Work
+      fa_icon_name: wrench
 - name: abby-raskin
   fname: Abby
   lname: Raskin
@@ -662,6 +678,10 @@
       link: https://www.linkedin.com/in/abbyraskin/
       link_description: Abby's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/abby-raskin/
+      link_description: Abby's Project Work
+      fa_icon_name: wrench
 - name: gabriel-ramirez
   fname: Gabriel
   lname: Ramirez
@@ -691,6 +711,10 @@
       link: https://github.com/geramirez
       link_description: Gabriel's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/gabriel-ramirez/
+      link_description: Gabriel's Project Work
+      fa_icon_name: wrench
 - name: chris-given
   fname: Chris
   lname: Given
@@ -714,9 +738,13 @@
       link_description: Chris' Twitter Account
       fa_icon_name: twitter
     - name: GitHub
-      link: https://github.com/geramirez
-      link_description: Gabriel's GitHub Account
+      link: https://github.com/cmgiven
+      link_description: Chris' GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/chris-given/
+      link_description: Chris' Project Work
+      fa_icon_name: wrench
 - name: colin-craig
   fname: Colin
   lname: Craig
@@ -743,6 +771,10 @@
       link: https://github.com/cacraig
       link_description: Colin's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/colin-craig/
+      link_description: Colin's Project Work
+      fa_icon_name: wrench
 - name: ashley-treni
   fname: Ashley
   lname: Treni
@@ -776,6 +808,10 @@
       link: http://www.designtaxonomy.com/
       link_description: Ashley's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/ashley-treni/
+      link_description: Ashley's Project Work
+      fa_icon_name: wrench
 - name: mitchell-sipus
   fname: Mitchell
   lname: Sipus
@@ -806,6 +842,10 @@
       link: http://www.sipusdesign.com/
       link_description: Mitchell's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/mitchell-sipus/
+      link_description: Mitchell's Project Work
+      fa_icon_name: wrench
 - name: marvo-dolor
   fname: Marvo
   lname: Dolor
@@ -837,6 +877,10 @@
       link: https://github.com/marvokdolor-gov
       link_description: Marvo's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/marvo-dolor/
+      link_description: Marvo's Project Work
+      fa_icon_name: wrench
 - name: cailyn-hansen
   fname: Cailyn
   lname: Hansen
@@ -872,6 +916,10 @@
       link: http://cailynhansen.com
       link_description: Cailyn's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/cailyn-hansen/
+      link_description: Cailyn's Project Work
+      fa_icon_name: wrench
 - name: amelia-wellers
   fname: Amelia
   lname: Wellers
@@ -902,6 +950,10 @@
       link: https://awellia.com/
       link_description: Amelia's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/amelia-wellers/
+      link_description: Amelia's Project Work
+      fa_icon_name: wrench
 - name: maya-benari
   fname: Maya
   lname: Benari
@@ -992,6 +1044,10 @@
       link: https://github.com/jlhogan
       link_description: Julia's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/julia-hogan/
+      link_description: Julia's Project Work
+      fa_icon_name: wrench
 - name: ari-perez
   fname: Ari
   lname: Perez
@@ -1015,6 +1071,10 @@
       link: https://github.com/ariperez
       link_description: Ari's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/ari-perez/
+      link_description: Ari's Project Work
+      fa_icon_name: wrench
 - name: peggy-chau
   fname: Peggy
   lname: Chau
@@ -1040,6 +1100,10 @@
       link: https://github.com/pkchau
       link_description: Peggy's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/peggy-chau/
+      link_description: Peggy's Project Work
+      fa_icon_name: wrench
 - name: zack-gehin
   fname: Zack
   lname: Gehin
@@ -1066,6 +1130,10 @@
       link: https://zacksguide.com
       link_description: Zack's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/zack-gehin/
+      link_description: Zack's Project Work
+      fa_icon_name: wrench
 - name: mical-nobel
   fname: Mical
   lname: Nobel
@@ -1089,6 +1157,10 @@
       link: https://www.linkedin.com/in/mical-nobel
       link_description: Mical's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mical-nobel/
+      link_description: Mical's Project Work
+      fa_icon_name: wrench
 - name: nick-clyde
   fname: Nick
   lname: Clyde
@@ -1115,6 +1187,10 @@
       link: https://github.com/ClydeDroid
       link_description: Nick's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/nick-clyde/
+      link_description: Nick's Project Work
+      fa_icon_name: wrench
 - name: eric-richards
   fname: Eric
   lname: Richards
@@ -1142,6 +1218,10 @@
       link: https://www.linkedin.com/in/eric-richards/
       link_description: Eric's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/eric-richards/
+      link_description: Eric's Project Work
+      fa_icon_name: wrench
 - name: charlye-delgado
   fname: Charlye
   lname: Delgado
@@ -1162,6 +1242,10 @@
       link: https://www.linkedin.com/in/charlyetran/
       link_description: Charlye's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/charlye-delgado/
+      link_description: Charlye's Project Work
+      fa_icon_name: wrench
 - name: tomi-obikunle
   fname: Tomi
   lname: Obikunle
@@ -1182,6 +1266,10 @@
       link: https://www.linkedin.com/in/tomiobikunle/
       link_description: Tomi's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/tomi-obikunle/
+      link_description: Tomi's Project Work
+      fa_icon_name: wrench
 - name: adam-weber
   fname: Adam
   lname: Weber
@@ -1207,6 +1295,10 @@
       link: https://github.com/nullflux
       link_description: Adam's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/adam-weber/
+      link_description: Adam's Project Work
+      fa_icon_name: wrench
 - name: phoebe-espiritu
   fname: Phoebe
   lname: Espiritu
@@ -1241,6 +1333,10 @@
       link: https://simplifierlab.com/
       link_description: Phoebe's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/phoebe-espiritu/
+      link_description: Phoebe's Project Work
+      fa_icon_name: wrench
 - name: elisa-lee
   fname: Elisa
   lname: Lee
@@ -1265,6 +1361,10 @@
       link: https://github.com/emyl3
       link_description: Elisa's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/elisa-lee/
+      link_description: Elisa's Project Work
+      fa_icon_name: wrench
 - name: kyle-magida
   fname: Kyle
   lname: Magida
@@ -1295,6 +1395,10 @@
       link: https://github.com/kmagida110
       link_description: Kyle's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/kyle-magida/
+      link_description: Kyle's Project Work
+      fa_icon_name: wrench
 - name: suzanne-chapman
   fname: Suzanne
   lname: Chapman
