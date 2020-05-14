@@ -31,41 +31,51 @@ Making forms accessible is a simple process. Each form element should be associa
 {:.passes}
 ### Passes
 
-<fieldset class="accessibility-fieldset form-group col-sm-8">
-  <div class="row">
-    <legend class="accessibility-legendcol-form-label col-sm-2 pt-0">Name</legend>
-    <div class="col-sm-8">
-      <div class="form-group">
+<div class="example">
+  <fieldset class="accessibility-fieldset form-group col-sm-8">
+    <div class="row">
+      <legend class="accessibility-legendcol-form-label col-sm-12 pt-0">Please enter your name</legend>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
         <label for="firstname">First</label>
-        <input class="form-control" type="text" id="firstname">
       </div>
-      <div class="form-group">
+      <div class="col-sm-9">  
+        <input type="text" id="firstname">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
         <label for="lastname">Last</label>
-        <input class="form-control" type="text" id="lastname">
+      </div>
+      <div class="col-sm-9">
+        <input type="text" id="lastname">
       </div>
     </div>
-  </div>
-</fieldset>
+  </fieldset>
 
-<fieldset class="accessibility-fieldset form-group col-sm-8">
-  <div class="row">
-    <legend class="accessibility legend col-form-label col-sm-3 pt-0">Favorite Soup?</legend>
-    <div class="col-sm-9">
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup">
-        <label class="form-check-label" for="peasoup">Pea Soup</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input"  type="radio" name="soup" value="chicken" id="chicken" title="Chicken Noodle">
-        <label class="form-check-label" for="chicken">Chicken Noodle</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="soup" value="tomato" id="tomato" title="Tomato">
-        <label class="form-check-label" for="tomato">Tomato</label>
+  <fieldset class="accessibility-fieldset form-group col-sm-8">
+    <div class="row">
+      <legend class="accessibility legend col-form-label col-sm-12 pt-0">What's your favorite soup?</legend>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-12">
+            <input class="" type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup">          
+            <label class="" for="peasoup">Pea Soup</label>
+            <br>
+            <input type="radio" name="soup" value="chicken" id="chicken" title="Chicken Noodle">
+            <label for="chicken">Chicken Noodle</label>
+            <br>
+            <input type="radio" name="soup" value="tomato" id="tomato" title="Tomato">
+            <label for="tomato">Tomato</label>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</fieldset>
+  </fieldset>
+</div>
 
 <div class="callout--alt" markdown='1'>
 #### Note
@@ -74,7 +84,7 @@ Code examples don't include styling markup for clarity of the technique being ex
 
 ```html
 <fieldset>
-  <legend>Name</legend>
+  <legend>Please enter your name</legend>
   <label for="firstname">First</label>
   <input type="text" id="firstname"><br>
   <label for="lastname">Last</label>
@@ -82,66 +92,72 @@ Code examples don't include styling markup for clarity of the technique being ex
 </fieldset>
 
 <fieldset>
-  <legend>Favorite Soup?</legend>
+  <legend>What's your favorite soup?</legend>
   <input type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup"><label for="peasoup">Pea Soup</label>
   <input type="radio" name="soup" value="chicken" id="chicken" title="Chicken Noodle"><label for="chicken">Chicken Noodle</label>
   <input type="radio" name="soup" value="tomato" id="tomato" title="Tomato"><label for="tomato">Tomato</label>
 </fieldset>
 ```
 
-> #### First and Last Name Form
-> Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, "First" and "Last" wouldn't make sense without "Name." This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
+#### First and Last Name Form
+Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, "First" and "Last" wouldn't make sense without "Name." This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
 
-> #### Favorite Soup Form
-> ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
+#### Favorite Soup Form
+```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
 {:.fails}
 ### Fails
 
-<fieldset class="accessibility-fieldset form-group col-sm-8">
-  <div class="row">
-    <legend class="accessibility-legend col-form-label col-sm-2 pt-0">Name</legend>
-    <div class="col-sm-8">
-      <div class="form-group">
+<div class="example">
+  <fieldset class="accessibility-fieldset form-group col-sm-8">
+    <div class="row">
+      <legend class="accessibility-legend col-form-label col-sm-12 pt-0">Enter your name</legend>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
         <label for="first_name-2">First</label>
-        <input class="form-control" type="text" id="firstname-2">
       </div>
-      <div class="form-group">
+      <div class="col-sm-10">
+        <input type="text" id="firstname-2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
         <label for="1lastname">Last</label>
-        <input class="form-control" type="text" id="1lastname">
+      </div>
+      <div class="col-sm-10">
+        <input type="text" id="1lastname">
       </div>
     </div>
-  </div>
-</fieldset>
+  </fieldset>
 
-<fieldset class="accessibility-fieldset form-group col-sm-8">
-  <div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-10">
-      <span style="color:#990000;">This Question Is Required</span>
-    </div>
-    <legend class="accessibility-legend col-form-label col-sm-3 pt-0">Favorite Soup?</legend>
-    <div class="col-sm-9">
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="soup" value="pea" id="pea-2" title="Chick Pea Soup">
-        <label class="form-check-label" for="pea-2">Pea Soup</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken Noodle">
-        <label class="form-check-label" for="chicken-2">Chicken Noodle</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="soup" value="tomato" id="tomato-2" title="Tomato">
-        <label class="form-check-label" for="tomato-2">Tomato</label>
+  <fieldset class="accessibility-fieldset form-group col-sm-8">
+    <div class="row">
+      <div class="col-sm-12">
+        <span style="color:#990000;">This Question Is Required</span>
       </div>
     </div>
-  </div>
-</fieldset>
-<br>
+    <div class="row">
+      <legend class="accessibility-legend col-form-label col-sm-12 pt-0">What's your favorite soup?</legend>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <input type="radio" name="soup" value="pea" id="pea-2" title="Chick Pea Soup">
+        <label for="pea-2">Pea Soup</label>
+        <br>
+        <input type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken Noodle">
+        <label for="chicken-2">Chicken Noodle</label>
+        <br>
+        <input type="radio" name="soup" value="tomato" id="tomato-2" title="Tomato">
+        <label for="tomato-2">Tomato</label>
+      </div>
+    </div>
+  </fieldset>
+</div>
 
 ```html
 <fieldset>
-  <legend>Name</legend>
+  <legend>Enter your name</legend>
   <label for="first_name-2">First</label>
   <input type="text" id="firstname-2">
   <label for="1lastname">Last</label>
@@ -149,7 +165,7 @@ Code examples don't include styling markup for clarity of the technique being ex
 </fieldset>
 
 <fieldset>
-  <legend>Favorite Soup?</legend>
+  <legend>What's your favorite soup?</legend>
   <span style="color:#990000;">This Question Is Required</span>
   <input type="radio" name="soup" value="pea" id="pea-2" title="Chick Pea Soup"><label for="pea-2">Pea Soup</label>
   <input type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken Noodle"><label for="chicken-2">Chicken Noodle</label>
@@ -158,11 +174,11 @@ Code examples don't include styling markup for clarity of the technique being ex
 <br>
 ```
 
-> #### Failing elements
-> - First name label ```for``` and ```id``` don't match.
-> - Last name has an invalid ```id```.
-> - "This Question Is Required" isn't associated with the form fields.
-> - The ```title``` tag for Pea Soup indicates it's "Chick Pea Soup." This information isn't available to keyboard, sighted users.
+#### Failing elements
+- First name label ```for``` and ```id``` don't match.
+- Last name has an invalid ```id```.
+- "This Question Is Required" isn't associated with the form fields.
+- The ```title``` tag for Pea Soup indicates it's "Chick Pea Soup." This information isn't available to keyboard, sighted users.
 
 ### How ARIA affects form inputs
 
@@ -179,10 +195,12 @@ Using `aria-label` or `aria-labelledby` will cause a screen reader to only read 
 
 Reads just the `label` and not the description.
 
-<div class="form-group col-sm-5">
-  <label for="car_1">Car</label>
-  <input class="form-control" type="text" id="car_1"/><br/>
-  <span id="carmakedescription"><i>Please enter Make and Model</i></span>
+<div class="example">
+  <div class="form-group col-sm-5">
+    <label for="car_1">Car</label>
+    <input class="form-control" type="text" id="car_1"/><br/>
+    <span id="carmakedescription"><i>Please enter Make and Model</i></span>
+  </div>
 </div>
 
 ```html
@@ -191,17 +209,24 @@ Reads just the `label` and not the description.
 <span id="carmakedescription_1"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen reader reads input as:** `Car Edit text`
-<hr>
+Screen reader reads input as: `Car Edit text`
 
 #### With aria-label
 
 Reads the `aria-label` and doesn't read the normal `label`.
 
-<div class="form-group col-sm-5">
-  <label for="car_2">Car</label>
-  <input class="form-control" type="text" id="car_2" aria-label="Car, please enter make and model" /><br/>
-  <span id="carmakedescription_2"><i>Please enter Make and Model</i></span>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-1">
+      <label for="car_2">Car</label>
+    </div>
+    <div class="col-sm-5">
+      <input type="text" id="car_2" aria-label="Car, please enter make and model" />
+    </div>
+  </div>
+  <div class="row">
+    <span class="col-sm-6" id="carmakedescription_2"><i>Please enter Make and Model</i></span>
+  </div>
 </div>
 
 ```html
@@ -210,18 +235,25 @@ Reads the `aria-label` and doesn't read the normal `label`.
 <span id="carmakedescription_2"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen reader reads input as:** `Car, please enter make and model Edit text`
-
-<hr>
+Screen reader reads input as: `Car, please enter make and model Edit text`
 
 #### With aria-labelledby pointing at `carmakedescription`
 
 Reads only the `aria-labelledby` attribute and not the default label.
 
-<div class="form-group col-sm-5">
-  <label for="car_3">Car</label>
-  <input class="form-control" type="text" id="car_3" aria-labelledby="carmakedescription_3" /><br/>
-  <span id="carmakedescription_3"><i>Please enter Make and Model</i></span>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-1">
+      <label for="car_3">Car</label>
+    </div>
+    <div class="col-sm-5">
+      <input class="form-control" type="text" id="car_3" aria-labelledby="carmakedescription_3" />
+    </div>
+  </div>
+  <div class="row">
+    <span class='col-sm-6' id="carmakedescription_3"><i>Please enter Make and Model</i></span>
+  </div>
+  </div>
 </div>
 
 ```html
@@ -230,17 +262,24 @@ Reads only the `aria-labelledby` attribute and not the default label.
 <span id="carmakedescription_3"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen reader reads input as:** `Please enter Make and Model Edit text`
-<hr>
+Screen reader reads input as: `Please enter Make and Model Edit text`
 
 #### With aria-labelledby pointing at `carlabel carmakedescription`
 
 Reads both labels indicated by the `aria-labelledby` attribute.
 
-<div class="form-group col-sm-5">
-  <label for="car_4" id="carlabel_4">Car</label>
-  <input class="form-control" type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" /><br/>
-  <span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-1">
+      <label for="car_4" id="carlabel_4">Car</label>
+    </div>
+    <div class="col-sm-5">
+      <input type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" />
+    </div>
+  </div>
+  <div class="row">
+    <span class="col-sm-6" id="carmakedescription_4"><i>Please enter Make and Model</i></span>
+  </div>
 </div>
 
 ```html
@@ -249,18 +288,24 @@ Reads both labels indicated by the `aria-labelledby` attribute.
 <span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen reader reads input as:** `Car Please enter Make and Model Edit text`
-<hr>
+Screen reader reads input as: `Car Please enter Make and Model Edit text`
 
 #### With aria-describedby pointing at `carmakedescription`
 
 Jaws reads both the label and the description. So does VoiceOver, but there's a slight delay before it reads the description.
 
-<div class="form-group col-sm-5">
-  <label for="car_5">Car</label>
-  <input class="form-control" type="text" id="car_5" aria-describedby="carmakedescription_5" />
-  <br/>
-  <span id="carmakedescription_5"><i>Please enter Make and Model</i></span>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-1">
+      <label for="car_5">Car</label>
+    </div>
+    <div class="col-sm-5">
+      <input type="text" id="car_5" aria-describedby="carmakedescription_5" />
+    </div>
+  </div>
+  <div class="row">
+    <span class='col-sm-6' id="carmakedescription_5"><i>Please enter Make and Model</i></span>
+  </div>
 </div>
 
 ```html
@@ -269,4 +314,4 @@ Jaws reads both the label and the description. So does VoiceOver, but there's a 
 <span id="carmakedescription_5"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen reader reads input as:** `Car Edit text Please enter Make and Model`
+Screen reader reads input as: `Car Edit text Please enter Make and Model`
