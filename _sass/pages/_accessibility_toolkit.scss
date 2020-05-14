@@ -1,7 +1,15 @@
 .accessibility-guide {
 
   blockquote {
-    @extend .callout--alt;
+    /*@extend .callout--alt;*/
+  }
+
+  .example {
+    margin-top: 2em;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    padding: 1rem;
+    border: 1px solid $gray-lightest;
   }
 
   fieldset {

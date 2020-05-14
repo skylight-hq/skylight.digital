@@ -42,50 +42,83 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 {:.fails}
 ### Fails
+<div class="example">
+  <span style = "color:#58AA02">This text fails.</span>
+</div>
 
-<span style = "color:#58AA02">This text fails.</span>
+This text fails because it's too light. The contrast ratio is 2.93:1.
 
-> This text fails because it's too light. The contrast ratio is 2.93:1.
-
+<div class="example">
 <span style = "color:#FFFFFF; background:#8D8E90">This text fails.</span>
+</div>
 
-> This text fails because the background isn't dark enough. The contrast ratio is 3.28:1.
+This text fails because the background isn't dark enough. The contrast ratio is 3.28:1.
 
-<span style="color:red;">Red text indicates a required field</span>
+<div class="example">
+  <span style="color:red;">Red text indicates a required field</span>
+  <br>
+  <label for="name">First Name&nbsp;</label><input type = "text" id="name">
+  <br>
+  <label for="lname" style="color:red">Last Name&nbsp;</label><input type= "text" id="lname">
+</div>
 
-<label for="name">First Name&nbsp;</label><input type"text" id="name">
+This is a failure because the only indication of which fields are required is the color of the text label.
 
-<label for="lname" style="color:red">Last Name&nbsp;</label><input type"text" id="lname">
-
-> This is a failure because the only indication of which fields are required is the color of the text label.
-
+<div class="example">
 <span><a href="#" style="color:#006061; text-decoration:none; border-bottom-style: none;">I'm a link.</a> I'm just normal text.</span>
+</div>
 
-> This fails because the contrast ratio between the link and surrounding text is less than 3:1.
+This fails because the contrast ratio between the link and surrounding text is less than 3:1.
 
 {:.passes}
 ### Passes
 
+<div class="example">
 <span style = "color:#458503">This text passes.</span>
+</div>
 
-> This text passes. The contrast ratio is 4.56:1.
+This text passes. The contrast ratio is 4.56:1.
 
+<div class="example">
 <span style = "color:#FFFFFF; background:#757679">This text passes.</span>
+</div>
 
-> This text passes. The contrast ratio is 4.54:1.
+This text passes. The contrast ratio is 4.54:1.
 
-<span style="color:red;">* indicates a required field</span>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-12">
+      <span style="color:red;">* indicates a required field</span>      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="name-2">First Name</label>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" id="name-2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="lname-2" style="color:red">Last Name *</label>
+    </div>
+    <div class="col-sm-9">
+      <input type="text" id="lname-2">
+    </div>
+  </div>
+</div>
 
-<label for="name-2">First Name&nbsp;</label><input type"text" id="name-2">
+This example passes because the * and the red text indicates the required field.
 
-<label for="lname-2" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname-2">
-
-> This example passes because the * and the red text indicates the required field.
-
+<div class="example">
 <span><a href="#" style="color:#006465; text-decoration:none; border-bottom-style: none;">I'm a link.</a> I'm just normal text.</span>
+</div>
 
-> This passes because the link and the black text have a contrast (lightness) ratio of 3:1, but we would recommend a greater contrast ratio for links without other visual indicators.
+This passes because the link and the black text have a contrast (lightness) ratio of 3:1, but we would recommend a greater contrast ratio for links without other visual indicators.
 
+<div class="example">
 <span><a href="#" style="color:#000000; text-decoration:none; border-bottom-style: none;">I'm a link.</a> I'm just normal text.</span>
+</div>
 
-> This passes because all users see the link as normal text.
+This passes because all users see the link as normal text. While not a failure of a specific accessibility requirement, this is not recommended from a usability perspective.
