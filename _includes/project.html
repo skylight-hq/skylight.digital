@@ -37,13 +37,17 @@
                 <li>
                   <span class="approach-item">
                     {% if emp.active %}
-                      <a class="profile profile-link" href="{{emp.profile_path}}">
-                        <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                      <a class="profile profile-link d-flex flex-row align-items-center" href="{{emp.profile_path}}">
+                        <div class="employee-gradient">
+                          <img class="profile-img employee-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                        </div>
                         <span>{{emp.short_name}}</span>
                       </a>
                     {% else %}
-                      <div class="profile">
-                        <img class="profile-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                      <div class="profile d-flex flex-row align-items-center">
+                        <div class="employee-gradient">
+                          <img class="profile-img employee-img" src="{{emp.image}}" alt="{{emp.image_description}}">
+                        </div>
                         <span>{{emp.short_name}}</span>
                       </div>
                     {% endif %}
