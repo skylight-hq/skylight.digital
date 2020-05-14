@@ -43,10 +43,10 @@ Links that only rely on color also fail this requirement. Links must be distingu
 {:.fails}
 ### Fails
 <div class="example">
-  <span style = "color:#58AA02">This text fails.</span>
+  <span style = "color:#60A474">This text fails.</span>
 </div>
 
-This text fails because it's too light. The contrast ratio is 2.93:1.
+This text fails because it's too light. The contrast ratio is 2.97:1.
 
 <div class="example">
 <span style = "color:#FFFFFF; background:#8D8E90">This text fails.</span>
@@ -57,7 +57,7 @@ This text fails because the background isn't dark enough. The contrast ratio is 
 <div class="example">
   <div class="row">
     <div class="col-sm-12">
-      <span style="color:red;">Red text indicates a required field</span>      
+      <span style="color:#D73E35;">Red text indicates a required field</span>
     </div>
   </div>
   <div class="row">
@@ -70,7 +70,7 @@ This text fails because the background isn't dark enough. The contrast ratio is 
   </div>
   <div class="row">
     <div class="col-sm-3">
-      <label for="lname" style="color:red">Last Name&nbsp;</label>
+      <label for="lname" style="color:#D73E35">Last Name&nbsp;</label>
     </div>
     <div class="col-sm-9">
       <input type= "text" id="lname">
@@ -90,10 +90,10 @@ This fails because the contrast ratio between the link and surrounding text is l
 ### Passes
 
 <div class="example">
-<span style = "color:#458503">This text passes.</span>
+<span style = "color:#4B825B">This text passes.</span>
 </div>
 
-This text passes. The contrast ratio is 4.56:1.
+This text passes. The contrast ratio is 4.52:1.
 
 <div class="example">
 <span style = "color:#FFFFFF; background:#757679">This text passes.</span>
@@ -104,7 +104,7 @@ This text passes. The contrast ratio is 4.54:1.
 <div class="example">
   <div class="row">
     <div class="col-sm-12">
-      <span style="color:red;">* indicates a required field</span>      
+      <span style="color:#D73E35;">* indicates a required field</span>
     </div>
   </div>
   <div class="row">
@@ -117,7 +117,7 @@ This text passes. The contrast ratio is 4.54:1.
   </div>
   <div class="row">
     <div class="col-sm-3">
-      <label for="lname-2" style="color:red">Last Name *</label>
+      <label for="lname-2" style="color:#D73E35">Last Name *</label>
     </div>
     <div class="col-sm-9">
       <input type="text" id="lname-2">
