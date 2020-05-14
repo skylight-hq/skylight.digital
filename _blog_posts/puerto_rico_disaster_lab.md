@@ -73,11 +73,11 @@ I propose that we identify specific projects that can be the focus of research e
 
 ### Puerto Rican technological branding
 
-In order to raise the profile of these three projects, I recommend branding them as "Puerto Rican" projects. This may motivate students to participate in small components, and may motivate sponsors and funding agencies to support these projects, all of which can be open-source projects reused nationally and internationally. However, each project may be of interest to Americans in general based on the famous catastrophe of Hurricane Maria, which creates a recognizable “Puerto Rican” brand. The brand should come to mean “expert in communication and power technology related to natural disasters.”
+In order to raise the profile of these three projects, I recommend branding them as "Puerto Rican" projects. This may motivate students to participate in small components, and may motivate sponsors and funding agencies to support these projects, all of which can be open-source projects reused nationally and internationally. However, each project may be of interest to Americans in general based on the famous catastrophe of Hurricane Maria, which creates a recognizable "Puerto Rican" brand. The brand should come to mean "expert in communication and power technology related to natural disasters."
 
 ### A loose research program
 
-Rather than execute another competitive hackathon, it might be possible to execute a subsequent cooperative "HackWeekend" or “CooperateAthon” organized around specific goals. With some work performed ahead of time to establish APIs, unit tests, and overall project organization, it might be possible to create a list of projects that would all build toward a unified goal. Possibly this preparation could challenge and bring together electrical engineers, biologists, data scientists, computer programmers, designers, and project managers. Such a HackWeekend could even include field work of some kind.
+Rather than execute another competitive hackathon, it might be possible to execute a subsequent cooperative "HackWeekend" or "CooperateAthon" organized around specific goals. With some work performed ahead of time to establish APIs, unit tests, and overall project organization, it might be possible to create a list of projects that would all build toward a unified goal. Possibly this preparation could challenge and bring together electrical engineers, biologists, data scientists, computer programmers, designers, and project managers. Such a HackWeekend could even include field work of some kind.
 
 To prepare for such a HackWeekend, information architects and technical community leaders would seek to prepare ahead of time:
 
