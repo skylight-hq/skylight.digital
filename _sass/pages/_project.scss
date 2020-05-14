@@ -94,6 +94,11 @@
     .approach-item {
       display: inline-block;
       margin-bottom: 10px;
+      width: 100%;
+
+      span {
+        line-height: 1.15;
+      }
     }
   }
 }
