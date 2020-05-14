@@ -5,7 +5,7 @@ permalink: /thoughts/blog/maximizing-the-power-of-apis-balancing-freedom-and-con
 redirect_from:
   - /blog/maximizing-the-power-of-apis-balancing-freedom-and-control/
 content_type: BlogPosting
-image: /img/blog/power_of_apis/power-of-apis.png
+image: /img/blog/power_of_apis/power-of-apis.svg
 image_description: An arm showing a flexed muscle enclosed within API computing symbols.
 image_display: true
 order: 2000
@@ -65,7 +65,7 @@ But perhaps more importantly, this approach offers the consumer of the API many 
 
 As a general relationship, the more authority given to the user, the more utility they receive, but the more risk incurred by the host (see diagram "Without an API").
 
-![Diagram showing relationship between risk and utility without an API.](/img/blog/power_of_apis/risk-utility-graph-without-api.png)
+![Diagram showing relationship between risk and utility without an API.](/img/blog/power_of_apis/risk-utility-graph-without-api.svg)
 
 However, APIs allow us to break this general relationship between risk and utility. With a well-designed API, it's possible to have low risk and high utility. This is represented in the second figure below titled "With an API."
 

@@ -5,7 +5,7 @@ permalink: /thoughts/blog/new-bug-bounty-program-solution-to-secure-government-d
 redirect_from:
   - /blog/new-bug-bounty-program-solution-to-secure-government-digital-services/
 content_type: BlogPosting
-image: /img/blog/bug_bounty_solution_announcement/bugs-eating-computer.png
+image: /img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg
 image_description: Bugs eating a computer with a crosshair over one of them, conveying the concept of a bug bounty.
 image_display: true
 order: 1500

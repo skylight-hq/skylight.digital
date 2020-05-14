@@ -5,8 +5,8 @@ permalink: /thoughts/blog/geoff-mulligan-engineering-open-and-interoperable-iot-
 redirect_from:
   - /blog/geoff-mulligan-engineering-open-and-interoperable-iot-solutions/
 content_type: BlogPosting
-image: /img/blog/geoff_mulligan_interview/geoff-mulligan-iot.png
-image_description: Stylized lettering of Geoff Mulligan's name with interconnected nodes symbolizing IoT.
+image: /img/blog/geoff_mulligan_interview/geoff-mulligan.svg
+image_description: Portrait of Geoff Mulligan.
 image_display: true
 order: 1700
 tags: [people and culture, internet of things, geoff mulligan]

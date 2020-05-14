@@ -5,8 +5,8 @@ permalink: /thoughts/blog/meet-the-10-newest-members-of-the-skylight-team/
 redirect_from:
   - /blog/meet-the-10-newest-members-of-the-skylight-team/
 content_type: BlogPosting
-image: /img/blog/meet_ten_newest_team_members/waving-hand-emoji.png
-image_description: A waving hand emoji.
+image: /img/blog/meet_ten_newest_team_members/team-member-welcome.svg
+image_description: People welcoming a new team member at the office.
 image_display: true
 order: 2600
 tags: [people and culture, chris cairns]
