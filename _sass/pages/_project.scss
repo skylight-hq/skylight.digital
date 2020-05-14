@@ -78,6 +78,10 @@
     @include media-breakpoint-down(sm) {
       column-count: 1;
     }
+
+    li::before {
+      content: none !important;
+    }
   }
 
   ul {
@@ -94,6 +98,11 @@
     .approach-item {
       display: inline-block;
       margin-bottom: 10px;
+      width: 100%;
+
+      span {
+        line-height: 1.15;
+      }
     }
   }
 }

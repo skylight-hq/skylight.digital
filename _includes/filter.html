@@ -16,7 +16,9 @@
     <div class="filter-col">
       <header class="filter-header">
         {% if context == 'employee' %}
-          <img class="filter-image" src="{{filter_image}}" alt="{{filter_image_description}}">
+          <div class="employee-gradient">
+            <img class="filter-image employee-img" src="{{filter_image}}" alt="{{filter_image_description}}">
+          </div>
            <div class="filter-title-wrapper filter-employee">
              {{filter_title_markup}}
              <h3 class="filter-subtitle">{{filter_subtitle}}</h3>

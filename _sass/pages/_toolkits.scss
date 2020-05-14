@@ -25,7 +25,7 @@
   }
 
   p, li, h1, h2, h3, h4, h5, h6, .callout, .callout--alt, .post-blockquote {
-    max-width: 636px;
+    max-width: $prose-max-width;
   }
 }
 
