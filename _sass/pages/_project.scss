@@ -78,6 +78,10 @@
     @include media-breakpoint-down(sm) {
       column-count: 1;
     }
+
+    li::before {
+      content: none !important;
+    }
   }
 
   ul {
