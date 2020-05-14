@@ -24,29 +24,47 @@ When using `iframe`s, it's important that all content contained in them is acces
 {:.fails}
 ### Fails
 
-<iframe src="../iframeform/"></iframe>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <iframe height='400' class='col-sm-10' src="../iframeform/"></iframe>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
 
 ```html
 <iframe src="../iframeform/"></iframe>
 ```
 
-> This `iframe` doesn't have a title or name.
+This `iframe` doesn't have a title or name.
 
-<iframe src="../iframeform/" name="Provide an address form"></iframe>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <iframe height='400' class='col-sm-10' src="../iframeform/" name="Provide an address form"></iframe>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
 
 ```html
 <iframe src="../iframeform/" name="Provide an address form"></iframe>
 ```
 
-> This `name` isn't correct.
+This `name` isn't correct.
 
 {:.passes}
 ### Passes
 
-<iframe src="../iframeform/" title="Provide Name Form"></iframe>
+<div class="example">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <iframe height='400' class='col-sm-10' src="../iframeform/" title="Provide Name Form"></iframe>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
 
 ```html
 <iframe src="../iframeform/" title="Provide Name Form"></iframe>
 ```
 
-> Correct `title` is provided. This would also pass if this information was in a `name` attribute.
+Correct `title` is provided. This would also pass if this information was in a `name` attribute.

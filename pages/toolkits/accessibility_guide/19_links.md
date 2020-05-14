@@ -55,9 +55,11 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 {:.passes}
 ### Passes
 
-Home <br> <a href="../" title="home">Click Here</a>
+<div class="example" markdown="1">
+  Home <br> <a href="../" title="home">Click Here</a>
 
-Keyboard Access <br> <a href="../keyboard/" aria-label="Keyboard Access">Click Here</a>
+  Keyboard Access <br> <a href="../keyboard/" aria-label="Keyboard Access">Click Here</a>
+</div>
 
 ```html
 Home <a href="../" title="home">Click Here</a>
@@ -65,7 +67,7 @@ Home <a href="../" title="home">Click Here</a>
 Keyboard Access <a href="../keyboard/" aria-label="Keyboard Access">Click Here</a>
 ```
 
-> These links aren't unique, but the ```title``` attribute in the first link gives a screen reader user context and the ```aria-label``` provides the context in the second link.
+These links aren't unique, but the ```title``` attribute in the first link gives a screen reader user context and the ```aria-label``` provides the context in the second link.
 
 #### Skip navigation
 
@@ -105,4 +107,4 @@ a.skip-link:hover, a.skip-link:active, a.skip-link:focus {
 }
 ```
 
-> This is how the "Skip Navigation" was achieved for the accessibility site, feel free to use for your own site.
+This is how the "Skip Navigation" was achieved for the accessibility site, feel free to use for your own site.
