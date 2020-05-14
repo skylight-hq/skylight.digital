@@ -61,7 +61,7 @@ This text fails because the background isn't dark enough. The contrast ratio is 
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <label for="name">First Name&nbsp;</label>
     </div>
     <div class="col-sm-9">
@@ -69,7 +69,7 @@ This text fails because the background isn't dark enough. The contrast ratio is 
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <label for="lname" style="color:red">Last Name&nbsp;</label>
     </div>
     <div class="col-sm-9">
@@ -108,7 +108,7 @@ This text passes. The contrast ratio is 4.54:1.
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <label for="name-2">First Name</label>
     </div>
     <div class="col-sm-9">
@@ -116,7 +116,7 @@ This text passes. The contrast ratio is 4.54:1.
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <label for="lname-2" style="color:red">Last Name *</label>
     </div>
     <div class="col-sm-9">
