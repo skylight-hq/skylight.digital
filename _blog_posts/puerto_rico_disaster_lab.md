@@ -5,7 +5,7 @@ permalink: /thoughts/blog/puerto-rico-a-disaster-lab-three-research-proposals/
 redirect_from:
   - /blog/puerto-rico-a-disaster-lab-three-research-proposals/
 content_type: BlogPosting
-image: /img/blog/puerto_rico_disaster_lab/hurricane-maria.png
+image: /img/blog/puerto_rico_disaster_lab/hurricane-maria.svg
 image_description: Hurricane Maria engulfing Puerto Rico.
 image_display: true
 order: 2300
@@ -31,7 +31,7 @@ Our brainstorming included Ruth Silva, Froilan Irizarry, Javier Malavé, and Sas
 
 Here was our original scribing:
 
-![Graphical transcription of a whiteboard brainstorming session on how Puerto Rico is essentially a disaster lab.](/img/blog/puerto_rico_disaster_lab/scribing.png)
+![Graphical transcription of a whiteboard brainstorming session on how Puerto Rico is essentially a disaster lab.](/img/blog/puerto_rico_disaster_lab/scribing.svg)
 
 I've interpreted this in text at the end of this article, but let me try to explain it in prose. I think it was Sasha Méndez who articulated the idea that Puerto Rico *is* a "Disaster Lab" &mdash; and she's right.
 
@@ -39,7 +39,7 @@ I've interpreted this in text at the end of this article, but let me try to expl
 
 Puerto Rico's [geography](https://en.wikipedia.org/wiki/Geography_of_Puerto_Rico) is in many ways an ideal laboratory for natural disasters. In the first place, it's a medium-sized island (3,515 square miles), which is neither too small nor too big. It's big enough that it has mountains, a dry forest, a rainforest, coastal regions, and beaches, but it's small enough that you can reach any point on the island with an SUV in two hours.
 
-![Puerto Rico's unique geography.](/img/blog/puerto_rico_disaster_lab/map-terrain.png)
+![Puerto Rico's unique geography.](/img/blog/puerto_rico_disaster_lab/map-terrain.svg)
 
 The mountains of Puerto Rico are very steep, rugged, and covered with dense vegetation making this terrain hard to cover with cell towers, or any other radio technology. However, a lot of people live in communities in these mountains, and so the need for telecommunications is great. This disadvantage is a perfect challenge for testing radio technology.
 
@@ -51,7 +51,7 @@ Puerto Rico has a well-developed startup culture and 24.6% of the population ove
 
 Politically, Puerto Rico is divided into 78 semi-autonomous and somewhat competitive [municipalities](https://en.wikipedia.org/wiki/Municipalities_of_Puerto_Rico). This means that it's quite possible to find a municipality incented to try a new idea.
 
-![Puerto Rico's many municipalities.](/img/blog/puerto_rico_disaster_lab/municipalities.png)
+![Puerto Rico's many municipalities.](/img/blog/puerto_rico_disaster_lab/municipalities.svg)
 
 ### Infrastructure
 
@@ -97,7 +97,7 @@ We've created an [interactive map](https://www.plectica.com/maps/D26TZT0CX?prese
 
 The Puerto Rican Fast Map Project seeks to be the simplest possible way to crowdsource map-based data. It was born of the need for such data about power and drinking water availability after Hurricane Maria.
 
-![Puerto Rico as a connected network grid.](/img/blog/puerto_rico_disaster_lab/fast-map.png)
+![Puerto Rico as a connected network grid.](/img/blog/puerto_rico_disaster_lab/fast-map.svg)
 
 **Draft project breakdown:**
 
@@ -117,7 +117,7 @@ The Puerto Rican Fast Map Project seeks to be the simplest possible way to crowd
 
 The Puerto Rican Boa Project is named after the endemic [Puerto Rican boa](https://en.wikipedia.org/wiki/Puerto_Rican_boa), a play on the fact that roads snake up into the mountains. It's based on the fundamental observation that restoring communication alongs roads is efficient and tends to reach large portions of the population in an rough terrain where people live along roads.
 
-![Graphical drawing of a snake overlaid on a Google map image of a mountainous Puerto Rican terrain.](/img/blog/puerto_rico_disaster_lab/snake-road.png)
+![Graphical drawing of a snake overlaid on a Google map image of a mountainous Puerto Rican terrain.](/img/blog/puerto_rico_disaster_lab/snake-road.svg)
 
 A high percentage of Puerto Ricans have smartphones. That means that providing WiFi or Bluetooth connectivity along a road, even if backed by a very low-bandwidth, text-only internet, would allow most people to transmit and receive critical emergency information in the absence of normal cellular service.
 
@@ -135,7 +135,7 @@ A high percentage of Puerto Ricans have smartphones. That means that providing W
 
 In the immediate aftermath of Hurricane Maria, people could not find their loved ones because the electronic communication networks were completely destroyed. The purpose of the Llorosa Project is to be able to find and track fragile persons under all circumstances, including the failure of major infrastructure. The Llorosa Project is named after the [Puerto Rican Tanager](https://en.wikipedia.org/wiki/Puerto_Rican_tanager), a small, fragile bird endemic to Puerto Rico.
 
-![Picture of an elderly woman across an illustration of a tanager.](/img/blog/puerto_rico_disaster_lab/woman-tanager.png)
+![Picture of an elderly woman across an illustration of a tanager.](/img/blog/puerto_rico_disaster_lab/woman-tanager.svg)
 
 This is a combined data science/computer science project. It involves both abstract algorithmics and practical mapping.
 

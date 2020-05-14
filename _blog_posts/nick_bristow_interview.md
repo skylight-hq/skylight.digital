@@ -5,8 +5,8 @@ permalink: /thoughts/blog/nick-bristow-making-government-digital-services-more-a
 redirect_from:
   - /blog/nick-bristow-making-government-digital-services-more-accessible/
 content_type: BlogPosting
-image: /img/blog/nick_bristow_interview/nick-bristow-accessibility.png
-image_description: Stylized lettering of Nick Bristow's name surrounded by accessibility symbols such as an eye.
+image: /img/blog/nick_bristow_interview/nick-bristow.svg
+image_description: Portrait of Nick Bristow.
 image_display: true
 order: 1900
 tags: [people and culture, accessibility, nick bristow]

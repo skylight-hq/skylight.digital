@@ -42,7 +42,7 @@ That's an impressive difference. And begs the question: how do you achieve such 
 
 The DORA assessment starts with a 20-minute, cloud-based survey, taken by people in your organization across development, testing, infosec, and operations to gauge the current state of your organization's software delivery capabilities. DORA then benchmarks those results against years of data from other teams. This gives you visibility into how you're measuring-up to your industry peers (for example, other government organizations), as well as other teams within your organization.
 
-![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.png)
+![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.svg)
 
 IT budgets aren't unlimited, so DORA knows that you're looking to target investments where they can deliver the most bang for the buck. DORA's proprietary analysis, based on your custom benchmarking results, reveals exactly where a lack of capability is holding you back.
 

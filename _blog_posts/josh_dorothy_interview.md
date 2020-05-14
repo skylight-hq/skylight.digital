@@ -5,8 +5,8 @@ permalink: /thoughts/blog/josh-dorothy-engineering-great-developer-experiences-t
 redirect_from:
   - /blog/josh-dorothy-engineering-great-developer-experiences-through-devops/
 content_type: BlogPosting
-image: /img/blog/josh_dorothy_interview/josh-dorothy-devops.png
-image_description: Stylized lettering of Josh Dorothy's name surrounded by gears symbolizing DevOps.
+image: /img/blog/josh_dorothy_interview/josh-dorothy.svg
+image_description: Portrait of Josh Dorothy.
 image_display: true
 order: 1600
 tags: [people and culture, devops, josh dorothy]

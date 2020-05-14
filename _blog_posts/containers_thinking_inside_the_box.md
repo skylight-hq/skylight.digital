@@ -55,7 +55,7 @@ Exactly what resources are shared, though, is what affects policy and budgets. F
 
 Containers offer the cost savings and ease of use of paravirtualized solutions, but also remove the overhead of virtualization through the container runtime. Rather than relying on third-party (and often costly) applications, containers rely on features in the Linux kernel, such as namespacing, to provide secure file system, process, and resource isolation. The runtime also allows containerized processes to access the underlying kernel and hardware resources at minimal overhead compared to traditional virtualization, resulting in more efficient use of the underlying system.
 
-![Graphic comparing the differences between virtual machines and containers.](/img/blog/containers_thinking_inside_the_box/virtual-machines-vs-containers.png)
+![Graphic comparing the differences between virtual machines and containers.](/img/blog/containers_thinking_inside_the_box/virtual-machines-vs-containers.svg)
 
 A second major advantage that containers offer is the use of a union file system. A union file system consists of multiple filesystem layers joined together. These file systems allow mounting files from other file systems, and, in the case of containers, can be used to directly mount the layers of a container image to a given directory on the host machine. Like a source control system, these layers are versioned and stored in a central repository. This enables them to be pulled and run on any machine having access to this repository. Only updated layers need to be pushed, significantly reducing network bandwidth and deployment times.
 

@@ -5,7 +5,7 @@ permalink: /thoughts/blog/a-smarter-way-to-build-smart-cities/
 redirect_from:
   - /blog/a-smarter-way-to-build-smart-cities/
 content_type: BlogPosting
-image: /img/blog/smarter_way_to_build_smart_cities/smart-city.png
+image: /img/blog/smarter_way_to_build_smart_cities/smart-city.svg
 image_description: Smart city functions such as health and transportation.
 image_display: true
 order: 2500

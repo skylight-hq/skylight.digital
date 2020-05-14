@@ -5,8 +5,8 @@ permalink: /thoughts/blog/public-domain-procurement/
 redirect_from:
   - /blog/public-domain-procurement/
 content_type: BlogPosting
-image: /img/blog/public_domain_procurement/creative-commons-public-domain.png
-image_description: Image of the Creative Commons Public Domain badge symbol.
+image: /img/blog/public_domain_procurement/creative-commons-public-domain.svg
+image_description: Creative Commons Public Domain badge symbol.
 image_display: true
 order: 700
 tags: [procurement, chris cairns]

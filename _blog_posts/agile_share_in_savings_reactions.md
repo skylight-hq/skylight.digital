@@ -5,7 +5,7 @@ permalink: /thoughts/blog/reactions-to-our-agile-share-in-savings-model/
 redirect_from:
   - /blog/reactions-to-our-agile-share-in-savings-model/
 content_type: BlogPosting
-image: /img/blog/agile_share_in_savings/agile-share-in-savings-financing.png
+image: /img/blog/agile_share_in_savings/creative-commons-public-domain.svg
 image_description: An iterative agile cycle with a dollar sign in the middle.
 image_display: true
 order: 300
