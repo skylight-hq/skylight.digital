@@ -13,6 +13,10 @@
     padding-bottom: 56px;
     padding-top: 56px;
   }
+
+  .accordion-card-body {
+    @include list;
+  }
 }
 
 .page-ditap-content {
