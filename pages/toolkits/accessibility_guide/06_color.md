@@ -60,21 +60,13 @@ This text fails because the background isn't dark enough. The contrast ratio is 
       <span style="color:#D73E35;">Red text indicates a required field</span>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-3">
-      <label for="name">First Name&nbsp;</label>
-    </div>
-    <div class="col-sm-9">
-      <input type = "text" id="name">
-    </div>
+  <div class="form-group">
+    <label for="name">First Name&nbsp;</label>
+    <input class='form-control' type = "text" id="name">
   </div>
-  <div class="row">
-    <div class="col-sm-3">
-      <label for="lname" style="color:#D73E35">Last Name&nbsp;</label>
-    </div>
-    <div class="col-sm-9">
-      <input type= "text" id="lname">
-    </div>
+  <div class="form-group">
+    <label for="lname" style="color:#D73E35">Last Name&nbsp;</label>
+    <input class='form-control' type= "text" id="lname">
   </div>
 </div>
 
@@ -107,21 +99,13 @@ This text passes. The contrast ratio is 4.54:1.
       <span style="color:#D73E35;">* indicates a required field</span>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-3">
-      <label for="name-2">First Name</label>
-    </div>
-    <div class="col-sm-9">
-      <input type="text" id="name-2">
-    </div>
+  <div class="form-group">
+    <label for="name-2">First Name</label>
+    <input class="form-control" type="text" id="name-2">
   </div>
-  <div class="row">
-    <div class="col-sm-3">
-      <label for="lname-2" style="color:#D73E35">Last Name *</label>
-    </div>
-    <div class="col-sm-9">
-      <input type="text" id="lname-2">
-    </div>
+  <div class="form-group">
+    <label for="lname-2" style="color:#D73E35">Last Name *</label>
+    <input class="form-control" type="text" id="lname-2">
   </div>
 </div>
 

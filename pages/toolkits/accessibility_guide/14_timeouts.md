@@ -37,45 +37,25 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
   </div>
 
   <form id="pForm">
-    <div class="row">
-      <div class="form-group col-sm-2">
-        <label for="t1">Field 1</label>
-      </div>
-      <div class="col-sm-5">
-        <input class="form-control" type="text" id="t1">
-      </div>
+    <div class="form-group">
+      <label for="t1">Field 1</label>
+      <input class="form-control" type="text" id="t1">
     </div>
-    <div class="row">
-      <div class="form-group col-sm-2">
-        <label for="t2">Field 2</label>
-      </div>
-      <div class="col-sm-5">
-        <input class="form-control" type="text" id="t2">
-      </div>
+    <div class="form-group">
+      <label for="t2">Field 2</label>
+      <input class="form-control" type="text" id="t2">
     </div>
-    <div class="row">
-      <div class="form-group col-sm-2">
-        <label for="t3">Field 3</label>
-      </div>
-      <div class="col-sm-5">
-        <input class="form-control" type="text" id="t3">
-      </div>
+    <div class="form-group">
+      <label for="t3">Field 3</label>
+      <input class="form-control" type="text" id="t3">
     </div>
-    <div class="row">
-      <div class="form-group col-sm-2">
-        <label for="t4">Field 4</label>
-      </div>
-      <div class="col-sm-5">
-        <input class="form-control" type="text" id="t4">
-      </div>
+    <div class="form-group">
+      <label for="t4">Field 4</label>
+      <input class="form-control" type="text" id="t4">
     </div>
-    <div class="row">
-      <div class="form-group col-sm-2">
-        <label for="t5">Field 5</label>
-      </div>
-      <div class="col-sm-5">
-        <input class="form-control" type="text" id="t5">
-      </div>
+    <div class="form-group">
+      <label for="t5">Field 5</label>
+      <input class="form-control" type="text" id="t5">
     </div>
   </form>
 </div>
