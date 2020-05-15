@@ -54,7 +54,7 @@ Making forms accessible is a simple process. Each form element should be associa
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup">          
+          <input class="form-check-input" type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup">
           <label class="form-check-label" for="peasoup">Pea Soup</label>
         </div>
         <div class="form-check">
@@ -119,7 +119,7 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
   <fieldset class="accessibility-fieldset col-sm-8">
     <div class="row">
       <div class="col-sm-12">
-        <span style="color:#990000;">This Question Is Required</span>
+        <span style="color:#D73E35;">This Question Is Required</span>
       </div>
     </div>
     <div class="row">
