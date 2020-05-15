@@ -199,7 +199,7 @@ Reads just the `label` and not the description.
 <span id="carmakedescription_1"><i>Please enter Make and Model</i></span>
 ```
 
-Screen reader reads input as: `Car Edit text`
+Screen reader reads input as: `Car Edit text`.
 
 #### With aria-label
 
@@ -219,7 +219,7 @@ Reads the `aria-label` and doesn't read the normal `label`.
 <span id="carmakedescription_2"><i>Please enter Make and Model</i></span>
 ```
 
-Screen reader reads input as: `Car, please enter make and model Edit text`
+Screen reader reads input as: `Car, please enter make and model Edit text`.
 
 #### With aria-labelledby pointing at `carmakedescription`
 
@@ -239,7 +239,7 @@ Reads only the `aria-labelledby` attribute and not the default label.
 <span id="carmakedescription_3"><i>Please enter Make and Model</i></span>
 ```
 
-Screen reader reads input as: `Please enter Make and Model Edit text`
+Screen reader reads input as: `Please enter Make and Model Edit text`.
 
 #### With aria-labelledby pointing at `carlabel carmakedescription`
 
@@ -259,7 +259,7 @@ Reads both labels indicated by the `aria-labelledby` attribute.
 <span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 ```
 
-Screen reader reads input as: `Car Please enter Make and Model Edit text`
+Screen reader reads input as: `Car Please enter Make and Model Edit text`.
 
 #### With aria-describedby pointing at `carmakedescription`
 
@@ -279,4 +279,4 @@ Jaws reads both the label and the description. So does VoiceOver, but there's a 
 <span id="carmakedescription_5"><i>Please enter Make and Model</i></span>
 ```
 
-Screen reader reads input as: `Car Edit text Please enter Make and Model`
+Screen reader reads input as: `Car Edit text Please enter Make and Model`.
