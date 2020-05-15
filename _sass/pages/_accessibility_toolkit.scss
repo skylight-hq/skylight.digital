@@ -15,6 +15,11 @@
     + p {
       margin-bottom: 2em;
     }
+    .form-group {
+      label {
+        font-weight: bold;
+      }
+    }
   }
 
   /*fieldset {
