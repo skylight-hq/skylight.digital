@@ -9,9 +9,18 @@ sidenav: accessibility_guide
 content_type: Toolkit
 toolkit_name: accessibility-guide
 ---
+<div class="example">
+  <div class="form-group">
+    <label for='fname'>First Name</label>
+    <input class='form-control' type='text' id='fname'>
+  </div>
 
-<label for='fname'>First Name&nbsp;</label><input type='text' id='fname'>
-
-<label for='mname'>Middle Name&nbsp;</label><input type='text' id='mname'>
-
-<label for='lname'>Last Name&nbsp;</label><input type='text' id='lname'>
+  <div class="form-group">
+    <label for='mname'>Middle Name</label>
+    <input class='form-control' type='text' id='mname'>
+  </div>
+  <div class="form-group">
+    <label for='lname'>Last Name</label>
+    <input class='form-control' type='text' id='lname'>
+  </div>
+</div>
