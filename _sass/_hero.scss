@@ -78,13 +78,15 @@
 .hero-banner {
   background-position: top center;
   background-size: auto;
-  -webkit-animation: herofadein 1s;
-  animation: herofadein 1s;
+
 
   .hero-container {
     max-width: 506px;
     padding-bottom: 44px;
     padding-top: 47px;
+    -webkit-animation: herofadein 1s;
+    animation: herofadein 1s;
+
   }
 
   .hero-heading {
