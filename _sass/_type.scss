@@ -201,8 +201,7 @@ h1 {
   }
 }
 
-.prose,
-.accordion-card-body {
+.prose {
   @include list;
 
   h1, h2, h3, h4, h5, h6 {
