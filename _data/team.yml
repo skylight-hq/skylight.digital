@@ -510,6 +510,10 @@
       link: https://github.com/arwagner
       link_description: Andrew's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/andrew-wagner/
+      link_description: Andrew's Project Work
+      fa_icon_name: wrench
 - name: jay-danielian
   fname: Jay
   lname: Danielian
