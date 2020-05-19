@@ -21,12 +21,11 @@ $(function() {
       .find('.dropdown-item[href*="' + path + '"]')
       .first();
 
-    if($subAnchorToActivate.length > 0) {
+    if ($subAnchorToActivate.length > 0) {
       $subAnchorToActivate.attr("aria-current", "page");
       $anchorToActivate.attr("aria-current", "page");
     }
   }
-
 });
 
 // Onclick window location handler
@@ -158,78 +157,85 @@ $(function() {
     // Initialize empty filters array
     const filters = [];
     // All posts to be filtered
-    const posts = $("article");
+    const posts = $("article[data-display=true]");
+    $("article[data-display=false]").addClass("hidden");
     // All filter tags actually used by posts
     const usedTags = $.unique(
       Object.values(
         posts.map(function() {
-          return $(this).attr("data-tags").split(', ');
+          return $(this).attr("data-tags").split(", ");
         })
       )
     );
     // This function will ensure all added filters have a remove handler
     const addRemoveHandler = () => {
-      $(".tag-badge").off("click").click(function() {
-        const text = $(this).text();
-        const filterText = text.toLowerCase();
-        filters.splice(filters.indexOf(filterText), 1);
-        $(this).remove();
-        $(`.exp-filter-item:contains("${text}")`)
-          .removeClass("font-weight-bold");
-        filterPosts();
-      });
+      $(".tag-badge")
+        .off("click")
+        .click(function() {
+          const text = $(this).text();
+          const filterText = text.toLowerCase();
+          filters.splice(filters.indexOf(filterText), 1);
+          $(this).remove();
+          $(`.exp-filter-item:contains("${text}")`).removeClass(
+            "font-weight-bold"
+          );
+          filterPosts();
+        });
     };
     // This function will paginate all visible posts
     const paginatePosts = () => {
-      const dataSource = $('article.filter-match').get();
+      const dataSource = $("article.filter-match").get();
       const pageSize = 12;
-      $('.projects').pagination({
+      const onPageChange = () => {
+        if (!$("#accordionHeading- a").hasClass("collapsed")) {
+          $("h3.mb-0").click();
+        }
+        window.scrollTo(0, 0);
+      };
+      $(".projects").pagination({
         dataSource,
         pageSize,
-        ulClassName: 'pagination d-flex justify-content-center',
-        prevText: '<i class="fa fa-chevron-left mr-2 pagination-icon"></i><b>Previous</b>',
-        nextText: '<b>Next</b><i class="fa fa-chevron-right ml-2 pagination-icon"></i>',
+        ulClassName: "pagination d-flex justify-content-center",
+        prevText:
+          '<i class="fa fa-chevron-left mr-2 pagination-icon"></i><b>Previous</b>',
+        nextText:
+          '<b>Next</b><i class="fa fa-chevron-right ml-2 pagination-icon"></i>',
         showPageNumbers: false,
         showNavigator: true,
-        formatNavigator: 'Page <%= currentPage %> of <%= totalPage %>',
+        formatNavigator: "Page <%= currentPage %> of <%= totalPage %>",
         autoHidePrevious: true,
         autoHideNext: true,
-        afterPreviousOnClick: () => {
-window.scrollTo(0, 0)
-},
-        afterNextOnClick: () => {
-window.scrollTo(0, 0)
-},
+        afterPreviousOnClick: onPageChange,
+        afterNextOnClick: onPageChange,
         callback: function(data) {
-          posts.addClass('hidden');
-          data.forEach(post => post.className = 'project-col');
+          posts.addClass("hidden");
+          data.forEach((post) => (post.className = "project-col"));
           if (dataSource.length <= pageSize) {
-            $('.paginationjs').hide();
+            $(".paginationjs").hide();
           } else {
-            $('.paginationjs-nav')
+            $(".paginationjs-nav")
               .detach()
-              .prependTo('.pagination')
-              .addClass('mx-3 mx-sm-5');
-            $('.paginationjs-prev').detach().prependTo('.pagination');
+              .prependTo(".pagination")
+              .addClass("mx-3 mx-sm-5");
+            $(".paginationjs-prev").detach().prependTo(".pagination");
           }
-        }
+        },
       });
-
     };
     // This function will filter all posts based on the contents of the
     // filters array
     const filterPosts = () => {
       if (filters.length) {
         posts.each(function() {
-          const tags = $(this).attr("data-tags").split(', ');
-          if (tags && tags.filter(tag => filters.includes(tag)).length) {
-            $(this).addClass('filter-match');
+          const tags = $(this).attr("data-tags").split(", ");
+          if (tags && tags.filter((tag) => filters.includes(tag)).length) {
+            $(this).addClass("filter-match");
           } else {
-            $(this).removeClass('filter-match');
+            $(this).removeClass("filter-match");
           }
         });
       } else {
-        posts.addClass('filter-match');
+        posts.addClass("filter-match");
       }
       paginatePosts();
     };
@@ -248,15 +254,16 @@ window.scrollTo(0, 0)
       const filterText = text.toLowerCase();
       if (!filters.includes(filterText)) {
         filters.push(filterText);
-        $(`.exp-filter-item:contains("${text}")`)
-          .addClass("font-weight-bold");
-        $(".filter-post-tags")
-          .append(`<a class="tag-badge" href="#0">${text}<i class="fa fa-times-circle ml-1"></i></a>`);
+        $(`.exp-filter-item:contains("${text}")`).addClass("font-weight-bold");
+        $(".filter-post-tags").append(
+          `<a class="tag-badge" href="#" onclick="return false;">${text}<i class="fa fa-times-circle ml-1"></i></a>`
+        );
         addRemoveHandler();
       } else {
         filters.splice(filters.indexOf(filterText), 1);
-        $(`.exp-filter-item:contains("${text}")`)
-          .removeClass("font-weight-bold");
+        $(`.exp-filter-item:contains("${text}")`).removeClass(
+          "font-weight-bold"
+        );
         $(`.tag-badge:contains("${text}")`).remove();
       }
       filterPosts();
