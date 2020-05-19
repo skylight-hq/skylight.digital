@@ -5,7 +5,7 @@ permalink: /thoughts/blog/thoughts-on-the-use-of-technical-challenges-in-governm
 redirect_from:
   - /blog/thoughts-on-the-use-of-technical-challenges-in-government-procurements/
 content_type: BlogPosting
-image: /img/blog/tech_challenge_thoughts/tech-challenge-laptops-boxing.png
+image: /img/blog/tech_challenge_thoughts/tech-challenge-laptops-boxing.svg
 image_description: Two laptop computers boxing each other.
 image_display: true
 order: 2100
