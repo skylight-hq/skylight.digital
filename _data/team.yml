@@ -992,6 +992,10 @@
       link: http://maya-benari.com/
       link_description: Maya's Personal Website
       fa_icon_name: home
+    - name: Blog Posts
+      link: /thoughts/blog/author/maya-benari/
+      link_description: Maya's Blog Posts
+      fa_icon_name: pencil
 - name: brandon-kirby
   fname: Brandon
   lname: Kirby
