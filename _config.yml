@@ -93,6 +93,7 @@ exclude:
   - Gruntfile.js
   - package.json
   - npm-debug.log
+  - docs
 
 # Jekyll plugins
 plugins:
