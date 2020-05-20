@@ -1,6 +1,7 @@
 .training-item {
   display: flex;
   flex-direction: column;
+  flex: 1; // IE 11 fix
 }
 
 .training-item--content {
