@@ -10,7 +10,7 @@ image_description: Portrait of Josh Dorothy.
 image_display: true
 order: 1600
 tags: [people and culture, devops, josh dorothy]
-excerpt: "Josh Dorothy's career path has taken him from lawyer to DevOps engineer with the U.S. Digital Service before joining Skylight. Here, he has been working with our government clients to engineer great developer experiences through DevOps."
+excerpt: "Josh Dorothy's career path has taken him from lawyer to DevOps engineer with the U.S. Digital Service before joining Skylight. Here, he's been working with our government clients to engineer great developer experiences through DevOps."
 authors:
   - Chris Cairns
 date_published: 2018-03-09
