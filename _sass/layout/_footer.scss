@@ -44,7 +44,7 @@
   @extend %d-sm-flex;
 
   @include media-breakpoint-up(sm) {
-    flex: 1 0 0;
+    flex: 1 0;
   }
 
   &:not(:last-of-type) {
