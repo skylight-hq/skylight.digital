@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  <title>Skylight - Digital Government Consulting | New bug bounty program solution to secure government digital services</title>
+  <meta name="description" content="Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure digital services. Here's a look at our new bug bounty solution.">
+  <meta name="keywords" content="service delivery, security and privacy, chris cairns">
+  <meta name="image" content="https://skylight.digital/img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg">
+
+  
+    <meta name="author" content="Chris Cairns">
+  
+
+  <meta name="date" content="2018-02-24">
+  <link rel="image_src" href="https://skylight.digital/img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg">
+  <link rel="canonical" href="https://skylight.digital/thoughts/blog/new-bug-bounty-program-solution-to-secure-government-digital-services/">
+
+  <meta property="og:site_name" content="Skylight">
+  <meta property="og:title" content="Skylight - Digital Government Consulting | New bug bounty program solution to secure government digital services">
+  <meta property="og:description" content="Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure digital services. Here's a look at our new bug bounty solution.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skylight.digital/thoughts/blog/new-bug-bounty-program-solution-to-secure-government-digital-services/">
+  <meta property="og:image" content="https://skylight.digital/img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@skylight_hq">
+  <meta name="twitter:site" content="@skylight_hq">
+  <meta name="twitter:title" content="Skylight - Digital Government Consulting | New bug bounty program solution to secure government digital services">
+  <meta name="twitter:description" content="Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure digital services. Here's a look at our new bug bounty solution.">
+  <meta name="twitter:image" content="https://skylight.digital/img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg">
+  <meta name="twitter:image:alt" content="Bugs eating a computer with a crosshair over one of them, conveying the concept of a bug bounty.">
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://skylight.digital",
+      "name": "Skylight - Digital Government Consulting",
+      "description": "Skylight is a HUBZone digital consultancy driven by making government work in a digital world.",
+      "keywords": "digital consulting, digital government, digital transformation, digital services",
+      "datePublished": "2017-06-18",
+      "dateModified": "2017-06-18"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "Skylight",
+     "legalName": "Skylight Digital LLC",
+     "url": "https://skylight.digital",
+     "logo": {
+       "@type": "ImageObject",
+       "url": "https://skylight.digital/img/logo.png",
+       "height": "200",
+       "width": "50"
+     },
+     "foundingDate": "2017",
+     "founders": [
+        { "@type": "Person", "name": "Chris Cairns" }
+      ],
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Chapel Hill",
+       "addressRegion": "NC",
+       "postalCode": "27516",
+       "addressCountry": "USA"
+     },
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "sales",
+       "telephone": "267-228-1390",
+       "email": "hello@skylight.digital"
+     },
+     "sameAs": [
+       "https://twitter.com/skylight_hq",
+       "https://github.com/skylight-hq",
+       "https://www.linkedin.com/company/skylight-hq"
+     ]
+    }
+  </script>
+
+  
+    
+    
+    
+
+    <script type="application/ld+json">
+      { "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://skylight.digital/thoughts/blog/new-bug-bounty-program-solution-to-secure-government-digital-services/"
+        },
+        "headline": "Skylight - Digital Government Consulting | New bug bounty program solution to secure government digital services",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://skylight.digital/img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg",
+          "height": "400",
+          "width": "400"
+        },
+        "author": [
+          
+            { "@type": "Person", "name": "Chris Cairns" }
+          
+        ],
+        
+        "keywords": "service delivery, security and privacy, chris cairns",
+        "wordcount": "1183",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Skylight",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://skylight.digital/img/logo.png",
+            "height": "200",
+            "width": "50"
+          }
+        },
+        "datePublished": "2018-02-24",
+        "dateModified": "2018-02-24",
+        "description": "Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure digital services. Here's a look at our new bug bounty solution.",
+        "articleBody": "&lt;p&gt;Citizens expect public digital services to be useful, usable, and &lt;em&gt;secure&lt;/em&gt;. When the security of these services are compromised and exploited by malicious actors, &lt;em&gt;real&lt;/em&gt; people are put at risk of any number of cyber-related crimes such as identity theft. As stewards of public trust, the government must hold itself to the highest, most appropriate levels of security standards in order to protect the people it serves. Unfortunately, the combination of limited resources and expanding attack surface areas are creating even more opportunities for adversaries. To counteract this trend, more and more organizations are embracing the use of bug bounties, a crowdsourced approach to security research. Through the power of the crowd, bug bounties can uncover &lt;a href=&quot;https://www.bugcrowd.com/how-it-works/&quot;&gt;8x more critical vulnerabilities&lt;/a&gt; than traditional penetration testing and security assessments.&lt;/p&gt;&lt;p&gt;At Skylight, we know firsthand how integrating bug bounties into government’s DevSecOps processes — even before systems are deployed into production (“shift-left security”) — can produce far more robust and secure services. That’s why we’re excited to announce our new bug bounty solution.&lt;/p&gt;&lt;h2 id=&quot;some-background&quot;&gt;Some background&lt;/h2&gt;&lt;p&gt;For those new to crowdsourced approaches to white hacking, bug bounties are programs in which organizations pay rewards to independent security researchers who find and report hackable vulnerabilities in their systems. The &lt;a href=&quot;https://blog.cobalt.io/the-history-of-bug-bounty-programs-50def4dcaab3&quot;&gt;first official pay-for-bugs program&lt;/a&gt; was launched by Netscape in 1995. Since then, Google (&lt;a href=&quot;https://www.google.com/about/appsecurity/programs-home/&quot;&gt;Security Reward Programs&lt;/a&gt;), Facebook (&lt;a href=&quot;https://www.facebook.com/BugBounty/&quot;&gt;Bug Bounty&lt;/a&gt;), Microsoft (&lt;a href=&quot;https://technet.microsoft.com/en-us/library/dn425036.aspx&quot;&gt;Bug Bounty Programs&lt;/a&gt;), and many other high-tech companies have launched their own successful programs. In 2016, bug bounties made their way into the federal government for the first time when the Department of Defense (DoD) launched the &lt;a href=&quot;https://www.wired.com/story/hack-the-pentagon-bug-bounty-results/&quot;&gt;“Hack the Pentagon” pilot&lt;/a&gt;. The DoD ended up resolving more than 138 unique vulnerabilities found by 58 different security researchers. Recognizing the success of the DoD’s pilot, several other agencies have begun looking into and experimenting with bug bounty programs — such as &lt;a href=&quot;https://www.army.mil/article/178473/army_secretary_issues_challenge_with_hack_the_army_program&quot;&gt;Hack the Army&lt;/a&gt; and &lt;a href=&quot;https://www.defense.gov/News/News-Releases/News-Release-View/Article/1164012/air-force-issues-challenge-to-hack-the-air-force/&quot;&gt;Hack the Air Force&lt;/a&gt;. Not to be outdone, even Congress is &lt;a href=&quot;http://thehill.com/policy/cybersecurity/358231-lawmakers-look-to-bug-bounties-but-experts-warn-of-unexpected-workload&quot;&gt;looking into formalizing the use of bug bounties&lt;/a&gt; as a standard federal security practice.&lt;/p&gt;&lt;h2 id=&quot;how-we-can-support-you&quot;&gt;How we can support you&lt;/h2&gt;&lt;p&gt;For most government organizations, bug bounty programs represent a new approach to protecting their digital ecosystems. Spinning up and running your own successful bug bounty program is certainly manageable; however, there are a number of moving pieces that must be carefully orchestrated. We’re here to help you learn and master that process. Our support services cover the entire lifecycle of a bug bounty program.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/blog/bug_bounty_solution_announcement/bug-bounty-services.png&quot; alt=&quot;Four phases of Skylight's bug bounty lifecycle support services.&quot; /&gt;&lt;/p&gt;&lt;h3 id=&quot;bootcamp&quot;&gt;Bootcamp&lt;/h3&gt;&lt;p&gt;Our Bug Bounty Bootcamp is a one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed. As part of this training, we dive deep into several different case studies (such as Google’s Security Reward Programs and DoD’s Hack the Pentagon), survey and demo commercial bug bounty platforms, facilitate a collaborative workshop in which we launch a mock program, and assess whether your organization is ready for a bug bounty program. Our aim is to equip you with all the critical knowledge, tools, and templates that you need to move forward successfully.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The great thing about this Bootcamp is that it’s scoped and priced within the federal government’s &lt;a href=&quot;https://www.acquisition.gov/far/html/Subpart%2013_2.html&quot;&gt;micropurchase threshold&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;&lt;h3 id=&quot;design--preparation&quot;&gt;Design &amp;amp; Preparation&lt;/h3&gt;&lt;p&gt;Based on what your specific organizational needs and testing requirements are, we work with you to design and prepare for a successful bug bounty program. If this is your first one, we recommend starting out with a pilot program to test the waters. Some of the key activities at this stage include:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Assembling the bug bounty team who will support the program (for example, engaging key stakeholders from across the organization, responding to bug reports, making awards, and building relationships with the security research community), including the team’s leader (for example, Chief Information Security Officer) who will own and champion the program.&lt;/li&gt;  &lt;li&gt;Setting the initial scope of the assessment. That is, what &lt;strong&gt;digital assets&lt;/strong&gt; (such as 3–5 public-facing websites, all web services under a particular domain, or a highly-sensitive system in pre-production) and &lt;strong&gt;bug types&lt;/strong&gt; (for example, XSS or SQL injection) you want — and don’t want — researchers to focus on.&lt;/li&gt;  &lt;li&gt;Determining what type of program you want to run. For example, it could be &lt;strong&gt;private&lt;/strong&gt; (invite-only) or &lt;strong&gt;public&lt;/strong&gt; (open to the collective intelligence of thousands) coupled with a &lt;strong&gt;Vulnerability Disclosure Program&lt;/strong&gt; (open-door policy to anyone who wants to report a security flaw).&lt;/li&gt;  &lt;li&gt;Calibrating the rewards structure based on your available budget.&lt;/li&gt;  &lt;li&gt;Choosing and setting up a bug bounty platform — such as Bugcrowd or HackerOne — for receiving, organizing, analyzing, understanding, and offering rewards for vulnerability reports from third-party researchers. (We don’t recommend trying to build-out and manage this infrastructure yourself.)&lt;/li&gt;  &lt;li&gt;Priming your vulnerability management processes to handle the influx of new reports that will come and need to be triaged and remediated. This includes highlighting how triages are handled and designating remediation teams.&lt;/li&gt;  &lt;li&gt;Crafting your policy/rules page. This page commonly contains your disclosure policy, rules of engagement, scope, service-level agreements (such as time to respond to a new report and time to bounty after validation), and other important information.&lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;launch&quot;&gt;Launch&lt;/h3&gt;&lt;p&gt;Once you’re fully prepared, we work with you to launch and iterate on your program. A few of the main activities include:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Receiving vulnerability reports from security researchers and coordinating the validation, prioritization, and remediation of those reported flaws within the target service-level agreements.&lt;/li&gt;  &lt;li&gt;Adjusting elements of the program (for example, policy/rules page or bounty amounts), if need be, to ensure researchers are hitting the right targets and reporting the types of bugs that you want to see.&lt;/li&gt;  &lt;li&gt;Incentivizing more participation and increasing the volume of reports through such actions as increasing the scope, adding more hackers, and increasing the bounty amounts.&lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;scaling--improvement&quot;&gt;Scaling &amp;amp; Improvement&lt;/h3&gt;&lt;p&gt;Over the course of the launch stage, you’ll gain valuable experience running bug bounties within the context of your organization. You should have ironed out a lot of the major kinks and be in a position to ramp the program up and leverage it to drive improvements to your organization’s security culture and coding practices. Some of the key activities at this stage include:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Scaling the program. This could mean increasing the scope to include more digital assets and types of bugs, opening it up to more hackers, increasing the bounty rewards, or any combo thereof. In doing so, you might need to iterate through the design &amp;amp; preparation and launch phases again.&lt;/li&gt;  &lt;li&gt;Optimizing bug bounty and vulnerability management processes to handle a larger volume of reports.&lt;/li&gt;  &lt;li&gt;Leveraging bug bounty data to perform an analysis of the root causes behind systemic issues (for example, XSS keeps popping-up) with your existing security and software development practices. This is particularly useful for gaining insight into the performance of specific contractors.&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;lets-get-secure&quot;&gt;Let’s get secure!&lt;/h2&gt;&lt;p&gt;If you’re interested in chatting with us about how we could support your bug bounty initiative, &lt;a href=&quot;/connect/contact/&quot;&gt;we’d love to hear from you&lt;/a&gt;.&lt;/p&gt;"
+      }
+    </script>
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba">
+  <meta name="apple-mobile-web-app-title" content="Skylight">
+  <meta name="application-name" content="Skylight">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css?1589942258735516000" type="text/css">
+  
+  <script src="/js/jquery.slim.min.js"></script>
+  <script src="/js/tether.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.scrolldepth.min.js"></script>
+  <script src="/js/pagination.min.js"></script>
+  <script src="/js/script.js?v=7"></script>
+
+  
+  
+    
+  
+
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body class="page-new-bug-bounty-program-solution-to-secure-government-digital-services page-thoughts-blog-new-bug-bounty-program-solution-to-secure-government-digital-services" data-spy="scroll" data-target="#sidenav">
+    <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
+
+    <header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-flex-container">
+      <h1><a class="navbar-logo" href="/">Skylight</a></h1>
+
+      <div class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbar-nav-collapsible" aria-controls="navbar-nav-collapsible" aria-expanded="false">
+        <div class="burger"><span></span></div>
+        <span class="sr-only">Toggle Navigation</span>
+      </div>
+    </div>
+
+    <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Company</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/company/about/">About Us</a>
+            <a class="dropdown-item" href="/company/values/">Our Values</a>
+            <a class="dropdown-item" href="/company/press/">Press</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWork" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Work</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/work/services/">Our Services</a>
+            <a class="dropdown-item" href="/work/experience/">Our Experience</a>
+            <a class="dropdown-item" href="/work/toolkits/">Toolkits</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Careers</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/careers/join/">Join Us</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThoughts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Thoughts</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/thoughts/blog/">Blog</a>
+            <a class="dropdown-item" href="/thoughts/talks/">Talks</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConnect" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Connect</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/connect/contact/">Contact Us</a>
+            <a class="dropdown-item" href="/connect/contracting/">Contracting</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="content" tabindex="-1">
+      <article class="post">
+
+  <div class="post-row">
+    <div class="post-col">
+      <header class="post-header">
+        <h1 class="post-title header-display-2">New bug bounty program solution to secure government digital services</h1>
+        <p class="post-byline">
+          By:
+
+
+  
+  
+  <span class="post-author">
+    
+      <a href="/company/about/#chris-cairns">Chris Cairns</a>
+    
+  </span>
+  
+  
+
+
+          <span class="post-date">
+            Updated:
+            <time datetime="2018-02-24T00:00:00-05:00">
+              February 24, 2018
+            </time>
+          </span>
+        </p>
+        
+          <img class="post-feature-img" src="/img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg" alt="Bugs eating a computer with a crosshair over one of them, conveying the concept of a bug bounty.">
+        
+      </header>
+
+      <div class="post-content">
+        <p>Citizens expect public digital services to be useful, usable, and <em>secure</em>. When the security of these services are compromised and exploited by malicious actors, <em>real</em> people are put at risk of any number of cyber-related crimes such as identity theft. As stewards of public trust, the government must hold itself to the highest, most appropriate levels of security standards in order to protect the people it serves. Unfortunately, the combination of limited resources and expanding attack surface areas are creating even more opportunities for adversaries. To counteract this trend, more and more organizations are embracing the use of bug bounties, a crowdsourced approach to security research. Through the power of the crowd, bug bounties can uncover <a href="https://www.bugcrowd.com/how-it-works/">8x more critical vulnerabilities</a> than traditional penetration testing and security assessments.</p>
+
+<p>At Skylight, we know firsthand how integrating bug bounties into government’s DevSecOps processes — even before systems are deployed into production (“shift-left security”) — can produce far more robust and secure services. That’s why we’re excited to announce our new bug bounty solution.</p>
+
+<h2 id="some-background">Some background</h2>
+
+<p>For those new to crowdsourced approaches to white hacking, bug bounties are programs in which organizations pay rewards to independent security researchers who find and report hackable vulnerabilities in their systems. The <a href="https://blog.cobalt.io/the-history-of-bug-bounty-programs-50def4dcaab3">first official pay-for-bugs program</a> was launched by Netscape in 1995. Since then, Google (<a href="https://www.google.com/about/appsecurity/programs-home/">Security Reward Programs</a>), Facebook (<a href="https://www.facebook.com/BugBounty/">Bug Bounty</a>), Microsoft (<a href="https://technet.microsoft.com/en-us/library/dn425036.aspx">Bug Bounty Programs</a>), and many other high-tech companies have launched their own successful programs. In 2016, bug bounties made their way into the federal government for the first time when the Department of Defense (DoD) launched the <a href="https://www.wired.com/story/hack-the-pentagon-bug-bounty-results/">“Hack the Pentagon” pilot</a>. The DoD ended up resolving more than 138 unique vulnerabilities found by 58 different security researchers. Recognizing the success of the DoD’s pilot, several other agencies have begun looking into and experimenting with bug bounty programs — such as <a href="https://www.army.mil/article/178473/army_secretary_issues_challenge_with_hack_the_army_program">Hack the Army</a> and <a href="https://www.defense.gov/News/News-Releases/News-Release-View/Article/1164012/air-force-issues-challenge-to-hack-the-air-force/">Hack the Air Force</a>. Not to be outdone, even Congress is <a href="http://thehill.com/policy/cybersecurity/358231-lawmakers-look-to-bug-bounties-but-experts-warn-of-unexpected-workload">looking into formalizing the use of bug bounties</a> as a standard federal security practice.</p>
+
+<h2 id="how-we-can-support-you">How we can support you</h2>
+
+<p>For most government organizations, bug bounty programs represent a new approach to protecting their digital ecosystems. Spinning up and running your own successful bug bounty program is certainly manageable; however, there are a number of moving pieces that must be carefully orchestrated. We’re here to help you learn and master that process. Our support services cover the entire lifecycle of a bug bounty program.</p>
+
+<p><img src="/img/blog/bug_bounty_solution_announcement/bug-bounty-services.png" alt="Four phases of Skylight's bug bounty lifecycle support services." /></p>
+
+<h3 id="bootcamp">Bootcamp</h3>
+
+<p>Our Bug Bounty Bootcamp is a one-day event that instructs you and other stakeholders on what bug bounties are and how to plan and execute a successful program, covering all the key areas that must be addressed. As part of this training, we dive deep into several different case studies (such as Google’s Security Reward Programs and DoD’s Hack the Pentagon), survey and demo commercial bug bounty platforms, facilitate a collaborative workshop in which we launch a mock program, and assess whether your organization is ready for a bug bounty program. Our aim is to equip you with all the critical knowledge, tools, and templates that you need to move forward successfully.</p>
+
+<p><strong>The great thing about this Bootcamp is that it’s scoped and priced within the federal government’s <a href="https://www.acquisition.gov/far/html/Subpart%2013_2.html">micropurchase threshold</a>.</strong></p>
+
+<h3 id="design--preparation">Design &amp; Preparation</h3>
+
+<p>Based on what your specific organizational needs and testing requirements are, we work with you to design and prepare for a successful bug bounty program. If this is your first one, we recommend starting out with a pilot program to test the waters. Some of the key activities at this stage include:</p>
+
+<ul>
+  <li>Assembling the bug bounty team who will support the program (for example, engaging key stakeholders from across the organization, responding to bug reports, making awards, and building relationships with the security research community), including the team’s leader (for example, Chief Information Security Officer) who will own and champion the program.</li>
+  <li>Setting the initial scope of the assessment. That is, what <strong>digital assets</strong> (such as 3–5 public-facing websites, all web services under a particular domain, or a highly-sensitive system in pre-production) and <strong>bug types</strong> (for example, XSS or SQL injection) you want — and don’t want — researchers to focus on.</li>
+  <li>Determining what type of program you want to run. For example, it could be <strong>private</strong> (invite-only) or <strong>public</strong> (open to the collective intelligence of thousands) coupled with a <strong>Vulnerability Disclosure Program</strong> (open-door policy to anyone who wants to report a security flaw).</li>
+  <li>Calibrating the rewards structure based on your available budget.</li>
+  <li>Choosing and setting up a bug bounty platform — such as Bugcrowd or HackerOne — for receiving, organizing, analyzing, understanding, and offering rewards for vulnerability reports from third-party researchers. (We don’t recommend trying to build-out and manage this infrastructure yourself.)</li>
+  <li>Priming your vulnerability management processes to handle the influx of new reports that will come and need to be triaged and remediated. This includes highlighting how triages are handled and designating remediation teams.</li>
+  <li>Crafting your policy/rules page. This page commonly contains your disclosure policy, rules of engagement, scope, service-level agreements (such as time to respond to a new report and time to bounty after validation), and other important information.</li>
+</ul>
+
+<h3 id="launch">Launch</h3>
+
+<p>Once you’re fully prepared, we work with you to launch and iterate on your program. A few of the main activities include:</p>
+
+<ul>
+  <li>Receiving vulnerability reports from security researchers and coordinating the validation, prioritization, and remediation of those reported flaws within the target service-level agreements.</li>
+  <li>Adjusting elements of the program (for example, policy/rules page or bounty amounts), if need be, to ensure researchers are hitting the right targets and reporting the types of bugs that you want to see.</li>
+  <li>Incentivizing more participation and increasing the volume of reports through such actions as increasing the scope, adding more hackers, and increasing the bounty amounts.</li>
+</ul>
+
+<h3 id="scaling--improvement">Scaling &amp; Improvement</h3>
+
+<p>Over the course of the launch stage, you’ll gain valuable experience running bug bounties within the context of your organization. You should have ironed out a lot of the major kinks and be in a position to ramp the program up and leverage it to drive improvements to your organization’s security culture and coding practices. Some of the key activities at this stage include:</p>
+
+<ul>
+  <li>Scaling the program. This could mean increasing the scope to include more digital assets and types of bugs, opening it up to more hackers, increasing the bounty rewards, or any combo thereof. In doing so, you might need to iterate through the design &amp; preparation and launch phases again.</li>
+  <li>Optimizing bug bounty and vulnerability management processes to handle a larger volume of reports.</li>
+  <li>Leveraging bug bounty data to perform an analysis of the root causes behind systemic issues (for example, XSS keeps popping-up) with your existing security and software development practices. This is particularly useful for gaining insight into the performance of specific contractors.</li>
+</ul>
+
+<h2 id="lets-get-secure">Let’s get secure!</h2>
+
+<p>If you’re interested in chatting with us about how we could support your bug bounty initiative, <a href="/connect/contact/">we’d love to hear from you</a>.</p>
+
+      </div>
+
+      <footer class="post-footer">
+        
+
+        
+          <div class="post-tags">
+            
+              <a href="/thoughts/blog/tag/service-delivery/" class="tag-badge">service delivery</a>
+            
+              <a href="/thoughts/blog/tag/security-and-privacy/" class="tag-badge">security and privacy</a>
+            
+              <a href="/thoughts/blog/tag/chris-cairns/" class="tag-badge">chris cairns</a>
+            
+          </div>
+        
+
+        <div class="post-share">
+          
+          
+          
+
+          
+          
+
+          <div>
+            <a href=" https://twitter.com/intent/tweet?url=https://skylight.digital/thoughts/blog/new-bug-bounty-program-solution-to-secure-government-digital-services/&text=New+bug+bounty+program+solution+to+secure+government+digital+services&via=skylight_hq " role="button">
+              <i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
+              Share on Twitter
+            </a>
+          </div>
+
+          <div>
+            <a href=" https://www.linkedin.com/shareArticle?mini=true&url=https://skylight.digital/thoughts/blog/new-bug-bounty-program-solution-to-secure-government-digital-services/ " role="button">
+              <i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+              Share on LinkedIn
+            </a>
+          </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+
+        
+      </footer>
+
+    </div>
+  </div>
+
+</article>
+
+
+<footer class="page-subfooter">
+  <div class="page-subfooter-content">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
+        <h3 class="header-display-2">Let's deliver together.</h3>
+      </div>
+    </div>
+
+    <div class="page-subfooter-text-row">
+      <div class="page-subfooter-text-col">
+        <p>However bold the idea or complex the problem, we work with you to deliver results in weeks, not years.</p>
+      </div>
+    </div>
+
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
+        <a href="/connect/contact/" role="button">
+          <span>Contact Us</span>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    </main>
+
+    <footer class="footer">
+
+  <div class="footer-content">
+    <div class="footer-brand">
+      <a class="footer-brandmark">HUBZone Certified</a>
+    </div>
+
+    <nav class="footer-nav">
+      <div class="footer-link-groups">
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="/company/about/">About</a></li>
+              <li><a href="/company/values/">Values</a></li>
+              <li><a href="/company/press/">Press</a></li>
+              <li><a href="/company/policies/">Policies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h4>Work</h4>
+            <ul>
+              <li><a href="/work/services/">Services</a></li>
+              <li><a href="/work/experience/">Experience</a></li>
+              <li><a href="/work/toolkits/">Toolkits</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h4>Careers</h4>
+            <ul>
+              <li><a href="/careers/join/">Join</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h4>Thoughts</h4>
+            <ul>
+              <li><a href="/thoughts/blog/">Blog</a></li>
+              <li><a href="/thoughts/talks/">Talks</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="/connect/contact/">Contact</a></li>
+              <li><a href="/connect/contracting/">Contracting</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</footer>
+
+
+    
+
+    <script>
+  if (!/^localhost/.test(location.host)) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-93543424-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+
+    jQuery(function() {
+      jQuery.scrollDepth();
+    });
+  }
+</script>
+
+  </body>
+
+</html>
