@@ -13,6 +13,7 @@ keywords: digital consulting, digital government, digital transformation, digita
 published: 2017-06-18
 modified: 2017-06-18
 notice_bar: false
+destination: ./build
 
 baseurl: '' # the subpath of your site, e.g. /blog
 permalink: /:title/
