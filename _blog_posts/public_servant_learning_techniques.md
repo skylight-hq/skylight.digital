@@ -54,7 +54,7 @@ When we worked together in government, Noah Kunin read all of the Federal Acquis
 
 This seems to require a lot of effort. For example, suppose you want to learn about the Internet of Things. You should read a lot about this. But after you have spent 20 hours reading about it you really should spend 2 hours doing it. It isn't obvious how to do this, and technologists such as ourselves should make it easier.
 
-Here's what I mean: you need to go to a "maker space,: or a conference or a hackathon, and try to actually use a non-computer device that's radio connected to the internet. For example, this can be done with a microcontroller and various printed circuit boards you can plug onto them for about $35. You can make something as simple as a remote temperature sensor.
+Here's what I mean: you need to go to a "maker space," or a conference or a hackathon, and try to actually use a non-computer device that's radio connected to the internet. For example, this can be done with a microcontroller and various printed circuit boards you can plug onto them for about $35. You can make something as simple as a remote temperature sensor.
 
 Now, to those of you who don't know anyone who can explain this to them, it may sound impossible. You might not know where to begin. You wouldn't know whom to ask. However, if you aren't too shy, you can eventually use Google to find people who will eagerly &mdash; sometimes very eagerly &mdash; lead you to what you need to do.
 
