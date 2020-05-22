@@ -600,14 +600,14 @@
       link: /work/team-member/becca-bartola/
       link_description: Becca's Project Work
       fa_icon_name: wrench
-- name: laura-vlassarev
+- name: laura-king
   fname: Laura
-  lname: Vlassarev
-  full_name: Laura Vlassarev
-  short_name: L. Vlassarev
-  profile_path: /company/about/#laura-vlassarev
-  image: /img/people/laura-vlassarev.jpg
-  image_description: Photo of Laura Vlassarev
+  lname: King
+  full_name: Laura King
+  short_name: L. King
+  profile_path: /company/about/#laura-king
+  image: /img/people/laura-king.jpg
+  image_description: Photo of Laura King
   position: UX Designer
   bio: >
     Laura is a UX researcher, strategist, and designer. She loves to solve
@@ -629,7 +629,7 @@
       link_description: Laura's Personal Website
       fa_icon_name: home
     - name: Projects
-      link: /work/team-member/laura-vlassarev/
+      link: /work/team-member/laura-king/
       link_description: Laura's Project Work
       fa_icon_name: wrench
 - name: victoria-suwardiman

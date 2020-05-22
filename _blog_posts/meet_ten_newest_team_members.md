@@ -111,9 +111,9 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 </p>
 </blockquote>
 
-## Laura Vlassarev, UX Designer
+## Laura King, UX Designer
 
-[Laura](/company/about/#laura-vlassarev) loves to solve complex problems by empathizing with and understanding the needs of users. At Skylight, she uses her unique combination of skills in UX research and design to accelerate the delivery of useful and usable products. Prior to Skylight, she held research and design roles at Aetna, Pearson, and HomeAdvisor.
+[Laura](/company/about/#laura-king) loves to solve complex problems by empathizing with and understanding the needs of users. At Skylight, she uses her unique combination of skills in UX research and design to accelerate the delivery of useful and usable products. Prior to Skylight, she held research and design roles at Aetna, Pearson, and HomeAdvisor.
 
 <blockquote class="post-blockquote">
 <p>
