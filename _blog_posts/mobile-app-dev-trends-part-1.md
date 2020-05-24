@@ -43,7 +43,7 @@ Why is there still a gap between what can be done on mobile web and with a nativ
 
 Ultimately user expectations may push us away from a pure web experience and dictate that we have a presence as an app on the mobile home screen, and that certain key mobile app functions be present, which brings us to our first hybrid option, the Progressive Web App (PWA).
 
-### Progressive Web Apps (PWA)
+### Progressive Web Apps
 
 The next step towards embracing a mobile platform directly is to use recently-developed mobile web extensions, creating what's known as a Progressive Web App. PWAs have been [embraced by the Android ecosystem](https://web.dev/progressive-web-apps/), and Apple has followed suit in the iOS ecosystem (but with less enthusiasm, particularly in the area of access to device notifications).
 
