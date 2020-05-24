@@ -7,8 +7,8 @@ image: /img/blog/mobile_app_dev_trends/mobile-app-dev-trends-1.svg
 image_description: A person viewing business charts on their mobile phone.
 image_display: true
 order: 2900
-tags: [mobile, engineering, apis, sean johnson]
-excerpt: The landscape of mobile app development has changed considerably over the past decade since bursting onto the scene in 2008. Here we discuss the two key trends that are shaping how mobile applications are developed today.
+tags: [mobile, product, engineering, apis, sean johnson]
+excerpt: The landscape of mobile app development has changed considerably over the past decade. Here we discuss the two key trends that are shaping how mobile applications are developed today.
 authors:
   - Sean Johnson
 date_published: 2020-05-22
@@ -77,7 +77,7 @@ The primary advantage of hybrid apps are:
 
 - Access to app store distribution
 - Single cross-platform codebase
-- Access to additional device hardware and SDKs through API wrappers
+- Access to additional device hardware and SDKs through application programming interface (API) wrappers
 - Options for developing targeted native extensions to tap into all of the device hardware and SDKs
 
 It's worth noting that despite typically using just one codebase to target multiple mobile platforms (for example, iOS and Android), the more native the app feels, and the more native features the hybrid app takes advantage of, the more platform-specific code and styling will exist in the hybrid app, increasing its complexity.
@@ -138,8 +138,8 @@ In addition, the back-end development needed to support mobile apps has matured 
 
 By digging into these two important trends, we've now laid the groundwork for making better decisions about modern mobile app development.
 
-The first trend is that we have more options to consider now than ever before in the form of hybrid approaches that blend web and mobile development to get us closer to delivering for the three major platforms &mdash; Web, iOS and Android with a single code base and technology stack. Working almost directly against this trend is the second trend we identified, app consolidation with far fewer applications per user and a significantly higher expectation of quality and native fit to the mobile device.
+The first trend is that we have more options to consider now than ever before in the form of hybrid approaches that blend web and mobile development to get us closer to delivering for the three major platforms &mdash; Web, iOS, and Android with a single codebase and technology stack. Working almost directly against this trend is the second trend we identified, app consolidation with far fewer applications per user and a significantly higher expectation of quality and native fit to the mobile device.
 
 The fact that two important trends in mobile app development seem to push us in two different directions is what makes this a challenging time. Do we pursue one of the new hybrid options to mobile development and deliver cross-platform experiences with less code? Or instead, do we build a premium native app experience with the deep hardware and operating system integration that can earn a lasting spot on user's shrinking home screens and attention spans? These questions are obviously not just technical, or even primarily technical, but the answers to them directly impact how we build mobile apps.
 
-In Part 2 of this two-part blog series, we'll shift gears to making sense of these trends with the three important takeaways that can guide our path forward and provide the technical approach we need to develop mobile apps today.
+In [Part 2](/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/) of this two-part blog series, we'll shift gears to making sense of these trends with the three important takeaways that can guide our path forward and provide the technical approach we need to develop mobile apps today.
