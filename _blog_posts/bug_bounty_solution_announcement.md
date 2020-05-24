@@ -29,7 +29,7 @@ For those new to crowdsourced approaches to white hacking, bug bounties are prog
 
 For most government organizations, bug bounty programs represent a new approach to protecting their digital ecosystems. Spinning up and running your own successful bug bounty program is certainly manageable; however, there are a number of moving pieces that must be carefully orchestrated. We're here to help you learn and master that process. Our support services cover the entire lifecycle of a bug bounty program.
 
-![Four phases of Skylight's bug bounty lifecycle support services.](/img/blog/bug_bounty_solution_announcement/bug-bounty-services.png)
+![Four phases of Skylight's bug bounty lifecycle support services.](/img/blog/bug_bounty_solution_announcement/bug-bounty-services.svg)
 
 ### Bootcamp
 

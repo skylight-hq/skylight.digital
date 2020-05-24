@@ -30,7 +30,7 @@ Unfortunately, the ACME CIO's previous attempts at transformation yielded only a
 
 Under an extremely tight proposal period, we responded with an approach that focused on building-up ACME's internal DevOps capacity as quickly as possible so they can manage the journey *sustainably*, *self-sufficiently*, and *effectively*.
 
-![Phases of the ACME engagement.](/img/blog/devops_transformation_proposal/acme-engagement-phases.png)
+![Phases of the ACME engagement.](/img/blog/devops_transformation_proposal/acme-engagement-phases.svg)
 
 Those words &mdash; *sustainably*, *self-sufficiently*, and *effectively* &mdash; aren't just sales fluff; they're key engagement outcomes that we're trying to achieve.
 

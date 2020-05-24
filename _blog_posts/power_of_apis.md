@@ -69,7 +69,7 @@ As a general relationship, the more authority given to the user, the more utilit
 
 However, APIs allow us to break this general relationship between risk and utility. With a well-designed API, it's possible to have low risk and high utility. This is represented in the second figure below titled "With an API."
 
-![Diagram showing relationship between risk and utility with an API.](/img/blog/power_of_apis/risk-utility-graph-with-api.png)
+![Diagram showing relationship between risk and utility with an API.](/img/blog/power_of_apis/risk-utility-graph-with-api.svg)
 
 With an API, you can have a solution, such as the example "Compiled Query Menu" that's high utility and low risk. Such an API offers a set of vetted, pre-defined queries, which are guaranteed to run efficiently &mdash; and perhaps documented &mdash; to ensure validity and inform their interpretation. This isn't possible without an API, because there's no solution that offers that much utility without being too free and giving up too much control.
 
