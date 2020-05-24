@@ -6,8 +6,8 @@ redirect_from:
   - /blog/jumpstart-your-devops-transformation-smartly-with-skylight-and-dora/
   - /blog/achieve-devops-transformation-with-skylight-and-dora/
 content_type: BlogPosting
-image: /img/blog/dora/devops-accelerate.png
-image_description: Image showing gears and arrows to illustrate the concept of DevOps transformation.
+image: /img/blog/dora/devops.svg
+image_description: Four people standing or sitting on a huge computer with DevOps symbols placed on it.
 image_display: true
 order: 2200
 tags: [devops, transformation, josh dorothy, chris cairns]
