@@ -48,7 +48,7 @@ I've never heard any government official who transitioned to industry say: "Wow,
 
 Unfortunately, I can't flip a switch and make procurement officials more empathetic toward industry. But I can create a 2x2:
 
-![A 2x2 cost-benefit decision matrix illustrating the thought process a vendor goes through when deciding to pursue a government procurement.](/img/blog/tech_challenge_thoughts/vendor-procurement-pursuit-cost-benefit-decision-matrix.png)
+![A 2x2 cost-benefit decision matrix illustrating the thought process a vendor goes through when deciding to pursue a government procurement.](/img/blog/tech_challenge_thoughts/vendor-procurement-pursuit-cost-benefit-decision-matrix.svg)
 
 With greater empathy, I speculate you'd see government officials design more tech challenges that feature:
 

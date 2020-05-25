@@ -5,8 +5,8 @@ permalink: /thoughts/blog/our-winning-devops-transformation-consulting-proposal/
 redirect_from:
   - /blog/our-winning-devops-transformation-consulting-proposal/
 content_type: BlogPosting
-image: /img/blog/devops_transformation_proposal/devops-transformation.png
-image_description: The words DevOps transformation against a background of arrows symbolizing progress.
+image: /img/blog/devops_transformation_proposal/devops-contract.svg
+image_description: "A person holding a pen over a piece of paper entitled &quot;Contract&quot; with a closed-loop DevOps symbol on it."
 image_display: true
 order: 1400
 tags: [devops, transformation, chris cairns]
