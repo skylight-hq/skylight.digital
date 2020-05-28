@@ -46,10 +46,7 @@
     {% assign description = site_description %}
   {% endif %}
 
-  {% if page.social_image and page.social_image_description %}
-    {% assign image = site_url | append: page.social_image %}
-    {% assign image_description = page.social_image_description %}
-  {% elsif page.image and page.image_description %}
+  {% if page.image and page.image_description %}
     {% assign image = site_url | append: page.image %}
     {% assign image_description = page.image_description %}
   {% else %}
