@@ -29,7 +29,6 @@ jobs:
         #cat ./build/sitemap.xml | grep http:// | sed 's/<.*>\(.*\)<\/.*>/\1/' | sed 's/http:\/\/localhost:4000\//$SITE_URL\//g' | sort
         urls: |
           $SITE_URL/
-          $SITE_URL/assets/Skylight-DITAP-Syllabus.pdf
           $SITE_URL/careers/join/
           $SITE_URL/company/about/
           $SITE_URL/company/policies/
