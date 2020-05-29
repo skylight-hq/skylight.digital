@@ -8,16 +8,16 @@
     {% for group in groups %}
       <h3 class="open-positions-heading">{{ group.name }}</h3>
       {% for item in group.items %}
-      <ul>
-        <li class="rounded p-3">
-          <a class="no-border" href="{{ item.url }}" title="View job posting for {{ item.title }}">
-            {{ item.title }}
-          </a>
-          <p><i class="fa fa-globe mr-2"></i>{{ item.location }}</p>
-          <p class="mt-1">{{ item.summary }}</p>
-        </li>
+        <ul>
+          <li class="rounded p-3">
+            <a class="no-border" href="{{ item.url }}" title="View job posting for {{ item.title }}">
+              {{ item.title }}
+            </a>
+            <p><i class="fa fa-globe mr-2"></i>{{ item.location }}</p>
+            <p class="mt-1">{{ item.summary }}</p>
+          </li>
+        </ul>
       {% endfor %}
-      </ul>
     {% endfor %}
   </div>
 
