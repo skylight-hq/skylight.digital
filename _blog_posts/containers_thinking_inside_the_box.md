@@ -5,8 +5,8 @@ permalink: /thoughts/blog/containers-thinking-inside-the-box/
 redirect_from:
   - /blog/containers-thinking-inside-the-box/
 content_type: BlogPosting
-image: /img/blog/containers_thinking_inside_the_box/containers.png
-image_description: A stack of colorful cargo containers.
+image: /img/blog/containers_thinking_inside_the_box/containers.svg
+image_description: A huge stack of cargo containers with a person sitting inside one of them and working on a computer.
 image_display: true
 order: 1800
 tags: [devops, josh dorothy]

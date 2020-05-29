@@ -5,8 +5,8 @@ permalink: /thoughts/blog/how-to-rescue-failing-programs/
 redirect_from:
   - /blog/how-to-rescue-failing-programs/
 content_type: BlogPosting
-image: /img/blog/rescue_failing_programs/rescue.png
-image_description: An emergency vehicle's siren lights.
+image: /img/blog/rescue_failing_programs/rescue.svg
+image_description: A firefighter standing on a large computer that's caught on fire and is using a firehouse to try to put it out.
 image_display: true
 order: 1000
 tags: [delivery management, procurement, robert read]

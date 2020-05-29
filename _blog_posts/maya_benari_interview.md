@@ -3,7 +3,7 @@ layout: blog_post
 title: "Maya Benari: Accelerating the development of high-quality products"
 permalink: /thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/
 content_type: BlogPosting
-image: /img/blog/maya_benari_interview/maya-benari.png
+image: /img/blog/maya_benari_interview/maya-benari.svg
 image_description: Portrait of Maya Benari.
 image_display: true
 order: 2700
