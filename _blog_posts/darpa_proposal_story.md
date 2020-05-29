@@ -5,8 +5,8 @@ permalink: /thoughts/blog/story-of-a-darpa-proposal/
 redirect_from:
   - /blog/story-of-a-darpa-proposal/
 content_type: BlogPosting
-image: /img/blog/darpa_proposal_story/darpa-iot.png
-image_description: Stylized image of the DARPA logo conveying the concept of the Internet of Things.
+image: /img/blog/darpa_proposal_story/dense-sense.svg
+image_description: A police officer looking at a screen that's displaying where a gunshot has been detected by IoT sensors.
 image_display: true
 order: 1100
 tags: [internet of things, robert read]
@@ -21,7 +21,7 @@ date: 2018-01-09
 
 This particular idea was to build a distributed gunshot analysis system that could be very rapidly deployed using a sensor net of LoRa connected sensors. In theory, such a net could accurately geolocate gunshots. This seemed like it could save lives. It would also be an interesting real-world test of the LoRa capability.
 
-![Dense Sense infographic.](/img/blog/darpa_proposal_story/dense-sense-infographic.png)
+![Dense Sense infographic.](/img/blog/darpa_proposal_story/dense-sense-infographic.svg)
 
 As the idea sank in, it became clear that we had the talent to perform the work. I'm a computer scientist, but I build robots and can also build circuit boards; we had [Kin Lane](/company/about/#kin-lane), who could design an open API-driven platform for us; we had {% include profile_text_link.html name = 'john-teeter' %} and [Chris Cairns](/company/about/#chris-cairns), both of whom know how to build large systems and we had another ace in the hole <a href="http://blindgoat.org/">Dr. Martin Smith</a>, who was a practical geophysics researcher who could do all the needed signal processing in his sleep.
 
