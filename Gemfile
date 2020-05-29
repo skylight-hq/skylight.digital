@@ -7,7 +7,8 @@ group :jekyll_plugins do
    gem 'jekyll-redirect-from'
    gem 'jekyll-paginate-v2'
    gem 'octopress-debugger'
-   gem 'jekyll-imagemagick', '~> 1.4'
+   # For batch conversion of images
+   # gem 'jekyll-imagemagick', '~> 1.4'
 end
 
 group :development do
