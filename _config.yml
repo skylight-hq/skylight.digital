@@ -104,3 +104,15 @@ plugins:
 
 gems:
   - octopress-debugger
+
+imagemagick:
+  enabled: true
+  widths:
+    - 0
+  input_directories:
+    - img/blog/
+  input_formats:
+    - ".svg"
+  output_formats:
+    png: "-quality 100% -density 600 -background white  -flatten -verbose -fill 'rgba(255,0,0,0)'"
+
