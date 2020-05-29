@@ -94,6 +94,7 @@ exclude:
   - package.json
   - npm-debug.log
   - docs
+  - lighthouse
 
 # Jekyll plugins
 plugins:
