@@ -54,6 +54,16 @@
     {% assign image_description = site_image_description %}
   {% endif %}
 
+  {% if image contains ".svg" %}
+    {% assign image_test = image | replace: ".svg", ".png" %}
+    {% for static_file in site.static_files %}
+      {% assign static_path = site_url | append: static_file.path %}
+      {% if image_test == static_path  %}
+        {% assign image = image_test %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   {% if page.tags.size > 0 %}
     {% assign keywords = page.tags | join: ', ' %}
   {% else %}
