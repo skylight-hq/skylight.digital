@@ -31,6 +31,6 @@ In the end we proposed covering a 10-square-mile test area with up to 30 sensors
 
 Unfortunately DARPA didn't fund it; they wanted more specific hypothesis-testing than we wrote-up.
 
-We are proud of the work we did, so we're placing our <a href="https://github.com/skylight-hq/darpa-dense-sense-proposal/blob/master/README.md">research grant proposal online</a> in the spirit of radical transparency and fierce openness, which is part of Skylight's company principles. We've written this story to share our experience with other firms that might be considering something similar.
+We're proud of the work we did, so we're placing our <a href="https://github.com/skylight-hq/darpa-dense-sense-proposal/blob/master/README.md">research grant proposal online</a> in the spirit of radical transparency and fierce openness, which is part of Skylight's company principles. We've written this story to share our experience with other firms that might be considering something similar.
 
 We haven't yet decided if we'll move forward with this. We welcome comments and communications from firms that might be interested in cooperating in the IoT space.

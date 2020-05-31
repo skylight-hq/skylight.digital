@@ -133,7 +133,7 @@ As previously listed, the goals for our contracting strategy are:
 - Familiarity with CMS systems, specifically complex business logic associated with Medicare FFS payment processing
 - Ability to define development and infrastructure requirements at the BPA level so details are not missed in task orders
 
-CMS has experience over the past year issuing contracts through both SPARC and ADELE and there are some great data points that can be gathered to compare the two vehicles against the goals that we are aiming for.
+CMS has experience over the past year issuing contracts through both SPARC and ADELE and there are some great data points that can be gathered to compare the two vehicles against the goals that we're aiming for.
 
 #### Ability to award new tasks quickly
 

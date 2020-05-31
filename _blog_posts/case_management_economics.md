@@ -106,7 +106,7 @@ The way to save yourself this hassle is simply to demand that the software that 
 
 Inevitably two substantive objections will be raised to this approach, and a few specious ones driven by fear and cupidity.
 
-The first substantive objection is this: We are making something more useful, so how can that be easier?
+The first substantive objection is this: We're making something more useful, so how can that be easier?
 
 You're wise to raise such an objection; after all, it's harder to make two sandwiches than to make one. However, we must also understand that we aren't making sandwiches. In fact, we aren't dealing with scarce resources at all. The code is infinitely replicable; replicating it has a marginal cost of zero. The time and energy to write the code is indeed a scarce resource, but we're specifically attempting to leverage that as highly as possible by sharing it as much as possible.
 
