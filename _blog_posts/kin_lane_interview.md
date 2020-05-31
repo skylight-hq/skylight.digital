@@ -5,8 +5,8 @@ permalink: /thoughts/blog/kin-lane-harnessing-the-connective-power-of-apis/
 redirect_from:
   - /blog/kin-lane-harnessing-the-connective-power-of-apis/
 content_type: BlogPosting
-image: /img/blog/kin_lane_interview/kin-lane-as-api.png
-image_description: Stylized lettering of Kin Lane's name enclosed within API computing symbols.
+image: /img/blog/kin_lane_interview/kin-lane.svg
+image_description: Portrait of Kin Lane.
 image_display: true
 order: 1200
 tags: [people and culture, apis, kin lane]
