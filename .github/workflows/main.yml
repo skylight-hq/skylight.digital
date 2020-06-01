@@ -196,23 +196,14 @@ jobs:
             $SITE_URL/work/toolkits/accessibility-guide/
             $SITE_URL/work/toolkits/accessibility-guide/alternative-versions/
             $SITE_URL/work/toolkits/accessibility-guide/checklist/
-            $SITE_URL/work/toolkits/accessibility-guide/color/
             $SITE_URL/work/toolkits/accessibility-guide/css/
             $SITE_URL/work/toolkits/accessibility-guide/flashing/
-            $SITE_URL/work/toolkits/accessibility-guide/forms/
             $SITE_URL/work/toolkits/accessibility-guide/headings/
             $SITE_URL/work/toolkits/accessibility-guide/hidden-content/
-            $SITE_URL/work/toolkits/accessibility-guide/iframeform/
-            $SITE_URL/work/toolkits/accessibility-guide/iframes/
-            $SITE_URL/work/toolkits/accessibility-guide/images/
-            $SITE_URL/work/toolkits/accessibility-guide/keyboard/
-            $SITE_URL/work/toolkits/accessibility-guide/landmarks/
             $SITE_URL/work/toolkits/accessibility-guide/language/
-            $SITE_URL/work/toolkits/accessibility-guide/links/
             $SITE_URL/work/toolkits/accessibility-guide/multimedia/
             $SITE_URL/work/toolkits/accessibility-guide/page-titles/
             $SITE_URL/work/toolkits/accessibility-guide/plugins/
-            $SITE_URL/work/toolkits/accessibility-guide/tables/
             $SITE_URL/work/toolkits/accessibility-guide/timeouts/
             $SITE_URL/work/toolkits/accessibility-guide/tools/
             $SITE_URL/work/toolkits/accessibility-guide/training-videos/
