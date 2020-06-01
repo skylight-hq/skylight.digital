@@ -5,13 +5,13 @@ on:
     branches:
       - master
 
-jobs: 
+jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - name: Build & Deploy to GitHub Pages
-        env: 
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
@@ -158,7 +158,7 @@ jobs:
           $SITE_URL/work/team-member/becca-bartola/
           $SITE_URL/work/team-member/brandon-mader/
           $SITE_URL/work/team-member/cailyn-hansen/
-          $SITE_URL/work/team-member/charlye-delgado/
+          $SITE_URL/work/team-member/charlye-tran/
           $SITE_URL/work/team-member/chris-cairns/
           $SITE_URL/work/team-member/chris-given/
           $SITE_URL/work/team-member/colin-craig/
