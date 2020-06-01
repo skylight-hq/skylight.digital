@@ -250,7 +250,7 @@ jobs:
           $SITE_URL/work/toolkits/digital-talent-management/onboarding/
           $SITE_URL/work/toolkits/digital-talent-management/recruiting/
           $SITE_URL/work/toolkits/digital-talent-management/understanding-your-talent-gaps/
-        uploadArtifacts: true
+        uploadArtifacts: false
         configPath: ./lighthouse/lighthouserc.yml
       env:
         SITE_URL: ${{ secrets.PRODUCTION_URL }}
