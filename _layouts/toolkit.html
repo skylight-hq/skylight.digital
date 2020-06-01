@@ -13,7 +13,7 @@ preload: hero-toolkits.svg
     <div class="sidenav col-12 col-md-3 order-2 order-md-1">
       <div class="">
         <nav class="subnav-col px-0 mt-4 mt-md-0" id="sidenav">
-          <ul role="presentation">
+          <ul>
            {% for item in site.data.toolkits[page.sidenav].toc %}
               <li>
                 <a class="nav-link {% if item.url == page.url %}current{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
