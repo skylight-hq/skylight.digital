@@ -1230,14 +1230,14 @@
       link: /work/team-member/eric-richards/
       link_description: Eric's Project Work
       fa_icon_name: wrench
-- name: charlye-delgado
+- name: charlye-tran
   fname: Charlye
-  lname: Delgado
-  full_name: Charlye Delgado
-  short_name: C. Delgado
-  profile_path: /company/about/#charlye-delgado
-  image: /img/people/charlye-delgado.jpg
-  image_description: Photo of Charlye Delgado
+  lname: Tran
+  full_name: Charlye Tran
+  short_name: C. Tran
+  profile_path: /company/about/#charlye-tran
+  image: /img/people/charlye-tran.jpg
+  image_description: Photo of Charlye Tran
   position: Product Manager
   bio: >
     Charlye loves to solve complex problems. As a former software and data
@@ -1251,7 +1251,7 @@
       link_description: Charlye's LinkedIn Account
       fa_icon_name: linkedin
     - name: Projects
-      link: /work/team-member/charlye-delgado/
+      link: /work/team-member/charlye-tran/
       link_description: Charlye's Project Work
       fa_icon_name: wrench
 - name: tomi-obikunle
