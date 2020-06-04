@@ -617,7 +617,7 @@
   order: 60
   socials:
     - name: Twitter
-      link: https://twitter.com/LauraVlassarev
+      link: https://twitter.com/LauraKingUX
       link_description: Laura's Twitter Account
       fa_icon_name: twitter
     - name: LinkedIn
@@ -625,7 +625,7 @@
       link_description: Laura's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
-      link: https://www.lauravlassarev.com/
+      link: https://laurakingux.com/
       link_description: Laura's Personal Website
       fa_icon_name: home
     - name: Projects
