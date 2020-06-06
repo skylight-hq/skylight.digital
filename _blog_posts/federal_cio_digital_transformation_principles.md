@@ -5,8 +5,8 @@ permalink: /thoughts/blog/principles-for-a-federal-cio-led-digital-transformatio
 redirect_from:
   - /blog/principles-for-a-federal-cio-led-digital-transformation/
 content_type: BlogPosting
-image: /img/blog/federal_cio_digital_transformation_principles/cio-letters-digitized.png
-image_description: Abstract image of the letters CIO with digital-looking effects.
+image: /img/blog/federal_cio_digital_transformation_principles/cio-digital-world.svg
+image_description: A female CIO interacting with floating icons that represent digital transformation themes.
 image_display: true
 order: 900
 tags: [transformation, chris cairns]
