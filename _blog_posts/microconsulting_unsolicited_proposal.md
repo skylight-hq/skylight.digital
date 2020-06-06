@@ -5,8 +5,8 @@ permalink: /thoughts/blog/unsolicited-proposal-for-a-microconsulting-services-ma
 redirect_from:
   - /blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
 content_type: BlogPosting
-image: /img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace.png
-image_description: A marketplace for microconsulting services.
+image: /img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace.svg
+image_description: A woman shopping at a marketplace for microconsulting services.
 image_display: true
 order: 800
 tags: [microconsulting, procurement, robert read, chris cairns]
