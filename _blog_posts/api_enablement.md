@@ -5,8 +5,8 @@ permalink: /thoughts/blog/quick-wins-for-legacy-systems-through-api-enablement/
 redirect_from:
   - /blog/quick-wins-for-legacy-systems-through-api-enablement/
 content_type: BlogPosting
-image: /img/blog/api_enablement/api-benefits-napkin.png
-image_description: Two people at a happy hour looking at a napkin describing the benefits of API enablement.
+image: /img/blog/api_enablement/api-enablement.svg
+image_description: An email print-out stuck to an air vent inside a metro train.
 image_display: true
 order: 1300
 tags: [apis, modernization, robert read, kin lane]
@@ -18,7 +18,7 @@ date_published: 2018-02-14
 date: 2018-02-14
 ---
 
-*The following email print-out was found sticking to a Metro air vent somewhere east of 14th in Washington DC.*
+*The following email print-out was found sticking to an air vent inside a metro train on the Washington DC blue line.*
 
 Hey Terri,
 
