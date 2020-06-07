@@ -6,7 +6,7 @@ redirect_from:
   - /blog/quick-wins-for-legacy-systems-through-api-enablement/
 content_type: BlogPosting
 image: /img/blog/api_enablement/api-enablement.svg
-image_description: An email print-out stuck to an air vent inside a metro train.
+image_description: A woman looking at an email print-out stuck on the inside of a metro train car.
 image_display: true
 order: 1300
 tags: [apis, modernization, robert read, kin lane]
@@ -18,7 +18,7 @@ date_published: 2018-02-14
 date: 2018-02-14
 ---
 
-*The following email print-out was found sticking to an air vent inside a metro train on the Washington DC blue line.*
+*The following email print-out was found sticking inside a metro train car on the Washington DC blue line.*
 
 Hey Terri,
 
