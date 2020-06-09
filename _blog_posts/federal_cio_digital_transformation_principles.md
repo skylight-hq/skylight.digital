@@ -5,8 +5,8 @@ permalink: /thoughts/blog/principles-for-a-federal-cio-led-digital-transformatio
 redirect_from:
   - /blog/principles-for-a-federal-cio-led-digital-transformation/
 content_type: BlogPosting
-image: /img/blog/federal_cio_digital_transformation_principles/cio-letters-digitized.png
-image_description: Abstract image of the letters CIO with digital-looking effects.
+image: /img/blog/federal_cio_digital_transformation_principles/cio-digital-world.svg
+image_description: A female CIO interacting with floating icons that represent digital transformation themes.
 image_display: true
 order: 900
 tags: [transformation, chris cairns]
@@ -36,7 +36,7 @@ Periodically assessing progress against the Key Results, and making data-influen
 
 **Think holistically.** Your agency is a large, complex, multifaceted enterprise. As the saying goes, you're only strong as your weakest link. For example, even if you achieve the technical capability to ship code to production multiple times a day, if it still takes weeks for a change control board to approve the deployments, no value is gained. In other words, digital transformation requires advancing along multiple, self-reinforcing dimensions.
 
-![A diagram image showing various digital transformation dimensions.](/img/blog/federal_cio_digital_transformation_principles/digital-transformation-framework.png)
+![A diagram image showing various digital transformation dimensions.](/img/blog/federal_cio_digital_transformation_principles/digital-transformation-framework.svg)
 
 **Transform iteratively and incrementally.** As an IT community, we know by now that big-bang approaches to anything are doomed to fail. Many of the same principles of agile software delivery apply here as well. In other words, you should view transformation as a big goal that's implemented in a lot of small, coordinated, rapid-fire acts. This approach allows you to produce results quickly, make informed adjustments early and often based on empirical data, and increase the overall probability of success. (OKRs naturally reinforce this approach.)
 
