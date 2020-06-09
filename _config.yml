@@ -113,7 +113,7 @@ gems:
 #   widths:
 #     - 0
 #   input_directories:
-#     - img/blog/
+#     - img/projects/
 #   input_formats:
 #     - ".svg"
 #   output_formats:
