@@ -5,8 +5,8 @@ permalink: /thoughts/blog/software-badness-quantified/
 redirect_from:
   - /blog/software-badness-quantified/
 content_type: BlogPosting
-image: /img/blog/software_badness_quantified/bad-code-quantified.png
-image_description: A graphing calculator against a background showing abstract lines of code.
+image: /img/blog/software_badness_quantified/bad-code-quantified.svg
+image_description: A person holding a graphing calculator displaying plot data.
 image_display: true
 order: 200
 tags: [engineering, robert read]
