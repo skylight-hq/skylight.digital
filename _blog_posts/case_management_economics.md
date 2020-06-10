@@ -5,8 +5,8 @@ permalink: /thoughts/blog/case-management-a-study-in-non-traditional-economics-f
 redirect_from:
   - /blog/case-management-a-study-in-non-traditional-economics-for-government/
 content_type: BlogPosting
-image: /img/blog/case_management/case-files.png
-image_description: Paper case files.
+image: /img/blog/case_management/paper-case-files-pile.svg
+image_description: Case worker overstressed by huge a pile of paper case files to work through.
 image_display: true
 order: 100
 tags: [engineering, modernization, procurement, robert read, chris cairns]
