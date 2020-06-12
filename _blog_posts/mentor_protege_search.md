@@ -5,8 +5,8 @@ permalink: /thoughts/blog/the-search-for-mentor-protege-relationships/
 redirect_from:
   - /blog/the-search-for-mentor-protege-relationships/
 content_type: BlogPosting
-image: /img/blog/mentor_protege_search/mentor-protege.png
-image_description: A magnifying glass highlighting the words mentor and protégé.
+image: /img/blog/mentor_protege_search/mentor-protege.svg
+image_description: A mentor standing at the top of some stairs, encouraging the protégé to ascend up.
 image_display: true
 order: 500
 tags: [chris cairns]
