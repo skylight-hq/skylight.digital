@@ -10,11 +10,11 @@
       {% for item in group.items %}
         <ul>
           <li class="rounded p-3">
-            <a class="no-border" href="{{ item.url }}" title="View job posting for {{ item.title }}">
+            <a class="no-border open-positions-title" href="{{ item.url }}" title="View job posting for {{ item.title }}">
               {{ item.title }}
             </a>
             <p><i class="fa fa-globe mr-2"></i>{{ item.location }}</p>
-            <p class="mt-1">{{ item.summary }}</p>
+            <div class="mt-1 open-positions-summary">{{ item.summary | markdownify }}</div>
           </li>
         </ul>
       {% endfor %}
