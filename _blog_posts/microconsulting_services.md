@@ -5,8 +5,8 @@ permalink: /thoughts/blog/supplement-your-team-with-specific-digital-expertise-t
 redirect_from:
   - /blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/
 content_type: BlogPosting
-image: /img/blog/microconsulting_services/microconsulting.png
-image_description: Image of several mini-brains representing different types of microconsulting services.
+image: /img/blog/microconsulting_services/microconsulting.svg
+image_description: Consultants sitting around a table and collaborating with their client.
 image_display: true
 order: 600
 tags: [microconsulting, chris cairns, robert read]
