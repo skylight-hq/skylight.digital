@@ -54,7 +54,7 @@
 }
 
 .footer-links {
-  h4 {
+  h4, h2 {
     @extend %mb-3;
     font-size: $font-size-medium;
   }
