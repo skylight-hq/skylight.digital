@@ -118,7 +118,7 @@ $(function() {
   ) {
     var headings = $("h2");
 
-    $(window).on("scroll", function() {
+    $(window).scroll(function() {
       var currentHeading = null;
 
       headings.each(function(index, element) {
