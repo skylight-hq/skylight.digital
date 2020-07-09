@@ -118,7 +118,7 @@ $(function() {
   ) {
     var headings = $("h2");
 
-    window.setInterval(function() {
+    $(window).on("scroll", function() {
       var currentHeading = null;
 
       headings.each(function(index, element) {
@@ -132,7 +132,7 @@ $(function() {
         : ".";
 
       history.replaceState(null, "", url);
-    }, 100);
+    });
   }
 }); // Pre-populate date select on ditap application
 
