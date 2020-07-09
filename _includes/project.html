@@ -20,7 +20,7 @@
           {% assign image_class = 'project-feature-image' %}
         {% endif %}
 
-        <img class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} " src="{{image}}" alt="{{image_description}}">
+        <img class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} " src="{{image}}" alt="{{image_description}}" title="{{image_description}}">
 
         <h2>The challenge</h2>
         {{include.challenge}}
