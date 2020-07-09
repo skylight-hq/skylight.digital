@@ -127,11 +127,13 @@ $(function() {
         }
       });
 
-      var url = currentHeading
+      var hash = currentHeading
         ? "#" + currentHeading.id
-        : ".";
+        : "";
 
-      history.replaceState(null, "", url);
+      if (hash !== window.location.hash) {
+        history.replaceState(null, "", hash || ".");
+      }
     });
   }
 }); // Pre-populate date select on ditap application
