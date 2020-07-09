@@ -117,20 +117,21 @@ $(function() {
     location.pathname === "/careers/join/"
   ) {
     var headings = $("h2");
+
     window.setInterval(function() {
-      headings.each(function(i) {
-        if (
-          window.pageYOffset >= $(this).offset().top &&
-          (i === headings.length - 1 ||
-            window.pageYOffset < headings.eq(i + 1).offset().top)
-        ) {
-          var urlId = "#" + $(this).attr("id");
-          history.replaceState(null, null, urlId);
-        } else if (i === 0 && window.pageYOffset < $(this).offset().top - 1) {
-          var newUrl = window.location.pathname + window.location.search;
-          history.pushState("", document.title, newUrl);
+      var currentHeading = null;
+
+      headings.each(function(index, element) {
+        if (window.pageYOffset >= $(element).offset().top) {
+          currentHeading = element;
         }
       });
+
+      var url = currentHeading
+        ? "#" + currentHeading.id
+        : ".";
+
+      history.replaceState(null, "", url);
     }, 100);
   }
 }); // Pre-populate date select on ditap application
