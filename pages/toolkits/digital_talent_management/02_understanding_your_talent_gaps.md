@@ -12,7 +12,7 @@ content_type: Toolkit
 
 Every organization has gaps related to talent. These gaps may include skillsets and competencies missing from their ranks, a lack of diversity, or employees who don't have the resources to be successful in their roles. However, few organizations intentionally and successfully understand these gaps. And organizations can only improve by first understanding where they're falling short.
 
-However, in recent years, organizations in both the private and public sectors are increasingly focused on understanding their talent-related gaps &mdash; and what it'll take to close them. Companies like Amazon have rolled out [daily assessment
+In recent years, however, organizations in both the private and public sectors are increasingly focused on understanding their talent-related gaps &mdash; and what it'll take to close them. Companies like Amazon have rolled out [daily assessment
 questions](https://www.cnbc.com/2018/03/30/amazon-employee-reaction-to-hr-programs-connections-forte.html) for their employees, and government agencies have devoted special task forces to take on the issue. Through these efforts, we've seen several strategies emerge for improving the way organizations assess and start to close their talent-related gaps.
 
 ## Listen to your current, past, and prospective employees
