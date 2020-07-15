@@ -10,7 +10,7 @@ content_type: Toolkit
 
 # Introduction
 
-Regardless of mission, all government agencies are now technology organizations. Technology is used extensively behind the scenes to run the organization, manage, and do the work. The services an agency offers to the public are increasingly available online.
+Regardless of mission, all government agencies are now technology organizations. They use technology extensively behind the scenes to run their organizations. And the services they offer to the public are increasingly available online.
 
 However, most of these technology efforts leave much to be desired. For example, systems are hard to maintain, interfaces are unfriendly, and errors are common. In the worst cases, getting services from the government still needs to be done in-person or through the mail.
 
