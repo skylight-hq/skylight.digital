@@ -190,13 +190,13 @@ class_2_spots:
       <h2 id="tuition-and-dates">Dates and tuition</h2>
       <a href="/work/services/training/ditap/apply/?date=1" class="row tuition-card no-gutters mt-4">
         <div class="col-12">
-          <h3 class="class-heading">August 5, 2020 to February 11, 2021</h3>
+          <h3 class="class-heading">November 2, 2020 to May 6, 2021</h3>
           {% if page.class_1_spots %}
             <div class="class-spots">
               <span>{{ page.class_1_spots }} spots left</span>
             </div>
           {% endif %}
-          <p class="tuition-card-note">In-person classroom sessions will be held on Aug 5&ndash;7, Oct 19&ndash;23, Dec 14&ndash;18, and Feb 8&ndash;11.</p>
+          <p class="tuition-card-note">In-person classroom sessions will be held on Nov 2&ndash;4, Jan 25&ndash;29, Mar 15&ndash;19, and May 3&ndash;6.</p>
           <div class="tuition-card-meta mt-3">
             <p><strong>Location:</strong> Online + Washington DC</p>
             <p><strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert Read, and Lara Kohl</p>
@@ -209,6 +209,12 @@ class_2_spots:
       </a>
       <h2 id="faqs">Get answers</h2>
       <p class="text-intro mb-4">Here are some questions that we're typically asked, along with our responses:</p>
+
+      {% capture accordion_body %}
+      <p>All in-person classroom sessions will be held virtually if COVID-19 continues to present any public-health risks.</p>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = 'How will in-person classroom training be handled during COVID-19?' accordion_body = accordion_body accordion_index = '1' %}
 
       {% capture accordion_body %}
       <p>The U.S. Digital Service and the Office of Federal Procurement Policy launched the DITAP program in order to increase the development of digital acquisition experts across government. By 2022, all federal acquisition professionals managing contracts of $7M or more will require <a href="https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services">FAC-C-DS certification</a>. This certification can be obtained by completing our accredited DITAP training course, led by experts who pioneered the field as former members of 18F and the U.S. Digital Service.</p>
@@ -225,7 +231,7 @@ class_2_spots:
       {% capture accordion_body %}
       <ul>
         <li>15 hours of webinars across 6 months.</li>
-        <li>9 full days of mandatory, in-person classroom instruction.</li>
+        <li>17 full days of mandatory, in-person classroom instruction.</li>
         <li>Additional 12 hours per week to read articles, participate in online discussions, contribute to group activities, and work on assignments.</li>
       </ul>
       {% endcapture %}
