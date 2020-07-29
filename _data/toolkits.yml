@@ -137,3 +137,16 @@ agile_procurement_playbook:
       url: /work/toolkits/agile-procurement-playbook/appendix-f-procurement-options-analysis-examples/
     - title: Appendix G&#58; Statement of Objectives examples
       url: /work/toolkits/agile-procurement-playbook/appendix-g-statement-of-objectives-examples/
+
+managing_technical_debt:
+  title: Managing Technical Debt Guide
+  description: A guide on how to manage technical debt.
+  toc:
+    - title: Introduction
+      url: /work/toolkits/managing-technical-debt/
+    - title: What is technical debt?
+      url: /work/toolkits/managing-technical-debt/what-is-technical-debt/
+    - title: Managing technical debt
+      url: /work/toolkits/managing-technical-debt/managing-technical-debt/
+    - title: Preventing technical debt
+      url: /work/toolkits/managing-technical-debt/preventing-technical-debt/
