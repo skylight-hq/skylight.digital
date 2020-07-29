@@ -26,13 +26,13 @@ In general, code sections should contain as few statements as necessary to carry
 
 Code that is deeply nested is harder to work with because it requires keeping more information in mind about the logic necessary to arrive there. This is probably most easily demonstrated by example.
 
-'''
+```
 If the car is dirty, wash the car
-'''
+```
  
 In this case, “wash the car” has a nested depth of one because there is only one logical decision that has to be made to get to the execution statement (washing the car). It’s very easy to understand the logic that led to washing the car. On the other hand, consider this much deeper example:
 
-'''
+```
 If the car is dirty...
   and it’s Saturday...
     and it’s sunny...
@@ -41,7 +41,7 @@ If the car is dirty...
           and there’s no football game on TV...
             and it’s not lunchtime...
               wash the car
-'''
+```
 
 In this case, the nested depth is seven (the indentation helps us count it), because the code takes 7 decision points in order to get to the execution statement. When looking at this, it’s much more difficult to keep in mind all of the necessary conditions that led to washing the car. If, later in the life of this code, it became necessary to add some alternative paths (where, for example, under certain conditions you paint the car rather than wash it), you have to really understand all of the existing conditions; otherwise, the new code could introduce a lot of bugs.
  
@@ -53,7 +53,7 @@ Where depth reveals the maximum number of logical decisions necessary to reach a
  
 Consider some code that describes your daily activities, separated by day of the week and time of day. It might look something like this:
 
-'''
+```
 If it is Monday...
   If it is morning...
     Eat breakfast
@@ -69,7 +69,7 @@ If it is Monday...
     Eat dinner
   If it is 11 o’clock...
     Go to sleep
-'''
+```
 
 While the full math around cyclomatic complexity is a bit hairy, *there is a shortcut*: count the number of “if” statements and add 1. This simple “Monday” example has a complexity of 6. Now imagine that this code is expanded to every day of the week and every time that may be of interest. Even just expanding for the days of the week would result in a complexity of 42.
  
