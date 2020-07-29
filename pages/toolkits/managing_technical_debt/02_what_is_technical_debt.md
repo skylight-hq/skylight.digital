@@ -10,6 +10,8 @@ content_type: Toolkit
 
 # What is technical debt?
 
+NOTE: NEED TO CHANGE TAGS THEN DELETE THIS LINE
+
 Let’s assume we’re developing a software product. When we make short-term compromises to its code or design quality (perhaps addressing a known bug with a band-aid solution instead of a more comprehensive solution), we’re making the product more difficult for someone else to continue to develop, test, and maintain in the future. We’re choosing to forego a clean and elegant solution that will help someone later on in favor of a solution that’s easy for us to write right now, because the clean solution will take more time but deliver the same functionality as the messy solution. This tradeoff illustrates a concept called technical debt. Technical debt is a financial metaphor that software developers use to talk to managers about the “hidden” costs associated with a system’s architecture and codebase (for example, changing requirements addressed with a “quick fix,” bugs deferred in favor of new development, design weaknesses, or aging third-party libraries). Technical debt can be thought of similarly to financial debt. For example, the extra effort required to finish incomplete work represents the principal portion of the debt. And the extra time it takes to work with unwieldy code or design, until it’s fixed, represents the interest portion.
 
 (IMAGE GOES HERE)
@@ -22,10 +24,10 @@ As in the financial world, there are different kinds of technical debt. Martin F
 
 While the result in each case is the accumulation of more technical debt, each of these types is created by different circumstances:
  
-- Reckless/Deliberate Debt: The team feels time pressured, and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
-- Prudent/Deliberate Debt: The team decides that the value of shipping a “quick and dirty solution” now is worth the cost of incurring debt. They’re fully aware of the consequences, however, and have a plan in place to address them.
-- Reckless/Inadvertent: The team is ignorant of best practices, and their lack of knowledge of effective development practices leads them to make a big mess of the codebase.
-- Prudent/Inadvertent: Even with great programmers, the team delivers an extrinsically valuable solution, only to realize how they should have (intrinsically) designed it. (Often the process of software development is as much learning as it is coding.)
+- **Reckless/Deliberate Debt**: The team feels time pressured, and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
+- **Prudent/Deliberate Debt**: The team decides that the value of shipping a “quick and dirty solution” now is worth the cost of incurring debt. They’re fully aware of the consequences, however, and have a plan in place to address them.
+- **Reckless/Inadvertent**: The team is ignorant of best practices, and their lack of knowledge of effective development practices leads them to make a big mess of the codebase.
+- **Prudent/Inadvertent**: Even with great programmers, the team delivers an extrinsically valuable solution, only to realize how they should have (intrinsically) designed it. (Often the process of software development is as much learning as it is coding.)
 
 ## Is technical debt always bad?
 
