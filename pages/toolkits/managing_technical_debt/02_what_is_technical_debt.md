@@ -10,68 +10,37 @@ content_type: Toolkit
 
 # What is technical debt?
 
-Every organization has gaps related to talent. These gaps may include skillsets and competencies missing from their ranks, a lack of diversity, or employees who don't have the resources to be successful in their roles. However, few organizations intentionally and successfully understand these gaps. And organizations can only improve by first understanding where they're falling short.
+Let’s assume we’re developing a software product. When we make short-term compromises to its code or design quality (perhaps addressing a known bug with a band-aid solution instead of a more comprehensive solution), we’re making the product more difficult for someone else to continue to develop, test, and maintain in the future. We’re choosing to forego a clean and elegant solution that will help someone later on in favor of a solution that’s easy for us to write right now, because the clean solution will take more time but deliver the same functionality as the messy solution. This tradeoff illustrates a concept called technical debt. Technical debt is a financial metaphor that software developers use to talk to managers about the “hidden” costs associated with a system’s architecture and codebase (for example, changing requirements addressed with a “quick fix,” bugs deferred in favor of new development, design weaknesses, or aging third-party libraries). Technical debt can be thought of similarly to financial debt. For example, the extra effort required to finish incomplete work represents the principal portion of the debt. And the extra time it takes to work with unwieldy code or design, until it’s fixed, represents the interest portion.
 
-In recent years, however, organizations in both the private and public sectors are increasingly focused on understanding their talent-related gaps &mdash; and what it'll take to close them. Companies like Amazon have rolled out [daily assessment
-questions](https://www.cnbc.com/2018/03/30/amazon-employee-reaction-to-hr-programs-connections-forte.html) for their employees, and government agencies have devoted special task forces to take on the issue. Through these efforts, we've seen several strategies emerge for improving the way organizations assess and start to close their talent-related gaps.
+(IMAGE GOES HERE)
 
-## Listen to your current, past, and prospective employees
+As in the financial world, there are different kinds of technical debt. Martin Fowler, a leading software expert, classifies technical debt into four types, as shown in the quadrants below.
 
-- Survey candidates in your hiring pipeline
-- Capture information as part of exit interviews
-- Conduct stay interviews to learn what current employees like and dislike about coming to work
-- Create other pathways for existing employees to safely and effectively share what they need
+## Types of technical debt
 
-## Document and benchmark your talent gaps
+(IMAGE GOES HERE)
 
-### Capture data related to talent-related deficiencies
+While the result in each case is the accumulation of more technical debt, each of these types is created by different circumstances:
+ 
+- Reckless/Deliberate Debt: The team feels time pressured, and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
+- Prudent/Deliberate Debt: The team decides that the value of shipping a “quick and dirty solution” now is worth the cost of incurring debt. They’re fully aware of the consequences, however, and have a plan in place to address them.
+- Reckless/Inadvertent: The team is ignorant of best practices, and their lack of knowledge of effective development practices leads them to make a big mess of the codebase.
+- Prudent/Inadvertent: Even with great programmers, the team delivers an extrinsically valuable solution, only to realize how they should have (intrinsically) designed it. (Often the process of software development is as much learning as it is coding.)
 
-- Identify talent goals (for example, reducing time-to-hire)
-- Identify metrics associated with those goals (for example, number of days from job posting to start date)
-- Measure the organization's current performance as a baseline
+## Is technical debt always bad?
 
-### Establish goals for your organization by comparing your metrics to those of high-performing organizations
+An important consideration to note is that, like financial debt, not all technical debt is bad debt. For example, taking out a mortgage on a home that you pay back within 15 years and sell for a 175 percent return is good debt. Conversely, racking up a huge credit card balance on a luxury yacht with no means to pay it back is reckless. With software, it’s perfectly reasonable to release early with known limitations in order to capture a time-bound market opportunity or meet a compliance deadline, as long as there’s staff in place to address those limitations after the launch. Another great way to leverage technical debt is to quickly run a market experiment (a la lean startup). If the experiment doesn’t yield the desired results, you can remove the feature and not even bother repaying the debt. Of course, if you keep the feature, then it must be finished, and you can do that with the benefit of what you learned from the experiment. So the aim of most software development experiments shouldn’t be to achieve a completely debt-free product. Instead, you want a product with [whatever level of quality is necessary to give the development team enough stamina to go faster for longer](http://martinfowler.com/bliki/DesignStaminaHypothesis.html).
 
-- Focus comparisons on organizations who are leaders in that space (for example, [U.S. Digital Service at the federal level](https://www.govloop.com/new-hiring-pilot-could-help-agencies-find-qualified-candidates-faster/)) since there's a great amount of variety among performance of government institutions
-- Organizations like Glassdoor are a good source of information on industry standards (for example, [How Long Should Your Hiring Process Take?](https://www.glassdoor.com/blog/how-long-should-interviews-take/))
+## Additional readings and resources
 
-### Review progress made in other organizations to build on what works
+- https://martinfowler.com/bliki/TechnicalDebt.html
+Additional discussion on the metaphor of technical debt and some of the nuances therein.
 
-When possible, look at what's been most successful in organizations with similar resources and structure. For example, it may be unreasonable for a state agency to successfully employ the same tactics as an extremely large and well-resourced human-resources team. Model your efforts after successful practices at organizations most similar to yours in terms of resources and regulations.
+- https://www.productplan.com/glossary/technical-debt/
+An examination of some of the nuances of technical debt, including how it can be leveraged as a tool as well as what isn’t technical debt.
 
-That said, some of the larger and more well-resourced organizations will be the most likely to measure and document progress made with respect to talent. For example, [Mobilizing Tech
-Talent](https://ourpublicservice.org/wp-content/uploads/2018/09/Mobilizing_Tech_Talent-2018.09.26.pdf) is an excellent resource for metrics and best practices on improving
-hiring tech talent into government.
+- https://hackernoon.com/there-are-3-main-types-of-technical-debt-heres-how-to-manage-them-4a3328a4c50c
+A look at managing some of the different types of intentional vs. unintentional technical debt, including strategies for using your backlog.
 
-## Take steps to close gaps
-
-- Work with staff closest to the issue areas to understand the current process and existing constraints
-    - Consider producing a process map ([example](https://talentsum.com/wp-content/uploads/2015/04/candidate-journey-map.png)) to clearly identify the steps in a process and to ensure other stakeholders also have that visibility
-    - Identify the aspects of the process that pose the biggest challenges and target these for improvement
-- Establish tactical steps for improvement
-
-## Hold yourselves accountable to progress
-
-- Identify and empower individuals to implement improvement plans
-- Review progress at regular (and reasonable) intervals
-- Be transparent: report out publicly on your process and accomplishments
-
-## Checklist
-
-- Identify talent gaps
-- Look at similar organizations for inspiration
-- Document gaps and identify benchmarks
-{: .list-checklist}
-
-<div class="callout" markdown="1">
-## Case study: The City of Durham
-
-The [City of Durham](https://durhamnc.gov/) in North Carolina conducts an annual workforce survey and publishes the results. While employee engagement surveys are standard across many levels of government, this survey's feedback loop makes it stand out from the rest. In addition to traditional questions to identify pain points, the survey measures whether or not employees felt action was taken after the previous survey.
-
-When conducting an employee engagement survey:
-
-- Write clear, concise questions that touch on one issue at a time (avoid [double-barreled questions](https://en.wikipedia.org/wiki/Double-barreled_question). Test these questions with a few people to ensure their meaning is straightforward.
-- Incorporate both open and closed questions. Open questions allow for longer, more personal responses, while closed questions have a fixed number of options to respond to (like yes/no or multiple choice). Open questions will generally produce better results. But they can also get tedious for respondents to answer, and introduce more complexity into the survey evaluation process.
-- Use the ["funnel" technique](https://www.qualtrics.com/experience-management/research/question-sequence-flow-style/) &mdash; start with questions that are easy respondents to answer, move into complex questions, and finish with simple questions.
-- Make responding as easy as possible. Only ask relevant questions, accept partial responses, and use an online survey tool that can be accessed from any device.
-</div>
+- https://insights.sei.cmu.edu/sei_blog/2019/05/managing-the-consequences-of-technical-debt-5-stories-from-the-field.html
+Several examples of how real organizations and companies confronted different kinds of technical debt.
