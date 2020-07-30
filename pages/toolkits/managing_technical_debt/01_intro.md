@@ -10,30 +10,12 @@ content_type: Toolkit
 
 # Introduction
 
-Regardless of mission, all government agencies are now technology organizations. They use technology extensively behind the scenes to run their organizations. And the services they offer to the public are increasingly available online.
+Technical debt is a financial metaphor that software developers use to talk to managers about the “hidden” costs associated with a system’s architecture and codebase (for example, changing requirements addressed with a “quick fix,” bugs deferred in favor of new development, design weaknesses, or aging third-party libraries). Technical debt costs organizations time as well as money. [Recent studies](http://www.castsoftware.com/research-labs/technical-debt-estimation), seeking to estimate the financial impact of technical debt, suggest that an average debt of $3.61 exists per line of software code, or an average of $1.08 million per system. In 2010, [Gartner estimated](http://www.gartner.com/newsroom/id/1439513) that the total amount of technical debt worldwide could reach $1 trillion this year. Given that the federal government builds and maintains a lot of software, it’s safe to assume that it carries a fair share of that debt.
 
-However, most of these technology efforts leave much to be desired. For example, systems are hard to maintain, interfaces are unfriendly, and errors are common. In the worst cases, getting services from the government still needs to be done in-person or through the mail.
+## Why care about the government's technical debt?
 
-Governments need to get better at leveraging technology. To do so, agencies need to build in-house digital teams with expertise in building, buying, and sharing modern technology services. These technology teams need to be cross-functional, with skills from disciplines such as user research, user experience design, product management, and software engineering. They need to be comfortable using the latest methods such as human-centered design, agile development, and DevOps. And lastly, these teams need to be empowered to make decisions, operate in a self-organizing manner, and initiate change where they see fit. In this document, we refer to members of these teams as digital talent.
+Technical debt can make software resistant and costly to change, and prone to outages, intermittent failures, and even [security breaches](http://www.techrepublic.com/blog/it-security/be-careful-not-to-incur-security-debt/). For users, this means fixes or features they need take more time to implement. For taxpayers, this means inefficient use of their hard-earned dollars. For program managers, this means greater risk that their debt-ridden systems become so untenable that they have to be ditched and rebuilt from scratch. For chief information officers, this means less budget and resource capacity to work on innovative projects that add value to their business partners. And for agency executives, this means systems that can’t be easily adapted to deliver new business capabilities, nor relied upon to support critical mission operations.
 
-Enabling this requires a change to how governments recruit, hire, onboard, and retain digital talent. It requires shifting the work culture to be even more collaborative. Changes in management style happen hand in hand.
+## How to use this toolkit
 
-This handbook is intended to be a practical guide for federal, state, and local governments looking to build out their digital capacity in order to meet the demands of delivering modern technology services.
-
-## How to use this handbook
-
-This handbook is written in sequential order, covering all of the steps it takes to build your digital teams.
-
-Be intentional about increasing your digital capacity. Start by understanding where digital teams are needed most in your organization. Plan to start by forming teams around public-facing services that need the most improvement. Digital teams can be effective at bringing paper-based processes online, streamlining bureaucratic processes, and modernizing error-prone legacy systems, among other things. Use this research to build your digital talent strategy, which will likely involve a mix of hiring new talent and modernizing the skills of existing employees.
-
-Building a successful digital organization requires focusing on three major areas:
-
-1. **Talent**. Recruit, hire, and onboard digital talent into cross-functional, empowered, self-organizing teams. Commit to modernizing the skills of existing employees through continual education.
-2. **Environment**. Build a collaborative work environment. Provide your teams with the tools, physical space, culture, and leadership they need to succeed.
-3. **Communication**. Instigate digital transformation throughout your organization by telling the stories of how you do the work. These stories will help inspire your organization.
-
-Start small, and test the success of each initiative before rolling it out to a wider audience. What works elsewhere may not work "here," so be prepared to iterate. Regular retrospectives will help you iteratively improve and build your organization.
-
-## Intended audience
-
-We expect this to be read by agency technology leadership, such as Chief Information Officers, Chief Technology Officers, Chief Digital Officers, program managers, and human resource managers. Agency leadership such as commissioners and administrators should skim this handbook, paying particular attention to the leadership and culture sections. Both of those sections apply to the entire organization, not just the technical staff.
+This toolkit is for anyone whose role touches on technology or software development – developers, managers, executives, and others. Technical debt is an insidious problem, and understanding what it is and how it happens are key steps in dealing with it. This toolkit explains what technical debt is (and why it’s not all bad), how to manage it, and some ways to prevent accumulating it. By the end of the toolkit, you'll have a foundational understanding in what technical debt is (including the different kinds of technical debt), how it can build up (and why that isn't always the worst thing), and what you can do about it from both a technical standpoint as well as an organizational and cultural one.
