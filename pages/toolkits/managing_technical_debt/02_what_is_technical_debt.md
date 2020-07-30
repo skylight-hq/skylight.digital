@@ -16,7 +16,9 @@ Let’s assume we’re developing a software product. When we make short-term co
 
 (IMAGE GOES HERE)
 
-Like financial debt, not all technical debt is bad debt. For example, taking out a mortgage on a home that you pay back within 15 years and sell for a 175 percent return is good debt. Conversely, racking up a huge credit card balance on a luxury yacht with no means to pay it back is reckless. With software, it’s perfectly reasonable to release early with known limitations in order to capture a time-bound market opportunity or meet a compliance deadline, as long as there’s staff in place to address those limitations after the launch. Another great way to leverage technical debt is to quickly run a market experiment (a la lean startup). If the experiment doesn’t yield the desired results, you can remove the feature and not even bother repaying the debt. Of course, if you keep the feature, then it must be finished, and you can do that with the benefit of what you learned from the experiment. So the aim of most software development experiments shouldn’t be to achieve a completely debt-free product. Instead, you want a product with [whatever level of quality is necessary to give the development team enough stamina to go faster for longer]
+Like financial debt, not all technical debt is bad debt. For example, taking out a mortgage on a home that you pay back within 15 years and sell for a 175 percent return is good debt. Conversely, racking up a huge credit card balance on a luxury yacht with no means to pay it back is reckless.
+
+With software, it’s perfectly reasonable to release early with known limitations in order to capture a time-bound market opportunity or meet a compliance deadline, as long as there’s staff in place to address those limitations after the launch. Another great way to leverage technical debt is to quickly run a market experiment (a la lean startup). If the experiment doesn’t yield the desired results, you can remove the feature and not even bother repaying the debt. Of course, if you keep the feature, then it must be finished, and you can do that with the benefit of what you learned from the experiment. So the aim of most software development experiments shouldn’t be to achieve a completely debt-free product. Instead, you want a product with [whatever level of quality is necessary to give the development team enough stamina to go faster for longer]
 
 Just like you'll find in the financial world, there are different kinds of technical debt. Martin Fowler, a leading software expert, classifies technical debt into four types, as shown in the quadrants below.
 
@@ -50,7 +52,12 @@ How do projects end up on the far right of the curve? And why is that a bad plac
 > solutions are bad ones: 1) do nothing and it gets worse, 2) replace/rewrite the software (expensive, high risk, doesn’t address the root cause problem), or 3) systematically 
 > invest in incremental improvement.”
  
-Customers aren’t the only ones who [suffer the consequences](http://www.infoq.com/articles/managing-technical-debt) (annoying bugs, missing features, etc.) of technical debt, either. **Friendly help desk staff** will field more support calls. **Software operations teams** lose sleep patching the system all hours of the day. **Management** gets bad publicity due to bugs, delays, security issues, or outages. **Developers** have to deal with the bad work of other developers, which may cause turnover.
+Customers aren’t the only ones who [suffer the consequences](http://www.infoq.com/articles/managing-technical-debt) (annoying bugs, missing features, etc.) of technical debt:
+
+- **Friendly help desk staff** will field more support calls.
+- **Software operations teams** lose sleep patching the system at all hours of the day.
+- **Management** gets bad publicity due to bugs, delays, security issues, or outages.
+- **Developers** have to deal with the bad work of other developers, which may cause turnover.
 
 ## Additional readings and resources about what technical debt is
 
