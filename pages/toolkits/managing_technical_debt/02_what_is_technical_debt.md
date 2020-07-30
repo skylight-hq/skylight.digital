@@ -57,7 +57,7 @@ Customers aren’t the only ones who [suffer the consequences](http://www.infoq.
 - **Friendly help desk staff** will field more support calls.
 - **Software operations teams** lose sleep patching the system at all hours of the day.
 - **Management** gets bad publicity due to bugs, delays, security issues, or outages.
-- **Developers** have to deal with the bad work of other developers, which may cause turnover.
+- **Developers** have to deal with the bad work of other developers, which [may cause turnover](http://www.industriallogic.com/blog/technical-debt-considered/).
 
 ## Additional readings and resources about what technical debt is
 
