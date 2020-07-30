@@ -14,7 +14,9 @@ Technical debt is a financial metaphor that software developers use to talk to m
 
 ## Why care about the government's technical debt?
 
-Technical debt can make software resistant and costly to change, and prone to outages, intermittent failures, and even [security breaches](http://www.techrepublic.com/blog/it-security/be-careful-not-to-incur-security-debt/). For users, this means fixes or features they need take more time to implement. For taxpayers, this means inefficient use of their hard-earned dollars. For program managers, this means greater risk that their debt-ridden systems become so untenable that they have to be ditched and rebuilt from scratch. For chief information officers, this means less budget and resource capacity to work on innovative projects that add value to their business partners. And for agency executives, this means systems that can’t be easily adapted to deliver new business capabilities, nor relied upon to support critical mission operations.
+Technical debt can make software resistant and costly to change, and prone to outages, intermittent failures, and even [security breaches](http://www.techrepublic.com/blog/it-security/be-careful-not-to-incur-security-debt/).
+
+For users, this means fixes or features they need take more time to implement. For taxpayers, this means inefficient use of their hard-earned dollars. For program managers, this means greater risk that their debt-ridden systems become so untenable that they have to be ditched and rebuilt from scratch. For chief information officers, this means less budget and resource capacity to work on innovative projects that add value to their business partners. And for agency executives, this means systems that can’t be easily adapted to deliver new business capabilities, nor relied upon to support critical mission operations.
 
 ## How to use this toolkit
 
