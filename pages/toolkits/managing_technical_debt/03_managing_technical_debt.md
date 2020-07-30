@@ -11,10 +11,8 @@ content_type: Toolkit
 # Managing technical debt
 
 NOTE: NEED TO UPDATE TAGS THEN DELETE THIS LINE
-
-Before discussing managing technical debt loads, it’s important to remember that not all technical debt is bad debt. This is a crucial principle for many facets of software development. Sometimes, it’s good to accrue some technical debt if it moves your product forward. For example, it can be a good idea to ship software early, even with known limitations and flaws, in order to meet compliance requirements or capture a time-sensitive market opportunity (so long as those flaws are systematically addressed later). Alternatively, it can be a good idea to test new features by conducting market experiments in which technical debt is accumulated because the feature is quickly developed to determine its feasibility later on. As long as this debt is paid back if you decide to keep the feature, there’s no problem incurring this kind of technical debt because it keeps you developing effectively.
  
-Beyond these purposes, though, accruing too much technical debt tends to be detrimental to your product, your workers, and your agency (see above). Finding strategies of paring down this technical debt is important in keeping operations running smoothly. Effectively managing technical debt involves several steps.
+We mentioned in the previous section that not all technical debt is bad debt. However, accruing too much technical debt tends to be detrimental to your product, your workers, and your organization. Finding strategies of paring down this technical debt is important in keeping operations running smoothly. Effectively managing technical debt involves several steps.
  
 1) Identify what debt you have
 2) Make it visible for decision-making purposes
