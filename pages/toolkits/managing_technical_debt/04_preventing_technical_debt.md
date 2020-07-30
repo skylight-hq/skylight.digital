@@ -10,7 +10,7 @@ content_type: Toolkit
 
 # Preventing technical debt
 
-Even though not all technical debt is bad, it’s still a good idea to not accrue large amounts of technical debt, particularly technical debt that could have otherwise been prevented. We’ve already outlined the cases in which you might want to leverage technical debt. The rest of the time, you’re better off preventing technical debt before it happens. Here are a few strategies to help you do just that.
+Up until this point, we’ve talked mostly about how to deal with technical debt after the fact. So what can you do to minimize accumulating bad or unnecessary technical debt in the first place? Here are strategies aimed at preventing technical debt altogether.
 
 - **Embrace agile development methodologies**. It’s no secret that Skylight advocates for agile development methodologies. That’s because agile offers a framework of proven process and technical practices (for example, frequent iterations, retrospectives, [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration), [refactoring](https://en.wikipedia.org/wiki/Code_refactoring), [automated testing](https://en.wikipedia.org/wiki/Test_automation), [collective code ownership](https://en.wikipedia.org/wiki/Extreme_programming_practices#Collective_code_ownership), [definition of done](https://18f.gsa.gov/2015/04/24/agile-developments-secret-weapon-transparency/), work-in-progress limits) for creating high-quality software and avoiding technical debt from the start.
  
