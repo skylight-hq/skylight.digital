@@ -1148,8 +1148,8 @@
   full_name: Mical Nobel
   short_name: M. Nobel
   profile_path: /company/about/#mical-nobel
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Placeholder Photo of Mical Nobel
+  image: /img/people/mical-nobel.svg
+  image_description: Illustration of Mical Nobel
   position: Product Manager
   bio: >
     Mical is an experienced engineer and avid social impact enthusiast.
@@ -1313,8 +1313,8 @@
   full_name: Phoebe Espiritu
   short_name: P. Espiritu
   profile_path: /company/about/#phoebe-espiritu
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Placeholder Photo of Phoebe Espiritu
+  image: /img/people/phoebe-espiritu.svg
+  image_description: Illustration of Phoebe Espiritu
   position: Product Designer
   bio: >
     Phoebe has over 20 years of product design, UX design, and leadership experience.
@@ -1413,8 +1413,8 @@
   full_name: Suzanne Chapman
   short_name: S. Chapman
   profile_path: /company/about/#suzanne-chapman
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Placeholder Photo of Suzanne Chapman
+  image: /img/people/suzanne-chapman.svg
+  image_description: Illustration of Suzanne Chapman
   position: UX Designer
   bio: >
     Suzanne is a user experience generalist with 14 years of experience doing user
