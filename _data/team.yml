@@ -47,7 +47,7 @@
   profile_path: /company/about/#sean-johnson
   image: /img/people/sean-johnson.jpg
   image_description: Photo of Sean Johnson
-  position: Full Stack Engineer
+  position: Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
     IBM. He's been programming since he was six years old, and specializes in
@@ -84,7 +84,7 @@
   profile_path: /company/about/#robert-read
   image: /img/people/robert-read.jpg
   image_description: Photo of Robert Read
-  position: Full Stack Engineer
+  position: Software Engineer
   bio: >
     Robert served as a Presidential Innovation Fellow and co-founded 18F.
     He's been programming since he was 13 years old, and holds a PhD in computer science.
@@ -126,7 +126,7 @@
   profile_path: /company/about/#john-teeter
   image: /img/people/john-teeter.jpg
   image_description: Photo of John Teeter
-  position: Full Stack Engineer
+  position: Software Engineer
   bio: >
     John served as a Presidential Innovation Fellow, and has held
     various senior technology executive positions over his career. He specializes
@@ -263,7 +263,7 @@
   profile_path: /company/about/#nick-bristow
   image: /img/people/nick-bristow.jpg
   image_description: Photo of Nick Bristow
-  position: Full Stack Engineer
+  position: Software Engineer
   bio: >
     Nick is a former member of 18F, who relentlessly pursues creating
     products that are fully accessible and meet the needs of all
@@ -455,7 +455,7 @@
   profile_path: /company/about/#tom-black
   image: /img/people/tom-black.jpg
   image_description: Photo of Tom Black
-  position: Full Stack Engineer
+  position: Software Engineer
   bio: >
     Tom is a former Presidential Innovation Fellow and member of 18F.
     His product and technical leadership spans multiple high-profile projects,
@@ -694,7 +694,7 @@
   profile_path: /company/about/#gabriel-ramirez
   image: /img/people/gabriel-ramirez.jpg
   image_description: Photo of Gabriel Ramirez
-  position: Full Stack Engineer
+  position: Software Engineer
   bio: >
     Gabriel is a former member of 18F and Pivotal, who is passionate about
     coaching, mentoring, and technical excellence. He specializes in software engineering,
@@ -757,7 +757,7 @@
   profile_path: /company/about/#colin-craig
   image: /img/people/colin-craig.jpg
   image_description: Photo of Colin Craig
-  position: Full Stack Engineer
+  position: Software Engineer
   bio: >
     Colin is a former member of 18F, who is passionate about coaching, mentoring,
     and leading. While at 18F, he served in technical leadership roles on products
@@ -901,7 +901,7 @@
     data science & engineering, DevOps, and test-driven development.
     Cailyn interned at Facebook and graduated from Brown.
     She lives in New York.
-  active: true
+  active: false
   order: 145
   socials:
     - name: Twitter
@@ -1437,3 +1437,81 @@
       link: https://github.com/suzchap
       link_description: Suzanne's GitHub Account
       fa_icon_name: github
+- name: olivia-lucas
+  fname: Olivia
+  lname: Lucas
+  full_name: Olivia Lucas
+  short_name: O. Lucas
+  profile_path: /company/about/#olivia-lucas
+  image: /img/people/olivia-lucas.jpg
+  image_description: Photo of Olivia Lucas
+  position: UX Researcher
+  bio: >
+    Olivia is a UX researcher and designer, who previously worked at Fjord. She's
+    passionate about combining qualitative and quantitative research methods to
+    solve complex problems in a human-centered way. Olivia lives in Georgia.
+  active: true
+  order: 360
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lucasolivia/
+      link_description: Olivia's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/olivia-lucas/
+      link_description: Olivia's Project Work
+      fa_icon_name: wrench
+- name: jordan-guinn
+  fname: Jordan
+  lname: Guinn
+  full_name: Jordan Guinn
+  short_name: J. Guinn
+  profile_path: /company/about/#jordan-guinn
+  image: /img/people/jordan-guinn.svg
+  image_description: Illustration of Jordan Guinn
+  position: Software Engineer
+  bio: >
+    Jordan is devoted to building products and platforms that deliver great user
+    experiences. He specializes in software engineering, data engineering, and
+    DevOps. Jordan lives in Oregon.
+  active: true
+  order: 370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jordanguinn/
+      link_description: Jordan's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/JordanGuinn
+      link_description: Jordan's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/jordan-guinn/
+      link_description: Jordan's Project Work
+      fa_icon_name: wrench
+- name: kari-hodges
+  fname: Kari
+  lname: Hodges
+  full_name: Kari Hodges
+  short_name: K. Hodges
+  profile_path: /company/about/#kari-hodges
+  image: /img/people/kari-hodges.svg
+  image_description: Illustration of Kari Hodges
+  position: UX Researcher
+  bio: >
+    Kari is a UX researcher with experience in startup, higher education, and non-profit
+    industries. Before Skylight, she was a UX research consultant and
+    growth strategist for health-tech companies integrating AI into their service models.
+    As an MBA from MIT, Kari leverages interdisciplinary collaboration and frameworks to
+    create human-centered solutions. She lives in Rhode Island.
+  active: true
+  order: 380
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kariahodges/
+      link_description: Kari's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kari-hodges/
+      link_description: Kari's Project Work
+      fa_icon_name: wrench
