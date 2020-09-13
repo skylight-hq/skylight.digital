@@ -308,7 +308,7 @@
     in design leadership, service design, user experience design, and design research.
     Victor resides in New York.
   active: true
-  order: 30
+  order: 28
   socials:
     - name: Twitter
       link: https://twitter.com/victorzapanta
@@ -866,7 +866,7 @@
     including Vets.gov (now VA.gov) and Appeals Modernization. She specializes in
     digital strategy and leadership, operations, and product management.
     Marvo lives in Maryland.
-  active: true
+  active: false
   order: 20
   socials:
     - name: Twitter
@@ -974,7 +974,7 @@
     accessibility, and design systems. She's also a former
     Code for America fellow. Maya lives in California.
   active: true
-  order: 28
+  order: 30
   socials:
     - name: Twitter
       link: https://twitter.com/mayabenari
@@ -1158,7 +1158,7 @@
     projects for the City of Chicago, where she worked while she pursued her
     MBA at the University of Chicago Booth School of Business.
     Mical lives in Massachusetts.
-  active: true
+  active: false
   order: 260
   socials:
     - name: LinkedIn
@@ -1212,7 +1212,7 @@
     Eric is a UX researcher and designer, with a passion for co-creation and
     tackling complex social challenges. He was a 2019 Civic Digital Fellow at
     18F and graduated from UC San Diego with degrees in Human-Computer Interaction
-    and Design for Social Innovation. Eric lives in California. 
+    and Design for Social Innovation. Eric lives in California.
   active: true
   order: 280
   socials:
@@ -1512,4 +1512,30 @@
     - name: Projects
       link: /work/team-member/kari-hodges/
       link_description: Kari's Project Work
+      fa_icon_name: wrench
+- name: nicole-campbell
+  fname: Nicole
+  lname: Campbell
+  full_name: Nicole Campbell
+  short_name: N. Campbell
+  profile_path: /company/about/#nicole-campbell
+  image: /img/people/nicole-campbell.jpg
+  image_description: Photo of Nicole Campbell
+  position: Product Manager
+  bio: >
+    Nicole is a product manager with a passion for building technology that
+    solves complex user problems. Most recently she worked as a consultant at
+    Pivotal Labs/VMware to help transform the way large enterprises and startups 
+    build software. She specializes in extreme programming, lean product management,
+    and user-centered design. Nicole lives in Illinois.
+  active: true
+  order: 15
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nncampbell/
+      link_description: Nicole's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/nicole-campbell/
+      link_description: Nicole's Project Work
       fa_icon_name: wrench
