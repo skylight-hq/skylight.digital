@@ -1465,8 +1465,8 @@
   full_name: Jordan Guinn
   short_name: J. Guinn
   profile_path: /company/about/#jordan-guinn
-  image: /img/people/jordan-guinn.svg
-  image_description: Illustration of Jordan Guinn
+  image: /img/people/jordan-guinn.jpg
+  image_description: Photo of Jordan Guinn
   position: Software Engineer
   bio: >
     Jordan is devoted to building products and platforms that deliver great user
@@ -1525,7 +1525,7 @@
   bio: >
     Nicole is a product manager with a passion for building technology that
     solves complex user problems. Most recently she worked as a consultant at
-    Pivotal Labs/VMware to help transform the way large enterprises and startups 
+    Pivotal Labs/VMware to help transform the way large enterprises and startups
     build software. She specializes in extreme programming, lean product management,
     and user-centered design. Nicole lives in Illinois.
   active: true
