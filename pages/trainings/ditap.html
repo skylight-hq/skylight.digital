@@ -279,6 +279,16 @@ class_2_spots:
       {% endcapture %}
 
       {% include accordion.html accordion_header = 'Is the course guaranteed to run if I sign up?' accordion_body = accordion_body accordion_index = '8' %}
+
+      {% capture accordion_body %}
+      <ul>
+        <li>You can submit a cancellation request 30 business days or more prior to the start of the course and receive a full refund.</li>
+        <li>If you submit a cancellation request fewer than 10 business days prior to the start of the course, you'll be issued a credit toward a future Skylight training course. The credit will be equal to the amount paid for the initial course less any applicable fees.</li>
+        <li>Should Skylight cancel the course for any reason, you'll be refunded 100% of the registration cost.</li>
+      </ul>
+      {% endcapture %}
+
+      {% include accordion.html accordion_header = "What's the cancellation policy?" accordion_body = accordion_body accordion_index = '9' %}
     </div>
   </div>
 </div>
