@@ -136,7 +136,7 @@ $(function() {
       }
     });
   }
-}); // Pre-populate date select on ditap application
+}); // Pre-populate date select on DITAP application
 
 $(function() {
   if (location.pathname == "/work/services/training/ditap/apply/") {
