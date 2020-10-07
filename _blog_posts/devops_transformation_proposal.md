@@ -28,7 +28,7 @@ Like many other progressive and enlightened IT leaders, the CIO of ACME understa
 
 Unfortunately, the ACME CIO's previous attempts at transformation yielded only a small fraction of such outcomes, fell short of preparing management for full-scale adoption, and left the organization questioning the value of DevOps. Given this situation, the ACME CIO sought an outside partner to help reignite and accelerate the organization's DevOps transformation journey. Given our talent and experience in this area, we felt well positioned to deliver the necessary goods.
 
-Under an extremely tight proposal period, we responded with an approach that focused on building-up ACME's internal DevOps capacity as quickly as possible so they can manage the journey *sustainably*, *self-sufficiently*, and *effectively*.
+Under an extremely tight proposal period, we responded with an approach that focused on building up ACME's internal DevOps capacity as quickly as possible so they can manage the journey *sustainably*, *self-sufficiently*, and *effectively*.
 
 ![Phases of the ACME engagement.](/img/blog/devops_transformation_proposal/acme-engagement-phases.svg)
 
@@ -36,7 +36,7 @@ Those words &mdash; *sustainably*, *self-sufficiently*, and *effectively* &mdash
 
 **Sustainability** is about helping ACME chart a course that doesn't overload the organization with too many simultaneous change initiatives. Steady progress is best achieved by focusing on improving a couple of high-impact capabilities (for example, test automation and deployment automation) at a time. Once sustainable progress has been made, then the organization is ready to take on more. Think of it as Kanban for transformation that enables rapid incremental capability development.
 
-**Self-sufficiency** is about building-up ACME's internal DevOps expertise to point where dependence on expensive outside consultancies is minimized or eliminated. One of the things that we proposed to accomplish is the establishment of a DevOps Center of Excellence (CoE), similar to <a href="https://thenewstack.io/magic-behind-disney-devops-experience/">Disney's highly successful DevOps CoE</a>. To staff ACME's DevOps CoE, we proposed the use of an emerging, innovative talent management practice called "<a href="https://blog.codingitforward.com/people-flow-in-action-coding-it-forward-d9e94d1d0ff9">people flow</a>" such as the <a href="https://presidentialinnovationfellows.gov/">Presidential Innovation Fellows</a> or Capital One's Tech Fellows.
+**Self-sufficiency** is about building up ACME's internal DevOps expertise to point where dependence on expensive outside consultancies is minimized or eliminated. One of the things that we proposed to accomplish is the establishment of a DevOps Center of Excellence (CoE), similar to <a href="https://thenewstack.io/magic-behind-disney-devops-experience/">Disney's highly successful DevOps CoE</a>. To staff ACME's DevOps CoE, we proposed the use of an emerging, innovative talent management practice called "<a href="https://blog.codingitforward.com/people-flow-in-action-coding-it-forward-d9e94d1d0ff9">people flow</a>" such as the <a href="https://presidentialinnovationfellows.gov/">Presidential Innovation Fellows</a> or Capital One's Tech Fellows.
 
 **Effectiveness** is about giving ACME a decision-making framework that enables leadership to decide how best to plan budget allocations so initial and ongoing investments in improving their DevOps capabilities yield the highest impact on IT performance.
 
