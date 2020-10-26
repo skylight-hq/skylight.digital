@@ -45,7 +45,7 @@ The last reason, but certainly not the least, was the opportunity to build-up a 
 
 **Chris Cairns: What was most surprising to you about joining Skylight?**
 
-**Kin Lane:** Just how serious the Skylight team is about disrupting the traditional government consulting model. Whether it's pushing the [microconsulting model to combat overengineered contracts](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/) or open-sourcing their intellectual assets (such as methodologies) for public knowledge gain (Skylight is completely open by default), Skylight is driven to redefine what it means to be a modern government consultancy. I'm also pleasantly surprised by the extent to which everyone has rallied to support me in building-out an API practice. They take the time to invest in my success.
+**Kin Lane:** Just how serious the Skylight team is about disrupting the traditional government consulting model. Whether it's pushing the [microconsulting model to combat overengineered contracts](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/) or open-sourcing their intellectual assets (such as methodologies) for public knowledge gain (Skylight is completely open by default), Skylight is driven to redefine what it means to be a modern government consultancy. I'm also pleasantly surprised by the extent to which everyone has rallied to support me in building out an API practice. They take the time to invest in my success.
 
 **Chris Cairns: What would you tell your colleagues from a previous job who were contemplating coming to Skylight?**
 
