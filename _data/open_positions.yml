@@ -20,33 +20,18 @@
   category: Research & Design
   location: Remote
   order: 20
-- title: UX Researcher
-  url: https://apply.workable.com/skylight/j/681D1CD9D5/
-  category: Research & Design
-  location: Remote
-  order: 30
 - title: Content Strategist
   url: https://apply.workable.com/skylight/j/ECC220A063/
   category: Research & Design
   location: Remote
-  order: 40
+  order: 30
 - title: Sofware Engineer
   url: https://skylight.workable.com/jobs/1083190
   category: Engineering
   location: Remote
-  order: 50
-- title: DevOps Engineer
-  url: https://skylight.workable.com/jobs/1083314
-  category: Engineering
-  location: Remote
-  order: 60
-- title: Data Engineer
-  url: https://apply.workable.com/skylight/j/C344212DDE/
-  category: Data
-  location: Remote
-  order: 70
+  order: 40
 - title: VP of Human Services
   url: https://apply.workable.com/skylight/j/9E1132A1B6/
   category: Business Strategy & Operations
   location: Remote
-  order: 80
+  order: 50
