@@ -43,7 +43,7 @@ After you've identified where the technical debt lives within your codebase, the
 
 ### Approach 1: Factor technical debt into the cost of development
 
-The [first approach](http://kingsinsight.com/2010/07/31/estimating-the-impact-of-technical-debt-on-stories-heat-maps/) is to factor technical debt into the cost of development, which yields a greater understanding of the value of paying it back or not paying it back. You can do this using a heat map like the one shown below, modified from a [blog post by James King](http://kingsinsight.com/2010/07/31/estimating-the-impact-of-technical-debt-on-stories-heat-maps/).
+The first approach is to factor technical debt into the cost of development, which yields a greater understanding of the value of paying it back or not paying it back. You can do this using a heat map like the one shown below, modified from a [blog post by James King](http://kingsinsight.com/2010/07/31/estimating-the-impact-of-technical-debt-on-stories-heat-maps/).
 
 ![A heat map of the various penalties involved with technical debt in different areas of code.](/img/toolkits/technical_debt/tech-debt-heatmap.svg)
 
