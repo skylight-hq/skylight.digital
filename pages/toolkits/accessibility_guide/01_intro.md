@@ -23,7 +23,7 @@ Here at Skylight we follow [Web Content Accessibility Guidelines (WCAG) 2.1](htt
 This resource is intended to help Skylight develop accessible products and isn't a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
 </div>
 
-This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.gov/) originally created by Skylight's Nick Bristow.
+*This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.gov/) originally created by Skylight's Nick Bristow.*
 
 ## Resources
 
@@ -46,7 +46,7 @@ This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.
 * [Chrome: Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) &mdash; browser plugin for evaluating color contrast, including images and gradients
 * [Chrome: Lighthouse](https://developers.google.com/web/tools/lighthouse) &mdash; built-in feature of Chrome DevTools for improving the quality of web pages, including accessibility
 * [Firefox/Chrome: WAVE Toolbar](http://wave.webaim.org/extension/) &mdash; browser plugin for evaluating web content accessibility issues
-* [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/) &mdash;  extension that adds various web developer tools to a browser
+* [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/) &mdash; extension that adds various web developer tools to a browser
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) &mdash; open-source bookmarklet tool for analyzing a page's HTML source and detects coding-standard violations
 
 ### Government sites and tutorials
