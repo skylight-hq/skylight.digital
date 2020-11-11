@@ -83,4 +83,4 @@ After deciding upon the payment strategy, the next step is to implement the fixe
 * **Quality-focused release**. The team budgets time for a release dedicated solely to fixing a big batch of bugs, cleaning the codebase, and reworking the architecture. This is great for when extensive changes are required.
 * **Managing the product backlog**. If you're using an agile methodology such as [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), you can capture technical work packages (described above) as user stories and include them in the [product backlog](https://www.mountaingoatsoftware.com/agile/scrum/product-backlog). You can then prioritize these user stories for implementation during an upcoming iteration cycle.
 
-Now that you understand how to better manage technical debt, learn more about how to [prevent it from harmfully accruing](../managing-technical-debt/preventing-technical-debt/) in the first place.
+Now that you understand how to better manage technical debt, learn more about how to [prevent it from harmfully accruing](/work/toolkits/managing-technical-debt/preventing-technical-debt/) in the first place.
