@@ -29,7 +29,7 @@
 .footer-brandmark {
   @include brandmark($width: $footer-brand-width, $height: $footer-brand-height,
   $width-sm-down: $footer-brand-width-sm-down, $height-sm-down: $footer-brand-height-sm-down,
-  $filename: 'hubzone-badge');
+  $filename: 'logo');
 }
 
 .footer-link-groups {

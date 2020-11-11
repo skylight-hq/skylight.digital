@@ -24,7 +24,7 @@ The file `src/js/jquery.scrolldepth.min.js` is from [Scroll Depth](https://githu
 
 ### Skylight-produced content licensed under Creative Commons Attribution-Share Alike License
 
-All content produced by Skylight Digital LLC is licensed under the [Creative Commons Attribution-Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/).
+All content produced by Skylight Inc. is licensed under the [Creative Commons Attribution-Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 This site also includes a number of images that have various copyright statuses,
 including Creative Commons licenses and public domain. License details are

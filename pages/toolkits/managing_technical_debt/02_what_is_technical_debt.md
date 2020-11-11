@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: What technical debt is | Managing Technical Debt Guide
+title: What technical debt is | Skylight Managing Technical Debt Guide
 description: A description of what technical debt is, including different types and consequences.
 tags: [technical debt, code debt, software development, guide]
 permalink: /work/toolkits/managing-technical-debt/what-is-technical-debt/
