@@ -56,4 +56,4 @@ Customers aren't the only ones who [suffer the consequences](http://www.infoq.co
 * **Management** gets bad publicity due to bugs, delays, security issues, or outages.
 * **Developers** have to deal with the bad work of other developers, which [may cause turnover](http://www.industriallogic.com/blog/technical-debt-considered/).
 
-Now that you understand what technical debt is, learn more about [how to manage it](../managing-technical-debt/managing-technical-debt/).
+Now that you understand what technical debt is, learn more about [how to manage it](/work/toolkits/managing-technical-debt/managing-technical-debt/).
