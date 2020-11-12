@@ -12,7 +12,7 @@ content_type: Toolkit
 
 ## Financial metaphor
 
-Let's assume you're developing a software product. When you make short-term compromises to its code or design quality (perhaps addressing a known bug with a band-aid solution instead of a more comprehensive solution), you're making the product more difficult for your or someone else to continue to develop, test, and maintain in the future. This is the concept of technical debt, which is similar to financial debt. For example, the extra effort required to finish your incomplete work represents the principal portion of the debt. And the extra time it takes to work with your unwieldy code or design, until it's fixed, represents the interest portion.
+Let's assume you're developing a software product. When you make short-term compromises to its code or design quality (perhaps addressing a known bug with a band-aid solution instead of a more comprehensive solution), you're making the product more difficult for yourself or someone else to continue to develop, test, and maintain in the future. This is the concept of technical debt, which is similar to financial debt. For example, the extra effort required to finish your incomplete work represents the principal portion of the debt. And the extra time it takes to work with your unwieldy code or design, until it's fixed, represents the interest portion.
 
 ![A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent.](/img/toolkits/technical_debt/tech-debt-interest-payments.svg)
 
