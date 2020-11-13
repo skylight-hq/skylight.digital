@@ -33,6 +33,10 @@ From the research, the team decided to develop a new interface and user experien
 With the redesign, ECE Reporter provides an easy bulk upload for providers to share their monthly data to OEC, using a template developed from reviewing common existing management systems and OEC's data collection requirements. In addition, providers are able to use ECE Reporter to keep a roster of all students receiving state and federal funding, and in the near future, will be able to use the system to generate required reports.
 
 ![Six stages of delivering early care and education services (discovery, intake, program delivery, reporting, monitoring, and assessment), from the perspective of families, programs, and the Office of Early Childhood.](/img/blog/early_childhood_info_systems_insights/early-care-and-education-service-delivery-flow.svg)
+{:.mb-0}
+
+The stages of delivering early care and education services &mdash; from the perspective of families, programs, and the Office of Early Childhood.
+{:.small}
 
 The challenges we heard for child enrollment data collection, such as unclear data requirements and difficult site navigation, weren't unique to ECIS. We also learned through our research that providers interact with other data collection systems with similar challenges, such as the professional development Registry, that requires overlapping data to ECIS, but isn't connected to it.
 
