@@ -56,6 +56,11 @@
 .post-content {
   @extend %narrative-base;
   @extend %mb-5;
+
+  h4 {
+    color: $gray-light;
+    font-size: $font-size-base;
+  }
 }
 
 .post-table {
