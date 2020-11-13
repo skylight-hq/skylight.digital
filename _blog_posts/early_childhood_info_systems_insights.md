@@ -16,7 +16,7 @@ date_published: 2020-11-12
 date: 2020-11-12
 ---
 
-*For the past couple of years, we've been working with the Connecticut Office of Early Childhood to improve their systems for managing early care and education data. We've learned a lot about what it takes to achieve success. Because we're eager to share our lessons with others, we recently launched an initiative to create a nation-wide handbook of best practices for early care and education information systems. We've made some great progress with the handbook, including initial research findings, but could use additional research participants from state agencies in the early childhood space to help us make it as useful as possible.*
+*For the past couple of years, we've been working with the Connecticut Office of Early Childhood to improve their systems for managing early care and education data. We've learned a lot about what it takes to achieve success. Because we're eager to share our lessons with others, we recently launched an initiative to create a nation-wide handbook of best practices for early care and education information systems. We've made some great progress with the handbook, including initial research findings, but could use additional research participants from state agencies in the early childhood space to help us make sure it's great.*
 
 ## An overview of our work with the Connecticut Office of Early Childhood
 
