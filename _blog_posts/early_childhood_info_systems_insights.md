@@ -61,14 +61,16 @@ The path to the OEC's ECE Reporter solution wasn't an easy one. It required a lo
 
 ## Creating a nation-wide handbook of best practices for early care and education information systems
 
-As we've engaged in this work, the researchers on the team wondered how we could share our learnings as well as explore how other states have encountered similar (or different) challenges and approached solving them. In recent months and especially in light of the urgency the pandemic has had in the child care and education space, we've opened our efforts to learn more about the early care and education agencies across the country, to better understand their programs, experiences, and pain points. Our goal is to create a handbook of early care and education best practices &mdash; specifically regarding data systems, interagency collaboration, and resourcing. Key objectives for this research include:
+As we've engaged in this work, the researchers on the team wondered how we could share our learnings, as well as explore how other states have encountered similar (or different) challenges and approached solving them. In recent months and especially in light of the urgency the pandemic has had in the child care and education space, we've opened our efforts to learn more about the early care and education agencies across the country &mdash; including their programs, experiences, and pain points. Our goal is to create a handbook of early care and education best practices &mdash; specifically regarding data systems, interagency collaboration, and resourcing.
+
+Key objectives for this research include:
 
 - To learn more about structures, goals, processes, and challenges of different states' early care and education departments/agencies
 - To learn more about early care and education programs and services, and how they're administered and evaluated
 - To understand common data goals, needs, and challenges
 - To explore common solutions, models, and/or systems for meeting programs, services and data needs, and how successful they are
 
-As many organizations are currently capacity constrained in response to the pandemic, we've been able to connect with a handful of states who've been very willing to share their strategic agendas, lessons learned, and where they're looking for their own support. We've heard an expressed interest in states desiring to know what others have tried and what's worked. Our hope is that this handbook can aggregate the insights from states across the country, be a shared resource to draw from regarding early care and education infrastructure, and serve as the starting point for more inter-state collaborations.
+As many organizations are currently capacity constrained in response to the pandemic, we've been able to connect with a handful of states who've been very willing to share their strategic agendas, lessons learned, and where they're looking for their own support. We've heard an expressed interest in states desiring to know what others have tried and what's worked. Our hope is that this handbook can aggregate the insights from states across the country, be a shared resource to draw from regarding early care and education infrastructure, and serve as the starting point for more interstate collaborations.
 
 ### Early findings from our research
 
@@ -79,9 +81,9 @@ Although we're still early in the research process of developing the handbook, s
 - Many states are currently working towards a longitudinal data system.
 - Silos between teams, unconnected data systems, and limited IT capacity leads to inefficiencies and poor experiences for both providers and staff who need to meet rules and regulations.
 
-#### Inter-agency collaboration
+#### Interagency collaboration
 - Departments/agencies across states are structured and set up differently regarding early care and education programs and services, with some consolidating education and others consolidating child care.
-- There are many efforts to coordinate inter-agency collaboration and data sharing, especially around strategic goals and initiatives. This allows state departments to gain a more holistic picture of how children and families are being served.
+- There are many efforts to coordinate interagency collaboration and data sharing, especially around strategic goals and initiatives. This allows state departments to gain a more holistic picture of how children and families are being served.
 - State departments/agencies are at varying stages in their strategic goals and plans due to funding, capacity, and partnerships.
 - Local community networks in some states are highly active and engaged, especially regarding resource referrals, local jurisdictions, and community needs.
 
