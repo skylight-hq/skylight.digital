@@ -36,7 +36,7 @@ With the redesign, ECE Reporter provides an easy bulk upload for providers to sh
 {:.mb-0}
 
 The stages of delivering early care and education services &mdash; from the perspective of families, programs, and the Office of Early Childhood.
-{:.small}
+{:.caption}
 
 The challenges we heard for child enrollment data collection, such as unclear data requirements and difficult site navigation, weren't unique to ECIS. We also learned through our research that providers interact with other data collection systems with similar challenges, such as the professional development Registry, that requires overlapping data to ECIS, but isn't connected to it.
 
