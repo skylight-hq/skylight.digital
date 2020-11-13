@@ -16,7 +16,7 @@ date_published: 2020-11-12
 date: 2020-11-12
 ---
 
-*For the past couple of years, we've been working with the Connecticut Office of Early Childhood to improve how they manage early care and education data. We've learned a lot about what it takes to achieve success. Because we're eager to share our lessons, we recently launched an initiative to create a nation-wide handbook of best practices for early care and education information systems. We've made some great progress with the handbook, but could use additional research participants from state agencies in the early childhood space to help make it as useful as possible.*
+*For the past couple of years, we've been working with the Connecticut Office of Early Childhood to improve how they manage early care and education data. We've learned a lot about what it takes to achieve success. Because we're eager to share our lessons with others, we recently launched an initiative to create a nation-wide handbook of best practices for early care and education information systems. We've made some great progress with the handbook, including early research findings, but could use additional research participants from state agencies in the early childhood space to help us make it as useful as possible.*
 
 ## An overview of our work with the Connecticut Office of Early Childhood
 
@@ -93,11 +93,6 @@ Although we're still early in the research process of developing the handbook, s
 ## Help us create a nation-wide handbook of best practices for early care and education information systems
 
 In our effort to produce a handbook, we're eager to continue speaking with other states to learn about their experiences, challenges, and solutions. We're looking for agencies who focus on early care and education to please reach out to our team and contribute to this collaborative handbook!
-
-<blockquote class="post-blockquote">
-<p>"We'd love to know if other states are trying something like this. If you see connections or others who are trying similar pilots, please make an introduction!"</p>
-<cite><strong>Research participant</strong></cite>
-</blockquote>
 
 We know these aren't easy times and are super appreciative of any time taken to share your experiences. Our goal is to continue our research to finalize and distribute the handbook by early 2021. As part of any conversations we have, we'd be happy to share more about our work and learnings thus far, and will be sure to follow up with any of your needs or other ways we can help.
 
