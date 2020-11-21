@@ -35,7 +35,7 @@ While the result in each case is the accumulation of more technical debt, each o
 
 ## The consequences of technical debt
 
-From annoying bugs to crippled projects, the effects of technical debt manifest in a variety of pernicious ways. Jim Highsmith's technical debt curve, modified below from his article *The Financial Implications of Technical Debt*, illustrates what happens as technical debt grows within a software product over time:
+From annoying bugs to crippled projects, the effects of technical debt manifest in a variety of pernicious ways. Jim Highsmith's technical debt curve, modified below from his article, *The Financial Implications of Technical Debt*, illustrates what happens as technical debt grows within a software product over time:
 
 * The **cost (or difficulty)** of changing the software or project increases, eventually to the point where the code can no longer be feasibly maintained
 * The **ability to respond to the needs of customers** decreases, making them extremely unhappy
@@ -43,7 +43,7 @@ From annoying bugs to crippled projects, the effects of technical debt manifest 
 
 ![A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs.](/img/toolkits/technical_debt/tech-debt-cost-of-change.svg)
 
-How do projects end up on the far right of the curve? And why is that a bad place to be? As Highsmith explains in his article *The Financial Implications of Technical Debt*:
+How do projects end up on the far right of the curve? And why is that a bad place to be? As Highsmith explains in his article, *The Financial Implications of Technical Debt*:
 
 <blockquote class="post-blockquote">
 <p>"One problem with technical debt is that the impact can be slow-growing and somewhat hidden. To the question 'fix the technical debt, or build new features' we know how it's usually answered. As it gets worse, customers complain about slow delivery, increasing the pressure to take more shortcuts, which increases the technical debt, which slows the delivery process, which increases customer dissatisfaction, in a rapidly spiraling vicious cycle. Unfortunately, by the time many organizations are paying attention, all the solutions are bad ones: 1) do nothing and it gets worse, 2) replace/rewrite the software (expensive, high risk, doesn't address the root cause problem), or 3) systematically invest in incremental improvement."</p>
