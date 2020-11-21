@@ -37,7 +37,7 @@ The job of a programmer is to produce order out of chaos, and the more compactly
 
 Although we can all think of exceptions that prove the rule, shorter code is better code in general.
 
-But how is the software architect or executive to make use of this? It is all very well for programmers to talk about regular expressions, lambda-lifting, and higher-order programming, and I wish more did. But many of us are stuck in the dreary dull world of enterprise software where oceans of fluffy code suffocate the user, like a child falling into a vat of cotton candy. Working with enterprise software sometimes feels like beating a cloud.
+But how is the software architect or executive to make use of this? It's all very well for programmers to talk about regular expressions, lambda-lifting, and higher-order programming, and I wish more did. But many of us are stuck in the dreary dull world of enterprise software where oceans of fluffy code suffocate the user, like a child falling into a vat of cotton candy. Working with enterprise software sometimes feels like beating a cloud.
 
 What is really needed is a model of technical debt that would allow software engineers to speak with a precision and certitude similar to accountants and structural engineers. A structural engineer can, with enough study, tell you what load a bridge should bear. An accountant, with enough study, can tell you with some certainty the soundness of a firm by examining the books. Software engineers can't, at present, tell you the soundness of a codebase.
 

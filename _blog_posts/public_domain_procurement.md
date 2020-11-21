@@ -28,7 +28,7 @@ In constructing [18F's Agile Delivery Services Marketplace](/work/experience/agi
 
 <p>…</p>
 
-<p>It is GSA's intent that any data or deliverable created as a result of a task order under this BPA be committed to the public domain.</p>
+<p>It's GSA's intent that any data or deliverable created as a result of a task order under this BPA be committed to the public domain.</p>
 
 <p>Contracting Officers are encouraged to designate in task orders the following items as property of GSA with the intention of committing the items to the public domain: all data, documents, graphics and code created under this BPA including but not limited to, plans, reports, schedules, schemas, metadata, architecture designs, and the like; new open source software created by the Contractor and forks or branches of current open source software where the Contractor has made a modification; new tooling, scripting configuration management, infrastructure as code, or any other final changes or edits to successfully deploy or operate the software.</p>
 
