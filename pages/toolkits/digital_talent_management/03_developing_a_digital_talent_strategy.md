@@ -76,7 +76,7 @@ Government agencies are increasingly asked to do more with less &mdash; smaller 
 Although machine learning and artificial intelligence are often touted as necessary automation tools, they're difficult to implement well in environments that aren't ready for modern technology. Luckily, there are often simpler alternatives to many labor-intensive tasks:
 
 - **Self-service, web-based tools** for common tasks like password resets and data edits
-- **Software as a Service (SaaS) tools**, like G Suite or Office 365, for collaboration instead of hosting your own tools
+- **Software as a Service (SaaS) tools**, like Google Workspace or Office 365, for collaboration instead of hosting your own tools
 - **Cloud-based hosting** instead of self-hosted data centers for compute and storage infrastructure
 - **Web-based forms** (when forms are necessary) to replace mailing paper back and forth
 
