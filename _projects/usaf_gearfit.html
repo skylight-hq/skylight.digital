@@ -62,8 +62,8 @@ source_code_url:
 {% capture summary %}
   <p>
     Providing better-fitting gear to aircrew, particularly female pilots, is one of
-    the U.S. Air Force's top priorities. Their Human Systems Division engaged us
-    to build a platform for modernizing how they manage personnel protective equipment.
+    the U.S. Air Force's (USAF's) top priorities. Their Human Systems Division (HSD) engaged us
+    to build a platform for modernizing how they manage personnel protective equipment (PPE).
   </p>
 {% endcapture %}
 
@@ -99,75 +99,129 @@ source_code_url:
 
 {% capture solution %}
   <p>
-    To address this challenge, the U.S. Air Force's Human Systems Division engaged
-    us to build a digital platform called GearFit. The current product vision for
-    GearFit encompasses several important capabilities, such as user-driven
-    feedback, issues reporting & analytics, catalog management & ordering, and
-    training videos. The target population of users includes all aircrew and the
-    operational groups who support them.
+    To address this challenge, HSD engaged us to build a digital platform
+    called GearFit. The current product vision for GearFit encompasses
+    several important capabilities, such as user-driven feedback, issues
+    reporting & analytics, case management, catalog management & ordering,
+    and training videos. The target population of users includes all aircrew
+    who use PPE and the operational groups responsible for making sure
+    they're supplied with suitable gear. These operational groups include aircrew
+    flight equipment technicians (AFEs) who service aircrew and help resolve their
+    equipment issues, requirements managers who translate feedback on gear issues
+    into actionable requirements, and supply-chain professionals who make acquisition
+    and logistical decisions based on these requirements.
   </p>
 
   <p>
-    Given the ambitious scope of this initiative, along with the acute problems
-    that female pilots are currently facing, we started by engaging the
-    Female Fitment program managers under the Human Systems Division to build
-    an application that would gather accurate and actionable equipment feedback
-    from aircrew and surface it to a range of stakeholders. With that data,
-    these stakeholders could then develop and communicate high-quality insights
-    regarding the successes and/or failures of personal protective equipment
-    currently employed by aircrew across the Air Force. Thus far, this focused
-    effort has involved:
+    Given the complexity associated with this ambitious endeavor, we've focused our
+    efforts on decomposing the overall problem into more manageable sub-problems that
+    we can quickly deliver appropriate solutions to. Over time, these solutions will
+    form a "suite of products" unified by a common design system, technology stack,
+    and technical architecture.
+  </p>
+
+  <p>
+    We started off the project by conducting a series of service-design activities,
+    including service blueprinting. This gave us and HSD a more holistic understanding
+    of the problem space and targeted opportunities for improvement.
+  </p>
+
+  <p>
+    Together, we decided to prioritize the first phase of our work on improving how gear-fitment
+    issues are surfaced by aircrew, particularly female pilots. Historically, HSD hasn't
+    had an effective means for collecting such information in a reliable, organized, and
+    accessible way. As we dug into this particular problem area, we found several reasons as to why:
   </p>
 
   <ul>
     <li>
-      Researching the needs of female pilots
+      In general, there wasn't a well-defined process for collecting feedback on gear issues
+      from aircrew and communicating what was being done to address them.
     </li>
 
     <li>
-      Designing and implementing a set of unique application interfaces
-      that move data across the organization to rapidly intake aircrew feedback
+      Issues were being raised through disparate communication channels, such as email,
+      social media groups, and direct conversations. This left information that'd be
+      valuable for the purposes of analysis and coordinated action scattered all over the place.
     </li>
 
     <li>
-      Expanding the depth of the data by integrating with legacy systems
+      Aircrew are equipped with dozens of different types of gear, with names that aren't
+      plain language and hard to remember. This made communicating issues extremely difficult,
+      often requiring aircrew to sift through catalogs of items to find the right identifiers.
     </li>
 
     <li>
-      Presenting the data with visualization and analysis for stakeholders
-      across multiple offices
+      Some issues with gear are highly personal in nature and embarrassing to share with others.
     </li>
 
     <li>
-      Incorporating the ability to directly reach back to aircrew and gain deeper
-      context and provide support
+      There's still the prevalence of a "tough-it-out" culture within the military that can
+      make service members, including aircrew, reluctant to seek help.
     </li>
 
     <li>
-      Initiating discussions to engage a previously disengaged user group, technicians,
-      that will enhance the quality of data provided
+      If you think your life is busy and hectic, try walking in the shoes of a female pilot.
+      There's virtually no slack in their schedules, especially during training sessions or
+      mission runs.
     </li>
   </ul>
+
+  <p>
+    To address this problem area, we created and launched a minimum viable product (MVP)
+    for gathering gear-fitment feedback from aircrew, targeted initially at female pilots.
+    We designed the application to be fast, simple, and psychologically safe for aircrew
+    to use. To help accomplish that, we created an experience where aircrew don't have to
+    think about what type of gear they're looking to provide feedback on. This involved
+    integrating with a third-party asset management system to pull in data about which
+    gear is assigned to them. We also provided an option for users to submit feedback
+    anonymously to avoid any feelings of embarrassment. As part of the rollout, we also
+    launched a marketing and communications campaign to help overcome cultural and
+    behavioral barriers to using the application &mdash; for example, "sitting in your pee
+    isn't a rite of passage." As a result of these efforts, a growing population of
+    aircrew have started to use the application. And for the first time, HSD is able
+    to collect accurate data on gear issues within a central location and better coordinate
+    and communicate response actions.
+  </p>
+
+  <p>
+    With this foundation in place, the next phase of our work will largely focus on solving
+    the problem of how to optimize translating feedback from aircrew into actionable requirements.
+    It'll also focus on continually improving the feedback application and expanding user adoption,
+    including additional types of aircrew.
+  </p>
 {% endcapture %}
 
 {% capture results %}
   <ul>
     <li>
-      Delivered an alpha version of the platform within three months
+      Delivered an alpha version of the gear-fitment feedback
+      application within three months
     </li>
 
     <li>
-      Preparing to launch a beta version in production with a user base of
-      300&ndash;500 users in spring of 2020
+      Launched a beta version in production to a user
+      base of 300&ndash;500 pilots (largely female) in March 2020
     </li>
 
     <li>
-      Product recognized by General David Goldfein, Chief of Staff of the Air Force,
-      at the Air Force industry conference WEPTAC
+      Drove initial aircrew adoption of the application, despite cultural and
+      behavorial obstacles, through a marketing and communications campaign
     </li>
 
     <li>
-      Demoed to the Secretary of the Air Force, Barbara Barrett
+      Demoed work to and received praise from the Secretary of
+      the Air Force, Barbara Barrett, and her former Chief of Staff,
+      General David Goldfein
+    </li>
+
+    <li>
+      Continually improving and expanding user adoption of the feedback application
+    </li>
+
+    <li>
+      Began second phase of work, focused on optimizing translation of
+      feedback into actionable requirements
     </li>
   </ul>
 {% endcapture %}
