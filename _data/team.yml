@@ -1539,3 +1539,142 @@
       link: /work/team-member/nicole-campbell/
       link_description: Nicole's Project Work
       fa_icon_name: wrench
+- name: lucas-newman
+  fname: Lucas
+  lname: Newman
+  full_name: Lucas Newman
+  short_name: L. Newman
+  profile_path: /company/about/#lucas-newman
+  image: /img/people/lucas-newman.jpg
+  image_description: Photo of Lucas Newman
+  position: Software Engineer
+  bio: >
+    Lucas is a software engineer with an unflinching faith in the ethical potential of
+    technology to solve big societal problems. He specializes in mobile application
+    architecture and engineering. Lucas lives in Georgia.
+  active: true
+  order: 390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lucas-newman-5a683a8a/
+      link_description: Lucas' LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/lukenewman
+      link_description: Lucas' GitHub Account
+      fa_icon_name: github
+- name: kenny-nieh
+  fname: Kenny
+  lname: Nieh
+  full_name: Kenny Nieh
+  short_name: K. Nieh
+  profile_path: /company/about/#kenny-nieh
+  image: /img/people/kenny-nieh.jpg
+  image_description: Photo of Kenny Nieh
+  position: Product Designer
+  bio: >
+    Kenny is a product designer, inclusive systems thinker, and people person.
+    They work through the whole gamut of product design to create experiences that
+    fit into people's lives. Kenny lives in California.
+  active: true
+  order: 400
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kenny-nieh-they-them-b091abbb/
+      link_description: Kenny's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://www.kennynieh.com/
+      link_description: Kenny's Personal Website
+      fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/kenny-nieh/
+      link_description: Kenny's Project Work
+      fa_icon_name: wrench
+- name: zoe-do
+  fname: Zoe
+  lname: Do
+  full_name: Zoe Do
+  short_name: Z. Do
+  profile_path: /company/about/#zoe-do
+  image: /img/people/zoe-do.png
+  image_description: Illustration of Zoe Doe
+  position: Product Designer
+  bio: >
+    Zoe is a product designer with nearly a decade of experience. She's spent much of her
+    career as a consultant with firms such as Pivotal Labs, and is eager to translate
+    these experiences into transforming government services. Zoe resides in Colorado.
+  active: true
+  order: 410
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/tranbqdo/
+      link_description: Zoe's LinkedIn Account
+      fa_icon_name: linkedin
+- name: rebecca-lubitzmarchena
+  fname: Rebecca
+  lname: Lubitz-Marchena
+  full_name: Rebecca Lubitz-Marchena
+  short_name: R. Lubitz-Marchena
+  profile_path: /company/about/#rebecca-lubitzmarchena
+  image: /img/people/rebecca-lubitzmarchena.jpg
+  image_description: Photo of Rebecca Lubitz-Marchena
+  position: UX Content Strategist
+  bio: >
+    Rebecca is a content strategist, designer, and writer with a passion for creating great
+    experiences through human-centered content. She most recently worked for Intuit. Rebecca
+    lives in California.
+  active: true
+  order: 420
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/rlubitzmarchena/
+      link_description: Rebecca's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/Rebecca-LM
+      link_description: Rebecca's GitHub Account
+      fa_icon_name: github
+- name: chris-smith
+  fname: Chris
+  lname: Smith
+  full_name: Chris Smith
+  short_name: C. Smith
+  profile_path: /company/about/#chris-smith
+  image: /img/people/chris-smith.png
+  image_description: Illustration of Chris Smith
+  position: Digital Transformer
+  bio: >
+    Chris is an experienced executive with nearly 20 years of leading technology
+    consulting and delivery teams in support of government clients. He lives in Maryland.
+  active: true
+  order: 430
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/christophersmith5/
+      link_description: Chris' LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/ChrisLSmith
+      link_description: Chris' GitHub Account
+      fa_icon_name: github
+- name: jamie-song
+  fname: Jamie
+  lname: Song
+  full_name: Jamie Song
+  short_name: J. Song
+  profile_path: /company/about/#jamie-song
+  image: /img/people/jamie-song.png
+  image_description: Illustration of Jamie Song
+  position: Product Manager
+  bio: >
+    Jamie is a product manager with a passion for good, clean product experiences.
+    She excels at leading and managing cross-functional teams across the entire product
+    lifecycle. Jamie lives in Washington DC.
+  active: true
+  order: 440
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jamie-song-a7198238/
+      link_description: Joe's LinkedIn Account
+      fa_icon_name: linkedin
