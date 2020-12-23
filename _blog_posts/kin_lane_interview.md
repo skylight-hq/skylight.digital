@@ -37,7 +37,7 @@ Skylight presented me with a compelling opportunity to amplify my role as The AP
 
 Another major reason was that I identified with the [culture that Skylight is striving to build](/company/values/). For example, there's a strong focus on developing one another's areas of expertise. There's a lot I'd like to teach others, but there's also a lot I'd like to learn. Being able to learn from people who are absolute experts in their field &mdash; such as legacy modernization, microservices, DevOps, and Internet of Things &mdash; really drew me in.
 
-The last reason, but certainly not the least, was the opportunity to build-up a business practice area focused on APIs. Skylight is run like a true partnership, and in that kind of model, people are supported and empowered to develop autonomous businesses in marketspaces that will move government forward in impactful ways. In other words, you can be a civic tech entrepreneur without having to start your own firm from scratch, yet still reap similar rewards. That appealed to me.
+The last reason, but certainly not the least, was the opportunity to build up a business practice area focused on APIs. Skylight is run like a true partnership, and in that kind of model, people are supported and empowered to develop autonomous businesses in marketspaces that will move government forward in impactful ways. In other words, you can be a civic tech entrepreneur without having to start your own firm from scratch, yet still reap similar rewards. That appealed to me.
 
 **Chris Cairns: What have you worked on so far?**
 
