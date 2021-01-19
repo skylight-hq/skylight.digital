@@ -48,6 +48,10 @@
   color: $black;
 }
 
+.container-xxl {
+  max-width: map-get($container-max-widths, "xxl");
+}
+
 .container-xl {
   max-width: map-get($container-max-widths, "xl");
 }
