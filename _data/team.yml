@@ -1420,7 +1420,7 @@
     she worked at the Center for Civic Design to help state agencies improve voting
     and elections and lead a team of designers at the U.S. Digital Service working
     with the Department of Veterans Affairs. Suzanne lives in Tennessee.
-  active: true
+  active: false
   order: 350
   socials:
     - name: Twitter
@@ -1604,7 +1604,7 @@
     Zoe is a product designer with nearly a decade of experience. She's spent much of her
     career as a consultant with firms such as Pivotal Labs, and is eager to translate
     these experiences into transforming government services. Zoe resides in Colorado.
-  active: true
+  active: false
   order: 410
   socials:
     - name: LinkedIn
