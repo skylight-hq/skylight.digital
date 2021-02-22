@@ -10,8 +10,6 @@
     "eslint": "^7.0.0",
     "eslint-utils": ">=1.4.1",
     "extend": ">=3.0.2",
-    "grunt": "^1.1.0",
-    "grunt-accessibility": "^6.0.0",
     "grunt-cli": "^1.3.2",
     "kind-of": ">=6.0.3",
     "minimist": ">=0.2.1"
@@ -22,7 +20,6 @@
   "scripts": {
     "scss-lint": "bundle exec scss-lint ./_sass",
     "html-lint": "bundle exec htmlproofer ./_site",
-    "access-lint": "grunt accessibility:test",
     "js-lint": "eslint ./_site/js/script.js"
   },
   "repository": {
