@@ -37,7 +37,9 @@
   {% else %}
     {% assign title = site_title %}
   {% endif %}
-  {% if page.description %}
+  {% if page.excerpt and page.layout != 'policy' %}
+    {% assign description = page.excerpt | strip_html | xml_escape %}
+  {% elsif page.description %}
     {% assign description = page.description | xml_escape %}
   {% else %}
     {% assign description = site_description %}
