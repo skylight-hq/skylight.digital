@@ -27,4 +27,4 @@ Running
    start the web server.
 2. Navigate to http://localhost:4000 in your browser to see your changes.
 3. To execute lint tests, run the `npm run-script <script>` command in the console.
-   Available scripts include: `scss-lint`, `html-lint`, `access-lint`, and `js-lint`.
+   Available scripts include: `scss-lint`, `html-lint`, and `js-lint`.
