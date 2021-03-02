@@ -1679,3 +1679,25 @@
       link: https://www.linkedin.com/in/jamie-song-a7198238/
       link_description: Joe's LinkedIn Account
       fa_icon_name: linkedin
+- name: ori-hoffer
+  fname: Ori
+  lname: Hoffer
+  full_name: Ori Hoffer
+  short_name:O. Hoffer
+  profile_path: /company/about/#ori-hoffer
+  image: /img/people/ori-hoffer.jpg
+  image_description: Photo of Ori Hoffer
+  position: Content Specialist
+  bio: >
+   Ori is a communications and marketing specialist, formerly with GSA & 18F, who has worked in TV, radio, and digital media - on both the journalism and corporate communications sides. He lives in Virginia with his partner Lisa, daughter, and dog Fonzie. 
+  active: true
+  order: 450
+  socials:
+    - name: Twitter
+      link: https://twitter.com/ohoffer
+      link_description: Ori's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/orihoffer/
+      link_description: Ori's LinkedIn Account
+      fa_icon_name: linkedin
