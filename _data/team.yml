@@ -1701,3 +1701,16 @@
       link: https://www.linkedin.com/in/orihoffer/
       link_description: Ori's LinkedIn Account
       fa_icon_name: linkedin
+- name: elyse-brumfield
+  fname: Elyse
+  lname: Brumfield
+  full_name: Elyse Brumfield
+  short_name: E. Brumfield
+  profile_path: /company/about/#elyse-brumfield
+  image: /img/people/elyse-brumfield.jpg
+  image_description: Photo of Elyse Brumfield
+  position: Administrative Assistant
+  bio: >
+    Elyse is an administrative assistant for Skylight. Elyse is a recent graduate of Transylvania University and is seeking a degree in Clinical Mental Health Counseling from Hodges University. Elyse lives in Florida.
+  active: true
+  order: 460
