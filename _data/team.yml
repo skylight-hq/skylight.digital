@@ -1689,7 +1689,10 @@
   image_description: Photo of Ori Hoffer
   position: Content Specialist
   bio: >
-   Ori is a communications and marketing specialist, formerly with GSA & 18F, who has worked in TV, radio, and digital media - on both the journalism and corporate communications sides. He lives in Virginia with his partner Lisa, daughter, and dog Fonzie. 
+   Ori is a marketing, communications, and content specialist, who formerly worked for
+   18F and the Beeck Center for Social Impact and Innovation. Ori's also worked in
+   TV, radio, and digital media &mdash; on both the journalism and corporate communications
+   sides. He lives in Virginia.
   active: true
   order: 450
   socials:
@@ -1711,6 +1714,13 @@
   image_description: Photo of Elyse Brumfield
   position: Administrative Assistant
   bio: >
-    Elyse is an administrative assistant for Skylight. Elyse is a recent graduate of Transylvania University and is seeking a degree in Clinical Mental Health Counseling from Hodges University. Elyse lives in Florida.
+    Elyse is our amazing administrative assistant. She recently graduated from
+    Transylvania University and is seeking a degree in Clinical Mental Health
+    Counseling from Hodges University. Elyse lives in Florida.
   active: true
   order: 460
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/elyse-brumfield-572ab1150/
+      link_description: Elye's LinkedIn Account
+      fa_icon_name: linkedin
