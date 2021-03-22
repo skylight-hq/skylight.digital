@@ -33,6 +33,7 @@ Setup Using Docker
 ---
 1. If you're using a Mac, install homebrew (see https://brew.sh/).
 1. Install [docker](https://www.docker.com/get-started)
+1. Install NPM `brew install node` 
 1. After installing git (`brew install git`), `cd` to the directory where you
    want to check-out the site, and then clone it (`git clone
    https://github.com/skylight-hq/skylight.digital.git`). 
