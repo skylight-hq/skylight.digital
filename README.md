@@ -23,6 +23,7 @@ Setup
 
 Setup Using Docker
 ---
+1. If you're using a Mac, install homebrew (see https://brew.sh/).
 1. Install docker
 1. After installing git (`brew install git`), `cd` to the directory where you
    want to check-out the site, and then clone it (`git clone
