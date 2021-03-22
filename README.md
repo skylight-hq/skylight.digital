@@ -21,6 +21,14 @@ Setup
 5. Install node (`brew install node -v7.10.0`), and then run `npm install` to
    install the local dependencies listed in `package.json`.
 
+Running
+---
+1. In the directory you checked out the website into, run `jekyll serve` to
+   start the web server.
+2. Navigate to http://localhost:4000 in your browser to see your changes.
+3. To execute lint tests, run the `npm run-script <script>` command in the console.
+   Available scripts include: `scss-lint`, `html-lint`, and `js-lint`.
+   
 Setup Using Docker
 ---
 1. If you're using a Mac, install homebrew (see https://brew.sh/).
@@ -30,11 +38,3 @@ Setup Using Docker
    https://github.com/skylight-hq/skylight.digital.git`). 
 1. Enter the command `npm run docker-run` to start the server
 1. Navigate to http://localhost:4000 in your browser
-
-Running
----
-1. In the directory you checked out the website into, run `jekyll serve` to
-   start the web server.
-2. Navigate to http://localhost:4000 in your browser to see your changes.
-3. To execute lint tests, run the `npm run-script <script>` command in the console.
-   Available scripts include: `scss-lint`, `html-lint`, and `js-lint`.
