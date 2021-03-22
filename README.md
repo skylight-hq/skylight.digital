@@ -21,6 +21,15 @@ Setup
 5. Install node (`brew install node -v7.10.0`), and then run `npm install` to
    install the local dependencies listed in `package.json`.
 
+Setup Using Docker
+---
+1. Install docker
+1. After installing git (`brew install git`), `cd` to the directory where you
+   want to check-out the site, and then clone it (`git clone
+   https://github.com/skylight-hq/skylight.digital.git`). 
+1. Enter the command `npm run docker-run` to start the server
+1. Navigate to http://localhost:4000 in your browser
+
 Running
 ---
 1. In the directory you checked out the website into, run `jekyll serve` to
