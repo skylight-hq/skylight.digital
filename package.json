@@ -20,7 +20,8 @@
   "scripts": {
     "scss-lint": "bundle exec scss-lint ./_sass",
     "html-lint": "bundle exec htmlproofer ./_site",
-    "js-lint": "eslint ./_site/js/script.js"
+    "js-lint": "eslint ./_site/js/script.js",
+    "docker-run": "docker run --rm --volume=\"$PWD:/srv/jekyll\" --volume=\"$PWD/vendor/bundle:/usr/local/bundle\" --env JEKYLL_ENV=development -p 4000:4000 jekyll/jekyll:3.8 jekyll serve"
   },
   "repository": {
     "type": "git",
