@@ -1639,12 +1639,12 @@
 - name: gianna-uson
   fname: Gianna
   lname: Uson
-  Full_name: Gianna Uson
+  full_name: Gianna Uson
   short_name: G. Uson
   profile_path: /company/about/#gianna-uson
   image: /img/people/gianna-uson.png
   image_description: Photo of Gianna Uson
-  Position: Software Engineer Apprentice
+  position: Software Engineer Apprentice
   bio: >
     Gianna is a software engineer apprentice who is passionate about leveraging technology and partnering with communities to improve the lives of others. She was a 2018 Civic Digital Fellow at the State Department and graduated from Brown University with a degree in Computer Science. Gianna lives in Indiana.
   active: true
@@ -1654,15 +1654,15 @@
       link: https://www.linkedin.com/in/giannauson
       link_description: Gianna’s LinkedIn Account
       fa_icon_name: linkedin
- - name: alex-curtis
+- name: alex-curtis
   fname: Alex
   lname: Curtis
-  Full_name: Alex Curtis
+  full_name: Alex Curtis
   short_name: A. Curtis
   profile_path: /company/about/#alex-curtis
   image: /img/people/alexander-curtis.png
   image_description: Photo of Alex Curtis
-  Position: Data Scientist Apprentice
+  position: Data Scientist Apprentice
   bio: >
     Alex is a data scientist and engineer apprentice who is thrilled to be able to use his analytical and computational skills in the realm of public service. In 2019 he served as a Civic Digital Fellow in the Department of Health Human Services. He has completed degrees from Columbia University and New York University. He lives in Massachusetts.
   active: true
@@ -1672,15 +1672,15 @@
       link: https://www.linkedin.com/in/alexander-curtis-b3b4b766/
       link_description: Alex’s LinkedIn Account
       fa_icon_name: linkedin
- - name: jesse-skeets
+- name: jesse-skeets
   fname: Jesse
   lname: Skeets
-  Full_name: Jesse Skeets
+  full_name: Jesse Skeets
   short_name: J. Skeets
   profile_path: /company/about/#jesse-skeets
   image: /img/people/jesse-skeets.png
   image_description: Photo of Jesse Skeets
-  Position: Software Engineer
+  position: Software Engineer
   bio: >
     Jesse is a software engineer with a background in Federal Health.  He enjoys all aspects of software development and loves solving inefficiencies while building secure and robust applications. He has a degree in Mechanical Engineering from The California Maritime Academy and is a Naval Reserve Officer. He lives in California with his dog Daisy. 
   active: true
@@ -1694,15 +1694,15 @@
       link: https://github.com/JSkeets
       link_description: Jesse’s GitHub Account
       fa_icon_name: github
- - name: derek-tam
+- name: derek-tam
   fname: Derek
   lname: Tam
-  Full_name: Derek Tam
+  full_name: Derek Tam
   short_name: D. Tam
   profile_path: /company/about/#derek-tam
-  image: /img/people/derek-tam.jpg
+  image: /img/people/derek-tam.png
   image_description: Photo of Derek Tam
-  Position: Product Manager Apprentice
+  position: Product Manager Apprentice
   bio: >
    Derek is a product manager apprentice who is excited for the opportunity to use modern technological practices into public-facing work. He is a 2020 Civic Digital Fellow in the General Services Administration working on Vote.gov. He has recently graduated with a degree in Systems Engineering from the University of Illinois at Urbana-Champaign. Derek currently resides in Massachusetts
   active: true
@@ -1715,22 +1715,22 @@
 - name: leslie-garner-franklin
   fname: Leslie 
   lname: Garner Franklin
-  Full_name: Leslie Garner Franklin
+  full_name: Leslie Garner Franklin
   short_name: Leslie Garner Franklin
   profile_path: /company/about/#leslie-garner-franklin
-  image: /img/people/leslie-garnerfranklin.jpg
+  image: /img/people/leslie-garnerfranklin.png
   image_description: Photo of Leslie Garner Franklin
-  Position: Product Manager 
+  position: Product Manager 
   bio: >
    Leslie is a product manager who comes to Skylight with nearly two decades of experience leading teams and change efforts across the non-profit and public sectors. She is passionate about the role technology and design play in delivering great services. She specializes in cross-functional team leadership, user experience research and service design. Leslie lives in Asheville, North Carolina, with her husband Sam, kiddos Zeke and Phoebe, and their dog Midas.
   active: true
   order: 510
   socials:
-      - name: Twitter
+    - name: Twitter
       link: https://twitter.com/elgeefranklin
       link_description: Leslie’s Twitter Account
       fa_icon_name: twitter
-     - name: LinkedIn
+    - name: LinkedIn
       link: https://www.linkedin.com/in/lesliegarnerfranklin/
       link_description: Leslie’s LinkedIn Account
       fa_icon_name: linkedin
