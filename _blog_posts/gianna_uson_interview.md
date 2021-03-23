@@ -2,19 +2,17 @@
 layout: blog_post
 title: "Gianna Uson: Launching a civic tech career"
 permalink: /thoughts/blog/gianna-uson-launching-a-civic-tech-career/
-redirect_from:
-  - /blog/gianna-uson-launching-a-civic-tech-career
 content_type: BlogPosting
 image: /img/blog/gianna_uson_interview/gianna-uson.svg
 image_description: Portrait of Gianna Uson.
 image_display: true
-order: 1700
+order: 3200
 tags: [people and culture, Civic Digital Fellowship, AmeriCorps, Gianna Uson]
 excerpt: "Skylight's Gianna Uson is just beginning her career as a civic technologist, bringing a unique perspective to service design, having worked at the State Department and AmeriCorps."
 authors:
   - Ori Hoffer
 date_published: 2021-03-23
-date: 2021-03-24
+date: 2021-03-23
 ---
 
 *Gianna Uson joined Skylight in January 2021. She’s a software engineer who has spent the past few years doing service work. She has resolved to use her skills and abilities in work that is in service of others. She is passionate about using technology in partnership with communities to improve others’ lives.*
