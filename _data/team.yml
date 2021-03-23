@@ -632,31 +632,6 @@
       link: /work/team-member/laura-king/
       link_description: Laura's Project Work
       fa_icon_name: wrench
-- name: victoria-suwardiman
-  fname: Victoria
-  lname: Suwardiman
-  full_name: Victoria Suwardiman
-  short_name: V. Suwardiman
-  profile_path: /company/about/#victoria-suwardiman
-  image: /img/people/victoria-suwardiman.jpg
-  image_description: Victoria Suwardiman
-  position: UX Researcher
-  bio: >
-    Victoria is a UX researcher, who made the crossover from computer science.
-    She specializes in a number of qualitative and quantitative research
-    techniques, including usability testing, journey mapping, and wireframing.
-    Victoria resides in Massachusetts.
-  active: true
-  order: 160
-  socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/suwardimanvictoria/
-      link_description: Victoria's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/victoria-suwardiman/
-      link_description: Victoria's Project Work
-      fa_icon_name: wrench
 - name: abby-raskin
   fname: Abby
   lname: Raskin
@@ -778,43 +753,6 @@
     - name: Projects
       link: /work/team-member/colin-craig/
       link_description: Colin's Project Work
-      fa_icon_name: wrench
-- name: ashley-treni
-  fname: Ashley
-  lname: Treni
-  full_name: Ashley Treni
-  short_name: A. Treni
-  profile_path: /company/about/#ashley-treni
-  image: /img/people/ashley-treni.jpg
-  image_description: Photo of Ashley Treni
-  position: UX Designer
-  bio: >
-    Ashley is a UX researcher and designer, with a background in information
-    design and data visualization. As a Design Fellow for the social
-    impact incubator, Blue Ridge Labs, she launched and co-founded JustFix.nyc.
-    Ashley currently teaches UX design at General Assembly. She lives in Rhode Island.
-  active: true
-  order: 110
-  socials:
-    - name: Twitter
-      link: https://twitter.com/ashleytreni
-      link_description: Ashley's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/ashleytreni/
-      link_description: Ashley's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/atreni
-      link_description: Ashley's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://www.designtaxonomy.com/
-      link_description: Ashley's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/ashley-treni/
-      link_description: Ashley's Project Work
       fa_icon_name: wrench
 - name: mitchell-sipus
   fname: Mitchell
@@ -1487,32 +1425,6 @@
       link: /work/team-member/jordan-guinn/
       link_description: Jordan's Project Work
       fa_icon_name: wrench
-- name: kari-hodges
-  fname: Kari
-  lname: Hodges
-  full_name: Kari Hodges
-  short_name: K. Hodges
-  profile_path: /company/about/#kari-hodges
-  image: /img/people/kari-hodges.svg
-  image_description: Illustration of Kari Hodges
-  position: UX Researcher
-  bio: >
-    Kari is a UX researcher with experience in startup, higher education, and non-profit
-    industries. Before Skylight, she was a UX research consultant and
-    growth strategist for health-tech companies integrating AI into their service models.
-    As an MBA from MIT, Kari leverages interdisciplinary collaboration and frameworks to
-    create human-centered solutions. She lives in Rhode Island.
-  active: true
-  order: 380
-  socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kariahodges/
-      link_description: Kari's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/kari-hodges/
-      link_description: Kari's Project Work
-      fa_icon_name: wrench
 - name: nicole-campbell
   fname: Nicole
   lname: Campbell
@@ -1723,4 +1635,102 @@
     - name: LinkedIn
       link: https://www.linkedin.com/in/elyse-brumfield-572ab1150/
       link_description: Elye's LinkedIn Account
+      fa_icon_name: linkedin 
+- name: gianna-uson
+  fname: Gianna
+  lname: Uson
+  Full_name: Gianna Uson
+  short_name: G. Uson
+  profile_path: /company/about/#gianna-uson
+  image: /img/people/gianna-uson.png
+  image_description: Photo of Gianna Uson
+  Position: Software Engineer Apprentice
+  bio: >
+    Gianna is a software engineer apprentice who is passionate about leveraging technology and partnering with communities to improve the lives of others. She was a 2018 Civic Digital Fellow at the State Department and graduated from Brown University with a degree in Computer Science. Gianna lives in Indiana.
+  active: true
+  order: 470
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/giannauson
+      link_description: Gianna’s LinkedIn Account
+      fa_icon_name: linkedin
+ - name: alex-curtis
+  fname: Alex
+  lname: Curtis
+  Full_name: Alex Curtis
+  short_name: A. Curtis
+  profile_path: /company/about/#alex-curtis
+  image: /img/people/alexander-curtis.png
+  image_description: Photo of Alex Curtis
+  Position: Data Scientist Apprentice
+  bio: >
+    Alex is a data scientist and engineer apprentice who is thrilled to be able to use his analytical and computational skills in the realm of public service. In 2019 he served as a Civic Digital Fellow in the Department of Health Human Services. He has completed degrees from Columbia University and New York University. He lives in Massachusetts.
+  active: true
+  order: 480
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/alexander-curtis-b3b4b766/
+      link_description: Alex’s LinkedIn Account
+      fa_icon_name: linkedin
+ - name: jesse-skeets
+  fname: Jesse
+  lname: Skeets
+  Full_name: Jesse Skeets
+  short_name: J. Skeets
+  profile_path: /company/about/#jesse-skeets
+  image: /img/people/jesse-skeets.png
+  image_description: Photo of Jesse Skeets
+  Position: Software Engineer
+  bio: >
+    Jesse is a software engineer with a background in Federal Health.  He enjoys all aspects of software development and loves solving inefficiencies while building secure and robust applications. He has a degree in Mechanical Engineering from The California Maritime Academy and is a Naval Reserve Officer. He lives in California with his dog Daisy. 
+  active: true
+  order: 490
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jesse-skeets-74515298
+      link_description: Jesse’s LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/JSkeets
+      link_description: Jesse’s GitHub Account
+      fa_icon_name: github
+ - name: derek-tam
+  fname: Derek
+  lname: Tam
+  Full_name: Derek Tam
+  short_name: D. Tam
+  profile_path: /company/about/#derek-tam
+  image: /img/people/derek-tam.jpg
+  image_description: Photo of Derek Tam
+  Position: Product Manager Apprentice
+  bio: >
+   Derek is a product manager apprentice who is excited for the opportunity to use modern technological practices into public-facing work. He is a 2020 Civic Digital Fellow in the General Services Administration working on Vote.gov. He has recently graduated with a degree in Systems Engineering from the University of Illinois at Urbana-Champaign. Derek currently resides in Massachusetts
+  active: true
+  order: 500
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/derekhochuntam/
+      link_description: Derek’s LinkedIn Account
+      fa_icon_name: linkedin
+- name: leslie-garner-franklin
+  fname: Leslie 
+  lname: Garner Franklin
+  Full_name: Leslie Garner Franklin
+  short_name: Leslie Garner Franklin
+  profile_path: /company/about/#leslie-garner-franklin
+  image: /img/people/leslie-garnerfranklin.jpg
+  image_description: Photo of Leslie Garner Franklin
+  Position: Product Manager 
+  bio: >
+   Leslie is a product manager who comes to Skylight with nearly two decades of experience leading teams and change efforts across the non-profit and public sectors. She is passionate about the role technology and design play in delivering great services. She specializes in cross-functional team leadership, user experience research and service design. Leslie lives in Asheville, North Carolina, with her husband Sam, kiddos Zeke and Phoebe, and their dog Midas.
+  active: true
+  order: 510
+  socials:
+      - name: Twitter
+      link: https://twitter.com/elgeefranklin
+      link_description: Leslie’s Twitter Account
+      fa_icon_name: twitter
+     - name: LinkedIn
+      link: https://www.linkedin.com/in/lesliegarnerfranklin/
+      link_description: Leslie’s LinkedIn Account
       fa_icon_name: linkedin
