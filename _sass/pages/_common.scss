@@ -226,3 +226,12 @@
   @extend %btn-page;
   min-width: 200px;
 }
+
+// prevent container width overflow due to container-md
+@include media-breakpoint-down(xs) {
+  .container-md {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
