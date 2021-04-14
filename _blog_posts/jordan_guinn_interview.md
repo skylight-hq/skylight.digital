@@ -8,7 +8,7 @@ image_description: Portrait of Jordan Guinn
 image_display: true
 order: 3300
 tags: [people and culture, devops, engineering, jordan guinn]
-excerpt: "Skylight's Jordan Guinn never thought he'd be working in civic technology. But when the opportunity arose, he jumped in with both feet."
+excerpt: "Skylight's Jordan Guinn never thought he'd be working in civic technology. But when the opportunity arose, he jumped at the chance."
 authors:
   - Ori Hoffer
 date_published: 2021-04-09
