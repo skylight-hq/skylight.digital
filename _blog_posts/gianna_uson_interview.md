@@ -8,20 +8,20 @@ image_description: Portrait of Gianna Uson.
 image_display: true
 order: 3200
 tags: [people and culture, engineering, gianna uson]
-excerpt: "Skylight's Gianna Uson is just beginning her career as a civic technologist, bringing a unique perspective to service design, having worked at the State Department and AmeriCorps."
+excerpt: "Skylight's Gianna Uson is just beginning her career as a civic technologist, bringing a unique perspective to service design, having worked at the U.S. Department of State, as a Civic Digital Fellow, and AmeriCorps."
 authors:
   - Ori Hoffer
 date_published: 2021-04-10
 date: 2021-04-10
 ---
 
-*Gianna Uson joined Skylight in January 2021. She's a software engineer who's spent the past few years doing service work. She's resolved to use her skills and abilities in work that is in service of others. She's passionate about using technology in partnership with communities to improve others' lives.*
+*Gianna Uson joined Skylight in January 2021. She's a software engineer who's spent the past few years doing service-related work with mission-oriented organizations such as Coding it Forward and AmeriCorps. Gianna's passionate about using technology in partnership with communities to improve the lives of others.*
 
 **Ori Hoffer: Tell me about your path to Skylight?**
 
 **Gianna Uson:** While studying computer science in college, I sought opportunities to make an impact in my community. I was involved in a local computer science program for 9th grade girls, where I created lesson plans and taught computer science concepts through Scratch, Python, and HTML/CSS. I also worked as a [CS4RI](https://www.cs4ri.org/) (Computer Science for Rhode Island) Fellow at the Rhode Island Office of Innovation where I drafted a playbook for implementing a statewide computer science equity initiative.
 
-I've always been interested in using my computer science skills for good and found it challenging to find organizations whose mission and values aligned with mine. It wasn't until my final year of college when I learned about civic technology. After graduating from Brown in 2018, I was a [Civic Digital Fellow](https://www.codingitforward.com/civic-digital-fellowship) at the State Department where I conducted user experience research on the foreign service transfer process and designed an aggregated information portal for foreign service employees.
+I've always been interested in using my computer science skills for good and found it challenging to find organizations whose mission and values aligned with mine. It wasn't until my final year of college when I learned about civic technology. After graduating from Brown in 2018, I was a [Civic Digital Fellow](https://www.codingitforward.com/civic-digital-fellowship) at the U.S. Department of State where I conducted user experience research on the foreign service transfer process and designed an aggregated information portal for foreign service employees.
 
 After the summer working at the State Department, I spent the next two years in service work. I worked in campus ministry, focusing on building community and supporting and advising students. The following year, I served as a residential advocate and volunteer coordinator at a homeless shelter for pregnant and parenting women and their babies through AmeriCorps.
 
