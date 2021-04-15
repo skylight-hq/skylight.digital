@@ -15,7 +15,7 @@ date_published: 2021-04-09
 date: 2021-04-09
 ---
 
-*Jordan Guinn joined Skylight in July of 2020. He's a software engineer and currently one of our tech leads. In his career, Jordan's quickly amassed a wealth of experience and leadership skills, which he's now using to make a difference in the world.*
+*Jordan Guinn joined Skylight in July of 2020. He's a software engineer and one of our tech leads. In his career, Jordan's quickly amassed a wealth of experience and leadership skills, which he's now using to make a difference in the world.*
 
 **Ori Hoffer: Tell me about your path to Skylight?**
 
