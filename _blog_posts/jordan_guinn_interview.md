@@ -8,14 +8,14 @@ image_description: Portrait of Jordan Guinn
 image_display: true
 order: 3300
 tags: [people and culture, devops, engineering, jordan guinn]
-excerpt: "Skylight's Jordan Guinn never thought he'd be working in civic technology. But when the opportunity arose, he jumped at the chance."
+excerpt: "For Jordan Guinn, getting into the civic-tech world with Skylight was a career change. Now that he's here, Jordan's discovering why our mission matters."
 authors:
   - Ori Hoffer
 date_published: 2021-04-09
 date: 2021-04-09
 ---
 
-*Jordan Guinn joined Skylight in July of 2020. He's a software engineer and currently one of our tech leads. In his career, Jordan's quickly amassed a wealth of experience and leadership skills, which he brings to every project.*
+*Jordan Guinn joined Skylight in July of 2020. He's a software engineer and currently one of our tech leads. In his career, Jordan's quickly amassed a wealth of experience and leadership skills, which he's now using to make a difference in the world.*
 
 **Ori Hoffer: Tell me about your path to Skylight?**
 
