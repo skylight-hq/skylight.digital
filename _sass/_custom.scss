@@ -136,7 +136,10 @@ $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none;
 
 // Fonts
-$font-family-sans-serif: 'Geomanist', sans-serif;
+// $font-family-sans-serif: 'Geomanist', sans-serif;
+$font-family-system: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+
+$font-family-sans-serif: 'Libre Franklin', $font-family-system;
 
 $font-size-base: $font-size-medium;
 $font-size-lg: $font-size-large;
@@ -153,10 +156,10 @@ $font-size-h4: $font-size-small;
 $font-size-h5: 1.25rem;
 
 $font-weight-normal: 400;
-$font-weight-bold: 700;
+$font-weight-bold: 600;
 
 $headings-margin-bottom: 0;
-$headings-font-weight: 700;
+$headings-font-weight: 600;
 
 $lead-font-weight: 100;
 
