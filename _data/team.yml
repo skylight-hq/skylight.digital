@@ -995,6 +995,10 @@
       link: /thoughts/blog/author/maya-benari/
       link_description: Maya's Blog Posts
       fa_icon_name: pencil
+    - name: Projects
+      link: /work/team-member/maya-benari/
+      link_description: Maya's Project Work
+      fa_icon_name: wrench
 - name: brandon-kirby
   fname: Brandon
   lname: Kirby
@@ -1434,6 +1438,10 @@
       link: https://github.com/suzchap
       link_description: Suzanne's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/suzanne-chapman/
+      link_description: Suzanne's Project Work
+      fa_icon_name: wrench
 - name: olivia-lucas
   fname: Olivia
   lname: Lucas
@@ -1635,6 +1643,10 @@
       link: https://github.com/Rebecca-LM
       link_description: Rebecca's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/rebecca-lubitzmarchena/
+      link_description: Rebecca's Project Work
+      fa_icon_name: wrench
 - name: chris-smith
   fname: Chris
   lname: Smith
@@ -1766,6 +1778,10 @@
       link: https://www.linkedin.com/in/alexander-curtis-b3b4b766/
       link_description: Alex's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/alex-curtis/
+      link_description: Alex's Project Work
+      fa_icon_name: wrench
 - name: jesse-skeets
   fname: Jesse
   lname: Skeets
@@ -1813,6 +1829,10 @@
       link: https://www.linkedin.com/in/derekhochuntam/
       link_description: Derek's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/derek-tam/
+      link_description: Derek's Project Work
+      fa_icon_name: wrench
 - name: leslie-garner-franklin
   fname: Leslie
   lname: Garner Franklin
