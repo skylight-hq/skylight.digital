@@ -2,126 +2,137 @@
   <div class="project-case-study-row">
     <div class="project-case-study-col">
       <header class="project-case-study-header">
-        <div class="project-case-study-title-tag header-display-5">{{page.title_tag}}</div>
-        <h1 class="project-case-study-title header-display-2 header-page">{{page.title}}</h1>
+        <div class="project-case-study-title-tag header-display-5">
+          {{page.title_tag}}
+        </div>
+        <h1 class="project-case-study-title header-display-2 header-page">
+          {{page.title}}
+        </h1>
       </header>
 
       <div class="project-case-study-content">
         <h2 class="sr-only">Summary</h2>
         <div class="project-case-study-summary">{{include.summary}}</div>
 
-        {% if page.feature_image %}
-          {% assign image = page.feature_image %}
-          {% assign image_description = page.feature_image_description %}
-          {% assign image_class = 'project-feature-image' %}
-        {% else %}
-          {% assign image = page.image %}
-          {% assign image_description = page.image_description %}
-          {% assign image_class = 'project-feature-image' %}
-        {% endif %}
+        {% if page.feature_image %} {% assign image = page.feature_image %} {%
+        assign image_description = page.feature_image_description %} {% assign
+        image_class = 'project-feature-image' %} {% else %} {% assign image =
+        page.image %} {% assign image_description = page.image_description %} {%
+        assign image_class = 'project-feature-image' %} {% endif %}
 
-        <img class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} " src="{{image}}" alt="{{image_description}}" title="{{image_description}}">
+        <img
+          class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} "
+          src="{{image}}"
+          alt="{{image_description}}"
+          title="{{image_description}}"
+        />
 
         <h2>The challenge</h2>
         {{include.challenge}}
 
         <h2>The solution</h2>
-        {{include.solution}}
-
-        {% capture accordion_body %}
-          <aside class="approach">
-            {% assign member_count = page.project_members.size %}
-            <ul class="has-col">
-              {% for member in page.project_members %}
-                {% assign emp = site.data.team | where: 'name', member | first %}
-                <li>
-                  <span class="approach-item">
-                    {% if emp.active %}
-                      <a class="profile profile-link d-flex flex-row align-items-center" href="{{emp.profile_path}}">
-                        <div class="employee-gradient">
-                          <img class="profile-img employee-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                        </div>
-                        <span>{{emp.short_name}}</span>
-                      </a>
-                    {% else %}
-                      <div class="profile d-flex flex-row align-items-center">
-                        <div class="employee-gradient">
-                          <img class="profile-img employee-img" src="{{emp.image}}" alt="{{emp.image_description}}">
-                        </div>
-                        <span>{{emp.short_name}}</span>
-                      </div>
-                    {% endif %}
-                  </span>
-                </li>
-              {% endfor %}
-            </ul>
-          </aside>
-        {% endcapture %}
-
-        {% include accordion.html accordion_header = 'Team members' accordion_body = accordion_body accordion_index = '0' %}
-
-        {% capture accordion_body %}
-          <aside class="approach">
-            <ul class="has-col">
-              {% for tech in page.technologies %}
-                <li><span class="approach-item">{{tech}}</span></li>
-              {% endfor %}
-            </ul>
-          </aside>
-        {% endcapture %}
-
-        {% include accordion.html accordion_header = 'Technologies used' accordion_body = accordion_body accordion_index = '1' %}
-
-        {% capture accordion_body %}
-          <aside class="approach">
-            <ul class="has-col">
-              {% for practice in page.practices %}
-                <li><span class="approach-item">{{practice}}</span></li>
-              {% endfor %}
-            </ul>
-          </aside>
-        {% endcapture %}
-
-        {% include accordion.html accordion_header = 'Practices used' accordion_body = accordion_body accordion_index = '2' %}
+        {{include.solution}} {% capture accordion_body %}
+        <aside class="approach">
+          {% assign member_count = page.project_members.size %}
+          <ul class="has-col">
+            {% for member in page.project_members %} {% assign emp =
+            site.data.team | where: 'name', member | first %} {% capture height
+            %}{% imagesize {{emp.image}}:height %}{% endcapture %} {% capture
+            width %}{% imagesize {{emp.image}}:width %}{% endcapture %}
+            <li>
+              <span class="approach-item">
+                {% if emp.active %}
+                <a
+                  class="profile profile-link d-flex flex-row align-items-center"
+                  href="{{emp.profile_path}}"
+                >
+                  <div
+                    class="employee-gradient{% if width != height %}-rect{% endif %}"
+                  >
+                    <img
+                      class="profile-img{% if width != height %}-rect{% endif %} employee-img"
+                      src="{{emp.image}}"
+                      alt="{{emp.image_description}}"
+                    />
+                  </div>
+                  <span>{{emp.short_name}}</span>
+                </a>
+                {% else %}
+                <div class="profile d-flex flex-row align-items-center">
+                  <div class="employee-gradient">
+                    <img
+                      class="profile-img employee-img"
+                      src="{{emp.image}}"
+                      alt="{{emp.image_description}}"
+                    />
+                  </div>
+                  <span>{{emp.short_name}}</span>
+                </div>
+                {% endif %}
+              </span>
+            </li>
+            {% endfor %}
+          </ul>
+        </aside>
+        {% endcapture %} {% include accordion.html accordion_header = 'Team
+        members' accordion_body = accordion_body accordion_index = '0' %} {%
+        capture accordion_body %}
+        <aside class="approach">
+          <ul class="has-col">
+            {% for tech in page.technologies %}
+            <li><span class="approach-item">{{tech}}</span></li>
+            {% endfor %}
+          </ul>
+        </aside>
+        {% endcapture %} {% include accordion.html accordion_header =
+        'Technologies used' accordion_body = accordion_body accordion_index =
+        '1' %} {% capture accordion_body %}
+        <aside class="approach">
+          <ul class="has-col">
+            {% for practice in page.practices %}
+            <li><span class="approach-item">{{practice}}</span></li>
+            {% endfor %}
+          </ul>
+        </aside>
+        {% endcapture %} {% include accordion.html accordion_header = 'Practices
+        used' accordion_body = accordion_body accordion_index = '2' %}
 
         <h2>The results</h2>
-        {{include.results}}
-
-        {% if page.news_posts %}
-          {% capture accordion_body %}
-            <aside class="news-coverage">
-              <ul>
-                {% for post in page.news_posts %}
-                  <li>
-                    <a href="{{post.url}}">{{post.title}}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </aside>
-          {% endcapture %}
-          {% include accordion.html accordion_header = 'News coverage' accordion_body = accordion_body accordion_index = '3' %}
-        {% endif %}
+        {{include.results}} {% if page.news_posts %} {% capture accordion_body
+        %}
+        <aside class="news-coverage">
+          <ul>
+            {% for post in page.news_posts %}
+            <li>
+              <a href="{{post.url}}">{{post.title}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </aside>
+        {% endcapture %} {% include accordion.html accordion_header = 'News
+        coverage' accordion_body = accordion_body accordion_index = '3' %} {%
+        endif %}
       </div>
 
       {% if page.project_url or page.source_code_url %}
-        <div class="project-case-study-footer">
-          {% capture project_link_markup %}
-            <a class="work-example-cta" href="{{page.project_url}}" role="button">{{page.project_cta}}</a>
-          {% endcapture %}
-
-          {% capture source_code_link_markup %}
-            <a class="work-example-cta" href="{{page.source_code_url}}" role="button">Read the code</a>
-          {% endcapture %}
-
-          {% if page.project_url and page.source_code_url %}
-            <div class="work-example-cta-wrapper">{{project_link_markup}}</div>
-            <div class="work-example-cta-wrapper">{{source_code_link_markup}}</div>
-          {% elsif page.project_url %}
-            {{project_link_markup}}
-          {% else %}
-            {{source_code_link_markup}}
-          {% endif %}
-        </div>
+      <div class="project-case-study-footer">
+        {% capture project_link_markup %}
+        <a class="work-example-cta" href="{{page.project_url}}" role="button"
+          >{{page.project_cta}}</a
+        >
+        {% endcapture %} {% capture source_code_link_markup %}
+        <a
+          class="work-example-cta"
+          href="{{page.source_code_url}}"
+          role="button"
+          >Read the code</a
+        >
+        {% endcapture %} {% if page.project_url and page.source_code_url %}
+        <div class="work-example-cta-wrapper">{{project_link_markup}}</div>
+        <div class="work-example-cta-wrapper">{{source_code_link_markup}}</div>
+        {% elsif page.project_url %} {{project_link_markup}} {% else %}
+        {{source_code_link_markup}} {% endif %}
+      </div>
       {% endif %}
     </div>
   </div>
