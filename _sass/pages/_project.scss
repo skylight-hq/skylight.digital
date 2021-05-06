@@ -119,12 +119,30 @@
   }
 
   a {
-    @include link-decoration($project-aside-link-color, $project-aside-link-hover-color,
-      $project-aside-link-border, $project-aside-link-border-hover);
+    @include link-decoration(
+      $project-aside-link-color,
+      $project-aside-link-hover-color,
+      $project-aside-link-border,
+      $project-aside-link-border-hover
+    );
   }
 }
 
 .profile {
+  .employee-gradient-rect {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 8px;
+    // box-shadow: 0 0 0 6px $white, 0 0 0 7px $gray-lightest;
+
+    // &::after {
+    //   height: 3rem;
+    //   width: 3rem;
+    // }
+  }
   .profile-img {
     @extend %rounded-circle;
     @extend %m-0;
@@ -133,8 +151,27 @@
     width: auto;
   }
 
+  .profile-img-rect {
+    // @extend %rounded-circle;
+    @extend %m-0;
+    // @extend %mr-2;
+    // height: 2rem;
+    // width: auto;
+    // width: auto;
+    height: 100% !important;
+    width: auto !important;
+    max-width: 600% !important;
+    margin-left: -0.75rem !important;
+    border-radius: 0 !important;
+  }
+
   &.profile-link {
-    @include link-decoration($project-aside-link-color, $project-aside-link-hover-color, none, none);
+    @include link-decoration(
+      $project-aside-link-color,
+      $project-aside-link-hover-color,
+      none,
+      none
+    );
 
     span {
       border-bottom: $project-aside-link-border;
