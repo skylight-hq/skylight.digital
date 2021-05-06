@@ -18,6 +18,46 @@
   @extend %text-heavy-col-base;
 }
 
+.filter-header {
+  @extend %d-flex;
+  @extend %justify-content-start;
+  @extend %pb-4;
+  border-bottom: 1px solid $gray-lightest;
+
+  .employee-gradient {
+    width: 3rem;
+
+    &::after {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .employee-gradient {
+      width: 4rem;
+
+      &::after {
+        height: 4rem;
+        width: 4rem;
+      }
+    }
+  }
+}
+
+.filter-image {
+  @extend %rounded-circle;
+  box-shadow: 0 0 0 2px $white, 0 0 0 3px $gray-lightest;
+  height: 3rem;
+  margin-left: 3px;
+
+  @include media-breakpoint-up(md) {
+    box-shadow: 0 0 0 6px $white, 0 0 0 7px $gray-lightest;
+    height: 4rem;
+    margin-left: 7px;
+  }
+}
+
 .filter-header-rect {
   @extend %d-flex;
   @extend %justify-content-start;
@@ -30,7 +70,7 @@
     height: 3rem;
     overflow: hidden;
     border-radius: 50%;
-    box-shadow: 0 0 0 2px $white, 0 0 0 3px $gray-lightest;
+    box-shadow: 0 0 0 6px $white, 0 0 0 7px $gray-lightest;
 
     &::after {
       height: 3rem;

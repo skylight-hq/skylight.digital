@@ -12,13 +12,14 @@ include.context %} {% capture filter_title_markup %}
   <h1>{{filter_header}}</h1>
   <div class="filter-row">
     <div class="filter-col">
-      <header class="filter-header">
+      {% capture height %}{% imagesize {{filter_image}}:height %}{% endcapture
+      %} {% capture width %}{% imagesize {{filter_image}}:width %}{% endcapture
+      %}
+      <header class="filter-header{% if width != height %}-rect{% endif %}">
         {% if context == 'employee' %}
-        <p>{% imagesize {{filter_image}}:width %}X</p>
-        <p>{% imagesize {{filter_image}}:height %}</p>
         <div class="employee-gradient">
           <img
-            class="filter-image employee-img"
+            class="filter-image{% if width != height %}-rect{% endif %} employee-img"
             src="{{filter_image}}"
             alt="{{filter_image_description}}"
           />
