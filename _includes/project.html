@@ -59,9 +59,9 @@
                 </a>
                 {% else %}
                 <div class="profile d-flex flex-row align-items-center">
-                  <div class="employee-gradient">
+                  <div class="employee-gradient{% if width != height %}-rect{% endif %}">
                     <img
-                      class="profile-img employee-img"
+                      class="profile-img{% if width != height %}-rect{% endif %} employee-img"
                       src="{{emp.image}}"
                       alt="{{emp.image_description}}"
                     />
