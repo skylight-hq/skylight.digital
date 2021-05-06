@@ -1,14 +1,12 @@
-{% assign filtered_items = include.filtered_items %}
-{% assign filter_header = include.filter_header %}
-{% assign filter_image = include.filter_image %}
-{% assign filter_image_description = include.filter_image_description %}
-{% assign filter_title = include.filter_title %}
-{% assign filter_subtitle = include.filter_subtitle %}
-{% assign filter_count = include.filter_count %}
-{% assign filter_no_results = include.filter_no_results %}
-{% assign context = include.context %}
-
-{% capture filter_title_markup %} <h2 class="filter-title">{{filter_title}}</h2> {% endcapture %}
+{% assign filtered_items = include.filtered_items %} {% assign filter_header =
+include.filter_header %} {% assign filter_image = include.filter_image %} {%
+assign filter_image_description = include.filter_image_description %} {% assign
+filter_title = include.filter_title %} {% assign filter_subtitle =
+include.filter_subtitle %} {% assign filter_count = include.filter_count %} {%
+assign filter_no_results = include.filter_no_results %} {% assign context =
+include.context %} {% capture filter_title_markup %}
+<h2 class="filter-title">{{filter_title}}</h2>
+{% endcapture %}
 
 <div class="filter">
   <h1>{{filter_header}}</h1>
@@ -16,15 +14,21 @@
     <div class="filter-col">
       <header class="filter-header">
         {% if context == 'employee' %}
-          <div class="employee-gradient">
-            <img class="filter-image employee-img" src="{{filter_image}}" alt="{{filter_image_description}}">
-          </div>
-           <div class="filter-title-wrapper filter-employee">
-             {{filter_title_markup}}
-             <h3 class="filter-subtitle">{{filter_subtitle}}</h3>
-           </div>
+        <p>{% imagesize {{filter_image}}:width %}X</p>
+        <p>{% imagesize {{filter_image}}:height %}</p>
+        <div class="employee-gradient">
+          <img
+            class="filter-image employee-img"
+            src="{{filter_image}}"
+            alt="{{filter_image_description}}"
+          />
+        </div>
+        <div class="filter-title-wrapper filter-employee">
+          {{filter_title_markup}}
+          <h3 class="filter-subtitle">{{filter_subtitle}}</h3>
+        </div>
         {% else %}
-          <div class="filter-title-wrapper">{{filter_title_markup}}</div>
+        <div class="filter-title-wrapper">{{filter_title_markup}}</div>
         {% endif %}
 
         <div class="filter-count">{{filter_count}}</div>
@@ -34,22 +38,20 @@
 
   <div class="filter-row">
     <div class="filter-col">
-      {% if filtered_items.size > 0 %}
-        {% for filtered_item in filtered_items %}
-          <article class="filter-item">
-            <h2 class="filter-item-title header-display-3">
-              <a class="filter-item-link" href="{{filtered_item.permalink}}">{{filtered_item.title}}</a>
-            </h2>
-            {% if filtered_item.subtitle %}
-              {% assign filtered_item_desc = filtered_item.subtitle %}
-            {% else %}
-              {% assign filtered_item_desc = filtered_item.excerpt %}
-            {% endif %}
-            <p class="filter-item-description">{{filtered_item_desc}}</p>
-          </article>
-        {% endfor %}
-      {% else %}
-        <p class="filter-no-results">{{filter_no_results}}</p>
+      {% if filtered_items.size > 0 %} {% for filtered_item in filtered_items %}
+      <article class="filter-item">
+        <h2 class="filter-item-title header-display-3">
+          <a class="filter-item-link" href="{{filtered_item.permalink}}"
+            >{{filtered_item.title}}</a
+          >
+        </h2>
+        {% if filtered_item.subtitle %} {% assign filtered_item_desc =
+        filtered_item.subtitle %} {% else %} {% assign filtered_item_desc =
+        filtered_item.excerpt %} {% endif %}
+        <p class="filter-item-description">{{filtered_item_desc}}</p>
+      </article>
+      {% endfor %} {% else %}
+      <p class="filter-no-results">{{filter_no_results}}</p>
       {% endif %}
     </div>
   </div>
