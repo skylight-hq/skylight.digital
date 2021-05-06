@@ -18,14 +18,19 @@
   @extend %text-heavy-col-base;
 }
 
-.filter-header {
+.filter-header-rect {
   @extend %d-flex;
   @extend %justify-content-start;
   @extend %pb-4;
   border-bottom: 1px solid $gray-lightest;
 
   .employee-gradient {
+    position: relative;
     width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px $white, 0 0 0 3px $gray-lightest;
 
     &::after {
       height: 3rem;
@@ -36,6 +41,7 @@
   @include media-breakpoint-up(md) {
     .employee-gradient {
       width: 4rem;
+      height: 4rem;
 
       &::after {
         height: 4rem;
@@ -45,17 +51,19 @@
   }
 }
 
-.filter-image {
+.filter-image-rect {
   @extend %rounded-circle;
-  box-shadow: 0 0 0 2px $white, 0 0 0 3px $gray-lightest;
   height: 3rem;
-  margin-left: 3px;
 
   @include media-breakpoint-up(md) {
     box-shadow: 0 0 0 6px $white, 0 0 0 7px $gray-lightest;
     height: 4rem;
-    margin-left: 7px;
+    margin-left: -1.5rem !important;
   }
+
+  width: auto;
+  height: 100%;
+  margin-left: -1.15rem !important;
 }
 
 .filter-title-wrapper.filter-employee {
@@ -110,8 +118,12 @@
 }
 
 .filter-item-link {
-  @include link-decoration($filter-item-link-color, $filter-item-link-hover-color,
-    $filter-item-link-border, $filter-item-link-border-hover);
+  @include link-decoration(
+    $filter-item-link-color,
+    $filter-item-link-hover-color,
+    $filter-item-link-border,
+    $filter-item-link-border-hover
+  );
 }
 
 .filter-item-title {
