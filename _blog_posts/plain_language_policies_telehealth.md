@@ -6,7 +6,7 @@ content_type: BlogPosting
 image: /img/blog/plain_language_policies_telehealth/plain-language.svg
 image_description: A woman entering billing codes into a computer
 image_display: true
-order: 3300
+order: 3500
 tags: [content, accessibility, abby raskin]
 excerpt: Telehealth quickly needed to be implemented due to COVID-19, but updating billing codes to accept it was a bit more complicated.
 authors:

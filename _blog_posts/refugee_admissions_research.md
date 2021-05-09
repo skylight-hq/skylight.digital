@@ -6,7 +6,7 @@ content_type: BlogPosting
 image: /img/blog/refugee_admissions_research/refugee-kids-eating.svg
 image_description: Refugee kids sharing a culturally-considerate warm meal upon arrival in the U.S.
 image_display: true
-order: 3400
+order: 3600
 tags: [research, design, lara kohl]
 excerpt: Lara Kohl shares her experience designing a roadmap to rebuild the U.S. Refugee Admission Program, as part of a project with the National Conference on Citizenship.
 authors:
