@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: "Key trends in mobile app development, part 1: the trends"
+title: "Key trends in mobile app development, part 1: The trends"
 permalink: /thoughts/blog/key-trends-in-mobile-app-development-part-1-the-trends/
 content_type: BlogPosting
 image: /img/blog/mobile_app_dev_trends/mobile-app-dev-trends-1.svg
