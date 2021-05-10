@@ -8,7 +8,7 @@ image_description: Two people looking at a huge mobile map application that's sh
 image_display: true
 order: 3400
 tags: [engineering, product, sean johnson]
-excerpt: Lean software development is an essential, yet underutilized tool in the toolbox of modern software development methodologies. Here we discuss what it is and how it differs from lean startup and lean product development.
+excerpt: Lean software development is an underutilized alternative to agile in the toolbox of modern software development methodologies. Here we discuss what it is and how it differs from lean startup and lean product development.
 authors:
   - Sean Johnson
 date_published: 2021-04-18
