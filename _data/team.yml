@@ -763,7 +763,7 @@
     such as login.gov, analytics.usa.gov, everykidinapark.gov, and FBI Crime Data Explorer.
     He specializes in software engineering, APIs, DevOps, and data engineering.
     Colin lives in North Carolina.
-  active: true
+  active: false
   order: 170
   socials:
     - name: LinkedIn
@@ -1837,7 +1837,7 @@
   fname: Leslie
   lname: Garner Franklin
   full_name: Leslie Garner Franklin
-  short_name: Leslie Garner Franklin
+  short_name: L. Franklin
   profile_path: /company/about/#leslie-garner-franklin
   image: /img/people/leslie-garnerfranklin.png
   image_description: Illustration of Leslie Garner Franklin
@@ -1859,3 +1859,309 @@
       link: https://www.linkedin.com/in/lesliegarnerfranklin/
       link_description: Leslie's LinkedIn Account
       fa_icon_name: linkedin
+- name: emma-stephenson
+  fname: Emma
+  lname: Stepehnson
+  full_name: Emma Stephenson
+  short_name: E. Stephenson
+  profile_path: /company/about/#emma-stephenson
+  image: /img/people/emma-stephenson-1-800.png
+  image_description: Photo of Emma Stephenson
+  position: Software Engineer
+  bio: >
+   Emma is a software engineer with a passion for creating user-centered products. 
+   She has experience working in API design, microservices, and dev ops. She 
+   lives and works remotely in Southern California.
+  active: true
+  order: 520
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/emma-stephenson-85849bb9
+      link_description: Emma's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/emmastephenson
+      link_description: Emma's GitHub Account
+      fa_icon_name: github
+- name: laura-kerry
+  fname: Laura
+  lname: Kerry
+  full_name: Laura Kerry
+  short_name: L. Kerry
+  profile_path: /company/about/#laura-kerry
+  image: /img/people/laura-kerry-800.png
+  image_description: Photo of Laura Kerry
+  position: Content Strategist
+  bio: >
+   Laura is a content strategist who specializes in UX writing, user testing, 
+   and content operations. She loves to distill complex information into content 
+   that people can understand and use, and she enjoys empowering others to do the same. 
+   Most recently, Laura worked at the NYC Mayor's Office for Economic Opportunity. 
+   She lives in New York.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laurawkerry/
+      link_description: Laura's LinkedIn Account
+      fa_icon_name: linkedin
+- name: nathan-carter
+  fname: Nathan
+  lname: Carter
+  full_name: Nathan Carter
+  short_name: N. Carter
+  profile_path: /company/about/#nathan-carter
+  image: /img/people/nathan-carter-illustration.svg
+  image_description: Photo of Nathan Carter
+  position: Software Engineer
+  bio: >
+   Nathan is a software engineer with a passion for building and deploying digital 
+   services for the public good. His entrepreneurial background allows him to develop 
+   APIs and services with a focus on the needs of the citizens that depend on them. 
+   Nathan lives in North Carolina.
+  active: true
+  order: 540
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nathan-carter-202775141/
+      link_description: Nathan's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/nathancrtr
+      link_description: Nathan's GitHub Account
+      fa_icon_name: github
+- name: chun-yen
+  fname: Chun
+  lname: yen
+  full_name: Chun Yen
+  short_name: C. Yen
+  profile_path: /company/about/#chun-yen
+  image: /img/people/chun-yen-800.png
+  image_description: Photo of Chun Yen
+  position: Software Engineer
+  bio: >
+   Chun's a DevOps and Cloud engineer who wants to automate as much as possible in order 
+   to help other great engineers develop and deploy high quality products with speed 
+   and security. Chun lives in Maryland.
+  active: true
+  order: 550
+  socials:
+    - name: LinkedIn
+      link: https://linkedin.com/in/chun-yen-43192a4a
+      link_description: Chun's LinkedIn Account
+      fa_icon_name: linkedin
+- name: nicole-wright
+  fname: Nicole
+  lname: Wright
+  full_name: Nicole Wright
+  short_name: N. Wright
+  profile_path: /company/about/#nicole-wright
+  image: /img/people/nicole-wright-800.png
+  image_description: Photo of Nicole Wright
+  position: Software Engineer
+  bio: >
+   Nicole's a product manager who is drawn to building products that help people. 
+   Most recently she worked with the Air Force's Kessel Run program to modernize in-air 
+   refueling planning and platform development. She specializes in lean product management 
+   and excels in bringing people together. Nicole lives in Massachusetts. 
+  active: true
+  order: 560
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nmwright/
+      link_description: Nicole's LinkedIn Account
+      fa_icon_name: linkedin
+- name: tiffany-nieh
+  fname: Tiffany
+  lname: Nieh
+  full_name: Tiffany Nieh
+  short_name: T. Nieh
+  profile_path: /company/about/#tiffany-nieh
+  image: /img/people/tiffany-nieh-800.png
+  image_description: Photo of Tiffany Nieh
+  position: Product Designer
+  bio: >
+   Tiffany's a product designer with a natural curiosity for learning. Most recently, she worked 
+   at Pivotal/VMware labs where she helped startups, large enterprises and government organizations 
+   build software using lean and agile methodologies. She loves understanding people's behaviors, 
+   motivations and problems to create solutions that have a positive impact. Tiffany lives 
+   in San Francisco. 
+  active: true
+  order: 570
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/tiffanynieh
+      link_description: Tiffany's LinkedIn Account
+      fa_icon_name: linkedin
+- name: karthik-patil
+  fname: Karthik
+  lname: Patil
+  full_name: Karthik Patil
+  short_name: K. Patil
+  profile_path: /company/about/#karthik-patil
+  image: /img/people/karthik-patil-800.png
+  image_description: Photo of Karthik Patil
+  position: Product Manager
+  bio: >
+   Karthik is a product manager with several years of experience across healthcare, fintech, 
+   hospitality, logistics, consumer, B2B Saas, and enterprise products. Prior to Skylight, 
+   Karthik was most recently at Pivotal (Tanzu) Labs. He graduated from Creighton University 
+   with degrees in Economics and Business Intelligence/Analytics. Karthik lives in Texas.
+  active: true
+  order: 580
+  socials:
+    - name: Twitter
+      link: https://twitter.com/karthvp
+      link_description: Karthik's Twitter Account
+      fa_icon_name: twitter  
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/karthikpatil/
+      link_description: Karthik's LinkedIn Account
+      fa_icon_name: linkedin
+- name: becca-woodberry
+  fname: Becca
+  lname: Woodberry
+  full_name: Becca Woodberry
+  short_name: B. Woodberry
+  profile_path: /company/about/#becca-woodberry
+  image: /img/people/becca-woodberry-1-800.png
+  image_description: Photo of Becca Woodberry
+  position: Head of Recruiting
+  bio: >
+   Becca is Head of Recruiting with a passion for building and fostering psychologically 
+   safe working environments by hiring great talent. Previously, she supported staffing 
+   needs at Waymo and other technology companies in the Silicon Valley. She specializes 
+   in staffing, on-boarding, people leadership, and diversity, inclusion, and equity. 
+   Becca lives in Arizona.
+  active: true
+  order: 590
+  socials:
+    - name: Twitter
+      link: https://twitter.com/BeccaWoodberry
+      link_description: Becca's Twitter Account
+      fa_icon_name: twitter  
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/woodberry/
+      link_description: Becca's LinkedIn Account
+      fa_icon_name: linkedin
+- name: matt-goldberg
+  fname: Matt
+  lname: Goldberg
+  full_name: Matt Goldberg
+  short_name: M. Goldberg
+  profile_path: /company/about/#matt-goldberg
+  image: /img/people/matt-goldberg-800.png
+  image_description: Photo of Matt Goldberg
+  position: Content Strategist Apprentice
+  bio: >
+   Matt's a content strategist and storyteller with a background in clean tech innovation. 
+   He enjoys making complex ideas interesting, relatable, and easy-to-understand. 
+   He also cares deeply about improving people's lives and livelihoods. Matt lives in Pennsylvania. 
+  active: true
+  order: 600
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/matthew-goldberg-01586854
+      link_description: Matt's LinkedIn Account
+      fa_icon_name: linkedin
+- name: nick-blake
+  fname: Nick
+  lname: Blake
+  full_name: Nick Blake
+  short_name: N.Blake
+  profile_path: /company/about/#nick-blake
+  image: /img/people/nick-blake-800.png
+  image_description: Photo of Nick Blake
+  position: Product Design Intern
+  bio: >
+   Nick is a product designer with a background in Psychology and Human-Computer Interaction. 
+   He employs a holistic and collaborative approach to problem solving. Nick is currently a 
+   student at Washington University in St. Louis. He most recently worked with the USCIS as 
+   a 2020 Civic Digital Fellow. Nick lives in Missouri.
+  active: true
+  order: 610
+  socials:
+    - name: Twitter
+      link: https://twitter.com/nickisblake/
+      link_description: Nick's Twitter Account
+      fa_icon_name: twitter 
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nicholas-blake-3aa402178
+      link_description: Nick's LinkedIn Account
+      fa_icon_name: linkedin
+- name: bob-zhao
+  fname: Bob
+  lname: Zhao
+  full_name: Bob Zhao
+  short_name: B. Zhao
+  profile_path: /company/about/#bob-zhao
+  image: /img/people/bob-zhao-800.png
+  image_description: Photo of Bob Zhao
+  position: Software Engineering Intern
+  bio: >
+   Bob's a software engineering intern who's excited to continue applying his technology skillset 
+   to public interest problems. As a Civic Digital Fellow at the NIH's Summer 2020 cohort, a previous 
+   Summer Fellow at the Lab@OPM, and a member of WashU's Design for America chapter, he caught the 
+   civic tech bug early and has kept coming back for more. He is a master's student in computer 
+   science at Washington University in St. Louis and hopes to continue growing as an engineer
+   solving large-scale problems.
+  active: true
+  order: 620
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/bob-z-1901/
+      link_description: Bob's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/fzhao99
+      link_description: Bob's GitHub Account
+      fa_icon_name: github
+- name: ashton-tu
+  fname: Ashton
+  lname: Tu
+  full_name: Ashton Tu
+  short_name: A. Tu
+  profile_path: /company/about/#ashton-tu
+  image: /img/people/ashton-tu-800.png
+  image_description: Photo of Ashton Tu
+  position: Product Design Apprentice
+  bio: >
+   Ashton's a product design apprentice. As a 2020 Civic Digital Fellow with the General Services 
+   Administration, Ashton discovered her passion for civic technology. She recently graduated from 
+   the University of Southern California with a degree in Media Arts. Ashton lives in California. 
+  active: true
+  order: 630
+  socials: 
+    - name: Twitter
+      link: https://twitter.com/ashvtu
+      link_description: Ashton's Twitter Account
+      fa_icon_name: twitter  
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/ashton-tu
+      link_description: Ashton's LinkedIn Account
+      fa_icon_name: linkedin
+- name: andrew-lloyd
+  fname: Andrew
+  lname: Lloyd
+  full_name: Andrew Lloyd
+  short_name: A. Lloyd
+  profile_path: /company/about/#andrew-lloyd
+  image: /img/people/andrew-lloyd-800.png
+  image_description: Photo of Andrew Lloyd
+  position: Software Engineer
+  bio: >
+   Andrew is a software professional with 7+ years of engineering and DevOps experience and 
+   over 15 years in the DoD as an Air Force service member. He has a passion for learning and 
+   a strong sense of curiosity for how things work. He enjoys building CI solutions, automation 
+   tools, and process improvement all with the goal of improving the developer experience.
+  active: false
+  order: 640
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/andrewmarklloyd/
+      link_description: Andrew's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/andrewmarklloyd
+      link_description: Andrew's GitHub Account
+      fa_icon_name: github
