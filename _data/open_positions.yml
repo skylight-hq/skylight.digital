@@ -10,58 +10,48 @@
 # Research & Design, Product & Delivery, Engineering, Data,
 # Procurement, Transformation, Business Strategy & Operations
 
-- title: Product Manager
-  url: https://skylight.workable.com/jobs/1083508
-  category: Product & Delivery
-  location: Remote
-  order: 10
-- title: Product Designer
-  url: https://skylight.workable.com/jobs/1128366
-  category: Research & Design
-  location: Remote
-  order: 20
-- title: Content Strategist
-  url: https://apply.workable.com/skylight/j/ECC220A063/
-  category: Research & Design
-  location: Remote
-  order: 30
 - title: Sofware Engineer
   url: https://skylight.workable.com/jobs/1083190
   category: Engineering
   location: Remote
-  order: 40
-- title: Administrative Assistant
-  url: https://apply.workable.com/skylight/j/A990F0E5FE/
-  category: Business Strategy & Operations
-  location: Sarasota, FL
-  order: 50
-- title: Software Engineer Intern
-  url: https://apply.workable.com/skylight/j/E92D7D4AB2/
-  category: Engineering
-  location: Remote
-  order: 70
-- title: Product Designer Intern
-  url: https://apply.workable.com/skylight/j/ECC895798D/
-  category: Research & Design
-  location: Remote
-  order: 80
-- title: Content Strategist Intern
-  url: https://apply.workable.com/skylight/j/68DA152865/
-  category: Research & Design
-  location: Remote
-  order: 90
-- title: UX Researcher
-  url: https://apply.workable.com/skylight/j/681D1CD9D5/
-  category: Research & Design
-  location: Remote
-  order: 100
+  order: 10
 - title: DevOps Engineer
   url: https://apply.workable.com/skylight/j/049D09E1D3/
   category: Engineering
   location: Remote
-  order: 110
+  order: 20
+- title: Mobile Software Engineer
+  url: https://apply.workable.com/skylight/j/CC7A121F25/
+  category: Engineering
+  location: Remote
+  order: 30
+- title: Product Designer
+  url: https://skylight.workable.com/jobs/1128366
+  category: Research & Design
+  location: Remote
+  order: 40
+- title: Product Manager
+  url: https://skylight.workable.com/jobs/1083508
+  category: Product & Delivery
+  location: Remote
+  order: 50
+- title: Content Strategist
+  url: https://apply.workable.com/skylight/j/ECC220A063/
+  category: Research & Design
+  location: Remote
+  order: 60
+- title: Content Strategist Intern
+  url: https://apply.workable.com/skylight/j/68DA152865/
+  category: Research & Design
+  location: Remote
+  order: 70
+- title: UX Researcher
+  url: https://apply.workable.com/skylight/j/681D1CD9D5/
+  category: Research & Design
+  location: Remote
+  order: 80
 - title: VP of Training Services
   url: https://apply.workable.com/skylight/j/FB764D28B5/
   category: Business Strategy & Operations
   location: Remote
-  order: 120
+  order: 90
