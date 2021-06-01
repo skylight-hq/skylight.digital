@@ -1,85 +1,124 @@
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-  <meta name="versionNum" content="523" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="versionNum" content="523">
 
   {% if page.skip_index %}
-  <meta name="robots" content="noindex, follow" />
-  {% endif %} {% assign site_url = site.url %} {% assign site_name = 'Skylight'
-  %} {% assign site_title = site.title | xml_escape %} {% assign
-  site_description = site.description | xml_escape %} {% assign site_image =
-  site_url | append: '/img/logo-social.png' %} {% assign site_image_description
-  = 'Skylight Logo' %} {% assign site_keywords = site.keywords %} {% assign
-  site_published = site.published %} {% assign site_modified = site.modified %}
-  {% assign site_logo = site_url | append: '/img/logo.png' %} {% assign
-  site_logo_height = '200' %} {% assign site_logo_width = '50' %} {% assign
-  twitter_username = site.twitter.username %} {% assign twitter_url =
-  site.twitter_url %} {% assign github_url = site.github_repo_url %} {% assign
-  linkedin_url = site.linkedin_url %} {% assign page_url = page.url %} {% if
-  page.content_type == 'Toolkit' %} {% assign title = page.title %} {% elsif
-  page.title %} {% assign title = site_title | append: ' | ' | append:
-  (page.title | xml_escape) %} {% else %} {% assign title = site_title %} {%
-  endif %} {% if page.excerpt and page.layout != 'policy' %} {% assign
-  description = page.excerpt | strip_html | xml_escape %} {% elsif
-  page.description %} {% assign description = page.description | xml_escape %}
-  {% else %} {% assign description = site_description %} {% endif %} {% if
-  page.image and page.image_description %} {% assign image = site_url | append:
-  page.image %} {% assign image_description = page.image_description %} {% else
-  %} {% assign image = site_image %} {% assign image_description =
-  site_image_description %} {% endif %} {% if image contains ".svg" %} {% assign
-  image_test = image | replace: ".svg", ".png" %} {% for static_file in
-  site.static_files %} {% assign static_path = site_url | append:
-  static_file.path %} {% if image_test == static_path %} {% assign image =
-  image_test %} {% endif %} {% endfor %} {% endif %} {% if page.tags.size > 0 %}
-  {% assign keywords = page.tags | join: ', ' %} {% else %} {% assign keywords =
-  site_keywords %} {% endif %} {% if page.authors.size > 0 %} {% assign authors
-  = page.authors %} {% else %} {% assign authors = site_name %} {% endif %} {%
-  if page.date_published and page.date %} {% assign date_published =
-  page.date_published %} {% assign date_modified = page.date | date: '%Y-%m-%d'
-  %} {% else %} {% assign date_published = site_published %} {% assign
-  date_modified = site_modified %} {% endif %} {% assign content_type =
-  page.content_type %} {% assign canonical_url = site_url | append: page_url %}
-
-  <title>{{title}}</title>
-  <meta name="description" content="{{description}}" />
-  <meta name="keywords" content="{{keywords}}" />
-  <meta name="image" content="{{image}}" />
-
-  {% if authors.first %}
-  <meta name="author" content="{{authors | array_to_sentence_string}}" />
-  {% else %}
-  <meta name="author" content="{{authors}}" />
+    <meta name="robots" content="noindex, follow">
   {% endif %}
 
-  <meta name="date" content="{{date_published}}" />
-  <link rel="image_src" href="{{image}}" />
-  <link rel="canonical" href="{{canonical_url}}" />
+  {% assign site_url = site.url %}
+  {% assign site_name = 'Skylight' %}
+  {% assign site_title = site.title | xml_escape %}
+  {% assign site_description = site.description | xml_escape %}
+  {% assign site_image = site_url | append: '/img/logo-social.png' %}
+  {% assign site_image_description = 'Skylight Logo' %}
+  {% assign site_keywords = site.keywords %}
+  {% assign site_published = site.published %}
+  {% assign site_modified = site.modified %}
+  {% assign site_logo = site_url | append: '/img/logo.png' %}
+  {% assign site_logo_height = '200' %}
+  {% assign site_logo_width = '50' %}
 
-  <meta property="og:site_name" content="{{site_name}}" />
-  <meta property="og:title" content="{{title}}" />
-  <meta property="og:description" content="{{description}}" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{canonical_url}}" />
-  <meta property="og:image" content="{{image}}" />
+  {% assign twitter_username = site.twitter.username %}
+  {% assign twitter_url = site.twitter_url %}
+  {% assign github_url = site.github_repo_url %}
+  {% assign linkedin_url = site.linkedin_url %}
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:creator" content="@{{twitter_username}}" />
-  <meta name="twitter:site" content="@{{twitter_username}}" />
-  <meta name="twitter:title" content="{{title}}" />
-  <meta name="twitter:description" content="{{description}}" />
-  <meta name="twitter:image" content="{{image}}" />
-  <meta name="twitter:image:alt" content="{{image_description}}" />
+  {% assign page_url = page.url %}
+
+  {% if page.content_type == 'Toolkit' %}
+    {% assign title = page.title %}
+  {% elsif page.title %}
+    {% assign title = site_title | append: ' | ' | append: (page.title | xml_escape) %}
+  {% else %}
+    {% assign title = site_title %}
+  {% endif %}
+  {% if page.excerpt and page.layout != 'policy' %}
+    {% assign description = page.excerpt | strip_html | xml_escape %}
+  {% elsif page.description %}
+    {% assign description = page.description | xml_escape %}
+  {% else %}
+    {% assign description = site_description %}
+  {% endif %}
+
+  {% if page.image and page.image_description %}
+    {% assign image = site_url | append: page.image %}
+    {% assign image_description = page.image_description %}
+  {% else %}
+    {% assign image = site_image %}
+    {% assign image_description = site_image_description %}
+  {% endif %}
+
+  {% if image contains ".svg" %}
+    {% assign image_test = image | replace: ".svg", ".png" %}
+    {% for static_file in site.static_files %}
+      {% assign static_path = site_url | append: static_file.path %}
+      {% if image_test == static_path  %}
+        {% assign image = image_test %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% if page.tags.size > 0 %}
+    {% assign keywords = page.tags | join: ', ' %}
+  {% else %}
+    {% assign keywords = site_keywords %}
+  {% endif %}
+
+  {% if page.authors.size > 0 %}
+    {% assign authors = page.authors %}
+  {% else %}
+    {% assign authors = site_name %}
+  {% endif %}
+
+  {% if page.date_published and page.date %}
+    {% assign date_published = page.date_published %}
+    {% assign date_modified = page.date | date: '%Y-%m-%d' %}
+  {% else %}
+    {% assign date_published = site_published %}
+    {% assign date_modified = site_modified %}
+  {% endif %}
+
+  {% assign content_type = page.content_type %}
+  {% assign canonical_url = site_url | append: page_url %}
+
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="keywords" content="{{keywords}}">
+  <meta name="image" content="{{image}}">
+
+  {% if authors.first %}
+    <meta name="author" content="{{authors | array_to_sentence_string}}">
+  {% else %}
+    <meta name="author" content="{{authors}}">
+  {% endif %}
+
+  <meta name="date" content="{{date_published}}">
+  <link rel="image_src" href="{{image}}">
+  <link rel="canonical" href="{{canonical_url}}">
+
+  <meta property="og:site_name" content="{{site_name}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{canonical_url}}">
+  <meta property="og:image" content="{{image}}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@{{twitter_username}}">
+  <meta name="twitter:site" content="@{{twitter_username}}">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{image}}">
+  <meta name="twitter:image:alt" content="{{image_description}}">
 
   <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
+    { "@context": "http://schema.org",
       "@type": "WebSite",
       "url": "{{site_url}}",
       "name": "{{site_title}}",
@@ -91,118 +130,123 @@
   </script>
 
   <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "name": "{{site_name}}",
-      "legalName": "Skylight Inc.",
-      "url": "{{site_url}}",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{site_logo}}",
-        "height": "{{site_logo_height}}",
-        "width": "{{site_logo_width}}"
-      },
-      "foundingDate": "2017",
-      "founders": [{ "@type": "Person", "name": "Chris Cairns" }],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Sarasota",
-        "addressRegion": "FL",
-        "postalCode": "34236",
-        "addressCountry": "USA"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "sales",
-        "telephone": "267-228-1390",
-        "email": "hello@skylight.digital"
-      },
-      "sameAs": ["{{twitter_url}}", "{{github_url}}", "{{linkedin_url}}"]
+    { "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "{{site_name}}",
+     "legalName": "Skylight Inc.",
+     "url": "{{site_url}}",
+     "logo": {
+       "@type": "ImageObject",
+       "url": "{{site_logo}}",
+       "height": "{{site_logo_height}}",
+       "width": "{{site_logo_width}}"
+     },
+     "foundingDate": "2017",
+     "founders": [
+        { "@type": "Person", "name": "Chris Cairns" }
+      ],
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Sarasota",
+       "addressRegion": "FL",
+       "postalCode": "34236",
+       "addressCountry": "USA"
+     },
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "sales",
+       "telephone": "267-228-1390",
+       "email": "hello@skylight.digital"
+     },
+     "sameAs": [
+       "{{twitter_url}}",
+       "{{github_url}}",
+       "{{linkedin_url}}"
+     ]
     }
   </script>
 
-  {% if content_type == 'BlogPosting' %} {% assign wordcount = page.content |
-  number_of_words %} {% assign body = page.content | xml_escape | strip_newlines
-  %} {% assign contributors = page.contributors %}
+  {% if content_type == 'BlogPosting' %}
+    {% assign wordcount = page.content | number_of_words %}
+    {% assign body = page.content | xml_escape | strip_newlines %}
+    {% assign contributors = page.contributors %}
 
-  <script type="application/ld+json">
-    { "@context": "http://schema.org",
-      "@type": "{{content_type}}",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{canonical_url}}"
-      },
-      "headline": "{{title}}",
-      "image": {
-        "@type": "ImageObject",
-        "url": "{{image}}",
-        "height": "400",
-        "width": "400"
-      },
-      "author": [
-        {% for author in authors %}
-          { "@type": "Person", "name": "{{author}}" }{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ],
-      {% if contributors %}
-        "contributor": [
-          {% for contributor in contributors %}
-            { "@type": "Person", "name": "{{contributor}}" }{% unless forloop.last %},{% endunless %}
+    <script type="application/ld+json">
+      { "@context": "http://schema.org",
+        "@type": "{{content_type}}",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{canonical_url}}"
+        },
+        "headline": "{{title}}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{image}}",
+          "height": "400",
+          "width": "400"
+        },
+        "author": [
+          {% for author in authors %}
+            { "@type": "Person", "name": "{{author}}" }{% unless forloop.last %},{% endunless %}
           {% endfor %}
         ],
-      {% endif %}
-      "keywords": "{{keywords}}",
-      "wordcount": "{{wordcount}}",
-      "publisher": {
-        "@type": "Organization",
-        "name": "{{site_name}}",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "{{site_logo}}",
-          "height": "{{site_logo_height}}",
-          "width": "{{site_logo_width}}"
-        }
-      },
-      "datePublished": "{{date_published}}",
-      "dateModified": "{{date_modified}}",
-      "description": "{{description}}",
-      "articleBody": "{{body}}"
-    }
-  </script>
+        {% if contributors %}
+          "contributor": [
+            {% for contributor in contributors %}
+              { "@type": "Person", "name": "{{contributor}}" }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+        {% endif %}
+        "keywords": "{{keywords}}",
+        "wordcount": "{{wordcount}}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{site_name}}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{site_logo}}",
+            "height": "{{site_logo_height}}",
+            "width": "{{site_logo_width}}"
+          }
+        },
+        "datePublished": "{{date_published}}",
+        "dateModified": "{{date_modified}}",
+        "description": "{{description}}",
+        "articleBody": "{{body}}"
+      }
+    </script>
   {% else %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebPage",
-      "url": "{{canonical_url}}",
-      "name": "{{title}}",
-      "description": "{{description}}",
-      "keywords": "{{keywords}}"
-    }
-  </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "url": "{{canonical_url}}",
+        "name": "{{title}}",
+        "description": "{{description}}",
+        "keywords": "{{keywords}}"
+      }
+    </script>
   {% endif %}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba" />
-  <meta name="apple-mobile-web-app-title" content="Skylight" />
-  <meta name="application-name" content="Skylight" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="theme-color" content="#ffffff" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba">
+  <meta name="apple-mobile-web-app-title" content="Skylight">
+  <meta name="application-name" content="Skylight">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl
-  }}?{{site.time | date: '%s%N'}}" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;1,400&family=Roboto+Mono:wght@400;700&display=swap"
     rel="stylesheet"
   />
   {% if page.preload %}
-  <link rel="preload" href="/img/{{ page.preload }}" as="image" />
+    <link rel="preload" href="/img/{{ page.preload }}" as="image">
   {% endif %}
   <script src="/js/jquery.slim.min.js"></script>
   <script src="/js/tether.min.js"></script>
@@ -211,24 +255,17 @@
   <script src="/js/pagination.min.js"></script>
   <script src="/js/script.js?v=7"></script>
 
-  {% assign _scripts = '' | split: '|' | push: _site_scripts | push:
-  layout.scripts | push: page.scripts | uniq %} {% for _list in _scripts %} {%
-  for _script in _list %} {% assign _src = _script.src | default: _script %}
-  <script
-    src="{{ _src | replace: _async_marker, '' | relative_url }}"
-    {%
-    if
-    _script.async
-    or
-    _src
-    contains
-    _async_marker
-    %}
-    async{%
-    endif
-    %}
-  ></script>
-  {% endfor %} {% endfor %}
+  {% assign _scripts = '' | split: '|'
+  | push: _site_scripts
+  | push: layout.scripts
+  | push: page.scripts
+  | uniq %}
+  {% for _list in _scripts %}
+    {% for _script in _list %}
+      {% assign _src = _script.src | default: _script %}
+        <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
+    {% endfor %}
+  {% endfor %}
 
   <!--[if lt IE 9]>
     <script src="/js/html5shiv.min.js"></script>
