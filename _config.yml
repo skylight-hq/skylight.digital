@@ -43,7 +43,7 @@ posts_min_common_tags: 2
 # Build settings
 markdown: kramdown
 kramdown:
-  smart_quotes: ["apos", "apos", "quot", "quot"]
+  smart_quotes: ['apos', 'apos', 'quot', 'quot']
 
 collections:
   projects:
@@ -103,10 +103,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-paginate-v2
+  - jekyll-image-size
 
 gems:
   - octopress-debugger
-
 ################################
 # For batch conversion of svgs
 ################################

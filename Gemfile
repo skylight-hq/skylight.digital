@@ -7,6 +7,7 @@ group :jekyll_plugins do
    gem 'jekyll-redirect-from'
    gem 'jekyll-paginate-v2'
    gem 'octopress-debugger'
+   gem "jekyll-image-size", "~> 1.2"
    # For batch conversion of images
    # gem 'jekyll-imagemagick', '~> 1.4'
 end
