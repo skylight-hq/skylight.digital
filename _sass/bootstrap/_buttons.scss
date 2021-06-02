@@ -174,7 +174,7 @@ fieldset[disabled] a.btn {
   @include button-size(
     $btn-padding-y-lg,
     $btn-padding-x-lg,
-    $font-size-lg,
+    $font-size-medium,
     $btn-border-radius-lg
   );
 }

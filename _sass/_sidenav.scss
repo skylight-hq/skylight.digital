@@ -53,6 +53,7 @@
 
   a {
     @extend %nav-link-decoration;
+    font-size: $font-size-small;
     border: none;
   }
 }
