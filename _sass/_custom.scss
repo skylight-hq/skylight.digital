@@ -5,13 +5,51 @@
 //
 
 // Brand colors
-$sk-red: darken(#df635c, 0%);
-$sk-blue-light: darken(#dceffa, 0%);
-$sk-blue: darken(#468fba, 0%);
-$sk-blue-dark: darken(#235384, 0%);
-$sk-green: darken(#5fa373, 0%);
-$sk-yellow: darken(#f4c55c, 0%);
-$sk-grey: #54565a;
+$blue-20: #dae9f1;
+$blue-40: #b5d2e3;
+$blue-60: #90bcd6;
+$blue-80: #6ba5c8;
+$blue-100: #468fba;
+$blue-200: #1d5392;
+$blue-300: #031a54;
+
+$green-20: #dfede3;
+$green-40: #bfdbc7;
+$green-60: #b3d3bc;
+$green-80: #99c5a6;
+$green-100: #80b690;
+$green-200: #609c70;
+$green-300: #418152;
+
+$red-20: #f9e0de;
+$red-40: #f2c1be;
+$red-60: #eca19d;
+$red-80: #e5827d;
+$red-100: #df635c;
+$red-200: #ba3932;
+
+$ochre-20: #fdf3de;
+$ochre-40: #fbe8be;
+$ochre-60: #f8dc9d;
+$ochre-80: #f6d17d;
+$ochre-100: #f4c55c;
+$ochre-200: #e99821;
+
+$gray-20: #ddddde;
+$gray-40: #bbbbbd;
+$gray-60: #989a9c;
+$gray-80: #76767b;
+$gray-100: #54565a;
+$gray-200: #37383b;
+$gray-300: #1c1d20;
+
+$sk-red: darken($red-100, 0%);
+$sk-blue-light: darken($blue-100, 0%);
+$sk-blue: darken($blue-200, 0%);
+$sk-blue-dark: darken($blue-300, 0%);
+$sk-green: darken($green-100, 0%);
+$sk-yellow: darken($ochre-100, 0%);
+$sk-grey: $gray-100;
 
 // Font sizes
 $font-size-xxxxx-large: 3rem;
@@ -35,31 +73,31 @@ $font-size-xxxx-small: 0.8rem;
 
 // Colors
 $white: #fff;
-$black: #0e0e0e;
+$black: $gray-300;
 
+$gray-lightest: $gray-20;
+$gray-lighter: $gray-40;
+$gray-light: $gray-80;
 $gray: $sk-grey;
-$gray-dark: darken($gray, 10%);
-$gray-light: lighten($gray, 10%);
-$gray-lighter: lighten($gray, 30%);
-$gray-lightest: lighten($gray, 50%);
+$gray-dark: $gray-200;
 
-$brand-primary-lightest: $sk-blue-light;
-$brand-primary-light: $sk-blue;
-$brand-primary: $sk-blue-dark;
+$brand-primary-lightest: $blue-40;
+$brand-primary-light: $sk-blue-light;
+$brand-primary: $sk-blue;
 $brand-primary-dark: $sk-blue-dark;
 $brand-success: $sk-green;
-$brand-info: $sk-blue;
+$brand-info: $sk-blue-light;
 $brand-warning: $sk-yellow;
 $brand-danger: $sk-red;
-$brand-inverse: $gray-dark;
-$brand-gray-light: #f4f4f5;
+$brand-inverse: $gray-200;
+$brand-gray-light: $gray-20;
 
 // Body
-$body-color: $gray-dark;
+$body-color: $gray-300;
 
 // Links
-$link-color: $brand-primary-dark;
-$link-hover-color: darken($link-color, 15%) !default;
+$link-color: $brand-primary;
+$link-hover-color: $brand-primary-dark;
 $link-hover-decoration: none;
 
 // Fonts
