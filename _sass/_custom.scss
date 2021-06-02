@@ -4,79 +4,6 @@
 //
 //
 
-// Font faces
-@font-face {
-  font-family: 'Geomanist';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/geomanist-regular-webfont.eot');
-  src: url('/fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/geomanist-regular-webfont.woff2') format('woff2'),
-       url('/fonts/geomanist-regular-webfont.woff') format('woff'),
-       url('/fonts/geomanist-regular-webfont.ttf') format('truetype'),
-       url('/fonts/geomanist-regular-webfont.svg#geomanist_regularregular') format('svg');
-}
-
-@font-face {
-  font-family: 'Geomanist';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/fonts/geomanist-medium-webfont.eot');
-  src: url('/fonts/geomanist-medium-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/geomanist-medium-webfont.woff2') format('woff2'),
-       url('/fonts/geomanist-medium-webfont.woff') format('woff'),
-       url('/fonts/geomanist-medium-webfont.ttf') format('truetype'),
-       url('/fonts/geomanist-medium-webfont.svg#geomanistmedium') format('svg');
-}
-
-@font-face {
-  font-family: 'Geomanist';
-  font-style: normal;
-  font-weight: 100;
-  src: url('/fonts/geomanist-light-webfont.eot');
-  src: url('/fonts/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/geomanist-light-webfont.woff2') format('woff2'),
-       url('/fonts/geomanist-light-webfont.woff') format('woff'),
-       url('/fonts/geomanist-light-webfont.ttf') format('truetype'),
-       url('/fonts/geomanist-light-webfont.svg#geomanistlight') format('svg');
-}
-
-@font-face {
-  font-family: 'Geomanist';
-  font-style: italic;
-  font-weight: 400;
-  src: url('/fonts/geomanist-regular-italic-webfont.eot');
-  src: url('/fonts/geomanist-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/geomanist-regular-italic-webfont.woff2') format('woff2'),
-       url('/fonts/geomanist-regular-italic-webfont.woff') format('woff'),
-       url('/fonts/geomanist-regular-italic-webfont.ttf') format('truetype'),
-       url('/fonts/geomanist-regular-italic-webfont.svg#geomanistregular_italic') format('svg');
-}
-
-@font-face {
-  font-family: 'Geomanist';
-  font-style: italic;
-  font-weight: 700;
-  src: url('/fonts/geomanist-medium-italic-webfont.eot');
-  src: url('/fonts/geomanist-medium-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/geomanist-medium-italic-webfont.woff2') format('woff2'),
-       url('/fonts/geomanist-medium-italic-webfont.woff') format('woff'),
-       url('/fonts/geomanist-medium-italic-webfont.ttf') format('truetype'),
-       url('/fonts/geomanist-medium-italic-webfont.svg#geomanistmedium_italic') format('svg');
-}
-
-@font-face {
-  font-family: 'Geomanist';
-  font-style: italic;
-  font-weight: 100;
-  src: url('/fonts/geomanist-light-italic-webfont.eot');
-  src: url('/fonts/geomanist-light-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/geomanist-light-italic-webfont.woff2') format('woff2'),
-       url('/fonts/geomanist-light-italic-webfont.woff') format('woff'),
-       url('/fonts/geomanist-light-italic-webfont.ttf') format('truetype'),
-       url('/fonts/geomanist-light-italic-webfont.svg#geomanistlight_italic') format('svg');
-}
-
 // Brand colors
 $sk-red: darken(#df635c, 0%);
 $sk-blue-light: darken(#dceffa, 0%);
@@ -95,10 +22,10 @@ $font-size-x-large: 1.5rem;
 $font-size-large: 1.25rem;
 $font-size-medium: 1.125rem;
 $font-size-small: 1rem;
-$font-size-x-small: .95rem;
-$font-size-xx-small: .9rem;
-$font-size-xxx-small: .85rem;
-$font-size-xxxx-small: .8rem;
+$font-size-x-small: 0.95rem;
+$font-size-xx-small: 0.9rem;
+$font-size-xxx-small: 0.85rem;
+$font-size-xxxx-small: 0.8rem;
 
 // Bootstrap overrides
 //
@@ -136,10 +63,15 @@ $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none;
 
 // Fonts
-// $font-family-sans-serif: 'Geomanist', sans-serif;
-$font-family-system: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+$font-family-system: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+  Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+$font-family-mono-stack: Consolas, "Andale Mono WT", "Andale Mono",
+  "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+  "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
+  "Courier New", Courier, monospace;
 
-$font-family-sans-serif: 'Libre Franklin', $font-family-system;
+$font-family-sans-serif: "Libre Franklin", $font-family-system;
+$font-family-mono: "Roboto Mono", $font-family-mono-stack;
 
 $font-size-base: $font-size-medium;
 $font-size-lg: $font-size-large;
@@ -204,7 +136,7 @@ $tooltip-bg: $brand-primary;
 //
 
 // Colors
-$brand-primary-muted: rgba($brand-primary, .7);
+$brand-primary-muted: rgba($brand-primary, 0.7);
 
 // Links
 $text-link-color: $link-color;
@@ -224,7 +156,11 @@ $notice-bar-link-color: $white;
 $notice-bar-link-hover-color: lighten($brand-primary, 40%);
 $notice-bar-link-border: none;
 $notice-bar-link-border-hover: none;
-$notice-bar-bg-color: linear-gradient(90deg, $brand-primary, darken($brand-primary, 15%));
+$notice-bar-bg-color: linear-gradient(
+  90deg,
+  $brand-primary,
+  darken($brand-primary, 15%)
+);
 
 // Main nav
 $nav-brand-width-sm-down: 150px;
@@ -266,7 +202,7 @@ $btn-form-border: $btn-form-color;
 $btn-form-active-color: $brand-primary;
 
 // Cards
-$card-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+$card-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 
 // Modals
 $modal-header-color: $brand-primary;
@@ -307,7 +243,8 @@ $post-header-footer-color: $gray-light;
 $post-header-footer-link-color: $brand-primary;
 $post-header-footer-link-hover-color: $link-hover-color;
 $post-header-footer-link-border: 1px dotted $post-header-footer-link-color;
-$post-header-footer-link-border-hover: 1px solid $post-header-footer-link-hover-color;
+$post-header-footer-link-border-hover: 1px solid
+  $post-header-footer-link-hover-color;
 
 $btn-share-color: $brand-primary;
 $btn-share-bg: $white;
