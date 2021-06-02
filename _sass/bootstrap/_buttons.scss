@@ -6,6 +6,7 @@
 
 .btn {
   display: inline-block;
+  font-family: $font-family-mono;
   font-weight: $btn-font-weight;
   line-height: $btn-line-height;
   text-align: center;
@@ -13,7 +14,12 @@
   vertical-align: middle;
   user-select: none;
   border: $input-btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-border-radius);
+  @include button-size(
+    $btn-padding-y,
+    $btn-padding-x,
+    $font-size-base,
+    $btn-border-radius
+  );
   @include transition($btn-transition);
 
   // Share hover and focus styles
@@ -30,7 +36,7 @@
   &.disabled,
   &:disabled {
     cursor: $cursor-disabled;
-    opacity: .65;
+    opacity: 0.65;
     @include box-shadow(none);
   }
 
@@ -47,31 +53,54 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
-
 //
 // Alternate buttons
 //
 
 .btn-primary {
-  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  @include button-variant(
+    $btn-primary-color,
+    $btn-primary-bg,
+    $btn-primary-border
+  );
 }
 .btn-primary-dark {
-  @include button-variant($btn-primary-dark-color, $btn-primary-dark-bg, $btn-primary-dark-border);
+  @include button-variant(
+    $btn-primary-dark-color,
+    $btn-primary-dark-bg,
+    $btn-primary-dark-border
+  );
 }
 .btn-secondary {
-  @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
+  @include button-variant(
+    $btn-secondary-color,
+    $btn-secondary-bg,
+    $btn-secondary-border
+  );
 }
 .btn-info {
   @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
 }
 .btn-success {
-  @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
+  @include button-variant(
+    $btn-success-color,
+    $btn-success-bg,
+    $btn-success-border
+  );
 }
 .btn-warning {
-  @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
+  @include button-variant(
+    $btn-warning-color,
+    $btn-warning-bg,
+    $btn-warning-border
+  );
 }
 .btn-danger {
-  @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
+  @include button-variant(
+    $btn-danger-color,
+    $btn-danger-bg,
+    $btn-danger-border
+  );
 }
 
 // Remove all backgrounds
@@ -136,18 +165,27 @@ fieldset[disabled] a.btn {
   }
 }
 
-
 //
 // Button Sizes
 //
 
 .btn-lg {
   // line-height: ensure even-numbered height of button next to large input
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $btn-border-radius-lg);
+  @include button-size(
+    $btn-padding-y-lg,
+    $btn-padding-x-lg,
+    $font-size-lg,
+    $btn-border-radius-lg
+  );
 }
 .btn-sm {
   // line-height: ensure proper height of button next to small input
-  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $btn-border-radius-sm);
+  @include button-size(
+    $btn-padding-y-sm,
+    $btn-padding-x-sm,
+    $font-size-sm,
+    $btn-border-radius-sm
+  );
 }
 
 //
@@ -157,7 +195,6 @@ fieldset[disabled] a.btn {
 .btn-width-md {
   min-width: 185px;
 }
-
 
 //
 // Block button
