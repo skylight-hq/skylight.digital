@@ -100,4 +100,4 @@ In our effort to produce a handbook, we're eager to continue speaking with other
 
 We know these aren't easy times and are super appreciative of any time taken to share your experiences. Our goal is to continue our research to finalize and distribute the handbook by early 2021. As part of any conversations we have, we'd be happy to share more about our work and learnings thus far, and will be sure to follow up with any of your needs or other ways we can help.
 
-If you or someone you know is interested in getting in touch to talk with us, please contact us at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>. We look forward to learning from you all and to sharing our handbook in the coming months!
+If you or someone you know is interested in getting in touch to talk with us, please Contact us at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>. We look forward to learning from you all and to sharing our handbook in the coming months!
