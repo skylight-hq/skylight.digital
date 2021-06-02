@@ -98,6 +98,7 @@
   }
 
   &[aria-current] {
+    color: $brand-primary;
     font-weight: 700;
   }
 }

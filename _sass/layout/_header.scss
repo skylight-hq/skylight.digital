@@ -134,6 +134,7 @@
 
   &[aria-current] {
     span {
+      color: $brand-primary;
       font-weight: 700;
     }
   }
@@ -166,7 +167,6 @@
   &:focus,
   &:hover {
     color: $brand-primary;
-    font-weight: bold;
   }
 }
 
