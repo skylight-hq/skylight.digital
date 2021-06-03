@@ -54,6 +54,11 @@
     @extend %btn-icon-right;
     @extend %btn-lg;
     @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: $white;
+    }
   }
 }
 
