@@ -94,6 +94,11 @@ fieldset[disabled] a.btn {
     $btn-warning-bg,
     $btn-warning-border
   );
+  border: none !important;
+
+  &:hover {
+    background-color: $ochre-60;
+  }
 }
 .btn-danger {
   @include button-variant(
@@ -109,6 +114,11 @@ fieldset[disabled] a.btn {
 }
 .btn-outline-secondary {
   @include button-outline-variant($btn-secondary-border);
+
+  &:hover {
+    background-color: $gray-1;
+    color: $brand-primary;
+  }
 }
 .btn-outline-info {
   @include button-outline-variant($btn-info-bg);
