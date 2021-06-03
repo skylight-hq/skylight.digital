@@ -27,9 +27,13 @@
 }
 
 .footer-brandmark {
-  @include brandmark($width: $footer-brand-width, $height: $footer-brand-height,
-  $width-sm-down: $footer-brand-width-sm-down, $height-sm-down: $footer-brand-height-sm-down,
-  $filename: 'logo');
+  @include brandmark(
+    $width: $footer-brand-width,
+    $height: $footer-brand-height,
+    $width-sm-down: $footer-brand-width-sm-down,
+    $height-sm-down: $footer-brand-height-sm-down,
+    $filename: "logo"
+  );
 }
 
 .footer-link-groups {
@@ -54,7 +58,10 @@
 }
 
 .footer-links {
-  h4, h2 {
+  font-family: $font-family-mono;
+
+  h4,
+  h2 {
     @extend %mb-3;
     font-size: $font-size-medium;
   }
@@ -70,8 +77,12 @@
       }
 
       a {
-        @include link-decoration($footer-link-color, $footer-link-hover-color,
-          $footer-link-border, $footer-link-border-hover);
+        @include link-decoration(
+          $footer-link-color,
+          $footer-link-hover-color,
+          $footer-link-border,
+          $footer-link-border-hover
+        );
       }
     }
   }
