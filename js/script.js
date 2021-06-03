@@ -49,10 +49,6 @@ $(function() {
   });
 }); // Form icons
 
-$(function(){
-   $('body').scrollspy({target: "#sidenav", offset: 10});
-})
-
 $(function() {
   $(".form-social-btn-icons button").click(function() {
     if (!$(".can-touch").length) {
