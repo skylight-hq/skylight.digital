@@ -150,7 +150,7 @@
   @include hover {
     background-color: $active-color;
     border-color: $active-color;
-    color: $background;
+    background-color: $gray-1;
   }
 
   &:focus {
