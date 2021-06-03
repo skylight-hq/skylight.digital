@@ -82,22 +82,6 @@
   font-size: $font-size-x-large;
   line-height: 1.25;
 
-  &::before {
-    @extend %align-middle;
-    content: "\201C";
-    font-size: $font-size-xxx-large;
-    line-height: 0.1;
-    opacity: 0.5;
-  }
-
-  &::after {
-    @extend %align-middle;
-    content: "\201D";
-    font-size: $font-size-xxx-large;
-    line-height: 0.1;
-    opacity: 0.5;
-  }
-
   @include media-breakpoint-up(md) {
     font-size: $font-size-xxxx-large;
 
@@ -128,6 +112,12 @@
   @extend %d-block;
 }
 
-.testimonial-author::before {
-  content: "— ";
+.testimonial-author {
+  font-weight: bold;
+}
+
+.page-subfooter__divider {
+  background-color: $white;
+  height: 4px;
+  width: 111px;
 }
