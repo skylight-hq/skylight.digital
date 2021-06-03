@@ -94,10 +94,10 @@ fieldset[disabled] a.btn {
     $btn-warning-bg,
     $btn-warning-border
   );
-  border: none !important;
 
   &:hover {
     background-color: $ochre-60;
+    border-color: $ochre-60;
   }
 }
 .btn-danger {
