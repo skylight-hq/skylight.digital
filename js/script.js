@@ -49,6 +49,10 @@ $(function() {
   });
 }); // Form icons
 
+$(function(){
+   $('body').scrollspy({target: "#sidenav", offset: 10});
+})
+
 $(function() {
   $(".form-social-btn-icons button").click(function() {
     if (!$(".can-touch").length) {
@@ -113,6 +117,7 @@ $(function() {
 
 $(function() {
   if (
+    location.pathname === "/work/services/training/ditap-executive/" ||
     location.pathname === "/work/services/training/ditap/" ||
     location.pathname === "/careers/join/"
   ) {
@@ -122,7 +127,7 @@ $(function() {
       var currentHeading = null;
 
       headings.each(function(index, element) {
-        if (window.pageYOffset >= $(element).offset().top) {
+        if (window.pageYOffset >= $(element).offset().top - 10) {
           currentHeading = element;
         }
       });
