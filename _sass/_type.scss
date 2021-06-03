@@ -3,7 +3,7 @@
 }
 
 .header-page {
-  color: $black;
+  color: $brand-primary;
 }
 
 .header-display-2 {
@@ -45,7 +45,7 @@ h1 {
   // }
 
   .header-display-1 {
-    font-size: $header-display-1 * .60;
+    font-size: $header-display-1 * 0.6;
   }
 
   // .header-display-2 {
@@ -75,7 +75,7 @@ h1 {
   // }
 
   .header-display-1 {
-    font-size: $header-display-1 * .80;
+    font-size: $header-display-1 * 0.8;
   }
 
   // .header-display-2 {
@@ -103,7 +103,7 @@ h1 {
 
 @mixin hollow-list {
   li::before {
-    content: '\25E6';
+    content: "\25E6";
     font-size: $font-size-small;
     margin-top: 1px;
 
@@ -132,7 +132,7 @@ h1 {
   ul {
     li::before {
       @extend %rounded-circle;
-      content: '\2022';
+      content: "\2022";
       position: absolute;
     }
 
@@ -145,7 +145,7 @@ h1 {
     counter-reset: item;
 
     & > li::before {
-      content: counter(item) '. ';
+      content: counter(item) ". ";
       counter-increment: item;
     }
 
@@ -163,7 +163,7 @@ h1 {
 .list-checklist {
   li {
     &::before {
-      content: '□' !important;
+      content: "□" !important;
     }
   }
 
@@ -204,12 +204,22 @@ h1 {
 .prose {
   @include list;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-bottom: 0.5em;
   }
 
   * + {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin-top: 1.5em;
     }
   }

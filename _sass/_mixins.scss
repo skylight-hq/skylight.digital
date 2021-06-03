@@ -10,12 +10,16 @@
 }
 
 // Brand
-@mixin brandmark($width: $nav-brand-width, $height: $nav-brand-height,
-  $width-sm-down: $nav-brand-width-sm-down, $height-sm-down: $nav-brand-height-sm-down,
-  $filename: 'logo') {
+@mixin brandmark(
+  $width: $nav-brand-width,
+  $height: $nav-brand-height,
+  $width-sm-down: $nav-brand-width-sm-down,
+  $height-sm-down: $nav-brand-height-sm-down,
+  $filename: "logo"
+) {
   @extend %d-block;
-  background: url('/img/#{$filename}.png') no-repeat;
-  background: url('/img/#{$filename}.svg') no-repeat;
+  background: url("/img/#{$filename}.png") no-repeat;
+  background: url("/img/#{$filename}.svg") no-repeat;
   height: $height;
   width: $width;
   background-size: contain;
@@ -36,29 +40,73 @@
 }
 
 // Spacing
-@mixin mt-6 { margin-top: 4rem !important; }
-@mixin mt-7 { margin-top: 5rem !important; }
-@mixin mt-8 { margin-top: 6rem !important; }
-@mixin mb-0 { margin-bottom: 0 !important; }
-@mixin mb-3 { margin-bottom: 1rem !important; }
-@mixin mb-4 { margin-bottom: 1.5rem !important; }
-@mixin mb-5 { margin-bottom: 3rem !important; }
-@mixin mb-6 { margin-bottom: 4rem !important; }
-@mixin mb-7 { margin-bottom: 5rem !important; }
-@mixin mb-8 { margin-bottom: 6rem !important; }
-@mixin mb-9 { margin-bottom: 9rem !important; }
-@mixin mb-10 { margin-bottom: 8rem !important; }
-@mixin ml-3 { margin-left: 1rem !important; }
+@mixin mt-6 {
+  margin-top: 4rem !important;
+}
+@mixin mt-7 {
+  margin-top: 5rem !important;
+}
+@mixin mt-8 {
+  margin-top: 6rem !important;
+}
+@mixin mb-0 {
+  margin-bottom: 0 !important;
+}
+@mixin mb-3 {
+  margin-bottom: 1rem !important;
+}
+@mixin mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+@mixin mb-5 {
+  margin-bottom: 3rem !important;
+}
+@mixin mb-6 {
+  margin-bottom: 4rem !important;
+}
+@mixin mb-7 {
+  margin-bottom: 5rem !important;
+}
+@mixin mb-8 {
+  margin-bottom: 6rem !important;
+}
+@mixin mb-9 {
+  margin-bottom: 9rem !important;
+}
+@mixin mb-10 {
+  margin-bottom: 8rem !important;
+}
+@mixin ml-3 {
+  margin-left: 1rem !important;
+}
 
-@mixin pt-5 { padding-top: 3rem !important; }
-@mixin pt-6 { padding-top: 4rem !important; }
-@mixin pb-6 { padding-bottom: 4rem !important; }
-@mixin pl-2 { padding-left: .5rem !important; }
-@mixin pl-5 { padding-left: 3rem !important; }
-@mixin pl-6 { padding-left: 4rem !important; }
-@mixin pr-2 { padding-right: .5rem !important; }
-@mixin pr-5 { padding-right: 3rem !important; }
-@mixin pr-6 { padding-right: 4rem !important; }
+@mixin pt-5 {
+  padding-top: 3rem !important;
+}
+@mixin pt-6 {
+  padding-top: 4rem !important;
+}
+@mixin pb-6 {
+  padding-bottom: 4rem !important;
+}
+@mixin pl-2 {
+  padding-left: 0.5rem !important;
+}
+@mixin pl-5 {
+  padding-left: 3rem !important;
+}
+@mixin pl-6 {
+  padding-left: 4rem !important;
+}
+@mixin pr-2 {
+  padding-right: 0.5rem !important;
+}
+@mixin pr-5 {
+  padding-right: 3rem !important;
+}
+@mixin pr-6 {
+  padding-right: 4rem !important;
+}
 
 // Links
 %nav-link-decoration {
@@ -107,9 +155,9 @@
 
   &:focus {
     @if $enable-shadows {
-      box-shadow: $btn-box-shadow, 0 0 0 2px rgba($active-color, .5);
+      box-shadow: $btn-box-shadow, 0 0 0 2px rgba($active-color, 0.5);
     } @else {
-      box-shadow: 0 0 0 2px rgba($active-color, .5);
+      box-shadow: 0 0 0 2px rgba($active-color, 0.5);
     }
   }
 
@@ -159,11 +207,16 @@
 }
 
 // Cards
-@mixin semantic-card($class-name, $clickable: true, $title-alignment: left,
-  $title-color: $brand-primary, $subtitle-color: $brand-primary-muted,
-  $footer-border-off: true, $footer-font-size: $font-size-small,
-  $card-img-height: 188px) {
-
+@mixin semantic-card(
+  $class-name,
+  $clickable: true,
+  $title-alignment: left,
+  $title-color: $brand-primary,
+  $subtitle-color: $brand-primary-muted,
+  $footer-border-off: true,
+  $footer-font-size: $font-size-small,
+  $card-img-height: 188px
+) {
   $title-font-size: $font-size-x-large;
 
   $subtitle-font-size: $font-size-small;
@@ -216,10 +269,9 @@
 
   .#{$class-name}-title-tag {
     @extend %text-uppercase;
-    @extend %font-weight-bold;
     color: $tag-color;
+    font-family: $font-family-mono;
     font-size: $tag-font-size;
-    letter-spacing: 0.5px;
     line-height: 1.25;
     text-align: $tag-alignment;
   }
@@ -264,7 +316,6 @@
       @extend %align-middle;
     }
   }
-
 }
 
 // Misc
