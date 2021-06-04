@@ -6,7 +6,7 @@ content_type: BlogPosting
 image: /img/blog/jordan_guinn_interview/jordan-guinn.svg
 image_description: Portrait of Jordan Guinn
 image_display: true
-order: 3300
+order: 3200
 tags: [people and culture, devops, engineering, jordan guinn]
 excerpt: "For Jordan Guinn, getting into the civic-tech world with Skylight was a career change. Now that he's here, Jordan's discovering why our mission matters."
 authors:

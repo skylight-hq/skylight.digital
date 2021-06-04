@@ -6,7 +6,7 @@ content_type: BlogPosting
 image: /img/blog/plain_language_policies_telehealth/plain-language.svg
 image_description: A woman entering billing codes into a computer
 image_display: true
-order: 3300
+order: 3500
 tags: [content, accessibility, abby raskin]
 excerpt: Telehealth quickly needed to be implemented due to COVID-19, but updating billing codes to accept it was a bit more complicated.
 authors:
@@ -61,7 +61,7 @@ Medicare's [List of Telehealth Services](https://www.cms.gov/Medicare/Medicare-G
 With difficult-to-use regulatory information in such high demand in the midst of a health crisis (it's regularly one of the [top downloads across all of Health and Human Services](https://analytics.usa.gov/health-human-services/data/)), I wondered: what if instead of a download-only spreadsheet, staff could search through Medicare's list of covered telehealth services [directly on the web](http://telecodes.org)?
 
 ![Searchable billing codes prototype.](/img/blog/plain_language_policies_telehealth/telehealth-billing-codes-prototype.png)
-{:class="border p-3 .mb-0"}
+{:class="border p-3 mb-0"}
 
 Searchable billing codes prototype I created
 {:.caption}
@@ -69,7 +69,7 @@ Searchable billing codes prototype I created
 And what if Medicare & Medicaid policies were [described in plain language](https://telehealth.hhs.gov/providers/policy-changes-during-the-covid-19-public-health-emergency/medicare-and-medicaid-policies/) and [provider-specific](https://telehealth.hhs.gov/providers/billing-and-reimbursement/billing-medicare-as-a-safety-net-provider/)?
 
 ![Screenshot from Telehealth.HHS.gov](/img/blog/plain_language_policies_telehealth/telehealth-billing-codes.png)
-{:class="border p-3 .mb-0"}
+{:class="border p-3 mb-0"}
 
 Screenshot from [Telehealth.HHS.gov](https://telehealth.hhs.gov), a Skylight project built with Health Resources and Services Administration.
 {:.caption}
