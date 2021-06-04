@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Our Experience
+title: Our experience
 permalink: /work/experience/
 redirect_from:
   - /work/
@@ -16,15 +16,23 @@ pagination:
   sort_reverse: false
 ---
 
-{% capture header_content %} Explore a sampling of the types of experience that
-we can bring to your biggest digital challenges. {% endcapture %} {% include
-page_header.html header_content_class = 'page-header-content-1' header_content =
-header_content %} {% include filter_component.html %} {% assign collection =
-include.collection %} {% assign prefix = 'project' %} {% assign cta_text =
-include.cta_text %} {% assign context = include.context %} {% assign limit =
-include.limit %} {% if limit %} {% assign collection_size = limit %} {% else %}
-{% assign collection_size = collection.size %} {% endif %} {% include
-hanging_column_size.html collection_size = collection_size col_size = 3 %}
+{% capture header_content %}
+  Explore a sampling of the types of experience that
+  we can bring to your biggest digital challenges.
+{% endcapture %}
+{% include page_header.html header_content_class = 'page-header-content-1' header_content = header_content %}
+{% include filter_component.html %}
+{% assign collection = include.collection %}
+{% assign prefix = 'project' %}
+{% assign cta_text = include.cta_text %}
+{% assign context = include.context %}
+{% assign limit = include.limit %}
+{% if limit %}
+  {% assign collection_size = limit %}
+{% else %}
+  {% assign collection_size = collection.size %}
+{% endif %}
+{% include hanging_column_size.html collection_size = collection_size col_size = 3 %}
 
 <div class="our-experience">
   <div class="projects">
@@ -68,4 +76,5 @@ hanging_column_size.html collection_size = collection_size col_size = 3 %}
   {% endunless %}
 </div>
 
-{% include pagination.html %} {% include hire_us_cta.html %}
+{% include pagination.html %}
+{% include hire_us_cta.html %}
