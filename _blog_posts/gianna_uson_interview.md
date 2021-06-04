@@ -6,7 +6,7 @@ content_type: BlogPosting
 image: /img/blog/gianna_uson_interview/gianna-uson.svg
 image_description: Portrait of Gianna Uson.
 image_display: true
-order: 3200
+order: 3300
 tags: [people and culture, engineering, gianna uson]
 excerpt: "Skylight's Gianna Uson is just beginning her career as a civic technologist. She's bring a unique perspective to service design, having worked at the U.S. Department of State, as a Civic Digital Fellow, and AmeriCorps."
 authors:
