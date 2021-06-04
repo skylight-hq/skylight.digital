@@ -133,8 +133,12 @@
 %text,
 .text {
   a {
-    @include link-decoration($text-link-color, $text-link-hover-color,
-      $text-link-border, $text-link-border-hover);
+    @include link-decoration(
+      $text-link-color,
+      $text-link-hover-color,
+      $text-link-border,
+      $text-link-border-hover
+    );
   }
 }
 
@@ -143,7 +147,7 @@
   @extend %btn-secondary;
   @extend %btn-outline-secondary;
   @extend %btn-lg;
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-mono;
   cursor: pointer;
 }
 
@@ -219,7 +223,7 @@
   border: none;
   height: 15px;
   width: 100%;
-  background: url('../img/wave.svg') center center repeat-x;
+  background: url("../img/wave.svg") center center repeat-x;
 }
 
 .btn-submit-outline {

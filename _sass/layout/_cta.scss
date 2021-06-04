@@ -34,7 +34,7 @@
   line-height: 1.75;
 
   @include media-breakpoint-up(md) {
-    font-size: $font-size-large;
+    font-size: $font-size-medium;
   }
 
   p {
@@ -53,8 +53,12 @@
     @extend %btn-base;
     @extend %btn-icon-right;
     @extend %btn-lg;
-    @extend %text-uppercase;
     @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: $white;
+    }
   }
 }
 
@@ -79,26 +83,9 @@
 }
 
 .testimonial-quote {
-  @extend %font-italic;
   @extend %mb-4;
   font-size: $font-size-x-large;
   line-height: 1.25;
-
-  &::before {
-    @extend %align-middle;
-    content: '\201C';
-    font-size: $font-size-xxx-large;
-    line-height: .1;
-    opacity: .5;
-  }
-
-  &::after {
-    @extend %align-middle;
-    content: '\201D';
-    font-size: $font-size-xxx-large;
-    line-height: .1;
-    opacity: .5;
-  }
 
   @include media-breakpoint-up(md) {
     font-size: $font-size-xxxx-large;
@@ -120,7 +107,7 @@
   line-height: 1.5;
 
   @include media-breakpoint-up(md) {
-    font-size: $font-size-lg;
+    font-size: $font-size-medium;
   }
 }
 
@@ -130,6 +117,12 @@
   @extend %d-block;
 }
 
-.testimonial-author::before {
-  content: '— ';
+.testimonial-author {
+  font-weight: bold;
+}
+
+.page-subfooter__divider {
+  background-color: $white;
+  height: 4px;
+  width: 111px;
 }

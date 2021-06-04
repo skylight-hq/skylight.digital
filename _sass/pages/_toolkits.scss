@@ -24,7 +24,17 @@
     font-size: $font-size-base;
   }
 
-  p, li, h1, h2, h3, h4, h5, h6, .callout, .callout--alt, .post-blockquote {
+  p,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .callout,
+  .callout--alt,
+  .post-blockquote {
     max-width: $prose-max-width;
   }
 }
@@ -71,5 +81,7 @@
 
 .caption {
   color: $gray-light;
+  font-family: $font-family-mono;
   font-size: $font-size-xs;
+  margin-top: 0.25rem;
 }

@@ -5,11 +5,9 @@
   }
 
   h3 {
-    font-size: $font-size-small;
-    letter-spacing: 0.05em;
+    font-size: $font-size-medium;
     line-height: 1.375;
     margin-top: 1.5em;
-    text-transform: uppercase;
   }
 
   h2,
@@ -87,14 +85,4 @@
       border-left-color: $sk-yellow;
     }
   }
-}
-
-.employee-gradient__img::after {
-  height: 100%;
-  margin-left: 15px;
-  width: calc(100% - 30px);
-}
-
-.image-list__employee-img {
-  filter: grayscale(1);
 }

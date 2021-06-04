@@ -25,6 +25,7 @@
 
 .post-title {
   @extend %mb-3;
+  color: $brand-primary;
 }
 
 .post-byline {
@@ -34,8 +35,12 @@
 
 .post-author {
   a {
-    @include link-decoration($post-header-footer-link-color, $post-header-footer-link-hover-color,
-      $post-header-footer-link-border, $post-header-footer-link-border-hover);
+    @include link-decoration(
+      $post-header-footer-link-color,
+      $post-header-footer-link-hover-color,
+      $post-header-footer-link-border,
+      $post-header-footer-link-border-hover
+    );
   }
 }
 
@@ -82,7 +87,7 @@
   @extend %my-4;
 
   cite::before {
-    content: '— ';
+    content: "— ";
   }
 
   &.excerpt {
@@ -110,6 +115,7 @@
   }
 
   a.tag-badge {
+    font-family: $font-family-mono;
     margin-right: 5px;
 
     &:hover,
@@ -134,8 +140,12 @@
     @extend %btn-base;
     @extend %btn-icon-left;
     @extend %btn-sm;
-    @include button-outline-variant-2($btn-share-color, $btn-share-bg,
-      $btn-share-border, $btn-share-active-color);
+    @include button-outline-variant-2(
+      $btn-share-color,
+      $btn-share-bg,
+      $btn-share-border,
+      $btn-share-active-color
+    );
   }
 }
 
@@ -162,7 +172,11 @@
   }
 
   a {
-    @include link-decoration($post-header-footer-link-color, $post-header-footer-link-hover-color,
-      $post-header-footer-link-border, $post-header-footer-link-border-hover);
+    @include link-decoration(
+      $post-header-footer-link-color,
+      $post-header-footer-link-hover-color,
+      $post-header-footer-link-border,
+      $post-header-footer-link-border-hover
+    );
   }
 }

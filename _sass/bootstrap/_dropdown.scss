@@ -66,7 +66,7 @@
 .dropdown-item {
   display: block;
   width: 100%; // For `<button>`s
-  padding: 3px $dropdown-item-padding-x;
+  padding: 8px $dropdown-item-padding-x;
   clear: both;
   font-weight: $font-weight-normal;
   color: $dropdown-link-color;
@@ -78,14 +78,12 @@
   @include hover-focus {
     color: $dropdown-link-hover-color;
     text-decoration: none;
-    background-color: $dropdown-link-hover-bg;
   }
 
   &.active,
   &:active {
     color: $dropdown-link-active-color;
     text-decoration: none;
-    background-color: $dropdown-link-active-bg;
   }
 
   &.disabled,
@@ -100,6 +98,7 @@
   }
 
   &[aria-current] {
+    color: $brand-primary;
     font-weight: 700;
   }
 }
