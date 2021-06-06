@@ -1151,7 +1151,7 @@
   full_name: Mical Nobel
   short_name: M. Nobel
   profile_path: /company/about/#mical-nobel
-  image: /img/people/mical-nobel.svg
+  image: /img/people/mical-nobel.png
   image_description: Illustration of Mical Nobel
   position: Product Manager
   bio: >
@@ -1314,7 +1314,7 @@
   full_name: Phoebe Espiritu
   short_name: P. Espiritu
   profile_path: /company/about/#phoebe-espiritu
-  image: /img/people/phoebe-espiritu.svg
+  image: /img/people/phoebe-espiritu.png
   image_description: Illustration of Phoebe Espiritu
   position: Product Designer
   bio: >
@@ -1414,7 +1414,7 @@
   full_name: Suzanne Chapman
   short_name: S. Chapman
   profile_path: /company/about/#suzanne-chapman
-  image: /img/people/suzanne-chapman.svg
+  image: /img/people/suzanne-chapman.png
   image_description: Illustration of Suzanne Chapman
   position: UX Designer
   bio: >
@@ -1500,7 +1500,7 @@
   full_name: Kari Hodges
   short_name: K. Hodges
   profile_path: /company/about/#kari-hodges
-  image: /img/people/kari-hodges.svg
+  image: /img/people/kari-hodges.png
   image_description: Illustration of Kari Hodges
   position: UX Researcher
   bio: >
