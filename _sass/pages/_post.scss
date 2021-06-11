@@ -107,11 +107,12 @@
 }
 
 .post-tags {
-  @extend %mb-4;
+  @extend %mb-3;
 
   a {
     @extend %badge;
     background-color: $brand-primary;
+    border-radius: 0.375rem;
   }
 
   a.tag-badge {
@@ -146,6 +147,8 @@
       $btn-share-border,
       $btn-share-active-color
     );
+    border-radius: 0.375rem;
+    padding-block: 0.5rem;
   }
 }
 
