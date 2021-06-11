@@ -98,7 +98,7 @@ $body-color: $gray-200;
 
 // Links
 $link-color: $brand-primary;
-$link-hover-color: $brand-primary-dark;
+$link-hover-color: $brand-primary-light;
 $link-hover-decoration: none;
 
 // Fonts
@@ -181,7 +181,7 @@ $brand-primary-muted: rgba($brand-primary, 0.7);
 $text-link-color: $link-color;
 $text-link-hover-color: $link-hover-color;
 $text-link-border: 1px dotted $link-color;
-$text-link-border-hover: 1px solid $link-hover-color;
+$text-link-border-hover: 1px dotted $link-hover-color;
 
 $header-display: $font-size-display;
 $header-display-1: $font-size-h1;
