@@ -14,7 +14,7 @@ published: 2017-06-18
 modified: 2020-05-29
 destination: ./build
 
-baseurl: '' # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title/
 url: https://skylight.digital
 localhost: localhost:4000
@@ -24,7 +24,11 @@ github_issues_url: https://github.com/skylight-hq/skylight.digital/issues
 linkedin_url: https://www.linkedin.com/company/skylight-hq
 carrot_url: https://carrot.io/skylight/
 hackerone_url: https://hackerone.com/skylight_qgvpb
-slack_invite_url: ''
+slack_invite_url: ""
+
+# Build settings
+incremental: true
+livereload: true
 
 twitter:
   username: skylight_hq
@@ -35,7 +39,7 @@ linkedin:
 
 analytics:
   google:
-    code: 'UA-93543424-1' # change this to your Google analytics code
+    code: "UA-93543424-1" # change this to your Google analytics code
 
 posts_max_related: 3
 posts_min_common_tags: 2
@@ -43,7 +47,7 @@ posts_min_common_tags: 2
 # Build settings
 markdown: kramdown
 kramdown:
-  smart_quotes: ['apos', 'apos', 'quot', 'quot']
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 collections:
   projects:
@@ -74,8 +78,8 @@ pagination:
   debug: false
   per_page: 12
   offset: 0
-  permalink: '/page/:num/'
-  title: ':title'
+  permalink: "/page/:num/"
+  title: ":title"
   limit: 0
 
 sass:
