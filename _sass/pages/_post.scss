@@ -117,7 +117,9 @@
 
   a.tag-badge {
     font-family: $font-family-mono;
-    margin-right: 5px;
+    margin-right: 1em;
+    padding-block: 7px;
+    padding-inline: 0.5rem;
 
     &:hover,
     &:focus {
@@ -133,7 +135,7 @@
     &:first-child {
       @extend %mb-3;
       @extend %mb-sm-0;
-      @extend %mr-sm-2;
+      margin-right: 1rem;
     }
   }
 
