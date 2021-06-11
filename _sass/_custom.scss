@@ -226,7 +226,7 @@ $control-label-font-size: $font-size-base;
 $help-text-link-color: $text-muted;
 $help-text-link-hover-color: $brand-primary;
 $help-text-link-border: 1px dashed $help-text-link-color;
-$help-text-link-border-hover: 1px solid $help-text-link-hover-color;
+$help-text-link-border-hover: 1px dashed $help-text-link-hover-color;
 
 $form-icons-margin-bottom: $form-group-margin-bottom;
 
@@ -255,7 +255,7 @@ $footer-brand-height: 60px;
 $footer-link-color: $gray-light;
 $footer-link-hover-color: $brand-primary;
 $footer-link-border: none;
-$footer-link-border-hover: 1px solid $footer-link-hover-color;
+$footer-link-border-hover: 1px dashed $footer-link-hover-color;
 
 // Page CTA (subfooter)
 $page-cta-color: $white;
@@ -268,7 +268,7 @@ $btn-page-cta-bg: $brand-primary;
 $project-aside-link-color: $brand-primary;
 $project-aside-link-hover-color: $link-hover-color;
 $project-aside-link-border: 1px dashed $project-aside-link-color;
-$project-aside-link-border-hover: 1px solid $project-aside-link-hover-color;
+$project-aside-link-border-hover: 1px dashed $project-aside-link-hover-color;
 
 // Filters
 $filter-item-link-color: $body-color;
@@ -282,7 +282,7 @@ $post-header-footer-color: $gray-light;
 $post-header-footer-link-color: $brand-primary;
 $post-header-footer-link-hover-color: $link-hover-color;
 $post-header-footer-link-border: 1px dashed $post-header-footer-link-color;
-$post-header-footer-link-border-hover: 1px solid
+$post-header-footer-link-border-hover: 1px dashed
   $post-header-footer-link-hover-color;
 
 $btn-share-color: $brand-primary;
