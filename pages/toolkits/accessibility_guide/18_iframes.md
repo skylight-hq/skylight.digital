@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: iFrames | Skylight Accessibility Guide
-description: "How we deal with iFrames"
+description: "How we deal with iFrames."
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/iframes/
 sidenav: accessibility_guide
@@ -11,11 +11,11 @@ toolkit_name: accessibility-guide
 
 # iFrames
 
-When using `iframe`s, it's important that all content contained in them is accessible.
+When using `iFrame`s, it's important that all content contained in them is accessible.
 
 ## Testing
 
-1. Identify all `iframe`s on a page.
+1. Identify all `iFrame`s on a page.
 2. Using the keyboard, navigate to each frame to ensure content is accessible.
 3. Check the `title` or `name` attribute of each frame for a description of the content.
 
@@ -36,7 +36,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 <iframe src="../iframeform/"></iframe>
 ```
 
-This `iframe` doesn't have a title or name.
+This `iFrame` doesn't have a title or name.
 
 <div class="example">
   <div class="row">
