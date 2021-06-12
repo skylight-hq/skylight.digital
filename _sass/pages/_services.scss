@@ -6,7 +6,13 @@
 .page-our-services {
   .prose {
     li {
-      padding-bottom: 1rem;
+      &:not(:first-child) {
+        margin-top: 0.5rem;
+      }
+
+      a {
+        padding-top: 7px;
+      }
     }
   }
 }
