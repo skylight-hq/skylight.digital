@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Color and contrast | Skylight Accessibility Guide
-description: "How we work with color and contrast"
+description: "How we work with color and contrast."
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/color/
 sidenav: accessibility_guide
