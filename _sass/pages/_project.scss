@@ -108,8 +108,9 @@
 }
 
 .news-coverage {
+  padding: 2.5rem !important;
+
   ul {
-    font-size: $font-size-xx-small;
     @extend %mb-0;
     @extend %list-item-unstyled;
 
