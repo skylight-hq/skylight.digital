@@ -66,11 +66,12 @@
   }
 }
 
-@include semantic-card('blog-post');
-@include multi-col-spacing('blog-post-col', $mb-size: 4, $mb-md-size: 5);
+@include semantic-card("blog-post");
+@include multi-col-spacing("blog-post-col", $mb-size: 4, $mb-md-size: 5);
 
 .blog-post-footer {
   line-height: 1;
+  font-family: $font-family-mono;
   padding-bottom: 1.25rem;
   padding-top: 0;
 }
@@ -88,7 +89,7 @@
   @include media-breakpoint-up(md) {
     display: flex;
     flex-direction: column;
-//    height: 100%;
+    //    height: 100%;
   }
 }
 
