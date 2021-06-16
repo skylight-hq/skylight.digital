@@ -1,3 +1,9 @@
+.page-work {
+  .page-subfooter {
+    background-color: $sk-blue-light;
+  }
+}
+
 .our-services {
   @extend %page-main-base;
   @extend %wide-column;

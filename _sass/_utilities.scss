@@ -51,6 +51,10 @@
   color: $black;
 }
 
+.text-body {
+  color: $body-color;
+}
+
 .container-xxl {
   max-width: map-get($container-max-widths, "xxl");
 }

@@ -20,7 +20,7 @@
         {{ page.title }}
       {% endif %}
     </{% if page.layout == "toolkit" %}p{% else %}h1{% endif %}>
-    <p class="hero-content {% if include.text == 'dark' %}text-ink{% endif %}">
+    <p class="hero-content {% if include.text == 'dark' %}text-body{% endif %}">
       {% if page.layout == "toolkit" %}
         {{ site.data.toolkits[page.sidenav].description }}
       {% else %}
