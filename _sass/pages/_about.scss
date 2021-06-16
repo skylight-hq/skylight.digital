@@ -29,12 +29,17 @@
 @include semantic-card(
   "employee",
   $clickable: false,
-  $title-alignment: center,
+  $title-alignment: left,
   $title-color: $body-color,
   $subtitle-color: $text-muted,
   $footer-border-off: false,
   $card-img-height: 275px
 );
+
+.employee-subtitle {
+  font-family: $font-family-mono;
+  font-weight: normal;
+}
 
 @include multi-col-spacing("employee-col", $mb-size: 4, $mb-md-size: 5);
 

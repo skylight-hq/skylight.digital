@@ -104,6 +104,7 @@
   @extend %text-muted;
   font-family: $font-family-mono;
   font-size: $font-size-small;
+  text-transform: uppercase;
 }
 
 @include media-breakpoint-up(md) {
@@ -117,10 +118,6 @@
 
   .filter-subtitle {
     font-size: $font-size-small;
-  }
-
-  .filter-item-description {
-    font-size: $font-size-x-large;
   }
 }
 
@@ -145,7 +142,7 @@
 
 .filter-item-description {
   @extend %mb-0;
-  font-size: $font-size-large;
+  font-size: $font-size-medium;
 }
 
 .filter-no-results {
