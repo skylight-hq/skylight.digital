@@ -80,6 +80,18 @@
   }
 }
 
+.callout--case-study {
+  h2 {
+    background-color: $brand-primary;
+    color: $white;
+    display: block;
+    margin: -1.5rem;
+    margin-bottom: 1.5rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+  }
+}
+
 .caption {
   color: $gray-light;
   font-family: $font-family-mono;
