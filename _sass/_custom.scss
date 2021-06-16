@@ -272,8 +272,8 @@ $project-aside-link-border: 1px dashed $project-aside-link-color;
 $project-aside-link-border-hover: 1px dashed $project-aside-link-hover-color;
 
 // Filters
-$filter-item-link-color: $body-color;
-$filter-item-link-hover-color: $brand-primary;
+$filter-item-link-color: $link-color;
+$filter-item-link-hover-color: $link-hover-color;
 $filter-item-link-border: none;
 $filter-item-link-border-hover: none;
 
