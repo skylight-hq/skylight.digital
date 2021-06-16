@@ -6,6 +6,10 @@
   @extend %py-md-5;
   color: $page-cta-color;
   background: $page-cta-bg-color;
+
+  * {
+    color: $page-cta-color;
+  }
 }
 
 .page-subfooter-content {
