@@ -95,11 +95,6 @@
   }
 }
 
-.post-footer {
-  @extend %pt-4;
-  border-top: 1px solid $gray-lightest;
-}
-
 .post-contributors {
   @extend %mb-4;
   @extend %post-header-footer-font-base;
@@ -164,6 +159,8 @@
   h3 {
     @extend %text-uppercase;
     @extend %mb-3;
+    font-family: $font-family-mono;
+    font-weight: normal;
   }
 
   ul {
