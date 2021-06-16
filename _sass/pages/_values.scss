@@ -29,7 +29,6 @@
   @extend %card;
   @extend %text-left;
   border: 0;
-  border-left: 8px solid $brand-primary-light;
   border-radius: 0;
   height: 100%;
 }
@@ -48,4 +47,12 @@
     @extend %card-text;
     font-size: $font-size-small;
   }
+}
+
+.line--gray {
+  background-color: $gray-20;
+  height: 5px;
+  width: 4rem;
+  margin-bottom: 1.3rem;
+  margin-top: 1.7rem;
 }
