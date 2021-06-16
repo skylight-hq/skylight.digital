@@ -21,10 +21,7 @@ h4,
 h5,
 h6 {
   @extend %font-weight-bold;
-}
-
-h1 {
-  color: $black;
+  color: $heading-color;
 }
 
 @include media-breakpoint-between(xs, sm) {
