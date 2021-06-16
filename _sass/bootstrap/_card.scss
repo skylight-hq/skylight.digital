@@ -74,7 +74,7 @@
 .card-footer {
   padding: 0 $card-spacer-x $card-spacer-y $card-spacer-x;
   background-color: $card-cap-bg;
-  border-top: $card-border-width solid $card-border-color;
+  // border-top: $card-border-width solid $card-border-color;
 
   &:last-child {
     @include border-radius(0 0 $card-border-radius-inner $card-border-radius-inner);

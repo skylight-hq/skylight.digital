@@ -32,10 +32,14 @@
 
 .employee-footer {
   display: flex;
-  justify-content: center;
-  padding: .75rem 1.25rem;
+  padding: 0 1.25rem .75rem 1.25rem;
 
   a {
+    font-size: $font-size-large;
     margin: 0 8px;
+
+    &:first-child {
+      margin-left: 0;
+    }
   }
 }
