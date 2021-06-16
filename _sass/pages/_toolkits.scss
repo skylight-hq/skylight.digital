@@ -65,13 +65,14 @@
 
 .callout {
   @include callout;
-  background-color: $sk-yellow;
+  background-color: $gray-1;
+  border: 3px solid $brand-primary;
   margin-top: 2.25rem;
 }
 
 .callout--alt {
   @include callout;
-  background-color: $brand-primary-lightest;
+  background-color: $ochre-20;
   margin-bottom: 1em;
 
   h4 {
