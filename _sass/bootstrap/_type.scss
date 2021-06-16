@@ -143,13 +143,18 @@ mark,
   position: relative;
 
   &::before {
-    content: open-quote;
+    content: "“";
     font-size: 170px;
     top: 18px;
     line-height: 1;
     left: 1.5rem;
     opacity: 20%;
     position: absolute;
+  }
+
+  cite {
+    font-style: normal;
+    font-weight: normal;
   }
 }
 
