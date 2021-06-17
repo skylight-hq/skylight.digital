@@ -145,6 +145,48 @@
   }
 }
 
+@mixin navlink-color($theme-color) {
+  .nav-link {
+    &:hover {
+      color: $theme-color;
+    }
+
+    &[aria-current] {
+      span {
+        color: $theme-color;
+      }
+    }
+  }
+
+  .dropdown-item {
+    &[aria-current],
+    &:focus,
+    &:hover {
+      color: $theme-color;
+    }
+  }
+
+  .dropdown-toggle[aria-expanded="true"] {
+    color: $theme-color;
+  }
+}
+
+.nav-item--work {
+  @include navlink-color($blue-100);
+}
+
+.nav-item--careers {
+  @include navlink-color($green-300);
+}
+
+.nav-item--thoughts {
+  @include navlink-color($red-200);
+}
+
+.nav-item--connect {
+  @include navlink-color($ochre-300);
+}
+
 .dropdown-menu {
   border: none;
   border-radius: 0.25rem;
