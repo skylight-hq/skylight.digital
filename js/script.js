@@ -195,9 +195,9 @@ $(function() {
         pageSize: pageSize,
         ulClassName: "pagination d-flex justify-content-center",
         prevText:
-          '<i class="fa fa-chevron-left mr-2 pagination-icon"></i><b>Previous</b>',
+          '<i class="fal fa-long-arrow-left mr-2 pagination-icon"></i><b>Previous</b>',
         nextText:
-          '<b>Next</b><i class="fa fa-chevron-right ml-2 pagination-icon"></i>',
+          '<b>Next</b><i class="fal fa-long-arrow-right ml-2 pagination-icon"></i>',
         showPageNumbers: false,
         showNavigator: true,
         formatNavigator: "Page <%= currentPage %> of <%= totalPage %>",
