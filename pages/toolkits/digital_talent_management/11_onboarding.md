@@ -94,7 +94,7 @@ Create an employee handbook that's easy for everyone to access. A well-written h
 - [Making a great first impression: Onboarding matters](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)
 - [How we dramatically improved 18F's onboarding process in 3 months](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Coding it Forward
 
 Since 2017, Coding it Forward has brought over 100 undergraduate and graduate students into the federal government through their Civic Digital Fellowship. In addition to delivering real value to the agencies where interns are placed, the Fellowship is educating the next generation of our civic workforce.

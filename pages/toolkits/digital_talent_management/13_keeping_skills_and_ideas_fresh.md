@@ -46,7 +46,7 @@ Some conferences worth attending:
 
 - [Maine Workforce 2025](https://www.maine.gov/bhr/sites/maine.gov.bhr/files/inline-files/MaineWorkforce2025.pdf)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Peak Academy
 
 [Denver's Peak Academy mission statement reads](https://www.denvergov.org/content/denvergov/en/mayors-office/programs-initiatives/peak-performance/peak-academy/About.html):

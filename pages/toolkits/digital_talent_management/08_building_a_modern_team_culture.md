@@ -181,7 +181,7 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
 - [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Ontario Digital Service
 
 Direct communication lines between staff and leadership help empower staff to create change in their workplace. Hilary Hartley, Chief Digital Officer of the Ontario Digital Service, knows this from her time as a founding member of 18F. 18F's [Diversity, Equity, and Inclusion](https://handbook.18f.gov/diversity/) policy is a model for any level of government.

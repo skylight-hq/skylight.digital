@@ -85,7 +85,7 @@ Name | Purpose | Remote Friendly
 
 - [How rethinking your workspace can spur innovation](https://medium.com/@BloombergCities/how-rethinking-your-workspace-can-spur-innovation-ef6ff553b75b)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: 18F
 
 [18F](https://18f.gsa.gov/), a tech team within the U.S. General Services Administration, partners with agencies to help them build, buy, and share technology that improves the user experience of government services. With team members all over the country, 18F employs a number of strategies to [make their remote-first mindset work](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/):

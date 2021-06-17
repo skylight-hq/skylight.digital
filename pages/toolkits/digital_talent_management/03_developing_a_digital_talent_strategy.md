@@ -88,7 +88,7 @@ Digital teams are well-suited to looking at entire processes to determine where 
 - Use technology to create additional capacity
 {: .list-checklist}
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: U.K. Government Digital Service
 
 The U.K. Government Digital Service (GDS) is the oldest and one of the most successful of the government digital service teams. In many ways, it set the standards for teams in the U.S., including 18F and USDS. GDS operates on a mixed model &mdash; they hire people into a centralized team but also help other agencies staff their own teams. Through this model, they've brought hundreds of technologists into the U.K. government.
