@@ -155,7 +155,7 @@ Send your team to national conferences that are aligned with the work. They'll m
 - [https://digitalservices.georgia.gov/](https://digitalservices.georgia.gov/)
 - [https://playbook.cityofnewyork.us/](https://playbook.cityofnewyork.us/)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Bloomberg Cities
 
 Mayor Michael Bloomberg's [American Cities Initiative](https://www.bloomberg.org/program/founders-projects/american-cities-initiative/) promotes bold leadership and effective decision making, supports critical policy actions, and encourages residents, entrepreneurs, and more to uplift cities and solve problems. Through active [Twitter](https://twitter.com/BloombergCities) and [Medium](https://medium.com/@BloombergCities) accounts, Bloomberg Cities tells engaging stories of local change.

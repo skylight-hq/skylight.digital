@@ -158,7 +158,7 @@ When you're developing custom software, you'll need representation from all of t
 - [Labor Category Descriptions for Agile Procurements](https://agile-labor-categories.18f.gov/) (18F)
 - [What each role does in a service team](https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team) (GDS)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Georgia Digital Service
 
 When Nikhil Deshpande started the [Georgia Digital Service](https://digitalservices.georgia.gov/) (GADS), he knew it would be hard to hire digital talent with the breadth and depth of skills needed. He developed an approach that would allow him to supplement internal staff with a strong vendor pool as needed.
