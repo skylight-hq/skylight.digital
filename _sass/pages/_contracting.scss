@@ -2,12 +2,8 @@
   .page-subfooter {
     background-color: $sk-yellow;
 
-    h2 {
-      color: $heading-color;
-    }
-
     * {
-      color: $body-color;
+      color: $heading-color;
     }
 
     .page-subfooter__divider {
@@ -16,7 +12,7 @@
   }
 
   .page-subfooter-cta-col a {
-    border-color: $body-color;
+    border-color: $heading-color;
   }
 }
 
