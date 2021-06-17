@@ -127,10 +127,6 @@ h6 {
       content: "-";
       position: absolute;
     }
-
-    ul {
-      @include hollow-list;
-    }
   }
 
   ol {
@@ -139,10 +135,6 @@ h6 {
     & > li::before {
       content: counter(item) ". ";
       counter-increment: item;
-    }
-
-    ul {
-      @include hollow-list;
     }
   }
 

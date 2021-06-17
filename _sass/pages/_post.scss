@@ -69,7 +69,6 @@
 
 .post-table {
   @extend %table;
-  @extend %table-bordered;
   @extend %my-4;
 
   @include media-breakpoint-down(sm) {
@@ -151,12 +150,8 @@
 .post-related {
   @extend %mt-5;
 
-  h3,
-  ul {
-    @extend %post-header-footer-font-base;
-  }
-
   h3 {
+    @extend %post-header-footer-font-base;
     @extend %text-uppercase;
     @extend %mb-3;
     font-family: $font-family-mono;
