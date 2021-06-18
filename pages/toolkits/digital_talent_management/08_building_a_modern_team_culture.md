@@ -124,7 +124,7 @@ A welcoming and inclusive culture empowers people to provide outstanding public 
 
 A Code of Conduct puts into writing how you expect people to behave in the workplace and at work events. It codifies your commitment to an inclusive environment. Create a documented process for enforcing the Code of Conduct and an anonymous process for reporting violations of the Code.
 
-18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) that you can adopt and modify as necessary
+18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) that you can adopt and modify as necessary.
 {: .callout--alt}
 
 ### Empower people to speak up
@@ -151,7 +151,7 @@ Everyone has these biases.
 
 Unconscious bias training helps create awareness for this ingrained bias. Have everyone on your team attend unconscious bias training. This will help improve everyday interactions. It'll also help during the interview process as you attempt to build a diverse team.
 
-Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases)
+Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases).
 {: .callout--alt}
 
 ## Checklist
