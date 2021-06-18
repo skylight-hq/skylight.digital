@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Tables | Skylight Accessibility Guide
-description: "How we deal with tables"
+description: "How we deal with tables."
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/tables/
 sidenav: accessibility_guide

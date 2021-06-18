@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Links and repetitive content | Skylight Accessibility Guide
-description: "How we deal with links and repetitive content"
+description: "How we deal with links and repetitive content."
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/links/
 sidenav: accessibility_guide
