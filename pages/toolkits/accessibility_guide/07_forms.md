@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Forms | Skylight Accessibility Guide
-description: "How we work with forms"
+description: "How we work with forms."
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/forms/
 sidenav: accessibility_guide

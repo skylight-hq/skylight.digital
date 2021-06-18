@@ -699,7 +699,7 @@
     coaching, mentoring, and technical excellence. He specializes in software engineering,
     APIs, DevSecOps, cloud computing, data engineering, and data science.
     Gabriel lives in Texas.
-  active: true
+  active: false
   order: 90
   socials:
     - name: Twitter
@@ -763,7 +763,7 @@
     such as login.gov, analytics.usa.gov, everykidinapark.gov, and FBI Crime Data Explorer.
     He specializes in software engineering, APIs, DevOps, and data engineering.
     Colin lives in North Carolina.
-  active: true
+  active: false
   order: 170
   socials:
     - name: LinkedIn
@@ -938,7 +938,7 @@
     and marketing. Amelia led digital transformation initiatives at the NYC
     Mayor's Office for Economic Opportunity and the Cambridge Innovation Center.
     She lives in New York.
-  active: true
+  active: false
   order: 175
   socials:
     - name: Twitter
@@ -1151,7 +1151,7 @@
   full_name: Mical Nobel
   short_name: M. Nobel
   profile_path: /company/about/#mical-nobel
-  image: /img/people/mical-nobel.svg
+  image: /img/people/mical-nobel.png
   image_description: Illustration of Mical Nobel
   position: Product Manager
   bio: >
@@ -1314,7 +1314,7 @@
   full_name: Phoebe Espiritu
   short_name: P. Espiritu
   profile_path: /company/about/#phoebe-espiritu
-  image: /img/people/phoebe-espiritu.svg
+  image: /img/people/phoebe-espiritu.png
   image_description: Illustration of Phoebe Espiritu
   position: Product Designer
   bio: >
@@ -1389,7 +1389,7 @@
     worked for the Massachusetts Data Office, and was in the inaugural class of
     the University of Chicago's Computational Analysis & Public Policy program.
     Kyle lives in Massachusetts.
-  active: true
+  active: false
   order: 340
   socials:
     - name: Twitter
@@ -1414,7 +1414,7 @@
   full_name: Suzanne Chapman
   short_name: S. Chapman
   profile_path: /company/about/#suzanne-chapman
-  image: /img/people/suzanne-chapman.svg
+  image: /img/people/suzanne-chapman.png
   image_description: Illustration of Suzanne Chapman
   position: UX Designer
   bio: >
@@ -1500,7 +1500,7 @@
   full_name: Kari Hodges
   short_name: K. Hodges
   profile_path: /company/about/#kari-hodges
-  image: /img/people/kari-hodges.svg
+  image: /img/people/kari-hodges.png
   image_description: Illustration of Kari Hodges
   position: UX Researcher
   bio: >
@@ -1743,7 +1743,7 @@
   profile_path: /company/about/#gianna-uson
   image: /img/people/gianna-uson.png
   image_description: Illustration of Gianna Uson
-  position: Software Engineer Apprentice
+  position: Software Engineer
   bio: >
     Gianna's a software engineer who's passionate about leveraging technology
     and partnering with communities to improve the lives of others. She was a 2018 Civic Digital
@@ -1771,7 +1771,7 @@
     He was 2019 Civic Digital Fellow at the U.S. Department of Health and
     Human Services. Alex graduated with degrees from Columbia University and
     New York University. He lives in Massachusetts.
-  active: true
+  active: false
   order: 480
   socials:
     - name: LinkedIn
@@ -1837,9 +1837,9 @@
   fname: Leslie
   lname: Garner Franklin
   full_name: Leslie Garner Franklin
-  short_name: Leslie Garner Franklin
+  short_name: L. Garner Franklin
   profile_path: /company/about/#leslie-garner-franklin
-  image: /img/people/leslie-garnerfranklin.png
+  image: /img/people/leslie-garner-franklin.png
   image_description: Illustration of Leslie Garner Franklin
   position: Product Manager
   bio: >

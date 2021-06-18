@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Checklist | Skylight Accessibility Guide
-description: "A simple checklist for determining if your site is accessible"
+description: "A simple checklist for determining if your site is accessible."
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/checklist/
 sidenav: accessibility_guide

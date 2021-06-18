@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Timeouts | Skylight Accessibility Guide
-description: "How we deal with time outs"
+description: "How we deal with timeouts."
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/timeouts/
 sidenav: accessibility_guide
