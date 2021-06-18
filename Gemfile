@@ -6,7 +6,7 @@ gem "webrick"
 group :jekyll_plugins do
    gem 'jekyll-sitemap'
    gem 'jekyll-redirect-from'
-   gem 'jekyll-paginate-v2'
+   gem 'jekyll-paginate-v2', github: 'sverrirs/jekyll-paginate-v2'
    gem 'octopress-debugger'
    gem "jekyll-image-size", "~> 1.2.1"
    # For batch conversion of images
