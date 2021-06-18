@@ -12,6 +12,42 @@
   }
 }
 
+.page-company {
+  .page-subfooter {
+    background-color: $sk-blue-light;
+  }
+}
+
+.page-careers {
+  .page-subfooter {
+    background-color: $green-300;
+  }
+}
+
+.page-thoughts {
+  .page-subfooter {
+    background-color: $red-200;
+  }
+}
+
+.page-connect {
+  .page-subfooter {
+    background-color: $sk-yellow;
+
+    * {
+      color: $heading-color;
+    }
+
+    .page-subfooter__divider {
+      background-color: $ochre-200;
+    }
+  }
+
+  .page-subfooter-cta-col a {
+    border-color: $heading-color;
+  }
+}
+
 .page-subfooter-content {
   @include container-fluid-base;
 }

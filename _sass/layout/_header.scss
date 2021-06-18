@@ -171,8 +171,12 @@
   }
 }
 
+.nav-item--company {
+  @include navlink-color($blue-100-a);
+}
+
 .nav-item--work {
-  @include navlink-color($blue-100);
+  @include navlink-color($brand-primary);
 }
 
 .nav-item--careers {
