@@ -270,9 +270,10 @@
   .#{$class-name}-title-tag {
     @extend %text-uppercase;
     color: $tag-color;
+    line-height: 1.25;
     font-family: $font-family-mono;
     font-size: $tag-font-size;
-    line-height: 1.25;
+    font-weight: $font-weight-medium;
     text-align: $tag-alignment;
   }
 
