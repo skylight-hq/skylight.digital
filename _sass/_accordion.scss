@@ -4,7 +4,7 @@
       linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
-    background-size: 1rem;
+    background-size: $font-size-xx-small;
     border-bottom: 1px solid $black;
     display: block;
     padding: 1em;
@@ -49,7 +49,7 @@
     position: relative;
 
     > div:first-child {
-      padding-right: 24px;
+      padding-right: 30px;
     }
   }
 
@@ -97,24 +97,29 @@
 }
 
 .accordion-filter {
-  .accordion-header a {
-    background-color: $gray-lightest;
-
-    &:hover {
-      background-color: $gray-lighter;
-    }
+  .accordion-header {
+    width: fit-content;
   }
 
   .accordion-card-body {
-    border-color: $gray-lightest;
+    border-color: $black;
+    padding-inline: 0;
+
+    a {
+      &:hover {
+        color: $brand-primary;
+        font-weight: bold;
+      }
+    }
   }
 
-  .plus-minus-toggle,
-  .plus-minus-toggle {
-    &:before,
-    &:after {
-      background-color: $black;
-    }
+  h3 {
+    font-family: $font-family-sans-serif;
+  }
+
+  ul {
+    font-size: $font-size-small;
+    line-height: 2;
   }
 }
 
