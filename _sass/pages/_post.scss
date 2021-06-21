@@ -84,8 +84,13 @@
   @extend %blockquote;
   @extend %my-4;
 
-  cite::before {
-    content: "– ";
+  cite {
+    display: block;
+    margin-top: 1.75rem;
+
+    &::before {
+      content: "– ";
+    }
   }
 
   &.excerpt {
