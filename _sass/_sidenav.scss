@@ -1,3 +1,9 @@
+.sidenav {
+  @include media-breakpoint-up(sm) {
+    margin-top: -7px;
+  }
+}
+
 .subnav-col {
   @extend %col-12;
   @extend %mx-auto;
