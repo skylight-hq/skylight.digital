@@ -118,6 +118,10 @@
     &:focus {
       background-color: $link-hover-color;
     }
+
+    i {
+      font-size: $font-size-xxxx-small;
+    }
   }
 }
 

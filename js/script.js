@@ -270,7 +270,7 @@ $(function() {
         $(".filter-post-tags").append(
           '<a class="tag-badge" href="#" onclick="return false;">' +
             text +
-            '<i class="fa fa-times-circle ml-1"></i></a>'
+            '<i class="fa fa-times ml-2"></i></a>'
         );
         addRemoveHandler();
       } else {
