@@ -38,7 +38,7 @@
 
 .employee-subtitle {
   font-family: $font-family-mono;
-  font-weight: normal;
+  font-weight: $font-weight-medium;
 }
 
 @include multi-col-spacing("employee-col", $mb-size: 4, $mb-md-size: 5);
