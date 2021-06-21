@@ -22,6 +22,7 @@ h5,
 h6 {
   @extend %font-weight-bold;
   color: $heading-color;
+  line-height: 1.3;
 }
 
 @include media-breakpoint-between(xs, sm) {
