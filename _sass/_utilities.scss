@@ -55,6 +55,10 @@
   color: $body-color;
 }
 
+.text-gray-light {
+  color: $brand-gray-light;
+}
+
 .container-xxl {
   max-width: map-get($container-max-widths, "xxl");
 }
