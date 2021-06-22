@@ -74,6 +74,10 @@
   font-family: $font-family-mono;
   padding-bottom: 1.25rem;
   padding-top: 0;
+
+  a {
+    border-bottom: none;
+  }
 }
 
 .blog-post-title {
