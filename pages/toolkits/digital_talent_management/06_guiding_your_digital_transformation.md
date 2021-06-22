@@ -27,7 +27,7 @@ Pair each team with an internal agency champion. The champion will be someone wh
 ### Report to the highest levels
 
 <blockquote class="post-blockquote" cite="https://medium.com/code-for-america/delivery-driven-government-67e698c57c7b">
-<p>"The most successful, delivery-driven government efforts tend to have technology leadership reporting to the highest levels of the organization, not buried within it."</p>
+<p>The most successful, delivery-driven government efforts tend to have technology leadership reporting to the highest levels of the organization, not buried within it."</p>
 <cite><strong>Jennifer Pahlka</strong></cite>
 </blockquote>
 
@@ -75,7 +75,7 @@ The following metrics can be used to measure the performance of your team(s):
 ## Hire digital-savvy leadership
 
 <blockquote class="post-blockquote" cite="https://ourpublicservice.org/publications/mobilizing-tech-talent/">
-<p>"Having senior leaders who understand technology and its importance to the mission is fundamental for ensuring a high level of government effectiveness."</p>
+<p>Having senior leaders who understand technology and its importance to the mission is fundamental for ensuring a high level of government effectiveness."</p>
 <cite><strong>Jennifer Anastasoff and Jennifer Smith</strong></cite>
 </blockquote>
 
