@@ -99,6 +99,10 @@
 .accordion-filter {
   .accordion-header {
     width: fit-content;
+
+    a[aria-expanded="true"] {
+      border-bottom: none;
+    }
   }
 
   .accordion-card-body {
