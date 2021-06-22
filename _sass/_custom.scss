@@ -10,6 +10,7 @@ $blue-40: #b5d2e3;
 $blue-60: #90bcd6;
 $blue-80: #6ba5c8;
 $blue-100: #468fba;
+$blue-100-a: #277db0;
 $blue-200: #1d5392;
 $blue-300: #031a54;
 
@@ -54,18 +55,18 @@ $sk-yellow: darken($ochre-100, 0%);
 $sk-grey: $gray-100;
 
 // Font sizes
-$font-size-xxxxx-large: 3rem;    // 48px
-$font-size-xxxx-large: 2.5rem;   // 40px
-$font-size-xxx-large: 2rem;      // 32px
-$font-size-xx-large: 1.75rem;    // 28px
-$font-size-x-large: 1.5rem;      // 24px
-$font-size-large: 1.25rem;       // 20px
-$font-size-medium: 1.125rem;     // 18px
-$font-size-small: 1rem;          // 16px
-$font-size-x-small: 0.9375rem;   // 15px
-$font-size-xx-small: 0.875rem;   // 14px
+$font-size-xxxxx-large: 3rem; // 48px
+$font-size-xxxx-large: 2.5rem; // 40px
+$font-size-xxx-large: 2rem; // 32px
+$font-size-xx-large: 1.75rem; // 28px
+$font-size-x-large: 1.5rem; // 24px
+$font-size-large: 1.25rem; // 20px
+$font-size-medium: 1.125rem; // 18px
+$font-size-small: 1rem; // 16px
+$font-size-x-small: 0.9375rem; // 15px
+$font-size-xx-small: 0.875rem; // 14px
 $font-size-xxx-small: 0.8125rem; // 13px
-$font-size-xxxx-small: 0.75rem;  // 12px
+$font-size-xxxx-small: 0.75rem; // 12px
 
 // Bootstrap overrides
 //
@@ -100,7 +101,7 @@ $heading-color: $gray-300;
 
 // Links
 $link-color: $brand-primary;
-$link-hover-color: $brand-primary-light;
+$link-hover-color: $blue-100-a;
 $link-hover-decoration: none;
 
 // Fonts
@@ -129,6 +130,7 @@ $font-size-h4: $font-size-small;
 $font-size-h5: 1.25rem;
 
 $font-weight-normal: 400;
+$font-weight-medium: 500;
 $font-weight-bold: 600;
 
 $headings-margin-bottom: 0;
@@ -140,7 +142,7 @@ $text-muted: $gray-light;
 
 $list-inline-padding: 0;
 
-$prose-max-width: 636px;
+$prose-max-width: 72ex;
 
 // Navbar
 $navbar-padding-x: 0;

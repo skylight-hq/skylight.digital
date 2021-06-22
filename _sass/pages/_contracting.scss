@@ -1,21 +1,3 @@
-.page-connect {
-  .page-subfooter {
-    background-color: $sk-yellow;
-
-    * {
-      color: $heading-color;
-    }
-
-    .page-subfooter__divider {
-      background-color: $ochre-200;
-    }
-  }
-
-  .page-subfooter-cta-col a {
-    border-color: $heading-color;
-  }
-}
-
 .badge-sub--container {
   display: inline-block;
   margin-left: 0.5em;

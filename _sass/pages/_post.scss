@@ -84,8 +84,13 @@
   @extend %blockquote;
   @extend %my-4;
 
-  cite::before {
-    content: "– ";
+  cite {
+    display: block;
+    margin-top: 1.75rem;
+
+    &::before {
+      content: "– ";
+    }
   }
 
   &.excerpt {
@@ -117,6 +122,10 @@
     &:hover,
     &:focus {
       background-color: $link-hover-color;
+    }
+
+    i {
+      font-size: $font-size-xxxx-small;
     }
   }
 }

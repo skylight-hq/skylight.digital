@@ -1,6 +1,16 @@
 .page-join-us {
-  .page-subfooter {
-    background-color: $green-300;
+  .join__quote {
+    font-size: $font-size-x-large;
+    line-height: 1.5;
+  }
+
+  .quote-text {
+    color: $green-300;
+    font-size: $font-size-x-large;
+  }
+
+  .image-list {
+    margin-top: 1rem;
   }
 }
 
@@ -30,10 +40,6 @@
   p {
     margin-bottom: 0;
   }
-
-  .quote-text + p {
-    font-size: $font-size-medium;
-  }
 }
 
 .section__care-package {
@@ -57,10 +63,6 @@
       font-size: $font-size-x-small;
     }
   }
-
-  li {
-    border: 2px solid $gray-lightest;
-  }
 }
 
 .open-positions-title {
@@ -75,7 +77,13 @@
 }
 
 .open-positions-heading.open-positions-heading {
-  margin-top: 2.5em;
+  font-family: $font-family-mono;
+  font-size: $font-size-small;
+  text-transform: uppercase;
+}
+
+.open-positions__location {
+  color: $gray;
 }
 
 .care-square {

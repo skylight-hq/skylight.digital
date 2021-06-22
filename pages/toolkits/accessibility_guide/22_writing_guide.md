@@ -39,4 +39,4 @@ While related in ways, the Rehabilitation Act isn't part of the Americans with D
 
 [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/)
 
-`Accessibility out of the box. These guidelines were built with a priority on accessibility at every step of the design process in conformance with Section 508 Standards. From colors to code, everything you need to meet high standards of accessibility are baked into these tools.`
+Accessibility out of the box. These guidelines were built with a priority on accessibility at every step of the design process in conformance with Section 508 Standards. From colors to code, everything you need to meet high standards of accessibility are baked into these tools.

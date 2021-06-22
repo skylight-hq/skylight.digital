@@ -10,7 +10,7 @@
   }
 }
 
-.hero-container  {
+.hero-container {
   max-width: 1140px;
   padding-bottom: 56px; // Is there a spacing variable we can use?
   padding-top: 56px;
@@ -37,7 +37,7 @@
 .hero-btn-group {
   background: $gray-dark;
   bottom: 0;
-  box-shadow: 0 0 9px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
   display: flex;
   left: 0;
   padding: 16px;
@@ -79,9 +79,8 @@
   background-position: top center;
   background-size: auto;
 
-
   .hero-container {
-    max-width: 506px;
+    max-width: 515px;
     padding-bottom: 44px;
     padding-top: 47px;
     -webkit-animation: herofadein 1s;
@@ -90,7 +89,6 @@
 
   .hero-heading {
     font-size: $font-size-xxx-large;
-    text-shadow: $card-box-shadow;
 
     &.text-ink {
       text-shadow: none;
@@ -100,7 +98,6 @@
   .hero-content {
     font-size: $font-size-medium;
     margin-top: 1rem;
-    text-shadow: $card-box-shadow;
 
     &.text-ink {
       text-shadow: none;
