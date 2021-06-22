@@ -19,12 +19,6 @@
       }
     }
 
-    &.collapsed {
-      @include border-radius(
-        $card-border-radius-inner $card-border-radius-inner
-      );
-    }
-
     &[aria-expanded="true"] {
       background-image: url(../img/icons/chevron-up.svg),
         linear-gradient(transparent, transparent);
