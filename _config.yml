@@ -44,11 +44,6 @@ analytics:
 posts_max_related: 3
 posts_min_common_tags: 2
 
-# Build settings
-markdown: kramdown
-kramdown:
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-
 collections:
   projects:
     output: true
