@@ -74,9 +74,12 @@
 
 .landing-body {
   @extend %wide-column;
-  @extend %mt-5;
-  @extend %mt-md-7;
   line-height: 1.5;
+  margin-top: 3rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 11rem;
+  }
 }
 
 .landing-content-row,
@@ -84,7 +87,14 @@
   @extend %row;
 }
 
-.landing-content-row-margin,
+.landing-content-row-margin {
+  margin-bottom: 3rem;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 10rem;
+  }
+}
+
 .landing-info-row {
   @extend %mb-6;
   @extend %mb-md-6;
@@ -106,7 +116,7 @@
 }
 
 .landing-content-secondary-col {
-  @extend %col-lg-8;
+  // @extend %col-lg-8;
 
   p {
     @extend %mb-0;
