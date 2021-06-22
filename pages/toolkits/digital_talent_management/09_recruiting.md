@@ -46,7 +46,7 @@ Too often, job descriptions list every single technology under the sun. Narrow t
 Shorter, more realistic requirements lists show that you understand what you need. And they'll also bring in a more diverse applicant pool.
 
 <blockquote class="post-blockquote" cite="https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified">
-<p>"Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements."</p>
+<p>Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements."</p>
 <cite><strong>Tara Sophia Mohr</strong></cite>
 </blockquote>
 
@@ -92,13 +92,13 @@ Government often can't compete with industry on salary. To counter this, lead wi
 The [San Francisco Digital Services](https://digitalservices.sfgov.org/) website does this well with a concise paragraph:
 
 <blockquote class="post-blockquote">
-"We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up."
+We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up.
 </blockquote>
 
 The first sentence refers to impactful critical issues that are part of the city's mission. This draws the applicant in. A job description for a product manager similarly describes the mission aspect first:
 
 <blockquote class="post-blockquote">
-"You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting."
+You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting.
 </blockquote>
 
 Anyone who's tried to get a permit with the city will want to work on making that process better.
@@ -106,7 +106,7 @@ Anyone who's tried to get a permit with the city will want to work on making tha
 Candidates like hearing about what they'll be working on. Include short descriptions of the projects (or similar ones) they'll be working on. These can be simple descriptions, such as:
 
 <blockquote class="post-blockquote">
-"Our team is also building the city's website from the ground up."
+Our team is also building the city's website from the ground up.
 </blockquote>
 
 ## Advertise your job opening
@@ -134,17 +134,17 @@ Get everyone you know to use their social media channels to spread the word abou
 ![]({{ site.baseurl }}/img/toolkits/talent/image2.png){:class="w-100 mw-mobile-lg border p-3"}
 
 [Tweet source](https://twitter.com/laurabeaufort/status/1192079706423746560)
-{: .mb-5}
+{: .caption .mb-5}
 
 ![]({{ site.baseurl }}/img/toolkits/talent/image3.png){:class="w-100 mw-mobile-lg border p-3"}
 
 [Tweet source](https://twitter.com/waldojaquith/status/1190300713676611585)
-{: .mb-5}
+{: .caption .mb-5}
 
 ![]({{ site.baseurl }}/img/toolkits/talent/image1.png){:class="w-100 mw-mobile-lg border p-3"}
 
 [Tweet source](https://twitter.com/Citylajobs/status/954084813790728193)
-{: .mb-5}
+{: .caption .mb-5}
 
 ### Attend meetups and other events
 
@@ -200,7 +200,7 @@ Total from application to start |  80 to 110
 The City of San Francisco has a very high-touch hiring process. They require that someone is in touch with candidates at least once a week.
 
 <blockquote class="post-blockquote" cite="">
-<p>"We have gotten feedback from a lot of candidates that this was a really great interaction with government, pleasantly surprised by high-touch experience."</p>
+<p>We have gotten feedback from a lot of candidates that this was a really great interaction with government, pleasantly surprised by high-touch experience."</p>
 <cite><strong>Deputy Chief Digital Officer</strong></cite>
 </blockquote>
 

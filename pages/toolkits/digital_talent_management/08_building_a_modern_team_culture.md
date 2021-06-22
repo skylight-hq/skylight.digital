@@ -11,7 +11,7 @@ content_type: Toolkit
 # Building a modern team culture
 
 <blockquote class="post-blockquote">
-<p>"Culture eats strategy for breakfast."</p>
+<p>Culture eats strategy for breakfast."</p>
 <cite><strong>Peter Drucker</strong></cite>
 </blockquote>
 
@@ -134,7 +134,7 @@ Create a community where everyone feels empowered to speak up. It's useful to do
 ### Use inclusive language in all communications
 
 <blockquote class="post-blockquote" cite="https://content-guide.18f.gov/inclusive-language/">
-<p>"As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users."</p>
+<p>As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users."</p>
 <cite><strong>18F</strong></cite>
 </blockquote>
 

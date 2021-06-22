@@ -35,7 +35,7 @@ Sarah Saltiel not only organized our teams' 100+ interviews, she took incredible
 In the end, bolstered by the acumen and superb wordsmithing from Policy Lead, Rosanna Kim, our small team was proud to [complete a report](https://www.ncoc.org/wp-content/uploads/2020/10/Final-Report-A-Roadmap-to-Rebuilding-USRAP.pdf) with concrete steps a new administration could take in its first 100 days, year, and four years. A big part of that report was the refugee journey map. I was struck by how well received it was. I got feedback from people who had been working on refugee policy for years that they'd never seen this before &mdash; that they'd never looked at the whole process from the refugee perspective. Getting policymakers to see their policies from the vantage of those affected by them is something I'm constantly striving for as a UX researcher, and is the first step towards positive change.
 
 ![A journey map of the refugee admission experience.](/img/blog/refugee_admissions_research/refugee-admission-journey-map.png)
-{:class="border p-3 mb-0"}
+{:class="border p-3"}
 
 Source: Penn Biden Center/NCoC
 {:.caption}

@@ -14,13 +14,9 @@
 
   h3 {
     font-size: $font-size-base;
-    letter-spacing: 0.05em;
-    line-height: 1.375;
-    text-transform: uppercase;
   }
 
   h4 {
-    color: $gray-light;
     font-size: $font-size-base;
   }
 
@@ -96,5 +92,5 @@
   color: $gray-light;
   font-family: $font-family-mono;
   font-size: $font-size-xs;
-  margin-top: 0.25rem;
+  margin-top: -0.625rem;
 }

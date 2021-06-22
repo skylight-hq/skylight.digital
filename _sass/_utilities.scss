@@ -24,11 +24,11 @@
 }
 
 .bg-red {
-  background-color: $sk-red;
+  background-color: $red-200;
 }
 
 .bg-green {
-  background-color: $sk-green;
+  background-color: $green-300;
 }
 
 .bg-blue {
@@ -53,6 +53,10 @@
 
 .text-body {
   color: $body-color;
+}
+
+.text-gray-light {
+  color: $brand-gray-light;
 }
 
 .container-xxl {

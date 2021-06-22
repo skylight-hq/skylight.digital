@@ -11,7 +11,7 @@ content_type: Toolkit
 # Leading and managing a digital team
 
 <blockquote class="post-blockquote">
-<p>"The gardener cannot actually 'grow' tomatoes, squash, or beans &mdash; she can only foster an environment in which the plants do so."</p>
+<p>The gardener cannot actually 'grow' tomatoes, squash, or beans &mdash; she can only foster an environment in which the plants do so."</p>
 <cite><strong>General Stanley McChrystal</strong></cite>
 </blockquote>
 

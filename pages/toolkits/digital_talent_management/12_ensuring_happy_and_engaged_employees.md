@@ -11,7 +11,7 @@ content_type: Toolkit
 # Ensuring happy and engaged employees
 
 <blockquote class="post-blockquote" cite="https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-the-work-really-looks-like/">
-<p>"Just as interacting with government can be hard, working within government to improve those interactions is also hard. People management is hard, the silos are hard, the bureaucracy is hard."</p>
+<p>Just as interacting with government can be hard, working within government to improve those interactions is also hard. People management is hard, the silos are hard, the bureaucracy is hard."</p>
 <cite><strong>Hana Schank and Sara Hudson</strong></cite>
 </blockquote>
 
