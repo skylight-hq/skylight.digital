@@ -116,8 +116,6 @@
 }
 
 .landing-content-secondary-col {
-  // @extend %col-lg-8;
-
   p {
     @extend %mb-0;
 
@@ -139,12 +137,11 @@
   &:first-child {
     @extend %mb-3;
     @extend %mb-lg-0;
-    @extend %mr-lg-5;
+    margin-right: 1.5rem;
   }
 
   a {
     @extend %btn-page;
-    min-width: 260px;
   }
 }
 
