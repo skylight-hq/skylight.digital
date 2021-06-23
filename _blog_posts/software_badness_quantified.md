@@ -17,17 +17,17 @@ date_published: 2017-06-15
 date: 2017-06-15
 ---
 <blockquote class="post-blockquote" cite="http://quoteinvestigator.com/2012/04/28/shorter-letter/">
-<p>"If I had more time, I would have written a shorter letter."</p>
+<p>If I had more time, I would have written a shorter letter.</p>
 <cite><strong>attribution unclear</strong></cite>
 </blockquote>
 
 <blockquote class="post-blockquote" cite="http://www.paulgraham.com/power.html">
-<p>"Succinctness is power."</p>
+<p>Succinctness is power.</p>
 <cite><strong>Paul Graham</strong></cite>
 </blockquote>
 
 <blockquote class="post-blockquote" cite="https://www.brainyquote.com/quotes/ezra_pound_398432">
-<p>"Great literature is simply language charged with meaning to the utmost possible degree."</p>
+<p>Great literature is simply language charged with meaning to the utmost possible degree.</p>
 <cite><strong>Ezra Pound</strong></cite>
 </blockquote>
 
