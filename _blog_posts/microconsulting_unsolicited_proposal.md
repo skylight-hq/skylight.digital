@@ -34,7 +34,7 @@ Here is an attempt to storyboard this:
 We've been gratified by the positive reaction to our [Microconsulting Services announcement](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/). In particular, we accord with Harvard professor Dr. Steve Kelman's <a href="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">piece</a> on the disruptive implications of such small-scoped services, who writes:
 
 <blockquote class="post-blockquote" cite="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">
-<p>"If microconsulting can gain traction, this could become a disruptive innovation that forces legacy contractors to change their consulting scoping models."</p>
+<p>If microconsulting can gain traction, this could become a disruptive innovation that forces legacy contractors to change their consulting scoping models.</p>
 </blockquote>
 
 Indeed. We want to hasten that. Already, we're starting to see more and more parallel trends toward the acquisition of bite-sized professional services facilitated via digital marketplace platforms. For example, 18F's <a href="https://micropurchase.18f.gov/">micropurchase platform</a> can be used to procure open-source-code contributions from vendors under the federal micropurchase threshold.
@@ -52,7 +52,7 @@ In fact, we'd like to assert a bold hypothesis:
 In other words, this problem is bigger than 18F, and it's bigger than any one contractor, including Skylight. We think this could be a truly transformative way of acquiring some of the support that government needs. (It isn't appropriate in all cases, but certainly many.) One of the nice advantages of staying under the micropurchase threshold, as Dr. Steve Kelman notes:
 
 <blockquote class="post-blockquote" cite="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">
-<p>"Past performance may be taken into account without any formal rating system, not to speak of an appeals process. This promises to introduce the kind of robust use of past performance as in the commercial world, which will strongly incentivize good performance."</p>
+<p>Past performance may be taken into account without any formal rating system, not to speak of an appeals process. This promises to introduce the kind of robust use of past performance as in the commercial world, which will strongly incentivize good performance.</p>
 </blockquote>
 
 Ideally, this wouldn't be based on personal relationships, but would be a free and open marketplace of firms and individuals offering short and sharp microconsulting services.
@@ -62,13 +62,13 @@ Currently, the government isn't actively looking in the marketplace for such an 
 It turns out there's such a mechanism in the ever-flexible FAR: <a href="https://www.acquisition.gov/far/current/html/Subpart%2015_6.html#wp1104869">Subpart 15.6 &mdash; Unsolicited Proposals</a>. Unfortunately, like many other permitted practices under the FAR, such as [share-in-savings contracting](/blog/reactions-to-our-agile-share-in-savings-model/), unsolicited proposals are an underutilized yet powerful procurement practice, as Jonathan Mostowski of the U.S. Digital Service indicated in a <a href="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">LinkedIn post</a>:
 
 <blockquote class="post-blockquote" cite="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">
-<p>"The Federal Government needs to improve they way it deals with unsolicited proposals. Most agencies have a process but I haven't come across one that worked well.</p>
+<p>The Federal Government needs to improve they way it deals with unsolicited proposals. Most agencies have a process but I haven't come across one that worked well.</p>
 
 <p>The need to protect competition should be balanced with rewarding innovation targeted at government needs. I like an open BAA [Broad Agency Announcement] as a work around, but the process for unsolicited proposal acceptance should be straightforward, budgeted, and efficient.</p>  
 
 <p>I have seen many great solutions fall into the trap of 'sorry we just don't know how to buy a thing we didn't ask for.'</p>   
 
-<p>FAR 6.302-1 allows you to sole source when there is only one responsible source but that is not necessarily the case for unsolicited solutions."</p>
+<p>FAR 6.302-1 allows you to sole source when there is only one responsible source but that is not necessarily the case for unsolicited solutions.</p>
 </blockquote>
 
 Regardless of how well or not a particular agency handles unsolicited proposals, we believe that a microconsulting services marketplace platform is a concept worth experimenting with using [modern digital delivery practices](/work/services/#digital-services-delivery). And we'd like to support the government in that endeavor. Therefore, we'll be submitting a fully open, unsolicited proposal to the government shortly, in accordance with FAR Subpart 15.6.
