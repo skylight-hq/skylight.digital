@@ -14,8 +14,13 @@
     padding-top: 56px;
   }
 
+  .accordion-header h3 {
+    font-family: $font-family-sans-serif;
+  }
+
   .accordion-card-body {
     @include list;
+    font-family: $font-family-sans-serif;
   }
 }
 
