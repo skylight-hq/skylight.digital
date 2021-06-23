@@ -50,6 +50,7 @@
   h2 {
     color: $white;
     font-size: 42px;
+    line-height: 1.2;
 
     @include media-breakpoint-up(sm) {
       font-size: 52px;
