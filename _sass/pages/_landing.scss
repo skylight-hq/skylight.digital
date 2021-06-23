@@ -117,7 +117,8 @@
   @extend %mx-auto;
 }
 
-.landing-content-primary-col {
+.landing-content-primary-col,
+.landing-content-secondary-col {
   @extend %col-lg-8;
   @extend %mb-4;
 }
