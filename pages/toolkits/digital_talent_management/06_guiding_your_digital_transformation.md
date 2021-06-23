@@ -75,7 +75,7 @@ The following metrics can be used to measure the performance of your team(s):
 ## Hire digital-savvy leadership
 
 <blockquote class="post-blockquote" cite="https://ourpublicservice.org/publications/mobilizing-tech-talent/">
-<p>Having senior leaders who understand technology and its importance to the mission is fundamental for ensuring a high level of government effectiveness."</p>
+<p>Having senior leaders who understand technology and its importance to the mission is fundamental for ensuring a high level of government effectiveness.</p>
 <cite><strong>Jennifer Anastasoff and Jennifer Smith</strong></cite>
 </blockquote>
 

@@ -27,7 +27,7 @@ To support these new projects, we've grown our design, product, engineering, and
 [Marvo](/company/about/#marvo-dolor) is drawn to solving complex, multi-faceted government problems. At Skylight, she works with our clients to plan and execute [service delivery](/work/services/#digital-services-delivery), [procurement](/work/services/#digital-procurement), and [transformation](/work/services/#digital-transformation) initiatives using agile project management techniques. Prior to joining us, Marvo served as a member of the [U.S. Digital Service](https://www.usds.gov/) at the Department of Veterans Affairs (VA), where she held multiple leadership positions in support of major initiatives, such as the successful [redesign of VA.gov](https://www.va.gov/) and the [modernization of the benefits appeals process](https://www.fedscoop.com/help-usds-va-improves-benefits-appeals-tracking-tool/).
 
 <blockquote class="post-blockquote">
-<p>"I believe technology can do more than entertain and amaze us &mdash; it can also be a force for good in people's lives. That's why it was an honor to do a tour of duty with the U.S. Digital Service."
+<p>I believe technology can do more than entertain and amaze us &mdash; it can also be a force for good in people's lives. That's why it was an honor to do a tour of duty with the U.S. Digital Service.
 </p>
 </blockquote>
 
@@ -37,7 +37,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 <blockquote class="post-blockquote">
 <p>
-"I'm really proud of the technically-complex, user-research-driven project that I worked on to help the VA track and distribute new appeal requests sent by veterans under the then-recently-passed Appeals Improvement and Modernization Act."
+I'm really proud of the technically-complex, user-research-driven project that I worked on to help the VA track and distribute new appeal requests sent by veterans under the then-recently-passed Appeals Improvement and Modernization Act.
 </p>
 </blockquote>
 
@@ -47,7 +47,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 <blockquote class="post-blockquote">
 <p>
-"Veterans described the VA appeals process as a &apos;black hole,&apos; where their disability compensation claim could sit for years without any updates from the VA. I led a team to develop an Appeals Status tool that provided veterans with plain-language updates. It contributed to a 40% reduction in call center volumes, but more importantly a veteran said of the new tool, &apos;It gives me hope.&apos;"
+Veterans described the VA appeals process as a &apos;black hole,&apos; where their disability compensation claim could sit for years without any updates from the VA. I led a team to develop an Appeals Status tool that provided veterans with plain-language updates. It contributed to a 40% reduction in call center volumes, but more importantly a veteran said of the new tool, &apos;It gives me hope.&apos;
 </p>
 </blockquote>
 
@@ -57,7 +57,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 <blockquote class="post-blockquote">
 <p>
-"Building JustFix.nyc was a rewarding and exciting adventure because we brought human-centered design to New York City's housing justice community. As the design lead, I worked with tenants and organizers across the city to co-design tools to fight for housing equality."
+Building JustFix.nyc was a rewarding and exciting adventure because we brought human-centered design to New York City's housing justice community. As the design lead, I worked with tenants and organizers across the city to co-design tools to fight for housing equality.
 </p>
 </blockquote>
 
@@ -67,7 +67,7 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 
 <blockquote class="post-blockquote">
 <p>
-"I was tasked with better understanding the freshman college student writing experience, including the pain points associated with transitioning from high school-level writing standards to college-level writing standards. We conducted a longitudinal diary study that uncovered opportunities along the writing journey that we were able to turn into helpful student tools."
+I was tasked with better understanding the freshman college student writing experience, including the pain points associated with transitioning from high school-level writing standards to college-level writing standards. We conducted a longitudinal diary study that uncovered opportunities along the writing journey that we were able to turn into helpful student tools.
 </p>
 </blockquote>
 
@@ -77,7 +77,7 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 
 <blockquote class="post-blockquote">
 <p>
-"I really enjoyed my experience developing back-office systems for U.S. Citizenship and Immigration Services to process visa applications. Even though our software wasn't highly visible, I saw first-hand how well-designed software can improve both the lives of people coming to this country and the civil servants handling their cases."
+I really enjoyed my experience developing back-office systems for U.S. Citizenship and Immigration Services to process visa applications. Even though our software wasn't highly visible, I saw first-hand how well-designed software can improve both the lives of people coming to this country and the civil servants handling their cases.
 </p>
 </blockquote>
 
@@ -87,7 +87,7 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 
 <blockquote class="post-blockquote">
 <p>
-"Creating the <a href="https://www.wired.com/2013/06/fa_mogadishu/">digital map</a> for Mogadishu will always be my most meaningful project because we didn't just create a map, we created a database for businesses and projects to measure problems and redistribute resources."
+Creating the <a href="https://www.wired.com/2013/06/fa_mogadishu/">digital map</a> for Mogadishu will always be my most meaningful project because we didn't just create a map, we created a database for businesses and projects to measure problems and redistribute resources.
 </p>
 </blockquote>
 
@@ -97,7 +97,7 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 
 <blockquote class="post-blockquote">
 <p>
-"I was at an EdTech startup focused on getting students interested in STEM with a field science app. As part of my research, we took students into the field (beach, forest) and it was amazing to watch how students' mindsets changed about where they live. I remember one student saying ‘I've been to this park a million times but I never saw the birds.’"
+I was at an EdTech startup focused on getting students interested in STEM with a field science app. As part of my research, we took students into the field (beach, forest) and it was amazing to watch how students' mindsets changed about where they live. I remember one student saying ‘I've been to this park a million times but I never saw the birds.’
 </p>
 </blockquote>
 
@@ -107,7 +107,7 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 
 <blockquote class="post-blockquote">
 <p>
-"At 18F, I worked on the <a href="https://crime-data-explorer.fr.cloud.gov/">FBI Crime Data Explorer</a>. This was one of the first open-source projects for the FBI, and involved exposing multiple crime statistics datasets to the public in a useable way."
+At 18F, I worked on the <a href="https://crime-data-explorer.fr.cloud.gov/">FBI Crime Data Explorer</a>. This was one of the first open-source projects for the FBI, and involved exposing multiple crime statistics datasets to the public in a useable way.
 </p>
 </blockquote>
 
@@ -117,7 +117,7 @@ Originally a software engineer, [Victoria](/company/about/#victoria-suwardiman) 
 
 <blockquote class="post-blockquote">
 <p>
-"I led foundational research efforts to understand how higher education students are using <a href="https://www.lauravlassarev.com/new-page-3">print and digital materials</a> to learn and gained deep insight into why students prefer print materials to digital. Focusing on learners' needs helped us hone in on an innovative solution for digital courseware and reading experiences."
+I led foundational research efforts to understand how higher education students are using <a href="https://www.lauravlassarev.com/new-page-3">print and digital materials</a> to learn and gained deep insight into why students prefer print materials to digital. Focusing on learners' needs helped us hone in on an innovative solution for digital courseware and reading experiences.
 </p>
 </blockquote>
 
