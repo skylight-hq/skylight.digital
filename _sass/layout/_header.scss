@@ -171,26 +171,6 @@
   }
 }
 
-.nav-item--company {
-  @include navlink-color($blue-100-a);
-}
-
-.nav-item--work {
-  @include navlink-color($brand-primary);
-}
-
-.nav-item--careers {
-  @include navlink-color($green-300);
-}
-
-.nav-item--thoughts {
-  @include navlink-color($red-200);
-}
-
-.nav-item--connect {
-  @include navlink-color($ochre-300);
-}
-
 .dropdown-menu {
   border: none;
   border-radius: 0.25rem;
