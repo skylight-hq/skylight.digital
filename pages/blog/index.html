@@ -45,7 +45,7 @@ pagination:
                 <p class="blog-post-title-tag">{{item.title_tag}}</p>
               {% endif %}
               <h2 class="blog-post-title {{context}}">{{item.title}}</h2>
-              <p class="blog-post-text">{{item.excerpt}}</p>
+              <div class="blog-post-text">{{item.excerpt | markdownify }}</div>
             </div>
             <div class="blog-post-footer">
               <a href="{{item.permalink}}" tabindex="0">

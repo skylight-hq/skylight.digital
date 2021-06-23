@@ -59,7 +59,7 @@ pagination:
             <p class="project-title-tag">{{item.title_tag}}</p>
             {% endif %}
             <h2 class="project-title {{context}}">{{item.title}}</h2>
-            <p class="project-text">{{item.excerpt}}</p>
+            <div class="project-text">{{item.excerpt | markdownify}}</div>
           </div>
           <div class="project-footer">
             <a href="{{item.permalink}}" tabindex="0">
