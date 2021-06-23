@@ -69,7 +69,8 @@
 
 .post-table {
   @extend %table;
-  @extend %my-4;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 
   @include media-breakpoint-down(sm) {
     display: block;
