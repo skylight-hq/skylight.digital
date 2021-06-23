@@ -46,7 +46,7 @@ Too often, job descriptions list every single technology under the sun. Narrow t
 Shorter, more realistic requirements lists show that you understand what you need. And they'll also bring in a more diverse applicant pool.
 
 <blockquote class="post-blockquote" cite="https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified">
-<p>Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements."</p>
+<p>Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements.</p>
 <cite><strong>Tara Sophia Mohr</strong></cite>
 </blockquote>
 

@@ -35,7 +35,7 @@ I learned about some of these challenges while interviewing clinical staff in th
 A biller with 13 years of experience working at a small, federally-funded rural hospital in California, talked about difficulties keeping up with new rules and regulations, particularly in the early months of the pandemic, when reimbursement rules were nearly constantly in flux:
 
 <blockquote class="post-blockquote">
-<p>"You can get one person to process [a claim] one way, and the next person will process it another way. It's all up to interpretation. A lot of this we learned from trial and error. It's so hard."</p>
+<p>You can get one person to process [a claim] one way, and the next person will process it another way. It's all up to interpretation. A lot of this we learned from trial and error. It's so hard.</p>
 </blockquote>
 
 Sometimes a new rule would come out that applied to backdated claims, requiring staff to re-code. Sometimes those claims would get denied anyway, even after trying to carefully follow the new policies.

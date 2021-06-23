@@ -16,7 +16,7 @@ Improving digital services requires organizational change, and it takes a team a
 ## Keep teams small
 
 <blockquote class="post-blockquote">
-<p>If you can't feed a team with two pizzas, it's too large."</p>
+<p>If you can't feed a team with two pizzas, it's too large.</p>
 <cite><strong>Jeff Bezos</strong></cite>
 </blockquote>
 
