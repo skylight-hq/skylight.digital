@@ -8,7 +8,7 @@
 
     <div class="page-subfooter-text-row">
       <div class="{{include.text_css_class}}">
-        <p>{{include.text}}</p>
+        {{include.text | markdownify }}
       </div>
     </div>
 
