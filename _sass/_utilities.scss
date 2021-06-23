@@ -113,3 +113,11 @@
   cursor: default;
   text-decoration: none;
 }
+
+.linebreak {
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: block;
+  }
+}
