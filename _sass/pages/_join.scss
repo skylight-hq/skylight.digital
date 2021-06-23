@@ -56,7 +56,7 @@
     @extend %mt-4;
 
     li:not(:last-child) {
-      @extend %mb-4;
+      margin-bottom: 2rem;
     }
 
     p {
@@ -79,6 +79,7 @@
 .open-positions-heading.open-positions-heading {
   font-family: $font-family-mono;
   font-size: $font-size-small;
+  font-weight: $font-weight-medium;
   text-transform: uppercase;
 }
 

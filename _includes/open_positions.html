@@ -1,45 +1,55 @@
 <h2 id="open-positions">Open positions</h2>
 
 {% if site.data.open_positions[0] %}
-  <p class="text-intro">Below are the roles that we're actively hiring for:</p>
+<p class="text-intro">Below are the roles that we're actively hiring for:</p>
 
-  <div class="open-positions-list">
-    {% assign groups = site.data.open_positions | group_by: 'category' | sort: 'order' %}
-    {% for group in groups %}
-      <h3 class="open-positions-heading">{{ group.name }}</h3>
-      <ul>
-      {% for item in group.items %}
-        <li>
-          <a class="no-border open-positions-title" href="{{ item.url }}" title="View job posting for {{ item.title }}">
-            {{ item.title }}
-          </a>
-          <p class="open-positions__location"><i class="fa fa-globe mr-2"></i>{{ item.location }}</p>
-          <div class="mt-1 open-positions-summary">{{ item.summary | markdownify }}</div>
-        </li>
-      {% endfor %}
-      </ul>
+<div class="open-positions-list text">
+  {% assign groups = site.data.open_positions | group_by: 'category' | sort:
+  'order' %} {% for group in groups %}
+  <h3 class="open-positions-heading">{{ group.name }}</h3>
+  <ul>
+    {% for item in group.items %}
+    <li>
+      <a
+        class="open-positions-title"
+        href="{{ item.url }}"
+        title="View job posting for {{ item.title }}"
+      >
+        {{ item.title }}
+      </a>
+      <p class="open-positions__location">
+        <i class="fa fa-globe mr-2"></i>{{ item.location }}
+      </p>
+      <div class="mt-1 open-positions-summary">
+        {{ item.summary | markdownify }}
+      </div>
+    </li>
     {% endfor %}
-  </div>
+  </ul>
+  {% endfor %}
+</div>
 
-  <div class="text">
-    <p>
-      Don't see your role? Don't worry, we could be hiring sooner than you think, so we'd
-      still love to talk. We typically hire people with skills in research, design, product
-      management, engineering, data science, security, procurement, digital transformation,
-      and client engagement management.
-      Please don't hesitate to <a href="mailto:hello@skylight.digital">reach out to us</a>.
-    </p>
+<div class="text">
+  <p>
+    Don't see your role? Don't worry, we could be hiring sooner than you think,
+    so we'd still love to talk. We typically hire people with skills in
+    research, design, product management, engineering, data science, security,
+    procurement, digital transformation, and client engagement management.
+    Please don't hesitate to
+    <a href="mailto:hello@skylight.digital">reach out to us</a>.
+  </p>
 
-    <p>
-      For most roles, we also offer paid apprenticeship opportunities for post-graduate
-      professionals and paid internship opportunities for current or recent college graduates.
-      If you're interested in an apprenticeship or internship,
-      please <a href="mailto:hello@skylight.digital">get in touch</a>.
-    </p>
+  <p>
+    For most roles, we also offer paid apprenticeship opportunities for
+    post-graduate professionals and paid internship opportunities for current or
+    recent college graduates. If you're interested in an apprenticeship or
+    internship, please <a href="mailto:hello@skylight.digital">get in touch</a>.
+  </p>
   {% else %}
-    <p>
-      We're not currently hiring at the moment, but that can change quickly.
-      So please don't hesitate to <a href="mailto:hello@skylight.digital">>get in touch</a>!
-    </p>
+  <p>
+    We're not currently hiring at the moment, but that can change quickly. So
+    please don't hesitate to
+    <a href="mailto:hello@skylight.digital">>get in touch</a>!
+  </p>
   {% endif %}
 </div>

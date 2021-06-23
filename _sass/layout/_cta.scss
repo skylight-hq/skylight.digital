@@ -2,10 +2,9 @@
   @extend %text-center;
   @extend %mt-5;
   @extend %mt-md-6;
-  @extend %py-4;
-  @extend %py-md-5;
   color: $page-cta-color;
   background: $page-cta-bg-color;
+  padding-block: 4rem;
 
   * {
     color: $page-cta-color;
