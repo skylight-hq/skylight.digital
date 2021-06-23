@@ -12,8 +12,10 @@
 
 .hero-container {
   max-width: 1140px;
-  padding-bottom: 56px; // Is there a spacing variable we can use?
-  padding-top: 56px;
+  height: 169px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
 }
 
 .hero-heading {
@@ -80,9 +82,7 @@
   background-size: auto;
 
   .hero-container {
-    max-width: 515px;
-    padding-bottom: 44px;
-    padding-top: 47px;
+    max-width: 420px;
     -webkit-animation: herofadein 1s;
     animation: herofadein 1s;
   }
