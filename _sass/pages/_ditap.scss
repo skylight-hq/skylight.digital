@@ -141,9 +141,6 @@
   p {
     font-size: $font-size-small;
     margin-bottom: 0;
-
-    &:first-of-type {
-    }
   }
 }
 
@@ -195,7 +192,6 @@ $outline-light: 2px solid #f2f2f2;
   border: $card-border-width solid $card-border-color;
   box-shadow: $card-box-shadow;
   color: $body-color;
-  font-size: $font-size-small;
   padding: 1.25rem;
 
   &:hover {
@@ -203,24 +199,33 @@ $outline-light: 2px solid #f2f2f2;
     box-shadow: none;
     color: $body-color;
   }
-
-  p {
-  }
 }
 
 .tuition-card-meta {
   p {
-    font-size: $font-size-xx-small;
     margin-top: 4px;
   }
+
+  h4 {
+    @include kicker;
+  }
 }
-// .tuition-card-link {
-//   @include media-breakpoint-up(lg) {
-//     align-items: center;
-//     display: flex;
-//     justify-content: flex-end;
-//   }
-// }
+
+.tuition-card-meta-info {
+  * {
+    display: inline;
+  }
+
+  h4 {
+    margin-right: 1rem;
+  }
+}
+
+.tuition-card-link {
+  font-family: $font-family-mono;
+  font-size: $font-size-small;
+  font-weight: normal;
+}
 
 // Deprecated
 .tuition-card-img {
@@ -248,6 +253,7 @@ $outline-light: 2px solid #f2f2f2;
 }
 
 .class-heading {
+  color: $brand-primary;
   display: inline-block;
 }
 

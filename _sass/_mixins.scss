@@ -318,6 +318,15 @@
   }
 }
 
+@mixin kicker {
+  color: $gray-light;
+  line-height: 1.3;
+  font-family: $font-family-mono;
+  font-size: $font-size-xx-small;
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+}
+
 // Misc
 @mixin container-fluid-base {
   @extend %container-fluid;
