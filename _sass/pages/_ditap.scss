@@ -16,8 +16,13 @@
   }
 
   .post-blockquote {
-    background-color: $ochre-20;
+    background-color: $ochre-40;
     color: $black;
+
+    &::before {
+      color: $gray-80;
+      opacity: 1;
+    }
   }
 
   .accordion-header h3 {
@@ -128,10 +133,9 @@
 
   h3 {
     font-size: $font-size-small;
+    letter-spacing: 0.05em;
     line-height: 1.375;
     text-transform: uppercase;
-    font-family: $font-family-mono;
-    font-weight: $font-weight-medium;
   }
 
   p {
@@ -139,6 +143,16 @@
     margin-bottom: 0;
 
     &:first-of-type {
+    }
+  }
+}
+
+.page-join-us {
+  .text-grid {
+    h3 {
+      font-family: $font-family-mono;
+      font-weight: $font-weight-medium;
+      letter-spacing: 0;
     }
   }
 }
