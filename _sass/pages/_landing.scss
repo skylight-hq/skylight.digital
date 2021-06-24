@@ -6,17 +6,17 @@
   @extend %jumbotron;
   @extend %jumbotron-fluid;
   @extend %mb-0;
-  background-color: #235384;
+  background-color: $brand-primary;
   position: relative;
   padding-bottom: 22%;
 
   @include media-breakpoint-up(sm) {
-    min-height: calc(100vh - 82px);
+    height: 580px;
     padding-bottom: initial;
-    padding-top: 12vh;
+    padding-top: 82px;
   }
 
-  &:before {
+  &::before {
     background-image: url("../img/hero-mobile.svg");
     background-position: right 4px bottom;
     background-repeat: no-repeat;
@@ -34,6 +34,10 @@
       background-image: url("../img/hero.svg");
       background-position: center top;
       background-size: cover;
+    }
+
+    @include media-breakpoint-up(2xl) {
+      background-size: contain;
     }
   }
 }
