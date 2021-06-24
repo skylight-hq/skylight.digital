@@ -1552,8 +1552,8 @@
   full_name: Lucas Newman
   short_name: L. Newman
   profile_path: /company/about/#lucas-newman
-  image: /img/people/lucas-newman.jpg
-  image_description: Photo of Lucas Newman
+  image: /img/people/lucas-newman.png
+  image_description: Illustration of Lucas Newman
   position: Software Engineer
   bio: >
     Lucas's a software engineer with an unflinching faith in the ethical potential of
@@ -1741,8 +1741,8 @@
   full_name: Gianna Uson
   short_name: G. Uson
   profile_path: /company/about/#gianna-uson
-  image: /img/people/gianna-uson.png
-  image_description: Illustration of Gianna Uson
+  image: /img/people/gianna-uson.jpg
+  image_description: Photo of Gianna Uson
   position: Software Engineer
   bio: >
     Gianna's a software engineer who's passionate about leveraging technology
@@ -1839,8 +1839,8 @@
   full_name: Leslie Garner Franklin
   short_name: L. Garner Franklin
   profile_path: /company/about/#leslie-garner-franklin
-  image: /img/people/leslie-garner-franklin.png
-  image_description: Illustration of Leslie Garner Franklin
+  image: /img/people/leslie-garner-franklin.jpg
+  image_description: Photo of Leslie Garner Franklin
   position: Product Manager
   bio: >
    Leslie's a product manager with nearly two decades of experience leading teams and
