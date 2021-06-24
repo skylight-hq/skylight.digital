@@ -152,6 +152,11 @@ mark,
     position: absolute;
   }
 
+  a {
+    color: $white !important;
+    border-bottom-color: $white !important;
+  }
+
   cite {
     font-style: normal;
     font-weight: normal;
