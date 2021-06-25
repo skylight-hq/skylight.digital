@@ -13,6 +13,10 @@
     margin-top: 1rem;
   }
 
+  .image-list__employee-img {
+    @include border-radius;
+  }
+
   svg {
     height: 50px;
   }
