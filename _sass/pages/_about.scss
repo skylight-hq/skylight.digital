@@ -1,25 +1,19 @@
 .about-us {
-  @extend %page-main-base;
+  h2 {
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+    text-align: center;
+  }
 }
 
 .about-info {
-  @include container-fluid-base;
-}
-
-.about-info-row {
-  @extend %row;
-}
-
-.about-info-col {
-  @extend %col-sm-11;
-  @extend %col-lg-8;
-  @extend %mx-auto;
-  @extend %text-left;
-  @extend %text;
+  @include grid-container;
+  max-width: 840px !important;
 }
 
 .employees {
-  @extend %wide-column;
+  @include grid-container;
+  max-width: 1140px !important;
 }
 
 .employees-row {

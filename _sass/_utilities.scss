@@ -121,3 +121,7 @@
     display: block;
   }
 }
+
+.grid-container {
+  @include grid-container;
+}

@@ -345,3 +345,13 @@
   @extend %col-lg-6;
   @extend %mx-auto;
 }
+
+@mixin grid-container {
+  @include make-container();
+  @include make-container-max-widths();
+}
+
+@mixin margin-heading {
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}

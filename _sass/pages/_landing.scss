@@ -78,7 +78,7 @@
 }
 
 .landing-body {
-  @extend %wide-column;
+  @include grid-container;
   line-height: 1.5;
   margin-top: 3rem;
 

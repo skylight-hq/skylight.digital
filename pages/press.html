@@ -16,8 +16,8 @@ preload: hero-press.svg
   color = 'info'
   image = 'hero-press.svg'
 %}
-<section class="container-md mx-auto">
-  <div class="container text">
+<section class="container maxw-prose">
+  <div class="text">
     {% for item in paginator.posts %}
       <article class="press__article">
         <p class="mb-3 small mt-5 project-title-tag">{{ item.source }}: {{ item.date | date: "%B %-d, %Y" }}</p>
