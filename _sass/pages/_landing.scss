@@ -128,8 +128,6 @@
 }
 
 .landing-content-secondary-col {
-  margin-bottom: 0;
-
   p {
     @extend %mb-0;
 
@@ -141,8 +139,7 @@
 
 .landing-content-ctas-col {
   @extend %col-12;
-  @extend %mt-5;
-  @extend %mt-md-6;
+  @extend %mt-4;
 }
 
 .landing-content-cta-wrapper {
