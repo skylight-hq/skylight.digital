@@ -16,47 +16,36 @@ preload: hero-about-us.svg
 <div class="about-us">
 
   <section class="page-block">
-    <div class="page-block-header-2">
-      <h2>Our story</h2>
-    </div>
-
-    <div class="about-info">
-      <div class="about-info-row">
-        <div class="about-info-col">
-          <p>
-            Skylight was launched in June of 2017. We’re currently made up of 55 people and
-            one ferret. A lot of us originally worked for civic-oriented groups such as 18F,
-            the U.S. Digital Service, and the Presidential Innovation Fellows.
-            Now, as part of Skylight, we’re working hard to cultivate an incredible
-            team and culture.
-          </p>
-
-          <p>
-            What brings us together is a passion for creating better outcomes for
-            the public through great government digital services. We’re basically impact junkies.
-            But we’re also engineers, developers, designers, product managers, consultants,
-            writers, speakers, inventors, roboticists, gamers, authors, veterans,
-            entrepreneurs, parents, and more. Such a diverse team always gives us a
-            unique perspective on things.
-          </p>
-
-          <p>
-            Our official headquarters is in sunny <a href="https://goo.gl/maps/3pX7v6YjSmpkwchz5">Sarasota, Florida</a>,
-            but we’re a distributed and remote-friendly team currently spread across 24 different states.
-            Sometimes the nature of our client work calls for closer proximity to their location.
-            So far, we’ve worked with clients located in places like Washington DC, Hartford (Connecticut),
-            Montgomery (Alabama), Baltimore (Maryland), and Ottawa (Canada).
-          </p>
-        </div>
-      </div>
+    <div class="about-info container maxw-md">
+      <h2 class="margin-heading text-center">Our story</h2>
+      <p>
+        Skylight was launched in June of 2017. We’re currently made up of 55 people and
+        one ferret. A lot of us originally worked for civic-oriented groups such as 18F,
+        the U.S. Digital Service, and the Presidential Innovation Fellows.
+        Now, as part of Skylight, we’re working hard to cultivate an incredible
+        team and culture.
+      </p>
+      <p>
+        What brings us together is a passion for creating better outcomes for
+        the public through great government digital services. We’re basically impact junkies.
+        But we’re also engineers, developers, designers, product managers, consultants,
+        writers, speakers, inventors, roboticists, gamers, authors, veterans,
+        entrepreneurs, parents, and more. Such a diverse team always gives us a
+        unique perspective on things.
+      </p>
+      <p>
+        Our official headquarters is in sunny <a href="https://goo.gl/maps/3pX7v6YjSmpkwchz5">Sarasota, Florida</a>,
+        but we’re a distributed and remote-friendly team currently spread across 24 different states.
+        Sometimes the nature of our client work calls for closer proximity to their location.
+        So far, we’ve worked with clients located in places like Washington DC, Hartford (Connecticut),
+        Montgomery (Alabama), Baltimore (Maryland), and Ottawa (Canada).
+      </p>
     </div>
   </section>
 
   {% if site.data.team[0] %}
     <section id="meet-the-team" class="mx-auto container-xxl page-block">
-      <div class="page-block-header-2">
-        <h2>Meet the team</h2>
-      </div>
+      <h2>Meet the team</h2>
 
       <div class="employees">
         {% assign employees = site.data.team | where: 'active', 'true' | sort: 'order' %}
@@ -100,44 +89,37 @@ preload: hero-about-us.svg
   {% endif %}
 
   <section class="page-block">
-    <div class="page-block-header-2">
-      <h2>Always at your service</h2>
-    </div>
-
     <div class="about-info">
-      <div class="about-info-row">
-        <div class="about-info-col">
-          <p>
-            If you have a question for us, or would just like to get in touch, drop us a message
-            at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>.
-            If you’d like to inquire about hiring us for a job, <a href="/connect/contact/">fill out this short form</a>.
-            If you’re interested in joining our team, <a href="/careers/join/">check out our career opportunities</a>.
-            If you’d like to explore forming a partnership to pursue government opportunities,
-            <a href="/connect/contact/">let’s talk business</a>.
-          </p>
+      <h2>Always at your service</h2>
+      <p>
+        If you have a question for us, or would just like to get in touch, drop us a message
+        at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>.
+        If you’d like to inquire about hiring us for a job, <a href="/connect/contact/">fill out this short form</a>.
+        If you’re interested in joining our team, <a href="/careers/join/">check out our career opportunities</a>.
+        If you’d like to explore forming a partnership to pursue government opportunities,
+        <a href="/connect/contact/">let’s talk business</a>.
+      </p>
 
-          <p>
-            We love to share our thoughts on technology, design, procurement, business, culture,
-            and more with the world. You can <a href="/thoughts/blog/">read up on our latest thinking at our company blog</a>.
-          </p>
+      <p>
+        We love to share our thoughts on technology, design, procurement, business, culture,
+        and more with the world. You can <a href="/thoughts/blog/">read up on our latest thinking at our company blog</a>.
+      </p>
 
-          <p>
-            You can also follow along on
-            <a href="{{site.twitter_url}}">Twitter @skylight_hq</a>.
-          </p>
+      <p>
+        You can also follow along on
+        <a href="{{site.twitter_url}}">Twitter @skylight_hq</a>.
+      </p>
 
-          <p>
-            Feel free to reach out directly to one of our leaders &mdash;
-            <a href="mailto:chris@skylight.digital">Chris Cairns</a>,
-            <a href="mailto:shashank@skylight.digital">Shashank Khandelwal</a>,
-            or <a href="mailto:nicole@skylight.digital">Nicole Campbell</a>.
-          </p>
+      <p>
+        Feel free to reach out directly to one of our leaders &mdash;
+        <a href="mailto:chris@skylight.digital">Chris Cairns</a>,
+        <a href="mailto:shashank@skylight.digital">Shashank Khandelwal</a>,
+        or <a href="mailto:nicole@skylight.digital">Nicole Campbell</a>.
+      </p>
 
-          <p>
-            Thank you for taking the time to learn more about us.
-          </p>
-        </div>
-      </div>
+      <p>
+        Thank you for taking the time to learn more about us.
+      </p>
     </div>
   </section>
 

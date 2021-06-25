@@ -7,10 +7,6 @@
   @extend %row;
 }
 
-.project-case-study-col {
-  @extend %text-heavy-col-base;
-}
-
 .project-case-study-header {
   @include mb-3;
 }

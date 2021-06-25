@@ -9,6 +9,10 @@
   * {
     color: $page-cta-color;
   }
+
+  > * {
+    @include grid-container;
+  }
 }
 
 .page-company {

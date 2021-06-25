@@ -1,5 +1,5 @@
 .footer {
-  @include container-fluid-base;
+  @include grid-container;
   @extend %py-5;
 }
 
