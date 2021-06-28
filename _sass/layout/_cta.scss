@@ -53,11 +53,9 @@
 }
 
 .page-subfooter-content {
-  @include container-fluid-base;
 }
 
 .page-subfooter-header-row {
-  @extend %row;
   @extend %mb-3;
 }
 
@@ -66,7 +64,6 @@
 }
 
 .page-subfooter-text-row {
-  @extend %row;
   @extend %mb-4;
 }
 
@@ -105,19 +102,12 @@
 
 // Testimonial CTA
 .testimonial {
-  @include container-fluid-base;
 }
 
 .testimonial-row {
-  @extend %row;
 }
 
 .testimonial-col {
-  @extend %col-sm-7;
-  @extend %col-md-10;
-  @extend %col-lg-8;
-  @extend %mx-auto;
-
   blockquote {
     @extend %m-0;
   }
