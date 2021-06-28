@@ -21,17 +21,22 @@ class_2_spots:
   "
 >
   <div class="hero">
-    <div class="container-lg hero-container container-fluid">
-      <div class="row">
-        <div class="col-12 col-lg-7 mx-auto text-center">
+    <div class="hero-container grid-container">
+      <div class="">
+        <div class="text-center">
           <h1 class="text-white">
-            Transform user experiences through service design
+            Service Design: <br class="linebreak">Transforming user experiences
           </h1>
-          <p class="text-white font-xl mt-2 mb-0">
-            Deliver better public services.
+          <p class="text-white font-lg mt-2 mb-0">
+            Learn what service design can do for you and how Skylight <br class="linebreak">can help
+            you use it to deliver greater public value.
           </p>
-          <a class="btn btn-warning btn-lg text-dark mt-3" href="/connect/contact/" role="button">
-            <span class="font-bold">Learn how with Skylight</span>
+          <a
+            class="text-white mt-3"
+            href="#why-service-design"
+            role="button"
+          >
+            <i class="far fa-arrow-alt-circle-down"></i>
           </a>
         </div>
       </div>
@@ -79,6 +84,11 @@ class_2_spots:
           have to repeat the same information over and over again? This type of
           inefficiency is due to a lack of service design.
         </p>
+        <img
+          class="img-fluid w-50 float-right"
+          src="/img/service-design/frontstage-backstage.png"
+          alt="Backstage and front stage"
+        />
         <p>
           Through service design, government organizations can take a more
           holistic, human-centered approach to providing services, including
@@ -120,7 +130,7 @@ class_2_spots:
         </p>
         <img
           class="img-fluid"
-          src="/img/service-design/service-design-framework.png"
+          src="/img/service-design/framework.png"
           alt="Service design framework"
         />
         <h2 class="margin-heading" id="case-studies">Case studies</h2>
@@ -249,17 +259,18 @@ class_2_spots:
             >check out our guide</a
           >.
         </p>
-        <img src="" alt="Two people effortlessly high-fiving" />
+        <img
+          class="img-fluid w-50 mt-4"
+          src="/img/service-design/people-high-fiving.png"
+          alt="Two people effortlessly high-fiving"
+        />
       </div>
     </div>
   </div>
 </div>
 
-{% include cta.html
-  header = "Deliver better public services."
-  text = "Ready to create transformative user experiences through service design? Let’s get to work."
-  text_css_class = "page-subfooter-text-col"
-  cta_path = "mailto:training@skylight.digital"
-  cta = "Contact us"
-  icon_css_class = "fa fa-at"
-%}
+{% include cta.html header = "Deliver better public services." text = "Ready to
+create transformative user experiences through service design? Let’s get to
+work." text_css_class = "page-subfooter-text-col" cta_path =
+"mailto:training@skylight.digital" cta = "Contact us" icon_css_class = "fa
+fa-at" %}
