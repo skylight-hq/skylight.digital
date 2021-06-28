@@ -1,6 +1,6 @@
 {% if paginator.total_pages > 1 %}
 <div class="blog-posts">
-  <div class="mt-5 mt-md-0 d-flex flex-row justify-content-center">
+  <div class="pagination mt-5 mt-md-0 d-flex flex-row justify-content-center">
     <div class="">
     {% if paginator.previous_page %}
       <a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
@@ -8,7 +8,7 @@
       </a>
     {% endif %}
     </div>
-    <div class="mx-3 mx-sm-5">
+    <div class="paginationjs-nav">
       <p class="d-inline-block">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
     </div>
     <div class="">
