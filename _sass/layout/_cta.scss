@@ -12,6 +12,7 @@
 
   > * {
     @include grid-container;
+    max-width: $size-md !important;
   }
 }
 
@@ -70,9 +71,6 @@
 }
 
 .page-subfooter-text-col {
-  @extend %col-sm-9;
-  @extend %col-lg-7;
-  @extend %mx-auto;
   font-weight: 100;
   line-height: 1.75;
 

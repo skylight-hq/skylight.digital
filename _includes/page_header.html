@@ -22,15 +22,15 @@
   {% assign header_content = include.header_content %}
 {% endif %}
 
-<header class="{{header_class}}">
-  <div class="row">
+<header class="{{header_class}} maxw-md">
+  <div class="">
     <div class="{{header_title_class}}">
       <h1 class="header-display-1">{{header_title}}</h1>
     </div>
   </div>
 
   {% if include.header_content_class and header_content %}
-    <div class="row">
+    <div class="">
       <div class="{{include.header_content_class}}">
         <p>{{header_content}}</p>
       </div>
