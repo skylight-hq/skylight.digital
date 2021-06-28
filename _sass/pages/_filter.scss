@@ -1,7 +1,7 @@
 .filter {
   @include grid-container;
   @extend %mt-7;
-  max-width: $size-md !important;
+  max-width: $prose-max-width !important;
 
   h1 {
     @extend %text-center;
