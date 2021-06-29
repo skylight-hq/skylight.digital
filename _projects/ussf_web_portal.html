@@ -31,10 +31,12 @@ practices:
   - User experience design
   - Design system
   - Content strategy
+  - Content design
+  - Plain-language writing
   - Persona development
   - Usability testing
   - Responsive web design
-  - Accessibility
+  - Accessibility design
   - Agile development
   - Rapid prototyping
 news_posts:

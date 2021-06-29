@@ -45,8 +45,9 @@ practices:
   - User experience design
   - Usability testing
   - Content strategy
-  - Content guidelines
+  - Content design
   - Plain-language writing
+  - Content guidelines
   - Responsive web design
   - Moderated user research
   - Unmoderated user research

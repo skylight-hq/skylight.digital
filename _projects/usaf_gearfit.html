@@ -42,12 +42,12 @@ practices:
   - Design studios
   - User experience design
   - Comparative analysis
-  - Learn startup
+  - Lean startup
   - User growth marketing
   - Technical discovery
   - Design system
   - Responsive web design
-  - Accessibility
+  - Accessibility design
   - Agile development
   - API-first development
   - DevSecOps
