@@ -184,6 +184,10 @@ $outline-light: 2px solid #f2f2f2;
 
 .course-cta {
   border: $card-border-width solid $card-border-color;
+
+  a {
+    font-family: $font-family-mono;
+  }
 }
 
 .tuition-card.tuition-card {
