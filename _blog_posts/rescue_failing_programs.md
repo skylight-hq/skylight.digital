@@ -71,7 +71,7 @@ Perhaps the most pernicious and common freedom for the government IT executive t
 
 Ideally, a plan to limit vendor lock-in should be a part of every project, and vendor's compensation should be tied to it. If you have inherited a project, you may not be able to adjust the compensation structure to achieve this, but if you're re-baselining or starting a new project you should prioritize rewarding vendors for doing a good job allowing other vendors to work with their code.
 
-Sadly, both human nature and the financial interest of existing vendors on a project press them not to dispel or even to increase this confusion. Here are some statements that you often hear vendors on a large, failing system make, and our suggested responses.
+Sadly, both human nature and the financial interest of existing vendors on a project press them not to dispel or even to increase this confusion. Here are some statements that you often hear vendors on a large, failing system make, and our suggested responses:
 
 1. "The problem is you've changed the requirements." Response: "Modern software practice is about being agile in order to respond to change. The motto of agility is 'embrace change'. Start embracing!"
 2. "This system is so complex, it'll take someone else years to understand it." Response: "It's the job of the computer programmer to create order out of chaos. Using APIs, unit tests, and clean interfaces, your efforts should be making the system simpler, not more complex."
