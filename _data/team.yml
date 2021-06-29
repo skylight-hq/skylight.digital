@@ -1871,7 +1871,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/chun-yen-43192a4a
-      link_description: Chun Yen's LinkedIn Account
+      link_description: Chun's LinkedIn Account
       fa_icon_name: linkedin
 - name: nicole-wright
   fname: Nicole
@@ -1889,7 +1889,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/nmwright/
-      link_description: Nicole Wright's LinkedIn Account
+      link_description: Nicole's LinkedIn Account
       fa_icon_name: linkedin
 - name: tiffany-nieh
   fname: Tiffany
@@ -1907,7 +1907,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/tiffanynieh
-      link_description: Tiffany Nieh's LinkedIn Account
+      link_description: Tiffany's LinkedIn Account
       fa_icon_name: linkedin
 - name: karthik-patil
   fname: Karthik
@@ -1925,7 +1925,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/karthikpatil/
-      link_description: Karthik Patil's LinkedIn Account
+      link_description: Karthik's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
       link: https://karthikpatil.com/
@@ -1947,7 +1947,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/woodberry/
-      link_description: Becca Woodberry's LinkedIn Account
+      link_description: Becca's LinkedIn Account
       fa_icon_name: linkedin
 - name: nathan-carter
   fname: Nathan
@@ -1965,7 +1965,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/nathan-carter-202775141/
-      link_description: Nathan Carter's LinkedIn Account
+      link_description: Nathan's LinkedIn Account
       fa_icon_name: linkedin
     - name: GitHub
       link: https://github.com/nathancrtr
@@ -1987,7 +1987,7 @@
   socials:
     - name: LinkedIn
       link: www.linkedin.com/in/matthew-goldberg-01586854
-      link_description: Matt Goldberg's LinkedIn Account
+      link_description: Matt's LinkedIn Account
       fa_icon_name: linkedin
 - name: nick-blake
   fname: Nick
@@ -2005,7 +2005,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/nicholas-blake-3aa402178
-      link_description: Nick Blake's LinkedIn Account
+      link_description: Nick's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
       link: https://nickblake.myportfolio.com/
@@ -2027,7 +2027,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/bob-z-1901/
-      link_description: Bob Zhao's LinkedIn Account
+      link_description: Bob's LinkedIn Account
       fa_icon_name: linkedin
     - name: GitHub
       link: https://github.com/fzhao99
@@ -2049,7 +2049,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/ashton-tu
-      link_description: Ashton Tu's LinkedIn Account
+      link_description: Ashton's LinkedIn Account
       fa_icon_name: linkedin
 - name: andrew-lloyd
   fname: Andrew
@@ -2067,7 +2067,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/andrewmarklloyd/
-      link_description: Andrew Lloyd's LinkedIn Account
+      link_description: Andrew's LinkedIn Account
       fa_icon_name: linkedin
     - name: GitHub
       link: https://github.com/andrewmarklloyd
@@ -2089,7 +2089,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/timniehoff/
-      link_description: Tim Niehoff's LinkedIn Account
+      link_description: Tim's LinkedIn Account
       fa_icon_name: linkedin
 - name: pri-kiser
   fname: Pri
@@ -2107,7 +2107,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/prikiser/
-      link_description: Pri Kiser's LinkedIn Account
+      link_description: Pri's LinkedIn Account
       fa_icon_name: linkedin
 - name: taylor-curtiss
   fname: Taylor
@@ -2125,7 +2125,7 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/taylor--curtiss/
-      link_description: Taylor Curtiss' LinkedIn Account
+      link_description: Taylor's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
       link: https://www.taylorcurtiss.com/
