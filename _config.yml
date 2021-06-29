@@ -45,7 +45,7 @@ posts_max_related: 3
 posts_min_common_tags: 2
 
 collections:
-  projects:
+  experience:
     output: true
     permalink: /work/experience/:path/
   project_team_members:
