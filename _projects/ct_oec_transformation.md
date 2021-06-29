@@ -35,6 +35,7 @@ project_members:
   - alex-curtis
   - derek-tam
   - jordan-guinn
+  - lucas-newman
 technologies:
   - HTML / CSS / SVG
   - JavaScript / JSON / React

@@ -28,6 +28,7 @@ project_members:
   - kyle-magida
   - marvo-dolor
   - olivia-lucas
+  - lucas-newman
 technologies:
   - HTML / CSS
   - JavaScript / React

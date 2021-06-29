@@ -19,6 +19,8 @@ project_members:
   - josh-dorothy
   - colin-craig
   - laura-king
+  - andrew-lloyd
+  - chun-yen
 technologies:
   - HTML / CSS
   - JavaScript / Vue.js
