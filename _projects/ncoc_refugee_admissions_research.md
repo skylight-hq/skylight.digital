@@ -48,8 +48,9 @@ source_code_url:
   leadership in refugee protection around the world. Following user experience
   (UX) principles, we centered refugee voices in the project.
 </p>
-{% endcapture %} {% capture challenge %}
+{% endcapture %}
 
+{% capture challenge %}
 <blockquote class="post-blockquote">
   <p>
     When refugees come, they want to be self-sufficient. They are workers, they
@@ -92,7 +93,9 @@ source_code_url:
   In addition, many policymakers, and even some who work with refugees, don't
   understand the full scope of the process to get to the U.S.
 </p>
-{% endcapture %} {% capture solution %}
+{% endcapture %}
+
+{% capture solution %}
 <p>
   To help USRAP prepare to admit 125,000 refugees in FY2022 (up from 15,000 in
   2020), our team, led by Ariana Berengaut, Director of the
@@ -167,7 +170,9 @@ source_code_url:
   />
 </p>
 <p class="caption">Source: Penn Biden Center/NCoC</p>
-{% endcapture %} {% capture results %}
+{% endcapture %}
+
+{% capture results %}
 <ul>
   <li>
     Completed over 100 interviews with experts and stakeholders involved in
@@ -200,5 +205,11 @@ source_code_url:
     hope of implementation
   </li>
 </ul>
-{% endcapture %} {% include project.html summary = summary challenge = challenge
-solution = solution results = results %}
+{% endcapture %}
+
+{% include project.html
+  summary = summary
+  challenge = challenge
+  solution = solution
+  results = results
+%}
