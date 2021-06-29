@@ -76,11 +76,13 @@ practices:
   - Technical discovery
   - User experience design
   - Content strategy
+  - Content design
+  - Plain-language writing
   - Content guidelines
   - Lean startup
   - Design system
   - Responsive design
-  - Accessibility
+  - Accessibility design
   - Agile development
   - Rapid prototyping
   - Open-source development
