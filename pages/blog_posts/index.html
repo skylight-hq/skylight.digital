@@ -1,0 +1,101 @@
+---
+layout: default
+title: Our blog
+permalink: /thoughts/blog/
+redirect_from:
+  - /blog/
+pagination:
+  enabled: true
+  collection: blog_posts
+  sort_field: 'date'
+  sort_reverse: true
+---
+
+{% if page.pagination.collection == 'press' %}
+
+  {% include hero_banner.html
+    hero_content = 'Skylight in the news.'
+    color = 'info'
+    image = 'hero-press.svg'
+  %}
+  <section class="container maxw-prose">
+    <div class="text">
+      {% for item in paginator.posts %}
+        <article class="press__article">
+          <p class="mb-3 small mt-5 project-title-tag">{{ item.source }}: {{ item.date | date: "%B %-d, %Y" }}</p>
+          <h2 class="h3">
+            {% if item.heading %}
+              {{ item.heading }}
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </h2>
+          <div class="mt-3">{{ item.summary | markdownify }}</div>
+          <h3 class="project-title-tag mb-1">Full story</h3>
+          <p><a href="{{ item.href }}">{{ item.title }}</a></p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% include pagination.html %}
+
+  {% include hire_us_cta.html %}
+{% endif %}
+
+{% if page.pagination.collection == 'blog_posts' %}
+  
+  {% include page_header.html
+    header_content_class = 'page-header-content-1'
+    header_content = 'Our written thoughts on design, technology, and more.'
+  %}
+
+  {% assign collection = include.collection %}
+  {% assign prefix = 'blog' %}
+  {% assign cta_text = include.cta_text %}
+  {% assign context = include.context %}
+  {% assign limit = include.limit %}
+
+  {% if limit %}
+    {% assign collection_size = limit %}
+  {% else %}
+    {% assign collection_size = collection.size %}
+  {% endif %}
+
+  {% include hanging_column_size.html
+    collection_size = collection_size
+    col_size = 3
+  %}
+
+  <div class="our-blog">
+    <div class="blog-posts container">
+      <div class="blog-posts-row">
+        {% for item in paginator.posts %}
+          <article class="blog-post-col">
+            <div class="blog-post-card card-link" data-href="{{item.permalink}}" tabindex="-1">
+              <div role="img" class="blog-post-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
+              <div class="blog-post-block">
+                {% if item.title_tag %}
+                  <p class="blog-post-title-tag">{{item.title_tag}}</p>
+                {% endif %}
+                <h2 class="blog-post-title {{context}}">{{item.title}}</h2>
+                <div class="blog-post-text">{{item.excerpt | markdownify }}</div>
+              </div>
+              <div class="blog-post-footer">
+                <a href="{{item.permalink}}" tabindex="0">
+                  <span>Read more</span><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% unless context == 'related' %}</div>{% endunless %}
+  </div>
+
+  {% include pagination.html %}
+
+  {% include hire_us_cta.html %}
+
+{% endif %}
+

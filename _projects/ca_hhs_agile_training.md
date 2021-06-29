@@ -17,15 +17,15 @@ project_members:
   - josh-dorothy
 technologies:
   - HTML / CSS
-  - JavaScrtipt
-  - Twitter Boostrap
+  - JavaScript
+  - Twitter Bootstrap
   - Ruby
   - Jekyll
   - GitHub Pages
   - Git / GitHub
 practices:
   - Learning by doing
-  - Scrum
+  - Scrum framework
   - Story writing
   - Story estimation
   - Velocity calculation

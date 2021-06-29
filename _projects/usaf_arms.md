@@ -42,7 +42,7 @@ practices:
   - Lean startup
   - Design system
   - Responsive design
-  - Accessibility
+  - Accessibility design
   - Agile development
   - API-first development
   - Microservices architecture
