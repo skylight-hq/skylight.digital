@@ -1,5 +1,5 @@
 %page-header-base {
-  @include container-fluid-base;
+  @include grid-container;
   @extend %text-center;
 }
 
@@ -27,14 +27,14 @@
 .page-header-content-1,
 .page-header-content-2,
 .page-header-content-3 {
-  @extend %col-sm-11;
-  @extend %col-md-10;
-  @extend %mx-auto;
+  // @extend %col-sm-11;
+  // @extend %col-md-10;
+  // @extend %mx-auto;
 }
 
 .page-header-title-1,
 .page-header-content-1 {
-  @extend %col-lg-7;
+  // @extend %col-lg-7;
 }
 
 .page-header-title-2,
@@ -81,7 +81,7 @@
 }
 
 %page-block-header-base {
-  @include container-fluid-base;
+  // @include container-fluid-base;
 }
 
 .page-block-header-1 {
@@ -140,6 +140,10 @@
       $text-link-border-hover
     );
   }
+
+  > h1, > h2, > h3, > h4, > h5, > h6 {
+    @include margin-heading;
+  }
 }
 
 %btn-page {
@@ -152,12 +156,6 @@
 }
 
 %text-heavy-col-base {
-  @extend %col;
-  @extend %col-sm-10;
-  @extend %col-md-9;
-  @extend %col-lg-8;
-  @extend %mx-auto;
-  max-width: 940px;
 }
 
 %narrative-base {

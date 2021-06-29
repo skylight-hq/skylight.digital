@@ -272,10 +272,6 @@
   active: true
   order: 140
   socials:
-    - name: Twitter
-      link: https://twitter.com/rbristow
-      link_description: Nick's Twitter Account
-      fa_icon_name: twitter
     - name: LinkedIn
       link: https://www.linkedin.com/in/nick-bristow-5b983118/
       link_description: Nick's LinkedIn Account

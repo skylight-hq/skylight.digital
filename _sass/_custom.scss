@@ -68,6 +68,14 @@ $font-size-xx-small: 0.875rem; // 14px
 $font-size-xxx-small: 0.8125rem; // 13px
 $font-size-xxxx-small: 0.75rem; // 12px
 
+// Spacing sizes
+$size-mobile-lg: 480px;
+$size-tablet: 640px;
+$size-md: 800px;
+$size-lg: 840px;
+$size-desktop: 1024px;
+$size-desktop-lg: 1200px;
+
 // Bootstrap overrides
 //
 // Copy variables from `_variables.scss` to this file to override default values
@@ -211,7 +219,7 @@ $nav-brand-height-sm-down: 40px;
 $nav-brand-width: 200px;
 $nav-brand-height: 50px;
 
-$nav-link-color: $body-color;
+$nav-link-color: $black;
 $nav-link-decoration: none;
 $nav-link-hover-color: $nav-link-color;
 $nav-link-hover-decoration: none;

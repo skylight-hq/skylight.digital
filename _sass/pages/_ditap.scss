@@ -294,7 +294,18 @@ $outline-light: 2px solid #f2f2f2;
 }
 
 .page-service-design {
+  .hero-container {
+    display: flex;
+    height: 400px;
+    max-width: 640px;
+    padding-block: initial !important;
+
+    a {
+      font-size: 32px;
+    }
+  }
+
   h1 {
-    line-height: 1.2;
+    line-height: 1.15;
   }
 }

@@ -347,8 +347,13 @@
 }
 
 @mixin grid-container {
-  @include make-container();
-  @include make-container-max-widths();
+  max-width: $size-desktop;
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @include media-breakpoint-up(sm) {
+    padding-inline: 2rem;
+  }
 }
 
 @mixin margin-heading {
