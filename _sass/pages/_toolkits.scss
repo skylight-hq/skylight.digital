@@ -100,3 +100,11 @@
     height: 200px;
   }
 }
+
+.link--return-top-top {
+  margin-bottom: -0.5rem;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: -2rem;
+  }
+}
