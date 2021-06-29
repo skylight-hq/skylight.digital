@@ -1,6 +1,5 @@
 .header {
-  @extend %container-fluid;
-  @extend %px-lq-5;
+  @include grid-container;
   // transform: scale(1); What is this for?
   transition: 0.25s all ease;
 }
@@ -64,8 +63,7 @@
   span:before,
   span:after {
     cursor: pointer;
-    border-radius: 10px;
-    height: 4px;
+    height: 3px;
     width: 30px;
     background: $nav-toggler-color;
     position: absolute;

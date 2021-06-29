@@ -47,7 +47,7 @@ practices:
   - Lean startup
   - Design system
   - Responsive design
-  - Accessibility
+  - Accessibility design
   - Agile development
   - Open-source development
   - API-first development

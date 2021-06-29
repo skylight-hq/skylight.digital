@@ -1,6 +1,7 @@
 .filter {
-  @include container-fluid-base;
+  @include grid-container;
   @extend %mt-7;
+  max-width: $size-md !important;
 
   h1 {
     @extend %text-center;
@@ -11,7 +12,7 @@
 }
 
 .filter-row {
-  @extend %row;
+  // @extend %row;
 }
 
 .filter-col {

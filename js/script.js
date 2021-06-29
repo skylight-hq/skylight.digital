@@ -217,7 +217,6 @@ $(function() {
             $(".paginationjs-nav")
               .detach()
               .prependTo(".pagination")
-              .addClass("mx-3 mx-sm-5");
             $(".paginationjs-prev").detach().prependTo(".pagination");
           }
         },

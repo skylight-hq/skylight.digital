@@ -34,13 +34,15 @@ practices:
   - User experience design
   - Design system
   - Content strategy
+  - Content design
+  - Plain-language writing
   - Content guidelines
   - Card sorting
   - Tree testing
   - Persona development
   - Usability testing
   - Responsive web design
-  - Accessibility
+  - Accessibility design
   - Agile development
   - Rapid prototyping
   - DevSecOps

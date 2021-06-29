@@ -89,8 +89,8 @@
   %mb-lg-9 { @include mb-9; }
 }
 
-.mw-mobile-lg {
-  max-width: 480px;
+.maxw-mobile-lg {
+  max-width: 480px !important;
 }
 
 .maxw-md {
@@ -103,6 +103,10 @@
 
 .maxw-xl {
   max-width: 1024px !important;
+}
+
+.maxw-2xl {
+  max-width: $size-desktop-lg !important;
 }
 
 .p-205 {
