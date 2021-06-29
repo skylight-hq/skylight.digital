@@ -25,6 +25,8 @@ project_members:
   - mitchell-sipus
   - lesley-evans
   - kari-hodges
+  - nicole-wright
+  - taylor-curtiss
 technologies:
   - HTML / CSS / Sass
   - JavaScript / React
