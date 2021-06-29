@@ -1,9 +1,15 @@
 .pagination {
   display: flex;
+  font-family: $font-family-mono;
   // 1-2: Disable browser default list styles
   padding-left: 0; // 1
   list-style: none; // 2
   @include border-radius();
+}
+
+.paginationjs-nav {
+  color: $gray-light;
+  margin-inline: 2rem;
 }
 
 .page-item {
