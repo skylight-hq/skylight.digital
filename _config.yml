@@ -66,6 +66,10 @@ collections:
   press:
     output: false
     permalink: /company/press/:path/
+  talks:
+    output: false
+    permalink: /thoughts/talks/:path/
+    sort_by: order
 
 # Pagination Settings
 pagination:
