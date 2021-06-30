@@ -1,5 +1,20 @@
-.page-talks {
-  .grid-container {
-    max-width: $size-desktop-lg;
+// .page-talks {
+//   .grid-container {
+//     max-width: $size-desktop-lg;
+//   }
+// }
+
+.talk__featured {
+  .blog-post-img {
+    height: 100%;
+    min-height: 188px;
+  }
+}
+
+.featured-talk__date {
+  margin-top: 1rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
   }
 }
