@@ -1566,6 +1566,10 @@
       link: https://github.com/lukenewman
       link_description: Lucas' GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/lucas-newman/
+      link_description: Lucas' Project Work
+      fa_icon_name: wrench
 - name: kenny-nieh
   fname: Kenny
   lname: Nieh
@@ -1873,6 +1877,10 @@
       link: https://www.linkedin.com/in/chun-yen-43192a4a
       link_description: Chun's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/chun-yen/
+      link_description: Chun's Project Work
+      fa_icon_name: wrench
 - name: nicole-wright
   fname: Nicole
   lname: Wright
@@ -1891,6 +1899,10 @@
       link: https://www.linkedin.com/in/nmwright/
       link_description: Nicole's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/nicole-wright/
+      link_description: Nicole's Project Work
+      fa_icon_name: wrench
 - name: tiffany-nieh
   fname: Tiffany
   lname: Nieh
@@ -2073,6 +2085,10 @@
       link: https://github.com/andrewmarklloyd
       link_description: Andrew's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/andrew-lloyd/
+      link_description: Andrew's Project Work
+      fa_icon_name: wrench
 - name: tim-niehoff
   fname: Tim
   lname: Niehoff
