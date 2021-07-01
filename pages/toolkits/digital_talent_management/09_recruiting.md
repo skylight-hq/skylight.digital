@@ -47,7 +47,7 @@ Shorter, more realistic requirements lists show that you understand what you nee
 
 <blockquote class="post-blockquote" cite="https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified">
 <p>Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements.</p>
-<cite><strong>Tara Sophia Mohr</strong></cite>
+<cite><strong>Tara Sophia Mohr</strong>, "[Why Women Don't Apply for Jobs Unless They're 100% Qualified](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified0)"</cite>
 </blockquote>
 
 ### Sections of a position description
@@ -167,8 +167,8 @@ In addition, by encouraging your team to attend technology meetups you allow the
 Consider hiring remote employees. Recruiting and hiring is easier when you don't restrict the talent search to the city where the work is.
 
 <blockquote class="post-blockquote" cite="https://www.slideshare.net/upwork/future-workforce-2019-how-younger-generations-are-reshaping-the-future-workforce/1">
-<p>"By 2028, 73% of all departments will have remote workers."</p>
-<cite><strong>Upwork</strong></cite>
+<p>By 2028, 73% of all departments will have remote workers.</p>
+<cite><strong>"[Future Workforce Report](https://www.slideshare.net/upwork/future-workforce-2019-how-younger-generations-are-reshaping-the-future-workforce/1),"</strong> Upwork</cite>
 </blockquote>
 
 Here are some of the benefits of opening the search to remote candidates:
@@ -200,7 +200,7 @@ Total from application to start |  80 to 110
 The City of San Francisco has a very high-touch hiring process. They require that someone is in touch with candidates at least once a week.
 
 <blockquote class="post-blockquote" cite="">
-<p>We have gotten feedback from a lot of candidates that this was a really great interaction with government, pleasantly surprised by high-touch experience."</p>
+<p>We have gotten feedback from a lot of candidates that this was a really great interaction with government, pleasantly surprised by high-touch experience.</p>
 <cite><strong>Deputy Chief Digital Officer</strong></cite>
 </blockquote>
 

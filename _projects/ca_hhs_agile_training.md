@@ -93,7 +93,7 @@ source_code_url:
       all the ingredients. But this workshop brought all the ingredients
       together and showed us how to bake a cake.
     </p>
-    <cite><strong>Tamara Srzentic, Deputy Director, Office of Innovation at CHHS</strong></cite>
+    <cite><strong>Tamara Srzentic</strong>, Deputy Director, Office of Innovation at CHHS</cite>
   </blockquote>
 
   <blockquote class="post-blockquote">
@@ -107,7 +107,7 @@ source_code_url:
       comfortable adjusting the process to fit their needs and
       culture of the Department they're helping.
     </p>
-    <cite><strong>Chaeny Emanavin, Director, Office of Innovation at CHHS</strong></cite>
+    <cite><strong>Chaeny Emanavin</strong>, Director, Office of Innovation at CHHS</cite>
   </blockquote>
 {% endcapture %}
 

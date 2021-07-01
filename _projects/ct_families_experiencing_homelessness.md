@@ -62,7 +62,7 @@ source_code_url:
       better outcomes for these Connecticut residents as well as for our publicly
       funded systems.
     </p>
-    <cite><strong>Lisa Tepper Bates, Co-chair of the Governor's Task Force</strong></cite>
+    <cite><strong>Lisa Tepper Bates</strong>, Co-chair of the Governor's Task Force</cite>
   </blockquote>
 
   <p>
