@@ -45,10 +45,13 @@ Too often, job descriptions list every single technology under the sun. Narrow t
 
 Shorter, more realistic requirements lists show that you understand what you need. And they'll also bring in a more diverse applicant pool.
 
-<blockquote class="post-blockquote" cite="https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified">
-<p>Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements.</p>
-<cite><strong>Tara Sophia Mohr</strong>, "[Why Women Don't Apply for Jobs Unless They're 100% Qualified](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified0)"</cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements."
+  cite_name = "Tara Sophia Mohr"
+  cite_title = "Why Women Don't Apply for Jobs Unless They're 100% Qualified"
+  cite_url = "https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified0"
+%}
 
 ### Sections of a position description
 
@@ -188,14 +191,14 @@ Government hiring processes can take a long time. Explain clearly on your websit
 The General Service Administration's Technology Transformation Service [does this well on their jobs page](https://join.tts.gsa.gov/hiring-process/), for example:
 
 {:.post-table}
-Process Stage | Average Duration/Days
---- | ---
-Application collection |           5
-TTS application review |           5
-GSA HR application review |        10
-Interviews |                       30
-Offer and security |               30 to 60
-Total from application to start |  80 to 110
+| Process Stage                   | Average Duration/Days |
+| ------------------------------- | --------------------- |
+| Application collection          | 5                     |
+| TTS application review          | 5                     |
+| GSA HR application review       | 10                    |
+| Interviews                      | 30                    |
+| Offer and security              | 30 to 60              |
+| Total from application to start | 80 to 110             |
 
 The City of San Francisco has a very high-touch hiring process. They require that someone is in touch with candidates at least once a week.
 
