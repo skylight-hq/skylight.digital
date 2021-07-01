@@ -70,6 +70,9 @@ collections:
     output: false
     permalink: /thoughts/talks/:path/
     sort_by: order
+  talk_speakers:
+    output: true
+    permalink: /thoughts/talks/speaker/:path/
 
 # Pagination Settings
 pagination:
