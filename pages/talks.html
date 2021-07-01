@@ -19,9 +19,9 @@ pagination:
 
 <div class="grid-container">
   <h2 class="margin-heading mb-4">Featured</h2>
-  <div class="talk__featured row">
-    {% for item in site.talks %}
-      {% if item.featured == true %}
+  {% for item in site.talks %}
+    {% if item.featured == true %}
+      <div class="talk__featured row" id="{{ item.title | slugify }}">
         <div class="col-md-8 d-flex flex-column align-items-stretch">
           {% if item.type == "video" %}
             <div class="embed-responsive embed-responsive-16by9">
@@ -61,13 +61,14 @@ pagination:
           {% endif %} <i class="fal fa-long-arrow-right" aria-hidden="true"></i>
         </a>
       </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+
   <div class="row mt-6 pt-4">
     {% for item in site.talks %}
       {% unless item.featured == true %}
-        <article class="blog-post-col">
+        <article class="blog-post-col" id="{{ item.title | slugify }}">
           <div
             class="blog-post-card card-link"
             data-href="{% if item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ item.link }}"
