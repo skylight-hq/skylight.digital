@@ -101,7 +101,7 @@ source_code_url:
       from the aircraft with equipment that doesn't fit, they can be severely
       injured or lose their life.
     </p>
-    <cite><strong>Captain Lauren Ellis, U.S. Air Force</strong></cite>
+    <cite><strong>Captain Lauren Ellis</strong>, U.S. Air Force</cite>
   </blockquote>
 {% endcapture %}
 

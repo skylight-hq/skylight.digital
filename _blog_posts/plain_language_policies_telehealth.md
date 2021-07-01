@@ -26,17 +26,17 @@ Because telehealth reimbursements are often much lower than the same service pro
 
 And while payment parity's a temporary measure during COVID-19, Medicare's [2021 fee schedule](https://www.cms.gov/newsroom/fact-sheets/final-policy-payment-and-quality-provisions-changes-medicare-physician-fee-schedule-calendar-year-1) included the most significant changes to medical codes in 30 years, extending or making permanent some of the temporary rules.
 
+<blockquote class="post-blockquote" cite="">
+<p>A lot of this we learned from trial and error. It's so hard.</p>
+<cite><strong>Medical biller with 13-years of experience</strong></cite>
+</blockquote>
 ## Billing challenges on the ground
 
 Billing and coding changes weren't just significant from a policy standpoint, though. Throughout the pandemic, medical billers and coders &mdash; the administrative staff responsible for billing patients and submitting claims for reimbursement &mdash; have had to completely revamp the way they code, document, and bill for telehealth.
 
 I learned about some of these challenges while interviewing clinical staff in the field.
 
-A biller with 13 years of experience working at a small, federally-funded rural hospital in California, talked about difficulties keeping up with new rules and regulations, particularly in the early months of the pandemic, when reimbursement rules were nearly constantly in flux:
-
-<blockquote class="post-blockquote">
-<p>You can get one person to process [a claim] one way, and the next person will process it another way. It's all up to interpretation. A lot of this we learned from trial and error. It's so hard.</p>
-</blockquote>
+A biller with 13 years of experience working at a small, federally-funded rural hospital in California, talked about difficulties keeping up with new rules and regulations, particularly in the early months of the pandemic, when reimbursement rules were nearly constantly in flux. "You can get one person to process [a claim] one way, and the next person will process it another way. It's all up to interpretation. A lot of this we learned from trial and error. It's so hard."
 
 Sometimes a new rule would come out that applied to backdated claims, requiring staff to re-code. Sometimes those claims would get denied anyway, even after trying to carefully follow the new policies.
 

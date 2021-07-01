@@ -27,7 +27,7 @@ Digital team members will need access to modern software and services to do thei
 
 <blockquote class="post-blockquote" cite="https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0">
 <p>Of public sector job seekers, 43% of 18 to 34 year olds indicated that the government's readiness to adopt the latest technology had a major impact on their willingness to work in government.</p>
-<cite><strong>NASCA, Accenture, and NEOGOV</strong></cite>
+<cite><strong>"[Job One: Reimagine Topday's State Government Workforce](https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0),"</strong> NASCA, Accenture, and NEOGOV</cite>
 </blockquote>
 
 ## Have a remote-first mindset

@@ -113,7 +113,7 @@ You're wise to raise such an objection; after all, it's harder to make two sandw
 We believe rather than being like sandwich-making, this is more like invention, and the Inventor's Paradox applies. To quote the <a href="https://en.wikipedia.org/wiki/Inventor%27s_paradox">Wikipedia article</a>:
 
 <blockquote class="post-blockquote" cite="https://en.wikipedia.org/wiki/Inventor%27s_paradox">
-<p>"The <strong>inventor's paradox</strong> is a phenomenon that occurs in seeking a solution to a given problem. Instead of solving a specific type of problem, which would seem intuitively easier, it can be easier to solve a more general problem, which covers the specifics of the sought after solution. The <em>inventor's paradox</em> has been used to describe phenomena in mathematics, programming, and logic, as well as other areas that involve critical thinking.</p>
+<p>The <strong>inventor's paradox</strong> is a phenomenon that occurs in seeking a solution to a given problem. Instead of solving a specific type of problem, which would seem intuitively easier, it can be easier to solve a more general problem, which covers the specifics of the sought after solution. The <em>inventor's paradox</em> has been used to describe phenomena in mathematics, programming, and logic, as well as other areas that involve critical thinking.</p>
 </blockquote>
 
 The Inventor's Paradox doesn't apply to every situation, but we can reasonably expect it to apply to case management systems. The only thing that's really distinctive about a case management system is the business rules specific to a given situation. The more we can treat the rest of the system as a set of functionality to be shared by systems, the better off we are.

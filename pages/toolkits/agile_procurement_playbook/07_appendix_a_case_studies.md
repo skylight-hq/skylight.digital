@@ -8,9 +8,9 @@ sidenav: agile_procurement_playbook
 content_type: Toolkit
 ---
 
-# Appendix A: Case studies
+# Appendix A: Case study
 
-## Case study #1: Medicare Payment Systems Modernization (MPSM)
+## Medicare Payment Systems Modernization (MPSM)
 
 ### Project background
 

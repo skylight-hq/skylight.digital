@@ -18,7 +18,7 @@ date: 2017-06-15
 ---
 <blockquote class="post-blockquote" cite="http://quoteinvestigator.com/2012/04/28/shorter-letter/">
 <p>If I had more time, I would have written a shorter letter.</p>
-<cite><strong>attribution unclear</strong></cite>
+<cite><strong>Attribution unclear</strong></cite>
 </blockquote>
 
 <blockquote class="post-blockquote" cite="http://www.paulgraham.com/power.html">
