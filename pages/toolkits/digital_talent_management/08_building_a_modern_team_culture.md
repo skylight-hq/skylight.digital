@@ -94,7 +94,7 @@ Dependability is an individual trait. As a team member, you have to personally b
 Teams should also collectively set goals and support each other to achieve them. The [Objectives and Key Results](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) (OKRs) framework from Google works well to set goals and track progress at multiple levels in your organization. OKRs help align individual and team goals with organization goals. Each goal should have an associated plan on how to achieve it.
 
 <div class="callout--alt" markdown="1">
-Learn more about how the U.K. Government Digital Service uses OKRs on GOV.UK website by [reading this article]((https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/)).
+Learn more about how the [U.K. Government Digital Service uses OKRs](https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/) on GOV.UK website.
 </div>
 
 ### Meaning and impact
@@ -135,12 +135,12 @@ Create a community where everyone feels empowered to speak up. It's useful to do
 
 <blockquote class="post-blockquote" cite="https://content-guide.18f.gov/inclusive-language/">
 <p>As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users.</p>
-<cite><strong>18F</strong></cite>
+<cite><strong>"[18F Content Guide](https://content-guide.18f.gov/inclusive-language/)"</strong></cite>
 </blockquote>
 
 Use inclusive language in all communications with your organization and the services you build. These resources can help:
 
-- This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/)is short and easy to internalize for all communications.
+- This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/) is short and easy to internalize for all communications.
 - The Ontario Digital Service has a useful [inclusive design toolkit available online](https://www.ontario.ca/page/inclusive-design-toolkit).
 
 ### Provide training on unconscious bias
