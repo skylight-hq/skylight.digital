@@ -29,9 +29,11 @@ $(function() {
 $(function() {
   $(".card-link").on("click", function(e) {
     var url = $(this).data().href;
+    var target = $(this).data().target;
 
-    if (e.shiftKey || e.ctrlKey || e.metaKey) {
-      window.open(url, "_blank");
+    if (e.shiftKey || e.ctrlKey || e.metaKey || target) {
+      target = target ? target : '_blank';
+      window.open(url, target);
     } else {
       window.location = url;
     }

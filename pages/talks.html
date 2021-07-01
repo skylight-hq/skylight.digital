@@ -71,6 +71,7 @@ pagination:
           <div
             class="blog-post-card card-link"
             data-href="{% if item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ item.link }}"
+            data-target="_blank"
             tabindex="-1"
           >
             <div
@@ -120,12 +121,3 @@ pagination:
 </div>
 
 {% include hire_us_cta.html %}
-
-<script>
-  $('.card-link').each(function() {
-    var $th = $(this);
-    $th.on('click', function() {
-      window.open($th.attr('data-href'), $th.attr('data-target'));
-    });
-  });
-</script>
