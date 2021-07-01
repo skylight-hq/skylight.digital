@@ -55,9 +55,9 @@ pagination:
         <p>{{ item.event }}</p>
         <a class="font-mono" href="https://www.youtube.com/watch?v=_eGtm66_X9E" target="_blank">
           {% if item.type == "video" %}
-            Watch the video
+            Watch video
           {% elsif item.type == "podcast" %}
-            Listen to the podcast
+            Listen to podcast
           {% endif %} <i class="fal fa-long-arrow-right" aria-hidden="true"></i>
         </a>
       </div>
@@ -106,9 +106,9 @@ pagination:
             <div class="blog-post-footer">
               <a href="{% if item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ item.link }}" tabindex="0">
                 {% if item.type == "video" %}
-                  Watch the video
+                  Watch video
                 {% elsif item.type == "podcast" %}
-                  Listen to the podcast
+                  Listen to podcast
                 {% endif %} <i class="fal fa-long-arrow-right" aria-hidden="true"></i>
               </a>
             </div>
