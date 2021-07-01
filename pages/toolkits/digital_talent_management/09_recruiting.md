@@ -50,7 +50,7 @@ Shorter, more realistic requirements lists show that you understand what you nee
   content = "Men are willing to apply to jobs for which they meet only 60% of the qualifications, women are much more likely to hesitate unless they meet 100% of the listed requirements."
   cite_name = "Tara Sophia Mohr"
   cite_title = "Why Women Don't Apply for Jobs Unless They're 100% Qualified"
-  cite_url = "https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified0"
+  cite_url = "https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified"
 %}
 
 ### Sections of a position description
