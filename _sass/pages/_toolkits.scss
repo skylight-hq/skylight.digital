@@ -93,6 +93,14 @@
   @include media-breakpoint-up(sm) {
     margin-bottom: -2rem;
   }
+
+  a {
+    border-bottom: none;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
 }
 
 .pagination-alt {
