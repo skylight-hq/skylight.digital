@@ -151,8 +151,18 @@ $(function() {
 
 $(function() {
   if (location.pathname === "/work/experience/") {
+    var searchParams = new URLSearchParams(window.location.search);
+    var filters_set = searchParams.get('filters');
+    if(filters_set != 'true'){
+      window.localStorage.removeItem('filters');
+      window.localStorage.removeItem('page');
+      searchParams.set('filters', 'true');
+      window.location.search = searchParams.toString();  
+    }
+
+    var filter_params = window.localStorage.getItem('filters');
     // Initialize empty filters array
-    var filters = []; // All posts to be filtered
+    var filters = filter_params ? filter_params.split(',') : []; // All posts to be filtered
 
     var posts = $("article[data-display=true]");
     $("article[data-display=false]").addClass("hidden"); // All filter tags actually used by posts
@@ -180,6 +190,20 @@ $(function() {
         });
     }; // This function will paginate all visible posts
 
+    if(filter_params){
+      filter_params.split(',').forEach((f)=>{
+        $('.exp-filter-item:contains("' + f + '")').addClass(
+          "font-weight-bold"
+        );
+        $(".filter-post-tags").append(
+          '<a class="tag-badge capitalize" href="#" onclick="return false;">' +
+            f +
+            '<i class="fa fa-times ml-2"></i></a>'
+        );
+      })
+      addRemoveHandler();
+    }
+
     var paginatePosts = function paginatePosts() {
       var dataSource = $("article.filter-match").get();
       var pageSize = 12;
@@ -191,6 +215,12 @@ $(function() {
 
         window.scrollTo(0, 0);
       };
+
+       function getCurrentPageParam(){
+          var page = window.localStorage.getItem('page') 
+          return page ? page : 1;
+       }
+
 
       $(".projects").pagination({
         dataSource: dataSource,
@@ -207,7 +237,9 @@ $(function() {
         autoHideNext: true,
         afterPreviousOnClick: onPageChange,
         afterNextOnClick: onPageChange,
-        callback: function callback(data) {
+        pageNumber: getCurrentPageParam(),
+        callback: function callback(data, pagination) {
+          window.localStorage.setItem('page', pagination.pageNumber);
           posts.addClass("hidden");
           data.forEach(function(post) {
             return (post.className = "project-col");
@@ -219,6 +251,7 @@ $(function() {
             $(".paginationjs-nav")
               .detach()
               .prependTo(".pagination")
+              .addClass("mx-3 mx-sm-5");
             $(".paginationjs-prev").detach().prependTo(".pagination");
           }
         },
@@ -245,6 +278,16 @@ $(function() {
       } else {
         posts.addClass("filter-match");
       }
+
+      // if ('URLSearchParams' in window) {
+      //   // var searchParams = new URLSearchParams(window.location.search);
+      //   var filter_params = searchParams.get('filters');
+      //   if(filter_params != filters.join(',')){
+      //     searchParams.set("filters", filters.join(','));
+      //     window.location.search = searchParams.toString();  
+      //   }
+      // }
+      window.localStorage.setItem('filters', filters.join(','));
 
       paginatePosts();
     }; // Disable filter options that won't result in any posts
