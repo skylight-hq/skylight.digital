@@ -69,7 +69,7 @@ preload: hero-about-us.svg
                 </div>
                 <div class="employee-footer">
                     {% for social in emp.socials %}
-                      {% if social.name == 'Blog Posts' or social.name == 'Projects' %}
+                      {% if social.name == 'Blog Posts' or social.name == 'Projects' or social.name == 'Talks' %}
                         {% assign target = '_self' %}
                       {% else %}
                         {% assign target = '_blank' %}
