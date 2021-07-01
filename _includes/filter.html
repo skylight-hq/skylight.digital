@@ -54,7 +54,8 @@ include.context %} {% capture filter_title_markup %}
           >
         </h2>
         {% if filtered_item.subtitle %} {% assign filtered_item_desc =
-        filtered_item.subtitle %} {% else %} {% assign filtered_item_desc =
+        filtered_item.subtitle %} {% elsif filtered_item.description %} {% assign filtered_item_desc =
+        filtered_item.description %} {% else %} {% assign filtered_item_desc =
         filtered_item.excerpt %} {% endif %}
         <p class="filter-item-description">{{filtered_item_desc}}</p>
       </article>
