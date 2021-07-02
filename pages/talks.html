@@ -98,12 +98,12 @@ pagination:
             </div>
             <div class="blog-post-block">
               <p class="kicker">{{ item.date | date: "%B %-d, %Y" }}</p>
-              <h3 class="blog-post-title">
+              <h3 class="blog-post-title font-lg">
                 {{ item.title }}
               </h3>
-              <div class="blog-post-text">{{ item.description | markdownify }}</div>
+              <div class="card-text blog-post-text">{{ item.description | markdownify }}</div>
               <h4 class="kicker margin-heading">Event</h4>
-              <p>{{ item.event }}</p>
+              <p class="card-text">{{ item.event }}</p>
             </div>
             <div class="blog-post-footer">
               <a href="{% if item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ item.link }}" tabindex="0">

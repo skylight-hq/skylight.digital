@@ -65,7 +65,7 @@ preload: hero-about-us.svg
                 <div class="employee-block">
                   <h3 class="employee-title">{{emp.full_name}}</h3>
                   <h4 class="employee-subtitle">{{emp.position}}</h4>
-                  <div class="employee-text">{{emp.bio | markdownify }}</div>
+                  <div class="card-text employee-text">{{emp.bio | markdownify }}</div>
                 </div>
                 <div class="employee-footer">
                     {% for social in emp.socials %}
