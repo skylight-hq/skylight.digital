@@ -35,14 +35,14 @@
       link: /thoughts/blog/author/chris-cairns/
       link_description: Chris' Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/chris-cairns/
+      link_description: Chris' Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/chris-cairns/
       link_description: Chris' Project Work
       fa_icon_name: wrench
-    - name: Talks
-      link: /thoughts/talks/speaker/chris-cairns/
-      link_description: Chris' Talks
-      fa_icon_name: comment
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -76,14 +76,14 @@
       link: /thoughts/blog/author/sean-johnson/
       link_description: Sean's Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/sean-johnson/
+      link_description: Sean's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: wrench
-    - name: Talks
-      link: /thoughts/talks/speaker/sean-johnson/
-      link_description: Sean's Talks
-      fa_icon_name: comment
 - name: robert-read
   fname: Robert
   lname: Read
@@ -122,14 +122,14 @@
       link: /thoughts/blog/author/robert-read/
       link_description: Robert's Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/robert-read/
+      link_description: Robert's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/robert-read/
       link_description: Robert's Project Work
       fa_icon_name: wrench
-    - name: Talks
-      link: /thoughts/talks/speaker/robert-read/
-      link_description: Robert's Talks
-      fa_icon_name: comment
 - name: john-teeter
   fname: John
   lname: Teeter
@@ -195,7 +195,7 @@
     - name: Talks
       link: /thoughts/talks/speaker/geoff-mulligan/
       link_description: Geoff's Talks
-      fa_icon_name: comment
+      fa_icon_name: microphone
 - name: kin-lane
   fname: Kin
   lname: Lane
@@ -235,14 +235,14 @@
       link: /thoughts/blog/author/kin-lane/
       link_description: Kin's Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/kin-lane/
+      link_description: Kin's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/kin-lane/
       link_description: Kin's Project Work
       fa_icon_name: wrench
-    - name: Talks
-      link: /thoughts/talks/speaker/kin-lane/
-      link_description: Kin's Talks
-      fa_icon_name: comment
 - name: josh-dorothy
   fname: Josh
   lname: Dorothy
