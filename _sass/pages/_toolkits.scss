@@ -1,3 +1,9 @@
+.page-toolkits {
+  .card-text {
+    font-size: $font-size-medium;
+  }
+}
+
 .toolkit-item {
   border: 1px solid $gray-lightest;
   border-bottom: 4px solid $brand-primary-light;

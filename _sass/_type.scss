@@ -213,16 +213,16 @@ h6 {
   max-width: $prose-max-width !important;
 }
 
-.font-lg {
-  font-size: $font-size-large;
+.font-md {
+  font-size: $font-size-medium !important;
 }
 
-.font-md {
-  font-size: $font-size-medium;
+.font-lg {
+  font-size: $font-size-large !important;
 }
 
 .font-xl {
-  font-size: $font-size-x-large;
+  font-size: $font-size-x-large !important;
 }
 
 .capitalize {
