@@ -77,13 +77,11 @@ source_code_url:
     and even OEC staff. Some of the most pressing issues included outdated forms,
     confusing language, and a desktop-only experience.
   </p>
-
-  <blockquote class="post-blockquote">
-    <p>
-      The forms online, many of them are outdated. So I don't look online.
-    </p>
-    <cite><strong>Research Participant</strong></cite>
-  </blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "The forms online, many of them are outdated. So I don't look online."
+  cite_name = "Research participant"
+%}
 
   <p>
     This was a clear challenge for OEC in advancing its mission to support young
@@ -152,12 +150,11 @@ source_code_url:
     </li>
   </ul>
 
-  <blockquote class="post-blockquote">
-    <p>
-      Clean look, bright colors, not overwhelming, and easy to search.
-    </p>
-    <cite><strong>Community Advocate</strong></cite>
-  </blockquote>
+ {% include callout.html
+  type = "pullquote"
+  content = "Clean look, bright colors, not overwhelming, and easy to search."
+  cite_name = "Community advocate"
+%}
 {% endcapture %}
 
 {% include project.html

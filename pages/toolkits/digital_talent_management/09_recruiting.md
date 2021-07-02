@@ -169,10 +169,13 @@ In addition, by encouraging your team to attend technology meetups you allow the
 
 Consider hiring remote employees. Recruiting and hiring is easier when you don't restrict the talent search to the city where the work is.
 
-<blockquote class="post-blockquote" cite="https://www.slideshare.net/upwork/future-workforce-2019-how-younger-generations-are-reshaping-the-future-workforce/1">
-<p>By 2028, 73% of all departments will have remote workers.</p>
-<cite><strong>"[Future Workforce Report](https://www.slideshare.net/upwork/future-workforce-2019-how-younger-generations-are-reshaping-the-future-workforce/1),"</strong> Upwork</cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "By 2028, 73% of all departments will have remote workers."
+  cite_name = "Upwork"
+  cite_title = "Future Workforce Report"
+  cite_url = "https://www.slideshare.net/upwork/future-workforce-2019-how-younger-generations-are-reshaping-the-future-workforce/1"
+%}
 
 Here are some of the benefits of opening the search to remote candidates:
 
@@ -202,10 +205,11 @@ The General Service Administration's Technology Transformation Service [does thi
 
 The City of San Francisco has a very high-touch hiring process. They require that someone is in touch with candidates at least once a week.
 
-<blockquote class="post-blockquote" cite="">
-<p>We have gotten feedback from a lot of candidates that this was a really great interaction with government, pleasantly surprised by high-touch experience.</p>
-<cite><strong>Deputy Chief Digital Officer</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "We have gotten feedback from a lot of candidates that this was a really great interaction with government, pleasantly surprised by high-touch experience."
+  cite_name = "Deputy Chief Digital Officer"
+%}
 
 ## Reduce the hiring time
 
