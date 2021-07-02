@@ -12,7 +12,7 @@
 
 .nav-link {
   display: block;
-  padding: $nav-link-padding;
+  padding-block: $nav-link-padding;
 
   @include hover-focus {
     text-decoration: none;
