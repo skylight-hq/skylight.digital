@@ -62,8 +62,8 @@ source_code_url:
       better outcomes for these Connecticut residents as well as for our publicly
       funded systems."
   cite_name = "Lisa Tepper Bates"
-  cite_title = "Co-chair, Governor's Task Force"
-%}    
+  cite_title = "Co-chair, Governor’s Task Force"
+%}
 
   <p>
     We were asked to support this effort by focusing on families with young children from

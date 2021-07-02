@@ -29,7 +29,7 @@ Digital team members will need access to modern software and services to do thei
   type = "pullquote"
   content = "Of public sector job seekers, 43% of 18 to 34 year olds indicated that the government's readiness to adopt the latest technology had a major impact on their willingness to work in government."
   cite_name = "NASCA, Accenture, and NEOGOV"
-  cite_title = "Job One: Reimagine Topday's State Government Workforce"
+  cite_title = "Job One: Reimagine Today’s State Government Workforce"
   cite_url = "https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0"
 %}
 

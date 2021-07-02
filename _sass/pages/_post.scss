@@ -99,6 +99,10 @@
     font-size: $font-size-x-small;
     background-color: lighten($gray, 63%);
   }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .post-contributors {
