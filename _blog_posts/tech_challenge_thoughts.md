@@ -25,6 +25,12 @@ The past, present, and future of 18F's Agile Delivery Services Marketplace is a 
 <p>As the first agile marketplace of its kind, we relied heavily on 18F's model during our research and design of the Centers for Medicare and Medicaid Services' (CMS') Agile Delivery to Execute Legislative Endeavors (ADELE) contract vehicle. The validated learning that we realized from 18F allowed us to make incremental improvements that have proved critical to ADELE's ability to deliver agile outcomes at CMS.</p>
 <cite><strong>Dan Levenson,</strong> Former CMS Digital Service Contracting Advisor and Lead Contracting Officer for the Quality Payment Program</cite>
 </blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "As the first agile marketplace of its kind, we relied heavily on 18F's model during our research and design of the Centers for Medicare and Medicaid Services' (CMS') Agile Delivery to Execute Legislative Endeavors (ADELE) contract vehicle. The validated learning that we realized from 18F allowed us to make incremental improvements that have proved critical to ADELE's ability to deliver agile outcomes at CMS."
+  cite_name = "Dan Levenson"
+  cite_title = "Former CMS Digital Service Contracting Advisor and Lead Contracting Officer for the Quality Payment Program"
+%}
 
  Over the past few years, I've had time to reflect on my own personal experience running a tech challenge. I've also had the opportunity to observe and participate in several others. Given the increasing use of tech challenges in government procurements (for example, the [Department of Homeland Security's Flexible Agile Support for the Homeland](https://medium.com/@EricHysen/lessons-learned-from-the-governments-biggest-attempt-to-fix-tech-procurement-bd2265421211) and the [State of California's Agile Development Prequalified Vendor Pool](https://github.com/CDTProcurement/adpq)), I'd like to share my thoughts on what we, as a community, can do to make even better use of them.
 

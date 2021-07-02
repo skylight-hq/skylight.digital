@@ -26,10 +26,13 @@ Pair each team with an internal agency champion. The champion will be someone wh
 
 ### Report to the highest levels
 
-<blockquote class="post-blockquote" cite="https://medium.com/code-for-america/delivery-driven-government-67e698c57c7b">
-<p>The most successful, delivery-driven government efforts tend to have technology leadership reporting to the highest levels of the organization, not buried within it.</p>
-<cite><strong>Jennifer Pahlka</strong>, "[Delivery-driven Government](https://medium.com/code-for-america/delivery-driven-government-67e698c57c7b)</cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "The most successful, delivery-driven government efforts tend to have technology leadership reporting to the highest levels of the organization, not buried within it."
+  cite_name = "Jennifer Pahlka"
+  cite_title = "Delivery-driven Government"
+  cite_url = "https://medium.com/code-for-america/delivery-driven-government-67e698c57c7b"
+%}
 
 In turn, digital teams should report to the highest levels in the technology organization. Initially, digital teams are disruptive. They will need significant executive air cover.
 
@@ -74,10 +77,13 @@ The following metrics can be used to measure the performance of your team(s):
 
 ## Hire digital-savvy leadership
 
-<blockquote class="post-blockquote" cite="https://ourpublicservice.org/publications/mobilizing-tech-talent/">
-<p>Having senior leaders who understand technology and its importance to the mission is fundamental for ensuring a high level of government effectiveness.</p>
-<cite><strong>Jennifer Anastasoff and Jennifer Smith</strong>,"[Mobilizing Tech Talent](https://ourpublicservice.org/publications/mobilizing-tech-talent/)"</cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Having senior leaders who understand technology and its importance to the mission is fundamental for ensuring a high level of government effectiveness."
+  cite_name = "Jennifer Anastasoff and Jennifer Smith"
+  cite_title = "Mobilizing Tech Talent"
+  cite_url = "https://ourpublicservice.org/publications/mobilizing-tech-talent/"
+%}
 
 All government agencies increasingly rely on technology. They need technology to be more efficient in the face of shrinking budgets. And they need it to better serve their constituents. All leadership in a government agency needs to be digital savvy.
 

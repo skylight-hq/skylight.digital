@@ -26,10 +26,11 @@ Because telehealth reimbursements are often much lower than the same service pro
 
 And while payment parity's a temporary measure during COVID-19, Medicare's [2021 fee schedule](https://www.cms.gov/newsroom/fact-sheets/final-policy-payment-and-quality-provisions-changes-medicare-physician-fee-schedule-calendar-year-1) included the most significant changes to medical codes in 30 years, extending or making permanent some of the temporary rules.
 
-<blockquote class="post-blockquote" cite="">
-<p>A lot of this we learned from trial and error. It's so hard.</p>
-<cite><strong>Medical biller with 13-years of experience</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "A lot of this we learned from trial and error. It's so hard."
+  cite_name = "Medical biller with 13-years of experience"
+%}
 ## Billing challenges on the ground
 
 Billing and coding changes weren't just significant from a policy standpoint, though. Throughout the pandemic, medical billers and coders &mdash; the administrative staff responsible for billing patients and submitting claims for reimbursement &mdash; have had to completely revamp the way they code, document, and bill for telehealth.

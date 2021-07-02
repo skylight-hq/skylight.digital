@@ -87,28 +87,21 @@ source_code_url:
     </li>
   </ul>
 
-  <blockquote class="post-blockquote">
-    <p>
-      We had been training on agile for some time, and before, we understood
-      all the ingredients. But this workshop brought all the ingredients
-      together and showed us how to bake a cake.
-    </p>
-    <cite><strong>Tamara Srzentic</strong>, Deputy Director, Office of Innovation at CHHS</cite>
-  </blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "We had been training on agile for some time, and before, we understood all the ingredients. But this workshop brought all the ingredients together and showed us how to bake a cake."
+  cite_name = "Tamara Srzentic"
+  cite_title = "Deputy Director, Office of Innovation at CHHS"
+%}
 
-  <blockquote class="post-blockquote">
-    <p>
-      As people in the government realize the value and power of
-      the agile process, it's important to understand that the
-      principles of agile are key. This class teaches people how
-      to get the benefits of agile without being dogmatic. My staff
-      said they have been through multiple agile trainings but
-      none were as valuable and practical as this. They're now
-      comfortable adjusting the process to fit their needs and
-      culture of the Department they're helping.
-    </p>
-    <cite><strong>Chaeny Emanavin</strong>, Director, Office of Innovation at CHHS</cite>
-  </blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "As people in the government realize the value and power of the agile process, it's important to understand that the principles of agile are key. This class teaches people how
+      to get the benefits of agile without being dogmatic. My staff said they have been through multiple agile trainings but none were as valuable and practical as this. They're now
+      comfortable adjusting the process to fit their needs and culture of the Department they're helping."
+  cite_name = "Chaeny Emanavin"
+  cite_title = "Director, Office of Innovation at CHHS"
+%}  
 {% endcapture %}
 
 {% include project.html
