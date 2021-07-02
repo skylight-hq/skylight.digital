@@ -101,7 +101,7 @@ source_code_url:
       comfortable adjusting the process to fit their needs and culture of the Department they're helping."
   cite_name = "Chaeny Emanavin"
   cite_title = "Director, Office of Innovation at CHHS"
-%}  
+%}
 {% endcapture %}
 
 {% include project.html

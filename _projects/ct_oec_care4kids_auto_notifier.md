@@ -83,7 +83,7 @@ source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
   type = "pullquote"
   content = "Mailed it in originally. They said they never received it, sent again. They never received it so I did everything at that point &mdash; fax and upload. Had to do it all over again after that...still hadn't received anything back from Care 4 Kids at that point."
   cite_name = "Parent"
-%} 
+%}
 {% endcapture %}
 
 {% capture solution %}
@@ -138,9 +138,9 @@ source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
 
 {% include callout.html
   type = "pullquote"
-  content = " [I] thought messages were very helpful. You never know when Care 4 Kids receives documents, so it was great to know. Very convenient!"
+  content = "[I] thought messages were very helpful. You never know when Care 4 Kids receives documents, so it was great to know. Very convenient!"
   cite_name = "Pilot participant"
-%} 
+%}
 {% endcapture %}
 
 {% include project.html
