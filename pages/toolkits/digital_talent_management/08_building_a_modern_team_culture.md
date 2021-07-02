@@ -10,10 +10,11 @@ content_type: Toolkit
 
 # Building a modern team culture
 
-<blockquote class="post-blockquote">
-<p>Culture eats strategy for breakfast.</p>
-<cite><strong>Peter Drucker</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Culture eats strategy for breakfast."
+  cite_name = "Peter Drucker"
+%}
 
 Building the right organizational culture is the most important thing you can do. The right organizational culture:
 
@@ -133,10 +134,12 @@ Create a community where everyone feels empowered to speak up. It's useful to do
 
 ### Use inclusive language in all communications
 
-<blockquote class="post-blockquote" cite="https://content-guide.18f.gov/inclusive-language/">
-<p>As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users.</p>
-<cite><strong>"[18F Content Guide](https://content-guide.18f.gov/inclusive-language/)"</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users."
+  cite_title = "18F Content Guide"
+  cite_url = "https://content-guide.18f.gov/inclusive-language/"
+%}
 
 Use inclusive language in all communications with your organization and the services you build. These resources can help:
 

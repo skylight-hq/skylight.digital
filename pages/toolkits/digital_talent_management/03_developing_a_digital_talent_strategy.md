@@ -39,10 +39,13 @@ There a few different ways to create bright spots:
 
 ## Recognizing and training existing technology talent
 
-<blockquote class="post-blockquote" cite="https://medium.com/code-for-america/delivery-driven-government-67e698c57c7b">
-<p>It's common that there are dozens or even hundreds of civil servants who both know how the system works inside and out and have been trying to change it to improve outcomes for years. While it's likely that building a delivery-driven government will require hiring new talent, failing to recognize, elevate, and support the champions you already have (and who have the battle scars) as a new generation of leaders can set a change agenda back years, even decades.</p>
-<cite><strong>Jennifer Pahlka</strong>, "[Delivery-driven Government](https://medium.com/code-for-america/delivery-driven-government-67e698c57c7b)"</cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "It's common that there are dozens or even hundreds of civil servants who both know how the system works inside and out and have been trying to change it to improve outcomes for years. While it's likely that building a delivery-driven government will require hiring new talent, failing to recognize, elevate, and support the champions you already have (and who have the battle scars) as a new generation of leaders can set a change agenda back years, even decades."
+  cite_name = "Jennifer Pahlka"
+  cite_title = "Delivery-driven Government"
+  cite_url = "https://medium.com/code-for-america/delivery-driven-government-67e698c57c7b"
+%}
 
 ### Find people to guide new technology teams
 

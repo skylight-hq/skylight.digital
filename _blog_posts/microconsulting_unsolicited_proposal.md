@@ -31,11 +31,7 @@ Here is an attempt to storyboard this:
 
 ![Storyboard illustrating one potential use case for a microconsulting services marketplace platform.](/img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace-platform-storyboard.jpg)
 
-We've been gratified by the positive reaction to our [Microconsulting Services announcement](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/). In particular, we accord with Harvard professor Dr. Steve Kelman's <a href="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">piece</a> on the disruptive implications of such small-scoped services, who writes:
-
-<blockquote class="post-blockquote" cite="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">
-<p>If microconsulting can gain traction, this could become a disruptive innovation that forces legacy contractors to change their consulting scoping models.</p>
-</blockquote>
+We've been gratified by the positive reaction to our [Microconsulting Services announcement](/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/). In particular, we accord with Harvard professor Dr. Steve Kelman's <a href="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">piece</a> on the disruptive implications of such small-scoped services, who writes, "If microconsulting can gain traction, this could become a disruptive innovation that forces legacy contractors to change their consulting scoping models."
 
 Indeed. We want to hasten that. Already, we're starting to see more and more parallel trends toward the acquisition of bite-sized professional services facilitated via digital marketplace platforms. For example, 18F's <a href="https://micropurchase.18f.gov/">micropurchase platform</a> can be used to procure open-source-code contributions from vendors under the federal micropurchase threshold.
 
@@ -49,11 +45,9 @@ In fact, we'd like to assert a bold hypothesis:
 
 *We believe that at least [10,000] microconsulting-service engagements will be entered into between federal knowledge workers and specialized experts within [3] years via a centralized digital marketplace (after initial release) because many of today's problems can be solved through a consulting format that features an individual or small team who produces an immediate deliverable on a specific topic for a cost under the federal micropurchase threshold.*
 
-In other words, this problem is bigger than 18F, and it's bigger than any one contractor, including Skylight. We think this could be a truly transformative way of acquiring some of the support that government needs. (It isn't appropriate in all cases, but certainly many.) One of the nice advantages of staying under the micropurchase threshold, as Dr. Steve Kelman notes:
+In other words, this problem is bigger than 18F, and it's bigger than any one contractor, including Skylight. We think this could be a truly transformative way of acquiring some of the support that government needs. (It isn't appropriate in all cases, but certainly many.) One of the nice [advantages of staying under the micropurchase threshold](https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx), as Dr. Steve Kelman notes:
 
-<blockquote class="post-blockquote" cite="https://fcw.com/blogs/lectern/2017/07/kelman-microconsulting.aspx">
-<p>Past performance may be taken into account without any formal rating system, not to speak of an appeals process. This promises to introduce the kind of robust use of past performance as in the commercial world, which will strongly incentivize good performance.</p>
-</blockquote>
+"Past performance may be taken into account without any formal rating system, not to speak of an appeals process. This promises to introduce the kind of robust use of past performance as in the commercial world, which will strongly incentivize good performance."
 
 Ideally, this wouldn't be based on personal relationships, but would be a free and open marketplace of firms and individuals offering short and sharp microconsulting services.
 

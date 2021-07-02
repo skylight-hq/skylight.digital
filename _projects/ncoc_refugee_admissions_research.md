@@ -51,14 +51,12 @@ source_code_url:
 {% endcapture %}
 
 {% capture challenge %}
-<blockquote class="post-blockquote">
-  <p>
-    When refugees come, they want to be self-sufficient. They are workers, they
-    are doctors, they open businesses, they employ people. We pay taxes.
-    Refugees and immigrants are the backbone of the economy of this country.
-  </p>
-  <cite><strong>Refugee from Angola, resettled in 2015</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "When refugees come, they want to be self-sufficient. They are workers, they are doctors, they open businesses, they employ people. We pay taxes. Refugees and immigrants are the backbone of the economy of this country."
+  cite_name = "Refugee from Angola, resettled in 2015"
+%} 
+{% endcapture %}
 
 <p>
   Refugee admissions under the U.S. Refugee Admissions Program reached historic

@@ -10,10 +10,11 @@ content_type: Toolkit
 
 # Leading and managing a digital team
 
-<blockquote class="post-blockquote">
-<p>The gardener cannot actually 'grow' tomatoes, squash, or beans &mdash; she can only foster an environment in which the plants do so.</p>
-<cite><strong>General Stanley McChrystal</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "The gardener cannot actually 'grow' tomatoes, squash, or beans &mdash; she can only foster an environment in which the plants do so."
+  cite_name = "General Stanley McChrystal"
+%}
 
 ## Serve your teams
 

@@ -57,7 +57,7 @@ include.context %} {% capture filter_title_markup %}
         filtered_item.subtitle %} {% elsif filtered_item.description %} {% assign filtered_item_desc =
         filtered_item.description %} {% else %} {% assign filtered_item_desc =
         filtered_item.excerpt %} {% endif %}
-        <p class="filter-item-description">{{filtered_item_desc}}</p>
+        <div class="filter-item-description">{{filtered_item_desc | markdownify }}</div>
       </article>
       {% endfor %} {% else %}
       <p class="filter-no-results">{{filter_no_results}}</p>
