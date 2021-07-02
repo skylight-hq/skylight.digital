@@ -187,7 +187,7 @@ $(function() {
           var filterText = text.toLowerCase();
           filters.splice(filters.indexOf(filterText), 1);
           $(this).remove();
-          $('.exp-filter-item:contains("' + text + '")').removeClass(
+          $('.exp-filter-item:icontains("' + text + '")').removeClass(
             "font-weight-bold"
           );
           filterPosts();
