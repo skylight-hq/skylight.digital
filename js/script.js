@@ -149,15 +149,19 @@ $(function() {
   }
 }); // Experience filters
 
+//https://stackoverflow.com/questions/8746882/jquery-contains-selector-uppercase-and-lower-case-issue
+jQuery.expr[':'].icontains = function(a, i, m) {
+  return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+};
+
 $(function() {
   if (location.pathname === "/work/experience/") {
     var searchParams = new URLSearchParams(window.location.search);
     var filters_set = searchParams.get('filters');
     if(filters_set != 'true'){
       window.localStorage.removeItem('filters');
-      window.localStorage.removeItem('page');
-      searchParams.set('filters', 'true');
-      window.location.search = searchParams.toString();  
+      window.localStorage.removeItem('page'); 
     }
 
     var filter_params = window.localStorage.getItem('filters');
@@ -192,7 +196,7 @@ $(function() {
 
     if(filter_params){
       filter_params.split(',').forEach((f)=>{
-        $('.exp-filter-item:contains("' + f + '")').addClass(
+        $('.exp-filter-item:icontains("' + f + '")').addClass(
           "font-weight-bold"
         );
         $(".filter-post-tags").append(
@@ -240,6 +244,9 @@ $(function() {
         pageNumber: getCurrentPageParam(),
         callback: function callback(data, pagination) {
           window.localStorage.setItem('page', pagination.pageNumber);
+          if(pagination.pageNumber != 1) {
+            history.pushState({filters: true}, "", "?filters=true");
+          }
           posts.addClass("hidden");
           data.forEach(function(post) {
             return (post.className = "project-col");
@@ -279,16 +286,7 @@ $(function() {
         posts.addClass("filter-match");
       }
 
-      // if ('URLSearchParams' in window) {
-      //   // var searchParams = new URLSearchParams(window.location.search);
-      //   var filter_params = searchParams.get('filters');
-      //   if(filter_params != filters.join(',')){
-      //     searchParams.set("filters", filters.join(','));
-      //     window.location.search = searchParams.toString();  
-      //   }
-      // }
-      window.localStorage.setItem('filters', filters.join(','));
-
+      window.localStorage.setItem('filters', filters.join(',').toLowerCase());
       paginatePosts();
     }; // Disable filter options that won't result in any posts
 
@@ -308,7 +306,7 @@ $(function() {
 
       if (!filters.includes(filterText)) {
         filters.push(filterText);
-        $('.exp-filter-item:contains("' + text + '")').addClass(
+        $('.exp-filter-item:icontains("' + text + '")').addClass(
           "font-weight-bold"
         );
         $(".filter-post-tags").append(
@@ -319,11 +317,14 @@ $(function() {
         addRemoveHandler();
       } else {
         filters.splice(filters.indexOf(filterText), 1);
-        $('.exp-filter-item:contains("' + text + '")').removeClass(
+        $('.exp-filter-item:icontains("' + text + '")').removeClass(
           "font-weight-bold"
         );
-        $('.tag-badge:contains("' + text + '")').remove();
+
+        $('.tag-badge:icontains("' + text + '")').remove();
       }
+      
+      history.pushState({filters: true}, "", "?filters=true");
 
       filterPosts();
     }); // Do initial filter
