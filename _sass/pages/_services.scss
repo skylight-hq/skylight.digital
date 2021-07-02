@@ -26,3 +26,13 @@
     }
   }
 }
+
+.page-service-design {
+  .img--frontstage-backstage {
+    @include media-breakpoint-up(sm) {
+      float: right;
+      margin-left: 1.5rem;
+      width: 50%;
+    }
+  }
+}
