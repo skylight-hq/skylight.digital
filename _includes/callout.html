@@ -2,7 +2,7 @@
 <blockquote class="post-blockquote" cite="{{ include.url }}">
   {{ include.content | markdownify }} {% if include.cite_name %}
   <cite
-    ><strong>{{ include.cite_name }}</strong>{% if include.cite_title %},
+    ><strong>{{ include.cite_name }}</strong>{% if include.cite_title %}<b>,</b>
     <a href="{{ include.url }}">{{ include.cite_title }}</a>{% endif %}</cite
   >
   {% endif %}
