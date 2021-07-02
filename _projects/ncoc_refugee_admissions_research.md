@@ -54,7 +54,8 @@ source_code_url:
 {% include callout.html
   type = "pullquote"
   content = "When refugees come, they want to be self-sufficient. They are workers, they are doctors, they open businesses, they employ people. We pay taxes. Refugees and immigrants are the backbone of the economy of this country."
-  cite_name = "Refugee from Angola, resettled in 2015"
+  cite_name = "Refugee from Angola"
+  cite_title = "resettled in 2015"
 %}
 
 <p>
