@@ -15,10 +15,11 @@ Improving digital services requires organizational change, and it takes a team a
 
 ## Keep teams small
 
-<blockquote class="post-blockquote">
-<p>If you can't feed a team with two pizzas, it's too large.</p>
-<cite><strong>Jeff Bezos</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "If you can't feed a team with two pizzas, it's too large."
+  cite_name = "Jeff Bezos"
+%}
 
 A small team is often going to be more efficient and effective than a larger team. By keeping teams small, you can:
 

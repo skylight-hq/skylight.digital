@@ -94,15 +94,12 @@ source_code_url:
     them to serious injury or mission failure.
   </p>
 
-  <blockquote class="post-blockquote">
-    <p>
-      In certain situations, having ill-fitting gear, such as harnesses and
-      survival vests, can result in a loss of life. If an aircrew member ejects
-      from the aircraft with equipment that doesn't fit, they can be severely
-      injured or lose their life.
-    </p>
-    <cite><strong>Captain Lauren Ellis</strong>, U.S. Air Force</cite>
-  </blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "In certain situations, having ill-fitting gear, such as harnesses and survival vests, can result in a loss of life. If an aircrew member ejects from the aircraft with equipment that doesn't fit, they can be severely injured or lose their life."
+  cite_name = "Captain Lauren Ellis"
+  cite_title = "U.S. Air Force"
+%} 
 {% endcapture %}
 
 {% capture solution %}

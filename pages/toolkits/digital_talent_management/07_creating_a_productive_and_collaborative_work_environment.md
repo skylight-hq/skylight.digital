@@ -25,10 +25,13 @@ As teams envision and build products, they need space for conducting in-person w
 
 Digital team members will need access to modern software and services to do their jobs well. They'll likely already be familiar with many tools commonly used in industry and will be productive with them. The tables later in this section include examples of popular tools, but these aren't exhaustive lists &mdash; ask your staff what tools they need.
 
-<blockquote class="post-blockquote" cite="https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0">
-<p>Of public sector job seekers, 43% of 18 to 34 year olds indicated that the government's readiness to adopt the latest technology had a major impact on their willingness to work in government.</p>
-<cite><strong>"[Job One: Reimagine Topday's State Government Workforce](https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0),"</strong> NASCA, Accenture, and NEOGOV</cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Of public sector job seekers, 43% of 18 to 34 year olds indicated that the government's readiness to adopt the latest technology had a major impact on their willingness to work in government."
+  cite_name = "NASCA, Accenture, and NEOGOV"
+  cite_title = "Job One: Reimagine Topday's State Government Workforce"
+  cite_url = "https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0"
+%}
 
 ## Have a remote-first mindset
 

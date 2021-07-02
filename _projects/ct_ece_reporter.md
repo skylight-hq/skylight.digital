@@ -74,14 +74,12 @@ source_code_url:
     and improve data quality.
   </p>
 
-    <blockquote class="post-blockquote">
-    <p>
-      The amount of paperwork I have to submit is overwhelming, sometimes.
-      Honestly, this would be a blessing. We're supposed to be running centers
-      and helping families.
-    </p>
-    <cite><strong>Anna Ruggiero</strong>, Executive Director, Children's Adventure Center, Sandyhook, CT</cite>
-  </blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "The amount of paperwork I have to submit is overwhelming, sometimes. Honestly, this would be a blessing. We're supposed to be running centers and helping families."
+  cite_name = "Anna Ruggiero"
+  cite_title = "Executive Director, Children's Adventure Center, Sandyhook, CT"
+%}   
 {% endcapture %}
 
 {% capture challenge %}

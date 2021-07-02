@@ -143,8 +143,11 @@
 }
 
 .filter-item-description {
-  @extend %mb-0;
   font-size: $font-size-medium;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .filter-no-results {

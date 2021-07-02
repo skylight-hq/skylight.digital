@@ -10,10 +10,13 @@ content_type: Toolkit
 
 # Onboarding
 
-<blockquote class="post-blockquote" cite="https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/">
-<p>A new job can be stressful, and the decision to stick with a job or move on is often made within the first few days. It's vital that we create a great onboarding experience. We never want to lose sight of the fact that people are at the heart of what we do.</p>
-<cite><strong>Jessica Loadenthal and Alexa Davidson</strong>, "[Making a Great First Impression](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)</cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "A new job can be stressful, and the decision to stick with a job or move on is often made within the first few days. It's vital that we create a great onboarding experience. We never want to lose sight of the fact that people are at the heart of what we do."
+  cite_name = "Jessica Loadenthal and Alexa Davidson"
+  cite_title = "Making a Great First Impression"
+  cite_url = "https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/"
+%}
 
 Employee onboarding is the process of integrating a new employee into your team. A good onboarding process will reduce the time it takes new employees to acclimate &mdash; and to contribute.
 
