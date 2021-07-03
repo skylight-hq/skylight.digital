@@ -17,13 +17,13 @@
   @extend %mb-lg-0;
 
   @include media-breakpoint-up(lg) {
-    @include make-col(4);
+    @include make-col(3);
   }
 }
 
 .footer-nav {
   @extend %col-12;
-  @extend %col-lg-8;
+  @extend %col-lg-9;
 }
 
 .footer-brandmark {
@@ -49,6 +49,7 @@
 
   @include media-breakpoint-up(sm) {
     flex: 1 0;
+    padding-inline: 0;
   }
 
   &:not(:last-of-type) {
