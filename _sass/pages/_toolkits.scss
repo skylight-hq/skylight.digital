@@ -110,10 +110,8 @@
 }
 
 .pagination-alt {
-  @include media-breakpoint-up(sm) {
-    display: flex;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-between;
 
   a {
     border-bottom: none;
@@ -133,16 +131,26 @@
 
 .pagination-alt__step {
   display: flex;
+  font-family: $font-family-mono;
   font-size: $font-size-small;
 }
 
+.pagination__colon {
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: inline;
+  }
+}
+
 .pagination-alt__step-text {
-  max-width: 100vw;
+  display: none;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 
   @include media-breakpoint-up(sm) {
+    display: block;
     max-width: 35vw;
   }
 
@@ -152,8 +160,6 @@
 }
 
 .pagination-alt__step--next {
-  margin-top: 1rem;
-
   @include media-breakpoint-up(sm) {
     float: right;
     margin-left: 1rem;
