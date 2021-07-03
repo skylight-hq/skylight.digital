@@ -35,4 +35,24 @@
       width: 50%;
     }
   }
+
+  .card-link {
+    @include media-breakpoint-up(md) {
+    flex-direction: row;
+    }
+  }
+
+  .card-img {
+    @include media-breakpoint-up(md) {
+
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 100%;
+  }
+  }
+
+  .card-footer {
+    padding: 0;
+
+  }
 }
