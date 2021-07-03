@@ -27,7 +27,7 @@ practices:
   - Classroom training
   - Train the trainer
   - Learning by doing
-  - Expert coaching
+  - Coaching
   - Knowledge management
 news_posts:
   - title: Fostering a Culture of Innovation Across Government through Acquisition Innovation Labs
