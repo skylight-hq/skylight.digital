@@ -1885,8 +1885,8 @@
   full_name: Chun Yen
   short_name: C. Yen
   profile_path: /company/about/#chun-yen
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Photo of
+  image: /img/people/chun-yen.png
+  image_description: Illustration of Chun Yen
   position: DevOps Engineer
   bio: >
     Chun's passionate about automating everything and creating great experiences for other engineers. He specializes in DevOps engineering, cloud computing, and security. Chun lives in Maryland.
@@ -1929,8 +1929,8 @@
   full_name: Tiffany Nieh
   short_name: T.  Nieh
   profile_path: /company/about/#tiffany-nieh
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Photo of Tiffany Nieh
+  image: /img/people/tiffany-nieh.png
+  image_description: Illustration of Tiffany Nieh
   position: Product Designer
   bio: >
     Tiffany's a product designer who loves understanding people's needs and creating solutions that have a positive impact. Most recently, she worked at Pivotal Labs / VMware Tanzu where she helped startups, large enterprises, and government organizations build software using modern practices. Tiffany lives in California.
@@ -1969,8 +1969,8 @@
   full_name: Becca Woodberry
   short_name: B. Woodberry
   profile_path: /company/about/#becca-woodberry
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Photo of Becca Woodberry
+  image: /img/people/becca-woodberry.png
+  image_description: Illustration of Becca Woodberry
   position: Head of Recruiting
   bio: >
     Becca's passionate about building great organizations by hiring and supporting great people. Previously, she supported staffing needs at Waymo, LinkedIn, and other high-tech companies in the Silicon Valley area. Becca specializes in staffing, onboarding, people leadership, and diversity, equity, and inclusion. She lives in Arizona.
@@ -1987,8 +1987,8 @@
   full_name: Nathan Carter
   short_name: N. Carter
   profile_path: /company/about/#nathan-carter
-  image: /img/people/nathan-carter.svg
-  image_description: Photo of Nathan Carter
+  image: /img/people/nathan-carter.png
+  image_description: Illustration of Nathan Carter
   position: Software Engineer
   bio: >
     Nathan's a software engineer driven by building digital services for public good. Prior to becoming an engineer, he ran his own bakery. Nathan lives in North Carolina.
@@ -2071,8 +2071,8 @@
   full_name: Ashton Tu
   short_name: A. Tu
   profile_path: /company/about/#ashton-tu
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Photo of Ashton Tu
+  image: /img/people/ashton-tu.png
+  image_description: Illustration of Ashton Tu
   position: Product Designer Apprentice
   bio: >
     Ashton's a product designer, who recently graduated from the University of Southern California. As a 2020 Civic Digital Fellow with the General Services Administration, she discovered her passion for civic tech. Ashton lives in California.
@@ -2089,8 +2089,8 @@
   full_name: Andrew Lloyd
   short_name: A. Lloyd
   profile_path: /company/about/#andrew-lloyd
-  image: /img/people/eleanor-roosevelt.png
-  image_description: Photo of Andrew Lloyd
+  image: /img/people/andrew-lloyd.png
+  image_description: Illustration of Andrew Lloyd
   position: DevOps Engineer
   bio: >
     Andrew's passionate about creating great developer experiences through DevOps. He's spent over 15 years with the Air Force as a service member. Andrew specializes in DevOps engineering, software engineering, and cloud computing. He lives in Washington.
