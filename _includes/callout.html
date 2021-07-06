@@ -1,6 +1,6 @@
 {% if include.type == "pullquote" %}
 <blockquote
-  class="post-blockquote {{ include.class }}"
+  class="pullquote {{ include.class }}"
   cite="{{ include.cite_url }}">
   {{ include.content | markdownify }}
   {% if include.cite_name %}
