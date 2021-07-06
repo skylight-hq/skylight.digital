@@ -81,9 +81,10 @@
   }
 }
 
-.post-blockquote {
+.pullquote {
   @extend %blockquote;
   @extend %my-4;
+  margin-inline: initial;
 
   cite {
     display: block;

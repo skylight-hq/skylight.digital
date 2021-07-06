@@ -56,7 +56,7 @@ Now, what should your strategy be?
 
 Richard Stallman has pointed out that software is fundamentally different from a sandwich.  Only one of us can eat a sandwich. However, if you get some software, it harms you not in the least for someone else to use the same software &mdash; in fact, it may be strongly to your benefit. If you were developing a new subdivision and said,
 
-<blockquote class="post-blockquote">
+<blockquote class="pullquote">
 <p>I intend to ignore the existing American 110V/60Hz alternating current standard and instead believe that our people are best served by using a custom household system of 166V alternating at 32Hz.</p>
 </blockquote>
 
@@ -98,7 +98,7 @@ Now suppose that you and Jane have contracted your system, and you're approached
 
 The way to save yourself this hassle is simply to demand that the software that you and Jane are developing be made free-libre open source from the first line. By doing this you and Jane are in effect saying:
 
-<blockquote class="post-blockquote">
+<blockquote class="pullquote">
 <p>We know that there are many systems out there that are similar to this, and we'd like you to get the benefit of our system, and we'd like to benefit from your system. So we've demanded that our system, except for our business rules, is freely reusable so that we can freely reuse contributions to it which we hope you'll make. However, we can't spend all of our time helping you figure out how to use this, so we're attempting to distribute that burden across all potential users.</p>
 </blockquote>
 
@@ -112,7 +112,7 @@ You're wise to raise such an objection; after all, it's harder to make two sandw
 
 We believe rather than being like sandwich-making, this is more like invention, and the Inventor's Paradox applies. To quote the <a href="https://en.wikipedia.org/wiki/Inventor%27s_paradox">Wikipedia article</a>:
 
-<blockquote class="post-blockquote" cite="https://en.wikipedia.org/wiki/Inventor%27s_paradox">
+<blockquote class="pullquote" cite="https://en.wikipedia.org/wiki/Inventor%27s_paradox">
 <p>The <strong>inventor's paradox</strong> is a phenomenon that occurs in seeking a solution to a given problem. Instead of solving a specific type of problem, which would seem intuitively easier, it can be easier to solve a more general problem, which covers the specifics of the sought after solution. The <em>inventor's paradox</em> has been used to describe phenomena in mathematics, programming, and logic, as well as other areas that involve critical thinking.</p>
 </blockquote>
 

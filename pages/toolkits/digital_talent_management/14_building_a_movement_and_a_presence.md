@@ -58,13 +58,13 @@ Establish your public website as early as possible. As with everything, iteratio
 
 For example, consider as a minimal viable product:
 
-<blockquote class="post-blockquote">
+<blockquote class="pullquote">
 A single page with some basic introductory text and an email address to contact you; the initial focus and use would be recruitment
 </blockquote>
 
 A second iteration might include:
 
-<blockquote class="post-blockquote">
+<blockquote class="pullquote">
 Changing the perception that government is a boring, bureaucratic place to work by adding information about the mission and impact of upcoming projects
 </blockquote>
 
