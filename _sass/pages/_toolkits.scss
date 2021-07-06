@@ -89,23 +89,8 @@
 
 .hero--toolkits {
   .hero-container {
-    height: 200px;
-  }
-}
-
-.link--return-top-top {
-  margin-bottom: -0.5rem;
-
-  @include media-breakpoint-up(sm) {
-    margin-bottom: -2rem;
-  }
-
-  a {
-    border-bottom: none;
-
-    &:hover {
-      border-bottom: none;
-    }
+    min-height: 200px;
+    padding-block: 32px;
   }
 }
 
@@ -169,4 +154,44 @@
 
 .pagination-next__icon {
   white-space: nowrap;
+}
+
+#btn--scroll-to-top {
+  background-color: $blue-20;
+  border: 1px solid $brand-primary;
+  color: $link-color;
+  display: none; /* Hidden by default */
+  font-size: $font-size-xx-small;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1.5rem; /* Place the button at the bottom of the page */
+  right: 1.5rem; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-inline: 0.75rem;
+
+  i {
+    display: block;
+    margin-bottom: 0.25rem;
+
+    @include media-breakpoint-up(sm) {
+      display: inline;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.btn--scroll-to-top__first-text {
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: inline;
+  }
+}
+
+.btn--scroll-to-top__second-text {
+  text-transform: capitalize;
+
+  @include media-breakpoint-up(sm) {
+    text-transform: none;
+  }
 }

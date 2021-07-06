@@ -35,33 +35,57 @@ preload: hero-toolkits.svg
           <div class="pagination-alt text-primary mt-5">
             <div>
               {% unless page.url == items.first.url %}
-              <a class="pagination-alt__step pagination-alt__step--previous" href="{{ items[prev_i].url }}">
-                <span><i class="fal fa-long-arrow-left mr-1" aria-hidden="true"></i></span>
+              <a class="pagination-alt__step pagination-alt__step--previous" href="{{ items[prev_i].url }}" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{ items[prev_i].title }}">
+                <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
                 <span>
-                  Back<span class="pagination__colon">:</span>
+                  Previous section
                 </span>
-                <span class="pagination-alt__step-text">&nbsp;{{ items[prev_i].title }}</span>
               </a>
               {% endunless %}
             </div>
             <div>
               {% unless page.url == items.last.url %}
-                <a class="pagination-alt__step pagination-alt__step--next" href="{{ items[next_i].url }}">
+                <a class="pagination-alt__step pagination-alt__step--next" href="{{ items[next_i].url }}"  data-toggle="tooltip" data-placement="top" data-animation="false" title="{{ items[next_i].title }}">
                   <span>
-                    Next<span class="pagination__colon">:</span>
+                    Next section
                   </span>
-                  <span class="pagination-alt__step-text">&nbsp;{{ items[next_i].title }}</span><span class="pagination-next__icon">&nbsp;<i class="fal fa-long-arrow-right ml-1" aria-hidden="true"></i></span>
+                  <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
                 </a>
               {% endunless %}
             </div>
           </div>
         {% endif %}
       {% endfor %}
-      <p class="d-none link--return-top-top mt-6">
-        <a href="#main">Return to top</a>
-      </p>
+      <button class="btn btn-primary btn--scroll-to-top" onclick="topFunction()" id="btn--scroll-to-top">
+        <i class="far fa-long-arrow-up" aria-hidden="true"></i>
+        <span class="">
+          <span class="btn--scroll-to-top__first-text">Scroll to </span><span class="btn--scroll-to-top__second-text">top</span>
+        </span>
+      </button>
     </section>
   </div>
 </div>
 
 {% include get_expert_answers_cta.html %}
+
+<script>
+//Get the button:
+mybutton = document.getElementById("btn--scroll-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
