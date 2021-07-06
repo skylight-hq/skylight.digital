@@ -2167,3 +2167,21 @@
       link: https://www.taylorcurtiss.com/
       link_description: Taylor's Personal Website
       fa_icon_name: home
+- name: laura-kerry
+  fname: Laura
+  lname: Kerry
+  full_name: Laura Kerry
+  short_name: L. Kerry
+  profile_path: /company/about/#laura-kerry
+  image: /img/people/laura-kerry.png
+  image_description: Photo of Laura Kerry
+  position: Content Strategist
+  bio: >
+    Laura's a content strategist who specializes in UX writing and content design, operations, and governance. She loves distilling complex information into human-centered content, and enjoys empowering others to do the same. Most recently, Laura worked at the NYC Mayor's Office for Economic Opportunity. She lives in New York.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laurawkerry/
+      link_description: Laura's LinkedIn Account
+      fa_icon_name: linkedin
