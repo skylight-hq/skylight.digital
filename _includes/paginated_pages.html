@@ -35,7 +35,7 @@
 <!-- ---------------- -->
 
 {% if page.pagination.collection == 'blog_posts' %}
-  
+
   {% include page_header.html
     header_content_class = 'page-header-content-1'
     header_content = 'Our written thoughts on design, technology, and more.'
@@ -95,7 +95,7 @@
 <!-- ---------------- -->
 
 {% if page.pagination.collection == 'talks' %}
-  
+
 {% include
   hero_banner.html hero_content = 'Our spoken thoughts on design,<br class="linebreak" />technology, and more.'
   color = 'red'
@@ -103,9 +103,9 @@
 %}
 
 <div class="grid-container">
-  <h2 class="margin-heading mb-4">Featured</h2>
   {% for item in site.talks %}
-    {% if item.featured == true %}
+    {% if item.featured == true and page.permalink == "/thoughts/talks/index.html" %}
+      <h2 class="margin-heading mb-4">Featured</h2>
       <div class="talk__featured row" id="{{ item.title | slugify }}">
         <div class="col-md-8 d-flex flex-column align-items-stretch">
           {% if item.type == "video" %}
