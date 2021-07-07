@@ -39,7 +39,7 @@ pagination:
               <div
                 class="blog-post-img"
                 role="img"
-                style="background-image: url(/img/podcast/{{ item.img }})"
+                style="background-image: url(/img/talks/{{ item.img }})"
                 aria-label="{{ item.img_description }}"
               >
             {% endif %}
@@ -79,7 +79,7 @@ pagination:
               class="blog-post-img {% if item.type == "video" %}embed-responsive embed-responsive-16by9{% endif %}"
               {% if item.type == "podcast" %}
                 role="img"
-                style="background-image: url(/img/podcast/{{ item.img }})"
+                style="background-image: url(/img/talks/{{ item.img }})"
                 aria-label="{{ item.img_description }}"
               {% endif %}
             >
