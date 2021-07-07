@@ -205,6 +205,11 @@ $outline-light: 2px solid #f2f2f2;
   }
 }
 
+.tuition-card-note {
+  display: block;
+  margin-top: 1em;
+}
+
 .tuition-card-meta {
   p {
     margin-top: 4px;
@@ -212,6 +217,8 @@ $outline-light: 2px solid #f2f2f2;
 }
 
 .tuition-card-meta-info {
+  margin-top: 4px;
+
   * {
     display: inline;
   }
@@ -259,27 +266,24 @@ $outline-light: 2px solid #f2f2f2;
 
 .class-spots {
   display: block;
-  margin-top: 2px;
+  margin-top: 1rem;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(lg) {
     display: inline-block;
+    float: right;
     margin-top: 0;
   }
 
   span {
-    padding: 2px 6px;
+    color: $blue-100-a;
+    padding: 4px 12px;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     position: relative;
-    font-weight: bold;
-    font-size: 12px;
+    font-family: $font-family-mono;
+    font-size: $font-size-large;
     vertical-align: top;
-    border-radius: 3px;
-    background: $sk-yellow;
-
-    @include media-breakpoint-up(sm) {
-      margin-left: 10px;
-    }
+    border-radius: 5px;
+    background-color: $ochre-20;
   }
 }
 
