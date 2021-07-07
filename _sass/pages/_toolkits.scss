@@ -169,6 +169,10 @@
   cursor: pointer; /* Add a mouse pointer on hover */
   padding-inline: 0.75rem;
 
+  &:hover {
+    background-color: #F2F7FA;
+  }
+
   i {
     display: block;
     margin-bottom: 0.25rem;
