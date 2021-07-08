@@ -135,21 +135,31 @@ mark,
 .blockquote {
   background-color: $brand-primary;
   color: $white;
-  font-size: $blockquote-font-size;
+  font-size: $font-size-large;
   font-weight: $font-weight-bold;
   line-height: 1.5;
   margin-bottom: $spacer;
-  padding: 2rem 3rem 2rem 7.4rem;
+  padding: 1.25rem;
+  padding-left: 3.8rem;
   position: relative;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-x-large;
+    padding: 2rem 3rem 2rem 7.4rem;
+  }
 
   &::before {
     content: "“";
-    font-size: 170px;
-    top: 18px;
+    font-size: 64px;
     line-height: 1;
-    left: 1.5rem;
+    left: 1.25rem;
     opacity: 50%;
     position: absolute;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 170px;
+      top: 18px;
+    }
   }
 
   a {
