@@ -265,13 +265,22 @@ $outline-light: 2px solid #f2f2f2;
   display: inline-block;
 }
 
+.class-header {
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .class-spots {
   display: block;
   margin-top: 1rem;
 
   @include media-breakpoint-up(lg) {
     display: inline-block;
+    flex: none;
     float: right;
+    margin-left: 1rem;
     margin-top: 0;
   }
 
