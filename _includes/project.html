@@ -74,7 +74,9 @@
             {% endfor %}
           </ul>
         </aside>
-        {% endcapture %} {% include accordion.html accordion_header = 'Team
+        {% endcapture %}
+        <div>
+        {% include accordion.html accordion_header = 'Team
         members' accordion_body = accordion_body accordion_index = '0' %} {%
         capture accordion_body %}
         <aside class="approach">
@@ -96,6 +98,7 @@
         </aside>
         {% endcapture %} {% include accordion.html accordion_header = 'Practices
         used' accordion_body = accordion_body accordion_index = '2' %}
+        </div>
 
         <h2>The results</h2>
         {{include.results}}
