@@ -3,10 +3,6 @@
   @include mt-7;
 }
 
-.project-case-study-row {
-  @extend %row;
-}
-
 .project-case-study-header {
   @include mb-3;
 }
