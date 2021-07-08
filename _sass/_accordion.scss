@@ -1,13 +1,28 @@
-.accordion-header {
-  a {
+.accordion-card {
+  &:not(:first-child) {
+    [data-toggle="collapse"] {
+      border-top: 1px solid $black;
+    }
+  }
+
+  &:first-child {
+    [data-toggle="collapse"] {
+      &:hover,
+      &:focus {
+        border-top: 0;
+      }
+    }
+  }
+
+  [data-toggle="collapse"] {
     background-image: url(../img/icons/chevron-down.svg),
       linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
     background-size: $font-size-xx-small;
-    border-bottom: 1px solid $black;
+    border-bottom: 0;
     display: block;
-    padding: 1em;
+    padding: 1rem;
 
     &:hover h3 {
       font-weight: bold;
@@ -15,7 +30,8 @@
 
     &:hover,
     &:focus {
-      border-bottom: 1px solid $black;
+      border-bottom: 0;
+      border-top: 1px solid $black;
       color: $brand-primary;
     }
 
@@ -29,6 +45,16 @@
     }
   }
 
+  &:last-child {
+    [data-toggle="collapse"][aria-expanded="false"] {
+      border-bottom: 1px solid $black;
+    }
+
+    [role="tabpanel"][aria-expanded="true"] {
+      border-bottom: 1px solid $black;
+    }
+  }
+
   h3,
   h2 {
     display: flex;
@@ -39,12 +65,15 @@
     align-content: stretch;
     border-bottom: none !important;
     margin-bottom: 0 !important;
-    // color: $white;
     position: relative;
 
     > div:first-child {
       padding-right: 30px;
     }
+  }
+
+  .accordion-heading {
+    color: $link-color;
   }
 
   .accordion-icon-plus {
@@ -72,21 +101,10 @@
 
 .accordion-card-body {
   padding: 20px;
-  border-bottom: 1px solid $black;
   font-family: $font-family-mono;
 
   p + p {
     margin-top: 1em;
-  }
-}
-
-.can-touch .accordion-header a {
-  &:hover {
-    background-color: $brand-primary;
-  }
-
-  &:active {
-    background-color: darken($brand-primary, 10%);
   }
 }
 

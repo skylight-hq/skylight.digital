@@ -117,13 +117,80 @@
   }
 }
 
+.navbar {
+  .nav-item {
+    @include media-breakpoint-down(sm) {
+      &:not(:first-child) {
+        .nav-link {
+          border-top: 1px solid $black;
+        }
+      }
+
+      &:first-child {
+        .nav-link {
+          &:hover,
+          &:focus {
+            border-top: 0;
+          }
+        }
+      }
+
+      .nav-link {
+        background-image: url(../img/icons/chevron-down.svg),
+          linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+        background-position: right 1.25rem center;
+        background-size: $font-size-xx-small;
+        border-bottom: 0;
+        border-radius: 0;
+        display: block;
+        padding: 1rem;
+
+        &:hover,
+        &:focus {
+          border-bottom: 0;
+          border-top: 1px solid $black;
+          color: $brand-primary;
+        }
+
+        &[aria-expanded="true"] {
+          background-image: url(../img/icons/chevron-up.svg),
+            linear-gradient(transparent, transparent);
+        }
+
+        span {
+          display: block;
+          line-height: 1;
+        }
+      }
+
+      &:last-child {
+        .nav-link[aria-expanded="false"] {
+          border-bottom: 1px solid $black;
+        }
+
+        .dropdown-menu {
+          border-bottom: 1px solid $black;
+        }
+      }
+
+      .dropdown-menu {
+        padding-top: 0;
+      }
+    }
+  }
+}
+
 .nav-link {
   @extend %nav-link-decoration;
   border-radius: 0.25rem;
 
   span {
-    padding: 0 7px;
     background: transparent;
+
+    @include media-breakpoint-up(md) {
+      padding: 0 7px;
+    }
   }
 
   &:hover {
@@ -137,7 +204,7 @@
     }
   }
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     border: 1px solid transparent;
     border-bottom: none;
   }
@@ -175,7 +242,7 @@
   font-size: $font-size-small;
   margin-top: 0;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     border: 1px solid $gray-lightest;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     margin-top: -1px;
@@ -208,16 +275,15 @@
     display: none;
   }
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     position: relative;
     z-index: 9999;
   }
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(sm) {
   .nav-link {
     span {
-      padding: 0 3px;
       background: transparent;
     }
   }
@@ -225,7 +291,7 @@
 
 @include media-breakpoint-down(sm) {
   .navbar-nav {
-    padding-top: 20px;
+    padding-block: 1.5rem;
   }
 }
 
@@ -233,7 +299,7 @@
   border-radius: 0.25rem 0.25rem 0 0;
   color: $brand-primary;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     // border: 1px solid #d2aa56;
     border-bottom: none;
   }
