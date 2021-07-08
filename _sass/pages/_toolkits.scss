@@ -199,3 +199,45 @@
     text-transform: none;
   }
 }
+
+$icon-size: 69px;
+
+@mixin alert {
+  margin-bottom: 1rem;
+  padding-block: 2.45rem;
+  padding-left: 6.75rem;
+  padding-right: 1.25rem;
+  position: relative;
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  &::before {
+    width: $icon-size;
+    content: "";
+    display: block;
+    height: 108px;
+    left: 1.25rem;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.alert--tip {
+  @include alert;
+  background-color: $ochre-20;
+
+  &::before {
+    background: url(/img/alert/tip.svg) no-repeat center/$icon-size $icon-size;
+  }
+}
+
+.alert--info {
+  @include alert;
+  background-color: $blue-20;
+
+  &::before {
+    background: url(/img/alert/info.svg) no-repeat center/$icon-size $icon-size;
+  }
+}
