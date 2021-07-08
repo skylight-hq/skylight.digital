@@ -36,6 +36,14 @@
     }
   }
 
+  .img--engage {
+    @include media-breakpoint-up(sm) {
+      float: left;
+      margin-right: 1.5rem;
+      width: 20%;
+    }
+  }
+
   .card-link {
     @include media-breakpoint-up(md) {
     flex-direction: row;
@@ -44,15 +52,17 @@
 
   .card-img {
     @include media-breakpoint-up(md) {
-
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    height: 100%;
-  }
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      height: 100%;
+    }
   }
 
   .card-footer {
     padding: 0;
+  }
 
+  .margin-heading:not(:first-child) {
+    margin-top: 2.5em;
   }
 }
