@@ -8,8 +8,8 @@ image_description: Banner for the executive edition of Skylight’s Digital IT A
 tags: [digital acquisition training, agile acquisition training]
 class: ditap
 preload: hero-training-single.svg
-class_1_spots:
-class_2_spots:
+class_1_spots: 23
+class_2_spots: 23
 ---
 
 <div
@@ -345,14 +345,16 @@ class_2_spots:
           class="row tuition-card no-gutters mt-4"
         >
           <div class="col-12">
-            <h3 class="class-heading">
-              Thu, Oct 21, 9:00 am &ndash; 5:00 pm ET
-            </h3>
-            {% if page.class_1_spots %}
-            <div class="class-spots">
-              <span>{{ page.class_1_spots }} spots left</span>
+            <div class="class-header">
+              <h3 class="class-heading">
+                Thu, Oct 21, 9:00 am &ndash; 5:00 pm ET
+              </h3>
+              {% if page.class_1_spots %}
+              <div class="class-spots">
+                <span>{{ page.class_1_spots }} spots left</span>
+              </div>
+              {% endif %}
             </div>
-            {% endif %}
             <div class="tuition-card-meta mt-3">
               <p><strong>Location:</strong> Online</p>
               <p>
@@ -376,14 +378,16 @@ class_2_spots:
           class="row tuition-card no-gutters mt-4"
         >
           <div class="col-12">
-            <h3 class="class-heading">
-              Thu, Apr 21, 9:00 am &ndash; 5:00 pm ET
-            </h3>
-            {% if page.class_2_spots %}
-            <div class="class-spots">
-              <span>{{ page.class_2_spots }} spots left</span>
+            <div class="class-header">
+              <h3 class="class-heading">
+                Thu, Apr 21, 9:00 am &ndash; 5:00 pm ET
+              </h3>
+              {% if page.class_2_spots %}
+              <div class="class-spots">
+                <span>{{ page.class_2_spots }} spots left</span>
+              </div>
+              {% endif %}
             </div>
-            {% endif %}
             <div class="tuition-card-meta mt-3">
               <p><strong>Location:</strong> Online</p>
               <p>

@@ -374,12 +374,14 @@ class_2_spots:
           class="row tuition-card no-gutters mt-4"
         >
           <div class="col-12">
-            <h3 class="class-heading">Nov 8, 2021 to Apr 25, 2022</h3>
-            {% if page.class_1_spots %}
-            <div class="class-spots">
-              <span>{{ page.class_1_spots }} spots left</span>
+            <div class="class-header">
+              <h3 class="class-heading">Nov 8, 2021 to Apr 25, 2022</h3>
+              {% if page.class_1_spots %}
+              <div class="class-spots">
+                <span>{{ page.class_1_spots }} spots left</span>
+              </div>
+              {% endif %}
             </div>
-            {% endif %}
             <p class="tuition-card-note">
               In-person classroom sessions will be held on Nov 8&ndash;10, Jan
               18&ndash;20, Mar 7&ndash;9, and Apr 25&ndash;27. If COVID-19
