@@ -45,7 +45,7 @@ include.context %} {% capture filter_title_markup %}
           <a class="filter-item-link"
             href="
               {% if site.talks %}
-                /thoughts/talks/#{{filtered_item.title | slugify }}
+                {% if filtered_item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ filtered_item.link }}
               {% else %}
                 {{filtered_item.permalink}}
               {% endif %}
