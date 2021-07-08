@@ -3,7 +3,7 @@
   <div class="row">
     {% assign filter = site.data.filters %}
     <div class="col-sm">
-      <h3 class="margin-heading mt-sm-0">Type of service</h3>
+      <h3 class="filter__heading margin-heading mt-0">Type of service</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.type_of_service %}
         <li>
@@ -16,7 +16,7 @@
     </div>
 
     <div class="col-sm">
-      <h3 class="margin-heading mt-sm-0">Capabilities</h3>
+      <h3 class="filter__heading margin-heading mt-sm-0">Capabilities</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.capabilities %}
         <li>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="col-sm">
-      <h3 class="margin-heading mt-sm-0">Mission areas</h3>
+      <h3 class="filter__heading margin-heading mt-sm-0">Mission areas</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.mission_areas %}
         <li>
