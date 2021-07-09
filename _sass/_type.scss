@@ -1,9 +1,21 @@
 .header-display-1 {
-  font-size: $header-display;
+  font-size: $font-size-xxx-large;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-xxxxx-large;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-xxxxxx-large;
+  }
 }
 
 .header-display-2 {
-  font-size: $header-display-1;
+  font-size: $font-size-xxx-large;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-xxxx-large;
+  }
 }
 
 .header-display-4 {
@@ -38,9 +50,9 @@ h6 {
   //   font-size: $font-size-h3 * .75;
   // }
 
-  .header-display-1 {
-    font-size: $header-display-1 * 0.6;
-  }
+  // .header-display-1 {
+  //   font-size: $header-display-1 * 0.6;
+  // }
 
   // .header-display-2 {
   //   font-size: $header-display-2 * .60;
@@ -68,9 +80,9 @@ h6 {
   //   font-size: $font-size-h3 * .95;
   // }
 
-  .header-display-1 {
-    font-size: $header-display-1 * 0.8;
-  }
+  // .header-display-1 {
+  //   font-size: $header-display-1 * 0.8;
+  // }
 
   // .header-display-2 {
   //   font-size: $header-display-2 * .80;
@@ -243,4 +255,27 @@ h6 {
 
 blockquote {
   margin-inline: 3rem;
+}
+
+@mixin responsive-headings {
+  h2 {
+    font-size: $font-size-x-large;
+
+    @include media-breakpoint-up(sm) {
+      font-size: $font-size-xxx-large;
+    }
+  }
+
+  h3 {
+    font-size: $font-size-large;
+
+    @include media-breakpoint-up(sm) {
+      font-size: $font-size-x-large;
+    }
+  }
+}
+
+.project-case-study-content,
+.post-content {
+  @include responsive-headings;
 }
