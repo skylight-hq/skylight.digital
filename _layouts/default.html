@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body class="page-{% if page.class %}{{ page.class }}{% else %}{{ page.title | slugify }}{% endif %} page-{{ page.permalink | slugify }} page-{{ page.url | replace:'/',' ' | truncatewords: 1 | remove:'...' }}" data-spy="scroll" data-target="#sidenav" data-offset="10">
-    <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
     {% include header.html %}
 
