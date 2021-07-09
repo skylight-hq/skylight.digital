@@ -320,6 +320,11 @@ $outline-light: 2px solid #f2f2f2;
   }
 
   h1 {
+    font-size: $font-size-xxx-large;
     line-height: 1.15;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-xxxxxx-large;
+    }
   }
 }
