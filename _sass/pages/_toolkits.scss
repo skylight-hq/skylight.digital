@@ -194,13 +194,13 @@
   }
 }
 
-$icon-size: 69px;
+$icon-size: 2rem;
 
 @mixin alert {
   margin-bottom: 1rem;
-  padding-block: 2.45rem;
-  padding-left: 6.75rem;
-  padding-right: 1.25rem;
+  padding-block: 1rem;
+  padding-left: 3.8333333333rem;
+  padding-right: 1rem;
   position: relative;
 
   *:last-child {
@@ -211,27 +211,27 @@ $icon-size: 69px;
     width: $icon-size;
     content: "";
     display: block;
-    height: 108px;
-    left: 1.25rem;
+    height: 3.875rem;
+    left: 0.9166666667rem;
     position: absolute;
     top: 0;
   }
 }
 
-.alert--tip {
+.tip {
   @include alert;
   background-color: $ochre-20;
 
   &::before {
-    background: url(/img/alert/tip.svg) no-repeat center/$icon-size $icon-size;
+    background: url(/img/alert/tip.svg) no-repeat center/$icon-size;
   }
 }
 
-.alert--info {
+.note {
   @include alert;
   background-color: $blue-20;
 
   &::before {
-    background: url(/img/alert/info.svg) no-repeat center/$icon-size $icon-size;
+    background: url(/img/alert/info.svg) no-repeat center/$icon-size;
   }
 }
