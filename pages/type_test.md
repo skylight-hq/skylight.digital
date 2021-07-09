@@ -4,26 +4,24 @@ title: Type test
 permalink: /type/
 ---
 
-this is regular text
+This is regular text.
 
-> "this is a blockquote"
+> "This is a blockquote."
 
-this is alert copy
-{: .alert--tip }
+This is a "tip" callout.
+{: .tip }
 
-this is alert copy
-{: .alert--info }
+This is a "note" callout.
+{: .note }
 
-{% include callout.html
-  type = "pullquote"
-  content = "We had been training on agile for some time, and before, we understood all the ingredients. But this workshop brought all the ingredients together and showed us how to bake a cake."
-  cite_name = "Tamara Srzentic"
-  cite_title = "Deputy Director, Office of Innovation at CHHS"
-%}
+This is an "example" callout.
+{: .example }
 
-<h2>News callout</h2>
+This is a "highlight" callout.
+{: .callout }
+
 <aside class="news-coverage callout">
-  <h2>News coverage</h2>
+  <h2>News callout</h2>
   <ul>
     <li>
       <a href="#0" target="_blank">46 States and Territories to Receive Preschool Development Grants</a>
@@ -34,10 +32,12 @@ this is alert copy
   </ul>
 </aside>
 
-<h2>Highlight</h2>
-<div class="callout">
-  <p>This is a highlight callout</p>
-</div>
+{% include callout.html
+  type = "pullquote"
+  content = "We had been training on agile for some time, and before, we understood all the ingredients. But this workshop brought all the ingredients together and showed us how to bake a cake."
+  cite_name = "Tamara Srzentic"
+  cite_title = "Deputy Director, Office of Innovation at CHHS"
+%}
 
 <div class="grid-container">
   <p class="font-weight-bold">Site headings</p>
