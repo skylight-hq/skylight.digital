@@ -165,20 +165,23 @@ $(function() {
     }
 
     var filter_params = window.localStorage.getItem('filters');
+    
     // Initialize empty filters array
     var filters = filter_params ? filter_params.split(',') : []; // All posts to be filtered
 
     var posts = $("article[data-display=true]");
-    $("article[data-display=false]").addClass("hidden"); // All filter tags actually used by posts
+    $("article[data-display=false]").addClass("hidden"); 
 
+    // All filter tags actually used by posts
     var usedTags = $.unique(
       Object.values(
         posts.map(function() {
           return $(this).attr("data-tags").split(", ");
         })
       )
-    ); // This function will ensure all added filters have a remove handler
+    ); 
 
+    // This function will ensure all added filters have a remove handler
     var addRemoveHandler = function addRemoveHandler() {
       $(".tag-badge")
         .off("click")
@@ -270,12 +273,11 @@ $(function() {
       if (filters.length) {
         posts.each(function() {
           var tags = $(this).attr("data-tags").split(", ");
-
           if (
             tags &&
             tags.filter(function(tag) {
               return filters.includes(tag);
-            }).length
+            }).length == filters.length
           ) {
             $(this).addClass("filter-match");
           } else {
@@ -287,9 +289,34 @@ $(function() {
       }
 
       window.localStorage.setItem('filters', filters.join(',').toLowerCase());
-      paginatePosts();
-    }; // Disable filter options that won't result in any posts
+      
 
+      //Disabled unused tags for the remaining posts
+      var dataSource = $("article.filter-match");
+      var usedTags = $.unique(
+        Object.values(
+          dataSource.map(function() {
+            return $(this).attr("data-tags").split(", ");
+          })
+        )
+      ); 
+      $(".exp-filter-item").each(function() {
+        var filterText = $(this).text().toLowerCase();
+
+        if (!usedTags.includes(filterText)) {
+          $(this).addClass("filter-disabled");
+          $(this).removeClass("filter-enabled");
+
+        } else {
+          $(this).addClass("filter-enabled");
+          $(this).removeClass("filter-disabled");
+        }
+      }); 
+      paginatePosts();
+      
+    }; 
+
+    // Disable filter options that won't result in any posts
     $(".exp-filter-item").each(function() {
       var filterText = $(this).text().toLowerCase();
 
@@ -298,8 +325,9 @@ $(function() {
       } else {
         $(this).addClass("filter-enabled");
       }
-    }); // Add click handler to non-disabled filter options
+    }); 
 
+    // Add click handler to non-disabled filter options
     $(".exp-filter-item.filter-enabled").click(function() {
       var text = $(this).text();
       var filterText = text.toLowerCase();
