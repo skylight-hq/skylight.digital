@@ -1,0 +1,9 @@
+.press__article {
+  border-bottom: 1px solid $gray-lightest;
+  padding-bottom: 2.5rem;
+  margin-top: 3.5rem;
+
+  &:last-child {
+    margin-bottom: 3.5rem;
+  }
+}

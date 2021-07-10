@@ -15,10 +15,11 @@ Improving digital services requires organizational change, and it takes a team a
 
 ## Keep teams small
 
-<blockquote class="post-blockquote">
-<p>"If you can't feed a team with two pizzas, it's too large."</p>
-<cite><strong>Jeff Bezos</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "If you can't feed a team with two pizzas, it's too large."
+  cite_name = "Jeff Bezos"
+%}
 
 A small team is often going to be more efficient and effective than a larger team. By keeping teams small, you can:
 
@@ -158,7 +159,7 @@ When you're developing custom software, you'll need representation from all of t
 - [Labor Category Descriptions for Agile Procurements](https://agile-labor-categories.18f.gov/) (18F)
 - [What each role does in a service team](https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team) (GDS)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Georgia Digital Service
 
 When Nikhil Deshpande started the [Georgia Digital Service](https://digitalservices.georgia.gov/) (GADS), he knew it would be hard to hire digital talent with the breadth and depth of skills needed. He developed an approach that would allow him to supplement internal staff with a strong vendor pool as needed.

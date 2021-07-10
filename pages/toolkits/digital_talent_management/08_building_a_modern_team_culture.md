@@ -10,10 +10,11 @@ content_type: Toolkit
 
 # Building a modern team culture
 
-<blockquote class="post-blockquote">
-<p>"Culture eats strategy for breakfast."</p>
-<cite><strong>Peter Drucker</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Culture eats strategy for breakfast."
+  cite_name = "Peter Drucker"
+%}
 
 Building the right organizational culture is the most important thing you can do. The right organizational culture:
 
@@ -94,7 +95,7 @@ Dependability is an individual trait. As a team member, you have to personally b
 Teams should also collectively set goals and support each other to achieve them. The [Objectives and Key Results](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) (OKRs) framework from Google works well to set goals and track progress at multiple levels in your organization. OKRs help align individual and team goals with organization goals. Each goal should have an associated plan on how to achieve it.
 
 <div class="callout--alt" markdown="1">
-Learn more about how the U.K. Government Digital Service uses OKRs on GOV.UK website by [reading this article]((https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/)).
+Learn more about how the [U.K. Government Digital Service uses OKRs](https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/) on GOV.UK website.
 </div>
 
 ### Meaning and impact
@@ -133,14 +134,16 @@ Create a community where everyone feels empowered to speak up. It's useful to do
 
 ### Use inclusive language in all communications
 
-<blockquote class="post-blockquote" cite="https://content-guide.18f.gov/inclusive-language/">
-<p>"As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users."</p>
-<cite><strong>18F</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users."
+  cite_title = "18F Content Guide"
+  cite_url = "https://content-guide.18f.gov/inclusive-language/"
+%}
 
 Use inclusive language in all communications with your organization and the services you build. These resources can help:
 
-- This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/)is short and easy to internalize for all communications.
+- This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/) is short and easy to internalize for all communications.
 - The Ontario Digital Service has a useful [inclusive design toolkit available online](https://www.ontario.ca/page/inclusive-design-toolkit).
 
 ### Provide training on unconscious bias
@@ -181,7 +184,7 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
 - [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Ontario Digital Service
 
 Direct communication lines between staff and leadership help empower staff to create change in their workplace. Hilary Hartley, Chief Digital Officer of the Ontario Digital Service, knows this from her time as a founding member of 18F. 18F's [Diversity, Equity, and Inclusion](https://handbook.18f.gov/diversity/) policy is a model for any level of government.

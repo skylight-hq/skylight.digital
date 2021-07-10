@@ -41,31 +41,35 @@ If a table has text associated with it, ensure the text is programatically linke
 <div class="example">
   <table class="post-table">
     <caption>User's Height and Age</caption>
-    <tr>
-      <th scope="col">
-        Name
-      </th>
-      <th scope="col">
-        Height
-      </th>
-      <th scope="col">
-        Age
-      </th>
-    </tr>
-    <tr>
-      <th scope="row">
-        Walter
-      </th>
-      <td>6'4</td>
-      <td>34</td>
-    </tr>
-    <tr>
-      <th scope="row">
-        Steve
-      </th>
-      <td>5'4</td>
-      <td>30</td>
-    </tr>
+    <thead>
+      <tr>
+        <th scope="col">
+          Name
+        </th>
+        <th scope="col">
+          Height
+        </th>
+        <th scope="col">
+          Age
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">
+          Walter
+        </th>
+        <td>6'4</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <th scope="row">
+          Steve
+        </th>
+        <td>5'4</td>
+        <td>30</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
@@ -107,41 +111,45 @@ If a table has text associated with it, ensure the text is programatically linke
 <div class="example">
   <table class="post-table">
     <caption>User's Height and Age</caption>
-    <tr>
-      <th rowspan="2" id="name" scope="col">
-        Name
-      </th>
-      <th colspan="2" id="height" scope="col">
-        Height
-      </th>
-      <th rowspan="2" id="age" scope="col">
-        Age
-      </th>
-    </tr>
-    <tr>
-      <th id="feet" headers="height" scope="col">
-        Feet
-      </th>
-      <th id="inches" headers="height" scope="col">
-        Inches
-      </th>
-    </tr>
-    <tr>
-      <th headers="name" scope="row">
-        Walter
-      </th>
-      <td headers="height feet">6</td>
-      <td headers="height inches">4</td>
-      <td headers="age">34</td>
-    </tr>
-    <tr>
-      <th headers="name" scope="row">
-        Steve
-      </th>
-      <td headers="height feet">5</td>
-      <td headers="height inches">4</td>
-      <td headers="age">30</td>
-    </tr>
+    <thead>
+      <tr>
+        <th rowspan="2" id="name" scope="col">
+          Name
+        </th>
+        <th colspan="2" id="height" scope="col">
+          Height
+        </th>
+        <th rowspan="2" id="age" scope="col">
+          Age
+        </th>
+      </tr>
+      <tr>
+        <th id="feet" headers="height" scope="col">
+          Feet
+        </th>
+        <th id="inches" headers="height" scope="col">
+          Inches
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th headers="name" scope="row">
+          Walter
+        </th>
+        <td headers="height feet">6</td>
+        <td headers="height inches">4</td>
+        <td headers="age">34</td>
+      </tr>
+      <tr>
+        <th headers="name" scope="row">
+          Steve
+        </th>
+        <td headers="height feet">5</td>
+        <td headers="height inches">4</td>
+        <td headers="age">30</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 

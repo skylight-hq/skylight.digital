@@ -26,17 +26,18 @@ Because telehealth reimbursements are often much lower than the same service pro
 
 And while payment parity's a temporary measure during COVID-19, Medicare's [2021 fee schedule](https://www.cms.gov/newsroom/fact-sheets/final-policy-payment-and-quality-provisions-changes-medicare-physician-fee-schedule-calendar-year-1) included the most significant changes to medical codes in 30 years, extending or making permanent some of the temporary rules.
 
+{% include callout.html
+  type = "pullquote"
+  content = "A lot of this we learned from trial and error. It's so hard."
+  cite_name = "Medical biller with 13-years of experience"
+%}
 ## Billing challenges on the ground
 
 Billing and coding changes weren't just significant from a policy standpoint, though. Throughout the pandemic, medical billers and coders &mdash; the administrative staff responsible for billing patients and submitting claims for reimbursement &mdash; have had to completely revamp the way they code, document, and bill for telehealth.
 
 I learned about some of these challenges while interviewing clinical staff in the field.
 
-A biller with 13 years of experience working at a small, federally-funded rural hospital in California, talked about difficulties keeping up with new rules and regulations, particularly in the early months of the pandemic, when reimbursement rules were nearly constantly in flux:
-
-<blockquote class="post-blockquote">
-<p>"You can get one person to process [a claim] one way, and the next person will process it another way. It's all up to interpretation. A lot of this we learned from trial and error. It's so hard."</p>
-</blockquote>
+A biller with 13 years of experience working at a small, federally-funded rural hospital in California, talked about difficulties keeping up with new rules and regulations, particularly in the early months of the pandemic, when reimbursement rules were nearly constantly in flux. "You can get one person to process [a claim] one way, and the next person will process it another way. It's all up to interpretation. A lot of this we learned from trial and error. It's so hard."
 
 Sometimes a new rule would come out that applied to backdated claims, requiring staff to re-code. Sometimes those claims would get denied anyway, even after trying to carefully follow the new policies.
 
@@ -61,7 +62,7 @@ Medicare's [List of Telehealth Services](https://www.cms.gov/Medicare/Medicare-G
 With difficult-to-use regulatory information in such high demand in the midst of a health crisis (it's regularly one of the [top downloads across all of Health and Human Services](https://analytics.usa.gov/health-human-services/data/)), I wondered: what if instead of a download-only spreadsheet, staff could search through Medicare's list of covered telehealth services [directly on the web](http://telecodes.org)?
 
 ![Searchable billing codes prototype.](/img/blog/plain_language_policies_telehealth/telehealth-billing-codes-prototype.png)
-{:class="border p-3 mb-0"}
+{:class="border p-3"}
 
 Searchable billing codes prototype I created
 {:.caption}
@@ -69,7 +70,7 @@ Searchable billing codes prototype I created
 And what if Medicare & Medicaid policies were [described in plain language](https://telehealth.hhs.gov/providers/policy-changes-during-the-covid-19-public-health-emergency/medicare-and-medicaid-policies/) and [provider-specific](https://telehealth.hhs.gov/providers/billing-and-reimbursement/billing-medicare-as-a-safety-net-provider/)?
 
 ![Screenshot from Telehealth.HHS.gov](/img/blog/plain_language_policies_telehealth/telehealth-billing-codes.png)
-{:class="border p-3 mb-0"}
+{:class="border p-3"}
 
 Screenshot from [Telehealth.HHS.gov](https://telehealth.hhs.gov), a Skylight project built with Health Resources and Services Administration.
 {:.caption}

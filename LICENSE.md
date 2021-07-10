@@ -1,14 +1,16 @@
-This project includes a mix of commercial works, as well as open source works that are and are not in the public domain.
-
-## Parts of this project that are under commercial licenses
-
-The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofoundry.com/fonts/geomanist), copyright atipo, under [atipo's licensing terms](http://atipofoundry.com/license).
+This project includes a mix of open source works that are and are not in the public domain.
 
 ## Parts of this project that aren't in the public domain
 
-### Files licensed under the SIL Open Font License
+### Fonts licensed under the SIL Open Font License
 
 The Font Awesome files in `src/fonts` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
+Libre Franklin is from [Google Fonts](https://fonts.google.com/specimen/Libre+Franklin) by Impallari Type under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
+### Fonts licensed under the Apache License
+
+Roboto Mono is from [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono) by Christian Robertson under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ### Files licensed under the MIT License
 

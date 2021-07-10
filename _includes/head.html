@@ -15,6 +15,7 @@
   {% assign site_title = site.title | xml_escape %}
   {% assign site_description = site.description | xml_escape %}
   {% assign site_image = site_url | append: '/img/logo-social.png' %}
+  {% assign site_image_twitter = site_url | append: '/img/logo-social-twitter.png' %}
   {% assign site_image_description = 'Skylight Logo' %}
   {% assign site_keywords = site.keywords %}
   {% assign site_published = site.published %}
@@ -47,9 +48,11 @@
 
   {% if page.image and page.image_description %}
     {% assign image = site_url | append: page.image %}
+    {% assign image_twitter = site_url | append: page.image %}
     {% assign image_description = page.image_description %}
   {% else %}
     {% assign image = site_image %}
+    {% assign image_twitter = site_image_twitter %}
     {% assign image_description = site_image_description %}
   {% endif %}
 
@@ -114,7 +117,7 @@
   <meta name="twitter:site" content="@{{twitter_username}}">
   <meta name="twitter:title" content="{{title}}">
   <meta name="twitter:description" content="{{description}}">
-  <meta name="twitter:image" content="{{image}}?{{ 'now' | date: '%d%S%L%m' }}">
+  <meta name="twitter:image" content="{{image_twitter}}?{{ 'now' | date: '%d%S%L%m' }}">
   <meta name="twitter:image:alt" content="{{image_description}}">
 
   <script type="application/ld+json">
@@ -238,15 +241,20 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <script src="https://kit.fontawesome.com/9942b8e4b9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;1,400&family=Roboto+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
   {% if page.preload %}
     <link rel="preload" href="/img/{{ page.preload }}" as="image">
   {% endif %}
   <script src="/js/jquery.slim.min.js"></script>
+  <script src="/js/jquery.scrolldepth.min.js"></script>
   <script src="/js/tether.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/jquery.scrolldepth.min.js"></script>
   <script src="/js/pagination.min.js"></script>
   <script src="/js/script.js?v=7"></script>
 

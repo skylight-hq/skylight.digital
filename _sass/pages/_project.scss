@@ -3,14 +3,6 @@
   @include mt-7;
 }
 
-.project-case-study-row {
-  @extend %row;
-}
-
-.project-case-study-col {
-  @extend %text-heavy-col-base;
-}
-
 .project-case-study-header {
   @include mb-3;
 }
@@ -23,8 +15,9 @@
 .project-case-study-title-tag {
   @extend %text-uppercase;
   color: $gray-light;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  font-family: $font-family-mono;
+  font-weight: $font-weight-medium;
+  margin-bottom: 0.7rem;
   text-align: left;
 }
 
@@ -44,7 +37,7 @@
   @extend %text-left;
   @extend %mt-4;
   @extend %p-3;
-  border: 1px dotted $gray-lightest;
+  border: 1px dashed $gray-lightest;
 
   h3,
   ul {
@@ -108,8 +101,9 @@
 }
 
 .news-coverage {
+  padding: 2.5rem !important;
+
   ul {
-    font-size: $font-size-xx-small;
     @extend %mb-0;
     @extend %list-item-unstyled;
 

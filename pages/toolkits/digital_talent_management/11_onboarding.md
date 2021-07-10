@@ -10,10 +10,13 @@ content_type: Toolkit
 
 # Onboarding
 
-<blockquote class="post-blockquote" cite="https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/">
-<p>"A new job can be stressful, and the decision to stick with a job or move on is often made within the first few days. It's vital that we create a great onboarding experience. We never want to lose sight of the fact that people are at the heart of what we do."</p>
-<cite><strong>Jessica Loadenthal and Alexa Davidson</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "A new job can be stressful, and the decision to stick with a job or move on is often made within the first few days. It's vital that we create a great onboarding experience. We never want to lose sight of the fact that people are at the heart of what we do."
+  cite_name = "Jessica Loadenthal and Alexa Davidson"
+  cite_title = "Making a Great First Impression"
+  cite_url = "https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/"
+%}
 
 Employee onboarding is the process of integrating a new employee into your team. A good onboarding process will reduce the time it takes new employees to acclimate &mdash; and to contribute.
 
@@ -94,7 +97,7 @@ Create an employee handbook that's easy for everyone to access. A well-written h
 - [Making a great first impression: Onboarding matters](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)
 - [How we dramatically improved 18F's onboarding process in 3 months](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/)
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Coding it Forward
 
 Since 2017, Coding it Forward has brought over 100 undergraduate and graduate students into the federal government through their Civic Digital Fellowship. In addition to delivering real value to the agencies where interns are placed, the Fellowship is educating the next generation of our civic workforce.

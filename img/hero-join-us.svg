@@ -14,7 +14,7 @@
 	.st8{fill:#E1635D;}
 	.st9{fill:#F6C65D;}
 	.st10{fill:#DDEFFA;}
-	.st11{fill:#60A675;}
+	.st11{fill:#418152;}
 	.st12{fill:#488FBA;}
 	.st13{fill:none;stroke:#1F3B65;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st14{fill:#1F3B65;stroke:#1F3B65;stroke-linejoin:round;stroke-miterlimit:10;}
@@ -501,7 +501,7 @@
 		<path class="st43" d="M319.52,70.15c0,0-3.01,1.57-1.95,3.53c0.53,0.98,2.71,0.23,2.71,0.23"/>
 		<path class="st43" d="M342.75,59.42c0,0-2.46,11.11-1.27,12.01"/>
 		<path class="st43" d="M317.95,132.58c0,0,4.12,5.19-0.1,6.07"/>
-		
+
 			<ellipse transform="matrix(0.2119 -0.9773 0.9773 0.2119 206.6801 389.8107)" class="st43" cx="345.04" cy="66.75" rx="3.57" ry="2.01"/>
 		<path class="st43" d="M342.55,59.6c-1.71-0.37-3.67,1.98-4.38,5.25c-0.71,3.27,0.1,6.22,1.81,6.59"/>
 		<circle class="st47" cx="316.13" cy="66.72" r="0.49"/>

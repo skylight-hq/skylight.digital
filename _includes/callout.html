@@ -1,0 +1,31 @@
+{% if include.type == "pullquote" %}
+<blockquote
+  class="pullquote {{ include.class }}"
+  cite="{{ include.cite_url }}">
+  {{ include.content | markdownify }}
+  {% if include.cite_name %}
+    <cite>
+      <strong>
+        {% if include.cite_url %}
+          {% unless include.cite_title %}
+            <a
+              href="{{ include.cite_url }}">
+              {{ include.cite_name }}
+            </a>
+          {% endunless %}
+          {% if include.cite_title %}
+          {{ include.cite_name }}{% endif %}{% else %}
+        {{ include.cite_name }}{% endif %}</strong>{% if include.cite_title %}<b>, </b>
+      {% if include.cite_url %}
+        <a
+          href="{{ include.cite_url }}">
+          {{ include.cite_title }}
+        </a>
+      {% else %}
+        {{ include.cite_title }}
+      {% endif %}
+    {% endif %}
+    </cite>
+  {% endif %}
+</blockquote>
+{% endif %}

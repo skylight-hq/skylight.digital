@@ -1,5 +1,5 @@
 .footer {
-  @include container-fluid-base;
+  @include grid-container;
   @extend %py-5;
 }
 
@@ -17,19 +17,23 @@
   @extend %mb-lg-0;
 
   @include media-breakpoint-up(lg) {
-    @include make-col(4);
+    @include make-col(3);
   }
 }
 
 .footer-nav {
   @extend %col-12;
-  @extend %col-lg-8;
+  @extend %col-lg-9;
 }
 
 .footer-brandmark {
-  @include brandmark($width: $footer-brand-width, $height: $footer-brand-height,
-  $width-sm-down: $footer-brand-width-sm-down, $height-sm-down: $footer-brand-height-sm-down,
-  $filename: 'logo');
+  @include brandmark(
+    $width: $footer-brand-width,
+    $height: $footer-brand-height,
+    $width-sm-down: $footer-brand-width-sm-down,
+    $height-sm-down: $footer-brand-height-sm-down,
+    $filename: "logo"
+  );
 }
 
 .footer-link-groups {
@@ -45,6 +49,7 @@
 
   @include media-breakpoint-up(sm) {
     flex: 1 0;
+    padding-inline: 0;
   }
 
   &:not(:last-of-type) {
@@ -54,7 +59,10 @@
 }
 
 .footer-links {
-  h4, h2 {
+  font-family: $font-family-mono;
+
+  h4,
+  h2 {
     @extend %mb-3;
     font-size: $font-size-medium;
   }
@@ -70,9 +78,29 @@
       }
 
       a {
-        @include link-decoration($footer-link-color, $footer-link-hover-color,
-          $footer-link-border, $footer-link-border-hover);
+        @include link-decoration(
+          $footer-link-color,
+          $footer-link-hover-color,
+          $footer-link-border,
+          $footer-link-border-hover
+        );
       }
     }
   }
+
+  li {
+    line-height: 1.5;
+  }
+}
+
+// Sticky footer
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-x: hidden; // prevent page overflow
+}
+
+main {
+  flex: 1;
 }

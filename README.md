@@ -1,4 +1,4 @@
-Skylight Website
+The Skylight Website
 ==========================
 
 ![Jekyll Deploy](https://github.com/skylight-hq/skylight.digital/workflows/Jekyll%20Deploy/badge.svg)
@@ -29,7 +29,7 @@ Running
 3. To execute lint tests, run the `npm run-script <script>` command in the console.
    Available scripts include: `scss-lint`, `html-lint`, and `js-lint`.
    
-Setup Using Docker
+Setup using Docker
 ---
 1. If you're using a Mac, install homebrew (see https://brew.sh/).
 1. Install [docker](https://www.docker.com/get-started)

@@ -43,7 +43,7 @@ Links that only rely on color also fail this requirement. Links must be distingu
 {:.fails}
 ### Fails
 <div class="example">
-  <span style = "color:#60A474">This text fails.</span>
+  <span style = "color:#80b690">This text fails.</span>
 </div>
 
 This text fails because it's too light. The contrast ratio is 2.97:1.
