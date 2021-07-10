@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="versionNum" content="523">
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  <title>Skylight - Digital Government Consulting | Key trends in mobile app development, part 2: Making sense of the trends</title>
+  <meta name="description" content="The landscape of mobile app development has evolved greatly over the past decade. Here we discuss how to make sense of the trends discussed in Part 1 of our two-part blog post series.">
+  <meta name="keywords" content="mobile, product, engineering, apis, sean johnson">
+  <meta name="image" content="https://skylight.digital/img/blog/mobile_app_dev_trends/mobile-app-dev-trends-2.png">
+
+  
+    <meta name="author" content="Sean Johnson">
+  
+
+  <meta name="date" content="2020-05-23">
+  <link rel="image_src" href="https://skylight.digital/img/blog/mobile_app_dev_trends/mobile-app-dev-trends-2.png">
+  <link rel="canonical" href="https://skylight.digital/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/">
+
+  <meta property="og:site_name" content="Skylight">
+  <meta property="og:title" content="Skylight - Digital Government Consulting | Key trends in mobile app development, part 2: Making sense of the trends">
+  <meta property="og:description" content="The landscape of mobile app development has evolved greatly over the past decade. Here we discuss how to make sense of the trends discussed in Part 1 of our two-part blog post series.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skylight.digital/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/">
+  <meta property="og:image" content="https://skylight.digital/img/blog/mobile_app_dev_trends/mobile-app-dev-trends-2.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@skylight_hq">
+  <meta name="twitter:site" content="@skylight_hq">
+  <meta name="twitter:title" content="Skylight - Digital Government Consulting | Key trends in mobile app development, part 2: Making sense of the trends">
+  <meta name="twitter:description" content="The landscape of mobile app development has evolved greatly over the past decade. Here we discuss how to make sense of the trends discussed in Part 1 of our two-part blog post series.">
+  <meta name="twitter:image" content="https://skylight.digital/img/blog/mobile_app_dev_trends/mobile-app-dev-trends-2.png?100668707">
+  <meta name="twitter:image:alt" content="Three people standing around a huge mobile device and pointing at a chart on the screen.">
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://skylight.digital",
+      "name": "Skylight - Digital Government Consulting",
+      "description": "Skylight is a digital consultancy using design and technology to help government agencies deliver better public services.",
+      "keywords": "digital consulting, digital government, digital transformation, digital services",
+      "datePublished": "2017-06-18",
+      "dateModified": "2020-05-29"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "Skylight",
+     "legalName": "Skylight Inc.",
+     "url": "https://skylight.digital",
+     "logo": {
+       "@type": "ImageObject",
+       "url": "https://skylight.digital/img/logo.png",
+       "height": "200",
+       "width": "50"
+     },
+     "foundingDate": "2017",
+     "founders": [
+        { "@type": "Person", "name": "Chris Cairns" }
+      ],
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Sarasota",
+       "addressRegion": "FL",
+       "postalCode": "34236",
+       "addressCountry": "USA"
+     },
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "sales",
+       "telephone": "267-228-1390",
+       "email": "hello@skylight.digital"
+     },
+     "sameAs": [
+       "https://twitter.com/skylight_hq",
+       "https://github.com/skylight-hq",
+       "https://www.linkedin.com/company/skylight-hq"
+     ]
+    }
+  </script>
+
+  
+    
+    
+    
+
+    <script type="application/ld+json">
+      { "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://skylight.digital/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/"
+        },
+        "headline": "Skylight - Digital Government Consulting | Key trends in mobile app development, part 2: Making sense of the trends",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://skylight.digital/img/blog/mobile_app_dev_trends/mobile-app-dev-trends-2.png",
+          "height": "400",
+          "width": "400"
+        },
+        "author": [
+          
+            { "@type": "Person", "name": "Sean Johnson" }
+          
+        ],
+        
+        "keywords": "mobile, product, engineering, apis, sean johnson",
+        "wordcount": "2235",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Skylight",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://skylight.digital/img/logo.png",
+            "height": "200",
+            "width": "50"
+          }
+        },
+        "datePublished": "2020-05-23",
+        "dateModified": "2020-05-23",
+        "description": "The landscape of mobile app development has evolved greatly over the past decade. Here we discuss how to make sense of the trends discussed in Part 1 of our two-part blog post series.",
+        "articleBody": "&lt;p&gt;&lt;em&gt;In &lt;a href=&quot;/thoughts/blog/key-trends-in-mobile-app-development-part-1-the-trends/&quot;&gt;Part 1&lt;/a&gt; of this two-part blog post series, we discussed two key trends that are shaping the landscape of mobile application development today. Here we discuss how to make sense of these trends with the three important takeaways that can guide our path forward and provide the technical approach we need to develop modern mobile apps.&lt;/em&gt;&lt;/p&gt;&lt;h2 id=&quot;key-takeaway-1-the-perennial-questions-remain-the-same&quot;&gt;Key takeaway #1: the perennial questions remain the same&lt;/h2&gt;&lt;p&gt;Despite the march of mobile app development progress and new approaches, the same perennial questions that have long guided the decision between mobile web and native app development still persist as the key deciding factors today.&lt;/p&gt;&lt;h3 id=&quot;seamless-updates-vs-app-store-discoverability&quot;&gt;Seamless updates vs. app store discoverability&lt;/h3&gt;&lt;p&gt;Distribution, distribution, distribution.&lt;/p&gt;&lt;p&gt;Frequency of updates is a key factor that can push you away from mobile app store distribution towards the continual updates of mobile web, Progressive Web Apps (PWAs), and some mobile hybrids.&lt;/p&gt;&lt;p&gt;Another important consideration here is existing user behavior. If your users are already conditioned to visiting your website on their mobile device, then there's more flexibility. A mobile-app-like experience for the website visitor can leave the user never even considering the need for a native app. The website can also serve as an onramp to a PWA.&lt;/p&gt;&lt;p&gt;If a significant portion of your users existing behavior is to first go to a mobile app store, and then resort to other channels when they don't find what they need (phone calls for example), then the mobile app store still represents a critical distribution point that mandates the presence of at least a hybrid mobile app.&lt;/p&gt;&lt;p&gt;Ultimately, for a PWA, we have to ask, will users understand that they can &quot;install&quot; the website and have it behave like a mobile app?&lt;/p&gt;&lt;p&gt;Do note that Apple removed the formerly useful add-to-home-screen-mobile-web-action convenience, which is now a step removed behind the share dialog, making PWA &quot;installation&quot; on Safari/iOS less friendly and less likely.&lt;/p&gt;&lt;h3 id=&quot;availability-of-necessary-mobile-device-functions-and-sdks&quot;&gt;Availability of necessary mobile device functions and SDKs&lt;/h3&gt;&lt;p&gt;Can a given development approach access the needed mobile functionality to deliver on the product vision?&lt;/p&gt;&lt;p&gt;The gap closes, but then the gap widens again. The web and hybrid development options presented here move forward in an attempt to close the gap between the platform software development kits (SDKs) that are available and what can be utilized with their approach. At times the progress can be frustratingly slow, and it's a game with no end, since each year the mobile platforms continue to expand and innovate, providing an ever-moving target for non-native development approaches to chase.&lt;/p&gt;&lt;p&gt;It'd be futile in this post to catalog the exact coverage of platform capabilities to various development approaches, as it's dependent on so many implementation choice details. It's changing all the time, and the particular SDKs that matter to the decision of which approach to use are entirely project dependent.&lt;/p&gt;&lt;p&gt;We can, however, make some very broad and imprecise statements about the state of things in 2019 that provide some flavor about where things stand today.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Web and cross-platform access:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Camera&lt;/li&gt;  &lt;li&gt;Location&lt;/li&gt;  &lt;li&gt;Maps&lt;/li&gt;  &lt;li&gt;Calendar (write)&lt;/li&gt;  &lt;li&gt;Motion sensing&lt;/li&gt;  &lt;li&gt;Gestures&lt;/li&gt;  &lt;li&gt;Payments&lt;/li&gt;  &lt;li&gt;Push notifications (Android)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Native SDKs only (may or may not be wrapped and exposed in various approaches):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Biometric authentication&lt;/li&gt;  &lt;li&gt;Calendar (read)&lt;/li&gt;  &lt;li&gt;Contacts&lt;/li&gt;  &lt;li&gt;Voice assistants&lt;/li&gt;  &lt;li&gt;NLP/machine learning/AI libraries and chips&lt;/li&gt;  &lt;li&gt;Push notifications (iOS)&lt;/li&gt;  &lt;li&gt;App loading screen&lt;/li&gt;  &lt;li&gt;Messaging&lt;/li&gt;  &lt;li&gt;Speech/voice&lt;/li&gt;  &lt;li&gt;AR/VR&lt;/li&gt;  &lt;li&gt;Native graphics (animation, image, game, shaders, PDF, etc.)&lt;/li&gt;  &lt;li&gt;Bluetooth&lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;users-perceived-feel-and-performance&quot;&gt;User's perceived feel and performance&lt;/h3&gt;&lt;p&gt;Finally, a dominant question in mobile app development has always been, can we make the app feel right to the user? What are the users expectations and tolerances? What message will our app's feel send? Is it the message we want to send? These are important questions that product and technology people on mobile app development teams wrestle with when deciding on their mobile app development approach.&lt;/p&gt;&lt;p&gt;The technical answers to these questions are a factor of providing a native or native-seeming user interface (UI) that follows the platform's UI guidelines, and that looks and behaves like the system apps and other ubiquitous apps that users are also using on the platform. Performance is another key technical variable that strongly impacts users' perception of the app, as is the app's behavior in challenging and unusual network environments (is the app merely blank when there's no or slow network, or is it clearly there, but reporting connectivity challenges, or is it fully functional with cached data?). Finally, the app taking advantage of, or ignoring the platform's various extra-app affordances (notifications, lock screen, voice assistant, battery conservation, background services, watch support, calendar, contact, and app integration) can impact a users perception of the app as minimal or premium.&lt;/p&gt;&lt;p&gt;The product answers to these questions are about the user and the brand and the expectations the user brings to their interactions. Progress can be made in answering these questions with interviews, focus groups, competitive analysis, and various analytics and survey approaches.&lt;/p&gt;&lt;h2 id=&quot;key-takeaway-2-native-performance-and-feel-is-the-deciding-factor-in-the-private-sector&quot;&gt;Key takeaway #2: native performance and feel is the deciding factor in the private sector&lt;/h2&gt;&lt;p&gt;Despite all the advances in non-native mobile development techniques, the user can still feel the difference between a native app, a cross-platform native app, a hybrid app, and a PWA or mobile website. They each have a different performance profile, a different match to platform expectations, and they each send a different message to the user. There's not a bad vs. good message here, but they are different messages, and that message can often be a deciding factor in which approach is used.&lt;/p&gt;&lt;p&gt;In evaluating flagship mobile apps in the private sector (largely healthcare, insurance, and financial services), and in discussions and community participation with development and product teams (largely informal), it's clear that these brands universally chose to send a premium message with a native-first approach. That's not to say every last bit is developed natively to the platform, but it's clear that they pick the spots where it's OK to use the web, and where they need to be seen as cutting edge, and they tend to make these distinctions clear to the user, usually not going to great lengths to disguise their web presence within their apps.&lt;/p&gt;&lt;h2 id=&quot;key-takeaway-3-there-are-smart-ways-to-do-native-app-development&quot;&gt;Key Takeaway #3: there are smart ways to do native app development&lt;/h2&gt;&lt;h3 id=&quot;blended-approach&quot;&gt;Blended approach&lt;/h3&gt;&lt;p&gt;All the parts of a native app shouldn't be created equally.&lt;/p&gt;&lt;p&gt;In approximate terms, mobile app usage follows a Pareto distribution where 80% of the user interactions and value in mobile apps are focused around just 20% of the functionality.Development teams should look to to optimize the performance and native feel of this 20% of the application, and can then consider supplementing the app with web views and other hybrid approaches for all the other edge cases and ancillary paths and functions that represent the other 20% of the app usage but 80% of the total footprint.&lt;/p&gt;&lt;p&gt;Users have proven to be quite tolerant of the non-native portions of native apps, especially when the separation is clear, concise, and sensical. In other words, don't try to fake it. Make the critical user interactions native, and make the tertiary functions of the app clearly a mobile web experience.&lt;/p&gt;&lt;h3 id=&quot;thin-client-thick-api-architecture&quot;&gt;Thin client, thick API architecture&lt;/h3&gt;&lt;p&gt;Native mobile app development is often based on an architecture similar to the one shown below. Substantial code and logic, beyond what's minimally needed to invoke the native platform UI and SDK services, is developed in a thicker than necessary client. Numerous services are accessed directly by the client in client dependent ways (be they formats, protocols, libraries, etc.) and data, configuration, user profiles, and so on are kept locally in the app in platform specific-data solutions. The end result is a relatively shallow, shared common application programming interface (API), and substantial functionality locked up in each client, in platform specific code and approaches.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/blog/mobile_app_dev_trends/traditional-mobile-architecture.svg&quot; alt=&quot;Traditional mobile architecture that's heavy on the client layer.&quot; /&gt;&lt;/p&gt;&lt;p&gt;This traditional native mobile architecture isn't easy to avoid, and it isn't due to poor architectural decisions by the development teams. It's more attributable to the structure of the project, and the independent nature in which each mobile platform is each targeted.&lt;/p&gt;&lt;p&gt;At best, these native mobile clients tend to be developed as independent development streams done at the same time, in the same organization, but more often the two mobile platform teams are much more isolated than that. They tend to be isolated in time (develop for one platform first and another platform later) and by organization (develop against one platform internally and contract out the other, or contract out both to separate organizations).&lt;/p&gt;&lt;p&gt;These project decisions can all but prohibit the development of a superior architecture for native development, the thin client, thick API architecture. With this approach, a single development team is tasked with developing a solution targeting multiple mobile platforms, exactly as you would do if you were using a mobile web, hybrid mobile, or native cross-platform development approach.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/blog/mobile_app_dev_trends/thin-client-thick-api-architecture.svg&quot; alt=&quot;Modern mobile web architecture where the client layer is thin and the backend is thick from making heavy use of APIs.&quot; /&gt;&lt;/p&gt;&lt;p&gt;A strong development team working on a native mobile development project under these more ideal conditions will be able to leverage a thin client, thick API architecture. They can minimize data storage and direct service access in the mobile clients, and keep the unshareable aspects of the native clients as thin as possible. They'll be able to spend more time developing common services and business logic, used by both clients, and will agree on common formats, protocols and service APIs. Ultimately, they'll have both the motivation and the opportunity to avoid incidental, rather than essential platform differences.&lt;/p&gt;&lt;h2 id=&quot;making-an-informed-decision&quot;&gt;Making an informed decision&lt;/h2&gt;&lt;p&gt;We're excited to expose these key mobile development trends and takeaways to decision makers, and expect that every development team and agency's approach to fulfilling its mission can be improved by learning about trends in the development of mobile applications. There are also important, project-specific caveats to the development trends noted in this blog series that must be accounted for in the decision-making process.&lt;/p&gt;&lt;p&gt;The trends identified here are having key impacts on mobile development in the private sector (primarily healthcare and financial services were researched). Government decision makers can't afford to ignore these trends, since they directly impact the expectations users have of their mobile app offerings, but it's also critical that each agency and project keep their unique mission in mind at all times. There are project-specific considerations that need to be factored into mobile app development decisions:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Acceptability of various forms of biometric authentication&lt;/li&gt;  &lt;li&gt;App accessibility to aging and disabled users&lt;/li&gt;  &lt;li&gt;Users with older devices and technology&lt;/li&gt;  &lt;li&gt;Other form factors (desktop, tablet, TVs, car) and environments (hospitals, libraries)&lt;/li&gt;  &lt;li&gt;Rural / low / no-network bandwidth users&lt;/li&gt;  &lt;li&gt;Development and sourcing limitations that are different than in the private sector&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Ultimately the agencies and their service providers are the experts on what impact these project-specific considerations may have, and on what other important considerations are missing from this list.&lt;/p&gt;&lt;p&gt;The decisions we face when launching a new mobile app development initiative, or rationalizing an existing portfolio of mobile applications have never been more difficult than they are today. Let's ensure these decisions are rooted in the mobile app development landscape as it stands today, and not in the past.&lt;/p&gt;&lt;h2 id=&quot;further-reading&quot;&gt;Further reading&lt;/h2&gt;&lt;p&gt;The following is a list of additional reading about items contained in this blog series. These items aren't a bibliography of sources, but instead are a set of potential next steps to explore.&lt;/p&gt;&lt;h3 id=&quot;mobile-web-apps&quot;&gt;Mobile Web Apps&lt;/h3&gt;&lt;ul&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mobile_Web&quot;&gt;Mobile Web on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Responsive_web_design&quot;&gt;Responsive web design on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://www.invisionapp.com/inside-design/examples-responsive-web-design/&quot;&gt;11 powerful examples of responsive web design&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://uxplanet.org/adaptive-vs-responsive-web-design-eead0c2c28a8&quot;&gt;Adaptive vs. Responsive Web Design&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://darwindigital.com/mobile-first-versus-responsive-web-design/&quot;&gt;Choose your strategy: Mobile-First Web Design vs. Responsive Web Design&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;progressive-web-apps&quot;&gt;Progressive Web Apps&lt;/h3&gt;&lt;ul&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Progressive_Web_Apps&quot;&gt;PWA on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/progressive-web-apps/&quot;&gt;Google / Chrome Progressive Web Apps&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://indylogix.com/progressive-web-apps/&quot;&gt;Progressive Web Apps: What is it all about?&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://pwa.rocks/&quot;&gt;A gallery of progressive web apps&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;hybrid-mobile-apps&quot;&gt;Hybrid Mobile Apps&lt;/h3&gt;&lt;ul&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://developer.telerik.com/featured/what-is-a-hybrid-mobile-app/&quot;&gt;What is a Hybrid Mobile App?&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://www.konstantinfo.com/blog/the-best-hybrid-app-development-frameworks/&quot;&gt;The 7 Best Hybrid App Development Frameworks for 2018&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://www.websoptimization.com/blog/hybrid-mobile-app-frameworks/&quot;&gt;The Top 5 Hybrid Mobile App Frameworks for 2018&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://blogs.systweak.com/2018/04/best-hybrid-app-development-frameworks/&quot;&gt;Best Hybrid App Development Frameworks in 2018&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;http://brookscanavesi.com/uncategorized/benefits-disadvantages-hybrid-mobile-applications/&quot;&gt;Benefits and Disadvantages of Hybrid Mobile Apps&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React Native&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://cordova.apache.org/&quot;&gt;Cordova&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;http://www.appcelerator.com/mobile-app-development-products/&quot;&gt;Titanium&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://phonegap.com/&quot;&gt;PhoneGap&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://framework7.io/&quot;&gt;Framework7&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://onsen.io/&quot;&gt;Onsen UI&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;cross-platform-native-apps&quot;&gt;Cross-platform Native Apps&lt;/h3&gt;&lt;ul&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Xamarin&quot;&gt;Xamarin on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://visualstudio.microsoft.com/xamarin/&quot;&gt;Visual Studio Tools for Xamarin&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dart_(programming_language)&quot;&gt;Dart on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Flutter_(software)&quot;&gt;Flutter on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://flutter.io/&quot;&gt;Flutter&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;targeted-native-apps&quot;&gt;Targeted Native Apps&lt;/h3&gt;&lt;ul&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Kotlin_(programming_language)&quot;&gt;Kotlin on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://kotlinlang.org/&quot;&gt;Kotlin&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://developer.android.com/&quot;&gt;Android Development Platform&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Swift_(programming_language)&quot;&gt;Swift on Wikipedia&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://swift.org/&quot;&gt;Swift&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://developer.apple.com/ios/&quot;&gt;iOS Development Platform&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;comparisons&quot;&gt;Comparisons&lt;/h3&gt;&lt;ul&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://blog.markgrowth.com/native-vs-web-vs-hybrid-apps-whats-the-difference-1df4c5e4bc50&quot;&gt;Native vs. Web vs. Hybrid Apps — What's the Difference? (2017)&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://www.quape.com/hybrid-mobile-apps-development/&quot;&gt;Advantages and Disadvantages of Hybrid Mobile Apps Development (2017)&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://www.valagroup.com/fi/2016/09/pros-cons-native-hybrid-web-apps/&quot;&gt;Pros and Cons of Native, Hybrid and Web Apps (2016)&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;http://blog.icreon.us/launch/native-vs-hybrid-development&quot;&gt;Native vs. Hybrid App Development (2016)&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;  &lt;li&gt;    &lt;p&gt;&lt;a href=&quot;https://www.infoq.com/articles/mobile-cross-platform-app-development&quot;&gt;Pros and Cons of Cross-Platform Mobile App Development (2016)&lt;/a&gt;&lt;/p&gt;  &lt;/li&gt;&lt;/ul&gt;"
+      }
+    </script>
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba">
+  <meta name="apple-mobile-web-app-title" content="Skylight">
+  <meta name="application-name" content="Skylight">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css?1625934723865736103" type="text/css">
+  
+  <script src="/js/jquery.slim.min.js"></script>
+  <script src="/js/tether.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.scrolldepth.min.js"></script>
+  <script src="/js/pagination.min.js"></script>
+  <script src="/js/script.js?v=7"></script>
+
+  
+  
+    
+  
+
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body class="page-key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends page-thoughts-blog-key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends" data-spy="scroll" data-target="#sidenav" data-offset="10">
+    <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
+
+    <header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-flex-container">
+      
+        <a class="navbar-logo" href="/">Skylight</a>
+      
+      <div class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbar-nav-collapsible" aria-controls="navbar-nav-collapsible" aria-expanded="false">
+        <div class="burger"><span></span></div>
+        <span class="sr-only">Toggle Navigation</span>
+      </div>
+    </div>
+
+    <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Company</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/company/about/">About Us</a>
+            <a class="dropdown-item" href="/company/values/">Our Values</a>
+            <a class="dropdown-item" href="/company/press/">Press</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWork" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Work</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/work/services/">Our Services</a>
+            <a class="dropdown-item" href="/work/experience/">Our Experience</a>
+            <a class="dropdown-item" href="/work/toolkits/">Toolkits</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Careers</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/careers/join/">Join Us</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThoughts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Thoughts</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/thoughts/blog/">Blog</a>
+            <a class="dropdown-item" href="/thoughts/talks/">Talks</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConnect" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Connect</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/connect/contact/">Contact Us</a>
+            <a class="dropdown-item" href="/connect/contracting/">Contracting</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="content" tabindex="-1">
+      <article class="post">
+
+  <div class="post-row">
+    <div class="post-col">
+      <header class="post-header">
+        <h1 class="post-title header-display-2">Key trends in mobile app development, part 2: Making sense of the trends</h1>
+        <p class="post-byline">
+          By:
+
+
+  
+  
+  <span class="post-author">
+    
+      <a href="/company/about/#sean-johnson">Sean Johnson</a>
+    
+  </span>
+  
+  
+
+
+          <span class="post-date">
+            Updated:
+            <time datetime="2020-05-23T00:00:00+00:00">
+              May 23, 2020
+            </time>
+          </span>
+        </p>
+        
+          <img class="post-feature-img" src="/img/blog/mobile_app_dev_trends/mobile-app-dev-trends-2.svg" alt="Three people standing around a huge mobile device and pointing at a chart on the screen." title="Three people standing around a huge mobile device and pointing at a chart on the screen.">
+        
+      </header>
+
+      <div class="post-content prose">
+        <p><em>In <a href="/thoughts/blog/key-trends-in-mobile-app-development-part-1-the-trends/">Part 1</a> of this two-part blog post series, we discussed two key trends that are shaping the landscape of mobile application development today. Here we discuss how to make sense of these trends with the three important takeaways that can guide our path forward and provide the technical approach we need to develop modern mobile apps.</em></p>
+
+<h2 id="key-takeaway-1-the-perennial-questions-remain-the-same">Key takeaway #1: the perennial questions remain the same</h2>
+
+<p>Despite the march of mobile app development progress and new approaches, the same perennial questions that have long guided the decision between mobile web and native app development still persist as the key deciding factors today.</p>
+
+<h3 id="seamless-updates-vs-app-store-discoverability">Seamless updates vs. app store discoverability</h3>
+
+<p>Distribution, distribution, distribution.</p>
+
+<p>Frequency of updates is a key factor that can push you away from mobile app store distribution towards the continual updates of mobile web, Progressive Web Apps (PWAs), and some mobile hybrids.</p>
+
+<p>Another important consideration here is existing user behavior. If your users are already conditioned to visiting your website on their mobile device, then there's more flexibility. A mobile-app-like experience for the website visitor can leave the user never even considering the need for a native app. The website can also serve as an onramp to a PWA.</p>
+
+<p>If a significant portion of your users existing behavior is to first go to a mobile app store, and then resort to other channels when they don't find what they need (phone calls for example), then the mobile app store still represents a critical distribution point that mandates the presence of at least a hybrid mobile app.</p>
+
+<p>Ultimately, for a PWA, we have to ask, will users understand that they can "install" the website and have it behave like a mobile app?</p>
+
+<p>Do note that Apple removed the formerly useful add-to-home-screen-mobile-web-action convenience, which is now a step removed behind the share dialog, making PWA "installation" on Safari/iOS less friendly and less likely.</p>
+
+<h3 id="availability-of-necessary-mobile-device-functions-and-sdks">Availability of necessary mobile device functions and SDKs</h3>
+
+<p>Can a given development approach access the needed mobile functionality to deliver on the product vision?</p>
+
+<p>The gap closes, but then the gap widens again. The web and hybrid development options presented here move forward in an attempt to close the gap between the platform software development kits (SDKs) that are available and what can be utilized with their approach. At times the progress can be frustratingly slow, and it's a game with no end, since each year the mobile platforms continue to expand and innovate, providing an ever-moving target for non-native development approaches to chase.</p>
+
+<p>It'd be futile in this post to catalog the exact coverage of platform capabilities to various development approaches, as it's dependent on so many implementation choice details. It's changing all the time, and the particular SDKs that matter to the decision of which approach to use are entirely project dependent.</p>
+
+<p>We can, however, make some very broad and imprecise statements about the state of things in 2019 that provide some flavor about where things stand today.</p>
+
+<p><strong>Web and cross-platform access:</strong></p>
+
+<ul>
+  <li>Camera</li>
+  <li>Location</li>
+  <li>Maps</li>
+  <li>Calendar (write)</li>
+  <li>Motion sensing</li>
+  <li>Gestures</li>
+  <li>Payments</li>
+  <li>Push notifications (Android)</li>
+</ul>
+
+<p><strong>Native SDKs only (may or may not be wrapped and exposed in various approaches):</strong></p>
+
+<ul>
+  <li>Biometric authentication</li>
+  <li>Calendar (read)</li>
+  <li>Contacts</li>
+  <li>Voice assistants</li>
+  <li>NLP/machine learning/AI libraries and chips</li>
+  <li>Push notifications (iOS)</li>
+  <li>App loading screen</li>
+  <li>Messaging</li>
+  <li>Speech/voice</li>
+  <li>AR/VR</li>
+  <li>Native graphics (animation, image, game, shaders, PDF, etc.)</li>
+  <li>Bluetooth</li>
+</ul>
+
+<h3 id="users-perceived-feel-and-performance">User's perceived feel and performance</h3>
+
+<p>Finally, a dominant question in mobile app development has always been, can we make the app feel right to the user? What are the users expectations and tolerances? What message will our app's feel send? Is it the message we want to send? These are important questions that product and technology people on mobile app development teams wrestle with when deciding on their mobile app development approach.</p>
+
+<p>The technical answers to these questions are a factor of providing a native or native-seeming user interface (UI) that follows the platform's UI guidelines, and that looks and behaves like the system apps and other ubiquitous apps that users are also using on the platform. Performance is another key technical variable that strongly impacts users' perception of the app, as is the app's behavior in challenging and unusual network environments (is the app merely blank when there's no or slow network, or is it clearly there, but reporting connectivity challenges, or is it fully functional with cached data?). Finally, the app taking advantage of, or ignoring the platform's various extra-app affordances (notifications, lock screen, voice assistant, battery conservation, background services, watch support, calendar, contact, and app integration) can impact a users perception of the app as minimal or premium.</p>
+
+<p>The product answers to these questions are about the user and the brand and the expectations the user brings to their interactions. Progress can be made in answering these questions with interviews, focus groups, competitive analysis, and various analytics and survey approaches.</p>
+
+<h2 id="key-takeaway-2-native-performance-and-feel-is-the-deciding-factor-in-the-private-sector">Key takeaway #2: native performance and feel is the deciding factor in the private sector</h2>
+
+<p>Despite all the advances in non-native mobile development techniques, the user can still feel the difference between a native app, a cross-platform native app, a hybrid app, and a PWA or mobile website. They each have a different performance profile, a different match to platform expectations, and they each send a different message to the user. There's not a bad vs. good message here, but they are different messages, and that message can often be a deciding factor in which approach is used.</p>
+
+<p>In evaluating flagship mobile apps in the private sector (largely healthcare, insurance, and financial services), and in discussions and community participation with development and product teams (largely informal), it's clear that these brands universally chose to send a premium message with a native-first approach. That's not to say every last bit is developed natively to the platform, but it's clear that they pick the spots where it's OK to use the web, and where they need to be seen as cutting edge, and they tend to make these distinctions clear to the user, usually not going to great lengths to disguise their web presence within their apps.</p>
+
+<h2 id="key-takeaway-3-there-are-smart-ways-to-do-native-app-development">Key Takeaway #3: there are smart ways to do native app development</h2>
+
+<h3 id="blended-approach">Blended approach</h3>
+
+<p>All the parts of a native app shouldn't be created equally.</p>
+
+<p>In approximate terms, mobile app usage follows a Pareto distribution where 80% of the user interactions and value in mobile apps are focused around just 20% of the functionality.
+Development teams should look to to optimize the performance and native feel of this 20% of the application, and can then consider supplementing the app with web views and other hybrid approaches for all the other edge cases and ancillary paths and functions that represent the other 20% of the app usage but 80% of the total footprint.</p>
+
+<p>Users have proven to be quite tolerant of the non-native portions of native apps, especially when the separation is clear, concise, and sensical. In other words, don't try to fake it. Make the critical user interactions native, and make the tertiary functions of the app clearly a mobile web experience.</p>
+
+<h3 id="thin-client-thick-api-architecture">Thin client, thick API architecture</h3>
+
+<p>Native mobile app development is often based on an architecture similar to the one shown below. Substantial code and logic, beyond what's minimally needed to invoke the native platform UI and SDK services, is developed in a thicker than necessary client. Numerous services are accessed directly by the client in client dependent ways (be they formats, protocols, libraries, etc.) and data, configuration, user profiles, and so on are kept locally in the app in platform specific-data solutions. The end result is a relatively shallow, shared common application programming interface (API), and substantial functionality locked up in each client, in platform specific code and approaches.</p>
+
+<p><img src="/img/blog/mobile_app_dev_trends/traditional-mobile-architecture.svg" alt="Traditional mobile architecture that's heavy on the client layer." /></p>
+
+<p>This traditional native mobile architecture isn't easy to avoid, and it isn't due to poor architectural decisions by the development teams. It's more attributable to the structure of the project, and the independent nature in which each mobile platform is each targeted.</p>
+
+<p>At best, these native mobile clients tend to be developed as independent development streams done at the same time, in the same organization, but more often the two mobile platform teams are much more isolated than that. They tend to be isolated in time (develop for one platform first and another platform later) and by organization (develop against one platform internally and contract out the other, or contract out both to separate organizations).</p>
+
+<p>These project decisions can all but prohibit the development of a superior architecture for native development, the thin client, thick API architecture. With this approach, a single development team is tasked with developing a solution targeting multiple mobile platforms, exactly as you would do if you were using a mobile web, hybrid mobile, or native cross-platform development approach.</p>
+
+<p><img src="/img/blog/mobile_app_dev_trends/thin-client-thick-api-architecture.svg" alt="Modern mobile web architecture where the client layer is thin and the backend is thick from making heavy use of APIs." /></p>
+
+<p>A strong development team working on a native mobile development project under these more ideal conditions will be able to leverage a thin client, thick API architecture. They can minimize data storage and direct service access in the mobile clients, and keep the unshareable aspects of the native clients as thin as possible. They'll be able to spend more time developing common services and business logic, used by both clients, and will agree on common formats, protocols and service APIs. Ultimately, they'll have both the motivation and the opportunity to avoid incidental, rather than essential platform differences.</p>
+
+<h2 id="making-an-informed-decision">Making an informed decision</h2>
+
+<p>We're excited to expose these key mobile development trends and takeaways to decision makers, and expect that every development team and agency's approach to fulfilling its mission can be improved by learning about trends in the development of mobile applications. There are also important, project-specific caveats to the development trends noted in this blog series that must be accounted for in the decision-making process.</p>
+
+<p>The trends identified here are having key impacts on mobile development in the private sector (primarily healthcare and financial services were researched). Government decision makers can't afford to ignore these trends, since they directly impact the expectations users have of their mobile app offerings, but it's also critical that each agency and project keep their unique mission in mind at all times. There are project-specific considerations that need to be factored into mobile app development decisions:</p>
+
+<ul>
+  <li>Acceptability of various forms of biometric authentication</li>
+  <li>App accessibility to aging and disabled users</li>
+  <li>Users with older devices and technology</li>
+  <li>Other form factors (desktop, tablet, TVs, car) and environments (hospitals, libraries)</li>
+  <li>Rural / low / no-network bandwidth users</li>
+  <li>Development and sourcing limitations that are different than in the private sector</li>
+</ul>
+
+<p>Ultimately the agencies and their service providers are the experts on what impact these project-specific considerations may have, and on what other important considerations are missing from this list.</p>
+
+<p>The decisions we face when launching a new mobile app development initiative, or rationalizing an existing portfolio of mobile applications have never been more difficult than they are today. Let's ensure these decisions are rooted in the mobile app development landscape as it stands today, and not in the past.</p>
+
+<h2 id="further-reading">Further reading</h2>
+
+<p>The following is a list of additional reading about items contained in this blog series. These items aren't a bibliography of sources, but instead are a set of potential next steps to explore.</p>
+
+<h3 id="mobile-web-apps">Mobile Web Apps</h3>
+
+<ul>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Mobile_Web">Mobile Web on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Responsive_web_design">Responsive web design on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.invisionapp.com/inside-design/examples-responsive-web-design/">11 powerful examples of responsive web design</a></p>
+  </li>
+  <li>
+    <p><a href="https://uxplanet.org/adaptive-vs-responsive-web-design-eead0c2c28a8">Adaptive vs. Responsive Web Design</a></p>
+  </li>
+  <li>
+    <p><a href="https://darwindigital.com/mobile-first-versus-responsive-web-design/">Choose your strategy: Mobile-First Web Design vs. Responsive Web Design</a></p>
+  </li>
+</ul>
+
+<h3 id="progressive-web-apps">Progressive Web Apps</h3>
+
+<ul>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Progressive_Web_Apps">PWA on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://developers.google.com/web/progressive-web-apps/">Google / Chrome Progressive Web Apps</a></p>
+  </li>
+  <li>
+    <p><a href="https://indylogix.com/progressive-web-apps/">Progressive Web Apps: What is it all about?</a></p>
+  </li>
+  <li>
+    <p><a href="https://pwa.rocks/">A gallery of progressive web apps</a></p>
+  </li>
+</ul>
+
+<h3 id="hybrid-mobile-apps">Hybrid Mobile Apps</h3>
+
+<ul>
+  <li>
+    <p><a href="https://developer.telerik.com/featured/what-is-a-hybrid-mobile-app/">What is a Hybrid Mobile App?</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.konstantinfo.com/blog/the-best-hybrid-app-development-frameworks/">The 7 Best Hybrid App Development Frameworks for 2018</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.websoptimization.com/blog/hybrid-mobile-app-frameworks/">The Top 5 Hybrid Mobile App Frameworks for 2018</a></p>
+  </li>
+  <li>
+    <p><a href="https://blogs.systweak.com/2018/04/best-hybrid-app-development-frameworks/">Best Hybrid App Development Frameworks in 2018</a></p>
+  </li>
+  <li>
+    <p><a href="http://brookscanavesi.com/uncategorized/benefits-disadvantages-hybrid-mobile-applications/">Benefits and Disadvantages of Hybrid Mobile Apps</a></p>
+  </li>
+  <li>
+    <p><a href="https://facebook.github.io/react-native/">React Native</a></p>
+  </li>
+  <li>
+    <p><a href="https://cordova.apache.org/">Cordova</a></p>
+  </li>
+  <li>
+    <p><a href="https://ionicframework.com/">Ionic</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.appcelerator.com/mobile-app-development-products/">Titanium</a></p>
+  </li>
+  <li>
+    <p><a href="https://phonegap.com/">PhoneGap</a></p>
+  </li>
+  <li>
+    <p><a href="https://framework7.io/">Framework7</a></p>
+  </li>
+  <li>
+    <p><a href="https://onsen.io/">Onsen UI</a></p>
+  </li>
+</ul>
+
+<h3 id="cross-platform-native-apps">Cross-platform Native Apps</h3>
+
+<ul>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Xamarin">Xamarin on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://visualstudio.microsoft.com/xamarin/">Visual Studio Tools for Xamarin</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Dart_(programming_language)">Dart on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.dartlang.org/">Dart</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Flutter_(software)">Flutter on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://flutter.io/">Flutter</a></p>
+  </li>
+</ul>
+
+<h3 id="targeted-native-apps">Targeted Native Apps</h3>
+
+<ul>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Kotlin on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://kotlinlang.org/">Kotlin</a></p>
+  </li>
+  <li>
+    <p><a href="https://developer.android.com/">Android Development Platform</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Swift on Wikipedia</a></p>
+  </li>
+  <li>
+    <p><a href="https://swift.org/">Swift</a></p>
+  </li>
+  <li>
+    <p><a href="https://developer.apple.com/ios/">iOS Development Platform</a></p>
+  </li>
+</ul>
+
+<h3 id="comparisons">Comparisons</h3>
+
+<ul>
+  <li>
+    <p><a href="https://blog.markgrowth.com/native-vs-web-vs-hybrid-apps-whats-the-difference-1df4c5e4bc50">Native vs. Web vs. Hybrid Apps — What's the Difference? (2017)</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.quape.com/hybrid-mobile-apps-development/">Advantages and Disadvantages of Hybrid Mobile Apps Development (2017)</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.valagroup.com/fi/2016/09/pros-cons-native-hybrid-web-apps/">Pros and Cons of Native, Hybrid and Web Apps (2016)</a></p>
+  </li>
+  <li>
+    <p><a href="http://blog.icreon.us/launch/native-vs-hybrid-development">Native vs. Hybrid App Development (2016)</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.infoq.com/articles/mobile-cross-platform-app-development">Pros and Cons of Cross-Platform Mobile App Development (2016)</a></p>
+  </li>
+</ul>
+
+      </div>
+
+      <footer class="post-footer">
+        
+
+        
+          <div class="post-tags">
+            
+              <a href="/thoughts/blog/tag/mobile/" class="tag-badge">mobile</a>
+            
+              <a href="/thoughts/blog/tag/product/" class="tag-badge">product</a>
+            
+              <a href="/thoughts/blog/tag/engineering/" class="tag-badge">engineering</a>
+            
+              <a href="/thoughts/blog/tag/apis/" class="tag-badge">apis</a>
+            
+              <a href="/thoughts/blog/tag/sean-johnson/" class="tag-badge">sean johnson</a>
+            
+          </div>
+        
+
+        <div class="post-share">
+          
+          
+          
+
+          
+          
+
+          <div>
+            <a href=" https://twitter.com/intent/tweet?url=https://skylight.digital/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/&text=Key+trends+in+mobile+app+development%2C+part+2%3A+Making+sense+of+the+trends&via=skylight_hq " role="button">
+              <i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
+              Share on Twitter
+            </a>
+          </div>
+
+          <div>
+            <a href=" https://www.linkedin.com/shareArticle?mini=true&url=https://skylight.digital/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/ " role="button">
+              <i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+              Share on LinkedIn
+            </a>
+          </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+            
+            
+            
+            
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+            
+            
+            
+            
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+
+        
+          <div class="post-related">
+            <h3>Related blog posts</h3>
+            <ul> <li><a href="/thoughts/blog/key-trends-in-mobile-app-development-part-1-the-trends/">Key trends in mobile app development, part 1: The trends</a></li>  <li><a href="/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean">Lean software development, part 1: The three instances of lean</a></li> </ul>
+          </div>
+        
+      </footer>
+
+    </div>
+  </div>
+
+</article>
+
+
+<footer class="page-subfooter">
+  <div class="page-subfooter-content">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
+        <h2 class="header-display-2">Let's deliver together.</h2>
+      </div>
+    </div>
+
+    <div class="page-subfooter-text-row">
+      <div class="page-subfooter-text-col">
+        <p>However bold the idea or complex the problem, we work with you to deliver results in weeks, not years.</p>
+      </div>
+    </div>
+
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
+        <a href="/connect/contact/" role="button">
+          <span>Contact Us</span>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    </main>
+
+    <footer class="footer">
+
+  <div class="footer-content">
+    <div class="footer-brand">
+      <a class="footer-brandmark">HUBZone Certified</a>
+    </div>
+
+    <nav class="footer-nav">
+      <div class="footer-link-groups">
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="/company/about/">About</a></li>
+              <li><a href="/company/values/">Values</a></li>
+              <li><a href="/company/press/">Press</a></li>
+              <li><a href="/company/policies/">Policies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Work</h2>
+            <ul>
+              <li><a href="/work/services/">Services</a></li>
+              <li><a href="/work/experience/">Experience</a></li>
+              <li><a href="/work/toolkits/">Toolkits</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Careers</h2>
+            <ul>
+              <li><a href="/careers/join/">Join</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Thoughts</h2>
+            <ul>
+              <li><a href="/thoughts/blog/">Blog</a></li>
+              <li><a href="/thoughts/talks/">Talks</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Connect</h2>
+            <ul>
+              <li><a href="/connect/contact/">Contact</a></li>
+              <li><a href="/connect/contracting/">Contracting</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93543424-1"></script>
+<script>
+  if (!/^localhost/.test(location.host)) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-93543424-1');
+  }
+</script>
+  </body>
+
+</html>

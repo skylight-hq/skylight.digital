@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="versionNum" content="523">
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  <title>What technical debt is | Skylight Managing Technical Debt Guide</title>
+  <meta name="description" content="A description of what technical debt is, including different types and consequences.">
+  <meta name="keywords" content="technical debt, code debt, software development, guide">
+  <meta name="image" content="https://skylight.digital/img/logo-social.png">
+
+  
+    <meta name="author" content="Skylight">
+  
+
+  <meta name="date" content="2017-06-18">
+  <link rel="image_src" href="https://skylight.digital/img/logo-social.png">
+  <link rel="canonical" href="https://skylight.digital/work/toolkits/managing-technical-debt/what-is-technical-debt/">
+
+  <meta property="og:site_name" content="Skylight">
+  <meta property="og:title" content="What technical debt is | Skylight Managing Technical Debt Guide">
+  <meta property="og:description" content="A description of what technical debt is, including different types and consequences.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skylight.digital/work/toolkits/managing-technical-debt/what-is-technical-debt/">
+  <meta property="og:image" content="https://skylight.digital/img/logo-social.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@skylight_hq">
+  <meta name="twitter:site" content="@skylight_hq">
+  <meta name="twitter:title" content="What technical debt is | Skylight Managing Technical Debt Guide">
+  <meta name="twitter:description" content="A description of what technical debt is, including different types and consequences.">
+  <meta name="twitter:image" content="https://skylight.digital/img/logo-social.png?100778407">
+  <meta name="twitter:image:alt" content="Skylight Logo">
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://skylight.digital",
+      "name": "Skylight - Digital Government Consulting",
+      "description": "Skylight is a digital consultancy using design and technology to help government agencies deliver better public services.",
+      "keywords": "digital consulting, digital government, digital transformation, digital services",
+      "datePublished": "2017-06-18",
+      "dateModified": "2020-05-29"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "Skylight",
+     "legalName": "Skylight Inc.",
+     "url": "https://skylight.digital",
+     "logo": {
+       "@type": "ImageObject",
+       "url": "https://skylight.digital/img/logo.png",
+       "height": "200",
+       "width": "50"
+     },
+     "foundingDate": "2017",
+     "founders": [
+        { "@type": "Person", "name": "Chris Cairns" }
+      ],
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Sarasota",
+       "addressRegion": "FL",
+       "postalCode": "34236",
+       "addressCountry": "USA"
+     },
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "sales",
+       "telephone": "267-228-1390",
+       "email": "hello@skylight.digital"
+     },
+     "sameAs": [
+       "https://twitter.com/skylight_hq",
+       "https://github.com/skylight-hq",
+       "https://www.linkedin.com/company/skylight-hq"
+     ]
+    }
+  </script>
+
+  
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "url": "https://skylight.digital/work/toolkits/managing-technical-debt/what-is-technical-debt/",
+        "name": "What technical debt is | Skylight Managing Technical Debt Guide",
+        "description": "A description of what technical debt is, including different types and consequences.",
+        "keywords": "technical debt, code debt, software development, guide"
+      }
+    </script>
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba">
+  <meta name="apple-mobile-web-app-title" content="Skylight">
+  <meta name="application-name" content="Skylight">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css?1625934723865736103" type="text/css">
+  
+  <script src="/js/jquery.slim.min.js"></script>
+  <script src="/js/tether.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.scrolldepth.min.js"></script>
+  <script src="/js/pagination.min.js"></script>
+  <script src="/js/script.js?v=7"></script>
+
+  
+  
+    
+  
+
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body class="page-what-technical-debt-is-skylight-managing-technical-debt-guide page-work-toolkits-managing-technical-debt-what-is-technical-debt" data-spy="scroll" data-target="#sidenav" data-offset="10">
+    <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
+
+    <header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-flex-container">
+      
+        <a class="navbar-logo" href="/">Skylight</a>
+      
+      <div class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbar-nav-collapsible" aria-controls="navbar-nav-collapsible" aria-expanded="false">
+        <div class="burger"><span></span></div>
+        <span class="sr-only">Toggle Navigation</span>
+      </div>
+    </div>
+
+    <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Company</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/company/about/">About Us</a>
+            <a class="dropdown-item" href="/company/values/">Our Values</a>
+            <a class="dropdown-item" href="/company/press/">Press</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWork" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Work</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/work/services/">Our Services</a>
+            <a class="dropdown-item" href="/work/experience/">Our Experience</a>
+            <a class="dropdown-item" href="/work/toolkits/">Toolkits</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Careers</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/careers/join/">Join Us</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThoughts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Thoughts</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/thoughts/blog/">Blog</a>
+            <a class="dropdown-item" href="/thoughts/talks/">Talks</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConnect" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Connect</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/connect/contact/">Contact Us</a>
+            <a class="dropdown-item" href="/connect/contracting/">Contracting</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="content" tabindex="-1">
+      <div class="
+  
+    bg-blue
+   hero-banner"
+  
+    style="
+      background-image: url(/img/hero-toolkits.svg);
+      background-repeat: no-repeat;
+      background-size: cover;"
+  
+>
+<header class="hero hero-banner mb-5">
+  <div class="hero-container container-fluid text-center page--join__text">
+    <p class="hero-heading ">
+      
+        Managing Technical Debt Guide
+      
+    </p>
+    <p class="hero-content ">
+      
+        A guide on how to manage technical debt in software development projects.
+      
+    </p>
+  </div>
+</header>
+</div>
+
+<div class="container">
+  <div class="row d-flex">
+    <div class="sidenav col-12 col-md-3 order-2 order-md-1">
+      <div class="">
+        <nav class="subnav-col px-0 mt-4 mt-md-0" id="sidenav">
+          <ul>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/">Introduction</a>
+              </li>
+           
+              <li>
+                <a class="nav-link current" href="/work/toolkits/managing-technical-debt/what-is-technical-debt/">What technical debt is</a>
+              </li>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/managing-technical-debt/">Managing technical debt</a>
+              </li>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/preventing-technical-debt/">Preventing technical debt</a>
+              </li>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/resources/">Additional resources</a>
+              </li>
+           
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="col-12 col-md-9 page--toolkit text prose order-1 order-md-2 ">
+      <h1 id="what-technical-debt-is">What technical debt is</h1>
+
+<h2 id="financial-metaphor">Financial metaphor</h2>
+
+<p>Let's assume you're developing a software product. When you make short-term compromises to its code or design quality (perhaps addressing a known bug with a band-aid solution instead of a more comprehensive solution), you're making the product more difficult for yourself or someone else to continue to develop, test, and maintain in the future. This is the concept of technical debt, which is similar to financial debt. For example, the extra effort required to finish your incomplete work represents the principal portion of the debt. And the extra time it takes to work with your unwieldy code or design, until it's fixed, represents the interest portion.</p>
+
+<p><img src="/img/toolkits/technical_debt/tech-debt-interest-payments.svg" alt="A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent." /></p>
+
+<p>Like financial debt, not all technical debt is bad debt. For example, taking out a mortgage on a home that you pay back within 15 years and sell for a 175 percent return is good debt. Conversely, racking up a huge credit card balance on a luxury yacht with no means to pay it back is reckless.</p>
+
+<p>With software, it's perfectly reasonable to release early with known limitations in order to capture a time-bound opportunity or meet a compliance deadline, as long as there's staff in place to address those limitations after the launch. Another great way to leverage technical debt is to quickly run a product experiment (à la lean startup). If the experiment doesn't yield the desired results, you can remove the feature and not even bother repaying the debt. Of course, if you keep the feature, then it must be finished, and you can do that with the benefit of what you learned from the experiment. So the aim of most software development experiments shouldn't be to achieve a completely debt-free product. Instead, you want a product with <a href="https://martinfowler.com/bliki/DesignStaminaHypothesis.html">whatever level of quality is necessary to give the development team enough stamina to go faster for longer</a>.</p>
+
+<h2 id="types-of-technical-debt">Types of technical debt</h2>
+
+<p>Just like you'll find in the financial world, there are different kinds of technical debt. Martin Fowler, a leading software expert, classifies technical debt into four types, as shown in the quadrants below.</p>
+
+<p><img src="/img/toolkits/technical_debt/tech-debt-types.svg" alt="A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent." /></p>
+
+<p>While the result in each case is the accumulation of more technical debt, each of these types is created by different circumstances:</p>
+
+<ul>
+  <li><strong>Reckless/Deliberate Debt</strong>: The team feels time pressured, and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.</li>
+  <li><strong>Prudent/Deliberate Debt</strong>: The team decides that the value of shipping a "quick and dirty solution" now is worth the cost of incurring debt. They're fully aware of the consequences, however, and have a plan in place to address them.</li>
+  <li><strong>Reckless/Inadvertent</strong>: The team is ignorant of best practices, and their lack of knowledge of effective development practices leads them to make a big mess of the codebase.</li>
+  <li><strong>Prudent/Inadvertent</strong>: Even with great programmers, the team delivers an extrinsically valuable solution, only to realize how they should have (intrinsically) designed it. (Often the process of software development is as much learning as it is coding.)</li>
+</ul>
+
+<h2 id="the-consequences-of-technical-debt">The consequences of technical debt</h2>
+
+<p>From annoying bugs to crippled projects, the effects of technical debt manifest in a variety of pernicious ways. Jim Highsmith's technical debt curve, modified below from his article, <em>The Financial Implications of Technical Debt</em>, illustrates what happens as technical debt grows within a software product over time:</p>
+
+<ul>
+  <li>The <strong>cost (or difficulty)</strong> of changing the software or project increases, eventually to the point where the code can no longer be feasibly maintained</li>
+  <li>The <strong>ability to respond to the needs of customers</strong> decreases, making them extremely unhappy</li>
+  <li>The <strong>predictability of results</strong> decreases, making management highly distrustful (producing accurate estimates of the time or money related to software with a high amount of debt is nearly impossible).</li>
+</ul>
+
+<p><img src="/img/toolkits/technical_debt/tech-debt-cost-of-change.svg" alt="A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." /></p>
+
+<p>How do projects end up on the far right of the curve? And why is that a bad place to be? As Highsmith explains in his article, <em>The Financial Implications of Technical Debt</em>:</p>
+
+<blockquote class="post-blockquote">
+<p>"One problem with technical debt is that the impact can be slow-growing and somewhat hidden. To the question 'fix the technical debt, or build new features' we know how it's usually answered. As it gets worse, customers complain about slow delivery, increasing the pressure to take more shortcuts, which increases the technical debt, which slows the delivery process, which increases customer dissatisfaction, in a rapidly spiraling vicious cycle. Unfortunately, by the time many organizations are paying attention, all the solutions are bad ones: 1) do nothing and it gets worse, 2) replace/rewrite the software (expensive, high risk, doesn't address the root cause problem), or 3) systematically invest in incremental improvement."</p>
+</blockquote>
+
+<p>Customers aren't the only ones who <a href="http://www.infoq.com/articles/managing-technical-debt">suffer the consequences</a> (annoying bugs, missing features, etc.) of technical debt:</p>
+
+<ul>
+  <li><strong>Friendly help desk staff</strong> will field more support calls.</li>
+  <li><strong>Software operations teams</strong> lose sleep patching the system at all hours of the day.</li>
+  <li><strong>Management</strong> gets bad publicity due to bugs, delays, security issues, or outages.</li>
+  <li><strong>Developers</strong> have to deal with the bad work of other developers, which <a href="https://www.industriallogic.com/blog/technical-debt-considered/">may cause turnover</a>.</li>
+</ul>
+
+<p>Now that you understand what technical debt is, learn more about <a href="/work/toolkits/managing-technical-debt/managing-technical-debt/">how to manage it</a>.</p>
+
+    </section>
+  </div>
+</div>
+
+<footer class="page-subfooter">
+  <div class="page-subfooter-content">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
+        <h2 class="header-display-2">Get expert answers.</h2>
+      </div>
+    </div>
+
+    <div class="page-subfooter-text-row">
+      <div class="page-subfooter-text-col">
+        <p>Have a question about something? Our experts love to share what they know. Drop us an email and we'll get you connected.</p>
+      </div>
+    </div>
+
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
+        <a href="mailto:communities@skylight.digital" role="button">
+          <span>Email Us</span>
+          <i class="fa fa-at" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    </main>
+
+    <footer class="footer">
+
+  <div class="footer-content">
+    <div class="footer-brand">
+      <a class="footer-brandmark">HUBZone Certified</a>
+    </div>
+
+    <nav class="footer-nav">
+      <div class="footer-link-groups">
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="/company/about/">About</a></li>
+              <li><a href="/company/values/">Values</a></li>
+              <li><a href="/company/press/">Press</a></li>
+              <li><a href="/company/policies/">Policies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Work</h2>
+            <ul>
+              <li><a href="/work/services/">Services</a></li>
+              <li><a href="/work/experience/">Experience</a></li>
+              <li><a href="/work/toolkits/">Toolkits</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Careers</h2>
+            <ul>
+              <li><a href="/careers/join/">Join</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Thoughts</h2>
+            <ul>
+              <li><a href="/thoughts/blog/">Blog</a></li>
+              <li><a href="/thoughts/talks/">Talks</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Connect</h2>
+            <ul>
+              <li><a href="/connect/contact/">Contact</a></li>
+              <li><a href="/connect/contracting/">Contracting</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93543424-1"></script>
+<script>
+  if (!/^localhost/.test(location.host)) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-93543424-1');
+  }
+</script>
+  </body>
+
+</html>

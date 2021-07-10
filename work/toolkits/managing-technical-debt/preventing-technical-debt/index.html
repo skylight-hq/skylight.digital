@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="versionNum" content="523">
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  <title>Preventing technical debt | Skylight Managing Technical Debt Guide</title>
+  <meta name="description" content="How to prevent bad technical debt from accumulating.">
+  <meta name="keywords" content="technical debt, code debt, software development, guide">
+  <meta name="image" content="https://skylight.digital/img/logo-social.png">
+
+  
+    <meta name="author" content="Skylight">
+  
+
+  <meta name="date" content="2017-06-18">
+  <link rel="image_src" href="https://skylight.digital/img/logo-social.png">
+  <link rel="canonical" href="https://skylight.digital/work/toolkits/managing-technical-debt/preventing-technical-debt/">
+
+  <meta property="og:site_name" content="Skylight">
+  <meta property="og:title" content="Preventing technical debt | Skylight Managing Technical Debt Guide">
+  <meta property="og:description" content="How to prevent bad technical debt from accumulating.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skylight.digital/work/toolkits/managing-technical-debt/preventing-technical-debt/">
+  <meta property="og:image" content="https://skylight.digital/img/logo-social.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@skylight_hq">
+  <meta name="twitter:site" content="@skylight_hq">
+  <meta name="twitter:title" content="Preventing technical debt | Skylight Managing Technical Debt Guide">
+  <meta name="twitter:description" content="How to prevent bad technical debt from accumulating.">
+  <meta name="twitter:image" content="https://skylight.digital/img/logo-social.png?100791107">
+  <meta name="twitter:image:alt" content="Skylight Logo">
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://skylight.digital",
+      "name": "Skylight - Digital Government Consulting",
+      "description": "Skylight is a digital consultancy using design and technology to help government agencies deliver better public services.",
+      "keywords": "digital consulting, digital government, digital transformation, digital services",
+      "datePublished": "2017-06-18",
+      "dateModified": "2020-05-29"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "Skylight",
+     "legalName": "Skylight Inc.",
+     "url": "https://skylight.digital",
+     "logo": {
+       "@type": "ImageObject",
+       "url": "https://skylight.digital/img/logo.png",
+       "height": "200",
+       "width": "50"
+     },
+     "foundingDate": "2017",
+     "founders": [
+        { "@type": "Person", "name": "Chris Cairns" }
+      ],
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Sarasota",
+       "addressRegion": "FL",
+       "postalCode": "34236",
+       "addressCountry": "USA"
+     },
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "sales",
+       "telephone": "267-228-1390",
+       "email": "hello@skylight.digital"
+     },
+     "sameAs": [
+       "https://twitter.com/skylight_hq",
+       "https://github.com/skylight-hq",
+       "https://www.linkedin.com/company/skylight-hq"
+     ]
+    }
+  </script>
+
+  
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "url": "https://skylight.digital/work/toolkits/managing-technical-debt/preventing-technical-debt/",
+        "name": "Preventing technical debt | Skylight Managing Technical Debt Guide",
+        "description": "How to prevent bad technical debt from accumulating.",
+        "keywords": "technical debt, code debt, software development, guide"
+      }
+    </script>
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba">
+  <meta name="apple-mobile-web-app-title" content="Skylight">
+  <meta name="application-name" content="Skylight">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css?1625934723865736103" type="text/css">
+  
+  <script src="/js/jquery.slim.min.js"></script>
+  <script src="/js/tether.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.scrolldepth.min.js"></script>
+  <script src="/js/pagination.min.js"></script>
+  <script src="/js/script.js?v=7"></script>
+
+  
+  
+    
+  
+
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body class="page-preventing-technical-debt-skylight-managing-technical-debt-guide page-work-toolkits-managing-technical-debt-preventing-technical-debt" data-spy="scroll" data-target="#sidenav" data-offset="10">
+    <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
+
+    <header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-flex-container">
+      
+        <a class="navbar-logo" href="/">Skylight</a>
+      
+      <div class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbar-nav-collapsible" aria-controls="navbar-nav-collapsible" aria-expanded="false">
+        <div class="burger"><span></span></div>
+        <span class="sr-only">Toggle Navigation</span>
+      </div>
+    </div>
+
+    <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Company</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/company/about/">About Us</a>
+            <a class="dropdown-item" href="/company/values/">Our Values</a>
+            <a class="dropdown-item" href="/company/press/">Press</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWork" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Work</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/work/services/">Our Services</a>
+            <a class="dropdown-item" href="/work/experience/">Our Experience</a>
+            <a class="dropdown-item" href="/work/toolkits/">Toolkits</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Careers</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/careers/join/">Join Us</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThoughts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Thoughts</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/thoughts/blog/">Blog</a>
+            <a class="dropdown-item" href="/thoughts/talks/">Talks</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConnect" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Connect</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/connect/contact/">Contact Us</a>
+            <a class="dropdown-item" href="/connect/contracting/">Contracting</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="content" tabindex="-1">
+      <div class="
+  
+    bg-blue
+   hero-banner"
+  
+    style="
+      background-image: url(/img/hero-toolkits.svg);
+      background-repeat: no-repeat;
+      background-size: cover;"
+  
+>
+<header class="hero hero-banner mb-5">
+  <div class="hero-container container-fluid text-center page--join__text">
+    <p class="hero-heading ">
+      
+        Managing Technical Debt Guide
+      
+    </p>
+    <p class="hero-content ">
+      
+        A guide on how to manage technical debt in software development projects.
+      
+    </p>
+  </div>
+</header>
+</div>
+
+<div class="container">
+  <div class="row d-flex">
+    <div class="sidenav col-12 col-md-3 order-2 order-md-1">
+      <div class="">
+        <nav class="subnav-col px-0 mt-4 mt-md-0" id="sidenav">
+          <ul>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/">Introduction</a>
+              </li>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/what-is-technical-debt/">What technical debt is</a>
+              </li>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/managing-technical-debt/">Managing technical debt</a>
+              </li>
+           
+              <li>
+                <a class="nav-link current" href="/work/toolkits/managing-technical-debt/preventing-technical-debt/">Preventing technical debt</a>
+              </li>
+           
+              <li>
+                <a class="nav-link " href="/work/toolkits/managing-technical-debt/resources/">Additional resources</a>
+              </li>
+           
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="col-12 col-md-9 page--toolkit text prose order-1 order-md-2 ">
+      <h1 id="preventing-technical-debt">Preventing technical debt</h1>
+
+<p>In the previous sections of this guide, we've talked mostly about how to deal with technical debt after the fact. So what can you do to minimize accumulating bad or unnecessary technical debt in the first place? Here are strategies aimed at preventing technical debt altogether.</p>
+
+<ul>
+  <li>
+    <p><strong>Embrace agile development methodologies</strong>. It's no secret that Skylight advocates for agile development methodologies. That's because agile offers a framework of proven process and technical practices (for example, frequent iterations, retrospectives, <a href="https://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a>, <a href="https://en.wikipedia.org/wiki/Code_refactoring">refactoring</a>, <a href="https://en.wikipedia.org/wiki/Test_automation">automated testing</a>, <a href="https://en.wikipedia.org/wiki/Extreme_programming_practices#Collective_code_ownership">collective code ownership</a>, <a href="https://18f.gsa.gov/2015/04/24/agile-developments-secret-weapon-transparency/">definition of done</a>, work-in-progress limits) for creating high-quality software and avoiding technical debt from the start.</p>
+  </li>
+  <li>
+    <p><strong>Give thoughtful consideration to the architecture</strong>. Choose languages, databases, and frameworks with careful consideration of the project needs, and consider the strengths and weaknesses of those choices. Make each of those decisions from modern, open-source, and stable projects. Changing these bigger decisions is expensive and hard.</p>
+  </li>
+  <li>
+    <p><strong>Use good software design practices</strong>. The best laid architecture choices are often insufficient to handle the unknowable future. For example, it may be necessary to extract services from a monolith, or switch databases for stability and consistency. The goal of good software design is to reduce the cost of change, whether that change is the addition of a feature or big architectural changes. Cross-language concepts like <a href="https://en.wikipedia.org/wiki/Loose_coupling">loose coupling</a>, <a href="https://en.wikipedia.org/wiki/Cohesion_%28computer_science%29">cohesion</a>, and <a href="http://martinfowler.com/bliki/Yagni.html">YAGNI</a> ("You Aren't Gonna Need It") help any project reduce debt. In addition, each programming paradigm has best practices with <a href="https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)">SOLID</a> design principles being applicable to <a href="http://programmers.stackexchange.com/questions/165356/equivalent-of-solid-principles-for-functional-programming">both functional and object oriented languages</a>.</p>
+  </li>
+  <li>
+    <p><strong>Understand user needs and conduct solution experiments</strong>. Don't get married to a technical solution or approach too quickly, particularly one that's complex and hard to reverse. Unfortunately, automated tools can't detect bad architecture decisions or technology choices. Take the time to understand user needs and to explore a range of solutions through experimentation or prototyping to arrive at an answer (referred to as a <a href="http://www.extremeprogramming.org/rules/spike.html">spike solution</a> in agile).</p>
+  </li>
+  <li>
+    <p><strong>Be prudent about incurring technical debt</strong>. Sometimes it's prudent to accept technical debt for short-term tactical reasons, but be sure it doesn't cause irreversible damage and you're prepared to pay it down in the future.</p>
+  </li>
+  <li>
+    <p><strong>Continuously inspect code quality</strong>. There are a number of tools for automatically analyzing the quality of your code and alerting you of potential hotspots (for example, coding standards violations or code duplications). Include these tools as part of your continuous integration strategy. Additionally, adopt pair-working practices such as <a href="https://en.wikipedia.org/wiki/Software_peer_review">peer code review</a> and <a href="https://18f.gsa.gov/2015/05/04/pair-programming-why-two-heads-are-better-than-one/">pair programming</a> as daily rituals. Finding and fixing problems immediately is the best insurance against the compounding effects of unpaid technical debt.</p>
+  </li>
+  <li>
+    <p><strong>Measure your technical debt</strong>. Measure your product's technical debt to provide early warning signs of potential problems. Track metrics for code quality, code coverage, velocity rates, defect rates, defect resolution rates, and others. Automated tools are good for some of these.</p>
+  </li>
+  <li>
+    <p><strong>Reducing technical debt should be part of your culture</strong>. As Scott Ambler <a href="https://disciplinedagiledelivery.wordpress.com/2013/11/10/technical-debt/">notes</a>, technical debt isn't going to fix itself. Encourage and empower developers to <a href="https://martinfowler.com/bliki/OpportunisticRefactoring.html">refactor code opportunistically</a>, always leaving the code better off than it was before. Create an environment in which developers and management collaborate together on controlling technical debt. This requires open, honest, and frequent lines of communication, as well as a shared understanding of the benefits of keeping technical debt in check. Sometimes simple refactorings won't be enough to reverse debt. For example, rewriting a backend component in a different programming language. This is a strategic decision that requires a high level of trust and transparency between developers and management.</p>
+  </li>
+</ul>
+
+<p>Congratulations, you've finished the guide! If you're interested in learning even more about how to manage technical debt effectively in your software development projects, please check out our <a href="/work/toolkits/managing-technical-debt/resources/">list of compiled resources</a>.</p>
+
+    </section>
+  </div>
+</div>
+
+<footer class="page-subfooter">
+  <div class="page-subfooter-content">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
+        <h2 class="header-display-2">Get expert answers.</h2>
+      </div>
+    </div>
+
+    <div class="page-subfooter-text-row">
+      <div class="page-subfooter-text-col">
+        <p>Have a question about something? Our experts love to share what they know. Drop us an email and we'll get you connected.</p>
+      </div>
+    </div>
+
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
+        <a href="mailto:communities@skylight.digital" role="button">
+          <span>Email Us</span>
+          <i class="fa fa-at" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    </main>
+
+    <footer class="footer">
+
+  <div class="footer-content">
+    <div class="footer-brand">
+      <a class="footer-brandmark">HUBZone Certified</a>
+    </div>
+
+    <nav class="footer-nav">
+      <div class="footer-link-groups">
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="/company/about/">About</a></li>
+              <li><a href="/company/values/">Values</a></li>
+              <li><a href="/company/press/">Press</a></li>
+              <li><a href="/company/policies/">Policies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Work</h2>
+            <ul>
+              <li><a href="/work/services/">Services</a></li>
+              <li><a href="/work/experience/">Experience</a></li>
+              <li><a href="/work/toolkits/">Toolkits</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Careers</h2>
+            <ul>
+              <li><a href="/careers/join/">Join</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Thoughts</h2>
+            <ul>
+              <li><a href="/thoughts/blog/">Blog</a></li>
+              <li><a href="/thoughts/talks/">Talks</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Connect</h2>
+            <ul>
+              <li><a href="/connect/contact/">Contact</a></li>
+              <li><a href="/connect/contracting/">Contracting</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93543424-1"></script>
+<script>
+  if (!/^localhost/.test(location.host)) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-93543424-1');
+  }
+</script>
+  </body>
+
+</html>

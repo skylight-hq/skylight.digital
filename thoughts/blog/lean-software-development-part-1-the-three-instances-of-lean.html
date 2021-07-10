@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="versionNum" content="523">
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  <title>Skylight - Digital Government Consulting | Lean software development, part 1: The three instances of lean</title>
+  <meta name="description" content="Lean software development is an underutilized alternative to agile in the toolbox of modern software development methodologies. Here we discuss what it is and how it differs from lean startup and lean product development.">
+  <meta name="keywords" content="engineering, product, sean johnson">
+  <meta name="image" content="https://skylight.digital/img/blog/lean_software_development/starting-point.png">
+
+  
+    <meta name="author" content="Sean Johnson">
+  
+
+  <meta name="date" content="2021-04-18">
+  <link rel="image_src" href="https://skylight.digital/img/blog/lean_software_development/starting-point.png">
+  <link rel="canonical" href="https://skylight.digital/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean">
+
+  <meta property="og:site_name" content="Skylight">
+  <meta property="og:title" content="Skylight - Digital Government Consulting | Lean software development, part 1: The three instances of lean">
+  <meta property="og:description" content="Lean software development is an underutilized alternative to agile in the toolbox of modern software development methodologies. Here we discuss what it is and how it differs from lean startup and lean product development.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skylight.digital/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean">
+  <meta property="og:image" content="https://skylight.digital/img/blog/lean_software_development/starting-point.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@skylight_hq">
+  <meta name="twitter:site" content="@skylight_hq">
+  <meta name="twitter:title" content="Skylight - Digital Government Consulting | Lean software development, part 1: The three instances of lean">
+  <meta name="twitter:description" content="Lean software development is an underutilized alternative to agile in the toolbox of modern software development methodologies. Here we discuss what it is and how it differs from lean startup and lean product development.">
+  <meta name="twitter:image" content="https://skylight.digital/img/blog/lean_software_development/starting-point.png?100681707">
+  <meta name="twitter:image:alt" content="Two people looking at a huge mobile map application that's showing a "You are here" waypoint.">
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://skylight.digital",
+      "name": "Skylight - Digital Government Consulting",
+      "description": "Skylight is a digital consultancy using design and technology to help government agencies deliver better public services.",
+      "keywords": "digital consulting, digital government, digital transformation, digital services",
+      "datePublished": "2017-06-18",
+      "dateModified": "2020-05-29"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    { "@context": "http://schema.org",
+     "@type": "Organization",
+     "name": "Skylight",
+     "legalName": "Skylight Inc.",
+     "url": "https://skylight.digital",
+     "logo": {
+       "@type": "ImageObject",
+       "url": "https://skylight.digital/img/logo.png",
+       "height": "200",
+       "width": "50"
+     },
+     "foundingDate": "2017",
+     "founders": [
+        { "@type": "Person", "name": "Chris Cairns" }
+      ],
+     "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Sarasota",
+       "addressRegion": "FL",
+       "postalCode": "34236",
+       "addressCountry": "USA"
+     },
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "sales",
+       "telephone": "267-228-1390",
+       "email": "hello@skylight.digital"
+     },
+     "sameAs": [
+       "https://twitter.com/skylight_hq",
+       "https://github.com/skylight-hq",
+       "https://www.linkedin.com/company/skylight-hq"
+     ]
+    }
+  </script>
+
+  
+    
+    
+    
+
+    <script type="application/ld+json">
+      { "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://skylight.digital/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean"
+        },
+        "headline": "Skylight - Digital Government Consulting | Lean software development, part 1: The three instances of lean",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://skylight.digital/img/blog/lean_software_development/starting-point.png",
+          "height": "400",
+          "width": "400"
+        },
+        "author": [
+          
+            { "@type": "Person", "name": "Sean Johnson" }
+          
+        ],
+        
+        "keywords": "engineering, product, sean johnson",
+        "wordcount": "1794",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Skylight",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://skylight.digital/img/logo.png",
+            "height": "200",
+            "width": "50"
+          }
+        },
+        "datePublished": "2021-04-18",
+        "dateModified": "2021-04-18",
+        "description": "Lean software development is an underutilized alternative to agile in the toolbox of modern software development methodologies. Here we discuss what it is and how it differs from lean startup and lean product development.",
+        "articleBody": "&lt;p&gt;You've done the hard work of a modern day hero. You disbanded the cult of waterfall and led your intrepid party to the summit of Mt. Agile. There, at the top, you slayed the Scylla of Scrum and exorcised the demon of DevOps. But what if you now discover &lt;strong&gt;there's another approach to software development you never even considered&lt;/strong&gt;?&lt;/p&gt;&lt;p&gt;Rest easy tired hero. There's a good chance that if you're doing agile software development well, then all is right in your IT kingdom.&lt;/p&gt;&lt;p&gt;Of course, it's healthy to challenge assumptions, and few are more sacrosanct than the assumption that agile software development is the one true way. It turns out there's another path we can take; it leads to a nearby mountain, and we should consider its merits. That path is &lt;strong&gt;lean software development&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;I must confess, I had an unfair advantage when I began using lean software development. The advantage? I'm old. Let me amend that: I'm a wise sage, here to offer guidance.&lt;/p&gt;&lt;p&gt;My journey began in the 1990s when I learned about &lt;a href=&quot;https://en.wikipedia.org/wiki/Theory_of_constraints&quot;&gt;theory of constraints&lt;/a&gt;, used in manufacturing. This theory holds that processes, organizations, etc., are vulnerable because the least efficient process constrains the outcome. It affirms the idiom that a chain is no stronger than its weakest link. By the early 2000s, everyone recognized the problems with &lt;a href=&quot;https://en.wikipedia.org/wiki/Waterfall_model&quot;&gt;waterfall software development&lt;/a&gt;, but agile was not yet the juggernaut it is today. I wondered if anyone was using ideas from theory of constraints to develop software. There were attempts to apply theory of constraints to project management, and I discovered that the people most influenced by these advances in manufacturing were defining the practice of lean software development.&lt;/p&gt;&lt;p&gt;I've now been developing software for 30 years, and I've spent the last 10 years leading teams using both lean software development and agile software development methods. Through this work, I've gained a deep understanding of the benefits of agile and lean, and the context in which each of these different approaches excels.&lt;/p&gt;&lt;p&gt;In this three part series I'm going to share what I've learned so you can identify when you should be using elements of lean software development. But first, we need to address a terminology issue.&lt;/p&gt;&lt;p&gt;The term &quot;lean&quot; is frequently used in information technology, but it doesn't mean much on its own because we use &quot;lean&quot; to talk about three different things: lean &lt;em&gt;startups&lt;/em&gt;, lean &lt;em&gt;product development&lt;/em&gt;, and lean &lt;em&gt;software development&lt;/em&gt;. Though they share common historical inspiration, these three uses of &quot;lean&quot; don't have much to do with each other and are independent ideas and practices.&lt;/p&gt;&lt;h2 id=&quot;a-brief-history-of-lean&quot;&gt;A brief history of &quot;lean&quot;&lt;/h2&gt;&lt;p&gt;&quot;Lean&quot; as a specific technical term originates in the article, &quot;Triumph of the Lean Production System,&quot; by John Krafcik in 1988. John studied and described the evolution of manufacturing at Toyota from the 1930s to the 1980s and called the end result, in English, &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_manufacturing&quot;&gt;lean manufacturing&lt;/a&gt;, which also became known as lean production and eventually just lean.&lt;/p&gt;&lt;p&gt;In this technical use, &quot;lean&quot; means &lt;strong&gt;doing more with less&lt;/strong&gt;. That's to say doing more with fewer people, less effort, in a shorter time, in less space, without spare inventory, with less waste along the way, and ultimately with far less money.&lt;/p&gt;&lt;p&gt;Lean manufacturing introduced several key solutions to the problems faced in manufacturing:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Clear identification of what the customer values&lt;/li&gt;  &lt;li&gt;Mapping of all the steps that create customer value&lt;/li&gt;  &lt;li&gt;Treatment of any steps that don't directly create customer value as waste&lt;/li&gt;  &lt;li&gt;Flow between steps (or pull), rather than pushing inventory from step to step&lt;/li&gt;  &lt;li&gt;Just-in-time inventory&lt;/li&gt;  &lt;li&gt;Batch size reduction&lt;/li&gt;  &lt;li&gt;Continuous improvement until perfection (for example, batch size of 1, no waste)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Lean manufacturing wasn't just influential to manufacturers: the ideas quickly spread to other systems thinkers, and had a profound influence on &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Toyota_Way&quot;&gt;The Toyota Way&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Six_Sigma&quot;&gt;Six Sigma&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Theory_of_constraints&quot;&gt;theory of constraints&lt;/a&gt;. Most importantly for our purposes here, many of the principles of lean manufacturing can be applied to the creation of software using &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_software_development&quot;&gt;lean software development&lt;/a&gt;.&lt;/p&gt;&lt;h3 id=&quot;but-what-do-you-mean-by-lean&quot;&gt;But, what do you mean by lean?&lt;/h3&gt;&lt;p&gt;I encourage people not to use &quot;lean&quot; on its own. It's too easy for your audience to be thinking about something completely different than what you're intending to say. If you're talking about lean software development, say so, don't just say lean.&lt;/p&gt;&lt;p&gt;To communicate clearly about lean software development, we need to clarify what we're &lt;em&gt;not&lt;/em&gt; talking about. We don't mean a lean &lt;em&gt;startup&lt;/em&gt; or lean &lt;em&gt;product development&lt;/em&gt;.&lt;/p&gt;&lt;h2 id=&quot;the-lean-startup&quot;&gt;The lean startup&lt;/h2&gt;&lt;p&gt;The lean startup developed as an answer to the challenge of the bursting of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Dot-com_bubble&quot;&gt;dot-com bubble&lt;/a&gt; in the late 1990s. The internet bubble was created by too much investor money flowing into startups that didn't have a viable business model.&lt;/p&gt;&lt;p&gt;After the damage was done and the rubble was cleared, several influential thinkers began to deconstruct the source of so many non-viable startups. Alexander Osterwalder wrote a paper on business model validation in 2004, and turned it into the book, &lt;em&gt;&lt;a href=&quot;https://www.strategyzer.com/books&quot;&gt;Business Model Generation: A Handbook for Visionaries, Game Changers and Challengers&lt;/a&gt;&lt;/em&gt;, in 2010.&lt;/p&gt;&lt;p&gt;It was Steve Blank in 2005 that gave the lean startup most of its terminology, including &quot;customer development,&quot; when he wrote his deconstruction of the bubble and prescription for change in, &lt;em&gt;&lt;a href=&quot;https://www.wiley.com/en-us/The+Four+Steps+to+the+Epiphany%3A+Successful+Strategies+for+Products+that+Win-p-9781119690375&quot;&gt;The Four Steps to the Epiphany: Successful Strategies that Win&lt;/a&gt;&lt;/em&gt;,_ _in 2005.&lt;/p&gt;&lt;p&gt;More recently, Eric Ries codified the current practices of the lean startup in 2011 with the best seller, &lt;em&gt;&lt;a href=&quot;http://theleanstartup.com/&quot;&gt;The Lean Startup: How Today's Entrepreneurs Use Continuous Improvement to Create Radically Successful Businesses&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;The primary goal of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_startup&quot;&gt;lean startup method&lt;/a&gt; is to create a viable business.&lt;/p&gt;&lt;p&gt;The lean startup introduced several key solutions to the problems early startups face:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Exceptional clarity about the hypothesized business model with a business model canvas&lt;/li&gt;  &lt;li&gt;Experimenting with minimally-viable products&lt;/li&gt;  &lt;li&gt;Focus on the rate of validated learning&lt;/li&gt;  &lt;li&gt;Data-driven decision making and actionable metrics&lt;/li&gt;  &lt;li&gt;A very short and iterative Build-Measure-Learn cycle&lt;/li&gt;  &lt;li&gt;Pivoting the business based on what's learned&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The key difference from lean software development is that &lt;strong&gt;lean startup is a method for developing a viable business&lt;/strong&gt;, not a process for building software.&lt;/p&gt;&lt;h2 id=&quot;lean-product-development&quot;&gt;Lean product development&lt;/h2&gt;&lt;p&gt;After World War II, Japan rebuilt its economy around excellence in manufacturing, but by the 1980s they hit a wall. Despite world-class-manufacturing capabilities, profitably-satisfying demand for manufactured goods was no longer the fundamental issue. The barrier to future growth of Japanese companies was generating more worldwide demand for their products, and, for that, they needed more desirable products.&lt;/p&gt;&lt;p&gt;To create better products, Japanese companies took many of the core principles of lean manufacturing and adapted them for product development. The most obvious example of this was the &lt;a href=&quot;https://www.shmula.com/the-toyota-product-development-system/344/&quot;&gt;Toyota Product Development System&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;It took time before these ideas spread, but some seminal books in the 2000s brought them to a wider audience. In 2004, Jeremy Liker wrote, &lt;em&gt;&lt;a href=&quot;https://evolvingagile.wordpress.com/2015/11/18/book-review-the-toyota-way/&quot;&gt;The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer&lt;/a&gt;&lt;/em&gt;, and in 2006 he wrote, &lt;em&gt;&lt;a href=&quot;https://www.mudamasters.com/en/lean-production/toyota-product-development-system-jmmorgan-jkliker-summary&quot;&gt;The Toyota Product Development System: Integrating People, Process And Technology&lt;/a&gt;&lt;/em&gt;, with co-writer James Morgan.&lt;/p&gt;&lt;p&gt;Later, in 2009, Donald G. Reinersten wrote the very actionable guide, &lt;em&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/6278270-the-principles-of-product-development-flow&quot;&gt;The Principles of Product Development Flow: Second Generation Lean Product Development&lt;/a&gt;&lt;/em&gt;, putting these practices into the hands of more product developers.&lt;/p&gt;&lt;p&gt;Lean product development provides techniques to get at and solve the core of a customer's problem with a viable product solution:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Coming up with many alternatives, then rapidly exploring and testing them&lt;/li&gt;  &lt;li&gt;A focus on learning first through rapid learning cycles and deliberately closing knowledge gaps&lt;/li&gt;  &lt;li&gt;Extensive user research and listening to the voice of the customer&lt;/li&gt;  &lt;li&gt;Value-stream mapping&lt;/li&gt;  &lt;li&gt;Autonomous, empowered, and cross-functional product teams&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The key difference from lean software development is that &lt;strong&gt;lean product development is a method for creating innovative products&lt;/strong&gt;, not a process for building software.&lt;/p&gt;&lt;h2 id=&quot;lean-software-development&quot;&gt;Lean software development&lt;/h2&gt;&lt;p&gt;Lean software development is an answer to a very specific challenge: How can we deliver software into production, with maximal time-to-market and profitability, in situations of certainty about what's needed?&lt;/p&gt;&lt;p&gt;Some smart software developers that faced this challenge realized how analogous the situation is to the manufacturing of physical products. An industrial engineer knows what they're manufacturing — their primary challenge is to maximize manufacturing profitability. The best approach to use is lean manufacturing.&lt;/p&gt;&lt;p&gt;Lean software development was born out of this analogy and the idea that the challenges of manufacturing physical products and software creation are similar. In 2003 Mary and Tom Poppendieck wrote, &lt;em&gt;&lt;a href=&quot;https://www.pearson.com/us/higher-education/program/Poppendieck-Lean-Software-Development-An-Agile-Toolkit/PGM73091.html&quot;&gt;Lean Software Development: An Agile Toolkit&lt;/a&gt;&lt;/em&gt;, and in 2006 they wrote &lt;em&gt;&lt;a href=&quot;https://www.pearson.com/us/higher-education/program/Poppendieck-Implementing-Lean-Software-Development-From-Concept-to-Cash/PGM94555.html&quot;&gt;Implementing Lean Software Development: From Concept to Cash&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Lean software development is a process to deliver &lt;em&gt;known value&lt;/em&gt; as quickly and profitably as possible:&lt;/p&gt;&lt;ul&gt;  &lt;li&gt;Constantly ask, &quot;Are users getting value from this yet?&quot;&lt;/li&gt;  &lt;li&gt;Map the value-creation stream&lt;/li&gt;  &lt;li&gt;Limit the amount of &lt;a href=&quot;https://en.wikipedia.org/wiki/Work_in_process&quot;&gt;work in progress&lt;/a&gt; (WIP)&lt;/li&gt;  &lt;li&gt;Reduce waste in the process&lt;/li&gt;  &lt;li&gt;Individual busyness isn't a goal; optimize for the output of software into production&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Unlike lean startups and lean product development, &lt;strong&gt;lean software development is a method for building software when time-to-value and waste reduction are the greatest risks to be managed&lt;/strong&gt;.&lt;/p&gt;&lt;h2 id=&quot;but-arent-agile-and-lean-the-same-thing&quot;&gt;But aren't agile and lean the same thing?&lt;/h2&gt;&lt;p&gt;No, they're not! I'm glad I pretended you asked. These terms are used loosely, but agile software development and lean software development are different answers to &lt;strong&gt;fundamentally different risks&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Agile software development is a process to manage the risk of spending too much time building the wrong thing. Lean software development is a process to manage the risk of using time and money inefficiently when delivering software for well understood problems.&lt;/p&gt;&lt;h3 id=&quot;so-should-you-be-agile-or-lean&quot;&gt;So should you be agile or lean?&lt;/h3&gt;&lt;p&gt;Because we unpacked the term lean, and made it clear what lean software development is and is not, you're now better prepared to consider these two approaches to software development and to answer the question of agile or lean for your own team and projects.&lt;/p&gt;&lt;p&gt;Of the three instances of lean we described, lean software development is the odd duck. It's more directly derivative of lean manufacturing than either lean startup or lean product development, and the three lean approaches don't go together very well. As a lean startup, using lean product development, you're more likely to use agile software development than lean software development.&lt;/p&gt;&lt;p&gt;So which software development approach should you be using? That's an important question, and it's the focus of the next post in this blog series. I'll explain the challenges that led to the creation of agile and lean software development, where they overlap, and how they're different. Most importantly, I'll provide clear guidance on when you should focus on each approach. Then, in the last post in this series, I'll give you practical steps and advice for putting lean software development into practice when it's the right approach.&lt;/p&gt;"
+      }
+    </script>
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba">
+  <meta name="apple-mobile-web-app-title" content="Skylight">
+  <meta name="application-name" content="Skylight">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.css?1625934723865736103" type="text/css">
+  
+  <script src="/js/jquery.slim.min.js"></script>
+  <script src="/js/tether.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.scrolldepth.min.js"></script>
+  <script src="/js/pagination.min.js"></script>
+  <script src="/js/script.js?v=7"></script>
+
+  
+  
+    
+  
+
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body class="page-lean-software-development-part-1-the-three-instances-of-lean page-thoughts-blog-lean-software-development-part-1-the-three-instances-of-lean" data-spy="scroll" data-target="#sidenav" data-offset="10">
+    <a href="#content" class="sr-only sr-only-focusable">Skip to Main Content</a>
+
+    <header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-flex-container">
+      
+        <a class="navbar-logo" href="/">Skylight</a>
+      
+      <div class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbar-nav-collapsible" aria-controls="navbar-nav-collapsible" aria-expanded="false">
+        <div class="burger"><span></span></div>
+        <span class="sr-only">Toggle Navigation</span>
+      </div>
+    </div>
+
+    <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCompany" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Company</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/company/about/">About Us</a>
+            <a class="dropdown-item" href="/company/values/">Our Values</a>
+            <a class="dropdown-item" href="/company/press/">Press</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWork" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Work</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/work/services/">Our Services</a>
+            <a class="dropdown-item" href="/work/experience/">Our Experience</a>
+            <a class="dropdown-item" href="/work/toolkits/">Toolkits</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Careers</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/careers/join/">Join Us</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThoughts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Thoughts</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/thoughts/blog/">Blog</a>
+            <a class="dropdown-item" href="/thoughts/talks/">Talks</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConnect" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Connect</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/connect/contact/">Contact Us</a>
+            <a class="dropdown-item" href="/connect/contracting/">Contracting</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="content" tabindex="-1">
+      <article class="post">
+
+  <div class="post-row">
+    <div class="post-col">
+      <header class="post-header">
+        <h1 class="post-title header-display-2">Lean software development, part 1: The three instances of lean</h1>
+        <p class="post-byline">
+          By:
+
+
+  
+  
+  <span class="post-author">
+    
+      <a href="/company/about/#sean-johnson">Sean Johnson</a>
+    
+  </span>
+  
+  
+
+
+          <span class="post-date">
+            Updated:
+            <time datetime="2021-04-18T00:00:00+00:00">
+              April 18, 2021
+            </time>
+          </span>
+        </p>
+        
+          <img class="post-feature-img" src="/img/blog/lean_software_development/starting-point.svg" alt="Two people looking at a huge mobile map application that's showing a "You are here" waypoint." title="Two people looking at a huge mobile map application that's showing a "You are here" waypoint.">
+        
+      </header>
+
+      <div class="post-content prose">
+        <p>You've done the hard work of a modern day hero. You disbanded the cult of waterfall and led your intrepid party to the summit of Mt. Agile. There, at the top, you slayed the Scylla of Scrum and exorcised the demon of DevOps. But what if you now discover <strong>there's another approach to software development you never even considered</strong>?</p>
+
+<p>Rest easy tired hero. There's a good chance that if you're doing agile software development well, then all is right in your IT kingdom.</p>
+
+<p>Of course, it's healthy to challenge assumptions, and few are more sacrosanct than the assumption that agile software development is the one true way. It turns out there's another path we can take; it leads to a nearby mountain, and we should consider its merits. That path is <strong>lean software development</strong>.</p>
+
+<p>I must confess, I had an unfair advantage when I began using lean software development. The advantage? I'm old. Let me amend that: I'm a wise sage, here to offer guidance.</p>
+
+<p>My journey began in the 1990s when I learned about <a href="https://en.wikipedia.org/wiki/Theory_of_constraints">theory of constraints</a>, used in manufacturing. This theory holds that processes, organizations, etc., are vulnerable because the least efficient process constrains the outcome. It affirms the idiom that a chain is no stronger than its weakest link. By the early 2000s, everyone recognized the problems with <a href="https://en.wikipedia.org/wiki/Waterfall_model">waterfall software development</a>, but agile was not yet the juggernaut it is today. I wondered if anyone was using ideas from theory of constraints to develop software. There were attempts to apply theory of constraints to project management, and I discovered that the people most influenced by these advances in manufacturing were defining the practice of lean software development.</p>
+
+<p>I've now been developing software for 30 years, and I've spent the last 10 years leading teams using both lean software development and agile software development methods. Through this work, I've gained a deep understanding of the benefits of agile and lean, and the context in which each of these different approaches excels.</p>
+
+<p>In this three part series I'm going to share what I've learned so you can identify when you should be using elements of lean software development. But first, we need to address a terminology issue.</p>
+
+<p>The term "lean" is frequently used in information technology, but it doesn't mean much on its own because we use "lean" to talk about three different things: lean <em>startups</em>, lean <em>product development</em>, and lean <em>software development</em>. Though they share common historical inspiration, these three uses of "lean" don't have much to do with each other and are independent ideas and practices.</p>
+
+<h2 id="a-brief-history-of-lean">A brief history of "lean"</h2>
+
+<p>"Lean" as a specific technical term originates in the article, "Triumph of the Lean Production System," by John Krafcik in 1988. John studied and described the evolution of manufacturing at Toyota from the 1930s to the 1980s and called the end result, in English, <a href="https://en.wikipedia.org/wiki/Lean_manufacturing">lean manufacturing</a>, which also became known as lean production and eventually just lean.</p>
+
+<p>In this technical use, "lean" means <strong>doing more with less</strong>. That's to say doing more with fewer people, less effort, in a shorter time, in less space, without spare inventory, with less waste along the way, and ultimately with far less money.</p>
+
+<p>Lean manufacturing introduced several key solutions to the problems faced in manufacturing:</p>
+
+<ul>
+  <li>Clear identification of what the customer values</li>
+  <li>Mapping of all the steps that create customer value</li>
+  <li>Treatment of any steps that don't directly create customer value as waste</li>
+  <li>Flow between steps (or pull), rather than pushing inventory from step to step</li>
+  <li>Just-in-time inventory</li>
+  <li>Batch size reduction</li>
+  <li>Continuous improvement until perfection (for example, batch size of 1, no waste)</li>
+</ul>
+
+<p>Lean manufacturing wasn't just influential to manufacturers: the ideas quickly spread to other systems thinkers, and had a profound influence on <a href="https://en.wikipedia.org/wiki/The_Toyota_Way">The Toyota Way</a>, <a href="https://en.wikipedia.org/wiki/Six_Sigma">Six Sigma</a>, and <a href="https://en.wikipedia.org/wiki/Theory_of_constraints">theory of constraints</a>. Most importantly for our purposes here, many of the principles of lean manufacturing can be applied to the creation of software using <a href="https://en.wikipedia.org/wiki/Lean_software_development">lean software development</a>.</p>
+
+<h3 id="but-what-do-you-mean-by-lean">But, what do you mean by lean?</h3>
+
+<p>I encourage people not to use "lean" on its own. It's too easy for your audience to be thinking about something completely different than what you're intending to say. If you're talking about lean software development, say so, don't just say lean.</p>
+
+<p>To communicate clearly about lean software development, we need to clarify what we're <em>not</em> talking about. We don't mean a lean <em>startup</em> or lean <em>product development</em>.</p>
+
+<h2 id="the-lean-startup">The lean startup</h2>
+
+<p>The lean startup developed as an answer to the challenge of the bursting of the <a href="https://en.wikipedia.org/wiki/Dot-com_bubble">dot-com bubble</a> in the late 1990s. The internet bubble was created by too much investor money flowing into startups that didn't have a viable business model.</p>
+
+<p>After the damage was done and the rubble was cleared, several influential thinkers began to deconstruct the source of so many non-viable startups. Alexander Osterwalder wrote a paper on business model validation in 2004, and turned it into the book, <em><a href="https://www.strategyzer.com/books">Business Model Generation: A Handbook for Visionaries, Game Changers and Challengers</a></em>, in 2010.</p>
+
+<p>It was Steve Blank in 2005 that gave the lean startup most of its terminology, including "customer development," when he wrote his deconstruction of the bubble and prescription for change in, <em><a href="https://www.wiley.com/en-us/The+Four+Steps+to+the+Epiphany%3A+Successful+Strategies+for+Products+that+Win-p-9781119690375">The Four Steps to the Epiphany: Successful Strategies that Win</a></em>,_ _in 2005.</p>
+
+<p>More recently, Eric Ries codified the current practices of the lean startup in 2011 with the best seller, <em><a href="http://theleanstartup.com/">The Lean Startup: How Today's Entrepreneurs Use Continuous Improvement to Create Radically Successful Businesses</a></em>.</p>
+
+<p>The primary goal of the <a href="https://en.wikipedia.org/wiki/Lean_startup">lean startup method</a> is to create a viable business.</p>
+
+<p>The lean startup introduced several key solutions to the problems early startups face:</p>
+
+<ul>
+  <li>Exceptional clarity about the hypothesized business model with a business model canvas</li>
+  <li>Experimenting with minimally-viable products</li>
+  <li>Focus on the rate of validated learning</li>
+  <li>Data-driven decision making and actionable metrics</li>
+  <li>A very short and iterative Build-Measure-Learn cycle</li>
+  <li>Pivoting the business based on what's learned</li>
+</ul>
+
+<p>The key difference from lean software development is that <strong>lean startup is a method for developing a viable business</strong>, not a process for building software.</p>
+
+<h2 id="lean-product-development">Lean product development</h2>
+
+<p>After World War II, Japan rebuilt its economy around excellence in manufacturing, but by the 1980s they hit a wall. Despite world-class-manufacturing capabilities, profitably-satisfying demand for manufactured goods was no longer the fundamental issue. The barrier to future growth of Japanese companies was generating more worldwide demand for their products, and, for that, they needed more desirable products.</p>
+
+<p>To create better products, Japanese companies took many of the core principles of lean manufacturing and adapted them for product development. The most obvious example of this was the <a href="https://www.shmula.com/the-toyota-product-development-system/344/">Toyota Product Development System</a>.</p>
+
+<p>It took time before these ideas spread, but some seminal books in the 2000s brought them to a wider audience. In 2004, Jeremy Liker wrote, <em><a href="https://evolvingagile.wordpress.com/2015/11/18/book-review-the-toyota-way/">The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer</a></em>, and in 2006 he wrote, <em><a href="https://www.mudamasters.com/en/lean-production/toyota-product-development-system-jmmorgan-jkliker-summary">The Toyota Product Development System: Integrating People, Process And Technology</a></em>, with co-writer James Morgan.</p>
+
+<p>Later, in 2009, Donald G. Reinersten wrote the very actionable guide, <em><a href="https://www.goodreads.com/book/show/6278270-the-principles-of-product-development-flow">The Principles of Product Development Flow: Second Generation Lean Product Development</a></em>, putting these practices into the hands of more product developers.</p>
+
+<p>Lean product development provides techniques to get at and solve the core of a customer's problem with a viable product solution:</p>
+
+<ul>
+  <li>Coming up with many alternatives, then rapidly exploring and testing them</li>
+  <li>A focus on learning first through rapid learning cycles and deliberately closing knowledge gaps</li>
+  <li>Extensive user research and listening to the voice of the customer</li>
+  <li>Value-stream mapping</li>
+  <li>Autonomous, empowered, and cross-functional product teams</li>
+</ul>
+
+<p>The key difference from lean software development is that <strong>lean product development is a method for creating innovative products</strong>, not a process for building software.</p>
+
+<h2 id="lean-software-development">Lean software development</h2>
+
+<p>Lean software development is an answer to a very specific challenge: How can we deliver software into production, with maximal time-to-market and profitability, in situations of certainty about what's needed?</p>
+
+<p>Some smart software developers that faced this challenge realized how analogous the situation is to the manufacturing of physical products. An industrial engineer knows what they're manufacturing — their primary challenge is to maximize manufacturing profitability. The best approach to use is lean manufacturing.</p>
+
+<p>Lean software development was born out of this analogy and the idea that the challenges of manufacturing physical products and software creation are similar. In 2003 Mary and Tom Poppendieck wrote, <em><a href="https://www.pearson.com/us/higher-education/program/Poppendieck-Lean-Software-Development-An-Agile-Toolkit/PGM73091.html">Lean Software Development: An Agile Toolkit</a></em>, and in 2006 they wrote <em><a href="https://www.pearson.com/us/higher-education/program/Poppendieck-Implementing-Lean-Software-Development-From-Concept-to-Cash/PGM94555.html">Implementing Lean Software Development: From Concept to Cash</a></em>.</p>
+
+<p>Lean software development is a process to deliver <em>known value</em> as quickly and profitably as possible:</p>
+
+<ul>
+  <li>Constantly ask, "Are users getting value from this yet?"</li>
+  <li>Map the value-creation stream</li>
+  <li>Limit the amount of <a href="https://en.wikipedia.org/wiki/Work_in_process">work in progress</a> (WIP)</li>
+  <li>Reduce waste in the process</li>
+  <li>Individual busyness isn't a goal; optimize for the output of software into production</li>
+</ul>
+
+<p>Unlike lean startups and lean product development, <strong>lean software development is a method for building software when time-to-value and waste reduction are the greatest risks to be managed</strong>.</p>
+
+<h2 id="but-arent-agile-and-lean-the-same-thing">But aren't agile and lean the same thing?</h2>
+
+<p>No, they're not! I'm glad I pretended you asked. These terms are used loosely, but agile software development and lean software development are different answers to <strong>fundamentally different risks</strong>.</p>
+
+<p>Agile software development is a process to manage the risk of spending too much time building the wrong thing. Lean software development is a process to manage the risk of using time and money inefficiently when delivering software for well understood problems.</p>
+
+<h3 id="so-should-you-be-agile-or-lean">So should you be agile or lean?</h3>
+
+<p>Because we unpacked the term lean, and made it clear what lean software development is and is not, you're now better prepared to consider these two approaches to software development and to answer the question of agile or lean for your own team and projects.</p>
+
+<p>Of the three instances of lean we described, lean software development is the odd duck. It's more directly derivative of lean manufacturing than either lean startup or lean product development, and the three lean approaches don't go together very well. As a lean startup, using lean product development, you're more likely to use agile software development than lean software development.</p>
+
+<p>So which software development approach should you be using? That's an important question, and it's the focus of the next post in this blog series. I'll explain the challenges that led to the creation of agile and lean software development, where they overlap, and how they're different. Most importantly, I'll provide clear guidance on when you should focus on each approach. Then, in the last post in this series, I'll give you practical steps and advice for putting lean software development into practice when it's the right approach.</p>
+
+      </div>
+
+      <footer class="post-footer">
+        
+
+        
+          <div class="post-tags">
+            
+              <a href="/thoughts/blog/tag/engineering/" class="tag-badge">engineering</a>
+            
+              <a href="/thoughts/blog/tag/product/" class="tag-badge">product</a>
+            
+              <a href="/thoughts/blog/tag/sean-johnson/" class="tag-badge">sean johnson</a>
+            
+          </div>
+        
+
+        <div class="post-share">
+          
+          
+          
+
+          
+          
+
+          <div>
+            <a href=" https://twitter.com/intent/tweet?url=https://skylight.digital/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean&text=Lean+software+development%2C+part+1%3A+The+three+instances+of+lean&via=skylight_hq " role="button">
+              <i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
+              Share on Twitter
+            </a>
+          </div>
+
+          <div>
+            <a href=" https://www.linkedin.com/shareArticle?mini=true&url=https://skylight.digital/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean " role="button">
+              <i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+              Share on LinkedIn
+            </a>
+          </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+            
+            
+            
+            
+          
+        
+          
+
+          
+
+          
+            
+            
+            
+            
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+          
+
+          
+
+          
+        
+
+        
+          <div class="post-related">
+            <h3>Related blog posts</h3>
+            <ul> <li><a href="/thoughts/blog/key-trends-in-mobile-app-development-part-1-the-trends/">Key trends in mobile app development, part 1: The trends</a></li>  <li><a href="/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/">Key trends in mobile app development, part 2: Making sense of the trends</a></li> </ul>
+          </div>
+        
+      </footer>
+
+    </div>
+  </div>
+
+</article>
+
+
+<footer class="page-subfooter">
+  <div class="page-subfooter-content">
+    <div class="page-subfooter-header-row">
+      <div class="page-subfooter-header-col">
+        <h2 class="header-display-2">Let's deliver together.</h2>
+      </div>
+    </div>
+
+    <div class="page-subfooter-text-row">
+      <div class="page-subfooter-text-col">
+        <p>However bold the idea or complex the problem, we work with you to deliver results in weeks, not years.</p>
+      </div>
+    </div>
+
+    <div class="page-subfooter-cta-row">
+      <div class="page-subfooter-cta-col">
+        <a href="/connect/contact/" role="button">
+          <span>Contact Us</span>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    </main>
+
+    <footer class="footer">
+
+  <div class="footer-content">
+    <div class="footer-brand">
+      <a class="footer-brandmark">HUBZone Certified</a>
+    </div>
+
+    <nav class="footer-nav">
+      <div class="footer-link-groups">
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="/company/about/">About</a></li>
+              <li><a href="/company/values/">Values</a></li>
+              <li><a href="/company/press/">Press</a></li>
+              <li><a href="/company/policies/">Policies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Work</h2>
+            <ul>
+              <li><a href="/work/services/">Services</a></li>
+              <li><a href="/work/experience/">Experience</a></li>
+              <li><a href="/work/toolkits/">Toolkits</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Careers</h2>
+            <ul>
+              <li><a href="/careers/join/">Join</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Thoughts</h2>
+            <ul>
+              <li><a href="/thoughts/blog/">Blog</a></li>
+              <li><a href="/thoughts/talks/">Talks</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-link-group">
+          <div class="footer-links">
+            <h2>Connect</h2>
+            <ul>
+              <li><a href="/connect/contact/">Contact</a></li>
+              <li><a href="/connect/contracting/">Contracting</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93543424-1"></script>
+<script>
+  if (!/^localhost/.test(location.host)) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-93543424-1');
+  }
+</script>
+  </body>
+
+</html>
