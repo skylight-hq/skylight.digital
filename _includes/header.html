@@ -2,9 +2,9 @@
   <nav class="navbar">
     <div class="navbar-flex-container">
       {% if page.title == "Home" %}
-      <h1><a class="navbar-logo" href="/">Skylight</a></h1>
+      <h1><a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a></h1>
       {% else %}
-      <a class="navbar-logo" href="/">Skylight</a>
+      <a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a>
       {% endif %}
       <div
         class="navbar-toggler"
@@ -34,9 +34,9 @@
             <span>Company</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/company/about/">About us</a>
-            <a class="dropdown-item" href="/company/values/">Our values</a>
-            <a class="dropdown-item" href="/company/press/">Press</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/company/about/">About us</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/company/values/">Our values</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/company/press/">Press</a>
           </div>
         </li>
         <li class="nav-item nav-item--work dropdown">
@@ -52,9 +52,9 @@
             <span>Work</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/work/services/">Our services</a>
-            <a class="dropdown-item" href="/work/experience/">Our experience</a>
-            <a class="dropdown-item" href="/work/toolkits/">Toolkits</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/work/services/">Our services</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/work/experience/">Our experience</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/work/toolkits/">Toolkits</a>
           </div>
         </li>
         <li class="nav-item nav-item--careers dropdown">
@@ -70,7 +70,7 @@
             <span>Careers</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/careers/join/">Join us</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/careers/join/">Join us</a>
           </div>
         </li>
         <li class="nav-item nav-item--thoughts dropdown">
@@ -86,8 +86,8 @@
             <span>Thoughts</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/thoughts/blog/">Blog</a>
-            <a class="dropdown-item" href="/thoughts/talks/">Talks</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/thoughts/blog/">Blog</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/thoughts/talks/">Talks</a>
           </div>
         </li>
         <li class="nav-item nav-item--connect dropdown">
@@ -103,8 +103,8 @@
             <span>Connect</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/connect/contact/">Contact us</a>
-            <a class="dropdown-item" href="/connect/contracting/"
+            <a class="dropdown-item" href="{{site.baseurl}}/connect/contact/">Contact us</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/connect/contracting/"
               >Contracting</a
             >
           </div>
