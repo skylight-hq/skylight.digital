@@ -15,10 +15,19 @@
   @extend %text-heavy-col-base;
 }
 
+.filter-header-title {
+  display: flex;
+  align-items: center;
+}
+
 .filter-header {
-  @extend %d-flex;
-  @extend %justify-content-start;
-  @extend %pb-4;
+  padding-bottom: 0.5rem;
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1.5rem;
+  }
 
   .employee-gradient {
     width: 5rem;
@@ -32,6 +41,7 @@
 .filter-image {
   @extend %rounded-circle;
   height: 5rem;
+  width: 5rem;
 }
 
 .filter-header-rect {
@@ -54,7 +64,7 @@
     }
   }
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     .employee-gradient {
       width: 4rem;
       height: 4rem;
@@ -71,7 +81,7 @@
   @extend %rounded-circle;
   height: 3rem;
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     box-shadow: 0 0 0 6px $white, 0 0 0 7px $gray-lightest;
     height: 4rem;
     margin-left: -1.5rem !important;
@@ -87,7 +97,7 @@
 }
 
 .filter-title {
-  font-size: $font-size-xx-small;
+  font-size: $font-size-x-large;
 }
 
 .filter-subtitle {
@@ -96,7 +106,7 @@
   @extend %text-uppercase;
   @extend %text-muted;
   font-family: $font-family-mono;
-  font-size: $font-size-xxx-small;
+  font-size: $font-size-small;
   font-weight: $font-weight-medium;
 }
 
@@ -106,20 +116,17 @@
   font-family: $font-family-mono;
   font-size: $font-size-small;
   font-weight: $font-weight-medium;
+  margin-top: 1.5rem;
   text-transform: uppercase;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 0;
+  }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
   .filter-title-wrapper.filter-employee {
     @include ml-3;
-  }
-
-  .filter-title {
-    font-size: $font-size-x-large;
-  }
-
-  .filter-subtitle {
-    font-size: $font-size-small;
   }
 }
 
@@ -140,6 +147,11 @@
 
 .filter-item-title {
   @extend %mb-2;
+  font-size: $font-size-x-large;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-xxx-large;
+  }
 }
 
 .filter-item-description {

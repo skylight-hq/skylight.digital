@@ -17,20 +17,22 @@ include.context %} {% capture filter_title_markup %}
       %}
       <header class="filter-header{% if width != height %}-rect{% endif %} align-items-center">
         {% if context == 'employee' %}
-        <div class="employee-gradient">
-          <img
-            class="filter-image{% if width != height %}-rect{% endif %} employee-img"
-            src="{{filter_image}}"
-            alt="{{filter_image_description}}"
-          />
+        <div class="filter-header-title">
+          <div class="employee-gradient">
+            <img
+              class="filter-image{% if width != height %}-rect{% endif %} employee-img"
+              src="{{filter_image}}"
+              alt="{{filter_image_description}}"
+            />
+          </div>
+          <div class="filter-title-wrapper filter-employee">
+            {{filter_title_markup}}
+            <h3 class="filter-subtitle">{{filter_subtitle}}</h3>
+          </div>
+          {% else %}
+          <div class="filter-title-wrapper">{{filter_title_markup}}</div>
+          {% endif %}
         </div>
-        <div class="filter-title-wrapper filter-employee">
-          {{filter_title_markup}}
-          <h3 class="filter-subtitle">{{filter_subtitle}}</h3>
-        </div>
-        {% else %}
-        <div class="filter-title-wrapper">{{filter_title_markup}}</div>
-        {% endif %}
 
         <div class="filter-count">{{filter_count}}</div>
       </header>
