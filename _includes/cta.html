@@ -12,9 +12,16 @@
       </div>
     </div>
 
+    {% assign ctaurl = include.cta_path %}
+    {% if ctaurl contains '://' %}
+    
+    {% else %}
+      {% assign ctaurl = include.cta_path | prepend: site.baseurl %}
+    {% endif %}
+
     <div class="page-subfooter-cta-row">
       <div class="page-subfooter-cta-col">
-        <a href="{{include.cta_path}}" role="button">
+        <a href="{{ctaurl}}" role="button">
           <span>{{include.cta}}</span>
         </a>
       </div>

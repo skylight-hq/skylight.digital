@@ -22,7 +22,7 @@
 
         <img
           class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} "
-          src="{{image}}"
+          src="{{site.baseurl}}{{image}}"
           alt="{{image_description}}"
           title="{{image_description}}"
         />
@@ -51,7 +51,7 @@
                   >
                     <img
                       class="profile-img{% if width != height %}-rect{% endif %} employee-img"
-                      src="{{emp.image}}"
+                      src="{{emp.image | prepend: site.baseurl}}"
                       alt="{{emp.image_description}}"
                     />
                   </div>
@@ -62,7 +62,7 @@
                   <div class="employee-gradient{% if width != height %}-rect{% endif %}">
                     <img
                       class="profile-img{% if width != height %}-rect{% endif %} employee-img"
-                      src="{{emp.image}}"
+                      src="{{emp.image | prepend: site.baseurl}}"
                       alt="{{emp.image_description}}"
                     />
                   </div>
