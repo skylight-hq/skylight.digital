@@ -567,7 +567,7 @@
   profile_path: /company/about/#brandon-mader
   image: /img/people/brandon-mader.jpg
   image_description: Photo of Brandon Mader
-  position: Data Scientist & Engineer
+  position: Data Engineer & Scientist
   bio: >
     Brandon loves using data for public good. He specializes in data science,
     data engineering, and software engineering. Brandon graduated from Dartmouth
@@ -1398,7 +1398,7 @@
   profile_path: /company/about/#kyle-magida
   image: /img/people/kyle-magida.jpg
   image_description: Photo of Kyle Magida
-  position: Data Scientist & Engineer
+  position: Data Engineer & Scientist
   bio: >
     Kyle specializes in data science and engineering. He's passionate about getting
     people solving complex problems the right data at the right time. He formerly
@@ -1784,7 +1784,7 @@
   profile_path: /company/about/#alex-curtis
   image: /img/people/alexander-curtis.png
   image_description: Illustration of Alex Curtis
-  position: Data Scientist & Engineer Apprentice
+  position: Data Engineer & Scientist Apprentice
   bio: >
     Alex's a data scientist and engineer who is thrilled about using
     his analytical and computational skills in the realm of public service.
