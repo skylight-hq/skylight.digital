@@ -52,15 +52,20 @@
   }
 }
 
-.page-subfooter-content {
-}
-
 .page-subfooter-header-row {
   @extend %mb-3;
 }
 
 .page-subfooter-header-col {
   @extend %col;
+}
+
+.page-subfooter-heading {
+  font-size: $font-size-xxx-large;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-xxxxx-large;
+  }
 }
 
 .page-subfooter-text-row {
