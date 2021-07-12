@@ -25,6 +25,12 @@
       width: 80%;
     }
   }
+
+  h3 {
+    @include media-breakpoint-down(xs) {
+      margin-top: 1em;
+    }
+  }
 }
 
 .page-service-design {
