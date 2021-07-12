@@ -35,7 +35,9 @@
 }
 
 .filter__button {
+  background-position-x: right !important;
   border-top: none !important;
+  padding-inline: 0 !important;
 }
 
 .filter-image {
