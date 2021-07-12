@@ -1,17 +1,13 @@
-.our-values {
-}
-
-.values {
-}
-
 .values-row {
   @extend %row;
+  margin-inline: -3rem;
 }
 
 .value-col {
   @extend %col-12;
   @extend %col-md-6;
-  @extend %mb-5;
+  margin-bottom: 0.5rem;
+  padding-inline: 3rem;
 
   &:last-child {
     @extend %mb-0;
@@ -20,6 +16,10 @@
   &:nth-last-of-type(1),
   &:nth-last-of-type(2) {
     @extend %mb-md-0;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 3rem;
   }
 }
 
@@ -33,7 +33,11 @@
 
 .value-block {
   @extend %card-block;
-  padding: 1.25rem 1.25rem 1.25rem;
+  padding-inline: 0;
+
+  // @include media-breakpoint-up(sm) {
+  //   padding-block: 1.25rem;
+  // }
 
   h3 {
     @extend %card-title;
