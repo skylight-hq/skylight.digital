@@ -63,8 +63,8 @@
       <div class="blog-posts-row">
         {% for item in paginator.posts %}
           <article class="blog-post-col">
-            <div class="blog-post-card card-link" data-href="{{item.permalink}}" tabindex="-1">
-              <div role="img" class="blog-post-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
+            <div class="blog-post-card card-link" data-href="{{item.permalink | prepend: site.baseurl}}" tabindex="-1">
+              <div role="img" class="blog-post-img" style="background-image: url({{item.image | prepend: site.baseurl;}});" title="{{item.image_description}}"></div>
               <div class="blog-post-block">
                 {% if item.title_tag %}
                   <p class="blog-post-title-tag">{{item.title_tag}}</p>
@@ -73,7 +73,7 @@
                 <div class="blog-post-text">{{item.excerpt | markdownify }}</div>
               </div>
               <div class="blog-post-footer">
-                <a href="{{item.permalink}}" tabindex="0">
+                <a href="{{item.permalink | prepend: site.baseurl}}" tabindex="0">
                   <span>Read more</span><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </div>

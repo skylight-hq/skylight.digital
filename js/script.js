@@ -113,11 +113,18 @@ $(function() {
     .attr("target", "_blank");
 }); // Hash update with scroll
 
+function pathEndsWith(path){
+  path = path.replace('/','\/');
+  var exp = `(${path})$`;
+  var re = new RegExp(exp,"g");
+  return location.pathname.match(re)?.length > 0;
+}
+
 $(function() {
   if (
-    location.pathname === "/work/services/training/ditap-executive/" ||
-    location.pathname === "/work/services/training/ditap/" ||
-    location.pathname === "/careers/join/"
+    pathEndsWith("/work/services/training/ditap-executive/") ||
+    pathEndsWith("/work/services/training/ditap/") ||
+    pathEndsWith("/careers/join/")
   ) {
     var headings = $("h2");
 
@@ -156,7 +163,7 @@ jQuery.expr[':'].icontains = function(a, i, m) {
 };
 
 $(function() {
-  if (location.pathname === "/work/experience/") {
+  if (pathEndsWith("/work/experience/")) {
     var searchParams = new URLSearchParams(window.location.search);
     var filters_set = searchParams.get('filters');
     if(filters_set != 'true'){
