@@ -25,6 +25,12 @@
       width: 80%;
     }
   }
+
+  h3 {
+    @include media-breakpoint-down(xs) {
+      margin-top: 1em;
+    }
+  }
 }
 
 .page-service-design {
@@ -40,7 +46,7 @@
     @include media-breakpoint-up(sm) {
       float: left;
       margin-right: 0.75rem;
-      width: 20%;
+      width: 25%;
     }
   }
 
@@ -64,6 +70,10 @@
 
   .pullquote {
     margin-bottom: 0 !important;
+  }
+
+  .subnav-col {
+    padding-inline: 0;
   }
 }
 
