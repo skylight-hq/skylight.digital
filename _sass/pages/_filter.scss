@@ -11,10 +11,6 @@
   }
 }
 
-.filter-row {
-  // @extend %row;
-}
-
 .filter-col {
   @extend %text-heavy-col-base;
 }
@@ -27,6 +23,10 @@
   .employee-gradient {
     width: 5rem;
   }
+}
+
+.filter__button {
+  border-top: none !important;
 }
 
 .filter-image {
