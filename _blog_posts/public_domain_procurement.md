@@ -22,18 +22,16 @@ So what can the government do to protect itself and better serve citizens? Under
 
 In constructing [18F's Agile Delivery Services Marketplace](/work/experience/agile-delivery-services-marketplace/), I, along with several others, went to great lengths to assert the government's unlimited rights at the contract-vehicle level, which is a blanket purchase agreement (BPA) under the General Services Administration's (GSA's) IT Schedule 70. Not only that, we took it one step further by transferring ownership rights to the public domain using the following language, courtesy of <a href="https://www.linkedin.com/in/noahkunin/">Noah Kunin</a> and many legal reviews:
 
-<blockquote class="pullquote excerpt" cite="https://ads.18f.gov/assets/ADS_RFQ_Final.pdf">
+**15.0 DATA RIGHTS AND OWNERSHIP OF DELIVERABLES**
 
-<p>15.0 DATA RIGHTS AND OWNERSHIP OF DELIVERABLES</p>
+<blockquote cite="https://ads.18f.gov/assets/ADS_RFQ_Final.pdf" markdown="1">
+…
 
-<p>…</p>
+It's GSA's intent that any data or deliverable created as a result of a task order under this BPA be committed to the public domain.</p>
 
-<p>It's GSA's intent that any data or deliverable created as a result of a task order under this BPA be committed to the public domain.</p>
+Contracting Officers are encouraged to designate in task orders the following items as property of GSA with the intention of committing the items to the public domain: all data, documents, graphics and code created under this BPA including but not limited to, plans, reports, schedules, schemas, metadata, architecture designs, and the like; new open source software created by the Contractor and forks or branches of current open source software where the Contractor has made a modification; new tooling, scripting configuration management, infrastructure as code, or any other final changes or edits to successfully deploy or operate the software.
 
-<p>Contracting Officers are encouraged to designate in task orders the following items as property of GSA with the intention of committing the items to the public domain: all data, documents, graphics and code created under this BPA including but not limited to, plans, reports, schedules, schemas, metadata, architecture designs, and the like; new open source software created by the Contractor and forks or branches of current open source software where the Contractor has made a modification; new tooling, scripting configuration management, infrastructure as code, or any other final changes or edits to successfully deploy or operate the software.</p>
-
-<p>…</p>
-
+…
 </blockquote>
 
 We did so for a number of reasons:

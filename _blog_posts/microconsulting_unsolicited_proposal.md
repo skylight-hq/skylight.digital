@@ -55,14 +55,14 @@ Currently, the government isn't actively looking in the marketplace for such an 
 
 It turns out there's such a mechanism in the ever-flexible FAR: <a href="https://www.acquisition.gov/far/current/html/Subpart%2015_6.html#wp1104869">Subpart 15.6 &mdash; Unsolicited Proposals</a>. Unfortunately, like many other permitted practices under the FAR, such as [share-in-savings contracting](/blog/reactions-to-our-agile-share-in-savings-model/), unsolicited proposals are an underutilized yet powerful procurement practice, as Jonathan Mostowski of the U.S. Digital Service indicated in a <a href="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">LinkedIn post</a>:
 
-<blockquote class="pullquote" cite="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/">
-<p>The Federal Government needs to improve they way it deals with unsolicited proposals. Most agencies have a process but I haven't come across one that worked well.</p>
+<blockquote cite="https://www.linkedin.com/feed/update/urn:li:activity:6250374685427539968/" markdown="1">
+The Federal Government needs to improve they way it deals with unsolicited proposals. Most agencies have a process but I haven't come across one that worked well.
 
-<p>The need to protect competition should be balanced with rewarding innovation targeted at government needs. I like an open BAA [Broad Agency Announcement] as a work around, but the process for unsolicited proposal acceptance should be straightforward, budgeted, and efficient.</p>
+The need to protect competition should be balanced with rewarding innovation targeted at government needs. I like an open BAA [Broad Agency Announcement] as a work around, but the process for unsolicited proposal acceptance should be straightforward, budgeted, and efficient.
 
-<p>I have seen many great solutions fall into the trap of 'sorry we just don't know how to buy a thing we didn't ask for.'</p>
+I have seen many great solutions fall into the trap of 'sorry we just don't know how to buy a thing we didn't ask for.'
 
-<p>FAR 6.302-1 allows you to sole source when there is only one responsible source but that is not necessarily the case for unsolicited solutions.</p>
+FAR 6.302-1 allows you to sole source when there is only one responsible source but that is not necessarily the case for unsolicited solutions.
 </blockquote>
 
 Regardless of how well or not a particular agency handles unsolicited proposals, we believe that a microconsulting services marketplace platform is a concept worth experimenting with using [modern digital delivery practices](/work/services/#digital-services-delivery). And we'd like to support the government in that endeavor. Therefore, we'll be submitting a fully open, unsolicited proposal to the government shortly, in accordance with FAR Subpart 15.6.
