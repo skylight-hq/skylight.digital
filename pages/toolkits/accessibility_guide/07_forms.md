@@ -70,7 +70,7 @@ Making forms accessible is a simple process. Each form element should be associa
   </fieldset>
 </div>
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--tip" markdown='1'>
 #### Note
 Code examples don't include styling markup for clarity of the technique being explained.
 </div>
@@ -176,7 +176,7 @@ Screen readers vary on what they read and the additional information they provid
 
 You can test these with your own screen reader. If you have a OSX you can turn VoiceOver on by hitting command+F5.
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--note" markdown='1'>
 #### Further information
 Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. For example: `aria-labelledby="car1 car_description car-error-message"`.
 </div>

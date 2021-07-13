@@ -34,7 +34,7 @@ Based on this, it's easy to determine what data you will need:
 
 While this is a simple example, the same principles can be applied to larger goals: take the time and effort necessary to make them specific, measurable, attainable, realistic, and time-bound.
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Recommended reading
 
 - [University of California Smart Goals: A How-To Guide](https://www.ucop.edu/local-human-resources/_files/performance-appraisal/How%20to%20write%20SMART%20Goals%20v2.pdf)

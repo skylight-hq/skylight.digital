@@ -25,4 +25,4 @@ Page titles are important because they help a user navigate their browser. Most 
 <title>Page Titles - Skylight Accessibility</title>
 ```
 
-> The title for this page is "Page Titles - Skylight Accessibility". The first half is the name of this page and the second is the name of the site.
+The title for this page is "Page Titles - Skylight Accessibility." The first half is the name of this page and the second is the name of the site.

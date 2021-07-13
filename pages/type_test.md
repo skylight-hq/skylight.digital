@@ -9,16 +9,16 @@ This is regular text.
 > "This is a blockquote."
 
 This is a "tip" callout.
-{: .tip }
+{: .callout--tip }
 
 This is a "note" callout.
-{: .note }
+{: .callout--note }
 
 This is an "example" callout.
 {: .example }
 
 This is a "highlight" callout.
-{: .callout }
+{: .callout--highlight }
 
 <aside class="news-coverage callout">
   <h2>News callout</h2>

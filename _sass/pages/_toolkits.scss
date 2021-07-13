@@ -38,6 +38,7 @@
 }
 
 @mixin callout {
+  margin-top: 2rem;
   padding: 1.5rem;
 
   > *:last-child {
@@ -45,11 +46,11 @@
   }
 }
 
-.callout {
+.callout,
+.callout--highlight {
   @include callout;
   background-color: $gray-1;
   border: 3px solid $brand-primary;
-  margin-top: 2.25rem;
 }
 
 .callout--alt {
@@ -198,6 +199,7 @@ $icon-size: 2rem;
 
 @mixin alert {
   margin-bottom: 1rem;
+  margin-top: 2rem;
   padding-block: 1rem;
   padding-left: 3.8333333333rem;
   padding-right: 1rem;
@@ -216,9 +218,13 @@ $icon-size: 2rem;
     position: absolute;
     top: 0;
   }
+
+  + * {
+    margin-top:  2rem;
+  }
 }
 
-.tip {
+.callout--tip {
   @include alert;
   background-color: $ochre-20;
 
@@ -227,7 +233,7 @@ $icon-size: 2rem;
   }
 }
 
-.note {
+.callout--note {
   @include alert;
   background-color: $blue-20;
 

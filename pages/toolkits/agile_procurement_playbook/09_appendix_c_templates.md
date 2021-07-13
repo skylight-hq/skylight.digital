@@ -104,4 +104,4 @@ Unacceptable performance doesn't meet the specified standard and exceeds the all
 | <em>...</em> | <em>...</em> | <em>...</em> | <em>...</em> | <em>...</em> | <em>...</em> |
 
 18F has a [great example of a Quality Metrics Table that includes a QASP](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp).
-{: .callout--alt}
+{: .callout--tip }

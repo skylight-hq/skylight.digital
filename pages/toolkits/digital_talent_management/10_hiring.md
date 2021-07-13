@@ -28,9 +28,8 @@ To improve your hiring process:
 - Measure the impact
 - Repeat
 
-<div class="callout--alt" markdown="1">
 Learn how the U.K. Government Digital Service [runs its interview process](https://technology.blog.gov.uk/2015/07/14/applying-for-a-job-at-gds-update/).
-</div>
+{: .callout--tip }
 
 ## Establish a hiring team and evaluation protocol
 
@@ -42,9 +41,8 @@ For each job description, you'll want to pull together a team to evaluate candid
 
 The traditional resume review and hiring process is subjective and susceptible to bias. Work to ensure your hiring team is diverse. It's also helpful to have team members attend unconscious bias training beforehand.
 
-<div class="callout--alt" markdown="1">
 The U.S. federal government has been encouraging agencies to [include experts in their hiring process](https://www.govexec.com/management/2019/09/weichert-agencies-should-include-experts-hiring-process/159871/).
-</div>
+{: .callout--tip }
 
 ## Workshop the candidate evaluation criteria
 
@@ -69,7 +67,7 @@ Look for red flags, like an applicant who has:
 - No demonstrable experience for the position they're applying for
 - A history of switching jobs too frequently &mdash; while it's common to switch jobs frequently in technology, someone who's moved on every few months might be a problem
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Resume review resources
 
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/resume-review/)
@@ -116,6 +114,7 @@ Follow the same interview process for each candidate:
 - When there are 10&ndash;15 minutes left, let them ask you questions.
 - Thank them for their time.
 
+<div class="callout--note" markdown='1'>
 ## Resources
 
 - [Sample interview questions](https://firstround.com/review/40-favorite-interview-questions-from-some-of-the-sharpest-folks-we-know/)
@@ -129,6 +128,7 @@ Follow the same interview process for each candidate:
 - [Providing tools in one place (State of Oregon)](https://www.oregon.gov/das/HR/Pages/success-plan.aspx#)
 - [It's Better to Avoid a Toxic Employee than Hire a Superstar](https://hbr.org/2015/12/its-better-to-avoid-a-toxic-employee-than-hire-a-superstar)
 - [7 Practical Ways to Reduce Bias in Your Hiring Process](https://www.shrm.org/resourcesandtools/hr-topics/talent-acquisition/pages/7-practical-ways-to-reduce-bias-in-your-hiring-process.aspx)
+</div>
 
 ## Checklist
 

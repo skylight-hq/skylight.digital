@@ -84,9 +84,11 @@ Name | Purpose | Remote Friendly
 - Establish a simple process for teams to request additional software and services
 {: .list-checklist}
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [How rethinking your workspace can spur innovation](https://medium.com/@BloombergCities/how-rethinking-your-workspace-can-spur-innovation-ef6ff553b75b)
+</div>
 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: 18F

@@ -17,7 +17,7 @@ Accessibility works best when incorporated into an agile production environment.
 
 Here at Skylight we follow [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) as our standard for accessibility. We do so for a couple reasons. WCAG has long been the gold standard for accessibility on the web. It also incorporates Section 508 standards. Under 1194.5 of the Section 508 standards, we can use a different set of standards as long as they meet the current Section 508 standards.
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--note" markdown='1'>
 ### Disclaimer
 
 This resource is intended to help Skylight develop accessible products and isn't a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.

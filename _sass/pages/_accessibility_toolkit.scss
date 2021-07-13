@@ -80,6 +80,7 @@
 
 }
 
+.callout--example,
 .example {
   margin-top: 1em;
   margin-bottom: 1rem;
@@ -107,16 +108,25 @@
   background-color: $gray-1 !important;
   font-family: $font-family-mono !important;
 
-  .nt {
+  .nt, .nc {
     color: $blue-200 !important;
   }
 
-  .na {
+  .na, .m, .nb {
     color: $green-200 !important;
   }
 
-  .s, .sa, .dl {
+  .s, .sa, .dl, .nl {
     color: $red-200 !important;
+  }
+
+  .nc, .nl, .m, .nb {
+    font-weight: normal !important;
+  }
+
+  code {
+    font-family: $font-family-mono !important;
+    font-weight: normal !important;
   }
 }
 
@@ -142,4 +152,12 @@ pre {
 
 code {
   font-family: $font-family-mono;
+}
+
+p code {
+  background-color: rgba(0,0,0,0.13) !important;
+}
+
+iframe {
+  border: none;
 }

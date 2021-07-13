@@ -60,4 +60,4 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
   </form>
 </div>
 
-> This passes because a timeout does occur, but you're given more than 20 seconds to request more time.
+This passes because a timeout does occur, but you're given more than 20 seconds to request more time.

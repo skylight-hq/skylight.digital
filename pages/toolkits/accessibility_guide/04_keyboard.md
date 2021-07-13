@@ -72,7 +72,6 @@ Use your keyboard to tab through these links.
 
 <div class="example" markdown='1'>
 <a class="sr-only moveFocus" href="#">hidden</a>
-
 <a class="keyboardTrap" href="#">Select to disable keyboard trap</a>
 
 <a class="keyboardTrap" href="#">Select to disable keyboard trap</a>
@@ -80,7 +79,6 @@ Use your keyboard to tab through these links.
 <a class="keyboardTrap" href="#">Select to disable keyboard trap</a>
 
 <a class="keyboardTrap" href="#">Select to disable keyboard trap</a>
-
 <a class="sr-only moveFocus" href="#">hidden</a>
 </div>
 

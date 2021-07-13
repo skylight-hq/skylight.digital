@@ -66,9 +66,8 @@ While all aspects of culture start at the top, creating a psychologically-safe e
 
 **Require blameless retrospectives.** Empower teams to make changes in how they work. It's important to act on all follow-ups from retrospectives. Through action, you'll show that learning from retrospectives is important to you.
 
-<div class="callout--alt" markdown="1">
 Learn how to run an agile retrospective by [reading this guide](https://www.atlassian.com/team-playbook/plays) from Atlassian.
-</div>
+{: .callout--tip}
 
 **During meetings and workshops, encourage all voices to be heard.** Work through how you might implement a suggestion, rather than rejecting it immediately. Discourage interruptions. Create multiple avenues for people to contribute. For example, some people may not feel comfortable speaking up, but might be happy to write some thoughts down on a post-it.
 
@@ -94,15 +93,14 @@ Dependability is an individual trait. As a team member, you have to personally b
 
 Teams should also collectively set goals and support each other to achieve them. The [Objectives and Key Results](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) (OKRs) framework from Google works well to set goals and track progress at multiple levels in your organization. OKRs help align individual and team goals with organization goals. Each goal should have an associated plan on how to achieve it.
 
-<div class="callout--alt" markdown="1">
 Learn more about how the [U.K. Government Digital Service uses OKRs](https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/) on GOV.UK website.
-</div>
+{: .callout--tip}
 
 ### Meaning and impact
 
 **Remind people of the mission.** Have a clear and concise mission, and include vision and values statements on posters in your physical space. The constant reminder is important so that teams don't forget the larger picture.
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Examples of well-designed posters
 
 - [Our values: a series of posters from the USDS](https://medium.com/the-u-s-digital-service/our-values-1fc02b53598)
@@ -126,7 +124,7 @@ A welcoming and inclusive culture empowers people to provide outstanding public 
 A Code of Conduct puts into writing how you expect people to behave in the workplace and at work events. It codifies your commitment to an inclusive environment. Create a documented process for enforcing the Code of Conduct and an anonymous process for reporting violations of the Code.
 
 18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) that you can adopt and modify as necessary.
-{: .callout--alt}
+{: .callout--tip}
 
 ### Empower people to speak up
 
@@ -155,7 +153,7 @@ Everyone has these biases.
 Unconscious bias training helps create awareness for this ingrained bias. Have everyone on your team attend unconscious bias training. This will help improve everyday interactions. It'll also help during the interview process as you attempt to build a diverse team.
 
 Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases).
-{: .callout--alt}
+{: .callout--tip}
 
 ## Checklist
 
@@ -173,6 +171,7 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - Use inclusive language in all communications
 {: .list-checklist}
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [How to Create a Great Team Culture (and Why It Matters)](https://queue.acm.org/detail.cfm?ref=rss&id=3323993)
@@ -183,6 +182,7 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - [Inclusive design toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
 - [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
 - [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
+</div>
 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: Ontario Digital Service

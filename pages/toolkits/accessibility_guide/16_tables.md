@@ -15,7 +15,7 @@ When tables are used to show data, the header cells that relate to the data cell
 
 **Simple tables** can have up to two levels of headings. One row of headers and/or one column of headings. A table with more than one row, or more than one column of headings, is considered to be a complex table. Each table header cell should have `<th scope="col">` or `<th scope="row">`.
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--tip" markdown='1'>
 <h2 class='h3'>Note</h2>
 Simple tables with headers in the first row and/or column don't actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either `scope` or `id` attributes.
 </div>
@@ -104,7 +104,7 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope="col"```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
+Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope="col"```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
 
 #### Complex table
 
@@ -194,4 +194,4 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> This is an example of a complex table, all the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.
+This is an example of a complex table, all the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.

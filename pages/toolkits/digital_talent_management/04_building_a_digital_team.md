@@ -153,11 +153,13 @@ When you're developing custom software, you'll need representation from all of t
 - Vary the size and composition of your team based on which phase your project is in: discovery, alpha, beta, live
 {: .list-checklist}
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [Design Methods](https://methods.18f.gov/) (18F)
 - [Labor Category Descriptions for Agile Procurements](https://agile-labor-categories.18f.gov/) (18F)
 - [What each role does in a service team](https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team) (GDS)
+</div>
 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: Georgia Digital Service
