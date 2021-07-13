@@ -110,7 +110,7 @@
 
 .accordion-filter {
   .accordion-header {
-    width: fit-content;
+    width: max-content;
 
     a[aria-expanded="true"] {
       border-bottom: none;
