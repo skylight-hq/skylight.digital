@@ -4,7 +4,12 @@
   @extend %mt-md-6;
   color: $page-cta-color;
   background: $page-cta-bg-color;
-  padding-block: 4rem;
+  padding-bottom: 4rem;
+  padding-top: calc(4rem - 0.5rem); // subtract extra line height spacing
+
+  @include media-breakpoint-up(sm) {
+    padding-top: calc(4rem - 0.75rem); // subtract extra line height spacing
+  }
 
   * {
     color: $page-cta-color;
