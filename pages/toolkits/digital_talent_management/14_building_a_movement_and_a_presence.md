@@ -70,10 +70,12 @@ Changing the perception that government is a boring, bureaucratic place to work 
 
 The story behind a digital team should never stop evolving. Transition the focus of the online presence from recruitment to a more sustainable resource when you're ready.
 
+<div class="callout--note" markdown='1'>
 Here are two examples:
 
 - A minimal web presence from the [Colorado Digital Service](https://sites.google.com/state.co.us/coloradodigitalservice/home)
 - A [larger presence from New Jersey](https://innovation.nj.gov/), with all the necessary elements that a digital team website might need
+</div>
 
 ### Making it official
 
@@ -127,7 +129,7 @@ Search on [Meetup](https://www.meetup.com/find/groups/), or LinkedIn for groups 
 
 Send your team to national conferences that are aligned with the work. They'll meet other folks working on similar problems and technology, and they'll benefit from attending or speaking. Attending conferences encourages your team to bring back new ideas and methods. Speaking at conferences gives them an opportunity to be proud of the work they've done.
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Recommended conferences
 
 - A good civic technology conference to attend and speak at is the [Code for America Summit](https://www.codeforamerica.org/summit)
@@ -147,6 +149,7 @@ Send your team to national conferences that are aligned with the work. They'll m
 - Revisit your strategies and activities every three to six months.
 {: .list-checklist}
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [https://medium.com/civiqueso](https://medium.com/civiqueso)
@@ -155,6 +158,7 @@ Send your team to national conferences that are aligned with the work. They'll m
 - [https://www.newamerica.org/public-interest-technology/](https://www.newamerica.org/public-interest-technology/)
 - [https://digitalservices.georgia.gov/](https://digitalservices.georgia.gov/)
 - [https://playbook.cityofnewyork.us/](https://playbook.cityofnewyork.us/)
+</div>
 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: Bloomberg Cities

@@ -42,9 +42,11 @@ Some conferences worth attending:
 - [Strange Loop](https://www.thestrangeloop.com/)
 - [An Event Apart](https://aneventapart.com/)
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [Maine Workforce 2025](https://www.maine.gov/bhr/sites/maine.gov.bhr/files/inline-files/MaineWorkforce2025.pdf)
+</div>
 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: Peak Academy

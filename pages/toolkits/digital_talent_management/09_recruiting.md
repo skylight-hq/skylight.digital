@@ -79,6 +79,7 @@ Companies that work almost exclusively with government can also be a good refere
 - [https://adhocteam.us/join/](https://adhocteam.us/join/)
 - [https://skylight.digital/careers/join/](/careers/join/)
 
+<div class="callout--note" markdown='1'>
 ### Resources
 
 - [Textio](https://textio.com/products/) can help you write better, more inclusive position descriptions
@@ -87,6 +88,7 @@ Companies that work almost exclusively with government can also be a good refere
 - [Why Women Don't Apply for Jobs Unless They're 100% Qualified](https://hbr.org/2014/08/why-women-dont-apply-for-jobs-unless-theyre-100-qualified)
 - [Tools for government hiring](http://www.govtalent.org/)
 - [Improving the Hiring Process](https://medium.com/@bellmar/sre-as-a-lifestyle-choice-de9f5a82d73d)
+</div>
 
 ## Attract candidates new to government
 
@@ -94,23 +96,17 @@ Government often can't compete with industry on salary. To counter this, lead wi
 
 The [San Francisco Digital Services](https://digitalservices.sfgov.org/) website does this well with a concise paragraph:
 
-<blockquote class="pullquote">
-We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up.
-</blockquote>
+> We're working on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. Our team is also building the city's website from the ground up.
 
 The first sentence refers to impactful critical issues that are part of the city's mission. This draws the applicant in. A job description for a product manager similarly describes the mission aspect first:
 
-<blockquote class="pullquote">
-You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting.
-</blockquote>
+> You will engage with permitting departments and customers to understand where there is greatest need and opportunity, and you will own the overall product roadmap for digital permitting.
 
 Anyone who's tried to get a permit with the city will want to work on making that process better.
 
 Candidates like hearing about what they'll be working on. Include short descriptions of the projects (or similar ones) they'll be working on. These can be simple descriptions, such as:
 
-<blockquote class="pullquote">
-Our team is also building the city's website from the ground up.
-</blockquote>
+> Our team is also building the city's website from the ground up.
 
 ## Advertise your job opening
 
@@ -160,10 +156,12 @@ Going in-person provides the opportunity to talk passionately about the work you
 
 In addition, by encouraging your team to attend technology meetups you allow them to (1) recruit and (2) continuously learn new things.
 
+<div class="callout--note" markdown='1'>
 ### Resources
 
 - [Ask 18F &mdash; How do you recruit employees?](https://18f.gsa.gov/2018/08/02/ask-18f-talent/)
 - [How to Recruit for Local Government in the Digital Age](https://www.civicplus.com/hubfs/CivicHR/PDFs/CivicHR-eBook-How-to-Recruit-for-Local-Government-in-the-Digital-Age-HR-5002-042517.pdf)
+</div>
 
 ## Consider remote employees
 
@@ -183,9 +181,11 @@ Here are some of the benefits of opening the search to remote candidates:
 - You can hire talent that's unwilling or unable to relocate, expanding your choices
 - Teams distributed across multiple time zones offer a longer overall workday on projects
 
+<div class="callout--note" markdown='1'>
 ### Resources
 
 - [18F's best practices for making distributed teams work](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/)
+</div>
 
 ## Engage candidates throughout the process
 
@@ -224,12 +224,14 @@ To shorten the hiring process:
 
 The HR department may not have the metrics you're looking for, so the first step might be measuring how long each step in the process takes.
 
+<div class="callout--note" markdown='1'>
 ### Resources
 
 - [TTS hiring process](https://join.tts.gsa.gov/hiring-process/)
 - [San Francisco's 6 simple steps to hiring](https://sfdhr.org/sfcivictech)
 - [California Department of Justice application process](https://caldoj.github.io/opii/apply)
 - [Mobilizing Tech Talent](https://ourpublicservice.org/publications/mobilizing-tech-talent/)
+</div>
 
 ## Checklist
 
