@@ -129,9 +129,11 @@ Ultimately the agencies and their service providers are the experts on what impa
 
 The decisions we face when launching a new mobile app development initiative, or rationalizing an existing portfolio of mobile applications have never been more difficult than they are today. Let's ensure these decisions are rooted in the mobile app development landscape as it stands today, and not in the past.
 
+<div class="callout--note" markdown='1'>
 ## Further reading
 
 The following is a list of additional reading about items contained in this blog series. These items aren't a bibliography of sources, but instead are a set of potential next steps to explore.
+</div>
 
 ### Mobile Web Apps
 
