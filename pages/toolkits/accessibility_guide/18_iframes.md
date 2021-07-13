@@ -27,7 +27,7 @@ When using `iFrame`s, it's important that all content contained in them is acces
 <div class="example">
   <div class="row">
     <div class="col-sm-1"></div>
-    <iframe height='400' class='col-sm-10' src="../iframeform/"></iframe>
+    <iframe height='400' class='border col-sm-10' src="../iframeform/"></iframe>
     <div class="col-sm-1"></div>
   </div>
 </div>
@@ -41,7 +41,7 @@ This `iFrame` doesn't have a title or name.
 <div class="example">
   <div class="row">
     <div class="col-sm-1"></div>
-    <iframe height='400' class='col-sm-10' src="../iframeform/" name="Provide an address form"></iframe>
+    <iframe height='400' class='border col-sm-10' src="../iframeform/" name="Provide an address form"></iframe>
     <div class="col-sm-1"></div>
   </div>
 </div>
@@ -58,7 +58,7 @@ This `name` isn't correct.
 <div class="example">
   <div class="row">
     <div class="col-sm-1"></div>
-    <iframe height='400' class='col-sm-10' src="../iframeform/" title="Provide Name Form"></iframe>
+    <iframe height='400' class='border col-sm-10' src="../iframeform/" title="Provide Name Form"></iframe>
     <div class="col-sm-1"></div>
   </div>
 </div>

@@ -124,7 +124,11 @@
     color: $red-200 !important;
   }
 
-  .nc, .nl, .m, .nb {
+  .cp {
+    color: $black !important;
+  }
+
+  * {
     font-weight: normal !important;
   }
 
@@ -134,10 +138,13 @@
   }
 }
 
-.language-html.highlighter-rouge {
-  border: 1px solid $gray-lightest;
-  border-radius: 3px !important;
-  margin-bottom: 1rem;
+.highlighter-rouge {
+  &.language-html,
+  &.language-css {
+    border: 1px solid $gray-lightest;
+    border-radius: 3px !important;
+    margin-bottom: 1rem;
+  }
 }
 
 .example + .language-html.highlighter-rouge {
