@@ -13,7 +13,7 @@
   }
 
   h3 {
-    font-size: $font-size-base;
+    font-size: $font-size-large;
   }
 
   h4 {
@@ -239,5 +239,13 @@ $icon-size: 2rem;
 
   &::before {
     background: url(/img/alert/info.svg) no-repeat center/$icon-size;
+  }
+}
+
+.example,
+.callout--tip,
+.callout--note {
+  h2, h3 {
+    font-size: $font-size-large;
   }
 }
