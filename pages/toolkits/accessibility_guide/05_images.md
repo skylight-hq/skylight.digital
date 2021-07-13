@@ -33,32 +33,32 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Correct
 <div class="example">
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 </div>
 
 ```html
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 ```
 
 Preferred method for providing alternate content. Clear `alt` attribute with all text included.
 
 <div class="example">
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" title="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" title="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 </div>
 
 ```html
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" title="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" title="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 ```
 
 Acceptable, but less compatible with certain assistive technologies. Clear title attribute with all text included.
 
 <div class="example">
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="">
 <span>Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.</span>
 </div>
 
 ```html
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="">
 <span>Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.</span>
 ```
 
@@ -67,31 +67,31 @@ Information contained in the image is provided on the page. In most instances, a
 ### Incorrect
 
 <div class="example">
-<img src="{{'/img/toolkits/accessibility/agile-acquisition-framework.png' | prepend: site.baseurl}}">
+<img class="img-fluid" src="{{'/img/toolkits/accessibility/agile-acquisition-framework.png' | prepend: site.baseurl}}">
 </div>
 
 ```html
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png">
 ```
 
 Image is missing an `alt` attribute and alternative content.
 
 <div class="example">
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping">
 </div>
 
 ```html
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping">
 ```
 
 `alt` attribute is missing text from image.
 
 <div class="example">
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Image of waterfall sign on left CLIFF. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Image of waterfall sign on left CLIFF. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 </div>
 
 ```html
-<img src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Image of Waterfall sign on left CLIFF. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Image of Waterfall sign on left CLIFF. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 ```
 
 Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter, for example: C-L-I-F-F.

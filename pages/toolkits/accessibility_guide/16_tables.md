@@ -40,7 +40,7 @@ If a table has text associated with it, ensure the text is programatically linke
 #### Simple table
 <div class="example">
   <table class="post-table">
-    <caption>User's Height and Age</caption>
+    <caption>User’s Height and Age</caption>
     <thead>
       <tr>
         <th scope="col">
@@ -75,7 +75,7 @@ If a table has text associated with it, ensure the text is programatically linke
 
 ```html
 <table>
-  <caption>User's Height and Age</caption>
+  <caption>User’s Height and Age</caption>
   <tr>
     <th scope="col">
       Name
@@ -110,7 +110,7 @@ Looking at this table, the column headers all relate to the cells below. This is
 
 <div class="example">
   <table class="post-table">
-    <caption>User's Height and Age</caption>
+    <caption>User’s Height and Age</caption>
     <thead>
       <tr>
         <th rowspan="2" id="name" scope="col">
@@ -155,7 +155,7 @@ Looking at this table, the column headers all relate to the cells below. This is
 
 ```html
 <table>
-  <caption>User's Height and Age</caption>
+  <caption>User’s Height and Age</caption>
   <tr>
     <th rowspan="2" id="name">
       Name
