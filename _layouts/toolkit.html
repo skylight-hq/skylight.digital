@@ -38,7 +38,7 @@ preload: hero-toolkits.svg
               <a class="pagination-alt__step pagination-alt__step--previous" href="{{ items[prev_i].url }}">
                 <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
                 <span>
-                  Previous section
+                  Previous<span class="d-none d-sm-inline"> section</span>
                 </span>
               </a>
               {% endunless %}
@@ -47,7 +47,7 @@ preload: hero-toolkits.svg
               {% unless page.url == items.last.url %}
                 <a class="pagination-alt__step pagination-alt__step--next" href="{{ items[next_i].url }}">
                   <span>
-                    Next section
+                    Next<span class="d-none d-sm-inline"> section</span>
                   </span>
                   <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
                 </a>
