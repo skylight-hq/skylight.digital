@@ -166,7 +166,7 @@ source_code_url:
 
   <ul>
     <li>
-      Leverages the U.S. Web Design System
+      Leverages a proven design system, such as Carbon, as the foundation
     </li>
 
     <li>

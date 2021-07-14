@@ -372,14 +372,11 @@ $(function() {
 // https://stackoverflow.com/questions/1533910/randomize-a-sequence-of-div-elements-with-jquery
 (function($) {
   $.fn.randomize = function(tree, childElem) {
-    console.log('randomize');
-    console.log(this);
     return this.each(function() {
       var $this = $(this);
       if (tree) $this = $(this).find(tree);
       var unsortedElems = $this.children(childElem);
       var elems = unsortedElems.clone();
-      console.log(elems);
 
       elems.sort(function() {
         return (Math.round(Math.random()) - 0.5);
