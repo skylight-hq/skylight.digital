@@ -66,7 +66,7 @@ First of all, don't fall into the trap of believing your case management system 
 
 Let us hypothetically assume that each of the seven areas of overlap above is about 14% of the total effort of building any specific case management system. The the commonality between any two chosen at random is likely to be:
 
-{:.post-table}
+{: .post-table }
 | Area           | Size (S) | Commonality (C) | Code-in-Common (S*C) |
 |----------------|----------|-----------------|----------------------|
 | Database       | 14%      | 100%            | 14%                  |
@@ -76,7 +76,8 @@ Let us hypothetically assume that each of the seven areas of overlap above is ab
 | Fields         | 14%      | 80%             | 11.2%                |
 | UI             | 14%      | 70%             | 9.8%                 |
 | Business Rules | 14%      | 15%             | 2.1%                 |
-| **Sum**        | **98%**  |                 | **76.3%**            |
+|================|==========|=================|======================|
+| Sum            | 98%      |                 | 76.3%                |
 
 In other words, your system could well have 76% commonality with any given other case management system. Although this is just a model and must be taken with a grain of salt, the basis of all computer science is finding commonalities which can be abstracted away to simplify a problem. We can name many such examples of existing tools that have been identified and abstracted to produce common, reusable tools, in what Simon Wardley has identified as "commoditization."
 
