@@ -256,6 +256,10 @@
   font-family: $font-family-mono;
   padding-left: 2rem;
 
+  @include media-breakpoint-up(md) {
+    padding-left: 1rem;
+  }
+
   &:focus,
   &:hover {
     color: $brand-primary;
