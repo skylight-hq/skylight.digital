@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: "Maximizing the power of APIs: balancing freedom and control"
+title: "Maximizing the power of APIs: Balancing freedom and control"
 permalink: /thoughts/blog/maximizing-the-power-of-apis-balancing-freedom-and-control/
 redirect_from:
   - /blog/maximizing-the-power-of-apis-balancing-freedom-and-control/
