@@ -23,7 +23,7 @@ technologies:
   - HTML / CSS
   - JavaScript / React
   - Carbon Design System
-  - Typescript
+  - TypeScript
   - Node
   - APIs
   - GraphQL
