@@ -50,6 +50,10 @@
     {% assign image = site_url | append: page.image %}
     {% assign image_twitter = site_url | append: page.image %}
     {% assign image_description = page.image_description %}
+  {% elsif layout.image and layout.image_description %}
+    {% assign image = site_url | append: layout.image %}
+    {% assign image_twitter = site_url | append: layout.image %}
+    {% assign image_description = layout.image_description %}
   {% else %}
     {% assign image = site_image %}
     {% assign image_twitter = site_image_twitter %}
