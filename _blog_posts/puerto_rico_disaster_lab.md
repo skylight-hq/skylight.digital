@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: "Puerto Rico, a disaster lab: three research proposals"
+title: "Puerto Rico, a disaster lab: Three research proposals"
 permalink: /thoughts/blog/puerto-rico-a-disaster-lab-three-research-proposals/
 redirect_from:
   - /blog/puerto-rico-a-disaster-lab-three-research-proposals/

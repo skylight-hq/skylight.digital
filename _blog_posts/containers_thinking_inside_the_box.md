@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: "Containers: thinking inside the box"
+title: "Containers: Thinking inside the box"
 permalink: /thoughts/blog/containers-thinking-inside-the-box/
 redirect_from:
   - /blog/containers-thinking-inside-the-box/
