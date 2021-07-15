@@ -18,7 +18,7 @@ technologies:
   - Chrome Web Developer Toolkit
   - Colour Contrast Analyzer
   - Google Accessibility Audit Tools
-  - Javascript / HTML
+  - JavaScript / HTML
   - Wave
 practices:
   - WCAG 2.0
