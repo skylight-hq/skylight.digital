@@ -125,14 +125,15 @@
     @extend %badge;
     background-color: $brand-primary;
     border-radius: 0.375rem;
+    font-weight: $font-weight-medium;
   }
 
   a.tag-badge {
     font-family: $font-family-mono;
-    margin-right: 1em;
+    margin-right: 1rem;
     margin-top: 0.5rem;
-    padding-block: 7px;
-    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+    padding-inline: 0.75rem;
 
     &:hover,
     &:focus {
@@ -167,6 +168,7 @@
       $btn-share-active-color
     );
     border-radius: 0.375rem;
+    padding-inline: 0.75rem;
     padding-block: 0.5rem;
   }
 }
