@@ -132,13 +132,13 @@
         </div>
       <div class="col-md-4 d-flex flex-column align-items-stretch">
         <p class="featured-talk__date kicker">{{ item.date | date: "%B %-d, %Y" }}</p>
-        <h3 class="">{{ item.title }}</h3>
-        <p class="mt-3 text">
+        <h3>{{ item.title }}</h3>
+        <p class="font-sm mt-3 text">
           {{ item.description }}
         </p>
         <h4 class="kicker mb-1">Event</h4>
-        <p>{{ item.event }}</p>
-        <a class="font-mono" href="https://www.youtube.com/watch?v=_eGtm66_X9E" target="_blank">
+        <p class="font-sm">{{ item.event }}</p>
+        <a class="font-sm font-mono" href="https://www.youtube.com/watch?v=_eGtm66_X9E" target="_blank">
           {% if item.type == "video" %}
             Watch video
           {% elsif item.type == "podcast" %}
