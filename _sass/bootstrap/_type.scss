@@ -140,7 +140,7 @@ mark,
   line-height: 1.5;
   margin-bottom: $spacer;
   padding: 1.25rem;
-  padding-left: 3.8rem;
+  padding-left: 4rem;
   position: relative;
 
   @include media-breakpoint-up(sm) {
@@ -150,16 +150,8 @@ mark,
 
   &::before {
     content: "“";
-    font-size: 64px;
-    line-height: 1;
     left: 1.25rem;
-    opacity: 50%;
     position: absolute;
-
-    @include media-breakpoint-up(sm) {
-      font-size: 170px;
-      top: 18px;
-    }
   }
 
   a {
