@@ -5,7 +5,6 @@
   }
 
   .quote-text {
-    color: $green-300;
     font-size: $font-size-x-large;
   }
 
@@ -14,12 +13,16 @@
   }
 
   .image-list__employee-img {
-    @include border-radius;
+    border-radius: 100%;
   }
 
   svg {
     height: 50px;
   }
+}
+
+.join-quote__byline {
+  color: $gray-light;
 }
 
 .page--join__text {
