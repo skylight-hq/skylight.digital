@@ -94,6 +94,17 @@
   @extend %my-4;
   margin-inline: initial;
 
+  &::before {
+    content: url(/img/alert/quote.svg);
+    width: 2rem;
+    opacity: 1;
+
+    @include media-breakpoint-up(sm) {
+      left: 29px;
+      width: 62px;
+    }
+  }
+
   cite {
     display: block;
     margin-top: 1.75rem;

@@ -17,9 +17,6 @@ This is a "note" callout.
 This is an "example" callout.
 {: .example }
 
-This is a "highlight" callout.
-{: .callout--highlight }
-
 <aside class="news-coverage callout">
   <h2>News callout</h2>
   <ul>
