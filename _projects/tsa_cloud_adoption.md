@@ -18,7 +18,7 @@ project_members:
   - shashank-khandelwal
 technologies:
   - Amazon Web Services
-  - Microsoft Azure Stack
+  - Microsoft Azure
   - Octopus Deploy
   - Jenkins
   - Splunk

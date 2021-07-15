@@ -21,9 +21,8 @@ project_members:
   - ari-perez
 technologies:
   - HTML / CSS
-  - JavaScript / React
+  - JavaScript / React / TypeScript
   - Carbon Design System
-  - TypeScript
   - Node
   - APIs
   - GraphQL
