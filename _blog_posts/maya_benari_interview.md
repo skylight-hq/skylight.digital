@@ -51,4 +51,4 @@ Now, I'm working on the future of design systems for BESPIN, a digital center of
 
 **Maya Benari:** If you want to be part of a growing company, where the work is meaningful, you'll feel supported, and learn something new every day, then join!
 
-**Chris Cairns: Maya, thank you for taking the time to share with us. You're amazing, and we're so honored to have you on the team. To our readers, if you're interested in engaging with Maya to help learn how to make effective use of design systems, [we'd love to hear from you](/connect/contact/)**
+**Chris Cairns: Maya, thank you for taking the time to share with us. You're amazing, and we're so honored to have you on the team. To our readers, if you're interested in engaging with Maya to help learn how to make effective use of design systems, [we'd love to hear from you](/connect/contact/).**
