@@ -62,11 +62,8 @@
   }
 
   .employee-img {
-    @include border-radius($border-radius);
-
-    @include media-breakpoint-up(lg) {
-      height: 226px;
-    }
+    border-radius: 100%;
+    height: auto;
   }
 
   .accordion-card-body {
@@ -78,11 +75,6 @@
   }
 
   .image-list {
-    img {
-      max-height: 183px;
-      width: auto;
-    }
-
     .image-list-img {
       text-align: center;
     }
