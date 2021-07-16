@@ -2185,3 +2185,25 @@
       link: https://www.linkedin.com/in/laurawkerry/
       link_description: Laura's LinkedIn Account
       fa_icon_name: linkedin
+- name: emma-stephenson
+  fname: Emma
+  lname: Stephenson
+  full_name: Emma Stephenson
+  short_name: E. Stephenson
+  profile_path: /company/about/#emma-stephenson
+  image: /img/people/emma-stephenson.jpg
+  image_description: Photo of Emma Stephenson
+  position: Software Engineer
+  bio: >
+    Emma's a software engineer with a passion for creating user-centered products. She previously worked at Google, and is experienced in a number of different technical areas, including APIs, microservices, and DevOps. Emma lives in California.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/emma-stephenson-85849bb9
+      link_description: Emma's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/emmastephenson
+      link_description: Emma's GitHub Account
+      fa_icon_name: github
