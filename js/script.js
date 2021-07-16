@@ -392,5 +392,17 @@ $(function() {
 $(function() {
   if (pathEndsWith("/company/about/")) {
     $(".employees-row").randomize(undefined, "div.employee-col");
+    
+    var hash = window.location.hash;
+    if(hash){
+      $(hash)[0].scrollIntoView(true);
+
+      function scroll() {
+        var hash = window.location.hash;
+        $(hash)[0].scrollIntoView(true);
+      }
+
+      setTimeout( scroll, 300 ); 
+    }
   }
 })
