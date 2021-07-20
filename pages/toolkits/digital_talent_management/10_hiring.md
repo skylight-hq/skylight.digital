@@ -52,7 +52,7 @@ Get together as a hiring team to discuss and agree on how you'll evaluate candid
 
 To create a fair and consistent process:
 
-- Set criteria for screening resumes &mdash; document this criteria in a checklist, using the job description as a guide
+- Set criteria for screening resumes &mdash; document this criteria in a checklist using the job description as a guide
 - Decide on the phone screen and interview questions in advance
 - Ask all candidates the same questions in the same order
 - Ensure that the questions actually test skills and experiences relevant to the position
@@ -78,7 +78,7 @@ Look for red flags, like an applicant who has:
 
 Suggested duration: 30 minutes.
 
-For most roles, these can be conducted by HR. If you're interviewing for leadership and executive roles, it might be better that this is done by a subject matter expert.
+For most roles, these can be conducted by HR. If you're interviewing for leadership and executive roles, it might be better for this to be done by a subject matter expert.
 
 Use the phone screen to determine if the candidate has the qualifications necessary to do the job. You're deciding who you'll bring in for an in-depth, in-person interview.
 
