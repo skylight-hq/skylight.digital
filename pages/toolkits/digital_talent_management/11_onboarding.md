@@ -50,7 +50,7 @@ Preparing for your new employee starts well before their first day. You'll want 
     - Facilitate meeting people
     - Provide them with any informal context to the work and relationships
     - Answer any questions about cultural norms, etc.
-- Send them any first day instructions, such as what documents to bring, what time to come in, dress code, etc.
+- Send them any first day instructions, such as what documents to bring, what time to come in, and dress code
 
 ### On the first day
 
