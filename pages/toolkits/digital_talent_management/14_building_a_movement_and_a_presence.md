@@ -21,7 +21,7 @@ Building this presence will help you:
 
 ## Define and understand your audience
 
-Define your target audiences with an understanding of what you would like to communicate to them and what they'd like to get from you. Since resources and capacity are rarely unlimited, it's best to identify two to three primary audiences to focus on in your communications and engagement efforts.
+Define your target audiences with an understanding of what you'd like to communicate to them and what they'd like to get from you. Since resources and capacity are rarely unlimited, it's best to identify two to three primary audiences to focus on in your communications and engagement efforts.
 
 Your target audience may vary over time. For example, as you stand up your team, you might focus on attracting new recruits. As your team matures, your target audiences could expand to include the public, government leaders and legislators, and other, similar digital teams. Identifying and understanding your audience and objectives from the start will also allow you to evaluate the impact of your communication activities later on and adjust them accordingly.
 
@@ -87,7 +87,7 @@ Invite your team to share more and more often. Ask your team to write about the 
 
 - The work is transparent to the public and other government officials
 - Potential job applicants understand the types of projects they'll be involved in and they might even apply to work on specific projects
-- The barriers between teams are lower, because other teams know what you're working on
+- The barriers between teams are lower because other teams know what you're working on
 - You're building a repository of the team's work as you share it
 
 When you share your work techniques in blogs or in workshops, this helps:
