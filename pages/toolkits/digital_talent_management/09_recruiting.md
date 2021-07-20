@@ -25,7 +25,7 @@ Building a reputation as an organization committed to digital talent takes time.
 
 **Be active in the civic technology community.** Encourage members of your team to attend and speak at conferences, meetups, and other events. When the time comes to hire, the caliber of candidates will reflect your authentic engagement with the community.
 
-For more details, see the [Building a movement and a presence](/work/toolkits/digital-talent-management/building-a-movement-and-a-presence/) section.
+For more details, see the [building a movement and a presence](/work/toolkits/digital-talent-management/building-a-movement-and-a-presence/) section.
 
 ## Write an appealing position description
 
