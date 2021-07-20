@@ -11,7 +11,7 @@ sidenav: digital_talent_management
 
 ## Create teams of digital talent
 
-Improving digital services requires organizational change, and it takes a team approach to get the traction needed. Create agile, cross-functional, and self-organizing digital teams around critical services. For example, you might want to put a team in place to focus on driver's license and renewal services. Another team might focus on vehicle registration. Digital talent is more effective in focused teams, because digital teams will have an easier time introducing new methodologies to the organization.
+Improving digital services requires organizational change, and it takes a team approach to get the traction needed. Create agile, cross-functional, and self-organizing digital teams around critical services. For example, you might want to put a team in place to focus on driver's license and renewal services. Another team might focus on vehicle registration. Digital talent is more effective in focused teams because digital teams will have an easier time introducing new methodologies to the organization.
 
 ## Keep teams small
 
@@ -26,7 +26,7 @@ A small team is often going to be more efficient and effective than a larger tea
 - **Save time.** Fewer people means you can spend less time learning how to work together and more time getting the work done.
 - **Focus on quality, not quantity.** A small team may do fewer things at once, but they will do them right the first time.
 
-When you're putting together a core digital team for product or service, aim for a team of no more than 6 to 8 people.
+When you're putting together a core digital team for product or service, aim for a team of no more than six to eight people.
 
 ## Encourage collaboration
 
@@ -50,7 +50,7 @@ Most digital teams should have at least one of each role described below.
 
 Developers design, implement, and maintain software applications. Developers may do this for custom software applications or commercial off-the-shelf software (COTS).
 
-**Frontend software developers** build user-facing components. They work with user experience (UX) and visual designers. **Backend engineers** work with frontend engineers to build services that drive the interface. The software developers on your team:
+**Front-end software developers** build user-facing components. They work with user experience (UX) and visual designers. **Back-end engineers** work with front-end engineers to build services that drive the interface. The software developers on your team:
 
 - Write and maintain custom software applications
 - Configure and customize COTS applications
@@ -98,7 +98,7 @@ UX researchers learn about and empathize with the users of your service. They te
 
 ### UX designer
 
-UX designers turn user research into interactions and interfaces that work for everybody. They design how someone will interact with a service. UX designers work closely with UX researchers, visual designers, content strategists, and frontend engineers. Their key responsibilities are to:
+UX designers turn user research into interactions and interfaces that work for everybody. They design how someone will interact with a service. UX designers work closely with UX researchers, visual designers, content strategists, and front-end engineers. Their key responsibilities are to:
 
 - Generate low-fidelity prototypes
 - Work closely with visual designers to define the look and feel of applications
@@ -106,7 +106,7 @@ UX designers turn user research into interactions and interfaces that work for e
 
 ### Visual designer
 
-Visual designers build the look and feel of the service. They ensure that the design provides a consistent and accessible user experience. Good design reflects the purpose of the service. Veterans' benefits applications should look different from picnic table reservations. Visual designers work closely with UX designers, content strategists, and frontend developers. They:
+Visual designers build the look and feel of the service. They ensure that the design provides a consistent and accessible user experience. Good design reflects the purpose of the service. Veterans' benefits applications should look different from picnic table reservations. Visual designers work closely with UX designers, content strategists, and front-end developers. They:
 
 - Build the visual style guide for the application
 - Design implementation-ready interfaces
@@ -148,7 +148,7 @@ When you're developing custom software, you'll need representation from all of t
 
 ## Checklist
 
-- Create cross-functional teams of digital talent of no more than 6 to 8 people each
+- Create cross-functional teams of digital talent of no more than six to eight people each
 - Decide the composition of your team based on the type of project: COTS, mostly contracted out, or custom software built in-house
 - Vary the size and composition of your team based on which phase your project is in: discovery, alpha, beta, live
 {: .list-checklist}
