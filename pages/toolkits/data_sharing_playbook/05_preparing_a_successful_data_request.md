@@ -12,7 +12,7 @@ content_type: Toolkit
 
 The steps below are best practices for making data requests. Data owners are frequently overburdened with daily operations. You can make it as easy as possible for them to fulfill your request by planning carefully and addressing all of the relevant questions up front.
 
-## Design questions that can be answered with data.
+## Design questions that can be answered with data
 
 Before you can make an effective data request, you need to know exactly what you're looking for and why. Below are some questions to answer before moving forward.
 
@@ -44,7 +44,7 @@ Solving a series of subproblems is almost always easier than solving a whole pro
 
 In particular, what's a good "first step" to tell quickly whether or not you're on the right track? (This is called "failing fast," which is a good practice to save time and energy by weeding out solutions that won't be productive.)
 
-## Identify the data.
+## Identify the data
 
 - Before you can request data, you'll need to identify the agency and program that's likely to have the data you're looking for.
 - Search for any public data dictionaries or reports that can tell you what data is available.
@@ -52,7 +52,7 @@ In particular, what's a good "first step" to tell quickly whether or not you're 
 
 Once you've identified the data source, reach out for any standardized processes the agency may have for making data requests. Each agency will have their own process.
 
-## Establish credibility.
+## Establish credibility
 
 Data owners are accountable for the proper use and security of their data. In order to evaluate the risks and benefits of sharing data, they'll require an explanation of how you plan to protect and use it. The data owner's agency will have its privacy and security processes, and your practices will need to comply with them. When requesting data, you should be prepared to explain:
 
@@ -75,16 +75,16 @@ Data owners are accountable for the proper use and security of their data. In or
 - [Safeguarding data: Understand the laws that govern these critical data elements](/work/toolkits/data-sharing-playbook/safeguarding-data#understand-the-laws-that-govern-critical-data-elements)
 </div>
 
-## Make the case for data sharing.
+## Make the case for data sharing
 
-An effective data request starts with a clear description of why the requested data is important to both parties' missions and what you plan to achieve with the data. Understand the data owner's possible motivation to take on the data sharing project:
+An effective data request starts with a clear description of why the requested data is important to the missions of both parties and what you plan to achieve with the data. Understand the data owner's possible motivation to take on the data sharing project:
 
 - Will this request improve services or data quality for the partner?
 - How will residents or staff be better served?
 
 To ensure full and sustained participation, each party involved in the data sharing effort should be able to see direct benefits from their involvement.
 
-It may also help to think about how you will respond if your first request is denied. Here are some common reasons data providers deny requests according to the National Neighborhood Indicators Partnership:
+It may also help to think about how you'll respond if your first request is denied. Here are some common reasons data providers deny requests according to the National Neighborhood Indicators Partnership:
 
 - "Preparing the file will burden our already-overworked staff."
 - "I'm afraid of being burned by bad publicity."
@@ -97,7 +97,7 @@ It may also help to think about how you will respond if your first request is de
 - [Why Data Providers Say No...And Why They Should Say Yes](https://www.neighborhoodindicators.org/library/guides/why-data-providers-say-noand-why-they-should-say-yes)
 </div>
 
-## Specify the parameters of the request.
+## Specify the parameters of the request
 
 The data owner needs to understand exactly how to fulfill the request. Some useful parameters or filters to consider include:
 
@@ -106,6 +106,6 @@ The data owner needs to understand exactly how to fulfill the request. Some usef
 - Specific datasets or databases
 - Filters such as age, people tied to a specific program, or geography
 
-## Keep the scope and timeframe realistic.
+## Keep the scope and timeframe realistic
 
 Ensure that the data owner can fulfill the data request in a reasonable timeframe and with their available resources. If a data request is too taxing on the data owner, they may reject the request until the parameters change or the requester offers additional resources. Consider the time required for crafting and signing and data sharing agreement.
