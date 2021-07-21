@@ -59,7 +59,7 @@ Data owners are accountable for the proper use and security of their data. In or
 - What your objective is (that is, the question you would like to answer)
 - How a partnership with the sister agency can you help answer that question, and how that question is a shared inquiry for both agencies
 - What data you need to study your objective (including as much specific discussion of the fields of interest as possible)
-- How you'll account for potential sources of implicit bias in the data you're requesting (see [Review data for implicit biases for more information](/work/toolkits/data-sharing-playbook/enabling-data-sharing#review-data-for-implicit-biases))
+- How you'll account for potential sources of implicit bias in the data you're requesting (see the section [review data for implicit biases](/work/toolkits/data-sharing-playbook/enabling-data-sharing#review-data-for-implicit-biases) for more information)
 - Why you need that data and what you hope to gain or analyze from the data
 - Who'll have access to the data if you receive it
 - How you'll ensure that the data is handled ethically, safely, and securely, particularly in reference to the sister agency's data practices
