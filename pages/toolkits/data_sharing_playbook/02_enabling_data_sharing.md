@@ -109,7 +109,7 @@ First, be open about the limitations of the agency's data to reduce the likeliho
 
 A clearly documented data request process can facilitate successful requests. This section covers some of the supporting documents to develop as part of a comprehensive data request process.
 
-Remember that the data request process must abide by the regulations and laws that apply to each dataset. For more detailed information, refer to [Establish a privacy policy](/work/toolkits/data-sharing-playbook/safeguarding-data#establish-a-privacy-policy).
+Remember that the data request process must abide by the regulations and laws that apply to each dataset. For more detailed information, refer to the section on [establishing a privacy policy](/work/toolkits/data-sharing-playbook/safeguarding-data#establish-a-privacy-policy).
 
 ### Request form
 
