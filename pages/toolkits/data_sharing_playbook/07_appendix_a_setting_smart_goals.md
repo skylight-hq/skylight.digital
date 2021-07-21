@@ -27,7 +27,7 @@ Here's what a SMART goal might look like:
 *We will decrease the average on-hold wait time from 2 minutes to 1 minute by the end of 2020.*
 {: .pl-4}
 
-Based on this, it's easy to determine what data you will need:
+Based on this, it's easy to determine what data you'll need:
 
 - Current average on-hold wait time
 - Average on-hold wait time between now and the end of 2020
