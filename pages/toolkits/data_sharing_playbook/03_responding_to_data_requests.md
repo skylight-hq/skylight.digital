@@ -12,22 +12,22 @@ content_type: Toolkit
 
 Having an established protocol for responding to a request for data will save you time and effort (see [Develop a data request process](/work/toolkits/data-sharing-playbook/enabling-data-sharing#develop-a-data-request-process)). The following suggestions will help you respond smoothly to different types of requests.
 
-## Ask key questions up front.
+## Ask key questions up front
 
 Establish a process for how key questions are asked, answered, and documented. We've included a detailed list of questions to ask in the section above about [developing a request process](/work/toolkits/data-sharing-playbook/enabling-data-sharing#develop-a-data-request-process), but here are the main areas to cover:
 
 - What's the purpose of the request?
 - How does the requester plan to use the data?
 - Who'll have access to the data?
-- What's the specific data they are requesting and what are the specific parameters?
+- What's the specific data that they're requesting and what are the specific parameters?
 
 If the requester is planning to combine data with another dataset, this will require careful review and consideration from both teams. This could be a complex process and we've included some discussion of data linking in [Appendix B](/work/toolkits/data-sharing-playbook/appendix-b-linking-datasets).
 
-## Identify the type of legal data sharing agreement you will need.
+## Identify the type of legal data sharing agreement you'll need
 
 Legal counsel will advise you on the specific type of legal agreement needed to share data. However, the information below can help frame productive conversations with your data-sharing partners.
 
-The type of agreement you will need depends on factors like:
+The type of agreement you'll need depends on factors like:
 
 - Whether the data contains personally identifiable information (PII)
 - The sensitivity of the data requested
