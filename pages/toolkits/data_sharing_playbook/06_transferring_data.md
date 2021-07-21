@@ -10,13 +10,13 @@ content_type: Toolkit
 
 # Transferring data
 
-## De-identify data as needed.
+## De-identify data as needed
 
 Depending on the data request, the data owner may need to de-identify data in order to protect the privacy and rights of individuals. There are a number of ways to de-identify data, and these are summarized below.
 
 ### Removing PII and confidential data
 
-One way to de-identify data is to remove all of the fields that could be used to identify a specific individual from the data. Examples include names, phone numbers, and birthdays. (For more information about confidential data, see the section [Document critical data elements](/work/toolkits/data-sharing-playbook/safeguarding-data#document-critical-data-elements).)
+One way to de-identify data is to remove all of the fields that could be used to identify a specific individual from the data. Examples include names, phone numbers, and birthdays. (For more information about confidential data, see the section [document critical data elements](/work/toolkits/data-sharing-playbook/safeguarding-data#document-critical-data-elements).)
 
 ### Aggregating data
 
@@ -33,7 +33,7 @@ When aggregating data, it's important to ensure that groups aren't split up so m
 - [Guide to Basic Data Anonymization Techniques](https://iapp.org/media/pdf/resource_center/Guide_to_Anonymisation.pdf)
 </div>
 
-## Choose the right method for transferring data.
+## Choose the right method for transferring data
 
 Once the parties have agreed to share data, it's time to consider the logistics of transferring the data. The method will vary based on the sensitivity of the data.
 
