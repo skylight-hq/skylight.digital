@@ -10,7 +10,7 @@ content_type: Toolkit
 
 # Responding to data requests
 
-Having an established protocol for responding to a request for data will save you time and effort (see [Develop a data request process](/work/toolkits/data-sharing-playbook/enabling-data-sharing#develop-a-data-request-process)). The following suggestions will help you respond smoothly to different types of requests.
+Having an established protocol for responding to a request for data will save you time and effort. The following suggestions will help you respond smoothly to different types of requests.
 
 ## Ask key questions up front
 
