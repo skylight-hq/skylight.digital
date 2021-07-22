@@ -130,7 +130,7 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
       <div class="col-sm-11">
         <div class="form-check">
           <input class="form-check-input" type="radio" name="soup" value="frenchonion" id="frenchonion-2" title="French onion">
-          <label class="form-check-label" for="frenchonion-2">French onion</label>
+          <label class="form-check-label" for="frenchonion-2">Onion</label>
         </div>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken Noodle">
