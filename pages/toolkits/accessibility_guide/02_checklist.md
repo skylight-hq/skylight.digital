@@ -11,7 +11,7 @@ toolkit_name: accessibility-guide
 
 # Checklist
 
-This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: **A**, **B** and, **C**. Please check and address these issues in the order in which they appear:
+This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: **A**, **B**, and **C**. Please check and address these issues in the order in which they appear:
 
  * **A &ndash;** Critical issues that'll cause serious problems and/or stop most users of assistive technology from using the site.
  * **B &ndash;** Issues that may cause problems or increased frustration for certain users.
