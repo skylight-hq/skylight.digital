@@ -133,8 +133,8 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
           <label class="form-check-label" for="frenchonion-2">Onion</label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken Noodle">
-          <label class="form-check-label" for="chicken-2">Chicken Noodle</label>
+          <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken noodle">
+          <label class="form-check-label" for="chicken-2">Chicken noodle</label>
         </div>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="soup" value="tomato" id="tomato-2" title="Tomato">
