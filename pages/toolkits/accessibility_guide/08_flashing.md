@@ -45,4 +45,4 @@ Failure at any step below constitutes a 508 compliance issue.
   </div>
 </div>
 
-This blinking text fails because the rate of flashing can't be determined and its greater than 3Hz.
+This blinking text fails because the rate of flashing can't be determined and it's greater than 3Hz.
