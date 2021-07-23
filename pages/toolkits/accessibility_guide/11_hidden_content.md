@@ -112,11 +112,11 @@ Items with `aria-hidden="true"` are always ignored by the screen reader. This is
 - Repetitive information
 - Off-screen content
 
-If an element has multiple states, it's visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden="false"` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS.
+If an element has multiple states, its visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden="false"` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS.
 
 ## CSS
 
-CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here,
+CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here:
 
 ```css
 .sr-only {
