@@ -11,9 +11,9 @@ toolkit_name: accessibility-guide
 
 # Headings
 
-When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/).
+When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see the section on [landmarks](../landmarks/).
 
-When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site, and on other pages this may be the page title. Use the `<h1>` element once per page &mdash; some assistive technology may be unable to read multiple `<h1>`s on a single page correctly. Other heading levels may be used more than once following document outline order.
+When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site, and on other pages this may be the page title. Use the `<h1>` element once per page &mdash; some assistive technology may be unable to read multiple `<h1>` element's on a single page correctly. Other heading levels may be used more than once following document outline order.
 
 <div class="callout--tip" markdown='1'>
 #### Note
@@ -118,4 +118,4 @@ This section has a main category and two subcategories. The subcategories are on
 </div>
 ```
 
-This section has several issues. The first subcategory has a lower value than the main category. The second subcategory has skipped a heading level which while is better, this can cause confusion as it's not clear if this category is the subcategory of `Category` or `Subcategory 1`
+This section has several issues. The first subcategory has a lower value than the main category. The second subcategory has skipped a heading level which, while better, can cause confusion as it's not clear if this category is the subcategory of `Category` or `Subcategory 1`
