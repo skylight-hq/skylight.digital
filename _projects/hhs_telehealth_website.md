@@ -159,7 +159,7 @@ source_code_url:
   </ul>
 
   <p>
-    Following the initial launch, we've since revised and released new content, such as:
+    Following the initial launch, we revised and released new content, such as:
   </p>
 
   <ul>
@@ -191,6 +191,10 @@ source_code_url:
     <li>
       Held interviews and unmoderated research studies with over 75 participants ahead of the first launch
     </li>
+  
+    <li>
+      Rapidly expanded the site's content, including several best-practice guides
+    </li>
 
     <li>
       Reached over 375,000 people across the country, from April 2020 to March 2021
@@ -201,7 +205,7 @@ source_code_url:
     </li>
 
     <li>
-      Laid the foundation for HRSA to expand the site in partnership with a large contractor
+      Successfully transitioned the site and scope of our services to a large contractor
     </li>
   </ul>
 {% endcapture %}
