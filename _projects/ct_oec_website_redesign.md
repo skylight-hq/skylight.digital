@@ -32,6 +32,7 @@ practices:
   - Product management
   - User research
   - User experience design
+  - Visual design
   - Design system
   - Content strategy
   - Content design

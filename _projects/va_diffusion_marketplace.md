@@ -32,10 +32,13 @@ technologies:
 practices:
   - User research
   - Design studios
-  - User experience design
   - Comparative analysis
   - Technical discovery
+  - User experience design
+  - Branding design
+  - Visual design
   - Design system
+  - Accessibility design
   - Responsive web design
   - Agile development
   - DevSecOps
