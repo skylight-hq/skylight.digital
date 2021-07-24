@@ -193,7 +193,7 @@ source_code_url:
     </li>
   
     <li>
-      Rapidly expanded the site's content, including several best-practice guides
+      Rapidly expanded the site's content within months, including several best-practice guides
     </li>
 
     <li>
