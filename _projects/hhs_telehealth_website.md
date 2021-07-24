@@ -158,28 +158,28 @@ source_code_url:
     </li>
   </ul>
 
-    <p>
-      Following the initial launch, we've since revised and released new content, such as:
-    </p>
+  <p>
+    Following the initial launch, we've since revised and released new content, such as:
+  </p>
 
-    <ul>
-      <li>
-        Best-practice guides for providers, on specialized topic areas such as telehealth in emergency
-        departments and direct-to-consumer telehealth
-      </li>
+  <ul>
+    <li>
+      Best-practice guides for providers, on specialized topic areas such as telehealth in emergency
+      departments and direct-to-consumer telehealth
+    </li>
 
-      <li>
-        Tips for finding free or low-cost telehealth services through a health center
-      </li>
+    <li>
+      Tips for finding free or low-cost telehealth services through a health center
+    </li>
 
-      <li>
-        Medicare policy and billing updates
-      </li>
+    <li>
+      Medicare policy and billing updates
+    </li>
 
-      <li>
-        How to improve telehealth access, equity, and accessibility
-      </li>
-    </ul>
+    <li>
+      How to improve telehealth access, equity, and accessibility
+    </li>
+  </ul>
 {% endcapture %}
 
 {% capture results %}
@@ -199,7 +199,7 @@ source_code_url:
     <li>
       75% of all responses to "Is this page useful?" survey have been "yes"
     </li>
-  
+
     <li>
       Laid the foundation for HRSA to expand the site in partnership with a large contractor
     </li>
