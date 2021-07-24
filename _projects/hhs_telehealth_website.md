@@ -193,15 +193,15 @@ source_code_url:
     </li>
 
     <li>
-      Laid the foundation to expand this work in partnership with HRSA
-    </li>
-
-    <li>
       Reached over 375,000 people across the country, from April 2020 to March 2021
     </li>
 
     <li>
       75% of all responses to "Is this page useful?" survey have been "yes"
+    </li>
+  
+    <li>
+      Laid the foundation for HRSA to expand the site in partnership with a large contractor
     </li>
   </ul>
 {% endcapture %}
