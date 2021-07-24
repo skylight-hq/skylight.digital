@@ -686,7 +686,7 @@
     Abby's a former member of the U.S. Digital Service, who's drawn to complex problems
     and passionate about improving the human experience of technology. She specializes in
     product management and UX research. Abby lives in Texas.
-  active: true
+  active: false
   order: 80
   socials:
     - name: Twitter
@@ -1060,7 +1060,7 @@
     improving government services through the integration of smart digital
     solutions. She most recently worked as an employee of NYC government,
     building sites and services to increase data access. She lives in New York.
-  active: true
+  active: false
   order: 178
   socials:
     - name: LinkedIn
@@ -1724,7 +1724,7 @@
     18F and the Beeck Center for Social Impact and Innovation. Ori's also worked in
     TV, radio, and digital media &mdash; on both the journalism and corporate communications
     sides. He lives in Virginia.
-  active: true
+  active: false
   order: 450
   socials:
     - name: Twitter
@@ -2094,7 +2094,7 @@
   position: DevOps Engineer
   bio: >
     Andrew's passionate about creating great developer experiences through DevOps. He's spent over 15 years with the Air Force as a service member. Andrew specializes in DevOps engineering, software engineering, and cloud computing. He lives in Washington.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
