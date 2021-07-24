@@ -39,13 +39,14 @@ technologies:
   - Amazon Web Services
 practices:
   - Product management
+  - Lean startup
   - Service design
   - User research
+  - Comparative analysis
   - Design studios
   - User experience design
-  - Comparative analysis
-  - Lean startup
-  - User growth marketing
+  - Branding design
+  - Visual design
   - Technical discovery
   - Design system
   - Responsive web design
@@ -55,6 +56,7 @@ practices:
   - DevSecOps
   - Containerization
   - Cloud hosting
+  - User growth marketing
 news_posts:
   - title: New direction for female-specific flight equipment
     url: https://www.af.mil/News/Article-Display/Article/1801680/new-direction-for-female-specific-flight-equipment/
@@ -99,7 +101,7 @@ source_code_url:
   content = "In certain situations, having ill-fitting gear, such as harnesses and survival vests, can result in a loss of life. If an aircrew member ejects from the aircraft with equipment that doesn't fit, they can be severely injured or lose their life."
   cite_name = "Captain Lauren Ellis"
   cite_title = "U.S. Air Force"
-%} 
+%}
 {% endcapture %}
 
 {% capture solution %}

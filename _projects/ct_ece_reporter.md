@@ -42,10 +42,11 @@ technologies:
   - Git / GitHub
 practices:
   - Product management
+  - Lean startup
   - User research
   - Technical discovery
   - User experience design
-  - Lean startup
+  - Visual design
   - Design system
   - Responsive design
   - Accessibility design

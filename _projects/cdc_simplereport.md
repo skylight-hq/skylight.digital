@@ -52,6 +52,8 @@ practices:
   - User experience design
   - Generative user research
   - Evaluative user research
+  - Branding design
+  - Visual design
   - Content strategy
   - Content design
   - Content guidelines

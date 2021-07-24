@@ -43,6 +43,7 @@ technologies:
 practices:
   - User research
   - User experience design
+  - Visual design
   - Usability testing
   - Content strategy
   - Content design
