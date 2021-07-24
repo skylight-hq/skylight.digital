@@ -50,7 +50,7 @@ source_code_url:
 
 {% capture solution %}
   <p>
-    To best support the NextGen HR and Pay team, we leveraged our existing expertise and previous work on the <a href="/work/experience/agile-acquisition-framework/">Agile Acquisition Framework</a> to establish 13 criteria areas that represent leading principles for agile procurement:
+    To best support the NextGen HR and Pay team, we leveraged our existing expertise and previous work on the <a href="{{site.baseurl}}/work/experience/agile-acquisition-framework">Agile Acquisition Framework</a> to establish 13 criteria areas that represent leading principles for agile procurement:
   </p>
 
   <table class="post-table">
