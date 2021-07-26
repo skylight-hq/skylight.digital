@@ -76,7 +76,7 @@ As a general principle when deciding which payment strategy to use, you want to 
 
 ## Resolving technical debt
 
-After deciding upon the payment strategy, the next step is to implement the fixes to your product. This requires fitting the work into your development cycles:
+After deciding on the payment strategy, the next step is to implement the fixes to your product. This requires fitting the work into your development cycles:
 
 * **Refactor with every feature or fix**. Every time there's a new feature that depends on code that's fragile or bug-ridden, include extra time to create a sound foundation for the new improvements.
 * **Quality improvement every iteration or release**. The product development team sets aside a dedicated percentage of time (for example, 10 percent) every iteration or release to pay down technical debt. If for any reason there aren't any priority bug fixes, the team can work on improving test coverage and refactoring areas of the codebase that'll likely be needed for upcoming sprints.
