@@ -55,6 +55,34 @@
   .page-subfooter-cta-col a {
     border-color: $heading-color;
   }
+
+  .hero-container {
+    min-height: 236px;
+
+    @include media-breakpoint-up(lg) {
+      min-height: 294px;
+    }
+  }
+
+  .hero-banner {
+    background-position: top -49px center;
+    background-size: initial !important;
+    position: relative;
+
+    // &::after {
+    //   background-image: url(/img/shapesbg-right.svg);
+    //   background-repeat: repeat-x;
+    //   background-size: initial;
+    //   height: 100%;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   opacity: .7;
+    //   z-index: 0;
+    //   content: "";
+    //   width: 100%;
+    // }
+  }
 }
 
 .page-subfooter-header-row {
@@ -108,13 +136,6 @@
       color: $white;
     }
   }
-}
-
-// Testimonial CTA
-.testimonial {
-}
-
-.testimonial-row {
 }
 
 .testimonial-col {
