@@ -36,14 +36,22 @@ technologies:
   - Chromatic
   - U.S. Web Design System
   - Figma
-  - JavaScript / React / TypeScript
-  - Liquibase with PostgreSQL
+  - React in TypeScript with Apollo
+  - Nightwatch
   - Java / Spring Boot
+  - GraphQL
+  - Liquibase
+  - SmartyStreets
+  - PostgreSQL
   - Terraform
-  - GraphQL / Apollo
   - Microsoft Azure
+  - Docker
   - Okta
   - Experian
+  - Twilio
+  - SendGrid
+  - GitHub
+  - SonarCloud
 practices:
   - Product management
   - Lean startup
