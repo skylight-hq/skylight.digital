@@ -100,13 +100,13 @@ On a broader scale, writing about your work helps other digital services teams g
 
 Sharing your work doesn't always have to be long-form articles. Embrace the conventional and unconventional. For example, you can share work effectively through threads and posts on Twitter. We've included some examples below.
 
-![]({{ site.baseurl }}/img/toolkits/talent/image5.png){:class="w-100 mw-mobile-lg border p-3"}
+![]({{ site.baseurl }}/img/toolkits/talent/waldo-jaquith.png){:class="w-100 mw-mobile-lg border p-3"}
 {: .mb-0"}
 
-[Tweet source](https://twitter.com/MassGovDigital/status/1055878033415041024)
+[Tweet source](https://twitter.com/waldojaquith/status/1190300713676611585)
 {: .caption .mb-5}
 
-![]({{ site.baseurl }}/img/toolkits/talent/image4.png){:class="w-100 mw-mobile-lg border p-3"}
+![]({{ site.baseurl }}/img/toolkits/talent/matt-cutts.png){:class="w-100 mw-mobile-lg border p-3"}
 
 [Tweet source](https://twitter.com/mattcutts/status/1195524566602395649)
 {: .caption .mb-5}
