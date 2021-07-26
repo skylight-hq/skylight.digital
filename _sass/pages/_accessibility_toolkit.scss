@@ -29,7 +29,7 @@
     &::after {
       display: inline-block;
       content: '  ';
-      background-image: url('/img/accessibility/check-circle.svg');
+      background-image: url('/img/toolkits/accessibility/check-circle.svg');
       color: $brand-success;
       background-size: 18px 18px;
       height: 18px;
@@ -45,7 +45,7 @@
     &::after {
       display: inline-block;
       content: '  ';
-      background-image: url('/img/accessibility/times-circle.svg');
+      background-image: url('/img/toolkits/accessibility/times-circle.svg');
       background-size: 18px 18px;
       color: $sk-red;
       height: 18px;

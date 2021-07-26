@@ -233,7 +233,7 @@ $icon-size: 2rem;
   background-color: $ochre-20;
 
   &::before {
-    background: url(/img/alert/tip.svg) no-repeat center/$icon-size;
+    background: url(/img/icons/tip.svg) no-repeat center/$icon-size;
   }
 }
 
@@ -242,7 +242,7 @@ $icon-size: 2rem;
   background-color: $blue-20;
 
   &::before {
-    background: url(/img/alert/info.svg) no-repeat center/$icon-size;
+    background: url(/img/icons/info.svg) no-repeat center/$icon-size;
   }
 }
 
