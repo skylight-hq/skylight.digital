@@ -11,11 +11,11 @@ toolkit_name: accessibility-guide
 
 # iFrames
 
-When using `iFrame`s, it's important that all content contained in them is accessible.
+When using `iFrame` elements, it's important that all content contained in them is accessible.
 
 ## Testing
 
-1. Identify all `iFrame`s on a page.
+1. Identify all `iFrame` elements on a page.
 2. Using the keyboard, navigate to each frame to ensure content is accessible.
 3. Check the `title` or `name` attribute of each frame for a description of the content.
 

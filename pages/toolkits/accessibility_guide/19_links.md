@@ -13,7 +13,7 @@ toolkit_name: accessibility-guide
 
 Links are commonly used to quickly navigate a site when someone is using AT. Often, screen reader users won't read through an entire page to find what they are looking for. They simply move from link to link.
 
-Things become problematic when links only make sense with context. Links such as "Click Here" or "Read more" don't make sense without that visual context. It's important that we inspect our sites for these types of links. These links can be made accessible using `title` or `ARIA` attributes, but this isn't ideal. The ideal method for making these links accessible is just to write better link text.
+Things become problematic when links only make sense with context. Links such as "Click here" or "Read more" don't make sense without that visual context. It's important that we inspect our sites for these types of links. These links can be made accessible using `title` or `ARIA` attributes, but this isn't ideal. The ideal method for making these links accessible is just to write better link text.
 
 The other issue screen reader and keyboard users come across is lengthy nav bars. These are usually made up of a list of links and with compound menus. They can be quite lengthy to tab through. To alleviate these pains, a skip navigation link should be provided. This is the first link on the page and jumps to an anchor with a `tabindex="-1"`.
 
@@ -56,15 +56,15 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 ### Passes
 
 <div class="example" markdown="1">
-  Home <br> <a href="../" title="home">Click Here</a>
+  Home <br> <a href="../" title="home">Click here</a>
 
-  Keyboard Access <br> <a href="../keyboard/" aria-label="Keyboard Access">Click Here</a>
+  Keyboard access <br> <a href="../keyboard/" aria-label="Keyboard access">Click here</a>
 </div>
 
 ```html
-Home <a href="../" title="home">Click Here</a>
+Home <a href="../" title="home">Click here</a>
 
-Keyboard Access <a href="../keyboard/" aria-label="Keyboard Access">Click Here</a>
+Keyboard access <a href="../keyboard/" aria-label="Keyboard access">Click here</a>
 ```
 
 These links aren't unique, but the ```title``` attribute in the first link gives a screen reader user context and the ```aria-label``` provides the context in the second link.
@@ -107,4 +107,4 @@ a.skip-link:hover, a.skip-link:active, a.skip-link:focus {
 }
 ```
 
-This is how the "Skip Navigation" was achieved for the accessibility site, feel free to use for your own site.
+This is how the "skip navigation" was achieved for the accessibility site. Feel free to use for your own site.
