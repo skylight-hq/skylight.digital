@@ -90,8 +90,12 @@
 }
 
 .pagination-alt {
-  display: flex;
-  justify-content: space-between;
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    justify-content: space-between;
+  }
 
   a {
     border-bottom: none;
