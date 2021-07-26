@@ -194,4 +194,4 @@ Looking at this table, the column headers all relate to the cells below. This is
 </table>
 ```
 
-This is an example of a complex table, all the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.
+This is an example of a complex table. All the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.

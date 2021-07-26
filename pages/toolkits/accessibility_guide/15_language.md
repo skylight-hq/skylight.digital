@@ -11,7 +11,7 @@ toolkit_name: accessibility-guide
 
 # Language
 
-Setting the language of your site allows assistive technology to interacts with your content correctly. Assistive technology will read foreign languages, but they need to know when the main language of the page and when the content's language differs from the page's default.
+Setting the language of your site allows assistive technology to interact with your content correctly. Assistive technology will read foreign languages, but it needs to know the main language of the page and when the content's language differs from the page's default.
 
 ## Testing
 
