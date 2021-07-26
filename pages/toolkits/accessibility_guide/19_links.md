@@ -107,4 +107,4 @@ a.skip-link:hover, a.skip-link:active, a.skip-link:focus {
 }
 ```
 
-This is how the "skip navigation" was achieved for the accessibility site, feel free to use for your own site.
+This is how the "skip navigation" was achieved for the accessibility site. Feel free to use for your own site.
