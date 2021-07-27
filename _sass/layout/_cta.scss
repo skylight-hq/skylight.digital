@@ -56,14 +56,6 @@
     border-color: $heading-color;
   }
 
-  .hero-container {
-    min-height: 236px;
-
-    @include media-breakpoint-up(lg) {
-      min-height: 294px;
-    }
-  }
-
   .hero-banner {
     background-position: top -49px center;
     background-size: initial !important;
