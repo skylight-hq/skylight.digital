@@ -88,8 +88,13 @@
 
 .hero-banner {
   background-position: top center;
-  background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
+
+  @include media-breakpoint-up(lg) {
+    background-size: 1140px;
+  }
 
   .hero-container {
     max-width: 510px;
