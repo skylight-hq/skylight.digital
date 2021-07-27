@@ -35,7 +35,7 @@ In a quick overview of the U.S. federal IT project landscape, [Brookings](https:
 Setting up the correct contracting strategy has the largest impact on the probability of success on most government products. Because of this importance, it's essential to measure performance indicators that track outcomes in order to:
 
 - Set direction and monitor the progress of the work
-- Intervene promptly when progress isn't tracking towards the product's objectives.
+- Intervene promptly when progress isn't tracking towards the product's objectives
 
 Procurement flexibility is the substrate underlying successful project management. Procurement flexibility can be defined as the ability to:
 
