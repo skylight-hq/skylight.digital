@@ -1,5 +1,5 @@
 digital_talent_management:
-  title: Digital Talent Management Handbook
+  title: Digital talent management handbook
   description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
   toc:
     - title: Introduction
@@ -36,7 +36,7 @@ digital_talent_management:
       url: /work/toolkits/digital-talent-management/appendix-a-sample-interview-questions/
 
 data_sharing_playbook:
-  title: Data Sharing Playbook
+  title: Data sharing playbook
   description: A guide for state & local agencies on how to improve cross-organizational data sharing.
   toc:
     - title: Introduction
@@ -57,7 +57,7 @@ data_sharing_playbook:
       url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets/
 
 accessibility_guide:
-  title: Accessibility Guide
+  title: Accessibility guide
   description: Tools and practices for making products and services accessible to everyone.
   toc:
     - title: Introduction
@@ -108,7 +108,7 @@ accessibility_guide:
       url: /work/toolkits/accessibility-guide/training-videos/
 
 agile_procurement_playbook:
-  title: Agile Procurement Playbook
+  title: Agile procurement playbook
   description: A guide on how to apply the principles of agile to procurement.
   toc:
     - title: Introduction
@@ -139,7 +139,7 @@ agile_procurement_playbook:
       url: /work/toolkits/agile-procurement-playbook/appendix-g-statement-of-objectives-examples/
 
 managing_technical_debt:
-  title: Managing Technical Debt Guide
+  title: Managing technical debt guide
   description: A guide on how to manage technical debt in software development projects.
   toc:
     - title: Introduction
