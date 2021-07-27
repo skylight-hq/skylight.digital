@@ -18,7 +18,7 @@ The purpose of this playbook is to introduce an agile procurement model for soft
 
 An agile procurement strategy includes stakeholders that traditionally might not have had a seat at the table during a product's initial planning phases. Because the strategy requires a greater understanding of a product's objectives along with the adoption of a modular contracting approach, the following roles will need to have early input on new products that'll be requiring procurements:
 
-- Agency contracting officer/specialist who's supporting the product,
+- Agency contracting officer/specialist who's supporting the product
 - Agency product manager
 - The agency's digital services team of research, design, and engineering
 
@@ -34,7 +34,7 @@ In a quick overview of the U.S. federal IT project landscape, [Brookings](https:
 
 Setting up the correct contracting strategy has the largest impact on the probability of success on most government products. Because of this importance, it's essential to measure performance indicators that track outcomes in order to:
 
-- Set direction and monitor the progress of the work, and
+- Set direction and monitor the progress of the work
 - Intervene promptly when progress isn't tracking towards the product's objectives.
 
 Procurement flexibility is the substrate underlying successful project management. Procurement flexibility can be defined as the ability to:
