@@ -22,7 +22,7 @@ preload: hero-values.svg
             <div class="value-block">
               <h2 class="header-display-4 mb-3">{{value.title}}</h2>
               <div class="line--gray"></div>
-              <p>{{value.statement}}</p>
+              {{ value.statement | markdownify }}
             </div>
           </div>
         </div>
