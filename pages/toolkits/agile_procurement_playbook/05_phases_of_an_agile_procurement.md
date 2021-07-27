@@ -23,7 +23,7 @@ Another approach would be to use these key questions to guide the process:
 
 - [What is the scope of the project? What are the key deliverables?](../phases-of-an-agile-procurement#aligning-on-goals-and-strategy)
 - [What are the objectives and milestones? How frequent are they?](../phases-of-an-agile-procurement#drafting-a-statement-of-objectives-versus-a-statement-of-work)
-- [What are the performance metrics defined in the contract?](../phases-of-an-agile-procurement#quality-management-plan-qmp) (For example, response time, system uptime, time period to address priority issues.)
+- [What are the performance metrics defined in the contract?](../phases-of-an-agile-procurement#quality-management-plan-qmp) (For example, response time, system uptime, time period to address priority issues)
 
 ## Defining the goals and objectives
 
