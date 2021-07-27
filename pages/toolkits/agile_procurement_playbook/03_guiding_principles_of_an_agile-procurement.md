@@ -33,7 +33,7 @@ Because contracts are modularized and smaller, it's essential to have input from
 The approach to requirements gathering is also fundamentally different. An agile procurement strategy recognizes that:
 
 - The team's understanding of the product will develop as the product is being built
-- This growing understanding can inform the requirements for the current and subsequent modular contracts.
+- This growing understanding can inform the requirements for the current and subsequent modular contracts
 
 Therefore, the procurement team doesn't attempt to have all of the technical requirements defined up front. An agile procurement strategy relies on the team having a greater understanding of the product as the product is being built; that new knowledge can be turned into contractual requirements for a modular contract.
 
@@ -53,7 +53,7 @@ The process of modular contracting matches the natural work streams that arise o
 **Agile procurement approach**:
 
 - Recognize the complexity of the task (moving DMV services online)
-- Identify the different components necessary to accomplish the goal &mdash; things like cloud infrastructure, research and design, and backend development
+- Identify the different components necessary to accomplish the goal &mdash; things like cloud infrastructure, research and design, and back-end development
 - Break up the product into discrete parts as they become known, and use modular contracts to procure services against those
 
 There are many benefits to using a modular contracting strategy:
