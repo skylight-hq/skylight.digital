@@ -11,11 +11,15 @@
 }
 
 .hero-container {
+  min-height: 236px;
   max-width: 1140px;
-  min-height: 169px;
   flex-direction: column;
   justify-content: center;
   display: flex;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 294px;
+  }
 }
 
 .hero-heading {
@@ -85,6 +89,7 @@
 .hero-banner {
   background-position: top center;
   background-size: auto;
+  position: relative;
 
   .hero-container {
     max-width: 510px;
