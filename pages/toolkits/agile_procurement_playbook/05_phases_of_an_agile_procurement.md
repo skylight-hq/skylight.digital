@@ -23,7 +23,7 @@ Another approach would be to use these key questions to guide the process:
 
 - [What is the scope of the project? What are the key deliverables?](../phases-of-an-agile-procurement#aligning-on-goals-and-strategy)
 - [What are the objectives and milestones? How frequent are they?](../phases-of-an-agile-procurement#drafting-a-statement-of-objectives-versus-a-statement-of-work)
-- [What are the performance metrics defined in the contract?](../phases-of-an-agile-procurement#quality-management-plan-qmp) (For example, response time, system uptime, time period to address priority issues.)
+- [What are the performance metrics defined in the contract?](../phases-of-an-agile-procurement#quality-management-plan-qmp) (For example, response time, system uptime, time period to address priority issues)
 
 ## Defining the goals and objectives
 
@@ -122,7 +122,7 @@ A QMP ensures that the government and vendor have a clear, common understanding 
 
 - Specifics about how the government will evaluate the vendor's performance metrics (called a Quality Assurance Surveillance Plan)
 - Roles and responsibilities for enforcing those metrics
-- The vendor's planned response if metrics aren't met (called a Quality Control Plan) &mdash; for example, there could be financial impacts tied to some of the performance metrics.
+- The vendor's planned response if metrics aren't met (called a Quality Control Plan) &mdash; for example, there could be financial impacts tied to some of the performance metrics
 
 Much of the QMP can be captured in a single table. The vendor will have to come up with most &mdash; if not all &mdash; of the performance metrics they're to be measured on.
 
@@ -130,7 +130,7 @@ For a Quality Management Plan template, refer to [Appendix C](../appendix-c-temp
 
 #### Quality Assurance Surveillance Plan (QASP)
 
-A QASP consists of a roles and responsibilities section that describes the formal relationship between the vendor and the government's contracting specialist/officer. It'll also describe the performance metrics the vendor will adhere to based on their proposal. The performance metrics will also describe how the government can verify each metric.
+A QASP consists of a roles and responsibilities section that describes the formal relationship between the vendor and the government's contracting specialist/officer. It'll also describe the performance metrics the vendor will adhere to based on their proposal. The performance metrics will describe how the government can verify each metric.
 
 While the roles and responsibilities included in a QASP tend to be fairly static across modular procurements, the performance metrics should both be generic and also tailored to the product that's being delivered by the vendor. A good QASP will have objective-based performance metrics. These performance metrics can come in many forms, including progress towards a desired result, the dependability of something, or the security of a system.
 
@@ -170,7 +170,7 @@ A TEP is a group of subject matter experts (SMEs) from the agency/government tha
 
 SMEs are experts in research, design, engineering, or any other subject. These individuals may have years of experience in private industry or be active individual contributors for their respective discipline on government projects. Make sure that the designated SMEs are actually SMEs. They'll have the ability to provide in-depth analysis on design challenge submissions and be able to back that analysis with industry research and best practices.
 
-The TEP team, like the team for the procurement process mentioned previously, needs to be a cross-functional team comprised of different communities of practices that are going to be necessary in delivering a successful product. This team is arguably one of the most important teams involved in the process of selecting the correct vendor for the contract. This team of experts will evaluate, document, and ultimately make recommendations on who they think best suited to successfully deliver the product in question.
+The TEP team, like the team for the procurement process mentioned previously, needs to be a cross-functional team comprised of different communities of practices that are going to be necessary in delivering a successful product. This team is arguably one of the most important teams involved in the process of selecting the correct vendor for the contract. This team of experts will evaluate, document, and ultimately make recommendations on who they think is best suited to successfully deliver the product in question.
 
 ### Down-select
 
