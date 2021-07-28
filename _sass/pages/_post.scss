@@ -126,6 +126,15 @@
   }
 }
 
+.pullquote--alt {
+  background-color: $ochre-40;
+  color: $black;
+
+  &::before {
+    content: url(/img/icons/quote-alt.svg);
+  }
+}
+
 .post-contributors {
   @extend %mb-4;
   @extend %post-header-footer-font-base;
