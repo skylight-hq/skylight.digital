@@ -15,16 +15,6 @@
     padding-top: 56px;
   }
 
-  .pullquote {
-    background-color: $ochre-40;
-    color: $black;
-
-    &::before {
-      color: $gray-80;
-      opacity: 1;
-    }
-  }
-
   .accordion-header h3 {
     color: $black;
     font-family: $font-family-sans-serif;
