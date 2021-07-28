@@ -15,7 +15,7 @@ $home-cta-spacing: 6rem;
   @include media-breakpoint-up(sm) {
     height: 580px;
     padding-bottom: initial;
-    padding-top: 82px;
+    padding-top: 122px;
   }
 
   &::before {
@@ -35,7 +35,7 @@ $home-cta-spacing: 6rem;
     @include media-breakpoint-up(sm) {
       background-image: url("../img/hero.svg");
       background-position: center top;
-      background-size: cover;
+      background-size: 1140px;
     }
 
     @include media-breakpoint-up(2xl) {
