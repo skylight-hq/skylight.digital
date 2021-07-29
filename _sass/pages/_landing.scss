@@ -15,7 +15,7 @@ $home-cta-spacing: 6rem;
   @include media-breakpoint-up(sm) {
     height: 580px;
     padding-bottom: initial;
-    padding-top: 122px;
+    padding-top: 112px;
   }
 
   &::before {
@@ -64,8 +64,9 @@ $home-cta-spacing: 6rem;
   }
 
   p {
-    @extend %mt-2;
     font-weight: 100;
+    margin-bottom: 2rem;
+    margin-top: 1.25rem;
 
     @include media-breakpoint-up(sm) {
       font-size: $font-size-medium;
