@@ -126,7 +126,7 @@ source_code_url: https://github.com/CDCgov/prime-simplereport
   </p>
 
   <p>
-    Our team focused on continually improving the tool by:
+    Our team’s focused on continually improving the tool by:
   </p>
 
   <ul>
