@@ -86,8 +86,7 @@
   }
 }
 
-.page-team,
-.page-toolkits {
+.page-team {
   .hero-banner {
     @include media-breakpoint-up(lg) {
       background-size: 1140px;
