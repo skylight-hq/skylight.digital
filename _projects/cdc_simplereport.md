@@ -118,7 +118,7 @@ source_code_url: https://github.com/CDCgov/prime-simplereport
 
 {% capture solution %}
   <p>
-    To strengthen COVID-19 testing data, the Centers for Disease Control and Prevention (CDC) and the United States Digital Service (USDS) launched a multi-year collaboration called the <a href="https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf">Pandemic-Ready Interoperability Modernization Effort</a> (PRIME). Skylight supported this work in partnership with USDS by helping launch <a href="{{ page.project_url }}">SimpleReport</a>, a free tool that makes it easy for non-traditional COVID-19 testing sites, such as schools, jails, and nursing homes, to record results for rapid POC tests and quickly report data to public health departments.
+    To strengthen COVID-19 testing data, the Centers for Disease Control and Prevention (CDC) and the U.S. Digital Service (USDS) launched a multi-year collaboration called the <a href="https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf">Pandemic-Ready Interoperability Modernization Effort</a> (PRIME). Skylight supported this work in partnership with USDS by helping launch <a href="{{ page.project_url }}">SimpleReport</a>, a free tool that makes it easy for non-traditional COVID-19 testing sites, such as schools, jails, and nursing homes, to record results for rapid POC tests and quickly report data to public health departments.
   </p>
 
   <p>
