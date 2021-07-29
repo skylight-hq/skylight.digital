@@ -86,15 +86,11 @@
   }
 }
 
-.page-our-values,
-.page-press,
-.page-our-services,
-.page-join-us,
-.page-talks,
-.page-connect {
+.page-team,
+.page-toolkits {
   .hero-banner {
     @include media-breakpoint-up(lg) {
-      background-size: 1300px;
+      background-size: 1140px;
     }
   }
 }
@@ -106,7 +102,7 @@
   position: relative;
 
   @include media-breakpoint-up(lg) {
-    background-size: 1140px;
+    background-size: 1300px;
   }
 
   .hero-container {
