@@ -23,7 +23,6 @@
   .icon--remote-work {
     height: auto;
     margin-right: 0.5rem;
-    vertical-align: text-bottom;
     width: 18px;
   }
 }
@@ -79,6 +78,7 @@
     }
 
     p {
+      display: flex;
       font-size: $font-size-x-small;
     }
   }
