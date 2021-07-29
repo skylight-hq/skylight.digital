@@ -18,7 +18,7 @@
         {{ item.title }}
       </a>
       <p class="open-positions__location">
-        <img class="icon--remote-work mr-2" src="/img/icons/global-na.svg" alt="">{{ item.location }}
+      {% include icons/join/globe-na.svg %}{{ item.location }}
       </p>
       <div class="mt-1 open-positions-summary">
         {{ item.summary | markdownify }}
