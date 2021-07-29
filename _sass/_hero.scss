@@ -86,9 +86,11 @@
   }
 }
 
+.page-our-values,
 .page-press,
 .page-our-services,
 .page-join-us,
+.page-talks,
 .page-connect {
   .hero-banner {
     @include media-breakpoint-up(lg) {
