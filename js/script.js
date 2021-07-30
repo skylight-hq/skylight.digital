@@ -105,14 +105,6 @@ $(function() {
   document.addEventListener("mouseover", removetouchclass, false); // this event gets called when input type is everything from touch to mouse/trackpad
 }); // External links open in new window
 
-$(function() {
-  $(document.links)
-    .filter(function() {
-      return this.hostname != window.location.hostname;
-    })
-    .attr("target", "_blank");
-}); // Hash update with scroll
-
 function pathEndsWith(path){
   path = path.replace('/','\/');
   var exp = `(${path})$`;
@@ -168,16 +160,16 @@ $(function() {
     var filters_set = searchParams.get('filters');
     if(filters_set != 'true'){
       window.localStorage.removeItem('filters');
-      window.localStorage.removeItem('page'); 
+      window.localStorage.removeItem('page');
     }
 
     var filter_params = window.localStorage.getItem('filters');
-    
+
     // Initialize empty filters array
     var filters = filter_params ? filter_params.split(',') : []; // All posts to be filtered
 
     var posts = $("article[data-display=true]");
-    $("article[data-display=false]").addClass("hidden"); 
+    $("article[data-display=false]").addClass("hidden");
 
     // All filter tags actually used by posts
     var usedTags = $.unique(
@@ -186,7 +178,7 @@ $(function() {
           return $(this).attr("data-tags").split(", ");
         })
       )
-    ); 
+    );
 
     // This function will ensure all added filters have a remove handler
     var addRemoveHandler = function addRemoveHandler() {
@@ -231,7 +223,7 @@ $(function() {
       };
 
        function getCurrentPageParam(){
-          var page = window.localStorage.getItem('page') 
+          var page = window.localStorage.getItem('page')
           return page ? page : 1;
        }
 
@@ -296,7 +288,7 @@ $(function() {
       }
 
       window.localStorage.setItem('filters', filters.join(',').toLowerCase());
-      
+
 
       //Disabled unused tags for the remaining posts
       var dataSource = $("article.filter-match");
@@ -306,7 +298,7 @@ $(function() {
             return $(this).attr("data-tags").split(", ");
           })
         )
-      ); 
+      );
       $(".exp-filter-item").each(function() {
         var filterText = $(this).text().toLowerCase();
 
@@ -318,10 +310,10 @@ $(function() {
           $(this).addClass("filter-enabled");
           $(this).removeClass("filter-disabled");
         }
-      }); 
+      });
       paginatePosts();
-      
-    }; 
+
+    };
 
     // Disable filter options that won't result in any posts
     $(".exp-filter-item").each(function() {
@@ -332,7 +324,7 @@ $(function() {
       } else {
         $(this).addClass("filter-enabled");
       }
-    }); 
+    });
 
     // Add click handler to non-disabled filter options
     $(".exp-filter-item.filter-enabled").click(function() {
@@ -358,7 +350,7 @@ $(function() {
 
         $('.tag-badge:icontains("' + text + '")').remove();
       }
-      
+
       history.pushState({filters: true}, "", "?filters=true");
 
       filterPosts();
@@ -402,7 +394,7 @@ $(function() {
         $(hash)[0].scrollIntoView(true);
       }
 
-      setTimeout( scroll, 300 ); 
+      setTimeout( scroll, 300 );
     }
   }
 })
