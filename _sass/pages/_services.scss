@@ -34,6 +34,46 @@
 }
 
 .page-service-design {
+  .hero-banner {
+    background-image: url(/img/hero-mobile-work.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include media-breakpoint-up(md) {
+      background-image: url(/img/hero-service-design.svg);
+      background-size: 1140px;
+    }
+  }
+
+  .hero-container {
+    display: flex;
+    max-width: 640px;
+    padding-block: initial !important;
+
+    @include media-breakpoint-up(md) {
+      min-height: 400px;
+    }
+
+    a {
+      font-size: 32px;
+      line-height: 32px;
+      margin-top: 1rem;
+
+      i {
+        vertical-align: top;
+      }
+    }
+  }
+
+  h1 {
+    font-size: $font-size-xxx-large;
+    line-height: 1.15;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-xxxxx-large;
+    }
+  }
+
   .img--frontstage-backstage {
     @include media-breakpoint-up(sm) {
       float: right;
