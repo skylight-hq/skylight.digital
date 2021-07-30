@@ -16,7 +16,7 @@ content_type: Toolkit
 
 The Centers for Medicare & Medicaid Services (CMS) is the largest medical insurer in the world. CMS pays providers roughly $500 billion dollars a year for fee-for-service claims. The systems that handled these payments were running on outdated technology, were extremely fragile when making updates, and inhibited the ability to quickly make changes to healthcare policy.
 
-CMS had tried to modernize these systems three separate times in the past, and all attempts resulted in various degrees of failure. The attempts to modernize all involved waterfall approaches to software delivery. Two of the three planned for a "big bang" switch between systems and resulted in lost data, system downtime, and business logic that did not match the original legacy system. CMS was forced to roll back all efforts to the original system to ensure that payments were still being made.
+CMS had tried to modernize these systems three separate times in the past, and all attempts resulted in various degrees of failure. The attempts to modernize all involved waterfall approaches to software delivery. Two of the three planned for a "big bang" switch between systems and resulted in lost data, system downtime, and business logic that didn't match the original legacy system. CMS was forced to roll back all efforts to the original system to ensure that payments were still being made.
 
 **"Big bang"** is a common term in software development when switching from one system to another. You can think of this as turning off the lights on one system and then turning on the lights on another. This approach is very risky with a high probability of failure.
 {: .callout--tip}
@@ -73,7 +73,7 @@ less than 45 days** from initial inception.
 
 ### Summary
 
-CMS had a complicated problem to solve on a massive scale. By shifting to an agile approach, the agency is able to:
+CMS had a complicated problem to solve on a massive scale. By shifting to an agile approach, the agency's able to:
 
 - Retain flexibility for the modernization effort &mdash; even at this massive scale
 - Reduce the risks inherent in putting all resources into one vendor's hands
