@@ -69,13 +69,8 @@ preload: hero-about-us.svg
                 </div>
                 <div class="employee-footer">
                     {% for social in emp.socials %}
-                      {% if social.name == 'Blog Posts' or social.name == 'Projects' or social.name == 'Talks' %}
-                        {% assign target = '_self' %}
-                      {% else %}
-                        {% assign target = '_blank' %}
-                      {% endif %}
                       {% assign link_description = social.link_description | replace: "'", "&rsquo;" %}
-                      <a href="{{social.link}}" target={{target}} data-toggle="tooltip" data-placement="top" data-animation="false" title="{{link_description}}">
+                      <a href="{{social.link}}" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{link_description}}">
                         <i class="fa fa-{{social.fa_icon_name}}" aria-hidden="true" title="{{social.name}}"></i>
                         <span class="sr-only">{{link_description}}</span>
                       </a>

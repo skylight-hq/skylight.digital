@@ -21,10 +21,10 @@ This is an "example" callout.
   <h2>News callout</h2>
   <ul>
     <li>
-      <a href="#0" target="_blank">46 States and Territories to Receive Preschool Development Grants</a>
+      <a href="#0">46 States and Territories to Receive Preschool Development Grants</a>
     </li>
     <li>
-      <a href="#0" target="_blank">Preschool Development Birth Through Five Renewal Grant Summary</a>
+      <a href="#0">Preschool Development Birth Through Five Renewal Grant Summary</a>
     </li>
   </ul>
 </aside>
