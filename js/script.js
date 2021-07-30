@@ -392,7 +392,7 @@ $(function() {
 $(function() {
   if (pathEndsWith("/company/about/")) {
     $(".employees-row").randomize(undefined, "div.employee-col");
-    
+    $('[data-toggle="tooltip"]').tooltip();
     var hash = window.location.hash;
     if(hash){
       $(hash)[0].scrollIntoView(true);
