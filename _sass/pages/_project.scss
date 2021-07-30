@@ -26,10 +26,10 @@
 
 .project-case-study-content {
   @extend %narrative-base;
+}
 
-  .project-feature-image {
-    @extend %mb-0;
-  }
+.project-feature-image {
+  @extend %mb-0;
 }
 
 %project-aside-base {
@@ -60,8 +60,6 @@
 }
 
 .approach {
-  @extend %text-left;
-
   .has-col {
     column-count: 2;
     column-fill: balance-all;
@@ -77,25 +75,24 @@
   }
 
   ul {
-    font-size: $font-size-xx-small;
-
     @extend %mb-0;
     @extend %list-item-unstyled;
+    font-size: $font-size-xx-small;
 
     li:not(:last-child) {
       margin: 0 !important;
       padding: 0 !important;
     }
+  }
+}
 
-    .approach-item {
-      display: inline-block;
-      margin-bottom: 10px;
-      width: 100%;
+.approach-item {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
 
-      span {
-        line-height: 1.15;
-      }
-    }
+  span {
+    line-height: 1.15;
   }
 }
 
@@ -121,15 +118,16 @@
   }
 }
 
+.employee-gradient-rect {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
 .profile {
-  .employee-gradient-rect {
-    position: relative;
-    width: 2rem;
-    height: 2rem;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 8px;
-  }
   .profile-img {
     @extend %rounded-circle;
     @extend %m-0;
@@ -168,19 +166,19 @@
 .project-case-study-footer {
   @extend %text-center;
   @extend %mt-5;
+}
 
-  .work-example-cta-wrapper {
-    @extend %d-md-inline-block;
+.work-example-cta-wrapper {
+  @extend %d-md-inline-block;
 
-    &:first-child {
-      @extend %mb-3;
-      @extend %mb-md-0;
-      @extend %mr-md-5;
-    }
+  &:first-child {
+    @extend %mb-3;
+    @extend %mb-md-0;
+    @extend %mr-md-5;
   }
+}
 
-  .work-example-cta {
-    @extend %btn-page;
-    min-width: 185px;
-  }
+.work-example-cta {
+  @extend %btn-page;
+  min-width: 185px;
 }
