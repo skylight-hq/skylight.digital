@@ -138,3 +138,35 @@
     opacity: 1;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .page-company {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-company.svg);
+    }
+  }
+
+  .page-work {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-work.svg);
+    }
+  }
+
+  .page-careers {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-careers.svg);
+    }
+  }
+
+  .page-thoughts {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-thoughts.svg);
+    }
+  }
+
+  .page-connect {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-connect.svg);
+    }
+  }
+}
