@@ -110,9 +110,16 @@
   }
 }
 
-.testimonial-col {
+.testimonial {
+  margin-bottom: -5px;
+  margin-top: 3px;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: -7px;
+  }
+
   blockquote {
-    @extend %m-0;
+    margin: 0;
   }
 }
 
