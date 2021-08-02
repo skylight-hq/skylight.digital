@@ -10,7 +10,7 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 
 Setup
 ---
-1. If you're using a Mac, install homebrew (see https://brew.sh/).
+1. If you’re using a Mac, install homebrew (see https://brew.sh/).
 2. After installing git (`brew install git`), `cd` to the directory where you
    want to check-out the site, and then clone it (`git clone
    https://github.com/skylight-hq/skylight.digital.git`).
@@ -28,14 +28,14 @@ Running
 2. Navigate to http://localhost:4000 in your browser to see your changes.
 3. To execute lint tests, run the `npm run-script <script>` command in the console.
    Available scripts include: `scss-lint`, `html-lint`, and `js-lint`.
-   
+
 Setup using Docker
 ---
-1. If you're using a Mac, install homebrew (see https://brew.sh/).
+1. If you’re using a Mac, install homebrew (see https://brew.sh/).
 1. Install [docker](https://www.docker.com/get-started)
-1. Install NPM `brew install node` 
+1. Install NPM `brew install node`
 1. After installing git (`brew install git`), `cd` to the directory where you
    want to check-out the site, and then clone it (`git clone
-   https://github.com/skylight-hq/skylight.digital.git`). 
+   https://github.com/skylight-hq/skylight.digital.git`).
 1. Enter the command `npm run docker-run` to start the server
 1. Navigate to http://localhost:4000 in your browser

@@ -34,7 +34,7 @@ available on the posts and pages that display the images.
 
 ## The rest of this project is in the worldwide public domain
 
-All source-code is licensed under the [Creative Commons Universal Public Domain
+All source code is licensed under the [Creative Commons Universal Public Domain
 Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ### CC0 1.0 Universal Summary
