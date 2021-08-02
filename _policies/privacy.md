@@ -1,6 +1,6 @@
 ---
 layout: policy
-title: Privacy Policy
+title: Privacy policy
 permalink: /company/policies/privacy/
 redirect_from:
   - /policies/privacy/

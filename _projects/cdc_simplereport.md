@@ -4,7 +4,7 @@ title_tag: Centers for Disease Control and Prevention
 title: Modernizing COVID-19 testing and reporting in non-traditional healthcare settings
 permalink: /work/experience/cdc-simplereport/
 image: /img/projects/cdc_simplereport/cdc-simplereport.svg
-image_description: A swab test being administired and recorded on a tablet
+image_description: A swab test being administered and recorded on a tablet
 feature_image:
 feature_image_description:
 feature_image_shadow:

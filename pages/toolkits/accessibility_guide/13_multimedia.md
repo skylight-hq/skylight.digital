@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Multimedia | Skylight Accessibility Guide
-description: "How we deal with multimedia."
+description: How we deal with multimedia.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/multimedia/
 sidenav: accessibility_guide
