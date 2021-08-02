@@ -111,7 +111,7 @@ Follow the same interview process for each candidate:
 
 - Introduce yourself and your role. While you already know a lot about the candidate from their resume, they don't know anything about you.
 - Ask questions.
-- When there are 10&ndash;15 minutes left, let them ask you questions.
+- When there are 10–15 minutes left, let them ask you questions.
 - Thank them for their time.
 
 <div class="callout--note" markdown='1'>

@@ -16,7 +16,7 @@ In deciding which procurement strategy would best fit the needs of a product, de
 
 ### Background
 
-As modernization efforts transitions from proof of concepts on the Fiscal Intermediary Standard System (FISS) to a production roadmap, serious thought must be put into the contracting strategy to support this effort for the next 5&ndash;10 years. ***Setting up the correct contracting strategy has the largest impact on the probability of success on this effort***. The FISS system is the initial target for proof of concepts to be transitioned into production, this effort shouldn't be limited to just that system. This is a unique opportunity to synthesize diverse Medicare payment systems. Including the following:
+As modernization efforts transitions from proof of concepts on the Fiscal Intermediary Standard System (FISS) to a production roadmap, serious thought must be put into the contracting strategy to support this effort for the next 5–10 years. ***Setting up the correct contracting strategy has the largest impact on the probability of success on this effort***. The FISS system is the initial target for proof of concepts to be transitioned into production, this effort shouldn't be limited to just that system. This is a unique opportunity to synthesize diverse Medicare payment systems. Including the following:
 
 - Common Working File (CWF)
 - Multi-Carrier System (MCS)
@@ -120,7 +120,7 @@ Some high-level stats on the QPP BPA to-date:
 - Zero protests
 - The average procurement action lead time is 67 days
 - The average period of performance for an ADELE task order is 2.2 years
-- Responses were typically limited to 20&ndash;25 pages with 2-week turnarounds
+- Responses were typically limited to 20–25 pages with 2-week turnarounds
 - Low-dollar value allows for Contracting Officer's Representatives (COR) II rather than COR III
 
 ### Retrospective: SPARC vs. ADELE

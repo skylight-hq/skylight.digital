@@ -60,7 +60,7 @@ source_code_url:
 
 <p>
   Refugee admissions under the U.S. Refugee Admissions Program reached historic
-  lows from 2016&ndash;2020. Over that period, programs that support refugees
+  lows from 2016–2020. Over that period, programs that support refugees
   resettling in the U.S. were largely dismantled.
 </p>
 
@@ -118,7 +118,7 @@ source_code_url:
 
 <p>
   Out of this research, we created action plans with concrete 100-day, 1-year,
-  and 2&ndash;4 year strategies for moving those plans forward.
+  and 2–4 year strategies for moving those plans forward.
 </p>
 
 <p>To improve refugee outcomes, for instance, we recommended that USRAP:</p>

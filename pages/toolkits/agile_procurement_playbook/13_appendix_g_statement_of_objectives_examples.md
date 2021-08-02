@@ -39,7 +39,7 @@ We lay out two objectives below — one focused on building and maintaining clou
 
 #### Objective 1: Develop, monitor, and maintain a cloud infrastructure for modernized modules, using a DevOps-informed approach to application deployment and maintenance
 
-USDS has begun developing a cloud infrastructure that's ultimately intended to serve as the core environment in which modernized modules will be deployed. We're looking for a team who can continue to iterate, monitor, and maintain this system as the needs and scope of its importance within the shared systems ecosystem evolves. We would expect that this would be a scrum team of 3&ndash;4, focusing on DevOps/SRE competencies, with some app development and project management expertise.
+USDS has begun developing a cloud infrastructure that's ultimately intended to serve as the core environment in which modernized modules will be deployed. We're looking for a team who can continue to iterate, monitor, and maintain this system as the needs and scope of its importance within the shared systems ecosystem evolves. We would expect that this would be a scrum team of 3–4, focusing on DevOps/SRE competencies, with some app development and project management expertise.
 
 Here are some specific areas of focus for the **Infrastructure** scrum team:
 
@@ -71,7 +71,7 @@ We're looking for an Application and Research team to join as members of one or 
 
 While we don't expect expertise with Medicare claims processing or the shared systems, as Perspecta will be primarily providing that, some prior experience with Medicare claims data or processing would be valuable for this team to have to enable a smoother integration and collaboration with existing teams.
 
-We expect that a team of around 4&ndash;7 would be appropriate for this work, with that team either split between embedding on two existing sprint teams or concentrating on a larger effort on a single sprint team. We expect that this team would have primary competencies in modern application development and API design, user experience research and service design, as well as product and agile project management expertise.
+We expect that a team of around 4–7 would be appropriate for this work, with that team either split between embedding on two existing sprint teams or concentrating on a larger effort on a single sprint team. We expect that this team would have primary competencies in modern application development and API design, user experience research and service design, as well as product and agile project management expertise.
 
 Here are some specific areas we would like this **Application and Research** team to focus on:
 
