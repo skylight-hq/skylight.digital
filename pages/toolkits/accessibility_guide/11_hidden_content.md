@@ -88,7 +88,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
     </th>
     <td>No</td>
     <td>No</td>
-    <td>This is overwritten by other techniques &mdash; that is, using {{ css_display_none | markdownify }} will cause the element not to be read or seen.</td>
+    <td>This is overwritten by other techniques — that is, using {{ css_display_none | markdownify }} will cause the element not to be read or seen.</td>
   </tr>
   <tr>
     <th scope="row">

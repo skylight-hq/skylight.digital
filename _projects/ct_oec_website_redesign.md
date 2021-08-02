@@ -74,7 +74,7 @@ source_code_url:
 
   <p>
     Feedback from users made it clear that the site was hard to use and frustrating
-    for the audiences that need it the most &mdash; childcare providers, families,
+    for the audiences that need it the most — childcare providers, families,
     and even OEC staff. Some of the most pressing issues included outdated forms,
     confusing language, and a desktop-only experience.
   </p>
@@ -104,8 +104,8 @@ source_code_url:
 
     <li>
       Makes it easier to search, navigate, and access critical information and resources
-      &mdash; such as where to find high-quality childcare providers and how to become a
-      licensed childcare provider &mdash; from a single, user-focused homepage
+      — such as where to find high-quality childcare providers and how to become a
+      licensed childcare provider — from a single, user-focused homepage
     </li>
 
     <li>

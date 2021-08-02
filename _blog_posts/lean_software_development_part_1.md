@@ -101,7 +101,7 @@ The key difference from lean software development is that **lean product develop
 
 Lean software development is an answer to a very specific challenge: How can we deliver software into production, with maximal time-to-market and profitability, in situations of certainty about what's needed?
 
-Some smart software developers that faced this challenge realized how analogous the situation is to the manufacturing of physical products. An industrial engineer knows what they're manufacturing &mdash; their primary challenge is to maximize manufacturing profitability. The best approach to use is lean manufacturing.
+Some smart software developers that faced this challenge realized how analogous the situation is to the manufacturing of physical products. An industrial engineer knows what they're manufacturing — their primary challenge is to maximize manufacturing profitability. The best approach to use is lean manufacturing.
 
 Lean software development was born out of this analogy and the idea that the challenges of manufacturing physical products and software creation are similar. In 2003 Mary and Tom Poppendieck wrote, _[Lean Software Development: An Agile Toolkit](https://www.pearson.com/us/higher-education/program/Poppendieck-Lean-Software-Development-An-Agile-Toolkit/PGM73091.html)_, and in 2006 they wrote _[Implementing Lean Software Development: From Concept to Cash](https://www.pearson.com/us/higher-education/program/Poppendieck-Implementing-Lean-Software-Development-From-Concept-to-Cash/PGM94555.html)_.
 

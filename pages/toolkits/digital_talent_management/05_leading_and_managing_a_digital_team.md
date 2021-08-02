@@ -12,7 +12,7 @@ content_type: Toolkit
 
 {% include callout.html
   type = "pullquote"
-  content = "The gardener cannot actually 'grow' tomatoes, squash, or beans &mdash; she can only foster an environment in which the plants do so."
+  content = "The gardener cannot actually 'grow' tomatoes, squash, or beans — she can only foster an environment in which the plants do so."
   cite_name = "General Stanley McChrystal"
 %}
 
@@ -39,7 +39,7 @@ Foster a blameless culture. Don't chastise teams when things go wrong, or they'l
 
 ## Be a vocal advocate
 
-Introducing new ways of thinking and working can cause fear, uncertainty, and doubt. Digital teams need to collaborate with all of the other parts of your organization, and they employ methods that are sometimes unfamiliar to traditional government organizations &mdash; like human-centered design, agile, and DevOps.
+Introducing new ways of thinking and working can cause fear, uncertainty, and doubt. Digital teams need to collaborate with all of the other parts of your organization, and they employ methods that are sometimes unfamiliar to traditional government organizations — like human-centered design, agile, and DevOps.
 
 A traditional government project in the waterfall-style provides a detailed schedule of every activity and document written from day zero to go-live. An agile project eschews the master schedule in favor of describing progress in terms of value delivered to users.
 

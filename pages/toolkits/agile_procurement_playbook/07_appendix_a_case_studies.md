@@ -48,7 +48,7 @@ CMS put together an analysis of alternatives to help them decide which vehicle w
 - Allow for rapidly issuing modular contracts
 - Bake common requirements into each contract into the BPA to avoid copying and pasting common language into each SOO and vendor proposal
 
-Constructing the BPA required an analysis of the types of skillsets that would be necessary to successfully execute on the long-term vision of MPSM. CMS didn't understand &mdash; nor did it attempt to try to understand &mdash; all of the requirements that would be necessary for the initiative. And because CMS was at the very beginning of the project, they recognized the possibility that the objectives could change over the project's lifetime. CMS elected to write a Performance Work Statement (PWS) for the BPA that outlined the skillsets it needed to work on this modernization initiative. This would clear the way for CMS to write SOOs for the specific modular contracts that would be awarded through the BPA.
+Constructing the BPA required an analysis of the types of skillsets that would be necessary to successfully execute on the long-term vision of MPSM. CMS didn't understand — nor did it attempt to try to understand — all of the requirements that would be necessary for the initiative. And because CMS was at the very beginning of the project, they recognized the possibility that the objectives could change over the project's lifetime. CMS elected to write a Performance Work Statement (PWS) for the BPA that outlined the skillsets it needed to work on this modernization initiative. This would clear the way for CMS to write SOOs for the specific modular contracts that would be awarded through the BPA.
 
 ### Awarding the BPA
 
@@ -75,6 +75,6 @@ less than 45 days** from initial inception.
 
 CMS had a complicated problem to solve on a massive scale. By shifting to an agile approach, the agency's able to:
 
-- Retain flexibility for the modernization effort &mdash; even at this massive scale
+- Retain flexibility for the modernization effort — even at this massive scale
 - Reduce the risks inherent in putting all resources into one vendor's hands
 - Adapt its approach to align with the changes in technology and best practice that are inevitable over such a long-term initiative

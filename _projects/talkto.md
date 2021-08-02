@@ -62,8 +62,8 @@ source_code_url:
 {% capture summary %}
   <p>
     TalkTo was a popular digital messaging service that let consumers
-    text any business &mdash; such as a local grocery store or
-    government office &mdash; using their mobile or desktop device, and
+    text any business — such as a local grocery store or
+    government office — using their mobile or desktop device, and
     receive a response within minutes.
   </p>
 {% endcapture %}

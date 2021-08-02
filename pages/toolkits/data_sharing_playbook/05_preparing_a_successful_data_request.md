@@ -22,7 +22,7 @@ Knowing what you want before turning to data is a prerequisite to effective data
 
 ### "What do I want to find out or measure?"
 
-If you're conducting an experiment, then the data might be response statistics. If you're looking through financial or budgetary data, it might be spending trends, projections, and forecasts. Other situations will call for other kinds of measurements, but thinking about what you expect to find &mdash; or even the nature of the answer you're looking for &mdash; will help you identify the most relevant metrics. Some examples of suitable research questions for your data include:
+If you're conducting an experiment, then the data might be response statistics. If you're looking through financial or budgetary data, it might be spending trends, projections, and forecasts. Other situations will call for other kinds of measurements, but thinking about what you expect to find — or even the nature of the answer you're looking for — will help you identify the most relevant metrics. Some examples of suitable research questions for your data include:
 
 - To what extent is the service provided by [Program X] reaching constituents?
 - Do budget allocations meet needs? Are budget allocations used by the populations in need?

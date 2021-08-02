@@ -52,11 +52,11 @@ Get together as a hiring team to discuss and agree on how you'll evaluate candid
 
 To create a fair and consistent process:
 
-- Set criteria for screening resumes &mdash; document this criteria in a checklist using the job description as a guide
+- Set criteria for screening resumes — document this criteria in a checklist using the job description as a guide
 - Decide on the phone screen and interview questions in advance
 - Ask all candidates the same questions in the same order
 - Ensure that the questions actually test skills and experiences relevant to the position
-- Ask questions based on realistic scenarios at work &mdash; but don't use this to solve real problems or get free ideas
+- Ask questions based on realistic scenarios at work — but don't use this to solve real problems or get free ideas
 
 ## Review resumes
 
@@ -65,7 +65,7 @@ HR will do the initial review to filter out applicants who are ineligible for em
 Look for red flags, like an applicant who has:
 
 - No demonstrable experience for the position they're applying for
-- A history of switching jobs too frequently &mdash; while it's common to switch jobs frequently in technology, someone who's moved on every few months might be a problem
+- A history of switching jobs too frequently — while it's common to switch jobs frequently in technology, someone who's moved on every few months might be a problem
 
 <div class="callout--note" markdown="1">
 ### Resume review resources
@@ -101,9 +101,9 @@ Suggested duration: 60 minutes.
 In-person interviews should include at least one person the successful candidate will be working with directly. The candidate is evaluating you just as much as you're evaluating them. Here are some basic tips for a successful interview:
 
 - Create a friendly, comfortable environment for the candidate
-- Limit the number of interviewers to two &mdash; anything more than that is intimidating and unnecessary
+- Limit the number of interviewers to two — anything more than that is intimidating and unnecessary
 - Start and end the interview on time
-- Be prepared &mdash; review their resume ahead of time, and be sure to have the interview questions with you
+- Be prepared — review their resume ahead of time, and be sure to have the interview questions with you
 - You can be tough, but keep it friendly
 - Remind candidates to think out loud so that you can evaluate how candidates approach problems
 
@@ -151,7 +151,7 @@ Historically, the federal government hiring process hasn't involved subject matt
 
 To address this, a team at the USDS is working with the Office of Personnel Management (OPM) to implement the [Subject Matter Expert Qualification Assessments (SME-QA) hiring process](https://smeqa.usds.gov/). The SME-QA hiring process mimics best practices from the private sector and is designed for technical and other hard to fill roles at or above the GS-12 pay grade. In this revised process, SMEs work with HR to review resumes and conduct multiple rounds of interviews. Only then is an applicant determined qualified and veterans' preference applied.
 
-The acting director of OPM [issued a memo](https://www.chcoc.gov/sites/default/files/OPM%20Memo%20Improving%20Federal%20Hiring%20through%20the%20Use%20of%20Effective%20Assessment%20Strategies%20to%20Advance%20Mission%20Outcomes.pdf) to raise awareness, encouraging agencies to try this process. While the SME-QA process is legal within current federal law, many agencies don't take advantage of it, because they don't know they can. Executive support &mdash; like the OPM memo &mdash; is vital for this type of change management.
+The acting director of OPM [issued a memo](https://www.chcoc.gov/sites/default/files/OPM%20Memo%20Improving%20Federal%20Hiring%20through%20the%20Use%20of%20Effective%20Assessment%20Strategies%20to%20Advance%20Mission%20Outcomes.pdf) to raise awareness, encouraging agencies to try this process. While the SME-QA process is legal within current federal law, many agencies don't take advantage of it, because they don't know they can. Executive support — like the OPM memo — is vital for this type of change management.
 
 With executive support, the team has worked with agency partners to hire approximately 20 qualified IT specialists to the Department of Health and Human Services and the Department of the Interior.
 

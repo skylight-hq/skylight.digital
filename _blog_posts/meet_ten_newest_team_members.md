@@ -27,7 +27,7 @@ To support these new projects, we've grown our design, product, engineering, and
 [Marvo](/company/about/#marvo-dolor) is drawn to solving complex, multi-faceted government problems. At Skylight, she works with our clients to plan and execute [service delivery](/work/services/#digital-services-delivery), [procurement](/work/services/#digital-procurement), and [transformation](/work/services/#digital-transformation) initiatives using agile project management techniques. Prior to joining us, Marvo served as a member of the [U.S. Digital Service](https://www.usds.gov/) at the Department of Veterans Affairs (VA), where she held multiple leadership positions in support of major initiatives, such as the successful [redesign of VA.gov](https://www.va.gov/) and the [modernization of the benefits appeals process](https://www.fedscoop.com/help-usds-va-improves-benefits-appeals-tracking-tool/).
 
 <blockquote class="pullquote" markdown="1">
-I believe technology can do more than entertain and amaze us &mdash; it can also be a force for good in people's lives. That's why it was an honor to do a tour of duty with the U.S. Digital Service.
+I believe technology can do more than entertain and amaze us — it can also be a force for good in people's lives. That's why it was an honor to do a tour of duty with the U.S. Digital Service.
 </blockquote>
 
 ## Abby Raskin, Product Manager
@@ -40,7 +40,7 @@ I'm really proud of the technically-complex, user-research-driven project that I
 
 ## Chris Given, Data Engineer
 
-[Chris](/company/about/#chris-given) loves untangling complex data and system problems. At Skylight, he helps our clients turn unwieldy datasets into useful and accessible resources &mdash; for everyone. Prior to Skylight, Chris worked at the U.S. Digital Service at VA and the District of Columbia, where he worked on the city's open data policy.
+[Chris](/company/about/#chris-given) loves untangling complex data and system problems. At Skylight, he helps our clients turn unwieldy datasets into useful and accessible resources — for everyone. Prior to Skylight, Chris worked at the U.S. Digital Service at VA and the District of Columbia, where he worked on the city's open data policy.
 
 <blockquote class="pullquote" markdown="1">
 Veterans described the VA appeals process as a 'black hole,' where their disability compensation claim could sit for years without any updates from the VA. I led a team to develop an Appeals Status tool that provided veterans with plain-language updates. It contributed to a 40% reduction in call center volumes, but more importantly a veteran said of the new tool, 'It gives me hope.'

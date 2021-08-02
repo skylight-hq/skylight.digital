@@ -23,7 +23,7 @@ As teams envision and build products, they need space for conducting in-person w
 
 ## Ensure your teams have modern hardware and software
 
-Digital team members will need access to modern software and services to do their jobs well. They'll likely already be familiar with many tools commonly used in industry and will be productive with them. The tables later in this section include examples of popular tools, but these aren't exhaustive lists &mdash; ask your staff what tools they need.
+Digital team members will need access to modern software and services to do their jobs well. They'll likely already be familiar with many tools commonly used in industry and will be productive with them. The tables later in this section include examples of popular tools, but these aren't exhaustive lists — ask your staff what tools they need.
 
 {% include callout.html
   type = "pullquote"

@@ -10,7 +10,7 @@ content_type: Toolkit
 
 # Building a movement and a presence
 
-Share your team's mission and work by building a brand and a presence &mdash; both online and in-person &mdash; as part of your communications efforts.
+Share your team's mission and work by building a brand and a presence — both online and in-person — as part of your communications efforts.
 
 Building this presence will help you:
 
@@ -83,7 +83,7 @@ Use one of the following methods to convey that your new digital services site i
 
 ## Invite your team to share their work and stories
 
-Invite your team to share more and more often. Ask your team to write about the projects they work on, workshops they host, and events they attend. By talking about the work you're doing &mdash; and how you're doing it &mdash; you'll ensure that:
+Invite your team to share more and more often. Ask your team to write about the projects they work on, workshops they host, and events they attend. By talking about the work you're doing — and how you're doing it — you'll ensure that:
 
 - The work is transparent to the public and other government officials
 - Potential job applicants understand the types of projects they'll be involved in and they might even apply to work on specific projects
@@ -163,7 +163,7 @@ Mayor Michael Bloomberg's [American Cities Initiative](https://www.bloomberg.org
 
 They use Medium extremely effectively, writing interesting, concise, and clear stories that [describe inspirational leadership](https://medium.com/@BloombergCities/mayors-how-executive-training-helped-me-innovate-in-city-hall-fffbbb8afecd), [outline how cities are doing things differently](https://medium.com/@BloombergCities/innovation-in-the-heartland-how-sioux-falls-is-turning-public-problem-solving-on-its-head-1fc843a9f12f), or [provide specific steps to facilitate change](https://medium.com/@BloombergCities/7-ways-to-build-a-culture-of-innovation-in-city-hall-aa18b41b307). These articles are an example of how to develop a digital storytelling presence that motivates the public to get involved and take ownership to change their communities.
 
-It's not enough to simply post great stories &mdash; you have to make sure people will find and read them. In order to spread a mission or develop a brand, stories must be shared through the civic tech and larger government community. Share articles with relevant local groups, ask influential colleagues to tweet them out, and send them to civic tech mailing lists.
+It's not enough to simply post great stories — you have to make sure people will find and read them. In order to spread a mission or develop a brand, stories must be shared through the civic tech and larger government community. Share articles with relevant local groups, ask influential colleagues to tweet them out, and send them to civic tech mailing lists.
 
 If your network is limited, you can start by publishing articles through existing platforms that already reach your audience. As you build momentum, you'll also build your network and reach.
 </div>

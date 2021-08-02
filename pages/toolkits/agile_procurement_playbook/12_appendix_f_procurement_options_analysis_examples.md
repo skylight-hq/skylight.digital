@@ -12,7 +12,7 @@ content_type: Toolkit
 
 In deciding which procurement strategy would best fit the needs of a product, developing an analysis of alternatives for the different options that are available helps provide data to make decisions.
 
-## Example #1: Centers for Medicare & Medicaid Services (CMS) &mdash; Medicare Payment Modernization contracting strategy
+## Example #1: Centers for Medicare & Medicaid Services (CMS) — Medicare Payment Modernization contracting strategy
 
 ### Background
 
@@ -44,7 +44,7 @@ The Office of Information Technology (OIT) at CMS has an existing indefinite del
 |------|------|
 | The IDIQ is already existing and vendors have been pre-vetted. | The vendor pool isn't specialized to any project. |
 | The vendor pool is diverse based on company size | The vendor pool is so large the agile contracting is impossible. |
-| The ceiling on the IDIQ is extremely high &mdash; low risk of breaking through it. | The probability of protest per contract is substantially higher due to more vendor bids and issues with small business sizes. |
+| The ceiling on the IDIQ is extremely high — low risk of breaking through it. | The probability of protest per contract is substantially higher due to more vendor bids and issues with small business sizes. |
 | Orders under $10M aren't protestable | Agile methodologies, user-center design, and DevOps practices aren't baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest. |
 | All contract types permissible giving CMS added flexibility. | Most vendors aren't familiar with CMS payment processing and could struggle to meet the quick on boarding and rapidly changing needs of this project. |
 | Helping CMS meet small business goals. | Ability to award new tasks quickly. |
@@ -56,10 +56,10 @@ This option has the ability to continue leveraging SPARC while allowing for new 
 {:.post-table .table-even}
 | Pros | Cons |
 |------|------|
-| Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work. | High-protest probability &mdash; would require a competitive process that could be protested. There are two points of protest because we already have a large-vetted pool of contractors plus the source selection decision. |
+| Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work. | High-protest probability — would require a competitive process that could be protested. There are two points of protest because we already have a large-vetted pool of contractors plus the source selection decision. |
 | - | Additional resources need on Office of Acquisition & Grants Management (OAGM) and program side to manage source selection process. |
 
-#### Governmentwide Acquisition Contract (GWAC) &mdash; General Services Administration (GSA) Alliant 2, National Institutes of Health (NIH) CIO-SP3, etc.
+#### Governmentwide Acquisition Contract (GWAC) — General Services Administration (GSA) Alliant 2, National Institutes of Health (NIH) CIO-SP3, etc.
 
 {:.post-table .table-even}
 | Pros | Cons |

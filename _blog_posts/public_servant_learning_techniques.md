@@ -21,14 +21,14 @@ It's easy to malign government program managers, CIOs, and CTOs as "Washington B
 
 But every one of those people is doing something that Congress, as the elected representatives of the people, asked them to do.
 
-Let's consider for a minute their jobs in 2018. Most of these people are smart, but they're busy. They may have families. Their jobs may be burdened by regulation in ways that those of information workers in the business world aren't. Their workplaces may have accumulated years of "technical debt" &mdash; that is, years of underinvestment in technology or simply process change.
+Let's consider for a minute their jobs in 2018. Most of these people are smart, but they're busy. They may have families. Their jobs may be burdened by regulation in ways that those of information workers in the business world aren't. Their workplaces may have accumulated years of "technical debt" — that is, years of underinvestment in technology or simply process change.
 
 But even more deeply, imagine how their job has changed since 1968, 1988, or 2008.
 
 {:.post-table}
 |    Year    	|    Things a program manager had to worry about...    	|
 |------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-|    1968    	|    Riots. (No, seriously &mdash; riots.) Computers may have existed at NASA.    	|
+|    1968    	|    Riots. (No, seriously — riots.) Computers may have existed at NASA.    	|
 |    1988    	|    COBOL-based computers running in the back office, never touched or   seen by the public.    	|
 |    2008    	|    Websites. Computerization of the entire workforce, but usually not   the public-facing part. Keeping the laptops running. Hackers attacking   servers.    	|
 |    2018    	|    Hackers backed by botnets and sophisticated software and the   financial and scientific resources of entire states. Denial of service   attacks that may cost lives. Increased violent weather due to global warming.   Sophisticated phishing attacks based on stolen data. Increased dependence of   all machines on computers and the internet. Serving a public that expects   forms to be online. Fairly serving a public that largely has smartphones,   while a major percentage remains unconnected. Hackers attacking power plants,   phones, and household appliances.    	|
@@ -56,15 +56,15 @@ This seems to require a lot of effort. For example, suppose you want to learn ab
 
 Here's what I mean: you need to go to a "maker space," or a conference or a hackathon, and try to actually use a non-computer device that's radio connected to the internet. For example, this can be done with a microcontroller and various printed circuit boards you can plug onto them for about $35. You can make something as simple as a remote temperature sensor.
 
-Now, to those of you who don't know anyone who can explain this to them, it may sound impossible. You might not know where to begin. You wouldn't know whom to ask. However, if you aren't too shy, you can eventually use Google to find people who will eagerly &mdash; sometimes very eagerly &mdash; lead you to what you need to do.
+Now, to those of you who don't know anyone who can explain this to them, it may sound impossible. You might not know where to begin. You wouldn't know whom to ask. However, if you aren't too shy, you can eventually use Google to find people who will eagerly — sometimes very eagerly — lead you to what you need to do.
 
 However, I assure you the benefits will be tremendous. Suddenly, a veil will be lifted from everything that you've read. Your mind will constantly be saying, "Oh, I see now, that article about the IoT is just like what I'm doing here, only using longer-range radios, or custom boards, or controlling more stuff." The next time you're in discussions with a contractor, you'll be better able to ask intelligent questions, like "Why can't this be done with just an Arduino Nano and Bluetooth LE?"
 
 Another, perhaps easier example, is 3D printing. 3D printing is revolutionary. However, when it's first described, it's hard to understand not what it does, but what its limitations are. "You mean this machine can literally make any shape I want?" "YES!" "You mean I can 3D print a motorcycle?" "Well no, today we can't print metal, and we can't print electronics, and we can't print anything bigger than 10 inches on a side, and making a part even that big can take 48 hours, and our plastics melt at a low temperature" and so on. Spending an afternoon using a 3D printer illuminates its limitations far better than an afternoon of reading about it.
 
-More fundamental than these examples in 2018 is simply computer programming. Everyone should learn to code, even if only for a weekend. The improvement in your understanding and your ability to ask intelligent questions will astound you. In 2018 everyone needs to learn "Reading, writing, arithmetic &mdash; and coding." You don't need to become good enough at coding to be a professional. But if your job is to *work with* professionals programmers, you will earn their respect by being able to program at least a little.
+More fundamental than these examples in 2018 is simply computer programming. Everyone should learn to code, even if only for a weekend. The improvement in your understanding and your ability to ask intelligent questions will astound you. In 2018 everyone needs to learn "Reading, writing, arithmetic — and coding." You don't need to become good enough at coding to be a professional. But if your job is to *work with* professionals programmers, you will earn their respect by being able to program at least a little.
 
-If you learn just a tiny bit of computer programming, light bulbs will start going on over your head &mdash; I promise. Please, put some money down on it by spending a day or two learning to code a little; if you find it wasted time, you'll have my sincere apology.
+If you learn just a tiny bit of computer programming, light bulbs will start going on over your head — I promise. Please, put some money down on it by spending a day or two learning to code a little; if you find it wasted time, you'll have my sincere apology.
 
 ## Cultivate human knowledge resources
 
@@ -72,15 +72,15 @@ Some things are better learned from a person than from a book. It's valuable to 
 
 This is where a human expert is really helpful. When you ask a question which demonstrates confusion, they can quickly lead you to the light. If you've spent nine hours reading, it's probably time for you to spend one hour at a meetup, a conference, or with some expert you can buttonhole.
 
-Among the best ways to do this is to attend a hackathon, where you join a team doing a real (though very small) project. You may have to carry water; don't worry &mdash; you'll still be welcome, except by the small percentage of people who are extremely competitive.  If that seems like too big a leap, find a relevant "meetup" in your area and attend that.
+Among the best ways to do this is to attend a hackathon, where you join a team doing a real (though very small) project. You may have to carry water; don't worry — you'll still be welcome, except by the small percentage of people who are extremely competitive.  If that seems like too big a leap, find a relevant "meetup" in your area and attend that.
 
 ## Be skeptical but not jaded
 
 As in all human endeavors, there are fashion trends and fads. At any given moment, there are words and concepts hyped beyond reality. "Blockchain" and "Artificial Intelligence" are such words at the time of this writing. It's wise to take claims with a grain of salt.
 
-Recently my study partner and I considered quantum computing. I personally felt that quantum computing was such a fad &mdash; that it was overhyped, or possibly even simple snake oil. In response to that, we bought a textbook and started working through some of the problems, and our position shifted. We now believe quantum computing will probably (though not definitely) be important &mdash; 20 years from now.
+Recently my study partner and I considered quantum computing. I personally felt that quantum computing was such a fad — that it was overhyped, or possibly even simple snake oil. In response to that, we bought a textbook and started working through some of the problems, and our position shifted. We now believe quantum computing will probably (though not definitely) be important — 20 years from now.
 
-Spend a little time &mdash; often just a few hours is sufficient &mdash; doing the math, and enlightenment will follow.
+Spend a little time — often just a few hours is sufficient — doing the math, and enlightenment will follow.
 
 The antidote to snake oil is elbow grease.
 

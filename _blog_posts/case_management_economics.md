@@ -23,7 +23,7 @@ We've personally been in contact with case management systems for the Social Sec
 
 ## Recognizing overlap
 
-Every case management system is different &mdash; but not *that* different. All case management systems have essential fundamentals in common:
+Every case management system is different — but not *that* different. All case management systems have essential fundamentals in common:
 
 - **Database:** all are fundamentally a database application.
 - **Attachments:** all require supporting documents such as a picture of the pothole.
@@ -54,7 +54,7 @@ Let us apply a bit of game theory to your problem. We assert that these are the 
 
 Now, what should your strategy be?
 
-Richard Stallman has pointed out that software is fundamentally different from a sandwich.  Only one of us can eat a sandwich. However, if you get some software, it harms you not in the least for someone else to use the same software &mdash; in fact, it may be strongly to your benefit. If you were developing a new subdivision and said,
+Richard Stallman has pointed out that software is fundamentally different from a sandwich.  Only one of us can eat a sandwich. However, if you get some software, it harms you not in the least for someone else to use the same software — in fact, it may be strongly to your benefit. If you were developing a new subdivision and said,
 
 > I intend to ignore the existing American 110V/60Hz alternating current standard and instead believe that our people are best served by using a custom household system of 166V alternating at 32Hz.
 

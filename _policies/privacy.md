@@ -17,7 +17,7 @@ Information You Give Us
 
 <strong>Generally and applications.</strong>You don't have to provide Skylight with any personal information or create a user account to access information on skylight.digital. However, if you choose to submit a form for the purpose of applying to a job, inquiring about our services, or inquiring about a business relationship, we need some personal information from you such as your name and email.
 
-<strong>Third-party sites.</strong> Skylight maintains official pages or accounts on third-party websites (these are generally social media) in order to better engage with our target audiences. You can submit or publish information to these sites that we'll receive &mdash; for example by sending a message, posting a comment, "following," "friending," or taking similar actions. This information may contain personal information, such as an individual's username and other public account information, when such information is available based on your privacy settings and the terms of the site.
+<strong>Third-party sites.</strong> Skylight maintains official pages or accounts on third-party websites (these are generally social media) in order to better engage with our target audiences. You can submit or publish information to these sites that we'll receive — for example by sending a message, posting a comment, "following," "friending," or taking similar actions. This information may contain personal information, such as an individual's username and other public account information, when such information is available based on your privacy settings and the terms of the site.
 
 ## How information is used
 

@@ -64,7 +64,7 @@ The methods of evaluating Vendor compliance may vary depending on the PWS. The C
 
 **100 Percent Evaluation**
 
-This is the appropriate method of evaluating infrequent tasks or tasks with stringent performance requirements &mdash; for example, where safety or health is a concern. With this method, performance is inspected/evaluated at each occurrence. One hundred percent inspection is too expensive to be used in most cases.
+This is the appropriate method of evaluating infrequent tasks or tasks with stringent performance requirements — for example, where safety or health is a concern. With this method, performance is inspected/evaluated at each occurrence. One hundred percent inspection is too expensive to be used in most cases.
 
 **Random Review**
 

@@ -213,7 +213,7 @@ The following is a list of additional reading about items contained in this blog
 
 ### Comparisons
 
-- [Native vs. Web vs. Hybrid Apps &mdash; What's the Difference? (2017)](https://blog.markgrowth.com/native-vs-web-vs-hybrid-apps-whats-the-difference-1df4c5e4bc50)
+- [Native vs. Web vs. Hybrid Apps — What's the Difference? (2017)](https://blog.markgrowth.com/native-vs-web-vs-hybrid-apps-whats-the-difference-1df4c5e4bc50)
 
 - [Advantages and Disadvantages of Hybrid Mobile Apps Development (2017)](https://www.quape.com/hybrid-mobile-apps-development/)
 

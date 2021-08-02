@@ -14,11 +14,11 @@ Data can help you track progress toward agency goals. The SMART methodology is a
 
 Goals are SMART when they're:
 
-- **Specific &mdash;** You've stated exactly what you want to achieve
-- **Measurable &mdash;** You have a way to know if you're making progress
-- **Attainable &mdash;** You have resources and a strategy
-- **Realistic &mdash;** You've taken into account other commitments
-- **Time-bound &mdash;** You have a timeframe for achieving what you've set out to do
+- **Specific —** You've stated exactly what you want to achieve
+- **Measurable —** You have a way to know if you're making progress
+- **Attainable —** You have resources and a strategy
+- **Realistic —** You've taken into account other commitments
+- **Time-bound —** You have a timeframe for achieving what you've set out to do
 
 Let's say that your agency operates a helpline, and the manager regularly receives complaints that constituents are waiting on hold for too long.
 

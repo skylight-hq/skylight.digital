@@ -46,7 +46,7 @@ source_code_url:
 {% capture challenge %}
   <p>
     To think and be more digital, government organizations need to mature along
-    multiple, self-reinforcing dimensions &mdash; talent and empowerment, customer experience,
+    multiple, self-reinforcing dimensions — talent and empowerment, customer experience,
     digital procurement, cloud and DevOps, data management, enterprise agile, and legacy
     modernization. But how do they do so in a way that is manageable, sustainable,
     incrementally valuable, and ultimately independent of expensive consultancies?

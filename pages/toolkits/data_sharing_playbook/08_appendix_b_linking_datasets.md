@@ -12,7 +12,7 @@ content_type: Toolkit
 
 Data linking or data matching is the process of combining two or more datasets. It allows program administrations to provide more integrated and client-friendly government services.
 
-Data linking also provides policy analysts and researchers a wider lens to draw insights and generate improvements to services. There are two ways to link datasets &mdash; deterministic and probabilistic.
+Data linking also provides policy analysts and researchers a wider lens to draw insights and generate improvements to services. There are two ways to link datasets — deterministic and probabilistic.
 
 ## Deterministic data linking
 
@@ -26,7 +26,7 @@ Probabilistic data linking combines individual records using a special algorithm
 ### Recommended reading
 
 * [Two Methods Of Linking: Probabilistic And Deterministic Record-linkage Methods](https://aspe.hhs.gov/report/studies-welfare-populations-data-collection-and-research-issues/two-methods-linking-probabilistic-and-deterministic-record-linkage-methods)
-* [Linkage Feasibility&mdash;To Link or Not To Link](https://www.ncbi.nlm.nih.gov/books/NBK253318/)
+* [Linkage Feasibility—To Link or Not To Link](https://www.ncbi.nlm.nih.gov/books/NBK253318/)
 * [Data Matching Software Tools](https://github.com/J535D165/data-matching-software)
 * [Improving deduplication of identities](http://www.datasciencepublicpolicy.org//wp-content/uploads/2018/11/dedupewhitepaper.pdf)
 </div>

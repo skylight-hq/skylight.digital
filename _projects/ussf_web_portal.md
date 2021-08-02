@@ -102,7 +102,7 @@ source_code_url:
     software, on the other hand, is never really done. Therefore, it was important to introduce
     USSF to an agile process that involves continually iterating to improve on the initial MVP,
     even after launch. Additionally, because we had a mandate to reinvent the traditional portal,
-    we implemented user-centered processes along the way &mdash; to show them how to build software
+    we implemented user-centered processes along the way — to show them how to build software
     <em>with</em> not <em>for</em> users.
   </p>
 
@@ -123,7 +123,7 @@ source_code_url:
 
   <p>
     Coinciding with the organization's one-year anniversary, the launch symbolized a new approach
-    to digital for the USSF &mdash; one that’s not only modern at its core, but also human-centered and
+    to digital for the USSF — one that’s not only modern at its core, but also human-centered and
     accessible, meeting the everyday needs of an important new branch of the U.S. military.
   </p>
 {% endcapture %}

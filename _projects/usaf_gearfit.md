@@ -91,8 +91,8 @@ source_code_url:
     is a top priority that goes all the way up to the
     <a href="https://www.af.mil/News/Article-Display/Article/1801680/new-direction-for-female-specific-flight-equipment/">Secretary</a>,
     and <a href="https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795">even Congress</a>.
-    Female pilots in particular lack consistent access to &mdash; or, at least,
-    awareness of &mdash; properly-fitting tactical gear and equipment options, exposing
+    Female pilots in particular lack consistent access to — or, at least,
+    awareness of — properly-fitting tactical gear and equipment options, exposing
     them to serious injury or mission failure.
   </p>
 
@@ -193,7 +193,7 @@ source_code_url:
     gear is assigned to them. We also provided an option for users to submit feedback
     anonymously to avoid potential feelings of embarrassment. As part of the rollout, we
     launched a marketing and communications campaign to help overcome cultural and
-    behavioral barriers to using the application &mdash; for example, "sitting in your pee
+    behavioral barriers to using the application — for example, "sitting in your pee
     isn't a rite of passage." As a result of these efforts, a growing population of
     aircrew have started to use the application. And for the first time, HSD is
     able to collect and access quality data on gear issues from a central location,

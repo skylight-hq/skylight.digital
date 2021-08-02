@@ -12,7 +12,7 @@ content_type: Toolkit
 
 Every organization has gaps related to talent. These gaps may include skillsets and competencies missing from their ranks, a lack of diversity, or employees who don't have the resources to be successful in their roles. However, few organizations intentionally and successfully understand these gaps. And organizations can only improve by first understanding where they're falling short.
 
-In recent years, however, organizations in both the private and public sectors are increasingly focused on understanding their talent-related gaps &mdash; and what it'll take to close them. Companies like Amazon have rolled out [daily assessment
+In recent years, however, organizations in both the private and public sectors are increasingly focused on understanding their talent-related gaps — and what it'll take to close them. Companies like Amazon have rolled out [daily assessment
 questions](https://www.cnbc.com/2018/03/30/amazon-employee-reaction-to-hr-programs-connections-forte.html) for their employees, and government agencies have devoted special task forces to take on the issue. Through these efforts, we've seen several strategies emerge for improving the way organizations assess and start to close their talent-related gaps.
 
 ## Listen to your current, past, and prospective employees
@@ -72,6 +72,6 @@ When conducting an employee engagement survey:
 
 - Write clear, concise questions that touch on one issue at a time (avoid [double-barreled questions](https://en.wikipedia.org/wiki/Double-barreled_question). Test these questions with a few people to ensure their meaning is straightforward.
 - Incorporate both open and closed questions. Open questions allow for longer, more personal responses, while closed questions have a fixed number of options to respond to (like yes/no or multiple choice). Open questions will generally produce better results. But they can also get tedious for respondents to answer, and introduce more complexity into the survey evaluation process.
-- Use the ["funnel" technique](https://www.qualtrics.com/experience-management/research/question-sequence-flow-style/) &mdash; start with questions that are easy respondents to answer, move into complex questions, and finish with simple questions.
+- Use the ["funnel" technique](https://www.qualtrics.com/experience-management/research/question-sequence-flow-style/) — start with questions that are easy respondents to answer, move into complex questions, and finish with simple questions.
 - Make responding as easy as possible. Only ask relevant questions, accept partial responses, and use an online survey tool that can be accessed from any device.
 </div>

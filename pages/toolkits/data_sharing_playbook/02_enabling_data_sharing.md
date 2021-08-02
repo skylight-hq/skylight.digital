@@ -74,9 +74,9 @@ As organizations become more data-driven, data experts are discovering more inst
 
 The data that government agencies, academic researchers, and other organizations collect most likely contain implicit biases. These biases can be introduced due to:
 
-- **Whose data is collected** &mdash; Does a dataset contain a representative sample of people across different demographics and backgrounds (that is, multiple races, ethnicities, geographic locations, ages, genders, etc.)?
-- **Whose data isn't collected** &mdash; Does the data leave out a specific demographic group that might not frequent the service where the data is collected?
-- **How the data is collected** &mdash; For example, is the data collected via interview in one area and via a form somewhere else?
+- **Whose data is collected** — Does a dataset contain a representative sample of people across different demographics and backgrounds (that is, multiple races, ethnicities, geographic locations, ages, genders, etc.)?
+- **Whose data isn't collected** — Does the data leave out a specific demographic group that might not frequent the service where the data is collected?
+- **How the data is collected** — For example, is the data collected via interview in one area and via a form somewhere else?
 
 Consider possible sources of bias in your agency's data carefully. If you don't identify possible bias, communicate it to data requesters, and work to reduce it, the decisions made based on your data may have unintended, serious societal implications.
 

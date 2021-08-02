@@ -79,9 +79,9 @@ source_code_url:
   they have a friend or family member in the U.S., they have no say in where
   they're resettled. They receive minimal government support through
   resettlement agencies and, in most cases, have to fend for themselves a few
-  months after relocating to the U.S. Other barriers &mdash; like culture shock,
+  months after relocating to the U.S. Other barriers — like culture shock,
   access to transportation and education, and medical and mental health issues
-  &mdash; make navigating resettlement particularly difficult. As one
+  — make navigating resettlement particularly difficult. As one
   interviewee who spoke perfect English and worked with the U.S. military in
   Iraq put it when she resettled here in 2013:
   <b>"What was challenging when I first arrived? Everything."</b>
