@@ -1,6 +1,6 @@
 ---
 layout: policy
-title: Intellectual Property Policy
+title: Intellectual property policy
 permalink: /company/policies/intellectual-property/
 redirect_from:
   - /policies/intellectual-property/

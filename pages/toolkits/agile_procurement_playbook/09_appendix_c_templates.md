@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Appendix C&#58; Templates | Skylight Agile Procurement Playbook
+title: "Appendix C: Templates | Skylight Agile Procurement Playbook"
 description: A guide on how to apply the principles of agile to procurement.
 tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-c-templates/

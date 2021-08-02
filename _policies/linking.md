@@ -1,6 +1,6 @@
 ---
 layout: policy
-title: Linking Policy
+title: Linking policy
 permalink: /company/policies/linking/
 redirect_from:
   - /policies/linking/

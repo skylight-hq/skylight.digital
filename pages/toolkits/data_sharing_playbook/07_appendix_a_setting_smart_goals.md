@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Appendix A&#58; Setting smart goals | Skylight Data Sharing Playbook
+title: "Appendix A: Setting smart goals | Skylight Data Sharing Playbook"
 description: A guide for state & local agencies on how to improve cross-organizational data sharing.
 tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals/

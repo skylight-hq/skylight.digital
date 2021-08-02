@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: Why plain language policies matter&#58; Telehealth billing and coding during a pandemic
+title: "Why plain language policies matter: Telehealth billing and coding during a pandemic"
 permalink: /thoughts/blog/why-plain-language-policies-matter-telehealth-billing-and-coding-during-a-pandemic/
 content_type: BlogPosting
 image: /img/blog/plain_language_policies_telehealth/plain-language.svg

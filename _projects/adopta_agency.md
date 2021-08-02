@@ -6,7 +6,7 @@ permalink: /work/experience/adopta-agency/
 redirect_from:
   - /work/adopta-agency/
 image: /img/projects/adopta_agency/api-launcher.svg
-image_description: A person using a catapult to launch a boulder enscribed with the acronym API.
+image_description: A person using a catapult to launch a boulder inscribed with the acronym API.
 feature_image:
 feature_image_description:
 order: 230

@@ -4,7 +4,7 @@ title_tag: Government of Canada
 title: Helping turn around a disastrous system rollout through agile procurement
 permalink: /work/experience/goc-nextgen-hr-and-pay-system-agile-procurement/
 image: /img/projects/goc_nextgen_hr_pay_system/nextgen-hr-system.svg
-image_description: Next generation HR system
+image_description: Next-generation HR system.
 feature_image:
 feature_image_description:
 order: 44

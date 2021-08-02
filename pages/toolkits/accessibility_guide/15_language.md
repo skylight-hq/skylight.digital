@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Language | Skylight Accessibility Guide
-description: "How we tell assistive technology what language a page is in."
+description: How we tell assistive technology what language a page is in.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/language/
 sidenav: accessibility_guide
