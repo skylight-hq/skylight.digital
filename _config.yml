@@ -114,6 +114,7 @@ plugins:
 
 gems:
   - octopress-debugger
+
 ################################
 # For batch conversion of svgs
 ################################
