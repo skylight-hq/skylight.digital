@@ -1,6 +1,6 @@
 ---
 layout: policy
-title: Privacy policy
+title: Privacy Policy
 permalink: /company/policies/privacy/
 redirect_from:
   - /policies/privacy/
@@ -45,7 +45,7 @@ Information You Give Us
 
 <strong>Analytics.</strong> For aggregate statistical analysis and to improve the quality of our services, we may integrate web measurement tools with our social media pages. These tools enable basic analysis of social media traffic (such as the number of people visiting a certain page).
 
-<strong>Links to External Sites.</strong> <a href="/policies/linking/">See our linking policy</a>.
+<strong>Links to External Sites.</strong> <a href="/policies/linking/">See our Linking Policy</a>.
 
 ## Children and privacy
 
