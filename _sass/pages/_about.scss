@@ -8,7 +8,7 @@
 
 .about-info {
   @include grid-container;
-  max-width: 840px !important;
+  max-width: $size-md !important;
 }
 
 .employees {
