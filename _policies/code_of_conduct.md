@@ -1,6 +1,6 @@
 ---
 layout: policy
-title: Code of conduct policy
+title: Code of Conduct Policy
 permalink: /company/policies/code-of-conduct/
 redirect_from:
   - /policies/code-of-conduct/
