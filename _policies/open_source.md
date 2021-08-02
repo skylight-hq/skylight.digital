@@ -1,6 +1,6 @@
 ---
 layout: policy
-title: Open source policy
+title: Open Source Policy
 permalink: /company/policies/open-source/
 redirect_from:
   - /policies/open-source/
