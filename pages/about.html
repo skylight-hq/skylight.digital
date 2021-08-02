@@ -59,9 +59,7 @@ preload: hero-about-us.svg
           {% for emp in employees %}
             <div id="{{emp.name}}" class="employee-col">
               <div class="employee-card">
-                <div class="employee-gradient">
-                  <div role="img" class="employee-img" style="background-image: url({{emp.image}});" title="{{emp.image_description}}"></div>
-                </div>
+                <div role="img" class="employee-img" style="background-image: url({{emp.image}});" title="{{emp.image_description}}"></div>
                 <div class="employee-block">
                   <h3 class="employee-title">{{emp.full_name}}</h3>
                   <h4 class="employee-subtitle">{{emp.position}}</h4>
