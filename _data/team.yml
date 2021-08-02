@@ -2207,3 +2207,20 @@
       link: https://github.com/emmastephenson
       link_description: Emma's GitHub Account
       fa_icon_name: github
+- name: mina-cairns
+  fname: Mina
+  lname: Cairns
+  full_name: Mina Cairns
+  short_name: M. Cairns
+  profile_path: /company/about/#mina-cairns
+  image: /img/people/mina-cairns.jpg
+  image_description: Photo of Mina Cairns
+  position: Head of Corporate Development
+  bio: >
+    Mina possesses nearly 20 years of consulting, technology, and leadership experience in the public sector. She specializes in corporate strategy, corporate development, and large-scale program management. Mina lives in Florida.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mina-c-2489979/
+      link_description: Mina's LinkedIn Account
+      fa_icon_name: linkedin
