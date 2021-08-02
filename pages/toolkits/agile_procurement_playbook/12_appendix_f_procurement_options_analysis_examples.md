@@ -43,9 +43,9 @@ The Office of Information Technology (OIT) at CMS has an existing indefinite del
 | Pros | Cons |
 |------|------|
 | The IDIQ is already existing and vendors have been pre-vetted. | The vendor pool isn't specialized to any project. |
-| The vendor pool is diverse based on company size | The vendor pool is so large the agile contracting is impossible. |
+| The vendor pool is diverse based on company size. | The vendor pool is so large the agile contracting is impossible. |
 | The ceiling on the IDIQ is extremely high — low risk of breaking through it. | The probability of protest per contract is substantially higher due to more vendor bids and issues with small business sizes. |
-| Orders under $10M aren't protestable | Agile methodologies, user-center design, and DevOps practices aren't baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest. |
+| Orders under $10M aren't protestable. | Agile methodologies, user-center design, and DevOps practices aren't baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest. |
 | All contract types permissible giving CMS added flexibility. | Most vendors aren't familiar with CMS payment processing and could struggle to meet the quick on boarding and rapidly changing needs of this project. |
 | Helping CMS meet small business goals. | Ability to award new tasks quickly. |
 
@@ -65,9 +65,9 @@ This option has the ability to continue leveraging SPARC while allowing for new 
 | Pros | Cons |
 |------|------|
 | Existing pre-vetted cadre of qualified vendors. | Best-in-Class (BIC) designation that'll help CMS meet Office of Management and Budget (OMB) targets. |
-| Orders under $10M not protestable. | Agency could receive criticism for not using SPARC that was intended, in part, for agile development; however, climate is pushing agencies toward Category Management and spend under management (SUM) / BIC use. |
+| Orders under $10M not protestable. | Agency could receive criticism for not using SPARC that was intended, in part, for agile development; however, climate is pushing agencies toward Category Management and spend under management (SUM)/BIC use. |
 | All contract types permissible. | Not all vendors will have subject matter expertise with CMS systems or payment processing. |
-| Alliant 2 explicitly includes agile development services. |  |
+| Alliant 2 explicitly includes agile development services. | - |
 
 #### Agency-wide BPA
 
@@ -157,7 +157,7 @@ Competition is vital in making sure the government is getting the best possible 
 
 #### Contractor digital service experience and approach (this is different than "agile development")
 
-User-centered design, DevOps, and product management are required to deliver modern digital services. These skillsets along with an agile methodology are necessary in delivering working software in small increments allowing for quickly changing development and design as new requirements are discovered.
+User-centered design, DevOps, and product management are required to deliver modern digital services. These skillsets, along with an agile methodology, are necessary in delivering working software in small increments allowing for quickly changing development and design as new requirements are discovered.
 
 {:.post-table .table-small-first}
 | Vehicle | Contractor digital service experience |
@@ -169,7 +169,7 @@ User-centered design, DevOps, and product management are required to deliver mod
 
 Having a background with CMS programs allows vendors to hit the ground running when contracts are awarded. The amount of time that's required to either onboard or transition work is diminished when vendors already know systems that they'll be working on. Having these familiarities allows for the period of performance to decrease and thus protecting CMS from getting locked into a vendor that underperforms. In addition to familiarity, having a smaller vendor pool means that contractors and their employees already have accounts, access, and the ability to quickly begin work after contract award.
 
-In some cases it takes over two months for *new* contractors to get access to CMS systems, this would make any attempt at iterative development dead on arrival.
+In some cases it takes over two months for *new* contractors to get access to CMS systems. This would make any attempt at iterative development dead on arrival.
 
 {:.post-table .table-small-first}
 | Vehicle | Familiarity with CMS systems |
