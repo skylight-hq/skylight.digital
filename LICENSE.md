@@ -1,3 +1,5 @@
+# License
+
 This project includes a mix of open source works that are and are not in the public domain.
 
 ## Parts of this project that aren't in the public domain
