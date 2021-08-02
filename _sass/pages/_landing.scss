@@ -119,8 +119,8 @@ $home-cta-spacing: 6rem;
 .landing-info-text-col,
 .landing-info-img-col {
   @extend %col-12;
-  @extend %col-md-10;
   @extend %col-sm-9;
+  @extend %col-md-10;
   @extend %mx-auto;
 }
 
