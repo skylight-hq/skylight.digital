@@ -39,7 +39,7 @@ It's easy to tell how much financial debt you're in by looking at your various a
 
 ## Making technical debt visible
 
-After you've identified where the technical debt lives within your codebase, the next step is to make it visible to the entire team &mdash; including management &mdash; for decision-making purposes. The challenge here is to provide sufficient information about what work needs to be done, as well as associated costs, benefits, and risks, so that the team can make smart tradeoff decisions between fixing technical debt or building new features. Non-technical stakeholders tend to favor the latter, which can quickly lead to an out-of-control system. Here are three approaches to help overcome this bias.
+After you've identified where the technical debt lives within your codebase, the next step is to make it visible to the entire team — including management — for decision-making purposes. The challenge here is to provide sufficient information about what work needs to be done, as well as associated costs, benefits, and risks, so that the team can make smart tradeoff decisions between fixing technical debt or building new features. Non-technical stakeholders tend to favor the latter, which can quickly lead to an out-of-control system. Here are three approaches to help overcome this bias.
 
 ### Approach 1: Factor technical debt into the cost of development
 

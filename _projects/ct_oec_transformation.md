@@ -184,7 +184,7 @@ source_code_url:
 
     <li>
       Developing a number of toolkits to help the organization adopt modern procurement,
-      design, delivery, and data practices &mdash;
+      design, delivery, and data practices —
       <a href="/work/toolkits/agile-procurement-playbook/">Agile Procurement Playbook</a>,
       <a href="/work/toolkits/data-sharing-playbook/">Data Sharing Playbook</a>, and
       Content Guidelines
@@ -196,7 +196,7 @@ source_code_url:
 
     <li>
       Training nearly 20 procurement officials in modern acquisition practices, based on our
-      <a href="/work/services/training/ditap-executive/">Digital IT Acquisition Professional Training &mdash; Executive Edition</a>
+      <a href="/work/services/training/ditap-executive/">Digital IT Acquisition Professional Training — Executive Edition</a>
       training course
     </li>
 

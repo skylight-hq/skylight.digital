@@ -57,7 +57,7 @@ Some conferences worth attending:
 
 Too often, government teams are focused on getting more staff, technology, and money, which are all usually hard to come by in local government. So how do you do more with less?
 
-Brian Elms of Denver's Peak Academy has an answer &mdash; focus on solving a problem, not on increasing resources:
+Brian Elms of Denver's Peak Academy has an answer — focus on solving a problem, not on increasing resources:
 
 - Create a language for how to solve a problem. When everyone on the team is talking about a problem in the same way, they have a shared understanding of that problem and can spend more time solving it.
 - Focus resources on the performance indicators that matter most; it's impossible to tackle every problem at once.

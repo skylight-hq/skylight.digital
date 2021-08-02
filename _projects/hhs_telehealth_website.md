@@ -116,7 +116,7 @@ source_code_url:
 {% capture solution %}
   <p>
     Our team quickly moved from concept to working code. In just a few weeks, we launched
-    <a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a> &mdash; a website to help medical
+    <a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a> — a website to help medical
     providers and the public ("patients") navigate telehealth options in the midst of a peaking pandemic.
   </p>
 

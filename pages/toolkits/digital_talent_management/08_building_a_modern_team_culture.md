@@ -29,7 +29,7 @@ Culture is built and sustained intentionally. Don't expect to organically grow i
 
 ## Understand the connection between culture and performance
 
-The [2014 State of DevOps Report](https://www.researchgate.net/publication/263198947_2014_State_of_DevOps_Report) did the research to identify a predictive link between organizational culture and performance. The cultural norms and practices that characterize high-trust organizations &mdash; good information flow, cross-functional collaboration, shared responsibilities, learning from failures, and encouragement of new ideas &mdash; correlate strongly with high performance.
+The [2014 State of DevOps Report](https://www.researchgate.net/publication/263198947_2014_State_of_DevOps_Report) did the research to identify a predictive link between organizational culture and performance. The cultural norms and practices that characterize high-trust organizations — good information flow, cross-functional collaboration, shared responsibilities, learning from failures, and encouragement of new ideas — correlate strongly with high performance.
 
 Westrum provides a useful typology that contrasts the qualities of three different types of organizational culture:
 
@@ -50,11 +50,11 @@ Most traditional government organizations tend to be bureaucratic. However, digi
 
 [re:Work from Google](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/identify-dynamics-of-effective-teams/) identifies five characteristics of effective teams, and these all support a generative organizational culture:
 
-1. **Psychological safety** &mdash; team members feel safe to take risks and be vulnerable in front of each other
-2. **Dependability** &mdash; team members get things done on time and meet the high bar for excellence
-3. **Structure and clarity** &mdash; team members have clear roles, plans, and goals
-4. **Meaning** &mdash; work is personally important to team members
-5. **Impact** &mdash; team members think their work matters and creates change
+1. **Psychological safety** — team members feel safe to take risks and be vulnerable in front of each other
+2. **Dependability** — team members get things done on time and meet the high bar for excellence
+3. **Structure and clarity** — team members have clear roles, plans, and goals
+4. **Meaning** — work is personally important to team members
+5. **Impact** — team members think their work matters and creates change
 
 Next, we'll break down the basics of encouraging these cultural characteristics.
 
@@ -112,7 +112,7 @@ Learn more about how the [U.K. Government Digital Service uses OKRs](https://vis
 
 **See the impact of the work.** Have everyone on the team participate in usability tests to observe how their solution makes things easier for users. Write frequently about the impact of the work that you're doing. This storytelling is important, both within the team and across your organization.
 
-**Assign people to projects they're passionate about.** Team members who are passionate about a particular topic will be excited about the work they do &mdash; and be more productive. When you can, give people a choice by asking them which projects they care about and would like to
+**Assign people to projects they're passionate about.** Team members who are passionate about a particular topic will be excited about the work they do — and be more productive. When you can, give people a choice by asking them which projects they care about and would like to
 work on.
 
 ## Create a welcoming and inclusive environment

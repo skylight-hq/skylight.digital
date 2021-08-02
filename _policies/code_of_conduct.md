@@ -8,7 +8,7 @@ redirect_from:
 
 ## Creating an inclusive culture, as the basis for innovation
 
-We aspire to create a culture where people work joyfully, communicate openly about things that matter, and collaborate effectively in service to our clients. We would like our team and our communities to reflect the diversity of America. We want to foster diversity of all kinds &mdash; not just the classes protected in law. Diversity fosters innovation. Diverse teams are creative teams. We need a diversity of perspective to create meaningful solutions for our clients.
+We aspire to create a culture where people work joyfully, communicate openly about things that matter, and collaborate effectively in service to our clients. We would like our team and our communities to reflect the diversity of America. We want to foster diversity of all kinds — not just the classes protected in law. Diversity fosters innovation. Diverse teams are creative teams. We need a diversity of perspective to create meaningful solutions for our clients.
 
 This is our code of conduct policy. We follow all Equal Employment Opportunity (EEO) laws. We expect everyone who works at Skylight, attends Skylight events and meetings, or participates in online forums or other virtual collaboration to follow this code of conduct and the EEO laws. This applies to all of our methods of communication: office chatrooms, commit messages, email, and both formal and informal conversation.
 

@@ -12,7 +12,7 @@ content_type: Toolkit
 
 ## Nurture your reputation
 
-Building a reputation as an organization committed to digital talent takes time. To attract the best talent, make recruiting an ongoing activity &mdash; not just one that you engage in when you have a job opening. Here are some basic things you can be doing all the time to build your reputation.
+Building a reputation as an organization committed to digital talent takes time. To attract the best talent, make recruiting an ongoing activity — not just one that you engage in when you have a job opening. Here are some basic things you can be doing all the time to build your reputation.
 
 **Maintain an online presence.** Talk about the work you do. You can do this through:
 
@@ -159,7 +159,7 @@ In addition, by encouraging your team to attend technology meetups you allow the
 <div class="callout--note" markdown='1'>
 ### Resources
 
-- [Ask 18F &mdash; How do you recruit employees?](https://18f.gsa.gov/2018/08/02/ask-18f-talent/)
+- [Ask 18F — How do you recruit employees?](https://18f.gsa.gov/2018/08/02/ask-18f-talent/)
 - [How to Recruit for Local Government in the Digital Age](https://www.civicplus.com/hubfs/CivicHR/PDFs/CivicHR-eBook-How-to-Recruit-for-Local-Government-in-the-Digital-Age-HR-5002-042517.pdf)
 </div>
 
@@ -213,7 +213,7 @@ The City of San Francisco has a very high-touch hiring process. They require tha
 
 ## Reduce the hiring time
 
-Government hiring processes can take months &mdash; six months isn't unusual. For candidates who are used to industry timelines, this is an eternity. You risk losing valuable candidates to a long process, especially if there's no communication between the stages. Shorter hiring processes also mean you'll bring necessary staff on board sooner.
+Government hiring processes can take months — six months isn't unusual. For candidates who are used to industry timelines, this is an eternity. You risk losing valuable candidates to a long process, especially if there's no communication between the stages. Shorter hiring processes also mean you'll bring necessary staff on board sooner.
 
 To shorten the hiring process:
 

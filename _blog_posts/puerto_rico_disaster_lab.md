@@ -23,7 +23,7 @@ On June 29th through July 1st, I had the [pleasure](https://medium.com/public-in
 
 The hackathon was very successful as hackathons go, but any one-weekend event can only accomplish so much. During some downtime when none of the eight teams seemed to want my help, I sat down with some leaders of the Puerto Rico technical community to articulate unique "opportunities" that Puerto Rico has. Some of these are advantages, some of these are disadvantages. Having attempted a [disaster relief mission](https://www.presidentialinnovation.org/news/relief-mission-to-puerto-rico) to Puerto Rico 71 days after Hurricane Maria, I've witnessed firsthand the resilience and optimism of Puerto Ricans and their ability to deflect adversity or turn it to their advantage.
 
-In this article, I summarize those unique characteristics and add my own ideas: three research projects in the Internet of Things (IoT) space that Puerto Rico is uniquely positioned to undertake. I place these ideas in the public domain &mdash; anyone may act on these ideas and even take the names I've assigned to them. Although Skylight would like to act on these ideas, we're unlikely to do so alone and proffer these ideas in hope that enough energy and interest will build around them for someone to, for example, write a grant to implement them.
+In this article, I summarize those unique characteristics and add my own ideas: three research projects in the Internet of Things (IoT) space that Puerto Rico is uniquely positioned to undertake. I place these ideas in the public domain — anyone may act on these ideas and even take the names I've assigned to them. Although Skylight would like to act on these ideas, we're unlikely to do so alone and proffer these ideas in hope that enough energy and interest will build around them for someone to, for example, write a grant to implement them.
 
 ## Puerto Rico: a disaster lab
 
@@ -33,7 +33,7 @@ Here was our original scribing:
 
 ![Graphical transcription of a whiteboard brainstorming session on how Puerto Rico is essentially a disaster lab.](/img/blog/puerto_rico_disaster_lab/scribing.svg)
 
-I've interpreted this in text at the end of this article, but let me try to explain it in prose. I think it was Sasha Méndez who articulated the idea that Puerto Rico *is* a "Disaster Lab" &mdash; and she's right.
+I've interpreted this in text at the end of this article, but let me try to explain it in prose. I think it was Sasha Méndez who articulated the idea that Puerto Rico *is* a "Disaster Lab" — and she's right.
 
 ### Geography
 
@@ -47,7 +47,7 @@ Puerto Rico, being in the Caribbean, is frequently struck by tropical storms and
 
 ### Culture and politics
 
-Puerto Rico has a well-developed startup culture and 24.6% of the population over 25 have a college degree. As an island, Puerto Ricans are "insular" &mdash; ideas don't cross the barrier into the island easily, but once there, they tend to spread quickly.
+Puerto Rico has a well-developed startup culture and 24.6% of the population over 25 have a college degree. As an island, Puerto Ricans are "insular" — ideas don't cross the barrier into the island easily, but once there, they tend to spread quickly.
 
 Politically, Puerto Rico is divided into 78 semi-autonomous and somewhat competitive [municipalities](https://en.wikipedia.org/wiki/Municipalities_of_Puerto_Rico). This means that it's quite possible to find a municipality incented to try a new idea.
 

@@ -30,12 +30,12 @@ Governments tend to hire people as permanent employees. Hiring happens infrequen
 
 ### Attracting talent to bright spots
 
-It's easier to attract digital talent to come work for the government if they know they're joining a team. Hire digital talent into teams, creating bright spots of talent. This team should have the organizational support necessary to succeed &mdash; be open and public about that support.
+It's easier to attract digital talent to come work for the government if they know they're joining a team. Hire digital talent into teams, creating bright spots of talent. This team should have the organizational support necessary to succeed — be open and public about that support.
 
 There a few different ways to create bright spots:
 
-- **A centralized hub supporting multiple agencies &mdash;** 18F and USDS are centralized hubs that work on projects for different agencies. ([See 18F's partnership principles](https://18f.gsa.gov/partnership-principles/)). One of the benefits of this approach is that it [opens the door for teams to work on problems that span multiple agencies](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/). It also allows for shared solutions, resulting in economies of scale.
-- **Dedicated agency teams &mdash;** These teams are an embedded part of an agency's mission and share the same values. The teams can form around critical services, providing long-term support. They can build the strong, lasting relationships, and trust needed to effect change.
+- **A centralized hub supporting multiple agencies —** 18F and USDS are centralized hubs that work on projects for different agencies. ([See 18F's partnership principles](https://18f.gsa.gov/partnership-principles/)). One of the benefits of this approach is that it [opens the door for teams to work on problems that span multiple agencies](https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-should-teams-look-like/). It also allows for shared solutions, resulting in economies of scale.
+- **Dedicated agency teams —** These teams are an embedded part of an agency's mission and share the same values. The teams can form around critical services, providing long-term support. They can build the strong, lasting relationships, and trust needed to effect change.
 
 ## Recognizing and training existing technology talent
 
@@ -57,7 +57,7 @@ Plan to send them to formal training for human-centered design, agile, DevOps, a
 
 ## Preparing government employees to work collaboratively with technical teams
 
-All government employees &mdash; including those outside of your technology team &mdash; will need training and support to help them work collaboratively on technology projects. At a minimum, they'll need to understand the basics of human-centered design, product management, and agile project management.
+All government employees — including those outside of your technology team — will need training and support to help them work collaboratively on technology projects. At a minimum, they'll need to understand the basics of human-centered design, product management, and agile project management.
 
 Plan to offer incentives and opportunities for continuously training your staff. Your staff needs to keep up with the pace of change in technology. The section on [keeping skills and ideas fresh](/work/toolkits/digital-talent-management/keeping-skills-and-ideas-fresh/) discusses how to do this in detail.
 
@@ -74,7 +74,7 @@ These alternative options for talent work best when projects are well defined.
 
 ## Using technology to create additional capacity
 
-Government agencies are increasingly asked to do more with less &mdash; smaller budgets, fewer staff. Many government organizations are used to thinking of technology as a cost center rather than a mission enabler. But the right technology can help you do more with less, such as automating tedious, manual work.
+Government agencies are increasingly asked to do more with less — smaller budgets, fewer staff. Many government organizations are used to thinking of technology as a cost center rather than a mission enabler. But the right technology can help you do more with less, such as automating tedious, manual work.
 
 Although machine learning and artificial intelligence are often touted as necessary automation tools, they're difficult to implement well in environments that aren't ready for modern technology. Luckily, there are often simpler alternatives to many labor-intensive tasks:
 
@@ -94,7 +94,7 @@ Digital teams are well-suited to looking at entire processes to determine where 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: U.K. Government Digital Service
 
-The U.K. Government Digital Service (GDS) is the oldest and one of the most successful of the government digital service teams. In many ways, it set the standards for teams in the U.S., including 18F and USDS. GDS operates on a mixed model &mdash; they hire people into a centralized team but also help other agencies staff their own teams. Through this model, they've brought hundreds of technologists into the U.K. government.
+The U.K. Government Digital Service (GDS) is the oldest and one of the most successful of the government digital service teams. In many ways, it set the standards for teams in the U.S., including 18F and USDS. GDS operates on a mixed model — they hire people into a centralized team but also help other agencies staff their own teams. Through this model, they've brought hundreds of technologists into the U.K. government.
 
 One of the core functions of the centralized team is to create shared standards and tools. For example, it's responsible for the [GOV.UK Design System](https://design-system.service.gov.uk/?_ga=2.48215079.183259153.1574016435-578254373.1574016435) that standardizes the look, feel, and interaction for U.K. government websites, as well as for shared services like [Verify](https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify), an online identity management system.
 

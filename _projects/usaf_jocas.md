@@ -130,7 +130,7 @@ source_code_url:
   <p>
     As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we're working together
     with the JOCAS program team to incrementally build out a new system alongside the old one,
-    until all its key functionalities are replaced &mdash; a proven architectural approach known
+    until all its key functionalities are replaced — a proven architectural approach known
     as the <a href="https://martinfowler.com/bliki/StranglerFigApplication.html">strangler pattern</a>.
   </p>
 
@@ -146,7 +146,7 @@ source_code_url:
 
   <ul>
     <li>
-      Redesigning the user experience to better meet the needs of users &mdash; employees,
+      Redesigning the user experience to better meet the needs of users — employees,
       supervisors, and admins
     </li>
 

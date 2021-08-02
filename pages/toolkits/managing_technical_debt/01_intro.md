@@ -10,7 +10,7 @@ content_type: Toolkit
 
 # Introduction
 
-Technical debt is a financial metaphor that software developers use to talk to "less-technical" audiences about the hidden costs associated with a system's architecture and codebase &mdash; such as changing requirements addressed with a quick fix, bugs deferred in favor of new development, design weaknesses, or aging third-party libraries.
+Technical debt is a financial metaphor that software developers use to talk to "less-technical" audiences about the hidden costs associated with a system's architecture and codebase — such as changing requirements addressed with a quick fix, bugs deferred in favor of new development, design weaknesses, or aging third-party libraries.
 
 ![An iceberg in which the tip represents the visible costs of technical debt and everything below the surface represents the hidden costs.](/img/toolkits/technical_debt/tech-debt-iceberg.svg)
 

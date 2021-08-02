@@ -80,13 +80,13 @@ source_code_url:
   <p>
     Rather than default to a change strategy of importing "Silicon Valley tech culture"
     into government, Chris and Robert recognized the unique talents and knowledge of
-    institutional players &mdash; such as career civil servants and federal contractors &mdash;
+    institutional players — such as career civil servants and federal contractors —
     and instead brought the best of both worlds together.
   </p>
 
   <p>
     Over the course of a year, Chris and Robert recruited, hired, led, and managed
-    high-performing multidisciplinary teams &mdash; from both the public and private sectors &mdash;
+    high-performing multidisciplinary teams — from both the public and private sectors —
     who worked hand-in-hand with numerous agencies in pursuit of digital mastery.
     These teams produced some of 18F's most notable, innovative, and transformative
     client work and reshaped how GSA delivers technology services to the rest of government.

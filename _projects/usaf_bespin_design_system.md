@@ -46,7 +46,7 @@ source_code_url:
   <p>
     BESPIN is one of the USAF's strategic digital solution centers, along with Kessel Run,
     SpaceCAMP, and others. BESPIN's mission is to deliver digital transformation outcomes
-    for partner organizations throughout the USAF and the broader defense community &mdash;
+    for partner organizations throughout the USAF and the broader defense community —
     including the <a href="https://www.airforcebes.af.mil/">Business Enterprise Systems Directorate</a>,
     which manages a billion-dollar portfolio of IT systems supporting enterprise-wide
     functions such as finance, logistics, and human resources.
@@ -67,7 +67,7 @@ source_code_url:
 
   <p>
     The problem of designing at scale isn't unique to BESPIN, and has driven high-tech
-    organizations &mdash; from 18F to Google &mdash; to change the way they design products by
+    organizations — from 18F to Google — to change the way they design products by
     incorporating design systems.
   </p>
 
@@ -100,7 +100,7 @@ source_code_url:
 
     <li>
       Waste less time on version control issues, such as incorporating bug fixes
-      or enhancements &mdash; with a design system, updates are made once and populate
+      or enhancements — with a design system, updates are made once and populate
       all occurrences
     </li>
 
@@ -154,7 +154,7 @@ source_code_url:
 
     <li>
       Because product teams lack access to a unified system for design, this has led to a
-      number of issues &mdash; such as breakdowns in product direction and difficulty maintaining
+      number of issues — such as breakdowns in product direction and difficulty maintaining
       design quality while trying to keep up with the pace of agile release cycles.
     </li>
   </ul>

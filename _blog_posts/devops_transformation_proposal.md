@@ -32,7 +32,7 @@ Under an extremely tight proposal period, we responded with an approach that foc
 
 ![Phases of the ACME engagement.](/img/blog/devops_transformation_proposal/acme-engagement-phases.svg)
 
-Those words &mdash; *sustainably*, *self-sufficiently*, and *effectively* &mdash; aren't just sales fluff; they're key engagement outcomes that we're trying to achieve.
+Those words — *sustainably*, *self-sufficiently*, and *effectively* — aren't just sales fluff; they're key engagement outcomes that we're trying to achieve.
 
 **Sustainability** is about helping ACME chart a course that doesn't overload the organization with too many simultaneous change initiatives. Steady progress is best achieved by focusing on improving a couple of high-impact capabilities (for example, test automation and deployment automation) at a time. Once sustainable progress has been made, then the organization is ready to take on more. Think of it as Kanban for transformation that enables rapid incremental capability development.
 

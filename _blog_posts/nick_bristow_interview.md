@@ -25,7 +25,7 @@ date: 2018-05-06
 
 In 2014, I joined 18F and founded and ran their Accessibility Guild. The Accessibility Guild is a community of practice whose mission is to improve accessibility at 18F and the wider government. We produced a number of successful projects such as the [18F Accessibility Guide](https://accessibility.18f.gov/) that are still in use today by government and non-government entities around the world.
 
-During my four years at 18F, I worked on numerous projects &mdash; such as [login.gov](https://login.gov/) &mdash; in every role possible. I acted as a developer, project lead, and Scrum Master, just to name a few.
+During my four years at 18F, I worked on numerous projects — such as [login.gov](https://login.gov/) — in every role possible. I acted as a developer, project lead, and Scrum Master, just to name a few.
 
 **Chris Cairns: How did you find out about Skylight?**
 
@@ -35,7 +35,7 @@ During my four years at 18F, I worked on numerous projects &mdash; such as [logi
 
 **Nick Bristow:** There are a couple of reasons why I decided to join Skylight. I worked inside the federal government at 18F for almost four years. Our goal was always to shake-up how things were done, and make things better. I honestly feel like we achieved those goals to a large degree. Throughout my tenure there, I saw more and more agencies adopting modern digital delivery practices and technologies. Because of the way we hired at 18F, everyone was on a timeclock (that is, term limits). After it was up, I wasn't ready to quit changing government.
 
-When I found out what Skylight was doing, I recognized a lot of what I witnessed at 18F and more. The passion for the work is what drives me and that's what I see at Skylight. The desire to do more than fulfill a contract. And the desire to move the needle forward and deliver better work for the people who are really paying for it &mdash; the citizens. That's why I joined.
+When I found out what Skylight was doing, I recognized a lot of what I witnessed at 18F and more. The passion for the work is what drives me and that's what I see at Skylight. The desire to do more than fulfill a contract. And the desire to move the needle forward and deliver better work for the people who are really paying for it — the citizens. That's why I joined.
 
 **Chris Cairns: What have you worked on so far?**
 

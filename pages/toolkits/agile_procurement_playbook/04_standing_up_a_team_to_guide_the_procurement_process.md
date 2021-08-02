@@ -48,7 +48,7 @@ If a product is large, there are going to be gaps of understanding in areas of r
 
 ### Engineer
 
-Chances are, you're using agile procurement to build a digital service &mdash; an informational website, an online service that users will interact with, or internal systems/tools to support the agency's mission.
+Chances are, you're using agile procurement to build a digital service — an informational website, an online service that users will interact with, or internal systems/tools to support the agency's mission.
 
 The engineer lead will work with the product owner to lay out the fundamental building blocks needed to support the product. They'll identify the skillsets needed for the first round of procurements, such as experts in cloud infrastructure, databases, or APIs.
 

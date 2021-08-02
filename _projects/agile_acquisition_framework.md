@@ -76,9 +76,9 @@ source_code_url:
 
   <p>
     The framework's design uniquely combines proven practices from multiple disciplines
-    &mdash; such as user-centered design, lean startup, agile development, agile project
+    — such as user-centered design, lean startup, agile development, agile project
     management, evolutionary architecture, open source, performance-based contracting,
-    and modular contracting &mdash; into a unified approach.
+    and modular contracting — into a unified approach.
   </p>
 
   <p>

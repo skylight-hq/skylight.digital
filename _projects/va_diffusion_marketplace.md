@@ -100,7 +100,7 @@ source_code_url: https://github.com/agilesix/diffusion-marketplace
   <p>
     After validating our primary design solution through research and prototyping,
     we rapidly iterated toward the release of beta and production versions of the
-    platform &mdash; with an initial collection of over 50 practices.
+    platform — with an initial collection of over 50 practices.
   </p>
 
   <p>

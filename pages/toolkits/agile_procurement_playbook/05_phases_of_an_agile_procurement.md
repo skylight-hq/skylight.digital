@@ -39,7 +39,7 @@ These working sessions will align stakeholders on:
 - Why it's being built
 - Who it's being built for
 
-Frameworks such as [CATWOE](https://www.brighthubpm.com/methods-strategies/105917-catwoe-analysis-how-amp-when-to-use-it/) can help identify areas of the development process that could be a source of conflict between stakeholders. Finding these areas of possible conflict early is much like catching software bugs early in development &mdash; the [cost of fixing is exponentially more](https://deepsource.io/blog/exponential-cost-of-fixing-bugs/) the longer a source of conflict isn't addressed.
+Frameworks such as [CATWOE](https://www.brighthubpm.com/methods-strategies/105917-catwoe-analysis-how-amp-when-to-use-it/) can help identify areas of the development process that could be a source of conflict between stakeholders. Finding these areas of possible conflict early is much like catching software bugs early in development — the [cost of fixing is exponentially more](https://deepsource.io/blog/exponential-cost-of-fixing-bugs/) the longer a source of conflict isn't addressed.
 
 Once the team has a good understanding of the goals and objectives of the product or service, the procurement team can tailor a strategy to the product. That might include evaluating the necessity of custom development versus off-the-shelf solutions or determining the performance period timeline to gain a better understanding of the value that's delivered against the calendar.
 
@@ -62,9 +62,9 @@ The basic answers to these questions will help guide any market research needed.
 
 #### Market research
 
-At the beginning of the procurement process for digital services, it can be difficult to have a good understanding of the large bucket of product development requirements. This is a great time to solicit feedback from the vendor community. When asking for vendor input, the government should be specific about the product goals. This will help the vendor community provide detailed feedback about how they would approach &mdash; and ultimately solve &mdash; some of the problems that the government will face when building out digital services.
+At the beginning of the procurement process for digital services, it can be difficult to have a good understanding of the large bucket of product development requirements. This is a great time to solicit feedback from the vendor community. When asking for vendor input, the government should be specific about the product goals. This will help the vendor community provide detailed feedback about how they would approach — and ultimately solve — some of the problems that the government will face when building out digital services.
 
-While it's valuable to see how industry would approach solutions, it's more important to see what skillsets they would require for their solutions. Ultimately, this is what the government should target for their procurement &mdash; the communities of practice that are required to deliver the product.
+While it's valuable to see how industry would approach solutions, it's more important to see what skillsets they would require for their solutions. Ultimately, this is what the government should target for their procurement — the communities of practice that are required to deliver the product.
 
 Engaging with vendors can be as formal as a request for information (RFI) or as informal as grabbing a cup of coffee and having a conversation. Vendors will be happy to provide information no matter the method. Typically, the more informal the engagement, the faster the turnaround is for answering requirement questions. Also, the informal nature can be helpful in putting a face to government employees and building stronger relationships with vendors.
 
@@ -122,9 +122,9 @@ A QMP ensures that the government and vendor have a clear, common understanding 
 
 - Specifics about how the government will evaluate the vendor's performance metrics (called a Quality Assurance Surveillance Plan)
 - Roles and responsibilities for enforcing those metrics
-- The vendor's planned response if metrics aren't met (called a Quality Control Plan) &mdash; for example, there could be financial impacts tied to some of the performance metrics
+- The vendor's planned response if metrics aren't met (called a Quality Control Plan) — for example, there could be financial impacts tied to some of the performance metrics
 
-Much of the QMP can be captured in a single table. The vendor will have to come up with most &mdash; if not all &mdash; of the performance metrics they're to be measured on.
+Much of the QMP can be captured in a single table. The vendor will have to come up with most — if not all — of the performance metrics they're to be measured on.
 
 For a Quality Management Plan template, refer to [Appendix C](../appendix-c-templates#quality-metric-plan-template).
 
@@ -181,7 +181,7 @@ The down-select is a phase in the procurement lifecycle that requires the evalua
 - In a **mandatory down-select** process, the government notifies a subsection of the applicant pool that they're not going to be considered and are being removed from the procurement process.
 - In a **voluntary down-select** process, the government notifies a subsection of the pool that they should consider not proceeding through the rest of the procurement process based on the TEP's findings.
 
-When the government gives transparent feedback to vendors throughout the process &mdash; including when some proposals have a low probability of winning &mdash; this allows vendors to decide whether they want to put more time and resources into the procurement process. Without this feedback, vendors may feel like they might have wasted time and be understandably upset.
+When the government gives transparent feedback to vendors throughout the process — including when some proposals have a low probability of winning — this allows vendors to decide whether they want to put more time and resources into the procurement process. Without this feedback, vendors may feel like they might have wasted time and be understandably upset.
 
 The government can benefit through the terms/language in which it evaluates whether vendors are down-selected. [Appendix D](../appendix-d-tep-rating-system-examples/) provides an example of how the government can be transparent about the down-select criteria.
 

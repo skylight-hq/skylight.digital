@@ -18,7 +18,7 @@ content_type: Toolkit
   cite_url = "https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/"
 %}
 
-Employee onboarding is the process of integrating a new employee into your team. A good onboarding process will reduce the time it takes new employees to acclimate &mdash; and to contribute.
+Employee onboarding is the process of integrating a new employee into your team. A good onboarding process will reduce the time it takes new employees to acclimate — and to contribute.
 
 Onboarding consists of the following activities:
 
@@ -34,13 +34,13 @@ Start documenting your onboarding process with the first hire. Even a small amou
 
 ## Onboard in phases
 
-To avoid overwhelming new hires &mdash; or underwhelming them &mdash; treat onboarding as a phased process. Break it down into the pieces that make sense at each stage. The suggestions below will help you build a tailored onboarding guide and corresponding checklist.
+To avoid overwhelming new hires — or underwhelming them — treat onboarding as a phased process. Break it down into the pieces that make sense at each stage. The suggestions below will help you build a tailored onboarding guide and corresponding checklist.
 
 ### Before the first day
 
 Preparing for your new employee starts well before their first day. You'll want to have a number of things in place:
 
-- Order the hardware (for example, laptop, phone) the new hire will need &mdash; and be sure to leave enough time for IT to configure it and ensure it's ready on the first day
+- Order the hardware (for example, laptop, phone) the new hire will need — and be sure to leave enough time for IT to configure it and ensure it's ready on the first day
 - Purchase any additional licenses and accounts for any software needed
 - If they're going to physically be in an office, figure out where they're going to sit and get the space ready for them
 - If they're going to be remote, make sure to ship whatever they'll need to have on hand for the first day (for example, laptop)
