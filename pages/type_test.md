@@ -6,15 +6,15 @@ permalink: /type/
 
 This is regular text.
 
-> "This is a blockquote."
+> “This is a blockquote.”
 
-This is a "tip" callout.
+This is a “tip” callout.
 {: .callout--tip }
 
-This is a "note" callout.
+This is a “note” callout.
 {: .callout--note }
 
-This is an "example" callout.
+This is an “example” callout.
 {: .example }
 
 <aside class="news-coverage callout">
@@ -61,9 +61,9 @@ This is an "example" callout.
 
     <p class="font-weight-bold">Note:</p>
     <ul>
-      <li>h1 is not used on "design headings." Usually starts at h2.</li>
-      <li>h5 and h6 generally not in use.</li>
-      <li>Pages with banners use h2 size for banner heading.</li>
+      <li>H1 is not used on “design headings.” Usually starts at H2.</li>
+      <li>H5 and H6 generally not in use.</li>
+      <li>Pages with banners use H2 size for banner heading.</li>
     </ul>
   </div>
 </div>
