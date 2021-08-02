@@ -32,7 +32,7 @@ digital_talent_management:
       url: /work/toolkits/digital-talent-management/building-a-movement-and-a-presence/
     - title: How we wrote this guide
       url: /work/toolkits/digital-talent-management/how-we-wrote-this-guide/
-    - title: Appendix A&#58; Sample interview questions
+    - title: "Appendix A: Sample interview questions"
       url: /work/toolkits/digital-talent-management/appendix-a-sample-interview-questions/
 
 data_sharing_playbook:
@@ -51,9 +51,9 @@ data_sharing_playbook:
       url: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request/
     - title: Transferring data
       url: /work/toolkits/data-sharing-playbook/transferring-data/
-    - title: Appendix A&#58; Setting smart goals
+    - title: "Appendix A: Setting smart goals"
       url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals/
-    - title: Appendix B&#58; Linking datasets
+    - title: "Appendix B: Linking datasets"
       url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets/
 
 accessibility_guide:
@@ -123,19 +123,19 @@ agile_procurement_playbook:
       url: /work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement/
     - title: Managing an agile project
       url: /work/toolkits/agile-procurement-playbook/managing-an-agile-project/
-    - title: Appendix A&#58; Case studies
+    - title: "Appendix A: Case studies"
       url: /work/toolkits/agile-procurement-playbook/appendix-a-case-studies/
-    - title: Appendix B&#58; Key concepts
+    - title: "Appendix B: Key concepts"
       url: /work/toolkits/agile-procurement-playbook/appendix-b-key-concepts/
-    - title: Appendix C&#58; Templates
+    - title: "Appendix C: Templates"
       url: /work/toolkits/agile-procurement-playbook/appendix-c-templates/
-    - title: Appendix D&#58; TEP rating system examples
+    - title: "Appendix D: TEP rating system examples"
       url: /work/toolkits/agile-procurement-playbook/appendix-d-tep-rating-system-examples/
-    - title: Appendix E&#58; Design challenge examples
+    - title: "Appendix E: Design challenge examples"
       url: /work/toolkits/agile-procurement-playbook/appendix-e-design-challenge-examples/
-    - title: Appendix F&#58; Procurement options analysis examples
+    - title: "Appendix F: Procurement options analysis examples"
       url: /work/toolkits/agile-procurement-playbook/appendix-f-procurement-options-analysis-examples/
-    - title: Appendix G&#58; Statement of Objectives examples
+    - title: "Appendix G: Statement of Objectives examples"
       url: /work/toolkits/agile-procurement-playbook/appendix-g-statement-of-objectives-examples/
 
 managing_technical_debt:
