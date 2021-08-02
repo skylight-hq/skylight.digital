@@ -20,11 +20,11 @@ Consider what you can do to encourage and support others. Make room for quieter 
 
 Create boundaries to your own behavior and consider how you can create safe space that helps prevent unacceptable behavior by others. We don't seek to list all cases of unacceptable behavior, but provide examples to help guide our community in thinking through how to respond when we experience these types of behavior, whether directed at ourselves or others.
 
-If you're unsure if something is appropriate behavior, it probably isn't. Each person you interact with can define where that line is for them. <em>Impact matters more than intent.</em> Ensuring that your behavior doesn't have a negative impact is your responsibility. Problems happen when we assume that our way of thinking or behaving is the norm or ok with everyone. This is particularly problematic when we're in a position of power or privilege.
+If you're unsure if something is appropriate behavior, it probably isn't. Each person you interact with can define where that line is for them. *Impact matters more than intent.* Ensuring that your behavior doesn't have a negative impact is your responsibility. Problems happen when we assume that our way of thinking or behaving is the norm or ok with everyone. This is particularly problematic when we're in a position of power or privilege.
 
 Here are a few examples of unacceptable behavior:
 
-- Negative or offensive remarks regarding race, religion, color, sex (with or without sexual conduct and including pregnancy and sexual orientation involving transgender status/gender identity, and sex-stereotyping), national origin, age, disability (physical or mental), genetic information, sexual orientation, gender identity, parental status, marital status, and political affiliation <strong>as well as</strong> gender expression, mental illness, socioeconomic status or background, neuro(a)typicality, physical appearance, body size, or clothing. <strong>Consider that calling attention to differences can feel alienating.</strong>
+- Negative or offensive remarks regarding race, religion, color, sex (with or without sexual conduct and including pregnancy and sexual orientation involving transgender status/gender identity, and sex-stereotyping), national origin, age, disability (physical or mental), genetic information, sexual orientation, gender identity, parental status, marital status, and political affiliation **as well as** gender expression, mental illness, socioeconomic status or background, neuro(a)typicality, physical appearance, body size, or clothing. **Consider that calling attention to differences can feel alienating.**
 - Touching people without their affirmative consent.
 - Sustained disruption of meetings, talks, or discussions, including chatrooms.
 - Patronizing language or behavior.
@@ -46,4 +46,4 @@ Relevant legal considerations:
 
 If we decide to change this policy, we'll update the modification date below.
 
-<em>Updated: April 4, 2017</em>
+*Updated: April 4, 2017*
