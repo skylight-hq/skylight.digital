@@ -10,7 +10,7 @@
 
   <div class="project-case-study-content">
     <h2 class="sr-only">Summary</h2>
-    <div class="project-case-study-summary">{{include.summary}}</div>
+    <div class="project-case-study-summary">{{include.summary | markdownify }}</div>
 
     {% if page.feature_image %} {% assign image = page.feature_image %} {%
     assign image_description = page.feature_image_description %} {% assign
@@ -26,10 +26,10 @@
     />
 
     <h2>The challenge</h2>
-    {{include.challenge}}
+    {{ include.challenge | markdownify }}
 
     <h2>The solution</h2>
-    {{include.solution}} {% capture accordion_body %}
+    {{ include.solution | markdownify }} {% capture accordion_body %}
     <aside class="approach">
       {% assign member_count = page.project_members.size %}
       <ul class="has-col">
@@ -99,7 +99,7 @@
     </div>
 
     <h2>The results</h2>
-    {{include.results}}
+    {{ include.results | markdownify }}
     {% if page.news_posts %}
       {% capture news_body%}
         <aside class="news-coverage callout">
