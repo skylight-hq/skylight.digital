@@ -77,7 +77,7 @@ source_code_url:
 <p>
   Refugees also face significant challenges when they arrive in the U.S. Unless
   they have a friend or family member in the U.S., they have no say in where
-  they’re resettled. They receive minimal government support through
+  they're resettled. They receive minimal government support through
   resettlement agencies and, in most cases, have to fend for themselves a few
   months after relocating to the U.S. Other barriers — like culture shock,
   access to transportation and education, and medical and mental health issues
@@ -88,7 +88,7 @@ source_code_url:
 </p>
 
 <p>
-  In addition, many policymakers, and even some who work with refugees, don’t
+  In addition, many policymakers, and even some who work with refugees, don't
   understand the full scope of the process to get to the U.S.
 </p>
 {% endcapture %}
@@ -157,8 +157,8 @@ source_code_url:
   Many times, policymakers only work on one aspect of the admissions process and
   lack an in-depth or nuanced view of other parts of the program. We made a
   journey map illustrating all steps and pain points along the way from the
-  perspective of a refugee, something one person who’d worked on policy for
-  years said they’d never seen before.
+  perspective of a refugee, something one person who'd worked on policy for
+  years said they'd never seen before.
 </p>
 
 <p class="border p-3">

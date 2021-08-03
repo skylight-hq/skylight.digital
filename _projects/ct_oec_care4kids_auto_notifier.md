@@ -81,7 +81,7 @@ source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
 
 {% include callout.html
   type = "pullquote"
-  content = "Mailed it in originally. They said they never received it, sent again. They never received it so I did everything at that point — fax and upload. Had to do it all over again after that...still hadn’t received anything back from Care 4 Kids at that point."
+  content = "Mailed it in originally. They said they never received it, sent again. They never received it so I did everything at that point — fax and upload. Had to do it all over again after that...still hadn't received anything back from Care 4 Kids at that point."
   cite_name = "Parent"
 %}
 {% endcapture %}

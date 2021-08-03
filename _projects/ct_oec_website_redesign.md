@@ -80,7 +80,7 @@ source_code_url:
   </p>
 {% include callout.html
   type = "pullquote"
-  content = "The forms online, many of them are outdated. So I don’t look online."
+  content = "The forms online, many of them are outdated. So I don't look online."
   cite_name = "Research participant"
 %}
 

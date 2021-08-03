@@ -56,7 +56,7 @@ source_code_url:
 {% capture solution %}
   <p>
     To address this challenge, Chris Cairns and Shashank Khandelwal, as members of 18F and
-    the Federal Chief Information Officer’s Technology Transformation Task Force, the precursor
+    the Federal Chief Information Officer's Technology Transformation Task Force, the precursor
     to the American Technology Council, collaborated with multiple government technology executives
     and renowned transformation experts to develop a comprehensive framework for digital transformation. The framework
     incorporates lessons learned and best practices from multiple agencies with digital

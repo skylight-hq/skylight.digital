@@ -42,7 +42,7 @@ source_code_url:
     to gather specific research insights around families with young children
     and explore opportunities to address their complex challenges.
     In response, we conducted in-depth research and identified a targeted
-    technical solution to help improve a critical tool that’s used to
+    technical solution to help improve a critical tool that's used to
     connect families with housing solutions.
   </p>
 {% endcapture %}
@@ -58,16 +58,16 @@ source_code_url:
   type = "pullquote"
   content = "This task force will take a data-driven approach to seek a better understanding
       of this population, and to pilot better ways to make sure we can quickly meet
-      all of a household’s critical needs, stabilizing them more quickly, and achieving
+      all of a household's critical needs, stabilizing them more quickly, and achieving
       better outcomes for these Connecticut residents as well as for our publicly
       funded systems."
   cite_name = "Lisa Tepper Bates"
-  cite_title = "Co-chair, Governor’s Task Force"
+  cite_title = "Co-chair, Governor's Task Force"
 %}
 
   <p>
     We were asked to support this effort by focusing on families with young children from
-    birth to age five, in collaboration with Governor Lamont’s Task Force, the Office of Early
+    birth to age five, in collaboration with Governor Lamont's Task Force, the Office of Early
     Childhood (OEC), and the Department of Housing.
   </p>
 {% endcapture %}
@@ -96,7 +96,7 @@ source_code_url:
   </p>
 
   <p>
-    Above all, agencies and programs working with families often don’t have tools
+    Above all, agencies and programs working with families often don't have tools
     or data systems needed to collaborate or collect data on the complex, interrelated
     challenges facing these families, making it difficult for state agencies to
     choose interventions that best meet their needs.

@@ -12,7 +12,7 @@ feature_image_description:
 order: 230
 display: true
 tags: [service delivery, apis, open government, kin lane]
-excerpt: A civic movement designed to encourage people to "adopt" government’s open datasets, and improve the way these datasets are shared with the public.
+excerpt: A civic movement designed to encourage people to "adopt" government's open datasets, and improve the way these datasets are shared with the public.
 project_members:
   - kin-lane
 technologies:
@@ -46,12 +46,12 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    Following the implementation of the White House’s
+    Following the implementation of the White House's
     <a href="https://project-open-data.cio.gov/policy-memo/">Open Data Policy</a>,
     federal agencies produced thousands of open datasets, many of which needed
     cleaning-up and translation into a JSON format for reuse in other applications.
     Given the enormity of this undertaking, public stakeholders needed an innovative
-    model for scaling the evolution of the government’s open datasets.
+    model for scaling the evolution of the government's open datasets.
   </p>
 {% endcapture %}
 
@@ -60,7 +60,7 @@ source_code_url:
     To address this challenge, Kin Lane established
     <a href="http://adopta.agency/">Adopta.Agency</a>,
     a civic movement based upon a civic-crowdsourcing model for
-    evolving the government’s open data. Crowdsourcing is facilitated
+    evolving the government's open data. Crowdsourcing is facilitated
     via an <a href="http://adopta-agency.github.io/adopta-blueprint/">open blueprint process</a>
     that runs on GitHub and provides step-by-step guidance to anyone who
     wants to "adopt" and improve an open government dataset.
@@ -90,7 +90,7 @@ source_code_url:
     <li>
       Applied the blueprint to five federal datasets, including U.S.
       Federal Budget, Veterans Affairs Open Data Portal, Department
-      of Education Tech Data, My Brother’s Keeper, and ClinicalTrials.gov
+      of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov
     </li>
 
     <li>

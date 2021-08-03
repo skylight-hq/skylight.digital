@@ -76,7 +76,7 @@ practices:
   - Identity and access management
   - User growth marketing
 news_posts:
-  - title: New COVID-19 reporting tool is another patch for the US’s rickety health data system
+  - title: New COVID-19 reporting tool is another patch for the US's rickety health data system
     url: https://www.theverge.com/22311478/rapid-covid-test-data-cdc-nursing-home-usds-arizona
 project_url: https://simplereport.gov
 project_cta: See the site
@@ -103,12 +103,12 @@ source_code_url: https://github.com/CDCgov/prime-simplereport
   </p>
 
   <p>
-    Existing tools in this space are typically built for medical professionals, whereas individuals who conduct POC, rapid COVID-19 testing aren’t always familiar with the latest technologies, and testing isn’t their primary job. As one interviewee noted:
+    Existing tools in this space are typically built for medical professionals, whereas individuals who conduct POC, rapid COVID-19 testing aren't always familiar with the latest technologies, and testing isn't their primary job. As one interviewee noted:
   </p>
 
 {% include callout.html
   type = "pullquote"
-  content = "It’s a challenge to do the test, put it on paper, then go back and enter it in both formats — for the county and state."
+  content = "It's a challenge to do the test, put it on paper, then go back and enter it in both formats — for the county and state."
 %}
 
   <p>
@@ -118,26 +118,26 @@ source_code_url: https://github.com/CDCgov/prime-simplereport
 
 {% capture solution %}
   <p>
-    To strengthen COVID-19 testing data, the Centers for Disease Control and Prevention (CDC) and the U.S. Digital Service (USDS) launched a multi-year collaboration called the <a href="https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf">Pandemic-Ready Interoperability Modernization Effort</a> (PRIME). Skylight’s been supporting this work in partnership with USDS by helping launch <a href="{{ page.project_url }}">SimpleReport</a>, a free tool that makes it easy for non-traditional COVID-19 testing sites, such as schools, jails, and nursing homes, to record results for rapid POC tests and quickly report data to public health departments.
+    To strengthen COVID-19 testing data, the Centers for Disease Control and Prevention (CDC) and the U.S. Digital Service (USDS) launched a multi-year collaboration called the <a href="https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf">Pandemic-Ready Interoperability Modernization Effort</a> (PRIME). Skylight's been supporting this work in partnership with USDS by helping launch <a href="{{ page.project_url }}">SimpleReport</a>, a free tool that makes it easy for non-traditional COVID-19 testing sites, such as schools, jails, and nursing homes, to record results for rapid POC tests and quickly report data to public health departments.
   </p>
 
   <p>
-    SimpleReport is designed to be used as both a workflow and reporting tool for any POC test, regardless of whether or not it has a digital connection. This eliminates the need for POC testing sites to invest in IT or systems that won’t have broad, long-term use. SimpleReport results are automatically sent to public health departments via a single point of connection called ReportStream, which is also part of PRIME. SimpleReport results are delivered in the format, and at the cadence, of public health requests, leading to a more accurate data sample. Not only that, SimpleReport provides structured data to health departments, so they don’t have to spend time on additional clean-up.
+    SimpleReport is designed to be used as both a workflow and reporting tool for any POC test, regardless of whether or not it has a digital connection. This eliminates the need for POC testing sites to invest in IT or systems that won't have broad, long-term use. SimpleReport results are automatically sent to public health departments via a single point of connection called ReportStream, which is also part of PRIME. SimpleReport results are delivered in the format, and at the cadence, of public health requests, leading to a more accurate data sample. Not only that, SimpleReport provides structured data to health departments, so they don't have to spend time on additional clean-up.
   </p>
 
   <p>
-    Our team’s focused on continually improving the tool by:
+    Our team's focused on continually improving the tool by:
   </p>
 
   <ul>
     <li>
-      Building, designing, and launching the app’s landing page within weeks to make sure any testing site interested in SimpleReport had all the necessary info to sign up
+      Building, designing, and launching the app's landing page within weeks to make sure any testing site interested in SimpleReport had all the necessary info to sign up
     </li>
     <li>
       Developing a new patient experience feature for the product, allowing patients to complete their own pre-screening questions, thereby providing improved privacy for patients and more complete data for health departments
     </li>
     <li>
-      Building out the app’s mobile experience
+      Building out the app's mobile experience
     </li>
     <li>
       Redesigning the account creation, login, and password reset experience to massively speed up the onboarding process
@@ -156,15 +156,15 @@ source_code_url: https://github.com/CDCgov/prime-simplereport
 
 {% include callout.html
   type = "pullquote"
-  content = "Going from what we were doing to this is awesome. It’s very easy to use."
+  content = "Going from what we were doing to this is awesome. It's very easy to use."
 %}
 
   <p>
-    SimpleReport also provides longer term opportunities for more equitable service by improving race, gender, and ethnicity standards in reporting. We’re testing concepts intended to improve patient demographics data by having patients enter their own information rather than responding to a verbal questionnaire. In addition, all patient-facing content will be available in Spanish.
+    SimpleReport also provides longer term opportunities for more equitable service by improving race, gender, and ethnicity standards in reporting. We're testing concepts intended to improve patient demographics data by having patients enter their own information rather than responding to a verbal questionnaire. In addition, all patient-facing content will be available in Spanish.
   </p>
 
   <p>
-    By building out and linking public health infrastructure where these connections didn’t exist before, SimpleReport and ReportStream are fundamentally changing how disease incidence reporting is happening in the U.S. These tools are laying the structural groundwork for efficient and effective responses to future health crises.
+    By building out and linking public health infrastructure where these connections didn't exist before, SimpleReport and ReportStream are fundamentally changing how disease incidence reporting is happening in the U.S. These tools are laying the structural groundwork for efficient and effective responses to future health crises.
   </p>
 {% endcapture %}
 

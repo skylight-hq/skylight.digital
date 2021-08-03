@@ -43,10 +43,10 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    Many organizations are now beginning to deliver mobile experiences through what’s
+    Many organizations are now beginning to deliver mobile experiences through what's
     called a "flagship" mobile app. The purpose of a flagship mobile app is to consolidate
     multiple use cases from multiple user personas into one premiere mobile app.
-    In other words, it’s either the only or the default mobile app for a brand.
+    In other words, it's either the only or the default mobile app for a brand.
   </p>
 
   <p>
@@ -77,7 +77,7 @@ source_code_url:
     </li>
 
     <li>
-      Interviewing several organizations to gain insight into how they’ve approached
+      Interviewing several organizations to gain insight into how they've approached
       creating their flagship mobile apps
     </li>
 
@@ -92,7 +92,7 @@ source_code_url:
     <li>
       Analyzing and synthesizing our research data into a comprehensive report
       that detailed our methodology, findings, and recommendations for what the
-      VA.gov’s mobile product strategy should be going forward
+      VA.gov's mobile product strategy should be going forward
     </li>
   </ul>
 

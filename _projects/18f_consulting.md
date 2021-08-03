@@ -46,7 +46,7 @@ news_posts:
     url: https://fcw.com/articles/2014/10/27/18f-consulting-group.aspx
   - title: 18F expands efforts to state and local governments
     url: https://www.fedscoop.com/18f-expands-efforts-to-state-and-local-governments/
-  - title: Feds Extend 18F’s Silicon Valley Expertise to Cities, States
+  - title: Feds Extend 18F's Silicon Valley Expertise to Cities, States
     url: http://www.govtech.com/federal/feds-extend-18fs-silicon-valley-expertise-to-cities-states.html
 project_url:
 project_cta:
@@ -54,85 +54,44 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    18F Consulting was a specialized team of digital experts within the General
-    Services Administration (GSA) focused on helping agencies realize the benefits of
-    digital transformation.
-  </p>
+18F Consulting was a specialized team of digital experts within the General
+Services Administration (GSA) focused on helping agencies realize the benefits of
+digital transformation.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    To succeed in today’s public-service environment, agencies need to think and be
-    digital. For most, that requires fundamental practice, culture, and technology change.
-    The challenge: how do you build an organization within government whose mission is to
-    help those agencies institutionalize that change?
-  </p>
+To succeed in today's public-service environment, agencies need to think and be
+digital. For most, that requires fundamental practice, culture, and technology change.
+The challenge: how do you build an organization within government whose mission is to
+help those agencies institutionalize that change?
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this challenge, Chris Cairns and Robert Read founded and
-    built 18F Consulting, an intergovernmental management consulting group
-    housed within the GSA.
-  </p>
+To address this challenge, Chris Cairns and Robert Read founded and
+built 18F Consulting, an intergovernmental management consulting group
+housed within the GSA.
 
-  <p>
-    Rather than default to a change strategy of importing "Silicon Valley tech culture"
-    into government, Chris and Robert recognized the unique talents and knowledge of
-    institutional players — such as career civil servants and federal contractors —
-    and instead brought the best of both worlds together.
-  </p>
+Rather than default to a change strategy of importing "Silicon Valley tech culture"
+into government, Chris and Robert recognized the unique talents and knowledge of
+institutional players — such as career civil servants and federal contractors —
+and instead brought the best of both worlds together.
 
-  <p>
-    Over the course of a year, Chris and Robert recruited, hired, led, and managed
-    high-performing multidisciplinary teams — from both the public and private sectors —
-    who worked hand-in-hand with numerous agencies in pursuit of digital mastery.
-    These teams produced some of 18F’s most notable, innovative, and transformative
-    client work and reshaped how GSA delivers technology services to the rest of government.
-  </p>
+Over the course of a year, Chris and Robert recruited, hired, led, and managed
+high-performing multidisciplinary teams — from both the public and private sectors —
+who worked hand-in-hand with numerous agencies in pursuit of digital mastery.
+These teams produced some of 18F's most notable, innovative, and transformative
+client work and reshaped how GSA delivers technology services to the rest of government.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Hired over 40 design, product, data, engineering, policy, and acquisition
-      experts leveraging the Schedule A(r) hiring authority
-    </li>
-
-    <li>
-      Executed nearly 45 projects with federal and state &amp; local clients
-    </li>
-
-    <li>
-      Achieved near-perfect customer service ratings, as reported by Congress’
-      Government Accountability Office
-    </li>
-
-    <li>
-      Ignited transformational change at multiple agencies, including the creation of
-      agency-specific digital teams based on the 18F Consulting talent model
-    </li>
-
-    <li>
-      Influenced over $1 billion in IT acquisition spend
-    </li>
-
-    <li>
-      Enabled agencies to avoid hundreds of millions in unnecessary technology
-      acquisition costs
-    </li>
-
-    <li>
-      Produced and publicly shared over 35 knowledge resources, including blog posts and
-      how-to guides
-    </li>
-
-    <li>
-      Grew into multiple new organizations within GSA’s Technology Transformation Services,
-      including Office of Acquisitions, 18F Transformation, and 18F Learn
-    </li>
-  </ul>
+- Hired over 40 design, product, data, engineering, policy, and acquisition experts leveraging the Schedule A(r) hiring authority
+- Executed nearly 45 projects with federal and state &amp; local clients
+- Achieved near-perfect customer service ratings, as reported by Congress' Government Accountability Office
+- Ignited transformational change at multiple agencies, including the creation of agency-specific digital teams based on the 18F Consulting talent model
+- Influenced over $1 billion in IT acquisition spend
+- Enabled agencies to avoid hundreds of millions in unnecessary technology acquisition costs
+- Produced and publicly shared over 35 knowledge resources, including blog posts and how-to guides
+- Grew into multiple new organizations within GSA's Technology Transformation Services, including Office of Acquisitions, 18F Transformation, and 18F Learn
 {% endcapture %}
 
 {% include project.html

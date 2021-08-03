@@ -32,7 +32,7 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The Veterans Affairs’ (VA’s) API Platform Management team needed insight
+    The Veterans Affairs' (VA's) API Platform Management team needed insight
     into current best practices for API governance. So we delivered them a
     comprehensive research report that drew on a combination of our own
     expertise and information gathered from interviewing
@@ -43,7 +43,7 @@ source_code_url:
 {% capture challenge %}
   <p>
     In preparation for gearing up the number of APIs delivered across the
-    enterprise, the VA’s API Platform Management team needed to better
+    enterprise, the VA's API Platform Management team needed to better
     understand best practices for governing APIs, particularly given the
     lack of formal research in this area.
   </p>
@@ -56,7 +56,7 @@ source_code_url:
 
   <ul>
     <li>
-      Mining information related to API governance from our decade’s worth of
+      Mining information related to API governance from our decade's worth of
       existing primary and secondary research, which amounts to over 3,000
       API-related articles
     </li>

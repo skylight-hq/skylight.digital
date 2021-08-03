@@ -65,9 +65,9 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The U.S. Air Force’s (USAF’s) Aviation Resource Management System (ARMS) is a critical
+    The U.S. Air Force's (USAF's) Aviation Resource Management System (ARMS) is a critical
     tool for collecting, managing, and reporting data about aviation resources and aircrew
-    readiness. As a subcontractor to Fearless, we’re helping to revamp the user experience,
+    readiness. As a subcontractor to Fearless, we're helping to revamp the user experience,
     technical architecture, and technology stack of this complex legacy system.
   </p>
 {% endcapture %}
@@ -94,17 +94,17 @@ source_code_url:
     </li>
 
     <li>
-      Each Air Force base has a separate database, so individuals’ training data doesn’t
+      Each Air Force base has a separate database, so individuals' training data doesn't
       transfer when they go to a new base
     </li>
 
     <li>
-      Parts of the system don’t sync in real time, creating a problem for go-no-go
-      determinations (such as whether it’s safe for a parachutist to jump)
+      Parts of the system don't sync in real time, creating a problem for go-no-go
+      determinations (such as whether it's safe for a parachutist to jump)
     </li>
 
     <li>
-      Older servers weren’t designed for current loads, and crashes require going back to
+      Older servers weren't designed for current loads, and crashes require going back to
       pen-and-paper forms
     </li>
 
@@ -122,7 +122,7 @@ source_code_url:
 
 {% capture solution %}
   <p>
-    As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we’re working together
+    As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we're working together
     with the ARMS program team to incrementally build out a new system alongside the old one,
     until all its key functionalities are replaced — a proven architectural approach known
     as the <a href="https://martinfowler.com/bliki/StranglerFigApplication.html">strangler pattern</a>.
@@ -150,7 +150,7 @@ source_code_url:
 
     <li>
       Interfacing with the old component to migrate and keep data synchronized until
-      it’s no longer needed and can be decommissioned
+      it's no longer needed and can be decommissioned
     </li>
   </ul>
 
