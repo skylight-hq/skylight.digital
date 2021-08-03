@@ -71,7 +71,7 @@ source_code_url:
     collection systems to better understand and evaluate the impact of their work
     with young children and their families. As a first step in that effort,
     we're building a pilot data collection tool to help OEC gather data from
-    early care and education providers that would ease the burden on users
+    early care and education providers, ease the burden on users,
     and improve data quality.
   </p>
 
@@ -95,13 +95,13 @@ source_code_url:
   </p>
 
   <p>
-    In recognizing that accurate data is at the heart of truly understanding
-    the impact of existing programs, making funding decisions and planning
+    Recognizing that accurate data is at the heart of truly understanding
+    the impact of existing programs, making funding decisions, and planning
     for the future, OEC decided to focus on improving their existing data
     collection tools and systems starting with the Early Childhood Information
     System (ECIS). ECIS is used by early care and education providers to gather
     and store important data about children in their care. However, it poses a
-    number of usability challenges to providers including barriers around
+    number of usability challenges to providers, including barriers around
     updating or correcting existing data, the existence of duplicate records
     and identification (ID) numbers per child, and unused reporting features
     due to inaccurate data.
