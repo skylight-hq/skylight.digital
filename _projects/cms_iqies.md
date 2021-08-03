@@ -54,7 +54,7 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    CMS’ iQIES initiative is a complex, large-scale modernization effort aimed at
+    CMS' iQIES initiative is a complex, large-scale modernization effort aimed at
     replacing the existing legacy system. A major challenge with this initiative
     has been the need to maintain operational continuity while at the same time
     modernizing the user experience, the technical architecture, and the technology stack.

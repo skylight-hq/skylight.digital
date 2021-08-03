@@ -6,7 +6,7 @@ permalink: /work/experience/dol-legacy-system-modernization/
 redirect_from:
   - /work/dol-legacy-system-modernization/
 image: /img/projects/dol_legacy_system_modernization/legacy-system-modernization.svg
-image_description: Someone operating a conveyor belt that’s transforming old computers into modern tablets.
+image_description: Someone operating a conveyor belt that's transforming old computers into modern tablets.
 feature_image:
 feature_image_description:
 order: 160
@@ -62,7 +62,7 @@ source_code_url:
   <p>
     The existing technology behind WHISARD was ancient and nearly undocumented. In order to
     have a functioning spike, a complete and valid environment would have to be duplicated.
-    Because the data was sensitive and potentially subject to litigation, we’d have
+    Because the data was sensitive and potentially subject to litigation, we'd have
     to work entirely with artificially-created data.
   </p>
 {% endcapture %}
@@ -78,7 +78,7 @@ source_code_url:
 
 {% capture results %}
   <p>
-    The spike solution dramatically reshaped the DOL’s acquisition plan, including
+    The spike solution dramatically reshaped the DOL's acquisition plan, including
     cost estimates, by proving that an API-encapsulation approach could work and be
     expanded at minimal risk.
   </p>

@@ -32,7 +32,7 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The Veterans Affairs’ (VA’s) API Platform Management team wanted to increase
+    The Veterans Affairs' (VA's) API Platform Management team wanted to increase
     adoption of their APIs. We delivered them a comprehensive research report
     on how to accomplish that, based on a combination of our own expertise and
     information gathered from interviewing leading organizations.
@@ -41,7 +41,7 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    Recognizing that simply making datasets and APIs available doesn’t guarantee
+    Recognizing that simply making datasets and APIs available doesn't guarantee
     success, the VA wanted to expand the adoption of their APIs. They needed
     insight into how to build and sustain an effective developer outreach program.
   </p>
@@ -54,7 +54,7 @@ source_code_url:
 
   <ul>
     <li>
-      Mining information related to API developer outreach from our decade’s worth of
+      Mining information related to API developer outreach from our decade's worth of
       existing primary and secondary research, which amounts to over 3,000 API-related articles
     </li>
 
@@ -79,7 +79,7 @@ source_code_url:
 
     <li>
       Interviewed seven different organizations, including the Centers for
-      Medicare & Medicaid Services’ Blue Button API program, the Census Bureau,
+      Medicare & Medicaid Services' Blue Button API program, the Census Bureau,
       OpenFEC, and more
     </li>
 

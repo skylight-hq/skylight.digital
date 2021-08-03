@@ -127,12 +127,12 @@ source_code_url:
   </p>
 
   <p>
-    A key part of OEC’s work is supporting the providers, teachers, and other professionals
-    who’ve dedicated their careers to caring for and educating children.
+    A key part of OEC's work is supporting the providers, teachers, and other professionals
+    who've dedicated their careers to caring for and educating children.
   </p>
 
   <p>
-    OEC’s ability to successfully execute on their mission depends on the effective
+    OEC's ability to successfully execute on their mission depends on the effective
     use of technology, much of which needs modernizing in order to deliver better
     user experiences.
   </p>
@@ -147,13 +147,13 @@ source_code_url:
 {% capture solution %}
   <p>
     To address this challenge, we designed an approach that focuses on building
-    OEC’s internal digital capacity while at the same time modernizing critical
+    OEC's internal digital capacity while at the same time modernizing critical
     services. Thus far, our efforts have involved:
   </p>
 
   <ul>
     <li>
-      <a href="/work/experience/ct-oec-website-redesign/">Modernizing OEC’s web presence</a>
+      <a href="/work/experience/ct-oec-website-redesign/">Modernizing OEC's web presence</a>
       to make it easier for families, childcare providers, and other users to access
       critical early-childhood resources, such as where to find high-quality childcare
       providers
@@ -211,7 +211,7 @@ source_code_url:
 {% capture results %}
   <ul>
     <li>
-      Launched several modernized services, including OEC’s new online presence
+      Launched several modernized services, including OEC's new online presence
     </li>
 
     <li>

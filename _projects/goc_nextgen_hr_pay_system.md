@@ -35,16 +35,16 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The Government of Canada’s catastrophic roll out of its Phoenix pay system affected hundreds of thousands of Canadian civil servants. Like HealthCare.gov in the U.S., this national IT disaster highlighted a broken system for procuring modern technology at the federal level. We provided agile procurement expertise to help address the lingering issues, while also setting up a strategic framework for conducting future technology acquisitions in a more agile way.
+    The Government of Canada's catastrophic roll out of its Phoenix pay system affected hundreds of thousands of Canadian civil servants. Like HealthCare.gov in the U.S., this national IT disaster highlighted a broken system for procuring modern technology at the federal level. We provided agile procurement expertise to help address the lingering issues, while also setting up a strategic framework for conducting future technology acquisitions in a more agile way.
   </p>
 {% endcapture %}
 
 {% capture challenge %}
   <p>
-    With the rollout of the Phoenix pay system, the Canadian government faced a technological debacle akin to the launch of HealthCare.gov in the U.S. By mid 2018, more than 80% of Canada’s 290,000 federal workers experienced issues on payday, resulting in underpayments, overpayments, or no payments at all. These problems have taken years to resolve. In 2020, over 200,000 public servants still had at least one outstanding payment issue.
+    With the rollout of the Phoenix pay system, the Canadian government faced a technological debacle akin to the launch of HealthCare.gov in the U.S. By mid 2018, more than 80% of Canada's 290,000 federal workers experienced issues on payday, resulting in underpayments, overpayments, or no payments at all. These problems have taken years to resolve. In 2020, over 200,000 public servants still had at least one outstanding payment issue.
   </p>
   <p>
-    In response, the Government of Canada established the <a href="https://www.canada.ca/en/shared-services/corporate/next-generation-human-resources-pay-system.html">Next Generation Human Resources and Pay team</a> (NextGen HR and Pay team) to address the pay system disaster. More broadly, this team was chartered to help the government move away from Phoenix toward a more modern and integrated solution that not only resolved payment issues, but also addressed the wider HR needs of Canada’s entire federal workforce. To support this goal, the NextGen HR and Pay team decided to use an agile approach to procuring a new enterprise software solution, and needed help from outside experts to do so effectively.
+    In response, the Government of Canada established the <a href="https://www.canada.ca/en/shared-services/corporate/next-generation-human-resources-pay-system.html">Next Generation Human Resources and Pay team</a> (NextGen HR and Pay team) to address the pay system disaster. More broadly, this team was chartered to help the government move away from Phoenix toward a more modern and integrated solution that not only resolved payment issues, but also addressed the wider HR needs of Canada's entire federal workforce. To support this goal, the NextGen HR and Pay team decided to use an agile approach to procuring a new enterprise software solution, and needed help from outside experts to do so effectively.
   </p>
 {% endcapture %}
 
@@ -142,17 +142,17 @@ source_code_url:
     </tbody>
   </table>
   <p>
-    We then conducted an in-depth assessment of the NextGen HR and Pay team’s agile procurement approach against these 13 criteria areas in order to identify opportunities for improvement. This process involved:
+    We then conducted an in-depth assessment of the NextGen HR and Pay team's agile procurement approach against these 13 criteria areas in order to identify opportunities for improvement. This process involved:
   </p>
   <ul>
     <li>Gathering information on existing practices through activities such as documentation review and stakeholder interviews</li>
-    <li>Comparing the team’s current practices against the 13 criteria areas</li>
+    <li>Comparing the team's current practices against the 13 criteria areas</li>
     <li>Formulating concrete recommendations for improvement,
     supported by documented findings and observations</li>
     <li>Creating a scorecard to help the team quickly visualize where and how they could improve</li>
   </ul>
   <p>
-    Our goal in presenting the scorecard wasn’t to show failure — instead, we wanted to instill a mindset of continuous improvement and offer a tool that could challenge the team to go beyond the status quo throughout the procurement process.
+    Our goal in presenting the scorecard wasn't to show failure — instead, we wanted to instill a mindset of continuous improvement and offer a tool that could challenge the team to go beyond the status quo throughout the procurement process.
   </p>
   <p>
     By revealing targeted opportunities for improvement and establishing a framework that could be used to self-assess and refine agile procurement practices, we helped set the NextGen HR and Pay team down a path to replacing the broken Phoenix pay system successfully.
@@ -162,7 +162,7 @@ source_code_url:
 {% capture results %}
   <ul>
     <li>Established 13 criteria areas that represent leading principles for agile procurement, applicable to different types of software solution acquisitions (e.g., build, buy)</li>
-    <li>Made 15 concrete recommendations for improving the NextGen HR and Pay team’s existing agile procurement practices</li>
+    <li>Made 15 concrete recommendations for improving the NextGen HR and Pay team's existing agile procurement practices</li>
     <li>Created a framework that enabled the team to continually assess and improve their practices</li>
     <li>Helped the team establish a path forward that led to the selection of vendors for replacing the broken Phoenix pay system with a modern, integrated HR system</li>
   </ul>

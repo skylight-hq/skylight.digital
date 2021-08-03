@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 65
 display: true
 tags: [microconsulting, research & design, nick bristow]
-excerpt: Applying a globally-accepted accessibility framework to make United Nations’ conference web content accessible to persons with disabilities.
+excerpt: Applying a globally-accepted accessibility framework to make United Nations' conference web content accessible to persons with disabilities.
 project_members:
   - nick-bristow
 technologies:
@@ -33,8 +33,8 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The United Nations’ (UN’s) 2019 Global Platform for Disaster Risk Reduction conference
-    website didn’t meet the Web Content Accessibility Guidelines (WCAG) 2.0 and
+    The United Nations' (UN's) 2019 Global Platform for Disaster Risk Reduction conference
+    website didn't meet the Web Content Accessibility Guidelines (WCAG) 2.0 and
     needed to meet standards for visitors with disabilities. We were brought in
     to audit the website and fix the accessibility issues so it met globally-accepted
     standards.
@@ -43,18 +43,18 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    With their conference just weeks away, the UN’s technology team knew
-    the 2019 Global Platform for Disaster Risk Reduction website didn’t meet the
+    With their conference just weeks away, the UN's technology team knew
+    the 2019 Global Platform for Disaster Risk Reduction website didn't meet the
     WCAG 2.0 accessibility standards. To meet the standards and the UN Office for
-    Disaster Risk Reduction’s commitment to accessibility, the technology team needed
+    Disaster Risk Reduction's commitment to accessibility, the technology team needed
     to act fast.
   </p>
 {% endcapture %}
 
 {% capture solution %}
   <p>
-    Leveraging <a href="/work/toolkits/accessibility-guide/">Skylight’s Accessibility Guide</a>,
-    we kicked off the project with a compliance audit of the conference website’s accessibility deficiencies
+    Leveraging <a href="/work/toolkits/accessibility-guide/">Skylight's Accessibility Guide</a>,
+    we kicked off the project with a compliance audit of the conference website's accessibility deficiencies
     and generated a report of pressing issues. The audit included a review of images,
     colors, contrast ratios, outlines, and other content. Working with the internal team,
     we fixed the underlying issues and rewrote code to make the website meet the WCAG 2.0

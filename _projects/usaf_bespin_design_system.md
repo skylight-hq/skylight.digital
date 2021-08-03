@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 35
 display: true
 tags: [service delivery, research & design, defense, air force, maya benari]
-excerpt: A comprehensive design system enabling one of the U.S. Air Force’s largest digital solution centers to ship products to users with greater speed and quality.
+excerpt: A comprehensive design system enabling one of the U.S. Air Force's largest digital solution centers to ship products to users with greater speed and quality.
 project_members:
   - maya-benari
 technologies:
@@ -35,17 +35,17 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The U.S. Air Force’s (USAF’s) Business Enterprise Systems Product INnovation (BESPIN)
-    group needed help scaling their design capacity. We’re working with them to implement
-    a design system that’ll enable their growing number of teams to achieve higher efficiency
+    The U.S. Air Force's (USAF's) Business Enterprise Systems Product INnovation (BESPIN)
+    group needed help scaling their design capacity. We're working with them to implement
+    a design system that'll enable their growing number of teams to achieve higher efficiency
     and quality when building digital products.
   </p>
 {% endcapture %}
 
 {% capture challenge %}
   <p>
-    BESPIN is one of the USAF’s strategic digital solution centers, along with Kessel Run,
-    SpaceCAMP, and others. BESPIN’s mission is to deliver digital transformation outcomes
+    BESPIN is one of the USAF's strategic digital solution centers, along with Kessel Run,
+    SpaceCAMP, and others. BESPIN's mission is to deliver digital transformation outcomes
     for partner organizations throughout the USAF and the broader defense community —
     including the <a href="https://www.airforcebes.af.mil/">Business Enterprise Systems Directorate</a>,
     which manages a billion-dollar portfolio of IT systems supporting enterprise-wide
@@ -66,7 +66,7 @@ source_code_url:
   </p>
 
   <p>
-    The problem of designing at scale isn’t unique to BESPIN, and has driven high-tech
+    The problem of designing at scale isn't unique to BESPIN, and has driven high-tech
     organizations — from 18F to Google — to change the way they design products by
     incorporating design systems.
   </p>
@@ -118,8 +118,8 @@ source_code_url:
 {% capture solution %}
   <p>
     To create an organizational-wide design system for BESPIN, we started off by
-    conducting research to learn more about their designers’ needs, pain points,
-    workflow processes, and tools. From <a href="/thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/">our team’s experience in building robust design systems</a>,
+    conducting research to learn more about their designers' needs, pain points,
+    workflow processes, and tools. From <a href="/thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/">our team's experience in building robust design systems</a>,
     such as the U.S. Web Design System, we know that identifying
     common patterns in the current design environment is critical for being able
     to pinpoint high-impact opportunities for improvement.
@@ -136,13 +136,13 @@ source_code_url:
 
   <ul>
     <li>
-      Overall, current Air Force design doesn’t meet the expectations of users, and is
+      Overall, current Air Force design doesn't meet the expectations of users, and is
       often viewed as outdated, overwhelming, and disjointed.
     </li>
 
     <li>
-      Designers look toward existing design systems, such as Google’s Material Design, for
-      inspiration, but these systems can be opinionated and their patterns don’t always work
+      Designers look toward existing design systems, such as Google's Material Design, for
+      inspiration, but these systems can be opinionated and their patterns don't always work
       for Air Force projects, especially mobile use cases, and need to be modified.
     </li>
 
@@ -201,7 +201,7 @@ source_code_url:
 {% capture results %}
   <ul>
     <li>
-      Gained insights into BESPIN’s needs for scaling design through designer-focused research
+      Gained insights into BESPIN's needs for scaling design through designer-focused research
     </li>
 
     <li>

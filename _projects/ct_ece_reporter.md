@@ -70,16 +70,16 @@ source_code_url:
     The Connecticut Office of Early Childhood (OEC) wanted to improve their existing data
     collection systems to better understand and evaluate the impact of their work
     with young children and their families. As a first step in that effort,
-    we’re building a pilot data collection tool to help OEC gather data from
+    we're building a pilot data collection tool to help OEC gather data from
     early care and education providers, ease the burden on users,
     and improve data quality.
   </p>
 
 {% include callout.html
   type = "pullquote"
-  content = "The amount of paperwork I have to submit is overwhelming, sometimes. Honestly, this would be a blessing. We’re supposed to be running centers and helping families."
+  content = "The amount of paperwork I have to submit is overwhelming, sometimes. Honestly, this would be a blessing. We're supposed to be running centers and helping families."
   cite_name = "Anna Ruggiero"
-  cite_title = "Executive Director, Children’s Adventure Center, Sandyhook, CT"
+  cite_title = "Executive Director, Children's Adventure Center, Sandyhook, CT"
 %}
 {% endcapture %}
 
@@ -90,8 +90,8 @@ source_code_url:
     policy development as well as critical program and service support
     for families, educators, child care providers, and communities.
     With over 70% of families with young children in the state in need
-    of some form of child care, understanding the effectiveness of OEC’s
-    programs is critical to the well-being of Connecticut’s children and families.
+    of some form of child care, understanding the effectiveness of OEC's
+    programs is critical to the well-being of Connecticut's children and families.
   </p>
 
   <p>
@@ -116,10 +116,10 @@ source_code_url:
 
 {% capture solution %}
   <p>
-    Together with OEC, we’re piloting a data collection tool to improve the data
+    Together with OEC, we're piloting a data collection tool to improve the data
     collection process for early child care and education providers who currently
     use ECIS. This new tool will offer a more user-friendly interface, designed to
-    consolidate providers’ monthly reporting tasks and allow for more control over
+    consolidate providers' monthly reporting tasks and allow for more control over
     the data they enter. This pilot will also make better use of existing data to
     link and consolidate records, reducing manual entry errors and eliminating the
     need for providers to create a unique ID for each child.  With a data collection

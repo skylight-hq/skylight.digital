@@ -45,7 +45,7 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    The SSA’s DCPS program was suffering from the ill-effects of a waterfall-based
+    The SSA's DCPS program was suffering from the ill-effects of a waterfall-based
     software development approach, including the dysfunctional separation of
     users from the development team.
   </p>
@@ -62,7 +62,7 @@ source_code_url:
 {% capture solution %}
   <p>
     To demonstrate the power of agile and how it could be applied within the
-    context of the SSA’s troubled DCPS program, we designed and facilitated an
+    context of the SSA's troubled DCPS program, we designed and facilitated an
     extensive, hands-on workshop using formal agile practices based on the
     Scrum framework.
   </p>
@@ -71,7 +71,7 @@ source_code_url:
     Over the course of six formal sprints packed into three days ("micro-sprints"), we
     guided a small subset of the DCPS program team through a collaborative process of
     writing user stories, prioritizing and grooming a product backlog, implementing
-    the prioritized user stories in the system’s development environment, and
+    the prioritized user stories in the system's development environment, and
     experiencing other standard Scrum ceremonies such as sprint reviews and
     retrospectives.
   </p>
