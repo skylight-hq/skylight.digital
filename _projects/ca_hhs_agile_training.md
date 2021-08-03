@@ -38,7 +38,7 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The California Health and Human Services' (CHHS') Office of Innovation
+    The California Health and Human Services’ (CHHS’) Office of Innovation
     needed help putting the principles of agile into practice. We were
     brought in to deliver a practical agile-coaching experience that not
     only tied together all the key principles of the Agile Manifesto, but also
@@ -67,7 +67,7 @@ source_code_url:
     we simulated five sprints in a microcosm within those two days,
     focusing on applying the Scrum practices of planning, story writing,
     story estimation, velocity calcuation, and testing on the Office of
-    Innovation's website, which was in need of substantial revision.
+    Innovation’s website, which was in need of substantial revision.
     We aimed to provide not only coaching in the Scrum framework, but also
     the energy to help participants ask the right questions about their
     agile process. In this way, we aimed to provide both an valuable
@@ -96,9 +96,9 @@ source_code_url:
 
 {% include callout.html
   type = "pullquote"
-  content = "As people in the government realize the value and power of the agile process, it's important to understand that the principles of agile are key. This class teaches people how
-      to get the benefits of agile without being dogmatic. My staff said they have been through multiple agile trainings but none were as valuable and practical as this. They're now
-      comfortable adjusting the process to fit their needs and culture of the Department they're helping."
+  content = "As people in the government realize the value and power of the agile process, it’s important to understand that the principles of agile are key. This class teaches people how
+      to get the benefits of agile without being dogmatic. My staff said they have been through multiple agile trainings but none were as valuable and practical as this. They’re now
+      comfortable adjusting the process to fit their needs and culture of the Department they’re helping."
   cite_name = "Chaeny Emanavin"
   cite_title = "Director, Office of Innovation at CHHS"
 %}

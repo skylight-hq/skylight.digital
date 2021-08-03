@@ -34,7 +34,7 @@ news_posts:
     url: https://obamawhitehouse.archives.gov/blog/2016/03/09/fostering-culture-innovation-across-government-through-acquisition-innovation-labs
   - title: FBI, Treasury join Digital Acquisition Accelerator pilot
     url: https://www.fedscoop.com/fbi-treasury-join-pilot-cohort-for-digital-acquisition-accelerator/
-  - title: New 18F Digital Acquisition 'Playbook' Opens Up Federal Knowledge to All Levels of Government
+  - title: New 18F Digital Acquisition ‘Playbook’ Opens Up Federal Knowledge to All Levels of Government
     url: http://www.govtech.com/civic/New-18F-Digital-Acquisition-Playbook-Opens-Up-Federal-Knowledge.html
 project_url:
 project_cta:
@@ -43,7 +43,7 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    As part of the White House's Office of Management and Budget's Acquisition
+    As part of the White House’s Office of Management and Budget’s Acquisition
     Innovation Labs initiative, the Digital Acquisition Accelerator was a pilot training program
     designed to accelerate the development of digital acquisition experts across the government.
   </p>
@@ -79,7 +79,7 @@ source_code_url:
   <ul>
     <li>
       Pilot program announced to all agencies via formal memo from the White
-      House's Office of Management and Budget
+      House’s Office of Management and Budget
     </li>
 
     <li>

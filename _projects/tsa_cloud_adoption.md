@@ -12,7 +12,7 @@ feature_image_description:
 order: 130
 display: true
 tags: [transformation, devops, cloud & platforms, security & privacy, homeland security, chris cairns, shashank khandelwal]
-excerpt: Accelerating the Transportation Security Administration's transition to a cloud-based operating model.
+excerpt: Accelerating the Transportation Security Administration’s transition to a cloud-based operating model.
 project_members:
   - chris-cairns
   - shashank-khandelwal
@@ -50,7 +50,7 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    The TSA's CIO organization faced several issues associated with running its on-premise
+    The TSA’s CIO organization faced several issues associated with running its on-premise
     IT infrastructure (such as high operating costs), which were going to be further
     compounded by imminent budget cuts. The cloud presented a way out, but the organization
     lacked in-depth experience operating in this new way.
@@ -60,7 +60,7 @@ source_code_url:
 {% capture solution %}
   <p>
     To address this challenge, Chris Cairns and Shashank Khandelwal, as a members of 18F, designed an approach to
-    kickstart the organization's adoption of a cloud-based operating model. This involved
+    kickstart the organization’s adoption of a cloud-based operating model. This involved
     pairing TSA with an expert team of site reliability engineers who:
   </p>
 
@@ -72,7 +72,7 @@ source_code_url:
 
     <li>
       Migrated two low-risk applications within a few months to give leadership immediate
-      insight into what changes needed to be made to the organization's structure, culture,
+      insight into what changes needed to be made to the organization’s structure, culture,
       talent mix, practices, tooling, and vendor ecosystem
     </li>
 

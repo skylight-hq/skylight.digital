@@ -52,7 +52,7 @@ news_posts:
     url: http://mashable.com/2012/12/03/apps-2012/#lSiclUoQeaqs
   - title: 27 Genius New Products You Had No Idea Existed
     url: https://www.buzzfeed.com/peggy/genius-new-products-you-had-no-idea-existed?utm_term=.ncZqOnZ2R#.iyZDPyQnA
-  - title: Path Looks To Combine Commerce And Messaging With TalkTo Acquisition, Release Of New 'Talk' App
+  - title: Path Looks To Combine Commerce And Messaging With TalkTo Acquisition, Release Of New ‘Talk’ App
     url: https://techcrunch.com/2014/06/20/path-talk-talkto/
 project_url:
 project_cta:

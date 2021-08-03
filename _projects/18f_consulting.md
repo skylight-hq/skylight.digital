@@ -46,7 +46,7 @@ news_posts:
     url: https://fcw.com/articles/2014/10/27/18f-consulting-group.aspx
   - title: 18F expands efforts to state and local governments
     url: https://www.fedscoop.com/18f-expands-efforts-to-state-and-local-governments/
-  - title: Feds Extend 18F's Silicon Valley Expertise to Cities, States
+  - title: Feds Extend 18F’s Silicon Valley Expertise to Cities, States
     url: http://www.govtech.com/federal/feds-extend-18fs-silicon-valley-expertise-to-cities-states.html
 project_url:
 project_cta:
@@ -63,7 +63,7 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    To succeed in today's public-service environment, agencies need to think and be
+    To succeed in today’s public-service environment, agencies need to think and be
     digital. For most, that requires fundamental practice, culture, and technology change.
     The challenge: how do you build an organization within government whose mission is to
     help those agencies institutionalize that change?
@@ -88,7 +88,7 @@ source_code_url:
     Over the course of a year, Chris and Robert recruited, hired, led, and managed
     high-performing multidisciplinary teams — from both the public and private sectors —
     who worked hand-in-hand with numerous agencies in pursuit of digital mastery.
-    These teams produced some of 18F's most notable, innovative, and transformative
+    These teams produced some of 18F’s most notable, innovative, and transformative
     client work and reshaped how GSA delivers technology services to the rest of government.
   </p>
 {% endcapture %}
@@ -105,7 +105,7 @@ source_code_url:
     </li>
 
     <li>
-      Achieved near-perfect customer service ratings, as reported by Congress'
+      Achieved near-perfect customer service ratings, as reported by Congress’
       Government Accountability Office
     </li>
 
@@ -129,7 +129,7 @@ source_code_url:
     </li>
 
     <li>
-      Grew into multiple new organizations within GSA's Technology Transformation Services,
+      Grew into multiple new organizations within GSA’s Technology Transformation Services,
       including Office of Acquisitions, 18F Transformation, and 18F Learn
     </li>
   </ul>

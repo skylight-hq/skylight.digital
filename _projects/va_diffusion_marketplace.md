@@ -65,7 +65,7 @@ source_code_url: https://github.com/agilesix/diffusion-marketplace
 
 {% capture challenge %}
   <p>
-    The VA operates the nation's largest healthcare system, called
+    The VA operates the nation’s largest healthcare system, called
     the Veterans Healthcare Administration (VHA). It consists of 150 medical
     centers and nearly 1,400 community-based outpatient clinics, community
     living centers, Vet centers, and domiciliary. Together these healthcare
@@ -74,27 +74,27 @@ source_code_url: https://github.com/agilesix/diffusion-marketplace
   </p>
 
   <p>
-    When proven healthcare practices emerge in one or more of the VHA's operations,
+    When proven healthcare practices emerge in one or more of the VHA’s operations,
     how do you systematically identify and spread the adoption of those across the
-    VHA's healthcare delivery network? That's the challenge the VA has been facing,
+    VHA’s healthcare delivery network? That’s the challenge the VA has been facing,
     and an important one to solve given the life-saving implications.
   </p>
 {% endcapture %}
 
 {% capture solution %}
   <p>
-    In collaboration with <a href="https://agile6.com/">Agile Six</a>, we've been
+    In collaboration with <a href="https://agile6.com/">Agile Six</a>, we’ve been
     working with the VHA to address this challenge through the delivery of a knowledge management
     platform called the Diffusion Marketplace. The purpose of this platform is to empower VHA
     practitioners and other employees to identify and disseminate promising healthcare practices.
   </p>
 
   <p>
-    We've aligned our delivery approach to the <a href="https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards">VA's Digital Service Handbook</a>.
+    We’ve aligned our delivery approach to the <a href="https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards">VA’s Digital Service Handbook</a>.
     And focused our initial product strategy on figuring out how to design an
     experience that leads to the wider adoption of three life-saving and cost-saving
     practices (for example, rapid naloxone delivery). These practices have already been
-    proven to work at small subset of the VHA's healthcare facilities.
+    proven to work at small subset of the VHA’s healthcare facilities.
   </p>
 
   <p>
@@ -111,7 +111,7 @@ source_code_url: https://github.com/agilesix/diffusion-marketplace
   <ul>
     <li>
       Expanding the number of practices, such as hospital-acquired pneumonia prevention,
-      and the rate at which they're adopted
+      and the rate at which they’re adopted
     </li>
 
     <li>

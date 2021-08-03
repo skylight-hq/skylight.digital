@@ -33,11 +33,11 @@ practices:
   - Public-domain contracting
   - Oral presentations
 news_posts:
-  - title: GSA's agile RFI beginning of 'systemic change' in IT acquisition
+  - title: GSA’s agile RFI beginning of ‘systemic change’ in IT acquisition
     url: http://federalnewsradio.com/management/2015/01/gsas-agile-rfi-beginning-of-systemic-change-in-it-acquisition/
-  - title: GSA's new contract to feed hunger for agile IT development services
+  - title: GSA’s new contract to feed hunger for agile IT development services
     url: http://federalnewsradio.com/technology/2015/02/gsas-new-contract-to-feed-hunger-for-agile-it-development-services/
-  - title: Failure is an option for GSA's new 18F agile contract
+  - title: Failure is an option for GSA’s new 18F agile contract
     url: http://federalnewsradio.com/technology/2015/06/failure-is-an-option-for-gsas-new-18f-agile-contract/
   - title: GSA Developing Contract for Agile Delivery Services
     url: http://www.fedweek.com/fedweek-information-technology/gsa-developing-contract-agile-delivery-services/
@@ -73,7 +73,7 @@ source_code_url:
     digital services. Finding a vendor who excelled at agile, however, was
     difficult. And even if agencies could find one, traditional methods of contracting
     often fell short of: (a) revealing the makers from the fakers; (b) protecting the
-    government's data and source-code ownership rights to prevent vendor lock-in; and
+    government’s data and source-code ownership rights to prevent vendor lock-in; and
     (c) acquiring services at the speed of need.
   </p>
 {% endcapture %}
@@ -89,7 +89,7 @@ source_code_url:
 
   <ul>
     <li>
-      A "show, don't tell" or "prototype-as-proposal" approach in which vendors
+      A "show, don’t tell" or "prototype-as-proposal" approach in which vendors
       were required to submit working prototypes (over written narratives)
       using <a href="https://open.fda.gov/">openFDA</a> as the
       basis for evaluating capabilities
@@ -132,7 +132,7 @@ source_code_url:
     </li>
 
     <li>
-      Lauded by industry, Congress, and the White House's Office of Management and Budget
+      Lauded by industry, Congress, and the White House’s Office of Management and Budget
       as a model for agencies to follow
     </li>
 

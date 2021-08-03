@@ -65,7 +65,7 @@ source_code_url: https://github.com/skylight-hq/va-api-scorecard
 
   <ul>
     <li>
-      Establishing a common understanding of the VA's API delivery lifecycle and
+      Establishing a common understanding of the VA’s API delivery lifecycle and
       what success looks like at each stage
     </li>
 
@@ -80,7 +80,7 @@ source_code_url: https://github.com/skylight-hq/va-api-scorecard
     </li>
 
     <li>
-      Giving stakeholders insight into the value of the VA's portfolio of APIs
+      Giving stakeholders insight into the value of the VA’s portfolio of APIs
     </li>
 
     <li>
@@ -111,7 +111,7 @@ source_code_url: https://github.com/skylight-hq/va-api-scorecard
     We also worked with the VA to not only define the stages of their
     API lifecycle, but also the "delivery success criteria" that governs
     how projects move from one stage to the next. We made both the stages
-    and the criteria configurable from with the application's YAML files.
+    and the criteria configurable from with the application’s YAML files.
   </p>
 {% endcapture %}
 

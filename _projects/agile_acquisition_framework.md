@@ -29,15 +29,15 @@ practices:
 news_posts:
   - title: 18F Launches RFP Ghostwriting and Review Service
     url: https://www.govtech.com/pcio/articles/18F-Launches-RFP-Ghostwriting-and-Review-Service.html
-  - title: DoD 'Force of the Future' includes civilian Digital Service team
+  - title: DoD ‘Force of the Future’ includes civilian Digital Service team
     url: http://www.federaltimes.com/story/government/it/management/2015/09/08/force--future-digital-service/71890924/
   - title: A New Approach to Procuring Government Technology in California
     url: https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/
-  - title: California's step-by-step solution for its new Child Welfare System
+  - title: California’s step-by-step solution for its new Child Welfare System
     url: https://gcn.com/articles/2016/02/02/california-agile-procurement.aspx
   - title: 18F expands efforts to state and local governments
     url: https://www.fedscoop.com/18f-expands-efforts-to-state-and-local-governments/
-  - title: Feds Extend 18F's Silicon Valley Expertise to Cities, States
+  - title: Feds Extend 18F’s Silicon Valley Expertise to Cities, States
     url: https://www.govtech.com/news/Feds-Extend-18Fs-Silicon-Valley-Expertise-to-Cities-States.html
 project_url:
 project_cta:
@@ -64,7 +64,7 @@ source_code_url:
 {% capture solution %}
   <p>
     To address this need, Chris Cairns and Robert Read, as members of 18F, pioneered
-    the Agile Acquisition Framework, the government's first full-lifecycle approach
+    the Agile Acquisition Framework, the government’s first full-lifecycle approach
     for executing agile acquisitions.
   </p>
 
@@ -75,14 +75,14 @@ source_code_url:
   </p>
 
   <p>
-    The framework's design uniquely combines proven practices from multiple disciplines
+    The framework’s design uniquely combines proven practices from multiple disciplines
     — such as user-centered design, lean startup, agile development, agile project
     management, evolutionary architecture, open source, performance-based contracting,
     and modular contracting — into a unified approach.
   </p>
 
   <p>
-    To scale the framework's adoption across government, Chris and Robert provided
+    To scale the framework’s adoption across government, Chris and Robert provided
     training and coaching assistance to over a dozen professionals, who went on to
     apply it successfully to their own acquisition programs.
   </p>
@@ -93,10 +93,10 @@ source_code_url:
     <li>
       Adopted by over a dozen federal and state &amp; local programs whose contracted
       efforts are consistently experiencing the full benefits of agile, including
-      Treasury's Digital Accountability and Transparency Act (DATA Act), Department of
-      Defense's Military OneSource, Social Security Administration's Disability Claims
-      Processing System, Environmental Protection Agency's Electronic Manifest System,
-      Navy's Ready-2-Serve, and State of California's Child Welfare System
+      Treasury’s Digital Accountability and Transparency Act (DATA Act), Department of
+      Defense’s Military OneSource, Social Security Administration’s Disability Claims
+      Processing System, Environmental Protection Agency’s Electronic Manifest System,
+      Navy’s Ready-2-Serve, and State of California’s Child Welfare System
     </li>
 
     <li>

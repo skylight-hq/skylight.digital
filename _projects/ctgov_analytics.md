@@ -46,9 +46,9 @@ source_code_url: https://github.com/CTOpenData/analytics.ct.gov
   <p>
     The State of Connecticut wanted to make date-driven decisions when developing new
     digital resources, but accessing analytics was a cumbersome process and employees
-    weren't confident in the data. In the past, they had worked with external teams
+    weren’t confident in the data. In the past, they had worked with external teams
     that developed solutions and then handed them off for maintenance. The team was
-    maintaining the solutions using some software development processes but wasn't
+    maintaining the solutions using some software development processes but wasn’t
     sure if they were following best practices.
   </p>
 {% endcapture %}
@@ -60,7 +60,7 @@ source_code_url: https://github.com/CTOpenData/analytics.ct.gov
     and knew they could reuse the
     <a href="https://github.com/18F/analytics.usa.gov">open-source code</a>
     to develop a similar tool for the State of Connecticut. The original open-source
-    analytics tool wasn't developed for a Windows environment so we used this development
+    analytics tool wasn’t developed for a Windows environment so we used this development
     project as a way to coach the team on software development best practices.
   </p>
 
@@ -71,13 +71,13 @@ source_code_url: https://github.com/CTOpenData/analytics.ct.gov
     data stakeholder and worked in tandem with her to conduct user research,
     design the solution, and even commit some code. By customizing open-source
     code and coaching the team throughout the process, we were able to make the
-    best use of taxpayer dollars and enable the State of Connecticut's team to
+    best use of taxpayer dollars and enable the State of Connecticut’s team to
     maintain the solution.
   </p>
 
   <p>
     Now, agencies have insight into which websites and pages are used and how
-    they're used which informs future projects. Moreover, citizens of Connecticut
+    they’re used which informs future projects. Moreover, citizens of Connecticut
     can view the information and use the open-source project to build other data
     visualizations.
   </p>
@@ -90,11 +90,11 @@ source_code_url: https://github.com/CTOpenData/analytics.ct.gov
     </li>
 
     <li>
-      Involved and enabled the department's team to develop and maintain the solutions using software development best practices
+      Involved and enabled the department’s team to develop and maintain the solutions using software development best practices
     </li>
 
     <li>
-      Increased data transparency to the State of Connecticut's agencies and citizens
+      Increased data transparency to the State of Connecticut’s agencies and citizens
     </li>
   </ul>
 {% endcapture %}
