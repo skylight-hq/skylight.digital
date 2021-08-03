@@ -46,7 +46,7 @@ Lean manufacturing introduced several key solutions to the problems faced in man
 * Batch size reduction
 * Continuous improvement until perfection (for example, batch size of 1, no waste)
 
-Lean manufacturing wasn't just influential to manufacturers: the ideas quickly spread to other systems thinkers, and had a profound influence on [The Toyota Way](https://en.wikipedia.org/wiki/The_Toyota_Way), [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma), and [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints). Most importantly for our purposes here, many of the principles of lean manufacturing can be applied to the creation of software using [lean software development](https://en.wikipedia.org/wiki/Lean_software_development).
+Lean manufacturing wasn't just influential to manufacturers — the ideas quickly spread to other systems thinkers, and had a profound influence on [The Toyota Way](https://en.wikipedia.org/wiki/The_Toyota_Way), [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma), and [theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints). Most importantly for our purposes here, many of the principles of lean manufacturing can be applied to the creation of software using [lean software development](https://en.wikipedia.org/wiki/Lean_software_development).
 
 ### But, what do you mean by lean?
 
@@ -60,7 +60,7 @@ The lean startup developed as an answer to the challenge of the bursting of the 
 
 After the damage was done and the rubble was cleared, several influential thinkers began to deconstruct the source of so many non-viable startups. Alexander Osterwalder wrote a paper on business model validation in 2004, and turned it into the book, _[Business Model Generation: A Handbook for Visionaries, Game Changers and Challengers](https://www.strategyzer.com/books)_, in 2010.
 
-It was Steve Blank in 2005 that gave the lean startup most of its terminology, including "customer development," when he wrote his deconstruction of the bubble and prescription for change in, _[The Four Steps to the Epiphany: Successful Strategies that Win](https://www.wiley.com/en-us/The+Four+Steps+to+the+Epiphany%3A+Successful+Strategies+for+Products+that+Win-p-9781119690375)_,_ _in 2005.
+It was Steve Blank in 2005 that gave the lean startup most of its terminology, including "customer development," when he wrote his deconstruction of the bubble and prescription for change in, _[The Four Steps to the Epiphany: Successful Strategies that Win](https://www.wiley.com/en-us/The+Four+Steps+to+the+Epiphany%3A+Successful+Strategies+for+Products+that+Win-p-9781119690375)_, in 2005.
 
 More recently, Eric Ries codified the current practices of the lean startup in 2011 with the best seller, _[The Lean Startup: How Today's Entrepreneurs Use Continuous Improvement to Create Radically Successful Businesses](http://theleanstartup.com/)_.
 
@@ -119,11 +119,11 @@ Unlike lean startups and lean product development, **lean software development i
 
 No, they're not! I'm glad I pretended you asked. These terms are used loosely, but agile software development and lean software development are different answers to **fundamentally different risks**.
 
-Agile software development is a process to manage the risk of spending too much time building the wrong thing. Lean software development is a process to manage the risk of using time and money inefficiently when delivering software for well understood problems.
+Agile software development is a process to manage the risk of spending too much time building the wrong thing. Lean software development is a process to manage the risk of using time and money inefficiently when delivering software for well-understood problems.
 
 ### So should you be agile or lean?
 
-Because we unpacked the term lean, and made it clear what lean software development is and is not, you're now better prepared to consider these two approaches to software development and to answer the question of agile or lean for your own team and projects.
+Because we unpacked the term lean, and made it clear what lean software development is and isn't, you're now better prepared to consider these two approaches to software development and to answer the question of agile or lean for your own team and projects.
 
 Of the three instances of lean we described, lean software development is the odd duck. It's more directly derivative of lean manufacturing than either lean startup or lean product development, and the three lean approaches don't go together very well. As a lean startup, using lean product development, you're more likely to use agile software development than lean software development.
 
