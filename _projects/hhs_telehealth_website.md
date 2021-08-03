@@ -121,7 +121,7 @@ source_code_url:
   </p>
 
   <p>
-    Luckily, we weren't starting <em>completely</em> from scratch: we leveraged robust open-source tools
+    Luckily, we weren't starting <em>completely</em> from scratch. We leveraged robust open-source tools
     (such as the U.S. Web Design System), proven digital delivery best practices like user-centered
     design, and our team's combined years of experience launching public digital services (and maybe
     a bit of adrenaline!).
@@ -164,7 +164,7 @@ source_code_url:
 
   <ul>
     <li>
-      Best-practice guides for providers, on specialized topic areas such as telehealth in emergency
+      Best-practice guides for providers on specialized topic areas, including telehealth in emergency
       departments and direct-to-consumer telehealth
     </li>
 
@@ -177,7 +177,7 @@ source_code_url:
     </li>
 
     <li>
-      How to improve telehealth access, equity, and accessibility
+      Guidance on how to improve telehealth access, equity, and accessibility
     </li>
   </ul>
 {% endcapture %}
