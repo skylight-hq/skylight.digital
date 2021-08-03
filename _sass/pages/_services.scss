@@ -91,13 +91,13 @@
     @include media-breakpoint-up(sm) {
       float: left;
       margin-right: 0.75rem;
-      width: 25%;
+      width: 33%;
     }
   }
 
   .card-link {
     @include media-breakpoint-up(md) {
-    flex-direction: row;
+      flex-direction: row;
     }
   }
 
