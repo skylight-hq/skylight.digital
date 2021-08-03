@@ -91,7 +91,7 @@ source_code_url:
 {% capture results %}
   <ul>
     <li>
-      Adopted by over a dozen federal and state &amp; local programs whose contracted
+      Adopted by over a dozen federal and state & local programs whose contracted
       efforts are consistently experiencing the full benefits of agile, including
       Treasury's Digital Accountability and Transparency Act (DATA Act), Department of
       Defense's Military OneSource, Social Security Administration's Disability Claims

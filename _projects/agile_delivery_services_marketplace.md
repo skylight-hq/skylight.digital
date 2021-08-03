@@ -137,7 +137,7 @@ source_code_url:
     </li>
 
     <li>
-      Inspired several federal and state &amp; local agencies (for example,
+      Inspired several federal and state & local agencies (for example,
       Department of Homeland Security, Environmental Protection Agency, State of
       California, and State of Mississippi) to create a similar marketplace
     </li>
