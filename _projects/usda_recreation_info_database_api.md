@@ -32,14 +32,14 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    When the U.S. Department of Agriculture's (USDA's) Recreation.gov
+    When the U.S. Department of Agriculture’s (USDA’s) Recreation.gov
     contract came up for rebid, the request for proposal (RFP) had insufficient
-    language regarding an API for accessing the website's data layer,
+    language regarding an API for accessing the website’s data layer,
     called the Recreation Information Database (RIDB). Without a good API in place,
     the Recreation.gov website would be the only source for browsing national
     park information from RIDB, thus limiting the potential for mobile and other
     forward-thinking types of applications. Proposing the right language helped
-    reduce the USDA's risk of procuring the wrong solution.
+    reduce the USDA’s risk of procuring the wrong solution.
   </p>
 {% endcapture %}
 
@@ -56,7 +56,7 @@ source_code_url:
 
 {% capture solution %}
   <p>
-    Working as an API evangelist, Kin Lane answered the White House's
+    Working as an API evangelist, Kin Lane answered the White House’s
     call-to-civic-action by <a href="http://apievangelist.com/2014/10/16/i-need-help-to-make-sure-the-dept-of-agriculture-leads-with-apis-in-their-parks-and-recreation-rfp/">proposing critical language changes to the RFP</a>
     to ensure that vendor proposals reflected an API-based solution approach
     using best practices such as RESTful API design, supporting documentation,
@@ -79,7 +79,7 @@ source_code_url:
     </li>
 
     <li>
-      Facilitated innovative thinking around the monetization of government's public data
+      Facilitated innovative thinking around the monetization of government’s public data
     </li>
   </ul>
 {% endcapture %}

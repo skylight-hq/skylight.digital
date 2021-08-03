@@ -62,9 +62,9 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    The U.S. Air Force's (USAF's) Job Order Cost Accounting System (JOCAS) II is
+    The U.S. Air Force’s (USAF’s) Job Order Cost Accounting System (JOCAS) II is
     roughly a 30-year-old cost accounting system that supports billions of dollars
-    in annual financial transactions. As a subcontractor to Fearless, we're helping
+    in annual financial transactions. As a subcontractor to Fearless, we’re helping
     to revamp the user experience, technical architecture, and technology stack of
     this complex legacy financial system.
   </p>
@@ -105,7 +105,7 @@ source_code_url:
     </li>
 
     <li>
-      Parts of the interface are so insufficiently designed that critical data can't be captured
+      Parts of the interface are so insufficiently designed that critical data can’t be captured
       effectively to ensure accurate labor entry and cost accounting
     </li>
 
@@ -128,7 +128,7 @@ source_code_url:
 
 {% capture solution %}
   <p>
-    As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we're working together
+    As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we’re working together
     with the JOCAS program team to incrementally build out a new system alongside the old one,
     until all its key functionalities are replaced — a proven architectural approach known
     as the <a href="https://martinfowler.com/bliki/StranglerFigApplication.html">strangler pattern</a>.
@@ -140,7 +140,7 @@ source_code_url:
     and Adjustments component of JOCAS II, which supports over 12,000 users. Employees
     use this component to track, obtain approval, and get paid for how much time they
     spend on projects, factoring in pay differentials such as overtime and night shifts.
-    We're re-engineering this functionality as a separate application, an effort which
+    We’re re-engineering this functionality as a separate application, an effort which
     has involved:
   </p>
 
@@ -164,14 +164,14 @@ source_code_url:
     </li>
 
     <li>
-      Interfacing with the legacy databases to keep data synchronized until they're no longer needed and can be decommissioned
+      Interfacing with the legacy databases to keep data synchronized until they’re no longer needed and can be decommissioned
     </li>
   </ul>
 
   <p>
     Once deployed and made available to users, this new application will serve as a
     reusable infrastructure for accelerating the modernization of the other functional
-    components in JOCAS II (such as Personnel Management and Cost Accounting), until it's
+    components in JOCAS II (such as Personnel Management and Cost Accounting), until it’s
     completely replaced by JOCAS III.
   </p>
 {% endcapture %}

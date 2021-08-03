@@ -66,8 +66,8 @@ source_code_url: https://github.com/open-company
   <p>
     In the age of Slack and fast-moving chat conversations, the lack of focus
     and clarity is a huge problem in the workplace. Chat apps keep everyone
-    connected throughout the day, yet it's more difficult for teams to stay
-    aligned around the big picture of what's most important. The problem is
+    connected throughout the day, yet it’s more difficult for teams to stay
+    aligned around the big picture of what’s most important. The problem is
     the leadership signal is getting lost in all the noise.
   </p>
 {% endcapture %}

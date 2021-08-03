@@ -40,8 +40,8 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    The EPA's Safe Drinking Water Information System contains data about
-    public water systems and violations of EPA's drinking water regulations.
+    The EPA’s Safe Drinking Water Information System contains data about
+    public water systems and violations of EPA’s drinking water regulations.
     In 2017, the EPA launched an initiative called SDWIS Prime to transform
     the data architecture of SDWIS. Under the old architecture,
     U.S. states maintained separate distributed tracking systems for data.
@@ -68,7 +68,7 @@ source_code_url:
     <li>
       A new and completely unfamiliar data schema for SDWIS Prime, which made
       importing and exporting the data difficult. Transformations would have
-      to be routinely performed to ingest data, and it'd have to be undone
+      to be routinely performed to ingest data, and it’d have to be undone
       again every time the system exported information to a state due to the
       custom application of the output format.
     </li>
@@ -98,7 +98,7 @@ source_code_url:
     </li>
 
     <li>
-      The team's understanding of the progress of the new data system
+      The team’s understanding of the progress of the new data system
     </li>
 
     <li>
@@ -122,7 +122,7 @@ source_code_url:
 
     <li>
       Report served as an important catalyst to bridge the communication gap
-      between the EPA's technical teams and leadership
+      between the EPA’s technical teams and leadership
     </li>
 
     <li>

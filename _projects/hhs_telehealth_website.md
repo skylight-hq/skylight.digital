@@ -70,7 +70,7 @@ source_code_url:
 {% capture summary %}
   <p>
     Under the nationwide COVID-19 emergency declaration, telehealth plays a significant
-    role in the nation's healthcare system, allowing patients to access medical care from home.
+    role in the nation’s healthcare system, allowing patients to access medical care from home.
   </p>
 
   <p>
@@ -89,20 +89,20 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    The pandemic has created an unprecedented strain on the country's medical system.
+    The pandemic has created an unprecedented strain on the country’s medical system.
   </p>
 
   <p>
-    Telehealth, medical care that doesn't require in-person contact between medical workers
+    Telehealth, medical care that doesn’t require in-person contact between medical workers
     and patients, can protect healthcare providers and the public from unnecessary exposure
     to disease. Remote healthcare is a convenient option for many people even under ordinary
-    circumstances, but it's an especially important tool during a public health crisis.
+    circumstances, but it’s an especially important tool during a public health crisis.
   </p>
 
   <p>
-    New government policies and flexibilities broaden how telehealth is delivered and what's
+    New government policies and flexibilities broaden how telehealth is delivered and what’s
     covered during the emergency period, but the information about these quickly-evolving
-    options isn't always easy to find or understand.
+    options isn’t always easy to find or understand.
   </p>
 
   <p>
@@ -121,9 +121,9 @@ source_code_url:
   </p>
 
   <p>
-    Luckily, we weren't starting <em>completely</em> from scratch. We leveraged robust open-source tools
+    Luckily, we weren’t starting <em>completely</em> from scratch. We leveraged robust open-source tools
     (such as the U.S. Web Design System), proven digital delivery best practices like user-centered
-    design, and our team's combined years of experience launching public digital services (and maybe
+    design, and our team’s combined years of experience launching public digital services (and maybe
     a bit of adrenaline!).
   </p>
 
@@ -191,9 +191,9 @@ source_code_url:
     <li>
       Held interviews and unmoderated research studies with over 75 participants ahead of the first launch
     </li>
-  
+
     <li>
-      Rapidly expanded the site's content within months, including several best-practice guides
+      Rapidly expanded the site’s content within months, including several best-practice guides
     </li>
 
     <li>

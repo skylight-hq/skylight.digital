@@ -41,9 +41,9 @@ source_code_url: https://github.com/skylight-hq/va-api-landscape
 
 {% capture summary %}
   <p>
-    The Veterans Affairs' (VA's) API Platform Management team needed help
+    The Veterans Affairs’ (VA’s) API Platform Management team needed help
     developing a near-term roadmap of APIs to deliver. So we provided an
-    analysis of the VA's millions of public datasets and recommended which
+    analysis of the VA’s millions of public datasets and recommended which
     of these resources would be good candidates for turning into APIs, based
     on potential value to the veteran community.
   </p>
@@ -53,7 +53,7 @@ source_code_url: https://github.com/skylight-hq/va-api-landscape
   <p>
     The VA has produced millions of public datasets over the
     years in support of the veteran community. These resources tell a story
-    about how much demand there is for accessing them. The VA's API Platform
+    about how much demand there is for accessing them. The VA’s API Platform
     Management team needed that insight in order to help formulate a near-term
     roadmap of valuable APIs to deliver.
   </p>
@@ -109,7 +109,7 @@ source_code_url: https://github.com/skylight-hq/va-api-landscape
     </li>
 
     <li>
-      Informed the VA's near-term API roadmap, which incorporated many of the
+      Informed the VA’s near-term API roadmap, which incorporated many of the
       APIs we recommended for delivery
     </li>
 

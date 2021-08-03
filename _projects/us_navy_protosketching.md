@@ -43,7 +43,7 @@ source_code_url:
 
 {% capture summary %}
   <p>
-    To introduce the Navy Reserve's Ready-2-Serve (R2S) project team to modern
+    To introduce the Navy Reserve’s Ready-2-Serve (R2S) project team to modern
     development practices and technologies, we implemented a mobile website
     in a single afternoon that mocked the functionality of what was really needed.
     This enabled critical design and technology decisions to be made rapidly.

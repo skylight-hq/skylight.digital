@@ -72,7 +72,7 @@ source_code_url:
 {% capture summary %}
   <p>
     Providing better-fitting gear to aircrew, particularly female pilots, is one of
-    the U.S. Air Force's (USAF's) top priorities. Their Human Systems Division (HSD) engaged us
+    the U.S. Air Force’s (USAF’s) top priorities. Their Human Systems Division (HSD) engaged us
     to build a platform for modernizing how they manage personal protective equipment (PPE).
   </p>
 {% endcapture %}
@@ -82,12 +82,12 @@ source_code_url:
     Key personnel who work for organizations in the defense, security, safety, and
     healthcare fields often experience critical issues with ill-fitting gear
     that compromise their job performance, their personal safety, and the safety
-    of others. These organizations generally don't have sufficient data and systems
+    of others. These organizations generally don’t have sufficient data and systems
     in place to meet the complex protective equipment needs of their diverse workforce.
   </p>
 
   <p>
-    For the U.S. Air Force's Human Systems Division, solving this problem
+    For the U.S. Air Force’s Human Systems Division, solving this problem
     is a top priority that goes all the way up to the
     <a href="https://www.af.mil/News/Article-Display/Article/1801680/new-direction-for-female-specific-flight-equipment/">Secretary</a>,
     and <a href="https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795">even Congress</a>.
@@ -98,7 +98,7 @@ source_code_url:
 
 {% include callout.html
   type = "pullquote"
-  content = "In certain situations, having ill-fitting gear, such as harnesses and survival vests, can result in a loss of life. If an aircrew member ejects from the aircraft with equipment that doesn't fit, they can be severely injured or lose their life."
+  content = "In certain situations, having ill-fitting gear, such as harnesses and survival vests, can result in a loss of life. If an aircrew member ejects from the aircraft with equipment that doesn’t fit, they can be severely injured or lose their life."
   cite_name = "Captain Lauren Ellis"
   cite_title = "U.S. Air Force"
 %}
@@ -112,7 +112,7 @@ source_code_url:
     management, catalog management & ordering, and training videos. The target
     population of users includes all aircrew who use PPE (for example, pilot,
     flight engineer, navigator) and the operational groups responsible for making
-    sure they're supplied with suitable gear. These operational groups include aircrew
+    sure they’re supplied with suitable gear. These operational groups include aircrew
     flight equipment technicians who service aircrew and help resolve their equipment
     issues (for example, fixing oxygen masks), requirements managers who translate
     feedback on gear issues into actionable requirements (for example, identifying
@@ -122,7 +122,7 @@ source_code_url:
   </p>
 
   <p>
-    Given the complexity associated with this ambitious endeavor, we've focused our
+    Given the complexity associated with this ambitious endeavor, we’ve focused our
     efforts on decomposing the overall problem into more manageable sub-problems that
     we can quickly deliver appropriate solutions to. Over time, these solutions will
     form a "suite of products" unified by a common design system, technology stack,
@@ -137,20 +137,20 @@ source_code_url:
 
   <p>
     Together, we decided to prioritize the first phase of our work on improving how gear-fitment
-    issues are surfaced by aircrew, particularly female pilots. Historically, HSD hasn't
+    issues are surfaced by aircrew, particularly female pilots. Historically, HSD hasn’t
     had an effective means for collecting such information in a reliable, organized, and
     accessible way. As we dug into this particular problem area, we found several reasons as to why:
   </p>
 
   <ul>
     <li>
-      In general, there wasn't a well-defined process for collecting feedback on gear issues
+      In general, there wasn’t a well-defined process for collecting feedback on gear issues
       from aircrew and communicating what was being done to address them.
     </li>
 
     <li>
       Issues were being raised through disparate communication channels, such as email,
-      social media groups, and direct conversations. This left information that'd be
+      social media groups, and direct conversations. This left information that’d be
       valuable for the purposes of analysis and coordinated action scattered all over the place.
     </li>
 
@@ -161,7 +161,7 @@ source_code_url:
     </li>
 
     <li>
-      Aircrew are equipped with dozens of different types of gear, with names that aren't
+      Aircrew are equipped with dozens of different types of gear, with names that aren’t
       plain language and are hard to remember (for example, Helmet 55/P, Anti-G Garment
       Cutaway). This made communicating issues extremely difficult, often requiring aircrew
       to sift through catalogs of items to find the right identifiers.
@@ -172,13 +172,13 @@ source_code_url:
     </li>
 
     <li>
-      There's still the prevalence of a "tough-it-out" culture within the military that can
+      There’s still the prevalence of a "tough-it-out" culture within the military that can
       make service members, including aircrew, reluctant to seek help.
     </li>
 
     <li>
       If you think your life is busy and hectic, try walking in the shoes of a female pilot.
-      There's virtually no slack in their schedules, especially during training sessions or
+      There’s virtually no slack in their schedules, especially during training sessions or
       mission runs.
     </li>
   </ul>
@@ -187,14 +187,14 @@ source_code_url:
     To address this problem area, we created and launched a minimum viable product (MVP)
     for gathering gear-fitment feedback from aircrew, targeted initially at female pilots.
     We designed the application to be fast, simple, and psychologically safe for aircrew
-    to use. To help accomplish that, we created an experience where aircrew don't have to
-    think about what type of gear they're looking to provide feedback on. This involved
+    to use. To help accomplish that, we created an experience where aircrew don’t have to
+    think about what type of gear they’re looking to provide feedback on. This involved
     integrating with a third-party asset management system to pull in data about which
     gear is assigned to them. We also provided an option for users to submit feedback
     anonymously to avoid potential feelings of embarrassment. As part of the rollout, we
     launched a marketing and communications campaign to help overcome cultural and
     behavioral barriers to using the application — for example, "sitting in your pee
-    isn't a rite of passage." As a result of these efforts, a growing population of
+    isn’t a rite of passage." As a result of these efforts, a growing population of
     aircrew have started to use the application. And for the first time, HSD is
     able to collect and access quality data on gear issues from a central location,
     enabling them to better coordinate and communicate response actions.
@@ -203,7 +203,7 @@ source_code_url:
   <p>
     With this foundation in place, the next phase of our work will largely focus on
     solving the problem of how to optimize translating feedback from aircrew into
-    actionable requirements. GearFit's Phase 2 MVP will focus on: channelizing feedback
+    actionable requirements. GearFit’s Phase 2 MVP will focus on: channelizing feedback
     data to the proper program office or requirement manager; assisting with case management;
     and leveraging feedback data to provide trends and analysis to leadership. In addition,
     the team will  focus on continually improving the feedback application and expanding user

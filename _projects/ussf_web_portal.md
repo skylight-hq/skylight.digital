@@ -55,7 +55,7 @@ source_code_url:
 
 {% capture challenge %}
   <p>
-    The United States Space Force, the U.S. Armed Forces' newest branch, was created with the
+    The United States Space Force, the U.S. Armed Forces’ newest branch, was created with the
     mission of protecting American interests in space and developing a variety of space
     capabilities.
   </p>
@@ -115,14 +115,14 @@ source_code_url:
 
   <p>
     The MVP marked a significant departure from the status quo. As one service member
-    described it during a usability testing session, <b>"I don't like most military pages,
-    tiny hyperlinks because the page is so full. This is different to what I'm used to seeing,
-    for ease of use, the cleanliness is nice. This is the cleanest thing I've seen."</b> Space
+    described it during a usability testing session, <b>"I don’t like most military pages,
+    tiny hyperlinks because the page is so full. This is different to what I’m used to seeing,
+    for ease of use, the cleanliness is nice. This is the cleanest thing I’ve seen."</b> Space
     Force leadership similarly celebrated what we built.
   </p>
 
   <p>
-    Coinciding with the organization's one-year anniversary, the launch symbolized a new approach
+    Coinciding with the organization’s one-year anniversary, the launch symbolized a new approach
     to digital for the USSF — one that’s not only modern at its core, but also human-centered and
     accessible, meeting the everyday needs of an important new branch of the U.S. military.
   </p>

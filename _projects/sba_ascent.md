@@ -58,7 +58,7 @@ source_code_url:
     all industries. To help elevate their success, the SBA launched Ascent, a free
     online learning platform based on an existing open-source content management system
     (CMS) called Brightspot. A critical challenge was leveraging Brightspot in such a way as
-    to not only avoid constraining the design of the user experience to what's available
+    to not only avoid constraining the design of the user experience to what’s available
     "out-of-the-box," but also to avoid the nightmare of having to maintain a
     "custom-off-the-shelf-software" product.
   </p>
