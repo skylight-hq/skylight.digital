@@ -41,7 +41,7 @@ A biller with 13 years of experience working at a small, federally-funded rural 
 
 Sometimes a new rule would come out that applied to backdated claims, requiring staff to re-code. Sometimes those claims would get denied anyway, even after trying to carefully follow the new policies.
 
-Another challenge: guidance for safety net providers, like rural health clinics and community health centers, was often lumped together with other providers, even when they had unique rules and regulations to follow. Interviewees at these clinics described digging through lengthy documents to find information specific to their needs — and, as one biller put it: "When you get to digging that's when you get confused."
+Another challenge: Guidance for safety net providers, like rural health clinics and community health centers, was often lumped together with other providers, even when they had unique rules and regulations to follow. Interviewees at these clinics described digging through lengthy documents to find information specific to their needs — and, as one biller put it: "When you get to digging that's when you get confused."
 
 The lack of consolidated, user-friendly policy guidelines made understanding and implementing the new rules and regulations tricky across the board. Billers and coders relied on Medicare to understand what policies had changed and how to implement them, but there was no "single source of truth" for information. When documentation did exist, access was cumbersome — for instance, [100+ page PDFs](https://www.cms.gov/files/document/03092020-covid-19-faqs-508.pdf) or a billing codes list [you must download to read](https://www.cms.gov/Medicare/Medicare-General-Information/Telehealth/Telehealth-Codes).
 
@@ -49,7 +49,7 @@ There are massive consequences at stake. When providers can't get reimbursed for
 
 ## Making policy information more human friendly
 
-The interviews with telehealth billing and coding staff left me wondering: how can we communicate vital information to people who need it for their everyday jobs, like medical billers and coders? How might we make it easier for clinical staff to find information relevant to their practice? What if we could distill and "translate" complex guidelines into actionable, accessible, plain language "how-tos"?
+The interviews with telehealth billing and coding staff left me wondering: How can we communicate vital information to people who need it for their everyday jobs, like medical billers and coders? How might we make it easier for clinical staff to find information relevant to their practice? What if we could distill and "translate" complex guidelines into actionable, accessible, plain language "how-tos"?
 
 Focusing on improvements to the digital delivery of policy information (only one piece of the puzzle!), what if policy guidelines were...
 
@@ -57,9 +57,9 @@ Focusing on improvements to the digital delivery of policy information (only one
 * Customized (for example, by provider type), with a clear, authoritative source of truth for each audience?
 * Easy to search?
 
-Medicare's [List of Telehealth Services](https://www.cms.gov/Medicare/Medicare-General-Information/Telehealth/Telehealth-Codes) became the only way for billers and coders to find all the billing codes covered during the COVID-19 emergency. The spreadsheet routinely requires updates to align with new billing policies, but it's burdensome to use: it's inaccessible directly from the web, requiring a download to view its contents. And the format restricts its usability further because it's cumbersome to search — coders rarely need the entire universe of codes every time they want to look into coverage. There's also the possibility that information is out of date, particularly when policies were changing every week.
+Medicare's [List of Telehealth Services](https://www.cms.gov/Medicare/Medicare-General-Information/Telehealth/Telehealth-Codes) became the only way for billers and coders to find all the billing codes covered during the COVID-19 emergency. The spreadsheet routinely requires updates to align with new billing policies, but it's burdensome to use. It's inaccessible directly from the web, requiring a download to view its contents. And the format restricts its usability further because it's cumbersome to search — coders rarely need the entire universe of codes every time they want to look into coverage. There's also the possibility that information is out of date, particularly when policies were changing every week.
 
-With difficult-to-use regulatory information in such high demand in the midst of a health crisis (it's regularly one of the [top downloads across all of Health and Human Services](https://analytics.usa.gov/health-human-services/data/)), I wondered: what if instead of a download-only spreadsheet, staff could search through Medicare's list of covered telehealth services [directly on the web](http://telecodes.org)?
+With difficult-to-use regulatory information in such high demand in the midst of a health crisis (it's regularly one of the [top downloads across all of Health and Human Services](https://analytics.usa.gov/health-human-services/data/)), I wondered: What if instead of a download-only spreadsheet, staff could search through Medicare's list of covered telehealth services [directly on the web](http://telecodes.org)?
 
 ![Searchable billing codes prototype.]({{site.baseurl}}/img/blog/plain_language_policies_telehealth/telehealth-billing-codes-prototype.png)
 {:class="border p-3"}
@@ -79,4 +79,4 @@ Screenshot from [Telehealth.HHS.gov](https://telehealth.hhs.gov), a Skylight pro
 
 Simple changes to how policy information is delivered by the government can improve public health. A new billing code can mean a person with 15 years of experience suddenly has to spend significant time understanding basic requirements — time that's essential during a national emergency.
 
-The pandemic, and the deluge of regulatory changes that followed (and which continue to evolve), demonstrate how critical it is to think about — and support — behind-the-scenes staff who are directly impacted by these changes.
+The pandemic, and the deluge of regulatory changes that followed (and which continue to evolve), demonstrates how critical it is to think about — and support — behind-the-scenes staff who are directly impacted by these changes.
