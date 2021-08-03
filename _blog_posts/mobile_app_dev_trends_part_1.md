@@ -108,7 +108,7 @@ It's worth noting that there are quite a few other mobile cross-platform native 
 
 Ultimately, user expectations around native feel, or developer friction in not participating in the primary ecosystem for the platform, could lead to a decision to pursue traditional native app development.
 
-### Targeted Native Apps
+### Targeted native apps
 
 The final option is to develop full-native applications. A fully-native app targeting the mobile platform directly is a no-compromise solution that, in many cases, will not be any more expensive than the other options presented, except for the glaringly obvious point that it requires targeting two different mobile platforms with independent codebases, one for Android and one for iOS.
 
