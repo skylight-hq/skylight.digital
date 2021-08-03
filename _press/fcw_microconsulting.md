@@ -1,6 +1,6 @@
 ---
 title: "The rise of the microconsultants"
-heading: Dr. Steve Kelman thinks Skylight's new microconsulting offering could be a gamechanger
+heading: Dr. Steve Kelman thinks Skylight’s new microconsulting offering could be a gamechanger
 source: Federal Computer Week (FCW)
 date: 2018-07-12
 href: https://fcw.com/blogs/lectern/2018/07/kelman-microconsulting.aspx
