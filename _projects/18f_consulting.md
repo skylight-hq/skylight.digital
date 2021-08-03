@@ -85,7 +85,7 @@ client work and reshaped how GSA delivers technology services to the rest of gov
 
 {% capture results %}
 - Hired over 40 design, product, data, engineering, policy, and acquisition experts leveraging the Schedule A(r) hiring authority
-- Executed nearly 45 projects with federal and state &amp; local clients
+- Executed nearly 45 projects with federal and state & local clients
 - Achieved near-perfect customer service ratings, as reported by Congress' Government Accountability Office
 - Ignited transformational change at multiple agencies, including the creation of agency-specific digital teams based on the 18F Consulting talent model
 - Influenced over $1 billion in IT acquisition spend
