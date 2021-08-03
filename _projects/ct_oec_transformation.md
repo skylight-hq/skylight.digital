@@ -201,7 +201,7 @@ source_code_url:
     </li>
 
     <li>
-      Helping the entire organization adapt to working in a virtual environment,
+      Helping the entire organization adapt to working in a virtual environment
       in response to the COVID-19 pandemic, including setting up digital tools
       and training on remote-work best practices
     </li>
