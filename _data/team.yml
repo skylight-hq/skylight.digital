@@ -567,7 +567,7 @@
   profile_path: /company/about/#brandon-mader
   image: /img/people/brandon-mader.jpg
   image_description: Photo of Brandon Mader
-  position: Data Engineer & Scientist
+  position: Data Scientist
   bio: >
     Brandon loves using data for public good. He specializes in data science,
     data engineering, and software engineering. Brandon graduated from Dartmouth
@@ -592,7 +592,7 @@
   profile_path: /company/about/#becca-bartola
   image: /img/people/becca-bartola.jpg
   image_description: Photo of Becca Bartola
-  position: UX Designer
+  position: Product Designer
   bio: >
     Becca's a former Etsy designer, with a passion for creating positive change
     through great user experiences. She specializes in user research, user experience
@@ -624,9 +624,9 @@
   profile_path: /company/about/#laura-king
   image: /img/people/laura-king.jpg
   image_description: Photo of Laura King
-  position: UX Designer
+  position: Service Designer
   bio: >
-    Laura's a UX researcher, strategist, and designer. She loves to solve
+    Laura's a researcher, strategist, and designer. She loves to solve
     complex problems by empathizing with and understanding the needs of users.
     Laura lives in Colorado.
   active: true
@@ -981,7 +981,7 @@
   profile_path: /company/about/#maya-benari
   image: /img/people/maya-benari.jpg
   image_description: Photo of Maya Benari
-  position: UX Designer
+  position: Product Designer
   bio: >
     Maya's a former member of 18F where she worked on improving
     the user experience of government and developed the U.S.
@@ -1110,9 +1110,9 @@
   profile_path: /company/about/#peggy-chau
   image: /img/people/peggy-chau.jpg
   image_description: Photo of Peggy Chau
-  position: UX Researcher
+  position: User Researcher
   bio: >
-    Peggy's a UX researcher and designer who transitioned from clinical
+    Peggy's a researcher and designer who transitioned from clinical
     neuroscience research. She's worked on various projects, from researching
     robot vacuums with Samsung to redesigning a pain communication app with UPMC.
     Peggy lives in Massachusetts.
@@ -1139,7 +1139,7 @@
   profile_path: /company/about/#zack-gehin
   image: /img/people/zack-gehin.jpg
   image_description: Photo of Zack Gehin
-  position: UX Designer
+  position: Product Designer
   bio: >
     Zack's certified in UX by the Nielsen Norman Group and specializes in complex
     application design. His entrepreneurial spirit adds a unique approach towards
@@ -1226,9 +1226,9 @@
   profile_path: /company/about/#eric-richards
   image: /img/people/eric-richards.jpg
   image_description: Photo of Eric Richards
-  position: UX Researcher
+  position: User Researcher
   bio: >
-    Eric's a UX researcher and designer, with a passion for co-creation and
+    Eric's a researcher and designer, with a passion for co-creation and
     tackling complex social challenges. He was a 2019 Civic Digital Fellow at
     18F and graduated from UC San Diego with degrees in Human-Computer Interaction
     and Design for Social Innovation. Eric lives in California.
@@ -1255,11 +1255,11 @@
   profile_path: /company/about/#charlye-tran
   image: /img/people/charlye-tran.jpg
   image_description: Photo of Charlye Tran
-  position: Product Manager
+  position: Service Designer
   bio: >
-    Charlye loves to solve complex problems. As a former software and data
-    engineer, she now specializes in product management and is certified in
-    UX by Nielsen Norman Group. Charlye lives in Texas.
+    Charlye loves to solve complex problems. As a former software and data engineer, she now 
+    specializes in service design and product management and is certified in UX by the Nielsen Norman 
+    Group. Charlye lives in Texas.
   active: true
   order: 290
   socials:
@@ -1279,11 +1279,11 @@
   profile_path: /company/about/#tomi-obikunle
   image: /img/people/tomi-obikunle.jpg
   image_description: Photo of Tomi Obikunle
-  position: UX Researcher
+  position: User Researcher
   bio: >
-    Tomi's a UX researcher and designer who strives to meet and honor people
+    Tomi's a researcher who strives to meet and honor people
     where they are. She specializes in continuous discovery, usability testing,
-    and user-centered design. Tomi currently lives in Illinois.
+    and user-centered design. Tomi lives in Illinois.
   active: true
   order: 300
   socials:
@@ -1466,7 +1466,7 @@
   profile_path: /company/about/#olivia-lucas
   image: /img/people/olivia-lucas.jpg
   image_description: Photo of Olivia Lucas
-  position: UX Researcher
+  position: UX Designer
   bio: >
     Olivia's a UX researcher and designer, who previously worked at Fjord. She's
     passionate about combining qualitative and quantitative research methods to
