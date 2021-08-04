@@ -96,7 +96,7 @@ collaborating with dozens of OEC users and stakeholders to create a solution tha
   Supports incremental releases of website content so value can start being
   realized sooner rather than later
 - Is maintainable by internal staff through easy-to-use content management tools,
-  <a href="https://www.ctoec.org/oec-staff-website-support/style-guide/">content guidelines</a>,
+  [content guidelines](https://www.ctoec.org/oec-staff-website-support/style-guide/),
   and content design and management training
 
 {% endcapture %}
@@ -109,7 +109,7 @@ collaborating with dozens of OEC users and stakeholders to create a solution tha
   3x more daily visitors than the old site
 - Enabled OEC to be one of the first agencies within the State of
   Connecticut to deliver timely, critical
-  <a href="https://www.ctoec.org/covid-19">online information related to COVID</a>,
+  [online information related to COVID](https://www.ctoec.org/covid-19),
   which has averaged 2,000 page views per day
 
  {% include callout.html

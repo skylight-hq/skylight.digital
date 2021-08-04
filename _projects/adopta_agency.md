@@ -36,15 +36,15 @@ source_code_url:
 ---
 
 {% capture summary %}
-<a href="http://adopta.agency/">Adopta.Agency</a> is a civic movement designed
-around an <a href="http://adopta-agency.github.io/adopta-blueprint/">open blueprint process</a>
+[Adopta.Agency](http://adopta.agency/) is a civic movement designed
+around an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/)
 that enables anyone to target an open government dataset, and move it forward one step by
 producing JSON, and two steps forward by launching an open API.
 {% endcapture %}
 
 {% capture challenge %}
 Following the implementation of the White House's
-<a href="https://project-open-data.cio.gov/policy-memo/">Open Data Policy</a>,
+[Open Data Policy](https://project-open-data.cio.gov/policy-memo/),
 federal agencies produced thousands of open datasets, many of which needed
 cleaning-up and translation into a JSON format for reuse in other applications.
 Given the enormity of this undertaking, public stakeholders needed an innovative
@@ -53,15 +53,15 @@ model for scaling the evolution of the government's open datasets.
 
 {% capture solution %}
 To address this challenge, Kin Lane established
-<a href="http://adopta.agency/">Adopta.Agency</a>,
+[Adopta.Agency](http://adopta.agency/),
 a civic movement based upon a civic-crowdsourcing model for
 evolving the government's open data. Crowdsourcing is facilitated
-via an <a href="http://adopta-agency.github.io/adopta-blueprint/">open blueprint process</a>
+via an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/)
 that runs on GitHub and provides step-by-step guidance to anyone who
 wants to "adopt" and improve an open government dataset.
 
 
-As part of this work, Kin obtained <a href="http://kinlane.com/2016/01/22/overview-of-my-knight-funded-adoptaagency-project/">grant funding from the Knight Foundation to create a prototype</a>
+As part of this work, Kin obtained [grant funding from the Knight Foundation to create a prototype](http://kinlane.com/2016/01/22/overview-of-my-knight-funded-adoptaagency-project/)
 that focused on identifying, improving, and making datasets more accessible
 and shareable. The prototype was applied to five separate open
 government datasets that resulted in five blueprint patterns, all of

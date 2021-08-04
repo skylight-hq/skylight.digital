@@ -129,8 +129,8 @@ OEC's ability to successfully execute on their mission depends on the effective
 use of technology, much of which needs modernizing in order to deliver better
 user experiences.
 
-In alignment with the <a href="https://www.acf.hhs.gov/ecd/early-learning/preschool-development-grants">Preschool Development Grant program</a>, which is
-administered by the <a href="https://www.acf.hhs.gov/">Administration for Children and Families</a>,
+In alignment with the [Preschool Development Grant program](https://www.acf.hhs.gov/ecd/early-learning/preschool-development-grants), which is
+administered by the [Administration for Children and Families](https://www.acf.hhs.gov/),
 OEC sought a partner who could help them digitally transform their organization.
 {% endcapture %}
 
@@ -139,30 +139,29 @@ To address this challenge, we designed an approach that focuses on building
 OEC's internal digital capacity while at the same time modernizing critical
 services. Thus far, our efforts have involved:
 
-- <a href="/work/experience/ct-oec-website-redesign/">Modernizing OEC's web presence</a>
+- [Modernizing OEC's web presence](/work/experience/ct-oec-website-redesign/)
   to make it easier for families, childcare providers, and other users to access
   critical early-childhood resources, such as where to find high-quality childcare
   providers
-- <a href="/work/experience/ct-ece-reporter/">Creating a user-friendly data collection tool</a>
+- [Creating a user-friendly data collection tool](/work/experience/ct-ece-reporter/)
   to get accurate information from early care and education providers about the
   children in their care
-- <a href="/work/experience/ct-oec-care4kids-auto-notifier/">Rapidly piloting solutions</a>
+- [Rapidly piloting solutions](/work/experience/ct-oec-care4kids-auto-notifier/)
   to better inform strategies around how to make it easier for families
   to access affordable childcare
-- <a href="/work/experience/ct-families-experiencing-homelessness/">Leveraging data and information</a>
+- [Leveraging data and information](/work/experience/ct-families-experiencing-homelessness/)
   to better support families with young children experiencing homelessness
-- Writing a <a href="/work/toolkits/digital-talent-management/">Digital Talent Management Handbook</a>
+- Writing a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/)
   that provides guidance on how the organization can build up its internal
   digital talent capacity effectively
 - Developing a number of toolkits to help the organization adopt modern procurement,
   design, delivery, and data practices —
-  <a href="/work/toolkits/agile-procurement-playbook/">Agile Procurement Playbook</a>,
-  <a href="/work/toolkits/data-sharing-playbook/">Data Sharing Playbook</a>, and
+  [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/),
+  [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/), and
   Content Guidelines
-- Supporting the structuring, recruiting, and hiring of in-house digital service experts- i>
-  Training nearly 20 procurement officials in modern acquisition practices, based on our
-  <a href="/work/services/training/ditap-executive/">Digital IT Acquisition Professional Training — Executive Edition</a>
-  training course
+- Supporting the structuring, recruiting, and hiring of in-house digital service experts
+- Training nearly 20 procurement officials in modern acquisition practices, based on our
+  [Digital IT Acquisition Professional Training — Executive Edition](/work/services/training/ditap-executive/) training course
 - Helping the entire organization adapt to working in a virtual environment
   in response to the COVID-19 pandemic, including setting up digital tools
   and training on remote-work best practices

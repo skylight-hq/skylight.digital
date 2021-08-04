@@ -84,8 +84,8 @@ in place to meet the complex protective equipment needs of their diverse workfor
 
 For the U.S. Air Force's Human Systems Division, solving this problem
 is a top priority that goes all the way up to the
-<a href="https://www.af.mil/News/Article-Display/Article/1801680/new-direction-for-female-specific-flight-equipment/">Secretary</a>,
-and <a href="https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795">even Congress</a>.
+[Secretary](https://www.af.mil/News/Article-Display/Article/1801680/new-direction-for-female-specific-flight-equipment/),
+and [even Congress](https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795).
 
 Female pilots in particular lack consistent access to — or, at least,
 awareness of — properly-fitting tactical gear and equipment options, exposing

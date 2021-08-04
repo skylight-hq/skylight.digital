@@ -55,7 +55,7 @@ together, such as planning, testing, and iteration.
 {% endcapture %}
 
 {% capture solution %}
-As a partner to <a href="https://civicactions.com/">CivicActions</a>,
+As a partner to [CivicActions](https://civicactions.com/),
 we helped lead a two-day intensive
 training workshop to bring every facet of agile in a personalized,
 coaching environment for the CHHS Office of Innovation. To do that,

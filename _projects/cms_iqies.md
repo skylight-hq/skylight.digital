@@ -58,7 +58,7 @@ modernizing the user experience, the technical architecture, and the technology 
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to <a href="https://ventera.com/">Ventera</a>, we helped support the iQIES
+As a subcontractor to [Ventera](https://ventera.com/), we helped support the iQIES
 initiative in several key areas, including:
 
 - Provided design leadership to continually improve how user research, user
