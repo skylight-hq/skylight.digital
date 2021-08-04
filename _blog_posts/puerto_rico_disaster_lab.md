@@ -23,7 +23,7 @@ On June 29th through July 1st, I had the [pleasure](https://medium.com/public-in
 
 The hackathon was very successful as hackathons go, but any one-weekend event can only accomplish so much. During some downtime when none of the eight teams seemed to want my help, I sat down with some leaders of the Puerto Rico technical community to articulate unique "opportunities" that Puerto Rico has. Some of these are advantages, some of these are disadvantages. Having attempted a [disaster relief mission](https://www.presidentialinnovation.org/news/relief-mission-to-puerto-rico) to Puerto Rico 71 days after Hurricane Maria, I've witnessed firsthand the resilience and optimism of Puerto Ricans and their ability to deflect adversity or turn it to their advantage.
 
-In this article, I summarize those unique characteristics and add my own ideas: three research projects in the Internet of Things (IoT) space that Puerto Rico is uniquely positioned to undertake. I place these ideas in the public domain — anyone may act on these ideas and even take the names I've assigned to them. Although Skylight would like to act on these ideas, we're unlikely to do so alone and proffer these ideas in hope that enough energy and interest will build around them for someone to, for example, write a grant to implement them.
+In this article, I summarize those unique characteristics and add my own ideas, outlining three research projects in the Internet of Things (IoT) space that Puerto Rico is uniquely positioned to undertake. I place these ideas in the public domain — anyone may act on these ideas and even take the names I've assigned to them. Although Skylight would like to act on these ideas, we're unlikely to do so alone and proffer these ideas in hope that enough energy and interest will build around them for someone to, for example, write a grant to implement them.
 
 ## Puerto Rico: a disaster lab
 
@@ -55,7 +55,7 @@ Politically, Puerto Rico is divided into 78 semi-autonomous and somewhat competi
 
 ### Infrastructure
 
-The power infrastructure of Puerto Rico was severely damaged by Hurricane Maria and remains fragile and likely to be damaged in the future.
+The power infrastructure of Puerto Rico was severely damaged by Hurricane Maria. It remains fragile and is likely to be damaged in the future.
 
 Additionally, Puerto Rico has double the [US average](https://www.npr.org/sections/money/2011/10/27/141766341/the-price-of-electricity-in-your-state) of $0.12/kWh [electricity costs](https://www.nrel.gov/docs/fy15osti/62708.pdf) at $0.24/kWh, which incentivizes research on renewables.
 
@@ -67,7 +67,7 @@ Puerto Rico has little public transport, so it's a very road-based region. Lands
 
 In short, Puerto Rico is an ideal place for investigating and testing emergency- and resiliency-oriented radio and power technology.
 
-By showing a small amount of technical and architectural leadership, we can capitalize on unique geographic, cultural, and structural opportunities that Puerto Rico has to focus its local talent and attract off-island sponsorship to research projects of global value.
+By showing a small amount of technical and architectural leadership, we can capitalize on Puerto Rico's unique geographic, cultural, and structural opportunities and focus its local talent and attract off-island sponsorship to research projects of global value.
 
 I propose that we identify specific projects that can be the focus of research efforts, meaning specifically that someone should initiate and seek funding for these or similar projects. Skylight has [published](/blog/story-of-a-darpa-proposal/) the story of it's attempt to get a DARPA grant focusing on LoRa technology. We're open to potentially partnering on these projects, but probably aren't going to execute them in the absence of energetic partners. An ideal partnership would include researchers living in Puerto Rico, grants from outside Puerto Rico, and collaborating leadership from both inside and outside Puerto Rico.
 
@@ -81,21 +81,21 @@ Rather than execute another competitive hackathon, it might be possible to execu
 
 To prepare for such a HackWeekend, information architects and technical community leaders would seek to prepare ahead of time:
 
-1. Formally-defined API declarations, which would structure and guide implementations.
+1. Formally-defined API declarations, which would structure and guide implementations
 
-2. Formally-defined automated tests based on "mock" implementations that would inform and guide implementations.
+2. Formally-defined automated tests based on "mock" implementations that would inform and guide implementations
 
-3. A breakdown of projects including a loose ranking of intellectual difficulty and level-of-effort to guide participants in selecting projects.
+3. A breakdown of projects, including a loose ranking of intellectual difficulty and level-of-effort to guide participants in selecting projects
 
-4. Publication mechanisms, such as open-source outlets, media coverage, and, not least, academic publications, which would be a target of the research project.
+4. Publication mechanisms, such as open-source outlets, media coverage, and, not least, academic publications, which would be a target of the research project
 
-We've created an [interactive map](https://www.plectica.com/maps/D26TZT0CX?present=1) that represents our proposal graphically.
+We've created an [interactive map](https://www.plectica.com/maps/D26TZT0CX?present=1) that represents our proposal graphically
 
 ## Three specific Puerto Rican-branded projects
 
 ### The Puerto Rican Fast Map Project: crowdsourcing map-based data
 
-The Puerto Rican Fast Map Project seeks to be the simplest possible way to crowdsource map-based data. It was born of the need for such data about power and drinking water availability after Hurricane Maria.
+The Puerto Rican Fast Map Project seeks to be the simplest possible way to crowdsource map-based data. It was born out of the need for data about power and drinking water availability after Hurricane Maria.
 
 ![Puerto Rico as a connected network grid.](/img/blog/puerto_rico_disaster_lab/fast-map.svg)
 
@@ -115,15 +115,15 @@ The Puerto Rican Fast Map Project seeks to be the simplest possible way to crowd
 
 ### The Puerto Rican Boa Project: WiFi lifeline
 
-The Puerto Rican Boa Project is named after the endemic [Puerto Rican boa](https://en.wikipedia.org/wiki/Puerto_Rican_boa), a play on the fact that roads snake up into the mountains. It's based on the fundamental observation that restoring communication alongs roads is efficient and tends to reach large portions of the population in an rough terrain where people live along roads.
+The Puerto Rican Boa Project is named after the endemic [Puerto Rican boa](https://en.wikipedia.org/wiki/Puerto_Rican_boa), a play on the fact that roads snake up into the mountains. It's based on the fundamental observation that restoring communication along roads is efficient and tends to reach large portions of the population in a rough terrain where people live along roads.
 
 ![Graphical drawing of a snake overlaid on a Google map image of a mountainous Puerto Rican terrain.](/img/blog/puerto_rico_disaster_lab/snake-road.svg)
 
-A high percentage of Puerto Ricans have smartphones. That means that providing WiFi or Bluetooth connectivity along a road, even if backed by a very low-bandwidth, text-only internet, would allow most people to transmit and receive critical emergency information in the absence of normal cellular service.
+A high percentage of Puerto Ricans have smartphones. Providing WiFi or Bluetooth connectivity along a road, even if backed by a very low-bandwidth, text-only internet, would allow most people to transmit and receive critical emergency information in the absence of normal cellular service.
 
 **Draft project breakdown:**
 
-1. Assuming internet connectivity at only one endpoint, create an ability to cover a 10-mile stretch of mountainous road with a system that allows anyone along the road to connect their phone to the internet via WiFi. Possibly this could be done with very good WiFi antennas, or possibly with a LoRa radio system or with directionally beamed WiFi systems.
+1. Assuming internet connectivity at only one endpoint, create an ability to cover a 10-mile stretch of mountainous road with a system that allows anyone along the road to connect their phone to the internet via WiFi. Possibly this could be done with very good WiFi antennas, or with a LoRa radio system, or with directionally beamed WiFi systems.
 
 2. Demonstrate the ability of users to: (a) find and connect to the system; (b) use it for emergency purposes; (c) use it for non-emergency purposes, such as sending videos to loved ones or downloading videos; (d) measure the achieved bandwidth along the entire stretch of road; and (e) demonstrate this connectivity at every ½ mile interval along the road, no exceptions.
 
@@ -139,15 +139,15 @@ In the immediate aftermath of Hurricane Maria, people could not find their loved
 
 This is a combined data science/computer science project. It involves both abstract algorithmics and practical mapping.
 
-Suppose there's a network of nodes (llorosas) that all have positions. Each llorosa can report its position at particular point in time to a network it's part of it. One can imagine an initial state in which every llorosa is part of a single network.
+Suppose there's a network of nodes (llorosas) that all have positions. Each llorosa can report its position at a particular point in time to a network it's part of. One can imagine an initial state in which every llorosa is part of a single network.
 
 Now, imagine that the network is attacked in some way, for example by being cut, forming two disconnected networks. In an extreme case, a single llorosa may be completely isolated from all others. The fundamental goal of the Llorosa Project is to keep all nodes connected to the net, so that all people have access to first responders.
 
 When the network is divided, each connected net continues to be able to obtain updated information of its connected nodes, but loses contact with all others. A network is restored by taking a physical action in the real world. The last-known location of the other nodes provides a valuable guide to the restoration of the network. For example, a radio may be situated midway between the closest nodes of the two meshes, as computed from their last known locations.
 
-Although there may be some graph-theoretic mathematics required in this project, it's  more likely a research program of integrating technologies and techniques with software. Evolving radio technology may constantly change the best approach. Today, if the cellular data system fails or a llorosa node enters an area lacking cell service, LoRa technology may provide a low-bandwidth means of restoring connectivity. The [GoTenna Mesh](https://www.gotenna.com/pages/mesh?gclid=Cj0KCQjwm6HaBRCbARIsAFDNK-hgUARFmLhYQpME56JSWZYVOaJ6M65HU7HmgsZq2ig4UZZAuCjOcCMaAkH6EALw_wcB&gclsrc=aw.ds) product could be used in planned forays into unconnected territory. In the future some new radio meshing technology, such as Bluetooth meshing, might be the fastest means of reconnection.
+Although there may be some graph-theoretic mathematics required in this project, it's  more likely a research program of integrating technologies and techniques with software. Evolving radio technology may constantly change the best approach. Today, if the cellular data system fails or a llorosa node enters an area lacking cell service, LoRa technology may provide a low-bandwidth means of restoring connectivity. The [GoTenna Mesh](https://www.gotenna.com/pages/mesh?gclid=Cj0KCQjwm6HaBRCbARIsAFDNK-hgUARFmLhYQpME56JSWZYVOaJ6M65HU7HmgsZq2ig4UZZAuCjOcCMaAkH6EALw_wcB&gclsrc=aw.ds) product could be used in planned forays into unconnected territory. In the future, some new radio meshing technology, such as Bluetooth meshing, might be the fastest means of reconnection.
 
-In terms of personae and use cases, we can easily imagine a personal situation that the Llorosa Project can improve. Imagine an elderly person who lives by herself in the mountains. Perhaps she has cell phone service most of the time, but a storm damages an antenna, cutting her from the main network. The Llorosa Project provides something we don't have today: an ability to identify that she, and possibly her neighbors, are now isolated from electronic communication with the main network of the island. Because the Llorosa Project uses a geographic information system (GIS) of some kind, it also provides guidance in how to fix the problem, possibly by providing a low-bandwidth solution until a higher bandwidth solution can be restored. The lowest bandwidth solution might be someone driving up to their community to check on them.
+In terms of personae and use cases, we can easily imagine a personal situation that the Llorosa Project can improve. Imagine an elderly person who lives by herself in the mountains. Perhaps she has cell phone service most of the time, but a storm damages an antenna, cutting her from the main network. The Llorosa Project provides something we don't have today: an ability to identify that she, and possibly her neighbors, are now isolated from electronic communication with the main network of the island. Because the Llorosa Project uses a geographic information system (GIS) of some kind, it also provides guidance on how to fix the problem, possibly by providing a low-bandwidth solution until a higher bandwidth solution can be restored. The lowest bandwidth solution might be someone driving up to their community to check on them.
 
 **Draft project breakdown:**
 
