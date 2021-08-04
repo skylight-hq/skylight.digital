@@ -59,13 +59,13 @@ Avoiding vendor and technology lock-in is critical for innovation. Nothing will 
 
 One tool that many vendors attempt to leverage to show openness and interoperability is the "gateway." They claim that they provide, or can build, a gateway to connect to other systems. Gateways are a never-ending trap on so many levels:
 
-* they're a single point of failure;
-* they're a single point of attack for hackers;
-* they require complex coordination between systems;
-* maintenance and updates are costly or non-existent;
-* updates need to be managed;
-* they add extra costs for hardware and power; and
-* they're **closed and proprietary.**
+* They're a single point of failure
+* They're a single point of attack for hackers
+* They require complex coordination between systems
+* Maintenance and updates are costly or non-existent
+* Updates need to be managed
+* They add extra costs for hardware and power
+* They're **closed and proprietary**
 
 The second trap is private clouds and walled gardens. The vendor will claim that they use "all of the open internet standards," listing protocol after protocol, but they use these protocols only to send the data (*your* data) into a closed, proprietary cloud system — locking it away so that only they have the keys. This is akin to building a road that leads to a cul-de-sac, which is blocked by a locked gate that only lets traffic in. Then, new systems must be built to connect through this cloud, likely via closed and proprietary interfaces. In the end, only other systems in this closed ecosystem can be used for future projects, thereby limiting innovation and increasing time and costs. Sending data to the cloud isn't a panacea, as many vendors would like to suggest.
 
