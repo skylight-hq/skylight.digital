@@ -38,7 +38,7 @@ In fact, in 2018 many government programs must now plan for things that are comp
 1. Information is now transmitted to smartphones.
 2. More physical objects than ever before are computerized and connected via the Internet of Things.
 3. Anything that can be hacked, will be hacked.
-4. More than ever, new technologies which seem to require an advanced degree just to understand represent opportunities and risks for the public servant.
+4. New technologies, which seem to require an advanced degree just to understand, represent opportunities and risks for the public servant.
 
 What's a poor public servant to do?
 
@@ -48,21 +48,21 @@ Here are our recommendations.
 
 One helpful technique that's sometimes valuable is to subscribe to a magazine, but just for one year. For example, about every five years I subscribe to "Sky and Telescope." This way, I can quickly recover some basics about the state-of-the-art of amateur astronomy. However, I can't afford and don't have the time to read a journal in every subject that I'm interested in.
 
-When we worked together in government, Noah Kunin read all of the Federal Acquisition Regulation (FAR), and all of the official guidance related to it and cybersecurity. Possibly he was the only person to ever have done so. This allowed him to discern that which was merely customary from that which was actually regulated, and often there was a surprisingly vast difference between them.
+When we worked together in government, Noah Kunin read all of the Federal Acquisition Regulation (FAR), and all of the official guidance related to it and cybersecurity. He was possibly the only person to ever have done so. This allowed him to discern that which was merely customary from that which was actually regulated, and often there was a surprisingly vast difference between them.
 
 ## Make 10% of your learning skill-based
 
-This seems to require a lot of effort. For example, suppose you want to learn about the Internet of Things. You should read a lot about this. But after you have spent 20 hours reading about it you really should spend 2 hours doing it. It isn't obvious how to do this, and technologists such as ourselves should make it easier.
+This seems to require a lot of effort. For example, suppose you want to learn about the Internet of Things. You should read a lot about this. But after you've spent 20 hours reading about it, you really should spend 2 hours doing it. It isn't obvious how to do this, and technologists such as ourselves should make it easier.
 
-Here's what I mean: you need to go to a "maker space," or a conference or a hackathon, and try to actually use a non-computer device that's radio connected to the internet. For example, this can be done with a microcontroller and various printed circuit boards you can plug onto them for about $35. You can make something as simple as a remote temperature sensor.
+Here's what I mean: You need to go to a "maker space," or a conference, or a hackathon, and try to actually use a non-computer device that's radio connected to the internet. For example, this can be done with a microcontroller and various printed circuit boards you can plug onto them for about $35. You can make something as simple as a remote temperature sensor.
 
 Now, to those of you who don't know anyone who can explain this to them, it may sound impossible. You might not know where to begin. You wouldn't know whom to ask. However, if you aren't too shy, you can eventually use Google to find people who will eagerly — sometimes very eagerly — lead you to what you need to do.
 
 However, I assure you the benefits will be tremendous. Suddenly, a veil will be lifted from everything that you've read. Your mind will constantly be saying, "Oh, I see now, that article about the IoT is just like what I'm doing here, only using longer-range radios, or custom boards, or controlling more stuff." The next time you're in discussions with a contractor, you'll be better able to ask intelligent questions, like "Why can't this be done with just an Arduino Nano and Bluetooth LE?"
 
-Another, perhaps easier example, is 3D printing. 3D printing is revolutionary. However, when it's first described, it's hard to understand not what it does, but what its limitations are. "You mean this machine can literally make any shape I want?" "YES!" "You mean I can 3D print a motorcycle?" "Well no, today we can't print metal, and we can't print electronics, and we can't print anything bigger than 10 inches on a side, and making a part even that big can take 48 hours, and our plastics melt at a low temperature" and so on. Spending an afternoon using a 3D printer illuminates its limitations far better than an afternoon of reading about it.
+Another, perhaps easier example, is 3D printing. 3D printing is revolutionary. However, when it's first described, it's hard to understand not what it does, but what its limitations are. "You mean this machine can literally make any shape I want?" "YES!" "You mean I can 3D print a motorcycle?" "Well no, today we can't print metal, and we can't print electronics, and we can't print anything bigger than 10 inches on a side, and making a part even that big can take 48 hours, and our plastics melt at a low temperature," and so on. Spending an afternoon using a 3D printer illuminates its limitations far better than an afternoon of reading about it.
 
-More fundamental than these examples in 2018 is simply computer programming. Everyone should learn to code, even if only for a weekend. The improvement in your understanding and your ability to ask intelligent questions will astound you. In 2018 everyone needs to learn "Reading, writing, arithmetic — and coding." You don't need to become good enough at coding to be a professional. But if your job is to *work with* professionals programmers, you will earn their respect by being able to program at least a little.
+More fundamental than these examples in 2018 is simply computer programming. Everyone should learn to code, even if only for a weekend. The improvement in your understanding and your ability to ask intelligent questions will astound you. In 2018, everyone needs to learn "Reading, writing, arithmetic — and coding." You don't need to become good enough at coding to be a professional. But if your job is to *work with* professionals programmers, you'll earn their respect by being able to program at least a little.
 
 If you learn just a tiny bit of computer programming, light bulbs will start going on over your head — I promise. Please, put some money down on it by spending a day or two learning to code a little; if you find it wasted time, you'll have my sincere apology.
 
@@ -92,4 +92,4 @@ Processes are hard to understand without diagrams. You can find some rich discus
 
 ## Conclusion
 
-Force of habit and lack of knowing how to begin prevent you, the hard working public servant, from following these suggestions. I hope I have convinced you, however, that the return on investment for your time will be tremendous if you follow these simple five suggestions.
+Force of habit and lack of knowing how to begin prevent you, the hard working public servant, from following these suggestions. I hope I've convinced you, however, that the return on investment for your time will be tremendous if you follow these simple five suggestions.
