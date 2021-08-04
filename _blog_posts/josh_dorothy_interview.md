@@ -47,4 +47,4 @@ Unfortunately, you can't effect change by principle alone. I knew I needed to bu
 
 **Josh Dorothy:** If you're passionate about public service, and you want to help solve technical problems that are at the core of how government programs function, [we'd love to talk to you](/join). If you're part of a government effort like 18F or USDS, or feel similarly, you're not alone. We're dedicated public servants who want to build a platform and a movement, and we need your help.
 
-**Chris Cairns: Josh, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Josh to help integrate DevOps into your organization, [we'd love to hear from you](/connect/contact/)**
+**Chris Cairns: Josh, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Josh to help integrate DevOps into your organization, [we'd love to hear from you](/connect/contact/)**.
