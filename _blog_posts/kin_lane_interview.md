@@ -21,7 +21,7 @@ date: 2018-02-13
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
-**Kin Lane:** I've been in the tech field for nearly 30 years, mostly as a software engineer. In 2010, I turned my full-time attention to APIs. I did that because I saw the potential for APIs to transform how organizations shared digital services, both internally and externally. API-enabled sharing opens-up seemingly endless business and technical opportunities such as monetizing data, modernizing legacy systems safely, improving operational efficiencies, and spurring economic growth and innovation.
+**Kin Lane:** I've been in the tech field for nearly 30 years, mostly as a software engineer. In 2010, I turned my full-time attention to APIs. I did that because I saw the potential for APIs to transform how organizations shared digital services, both internally and externally. API-enabled sharing opens up seemingly endless business and technical opportunities, such as monetizing data, modernizing legacy systems safely, improving operational efficiencies, and spurring economic growth and innovation.
 
 To advance the state of APIs, I took on the persona of "The API Evangelist." As The API Evangelist, I've been: consulting to firms of all sizes and industries, including *Fortune 1000* companies and federal agencies; publishing content on a range of API-related topics; speaking at various events all over the world; serving as a board member on several API standards development projects (for example, <a href="https://www.openapis.org/membership/members">OpenAPI Initiative</a>); and contributing to various open-source API projects (for example, <a href="https://openreferral.org/version-1-1-of-the-human-services-data-api-specification-technical-post/">Open Referral</a>, <a href="http://apicommons.org/">API Commons</a>, and <a href="http://apisjson.org/">APIs.json</a>).
 
@@ -41,7 +41,7 @@ The last reason, but certainly not the least, was the opportunity to build up a 
 
 **Chris Cairns: What have you worked on so far?**
 
-**Kin Lane:** Thus far, I've been supporting clients at the Centers for Medicare & Medicaid Services with improving the way that they govern and deliver APIs. More specifically, helping to establish a strategy for defining and delivering microservices, with an API governance program in place to help ensure all services are delivered and managed in a consistent and scalable way. We will be scaling the approach so that it can be applied across multiple projects, as more projects take up a microservices as a way of delivering government services.
+**Kin Lane:** Thus far, I've been supporting clients at the Centers for Medicare & Medicaid Services with improving the way that they govern and deliver APIs. More specifically, I've been helping to establish a strategy for defining and delivering microservices with an API governance program in place to help ensure all services are delivered and managed in a consistent and scalable way. We'll be scaling the approach so that it can be applied across multiple projects, especially as more projects take up microservices as a way of delivering government services.
 
 **Chris Cairns: What was most surprising to you about joining Skylight?**
 
@@ -49,6 +49,6 @@ The last reason, but certainly not the least, was the opportunity to build up a 
 
 **Chris Cairns: What would you tell your colleagues from a previous job who were contemplating coming to Skylight?**
 
-**Kin Lane:** If you're looking to be part of an exciting and growing startup that's digital to the core, open by default, public servants at heart, and a platform for amplifying people's superpowers and facilitating the realization of their public ambitions, then look no further!
+**Kin Lane:** If you're looking to be part of an exciting and growing startup that's digital to the core, open by default, dedicated to public service, and a platform for amplifying people's superpowers and facilitating the realization of their public ambitions, then look no further!
 
 **Chris Cairns: Kin, thank you for taking the time to share with us. This has been very interesting, as always. To our readers, if you're interested in engaging with Kin to help you in harnessing the connective power of APIs, [we'd love to hear from you](/connect/contact/).**
