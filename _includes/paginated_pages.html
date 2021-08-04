@@ -160,7 +160,7 @@
             class="blog-post-card card-link"
             data-href="{% if item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ item.link }}"
             data-target="_blank"
-            tabindex="-1"
+            tabindex="0"
           >
             <div
               class="blog-post-img {% if item.type == "video" %}embed-responsive embed-responsive-16by9{% endif %}"
