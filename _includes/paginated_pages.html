@@ -193,13 +193,13 @@
               <p class="card-text">{{ item.event }}</p>
             </div>
             <div class="blog-post-footer">
-              <a href="{% if item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ item.link }}" tabindex="0" target="_blank">
+              <span class="text-primary">
                 {% if item.type == "video" %}
                   Watch video
                 {% elsif item.type == "podcast" %}
                   Listen to podcast
                 {% endif %} <i class="fal fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </span>
             </div>
           </div>
         </article>
