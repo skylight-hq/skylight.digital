@@ -76,6 +76,14 @@
   }
 }
 
+.blog-post-footer-cta {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
 .post-footer__see-all {
   display: inline-block;
   font-family: $font-family-mono;
