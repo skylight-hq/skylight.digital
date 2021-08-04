@@ -42,42 +42,34 @@ source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
 ---
 
 {% capture summary %}
-  <p>
-    The Care 4 Kids program sponsored by the Office of Early Childhood (OEC)
-    and administered by the United Way seeks to make child care affordable for
-    children and their families in Connecticut. To support their efforts to improve
-    the subsidy application process for children and families, we worked with OEC
-    and United Way to co-design a process and system for sending text messages to
-    a subset of families applying to renew their subsidy benefits. The pilot served
-    to test the value of a lightweight solution to improve transparency and confidence
-    in the application process, while providing insight into the broader needs of the
-    program and its stakeholders.
-  </p>
+The Care 4 Kids program sponsored by the Office of Early Childhood (OEC)
+and administered by the United Way seeks to make child care affordable for
+children and their families in Connecticut. To support their efforts to improve
+the subsidy application process for children and families, we worked with OEC
+and United Way to co-design a process and system for sending text messages to
+a subset of families applying to renew their subsidy benefits. The pilot served
+to test the value of a lightweight solution to improve transparency and confidence
+in the application process, while providing insight into the broader needs of the
+program and its stakeholders.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    Care 4 Kids is a program sponsored by OEC and run by United Way that helps
-    low- to moderate-income families in the state pay for child care. To participate
-    in the program, families and providers must meet specific eligibility and
-    application requirements
-  </p>
+Care 4 Kids is a program sponsored by OEC and run by United Way that helps
+low- to moderate-income families in the state pay for child care. To participate
+in the program, families and providers must meet specific eligibility and
+application requirements
 
-  <p>
-    A number of factors, including a new case management system, was creating a growing
-    application backlog and a high percentage of incomplete applications and ineligible
-    applicants entering the system. Both families and providers who rely on Care 4 Kids
-    subsidies were becoming increasingly frustrated due to the long wait times and
-    lack of transparency into the process of renewing their benefits. United Way was
-    open to experimenting with new ways to improve the processing time as well as
-    increasing trust and confidence in the application process.
-  </p>
+A number of factors, including a new case management system, was creating a growing
+application backlog and a high percentage of incomplete applications and ineligible
+applicants entering the system. Both families and providers who rely on Care 4 Kids
+subsidies were becoming increasingly frustrated due to the long wait times and
+lack of transparency into the process of renewing their benefits. United Way was
+open to experimenting with new ways to improve the processing time as well as
+increasing trust and confidence in the application process.
 
-  <p>
-    After conducting user research and interviews to understand problems and needs
-    more deeply, several critical issues became clear around communication and
-    status updates for applicants that helped further inform our solution.
-  </p>
+After conducting user research and interviews to understand problems and needs
+more deeply, several critical issues became clear around communication and
+status updates for applicants that helped further inform our solution.
 
 {% include callout.html
   type = "pullquote"
@@ -87,54 +79,35 @@ source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    Our goal was to identify solutions to user pain points that could be tested and
-    refined quickly while providing the most impact to Care 4 Kids applicants
-    (families and children). In this case, we aimed to make it easier for families
-    to have insight into the status of their application, to increase parent
-    satisfaction and improve some of the existing challenges with the backlog.
-  </p>
+Our goal was to identify solutions to user pain points that could be tested and
+refined quickly while providing the most impact to Care 4 Kids applicants
+(families and children). In this case, we aimed to make it easier for families
+to have insight into the status of their application, to increase parent
+satisfaction and improve some of the existing challenges with the backlog.
 
-  <p>
-    To do so, we built an agile pilot to support sending application renewal status
-    updates. Co-designed with OEC and United Way, the pilot was a SMS-based
-    notification tool that let parents know when United Way received documents
-    relevant to their Care 4 Kids application. Parents in this pilot could also
-    request and receive information about application processing timelines via
-    text at any time.
-  </p>
+To do so, we built an agile pilot to support sending application renewal status
+updates. Co-designed with OEC and United Way, the pilot was a SMS-based
+notification tool that let parents know when United Way received documents
+relevant to their Care 4 Kids application. Parents in this pilot could also
+request and receive information about application processing timelines via
+text at any time.
 
-  <p>
-    A minimum viable product was built within four weeks, then live-tested and
-    implemented as a pilot with nearly 180 participants over a three-month period.
-    Phone, text, and online surveys were also conducted before, during and after the
-    intervention period to collect feedback from users.
-  </p>
+A minimum viable product was built within four weeks, then live-tested and
+implemented as a pilot with nearly 180 participants over a three-month period.
+Phone, text, and online surveys were also conducted before, during and after the
+intervention period to collect feedback from users.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Agile pilot project launched to build and test SMS-based notification tool
-    </li>
-
-    <li>
-      On a scale of 1 to 5 where 5 means the greatest satisfaction, surveyed pilot
-      participants expressed an overall increase in average satisfaction rating
-      from Care 4 Kids communication
-    </li>
-
-    <li>
-      These parents also expressed a 19% increase in confidence that documents were
-      being received by United Way
-    </li>
-
-    <li>
-      Provided larger-scale recommendations to address areas where pilot results shed
-      light on additional gaps, confusion and communications needs in the application
-      submission process
-    </li>
-  </ul>
+- Agile pilot project launched to build and test SMS-based notification tool
+- On a scale of 1 to 5 where 5 means the greatest satisfaction, surveyed pilot
+  participants expressed an overall increase in average satisfaction rating
+  from Care 4 Kids communication
+- These parents also expressed a 19% increase in confidence that documents were
+  being received by United Way
+- Provided larger-scale recommendations to address areas where pilot results shed
+  light on additional gaps, confusion and communications needs in the application
+  submission process
 
 {% include callout.html
   type = "pullquote"

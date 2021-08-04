@@ -55,74 +55,45 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The U.S. Citizenship and Immigration Services' (USCIS') E-Verify system is
-    used by employers to confirm the eligibility of their employees to work
-    in the U.S. As part USCIS' efforts to modernize E-Verify, we engaged as a
-    subcontractor to Excella and provided API design and technical expertise
-    that contributed to the successful relaunch of the system, despite the
-    complexity of the existing legacy environment.
-  </p>
+The U.S. Citizenship and Immigration Services' (USCIS') E-Verify system is
+used by employers to confirm the eligibility of their employees to work
+in the U.S. As part USCIS' efforts to modernize E-Verify, we engaged as a
+subcontractor to Excella and provided API design and technical expertise
+that contributed to the successful relaunch of the system, despite the
+complexity of the existing legacy environment.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    Several years ago, USCIS undertook a massive initiative to modernize their
-    E-Verify system in order to improve the overall user experience. A major
-    challenge with this modernization has been the need to maintain and
-    integrate with a myriad of legacy systems, while simultaneously
-    building out and optimizing the new system.
-  </p>
+Several years ago, USCIS undertook a massive initiative to modernize their
+E-Verify system in order to improve the overall user experience. A major
+challenge with this modernization has been the need to maintain and
+integrate with a myriad of legacy systems, while simultaneously
+building out and optimizing the new system.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    As a subcontractor to <a href="https://www.excella.com/">Excella</a>, we helped address both
-    the modernization and relaunch efforts, as well as legacy integration and modernization,
-    using digital delivery practices. Some of our major contributions included:
-  </p>
+As a subcontractor to <a href="https://www.excella.com/">Excella</a>, we helped address both
+the modernization and relaunch efforts, as well as legacy integration and modernization,
+using digital delivery practices. Some of our major contributions included:
 
-  <ul>
-    <li>
-      Replacing existing services with new frameworks written
-      in modern languages and deployed to the cloud
-    </li>
-
-    <li>
-      Enhancing the efficiency of the system's query and information
-      usage by rewriting the data-retrieval code in the object-relational mapping layer
-    </li>
-
-    <li>
-      Improving performance of the case data ingestion pipeline by
-      reconfiguring the underlying architecture of the system's data
-      loading process, as well as upgrading the clustering hardware
-      responsible for managing the loading
-    </li>
-
-    <li>
-      Creating an API-based microservice in order to simulate the behavior
-      of a Social Security Administration system, which was needed for
-      third-party API integration testing
-    </li>
-  </ul>
+- Replacing existing services with new frameworks written
+in modern languages and deployed to the cloud
+- Enhancing the efficiency of the system's query and information
+usage by rewriting the data-retrieval code in the object-relational mapping layer
+- Improving performance of the case data ingestion pipeline by
+reconfiguring the underlying architecture of the system's data
+loading process, as well as upgrading the clustering hardware
+responsible for managing the loading
+- Creating an API-based microservice in order to simulate the behavior
+of a Social Security Administration system, which was needed for
+third-party API integration testing
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Helped relaunch E-Verify in April of 2018
-    </li>
-
-    <li>
-      Migrated 225 million historical cases into the Elasticsearch
-      datastore for efficient, fast-searching capability
-    </li>
-
-    <li>
-      Improved the speed of verification for over 800,000 enrolled employers
-    </li>
-  </ul>
+- Helped relaunch E-Verify in April of 2018
+- Migrated 225 million historical cases into the Elasticsearch
+datastore for efficient, fast-searching capability
+- Improved the speed of verification for over 800,000 enrolled employers
 {% endcapture %}
 
 {% include project.html

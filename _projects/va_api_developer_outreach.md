@@ -31,63 +31,37 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The Veterans Affairs' (VA's) API Platform Management team wanted to increase
-    adoption of their APIs. We delivered them a comprehensive research report
-    on how to accomplish that, based on a combination of our own expertise and
-    information gathered from interviewing leading organizations.
-  </p>
+The Veterans Affairs' (VA's) API Platform Management team wanted to increase
+adoption of their APIs. We delivered them a comprehensive research report
+on how to accomplish that, based on a combination of our own expertise and
+information gathered from interviewing leading organizations.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    Recognizing that simply making datasets and APIs available doesn't guarantee
-    success, the VA wanted to expand the adoption of their APIs. They needed
-    insight into how to build and sustain an effective developer outreach program.
-  </p>
+Recognizing that simply making datasets and APIs available doesn't guarantee
+success, the VA wanted to expand the adoption of their APIs. They needed
+insight into how to build and sustain an effective developer outreach program.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this challenge, we conducted a research process that involved:
-  </p>
+To address this challenge, we conducted a research process that involved:
 
-  <ul>
-    <li>
-      Mining information related to API developer outreach from our decade's worth of
-      existing primary and secondary research, which amounts to over 3,000 API-related articles
-    </li>
-
-    <li>
-      Augmenting this research by interviewing key people responsible for API developer
-      outreach at a diverse number of public- and private-sector organizations
-    </li>
-
-    <li>
-      Analyzing and synthesizing our research information into a comprehensive report on
-      API developer outreach best practices, covering topic areas such as funnel metrics
-      and developer sandbox environments
-    </li>
-  </ul>
+- Mining information related to API developer outreach from our decade's worth of
+existing primary and secondary research, which amounts to over 3,000 API-related articles
+- Augmenting this research by interviewing key people responsible for API developer
+outreach at a diverse number of public- and private-sector organizations
+- Analyzing and synthesizing our research information into a comprehensive report on
+API developer outreach best practices, covering topic areas such as funnel metrics
+and developer sandbox environments
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Delivered the project under the federal procurement micropurchase threshold of $10,000
-    </li>
-
-    <li>
-      Interviewed seven different organizations, including the Centers for
-      Medicare & Medicaid Services' Blue Button API program, the Census Bureau,
-      OpenFEC, and more
-    </li>
-
-    <li>
-      Published the report in the open and with no copyright, making it free to anyone
-      who wants to learn from and reuse the content
-    </li>
-  </ul>
+- Delivered the project under the federal procurement micropurchase threshold of $10,000
+- Interviewed seven different organizations, including the Centers for
+Medicare & Medicaid Services' Blue Button API program, the Census Bureau,
+OpenFEC, and more
+- Published the report in the open and with no copyright, making it free to anyone
+who wants to learn from and reuse the content
 {% endcapture %}
 
 {% include project.html

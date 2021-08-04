@@ -57,99 +57,60 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The Connecticut Office of Early Childhood (OEC) engaged us to transform their
-    web presence into a single, user-focused homepage with clear pathways for different
-    users to access the information and resources they need.
-  </p>
+The Connecticut Office of Early Childhood (OEC) engaged us to transform their
+web presence into a single, user-focused homepage with clear pathways for different
+users to access the information and resources they need.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    A well-designed digital home is critical for providing information and services
-    that meet user needs and expectations. OEC had an out-of-date web presence that
-    made it difficult for users to access the important resources that OEC provides
-    to support young children and their families.
-  </p>
+A well-designed digital home is critical for providing information and services
+that meet user needs and expectations. OEC had an out-of-date web presence that
+made it difficult for users to access the important resources that OEC provides
+to support young children and their families.
 
-  <p>
-    Feedback from users made it clear that the site was hard to use and frustrating
-    for the audiences that need it the most — childcare providers, families,
-    and even OEC staff. Some of the most pressing issues included outdated forms,
-    confusing language, and a desktop-only experience.
-  </p>
+Feedback from users made it clear that the site was hard to use and frustrating
+for the audiences that need it the most — childcare providers, families,
+and even OEC staff. Some of the most pressing issues included outdated forms,
+confusing language, and a desktop-only experience.
+
 {% include callout.html
   type = "pullquote"
   content = "The forms online, many of them are outdated. So I don't look online."
   cite_name = "Research participant"
 %}
 
-  <p>
-    This was a clear challenge for OEC in advancing its mission to support young
-    children across the state.
-  </p>
+This was a clear challenge for OEC in advancing its mission to support young
+children across the state.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this challenge, we engaged OEC in an agile, user-centered
-    process to support the redesign of their website. This process involved
-    collaborating with dozens of OEC users and stakeholders to create a solution that:
-  </p>
+To address this challenge, we engaged OEC in an agile, user-centered
+process to support the redesign of their website. This process involved
+collaborating with dozens of OEC users and stakeholders to create a solution that:
 
-  <ul>
-    <li>
-      Meets a diversity of complex user needs through extensive user research
-    </li>
-
-    <li>
-      Makes it easier to search, navigate, and access critical information and resources
-      — such as where to find high-quality childcare providers and how to become a
-      licensed childcare provider — from a single, user-focused homepage
-    </li>
-
-    <li>
-      Supports both mobile and desktop experiences
-    </li>
-
-    <li>
-      Leverages cost-effective, open-source technologies
-    </li>
-
-    <li>
-      Supports incremental releases of website content so value can start being
-      realized sooner rather than later
-    </li>
-
-    <li>
-      Is maintainable by internal staff through easy-to-use content management tools,
-      <a href="https://www.ctoec.org/oec-staff-website-support/style-guide/">content guidelines</a>,
-      and content design and management training
-    </li>
-  </ul>
+- Meets a diversity of complex user needs through extensive user research
+- Makes it easier to search, navigate, and access critical information and resources
+  — such as where to find high-quality childcare providers and how to become a
+  licensed childcare provider — from a single, user-focused homepage
+- Supports both mobile and desktop experiences
+  Supports incremental releases of website content so value can start being
+  realized sooner rather than later
+- Is maintainable by internal staff through easy-to-use content management tools,
+  <a href="https://www.ctoec.org/oec-staff-website-support/style-guide/">content guidelines</a>,
+  and content design and management training
 
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Incrementally delivered a newly-designed, responsive website in alignment
-      with user tasks, goals, and needs
-    </li>
-
-    <li>
-      Fully cut over to the new site in May 2020, which has
-      continually received positive user feedback and attracted
-      3x more daily visitors than the old site
-    </li>
-
-    <li>
-      Enabled OEC to be one of the first agencies within the State of
-      Connecticut to deliver timely, critical
-      <a href="https://www.ctoec.org/covid-19">online information related to COVID</a>,
-      which has averaged 2,000 page views per day
-    </li>
-  </ul>
+- Incrementally delivered a newly-designed, responsive website in alignment
+  with user tasks, goals, and needs
+- Fully cut over to the new site in May 2020, which has
+  continually received positive user feedback and attracted
+  3x more daily visitors than the old site
+- Enabled OEC to be one of the first agencies within the State of
+  Connecticut to deliver timely, critical
+  <a href="https://www.ctoec.org/covid-19">online information related to COVID</a>,
+  which has averaged 2,000 page views per day
 
  {% include callout.html
   type = "pullquote"

@@ -64,119 +64,65 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The U.S. Air Force's (USAF's) Aviation Resource Management System (ARMS) is a critical
-    tool for collecting, managing, and reporting data about aviation resources and aircrew
-    readiness. As a subcontractor to Fearless, we're helping to revamp the user experience,
-    technical architecture, and technology stack of this complex legacy system.
-  </p>
+The U.S. Air Force's (USAF's) Aviation Resource Management System (ARMS) is a critical
+tool for collecting, managing, and reporting data about aviation resources and aircrew
+readiness. As a subcontractor to Fearless, we're helping to revamp the user experience,
+technical architecture, and technology stack of this complex legacy system.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    ARMS is a mission-critical application that the USAF uses to track and manage flight
-    data for about 65,000 aircrew and parachutists — including flying hours, flight and
-    jump schedules, readiness information, and training and evaluation. It consists of
-    seven different functional modules, such as Jumps (jump training records management)
-    and Training (student profile management and accomplishments).
-  </p>
+ARMS is a mission-critical application that the USAF uses to track and manage flight
+data for about 65,000 aircrew and parachutists — including flying hours, flight and
+jump schedules, readiness information, and training and evaluation. It consists of
+seven different functional modules, such as Jumps (jump training records management)
+and Training (student profile management and accomplishments).
 
-  <p>
-    About 2,800 aviation resource managers rely on ARMS to perform over two million transactions
-    per week. These users experience multiple pain points because of how the existing system
-    was originally built, including:
-  </p>
+About 2,800 aviation resource managers rely on ARMS to perform over two million transactions
+per week. These users experience multiple pain points because of how the existing system
+was originally built, including:
 
-  <ul>
-    <li>
-      The information architecture and interaction design make it difficult to complete
-      tasks efficiently and effectively
-    </li>
+- The information architecture and interaction design make it difficult to complete
+tasks efficiently and effectively
+- Each Air Force base has a separate database, so individuals' training data doesn't
+transfer when they go to a new base
+- Parts of the system don't sync in real time, creating a problem for go-no-go
+determinations (such as whether it's safe for a parachutist to jump)
+- Older servers weren't designed for current loads, and crashes require going back to
+pen-and-paper forms
+- The slow speed of running reports eats up a lot of valuable time
 
-    <li>
-      Each Air Force base has a separate database, so individuals' training data doesn't
-      transfer when they go to a new base
-    </li>
-
-    <li>
-      Parts of the system don't sync in real time, creating a problem for go-no-go
-      determinations (such as whether it's safe for a parachutist to jump)
-    </li>
-
-    <li>
-      Older servers weren't designed for current loads, and crashes require going back to
-      pen-and-paper forms
-    </li>
-
-    <li>
-      The slow speed of running reports eats up a lot of valuable time
-    </li>
-  </ul>
-
-  <p>
-    Because of these issues, the USAF decided to modernize ARMS. And sought an experienced
-    digital team who could help do so in a way that delivers immediate value and safeguards
-    continuity of mission operations.
-  </p>
+Because of these issues, the USAF decided to modernize ARMS. And sought an experienced
+digital team who could help do so in a way that delivers immediate value and safeguards
+continuity of mission operations.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we're working together
-    with the ARMS program team to incrementally build out a new system alongside the old one,
-    until all its key functionalities are replaced — a proven architectural approach known
-    as the <a href="https://martinfowler.com/bliki/StranglerFigApplication.html">strangler pattern</a>.
-  </p>
+As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we're working together
+with the ARMS program team to incrementally build out a new system alongside the old one,
+until all its key functionalities are replaced — a proven architectural approach known
+as the <a href="https://martinfowler.com/bliki/StranglerFigApplication.html">strangler pattern</a>.
 
-  <p>
-    After conducting extensive user research and technical discovery, we decided that the best
-    place to start the modernization process is with the Jumps Module. Aviation resource
-    managers use this module to manage the jump training records of parachutists. We
-    re-engineered this functionality as a separate application, an effort which involved:
-  </p>
+After conducting extensive user research and technical discovery, we decided that the best
+place to start the modernization process is with the Jumps Module. Aviation resource
+managers use this module to manage the jump training records of parachutists. We
+re-engineered this functionality as a separate application, an effort which involved:
 
-  <ul>
-    <li>
-      Redesigning the user experience to better meet the needs of aviation resource managers
-    </li>
+- Redesigning the user experience to better meet the needs of aviation resource managers
+- Rebuilding it using a modern technical architecture and technology stack
+- Interfacing with the old component to migrate and keep data synchronized until
+it's no longer needed and can be decommissioned
 
-    <li>
-      Rebuilding it using a modern technical architecture and technology stack
-    </li>
-
-    <li>
-      Revamping the legacy business rules, such as removing those no longer needed
-    </li>
-
-    <li>
-      Interfacing with the old component to migrate and keep data synchronized until
-      it's no longer needed and can be decommissioned
-    </li>
-  </ul>
-
-  <p>
-    This new application serves as a resusable infrastructure for accelerating the
-    modernization of the other six modules and eventually all of ARMS, so the old
-    one can be retired.
-  </p>
+This new application serves as a resusable infrastructure for accelerating the
+modernization of the other six modules and eventually all of ARMS, so the old
+one can be retired.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Rapidly developed a prototype of the new Jumps Module to demonstrate the
-      feasibility of our modernization approach, earning stakeholder buy-in
-    </li>
-
-    <li>
-      Preparing to launch a production version of the new application
-    </li>
-
-    <li>
-      Beginning the process of modernizing the other modules of ARMS,
-      starting with user research and technical discovery
-    </li>
-  </ul>
+- Rapidly developed a prototype of the new Jumps Module to demonstrate the
+feasibility of our modernization approach, earning stakeholder buy-in
+- Preparing to launch a production version of the new application- i>
+Beginning the process of modernizing the other modules of ARMS,
+starting with user research and technical discovery
 {% endcapture %}
 
 {% include project.html

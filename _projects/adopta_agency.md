@@ -36,67 +36,46 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    <a href="http://adopta.agency/">Adopta.Agency</a> is a civic movement designed
-    around an <a href="http://adopta-agency.github.io/adopta-blueprint/">open blueprint process</a>
-    that enables anyone to target an open government dataset, and move it forward one step by
-    producing JSON, and two steps forward by launching an open API.
-  </p>
+<a href="http://adopta.agency/">Adopta.Agency</a> is a civic movement designed
+around an <a href="http://adopta-agency.github.io/adopta-blueprint/">open blueprint process</a>
+that enables anyone to target an open government dataset, and move it forward one step by
+producing JSON, and two steps forward by launching an open API.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    Following the implementation of the White House's
-    <a href="https://project-open-data.cio.gov/policy-memo/">Open Data Policy</a>,
-    federal agencies produced thousands of open datasets, many of which needed
-    cleaning-up and translation into a JSON format for reuse in other applications.
-    Given the enormity of this undertaking, public stakeholders needed an innovative
-    model for scaling the evolution of the government's open datasets.
-  </p>
+Following the implementation of the White House's
+<a href="https://project-open-data.cio.gov/policy-memo/">Open Data Policy</a>,
+federal agencies produced thousands of open datasets, many of which needed
+cleaning-up and translation into a JSON format for reuse in other applications.
+Given the enormity of this undertaking, public stakeholders needed an innovative
+model for scaling the evolution of the government's open datasets.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this challenge, Kin Lane established
-    <a href="http://adopta.agency/">Adopta.Agency</a>,
-    a civic movement based upon a civic-crowdsourcing model for
-    evolving the government's open data. Crowdsourcing is facilitated
-    via an <a href="http://adopta-agency.github.io/adopta-blueprint/">open blueprint process</a>
-    that runs on GitHub and provides step-by-step guidance to anyone who
-    wants to "adopt" and improve an open government dataset.
+To address this challenge, Kin Lane established
+<a href="http://adopta.agency/">Adopta.Agency</a>,
+a civic movement based upon a civic-crowdsourcing model for
+evolving the government's open data. Crowdsourcing is facilitated
+via an <a href="http://adopta-agency.github.io/adopta-blueprint/">open blueprint process</a>
+that runs on GitHub and provides step-by-step guidance to anyone who
+wants to "adopt" and improve an open government dataset.
 
-  </p>
 
-  <p>
-    As part of this work, Kin obtained <a href="http://kinlane.com/2016/01/22/overview-of-my-knight-funded-adoptaagency-project/">grant funding from the Knight Foundation to create a prototype</a>
-    that focused on identifying, improving, and making datasets more accessible
-    and shareable. The prototype was applied to five separate open
-    government datasets that resulted in five blueprint patterns, all of
-    which are available on GitHub for reuse in other open government
-    dataset adoptions.
-  </p>
+As part of this work, Kin obtained <a href="http://kinlane.com/2016/01/22/overview-of-my-knight-funded-adoptaagency-project/">grant funding from the Knight Foundation to create a prototype</a>
+that focused on identifying, improving, and making datasets more accessible
+and shareable. The prototype was applied to five separate open
+government datasets that resulted in five blueprint patterns, all of
+which are available on GitHub for reuse in other open government
+dataset adoptions.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Obtained grant funding from the Knight Foundation
-    </li>
-
-    <li>
-      Developed the Adopta.Agency blueprint process
-    </li>
-
-    <li>
-      Applied the blueprint to five federal datasets, including U.S.
-      Federal Budget, Veterans Affairs Open Data Portal, Department
-      of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov
-    </li>
-
-    <li>
-      Developed five reusable blueprint patterns from those adoptions
-    </li>
-  </ul>
+- Obtained grant funding from the Knight Foundation
+- Developed the Adopta.Agency blueprint process
+- Applied the blueprint to five federal datasets, including U.S.
+  Federal Budget, Veterans Affairs Open Data Portal, Department
+  of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov
+- Developed five reusable blueprint patterns from those adoptions
 {% endcapture %}
 
 {% include project.html
