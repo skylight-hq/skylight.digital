@@ -35,7 +35,7 @@ news_posts:
   - title: How protosketching can help digital development
     url: https://gcn.com/articles/2015/01/16/protosketching-18f.aspx
   - title: Ready-2-Serve (R2S)
-    url: https://www.youtube.com/watch?v=-3l4Kulqq5I
+    url: https://youtube.com/watch?v=-3l4Kulqq5I
 project_url:
 project_cta:
 source_code_url:

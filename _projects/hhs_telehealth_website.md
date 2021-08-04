@@ -57,7 +57,7 @@ practices:
   - DevOps
 news_posts:
   - title: COVID-19 | Five Things to Know About Telehealth During the COVID-19 Pandemic
-    url: https://www.youtube.com/embed/1gK1dfWUKsA?rel=0
+    url: https://youtube.com/embed/1gK1dfWUKsA?rel=0
   - title: Health Providers&#58; Join the Telehealth Revolution
     url: https://www.hiv.gov/blog/health-providers-join-telehealth-revolution
   - title: Product lessons from the front lines of COVID-19 civic tech response

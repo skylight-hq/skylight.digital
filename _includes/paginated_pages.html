@@ -117,7 +117,7 @@
                 class="embed-responsive-item"
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/{{ item.link }}"
+                src="https://youtube.com/embed/{{ item.link }}"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
@@ -140,7 +140,7 @@
         </p>
         <h4 class="kicker mb-1">Event</h4>
         <p class="font-sm">{{ item.event }}</p>
-        <a class="font-sm font-mono" href="https://www.youtube.com/watch?v=_eGtm66_X9E" target="_blank">
+        <a class="font-sm font-mono" href="https://youtube.com/watch?v=_eGtm66_X9E" target="_blank">
           {% if item.type == "video" %}
             Watch video
           {% elsif item.type == "podcast" %}
@@ -158,7 +158,7 @@
         <article class="blog-post-col" id="{{ item.title | slugify }}">
           <div
             class="blog-post-card card-link"
-            data-href="{% if item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ item.link }}"
+            data-href="{% if item.type == "video" %}https://youtube.com/watch?v={% endif %}{{ item.link }}"
             data-target="_blank"
             tabindex="0"
           >
@@ -176,7 +176,7 @@
                 class="embed-responsive-item"
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/{{ item.link }}"
+                src="https://youtube.com/embed/{{ item.link }}"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
