@@ -101,7 +101,7 @@ understand whether telehealth meets their needs and how to take advantage of it.
 
 {% capture solution %}
 Our team quickly moved from concept to working code. In just a few weeks, we launched
-<a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a> — a website to help medical
+[Telehealth.HHS.gov](https://telehealth.hhs.gov/) — a website to help medical
 providers and the public ("patients") navigate telehealth options in the midst of a peaking pandemic.
 
 Luckily, we weren't starting <em>completely</em> from scratch. We leveraged robust open-source tools
