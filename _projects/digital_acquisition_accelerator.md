@@ -42,59 +42,35 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    As part of the White House's Office of Management and Budget's Acquisition
-    Innovation Labs initiative, the Digital Acquisition Accelerator was a pilot training program
-    designed to accelerate the development of digital acquisition experts across the government.
-  </p>
+As part of the White House's Office of Management and Budget's Acquisition
+Innovation Labs initiative, the Digital Acquisition Accelerator was a pilot training program
+designed to accelerate the development of digital acquisition experts across the government.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    The modern delivery of information technology, including human-centered design,
-    lean-agile development, open-source software, and cloud computing, all represent
-    fundamentally new ways of procuring products and services from the vendor community.
-    But how do you induce the necessary institutional changes at the scale of government?
-  </p>
+The modern delivery of information technology, including human-centered design,
+lean-agile development, open-source software, and cloud computing, all represent
+fundamentally new ways of procuring products and services from the vendor community.
+But how do you induce the necessary institutional changes at the scale of government?
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this challenge, Chris Cairns and Shashank Khandelwal architected and
-    led a "train-the-trainer" program designed to help agencies establish their own
-    multidisciplinary team of digital acquisition experts.
-  </p>
+To address this challenge, Chris Cairns and Shashank Khandelwal architected and
+led a "train-the-trainer" program designed to help agencies establish their own
+multidisciplinary team of digital acquisition experts.
 
-  <p>
-    The program brought together expert trainers and coaches
-    from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service
-    (the first-ever such cross-organizational collaboration) who worked with agencies
-    to assemble their teams and build up their expertise through a variety of development
-    techniques, including classroom training, hands-on learning (involving
-    real-world acquisitions), and knowledge capture and sharing.
-  </p>
+The program brought together expert trainers and coaches
+from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service
+(the first-ever such cross-organizational collaboration) who worked with agencies
+to assemble their teams and build up their expertise through a variety of development
+techniques, including classroom training, hands-on learning (involving
+real-world acquisitions), and knowledge capture and sharing.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Pilot program announced to all agencies via formal memo from the White
-      House's Office of Management and Budget
-    </li>
-
-    <li>
-      Over a dozen agencies applied to participate
-    </li>
-
-    <li>
-      Delivered training to two agencies
-    </li>
-
-    <li>
-      Produced first-ever, government-wide guidance on digital
-      acquisitions ("Digital Acquisition Playbook")
-    </li>
-  </ul>
+- Pilot program announced to all agencies via formal memo from the White House's Office of Management and Budget
+- Over a dozen agencies applied to participate
+- Produced first-ever, government-wide guidance on digital acquisitions ("Digital Acquisition Playbook")
 {% endcapture %}
 
 {% include project.html

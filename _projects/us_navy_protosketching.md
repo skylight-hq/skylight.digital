@@ -42,35 +42,29 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    To introduce the Navy Reserve's Ready-2-Serve (R2S) project team to modern
-    development practices and technologies, we implemented a mobile website
-    in a single afternoon that mocked the functionality of what was really needed.
-    This enabled critical design and technology decisions to be made rapidly.
-  </p>
+To introduce the Navy Reserve's Ready-2-Serve (R2S) project team to modern
+development practices and technologies, we implemented a mobile website
+in a single afternoon that mocked the functionality of what was really needed.
+This enabled critical design and technology decisions to be made rapidly.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    The Navy Reserve had a critical need to improve the digital experience of
-    sailors writing orders for their reserve duties. Making this functionality accessible
-    via mobile devices was a critical requirement, but whether to do this via native
-    mobile apps or responsive web design remained an open question.
-  </p>
+The Navy Reserve had a critical need to improve the digital experience of
+sailors writing orders for their reserve duties. Making this functionality accessible
+via mobile devices was a critical requirement, but whether to do this via native
+mobile apps or responsive web design remained an open question.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    Using a technique that we pioneered, called "<a href="https://18f.gsa.gov/2015/01/06/protosketch/">protosketching</a>,"
-    we broke the afternoon into three sprints of one hour each. In this space of time, we were
-    able to quickly write user stories that were acted upon by our programmers in the
-    protosketching session to complete a functional mock-up in three hours. This allowed the
-    Navy to make informed decisions on the mobile product strategy for R2S.
-  </p>
+Using a technique that we pioneered, called "<a href="https://18f.gsa.gov/2015/01/06/protosketch/">protosketching</a>,"
+we broke the afternoon into three sprints of one hour each. In this space of time, we were
+able to quickly write user stories that were acted upon by our programmers in the
+protosketching session to complete a functional mock-up in three hours. This allowed the
+Navy to make informed decisions on the mobile product strategy for R2S.
 {% endcapture %}
 
 {% capture results %}
-  <p>Major project decisions were de-risked at relatively low cost.</p>
+Major project decisions were de-risked at relatively low cost.
 {% endcapture %}
 
 {% include project.html

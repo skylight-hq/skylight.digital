@@ -40,58 +40,38 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The Centers for Medicare & Medicaid Services (CMS) recently undertook an initiative
-    called the Internet Quality Improvement and Evaluation System (iQIES). The purpose of
-    iQIES is to replace the existing legacy, desktop-based system with a modernized,
-    web-based version. The current legacy system is used by healthcare providers
-    (such as nursing homes) to submit quality-of-care assessment information.
-    That information is then used by state agencies and CMS to evaluate and improve
-    the quality of those providers. In support of this modernization effort, we engaged
-    as a subcontractor to Ventera and provided critical design and technical expertise.
-  </p>
+The Centers for Medicare & Medicaid Services (CMS) recently undertook an initiative
+called the Internet Quality Improvement and Evaluation System (iQIES). The purpose of
+iQIES is to replace the existing legacy, desktop-based system with a modernized,
+web-based version. The current legacy system is used by healthcare providers
+(such as nursing homes) to submit quality-of-care assessment information.
+That information is then used by state agencies and CMS to evaluate and improve
+the quality of those providers. In support of this modernization effort, we engaged
+as a subcontractor to Ventera and provided critical design and technical expertise.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    CMS' iQIES initiative is a complex, large-scale modernization effort aimed at
-    replacing the existing legacy system. A major challenge with this initiative
-    has been the need to maintain operational continuity while at the same time
-    modernizing the user experience, the technical architecture, and the technology stack.
-  </p>
+CMS' iQIES initiative is a complex, large-scale modernization effort aimed at
+replacing the existing legacy system. A major challenge with this initiative
+has been the need to maintain operational continuity while at the same time
+modernizing the user experience, the technical architecture, and the technology stack.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    As a subcontractor to <a href="https://ventera.com/">Ventera</a>, we helped support the iQIES
-    initiative in several key areas, including:
-  </p>
+As a subcontractor to <a href="https://ventera.com/">Ventera</a>, we helped support the iQIES
+initiative in several key areas, including:
 
-  <ul>
-    <li>
-      Provided design leadership to continually improve how user research, user
-      experience design, and engineering teams engaged in the process of
-      user-centered design
-    </li>
-
-    <li>
-      Established a collaborative design platform aimed at constantly reinforcing the
-      principles and practices of user-centered design
-    </li>
-
-    <li>
-      Engineered the frontend experience of the application
-    </li>
-  </ul>
+- Provided design leadership to continually improve how user research, user
+  experience design, and engineering teams engaged in the process of
+  user-centered design
+- Established a collaborative design platform aimed at constantly reinforcing the
+  principles and practices of user-centered design
+- Engineered the frontend experience of the application
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Injected user-centered design principles and practices into the overall delivery
-      process, without slowing down production
-    </li>
-  </ul>
+- Injected user-centered design principles and practices into the overall delivery
+  process, without slowing down production
 {% endcapture %}
 
 {% include project.html

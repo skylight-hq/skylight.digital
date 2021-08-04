@@ -54,7 +54,7 @@ Unfortunately, I can't flip a switch and make procurement officials more empathe
 
 With greater empathy, I speculate you'd see government officials design more tech challenges that feature:
 
-* Smart tests that only take a few days for a vendor to respond to, and yield the minimum amount of information necessary for the government to conduct a reliable evaluation (I've referred to this [elsewhere](https://18f.gsa.gov/2015/11/18/the-current-future-of-18f-marketplaces/) as the principle of minimally sufficient evaluation criteria over completely exhaustive evaluation criteria).
+* Smart tests that only take a few days for a vendor to respond to and yield the minimum amount of information necessary for the government to conduct a reliable evaluation. (I've referred to this [elsewhere](https://18f.gsa.gov/2015/11/18/the-current-future-of-18f-marketplaces/) as the principle of minimally sufficient evaluation criteria over completely exhaustive evaluation criteria.)
 * Remunerating vendors for participating in tech challenges that legitimately require significant investment of time and effort, such as what the Health and Human Services' [Buyers Club did](https://www.slideshare.net/slideshow/embed_code/key/vwnYKHwhR4xTnv).
 * Reliable timelines so vendors know when to be prepared, how to be prepared, and for how long in advance.
 * Extensive upfront input from industry that shapes how the tech challenge is designed, with the aim of maximizing vendor participation and thus competition.
