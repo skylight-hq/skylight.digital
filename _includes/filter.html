@@ -45,15 +45,16 @@ include.context %} {% capture filter_title_markup %}
       <article class="filter-item">
         <h2 class="filter-item-title header-display-3">
           <a class="filter-item-link"
-            href="
               {% if site.talks %}
-                {% if filtered_item.type == "video" %}https://www.youtube.com/watch?v={% endif %}{{ filtered_item.link }}
+                {% if filtered_item.link %}
+                  href="{% if filtered_item.type == "video" %}https://youtube.com/watch?v={% endif %}{{ filtered_item.link }}"
+                {% else %}
+                  href="{{filtered_item.permalink}}"
+                {% endif %}
               {% else %}
-                {{filtered_item.permalink}}
+                href="{{filtered_item.permalink}}"
               {% endif %}
-            "
-            >{{filtered_item.title}}</a
-          >
+            >{{filtered_item.title}}</a>
         </h2>
         {% if filtered_item.subtitle %} {% assign filtered_item_desc =
         filtered_item.subtitle %} {% elsif filtered_item.description %} {% assign filtered_item_desc =
