@@ -48,7 +48,7 @@ to act fast.
 {% endcapture %}
 
 {% capture solution %}
-Leveraging <a href="/work/toolkits/accessibility-guide/">Skylight's Accessibility Guide</a>,
+Leveraging [Skylight's Accessibility Guide](/work/toolkits/accessibility-guide/),
 we kicked off the project with a compliance audit of the conference website's accessibility deficiencies
 and generated a report of pressing issues. The audit included a review of images,
 colors, contrast ratios, outlines, and other content. Working with the internal team,

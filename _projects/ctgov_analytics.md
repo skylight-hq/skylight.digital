@@ -51,9 +51,9 @@ sure if they were following best practices.
 
 {% capture solution %}
 Members of our team were originally instrumental in developing
-<a href="https://analytics.usa.gov/">analytics.usa.gov</a>,
+[analytics.usa.gov](https://analytics.usa.gov/),
 and knew they could reuse the
-<a href="https://github.com/18F/analytics.usa.gov">open-source code</a>
+[open-source code](https://github.com/18F/analytics.usa.gov)
 to develop a similar tool for the State of Connecticut. The original open-source
 analytics tool wasn't developed for a Windows environment so we used this development
 project as a way to coach the team on software development best practices.

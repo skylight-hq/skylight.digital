@@ -83,9 +83,9 @@ approaches:
 
 - A "show, don't tell" or "prototype-as-proposal" approach in which vendors
   were required to submit working prototypes (over written narratives)
-  using <a href="https://open.fda.gov/">openFDA</a> as the
+  using [openFDA](https://open.fda.gov/) as the
   basis for evaluating capabilities
-- A <a href="/thoughts/blog/public-domain-procurement/">robust contractual clause</a>
+- A [robust contractual clause](/thoughts/blog/public-domain-procurement/)
   that, by default, requires all vendors to agree to commit all data,
   source code, and documentation produced for the government to the public domain
 - Combination of a blanket purchase agreement contract type under IT Schedule 70,

@@ -44,7 +44,7 @@ and quality when building digital products.
 BESPIN is one of the USAF's strategic digital solution centers, along with Kessel Run,
 SpaceCAMP, and others. BESPIN's mission is to deliver digital transformation outcomes
 for partner organizations throughout the USAF and the broader defense community —
-including the <a href="https://www.airforcebes.af.mil/">Business Enterprise Systems Directorate</a>,
+including the [Business Enterprise Systems Directorate](https://www.airforcebes.af.mil/),
 which manages a billion-dollar portfolio of IT systems supporting enterprise-wide
 functions such as finance, logistics, and human resources.
 
@@ -85,7 +85,7 @@ design system tailored to the unique needs of their design environment.
 {% capture solution %}
 To create an organizational-wide design system for BESPIN, we started off by
 conducting research to learn more about their designers' needs, pain points,
-workflow processes, and tools. From <a href="/thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/">our team's experience in building robust design systems</a>,
+workflow processes, and tools. From [our team's experience in building robust design systems](/thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/),
 such as the U.S. Web Design System, we know that identifying
 common patterns in the current design environment is critical for being able
 to pinpoint high-impact opportunities for improvement.
@@ -117,8 +117,10 @@ to the needs of the project
 - Takes into account Air Force-specific design patterns, particularly complex
 mobile use cases
 
-<img src="/img/projects/usaf_bespin_design_system/project-design-system.svg" alt="Illustrates how a design system serves as for the foundation for a web design system and a mobile design system, from which project design systems can be created for specific auidences.">
-<p class="caption">Source: Modified from <a href="https://spotify.design/article/reimagining-design-systems-at-spotify">Spotify</a></p>
+![Illustrates how a design system serves as for the foundation for a web design system and a mobile design system, from which project design systems can be created for specific auidences.](/img/projects/usaf_bespin_design_system/project-design-system.svg){: .mb-0 }
+
+Source: Modified from [Spotify](https://spotify.design/article/reimagining-design-systems-at-spotify)
+{: .caption }
 
 The next phase of our work will focus on creating a comprehensive design system
 with BESPIN based on the above considerations, enabling teams to build products

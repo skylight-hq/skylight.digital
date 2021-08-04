@@ -86,9 +86,9 @@ understand the full scope of the process to get to the U.S.
 {% capture solution %}
 To help USRAP prepare to admit 125,000 refugees in FY2022 (up from 15,000 in
 2020), our team, led by Ariana Berengaut, Director of the
-<a href="https://global.upenn.edu/penn-biden-center">Penn Biden Center</a> and
+[Penn Biden Center](https://global.upenn.edu/penn-biden-center) and
 Eric Hysen, senior fellow at the
-<a href="https://ncoc.org/">National Conference on Citizenship</a>, took a
+[National Conference on Citizenship](https://ncoc.org/), took a
 human-centered-design approach to formulating our recommendations. In dozens
 of video calls, we talked to experts responsible for shaping policy,
 implementing operations, or advocating for USRAP. We met with refugees who
@@ -126,19 +126,18 @@ journey map illustrating all steps and pain points along the way from the
 perspective of a refugee, something one person who'd worked on policy for
 years said they'd never seen before.
 
-<p class="border p-3">
-  <img
-    src="/img/projects/ncoc_refugee_admissions_research/refugee-admission-journey-map.png"
-    alt="A journey map of the refugee admission experience."
-  />
-<p class="caption">Source: Penn Biden Center/NCoC</p>
+![A journey map of the refugee admission experience.](/img/projects/ncoc_refugee_admissions_research/refugee-admission-journey-map.png){: .my-0 }
+{: .border .p-3 }
+
+Source: Penn Biden Center/NCoC
+{: .caption }
 {% endcapture %}
 
 {% capture results %}
 - Completed over 100 interviews with experts and stakeholders involved in
   shaping policy, implementing operations, or advocating for USRAP, as well as
   refugees who went through the process
-- Helped write a <a href="https://global.upenn.edu/penn-biden-center/refugee-admissions-project">50-page report</a> and <a href="https://global.upenn.edu/sites/default/files/penn-biden-center/Restoring%20U.S.%20Global%20Leadership%20on%20Refugee%20Protection.pdf">complementary paper</a>
+- Helped write a [50-page report](https://global.upenn.edu/penn-biden-center/refugee-admissions-project) and [complementary paper](https://global.upenn.edu/sites/default/files/penn-biden-center/Restoring%20U.S.%20Global%20Leadership%20on%20Refugee%20Protection.pdf)
 - Created a journey map of the U.S. Refugee Admissions Program from the
   perspective of a refugee
 - Two project leads were hired into the Biden Administration: (Eric Hysen as

@@ -120,7 +120,7 @@ reliable data to better evaluate outcomes.
 Additionally, in an effort to get useful working software into the hands of
 users as soon as possible, the design and development of the pilot integrates
 successful agile and iterative practices described in
-the <a href="https://playbook.cio.gov/#play4">U.S. Digital Services Playbook</a>.
+the [U.S. Digital Services Playbook](https://playbook.cio.gov/#play4).
 
 OEC envisions that this project will be used as a model for collecting and
 matching better data about the early development and education of every

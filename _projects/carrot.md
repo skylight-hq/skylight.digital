@@ -71,7 +71,7 @@ the leadership signal is getting lost in all the noise.
 {% capture solution %}
 To address this problem, Sean Johnson led the product development of Carrot,
 an asynchronous communication application for better team discussions.
-Realized as the open source <a href="https://github.com/open-company">OpenCompany</a>
+Realized as the open source [OpenCompany](https://github.com/open-company)
 platform, Carrot is designed to be as delightful and interactive as chat, but
 asynchronous so people can get caught up on their own time. This enables leaders
 to keep everyone focused on what matters most to build transparency, trust, and
