@@ -47,89 +47,51 @@ source_code_url: https://github.com/skylight-hq/va-api-scorecard
 ---
 
 {% capture summary %}
-  <p>
-    The Veterans Affairs needed to start preparing for how best to govern
-    their growing portfolio of APIs. So we delivered them a minimum viable
-    product (MVP) of an API Scorecard governance tool.
-  </p>
+The Veterans Affairs needed to start preparing for how best to govern
+their growing portfolio of APIs. So we delivered them a minimum viable
+product (MVP) of an API Scorecard governance tool.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    The VA recently launched an initiative called API Platform Management.
-    The purpose of this new enterprise-wide program is to transform how the
-    VA shares digital services through APIs. Success requires good API governance,
-    so VA leaders hypothesized that creating an API Scorecard tool for use by
-    teams and management could help with:
-  </p>
+The VA recently launched an initiative called API Platform Management.
+The purpose of this new enterprise-wide program is to transform how the
+VA shares digital services through APIs. Success requires good API governance,
+so VA leaders hypothesized that creating an API Scorecard tool for use by
+teams and management could help with:
 
-  <ul>
-    <li>
-      Establishing a common understanding of the VA's API delivery lifecycle and
-      what success looks like at each stage
-    </li>
+- Establishing a common understanding of the VA's API delivery lifecycle and
+what success looks like at each stage
+- Enabling teams to keep management informed of status, progress, and health,
+and alert them to any issues requiring special attention
+- Giving management visibility into how teams are doing, where they need help,
+and what governance decisions need to be made
+- Giving stakeholders insight into the value of the VA's portfolio of APIs- i>
+Reinforcing best practices among teams for delivering APIs successfully
 
-    <li>
-      Enabling teams to keep management informed of status, progress, and health,
-      and alert them to any issues requiring special attention
-    </li>
-
-    <li>
-      Giving management visibility into how teams are doing, where they need help,
-      and what governance decisions need to be made
-    </li>
-
-    <li>
-      Giving stakeholders insight into the value of the VA's portfolio of APIs
-    </li>
-
-    <li>
-      Reinforcing best practices among teams for delivering APIs successfully
-    </li>
-  </ul>
-
-  <p>
-    The VA needed a <em>lean</em> way to further flesh out and test this idea.
-  </p>
+The VA needed a <em>lean</em> way to further flesh out and test this idea.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this need, we assembled a cross-functional team with expertise in
-    UX design, software engineering, and API governance. Through a series of
-    rapid iterations, we created an MVP of the API Scorecard governance tool.
-  </p>
+To address this need, we assembled a cross-functional team with expertise in
+UX design, software engineering, and API governance. Through a series of
+rapid iterations, we created an MVP of the API Scorecard governance tool.
 
-  <p>
-    We used GitHub Pages to serve as a public frontend and private backend for
-    the application, a <a href="http://kinlane.com/2014/11/16/public-frontend-and-private-backend-for-my-sites-on-github/">technique pioneered by a member of the Skylight team</a>.
-    This approach avoided the additional time, cost, and complexity associated
-    with setting up a secure backend server environment, thus keeping things lean.
-  </p>
+We used GitHub Pages to serve as a public frontend and private backend for
+the application, a <a href="http://kinlane.com/2014/11/16/public-frontend-and-private-backend-for-my-sites-on-github/">technique pioneered by a member of the Skylight team</a>.
+This approach avoided the additional time, cost, and complexity associated
+with setting up a secure backend server environment, thus keeping things lean.
 
-  <p>
-    We also worked with the VA to not only define the stages of their
-    API lifecycle, but also the "delivery success criteria" that governs
-    how projects move from one stage to the next. We made both the stages
-    and the criteria configurable from with the application's YAML files.
-  </p>
+We also worked with the VA to not only define the stages of their
+API lifecycle, but also the "delivery success criteria" that governs
+how projects move from one stage to the next. We made both the stages
+and the criteria configurable from with the application's YAML files.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Delivered the MVP under the federal procurement micropurchase threshold of $10,000
-    </li>
-
-    <li>
-      Enabled the VA to begin experimenting with how best to govern their portfolio of APIs
-    </li>
-
-    <li>
-      Released all the source code in the open and with no copyright, making it
-      freely available for anyone to reuse
-    </li>
-  </ul>
+- Delivered the MVP under the federal procurement micropurchase threshold of $10,000
+- Enabled the VA to begin experimenting with how best to govern their portfolio of APIs
+- Released all the source code in the open and with no copyright, making it
+freely available for anyone to reuse
 {% endcapture %}
 
 {% include project.html

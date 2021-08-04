@@ -45,65 +45,46 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The Agile Acquisition Framework is a comprehensive framework for helping government
-    program teams make the paradigm shift from decades-old acquisition practices based on
-    waterfall to modern acquisition practices based on agile, resulting in faster delivery of
-    value, higher quality, and lower costs.
-  </p>
+The Agile Acquisition Framework is a comprehensive framework for helping government
+program teams make the paradigm shift from decades-old acquisition practices based on
+waterfall to modern acquisition practices based on agile, resulting in faster delivery of
+value, higher quality, and lower costs.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    Government program teams needed a completely new management model for
-    making the leap from traditional to agile acquisition practices, but no such
-    proven model existed.
-  </p>
+Government program teams needed a completely new management model for
+making the leap from traditional to agile acquisition practices, but no such
+proven model existed.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this need, Chris Cairns and Robert Read, as members of 18F, pioneered
-    the Agile Acquisition Framework, the government's first full-lifecycle approach
-    for executing agile acquisitions.
-  </p>
+To address this need, Chris Cairns and Robert Read, as members of 18F, pioneered
+the Agile Acquisition Framework, the government's first full-lifecycle approach
+for executing agile acquisitions.
 
-  <p>
-    Starting with an initial version, Chris and Robert iteratively refined the
-    framework through first-hand experience helping multiple acquisition programs
-    adopt it successfully.
-  </p>
+Starting with an initial version, Chris and Robert iteratively refined the
+framework through first-hand experience helping multiple acquisition programs
+adopt it successfully.
 
-  <p>
-    The framework's design uniquely combines proven practices from multiple disciplines
-    — such as user-centered design, lean startup, agile development, agile project
-    management, evolutionary architecture, open source, performance-based contracting,
-    and modular contracting — into a unified approach.
-  </p>
+The framework's design uniquely combines proven practices from multiple disciplines
+— such as user-centered design, lean startup, agile development, agile project
+management, evolutionary architecture, open source, performance-based contracting,
+and modular contracting — into a unified approach.
 
-  <p>
-    To scale the framework's adoption across government, Chris and Robert provided
-    training and coaching assistance to over a dozen professionals, who went on to
-    apply it successfully to their own acquisition programs.
-  </p>
+To scale the framework's adoption across government, Chris and Robert provided
+training and coaching assistance to over a dozen professionals, who went on to
+apply it successfully to their own acquisition programs.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Adopted by over a dozen federal and state & local programs whose contracted
-      efforts are consistently experiencing the full benefits of agile, including
-      Treasury's Digital Accountability and Transparency Act (DATA Act), Department of
-      Defense's Military OneSource, Social Security Administration's Disability Claims
-      Processing System, Environmental Protection Agency's Electronic Manifest System,
-      Navy's Ready-2-Serve, and State of California's Child Welfare System
-    </li>
-
-    <li>
-      Contributed to the avoidance of hundreds of millions of dollars in unnecessary
-      technology acquisition costs
-    </li>
-  </ul>
+- Adopted by over a dozen federal and state & local programs whose contracted
+  efforts are consistently experiencing the full benefits of agile, including
+  Treasury's Digital Accountability and Transparency Act (DATA Act), Department of
+  Defense's Military OneSource, Social Security Administration's Disability Claims
+  Processing System, Environmental Protection Agency's Electronic Manifest System,
+  Navy's Ready-2-Serve, and State of California's Child Welfare System
+- Contributed to the avoidance of hundreds of millions of dollars in unnecessary
+  technology acquisition costs
 {% endcapture %}
 
 {% include project.html

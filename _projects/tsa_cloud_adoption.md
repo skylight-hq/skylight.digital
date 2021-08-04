@@ -41,63 +41,37 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The Transportation Security Administration (TSA) Chief Information Officer (CIO)
-    needed help undertaking a broad cloud transformation initiative, so a specialized
-    team of site reliability engineers was provided to jumpstart the transition.
-  </p>
+The Transportation Security Administration (TSA) Chief Information Officer (CIO)
+needed help undertaking a broad cloud transformation initiative, so a specialized
+team of site reliability engineers was provided to jumpstart the transition.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    The TSA's CIO organization faced several issues associated with running its on-premise
-    IT infrastructure (such as high operating costs), which were going to be further
-    compounded by imminent budget cuts. The cloud presented a way out, but the organization
-    lacked in-depth experience operating in this new way.
-  </p>
+The TSA's CIO organization faced several issues associated with running its on-premise
+IT infrastructure (such as high operating costs), which were going to be further
+compounded by imminent budget cuts. The cloud presented a way out, but the organization
+lacked in-depth experience operating in this new way.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this challenge, Chris Cairns and Shashank Khandelwal, as a members of 18F, designed an approach to
-    kickstart the organization's adoption of a cloud-based operating model. This involved
-    pairing TSA with an expert team of site reliability engineers who:
-  </p>
+To address this challenge, Chris Cairns and Shashank Khandelwal, as a members of 18F, designed an approach to
+kickstart the organization's adoption of a cloud-based operating model. This involved
+pairing TSA with an expert team of site reliability engineers who:
 
-  <ul>
-    <li>
-      Introduced an agile-based approach to migrating the portfolio of applications
-      over a series of phases
-    </li>
-
-    <li>
-      Migrated two low-risk applications within a few months to give leadership immediate
-      insight into what changes needed to be made to the organization's structure, culture,
-      talent mix, practices, tooling, and vendor ecosystem
-    </li>
-
-    <li>
-      Showcased the value of combining cloud services with DevSecOps practices such as
-      infrastructure as code
-    </li>
-
-    <li>
-      Imparted cloud and DevOps competencies through training, coaching, and hiring support
-    </li>
-  </ul>
+- Introduced an agile-based approach to migrating the portfolio of applications
+over a series of phases
+- Migrated two low-risk applications within a few months to give leadership immediate
+insight into what changes needed to be made to the organization's structure, culture,
+talent mix, practices, tooling, and vendor ecosystem
+- Showcased the value of combining cloud services with DevSecOps practices such as
+infrastructure as code
+- Imparted cloud and DevOps competencies through training, coaching, and hiring support
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Jumpstarted movement to the cloud, which is projected to save tens of
-      millions of dollars to meet impending budget reductions
-    </li>
-
-    <li>
-      Inspired shift toward modern practices such as lean-agile and DevOps
-    </li>
-  </ul>
+- Jumpstarted movement to the cloud, which is projected to save tens of
+millions of dollars to meet impending budget reductions
+- Inspired shift toward modern practices such as lean-agile and DevOps
 {% endcapture %}
 
 {% include project.html

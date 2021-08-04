@@ -31,65 +31,39 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The Veterans Affairs' (VA's) API Platform Management team needed insight
-    into current best practices for API governance. So we delivered them a
-    comprehensive research report that drew on a combination of our own
-    expertise and information gathered from interviewing
-    leading organizations.
-  </p>
+The Veterans Affairs' (VA's) API Platform Management team needed insight
+into current best practices for API governance. So we delivered them a
+comprehensive research report that drew on a combination of our own
+expertise and information gathered from interviewing
+leading organizations.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    In preparation for gearing up the number of APIs delivered across the
-    enterprise, the VA's API Platform Management team needed to better
-    understand best practices for governing APIs, particularly given the
-    lack of formal research in this area.
-  </p>
+In preparation for gearing up the number of APIs delivered across the
+enterprise, the VA's API Platform Management team needed to better
+understand best practices for governing APIs, particularly given the
+lack of formal research in this area.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this challenge, we conducted a research process that involved:
-  </p>
+To address this challenge, we conducted a research process that involved:
 
-  <ul>
-    <li>
-      Mining information related to API governance from our decade's worth of
-      existing primary and secondary research, which amounts to over 3,000
-      API-related articles
-    </li>
-
-    <li>
-      Augmenting this research by interviewing key people responsible for
-      API governance at a diverse number of public- and private-sector organizations
-    </li>
-
-    <li>
-      Analyzing and synthesizing our research information into a comprehensive
-      report on API governance best practices, covering topic areas such as
-      organizational models and standards
-    </li>
-  </ul>
+- Mining information related to API governance from our decade's worth of
+existing primary and secondary research, which amounts to over 3,000
+API-related articles
+- Augmenting this research by interviewing key people responsible for
+API governance at a diverse number of public- and private-sector organizations
+- Analyzing and synthesizing our research information into a comprehensive
+report on API governance best practices, covering topic areas such as
+organizational models and standards
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Delivered the project under the federal procurement micropurchase threshold of $10,000
-    </li>
-
-    <li>
-      Interviewed seven different organizations, including the Government Digital
-      Service (UK), HM Revenue & Customs (UK), Capital One, and more
-    </li>
-
-    <li>
-      Published the report in the open and with no copyright, making it free to anyone
-      who wants to learn from and reuse the content
-    </li>
-  </ul>
+- Delivered the project under the federal procurement micropurchase threshold of $10,000
+- Interviewed seven different organizations, including the Government Digital
+Service (UK), HM Revenue & Customs (UK), Capital One, and more
+- Published the report in the open and with no copyright, making it free to anyone
+who wants to learn from and reuse the content
 {% endcapture %}
 
 {% include project.html

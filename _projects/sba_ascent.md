@@ -41,57 +41,41 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    To further their mission of helping small businesses succeed, the Small
-    Business Administration (SBA) needed a learning platform focused on
-    female entrepreneurs. We engaged as a subcontractor to Fearless to
-    deliver a technical solution that maximizes the use of an existing
-    open-source-software product without limiting the flexibility needed
-    to deliver a unique user experience.
-  </p>
+To further their mission of helping small businesses succeed, the Small
+Business Administration (SBA) needed a learning platform focused on
+female entrepreneurs. We engaged as a subcontractor to Fearless to
+deliver a technical solution that maximizes the use of an existing
+open-source-software product without limiting the flexibility needed
+to deliver a unique user experience.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    Female entrepreneurs start and own nearly half of all businesses in the U.S.,
-    employ 9.4 million workers, generate $1.9 trillion in revenue and represent
-    all industries. To help elevate their success, the SBA launched Ascent, a free
-    online learning platform based on an existing open-source content management system
-    (CMS) called Brightspot. A critical challenge was leveraging Brightspot in such a way as
-    to not only avoid constraining the design of the user experience to what's available
-    "out-of-the-box," but also to avoid the nightmare of having to maintain a
-    "custom-off-the-shelf-software" product.
-  </p>
+Female entrepreneurs start and own nearly half of all businesses in the U.S.,
+employ 9.4 million workers, generate $1.9 trillion in revenue and represent
+all industries. To help elevate their success, the SBA launched Ascent, a free
+online learning platform based on an existing open-source content management system
+(CMS) called Brightspot. A critical challenge was leveraging Brightspot in such a way as
+to not only avoid constraining the design of the user experience to what's available
+"out-of-the-box," but also to avoid the nightmare of having to maintain a
+"custom-off-the-shelf-software" product.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, our team provided
-    additional technical leadership around how best to address this challenge.
-    In particular, we helped architect and engineer a custom API wrapper that
-    programmatically makes calls into Brightspot, thereby leveraging its full feature set in
-    an independent way. This approach gave them the power to create a curated learning
-    experience for female entrepreneurs.
-  </p>
+As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, our team provided
+additional technical leadership around how best to address this challenge.
+In particular, we helped architect and engineer a custom API wrapper that
+programmatically makes calls into Brightspot, thereby leveraging its full feature set in
+an independent way. This approach gave them the power to create a curated learning
+experience for female entrepreneurs.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Demonstrated, using a spike solution, that a customized API would not only work
-      with Brightspot, but would also provide a robust front-end development
-      resource for the SBA
-    </li>
-
-    <li>
-      Delivered 11 modules of working content, including video, audio, downloadable
-      worksheets, interactive self-assessments, and more
-    </li>
-
-    <li>
-      Released to the public in January 2021
-    </li>
-  </ul>
+- Demonstrated, using a spike solution, that a customized API would not only work
+with Brightspot, but would also provide a robust front-end development
+resource for the SBA
+- Delivered 11 modules of working content, including video, audio, downloadable
+worksheets, interactive self-assessments, and more
+- Released to the public in January 2021
 {% endcapture %}
 
 {% include project.html

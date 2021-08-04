@@ -56,52 +56,32 @@ source_code_url: https://github.com/open-company
 ---
 
 {% capture summary %}
-  <p>
-    Carrot is an asynchronous communication application that reduces the noise of chat and
-    email so distributed teams can stay focused and informed with fewer interruptions.
-  </p>
+Carrot is an asynchronous communication application that reduces the noise of chat and
+email so distributed teams can stay focused and informed with fewer interruptions.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    In the age of Slack and fast-moving chat conversations, the lack of focus
-    and clarity is a huge problem in the workplace. Chat apps keep everyone
-    connected throughout the day, yet it's more difficult for teams to stay
-    aligned around the big picture of what's most important. The problem is
-    the leadership signal is getting lost in all the noise.
-  </p>
+In the age of Slack and fast-moving chat conversations, the lack of focus
+and clarity is a huge problem in the workplace. Chat apps keep everyone
+connected throughout the day, yet it's more difficult for teams to stay
+aligned around the big picture of what's most important. The problem is
+the leadership signal is getting lost in all the noise.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    To address this problem, Sean Johnson led the product development of Carrot,
-    an asynchronous communication application for better team discussions.
-    Realized as the open source <a href="https://github.com/open-company">OpenCompany</a>
-    platform, Carrot is designed to be as delightful and interactive as chat, but
-    asynchronous so people can get caught up on their own time. This enables leaders
-    to keep everyone focused on what matters most to build transparency, trust, and
-    stronger distributed teams.
-  </p>
+To address this problem, Sean Johnson led the product development of Carrot,
+an asynchronous communication application for better team discussions.
+Realized as the open source <a href="https://github.com/open-company">OpenCompany</a>
+platform, Carrot is designed to be as delightful and interactive as chat, but
+asynchronous so people can get caught up on their own time. This enables leaders
+to keep everyone focused on what matters most to build transparency, trust, and
+stronger distributed teams.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Initially created a minimum viable product
-    </li>
-
-    <li>
-      Validated core hypotheses through extensive and iterative user testing
-    </li>
-
-    <li>
-      Iterated production versions of the application with constant user feedback
-    </li>
-
-    <li>
-      Steadily growing the user base
-    </li>
-  </ul>
+- Initially created a minimum viable product
+- Validated core hypotheses through extensive and iterative user testing
+- Steadily growing the user base
 {% endcapture %}
 
 {% include project.html

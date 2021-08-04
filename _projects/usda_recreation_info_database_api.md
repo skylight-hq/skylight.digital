@@ -31,57 +31,42 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    When the U.S. Department of Agriculture's (USDA's) Recreation.gov
-    contract came up for rebid, the request for proposal (RFP) had insufficient
-    language regarding an API for accessing the website's data layer,
-    called the Recreation Information Database (RIDB). Without a good API in place,
-    the Recreation.gov website would be the only source for browsing national
-    park information from RIDB, thus limiting the potential for mobile and other
-    forward-thinking types of applications. Proposing the right language helped
-    reduce the USDA's risk of procuring the wrong solution.
-  </p>
+When the U.S. Department of Agriculture's (USDA's) Recreation.gov
+contract came up for rebid, the request for proposal (RFP) had insufficient
+language regarding an API for accessing the website's data layer,
+called the Recreation Information Database (RIDB). Without a good API in place,
+the Recreation.gov website would be the only source for browsing national
+park information from RIDB, thus limiting the potential for mobile and other
+forward-thinking types of applications. Proposing the right language helped
+reduce the USDA's risk of procuring the wrong solution.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    The <a href="https://www.fbo.gov/index?s=opportunity&mode=form&id=3c740c1e5b809e5ecd99a4cf8a0467b3&tab=core&_cview=0">Recreation.gov RFP</a>
-    was going to close in two weeks. To align this effort with its
-    <a href="https://project-open-data.cio.gov/policy-memo/">Open Data Policy</a>,
-    the White House sought urgent advice on how to make the RFP more API focused so that the next
-    generation of Recreation.gov could not only serve mobile users, but also foster future
-    innovation via an external API developer community.
-  </p>
+The <a href="https://www.fbo.gov/index?s=opportunity&mode=form&id=3c740c1e5b809e5ecd99a4cf8a0467b3&tab=core&_cview=0">Recreation.gov RFP</a>
+was going to close in two weeks. To align this effort with its
+<a href="https://project-open-data.cio.gov/policy-memo/">Open Data Policy</a>,
+the White House sought urgent advice on how to make the RFP more API focused so that the next
+generation of Recreation.gov could not only serve mobile users, but also foster future
+innovation via an external API developer community.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    Working as an API evangelist, Kin Lane answered the White House's
-    call-to-civic-action by <a href="http://apievangelist.com/2014/10/16/i-need-help-to-make-sure-the-dept-of-agriculture-leads-with-apis-in-their-parks-and-recreation-rfp/">proposing critical language changes to the RFP</a>
-    to ensure that vendor proposals reflected an API-based solution approach
-    using best practices such as RESTful API design, supporting documentation,
-    and software development kits (or SDKs).
-  </p>
+Working as an API evangelist, Kin Lane answered the White House's
+call-to-civic-action by <a href="http://apievangelist.com/2014/10/16/i-need-help-to-make-sure-the-dept-of-agriculture-leads-with-apis-in-their-parks-and-recreation-rfp/">proposing critical language changes to the RFP</a>
+to ensure that vendor proposals reflected an API-based solution approach
+using best practices such as RESTful API design, supporting documentation,
+and software development kits (or SDKs).
 
-  <p>
-    Following the rework and release of the RFP, Kin engaged even further in
-    helping to make the RIDB API a success by building a user and
-    developer community around it, as well as collaborating with industry
-    and government to explore <a href="http://apievangelist.com/2015/08/24/setting-a-precedent-when-charging-for-high-volume-access-to-government-apis/">innovative economic models for monetizing access to national park data</a>.
-  </p>
+Following the rework and release of the RFP, Kin engaged even further in
+helping to make the RIDB API a success by building a user and
+developer community around it, as well as collaborating with industry
+and government to explore <a href="http://apievangelist.com/2015/08/24/setting-a-precedent-when-charging-for-high-volume-access-to-government-apis/">innovative economic models for monetizing access to national park data</a>.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Shaped the final RFP for Recreation.gov, which resulted in the development and
-      release of a <a href="https://usda.github.io/RIDB/">public RIDB API</a>
-    </li>
-
-    <li>
-      Facilitated innovative thinking around the monetization of government's public data
-    </li>
-  </ul>
+- Shaped the final RFP for Recreation.gov, which resulted in the development and
+release of a <a href="https://usda.github.io/RIDB/">public RIDB API</a>
+- Facilitated innovative thinking around the monetization of government's public data
 {% endcapture %}
 
 {% include project.html

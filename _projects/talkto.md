@@ -60,55 +60,31 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    TalkTo was a popular digital messaging service that let consumers
-    text any business — such as a local grocery store or
-    government office — using their mobile or desktop device, and
-    receive a response within minutes.
-  </p>
+TalkTo was a popular digital messaging service that let consumers
+text any business — such as a local grocery store or
+government office — using their mobile or desktop device, and
+receive a response within minutes.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    People find traditional ways of communicating with businesses
-    (such as via telephone) annoying and inefficient.
-  </p>
+People find traditional ways of communicating with businesses
+(such as via telephone) annoying and inefficient.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    Given the rise and convenience of text messaging, Sean Johnson and the TalkTo
-    team created web and native mobile versions of an application that lets consumers
-    text any business at all, even those that have never heard of TalkTo, and receive
-    a response within five minutes. Speed and reliability were critical aspects of the
-    user experience so Erlang, which is known for its ability to support massively
-    scalable soft real-time systems with requirements on high availability, was chosen
-    as the backend.
-  </p>
+Given the rise and convenience of text messaging, Sean Johnson and the TalkTo
+team created web and native mobile versions of an application that lets consumers
+text any business at all, even those that have never heard of TalkTo, and receive
+a response within five minutes. Speed and reliability were critical aspects of the
+user experience so Erlang, which is known for its ability to support massively
+scalable soft real-time systems with requirements on high availability, was chosen
+as the backend.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      TechCrunch Disrupt runner-up
-    </li>
-
-    <li>
-      Averaged business-to-consumer text response time of five minutes
-    </li>
-
-    <li>
-      Awarded $250K research grant from DARPA
-    </li>
-
-    <li>
-      Raised $3M in a Series A round
-    </li>
-
-    <li>
-      Acquired by Path
-    </li>
-  </ul>
+- TechCrunch Disrupt runner-up
+- Averaged business-to-consumer text response time of five minutes
+- Acquired by Path
 {% endcapture %}
 
 {% include project.html
