@@ -21,9 +21,9 @@ date: 2018-03-15
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
-**Geoff Mulligan:** While developing and leading the LoRa Alliance, I saw a need for the intersection of IoT, Application Programming Interfaces (APIs), microservices, and cloud computing. Too many IoT projects are siloed solutions, and often on a grand and glorious scale — biting off more than can possibly be chewed (an entire smart city all at once). The internet, our transportation system, and our cities did not spring forth fully formed. They grew incrementally, but with the understanding that they weren't being created in a vacuum and would be connected. Yet today purveyors of smart city solutions seem to view theirs as the only system to be deployed across an entire city and that it's "OK" to ignore interfacing with other systems.
+**Geoff Mulligan:** While developing and leading the LoRa Alliance, I saw a need for the intersection of IoT, Application Programming Interfaces (APIs), microservices, and cloud computing. Too many IoT projects are siloed solutions, and often on a grand and glorious scale, biting off more than can possibly be chewed (an entire smart city all at once). The internet, our transportation system, and our cities did not spring forth fully formed. They grew incrementally, but with the understanding that they weren't being created in a vacuum and would be connected. Yet today, purveyors of smart city solutions seem to view theirs as the only system to be deployed across an entire city, and believe that it's "OK" to ignore interfacing with other systems.
 
-Rather than build huge, monolithic IoT systems, we should take a page from lean-agile engineering: smart cities — and in fact all IoT systems — should be designed and implemented in small, focused, interoperable pieces. Be defining and using open and interoperable standards, smart city pieces and IoT systems can be snapped together like LEGO building blocks.
+Rather than build huge, monolithic IoT systems, we should take a page from lean-agile engineering: Smart cities — and in fact all IoT systems — should be designed and implemented in small, focused, interoperable pieces. By defining and using open and interoperable standards, smart city pieces and IoT systems can be snapped together like LEGO building blocks.
 
 With my experience in IoT, coupled with Skylight's expertise in areas such as lean-agile engineering, APIs, and microservices, I saw an incredible opportunity to work with government (and civic) organizations toward advancing the state of smart cities and IoT systems. That's what led me here.
 
@@ -39,7 +39,7 @@ With my experience in IoT, coupled with Skylight's expertise in areas such as le
 
 **Geoff Mulligan:** While completing my time as the Chairman of the LoRa Alliance and finding my replacement, I've started to focus on correcting some of the hyperbole in the IoT industry that appears to be trying to capture headlines rather than present reality.
 
-In addition, I've started to engage with a number of cities around the world that are looking to make use of smart city and IoT technologies, and working with them to develop realistic implementation plans that embrace lean-agile engineering principles and open standards interoperability.
+In addition, I've started to engage with a number of cities around the world that are looking to make use of smart city and IoT technologies, and have begun working with them to develop realistic implementation plans that embrace lean-agile engineering principles and open standards interoperability.
 
 I also worked on a [DARPA proposal](/story-of-a-darpa-proposal/) for a LoRa-based gunshot detection and location system that could, in theory, provide a two-order of magnitude reduction in both capital and operating expenditures when compared to current solutions. Our goal here isn't to commercialize this idea ourselves; it's simply the use case chosen for conducting research on the latest LPWAN technology coupled with an open API-based cloud platform.
 

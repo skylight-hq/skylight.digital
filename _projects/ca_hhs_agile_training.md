@@ -37,55 +37,42 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The California Health and Human Services' (CHHS') Office of Innovation
-    needed help putting the principles of agile into practice. We were
-    brought in to deliver a practical agile-coaching experience that not
-    only tied together all the key principles of the Agile Manifesto, but also
-    allowed the Office to apply these principles on a needed, real-world project.
-  </p>
+The California Health and Human Services' (CHHS') Office of Innovation
+needed help putting the principles of agile into practice. We were
+brought in to deliver a practical agile-coaching experience that not
+only tied together all the key principles of the Agile Manifesto, but also
+allowed the Office to apply these principles on a needed, real-world project.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    For some time, the CHHS Office of Innovation had been working to shift their
-    technical and organizational culture toward agile principles. As an
-    organization, the Office is responsible for lean design thinking and
-    delivering innovative solutions to important problems. So it was
-    important for the Office to not only "do" agile, but to "be" agile. But
-    they were experiencing difficulty connecting the elements of agile
-    together, such as planning, testing, and iteration.
-  </p>
+For some time, the CHHS Office of Innovation had been working to shift their
+technical and organizational culture toward agile principles. As an
+organization, the Office is responsible for lean design thinking and
+delivering innovative solutions to important problems. So it was
+important for the Office to not only "do" agile, but to "be" agile. But
+they were experiencing difficulty connecting the elements of agile
+together, such as planning, testing, and iteration.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    As a partner to <a href="https://civicactions.com/">CivicActions</a>,
-    we helped lead a two-day intensive
-    training workshop to bring every facet of agile in a personalized,
-    coaching environment for the CHHS Office of Innovation. To do that,
-    we simulated five sprints in a microcosm within those two days,
-    focusing on applying the Scrum practices of planning, story writing,
-    story estimation, velocity calcuation, and testing on the Office of
-    Innovation's website, which was in need of substantial revision.
-    We aimed to provide not only coaching in the Scrum framework, but also
-    the energy to help participants ask the right questions about their
-    agile process. In this way, we aimed to provide both an valuable
-    learning experience and an improved real-world product.
-  </p>
+As a partner to <a href="https://civicactions.com/">CivicActions</a>,
+we helped lead a two-day intensive
+training workshop to bring every facet of agile in a personalized,
+coaching environment for the CHHS Office of Innovation. To do that,
+we simulated five sprints in a microcosm within those two days,
+focusing on applying the Scrum practices of planning, story writing,
+story estimation, velocity calcuation, and testing on the Office of
+Innovation's website, which was in need of substantial revision.
+We aimed to provide not only coaching in the Scrum framework, but also
+the energy to help participants ask the right questions about their
+agile process. In this way, we aimed to provide both an valuable
+learning experience and an improved real-world product.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Delivered a comprehensive instruction of agile
-    </li>
-
-    <li>
-      Hands-on development of a new and improved website for
-      the CHHS Office of Innovation
-    </li>
-  </ul>
+- Delivered a comprehensive instruction of agile
+- Hands-on development of a new and improved website for
+  the CHHS Office of Innovation
 
 {% include callout.html
   type = "pullquote"
@@ -97,8 +84,8 @@ source_code_url:
 {% include callout.html
   type = "pullquote"
   content = "As people in the government realize the value and power of the agile process, it's important to understand that the principles of agile are key. This class teaches people how
-      to get the benefits of agile without being dogmatic. My staff said they have been through multiple agile trainings but none were as valuable and practical as this. They're now
-      comfortable adjusting the process to fit their needs and culture of the Department they're helping."
+  to get the benefits of agile without being dogmatic. My staff said they have been through multiple agile trainings but none were as valuable and practical as this. They're now
+  comfortable adjusting the process to fit their needs and culture of the Department they're helping."
   cite_name = "Chaeny Emanavin"
   cite_title = "Director, Office of Innovation at CHHS"
 %}

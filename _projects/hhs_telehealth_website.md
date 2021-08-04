@@ -68,146 +68,73 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    Under the nationwide COVID-19 emergency declaration, telehealth plays a significant
-    role in the nation's healthcare system, allowing patients to access medical care from home.
-  </p>
+Under the nationwide COVID-19 emergency declaration, telehealth plays a significant
+role in the nation's healthcare system, allowing patients to access medical care from home.
 
-  <p>
-    New and rapidly-evolving policies during the crisis expedited telehealth coverage and
-    availability, along with the need for information about how to provide or use it.
-  </p>
+New and rapidly-evolving policies during the crisis expedited telehealth coverage and
+availability, along with the need for information about how to provide or use it.
 
-  <p>
-    Our team worked with the Human Resources and Services Administration (HRSA),
-    partners across the U.S. Department of Health and Human Services (HHS),
-    and the Presidential Innovation Fellows, to translate the latest guidelines and best
-    practices into plain-language content for the 1M+ healthcare providers and 300M+ patients
-    across the U.S.
-  </p>
+Our team worked with the Human Resources and Services Administration (HRSA),
+partners across the U.S. Department of Health and Human Services (HHS),
+and the Presidential Innovation Fellows, to translate the latest guidelines and best
+practices into plain-language content for the 1M+ healthcare providers and 300M+ patients
+across the U.S.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    The pandemic has created an unprecedented strain on the country's medical system.
-  </p>
+The pandemic has created an unprecedented strain on the country's medical system.
 
-  <p>
-    Telehealth, medical care that doesn't require in-person contact between medical workers
-    and patients, can protect healthcare providers and the public from unnecessary exposure
-    to disease. Remote healthcare is a convenient option for many people even under ordinary
-    circumstances, but it's an especially important tool during a public health crisis.
-  </p>
+Telehealth, medical care that doesn't require in-person contact between medical workers
+and patients, can protect healthcare providers and the public from unnecessary exposure
+to disease. Remote healthcare is a convenient option for many people even under ordinary
+circumstances, but it's an especially important tool during a public health crisis.
 
-  <p>
-    New government policies and flexibilities broaden how telehealth is delivered and what's
-    covered during the emergency period, but the information about these quickly-evolving
-    options isn't always easy to find or understand.
-  </p>
+New government policies and flexibilities broaden how telehealth is delivered and what's
+covered during the emergency period, but the information about these quickly-evolving
+options isn't always easy to find or understand.
 
-  <p>
-    The urgent need to disseminate information during the public health emergency necessitated
-    an unusually tight timeline for launching this work; our challenge was to quickly
-    centralize the most relevant information so that providers and the public could
-    understand whether telehealth meets their needs and how to take advantage of it.
-  </p>
+The urgent need to disseminate information during the public health emergency necessitated
+an unusually tight timeline for launching this work; our challenge was to quickly
+centralize the most relevant information so that providers and the public could
+understand whether telehealth meets their needs and how to take advantage of it.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    Our team quickly moved from concept to working code. In just a few weeks, we launched
-    <a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a> — a website to help medical
-    providers and the public ("patients") navigate telehealth options in the midst of a peaking pandemic.
-  </p>
+Our team quickly moved from concept to working code. In just a few weeks, we launched
+<a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a> — a website to help medical
+providers and the public ("patients") navigate telehealth options in the midst of a peaking pandemic.
 
-  <p>
-    Luckily, we weren't starting <em>completely</em> from scratch. We leveraged robust open-source tools
-    (such as the U.S. Web Design System), proven digital delivery best practices like user-centered
-    design, and our team's combined years of experience launching public digital services (and maybe
-    a bit of adrenaline!).
-  </p>
+Luckily, we weren't starting <em>completely</em> from scratch. We leveraged robust open-source tools
+(such as the U.S. Web Design System), proven digital delivery best practices like user-centered
+design, and our team's combined years of experience launching public digital services (and maybe
+a bit of adrenaline!).
 
-  <p>
-    To reach this solution we:
-  </p>
+To reach this solution we:
 
-  <ul>
-    <li>
-      Interviewed physicians and members of the public (people who might use telehealth as patients)
-      to understand their familiarity with telehealth, where they go for information today, and
-      potential barriers to providing or using telehealth
-    </li>
+- Interviewed physicians and members of the public (people who might use telehealth as patients)
+to understand their familiarity with telehealth, where they go for information today, and
+potential barriers to providing or using telehealth
+- Prioritized content, validated early prototypes, and defined an initial product direction in
+line with business needs
+- Consulted subject-matter experts for feedback and content reviews- i>
+Ran moderated and unmoderated user research studies to further validate and iterate on designs
+and content as we approached launch day
+- Drafted a content guide alongside the product itself to make sure we held ourselves to high-quality
+content standards, even at our rapid pace (and to guide future content development)
 
-    <li>
-      Prioritized content, validated early prototypes, and defined an initial product direction in
-      line with business needs
-    </li>
+Following the initial launch, we revised and released new content, such as:
 
-    <li>
-      Consulted subject-matter experts for feedback and content reviews
-    </li>
-
-    <li>
-      Ran moderated and unmoderated user research studies to further validate and iterate on designs
-      and content as we approached launch day
-    </li>
-
-    <li>
-      Drafted a content guide alongside the product itself to make sure we held ourselves to high-quality
-      content standards, even at our rapid pace (and to guide future content development)
-    </li>
-  </ul>
-
-  <p>
-    Following the initial launch, we revised and released new content, such as:
-  </p>
-
-  <ul>
-    <li>
-      Best-practice guides for providers on specialized topic areas, including telehealth in emergency
-      departments and direct-to-consumer telehealth
-    </li>
-
-    <li>
-      Tips for finding free or low-cost telehealth services through a health center
-    </li>
-
-    <li>
-      Medicare policy and billing updates
-    </li>
-
-    <li>
-      Guidance on how to improve telehealth access, equity, and accessibility
-    </li>
-  </ul>
+- Best-practice guides for providers on specialized topic areas, including telehealth in emergency
+departments and direct-to-consumer telehealth
+- Tips for finding free or low-cost telehealth services through a health center
+- Guidance on how to improve telehealth access, equity, and accessibility
 {% endcapture %}
 
 {% capture results %}
-   <ul>
-    <li>
-     Designed and built the first iteration of Telehealth.HHS.gov within a few weeks
-    </li>
-
-    <li>
-      Held interviews and unmoderated research studies with over 75 participants ahead of the first launch
-    </li>
-
-    <li>
-      Rapidly expanded the site's content within months, including several best-practice guides
-    </li>
-
-    <li>
-      Reached over 375,000 people across the country, from April 2020 to March 2021
-    </li>
-
-    <li>
-      75% of all responses to "Is this page useful?" survey have been "yes"
-    </li>
-
-    <li>
-      Successfully transitioned the site and scope of our services to a large contractor
-    </li>
-  </ul>
+- Designed and built the first iteration of Telehealth.HHS.gov within a few weeks
+- Held interviews and unmoderated research studies with over 75 participants ahead of the first launch
+- 75% of all responses to "Is this page useful?" survey have been "yes"
+- Successfully transitioned the site and scope of our services to a large contractor
 {% endcapture %}
 
 {% include project.html

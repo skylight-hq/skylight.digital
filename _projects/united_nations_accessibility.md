@@ -32,49 +32,36 @@ source_code_url:
 ---
 
 {% capture summary %}
-  <p>
-    The United Nations' (UN's) 2019 Global Platform for Disaster Risk Reduction conference
-    website didn't meet the Web Content Accessibility Guidelines (WCAG) 2.0 and
-    needed to meet standards for visitors with disabilities. We were brought in
-    to audit the website and fix the accessibility issues so it met globally-accepted
-    standards.
-  </p>
+The United Nations' (UN's) 2019 Global Platform for Disaster Risk Reduction conference
+website didn't meet the Web Content Accessibility Guidelines (WCAG) 2.0 and
+needed to meet standards for visitors with disabilities. We were brought in
+to audit the website and fix the accessibility issues so it met globally-accepted
+standards.
 {% endcapture %}
 
 {% capture challenge %}
-  <p>
-    With their conference just weeks away, the UN's technology team knew
-    the 2019 Global Platform for Disaster Risk Reduction website didn't meet the
-    WCAG 2.0 accessibility standards. To meet the standards and the UN Office for
-    Disaster Risk Reduction's commitment to accessibility, the technology team needed
-    to act fast.
-  </p>
+With their conference just weeks away, the UN's technology team knew
+the 2019 Global Platform for Disaster Risk Reduction website didn't meet the
+WCAG 2.0 accessibility standards. To meet the standards and the UN Office for
+Disaster Risk Reduction's commitment to accessibility, the technology team needed
+to act fast.
 {% endcapture %}
 
 {% capture solution %}
-  <p>
-    Leveraging <a href="/work/toolkits/accessibility-guide/">Skylight's Accessibility Guide</a>,
-    we kicked off the project with a compliance audit of the conference website's accessibility deficiencies
-    and generated a report of pressing issues. The audit included a review of images,
-    colors, contrast ratios, outlines, and other content. Working with the internal team,
-    we fixed the underlying issues and rewrote code to make the website meet the WCAG 2.0
-    accessibility standards. Finally, we tested the website with persons with
-    disabilities who use screen readers and keyboard inputs. The work was
-    completed in two weeks to meet the conference deadline.
-  </p>
+Leveraging <a href="/work/toolkits/accessibility-guide/">Skylight's Accessibility Guide</a>,
+we kicked off the project with a compliance audit of the conference website's accessibility deficiencies
+and generated a report of pressing issues. The audit included a review of images,
+colors, contrast ratios, outlines, and other content. Working with the internal team,
+we fixed the underlying issues and rewrote code to make the website meet the WCAG 2.0
+accessibility standards. Finally, we tested the website with persons with
+disabilities who use screen readers and keyboard inputs. The work was
+completed in two weeks to meet the conference deadline.
 {% endcapture %}
 
 {% capture results %}
-  <ul>
-    <li>
-      Completed the accessibility audit and fixes in two weeks, just in time for
-      the conference
-    </li>
-
-    <li>
-      Provided accessibility development guidelines to enable future self-management
-    </li>
-  </ul>
+- Completed the accessibility audit and fixes in two weeks, just in time for
+the conference
+- Provided accessibility development guidelines to enable future self-management
 {% endcapture %}
 
 {% include project.html
