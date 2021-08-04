@@ -97,10 +97,10 @@ in a low-risk, high-value way.
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, we're working together
+As a subcontractor to [Fearless](https://fearless.tech/), we're working together
 with the JOCAS program team to incrementally build out a new system alongside the old one,
 until all its key functionalities are replaced — a proven architectural approach known
-as the <a href="https://martinfowler.com/bliki/StranglerFigApplication.html">strangler pattern</a>.
+as the [strangler pattern](https://martinfowler.com/bliki/StranglerFigApplication.html).
 
 After conducting extensive user research and technical discovery, we decided that
 the best place to start the modernization process is with the Labor Entry, Approvals,

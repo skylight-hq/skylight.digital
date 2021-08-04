@@ -76,12 +76,12 @@ and an important one to solve given the life-saving implications.
 {% endcapture %}
 
 {% capture solution %}
-In collaboration with <a href="https://agile6.com/">Agile Six</a>, we've been
+In collaboration with [Agile Six](https://agile6.com/), we've been
 working with the VHA to address this challenge through the delivery of a knowledge management
 platform called the Diffusion Marketplace. The purpose of this platform is to empower VHA
 practitioners and other employees to identify and disseminate promising healthcare practices.
 
-We've aligned our delivery approach to the <a href="https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards">VA's Digital Service Handbook</a>.
+We've aligned our delivery approach to the [VA's Digital Service Handbook](https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards).
 And focused our initial product strategy on figuring out how to design an
 experience that leads to the wider adoption of three life-saving and cost-saving
 practices (for example, rapid naloxone delivery). These practices have already been

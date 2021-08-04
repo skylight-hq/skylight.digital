@@ -77,7 +77,7 @@ UX design, software engineering, and API governance. Through a series of
 rapid iterations, we created an MVP of the API Scorecard governance tool.
 
 We used GitHub Pages to serve as a public frontend and private backend for
-the application, a <a href="http://kinlane.com/2014/11/16/public-frontend-and-private-backend-for-my-sites-on-github/">technique pioneered by a member of the Skylight team</a>.
+the application, a [technique pioneered by a member of the Skylight team](http://kinlane.com/2014/11/16/public-frontend-and-private-backend-for-my-sites-on-github/).
 This approach avoided the additional time, cost, and complexity associated
 with setting up a secure backend server environment, thus keeping things lean.
 

@@ -181,8 +181,8 @@
 
   img {
     @extend %img-fluid;
-    @extend %mt-3;
-    @extend %mb-4;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
     width: 100%;
   }
 }

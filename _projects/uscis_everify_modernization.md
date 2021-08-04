@@ -72,7 +72,7 @@ building out and optimizing the new system.
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to <a href="https://www.excella.com/">Excella</a>, we helped address both
+As a subcontractor to [Excella](https://www.excella.com/), we helped address both
 the modernization and relaunch efforts, as well as legacy integration and modernization,
 using digital delivery practices. Some of our major contributions included:
 

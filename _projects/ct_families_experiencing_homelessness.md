@@ -46,7 +46,7 @@ connect families with housing solutions.
 {% endcapture %}
 
 {% capture challenge %}
-In July 2019, <a href="https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2019/07-2019/Governor-Lamont-Creates-Task-Force-on-Housing-and-Supports-for-Vulnerable-Populations">Connecticut Governor Ned Lamont</a>
+In July 2019, [Connecticut Governor Ned Lamont](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2019/07-2019/Governor-Lamont-Creates-Task-Force-on-Housing-and-Supports-for-Vulnerable-Populations)
 announced a multi-agency effort to find ways to better support vulnerable
 populations facing or experiencing homelessness in the state.
 
@@ -74,7 +74,7 @@ We conducted in-depth research that included interviews with government agencies
 community partners, and families with young children experiencing homelessness.
 
 Through this research, we found that infants are the
-<a href="https://www.acf.hhs.gov/sites/default/files/opre/opre_homefam_brief3_hhs_children_02_24_2017_b508.pdf">most likely age group to experience homelessness.</a>
+[most likely age group to experience homelessness](https://www.acf.hhs.gov/sites/default/files/opre/opre_homefam_brief3_hhs_children_02_24_2017_b508.pdf).
 Yet, families with young children experiencing homelessness are often underrepresented
 in official counts due to a variety of reasons including not being officially
 counted as homeless while living with other people, having children who are too

@@ -56,7 +56,7 @@ mobile apps or responsive web design remained an open question.
 {% endcapture %}
 
 {% capture solution %}
-Using a technique that we pioneered, called "<a href="https://18f.gsa.gov/2015/01/06/protosketch/">protosketching</a>,"
+Using a technique that we pioneered, called "[protosketching](https://18f.gsa.gov/2015/01/06/protosketch/),"
 we broke the afternoon into three sprints of one hour each. In this space of time, we were
 able to quickly write user stories that were acted upon by our programmers in the
 protosketching session to complete a functional mock-up in three hours. This allowed the

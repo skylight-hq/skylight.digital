@@ -61,7 +61,7 @@ to not only avoid constraining the design of the user experience to what's avail
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to <a href="https://fearless.tech/">Fearless</a>, our team provided
+As a subcontractor to [Fearless](https://fearless.tech/), our team provided
 additional technical leadership around how best to address this challenge.
 In particular, we helped architect and engineer a custom API wrapper that
 programmatically makes calls into Brightspot, thereby leveraging its full feature set in
