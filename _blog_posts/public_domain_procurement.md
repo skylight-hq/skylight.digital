@@ -33,7 +33,7 @@ Contracting Officers are encouraged to designate in task orders the following it
 We did so for a number of reasons:
 
 - To prevent vendor lock-in situations.
-- To avoid the government paying twice for something it had already purchased.
+- To avoid the government paying twice for something it'd already purchased.
 - To promote asset reuse, both inside and outside of the government. Code reuse, for example, saves time and money, fosters stronger and more secure systems, and can even spur economic growth and innovation.
 - To encourage public participation in the development of assets alongside vendors. By committing everything to the public domain, issues around third-party licensing are avoided.
 - To focus vendors, under the watchful eye of public scrutiny, on producing the highest quality results for the government.
