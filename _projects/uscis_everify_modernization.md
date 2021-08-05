@@ -55,9 +55,9 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Citizenship and Immigration Services' (USCIS') E-Verify system is
+The U.S. Citizenship and Immigration Services' (USCIS) E-Verify system is
 used by employers to confirm the eligibility of their employees to work
-in the U.S. As part USCIS' efforts to modernize E-Verify, we engaged as a
+in the U.S. As part of USCIS' efforts to modernize E-Verify, we engaged as a
 subcontractor to Excella and provided API design and technical expertise
 that contributed to the successful relaunch of the system, despite the
 complexity of the existing legacy environment.
