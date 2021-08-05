@@ -109,7 +109,7 @@ collaborating with dozens of OEC users and stakeholders to create a solution tha
   3x more daily visitors than the old site
 - Enabled OEC to be one of the first agencies within the State of
   Connecticut to deliver timely, critical
-  [online information related to COVID](https://www.ctoec.org/covid-19),
+  [online information related to COVID-19](https://www.ctoec.org/covid-19),
   which has averaged 2,000 page views per day
 
  {% include callout.html
