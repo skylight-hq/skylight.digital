@@ -29,6 +29,10 @@
     </div>
   </div>
 
+  {% if include.header_img_src %}
+    <img class="img-fluid my-3 border w-100 maxw-mobile-lg" src="{{ include.header_img_src }}" alt="{{ include.header_img_desc }}">
+  {% endif %}
+
   {% if include.header_content_class and header_content %}
     <div class="">
       <div class="{{include.header_content_class}}">
