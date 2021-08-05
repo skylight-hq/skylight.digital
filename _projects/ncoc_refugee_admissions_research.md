@@ -77,7 +77,11 @@ access to transportation and education, and medical and mental health issues
 — make navigating resettlement particularly difficult. As one
 interviewee who spoke perfect English and worked with the U.S. military in
 Iraq put it when she resettled here in 2013:
-<b>"What was challenging when I first arrived? Everything."</b>
+
+{% include callout.html
+  type = "pullquote"
+  content = "What was challenging when I first arrived? Everything."
+%}
 
 In addition, many policymakers, and even some who work with refugees, don't
 understand the full scope of the process to get to the U.S.
