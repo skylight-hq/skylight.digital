@@ -61,8 +61,7 @@ that runs on GitHub and provides step-by-step guidance to anyone who
 wants to "adopt" and improve an open government dataset.
 
 
-As part of this work, Kin obtained [grant funding from the Knight Foundation to create a prototype](http://kinlane.com/2016/01/22/overview-of-my-knight-funded-adoptaagency-project/)
-that focused on identifying, improving, and making datasets more accessible
+As part of this work, Kin obtained grant funding from the Knight Foundation to create a prototype that focused on identifying, improving, and making datasets more accessible
 and shareable. The prototype was applied to five separate open
 government datasets that resulted in five blueprint patterns, all of
 which are available on GitHub for reuse in other open government

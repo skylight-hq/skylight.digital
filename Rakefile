@@ -6,7 +6,8 @@ task :test do
     :assume_extension => true,
     :url_ignore => [/twitter.com/,/linkedin.com/,/\/company\/about\//, /https:\/\/skylight.digital\//],
     :allow_hash_href => true,
-    :http_status_ignore => [999, 503, 302]
+    :http_status_ignore => [999, 503, 302],
+    :alt_ignore => [/agile-acquisition-framework.png/]
    }
   HTMLProofer.check_directory("./build", options).run
 end

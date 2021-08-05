@@ -19,7 +19,7 @@ date: 2017-06-14
 ---
 Fundamentally, government is about getting things done, and getting things done requires keeping track of problems. In government, these problems are often called cases. A case could be a pothole, a criminal investigation, a water leak, a disability claim, or an industrial accident. No matter the precise situation, the citizens demand accountability, and efficiency demands organized record keeping. It isn't surprising, therefore, in the information age that most governments require computer-based *case management systems*.
 
-We've personally been in contact with case management systems for the Social Security Administration, the Department of Labor, and tangentially the <a href="https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/">California Child Welfare System program</a>.
+We've personally been in contact with case management systems for the Social Security Administration, the Department of Labor, and tangentially the <!-- <a href="https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/"> -->California Child Welfare System program<!-- </a> -->.
 
 ## Recognizing overlap
 

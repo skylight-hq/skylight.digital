@@ -20,7 +20,7 @@ Here at Skylight we follow [Web Content Accessibility Guidelines (WCAG) 2.1](htt
 <div class="callout--note" markdown='1'>
 ### Disclaimer
 
-This resource is intended to help Skylight develop accessible products and isn't a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+This resource is intended to help Skylight develop accessible products and isn't a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board](http://www.access-board.gov/) for information on 508 and their compliance criteria.
 </div>
 
 *This toolkit is a fork of [18F's accessibility guide](https://accessibility.18f.gov/) originally created by Skylight's Nick Bristow.*
@@ -55,10 +55,8 @@ This resource is intended to help Skylight develop accessible products and isn't
 * [Accessibility for Teams](https://accessibility.digital.gov/)
 * [Skylight Accessibility Checklist](./checklist/)
 * [GSA's Section 508 Policies](http://www.gsa.gov/portal/content/105254)
-* [CFPB's Building Accessible Interfaces Guide](http://cfpb.github.io/design-manual/best-practices/accessibility-best-practices)
 * [Creating Accessible PDFs](http://www.section508.va.gov/support/tutorials/pdf/index.asp)
 * [Required Fixes for PDFs](http://www.hhs.gov/web/section-508/making-files-accessible/pdf-required/index.html)
-* [Making Files Accessible (PDF, Word, Excel, Powerpoint)](http://www.hhs.gov/web/section-508/making-files-accessible/index.html)
 
 ### World Wide Web Consortium's web accessibility initiative
 
@@ -76,7 +74,6 @@ This resource is intended to help Skylight develop accessible products and isn't
 * [Knowbility's WCAG 2.1 Blog Series](https://knowbility.org/blog/2018/WCAG21-intro/)
 * [Simply Accessible](http://simplyaccessible.com/archives/)
 * [WebAIM's Accessibility Resources](http://webaim.org/resources/)
-* [ARIA Practical Examples](http://heydonworks.com/practical_aria_examples/)
 * [Tips for Creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891)
 * [Viget WCAG 2.1 Blog Post](https://www.viget.com/articles/what-you-need-to-know-about-wcag-2-1/)

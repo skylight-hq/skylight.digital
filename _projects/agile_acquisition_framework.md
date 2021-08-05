@@ -31,8 +31,6 @@ news_posts:
     url: https://www.govtech.com/pcio/articles/18F-Launches-RFP-Ghostwriting-and-Review-Service.html
   - title: DoD 'Force of the Future' includes civilian Digital Service team
     url: http://www.federaltimes.com/story/government/it/management/2015/09/08/force--future-digital-service/71890924/
-  - title: A New Approach to Procuring Government Technology in California
-    url: https://www.codeforamerica.org/blog/2015/11/30/a-new-approach-to-procuring-government-technology-in-california/
   - title: California's step-by-step solution for its new Child Welfare System
     url: https://gcn.com/articles/2016/02/02/california-agile-procurement.aspx
   - title: 18F expands efforts to state and local governments
