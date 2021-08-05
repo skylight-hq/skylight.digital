@@ -75,19 +75,19 @@ community partners, and families with young children experiencing homelessness.
 
 Through this research, we found that infants are the most likely age group to experience homelessness.
 Yet, families with young children experiencing homelessness are often underrepresented
-in official counts due to a variety of reasons including not being officially
+in official counts due to a variety of reasons, including not being officially
 counted as homeless while living with other people, having children who are too
 young to be tracked in the public school system, and not interfacing with support
 services that might identify homelessness. Significantly, a lack of steady and
 safe child care also makes it difficult, and perhaps impossible, for families
 experiencing homelessness to seek employment or access support services.
 
-Above all, agencies and programs working with families often don't have tools
-or data systems needed to collaborate or collect data on the complex, interrelated
+Above all, agencies and programs working with families often don't have the tools
+or data systems required to collaborate or collect data on the complex, interrelated
 challenges facing these families, making it difficult for state agencies to
 choose interventions that best meet their needs.
 
-As a result of what we learned, we identified an opportunity to improve
+From this research, we identified an opportunity to improve
 the usefuless and usability of a tool called the family by-name list. This tool
 is used by groups of providers that coordinate efforts to end homelessness in communities
 across Connecticut. These groups are known as Coordinated Access Networks (CANs).
