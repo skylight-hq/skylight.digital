@@ -60,14 +60,14 @@ Given this situation, the CIO sought an outside partner to help reignite and acc
 {% capture solution %}
 Our approach focused on building up ACME’s internal DevOps capacity as quickly as possible so they could manage their transformation journey sustainably, self-sufficiently, and effectively.
 
-![](/img/blog/devops_transformation_proposal/acme-engagement-phases.svg){: .mb-0 }
+![Phases of the ACME engagement.](/img/blog/devops_transformation_proposal/acme-engagement-phases.svg){: .mb-0 }
 
-Caption: High-level phases of our engagement with ACME
+High-level phases of our engagement with ACME
 {: .caption }
 
 To accomplish that, we began the engagement by conducting an assessment to better understand the current state of ACME’s DevOps culture and practices. This step featured the use of the [DORA](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/) (DevOps Research and Assessment), an outcome-oriented, science-based DevOps assessment methodology that benchmarks an organization’s software delivery performance against thousands of data points.
 
-![](/img/blog/dora/dora-infographic.svg){: .mb-0 }
+![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.svg){: .mb-0 }
 
 DORA Assessment Methodology
 {: .caption }
