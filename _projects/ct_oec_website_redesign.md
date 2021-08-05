@@ -95,7 +95,7 @@ collaborating with dozens of OEC users and stakeholders to create a solution tha
 - Supports both mobile and desktop experiences
   Supports incremental releases of website content so value can start being
   realized sooner rather than later
-- Is maintainable by internal staff through easy-to-use content management tools,
+- Can be maintained by internal staff through easy-to-use content management tools,
   [content guidelines](https://www.ctoec.org/oec-staff-website-support/style-guide/),
   and content design and management training
 
@@ -104,7 +104,7 @@ collaborating with dozens of OEC users and stakeholders to create a solution tha
 {% capture results %}
 - Incrementally delivered a newly-designed, responsive website in alignment
   with user tasks, goals, and needs
-- Fully cut over to the new site in May 2020, which has
+- Fully moved over to the new site in May 2020, which has
   continually received positive user feedback and attracted
   3x more daily visitors than the old site
 - Enabled OEC to be one of the first agencies within the State of
