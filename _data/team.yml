@@ -608,10 +608,6 @@
       link: https://www.linkedin.com/in/rebecca-bartola/
       link_description: Becca's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.rebeccabartola.com/
-      link_description: Becca's Personal Website
-      fa_icon_name: home
     - name: Projects
       link: /work/team-member/becca-bartola/
       link_description: Becca's Project Work
@@ -1210,10 +1206,6 @@
       link: https://www.linkedin.com/in/nick-clyde-b80967b6/
       link_description: Nick's LinkedIn Account
       fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/ClydeDroid
-      link_description: Nick's GitHub Account
-      fa_icon_name: github
     - name: Projects
       link: /work/team-member/nick-clyde/
       link_description: Nick's Project Work
@@ -1610,10 +1602,6 @@
       link: https://www.linkedin.com/in/kenny-nieh-they-them-b091abbb/
       link_description: Kenny's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.kennynieh.com/
-      link_description: Kenny's Personal Website
-      fa_icon_name: home
     - name: Projects
       link: /work/team-member/kenny-nieh/
       link_description: Kenny's Project Work

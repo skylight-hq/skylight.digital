@@ -39,8 +39,10 @@ Skylight is greatly appreciative of 18F and the multiple sources that they drew 
 Relevant legal considerations:
 
 - [Laws enforced by the Equal Employment Opportunity Commission](https://www.eeoc.gov/laws/statutes/index.cfm)
-- [Types of discrimination prohibited by law](https://www.eeoc.gov/laws/types/)
-- [New and proposed regulations](https://www.eeoc.gov/laws/regulations/index.cfm)
+<!-- Website 404 -->
+<!-- - [Types of discrimination prohibited by law](https://www.eeoc.gov/laws/types/) -->
+<!-- Website 404 -->
+<!-- - [New and proposed regulations](https://www.eeoc.gov/laws/regulations/index.cfm) -->
 
 ## Future changes
 
