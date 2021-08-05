@@ -42,7 +42,7 @@ practices:
   - Web and native apps
   - Cloud hosting
 news_posts:
-  - title: TechCrunch Disrupt SF Battlefield Semifinals&#58; The Judges React
+  - title: "TechCrunch Disrupt SF Battlefield Semifinals: The Judges React"
     url: https://techcrunch.com/2011/09/14/techcrunch-disrupt-sf-battlefield-semifinals-the-judges-react/
   - title: TalkTo Allows Consumers To SMS Any Local Business And Get A Quick Response
     url: https://techcrunch.com/2011/09/13/talkto-allows-consumers-to-sms-any-local-business-and-get-a-quick-response/
