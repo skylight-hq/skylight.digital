@@ -73,8 +73,7 @@ services was the first step in our work to scope out potential solutions.
 We conducted in-depth research that included interviews with government agencies,
 community partners, and families with young children experiencing homelessness.
 
-Through this research, we found that infants are the
-[most likely age group to experience homelessness](https://www.acf.hhs.gov/sites/default/files/opre/opre_homefam_brief3_hhs_children_02_24_2017_b508.pdf).
+Through this research, we found that infants are the most likely age group to experience homelessness.
 Yet, families with young children experiencing homelessness are often underrepresented
 in official counts due to a variety of reasons including not being officially
 counted as homeless while living with other people, having children who are too
