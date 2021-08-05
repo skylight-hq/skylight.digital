@@ -24,7 +24,7 @@ To support these new projects, we've grown our design, product, engineering, and
 
 ## Marvo Dolor, Engagement Manager
 
-[Marvo](/company/about/#marvo-dolor) is drawn to solving complex, multi-faceted government problems. At Skylight, she works with our clients to plan and execute [service delivery](/work/services/#digital-services-delivery), [procurement](/work/services/#digital-procurement), and [transformation](/work/services/#digital-transformation) initiatives using agile project management techniques. Prior to joining us, Marvo served as a member of the [U.S. Digital Service](https://www.usds.gov/) at the Department of Veterans Affairs (VA), where she held multiple leadership positions in support of major initiatives, such as the successful [redesign of VA.gov](https://www.va.gov/) and the [modernization of the benefits appeals process](https://www.fedscoop.com/help-usds-va-improves-benefits-appeals-tracking-tool/).
+[Marvo](/company/about/#marvo-dolor) is drawn to solving complex, multi-faceted government problems. At Skylight, she works with our clients to plan and execute [service delivery](/work/services/#service-delivery), [procurement](/work/services/#procurement), and [transformation](/work/services/#digital-transformation) initiatives using agile project management techniques. Prior to joining us, Marvo served as a member of the [U.S. Digital Service](https://www.usds.gov/) at the Department of Veterans Affairs (VA), where she held multiple leadership positions in support of major initiatives, such as the successful [redesign of VA.gov](https://www.va.gov/) and the [modernization of the benefits appeals process](https://www.fedscoop.com/help-usds-va-improves-benefits-appeals-tracking-tool/).
 
 <blockquote class="pullquote" markdown="1">
 I believe technology can do more than entertain and amaze us — it can also be a force for good in people's lives. That's why it was an honor to do a tour of duty with the U.S. Digital Service.
@@ -75,7 +75,7 @@ I really enjoyed my experience developing back-office systems for U.S. Citizensh
 [Mitchell](/company/about/#mitchell-sipus) has knack for turning high-friction problems into delightful user experiences. As part of Skylight, he works with our clients to determine how Skylight can help them solve their toughest digital challenges. Prior to joining us, Mitchell co-founded TulcoLabs, an applied artificial intelligence lab as part of a billion-dollar-private-equity portfolio. Mitchell previously served as a Presidential Innovation Fellow and developed Africa's first data-driven conflict reconstruction strategy in Mogadishu, Somalia.
 
 <blockquote class="pullquote" markdown="1">
-Creating the <a href="https://www.wired.com/2013/06/fa_mogadishu/">digital map</a> for Mogadishu will always be my most meaningful project because we didn't just create a map, we created a database for businesses and projects to measure problems and redistribute resources.
+Creating the digital map for Mogadishu will always be my most meaningful project because we didn't just create a map, we created a database for businesses and projects to measure problems and redistribute resources.
 </blockquote>
 
 ## Lara Kohl, UX Designer
@@ -88,7 +88,7 @@ I was at an EdTech startup focused on getting students interested in STEM with a
 
 ## Colin Craig, Full Stack Engineer
 
-[Colin](/company/about/#colin-craig) has an aptitude for working in a multitude of technical environments. As part of our team, he engineers high-quality systems using modern practices and technologies such as APIs, test automation, and clean code. Prior to Skylight, Colin worked at 18F, where he provided technical leadership on products such as [login.gov](https://login.gov/), [analytics.usa.gov](https://analytics.usa.gov/), and [everykidinapark.gov](https://everykidinapark.gov/).
+[Colin](/company/about/#colin-craig) has an aptitude for working in a multitude of technical environments. As part of our team, he engineers high-quality systems using modern practices and technologies such as APIs, test automation, and clean code. Prior to Skylight, Colin worked at 18F, where he provided technical leadership on products such as [login.gov](https://login.gov/), and [analytics.usa.gov](https://analytics.usa.gov/).
 
 <blockquote class="pullquote" markdown="1">
 At 18F, I worked on the <a href="https://crime-data-explorer.fr.cloud.gov/">FBI Crime Data Explorer</a>. This was one of the first open-source projects for the FBI, and involved exposing multiple crime statistics datasets to the public in a useable way.
@@ -99,7 +99,7 @@ At 18F, I worked on the <a href="https://crime-data-explorer.fr.cloud.gov/">FBI 
 [Laura](/company/about/#laura-king) loves to solve complex problems by empathizing with and understanding the needs of users. At Skylight, she uses her unique combination of skills in UX research and design to accelerate the delivery of useful and usable products. Prior to Skylight, she held research and design roles at Aetna, Pearson, and HomeAdvisor.
 
 <blockquote class="pullquote" markdown="1">
-I led foundational research efforts to understand how higher education students are using <a href="https://www.lauravlassarev.com/new-page-3">print and digital materials</a> to learn and gained deep insight into why students prefer print materials to digital. Focusing on learners' needs helped us hone in on an innovative solution for digital courseware and reading experiences.
+I led foundational research efforts to understand how higher education students are using print and digital materials to learn and gained deep insight into why students prefer print materials to digital. Focusing on learners' needs helped us hone in on an innovative solution for digital courseware and reading experiences.
 </blockquote>
 
 *P.S. We're always looking to hire great people who are passionate about driving better public outcomes through design, technology, and procurement. If this sounds like you, [consider joining us](/careers/join/).*

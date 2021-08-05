@@ -177,7 +177,7 @@ The following is a list of additional reading about items contained in this blog
 
 - [Titanium](http://www.appcelerator.com/mobile-app-development-products/)
 
-- [PhoneGap](https://phonegap.com/)
+- [PhoneGap](https://blog.phonegap.com/)
 
 - [Framework7](https://framework7.io/)
 
