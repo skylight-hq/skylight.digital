@@ -39,3 +39,8 @@ Setup using Docker
    https://github.com/skylight-hq/skylight.digital.git`).
 1. Enter the command `npm run docker-run` to start the server
 1. Navigate to http://localhost:4000 in your browser
+
+Testing
+---
+We are using HTMLProofer to check for accessibility, html structure, and valid links.
+1. Run `rake test` in your local terminal
