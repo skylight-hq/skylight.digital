@@ -96,10 +96,14 @@ opportunities. Incorporating best-practice design patterns from the U.S. Web Des
 System helped accelerate the process.
 
 The MVP marked a significant departure from the status quo. As one service member
-described it during a usability testing session, <b>"I don't like most military pages,
-tiny hyperlinks because the page is so full. This is different to what I'm used to seeing,
-for ease of use, the cleanliness is nice. This is the cleanest thing I've seen."</b> Space
-Force leadership similarly celebrated what we built.
+described it during a usability testing session:
+
+{% include callout.html
+  type = "pullquote"
+  content = "I don't like most military pages, tiny hyperlinks because the page is so full. This is different to what I'm used to seeing, for ease of use, the cleanliness is nice. This is the cleanest thing I've seen."
+%}
+
+Space Force leadership similarly celebrated what we built.
 
 Coinciding with the organization's one-year anniversary, the launch symbolized a new approach
 to digital for the USSF — one that's not only modern at its core, but also human-centered and
