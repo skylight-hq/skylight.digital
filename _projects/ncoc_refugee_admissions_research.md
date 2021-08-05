@@ -120,7 +120,7 @@ To improve refugee outcomes, for instance, we recommended that USRAP:
 - Allowing flexibility in funding to resettlement agencies and states to
   address diverse refugee needs
 
-Many times, policymakers only work on one aspect of the admissions process and
+Often, policymakers only work on one aspect of the admissions process and
 lack an in-depth or nuanced view of other parts of the program. We made a
 journey map illustrating all steps and pain points along the way from the
 perspective of a refugee, something one person who'd worked on policy for
