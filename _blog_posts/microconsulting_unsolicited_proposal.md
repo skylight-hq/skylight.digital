@@ -67,7 +67,7 @@ I have seen many great solutions fall into the trap of 'sorry we just don't know
 FAR 6.302-1 allows you to sole source when there is only one responsible source but that is not necessarily the case for unsolicited solutions.
 </blockquote>
 
-Regardless of how well or not a particular agency handles unsolicited proposals, we believe that a microconsulting services marketplace platform is a concept worth experimenting with using [modern digital delivery practices](/work/services/#digital-services-delivery). And we'd like to support the government in that endeavor. Therefore, we'll be submitting a fully open, unsolicited proposal to the government shortly, in accordance with FAR Subpart 15.6.
+Regardless of how well or not a particular agency handles unsolicited proposals, we believe that a microconsulting services marketplace platform is a concept worth experimenting with using [modern digital delivery practices](/work/services/#service-delivery). And we'd like to support the government in that endeavor. Therefore, we'll be submitting a fully open, unsolicited proposal to the government shortly, in accordance with FAR Subpart 15.6.
 
 If you're a government contracting official reading this, please <a href="mailto:hello@skylight.digital">let us know</a> where we should submit the proposal.
 
