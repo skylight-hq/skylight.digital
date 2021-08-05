@@ -11,7 +11,7 @@ content_type: Toolkit
 # Guiding principles of an agile procurement
 
 Both the [U.S. Digital Service](https://usds.gov/) and [18F](https://18f.gsa.gov/) provide great
-overviews of the principles that guide general agile procurement: [TechFAR Hub]((https://techfarhub.cio.gov/learning-center/principles/)) and [De-risking custom technology projects](https://github.com/18F/technology-budgeting/blob/master/handbook.md). These principles typically fall into the following areas, and each one is fundamental for an agile procurement strategy:
+overviews of the principles that guide general agile procurement: [TechFAR Hub](https://techfarhub.cio.gov/learning-center/principles/) and [De-risking custom technology projects](https://github.com/18F/technology-budgeting/blob/master/handbook.md). These principles typically fall into the following areas, and each one is fundamental for an agile procurement strategy:
 
 - Keep procurements small and quick
 - Buy digital service skillsets, not software

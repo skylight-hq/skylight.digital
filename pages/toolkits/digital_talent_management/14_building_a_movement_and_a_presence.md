@@ -106,7 +106,7 @@ Sharing your work doesn't always have to be long-form articles. Embrace the conv
 [Tweet source](https://twitter.com/waldojaquith/status/1190300713676611585)
 {: .caption .mb-5}
 
-![]({{ site.baseurl }}/img/toolkits/talent/matt-cutts.png){:class="w-100 mw-mobile-lg border p-3"}
+![]({{ site.baseurl }}/img/toolkits/talent/matt-cutts.png){:class="w-100 mw-mobile-lg border p-3" :alt="matt cutts"}
 
 [Tweet source](https://twitter.com/mattcutts/status/1195524566602395649)
 {: .caption .mb-5}

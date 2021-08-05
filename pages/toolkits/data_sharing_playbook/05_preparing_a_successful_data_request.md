@@ -70,7 +70,7 @@ Data owners are accountable for the proper use and security of their data. In or
 ### Recommended reading
 
 - [Getting Organized: Steps to Take before Negotiating](https://www.neighborhoodindicators.org/library/guides/getting-organized-steps-take-negotiating)
-- [Safeguarding data: Develop privacy and security compliance policies, standards, and controls](/work/toolkits/data-sharing-playbook/safeguarding-data#develop-privacy-and-security-compliance-policies-securities-and-controls)
+- [Safeguarding data: Develop privacy and security compliance policies, standards, and controls](/work/toolkits/data-sharing-playbook/safeguarding-data#develop-privacy-and-security-compliance-policies-standards-and-controls)
 - [DATA SYSTEM: Privacy and Security](https://www.neighborhoodindicators.org/sites/default/files/publications/Example%20Data%20Security%20Plan.pdf)
 - [Safeguarding data: Understand the laws that govern these critical data elements](/work/toolkits/data-sharing-playbook/safeguarding-data#understand-the-laws-that-govern-critical-data-elements)
 </div>
