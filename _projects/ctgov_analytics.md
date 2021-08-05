@@ -43,32 +43,30 @@ consolidated analytics dashboard.
 {% capture challenge %}
 The State of Connecticut wanted to make date-driven decisions when developing new
 digital resources, but accessing analytics was a cumbersome process and employees
-weren't confident in the data. In the past, they had worked with external teams
+weren't confident in the data. In the past, they'd worked with external teams
 that developed solutions and then handed them off for maintenance. The team was
-maintaining the solutions using some software development processes but wasn't
+maintaining the solutions using some software development processes, but wasn't
 sure if they were following best practices.
 {% endcapture %}
 
 {% capture solution %}
-Members of our team were originally instrumental in developing
+Members of the Skylight team were originally instrumental in developing
 [analytics.usa.gov](https://analytics.usa.gov/),
-and knew they could reuse the
+and we knew we could reuse the
 [open-source code](https://github.com/18F/analytics.usa.gov)
 to develop a similar tool for the State of Connecticut. The original open-source
-analytics tool wasn't developed for a Windows environment so we used this development
-project as a way to coach the team on software development best practices.
+analytics tool wasn't developed for a Windows environment, so we used this development
+project as a way to coach the State of Connecticut team on software development best practices.
 
 Knowing that previous consultants had developed solutions that were difficult
-to maintain, we decided it was critical to success for the team to feel
-confident maintaining the solution. To do that, we partnered with their
-data stakeholder and worked in tandem with her to conduct user research,
-design the solution, and even commit some code. By customizing open-source
-code and coaching the team throughout the process, we were able to make the
-best use of taxpayer dollars and enable the State of Connecticut's team to
-maintain the solution.
+to maintain, we decided it was critical to success for the State of Connecticut team to feel
+confident maintaining the solution. To do that, we worked in tandem with their
+data stakeholder to conduct user research, design the solution, and even commit some code. 
+By customizing open-source code and coaching the team throughout the process, we were able to make the
+best use of taxpayer dollars and enable the State of Connecticut's team to maintain the solution.
 
 Now, agencies have insight into which websites and pages are used and how
-they're used which informs future projects. Moreover, citizens of Connecticut
+they're used, which informs future projects. Moreover, citizens of Connecticut
 can view the information and use the open-source project to build other data
 visualizations.
 {% endcapture %}
@@ -76,7 +74,7 @@ visualizations.
 {% capture results %}
 - Delivered an analytics dashboard using customized open-source code
 - Involved and enabled the department's team to develop and maintain the solutions using software development best practices
-- Increased data transparency to the State of Connecticut's agencies and citizens
+- Increased data transparency for the State of Connecticut's agencies and citizens
 {% endcapture %}
 
 {% include project.html
