@@ -42,8 +42,8 @@ source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
 ---
 
 {% capture summary %}
-The Care 4 Kids program sponsored by the Office of Early Childhood (OEC)
-and administered by the United Way seeks to make child care affordable for
+The Care 4 Kids program, sponsored by the Office of Early Childhood (OEC)
+and administered by United Way, seeks to make child care affordable for
 children and their families in Connecticut. To support their efforts to improve
 the subsidy application process for children and families, we worked with OEC
 and United Way to co-design a process and system for sending text messages to
@@ -59,10 +59,10 @@ low- to moderate-income families in the state pay for child care. To participate
 in the program, families and providers must meet specific eligibility and
 application requirements
 
-A number of factors, including a new case management system, was creating a growing
+A number of factors, including a new case management system, created a growing
 application backlog and a high percentage of incomplete applications and ineligible
 applicants entering the system. Both families and providers who rely on Care 4 Kids
-subsidies were becoming increasingly frustrated due to the long wait times and
+subsidies were becoming increasingly frustrated due to long wait times and
 lack of transparency into the process of renewing their benefits. United Way was
 open to experimenting with new ways to improve the processing time as well as
 increasing trust and confidence in the application process.
@@ -81,32 +81,32 @@ status updates for applicants that helped further inform our solution.
 {% capture solution %}
 Our goal was to identify solutions to user pain points that could be tested and
 refined quickly while providing the most impact to Care 4 Kids applicants
-(families and children). In this case, we aimed to make it easier for families
-to have insight into the status of their application, to increase parent
-satisfaction and improve some of the existing challenges with the backlog.
+(families and children). We aimed to make it easier for families
+to get insights into the status of their applications, to increase parent
+satisfaction, and improve some of the existing challenges with the backlog.
 
 To do so, we built an agile pilot to support sending application renewal status
-updates. Co-designed with OEC and United Way, the pilot was a SMS-based
+updates. Co-designed with OEC and United Way, the pilot featured a SMS-based
 notification tool that let parents know when United Way received documents
 relevant to their Care 4 Kids application. Parents in this pilot could also
 request and receive information about application processing timelines via
 text at any time.
 
-A minimum viable product was built within four weeks, then live-tested and
-implemented as a pilot with nearly 180 participants over a three-month period.
-Phone, text, and online surveys were also conducted before, during and after the
+We built a minimum viable product within four weeks, then live-tested and
+implemented a pilot with nearly 180 participants over a three-month period.
+We also conducted phone, text, and online surveys before, during, and after the
 intervention period to collect feedback from users.
 {% endcapture %}
 
 {% capture results %}
-- Agile pilot project launched to build and test SMS-based notification tool
-- On a scale of 1 to 5 where 5 means the greatest satisfaction, surveyed pilot
+- Launched agile pilot project to build and test SMS-based notification tool
+- On a scale of 1–5 where 5 means the greatest satisfaction, surveyed pilot
   participants expressed an overall increase in average satisfaction rating
   from Care 4 Kids communication
-- These parents also expressed a 19% increase in confidence that documents were
+- Parents expressed a 19% increase in confidence that documents were
   being received by United Way
 - Provided larger-scale recommendations to address areas where pilot results shed
-  light on additional gaps, confusion and communications needs in the application
+  light on additional gaps, confusion, and communications needs in the application
   submission process
 
 {% include callout.html
