@@ -7,7 +7,7 @@ link: https://www.publicspendforum.net/podcasts/modernizing-government-it-microp
 description: Chris Cairns joins a panel of procurement experts to discuss how to modernize government technology through the creative use of micropurchasing authorities and modular contracting techniques.
 tags: [chris cairns]
 img: podcast-placeholder-02.svg
-img_description: Podcast icon
+img_description: Podcast icon.
 order: 30
 featured: false
 ---
