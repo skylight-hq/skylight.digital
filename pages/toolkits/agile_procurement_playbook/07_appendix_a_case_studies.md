@@ -60,7 +60,7 @@ The PWS in the BPA consisted of a mix of requirements that included the vendor's
 
 CMS knew that all of these skills would be necessary in the successful delivery of the modernization effort. The BPA also included a past-performance requirement, a voluntary down-select phase, and a design challenge phase. There were roughly 100 vendors to start, and a large percentage of the overall pool was eliminated at each phase. By the design challenge phase, only 15 vendors remained.
 
-Once CMS had a good idea of the skills that'd be necessary, they wrote a [design challenge](../appendix-e-design-challenge-examples#mpsm-design-challenge) that closely matched the first sets of work that would be coming through the BPA. The challenge required vendors to prove that they could execute on all of the different disciplines. By taking this approach, CMS could be assured that all vendors awarded a spot on the BPA would be ready to work in an agile fashion, saving time down the road.
+Once CMS had a good idea of the skills that'd be necessary, they wrote a [design challenge](../appendix-e-design-challenge-examples#example-1-mpsm-design-challenge) that closely matched the first sets of work that would be coming through the BPA. The challenge required vendors to prove that they could execute on all of the different disciplines. By taking this approach, CMS could be assured that all vendors awarded a spot on the BPA would be ready to work in an agile fashion, saving time down the road.
 
 ### Modular contracting
 

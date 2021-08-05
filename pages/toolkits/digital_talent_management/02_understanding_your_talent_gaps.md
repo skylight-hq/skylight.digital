@@ -46,7 +46,7 @@ hiring tech talent into government.
 ## Take steps to close gaps
 
 - Work with staff closest to the issue areas to understand the current process and existing constraints
-    - Consider producing a process map ([example](https://talentsum.com/wp-content/uploads/2015/04/candidate-journey-map.png)) to clearly identify the steps in a process and to ensure other stakeholders also have that visibility
+<!--     - Consider producing a process map ([example](https://talentsum.com/wp-content/uploads/2015/04/candidate-journey-map.png)) to clearly identify the steps in a process and to ensure other stakeholders also have that visibility -->
     - Identify the aspects of the process that pose the biggest challenges and target these for improvement
 - Establish tactical steps for improvement
 

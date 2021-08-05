@@ -65,10 +65,8 @@ Brian Elms of Denver's Peak Academy has an answer — focus on solving a problem
 - Tie funding to innovative programs. Quantify change in terms of dollars saved to make it easier to allocate budget to training and similar initiatives.
 - Frame the problems from the customer's perspective. If possible, bring a customer representative into process mapping sessions so that the team understands their point of view.
 
-Some cities are replicating Denver's success with their own "Peak Academies." Others are focused on training their innovation teams, or smaller groups focused on more specific problems. Here are some examples:
-- In 2017, Chattanooga, Tennessee started their own [Peak Academy](https://connect.chattanooga.gov/opmod/performance-management/peak-academy/) with no budget or dedicated staff. They have trained over 100 employees and saved over $100,000.
+Some cities are replicating Denver's success with their own "Peak Academies." Others are focused on training their innovation teams, or smaller groups focused on more specific problems. Here is an example:
 - In Miami, the procurement department sent all of their employees to the Miami Innovation Academy and have since streamlined the process for procuring engineering services. [They've cut out 40% of the forms and at least 30 days of wait time](https://medium.com/@BloombergCities/what-happens-when-an-entire-city-department-is-trained-to-innovate-b8ff4772161b).
-- The City of Durham publishes [training resources online](https://durhamnc.gov/3753/OPI-Trainings-Resources) so anyone can learn about Lean and other innovative strategies for problem solving.
 
 As more agencies adopt this training mentality, Elms sees that many others hesitate to allocate already overworked resources to set up and implement the program. "You can dip your toe in the water and have some success. But if you jump in, you'll have tremendous success," [he says](https://medium.com/@BloombergCities/replicating-denvers-peak-academy-a-conversation-with-brian-elms-8a24d5b5be0e).
 </div>

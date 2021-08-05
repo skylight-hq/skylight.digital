@@ -25,7 +25,6 @@ Probabilistic data linking combines individual records using a special algorithm
 <div class="callout--note" markdown="1">
 ### Recommended reading
 
-* [Two Methods Of Linking: Probabilistic And Deterministic Record-linkage Methods](https://aspe.hhs.gov/report/studies-welfare-populations-data-collection-and-research-issues/two-methods-linking-probabilistic-and-deterministic-record-linkage-methods)
 * [Linkage Feasibility—To Link or Not To Link](https://www.ncbi.nlm.nih.gov/books/NBK253318/)
 * [Data Matching Software Tools](https://github.com/J535D165/data-matching-software)
 * [Improving deduplication of identities](http://www.datasciencepublicpolicy.org//wp-content/uploads/2018/11/dedupewhitepaper.pdf)

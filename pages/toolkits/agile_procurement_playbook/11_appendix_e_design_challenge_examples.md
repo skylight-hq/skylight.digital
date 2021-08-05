@@ -14,7 +14,7 @@ Typically a design challenge should resemble the type of work that the governmen
 
 ## Example #1: MPSM design challenge
 
-Here's an example of a recent [design challenge]((https://fcw.com/blogs/lectern/2019/07/kelman-non-traditional-contractors.aspx)) put on by the Centers for Medicare & Medicaid Services (CMS) for its [Medicare Payment System Modernization](https://usds.gov/projects/medicare-payment-program) (MPSM) initiative:
+Here's an example of a recent [design challenge](https://fcw.com/blogs/lectern/2019/07/kelman-non-traditional-contractors.aspx) put on by the Centers for Medicare & Medicaid Services (CMS) for its [Medicare Payment System Modernization](https://usds.gov/projects/medicare-payment-program) (MPSM) initiative:
 
 Imagine that you've come upon the large monolithic legacy system responsible for executing and maintaining the workflow that processes Medicare claims in order to make payments to service providers. The maintenance of the system is proving to be unsustainable as time continues. We want you to modernize this system.
 

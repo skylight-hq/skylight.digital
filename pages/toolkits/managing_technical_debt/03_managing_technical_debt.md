@@ -23,7 +23,7 @@ It's easy to tell how much financial debt you're in by looking at your various a
 
 * **Slowing rate of velocity**. Velocity is a measurement for how much work a development team can complete during a particular interval (for example, two weeks). Assuming all other things are equal (for example, team composition hasn't changed), if velocity starts to slow down over the course of several iterations, it may be a sign that too much technical debt has piled up and is now impairing development productivity.
 
-* **Stressful releases**. If the development team is under extreme stress at the end of a release cycle, technical debt may be the underlying cause. You'll know something isn't quite right with the codebase if the release process requires the development team to go into "[crunch mode](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/)" to fix unforeseen problems such as broken integration builds and software crashes.
+* **Stressful releases**. If the development team is under extreme stress at the end of a release cycle, technical debt may be the underlying cause. You'll know something isn't quite right with the codebase if the release process requires the development team to go into "crunch mode" <!-- "[crunch mode](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/)" --> to fix unforeseen problems such as broken integration builds and software crashes.
 
 * **Aging libraries**. If your software uses libraries for which new versions exist, that represents technical debt. When those libraries are a "major version" behind (for example, EJB 2 vs. EJB 3, Devise 1 vs. Devise 3), or worse, and are no longer being maintained, then your project is deep in technical debt.
 
