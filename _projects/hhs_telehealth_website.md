@@ -56,9 +56,9 @@ practices:
   - Agile development
   - DevOps
 news_posts:
-  - title: "COVID-19 &#124; Five Things to Know About Telehealth During the COVID-19 Pandemic"
+  - title: COVID-19 | Five Things to Know About Telehealth During the COVID-19 Pandemic
     url: https://youtube.com/embed/1gK1dfWUKsA?rel=0
-  - title: Health Providers&#58; Join the Telehealth Revolution
+  - title: "Health Providers: Join the Telehealth Revolution"
     url: https://www.hiv.gov/blog/health-providers-join-telehealth-revolution
   - title: Product lessons from the front lines of COVID-19 civic tech response
     url: https://digital.gov/2020/10/16/product-lessons-from-the-front-lines-of-covid-19-civic-tech-response/
