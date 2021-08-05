@@ -41,7 +41,7 @@ With my experience in IoT, coupled with Skylight's expertise in areas such as le
 
 In addition, I've started to engage with a number of cities around the world that are looking to make use of smart city and IoT technologies, and have begun working with them to develop realistic implementation plans that embrace lean-agile engineering principles and open standards interoperability.
 
-I also worked on a [DARPA proposal](/story-of-a-darpa-proposal/) for a LoRa-based gunshot detection and location system that could, in theory, provide a two-order of magnitude reduction in both capital and operating expenditures when compared to current solutions. Our goal here isn't to commercialize this idea ourselves; it's simply the use case chosen for conducting research on the latest LPWAN technology coupled with an open API-based cloud platform.
+I also worked on a [DARPA proposal](/thoughts/blog/story-of-a-darpa-proposal/) for a LoRa-based gunshot detection and location system that could, in theory, provide a two-order of magnitude reduction in both capital and operating expenditures when compared to current solutions. Our goal here isn't to commercialize this idea ourselves; it's simply the use case chosen for conducting research on the latest LPWAN technology coupled with an open API-based cloud platform.
 
 And, finally, I'm working on issues for the energy industry related to data privacy, security, and safety — promoting the mantra "protect what you collect."
 

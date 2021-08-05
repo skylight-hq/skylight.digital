@@ -155,7 +155,7 @@ The following is a list of additional reading about items contained in this blog
 
 - [Progressive Web Apps: What is it all about?](https://indylogix.com/progressive-web-apps/)
 
-- [A gallery of progressive web apps](https://pwa.rocks/)
+<!-- - [A gallery of progressive web apps](https://pwa.rocks/) -->
 
 ### Hybrid Mobile Apps
 
@@ -165,7 +165,7 @@ The following is a list of additional reading about items contained in this blog
 
 - [The Top 5 Hybrid Mobile App Frameworks for 2018](https://www.websoptimization.com/blog/hybrid-mobile-app-frameworks/)
 
-- [Best Hybrid App Development Frameworks in 2018](https://blogs.systweak.com/2018/04/best-hybrid-app-development-frameworks/)
+<!-- - [Best Hybrid App Development Frameworks in 2018](https://blogs.systweak.com/2018/04/best-hybrid-app-development-frameworks/) -->
 
 - [Benefits and Disadvantages of Hybrid Mobile Apps](http://brookscanavesi.com/uncategorized/benefits-disadvantages-hybrid-mobile-applications/)
 
@@ -215,7 +215,7 @@ The following is a list of additional reading about items contained in this blog
 
 - [Native vs. Web vs. Hybrid Apps — What's the Difference? (2017)](https://blog.markgrowth.com/native-vs-web-vs-hybrid-apps-whats-the-difference-1df4c5e4bc50)
 
-- [Advantages and Disadvantages of Hybrid Mobile Apps Development (2017)](https://www.quape.com/hybrid-mobile-apps-development/)
+<!-- - [Advantages and Disadvantages of Hybrid Mobile Apps Development (2017)](https://www.quape.com/hybrid-mobile-apps-development/) -->
 
 - [Pros and Cons of Native, Hybrid and Web Apps (2016)](https://www.valagroup.com/fi/2016/09/pros-cons-native-hybrid-web-apps/)
 
