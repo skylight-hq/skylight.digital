@@ -56,7 +56,7 @@ practices:
   - Agile development
   - DevOps
 news_posts:
-  - title: COVID-19 | Five Things to Know About Telehealth During the COVID-19 Pandemic
+  - title: "COVID-19 &#124; Five Things to Know About Telehealth During the COVID-19 Pandemic"
     url: https://youtube.com/embed/1gK1dfWUKsA?rel=0
   - title: Health Providers&#58; Join the Telehealth Revolution
     url: https://www.hiv.gov/blog/health-providers-join-telehealth-revolution
@@ -116,8 +116,8 @@ to understand their familiarity with telehealth, where they go for information t
 potential barriers to providing or using telehealth
 - Prioritized content, validated early prototypes, and defined an initial product direction in
 line with business needs
-- Consulted subject-matter experts for feedback and content reviews- i>
-Ran moderated and unmoderated user research studies to further validate and iterate on designs
+- Consulted subject-matter experts for feedback and content reviews
+- Ran moderated and unmoderated user research studies to further validate and iterate on designs
 and content as we approached launch day
 - Drafted a content guide alongside the product itself to make sure we held ourselves to high-quality
 content standards, even at our rapid pace (and to guide future content development)

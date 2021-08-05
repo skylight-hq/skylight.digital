@@ -141,8 +141,8 @@ the potential for long-term consequences.
 plain language and are hard to remember (for example, Helmet 55/P, Anti-G Garment
 Cutaway). This made communicating issues extremely difficult, often requiring aircrew
 to sift through catalogs of items to find the right identifiers.
-- Some issues with gear are highly personal in nature and embarrassing to share with others.- i>
-There's still the prevalence of a “tough-it-out” culture within the military that can
+- Some issues with gear are highly personal in nature and embarrassing to share with others.
+- There's still the prevalence of a “tough-it-out” culture within the military that can
 make service members, including aircrew, reluctant to seek help.
 - If you think your life is busy and hectic, try walking in the shoes of a female pilot.
 There's virtually no slack in their schedules, especially during training sessions or
@@ -159,7 +159,7 @@ anonymously to avoid potential feelings of embarrassment. As part of the rollout
 launched a marketing and communications campaign to help overcome cultural and
 behavioral barriers to using the application — for example, “sitting in your pee
 isn't a rite of passage.” As a result of these efforts, a growing population of
-aircrew have started to use the application. And for the first time, HSD is
+aircrew have started to use the application. And, for the first time, HSD is
 able to collect and access quality data on gear issues from a central location,
 enabling them to better coordinate and communicate response actions.
 
@@ -183,8 +183,8 @@ behavorial obstacles, through a marketing and communications campaign
 - Demoed work to, and received praise from, former Secretary of
 the Air Force, Barbara Barrett, and her Chief of Staff,
 General David Goldfein
-- Continually improving the feedback application and expanding user adoption- i>
-Began second phase of work, focused on optimizing translation of
+- Continually improving the feedback application and expanding user adoption
+- Began second phase of work, focused on optimizing translation of
 feedback from aircrew into actionable requirements
 {% endcapture %}
 

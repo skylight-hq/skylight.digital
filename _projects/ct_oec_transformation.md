@@ -171,8 +171,8 @@ services. Thus far, our efforts have involved:
 - Launched several modernized services, including OEC's new online presence
 - Built up internal digital capacity through talent support, training,
   pairing, and best-practice toolkits
-- Accelerated the adoption of modern acquisition practices- i>
-  Helped enable over 200 professionals to work more effectively in a virtual environment
+- Accelerated the adoption of modern acquisition practices
+- Helped enable over 200 professionals to work more effectively in a virtual environment
 {% endcapture %}
 
 {% include project.html
