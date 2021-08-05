@@ -89,7 +89,7 @@ To help USRAP prepare to admit 125,000 refugees in FY2022 (up from 15,000 in
 [Penn Biden Center](https://global.upenn.edu/penn-biden-center) and
 Eric Hysen, senior fellow at the
 [National Conference on Citizenship](https://ncoc.org/), took a
-human-centered-design approach to formulating our recommendations. In dozens
+human-centered design approach to formulating our recommendations. In dozens
 of video calls, we talked to experts responsible for shaping policy,
 implementing operations, or advocating for USRAP. We met with refugees who
 experienced the admissions process. Using trauma-informed interviewing
@@ -140,9 +140,9 @@ Source: Penn Biden Center/NCoC
 - Helped write a [50-page report](https://global.upenn.edu/penn-biden-center/refugee-admissions-project) and [complementary paper](https://global.upenn.edu/sites/default/files/penn-biden-center/Restoring%20U.S.%20Global%20Leadership%20on%20Refugee%20Protection.pdf)
 - Created a journey map of the U.S. Refugee Admissions Program from the
   perspective of a refugee
-- Two project leads were hired into the Biden Administration: (Eric Hysen as
+- Two project leads were hired into the Biden Administration: Eric Hysen as
   Chief Information Officer at DHS and Ariana Berengaut as Senior Advisor to
-  National Security Advisor, Jake Sullivan), giving the recommendations more
+  National Security Advisor, Jake Sullivan, giving the recommendations more
   hope of implementation
 {% endcapture %}
 
