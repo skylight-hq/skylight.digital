@@ -87,12 +87,12 @@ multiple pain points because of how JOCAS II was originally implemented. For exa
 - The user interface requires extensive training and reference documentation on how to use
 - Parts of the interface are so insufficiently designed that critical data can't be captured
 effectively to ensure accurate labor entry and cost accounting
-- Workflow gaps risk compliance with government regulations and security vulnerabilities- i>
-Each Air Force base has a separate database, which makes unified data management and
+- Workflow gaps risk compliance with government regulations and security vulnerabilities
+- Each Air Force base has a separate database, which makes unified data management and
 reporting extremely difficult
 
 Because of these issues, the USAF decided to launch a modernization initiative called
-JOCAS III. And sought an experienced digital team who could help execute the transformation
+JOCAS III and sought an experienced digital team who could help execute the transformation
 in a low-risk, high-value way.
 {% endcapture %}
 
@@ -103,7 +103,7 @@ until all its key functionalities are replaced — a proven architectural approa
 as the [strangler pattern](https://martinfowler.com/bliki/StranglerFigApplication.html).
 
 After conducting extensive user research and technical discovery, we decided that
-the best place to start the modernization process is with the Labor Entry, Approvals,
+the best place to start the modernization process was with the Labor Entry, Approvals,
 and Adjustments component of JOCAS II, which supports over 12,000 users. Employees
 use this component to track, obtain approval, and get paid for how much time they
 spend on projects, factoring in pay differentials such as overtime and night shifts.

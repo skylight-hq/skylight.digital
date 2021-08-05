@@ -65,14 +65,14 @@ in order to achieve this important goal.
 The VA operates the nation's largest healthcare system, called
 the Veterans Healthcare Administration (VHA). It consists of 150 medical
 centers and nearly 1,400 community-based outpatient clinics, community
-living centers, Vet centers, and domiciliary. Together these healthcare
+living centers, Vet centers, and domiciliary. Together, these healthcare
 facilities, and the more than 53,000 licensed healthcare practitioners,
 provide comprehensive care to more than 8.3 million veterans each year.
 
 When proven healthcare practices emerge in one or more of the VHA's operations,
-how do you systematically identify and spread the adoption of those across the
+how do you systematically identify and spread their adoption across the
 VHA's healthcare delivery network? That's the challenge the VA has been facing,
-and an important one to solve given the life-saving implications.
+and it's an important one to solve given the life-saving implications.
 {% endcapture %}
 
 {% capture solution %}
@@ -81,11 +81,11 @@ working with the VHA to address this challenge through the delivery of a knowled
 platform called the Diffusion Marketplace. The purpose of this platform is to empower VHA
 practitioners and other employees to identify and disseminate promising healthcare practices.
 
-We've aligned our delivery approach to the [VA's Digital Service Handbook](https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards).
-And focused our initial product strategy on figuring out how to design an
+We've aligned our delivery approach to the [VA's Digital Service Handbook](https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards)
+and focused our initial product strategy on figuring out how to design an
 experience that leads to the wider adoption of three life-saving and cost-saving
 practices (for example, rapid naloxone delivery). These practices have already been
-proven to work at small subset of the VHA's healthcare facilities.
+proven to work at a small subset of the VHA's healthcare facilities.
 
 After validating our primary design solution through research and prototyping,
 we rapidly iterated toward the release of beta and production versions of the
@@ -104,7 +104,8 @@ searches with exploratory browsing
 
 {% capture results %}
 - Delivered an alpha version of the platform within two months
-- Launched a beta version with a small user base in the summer of 2019- i>- - li>- Expanded the number of practices to 119 in total
+- Launched a beta version with a small user base in the summer of 2019 
+- Expanded the number of practices to 119 in total
 - Facilitated the adoption of 100 practices through the platform itself
 {% endcapture %}
 

@@ -91,7 +91,7 @@ determinations (such as whether it's safe for a parachutist to jump)
 pen-and-paper forms
 - The slow speed of running reports eats up a lot of valuable time
 
-Because of these issues, the USAF decided to modernize ARMS. And sought an experienced
+Because of these issues, the USAF decided to modernize ARMS and sought an experienced
 digital team who could help do so in a way that delivers immediate value and safeguards
 continuity of mission operations.
 {% endcapture %}
@@ -103,7 +103,7 @@ until all its key functionalities are replaced — a proven architectural approa
 as the [strangler pattern](https://martinfowler.com/bliki/StranglerFigApplication.html).
 
 After conducting extensive user research and technical discovery, we decided that the best
-place to start the modernization process is with the Jumps Module. Aviation resource
+place to start the modernization process was with the Jumps Module. Aviation resource
 managers use this module to manage the jump training records of parachutists. We
 re-engineered this functionality as a separate application, an effort which involved:
 
@@ -120,8 +120,8 @@ one can be retired.
 {% capture results %}
 - Rapidly developed a prototype of the new Jumps Module to demonstrate the
 feasibility of our modernization approach, earning stakeholder buy-in
-- Preparing to launch a production version of the new application- i>
-Beginning the process of modernizing the other modules of ARMS,
+- Preparing to launch a production version of the new application
+- Beginning the process of modernizing the other modules of ARMS,
 starting with user research and technical discovery
 {% endcapture %}
 

@@ -87,23 +87,23 @@ To create an organizational-wide design system for BESPIN, we started off by
 conducting research to learn more about their designers' needs, pain points,
 workflow processes, and tools. From [our team's experience in building robust design systems](/thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/),
 such as the U.S. Web Design System, we know that identifying
-common patterns in the current design environment is critical for being able
-to pinpoint high-impact opportunities for improvement.
+common patterns in the current design environment is critical
+to pinpointing high-impact opportunities for improvement.
 
 Our research process featured a number of techniques, including a visual design audit,
 a user interface component inventory, and several rounds of interviews.
 
 As a result of our research, we found that:
 
-- Overall, current Air Force design doesn't meet the expectations of users, and is
+- Overall, current Air Force design doesn't meet the expectations of users and is
 often viewed as outdated, overwhelming, and disjointed.
 - Designers look toward existing design systems, such as Google's Material Design, for
 inspiration, but these systems can be opinionated and their patterns don't always work
 for Air Force projects, especially mobile use cases, and need to be modified.
 - In most cases, teams want something they can use out of the box with little change.
-Others who are more comfortable with making changes and have the resources, want a
+Other teams that are more comfortable with making changes and have the resources to do so want a
 solid foundation that they can build upon and mold to fit their needs.
-- Because product teams lack access to a unified system for design, this has led to a
+- Lack of access to a unified system for design has led to a
 number of issues — such as breakdowns in product direction and difficulty maintaining
 design quality while trying to keep up with the pace of agile release cycles.
 

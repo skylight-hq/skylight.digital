@@ -110,8 +110,8 @@ accessible, meeting the everyday needs of an important new branch of the U.S. mi
 - Launched an MVP portal in under two months to share critical information organization-wide
 - Partnered with Space Force to design an intuitive user experience, modern look and feel,
 and easy-to-find content
-- Laid the groundwork for a broader portal buildout in the future- i>
-Received positive feedback and recognition from Space Force service members and leadership
+- Laid the groundwork for a broader portal buildout in the future
+- Received positive feedback and recognition from Space Force service members and leadership
 {% endcapture %}
 
 {% include project.html
