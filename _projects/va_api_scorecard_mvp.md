@@ -47,7 +47,7 @@ source_code_url: https://github.com/skylight-hq/va-api-scorecard
 ---
 
 {% capture summary %}
-The Veterans Affairs needed to start preparing for how best to govern
+The Veterans Affairs (VA) needed to start preparing for how best to govern
 their growing portfolio of APIs. So we built them a minimum viable
 product (MVP) of an API Scorecard governance tool.
 {% endcapture %}
