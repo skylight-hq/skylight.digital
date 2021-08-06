@@ -23,7 +23,7 @@ project_members:
   - lara-kohl
 technologies:
   - Google Workspace
-  - Mural
+  - MURAL
   - Airtable
   - Zoom
   - Excel

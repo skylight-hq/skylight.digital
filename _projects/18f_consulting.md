@@ -21,7 +21,7 @@ technologies:
   - Google Workspace
   - Trello
   - Slack
-  - Mural
+  - MURAL
   - appear.in
   - cloud.gov / Amazon Web Services
   - Federalist / GitHub Pages

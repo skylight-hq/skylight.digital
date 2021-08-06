@@ -40,7 +40,7 @@ technologies:
   - HTML / CSS / SVG
   - JavaScript / JSON / React
   - U.S. Web Design System
-  - Mural
+  - MURAL
   - Sketch
   - InVision
   - Smartsheets

@@ -22,7 +22,7 @@ technologies:
   - Google Workspace
   - SurveyMonkey
   - Trello
-  - Mural
+  - MURAL
 practices:
   - Qualitative / quantitative research
   - Consulting
