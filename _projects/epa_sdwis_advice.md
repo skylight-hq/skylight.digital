@@ -49,18 +49,18 @@ The EPA was concerned about the progress of this architecture, as well as
 the viability of migrating large volumes of historical data to their new
 system. Among the concerns they faced, there were several complicating factors:
 
-- High degree of complexity due to an overreliance by states on data tables;
-- A lack of transactional records for much of the data, making it difficult to
-audit or track changes to the data pipeline; and
-- A new and completely unfamiliar data schema for SDWIS Prime, which made
-importing and exporting the data difficult. Transformations would have
-to be routinely performed to ingest data, and it'd have to be undone
+- High degree of complexity due to an overreliance by states on data tables
+- Lack of transactional records for much of the data, making it difficult to
+audit or track changes to the data pipeline
+- New and completely unfamiliar data schema for SDWIS Prime, which made
+importing and exporting the data difficult 
+-Transformations would have to be routinely performed to ingest data and would have to be undone
 again every time the system exported information to a state due to the
-custom application of the output format.
+custom application of the output format
 
-In addition, difficulty with DevOps practices such as delivery cadence,
+In addition, difficulty with DevOps practices, such as delivery cadence,
 non-uniform environments between systems, and a lack of comprehensive
-testing strategy slowed down the SDWIS Prime development.
+testing strategy, slowed down the SDWIS Prime development.
 {% endcapture %}
 
 {% capture solution %}
@@ -69,12 +69,12 @@ we conducted a comprehensive review of the state of the SDWIS Prime initiative,
 including existing technical practices and technologies.
 During this workshop, we worked with the team to understand and ingest all available
 information, as well as synthesize this knowledge into a discrete set of concerns
-that we could use to present recommendations. Over the course of a 4-hour
+that we could use to present recommendations. Over the course of a four-hour
 consultation, Skylight charted:
 
 - The background and history of the SDWIS program
-- The team's understanding of the progress of the new data system- i>
-The known pain points and obstacles to successful implementation
+- The team's understanding of the progress of the new data system
+- The known pain points and obstacles to successful implementation
 
 We synthesized this information into an analytic technical and recommendation
 report that we delivered to the EPA two days after the consultation.
@@ -82,7 +82,7 @@ report that we delivered to the EPA two days after the consultation.
 
 {% capture results %}
 - Delivered a four-page, analytically-synthesized report to the EPA addressing
-our understanding of the state of SDWIS Prime and including recommendations
+our understanding of the state of SDWIS Prime and providing recommendations
 for pivoting resources going forward
 - Report served as an important catalyst to bridge the communication gap
 between the EPA's technical teams and leadership
