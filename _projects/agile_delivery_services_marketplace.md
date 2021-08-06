@@ -96,12 +96,12 @@ approaches:
 {% capture results %}
 - Attracted over 700 attendees to industry outreach events
 - Received over 200 proposal submissions, all delivered via public GitHub repos
-- Completed technical evaluation of all proposals within weeks by only three people
+- Completed technical evaluation of all proposals within weeks with only three people
 - Issued awards to 17 vendors
 - Soundness of evaluation methodology withstood eight protests
 - Lauded by industry, Congress, and the White House's Office of Management and Budget
   as a model for agencies to follow
-- Inspired several federal and state & local agencies (for example,
+- Inspired several federal, state, and local agencies (for example,
   Department of Homeland Security, Environmental Protection Agency, State of
   California, and State of Mississippi) to create a similar marketplace
 - Used by nearly a dozen federal agencies who experienced improved contractual
