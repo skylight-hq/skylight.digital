@@ -34,7 +34,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force's (USAF's) Business Enterprise Systems Product INnovation (BESPIN)
+The U.S. Air Force's (USAF) Business Enterprise Systems Product INnovation (BESPIN)
 group needed help scaling their design capacity. We're working with them to implement
 a design system that'll enable their growing number of teams to achieve higher efficiency
 and quality when building digital products.
