@@ -66,12 +66,12 @@ initiative in several key areas, including:
   user-centered design
 - Established a collaborative design platform aimed at constantly reinforcing the
   principles and practices of user-centered design
-- Engineered the frontend experience of the application
+- Engineered the front-end experience of the application
 {% endcapture %}
 
 {% capture results %}
 - Injected user-centered design principles and practices into the overall delivery
-  process, without slowing down production
+  process — without slowing down production
 {% endcapture %}
 
 {% include project.html
