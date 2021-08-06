@@ -48,7 +48,7 @@ CMCS plays an essential role in supporting the nation’s public healthcare syst
 
 CMCS’ ability to deliver timely, reliable, and comprehensive Medicaid and CHIP data using technology and analytical solutions is critical to the success of its mission. To that end, CMCS depends on a $100M+ portfolio of systems called Medicaid and CHIP Business Information Systems (MACBIS). Collectively, these systems provide the infrastructure necessary for defining, collecting, and analyzing data related to Medicaid and CHIP, including claims, finances, and program compliance. MACBIS serves the needs of thousands of users and stakeholders inside and outside of government, from all 50 states to Congress. Integrated, high-quality systems are essential for delivering data and analytical solutions to these populations.
 
-However, MACBIS systems have historically operated in silos, even though many serve the same end users and manage similar data. In addition, these systems were predominately being built and maintained using traditional software delivery and data management practices. As a result, MACBIS suffered from:
+However, MACBIS systems have historically operated in silos, even though many serve the same end users and manage similar data. In addition, these systems were predominately being built and maintained using traditional software delivery and data management practices. As a result, MACBIS has suffered from:
 
 - Lack of a cohesive product strategy
 - Suboptimal, disjointed user experience journeys
