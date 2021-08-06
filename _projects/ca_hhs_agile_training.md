@@ -50,7 +50,7 @@ technical and organizational culture toward agile principles. As an
 organization, the Office is responsible for lean design thinking and
 delivering innovative solutions to important problems. So it was
 important for the Office to not only "do" agile, but to "be" agile. However,
-they were experiencing difficulty connecting the elements of agile
+they were finding it difficult to connect the elements of agile
 together, such as planning, testing, and iteration.
 {% endcapture %}
 
