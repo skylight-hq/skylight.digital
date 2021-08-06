@@ -64,7 +64,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force's (USAF's) Aviation Resource Management System (ARMS) is a critical
+The U.S. Air Force's (USAF) Aviation Resource Management System (ARMS) is a critical
 tool for collecting, managing, and reporting data about aviation resources and aircrew
 readiness. As a subcontractor to Fearless, we're helping to revamp the user experience,
 technical architecture, and technology stack of this complex legacy system.
