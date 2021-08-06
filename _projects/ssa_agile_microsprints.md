@@ -68,7 +68,7 @@ retrospectives.
 {% endcapture %}
 
 {% capture results %}
-- Brought together users and developers into the room for the first time
+- Brought together users and developers into the same room for the first time
 - Within just three days of work, produced an astounding improvement to the
 usability of the system, as expressed by representative users
 - Gave leadership practical insight into the transformative nature of
