@@ -54,7 +54,7 @@ lacked in-depth experience operating in this new way.
 {% endcapture %}
 
 {% capture solution %}
-To address this challenge, Chris Cairns and Shashank Khandelwal, as a members of 18F, designed an approach to
+To address this challenge, Chris Cairns and Shashank Khandelwal, as members of 18F, designed an approach to
 kickstart the organization's adoption of a cloud-based operating model. This involved
 pairing TSA with an expert team of site reliability engineers who:
 
