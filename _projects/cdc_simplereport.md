@@ -109,7 +109,7 @@ To strengthen COVID-19 testing data, the Centers for Disease Control and Prevent
 
 SimpleReport is designed to be used as both a workflow and reporting tool for any POC test, regardless of whether or not it has a digital connection. This eliminates the need for POC testing sites to invest in IT or systems that won't have broad, long-term use. SimpleReport results are automatically sent to public health departments via a single point of connection called ReportStream, which is also part of PRIME. SimpleReport results are delivered in the format, and at the cadence, of public health requests, leading to a more accurate data sample. Not only that, SimpleReport provides structured data to health departments, so they don't have to spend time on additional clean-up.
 
-Our team's focused on continually improving the tool by:
+Our team focused on continually improving the tool by:
 
 - Building, designing, and launching the app's landing page within weeks to make sure any testing site interested in SimpleReport had all the necessary info to sign up
 - Developing a new patient experience feature for the product, allowing patients to complete their own pre-screening questions, thereby providing improved privacy for patients and more complete data for health departments
