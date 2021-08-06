@@ -74,11 +74,11 @@ People find traditional ways of communicating with businesses
 {% capture solution %}
 Given the rise and convenience of text messaging, Sean Johnson and the TalkTo
 team created web and native mobile versions of an application that lets consumers
-text any business at all, even those that have never heard of TalkTo, and receive
+text any business, even those that've never heard of TalkTo, and receive
 a response within five minutes. Speed and reliability were critical aspects of the
 user experience so Erlang, which is known for its ability to support massively
 scalable soft real-time systems with requirements on high availability, was chosen
-as the backend.
+as the back end.
 {% endcapture %}
 
 {% capture results %}
