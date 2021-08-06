@@ -10,7 +10,7 @@ content_type: Toolkit
 
 # Enabling data sharing
 
-## Identify who plays each data-related role.
+## Identify who plays each data-related role
 
 Identifying who plays each data-related role allows organizations to establish who has the responsibility of fielding external inquiries, designing sharing procedures, and executing requests. The first step in setting up a strong data governance model and maintaining institutional knowledge of the data sharing process is to establish and communicate these roles.
 
@@ -36,7 +36,7 @@ Legal counsel is a person or team that can evaluate data access and use and help
 
 This person or team develops and implements policies and procedures to protect individual rights and comply with federal and state law. The privacy and compliance officer also investigates any data incidents and breaches.
 
-## Create and publish a data dictionary.
+## Create and publish a data dictionary
 
 A publicly available data dictionary helps requesters understand what data your agency owns. It can also help them craft requests that reference specific tables and fields, making the request easier to fulfill. The data dictionary should:
 
@@ -44,7 +44,7 @@ A publicly available data dictionary helps requesters understand what data your 
 - Contain information on how each of the datasets was collected
 - Define the individual fields in each of the datasets
 
-## Document metadata.
+## Document metadata
 
 Metadata is a set of information that describes what the fields in a dataset are. It provides data about your data. It includes information such as when and how the data was gathered or any other information that might describe an aspect of the data. It's important to keep detailed notes on the metadata and process by which the data was collected, because this information can facilitate easier and more effective use later on.
 
@@ -61,38 +61,38 @@ When tracking metadata, it's important to:
 - Be consistent about the language you use to describe metadata
 - Avoid acronyms and language that might be specific to you or your agency, since metadata can help recipients of data sharing understand what a dataset is all about
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Recommended reading
 
 - [Manually creating a data dictionary](https://data.nal.usda.gov/manually-creating-data-dictionary)
 - [Smithsonian data management best practices](https://data.nal.usda.gov/manually-creating-data-dictionary)
 </div>
 
-## Review data for implicit biases.
+## Review data for implicit biases
 
 As organizations become more data-driven, data experts are discovering more instances in which unaccounted biases in data perpetuate racism, sexism, and other forms of discrimination.
 
 The data that government agencies, academic researchers, and other organizations collect most likely contain implicit biases. These biases can be introduced due to:
 
-- **Whose data is collected** &mdash; Does a dataset contain a representative sample of people across different demographics and backgrounds (that is, multiple races, ethnicities, geographic locations, ages, genders, etc.)?
-- **Whose data isn't collected** &mdash; Does the data leave out a specific demographic group that might not frequent the service where the data is collected?
-- **How the data is collected** &mdash; For example, is the data collected via interview in one area and via a form somewhere else?
+- **Whose data is collected** — Does a dataset contain a representative sample of people across different demographics and backgrounds (that is, multiple races, ethnicities, geographic locations, ages, genders, etc.)?
+- **Whose data isn't collected** — Does the data leave out a specific demographic group that might not frequent the service where the data is collected?
+- **How the data is collected** — For example, is the data collected via interview in one area and via a form somewhere else?
 
 Consider possible sources of bias in your agency's data carefully. If you don't identify possible bias, communicate it to data requesters, and work to reduce it, the decisions made based on your data may have unintended, serious societal implications.
 
-<div class="callout" markdown="1">
+<div class="callout--example" markdown="1">
 ### An example of how implicit bias can have unintended consequences:
 
 Researchers discovered that a major health provider's algorithm favored white patients over black patients when deciding who would benefit from extra medical care. The researchers attributed the algorithm's bias to the data that was used to create it. Researchers noted that the health provider attempted to prevent bias by omitting the patient's race in the algorithm. Nevertheless, the algorithm amplified underlying inequities in access to healthcare. In the U.S., white patients incur more medical costs than black patients due to long-standing disparities in wealth and access to healthcare. Because of this difference in access to care, the algorithm perpetuated the disparity by determining that white patients would benefit more from extra medical care than sicker black patients. (Source: [Racial bias in a medical algorithm favors white patients over sicker black patients](https://www.washingtonpost.com/health/2019/10/24/racial-bias-medical-algorithm-favors-white-patients-over-sicker-black-patients/).)
 </div>
 
-## Work to eliminate possible sources of bias.
+## Work to eliminate possible sources of bias
 
 Data analysts are ultimately responsible for how they use your agency's data; however, as the data owners and experts, you can help data analysts avoid biases in data that perpetuate racism, sexism, and other forms of discrimination.
 
 First, be open about the limitations of the agency's data to reduce the likelihood that it will be used in ways that have unintended consequences. Second, work towards systemic changes to data collection practices. Finally, require data requesters to demonstrate responsible use of your agency's data. The recommended reading below provides guidance on identifying and eliminating sources of implicit bias.
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Recommended reading
 
  - [Algorithmic Justice League](https://www.ajlunited.org/)
@@ -105,11 +105,11 @@ First, be open about the limitations of the agency's data to reduce the likeliho
  - [When computers make biased health decisions, black patients pay the price, study says](https://www.latimes.com/science/story/2019-10-24/computer-algorithm-fuels-racial-bias-in-us-healthcare)
 </div>
 
-## Develop a data request process.
+## Develop a data request process
 
 A clearly documented data request process can facilitate successful requests. This section covers some of the supporting documents to develop as part of a comprehensive data request process.
 
-Remember that the data request process must abide by the regulations and laws that apply to each dataset. For more detailed information, refer to [Establish a privacy policy](/work/toolkits/data-sharing-playbook/safeguarding-data#establish-a-privacy-policy).
+Remember that the data request process must abide by the regulations and laws that apply to each dataset. For more detailed information, refer to the section on [establishing a privacy policy](/work/toolkits/data-sharing-playbook/safeguarding-data#establish-a-privacy-policy).
 
 ### Request form
 

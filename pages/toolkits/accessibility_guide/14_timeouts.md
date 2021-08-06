@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Timeouts | Skylight Accessibility Guide
-description: "How we deal with timeouts."
+description: How we deal with timeouts.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/timeouts/
 sidenav: accessibility_guide
@@ -60,4 +60,4 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
   </form>
 </div>
 
-> This passes because a timeout does occur, but you're given more than 20 seconds to request more time.
+This passes because a timeout does occur, but you're given more than 20 seconds to request more time.

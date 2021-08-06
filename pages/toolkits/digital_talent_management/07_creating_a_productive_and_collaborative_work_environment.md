@@ -23,12 +23,15 @@ As teams envision and build products, they need space for conducting in-person w
 
 ## Ensure your teams have modern hardware and software
 
-Digital team members will need access to modern software and services to do their jobs well. They'll likely already be familiar with many tools commonly used in industry and will be productive with them. The tables later in this section include examples of popular tools, but these aren't exhaustive lists &mdash; ask your staff what tools they need.
+Digital team members will need access to modern software and services to do their jobs well. They'll likely already be familiar with many tools commonly used in industry and will be productive with them. The tables later in this section include examples of popular tools, but these aren't exhaustive lists — ask your staff what tools they need.
 
-<blockquote class="post-blockquote" cite="https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0">
-<p>"Of public sector job seekers, 43% of 18 to 34 year olds indicated that the government's readiness to adopt the latest technology had a major impact on their willingness to work in government."</p>
-<cite><strong>NASCA, Accenture, and NEOGOV</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Of public sector job seekers, 43% of 18 to 34 year olds indicated that the government's readiness to adopt the latest technology had a major impact on their willingness to work in government."
+  cite_name = "NASCA, Accenture, and NEOGOV"
+  cite_title = "Job One: Reimagine Today’s State Government Workforce"
+  cite_url = "https://collaborate.nasca.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=3cbd8f19-fd2e-c0c6-3575-f64cc9cdf35f&forceDialog=0"
+%}
 
 ## Have a remote-first mindset
 
@@ -81,11 +84,13 @@ Name | Purpose | Remote Friendly
 - Establish a simple process for teams to request additional software and services
 {: .list-checklist}
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [How rethinking your workspace can spur innovation](https://medium.com/@BloombergCities/how-rethinking-your-workspace-can-spur-innovation-ef6ff553b75b)
+</div>
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: 18F
 
 [18F](https://18f.gsa.gov/), a tech team within the U.S. General Services Administration, partners with agencies to help them build, buy, and share technology that improves the user experience of government services. With team members all over the country, 18F employs a number of strategies to [make their remote-first mindset work](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/):

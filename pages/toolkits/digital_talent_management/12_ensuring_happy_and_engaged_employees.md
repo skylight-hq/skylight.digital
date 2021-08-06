@@ -10,10 +10,13 @@ content_type: Toolkit
 
 # Ensuring happy and engaged employees
 
-<blockquote class="post-blockquote" cite="https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-the-work-really-looks-like/">
-<p>"Just as interacting with government can be hard, working within government to improve those interactions is also hard. People management is hard, the silos are hard, the bureaucracy is hard."</p>
-<cite><strong>Hana Schank and Sara Hudson</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Just as interacting with government can be hard, working within government to improve those interactions is also hard. People management is hard, the silos are hard, the bureaucracy is hard."
+  cite_name = "Hana Schank and Sara Hudson"
+  cite_title = "Getting the Work Done: What Government Innovation Really Looks Like"
+  cite_url = "https://www.newamerica.org/public-interest-technology/reports/problem-solving-government/what-the-work-really-looks-like/"
+%}
 
 Recognize that working within the government is hard. And in today's economy, digital talent have plenty of job opportunities. You'll need to make an effort to ensure your employees are happy and engaged with their work.
 

@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Appendix C&#58; Templates | Skylight Agile Procurement Playbook
+title: "Appendix C: Templates | Skylight Agile Procurement Playbook"
 description: A guide on how to apply the principles of agile to procurement.
 tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-c-templates/
@@ -64,7 +64,7 @@ The methods of evaluating Vendor compliance may vary depending on the PWS. The C
 
 **100 Percent Evaluation**
 
-This is the appropriate method of evaluating infrequent tasks or tasks with stringent performance requirements &mdash; for example, where safety or health is a concern. With this method, performance is inspected/evaluated at each occurrence. One hundred percent inspection is too expensive to be used in most cases.
+This is the appropriate method of evaluating infrequent tasks or tasks with stringent performance requirements — for example, where safety or health is a concern. With this method, performance is inspected/evaluated at each occurrence. One hundred percent inspection is too expensive to be used in most cases.
 
 **Random Review**
 
@@ -104,4 +104,4 @@ Unacceptable performance doesn't meet the specified standard and exceeds the all
 | <em>...</em> | <em>...</em> | <em>...</em> | <em>...</em> | <em>...</em> | <em>...</em> |
 
 18F has a [great example of a Quality Metrics Table that includes a QASP](https://github.com/18F/technology-budgeting/blob/master/handbook.md#appendix-b-sample-quality-assessment-surveillance-plan-qasp).
-{: .callout--alt}
+{: .callout--tip }

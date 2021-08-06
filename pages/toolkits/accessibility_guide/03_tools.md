@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Tools | Skylight Accessibility Guide
-description: "Tools we use to improve and test accessibility."
+description: Tools we use to improve and test accessibility.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/tools/
 sidenav: accessibility_guide
@@ -22,7 +22,6 @@ toolkit_name: accessibility-guide
 ### Color impairment
 
 * [Color Oracle](http://colororacle.org/) is another desktop application for simulating color impairment on your entire screen
-* [Daltonize](http://daltonize.appspot.com/) is a collection of bookmarklets that simulate the three most common forms of color impairment (protanopia, deuteranopia, and tritanopia) on any web page
 * [colourblind](https://github.com/Altreus/colourblind) is another simulation tool similar to Daltonize, but with more options (protanopia, protanomaly, deuteranopia, deuteranomaly, tritanopia, tritanomaly, achromatopsia, and achromatomaly) in a single bookmarklet
 * [postcss-colorblind](https://github.com/btholt/postcss-colorblind) is a CSS build tool that modifies colors in your CSS to simulate [four common impairment groups](https://github.com/skratchdot/color-blind#color-blindness-table)
 
@@ -38,10 +37,9 @@ These tools can be used to test sites for Section 508 and WCAG compliance in bro
 
 ## Autocomplete widgets
 
-These JavaScript widgets produce HTML with [ARIA autocomplete](http://www.w3.org/TR/wai-aria/states_and_properties#aria-autocomplete) attributes:
+These JavaScript widgets produce HTML with ARIA autocomplete attributes:
 
 * [Awesomplete](http://leaverou.github.io/awesomplete/) is dependency-free
-* [jQuery UI autocomplete](http://jqueryui.com/autocomplete/) requires jQuery
 * [Select2](https://select2.github.io/) also requires jQuery
 
 ## Automated testing

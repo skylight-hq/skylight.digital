@@ -48,6 +48,9 @@
   {% if page.image and page.image_description %}
     {% assign image = site_url | append: page.image %}
     {% assign image_description = page.image_description %}
+  {% elsif layout.image and layout.image_description %}
+    {% assign image = site_url | append: layout.image %}
+    {% assign image_description = layout.image_description %}
   {% else %}
     {% assign image = site_image %}
     {% assign image_description = site_image_description %}
@@ -228,27 +231,33 @@
     </script>
   {% endif %}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#468fba">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/favicon-16x16.png">
+  <link rel="manifest" href="{{site.baseurl}}/site.webmanifest">
+  <link rel="mask-icon" href="{{site.baseurl}}/safari-pinned-tab.svg" color="#468fba">
   <meta name="apple-mobile-web-app-title" content="Skylight">
   <meta name="application-name" content="Skylight">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <script src="https://kit.fontawesome.com/9942b8e4b9.js" crossorigin="anonymous"></script>
+  <!-- hello -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" type="text/css">
+<!--   <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;1,400&family=Roboto+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
   {% if page.preload %}
-    <link rel="preload" href="/img/{{ page.preload }}" as="image">
+    <link rel="preload" href="{{site.baseurl}}/img/{{ page.preload }}" as="image">
   {% endif %}
-  <script src="/js/jquery.slim.min.js"></script>
-  <script src="/js/tether.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/jquery.scrolldepth.min.js"></script>
-  <script src="/js/pagination.min.js"></script>
-  <script src="/js/script.js?v=7"></script>
+  <script src="{{site.baseurl}}/js/jquery.slim.min.js"></script>
+  <script src="{{site.baseurl}}/js/jquery.scrolldepth.min.js"></script>
+  <script src="{{site.baseurl}}/js/tether.min.js"></script>
+  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+  <script src="{{site.baseurl}}/js/pagination.min.js"></script>
+  <script src="{{site.baseurl}}/js/script.js?v=7"></script>
 
   {% assign _scripts = '' | split: '|'
   | push: _site_scripts

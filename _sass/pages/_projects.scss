@@ -4,17 +4,13 @@
 
 .page-our-experience {
   .page-header-1 {
-    @extend %mb-5;
+    margin-bottom: 2rem !important;
   }
 
   .filter-post-tags {
     @extend %mb-3;
-    min-height: 30px;
+    min-height: 35px;
   }
-}
-
-.projects {
-  @extend %wide-column;
 }
 
 .projects-row {
@@ -25,6 +21,7 @@
 @include multi-col-spacing('project-col', $mb-size: 4, $mb-md-size: 5);
 
 .project-footer {
+  font-family: $font-family-mono;
   line-height: 1;
   padding-bottom: 1.25rem;
   padding-top: 0;
@@ -32,10 +29,14 @@
 
 .employee-footer {
   display: flex;
-  justify-content: center;
-  padding: .75rem 1.25rem;
+  padding: 0 1.25rem .75rem 1.25rem;
 
   a {
+    font-size: $font-size-large;
     margin: 0 8px;
+
+    &:first-child {
+      margin-left: 0;
+    }
   }
 }

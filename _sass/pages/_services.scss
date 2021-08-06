@@ -6,7 +6,13 @@
 .page-our-services {
   .prose {
     li {
-      padding-bottom: 1rem;
+      &:not(:first-child) {
+        margin-top: 0.5rem;
+      }
+
+      a {
+        padding-top: 0.5rem;
+      }
     }
   }
 }
@@ -18,5 +24,108 @@
     @include media-breakpoint-up(xl) {
       width: 80%;
     }
+  }
+
+  h3 {
+    @include media-breakpoint-down(xs) {
+      margin-top: 1em;
+    }
+  }
+}
+
+.page-service-design {
+  .hero-banner {
+    background-image: url(/img/service_design/hero-mobile-service-design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include media-breakpoint-up(md) {
+      background-image: url(/img/hero-service-design.svg);
+      background-size: 1140px;
+    }
+  }
+
+  .hero-container {
+    display: flex;
+    max-width: 640px;
+    padding-block: initial !important;
+
+    @include media-breakpoint-up(md) {
+      min-height: 400px;
+    }
+
+    .hero-text {
+      margin-bottom: 0;
+      margin-top: 1.25rem;
+    }
+
+    a {
+      font-size: 32px;
+      line-height: 32px;
+      margin-top: 2rem;
+
+      i {
+        vertical-align: top;
+      }
+    }
+  }
+
+  h1 {
+    font-size: $font-size-xxx-large;
+    line-height: 1.15;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-xxxxx-large;
+    }
+  }
+
+  .img--frontstage-backstage {
+    @include media-breakpoint-up(sm) {
+      float: right;
+      margin-left: 1.5rem;
+      width: 50%;
+    }
+  }
+
+  .img--engage {
+    @include media-breakpoint-up(sm) {
+      float: left;
+      margin-right: 0.75rem;
+      width: 33%;
+    }
+  }
+
+  .card-link {
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
+  }
+
+  .card-img {
+    @include media-breakpoint-up(md) {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      height: 100%;
+    }
+  }
+
+  .card-footer {
+    padding: 0;
+  }
+
+  .pullquote {
+    margin-bottom: 0 !important;
+  }
+
+  .subnav-col {
+    padding-inline: 0;
+  }
+}
+
+.sd__heading {
+  margin-bottom: 0.5em;
+
+  &:not(:first-child) {
+    padding-top: 2.5em;
   }
 }

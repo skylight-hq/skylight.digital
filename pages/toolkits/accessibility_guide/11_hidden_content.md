@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Hidden content | Skylight Accessibility Guide
-description: "How and when to hide content."
+description: How and when to hide content.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/hidden-content/
 sidenav: accessibility_guide
@@ -18,7 +18,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
 {% capture css_display_none %}
   ```css
     {
-      display:none;
+      display: none;
     }
   ```
 {% endcapture %}
@@ -39,7 +39,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
 {% endcapture %}
 <table class="post-table">
 <thead>
-  <tr class='table-active'>
+  <tr>
     <th style="width:40%;" scope="col">
       Technique
     </th>
@@ -88,7 +88,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
     </th>
     <td>No</td>
     <td>No</td>
-    <td>This is overwritten by other techniques &mdash; that is, using {{ css_display_none | markdownify }} will cause the element not to be read or seen.</td>
+    <td>This is overwritten by other techniques — that is, using {{ css_display_none | markdownify }} will cause the element not to be read or seen.</td>
   </tr>
   <tr>
     <th scope="row">
@@ -112,11 +112,11 @@ Items with `aria-hidden="true"` are always ignored by the screen reader. This is
 - Repetitive information
 - Off-screen content
 
-If an element has multiple states, it's visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden="false"` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS.
+If an element has multiple states, its visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden="false"` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS.
 
 ## CSS
 
-CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here,
+CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here:
 
 ```css
 .sr-only {
@@ -155,9 +155,11 @@ This will hide completely and is the same as `<div aria-hidden="true" hidden>con
 - Repetitive information
 - Off-screen content
 
+<div class="callout--note" markdown='1'>
 ## Additional resources
 
 For more information on this topic, see these articles:
 
 - [HTML5 Accessibility Chops: hidden and aria-hidden](https://www.paciellogroup.com/blog/2012/05/html5-accessibility-chops-hidden-and-aria-hidden/)
 - [The state of hidden content support in 2016](https://www.paciellogroup.com/blog/2016/01/the-state-of-hidden-content-support-in-2016/)
+</div>

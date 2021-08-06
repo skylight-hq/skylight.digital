@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Color and contrast | Skylight Accessibility Guide
-description: "How we work with color and contrast."
+description: How we work with color and contrast.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/color/
 sidenav: accessibility_guide
@@ -25,7 +25,7 @@ Links that only rely on color also fail this requirement. Links must be distingu
 2. In situations where the color is a gradient or can't be determined programmatically, compare the lightest part of the text with the lightest part of the background using the color picker. Then compare the darkest part of the text with the darkest part of the background.
 3. Check that the ratios are greater than [4.5:1](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0#contrast-minimum) (for example, 5.3:1 would pass).
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--tip" markdown='1'>
 #### Note
 - Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text.
 - Logos, disabled form fields, and disabled buttons are **exempt** from this test and don't need to be tested for contrast.
@@ -43,7 +43,7 @@ Links that only rely on color also fail this requirement. Links must be distingu
 {:.fails}
 ### Fails
 <div class="example">
-  <span style = "color:#60A474">This text fails.</span>
+  <span style = "color:#80b690">This text fails.</span>
 </div>
 
 This text fails because it's too light. The contrast ratio is 2.97:1.

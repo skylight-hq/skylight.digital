@@ -15,7 +15,7 @@ date_published: 2020-05-20
 date: 2020-05-20
 ---
 
-*[Maya Benari](/company/about/#maya-benari) joined Skylight in August of 2019. She's a UX designer who's spent the past several years developing design systems, which help teams create great products and cohesive user experiences quickly and at scale through a collection of reusable components guided by clear standards. Maya previously served as one of the lead developers of the [U.S. Web Design System](https://designsystem.digital.gov/) while at 18F.*
+*[Maya Benari](/company/about/#maya-benari) joined Skylight in August of 2019. She's a designer who's spent the past several years developing design systems, which help teams create great products and cohesive user experiences quickly and at scale through a collection of reusable components guided by clear standards. Maya previously served as one of the lead developers of the [U.S. Web Design System](https://designsystem.digital.gov/) while at 18F.*
 
 **Chris Cairns: Tell me about your path to Skylight.**
 
@@ -51,4 +51,4 @@ Now, I'm working on the future of design systems for BESPIN, a digital center of
 
 **Maya Benari:** If you want to be part of a growing company, where the work is meaningful, you'll feel supported, and learn something new every day, then join!
 
-**Chris Cairns: Maya, thank you for taking the time to share with us. You're amazing, and we're so honored to have you on the team. To our readers, if you're interested in engaging with Maya to help learn how to make effective use of design systems, [we'd love to hear from you](/connect/contact/)**
+**Chris Cairns: Maya, thank you for taking the time to share with us. You're amazing, and we're so honored to have you on the team. To our readers, if you're interested in engaging with Maya to help learn how to make effective use of design systems, [we'd love to hear from you](/connect/contact/).**

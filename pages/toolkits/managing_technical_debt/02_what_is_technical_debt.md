@@ -28,7 +28,7 @@ Just like you'll find in the financial world, there are different kinds of techn
 
 While the result in each case is the accumulation of more technical debt, each of these types is created by different circumstances:
 
-* **Reckless/Deliberate Debt**: The team feels time pressured, and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
+* **Reckless/Deliberate Debt**: The team feels time pressured and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
 * **Prudent/Deliberate Debt**: The team decides that the value of shipping a "quick and dirty solution" now is worth the cost of incurring debt. They're fully aware of the consequences, however, and have a plan in place to address them.
 * **Reckless/Inadvertent**: The team is ignorant of best practices, and their lack of knowledge of effective development practices leads them to make a big mess of the codebase.
 * **Prudent/Inadvertent**: Even with great programmers, the team delivers an extrinsically valuable solution, only to realize how they should have (intrinsically) designed it. (Often the process of software development is as much learning as it is coding.)
@@ -45,9 +45,7 @@ From annoying bugs to crippled projects, the effects of technical debt manifest 
 
 How do projects end up on the far right of the curve? And why is that a bad place to be? As Highsmith explains in his article, *The Financial Implications of Technical Debt*:
 
-<blockquote class="post-blockquote">
-<p>"One problem with technical debt is that the impact can be slow-growing and somewhat hidden. To the question 'fix the technical debt, or build new features' we know how it's usually answered. As it gets worse, customers complain about slow delivery, increasing the pressure to take more shortcuts, which increases the technical debt, which slows the delivery process, which increases customer dissatisfaction, in a rapidly spiraling vicious cycle. Unfortunately, by the time many organizations are paying attention, all the solutions are bad ones: 1) do nothing and it gets worse, 2) replace/rewrite the software (expensive, high risk, doesn't address the root cause problem), or 3) systematically invest in incremental improvement."</p>
-</blockquote>
+> One problem with technical debt is that the impact can be slow-growing and somewhat hidden. To the question 'fix the technical debt, or build new features' we know how it's usually answered. As it gets worse, customers complain about slow delivery, increasing the pressure to take more shortcuts, which increases the technical debt, which slows the delivery process, which increases customer dissatisfaction, in a rapidly spiraling vicious cycle. Unfortunately, by the time many organizations are paying attention, all the solutions are bad ones: 1) do nothing and it gets worse, 2) replace/rewrite the software (expensive, high risk, doesn't address the root cause problem), or 3) systematically invest in incremental improvement.
 
 Customers aren't the only ones who [suffer the consequences](http://www.infoq.com/articles/managing-technical-debt) (annoying bugs, missing features, etc.) of technical debt:
 

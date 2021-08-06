@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Our Values
+title: Our values
 permalink: /company/values/
 redirect_from: /culture/
 preload: hero-values.svg
 ---
 
 {% include hero_banner.html
-  hero_content = "Our values are the core of our culture, informing our thoughts, words, and actions."
-  color = 'primary'
+  hero_content = 'Our values are the core of our culture, <br class="linebreak">informing our thoughts, words, and actions.'
+  color = 'info'
   image = 'hero-values.svg'
 %}
 
 <div class="our-values">
-  <div class="values">
+  <div class="values grid-container">
     <div class="values-row">
       {% assign values = site.data.values | sort: 'order' %}
       {% for value in values %}
@@ -21,7 +21,8 @@ preload: hero-values.svg
           <div class="value-card">
             <div class="value-block">
               <h2 class="header-display-4 mb-3">{{value.title}}</h2>
-              <p>{{value.statement}}</p>
+              <div class="line--gray"></div>
+              {{ value.statement | markdownify }}
             </div>
           </div>
         </div>

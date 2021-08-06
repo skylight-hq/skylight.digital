@@ -1,14 +1,5 @@
 .project-case-study {
-  @include container-fluid-base;
   @include mt-7;
-}
-
-.project-case-study-row {
-  @extend %row;
-}
-
-.project-case-study-col {
-  @extend %text-heavy-col-base;
 }
 
 .project-case-study-header {
@@ -23,8 +14,9 @@
 .project-case-study-title-tag {
   @extend %text-uppercase;
   color: $gray-light;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  font-family: $font-family-mono;
+  font-weight: $font-weight-medium;
+  margin-bottom: 0.7rem;
   text-align: left;
 }
 
@@ -34,17 +26,17 @@
 
 .project-case-study-content {
   @extend %narrative-base;
+}
 
-  .project-feature-image {
-    @extend %mb-0;
-  }
+.project-feature-image {
+  @extend %mb-0;
 }
 
 %project-aside-base {
   @extend %text-left;
   @extend %mt-4;
   @extend %p-3;
-  border: 1px dotted $gray-lightest;
+  border: 1px dashed $gray-lightest;
 
   h3,
   ul {
@@ -68,8 +60,6 @@
 }
 
 .approach {
-  @extend %text-left;
-
   .has-col {
     column-count: 2;
     column-fill: balance-all;
@@ -85,31 +75,31 @@
   }
 
   ul {
-    font-size: $font-size-xx-small;
-
     @extend %mb-0;
     @extend %list-item-unstyled;
+    font-size: $font-size-xx-small;
 
     li:not(:last-child) {
       margin: 0 !important;
       padding: 0 !important;
     }
+  }
+}
 
-    .approach-item {
-      display: inline-block;
-      margin-bottom: 10px;
-      width: 100%;
+.approach-item {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
 
-      span {
-        line-height: 1.15;
-      }
-    }
+  span {
+    line-height: 1.15;
   }
 }
 
 .news-coverage {
+  padding: 2.5rem !important;
+
   ul {
-    font-size: $font-size-xx-small;
     @extend %mb-0;
     @extend %list-item-unstyled;
 
@@ -128,15 +118,16 @@
   }
 }
 
+.employee-gradient-rect {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
 .profile {
-  .employee-gradient-rect {
-    position: relative;
-    width: 2rem;
-    height: 2rem;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 8px;
-  }
   .profile-img {
     @extend %rounded-circle;
     @extend %m-0;
@@ -175,19 +166,19 @@
 .project-case-study-footer {
   @extend %text-center;
   @extend %mt-5;
+}
 
-  .work-example-cta-wrapper {
-    @extend %d-md-inline-block;
+.work-example-cta-wrapper {
+  @extend %d-md-inline-block;
 
-    &:first-child {
-      @extend %mb-3;
-      @extend %mb-md-0;
-      @extend %mr-md-5;
-    }
+  &:first-child {
+    @extend %mb-3;
+    @extend %mb-md-0;
+    @extend %mr-md-5;
   }
+}
 
-  .work-example-cta {
-    @extend %btn-page;
-    min-width: 185px;
-  }
+.work-example-cta {
+  @extend %btn-page;
+  min-width: 185px;
 }

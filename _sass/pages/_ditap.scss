@@ -9,13 +9,20 @@
   }
 
   .hero-container {
+    height: auto;
     max-width: 1140px;
     padding-bottom: 56px;
     padding-top: 56px;
   }
 
+  .accordion-header h3 {
+    color: $black;
+    font-family: $font-family-sans-serif;
+  }
+
   .accordion-card-body {
     @include list;
+    font-family: $font-family-sans-serif;
   }
 }
 
@@ -45,11 +52,8 @@
   }
 
   .employee-img {
-    @include border-radius($border-radius);
-
-    @include media-breakpoint-up(lg) {
-      height: 226px;
-    }
+    border-radius: 100%;
+    height: auto;
   }
 
   .accordion-card-body {
@@ -61,11 +65,6 @@
   }
 
   .image-list {
-    img {
-      max-height: 183px;
-      width: auto;
-    }
-
     .image-list-img {
       text-align: center;
     }
@@ -105,7 +104,6 @@
     box-shadow: 100px 0;
   }
 
-
   .text-intro {
     margin-top: 1em;
   }
@@ -126,8 +124,15 @@
   p {
     font-size: $font-size-small;
     margin-bottom: 0;
+  }
+}
 
-    &:first-of-type {
+.page-join-us {
+  .text-grid {
+    h3 {
+      font-family: $font-family-mono;
+      font-weight: $font-weight-medium;
+      letter-spacing: 0;
     }
   }
 }
@@ -150,7 +155,7 @@
 
 .image-list {
   > div {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
   }
 
   img {
@@ -162,14 +167,18 @@ $outline-light: 2px solid #f2f2f2;
 
 .course-cta {
   border: $card-border-width solid $card-border-color;
+
+  a {
+    font-family: $font-family-mono;
+  }
 }
 
-.tuition-card.tuition-card { // higher specificity so it doesn't inheret link styles
+.tuition-card.tuition-card {
+  // higher specificity so it doesn't inheret link styles
   @include border-radius($border-radius);
   border: $card-border-width solid $card-border-color;
   box-shadow: $card-box-shadow;
   color: $body-color;
-  font-size: $font-size-small;
   padding: 1.25rem;
 
   &:hover {
@@ -177,25 +186,39 @@ $outline-light: 2px solid #f2f2f2;
     box-shadow: none;
     color: $body-color;
   }
+}
 
-  p {
-
-  }
+.tuition-card-note {
+  display: block;
+  font-size: $font-size-small;
+  margin-top: 1em;
 }
 
 .tuition-card-meta {
+  font-size: $font-size-small;
+
   p {
-    font-size: $font-size-xx-small;
     margin-top: 4px;
   }
 }
-// .tuition-card-link {
-//   @include media-breakpoint-up(lg) {
-//     align-items: center;
-//     display: flex;
-//     justify-content: flex-end;
-//   }
-// }
+
+.tuition-card-meta-info {
+  margin-top: 4px;
+
+  * {
+    display: inline;
+  }
+
+  h4 {
+    font-size: $font-size-small;
+  }
+}
+
+.tuition-card-link {
+  font-family: $font-family-mono;
+  font-size: $font-size-small;
+  font-weight: normal;
+}
 
 // Deprecated
 .tuition-card-img {
@@ -223,32 +246,39 @@ $outline-light: 2px solid #f2f2f2;
 }
 
 .class-heading {
+  color: $brand-primary;
   display: inline-block;
+}
+
+.class-header {
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .class-spots {
   display: block;
-  margin-top: 2px;
+  margin-top: 1rem;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(lg) {
     display: inline-block;
+    flex: none;
+    float: right;
+    margin-left: 1rem;
     margin-top: 0;
   }
 
   span {
-    padding: 2px 6px;
+    color: $blue-100-a;
+    padding: 4px 12px;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     position: relative;
-    font-weight: bold;
-    font-size: 12px;
+    font-family: $font-family-mono;
+    font-size: $font-size-large;
     vertical-align: top;
-    border-radius: 3px;
-    background: $sk-yellow;
-
-    @include media-breakpoint-up(sm) {
-      margin-left: 10px;
-    }
+    border-radius: 5px;
+    background-color: $ochre-20;
   }
 }
 
@@ -261,4 +291,3 @@ $outline-light: 2px solid #f2f2f2;
     }
   }
 }
-

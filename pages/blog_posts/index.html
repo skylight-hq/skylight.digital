@@ -1,0 +1,14 @@
+---
+layout: default
+title: Our blog
+permalink: /thoughts/blog/
+redirect_from:
+  - /blog/
+pagination:
+  enabled: true
+  collection: blog_posts
+  sort_field: "date"
+  sort_reverse: true
+---
+
+  {% include paginated_pages.html %}

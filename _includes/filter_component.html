@@ -3,7 +3,7 @@
   <div class="row">
     {% assign filter = site.data.filters %}
     <div class="col-sm">
-      <h3 class="margin-heading mt-sm-0">Type of service</h3>
+      <h3 class="filter__heading margin-heading mt-0">Type of service</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.type_of_service %}
         <li>
@@ -16,7 +16,7 @@
     </div>
 
     <div class="col-sm">
-      <h3 class="margin-heading mt-sm-0">Capabilities</h3>
+      <h3 class="filter__heading margin-heading mt-sm-0">Capabilities</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.capabilities %}
         <li>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="col-sm">
-      <h3 class="margin-heading mt-sm-0">Mission areas</h3>
+      <h3 class="filter__heading margin-heading mt-sm-0">Mission areas</h3>
       <ul class="mb-0 list-unstyled">
         {% for item in filter.mission_areas %}
         <li>
@@ -44,7 +44,7 @@
 </div>
 {% endcapture %}
 
-<div class="container col-md-10 mb-5">
+<div class="grid-container mb-5">
   <div class="post-tags filter-post-tags"></div>
 
   <!-- Accordion card -->
@@ -56,7 +56,7 @@
       id="accordionHeading-{{include.accordion_index}}"
     >
       <a
-        class="bg-gray-light collapsed"
+        class="filter__button collapsed"
         data-toggle="collapse"
         href="#accordionCollapse-{{include.accordion_index}}"
         aria-expanded="false"
@@ -66,9 +66,8 @@
         <div>
           <h2 class="mb-0 header-display-4">
             <div class="text-ink">
-              Filters
+              Filter by category
             </div>
-            <div class="plus-minus-toggle"></div>
           </h2>
         </div>
       </a>

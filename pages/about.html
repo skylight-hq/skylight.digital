@@ -7,56 +7,45 @@ preload: hero-about-us.svg
 ---
 
 {% include hero_banner.html
-  hero_title = 'We&apos;re Skylight!'
-  hero_content = 'Our mission is to make government work in a digital world.'
-  color = 'primary'
+  hero_title = 'We’re Skylight!'
+  hero_content = 'Our mission is to make government work <br class="linebreak">in a digital world.'
+  color = 'info'
   image = 'hero-about-us.svg'
 %}
 
 <div class="about-us">
 
   <section class="page-block">
-    <div class="page-block-header-2">
-      <h2>Our story</h2>
-    </div>
-
-    <div class="about-info">
-      <div class="about-info-row">
-        <div class="about-info-col">
-          <p>
-            Skylight was launched in June of 2017. We're currently made up of 55 people and
-            one ferret. A lot of us originally worked for civic-oriented groups such as 18F,
-            the U.S. Digital Service, and the Presidential Innovation Fellows.
-            Now, as part of Skylight, we're working hard to cultivate an incredible
-            team and culture.
-          </p>
-
-          <p>
-            What brings us together is a passion for creating better outcomes for
-            the public through great government digital services. We're basically impact junkies.
-            But we're also engineers, developers, designers, product managers, consultants,
-            writers, speakers, inventors, roboticists, gamers, authors, veterans,
-            entrepreneurs, parents, and more. Such a diverse team always gives us a
-            unique perspective on things.
-          </p>
-
-          <p>
-            Our official headquarters is in sunny <a href="https://goo.gl/maps/3pX7v6YjSmpkwchz5">Sarasota, Florida</a>,
-            but we're a distributed and remote-friendly team currently spread across 24 different states.
-            Sometimes the nature of our client work calls for closer proximity to their location.
-            So far, we've worked with clients located in places like Washington DC, Hartford (Connecticut),
-            Montgomery (Alabama), Baltimore (Maryland), and Ottawa (Canada).
-          </p>
-        </div>
-      </div>
+    <div class="about-info grid-container text">
+      <h2 class="margin-heading text-center">Our story</h2>
+      <p>
+        Skylight was launched in June of 2017. We’re currently made up of 53 people and
+        one ferret. A lot of us originally worked for civic-oriented groups such as 18F,
+        the U.S. Digital Service, and the Presidential Innovation Fellows.
+        Now, as part of Skylight, we’re working hard to cultivate an incredible
+        team and culture.
+      </p>
+      <p>
+        What brings us together is a passion for creating better outcomes for
+        the public through great government digital services. We’re basically impact junkies.
+        But we’re also engineers, developers, designers, product managers, consultants,
+        writers, speakers, inventors, roboticists, gamers, authors, veterans,
+        entrepreneurs, parents, and more. Such a diverse team always gives us a
+        unique perspective on things.
+      </p>
+      <p>
+        Our official headquarters is in sunny <a href="https://goo.gl/maps/3pX7v6YjSmpkwchz5">Sarasota, Florida</a>,
+        but we’re a distributed and remote-friendly team currently spread across 24 different states.
+        Sometimes the nature of our client work calls for closer proximity to their location.
+        So far, we’ve worked with clients located in places like Washington DC, Hartford (Connecticut),
+        Montgomery (Alabama), Baltimore (Maryland), and Ottawa (Canada).
+      </p>
     </div>
   </section>
 
   {% if site.data.team[0] %}
     <section id="meet-the-team" class="mx-auto container-xxl page-block">
-      <div class="page-block-header-2">
-        <h2>Meet the team</h2>
-      </div>
+      <h2>Meet the team</h2>
 
       <div class="employees">
         {% assign employees = site.data.team | where: 'active', 'true' | sort: 'order' %}
@@ -70,24 +59,18 @@ preload: hero-about-us.svg
           {% for emp in employees %}
             <div id="{{emp.name}}" class="employee-col">
               <div class="employee-card">
-                <div class="employee-gradient">
-                  <div role="img" class="employee-img" style="background-image: url({{emp.image}});" title="{{emp.image_description}}"></div>
-                </div>
+                <div role="img" class="employee-img" style="background-image: url({{emp.image}});" title="{{emp.image_description}}"></div>
                 <div class="employee-block">
                   <h3 class="employee-title">{{emp.full_name}}</h3>
                   <h4 class="employee-subtitle">{{emp.position}}</h4>
-                  <p class="employee-text">{{emp.bio}}</p>
+                  <div class="card-text employee-text">{{emp.bio | markdownify }}</div>
                 </div>
                 <div class="employee-footer">
                     {% for social in emp.socials %}
-                      {% if social.name == 'Blog Posts' or social.name == 'Projects' %}
-                        {% assign target = '_self' %}
-                      {% else %}
-                        {% assign target = '_blank' %}
-                      {% endif %}
-                      <a href="{{social.link}}" target={{target}} data-toggle="tooltip" data-placement="top" data-animation="false" title="{{social.link_description}}">
+                      {% assign link_description = social.link_description | replace: "'", "&rsquo;" %}
+                      <a href="{{social.link}}" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{link_description}}">
                         <i class="fa fa-{{social.fa_icon_name}}" aria-hidden="true" title="{{social.name}}"></i>
-                        <span class="sr-only">{{social.link_description}}</span>
+                        <span class="sr-only">{{link_description}}</span>
                       </a>
                     {% endfor %}
                 </div>
@@ -100,44 +83,39 @@ preload: hero-about-us.svg
   {% endif %}
 
   <section class="page-block">
-    <div class="page-block-header-2">
+    <div class="about-info text">
       <h2>Always at your service</h2>
-    </div>
+      <p>
+        If you have a question for us, or would just like to get in touch, drop us a message
+        at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>.
+        If you’d like to inquire about hiring us for a job, <a href="/connect/contact/">fill out this short form</a>.
+        If you’re interested in joining our team, <a href="/careers/join/">check out our career opportunities</a>.
+        If you’d like to explore forming a partnership to pursue government opportunities,
+        <a href="/connect/contact/">let’s talk business</a>.
+      </p>
 
-    <div class="about-info">
-      <div class="about-info-row">
-        <div class="about-info-col">
-          <p>
-            If you have a question for us, or would just like to get in touch, drop us a message
-            at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>.
-            If you'd like to inquire about hiring us for a job, <a href="/connect/contact/">fill out this short form</a>.
-            If you're interested in joining our team, <a href="/careers/join/">check out our career opportunities</a>.
-            If you'd like to explore forming a partnership to pursue government opportunities,
-            <a href="/connect/contact/">let's talk business</a>.
-          </p>
+      <p>
+        We love to share our thoughts on technology, design, procurement, business, culture,
+        and more with the world. You can <a href="/thoughts/blog/">read up on our latest thinking at our company blog</a>.
+      </p>
 
-          <p>
-            We love to share our thoughts on technology, design, procurement, business, culture,
-            and more with the world. You can <a href="/thoughts/blog/">read up on our latest thinking at our company blog</a>.
-          </p>
+      <p>
+        You can also follow along on
+        <a href="{{site.twitter_url}}">Twitter</a>,
+        <a href="{{site.linkedin_url}}">LinkedIn</a>, or
+        <a href="{{site.youtube_url}}">YouTube</a>.
+      </p>
 
-          <p>
-            You can also follow along on
-            <a href="{{site.twitter_url}}">Twitter @skylight_hq</a>.
-          </p>
+      <p>
+        Feel free to reach out directly to one of our leaders —
+        <a href="mailto:chris@skylight.digital">Chris Cairns</a>,
+        <a href="mailto:shashank@skylight.digital">Shashank Khandelwal</a>,
+        or <a href="mailto:nicole@skylight.digital">Nicole Campbell</a>.
+      </p>
 
-          <p>
-            Feel free to reach out directly to one of our leaders &mdash;
-            <a href="mailto:chris@skylight.digital">Chris Cairns</a>,
-            <a href="mailto:shashank@skylight.digital">Shashank Khandelwal</a>,
-            or <a href="mailto:nicole@skylight.digital">Nicole Campbell</a>.
-          </p>
-
-          <p>
-            Thank you for taking the time to learn more about us.
-          </p>
-        </div>
-      </div>
+      <p>
+        Thank you for taking the time to learn more about us.
+      </p>
     </div>
   </section>
 

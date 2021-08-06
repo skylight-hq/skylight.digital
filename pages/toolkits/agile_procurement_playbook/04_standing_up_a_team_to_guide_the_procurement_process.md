@@ -48,7 +48,7 @@ If a product is large, there are going to be gaps of understanding in areas of r
 
 ### Engineer
 
-Chances are, you're using agile procurement to build a digital service &mdash; an informational website, an online service that users will interact with, or internal systems/tools to support the agency's mission.
+Chances are, you're using agile procurement to build a digital service — an informational website, an online service that users will interact with, or internal systems/tools to support the agency's mission.
 
 The engineer lead will work with the product owner to lay out the fundamental building blocks needed to support the product. They'll identify the skillsets needed for the first round of procurements, such as experts in cloud infrastructure, databases, or APIs.
 
@@ -62,7 +62,7 @@ A one-team, one-dream mentality is necessary even across the different vendors t
 
 The importance of creating cross-functional teams can't be overstated. The overall success of the product will depend on how well the team is able to function. Leadership can support effective collaboration by investing in the tools and workspaces that help team members come  together.
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Recommended reading
 
 - [How to Build a Sustainable Agile Culture](https://www.cmswire.com/digital-workplace/how-to-build-a-sustainable-agile-culture/)

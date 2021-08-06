@@ -1,5 +1,4 @@
 .post {
-  @include container-fluid-base;
   @extend %mt-5;
   @extend %mt-md-8;
 }
@@ -34,8 +33,12 @@
 
 .post-author {
   a {
-    @include link-decoration($post-header-footer-link-color, $post-header-footer-link-hover-color,
-      $post-header-footer-link-border, $post-header-footer-link-border-hover);
+    @include link-decoration(
+      $post-header-footer-link-color,
+      $post-header-footer-link-hover-color,
+      $post-header-footer-link-border,
+      $post-header-footer-link-border-hover
+    );
   }
 }
 
@@ -65,8 +68,8 @@
 
 .post-table {
   @extend %table;
-  @extend %table-bordered;
-  @extend %my-4;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 
   @include media-breakpoint-down(sm) {
     display: block;
@@ -75,25 +78,61 @@
     overflow-x: auto;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
+
+  tfoot {
+    td {
+      border-bottom-style: solid;
+      border-top-style: solid;
+      font-weight: bold;
+      font-size: $font-size-small;
+    }
+  }
 }
 
-.post-blockquote {
+.pullquote {
   @extend %blockquote;
   @extend %my-4;
+  margin-inline: initial;
 
-  cite::before {
-    content: '— ';
+  &::before {
+    content: url(/img/icons/quote.svg);
+    width: 2rem;
+    opacity: 1;
+
+    @include media-breakpoint-up(sm) {
+      left: 29px;
+      margin-top: -9px;
+      width: 62px;
+    }
+  }
+
+  cite {
+    display: block;
+    margin-top: 1.75rem;
+
+    &::before {
+      content: "– ";
+    }
   }
 
   &.excerpt {
+    color: $black;
     font-size: $font-size-x-small;
     background-color: lighten($gray, 63%);
   }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
 
-.post-footer {
-  @extend %pt-4;
-  border-top: 1px solid $gray-lightest;
+.pullquote--alt {
+  background-color: $ochre-40;
+  color: $black;
+
+  &::before {
+    content: url(/img/icons/quote-alt.svg);
+  }
 }
 
 .post-contributors {
@@ -102,19 +141,29 @@
 }
 
 .post-tags {
-  @extend %mb-4;
+  @extend %mb-3;
 
   a {
     @extend %badge;
     background-color: $brand-primary;
+    border-radius: 0.375rem;
+    font-weight: $font-weight-medium;
   }
 
   a.tag-badge {
-    margin-right: 5px;
+    font-family: $font-family-mono;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    padding-block: 0.5rem;
+    padding-inline: 0.75rem;
 
     &:hover,
     &:focus {
       background-color: $link-hover-color;
+    }
+
+    i {
+      font-size: $font-size-xxxx-small;
     }
   }
 }
@@ -126,7 +175,7 @@
     &:first-child {
       @extend %mb-3;
       @extend %mb-sm-0;
-      @extend %mr-sm-2;
+      margin-right: 1rem;
     }
   }
 
@@ -134,22 +183,27 @@
     @extend %btn-base;
     @extend %btn-icon-left;
     @extend %btn-sm;
-    @include button-outline-variant-2($btn-share-color, $btn-share-bg,
-      $btn-share-border, $btn-share-active-color);
+    @include button-outline-variant-2(
+      $btn-share-color,
+      $btn-share-bg,
+      $btn-share-border,
+      $btn-share-active-color
+    );
+    border-radius: 0.375rem;
+    padding-inline: 0.75rem;
+    padding-block: 0.5rem;
   }
 }
 
 .post-related {
   @extend %mt-5;
 
-  h3,
-  ul {
-    @extend %post-header-footer-font-base;
-  }
-
   h3 {
+    @extend %post-header-footer-font-base;
     @extend %text-uppercase;
     @extend %mb-3;
+    font-family: $font-family-mono;
+    font-weight: normal;
   }
 
   ul {
@@ -162,7 +216,11 @@
   }
 
   a {
-    @include link-decoration($post-header-footer-link-color, $post-header-footer-link-hover-color,
-      $post-header-footer-link-border, $post-header-footer-link-border-hover);
+    @include link-decoration(
+      $post-header-footer-link-color,
+      $post-header-footer-link-hover-color,
+      $post-header-footer-link-border,
+      $post-header-footer-link-border-hover
+    );
   }
 }

@@ -11,7 +11,7 @@ content_type: Toolkit
 # Guiding principles of an agile procurement
 
 Both the [U.S. Digital Service](https://usds.gov/) and [18F](https://18f.gsa.gov/) provide great
-overviews of the principles that guide general agile procurement: [TechFAR Hub]((https://techfarhub.cio.gov/learning-center/principles/)) and [De-risking custom technology projects](https://github.com/18F/technology-budgeting/blob/master/handbook.md). These principles typically fall into the following areas, and each one is fundamental for an agile procurement strategy:
+overviews of the principles that guide general agile procurement: [TechFAR Hub](https://techfarhub.cio.gov/learning-center/principles/) and [De-risking custom technology projects](https://github.com/18F/technology-budgeting/blob/master/handbook.md). These principles typically fall into the following areas, and each one is fundamental for an agile procurement strategy:
 
 - Keep procurements small and quick
 - Buy digital service skillsets, not software
@@ -33,7 +33,7 @@ Because contracts are modularized and smaller, it's essential to have input from
 The approach to requirements gathering is also fundamentally different. An agile procurement strategy recognizes that:
 
 - The team's understanding of the product will develop as the product is being built
-- This growing understanding can inform the requirements for the current and subsequent modular contracts.
+- This growing understanding can inform the requirements for the current and subsequent modular contracts
 
 Therefore, the procurement team doesn't attempt to have all of the technical requirements defined up front. An agile procurement strategy relies on the team having a greater understanding of the product as the product is being built; that new knowledge can be turned into contractual requirements for a modular contract.
 
@@ -53,7 +53,7 @@ The process of modular contracting matches the natural work streams that arise o
 **Agile procurement approach**:
 
 - Recognize the complexity of the task (moving DMV services online)
-- Identify the different components necessary to accomplish the goal &mdash; things like cloud infrastructure, research and design, and backend development
+- Identify the different components necessary to accomplish the goal — things like cloud infrastructure, research and design, and back-end development
 - Break up the product into discrete parts as they become known, and use modular contracts to procure services against those
 
 There are many benefits to using a modular contracting strategy:
@@ -73,7 +73,7 @@ Of course, with any procurement approach, there are drawbacks. The approach requ
 
 Traditional procurement cycles for waterfall software development typically require a significant initial investment in both time and money before any working software is delivered. It may even be years before any software is delivered, with the added risk of the software behaving differently than initially expected or not working at all.
 
-This frontloaded time investment &mdash; combined with the lack of visibility into the development process &mdash; may put the government in a difficult position when the time comes to evaluate the completed software. If the end product doesn't effectively address users' needs, the government is on the hook for the resources that have already been sunk into the project.
+This frontloaded time investment — combined with the lack of visibility into the development process — may put the government in a difficult position when the time comes to evaluate the completed software. If the end product doesn't effectively address users' needs, the government is on the hook for the resources that have already been sunk into the project.
 
 The smaller, shorter contracts in an agile procurement strategy reduce the government's risk. With shorter contracts, the period of performance is decreased and the vendor needs to produce value to the government much more rapidly. If the government feels that the vendor's products aren't meeting expectations, the government has the flexibility to not extend any option periods.
 

@@ -1,32 +1,93 @@
 ---
 layout: default
-preload: hero-toolkits.svg
+preload: hero-toolkit.svg
+image: /img/toolkit-social.png
+image_description: Skylight toolkit banner showing a collection of different tools.
 ---
 
 {% include hero_banner.html
   color = "blue"
-  image = 'hero-toolkits.svg'
+  image = "hero-toolkit.svg"
+  class = "hero--toolkits"
 %}
 
-<div class="container">
+<div class="grid-container" id="main">
   <div class="row d-flex">
     <div class="sidenav col-12 col-md-3 order-2 order-md-1">
       <div class="">
-        <nav class="subnav-col px-0 mt-4 mt-md-0" id="sidenav">
+        <nav class="subnav-col px-0 mt-5 mt-md-0" id="sidenav">
           <ul>
-           {% for item in site.data.toolkits[page.sidenav].toc %}
+            {% for item in site.data.toolkits[page.sidenav].toc %}
               <li>
                 <a class="nav-link {% if item.url == page.url %}current{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
               </li>
-           {% endfor %}
+            {% endfor %}
           </ul>
         </nav>
       </div>
     </div>
     <section class="col-12 col-md-9 page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}}">
       {{ content }}
+
+      {% assign items = site.data.toolkits[page.sidenav].toc %}
+      {% for item in items %}
+        {% if item.url == page.url %}
+          {% assign prev_i = forloop.index0 | minus: 1 %}
+          {% assign next_i = forloop.index0 | plus: 1 %}
+          <div class="pagination-alt text-primary mt-5">
+            <div>
+              {% unless page.url == items.first.url %}
+              <a class="pagination-alt__step pagination-alt__step--previous" href="{{ items[prev_i].url }}">
+                <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
+                <span>
+                  Previous<span class="d-none d-sm-inline"> section</span>
+                </span>
+              </a>
+              {% endunless %}
+            </div>
+            <div>
+              {% unless page.url == items.last.url %}
+                <a class="pagination-alt__step pagination-alt__step--next" href="{{ items[next_i].url }}">
+                  <span>
+                    Next<span class="d-none d-sm-inline"> section</span>
+                  </span>
+                  <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
+                </a>
+              {% endunless %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <button class="btn btn-primary btn--scroll-to-top" onclick="topFunction()" id="btn--scroll-to-top">
+        <i class="far fa-long-arrow-up" aria-hidden="true"></i>
+        <span class="">
+          <span class="btn--scroll-to-top__first-text">Scroll to </span><span class="btn--scroll-to-top__second-text">top</span>
+        </span>
+      </button>
     </section>
   </div>
 </div>
 
 {% include get_expert_answers_cta.html %}
+
+<script>
+//Get the button:
+mybutton = document.getElementById("btn--scroll-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>

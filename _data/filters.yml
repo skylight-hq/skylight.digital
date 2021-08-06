@@ -1,38 +1,38 @@
 type_of_service:
-  - Service Delivery
+  - Service delivery
   - Procurement
   - Transformation
   - Microconsulting
   - Training
 
 capabilities:
-  - Research & Design
-  - Product Management
-  - Software Delivery
-  - Legacy Modernization
+  - Research & design
+  - Product management
+  - Software delivery
+  - Legacy modernization
   - DevOps
-  - Cloud & Platforms
-  - Data & Analytics
+  - Cloud & platforms
+  - Data & analytics
   - APIs
-  - Open Government
-  - Security & Privacy
+  - Open government
+  - Security & privacy
   - Internet of Things
   - Procurement
   - Transformation
-  - Coaching & Training
+  - Coaching & training
 
 mission_areas:
-  - Early Childhood
+  - Early childhood
   - Veterans
-  - Social Safety Net
+  - Social safety net
   - Healthcare
-  - Economic Development
+  - Economic development
   - Defense
   - Air Force
   - Space Force
   - Navy
-  - Homeland Security
-  - Citizenship & Immigration
+  - Homeland security
+  - Citizenship & immigration
   - Labor
   - Agriculture
   - Education

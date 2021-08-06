@@ -1,13 +1,21 @@
 .header-display-1 {
-  font-size: $header-display;
-}
+  font-size: $font-size-xxx-large;
 
-.header-page {
-  color: $black;
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-xxxxx-large;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-xxxxxx-large;
+  }
 }
 
 .header-display-2 {
-  font-size: $header-display-1;
+  font-size: $font-size-xxx-large;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-xxxx-large;
+  }
 }
 
 .header-display-4 {
@@ -25,70 +33,8 @@ h4,
 h5,
 h6 {
   @extend %font-weight-bold;
-}
-
-h1 {
-  color: $black;
-}
-
-@include media-breakpoint-between(xs, sm) {
-  // h1 {
-  //   font-size: $font-size-h1 * .60;
-  // }
-
-  // h2 {
-  //   font-size: $font-size-h2 * .65;
-  // }
-
-  // h3 {
-  //   font-size: $font-size-h3 * .75;
-  // }
-
-  .header-display-1 {
-    font-size: $header-display-1 * .60;
-  }
-
-  // .header-display-2 {
-  //   font-size: $header-display-2 * .60;
-  // }
-
-  // .header-display-4 {
-  //   font-size: $header-display-4 * .75;
-  // }
-
-  // .header-display-5 {
-  //   font-size: $header-display-5 * .80;
-  // }
-}
-
-@include media-breakpoint-between(sm, md) {
-  // h1 {
-  //   font-size: $font-size-h1 * .80;
-  // }
-
-  // h2 {
-  //   font-size: $font-size-h2 * .85;
-  // }
-
-  // h3 {
-  //   font-size: $font-size-h3 * .95;
-  // }
-
-  .header-display-1 {
-    font-size: $header-display-1 * .80;
-  }
-
-  // .header-display-2 {
-  //   font-size: $header-display-2 * .80;
-  // }
-
-  // .header-display-4 {
-  //   font-size: $header-display-4 * .85;
-  // }
-
-  // .header-display-5 {
-  //   font-size: $header-display-5 * .90;
-  // }
+  color: $heading-color;
+  line-height: 1.3;
 }
 
 %list-base {
@@ -103,7 +49,7 @@ h1 {
 
 @mixin hollow-list {
   li::before {
-    content: '\25E6';
+    content: "\25E6";
     font-size: $font-size-small;
     margin-top: 1px;
 
@@ -122,7 +68,6 @@ h1 {
     @extend %list-unstyled;
 
     li::before {
-      color: $gray-light;
       position: absolute;
       left: 0;
       top: 0;
@@ -132,12 +77,8 @@ h1 {
   ul {
     li::before {
       @extend %rounded-circle;
-      content: '\2022';
+      content: "-";
       position: absolute;
-    }
-
-    ul {
-      @include hollow-list;
     }
   }
 
@@ -145,12 +86,8 @@ h1 {
     counter-reset: item;
 
     & > li::before {
-      content: counter(item) '. ';
+      content: counter(item) ". ";
       counter-increment: item;
-    }
-
-    ul {
-      @include hollow-list;
     }
   }
 
@@ -163,7 +100,7 @@ h1 {
 .list-checklist {
   li {
     &::before {
-      content: '□' !important;
+      content: "□" !important;
     }
   }
 
@@ -189,8 +126,7 @@ h1 {
 }
 
 .margin-heading {
-  margin-bottom: 0.5em;
-  margin-top: 1.5em;
+  @include margin-heading;
 }
 
 @mixin list {
@@ -204,17 +140,87 @@ h1 {
 .prose {
   @include list;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-bottom: 0.5em;
   }
 
   * + {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin-top: 1.5em;
     }
   }
 }
 
 .maxw-prose {
-  max-width: $prose-max-width;
+  max-width: $prose-max-width !important;
+}
+
+.font-xs {
+  font-size: $font-size-x-small !important;
+}
+
+.font-sm {
+  font-size: $font-size-small !important;
+}
+
+.font-md {
+  font-size: $font-size-medium !important;
+}
+
+.font-lg {
+  font-size: $font-size-large !important;
+}
+
+.font-xl {
+  font-size: $font-size-x-large !important;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.kicker {
+  @include kicker;
+}
+
+.font-mono {
+  font-family: $font-family-mono;
+}
+
+blockquote {
+  color: $gray-80;
+  margin-inline: 3rem;
+}
+
+@mixin responsive-headings {
+  h2 {
+    font-size: $font-size-x-large;
+
+    @include media-breakpoint-up(sm) {
+      font-size: $font-size-xxx-large;
+    }
+  }
+
+  h3 {
+    font-size: $font-size-large;
+
+    @include media-breakpoint-up(sm) {
+      font-size: $font-size-x-large;
+    }
+  }
+}
+
+.project-case-study-content,
+.post-content {
+  @include responsive-headings;
 }

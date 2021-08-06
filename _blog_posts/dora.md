@@ -19,28 +19,28 @@ date_published: 2018-06-17
 date: 2018-06-17
 ---
 
-At Skylight, we believe that one of the keys to driving digital transformation successfully is using a metrics-driven, continuous improvement cycle. That philosophy is a key feature of how we approach working with our clients to transform their software delivery performance through DevOps, as described in a [previous post](/blog/our-winning-devops-transformation-consulting-proposal/). And why we've forged a partnership with [DevOps Research and Assessment](https://devops-research.com/) (DORA).
+At Skylight, we believe that one of the keys to driving digital transformation successfully is using a metrics-driven, continuous improvement cycle. That philosophy is an essential feature of how we approach working with our clients to transform their software delivery performance through DevOps, as described in a [previous post](/blog/our-winning-devops-transformation-consulting-proposal/). It's also why we've forged a partnership with [DevOps Research and Assessment](https://devops-research.com/) (DORA).
 
 ## So what is DORA?
 
 If you track what's going on in the DevOps space, there's a good chance you've heard of DORA before, or at least the people behind it. For those unfamiliar, DORA is a group of researchers dedicated to the study of high-performing software delivery teams and the factors (for example, automated testing) that predict them. It was founded by world-renowned DevOps experts, including Gene Kim (author of *The Phoenix Project*), Jez Humble (author of *Continuous Delivery and DevOps Handbook*), and Dr. Nicole Forsgren (author of *Accelerate* and lead investigator for the State of DevOps Report).
 
-DORA's flagship product is an outcome-oriented, science-based DevOps assessment methodology that benchmarks your performance against 20,000+ data points. And pinpoints exactly which DevOps capabilities (for example, version control) you should invest in improving in order to deliver software with speed and stability.
+DORA's flagship product is an outcome-oriented, science-based DevOps assessment methodology that benchmarks your performance against 20,000+ data points. It pinpoints exactly which DevOps capabilities (for example, version control) you should invest in improving in order to deliver software with speed and stability.
 
 ## What makes DORA unique?
 
 [DORA's research](https://puppet.com/resources/whitepaper/state-of-devops-report) has shown that compared to low-performing teams, high-performing teams:
 
-* deploy code 46 times faster;
-* have a lead time from commit to deploy that's 440 times faster;
-* have a mean time recovery from failure 96 times faster; and
-* deploy code that fails 80% less.
+* Deploy code 46 times faster
+* Have a lead time from commit to deploy that's 440 times faster
+* Have a mean time recovery from failure 96 times faster
+* Deploy code that fails 80% less
 
-That's an impressive difference. And begs the question: how do you achieve such high levels of software delivery performance? Some organizations rely on opinions, which lead to wasteful or low-impact investments. While others adopt maturity models, which [often fail](https://martinfowler.com/bliki/MaturityModel.html) because they don't take your organization's unique circumstances into account. DORA's assessment methodology, on the other hand, relies on statistical methods and years of survey results to empirically determine what your teams need to do in order to improve their performance. That's why more and more organizations are embracing DORA's approach, including notable *Global Fortune 1000* companies such as [Capital One](https://devops-research.com/assets/capital_one_case_study.pdf).
+That's an impressive difference. And it begs the question: How do you achieve such high levels of software delivery performance? Some organizations rely on opinions, which lead to wasteful or low-impact investments. Others adopt maturity models, which [often fail](https://martinfowler.com/bliki/MaturityModel.html) because they don't take your organization's unique circumstances into account. DORA's assessment methodology, on the other hand, relies on statistical methods and years of survey results to empirically determine what your teams need to do in order to improve their performance. That's why more and more organizations are embracing DORA's approach, including notable *Global Fortune 1000* companies like [Capital One](https://devops-research.com/assets/capital_one_case_study.pdf).
 
 ## How does the DORA assessment work?
 
-The DORA assessment starts with a 20-minute, cloud-based survey, taken by people in your organization across development, testing, infosec, and operations to gauge the current state of your organization's software delivery capabilities. DORA then benchmarks those results against years of data from other teams. This gives you visibility into how you're measuring-up to your industry peers (for example, other government organizations), as well as other teams within your organization.
+The DORA assessment starts with a 20-minute, cloud-based survey taken by people in your organization across development, testing, infosec, and operations to gauge the current state of your organization's software delivery capabilities. DORA then benchmarks those results against years of data from other teams. This gives you visibility into how you're measuring-up to your industry peers (for example, other government organizations), as well as other teams within your organization.
 
 ![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.svg)
 

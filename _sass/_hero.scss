@@ -10,16 +10,27 @@
   }
 }
 
-.hero-container  {
+.hero-container {
+  min-height: 236px;
   max-width: 1140px;
-  padding-bottom: 56px; // Is there a spacing variable we can use?
-  padding-top: 56px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+
+  @include media-breakpoint-up(md) {
+    min-height: 25.7vw;
+  }
+
+  @media only screen and (min-width: 1140px) {
+    min-height: 294px;
+  }
 }
 
 .hero-heading {
   color: $white;
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
+  margin-bottom: 0;
 
   @include media-breakpoint-up(sm) {
     font-size: $font-size-h2;
@@ -32,12 +43,16 @@
   line-height: 1.5;
   margin-bottom: 0;
   margin-top: 1.5rem;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .hero-btn-group {
-  background: $gray-dark;
+  background: $brand-primary;
   bottom: 0;
-  box-shadow: 0 0 9px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
   display: flex;
   left: 0;
   padding: 16px;
@@ -75,22 +90,32 @@
   }
 }
 
+.page-team {
+  .hero-banner {
+    @media only screen and (min-width: 1140px) {
+      background-size: 1140px;
+    }
+  }
+}
+
 .hero-banner {
   background-position: top center;
-  background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 
+  @media only screen and (min-width: 1140px) {
+    background-size: 1300px;
+  }
 
   .hero-container {
-    max-width: 506px;
-    padding-bottom: 44px;
-    padding-top: 47px;
+    max-width: 510px;
     -webkit-animation: herofadein 1s;
     animation: herofadein 1s;
   }
 
   .hero-heading {
     font-size: $font-size-xxx-large;
-    text-shadow: $card-box-shadow;
 
     &.text-ink {
       text-shadow: none;
@@ -100,7 +125,6 @@
   .hero-content {
     font-size: $font-size-medium;
     margin-top: 1rem;
-    text-shadow: $card-box-shadow;
 
     &.text-ink {
       text-shadow: none;
@@ -116,5 +140,37 @@
 
   to {
     opacity: 1;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .page-company {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-company.svg);
+    }
+  }
+
+  .page-work {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-work.svg);
+    }
+  }
+
+  .page-careers {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-careers.svg);
+    }
+  }
+
+  .page-thoughts {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-thoughts.svg);
+    }
+  }
+
+  .page-connect {
+    .hero-banner {
+      background-image: url(/img/hero-mobile-connect.svg);
+    }
   }
 }

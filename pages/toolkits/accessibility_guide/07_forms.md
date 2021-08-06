@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Forms | Skylight Accessibility Guide
-description: "How we work with forms."
+description: How we work with forms.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/forms/
 sidenav: accessibility_guide
@@ -23,7 +23,7 @@ Making forms accessible is a simple process. Each form element should be associa
   * **If the form can't be filled out with just a keyboard, this is a failure.**
 4. Check for title attributes
   * Title attributes can be a substitute for labels.
-  * **If the title attributes provides all the related information it passes, if it provides extra information it fails.**
+  * **If the title attributes provide all the related information it passes, if they provide extra information it fails.**
   * Title attributes aren't accessible via keyboard.
 
 ## Examples
@@ -54,12 +54,12 @@ Making forms accessible is a simple process. Each form element should be associa
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup">
-          <label class="form-check-label" for="peasoup">Pea Soup</label>
+          <input class="form-check-input" type="radio" name="soup" value="frenchonion" id="frenchonion" title="French onion">
+          <label class="form-check-label" for="frenchonion">French onion</label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken" title="Chicken Noodle">
-          <label class="form-check-label" for="chicken">Chicken Noodle</label>
+          <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken" title="Chicken noodle">
+          <label class="form-check-label" for="chicken">Chicken noodle</label>
         </div>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="soup" value="tomato" id="tomato" title="Tomato">
@@ -70,7 +70,7 @@ Making forms accessible is a simple process. Each form element should be associa
   </fieldset>
 </div>
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--tip" markdown='1'>
 #### Note
 Code examples don't include styling markup for clarity of the technique being explained.
 </div>
@@ -86,16 +86,16 @@ Code examples don't include styling markup for clarity of the technique being ex
 
 <fieldset>
   <legend>What's your favorite soup?</legend>
-  <input type="radio" name="soup" value="pea" id="peasoup" title="Pea Soup"><label for="peasoup">Pea Soup</label>
-  <input type="radio" name="soup" value="chicken" id="chicken" title="Chicken Noodle"><label for="chicken">Chicken Noodle</label>
+  <input type="radio" name="soup" value="frenchonion" id="frenchonion" title="French onion"><label for="frenchonion">French onion</label>
+  <input type="radio" name="soup" value="chicken" id="chicken" title="Chicken noodle"><label for="chicken">Chicken noodle</label>
   <input type="radio" name="soup" value="tomato" id="tomato" title="Tomato"><label for="tomato">Tomato</label>
 </fieldset>
 ```
 
-#### First and Last Name Form
+#### First and last name form
 Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, "First" and "Last" wouldn't make sense without "Name." This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
 
-#### Favorite Soup Form
+#### Favorite soup form
 ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
 {:.fails}
@@ -119,7 +119,7 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
   <fieldset class="accessibility-fieldset col-sm-8">
     <div class="row">
       <div class="col-sm-12">
-        <span style="color:#D73E35;">This Question Is Required</span>
+        <span style="color:#D73E35;">This question is required</span>
       </div>
     </div>
     <div class="row">
@@ -129,12 +129,12 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
       <div class="col-sm-1"></div>
       <div class="col-sm-11">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="soup" value="pea" id="pea-2" title="Chick Pea Soup">
-          <label class="form-check-label" for="pea-2">Pea Soup</label>
+          <input class="form-check-input" type="radio" name="soup" value="frenchonion" id="frenchonion-2" title="French onion">
+          <label class="form-check-label" for="frenchonion-2">Onion</label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken Noodle">
-          <label class="form-check-label" for="chicken-2">Chicken Noodle</label>
+          <input class="form-check-input" type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken noodle">
+          <label class="form-check-label" for="chicken-2">Chicken noodle</label>
         </div>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="soup" value="tomato" id="tomato-2" title="Tomato">
@@ -156,9 +156,9 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
 
 <fieldset>
   <legend>What's your favorite soup?</legend>
-  <span style="color:#990000;">This Question Is Required</span>
-  <input type="radio" name="soup" value="pea" id="pea-2" title="Chick Pea Soup"><label for="pea-2">Pea Soup</label>
-  <input type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken Noodle"><label for="chicken-2">Chicken Noodle</label>
+  <span style="color:#990000;">This question is required</span>
+  <input type="radio" name="soup" value="frenchonion" id="frenchonion-2" title="French onion"><label for="frenchonion-2">Onion</label>
+  <input type="radio" name="soup" value="chicken" id="chicken-2" title="Chicken noodle"><label for="chicken-2">Chicken noodle</label>
   <input type="radio" name="soup" value="tomato" id="tomato-2" title="Tomato"><label for="tomato-2">Tomato</label>
 </fieldset>
 <br>
@@ -167,8 +167,8 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
 #### Failing elements
 - First name label ```for``` and ```id``` don't match.
 - Last name has an invalid ```id```.
-- "This Question Is Required" isn't associated with the form fields.
-- The ```title``` tag for Pea Soup indicates it's "Chick Pea Soup." This information isn't available to keyboard, sighted users.
+- "This question is required" isn't associated with the form fields.
+- The ```title``` tag for onion soup indicates it's "French onion." This information isn't available to keyboard, sighted users.
 
 ### How ARIA affects form inputs
 
@@ -176,7 +176,7 @@ Screen readers vary on what they read and the additional information they provid
 
 You can test these with your own screen reader. If you have a OSX you can turn VoiceOver on by hitting command+F5.
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--note" markdown='1'>
 #### Further information
 Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. For example: `aria-labelledby="car1 car_description car-error-message"`.
 </div>

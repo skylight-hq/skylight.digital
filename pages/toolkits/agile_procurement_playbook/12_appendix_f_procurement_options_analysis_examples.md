@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Appendix F&#58; Procurement options analysis examples | Skylight Agile Procurement Playbook
+title: "Appendix F: Procurement options analysis examples | Skylight Agile Procurement Playbook"
 description: A guide on how to apply the principles of agile to procurement.
 tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-f-procurement-options-analysis-examples/
@@ -12,11 +12,11 @@ content_type: Toolkit
 
 In deciding which procurement strategy would best fit the needs of a product, developing an analysis of alternatives for the different options that are available helps provide data to make decisions.
 
-## Example #1: Centers for Medicare & Medicaid Services (CMS) &mdash; Medicare Payment Modernization contracting strategy
+## Example #1: Centers for Medicare & Medicaid Services (CMS) — Medicare Payment Modernization contracting strategy
 
 ### Background
 
-As modernization efforts transitions from proof of concepts on the Fiscal Intermediary Standard System (FISS) to a production roadmap, serious thought must be put into the contracting strategy to support this effort for the next 5&ndash;10 years. ***Setting up the correct contracting strategy has the largest impact on the probability of success on this effort***. The FISS system is the initial target for proof of concepts to be transitioned into production, this effort shouldn't be limited to just that system. This is a unique opportunity to synthesize diverse Medicare payment systems. Including the following:
+As modernization efforts transitions from proof of concepts on the Fiscal Intermediary Standard System (FISS) to a production roadmap, serious thought must be put into the contracting strategy to support this effort for the next 5–10 years. ***Setting up the correct contracting strategy has the largest impact on the probability of success on this effort***. The FISS system is the initial target for proof of concepts to be transitioned into production, this effort shouldn't be limited to just that system. This is a unique opportunity to synthesize diverse Medicare payment systems. Including the following:
 
 - Common Working File (CWF)
 - Multi-Carrier System (MCS)
@@ -43,9 +43,9 @@ The Office of Information Technology (OIT) at CMS has an existing indefinite del
 | Pros | Cons |
 |------|------|
 | The IDIQ is already existing and vendors have been pre-vetted. | The vendor pool isn't specialized to any project. |
-| The vendor pool is diverse based on company size | The vendor pool is so large the agile contracting is impossible. |
-| The ceiling on the IDIQ is extremely high &mdash; low risk of breaking through it. | The probability of protest per contract is substantially higher due to more vendor bids and issues with small business sizes. |
-| Orders under $10M aren't protestable | Agile methodologies, user-center design, and DevOps practices aren't baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest. |
+| The vendor pool is diverse based on company size. | The vendor pool is so large the agile contracting is impossible. |
+| The ceiling on the IDIQ is extremely high — low risk of breaking through it. | The probability of protest per contract is substantially higher due to more vendor bids and issues with small business sizes. |
+| Orders under $10M aren't protestable. | Agile methodologies, user-center design, and DevOps practices aren't baked into the IDIQ and thus need to be included with each proposal. This bloats the proposal with boilerplate language while increasing the surface area of protest. |
 | All contract types permissible giving CMS added flexibility. | Most vendors aren't familiar with CMS payment processing and could struggle to meet the quick on boarding and rapidly changing needs of this project. |
 | Helping CMS meet small business goals. | Ability to award new tasks quickly. |
 
@@ -56,18 +56,18 @@ This option has the ability to continue leveraging SPARC while allowing for new 
 {:.post-table .table-even}
 | Pros | Cons |
 |------|------|
-| Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work. | High-protest probability &mdash; would require a competitive process that could be protested. There are two points of protest because we already have a large-vetted pool of contractors plus the source selection decision. |
+| Ability to add new entrants to the cadre of pre-qualified vendors that could compete for agile development work. | High-protest probability — would require a competitive process that could be protested. There are two points of protest because we already have a large-vetted pool of contractors plus the source selection decision. |
 | - | Additional resources need on Office of Acquisition & Grants Management (OAGM) and program side to manage source selection process. |
 
-#### Governmentwide Acquisition Contract (GWAC) &mdash; General Services Administration (GSA) Alliant 2, National Institutes of Health (NIH) CIO-SP3, etc.
+#### Governmentwide Acquisition Contract (GWAC) — General Services Administration (GSA) Alliant 2, National Institutes of Health (NIH) CIO-SP3, etc.
 
 {:.post-table .table-even}
 | Pros | Cons |
 |------|------|
 | Existing pre-vetted cadre of qualified vendors. | Best-in-Class (BIC) designation that'll help CMS meet Office of Management and Budget (OMB) targets. |
-| Orders under $10M not protestable. | Agency could receive criticism for not using SPARC that was intended, in part, for agile development; however, climate is pushing agencies toward Category Management and spend under management (SUM) / BIC use. |
+| Orders under $10M not protestable. | Agency could receive criticism for not using SPARC that was intended, in part, for agile development; however, climate is pushing agencies toward Category Management and spend under management (SUM)/BIC use. |
 | All contract types permissible. | Not all vendors will have subject matter expertise with CMS systems or payment processing. |
-| Alliant 2 explicitly includes agile development services. |  |
+| Alliant 2 explicitly includes agile development services. | - |
 
 #### Agency-wide BPA
 
@@ -120,7 +120,7 @@ Some high-level stats on the QPP BPA to-date:
 - Zero protests
 - The average procurement action lead time is 67 days
 - The average period of performance for an ADELE task order is 2.2 years
-- Responses were typically limited to 20&ndash;25 pages with 2-week turnarounds
+- Responses were typically limited to 20–25 pages with 2-week turnarounds
 - Low-dollar value allows for Contracting Officer's Representatives (COR) II rather than COR III
 
 ### Retrospective: SPARC vs. ADELE
@@ -157,7 +157,7 @@ Competition is vital in making sure the government is getting the best possible 
 
 #### Contractor digital service experience and approach (this is different than "agile development")
 
-User-centered design, DevOps, and product management are required to deliver modern digital services. These skillsets along with an agile methodology are necessary in delivering working software in small increments allowing for quickly changing development and design as new requirements are discovered.
+User-centered design, DevOps, and product management are required to deliver modern digital services. These skillsets, along with an agile methodology, are necessary in delivering working software in small increments allowing for quickly changing development and design as new requirements are discovered.
 
 {:.post-table .table-small-first}
 | Vehicle | Contractor digital service experience |
@@ -169,7 +169,7 @@ User-centered design, DevOps, and product management are required to deliver mod
 
 Having a background with CMS programs allows vendors to hit the ground running when contracts are awarded. The amount of time that's required to either onboard or transition work is diminished when vendors already know systems that they'll be working on. Having these familiarities allows for the period of performance to decrease and thus protecting CMS from getting locked into a vendor that underperforms. In addition to familiarity, having a smaller vendor pool means that contractors and their employees already have accounts, access, and the ability to quickly begin work after contract award.
 
-In some cases it takes over two months for *new* contractors to get access to CMS systems, this would make any attempt at iterative development dead on arrival.
+In some cases it takes over two months for *new* contractors to get access to CMS systems. This would make any attempt at iterative development dead on arrival.
 
 {:.post-table .table-small-first}
 | Vehicle | Familiarity with CMS systems |

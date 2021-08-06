@@ -4,24 +4,6 @@
     /*@extend .callout--alt;*/
   }
 
-  .example {
-    margin-top: 1em;
-    margin-bottom: 1rem;
-    font-size: 1.125rem;
-    padding: 1rem;
-    border: 1px solid $gray-lightest;
-    max-width: $prose-max-width;
-
-    + p {
-      margin-bottom: 2em;
-    }
-    .form-group {
-      label {
-        font-weight: bold;
-      }
-    }
-  }
-
   /*fieldset {
     border: 1px solid #393939;
     border-radius: 0.6rem;
@@ -41,27 +23,38 @@
     cursor: pointer;
   }
 
-  .passes:after {
-    display: inline-block;
-    content: '  ';
-    background-image: url('/img/check-circle-solid.svg');
-    color: $brand-success;
-    background-size: 14px 14px;
-    height: 14px;
-    width: 14px;
-    margin-left: 5px;
+  .passes {
+    color: $green-300;
+
+    &::after {
+      display: inline-block;
+      content: '  ';
+      background-image: url('/img/toolkits/accessibility/check-circle.svg');
+      color: $brand-success;
+      background-size: 18px 18px;
+      height: 18px;
+      width: 18px;
+      margin-bottom: -2px;
+      margin-left: 0.5rem;
+    }
   }
 
-  .fails:after {
-    display: inline-block;
-    content: '  ';
-    background-image: url('/img/times-circle-solid.svg');
-    background-size: 14px 14px;
-    color: $sk-red;
-    height: 14px;
-    width: 14px;
-    margin-left: 5px;
+  .fails {
+    color: $red-200;
+
+    &::after {
+      display: inline-block;
+      content: '  ';
+      background-image: url('/img/toolkits/accessibility/times-circle.svg');
+      background-size: 18px 18px;
+      color: $sk-red;
+      height: 18px;
+      width: 18px;
+      margin-bottom: -2px;
+      margin-left: 0.5rem;
+    }
   }
+
   .h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5em;
@@ -85,4 +78,103 @@
     font-size: 0.925rem;
   }
 
+}
+
+.callout--example,
+.example {
+  margin-top: 1em;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  padding: 1rem;
+  border: 1px solid $gray-lightest;
+  border-radius: 3px;
+
+  + p {
+    margin-bottom: 2em;
+  }
+
+  .form-group {
+    label {
+      font-weight: bold;
+    }
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  + .example {
+    margin-top: 2rem;
+  }
+}
+
+.highlight {
+  background-color: $gray-1 !important;
+  font-family: $font-family-mono !important;
+
+  .nt, .nc {
+    color: $blue-200 !important;
+  }
+
+  .na, .m, .nb {
+    color: $green-200 !important;
+  }
+
+  .s, .sa, .dl, .nl {
+    color: $red-200 !important;
+  }
+
+  .cp {
+    color: $black !important;
+  }
+
+  * {
+    font-weight: normal !important;
+  }
+
+  code {
+    font-family: $font-family-mono !important;
+    font-weight: normal !important;
+  }
+}
+
+.highlighter-rouge {
+  &.language-html,
+  &.language-css {
+    border: 1px solid $gray-lightest;
+    border-radius: 3px !important;
+    margin-bottom: 1rem;
+  }
+}
+
+.example + .language-html.highlighter-rouge {
+  border-top: none;
+  margin-top: calc(-1rem - 5px);
+
+  .highlight {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+}
+
+pre {
+  margin-bottom: 0;
+}
+
+code {
+  font-family: $font-family-mono;
+}
+
+p code {
+  background-color: rgba(0,0,0,0.13) !important;
+}
+
+iframe {
+  border: none;
+}
+
+.page-work-toolkits-accessibility-guide-training-videos {
+  .example {
+    width: min-content;
+  }
 }

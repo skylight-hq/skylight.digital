@@ -3,6 +3,7 @@
 ---
 
 @charset 'utf-8';
+$baseurl: "{{ site.baseurl }}";
 
 @import 'custom';
 @import 'bootstrap/bootstrap';
