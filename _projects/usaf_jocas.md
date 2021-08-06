@@ -61,7 +61,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force's (USAF's) Job Order Cost Accounting System (JOCAS) II is
+The U.S. Air Force's (USAF) Job Order Cost Accounting System (JOCAS) II is
 roughly a 30-year-old cost accounting system that supports billions of dollars
 in annual financial transactions. As a subcontractor to Fearless, we're helping
 to revamp the user experience, technical architecture, and technology stack of
