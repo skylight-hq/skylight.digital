@@ -48,7 +48,7 @@ source_code_url: https://github.com/skylight-hq/va-api-scorecard
 
 {% capture summary %}
 The Veterans Affairs needed to start preparing for how best to govern
-their growing portfolio of APIs. So we delivered them a minimum viable
+their growing portfolio of APIs. So we built them a minimum viable
 product (MVP) of an API Scorecard governance tool.
 {% endcapture %}
 
@@ -65,8 +65,8 @@ what success looks like at each stage
 and alert them to any issues requiring special attention
 - Giving management visibility into how teams are doing, where they need help,
 and what governance decisions need to be made
-- Giving stakeholders insight into the value of the VA's portfolio of APIs- i>
-Reinforcing best practices among teams for delivering APIs successfully
+- Giving stakeholders insight into the value of the VA's portfolio of APIs
+- Reinforcing best practices among teams for delivering APIs successfully
 
 The VA needed a <em>lean</em> way to further flesh out and test this idea.
 {% endcapture %}
@@ -76,15 +76,15 @@ To address this need, we assembled a cross-functional team with expertise in
 UX design, software engineering, and API governance. Through a series of
 rapid iterations, we created an MVP of the API Scorecard governance tool.
 
-We used GitHub Pages to serve as a public frontend and private backend for
+We used GitHub Pages to serve as a public front end and private back end for
 the application, a technique pioneered by a member of the Skylight team.
 This approach avoided the additional time, cost, and complexity associated
-with setting up a secure backend server environment, thus keeping things lean.
+with setting up a secure back-end server environment, thus keeping things lean.
 
 We also worked with the VA to not only define the stages of their
 API lifecycle, but also the "delivery success criteria" that governs
 how projects move from one stage to the next. We made both the stages
-and the criteria configurable from with the application's YAML files.
+and the criteria configurable with the application's YAML files.
 {% endcapture %}
 
 {% capture results %}
