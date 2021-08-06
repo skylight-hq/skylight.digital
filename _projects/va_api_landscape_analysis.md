@@ -25,7 +25,7 @@ technologies:
   - GitHub Pages / Jekyll
   - Git / GitHub
   - Amazon Web Services
-  - Mural
+  - MURAL
 practices:
   - Spidering
   - Semantic analysis
