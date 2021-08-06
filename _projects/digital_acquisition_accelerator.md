@@ -60,8 +60,8 @@ led a "train-the-trainer" program designed to help agencies establish their own
 multidisciplinary team of digital acquisition experts.
 
 The program brought together expert trainers and coaches
-from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service
-(the first-ever such cross-organizational collaboration) who worked with agencies
+from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service, representing 
+the first-ever such cross-organizational collaboration. These trainers worked with agencies
 to assemble their teams and build up their expertise through a variety of development
 techniques, including classroom training, hands-on learning (involving
 real-world acquisitions), and knowledge capture and sharing.
