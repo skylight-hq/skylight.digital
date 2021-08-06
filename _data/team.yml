@@ -1249,8 +1249,8 @@
   image_description: Photo of Charlye Tran
   position: Service Designer
   bio: >
-    Charlye loves to solve complex problems. As a former software and data engineer, she now 
-    specializes in service design and product management and is certified in UX by the Nielsen Norman 
+    Charlye loves to solve complex problems. As a former software and data engineer, she now
+    specializes in service design and product management and is certified in UX by the Nielsen Norman
     Group. Charlye lives in Texas.
   active: true
   order: 290
@@ -1815,6 +1815,10 @@
       link: https://github.com/JSkeets
       link_description: Jesse's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/jesse-skeets/
+      link_description: Jesse's Project Work
+      fa_icon_name: wrench
 - name: derek-tam
   fname: Derek
   lname: Tam
@@ -1867,6 +1871,10 @@
       link: https://www.linkedin.com/in/lesliegarnerfranklin/
       link_description: Leslie's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/leslie-garner-franklin/
+      link_description: Leslie's Project Work
+      fa_icon_name: wrench
 - name: chun-yen
   fname: Chun
   lname: Yen
@@ -1991,6 +1999,10 @@
       link: https://github.com/nathancrtr
       link_description: Nathan's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/nathan-carter/
+      link_description: Nathan's Project Work
+      fa_icon_name: wrench
 - name: matt-goldberg
   fname: Matt
   lname: Goldberg
@@ -2155,6 +2167,10 @@
       link: https://www.taylorcurtiss.com/
       link_description: Taylor's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/taylor-curtiss/
+      link_description: Taylor's Project Work
+      fa_icon_name: wrench
 - name: laura-kerry
   fname: Laura
   lname: Kerry
@@ -2195,6 +2211,10 @@
       link: https://github.com/emmastephenson
       link_description: Emma's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/emma-stephenson/
+      link_description: Emma's Project Work
+      fa_icon_name: wrench
 - name: mina-cairns
   fname: Mina
   lname: Cairns
