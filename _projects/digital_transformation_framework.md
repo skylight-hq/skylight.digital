@@ -45,17 +45,17 @@ to help agencies transform into digitally-powered organizations.
 To think and be more digital, government organizations need to mature along
 multiple, self-reinforcing dimensions — talent and empowerment, customer experience,
 digital procurement, cloud and DevOps, data management, enterprise agile, and legacy
-modernization. But how do they do so in a way that is manageable, sustainable,
+modernization. But how can they do so in a way that's manageable, sustainable,
 incrementally valuable, and ultimately independent of expensive consultancies?
 {% endcapture %}
 
 {% capture solution %}
 To address this challenge, Chris Cairns and Shashank Khandelwal, as members of 18F and
-the Federal Chief Information Officer's Technology Transformation Task Force, the precursor
-to the American Technology Council, collaborated with multiple government technology executives
+the Federal Chief Information Officer's Technology Transformation Task Force (the precursor
+to the American Technology Council), collaborated with multiple government technology executives
 and renowned transformation experts to develop a comprehensive framework for digital transformation. The framework
 incorporates lessons learned and best practices from multiple agencies with digital
-transformation experience, making it designed specifically to address the unique digital
+transformation experience, making it specifically designed to address the unique digital
 maturity needs of government organizations.
 {% endcapture %}
 
