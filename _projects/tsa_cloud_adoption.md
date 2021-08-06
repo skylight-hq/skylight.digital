@@ -42,8 +42,8 @@ source_code_url:
 
 {% capture summary %}
 The Transportation Security Administration (TSA) Chief Information Officer (CIO)
-needed help undertaking a broad cloud transformation initiative, so a specialized
-team of site reliability engineers was provided to jumpstart the transition.
+needed help undertaking a broad cloud transformation initiative, so we provided a specialized
+team of site reliability engineers to jumpstart the transition.
 {% endcapture %}
 
 {% capture challenge %}
@@ -63,7 +63,7 @@ over a series of phases
 - Migrated two low-risk applications within a few months to give leadership immediate
 insight into what changes needed to be made to the organization's structure, culture,
 talent mix, practices, tooling, and vendor ecosystem
-- Showcased the value of combining cloud services with DevSecOps practices such as
+- Showcased the value of combining cloud services with DevSecOps practices, such as
 infrastructure as code
 - Imparted cloud and DevOps competencies through training, coaching, and hiring support
 {% endcapture %}
