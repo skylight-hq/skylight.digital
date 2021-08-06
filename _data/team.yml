@@ -1764,6 +1764,10 @@
       link: https://www.linkedin.com/in/giannauson
       link_description: Gianna's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/gianna-uson/
+      link_description: Gianna's Project Work
+      fa_icon_name: wrench
 - name: alex-curtis
   fname: Alex
   lname: Curtis
@@ -2189,6 +2193,10 @@
       link: https://www.linkedin.com/in/laurawkerry/
       link_description: Laura's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/laura-kerry/
+      link_description: Laura's Project Work
+      fa_icon_name: wrench
 - name: emma-stephenson
   fname: Emma
   lname: Stephenson
