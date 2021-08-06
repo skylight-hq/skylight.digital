@@ -54,7 +54,7 @@ system. Among the concerns they faced, there were several complicating factors:
 audit or track changes to the data pipeline
 - New and completely unfamiliar data schema for SDWIS Prime, which made
 importing and exporting the data difficult 
--Transformations would have to be routinely performed to ingest data and would have to be undone
+- Transformations would have to be routinely performed to ingest data and would have to be undone
 again every time the system exported information to a state due to the
 custom application of the output format
 
