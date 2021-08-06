@@ -63,7 +63,7 @@ to understand the technical approaches used by other organizations when creating
 flagship mobile apps
 - Interviewing several organizations to gain insight into how they've approached
 creating their flagship mobile apps
-- Interviewing veterans to understand what their mobile experience needs are
+- Interviewing veterans to understand their mobile experience needs
 - Analyzing and synthesizing our research data into a comprehensive report
 that detailed our methodology, findings, and recommendations for what the
 VA.gov's mobile product strategy should be going forward
