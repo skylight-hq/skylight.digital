@@ -32,7 +32,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The United Nations' (UN's) 2019 Global Platform for Disaster Risk Reduction conference
+The United Nations' (UN) 2019 Global Platform for Disaster Risk Reduction conference
 website didn't meet the Web Content Accessibility Guidelines (WCAG) 2.0 and
 needed to meet standards for visitors with disabilities. We were brought in
 to audit the website and fix the accessibility issues so it met globally-accepted
