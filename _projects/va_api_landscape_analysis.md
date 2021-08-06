@@ -40,7 +40,7 @@ source_code_url: https://github.com/skylight-hq/va-api-landscape
 ---
 
 {% capture summary %}
-The Veterans Affairs' (VA's) API Platform Management team needed help
+The Veterans Affairs' (VA) API Platform Management team needed help
 developing a near-term roadmap of APIs to deliver. So we provided an
 analysis of the VA's millions of public datasets and recommended which
 of these resources would be good candidates for turning into APIs, based
@@ -65,8 +65,8 @@ machine-readable formats
 - Conducting user research with veterans and their supporters to learn more about
 what types of data resources would be most valuable to them if made more available
 and accessible on the web, mobile devices, and other platforms
-- Analyzing and synthesizing the results of the spidering process and the user research- i>
-Preparing a report that detailed our methodology, analysis results, and
+- Analyzing and synthesizing the results of the spidering process and the user research
+- Preparing a report that detailed our methodology, analysis results, and
 recommendations for resources to prioritize as APIs
 
 In our report, we also made recommendations for how the VA can improve the
