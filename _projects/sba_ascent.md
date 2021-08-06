@@ -43,7 +43,7 @@ source_code_url:
 {% capture summary %}
 To further their mission of helping small businesses succeed, the Small
 Business Administration (SBA) needed a learning platform focused on
-female entrepreneurs. We engaged as a subcontractor to Fearless to
+female entrepreneurs. As a subcontractor to Fearless, we were brought in to
 deliver a technical solution that maximizes the use of an existing
 open-source-software product without limiting the flexibility needed
 to deliver a unique user experience.
@@ -51,7 +51,7 @@ to deliver a unique user experience.
 
 {% capture challenge %}
 Female entrepreneurs start and own nearly half of all businesses in the U.S.,
-employ 9.4 million workers, generate $1.9 trillion in revenue and represent
+employ 9.4 million workers, generate $1.9 trillion in revenue, and represent
 all industries. To help elevate their success, the SBA launched Ascent, a free
 online learning platform based on an existing open-source content management system
 (CMS) called Brightspot. A critical challenge was leveraging Brightspot in such a way as
@@ -70,7 +70,7 @@ experience for female entrepreneurs.
 {% endcapture %}
 
 {% capture results %}
-- Demonstrated, using a spike solution, that a customized API would not only work
+- Demonstrated via a spike solution that a customized API would not only work
 with Brightspot, but would also provide a robust front-end development
 resource for the SBA
 - Delivered 11 modules of working content, including video, audio, downloadable
