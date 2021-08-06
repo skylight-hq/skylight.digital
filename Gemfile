@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
-ruby '>=2.5.0'
-
 gem "nokogiri", ">= 1.11.6"
 gem "jekyll", "4.2.0"
 gem "webrick"
