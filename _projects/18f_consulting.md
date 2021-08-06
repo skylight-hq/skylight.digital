@@ -60,9 +60,9 @@ digital transformation.
 {% endcapture %}
 
 {% capture challenge %}
-To succeed in today's public-service environment, agencies need to think and be
+To succeed in today's public service environment, agencies need to think and be
 digital. For most, that requires fundamental practice, culture, and technology change.
-The challenge: how do you build an organization within government whose mission is to
+The challenge: How do you build an organization within government whose mission is to
 help those agencies institutionalize that change?
 {% endcapture %}
 
@@ -74,7 +74,7 @@ housed within the GSA.
 Rather than default to a change strategy of importing "Silicon Valley tech culture"
 into government, Chris and Robert recognized the unique talents and knowledge of
 institutional players — such as career civil servants and federal contractors —
-and instead brought the best of both worlds together.
+and brought the best of both worlds together.
 
 Over the course of a year, Chris and Robert recruited, hired, led, and managed
 high-performing multidisciplinary teams — from both the public and private sectors —
@@ -85,7 +85,7 @@ client work and reshaped how GSA delivers technology services to the rest of gov
 
 {% capture results %}
 - Hired over 40 design, product, data, engineering, policy, and acquisition experts leveraging the Schedule A(r) hiring authority
-- Executed nearly 45 projects with federal and state & local clients
+- Executed nearly 45 projects with federal, state, and local clients
 - Achieved near-perfect customer service ratings, as reported by Congress' Government Accountability Office
 - Ignited transformational change at multiple agencies, including the creation of agency-specific digital teams based on the 18F Consulting talent model
 - Influenced over $1 billion in IT acquisition spend
