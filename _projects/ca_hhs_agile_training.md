@@ -37,7 +37,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The California Health and Human Services' (CHHS') Office of Innovation
+The California Health and Human Services' (CHHS) Office of Innovation
 needed help putting the principles of agile into practice. We were
 brought in to deliver a practical agile-coaching experience that not
 only tied together all the key principles of the Agile Manifesto, but also
@@ -49,7 +49,7 @@ For some time, the CHHS Office of Innovation had been working to shift their
 technical and organizational culture toward agile principles. As an
 organization, the Office is responsible for lean design thinking and
 delivering innovative solutions to important problems. So it was
-important for the Office to not only "do" agile, but to "be" agile. But
+important for the Office to not only "do" agile, but to "be" agile. However,
 they were experiencing difficulty connecting the elements of agile
 together, such as planning, testing, and iteration.
 {% endcapture %}
@@ -63,14 +63,14 @@ we simulated five sprints in a microcosm within those two days,
 focusing on applying the Scrum practices of planning, story writing,
 story estimation, velocity calcuation, and testing on the Office of
 Innovation's website, which was in need of substantial revision.
-We aimed to provide not only coaching in the Scrum framework, but also
+We aimed not only to provide coaching in the Scrum framework, but also
 the energy to help participants ask the right questions about their
-agile process. In this way, we aimed to provide both an valuable
+agile process. In this way, we aimed to provide both a valuable
 learning experience and an improved real-world product.
 {% endcapture %}
 
 {% capture results %}
-- Delivered a comprehensive instruction of agile
+- Delivered comprehensive training on agile principles
 - Hands-on development of a new and improved website for
   the CHHS Office of Innovation
 
