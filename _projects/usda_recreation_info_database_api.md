@@ -31,7 +31,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-When the U.S. Department of Agriculture's (USDA's) Recreation.gov
+When the U.S. Department of Agriculture's (USDA) Recreation.gov
 contract came up for rebid, the request for proposal (RFP) had insufficient
 language regarding an API for accessing the website's data layer,
 called the Recreation Information Database (RIDB). Without a good API in place,
@@ -45,7 +45,7 @@ reduce the USDA's risk of procuring the wrong solution.
 The [Recreation.gov RFP](https://www.fbo.gov/index?s=opportunity&mode=form&id=3c740c1e5b809e5ecd99a4cf8a0467b3&tab=core&_cview=0)
 was going to close in two weeks. To align this effort with its
 [Open Data Policy](https://project-open-data.cio.gov/policy-memo/),
-the White House sought urgent advice on how to make the RFP more API focused so that the next
+the White House sought urgent advice on how to make the RFP more API-focused so that the next
 generation of Recreation.gov could not only serve mobile users, but also foster future
 innovation via an external API developer community.
 {% endcapture %}
