@@ -116,7 +116,8 @@ $(function() {
   if (
     pathEndsWith("/work/services/training/ditap-executive/") ||
     pathEndsWith("/work/services/training/ditap/") ||
-    pathEndsWith("/careers/join/")
+    pathEndsWith("/careers/join/") ||
+    pathEndsWith("/work/services/service-design/")
   ) {
     var headings = $("h2");
 
