@@ -38,8 +38,8 @@ source_code_url:
 {% capture summary %}
 [Adopta.Agency](http://adopta.agency/) is a civic movement designed
 around an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/)
-that enables anyone to target an open government dataset, and move it forward one step by
-producing JSON, and two steps forward by launching an open API.
+that enables anyone to improve an open government dataset and move it one step forward by
+producing JSON or two steps forward by launching an open API.
 {% endcapture %}
 
 {% capture challenge %}
