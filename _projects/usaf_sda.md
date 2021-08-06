@@ -57,7 +57,7 @@ Based on our years of experience, we believe that internal capacity building is 
 - Understanding the organization’s readiness for experimenting with new approaches and supporting broad-based change before trying to introduce something new
 - Embedding experts within the organization to work hand-in-hand with existing staff to solve high-priority, real-world problems using alternative ways of working
 - Leveling up people’s know-how through a mix of (some) traditional classroom instruction and (a lot of) learning-by-doing
-- Gaining empirical insights into what it’s going to take to drive organizational-wide change (for example, which capabilities to mature) through the act of doing (that is, using new approaches to solve actual problems)
+- Gaining empirical insights into what it’s going to take to drive organization-wide change (for example, which capabilities to mature) through the act of doing (that is, using new approaches to solve actual problems)
 - Inspiring change by demonstrating the value of doing things differently
 - Creating reusable assets (for example, a methodology, documented lessons learned) as a byproduct of our work in order to accelerate adoption
 
@@ -84,7 +84,7 @@ Through our support, we helped introduce a viable solution for scaling the adopt
 
 {% capture results %}
 - Demonstrated the viability of our Service Design Accelerator solution
-- Created a 70+ page service design practitioner guide, in collaboration with the UC San Diego Design Lab
+- Created a 70+ page service design practitioner guide in collaboration with the UC San Diego Design Lab
 - Developed a comprehensive service design training curriculum
 - Inspired WxPO, BESPIN, and other organizations to expand the use of our Service Design Accelerator solution
 {% endcapture %}
