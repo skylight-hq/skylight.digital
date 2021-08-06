@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 0
 display: true
-tags: [service delivery, research & design, software delivery, devops, cloud & platforms, data & analytics, apis, security & privacy, healthcare, leslie-garner-franklin, victor-zapanta, laura-king, rebecca-lubitzmarchena, kenny-nieh, maya-benari, adam-weber, emma-stephenson, nathan-carter, josh-dorothy, jesse-skeets, nick-clyde, elisa-lee, nick-bristow, shashank-khandelwal, chris-cairns, phoebe-espiritu]
+tags: [service delivery, research & design, software delivery, devops, cloud & platforms, data & analytics, apis, security & privacy, healthcare, leslie garner franklin, victor zapanta, laura king, rebecca lubitzmarchena, kenny nieh, maya benari, adam weber, emma stephenson, nathan carter, josh dorothy, jesse skeets, nick clyde, elisa lee, nick bristow, shashank khandelwal, chris cairns, phoebe espiritu]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
   - leslie-garner-franklin
