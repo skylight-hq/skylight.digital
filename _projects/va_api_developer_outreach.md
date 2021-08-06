@@ -31,9 +31,9 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Veterans Affairs' (VA's) API Platform Management team wanted to increase
-adoption of their APIs. We delivered them a comprehensive research report
-on how to accomplish that, based on a combination of our own expertise and
+The Veterans Affairs' (VA) API Platform Management team wanted to increase
+adoption of their APIs. We developed a comprehensive research report
+on how the VA can accomplish that goal, based on a combination of our own expertise and
 information gathered from interviewing leading organizations.
 {% endcapture %}
 
