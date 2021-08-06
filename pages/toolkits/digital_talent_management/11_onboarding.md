@@ -10,12 +10,15 @@ content_type: Toolkit
 
 # Onboarding
 
-<blockquote class="post-blockquote" cite="https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/">
-<p>"A new job can be stressful, and the decision to stick with a job or move on is often made within the first few days. It's vital that we create a great onboarding experience. We never want to lose sight of the fact that people are at the heart of what we do."</p>
-<cite><strong>Jessica Loadenthal and Alexa Davidson</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "A new job can be stressful, and the decision to stick with a job or move on is often made within the first few days. It's vital that we create a great onboarding experience. We never want to lose sight of the fact that people are at the heart of what we do."
+  cite_name = "Jessica Loadenthal and Alexa Davidson"
+  cite_title = "Making a Great First Impression"
+  cite_url = "https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/"
+%}
 
-Employee onboarding is the process of integrating a new employee into your team. A good onboarding process will reduce the time it takes new employees to acclimate &mdash; and to contribute.
+Employee onboarding is the process of integrating a new employee into your team. A good onboarding process will reduce the time it takes new employees to acclimate — and to contribute.
 
 Onboarding consists of the following activities:
 
@@ -31,13 +34,13 @@ Start documenting your onboarding process with the first hire. Even a small amou
 
 ## Onboard in phases
 
-To avoid overwhelming new hires &mdash; or underwhelming them &mdash; treat onboarding as a phased process. Break it down into the pieces that make sense at each stage. The suggestions below will help you build a tailored onboarding guide and corresponding checklist.
+To avoid overwhelming new hires — or underwhelming them — treat onboarding as a phased process. Break it down into the pieces that make sense at each stage. The suggestions below will help you build a tailored onboarding guide and corresponding checklist.
 
 ### Before the first day
 
 Preparing for your new employee starts well before their first day. You'll want to have a number of things in place:
 
-- Order the hardware (for example, laptop, phone) the new hire will need &mdash; and be sure to leave enough time for IT to configure it and ensure it's ready on the first day
+- Order the hardware (for example, laptop, phone) the new hire will need — and be sure to leave enough time for IT to configure it and ensure it's ready on the first day
 - Purchase any additional licenses and accounts for any software needed
 - If they're going to physically be in an office, figure out where they're going to sit and get the space ready for them
 - If they're going to be remote, make sure to ship whatever they'll need to have on hand for the first day (for example, laptop)
@@ -47,7 +50,7 @@ Preparing for your new employee starts well before their first day. You'll want 
     - Facilitate meeting people
     - Provide them with any informal context to the work and relationships
     - Answer any questions about cultural norms, etc.
-- Send them any first day instructions, such as what documents to bring, what time to come in, dress code, etc.
+- Send them any first day instructions, such as what documents to bring, what time to come in, and dress code
 
 ### On the first day
 
@@ -88,13 +91,15 @@ Create an employee handbook that's easy for everyone to access. A well-written h
 - Ask new hires to make updates to the onboarding guide, onboarding checklist, and employee handbook
 {: .list-checklist}
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [18F's onboarding schedule](https://handbook.18f.gov/onboarding-schedule/)
 - [Making a great first impression: Onboarding matters](https://digital.canada.ca/2019/07/29/making-a-great-first-impression-onboarding-matters/)
 - [How we dramatically improved 18F's onboarding process in 3 months](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/)
+</div>
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Coding it Forward
 
 Since 2017, Coding it Forward has brought over 100 undergraduate and graduate students into the federal government through their Civic Digital Fellowship. In addition to delivering real value to the agencies where interns are placed, the Fellowship is educating the next generation of our civic workforce.

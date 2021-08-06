@@ -35,6 +35,10 @@
       link: /thoughts/blog/author/chris-cairns/
       link_description: Chris' Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/chris-cairns/
+      link_description: Chris' Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/chris-cairns/
       link_description: Chris' Project Work
@@ -72,6 +76,10 @@
       link: /thoughts/blog/author/sean-johnson/
       link_description: Sean's Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/sean-johnson/
+      link_description: Sean's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
@@ -114,6 +122,10 @@
       link: /thoughts/blog/author/robert-read/
       link_description: Robert's Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/robert-read/
+      link_description: Robert's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/robert-read/
       link_description: Robert's Project Work
@@ -180,6 +192,10 @@
       link: /thoughts/blog/author/geoff-mulligan/
       link_description: Geoff's Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/geoff-mulligan/
+      link_description: Geoff's Talks
+      fa_icon_name: microphone
 - name: kin-lane
   fname: Kin
   lname: Lane
@@ -219,6 +235,10 @@
       link: /thoughts/blog/author/kin-lane/
       link_description: Kin's Blog Posts
       fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/kin-lane/
+      link_description: Kin's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/kin-lane/
       link_description: Kin's Project Work
@@ -272,10 +292,6 @@
   active: true
   order: 140
   socials:
-    - name: Twitter
-      link: https://twitter.com/rbristow
-      link_description: Nick's Twitter Account
-      fa_icon_name: twitter
     - name: LinkedIn
       link: https://www.linkedin.com/in/nick-bristow-5b983118/
       link_description: Nick's LinkedIn Account
@@ -551,7 +567,7 @@
   profile_path: /company/about/#brandon-mader
   image: /img/people/brandon-mader.jpg
   image_description: Photo of Brandon Mader
-  position: Data Scientist & Engineer
+  position: Data Scientist
   bio: >
     Brandon loves using data for public good. He specializes in data science,
     data engineering, and software engineering. Brandon graduated from Dartmouth
@@ -576,7 +592,7 @@
   profile_path: /company/about/#becca-bartola
   image: /img/people/becca-bartola.jpg
   image_description: Photo of Becca Bartola
-  position: UX Designer
+  position: Product Designer
   bio: >
     Becca's a former Etsy designer, with a passion for creating positive change
     through great user experiences. She specializes in user research, user experience
@@ -592,10 +608,6 @@
       link: https://www.linkedin.com/in/rebecca-bartola/
       link_description: Becca's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.rebeccabartola.com/
-      link_description: Becca's Personal Website
-      fa_icon_name: home
     - name: Projects
       link: /work/team-member/becca-bartola/
       link_description: Becca's Project Work
@@ -608,9 +620,9 @@
   profile_path: /company/about/#laura-king
   image: /img/people/laura-king.jpg
   image_description: Photo of Laura King
-  position: UX Designer
+  position: Service Designer
   bio: >
-    Laura's a UX researcher, strategist, and designer. She loves to solve
+    Laura's a researcher, strategist, and designer. She loves to solve
     complex problems by empathizing with and understanding the needs of users.
     Laura lives in Colorado.
   active: true
@@ -670,7 +682,7 @@
     Abby's a former member of the U.S. Digital Service, who's drawn to complex problems
     and passionate about improving the human experience of technology. She specializes in
     product management and UX research. Abby lives in Texas.
-  active: true
+  active: false
   order: 80
   socials:
     - name: Twitter
@@ -965,7 +977,7 @@
   profile_path: /company/about/#maya-benari
   image: /img/people/maya-benari.jpg
   image_description: Photo of Maya Benari
-  position: UX Designer
+  position: Product Designer
   bio: >
     Maya's a former member of 18F where she worked on improving
     the user experience of government and developed the U.S.
@@ -1044,7 +1056,7 @@
     improving government services through the integration of smart digital
     solutions. She most recently worked as an employee of NYC government,
     building sites and services to increase data access. She lives in New York.
-  active: true
+  active: false
   order: 178
   socials:
     - name: LinkedIn
@@ -1094,9 +1106,9 @@
   profile_path: /company/about/#peggy-chau
   image: /img/people/peggy-chau.jpg
   image_description: Photo of Peggy Chau
-  position: UX Researcher
+  position: User Researcher
   bio: >
-    Peggy's a UX researcher and designer who transitioned from clinical
+    Peggy's a researcher and designer who transitioned from clinical
     neuroscience research. She's worked on various projects, from researching
     robot vacuums with Samsung to redesigning a pain communication app with UPMC.
     Peggy lives in Massachusetts.
@@ -1123,7 +1135,7 @@
   profile_path: /company/about/#zack-gehin
   image: /img/people/zack-gehin.jpg
   image_description: Photo of Zack Gehin
-  position: UX Designer
+  position: Product Designer
   bio: >
     Zack's certified in UX by the Nielsen Norman Group and specializes in complex
     application design. His entrepreneurial spirit adds a unique approach towards
@@ -1194,10 +1206,6 @@
       link: https://www.linkedin.com/in/nick-clyde-b80967b6/
       link_description: Nick's LinkedIn Account
       fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/ClydeDroid
-      link_description: Nick's GitHub Account
-      fa_icon_name: github
     - name: Projects
       link: /work/team-member/nick-clyde/
       link_description: Nick's Project Work
@@ -1210,12 +1218,12 @@
   profile_path: /company/about/#eric-richards
   image: /img/people/eric-richards.jpg
   image_description: Photo of Eric Richards
-  position: UX Researcher
+  position: User Researcher
   bio: >
-    Eric's a UX researcher and designer, with a passion for co-creation and
+    Eric's a researcher and designer, with a passion for co-creation and
     tackling complex social challenges. He was a 2019 Civic Digital Fellow at
     18F and graduated from UC San Diego with degrees in Human-Computer Interaction
-    and Design for Social Innovation. Eric lives in California.
+    and Design for Social Innovation. Eric lives in Massachusetts.
   active: true
   order: 280
   socials:
@@ -1239,11 +1247,11 @@
   profile_path: /company/about/#charlye-tran
   image: /img/people/charlye-tran.jpg
   image_description: Photo of Charlye Tran
-  position: Product Manager
+  position: Service Designer
   bio: >
-    Charlye loves to solve complex problems. As a former software and data
-    engineer, she now specializes in product management and is certified in
-    UX by Nielsen Norman Group. Charlye lives in Texas.
+    Charlye loves to solve complex problems. As a former software and data engineer, she now
+    specializes in service design and product management and is certified in UX by the Nielsen Norman
+    Group. Charlye lives in Texas.
   active: true
   order: 290
   socials:
@@ -1263,11 +1271,11 @@
   profile_path: /company/about/#tomi-obikunle
   image: /img/people/tomi-obikunle.jpg
   image_description: Photo of Tomi Obikunle
-  position: UX Researcher
+  position: User Researcher
   bio: >
-    Tomi's a UX researcher and designer who strives to meet and honor people
+    Tomi's a researcher who strives to meet and honor people
     where they are. She specializes in continuous discovery, usability testing,
-    and user-centered design. Tomi currently lives in Illinois.
+    and user-centered design. Tomi lives in Illinois.
   active: true
   order: 300
   socials:
@@ -1382,7 +1390,7 @@
   profile_path: /company/about/#kyle-magida
   image: /img/people/kyle-magida.jpg
   image_description: Photo of Kyle Magida
-  position: Data Scientist & Engineer
+  position: Data Engineer & Scientist
   bio: >
     Kyle specializes in data science and engineering. He's passionate about getting
     people solving complex problems the right data at the right time. He formerly
@@ -1552,8 +1560,8 @@
   full_name: Lucas Newman
   short_name: L. Newman
   profile_path: /company/about/#lucas-newman
-  image: /img/people/lucas-newman.jpg
-  image_description: Photo of Lucas Newman
+  image: /img/people/lucas-newman.png
+  image_description: Illustration of Lucas Newman
   position: Software Engineer
   bio: >
     Lucas's a software engineer with an unflinching faith in the ethical potential of
@@ -1570,6 +1578,10 @@
       link: https://github.com/lukenewman
       link_description: Lucas' GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/lucas-newman/
+      link_description: Lucas' Project Work
+      fa_icon_name: wrench
 - name: kenny-nieh
   fname: Kenny
   lname: Nieh
@@ -1590,10 +1602,6 @@
       link: https://www.linkedin.com/in/kenny-nieh-they-them-b091abbb/
       link_description: Kenny's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.kennynieh.com/
-      link_description: Kenny's Personal Website
-      fa_icon_name: home
     - name: Projects
       link: /work/team-member/kenny-nieh/
       link_description: Kenny's Project Work
@@ -1626,7 +1634,7 @@
   profile_path: /company/about/#rebecca-lubitzmarchena
   image: /img/people/rebecca-lubitzmarchena.jpg
   image_description: Photo of Rebecca Lubitz-Marchena
-  position: UX Content Strategist
+  position: Content Strategist
   bio: >
     Rebecca's a content strategist with a background in product marketing,
     UX writing, and localization. She enjoys turning complex concepts into plain
@@ -1700,11 +1708,11 @@
   image_description: Photo of Ori Hoffer
   position: Head of Marketing & Communications
   bio: >
-   Ori's a marketing, communications, and content specialist, who formerly worked for
-   18F and the Beeck Center for Social Impact and Innovation. Ori's also worked in
-   TV, radio, and digital media &mdash; on both the journalism and corporate communications
-   sides. He lives in Virginia.
-  active: true
+    Ori's a marketing, communications, and content specialist, who formerly worked for
+    18F and the Beeck Center for Social Impact and Innovation. Ori's also worked in
+    TV, radio, and digital media — on both the journalism and corporate communications
+    sides. He lives in Virginia.
+  active: false
   order: 450
   socials:
     - name: Twitter
@@ -1741,8 +1749,8 @@
   full_name: Gianna Uson
   short_name: G. Uson
   profile_path: /company/about/#gianna-uson
-  image: /img/people/gianna-uson.png
-  image_description: Illustration of Gianna Uson
+  image: /img/people/gianna-uson.jpg
+  image_description: Photo of Gianna Uson
   position: Software Engineer
   bio: >
     Gianna's a software engineer who's passionate about leveraging technology
@@ -1764,7 +1772,7 @@
   profile_path: /company/about/#alex-curtis
   image: /img/people/alexander-curtis.png
   image_description: Illustration of Alex Curtis
-  position: Data Scientist & Engineer Apprentice
+  position: Data Engineer & Scientist Apprentice
   bio: >
     Alex's a data scientist and engineer who is thrilled about using
     his analytical and computational skills in the realm of public service.
@@ -1807,6 +1815,10 @@
       link: https://github.com/JSkeets
       link_description: Jesse's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/jesse-skeets/
+      link_description: Jesse's Project Work
+      fa_icon_name: wrench
 - name: derek-tam
   fname: Derek
   lname: Tam
@@ -1817,11 +1829,11 @@
   image_description: Illustration of Derek Tam
   position: Product Manager Apprentice
   bio: >
-   Derek's a product manager apprentice who's excited about using modern technological
-   practices in public-facing work. He was a 2020 Civic Digital Fellow with
-   the General Services Administration, where he worked on Vote.gov. He recently graduated
-   with a degree in Systems Engineering from the University of Illinois at Urbana-Champaign.
-   Derek lives in Massachusetts.
+    Derek's a product manager apprentice who's excited about using modern technological
+    practices in public-facing work. He was a 2020 Civic Digital Fellow with
+    the General Services Administration, where he worked on Vote.gov. He recently graduated
+    with a degree in Systems Engineering from the University of Illinois at Urbana-Champaign.
+    Derek lives in Massachusetts.
   active: true
   order: 500
   socials:
@@ -1839,15 +1851,15 @@
   full_name: Leslie Garner Franklin
   short_name: L. Garner Franklin
   profile_path: /company/about/#leslie-garner-franklin
-  image: /img/people/leslie-garner-franklin.png
-  image_description: Illustration of Leslie Garner Franklin
+  image: /img/people/leslie-garner-franklin.jpg
+  image_description: Photo of Leslie Garner Franklin
   position: Product Manager
   bio: >
-   Leslie's a product manager with nearly two decades of experience leading teams and
-   change efforts across the non-profit and public sectors. She's passionate about the role
-   technology and design play in delivering great services. She specializes in
-   cross-functional team leadership, user experience research, and service design.
-   Leslie lives in North Carolina.
+    Leslie's a product manager with nearly two decades of experience leading teams and
+    change efforts across the non-profit and public sectors. She's passionate about the role
+    technology and design play in delivering great services. She specializes in
+    cross-functional team leadership, user experience research, and service design.
+    Leslie lives in North Carolina.
   active: true
   order: 510
   socials:
@@ -1858,4 +1870,365 @@
     - name: LinkedIn
       link: https://www.linkedin.com/in/lesliegarnerfranklin/
       link_description: Leslie's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/leslie-garner-franklin/
+      link_description: Leslie's Project Work
+      fa_icon_name: wrench
+- name: chun-yen
+  fname: Chun
+  lname: Yen
+  full_name: Chun Yen
+  short_name: C. Yen
+  profile_path: /company/about/#chun-yen
+  image: /img/people/chun-yen.png
+  image_description: Illustration of Chun Yen
+  position: DevOps Engineer
+  bio: >
+    Chun's passionate about automating everything and creating great experiences for other engineers. He specializes in DevOps engineering, cloud computing, and security. Chun lives in Maryland.
+  active: true
+  order: 520
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/chun-yen-43192a4a
+      link_description: Chun's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/chun-yen/
+      link_description: Chun's Project Work
+      fa_icon_name: wrench
+- name: nicole-wright
+  fname: Nicole
+  lname: Wright
+  full_name: Nicole Wright
+  short_name: N. Wright
+  profile_path: /company/about/#nicole-wright
+  image: /img/people/nicole-wright.jpg
+  image_description: Photo of Nicole Wright
+  position: Product Manager
+  bio: >
+    Nicole's a product manager, who's drawn to delivering products that help people. Most recently, she worked with the Air Force's Kessel Run program to modernize in-air refueling planning and platform development. Nicole lives in Washington.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nmwright/
+      link_description: Nicole's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/nicole-wright/
+      link_description: Nicole's Project Work
+      fa_icon_name: wrench
+- name: tiffany-nieh
+  fname: Tiffany
+  lname: Nieh
+  full_name: Tiffany Nieh
+  short_name: T.  Nieh
+  profile_path: /company/about/#tiffany-nieh
+  image: /img/people/tiffany-nieh.jpg
+  image_description: Photo of Tiffany Nieh
+  position: Product Designer
+  bio: >
+    Tiffany's a product designer who loves understanding people's needs and creating solutions that have a positive impact. Most recently, she worked at Pivotal Labs / VMware Tanzu where she helped startups, large enterprises, and government organizations build software using modern practices. Tiffany lives in California.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/tiffanynieh
+      link_description: Tiffany's LinkedIn Account
+      fa_icon_name: linkedin
+- name: karthik-patil
+  fname: Karthik
+  lname: Patil
+  full_name: Karthik Patil
+  short_name: K. Patil
+  profile_path: /company/about/#karthik-patil
+  image: /img/people/karthik-patil.jpg
+  image_description: Photo of Karthik Patil
+  position: Product Manager
+  bio: >
+    Karthik's a product manager with several years of experience across a range of industries. Most recently, he worked at Pivotal Labs / VMware Tanzu. Karthik graduated from Creighton University with degrees in Economics and Business Intelligence and Analytics. He lives in Texas.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/karthikpatil/
+      link_description: Karthik's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://karthikpatil.com/
+      link_description: Karthik's Personal Website
+      fa_icon_name: home
+- name: becca-woodberry
+  fname: Becca
+  lname: Woodberry
+  full_name: Becca Woodberry
+  short_name: B. Woodberry
+  profile_path: /company/about/#becca-woodberry
+  image: /img/people/becca-woodberry.jpg
+  image_description: Photo of Becca Woodberry
+  position: Head of Recruiting
+  bio: >
+    Becca's passionate about building great organizations by hiring and supporting great people. Previously, she supported staffing needs at Waymo, LinkedIn, and other high-tech companies in the Silicon Valley area. Becca specializes in staffing, onboarding, people leadership, and diversity, equity, and inclusion. She lives in Arizona.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/woodberry/
+      link_description: Becca's LinkedIn Account
+      fa_icon_name: linkedin
+- name: nathan-carter
+  fname: Nathan
+  lname: Carter
+  full_name: Nathan Carter
+  short_name: N. Carter
+  profile_path: /company/about/#nathan-carter
+  image: /img/people/nathan-carter.png
+  image_description: Illustration of Nathan Carter
+  position: Software Engineer
+  bio: >
+    Nathan's a software engineer driven by building digital services for public good. Prior to becoming an engineer, he ran his own bakery. Nathan lives in North Carolina.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nathan-carter-202775141/
+      link_description: Nathan's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/nathancrtr
+      link_description: Nathan's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/nathan-carter/
+      link_description: Nathan's Project Work
+      fa_icon_name: wrench
+- name: matt-goldberg
+  fname: Matt
+  lname: Goldberg
+  full_name: Matt Goldberg
+  short_name: M. Goldberg
+  profile_path: /company/about/#matt-goldberg
+  image: /img/people/matt-goldberg.jpg
+  image_description: Photo of Matt Goldberg
+  position: Content Strategist
+  bio: >
+    Matt's a content strategist and storyteller with a background in clean tech innovation. He enjoys making complex information accessible to everyone. He also cares deeply about improving people's lives and livelihoods. Matt lives in Pennsylvania.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: www.linkedin.com/in/matthew-goldberg-01586854
+      link_description: Matt's LinkedIn Account
+      fa_icon_name: linkedin
+- name: nick-blake
+  fname: Nick
+  lname: Blake
+  full_name: Nick Blake
+  short_name: N. Blake
+  profile_path: /company/about/#nick-blake
+  image: /img/people/nick-blake.jpg
+  image_description: Photo of Nick Blake
+  position: Product Designer Apprentice
+  bio: >
+    Nick's a product designer, who's studying psychology and human-computer interaction at the Washington University in St. Louis. They most recently worked as a Civic Digital Fellow at the U.S. Citizenship and Immigration Services. Nick lives in Missouri.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/nicholas-blake-3aa402178
+      link_description: Nick's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://nickblake.myportfolio.com/
+      link_description: Nick's Personal Website
+      fa_icon_name: home
+- name: bob-zhao
+  fname: Bob
+  lname: Zhao
+  full_name: Bob Zhao
+  short_name: B. Zhao
+  profile_path: /company/about/#bob-zhao
+  image: /img/people/bob-zhao.jpg
+  image_description: Photo of Bob Zhao
+  position: Software Engineer Intern
+  bio: >
+    Bob's a software engineer in pursuit of solving large-scale problems that matter. In 2020, he served as Civic Digital Fellow at the National Institutes of Health, and is currently pursuing a masters degree in computer science at  Washington University in St. Louis. He lives in Missouri.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/bob-z-1901/
+      link_description: Bob's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/fzhao99
+      link_description: Bob's GitHub Account
+      fa_icon_name: github
+- name: ashton-tu
+  fname: Ashton
+  lname: Tu
+  full_name: Ashton Tu
+  short_name: A. Tu
+  profile_path: /company/about/#ashton-tu
+  image: /img/people/ashton-tu.jpg
+  image_description: Photo of Ashton Tu
+  position: Product Designer Apprentice
+  bio: >
+    Ashton's a product designer, who recently graduated from the University of Southern California. As a 2020 Civic Digital Fellow with the General Services Administration, she discovered her passion for civic tech. Ashton lives in California.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/ashton-tu
+      link_description: Ashton's LinkedIn Account
+      fa_icon_name: linkedin
+- name: andrew-lloyd
+  fname: Andrew
+  lname: Lloyd
+  full_name: Andrew Lloyd
+  short_name: A. Lloyd
+  profile_path: /company/about/#andrew-lloyd
+  image: /img/people/andrew-lloyd.png
+  image_description: Illustration of Andrew Lloyd
+  position: DevOps Engineer
+  bio: >
+    Andrew's passionate about creating great developer experiences through DevOps. He's spent over 15 years with the Air Force as a service member. Andrew specializes in DevOps engineering, software engineering, and cloud computing. He lives in Washington.
+  active: false
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/andrewmarklloyd/
+      link_description: Andrew's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/andrewmarklloyd
+      link_description: Andrew's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/andrew-lloyd/
+      link_description: Andrew's Project Work
+      fa_icon_name: wrench
+- name: tim-niehoff
+  fname: Tim
+  lname: Niehoff
+  full_name: Tim Niehoff
+  short_name: T. Niehoff
+  profile_path: /company/about/#tim-niehoff
+  image: /img/people/tim-niehoff.jpg
+  image_description: Photo of Tim Niehoff
+  position: Product Manager
+  bio: >
+    Tim's a seasoned product manager with a passion for building small, releasing early, and iterating often. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped transform the way startups and large enterprises build software. Tim lives in Illinois.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/timniehoff/
+      link_description: Tim's LinkedIn Account
+      fa_icon_name: linkedin
+- name: pri-kiser
+  fname: Pri
+  lname: Kiser
+  full_name: Pri Kiser
+  short_name: P. Kiser
+  profile_path: /company/about/#pri-kiser
+  image: /img/people/pri-kiser.jpg
+  image_description: Photo of Pri Kiser
+  position: Product Designer
+  bio: >
+    Pri's a product designer who draws on her background in neuroscience and human-computer interaction to create delightful user experiences. She previously worked at Pivotal Labs / VMware Tanzu where she built high-impact products and scaled design practices across various types of organizations. Pri lives in Texas.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/prikiser/
+      link_description: Pri's LinkedIn Account
+      fa_icon_name: linkedin
+- name: taylor-curtiss
+  fname: Taylor
+  lname: Curtiss
+  full_name: Taylor Curtiss
+  short_name: T. Curtiss
+  profile_path: /company/about/#taylor-curtiss
+  image: /img/people/taylor-curtiss.jpg
+  image_description: Photo of Taylor Curtiss
+  position: Product Designer
+  bio: >
+    Taylor's passionate about improving government services through user-centered design. She’s an Air Force veteran and most recently worked as a product designer at Kessel Run. Taylor specializes in research, design, strategic thinking, and building high-performing teams. She lives in Massachusetts.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/taylor--curtiss/
+      link_description: Taylor's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://www.taylorcurtiss.com/
+      link_description: Taylor's Personal Website
+      fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/taylor-curtiss/
+      link_description: Taylor's Project Work
+      fa_icon_name: wrench
+- name: laura-kerry
+  fname: Laura
+  lname: Kerry
+  full_name: Laura Kerry
+  short_name: L. Kerry
+  profile_path: /company/about/#laura-kerry
+  image: /img/people/laura-kerry.jpg
+  image_description: Photo of Laura Kerry
+  position: Content Strategist
+  bio: >
+    Laura's a content strategist who specializes in UX writing and content design, operations, and governance. She loves distilling complex information into human-centered content, and enjoys empowering others to do the same. Most recently, Laura worked at the NYC Mayor's Office for Economic Opportunity. She lives in New York.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laurawkerry/
+      link_description: Laura's LinkedIn Account
+      fa_icon_name: linkedin
+- name: emma-stephenson
+  fname: Emma
+  lname: Stephenson
+  full_name: Emma Stephenson
+  short_name: E. Stephenson
+  profile_path: /company/about/#emma-stephenson
+  image: /img/people/emma-stephenson.jpg
+  image_description: Photo of Emma Stephenson
+  position: Software Engineer
+  bio: >
+    Emma's a software engineer with a passion for creating user-centered products. She previously worked at Google, and is experienced in a number of different technical areas, including APIs, microservices, and DevOps. Emma lives in California.
+  active: true
+  order: 530
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/emma-stephenson-85849bb9
+      link_description: Emma's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/emmastephenson
+      link_description: Emma's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/emma-stephenson/
+      link_description: Emma's Project Work
+      fa_icon_name: wrench
+- name: mina-cairns
+  fname: Mina
+  lname: Cairns
+  full_name: Mina Cairns
+  short_name: M. Cairns
+  profile_path: /company/about/#mina-cairns
+  image: /img/people/mina-cairns.jpg
+  image_description: Photo of Mina Cairns
+  position: Head of Corporate Development
+  bio: >
+    Mina possesses nearly 20 years of consulting, technology, and leadership experience in the public sector. She specializes in corporate strategy, corporate development, and large-scale program management. Mina lives in Florida.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mina-c-2489979/
+      link_description: Mina's LinkedIn Account
       fa_icon_name: linkedin

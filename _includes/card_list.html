@@ -20,7 +20,7 @@
     {% for item in collection | limit: limit %}
       <article class="{{prefix}}-col">
         <div class="{{prefix}}-card card-link" data-href="{{item.permalink}}" tabindex="-1">
-          <div role="img" class="{{prefix}}-img" style="background-image: url({{item.image}});" title="{{item.image_description}}"></div>
+          <div role="img" class="{{prefix}}-img" style="background-image: url({{item.image}});" title="{{item.image_description | escape}}"></div>
           <div class="{{prefix}}-block">
             {% if item.title_tag %}
               <p class="{{prefix}}-title-tag">{{item.title_tag}}</p>

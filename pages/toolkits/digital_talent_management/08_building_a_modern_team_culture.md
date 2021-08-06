@@ -10,10 +10,11 @@ content_type: Toolkit
 
 # Building a modern team culture
 
-<blockquote class="post-blockquote">
-<p>"Culture eats strategy for breakfast."</p>
-<cite><strong>Peter Drucker</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "Culture eats strategy for breakfast."
+  cite_name = "Peter Drucker"
+%}
 
 Building the right organizational culture is the most important thing you can do. The right organizational culture:
 
@@ -28,7 +29,7 @@ Culture is built and sustained intentionally. Don't expect to organically grow i
 
 ## Understand the connection between culture and performance
 
-The [2014 State of DevOps Report](https://www.researchgate.net/publication/263198947_2014_State_of_DevOps_Report) did the research to identify a predictive link between organizational culture and performance. The cultural norms and practices that characterize high-trust organizations &mdash; good information flow, cross-functional collaboration, shared responsibilities, learning from failures, and encouragement of new ideas &mdash; correlate strongly with high performance.
+The [2014 State of DevOps Report](https://www.researchgate.net/publication/263198947_2014_State_of_DevOps_Report) did the research to identify a predictive link between organizational culture and performance. The cultural norms and practices that characterize high-trust organizations — good information flow, cross-functional collaboration, shared responsibilities, learning from failures, and encouragement of new ideas — correlate strongly with high performance.
 
 Westrum provides a useful typology that contrasts the qualities of three different types of organizational culture:
 
@@ -49,11 +50,11 @@ Most traditional government organizations tend to be bureaucratic. However, digi
 
 [re:Work from Google](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/identify-dynamics-of-effective-teams/) identifies five characteristics of effective teams, and these all support a generative organizational culture:
 
-1. **Psychological safety** &mdash; team members feel safe to take risks and be vulnerable in front of each other
-2. **Dependability** &mdash; team members get things done on time and meet the high bar for excellence
-3. **Structure and clarity** &mdash; team members have clear roles, plans, and goals
-4. **Meaning** &mdash; work is personally important to team members
-5. **Impact** &mdash; team members think their work matters and creates change
+1. **Psychological safety** — team members feel safe to take risks and be vulnerable in front of each other
+2. **Dependability** — team members get things done on time and meet the high bar for excellence
+3. **Structure and clarity** — team members have clear roles, plans, and goals
+4. **Meaning** — work is personally important to team members
+5. **Impact** — team members think their work matters and creates change
 
 Next, we'll break down the basics of encouraging these cultural characteristics.
 
@@ -65,9 +66,8 @@ While all aspects of culture start at the top, creating a psychologically-safe e
 
 **Require blameless retrospectives.** Empower teams to make changes in how they work. It's important to act on all follow-ups from retrospectives. Through action, you'll show that learning from retrospectives is important to you.
 
-<div class="callout--alt" markdown="1">
 Learn how to run an agile retrospective by [reading this guide](https://www.atlassian.com/team-playbook/plays) from Atlassian.
-</div>
+{: .callout--tip}
 
 **During meetings and workshops, encourage all voices to be heard.** Work through how you might implement a suggestion, rather than rejecting it immediately. Discourage interruptions. Create multiple avenues for people to contribute. For example, some people may not feel comfortable speaking up, but might be happy to write some thoughts down on a post-it.
 
@@ -93,15 +93,14 @@ Dependability is an individual trait. As a team member, you have to personally b
 
 Teams should also collectively set goals and support each other to achieve them. The [Objectives and Key Results](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) (OKRs) framework from Google works well to set goals and track progress at multiple levels in your organization. OKRs help align individual and team goals with organization goals. Each goal should have an associated plan on how to achieve it.
 
-<div class="callout--alt" markdown="1">
-Learn more about how the U.K. Government Digital Service uses OKRs on GOV.UK website by [reading this article]((https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/)).
-</div>
+Learn more about how the [U.K. Government Digital Service uses OKRs](https://visitmy.website/2019/02/21/how-we-use-okrs-gov-uk/) on GOV.UK website.
+{: .callout--tip}
 
 ### Meaning and impact
 
 **Remind people of the mission.** Have a clear and concise mission, and include vision and values statements on posters in your physical space. The constant reminder is important so that teams don't forget the larger picture.
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Examples of well-designed posters
 
 - [Our values: a series of posters from the USDS](https://medium.com/the-u-s-digital-service/our-values-1fc02b53598)
@@ -113,7 +112,7 @@ Learn more about how the U.K. Government Digital Service uses OKRs on GOV.UK web
 
 **See the impact of the work.** Have everyone on the team participate in usability tests to observe how their solution makes things easier for users. Write frequently about the impact of the work that you're doing. This storytelling is important, both within the team and across your organization.
 
-**Assign people to projects they're passionate about.** Team members who are passionate about a particular topic will be excited about the work they do &mdash; and be more productive. When you can, give people a choice by asking them which projects they care about and would like to
+**Assign people to projects they're passionate about.** Team members who are passionate about a particular topic will be excited about the work they do — and be more productive. When you can, give people a choice by asking them which projects they care about and would like to
 work on.
 
 ## Create a welcoming and inclusive environment
@@ -125,7 +124,7 @@ A welcoming and inclusive culture empowers people to provide outstanding public 
 A Code of Conduct puts into writing how you expect people to behave in the workplace and at work events. It codifies your commitment to an inclusive environment. Create a documented process for enforcing the Code of Conduct and an anonymous process for reporting violations of the Code.
 
 18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) that you can adopt and modify as necessary.
-{: .callout--alt}
+{: .callout--tip}
 
 ### Empower people to speak up
 
@@ -133,14 +132,16 @@ Create a community where everyone feels empowered to speak up. It's useful to do
 
 ### Use inclusive language in all communications
 
-<blockquote class="post-blockquote" cite="https://content-guide.18f.gov/inclusive-language/">
-<p>"As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users."</p>
-<cite><strong>18F</strong></cite>
-</blockquote>
+{% include callout.html
+  type = "pullquote"
+  content = "As we build government services, we want to ensure they are accessible and welcoming to everyone who needs to use them. Inclusive language helps to be more accurate and build trust with our users."
+  cite_title = "18F Content Guide"
+  cite_url = "https://content-guide.18f.gov/inclusive-language/"
+%}
 
 Use inclusive language in all communications with your organization and the services you build. These resources can help:
 
-- This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/)is short and easy to internalize for all communications.
+- This [inclusive content guide from 18F](https://content-guide.18f.gov/inclusive-language/) is short and easy to internalize for all communications.
 - The Ontario Digital Service has a useful [inclusive design toolkit available online](https://www.ontario.ca/page/inclusive-design-toolkit).
 
 ### Provide training on unconscious bias
@@ -152,7 +153,7 @@ Everyone has these biases.
 Unconscious bias training helps create awareness for this ingrained bias. Have everyone on your team attend unconscious bias training. This will help improve everyday interactions. It'll also help during the interview process as you attempt to build a diverse team.
 
 Australia's Queensland government has a [great set of resources on unconscious bias training](https://www.forgov.qld.gov.au/unconscious-biases).
-{: .callout--alt}
+{: .callout--tip}
 
 ## Checklist
 
@@ -170,6 +171,7 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - Use inclusive language in all communications
 {: .list-checklist}
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [How to Create a Great Team Culture (and Why It Matters)](https://queue.acm.org/detail.cfm?ref=rss&id=3323993)
@@ -180,8 +182,9 @@ Australia's Queensland government has a [great set of resources on unconscious b
 - [Inclusive design toolkit](https://www.ontario.ca/page/inclusive-design-toolkit)
 - [How to Reduce Unconscious Bias at Work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
 - [Measuring culture on our engineering team](https://18f.gsa.gov/2019/10/29/culture-climate-survey/)
+</div>
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Ontario Digital Service
 
 Direct communication lines between staff and leadership help empower staff to create change in their workplace. Hilary Hartley, Chief Digital Officer of the Ontario Digital Service, knows this from her time as a founding member of 18F. 18F's [Diversity, Equity, and Inclusion](https://handbook.18f.gov/diversity/) policy is a model for any level of government.

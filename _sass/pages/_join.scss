@@ -1,3 +1,42 @@
+:root {
+  --color-land: #1d5392;
+  --color-water: #b5d2e3;
+}
+
+.page-join-us {
+  .join__quote {
+    font-size: $font-size-x-large;
+    line-height: 1.5;
+  }
+
+  .quote-text {
+    font-size: $font-size-x-large;
+  }
+
+  .image-list {
+    margin-top: 1rem;
+  }
+
+  .image-list__employee-img {
+    border-radius: 100%;
+  }
+
+  svg {
+    height: 50px;
+  }
+
+  .icon--remote-work {
+    height: 25px;
+    margin-right: 0.5rem;
+    width: 18px;
+  }
+}
+
+.join-quote__byline {
+  color: $gray-light;
+  margin-top: 0.75em;
+}
+
 .page--join__text {
   h2 {
     font-size: $font-size-xxx-large;
@@ -5,11 +44,9 @@
   }
 
   h3 {
-    font-size: $font-size-small;
-    letter-spacing: 0.05em;
+    font-size: $font-size-medium;
     line-height: 1.375;
     margin-top: 1.5em;
-    text-transform: uppercase;
   }
 
   h2,
@@ -25,10 +62,6 @@
 
   p {
     margin-bottom: 0;
-  }
-
-  .quote-text + p {
-    font-size: $font-size-medium;
   }
 }
 
@@ -46,16 +79,12 @@
     @extend %mt-4;
 
     li:not(:last-child) {
-      @extend %mb-4;
+      margin-bottom: 2rem;
     }
 
     p {
       font-size: $font-size-x-small;
     }
-  }
-
-  li {
-    border: 2px solid $gray-lightest;
   }
 }
 
@@ -71,7 +100,19 @@
 }
 
 .open-positions-heading.open-positions-heading {
-  margin-top: 2.5em;
+  font-family: $font-family-mono;
+  font-size: $font-size-small;
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+
+  &:not(:first-of-type) {
+    margin-top: 4rem;
+  }
+}
+
+.open-positions__location {
+  color: $gray;
+  display: flex;
 }
 
 .care-square {
@@ -87,14 +128,4 @@
       border-left-color: $sk-yellow;
     }
   }
-}
-
-.employee-gradient__img::after {
-  height: 100%;
-  margin-left: 15px;
-  width: calc(100% - 30px);
-}
-
-.image-list__employee-img {
-  filter: grayscale(1);
 }

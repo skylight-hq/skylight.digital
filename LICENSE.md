@@ -1,14 +1,18 @@
-This project includes a mix of commercial works, as well as open source works that are and are not in the public domain.
+# License
 
-## Parts of this project that are under commercial licenses
-
-The Geomanist font files in `src/fonts` are from [atipo foundry](http://atipofoundry.com/fonts/geomanist), copyright atipo, under [atipo's licensing terms](http://atipofoundry.com/license).
+This project includes a mix of open source works that are and are not in the public domain.
 
 ## Parts of this project that aren't in the public domain
 
-### Files licensed under the SIL Open Font License
+### Fonts licensed under the SIL Open Font License
 
 The Font Awesome files in `src/fonts` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
+Libre Franklin is from [Google Fonts](https://fonts.google.com/specimen/Libre+Franklin) by Impallari Type under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
+### Fonts licensed under the Apache License
+
+Roboto Mono is from [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono) by Christian Robertson under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ### Files licensed under the MIT License
 
@@ -26,41 +30,27 @@ The file `src/js/jquery.scrolldepth.min.js` is from [Scroll Depth](https://githu
 
 All content produced by Skylight Inc. is licensed under the [Creative Commons Attribution-Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-This site also includes a number of images that have various copyright statuses,
-including Creative Commons licenses and public domain. License details are
-available on the posts and pages that display the images.
+This site also includes a number of images that have various copyright statuses, including Creative Commons licenses and public domain. License details are available on the posts and pages that display the images.
 
 ## The rest of this project is in the worldwide public domain
 
-All source-code is licensed under the [Creative Commons Universal Public Domain
-Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+All source code is licensed under the [Creative Commons Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ### CC0 1.0 Universal Summary
 
-This is a human-readable summary of the [Legal Code (read the full
-text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
+This is a human-readable summary of the [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
 #### No copyright
 
-The person who associated a work with this deed has dedicated the work to the
-public domain by waiving all of his or her rights to the work worldwide under
-copyright law, including all related and neighboring rights, to the extent
-allowed by law.
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
 
-You can copy, modify, distribute and perform the work, even for commercial
-purposes, all without asking permission.
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
 
 #### Other information
 
-In no way are the patent or trademark rights of any person affected by CC0,
-nor are the rights that other persons may have in the work or in how the work
-is used, such as publicity or privacy rights.
+In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.
 
-Unless expressly stated otherwise, the person who associated a work with this
-deed makes no warranties about the work, and disclaims liability for all uses
-of the work, to the fullest extent permitted by applicable law. When using or
-citing the work, you should not imply endorsement by the author or the
-affirmer.
+Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law. When using or citing the work, you should not imply endorsement by the author or the affirmer.
 
 ### Contributions to this project
 

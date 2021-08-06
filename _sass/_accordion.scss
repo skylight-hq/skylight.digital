@@ -1,34 +1,74 @@
-.accordion-header {
-  a {
-    background-color: $brand-primary;
-    border-bottom: none !important;
-    display: block;
-    padding: $card-spacer-y $card-spacer-x;
-
-    @include border-radius($card-border-radius-inner $card-border-radius-inner 0 0);
-
-    &:hover {
-      background-color: darken($brand-primary, 10%);
-    }
-
-    &.collapsed {
-      @include border-radius($card-border-radius-inner $card-border-radius-inner);
+.accordion-card {
+  &:not(:first-child) {
+    [data-toggle="collapse"] {
+      border-top: 1px solid $black;
     }
   }
 
-  h3, h2 {
+  &:first-child {
+    [data-toggle="collapse"] {
+      &:hover,
+      &:focus {
+        border-top: 0;
+      }
+    }
+  }
+
+  [data-toggle="collapse"] {
+    background-image: url(../img/icons/chevron-down.svg),
+      linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+    background-position: right 1.25rem center;
+    background-size: $font-size-xx-small;
+    border-bottom: 0;
+    display: block;
+    padding: 1rem;
+
+    &:hover h3 {
+      font-weight: bold;
+    }
+
+    &:hover,
+    &:focus {
+      border-bottom: 0;
+      border-top: 1px solid $black;
+      color: $brand-primary;
+    }
+
+    &[aria-expanded="true"] {
+      background-image: url(../img/icons/chevron-up.svg),
+        linear-gradient(transparent, transparent);
+
+      h3 {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &:last-child {
+    [data-toggle="collapse"][aria-expanded="false"] {
+      border-bottom: 1px solid $black;
+    }
+
+    [role="tabpanel"][aria-expanded="true"] {
+      border-bottom: 1px solid $black;
+    }
+  }
+
+  h3,
+  h2 {
     display: flex;
+    font-family: $font-family-mono;
     font-size: $font-size-h6;
-    font-weight: 700;
+    font-weight: normal;
     justify-content: space-between;
     align-content: stretch;
     border-bottom: none !important;
     margin-bottom: 0 !important;
-    color: $white;
     position: relative;
 
     > div:first-child {
-      padding-right: 24px;
+      padding-right: 30px;
     }
   }
 
@@ -52,54 +92,48 @@
 }
 
 .accordion-card {
-  margin-bottom: 16px;
-  border-radius: .25rem;
   border: none;
 }
 
 .accordion-card-body {
   padding: 20px;
-  border: 1px solid $brand-primary;
+  font-family: $font-family-mono;
 
   p + p {
     margin-top: 1em;
   }
 }
 
-.can-touch .accordion-header a {
-  &:hover {
-    background-color: $brand-primary;
-  }
-
-  &:active {
-    background-color: darken($brand-primary, 10%);
-  }
-}
-
 .accordion-filter {
-  .accordion-header a {
-    background-color: $gray-lightest;
+  .accordion-header {
+    width: max-content;
 
-    &:hover {
-      background-color: $gray-lighter;
+    a[aria-expanded="true"] {
+      border-bottom: none;
     }
   }
 
   .accordion-card-body {
-    border-color: $gray-lightest;
-  }
+    border-color: $black;
+    padding-inline: 0;
 
-  .plus-minus-toggle,
-  .plus-minus-toggle {
-    &:before,
-    &:after {
-      background-color: $black;
+    a {
+      &:hover {
+        color: $brand-primary;
+        font-weight: bold;
+      }
     }
   }
-}
 
-// Sticky hover fix
-.can-touch .accordion-filter .accordion-header a:hover {
-  background-color: $gray-lightest;
-}
+  .filter__heading {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-large;
+    font-weight: bold;
+    margin-bottom: 0.5em !important;
+  }
 
+  ul {
+    font-size: $font-size-xx-small;
+    line-height: 2;
+  }
+}

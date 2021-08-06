@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Plugins | Skylight Accessibility Guide
-description: "How we deal with plugins."
+description: How we deal with plugins.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/plugins/
 sidenav: accessibility_guide
@@ -15,7 +15,7 @@ Plugins provide extended functionality not native to the browser. Examples inclu
 
 Anytime a plugin is used on a page, they must be tested for accessibility.
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--tip" markdown='1'>
 **Note**<br>
 Flash always fails for accessibility but is often given an exception.
 </div>

@@ -1,5 +1,5 @@
 %page-header-base {
-  @include container-fluid-base;
+  @include grid-container;
   @extend %text-center;
 }
 
@@ -27,14 +27,14 @@
 .page-header-content-1,
 .page-header-content-2,
 .page-header-content-3 {
-  @extend %col-sm-11;
-  @extend %col-md-10;
-  @extend %mx-auto;
+  // @extend %col-sm-11;
+  // @extend %col-md-10;
+  // @extend %mx-auto;
 }
 
 .page-header-title-1,
 .page-header-content-1 {
-  @extend %col-lg-7;
+  // @extend %col-lg-7;
 }
 
 .page-header-title-2,
@@ -81,7 +81,7 @@
 }
 
 %page-block-header-base {
-  @include container-fluid-base;
+  // @include container-fluid-base;
 }
 
 .page-block-header-1 {
@@ -133,8 +133,12 @@
 %text,
 .text {
   a {
-    @include link-decoration($text-link-color, $text-link-hover-color,
-      $text-link-border, $text-link-border-hover);
+    @include link-decoration(
+      $text-link-color,
+      $text-link-hover-color,
+      $text-link-border,
+      $text-link-border-hover
+    );
   }
 }
 
@@ -143,17 +147,11 @@
   @extend %btn-secondary;
   @extend %btn-outline-secondary;
   @extend %btn-lg;
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-mono;
   cursor: pointer;
 }
 
 %text-heavy-col-base {
-  @extend %col;
-  @extend %col-sm-10;
-  @extend %col-md-9;
-  @extend %col-lg-8;
-  @extend %mx-auto;
-  max-width: 940px;
 }
 
 %narrative-base {
@@ -183,8 +181,8 @@
 
   img {
     @extend %img-fluid;
-    @extend %mt-3;
-    @extend %mb-4;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
     width: 100%;
   }
 }
@@ -219,7 +217,7 @@
   border: none;
   height: 15px;
   width: 100%;
-  background: url('../img/wave.svg') center center repeat-x;
+  background: url("../img/wave.svg") center center repeat-x;
 }
 
 .btn-submit-outline {

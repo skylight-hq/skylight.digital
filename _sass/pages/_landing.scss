@@ -1,3 +1,5 @@
+$home-cta-spacing: 6rem;
+
 .landing-page {
   @extend %text-center;
 }
@@ -6,19 +8,19 @@
   @extend %jumbotron;
   @extend %jumbotron-fluid;
   @extend %mb-0;
-  background-color: #235384;
+  background-color: $brand-primary;
   position: relative;
   padding-bottom: 22%;
 
   @include media-breakpoint-up(sm) {
-    min-height: calc(100vh - 82px);
+    height: 580px;
     padding-bottom: initial;
-    padding-top: 12vh;
+    padding-top: 112px;
   }
 
-  &:before {
-    background-image: url('../img/hero-mobile.svg');
-    background-position: right 4px bottom;
+  &::before {
+    background-image: url("../img/hero-mobile.svg");
+    background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: 100% auto;
     opacity: 1;
@@ -31,9 +33,13 @@
     z-index: 0;
 
     @include media-breakpoint-up(sm) {
-      background-image: url('../img/hero.svg');
+      background-image: url("../img/hero.svg");
       background-position: center top;
-      background-size: cover;
+      background-size: 1140px;
+    }
+
+    @include media-breakpoint-up(2xl) {
+      background-size: contain;
     }
   }
 }
@@ -46,10 +52,11 @@
     padding-bottom: 3rem;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     color: $white;
-    font-size: 42px;
-
+    font-size: 40px;
+    line-height: 1.2;
 
     @include media-breakpoint-up(sm) {
       font-size: 52px;
@@ -57,8 +64,9 @@
   }
 
   p {
-    @extend %mt-2;
     font-weight: 100;
+    margin-bottom: 2rem;
+    margin-top: 1.25rem;
 
     @include media-breakpoint-up(sm) {
       font-size: $font-size-medium;
@@ -69,15 +77,17 @@
     @extend %btn-base;
     @extend %btn-icon-right;
     @extend %btn-lg;
-    @extend %text-uppercase;
   }
 }
 
 .landing-body {
-  @extend %wide-column;
-  @extend %mt-5;
-  @extend %mt-md-7;
+  @include grid-container;
   line-height: 1.5;
+  margin-top: 3rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: $home-cta-spacing;
+  }
 }
 
 .landing-content-row,
@@ -85,7 +95,20 @@
   @extend %row;
 }
 
-.landing-content-row-margin,
+.landing-content-row-margin {
+  margin-bottom: 3rem;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: $home-cta-spacing;
+  }
+}
+
+.landing__callout--footer {
+  @include media-breakpoint-up(md) {
+    margin-block: $home-cta-spacing;
+  }
+}
+
 .landing-info-row {
   @extend %mb-6;
   @extend %mb-md-6;
@@ -96,19 +119,21 @@
 .landing-info-text-col,
 .landing-info-img-col {
   @extend %col-12;
-  @extend %col-md-10;
   @extend %col-sm-9;
+  @extend %col-md-10;
   @extend %mx-auto;
 }
 
 .landing-content-primary-col {
-  @extend %col-lg-8;
   @extend %mb-4;
 }
 
+.landing-content-primary-col,
 .landing-content-secondary-col {
   @extend %col-lg-8;
+}
 
+.landing-content-secondary-col {
   p {
     @extend %mb-0;
 
@@ -120,22 +145,20 @@
 
 .landing-content-ctas-col {
   @extend %col-12;
-  @extend %mt-5;
-  @extend %mt-md-6;
+  @extend %mt-4;
 }
 
 .landing-content-cta-wrapper {
   @extend %d-lg-inline-block;
+  margin-inline: 0.75rem;
 
   &:first-child {
     @extend %mb-3;
     @extend %mb-lg-0;
-    @extend %mr-lg-5;
   }
 
   a {
     @extend %btn-page;
-    min-width: 260px;
   }
 }
 

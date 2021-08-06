@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Headings | Skylight Accessibility Guide
-description: "Proper use of heading elements."
+description: Proper use of heading elements.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/headings/
 sidenav: accessibility_guide
@@ -11,11 +11,11 @@ toolkit_name: accessibility-guide
 
 # Headings
 
-When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/).
+When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see the section on [landmarks](../landmarks/).
 
-When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site, and on other pages this may be the page title. Use the `<h1>` element once per page &mdash; some assistive technology may be unable to read multiple `<h1>`s on a single page correctly. Other heading levels may be used more than once following document outline order.
+When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site, and on other pages this may be the page title. Use the `<h1>` element once per page — some assistive technology may be unable to read multiple `<h1>` element's on a single page correctly. Other heading levels may be used more than once following document outline order.
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--tip" markdown='1'>
 #### Note
 `<section>` and `<article>` elements may allow you to reset the heading order allowing you to "restart" heading levels at `<h1>` according to the HTML5 spec. At this point, we're unaware of any browsers that support this feature beyond general HTML5 conformance checkers. For this reason, we recommend developers maintain the document outline with `h1-h6` when using HTML5 outline elements.
 </div>
@@ -118,4 +118,4 @@ This section has a main category and two subcategories. The subcategories are on
 </div>
 ```
 
-This section has several issues. The first subcategory has a lower value than the main category. The second subcategory has skipped a heading level which while is better, this can cause confusion as it's not clear if this category is the subcategory of `Category` or `Subcategory 1`
+This section has several issues. The first subcategory has a lower value than the main category. The second subcategory has skipped a heading level which, while better, can cause confusion as it's not clear if this category is the subcategory of `Category` or `Subcategory 1`

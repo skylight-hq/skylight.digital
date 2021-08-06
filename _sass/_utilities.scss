@@ -24,11 +24,11 @@
 }
 
 .bg-red {
-  background-color: $sk-red;
+  background-color: $red-200;
 }
 
 .bg-green {
-  background-color: $sk-green;
+  background-color: $green-300;
 }
 
 .bg-blue {
@@ -39,13 +39,24 @@
   background-color: $gray-light;
 }
 
-
 .bg-gray-light {
   background-color: $brand-gray-light;
 }
 
+.bg-ochre-lightest {
+  background-color: $ochre-20;
+}
+
 .text-ink {
   color: $black;
+}
+
+.text-body {
+  color: $body-color;
+}
+
+.text-gray-light {
+  color: $brand-gray-light;
 }
 
 .container-xxl {
@@ -101,4 +112,16 @@
   pointer-events: none;
   cursor: default;
   text-decoration: none;
+}
+
+.linebreak {
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: block;
+  }
+}
+
+.grid-container {
+  @include grid-container;
 }

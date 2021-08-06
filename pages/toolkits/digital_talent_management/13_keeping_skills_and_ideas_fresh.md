@@ -10,7 +10,7 @@ content_type: Toolkit
 
 # Keeping skills and ideas fresh
 
-Technology evolves at a fast pace, and people are constantly inventing new ways to solve problems. Keeping up with this pace is important &mdash; and luckily, your employees are eager to do so as well. When asked why they might leave their current position, [professionals cite the ability to learn and grow on the job as being almost twice as important as salary](https://joshbersin.com/2018/11/corporate-learning-does-drive-happiness-productivity-too/).
+Technology evolves at a fast pace, and people are constantly inventing new ways to solve problems. Keeping up with this pace is important. Luckily, your employees are eager to do so as well. When asked why they might leave their current position, [professionals cite the ability to learn and grow on the job as being almost twice as important as salary](https://joshbersin.com/2018/11/corporate-learning-does-drive-happiness-productivity-too/).
 
 Make time for your team to learn and grow as part of their job. This means making time for longer, more time-intensive programs, but it also means [baking learning opportunities into everyday work](https://www2.deloitte.com/us/en/insights/industry/public-sector/future-of-work-in-government.html).
 
@@ -42,11 +42,13 @@ Some conferences worth attending:
 - [Strange Loop](https://www.thestrangeloop.com/)
 - [An Event Apart](https://aneventapart.com/)
 
+<div class="callout--note" markdown='1'>
 ## Recommended reading
 
 - [Maine Workforce 2025](https://www.maine.gov/bhr/sites/maine.gov.bhr/files/inline-files/MaineWorkforce2025.pdf)
+</div>
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: Peak Academy
 
 [Denver's Peak Academy mission statement reads](https://www.denvergov.org/content/denvergov/en/mayors-office/programs-initiatives/peak-performance/peak-academy/About.html):
@@ -55,7 +57,7 @@ Some conferences worth attending:
 
 Too often, government teams are focused on getting more staff, technology, and money, which are all usually hard to come by in local government. So how do you do more with less?
 
-Brian Elms of Denver's Peak Academy has an answer &mdash; focus on solving a problem, not on increasing resources:
+Brian Elms of Denver's Peak Academy has an answer — focus on solving a problem, not on increasing resources:
 
 - Create a language for how to solve a problem. When everyone on the team is talking about a problem in the same way, they have a shared understanding of that problem and can spend more time solving it.
 - Focus resources on the performance indicators that matter most; it's impossible to tackle every problem at once.
@@ -63,10 +65,8 @@ Brian Elms of Denver's Peak Academy has an answer &mdash; focus on solving a pro
 - Tie funding to innovative programs. Quantify change in terms of dollars saved to make it easier to allocate budget to training and similar initiatives.
 - Frame the problems from the customer's perspective. If possible, bring a customer representative into process mapping sessions so that the team understands their point of view.
 
-Some cities are replicating Denver's success with their own "Peak Academies." Others are focused on training their innovation teams, or smaller groups focused on more specific problems. Here are some examples:
-- In 2017, Chattanooga, Tennessee started their own [Peak Academy](https://connect.chattanooga.gov/opmod/performance-management/peak-academy/) with no budget or dedicated staff. They have trained over 100 employees and saved over $100,000.
+Some cities are replicating Denver's success with their own "Peak Academies." Others are focused on training their innovation teams, or smaller groups focused on more specific problems. Here is an example:
 - In Miami, the procurement department sent all of their employees to the Miami Innovation Academy and have since streamlined the process for procuring engineering services. [They've cut out 40% of the forms and at least 30 days of wait time](https://medium.com/@BloombergCities/what-happens-when-an-entire-city-department-is-trained-to-innovate-b8ff4772161b).
-- The City of Durham publishes [training resources online](https://durhamnc.gov/3753/OPI-Trainings-Resources) so anyone can learn about Lean and other innovative strategies for problem solving.
 
 As more agencies adopt this training mentality, Elms sees that many others hesitate to allocate already overworked resources to set up and implement the program. "You can dip your toe in the water and have some success. But if you jump in, you'll have tremendous success," [he says](https://medium.com/@BloombergCities/replicating-denvers-peak-academy-a-conversation-with-brian-elms-8a24d5b5be0e).
 </div>

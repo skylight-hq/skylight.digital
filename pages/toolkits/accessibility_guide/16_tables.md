@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Tables | Skylight Accessibility Guide
-description: "How we deal with tables."
+description: How we deal with tables.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/tables/
 sidenav: accessibility_guide
@@ -15,7 +15,7 @@ When tables are used to show data, the header cells that relate to the data cell
 
 **Simple tables** can have up to two levels of headings. One row of headers and/or one column of headings. A table with more than one row, or more than one column of headings, is considered to be a complex table. Each table header cell should have `<th scope="col">` or `<th scope="row">`.
 
-<div class="callout--alt" markdown='1'>
+<div class="callout--tip" markdown='1'>
 <h2 class='h3'>Note</h2>
 Simple tables with headers in the first row and/or column don't actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either `scope` or `id` attributes.
 </div>
@@ -40,38 +40,42 @@ If a table has text associated with it, ensure the text is programatically linke
 #### Simple table
 <div class="example">
   <table class="post-table">
-    <caption>User's Height and Age</caption>
-    <tr>
-      <th scope="col">
-        Name
-      </th>
-      <th scope="col">
-        Height
-      </th>
-      <th scope="col">
-        Age
-      </th>
-    </tr>
-    <tr>
-      <th scope="row">
-        Walter
-      </th>
-      <td>6'4</td>
-      <td>34</td>
-    </tr>
-    <tr>
-      <th scope="row">
-        Steve
-      </th>
-      <td>5'4</td>
-      <td>30</td>
-    </tr>
+    <caption>User’s Height and Age</caption>
+    <thead>
+      <tr>
+        <th scope="col">
+          Name
+        </th>
+        <th scope="col">
+          Height
+        </th>
+        <th scope="col">
+          Age
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">
+          Walter
+        </th>
+        <td>6'4</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <th scope="row">
+          Steve
+        </th>
+        <td>5'4</td>
+        <td>30</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
 ```html
 <table>
-  <caption>User's Height and Age</caption>
+  <caption>User’s Height and Age</caption>
   <tr>
     <th scope="col">
       Name
@@ -100,54 +104,58 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope="col"```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
+Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope="col"```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
 
 #### Complex table
 
 <div class="example">
   <table class="post-table">
-    <caption>User's Height and Age</caption>
-    <tr>
-      <th rowspan="2" id="name" scope="col">
-        Name
-      </th>
-      <th colspan="2" id="height" scope="col">
-        Height
-      </th>
-      <th rowspan="2" id="age" scope="col">
-        Age
-      </th>
-    </tr>
-    <tr>
-      <th id="feet" headers="height" scope="col">
-        Feet
-      </th>
-      <th id="inches" headers="height" scope="col">
-        Inches
-      </th>
-    </tr>
-    <tr>
-      <th headers="name" scope="row">
-        Walter
-      </th>
-      <td headers="height feet">6</td>
-      <td headers="height inches">4</td>
-      <td headers="age">34</td>
-    </tr>
-    <tr>
-      <th headers="name" scope="row">
-        Steve
-      </th>
-      <td headers="height feet">5</td>
-      <td headers="height inches">4</td>
-      <td headers="age">30</td>
-    </tr>
+    <caption>User’s Height and Age</caption>
+    <thead>
+      <tr>
+        <th rowspan="2" id="name" scope="col">
+          Name
+        </th>
+        <th colspan="2" id="height" scope="col">
+          Height
+        </th>
+        <th rowspan="2" id="age" scope="col">
+          Age
+        </th>
+      </tr>
+      <tr>
+        <th id="feet" headers="height" scope="col">
+          Feet
+        </th>
+        <th id="inches" headers="height" scope="col">
+          Inches
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th headers="name" scope="row">
+          Walter
+        </th>
+        <td headers="height feet">6</td>
+        <td headers="height inches">4</td>
+        <td headers="age">34</td>
+      </tr>
+      <tr>
+        <th headers="name" scope="row">
+          Steve
+        </th>
+        <td headers="height feet">5</td>
+        <td headers="height inches">4</td>
+        <td headers="age">30</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
 ```html
 <table>
-  <caption>User's Height and Age</caption>
+  <caption>User’s Height and Age</caption>
   <tr>
     <th rowspan="2" id="name">
       Name
@@ -186,4 +194,4 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> This is an example of a complex table, all the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.
+This is an example of a complex table. All the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.

@@ -28,9 +28,8 @@ To improve your hiring process:
 - Measure the impact
 - Repeat
 
-<div class="callout--alt" markdown="1">
-Learn how the U.K. Government Digital Service runs its interview process by [reading this article](https://technology.blog.gov.uk/2015/07/14/applying-for-a-job-at-gds-update/).
-</div>
+Learn how the U.K. Government Digital Service [runs its interview process](https://technology.blog.gov.uk/2015/07/14/applying-for-a-job-at-gds-update/).
+{: .callout--tip }
 
 ## Establish a hiring team and evaluation protocol
 
@@ -42,9 +41,8 @@ For each job description, you'll want to pull together a team to evaluate candid
 
 The traditional resume review and hiring process is subjective and susceptible to bias. Work to ensure your hiring team is diverse. It's also helpful to have team members attend unconscious bias training beforehand.
 
-<div class="callout--alt" markdown="1">
-The U.S. federal government has been encouraging agencies to include experts in their hiring process. [Check out this article](https://www.govexec.com/management/2019/09/weichert-agencies-should-include-experts-hiring-process/159871/).
-</div>
+The U.S. federal government has been encouraging agencies to [include experts in their hiring process](https://www.govexec.com/management/2019/09/weichert-agencies-should-include-experts-hiring-process/159871/).
+{: .callout--tip }
 
 ## Workshop the candidate evaluation criteria
 
@@ -54,11 +52,11 @@ Get together as a hiring team to discuss and agree on how you'll evaluate candid
 
 To create a fair and consistent process:
 
-- Set criteria for screening resumes &mdash; document this criteria in a checklist, using the job description as a guide
+- Set criteria for screening resumes — document this criteria in a checklist using the job description as a guide
 - Decide on the phone screen and interview questions in advance
 - Ask all candidates the same questions in the same order
 - Ensure that the questions actually test skills and experiences relevant to the position
-- Ask questions based on realistic scenarios at work &mdash; but don't use this to solve real problems or get free ideas
+- Ask questions based on realistic scenarios at work — but don't use this to solve real problems or get free ideas
 
 ## Review resumes
 
@@ -67,9 +65,9 @@ HR will do the initial review to filter out applicants who are ineligible for em
 Look for red flags, like an applicant who has:
 
 - No demonstrable experience for the position they're applying for
-- A history of switching jobs too frequently &mdash; while it's common to switch jobs frequently in technology, someone who's moved on every few months might be a problem
+- A history of switching jobs too frequently — while it's common to switch jobs frequently in technology, someone who's moved on every few months might be a problem
 
-<div class="callout--alt" markdown="1">
+<div class="callout--note" markdown="1">
 ### Resume review resources
 
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/resume-review/)
@@ -80,7 +78,7 @@ Look for red flags, like an applicant who has:
 
 Suggested duration: 30 minutes.
 
-For most roles, these can be conducted by HR. If you're interviewing for leadership and executive roles, it might be better that this is done by a subject matter expert.
+For most roles, these can be conducted by HR. If you're interviewing for leadership and executive roles, it might be better for this to be done by a subject matter expert.
 
 Use the phone screen to determine if the candidate has the qualifications necessary to do the job. You're deciding who you'll bring in for an in-depth, in-person interview.
 
@@ -103,9 +101,9 @@ Suggested duration: 60 minutes.
 In-person interviews should include at least one person the successful candidate will be working with directly. The candidate is evaluating you just as much as you're evaluating them. Here are some basic tips for a successful interview:
 
 - Create a friendly, comfortable environment for the candidate
-- Limit the number of interviewers to two &mdash; anything more than that is intimidating and unnecessary
+- Limit the number of interviewers to two — anything more than that is intimidating and unnecessary
 - Start and end the interview on time
-- Be prepared &mdash; review their resume ahead of time, and be sure to have the interview questions with you
+- Be prepared — review their resume ahead of time, and be sure to have the interview questions with you
 - You can be tough, but keep it friendly
 - Remind candidates to think out loud so that you can evaluate how candidates approach problems
 
@@ -113,9 +111,10 @@ Follow the same interview process for each candidate:
 
 - Introduce yourself and your role. While you already know a lot about the candidate from their resume, they don't know anything about you.
 - Ask questions.
-- When there are 10&ndash;15 minutes left, let them ask you questions.
+- When there are 10–15 minutes left, let them ask you questions.
 - Thank them for their time.
 
+<div class="callout--note" markdown='1'>
 ## Resources
 
 - [Sample interview questions](https://firstround.com/review/40-favorite-interview-questions-from-some-of-the-sharpest-folks-we-know/)
@@ -124,11 +123,12 @@ Follow the same interview process for each candidate:
     - [DevOps/Site Reliability Engineer](https://eng-hiring.18f.gov/interviews/devops/)
     - [Information Security](https://eng-hiring.18f.gov/interviews/infosec/)
 - [Interview questions for UX researchers](https://medium.com/@eleonorazucconi/46-interview-questions-for-user-experience-researchers-at-google-amazon-microsoft-and-facebook-c582827267b9)
-- [Interview questions for UX designers](/work/toolkits/digital-talent-management/appendix-a-sample-interview-questions#ux-designer/)
+- [Interview questions for UX designers](/work/toolkits/digital-talent-management/appendix-a-sample-interview-questions#ux-designer)
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/interviews/)
 - [Providing tools in one place (State of Oregon)](https://www.oregon.gov/das/HR/Pages/success-plan.aspx#)
 - [It's Better to Avoid a Toxic Employee than Hire a Superstar](https://hbr.org/2015/12/its-better-to-avoid-a-toxic-employee-than-hire-a-superstar)
 - [7 Practical Ways to Reduce Bias in Your Hiring Process](https://www.shrm.org/resourcesandtools/hr-topics/talent-acquisition/pages/7-practical-ways-to-reduce-bias-in-your-hiring-process.aspx)
+</div>
 
 ## Checklist
 
@@ -144,14 +144,14 @@ Follow the same interview process for each candidate:
 - Be tough, but friendly
 {: .list-checklist}
 
-<div class="callout" markdown="1">
+<div class="callout callout--case-study" markdown="1">
 ## Case study: USDS and OPM
 
 Historically, the federal government hiring process hasn't involved subject matter experts to qualify candidates. Instead, HR specialists review resumes and questionnaires, screening candidates in and out of the pool for consideration. The result is that agencies often don't receive qualified candidates to select from.
 
 To address this, a team at the USDS is working with the Office of Personnel Management (OPM) to implement the [Subject Matter Expert Qualification Assessments (SME-QA) hiring process](https://smeqa.usds.gov/). The SME-QA hiring process mimics best practices from the private sector and is designed for technical and other hard to fill roles at or above the GS-12 pay grade. In this revised process, SMEs work with HR to review resumes and conduct multiple rounds of interviews. Only then is an applicant determined qualified and veterans' preference applied.
 
-The acting director of OPM [issued a memo](https://www.chcoc.gov/sites/default/files/OPM%20Memo%20Improving%20Federal%20Hiring%20through%20the%20Use%20of%20Effective%20Assessment%20Strategies%20to%20Advance%20Mission%20Outcomes.pdf) to raise awareness, encouraging agencies to try this process. While the SME-QA process is legal within current federal law, many agencies don't take advantage of it, because they don't know they can. Executive support &mdash; like the OPM memo &mdash; is vital for this type of change management.
+The acting director of OPM [issued a memo](https://www.chcoc.gov/sites/default/files/OPM%20Memo%20Improving%20Federal%20Hiring%20through%20the%20Use%20of%20Effective%20Assessment%20Strategies%20to%20Advance%20Mission%20Outcomes.pdf) to raise awareness, encouraging agencies to try this process. While the SME-QA process is legal within current federal law, many agencies don't take advantage of it, because they don't know they can. Executive support — like the OPM memo — is vital for this type of change management.
 
 With executive support, the team has worked with agency partners to hire approximately 20 qualified IT specialists to the Department of Health and Human Services and the Department of the Interior.
 

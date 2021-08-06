@@ -29,9 +29,11 @@ $(function() {
 $(function() {
   $(".card-link").on("click", function(e) {
     var url = $(this).data().href;
+    var target = $(this).data().target;
 
-    if (e.shiftKey || e.ctrlKey || e.metaKey) {
-      window.open(url, "_blank");
+    if (e.shiftKey || e.ctrlKey || e.metaKey || target) {
+      target = target ? target : '_blank';
+      window.open(url, target);
     } else {
       window.location = url;
     }
@@ -103,19 +105,18 @@ $(function() {
   document.addEventListener("mouseover", removetouchclass, false); // this event gets called when input type is everything from touch to mouse/trackpad
 }); // External links open in new window
 
-$(function() {
-  $(document.links)
-    .filter(function() {
-      return this.hostname != window.location.hostname;
-    })
-    .attr("target", "_blank");
-}); // Hash update with scroll
+function pathEndsWith(path){
+  path = path.replace('/','\/');
+  var exp = `(${path})$`;
+  var re = new RegExp(exp,"g");
+  return location.pathname.match(re)?.length > 0;
+}
 
 $(function() {
   if (
-    location.pathname === "/work/services/training/ditap-executive/" ||
-    location.pathname === "/work/services/training/ditap/" ||
-    location.pathname === "/careers/join/"
+    pathEndsWith("/work/services/training/ditap-executive/") ||
+    pathEndsWith("/work/services/training/ditap/") ||
+    pathEndsWith("/careers/join/")
   ) {
     var headings = $("h2");
 
@@ -147,22 +148,39 @@ $(function() {
   }
 }); // Experience filters
 
+//https://stackoverflow.com/questions/8746882/jquery-contains-selector-uppercase-and-lower-case-issue
+jQuery.expr[':'].icontains = function(a, i, m) {
+  return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+};
+
 $(function() {
-  if (location.pathname === "/work/experience/") {
+  if (pathEndsWith("/work/experience/")) {
+    var searchParams = new URLSearchParams(window.location.search);
+    var filters_set = searchParams.get('filters');
+    if(filters_set != 'true'){
+      window.localStorage.removeItem('filters');
+      window.localStorage.removeItem('page');
+    }
+
+    var filter_params = window.localStorage.getItem('filters');
+
     // Initialize empty filters array
-    var filters = []; // All posts to be filtered
+    var filters = filter_params ? filter_params.split(',') : []; // All posts to be filtered
 
     var posts = $("article[data-display=true]");
-    $("article[data-display=false]").addClass("hidden"); // All filter tags actually used by posts
+    $("article[data-display=false]").addClass("hidden");
 
+    // All filter tags actually used by posts
     var usedTags = $.unique(
       Object.values(
         posts.map(function() {
           return $(this).attr("data-tags").split(", ");
         })
       )
-    ); // This function will ensure all added filters have a remove handler
+    );
 
+    // This function will ensure all added filters have a remove handler
     var addRemoveHandler = function addRemoveHandler() {
       $(".tag-badge")
         .off("click")
@@ -171,12 +189,26 @@ $(function() {
           var filterText = text.toLowerCase();
           filters.splice(filters.indexOf(filterText), 1);
           $(this).remove();
-          $('.exp-filter-item:contains("' + text + '")').removeClass(
+          $('.exp-filter-item:icontains("' + text + '")').removeClass(
             "font-weight-bold"
           );
           filterPosts();
         });
     }; // This function will paginate all visible posts
+
+    if(filter_params){
+      filter_params.split(',').forEach((f)=>{
+        $('.exp-filter-item:icontains("' + f + '")').addClass(
+          "font-weight-bold"
+        );
+        $(".filter-post-tags").append(
+          '<a class="tag-badge capitalize" href="#" onclick="return false;">' +
+            f +
+            '<i class="fa fa-times ml-2"></i></a>'
+        );
+      })
+      addRemoveHandler();
+    }
 
     var paginatePosts = function paginatePosts() {
       var dataSource = $("article.filter-match").get();
@@ -190,14 +222,20 @@ $(function() {
         window.scrollTo(0, 0);
       };
 
+       function getCurrentPageParam(){
+          var page = window.localStorage.getItem('page')
+          return page ? page : 1;
+       }
+
+
       $(".projects").pagination({
         dataSource: dataSource,
         pageSize: pageSize,
         ulClassName: "pagination d-flex justify-content-center",
         prevText:
-          '<i class="fa fa-chevron-left mr-2 pagination-icon"></i><b>Previous</b>',
+          '<i class="fal fa-long-arrow-left mr-2 pagination-icon"></i><b>Previous</b>',
         nextText:
-          '<b>Next</b><i class="fa fa-chevron-right ml-2 pagination-icon"></i>',
+          '<b>Next</b><i class="fal fa-long-arrow-right ml-2 pagination-icon"></i>',
         showPageNumbers: false,
         showNavigator: true,
         formatNavigator: "Page <%= currentPage %> of <%= totalPage %>",
@@ -205,7 +243,12 @@ $(function() {
         autoHideNext: true,
         afterPreviousOnClick: onPageChange,
         afterNextOnClick: onPageChange,
-        callback: function callback(data) {
+        pageNumber: getCurrentPageParam(),
+        callback: function callback(data, pagination) {
+          window.localStorage.setItem('page', pagination.pageNumber);
+          if(pagination.pageNumber != 1) {
+            history.pushState({filters: true}, "", "?filters=true");
+          }
           posts.addClass("hidden");
           data.forEach(function(post) {
             return (post.className = "project-col");
@@ -229,12 +272,11 @@ $(function() {
       if (filters.length) {
         posts.each(function() {
           var tags = $(this).attr("data-tags").split(", ");
-
           if (
             tags &&
             tags.filter(function(tag) {
               return filters.includes(tag);
-            }).length
+            }).length == filters.length
           ) {
             $(this).addClass("filter-match");
           } else {
@@ -245,9 +287,35 @@ $(function() {
         posts.addClass("filter-match");
       }
 
-      paginatePosts();
-    }; // Disable filter options that won't result in any posts
+      window.localStorage.setItem('filters', filters.join(',').toLowerCase());
 
+
+      //Disabled unused tags for the remaining posts
+      var dataSource = $("article.filter-match");
+      var usedTags = $.unique(
+        Object.values(
+          dataSource.map(function() {
+            return $(this).attr("data-tags").split(", ");
+          })
+        )
+      );
+      $(".exp-filter-item").each(function() {
+        var filterText = $(this).text().toLowerCase();
+
+        if (!usedTags.includes(filterText)) {
+          $(this).addClass("filter-disabled");
+          $(this).removeClass("filter-enabled");
+
+        } else {
+          $(this).addClass("filter-enabled");
+          $(this).removeClass("filter-disabled");
+        }
+      });
+      paginatePosts();
+
+    };
+
+    // Disable filter options that won't result in any posts
     $(".exp-filter-item").each(function() {
       var filterText = $(this).text().toLowerCase();
 
@@ -256,30 +324,34 @@ $(function() {
       } else {
         $(this).addClass("filter-enabled");
       }
-    }); // Add click handler to non-disabled filter options
+    });
 
+    // Add click handler to non-disabled filter options
     $(".exp-filter-item.filter-enabled").click(function() {
       var text = $(this).text();
       var filterText = text.toLowerCase();
 
       if (!filters.includes(filterText)) {
         filters.push(filterText);
-        $('.exp-filter-item:contains("' + text + '")').addClass(
+        $('.exp-filter-item:icontains("' + text + '")').addClass(
           "font-weight-bold"
         );
         $(".filter-post-tags").append(
           '<a class="tag-badge" href="#" onclick="return false;">' +
             text +
-            '<i class="fa fa-times-circle ml-1"></i></a>'
+            '<i class="fa fa-times ml-2"></i></a>'
         );
         addRemoveHandler();
       } else {
         filters.splice(filters.indexOf(filterText), 1);
-        $('.exp-filter-item:contains("' + text + '")').removeClass(
+        $('.exp-filter-item:icontains("' + text + '")').removeClass(
           "font-weight-bold"
         );
-        $('.tag-badge:contains("' + text + '")').remove();
+
+        $('.tag-badge:icontains("' + text + '")').remove();
       }
+
+      history.pushState({filters: true}, "", "?filters=true");
 
       filterPosts();
     }); // Do initial filter
@@ -287,3 +359,42 @@ $(function() {
     filterPosts();
   }
 });
+
+
+// https://stackoverflow.com/questions/1533910/randomize-a-sequence-of-div-elements-with-jquery
+(function($) {
+  $.fn.randomize = function(tree, childElem) {
+    return this.each(function() {
+      var $this = $(this);
+      if (tree) $this = $(this).find(tree);
+      var unsortedElems = $this.children(childElem);
+      var elems = unsortedElems.clone();
+
+      elems.sort(function() {
+        return (Math.round(Math.random()) - 0.5);
+      });
+
+      for (var i = 0; i < elems.length; i++)
+        unsortedElems.eq(i).replaceWith(elems[i]);
+    });
+  };
+
+})(jQuery);
+
+$(function() {
+  if (pathEndsWith("/company/about/")) {
+    $(".employees-row").randomize(undefined, "div.employee-col");
+    $('[data-toggle="tooltip"]').tooltip();
+    var hash = window.location.hash;
+    if(hash){
+      $(hash)[0].scrollIntoView(true);
+
+      function scroll() {
+        var hash = window.location.hash;
+        $(hash)[0].scrollIntoView(true);
+      }
+
+      setTimeout( scroll, 300 );
+    }
+  }
+})

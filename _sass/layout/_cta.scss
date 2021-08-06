@@ -2,18 +2,62 @@
   @extend %text-center;
   @extend %mt-5;
   @extend %mt-md-6;
-  @extend %py-4;
-  @extend %py-md-5;
   color: $page-cta-color;
   background: $page-cta-bg-color;
+  padding-bottom: 4rem;
+  padding-top: calc(4rem - 0.5rem); // subtract extra line height spacing
+
+  @include media-breakpoint-up(sm) {
+    padding-top: calc(4rem - 0.75rem); // subtract extra line height spacing
+  }
+
+  * {
+    color: $page-cta-color;
+  }
+
+  > * {
+    @include grid-container;
+    max-width: $size-md !important;
+  }
 }
 
-.page-subfooter-content {
-  @include container-fluid-base;
+.page-company {
+  .page-subfooter {
+    background-color: $sk-blue-light;
+  }
+}
+
+.page-careers {
+  .page-subfooter {
+    background-color: $green-300;
+  }
+}
+
+.page-thoughts {
+  .page-subfooter {
+    background-color: $red-200;
+  }
+}
+
+.page-connect {
+  .page-subfooter {
+    background-color: $sk-yellow;
+
+    * {
+      color: $heading-color;
+    }
+
+    .page-subfooter__divider {
+      background-color: $black;
+    }
+  }
+
+  .page-subfooter-cta-col a {
+    border-color: $heading-color;
+  }
 }
 
 .page-subfooter-header-row {
-  @extend %row;
   @extend %mb-3;
 }
 
@@ -21,20 +65,24 @@
   @extend %col;
 }
 
+.page-subfooter-heading {
+  font-size: $font-size-xxx-large;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $font-size-xxxxx-large;
+  }
+}
+
 .page-subfooter-text-row {
-  @extend %row;
   @extend %mb-4;
 }
 
 .page-subfooter-text-col {
-  @extend %col-sm-9;
-  @extend %col-lg-7;
-  @extend %mx-auto;
   font-weight: 100;
   line-height: 1.75;
 
   @include media-breakpoint-up(md) {
-    font-size: $font-size-large;
+    font-size: $font-size-medium;
   }
 
   p {
@@ -53,52 +101,32 @@
     @extend %btn-base;
     @extend %btn-icon-right;
     @extend %btn-lg;
-    @extend %text-uppercase;
     @include button-outline-variant($btn-page-cta-color, $btn-page-cta-bg);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: $white;
+    }
   }
 }
 
-// Testimonial CTA
 .testimonial {
-  @include container-fluid-base;
-}
+  margin-bottom: -5px;
+  margin-top: 3px;
 
-.testimonial-row {
-  @extend %row;
-}
-
-.testimonial-col {
-  @extend %col-sm-7;
-  @extend %col-md-10;
-  @extend %col-lg-8;
-  @extend %mx-auto;
+  @include media-breakpoint-up(md) {
+    margin-bottom: -7px;
+  }
 
   blockquote {
-    @extend %m-0;
+    margin: 0;
   }
 }
 
 .testimonial-quote {
-  @extend %font-italic;
   @extend %mb-4;
   font-size: $font-size-x-large;
   line-height: 1.25;
-
-  &::before {
-    @extend %align-middle;
-    content: '\201C';
-    font-size: $font-size-xxx-large;
-    line-height: .1;
-    opacity: .5;
-  }
-
-  &::after {
-    @extend %align-middle;
-    content: '\201D';
-    font-size: $font-size-xxx-large;
-    line-height: .1;
-    opacity: .5;
-  }
 
   @include media-breakpoint-up(md) {
     font-size: $font-size-xxxx-large;
@@ -120,7 +148,7 @@
   line-height: 1.5;
 
   @include media-breakpoint-up(md) {
-    font-size: $font-size-lg;
+    font-size: $font-size-medium;
   }
 }
 
@@ -130,6 +158,12 @@
   @extend %d-block;
 }
 
-.testimonial-author::before {
-  content: '— ';
+.testimonial-author {
+  font-weight: bold;
+}
+
+.page-subfooter__divider {
+  background-color: $white;
+  height: 4px;
+  width: 111px;
 }

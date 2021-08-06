@@ -10,6 +10,9 @@ layout: default
 {% if filter_type == 'project' %}
   {% assign items = site.projects | where: 'tags', tag_filter | sort: 'order' %}
   {% assign header = 'Work Search Results' %}
+{% elsif filter_type == 'talk' %}
+  {% assign items = site.talks | where: 'tags', tag_filter | sort: 'order' %}
+  {% assign header = 'Talk Search Results' %}
 {% else %}
   {% assign items = site.blog_posts | where: 'tags', tag_filter | sort: 'date_published' | reverse %}
   {% assign header = 'Blog Search Results' %}

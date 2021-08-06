@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Flashing | Skylight Accessibility Guide
-description: "How we deal with flashing."
+description: How we deal with flashing.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/flashing/
 sidenav: accessibility_guide
@@ -36,7 +36,10 @@ Failure at any step below constitutes a 508 compliance issue.
   <div class="col-sm-5">
     <p>
       <button class="btn-submit-outline" type="button" id="blinkbutton">
-        Click to see non-compliant flashing
+        Click to see <br>non-compliant flashing
+      </button>
+      <button class="btn-submit-outline" type="button" id="stopblinkbutton">
+        Click to stop flashing
       </button>
     </p>
   </div>
@@ -45,4 +48,4 @@ Failure at any step below constitutes a 508 compliance issue.
   </div>
 </div>
 
-> This blinking text fails because the rate of flashing can't be determined and its greater than 3Hz.
+This blinking text fails because the rate of flashing can't be determined and it's greater than 3 Hz.

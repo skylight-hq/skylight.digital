@@ -21,10 +21,10 @@ We won't link to any website that exhibits hate, bias, or discrimination.
 We encourage and permit links to the content on our website. However, we're an organization that's committed to the highest ethics and standards, both in fact and appearance. Unless you've received our express written consent, the linking should not: (a) suggest that we promote or endorse any third party's causes, ideas, political campaigns, websites, products, or services; nor (b) use our protected intellectual property (such as logo or copyrighted information); nor (c) use our content for commercial or fundraising purposes. We reserve the right to withdraw permission for any link at any time.
 Removal of links
 
-You agree that, should we request the deletion of a link to skylight.digital that's within your control, you'll delete the link promptly. If you'd like us to remove a link to your website that's included on skylight.digital, please contact us via email at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a>. Note that unless you have a legal right to demand removal, such removal will be at our discretion.
+You agree that, should we request the deletion of a link to skylight.digital that's within your control, you'll delete the link promptly. If you'd like us to remove a link to your website that's included on skylight.digital, please Contact us via email at [hello@skylight.digital](mailto:hello@skylight.digital). Note that unless you have a legal right to demand removal, such removal will be at our discretion.
 
 ## Future changes
 
 If we decide to change this policy, we'll update the modification date below.
 
-<em>Updated: April 4, 2017</em>
+*Updated: April 4, 2017*

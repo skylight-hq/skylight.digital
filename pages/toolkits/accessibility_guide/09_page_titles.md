@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Page titles | Skylight Accessibility Guide
-description: "How we deal with page titles."
+description: How we deal with page titles.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/page-titles/
 sidenav: accessibility_guide
@@ -25,4 +25,4 @@ Page titles are important because they help a user navigate their browser. Most 
 <title>Page Titles - Skylight Accessibility</title>
 ```
 
-> The title for this page is "Page Titles - Skylight Accessibility". The first half is the name of this page and the second is the name of the site.
+The title for this page is "Page Titles - Skylight Accessibility." The first half is the name of this page and the second is the name of the site.

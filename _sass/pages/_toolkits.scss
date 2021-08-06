@@ -13,19 +13,11 @@
   }
 
   h3 {
-    font-size: $font-size-base;
-    letter-spacing: 0.05em;
-    line-height: 1.375;
-    text-transform: uppercase;
+    font-size: $font-size-large;
   }
 
   h4 {
-    color: $gray-light;
     font-size: $font-size-base;
-  }
-
-  p, li, h1, h2, h3, h4, h5, h6, .callout, .callout--alt, .post-blockquote {
-    max-width: $prose-max-width;
   }
 }
 
@@ -46,6 +38,7 @@
 }
 
 @mixin callout {
+  margin-top: 2rem;
   padding: 1.5rem;
 
   > *:last-child {
@@ -53,15 +46,16 @@
   }
 }
 
-.callout {
+.callout,
+.callout--highlight {
   @include callout;
-  background-color: $sk-yellow;
-  margin-top: 2.25rem;
+  background-color: $gray-1;
+  border: 3px solid $brand-primary;
 }
 
 .callout--alt {
   @include callout;
-  background-color: $brand-primary-lightest;
+  background-color: $ochre-20;
   margin-bottom: 1em;
 
   h4 {
@@ -69,7 +63,186 @@
   }
 }
 
+.callout--case-study {
+  h2 {
+    background-color: $brand-primary;
+    color: $white;
+    display: block;
+    margin: -1.5rem;
+    margin-bottom: 1.5rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+  }
+}
+
 .caption {
   color: $gray-light;
+  font-family: $font-family-mono;
   font-size: $font-size-xs;
+  margin-top: -0.625rem;
+}
+
+.pagination-alt {
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    border-bottom: none;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
+
+.pagination-alt__previous {
+  @include media-breakpoint-up(sm) {
+    float: left;
+    margin-right: 1rem;
+  }
+}
+
+.pagination-alt__step {
+  display: flex;
+  font-family: $font-family-mono;
+  font-size: $font-size-small;
+}
+
+.pagination__colon {
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: inline;
+  }
+}
+
+.pagination-alt__step-text {
+  display: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  @include media-breakpoint-up(sm) {
+    display: block;
+    max-width: 35vw;
+  }
+
+  @include media-breakpoint-up(md) {
+    max-width: 25vw;
+  }
+}
+
+.pagination-alt__step--next {
+  @include media-breakpoint-up(sm) {
+    float: right;
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+}
+
+.pagination-next__icon {
+  white-space: nowrap;
+}
+
+#btn--scroll-to-top {
+  background-color: $blue-20;
+  border: 1px solid $brand-primary;
+  color: $link-color;
+  display: none; /* Hidden by default */
+  font-size: $font-size-xx-small;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1.5rem; /* Place the button at the bottom of the page */
+  right: 1.5rem; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-inline: 0.75rem;
+
+  &:hover {
+    background-color: #F2F7FA;
+  }
+
+  i {
+    display: block;
+    margin-bottom: 0.25rem;
+
+    @include media-breakpoint-up(sm) {
+      display: inline;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.btn--scroll-to-top__first-text {
+  display: none;
+
+  @include media-breakpoint-up(sm) {
+    display: inline;
+  }
+}
+
+.btn--scroll-to-top__second-text {
+  text-transform: capitalize;
+
+  @include media-breakpoint-up(sm) {
+    text-transform: none;
+  }
+}
+
+$icon-size: 2rem;
+
+@mixin alert {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding-block: 1rem;
+  padding-left: 3.8333333333rem;
+  padding-right: 1rem;
+  position: relative;
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  &::before {
+    width: $icon-size;
+    content: "";
+    display: block;
+    height: 3.875rem;
+    left: 0.9166666667rem;
+    position: absolute;
+    top: 0;
+  }
+
+  + * {
+    margin-top:  2rem;
+  }
+}
+
+.callout--tip {
+  @include alert;
+  background-color: $ochre-20;
+
+  &::before {
+    background: url(/img/icons/tip.svg) no-repeat center/$icon-size;
+  }
+}
+
+.callout--note {
+  @include alert;
+  background-color: $blue-20;
+
+  &::before {
+    background: url(/img/icons/info.svg) no-repeat center/$icon-size;
+  }
+}
+
+.example,
+.callout--tip,
+.callout--note {
+  h2, h3 {
+    font-size: $font-size-large;
+  }
 }
