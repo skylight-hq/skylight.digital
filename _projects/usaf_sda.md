@@ -38,7 +38,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) needed a way to deliver better user experience journeys across a complex ecosystem of operations, people, and technology. We were brought in to implement a viable approach for scaling the adoption of service design.
+The U.S. Air Force (USAF) needed a way to deliver better user experience journeys across a complex ecosystem of operations, people, and technology. We were brought in to implement a solution for scaling the adoption of service design.
 {% endcapture %}
 
 {% capture challenge %}
@@ -54,7 +54,7 @@ Recognizing the need for a more holistic approach to human-centered design, the 
 {% capture solution %}
 Based on our years of experience, we believe that internal capacity building is the key to any successful transformation. We also believe that the best way to build internal capacity is by:
 
-- Understanding the organization’s readiness for experimenting with new approaches and supporting broad-based change before trying to introduce something new
+- Understanding the organization’s readiness for change before trying to introduce something new
 - Embedding experts within the organization to work hand-in-hand with existing staff to solve high-priority, real-world problems using alternative ways of working
 - Leveling up people’s know-how through a mix of (some) traditional classroom instruction and (a lot of) learning-by-doing
 - Gaining empirical insights into what it’s going to take to drive organization-wide change (for example, which capabilities to mature) through the act of doing (that is, using new approaches to solve actual problems)
