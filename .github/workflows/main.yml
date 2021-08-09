@@ -30,9 +30,11 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           #This list of urls can be generated dervived from the sitemap.xml
-          #cat ./build/sitemap.xml | grep http:// | sed 's/<.*>\(.*\)<\/.*>/\1/' | sed 's/http:\/\/localhost:4000\//$SITE_URL\//g' | sort
+          #cat ./build/sitemap.xml | grep https:// | sed 's/<.*>\(.*\)<\/.*>/\1/' | sed 's/https:\/\/localhost:4000\//$SITE_URL\//g' | sort
           urls: |
             $SITE_URL/
+            $SITE_URL/assets/Skylight-DITAP-Syllabus.pdf
+            $SITE_URL/assets/Skylight-SBIR-STTR-Procurement-Guide.pdf
             $SITE_URL/careers/join/
             $SITE_URL/company/about/
             $SITE_URL/company/policies/
@@ -46,31 +48,42 @@ jobs:
             $SITE_URL/company/press/page/2/
             $SITE_URL/company/press/page/3/
             $SITE_URL/company/press/page/4/
+            $SITE_URL/company/press/page/5/
+            $SITE_URL/company/press/page/6/
             $SITE_URL/company/values/
             $SITE_URL/connect/contact/
             $SITE_URL/connect/contracting/
             $SITE_URL/thankyou.html
             $SITE_URL/thoughts/blog/
+            $SITE_URL/thoughts/blog/a-human-centered-approach-to-rebuilding-the-us-refugee-admission-program
             $SITE_URL/thoughts/blog/a-smarter-way-to-build-smart-cities/
             $SITE_URL/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/
+            $SITE_URL/thoughts/blog/author/abby-raskin/
+            $SITE_URL/thoughts/blog/author/ashley-treni/
             $SITE_URL/thoughts/blog/author/chris-cairns/
             $SITE_URL/thoughts/blog/author/geoff-mulligan/
             $SITE_URL/thoughts/blog/author/josh-dorothy/
             $SITE_URL/thoughts/blog/author/kin-lane/
             $SITE_URL/thoughts/blog/author/maya-benari/
             $SITE_URL/thoughts/blog/author/nick-bristow/
+            $SITE_URL/thoughts/blog/author/ori-hoffer/
             $SITE_URL/thoughts/blog/author/robert-read/
             $SITE_URL/thoughts/blog/author/sean-johnson/
+            $SITE_URL/thoughts/blog/author/victoria-suwardiman/
             $SITE_URL/thoughts/blog/case-management-a-study-in-non-traditional-economics-for-government/
             $SITE_URL/thoughts/blog/containers-thinking-inside-the-box/
             $SITE_URL/thoughts/blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/
             $SITE_URL/thoughts/blog/geoff-mulligan-engineering-open-and-interoperable-iot-solutions/
+            $SITE_URL/thoughts/blog/gianna-uson-launching-a-civic-tech-career/
             $SITE_URL/thoughts/blog/how-to-rescue-failing-programs/
+            $SITE_URL/thoughts/blog/jordan-guinn-making-the-impact-of-technology-real/
             $SITE_URL/thoughts/blog/josh-dorothy-engineering-great-developer-experiences-through-devops/
             $SITE_URL/thoughts/blog/key-trends-in-mobile-app-development-part-1-the-trends/
             $SITE_URL/thoughts/blog/key-trends-in-mobile-app-development-part-2-making-sense-of-the-trends/
             $SITE_URL/thoughts/blog/kin-lane-harnessing-the-connective-power-of-apis/
+            $SITE_URL/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean
             $SITE_URL/thoughts/blog/learning-techniques-for-public-servants/
+            $SITE_URL/thoughts/blog/leveraging-collective-insights-for-early-care-and-education-information-systems/
             $SITE_URL/thoughts/blog/maximizing-the-power-of-apis-balancing-freedom-and-control/
             $SITE_URL/thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/
             $SITE_URL/thoughts/blog/meet-the-10-newest-members-of-the-skylight-team/
@@ -87,41 +100,66 @@ jobs:
             $SITE_URL/thoughts/blog/software-badness-quantified/
             $SITE_URL/thoughts/blog/story-of-a-darpa-proposal/
             $SITE_URL/thoughts/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/
+            $SITE_URL/thoughts/blog/tag/abby-raskin/
             $SITE_URL/thoughts/blog/tag/accessibility/
             $SITE_URL/thoughts/blog/tag/apis/
+            $SITE_URL/thoughts/blog/tag/ashley-treni/
             $SITE_URL/thoughts/blog/tag/chris-cairns/
+            $SITE_URL/thoughts/blog/tag/content/
+            $SITE_URL/thoughts/blog/tag/data/
             $SITE_URL/thoughts/blog/tag/delivery-management/
+            $SITE_URL/thoughts/blog/tag/design/
             $SITE_URL/thoughts/blog/tag/devops/
             $SITE_URL/thoughts/blog/tag/engineering/
+            $SITE_URL/thoughts/blog/tag/gearfit/
             $SITE_URL/thoughts/blog/tag/geoff-mulligan/
+            $SITE_URL/thoughts/blog/tag/gianna-uson/
             $SITE_URL/thoughts/blog/tag/internet-of-things/
+            $SITE_URL/thoughts/blog/tag/jordan-guinn/
             $SITE_URL/thoughts/blog/tag/josh-dorothy/
             $SITE_URL/thoughts/blog/tag/kin-lane/
+            $SITE_URL/thoughts/blog/tag/lara-kohl/
+            $SITE_URL/thoughts/blog/tag/maya-benari/
             $SITE_URL/thoughts/blog/tag/microconsulting/
             $SITE_URL/thoughts/blog/tag/mobile/
             $SITE_URL/thoughts/blog/tag/modernization/
             $SITE_URL/thoughts/blog/tag/nick-bristow/
             $SITE_URL/thoughts/blog/tag/people-and-culture/
             $SITE_URL/thoughts/blog/tag/procurement/
+            $SITE_URL/thoughts/blog/tag/product/
+            $SITE_URL/thoughts/blog/tag/research/
             $SITE_URL/thoughts/blog/tag/robert-read/
             $SITE_URL/thoughts/blog/tag/sean-johnson/
             $SITE_URL/thoughts/blog/tag/security-and-privacy/
             $SITE_URL/thoughts/blog/tag/service-delivery/
+            $SITE_URL/thoughts/blog/tag/simple-report/
+            $SITE_URL/thoughts/blog/tag/space-force/
+            $SITE_URL/thoughts/blog/tag/training/
             $SITE_URL/thoughts/blog/tag/transformation/
+            $SITE_URL/thoughts/blog/tag/victoria-suwardiman/
             $SITE_URL/thoughts/blog/the-search-for-mentor-protege-relationships/
             $SITE_URL/thoughts/blog/thoughts-on-the-use-of-technical-challenges-in-government-procurements/
             $SITE_URL/thoughts/blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
             $SITE_URL/thoughts/blog/why-government-it-professionals-need-to-do-what-the-cool-kids-are-doing/
+            $SITE_URL/thoughts/blog/why-plain-language-policies-matter-telehealth-billing-and-coding-during-a-pandemic/
             $SITE_URL/thoughts/talks/
+            $SITE_URL/thoughts/talks/speaker/chris-cairns/
+            $SITE_URL/thoughts/talks/speaker/geoff-mulligan/
+            $SITE_URL/thoughts/talks/speaker/kin-lane/
+            $SITE_URL/thoughts/talks/speaker/robert-read/
+            $SITE_URL/thoughts/talks/speaker/sean-johnson/
             $SITE_URL/type/
             $SITE_URL/work/experience/
             $SITE_URL/work/experience/18f-consulting/
+            $SITE_URL/work/experience/acme-devops-transformation/
             $SITE_URL/work/experience/adopta-agency/
             $SITE_URL/work/experience/agile-acquisition-framework/
             $SITE_URL/work/experience/agile-delivery-services-marketplace/
             $SITE_URL/work/experience/ca-hhs-agile-training/
             $SITE_URL/work/experience/carrot/
+            $SITE_URL/work/experience/cdc-simplereport/
             $SITE_URL/work/experience/cms-iqies/
+            $SITE_URL/work/experience/cms-macbis-transformation/
             $SITE_URL/work/experience/ct-ece-reporter/
             $SITE_URL/work/experience/ct-families-experiencing-homelessness/
             $SITE_URL/work/experience/ct-oec-care4kids-auto-notifier/
@@ -132,13 +170,21 @@ jobs:
             $SITE_URL/work/experience/digital-transformation-framework/
             $SITE_URL/work/experience/dol-legacy-system-modernization/
             $SITE_URL/work/experience/epa-sdwis-advice/
+            $SITE_URL/work/experience/goc-nextgen-hr-and-pay-system-agile-procurement/
+            $SITE_URL/work/experience/hhs-telehealth-website/
+            $SITE_URL/work/experience/ncoc-refugee-admissions-research/
             $SITE_URL/work/experience/sba-ascent/
+            $SITE_URL/work/experience/space-force-web-portal/
             $SITE_URL/work/experience/ssa-agile-microsprints/
             $SITE_URL/work/experience/talkto/
             $SITE_URL/work/experience/tsa-cloud-adoption/
             $SITE_URL/work/experience/united-nations-accessibility-support/
             $SITE_URL/work/experience/us-navy-protosketching/
+            $SITE_URL/work/experience/usaf-arms/
+            $SITE_URL/work/experience/usaf-bespin-design-system/
             $SITE_URL/work/experience/usaf-gearfit/
+            $SITE_URL/work/experience/usaf-jocas/
+            $SITE_URL/work/experience/usaf-service-design-capacity-building/
             $SITE_URL/work/experience/uscis-everify-modernization/
             $SITE_URL/work/experience/usda-recreation-information-database-api/
             $SITE_URL/work/experience/va-api-developer-outreach/
@@ -148,14 +194,16 @@ jobs:
             $SITE_URL/work/experience/va-diffusion-marketplace/
             $SITE_URL/work/experience/va-mobile-product-strategy/
             $SITE_URL/work/services/
+            $SITE_URL/work/services/service-design/
             $SITE_URL/work/services/training/
             $SITE_URL/work/services/training/ditap-executive/
             $SITE_URL/work/services/training/ditap/
-            $SITE_URL/work/services/training/ditap/apply/
             $SITE_URL/work/team-member/abby-raskin/
             $SITE_URL/work/team-member/adam-weber/
             $SITE_URL/work/team-member/aera-hoffman/
+            $SITE_URL/work/team-member/alex-curtis/
             $SITE_URL/work/team-member/amelia-wellers/
+            $SITE_URL/work/team-member/andrew-lloyd/
             $SITE_URL/work/team-member/andrew-wagner/
             $SITE_URL/work/team-member/ari-perez/
             $SITE_URL/work/team-member/ashley-treni/
@@ -165,28 +213,47 @@ jobs:
             $SITE_URL/work/team-member/charlye-tran/
             $SITE_URL/work/team-member/chris-cairns/
             $SITE_URL/work/team-member/chris-given/
+            $SITE_URL/work/team-member/chun-yen/
             $SITE_URL/work/team-member/colin-craig/
+            $SITE_URL/work/team-member/derek-tam/
             $SITE_URL/work/team-member/elisa-lee/
+            $SITE_URL/work/team-member/emma-stephenson/
             $SITE_URL/work/team-member/eric-richards/
             $SITE_URL/work/team-member/gabriel-ramirez/
+            $SITE_URL/work/team-member/gianna-uson/
             $SITE_URL/work/team-member/jay-danielian/
+            $SITE_URL/work/team-member/jesse-skeets/
+            $SITE_URL/work/team-member/jordan-guinn/
             $SITE_URL/work/team-member/josh-dorothy/
             $SITE_URL/work/team-member/julia-hogan/
+            $SITE_URL/work/team-member/kari-hodges/
+            $SITE_URL/work/team-member/kenny-nieh/
             $SITE_URL/work/team-member/kin-lane/
             $SITE_URL/work/team-member/kyle-magida/
             $SITE_URL/work/team-member/lara-kohl/
+            $SITE_URL/work/team-member/laura-kerry/
             $SITE_URL/work/team-member/laura-king/
             $SITE_URL/work/team-member/lesley-evans/
+            $SITE_URL/work/team-member/leslie-garner-franklin/
+            $SITE_URL/work/team-member/lucas-newman/
             $SITE_URL/work/team-member/marvo-dolor/
+            $SITE_URL/work/team-member/maya-benari/
             $SITE_URL/work/team-member/mical-nobel/
             $SITE_URL/work/team-member/mitchell-sipus/
+            $SITE_URL/work/team-member/nathan-carter/
             $SITE_URL/work/team-member/nick-bristow/
             $SITE_URL/work/team-member/nick-clyde/
+            $SITE_URL/work/team-member/nicole-campbell/
+            $SITE_URL/work/team-member/nicole-wright/
+            $SITE_URL/work/team-member/olivia-lucas/
             $SITE_URL/work/team-member/peggy-chau/
             $SITE_URL/work/team-member/phoebe-espiritu/
+            $SITE_URL/work/team-member/rebecca-lubitzmarchena/
             $SITE_URL/work/team-member/robert-read/
             $SITE_URL/work/team-member/sean-johnson/
             $SITE_URL/work/team-member/shashank-khandelwal/
+            $SITE_URL/work/team-member/suzanne-chapman/
+            $SITE_URL/work/team-member/taylor-curtiss/
             $SITE_URL/work/team-member/tom-black/
             $SITE_URL/work/team-member/tomi-obikunle/
             $SITE_URL/work/team-member/victor-zapanta/
@@ -196,14 +263,22 @@ jobs:
             $SITE_URL/work/toolkits/accessibility-guide/
             $SITE_URL/work/toolkits/accessibility-guide/alternative-versions/
             $SITE_URL/work/toolkits/accessibility-guide/checklist/
+            $SITE_URL/work/toolkits/accessibility-guide/color/
             $SITE_URL/work/toolkits/accessibility-guide/css/
             $SITE_URL/work/toolkits/accessibility-guide/flashing/
+            $SITE_URL/work/toolkits/accessibility-guide/forms/
             $SITE_URL/work/toolkits/accessibility-guide/headings/
             $SITE_URL/work/toolkits/accessibility-guide/hidden-content/
+            $SITE_URL/work/toolkits/accessibility-guide/iframeform/
+            $SITE_URL/work/toolkits/accessibility-guide/iframes/
+            $SITE_URL/work/toolkits/accessibility-guide/keyboard/
+            $SITE_URL/work/toolkits/accessibility-guide/landmarks/
             $SITE_URL/work/toolkits/accessibility-guide/language/
+            $SITE_URL/work/toolkits/accessibility-guide/links/
             $SITE_URL/work/toolkits/accessibility-guide/multimedia/
             $SITE_URL/work/toolkits/accessibility-guide/page-titles/
             $SITE_URL/work/toolkits/accessibility-guide/plugins/
+            $SITE_URL/work/toolkits/accessibility-guide/tables/
             $SITE_URL/work/toolkits/accessibility-guide/timeouts/
             $SITE_URL/work/toolkits/accessibility-guide/tools/
             $SITE_URL/work/toolkits/accessibility-guide/training-videos/
@@ -245,6 +320,11 @@ jobs:
             $SITE_URL/work/toolkits/digital-talent-management/onboarding/
             $SITE_URL/work/toolkits/digital-talent-management/recruiting/
             $SITE_URL/work/toolkits/digital-talent-management/understanding-your-talent-gaps/
+            $SITE_URL/work/toolkits/managing-technical-debt/
+            $SITE_URL/work/toolkits/managing-technical-debt/managing-technical-debt/
+            $SITE_URL/work/toolkits/managing-technical-debt/preventing-technical-debt/
+            $SITE_URL/work/toolkits/managing-technical-debt/resources/
+            $SITE_URL/work/toolkits/managing-technical-debt/what-is-technical-debt/ 
           uploadArtifacts: false
           configPath: ./lighthouse/lighthouserc.yml
         env:
