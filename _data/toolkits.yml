@@ -152,3 +152,42 @@ managing_technical_debt:
       url: /work/toolkits/managing-technical-debt/preventing-technical-debt/
     - title: Additional resources
       url: /work/toolkits/managing-technical-debt/resources/
+
+content_guide:
+  title: Content Guide
+  description: A guide on how to write clear, accessible, and user-friendly content at Skylight.
+  toc:
+    - title: About this guide
+      url: /work/toolkits/content-guide/
+    - title: TL;DR
+      url: /work/toolkits/content-guide/tldr/
+    - title: Writing principles
+      url: /work/toolkits/content-guide/writing-principles/
+    - title: Voice and tone
+      url: /work/toolkits/content-guide/voice-and-tone/
+    - title: Writing inclusively
+      url: /work/toolkits/content-guide/writing-inclusively/
+    - title: Style elements
+      url: /work/toolkits/content-guide/style-elements/
+    - title: Web elements
+      url: /work/toolkits/content-guide/web-elements/
+    - title: URLs and filenames
+      url: /work/toolkits/content-guide/urls-and-filenames/
+    - title: Writing for marketing
+      url: /work/toolkits/content-guide/writing-for-marketing/
+    - title: Writing structured content
+      url: /work/toolkits/content-guide/writing-structured-content/
+    - title: Technical and interface writing
+      url: /work/toolkits/content-guide/technical-and-interface-writing/
+    - title: Writing for translation
+      url: /work/toolkits/content-guide/writing-for-translation/
+    - title: Writing for accessibility
+      url: /work/toolkits/content-guide/writing-for-accessibility/
+    - title: Writing legal content
+      url: /work/toolkits/content-guide/writing-legal-content/
+    - title: Copyright and trademarks
+      url: /work/toolkits/content-guide/copyright-and-trademarks/
+    - title: Word list
+      url: /work/toolkits/content-guide/word-list/
+    - title: Further reading
+      url: /work/toolkits/content-guide/further-reading/
