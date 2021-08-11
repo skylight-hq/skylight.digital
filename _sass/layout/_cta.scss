@@ -24,6 +24,12 @@
 .page-company {
   .page-subfooter {
     background-color: $sk-blue-light;
+
+    .page-subfooter-heading,
+    p,
+    a > span {
+      text-shadow: $card-box-shadow;
+    }
   }
 }
 
