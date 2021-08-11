@@ -265,7 +265,6 @@ jobs:
             $SITE_URL/work/toolkits/accessibility-guide/headings/
             $SITE_URL/work/toolkits/accessibility-guide/hidden-content/
             $SITE_URL/work/toolkits/accessibility-guide/iframeform/
-            $SITE_URL/work/toolkits/accessibility-guide/iframes/
             $SITE_URL/work/toolkits/accessibility-guide/keyboard/
             $SITE_URL/work/toolkits/accessibility-guide/landmarks/
             $SITE_URL/work/toolkits/accessibility-guide/language/
@@ -318,7 +317,7 @@ jobs:
             $SITE_URL/work/toolkits/managing-technical-debt/managing-technical-debt/
             $SITE_URL/work/toolkits/managing-technical-debt/preventing-technical-debt/
             $SITE_URL/work/toolkits/managing-technical-debt/resources/
-            $SITE_URL/work/toolkits/managing-technical-debt/what-is-technical-debt/ 
+            $SITE_URL/work/toolkits/managing-technical-debt/what-is-technical-debt/
           uploadArtifacts: false
           configPath: ./lighthouse/lighthouserc.yml
         env:
