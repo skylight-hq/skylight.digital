@@ -140,7 +140,6 @@ jobs:
             $SITE_URL/thoughts/blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
             $SITE_URL/thoughts/blog/why-government-it-professionals-need-to-do-what-the-cool-kids-are-doing/
             $SITE_URL/thoughts/blog/why-plain-language-policies-matter-telehealth-billing-and-coding-during-a-pandemic/
-            $SITE_URL/thoughts/talks/
             $SITE_URL/thoughts/talks/speaker/chris-cairns/
             $SITE_URL/thoughts/talks/speaker/geoff-mulligan/
             $SITE_URL/thoughts/talks/speaker/kin-lane/
@@ -261,10 +260,8 @@ jobs:
             $SITE_URL/work/toolkits/accessibility-guide/
             $SITE_URL/work/toolkits/accessibility-guide/alternative-versions/
             $SITE_URL/work/toolkits/accessibility-guide/checklist/
-            $SITE_URL/work/toolkits/accessibility-guide/color/
             $SITE_URL/work/toolkits/accessibility-guide/css/
             $SITE_URL/work/toolkits/accessibility-guide/flashing/
-            $SITE_URL/work/toolkits/accessibility-guide/forms/
             $SITE_URL/work/toolkits/accessibility-guide/headings/
             $SITE_URL/work/toolkits/accessibility-guide/hidden-content/
             $SITE_URL/work/toolkits/accessibility-guide/iframeform/
@@ -279,7 +276,6 @@ jobs:
             $SITE_URL/work/toolkits/accessibility-guide/tables/
             $SITE_URL/work/toolkits/accessibility-guide/timeouts/
             $SITE_URL/work/toolkits/accessibility-guide/tools/
-            $SITE_URL/work/toolkits/accessibility-guide/training-videos/
             $SITE_URL/work/toolkits/accessibility-guide/writing-guide/
             $SITE_URL/work/toolkits/agile-procurement-playbook/
             $SITE_URL/work/toolkits/agile-procurement-playbook/appendix-a-case-studies/
