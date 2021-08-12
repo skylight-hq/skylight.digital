@@ -109,7 +109,7 @@ accessibility_guide:
 
 agile_procurement_playbook:
   title: Agile Procurement Playbook
-  description: A guide on how to apply the principles of agile to procurement.
+  description: A guide on how to apply the principles of agile <br class="linebreak">to procurement.
   toc:
     - title: Introduction
       url: /work/toolkits/agile-procurement-playbook/

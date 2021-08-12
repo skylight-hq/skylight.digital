@@ -21,6 +21,18 @@
   }
 }
 
+.hero--toolkits {
+  .hero-container {
+    max-width: 580px;
+  }
+
+  .hero-content {
+    @include media-breakpoint-up(sm) {
+      margin-inline: 2.5rem;
+    }
+  }
+}
+
 [class^="page-creating-a-productive-and-collaborative-work-environment"] {
   table tbody {
     td {
