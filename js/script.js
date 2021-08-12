@@ -365,6 +365,10 @@ $(function() {
 // https://stackoverflow.com/questions/1533910/randomize-a-sequence-of-div-elements-with-jquery
 (function($) {
   $.fn.randomize = function(tree, childElem) {
+    var randOrder = window.localStorage.getItem('sortOrder') ? 
+                    window.localStorage.getItem('sortOrder').split(',') :
+                    [];
+    var sortOrder = ''
     return this.each(function() {
       var $this = $(this);
       if (tree) $this = $(this).find(tree);
@@ -372,11 +376,17 @@ $(function() {
       var elems = unsortedElems.clone();
 
       elems.sort(function() {
-        return (Math.round(Math.random()) - 0.5);
+        var next = randOrder[0] ? randOrder.shift() : Math.round(Math.random());
+        sortOrder += `${next},`; 
+        return (next - 0.5);
       });
 
-      for (var i = 0; i < elems.length; i++)
+      for (var i = 0; i < elems.length; i++){
         unsortedElems.eq(i).replaceWith(elems[i]);
+      }
+
+      sortOrder = sortOrder.substring(0, sortOrder.length - 1);
+      window.localStorage.setItem('sortOrder', sortOrder);
     });
   };
 
@@ -384,9 +394,10 @@ $(function() {
 
 $(function() {
   if (pathEndsWith("/company/about/")) {
+    var hash = window.location.hash;
+    if(!hash) window.localStorage.removeItem('sortOrder');
     $(".employees-row").randomize(undefined, "div.employee-col");
     $('[data-toggle="tooltip"]').tooltip();
-    var hash = window.location.hash;
     if(hash){
       $(hash)[0].scrollIntoView(true);
 
