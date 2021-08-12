@@ -397,5 +397,9 @@ $(function() {
 
       setTimeout( scroll, 300 );
     }
+    $(".employee-footer a").click(function(){
+      var parentID = $(this).closest( ".employee-col" ).attr('id');
+      window.location.hash = parentID;
+    })
   }
 })
