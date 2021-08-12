@@ -56,18 +56,7 @@ jobs:
             $SITE_URL/thoughts/blog/a-human-centered-approach-to-rebuilding-the-us-refugee-admission-program
             $SITE_URL/thoughts/blog/a-smarter-way-to-build-smart-cities/
             $SITE_URL/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/
-            $SITE_URL/thoughts/blog/author/abby-raskin/
-            $SITE_URL/thoughts/blog/author/ashley-treni/
             $SITE_URL/thoughts/blog/author/chris-cairns/
-            $SITE_URL/thoughts/blog/author/geoff-mulligan/
-            $SITE_URL/thoughts/blog/author/josh-dorothy/
-            $SITE_URL/thoughts/blog/author/kin-lane/
-            $SITE_URL/thoughts/blog/author/maya-benari/
-            $SITE_URL/thoughts/blog/author/nick-bristow/
-            $SITE_URL/thoughts/blog/author/ori-hoffer/
-            $SITE_URL/thoughts/blog/author/robert-read/
-            $SITE_URL/thoughts/blog/author/sean-johnson/
-            $SITE_URL/thoughts/blog/author/victoria-suwardiman/
             $SITE_URL/thoughts/blog/case-management-a-study-in-non-traditional-economics-for-government/
             $SITE_URL/thoughts/blog/containers-thinking-inside-the-box/
             $SITE_URL/thoughts/blog/five-former-presidential-innovation-fellows-and-18f-cofounders-join-skylight/
@@ -98,54 +87,13 @@ jobs:
             $SITE_URL/thoughts/blog/software-badness-quantified/
             $SITE_URL/thoughts/blog/story-of-a-darpa-proposal/
             $SITE_URL/thoughts/blog/supplement-your-team-with-specific-digital-expertise-through-our-microconsulting-services/
-            $SITE_URL/thoughts/blog/tag/abby-raskin/
-            $SITE_URL/thoughts/blog/tag/accessibility/
-            $SITE_URL/thoughts/blog/tag/apis/
-            $SITE_URL/thoughts/blog/tag/ashley-treni/
-            $SITE_URL/thoughts/blog/tag/chris-cairns/
-            $SITE_URL/thoughts/blog/tag/content/
-            $SITE_URL/thoughts/blog/tag/data/
-            $SITE_URL/thoughts/blog/tag/delivery-management/
             $SITE_URL/thoughts/blog/tag/design/
-            $SITE_URL/thoughts/blog/tag/devops/
-            $SITE_URL/thoughts/blog/tag/engineering/
-            $SITE_URL/thoughts/blog/tag/gearfit/
-            $SITE_URL/thoughts/blog/tag/geoff-mulligan/
-            $SITE_URL/thoughts/blog/tag/gianna-uson/
-            $SITE_URL/thoughts/blog/tag/internet-of-things/
-            $SITE_URL/thoughts/blog/tag/jordan-guinn/
-            $SITE_URL/thoughts/blog/tag/josh-dorothy/
-            $SITE_URL/thoughts/blog/tag/kin-lane/
-            $SITE_URL/thoughts/blog/tag/lara-kohl/
-            $SITE_URL/thoughts/blog/tag/maya-benari/
-            $SITE_URL/thoughts/blog/tag/microconsulting/
-            $SITE_URL/thoughts/blog/tag/mobile/
-            $SITE_URL/thoughts/blog/tag/modernization/
-            $SITE_URL/thoughts/blog/tag/nick-bristow/
-            $SITE_URL/thoughts/blog/tag/people-and-culture/
-            $SITE_URL/thoughts/blog/tag/procurement/
-            $SITE_URL/thoughts/blog/tag/product/
-            $SITE_URL/thoughts/blog/tag/research/
-            $SITE_URL/thoughts/blog/tag/robert-read/
-            $SITE_URL/thoughts/blog/tag/sean-johnson/
-            $SITE_URL/thoughts/blog/tag/security-and-privacy/
-            $SITE_URL/thoughts/blog/tag/service-delivery/
-            $SITE_URL/thoughts/blog/tag/simple-report/
-            $SITE_URL/thoughts/blog/tag/space-force/
-            $SITE_URL/thoughts/blog/tag/training/
-            $SITE_URL/thoughts/blog/tag/transformation/
-            $SITE_URL/thoughts/blog/tag/victoria-suwardiman/
             $SITE_URL/thoughts/blog/the-search-for-mentor-protege-relationships/
             $SITE_URL/thoughts/blog/thoughts-on-the-use-of-technical-challenges-in-government-procurements/
             $SITE_URL/thoughts/blog/unsolicited-proposal-for-a-microconsulting-services-marketplace-platform/
             $SITE_URL/thoughts/blog/why-government-it-professionals-need-to-do-what-the-cool-kids-are-doing/
             $SITE_URL/thoughts/blog/why-plain-language-policies-matter-telehealth-billing-and-coding-during-a-pandemic/
             $SITE_URL/thoughts/talks/speaker/chris-cairns/
-            $SITE_URL/thoughts/talks/speaker/geoff-mulligan/
-            $SITE_URL/thoughts/talks/speaker/kin-lane/
-            $SITE_URL/thoughts/talks/speaker/robert-read/
-            $SITE_URL/thoughts/talks/speaker/sean-johnson/
-            $SITE_URL/type/
             $SITE_URL/work/experience/
             $SITE_URL/work/experience/18f-consulting/
             $SITE_URL/work/experience/acme-devops-transformation/
@@ -195,67 +143,7 @@ jobs:
             $SITE_URL/work/services/training/
             $SITE_URL/work/services/training/ditap-executive/
             $SITE_URL/work/services/training/ditap/
-            $SITE_URL/work/team-member/abby-raskin/
-            $SITE_URL/work/team-member/adam-weber/
-            $SITE_URL/work/team-member/aera-hoffman/
-            $SITE_URL/work/team-member/alex-curtis/
-            $SITE_URL/work/team-member/amelia-wellers/
-            $SITE_URL/work/team-member/andrew-lloyd/
-            $SITE_URL/work/team-member/andrew-wagner/
-            $SITE_URL/work/team-member/ari-perez/
-            $SITE_URL/work/team-member/ashley-treni/
-            $SITE_URL/work/team-member/becca-bartola/
-            $SITE_URL/work/team-member/brandon-mader/
-            $SITE_URL/work/team-member/cailyn-hansen/
-            $SITE_URL/work/team-member/charlye-tran/
             $SITE_URL/work/team-member/chris-cairns/
-            $SITE_URL/work/team-member/chris-given/
-            $SITE_URL/work/team-member/chun-yen/
-            $SITE_URL/work/team-member/colin-craig/
-            $SITE_URL/work/team-member/derek-tam/
-            $SITE_URL/work/team-member/elisa-lee/
-            $SITE_URL/work/team-member/emma-stephenson/
-            $SITE_URL/work/team-member/eric-richards/
-            $SITE_URL/work/team-member/gabriel-ramirez/
-            $SITE_URL/work/team-member/gianna-uson/
-            $SITE_URL/work/team-member/jay-danielian/
-            $SITE_URL/work/team-member/jesse-skeets/
-            $SITE_URL/work/team-member/jordan-guinn/
-            $SITE_URL/work/team-member/josh-dorothy/
-            $SITE_URL/work/team-member/julia-hogan/
-            $SITE_URL/work/team-member/kari-hodges/
-            $SITE_URL/work/team-member/kenny-nieh/
-            $SITE_URL/work/team-member/kin-lane/
-            $SITE_URL/work/team-member/kyle-magida/
-            $SITE_URL/work/team-member/lara-kohl/
-            $SITE_URL/work/team-member/laura-kerry/
-            $SITE_URL/work/team-member/laura-king/
-            $SITE_URL/work/team-member/lesley-evans/
-            $SITE_URL/work/team-member/leslie-garner-franklin/
-            $SITE_URL/work/team-member/lucas-newman/
-            $SITE_URL/work/team-member/marvo-dolor/
-            $SITE_URL/work/team-member/maya-benari/
-            $SITE_URL/work/team-member/mical-nobel/
-            $SITE_URL/work/team-member/mitchell-sipus/
-            $SITE_URL/work/team-member/nathan-carter/
-            $SITE_URL/work/team-member/nick-bristow/
-            $SITE_URL/work/team-member/nick-clyde/
-            $SITE_URL/work/team-member/nicole-campbell/
-            $SITE_URL/work/team-member/nicole-wright/
-            $SITE_URL/work/team-member/olivia-lucas/
-            $SITE_URL/work/team-member/peggy-chau/
-            $SITE_URL/work/team-member/phoebe-espiritu/
-            $SITE_URL/work/team-member/rebecca-lubitzmarchena/
-            $SITE_URL/work/team-member/robert-read/
-            $SITE_URL/work/team-member/sean-johnson/
-            $SITE_URL/work/team-member/shashank-khandelwal/
-            $SITE_URL/work/team-member/suzanne-chapman/
-            $SITE_URL/work/team-member/taylor-curtiss/
-            $SITE_URL/work/team-member/tom-black/
-            $SITE_URL/work/team-member/tomi-obikunle/
-            $SITE_URL/work/team-member/victor-zapanta/
-            $SITE_URL/work/team-member/victoria-suwardiman/
-            $SITE_URL/work/team-member/zack-gehin/
             $SITE_URL/work/toolkits/
             $SITE_URL/work/toolkits/accessibility-guide/
             $SITE_URL/work/toolkits/accessibility-guide/alternative-versions/
