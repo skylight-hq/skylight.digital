@@ -152,3 +152,65 @@ managing_technical_debt:
       url: /work/toolkits/managing-technical-debt/preventing-technical-debt/
     - title: Additional resources
       url: /work/toolkits/managing-technical-debt/resources/
+
+service_design_framework:
+  title: Service Design Framework
+  description: A guide on how to do service design.
+  toc:
+    - title: Service design overview
+      url: /work/toolkits/service-design-framework/
+    - title: The service design toolkit
+      url: /work/toolkits/service-design-framework/the-service-design-toolkit/
+    - title: "Phase 1: Initiate"
+      url: /work/toolkits/service-design-framework/phase-1-initiate/
+    - title: "Phase 2: Discover"
+      url: /work/toolkits/service-design-framework/phase-2-discover/
+    - title: "Phase 3: Strategize"
+      url: /work/toolkits/service-design-framework/phase-3-strategize/
+    - title: "Phase 4: Experiment"
+      url: /work/toolkits/service-design-framework/phase-4-experiment/
+    - title: "Phase 5: Implement"
+      url: /work/toolkits/service-design-framework/phase-5-implement/
+    - title: "Appendix: Methods"
+      url: /work/toolkits/service-design-framework/appendix-methods/
+    - title: "Appendix: Templates"
+      url: /work/toolkits/service-design-framework/appendix-templates/
+    - title: "Appendix: Glossary"
+      url: /work/toolkits/service-design-framework/appendix-glossary/
+
+service_design_methods:
+  title: Design Methods
+  description: A collection of tools to bring human-centered design into your project.
+  toc:
+    - title: Affinity mapping
+      url: /work/toolkits/design-methods/affinity-mapping/
+    - title: Alignment/kickoff workshop
+      url: /work/toolkits/design-methods/alignment-kickoff-workshop/
+    - title: Customer journey mapping
+      url: /work/toolkits/design-methods/customer-journey-mapping/
+    - title: Desk review or secondary research
+      url: /work/toolkits/design-methods/desk-review-or-secondary-research/
+    - title: Minimum viable product (MVP)
+      url: /work/toolkits/design-methods/minimum-viable-product/
+    - title: POV statement
+      url: /work/toolkits/design-methods/pov-statement/
+    - title: Prioritization workshop
+      url: /work/toolkits/design-methods/prioritization-workshop/
+    - title: Proto-personas
+      url: /work/toolkits/design-methods/proto-personas/
+    - title: Service blueprint
+      url: /work/toolkits/design-methods/service-blueprint/
+    - title: Stakeholder and customer interviews
+      url: /work/toolkits/design-methods/stakeholder-and-customer-interviews/
+    - title: Stakeholder mapping
+      url: /work/toolkits/design-methods/stakeholder-mapping/
+    - title: Roadmap
+      url: /work/toolkits/design-methods/roadmap/
+    - title: Role-playing
+      url: /work/toolkits/design-methods/role-playing/
+    - title: Success metrics
+      url: /work/toolkits/design-methods/success-metrics/
+    - title: Wizard of Oz
+      url: /work/toolkits/design-methods/wizard-of-oz/
+    - title: User stories
+      url: /work/toolkits/design-methods/user-stories/
