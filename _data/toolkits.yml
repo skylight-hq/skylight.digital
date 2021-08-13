@@ -178,10 +178,12 @@ service_design_framework:
     - title: "Appendix: Glossary"
       url: /work/toolkits/service-design-framework/appendix-glossary/
 
-service_design_methods:
+design_methods:
   title: Design Methods
   description: A collection of tools to bring human-centered design into your project.
   toc:
+    - title: Introduction
+      url: /work/toolkits/design-methods/
     - title: Affinity mapping
       url: /work/toolkits/design-methods/affinity-mapping/
     - title: Alignment/kickoff workshop
