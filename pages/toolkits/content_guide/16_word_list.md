@@ -9,7 +9,7 @@ content_type: Toolkit
 toolkit_name: content-guide
 ---
 
-# **Word list**
+# Word list
 
 Below are rules for how we use common words and phrases. The bold term shows the accepted form (capitalization, hyphenation, punctuation), with accompanying text explaining usage.
 
