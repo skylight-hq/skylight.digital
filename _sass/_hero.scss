@@ -28,12 +28,13 @@
 
 .hero-heading {
   color: $white;
+  font-size: $font-size-xxx-large;
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
   margin-bottom: 0;
 
   @include media-breakpoint-up(sm) {
-    font-size: $font-size-h2;
+    font-size: $font-size-xxxx-large;
   }
 }
 
@@ -114,14 +115,6 @@
     animation: herofadein 1s;
   }
 
-  .hero-heading {
-    font-size: $font-size-xxx-large;
-
-    &.text-ink {
-      text-shadow: none;
-    }
-  }
-
   .hero-content {
     font-size: $font-size-medium;
     margin-top: 1rem;
@@ -171,6 +164,15 @@
   .page-connect {
     .hero-banner {
       background-image: url(/img/hero-mobile-connect.svg);
+    }
+  }
+}
+
+.page-company {
+  .hero-banner {
+    .hero-heading,
+    .hero-content p {
+      text-shadow: $card-box-shadow;
     }
   }
 }

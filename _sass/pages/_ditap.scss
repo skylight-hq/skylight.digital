@@ -8,6 +8,13 @@
     }
   }
 
+  // Kepp old font size until design review
+  .hero-heading {
+    font-size: 2rem;
+  }
+}
+
+.page-offering {
   .hero-container {
     height: auto;
     max-width: 1140px;
@@ -270,7 +277,7 @@ $outline-light: 2px solid #f2f2f2;
   }
 
   span {
-    color: $blue-100-a;
+    color: $blue-200;
     padding: 4px 12px;
     letter-spacing: 0.05em;
     position: relative;
