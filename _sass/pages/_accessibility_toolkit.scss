@@ -140,7 +140,8 @@
 
 .highlighter-rouge {
   &.language-html,
-  &.language-css {
+  &.language-css,
+  &.language-js {
     border: 1px solid $gray-lightest;
     border-radius: 3px !important;
     margin-bottom: 1rem;
