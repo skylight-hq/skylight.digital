@@ -45,7 +45,7 @@ We write with a person-first perspective. Being aware of the impact of your lang
 * Avoid gendered language and use the singular “they.”
 * When writing about a person, use their preferred pronouns; if you don’t know those, just use their name.
 
-Related resource: The[ Conscious Style Guide](http://consciousstyleguide.com/).
+Related resource: The [Conscious Style Guide](http://consciousstyleguide.com/).
 
 
 ## Style elements
