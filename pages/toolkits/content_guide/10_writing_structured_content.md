@@ -72,7 +72,7 @@ Here are a few things to keep in mind when you’re developing style guides:
 
 **Respect the partner’s existing style.** Assume that your partner has a style guide and ask about it.
 
-* If they don’t have a style guide, start with[ AP](https://www.apstylebook.com/) since we’re most familiar with it and many of our partners use it.
+* If they don’t have a style guide, start with [AP](https://www.apstylebook.com/) since we’re most familiar with it and many of our partners use it.
 * If any of the existing style guidelines inhibit clarity or usability, talk with the partner about it, backing up your recommendations with insights from user research.
 
 **Keep it brief.** Don’t try to document every possible grammatical or style issue. Keep your guide short and sweet so it’s easy for people to reference. Most of our guides include:

@@ -11,7 +11,7 @@ toolkit_name: content-guide
 
 # Further reading
 
-We adapted this guide from[ Mailchimp](https://www.gov.uk/guidance/content-design) and [18F](https://content-guide.18f.gov/), and we’d like to thank their content teams for championing plain language and information accessibility. We generally follow[ AP style](https://www.apstylebook.com/) unless otherwise noted.
+We adapted this guide from [Mailchimp](https://www.gov.uk/guidance/content-design) and [18F](https://content-guide.18f.gov/), and we’d like to thank their content teams for championing plain language and information accessibility. We generally follow [AP style](https://www.apstylebook.com/) unless otherwise noted.
 
 We encourage you to make a copy of this guide and adapt it to your organizational needs. If a certain section isn’t relevant to you and your team, delete it. And if you feel the guide is missing a section, by all means, add it. This guide is yours to use, and we trust you’ll update it in the ways that best suit you. All we ask is that you credit Skylight.
 

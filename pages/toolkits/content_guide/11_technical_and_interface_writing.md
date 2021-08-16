@@ -62,7 +62,7 @@ In the first example, `legend` is an HTML element and should be styled as code. 
 
 Do not capitalize code elements, even at the start of a sentence, unless the term is capitalized in the code itself.
 
-Use[ fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) for multi-line code snippets, and specify the language to enable[ syntax highlighting on GitHub](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting):
+Use [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) for multi-line code snippets, and specify the language to enable [syntax highlighting on GitHub](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting):
 
 In JavaScript, to get the current value of a `select` element with an `id` of `mySelect`, use this:
 
@@ -72,7 +72,7 @@ var value = el.options[el.selectedIndex].value;
 ```
 
 <br>
-Use[ straight quotes](http://smartquotesforsmartpeople.com/) within code blocks rather than curly (or smart) quotes.
+Use [straight quotes](http://smartquotesforsmartpeople.com/) within code blocks rather than curly (or smart) quotes.
 
 
 #### Code-like elements
@@ -96,7 +96,7 @@ Use clear verbs to tell readers how to interact with interface elements:
 
 ### Tables
 
-Tables are generally suitable only for data: two or more “objects” (rows) that share two or more “values” (columns). In tables, column widths are the same for all rows, which can make them easier to scan visually. Tables are[ easily navigable for sightless users](http://webaim.org/techniques/tables/) so long as the content is organized in a logical way.
+Tables are generally suitable only for data: two or more “objects” (rows) that share two or more “values” (columns). In tables, column widths are the same for all rows, which can make them easier to scan visually. Tables are [easily navigable for sightless users](http://webaim.org/techniques/tables/) so long as the content is organized in a logical way.
 
 
 ### Links and additional resources

@@ -213,7 +213,7 @@ Specify time zones when writing about an event or something else people would ne
 * Mountain time: MT
 * Pacific time: PT
 
-When referring to international time zones, spell them out: Nepal Standard Time, Australian Eastern Time. If a time zone does not have a set name, use its[ Coordinated Universal Time (UTC) offset](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets).
+When referring to international time zones, spell them out: Nepal Standard Time, Australian Eastern Time. If a time zone does not have a set name, use its [Coordinated Universal Time (UTC) offset](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets).
 
 Abbreviate decades when referring to those within the past 100 years.
 
