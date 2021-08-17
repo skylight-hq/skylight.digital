@@ -64,7 +64,7 @@ Emphasizes a particular quote separate from the main text. Features a blue backg
 
 Accentuates a longer quote (four lines or more). Block quotes are indented from the main text, but remain integrated within it.
 
-> “This is a blockquote.”
+> “One problem with technical debt is that the impact can be slow-growing and somewhat hidden. To the question ‘fix the technical debt, or build new features’ we know how it’s usually answered. As it gets worse, customers complain about slow delivery, increasing the pressure to take more shortcuts, which increases the technical debt, which slows the delivery process, which increases customer dissatisfaction, in a rapidly spiraling vicious cycle.”
 
 
 #### Note
@@ -83,7 +83,7 @@ This is a “tip” callout.
 {: .callout--tip }
 
 
-#### News/Case study
+#### News / Case study
 
 Highlights additional content that’s separate from the substance of the main text (e.g., links to news articles, case studies). Features a light gray box with a blue border.
 
@@ -135,7 +135,7 @@ Headings and subheadings organize content for readers. They should include the m
 
 Headings and subheadings are written in sentence case. Avoid using end punctuation except for question marks or when a heading is two or more sentences.
 
-Organize headings and subheadings hierarchically, with headings first, followed by subheadings in order. (An H2 will nestle under H1, an H3 under H2, and on down.) Avoid skipping heading levels (for example, don’t start with an H3 — use CSS if you want a small H2.
+Organize headings and subheadings hierarchically, with headings first, followed by subheadings in order. (An H2 will nestle under H1, an H3 under H2, and on down.) Avoid skipping heading levels (for example, don’t start with an H3 — use CSS if you want a small H2).
 
 * Headings (H1) give people a taste of what they’re about to read. Use them for page and blog titles.
 * Subheadings (H2, H3, etc.) break articles into smaller, more specific sections. They give readers avenues into your content and make it more scannable.
@@ -150,25 +150,29 @@ For example, you should prioritize line length in the sentence: “I adopted a d
 #### Yes
 I adopted a dog, a cat,<br>
 three mice, and a goldfish.
+{: .example }
 
 #### No
 I adopted a dog,<br>
 a cat, three mice, and a goldfish
+{: .example }
 
 However, you should prioritize meaning in the sentence: “I can speak ten modern Romance languages and read Latin pretty well.”
 
 #### Yes
 I can speak ten modern Romance languages<br>
 and read Latin pretty well.
+{: .example }
 
 #### No
 I can speak ten modern Romance<br>
 languages and read Latin pretty well.
+{: .example }
 
 
 ### Line length
 
-Figuring out the right line length comes down to balancing aesthetics and readability. Somewhere between 45 and 90 characters per line is broadly considered to be a readable line length, with 66 characters considered a comfortable target for long texts.
+Figuring out the right line length comes down to balancing aesthetics and readability. Somewhere between 45 and 90 characters per line is broadly considered to be a readable line length, with 66 characters being a comfortable target for long texts.
 
 In general, longer line lengths are better suited for cases when the information will likely be scanned, while shorter line lengths are more appropropriate when the information is meant to be read thoroughly and contains a call to action.
 
