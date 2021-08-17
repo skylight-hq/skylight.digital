@@ -79,8 +79,8 @@ We use title case only in certain circumstances:
 In all other instances, we use sentence case. This includes headings and subheadings. Other capitalization guidelines:
 
 * Do capitalize proper nouns, including names of individuals, places, and agencies. The main feature of a proper noun is that it names a specific one-of-a-kind item. Use your discretion and context to determine whether to capitalize a word as a proper noun.
-* Don’t capitalize “agile,” unless it is the first word of a sentence.
-* Don’t capitalize “open source,” unless it is the first word of a sentence.
+* Don’t capitalize “agile,” unless it's the first word of a sentence.
+* Don’t capitalize “open source,” unless it's the first word of a sentence.
 * Don’t capitalize “federal” or “government.”
 
 For more, see the [word list](/work/toolkits/content-guide/word-list/).
@@ -206,7 +206,7 @@ Use an en dash between times to indicate a time period.
 
 * 7 am–10:30 pm
 
-Specify time zones when writing about an event or something else people would need to schedule. There is no need to specify whether it is Daylight or Standard time. Abbreviate time zones within the continental United States as follows:
+Specify time zones when writing about an event or something else people would need to schedule. There's no need to specify whether it's Daylight or Standard time. Abbreviate time zones within the continental United States as follows:
 
 * Eastern time: ET
 * Central time: CT
@@ -230,7 +230,7 @@ When referring to decades more than 100 years ago, be more specific:
 
 ### Ampersands
 
-Use ampersands only if it is convention or if it is part of a company or brand name.
+Use ampersands only if it's convention or if it's part of a company or brand name.
 
 * Company: Ben & Jerry’s, AT&T
 * Convention: DE&I, R&D
@@ -292,7 +292,7 @@ Use an em dash (—) with a space on either side of the dash.
 
 Use a true em dash, not hyphens (- or --).
 
-* We emphasize open, digital record keeping, and — whenever possible — we illuminate our processes
+* We emphasize open, digital record keeping, and — whenever possible — we illuminate our processes.
 * Austin thought Brad was the donut thief, but he was wrong — it was Lain.
 
 To add an em dash, input “shift-option-[hyphen]” on Mac or “alt-fn-mjij” on PC. You can also insert it as a special character on Google Docs.
@@ -366,7 +366,7 @@ If required in the body of the text, avoid spaces before or after slashes.
 In titles, subheadings, tables, and interface labels, add a space before and after the slash. We do this to promote ease of reading and scannability.
 
 * Yes: JavaScript / React
-* No: JavaScript React
+* No: JavaScript/React
 
 
 ## People, places, and things
@@ -451,7 +451,7 @@ Use italics to indicate the title of a long work (like a book, movie, or album) 
 * _Jurassic Park_
 * Brandon _really_ loves _Jurassic Park_.
 
-Left-align text, never center or right-aligned.
+Left-align text, never center or right-align.
 
 Leave one space between sentences, never two.
 
