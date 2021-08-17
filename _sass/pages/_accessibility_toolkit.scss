@@ -80,6 +80,12 @@
 
 }
 
+.page-work-toolkits-accessibility-guide-color {
+  .example + p {
+    margin-bottom: 2em;
+  }
+}
+
 .callout--example,
 .example {
   margin-top: 1em;
@@ -88,10 +94,6 @@
   padding: 1rem;
   border: 1px solid $gray-lightest;
   border-radius: 3px;
-
-  + p {
-    margin-bottom: 2em;
-  }
 
   .form-group {
     label {
