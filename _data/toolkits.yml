@@ -155,7 +155,7 @@ managing_technical_debt:
 
 content_guide:
   title: Content Guide
-  description: A guide on how to write clear, accessible, and <br class="linebreak">consistent content at Skylight.
+  description: A guide on how to write clear, consistent, and <br class="linebreak">accessible content at Skylight.
   toc:
     - title: About this guide
       url: /work/toolkits/content-guide/
