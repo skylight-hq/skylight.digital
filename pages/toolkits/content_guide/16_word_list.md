@@ -19,7 +19,7 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## A
 
-**ages**, avoid hyphens in ages unless it clarifies the text. For example, “a group of 10 18-year-old White House tourists.”
+**ages,** avoid hyphens in ages unless it clarifies the text. For example, “a group of 10 18-year-old White House tourists.”
 
 **agile,** don’t capitalize agile, unless it is the first word of a sentence.
 
@@ -30,9 +30,9 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## B
 
-**back end**, when used as a noun.
+**back end,** when used as a noun.
 
-**back-end**, when used as an adjective. For example, “back-end development.”
+**back-end,** when used as an adjective. For example, “back-end development.”
 
 
 ## C
@@ -44,7 +44,7 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## D
 
-**DC**, not D.C.
+**DC,** not D.C.
 
 **decision-maker/decision-making**
 
@@ -59,42 +59,42 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## E
 
-**email**, not e-mail
+**email,** not e-mail
 
 **executive branch**
 
-**e.g.**, abbreviation for “exempli gratia.” If using, don’t end the sentence with “etc.”
+**e.g.,** abbreviation for “exempli gratia.” If using, don’t end the sentence with “etc.”
 
-**etc.**, abbreviation for etcetera. Don’t use it redundantly. If you are starting a list with “for example,” you don’t need to add etc. to the end of the sentence.
+**etc.,** abbreviation for etcetera. Don’t use it redundantly. If you are starting a list with “for example,” you don’t need to add etc. to the end of the sentence.
 
 **ex.** abbreviation for “example.” If using, don’t end the sentence with “etc.”
 
 
 ## F
 
-**federal**, unless part of a proper noun. For example, “Federal Bureau of Investigation.”
+**federal,** unless part of a proper noun. For example, “Federal Bureau of Investigation.”
 
-**federal government**, not Federal Government or Federal government.
+**federal government,** not Federal Government or Federal government.
 
 **fiscal year** is lowercase. It’s okay to abbreviate as FY on the second reference.
 
-**front end**, when used as a noun.
+**front end,** when used as a noun.
 
-**front-end**, when used as an adjective. For example, “front-end developer.”
+**front-end,** when used as an adjective. For example, “front-end developer.”
 
 
 ## G
 
 **GitHub**
 
-**government**, unless part of a proper noun. For example, “Government Printing Office.”
+**government,** unless part of a proper noun. For example, “Government Printing Office.”
 
 
 ## H
 
 **homepage**
 
-**human-centered design**, often used interchangeably with user-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
+**human-centered design,** often used interchangeably with user-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
 
 
 ## I
@@ -132,7 +132,7 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **online,** don’t capitalize unless it begins a sentence.
 
-**open source**, open source software
+**open source,** open source software
 
 
 ## P
@@ -169,17 +169,17 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## U
 
-**United States government** or **U.S. government**, not U.S. Government
+**United States government** or **U.S. government,** not U.S. Government
 
 URLs should be lowercase, even when they appear at the start of a sentence. For example, “notalone.gov launched today.”
 
-**U.S.**, not US or USA.
+**U.S.,** not US or USA.
 
-**user-centered design**, often used interchangeably with human-centered design. We prefer user-centered design to emphasize our focus on those those who are _using_ a service/product (rather than those making it or humans in general)
+**user-centered design,** often used interchangeably with human-centered design. We prefer user-centered design to emphasize our focus on those those who are _using_ a service/product (rather than those making it or humans in general)
 
 **U.S. Web Design System** on first use and **Design System** on subsequent references
 
 
 ## W
 
-**WiFi**, not Wi-Fi
+**WiFi,** not Wi-Fi
