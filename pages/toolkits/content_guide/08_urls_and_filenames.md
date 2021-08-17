@@ -126,19 +126,19 @@ Lowercase is better, because it’s easier to type and to remember.
 
 Use the right extension — PDFs should have .pdf at the end, JPGs should have .jpg at the end, etc.
 
-Shorter is better, but the content should be descriptive to the user, and it’s better to have long descriptive filenames than short obscure ones. summary-of-pay-gap-findings.pdf is better than paygap.pdf or smmrypgpfnds.pdf.
+Shorter is better, but the content should be descriptive to the user, and it’s better to have long descriptive filenames than short obscure ones (for example, summary-of-pay-gap-findings.pdf is better than paygap.pdf or smmrypgpfnds.pdf).
 
-Avoid the use of special characters beyond the hyphen and period, unless absolutely necessary. Do not include spaces (use hyphens in their place).
+Avoid the use of special characters beyond the hyphen and period, unless absolutely necessary. Don't include spaces (use hyphens in their place).
 
 
 ## Presenting URLs and filenames in text
 
 Whether beginning with the protocol or not, always lowercase URLs in text. Paths are case-sensitive, however, so their casing must be preserved.
 
-In interactive contexts, particularly web pages, URLs (except when used as examples, as throughout this document) should always be active links. When they’re active links, do not include the protocol in the link text.
+In interactive contexts, particularly web pages, URLs (except when used as examples, as throughout this document) should always be active links. When they’re active links, don't include the protocol in the link text.
 
 In non-interactive contexts, such as print, the protocol can be omitted, assuming http:// and https:// both work and bring the user to the same place.
 
-There are occasions where URLs should be delimited; use &lt; and > for this. This is not normally necessary in interactive contexts where the link is clearly defined, but is most often relevant in email, where the writer may have to guess at what their email program will turn into a link. This is particularly true when URL contains spaces.
+There are occasions where URLs should be delimited — use &lt; and > for this. This isn't normally necessary in interactive contexts where the link is clearly defined, but is most often relevant in email, where the writer may have to guess at what their email program will turn into a link. This is particularly true when the URL contains spaces.
 
-Filenames are case-sensitive, and their case should be preserved when they are referred to in text; do not capitalize if beginning a sentence with a filename that begins with a lowercase letter. Filenames may need to be delimited in the same way as URLs.
+Filenames are case-sensitive, and their case should be preserved when they're referred to in text. Don't capitalize if beginning a sentence with a filename that begins with a lowercase letter. Filenames may need to be delimited in the same way as URLs.
