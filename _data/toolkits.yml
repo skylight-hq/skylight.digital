@@ -140,7 +140,7 @@ agile_procurement_playbook:
 
 managing_technical_debt:
   title: Managing Technical Debt Guide
-  description: A guide on how to manage technical debt in software development projects.
+  description: A guide on how to manage technical debt <br class="linebreak">in software development projects.
   toc:
     - title: Introduction
       url: /work/toolkits/managing-technical-debt/
