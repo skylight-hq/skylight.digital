@@ -1,6 +1,9 @@
-.toolkit-item {
-  border: 1px solid $gray-lightest;
-  border-bottom: 4px solid $brand-primary-light;
+.page-toolkits {
+  .card-text {
+    .linebreak {
+      display: none;
+    }
+  }
 }
 
 .page--toolkit {
