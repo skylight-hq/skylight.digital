@@ -155,7 +155,7 @@ managing_technical_debt:
 
 service_design_framework:
   title: Service Design Framework
-  description: A guide on how to do service design.
+  description: Guidelines and tools for creating optimal experiences for both users and your organization.
   toc:
     - title: Service design overview
       url: /work/toolkits/service-design-framework/
