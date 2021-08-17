@@ -46,6 +46,7 @@ We write with a person-first perspective. Being aware of the impact of your lang
 * When writing about a person, use their preferred pronouns; if you don’t know those, just use their name.
 
 Related resource: The [Conscious Style Guide](http://consciousstyleguide.com/).
+{: .callout--note }
 
 
 ## Style elements
