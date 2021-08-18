@@ -13,7 +13,7 @@ toolkit_name: content-guide
 
 We adapted this guide from [Mailchimp](https://www.gov.uk/guidance/content-design) and [18F](https://content-guide.18f.gov/), and we’d like to thank their content teams for championing plain language and information accessibility. We generally follow [AP style](https://www.apstylebook.com/) unless otherwise noted.
 
-{% capture resources %}
+<div class="callout--note" markdown="1">
 If you’re working on your own style guide, these resources were helpful to us:
 - [Accessibility Cheatsheet](http://bitsofco.de/2015/the-accessibility-cheatsheet/)
 - [18F Accessibility Guide](https://18f.github.io/accessibility/index.html)
@@ -22,9 +22,4 @@ If you’re working on your own style guide, these resources were helpful to us:
 - [WAVE Web Accessibility Evaluation Tool](http://wave.webaim.org/)
 - [The Conscious Style Guide](http://consciousstyleguide.com/)
 - [GLAAD Media Reference Guide](http://www.glaad.org/reference)
-{% endcapture %}
-
-<div class="callout--note">
-{{ resources | markdownify }}
 </div>
-

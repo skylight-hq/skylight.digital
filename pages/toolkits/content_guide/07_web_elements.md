@@ -147,7 +147,7 @@ When inserting a line break, you’ll want to maintain a balance between appropr
 
 For example, you should prioritize line length in the sentence: “I adopted a dog, a cat, three mice, and a goldfish.”
 
-{% capture linebreak-example-1 %}
+<div class="example" markdown="1">
 #### Yes
 I adopted a dog, a cat,<br>
 three mice, and a goldfish.
@@ -155,15 +155,11 @@ three mice, and a goldfish.
 #### No
 I adopted a dog,<br>
 a cat, three mice, and a goldfish
-{% endcapture %}
-
-<div class="example">
-{{ linebreak-example-1 | markdownify }}
 </div>
 
 However, you should prioritize meaning in the sentence: “I can speak ten modern Romance languages and read Latin pretty well.”
 
-{% capture linebreak-example-2 %}
+<div class="example" markdown="1">
 #### Yes
 I can speak ten modern Romance languages<br>
 and read Latin pretty well.
@@ -171,10 +167,6 @@ and read Latin pretty well.
 #### No
 I can speak ten modern Romance<br>
 languages and read Latin pretty well.
-{% endcapture %}
-
-<div class="example">
-{{ linebreak-example-2 | markdownify }}
 </div>
 
 ### Line length
