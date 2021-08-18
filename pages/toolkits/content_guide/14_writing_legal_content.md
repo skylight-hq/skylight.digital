@@ -13,7 +13,7 @@ toolkit_name: content-guide
 
 This section gives a general overview of the legal content we publish and how those documents are written.
 
-For information about laws that apply to non-legal content, see the [copyright and trademark](/work/toolkits/content-guide/copyright-and-trademarks/) section.
+For information about laws that apply to non-legal content, see the [copyright and trademarks](/work/toolkits/content-guide/copyright-and-trademarks/) section.
 
 
 ## Basics
@@ -52,7 +52,7 @@ Some companies have complicated terms and write plain-language summaries so peop
 
 Using plain language for the terms you define up front can make legal documents easier to read. You’ve probably read contracts that say something like “The Corporation” or “The Client” throughout, instead of “we” (meaning the company) and “you” (meaning the client who is agreeing to the terms). There’s a quick fix for that. At the beginning of the document, say something like:
 
-* Skylight is owned and operated by Skylight Digital, LLC (“Skylight,” “we,” or “us”). As a user of the Service or a representative of an entity that’s a user of the Service, you're a “Client” according to this agreement (or “you”).
+* Skylight is owned and operated by Skylight Inc. (“Skylight,” “we,” or “us”). As a user of the Service or a representative of an entity that’s a user of the Service, you're a “Client” according to this agreement (or “you”).
 
 After that, you’re free to use “we,” “us,” “you,” and “your” throughout the rest of the agreement. That simple change makes the document much friendlier to read.
 
