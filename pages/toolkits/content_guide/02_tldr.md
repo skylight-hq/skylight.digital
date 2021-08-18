@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: TL;DR | Skylight Content Guide
-description: A guide on how to write clear, accessible, and user-friendly content at Skylight.
+description: The most important takeaways from the content guide.
 tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/tldr/
 sidenav: content_guide
