@@ -31,11 +31,7 @@ After you’ve collected data about your service, it’s time to hone in on wher
 
 Artifacts like the blueprint and customer journey map can also help facilitate conversations around findings and gain alignment around possible solutions. Consider the organization where you’re working and how the people within it best consume information. Aim to create and socialize documents that stakeholders rely on and revisit throughout the process, contributing to a shared language around a service and the humans on the other side of it.
 
-These artifacts set the stage for the main activity during this phase: brainstorming solution ideas and starting to hone in on the best path forward. Solutions can range from product updates to an entire system redesign, which can make them challenging to compare and choose. Focusing on project objectives and weighing which ideas provide the most value can help you prioritize solutions alongside project stakeholders. Activities such as the Impact/Feasibility Matrix can help you prioritize during a
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "prioritization workshop"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[prioritization workshop](#heading=h.rj4wgebo10ru).
+These artifacts set the stage for the main activity during this phase: brainstorming solution ideas and starting to hone in on the best path forward. Solutions can range from product updates to an entire system redesign, which can make them challenging to compare and choose. Focusing on project objectives and weighing which ideas provide the most value can help you prioritize solutions alongside project stakeholders. Activities such as the Impact/Feasibility Matrix can help you prioritize during a [prioritization workshop](/work/toolkits/service-design-framework/methods/prioritization-workshop/).
 
 Before moving on from this phase, you should narrow down and expand on opportunity ideas. These will form the concepts that you prototype in the next phase.
 

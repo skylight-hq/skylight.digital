@@ -38,21 +38,13 @@ With so many moving parts, it can help to think about Implement in three distinc
 
 
 * **Plan \
-**Starting as early as the Strategize phase, begin to consider how solutions will require staff to change their processes and functions. Also prepare for how the organization will need to change as a whole. Develop champions for proposed solutions by bringing leadership and staff into the planning process as soon as possible. Methods such as a
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "roadmap"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[roadmap](#heading=h.q2xy2r8xmxlw) can help you gain alignment with stakeholders. Note: You may want to create a roadmap earlier in the process, but you will focus on refining it and gaining alignment around it during this phase. \
+**Starting as early as the Strategize phase, begin to consider how solutions will require staff to change their processes and functions. Also prepare for how the organization will need to change as a whole. Develop champions for proposed solutions by bringing leadership and staff into the planning process as soon as possible. Methods such as a [roadmap](/work/toolkits/service-design-framework/methods/roadmap/) can help you gain alignment with stakeholders. Note: You may want to create a roadmap earlier in the process, but you will focus on refining it and gaining alignment around it during this phase. \
 
 * **Rollout \
 **It’s time to put a solution in action. Similar to software releases, it can be helpful to think about rolling out solutions in phases — alpha, beta, and final deployment. This approach allows you to test, refine, and acclimate stakeholders to solutions before full implementation.  \
 
 * **Measure and iterate \
-**Before you fully implement a solution, determine what success looks like. Keep track of
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "success metrics"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[success metrics](#heading=h.muvum4o4vi7x) and KPIs (key performance indicators) and compare them to results going forward. Examples of metrics include customers' net promoter scores (NPS) or the time it takes for employees to complete tasks. By keeping track of metrics, you can not only continue to refine solutions, but also show the impact of your service design work.
+**Before you fully implement a solution, determine what success looks like. Keep track of [success metrics](/work/toolkits/service-design-framework/methods/success-metrics/) and KPIs (key performance indicators) and compare them to results going forward. Examples of metrics include customers' net promoter scores (NPS) or the time it takes for employees to complete tasks. By keeping track of metrics, you can not only continue to refine solutions, but also show the impact of your service design work.
 
 
 ## Case study: Putting it all together

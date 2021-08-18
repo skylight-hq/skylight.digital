@@ -31,11 +31,7 @@ Once you’ve honed in on some concepts, the methods in this phase help you test
 
 To test ideas, use prototyping — putting ideas into some kind of tangible forms to experiment with. You can prototype in many different ways, with many different levels of polish (called fidelity). A team’s skills, timelines, and needs all influence which type of prototyping method you should use.
 
-In general, start with the least expensive and lowest fidelity — such as
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "role-playing"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[role-playing](#heading=h.ha1hn7yu9k0) — and test early and often. Schedule a few rounds of testing to enable the refinement of your concept. Between rounds, reflect on and incorporate your learnings.
+In general, start with the least expensive and lowest fidelity — such as [role-playing](/work/toolkits/service-design-framework/methods/role-playing/) — and test early and often. Schedule a few rounds of testing to enable the refinement of your concept. Between rounds, reflect on and incorporate your learnings.
 
 By the end of the Experiment phase, you should end up with a refined solution. Your experiments may also reveal that you need to revisit the research and problem space, refining the POV before you can refine the right solution.
 

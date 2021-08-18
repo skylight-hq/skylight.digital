@@ -17,190 +17,122 @@ The methods below are organized by phase. Visit each one to find a detailed desc
 
 ## Initiate
 
-
 ### Alignment/kickoff workshop
 
 During these workshops, align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
 
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about alignment/kickoff workshops →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about alignment/kickoff workshops →](#heading=h.pa9cvmd247j4)
+[Read about alignment/kickoff workshops →](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
 
 
 ### Proto-personas
 
 Quickly build a lightweight representation of your customers to develop empathy and foster a common understanding of needs and goals.
 
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about proto-personas →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about proto-personas →](#heading=h.s8u0f5jk9aoj)
+[Read about proto-personas →](/work/toolkits/service-design-framework/methods/proto-personas/)
 
 
 ### Stakeholder mapping
 
 Create a visual representation of all the people who can influence a project and how they’re connected. This can help get buy-in from and include the right people during the service design process.
 
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about stakeholder mapping →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about stakeholder mapping →](#heading=h.wo8n2sngaoon)
+[Read about stakeholder mapping →](/work/toolkits/service-design-framework/methods/stakeholder-mapping/)
 
 
 ## Discover
-
 
 ### Stakeholder and customer interviews
 
 Talk with the people that the project outcomes will impact or who have a stake in the success of the project. This can inform solutions, build trust, and drive alignment.
 
-
-####
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about stakeholder interviews →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about stakeholder interviews →](#heading=h.v3ocqehrng1g)
+[Read about stakeholder interviews →](/work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/)
 
 
 ### Desk review or secondary research
 
 Compile and review information related to the project. This can include documentation from the existing service and articles related to the user population and problem space.
 
-
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about desk review and secondary research →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about desk review and secondary research →](#heading=h.f7jhucizmqlv)
+[Read about desk review and secondary research →](/work/toolkits/service-design-framework/methods/desk-review-or-secondary-research/)
 
 
 ### Affinity mapping {#affinity-mapping}
 
 Engage your team and relevant stakeholders to collaboratively synthesize research findings. Turn data into actionable insights that help inform the next stages of the process.
 
-[Read about ecosystem diagrams →](#affinity-mapping)
+[Read about ecosystem diagrams →](/work/toolkits/service-design-framework/methods/affinity-mapping/)
 
 
 ### Customer journey mapping
 
 Visualize how a customer interacts with a service to get a holistic view of their experience. This provides a better understanding of the customer and surfaces opportunities for improvements.
 
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about customer journey mapping →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about customer journey mapping →](#heading=h.tv93x34ki6xu)
+[Read about customer journey mapping →](/work/toolkits/service-design-framework/methods/customer-journey-mapping/)
 
 
 ### Service blueprint
 
 Better understand a service and how you can improve it by visualizing the many pieces that work — or don’t work — together to create it. Include people, the tools they use, and their processes.
 
-
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about service blueprints →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about service blueprints →](#heading=h.karb5afykbnq)
+[Read about service blueprints →](/work/toolkits/service-design-framework/methods/service-blueprint/)
 
 
 ## Strategize
 
-
 ### Prioritization workshops
 
+Align your team and stakeholders on which solutions to pursue based on factors such as value to customers and organizational lift.
 
-### Align your team and stakeholders on which solutions to pursue based on factors such as value to customers and organizational lift.
-
-
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about prioritization workshops → "). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about prioritization workshops → ](#heading=h.tzjr5i8s05y)
+[Read about prioritization workshops → ](/work/toolkits/service-design-framework/methods/prioritization-workshop/)
 
 
 ### POV (point of view) statement
 
 Articulate who your customers are, their needs, and important insights about them. Use this statement to gain a deeper understanding of the problem space and start developing solutions.
 
-
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about POV statements → "). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about POV statements → ](#heading=h.knzjrt2rqabn)
+[Read about POV statements → ](/work/toolkits/service-design-framework/methods/pov-statement/)
 
 
 ## Experiment
-
 
 ### Role playing
 
 Act out a service to understand the key elements you should consider in designing a solution.
 
-
-####
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about role playing →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about role playing →](#heading=h.ha1hn7yu9k0)
+[Read about role playing →](/work/toolkits/service-design-framework/methods/role-playing/)
 
 
 ### Wizard of Oz
 
 Get responses to a working prototype without investing in making one. Create responses behind-the-scenes to user interactions to test functionality.
 
-
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about Wizard of Oz → "). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about Wizard of Oz → ](#heading=h.xlwccbebgi42)
+[Read about Wizard of Oz → ](/work/toolkits/service-design-framework/methods/wizard-of-oz/)
 
 
 ## Implement
-
 
 ### Minimum viable product (MVP)
 
 An MVP is the first iteration of a product that you deploy to market. This should be the simplest product that still solves customer and organizational needs.
 
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about minimum viable products →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about minimum viable products →](#heading=h.e47clttgmax5)
+[Read about minimum viable products →](/work/toolkits/service-design-framework/methods/minimum-viable-product/)
 
 
 ### Roadmap
 
 This exercise can help you gain alignment across the team and stakeholders. It creates a shared understanding of a goal and the steps you need to achieve it along a timeline.
 
-
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about roadmaps →"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about roadmaps →](#heading=h.q2xy2r8xmxlw)
+[Read about roadmaps →](/work/toolkits/service-design-framework/methods/roadmap/)
 
 
 ### Success metrics
 
 Success metrics are the criteria you define to measure how well your service and its implementation meet the goals of the project.
 
-
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about success metrics → "). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about success metrics → ](#heading=h.muvum4o4vi7x)
+[Read about success metrics → ](/work/toolkits/service-design-framework/methods/success-metrics/)
 
 
 ### User stories
 
 Detail the features you’ll develop in informal, plain language descriptions of user interactions. This will keep the work user-centered and focused on the overall vision.
 
-
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Read about user stories → "). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Read about user stories → ](#heading=h.x469ufstrg2b)
+[Read about user stories → ](/work/toolkits/service-design-framework/methods/user-stories/)
 

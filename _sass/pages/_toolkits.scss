@@ -261,3 +261,9 @@ $icon-size: 2rem;
     font-size: $font-size-large;
   }
 }
+
+.callout--summary {
+  h3 {
+    font-size: $font-size-small;
+  }
+}
