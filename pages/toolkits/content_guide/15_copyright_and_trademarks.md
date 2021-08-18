@@ -16,9 +16,9 @@ Copyright is a bundle of exclusive legal rights that vary depending on the type 
 
 ## Basics
 
-Copyright protection applies to any original works that are fixed in a tangible medium. This includes works like drawings, recordings of a song, short stories, or paintings, but not something like a garden, since it will grow and change by nature. Copyright does not cover facts, ideas, names, or characters.
+Copyright protection applies to any original works that are fixed in a tangible medium. This includes works like drawings, recordings of a song, short stories, or paintings, but not something like a garden, since it will grow and change by nature. Copyright doesn't cover facts, ideas, names, or characters.
 
-Copyright protection begins when the work is first created and it doesn’t require any formal filings. However, to enforce a copyright in the US, you need to register the work with the US Copyright Office. (For further clarity, check out their [FAQ](http://www.copyright.gov/help/faq/) page, which is full of gems like [“How do I protect my sighting of Elvis?”](http://copyright.gov/help/faq/faq-protect.html#elvis))
+Copyright protection begins when the work is first created and it doesn’t require any formal filings. However, to enforce a copyright in the U.S., you need to register the work with the U.S. Copyright Office. (For further clarity, check out their [FAQ](http://www.copyright.gov/help/faq/) page, which is full of gems like [“How do I protect my sighting of Elvis?”](http://copyright.gov/help/faq/faq-protect.html#elvis))
 
 Copyright notice on the work is not required but it _is_ recommended, since it cuts off a defense of [innocent infringement](https://www.law.cornell.edu/uscode/text/17/401).
 
@@ -57,4 +57,4 @@ Instead of the standard “all rights reserved,” some creators choose to make 
 Find a breakdown of licenses on the [Creative Commons website](https://creativecommons.org/licenses/).
 {: .callout--note }
 
-Please check with Skylight’s legal team before making something you created here available under a Creative Commons license. We love to share our work, but we use these licenses sparingly, because we have to protect our intellectual property and trade secrets.
+Please check with Skylight’s legal team before making something you created here available under a Creative Commons license. We love to share our work, but we use these licenses sparingly because we have to protect our intellectual property and trade secrets.
