@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Writing for translation | Skylight Content Guide
-description: A guide on how to write clear, accessible, and user-friendly content at Skylight.
+description: How to help non-native English speakers better comprehend content.
 tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/writing-for-translation/
 sidenav: content_guide
