@@ -13,7 +13,7 @@ toolkit_name: content-guide
 
 At Skylight, we write two kinds of content: structured and unstructured. Most of our technical and public-facing documents are structured, following standardized content templates. These templates make both writing and reading easier. They also help future-proof our documents, making the work reusable outside of where it was originally published.
 
-This section highlights a few common types of structured content that we write at Skylight and offers directions on where to find relevant templates.
+This section highlights a few common types of structured content that we write at Skylight.
 
 
 ## Blog posts
@@ -23,7 +23,7 @@ The Skylight blog is a place where we share what we’ve learned, what we’ve m
 In sum, our goals are:
 
 * To share our work with the public and detail the lessons we’ve learned
-* To strengthen our relationship with customers, partners, employees, and recruits
+* To strengthen our relationship with customers, partners, employees, and prospective hires
 * To actively promote innovation in government digital services, wherever it’s happening
 
 
