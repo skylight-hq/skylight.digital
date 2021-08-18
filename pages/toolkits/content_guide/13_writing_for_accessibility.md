@@ -33,7 +33,7 @@ As you write, consider the following:
 
 Avoid directional instructions and any language that requires the reader to see the layout or design of the page. This is helpful for many reasons, including layout changes on mobile.
 
-* Yes: “Select from these options,” (with the steps listed after the title)
+* Yes: “Select from these options,” (with the steps listed after the title).
 * No: “Select from the options in the right sidebar.”
 
 
@@ -87,4 +87,4 @@ Closed captioning or transcripts should be available for all videos. The informa
 
 Aim for high contrast between your font and background colors. Tools in the resources section should help with picking accessible colors.
 
-Images should not be the only method of communication, because images may not load or may not be seen. Avoid using images when the same information could be communicated in writing.
+Images shouldn't be the only method of communication, because images may not load or may not be seen. Avoid using images when the same information could be communicated in writing.
