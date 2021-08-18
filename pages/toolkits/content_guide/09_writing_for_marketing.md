@@ -64,8 +64,8 @@ Do your best to adhere to Skylight style guidelines when you’re using Skylight
 
 When appropriate, you can tag the subject of your post on Twitter or LinkedIn. But avoid directly tweeting at or otherwise publicly tagging a post subject with messages like, “Hey, we wrote about you!” Never ask for retweets, likes, or favorites.
 
-* Yes: We teamed with @AirForceBES to help members of the flight line have an easier way to share when gear isn’t working the way it should. https://skylight.digital/work/experience/usaf-gearfit/
-* No: Hey @AirForceBES, can you RT this post we wrote about you? https://skylight.digital/work/experience/usaf-gearfit/
+* **Yes:** We teamed with @AirForceBES to help members of the flight line have an easier way to share when gear isn’t working the way it should. https://skylight.digital/work/experience/usaf-gearfit/
+* **No:** Hey @AirForceBES, can you RT this post we wrote about you? https://skylight.digital/work/experience/usaf-gearfit/
 
 
 ### Hashtags

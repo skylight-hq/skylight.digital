@@ -33,8 +33,8 @@ As you write, consider the following:
 
 Avoid directional instructions and any language that requires the reader to see the layout or design of the page. This is helpful for many reasons, including layout changes on mobile.
 
-* Yes: “Select from these options,” (with the steps listed after the title).
-* No: “Select from the options in the right sidebar.”
+* **Yes:** “Select from these options,” (with the steps listed after the title).
+* **No:** “Select from the options in the right sidebar.”
 
 
 ### Use headers
@@ -55,8 +55,8 @@ Make true lists instead of using a paragraph or line breaks.
 
 Links should provide information on the associated action or destination. Try to avoid “click here” or “learn more.”
 
-* Yes: [Register for the webinar](#0)
-* No: To register, [click here](#0)
+* **Yes:** [Register for the webinar](#0)
+* **No:** To register, [click here](#0)
 
 
 ### Use alt text

@@ -24,32 +24,32 @@ Our voice has five key qualities communicated in both what we say and how we say
 
 ### Expressive
 
-* Yes: Today's public expects their interactions with the government to be delightful, secure, and empowering.
-* No: We believe that the public today expects their interactions with the government to be one based on delight, security, and empowerment.
+* **Yes:** Today's public expects their interactions with the government to be delightful, secure, and empowering.
+* **No:** We believe that the public today expects their interactions with the government to be one based on delight, security, and empowerment.
 
 
 ### Smart
 
-* Yes: At Skylight, we combine technical and acquisition knowledge to make procurement work for you in the digital age.
-* No: Skylight makes the procurement process super simple. Not to mention fun!
+* **Yes:** At Skylight, we combine technical and acquisition knowledge to make procurement work for you in the digital age.
+* **No:** Skylight makes the procurement process super simple. Not to mention fun!
 
 
 ### Lighthearted
 
-* Yes: What brings us together is a passion for creating better outcomes for the public through great government digital services. We're basically impact junkies.
-* No: Our company creates positive impact for the public through the modernization and professionalization of government digital services.
+* **Yes:** What brings us together is a passion for creating better outcomes for the public through great government digital services. We're basically impact junkies.
+* **No:** Our company creates positive impact for the public through the modernization and professionalization of government digital services.
 
 
 ### Embracing
 
-* Yes: Giving back strengthens our communities, brings people together, provides us valuable experience, and makes us more engaged in our work.
-* No: Skylight supports employee volunteering activities if it helps them be more efficient once they are back at work.
+* **Yes:** Giving back strengthens our communities, brings people together, provides us valuable experience, and makes us more engaged in our work.
+* **No:** Skylight supports employee volunteering activities if it helps them be more efficient once they are back at work.
 
 
 ### Worldly
 
-* Yes: With our unique blend of government and commercial expertise, you can rely on us to help solve your agency's toughest digital challenges.
-* No: We’ve seen every type of digital challenge there is. In fact, we guarantee that our world-leading experts will solve your issues without breaking a sweat.
+* **Yes:** With our unique blend of government and commercial expertise, you can rely on us to help solve your agency's toughest digital challenges.
+* **No:** We’ve seen every type of digital challenge there is. In fact, we guarantee that our world-leading experts will solve your issues without breaking a sweat.
 
 
 ## Skylight’s tone
