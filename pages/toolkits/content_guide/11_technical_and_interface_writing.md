@@ -54,13 +54,12 @@ Include a short two- or three-sentence summary about the document to help the re
 
 When adding instructions to perform a task on a computer, manually adjust the font to use Roboto Mono. This formatting helps content read as a digital artifact. Examples include emails, written text, text messages, and code blocks. See below:
 
-Use the `legend` element to offer a label within each form element.
-
-Copy and paste `mkdir /home/foo/doc/bar && cd $_` into Terminal.
+* Use the `legend` element to offer a label within each form element.
+* Copy and paste `mkdir /home/foo/doc/bar && cd $_` into Terminal.
 
 In the first example, `legend` is an HTML element and should be styled as code. “Element” is a technical concept and shouldn’t be marked up as code. “Label” is both a concept and an HTML element but is used here in the former sense and should not be styled as code.
 
-Do not capitalize code elements, even at the start of a sentence, unless the term is capitalized in the code itself.
+Don't capitalize code elements, even at the start of a sentence, unless the term is capitalized in the code itself.
 
 Use [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) for multi-line code snippets, and specify the language to enable [syntax highlighting on GitHub](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting):
 
@@ -79,9 +78,8 @@ Use [straight quotes](http://smartquotesforsmartpeople.com/) within code blocks 
 
 The same rules apply to pieces of text that must be used exactly as presented, such as passwords or WiFi network names:
 
-`someCl3v3rN4me` is the name of our WiFi network.
-
-Your password is `PleaseChangeMeSoon`.
+* `someCl3v3rN4me` is the name of our WiFi network.
+* Your password is `PleaseChangeMeSoon`.
 
 
 ### Interface elements
@@ -111,4 +109,4 @@ To refer the reader to a Slack channel, follow this format:
 
 * Still have questions? Ask in #general.
 
-If your work relates to several other documents, pick the most important ones or gather the links in a section at the bottom
+If your work relates to several other documents, pick the most important ones or gather the links in a section at the bottom.
