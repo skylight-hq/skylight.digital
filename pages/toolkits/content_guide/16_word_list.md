@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Word list | Skylight Content Guide
-description: A guide on how to write clear, accessible, and user-friendly content at Skylight.
+description: Rules for using common words and phrases.
 tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/word-list/
 sidenav: content_guide
