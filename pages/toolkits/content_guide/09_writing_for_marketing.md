@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Writing for marketing | Skylight Content Guide
-description: A guide on how to write clear, accessible, and user-friendly content at Skylight.
+description: How to write content for marketing.
 tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/writing-for-marketing/
 sidenav: content_guide
