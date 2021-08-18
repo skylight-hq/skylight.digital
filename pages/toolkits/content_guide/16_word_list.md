@@ -21,11 +21,11 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **ages,** avoid hyphens in ages unless it clarifies the text. For example, “a group of 10 18-year-old White House tourists.”
 
-**agile,** don’t capitalize agile, unless it is the first word of a sentence.
+**agile,** don’t capitalize agile, unless it's the first word of a sentence.
 
 **am,** not a.m.
 
-**aka** (also known as), not a.k.a
+**aka** (also known as), not a.k.a.
 
 
 ## B
@@ -132,7 +132,7 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **online,** don’t capitalize unless it begins a sentence.
 
-**open source,** open source software
+**open source,** open source software.
 
 
 ## P
@@ -169,17 +169,15 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## U
 
-**United States government** or **U.S. government,** not U.S. Government
-
-URLs should be lowercase, even when they appear at the start of a sentence. For example, “notalone.gov launched today.”
+**United States government** or **U.S. government,** not U.S. Government.
 
 **U.S.,** not US or USA.
 
-**user-centered design,** often used interchangeably with human-centered design. We prefer user-centered design to emphasize our focus on those those who are _using_ a service/product (rather than those making it or humans in general)
+**user-centered design,** often used interchangeably with human-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
 
-**U.S. Web Design System** on first use and **Design System** on subsequent references
+**U.S. Web Design System** on first use and **Design System** on subsequent references.
 
 
 ## W
 
-**WiFi,** not Wi-Fi
+**WiFi,** not Wi-Fi.
