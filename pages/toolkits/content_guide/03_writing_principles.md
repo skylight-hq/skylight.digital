@@ -11,7 +11,7 @@ toolkit_name: content-guide
 
 # Writing principles
 
-The way we write helps us communicate effectively with clients, partners, employees, and recruits. These interactions underpin everything we do at Skylight. As such, writing clear and consistent content is vital to our mission of making government work in a digital world. At Skylight, good content is:
+The way we write helps us communicate effectively with clients, partners, employees, and prospective hires. These interactions underpin everything we do at Skylight. As such, writing clear and consistent content is vital to our mission of making government work in a digital world. At Skylight, good content is:
 
 * **Clear.** Understand the topic you’re writing about. Use simple words and sentences.
 * **Useful.** Before you start writing, ask yourself: What purpose does this serve? Who is going to read it? What do they need to know?
