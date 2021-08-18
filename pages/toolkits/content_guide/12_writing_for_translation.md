@@ -34,7 +34,7 @@ We generally follow what's outlined in the [voice and tone](/work/toolkits/conte
 
 Skylight’s voice is conversational and friendly. However, in some cultures, this voice may be considered too informal. Check with your translator to see if this is the case for the particular language you’re writing for.
 
-The translation company should give the option to translate in a formal or informal tone, if the language allows for it. (For example, in Spanish, it is possible to write informally where tú = you or formally where usted = you.)
+The translation company should give the option to translate in a formal or informal tone, if the language allows for it. (For example, in Spanish, it's possible to write informally where tú = you or formally where usted = you.)
 
 When writing text that will be translated, be careful about making references to things of local or regional importance. These may not be recognizable to readers outside the U.S.
 
@@ -44,7 +44,7 @@ When writing text that will be translated, be careful about making references to
 Keep your copy brief, but don’t sacrifice clarity for brevity. You may need to repeat or add words to make the meaning of your sentences clear to a translator.
 
 
-#### Repeat verbs that have multiple subjects.
+#### Repeat verbs that have multiple subjects
 
 * Yes: Customers who have ordered online can pick up their food at the cashier. Walk-in customers should stop by the cashier to order their food.
 * No: Customers who have ordered online or who are walk-ins should stop at the cashier to order or pick up their food.
@@ -118,7 +118,7 @@ Here are some other cases where you might see -ing words, and suggestions for ho
 * Shortened words, even if they’re common in English (use “application,” not “app”)
 * Uncommon foreign words (use "genuine,” not “bona fide”)
 * Unnecessary abbreviations (use "for example,” not “e.g.”)
-* Converting one part of speech into another if it isn’t already commonly used (use "Send us an email” instead of “message us”)
+* Converting one part of speech into another if it isn’t already commonly used (use "send us an email” instead of “message us”)
 * Non-standard or indirect verb usage (use “he says,” not “he’s like” or “he was all”)
 * Double negatives
 * Synonyms, generally. Don't use a lot of different words for the same thing in a single piece of writing. Instead of mixing it up, pick one term and stick with it.
