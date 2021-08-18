@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Writing for accessibility | Skylight Content Guide
-description: A guide on how to write clear, accessible, and user-friendly content at Skylight.
+description: How to make content accessible.
 tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/writing-for-accessibility/
 sidenav: content_guide
