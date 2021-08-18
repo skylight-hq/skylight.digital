@@ -22,7 +22,7 @@ As you write, consider the following:
 
 * Would this language make sense to someone who doesn’t work here?
 * Could someone quickly scan this document and understand the material?
-* If someone can’t see the colors, images or video, is the message still clear?
+* If someone can’t see the colors, images, or video, is the message still clear?
 * Is the markup clean and structured?
 * Mobile devices with accessibility features are increasingly becoming core communication tools, does this work well on them?
 
