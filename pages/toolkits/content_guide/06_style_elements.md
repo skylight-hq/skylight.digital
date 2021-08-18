@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Style elements | Skylight Content Guide
-description: Guidance on how to style content.
+description: How to style content.
 tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/style-elements/
 sidenav: content_guide
