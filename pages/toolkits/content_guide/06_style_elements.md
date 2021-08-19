@@ -171,7 +171,11 @@ two-thirds
 2/3
 </div>
 
-Use decimal points when a number can’t be easily written out as a fraction, like 1.375 or 47.2.
+Use decimal points when a number can’t be easily written out as a fraction.
+
+* 375
+* 47.2
+{: .example }
 
 
 ### Money

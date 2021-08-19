@@ -33,6 +33,7 @@ Standard website buttons include:
 * Sign up
 * Subscribe
 * Contact us
+{: .example }
 
 
 ### Callouts
