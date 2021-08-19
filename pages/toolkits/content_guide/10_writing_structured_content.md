@@ -49,14 +49,14 @@ The authors listed on a blog post should be only the people who have actively co
 
 ## Case studies
 
-Case studies take a high-level look at a complete Skylight project. They’re generally more structured than blog posts. Case studies should convey big-picture details about a project, such as who the users are, what their problems are, and how Skylight helped solve their problems. At the end of the day, case studies are marketing/sales tools that demonstrate the value Skylight brings to a project, so in general we’re aiming for compelling, executive-level narratives.
+Case studies take a high-level look at a complete Skylight project. They’re generally more structured than blog posts. Case studies should convey big-picture details about a project, such as who the users are, what their problems are, and how Skylight helped solve their problems. At the end of the day, case studies are tools for demonstrating the value that we can provide to prospective clients and teaming partners. Therefore, we're aiming for compelling, "executive-level" narratives.
 
 
 ## Employee spotlight post
 
 As Skylight grows, it’s important for us to continue to recruit amazing people. It’s also important to us that we further your career by giving you opportunities to build your personal brand.
 
-An Employee Spotlight Blog Post is a great way to achieve both.
+An [Employee Spotlight Blog Post](https://skylight.digital/thoughts/blog/gianna-uson-launching-a-civic-tech-career/) is a great way to achieve both.
 
 By showing people a bit about who we are, what we do, and why we do it, we make what could seem wonky a bit more relatable.
 
