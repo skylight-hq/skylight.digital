@@ -93,8 +93,10 @@ The way we speak encourages people to tell us more, and it invites people to get
 
 One of our company values is remembering whom we serve. By keeping users and partners in mind, you allow yourself to see someone else’s perspective, helping you feel empathy for them. Trust what you observe. Then put the good things you notice into practice.
 
-Takeaways:
+<div class="callout--tip" markdown="1">
+## Takeaways
 * Voice is constant. Tone is fluid.
 * We choose our tone based on empathy and context.
 * Skylight would be the type of person you’d love to grab coffee with.
 * You’re already great at Skylight voice and tone, just by being part of the team.
+</div>
