@@ -4,17 +4,17 @@
 }
 
 .page-our-services {
-  .prose {
-    li {
-      &:not(:first-child) {
-        margin-top: 0.5rem;
-      }
+  // .prose {
+  //   li {
+  //     &:not(:first-child) {
+  //       margin-top: 0.5rem;
+  //     }
 
-      a {
-        padding-top: 0.5rem;
-      }
-    }
-  }
+  //     a {
+  //       padding-top: 0.5rem;
+  //     }
+  //   }
+  // }
 }
 
 .services-content {
