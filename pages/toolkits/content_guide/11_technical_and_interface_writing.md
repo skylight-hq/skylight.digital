@@ -57,6 +57,7 @@ Be consistent with how you phrase titles. If your guide or tutorial has several 
 
 * Nouns: Policies, Teams, Offices
 * Verbs: Create an account, File a report, Download our data
+{: .example }
 
 
 ### Introduction
@@ -70,6 +71,7 @@ When adding instructions to perform a task on a computer, manually adjust the fo
 
 * Use the `legend` element to offer a label within each form element.
 * Copy and paste `mkdir /home/foo/doc/bar && cd $_` into Terminal.
+{: .example }
 
 In the first example, `legend` is an HTML element and should be styled as code. “Element” is a technical concept and shouldn’t be marked up as code. “Label” is both a concept and an HTML element but is used here in the former sense and should not be styled as code.
 
@@ -94,6 +96,7 @@ The same rules apply to pieces of text that must be used exactly as presented, s
 
 * `someCl3v3rN4me` is the name of our WiFi network.
 * Your password is `PleaseChangeMeSoon`.
+{: .example }
 
 
 ### Interface elements
@@ -104,6 +107,7 @@ Use clear verbs to tell readers how to interact with interface elements:
 * Select or deselect checkboxes and radio buttons.
 * Click or tap buttons.
 * Follow or open links.
+{: .example }
 
 
 ### Tables
@@ -117,10 +121,12 @@ It’s rare that a document lives on its own. Tell people where to go for help i
 
 For documentation and guides, you might say:
 
-* For more information, see the [Skylight Content Guide](#0).
+For more information, see the [Skylight Content Guide](#0).
+{: .example }
 
 To refer the reader to a Slack channel, follow this format:
 
-* Still have questions? Ask in #general.
+Still have questions? Ask in #general.
+{: .example }
 
 If your work relates to several other documents, pick the most important ones or gather the links in a section at the bottom.

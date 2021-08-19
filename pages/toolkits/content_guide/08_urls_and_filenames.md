@@ -55,57 +55,53 @@ Paths are case-sensitive. They should be lowercase, regardless of what they cont
 
 #### Domain names
 
-* **Starting point:** www.longnamecreationservice.departmentoflongnames.bureauofnames.gov.
+<div class="example" markdown="1">
+**Starting point:** www.longnamecreationservice.departmentoflongnames.bureauofnames.gov.
+
 * **Slight improvement:** longnamecreationservice.departmentoflongnames.bureauofnames.gov.
-* **Rationale:** www is unnecessary and omitting it makes the URL easier to type.
-
+  * **Rationale:** www is unnecessary and omitting it makes the URL easier to type.
 * **Minor improvement:** long-name-creation-service.departmentoflongnames.bureauofnames.gov.
-* **Rationale:** Hyphens make the URL easier to read. The same would be true for the other levels of the domain, but we’re assuming you don’t have control over those in these examples.
-
+  * **Rationale:** Hyphens make the URL easier to read. The same would be true for the other levels of the domain, but we’re assuming you don’t have control over those in these examples.
 * **Major improvement:** long-name-creation-service.bureauofnames.gov.
-* **Rationale:** The user doesn’t need the URL to reflect that the service belongs to the Department of Long Names.
-
+  * **Rationale:** The user doesn’t need the URL to reflect that the service belongs to the Department of Long Names.
 * **Even Better:** lncs.bureauofnames.gov.
-* **Rationale:** This is shorter and easier to type. However, it relies on users thinking of the service by that abbreviation.
-
+  * **Rationale:** This is shorter and easier to type. However, it relies on users thinking of the service by that abbreviation.
 * **Ideal:** make-long-names.bureauofnames.gov.
-* **Rationale:** If the users aren’t familiar with that abbreviation, a shorter description of what the service does is better to have as the lowest level of the domain.
+  * **Rationale:** If the users aren’t familiar with that abbreviation, a shorter description of what the service does is better to have as the lowest level of the domain.
+</div>
 
 
 #### Paths
 
-* **Starting point:** /services/default/php/forms/departmentoflongnames/longnamecreationservice/<br>index.php?action=create.
-* **Minor improvement:** /services/default/php/forms/departmentoflongnames/longnamecreationservice/<br>index.php.
-* **Rationale:** Assuming that creation is the most likely action users will want to take, make it the default and strip the requirement for the query string.
+<div class="example" markdown="1">
+**Starting point:** /services/default/php/forms/departmentoflongnames/<br>longnamecreationservice/index.php?action=create.
 
-* **Slight improvement:** /services/default/php/forms/departmentoflongnames/longnamecreationservice/.
-* **Rationale:** The default page should be delivered automatically, making the inclusion of index.php unnecessary. Also, hide the technical details (.php).
-
+* **Minor improvement:** /services/default/php/forms/departmentoflongnames/<br>longnamecreationservice/index.php.
+  * **Rationale:** Assuming that creation is the most likely action users will want to take, make it the default and strip the requirement for the query string.
+* **Slight improvement:** /services/default/php/forms/departmentoflongnames/<br>longnamecreationservice/.
+  * **Rationale:** The default page should be delivered automatically, making the inclusion of index.php unnecessary. Also, hide the technical details (.php).
 * **Major Improvement:** /departmentoflongnames/longnamecreationservice/.
-* **Rationale:** Users don’t need to know the technical setup of the site.
-
+  * **Rationale:** Users don’t need to know the technical setup of the site.
 * **Slight Improvement:** /department-of-long-names/long-name-creation-service/.
-* **Rationale:** Words should be separated with hyphens.
-
+  * **Rationale:** Words should be separated with hyphens.
 * **Even Better:** /department-of-long-names/lncs/.
-* **Rationale:** As above, if the users are familiar with the abbreviation, use it to make the path shorter.
-
+  * **Rationale:** As above, if the users are familiar with the abbreviation, use it to make the path shorter.
 * **Ideal:** /department-of-long-names/make-long-names/.
-* **Rationale:** As above, if they aren’t familiar with the abbreviation, use a shorter description of what the server does.
-
+  * **Rationale:** As above, if they aren’t familiar with the abbreviation, use a shorter description of what the server does.
+</div>
 
 #### Both
 
-* **Starting point:** www.longnamecreationservice.departmentoflongnames.bureauofnames.gov/<br>services/default/php/forms/departmentoflongnames/longnamecreationservice/<br>index.php?action=create.
+<div class="example" markdown="1">
+**Starting point:** www.longnamecreationservice.departmentoflongnames.bureauofnames.gov/<br>services/default/php/forms/departmentoflongnames/longnamecreationservice/<br>index.php?action=create.
+
 * **Improvement:** make-long-names.bureauofnames.gov/department-of-long-names/make-long-names/.
-* **Rationale:** This combines the suggestions from the previous two sections.
-
+  * **Rationale:** This combines the suggestions from the previous two sections.
 * **Better:** make-long-names.bureauofnames.gov.
-* **Rationale:** This is reasonable if the Department of Long Names has only a couple of services that might be popular enough to warrant their own subdomains, particularly if they don’t necessarily fit cleanly into other content and stand alone.
-
+  * **Rationale:** This is reasonable if the Department of Long Names has only a couple of services that might be popular enough to warrant their own subdomains, particularly if they don’t necessarily fit cleanly into other content and stand alone.
 * **Ideal:** bureauofnames.gov/department-of-long-names/make-long-names/.
-* **Rationale:** This is reasonable if the Long Name Creation Service is one of many related services that the Department of Long Names provides.
-
+  * **Rationale:** This is reasonable if the Long Name Creation Service is one of many related services that the Department of Long Names provides.
+</div>
 
 ## Maintaining URLs
 

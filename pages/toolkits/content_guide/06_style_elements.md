@@ -74,7 +74,8 @@ Words like “was” and “by” may indicate that you’re writing in a passiv
 
 One exception is when you want to specifically emphasize the action over the subject. In some cases, this is fine.
 
-* Your account was flagged by our Abuse team.
+Your account was flagged by our Abuse team.
+{: .example }
 
 
 ## Capitalization
@@ -83,6 +84,7 @@ We use a few different forms of capitalization. Title case capitalizes the first
 
 * Title Case Like This
 * Sentence case, like this
+{: .example }
 
 We use title case only in certain circumstances:
 
@@ -100,8 +102,9 @@ For more, see the [word list](/work/toolkits/content-guide/word-list/).
 
 When writing out an email address or website URL, use all lowercase.
 
-* hello@skylight.digital
-* skylight.digital
+* [hello@skylight.digital](mailto:hello@skylight.digital)
+* [skylight.digital](https://skylight.digital/)
+{: .example }
 
 
 ## Contractions
@@ -119,17 +122,20 @@ Spell out a number when it begins a sentence. In body copy, spell out numbers on
 * I ate three donuts at Coffee Hour.
 * Meg won first place in last year’s Walktober contest.
 * We hosted a group of 10th graders who are learning to code.
+{: .example }
 
 In titles, subheadings, tables, and interface labels, use numerals instead of spelling out numbers. We do this to promote ease of reading and scannability — in titles and headings, it’s easier for readers to scan numerals than it is for them to scan written-out numbers.
 
 * 10 digital tech leaders you should know now
 * 6 ways to incorporate plain-language strategies
+{: .example }
 
 Numbers over three digits get commas:
 
 * 999
 * 1,000
 * 150,000
+{: .example }
 
 If you’re wrangling a lot of numbers, tables can help you visualize that content. Long paragraphs cluttered with numbers or dates are more difficult to scan than, for example:
 
@@ -147,6 +153,7 @@ Generally, spell out the day of the week and the month. Abbreviate only if space
 
 * Saturday, January 24
 * Sat., Jan. 24
+{: .example }
 
 
 ### Decimals and fractions
@@ -174,11 +181,13 @@ When writing about U.S. currency, use the dollar sign before the amount. When re
 * $19.99
 * $2.7 million
 * 5 cents
+{: .example }
 
 When writing about other currencies, follow the same symbol-amount format:
 
 * ¥1
 * €1
+{: .example }
 
 
 ### Page numbering
@@ -196,6 +205,7 @@ Use the % symbol instead of spelling out "percent."
 Use an en dash (–) to indicate a range or span of numbers.
 
 * It takes 20–30 days.
+{: .example }
 
 To add an en dash, input “option-[hyphen]” on Mac or “alt-[hyphen]” on PC. You can also insert it as a special character.
 
@@ -206,6 +216,7 @@ Use dashes without spaces between numbers. Use a country code if your reader is 
 
 * 555-867-5309
 * +1-404-123-4567
+{: .example }
 
 
 ### Temperature
@@ -213,6 +224,7 @@ Use dashes without spaces between numbers. Use a country code if your reader is 
 Use the degree symbol and the capital F abbreviation for Fahrenheit.
 
 * 98°F
+{: .example }
 
 
 ### Time
@@ -221,10 +233,12 @@ Use numerals and am or pm, with a space in between. Don’t use minutes for on-t
 
 * 7 am
 * 7:30 pm
+{: .example }
 
 Use an en dash between times to indicate a time period.
 
 * 7 am–10:30 pm
+{: .example }
 
 Specify time zones when writing about an event or something else people would need to schedule. There's no need to specify whether it's Daylight or Standard time. Abbreviate time zones within the continental United States as follows:
 
@@ -232,6 +246,7 @@ Specify time zones when writing about an event or something else people would ne
 * Central time: CT
 * Mountain time: MT
 * Pacific time: PT
+{: .example }
 
 When referring to international time zones, spell them out: Nepal Standard Time, Australian Eastern Time. If a time zone doesn't have a set name, use its [Coordinated Universal Time (UTC) offset](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets).
 
@@ -239,11 +254,13 @@ Abbreviate decades when referring to those within the past 100 years.
 
 * the ‘00s
 * the ‘90s
+{: .example }
 
 When referring to decades more than 100 years ago, be more specific:
 
 * the 1900s
 * the 1890s
+{: .example }
 
 
 ## Punctuation
@@ -254,6 +271,7 @@ Use ampersands only if it's convention or if it's part of a company or brand nam
 
 * Company: Ben & Jerry’s, AT&T
 * Convention: DE&I, R&D
+{: .example }
 
 In all other cases, use “and” instead of an ampersand.
 
@@ -264,6 +282,7 @@ The apostrophe’s most common use is making a word possessive. If the word ends
 
 * The donut thief ate Sam’s donut.
 * The donut thief ate Chris’ donuts.
+{: .example }
 
 Apostrophes can also be used to denote that you’ve dropped some letters from a word, usually for humor or emphasis. This is fine, but do it sparingly.
 
@@ -272,11 +291,13 @@ Apostrophes can also be used to denote that you’ve dropped some letters from a
 
 Use a colon (rather than an ellipsis, em dash, or comma) to offset a list.
 
-* Erin ordered three kinds of donuts: glazed, chocolate, and pumpkin.
+Erin ordered three kinds of donuts: glazed, chocolate, and pumpkin.
+{: .example }
 
 You can also use a colon to join two related phrases. If a complete sentence follows the colon, capitalize the first word.
 
-* Erin was faced with a dilemma: She wanted a donut, but she’d just eaten a bagel.
+Erin was faced with a dilemma: She wanted a donut, but she’d just eaten a bagel.
+{: .example }
 
 
 ### Commas
@@ -321,6 +342,7 @@ Use a hyphen (-) without spaces on either side to link words into a single phras
 
 * first-time user
 * Monday-Friday
+{: .example }
 
 Use an em dash (—) with a space on either side of the dash.
 
@@ -328,6 +350,7 @@ Use a true em dash, not hyphens (- or --).
 
 * We emphasize open, digital record keeping, and — whenever possible — we illuminate our processes.
 * Austin thought Brad was the donut thief, but he was wrong — it was Lain.
+{: .example }
 
 To add an em dash, input “shift-option-[hyphen]” on Mac or “alt-fn-mjij” on PC. You can also insert it as a special character on Google Docs.
 
@@ -336,11 +359,13 @@ To add an em dash, input “shift-option-[hyphen]” on Mac or “alt-fn-mjij”
 
 Ellipses (...) can be used to indicate that you’re trailing off before the end of a thought. Use them sparingly. Don’t use them for emphasis or drama, and don’t use them in titles or headers.
 
-* “Where did all those donuts go?” Christy asked. Lain said, “I don't know...”
+“Where did all those donuts go?” Christy asked. Lain said, “I don't know...”
+{: .example }
 
 Ellipses, in brackets, can also be used to show that you're omitting words in a quote.
 
-* “When in the Course of human events it becomes necessary for one people to dissolve the political bands which have connected them with another and to assume among the powers of the earth, [...] a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.”
+“When in the Course of human events it becomes necessary for one people to dissolve the political bands which have connected them with another and to assume among the powers of the earth, [...] a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.”
+{: .example }
 
 
 ### Exclamation points
@@ -359,6 +384,7 @@ Periods go inside quotation marks. They go outside parentheses when the parenthe
 * Christy said, “I ate a donut.”
 * I ate a donut (and I ate a bagel, too).
 * I ate a donut and a bagel. (The donut was Sam’s.)
+{: .example }
 
 Leave a single space between sentences.
 
@@ -369,6 +395,7 @@ Question marks go inside quotation marks if they’re part of the quote. Like pe
 
 * Sam asked, “Did you eat my donut?”
 * Did Sam say “you can eat my donut”?
+{: .example }
 
 
 ### Quotation marks
@@ -381,6 +408,7 @@ Use single quotation marks for quotes within quotes.
 
 * Who was it that said, “A fool and his donut are easily parted”?
 * Brad said, “A wise man once told me, ‘A fool and his donut are easily parted.’”
+{: .example }
 
 
 ### Semicolons
@@ -402,6 +430,7 @@ and/or
 #### No
 {: .fails }
 and/ or
+</div>
 
 In titles, subheadings, tables, and interface labels, add a space before and after the slash. We do this to promote ease of reading and scannability.
 
@@ -426,6 +455,7 @@ When referring generally to a file extension type, use all uppercase without a p
 * PDF
 * HTML
 * JPGs
+{: .example }
 
 When referring to a specific file, the filename should be lowercase:
 
@@ -433,6 +463,7 @@ When referring to a specific file, the filename should be lowercase:
 * mcbenefits.pdf
 * ben-twitter-profile.jpg
 * ilovedonuts.html
+{: .example }
 
 
 ### Names and titles
@@ -443,12 +474,14 @@ Capitalize the names of departments and teams (but not the word "team" or "depar
 
 * Marketing team
 * Support department
+{: .example }
 
 Capitalize individual job titles when referencing a specific role used directly before an individual’s name.  Don't capitalize when referring to the role in general terms.
 
 * Please welcome Marketing Manager Susan James, who starts today.
 * Susan James, our marketing manager, starts today.
 * All the marketing managers ate donuts.
+{: .example }
 
 Don't refer to someone as a “ninja,” “rockstar,” or “wizard” unless they literally are one.
 
@@ -464,7 +497,8 @@ For more on writing about gender, see [writing inclusively](/work/toolkits/conte
 
 When quoting someone in a blog post or other publication, use the present tense.
 
-* “Working with Skylight has been a great experience,” says Jamie Smith.
+“Working with Skylight has been a great experience,” says Jamie Smith.
+{: .example }
 
 
 ### Schools
@@ -473,6 +507,7 @@ The first time you mention a school, college, or university in a piece of writin
 
 * Georgia Institute of Technology, Georgia Tech
 * Georgia State University, GSU
+{: .example }
 
 
 ### Slang and jargon
@@ -497,6 +532,7 @@ Use italics to indicate the title of a long work (like a book, movie, or album) 
 
 * _Jurassic Park_
 * Brandon _really_ loves _Jurassic Park_.
+{: .example }
 
 Left-align text, never center or right-align.
 
@@ -541,5 +577,6 @@ Honor companies’ own names for themselves and their products. Go by what’s u
 * iPad
 * YouTube
 * Yahoo!
+{: .example }
 
 Refer to a company or product as “it” (not “they”).

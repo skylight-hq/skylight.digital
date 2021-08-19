@@ -51,11 +51,13 @@ Emojis are acceptable, but should be used sparingly as a way to visually emphasi
 
 If an emoji is in the middle of a sentence, there’s no punctuation, just as there wouldn’t be if the emoji was absent.
 
-* Meet me for ☕ later?
+Meet me for ☕ later?
+{: .example }
 
 If you’re using an emoji at the end of a sentence that has punctuation, or between sentences, the emoji comes after the terminal punctuation for each sentence.
 
-* Don’t forget to celebrate! 🎉
+Don’t forget to celebrate! 🎉
+{: .example }
 
 
 ### Engagement

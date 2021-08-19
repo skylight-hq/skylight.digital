@@ -149,10 +149,12 @@ For example, you should prioritize line length in the sentence: “I adopted a d
 
 <div class="example" markdown="1">
 #### Yes
+{: .passes }
 I adopted a dog, a cat,<br>
 three mice, and a goldfish.
 
 #### No
+{: .fails }
 I adopted a dog,<br>
 a cat, three mice, and a goldfish
 </div>
@@ -161,10 +163,12 @@ However, you should prioritize meaning in the sentence: “I can speak ten moder
 
 <div class="example" markdown="1">
 #### Yes
+{: .passes }
 I can speak ten modern Romance languages<br>
 and read Latin pretty well.
 
 #### No
+{: .fails }
 I can speak ten modern Romance<br>
 languages and read Latin pretty well.
 </div>
@@ -182,8 +186,15 @@ Provide a link whenever you’re referring to something on an external website. 
 
 Don’t include preceding articles (a, an, the, our) when you link text. For example:
 
-- Yes: Read the [Content Guide](#0) for details.
-- No: Read [the Content Guide](#0) for details.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Read the [Content Guide](#0) for details.
+
+#### No
+{: .fails }
+Read [the Content Guide](#0) for details.
+</div>
 
 If a link comes at the end of a sentence or before a comma, don’t link the punctuation mark. Leave off quotes and italics from titles in linked text in body copy.
 
