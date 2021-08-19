@@ -70,7 +70,7 @@ When appropriate, you can tag the subject of your post on Twitter or LinkedIn. B
 
 ### Hashtags
 
-We employ hashtags to connect to broader communities (i.e. #CivicTech, #DigitalGov), be part of event discussions, or to highlight team members as part of an affinity month (#PrideMonth, #BlackHistoryMonth, etc.). Use CamelCase in hashtags with multiple words, lowercase for single words.
+We employ hashtags to connect to broader communities (e.g., #CivicTech, #DigitalGov), be part of event discussions, or to highlight team members as part of an affinity month (#PrideMonth, #BlackHistoryMonth, etc.). Use CamelCase in hashtags with multiple words, lowercase for single words.
 
 
 ### Trending topics
