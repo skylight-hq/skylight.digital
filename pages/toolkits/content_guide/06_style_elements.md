@@ -91,6 +91,7 @@ We use title case only in certain circumstances:
 
 * The main title of a document (Skylight Content Guide)
 * File names (Skylight Document Template)
+{: .example }
 
 In all other instances, we use sentence case. This includes headings and subheadings. Other capitalization guidelines:
 
