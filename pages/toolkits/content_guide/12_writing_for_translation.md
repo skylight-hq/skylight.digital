@@ -46,26 +46,54 @@ Keep your copy brief, but don’t sacrifice clarity for brevity. You may need to
 
 #### Repeat verbs that have multiple subjects
 
-* **Yes:** Customers who have ordered online can pick up their food at the cashier. Walk-in customers should stop by the cashier to order their food.
-* **No:** Customers who have ordered online or who are walk-ins should stop at the cashier to order or pick up their food.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Customers who have ordered online can pick up their food at the cashier. Walk-in customers should stop by the cashier to order their food.
+
+#### No
+{: .fails }
+Customers who have ordered online or who are walk-ins should stop at the cashier to order or pick up their food.
+</div>
 
 
 #### Repeat helping verbs belonging to multiple verbs
 
-* **Yes:** Customers can order their food online or can call to order.
-* **No:** Customers can order their food online or call to order.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Customers can order their food online or can call to order.
+
+#### No
+{: .fails }
+Customers can order their food online or call to order.
+</div>
 
 
 #### Repeat subjects and verbs
 
-* **Yes:** The Standard order comes with fries, but the Essentials order does not.
-* **No:** The Standard order comes with fries, but not the Essentials order.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+The Standard order comes with fries, but the Essentials order does not.
+
+#### No
+{: .fails }
+The Standard order comes with fries, but not the Essentials order.
+</div>
 
 
 #### Repeat markers in a list or series
 
-* **Yes:** Use Skylight to create a product that your users love, to modernize data collection, and to make your data open and accessible to the public
-* **No:** Use Skylight to create a product that your users love, modernize data collection, and make your data open and accessible to the public.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Use Skylight to create a product that your users love, to modernize data collection, and to make your data open and accessible to the public
+
+#### No
+{: .fails }
+Use Skylight to create a product that your users love, modernize data collection, and make your data open and accessible to the public.
+</div>
 
 
 ### Avoid ambiguity and confusion
@@ -75,8 +103,15 @@ Many words, parts of speech, and grammar mechanics we don’t think twice about 
 
 #### Avoid unclear pronoun references
 
-* **Yes:** Many believe that UFOs are real. Such belief is interesting, but this belief is not supported by evidence.
-* **No:** Many believe that UFOs are real. This is interesting, but it’s not supported by evidence.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Many believe that UFOs are real. Such belief is interesting, but this belief is not supported by evidence.
+
+#### No
+{: .fails }
+Many believe that UFOs are real. This is interesting, but it’s not supported by evidence.
+</div>
 
 
 #### Avoid -ing words
@@ -90,26 +125,54 @@ Here are some other cases where you might see -ing words, and suggestions for ho
 
 #### Gerunds
 
-* **Yes:** In this article we will talk about how to make your data open and accessible to the public
-* **No:** In this article we will talk about making your data open and accessible to the public.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+In this article we will talk about how to make your data open and accessible to the public
+
+#### No
+{: .fails }
+In this article we will talk about making your data open and accessible to the public.
+</div>
 
 
 #### Adjectives
 
-* **Yes:** At the top of the hill, there is a boy with a smile on his face.
-* **No:** At the top of the hill, there is a smiling boy.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+At the top of the hill, there is a boy with a smile on his face.
+
+#### No
+{: .fails }
+At the top of the hill, there is a smiling boy.
+</div>
 
 
 #### Parts of verbs
 
-* **Yes:** Several developers are currently working on that feature.
-* **No:** Several developers are working on that feature. (When you can’t easily avoid the -ing word, it may help to add an adverb to clarify the meaning.)
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Several developers are currently working on that feature.
+
+#### No
+{: .fails }
+Several developers are working on that feature. (When you can’t easily avoid the -ing word, it may help to add an adverb to clarify the meaning.)
+</div>
 
 
 #### Parts of phrases modifying nouns
 
-* **Yes:** From our backyard, we could hear the planes that took off from the airport.
-* **No:** From our backyard, we could hear the planes taking off from the airport.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+From our backyard, we could hear the planes that took off from the airport.
+
+#### No
+{: .fails }
+From our backyard, we could hear the planes taking off from the airport.
+</div>
 
 
 #### Other words and mechanics to avoid
@@ -128,28 +191,63 @@ Here are some other cases where you might see -ing words, and suggestions for ho
 
 **“Once”** (could mean “one time,” “after,” “in the past,” or “when”)
 
-* **Yes:** After you log in, you will see your account’s Dashboard.
-* **No:** Once you log in, you will see your account’s Dashboard.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+After you log in, you will see your account’s Dashboard.
+
+#### No
+{: .fails }
+Once you log in, you will see your account’s Dashboard.
+</div>
 
 **“Right”** (could mean “correct,” “the opposite of left,” “politically conservative,” etc.)
 
-* **Yes:** In the File Manager, click the correct image and drag it to the pane at right.
-* **No:** In the File Manager, click the right image and drag it to the right pane.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+In the File Manager, click the correct image and drag it to the pane at right.
+
+#### No
+{: .fails }
+In the File Manager, click the right image and drag it to the right pane.
+</div>
 
 **“Since”** (could refer to a point in time, or a synonym of “because”)
 
-* **Yes:** Because you already know the answer, you can answer the question.
-* **No:** Since you already know the answer, you can answer the question.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Because you already know the answer, you can answer the question.
+
+#### No
+{: .fails }
+Since you already know the answer, you can answer the question.
+</div>
 
 **“Require” plus an infinitive** (could confuse the relationship between subject and object)
 
-* **Yes:** Transactions can be made from a user’s account.
-* **No:** An account is required to make a transaction. (This could imply that users with accounts are required to make a transaction.)
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Transactions can be made from a user’s account.
+
+#### No
+{: .fails }
+An account is required to make a transaction. (This could imply that users with accounts are required to make a transaction.)
+</div>
 
 **“Has” or “have” plus past participle** (could confuse the relationship between subject and object)
 
-* **Yes:** The folder contains relevant documents.
-* **No:** The folder has relevant documents.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+The folder contains relevant documents.
+
+#### No
+{: .fails }
+The folder has relevant documents.
+</div>
 
 
 ### Numbers

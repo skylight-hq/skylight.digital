@@ -44,9 +44,15 @@ Don’t use periods between letters in an acronym (NOC instead of N.O.C.).
 
 Don’t use the abbreviation “etc.” (etcetera) redundantly. If you are starting a list with “for example” (or any of its variations, including “such as,” “e.g.,” and “ex.”), you don’t need to add “etc.” to the end of the sentence.
 
-* **Yes:** There are many types of donuts (glazed, powder, chocolate, etc.).
-* **No:** There are many types of donuts (e.g., glazed, powder, chocolate, etc.).
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+There are many types of donuts (glazed, powder, chocolate, etc.).
 
+#### No
+{: .fails }
+There are many types of donuts (e.g., glazed, powder, chocolate, etc.).
+</div>
 
 ## Active voice
 
@@ -54,8 +60,15 @@ Use active voice. Avoid passive voice.
 
 In active voice, the subject of the sentence does the action. In passive voice, the subject of the sentence has the action done to it.
 
-* **Yes:** Marti logged into the account.
-* **No:** The account was logged into by Marti.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Marti logged into the account.
+
+#### No
+{: .fails }
+The account was logged into by Marti.
+</div>
 
 Words like “was” and “by” may indicate that you’re writing in a passive voice. Scan for these words and rework sentences where they appear.
 
@@ -140,8 +153,15 @@ Generally, spell out the day of the week and the month. Abbreviate only if space
 
 Spell out fractions.
 
-* **Yes:** two-thirds
-* **No:** 2/3
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+two-thirds
+
+#### No
+{: .fails }
+2/3
+</div>
 
 Use decimal points when a number can’t be easily written out as a fraction, like 1.375 or 47.2.
 
@@ -263,8 +283,15 @@ You can also use a colon to join two related phrases. If a complete sentence fol
 
 When writing a list, use the serial comma (also known as the Oxford comma).
 
-* **Yes:** David admires his parents, Oprah, and Justin Timberlake.
-* **No:** David admires his parents, Oprah and Justin Timberlake.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+David admires his parents, Oprah, and Justin Timberlake.
+
+#### No
+{: .fails }
+David admires his parents, Oprah and Justin Timberlake.
+</div>
 
 Otherwise, use common sense. If you’re unsure, read the sentence out loud. Where you find yourself taking a breath, use a comma.
 
@@ -273,8 +300,15 @@ Otherwise, use common sense. If you’re unsure, read the sentence out loud. Whe
 
 Use a hyphen (-) to denote a compound adjective that comes before the noun it’s describing.
 
-* **Yes:** Heavy-metal detector
-* **No:** Heavy metal detector
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Heavy-metal detector
+
+#### No
+{: .fails }
+Heavy metal detector
+</div>
 
 Hyphens join the relevant words into a single idea (for example, a “heavy-metal detector” detects heavy metals). By contrast, a “heavy metal detector” refers to a metal detector that is heavy.
 
@@ -360,13 +394,26 @@ While slashes are a handy tool for taking notes and writing rough outlines, in m
 
 If required in the body of the text, avoid spaces before or after slashes.
 
-* **Yes:** and/or
-* **No:** and/ or
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+and/or
+
+#### No
+{: .fails }
+and/ or
 
 In titles, subheadings, tables, and interface labels, add a space before and after the slash. We do this to promote ease of reading and scannability.
 
-* **Yes:** JavaScript / React
-* **No:** JavaScript/React
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+JavaScript / React
+
+#### No
+{: .fails }
+JavaScript/React
+</div>
 
 
 ## People, places, and things
@@ -467,8 +514,15 @@ Avoid spelling out URLs, but when you need to, leave off the http://www.
 
 Use positive language rather than negative language whenever possible. One way to detect negative language is to look for words like “can’t,” “don’t,” etc.
 
-* **Yes:** To get a donut, stand in line.
-* **No:** You can’t get a donut if you don’t stand in line.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+To get a donut, stand in line.
+
+#### No
+{: .fails }
+You can’t get a donut if you don’t stand in line.
+</div>
 
 
 ### Writing about Skylight

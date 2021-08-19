@@ -23,16 +23,30 @@ Help the reader follow along. Break instructions or processes down into individu
 
 Refer to navigation labels, buttons, and menus as they appear in the app or website. Verify the spelling and capitalization as you write. Be specific.
 
-* **Yes:** In Google Calendar, click “Create.”
-* **No:** Open a new meeting invitation.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+In Google Calendar, click “Create.”
+
+#### No
+{: .fails }
+Open a new meeting invitation.
+</div>
 
 
 ### Direct the reader
 
 Start your sentences with active verbs or clear objectives. Focus on what the reader can do rather than what they can’t. (This is known as using positive language.)
 
-* **Yes:** Sign in to continue.
-* **No:** You cannot continue without signing in.
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Sign in to continue.
+
+#### No
+{: .fails }
+You cannot continue without signing in.
+</div>
 
 
 ## Guidelines
