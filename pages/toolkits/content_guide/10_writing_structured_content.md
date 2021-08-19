@@ -56,7 +56,7 @@ Case studies take a high-level look at a complete Skylight project. They’re ge
 
 As Skylight grows, it’s important for us to continue to recruit amazing people. It’s also important to us that we further your career by giving you opportunities to build your personal brand.
 
-An Employee Spotlight Blog Post is a great way to achieve both.
+An [Employee Spotlight Blog Post](https://skylight.digital/thoughts/blog/gianna-uson-launching-a-civic-tech-career/) is a great way to achieve both.
 
 By showing people a bit about who we are, what we do, and why we do it, we make what could seem wonky a bit more relatable.
 
