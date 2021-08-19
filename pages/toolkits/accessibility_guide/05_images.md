@@ -32,6 +32,7 @@ When using images on a page, you must provide an alternate method for that conte
 ## Examples
 
 ### Correct
+{: .passes }
 <div class="example">
 <img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 </div>
@@ -65,6 +66,7 @@ Acceptable, but less compatible with certain assistive technologies. Clear title
 Information contained in the image is provided on the page. In most instances, an `alt` attribute would be preferred. Images marked with an empty `alt` (`alt=""`) are considered "Decorative" and not read by AT.
 
 ### Incorrect
+{: .fails }
 
 <div class="example">
 <img class="img-fluid" src="{{'/img/toolkits/accessibility/agile-acquisition-framework.png' | prepend: site.baseurl}}">
