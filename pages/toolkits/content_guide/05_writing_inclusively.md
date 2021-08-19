@@ -107,11 +107,8 @@ If a reference to a person’s mental or cognitive condition is warranted, use t
 Avoid using “citizen” as a generic term for people who live in the United States. Many government programs serve non-citizens and individuals with a wide range of immigration and visa statuses.
 
 * How you refer to the public is largely dependent on context. Feel free to choose from any of these words: “people,” “the public,” “users,” or “folks.”
-
 * Be as specific as possible. Depending on the situation, you may want to say something like “people who need healthcare” or “people who need to access government services online.”
-
 * Use “citizens” for information related to U.S. citizenship, for example, when describing who is eligible to vote in federal elections.
-
 * Be careful with “Americans” or the “American public.” These terms are  [ambiguous](https://en.wikipedia.org/wiki/Names_for_United_States_citizens) and are often used as synonyms for “citizens.” In most cases, “the public” is equally clear and more inclusive. That said, referring to “Americans” or the “American people” can be useful if you want to inspire readers or take a more patriotic tone.
 
 
