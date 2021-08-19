@@ -207,7 +207,7 @@
   }
 
   ul {
-    // @extend %list-unstyled;
+    @extend %list-unstyled;
     @extend %mb-0;
 
     li:not(:last-child) {
