@@ -35,6 +35,7 @@ If an acronym is necessary for future reference, spell the full word and follow 
 * Second use: GSA
 * First use: Coordinated Universal Time (UTC)
 * Second use: UTC
+{: .example }
 
 If the abbreviation or acronym is well known, like NASA, NAACP, or FBI, use it instead (and don’t worry about spelling it out).
 
