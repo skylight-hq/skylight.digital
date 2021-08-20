@@ -77,11 +77,11 @@ Information contained in the image is provided on the page. In most instances, a
 Image is missing an `alt` attribute and alternative content.
 
 <div class="example">
-<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping.">
 </div>
 
 ```html
-<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping">
+<img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping.">
 ```
 
 `alt` attribute is missing text from image.
