@@ -13,7 +13,6 @@ toolkit_name: content-guide
 
 Adhering to certain rules of grammar and mechanics helps us keep our writing clear and consistent. By promoting consistency, you avoid making users reinterpret your words over and over. This section will lay out our house style, which applies to all of our content unless otherwise noted in this guide.
 
-
 ## Basics
 
 **Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
@@ -25,7 +24,6 @@ Adhering to certain rules of grammar and mechanics helps us keep our writing cle
 **Be specific.** Avoid vague language. Cut the fluff.
 
 **Be consistent.** Stick to the copy patterns and style points outlined in this guide.
-
 
 ## Abbreviations and acronyms
 

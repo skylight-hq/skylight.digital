@@ -23,7 +23,6 @@ Good content is:
 * Friendly
 * Appropriate
 
-
 ## Voice and tone
 
 Skylight’s voice is:
@@ -36,7 +35,6 @@ Skylight’s voice is:
 
 While our voice is constant, our tone should change depending on the emotional state of the person we’re addressing. In general, we take a conversational tone with our writing: everyday talk that’s easy to understand and feels approachable.
 
-
 ## Writing inclusively
 
 We write with a person-first perspective. Being aware of the impact of your language will help make Skylight a better place to work and a better steward of our values in the world.
@@ -47,7 +45,6 @@ We write with a person-first perspective. Being aware of the impact of your lang
 
 Related resource: The [Conscious Style Guide](http://consciousstyleguide.com/).
 {: .callout--note }
-
 
 ## Style elements
 
@@ -82,7 +79,6 @@ Related resource: The [Conscious Style Guide](http://consciousstyleguide.com/).
 * Don’t say things like “Click here!” or “Click for more information” or “Read this.” Instead, link relevant keywords.
 * Use lists to present steps, groups, or sets of info. Set up your list with a brief introduction. Number lists when the order of information is important.
 
-
 ## Writing for accessibility
 
 * Create a hierarchy, with the most important information first.
@@ -92,7 +88,6 @@ Related resource: The [Conscious Style Guide](http://consciousstyleguide.com/).
 * Avoid using images when descriptive text will do.
 * Avoid directional instructions or language that requires the reader to see the layout or design of the page.
 * Label inputs on forms with clear names and use appropriate tags. Think carefully about what fields are necessary, and especially which ones you mark as required.
-
 
 ## Writing for translation
 
