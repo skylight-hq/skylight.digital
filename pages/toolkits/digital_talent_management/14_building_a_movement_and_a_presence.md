@@ -148,12 +148,11 @@ Send your team to national conferences that are aligned with the work. They'll m
 <div class="callout--note" markdown='1'>
 ## Recommended reading
 
-- [https://medium.com/civiqueso](https://medium.com/civiqueso)
-- [https://www.codeforamerica.org/](https://www.codeforamerica.org/)
-- [https://digitalservices.georgia.gov/](https://digitalservices.georgia.gov/)
-- [https://www.newamerica.org/public-interest-technology/](https://www.newamerica.org/public-interest-technology/)
-- [https://digitalservices.georgia.gov/](https://digitalservices.georgia.gov/)
-- [https://playbook.cityofnewyork.us/](https://playbook.cityofnewyork.us/)
+- [civiqueso](https://medium.com/civiqueso)
+- [Code for America](https://www.codeforamerica.org/)
+- [Georgia Digital Services](https://digitalservices.georgia.gov/)
+- [New America / Public Interest Technology](https://www.newamerica.org/public-interest-technology/)
+- [NYC Digital Playbook](https://playbook.cityofnewyork.us/)
 </div>
 
 <div class="callout callout--case-study" markdown="1">
