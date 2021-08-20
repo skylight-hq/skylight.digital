@@ -26,7 +26,7 @@ When using images on a page, you must provide an alternate method for that conte
   * If the image isn't decorative, make sure the image is described on the page
 3. Check outlined images without `alt` attribute by doing the following:
   * Right click the image
-  * Select 'Inspect Element'
+  * Select "Inspect Element"
   * Check for a title attribute for the information normally found on the `alt` attribute
 
 ## Examples
