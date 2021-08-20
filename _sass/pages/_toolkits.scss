@@ -262,8 +262,15 @@ $icon-size: 2rem;
   }
 }
 
+.callout--example,
 .example {
   background-color: $gray-1;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  padding: 1rem;
+  border: 1px solid $gray-lightest;
+  border-radius: 3px;
 
   h5 {
     font-size: $font-size-base;
@@ -275,5 +282,9 @@ $icon-size: 2rem;
     &::after {
       color: $green-300-a;
     }
+  }
+
+  .language-plaintext {
+    word-break: break-all;
   }
 }
