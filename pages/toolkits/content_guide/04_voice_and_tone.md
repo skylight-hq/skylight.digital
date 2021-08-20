@@ -21,7 +21,6 @@ Our voice has five key qualities communicated in both what we say and how we say
 * **Embracing.** Whoever you are, we're your biggest supporter.
 * **Worldly.** We’re interested, knowledgeable, and always learning. We have a broad worldview, but we’re not know-it-alls.
 
-
 ### Expressive
 
 <div class="example" markdown="1">
@@ -87,7 +86,6 @@ We’ve seen every type of digital challenge there is. In fact, we guarantee tha
 While our voice is constant, our tone should change depending on the emotional state of the person we’re addressing. We wouldn’t want to use the same tone of voice with someone who’s scared or upset as we would with someone who’s laughing. In other words, we choose our tone based on empathy and context.
 
 The way we speak encourages people to tell us more, and it invites people to get to know us. Because of this, we take a conversational tone with our writing: everyday talk that’s easy to understand and feels approachable.
-
 
 ## How to become great at voice and tone
 

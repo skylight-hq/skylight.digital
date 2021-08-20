@@ -15,13 +15,11 @@ Whether you’re writing for an internal or external audience, it's important to
 
 In this section, we'll lay out some guidelines for writing about people with compassion, and share some resources for further learning.
 
-
 ## Audience
 
 Use lowercase for “audience” unless it’s grammatically necessary (for example, capitalize at the beginning of a sentence).
 
 Audiences are made up of real people, so always use “they.” Avoid referring to an audience as “it.”
-
 
 ## Age
 
@@ -32,13 +30,11 @@ The CEO, 16, just got her driver’s license.
 
 Avoid referring to people using age-related descriptors like “young,” “old,” or “elderly.”
 
-
 ## Disability
 
 Avoid disability-related idioms like “lame” or “falling on deaf ears.” Before referring to a person’s disability, think about whether it’s relevant to what you’re writing. If you need to mention it, ask whether your subject prefers person-first language (“they have a disability”) or identity-first language (“they are disabled”).
 
 When writing about a person with disabilities, avoid the words “suffer,” “victim,” or “handicapped.”
-
 
 ## Gender and sexuality
 
@@ -72,13 +68,11 @@ Avoid “same-sex” marriage, unless the distinction is relevant to what you’
 
 When writing about a person, use their communicated pronouns. When in doubt, just ask or use their name.
 
-
 ## Hearing
 
 Use “deaf” as an adjective to describe a person with significant hearing loss. You can also use “partially deaf” or “hard of hearing.”
 
 Avoid referring to decisions or actions as “tone deaf.” Instead, use alternatives that more clearly express your idea (for example, “misinformed” or “disconnected”).
-
 
 ## Heritage
 
