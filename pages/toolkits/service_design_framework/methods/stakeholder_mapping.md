@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Stakeholder mapping
 
-
 ##### INITIATE PHASE
 
 Create a visual representation of all the people who can influence a project and how they’re connected. This can help you involve and get buy-in from the right people during the service design process.
@@ -24,7 +23,6 @@ Service designer and core team
 Timeframe
 Create the stakeholder map in the very beginning stages of kick-off to work towards stakeholder alignment and buy-in early on in the process
 ```
-
 
 
 ## How to use this method
@@ -54,7 +52,6 @@ With your project in the center, define the relationships between the stakeholde
 4. Prioritize
 
 To define how you’ll collaborate and communicate with stakeholders moving forward, use the prioritization matrix. Mapping according to power and interest, you’ll get a sense of who to engage on a spectrum from low to high touch.
-
 
 ## More resources
 

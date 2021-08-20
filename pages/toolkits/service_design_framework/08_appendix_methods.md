@@ -14,7 +14,6 @@ Skylight uses these methods — activities and techniques — to achieve the man
 
 The methods below are organized by phase. Visit each one to find a detailed description of how to do the activity, what it aims to achieve, who to involve, templates to get you started, and other helpful information.
 
-
 ## Initiate
 
 ### Alignment/kickoff workshop
@@ -23,20 +22,17 @@ During these workshops, align teams and stakeholders around a shared idea of the
 
 [Read about alignment/kickoff workshops →](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
 
-
 ### Proto-personas
 
 Quickly build a lightweight representation of your customers to develop empathy and foster a common understanding of needs and goals.
 
 [Read about proto-personas →](/work/toolkits/service-design-framework/methods/proto-personas/)
 
-
 ### Stakeholder mapping
 
 Create a visual representation of all the people who can influence a project and how they’re connected. This can help get buy-in from and include the right people during the service design process.
 
 [Read about stakeholder mapping →](/work/toolkits/service-design-framework/methods/stakeholder-mapping/)
-
 
 ## Discover
 
@@ -46,13 +42,11 @@ Talk with the people that the project outcomes will impact or who have a stake i
 
 [Read about stakeholder interviews →](/work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/)
 
-
 ### Desk review or secondary research
 
 Compile and review information related to the project. This can include documentation from the existing service and articles related to the user population and problem space.
 
 [Read about desk review and secondary research →](/work/toolkits/service-design-framework/methods/desk-review-or-secondary-research/)
-
 
 ### Affinity mapping {#affinity-mapping}
 
@@ -60,20 +54,17 @@ Engage your team and relevant stakeholders to collaboratively synthesize researc
 
 [Read about ecosystem diagrams →](/work/toolkits/service-design-framework/methods/affinity-mapping/)
 
-
 ### Customer journey mapping
 
 Visualize how a customer interacts with a service to get a holistic view of their experience. This provides a better understanding of the customer and surfaces opportunities for improvements.
 
 [Read about customer journey mapping →](/work/toolkits/service-design-framework/methods/customer-journey-mapping/)
 
-
 ### Service blueprint
 
 Better understand a service and how you can improve it by visualizing the many pieces that work — or don’t work — together to create it. Include people, the tools they use, and their processes.
 
 [Read about service blueprints →](/work/toolkits/service-design-framework/methods/service-blueprint/)
-
 
 ## Strategize
 
@@ -83,13 +74,11 @@ Align your team and stakeholders on which solutions to pursue based on factors s
 
 [Read about prioritization workshops → ](/work/toolkits/service-design-framework/methods/prioritization-workshop/)
 
-
 ### POV (point of view) statement
 
 Articulate who your customers are, their needs, and important insights about them. Use this statement to gain a deeper understanding of the problem space and start developing solutions.
 
 [Read about POV statements → ](/work/toolkits/service-design-framework/methods/pov-statement/)
-
 
 ## Experiment
 
@@ -99,13 +88,11 @@ Act out a service to understand the key elements you should consider in designin
 
 [Read about role playing →](/work/toolkits/service-design-framework/methods/role-playing/)
 
-
 ### Wizard of Oz
 
 Get responses to a working prototype without investing in making one. Create responses behind-the-scenes to user interactions to test functionality.
 
 [Read about Wizard of Oz → ](/work/toolkits/service-design-framework/methods/wizard-of-oz/)
-
 
 ## Implement
 
@@ -115,20 +102,17 @@ An MVP is the first iteration of a product that you deploy to market. This shoul
 
 [Read about minimum viable products →](/work/toolkits/service-design-framework/methods/minimum-viable-product/)
 
-
 ### Roadmap
 
 This exercise can help you gain alignment across the team and stakeholders. It creates a shared understanding of a goal and the steps you need to achieve it along a timeline.
 
 [Read about roadmaps →](/work/toolkits/service-design-framework/methods/roadmap/)
 
-
 ### Success metrics
 
 Success metrics are the criteria you define to measure how well your service and its implementation meet the goals of the project.
 
 [Read about success metrics → ](/work/toolkits/service-design-framework/methods/success-metrics/)
-
 
 ### User stories
 

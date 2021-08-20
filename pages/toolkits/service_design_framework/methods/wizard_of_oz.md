@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Wizard of Oz
 
-
 ##### EXPERIMENT PHASE
 
 Get responses to a working prototype without investing in making one. Create responses behind-the-scenes to user interactions to test functionality.
@@ -24,7 +23,6 @@ At least one team member
 Timeframe
 Once you have a low-fidelity or high-fidelity prototype to test; set aside time for creating the prototype, planning the scenario, and testing
 ```
-
 
 
 ## How to use this method
@@ -60,7 +58,6 @@ Run the test with users and observe how they interact with the prototype. Ask th
 5. Refine
 
 When needed, refine the prototype and repeat testing.
-
 
 ## More resources
 

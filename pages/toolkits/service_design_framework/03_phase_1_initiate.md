@@ -52,7 +52,6 @@ The initial scope was to improve how customers experience support for their new 
 
 When the project pivoted after further research revealed a need for a larger scope, the work we did in this phase to create trust and alignment helped us bring our stakeholders with us.
 
-
 ### Methods
 
 * **Stakeholder mapping**
@@ -66,7 +65,6 @@ When the project pivoted after further research revealed a need for a larger sco
 * **Proto personas**
 
   In collaboration with our stakeholders, we built initial personas based on team assumptions to start develop
-
 
 ### Project artifacts
 

@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Stakeholder and customer interviews
 
-
 ##### DISCOVER PHASE
 
 Talk with the people that the project outcomes will impact or who have a stake in the success of the project. This can inform solutions, build trust, and drive alignment.
@@ -24,7 +23,6 @@ Researcher, notetaker, and stakeholders or customers
 Timeframe
 Throughout the Discover phase; plan to schedule interviews for 1–2 hours
 ```
-
 
 
 ## How to do this method
@@ -54,7 +52,6 @@ Adapt to where the participant takes the conversation. They’ll focus on their 
 4. Follow up as needed
 
 It’s a good practice to keep participants informed about how their insights have impacted the project. Your stakeholder map can help you decide how much to involve participants throughout the rest of the project.
-
 
 ## More resources
 

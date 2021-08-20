@@ -35,9 +35,7 @@ In general, start with the least expensive and lowest fidelity — such as [role
 
 By the end of the Experiment phase, you should end up with a refined solution. Your experiments may also reveal that you need to revisit the research and problem space, refining the POV before you can refine the right solution.
 
-
 ## Case study: Testing and gathering feedback
-
 
 ##### U.S. Air Force Weather Systems Office (WxPO)
 

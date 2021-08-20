@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Desk review or secondary research
 
-
 ##### DISCOVER PHASE
 
 Compile and review information related to the project. This can include documentation from the existing service and articles related to the problem space.
@@ -24,7 +23,6 @@ The research team
 Timeframe
 Throughout the project, especially during the Initiate and Discover phases
 ```
-
 
 
 ## How to use this method

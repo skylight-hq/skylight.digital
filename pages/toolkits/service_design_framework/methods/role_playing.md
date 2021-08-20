@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Role playing
 
-
 ##### EXPERIMENT PHASE
 
 Act out a service to understand the key elements you should consider in designing a solution.
@@ -24,7 +23,6 @@ At least two team members
 Timeframe
 Any time after you form a concept for a solution
 ```
-
 
 
 ## How to use this method
@@ -42,7 +40,6 @@ Choose a starting point for what you’ll act out. Assign teammates to play the 
 2. Act it out
 
 Run through the scenario, with observers taking notes on .
-
 
 ## More resources
 

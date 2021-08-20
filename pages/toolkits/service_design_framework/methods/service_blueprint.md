@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Service blueprint
 
-
 ##### DISCOVER PHASE
 
 Better understand a service and how you can improve it by visualizing the many pieces that work — or don’t work — together to create it. Include people, the tools they use, and the processes.
@@ -24,7 +23,6 @@ The research team and relevant stakeholders
 Timeframe
 After you complete your journey map; plan to spend 1–3 hours creating the service blueprint
 ```
-
 
 
 ## How to use this method
@@ -70,7 +68,6 @@ Evidences are the physical or digital tools that customers or employees use or i
 6. Refine and share
 
 The service blueprint is an important artifact to communicate your understanding of the internal organization. If you have the resources, design a clean, visually compelling version of your diagram. This can include additional details, such as arrows to show relationships between the elements. Share with stakeholders.
-
 
 ## More resources
 

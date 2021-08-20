@@ -35,9 +35,7 @@ These artifacts set the stage for the main activity during this phase: brainstor
 
 Before moving on from this phase, you should narrow down and expand on opportunity ideas. These will form the concepts that you prototype in the next phase.
 
-
 ## Case study: Deciding where to focus
-
 
 ##### U.S. Air Force Weather Systems Office (WxPO)
 

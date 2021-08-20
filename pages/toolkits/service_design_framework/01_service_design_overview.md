@@ -16,7 +16,6 @@ As Skylight began to examine the pieces that made up customer experience — how
 
 Enter service design.
 
-
 ## What service design is
 
 Service design enables organizations to create sustainable and high-quality experiences for both customers and the providers of the services they interact with. Using a process, set of methods, and principles, the discipline takes a holistic look across a service ecosystem. This includes the “frontstage” (what a customer sees) and the “backstage” (the behind-the-scenes organizational structures).
@@ -26,7 +25,6 @@ Service design enables organizations to create sustainable and high-quality expe
 While many organizations focus on improvements to customer experience — which was the case with WxPO’s emphasis on onboarding — frontstage-only solutions often fail without consideration for the systems that support them.
 
 For the WxPO and government organizations of all types, service design provides the tools to understand and improve the whole system. In the WxPO case, this meant looking at the technologies, staff within the office, users of weather data inside and outside the Air Force, and how they all work together. It meant bringing people along in the process to identify problems, come up with the right solutions, and put them into action.
-
 
 ## When to use service design
 
@@ -42,7 +40,6 @@ Recognizing from the outset what kinds of problems require service design isn’
 * Complicated legal and political landscape
 
 Governments deliver many different kinds of layered services, from legislation and policy to digital products. No matter the exact problem you’re trying to solve, this kind of complex landscape can be a great fit for a service design approach.
-
 
 ## Who uses service design
 

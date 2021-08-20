@@ -46,9 +46,7 @@ With so many moving parts, it can help to think about Implement in three distinc
 * **Measure and iterate \
 **Before you fully implement a solution, determine what success looks like. Keep track of [success metrics](/work/toolkits/service-design-framework/methods/success-metrics/) and KPIs (key performance indicators) and compare them to results going forward. Examples of metrics include customers' net promoter scores (NPS) or the time it takes for employees to complete tasks. By keeping track of metrics, you can not only continue to refine solutions, but also show the impact of your service design work.
 
-
 ## Case study: Putting it all together
-
 
 ##### U.S. Air Force Weather Systems Office (WxPO)
 

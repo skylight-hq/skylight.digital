@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Minimum viable product (MVP)
 
-
 ##### IMPLEMENT PHASE
 
 An MVP is the first iteration of a product that you deploy to the market. This should be the simplest product that still solves customer and organizational needs.
@@ -24,7 +23,6 @@ Project team and relevant stakeholders
 Timeframe
 As your creating an implementation plan
 ```
-
 
 
 ## How to use this method

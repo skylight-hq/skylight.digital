@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Proto-personas
 
-
 ##### INITIATE PHASE
 
 Quickly build a lightweight representation of your customers to develop empathy and foster a common understanding of needs and goals.
@@ -24,7 +23,6 @@ Service designer, core team, and close stakeholders
 Timeframe
 Create the stakeholder map in the very beginning stages of kick-off to work towards stakeholder alignment and buy-in early on in the process
 ```
-
 
 
 ## How to use this method

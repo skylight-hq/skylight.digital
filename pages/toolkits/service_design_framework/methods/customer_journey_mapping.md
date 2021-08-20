@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Customer journey mapping
 
-
 #####  \
 DISCOVER PHASE
 
@@ -25,7 +24,6 @@ The research team and any other team members or stakeholders who can provide ins
 Timeframe
 After you've gathered and done an initial synthesis of data; plan to spend about one hour
 ```
-
 
 
 ## How to use this method

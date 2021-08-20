@@ -14,7 +14,6 @@ content_type: Toolkit
 
 Through many projects, Skylight understands the challenges of applying service design in complex government systems. Working with different partners, we’ve adopted and refined a service design framework that takes inspiration from others, but adapts them to fit the needs of our government partners.
 
-
 ### The five phases
 
 The framework includes five phases that a typical service design process moves through:
@@ -39,11 +38,9 @@ The framework includes a selection of methods that we use to achieve the desired
 
 Each method in this framework describes who needs to be involved, when to do it and how long it takes, and the steps to complete the method. Many also come with reusable templates for you to adapt and use on your own.
 
-
 ### Case study
 
 The framework also includes details from the Weather Systems Programs Office project as a case study to illustrate service design in action.
-
 
 ## Who the framework is for
 
@@ -53,13 +50,11 @@ This framework offers information, resources, and tools for a range of roles and
 * Designers interested in learning more about service design
 * Service designers looking for reference materials
 
-
 ## Tips for success
 
 ![People aligning](/img/toolkits/service_design/people-aligning.svg)
 
 If you’re using the Skylight Service Design Framework to embark on your own service design project, these tips will help guide you throughout the process:
-
 
 ### Adjust your mindset
 
@@ -70,13 +65,11 @@ When you surface data during a service design project, it’s important to quest
 * Increase observation
 * Improve creativity
 
-
 ### Document everything
 
 Documenting everything to ensure the team shares access to data and ideas from the start of a project. Writing, sketching, and visualizing gives everyone a chance to reflect, collaborate, and build a shared understanding. You may think team members are aligned when ideas are abstract, but you can’t be sure until thoughts are documented for everyone to digest, consider, and discuss.
 
 If you work remotely, be sure to outline where all the important documents live and socialize them — meaning, make them a part of the team’s habits — often. If you work in a physical office, be sure to take pictures of everything.
-
 
 ### Define everything
 
@@ -84,16 +77,13 @@ The words used to describe the service design process may differ across resource
 
 Creating a shared understanding among the team and stakeholders starts with using a shared vocabulary. Make sure the team is using the same language when they refer to different methods or artifacts. Define everything and clarify any terms that might be misunderstood by the team, partners, customers, or others — including those notorious government acronyms. To that effect, we’ve included a [glossary of specialized terms](/work/toolkits/service-design-framework/appendix-glossary/) we use in our framework.
 
-
 ### Plan ahead for implementation
 
 Creating change in organizations is hard. Plan ahead by bringing in and co-designing with key stakeholders at various stages in the process. Fostering buy-in and alignment early on will prepare staff for new ways of working and turn leadership into advocates. This will help you implement solutions when you’re ready.
 
-
 ### Assign ownership when necessary
 
 Facilitating a service design project means removing ownership from ideas and creating a collaborative atmosphere. But assigning ownership of the project and certain responsibilities is important. To promote buy-in, advocate for stakeholders to take ownership of the project. Assign responsibilities to the team or partners to ensure the project continues to push forward. If you encourage a sense of ownership among the broader team, you can increase participation and the chances of a project’s success.
-
 
 ### Invite everyone to be a designer
 

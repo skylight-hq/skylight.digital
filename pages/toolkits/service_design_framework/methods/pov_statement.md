@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # POV (point of view) statement
 
-
 ##### STRATEGIZE PHASE
 
 Articulate who your customers are, their needs, and important insights about them. Use this statement to gain a deeper understanding of the problem space and start developing solutions.
@@ -24,7 +23,6 @@ Team members and stakeholders from the organization who can contribute to brains
 Timeframe
 After you've completed initial research and have created artifacts, and before you begin brainstorming ideas prioritizing the ideas you want to explore; plan to spend about 30 minutes
 ```
-
 
 
 ## How to do this method

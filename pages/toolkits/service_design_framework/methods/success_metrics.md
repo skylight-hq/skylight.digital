@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Success metrics
 
-
 ##### IMPLEMENT PHASE
 
 Success metrics are the criteria you define to measure how well your service and its implementation meet the goals of the project.
@@ -24,7 +23,6 @@ The core team and any relevant stakeholders
 Timeframe
 Conduct this exercise as you're creating an implementation plan
 ```
-
 
 
 ## How to use this method

@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # User stories
 
-
 ##### IMPLEMENT PHASE
 
 Detail the features you’ll develop in informal, plain language descriptions of user interactions. This will keep the work user-centered and focused on the overall vision.
@@ -25,7 +24,6 @@ Anyone on the core team can write stories, but the product owner is responsible 
 Timeframe
 When you're building or iterating on a digital product
 ```
-
 
 
 ## How to use this method

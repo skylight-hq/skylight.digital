@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Prioritization workshop
 
-
 ##### STRATEGIZE PHASE
 
 Align your team and stakeholders on which solutions to pursue based on factors such as value to customers and organizational lift.
@@ -24,7 +23,6 @@ Core team members and key decision-making stakeholders
 Timeframe
 Any time after you form a concept for a solution; plan to spend about 30 minutes
 ```
-
 
 
 ## How to use this method

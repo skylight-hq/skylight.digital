@@ -10,7 +10,6 @@ content_type: Toolkit
 
 # Affinity mapping
 
-
 ##### DISCOVER PHASE
 
 Engage your team and relevant stakeholders to collaboratively synthesize research findings. Turn data into actionable insights that help inform the next stages of the process.
@@ -24,7 +23,6 @@ The research team and any other team members or stakeholders who can provide ins
 Timeframe
 When you've gathered a significant body of research; plan to schedule 1–3 hour-long sessions, depending on the volume of notes
 ```
-
 
 
 ## How to use this method
