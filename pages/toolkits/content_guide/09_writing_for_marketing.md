@@ -46,8 +46,11 @@ Emojis are acceptable, but should be used sparingly as a way to visually emphasi
 
 If an emoji is in the middle of a sentence, there’s no punctuation, just as there wouldn’t be if the emoji was absent.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 Meet me for ☕ later?
-{: .example }
+</div>
 
 If you’re using an emoji at the end of a sentence that has punctuation, or between sentences, the emoji comes after the terminal punctuation for each sentence.
 

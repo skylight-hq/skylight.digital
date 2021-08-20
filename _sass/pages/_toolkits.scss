@@ -261,3 +261,19 @@ $icon-size: 2rem;
     font-size: $font-size-large;
   }
 }
+
+.example {
+  background-color: $gray-1;
+
+  h5 {
+    font-size: $font-size-base;
+  }
+
+  .passes {
+    color: $green-300-a;
+
+    &::after {
+      color: $green-300-a;
+    }
+  }
+}
