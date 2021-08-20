@@ -254,6 +254,38 @@ $icon-size: 2rem;
   }
 }
 
+.passes {
+  color: $green-300;
+
+  &::after {
+    display: inline-block;
+    content: '  ';
+    background-image: url('/img/toolkits/accessibility/check-circle.svg');
+    color: $brand-success;
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    margin-bottom: -2px;
+    margin-left: 0.5rem;
+  }
+}
+
+.fails {
+  color: $red-200;
+
+  &::after {
+    display: inline-block;
+    content: '  ';
+    background-image: url('/img/toolkits/accessibility/times-circle.svg');
+    background-size: 18px 18px;
+    color: $sk-red;
+    height: 18px;
+    width: 18px;
+    margin-bottom: -2px;
+    margin-left: 0.5rem;
+  }
+}
+
 .example,
 .callout--tip,
 .callout--note {

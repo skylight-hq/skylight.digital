@@ -24,7 +24,7 @@ When using `iFrame` elements, it's important that all content contained in them 
 {:.fails}
 ### Fails
 
-<div class="example">
+<div class="example example--code">
   <div class="row">
     <div class="col-sm-1"></div>
     <iframe height='400' class='border col-sm-10' src="../iframeform/"></iframe>
@@ -38,7 +38,7 @@ When using `iFrame` elements, it's important that all content contained in them 
 
 This `iFrame` doesn't have a title or name.
 
-<div class="example">
+<div class="example example--code">
   <div class="row">
     <div class="col-sm-1"></div>
     <iframe height='400' class='border col-sm-10' src="../iframeform/" name="Provide an address form"></iframe>
@@ -55,7 +55,7 @@ This `name` isn't correct.
 {:.passes}
 ### Passes
 
-<div class="example">
+<div class="example example--code">
   <div class="row">
     <div class="col-sm-1"></div>
     <iframe height='400' class='border col-sm-10' src="../iframeform/" title="Provide Name Form"></iframe>
