@@ -13,7 +13,6 @@ toolkit_name: content-guide
 
 The Skylight Content Guide goes into depth on many subjects. It may be more information than you need. Here are the most important things to know.
 
-
 ## Principles
 
 Good content is:
@@ -60,7 +59,6 @@ Related resource: The [Conscious Style Guide](http://consciousstyleguide.com/).
 * Use the serial comma. Otherwise, use common sense.
 * Don’t use underline, and don’t use any combination of italic, bold, caps, and underline.
 * When in doubt, read your writing out loud.
-
 
 ## Web elements
 

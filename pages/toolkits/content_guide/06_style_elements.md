@@ -76,7 +76,6 @@ One exception is when you want to specifically emphasize the action over the sub
 Your account was flagged by our Abuse team.
 {: .example }
 
-
 ## Capitalization
 
 We use a few different forms of capitalization. Title case capitalizes the first letter of every word except articles, prepositions, and conjunctions. Sentence case capitalizes the first letter of the first word.
@@ -106,13 +105,11 @@ When writing out an email address or website URL, use all lowercase.
 * [skylight.digital](https://skylight.digital/)
 {: .example }
 
-
 ## Contractions
 
 They’re great! At Skylight, we want to create a strong connection with our clients and partners. We want to get them the information they need in a straightforward way and show that we know what’s important to them. For this reason, we use contractions (“you’re” instead of “you are”).
 
 We also encourage clients to consider using contractions, too, though we recognize this may not be the right choice for all contexts. There are times when we might need to modify our voice to sound more formal, but we also recognize that formal doesn’t need to translate to stuffy, archaic, or aloof.
-
 
 ## Numbers
 
@@ -155,7 +152,6 @@ Generally, spell out the day of the week and the month. Abbreviate only if space
 * Sat., Jan. 24
 {: .example }
 
-
 ### Decimals and fractions
 
 Spell out fractions.
@@ -176,7 +172,6 @@ Use decimal points when a number can’t be easily written out as a fraction.
 * 47.2
 {: .example }
 
-
 ### Money
 
 When writing about U.S. currency, use the dollar sign before the amount. When referring to amounts of U.S. currency in cents or greater than $1 million, use numerals followed by words:
@@ -193,16 +188,13 @@ When writing about other currencies, follow the same symbol-amount format:
 * €1
 {: .example }
 
-
 ### Page numbering
 
 Generally, start numbering on the first page. On rare occasions, such as in a formal client report, you may choose to start numbering after the title page.
 
-
 ### Percentages
 
 Use the % symbol instead of spelling out "percent."
-
 
 ### Ranges and spans
 
@@ -213,7 +205,6 @@ Use an en dash (–) to indicate a range or span of numbers.
 
 To add an en dash, input “option-[hyphen]” on Mac or “alt-[hyphen]” on PC. You can also insert it as a special character.
 
-
 ### Telephone numbers
 
 Use dashes without spaces between numbers. Use a country code if your reader is in another country.
@@ -222,14 +213,12 @@ Use dashes without spaces between numbers. Use a country code if your reader is 
 * +1-404-123-4567
 {: .example }
 
-
 ### Temperature
 
 Use the degree symbol and the capital F abbreviation for Fahrenheit.
 
 * 98°F
 {: .example }
-
 
 ### Time
 
@@ -266,7 +255,6 @@ When referring to decades more than 100 years ago, be more specific:
 * the 1890s
 {: .example }
 
-
 ## Punctuation
 
 ### Ampersands
@@ -279,7 +267,6 @@ Use ampersands only if it's convention or if it's part of a company or brand nam
 
 In all other cases, use “and” instead of an ampersand.
 
-
 ### Apostrophes
 
 The apostrophe’s most common use is making a word possessive. If the word ends in an s or is plural, just add an apostrophe.
@@ -289,7 +276,6 @@ The apostrophe’s most common use is making a word possessive. If the word ends
 {: .example }
 
 Apostrophes can also be used to denote that you’ve dropped some letters from a word, usually for humor or emphasis. This is fine, but do it sparingly.
-
 
 ### Colons
 
@@ -302,7 +288,6 @@ You can also use a colon to join two related phrases. If a complete sentence fol
 
 Erin was faced with a dilemma: She wanted a donut, but she’d just eaten a bagel.
 {: .example }
-
 
 ### Commas
 
@@ -319,7 +304,6 @@ David admires his parents, Oprah and Justin Timberlake.
 </div>
 
 Otherwise, use common sense. If you’re unsure, read the sentence out loud. Where you find yourself taking a breath, use a comma.
-
 
 ### Compound adjectives
 
@@ -339,7 +323,6 @@ Hyphens join the relevant words into a single idea (for example, a “heavy-meta
 
 Usually, a hyphen isn’t necessary for compound adjectives that follow a noun (“high-quality work” vs. “the work is high quality”).
 
-
 ### Dashes and hyphens
 
 Use a hyphen (-) without spaces on either side to link words into a single phrase, or to indicate a span or range.
@@ -358,7 +341,6 @@ Use a true em dash, not hyphens (- or --).
 
 To add an em dash, input “shift-option-[hyphen]” on Mac or “alt-fn-mjij” on PC. You can also insert it as a special character on Google Docs.
 
-
 ### Ellipses
 
 Ellipses (...) can be used to indicate that you’re trailing off before the end of a thought. Use them sparingly. Don’t use them for emphasis or drama, and don’t use them in titles or headers.
@@ -371,7 +353,6 @@ Ellipses, in brackets, can also be used to show that you're omitting words in a 
 “When in the Course of human events it becomes necessary for one people to dissolve the political bands which have connected them with another and to assume among the powers of the earth, [...] a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.”
 {: .example }
 
-
 ### Exclamation points
 
 Use exclamation points sparingly, and never more than one at a time. They’re like high-fives: A well-timed one is great, but too many can be annoying.
@@ -379,7 +360,6 @@ Use exclamation points sparingly, and never more than one at a time. They’re l
 Exclamation points go inside quotation marks. Like periods and question marks, they go outside parentheses when the parenthetical is part of a larger sentence, and inside parentheses when the parenthetical stands alone.
 
 Never use exclamation points in failure messages or alerts. When in doubt, avoid!
-
 
 ### Periods
 
@@ -392,7 +372,6 @@ Periods go inside quotation marks. They go outside parentheses when the parenthe
 
 Leave a single space between sentences.
 
-
 ### Question marks
 
 Question marks go inside quotation marks if they’re part of the quote. Like periods, they go outside parentheses when the parenthetical is part of a larger sentence, and inside parentheses when the parenthetical stands alone.
@@ -400,7 +379,6 @@ Question marks go inside quotation marks if they’re part of the quote. Like pe
 * Sam asked, “Did you eat my donut?”
 * Did Sam say “you can eat my donut”?
 {: .example }
-
 
 ### Quotation marks
 
@@ -414,11 +392,9 @@ Use single quotation marks for quotes within quotes.
 * Brad said, “A wise man once told me, ‘A fool and his donut are easily parted.’”
 {: .example }
 
-
 ### Semicolons
 
 Go easy on semicolons. They usually support long, complicated sentences that could easily be simplified. Try an em dash (—) instead, or simply start a new sentence.
-
 
 ### Slashes
 
@@ -448,7 +424,6 @@ JavaScript / React
 JavaScript/React
 </div>
 
-
 ## People, places, and things
 
 ### File extensions
@@ -469,7 +444,6 @@ When referring to a specific file, the filename should be lowercase:
 * ilovedonuts.html
 {: .example }
 
-
 ### Names and titles
 
 The first time you mention a person in writing, refer to them by their first and last names. On all other mentions, refer to them by their first name.
@@ -489,13 +463,11 @@ Capitalize individual job titles when referencing a specific role used directly 
 
 Don't refer to someone as a “ninja,” “rockstar,” or “wizard” unless they literally are one.
 
-
 ### Pronouns
 
 If your subject’s gender is unknown or irrelevant, use “they,” “them,” and “their” as a singular pronoun. Use “he/him/his” and “she/her/her” pronouns as appropriate. Don’t use “one” as a pronoun.
 
 For more on writing about gender, see [writing inclusively](/work/toolkits/content-guide/writing-inclusively/).
-
 
 ### Quotes
 
@@ -503,7 +475,6 @@ When quoting someone in a blog post or other publication, use the present tense.
 
 “Working with Skylight has been a great experience,” says Jamie Smith.
 {: .example }
-
 
 ### Schools
 
@@ -513,13 +484,11 @@ The first time you mention a school, college, or university in a piece of writin
 * Georgia State University, GSU
 {: .example }
 
-
 ### Slang and jargon
 
 Write in plain English. If you need to use a technical term, briefly define it so everyone can understand.
 
 Avoid using formal or long words when easy or short ones will do. For example, use “buy” instead of “purchase,” “help” instead of “assist,” “about” instead of “approximately,” and so on.
-
 
 ### States, cities, and countries
 
@@ -528,7 +497,6 @@ Spell out all city and state names. Don’t abbreviate city names.
 Per AP Style, all cities should be accompanied by their state, with the exception of: Atlanta, Baltimore, Boston, Chicago, Cincinnati, Cleveland, Dallas, Denver, Detroit, Honolulu, Houston, Indianapolis, Las Vegas, Los Angeles, Miami, Milwaukee, Minneapolis, New Orleans, New York, Oklahoma City, Philadelphia, Phoenix, Pittsburgh, St. Louis, Salt Lake City, San Antonio, San Diego, San Francisco, Seattle, Washington.
 
 On first mention, write out United States. On subsequent mentions, write U.S. (not US or USA).
-
 
 ### Text formatting
 
@@ -542,13 +510,11 @@ Left-align text, never center or right-align.
 
 Leave one space between sentences, never two.
 
-
 ### URLs and websites
 
 Capitalize the names of websites and web publications. Don’t italicize.
 
 Avoid spelling out URLs, but when you need to, leave off the http://www.
-
 
 ### Write positively
 
@@ -564,7 +530,6 @@ To get a donut, stand in line.
 You can’t get a donut if you don’t stand in line.
 </div>
 
-
 ### Writing about Skylight
 
 Our company's legal entity name is "Skylight Inc." Our trade name is "Skylight." Use "Skylight Inc." only when writing legal documents or contracts. Otherwise, use "Skylight."
@@ -572,7 +537,6 @@ Our company's legal entity name is "Skylight Inc." Our trade name is "Skylight."
 Always capitalize the first “S” and lowercase the “l” in Skylight.
 
 Refer to Skylight as “we,” not “it.”
-
 
 ### Writing about other companies
 

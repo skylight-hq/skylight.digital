@@ -15,7 +15,6 @@ This section gives a general overview of the legal content we publish and how th
 
 For information about laws that apply to non-legal content, see the [copyright and trademarks](/work/toolkits/content-guide/copyright-and-trademarks/) section.
 
-
 ## Basics
 
 The way we write, review, and publish legal content is different from how we do many other kinds of writing at Skylight. But that doesn't mean legal content has to be difficult to read. We try to present our legal information in the most pleasant way possible. Our goals for Skylight’s legal content are:
@@ -24,16 +23,13 @@ The way we write, review, and publish legal content is different from how we do 
 * **Clarity.** We try to avoid legal jargon and overly formal wording. Our users need to understand the agreement they’re making with us.
 * **Succinctness.** We want our users to read and understand our legal documents, while also respecting their time.
 
-
 ## Guidelines
 
 When writing legal content, generally follow the style points outlined in the [voice and tone](#heading=h.8m6mnoqhx8sz) and [style elements](/work/toolkits/content-guide/style-elements/) sections. Here are some more general considerations, too.
 
-
 ### Start with the facts
 
 We have some standard language that we use for common issues or requests, but since legal content is so fact-specific, we start there before getting into structure and format. That’s why you won’t see many templates for our legal content.
-
 
 ### Use plain language
 
@@ -47,7 +43,6 @@ There are some legal terms we have to include because either there’s not a suf
 
 Some companies have complicated terms and write plain-language summaries so people can understand the agreement. We don’t summarize our legal content, but instead try to write the terms themselves in plain language. We use a sidebar to provide examples or links to further reading for people who want more context.
 
-
 ### Definitions
 
 Using plain language for the terms you define up front can make legal documents easier to read. You’ve probably read contracts that say something like “The Corporation” or “The Client” throughout, instead of “we” (meaning the company) and “you” (meaning the client who is agreeing to the terms). There’s a quick fix for that. At the beginning of the document, say something like:
@@ -56,7 +51,6 @@ Skylight is owned and operated by Skylight Inc. (“Skylight,” “we,” or �
 {: .example }
 
 After that, you’re free to use “we,” “us,” “you,” and “your” throughout the rest of the agreement. That simple change makes the document much friendlier to read.
-
 
 ### Contractions
 

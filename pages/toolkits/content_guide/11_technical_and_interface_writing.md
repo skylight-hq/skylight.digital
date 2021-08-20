@@ -13,9 +13,7 @@ toolkit_name: content-guide
 
 At Skylight, we often write technical documentation, guides, forms, and interface messages. In most of these cases, it’s safe to say the reader is learning something new or troubleshooting. These guidelines will help you write clear, concise instructions, which will provide your reader with the best possible experience.
 
-
 ## Basics
-
 
 ### Do the hard work to make it simple
 
@@ -33,7 +31,6 @@ In Google Calendar, click “Create.”
 Open a new meeting invitation.
 </div>
 
-
 ### Direct the reader
 
 Start your sentences with active verbs or clear objectives. Focus on what the reader can do rather than what they can’t. (This is known as using positive language.)
@@ -48,7 +45,6 @@ Sign in to continue.
 You cannot continue without signing in.
 </div>
 
-
 ## Guidelines
 
 ### Titles and headings
@@ -59,11 +55,9 @@ Be consistent with how you phrase titles. If your guide or tutorial has several 
 * Verbs: Create an account, File a report, Download our data
 {: .example }
 
-
 ### Introduction
 
 Include a short two- or three-sentence summary about the document to help the reader confirm whether they’re in the right place.
-
 
 ### Code
 
@@ -89,7 +83,6 @@ var value = el.options[el.selectedIndex].value;
 <br>
 Use [straight quotes](http://smartquotesforsmartpeople.com/) within code blocks rather than curly (or smart) quotes.
 
-
 #### Code-like elements
 
 The same rules apply to pieces of text that must be used exactly as presented, such as passwords or WiFi network names:
@@ -97,7 +90,6 @@ The same rules apply to pieces of text that must be used exactly as presented, s
 * `someCl3v3rN4me` is the name of our WiFi network.
 * Your password is `PleaseChangeMeSoon`.
 {: .example }
-
 
 ### Interface elements
 
@@ -109,11 +101,9 @@ Use clear verbs to tell readers how to interact with interface elements:
 * Follow or open links.
 {: .example }
 
-
 ### Tables
 
 Tables are generally suitable only for data: two or more “objects” (rows) that share two or more “values” (columns). In tables, column widths are the same for all rows, which can make them easier to scan visually. Tables are [easily navigable for sightless users](http://webaim.org/techniques/tables/) so long as the content is organized in a logical way.
-
 
 ### Links and additional resources
 

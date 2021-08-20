@@ -16,7 +16,6 @@ Below are rules for how we use common words and phrases. The bold term shows the
 If you don’t see a word here and aren’t sure what to do, check [AP style](https://www.apstylebook.com/).
 {: .callout--note }
 
-
 ## A
 
 **ages,** avoid hyphens in ages unless it clarifies the text. For example, “a group of 10 18-year-old White House tourists.”
@@ -27,20 +26,17 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **aka** (also known as), not a.k.a.
 
-
 ## B
 
 **back end,** when used as a noun.
 
 **back-end,** when used as an adjective. For example, “back-end development.”
 
-
 ## C
 
 **Congress** refers to the U.S. Senate and House of Representatives.
 
 **congressional** is lowercase unless part of a proper name. For example, “Congressional Record.”
-
 
 ## D
 
@@ -56,7 +52,6 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **drop-down** when used as an adjective. For example, “drop-down menu.”
 
-
 ## E
 
 **email,** not e-mail
@@ -68,7 +63,6 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **etc.,** abbreviation for etcetera. Don’t use it redundantly. If you are starting a list with “for example,” you don’t need to add etc. to the end of the sentence.
 
 **ex.** abbreviation for “example.” If using, don’t end the sentence with “etc.”
-
 
 ## F
 
@@ -82,13 +76,11 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **front-end,** when used as an adjective. For example, “front-end developer.”
 
-
 ## G
 
 **GitHub**
 
 **government,** unless part of a proper noun. For example, “Government Printing Office.”
-
 
 ## H
 
@@ -96,23 +88,19 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **human-centered design,** often used interchangeably with user-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
 
-
 ## I
 
 **info** is an acceptable shortening of information. In formal situations, use the full word.
 
 **internet,** don’t capitalize unless it begins a sentence.
 
-
 ## J
 
 **JavaScript**
 
-
 ## K
 
 **kanban**
-
 
 ## L
 
@@ -120,13 +108,11 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **log in** when used as a verb, for example, “Log in to access your calendar.”
 
-
 ## M
 
 **mini-conference,** not mini conference.
 
 **Mini-Conference,** when referring to the Sweet Talks initiative.
-
 
 ## O
 
@@ -134,18 +120,15 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **open source,** open source software.
 
-
 ## P
 
 **policymaker**
 
 **pm,** not p.m.
 
-
 ## R
 
 **README**
-
 
 ## S
 
@@ -159,13 +142,11 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **startup**
 
-
 ## T
 
 **tech** is an acceptable shortening of “technology.” In formal situations, use the full word.
 
 **to do** (noun) and **to-do** (adjective). For example, “your to dos” or “your to-do list.”
-
 
 ## U
 
@@ -176,7 +157,6 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **user-centered design,** often used interchangeably with human-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
 
 **U.S. Web Design System** on first use and **Design System** on subsequent references.
-
 
 ## W
 

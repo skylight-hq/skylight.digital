@@ -19,7 +19,6 @@ In the vast majority of cases, everything a user can reach on your site should h
 
 When creating URLs, use dashes to separate words, omit articles (a/an/the), use the stems of verbs (/make-thing/ rather than /making-thing/), and avoid extraneous terms.
 
-
 ### Domains
 
 It’s not necessary to have www. at the start of a domain. This is a holdover from the early internet. Any domain that has a www level should also work if that level is omitted.
@@ -29,7 +28,6 @@ Domain names should be short, using abbreviations unless those are likely to be 
 If a domain level has more than one word, you should strongly consider separating the words with dashes to make sure users read them the way you intend. If Skylight had a project called EARS that for some reason needed a two-level domain, that domain should be skylight-ears.digital and not skylightears.digital (ears.skylight.digital would probably be the ideal).
 
 Domains are case-insensitive. They should be written as lowercase.
-
 
 ### Paths
 
@@ -50,7 +48,6 @@ When separating words in a path, use hyphens. Hyphens are commonly understood by
 
 Paths are case-sensitive. They should be lowercase, regardless of what they contain, as uppercase letters make them more difficult to type (and to remember).
 
-
 ### Examples
 
 #### Domain names
@@ -69,7 +66,6 @@ Paths are case-sensitive. They should be lowercase, regardless of what they cont
 * **Ideal:** make-long-names.bureauofnames.gov.
   * **Rationale:** If the users aren’t familiar with that abbreviation, a shorter description of what the service does is better to have as the lowest level of the domain.
 </div>
-
 
 #### Paths
 
@@ -113,7 +109,6 @@ This is not as technically challenging as it sounds. If the domain — the high-
 
 Whenever possible, maintain original URLs. In all other cases, set up a redirect for outdated URLs and links; this is almost always a painless task for web managers. There are a variety of ways to accomplish this, some of them requiring more technical work than others. It’s most difficult to accomplish when moving from URLs that include query parameters, as some early website systems did. Sensibly-constructed URLs are easier to migrate.
 
-
 ## Creating filenames
 
 Use hyphens to separate words, just as with URLs.
@@ -125,7 +120,6 @@ Use the right extension — PDFs should have .pdf at the end, JPGs should have .
 Shorter is better, but the content should be descriptive to the user, and it’s better to have long descriptive filenames than short obscure ones (for example, summary-of-pay-gap-findings.pdf is better than paygap.pdf or smmrypgpfnds.pdf).
 
 Avoid the use of special characters beyond the hyphen and period, unless absolutely necessary. Don't include spaces (use hyphens in their place).
-
 
 ## Presenting URLs and filenames in text
 

@@ -15,7 +15,6 @@ Marketing content follows the rules laid out in the above sections: We have the 
 
 That being said, we’ve found a few areas where marketing has evolved its own set of rules.
 
-
 ## Email marketing
 
 ### Consider your audience
@@ -27,11 +26,9 @@ One of the great things about email is that you can communicate with specific se
 * “If these emails ever feel a bit much, you can adjust your email preferences in your account over here.”
 * “I’d love to know how we can help you get the most out of our emails to you. Feel free to hit reply and let us know! Or if your inbox is feeling a little clogged, you can unsubscribe here.”
 
-
 ### How to write subject lines
 
 There’s no such thing as a subject line that’s too long. Ideally, you’d test a long subject line with a short subject line and see which one performs best. For subject lines, as with headlines, we want to honestly communicate what’s in the email without being too “gotcha!”
-
 
 ## Social media
 
@@ -39,11 +36,9 @@ Much of what we’ve shared so far applies to social content, both what we post 
 
 We use social media to build relationships with Skylight partners, recruit great talent, and share all the cool stuff we do. But it also creates opportunities to say the wrong thing, put off future partners, and damage our brand. So we’re careful and deliberate in what we post to our social channels. Here’s how to strike that delicate balance.
 
-
 ### Write short, but smart
 
 Some social media platforms have a character limit; others don’t. But for the most part, we keep our social media copy short. To write short, simplify your ideas or reduce the amount of information you’re sharing — but not by altering the spelling or punctuation of the words themselves. It’s fine to use the shorter version of some words, like “info” for “information.” But don’t use numbers and letters in place of words, like “4” instead of “for” or “u” instead of “you.”
-
 
 #### Emoji
 
@@ -58,7 +53,6 @@ If you’re using an emoji at the end of a sentence that has punctuation, or bet
 
 Don’t forget to celebrate! 🎉
 {: .example }
-
 
 ### Engagement
 
@@ -76,11 +70,9 @@ We teamed with @AirForceBES to help members of the flight line have an easier wa
 Hey @AirForceBES, can you RT this post we wrote about you? https://skylight.digital/work/experience/usaf-gearfit/
 </div>
 
-
 ### Hashtags
 
 We employ hashtags to connect to broader communities (e.g., #CivicTech, #DigitalGov), be part of event discussions, or to highlight team members as part of an affinity month (#PrideMonth, #BlackHistoryMonth, etc.). Use CamelCase in hashtags with multiple words, lowercase for single words.
-
 
 ### Trending topics
 

@@ -13,7 +13,6 @@ toolkit_name: content-guide
 
 This section lays out our style in regards to Skylight’s website. While we wrote these guidelines with the Skylight website in mind, you’re welcome to use them for client websites if you don’t have existing guidelines.
 
-
 ## Guidelines
 
 ### Alt text
@@ -21,7 +20,6 @@ This section lays out our style in regards to Skylight’s website. While we wro
 Alt text is a way to label images, and it's especially important for people who can’t see the images on our website. Alt text should describe the image in a brief sentence or two. It should be used on all non-decorative images.
 
 For more on how and why we use alt text, read [writing for accessibility](/work/toolkits/content-guide/writing-for-accessibility/).
-
 
 ### Buttons
 
@@ -35,11 +33,9 @@ Standard website buttons include:
 * Contact us
 {: .example }
 
-
 ### Callouts
 
 To highlight certain features of the text, you’ll want to consider adding a callout. Below are the different types of callouts we use at Skylight:
-
 
 #### Example
 
@@ -47,7 +43,6 @@ Provides an example of something related to the text. Features a light gray bord
 
 This is an “example” callout.
 {: .example }
-
 
 #### Pull quote
 
@@ -60,13 +55,11 @@ Emphasizes a particular quote separate from the main text. Features a blue backg
   cite_title = "Deputy Director, Office of Innovation at CHHS"
 %}
 
-
 #### Block Quote
 
 Accentuates a longer quote (four lines or more). Block quotes are indented from the main text, but remain integrated within it.
 
 > “One problem with technical debt is that the impact can be slow-growing and somewhat hidden. To the question ‘fix the technical debt, or build new features’ we know how it’s usually answered. As it gets worse, customers complain about slow delivery, increasing the pressure to take more shortcuts, which increases the technical debt, which slows the delivery process, which increases customer dissatisfaction, in a rapidly spiraling vicious cycle.”
-
 
 #### Note
 
@@ -75,14 +68,12 @@ Provides the reader with information on further resources to check out (e.g., re
 This is a “note” callout.
 {: .callout--note }
 
-
 #### Tip
 
 Offers the reader an actionable piece of advice (e.g., “do this”). Tips are more integrated with the substance of the text. Features a yellow box with a “lightbulb” icon.
 
 This is a “tip” callout.
 {: .callout--tip }
-
 
 #### News / Case study
 
@@ -100,7 +91,6 @@ Highlights additional content that’s separate from the substance of the main t
   </ul>
 </aside>
 
-
 #### Code block
 
 Highlights a section of code. Features roboto mono text, light gray box, and light grey border.
@@ -113,11 +103,9 @@ Highlights a section of code. Features roboto mono text, light gray box, and lig
 
 Use sentence case for checkboxes.
 
-
 ### Drop-down menus
 
 Use sentence case for menu names and menu items.
-
 
 ### Forms
 
@@ -129,7 +117,6 @@ Keep forms as short as possible.
 
 Only request information that we need and intend to use. Don’t ask for information that could be considered private or personal, including gender. If you need to ask for gender, provide a field the user can fill in on their own, not a drop-down menu.
 
-
 ### Headings and subheadings
 
 Headings and subheadings organize content for readers. They should include the most relevant keywords and cover/highlight the main point(s) of the page.
@@ -140,7 +127,6 @@ Organize headings and subheadings hierarchically, with headings first, followed 
 
 * Headings (H1) give people a taste of what they’re about to read. Use them for page and blog titles.
 * Subheadings (H2, H3, etc.) break articles into smaller, more specific sections. They give readers avenues into your content and make it more scannable.
-
 
 ### Line breaks
 
@@ -180,7 +166,6 @@ Figuring out the right line length comes down to balancing aesthetics and readab
 
 In general, longer line lengths are better suited for cases when the information will likely be scanned, while shorter line lengths are more appropropriate when the information is meant to be read thoroughly and contains a call to action.
 
-
 ### Links
 
 Provide a link whenever you’re referring to something on an external website. Use links to point users to relevant content and trusted external resources.
@@ -203,13 +188,11 @@ Don’t say things like “Click here!” or “Click for more information” or
 
 Links should look different than regular copy, strong text, or emphasis text. They should have a hover state that communicates they’re interactive, and should have a distinct active and visited state. When setting the hover state of links, be sure to include focus state as well, to help readers using assistive technologies and touch devices.
 
-
 ### Lists
 
 Use lists to present steps, groups, or sets of information. Give context for the list with a brief introduction. Number lists when the order is important, like when you’re describing steps of a process. Don’t use numbers when the list’s order doesn’t matter.
 
 If one of the list items is a complete sentence, use proper punctuation and capitalization on all of the items. If list items are not complete sentences, don’t use punctuation, but do capitalize the first word of each item.
-
 
 ### Navigation
 
@@ -217,16 +200,13 @@ Use sentence case for main navigation and subnavigation.
 
 Navigation links should be clear and concise.
 
-
 ### Quotations
 
 <p>Use curly quotation marks (“”) and apostrophes (‘’), as opposed to straight quotation marks ("") and apostrophes (').</p>
 
-
 ### Radio buttons
 
 Use sentence case for headings and button fields.
-
 
 ### Related articles
 
@@ -236,7 +216,6 @@ Related articles should appear in a logical order, following the step down/step 
 
 If you can, avoid repeating links from the body text in related articles.
 
-
 ### Titles
 
 Titles organize pages and guide readers. A title appears at the beginning of a page and briefly describes the content that follows. Titles also tell search engines what a page is about, and show up in search results. Titles should be unique for each page of the site.
@@ -244,7 +223,6 @@ Titles organize pages and guide readers. A title appears at the beginning of a p
 While titles for our internal documents should be written in title case, titles for our website pages are written in sentence case for readability.
 
 Don’t use end punctuation in a title unless the title is a question.
-
 
 ## SEO
 
