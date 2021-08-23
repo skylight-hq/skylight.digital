@@ -157,7 +157,7 @@ Use hyphens to separate words, just as with URLs.
 
 Lowercase is better, because it’s easier to type and to remember.
 
-Use the right extension — PDFs should have .pdf at the end, JPGs should have .jpg at the end, etc.
+Use the right extension — PDFs should have `.pdf` at the end, JPGs should have `.jpg` at the end, etc.
 
 Shorter is better, but the content should be descriptive to the user, and it’s better to have long descriptive filenames than short obscure ones (for example, `summary-of-pay-gap-findings.pdf` is better than `paygap.pdf` or `smmrypgpfnds.pdf`).
 
