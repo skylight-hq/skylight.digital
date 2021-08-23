@@ -687,6 +687,12 @@ Honor companies’ own names for themselves and their products. Go by what’s u
 * iPad
 * YouTube
 * Yahoo!
+
+#### No
+{: .fails }
+* Ipad
+* Youtube
+* Yahoo
 </div>
 
 Refer to a company or product as “it” (not “they”).
