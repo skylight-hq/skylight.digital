@@ -10,7 +10,7 @@ feature_image_description:
 order: 6
 display: true
 tags: [transformation, research & design, coaching & training, air force, charlye tran, laura kerry, olivia lucas, zoe do]
-excerpt: Embedding service design ways of thinking and working throughout the U.S. Air Force, starting with BESPIN and the U.S. Weather Systems Program Office.
+excerpt: Embedding service design ways of thinking and working throughout the U.S. Air Force, starting with BESPIN and the Weather Systems Program Office.
 project_members:
   - charlye-tran
   - laura-kerry
