@@ -17,7 +17,7 @@ This section highlights a few common types of structured content that we write a
 
 ## Blog posts
 
-The Skylight blog is a place where we share what we’ve learned, what we’ve made, and what we do in an accessible, public way. We work in the open and share information that makes our work understandable and usable. We write frankly about the challenges we encounter and detail the lessons we learn when making tough decisions. For an example, see [“A human-centered approach to rebuilding the U.S. Refugee Admission Program”](https://skylight.digital/thoughts/blog/a-human-centered-approach-to-rebuilding-the-us-refugee-admission-program).
+The Skylight blog is a place where we share what we’ve learned, what we’ve made, and what we do in an accessible, public way. We work in the open and share information that makes our work understandable and usable. We write frankly about the challenges we encounter and detail the lessons we learn when making tough decisions. For an example, see [A human-centered approach to rebuilding the U.S. Refugee Admission Program](https://skylight.digital/thoughts/blog/a-human-centered-approach-to-rebuilding-the-us-refugee-admission-program).
 
 
 In sum, our goals are:
@@ -44,13 +44,13 @@ The authors listed on a blog post should be only the people who have actively co
 
 ## Case studies
 
-Case studies take a high-level look at a complete Skylight project. They’re generally more structured than blog posts. Case studies should convey big-picture details about a project, such as who the users are, what their problems are, and how Skylight helped solve their problems. At the end of the day, case studies are tools for demonstrating the value that we can provide to prospective clients and teaming partners. Therefore, we're aiming for compelling, "executive-level" narratives. For an example, see [“Modernizing COVID-19 testing and reporting in non-traditional healthcare settings”](https://skylight.digital/work/experience/cdc-simplereport/).
+Case studies take a high-level look at a complete Skylight project. They’re generally more structured than blog posts. Case studies should convey big-picture details about a project, such as who the users are, what their problems are, and how Skylight helped solve their problems. At the end of the day, case studies are tools for demonstrating the value that we can provide to prospective clients and teaming partners. Therefore, we're aiming for compelling, "executive-level" narratives. For an example, see [Modernizing COVID-19 testing and reporting in non-traditional healthcare settings](https://skylight.digital/work/experience/cdc-simplereport/).
 
 ## Employee spotlight post
 
 As Skylight grows, it’s important for us to continue to recruit amazing people. It’s also important to us that we further your career by giving you opportunities to build your personal brand.
 
-An Employee Spotlight Blog Post is a great way to achieve both. By showing people a bit about who we are, what we do, and why we do it, we make what could seem wonky a bit more relatable. For an example, see [“Gianna Uson: Launching a civic tech career.”](https://skylight.digital/thoughts/blog/gianna-uson-launching-a-civic-tech-career/).
+An Employee Spotlight Blog Post is a great way to achieve both. By showing people a bit about who we are, what we do, and why we do it, we make what could seem wonky a bit more relatable. For an example, see [Gianna Uson: Launching a civic tech career](https://skylight.digital/thoughts/blog/gianna-uson-launching-a-civic-tech-career/).
 
 ## Style guides
 
