@@ -48,7 +48,7 @@ Within organizations as complex as the USAF, however, UX design falls short of d
 
 Ultimately, UX design at enterprise scale perpetuates a patchwork of partial, inefficient solutions. This shortcoming has driven design-minded organizations like Google and the UK Government Digital Service to embrace service design. Service design is an emerging, but proven discipline for designing, aligning, and optimizing an organization's operation (people, processes, technology, etc.) to better support user journeys.
 
-Recognizing the need for a more holistic approach to human-centered design, the USAF engaged us through the [AFWERX program](https://www.afwerx.af.mil/) to help it rapidly scale the adoption of service design, starting with BESPIN and the USAF Weather Systems Program Office (WxPO).
+Recognizing the need for a more holistic approach to human-centered design, the USAF engaged us through the [AFWERX program](https://www.afwerx.af.mil/) to help it rapidly scale the adoption of service design, starting with BESPIN and the Weather Systems Program Office (WxPO).
 {% endcapture %}
 
 {% capture solution %}
