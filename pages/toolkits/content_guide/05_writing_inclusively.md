@@ -25,8 +25,11 @@ Audiences are made up of real people, so always use “they.” Avoid referring 
 
 Avoid referencing a person’s age unless it’s relevant to what you’re writing. If it _is_ relevant, include the person’s specific age, offset by commas.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 The CEO, 16, just got her driver’s license.
-{: .example }
+>div
 
 Avoid referring to people using age-related descriptors like “young,” “old,” or “elderly.”
 
