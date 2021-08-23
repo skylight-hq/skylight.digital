@@ -15,25 +15,26 @@ Adhering to certain rules of grammar and mechanics helps us keep our writing cle
 
 ## Basics
 
-**Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
+* **Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
 
-**Focus your message.** Create a hierarchy of information. Lead with the main point or the most important content, in sentences, paragraphs, sections, and pages.
+* **Focus your message.** Create a hierarchy of information. Lead with the main point or the most important content, in sentences, paragraphs, sections, and pages.
 
-**Be concise.** Use short words and sentences. Avoid unnecessary modifiers.
+* **Be concise.** Use short words and sentences. Avoid unnecessary modifiers.
 
-**Be specific.** Avoid vague language. Cut the fluff.
+* **Be specific.** Avoid vague language. Cut the fluff.
 
-**Be consistent.** Stick to the copy patterns and style points outlined in this guide.
+* **Be consistent.** Stick to the copy patterns and style points outlined in this guide.
 
 ## Abbreviations and acronyms
 
 If an acronym is necessary for future reference, spell the full word and follow with the acronym in parentheses on the first reference.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * First use: The General Services Administration (GSA)
 * Second use: GSA
-* First use: Coordinated Universal Time (UTC)
-* Second use: UTC
-{: .example }
+</div>
 
 If the abbreviation or acronym is well known, like NASA, NAACP, or FBI, use it instead (and don’t worry about spelling it out).
 
@@ -73,8 +74,11 @@ Words like “was” and “by” may indicate that you’re writing in a passiv
 
 One exception is when you want to specifically emphasize the action over the subject. In some cases, this is fine.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 Your account was flagged by our Abuse team.
-{: .example }
+</div>
 
 ## Capitalization
 
@@ -101,9 +105,12 @@ For more, see the [word list](/work/toolkits/content-guide/word-list/).
 
 When writing out an email address or website URL, use all lowercase.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * [hello@skylight.digital](mailto:hello@skylight.digital)
 * [skylight.digital](https://skylight.digital/)
-{: .example }
+</div>
 
 ## Contractions
 
@@ -115,24 +122,33 @@ We also encourage clients to consider using contractions, too, though we recogni
 
 Spell out a number when it begins a sentence. In body copy, spell out numbers one through nine, and use numerals for numbers 10 and greater.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Nine new employees started on Monday, and 12 start next week.
 * I ate three donuts at Coffee Hour.
 * Meg won first place in last year’s Walktober contest.
 * We hosted a group of 10th graders who are learning to code.
-{: .example }
+</div>
 
 In titles, subheadings, tables, and interface labels, use numerals instead of spelling out numbers. We do this to promote ease of reading and scannability — in titles and headings, it’s easier for readers to scan numerals than it is for them to scan written-out numbers.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * 10 digital tech leaders you should know now
 * 6 ways to incorporate plain-language strategies
-{: .example }
+</div>
 
 Numbers over three digits get commas:
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * 999
 * 1,000
 * 150,000
-{: .example }
+</div>
 
 If you’re wrangling a lot of numbers, tables can help you visualize that content. Long paragraphs cluttered with numbers or dates are more difficult to scan than, for example:
 
@@ -148,9 +164,12 @@ If you’re wrangling a lot of numbers, tables can help you visualize that conte
 
 Generally, spell out the day of the week and the month. Abbreviate only if space is an issue.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Saturday, January 24
 * Sat., Jan. 24
-{: .example }
+</div>
 
 ### Decimals and fractions
 
@@ -168,25 +187,34 @@ two-thirds
 
 Use decimal points when a number can’t be easily written out as a fraction.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * 375
 * 47.2
-{: .example }
+</div>
 
 ### Money
 
 When writing about U.S. currency, use the dollar sign before the amount. When referring to amounts of U.S. currency in cents or greater than $1 million, use numerals followed by words:
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * $20
 * $19.99
 * $2.7 million
 * 5 cents
-{: .example }
+</div>
 
 When writing about other currencies, follow the same symbol-amount format:
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * ¥1
 * €1
-{: .example }
+</div>
 
 ### Page numbering
 
@@ -200,8 +228,11 @@ Use the % symbol instead of spelling out "percent."
 
 Use an en dash (–) to indicate a range or span of numbers.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * It takes 20–30 days.
-{: .example }
+</div>
 
 To add an en dash, input “option-[hyphen]” on Mac or “alt-[hyphen]” on PC. You can also insert it as a special character.
 
@@ -209,51 +240,73 @@ To add an en dash, input “option-[hyphen]” on Mac or “alt-[hyphen]” on P
 
 Use dashes without spaces between numbers. Use a country code if your reader is in another country.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * 555-867-5309
 * +1-404-123-4567
-{: .example }
+</div>
+
 
 ### Temperature
 
 Use the degree symbol and the capital F abbreviation for Fahrenheit.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * 98°F
-{: .example }
+</div>
 
 ### Time
 
 Use numerals and am or pm, with a space in between. Don’t use minutes for on-the-hour time.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * 7 am
 * 7:30 pm
-{: .example }
+</div>
 
 Use an en dash between times to indicate a time period.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * 7 am–10:30 pm
-{: .example }
+</div>
 
 Specify time zones when writing about an event or something else people would need to schedule. There's no need to specify whether it's Daylight or Standard time. Abbreviate time zones within the continental United States as follows:
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Eastern time: ET
 * Central time: CT
 * Mountain time: MT
 * Pacific time: PT
-{: .example }
+</div>
 
 When referring to international time zones, spell them out: Nepal Standard Time, Australian Eastern Time. If a time zone doesn't have a set name, use its [Coordinated Universal Time (UTC) offset](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets).
 
 Abbreviate decades when referring to those within the past 100 years.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * the ‘00s
 * the ‘90s
-{: .example }
+</div>
 
 When referring to decades more than 100 years ago, be more specific:
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * the 1900s
 * the 1890s
-{: .example }
+</div>
 
 ## Punctuation
 
@@ -261,9 +314,12 @@ When referring to decades more than 100 years ago, be more specific:
 
 Use ampersands only if it's convention or if it's part of a company or brand name.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Company: Ben & Jerry’s, AT&T
 * Convention: DE&I, R&D
-{: .example }
+</div>
 
 In all other cases, use “and” instead of an ampersand.
 
@@ -271,9 +327,12 @@ In all other cases, use “and” instead of an ampersand.
 
 The apostrophe’s most common use is making a word possessive. If the word ends in an s or is plural, just add an apostrophe.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * The donut thief ate Sam’s donut.
 * The donut thief ate Chris’ donuts.
-{: .example }
+</div>
 
 Apostrophes can also be used to denote that you’ve dropped some letters from a word, usually for humor or emphasis. This is fine, but do it sparingly.
 
@@ -281,13 +340,20 @@ Apostrophes can also be used to denote that you’ve dropped some letters from a
 
 Use a colon (rather than an ellipsis, em dash, or comma) to offset a list.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 Erin ordered three kinds of donuts: glazed, chocolate, and pumpkin.
-{: .example }
+</div>
 
 You can also use a colon to join two related phrases. If a complete sentence follows the colon, capitalize the first word.
 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 Erin was faced with a dilemma: She wanted a donut, but she’d just eaten a bagel.
-{: .example }
+</div>
 
 ### Commas
 
@@ -327,17 +393,23 @@ Usually, a hyphen isn’t necessary for compound adjectives that follow a noun (
 
 Use a hyphen (-) without spaces on either side to link words into a single phrase, or to indicate a span or range.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * first-time user
 * Monday-Friday
-{: .example }
+</div>
 
 Use an em dash (—) with a space on either side of the dash.
 
 Use a true em dash, not hyphens (- or --).
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * We emphasize open, digital record keeping, and — whenever possible — we illuminate our processes.
 * Austin thought Brad was the donut thief, but he was wrong — it was Lain.
-{: .example }
+</div>
 
 To add an em dash, input “shift-option-[hyphen]” on Mac or “alt-fn-mjij” on PC. You can also insert it as a special character on Google Docs.
 
@@ -345,13 +417,19 @@ To add an em dash, input “shift-option-[hyphen]” on Mac or “alt-fn-mjij”
 
 Ellipses (...) can be used to indicate that you’re trailing off before the end of a thought. Use them sparingly. Don’t use them for emphasis or drama, and don’t use them in titles or headers.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 “Where did all those donuts go?” Christy asked. Lain said, “I don't know...”
-{: .example }
+</div>
 
 Ellipses, in brackets, can also be used to show that you're omitting words in a quote.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 “When in the Course of human events it becomes necessary for one people to dissolve the political bands which have connected them with another and to assume among the powers of the earth, [...] a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.”
-{: .example }
+</div>
 
 ### Exclamation points
 
@@ -365,10 +443,13 @@ Never use exclamation points in failure messages or alerts. When in doubt, avoid
 
 Periods go inside quotation marks. They go outside parentheses when the parenthetical is part of a larger sentence, and inside parentheses when the parenthetical stands alone.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Christy said, “I ate a donut.”
 * I ate a donut (and I ate a bagel, too).
 * I ate a donut and a bagel. (The donut was Sam’s.)
-{: .example }
+</div>
 
 Leave a single space between sentences.
 
@@ -376,9 +457,12 @@ Leave a single space between sentences.
 
 Question marks go inside quotation marks if they’re part of the quote. Like periods, they go outside parentheses when the parenthetical is part of a larger sentence, and inside parentheses when the parenthetical stands alone.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Sam asked, “Did you eat my donut?”
 * Did Sam say “you can eat my donut”?
-{: .example }
+</div>
 
 ### Quotation marks
 
@@ -388,9 +472,12 @@ Periods and commas go within quotation marks. Question marks within quotes follo
 
 Use single quotation marks for quotes within quotes.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Who was it that said, “A fool and his donut are easily parted”?
 * Brad said, “A wise man once told me, ‘A fool and his donut are easily parted.’”
-{: .example }
+</div>
 
 ### Semicolons
 
@@ -430,19 +517,25 @@ JavaScript/React
 
 When referring generally to a file extension type, use all uppercase without a period. Add a lowercase s to make plural.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * GIF
 * PDF
 * HTML
 * JPGs
-{: .example }
+</div>
 
-When referring to a specific file, the filename should be lowercase:
+When referring to a specific file, the filename should be lowercase.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * slowclap.gif
 * mcbenefits.pdf
 * ben-twitter-profile.jpg
 * ilovedonuts.html
-{: .example }
+</div>
 
 ### Names and titles
 
@@ -450,16 +543,22 @@ The first time you mention a person in writing, refer to them by their first and
 
 Capitalize the names of departments and teams (but not the word "team" or "department").
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Marketing team
 * Support department
-{: .example }
+</div>
 
 Capitalize individual job titles when referencing a specific role used directly before an individual’s name.  Don't capitalize when referring to the role in general terms.
 
+div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Please welcome Marketing Manager Susan James, who starts today.
 * Susan James, our marketing manager, starts today.
 * All the marketing managers ate donuts.
-{: .example }
+</div>
 
 Don't refer to someone as a “ninja,” “rockstar,” or “wizard” unless they literally are one.
 
@@ -473,22 +572,42 @@ For more on writing about gender, see [writing inclusively](/work/toolkits/conte
 
 When quoting someone in a blog post or other publication, use the present tense.
 
+div class="example" markdown="1">
+#### Yes
+{: .passes }
 “Working with Skylight has been a great experience,” says Jamie Smith.
-{: .example }
+</div>
 
 ### Schools
 
 The first time you mention a school, college, or university in a piece of writing, refer to it by its full official name. On all other mentions, use its more common abbreviation.
 
+div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Georgia Institute of Technology, Georgia Tech
 * Georgia State University, GSU
-{: .example }
+</div>
 
 ### Slang and jargon
 
 Write in plain English. If you need to use a technical term, briefly define it so everyone can understand.
 
-Avoid using formal or long words when easy or short ones will do. For example, use “buy” instead of “purchase,” “help” instead of “assist,” “about” instead of “approximately,” and so on.
+Avoid using formal or long words when easy or short ones will do. 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* buy
+* help
+* about
+
+#### No
+{: .fails }
+* purchase
+* assist
+* approximately
+</div>
 
 ### States, cities, and countries
 
@@ -502,9 +621,12 @@ On first mention, write out United States. On subsequent mentions, write U.S. (n
 
 Use italics to indicate the title of a long work (like a book, movie, or album) or to emphasize a word.
 
+div class="example" markdown="1">
+#### Yes
+{: .passes }
 * _Jurassic Park_
 * Brandon _really_ loves _Jurassic Park_.
-{: .example }
+</div>
 
 Left-align text, never center or right-align.
 
@@ -542,9 +664,12 @@ Refer to Skylight as “we,” not “it.”
 
 Honor companies’ own names for themselves and their products. Go by what’s used on their official website.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * iPad
 * YouTube
 * Yahoo!
-{: .example }
+</div>
 
 Refer to a company or product as “it” (not “they”).
