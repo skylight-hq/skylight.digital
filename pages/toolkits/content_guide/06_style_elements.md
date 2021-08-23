@@ -82,19 +82,36 @@ Your account was flagged by our Abuse team.
 
 ## Capitalization
 
-We use a few different forms of capitalization. Title case capitalizes the first letter of every word except articles, prepositions, and conjunctions. Sentence case capitalizes the first letter of the first word.
+We use a few different forms of capitalization depending on the context. This includes title case and sentence case.
 
-* Title Case Like This
-* Sentence case, like this
-{: .example }
+### Title case
 
-We use title case only in certain circumstances:
+Title case capitalizes the first letter of every word except articles, prepositions, and conjunctions. We use title case only in certain circumstances, such as the main title of a document or a file name.
 
-* The main title of a document (Skylight Content Guide)
-* File names (Skylight Document Template)
-{: .example }
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Skylight Content Guide
 
-In all other instances, we use sentence case. This includes headings and subheadings. Other capitalization guidelines:
+#### No
+{: .fails }
+Skylight content guide
+</div>
+
+### Sentence case
+In general, we use sentence case. Sentence case capitalizes the first letter of the first word. This includes headings and subheadings. 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+About this guide
+
+#### No
+{: .fails }
+About this Guide
+</div>
+
+Other capitalization guidelines:
 
 * Do capitalize proper nouns, including names of individuals, places, and agencies. The main feature of a proper noun is that it names a specific one-of-a-kind item. Use your discretion and context to determine whether to capitalize a word as a proper noun.
 * Don’t capitalize “agile,” unless it's the first word of a sentence.
@@ -140,7 +157,7 @@ In titles, subheadings, tables, and interface labels, use numerals instead of sp
 * 6 ways to incorporate plain-language strategies
 </div>
 
-Numbers over three digits get commas:
+Numbers over three digits get commas.
 
 <div class="example" markdown="1">
 #### Yes
@@ -196,7 +213,7 @@ Use decimal points when a number can’t be easily written out as a fraction.
 
 ### Money
 
-When writing about U.S. currency, use the dollar sign before the amount. When referring to amounts of U.S. currency in cents or greater than $1 million, use numerals followed by words:
+When writing about U.S. currency, use the dollar sign before the amount. When referring to amounts of U.S. currency in cents or greater than $1 million, use numerals followed by words.
 
 <div class="example" markdown="1">
 #### Yes
@@ -207,7 +224,7 @@ When writing about U.S. currency, use the dollar sign before the amount. When re
 * 5 cents
 </div>
 
-When writing about other currencies, follow the same symbol-amount format:
+When writing about other currencies, follow the same symbol-amount format.
 
 <div class="example" markdown="1">
 #### Yes
@@ -277,7 +294,7 @@ Use an en dash between times to indicate a time period.
 * 7 am–10:30 pm
 </div>
 
-Specify time zones when writing about an event or something else people would need to schedule. There's no need to specify whether it's Daylight or Standard time. Abbreviate time zones within the continental United States as follows:
+Specify time zones when writing about an event or something else people would need to schedule. There's no need to specify whether it's Daylight or Standard time. For time zones within the continental United States, use abbreviations.
 
 <div class="example" markdown="1">
 #### Yes
@@ -299,7 +316,7 @@ Abbreviate decades when referring to those within the past 100 years.
 * the ‘90s
 </div>
 
-When referring to decades more than 100 years ago, be more specific:
+When referring to decades more than 100 years ago, be more specific.
 
 <div class="example" markdown="1">
 #### Yes
@@ -552,7 +569,7 @@ Capitalize the names of departments and teams (but not the word "team" or "depar
 
 Capitalize individual job titles when referencing a specific role used directly before an individual’s name.  Don't capitalize when referring to the role in general terms.
 
-div class="example" markdown="1">
+<div class="example" markdown="1">
 #### Yes
 {: .passes }
 * Please welcome Marketing Manager Susan James, who starts today.
@@ -572,7 +589,7 @@ For more on writing about gender, see [writing inclusively](/work/toolkits/conte
 
 When quoting someone in a blog post or other publication, use the present tense.
 
-div class="example" markdown="1">
+<div class="example" markdown="1">
 #### Yes
 {: .passes }
 “Working with Skylight has been a great experience,” says Jamie Smith.
@@ -582,7 +599,7 @@ div class="example" markdown="1">
 
 The first time you mention a school, college, or university in a piece of writing, refer to it by its full official name. On all other mentions, use its more common abbreviation.
 
-div class="example" markdown="1">
+<div class="example" markdown="1">
 #### Yes
 {: .passes }
 * Georgia Institute of Technology, Georgia Tech
@@ -621,7 +638,7 @@ On first mention, write out United States. On subsequent mentions, write U.S. (n
 
 Use italics to indicate the title of a long work (like a book, movie, or album) or to emphasize a word.
 
-div class="example" markdown="1">
+<div class="example" markdown="1">
 #### Yes
 {: .passes }
 * _Jurassic Park_
