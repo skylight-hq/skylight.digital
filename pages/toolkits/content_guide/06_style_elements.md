@@ -251,7 +251,7 @@ Use an en dash (–) to indicate a range or span of numbers.
 * It takes 20–30 days.
 </div>
 
-To add an en dash, input “option-[hyphen]” on Mac or “alt-[hyphen]” on PC. You can also insert it as a special character.
+To add an en dash, input `option-[hyphen]` on Mac or `alt-[hyphen]` on PC. You can also insert it as a special character.
 
 ### Telephone numbers
 
@@ -428,7 +428,7 @@ Use a true em dash, not hyphens (- or --).
 * Austin thought Brad was the donut thief, but he was wrong — it was Lain.
 </div>
 
-To add an em dash, input “shift-option-[hyphen]” on Mac or “alt-fn-mjij” on PC. You can also insert it as a special character on Google Docs.
+To add an em dash, input `shift-option-[hyphen]` on Mac or `alt-fn-mjij` on PC. You can also insert it as a special character on Google Docs.
 
 ### Ellipses
 
