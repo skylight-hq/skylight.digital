@@ -124,10 +124,10 @@ Headings and subheadings organize content for readers. They should include the m
 
 Headings and subheadings are written in sentence case. Avoid using end punctuation except for question marks or when a heading is two or more sentences.
 
-Organize headings and subheadings hierarchically, with headings first, followed by subheadings in order. (An H2 will nestle under H1, an H3 under H2, and on down.) Avoid skipping heading levels (for example, don’t start with an H3 — use CSS if you want a small H2).
+Organize headings and subheadings hierarchically, with headings first, followed by subheadings in order. (An `H2` will nestle under `H1`, an `H3` under `H2`, and on down.) Avoid skipping heading levels (for example, don’t start with an `H3` — use CSS if you want a small `H2`).
 
-* Headings (H1) give people a taste of what they’re about to read. Use them for page and blog titles.
-* Subheadings (H2, H3, etc.) break articles into smaller, more specific sections. They give readers avenues into your content and make it more scannable.
+* Headings (`H1`) give people a taste of what they’re about to read. Use them for page and blog titles.
+* Subheadings (`H2`, `H3`, etc.) break articles into smaller, more specific sections. They give readers avenues into your content and make it more scannable.
 
 ### Line breaks
 
