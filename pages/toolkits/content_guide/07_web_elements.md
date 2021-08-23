@@ -201,7 +201,7 @@ Use sentence case for main navigation and subnavigation.
 
 Navigation links should be clear and concise.
 
-### Quotations
+### Quotations and apostrophes
 
 <p>Use curly quotation marks (“”) and apostrophes (‘’), as opposed to straight quotation marks ("") and apostrophes (').</p>
 
