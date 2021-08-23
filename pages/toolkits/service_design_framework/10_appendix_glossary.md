@@ -42,9 +42,9 @@ content_type: Toolkit
 
 **Operations, operational:** The organizational infrastructure and resources — processes, people and teams, etc.  — set up to deliver a service. Operations can include workflow, but also contains other aspects of an organization’s structure.
 
-**Pain points:** Issues with a product or service as experienced by a user or provider. ** **
+**Pain points:** Issues with a product or service as experienced by a user or provider.
 
-**Problem space:** The various components in the process of defining and resolving a problem** **
+**Problem space:** The various components in the process of defining and resolving a problem
 
 **Physical evidences:** The tangible pieces or proof of an interaction during a service. An example is a folded end of a toilet paper roll as a physical evidence in a turndown service.
 
@@ -81,4 +81,3 @@ content_type: Toolkit
 **Workflow:** The sequence of tasks and activities an organization uses to deliver a service.
 
 **Workshop:** Sessions for groups of stakeholders to discuss the project and participate in activities to solve problems. These are a kind of method.
-

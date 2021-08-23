@@ -6,24 +6,27 @@ tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/proto-personas/
 sidenav: service_design_framework
 content_type: Toolkit
+class: design-method
 ---
 
-# Proto-personas
+INITIATE PHASE
+{: .kicker }
 
-##### INITIATE PHASE
+# Proto-personas
+{: .mt-0 }
 
 Quickly build a lightweight representation of your customers to develop empathy and foster a common understanding of needs and goals.
 
+<div class="callout--tip callout--summary" markdown="1">
+## Templates
+[Proto-persona](https://app.mural.co/t/skylight2171/m/skylight2171/1626192437600/a517a9bcb2268baad6dd19e950dd50b19df03a22?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
 
-```
-Templates
-Proto-persona [MURAL]
-Who's involved
+## Who's involved
 Service designer, core team, and close stakeholders
-Timeframe
-Create the stakeholder map in the very beginning stages of kick-off to work towards stakeholder alignment and buy-in early on in the process
-```
 
+## Timeframe
+Create the stakeholder map in the very beginning stages of kick-off to work towards stakeholder alignment and buy-in early on in the process
+</div>
 
 ## How to use this method
 
@@ -31,38 +34,26 @@ Personas are representations of your users based on research around actual goals
 
 To create proto-personas, follow these steps:
 
-
-
-1. Brainstorm characteristics
+### 1. Brainstorm characteristics
 
 As a team, gather insights from research and observations. Writing one idea per sticky note, capture as much information about your users as possible. This can include background information, needs, goals, or anything else. Encourage everyone to contribute.
 
-
-
-2. Group ideas
+### 2. Group ideas
 
 Once everyone on the team has contributed ideas, begin to sort. Cluster ideas together in these three categories:
 
-
-
 * Needs: What your proto-persona needs to accomplish their goals
 * Goals: What you’re trying to enable them to accomplish through this project
-* Pain points: What obstacles stand in the way of them accomplishing their goals \
+* Pain points: What obstacles stand in the way of them accomplishing their goals
 
-3. Hone in
+### 3. Hone in
 
 Now, start to shape your proto-persona. Using real observations, decide on a set of coherent characteristics for your persona. How old are they? What’s their salary? If your service has a technological component, what’s their level of tech literacy?
 
-
-
-4. Expand behaviors and beliefs
+### 4. Expand behaviors and beliefs
 
 Based on the characteristics you’ve chosen, jot down your proto-persona’s story in the form of a paragraph or bullet points. Who are they and what are the beliefs that inform how they interact with the service?
 
+### 5. Put it all together
 
-
-5. Put it all together
-
-Pull out the needs, goals, and pain points from the larger collection that align with the characteristics and behaviors/beliefs you’ve detailed. Give the proto-persona a name.  \
-
-
+Pull out the needs, goals, and pain points from the larger collection that align with the characteristics and behaviors/beliefs you’ve detailed. Give the proto-persona a name.

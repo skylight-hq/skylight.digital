@@ -6,23 +6,27 @@ tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/
 sidenav: service_design_framework
 content_type: Toolkit
+class: design-method
 ---
 
-# Alignment/kickoff workshop
+INITIATE PHASE
+{: .kicker }
 
-##### INITIATE PHASE
+# Alignment/kickoff workshop
+{: .mt-0 }
 
 During these workshops, align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
 
+<div class="callout--tip callout--summary" markdown="1">
+## Templates
+[Project planning](https://app.mural.co/t/skylight2171/m/skylight2171/1616616919235/d45e9ad265333254e5a81535dbf05848901b012c?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
 
-```
-Templates
-Project planning [MURAL]
-Who's involved
+## Who's involved
 For internal workshops, include all team members. For external workshops, include all team members, stakeholders, and any third-party subcontractors.
-Timeframe
+
+## Timeframe
 Plan to schedule 1–3 hours for each session, as early as possible
-```
+</div>
 
 Kickoff workshops and alignment artifacts are structured to align project groups and stakeholders around the process, goals, and vision of a project. Help the project go smoothly by kicking it off with a team charter for the internal group and performing a longer session with partners and stakeholders. Organize these as early as possible, as soon as the full team is assembled.
 
@@ -32,8 +36,5 @@ For stakeholders and other team members outside of the core project team, these 
 
 ## More resources
 
-
-
-* [Article] [“Planning a client kickoff meeting”](https://medium.com/@jaf_designer/why-product-thinking-is-the-next-big-thing-in-ux-design-ee7de959f3fe)
-* [Video] [”Kickoff Meetings for Team Alignment Before Starting UX Projects”](http://nngroup.com/videos/kickoff-meetings/) (Nielsen Norman Group)
-
+* [“Planning a client kickoff meeting”](https://medium.com/@jaf_designer/why-product-thinking-is-the-next-big-thing-in-ux-design-ee7de959f3fe) <span class="badge badge-sub">Article</span>
+* [”Kickoff Meetings for Team Alignment Before Starting UX Projects”](http://nngroup.com/videos/kickoff-meetings/) (Nielsen Norman Group) <span class="badge badge-sub">Video</span>

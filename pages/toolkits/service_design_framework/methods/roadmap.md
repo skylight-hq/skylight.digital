@@ -6,24 +6,27 @@ tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/roadmap/
 sidenav: service_design_framework
 content_type: Toolkit
+class: design-method
 ---
 
-# Roadmap
+IMPLEMENT PHASE
+{: .kicker }
 
-##### IMPLEMENT PHASE
+# Roadmap
+{: .mt-0 }
 
 This exercise can help you gain alignment across the team and stakeholders. It creates a shared understanding of a goal and the steps you need to achieve it along a timeline.
 
+<div class="callout--tip callout--summary" markdown="1">
+## Templates
+[Roadmap](https://app.mural.co/t/skylight2171/m/skylight2171/1616617530554/a12285ae24f1cca4d96b650ffb41dc13c1a63a8a?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
 
-```
-Templates
-Roadmap [MURAL]
-Who's involved
+## Who's involved
 The product owner or project manager should create this artifact in consultation with stakeholders
-Timeframe
-After prototyping is complete and you begin to create an implementation plan; the roadmap should continue to evolve once created
-```
 
+## Timeframe
+After prototyping is complete and you begin to create an implementation plan; the roadmap should continue to evolve once created
+</div>
 
 ## How to use this method
 

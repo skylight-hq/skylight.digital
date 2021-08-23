@@ -119,4 +119,3 @@ Success metrics are the criteria you define to measure how well your service and
 Detail the features you’ll develop in informal, plain language descriptions of user interactions. This will keep the work user-centered and focused on the overall vision.
 
 [Read about user stories → ](/work/toolkits/service-design-framework/methods/user-stories/)
-

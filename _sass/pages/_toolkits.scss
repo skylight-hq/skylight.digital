@@ -243,6 +243,10 @@ $icon-size: 2rem;
   &::before {
     background: url(/img/icons/tip.svg) no-repeat center/$icon-size;
   }
+
+  .badge-sub {
+    background-color: $ochre-60;
+  }
 }
 
 .callout--note {
@@ -265,5 +269,11 @@ $icon-size: 2rem;
 .callout--summary {
   h3 {
     font-size: $font-size-small;
+  }
+}
+
+.page-design-method {
+  .badge-sub {
+    margin-left: 0.5ch;
   }
 }

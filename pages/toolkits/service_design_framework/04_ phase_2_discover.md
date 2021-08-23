@@ -26,11 +26,11 @@ Continue iterating on the problem space and work towards a shared point of view 
 Build a deeper understanding for our users and stakeholders and become an expert on their needs and motivations
 
 ## Methods
-- [Stakeholder and customer interviews]()
-- [Desk review or secondary research]()
-- [Affinity mapping]()
-- [Customer journey mapping]()
-- [Service blueprint]()
+- [Stakeholder and customer interviews](/work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/)
+- [Desk review or secondary research](/work/toolkits/service-design-framework/methods/desk-review-or-secondary-research/)
+- [Affinity mapping](/work/toolkits/service-design-framework/methods/affinity-mapping/)
+- [Customer journey mapping](/work/toolkits/service-design-framework/methods/customer-journey-mapping/)
+- [Service blueprint](/work/toolkits/service-design-framework/methods/service-blueprint/)
 </div>
 
 Before you start improving a service, it’s important to understand the different components that interact to create a service ecosystem. During the Discover phase, focus on researching the service and problem space and pulling out patterns from your data through synthesis.
