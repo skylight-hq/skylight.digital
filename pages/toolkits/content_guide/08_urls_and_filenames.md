@@ -17,15 +17,15 @@ URLs should be short, memorable, easy to type, and well-structured. Your control
 
 In the vast majority of cases, everything a user can reach on your site should have a distinct URL that a user can bookmark and use later to reach that same location.
 
-When creating URLs, use dashes to separate words, omit articles (a/an/the), use the stems of verbs (/make-thing/ rather than /making-thing/), and avoid extraneous terms.
+When creating URLs, use dashes to separate words, omit articles (a/an/the), use the stems of verbs (`/make-thing/` rather than `/making-thing/`), and avoid extraneous terms.
 
 ### Domains
 
-It’s not necessary to have www. at the start of a domain. This is a holdover from the early internet. Any domain that has a www level should also work if that level is omitted.
+It’s not necessary to have `www.` at the start of a domain. This is a holdover from the early internet. Any domain that has a `www` level should also work if that level is omitted.
 
 Domain names should be short, using abbreviations unless those are likely to be meaningless to users.
 
-If a domain level has more than one word, you should strongly consider separating the words with dashes to make sure users read them the way you intend. If Skylight had a project called EARS that for some reason needed a two-level domain, that domain should be skylight-ears.digital and not skylightears.digital (ears.skylight.digital would probably be the ideal).
+If a domain level has more than one word, you should strongly consider separating the words with dashes to make sure users read them the way you intend. If Skylight had a project called EARS that for some reason needed a two-level domain, that domain should be `skylight-ears.digital` and not `skylightears.digital` (`ears.skylight.digital` would probably be the ideal).
 
 Domains are case-insensitive. They should be written as lowercase.
 
@@ -33,16 +33,16 @@ Domains are case-insensitive. They should be written as lowercase.
 
 Again, the shorter the better, but long paths are more excusable than long domains.
 
-Paths are typically understood as hierarchies that become increasingly specific: /our-style/urls-and-filenames/ reflects that urls-and-filenames is part of our-style. If this were a much larger guide, it’s possible that it could be divided further, for example /our-style/urls-and-filenames/creating-urls/.
+Paths are typically understood as hierarchies that become increasingly specific: `/our-style/urls-and-filenames/` reflects that `urls-and-filenames` is part of `our-style`. If this were a much larger guide, it’s possible that it could be divided further, for example `/our-style/urls-and-filenames/creating-urls/`.
 
 Each level of a path should make it possible to find the content beneath it:
 
-* The content at the root level should reflect that /our-style/ is present.
-* /our-style/ should make it easy to find urls-and-filenames/.
+* The content at the root level should reflect that `/our-style/` is present.
+* `/our-style/` should make it easy to find `urls-and-filenames/`.
 
 Conversely, the user should be able to remove a level from the path and end up at the parent of the original content.
 
-Paths should be designed to be sensible for the user, not to reflect internal technical or bureaucratic structure. For example, filename extensions like .php should be avoided as they reflect the internal technology used on the server (and will not reflect even that if the site later changes to a different technology).
+Paths should be designed to be sensible for the user, not to reflect internal technical or bureaucratic structure. For example, filename extensions like `.php` should be avoided as they reflect the internal technology used on the server (and will not reflect even that if the site later changes to a different technology).
 
 When separating words in a path, use hyphens. Hyphens are commonly understood by search engines to indicate word breaks (whereas other separators, like underscores, are not).
 
@@ -159,7 +159,7 @@ Lowercase is better, because it’s easier to type and to remember.
 
 Use the right extension — PDFs should have .pdf at the end, JPGs should have .jpg at the end, etc.
 
-Shorter is better, but the content should be descriptive to the user, and it’s better to have long descriptive filenames than short obscure ones (for example, summary-of-pay-gap-findings.pdf is better than paygap.pdf or smmrypgpfnds.pdf).
+Shorter is better, but the content should be descriptive to the user, and it’s better to have long descriptive filenames than short obscure ones (for example, `summary-of-pay-gap-findings.pdf` is better than `paygap.pdf` or `smmrypgpfnds.pdf`).
 
 Avoid the use of special characters beyond the hyphen and period, unless absolutely necessary. Don't include spaces (use hyphens in their place).
 
@@ -169,8 +169,8 @@ Whether beginning with the protocol or not, always lowercase URLs in text. Paths
 
 In interactive contexts, particularly web pages, URLs (except when used as examples, as throughout this document) should always be active links. When they’re active links, don't include the protocol in the link text.
 
-In non-interactive contexts, such as print, the protocol can be omitted, assuming http:// and https:// both work and bring the user to the same place.
+In non-interactive contexts, such as print, the protocol can be omitted, assuming `http://` and `https://` both work and bring the user to the same place.
 
-There are occasions where URLs should be delimited — use &lt; and > for this. This isn't normally necessary in interactive contexts where the link is clearly defined, but is most often relevant in email, where the writer may have to guess at what their email program will turn into a link. This is particularly true when the URL contains spaces.
+There are occasions where URLs should be delimited — use "&lt; and >" for this. This isn't normally necessary in interactive contexts where the link is clearly defined, but is most often relevant in email, where the writer may have to guess at what their email program will turn into a link. This is particularly true when the URL contains spaces.
 
 Filenames are case-sensitive, and their case should be preserved when they're referred to in text. Don't capitalize if beginning a sentence with a filename that begins with a lowercase letter. Filenames may need to be delimited in the same way as URLs.
