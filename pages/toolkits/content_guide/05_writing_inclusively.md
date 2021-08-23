@@ -29,7 +29,7 @@ Avoid referencing a person’s age unless it’s relevant to what you’re writi
 #### Yes
 {: .passes }
 The CEO, 16, just got her driver’s license.
->div
+</div>
 
 Avoid referring to people using age-related descriptors like “young,” “old,” or “elderly.”
 
