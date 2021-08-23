@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Prioritization workshop | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to align your team and stakeholders on which solutions to pursue based on factors such as value to customers and organizational lift.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/prioritization-workshop/
 sidenav: service_design_framework

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Phase 2: Discover | Skylight Service Design Framework"
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: A description of the research phase of service design, including outcomes and methods.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/phase-2-discover/
 sidenav: service_design_framework

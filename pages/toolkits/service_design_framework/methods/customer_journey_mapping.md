@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Customer journey mapping | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to visualize how a customer interacts with a service to get a holistic view of their experience.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/customer-journey-mapping/
 sidenav: service_design_framework

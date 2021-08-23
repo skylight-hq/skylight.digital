@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Proto-personas | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to build a lightweight representation of your customers to develop empathy and foster a common understanding of needs and goals.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/proto-personas/
 sidenav: service_design_framework

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Service design overview | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: A description of service design, including when to use it and who practices the human-centered design methodology.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/
 sidenav: service_design_framework

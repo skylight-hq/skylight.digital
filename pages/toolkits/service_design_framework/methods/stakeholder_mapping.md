@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Stakeholder mapping | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to create a visual representation of all the people who can influence a project and how they’re connected.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/stakeholder-mapping/
 sidenav: service_design_framework

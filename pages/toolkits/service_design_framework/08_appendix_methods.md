@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Appendix: Methods | Skylight Service Design Framework"
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: A list of the methods and activities used to achieve service design outcomes in each phase of a project.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/appendix-methods/
 sidenav: service_design_framework

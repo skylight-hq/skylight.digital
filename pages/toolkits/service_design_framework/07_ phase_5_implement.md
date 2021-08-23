@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Phase 5: Implement | Skylight Service Design Framework"
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: A description of the phase of service design when you put solutions into production, including outcomes and methods.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/phase-5-implement/
 sidenav: service_design_framework

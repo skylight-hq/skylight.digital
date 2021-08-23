@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Appendix: Glossary | Skylight Service Design Framework"
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: Definitions of common technical terms used during the service design process and in the Skylight Service Design Framework.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/appendix-glossary/
 sidenav: service_design_framework

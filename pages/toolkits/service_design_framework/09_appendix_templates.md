@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Appendix: Templates | Skylight Service Design Framework"
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: A list of templates to use and adapt for service design methods.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/appendix-templates/
 sidenav: service_design_framework

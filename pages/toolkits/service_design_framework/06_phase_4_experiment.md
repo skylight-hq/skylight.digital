@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Phase 4: Experiment | Skylight Service Design Framework"
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: A description of the testing and experimenting phase of service design, including outcomes and methods
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/phase-4-experiment/
 sidenav: service_design_framework

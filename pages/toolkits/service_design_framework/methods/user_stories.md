@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: User stories | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to detail the features you’ll develop in informal, plain language descriptions of user interactions.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/user-stories/
 sidenav: service_design_framework

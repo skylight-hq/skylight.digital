@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Roadmap | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to create a shared understanding of your goals and the steps you need to achieve it along a timeline.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/roadmap/
 sidenav: service_design_framework

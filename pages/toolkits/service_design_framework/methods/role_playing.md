@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Role-playing | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to act out a service to understand the key elements you should consider in designing a solution.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/role-playing/
 sidenav: service_design_framework

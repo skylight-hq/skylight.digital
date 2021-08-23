@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Wizard of Oz | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to get responses to a working prototype without investing in making one.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/wizard-of-oz/
 sidenav: service_design_framework

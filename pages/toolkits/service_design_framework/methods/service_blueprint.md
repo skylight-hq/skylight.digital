@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Service blueprint | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to visualize the many pieces of a service that work — or don’t work — together to create it.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/service-blueprint/
 sidenav: service_design_framework

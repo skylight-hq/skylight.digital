@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Success metrics | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to select the criteria you define to measure how well your service and its implementation meet the goals of the project.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/success-metrics/
 sidenav: service_design_framework

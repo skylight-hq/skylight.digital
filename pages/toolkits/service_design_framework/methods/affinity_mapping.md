@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Affinity mapping | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to collaboratively synthesize research findings and turn data into actionable insights.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/affinity-mapping/
 sidenav: service_design_framework

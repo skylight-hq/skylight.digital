@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Minimum viable product (MVP) | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to define and create the first iteration of a product that you deploy to the market.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/minimum-viable-product/
 sidenav: service_design_framework

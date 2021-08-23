@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Alignment/kickoff workshop | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/
 sidenav: service_design_framework

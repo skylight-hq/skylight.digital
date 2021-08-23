@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Stakeholder and customer interviews | Skylight Service Design Framework
-description: Guidelines and tools for creating optimal experiences for both users and your organization.
+description: How to talk with the people that the project outcomes will impact or who have a stake in the success of the project.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/
 sidenav: service_design_framework
