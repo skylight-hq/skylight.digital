@@ -6,7 +6,7 @@ content_type: BlogPosting
 image: /img/blog/charlye_tran_interview/charlye-tran.svg
 image_description: Portrait of Charlye Tran.
 image_display: true
-# order: 2700
+order: 3700
 tags: [people and culture, research, design, service delivery, charlye tran]
 excerpt: "Service Designer, Charlye Tran, wasn’t always a public-interest technologist, but her work always had a goal of delivering positive outcomes to people."
 authors:
