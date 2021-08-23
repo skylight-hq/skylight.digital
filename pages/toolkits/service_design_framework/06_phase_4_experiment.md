@@ -44,13 +44,13 @@ By the end of the Experiment phase, you should end up with a refined solution. Y
 
 While we haven’t yet reached this phase, we plan to test our assumptions and gather feedback as quickly and as often as possible to iterate and refine our solutions. Since our recommendations to  WxPO focus on organizational changes, we’ll test prototypes within a smaller group to ensure their feasibility before scaling them to the larger organization.
 
-**Methods**
+### Methods
 
-* Role-playing
+#### Role-playing
 
-    To better understand how users in the WxPO would react, we leverage this simple method of prototyping to help us gain insight into how people would respond to our proposed solutions.
+To better understand how users in the WxPO would react, we leverage this simple method of prototyping to help us gain insight into how people would respond to our proposed solutions.
 
-* User flows
+#### User flows
 
-    One of the solutions requires that we fully understand how users interact with a particular system. To quickly test our understanding of the process, we validate it by creating a user flow diagram that we test with the users.
+One of the solutions requires that we fully understand how users interact with a particular system. To quickly test our understanding of the process, we validate it by creating a user flow diagram that we test with the users.
 </div>

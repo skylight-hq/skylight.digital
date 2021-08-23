@@ -54,17 +54,17 @@ When the project pivoted after further research revealed a need for a larger sco
 
 ### Methods
 
-* **Stakeholder mapping**
+#### Stakeholder mapping
 
-  We conducted initial research to understand all the people who could influence our project and how they’re connected, then laid them out visually.
+We conducted initial research to understand all the people who could influence our project and how they’re connected, then laid them out visually.
 
-* **Kickoff workshop**
+#### Kickoff workshop
 
-  We led key stakeholders through a series of activities and conversations to align on goals and vision for the project.
+We led key stakeholders through a series of activities and conversations to align on goals and vision for the project.
 
-* **Proto personas**
+#### Proto personas
 
-  In collaboration with our stakeholders, we built initial personas based on team assumptions to start develop
+In collaboration with our stakeholders, we built initial personas based on team assumptions to start develop
 
 ### Project artifacts
 

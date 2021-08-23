@@ -20,19 +20,19 @@ The methods below are organized by phase. Visit each one to find a detailed desc
 
 During these workshops, align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
 
-[Read about alignment/kickoff workshops →](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
+[Read about alignment/kickoff workshops<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
 
 ### Proto-personas
 
 Quickly build a lightweight representation of your customers to develop empathy and foster a common understanding of needs and goals.
 
-[Read about proto-personas →](/work/toolkits/service-design-framework/methods/proto-personas/)
+[Read about proto-personas<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/proto-personas/)
 
 ### Stakeholder mapping
 
 Create a visual representation of all the people who can influence a project and how they’re connected. This can help get buy-in from and include the right people during the service design process.
 
-[Read about stakeholder mapping →](/work/toolkits/service-design-framework/methods/stakeholder-mapping/)
+[Read about stakeholder mapping<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/stakeholder-mapping/)
 
 ## Discover
 
@@ -40,31 +40,31 @@ Create a visual representation of all the people who can influence a project and
 
 Talk with the people that the project outcomes will impact or who have a stake in the success of the project. This can inform solutions, build trust, and drive alignment.
 
-[Read about stakeholder interviews →](/work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/)
+[Read about stakeholder interviews<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/)
 
 ### Desk review or secondary research
 
 Compile and review information related to the project. This can include documentation from the existing service and articles related to the user population and problem space.
 
-[Read about desk review and secondary research →](/work/toolkits/service-design-framework/methods/desk-review-or-secondary-research/)
+[Read about desk review and secondary research<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/desk-review-or-secondary-research/)
 
 ### Affinity mapping {#affinity-mapping}
 
 Engage your team and relevant stakeholders to collaboratively synthesize research findings. Turn data into actionable insights that help inform the next stages of the process.
 
-[Read about ecosystem diagrams →](/work/toolkits/service-design-framework/methods/affinity-mapping/)
+[Read about ecosystem diagrams<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/affinity-mapping/)
 
 ### Customer journey mapping
 
 Visualize how a customer interacts with a service to get a holistic view of their experience. This provides a better understanding of the customer and surfaces opportunities for improvements.
 
-[Read about customer journey mapping →](/work/toolkits/service-design-framework/methods/customer-journey-mapping/)
+[Read about customer journey mapping<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/customer-journey-mapping/)
 
 ### Service blueprint
 
 Better understand a service and how you can improve it by visualizing the many pieces that work — or don’t work — together to create it. Include people, the tools they use, and their processes.
 
-[Read about service blueprints →](/work/toolkits/service-design-framework/methods/service-blueprint/)
+[Read about service blueprints<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/service-blueprint/)
 
 ## Strategize
 
@@ -72,13 +72,13 @@ Better understand a service and how you can improve it by visualizing the many p
 
 Align your team and stakeholders on which solutions to pursue based on factors such as value to customers and organizational lift.
 
-[Read about prioritization workshops → ](/work/toolkits/service-design-framework/methods/prioritization-workshop/)
+[Read about prioritization workshops<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i> ](/work/toolkits/service-design-framework/methods/prioritization-workshop/)
 
 ### POV (point of view) statement
 
 Articulate who your customers are, their needs, and important insights about them. Use this statement to gain a deeper understanding of the problem space and start developing solutions.
 
-[Read about POV statements → ](/work/toolkits/service-design-framework/methods/pov-statement/)
+[Read about POV statements<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i> ](/work/toolkits/service-design-framework/methods/pov-statement/)
 
 ## Experiment
 
@@ -86,13 +86,13 @@ Articulate who your customers are, their needs, and important insights about the
 
 Act out a service to understand the key elements you should consider in designing a solution.
 
-[Read about role playing →](/work/toolkits/service-design-framework/methods/role-playing/)
+[Read about role playing<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/role-playing/)
 
 ### Wizard of Oz
 
 Get responses to a working prototype without investing in making one. Create responses behind-the-scenes to user interactions to test functionality.
 
-[Read about Wizard of Oz → ](/work/toolkits/service-design-framework/methods/wizard-of-oz/)
+[Read about Wizard of Oz<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i> ](/work/toolkits/service-design-framework/methods/wizard-of-oz/)
 
 ## Implement
 
@@ -100,22 +100,22 @@ Get responses to a working prototype without investing in making one. Create res
 
 An MVP is the first iteration of a product that you deploy to market. This should be the simplest product that still solves customer and organizational needs.
 
-[Read about minimum viable products →](/work/toolkits/service-design-framework/methods/minimum-viable-product/)
+[Read about minimum viable products<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/minimum-viable-product/)
 
 ### Roadmap
 
 This exercise can help you gain alignment across the team and stakeholders. It creates a shared understanding of a goal and the steps you need to achieve it along a timeline.
 
-[Read about roadmaps →](/work/toolkits/service-design-framework/methods/roadmap/)
+[Read about roadmaps<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/roadmap/)
 
 ### Success metrics
 
 Success metrics are the criteria you define to measure how well your service and its implementation meet the goals of the project.
 
-[Read about success metrics → ](/work/toolkits/service-design-framework/methods/success-metrics/)
+[Read about success metrics<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i> ](/work/toolkits/service-design-framework/methods/success-metrics/)
 
 ### User stories
 
 Detail the features you’ll develop in informal, plain language descriptions of user interactions. This will keep the work user-centered and focused on the overall vision.
 
-[Read about user stories → ](/work/toolkits/service-design-framework/methods/user-stories/)
+[Read about user stories<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i> ](/work/toolkits/service-design-framework/methods/user-stories/)

@@ -50,20 +50,19 @@ In order to fully understand the scope of what challenges the WxPO continued to 
 
 ### Methods
 
-* **Stakeholder, WxPO personnel, end user interviews**
+#### Stakeholder, WxPO personnel, end user interviews
 
-    We conducted several interviews to better understand where the WxPO was currently at with its digital transformation efforts, as well as the pain points people were experiencing.
+We conducted several interviews to better understand where the WxPO was currently at with its digital transformation efforts, as well as the pain points people were experiencing.
 
-* **Affinity mapping**
+#### Affinity mapping
 
-    After these interviews, we took the data we learned and went through affinity mapping sessions to draw out insights that we could then take action upon.
+After these interviews, we took the data we learned and went through affinity mapping sessions to draw out insights that we could then take action upon.
 
-* **Desk review**
+#### Desk review
 
-    In order to build a deeper understanding of successful digital transformation efforts, we spent time researching how other organizations underwent their own transformation.
+In order to build a deeper understanding of successful digital transformation efforts, we spent time researching how other organizations underwent their own transformation.
 
-* **Personas**
+#### Personas
 
-    Based on the research we performed, we created several personas that allowed us to focus on specific users as we moved to the strategize phase
+Based on the research we performed, we created several personas that allowed us to focus on specific users as we moved to the strategize phase
 </div>
-

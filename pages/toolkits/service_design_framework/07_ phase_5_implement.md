@@ -36,17 +36,17 @@ During this phase, deploy solutions into “production” — the real-world env
 
 With so many moving parts, it can help to think about Implement in three distinct but overlapping and iterative parts:
 
-1. **Plan**
+### 1. Plan
 
-    Starting as early as the Strategize phase, begin to consider how solutions will require staff to change their processes and functions. Also prepare for how the organization will need to change as a whole. Develop champions for proposed solutions by bringing leadership and staff into the planning process as soon as possible. Methods such as a [roadmap](/work/toolkits/service-design-framework/methods/roadmap/) can help you gain alignment with stakeholders. Note: You may want to create a roadmap earlier in the process, but you will focus on refining it and gaining alignment around it during this phase.
+Starting as early as the Strategize phase, begin to consider how solutions will require staff to change their processes and functions. Also prepare for how the organization will need to change as a whole. Develop champions for proposed solutions by bringing leadership and staff into the planning process as soon as possible. Methods such as a [roadmap](/work/toolkits/service-design-framework/methods/roadmap/) can help you gain alignment with stakeholders. Note: You may want to create a roadmap earlier in the process, but you will focus on refining it and gaining alignment around it during this phase.
 
-2. **Rollout**
+### 2. Rollout
 
-    It’s time to put a solution in action. Similar to software releases, it can be helpful to think about rolling out solutions in phases — alpha, beta, and final deployment. This approach allows you to test, refine, and acclimate stakeholders to solutions before full implementation.
+It’s time to put a solution in action. Similar to software releases, it can be helpful to think about rolling out solutions in phases — alpha, beta, and final deployment. This approach allows you to test, refine, and acclimate stakeholders to solutions before full implementation.
 
-3. **Measure and iterate**
+### 3. Measure and iterate
 
-    Before you fully implement a solution, determine what success looks like. Keep track of [success metrics](/work/toolkits/service-design-framework/methods/success-metrics/) and KPIs (key performance indicators) and compare them to results going forward. Examples of metrics include customers' net promoter scores (NPS) or the time it takes for employees to complete tasks. By keeping track of metrics, you can not only continue to refine solutions, but also show the impact of your service design work.
+Before you fully implement a solution, determine what success looks like. Keep track of [success metrics](/work/toolkits/service-design-framework/methods/success-metrics/) and KPIs (key performance indicators) and compare them to results going forward. Examples of metrics include customers' net promoter scores (NPS) or the time it takes for employees to complete tasks. By keeping track of metrics, you can not only continue to refine solutions, but also show the impact of your service design work.
 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: Putting it all together
@@ -59,15 +59,15 @@ The goal of this phase is to take the feedback gained from implementing the solu
 
 ### Methods
 
-* **Roadmap**
+#### Roadmap
 
-    Our roadmap allowed us to strategically lay out how we would go about implementing the solutions, including timelines, who would be involved, outcomes and what feedback we wanted to continue to gather. Though we haven’t reached the Implement phase yet, we started building this early to test and gain alignment around our plan.
+Our roadmap allowed us to strategically lay out how we would go about implementing the solutions, including timelines, who would be involved, outcomes and what feedback we wanted to continue to gather. Though we haven’t reached the Implement phase yet, we started building this early to test and gain alignment around our plan.
 
-* **MVP**
+#### MVP
 
-    Building an MVP allows us to “go to market” cheaply and continue to test our solution in as much of a real-world scenario as possible. At this stage, although we’ve moved past experimenting, we’ll continue to iterate on our strategy to make adjustments and build a better solution.
+Building an MVP allows us to “go to market” cheaply and continue to test our solution in as much of a real-world scenario as possible. At this stage, although we’ve moved past experimenting, we’ll continue to iterate on our strategy to make adjustments and build a better solution.
 
-* **Success metrics**
+#### Success metrics
 
-    In order to continue to iterate and move toward a more refined solution, we’ll need to understand when we’ve hit our target. Having a set goal in mind and continuing to benchmark against those metrics will ensure that we stay on track and know when is good enough.
+In order to continue to iterate and move toward a more refined solution, we’ll need to understand when we’ve hit our target. Having a set goal in mind and continuing to benchmark against those metrics will ensure that we stay on track and know when is good enough.
 </div>

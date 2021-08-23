@@ -49,15 +49,15 @@ Afterwards, we held brainstorming sessions with the WxPO to build on these recom
 
 ### Methods
 
-* **Brainstorming**
+#### Brainstorming
 
-    Brainstorming sessions allowed the group to creatively discuss ideas to address the problems that the WxPO wanted to resolve.
+Brainstorming sessions allowed the group to creatively discuss ideas to address the problems that the WxPO wanted to resolve.
 
-* **Prioritization workshop**
+#### Prioritization workshop
 
-    During a prioritization workshop, stakeholders and users were asked to align on which solutions to focus on by mapping the solutions on an Impact/Feasibility matrix.
+During a prioritization workshop, stakeholders and users were asked to align on which solutions to focus on by mapping the solutions on an Impact/Feasibility matrix.
 
-* **Scoping exercises**
+#### Scoping exercises
 
-    After we prioritized solutions, the WxPO walked through a scoping exercise to understand what value each of the solutions would add, what problems it would address for the users, and illustrate and define key goals for each of the solutions.  We also held high-level discussions about what would and would not be in scope during these sessions.
+After we prioritized solutions, the WxPO walked through a scoping exercise to understand what value each of the solutions would add, what problems it would address for the users, and illustrate and define key goals for each of the solutions.  We also held high-level discussions about what would and would not be in scope during these sessions.
 </div>
