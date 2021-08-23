@@ -25,13 +25,14 @@ For more on how and why we use alt text, read [writing for accessibility](/work/
 
 Buttons should always contain actions. The language should be clear and concise. Use sentence case for buttons. It’s OK to use an ampersand in button copy.
 
-Standard website buttons include:
-
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Log in
 * Sign up
 * Subscribe
 * Contact us
-{: .example }
+</div>
 
 ### Callouts
 
@@ -55,7 +56,7 @@ Emphasizes a particular quote separate from the main text. Features a blue backg
   cite_title = "Deputy Director, Office of Innovation at CHHS"
 %}
 
-#### Block Quote
+#### Block quote
 
 Accentuates a longer quote (four lines or more). Block quotes are indented from the main text, but remain integrated within it.
 
@@ -75,7 +76,7 @@ Offers the reader an actionable piece of advice (e.g., “do this”). Tips are 
 This is a “tip” callout.
 {: .callout--tip }
 
-#### News / Case study
+#### News / case study
 
 Highlights additional content that’s separate from the substance of the main text (e.g., links to news articles, case studies). Features a light gray box with a blue border.
 
