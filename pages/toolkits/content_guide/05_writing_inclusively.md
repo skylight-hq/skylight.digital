@@ -56,7 +56,6 @@ Use the following words as modifiers, not as nouns:
 * trans
 * queer
 * LGBT
-{: .example }
 
 For example, “transgender person,” “queer person,” or “lesbian woman.”
 
@@ -65,7 +64,6 @@ Avoid these words in reference to LGBT people or communities:
 * homosexual
 * lifestyle
 * preference
-{: .example }
 
 Avoid “same-sex” marriage, unless the distinction is relevant to what you’re writing. (Avoid “gay marriage.”) Otherwise, it’s just “marriage.”
 
