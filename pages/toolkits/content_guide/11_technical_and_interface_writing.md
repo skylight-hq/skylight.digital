@@ -49,11 +49,7 @@ You cannot continue without signing in.
 
 ### Titles and headings
 
-Be consistent with how you phrase titles. If your guide or tutorial has several pages, stick to the same naming convention for scannability, such as:
-
-* Nouns: Policies, Teams, Offices
-* Verbs: Create an account, File a report, Download our data
-{: .example }
+Be consistent with how you phrase titles. If your guide or tutorial has several pages, stick to the same naming convention for scannability.
 
 ### Introduction
 
@@ -61,13 +57,16 @@ Include a short two- or three-sentence summary about the document to help the re
 
 ### Code
 
-When adding instructions to perform a task on a computer, manually adjust the font to use Roboto Mono. This formatting helps content read as a digital artifact. Examples include emails, written text, text messages, and code blocks. See below:
+When adding instructions to perform a task on a computer, manually adjust the font to use Roboto Mono. This formatting helps content read as a digital artifact. Examples include emails, written text, text messages, and code blocks. 
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Use the `legend` element to offer a label within each form element.
 * Copy and paste `mkdir /home/foo/doc/bar && cd $_` into Terminal.
-{: .example }
+</div>
 
-In the first example, `legend` is an HTML element and should be styled as code. “Element” is a technical concept and shouldn’t be marked up as code. “Label” is both a concept and an HTML element but is used here in the former sense and should not be styled as code.
+In the first example, `legend` is an HTML element and should be styled as code. “Element” is a technical concept and shouldn’t be marked up as code. “Label” is both a concept and an HTML element but is used here in the former sense and shouldn't be styled as code.
 
 Don't capitalize code elements, even at the start of a sentence, unless the term is capitalized in the code itself.
 
@@ -85,21 +84,27 @@ Use [straight quotes](http://smartquotesforsmartpeople.com/) within code blocks 
 
 #### Code-like elements
 
-The same rules apply to pieces of text that must be used exactly as presented, such as passwords or WiFi network names:
+The same rules apply to pieces of text that must be used exactly as presented, such as passwords or WiFi network names.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * `someCl3v3rN4me` is the name of our WiFi network.
 * Your password is `PleaseChangeMeSoon`.
-{: .example }
+</div>
 
 ### Interface elements
 
-Use clear verbs to tell readers how to interact with interface elements:
+Use clear verbs to tell readers how to interact with interface elements.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 * Choose from drop-down menus.
 * Select or deselect checkboxes and radio buttons.
 * Click or tap buttons.
 * Follow or open links.
-{: .example }
+</div>
 
 ### Tables
 
@@ -109,14 +114,11 @@ Tables are generally suitable only for data: two or more “objects” (rows) th
 
 It’s rare that a document lives on its own. Tell people where to go for help if they have questions.
 
-For documentation and guides, you might say:
-
-For more information, see the [Skylight Content Guide](#0).
-{: .example }
-
-To refer the reader to a Slack channel, follow this format:
-
-Still have questions? Ask in #general.
-{: .example }
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* For more information, see the [Skylight Content Guide](#0).
+* Still have questions? Ask in #general.
+</div>
 
 If your work relates to several other documents, pick the most important ones or gather the links in a section at the bottom.
