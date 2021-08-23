@@ -87,13 +87,13 @@ We employ hashtags to connect to broader communities (e.g., #CivicTech, #Digital
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
-#CivicTech
-#PrideMonth
+* #CivicTech
+* #PrideMonth
 
 #### No
 {: .fails }
-#Civictech
-#Pridemonth
+* #Civictech
+* #Pridemonth
 </div>
 
 ### Trending topics
