@@ -21,10 +21,14 @@ That being said, we’ve found a few areas where marketing has evolved its own s
 
 One of the great things about email is that you can communicate with specific segments of people. As a general rule, it’s great to make the email feel personal, while being mindful of any assumptions you might be inadvertently applying across the recipient list. Use the Skylight voice and tone guide as a baseline (let empathy inform how you communicate) and feel free to tweak your message based on your understanding of the recipients’ shared characteristics.
 
-* Be open and forthcoming about why the recipient is receiving the email and what’s in it for them.
-* Where appropriate, it’s great to acknowledge that people receive a lot of marketing emails and encourage recipients to change their preferences or unsubscribe if they wish. A small, engaged email list is better than a large, disinterested list.
-* “If these emails ever feel a bit much, you can adjust your email preferences in your account over here.”
-* “I’d love to know how we can help you get the most out of our emails to you. Feel free to hit reply and let us know! Or if your inbox is feeling a little clogged, you can unsubscribe here.”
+Be open and forthcoming about why the recipient is receiving the email and what’s in it for them. Where appropriate, it’s great to acknowledge that people receive a lot of marketing emails and encourage recipients to change their preferences or unsubscribe if they wish. A small, engaged email list is better than a large, disinterested list.
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* If these emails ever feel a bit much, you can adjust your email preferences in your account over here.
+* I’d love to know how we can help you get the most out of our emails to you. Feel free to hit reply and let us know! Or if your inbox is feeling a little clogged, you can unsubscribe here.
+</div>
 
 ### How to write subject lines
 
@@ -54,8 +58,11 @@ Meet me for ☕ later?
 
 If you’re using an emoji at the end of a sentence that has punctuation, or between sentences, the emoji comes after the terminal punctuation for each sentence.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 Don’t forget to celebrate! 🎉
-{: .example }
+</div>
 
 ### Engagement
 
@@ -76,6 +83,18 @@ Hey @AirForceBES, can you RT this post we wrote about you? https://skylight.digi
 ### Hashtags
 
 We employ hashtags to connect to broader communities (e.g., #CivicTech, #DigitalGov), be part of event discussions, or to highlight team members as part of an affinity month (#PrideMonth, #BlackHistoryMonth, etc.). Use CamelCase in hashtags with multiple words, lowercase for single words.
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+#CivicTech
+#PrideMonth
+
+#### No
+{: .fails }
+#Civictech
+#Pridemonth
+</div>
 
 ### Trending topics
 
