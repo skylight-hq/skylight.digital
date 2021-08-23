@@ -18,7 +18,9 @@ Through many projects, Skylight understands the challenges of applying service d
 
 The framework includes five phases that a typical service design process moves through:
 
-![Skylight Service Design Framework](/img/toolkits/service_design/skylight-service-design-framework.svg)
+![](/img/toolkits/service_design/skylight-service-design-framework.svg){: .mt-4}
+Skylight Service Design Framework
+{: .caption .mt-0 .mb-5 }
 
 * **Initiate**: Align on the problem space, including goals, vision, constraints, and environmental considerations
 * **Discover**: Plan; research, analyze, and synthesize; socialize findings and artifacts
@@ -30,7 +32,10 @@ Each phase in the Skylight Service Design Framework is organized around certain 
 
 Service design projects vary in type of problem and solution, timeline, and many other aspects, so the framework is intended to serve as flexible guidelines. It’s normal and expected that you’ll need to return to previous steps in the process as you uncover more questions and paths to explore. As you get more comfortable implementing service design, you’ll gain confidence in knowing when to take a step back in order to move forward.
 
-![Discovery](/img/toolkits/service_design/discovery-alt.svg)
+![](/img/toolkits/service_design/discovery-alt.svg)
+{: .mt-5}
+Discovery
+{: .caption .mt-0 .mb-5 }
 
 ### Methods and templates
 
@@ -52,7 +57,10 @@ This framework offers information, resources, and tools for a range of roles and
 
 ## Tips for success
 
-![People aligning](/img/toolkits/service_design/people-aligning.svg)
+![](/img/toolkits/service_design/people-aligning.svg)
+{: .mt-5}
+People aligning
+{: .caption .mt-0 .mb-5 }
 
 If you’re using the Skylight Service Design Framework to embark on your own service design project, these tips will help guide you throughout the process:
 

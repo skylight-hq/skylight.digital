@@ -20,7 +20,10 @@ Enter service design.
 
 Service design enables organizations to create sustainable and high-quality experiences for both customers and the providers of the services they interact with. Using a process, set of methods, and principles, the discipline takes a holistic look across a service ecosystem. This includes the “frontstage” (what a customer sees) and the “backstage” (the behind-the-scenes organizational structures).
 
-![Service designs stages](/img/toolkits/service_design/service-design-stages-alt.svg)
+![](/img/toolkits/service_design/service-design-stages-alt.svg)
+{: .mt-5 }
+Service designs stages
+{: .caption .mt-0 .mb-5 }
 
 While many organizations focus on improvements to customer experience — which was the case with WxPO’s emphasis on onboarding — frontstage-only solutions often fail without consideration for the systems that support them.
 
