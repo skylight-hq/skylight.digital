@@ -27,7 +27,7 @@ date: 2021-08-23
 
 **Chris Cairns: Why did you decide to join?**
 
-**Charlye Tran:** My first conversation at Skylight was with Chris Cairns, Skylight’s CEO and founder. He spoke with such passion about the work Skylight was undertaking and about the potential impact I could have working there that I was immediately sold!
+**Charlye Tran:** My first conversation at Skylight was with you! You spoke with such passion about the work Skylight was undertaking and about the potential impact I could have working there that I was immediately sold!
 
 **Chris Cairns: What have you worked on so far?**
 
