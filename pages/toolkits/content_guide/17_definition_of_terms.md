@@ -39,5 +39,5 @@ At Skylight, we use a number of specialized terms to describe our way of working
 * **Socioeconomic program:** refers to a special program set up by the government to limit competition to certain types of qualified small businesses. Example programs include 8(a), Woman-Owned Small Business Program, and Service-Disabled Veteran-Owned Small Business Program.
 * **Subcontractor:** a person or company who works under a prime contractor.
 * **Team lead:** someone who provides guidance, instruction, direction, and leadership to a group of individuals (the team). Anyone can be a team lead, including a people manager or an individual contributor.
-* **Teaming agreement:** a contract between a potential prime contractor and another company to act as a subcontractor under a specified customer contract.
-* **Teaming partner:** an external party, such as another company, who we agree to work with in some capacity to win and/or deliver on a customer contract. Also known as “vendor partner.”
+* **Teaming agreement:** a contract between a potential prime contractor and another company that wishes to act as a subcontractor under a specified customer contract.
+* **Teaming partner:** an external party, such as another company, who agrees to work with Skylight in some capacity to win and/or deliver on a customer contract. Also known as “vendor partner.”
