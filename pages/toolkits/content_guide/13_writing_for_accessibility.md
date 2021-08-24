@@ -73,7 +73,7 @@ The `alt` tag is the most basic form of image description, and it should be incl
 
 * If it’s a creative photo or supports a story, describe the image in detail in a brief `alt` tag. Supplement images with standard captions when possible.
 * If the image is serving a specific function, describe what’s inside the image in detail. People who don’t see the image should come away with the same information as if they had.
-* If you’re sharing a chart or graph, include the data in the alt text so people have all the important information.
+* If you’re sharing a chart or graph, include the data in the `alt` text so people have all the important information.
 
 #### Examples
 
