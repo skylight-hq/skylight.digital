@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: About this guide | Skylight Content Guide
-description: Introduces what a content guide does and why it's useful.
+description: A guide on how to write clear, consistent, and accessible content at Skylight.
 tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/
 sidenav: content_guide
