@@ -15,6 +15,8 @@ Adhering to certain rules of grammar and mechanics helps us keep our writing cle
 
 ## Basics
 
+Here are some guiding principles:
+
 * **Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
 
 * **Focus your message.** Create a hierarchy of information. Lead with the main point or the most important content, in sentences, paragraphs, sections, and pages.
