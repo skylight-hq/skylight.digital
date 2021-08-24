@@ -64,7 +64,7 @@ Related resource: The [Conscious Style Guide](http://consciousstyleguide.com/).
 
 * Organize your page around one topic.
 * Use clear, descriptive terms that relate to the topic in titles and headings.
-* Give every image descriptive alt text.
+* Give every image descriptive `alt` text.
 * Buttons should always contain actions. The language should be clear and concise. Use sentence case.
 * Use sentence case for checkboxes and radio buttons.
 * Use sentence case for drop-down menu names and menu items.
