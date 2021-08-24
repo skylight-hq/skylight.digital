@@ -34,6 +34,8 @@ A copyright license spells out these terms:
 * What we can do with the work
 * Any restrictions on our use (for example, that we can use it online but not on a billboard)
 
+#### Example
+
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
