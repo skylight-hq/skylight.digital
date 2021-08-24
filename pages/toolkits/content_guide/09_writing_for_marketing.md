@@ -73,11 +73,11 @@ When appropriate, you can tag the subject of your post on Twitter or LinkedIn. B
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
-We teamed with @AirForceBES to help members of the flight line have an easier way to share when gear isn’t working the way it should. https://skylight.digital/work/experience/usaf-gearfit/
+We teamed with [@AirForceBES](#0) to help members of the flight line have an easier way to share when gear isn’t working the way it should. [https://skylight.digital/work/experience/usaf-gearfit/](#0)
 
 #### No
 {: .fails }
-Hey @AirForceBES, can you RT this post we wrote about you? https://skylight.digital/work/experience/usaf-gearfit/
+Hey [@AirForceBES](#0), can you RT this post we wrote about you? [https://skylight.digital/work/experience/usaf-gearfit/](#0)
 </div>
 
 ### Hashtags
