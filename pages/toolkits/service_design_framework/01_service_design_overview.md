@@ -22,7 +22,7 @@ Service design enables organizations to create sustainable and high-quality expe
 
 ![](/img/toolkits/service_design/service-design-stages-alt.svg)
 {: .mt-5 }
-Service designs stages
+Service design stages
 {: .caption .mt-0 .mb-5 }
 
 While many organizations focus on improvements to customer experience — which was the case with WxPO’s emphasis on onboarding — frontstage-only solutions often fail without consideration for the systems that support them.
