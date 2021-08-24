@@ -71,11 +71,12 @@ To register, [click here](#0)
 
 The `alt` tag is the most basic form of image description, and it should be included on all images. The language will depend on the purpose of the image:
 
-* If it’s a creative photo or supports a story, describe the image in detail in a brief `alt` tag. Supplement images with standard captions when possible.
+* If it’s a creative photo or supports a story, describe the image in detail in a brief `alt` tag. Our convention is to use full sentences for `alt` text, including end punctuation. Supplement images with standard captions when possible.
 * If the image is serving a specific function, describe what’s inside the image in detail. People who don’t see the image should come away with the same information as if they had.
 * If you’re sharing a chart or graph, include the data in the `alt` text so people have all the important information.
+* When describing an image, avoid saying “image of.” For example, if you were writing the `alt` tag for a pie chart, don’t caption it as “image of pie chart,” since the screen reader will read that as “Image, image of pie chart.”
 
-#### Examples
+#### Example
 
 <div class="example">
 <img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
