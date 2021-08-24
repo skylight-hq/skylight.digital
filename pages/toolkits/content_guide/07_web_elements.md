@@ -40,7 +40,7 @@ To highlight certain features of the text, you’ll want to consider adding a ca
 
 #### Example
 
-We have two different styles of example callouts. Both styles highlight an example related to the text. We use the first style when working directly with code blocks to differentiate code from text. It features a light grey border and a transparent background. 
+We have two different styles of example callouts. Both styles highlight an example related to the text. We use the first style when working directly with code blocks to differentiate code from text. It features a light gray border and a transparent background.
 
 <div class="example example--code" markdown="1">
   Home <br> <a href="../" title="home">Click here</a>
@@ -54,7 +54,7 @@ Home <a href="../" title="home">Click here</a>
 Keyboard access <a href="../keyboard/" aria-label="Keyboard access">Click here</a>
 ```
 
-We use the second callout style solely to highlight text. It features a light grey border and a light grey background. It may also include a green “yes” or red “no” to indicate accuracy.
+We use the second callout style solely to highlight text. It features a light gray border and a light gray background. It may also include a green “yes” or red “no” to indicate accuracy.
 
 <div class="example" markdown="1">
 #### Yes
@@ -99,7 +99,7 @@ This is a “tip” callout.
 
 #### News / case study
 
-A news callout highlights additional content that’s separate from the substance of the main text (e.g., links to news articles, case studies). It features a light grey box with a blue border.
+A news callout highlights additional content that’s separate from the substance of the main text (e.g., links to news articles, case studies). It features a light gray box with a blue border.
 
 <aside class="news-coverage callout">
   <h2>News callout</h2>
@@ -115,7 +115,7 @@ A news callout highlights additional content that’s separate from the substanc
 
 #### Code block
 
-A code block highlights a section of code. It features roboto mono text, a light grey box, and a light grey border.
+A code block highlights a section of code. It features roboto mono text, a light gray box, and a light gray border.
 
 ```html
 <title>Page Titles - Skylight Accessibility</title>
