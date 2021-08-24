@@ -17,9 +17,9 @@ This section lays out our style in regards to Skylight’s website. While we wro
 
 ### Alt text
 
-Alt text is a way to label images, and it's especially important for people who can’t see the images on our website. Alt text should describe the image in a brief sentence or two. It should be used on all non-decorative images.
+An `alt` attribute (`alt` tag) is a way to label images, and it's especially important for people who can’t see the images on our website. An `alt` tag should describe the image in a brief sentence or two. It should be used on all non-decorative images.
 
-For more on how and why we use alt text, read [writing for accessibility](/work/toolkits/content-guide/writing-for-accessibility/).
+For more on how and why we use `alt` text, read [writing for accessibility](/work/toolkits/content-guide/writing-for-accessibility/).
 
 ### Buttons
 
@@ -231,5 +231,5 @@ We write for humans, not machines. We don't use gross SEO techniques like keywor
 
 * Organize your page around one topic. Use clear, descriptive terms in titles and headings that relate to the topic at hand.
 * Use descriptive headings to structure your page and highlight important information.
-* Give every image descriptive alt text.
+* Give every image descriptive `alt` text.
 * Make sure we have metadata for all the pages we’re creating.
