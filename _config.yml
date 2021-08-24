@@ -111,9 +111,19 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate-v2
   - jekyll-image-size
+  - jekyll-feed
 
 gems:
   - octopress-debugger
+
+feed:
+  collections:
+    projects:
+      path: "/projects.xml"
+    blog_posts:
+      path: "/blog_posts.xml"
+    talks:
+      path: "/talks.xml"
 
 ################################
 # For batch conversion of svgs
