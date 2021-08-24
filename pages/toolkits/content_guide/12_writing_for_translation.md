@@ -91,7 +91,11 @@ Use Skylight to create a product that your users love, modernize data collection
 
 Many words, parts of speech, and grammar mechanics we don’t think twice about have the potential to cause confusion for translators and non-native English speakers. Here are some of the big trouble spots to avoid.
 
-#### Avoid unclear pronoun references
+#### Contractions
+
+Use contractions with caution when writing for translation. Make sure to prioritize clarity. Take into account context and conventions around formal vs. informal tone.
+
+#### Unclear pronoun references
 
 <div class="example" markdown="1">
 #### Yes
@@ -103,13 +107,25 @@ Many believe that UFOs are real. Such belief is interesting, but this belief is 
 Many believe that UFOs are real. This is interesting, but it’s not supported by evidence.
 </div>
 
-#### Avoid -ing words
+### Avoid -ing words
 
-In English, many different types of words end in -ing: nouns, adjectives, progressive verbs, etc. But a translator who is a non-native English speaker may not be able to recognize the distinctions and may try to translate them all in the same way.
+In English, many different types of words end in *-ing:* nouns, adjectives, progressive verbs, etc. But a translator who is a non-native English speaker may not be able to recognize the distinctions and may try to translate them all in the same way.
 
-Because of this, we want to avoid -ing words when possible. One exception to this rule is words like “graphing calculator” and “riding lawnmower,” where the -ing word is part of a noun’s name and can’t be worked around.
+Because of this, we want to avoid *-ing* words when possible. One exception to this rule is words like “graphing calculator” and “riding lawnmower,” where the *-ing* word is part of a noun’s name and can’t be worked around.
 
-Here are some other cases where you might see -ing words, and suggestions for how to edit around them.
+Here are some other cases where you might see *-ing* words, and suggestions for how to edit around them.
+
+#### Adjectives
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+At the top of the hill, you can see a boy with a smile on his face.
+
+#### No
+{: .fails }
+At the top of the hill, you can see a smiling boy.
+</div>
 
 #### Gerunds
 
@@ -123,18 +139,6 @@ In this article we will talk about how to make your data open and accessible to 
 In this article we will talk about making your data open and accessible to the public.
 </div>
 
-#### Adjectives
-
-<div class="example" markdown="1">
-#### Yes
-{: .passes }
-At the top of the hill, there is a boy with a smile on his face.
-
-#### No
-{: .fails }
-At the top of the hill, there is a smiling boy.
-</div>
-
 #### Parts of verbs
 
 <div class="example" markdown="1">
@@ -144,7 +148,7 @@ Several developers are currently working on that feature.
 
 #### No
 {: .fails }
-Several developers are working on that feature. (When you can’t easily avoid the -ing word, it may help to add an adverb to clarify the meaning.)
+Several developers are working on that feature. (When you can’t easily avoid the *-ing* word, it may help to add an adverb to clarify the meaning.)
 </div>
 
 #### Parts of phrases modifying nouns
@@ -159,7 +163,7 @@ From our backyard, we could hear the planes that took off from the airport.
 From our backyard, we could hear the planes taking off from the airport.
 </div>
 
-#### Other words and mechanics to avoid
+### Other words and mechanics to avoid
 
 * Slang, idioms, and cliches
 * Shortened words, even if they’re common in English (use “application,” not “app”)
