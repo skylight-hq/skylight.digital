@@ -36,18 +36,27 @@ Buttons should always contain actions. The language should be clear and concise.
 
 ### Callouts
 
-To highlight certain features of the text, you’ll want to consider adding a callout. Below are the different types of callouts we use at Skylight:
+To highlight certain features of the text, you’ll want to consider adding a callout. Below are the different types of callouts we use at Skylight.
 
 #### Example
 
-Provides an example of something related to the text. Features a light gray border.
+We have two different styles of example callouts. Both styles highlight an example related to the text. We use the first style when working directly with code blocks to differentiate code from text. It features a light grey border and a transparent background. 
 
-This is an “example” callout.
-{: .example }
+We use the second callout style solely to highlight text. It features a light grey border and a light grey background. It may also include a green “yes” or red “no” to indicate accuracy.
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+There are many types of donuts (glazed, powder, chocolate, etc.).
+
+#### No
+{: .fails }
+There are many types of donuts (e.g., glazed, powder, chocolate, etc.).
+</div>
 
 #### Pull quote
 
-Emphasizes a particular quote separate from the main text. Features a blue background.
+A pull quote emphasizes a particular quote separate from the main text. It features a blue background.
 
 {% include callout.html
   type = "pullquote"
@@ -58,27 +67,27 @@ Emphasizes a particular quote separate from the main text. Features a blue backg
 
 #### Block quote
 
-Accentuates a longer quote (four lines or more). Block quotes are indented from the main text, but remain integrated within it.
+A block quote accentuates a longer quote (four lines or more). It’s indented from the main text, but remains integrated within it.
 
 > “One problem with technical debt is that the impact can be slow-growing and somewhat hidden. To the question ‘fix the technical debt, or build new features’ we know how it’s usually answered. As it gets worse, customers complain about slow delivery, increasing the pressure to take more shortcuts, which increases the technical debt, which slows the delivery process, which increases customer dissatisfaction, in a rapidly spiraling vicious cycle.”
 
 #### Note
 
-Provides the reader with information on further resources to check out (e.g., reading list, resources list). Features a light blue box, with an “i” icon.
+A note provides the reader with information on further resources to check out (e.g., reading list, resources list). It features a light blue box with an “i” icon.
 
 This is a “note” callout.
 {: .callout--note }
 
 #### Tip
 
-Offers the reader an actionable piece of advice (e.g., “do this”). Tips are more integrated with the substance of the text. Features a yellow box with a “lightbulb” icon.
+A tip offers the reader an actionable piece of advice (e.g., “do this”) and is more integrated with the substance of the text. It features a yellow box with a “lightbulb” icon.
 
 This is a “tip” callout.
 {: .callout--tip }
 
 #### News / case study
 
-Highlights additional content that’s separate from the substance of the main text (e.g., links to news articles, case studies). Features a light gray box with a blue border.
+A news callout highlights additional content that’s separate from the substance of the main text (e.g., links to news articles, case studies). It features a light grey box with a blue border.
 
 <aside class="news-coverage callout">
   <h2>News callout</h2>
@@ -94,7 +103,7 @@ Highlights additional content that’s separate from the substance of the main t
 
 #### Code block
 
-Highlights a section of code. Features roboto mono text, light gray box, and light grey border.
+A code block highlights a section of code. It features roboto mono text, a light grey box, and a light grey border.
 
 ```html
 <title>Page Titles - Skylight Accessibility</title>
