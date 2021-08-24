@@ -38,6 +38,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **congressional** is lowercase unless part of a proper name. For example, “Congressional Record.”
 
+**current year** is lowercase. It’s okay to abbreviate as CY on the second reference.
+
 ## D
 
 **DC,** not D.C.
