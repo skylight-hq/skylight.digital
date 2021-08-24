@@ -42,6 +42,18 @@ To highlight certain features of the text, you’ll want to consider adding a ca
 
 We have two different styles of example callouts. Both styles highlight an example related to the text. We use the first style when working directly with code blocks to differentiate code from text. It features a light grey border and a transparent background. 
 
+<div class="example example--code" markdown="1">
+  Home <br> <a href="../" title="home">Click here</a>
+
+  Keyboard access <br> <a href="../keyboard/" aria-label="Keyboard access">Click here</a>
+</div>
+
+```html
+Home <a href="../" title="home">Click here</a>
+
+Keyboard access <a href="../keyboard/" aria-label="Keyboard access">Click here</a>
+```
+
 We use the second callout style solely to highlight text. It features a light grey border and a light grey background. It may also include a green “yes” or red “no” to indicate accuracy.
 
 <div class="example" markdown="1">
