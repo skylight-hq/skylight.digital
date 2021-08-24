@@ -34,11 +34,11 @@ Avoid directional instructions and any language that requires the reader to see 
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
-“Select from these options,” (with the steps listed after the title).
+Select from these options (with the steps listed after the title).
 
 #### No
 {: .fails }
-“Select from the options in the right sidebar.”
+Select from the options in the right sidebar.
 </div>
 
 ### Use headers
