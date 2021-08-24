@@ -55,7 +55,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 {:.passes}
 ### Passes
 
-<div class="example" markdown="1">
+<div class="example example--code" markdown="1">
   Home <br> <a href="../" title="home">Click here</a>
 
   Keyboard access <br> <a href="../keyboard/" aria-label="Keyboard access">Click here</a>

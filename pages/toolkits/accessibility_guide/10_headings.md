@@ -44,7 +44,7 @@ lorum ipsum
 {:.passes}
 ### Passes
 
-<div class="example">
+<div class="example example--code">
   <h3 class='e-h3'>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
   <h4 class='e-h4'>Sub Category 1</h4>
@@ -83,7 +83,7 @@ This section has a main category and two subcategories. The subcategories are on
 {:.fails}
 ### Fails
 
-<div class="example">
+<div class="example example--code">
   <h3 class='e-h3'>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
   <h2 class='e-h2'>Sub Category 1</h2>

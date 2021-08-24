@@ -38,7 +38,7 @@ If a table has text associated with it, ensure the text is programatically linke
 ### Passes
 
 #### Simple table
-<div class="example">
+<div class="example example--code">
   <table class="post-table">
     <caption>User’s Height and Age</caption>
     <thead>
@@ -108,7 +108,7 @@ Looking at this table, the column headers all relate to the cells below. This is
 
 #### Complex table
 
-<div class="example">
+<div class="example example--code">
   <table class="post-table">
     <caption>User’s Height and Age</caption>
     <thead>

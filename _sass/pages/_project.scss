@@ -102,6 +102,7 @@
   ul {
     @extend %mb-0;
     @extend %list-item-unstyled;
+    @include list-unstyled;
 
     li:not(:last-child) {
       @extend %pb-3;

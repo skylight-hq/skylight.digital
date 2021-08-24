@@ -24,11 +24,10 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
 
 ## Examples
 
-{:.passes}
-{:.passes}
 ### Passes
+{:.passes}
 
-<div class="example">
+<div class="example example--code">
 
   <div class="row">
     <div class="col-sm-12" style='padding-bottom: 1rem;'>

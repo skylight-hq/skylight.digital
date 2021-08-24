@@ -41,7 +41,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 9. Check that the focus never goes to elements that won't be available to somebody using a mouse.
 
 ## Examples
-<div class="example" markdown='1'>
+<div class="example example--code" markdown='1'>
 <a href="#">Link to nowhere 1</a>
 
 <a href="#">Link to nowhere 2</a>
@@ -70,7 +70,7 @@ Avoid using tabindex of >= 1 as this will disrupt the normal tab order of the pa
 
 Use your keyboard to tab through these links.
 
-<div class="example" markdown='1'>
+<div class="example example--code" markdown='1'>
 <a class="sr-only moveFocus" href="#">hidden</a>
 <a class="keyboardTrap" href="#">Select to disable keyboard trap</a>
 

@@ -3,20 +3,6 @@
   @extend %wide-column;
 }
 
-.page-our-services {
-  .prose {
-    li {
-      &:not(:first-child) {
-        margin-top: 0.5rem;
-      }
-
-      a {
-        padding-top: 0.5rem;
-      }
-    }
-  }
-}
-
 .services-content {
   img {
     width: 100%;
@@ -30,6 +16,10 @@
     @include media-breakpoint-down(xs) {
       margin-top: 1em;
     }
+  }
+
+  ul {
+    padding-left: 0;
   }
 }
 

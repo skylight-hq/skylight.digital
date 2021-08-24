@@ -32,7 +32,8 @@ When using images on a page, you must provide an alternate method for that conte
 ## Examples
 
 ### Correct
-<div class="example">
+{: .passes }
+<div class="example example--code">
 <img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 </div>
 
@@ -42,7 +43,7 @@ When using images on a page, you must provide an alternate method for that conte
 
 Preferred method for providing alternate content. Clear `alt` attribute with all text included.
 
-<div class="example">
+<div class="example example--code">
 <img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" title="Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 </div>
 
@@ -52,7 +53,7 @@ Preferred method for providing alternate content. Clear `alt` attribute with all
 
 Acceptable, but less compatible with certain assistive technologies. Clear title attribute with all text included.
 
-<div class="example">
+<div class="example example--code">
 <img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="">
 <span>Waterfall sign on left cliff. Agile sign on right cliff. Man jumping from left cliff to right cliff.</span>
 </div>
@@ -65,8 +66,9 @@ Acceptable, but less compatible with certain assistive technologies. Clear title
 Information contained in the image is provided on the page. In most instances, an `alt` attribute would be preferred. Images marked with an empty `alt` (`alt=""`) are considered "Decorative" and not read by AT.
 
 ### Incorrect
+{: .fails }
 
-<div class="example">
+<div class="example example--code">
 <img class="img-fluid" src="{{'/img/toolkits/accessibility/agile-acquisition-framework.png' | prepend: site.baseurl}}">
 </div>
 
@@ -76,7 +78,7 @@ Information contained in the image is provided on the page. In most instances, a
 
 Image is missing an `alt` attribute and alternative content.
 
-<div class="example">
+<div class="example example--code">
 <img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Man jumping">
 </div>
 
@@ -86,7 +88,7 @@ Image is missing an `alt` attribute and alternative content.
 
 `alt` attribute is missing text from image.
 
-<div class="example">
+<div class="example example--code">
 <img class="img-fluid" src="/img/toolkits/accessibility/agile-acquisition-framework.png" alt="Image of waterfall sign on left CLIFF. Agile sign on right cliff. Man jumping from left cliff to right cliff.">
 </div>
 

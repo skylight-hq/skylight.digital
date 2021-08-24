@@ -31,7 +31,7 @@ Making forms accessible is a simple process. Each form element should be associa
 {:.passes}
 ### Passes
 
-<div class="example">
+<div class="example example--code">
   <fieldset class="accessibility-fieldset form-group col-sm-8">
     <div class="row">
       <legend class="accessibility-legendcol-form-label col-sm-12 pt-0">Please enter your name</legend>
@@ -101,7 +101,7 @@ Each form element has a ```label```, and it's associated with the ```for``` attr
 {:.fails}
 ### Fails
 
-<div class="example">
+<div class="example example--code">
   <fieldset class="accessibility-fieldset form-group col-sm-8">
     <div class="row">
       <legend class="accessibility-legend col-form-label col-sm-12 pt-0">Enter your name</legend>
@@ -185,7 +185,7 @@ Using `aria-label` or `aria-labelledby` will cause a screen reader to only read 
 
 Reads just the `label` and not the description.
 
-<div class="example">
+<div class="example example--code">
   <div class="form-group col-sm-6">
     <label for="car_1">Car</label>
     <input class="form-control" type="text" id="car_1"/>
@@ -205,7 +205,7 @@ Screen reader reads input as: `Car Edit text`.
 
 Reads the `aria-label` and doesn't read the normal `label`.
 
-<div class="example">
+<div class="example example--code">
   <div class="form-group col-sm-6">
       <label for="car_2">Car</label>
       <input class="form-control" type="text" id="car_2" aria-label="Car, please enter make and model" />
@@ -225,7 +225,7 @@ Screen reader reads input as: `Car, please enter make and model Edit text`.
 
 Reads only the `aria-labelledby` attribute and not the default label.
 
-<div class="example">
+<div class="example example--code">
   <div class="form-group col-sm-6">
       <label for="car_3">Car</label>
       <input class="form-control" type="text" id="car_3" aria-labelledby="carmakedescription_3" />
@@ -245,7 +245,7 @@ Screen reader reads input as: `Please enter Make and Model Edit text`.
 
 Reads both labels indicated by the `aria-labelledby` attribute.
 
-<div class="example">
+<div class="example example--code">
   <div class="form-group col-sm-6">
       <label for="car_4" id="carlabel_4">Car</label>
       <input class='form-control' type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" />
@@ -265,7 +265,7 @@ Screen reader reads input as: `Car Please enter Make and Model Edit text`.
 
 Jaws reads both the label and the description. So does VoiceOver, but there's a slight delay before it reads the description.
 
-<div class="example">
+<div class="example example--code">
   <div class="form-group col-sm-6">
       <label for="car_5">Car</label>
       <input class='form-control' type="text" id="car_5" aria-describedby="carmakedescription_5" />
