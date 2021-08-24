@@ -68,7 +68,11 @@ image_description: Skylight toolkit banner showing a collection of different too
   </div>
 </div>
 
-{% include get_expert_answers_cta.html %}
+{% if page.sidenav == "service_design_framework" %}
+  {% include service_design_framework_cta.html %}
+{% else %}
+  {% include get_expert_answers_cta.html %}
+{% endif %}
 
 <script>
 //Get the button:
