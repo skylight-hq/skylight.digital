@@ -34,6 +34,8 @@ A copyright license spells out these terms:
 * What we can do with the work
 * Any restrictions on our use (for example, that we can use it online but not on a billboard)
 
+If you need to get a copyright license for work at Skylight or if someone outside of Skylight asks to use our copyrighted work, please contact the legal team.
+
 #### Example
 
 <div class="example" markdown="1">
@@ -41,8 +43,6 @@ A copyright license spells out these terms:
 {: .passes }
 You grant Skylight a perpetual, worldwide, non-exclusive, royalty free license to display, distribute, and publish the Work in our marketing in any medium now known or later developed.
 </div>
-
-If you need to get a copyright license for work at Skylight or if someone outside of Skylight asks to use our copyrighted work, please contact the legal team.
 
 ### Image use and copyright
 
