@@ -43,7 +43,7 @@ Avoid directional instructions and any language that requires the reader to see 
 
 ### Use headers
 
-Headers should always be nested and consecutive. Never skip a header level for styling reasons. To help group sections, be sure the page title is H1, top-level sections are H2s, and subsequent inside those are H3 and beyond. Avoid excessive nesting.
+Headers should always be nested and consecutive. Never skip a header level for styling reasons. To help group sections, be sure the page title is `H1`, top-level sections are `H2`, and subsequent inside those are `H3` and beyond. Avoid excessive nesting.
 
 ### Employ a hierarchy
 
@@ -69,9 +69,9 @@ To register, [click here](#0)
 
 ### Use alt text
 
-The alt tag is the most basic form of image description, and it should be included on all images. The language will depend on the purpose of the image:
+The `alt` tag is the most basic form of image description, and it should be included on all images. The language will depend on the purpose of the image:
 
-* If it’s a creative photo or supports a story, describe the image in detail in a brief alt tag. Supplement images with standard captions when possible.
+* If it’s a creative photo or supports a story, describe the image in detail in a brief `alt` tag. Supplement images with standard captions when possible.
 * If the image is serving a specific function, describe what’s inside the image in detail. People who don’t see the image should come away with the same information as if they had.
 * If you’re sharing a chart or graph, include the data in the alt text so people have all the important information.
 
