@@ -35,9 +35,15 @@ We have some standard language that we use for common issues or requests, but si
 
 Legal content is serious business, so the tone is slightly more formal than most of our content. That said, we want our audience to be able to understand our legal content. So whenever possible, we use plain language rather than legal jargon.
 
-Instead of: “If an individual purports, and has the legal authority, to sign these Terms of Use electronically on behalf of an employer or client then that individual represents and warrants that they have full authority to bind the entity herein to the terms of this hereof agreement”
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+If you sign up on behalf of a company or other entity, you represent and warrant that you have the authority to accept these Terms on their behalf.
 
-We say: “If you sign up on behalf of a company or other entity, you represent and warrant that you have the authority to accept these Terms on their behalf.”
+#### No
+{: .fails }
+If an individual purports, and has the legal authority, to sign these Terms of Use electronically on behalf of an employer or client then that individual represents and warrants that they have full authority to bind the entity herein to the terms of this hereof agreement.
+</div>
 
 There are some legal terms we have to include because either there’s not a sufficient plain language alternative, or case law or statute dictates that term has to be used for the contract to hold up in court. For example, sometimes we need to say “represent and warrant” instead of “confirm” or “agree.” If we use those terms, we can provide an example or quick definition to help people understand what they’re reading. We can't avoid all legal terminology, but we can pare it down to what's necessary.
 
@@ -45,10 +51,13 @@ Some companies have complicated terms and write plain-language summaries so peop
 
 ### Definitions
 
-Using plain language for the terms you define up front can make legal documents easier to read. You’ve probably read contracts that say something like “The Corporation” or “The Client” throughout, instead of “we” (meaning the company) and “you” (meaning the client who is agreeing to the terms). There’s a quick fix for that. At the beginning of the document, say something like:
+Using plain language for the terms you define up front can make legal documents easier to read. You’ve probably read contracts that say something like “The Corporation” or “The Client” throughout, instead of “we” (meaning the company) and “you” (meaning the client who is agreeing to the terms). There’s a quick fix for that. At the beginning of the document, define your terms up front.
 
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
 Skylight is owned and operated by Skylight Inc. (“Skylight,” “we,” or “us”). As a user of the Service or a representative of an entity that’s a user of the Service, you're a “Client” according to this agreement (or “you”).
-{: .example }
+</div>
 
 After that, you’re free to use “we,” “us,” “you,” and “your” throughout the rest of the agreement. That simple change makes the document much friendlier to read.
 
