@@ -36,7 +36,7 @@ A copyright license spells out these terms:
 
 If you need to get a copyright license for work at Skylight or if someone outside of Skylight asks to use our copyrighted work, please contact the legal team.
 
-#### Example
+#### Example of copyright license
 
 <div class="example" markdown="1">
 #### Yes
