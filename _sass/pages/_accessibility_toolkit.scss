@@ -1,58 +1,8 @@
 .accessibility-guide {
-
-  blockquote {
-    /*@extend .callout--alt;*/
-  }
-
-  /*fieldset {
-    border: 1px solid #393939;
-    border-radius: 0.6rem;
-    padding: 1.2rem;
-    margin-bottom: 2rem;
-  }
-
-  legend {
-    font-size: 1.5rem;
-    font-weight: 700;
-    border: 0;
-    padding: 0;
-  }*/
   .form-check-label {
     padding-left: 0.5rem;
     margin-bottom: 0; // Override default `<label>` bottom margin
     cursor: pointer;
-  }
-
-  .passes {
-    color: $green-300;
-
-    &::after {
-      display: inline-block;
-      content: '  ';
-      background-image: url('/img/toolkits/accessibility/check-circle.svg');
-      color: $brand-success;
-      background-size: 18px 18px;
-      height: 18px;
-      width: 18px;
-      margin-bottom: -2px;
-      margin-left: 0.5rem;
-    }
-  }
-
-  .fails {
-    color: $red-200;
-
-    &::after {
-      display: inline-block;
-      content: '  ';
-      background-image: url('/img/toolkits/accessibility/times-circle.svg');
-      background-size: 18px 18px;
-      color: $sk-red;
-      height: 18px;
-      width: 18px;
-      margin-bottom: -2px;
-      margin-left: 0.5rem;
-    }
   }
 
   .h3 {
@@ -77,34 +27,15 @@
   .e-h5 {
     font-size: 0.925rem;
   }
-
 }
 
-.callout--example,
-.example {
-  margin-top: 1em;
-  margin-bottom: 1rem;
-  font-size: 1.125rem;
-  padding: 1rem;
-  border: 1px solid $gray-lightest;
-  border-radius: 3px;
+.example--code {
+  background-color: white;
+}
 
-  + p {
+.page-work-toolkits-accessibility-guide-color {
+  .example + p {
     margin-bottom: 2em;
-  }
-
-  .form-group {
-    label {
-      font-weight: bold;
-    }
-  }
-
-  *:last-child {
-    margin-bottom: 0;
-  }
-
-  + .example {
-    margin-top: 2rem;
   }
 }
 
@@ -117,7 +48,7 @@
   }
 
   .na, .m, .nb {
-    color: #407F51 !important;
+    color: $green-300-a !important;
   }
 
   .s, .sa, .dl, .nl {
@@ -140,20 +71,37 @@
 
 .highlighter-rouge {
   &.language-html,
-  &.language-css {
+  &.language-css,
+  &.language-js {
     border: 1px solid $gray-lightest;
     border-radius: 3px !important;
     margin-bottom: 1rem;
   }
 }
 
-.example + .language-html.highlighter-rouge {
+.example {
+  .form-group {
+    label {
+      font-weight: bold;
+    }
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  + .example {
+    margin-top: 2rem;
+  }
+
+ + .language-html.highlighter-rouge {
   border-top: none;
   margin-top: calc(-1rem - 5px);
 
-  .highlight {
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 0 !important;
+    .highlight {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+    }
   }
 }
 

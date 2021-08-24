@@ -159,6 +159,7 @@ $home-cta-spacing: 6rem;
 
   a {
     @extend %btn-page;
+    min-width: 223px;
   }
 }
 

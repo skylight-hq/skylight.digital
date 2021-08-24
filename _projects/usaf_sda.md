@@ -10,7 +10,7 @@ feature_image_description:
 order: 6
 display: true
 tags: [transformation, research & design, coaching & training, air force, charlye tran, laura kerry, olivia lucas, zoe do]
-excerpt: Embedding service design ways of thinking and working throughout the U.S. Air Force, starting with BESPIN and the U.S. Weather Systems Program Office.
+excerpt: Embedding service design ways of thinking and working throughout the U.S. Air Force, starting with BESPIN and the Weather Systems Program Office.
 project_members:
   - charlye-tran
   - laura-kerry
@@ -42,13 +42,13 @@ The U.S. Air Force (USAF) needed a way to deliver better user experience journey
 {% endcapture %}
 
 {% capture challenge %}
-The USAF is on a mission to become a digitally-powered organization. As part of its approach to large-scale digital transformation, the USAF has stood up several “software factories” such as Kessel Run, BESPIN (Business Enterprise Systems Product INnovation), and SpaceCAMP. These groups have successfully spread the adoption of modern approaches to technology delivery, including user experience (UX) design.
+The USAF is on a mission to become a digitally-powered organization. As part of its approach to large-scale digital transformation, the USAF has stood up several “software factories” such as Kessel Run, BESPIN (Business Enterprise Systems Product INnovation), and Space CAMP. These groups have successfully spread the adoption of modern approaches to technology delivery, including user experience (UX) design.
 
 Within organizations as complex as the USAF, however, UX design falls short of delivering *optimal* user journeys. That’s because UX designers tend to focus on individual (mostly digital) touchpoints, rather than the full end-to-end user experience, which may include digital touchpoints but also organizational, operational, human, and physical touchpoints.
 
 Ultimately, UX design at enterprise scale perpetuates a patchwork of partial, inefficient solutions. This shortcoming has driven design-minded organizations like Google and the UK Government Digital Service to embrace service design. Service design is an emerging, but proven discipline for designing, aligning, and optimizing an organization's operation (people, processes, technology, etc.) to better support user journeys.
 
-Recognizing the need for a more holistic approach to human-centered design, the USAF engaged us through the [AFWERX program](https://www.afwerx.af.mil/) to help it rapidly scale the adoption of service design, starting with BESPIN and the U.S. Weather Systems Program Office (WxPO).
+Recognizing the need for a more holistic approach to human-centered design, the USAF engaged us through the [AFWERX program](https://www.afwerx.af.mil/) to help it rapidly scale the adoption of service design, starting with BESPIN and the Weather Systems Program Office (WxPO).
 {% endcapture %}
 
 {% capture solution %}
