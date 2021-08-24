@@ -18,7 +18,7 @@ Through many projects, Skylight understands the challenges of applying service d
 
 The framework includes five phases that a typical service design process moves through:
 
-![](/img/toolkits/service_design/skylight-service-design-framework.svg){: .mt-4}
+![](/img/service_design/skylight-service-design-framework.svg){: .mt-4}
 Skylight Service Design Framework
 {: .caption .mt-0 .mb-5 }
 
