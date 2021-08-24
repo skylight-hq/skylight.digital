@@ -11,6 +11,7 @@ group :jekyll_plugins do
    gem 'jekyll-paginate-v2', github: 'sverrirs/jekyll-paginate-v2'
    gem 'octopress-debugger'
    gem "jekyll-image-size", "~> 1.2.1"
+   gem 'jekyll-feed'
    # For batch conversion of images
    # gem 'jekyll-imagemagick', '~> 1.4'
 end
