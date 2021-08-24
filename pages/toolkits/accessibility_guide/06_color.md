@@ -42,19 +42,19 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 {:.fails}
 ### Fails
-<div class="example">
+<div class="example example--code">
   <span style = "color:#80b690">This text fails.</span>
 </div>
 
 This text fails because it's too light. The contrast ratio is 2.97:1.
 
-<div class="example">
+<div class="example example--code">
 <span style = "color:#FFFFFF; background:#8D8E90">This text fails.</span>
 </div>
 
 This text fails because the background isn't dark enough. The contrast ratio is 3.28:1.
 
-<div class="example">
+<div class="example example--code">
   <div class="row">
     <div class="col-sm-12">
       <span style="color:#D73E35;">Red text indicates a required field</span>
@@ -72,7 +72,7 @@ This text fails because the background isn't dark enough. The contrast ratio is 
 
 This is a failure because the only indication of which fields are required is the color of the text label.
 
-<div class="example">
+<div class="example example--code">
 <span><a href="#" style="color:#006061; text-decoration:none; border-bottom-style: none;">I'm a link.</a> I'm just normal text.</span>
 </div>
 
@@ -81,19 +81,19 @@ This fails because the contrast ratio between the link and surrounding text is l
 {:.passes}
 ### Passes
 
-<div class="example">
+<div class="example example--code">
 <span style = "color:#4B825B">This text passes.</span>
 </div>
 
 This text passes. The contrast ratio is 4.52:1.
 
-<div class="example">
+<div class="example example--code">
 <span style = "color:#FFFFFF; background:#757679">This text passes.</span>
 </div>
 
 This text passes. The contrast ratio is 4.54:1.
 
-<div class="example">
+<div class="example example--code">
   <div class="row">
     <div class="col-sm-12">
       <span style="color:#D73E35;">* indicates a required field</span>
@@ -111,13 +111,13 @@ This text passes. The contrast ratio is 4.54:1.
 
 This example passes because the * and the red text indicates the required field.
 
-<div class="example">
+<div class="example example--code">
 <span><a href="#" style="color:#006465; text-decoration:none; border-bottom-style: none;">I'm a link.</a> I'm just normal text.</span>
 </div>
 
 This passes because the link and the black text have a contrast (lightness) ratio of 3:1, but we would recommend a greater contrast ratio for links without other visual indicators.
 
-<div class="example">
+<div class="example example--code">
 <span><a href="#" style="color:#000000; text-decoration:none; border-bottom-style: none;">I'm a link.</a> I'm just normal text.</span>
 </div>
 
