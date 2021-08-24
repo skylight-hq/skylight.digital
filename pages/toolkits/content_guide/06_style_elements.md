@@ -655,7 +655,7 @@ Leave one space between sentences, never two.
 
 Capitalize the names of websites and web publications. Don’t italicize.
 
-Avoid spelling out URLs, but when you need to, leave off the http://www.
+Avoid spelling out URLs, but when you need to, leave off the `http://www.`
 
 ### Write positively
 
