@@ -16,6 +16,7 @@ STRATEGIZE PHASE
 {: .mt-0 }
 
 Align your team and stakeholders on which solutions to pursue based on factors such as value to customers and organizational lift.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

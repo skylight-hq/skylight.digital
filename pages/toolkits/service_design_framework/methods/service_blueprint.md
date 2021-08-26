@@ -16,6 +16,7 @@ DISCOVER PHASE
 {: .mt-0 }
 
 Better understand a service and how you can improve it by visualizing the many pieces that work — or don’t work — together to create it. Include people, the tools they use, and the processes.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

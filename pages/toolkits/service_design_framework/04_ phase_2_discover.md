@@ -11,7 +11,7 @@ content_type: Toolkit
 # Discover phase
 
 The Discover phase is an opportunity to develop a deep understanding of the systems, people, and activities that make up a service. Qualitative and quantitative research and synthesis help make sense of the complexities.
-
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Outcomes

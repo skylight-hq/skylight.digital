@@ -16,6 +16,7 @@ EXPERIMENT PHASE
 {: .mt-0 }
 
 Act out a service to understand the key elements you should consider in designing a solution.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

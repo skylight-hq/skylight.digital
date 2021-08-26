@@ -16,6 +16,7 @@ STRATEGIZE PHASE
 {: .mt-0 }
 
 Articulate who your customers are, their needs, and important insights about them. Use this statement to gain a deeper understanding of the problem space and start developing solutions.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

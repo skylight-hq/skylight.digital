@@ -16,6 +16,7 @@ DISCOVER PHASE
 {: .mt-0 }
 
 Engage your team and relevant stakeholders to collaboratively synthesize research findings. Turn data into actionable insights that help inform the next stages of the process.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

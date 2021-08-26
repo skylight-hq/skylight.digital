@@ -16,6 +16,7 @@ IMPLEMENT PHASE
 {: .mt-0 }
 
 This exercise can help you gain alignment across the team and stakeholders. It creates a shared understanding of a goal and the steps you need to achieve it along a timeline.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

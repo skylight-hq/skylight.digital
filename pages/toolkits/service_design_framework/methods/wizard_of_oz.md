@@ -16,6 +16,7 @@ EXPERIMENT PHASE
 {: .mt-0 }
 
 Get responses to a working prototype without investing in making one. Create responses behind-the-scenes to user interactions to test functionality.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

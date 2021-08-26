@@ -16,7 +16,7 @@ DISCOVER PHASE
 {: .mt-0 }
 
 Compile and review information related to the project. This can include documentation from the existing service and articles related to the problem space.
-
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

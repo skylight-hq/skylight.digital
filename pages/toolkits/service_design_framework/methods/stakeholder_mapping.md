@@ -16,6 +16,7 @@ INITIATE PHASE
 {: .mt-0 }
 
 Create a visual representation of all the people who can influence a project and how they’re connected. This can help you involve and get buy-in from the right people during the service design process.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

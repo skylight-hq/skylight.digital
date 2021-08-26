@@ -11,6 +11,7 @@ content_type: Toolkit
 # Experiment phase
 
 In the Experiment phase, concepts begin to come to life. Through prototyping and testing, evaluate and reshape ideas before you implement solutions.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Outcomes

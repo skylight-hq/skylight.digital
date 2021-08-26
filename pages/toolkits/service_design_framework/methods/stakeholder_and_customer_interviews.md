@@ -16,6 +16,7 @@ DISCOVER PHASE
 {: .mt-0 }
 
 Talk with the people that the project outcomes will impact or who have a stake in the success of the project. This can inform solutions, build trust, and drive alignment.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

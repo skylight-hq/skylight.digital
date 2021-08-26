@@ -11,7 +11,7 @@ content_type: Toolkit
 # Strategize phase
 
 In the Strategize phase, reflect on findings from research as you begin to think about the right opportunities to focus on. Begin by brainstorming a range of solution ideas before you narrow in on which ones to prioritize for experimentation.
-
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Outcomes

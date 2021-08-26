@@ -16,6 +16,7 @@ IMPLEMENT PHASE
 {: .mt-0 }
 
 An MVP is the first iteration of a product that you deploy to the market. This should be the simplest product that still solves customer and organizational needs.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

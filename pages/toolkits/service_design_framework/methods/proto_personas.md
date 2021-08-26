@@ -16,6 +16,7 @@ INITIATE PHASE
 {: .mt-0 }
 
 Quickly build a lightweight representation of your customers to develop empathy and foster a common understanding of needs and goals.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

@@ -11,6 +11,7 @@ content_type: Toolkit
 # Initiate phase
 
 During the Initiate phase, align with key stakeholders on objectives, the steps you’ll take during the service design engagement, and possible results of the process. This will start the project off on the right foot with shared goals and vision.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Outcomes

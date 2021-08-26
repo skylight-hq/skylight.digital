@@ -16,6 +16,7 @@ INITIATE PHASE
 {: .mt-0 }
 
 During these workshops, align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates

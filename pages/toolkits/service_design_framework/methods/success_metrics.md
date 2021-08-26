@@ -16,6 +16,7 @@ IMPLEMENT PHASE
 {: .mt-0 }
 
 Success metrics are the criteria you define to measure how well your service and its implementation meet the goals of the project.
+{: .font-xl }
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
