@@ -43,5 +43,5 @@ Run through the scenario, with observers taking notes.
 <div class="callout--note" markdown="1">
 ## More resources
 
-* [Role Play](https://think.design/user-design-research/role-play/#:~:text=A%20Role%20Play%20is%20a,service%20from%20the%20target%20audience.&text=The%20participants%20in%20this%20method,a%20skit%20or%20a%20conversation.) (Think) <span class="badge badge-sub">Article</span>
+[Role Play](https://think.design/user-design-research/role-play/#:~:text=A%20Role%20Play%20is%20a,service%20from%20the%20target%20audience.&text=The%20participants%20in%20this%20method,a%20skit%20or%20a%20conversation.) (Think) <span class="badge badge-sub">Article</span>
 </div>

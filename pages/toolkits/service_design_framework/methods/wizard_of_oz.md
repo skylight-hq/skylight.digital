@@ -55,5 +55,5 @@ When needed, refine the prototype and repeat testing.
 <div class="callout--note" markdown="1">
 ## More resources
 
-* [”Prototyping in UI UX Design”](https://think.design/user-design-research/prototyping/) (Think) <span class="badge badge-sub">Article</span>
+[”Prototyping in UI UX Design”](https://think.design/user-design-research/prototyping/) (Think) <span class="badge badge-sub">Article</span>
 </div>
