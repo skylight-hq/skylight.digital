@@ -47,9 +47,9 @@ lorum ipsum
 <div class="example example--code">
   <h3 class='e-h3'>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
-  <h4 class='e-h4'>Sub Category 1</h4>
+  <h4 class='e-h4'>Subcategory 1</h4>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
-  <h4 class='e-h4'>Sub Category 2</h4>
+  <h4 class='e-h4'>Subcategory 2</h4>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
 </div>
 
@@ -61,14 +61,14 @@ lorum ipsum
     Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
    </p>
-  <h4>Sub Category 1</h4>
+  <h4>Subcategory 1</h4>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nam sit amet auctor lectus. Curabitur non est nibh.
     Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
    </p>
-  <h4>Sub Category 2</h4>
+  <h4>Subcategory 2</h4>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nam sit amet auctor lectus. Curabitur non est nibh.
@@ -86,9 +86,9 @@ This section has a main category and two subcategories. The subcategories are on
 <div class="example example--code">
   <h3 class='e-h3'>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
-  <h2 class='e-h2'>Sub Category 1</h2>
+  <h2 class='e-h2'>Subcategory 1</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
-  <h5 class='e-h5'>Sub Category 2</h5>
+  <h5 class='e-h5'>Subcategory 2</h5>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
 </div>
 
@@ -101,14 +101,14 @@ This section has a main category and two subcategories. The subcategories are on
     Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
   </p>
-  <h2>Sub Category 1</h2>
+  <h2>Subcategory 1</h2>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nam sit amet auctor lectus. Curabitur non est nibh.
     Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
    </p>
-  <h5>Sub Category 2</h5>
+  <h5>Subcategory 2</h5>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nam sit amet auctor lectus. Curabitur non est nibh.
