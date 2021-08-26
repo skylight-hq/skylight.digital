@@ -3,7 +3,7 @@ layout: toolkit
 title: "Appendix A: Methods | Skylight Service Design Framework"
 description: A list of the methods and activities used to achieve service design outcomes in each phase of a project.
 tags: [service design, design thinking, change management, guide]
-permalink: /work/toolkits/service-design-framework/appendix-methods/
+permalink: /work/toolkits/service-design-framework/appendix-a-methods/
 sidenav: service_design_framework
 content_type: Toolkit
 ---

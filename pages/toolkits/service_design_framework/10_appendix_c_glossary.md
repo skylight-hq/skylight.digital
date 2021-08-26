@@ -3,7 +3,7 @@ layout: toolkit
 title: "Appendix C: Glossary | Skylight Service Design Framework"
 description: Definitions of common technical terms used during the service design process and in the Skylight Service Design Framework.
 tags: [service design, design thinking, change management, guide]
-permalink: /work/toolkits/service-design-framework/appendix-glossary/
+permalink: /work/toolkits/service-design-framework/appendix-c-glossary/
 sidenav: service_design_framework
 content_type: Toolkit
 ---

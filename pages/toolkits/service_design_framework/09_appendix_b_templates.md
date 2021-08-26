@@ -3,7 +3,7 @@ layout: toolkit
 title: "Appendix B: Templates | Skylight Service Design Framework"
 description: A list of templates to use and adapt for service design methods.
 tags: [service design, design thinking, change management, guide]
-permalink: /work/toolkits/service-design-framework/appendix-templates/
+permalink: /work/toolkits/service-design-framework/appendix-b-templates/
 sidenav: service_design_framework
 content_type: Toolkit
 ---

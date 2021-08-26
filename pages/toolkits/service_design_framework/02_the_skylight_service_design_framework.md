@@ -84,7 +84,7 @@ If you work remotely, be sure to outline where all the important documents live 
 
 The words used to describe the service design process may differ across resources. Government offices and contractors also tend to have their own ways of speaking.
 
-Creating a shared understanding among the team and stakeholders starts with using a shared vocabulary. Make sure the team is using the same language when they refer to different methods or artifacts. Define everything and clarify any terms that might be misunderstood by the team, partners, customers, or others — including those notorious government acronyms. To that effect, we’ve included a [glossary of specialized terms](/work/toolkits/service-design-framework/appendix-glossary/) we use in our framework.
+Creating a shared understanding among the team and stakeholders starts with using a shared vocabulary. Make sure the team is using the same language when they refer to different methods or artifacts. Define everything and clarify any terms that might be misunderstood by the team, partners, customers, or others — including those notorious government acronyms. To that effect, we’ve included a [glossary of specialized terms](/work/toolkits/service-design-framework/appendix-c-glossary/) we use in our framework.
 
 ### Plan ahead for implementation
 
