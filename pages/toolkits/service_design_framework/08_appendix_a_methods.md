@@ -8,7 +8,7 @@ sidenav: service_design_framework
 content_type: Toolkit
 ---
 
-# Appendix: Methods
+# Appendix A: Methods
 
 Skylight uses these methods — activities and techniques — to achieve the many objectives and outcomes of our service design projects. They’re a starting point, intended to serve as inspiration for those engaging in their own service design project. Methods are not prescriptive or rigid; feel free to alter them to meet specific project needs. Also, this isn’t a comprehensive list of all service design methods. Rather, it’s a selection of our favorites and the ones we find most useful in many of our projects.
 
