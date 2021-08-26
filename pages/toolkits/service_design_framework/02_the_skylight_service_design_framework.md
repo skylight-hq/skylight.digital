@@ -23,11 +23,11 @@ The framework includes five phases that a typical service design process moves t
 Skylight Service Design Framework
 {: .caption .mb-5 }
 
-* **Initiate**: Align on the problem space, including goals, vision, constraints, and environmental considerations
-* **Discover**: Plan; research, analyze, and synthesize; socialize findings and artifacts
-* **Strategize**: Generate solutions, prioritize and plan; future visioning
-* **Experiment**: Create prototypes and tests to select the best solution, and iterate with user feedback
-* **Implement**: Actualize solutions and continue to measure, test, and refine
+* **Initiate:** Align on the problem space, including goals, vision, constraints, and environmental considerations
+* **Discover:** Plan; research, analyze, and synthesize; socialize findings and artifacts
+* **Strategize:** Generate solutions, prioritize and plan; future visioning
+* **Experiment:** Create prototypes and tests to select the best solution, and iterate with user feedback
+* **Implement:** Actualize solutions and continue to measure, test, and refine
 
 Each phase in the Skylight Service Design Framework is organized around certain outcomes — such as aligning with stakeholders on goals and vision or understanding the service landscape — and uses a set of methods to achieve them.
 

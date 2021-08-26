@@ -28,10 +28,10 @@ Just like you'll find in the financial world, there are different kinds of techn
 
 While the result in each case is the accumulation of more technical debt, each of these types is created by different circumstances:
 
-* **Reckless/Deliberate Debt**: The team feels time pressured and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
-* **Prudent/Deliberate Debt**: The team decides that the value of shipping a "quick and dirty solution" now is worth the cost of incurring debt. They're fully aware of the consequences, however, and have a plan in place to address them.
-* **Reckless/Inadvertent**: The team is ignorant of best practices, and their lack of knowledge of effective development practices leads them to make a big mess of the codebase.
-* **Prudent/Inadvertent**: Even with great programmers, the team delivers an extrinsically valuable solution, only to realize how they should have (intrinsically) designed it. (Often the process of software development is as much learning as it is coding.)
+* **Reckless/Deliberate Debt:** The team feels time pressured and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
+* **Prudent/Deliberate Debt:** The team decides that the value of shipping a "quick and dirty solution" now is worth the cost of incurring debt. They're fully aware of the consequences, however, and have a plan in place to address them.
+* **Reckless/Inadvertent:** The team is ignorant of best practices, and their lack of knowledge of effective development practices leads them to make a big mess of the codebase.
+* **Prudent/Inadvertent:** Even with great programmers, the team delivers an extrinsically valuable solution, only to realize how they should have (intrinsically) designed it. (Often the process of software development is as much learning as it is coding.)
 
 ## The consequences of technical debt
 
