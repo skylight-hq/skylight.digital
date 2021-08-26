@@ -193,3 +193,70 @@ content_guide:
       url: /work/toolkits/content-guide/definition-of-terms/
     - title: Further reading
       url: /work/toolkits/content-guide/further-reading/
+
+brand_identity:
+  title: Identity
+  description: Discover Skylight’s core brand elements and our rules for using them.
+  toc:
+    - title: Logo
+      url: /brand/identity/logo/
+    - title: Icons
+      url: /brand/identity/icons/
+    - title: Colors
+      url: /brand/identity/colors/
+    - title: Typography
+      url: /brand/identity/typography/
+    - title: Imagery
+      url: /brand/identity/imagery/
+
+brand_writing:
+  title: Writing
+  description: Craft clear and consistent content using Skylight’s voice and brand personality.
+  toc:
+    - title: Brand narrative
+      url: /brand/writing/brand-narrative/
+    - title: Voice
+      url: /brand/writing/voice/
+    - title: Tone
+      url: /brand/writing/tone/
+    - title: Style
+      url: /brand/writing/style/
+
+brand_illustration:
+  title: Illustration
+  description: Design images and visuals that align with the Skylight brand.
+  toc:
+    - title: Principles
+      url: /brand/illustration/principles/
+    - title: Palette
+      url: /brand/illustration/palette/
+    - title: Style
+      url: /brand/illustration/style/
+    - title: Featured post illustrations
+      url: /brand/illustration/featured-post-illustrations/
+    - title: Floating illustrations
+      url: /brand/illustration/floating-illustrations/
+    - title: Heroes
+      url: /brand/illustration/heroes/
+    - title: Portraits
+      url: /brand/illustration/portraits/
+
+brand_outreach:
+  title: Outreach
+  description: Develop materials using Skylight’s graphic elements and visual identity.
+  toc:
+    - title: Intro
+      url: /brand/outreach/
+    - title: Graphic elements
+      url: /brand/outreach/graphic-elements/
+    - title: Brand in use
+      url: /brand/outreach/brand-in-use/
+    - title: Swag
+      url: /brand/outreach/swag/
+
+brand_resources:
+  title: Resources
+  description: Find the assets you need to share Skylight’s story.
+  toc:
+    - title: Emoji
+      url: /brand/resources/emoji/
