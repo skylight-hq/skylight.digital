@@ -11,16 +11,16 @@ toolkit_name: accessibility-guide
 ---
 <div class="example">
   <div class="form-group">
-    <label for='fname'>First Name</label>
+    <label for='fname'>First name</label>
     <input class='form-control' type='text' id='fname'>
   </div>
 
   <div class="form-group">
-    <label for='mname'>Middle Name</label>
+    <label for='mname'>Middle name</label>
     <input class='form-control' type='text' id='mname'>
   </div>
   <div class="form-group">
-    <label for='lname'>Last Name</label>
+    <label for='lname'>Last name</label>
     <input class='form-control' type='text' id='lname'>
   </div>
 </div>
