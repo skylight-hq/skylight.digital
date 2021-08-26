@@ -26,15 +26,25 @@ The file `src/js/html5shiv.min.js` is from [HTML5 Shiv](https://github.com/afark
 
 The file `src/js/jquery.scrolldepth.min.js` is from [Scroll Depth](https://github.com/robflaherty/jquery-scrolldepth), copyright Rob Flaherty (robflaherty), under the [MIT license](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md).
 
+### Image licensing
+
+This site may include images that under some form of copyright protection. License details are available on the posts and pages that display the images.
+
 ### Skylight-produced content licensed under Creative Commons Attribution-Share Alike License
 
-All content produced by Skylight Inc. is licensed under the [Creative Commons Attribution-Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-This site also includes a number of images that have various copyright statuses, including Creative Commons licenses and public domain. License details are available on the posts and pages that display the images.
+All site content published by Skylight Inc. is licensed under the [Creative Commons Attribution-Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/). This includes [blog posts](https://skylight.digital/thoughts/blog/) and [toolkits](https://skylight.digital/work/toolkits/), unless otherwise noted below.
 
 ## The rest of this project is in the worldwide public domain
 
-All source code is licensed under the [Creative Commons Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+All source code is licensed under the [Creative Commons Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). 
+
+The following toolkits are also available under this license:
+
+- [Digital Talent Management Handbook](https://skylight.digital/work/toolkits/digital-talent-management/)
+- [Data Sharing Playbook](https://skylight.digital/work/toolkits/data-sharing-playbook/)
+- [Accessibility Guide](https://skylight.digital/work/toolkits/accessibility-guide/)
+- [Agile Procurement Playbook](https://skylight.digital/work/toolkits/agile-procurement-playbook/)
+- [Managing Technical Debt Guide](https://skylight.digital/work/toolkits/managing-technical-debt//)
 
 ### CC0 1.0 Universal Summary
 
