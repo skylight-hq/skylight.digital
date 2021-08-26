@@ -71,7 +71,7 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 <br>
 **Tool:** MURAL
 
-### [Impact/feasibility map]({{ template.impact_feasibility_map.url }})
+### [Impact / feasibility map]({{ template.impact_feasibility_map.url }})
 
 **Method:** Prioritization workshops
 <br>
