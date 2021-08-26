@@ -28,7 +28,7 @@ The file `src/js/jquery.scrolldepth.min.js` is from [Scroll Depth](https://githu
 
 ### Image licensing
 
-This site may include images that under some form of copyright protection. License details are available on the posts and pages that display the images.
+This site may include images that are under some form of copyright protection. License details are available on the posts and pages that display the images.
 
 ### Skylight-produced content licensed under Creative Commons Attribution-Share Alike License
 
