@@ -350,3 +350,13 @@ $icon-size: 2rem;
   background-color: $ochre-20;
   padding: 1.5rem;
 }
+
+.page--service-design-framework {
+  .callout--tip,
+  .callout--note,
+  .callout--case-study {
+    ul {
+      padding-left: 0;
+    }
+  }
+}
