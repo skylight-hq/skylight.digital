@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Customer journey mapping | Skylight Service Design Framework
-description: How to visualize how a customer interacts with a service to get a holistic view of their experience.
+description: How to visualize customer interactions with a service to get a holistic view of their experience.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/customer-journey-mapping/
 sidenav: service_design_framework
@@ -42,7 +42,7 @@ Once you decide where to focus, start with the stages that the customer goes thr
 
 ### 3. Break down steps
 
-Break down and document the more detailed steps the customer takes at each phase, and can include any distinct activity in the process, such as a conversation, a decision reached, a digital tool used, and more. In the test drive example, you might include “adjusting the controls” as a step under the “driving phase.”
+Break down and document the more detailed steps the customer takes at each phase. This can include any distinct activity in the process, such as a conversation, a decision reached, a digital tool used, and more. In the test drive example, you might include “adjusting the controls” as a step under the “driving phase.”
 
 ### 4. Plot feelings
 

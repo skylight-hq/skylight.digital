@@ -16,13 +16,13 @@ In the Experiment phase, concepts begin to come to life. Through prototyping and
 ## Outcomes
 
 ### Test assumptions
-Understand if you're asking the right questions and solving the right problems by testing what you think you know
+Understand if you're asking the right questions and solving the right problems by testing what you think you know.
 
 ### Identify gaps
-Gain an understanding of what you might have missed and potential areas where you can learn more
+Gain an understanding of what you might have missed and potential areas where you can learn more.
 
 ### Iterate and refine POV
-Consider where to go next, whether it's forward to plan for implementation or back to do more discovery or strategizing to refine the point of view (POV)
+Consider where to go next, whether it's forward to plan for implementation or backward to do more discovery or strategizing to refine the point of view (POV).
 
 ## Methods
 - [Wizard of Oz](/work/toolkits/service-design-framework/methods/wizard-of-oz/)
@@ -42,7 +42,7 @@ By the end of the Experiment phase, you should end up with a refined solution. Y
 
 ### U.S. Air Force Weather Systems Office (WxPO)
 
-While we haven’t yet reached this phase, we plan to test our assumptions and gather feedback as quickly and as often as possible to iterate and refine our solutions. Since our recommendations to  WxPO focus on organizational changes, we’ll test prototypes within a smaller group to ensure their feasibility before scaling them to the larger organization.
+While we haven’t yet reached this phase, we plan to test our assumptions and gather feedback as quickly and as often as possible to iterate and refine our solutions. Since our recommendations to WxPO focus on organizational changes, we’ll test prototypes within a smaller group to ensure their feasibility before scaling them to the larger organization.
 
 ### Methods
 

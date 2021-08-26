@@ -48,6 +48,8 @@ Adapt to where the participant takes the conversation. They’ll focus on their 
 
 It’s a good practice to keep participants informed about how their insights have impacted the project. Your stakeholder map can help you decide how much to involve participants throughout the rest of the project.
 
+<div class="callout--note" markdown="1">
 ## More resources
 
 * [”Conducting stakeholder interviews: 12 Golden Rules”](https://think.design/blog/conducting-stakeholder-interviews-12-golden-rules/) (Laetitia Pouilly, Think) <span class="badge badge-sub">Article</span>
+</div>

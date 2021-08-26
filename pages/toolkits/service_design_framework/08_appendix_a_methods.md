@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: "Appendix: Methods | Skylight Service Design Framework"
+title: "Appendix A: Methods | Skylight Service Design Framework"
 description: A list of the methods and activities used to achieve service design outcomes in each phase of a project.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/appendix-methods/
@@ -10,17 +10,17 @@ content_type: Toolkit
 
 # Appendix: Methods
 
-Skylight uses these methods — activities and techniques — to achieve the many objectives and outcomes of our service design projects. They’re a starting point, intended to serve as inspiration for those engaging in their own service design project. Methods are not prescriptive or rigid; feel free to alter them to meet specific project needs. Also, this isn’t a comprehensive list of all service design methods. Rather, it’s a selection of our favorites and the ones we find most essential in many of our projects.
+Skylight uses these methods — activities and techniques — to achieve the many objectives and outcomes of our service design projects. They’re a starting point, intended to serve as inspiration for those engaging in their own service design project. Methods are not prescriptive or rigid; feel free to alter them to meet specific project needs. Also, this isn’t a comprehensive list of all service design methods. Rather, it’s a selection of our favorites and the ones we find most useful in many of our projects.
 
 The methods below are organized by phase. Visit each one to find a detailed description of how to do the activity, what it aims to achieve, who to involve, templates to get you started, and other helpful information.
 
 ## Initiate
 
-### Alignment/kickoff workshop
+### Alignment / kickoff workshop
 
 During these workshops, align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
 
-[Read about alignment/kickoff workshops<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
+[Read about alignment / kickoff workshops<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
 
 ### Proto-personas
 
@@ -30,7 +30,7 @@ Quickly build a lightweight representation of your customers to develop empathy 
 
 ### Stakeholder mapping
 
-Create a visual representation of all the people who can influence a project and how they’re connected. This can help get buy-in from and include the right people during the service design process.
+Create a visual representation of all the people who can influence a project and how they’re connected. This can help you include the right people and get their buy-in during the service design process.
 
 [Read about stakeholder mapping<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/stakeholder-mapping/)
 

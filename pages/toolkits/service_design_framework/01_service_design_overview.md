@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Service design overview | Skylight Service Design Framework
-description: A description of service design, including when to use it and who practices the human-centered design methodology.
+description: Tools and practices for delivering optimal user experience journeys.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/
 sidenav: service_design_framework
@@ -10,19 +10,19 @@ content_type: Toolkit
 
 # Service design overview
 
-When the U.S. Air Force’s Weather Systems Program Office (WxPO) tapped Skylight to help them upgrade their services to the cloud, they had a simple brief: Ensure a great initial customer experience for warfighters and application development teams onboarding onto the new cloud platform.
+When the U.S. Air Force’s Weather Systems Program Office (WxPO) tapped Skylight to help them upgrade their services to the cloud, it had a simple brief: Ensure a great initial customer experience for service members and application development teams onboarding onto the new cloud platform.
 
-As Skylight began to examine the pieces that made up customer experience — how warfighters and application teams interacted with the cloud platform — we discovered it wasn’t so simple. Beyond onboarding, there were many factors at play in the successes and failures of the WxPO’s technology migration: how roles were structured, work processes, communication materials, and more.
+As Skylight began to examine the pieces that made up customer experience — specifically, how service members and application teams interacted with the cloud platform — we discovered it wasn’t so simple to build a great customer experience. Beyond onboarding, there were many factors at play in the successes and failures of the WxPO’s technology migration, including how roles were structured, work processes, communication materials, and more.
 
 Enter service design.
 
 ## What service design is
 
-Service design enables organizations to create sustainable and high-quality experiences for both customers and the providers of the services they interact with. Using a process, set of methods, and principles, the discipline takes a holistic look across a service ecosystem. This includes the “frontstage” (what a customer sees) and the “backstage” (the behind-the-scenes organizational structures).
+Service design enables organizations to create sustainable and high-quality experiences for both customers and the providers of the services they interact with. Using a process, set of methods, and principles, the discipline takes a holistic look across a service ecosystem. This includes the “frontstage” (what a customer sees) and the “backstage” (behind-the-scenes organizational structures).
 
 ![](/img/toolkits/service_design/service-design-stages-alt.svg)
 {: .mt-5 }
-Service design stages
+The frontstage, including the audience (users and stakeholders who interact with a service), and the backstage, including the behind-the-scenes processes.
 {: .caption .mt-0 .mb-5 }
 
 While many organizations focus on improvements to customer experience — which was the case with WxPO’s emphasis on onboarding — frontstage-only solutions often fail without consideration for the systems that support them.
@@ -31,7 +31,7 @@ For the WxPO and government organizations of all types, service design provides 
 
 ## When to use service design
 
-Like in the Weather Systems Program Office case, many projects don’t begin with a plan to use service design. Once you dig into a problem, though, the complexities start to surface and the need for service design becomes clear.
+As was the case for the WxPO, many projects don’t begin with a plan to use service design. Once you dig into a problem, though, the complexities start to surface and the need for service design becomes clear.
 
 Recognizing from the outset what kinds of problems require service design isn’t always easy, but there are patterns to look out for. According to a [Deloitte study](https://www2.deloitte.com/us/en/insights/industry/public-sector/implementing-service-design-in-government.html) of government service design projects, each of these problems can present a good opportunity for service design:
 

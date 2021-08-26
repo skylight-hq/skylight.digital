@@ -196,7 +196,7 @@ content_guide:
 
 service_design_framework:
   title: Service Design Framework
-  description: Guidelines and tools for creating optimal experiences for both users and your organization.
+  description: Tools and practices for delivering optimal user experience journeys.
   toc:
     - title: Service design overview
       url: /work/toolkits/service-design-framework/

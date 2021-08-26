@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: "Appendix: Glossary | Skylight Service Design Framework"
+title: "Appendix C: Glossary | Skylight Service Design Framework"
 description: Definitions of common technical terms used during the service design process and in the Skylight Service Design Framework.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/appendix-glossary/
@@ -8,7 +8,7 @@ sidenav: service_design_framework
 content_type: Toolkit
 ---
 
-# Appendix: Glossary
+# Appendix C: Glossary
 
 **Actors:** The people who interact in a service ecosystem.
 
@@ -20,21 +20,21 @@ content_type: Toolkit
 
 **Design thinking:** A framework — including mindset, processes, and tools — that uses human-centered design to solve problems. Service design overlaps with design thinking.
 
-**Discover phase:** Project planning, research and synthesis, socialize findings and artifacts
+**Discover phase:** The phase when you do project planning, research and synthesis, and socialize findings and artifacts.
 
 **End user:** Another way to describe the person who uses a service or product.
 
-**Experiment phase:** Create prototypes and tests to select best solution and iterate with user feedback
+**Experiment phase:** Create prototypes and tests to select the best solution and iterate with user feedback.
 
 **Fidelity:** Level of detail, refinement, and resemblance to the implemented solution. Prototypes come in different degrees of fidelity, including low-fidelity and high-fidelity.
 
 **Human-centered design (HCD):** The umbrella category that service design falls under; a design methodology that focuses on the people you’re serving.
 
-**Implement phase:** The phase when you actualize solutions and continue to measure, test, and refine
+**Implement phase:** The phase when you actualize solutions and continue to measure, test, and refine.
 
 **Initiate phase:** The phase whose purpose is to align on the problem space, including goals, vision, constraints, and environmental considerations.
 
-**KPIs:** Key Performance Indicators are metrics against which you can measure the success of a product or service solution.
+**Key performance indicators (KPIs):** Metrics against which you can measure the success of a product or service solution.
 
 **Method:** A process for accomplishing the different outcomes in each phase, for example, desk research.
 
@@ -44,7 +44,7 @@ content_type: Toolkit
 
 **Pain points:** Issues with a product or service as experienced by a user or provider.
 
-**Problem space:** The various components in the process of defining and resolving a problem
+**Problem space:** The various components in the process of defining and resolving a problem.
 
 **Physical evidences:** The tangible pieces or proof of an interaction during a service. An example is a folded end of a toilet paper roll as a physical evidence in a turndown service.
 

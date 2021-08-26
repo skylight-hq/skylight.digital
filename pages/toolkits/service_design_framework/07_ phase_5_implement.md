@@ -17,13 +17,13 @@ In the Implement phase, plan for any changes that your solutions require — fro
 ## Outcomes
 
 ### Measure impact
-Gather metrics to understand the path toward success and revisit how the solution is meeting the needs of the users and stakeholders
+Gather metrics to understand the path toward success and revisit how the solution is meeting the needs of the users and stakeholders.
 
 ### Continue experimentation
-Use a prototyping mindset to continue to learn more about the users and how solutions are working, and assess if you're addressing the right problem
+Use a prototyping mindset to continue to learn more about the users and how solutions are working, and assess if you're addressing the right problem.
 
 ### Put it into practice
-Start small, work with the organization to prepare and maintain the solution, bring people with you, and continue to refine
+Start small, work with the organization to prepare and maintain the solution, bring people with you, and continue to refine.
 
 ## Methods
 - [Minimum viable product (MVP)](/work/toolkits/service-design-framework/methods/minimum-viable-product/)
@@ -34,11 +34,11 @@ Start small, work with the organization to prepare and maintain the solution, br
 
 During this phase, deploy solutions into “production” — the real-world environment where customers and employees interact with them. Service design solutions can run the gamut from traditional software updates to change management process improvements, so it’s important to consider all stakeholders from the frontstage and backstage as you plan and deploy.
 
-With so many moving parts, it can help to think about Implement in three distinct but overlapping and iterative parts:
+With so many moving parts, it can help to think about the Implement phase in three distinct but overlapping and iterative parts:
 
 ### 1. Plan
 
-Starting as early as the Strategize phase, begin to consider how solutions will require staff to change their processes and functions. Also prepare for how the organization will need to change as a whole. Develop champions for proposed solutions by bringing leadership and staff into the planning process as soon as possible. Methods such as a [roadmap](/work/toolkits/service-design-framework/methods/roadmap/) can help you gain alignment with stakeholders. Note: You may want to create a roadmap earlier in the process, but you will focus on refining it and gaining alignment around it during this phase.
+Starting as early as the Strategize phase, begin to consider how solutions will require staff to change their processes and functions. Also prepare for how the organization will need to change as a whole. Develop champions for proposed solutions by bringing leadership and staff into the planning process as soon as possible. Methods such as a [roadmap](/work/toolkits/service-design-framework/methods/roadmap/) can help you gain alignment with stakeholders. Note: You may want to create a roadmap earlier in the process, but you’ll focus on refining it and gaining alignment around it during this phase.
 
 ### 2. Rollout
 
@@ -46,7 +46,7 @@ It’s time to put a solution in action. Similar to software releases, it can be
 
 ### 3. Measure and iterate
 
-Before you fully implement a solution, determine what success looks like. Keep track of [success metrics](/work/toolkits/service-design-framework/methods/success-metrics/) and KPIs (key performance indicators) and compare them to results going forward. Examples of metrics include customers' net promoter scores (NPS) or the time it takes for employees to complete tasks. By keeping track of metrics, you can not only continue to refine solutions, but also show the impact of your service design work.
+Before you fully implement a solution, determine what success looks like. Keep track of [success metrics](/work/toolkits/service-design-framework/methods/success-metrics/) and key performance indicators (KPIs) and compare them to results going forward. Examples of metrics include customers' net promoter scores (NPS) or the time it takes for employees to complete tasks. By keeping track of metrics, you can not only continue to refine solutions, but also show the impact of your service design work.
 
 <div class="callout callout--case-study" markdown="1">
 ## Case study: Putting it all together
@@ -61,7 +61,7 @@ The goal of this phase is to take the feedback gained from implementing the solu
 
 #### Roadmap
 
-Our roadmap allowed us to strategically lay out how we would go about implementing the solutions, including timelines, who would be involved, outcomes and what feedback we wanted to continue to gather. Though we haven’t reached the Implement phase yet, we started building this early to test and gain alignment around our plan.
+Our roadmap allowed us to strategically lay out how we’d go about implementing the solutions (including timelines), who’d be involved, outcomes, and what feedback we wanted to continue to gather. Though we haven’t reached the Implement phase yet, we started building this early to test and gain alignment around our plan.
 
 #### MVP
 

@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Alignment/kickoff workshop | Skylight Service Design Framework
+title: Alignment / kickoff workshop | Skylight Service Design Framework
 description: How to align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/
@@ -12,7 +12,7 @@ class: design-method
 INITIATE PHASE
 {: .kicker }
 
-# Alignment/kickoff workshop
+# Alignment / kickoff workshop
 {: .mt-0 }
 
 During these workshops, align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
@@ -34,7 +34,9 @@ For the core internal team, kickoff workshops are an opportunity to share workin
 
 For stakeholders and other team members outside of the core project team, these workshops provide a forum to understand the problem space and set expectations around the timeline and other outcomes of the project. Take time to align on project goals and expected outcomes, share each team member’s role and capacity, and decide how to share files, communicate, and gain approvals. Set the cadence for meetings.
 
+<div class="callout--note" markdown="1">
 ## More resources
 
 * [“Planning a client kickoff meeting”](https://medium.com/@jaf_designer/why-product-thinking-is-the-next-big-thing-in-ux-design-ee7de959f3fe) <span class="badge badge-sub">Article</span>
 * [”Kickoff Meetings for Team Alignment Before Starting UX Projects”](http://nngroup.com/videos/kickoff-meetings/) (Nielsen Norman Group) <span class="badge badge-sub">Video</span>
+</div>

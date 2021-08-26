@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: "Appendix: Templates | Skylight Service Design Framework"
+title: "Appendix B: Templates | Skylight Service Design Framework"
 description: A list of templates to use and adapt for service design methods.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/appendix-templates/
@@ -8,7 +8,7 @@ sidenav: service_design_framework
 content_type: Toolkit
 ---
 
-# Appendix: Templates
+# Appendix B: Templates
 
 Skylight adapts these templates to use in the various methods we leverage in our service design projects. Some are our own, and others we’ve borrowed from practitioners we trust. Templates aren’t prescriptive or rigid; feel free to alter them to meet your specific project needs.
 
@@ -18,7 +18,7 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 
 ### [Project planning](https://app.mural.co/t/skylight2171/m/skylight2171/1616616919235/d45e9ad265333254e5a81535dbf05848901b012c?sender=ubabac35f4785db237eae9972)
 
-**Method**: Alignment/kickoff workshop
+**Method**: Alignment / kickoff workshop
 <br>
 **Tool**: MURAL
 

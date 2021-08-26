@@ -181,7 +181,7 @@
   padding-inline: 0.75rem;
 
   &:hover {
-    background-color: #F2F7FA;
+    background-color: #f2f7fa;
   }
 
   i {
@@ -236,7 +236,7 @@ $icon-size: 2rem;
   }
 
   + * {
-    margin-top:  2rem;
+    margin-top: 2rem;
   }
 }
 
@@ -260,6 +260,10 @@ $icon-size: 2rem;
   &::before {
     background: url(/img/icons/info.svg) no-repeat center/$icon-size;
   }
+
+  .badge-sub {
+    background-color: $blue-40;
+  }
 }
 
 .passes {
@@ -267,8 +271,8 @@ $icon-size: 2rem;
 
   &::after {
     display: inline-block;
-    content: '  ';
-    background-image: url('/img/toolkits/accessibility/check-circle.svg');
+    content: "  ";
+    background-image: url("/img/toolkits/accessibility/check-circle.svg");
     color: $brand-success;
     background-size: 18px 18px;
     height: 18px;
@@ -283,8 +287,8 @@ $icon-size: 2rem;
 
   &::after {
     display: inline-block;
-    content: '  ';
-    background-image: url('/img/toolkits/accessibility/times-circle.svg');
+    content: "  ";
+    background-image: url("/img/toolkits/accessibility/times-circle.svg");
     background-size: 18px 18px;
     color: $sk-red;
     height: 18px;
@@ -297,7 +301,8 @@ $icon-size: 2rem;
 .example,
 .callout--tip,
 .callout--note {
-  h2, h3 {
+  h2,
+  h3 {
     font-size: $font-size-large;
   }
 }

@@ -48,6 +48,8 @@ With your project in the center, define the relationships between the stakeholde
 
 To define how you’ll collaborate and communicate with stakeholders moving forward, use the prioritization matrix. Mapping according to power and interest, you’ll get a sense of who to engage on a spectrum from low to high touch.
 
+<div class="callout--note" markdown="1">
 ## More resources
 
 * [“Complete Stakeholder Mapping Guide”](https://miro.com/blog/stakeholder-mapping/) (Anna Savina, Miro) <span class="badge badge-sub">Article</span>
+</div>

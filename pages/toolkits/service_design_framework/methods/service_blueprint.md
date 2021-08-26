@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Service blueprint | Skylight Service Design Framework
-description: How to visualize the many pieces of a service that work — or don’t work — together to create it.
+description: How to visualize the many components of a service to understand all pieces of the customer experience.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/methods/service-blueprint/
 sidenav: service_design_framework
@@ -56,7 +56,9 @@ Evidences are the physical or digital tools that customers or employees use or i
 
 The service blueprint is an important artifact to communicate your understanding of the internal organization. If you have the resources, design a clean, visually compelling version of your diagram. This can include additional details, such as arrows to show relationships between the elements. Share with stakeholders.
 
+<div class="callout--note" markdown="1">
 ## More resources
 
 * [”Service Blueprinting in Practice: Who, When, What”](https://www.nngroup.com/articles/service-blueprinting-practice/?lm=service-design-101&pt=article) (Alita Joyce and Sarah Gibbons, Nielsen Norman Group) <span class="badge badge-sub">Article</span>
 * [”Service Blueprints: Definition”](https://www.nngroup.com/articles/service-blueprints-definition/) (Sarah Gibbons, Nielsen Norman Group) <span class="badge badge-sub">Article</span>
+</div>

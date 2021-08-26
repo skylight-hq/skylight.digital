@@ -17,13 +17,13 @@ In the Strategize phase, reflect on findings from research as you begin to think
 ## Outcomes
 
 ### Brainstorming
-Generate solutions that will meet the needs of the stakeholders and customers
+Generate solutions that will meet the needs of the stakeholders and customers.
 
 ### Prioritization
-Filter the opportunity areas according to what will provide value and what's feasible
+Filter the opportunity areas according to what will provide value and what's feasible.
 
 ### Plan of action
-Make prioritized ideas concrete to move towards a plan for testing and iterating
+Make prioritized ideas concrete to move towards a plan for testing and iterating.
 
 ## Methods
 - [Prioritization workshops](/work/toolkits/service-design-framework/methods/prioritization-workshop/)
@@ -32,7 +32,7 @@ Make prioritized ideas concrete to move towards a plan for testing and iterating
 
 After you’ve collected data about your service, it’s time to hone in on where to focus solutions. Start by delving further into the insights your research uncovered. Revisiting the service blueprint, highlight the problems that customers and staff experience with the service (pain points) and where there are possibilities for improvement (opportunity areas).
 
-Artifacts like the blueprint and customer journey map can also help facilitate conversations around findings and gain alignment around possible solutions. Consider the organization where you’re working and how the people within it best consume information. Aim to create and socialize documents that stakeholders rely on and revisit throughout the process, contributing to a shared language around a service and the humans on the other side of it.
+Artifacts like the blueprint and customer journey map can also facilitate conversations around findings and alignment around possible solutions. Consider the organization where you’re working and how the people within it consume information. Aim to create and socialize documents that stakeholders rely on and revisit throughout the process, contributing to a shared language around a service and the humans on the other side of it.
 
 These artifacts set the stage for the main activity during this phase: brainstorming solution ideas and starting to hone in on the best path forward. Solutions can range from product updates to an entire system redesign, which can make them challenging to compare and choose. Focusing on project objectives and weighing which ideas provide the most value can help you prioritize solutions alongside project stakeholders. Activities such as the Impact/Feasibility Matrix can help you prioritize during a [prioritization workshop](/work/toolkits/service-design-framework/methods/prioritization-workshop/).
 
@@ -55,7 +55,7 @@ Brainstorming sessions allowed the group to creatively discuss ideas to address 
 
 #### Prioritization workshop
 
-During a prioritization workshop, stakeholders and users were asked to align on which solutions to focus on by mapping the solutions on an Impact/Feasibility matrix.
+During a prioritization workshop, stakeholders and users were asked to align on which solutions to focus on by mapping the solutions on an Impact/Feasibility Matrix.
 
 #### Scoping exercises
 
