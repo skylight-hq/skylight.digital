@@ -59,6 +59,6 @@ The service blueprint is an important artifact to communicate your understanding
 <div class="callout--note" markdown="1">
 ## More resources
 
-* [”Service Blueprinting in Practice: Who, When, What”](https://www.nngroup.com/articles/service-blueprinting-practice/?lm=service-design-101&pt=article) (Alita Joyce and Sarah Gibbons, Nielsen Norman Group) <span class="badge badge-sub">Article</span>
-* [”Service Blueprints: Definition”](https://www.nngroup.com/articles/service-blueprints-definition/) (Sarah Gibbons, Nielsen Norman Group) <span class="badge badge-sub">Article</span>
+* ["Service Blueprinting in Practice: Who, When, What"](https://www.nngroup.com/articles/service-blueprinting-practice/?lm=service-design-101&pt=article) (Alita Joyce and Sarah Gibbons, Nielsen Norman Group) <span class="badge badge-sub">Article</span>
+* ["Service Blueprints: Definition"](https://www.nngroup.com/articles/service-blueprints-definition/) (Sarah Gibbons, Nielsen Norman Group) <span class="badge badge-sub">Article</span>
 </div>

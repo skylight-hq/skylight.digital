@@ -51,5 +51,5 @@ To define how you’ll collaborate and communicate with stakeholders moving forw
 <div class="callout--note" markdown="1">
 ## More resources
 
-[“Complete Stakeholder Mapping Guide”](https://miro.com/blog/stakeholder-mapping/) (Anna Savina, Miro) <span class="badge badge-sub">Article</span>
+["Complete Stakeholder Mapping Guide"](https://miro.com/blog/stakeholder-mapping/) (Anna Savina, Miro) <span class="badge badge-sub">Article</span>
 </div>

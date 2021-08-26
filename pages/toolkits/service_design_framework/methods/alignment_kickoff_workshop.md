@@ -37,6 +37,6 @@ For stakeholders and other team members outside of the core project team, these 
 <div class="callout--note" markdown="1">
 ## More resources
 
-* [“Planning a client kickoff meeting”](https://medium.com/@jaf_designer/why-product-thinking-is-the-next-big-thing-in-ux-design-ee7de959f3fe) <span class="badge badge-sub">Article</span>
-* [”Kickoff Meetings for Team Alignment Before Starting UX Projects”](http://nngroup.com/videos/kickoff-meetings/) (Nielsen Norman Group) <span class="badge badge-sub">Video</span>
+* ["Planning a client kickoff meeting"](https://medium.com/@jaf_designer/why-product-thinking-is-the-next-big-thing-in-ux-design-ee7de959f3fe) <span class="badge badge-sub">Article</span>
+* ["Kickoff Meetings for Team Alignment Before Starting UX Projects"](http://nngroup.com/videos/kickoff-meetings/) (Nielsen Norman Group) <span class="badge badge-sub">Video</span>
 </div>
