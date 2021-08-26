@@ -19,7 +19,7 @@ Engage your team and relevant stakeholders to collaboratively synthesize researc
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Affinity mapping](https://app.mural.co/t/skylight2171/m/skylight2171/1628006566360/e588c37188c7f835926d7a41315f9e36847465e1?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Affinity mapping]({{ site.data.service_design_templates.affinity_map.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 The research team and any other team members or stakeholders who can provide insights

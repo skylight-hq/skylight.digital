@@ -19,7 +19,7 @@ Align your team and stakeholders on which solutions to pursue based on factors s
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Impact/feasibility matrix](https://app.mural.co/t/skylight2171/m/skylight2171/1615926332584/dbb5db898c1384a548e3dd936d48811239aa175d?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Impact/feasibility matrix]({{ site.data.service_design_templates.impact_feasibility_map.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 Core team members and key decision-making stakeholders
@@ -32,7 +32,7 @@ Any time after you form a concept for a solution; plan to spend about 30 minutes
 
 Prioritization workshops help the team collaboratively decide on what to focus on and gain alignment around decisions. Prioritization workshops can use different methods — from dot voting to a range of 2x2 matrices — and can occur at any point the team needs to make a key decision.
 
-These are the steps for deciding which solution ideas to prioritize using the [impact/feasibility mapping template](https://app.mural.co/t/skylight2171/m/skylight2171/1615926332584/dbb5db898c1384a548e3dd936d48811239aa175d?sender=ubabac35f4785db237eae9972):
+These are the steps for deciding which solution ideas to prioritize using the [impact/feasibility mapping template]({{ site.data.service_design_templates.impact_feasibility_map.url }}):
 
 ### 1. Set the stage
 

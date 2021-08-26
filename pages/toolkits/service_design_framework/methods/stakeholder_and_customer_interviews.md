@@ -19,7 +19,7 @@ Talk with the people that the project outcomes will impact or who have a stake i
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[User interview script](https://methods.18f.gov/user-interview-script/) <span class="badge badge-sub">18F website</span>
+[User interview script]({{ site.data.service_design_templates.user_interview_script.url }}) <span class="badge badge-sub">18F website</span>
 
 ## Who's involved
 Researcher, notetaker, and stakeholders or customers

@@ -19,7 +19,7 @@ Visualize how a customer interacts with a service to get a holistic view of thei
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Customer journey map](https://app.mural.co/t/skylight2171/m/skylight2171/1627402102755/065817673e641f9494c278f59b5ef2a02aec5d32?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Customer journey map]({{ site.data.service_design_templates.customer_journey_map.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 The research team and any other team members or stakeholders who can provide insights

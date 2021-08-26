@@ -19,7 +19,7 @@ During these workshops, align teams and stakeholders around a shared idea of the
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Project planning](https://app.mural.co/t/skylight2171/m/skylight2171/1616616919235/d45e9ad265333254e5a81535dbf05848901b012c?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Project planning]({{ site.data.service_design_templates.project_planning.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 For internal workshops, include all team members. For external workshops, include all team members, stakeholders, and any third-party subcontractors.

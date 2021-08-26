@@ -19,7 +19,7 @@ Quickly build a lightweight representation of your customers to develop empathy 
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Proto-persona](https://app.mural.co/t/skylight2171/m/skylight2171/1626192437600/a517a9bcb2268baad6dd19e950dd50b19df03a22?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Proto-persona]({{ site.data.service_design_templates.proto_personas.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 Service designer, core team, and close stakeholders

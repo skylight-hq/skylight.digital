@@ -19,7 +19,7 @@ This exercise can help you gain alignment across the team and stakeholders. It c
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Roadmap](https://app.mural.co/t/skylight2171/m/skylight2171/1616617530554/a12285ae24f1cca4d96b650ffb41dc13c1a63a8a?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Roadmap]({{ site.data.service_design_templates.roadmap.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 The product owner or project manager should create this artifact in consultation with stakeholders

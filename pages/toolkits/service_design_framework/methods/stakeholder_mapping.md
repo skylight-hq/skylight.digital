@@ -19,7 +19,7 @@ Create a visual representation of all the people who can influence a project and
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Stakeholder map](https://app.mural.co/t/skylight2171/m/skylight2171/1627396350498/3cc461eea8aa2be822b62646553454736fef1ea1?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Stakeholder map]({{ site.data.service_design_templates.stakeholder_mapping.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 Service designer and core team

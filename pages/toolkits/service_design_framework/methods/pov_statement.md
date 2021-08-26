@@ -19,7 +19,7 @@ Articulate who your customers are, their needs, and important insights about the
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[POV statement](https://app.mural.co/t/skylight2171/m/skylight2171/1628018318419/55753f50a1c553b006530b1df0f019f67fa41cdd?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[POV statement]({{ site.data.service_design_templates.service_blueprint.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 Team members and stakeholders from the organization who can contribute to brainstorming
@@ -40,7 +40,7 @@ Using the existing research, collect ideas for each of these categories:
 * Need: What are they trying to accomplish with a service
 * Insight: Why your users need to meet this need
 
-Consult artifacts such as [affinity maps][(#affinity-mapping)](https://app.mural.co/t/skylight2171/m/skylight2171/1628006566360/e588c37188c7f835926d7a41315f9e36847465e1?sender=ubabac35f4785db237eae9972), [personas](https://app.mural.co/t/skylight2171/m/skylight2171/1626192437600/a517a9bcb2268baad6dd19e950dd50b19df03a22?sender=ubabac35f4785db237eae9972), and [customer journey maps](https://app.mural.co/t/skylight2171/m/skylight2171/1627402102755/065817673e641f9494c278f59b5ef2a02aec5d32?sender=ubabac35f4785db237eae9972) to inform your ideas.
+Consult artifacts such as [affinity maps][(#affinity-mapping)]({{ site.data.service_design_templates.affinity_map.url }}), [personas]({{ site.data.service_design_templates.proto_personas.url }}), and [customer journey maps]({{ site.data.service_design_templates.customer_journey_map.url }}) to inform your ideas.
 
 ### 2. Fill in the template
 

@@ -19,7 +19,7 @@ Better understand a service and how you can improve it by visualizing the many p
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Service blueprint](https://app.mural.co/t/skylight2171/m/skylight2171/1628018318419/55753f50a1c553b006530b1df0f019f67fa41cdd?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Service blueprint]({{ site.data.service_design_templates.service_blueprint.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 The research team and relevant stakeholders

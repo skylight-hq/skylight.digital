@@ -7,6 +7,7 @@ permalink: /work/toolkits/service-design-framework/appendix-b-templates/
 sidenav: service_design_framework
 content_type: Toolkit
 ---
+{% assign template = site.data.service_design_templates %}
 
 # Appendix B: Templates
 
@@ -16,19 +17,19 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 
 ## Initiate
 
-### [Project planning](https://app.mural.co/t/skylight2171/m/skylight2171/1616616919235/d45e9ad265333254e5a81535dbf05848901b012c?sender=ubabac35f4785db237eae9972)
+### [Project planning]({{ template.project_planning.url }})
 
 **Method:** Alignment / kickoff workshop
 <br>
 **Tool:** MURAL
 
-### [Proto-personas](https://app.mural.co/t/skylight2171/m/skylight2171/1626192437600/a517a9bcb2268baad6dd19e950dd50b19df03a22?sender=ubabac35f4785db237eae9972)
+### [Proto-personas]({{ template.proto_personas.url }})
 
 **Method:** Proto-personas
 <br>
 **Tool:** MURAL
 
-### [Stakeholder mapping](https://app.mural.co/t/skylight2171/m/skylight2171/1627396350498/3cc461eea8aa2be822b62646553454736fef1ea1?sender=ubabac35f4785db237eae9972)
+### [Stakeholder mapping]({{ template.stakeholder_mapping.url }})
 
 **Method:** Stakeholder mapping
 <br>
@@ -36,41 +37,41 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 
 ## Discover
 
-### [Catalogue of documents](https://docs.google.com/spreadsheets/d/1NpxJqESjlRBdEkz9kTxKbOGq0cabcDlm_Ks_Y_5_ykQ/edit?usp=sharing)
+### [Catalogue of documents]({{ template.catalogue_of_documents.url }})
 
 **Method:** Desk review or secondary research
 <br>
 **Tool:** MURAL
 
-### [User interview script](https://methods.18f.gov/user-interview-script/)
+### [User interview script]({{ template.user_interview_script.url }})
 **Method:** Stakeholder and customer interviews
 <br>
 **Tool:** MURAL
 
-### [Affinity map](https://app.mural.co/t/skylight2171/m/skylight2171/1628006566360/e588c37188c7f835926d7a41315f9e36847465e1?sender=ubabac35f4785db237eae9972)
+### [Affinity map]({{ template.affinity_map.url }})
 **Method:** Affinity mapping
 <br>
 **Tool:** MURAL
 
-### [Customer journey map](https://app.mural.co/t/skylight2171/m/skylight2171/1627402102755/065817673e641f9494c278f59b5ef2a02aec5d32?sender=ubabac35f4785db237eae9972)
+### [Customer journey map]({{ template.customer_journey_map.url }})
 
 **Method:** Customer journey mapping
 <br>
 **Tool:** MURAL
 
-### [Service blueprint](https://app.mural.co/t/skylight2171/m/skylight2171/1628018318419/55753f50a1c553b006530b1df0f019f67fa41cdd?sender=ubabac35f4785db237eae9972)
+### [Service blueprint]({{ template.service_blueprint.url }})
 **Method:** Service blueprint
 <br>
 **Tool:** MURAL
 
 ## Strategize
 
-### [Point of view (POV) statement](https://app.mural.co/t/skylight2171/m/skylight2171/1628018318419/55753f50a1c553b006530b1df0f019f67fa41cdd?sender=ubabac35f4785db237eae9972)
+### [Point of view (POV) statement]({{ template.pov_statement.url }})
 **Method:** POV statement
 <br>
 **Tool:** MURAL
 
-### [Impact/feasibility map](https://app.mural.co/t/skylight2171/m/skylight2171/1615926332584/dbb5db898c1384a548e3dd936d48811239aa175d?sender=ubabac35f4785db237eae9972)
+### [Impact/feasibility map]({{ template.impact_feasibility_map.url }})
 
 **Method:** Prioritization workshops
 <br>
@@ -82,13 +83,13 @@ No templates needed.
 
 ## Implement
 
-### [Roadmap](https://app.mural.co/t/skylight2171/m/skylight2171/1616617530554/a12285ae24f1cca4d96b650ffb41dc13c1a63a8a?sender=ubabac35f4785db237eae9972)
+### [Roadmap]({{ template.roadmap.url }})
 
 **Method:** Roadmap
 <br>
 **Tool:** MURAL
 
-### [Success metrics framework](https://app.mural.co/t/skylight2171/m/skylight2171/1626720093377/34d422bb760bac6046dd486d87a557e42108bb98?sender=ubabac35f4785db237eae9972)
+### [Success metrics framework]({{ template.success_metrics_framework.url }})
 **Method:** Success metrics
 <br>
 **Tool:** MURAL

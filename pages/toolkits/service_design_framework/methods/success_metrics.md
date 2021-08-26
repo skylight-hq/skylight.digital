@@ -19,7 +19,7 @@ Success metrics are the criteria you define to measure how well your service and
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Success metrics example framework](https://app.mural.co/t/skylight2171/m/skylight2171/1626720093377/34d422bb760bac6046dd486d87a557e42108bb98?sender=ubabac35f4785db237eae9972) <span class="badge badge-sub">Mural</span>
+[Success metrics example framework]({{ site.data.service_design_templates.success_metrics_framework.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 The core team and any relevant stakeholders
