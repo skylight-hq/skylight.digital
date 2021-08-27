@@ -50,7 +50,7 @@ Using primary colors demonstrates how we start with basic building blocks, and c
 
 ## Light and dark
 
-Use the standard logo in areas with a light background (Ochre-40 and white). Use the inverse logo in areas with a dark background (Black-300, Red-200, Blue-300, and Green-300).
+Use the standard logo in areas with a light background (`Ochre-40` and `white`). Use the inverse logo in areas with a dark background (`Black-300`, `Red-200`, `Blue-300`, and `Green-300`).
 
 Always aim to use one of these versions. The colors reinforce the brand identity.
 

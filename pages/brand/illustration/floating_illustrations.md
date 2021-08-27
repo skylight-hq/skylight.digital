@@ -14,7 +14,7 @@ class: brand
 
 Floating images don’t have borders or any background color.
 
-They’re monochromatic using a bold color from the illustration palette. Accent with `gray-100` and sparingly with light gray.
+They’re monochromatic using a bold color from the illustration palette. Accent with `Gray-100` and sparingly with light gray.
 
 [img]
 

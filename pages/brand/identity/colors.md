@@ -28,6 +28,6 @@ The gray colors are used for text, charts, etc.
 
 ## Tints
 
-The original base palette  (indicated by the -100 suffix)  has been extended to provide a practical range of values for web/screen applications.
+The original base palette (indicated by the `-100` suffix)  has been extended to provide a practical range of values for web/screen applications.
 
 Labels have been added to each swatch so you can check whether there’s sufficient  contrast to meet WCAG AA standards.
