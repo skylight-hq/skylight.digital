@@ -25,7 +25,7 @@ Skylight Service Design Framework
 
 * **Initiate:** Align on the problem space, including goals, vision, constraints, and environmental considerations
 * **Discover:** Plan; research, analyze, and synthesize; socialize findings and artifacts
-* **Strategize:** Generate solutions, prioritize and plan; future visioning
+* **Strategize:** Generate solutions; prioritize and plan; future visioning
 * **Experiment:** Create prototypes and tests to select the best solution, and iterate with user feedback
 * **Implement:** Actualize solutions and continue to measure, test, and refine
 

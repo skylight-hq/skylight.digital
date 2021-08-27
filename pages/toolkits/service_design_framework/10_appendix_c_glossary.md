@@ -46,7 +46,7 @@ content_type: Toolkit
 
 **Problem space:** The various components in the process of defining and resolving a problem.
 
-**Physical evidences:** The tangible pieces or proof of an interaction during a service. An example is a folded end of a toilet paper roll as a physical evidence in a turndown service.
+**Physical evidence:** The tangible pieces or proof of an interaction during a service. An example is a folded end of a toilet paper roll as a physical evidence in a turndown service.
 
 **Product:** Something in the physical or digital space that someone can own, possess, or consume. An app is a product; a hat is also a product. Today, there’s less distinction between products and services.
 
