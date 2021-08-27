@@ -44,7 +44,7 @@ The following toolkits are also available under this license:
 - [Data Sharing Playbook](https://skylight.digital/work/toolkits/data-sharing-playbook/)
 - [Accessibility Guide](https://skylight.digital/work/toolkits/accessibility-guide/)
 - [Agile Procurement Playbook](https://skylight.digital/work/toolkits/agile-procurement-playbook/)
-- [Managing Technical Debt Guide](https://skylight.digital/work/toolkits/managing-technical-debt//)
+- [Managing Technical Debt Guide](https://skylight.digital/work/toolkits/managing-technical-debt/)
 
 ### CC0 1.0 Universal Summary
 
