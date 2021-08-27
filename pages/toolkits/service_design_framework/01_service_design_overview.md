@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Service design overview | Skylight Service Design Framework
-description: Tools and practices for delivering optimal user experience journeys.
+description: Practices and tools for delivering optimal user experience journeys.
 tags: [service design, design thinking, change management, guide]
 permalink: /work/toolkits/service-design-framework/
 sidenav: service_design_framework
