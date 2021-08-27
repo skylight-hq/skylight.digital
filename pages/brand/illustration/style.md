@@ -6,6 +6,7 @@ tags:
 permalink: /brand/illustration/style/
 sidenav: brand_illustration
 content_type: Toolkit
+toolkit_name: brand
 class: brand
 ---
 
