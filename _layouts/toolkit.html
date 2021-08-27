@@ -68,7 +68,9 @@ image_description: Skylight toolkit banner showing a collection of different too
   </div>
 </div>
 
-{% include get_expert_answers_cta.html %}
+{% unless page.toolkit_name == "brand" %}
+  {% include get_expert_answers_cta.html %}
+{% endunless %}
 
 <script>
 //Get the button:
