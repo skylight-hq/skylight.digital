@@ -58,7 +58,7 @@ data_sharing_playbook:
 
 accessibility_guide:
   title: Accessibility Guide
-  description: Tools and practices for making products and services accessible to everyone.
+  description: Practices and tools for making products and services accessible to everyone.
   toc:
     - title: Introduction
       url: /work/toolkits/accessibility-guide/
@@ -196,7 +196,7 @@ content_guide:
 
 service_design_framework:
   title: Service Design Framework
-  description: Tools and practices for delivering optimal <br class="linebreak">user experience journeys.
+  description: Practices and tools for delivering optimal <br class="linebreak">user experience journeys.
   toc:
     - title: Service design overview
       url: /work/toolkits/service-design-framework/
