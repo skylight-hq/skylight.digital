@@ -10,3 +10,8 @@ toolkit_name: brand
 class: brand
 ---
 
+# Brand in use
+
+A sample of promotional text-based layouts.
+
+A miscellaneous assortment of digital assets.
