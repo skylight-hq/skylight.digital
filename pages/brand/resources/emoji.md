@@ -10,3 +10,6 @@ toolkit_name: brand
 class: brand
 ---
 
+# Emoji
+
+This is a list of emoji that we've compiled thus far for use in electronic messages (such as Slack) and web pages.

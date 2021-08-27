@@ -10,3 +10,6 @@ toolkit_name: brand
 class: brand
 ---
 
+# Graphic elements
+
+Geometric shapes (circle, triangle, square) are reoccurring graphic elements used in both layout design and illustration.

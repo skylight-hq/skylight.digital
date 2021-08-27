@@ -10,3 +10,8 @@ toolkit_name: brand
 class: brand
 ---
 
+# Portraits
+
+Portraits use 1–2 primary colors, as well as any skin and hair color needed.
+
+These images are always full-bleed with a background color.

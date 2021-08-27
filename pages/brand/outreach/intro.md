@@ -10,3 +10,6 @@ toolkit_name: brand
 class: brand
 ---
 
+# Intro
+
+When creating Skylight assets for marketing and communications purposes, we have a few guidelines that we’d like you to follow.
