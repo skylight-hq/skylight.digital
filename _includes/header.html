@@ -21,6 +21,9 @@
 
     <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
       <ul class="navbar-nav">
+        {% if page.toolkit_name == "brand" %}
+          {% include header_brand.html %}
+        {% else %}
         <li class="nav-item nav-item--company dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -110,6 +113,7 @@
             >
           </div>
         </li>
+        {% endif %}
       </ul>
     </div>
   </nav>
