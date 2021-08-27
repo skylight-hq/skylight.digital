@@ -16,6 +16,7 @@ At Skylight, we use a number of specialized terms to describe our way of working
 * **Admin operations:** refers to all the administrative activities (e.g., bookkeeping,  timekeeping, data management) that are part of the company’s business operations. Also known as “backoffice.”
 * **Bid & proposal (B&P):** a plan (proposal) and proposed cost (bid) for fulfilling the conditions outlined in a solicitation, such as an RFP (request for proposal).
 * **Business development lead:** an individual responsible for developing and executing Skylight’s overall strategy for winning a strategic business opportunity.
+* **Business model:** describes the rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts.
 * **Business operations:** refers to all the day-to-day actions that are necessary for running the company and generating income.
 * **Capture:** an industry term describing the efforts that precede a formal proposal submission. The broad goal of a “capture” effort is to develop a strategy that puts Skylight in the best possible position to win new work or retain existing work with a customer.
 * **Client:** someone who engages with Skylight for professional service/support. There’s a lot of literature that goes to great lengths to draw distinctions between the terms “client” and “customer,” but we generally use them synonymously at Skylight, with a preference for “client.”  
@@ -30,8 +31,9 @@ At Skylight, we use a number of specialized terms to describe our way of working
 * **General management:** all the executive-level activities involved in managing the profit & loss and business operations of the company. Sometimes referred to as “general management & operations.”
 * **Individual contributor:** a professional with no direct reports and whose expertise and experience are central to the success of the company.
 * **Manager:** a type of people manager who oversees individual contributors, teams, and sometimes other managers. A manager is expected to drive results for the company with some support. Depending on the context of the term, “manager” may be in reference to this specific definition or to an employee’s direct manager.
+* **Operating model:** describes how an organization delivers value and is a subset of the larger “business model” concept.
 * **Outreach:** an umbrella term that we sometimes use for brevity’s sake to refer to the business functions of marketing and communications, which are related, but different.
-* **People operations:** a strategic business function that focuses on creating great employee experiences. It’s an umbrella term that’s inclusive of HR and talent management.
+* **People operations:** a strategic business function that focuses on creating great employee experiences. It’s an umbrella term that’s inclusive of HR and talent management. Sometimes referred to as “people management.”
 * **People manager:** an executive, director, or manager who provides leadership and personnel administration (e.g., performance evaluations) in support of the individuals and teams they oversee.
 * **Period of performance:** the time period during which the proposed work will be completed and the funds awarded are available for expenditure by the recipient. A number of government contracts are structured with a base period (e.g., 12 months) and one or more option periods. An option period gives the government a unilateral right to purchase additional services/supplies or to extend the contract for a specified period of time.
 * **Prime contractor:** a contractor who works directly with the customer. They manage any subcontractors, and are responsible for ensuring that the work is completed as defined in the contract.
