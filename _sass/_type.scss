@@ -240,6 +240,12 @@ blockquote {
 
 .link--cta {
   border-bottom: none !important;
+
+  &:hover {
+    .link__text--cta {
+      color: $link-hover-color;
+    }
+  }
 }
 
 .link__text--cta {
