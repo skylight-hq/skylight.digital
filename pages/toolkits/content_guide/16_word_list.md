@@ -2,7 +2,6 @@
 layout: toolkit
 title: Word list | Skylight Content Guide
 description: Rules for using common words and phrases.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/word-list/
 sidenav: content_guide
 content_type: Toolkit

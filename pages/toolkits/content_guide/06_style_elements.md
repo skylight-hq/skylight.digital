@@ -2,7 +2,6 @@
 layout: toolkit
 title: Style elements | Skylight Content Guide
 description: How to style content.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/style-elements/
 sidenav: content_guide
 content_type: Toolkit
@@ -101,7 +100,7 @@ Skylight content guide
 </div>
 
 ### Sentence case
-In general, we use sentence case. Sentence case capitalizes the first letter of the first word. This includes headings and subheadings. 
+In general, we use sentence case. Sentence case capitalizes the first letter of the first word. This includes headings and subheadings.
 
 <div class="example" markdown="1">
 #### Yes
@@ -612,7 +611,7 @@ The first time you mention a school, college, or university in a piece of writin
 
 Write in plain English. If you need to use a technical term, briefly define it so everyone can understand.
 
-Avoid using formal or long words when easy or short ones will do. 
+Avoid using formal or long words when easy or short ones will do.
 
 <div class="example" markdown="1">
 #### Yes
