@@ -24,7 +24,7 @@ content_type: Toolkit
 
 **End user:** Another way to describe the person who uses a service or product.
 
-**Experiment phase:** Create prototypes and tests to select the best solution and iterate with user feedback.
+**Experiment phase:** The phase when you create prototypes and tests to select the best solution and iterate with user feedback.
 
 **Fidelity:** Level of detail, refinement, and resemblance to the implemented solution. Prototypes come in different degrees of fidelity, including low-fidelity and high-fidelity.
 
