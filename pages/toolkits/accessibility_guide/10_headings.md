@@ -2,7 +2,6 @@
 layout: toolkit
 title: Headings | Skylight Accessibility Guide
 description: Proper use of heading elements.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/headings/
 sidenav: accessibility_guide
 content_type: Toolkit

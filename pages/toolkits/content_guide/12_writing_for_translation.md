@@ -2,7 +2,6 @@
 layout: toolkit
 title: Writing for translation | Skylight Content Guide
 description: How to help non-native English speakers better comprehend content.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/writing-for-translation/
 sidenav: content_guide
 content_type: Toolkit
@@ -246,7 +245,7 @@ When writing for an international audience, use the metric system. Spell out all
 
 Many countries call their currency "the dollar," but the value is going to differ between countries. The U.S. dollar is not the same as the Canadian dollar, for example. So it’s important to specify.
 
-Indicate currency by using its three-letter abbreviation, such as USD or CAD. Don’t use currency symbols, like $ or €. 
+Indicate currency by using its three-letter abbreviation, such as USD or CAD. Don’t use currency symbols, like $ or €.
 
 <div class="example" markdown="1">
 #### Yes

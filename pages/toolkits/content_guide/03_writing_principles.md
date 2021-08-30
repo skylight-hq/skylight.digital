@@ -2,7 +2,6 @@
 layout: toolkit
 title: Writing principles | Skylight Content Guide
 description: Writing principles for effective content.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/writing-principles/
 sidenav: content_guide
 content_type: Toolkit

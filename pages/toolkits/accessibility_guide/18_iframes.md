@@ -2,7 +2,6 @@
 layout: toolkit
 title: iFrames | Skylight Accessibility Guide
 description: How we deal with iFrames.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/iframes/
 sidenav: accessibility_guide
 content_type: Toolkit
