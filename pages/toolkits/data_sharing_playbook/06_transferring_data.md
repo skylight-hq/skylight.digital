@@ -2,7 +2,6 @@
 layout: toolkit
 title: Transferring data | Skylight Data Sharing Playbook
 description: A guide for state & local agencies on how to improve cross-organizational data sharing.
-tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/transferring-data/
 sidenav: data_sharing_playbook
 content_type: Toolkit

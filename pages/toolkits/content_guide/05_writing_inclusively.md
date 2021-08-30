@@ -2,7 +2,6 @@
 layout: toolkit
 title: Writing inclusively | Skylight Content Guide
 description: How to write inclusively.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/writing-inclusively/
 sidenav: content_guide
 content_type: Toolkit
