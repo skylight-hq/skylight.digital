@@ -1,6 +1,7 @@
 ---
 layout: policy
 title: Linking Policy
+description: Learn more about Skylight's linking policies, including links to third-party sites and linking to skylight.digital.
 permalink: /company/policies/linking/
 redirect_from:
   - /policies/linking/

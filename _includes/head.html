@@ -38,7 +38,7 @@
     {% assign title = site_title %}
   {% endif %}
   {% if page.filter_type == "post" %}
-    {% assign description = "The collection of blog posts authored by " | append: page.name %}
+    {% assign description = "The collection of blog posts authored by " | append: page.name | replace: "-", " " | capitalize %}
   {% elsif page.filter_type == "talk" %}
     {% assign description = "The collection of talks delivered by " | append: page.name %}
   {% elsif page.filter_type == "project" %}
