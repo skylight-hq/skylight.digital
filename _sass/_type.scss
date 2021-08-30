@@ -237,3 +237,16 @@ blockquote {
 .post-content {
   @include responsive-headings;
 }
+
+.link--cta {
+  border-bottom: none !important;
+}
+
+.link__text--cta {
+  @include link-decoration(
+    $text-link-color,
+    $text-link-hover-color,
+    $text-link-border,
+    $text-link-border-hover
+  );
+}
