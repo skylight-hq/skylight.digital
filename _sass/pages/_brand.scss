@@ -14,4 +14,9 @@
   .nav-link {
     background-image: none !important;
   }
+
+  .grid-container,
+  .header {
+    max-width: $size-desktop-lg;
+  }
 }
