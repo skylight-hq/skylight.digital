@@ -66,9 +66,4 @@ We led key stakeholders through a series of activities and conversations to alig
 #### Proto-personas
 
 In collaboration with our stakeholders, we built initial personas based on team assumptions to start building empathy for users.
-
-### Project artifacts
-
-* [Stakeholder map](https://drive.google.com/file/d/1meYnj9zUK9N5Pa79wAqpkGKjPIdJInMk/view?usp=sharing)
-* [Proto-personas](https://app.mural.co/t/skylight2171/m/skylight2171/1616686300647/847c66fcfd6a273b27ba44ba5976f1604284941e?sender=ubabac35f4785db237eae9972)
 </div>
