@@ -1,6 +1,7 @@
 ---
 layout: policy
 title: Code of Conduct Policy
+description: Skylight’s expectations for how people should behave toward one another.
 permalink: /company/policies/code-of-conduct/
 redirect_from:
   - /policies/code-of-conduct/

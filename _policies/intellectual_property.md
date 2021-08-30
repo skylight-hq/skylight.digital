@@ -1,6 +1,7 @@
 ---
 layout: policy
 title: Intellectual Property Policy
+description: Learn more about what our intellectual property policies are for Skylight information, software, and brand.
 permalink: /company/policies/intellectual-property/
 redirect_from:
   - /policies/intellectual-property/

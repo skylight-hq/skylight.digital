@@ -1,6 +1,7 @@
 ---
 layout: policy
 title: Open Source Policy
+description: We’re committed to making the software we write openly available and accessible. Learn more about Skylight’s open-source policy.
 permalink: /company/policies/open-source/
 redirect_from:
   - /policies/open-source/
