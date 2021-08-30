@@ -26,7 +26,7 @@ During these workshops, align teams and stakeholders around a shared idea of the
 For internal workshops, include all team members. For external workshops, include all team members, stakeholders, and any third-party subcontractors.
 
 ## Timeframe
-Plan to schedule 1–3 hours for each session, as early as possible
+Plan to schedule 1–3 hours for each session, as early as possible.
 </div>
 
 Kickoff workshops and alignment artifacts are structured to align project groups and stakeholders around the process, goals, and vision of a project. Help the project go smoothly by kicking it off with a team charter for the internal group and performing a longer session with partners and stakeholders. Organize these as early as possible, as soon as the full team is assembled.
