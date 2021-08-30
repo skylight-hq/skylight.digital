@@ -16,7 +16,30 @@
   }
 
   .grid-container,
-  .header {
+  .header,
+  .footer {
     max-width: $size-desktop-lg;
+  }
+}
+
+.brand-hero__content {
+  @include media-breakpoint-up(md) {
+    height: 450px;
+  }
+}
+
+.brand__quick-links {
+  .kicker {
+    color: $blue-40;
+  }
+
+  .quick-links__list {
+    column-count: 2;
+    font-family: $font-family-mono;
+    font-size: $font-size-sm;
+
+    a {
+      color: white;
+    }
   }
 }
