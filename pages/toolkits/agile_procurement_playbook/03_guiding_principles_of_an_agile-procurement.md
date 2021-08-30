@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Guiding principles of an agile procurement | Skylight Agile Procurement Playbook
-description: A guide on how to apply the principles of agile to procurement.
+description: The guiding principles of agile procurement, including how it differs from other procurement approaches and modular contracting.
 tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/guiding-principles-of-an-agile-procurement/
 sidenav: agile_procurement_playbook

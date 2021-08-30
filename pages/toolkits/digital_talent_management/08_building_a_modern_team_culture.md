@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Building a modern team culture | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to build the right organizational culture to embrace new ways of thinking and working, including the adoption of the Westrum model.
 tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/building-a-modern-team-culture/
 sidenav: digital_talent_management

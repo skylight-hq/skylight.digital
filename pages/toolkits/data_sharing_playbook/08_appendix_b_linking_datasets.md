@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Appendix B: Linking datasets | Skylight Data Sharing Playbook"
-description: A guide for state & local agencies on how to improve cross-organizational data sharing.
+description: How to combine two or more datasets through the process of data linking, including deterministic and probabilistic approaches.
 tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets/
 sidenav: data_sharing_playbook

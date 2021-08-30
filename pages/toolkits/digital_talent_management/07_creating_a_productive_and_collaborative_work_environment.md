@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Creating a productive and collaborative work environment | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to create a productive and collaborative work environment for digital teams, including physical and virtual workspaces.
 tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/creating-a-productive-and-collaborative-work-environment/
 sidenav: digital_talent_management
