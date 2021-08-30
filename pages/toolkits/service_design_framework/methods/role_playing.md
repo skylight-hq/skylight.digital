@@ -12,7 +12,7 @@ class: design-method
 EXPERIMENT PHASE
 {: .kicker }
 
-# Role playing
+# Role-playing
 {: .mt-0 }
 
 Act out a service to understand the key elements you should consider in designing a solution.

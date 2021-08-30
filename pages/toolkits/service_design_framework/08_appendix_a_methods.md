@@ -20,7 +20,7 @@ The methods below are organized by phase. Visit each one to find a detailed desc
 
 During these workshops, align teams and stakeholders around a shared idea of the process and define key objectives and goals for the project.
 
-[Read about alignment / kickoff workshops<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
+[Read about alignment / kickoff workshop<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
 
 ### Proto-personas
 
@@ -52,7 +52,7 @@ Compile and review information related to the project. This can include document
 
 Engage your team and relevant stakeholders to collaboratively synthesize research findings. Turn data into actionable insights that help inform the next stages of the process.
 
-[Read about ecosystem diagrams<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/affinity-mapping/)
+[Read about affinity mapping<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/affinity-mapping/)
 
 ### Customer journey mapping
 
@@ -82,11 +82,11 @@ Articulate who your customers are, their needs, and important insights about the
 
 ## Experiment
 
-### Role playing
+### Role-playing
 
 Act out a service to understand the key elements you should consider in designing a solution.
 
-[Read about role playing<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/role-playing/)
+[Read about role-playing<i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i>](/work/toolkits/service-design-framework/methods/role-playing/)
 
 ### Wizard of Oz
 

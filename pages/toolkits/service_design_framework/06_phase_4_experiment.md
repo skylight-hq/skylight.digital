@@ -27,7 +27,7 @@ Consider where to go next, whether it's forward to plan for implementation or ba
 
 ## Methods
 - [Wizard of Oz](/work/toolkits/service-design-framework/methods/wizard-of-oz/)
-- [Role playing](/work/toolkits/service-design-framework/methods/role-playing/)
+- [Role-playing](/work/toolkits/service-design-framework/methods/role-playing/)
 </div>
 
 Once you’ve honed in on some concepts, the methods in this phase help you test their usability and functionality and whether they meet customer and organizational needs. During the Experiment phase, continue to research, build empathy for customers, and facilitate workshops and testing in order to develop the best solutions.
