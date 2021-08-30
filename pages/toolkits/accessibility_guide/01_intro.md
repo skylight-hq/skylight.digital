@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Introduction | Skylight Accessibility Guide
-description: Tools and practices for making products and services accessible to everyone.
+description: Practices and tools for making products and services accessible to everyone.
 tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/
 sidenav: accessibility_guide
