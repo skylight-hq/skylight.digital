@@ -2,7 +2,6 @@
 layout: toolkit
 title: Tools | Skylight Accessibility Guide
 description: Tools we use to improve and test accessibility.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/tools/
 sidenav: accessibility_guide
 content_type: Toolkit

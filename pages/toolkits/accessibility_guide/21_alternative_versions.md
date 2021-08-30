@@ -2,7 +2,6 @@
 layout: toolkit
 title: Alternative versions | Skylight Accessibility Guide
 description: How we deal with alternative versions.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/alternative-versions/
 sidenav: accessibility_guide
 content_type: Toolkit
