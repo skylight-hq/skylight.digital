@@ -37,7 +37,15 @@
   {% else %}
     {% assign title = site_title %}
   {% endif %}
-  {% if page.excerpt and page.layout != 'policy' %}
+  {% if page.filter_type == "post" %}
+    {% assign description = "The collection of blog posts authored by " | append: page.name %}
+  {% elsif page.filter_type == "talk" %}
+    {% assign description = "The collection of talks delivered by " | append: page.name %}
+  {% elsif page.filter_type == "project" %}
+    {% assign description = "The projects (name) has worked on." | append: page.name %}
+  {% elsif page.layout == "tag_filter" %}
+    {% assign description = "The collection of blog posts associated with this tag." %}
+  {% elsif page.excerpt and page.layout != 'policy' %}
     {% assign description = page.excerpt | strip_html | xml_escape %}
   {% elsif page.description %}
     {% assign description = page.description | xml_escape %}
