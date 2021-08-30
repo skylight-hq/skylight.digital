@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: What is agile procurement? | Skylight Agile Procurement Playbook
-description: A guide on how to apply the principles of agile to procurement.
+description: A definition of what agile procurement is.
 tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/what-is-agile-procurement/
 sidenav: agile_procurement_playbook

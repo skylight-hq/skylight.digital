@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Building a digital team | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to build a digital team, including keeping teams small and multidisciplinary.
 tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/building-a-digital-team
 sidenav: digital_talent_management

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Phases of an agile procurement | Skylight Agile Procurement Playbook
-description: A guide on how to apply the principles of agile to procurement.
+description: The phases of an agile procurement, including defining the strategy and evaluating vendors.
 tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement/
 sidenav: agile_procurement_playbook

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Managing an agile project | Skylight Agile Procurement Playbook
-description: A guide on how to apply the principles of agile to procurement.
+description: How to manage the contract work in an agile way.
 tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/managing-an-agile-project/
 sidenav: agile_procurement_playbook
