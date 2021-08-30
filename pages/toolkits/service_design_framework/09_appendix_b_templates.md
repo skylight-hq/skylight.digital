@@ -41,12 +41,12 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 
 **Method:** Desk review or secondary research
 <br>
-**Tool:** MURAL
+**Tool:** Google Sheet
 
 ### [User interview script]({{ template.user_interview_script.url }})
 **Method:** Stakeholder and customer interviews
 <br>
-**Tool:** MURAL
+**Tool:** 18F website
 
 ### [Affinity map]({{ template.affinity_map.url }})
 **Method:** Affinity mapping
