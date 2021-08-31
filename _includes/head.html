@@ -50,7 +50,7 @@
   {% elsif page.layout == "tag_filter" %}
     {% assign tf = page.slug | replace: '_', ' ' %}
     {% assign description = "The collection of blog posts associated with the tag: " | append: tf | append: "." %}
-  {% elsif page.excerpt and page.layout != 'policy' %}
+  {% elsif page.excerpt %}
     {% assign description = page.excerpt | strip_html | xml_escape %}
   {% elsif page.description %}
     {% assign description = page.description | xml_escape %}
