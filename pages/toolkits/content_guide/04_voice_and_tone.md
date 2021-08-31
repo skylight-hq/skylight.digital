@@ -2,7 +2,6 @@
 layout: toolkit
 title: Voice and tone | Skylight Content Guide
 description: Guidance around voice and tone.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/voice-and-tone/
 sidenav: content_guide
 content_type: Toolkit

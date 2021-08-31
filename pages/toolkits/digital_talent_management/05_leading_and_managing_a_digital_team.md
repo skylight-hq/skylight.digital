@@ -2,7 +2,6 @@
 layout: toolkit
 title: Leading and managing a digital team | Skylight Digital Talent Management Handbook
 description: How to lead and manage a digital team, including acting as a servant leader and empowering your team to perform the work.
-tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/leading-and-managing-a-digital-team/
 sidenav: digital_talent_management
 content_type: Toolkit

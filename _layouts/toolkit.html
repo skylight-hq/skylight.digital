@@ -26,7 +26,7 @@ image_description: Skylight toolkit banner showing a collection of different too
         </nav>
       </div>
     </div>
-    <section class="col-12 col-md-9 page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}}">
+    <section class="col-12 col-md-9 page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}} page--{{ page.sidenav | slugify }}">
       {{ content }}
 
       {% assign items = site.data.toolkits[page.sidenav].toc %}
@@ -68,7 +68,11 @@ image_description: Skylight toolkit banner showing a collection of different too
   </div>
 </div>
 
-{% include get_expert_answers_cta.html %}
+{% if page.sidenav == "service_design_framework" %}
+  {% include service_design_framework_cta.html %}
+{% else %}
+  {% include get_expert_answers_cta.html %}
+{% endif %}
 
 <script>
 //Get the button:

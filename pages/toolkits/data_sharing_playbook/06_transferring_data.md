@@ -2,7 +2,6 @@
 layout: toolkit
 title: Transferring data | Skylight Data Sharing Playbook
 description: How to transfer data, including de-identifying data in order to protect the privacy and rights of individuals.
-tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/transferring-data/
 sidenav: data_sharing_playbook
 content_type: Toolkit

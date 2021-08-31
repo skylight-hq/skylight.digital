@@ -2,7 +2,6 @@
 layout: toolkit
 title: Onboarding | Skylight Digital Talent Management Handbook
 description: How to design a great onboarding experience for new digital team members and create an employee handbook.
-tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/onboarding/
 sidenav: digital_talent_management
 content_type: Toolkit

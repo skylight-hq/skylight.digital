@@ -2,7 +2,6 @@
 layout: toolkit
 title: Ensuring happy and engaged employees | Skylight Digital Talent Management Handbook
 description: How you can keep digital team members happy and engaged within your organization, including making interesting projects available for them to work on.
-tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/ensuring-happy-and-engaged-employees/
 sidenav: digital_talent_management
 content_type: Toolkit

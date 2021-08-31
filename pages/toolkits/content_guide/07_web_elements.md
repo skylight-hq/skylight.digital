@@ -2,7 +2,6 @@
 layout: toolkit
 title: Web elements | Skylight Content Guide
 description: How to style Skylight's website.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/web-elements/
 sidenav: content_guide
 content_type: Toolkit

@@ -2,7 +2,6 @@
 layout: toolkit
 title: Technical and interface writing | Skylight Content Guide
 description: How to write clear, concise instructions.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/technical-and-interface-writing/
 sidenav: content_guide
 content_type: Toolkit
@@ -57,7 +56,7 @@ Include a short two- or three-sentence summary about the document to help the re
 
 ### Code
 
-When adding instructions to perform a task on a computer, manually adjust the font to use Roboto Mono. This formatting helps content read as a digital artifact. Examples include emails, written text, text messages, and code blocks. 
+When adding instructions to perform a task on a computer, manually adjust the font to use Roboto Mono. This formatting helps content read as a digital artifact. Examples include emails, written text, text messages, and code blocks.
 
 <div class="example" markdown="1">
 #### Yes
