@@ -22,6 +22,47 @@
   }
 }
 
+.page-brand-guidelines {
+  h1 {
+    line-height: 1;
+  }
+
+  .blog-post-footer {
+    border-bottom-width: 8px !important;
+    border-bottom-style: solid !important;
+  }
+}
+
+.card--identity {
+  .blog-post-footer {
+    border-bottom-color: $sk-blue-light !important;
+  }
+}
+
+.card--writing {
+  .blog-post-footer {
+    border-bottom-color: $sk-blue !important;
+  }
+}
+
+.card--illustration {
+  .blog-post-footer {
+    border-bottom-color: $green-200 !important;
+  }
+}
+
+.card--outreach {
+  .blog-post-footer {
+    border-bottom-color: $red-200 !important;
+  }
+}
+
+.card--resources {
+  .blog-post-footer {
+    border-bottom-color: $sk-yellow !important;
+  }
+}
+
 .brand-hero__content {
   @include media-breakpoint-up(md) {
     height: 450px;
@@ -37,6 +78,7 @@
     column-count: 2;
     font-family: $font-family-mono;
     font-size: $font-size-sm;
+    line-height: 2.2;
 
     a {
       color: white;
