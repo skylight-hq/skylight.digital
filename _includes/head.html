@@ -38,9 +38,11 @@
     {% assign title = site_title %}
   {% endif %}
   {% if page.filter_type == "post" %}
-    {% assign description = "The collection of blog posts authored by " | append: page.name | replace: "-", " " | capitalize %}
+    {% assign blog_name = page.name |  replace: "-", " " | capitalize_all %}
+    {% assign description = "The collection of blog posts authored by " | append: blog_name %}
   {% elsif page.filter_type == "talk" %}
-    {% assign description = "The collection of talks delivered by " | append: page.name %}
+    {% assign talk_name = page.name |  replace: "-", " " | capitalize_all %}
+    {% assign description = "The collection of talks delivered by " | append: talk_name %}
   {% elsif page.filter_type == "project" %}
     {% assign description = "The projects (name) has worked on." | append: page.name %}
   {% elsif page.layout == "tag_filter" %}
