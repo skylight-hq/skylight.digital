@@ -20,7 +20,13 @@ image_description: Skylight toolkit banner showing a collection of different too
 
 <div class="grid-container" id="main">
   <div class="row d-flex">
-    <div class="sidenav col-12 col-md-3 order-2 order-md-1">
+    <div class="sidenav  order-2 order-md-1
+    {% if page.toolkit_name == "brand" %}
+    col-md-2
+    {% else %}
+    col-md-3
+    {% endif %}
+    ">
       <div class="">
         <nav class="subnav-col px-0 mt-5 mt-md-0" id="sidenav">
           <ul>
@@ -33,7 +39,13 @@ image_description: Skylight toolkit banner showing a collection of different too
         </nav>
       </div>
     </div>
-    <section class="col-12 col-md-9 page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}}">
+    <section class="page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}}
+    {% if page.toolkit_name == "brand" %}
+    col-md-10
+    {% else %}
+    col-md-9
+    {% endif %}
+    ">
       {{ content }}
 
       {% assign items = site.data.toolkits[page.sidenav].toc %}

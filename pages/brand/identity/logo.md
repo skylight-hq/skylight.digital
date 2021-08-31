@@ -10,17 +10,34 @@ toolkit_name: brand
 class: brand
 ---
 
+
+<div class="row brand__content">
+<div class="row">
+<div class="col-md-8" markdown="1">
+![](/img/brand/rectangle.jpg)
+</div>
+<div class="col-md-4" markdown="1">
 # Logo
 
 ## Intro
 
 How we write our name, how we use our symbols — these are the closest we get to a "signature" for Skylight. How they appear, whether tiny on a screen or enormous at an airport, becomes a crucial way for our customers and partners to find and trust us.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8" markdown="1">
+![](/img/brand/rectangle.jpg)
+</div>
+<div class="col-md-4" markdown="1">
 ## Logotype and logomark
 
 Our logo consists of two elements: the logotype and the "halo" — or logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon.
 
 To aid in brand awareness, the logotype + logomark is typically used in our customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
+</div>
+</div>
+</div>
 
 [img desc]
 
