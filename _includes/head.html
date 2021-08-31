@@ -36,6 +36,7 @@
   {% else %}
     {% assign title = site_title %}
   {% endif %}
+
   {% if page.filter_type == "post" %}
     {% assign blog_name = page.name |  replace: "-", " " | capitalize_all %}
     {% assign description = "The collection of blog posts authored by " | append: blog_name %}
@@ -45,6 +46,7 @@
   {% elsif page.filter_type == "project" %}
     {% assign pn = page.name |  replace: "-", " " | capitalize_all %}
     {% assign description = "The projects " | append: pn | append: " has worked on." %}
+  
   {% elsif page.layout == "tag_filter" %}
     {% assign description = "The collection of blog posts associated with this tag." %}
   {% elsif page.excerpt and page.layout != 'policy' %}
