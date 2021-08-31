@@ -17,6 +17,7 @@
 
   .grid-container,
   .header,
+  .navbar,
   .footer {
     max-width: $size-desktop-lg;
   }
@@ -24,9 +25,34 @@
   .hero-heading {
     font-size: 3rem;
   }
+
+
 }
 
 .page-brand-guidelines {
+  .header {
+    background-color: $sk-blue;
+    max-width: 100%;
+  }
+
+  .navbar {
+    @include media-breakpoint-up(md) {
+      margin-inline: 2rem;
+    }
+  }
+
+  .nav-link {
+    color: white;
+
+    &:hover {
+      color: $blue-20;
+    }
+  }
+
+  .navbar-logo {
+    background-image: url("/img/logo-inverse.svg");
+  }
+
   h1 {
     line-height: 1;
   }
