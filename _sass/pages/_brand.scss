@@ -35,7 +35,9 @@
   }
 }
 
-.brand__content {
+.brand__content-section {
+  margin-top: 3rem;
+
   p {
     font-size: $font-size-small;
   }
@@ -43,10 +45,6 @@
   img {
     width: 100%;
   }
-}
-
-.brand__content-section {
-  margin-top: 3rem;
 }
 
 .page-brand-guidelines {
