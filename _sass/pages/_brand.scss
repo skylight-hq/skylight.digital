@@ -45,12 +45,22 @@
     color: white;
 
     &:hover {
-      color: $blue-20;
+      color: $blue-20 !important;
     }
   }
 
   .navbar-logo {
     background-image: url("/img/logo-inverse.svg");
+  }
+
+  .burger span, .burger span:before, .burger span:after {
+    background: white;
+  }
+
+  .navbar .nav-item:not(:first-child) .nav-link, .navbar .subnav-col li:not(:first-child) .nav-link, .subnav-col .navbar li:not(:first-child) .nav-link {
+    @include media-breakpoint-down(sm) {
+      border-top-color: $blue-60;
+    }
   }
 
   h1 {
