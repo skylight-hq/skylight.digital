@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Appendix A: Case studies | Skylight Agile Procurement Playbook"
-description: A guide on how to apply the principles of agile to procurement.
+description: Examples of projects that used agile procurement.
 permalink: /work/toolkits/agile-procurement-playbook/appendix-a-case-studies/
 sidenav: agile_procurement_playbook
 content_type: Toolkit

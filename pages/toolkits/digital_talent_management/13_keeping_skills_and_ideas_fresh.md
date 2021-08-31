@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Keeping skills and ideas fresh | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How you can help your digital teams keep pace with the ever-changing technology landscape, including offering professional development opportunities.
 permalink: /work/toolkits/digital-talent-management/keeping-skills-and-ideas-fresh/
 sidenav: digital_talent_management
 content_type: Toolkit

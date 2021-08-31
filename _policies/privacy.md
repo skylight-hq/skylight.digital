@@ -1,6 +1,7 @@
 ---
 layout: policy
 title: Privacy Policy
+description: Skylight is committed to protecting individual privacy and securing the personal information made available to us when you visit skylight.digital.
 permalink: /company/policies/privacy/
 redirect_from:
   - /policies/privacy/

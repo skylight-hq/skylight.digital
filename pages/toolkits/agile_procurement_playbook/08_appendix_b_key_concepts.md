@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Appendix B: Key concepts | Skylight Agile Procurement Playbook"
-description: A guide on how to apply the principles of agile to procurement.
+description: Concepts that are essential to understand in the field of agile procurement.
 permalink: /work/toolkits/agile-procurement-playbook/appendix-b-key-concepts/
 sidenav: agile_procurement_playbook
 content_type: Toolkit

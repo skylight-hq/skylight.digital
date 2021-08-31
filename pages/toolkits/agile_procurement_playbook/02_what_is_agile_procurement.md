@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: What is agile procurement? | Skylight Agile Procurement Playbook
-description: A guide on how to apply the principles of agile to procurement.
+description: A definition of what agile procurement is.
 permalink: /work/toolkits/agile-procurement-playbook/what-is-agile-procurement/
 sidenav: agile_procurement_playbook
 content_type: Toolkit
