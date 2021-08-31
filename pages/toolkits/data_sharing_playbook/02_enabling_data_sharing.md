@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Enabling data sharing | Skylight Data Sharing Playbook
-description: A guide for state & local agencies on how to improve cross-organizational data sharing.
+description: How to enable data sharing, including identifying roles, publishing a data dictionary, and developing a data request process.
 permalink: /work/toolkits/data-sharing-playbook/enabling-data-sharing/
 sidenav: data_sharing_playbook
 content_type: Toolkit

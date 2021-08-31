@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: How we wrote this guide | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: Details on how we researched and wrote this handbook.
 permalink: /work/toolkits/digital-talent-management/how-we-wrote-this-guide/
 sidenav: digital_talent_management
 content_type: Toolkit

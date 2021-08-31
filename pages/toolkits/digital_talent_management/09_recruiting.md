@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Recruiting | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to recruit digital talent into your organization, including nurturing your reputation and advertising career opportunities.
 permalink: /work/toolkits/digital-talent-management/recruiting/
 sidenav: digital_talent_management
 content_type: Toolkit
