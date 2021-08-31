@@ -48,8 +48,8 @@
     {% assign description = "The projects " | append: pn | append: " has worked on." %}
   
   {% elsif page.layout == "tag_filter" %}
-    {% assign tn = page.name |  replace: "-", " " %}
-    {% assign description = "The collection of blog posts associated with the tag: " | append: tn | append: "." %}
+    {% assign tf = page.slug | replace: '_', ' ' %}
+    {% assign description = "The collection of blog posts associated with the tag: " | append: tf | append: "." %}
   {% elsif page.excerpt and page.layout != 'policy' %}
     {% assign description = page.excerpt | strip_html | xml_escape %}
   {% elsif page.description %}
