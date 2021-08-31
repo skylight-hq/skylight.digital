@@ -19,11 +19,13 @@
         {% endif %}
       </{% if page.layout == "toolkit" %}p{% else %}h1{% endif %}>
       <div class="hero-content mx-0 {% if include.text == 'dark' %}text-ink{% endif %}">
+        <p>
         {% if page.layout == "toolkit" %}
           {{ site.data.toolkits[page.sidenav].description }}
         {% else %}
           {{ include.hero_content | markdownify }}
         {% endif %}
+        </p>
       </div>
     </div>
   </header>

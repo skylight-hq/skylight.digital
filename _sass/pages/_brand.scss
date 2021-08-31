@@ -51,7 +51,7 @@
 
 .card--illustration {
   .blog-post-footer {
-    border-bottom-color: $green-200 !important;
+    border-bottom-color: $green-300 !important;
   }
 }
 
@@ -87,5 +87,39 @@
     a {
       color: white;
     }
+  }
+}
+
+.page--brand-identity {
+  .hero-banner {
+    background-color: $sk-blue-light;
+  }
+}
+
+.page--brand-writing {
+  .hero-banner {
+    background-color: $sk-blue;
+  }
+}
+
+.page--brand-illustration {
+  .hero-banner {
+    background-color: $green-300;
+  }
+}
+
+.page--brand-outreach {
+  .hero-banner {
+    background-color: $red-200;
+  }
+}
+
+.page--brand-resources {
+  .hero-banner {
+    background-color: $sk-yellow;
+  }
+
+  .brand-hero__content * {
+    color: $heading-color;
   }
 }
