@@ -46,7 +46,6 @@
   {% elsif page.filter_type == "project" %}
     {% assign pn = page.name |  replace: "-", " " | capitalize_all %}
     {% assign description = "The projects " | append: pn | append: " has worked on." %}
-  
   {% elsif page.layout == "tag_filter" %}
     {% assign tf = page.slug | replace: '_', ' ' %}
     {% assign description = "The collection of blog posts associated with the tag: " | append: tf | append: "." %}
