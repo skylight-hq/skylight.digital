@@ -2,7 +2,6 @@
 layout: toolkit
 title: Safeguarding data | Skylight Data Sharing Playbook
 description: How to safeguard data, including developing privacy and security compliance policies, standards, and controls.
-tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/safeguarding-data/
 sidenav: data_sharing_playbook
 content_type: Toolkit

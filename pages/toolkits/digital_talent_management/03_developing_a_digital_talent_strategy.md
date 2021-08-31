@@ -2,7 +2,6 @@
 layout: toolkit
 title: Understanding your talent gaps | Skylight Digital Talent Management Handbook
 description: How to develop a digital talent strategy based on your existing talent gaps, including recruiting new talent and training existing employees.
-tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/developing-a-digital-talent-strategy/
 sidenav: digital_talent_management
 content_type: Toolkit

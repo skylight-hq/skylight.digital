@@ -2,7 +2,6 @@
 layout: toolkit
 title: Guiding your digital transformation | Skylight Digital Talent Management Handbook
 description: How to change the way your organization works to support digital teams, including reporting structures and measuring success.
-tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/guiding-your-digital-transformation/
 sidenav: digital_talent_management
 content_type: Toolkit

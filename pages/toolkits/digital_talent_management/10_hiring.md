@@ -2,7 +2,6 @@
 layout: toolkit
 title: Hiring | Skylight Digital Talent Management Handbook
 description: How to run a hiring process specific to governmental considerations, including the use of flexible hiring authorities.
-tags: [digital talent, digital talent management, talent modernization, guide]
 permalink: /work/toolkits/digital-talent-management/hiring/
 sidenav: digital_talent_management
 content_type: Toolkit

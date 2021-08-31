@@ -2,7 +2,6 @@
 layout: toolkit
 title: Preventing technical debt | Skylight Managing Technical Debt Guide
 description: How to prevent bad technical debt from accumulating.
-tags: [technical debt, code debt, software development, guide]
 permalink: /work/toolkits/managing-technical-debt/preventing-technical-debt/
 sidenav: managing_technical_debt
 content_type: Toolkit

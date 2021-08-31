@@ -2,7 +2,6 @@
 layout: toolkit
 title: Further reading | Skylight Content Guide
 description: Further reading to help others create their own style guides.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/further-reading/
 sidenav: content_guide
 content_type: Toolkit

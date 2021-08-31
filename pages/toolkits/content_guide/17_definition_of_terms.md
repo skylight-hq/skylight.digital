@@ -2,7 +2,6 @@
 layout: toolkit
 title: Definition of terms | Skylight Content Guide
 description: Definitions of specialized terms at Skylight.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/definition-of-terms/
 sidenav: content_guide
 content_type: Toolkit
@@ -19,7 +18,7 @@ At Skylight, we use a number of specialized terms to describe our way of working
 * **Business model:** describes the rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts.
 * **Business operations:** refers to all the day-to-day actions that are necessary for running the company and generating income.
 * **Capture:** an industry term describing the efforts that precede a formal proposal submission. The broad goal of a “capture” effort is to develop a strategy that puts Skylight in the best possible position to win new work or retain existing work with a customer.
-* **Client:** someone who engages with Skylight for professional service/support. There’s a lot of literature that goes to great lengths to draw distinctions between the terms “client” and “customer,” but we generally use them synonymously at Skylight, with a preference for “client.”  
+* **Client:** someone who engages with Skylight for professional service/support. There’s a lot of literature that goes to great lengths to draw distinctions between the terms “client” and “customer,” but we generally use them synonymously at Skylight, with a preference for “client.”
 * **Continuing resolution (CR):** a temporary funding measure that Congress can use to fund the federal government for a limited amount of time. The day-to-day operations of most federal agencies are funded on an annual basis by appropriations. When those appropriations bills aren’t enacted by the start of the fiscal year on October 1, Congress uses a CR to avoid a “government shutdown.”
 * **Contract:** a legally-binding agreement between Skylight and a customer or teaming partner detailing the exact work to be accomplished and other relevant terms (e.g., period of performance, financials, legal terms).
 * **Contract line item numbers (CLIN):** federal contracts are typically funded at the CLIN level, which breaks the contract down into items being procured (e.g., labor hours, travel funding) and provides accounting classification traceability.
