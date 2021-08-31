@@ -2,7 +2,6 @@
 layout: toolkit
 title: iFrame form | Skylight Accessibility Guide
 description: Fill out this form.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/iframeform/
 page_title: iFrame
 sidenav: accessibility_guide

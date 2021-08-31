@@ -58,7 +58,7 @@ data_sharing_playbook:
 
 accessibility_guide:
   title: Accessibility Guide
-  description: Tools and practices for making products and services accessible to everyone.
+  description: Practices and tools for making products and services accessible to everyone.
   toc:
     - title: Introduction
       url: /work/toolkits/accessibility-guide/
@@ -193,3 +193,28 @@ content_guide:
       url: /work/toolkits/content-guide/definition-of-terms/
     - title: Further reading
       url: /work/toolkits/content-guide/further-reading/
+
+service_design_framework:
+  title: Service Design Framework
+  description: Practices and tools for delivering optimal <br class="linebreak">user experience journeys.
+  toc:
+    - title: Service design overview
+      url: /work/toolkits/service-design-framework/
+    - title: The Skylight Service Design Framework
+      url: /work/toolkits/service-design-framework/the-skylight-service-design-framework/
+    - title: "Phase 1: Initiate"
+      url: /work/toolkits/service-design-framework/phase-1-initiate/
+    - title: "Phase 2: Discover"
+      url: /work/toolkits/service-design-framework/phase-2-discover/
+    - title: "Phase 3: Strategize"
+      url: /work/toolkits/service-design-framework/phase-3-strategize/
+    - title: "Phase 4: Experiment"
+      url: /work/toolkits/service-design-framework/phase-4-experiment/
+    - title: "Phase 5: Implement"
+      url: /work/toolkits/service-design-framework/phase-5-implement/
+    - title: "Appendix A: Methods"
+      url: /work/toolkits/service-design-framework/appendix-a-methods/
+    - title: "Appendix B: Templates"
+      url: /work/toolkits/service-design-framework/appendix-b-templates/
+    - title: "Appendix C: Glossary"
+      url: /work/toolkits/service-design-framework/appendix-c-glossary/

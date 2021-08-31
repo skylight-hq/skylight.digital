@@ -2,7 +2,6 @@
 layout: toolkit
 title: Additional resources | Skylight Managing Technical Debt Guide
 description: A list of resources to learn more about how to manage technical debt effectively.
-tags: [technical debt, code debt, software development, guide]
 permalink: /work/toolkits/managing-technical-debt/resources/
 sidenav: managing_technical_debt
 content_type: Toolkit

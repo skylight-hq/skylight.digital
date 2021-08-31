@@ -2,7 +2,6 @@
 layout: toolkit
 title: "Appendix F: Procurement options analysis examples | Skylight Agile Procurement Playbook"
 description: Examples of formulating a procurement strategy through an analysis of alternatives.
-tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-f-procurement-options-analysis-examples/
 sidenav: agile_procurement_playbook
 content_type: Toolkit

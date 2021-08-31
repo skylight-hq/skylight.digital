@@ -2,7 +2,6 @@
 layout: toolkit
 title: Writing guide | Skylight Accessibility Guide
 description: When writing about accessibility, here are some things to keep in mind.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/writing-guide/
 sidenav: accessibility_guide
 content_type: Toolkit

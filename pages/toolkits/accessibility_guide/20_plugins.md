@@ -2,7 +2,6 @@
 layout: toolkit
 title: Plugins | Skylight Accessibility Guide
 description: How we deal with plugins.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/plugins/
 sidenav: accessibility_guide
 content_type: Toolkit

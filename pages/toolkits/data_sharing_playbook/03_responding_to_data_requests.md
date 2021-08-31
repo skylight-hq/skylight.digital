@@ -2,7 +2,6 @@
 layout: toolkit
 title: Responding to data requests | Skylight Data Sharing Playbook
 description: How to establish a protocol for responding to data requests, including identifying the types of data sharing agreements that you’ll need.
-tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/responding-to-data-requests/
 sidenav: data_sharing_playbook
 content_type: Toolkit
