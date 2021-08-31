@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Ensuring happy and engaged employees | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How you can keep digital team members happy and engaged within your organization, including making interesting projects available for them to work on.
 permalink: /work/toolkits/digital-talent-management/ensuring-happy-and-engaged-employees/
 sidenav: digital_talent_management
 content_type: Toolkit

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Hiring | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to run a hiring process specific to governmental considerations, including the use of flexible hiring authorities.
 permalink: /work/toolkits/digital-talent-management/hiring/
 sidenav: digital_talent_management
 content_type: Toolkit

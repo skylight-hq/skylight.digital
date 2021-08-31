@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Safeguarding data | Skylight Data Sharing Playbook
-description: A guide for state & local agencies on how to improve cross-organizational data sharing.
+description: How to safeguard data, including developing privacy and security compliance policies, standards, and controls.
 permalink: /work/toolkits/data-sharing-playbook/safeguarding-data/
 sidenav: data_sharing_playbook
 content_type: Toolkit
