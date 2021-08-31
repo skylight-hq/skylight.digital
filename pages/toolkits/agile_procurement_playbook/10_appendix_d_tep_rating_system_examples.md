@@ -2,7 +2,6 @@
 layout: toolkit
 title: "Appendix D: TEP rating system examples | Skylight Agile Procurement Playbook"
 description: Types of rating systems that a Technical Evaluation Panel can use to make procurement decisions, including confidence factors and adjectival ratings.
-tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-d-tep-rating-system-examples/
 sidenav: agile_procurement_playbook
 content_type: Toolkit

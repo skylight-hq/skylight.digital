@@ -88,6 +88,10 @@
     padding-inline: 1.5rem;
     padding-block: 1rem;
   }
+
+  h4 {
+    font-size: $font-size-small;
+  }
 }
 
 .caption {
@@ -177,7 +181,7 @@
   padding-inline: 0.75rem;
 
   &:hover {
-    background-color: #F2F7FA;
+    background-color: #f2f7fa;
   }
 
   i {
@@ -232,7 +236,7 @@ $icon-size: 2rem;
   }
 
   + * {
-    margin-top:  2rem;
+    margin-top: 2rem;
   }
 }
 
@@ -243,6 +247,10 @@ $icon-size: 2rem;
   &::before {
     background: url(/img/icons/tip.svg) no-repeat center/$icon-size;
   }
+
+  .badge-sub {
+    background-color: $ochre-60;
+  }
 }
 
 .callout--note {
@@ -252,6 +260,10 @@ $icon-size: 2rem;
   &::before {
     background: url(/img/icons/info.svg) no-repeat center/$icon-size;
   }
+
+  .badge-sub {
+    background-color: $blue-40;
+  }
 }
 
 .passes {
@@ -259,8 +271,8 @@ $icon-size: 2rem;
 
   &::after {
     display: inline-block;
-    content: '  ';
-    background-image: url('/img/toolkits/accessibility/check-circle.svg');
+    content: "  ";
+    background-image: url("/img/toolkits/accessibility/check-circle.svg");
     color: $brand-success;
     background-size: 18px 18px;
     height: 18px;
@@ -275,8 +287,8 @@ $icon-size: 2rem;
 
   &::after {
     display: inline-block;
-    content: '  ';
-    background-image: url('/img/toolkits/accessibility/times-circle.svg');
+    content: "  ";
+    background-image: url("/img/toolkits/accessibility/times-circle.svg");
     background-size: 18px 18px;
     color: $sk-red;
     height: 18px;
@@ -289,8 +301,27 @@ $icon-size: 2rem;
 .example,
 .callout--tip,
 .callout--note {
-  h2, h3 {
+  h2,
+  h3 {
     font-size: $font-size-large;
+  }
+}
+
+.callout--summary {
+  h3 {
+    font-size: $font-size-small;
+  }
+}
+
+.page-design-method {
+  .badge-sub {
+    margin-left: 0.5ch;
+  }
+
+  .page--service-design-framework {
+    @include media-breakpoint-up(md) {
+      margin-top: 0.25rem;
+    }
   }
 }
 
@@ -319,4 +350,9 @@ $icon-size: 2rem;
   .language-plaintext {
     word-break: break-all;
   }
+}
+
+.img--sd-discovery {
+  background-color: $ochre-20;
+  padding: 1.5rem;
 }

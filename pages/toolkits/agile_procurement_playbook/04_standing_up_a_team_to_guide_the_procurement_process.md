@@ -2,7 +2,6 @@
 layout: toolkit
 title: Standing up a team to guide the procurement process | Skylight Agile Procurement Playbook
 description: How to set up a team to guide the agile procurement process, including leadership and cross-functional team members.
-tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/standing-up-a-team-to-guide-the-procurement-process/
 sidenav: agile_procurement_playbook
 content_type: Toolkit
