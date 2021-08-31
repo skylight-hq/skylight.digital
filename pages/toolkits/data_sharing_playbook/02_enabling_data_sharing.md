@@ -2,7 +2,6 @@
 layout: toolkit
 title: Enabling data sharing | Skylight Data Sharing Playbook
 description: A guide for state & local agencies on how to improve cross-organizational data sharing.
-tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/enabling-data-sharing/
 sidenav: data_sharing_playbook
 content_type: Toolkit
@@ -50,10 +49,10 @@ Metadata is a set of information that describes what the fields in a dataset are
 
 One common misconception about metadata is that it's solely the definitions of the various fields you've tracked in the dataset. However, metadata includes much more than these surface-level characteristics. Anything that gives additional information about the nature, structure, or gathering process of the dataset counts as metadata. Some examples of metadata for different types of media include:
 
-- **Photographs / images**: date and time the photo was taken, who took the photo, location where the image was captured, and camera settings used to take the photo
-- **Books / reports / documents**: title, author, publishing information, year of publication, table of contents, index, date of last update / modification, and number of pages
-- **Emails / communication records**: person sending the communication, person receiving the communication, message text, date and time of correspondence, subject line, IP addresses of sender and responder, and encryption details
-- **Spreadsheets / databases**: names of column fields, explanation of fields, number of users / respondents surveyed, number of missing data entries, integrity constraints, data types included in the table, and date and time the information was collected (including multiple records if gathered over a period of time)
+- **Photographs / images:** date and time the photo was taken, who took the photo, location where the image was captured, and camera settings used to take the photo
+- **Books / reports / documents:** title, author, publishing information, year of publication, table of contents, index, date of last update / modification, and number of pages
+- **Emails / communication records:** person sending the communication, person receiving the communication, message text, date and time of correspondence, subject line, IP addresses of sender and responder, and encryption details
+- **Spreadsheets / databases:** names of column fields, explanation of fields, number of users / respondents surveyed, number of missing data entries, integrity constraints, data types included in the table, and date and time the information was collected (including multiple records if gathered over a period of time)
 
 When tracking metadata, it's important to:
 

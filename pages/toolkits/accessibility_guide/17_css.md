@@ -2,7 +2,6 @@
 layout: toolkit
 title: CSS dependence | Skylight Accessibility Guide
 description: How we deal with CSS.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/css/
 sidenav: accessibility_guide
 content_type: Toolkit

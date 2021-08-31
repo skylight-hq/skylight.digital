@@ -2,7 +2,6 @@
 layout: toolkit
 title: Multimedia | Skylight Accessibility Guide
 description: How we deal with multimedia.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/multimedia/
 sidenav: accessibility_guide
 content_type: Toolkit
@@ -21,7 +20,7 @@ Videos with audio require synchronized captioning. Captioning can be either clos
 
 Audio description ensures any information displayed visually is conveyed via audio. This can be done a couple of ways. The script for the video can be written in a way that all visual information is described by the narrator. The other way is to add a separate audio track that describes the visual content. This can be done with a special player or a separate version of the video with the audio baked in.
 
-Some examples of when audio descriptions should be used are scene transitions, characters, actions, and text on screen.  
+Some examples of when audio descriptions should be used are scene transitions, characters, actions, and text on screen.
 
 ## Keyboard access
 

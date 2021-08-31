@@ -2,7 +2,6 @@
 layout: toolkit
 title: "Appendix G: Statement of Objectives examples | Skylight Agile Procurement Playbook"
 description: A guide on how to apply the principles of agile to procurement.
-tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-g-statement-of-objectives-examples/
 sidenav: agile_procurement_playbook
 content_type: Toolkit

@@ -2,7 +2,6 @@
 layout: toolkit
 title: Writing for marketing | Skylight Content Guide
 description: How to write content for marketing.
-tags: [content, style elements, guide]
 permalink: /work/toolkits/content-guide/writing-for-marketing/
 sidenav: content_guide
 content_type: Toolkit

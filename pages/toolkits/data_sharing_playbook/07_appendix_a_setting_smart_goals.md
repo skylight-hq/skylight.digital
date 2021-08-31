@@ -1,14 +1,13 @@
 ---
 layout: toolkit
-title: "Appendix A: Setting smart goals | Skylight Data Sharing Playbook"
+title: "Appendix A: Setting SMART goals | Skylight Data Sharing Playbook"
 description: A guide for state & local agencies on how to improve cross-organizational data sharing.
-tags: [data sharing, data culture, guide]
 permalink: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals/
 sidenav: data_sharing_playbook
 content_type: Toolkit
 ---
 
-# Appendix A: Setting smart goals
+# Appendix A: Setting SMART goals
 
 Data can help you track progress toward agency goals. The SMART methodology is an excellent strategy for connecting what you want to accomplish to the data that'll indicate whether you are headed in the right direction.
 
@@ -37,7 +36,7 @@ While this is a simple example, the same principles can be applied to larger goa
 <div class="callout--note" markdown="1">
 ### Recommended reading
 
-- [University of California Smart Goals: A How-To Guide](https://www.ucop.edu/local-human-resources/_files/performance-appraisal/How%20to%20write%20SMART%20Goals%20v2.pdf)
+- [University of California SMART Goals: A How-To Guide](https://www.ucop.edu/local-human-resources/_files/performance-appraisal/How%20to%20write%20SMART%20Goals%20v2.pdf)
 - [Five Elements of a SMART Goal](https://www.thebalancesmb.com/elements-of-a-smart-business-goal-2951530)
 - [Write Achievable Goals with the SMART Framework](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)
 </div>
