@@ -2,7 +2,6 @@
 layout: toolkit
 title: iFrame form | Skylight Accessibility Guide
 description: Fill out this form.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/iframeform/
 page_title: iFrame
 sidenav: accessibility_guide
@@ -11,16 +10,16 @@ toolkit_name: accessibility-guide
 ---
 <div class="example">
   <div class="form-group">
-    <label for='fname'>First Name</label>
+    <label for='fname'>First name</label>
     <input class='form-control' type='text' id='fname'>
   </div>
 
   <div class="form-group">
-    <label for='mname'>Middle Name</label>
+    <label for='mname'>Middle name</label>
     <input class='form-control' type='text' id='mname'>
   </div>
   <div class="form-group">
-    <label for='lname'>Last Name</label>
+    <label for='lname'>Last name</label>
     <input class='form-control' type='text' id='lname'>
   </div>
 </div>

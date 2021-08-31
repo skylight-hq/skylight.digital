@@ -2,13 +2,12 @@
 layout: toolkit
 title: "Appendix A: Case studies | Skylight Agile Procurement Playbook"
 description: A guide on how to apply the principles of agile to procurement.
-tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/appendix-a-case-studies/
 sidenav: agile_procurement_playbook
 content_type: Toolkit
 ---
 
-# Appendix A: Case study
+# Appendix A: Case studies
 
 ## Medicare Payment Systems Modernization (MPSM)
 

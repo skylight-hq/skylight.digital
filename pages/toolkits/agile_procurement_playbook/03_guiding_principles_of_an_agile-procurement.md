@@ -2,7 +2,6 @@
 layout: toolkit
 title: Guiding principles of an agile procurement | Skylight Agile Procurement Playbook
 description: A guide on how to apply the principles of agile to procurement.
-tags: [digital procurement, digital acquisition, agile acquisition, agile procurement, guide]
 permalink: /work/toolkits/agile-procurement-playbook/guiding-principles-of-an-agile-procurement/
 sidenav: agile_procurement_playbook
 content_type: Toolkit
@@ -41,16 +40,16 @@ Therefore, the procurement team doesn't attempt to have all of the technical req
 
 The process of modular contracting matches the natural work streams that arise out of building a product. Let's use an example to explore the differences between traditional and agile procurement approaches.
 
-**Requirement**: Move significant portions of DMV services online
+**Requirement:** Move significant portions of DMV services online
 
-**Traditional procurement approach**:
+**Traditional procurement approach:**
 
 - Gather 100% of the requirements up front
 - Write a Statement of Work against the gathered requirements
 - Award the contract to a single prime contractor that could have multiple subcontractors underneath them
 - Set a long initial period of performance in which the vendor should deliver working software at the end of it
 
-**Agile procurement approach**:
+**Agile procurement approach:**
 
 - Recognize the complexity of the task (moving DMV services online)
 - Identify the different components necessary to accomplish the goal — things like cloud infrastructure, research and design, and back-end development

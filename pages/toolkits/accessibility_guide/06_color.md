@@ -2,7 +2,6 @@
 layout: toolkit
 title: Color and contrast | Skylight Accessibility Guide
 description: How we work with color and contrast.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/color/
 sidenav: accessibility_guide
 contentstylesheet: accessibility
@@ -61,11 +60,11 @@ This text fails because the background isn't dark enough. The contrast ratio is 
     </div>
   </div>
   <div class="form-group">
-    <label for="name">First Name&nbsp;</label>
+    <label for="name">First name&nbsp;</label>
     <input class='form-control' type = "text" id="name">
   </div>
   <div class="form-group">
-    <label for="lname" style="color:#D73E35">Last Name&nbsp;</label>
+    <label for="lname" style="color:#D73E35">Last name&nbsp;</label>
     <input class='form-control' type= "text" id="lname">
   </div>
 </div>
@@ -100,11 +99,11 @@ This text passes. The contrast ratio is 4.54:1.
     </div>
   </div>
   <div class="form-group">
-    <label for="name-2">First Name</label>
+    <label for="name-2">First name</label>
     <input class="form-control" type="text" id="name-2">
   </div>
   <div class="form-group">
-    <label for="lname-2" style="color:#D73E35">Last Name *</label>
+    <label for="lname-2" style="color:#D73E35">Last name *</label>
     <input class="form-control" type="text" id="lname-2">
   </div>
 </div>

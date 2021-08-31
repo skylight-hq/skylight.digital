@@ -2,7 +2,6 @@
 layout: toolkit
 title: Training and videos | Skylight Accessibility Guide
 description: Videos and trainings from around the web.
-tags: [accessibility, web accessibility, section 508, guide]
 permalink: /work/toolkits/accessibility-guide/training-videos/
 sidenav: accessibility_guide
 content_type: Toolkit
