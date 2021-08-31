@@ -26,7 +26,7 @@ class:
 
         <div class="brand__quick-links col-md-4 mb-5">
           <h2 class="kicker">Quick links</h2>
-          <ul class="quick-links__list list-unstyled mb-0 mt-2">
+          <ul class="quick-links__list list-unstyled mb-0 mt-1">
             <li><a href="/brand/identity/colors/">Brand colors</a></li>
             <li><a href="/brand/identity/logo/">Logo</a></li>
             <li><a href="/brand/identity/typography/">Fonts</a></li>
@@ -38,29 +38,119 @@ class:
   </div>
 </section>
 
-<section class="grid-container py-6">
-  <ul>
-    <li>
-      <a href="/brand/identity/logo/">Identity</a>
-      <p>{{ site.data.toolkits.brand_identity.description }}</p>
-    </li>
-    <li>
-      <a href="/brand/writing/brand-narrative/">Writing</a>
-      <p>{{ site.data.toolkits.brand_writing.description }}</p>
-    </li>
-    <li>
-      <a href="/brand/illustration/principles/">Illustration</a>
-      <p>{{ site.data.toolkits.brand_illustration.description }}</p>
-    </li>
-    <li>
-      <a href="/brand/outreach/intro/">Outreach</a>
-      <p>{{ site.data.toolkits.brand_outreach.description }}</p>
-    </li>
-    <li>
-      <a href="/brand/resources/emoji/">Resources</a>
-      <p>{{ site.data.toolkits.brand_resources.description }}</p>
-    </li>
-  </ul>
+<section class="grid-container text prose mt-6 mb-2">
+  <div class="blog-posts-row">
+    <article class="blog-post-col col-md-4">
+      <div
+        class="blog-post-card card-link card--identity"
+        data-href="/brand/identity/logo/"
+        tabindex="-1"
+      >
+        <div class="blog-post-block">
+          <h2 class="blog-post-title">
+            Identity
+          </h2>
+          <p class="card-text blog-post-text">
+            {{ site.data.toolkits.brand_identity.description }}
+          </p>
+        </div>
+        <div class="blog-post-footer">
+          <a href="/brand/identity/logo/" tabindex="0">
+            <span>View guide</span
+            ><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+    <article class="blog-post-col col-md-4">
+      <div
+        class="blog-post-card card-link card--writing"
+        data-href="/brand/writing/brand-narrative/"
+        tabindex="-1"
+      >
+        <div class="blog-post-block">
+          <h2 class="blog-post-title">
+            Writing
+          </h2>
+          <p class="card-text blog-post-text">
+            {{ site.data.toolkits.brand_writing.description }}
+          </p>
+        </div>
+        <div class="blog-post-footer">
+          <a href="/brand/writing/brand-narrative/" tabindex="0">
+            <span>View guide</span
+            ><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+    <article class="blog-post-col col-md-4">
+      <div
+        class="blog-post-card card-link card--illustration"
+        data-href="/brand/illustration/principles/"
+        tabindex="-1"
+      >
+        <div class="blog-post-block">
+          <h2 class="blog-post-title">
+            Illustration
+          </h2>
+          <p class="card-text blog-post-text">
+            {{ site.data.toolkits.brand_illustration.description }}
+          </p>
+        </div>
+        <div class="blog-post-footer">
+          <a href="/brand/illustration/principles/" tabindex="0">
+            <span>View guide</span
+            ><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+    <article class="blog-post-col col-md-4">
+      <div
+        class="blog-post-card card-link card--outreach"
+        data-href="/brand/outreach/intro/"
+        tabindex="-1"
+      >
+        <div class="blog-post-block">
+          <h2 class="blog-post-title">
+            Outreach
+          </h2>
+          <p class="card-text blog-post-text">
+            {{ site.data.toolkits.brand_outreach.description }}
+          </p>
+        </div>
+        <div class="blog-post-footer">
+          <a href="/brand/outreach/intro/" tabindex="0">
+            <span>View guide</span
+            ><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+    <article class="blog-post-col col-md-4">
+      <div
+        class="blog-post-card card-link card--resources"
+        data-href="/brand/resources/emoji/"
+        tabindex="-1"
+      >
+        <div class="blog-post-block">
+          <h2 class="blog-post-title">
+            Resources
+          </h2>
+          <p class="card-text blog-post-text">
+            {{ site.data.toolkits.brand_resources.description }}
+          </p>
+        </div>
+        <div class="blog-post-footer">
+          <a href="/brand/resources/emoji/" tabindex="0">
+            <span>View assets</span
+            ><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
 </section>
 
 <section class="bg-gray-lightest py-6">
