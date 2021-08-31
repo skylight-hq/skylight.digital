@@ -5,11 +5,18 @@ image: /img/toolkit-social.png
 image_description: Skylight toolkit banner showing a collection of different tools.
 ---
 
-{% include hero_banner.html
-  color = "blue"
-  image = "hero-toolkit.svg"
-  class = "hero--toolkits"
-%}
+{% if page.toolkit_name == "brand" %}
+  {% include hero_banner_brand.html
+    color = "blue"
+    class = "hero--toolkits"
+  %}
+{% else %}
+  {% include hero_banner.html
+    color = "blue"
+    image = "hero-toolkit.svg"
+    class = "hero--toolkits"
+  %}
+{% endif %}
 
 <div class="grid-container" id="main">
   <div class="row d-flex">
