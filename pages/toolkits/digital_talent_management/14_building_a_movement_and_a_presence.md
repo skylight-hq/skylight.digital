@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Building a movement and a presence | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to build a movement and presence to help ensure your digital-team-building efforts succeed, including maintaining an online presence.
 permalink: /work/toolkits/digital-talent-management/building-a-movement-and-a-presence/
 sidenav: digital_talent_management
 content_type: Toolkit

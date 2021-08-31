@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: "Appendix A: Setting SMART goals | Skylight Data Sharing Playbook"
-description: A guide for state & local agencies on how to improve cross-organizational data sharing.
+description: How to use the SMART methodology to help your agency track progress toward meeting its data-sharing goals.
 permalink: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals/
 sidenav: data_sharing_playbook
 content_type: Toolkit

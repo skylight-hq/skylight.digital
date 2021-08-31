@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Onboarding | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to design a great onboarding experience for new digital team members and create an employee handbook.
 permalink: /work/toolkits/digital-talent-management/onboarding/
 sidenav: digital_talent_management
 content_type: Toolkit

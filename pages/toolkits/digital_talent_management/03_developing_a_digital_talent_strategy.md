@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Understanding your talent gaps | Skylight Digital Talent Management Handbook
-description: A comprehensive guide on how government agencies can recruit, hire, onboard, and retain digital talent.
+description: How to develop a digital talent strategy based on your existing talent gaps, including recruiting new talent and training existing employees.
 permalink: /work/toolkits/digital-talent-management/developing-a-digital-talent-strategy/
 sidenav: digital_talent_management
 content_type: Toolkit
