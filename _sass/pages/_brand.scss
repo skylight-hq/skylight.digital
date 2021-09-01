@@ -17,7 +17,6 @@
 
   .grid-container,
   .header,
-  .navbar,
   .footer {
     max-width: $size-desktop-lg;
   }
@@ -58,10 +57,11 @@
   }
 
   .navbar {
-    @include media-breakpoint-up(md) {
-      margin-inline: 2rem;
-      padding-inline: 2rem;
-      width: 100%;
+    @include grid-container;
+    max-width: $size-desktop-lg;
+
+    @include media-breakpoint-down(lg) {
+      padding-inline: 0;
     }
   }
 
