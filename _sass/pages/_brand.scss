@@ -215,6 +215,12 @@
     color: $heading-color;
   }
 
+  .hero-content {
+    a {
+      border-bottom: 1px dashed $heading-color;
+    }
+  }
+
   h1 {
     font-size: $font-size-x-large;
   }
