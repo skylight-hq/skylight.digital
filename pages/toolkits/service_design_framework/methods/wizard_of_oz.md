@@ -31,7 +31,7 @@ Once you have a low-fidelity or high-fidelity prototype to test; set aside time 
 
 ## How to use this method
 
-In Wizard of Oz prototyping, users interact with a prototype that appears to work, but is being operated by someone behind the scenes. This can surface real responses to a fake scenario and evaluate functionality before you build a solution. To build and test this prototype:
+In Wizard of Oz prototyping, users interact with a prototype that appears to work, but is being operated by someone behind the scenes. This can draw out real responses to a fake scenario and evaluate functionality before you build a solution. To build and test this prototype:
 
 ### 1. Create the prototype
 

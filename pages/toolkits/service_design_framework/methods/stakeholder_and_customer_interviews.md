@@ -35,7 +35,7 @@ Throughout the Discover phase; plan to schedule interviews for 1–2 hours
 
 Start by defining a few research goals. What do you want to learn from these interviews? Keeping these goals in mind, create a guide that includes topics you’d like to ask about, then fill in topics with some specific questions. These may be about a participant’s role in an organization, the organization itself, their needs and pain points, and what project success looks like for them.
 
-### 2. Prep the interview
+### 2. Prepare for the interview
 
 Before you conduct the interview, revisit the guide so you’re familiar with the material and can be more relaxed.
 

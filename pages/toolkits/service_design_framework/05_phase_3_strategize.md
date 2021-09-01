@@ -53,7 +53,7 @@ Afterwards, we held brainstorming sessions with the WxPO to build on these recom
 
 Brainstorming sessions allowed the group to creatively discuss ideas to address the problems that the WxPO wanted to resolve.
 
-#### Prioritization workshop
+#### [Prioritization workshop](/work/toolkits/service-design-framework/methods/prioritization-workshop/)
 
 During a prioritization workshop, stakeholders and users were asked to align on which solutions to focus on by mapping the solutions on an Impact/Feasibility Matrix.
 

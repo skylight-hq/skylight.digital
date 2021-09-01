@@ -12,7 +12,7 @@ content_type: Toolkit
 
 ## What the framework offers
 
-Through many projects, Skylight has come to understand the challenges of applying service design in complex government systems. Working with different partners, we’ve adopted and refined a service design framework that takes inspiration from others, but adapts them to fit the needs of our government partners.
+Through many projects, Skylight has come to understand the challenges of applying service design in complex government systems. Working with different partners, we’ve adopted and refined a service design framework, a structure around our approach to solving problems. Our framework takes inspiration from others, but adapts them to fit the needs of our government partners.
 
 ### The five phases
 
@@ -23,7 +23,7 @@ The framework includes five phases that a typical service design process moves t
 Skylight Service Design Framework
 {: .caption .mb-5 }
 
-* **Initiate:** Align on the problem space, including goals, vision, constraints, and environmental considerations
+* **Initiate:** Align on the problem space, including goals, vision, constraints, and environmental factors
 * **Discover:** Plan; research, analyze, and synthesize; socialize findings and artifacts
 * **Strategize:** Generate solutions; prioritize and plan; future visioning
 * **Experiment:** Create prototypes and tests to select the best solution, and iterate with user feedback
@@ -36,7 +36,8 @@ Service design projects vary in type of problem and solution, timeline, and many
 
 ![](/img/toolkits/service_design/discovery-alt.svg){: .mt-5 .img--sd-discovery }
 
-The tangled path from problem to solution
+The tangled path from problem to solution. (Derived from [Damien Newman](https://thedesignsquiggle.com/) and [Shubhangi Choudhary](https://medium.com/@i.shubhangich/the-design-squiggle-2e80fb8d27e4))
+
 {: .caption .mb-5 }
 
 ### Methods and templates
@@ -62,14 +63,14 @@ This framework offers information, resources, and tools for a range of roles and
 
 ![](/img/toolkits/service_design/people-aligning.svg){: .mt-5}
 
-Moving from assumption to alignment
+Moving from assumption to alignment. (Derived from [Jeff Patton](https://www.jpattonassociates.com/glad-we-all-agree-2/), [CC BY-NC-SA 1.0](https://creativecommons.org/licenses/by-nc-sa/1.0/))
 {: .caption .mb-5 }
 
 If you’re using the Skylight Service Design Framework to embark on your own service design project, these tips will help guide you throughout the process:
 
 ### Adjust your mindset
 
-When you surface data during a service design project, it’s important to question everything you think you know. Holding onto assumptions about why a person interacts with a service or why a stakeholder pushes certain goals can mislead the project. To create the proper mindset:
+When you gather data during a service design project, it’s important to question everything you think you know. Holding onto assumptions about why a person interacts with a service or why a stakeholder pushes certain goals can mislead the project. To create the proper mindset:
 
 * Suspend judgment
 * Challenge knowledge
