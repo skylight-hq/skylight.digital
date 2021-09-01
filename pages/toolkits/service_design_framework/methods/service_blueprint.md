@@ -37,19 +37,19 @@ A service blueprint extends a [customer journey map](/work/toolkits/service-desi
 
 Determine which part of your service or system you’ll focus on. It could be the whole thing, end to end, or a piece of the service. Gather research about your customer and the service you’re examining.
 
-### 2. Plot customer actions
+### 2. Document customer actions
 
 Customer actions are the sequence of activities they do in the course of a service. You can use the steps from the customer journey map.
 
-### 3. Plot employee actions
+### 3. Document employee actions
 
 Map the corresponding actions that employees take, both on the fronstage (what customers see) and the backstage (what happens behind the scenes).
 
-### 4. Plot support processes
+### 4. Document the support processes
 
 Track the processes that employees use during the service. This can include any process that supports the service, even if they’re not used by employees who interact with customers.
 
-### 5. Plot evidences
+### 5. Document evidences
 
 Evidences are the physical or digital tools that customers or employees use or interact with during the course of a service. This could include a technology function (for example, a form on a website or a confirmation email) or something physical (such as a support manual or a customer service desk).
 
