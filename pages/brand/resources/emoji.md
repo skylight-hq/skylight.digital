@@ -1,5 +1,5 @@
 ---
-layout: toolkit
+layout: brand
 title: Emoji | Skylight Brand Guidelines
 description:
 tags:
@@ -10,6 +10,11 @@ toolkit_name: brand
 class: brand
 ---
 
+<div class="col-md-8 d-flex justify-content-center">
+  <img class="maxw-mobile-lg" src="/img/brand/resources/emoji.svg" alt="Heart and Skylight logo emojis">
+</div>
+<div class="col-md-4 mt-4 mt-md-0" markdown="1">
 # Emoji
 
 This is a list of emoji that we've compiled thus far for use in electronic messages (such as Slack) and web pages.
+</div>
