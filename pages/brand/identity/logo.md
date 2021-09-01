@@ -1,5 +1,5 @@
 ---
-layout: toolkit
+layout: brand
 title: Logo | Skylight Brand Guidelines
 description:
 tags:
@@ -10,8 +10,7 @@ toolkit_name: brand
 class: brand
 ---
 
-
-<div class="row">
+<div class="row brand__content-section">
 <div class="col-md-8" markdown="1">
 ![](/img/brand/rectangle.jpg)
 </div>

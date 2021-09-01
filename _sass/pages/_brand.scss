@@ -9,10 +9,6 @@
       border-top: 1px solid $gray-lightest;
       margin-top: 2rem;
     }
-
-    h1 {
-      @include kicker;
-    }
   }
 
   .nav-link {
@@ -35,27 +31,37 @@
   }
 }
 
-.brand__content-section {
-  margin-top: 3rem;
-
+.brand__content {
   p {
     font-size: $font-size-small;
   }
 
   img {
+    max-width: 100%;
     width: 100%;
   }
+}
+
+.brand__content-section:not(:first-of-type) {
+  margin-top: 3rem;
 }
 
 .page-brand-guidelines {
   .header {
     background-color: $sk-blue;
     max-width: 100%;
+
+    @include media-breakpoint-up(md) {
+      display: flex;
+      justify-content: center;
+    }
   }
 
   .navbar {
     @include media-breakpoint-up(md) {
       margin-inline: 2rem;
+      padding-inline: 2rem;
+      width: 100%;
     }
   }
 
@@ -152,11 +158,19 @@
   .hero-banner {
     background-color: $sk-blue-light;
   }
+
+  h1 {
+    @include kicker;
+  }
 }
 
 .page--brand-writing {
   .hero-banner {
     background-color: $sk-blue;
+  }
+
+  h1 {
+    @include kicker;
   }
 }
 
@@ -164,11 +178,19 @@
   .hero-banner {
     background-color: $green-300;
   }
+
+  h1 {
+    font-size: $font-size-x-large;
+  }
 }
 
 .page--brand-outreach {
   .hero-banner {
     background-color: $red-200;
+  }
+
+  h1 {
+    font-size: $font-size-x-large;
   }
 }
 
@@ -179,5 +201,9 @@
 
   .brand-hero__content * {
     color: $heading-color;
+  }
+
+  h1 {
+    font-size: $font-size-x-large;
   }
 }
