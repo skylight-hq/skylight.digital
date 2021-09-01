@@ -18,7 +18,7 @@ Enter service design.
 
 ## What service design is
 
-Service design enables organizations to create sustainable and high-quality experiences for both customers and the providers of the services they interact with. UUsing a set of principles, activities, and methods, the discipline takes a holistic look across a service ecosystem. This includes the “frontstage” (what a customer sees) and the “backstage” (behind-the-scenes organizational structures).
+Service design enables organizations to create sustainable and high-quality experiences for both customers and the providers of the services they interact with. Using a set of principles, activities, and methods, the discipline takes a holistic look across a service ecosystem. This includes the “frontstage” (what a customer sees) and the “backstage” (behind-the-scenes organizational structures).
 
 ![](/img/toolkits/service_design/service-design-stages-alt.svg)
 {: .mt-5 }
