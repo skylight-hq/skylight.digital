@@ -32,6 +32,7 @@ Skylight Service Design Framework
 Each phase in the Skylight Service Design Framework is organized around certain outcomes — such as aligning with stakeholders on goals and vision or understanding the service landscape — and uses a set of methods to achieve them.
 
 Service design projects vary in type of problem and solution, timeline, and many other aspects, so the framework is intended to serve as flexible guidelines. It’s normal and expected that you’ll need to return to previous steps in the process as you uncover more questions and paths to explore. As you get more comfortable implementing service design, you’ll gain confidence in knowing when to take a step back in order to move forward.
+{: .mb-0 }
 
 ![](/img/toolkits/service_design/discovery-alt.svg){: .mt-5 .img--sd-discovery }
 
@@ -57,6 +58,7 @@ This framework offers information, resources, and tools for a range of roles and
 * Service designers looking for reference materials
 
 ## Tips for success
+{: .mb-0 }
 
 ![](/img/toolkits/service_design/people-aligning.svg){: .mt-5}
 
