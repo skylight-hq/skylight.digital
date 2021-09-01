@@ -9,13 +9,17 @@
 >
   <header class="hero hero-banner mb-5 {% if include.class %}{{ include.class }}{% endif %}">
     <div class="brand-hero__content hero-container grid-container justify-content-end py-6">
-      <p class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %}">
-        {{ site.data.toolkits[page.sidenav].title }}
-      </p>
-      <div class="hero-content mx-0 {% if include.text == 'dark' %}text-ink{% endif %}">
-        <p>
-          {{ site.data.toolkits[page.sidenav].description }}
-        </p>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %}">
+            {{ site.data.toolkits[page.sidenav].title }}
+          </p>
+          <div class="hero-content font-xs mx-0 {% if include.text == 'dark' %}text-ink{% endif %}">
+            <p>
+              {{ site.data.toolkits[page.sidenav].description_long }}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </header>

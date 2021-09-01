@@ -131,6 +131,18 @@
   @include media-breakpoint-up(md) {
     height: 450px;
   }
+
+  .hero-text {
+    a {
+      border-bottom: 1px dashed white;
+      color: white;
+
+      &:hover {
+        border-bottom: 1px dashed $blue-20;
+        color: $blue-20;
+      }
+    }
+  }
 }
 
 .brand__quick-links {
