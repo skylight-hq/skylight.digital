@@ -57,7 +57,7 @@ Once we refine our solutions, we plan to move onto the next phase of putting it 
 
 The goal of this phase is to take the feedback gained from implementing the solution with a subset of users and staff and adapt the rollout to the larger organization after we’ve worked out the kinks. We’re bound to participate in more discovery, strategizing, and experimentation during this phase as we learn more about the organization.
 
-### Methods
+### Methods and other activities
 
 #### [Roadmap](/work/toolkits/service-design-framework/methods/roadmap/)
 

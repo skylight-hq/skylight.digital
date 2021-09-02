@@ -47,7 +47,7 @@ After presenting areas of opportunities for improvements, we naturally arrived a
 
 Afterwards, we held brainstorming sessions with the WxPO to build on these recommendations and generate a variety of solutions to address these areas of opportunity. Since there were several potential solutions, prioritization workshops helped the WxPO align on which solutions to explore next and which they could revisit later.
 
-### Methods
+### Methods and other activities
 
 #### Brainstorming
 
