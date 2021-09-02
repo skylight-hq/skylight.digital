@@ -37,7 +37,6 @@ Service design projects vary in type of problem and solution, timeline, and many
 ![](/img/toolkits/service_design/discovery-alt.svg){: .mt-5 .img--sd-discovery }
 
 The tangled path from problem to solution. (Derived from [Damien Newman](https://thedesignsquiggle.com/) and [Shubhangi Choudhary](https://medium.com/@i.shubhangich/the-design-squiggle-2e80fb8d27e4))
-
 {: .caption .mb-5 }
 
 ### Methods and templates
