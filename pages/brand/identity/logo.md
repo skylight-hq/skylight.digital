@@ -24,8 +24,10 @@ How we write our name, how we use our symbols — these are the closest we get t
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-8" markdown="1">
-![](/img/brand/rectangle.jpg)
+<div class=" col-md-8">
+  <figure class="section__img">
+    <img class="px-2 py-6 w-50" src="/img/logo.svg" alt="">
+  </figure>
 </div>
 <div class="col-md-4" markdown="1">
 ## Logotype and logomark
