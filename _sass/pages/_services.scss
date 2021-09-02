@@ -121,5 +121,13 @@
 }
 
 .sdf__icon {
-  width: 48px;
+  width: 3rem;
+}
+
+.sdf__heading-section {
+  align-items: center;
+  border-top: 0.5rem solid $sk-blue-light;
+  display: flex;
+  margin-top: 3.5rem;
+  padding-top: 1rem;
 }
