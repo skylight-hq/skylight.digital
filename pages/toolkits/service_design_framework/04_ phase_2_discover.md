@@ -50,15 +50,15 @@ In order to fully understand the scope of what challenges the WxPO continued to 
 
 ### Methods
 
-#### Stakeholder, WxPO personnel, end user interviews
+#### [Stakeholder, WxPO personnel, and end user interviews](/work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/)
 
 We conducted several interviews to better understand where the WxPO was currently at with its digital transformation efforts, as well as the pain points people were experiencing.
 
-#### Affinity mapping
+#### [Affinity mapping](/work/toolkits/service-design-framework/methods/affinity-mapping/)
 
 After these interviews, we took the data we learned and went through affinity mapping sessions to draw out insights that we could then take action upon.
 
-#### Desk review
+#### [Desk review](/work/toolkits/service-design-framework/methods/desk-review-or-secondary-research/)
 
 In order to build a deeper understanding of successful digital transformation efforts, we spent time researching how other organizations underwent their own transformation.
 

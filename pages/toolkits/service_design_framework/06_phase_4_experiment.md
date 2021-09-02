@@ -30,7 +30,7 @@ Consider where to go next, whether it's forward to plan for implementation or ba
 - [Role-playing](/work/toolkits/service-design-framework/methods/role-playing/)
 </div>
 
-Once you’ve honed in on some concepts, the methods in this phase help you test their usability and functionality and whether they meet customer and organizational needs. During the Experiment phase, continue to research, build empathy for customers, and facilitate workshops and testing in order to develop the best solutions.
+Once you’ve narrowed down your concepts, the methods in this phase help you test their usability and functionality and whether they meet customer and organizational needs. During the Experiment phase, continue to research, build empathy for customers, and facilitate workshops and testing in order to develop the best solutions.
 
 To test ideas, use prototyping — putting ideas into some kind of tangible forms to experiment with. You can prototype in many different ways, with many different levels of polish (called fidelity). A team’s skills, timelines, and needs all influence which type of prototyping method you should use.
 
