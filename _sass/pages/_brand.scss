@@ -96,36 +96,57 @@
   }
 
   .blog-post-footer {
-    border-bottom-width: 8px !important;
+    background-color: transparent;
+    border-bottom-width: 0.5rem !important;
     border-bottom-style: solid !important;
+  }
+
+  .card-link {
+    background-repeat: no-repeat;
+    background-position: bottom 8px right;
+    background-size: 140px;
+  }
+
+  .blog-post-block {
+    padding-bottom: 4rem;
   }
 }
 
 .card--identity {
+  background-image: url(/img/brand/landing/identity.svg);
+
   .blog-post-footer {
     border-bottom-color: $sk-blue-light !important;
   }
 }
 
 .card--writing {
+  background-image: url(/img/brand/landing/writing.svg);
+
   .blog-post-footer {
     border-bottom-color: $sk-blue !important;
   }
 }
 
 .card--illustration {
+  background-image: url(/img/brand/landing/illustration.svg);
+
   .blog-post-footer {
     border-bottom-color: $green-300 !important;
   }
 }
 
 .card--outreach {
+  background-image: url(/img/brand/landing/outreach.svg);
+
   .blog-post-footer {
     border-bottom-color: $red-200 !important;
   }
 }
 
 .card--resources {
+  background-image: url(/img/brand/landing/resources.svg);
+
   .blog-post-footer {
     border-bottom-color: $sk-yellow !important;
   }
