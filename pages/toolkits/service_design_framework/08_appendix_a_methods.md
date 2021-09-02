@@ -14,7 +14,7 @@ Skylight uses these methods — activities and techniques — to achieve the man
 
 The methods below are organized by phase. Visit each one to find a detailed description of how to do the activity, what it aims to achieve, who to involve, templates to get you started, and other helpful information.
 
-<div class="d-flex align-items-center mt-5">
+<div class="sdf__heading-section">
   <img class="sdf__icon" src="/img/service_design/icons/initiate.svg" alt="">
   <h2 class="my-0 ml-3">Initiate</h2>
 </div>
@@ -46,7 +46,7 @@ Create a visual representation of all the people who can influence a project and
   url = "/work/toolkits/service-design-framework/methods/stakeholder-mapping/"
 %}
 
-<div class="d-flex align-items-center mt-5">
+<div class="sdf__heading-section">
   <img class="sdf__icon" src="/img/service_design/icons/discover.svg" alt="">
   <h2 class="my-0 ml-3">Discover</h2>
 </div>
@@ -96,7 +96,7 @@ Better understand a service and how you can improve it by visualizing the many p
   url = "/work/toolkits/service-design-framework/methods/service-blueprint/"
 %}
 
-<div class="d-flex align-items-center mt-5">
+<div class="sdf__heading-section">
   <img class="sdf__icon" src="/img/service_design/icons/strategize.svg" alt="">
   <h2 class="my-0 ml-3">Strategize</h2>
 </div>
@@ -119,7 +119,7 @@ Articulate who your customers are, their needs, and important insights about the
   url = "/work/toolkits/service-design-framework/methods/pov-statement/"
 %}
 
-<div class="d-flex align-items-center mt-5">
+<div class="sdf__heading-section">
   <img class="sdf__icon" src="/img/service_design/icons/experiment.svg" alt="">
   <h2 class="my-0 ml-3">Experiment</h2>
 </div>
@@ -142,7 +142,7 @@ Get responses to a working prototype without investing in making one. Create res
   url = "/work/toolkits/service-design-framework/methods/wizard-of-oz/"
 %}
 
-<div class="d-flex align-items-center mt-5">
+<div class="sdf__heading-section">
   <img class="sdf__icon" src="/img/service_design/icons/implement.svg" alt="">
   <h2 class="my-0 ml-3">Implement</h2>
 </div>
