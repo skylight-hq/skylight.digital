@@ -49,7 +49,7 @@ Red: energy, passion, authority, confidence, change, action, anger, danger
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img">
+  <figure class="section__img p-5">
     <img class="" src="/img/brand/identity/logo/logotype.png" alt="{{ logotype_alt }}">
   </figure>
 </div>
@@ -80,7 +80,7 @@ Always aim to use one of these versions. The colors reinforce the brand identity
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img">
-    <img class="" src="/img/brand/identity/logo/grayscale.png" alt="">
+    <img class="" src="/img/brand/identity/logo/grayscale.jpg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -93,7 +93,7 @@ If a black and white version of the logo is required, use the standard grayscale
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img">
-    <img class="" src="/img/brand/identity/logo/one-color.png" alt="">
+    <img class="" src="/img/brand/identity/logo/one-color.jpg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -118,8 +118,8 @@ This variation of the logo can be used in instances, such as templates, where th
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img">
-    <img class="" src="/img/brand/identity/logo/spacing.png" alt="">
+  <figure class="section__img p-5">
+    <img class="w-75" src="/img/brand/identity/logo/spacing.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -133,7 +133,7 @@ A clearspace of 2x is recommended around the logo.
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img justify-content-around">
+  <figure class="section__img justify-content-around py-5">
     <img class="px-3 w-25" src="/img/brand/identity/logo/minimum-sizes--web.png" alt="">
     <img class="px-3 w-25" src="/img/brand/identity/logo/minimum-sizes--print.png" alt="">
   </figure>
@@ -149,7 +149,7 @@ Never scale the logo smaller than the sizes specified.
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img">
+  <figure class="section__img p-5">
     <img class="" src="/img/brand/identity/logo/general-positioning.png" alt="">
   </figure>
 </div>
@@ -166,7 +166,7 @@ In some instances, the center or the upper or lower right-hand corners might mak
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img">
+  <figure class="section__img p-5">
     <img class="" src="/img/brand/identity/logo/rotation.png" alt="">
   </figure>
 </div>
@@ -181,7 +181,7 @@ On special occasions, the logo can be turned on a 90° angle. This is useful for
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img">
+  <figure class="section__img p-5">
     <img class="" src="/img/brand/identity/logo/things-to-avoid.png" alt="">
   </figure>
 </div>
