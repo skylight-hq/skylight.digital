@@ -27,7 +27,11 @@ image_description: Skylight toolkit banner showing a collection of different too
     col-md-3
     {% endif %}
     ">
-      <div class="">
+      <div class="
+        {% if page.toolkit_name == "brand" %}
+          is-sticky
+        {% endif %}"
+      ">
         <nav class="subnav-col px-0 mt-5 mt-md-0" id="sidenav">
           <ul>
             {% for item in site.data.toolkits[page.sidenav].toc %}
