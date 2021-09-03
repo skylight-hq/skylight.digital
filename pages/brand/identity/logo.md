@@ -11,8 +11,10 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-8" markdown="1">
-![](/img/brand/rectangle.jpg)
+<div class="col-md-8 d-flex">
+  <figure class="section__img bg-gray-lightestx w-100">
+    <img class="px-2 py-6 w-50" src="/img/logo.svg" alt="">
+  </figure>
 </div>
 <div class="col-md-4" markdown="1">
 # Logo
@@ -23,10 +25,32 @@ How we write our name, how we use our symbols — these are the closest we get t
 </div>
 </div>
 
+{% capture logotype_alt %}
+The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
+
+The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
+
+The logotype uses a wide kerning to make our brand feel open and accessible.
+
+The four colors in our logo convey the diversity and inclusiveness of our team. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
+
+Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
+
+Each individual color has its own meanings:
+
+Blue: sky, wisdom, depth of understanding, trustworthy, dependable, committed, sad
+
+Green: nature, balance, growth, health, freshness, sustainability, progress, forgiveness, compassion
+
+Yellow: sun/light, optimism, happiness, playfulness, creativity, clarity, caution
+
+Red: energy, passion, authority, confidence, change, action, anger, danger
+{% endcapture %}
+
 <div class="row brand__content-section">
-<div class=" col-md-8">
+<div class="col-md-8">
   <figure class="section__img">
-    <img class="px-2 py-6 w-50" src="/img/logo.svg" alt="">
+    <img class="" src="/img/brand/identity/logo/logotype.png" alt="{{ logotype_alt }}">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -38,62 +62,98 @@ To aid in brand awareness, the logotype + logomark is typically used in our cust
 </div>
 </div>
 
-[img desc]
-
-The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
-
-The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
-
--
-
-The logotype uses a wide kerning to make our brand feel open and accessible.
-
--
-
-The four colors in our logo convey the diversity and inclusiveness of our team. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
-
-Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
-
-**Each individual color has its own meanings:**
-
-**Blue:** sky, wisdom, depth of understanding, trustworthy, dependable, committed, sad
-
-**Green:** nature, balance, growth, health, freshness, sustainability, progress, forgiveness, compassion
-
-**Yellow:** sun/light, optimism, happiness, playfulness, creativity, clarity, caution
-
-**Red:** energy, passion, authority, confidence, change, action, anger, danger
-
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/light-and-dark.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Light and dark
 
 Use the standard logo in areas with a light background (`Ochre-40` and `white`). Use the inverse logo in areas with a dark background (`Black-300`, `Red-200`, `Blue-300`, and `Green-300`).
 
 Always aim to use one of these versions. The colors reinforce the brand identity.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/grayscale.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Grayscale
 
 If a black and white version of the logo is required, use the standard grayscale logo in areas with a light background. Use the inverse grayscale logo in areas with a dark background. This logo should only be used when the color logo isn’t an option.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/one-color.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## One color
 
 This version of the logo is for instances in which only one color is allowed. This will most likely be for printing swag/merchandise — processes like etching need a silhouette version of a logo.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/variations.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Variations
 
 This variation of the logo can be used in instances, such as templates, where the logo needs a bit more separation from content.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/spacing.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Spacing
 
 The halo is positioned after the logotype at a distance of x to the right and 2x above the baseline where x is the thickness of the halo band.
 
 A clearspace of 2x is recommended around the logo.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img justify-content-around">
+    <img class="px-3 w-25" src="/img/brand/identity/logo/minimum-sizes--web.png" alt="">
+    <img class="px-3 w-25" src="/img/brand/identity/logo/minimum-sizes--print.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Minimum sizes
 
 Legibility is critical for a logo — it should always be readable.
 
 Never scale the logo smaller than the sizes specified.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/general-positioning.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## General positioning
 
 The logo’s position in a print or digital piece should also be positioned.
@@ -101,13 +161,31 @@ The logo’s position in a print or digital piece should also be positioned.
 The logo looks best positioned to the left, so try there first.
 
 In some instances, the center or the upper or lower right-hand corners might make more sense.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/rotation.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Rotation
 
 In most cases, the logo should sit at 0° angle. This is the default.
 
 On special occasions, the logo can be turned on a 90° angle. This is useful for very vertical layouts like banners ads, physical banners, and swag.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="" src="/img/brand/identity/logo/things-to-avoid.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Things to avoid
 
 - change the color of the logo
@@ -118,3 +196,5 @@ On special occasions, the logo can be turned on a 90° angle. This is useful for
 - use the logo over a busy background
 - rotate the logo to anything other than 0 and 90 degrees
 - change the logo’s proportions
+</div>
+</div>
