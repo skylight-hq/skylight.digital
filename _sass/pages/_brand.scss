@@ -55,7 +55,7 @@
 }
 
 .brand__content-section:not(:first-of-type) {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .page-brand-guidelines {
@@ -258,4 +258,8 @@
   h1 {
     font-size: $font-size-x-large;
   }
+}
+
+.img--min-size {
+  width: 100px;
 }

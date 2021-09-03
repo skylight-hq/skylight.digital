@@ -135,8 +135,8 @@ A clearspace of 2x is recommended around the logo.
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img justify-content-around py-5">
-    <img class="px-3 w-25" src="/img/brand/identity/logo/minimum-sizes--web.png" alt="">
-    <img class="px-3 w-25" src="/img/brand/identity/logo/minimum-sizes--print.png" alt="">
+    <img class="img--min-size" src="/img/brand/identity/logo/minimum-sizes--web.png" alt="">
+    <img class="img--min-size" src="/img/brand/identity/logo/minimum-sizes--print.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
