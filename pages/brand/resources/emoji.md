@@ -10,11 +10,15 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="col-md-8 d-flex justify-content-center">
-  <img class="maxw-mobile-lg" src="/img/brand/resources/emoji.svg" alt="Heart and Skylight logo emojis">
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img">
+    <img class="px-2 py-4 w-75" src="/img/brand/resources/emoji.svg" alt="Heart and Skylight logo emojis">
+  </figure>
 </div>
 <div class="col-md-4 mt-4 mt-md-0" markdown="1">
 # Emoji
 
 This is a list of emoji that we've compiled thus far for use in electronic messages (such as Slack) and web pages.
+</div>
 </div>
