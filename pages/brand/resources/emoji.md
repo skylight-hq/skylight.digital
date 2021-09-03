@@ -1,5 +1,5 @@
 ---
-layout: brand
+layout: toolkit
 title: Emoji | Skylight Brand Guidelines
 description:
 tags:
@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img">
-    <img class="px-2 py-4 w-75" src="/img/brand/resources/emoji.svg" alt="Heart and Skylight logo emojis">
+    <img class="p-5 w-75" src="/img/brand/resources/emoji.svg" alt="Heart and Skylight logo emojis">
   </figure>
 </div>
 <div class="col-md-4 mt-4 mt-md-0" markdown="1">

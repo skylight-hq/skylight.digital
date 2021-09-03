@@ -10,6 +10,13 @@ toolkit_name: brand
 class: brand
 ---
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img p-5">
+    <img class="" src="/img/brand/identity/imagery/illustration.svg" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 # Imagery
 
 ## Illustration
@@ -17,7 +24,16 @@ class: brand
 Illustration is the de-facto visual style for Skylight. It makes us feel different and vibrant, and helps us tell better stories through art. Illustrations are a critical part of Skylight’s brand.
 
 Creating new artwork? You should check the Illustration Guidelines.
+</div>
+</div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img p-5">
+    <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Photography
 
 The photos we use reflect who we are and what we do as a company. We want to feature real people with real-life stories to tell.
@@ -25,10 +41,8 @@ The photos we use reflect who we are and what we do as a company. We want to fea
 A sense of place should be environments, such as activities with teammates, customers, and partners.
 
 Facial expressions, clothing, hair/makeup should look natural (not over-the-top stock).
-
-## Goals
-
-Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
+</div>
+</div>
 
 {% capture ex--goals %}
 **"What am I trying to say with this photo?"**
@@ -43,10 +57,26 @@ Wrap this all together in your composition. If an object is the focus of your ph
 If possible, take a moment to remove any distractions from the scene. If it doesn’t help tell the story, move it out of the way. These items can oven be little things our brain automatically de-emphasizes, like purses, coffee cups, and wrappers, but these muddle the story in a photo.
 {% endcapture %}
 
-<div class="example">
-{{ ex--goals | markdownify }}
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <div class="example mt-0">
+  {{ ex--goals | markdownify }}
+  </div>
+</div>
+<div class="col-md-4" markdown="1">
+## Goals
+
+Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
+</div>
 </div>
 
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img p-5">
+    <img class="" src="/img/brand/identity/imagery/portraits.jpg" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
 ## Portraits
 
 We aim to take authentic portraits of people.
@@ -56,5 +86,7 @@ Use a shallow depth of field in an outdoor setting.
 When possible, set up images to include an element of blue (in clothing or surroundings).
 
 The photo should be edited to use a realistic color balance.
+</div>
+</div>
 
 
