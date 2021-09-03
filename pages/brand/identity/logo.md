@@ -1,5 +1,5 @@
 ---
-layout: brand
+layout: toolkit
 title: Logo | Skylight Brand Guidelines
 description:
 tags:
@@ -12,7 +12,7 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
-  <figure class="section__img bg-gray-lightestx w-100">
+  <figure class="section__img w-100">
     <img class="px-2 py-6 w-50" src="/img/logo.svg" alt="">
   </figure>
 </div>
@@ -22,6 +22,7 @@ class: brand
 ## Intro
 
 How we write our name, how we use our symbols — these are the closest we get to a "signature" for Skylight. How they appear, whether tiny on a screen or enormous at an airport, becomes a crucial way for our customers and partners to find and trust us.
+{: .mb-0 }
 </div>
 </div>
 
