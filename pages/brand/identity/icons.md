@@ -29,7 +29,7 @@ Because Skylight's presence largely exists online, the consistent appearance of 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/icons/avatars.svg" alt="">
+    <img class="" src="/img/brand/identity/icons/avatars.jpg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
