@@ -10,13 +10,16 @@ toolkit_name: brand
 class: brand
 ---
 
+<div class="row brand__content-section">
+<div class="col-md-4" markdown="1">
 # Principles
 
 We’re a purpose-driven company, and much of our content is focused on trying to highlight the value of working with Skylight.
 
 The following six principles will help you design effective Skylight illustrations.
-
-{% capture ex--principles %}
+</div>
+<div class="col-md-8">
+<div class="example" markdown="1">
 ## 1. Highlight impact
 
 Demonstrate the impact of our mission and the work that we do. We want people to understand why working with us benefits them and society.
@@ -46,8 +49,6 @@ Reflect the diversity of the world that we live in — skin colors, body types, 
 Keep in mind the role/purpose that the illustration is intended to serve.
 
 For example, if the illustration will accompany a case study or blog post, reinforce what we’re trying to accomplish within the text (that is, what we’re trying to communicate to the target audience).
-{% endcapture %}
-
-<div class="example">
-{{ ex--principles | markdownify }}
+</div>
+</div>
 </div>

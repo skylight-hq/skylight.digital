@@ -98,7 +98,7 @@
 .caption {
   color: $gray-light;
   font-family: $font-family-mono;
-  font-size: $font-size-xs;
+  font-size: $font-size-xs !important;
   margin-top: -0.625rem;
 }
 
