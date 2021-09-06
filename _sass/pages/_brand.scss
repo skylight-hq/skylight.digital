@@ -28,6 +28,10 @@
   h1 + h2 {
     margin-top: 0;
   }
+
+  .col-md-8 > .example {
+    margin-top: 0;
+  }
 }
 
 .brand {
