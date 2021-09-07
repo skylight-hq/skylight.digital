@@ -29,7 +29,7 @@ ditap:
 executive:
   primary_registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
   info:
-    - cohort: 1
+    - class: 1
       run_date: Thu, Oct 21, 9:00 am – 5:00 pm ET
       description:
       location: Online
@@ -37,7 +37,7 @@ executive:
       cost: $750
       registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
       spots_remaining:
-    - cohort: 2
+    - class: 2
       run_date: Thu, Apr 21, 9:00 am – 5:00 pm ET
       description:
       location: Online
