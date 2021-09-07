@@ -251,39 +251,39 @@ class_2_spots:
         {% include ditap_instructors.html %}
 
         <h2 id="dates-and-cost">Dates and cost</h2>
-        {% for cohort in ditap.info %}
+        {% for class in ditap.info %}
           <a
-            href="{{ cohort.registration_link }}"
+            href="{{ class.registration_link }}"
             class="row tuition-card no-gutters mt-4"
           >
             <div class="col-12">
               <div class="class-header">
-                <h3 class="class-heading">{{ cohort.run_date }}</h3>
-                {% if cohort.spots_remaining %}
+                <h3 class="class-heading">{{ class.run_date }}</h3>
+                {% if class.spots_remaining %}
                 <div class="class-spots">
-                  <span>{{ cohort.spots_remaining }} spots left</span>
+                  <span>{{ class.spots_remaining }} spots left</span>
                 </div>
                 {% endif %}
               </div>
-              {% if cohort.description %}
+              {% if class.description %}
                 <p class="tuition-card-note">
-                  {{ cohort.description }}
+                  {{ class.description }}
                 </p>
               {% endif %}
               <div class="tuition-card-meta mt-3">
                 <div class="tuition-card-meta-info">
                   <h4>Location:</h4>
-                  <p>{{ cohort.location }}</p>
+                  <p>{{ class.location }}</p>
                 </div>
                 <div class="tuition-card-meta-info">
                   <h4>Instructors:</h4>
                   <p>
-                    {{ cohort.instructors }}
+                    {{ class.instructors }}
                   </p>
                 </div>
                 <div class="tuition-card-meta-info">
                   <h4>Cost:</h4>
-                  <p>{{ cohort.cost }} USD</p>
+                  <p>{{ class.cost }} USD</p>
                 </div>
               </div>
               <p class="mt-3">
