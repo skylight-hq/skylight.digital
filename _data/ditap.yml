@@ -1,0 +1,91 @@
+ditap:
+  primary_registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-148264871221
+  info:
+    - cohort: 2
+      run_date: Nov 8, 2021 to Apr 25, 2022
+      description: In-person classroom sessions will be held on Nov 8–10, Jan 18–20, Mar 7–9, and Apr 25–27. If COVID-19 continues to present public-health risks, however, these sessions will be conducted virtually.
+      location: Online + Washington DC
+      instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
+      cost: $6,500
+      registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-148264871221
+      spots_remaining: 14
+    - cohort: 3
+      run_date: Feb 7, 2022 to Jul 27, 2022
+      description: In-person classroom sessions will be held on Feb 7–9, Apr 19–21, Jun 6–8, and Jul 25–27. If COVID-19 continues to present public-health risks, however, these sessions will be conducted virtually.
+      location: Online + Washington DC
+      instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
+      cost: $6,500
+      registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-169730758267
+      spots_remaining: 30
+    - cohort: 4
+      run_date: Nov 7, 2022 to Apr 26, 2023
+      description: In-person classroom sessions will be held on Nov 7–9, Jan 16–18, Mar 6–8, and Apr 24–26. If COVID-19 continues to present public-health risks, however, these sessions will be conducted virtually.
+      location: Online + Washington DC
+      instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
+      cost: $6,500
+      registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-169731053149
+      spots_remaining: 30
+
+executive:
+  primary_registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
+  info:
+    - cohort: 1
+      run_date: Thu, Oct 21, 9:00 am – 5:00 pm ET
+      description:
+      location: Online
+      instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
+      cost: $750
+      registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
+      spots_remaining:
+    - cohort: 2
+      run_date: Thu, Apr 21, 9:00 am – 5:00 pm ET
+      description:
+      location: Online
+      instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
+      cost: $750
+      registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
+      spots_remaining:
+
+instructors:
+  - name: Chris Cairns
+    photo: img/people/chris-cairns.jpg
+    description: |
+      Chris served as a White House Presidential Innovation Fellow, and
+      co-founded 18F. He started and built 18F’s influential acquisition
+      group, which specializes in digital acquisition methods. Chris is
+      known for pioneering 18F’s
+      <a href="/work/experience/agile-acquisition-framework/"
+        >agile acquisition framework</a
+      >, and for architecting the government’s first-ever
+      <a href="/work/experience/agile-delivery-services-marketplace/"
+        >agile vendor contract vehicle</a
+      >
+      using a tech challenge.
+  - name: Dan Levenson
+    photo: img/people/dan-levenson.jpg
+    description: |
+      Dan is a senior executive with
+      <a href="https://agile6.com/">Agile Six</a>. He previously served
+      as a certified digital acquisition expert and contracting officer
+      for the Centers for Medicare & Medicaid Services (CMS). At CMS,
+      Dan architected and managed a highly successful agile vendor
+      contract vehicle, which supports programs such as the Quality
+      Payment Program.
+  - name: Robert Read, PhD
+    photo: img/people/robert-read.jpg
+    description: |
+      Robert served as a White House Presidential Innovation Fellow, and
+      co-founded 18F. Originally trained by agile pioneer Kent Beck,
+      Robert has over 15 years experience as an agile practitioner and
+      coach. He holds a PhD in computer science, and is best known for
+      writing a popular, multilingual guide on
+      <a href="https://github.com/braydie/HowToBeAProgrammer"
+        >how to be a programmer</a
+      >.
+  - name: Leslie Garner Franklin
+    photo: img/people/leslie-garner-franklin.jpg
+    description: |
+      Leslie brings nearly two decades of experience in user research,
+      user experience design, product management, digital leadership,
+      and instructional design. She started her career at Teach For
+      America, and has worked for notable design firms such as EchoUser.

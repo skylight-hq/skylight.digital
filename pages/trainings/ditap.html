@@ -15,6 +15,8 @@ class_1_spots: 14
 class_2_spots:
 ---
 
+{% assign ditap = site.data.ditap.ditap %}
+
 <div
   class="bg-blue hero-banner"
   style="
@@ -40,7 +42,7 @@ class_2_spots:
             <div class="hero-btn-wrapper pr-1">
               <a
                 class="btn btn-warning text-dark mr-2 mt-sm-3"
-                href="https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-148264871221"
+                href="{{ ditap.primary_registration_link }}"
                 >Register now
               </a>
             </div>
@@ -82,7 +84,7 @@ class_2_spots:
         </nav>
         <a
           class="btn btn-primary font-weight-bold mt-2"
-          href="https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-148264871221"
+          href="{{ ditap.primary_registration_link }}"
           >Register now
         </a>
       </div>
@@ -274,52 +276,50 @@ class_2_spots:
         {% include ditap_instructors.html %}
 
         <h2 id="dates-and-cost">Dates and cost</h2>
-        <a
-          href="https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-148264871221"
-          class="row tuition-card no-gutters mt-4"
-        >
-          <div class="col-12">
-            <div class="class-header">
-              <h3 class="class-heading">Nov 8, 2021 to Apr 25, 2022</h3>
-              {% if page.class_1_spots %}
-              <div class="class-spots">
-                <span>{{ page.class_1_spots }} spots left</span>
+        {% for cohort in ditap.info %}
+          <a
+            href="{{ cohort.registration_link }}"
+            class="row tuition-card no-gutters mt-4"
+          >
+            <div class="col-12">
+              <div class="class-header">
+                <h3 class="class-heading">{{ cohort.run_date }}</h3>
+                {% if cohort.spots_remaining %}
+                <div class="class-spots">
+                  <span>{{ cohort.spots_remaining }} spots left</span>
+                </div>
+                {% endif %}
               </div>
-              {% endif %}
+              <p class="tuition-card-note">
+                {{ cohort.description }}
+              </p>
+              <div class="tuition-card-meta mt-3">
+                <div class="tuition-card-meta-info">
+                  <h4>Location:</h4>
+                  <p>{{ cohort.location }}</p>
+                </div>
+                <div class="tuition-card-meta-info">
+                  <h4>Instructors:</h4>
+                  <p>
+                    {{ cohort.instructors }}
+                  </p>
+                </div>
+                <div class="tuition-card-meta-info">
+                  <h4>Cost:</h4>
+                  <p>{{ cohort.cost }} USD</p>
+                </div>
+              </div>
+              <p class="mt-3">
+                <strong class="tuition-card-link"
+                  >Register now<i
+                    class="fal fa-long-arrow-right ml-3 font-lg"
+                    aria-hidden="true"
+                  ></i
+                ></strong>
+              </p>
             </div>
-            <p class="tuition-card-note">
-              In-person classroom sessions will be held on Nov 8–10, Jan
-              18–20, Mar 7–9, and Apr 25–27. If COVID-19
-              continues to present public-health risks, however, these sessions
-              will be conducted virtually.
-            </p>
-            <div class="tuition-card-meta mt-3">
-              <div class="tuition-card-meta-info">
-                <h4>Location:</h4>
-                <p>Online + Washington DC</p>
-              </div>
-              <div class="tuition-card-meta-info">
-                <h4>Instructors:</h4>
-                <p>
-                  Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner
-                  Franklin
-                </p>
-              </div>
-              <div class="tuition-card-meta-info">
-                <h4>Cost:</h4>
-                <p>$6,500 USD</p>
-              </div>
-            </div>
-            <p class="mt-3">
-              <strong class="tuition-card-link"
-                >Register now<i
-                  class="fal fa-long-arrow-right ml-3 font-lg"
-                  aria-hidden="true"
-                ></i
-              ></strong>
-            </p>
-          </div>
-        </a>
+          </a>
+        {% endfor %}
         <h2 id="faqs">Get answers</h2>
         <p class="text-intro mb-4">
           Here are some questions that we’re typically asked, along with our
