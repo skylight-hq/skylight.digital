@@ -21,7 +21,7 @@ class: brand
 
 ## Intro
 
-How we write our name, how we use our symbols — these are the closest we get to a "signature" for Skylight. How they appear, whether tiny on a screen or enormous at an airport, becomes a crucial way for our customers and partners to find and trust us.
+Our logo is often the first introduction someone has to Skylight. It’s a powerful tool for representing ourselves to potential clients, partners, and prospective employees. In the following section, we lay out important rules for using our logo.
 {: .mb-0 }
 </div>
 </div>

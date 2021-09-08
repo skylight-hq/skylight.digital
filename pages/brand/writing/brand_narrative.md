@@ -51,7 +51,7 @@ We bring a unique blend of **government and commercial know-how** to solving our
 
 We pursue **modern ways of working**. New trends and technologies are constantly on the horizon. We embrace — even pioneer — new developments, go deep to understand their viability and impact, and harness those with the greatest promise to the benefit of our customers.
 
-We believe in the importance of **capacity building**. Regardless of mission, all government agencies are now technology organizations, which means they need master disciplines such as human-centered design. Everything about us is designed to help our customers achieve such mastery.
+We believe in the importance of **capacity building**. Regardless of mission, all government agencies are now technology organizations, which means they need to master disciplines such as human-centered design. Everything about us is designed to help our customers achieve such mastery.
 
 We strive to create a **diverse, equitable, and inclusive** environment for everyone.
 </div>
@@ -73,7 +73,8 @@ How we want the world to see us.
 **Modern.** Skylight possesses know-how in the latest, most-proven practices and technologies.
 
 **Lighthearted.** We’re approachable and easy to work with.
-Welcoming. We strive to create a diverse, equitable, and inclusive environment that’s welcoming to people of all identities and backgrounds.
+
+**Welcoming.** We strive to create a diverse, equitable, and inclusive environment that’s welcoming to people of all identities and backgrounds.
 
 **If Skylight were...**
 
@@ -90,9 +91,9 @@ Our writing is short and clear. We use words that everyone understands. It's how
 </div>
 <div class="col-md-8">
 <div class="example" markdown="1">
-### 1-sentence description
+### One-sentence description
 
-Skylight is a digital consultancy using design and technology to help agencies deliver better public services.
+Skylight’s based out of sunny Sarasota, Florida, though we’re a distributed and remote-friendly team spread across 20+ different states.
 
 ### Longer description
 

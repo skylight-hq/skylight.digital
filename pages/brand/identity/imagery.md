@@ -21,7 +21,7 @@ class: brand
 
 ## Illustration
 
-Illustration is the de-facto visual style for Skylight. It makes us feel different and vibrant, and helps us tell better stories through art. Illustrations are a critical part of Skylight’s brand.
+We use illustration as our primary visual style. It makes us feel different and vibrant, and helps us tell better stories through art. Illustrations are a key part of Skylight’s brand.
 
 Creating new artwork? You should check the Illustration Guidelines.
 </div>
@@ -36,9 +36,7 @@ Creating new artwork? You should check the Illustration Guidelines.
 <div class="col-md-4" markdown="1">
 ## Photography
 
-The photos we use reflect who we are and what we do as a company. We want to feature real people with real-life stories to tell.
-
-A sense of place should be environments, such as activities with teammates, customers, and partners.
+When sharing photos, we want to feature real people with real-life stories to tell. Capture a sense of place by showing activities with teammates, customers, and partners.
 
 Facial expressions, clothing, hair/makeup should look natural (not over-the-top stock).
 </div>
