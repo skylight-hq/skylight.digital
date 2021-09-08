@@ -11,6 +11,8 @@ class_1_spots:
 class_2_spots:
 ---
 
+{% assign ditap = site.data.ditap.executive %}
+
 <div
   class="bg-blue hero-banner"
   style="
@@ -28,7 +30,7 @@ class_2_spots:
             <div class="hero-btn-wrapper pr-1">
               <a
                 class="btn btn-warning text-dark mr-2 mt-sm-3"
-                href="https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308"
+                href="{{ ditap.primary_registration_link }}"
                 >Register now
               </a>
             </div>
@@ -61,7 +63,7 @@ class_2_spots:
         </nav>
         <a
           class="btn btn-primary font-weight-bold mt-2"
-          href="https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308"
+          href="{{ ditap.primary_registration_link }}"
           >Register now</i
         ></a>
       </div>
@@ -249,72 +251,52 @@ class_2_spots:
         {% include ditap_instructors.html %}
 
         <h2 id="dates-and-cost">Dates and cost</h2>
-        <a
-          href="https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308"
-          class="row tuition-card no-gutters mt-4"
-        >
-          <div class="col-12">
-            <div class="class-header">
-              <h3 class="class-heading">
-                Thu, Oct 21, 9:00 am – 5:00 pm ET
-              </h3>
-              {% if page.class_1_spots %}
-              <div class="class-spots">
-                <span>{{ page.class_1_spots }} spots left</span>
+        {% for class in ditap.info %}
+          <a
+            href="{{ class.registration_link }}"
+            class="row tuition-card no-gutters mt-4"
+          >
+            <div class="col-12">
+              <div class="class-header">
+                <h3 class="class-heading">{{ class.run_date }}</h3>
+                {% if class.spots_remaining %}
+                <div class="class-spots">
+                  <span>{{ class.spots_remaining }} spots left</span>
+                </div>
+                {% endif %}
               </div>
+              {% if class.description %}
+                <p class="tuition-card-note">
+                  {{ class.description }}
+                </p>
               {% endif %}
-            </div>
-            <div class="tuition-card-meta mt-3">
-              <p><strong>Location:</strong> Online</p>
-              <p>
-                <strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert
-                Read, and Leslie Garner Franklin
-              </p>
-              <p><strong>Cost:</strong> $750 USD</p>
-            </div>
-            <p class="mt-2">
-              <strong class="tuition-card-link"
-                >Register now<i
-                  class="fal fa-long-arrow-right ml-3 font-lg"
-                  aria-hidden="true"
-                ></i
-              ></strong>
-            </p>
-          </div>
-        </a>
-        <a
-          href="https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308"
-          class="row tuition-card no-gutters mt-4"
-        >
-          <div class="col-12">
-            <div class="class-header">
-              <h3 class="class-heading">
-                Thu, Apr 21, 9:00 am – 5:00 pm ET
-              </h3>
-              {% if page.class_2_spots %}
-              <div class="class-spots">
-                <span>{{ page.class_2_spots }} spots left</span>
+              <div class="tuition-card-meta mt-3">
+                <div class="tuition-card-meta-info">
+                  <h4>Location:</h4>
+                  <p>{{ class.location }}</p>
+                </div>
+                <div class="tuition-card-meta-info">
+                  <h4>Instructors:</h4>
+                  <p>
+                    {{ class.instructors }}
+                  </p>
+                </div>
+                <div class="tuition-card-meta-info">
+                  <h4>Cost:</h4>
+                  <p>{{ class.cost }} USD</p>
+                </div>
               </div>
-              {% endif %}
-            </div>
-            <div class="tuition-card-meta mt-3">
-              <p><strong>Location:</strong> Online</p>
-              <p>
-                <strong>Instructors:</strong> Chris Cairns, Dan Levenson, Robert
-                Read, and Leslie Garner Franklin
+              <p class="mt-3">
+                <strong class="tuition-card-link"
+                  >Register now<i
+                    class="fal fa-long-arrow-right ml-3 font-lg"
+                    aria-hidden="true"
+                  ></i
+                ></strong>
               </p>
-              <p><strong>Cost:</strong> $750 USD</p>
             </div>
-            <p class="mt-2">
-              <strong class="tuition-card-link"
-                >Register now<i
-                  class="fal fa-long-arrow-right ml-3 font-lg"
-                  aria-hidden="true"
-                ></i
-              ></strong>
-            </p>
-          </div>
-        </a>
+          </a>
+        {% endfor %}
         <h2 id="faqs">Get answers</h2>
         <p class="text-intro mb-4">
           Here are some questions that we’re typically asked, along with our
