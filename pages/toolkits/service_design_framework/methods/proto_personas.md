@@ -47,9 +47,9 @@ Once everyone on the team has contributed ideas, begin to sort. Cluster ideas to
 * Goals: What you’re trying to enable them to accomplish through this project
 * Pain points: What obstacles stand in the way of them accomplishing their goals
 
-### 3. Hone in
+### 3. Focus in
 
-Now, start to shape your proto-persona. Using real observations, decide on a set of coherent characteristics for your persona. How old are they? What’s their salary? If your service has a technological component, what’s their level of tech literacy?
+Now, start to shape your proto-persona. Using real observations, decide on a set of characteristics for your persona. How old are they? What’s their salary? If your service has a technological component, what’s their level of tech literacy?
 
 ### 4. Expand behaviors and beliefs
 

@@ -74,7 +74,7 @@ Engage your team and relevant stakeholders to collaboratively synthesize researc
 
 ### Customer journey mapping
 
-Visualize how a customer interacts with a service to get a holistic view of their experience. This provides a better understanding of the customer and surfaces opportunities for improvements.
+Visualize how a customer interacts with a service to get a holistic view of their experience. This provides a better understanding of the customer and highlights opportunities for improvements.
 
 {% include link_cta.html
   text = "Read about customer journey mapping"

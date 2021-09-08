@@ -48,17 +48,17 @@ Before moving to the Strategize phase, you should synthesize the information you
 
 In order to fully understand the scope of what challenges the WxPO continued to encounter while it was undergoing its digital transformation, we needed to build empathy for the end users, customers of the cloud platform, and stakeholders. This empathy allowed us to recognize several opportunity areas that would enhance the customer experience for those engaging with the WxPO. It also pushed us to broaden our initial scope to include other areas that could impact customer experience, including training, knowledge sharing, support services, and offboarding.
 
-### Methods
+### Methods and other activities
 
-#### Stakeholder, WxPO personnel, end user interviews
+#### [Stakeholder, WxPO personnel, and end user interviews](/work/toolkits/service-design-framework/methods/stakeholder-and-customer-interviews/)
 
 We conducted several interviews to better understand where the WxPO was currently at with its digital transformation efforts, as well as the pain points people were experiencing.
 
-#### Affinity mapping
+#### [Affinity mapping](/work/toolkits/service-design-framework/methods/affinity-mapping/)
 
 After these interviews, we took the data we learned and went through affinity mapping sessions to draw out insights that we could then take action upon.
 
-#### Desk review
+#### [Desk review](/work/toolkits/service-design-framework/methods/desk-review-or-secondary-research/)
 
 In order to build a deeper understanding of successful digital transformation efforts, we spent time researching how other organizations underwent their own transformation.
 
