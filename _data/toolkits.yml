@@ -224,8 +224,8 @@ brand_identity:
   description: Discover Skylight’s core brand elements <br class="linebreak">and our rules for using them.
   description_long: Discover Skylight’s core brand elements and our rules for using them. We’ve provided guidance for each element, including Skylight’s logo, icons, color, typography, and imagery. Learn how these elements work together to create Skyilght’s distinctive identity.
   toc:
-    - title: Logo
-      url: /brand/identity/logo/
+    - title: Logos
+      url: /brand/identity/logos/
     - title: Icons
       url: /brand/identity/icons/
     - title: Colors

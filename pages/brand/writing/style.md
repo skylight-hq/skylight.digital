@@ -11,14 +11,14 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 # Style
 
 ## Content style guidelines
 
 We’ve developed comprehensive guidelines for writing clear and consistent content across teams and channels.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 See our [Skylight Content Guide](/work/toolkits/content-guide/).
 </div>

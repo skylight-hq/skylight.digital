@@ -11,14 +11,14 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 # Voice
 
 ## Voice qualities
 
 Our voice has five key qualities that are felt in both what we say and how we say it. Working together, these qualities make everything we write sound uniquely Skylight.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 **Expressive.** We use simple words and phrases to convey profound thoughts and big feelings.
 

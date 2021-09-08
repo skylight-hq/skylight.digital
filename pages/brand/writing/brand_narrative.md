@@ -11,14 +11,14 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 # Brand narrative
 
 ## Principles
 
 Our mission is to make government work in a digital world.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 ### Why
 
@@ -36,12 +36,12 @@ Thinking and being digital requires fundamental practice, culture, and technolog
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 ## The Skylight difference
 
 Why do customers choose to work with us?
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 We’re the **most-talented group of digital professionals** within the government contracting industry.
 
@@ -59,12 +59,12 @@ We strive to create a **diverse, equitable, and inclusive** environment for ever
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 ## Brand personality
 
 How we want the world to see us.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 **Mission-oriented.** We’re driven by a burning passion to create better outcomes for the public through great government digital services.
 
@@ -84,12 +84,12 @@ The byproduct of three companies, we’d be Google + McKinsey + ReadySet.
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 ## Sample messaging
 
 Our writing is short and clear. We use words that everyone understands. It's how we stay transparent with everyone.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 ### One-sentence description
 
@@ -103,12 +103,12 @@ Skylight is a digital consultancy using design and technology to help agencies d
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 ## Messaging by audience
 
 Because we engage with a number of different audiences our messaging has to be flexible. We always use the same Skylight voice, but make sure the message matches the audience and their motivations.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 ### Prospective customers, prospective teaming partners, academia, media
 

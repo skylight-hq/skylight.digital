@@ -11,14 +11,14 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 # Tone
 
 ## Tone qualities
 
 How we want people to hear our words.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 While our voice is constant, our tone should change depending on the emotional state of the person we’re addressing. We wouldn’t want to use the same tone of voice with someone who’s scared or upset as we would with someone who’s laughing. In other words, we choose our tone based on empathy and context.
 
