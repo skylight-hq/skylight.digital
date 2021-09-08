@@ -22,7 +22,11 @@ class: brand
 ## Intro
 
 To best represent ourselves, it’s important for our icon to be accurately and consistently rendered. This ensures that our audience recognizes our brand across various contexts.
-{: .mb-0 }
+
+{% include download_link.html
+  text="avatar"
+  url="img/brand/identity/assets/icon/avatar/svg/halo.svg"
+%}{: .mb-0 }
 </div>
 </div>
 

@@ -63,8 +63,16 @@
   }
 }
 
-.brand__content-section:not(:first-of-type) {
-  margin-top: 4rem;
+.brand__content-section {
+  &:not(:first-of-type) {
+    margin-top: 4rem;
+  }
+
+  .link--cta {
+    i {
+      margin-left: 0.5rem;
+    }
+  }
 }
 
 .page-brand-guidelines {
@@ -226,6 +234,14 @@
 
   h1 {
     @include kicker;
+  }
+
+  p {
+    font-size: $font-size-medium;
+  }
+
+  .example {
+    margin-top: 0;
   }
 }
 

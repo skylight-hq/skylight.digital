@@ -1,9 +1,9 @@
 ---
 layout: toolkit
-title: Logo | Skylight Brand Guidelines
+title: Logos | Skylight Brand Guidelines
 description:
 tags:
-permalink: /brand/identity/logo/
+permalink: /brand/identity/logos/
 sidenav: brand_identity
 content_type: Toolkit
 toolkit_name: brand
@@ -17,12 +17,16 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-# Logo
+# Logos
 
 ## Intro
 
 Our logo is often the first introduction someone has to Skylight. It’s a powerful tool for representing ourselves to potential clients, partners, and prospective employees. In the following section, we lay out important rules for using our logo.
-{: .mb-0 }
+
+{% include download_link.html
+  text="logo"
+  url="/img/logo.svg"
+%}{: .mb-0 }
 </div>
 </div>
 
@@ -51,7 +55,7 @@ Red: energy, passion, authority, confidence, change, action, anger, danger
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logo/logotype.png" alt="{{ logotype_alt }}">
+    <img class="" src="/img/brand/identity/logos/logotype.png" alt="{{ logotype_alt }}">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -66,7 +70,7 @@ To aid in brand awareness, the logotype and logomark is typically used in our cu
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img">
-    <img class="" src="/img/brand/identity/logo/light-and-dark.png" alt="">
+    <img class="" src="/img/brand/identity/logos/light-and-dark.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -75,52 +79,103 @@ To aid in brand awareness, the logotype and logomark is typically used in our cu
 Use the standard logo in areas with a light background (`Ochre-40` and `white`). Use the inverse logo in areas with a dark background (`Black-300`, `Red-200`, `Blue-300`, and `Green-300`).
 
 Always aim to use one of these versions. The colors reinforce the brand identity.
+
+{% include download_link.html
+  text="logo"
+  url="/img/logo.svg"
+%}
+
+{% include download_link.html
+  text="inverse logo"
+  url="/img/brand/identity/assets/logos/svg/skylight-inverse.svg"
+%}
 </div>
 </div>
 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img">
-    <img class="" src="/img/brand/identity/logo/grayscale.jpg" alt="">
+    <img class="" src="/img/brand/identity/logos/grayscale.jpg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
 ## Grayscale
 
 If a black and white version of the logo is required, use the standard grayscale logo in areas with a light background. Use the inverse grayscale logo in areas with a dark background. This logo should only be used when the color logo isn’t an option.
+
+{% include download_link.html
+  text="grayscale"
+  url="/img/brand/identity/assets/logos/svg/skylight-grayscale.svg"
+%}
+
+{% include download_link.html
+  text="grayscale inverse"
+  url="/img/brand/identity/assets/logos/svg/skylight-grayscale-inverse.svg"
+%}
 </div>
 </div>
 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img">
-    <img class="" src="/img/brand/identity/logo/one-color.jpg" alt="">
+    <img class="" src="/img/brand/identity/logos/one-color.jpg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
 ## One color
 
 This version of the logo is for instances in which only one color is allowed. This will most likely be for printing swag/merchandise — processes like etching need a silhouette version of a logo.
+
+{% include download_link.html
+  text="one color"
+  url="#0"
+%}
+
+{% include download_link.html
+  text="one color inverse"
+  url="#0"
+%}
 </div>
 </div>
 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img">
-    <img class="" src="/img/brand/identity/logo/variations.png" alt="">
+    <img class="" src="/img/brand/identity/logos/variations.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
 ## Variations
 
 This variation of the logo can be used in instances, such as templates, where the logo needs a bit more separation from content.
+
+
+{% include download_link.html
+  text="bar bottom"
+  url="/img/brand/identity/assets/logos/svg/skylight-bar-bottom.svg"
+%}
+
+{% include download_link.html
+  text="bar bottom inverse"
+  url="/img/brand/identity/assets/logos/svg/skylight-bar-bottom-inverse.svg"
+%}
+
+{% include download_link.html
+  text="bar top"
+  url="/img/brand/identity/assets/logos/svg/skylight-bar-top.svg"
+%}
+
+{% include download_link.html
+  text="bar top inverse"
+  url="/img/brand/identity/assets/logos/svg/skylight-bar-top-inverse.svg"
+%}
 </div>
 </div>
 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="w-75" src="/img/brand/identity/logo/spacing.png" alt="">
+    <img class="w-75" src="/img/brand/identity/logos/spacing.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -135,8 +190,8 @@ A clearspace of 2x is recommended around the logo.
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img justify-content-around py-5">
-    <img class="img--min-size" src="/img/brand/identity/logo/minimum-sizes--web.png" alt="">
-    <img class="img--min-size" src="/img/brand/identity/logo/minimum-sizes--print.png" alt="">
+    <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes--web.png" alt="">
+    <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes--print.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -151,7 +206,7 @@ Never scale the logo smaller than the sizes specified.
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logo/general-positioning.png" alt="">
+    <img class="" src="/img/brand/identity/logos/general-positioning.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -168,7 +223,7 @@ In some instances, the center or the upper or lower right-hand corners might mak
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logo/rotation.png" alt="">
+    <img class="" src="/img/brand/identity/logos/rotation.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -183,7 +238,7 @@ On special occasions, the logo can be turned on a 90° angle. This is useful for
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logo/things-to-avoid.png" alt="">
+    <img class="" src="/img/brand/identity/logos/things-to-avoid.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">

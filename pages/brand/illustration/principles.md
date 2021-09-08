@@ -11,14 +11,14 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-4" markdown="1">
+<div class="col-md-9" markdown="1">
 # Principles
 
 We’re a purpose-driven company, and much of our content is focused on trying to highlight the value of working with Skylight.
 
 The following six principles will help you design effective Skylight illustrations.
 </div>
-<div class="col-md-8">
+<div class="col-md-9">
 <div class="example" markdown="1">
 ## 1. Highlight impact
 
