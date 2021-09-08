@@ -38,7 +38,7 @@ Gaining stakeholder buy-in and trust is critical to the success of a service des
 
 During this phase, you should also articulate areas you may explore for improvement (opportunity areas), as well as solutions that may come out of the service design process. This will help ensure that leadership is prepared to consider implementing potential changes to organizational structures, processes, and products.
 
-Defining clear goals during the Initiate phase also helps set the scope of research — including its breadth and depth — in the next phase, Discover. Finally, surface any project constraints and requirements, as these will inform which solutions you pursue and how you implement them later on.
+Defining clear goals during the Initiate phase also helps set the scope of research — including its breadth and depth — in the next phase, Discover. Finally, uncover any project constraints and requirements, as these will inform which solutions you pursue and how you implement them later on.
 
 By the end of the Initiate phase, your stakeholders should understand the outline of the process; your team should understand how it will work together; and you should have enough of an understanding of the problem that you know where to start with research.
 
@@ -55,15 +55,15 @@ When the project pivoted after further research revealed a need for a larger sco
 
 ### Methods
 
-#### Stakeholder mapping
+#### [Stakeholder mapping](/work/toolkits/service-design-framework/methods/stakeholder-mapping/)
 
 We conducted initial research to understand all the people who could influence our project and how they’re connected, then laid them out visually.
 
-#### Kickoff workshop
+#### [Kickoff workshop](/work/toolkits/service-design-framework/methods/alignment-kickoff-workshop/)
 
 We led key stakeholders through a series of activities and conversations to align on goals and vision for the project.
 
-#### Proto-personas
+#### [Proto-personas](/work/toolkits/service-design-framework/methods/proto-personas/)
 
 In collaboration with our stakeholders, we built initial personas based on team assumptions to start building empathy for users.
 </div>
