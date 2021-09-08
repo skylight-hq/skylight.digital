@@ -16,7 +16,7 @@ class: brand
 
 ## Content style guidelines
 
-Guidelines for writing clear and consistent content across teams and channels.
+We’ve developed comprehensive guidelines for writing clear and consistent content across teams and channels.
 </div>
 <div class="col-md-8">
 <div class="example" markdown="1">

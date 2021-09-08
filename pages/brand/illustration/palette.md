@@ -21,7 +21,7 @@ class: brand
 
 To create unity and cohesion within the brand, we use color in a specific way.
 
-The limited the color palette, combined with the offset outlines, creates sophisticated, lighthearted, and positive tone.
+The limited color palette, combined with the offset outlines, creates a sophisticated, lighthearted, and positive tone.
 </div>
 </div>
 
@@ -47,7 +47,7 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
 <div class="col-md-4" markdown="1">
 ## Skin and hair
 
-Use skin and hair colors as needed to reflect the diversity in the work around us. These color serve as a base to get started — they can get adjusted slightly to ensure contrast with the other colors in the illustration.
+Use skin and hair colors as needed to reflect the diversity in the world around us. These colors serve as a base to get started — they can get adjusted slightly to ensure contrast with the other colors in the illustration.
 </div>
 </div>
 

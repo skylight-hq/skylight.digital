@@ -27,15 +27,15 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
 {% capture img_desc %}
 [img 1 descriptions]
 
-Use hair and skin colors, as needed, to represet the diverse world
+Use hair and skin colors, as needed, to represent the diverse world.
 
-Accent minimally with light gray
+Accent minimally with light gray.
 
-Creating texture with patterns adds personality to the images
+Creating texture with patterns adds personality to the images.
 
 [img 2 descriptions]
 
-Illustrations are crafted using offset outlines with selected fills
+Illustrations are crafted using offset outlines with selected fills.
 
-Organizational clothing (such as military uniforms) is an exception to the limited palette — it should reflect real life
+Organizational clothing (such as military uniforms) is an exception to the limited palette — it should reflect real life.
 {% endcapture %}

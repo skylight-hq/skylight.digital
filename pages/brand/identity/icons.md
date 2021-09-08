@@ -21,7 +21,7 @@ class: brand
 
 ## Intro
 
-Because Skylight's presence largely exists online, the consistent appearance of our icon is critical in ensuring our audience recognizes our brand across various spaces. In many cases, this symbol is the first introduction that people have to Skylight.
+To best represent ourselves, it’s important for our icon to be accurately and consistently rendered. This ensures that our audience recognizes our brand across various contexts.
 {: .mb-0 }
 </div>
 </div>
@@ -35,7 +35,7 @@ Because Skylight's presence largely exists online, the consistent appearance of 
 <div class="col-md-4" markdown="1">
 ## Avatars
 
-Our icon is our face on social accounts, keeping Skylight’s personality front and center. It can be safely used at a wide variety of sizes, as small as 16px like our favicon.
+Be sure to highlight Skylight’s presence on social accounts through our avatar. It can be used at a variety of sizes, as small as 16px.
 </div>
 </div>
 
