@@ -222,7 +222,7 @@ service_design_framework:
 brand_identity:
   title: Identity
   description: Discover Skylight’s core brand elements <br class="linebreak">and our rules for using them.
-  description_long: Discover Skylight’s core brand elements and our rules for using them. We’ve provided guidance for each element, including Skylight’s logo, icons, color, typography, and imagery.  Learn how these elements work together to create Skyilght’s distinctive identity and ensure that our audience consistently recognizes our brand across contexts.
+  description_long: Discover Skylight’s core brand elements and our rules for using them. We’ve provided guidance for each element, including Skylight’s logo, icons, color, typography, and imagery. Learn how these elements work together to create Skyilght’s distinctive identity.
   toc:
     - title: Logo
       url: /brand/identity/logo/
@@ -238,7 +238,7 @@ brand_identity:
 brand_writing:
   title: Writing
   description: Craft clear and consistent content using Skylight’s <br class="linebreak">voice and brand personality.
-  description_long: Craft clear and consistent content using Skylight’s voice and brand personality. This section will help you channel the Skylight brand in all of your written communications. You’ll find a breakdown of our brand narrative, sample messaging, and guidance around voice and tone, as well as other useful resources that we’ve developed to help you write in the Skylight style.
+  description_long: Craft clear and consistent content using Skylight’s voice and brand personality. You’ll find a breakdown of our brand narrative, sample messaging, and guidance around voice and tone, as well as other useful resources that we’ve developed to help you write in the Skylight style.
   toc:
     - title: Brand narrative
       url: /brand/writing/brand-narrative/
@@ -252,7 +252,7 @@ brand_writing:
 brand_illustration:
   title: Illustration
   description: Design images and visuals that align <br class="linebreak">with the Skylight brand.
-  description_long: Design images and visuals that align with the Skylight brand. Keep in mind our principles when developing illustrations in order to effectively highlight the value of working with us and to reflect our mission of making government work in a digital world. This section also offers rules around our palette, style, and other specific illustration use cases.
+  description_long: Design images and visuals that align with the Skylight brand. Keep in mind our principles when developing illustrations to effectively highlight the value of working with us. This section also offers rules around our palette, style, and other specific illustration use cases.
   toc:
     - title: Principles
       url: /brand/illustration/principles/
