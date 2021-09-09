@@ -41,22 +41,27 @@ The four colors in our logo convey the diversity and inclusiveness of our team. 
 
 Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
 
-Each individual color has its own meanings:
+**Each individual color has its own meanings:**
 
-Blue: sky, wisdom, depth of understanding, trustworthy, dependable, committed, sad
+**Blue:** sky, wisdom, dependable, committed
 
-Green: nature, balance, growth, health, freshness, sustainability, progress, forgiveness, compassion
+**Green:** nature, balance, growth, compassion
 
-Yellow: sun/light, optimism, happiness, playfulness, creativity, clarity, caution
+**Yellow:** sun/light, optimism, creativity, clarity
 
-Red: energy, passion, authority, confidence, change, action, anger, danger
+**Red:** energy, passion, authority, confidence
 {% endcapture %}
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logos/logotype.png" alt="{{ logotype_alt }}">
-  </figure>
+  <div class="section__container p-5">
+    <figure class="section__img border-0">
+      <img class="" src="/img/brand/identity/logos/logotype.svg" alt="">
+    </figure>
+    <div class="section__description mt-4">
+    {{ logotype_alt | markdownify }}
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Logotype and logomark
@@ -128,12 +133,12 @@ This version of the logo is for instances in which only one color is allowed. Th
 
 {% include download_link.html
   text="one color"
-  url="#0"
+  url="/img/brand/identity/assets/logos/svg/skylight-one-color.svg"
 %}
 
 {% include download_link.html
   text="one color inverse"
-  url="#0"
+  url="/img/brand/identity/assets/logos/svg/skylight-one-color-inverse.svg"
 %}
 </div>
 </div>

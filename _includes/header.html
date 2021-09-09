@@ -4,7 +4,7 @@
       {% if page.title == "Home" %}
         <h1><a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a></h1>
       {% else %}
-        <a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a>
+        <a class="navbar-logo" href="{{site.baseurl}}/{% if page.toolkit_name == "brand" %}brand/{% endif %}">Skylight</a>
       {% endif %}
       <div
         class="navbar-toggler"

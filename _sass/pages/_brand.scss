@@ -3,6 +3,17 @@
   font-weight: bold;
 }
 
+.nav-item__divider {
+  display: flex;
+  align-items: center;
+  color: $gray-40;
+  margin-inline: 0.25rem;
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
 .page-brand {
   &:not(.page-brand-guidelines) {
     footer {
@@ -65,6 +76,12 @@
       margin-top: 1.875rem;
     }
   }
+
+  .section__description {
+    p {
+      font-size: $font-size-xx-small;
+    }
+  }
 }
 
 .brand__content-section {
@@ -105,6 +122,10 @@
     &:hover {
       color: $blue-20 !important;
     }
+  }
+
+  .nav-item__divider {
+    color: $blue-40;
   }
 
   .navbar-logo {
@@ -183,7 +204,13 @@
 }
 
 .brand-hero__content {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   @include media-breakpoint-up(md) {
+    background-position: bottom right;
+    background-size: initial;
     height: 450px;
   }
 
@@ -226,6 +253,15 @@
     background-color: $sk-blue-light;
   }
 
+  .brand-hero__content {
+    background-image: url("/img/hero-mobile-company.svg");
+
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/identity.svg");
+      background-size: initial;
+    }
+  }
+
   h1 {
     @include kicker;
   }
@@ -234,6 +270,19 @@
 .page--brand-writing {
   .hero-banner {
     background-color: $sk-blue;
+  }
+
+  .brand-hero__content {
+    background-image: url("/img/hero-mobile-work.svg");
+
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/writing.svg");
+      background-size: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: initial;
+    }
   }
 
   h1 {
@@ -254,6 +303,19 @@
     background-color: $green-300;
   }
 
+  .brand-hero__content {
+    background-image: url("/img/hero-mobile-careers.svg");
+
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/illustration.svg");
+      background-size: 55%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: initial;
+    }
+  }
+
   h1 {
     font-size: $font-size-x-large;
   }
@@ -270,6 +332,15 @@
     background-color: $red-200;
   }
 
+  .brand-hero__content {
+    background-image: url("/img/hero-mobile-thoughts.svg");
+
+    @include media-breakpoint-up(md) {
+      background-image: none;
+      // background-image: url("/img/brand/hero/outreach.svg");
+    }
+  }
+
   h1 {
     font-size: $font-size-x-large;
   }
@@ -278,6 +349,15 @@
 .page--brand-resources {
   .hero-banner {
     background-color: $sk-yellow;
+  }
+
+  .brand-hero__content {
+    background-image: url("/img/hero-mobile-connect.svg");
+
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/resources.svg");
+      // background-size: 38.5%;
+    }
   }
 
   .brand-hero__content * {

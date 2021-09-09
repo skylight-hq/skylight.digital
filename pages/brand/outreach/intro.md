@@ -1,9 +1,9 @@
 ---
 layout: toolkit
-title: Intro | Skylight Brand Guidelines
+title: General guidance | Skylight Brand Guidelines
 description:
 tags:
-permalink: /brand/outreach/intro/
+permalink: /brand/outreach/general-guidance/
 sidenav: brand_outreach
 content_type: Toolkit
 toolkit_name: brand
@@ -17,7 +17,7 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-# Intro
+# General guidance
 
 When creating Skylight assets for marketing and communications purposes, we have a few guidelines that we’d like you to follow.
 </div>
