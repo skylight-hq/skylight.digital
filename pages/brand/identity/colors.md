@@ -28,9 +28,17 @@ The world is a diverse and wonderful place. We want to reflect that in how we wo
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/colors/primary-palette.jpg" alt="">
-  </figure>
+  <div class="section__container">
+    <figure class="section__img border-0 p-5">
+      <img class="" src="/img/brand/identity/colors/primary-palette.jpg" alt="">
+    </figure>
+    <p>$blue-200</p>
+    <p>#1d5392</p>
+    <button>Copy hex code</button>
+    <p>$blue-100</p>
+    <p>#1d5392</p>
+    <button>Copy hex code</button>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Primary palette
