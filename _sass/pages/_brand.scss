@@ -56,6 +56,10 @@
     margin-bottom: 0;
   }
 
+  .section__container {
+    border: 1px solid $gray-20;
+  }
+
   .col-md-4 {
     @include media-breakpoint-down(sm) {
       margin-top: 1.875rem;
