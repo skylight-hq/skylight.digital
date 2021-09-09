@@ -20,6 +20,11 @@
   category: Engineering
   location: Remote
   order: 20
+- title: Data Engineer
+  url: https://apply.workable.com/skylight/j/C344212DDE/
+  category: Data
+  location: Remote
+  order: 30
 - title: Product Designer
   url: https://skylight.workable.com/jobs/1128366
   category: Research & Design
@@ -34,9 +39,9 @@
   url: https://apply.workable.com/skylight/j/681D1CD9D5/
   category: Research & Design
   location: Remote
-  order: 80
+  order: 60
 - title: VP of Training Services
   url: https://apply.workable.com/skylight/j/FB764D28B5/
   category: Business Strategy & Operations
   location: Remote
-  order: 90
+  order: 70
