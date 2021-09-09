@@ -1,15 +1,4 @@
 <li class="nav-item">
-  <a
-    class="nav-link"
-    href="/brand/"
-    {% if page.url == "/brand/" %}
-      aria-current="page"
-    {% endif %}
-  >
-    <span>Overview</span>
-  </a>
-</li>
-<li class="nav-item">
   <a class="nav-link
     {% if page.url contains "brand/identity" %}
       nav-link--current
@@ -53,7 +42,7 @@
     {% if page.url contains "brand/outreach" %}
       nav-link--current
     {% endif %}"
-    href="/brand/outreach/intro/"
+    href="/brand/outreach/general-guidance/"
     {% if page.url contains "brand/outreach" %}
       aria-current="page"
     {% endif %}
@@ -72,5 +61,16 @@
     {% endif %}
   >
     <span>Resources</span>
+  </a>
+</li>
+<li class="nav-item nav-item__divider" aria-hidden="true">
+  <span class="nav-item">|</span>
+</li>
+<li class="nav-item">
+  <a
+    class="nav-link"
+    href="/"
+  >
+    <span>skylight.digital</span>
   </a>
 </li>

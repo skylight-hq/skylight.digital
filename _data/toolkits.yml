@@ -222,7 +222,7 @@ service_design_framework:
 brand_identity:
   title: Identity
   description: Discover Skylight’s core brand elements <br class="linebreak">and our rules for using them.
-  description_long: Discover Skylight’s core brand elements and our rules for using them. We’ve provided guidance for each element, including Skylight’s logo, icons, color, typography, and imagery. Learn how these elements work together to create Skyilght’s distinctive identity.
+  description_long: Discover Skylight’s core brand elements and our rules for using them. We’ve provided guidance for each element, including Skylight’s logo, icons, color, typography, and imagery. Learn how these elements work together to create Skyilght’s identity.
   toc:
     - title: Logos
       url: /brand/identity/logos/
@@ -252,7 +252,7 @@ brand_writing:
 brand_illustration:
   title: Illustration
   description: Design images and visuals that align <br class="linebreak">with the Skylight brand.
-  description_long: Design images and visuals that align with the Skylight brand. Keep in mind our principles when developing illustrations to effectively highlight the value of working with us. This section also offers rules around our palette, style, and other specific illustration use cases.
+  description_long: Design images and visuals that align with the Skylight brand. Keep in mind our principles when developing illustrations to effectively highlight the value of working with us. This section also offers rules around our palette, style, and other illustration use cases.
   toc:
     - title: Principles
       url: /brand/illustration/principles/
@@ -274,8 +274,8 @@ brand_outreach:
   description: Develop materials using Skylight’s graphic elements <br class="linebreak">and visual identity.
   description_long: Develop materials using Skylight’s graphic elements and visual identity. In this section, we’ve provided examples of the graphic elements we use in layout design and illustration, as well as samples of Skylight’s brand in use, both for digital assets and Skylight swag.
   toc:
-    - title: Intro
-      url: /brand/outreach/intro/
+    - title: General guidance
+      url: /brand/outreach/general-guidance/
     - title: Graphic elements
       url: /brand/outreach/graphic-elements/
     - title: Brand in use
@@ -290,3 +290,7 @@ brand_resources:
   toc:
     - title: Emoji
       url: /brand/resources/emoji/
+    - title: Templates
+      url: /brand/resources/templates/
+    - title: Brand pack
+      url: /brand/resources/brand-pack/

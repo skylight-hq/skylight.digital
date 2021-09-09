@@ -19,7 +19,7 @@ class: brand
 We’ve developed comprehensive guidelines for writing clear and consistent content across teams and channels.
 </div>
 <div class="col-md-9">
-<div class="example" markdown="1">
+<div class="callout--note" markdown="1">
 See our [Skylight Content Guide](/work/toolkits/content-guide/).
 </div>
 </div>

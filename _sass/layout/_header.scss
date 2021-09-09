@@ -6,6 +6,7 @@
 .navbar {
   @extend %navbar-toggleable-sm;
   @extend %py-3;
+  font-family: $font-family-mono;
   font-size: $font-size-small;
 }
 
