@@ -1,7 +1,7 @@
 ---
 layout: default
-title_tag: Redesigning how the Air Force accesses their fitness reports
-title: Transforming software delivery through DevOps
+title_tag: U.S. Air Force
+title: Redesigning how the Air Force accesses their fitness reports
 permalink: /work/experience/air-force-fitness-management-system/
 image: /img/projects/usaf_affms/air-force-fitness-management-system.svg
 image_description: An airmen using the AFFMS app on her mobile device.
