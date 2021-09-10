@@ -51,7 +51,7 @@ This kind of safe space for creative problem solving may not always be readily a
 
 **Chris Cairns: Why is this work important to you?**
 
-**Charlye Tran:** I’ve always wanted my work to help make a positive, lasting impact on people’s lives — whether that meant fitting a prosthetic leg for someone that allowed them to regain their independence or creating an app that helps Airmen safely and efficiently maintain aircrafts. Traditional solutions-oriented problem solving that doesn’t holistically evaluate user challenges has led to a lot of redundancy and waste, while also leaving gaping holes in problems that need to be addressed.
+**Charlye Tran:** I’ve always wanted my work to help make a positive, lasting impact on people’s lives — whether that meant fitting a prosthetic leg for someone that allowed them to regain their independence or creating an app that helps airmen safely and efficiently maintain aircrafts. Traditional solutions-oriented problem solving that doesn’t holistically evaluate user challenges has led to a lot of redundancy and waste, while also leaving gaping holes in problems that need to be addressed.
 
 Although user-centered design has moved us in the right direction by focusing on users’ needs, in the civic tech space we also need to examine other challenges that users face like language barriers, the digital divide, or legacy systems that can’t handle spikes in traffic. All of these challenges can make interacting with the government difficult, and we need to ensure everyone benefits from the services that the government provides.
 
