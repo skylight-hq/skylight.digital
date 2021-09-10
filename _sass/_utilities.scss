@@ -64,7 +64,7 @@
 }
 
 .text-gray-light {
-  color: $brand-gray-light;
+  color: $gray-light;
 }
 
 .container-xxl {
@@ -132,4 +132,8 @@
 
 .grid-container {
   @include grid-container;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
 }

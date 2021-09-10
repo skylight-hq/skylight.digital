@@ -73,9 +73,12 @@ To aid in brand awareness, the logotype and logomark is typically used in our cu
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-8">
-  <figure class="section__img">
-    <img class="" src="/img/brand/identity/logos/light-and-dark.png" alt="">
+<div class="col-md-8 d-flex flex-column">
+  <figure class="section__img w-100">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-logo.svg" alt="Skylight logo">
+  </figure>
+  <figure class="section__img w-100 bg-gray-darker">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-inverse.svg" alt="Skylight logo inverse">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -98,9 +101,12 @@ Always aim to use one of these versions. The colors reinforce the brand identity
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-8">
-  <figure class="section__img">
-    <img class="" src="/img/brand/identity/logos/grayscale.jpg" alt="">
+<div class="col-md-8 d-flex flex-column">
+  <figure class="section__img w-100">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale.svg" alt="Skylight logo">
+  </figure>
+  <figure class="section__img w-100 bg-gray-darker">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale-inverse.svg" alt="Skylight logo inverse">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -121,9 +127,12 @@ If a black and white version of the logo is required, use the standard grayscale
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-8">
-  <figure class="section__img">
-    <img class="" src="/img/brand/identity/logos/one-color.jpg" alt="">
+<div class="col-md-8 d-flex flex-column">
+  <figure class="section__img w-100">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-one-color.svg" alt="Skylight logo">
+  </figure>
+  <figure class="section__img w-100 bg-gray-darker">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-one-color-inverse.svg" alt="Skylight logo inverse">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -145,9 +154,24 @@ This version of the logo is for instances in which only one color is allowed. Th
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img">
-    <img class="" src="/img/brand/identity/logos/variations.png" alt="">
-  </figure>
+  <div class="section__img d-flex flex-column">
+    <div class="d-flex align-items-center justify-content-center">
+      <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom.svg" alt="Skylight logo">
+      </figure>
+      <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom-inverse.svg" alt="Skylight logo inverse">
+      </figure>
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top-inverse.svg" alt="Skylight logo inverse">
+      </figure>
+      <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top.svg" alt="Skylight logo">
+      </figure>
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Variations
@@ -194,10 +218,18 @@ A clearspace of 2x is recommended around the logo.
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img justify-content-around py-5">
-    <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes--web.png" alt="">
-    <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes--print.png" alt="">
-  </figure>
+  <div class="section__img justify-content-around py-5">
+    <div class="text-center">
+      <p><b>Web</b></p>
+      <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="">
+      <p class="text-brand-info mt-2">100 px</p>
+    </div>
+    <div class="text-center">
+      <p><b>Print</b></p>
+      <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="">
+      <p class="text-brand-info mt-2">1.375 IN</p>
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Minimum sizes

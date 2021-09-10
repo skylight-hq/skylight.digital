@@ -46,6 +46,14 @@
 
   .caption {
     margin-bottom: 0;
+    margin-top: 0;
+
+    p {
+      font-size: $font-size-xs;
+    }
+  }
+
+  img + .caption {
     margin-top: 0.25rem;
   }
 }
@@ -377,4 +385,15 @@
 
 .img--min-size {
   width: 100px;
+}
+
+.text-brand-info {
+  @include kicker;
+  color: $pink;
+  font-weight: normal;
+}
+
+.brand--logo-variant {
+  padding-block: 4rem;
+  width: 60px;
 }
