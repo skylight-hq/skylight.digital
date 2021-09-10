@@ -62,7 +62,7 @@ This framework offers information, resources, and tools for a range of roles and
 
 ![](/img/toolkits/service_design/people-aligning.svg){: .mt-5}
 
-Moving from assumption to alignment. (Derived from [Jeff Patton](https://www.jpattonassociates.com/glad-we-all-agree-2/), [CC BY-NC-SA 1.0](https://creativecommons.org/licenses/by-nc-sa/1.0/))
+Moving from assumption to alignment. (Derived from [Jeff Patton](https://www.jpattonassociates.com/glad-we-all-agree-2/))
 {: .caption .mb-5 }
 
 If you’re using the Skylight Service Design Framework to embark on your own service design project, these tips will help guide you throughout the process:
