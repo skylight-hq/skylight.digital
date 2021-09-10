@@ -33,7 +33,7 @@ To best represent ourselves, it’s important for our icon to be accurately and 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/icons/avatars.jpg" alt="">
+    <img class="" src="/img/brand/identity/icons/avatars.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">

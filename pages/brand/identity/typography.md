@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/typography/typefaces.jpg" alt="">
+    <img class="" src="/img/brand/identity/typography/typefaces.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -28,7 +28,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/typography/usage.jpg" alt="">
+    <img class="" src="/img/brand/identity/typography/usage.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
