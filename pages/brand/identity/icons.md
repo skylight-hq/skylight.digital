@@ -48,21 +48,21 @@ Be sure to highlight Skylight’s presence on social accounts through our avatar
   <div class="section__img d-flex flex-column">
     <div class="d-flex justify-content-evenly">
       <figure class="brand--logo-variant d-flex flex-column mb-0">
-        <figcaption class="font-mono font-sm text-gray-light">Standard</figcaption>
+        <figcaption class="caption">Standard</figcaption>
         <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo.svg" alt="Skylight logo inverse">
       </figure>
       <figure class="brand--logo-variant d-flex flex-column mb-0">
-        <figcaption class="font-mono font-sm text-gray-light">Grayscale</figcaption>
+        <figcaption class="caption">Grayscale</figcaption>
         <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-grayscale.svg" alt="Skylight logo">
       </figure>
     </div>
     <div class="d-flex bg-gray-darker justify-content-evenly">
       <figure class="brand--logo-variant d-flex flex-column mb-0">
-        <figcaption class="font-mono font-sm text-white">Inverse <br>color</figcaption>
+        <figcaption class="caption text-white">Inverse <br>color</figcaption>
         <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-inverse.svg" alt="Skylight logo inverse">
       </figure>
       <figure class="brand--logo-variant d-flex flex-column mb-0">
-        <figcaption class="font-mono font-sm text-white">Inverse <br>grayscale</figcaption>
+        <figcaption class="caption text-white">Inverse <br>grayscale</figcaption>
         <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-grayscale-inverse.svg" alt="Skylight logo">
       </figure>
     </div>

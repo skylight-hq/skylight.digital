@@ -50,6 +50,10 @@
 
     p {
       font-size: $font-size-xs;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
