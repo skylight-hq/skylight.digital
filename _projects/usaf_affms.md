@@ -45,11 +45,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Air Force Fitness Management System II (AFFMS II) is a tool used by every uniformed airman that generates fitness reports necessary for a variety of critical functions. Skylight, in close collaboration with BESPIN, redesigned one of the most frustrating and most used AFFMS II pages to make it easier for airmen to access fitness reports.
+The Air Force Fitness Management System II (AFFMS II) is a tool used by every uniformed airman that generates fitness reports necessary for a variety of critical functions. Skylight, in close collaboration with BESPIN (Business Enterprise Systems Product INnovation), redesigned one of the most frustrating and most used AFFMS II pages to make it easier for airmen to access fitness reports.
 {% endcapture %}
 
 {% capture challenge %}
-The Air Force Fitness Management System II (AFFMS II), used by every uniformed airman, records fitness assessment results to ensure that  airmen are fit for duty. At any moment, airmen need to be able to perform physically-demanding activities, from hasty vehicle recoveries to casualty evacuations. AFFMS II generates reports that airmen can view and download to include as supporting documentation for requests, award packages, etc. Most of the 500,000+ airmen need to access this site 3–5 times a year.
+AFFMS II, used by every uniformed airman, records fitness assessment results to ensure that  airmen are fit for duty. At any moment, airmen need to be able to perform physically-demanding activities, from hasty vehicle recoveries to casualty evacuations. AFFMS II generates reports that airmen can view and download to include as supporting documentation for requests, award packages, etc. Most of the 500,000+ airmen need to access this site 3–5 times a year.
 
 As the Air Force Manual 36-2905 states:
 
@@ -66,7 +66,7 @@ However, usability of the site left much to be desired. To get a simple report d
 {% capture solution %}
 The effort to improve the user experience of AFFMS II began after  complaints and frustrations from airmen caught the attention of the Chief Master Sergeant of the Air Force (the highest enlisted level of leadership in the Air Force).
 
-The U.S Air Force engaged Skylight to assist with improving the user experience of AFFMS II — a natural fit given our ongoing experience working with and establishing a Design Studio for BESPIN (Business Enterprise Systems Product INnovation).
+The U.S Air Force engaged Skylight to assist with improving the user experience of AFFMS II — a natural fit given our ongoing experience working with and establishing a Design Studio for BESPIN.
 
 Even though the airmen on our team were regular users of AFFMS II, we wanted to take into account a diversity of user experiences. We conducted preliminary interviews with a variety of personnel at BESPIN, ensuring we covered a spectrum of ranks (officers and enlisted) and job functions. We also conducted desk research by looking at posts and comments on social media platforms like Reddit.
 
