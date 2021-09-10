@@ -11,7 +11,7 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-8">
+<div class="col-md-8 d-flex">
   <figure class="section__img">
     <img class="p-5 w-75" src="/img/brand/resources/emoji.svg" alt="Heart and Skylight logo emojis">
   </figure>
@@ -20,5 +20,15 @@ class: brand
 # Emoji
 
 This is a list of emoji that we've compiled thus far for use in electronic messages (such as Slack) and web pages.
+
+{% include download_link.html
+  text="Skylight Heart"
+  url="/img/brand/identity/assets/icon/avatar/svg/halo.svg"
+%}
+
+{% include download_link.html
+  text="Skylight Halo"
+  url="/img/brand/identity/assets/icon/avatar/svg/halo.svg"
+%}
 </div>
 </div>
