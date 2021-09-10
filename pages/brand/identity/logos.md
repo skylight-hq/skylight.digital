@@ -204,7 +204,7 @@ This variation of the logo can be used in instances, such as templates, where th
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="w-75" src="/img/brand/identity/logos/spacing.png" alt="">
+    <img class="w-75" src="/img/brand/identity/logos/spacing.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -218,7 +218,7 @@ A clearspace of 2x is recommended around the logo.
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <div class="section__img justify-content-around py-5">
+  <div class="section__img justify-content-evenly py-5">
     <div class="text-center">
       <p><b>Web</b></p>
       <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="">
@@ -243,7 +243,7 @@ Never scale the logo smaller than the sizes specified.
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logos/general-positioning.png" alt="">
+    <img class="" src="/img/brand/identity/logos/general-positioning.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -260,7 +260,7 @@ In some instances, the center or the upper or lower right-hand corners might mak
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logos/rotation.png" alt="">
+    <img class="" src="/img/brand/identity/logos/rotation.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -275,7 +275,7 @@ On special occasions, the logo can be turned on a 90° angle. This is useful for
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logos/things-to-avoid.png" alt="">
+    <img class="" src="/img/brand/identity/logos/things-to-avoid.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
