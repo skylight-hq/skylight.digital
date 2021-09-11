@@ -1,5 +1,13 @@
 <header class="header" role="banner">
-  <nav class="navbar">
+  <nav
+    class="
+    navbar
+    {% if page.toolkit_name == "brand" %}
+      navbar-toggleable-lg
+    {% else %}
+      navbar-toggleable-sm
+    {% endif %}
+  ">
     <div class="navbar-flex-container">
       {% if page.title == "Home" %}
         <h1><a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a></h1>

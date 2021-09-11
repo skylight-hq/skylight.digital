@@ -9,7 +9,7 @@
   color: $gray-40;
   margin-inline: 0.25rem;
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(lg) {
     display: none;
   }
 }
@@ -24,6 +24,26 @@
 
   .nav-link {
     background-image: none !important;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .navbar-nav {
+      padding-block: 1.5rem;
+    }
+
+    .navbar .nav-item:not(:first-child) .nav-link {
+      border-top-color: $gray-300;
+    }
+
+    .nav-link {
+      border-radius: 0;
+      padding-inline: 1rem;
+
+      span {
+        line-height: 1;
+        padding-inline: 0;
+      }
+    }
   }
 
   .grid-container,
@@ -148,8 +168,8 @@
     background: white;
   }
 
-  .navbar .nav-item:not(:first-child) .nav-link, .navbar .subnav-col li:not(:first-child) .nav-link, .subnav-col .navbar li:not(:first-child) .nav-link {
-    @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(lg) {
+    .navbar .nav-item:not(:first-child) .nav-link {
       border-top-color: $blue-60;
     }
   }
