@@ -72,5 +72,3 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
 Use skin and hair colors as needed to reflect the diversity in the world around us. These colors serve as a base to get started — they can get adjusted slightly to ensure contrast with the other colors in the illustration.
 </div>
 </div>
-
-

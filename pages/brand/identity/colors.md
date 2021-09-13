@@ -95,6 +95,7 @@ The Skylight brand mainly uses blue, gray, and light yellow. The blue is the acc
           <div class="swatch bg-red-100"></div>
           <p>red-100</p>
           <p>#df635c</p>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-yellow"></div>
