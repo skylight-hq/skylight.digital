@@ -27,12 +27,32 @@
   background-color: $red-200;
 }
 
+.bg-red-100 {
+  background-color: $red-100;
+}
+
 .bg-green {
   background-color: $green-300;
 }
 
+.bg-green-100 {
+  background-color: $green-100;
+}
+
+.bg-blue-20 {
+  background-color: $blue-20;
+}
+
 .bg-blue {
   background-color: $sk-blue;
+}
+
+.bg-blue-light {
+  background-color: $sk-blue-light;
+}
+
+.bg-ink {
+  background-color: $gray-300;
 }
 
 .bg-gray-darker {
@@ -51,8 +71,24 @@
   background-color: $gray-1;
 }
 
+.bg-gray-20 {
+  background-color: $gray-20;
+}
+
+.bg-gray-40 {
+  background-color: $gray-40;
+}
+
+.bg-gray-80 {
+  background-color: $gray-80;
+}
+
 .bg-ochre-lightest {
   background-color: $ochre-20;
+}
+
+.bg-ochre-40 {
+  background-color: $ochre-40;
 }
 
 .text-ink {
