@@ -9,7 +9,7 @@ image: /img/projects/va_mobile_product_strategy/va-flagship-mobile-app.svg
 image_description: A veteran using a VA flagship mobile app.
 feature_image:
 feature_image_description:
-order: 70
+order: 2100
 display: true
 tags: [microconsulting, apis, veterans, healthcare, sean johnson, chris cairns]
 excerpt: A product strategy for improving the mobile user experience of VA.gov.

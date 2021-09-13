@@ -8,7 +8,7 @@ image_description: Several people standing around a large webpage and performing
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 65
+order: 2200
 display: true
 tags: [microconsulting, research & design, nick bristow]
 excerpt: Applying a globally-accepted accessibility framework to make United Nations' conference web content accessible to persons with disabilities.

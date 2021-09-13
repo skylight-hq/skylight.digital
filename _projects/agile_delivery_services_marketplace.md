@@ -9,7 +9,7 @@ image: /img/projects/agile_delivery_services_marketplace/agile-delivery-services
 image_description: A person selecting a digitized-looking package for purchase from a store shelf.
 feature_image:
 feature_image_description:
-order: 120
+order: 1500
 display: true
 tags: [procurement, chris cairns, robert read]
 excerpt: A group of pre-vetted vendors who helped government agencies use agile practices to build digital services.

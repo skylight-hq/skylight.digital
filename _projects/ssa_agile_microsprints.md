@@ -9,7 +9,7 @@ image: /img/projects/ssa_agile_microsprints/agile-board.svg
 image_description: Two people interacting with cards on an agile board.
 feature_image:
 feature_image_description:
-order: 180
+order: 700
 display: true
 tags: [training, microconsulting, coaching & training, social safety net, robert read, chris cairns]
 excerpt: Contributing to the turnaround of a troubled system modernization program at the Social Security Administration through agile micro-sprints.
