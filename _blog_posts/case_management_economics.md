@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/case_management/paper-case-files-pile.svg
 image_description: Case worker overstressed by huge a pile of paper case files to work through.
 image_display: true
-order: 100
 tags: [engineering, modernization, procurement, robert read, chris cairns]
 excerpt: Case management systems are commonplace and largely overlap. Agencies and vendors should consider innovative models for cooperating with one another in order to reduce duplicative efforts.
 authors:

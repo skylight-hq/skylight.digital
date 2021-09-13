@@ -9,7 +9,7 @@ image: /img/projects/digital_acquisition_accelerator/digital-acquisition-acceler
 image_description: People engaging in conversation about digital acquisition subjects.
 feature_image:
 feature_image_description:
-order: 220
+order: 300
 display: true
 tags: [procurement, training, coaching & training, chris cairns, shashank khandelwal]
 excerpt: A pilot training program designed to accelerate the development of digital acquisition experts across government.
@@ -60,7 +60,7 @@ led a "train-the-trainer" program designed to help agencies establish their own
 multidisciplinary team of digital acquisition experts.
 
 The program brought together expert trainers and coaches
-from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service, representing 
+from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service, representing
 the first-ever such cross-organizational collaboration. These trainers worked with agencies
 to assemble their teams and build up their expertise through a variety of development
 techniques, including classroom training, hands-on learning (involving

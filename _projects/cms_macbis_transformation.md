@@ -7,7 +7,7 @@ image: /img/projects/cms_macbis_transformation/macbis.svg
 image_description: A man being pushed in a wheelchair and an older lady with a young boy.
 feature_image:
 feature_image_description:
-order: 21
+order: 3600
 display: true
 tags: [transformation, data & analytics, coaching & training, healthcare, social safety net chris cairns, brandon mader, mical nobel, brandon kirby, ashley treni]
 excerpt: Helping CMCS unlock the value of its Medicaid and CHIP datasets through the adoption of modern digital and data practices.

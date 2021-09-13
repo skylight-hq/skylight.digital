@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/darpa_proposal_story/dense-sense.svg
 image_description: A police officer looking at a screen that's displaying where a gunshot has been detected by IoT sensors.
 image_display: true
-order: 1100
 tags: [internet of things, robert read]
 excerpt: A brief story of our experience submitting a proposal to DARPA to conduct research on the latest Low Power Wide Area Network technology.
 authors:

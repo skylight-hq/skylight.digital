@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/microconsulting_unsolicited_proposal/microconsulting-services-marketplace.svg
 image_description: A woman shopping at a marketplace for microconsulting services.
 image_display: true
-order: 800
 tags: [microconsulting, procurement, robert read, chris cairns]
 excerpt: A preannouncement for an unsolicited proposal to construct a microconsulting services marketplace platform, which we plan to pitch to the entire federal government.
 authors:

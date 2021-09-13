@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/puerto_rico_disaster_lab/hurricane-maria.svg
 image_description: Hurricane Maria engulfing Puerto Rico.
 image_display: true
-order: 2300
 tags: [people and culture, internet of things, robert read]
 excerpt: Puerto Rico is a natural testing-ground for disaster resilience technologies due to its unique characteristics. Here we present three research project ideas in the Internet of Things space.
 authors:

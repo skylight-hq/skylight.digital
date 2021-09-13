@@ -6,7 +6,6 @@ content_type: BlogPosting
 image: /img/blog/maya_benari_interview/maya-benari.svg
 image_description: Portrait of Maya Benari.
 image_display: true
-order: 2700
 tags: [people and culture, design, product, accessibility, maya benari]
 excerpt: "Maya Benari's career path has taken her from UX designer with Code for America and 18F before joining Skylight. Here, she's been working with our government clients to make effective use of design systems."
 authors:

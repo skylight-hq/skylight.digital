@@ -9,7 +9,7 @@ image: /img/projects/adopta_agency/api-launcher.svg
 image_description: A person using a catapult to launch a boulder inscribed with the acronym API.
 feature_image:
 feature_image_description:
-order: 230
+order: 200
 display: true
 tags: [service delivery, apis, open government, kin lane]
 excerpt: A civic movement designed to encourage people to "adopt" government's open datasets, and improve the way these datasets are shared with the public.

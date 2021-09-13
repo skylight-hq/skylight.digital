@@ -9,7 +9,6 @@ content_type: BlogPosting
 image: /img/blog/dora/devops.svg
 image_description: Four people standing or sitting on a huge computer with DevOps symbols placed on it.
 image_display: true
-order: 2200
 tags: [devops, transformation, josh dorothy, chris cairns]
 excerpt: Transforming your software delivery performance through DevOps requires using a metrics-driven, continuous improvement cycle. Here's how you can do that smartly with Skylight and DORA.
 authors:

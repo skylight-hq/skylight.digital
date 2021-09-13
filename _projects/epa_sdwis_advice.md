@@ -8,7 +8,7 @@ image_description: People standing around a really large glass and inspecting it
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 165
+order: 1000
 display: true
 tags: [microconsulting, software delivery, devops, legacy modernization, procurement, environment, josh dorothy, chris given]
 excerpt: Advising the Environmental Protection Agency on how to proceed with an ailing system modernization effort.
@@ -53,7 +53,7 @@ system. Among the concerns they faced, there were several complicating factors:
 - Lack of transactional records for much of the data, making it difficult to
 audit or track changes to the data pipeline
 - New and completely unfamiliar data schema for SDWIS Prime, which made
-importing and exporting the data difficult 
+importing and exporting the data difficult
 - Transformations would have to be routinely performed to ingest data and undone
 again every time the system exported information to a state due to the
 custom application of the output format

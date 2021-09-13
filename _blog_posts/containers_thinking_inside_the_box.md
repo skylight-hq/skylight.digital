@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/containers_thinking_inside_the_box/containers.svg
 image_description: A huge stack of cargo containers with a person sitting inside one of them and working on a computer.
 image_display: true
-order: 1800
 tags: [devops, josh dorothy]
 excerpt: Containers enable software portability across a wide range of computing environments. Here's what you need to know about their budgetary, technical, and organizational value.
 authors:

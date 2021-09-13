@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/devops_transformation_proposal/devops-contract.svg
 image_description: "A person holding a pen over a piece of paper entitled &quot;Contract&quot; with a closed-loop DevOps symbol on it."
 image_display: true
-order: 1400
 tags: [devops, transformation, chris cairns]
 excerpt: Summary of a winning proposal that we put together to deliver DevOps transformation services to a large commercial enterprise.
 authors:
