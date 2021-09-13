@@ -29,9 +29,12 @@ Creating new artwork? You should check the [Illustration Guidelines](/brand/illu
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="">
-  </figure>
+  <div class="section__container p-5">
+    <figure class="mb-0">
+      <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="">
+      <img class="mt-5" src="/img/brand/identity/imagery/photography.jpg" alt="">
+    </figure>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Photography
@@ -44,10 +47,11 @@ Facial expressions, clothing, hair/makeup should look natural (not over-the-top 
 
 Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
 
-- Figure out: “What am I trying to say with this photo?” This will help you capture everything you need to express the story, including objects, people, and background.
-- People are drawn to people. Focus your image on people in action, facial expressions, and body language, not backs and backs of heads
-- Consider the composition of your image. Test a couple of angles to see what makes the story most clear and compelling.
-- Take a moment to remove any distractions from the scene — objects like purses, coffee cups, and wrappers. If it doesn’t help tell the story, move it out of the way.
+- Figure out: “What am I trying to say with this photo?”
+- Capture all relevant objects, people, and background
+- Focus your image on people in action, facial expressions, and body language
+- Consider the composition of your image
+- Take a moment to remove any distractions from the scene
 
 </div>
 </div>

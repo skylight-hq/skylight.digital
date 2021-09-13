@@ -93,11 +93,11 @@ Our writing is short and clear. We use words that everyone understands. It's how
 <div class="example" markdown="1">
 ### One-sentence description
 
-Skylight’s based out of sunny Sarasota, Florida, though we’re a distributed and remote-friendly team spread across 20+ different states.
+Skylight’s based out of sunny Sarasota, Florida, though we’re a distributed and remote-friendly team spread across {{ site. state_count }} different states.
 
 ### Longer description
 
-Skylight is a digital consultancy using design and technology to help agencies deliver better public services. Our talented team consists of former Presidential Innovation Fellows, founders of 18F, and members of the U.S. Digital Service. Our areas of expertise include human-centered design, lean-agile engineering, DevSecOps, cloud computing, open-source software, APIs, legacy modernization, data management, digital transformation, digital procurement, and training. We team with a number of different clients, including the U.S. Air Force, Centers for Medicare & Medicaid Services, U.S. Department of Veterans Affairs, Connecticut Office of Early Childhood, and many others. Skylight’s sunnily based out of Sarasota, Florida, though we’re a distributed and remote-friendly team spread across 20+ different states.
+Skylight is a digital consultancy using design and technology to help agencies deliver better public services. Our talented team consists of former Presidential Innovation Fellows, founders of 18F, and members of the U.S. Digital Service. Our areas of expertise include human-centered design, lean-agile engineering, DevSecOps, cloud computing, open-source software, APIs, legacy modernization, data management, digital transformation, digital procurement, and training. We team with a number of different clients, including the U.S. Air Force, Centers for Medicare & Medicaid Services, U.S. Department of Veterans Affairs, Connecticut Office of Early Childhood, and many others. Skylight’s sunnily based out of Sarasota, Florida, though we’re a distributed and remote-friendly team spread across {{ site. state_count }} different states.
 </div>
 </div>
 </div>
