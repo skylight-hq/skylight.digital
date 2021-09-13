@@ -16,11 +16,11 @@ class: brand
 
 ## Content style guidelines
 
-We’ve developed comprehensive guidelines for writing clear and consistent content across teams and channels.
-</div>
-<div class="col-md-9">
-<div class="callout--note" markdown="1">
+We’ve developed comprehensive guidelines for writing clear and consistent content across teams and channels. You’ll find our conventions around style and inclusive language, as well as best practices for web elements, accessibility, translation, and a range of other topics.
+
+We hope that by using this guide, you’ll learn how we talk to clients and partners, express ourselves online, and communicate about our work.
+
 See our [Skylight Content Guide](/work/toolkits/content-guide/).
-</div>
+{: .callout--note }
 </div>
 </div>
