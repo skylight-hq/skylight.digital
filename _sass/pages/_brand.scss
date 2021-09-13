@@ -438,12 +438,12 @@
       margin-top: 0;
     }
   }
+}
 
-  button {
-    cursor: pointer;
-    font-size: $font-size-xx-small;
-    padding: 0;
-  }
+.btn-copy-hex {
+  cursor: pointer;
+  font-size: $font-size-xx-small;
+  padding: 0;
 }
 
 .swatch {

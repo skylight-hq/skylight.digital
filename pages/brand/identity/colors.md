@@ -41,20 +41,19 @@ The world is a diverse and wonderful place. We want to reflect that in how we wo
           <div class="swatch bg-blue"></div>
           <p>blue-200</p>
           <p class='hex-val'>#1d5392</p>
-          <button class="btn btn-link btn-copy-hex" title="Copy hex code" data-toggle="tooltip">
-            <span class="sr-only">Copy hex code</span>
-            <i class="fal fa-copy"></i>
-          </button>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-blue-light"></div>
           <p>blue-100</p>
           <p>#1d5392</p>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-ochre-40"></div>
           <p>ochre-40</p>
           <p>#FBE8BE</p>
+          {% include copy_hex_button.html %}
         </div>
       </div>
       <div class="row no-gutters mt-4">
@@ -62,16 +61,19 @@ The world is a diverse and wonderful place. We want to reflect that in how we wo
           <div class="swatch bg-ink"></div>
           <p>gray-300</p>
           <p>#1c1d20</p>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-gray-darker"></div>
           <p>gray-200</p>
           <p>#37383b</p>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch border"></div>
           <p>white</p>
           <p>#ffffff</p>
+          {% include copy_hex_button.html %}
         </div>
       </div>
     </div>
@@ -98,11 +100,13 @@ The Skylight brand mainly uses blue, gray, and light yellow. The blue is the acc
           <div class="swatch bg-yellow"></div>
           <p>ochre-100</p>
           <p>#f4c55c</p>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-green-100"></div>
           <p>green-100</p>
           <p>#80b690</p>
+          {% include copy_hex_button.html %}
         </div>
       </div>
       <div class="row no-gutters mt-4">
@@ -110,16 +114,19 @@ The Skylight brand mainly uses blue, gray, and light yellow. The blue is the acc
           <div class="swatch bg-gray-80"></div>
           <p>gray-80</p>
           <p>#76767b</p>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-gray-40"></div>
           <p>gray-40</p>
           <p>#bbbbbd</p>
+          {% include copy_hex_button.html %}
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-gray-20"></div>
           <p>gray-20</p>
           <p>#ddddde</p>
+          {% include copy_hex_button.html %}
         </div>
       </div>
     </div>
@@ -148,7 +155,10 @@ We use the gray colors for text, charts, etc.
                 <p>{{ item.token }}</p>
                 <p>{{ item.token }}</p>
               </div>
-              <p class="brand__hex">#{{ item.value }}</p>
+              <p class="brand__hex">
+                #{{ item.value }}
+                {% include copy_hex_button.html %}
+              </p>
             </div>
           {% endfor %}
         </div>
