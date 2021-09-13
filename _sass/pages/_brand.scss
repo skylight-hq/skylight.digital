@@ -423,14 +423,9 @@
 }
 
 .brand-swatch {
-  font-family: $font-family-mono;
-
   p {
-    color: $gray-100;
-    font-size: $font-size-xx-small;
-    line-height: 0;
+    line-height: 1;
     margin-left: 1.5rem;
-    text-transform: uppercase;
 
     &:first-of-type {
       font-weight: bold;
@@ -455,6 +450,42 @@
   height: 137px;
 }
 
+.swatch--vertical {
+  padding: 0.5rem;
+  width: 140px;
+
+  p {
+    line-height: 1.5;
+    margin: 0;
+
+    &:first-child {
+      color: $gray-300;
+    }
+
+    &:last-child {
+      color: white;
+    }
+  }
+}
+
 .swatch-group {
   flex: 1 1 auto;
+}
+
+.swatch__container {
+  color: $gray-100;
+  font-family: $font-family-mono;
+  font-size: $font-size-xx-small;
+  text-transform: uppercase;
+}
+
+.swatch__container--vertical {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.brand__hex {
+  color: $gray-300;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
 }

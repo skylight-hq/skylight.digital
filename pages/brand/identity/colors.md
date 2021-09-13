@@ -29,7 +29,7 @@ The world is a diverse and wonderful place. We want to reflect that in how we wo
 <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="section__container p-5">
-    <div class="brand-swatch">
+    <div class="swatch__container brand-swatch">
       <div class="row no-gutters">
         <div class="col-4 swatch-group">
           <div class="swatch bg-blue"></div>
@@ -78,7 +78,7 @@ The Skylight brand mainly uses blue, gray, and light yellow. The blue is the acc
 <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="section__container p-5">
-    <div class="brand-swatch">
+    <div class="swatch__container brand-swatch">
       <div class="row no-gutters">
         <div class="col-4 swatch-group">
           <div class="swatch bg-red-100"></div>
@@ -130,12 +130,22 @@ We use the gray colors for text, charts, etc.
   <figure class="section__img p-5 p-5">
     <img class="" src="/img/brand/identity/colors/tints.jpg" alt="">
   </figure>
-<div class="">
-  <div class="w-25 bg-blue-20">
-    <p>$blue-20</p>
-    <p>$blue-20</p>
+  <h2>Blue</h2>
+  <div class="swatch__container swatch__container--vertical">
+    <div class="swatch--vertical bg-blue-20">
+      <p>blue-20</p>
+      <p>blue-20</p>
+    </div>
+    <p class="brand__hex">#dae9f1</p>
   </div>
-</div>
+  <div class="swatch__container swatch__container--vertical">
+    <div class="swatch--vertical bg-blue-40">
+      <p>blue-40</p>
+      <p>blue-40</p>
+    </div>
+    <p class="brand__hex">#b5d2e3</p>
+  </div>
+
   $blue-20: #dae9f1;
   $blue-40: #b5d2e3;
   $blue-60: #90bcd6;
@@ -169,7 +179,7 @@ We use the gray colors for text, charts, etc.
   $ochre-200: #e99821;
   $ochre-300: #a66910;
 
-  $gray-1: #f8f8f8;
+  $gray-5: #f8f8f8;
   $gray-20: #ddddde;
   $gray-40: #bbbbbd;
   $gray-60: #989a9c;

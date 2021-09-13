@@ -65,7 +65,7 @@
 .callout,
 .callout--highlight {
   @include callout;
-  background-color: $gray-1;
+  background-color: $gray-5;
   border: 3px solid $brand-primary;
 }
 
@@ -328,7 +328,7 @@ $icon-size: 2rem;
 
 .callout--example,
 .example {
-  background-color: $gray-1;
+  background-color: $gray-5;
   margin-top: 1em;
   margin-bottom: 1rem;
   font-size: 1.125rem;
