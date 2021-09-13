@@ -475,8 +475,11 @@
 .swatch__container {
   color: $gray-100;
   font-family: $font-family-mono;
-  font-size: $font-size-xx-small;
   text-transform: uppercase;
+
+  p {
+    font-size: $font-size-xx-small;
+  }
 }
 
 .swatch__container--vertical {

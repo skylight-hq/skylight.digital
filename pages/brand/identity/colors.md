@@ -133,7 +133,7 @@ We use the gray colors for text, charts, etc.
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <div class="section__container p-5">
+  <div class="section__container swatch__container p-5">
     {% assign color = site.data.color %}
     <div class="row">
       {% for family in page.families %}
