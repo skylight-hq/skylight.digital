@@ -27,7 +27,7 @@ The limited color palette, combined with the offset outlines, creates a sophisti
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <div class="section__container swatch__container p-5">
+  <div class="section__container p-5">
     {% assign color = site.data.color %}
     <div class="row">
       {% for item in color.primary %}
@@ -51,7 +51,7 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <div class="section__container swatch__container p-5">
+  <div class="section__container p-5">
     {% assign color = site.data.color %}
     <div class="row">
       {% for item in color.skin %}
