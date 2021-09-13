@@ -32,7 +32,6 @@ Creating new artwork? You should check the [Illustration Guidelines](/brand/illu
   <div class="section__container p-5">
     <figure class="mb-0">
       <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="">
-      <img class="mt-5" src="/img/brand/identity/imagery/photography.jpg" alt="">
     </figure>
   </div>
 </div>
