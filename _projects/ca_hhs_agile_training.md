@@ -8,7 +8,7 @@ image_description: An instructor showing students, who are sitting around a tabl
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 176
+order: 800
 display: true
 tags: [training, coaching & training, healthcare, robert read, josh dorothy]
 excerpt: An agile-intensive, two-day sprint microcosm to help the California Health and Human Services learn how to put agile principles into practice.

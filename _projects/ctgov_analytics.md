@@ -8,7 +8,7 @@ image_description: People standing around a big computer and looking at a screen
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 50
+order: 2400
 display: true
 tags: [service delivery, data & analytics, open government, cailyn hansen, colin craig, gabriel ramirez]
 excerpt: Giving the State of Connecticut insight into website usage and trends to better serve the needs of their constituents.
@@ -61,7 +61,7 @@ project as a way to coach the State of Connecticut team on software development 
 Knowing that previous consultants had developed solutions that were difficult
 to maintain, we decided it was critical to success for the State of Connecticut team to feel
 confident maintaining the solution. To do that, we worked in tandem with their
-data stakeholder to conduct user research, design the solution, and even commit some code. 
+data stakeholder to conduct user research, design the solution, and even commit some code.
 By customizing open-source code and coaching the team throughout the process, we were able to make the
 best use of taxpayer dollars and enable the State of Connecticut's team to maintain the solution.
 

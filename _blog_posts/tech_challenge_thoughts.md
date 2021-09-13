@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/tech_challenge_thoughts/tech-challenge-laptops-boxing.svg
 image_description: Two laptop computers boxing each other.
 image_display: true
-order: 2100
 tags: [procurement, chris cairns]
 excerpt: The use of technical challenges in government procurements is on the rise. Here are some thoughts on what acquisition professionals can do to make even better use of them.
 authors:

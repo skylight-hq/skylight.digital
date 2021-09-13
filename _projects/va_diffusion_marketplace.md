@@ -9,7 +9,7 @@ image: /img/projects/va_diffusion_marketplace/diffusion-marketplace.svg
 image_description: Doctors, administrators, and veteran patients interacting through digital panes.
 feature_image:
 feature_image_description:
-order: 20
+order: 3700
 display: true
 tags: [service delivery, research & design, software delivery, veterans, healthcare, becca bartola, lesley evans, tom black, aera hoffman, tomi obikunle, elisa lee]
 excerpt: A knowledge management platform for improving how the Veterans Affairs delivers healthcare to veterans through the dissemination of promising clinical and administrative practices.
@@ -104,7 +104,7 @@ searches with exploratory browsing
 
 {% capture results %}
 - Delivered an alpha version of the platform within two months
-- Launched a beta version with a small user base in the summer of 2019 
+- Launched a beta version with a small user base in the summer of 2019
 - Expanded the number of practices to 119 in total
 - Facilitated the adoption of 100 practices through the platform itself
 {% endcapture %}

@@ -8,7 +8,7 @@ image_description: A Space Force guardian navigating a web page.
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 42
+order: 2900
 display: true
 tags: [service delivery, research & design, defense, space force, shashank khandelwal, maya benari, zoe do]
 excerpt: A modern portal enabling the United States Space Force to share critical information with a growing organization of over 15,000 service members.

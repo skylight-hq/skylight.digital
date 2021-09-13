@@ -8,7 +8,7 @@ image_description: A pair of hands moving objects around to make a pattern.
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 35
+order: 3100
 display: true
 tags: [service delivery, research & design, defense, air force, maya benari]
 excerpt: A comprehensive design system enabling one of the U.S. Air Force's largest digital solution centers to ship products to users with greater speed and quality.

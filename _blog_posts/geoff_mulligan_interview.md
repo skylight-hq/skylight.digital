@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/geoff_mulligan_interview/geoff-mulligan.svg
 image_description: Portrait of Geoff Mulligan.
 image_display: true
-order: 1700
 tags: [people and culture, internet of things, geoff mulligan]
 excerpt: "Skylight's Geoff Mulligan is one of the world's leading experts in smart cities and IoT systems. Here, he has been working with our government clients to engineer open and interoperable IoT solutions."
 authors:

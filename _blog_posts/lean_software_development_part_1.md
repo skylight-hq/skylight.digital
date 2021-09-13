@@ -6,7 +6,6 @@ content_type: BlogPosting
 image: /img/blog/lean_software_development/starting-point.svg
 image_description: Two people looking at a huge mobile map application that's showing a "You are here" waypoint.
 image_display: true
-order: 3400
 tags: [engineering, product, sean johnson]
 excerpt: Lean software development is an underutilized alternative to agile in the toolbox of modern software development methodologies. Here we discuss what it is and how it differs from lean startup and lean product development.
 authors:

@@ -9,7 +9,7 @@ image: /img/projects/us_navy_protosketching/protosketching.svg
 image_description: Two people using brushes to draw a wireframe.
 feature_image:
 feature_image_description:
-order: 190
+order: 600
 display: true
 tags: [microconsulting, research & design, product management, defense, navy, robert read, tom black]
 excerpt: Empowering the U.S. Navy to make critical design and technology decisions through a unique form of rapid prototyping.

@@ -8,7 +8,7 @@ image_description: A woman sitting at her desk and using an online learning webs
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 75
+order: 2000
 display: true
 tags: [service delivery, devops, cloud & platforms, apis, economic development, andrew wagner]
 excerpt: A learning platform designed to help female entrepreneurs start and grow their small businesses successfully.

@@ -9,7 +9,7 @@ image: /img/projects/va_api_governance_research/api-governance.svg
 image_description: A forklift operator lifting API-labeled containers.
 feature_image:
 feature_image_description:
-order: 140
+order: 1300
 display: true
 tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns]
 excerpt: Giving the Veterans Affairs insight into current best practices for governing APIs across the enterprise.

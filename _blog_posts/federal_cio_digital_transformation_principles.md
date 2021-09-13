@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/federal_cio_digital_transformation_principles/cio-digital-world.svg
 image_description: A female CIO interacting with floating icons that represent digital transformation themes.
 image_display: true
-order: 900
 tags: [transformation, chris cairns]
 excerpt: The digital revolution presents a unique leadership opportunity for federal CIOs to reinvent themselves and their agencies. Here we present a set of key principles for federal CIOs to consider following in order to seize it.
 authors:

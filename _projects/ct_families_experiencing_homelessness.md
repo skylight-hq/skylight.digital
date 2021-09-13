@@ -8,7 +8,7 @@ image_description: A social worker holding a device and discussing housing optio
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 45
+order: 2500
 display: true
 tags: [research & design, product management, early childhood, social safety net, data & analytics, lara kohl, gabriel ramirez]
 excerpt: Helping the State of Connecticut better leverage data and information to support families with young children experiencing homelessness.
