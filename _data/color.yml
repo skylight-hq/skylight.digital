@@ -75,3 +75,31 @@ gray:
     value: 37383b
   - token: gray-300
     value: 1c1d20
+primary:
+  - token: blue-100
+    value: 468fba
+  - token: green-100
+    value: 80b690
+  - token: red-100
+    value: df635c
+  - token: ochre-100
+    value: f4c55c
+  - token: gray-100
+    value: 54565a
+  - token: gray-20
+    value: ddddde
+skin:
+  - value: EDC3A2
+  - value: EBB18B
+  - value: E29871
+  - value: DE885A
+  - value: F0A871
+  - value: E6A96C
+  - value: D08D53
+  - value: CE8762
+  - value: B9663B
+  - value: AB592F
+  - value: 9C4E30
+  - value: E99821
+  - value: 54565A
+  - value: 5C5247

@@ -450,9 +450,16 @@
   height: 137px;
 }
 
+.swatch--long {
+  height: 40px;
+}
+
 .swatch--vertical {
-  padding: 0.5rem;
   width: 140px;
+}
+
+.swatch--content {
+  padding: 0.5rem;
 
   p {
     line-height: 1.5;
