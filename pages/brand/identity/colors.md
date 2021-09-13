@@ -40,8 +40,8 @@ The world is a diverse and wonderful place. We want to reflect that in how we wo
         <div class="col-4 swatch-group">
           <div class="swatch bg-blue"></div>
           <p>blue-200</p>
-          <p>#1d5392</p>
-          <button class="btn btn-link" title="Copy hex code" data-toggle="tooltip">
+          <p class='hex-val'>#1d5392</p>
+          <button class="btn btn-link btn-copy-hex" title="Copy hex code" data-toggle="tooltip">
             <span class="sr-only">Copy hex code</span>
             <i class="fal fa-copy"></i>
           </button>
@@ -164,3 +164,12 @@ To provide a practical range of values for web/screen applications, we’ve exte
 We also added labels to each swatch so you can check whether there’s sufficient contrast to meet WCAG AA standards.
 </div>
 </div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('button.btn-copy-hex').click(function(){
+      var text = $(this).siblings('.hex-val').text().toUpperCase();
+      navigator.clipboard.writeText(text);
+    })
+  });
+</script>
