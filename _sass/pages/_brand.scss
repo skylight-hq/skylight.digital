@@ -484,6 +484,20 @@
   margin-top: 1rem;
 }
 
+.swatch__col {
+  margin-top: 3rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:nth-child(2) {
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+    }
+  }
+}
+
 .brand__hex {
   color: $gray-300;
   margin-left: 1rem;
