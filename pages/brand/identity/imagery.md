@@ -39,6 +39,16 @@ Creating new artwork? You should check the [Illustration Guidelines](/brand/illu
 When sharing photos, we want to feature real people with real-life stories to tell. Capture a sense of place by showing activities with teammates, customers, and partners.
 
 Facial expressions, clothing, hair/makeup should look natural (not over-the-top stock).
+
+### Goals
+
+Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
+
+- Figure out: “What am I trying to say with this photo?” This will help you capture everything you need to express the story, including objects, people, and background.
+- People are drawn to people. Focus your image on people in action, facial expressions, and body language, not backs and backs of heads
+- Consider the composition of your image. Test a couple of angles to see what makes the story most clear and compelling.
+- Take a moment to remove any distractions from the scene — objects like purses, coffee cups, and wrappers. If it doesn’t help tell the story, move it out of the way.
+
 </div>
 </div>
 
@@ -55,7 +65,7 @@ Wrap this all together in your composition. If an object is the focus of your ph
 If possible, take a moment to remove any distractions from the scene. If it doesn’t help tell the story, move it out of the way. These items can oven be little things our brain automatically de-emphasizes, like purses, coffee cups, and wrappers, but these muddle the story in a photo.
 {% endcapture %}
 
-<div class="row brand__content-section">
+<!-- <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="example mt-0">
   {{ ex--goals | markdownify }}
@@ -66,7 +76,7 @@ If possible, take a moment to remove any distractions from the scene. If it does
 
 Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
 </div>
-</div>
+</div> -->
 
 <div class="row brand__content-section">
 <div class="col-md-8">

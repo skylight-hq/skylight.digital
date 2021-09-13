@@ -116,7 +116,7 @@ fieldset[disabled] a.btn {
   @include button-outline-variant($btn-secondary-border);
 
   &:hover {
-    background-color: $gray-1;
+    background-color: $gray-5;
     color: $brand-primary;
   }
 }
