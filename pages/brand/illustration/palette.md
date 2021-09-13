@@ -27,9 +27,20 @@ The limited color palette, combined with the offset outlines, creates a sophisti
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/illustration/primary-colors.jpg" alt="">
-  </figure>
+  <div class="section__container swatch__container p-5">
+    {% assign color = site.data.color %}
+    <div class="row">
+      {% for item in color.primary %}
+        <div class="swatch__container col-4 px-1">
+          <div class="swatch--content" style="background-color:#{{ item.value }}">
+            <p>{{ item.token }}</p>
+            <p>{{ item.token }}</p>
+          </div>
+          <p class="brand__hex ml-2">#{{ item.value }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Primary colors
@@ -40,9 +51,20 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/illustration/skin-and-hair.jpg" alt="">
-  </figure>
+  <div class="section__container swatch__container p-5">
+    {% assign color = site.data.color %}
+    <div class="row">
+      {% for item in color.skin %}
+        <div class="swatch__container col-4 col-lg-2 px-1">
+          <div class="swatch--long" style="background-color:#{{ item.value }}">
+            <!-- <p>{{ item.token }}</p>
+            <p>{{ item.token }}</p> -->
+          </div>
+          <p class="brand__hex ml-2">#{{ item.value }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Skin and hair

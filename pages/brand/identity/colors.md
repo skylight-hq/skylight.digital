@@ -144,7 +144,7 @@ We use the gray colors for text, charts, etc.
           <h2>{{ family | capitalize }}</h2>
           {% for item in color[family] %}
             <div class="swatch__container swatch__container--vertical">
-              <div class="swatch--vertical bg-{{ item.token }}">
+              <div class="swatch--content swatch--vertical bg-{{ item.token }}">
                 <p>{{ item.token }}</p>
                 <p>{{ item.token }}</p>
               </div>
