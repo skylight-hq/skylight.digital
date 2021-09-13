@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/bug_bounty_solution_announcement/bugs-eating-computer.svg
 image_description: Bugs eating a computer with a crosshair over one of them, conveying the concept of a bug bounty.
 image_display: true
-order: 1500
 tags: [service delivery, security and privacy, chris cairns]
 excerpt: Integrating bug bounties into government's DevSecOps processes can produce far more robust and secure digital services. Here's a look at our new bug bounty solution.
 authors:

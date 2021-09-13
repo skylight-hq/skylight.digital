@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/five_pifs_join/welcome.svg
 image_description: Two employees welcoming a new member of the team to the company.
 image_display: true
-order: 400
 tags: [people and culture, sean johnson]
 excerpt: Announcing the addition of Chris Cairns, Robert Read, John Teeter, Geoff Mulligan, and Kin Lane to the Skylight team.
 authors:

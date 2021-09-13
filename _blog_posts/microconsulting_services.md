@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/microconsulting_services/microconsulting.svg
 image_description: Consultants sitting around a table and collaborating with their client.
 image_display: true
-order: 600
 tags: [microconsulting, chris cairns, robert read]
 excerpt: Not every problem requires a full-blown consulting engagement. Often times, a short burst of work on a specific topic is all that's needed to help propel government managers and teams forward.
 authors:

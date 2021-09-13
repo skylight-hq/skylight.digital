@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/smarter_way_to_build_smart_cities/smart-city.svg
 image_description: Smart city functions such as health and transportation.
 image_display: true
-order: 2500
 tags: [internet of things, geoff mulligan]
 excerpt: Smart cities offer the promise of making people's lives more convenient, secure, and sustainable. Here we offer city leaders smarter ways for realizing that promise.
 authors:

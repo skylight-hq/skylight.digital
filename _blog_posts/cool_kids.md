@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/cool_kids/cool-person.svg
 image_description: A cool-looking person with headphones working on a computer.
 image_display: true
-order: 2400
 tags: [transformation, robert read]
 excerpt: A case for why hiring and growing great people requires government IT professionals to do what the cool kids are doing.
 authors:

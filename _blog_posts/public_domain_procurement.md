@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/public_domain_procurement/creative-commons-public-domain.svg
 image_description: Creative Commons Public Domain badge symbol.
 image_display: true
-order: 700
 tags: [procurement, chris cairns]
 excerpt: Avoiding vendor lock-in situations is just one of many reasons that the government should consider using public domain procurements.
 authors:

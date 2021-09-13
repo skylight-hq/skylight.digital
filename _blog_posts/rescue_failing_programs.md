@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/rescue_failing_programs/rescue.svg
 image_description: A firefighter standing on a large computer that's caught on fire and is using a firehouse to try to put it out.
 image_display: true
-order: 1000
 tags: [delivery management, procurement, robert read]
 excerpt: To rescue a failing program, you must protect the four freedoms of enterprise system development.
 authors:
