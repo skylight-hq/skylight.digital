@@ -7,7 +7,7 @@ image: /img/projects/usaf_affms/air-force-fitness-management-system.svg
 image_description: An airmen using the AFFMS app on her mobile device.
 feature_image:
 feature_image_description:
-order: 21
+order: 3500
 display: true
 tags: [service delivery, research & design, defense, air force, zack gehin, shashank khandewal, maya benari]
 excerpt: A redesigned interface for accessing fitness reports, improving one of the most frustrating user experiences for over half-a-million airmen.

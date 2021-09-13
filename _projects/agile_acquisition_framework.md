@@ -9,7 +9,7 @@ image: /img/projects/agile_acquisition_framework/agile-acquisition-framework.svg
 image_description: A person jumping over a cliff.
 feature_image:
 feature_image_description:
-order: 100
+order: 1600
 display: true
 tags: [procurement, coaching & training, chris cairns, robert read]
 excerpt: A comprehensive framework for helping government program teams align acquisition practices with agile delivery practices.

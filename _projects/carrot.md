@@ -10,7 +10,7 @@ image: /img/projects/carrot/carrot.svg
 image_description: Multiple people together reading a page out of a huge newsletter.
 feature_image:
 feature_image_description:
-order: 60
+order: 2300
 display: true
 tags: [service delivery, research & design, product management, software delivery, apis, sean johnson]
 excerpt: An asynchronous communication solution for remote teams struggling to maintain focus on what matters most.
