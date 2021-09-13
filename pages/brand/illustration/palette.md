@@ -36,7 +36,10 @@ The limited color palette, combined with the offset outlines, creates a sophisti
             <p>{{ item.token }}</p>
             <p>{{ item.token }}</p>
           </div>
-          <p class="brand__hex ml-2">#{{ item.value }}</p>
+          <p class="hex-val brand__hex ml-2">
+            <span class="hex-val">#{{ item.value }}</span>
+            {% include copy_hex_button.html %}
+          </p>
         </div>
       {% endfor %}
     </div>
@@ -60,7 +63,9 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
             <!-- <p>{{ item.token }}</p>
             <p>{{ item.token }}</p> -->
           </div>
-          <p class="brand__hex ml-2">#{{ item.value }}</p>
+          <p class="brand__hex ml-0">
+            <span class="hex-val mr-2">#{{ item.value }}</span>{% include copy_hex_button.html %}
+          </p>
         </div>
       {% endfor %}
     </div>
@@ -72,3 +77,12 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
 Use skin and hair colors as needed to reflect the diversity in the world around us. These colors serve as a base to get started — they can get adjusted slightly to ensure contrast with the other colors in the illustration.
 </div>
 </div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('button.btn-copy-hex').click(function(){
+      var text = $(this).siblings('.hex-val').text().toUpperCase();
+      navigator.clipboard.writeText(text);
+    })
+  });
+</script>
