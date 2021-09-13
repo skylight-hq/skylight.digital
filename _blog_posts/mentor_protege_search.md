@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/mentor_protege_search/mentor-protege.svg
 image_description: A mentor standing at the top of some stairs, encouraging the protégé to ascend up.
 image_display: true
-order: 500
 tags: [chris cairns]
 excerpt: We're actively looking to establish mentor-protégé relationships with companies interested in joint, ongoing pursuit of digital project opportunities.
 authors:

@@ -6,7 +6,6 @@ content_type: BlogPosting
 image: /img/blog/public_servant_learning_techniques/learning-techniques.svg
 image_description: A toolbox filled with tools sitting next to a stack of books.
 image_display: true
-order: 2800
 tags: [training, robert read]
 excerpt: Five learning techniques that public servants can employ to perform their jobs more effectively in today's complex technological environment.
 authors:

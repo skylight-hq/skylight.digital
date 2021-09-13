@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/meet_ten_newest_team_members/team-member-welcome.svg
 image_description: People welcoming a new team member at the office.
 image_display: true
-order: 2600
 tags: [people and culture, chris cairns]
 excerpt: Introducing the 10 newest members of the Skylight team, who are working together to make government services better for everyone.
 authors:

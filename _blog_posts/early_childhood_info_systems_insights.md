@@ -6,7 +6,6 @@ content_type: BlogPosting
 image: /img/blog/early_childhood_info_systems_insights/families-with-young-children-map.svg
 image_description: A diverse number of families with young children spread across a map of the U.S.
 image_display: true
-order: 3100
 tags: [service delivery, modernization, data, victoria suwardiman, ashley treni]
 excerpt: Skylight's effort to create a nation-wide handbook of best practices for early care and education information systems, inspired by our work with the Connecticut Office of Early Childhood.
 authors:

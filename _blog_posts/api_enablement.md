@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/api_enablement/api-enablement.svg
 image_description: A woman looking at an email print-out stuck on the inside of a metro train car.
 image_display: true
-order: 1300
 tags: [apis, modernization, robert read, kin lane]
 excerpt: A lighthearted, mock email between two government program managers discussing the immediate benefits of API enablement as a precursor to modernizing a legacy system.
 authors:

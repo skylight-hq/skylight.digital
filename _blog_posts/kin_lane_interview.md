@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/kin_lane_interview/kin-lane.svg
 image_description: Portrait of Kin Lane.
 image_display: true
-order: 1200
 tags: [people and culture, apis, kin lane]
 excerpt: "Kin Lane's career path has taken him from software engineer to one of the world's foremost API experts before joining Skylight. Here, he has been working with our government clients to improve their use of APIs. His advice for people thinking about joining us: Do it."
 authors:

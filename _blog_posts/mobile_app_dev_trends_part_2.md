@@ -6,7 +6,6 @@ content_type: BlogPosting
 image: /img/blog/mobile_app_dev_trends/mobile-app-dev-trends-2.svg
 image_description: Three people standing around a huge mobile device and pointing at a chart on the screen.
 image_display: true
-order: 3000
 tags: [mobile, product, engineering, apis, sean johnson]
 excerpt: The landscape of mobile app development has evolved greatly over the past decade. Here we discuss how to make sense of the trends discussed in Part 1 of our two-part blog post series.
 authors:

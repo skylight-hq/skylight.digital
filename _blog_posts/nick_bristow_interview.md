@@ -8,7 +8,6 @@ content_type: BlogPosting
 image: /img/blog/nick_bristow_interview/nick-bristow.svg
 image_description: Portrait of Nick Bristow.
 image_display: true
-order: 1900
 tags: [people and culture, accessibility, nick bristow]
 excerpt: "Skylight's Nick Bristow is one of the world's leading experts in technology accessibility. Here, he has been working with our government clients to deliver digital services that are accessible and meet the needs of all users."
 authors:
