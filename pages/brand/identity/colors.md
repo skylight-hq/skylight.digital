@@ -41,7 +41,10 @@ The world is a diverse and wonderful place. We want to reflect that in how we wo
           <div class="swatch bg-blue"></div>
           <p>blue-200</p>
           <p>#1d5392</p>
-          <button class="btn btn-link" title="Copy hex code"><span class="sr-only">Copy hex code</span><i class="fal fa-copy"></i></button>
+          <button class="btn btn-link" title="Copy hex code">
+            <span class="sr-only">Copy hex code</span>
+            <i class="fal fa-copy"></i>
+          </button>
         </div>
         <div class="col-4 swatch-group">
           <div class="swatch bg-blue-light"></div>
