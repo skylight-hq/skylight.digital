@@ -26,25 +26,21 @@ The limited color palette, combined with the offset outlines, creates a sophisti
 </div>
 
 <div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
-    {% assign color = site.data.color %}
-    <div class="row">
-      {% for item in color.primary %}
-        <div class="swatch__container col-4 px-1">
-          <div class="swatch--content" style="background-color:#{{ item.value }}">
+  <div class="col-md-8">
+    <div class="section__container p-5">
+      <div class="swatch__container brand-swatch row">
+      {% assign color = site.data.color %}
+        {% for item in color.primary_illustration %}
+          <div class="swatch-group col-6 col-md-4">
+            <div class="swatch bg-{{ item.token }}"></div>
             <p>{{ item.token }}</p>
-            <p>{{ item.token }}</p>
-          </div>
-          <p class="hex-val brand__hex ml-2">
-            <span class="hex-val">#{{ item.value }}</span>
+            <p class='hex-val'>#{{ item.value }}</p>
             {% include copy_hex_button.html %}
-          </p>
-        </div>
-      {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
 <div class="col-md-4" markdown="1">
 ## Primary colors
 

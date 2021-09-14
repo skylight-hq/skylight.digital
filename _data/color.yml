@@ -76,6 +76,32 @@ gray:
   - token: gray-300
     value: 1c1d20
 primary:
+  - token: blue-200
+    value: 1d5392
+  - token: blue-100
+    value: 468fba
+  - token: ochre-40
+    value: fbe8be
+  - token: gray-300
+    value: 1c1d20
+  - token: gray-200
+    value: 37383b
+  - token: gray-100
+    value: 54565a
+secondary:
+  - token: red-100
+    value: df635c
+  - token: ochre-100
+    value: f4c55c
+  - token: green-100
+    value: 80b690
+  - token: gray-80
+    value: 76767b
+  - token: gray-40
+    value: bbbbbd
+  - token: gray-20
+    value: ddddde
+primary_illustration:
   - token: blue-100
     value: 468fba
   - token: green-100

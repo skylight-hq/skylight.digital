@@ -418,6 +418,7 @@
 .brand-swatch {
   p {
     line-height: 1;
+    margin-bottom: 2.5rem;
     margin-left: 1.5rem;
 
     &:first-of-type {
@@ -470,6 +471,13 @@
 
 .swatch-group {
   flex: 1 1 auto;
+  padding-inline: 0.5rem;
+
+  &:nth-last-child(-n+3) {
+    .hex-val {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .swatch__container {
