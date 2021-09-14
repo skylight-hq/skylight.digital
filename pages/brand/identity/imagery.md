@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Imagery | Skylight Brand Guidelines
-description:
+title: Imagery
+description: Capturing Skylight’s work through imagery is essential to telling a compelling story about our impact on public services. We offer guidance around what makes our visual style distinctive and provide tips on what makes an effective visual.
 tags:
 permalink: /brand/identity/imagery/
 sidenav: brand_identity
@@ -17,8 +17,6 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-# Imagery
-
 ## Illustration
 
 We use illustration as our primary visual style. It makes us feel different and vibrant, and helps us tell better stories through art. Illustrations are a key part of Skylight’s brand.
@@ -51,7 +49,6 @@ Every image should tell a story. There are a few tricks we can use to make sure 
 - Focus your image on people in action, facial expressions, and body language
 - Consider the composition of your image
 - Take a moment to remove any distractions from the scene
-
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Voice | Skylight Brand Guidelines
-description:
+title: Voice
+description: Skylight’s voice is our personality distilled into writing. It’s crucial for our audience to recognize us even if we don’t announce ourselves. Our voice is also defined by our values and should embody the kind of work we want to put out into the world.
 tags:
 permalink: /brand/writing/voice/
 sidenav: brand_writing
@@ -12,8 +12,6 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-9" markdown="1">
-# Voice
-
 ## Voice qualities
 
 Our voice has five key qualities that are felt in both what we say and how we say it. Working together, these qualities make everything we write sound uniquely Skylight.
