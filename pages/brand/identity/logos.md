@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Logos | Skylight Brand Guidelines
-description:
+title: Logos
+description: Our logo is often the first introduction someone has to Skylight. It’s a powerful tool for representing ourselves to potential clients, partners, and prospective employees. We’ve provided some important rules for using our logo.
 tags:
 permalink: /brand/identity/logos/
 sidenav: brand_identity
@@ -17,11 +17,9 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-# Logos
+## Standard logo
 
-## Intro
-
-Our logo is often the first introduction someone has to Skylight. It’s a powerful tool for representing ourselves to potential clients, partners, and prospective employees. In the following section, we lay out important rules for using our logo.
+Our logo consists of two elements: the logotype and the “halo” — or logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon. To aid in brand awareness, the logotype and logomark is typically used in our customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
 
 {% include download_link.html
   text="logo"
@@ -30,7 +28,17 @@ Our logo is often the first introduction someone has to Skylight. It’s a power
 </div>
 </div>
 
-{% capture logotype_alt %}
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <div class="section__container p-5">
+    <figure class="section__img border-0">
+      <img class="" src="/img/brand/identity/logos/logotype.svg" alt="">
+    </figure>
+  </div>
+</div>
+<div class="col-md-4" markdown="1">
+## Logo rationale
+
 The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
 
 The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
@@ -40,35 +48,6 @@ The logotype uses a wide kerning to make our brand feel open and accessible.
 The four colors in our logo convey the diversity and inclusiveness of our team. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
 
 Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
-
-**Each individual color has its own meanings:**
-
-**Blue:** sky, wisdom, dependable, committed
-
-**Green:** nature, balance, growth, compassion
-
-**Yellow:** sun/light, optimism, creativity, clarity
-
-**Red:** energy, passion, authority, confidence
-{% endcapture %}
-
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
-    <figure class="section__img border-0">
-      <img class="" src="/img/brand/identity/logos/logotype.svg" alt="">
-    </figure>
-    <div class="section__description mt-4">
-    {{ logotype_alt | markdownify }}
-    </div>
-  </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Logotype and logomark
-
-Our logo consists of two elements: the logotype and the "halo" — or logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon.
-
-To aid in brand awareness, the logotype and logomark is typically used in our customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
 </div>
 </div>
 

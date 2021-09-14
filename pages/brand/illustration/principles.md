@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Principles | Skylight Brand Guidelines
-description:
+title: Principles
+description: We’re a purpose-driven company, and much of our content is focused on trying to highlight the value of working with Skylight. Keeping our principles in mind will help you create illustrations that embody our values and best represent our identity.
 tags:
 permalink: /brand/illustration/principles/
 sidenav: brand_illustration
@@ -12,7 +12,7 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-9" markdown="1">
-# Principles
+## Core principles
 
 We’re a purpose-driven company, and much of our content is focused on trying to highlight the value of working with Skylight.
 

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Brand narrative | Skylight Brand Guidelines
-description:
+title: Brand narrative
+description: Skylight’s story is central to the way we express ourselves. In our writing, it’s important to capture what makes Skylight a great partner to work with and a great company to work for. That means instilling a sense of our mission, values, and expertise into everything we write.
 tags:
 permalink: /brand/writing/brand-narrative/
 sidenav: brand_writing
@@ -12,8 +12,6 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-9" markdown="1">
-# Brand narrative
-
 ## Principles
 
 Our mission is to make government work in a digital world.

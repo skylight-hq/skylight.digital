@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Icons | Skylight Brand Guidelines
-description:
+title: Icons
+description: To best represent ourselves, it’s important for our icon to be accurately and consistently rendered. This ensures that our audience recognizes our brand across various contexts.
 tags:
 permalink: /brand/identity/icons/
 sidenav: brand_identity
@@ -17,29 +17,14 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-# Icons
+## Standard icon
 
-## Intro
-
-To best represent ourselves, it’s important for our icon to be accurately and consistently rendered. This ensures that our audience recognizes our brand across various contexts.
+To highlight Skylight’s presence, we use our standard icon as an avatar in our different online spaces and social accounts. It can be used at a variety of sizes, as small as 16px.
 
 {% include download_link.html
   text="avatar"
   url="img/brand/identity/assets/icon/avatar/svg/halo.svg"
 %}{: .mb-0 }
-</div>
-</div>
-
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/icons/avatars.svg" alt="">
-  </figure>
-</div>
-<div class="col-md-4" markdown="1">
-## Avatars
-
-Be sure to highlight Skylight’s presence on social accounts through our avatar. It can be used at a variety of sizes, as small as 16px.
 </div>
 </div>
 

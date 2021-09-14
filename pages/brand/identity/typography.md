@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Typography | Skylight Brand Guidelines
-description:
+title: Typography
+description: The way our words appear is a vital component of Skylight’s brand. Our typeface and its usage helps establish a strong visual identity, creates visual consistency across all mediums, and supports our brand’s overall tone.
 tags:
 permalink: /brand/identity/typography/
 sidenav: brand_identity
@@ -17,8 +17,6 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-# Typography
-
 ## Typefaces
 
 [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?query=fran&preview.text_type=custom) is the primary typeface with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono&preview.text_type=custom) serving as a complementary typeface. Both are available from Google Fonts.

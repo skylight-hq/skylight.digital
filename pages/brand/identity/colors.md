@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Colors | Skylight Brand Guidelines
-description:
+title: Colors
+description: The world is a diverse and wonderful place. We want to reflect that in how we work, whom we work with, and the colors we use — that’s why we’ve developed a bright and beautiful palette.
 tags:
 permalink: /brand/identity/colors/
 sidenav: brand_identity
@@ -23,12 +23,19 @@ families:
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-# Colors
+## Brand colors
 
-## Intro
+**Each individual color has its own meanings:**
 
-The world is a diverse and wonderful place. We want to reflect that in how we work, whom we work with, and the colors we use — that's why we've developed a bright and beautiful palette.
-{: .mb-0 }
+**Blue:** sky, wisdom, dependable, committed
+
+**Green:** nature, balance, growth, compassion
+
+**Yellow:** sun/light, optimism, creativity, clarity
+
+**Red:** energy, passion, authority, confidence
+
+These colors and their meanings help define the way that our audience perceives Skylight’s brand. It also helps us create assets that reflect certain emotions that we want to evoke.
 </div>
 </div>
 
@@ -179,16 +186,16 @@ We also added labels to each swatch so you can check whether there’s sufficien
 <script type="text/javascript">
   $( document ).ready(function() {
     $('button.btn-copy-hex').click(function(){
-      
-      let btn = $(this) 
+
+      let btn = $(this)
       let text = btn.siblings('.hex-val').text().toUpperCase();
       let original_text = btn.attr('data-original-title')
-      
+
       btn.attr('data-original-title', 'Copied!')
           .tooltip('show');
       navigator.clipboard.writeText(text);
-      
-      setTimeout(function(){ 
+
+      setTimeout(function(){
         btn.attr('data-original-title', original_text)
       }, 1000);
     })

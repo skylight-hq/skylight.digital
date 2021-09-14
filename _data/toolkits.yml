@@ -256,18 +256,10 @@ brand_illustration:
   toc:
     - title: Principles
       url: /brand/illustration/principles/
-    - title: Palette
-      url: /brand/illustration/palette/
-    - title: Style
-      url: /brand/illustration/style/
-    - title: Featured post illustrations
-      url: /brand/illustration/featured-post-illustrations/
-    - title: Floating illustrations
-      url: /brand/illustration/floating-illustrations/
-    - title: Heroes
-      url: /brand/illustration/heroes/
-    - title: Portraits
-      url: /brand/illustration/portraits/
+    - title: Visual style
+      url: /brand/illustration/visual-style/
+    - title: Illustration types
+      url: /brand/illustration/illustration-types/
 
 brand_outreach:
   title: Outreach

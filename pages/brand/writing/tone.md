@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Tone | Skylight Brand Guidelines
-description:
+title: Tone
+description: Modulating tone helps us tailor our words to any specific audience. By keeping users and partners in mind, you allow yourself to see someone else’s perspective, helping you better understand their wants and needs, and speak to them in ways they can engage with.
 tags:
 permalink: /brand/writing/tone/
 sidenav: brand_writing
@@ -12,8 +12,6 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-9" markdown="1">
-# Tone
-
 ## Tone qualities
 
 How we want people to hear our words.

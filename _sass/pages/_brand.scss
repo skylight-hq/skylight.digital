@@ -126,6 +126,10 @@
       margin-left: 0.5rem;
     }
   }
+
+  h1 {
+    @include kicker;
+  }
 }
 
 .page-brand-guidelines {
@@ -293,10 +297,6 @@
       background-size: initial;
     }
   }
-
-  h1 {
-    @include kicker;
-  }
 }
 
 .page--brand-writing {
@@ -315,10 +315,6 @@
     @include media-breakpoint-up(lg) {
       background-size: initial;
     }
-  }
-
-  h1 {
-    @include kicker;
   }
 
   p {
