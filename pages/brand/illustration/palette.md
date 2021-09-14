@@ -81,8 +81,18 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
 <script type="text/javascript">
   $( document ).ready(function() {
     $('button.btn-copy-hex').click(function(){
-      var text = $(this).siblings('.hex-val').text().toUpperCase();
+
+      let btn = $(this)
+      let text = btn.siblings('.hex-val').text().toUpperCase();
+      let original_text = btn.attr('data-original-title')
+
+      btn.attr('data-original-title', 'Copied!')
+          .tooltip('show');
       navigator.clipboard.writeText(text);
+
+      setTimeout(function(){
+        btn.attr('data-original-title', original_text)
+      }, 1000);
     })
   });
 </script>
