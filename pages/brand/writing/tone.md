@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Tone
-description: Modulating tone helps us tailor our words to any specific audience. By keeping users and partners in mind, you allow yourself to see someone else’s perspective, helping you better understand their wants and needs, and speak to them in ways they can engage with.
+description: Modulating tone helps us tailor our words to different audiences. By keeping our users and partners in mind, you can better understand their wants and needs, and speak to them in ways they can engage with.
 tags:
 permalink: /brand/writing/tone/
 sidenav: brand_writing
