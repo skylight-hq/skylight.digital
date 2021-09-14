@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Brand narrative
-description: Skylight’s story is central to the way we express ourselves. In our writing, it’s important to capture what makes Skylight a great partner to work with and a great company to work for. That means instilling a sense of our mission, values, and expertise into everything we write.
+description: Skylight’s story is central to the way we express ourselves. That means instilling a sense of our mission, values, and expertise into everything we write.
 tags:
 permalink: /brand/writing/brand-narrative/
 sidenav: brand_writing

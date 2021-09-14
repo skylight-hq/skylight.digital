@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Style
-description: Our style guide helps define the way we write. It supports our brand identity, gives us credibility, and separates us from competitors. These guidelines are also a critical resource for anyone at Skylight who creates and edits content — that’s all of you!
+description: Our style guide helps define the way we write. It strengthens our brand, gives us credibility, and separates us from competitors. These guidelines are also a critical resource for anyone at Skylight who creates and edits content.
 tags:
 permalink: /brand/writing/style/
 sidenav: brand_writing
