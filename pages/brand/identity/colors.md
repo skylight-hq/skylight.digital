@@ -39,47 +39,16 @@ These colors and their meanings help define the way that our audience perceives 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="section__container p-5">
-    <div class="swatch__container brand-swatch">
-      <div class="row no-gutters">
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-blue"></div>
-          <p>blue-200</p>
-          <p class='hex-val'>#1d5392</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-blue-light"></div>
-          <p>blue-100</p>
-          <p class='hex-val'>#1d5392</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-ochre-40"></div>
-          <p>ochre-40</p>
-          <p class='hex-val'>#FBE8BE</p>
-          {% include copy_hex_button.html %}
-        </div>
-      </div>
-      <div class="row no-gutters mt-4">
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-ink"></div>
-          <p>gray-300</p>
-          <p class='hex-val'>#1c1d20</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-gray-darker"></div>
-          <p>gray-200</p>
-          <p class='hex-val'>#37383b</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch border"></div>
-          <p>white</p>
-          <p class='hex-val'>#ffffff</p>
-          {% include copy_hex_button.html %}
-        </div>
-      </div>
+    <div class="swatch__container brand-swatch row">
+      {% assign color = site.data.color %}
+        {% for item in color.primary %}
+          <div class="swatch-group col-6 col-md-4">
+            <div class="swatch bg-{{ item.token }}"></div>
+            <p>{{ item.token }}</p>
+            <p class='hex-val'>#{{ item.value }}</p>
+            {% include copy_hex_button.html %}
+          </div>
+        {% endfor %}
     </div>
   </div>
 </div>
@@ -93,47 +62,16 @@ The Skylight brand mainly uses blue, gray, and light yellow. The blue is the acc
 <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="section__container p-5">
-    <div class="swatch__container brand-swatch">
-      <div class="row no-gutters">
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-red-100"></div>
-          <p>red-100</p>
-          <p class='hex-val'>#df635c</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-yellow"></div>
-          <p>ochre-100</p>
-          <p class='hex-val'>#f4c55c</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-green-100"></div>
-          <p>green-100</p>
-          <p class='hex-val'>#80b690</p>
-          {% include copy_hex_button.html %}
-        </div>
-      </div>
-      <div class="row no-gutters mt-4">
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-gray-80"></div>
-          <p>gray-80</p>
-          <p class='hex-val'>#76767b</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-gray-40"></div>
-          <p>gray-40</p>
-          <p class='hex-val'>#bbbbbd</p>
-          {% include copy_hex_button.html %}
-        </div>
-        <div class="col-4 swatch-group">
-          <div class="swatch bg-gray-20"></div>
-          <p>gray-20</p>
-          <p class='hex-val'>#ddddde</p>
-          {% include copy_hex_button.html %}
-        </div>
-      </div>
+    <div class="swatch__container brand-swatch row">
+      {% assign color = site.data.color %}
+        {% for item in color.secondary %}
+          <div class="swatch-group col-6 col-md-4">
+            <div class="swatch bg-{{ item.token }}"></div>
+            <p>{{ item.token }}</p>
+            <p class='hex-val'>#{{ item.value }}</p>
+            {% include copy_hex_button.html %}
+          </div>
+        {% endfor %}
     </div>
   </div>
 </div>
