@@ -179,8 +179,18 @@ We also added labels to each swatch so you can check whether there’s sufficien
 <script type="text/javascript">
   $( document ).ready(function() {
     $('button.btn-copy-hex').click(function(){
-      var text = $(this).siblings('.hex-val').text().toUpperCase();
+      
+      let btn = $(this) 
+      let text = btn.siblings('.hex-val').text().toUpperCase();
+      let original_text = btn.attr('data-original-title')
+      
+      btn.attr('data-original-title', 'Copied!')
+          .tooltip('show');
       navigator.clipboard.writeText(text);
+      
+      setTimeout(function(){ 
+        btn.attr('data-original-title', original_text)
+      }, 1000);
     })
   });
 </script>
