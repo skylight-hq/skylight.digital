@@ -25,15 +25,12 @@ families:
 <div class="col-md-4" markdown="1">
 ## Brand colors
 
-**Each individual color has its own meanings:**
+Each individual color has its own meanings:
 
-**Blue:** sky, wisdom, dependable, committed
-
-**Green:** nature, balance, growth, compassion
-
-**Yellow:** sun/light, optimism, creativity, clarity
-
-**Red:** energy, passion, authority, confidence
+- **Blue:** sky, wisdom, dependable, committed
+- **Green:** nature, balance, growth, compassion
+- **Yellow:** sun/light, optimism, creativity, clarity
+- **Red:** energy, passion, authority, confidence
 
 These colors and their meanings help define the way that our audience perceives Skylight’s brand. It also helps us create assets that reflect certain emotions that we want to evoke.
 </div>
