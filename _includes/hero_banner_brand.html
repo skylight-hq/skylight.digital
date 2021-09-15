@@ -16,6 +16,9 @@
     <div class="brand-hero__content hero-container grid-container justify-content-end py-6">
       <div class="row">
         <div class="col-md-6">
+          {% if page.description %}
+            <p class="kicker text-white">{{ site.data.toolkits[page.sidenav]title }}</p>
+          {% endif %}
           <{{ heading }} class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %}">
             {% if page.description %}
               {{ page.title }}
