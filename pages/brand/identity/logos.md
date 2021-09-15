@@ -260,13 +260,13 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
 <div class="col-md-4" markdown="1">
 ## Things to avoid
 
-- change the color of the logo
-- skew the logo’s width or height
-- recreate the logo in another font
-- outline the logo
-- place an image in the logo
-- use the logo over a busy background
-- rotate the logo to anything other than 0 and 90 degrees
-- change the logo’s proportions
+- Change the color of the logo
+- Skew the logo’s width or height
+- Recreate the logo in another font
+- Outline the logo
+- Place an image in the logo
+- Use the logo over a busy background
+- Rotate the logo to anything other than 0 and 90 degrees
+- Change the logo’s proportions
 </div>
 </div>
