@@ -189,9 +189,9 @@ This variation of the logo can be used in instances, such as templates, where th
 <div class="col-md-4" markdown="1">
 ## Spacing
 
-The halo is positioned after the logotype at a distance of x to the right and 2x above the baseline where x is the thickness of the halo band.
+The halo is positioned after the logotype at a distance of `x` to the right and `2x` above the baseline where `x` is the thickness of the halo band.
 
-A clearspace of 2x is recommended around the logo.
+A clearspace of `2x` is recommended around the logo.
 </div>
 </div>
 
@@ -245,9 +245,9 @@ In some instances, the center or the upper or lower right-hand corners might mak
 <div class="col-md-4" markdown="1">
 ## Rotation
 
-In most cases, the logo should sit at 0° angle. This is the default.
+In most cases, the logo should sit at `0°` angle. This is the default.
 
-On special occasions, the logo can be turned on a 90° angle. This is useful for very vertical layouts like banners ads, physical banners, and swag.
+On special occasions, the logo can be turned on a `90°` angle. This is useful for very vertical layouts like banners ads, physical banners, and swag.
 </div>
 </div>
 

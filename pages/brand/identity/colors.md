@@ -112,7 +112,7 @@ We use the gray colors for text, charts, etc.
 <div class="col-md-4" markdown="1">
 ## Tints
 
-To provide a practical range of values for web/screen applications, we’ve extended the original base palette (indicated by the -100 suffix).
+To provide a practical range of values for web/screen applications, we’ve extended the original base palette (indicated by the `-100` suffix).
 
 We also added labels to each swatch so you can check whether there’s sufficient contrast to meet WCAG AA standards.
 </div>
