@@ -266,7 +266,7 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
 - outline the logo
 - place an image in the logo
 - use the logo over a busy background
-- rotate the logo to anything other than 0 and 90 degrees
+- rotate the logo to anything other than `0°` and `90°`
 - change the logo’s proportions
 </div>
 </div>
