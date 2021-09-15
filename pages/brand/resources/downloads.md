@@ -3,7 +3,7 @@ layout: toolkit
 title: Brand pack | Skylight Brand Guidelines
 description:
 tags:
-permalink: /brand/resources/download/
+permalink: /brand/resources/downloads/
 sidenav: brand_resources
 content_type: Toolkit
 toolkit_name: brand
@@ -12,7 +12,7 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-8" markdown="1">
-# Download
+# Downloads
 
 Download our brand assets to effectively represent Skylight. This includes our logo, icon, and a range of other useful resources.
 

@@ -22,7 +22,7 @@ class: brand
 To highlight Skylight’s presence, we use our standard icon as an avatar in our different online spaces and social accounts. It can be used at a variety of sizes, as small as 16px.
 
 {% include download_link.html
-  text="avatar"
+  text="icon"
   url="img/brand/identity/assets/icon/avatar/svg/halo.svg"
 %}{: .mb-0 }
 </div>
