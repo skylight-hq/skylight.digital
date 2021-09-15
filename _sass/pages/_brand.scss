@@ -283,6 +283,11 @@
 }
 
 .page--brand-identity {
+  .nav-link--current,
+  .current {
+    color: $blue-100-a !important;
+  }
+
   .hero-banner {
     background-color: $sk-blue-light;
   }
@@ -327,6 +332,11 @@
 }
 
 .page--brand-illustration {
+  .nav-link--current,
+  .current {
+    color: $green-300 !important;
+  }
+
   .hero-banner {
     background-color: $green-300;
   }
@@ -358,6 +368,11 @@
 }
 
 .page--brand-outreach {
+  .nav-link--current,
+  .current {
+    color: $red-200 !important;
+  }
+
   .hero-banner {
     background-color: $red-200;
   }
@@ -377,6 +392,11 @@
 }
 
 .page--brand-resources {
+  .nav-link--current,
+  .current {
+    color: $ochre-300 !important;
+  }
+
   .hero-banner {
     background-color: $sk-yellow;
   }
