@@ -172,7 +172,8 @@
 .page--brand-identity {
   .hero-banner {
     .hero-heading,
-    .hero-content p {
+    .hero-content p,
+    .kicker {
       text-shadow: $card-box-shadow;
     }
   }

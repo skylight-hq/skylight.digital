@@ -31,6 +31,10 @@ Creating new artwork? You should check the [Illustration Guidelines](/brand/illu
     <figure class="mb-0">
       <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="">
     </figure>
+    <figure class="mb-0">
+      <img class="mt-5" src="/img/brand/identity/imagery/photography-2.jpg" alt="">
+      <p class="caption">Source: Photo by Leon on <a href="https://unsplash.com/photos/Oalh2MojUuk">Unsplash</a></p>
+    </figure>
   </div>
 </div>
 <div class="col-md-4" markdown="1">
@@ -51,32 +55,6 @@ Every image should tell a story. There are a few tricks we can use to make sure 
 - Take a moment to remove any distractions from the scene
 </div>
 </div>
-
-{% capture ex--goals %}
-**"What am I trying to say with this photo?"**
-
-Determing this will ensure that you include everything you need to convey your message. What objects, people, and background context are needed to express the story?
-
-People are drawn to people. Focus your image on candid facial expressions and body language, not backs and backs of heads.
-Show people in action. Bonus points for capturing things that are unique or unusual.
-
-Wrap this all together in your composition. If an object is the focus of your photo, catch the subject interacting/looking at it. Test a couple of angles to see what makes the story most clear.
-
-If possible, take a moment to remove any distractions from the scene. If it doesn’t help tell the story, move it out of the way. These items can oven be little things our brain automatically de-emphasizes, like purses, coffee cups, and wrappers, but these muddle the story in a photo.
-{% endcapture %}
-
-<!-- <div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="example mt-0">
-  {{ ex--goals | markdownify }}
-  </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Goals
-
-Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
-</div>
-</div> -->
 
 <div class="row brand__content-section">
 <div class="col-md-8">

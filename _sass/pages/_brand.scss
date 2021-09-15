@@ -84,7 +84,8 @@
 
 .brand {
   p,
-  ul {
+  ul,
+  ol {
     font-size: $font-size-small;
   }
 
@@ -314,8 +315,10 @@
     }
   }
 
-  p {
-    font-size: $font-size-medium;
+  .brand {
+    p {
+      font-size: $font-size-medium;
+    }
   }
 
   .example {
@@ -347,8 +350,10 @@
 }
 
 .page-brand-illustration-principles {
-  p {
-    font-size: $font-size-medium;
+  .brand {
+    p {
+      font-size: $font-size-medium;
+    }
   }
 }
 
@@ -438,6 +443,7 @@
   cursor: pointer;
   font-size: $font-size-xx-small;
   padding: 0;
+  margin-top: -3px;
 }
 
 .swatch {
