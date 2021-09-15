@@ -19,7 +19,7 @@ class: brand
 <div class="col-md-4" markdown="1">
 ## Standard logo
 
-Our logo consists of two elements: the logotype and the “halo” — or logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon. To aid in brand awareness, the logotype and logomark is typically used in our customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
+Our logo consists of two elements: the logotype and the “halo” — our logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon (see the [icons page](/brand/identity/icons/) for rules around usage). To aid in brand awareness, the logotype and logomark is typically used in our customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
 
 {% include download_link.html
   text="logo"
@@ -37,7 +37,7 @@ Our logo consists of two elements: the logotype and the “halo” — or logoma
   </div>
 </div>
 <div class="col-md-4" markdown="1">
-## Logo rationale
+## Behind the design
 
 The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
 

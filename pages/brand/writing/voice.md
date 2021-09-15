@@ -14,7 +14,7 @@ class: brand
 <div class="col-md-9" markdown="1">
 ## Voice qualities
 
-Our voice has five key qualities that are felt in both what we say and how we say it. Working together, these qualities make everything we write sound uniquely Skylight.
+Our voice has five key qualities that are felt in both what we say and how we say it. Working together, these qualities make everything we write sound uniquely Skylight. For further reference, our [Content Guide](/work/toolkits/content-guide/) offers examples of each voice quality in practice.
 </div>
 <div class="col-md-9">
 <div class="example" markdown="1">

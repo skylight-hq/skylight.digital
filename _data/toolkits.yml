@@ -280,5 +280,5 @@ brand_resources:
       url: /brand/resources/emoji/
     - title: Templates
       url: /brand/resources/templates/
-    - title: Download
-      url: /brand/resources/download/
+    - title: Downloads
+      url: /brand/resources/downloads/
