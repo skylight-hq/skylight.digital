@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Illustration principles
+title: Principles
 description: We’re a purpose-driven company, and much of our content is focused on trying to highlight the value of working with Skylight. Keeping our principles in mind will help you create illustrations that embody our values and best represent our identity.
 tags:
 permalink: /brand/illustration/principles/
