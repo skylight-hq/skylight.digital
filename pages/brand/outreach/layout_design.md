@@ -84,13 +84,13 @@ A sample of promotional text-based layouts.
     </div>
   </div>
 <div class="col-md-4" markdown="1">
-1. Main logo used on `Ochre-40` background
+1. Main logo used on `ochre-40` background
 2. Subhead set in all caps in Libre Franklin Bold
 3. Text is left-aligned
-4. Primary color (`Ochre-40`) used as background
+4. Primary color (`ochre-40`) used as background
 5. Headline is set in a heavy Libre Franklin weight
 6. Body copy set in Libre Franklin Regular
-7. Text uses `Black-300` on light background
+7. Text uses `black-300` on light background
 8. Design uses a monochromatic color scheme
 </div>
 </div>
