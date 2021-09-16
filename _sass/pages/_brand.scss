@@ -284,7 +284,8 @@
 
 .page--brand-identity {
   .nav-link--current,
-  .current {
+  .current,
+  .pagination-alt__step {
     color: $blue-100-a !important;
   }
 
@@ -333,7 +334,8 @@
 
 .page--brand-illustration {
   .nav-link--current,
-  .current {
+  .current,
+  .pagination-alt__step {
     color: $green-300 !important;
   }
 
@@ -369,7 +371,8 @@
 
 .page--brand-outreach {
   .nav-link--current,
-  .current {
+  .current,
+  .pagination-alt__step {
     color: $red-200 !important;
   }
 
@@ -393,7 +396,8 @@
 
 .page--brand-resources {
   .nav-link--current,
-  .current {
+  .current,
+  .pagination-alt__step {
     color: $ochre-300 !important;
   }
 
