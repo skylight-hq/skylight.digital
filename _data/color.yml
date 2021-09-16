@@ -115,17 +115,17 @@ primary_illustration:
   - token: gray-20
     value: ddddde
 skin:
-  - value: EDC3A2
-  - value: EBB18B
-  - value: E29871
-  - value: DE885A
-  - value: F0A871
-  - value: E6A96C
-  - value: D08D53
-  - value: CE8762
-  - value: B9663B
-  - value: AB592F
-  - value: 9C4E30
-  - value: E99821
-  - value: 54565A
-  - value: 5C5247
+  - value: edc3a2
+  - value: ebb18b
+  - value: e29871
+  - value: de885a
+  - value: f0a871
+  - value: e6a96c
+  - value: d08d53
+  - value: ce8762
+  - value: b9663b
+  - value: ab592f
+  - value: 9c4e30
+  - value: e99821
+  - value: 54565a
+  - value: 5c5247
