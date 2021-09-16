@@ -79,12 +79,7 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
   <div class="section__img p-5 flex-column">
     <div class="row">
       <div class="col-12">
-        <img class="mb-2" src="/img/projects/ct_oec_website_redesign/oec-website-redesign.svg" alt="A caretaker with children sitting around a table and playing with blocks with a computer in the background.">
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-12">
-        <img class="mb-2" src="/img/projects/usaf_gearfit/gearfit.svg" alt="Gear technician helping a female pilot put on her helmet.">
+        <img class="mb-2" src="/img/brand/illustration/general-guidance.svg" alt="A caretaker with children sitting around a table and playing with blocks with a computer in the background. Gear technician helping a female pilot put on her helmet.">
       </div>
     </div>
   </div>
@@ -94,14 +89,9 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
 
 To maintain consistency our illustrations use color, lines, and fills in a similar way.
 
-### Image 1
-
-1. Use hair and skin colors, as needed, to represent the diverse world.
-1. Accent minimally with light gray.
+1. Use hair and skin colors, as needed, to represet the diverse world.
 1. Creating texture with patterns adds personality to the images.
-
-### Image 2
-
+1. Accent minimally with light gray.
 1. Illustrations are crafted using offset outlines with selected fills.
 1. Organizational clothing (such as military uniforms) is an exception to the limited palette it should reflect real life.
 </div>

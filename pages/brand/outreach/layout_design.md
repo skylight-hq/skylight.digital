@@ -14,7 +14,7 @@ class: brand
 <div class="col-md-8">
   <div class="section__container p-5">
     <figure class="">
-      <img class="" src="/img/brand/outreach/intro.jpg" alt="">
+      <img class="" src="/img/brand/outreach/visual-guidance.jpg" alt="">
     </figure>
   </div>
 </div>
@@ -23,9 +23,9 @@ class: brand
 
 When creating Skylight assets for marketing and communications purposes, we have a few guidelines that we’d like you to follow.
 
-1. Lead with primary blue in design
-1. Web elements, like buttons, are set in Roboto Mono typeface
-1. Headlines use sentence case in Franklin Libre Semibold
+1. Lead with primary blue in designatterns adds personality to the images.
+1. Headlines use sentence case in Franklin Libre Semibold.
+1. “Tech” elements, like buttons, are set in Roboto Mono.
 </div>
 </div>
 
@@ -33,7 +33,7 @@ When creating Skylight assets for marketing and communications purposes, we have
 <div class="col-md-8">
   <div class="section__container p-5">
     <figure class="">
-      <img class="" src="/img/brand/outreach/graphic-elements.jpg" alt="">
+      <img class="" src="/img/brand/outreach/graphic-elements.svg" alt="">
     </figure>
   </div>
 </div>
@@ -54,7 +54,7 @@ Geometric shapes (circle, triangle, square) are recurring graphic elements used 
   <div class="col-md-8">
     <div class="section__container p-5">
       <figure class="">
-        <img class="" src="/img/brand/outreach/brand-in-use/promo-1.jpg" alt="">
+        <img class="" src="/img/brand/outreach/promo-1.svg" alt="">
       </figure>
     </div>
   </div>
@@ -64,14 +64,14 @@ Geometric shapes (circle, triangle, square) are recurring graphic elements used 
 A sample of promotional text-based layouts.
 
 1. Bright primary color as background
-2. Inverse logo used on color background
-3. Subhead set in all caps in Libre Franklin Bold
-4. Body copy set in Libre Franklin Regular
-5. Prehead uses Roboto Mono
-6. Headline is title case set in a heavy Libre Franklin weight
-7. Text is left-aligned
-8. White text used on color backgrounds
-9. Logo left-aligned with text
+1. Inverse logo used on color background
+1. Subhead set in all caps in Libre Franklin Bold
+1. Body copy set in Libre Franklin Regular
+1. Prehead uses Roboto Mono
+1. Headline is title case set in a heavy Libre Franklin weight
+1. Text is left-aligned
+1. White text used on color backgrounds
+1. Logo left-aligned with text
 </div>
 </div>
 
@@ -79,7 +79,7 @@ A sample of promotional text-based layouts.
   <div class="col-md-8">
     <div class="section__container p-5">
       <figure class="">
-        <img class="" src="/img/brand/outreach/brand-in-use/promo-2.jpg" alt="">
+        <img class="" src="/img/brand/outreach/promo-2.svg" alt="">
       </figure>
     </div>
   </div>
@@ -90,7 +90,7 @@ A sample of promotional text-based layouts.
 4. Primary color (`Ochre-40`) used as background
 5. Headline is set in a heavy Libre Franklin weight
 6. Body copy set in Libre Franklin Regular
-7. Text uses Skylight “black” on light background
+7. Text uses `Black-300` on light background
 8. Design uses a monochromatic color scheme
 </div>
 </div>
