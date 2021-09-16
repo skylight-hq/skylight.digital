@@ -44,7 +44,7 @@ The halo in its raised position after the logotype conveys enlightenment (facili
 
 The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
 
-### 2. The Type
+### 2. The type
 The logotype uses a wide kerning to make our brand feel open and accessible.
 
 The four colors in our logo convey the diversity and inclusiveness of our team. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).

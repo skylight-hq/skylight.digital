@@ -14,8 +14,6 @@ class: brand
 <div class="col-md-9" markdown="1">
 ## Core principles
 
-We’re a purpose-driven company, and much of our content is focused on trying to highlight the value of working with Skylight.
-
 The following six principles will help you design effective Skylight illustrations.
 </div>
 <div class="col-md-9">
