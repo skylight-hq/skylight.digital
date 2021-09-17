@@ -282,12 +282,33 @@
   }
 }
 
-.page--brand-identity {
+.nav-link--identity:hover {
+  color: $blue-100-a;
+}
+
+.nav-link--illustration:hover {
+  color: $green-300;
+}
+
+.nav-link--outreach:hover {
+  color: $red-200;
+}
+
+.nav-link--resources:hover {
+  color: $ochre-300;
+}
+
+@mixin theme-link($color) {
   .nav-link--current,
   .current,
-  .pagination-alt__step {
-    color: $blue-100-a !important;
+  .pagination-alt__step,
+  .subnav-col .nav-link:hover {
+    color: $color !important;
   }
+}
+
+.page--brand-identity {
+  @include theme-link($blue-100-a);
 
   .hero-banner {
     background-color: $sk-blue-light;
@@ -333,11 +354,7 @@
 }
 
 .page--brand-illustration {
-  .nav-link--current,
-  .current,
-  .pagination-alt__step {
-    color: $green-300 !important;
-  }
+  @include theme-link($green-300);
 
   .hero-banner {
     background-color: $green-300;
@@ -370,11 +387,7 @@
 }
 
 .page--brand-outreach {
-  .nav-link--current,
-  .current,
-  .pagination-alt__step {
-    color: $red-200 !important;
-  }
+  @include theme-link($red-200);
 
   .hero-banner {
     background-color: $red-200;
@@ -395,11 +408,7 @@
 }
 
 .page--brand-resources {
-  .nav-link--current,
-  .current,
-  .pagination-alt__step {
-    color: $ochre-300 !important;
-  }
+  @include theme-link($ochre-300);
 
   .hero-banner {
     background-color: $sk-yellow;
