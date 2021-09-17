@@ -33,7 +33,7 @@ Creating new artwork? You should check the [Illustration Guidelines](/brand/illu
     </figure>
     <figure class="mb-0">
       <img class="mt-5" src="/img/brand/identity/imagery/photography-2.jpg" alt="">
-      <p class="caption">Source: Photo by Leon on <a href="https://unsplash.com/photos/Oalh2MojUuk">Unsplash</a></p>
+      <p class="sr-only">Photo by <a href="https://unsplash.com/@myleon">Leon</a> on <a href="https://unsplash.com/photos/Oalh2MojUuk">Unsplash</a></p>
     </figure>
   </div>
 </div>
@@ -43,8 +43,6 @@ Creating new artwork? You should check the [Illustration Guidelines](/brand/illu
 When sharing photos, we want to feature real people with real-life stories to tell. Capture a sense of place by showing activities with teammates, customers, and partners.
 
 Facial expressions, clothing, hair/makeup should look natural (not over-the-top stock).
-
-### Goals
 
 Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
 
