@@ -26,6 +26,7 @@ When creating Skylight assets for marketing and communications purposes, we have
 1. Lead with primary blue in designatterns adds personality to the images.
 1. Headlines use sentence case in Franklin Libre Semibold.
 1. “Tech” elements, like buttons, are set in Roboto Mono.
+{: .list--circle }
 </div>
 </div>
 
@@ -47,6 +48,7 @@ Geometric shapes (circle, triangle, square) are recurring graphic elements used 
 1. Direct focus to important copy (but don’t overpower it)
 1. Anchor to illustration vignette when possible
 1. Add texture to negative space
+{: .list--circle }
 </div>
 </div>
 
@@ -72,6 +74,7 @@ A sample of promotional text-based layouts.
 1. Text is left-aligned
 1. White text used on color backgrounds
 1. Logo left-aligned with text
+{: .list--circle }
 </div>
 </div>
 
@@ -92,5 +95,6 @@ A sample of promotional text-based layouts.
 6. Body copy set in Libre Franklin Regular
 7. Text uses `black-300` on light background
 8. Design uses a monochromatic color scheme
+{: .list--circle }
 </div>
 </div>
