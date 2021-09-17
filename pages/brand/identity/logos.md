@@ -39,17 +39,29 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 <div class="col-md-4" markdown="1">
 ## Behind the design
 
-### 1. The halo
+<h3 class="d-flex">
+  <img class="mr-2" src="/img/brand/identity/logos/list-indicator--1.svg" alt="1">
+  The halo
+</h3>
+
 The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
 
 The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
 
-### 2. The type
+<h3 class="d-flex">
+  <img class="mr-2" src="/img/brand/identity/logos/list-indicator--2.svg" alt="2">
+  The type
+</h3>
+
 The logotype uses a wide kerning to make our brand feel open and accessible.
 
 The four colors in our logo convey the diversity and inclusiveness of our team. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
 
-### 3. Color
+<h3 class="d-flex">
+  <img class="mr-2" src="/img/brand/identity/logos/list-indicator--3.svg" alt="3">
+  Color
+</h3>
+
 Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
 </div>
 </div>
@@ -159,7 +171,6 @@ This version of the logo is for instances in which only one color is allowed. Th
 ## Variations
 
 This variation of the logo can be used in instances, such as templates, where the logo needs a bit more separation from content.
-
 
 {% include download_link.html
   text="bar bottom"

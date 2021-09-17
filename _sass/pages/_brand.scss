@@ -552,3 +552,27 @@
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
+
+.list--circle {
+  counter-reset: list-number !important;
+  padding-left: 0 !important;
+
+  li {
+    padding-left: 2rem;
+
+    &::before {
+      counter-increment: list-number !important;
+      content: counter(list-number) !important;
+      width: 23px;
+      height: 23px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: $font-size-xx-small;
+      font-weight: bold;
+      background-color: $gray-80;
+      border-radius: 100%;
+      color: #fff;
+    }
+  }
+}

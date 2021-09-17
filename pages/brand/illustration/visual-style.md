@@ -92,6 +92,7 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
 1. Accent minimally with light gray.
 1. Illustrations are crafted using offset outlines with selected fills.
 1. Organizational clothing (such as military uniforms) is an exception to the limited palette it should reflect real life.
+{: .list--circle }
 </div>
 </div>
 
