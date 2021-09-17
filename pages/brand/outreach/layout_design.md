@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="section__container p-5">
-    <figure class="">
+    <figure class="mb-0">
       <img class="" src="/img/brand/outreach/visual-guidance.jpg" alt="">
     </figure>
   </div>
@@ -32,7 +32,7 @@ When creating Skylight assets for marketing and communications purposes, we have
 <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="section__container p-5">
-    <figure class="">
+    <figure class="text-center mb-0">
       <img class="" src="/img/brand/outreach/graphic-elements.svg" alt="">
     </figure>
   </div>
@@ -53,7 +53,7 @@ Geometric shapes (circle, triangle, square) are recurring graphic elements used 
 <div class="row brand__content-section">
   <div class="col-md-8">
     <div class="section__container p-5">
-      <figure class="">
+      <figure class="text-center mb-0">
         <img class="" src="/img/brand/outreach/promo-1.svg" alt="">
       </figure>
     </div>
@@ -78,7 +78,7 @@ A sample of promotional text-based layouts.
 <div class="row brand__content-section">
   <div class="col-md-8">
     <div class="section__container p-5">
-      <figure class="">
+      <figure class="text-center mb-0">
         <img class="" src="/img/brand/outreach/promo-2.svg" alt="">
       </figure>
     </div>
