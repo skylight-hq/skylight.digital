@@ -45,7 +45,7 @@ class: brand
     <h3 class="text-primary my-0" style="font-size: 2.5rem;">We’re Skylight</h3>
     <p class="font-lg fw-300">Our mission is to make government work in a digital world.</p>
     <h4>Our story</h4>
-    <p>Skylight was launched in June of 2017. We're currently made up of X people and one ferret. A lot of us originally worked for civic-oriented groups such as 18F, the U.S. Digital Service, and the Presidential Innovation Fellows. Now, as part of Skylight, we're working hard to cultivate an incredible team and culture.</p>
+    <p>Skylight was launched in June of 2017. We're currently made up of {{ site.employee_count }} people and one ferret. A lot of us originally worked for civic-oriented groups such as 18F, the U.S. Digital Service, and the Presidential Innovation Fellows. Now, as part of Skylight, we're working hard to cultivate an incredible team and culture.</p>
     <p class="font-mono mt-5">[number] statistic include here</p>
   </div>
 </div>
