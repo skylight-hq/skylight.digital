@@ -96,21 +96,4 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
 </div>
 </div>
 
-<script type="text/javascript">
-  $( document ).ready(function() {
-    $('button.btn-copy-hex').click(function(){
-
-      let btn = $(this)
-      let text = btn.siblings('.hex-val').text().toUpperCase();
-      let original_text = btn.attr('data-original-title')
-
-      btn.attr('data-original-title', 'Copied!')
-          .tooltip('show');
-      navigator.clipboard.writeText(text);
-
-      setTimeout(function(){
-        btn.attr('data-original-title', original_text)
-      }, 1000);
-    })
-  });
-</script>
+{% include js/copy-hex.js %}
