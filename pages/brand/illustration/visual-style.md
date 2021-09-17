@@ -56,10 +56,8 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
       {% for item in color.skin %}
         <div class="swatch__container col-4 col-lg-2 px-1">
           <div class="swatch--long" style="background-color:#{{ item.value }}">
-            <!-- <p>{{ item.token }}</p>
-            <p>{{ item.token }}</p> -->
           </div>
-          <p class="brand__hex ml-0">
+          <p class="brand__hex ml-0 d-flex">
             <span class="hex-val mr-2">#{{ item.value }}</span>{% include copy_hex_button.html %}
           </p>
         </div>
