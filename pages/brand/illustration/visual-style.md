@@ -76,8 +76,8 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
 <div class="col-md-8">
   <div class="section__img p-5 flex-column">
     <div class="row">
-      <div class="col-12">
-        <img class="mb-2" src="/img/brand/illustration/general-guidance.svg" alt="A caretaker with children sitting around a table and playing with blocks with a computer in the background. Gear technician helping a female pilot put on her helmet.">
+      <div class="col-12 text-center">
+        <img class="" src="/img/brand/illustration/general-guidance.svg" alt="A caretaker with children sitting around a table and playing with blocks with a computer in the background. Gear technician helping a female pilot put on her helmet.">
       </div>
     </div>
   </div>
