@@ -198,8 +198,24 @@ h6 {
   font-size: $font-size-x-large !important;
 }
 
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
 .capitalize {
   text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .kicker {
