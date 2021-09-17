@@ -132,7 +132,8 @@ We also added labels to each swatch so you can check whether there’s sufficien
 
       setTimeout(function(){
         btn.attr('data-original-title', original_text)
-      }, 1000);
+        btn.tooltip('hide');
+      }, 1500);
     })
   });
 </script>
