@@ -203,6 +203,10 @@
   color: $gray-light;
 }
 
+.text-primary {
+  color: $sk-blue;
+}
+
 .container-xxl {
   max-width: map-get($container-max-widths, "xxl");
 }
