@@ -19,7 +19,7 @@ families:
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/colors/intro.svg" alt="">
+    <img class="" src="/img/brand/identity/colors/brand-colors.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -27,10 +27,11 @@ families:
 
 Each individual color has its own meanings:
 
-- **Blue:** sky, wisdom, dependable, committed
-- **Green:** nature, balance, growth, compassion
-- **Yellow:** sun/light, optimism, creativity, clarity
-- **Red:** energy, passion, authority, confidence
+1. **Blue:** sky, wisdom, dependable, committed
+1. **Green:** nature, balance, growth, compassion
+1. **Yellow:** sun/light, optimism, creativity, clarity
+1. **Red:** energy, passion, authority, confidence
+{: .list-circle }
 
 These colors and their meanings help define the way that our audience perceives Skylight’s brand. It also helps us create assets that reflect certain emotions that we want to evoke.
 </div>
