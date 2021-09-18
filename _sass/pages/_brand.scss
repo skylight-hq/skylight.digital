@@ -175,6 +175,15 @@
     }
   }
 
+
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/landing.png");
+      background-size: 740px;
+      background-position-y: top;
+    }
+  }
+
   h1 {
     line-height: 1;
   }
