@@ -11,7 +11,7 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-8">
+<div class="col-md-8 d-flex">
   <figure class="section__img w-100">
     <img class="px-2 py-6 w-50" src="/img/logo.svg" alt="">
   </figure>
@@ -24,7 +24,7 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 {% include download_link.html
   text="logo"
   url="/img/logo.svg"
-%}
+%}{: .mb-0 }
 </div>
 </div>
 
