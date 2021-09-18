@@ -29,9 +29,9 @@ Each individual color has its own meanings:
 
 1. **Blue:** sky, wisdom, dependable, committed
 1. **Green:** nature, balance, growth, compassion
-1. **Yellow:** sun/light, optimism, creativity, clarity
+1. **Ochre:** sun/light, optimism, creativity, clarity
 1. **Red:** energy, passion, authority, confidence
-{: .list-circle }
+{: .list--circle }
 
 These colors and their meanings help define the way that our audience perceives Skylight’s brand. It also helps us create assets that reflect certain emotions that we want to evoke.
 </div>

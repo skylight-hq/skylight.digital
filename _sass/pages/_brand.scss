@@ -199,6 +199,11 @@
 .card--identity {
   background-image: url(/img/brand/landing/identity.svg);
 
+  h2,
+  a {
+    color: $blue-100-a;
+  }
+
   .blog-post-footer {
     border-bottom-color: $sk-blue-light !important;
   }
@@ -215,6 +220,11 @@
 .card--illustration {
   background-image: url(/img/brand/landing/illustration.svg);
 
+  h2,
+  a {
+    color: $green-300-a;
+  }
+
   .blog-post-footer {
     border-bottom-color: $green-300 !important;
   }
@@ -223,6 +233,11 @@
 .card--outreach {
   background-image: url(/img/brand/landing/outreach.svg);
 
+  h2,
+  a {
+    color: $red-200;
+  }
+
   .blog-post-footer {
     border-bottom-color: $red-200 !important;
   }
@@ -230,6 +245,11 @@
 
 .card--resources {
   background-image: url(/img/brand/landing/resources.svg);
+
+  h2,
+  a {
+    color: $ochre-300;
+  }
 
   .blog-post-footer {
     border-bottom-color: $sk-yellow !important;
