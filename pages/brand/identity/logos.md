@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
   <figure class="section__img w-100">
-    <img class="px-2 py-6 w-50" src="/img/logo.svg" alt="">
+    <img class="px-2 py-6 w-75" src="/img/logo.svg" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
