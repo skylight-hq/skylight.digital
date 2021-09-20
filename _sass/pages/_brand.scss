@@ -359,7 +359,8 @@
   .nav-link--current,
   .current,
   .pagination-alt__step,
-  .subnav-col .nav-link:hover {
+  .subnav-col .nav-link:hover,
+  .subnav-col .nav-link:focus  {
     color: $color !important;
   }
 }
