@@ -54,6 +54,6 @@ class: brand
 
 We keep it simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. Roboto Mono comes in more sparingly.
 
-See our [Document Templates](https://drive.google.com/drive/u/1/folders/1c9vEFespRGtH9yGAOIpOCZaGIr6eeXSe) for more examples of the brand in use.
+See our [document templates](/brand/resources/templates/) for more examples of the brand in use.
 </div>
 </div>

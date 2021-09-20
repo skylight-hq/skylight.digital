@@ -21,7 +21,7 @@ class: brand
 
 We use illustration as our primary visual style. It makes us feel different and vibrant, and helps us tell better stories through art. Illustrations are a key part of Skylight’s brand.
 
-Creating new artwork? You should check the [Illustration Guidelines](/brand/illustration/principles/).
+Creating new artwork? You should check out our [illustration guidelines](/brand/illustration/principles/).
 </div>
 </div>
 
@@ -44,9 +44,9 @@ When sharing photos, we want to feature real people with real-life stories to te
 
 Facial expressions, clothing, hair/makeup should look natural (not over-the-top stock).
 
-Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers.
+Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers:
 
-- Figure out: “What am I trying to say with this photo?”
+- Figure out what you're trying to say with this photo
 - Capture all relevant objects, people, and background
 - Focus your image on people in action, facial expressions, and body language
 - Consider the composition of your image

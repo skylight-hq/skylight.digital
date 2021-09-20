@@ -41,7 +41,7 @@ When creating Skylight assets for marketing and communications purposes, we have
 <div class="col-md-4" markdown="1">
 ## Graphic elements
 
-Geometric shapes (circle, triangle, square) are recurring graphic elements used in both layout design and illustration. Consider the following rules when using these elements.
+Geometric shapes (circle, triangle, square) are recurring graphic elements used in both layout design and illustration. Consider the following rules when using these elements:
 
 1. Always outline
 1. Rotate and scale as needed
