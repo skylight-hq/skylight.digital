@@ -32,6 +32,14 @@ class: brand
 ## Typefaces
 
 [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?query=fran&preview.text_type=custom) is the primary typeface with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono&preview.text_type=custom) serving as a complementary typeface. Both are available from Google Fonts.
+
+1. Libre Franklin Bold 700
+1. Libre Franklin SemiBold 600
+1. Libre Franklin Medium 500
+1. Libre Franklin Regular 400
+1. Libre Franklin Light 300
+1. Roboto Mono Regular 400
+{: .list--circle }
 </div>
 </div>
 
@@ -53,6 +61,13 @@ class: brand
 ## Usage
 
 We keep it simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. Roboto Mono comes in more sparingly.
+
+1. Roboto Mono Regular
+1. Franklin Libre Semibold
+1. Franklin Libre Light
+1. Franklin Libre SemiBold
+1. Franklin Libre Regular
+1. Roboto Mono Regular
 
 See our [document templates](/brand/resources/templates/) for more examples of the brand in use.
 </div>
