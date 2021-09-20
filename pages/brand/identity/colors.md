@@ -33,7 +33,7 @@ Each individual color has its own meanings:
 1. **Red:** energy, passion, authority, confidence
 {: .list--circle }
 
-These colors and their meanings help define the way that our audience perceives Skylight’s brand. It also helps us create assets that reflect certain emotions that we want to evoke.
+These colors and their meanings help define the way that our audience perceives Skylight’s brand. It also helps us create assets that reflect certain emotions that we want to evoke. Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
 </div>
 </div>
 
