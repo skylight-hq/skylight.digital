@@ -215,12 +215,12 @@ A clearspace of `2x` is recommended around the logo.
     <div class="text-center">
       <p><b>Web</b></p>
       <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="">
-      <p class="text-brand-info mt-2">100 px</p>
+      <p class="text-brand-info mt-2 font-2xs">100 px</p>
     </div>
     <div class="text-center">
       <p><b>Print</b></p>
       <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="">
-      <p class="text-brand-info mt-2">1.375 IN</p>
+      <p class="text-brand-info mt-2 font-2xs">1.375 IN</p>
     </div>
   </div>
 </div>
