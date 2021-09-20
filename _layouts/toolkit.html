@@ -43,21 +43,23 @@ image_description: Skylight toolkit banner showing a collection of different too
         </nav>
       </div>
     </div>
-    <section class="page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}}
+    <div class="page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}}
     {% if page.toolkit_name == "brand" %}
     col-md-10
     {% else %}
     col-md-9
     {% endif %}
     ">
-      {{ content }}
+      <section class="text">
+        {{ content }}
+      </section>
 
       {% assign items = site.data.toolkits[page.sidenav].toc %}
       {% for item in items %}
         {% if item.url == page.url %}
           {% assign prev_i = forloop.index0 | minus: 1 %}
           {% assign next_i = forloop.index0 | plus: 1 %}
-          <div class="pagination-alt text-primary mt-5">
+          <nav class="pagination-alt text-primary mt-5">
             <div>
               {% unless page.url == items.first.url %}
               <a class="pagination-alt__step pagination-alt__step--previous" href="{{ items[prev_i].url }}">
@@ -86,7 +88,7 @@ image_description: Skylight toolkit banner showing a collection of different too
                 </a>
               {% endunless %}
             </div>
-          </div>
+          </nav>
         {% endif %}
       {% endfor %}
       <button class="btn btn-primary btn--scroll-to-top" onclick="topFunction()" id="btn--scroll-to-top">
@@ -95,7 +97,7 @@ image_description: Skylight toolkit banner showing a collection of different too
           <span class="btn--scroll-to-top__first-text">Scroll to </span><span class="btn--scroll-to-top__second-text">top</span>
         </span>
       </button>
-    </section>
+    </div>
   </div>
 </div>
 
