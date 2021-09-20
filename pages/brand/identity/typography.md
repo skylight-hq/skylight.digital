@@ -68,6 +68,7 @@ We keep it simple and easy to use. We primarily use Franklin Libre Semibold, Reg
 1. Franklin Libre SemiBold
 1. Franklin Libre Regular
 1. Roboto Mono Regular
+{: .list--circle }
 
 See our [document templates](/brand/resources/templates/) for more examples of the brand in use.
 </div>
