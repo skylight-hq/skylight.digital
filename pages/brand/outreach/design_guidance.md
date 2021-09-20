@@ -1,9 +1,9 @@
 ---
 layout: toolkit
-title: Layout design
+title: Design guidance
 description: Layout design is a fundamental part of any piece of visual communication. Whether we’re designing a web page or a business card, our layout is key when it comes to creating an engaging and user-friendly experience.
 tags:
-permalink: /brand/outreach/layout-design/
+permalink: /brand/outreach/design-guidance/
 sidenav: brand_outreach
 content_type: Toolkit
 toolkit_name: brand
@@ -23,7 +23,7 @@ class: brand
 
 When creating Skylight assets for marketing and communications purposes, we have a few guidelines that we’d like you to follow.
 
-1. Lead with primary blue in designatterns adds personality to the images.
+1. Lead with primary blue in design patterns adds personality to the images.
 1. Headlines use sentence case in Franklin Libre Semibold.
 1. “Tech” elements, like buttons, are set in Roboto Mono.
 {: .list--circle }
