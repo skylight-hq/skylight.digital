@@ -74,7 +74,8 @@
   a {
     border-bottom: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
       border-bottom: none;
     }
   }
