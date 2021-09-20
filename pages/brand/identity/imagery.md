@@ -21,7 +21,7 @@ class: brand
 
 We use illustration as our primary visual style. It makes us feel different and vibrant, and helps us tell better stories through art. Illustrations are a key part of Skylight’s brand.
 
-Creating new artwork? You should check out our [illustration guidelines](/brand/illustration/principles/).
+Creating new artwork? You should check out our [illustration brand guidelines](/brand/illustration/principles/).
 </div>
 </div>
 
