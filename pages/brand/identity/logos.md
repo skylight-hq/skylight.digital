@@ -19,7 +19,7 @@ class: brand
 <div class="col-md-4" markdown="1">
 ## Standard logo
 
-Our logo consists of two elements: the logotype and the “halo” — our logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon (see the [icons page](/brand/identity/icons/) for rules around usage). To aid in brand awareness, the logotype and logomark is typically used in our customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
+Our logo consists of two elements: the logotype and the “halo” — our logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon (see the [icons page](/brand/identity/icons/) for rules around usage). Our logo is typically used in customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
 
 {% include download_link.html
   text="logo"
