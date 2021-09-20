@@ -14,7 +14,10 @@ Skylight uses these methods — activities and techniques — to achieve the man
 
 The methods below are organized by phase. Visit each one to find a detailed description of how to do the activity, what it aims to achieve, who to involve, templates to get you started, and other helpful information.
 
-## Initiate
+<div class="sdf__heading-section">
+  <img class="sdf__icon" src="/img/service_design/icons/initiate.svg" alt="">
+  <h2 class="my-0 ml-3">Initiate</h2>
+</div>
 
 ### Alignment / kickoff workshop
 
@@ -43,7 +46,10 @@ Create a visual representation of all the people who can influence a project and
   url = "/work/toolkits/service-design-framework/methods/stakeholder-mapping/"
 %}
 
-## Discover
+<div class="sdf__heading-section">
+  <img class="sdf__icon" src="/img/service_design/icons/discover.svg" alt="">
+  <h2 class="my-0 ml-3">Discover</h2>
+</div>
 
 ### Stakeholder and customer interviews
 
@@ -90,7 +96,10 @@ Better understand a service and how you can improve it by visualizing the many p
   url = "/work/toolkits/service-design-framework/methods/service-blueprint/"
 %}
 
-## Strategize
+<div class="sdf__heading-section">
+  <img class="sdf__icon" src="/img/service_design/icons/strategize.svg" alt="">
+  <h2 class="my-0 ml-3">Strategize</h2>
+</div>
 
 ### Prioritization workshops
 
@@ -110,7 +119,10 @@ Articulate who your customers are, their needs, and important insights about the
   url = "/work/toolkits/service-design-framework/methods/pov-statement/"
 %}
 
-## Experiment
+<div class="sdf__heading-section">
+  <img class="sdf__icon" src="/img/service_design/icons/experiment.svg" alt="">
+  <h2 class="my-0 ml-3">Experiment</h2>
+</div>
 
 ### Role-playing
 
@@ -130,7 +142,10 @@ Get responses to a working prototype without investing in making one. Create res
   url = "/work/toolkits/service-design-framework/methods/wizard-of-oz/"
 %}
 
-## Implement
+<div class="sdf__heading-section">
+  <img class="sdf__icon" src="/img/service_design/icons/implement.svg" alt="">
+  <h2 class="my-0 ml-3">Implement</h2>
+</div>
 
 ### Minimum viable product (MVP)
 
