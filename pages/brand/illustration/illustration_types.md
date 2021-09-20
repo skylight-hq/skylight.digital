@@ -56,11 +56,11 @@ This images are used primarily within pages on the website.
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5 flex-column">
-    <img class="" src="/img/brand/illustration/hero-1.jpg" alt="">
+    <img class="" src="/img/brand/illustration/heroes/contact-us-hero.png" alt="">
     <p class="caption">Standard hero banner</p>
-    <img class="mt-5" src="/img/brand/illustration/hero-2.jpg" alt="">
+    <img class="mt-5" src="/img/brand/illustration/heroes/service-design-hero.png" alt="">
     <p class="caption">Tall hero banner</p>
-    <img class="mt-5 w-50" src="/img/brand/illustration/hero-3.jpg" alt="">
+    <img class="mt-5 w-50" src="/img/brand/illustration/heroes/talks-hero.png" alt="">
     <p class="caption">Mobile hero banner</p>
   </figure>
 </div>
