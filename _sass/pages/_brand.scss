@@ -223,6 +223,13 @@
 
   .blog-post-footer {
     border-bottom-color: $sk-blue !important;
+
+    a {
+      &:hover,
+      &:focus {
+        color: $sk-blue;
+      }
+    }
   }
 }
 
@@ -236,6 +243,13 @@
 
   .blog-post-footer {
     border-bottom-color: $green-300 !important;
+
+    a {
+      &:hover,
+      &:focus {
+        color: $green-300-a;
+      }
+    }
   }
 }
 
@@ -249,6 +263,13 @@
 
   .blog-post-footer {
     border-bottom-color: $red-200 !important;
+
+    a {
+      &:hover,
+      &:focus {
+        color: $red-200;
+      }
+    }
   }
 }
 
@@ -262,6 +283,13 @@
 
   .blog-post-footer {
     border-bottom-color: $sk-yellow !important;
+
+    a {
+      &:hover,
+      &:focus {
+        color: $ochre-300;
+      }
+    }
   }
 }
 
