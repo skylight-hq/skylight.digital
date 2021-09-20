@@ -34,6 +34,6 @@ A miscellaneous assortment of digital assets.
 
 We love creativity when it comes to helping people display their Skylight pride through merchandise. Just make sure you keep the logo as-is and maintain the brand voice with any custom graphics.
 
-There’ll be some instances where the full five-color version of the lockup can’t be printed (e,g., engraving). In these cases, use the one-color logo.
+There’ll be some instances where the full five-color version of the lockup can’t be printed (e.g., engraving). In these cases, use the one-color logo.
 </div>
 </div>
