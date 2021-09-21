@@ -15,10 +15,7 @@ Skylight adapts these templates to use in the various methods we leverage in our
 
 The templates below are organized by phase. Most are in the tool MURAL, but can easily be done on a physical whiteboard, in Google Slides, or whatever tools you have at your disposal.
 
-<div class="sdf__heading-section">
-  <img class="sdf__icon" src="/img/service_design/icons/initiate.svg" alt="">
-  <h2 class="my-0 ml-3">Initiate</h2>
-</div>
+## Initiate
 
 ### [Kickoff workshop]({{ template.project_planning.url }})
 
@@ -38,10 +35,7 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 <br>
 **Tool:** MURAL
 
-<div class="sdf__heading-section">
-  <img class="sdf__icon" src="/img/service_design/icons/discover.svg" alt="">
-  <h2 class="my-0 ml-3">Discover</h2>
-</div>
+## Discover
 
 ### [Catalogue of documents]({{ template.catalogue_of_documents.url }})
 
@@ -70,10 +64,7 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 <br>
 **Tool:** MURAL
 
-<div class="sdf__heading-section">
-  <img class="sdf__icon" src="/img/service_design/icons/strategize.svg" alt="">
-  <h2 class="my-0 ml-3">Strategize</h2>
-</div>
+## Strategize
 
 ### [Point of view (POV) statement]({{ template.pov_statement.url }})
 **Method:** POV statement
@@ -86,18 +77,12 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 <br>
 **Tool:** MURAL
 
-<div class="sdf__heading-section">
-  <img class="sdf__icon" src="/img/service_design/icons/experiment.svg" alt="">
-  <h2 class="my-0 ml-3">Experiment</h2>
-</div>
+## Experiment
 
 No templates needed.
 {: .mt-4 }
 
-<div class="sdf__heading-section">
-  <img class="sdf__icon" src="/img/service_design/icons/implement.svg" alt="">
-  <h2 class="my-0 ml-3">Implement</h2>
-</div>
+## Implement
 
 ### [Roadmap]({{ template.roadmap.url }})
 
