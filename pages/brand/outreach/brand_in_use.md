@@ -43,7 +43,7 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-## Internal promotional materials
+## Internal promotional material
 
 
 </div>
@@ -56,7 +56,7 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-## External promotional materials
+## External promotional material
 
 
 </div>
