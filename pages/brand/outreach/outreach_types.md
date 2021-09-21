@@ -1,9 +1,9 @@
 ---
 layout: toolkit
-title: Brand in use
+title: Outreach types
 description: We create a lot of promotional materials at Skylight, both for internal activities and to generate brand awareness externally. To ensure consistency, we’ve developed guidance for creating materials that feature our brand identity.
 tags:
-permalink: /brand/outreach/brand-in-use/
+permalink: /brand/outreach/outreach-types/
 sidenav: brand_outreach
 content_type: Toolkit
 toolkit_name: brand
@@ -19,7 +19,7 @@ class: brand
 <div class="col-md-4" markdown="1">
 ## Website hero banner
 
-
+Our hero banner helps present our overall mission and includes a call to action in order to engage our audience. It contains a large background image with text and a button. For digital formats, we typically use sentence case for capitalizing headings.
 </div>
 </div>
 
@@ -30,9 +30,9 @@ class: brand
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-## Web advertisement
+## Online advertisement
 
-
+In web advertisements, we aim to clearly communicate our message and convince our audience to interact further. We use minimal text, graphic elements, and a call to action in order to help create a visually balanced design.
 </div>
 </div>
 
@@ -45,7 +45,7 @@ class: brand
 <div class="col-md-4" markdown="1">
 ## Internal promotional material
 
-
+From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a number of internal events. We want to create engaging internal communications — not only to ensure that team members know what to expect, but also to get them excited about attending!
 </div>
 </div>
 
@@ -58,7 +58,7 @@ class: brand
 <div class="col-md-4" markdown="1">
 ## External promotional material
 
-
+We tailor our external promotional material to different audiences. For prospective employees, we want to provide a brief, clear header and an engaging visual element that interests our audience enough for them to find out more information.
 </div>
 </div>
 
@@ -71,7 +71,7 @@ class: brand
 <div class="col-md-4" markdown="1">
 ## Business card
 
-
+Our business card communicates important information to the audience, emphasizing Skylight’s logo and the employee’s name. We use Roboto Mono font for the email, telephone number, and our website.
 </div>
 </div>
 
