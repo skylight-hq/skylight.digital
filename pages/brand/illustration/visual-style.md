@@ -87,11 +87,11 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
 
 To maintain consistency our illustrations use color, lines, and fills in a similar way.
 
-1. Use hair and skin colors, as needed, to represet the diverse world.
+1. Use hair and skin colors, as needed, to represent the diverse world.
 1. Creating texture with patterns adds personality to the images.
 1. Accent minimally with light gray.
 1. Illustrations are crafted using offset outlines with selected fills.
-1. Organizational clothing (such as military uniforms) is an exception to the limited palette it should reflect real life.
+1. Organizational clothing (such as military uniforms) is an exception to the limited palette and should reflect real life.
 {: .list--circle }
 </div>
 </div>
