@@ -13,13 +13,65 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/outreach/misc.jpg" alt="">
+    <img class="" src="/img/brand/outreach/hero.png" alt="">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
-## Digital assets
+## Website hero banner
 
-A miscellaneous assortment of digital assets.
+
+</div>
+</div>
+
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img p-5">
+    <img class="" src="/img/brand/outreach/web-advertisement.png" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
+## Web advertisement
+
+
+</div>
+</div>
+
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img p-5">
+    <img class="px-md-6" src="/img/brand/outreach/internal-promotion-material.jpg" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
+## Internal promotional material
+
+
+</div>
+</div>
+
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img p-5">
+    <img class="" src="/img/brand/outreach/external-promotion-material.jpg" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
+## External promotional material
+
+
+</div>
+</div>
+
+<div class="row brand__content-section">
+<div class="col-md-8">
+  <figure class="section__img p-5">
+    <img class="" src="/img/brand/outreach/business-card.jpg" alt="">
+  </figure>
+</div>
+<div class="col-md-4" markdown="1">
+## Business card
+
+
 </div>
 </div>
 
