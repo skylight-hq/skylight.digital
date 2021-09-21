@@ -96,4 +96,26 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
 </div>
 </div>
 
+<div class="row brand__content-section">
+<div class="col-md-8 d-flex">
+  <div class="section__container p-5 w-100">
+    <figure class="text-center mb-0">
+      <img class="" src="/img/brand/outreach/graphic-elements.svg" alt="">
+    </figure>
+  </div>
+</div>
+<div class="col-md-4" markdown="1">
+## Graphic elements
+
+Geometric shapes (circle, triangle, square) are recurring graphic elements used in both layout design and illustration. Consider the following rules when using these elements:
+
+1. Always outline
+1. Rotate and scale as needed
+1. Direct focus to important copy (but don’t overpower it)
+1. Anchor to illustration vignette when possible
+1. Add texture to negative space
+{: .list--circle .mb-0 }
+</div>
+</div>
+
 {% include js/copy-hex.js %}
