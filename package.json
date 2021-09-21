@@ -7,8 +7,6 @@
   },
   "devDependencies": {
     "cryptiles": ">=4.1.2",
-    "eslint": "^7.0.0",
-    "eslint-utils": ">=1.4.1",
     "extend": ">=3.0.2",
     "grunt-cli": "^1.4.3",
     "kind-of": ">=6.0.3",
@@ -20,7 +18,6 @@
   "scripts": {
     "scss-lint": "bundle exec scss-lint ./_sass",
     "html-lint": "bundle exec htmlproofer ./build",
-    "js-lint": "eslint ./_site/js/script.js",
     "docker-run": "docker run --rm --volume=\"$PWD:/srv/jekyll\" --volume=\"$PWD/vendor/bundle:/usr/local/bundle\" --env JEKYLL_ENV=development -p 4000:4000 jekyll/jekyll:3.8 jekyll serve"
   },
   "repository": {
