@@ -32,7 +32,7 @@ Our hero banner helps present our overall mission and includes a call to action 
 <div class="col-md-4" markdown="1">
 ## Online advertisement
 
-In web advertisements, we aim to clearly communicate our message and convince our audience to interact further. We use minimal text, graphic elements, and a call to action in order to help create a visually balanced design.
+In online advertisements, we aim to clearly communicate our message and convince our audience to interact further. We use minimal text, graphic elements, and a call to action in order to help create a visually balanced design.
 </div>
 </div>
 
