@@ -508,10 +508,6 @@
       background-image: url("/img/brand/hero/resources.png");
       // background-size: 38.5%;
     }
-
-    .pagination__step--first {
-      color: $red-200 !important;
-    }
   }
 
   .brand-hero__content * {
@@ -526,6 +522,10 @@
 
   h1 {
     font-size: $font-size-x-large;
+  }
+
+  .pagination__step--first {
+    color: $red-200 !important;
   }
 }
 
