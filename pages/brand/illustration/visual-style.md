@@ -100,7 +100,7 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
 <div class="col-md-8 d-flex">
   <div class="section__container p-5 w-100">
     <figure class="text-center mb-0">
-      <img class="" src="/img/brand/outreach/graphic-elements.svg" alt="">
+      <img class="" src="/img/brand/illustration/graphic-elements.svg" alt="">
     </figure>
   </div>
 </div>
