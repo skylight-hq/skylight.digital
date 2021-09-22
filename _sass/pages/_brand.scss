@@ -175,7 +175,6 @@
     }
   }
 
-
   .brand-hero__content {
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/landing.png");
@@ -220,6 +219,7 @@
 
 .card--writing {
   background-image: url(/img/brand/landing/writing.svg);
+  background-size: 112px !important;
 
   .blog-post-footer {
     border-bottom-color: $sk-blue !important;
@@ -255,6 +255,7 @@
 
 .card--outreach {
   background-image: url(/img/brand/landing/outreach.svg);
+  background-size: 116px !important;
 
   h2,
   a {
