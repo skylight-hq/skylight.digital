@@ -46,6 +46,14 @@
     }
   }
 
+  .subnav-col {
+    a {
+      @include media-breakpoint-down(sm) {
+        margin-left: -1rem;
+      }
+    }
+  }
+
   .grid-container,
   .header,
   .footer {
@@ -677,4 +685,8 @@
 
 .typography--text-block {
   line-height: 1.3;
+}
+
+.brand-example--emoji {
+  max-width: 148px !important;
 }

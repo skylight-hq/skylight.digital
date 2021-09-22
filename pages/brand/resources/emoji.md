@@ -11,10 +11,15 @@ class: brand
 ---
 
 <div class="row brand__content-section">
-<div class="col-md-8 d-flex">
-  <figure class="section__img">
-    <img class="p-5 w-75" src="/img/brand/resources/emoji.svg" alt="Heart and Skylight logo emojis">
-  </figure>
+<div class="col-md-8">
+  <div class="section__container row no-gutters p-5">
+    <div class="col-lg-6 text-center">
+      <img class="brand-example--emoji" src="/img/brand/identity/icons/intro.svg" alt="Skylight logo">
+    </div>
+    <div class="col-lg-6 text-center mt-5 mt-lg-0">
+      <img class="brand-example--emoji" src="/img/brand/resources/skylight-heart.svg" alt="Heart logo">
+    </div>
+  </div>
 </div>
 <div class="col-md-4 mt-4 mt-md-0" markdown="1">
 # Emoji
