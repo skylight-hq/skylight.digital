@@ -381,6 +381,10 @@
       // background-size: initial;
     }
   }
+
+  .pagination__step--last {
+    color: $sk-blue !important;
+  }
 }
 
 .page--brand-writing {
@@ -410,6 +414,14 @@
   .example {
     margin-top: 0;
   }
+
+  .pagination__step--first {
+    color: $blue-100-a !important;
+  }
+
+  .pagination__step--last {
+    color: $green-300 !important;
+  }
 }
 
 .page--brand-illustration {
@@ -434,6 +446,14 @@
 
   h1 {
     font-size: $font-size-x-large;
+  }
+
+  .pagination__step--first {
+    color: $blue-200 !important;
+  }
+
+  .pagination__step--last {
+    color: $red-200 !important;
   }
 }
 
@@ -464,6 +484,14 @@
   h1 {
     font-size: $font-size-x-large;
   }
+
+  .pagination__step--first {
+    color: $green-300 !important;
+  }
+
+  .pagination__step--last {
+    color: $ochre-300 !important;
+  }
 }
 
 .page--brand-resources {
@@ -479,6 +507,10 @@
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/resources.png");
       // background-size: 38.5%;
+    }
+
+    .pagination__step--first {
+      color: $red-200 !important;
     }
   }
 
