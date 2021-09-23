@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Brand pack | Skylight Brand Guidelines
+title: Brand pack
 description:
 tags:
 permalink: /brand/resources/downloads/

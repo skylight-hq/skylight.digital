@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Emoji | Skylight Brand Guidelines
+title: Emoji
 description:
 tags:
 permalink: /brand/resources/emoji/
