@@ -38,9 +38,14 @@ In online advertisements, we aim to clearly communicate our message and convince
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="px-md-6" src="/img/brand/outreach/internal-promotion-material.jpg" alt="">
-  </figure>
+  <div class="section__container p-5">
+    <figure class="mb-0 px-md-6">
+      <img class="" src="/img/brand/outreach/internal-promotional-material/personal-growth-share-outs-flyer.jpg" alt="">
+    </figure>
+    <figure class="mb-0 px-md-6">
+      <img class="mt-5" src="/img/brand/outreach/internal-promotional-material/speaker-series-flyer.jpg" alt="">
+    </figure>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Internal promotional material
@@ -77,9 +82,24 @@ Our business card communicates important information to the audience, emphasizin
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/outreach/swag.jpg" alt="">
-  </figure>
+  <div class="section__container p-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/img/brand/outreach/swag/shirt.jpg" alt="">
+      </div>
+      <div class="col-md-6 mt-5 mt-md-0">
+        <img src="/img/brand/outreach/swag/sweatshirt.jpg" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mt-5">
+        <img src="/img/brand/outreach/swag/hoodie.jpg" alt="">
+      </div>
+      <div class="col-md-6 mt-5">
+        <img src="/img/brand/outreach/swag/bottle.jpg" alt="">
+      </div>
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Swag
