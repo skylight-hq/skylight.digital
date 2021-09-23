@@ -15,6 +15,26 @@ class: brand
   <figure class="section__img p-5">
     <img class="" src="/img/brand/illustration/featured-post.svg" alt="">
   </figure>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Featured post illustrations
@@ -30,6 +50,26 @@ These images are always full-bleed with a background color.
   <figure class="section__img p-5">
     <img class="" src="/img/brand/illustration/floating-1.svg" alt="">
   </figure>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Floating illustrations
@@ -45,6 +85,20 @@ They’re monochromatic using a bold color from the illustration palette. Accent
   <figure class="section__img p-5">
     <img class="" src="/img/brand/illustration/floating-2.svg" alt="">
   </figure>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 Even though illustrations are monochromatic, pages/layouts with many floating images should rotate through the different primary Skylight colors.
@@ -80,6 +134,26 @@ Hero banners are made of 2–4 illustration vingettes and the geometric shapes. 
   <figure class="section__img p-5">
     <img class="" src="/img/brand/illustration/portraits.svg" alt="">
   </figure>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Portraits

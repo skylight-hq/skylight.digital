@@ -12,9 +12,14 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/imagery/illustration.svg" alt="">
-  </figure>
+  <div class="section__container p-5">
+    <figure class="mb-0">
+      <img class="w-100" src="/img/services-microconsulting.svg" alt="A few people collaborating on a large project (small people holding big pencils, filling out a larger than life chart)">
+    </figure>
+    <figure class="mb-0">
+      <img class="mt-5" src="/img/projects/va_diffusion_marketplace/diffusion-marketplace.svg" alt="Doctors, administrators, and veteran patients interacting through digital panes.">
+    </figure>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Illustration
@@ -56,9 +61,16 @@ Every image should tell a story. There are a few tricks we can use to make sure 
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/imagery/portraits.jpg" alt="">
-  </figure>
+  <div class="section__container p-5">
+    <div class="row no-gutters mb-0">
+      <div class="col-sm-6">
+        <img class="" src="/img/people/gabriel-ramirez.jpg" alt="Gabriel Ramirez">
+      </div>
+      <div class="col-sm-6 mt-5 mt-sm-0">
+        <img class="" src="/img/people/maya-benari.jpg" alt="Maya Benari">
+      </div>
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Portraits

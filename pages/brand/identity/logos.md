@@ -261,6 +261,20 @@ In some instances, the center or the upper or lower right-hand corners might mak
   <figure class="section__img p-5">
     <img class="" src="/img/brand/identity/logos/rotation.svg" alt="">
   </figure>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-6">
+      <img src="" alt="">
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Rotation
@@ -276,6 +290,32 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
   <figure class="section__img p-5">
     <img class="" src="/img/brand/identity/logos/things-to-avoid.svg" alt="">
   </figure>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-4">
+      <img src="" alt="">
+    </div>
+  </div>
 </div>
 <div class="col-md-4" markdown="1">
 ## Things to avoid
