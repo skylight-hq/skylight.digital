@@ -1,6 +1,6 @@
 ---
 layout: toolkit
-title: Templates | Skylight Brand Guidelines
+title: Templates
 description:
 tags:
 permalink: /brand/resources/templates/
