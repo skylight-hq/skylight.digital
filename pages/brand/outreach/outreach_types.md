@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/outreach/hero.png" alt="">
+    <img class="" src="/img/brand/outreach/hero.png" alt="Skylight homepage hero">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -26,7 +26,7 @@ Our hero banner helps present our overall mission and includes a call to action 
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/outreach/web-advertisement.png" alt="">
+    <img class="" src="/img/brand/outreach/web-advertisement.png" alt="Online advertisement for DITAP">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -40,10 +40,10 @@ In online advertisements, we aim to clearly communicate our message and convince
 <div class="col-md-8">
   <div class="section__container p-5">
     <figure class="mb-0 px-md-4 px-lg-6">
-      <img class="" src="/img/brand/outreach/internal-promotional-material/personal-growth-share-outs-flyer.jpg" alt="">
+      <img class="" src="/img/brand/outreach/internal-promotional-material/personal-growth-share-outs-flyer.jpg" alt="Personal Growth Share Outs flyer">
     </figure>
     <figure class="mb-0 px-md-4 px-lg-6">
-      <img class="mt-5" src="/img/brand/outreach/internal-promotional-material/speaker-series-flyer.jpg" alt="">
+      <img class="mt-5" src="/img/brand/outreach/internal-promotional-material/speaker-series-flyer.jpg" alt="Speaker Series flyer">
     </figure>
   </div>
 </div>
@@ -57,7 +57,7 @@ From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a numb
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/outreach/external-promotion-material.jpg" alt="">
+    <img class="" src="/img/brand/outreach/external-promotion-material.jpg" alt="Recruitment flyer">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -70,7 +70,7 @@ We tailor our external promotional material to different audiences. For prospect
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="px-lg-6" src="/img/brand/outreach/business-card.jpg" alt="Business card">
+    <img class="px-lg-6" src="/img/brand/outreach/business-card.jpg" alt="Skylight business card">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -85,18 +85,18 @@ Our business card communicates important information to the audience, emphasizin
   <div class="section__container p-5">
     <div class="row">
       <div class="col-md-6">
-        <img src="/img/brand/outreach/swag/shirt.jpg" alt="">
+        <img src="/img/brand/outreach/swag/shirt.jpg" alt="Blue t-shirt with the Skylight logo">
       </div>
       <div class="col-md-6 mt-5 mt-md-0">
-        <img src="/img/brand/outreach/swag/sweatshirt.jpg" alt="">
+        <img src="/img/brand/outreach/swag/sweatshirt.jpg" alt="White sweatshirt with the Skylight logo">
       </div>
     </div>
     <div class="row">
       <div class="col-md-6 mt-5">
-        <img src="/img/brand/outreach/swag/hoodie.jpg" alt="">
+        <img src="/img/brand/outreach/swag/hoodie.jpg" alt="Black hoodie with the Skylight logo">
       </div>
       <div class="col-md-6 mt-5">
-        <img src="/img/brand/outreach/swag/bottle.jpg" alt="">
+        <img src="/img/brand/outreach/swag/bottle.jpg" alt="White water bottle with the Skylight logo">
       </div>
     </div>
   </div>

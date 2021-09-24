@@ -34,11 +34,10 @@ Creating new artwork? You should check out our [illustration brand guidelines](/
 <div class="col-md-8">
   <div class="section__container p-5">
     <figure class="mb-0">
-      <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="">
+      <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="Two airmen sitting inside an aircraft">
     </figure>
     <figure class="mb-0">
-      <img class="mt-5" src="/img/brand/identity/imagery/photography-2.jpg" alt="">
-      <p class="sr-only">Photo by <a href="https://unsplash.com/@myleon">Leon</a> on <a href="https://unsplash.com/photos/Oalh2MojUuk">Unsplash</a></p>
+      <img class="mt-5" src="/img/brand/identity/imagery/photography-2.jpg" alt="A woman pointing to Post-it Notes on a wall while people watch and listen">
     </figure>
   </div>
 </div>
@@ -64,10 +63,10 @@ Every image should tell a story. There are a few tricks we can use to make sure 
   <div class="section__container p-5">
     <div class="row no-gutters mb-0">
       <div class="col-sm-6">
-        <img class="" src="/img/people/gabriel-ramirez.jpg" alt="Gabriel Ramirez">
+        <img class="" src="/img/people/gabriel-ramirez.jpg" alt="Gabriel Ramirez headshot">
       </div>
       <div class="col-sm-6 mt-5 mt-sm-0">
-        <img class="" src="/img/people/maya-benari.jpg" alt="Maya Benari">
+        <img class="" src="/img/people/maya-benari.jpg" alt="Maya Benari headshot">
       </div>
     </div>
   </div>
