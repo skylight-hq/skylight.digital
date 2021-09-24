@@ -284,33 +284,34 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logos/things-to-avoid.svg" alt="">
-  </figure>
-  <div class="row">
-    <div class="col-md-4">
-      <img src="" alt="">
+  <div class="section__container p-5">
+    <div class="row gutters--sm">
+      <div class="col-md-4 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/red-type.svg" alt="Skylight logo with red type with a crossed line through it">
+      </div>
+      <div class="col-md-4 mt-3 mt-md-0 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/squished-type.svg" alt="Skylight logo with vertically squished type with a crossed line through it">
+      </div>
+      <div class="col-md-4 mt-3 mt-md-0 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/mono-type.svg" alt="Skylight logo using mono font with a crossed line through it">
+      </div>
+      <div class="col-md-4 mt-3 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/outline-type.svg" alt="Skylight logo with outlined font with a crossed line through it">
+      </div>
+      <div class="col-md-4 mt-3 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/image-type.svg" alt="Skylight logo with a background image mask over the font with a crossed line through it">
+      </div>
+      <div class="col-md-4 mt-3 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/spaced-type.svg" alt="Skylight logo with extra space between letters with a crossed line through it">
+      </div>
     </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
+    <div class="row gutters--sm justify-content-center">
+      <div class="col-md-4 mt-3 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/diagonal.svg" alt="Skylight logo on a diagonal with a crossed line through it">
+      </div>
+      <div class="col-md-4 mt-3 text-center">
+        <img src="/img/brand/identity/logos/things-to-avoid/bg-image.svg" alt="Skylight logo over a busy image with a crossed line through it">
+      </div>
     </div>
   </div>
 </div>
