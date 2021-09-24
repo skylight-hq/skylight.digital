@@ -70,7 +70,7 @@ We tailor our external promotional material to different audiences. For prospect
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/outreach/business-card.jpg" alt="">
+    <img class="px-lg-6" src="/img/brand/outreach/business-card.jpg" alt="Business card">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
