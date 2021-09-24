@@ -30,10 +30,8 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
-  <div class="section__container p-5 w-100">
-    <figure class="section__img border-0">
-      <img class="" src="/img/brand/identity/logos/behind-the-design.svg" alt="">
-    </figure>
+  <div class="section__container w-100">
+    <img class="" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="">
   </div>
 </div>
 <div class="col-md-4" markdown="1">
@@ -52,10 +50,8 @@ The circular form symbolizes cycle (a feedback loop), inclusion (designing for e
 
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
-  <div class="section__container p-5 w-100">
-    <figure class="section__img border-0">
-      <img class="" src="/img/brand/identity/logos/behind-the-design.svg" alt="">
-    </figure>
+  <div class="section__container w-100">
+    <img class="w-100" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="">
   </div>
 </div>
 <div class="col-md-4" markdown="1">
@@ -258,21 +254,22 @@ In some instances, the center or the upper or lower right-hand corners might mak
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logos/rotation.svg" alt="">
-  </figure>
-  <div class="row">
-    <div class="col-md-6">
-      <img src="" alt="">
+  <div class="section__container p-5">
+    <div class="row">
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+        <img src="/img/brand/identity/logos/positioning/top-left.svg" alt="">
+      </div>
+      <div class="col-md-6 text-center mt-5 mt-md-0">
+        <img src="/img/brand/identity/logos/positioning/top-right.svg" alt="">
+      </div>
     </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
+    <div class="row mt-md-5">
+      <div class="col-md-6 text-center mt-5 mt-md-0">
+        <img src="/img/brand/identity/logos/positioning/bottom-left.svg" alt="">
+      </div>
+      <div class="col-md-6 text-center mt-5 mt-md-0">
+        <img src="/img/brand/identity/logos/positioning/bottom-right.svg" alt="">
+      </div>
     </div>
   </div>
 </div>

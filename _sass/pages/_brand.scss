@@ -667,11 +667,10 @@
       align-items: center;
       justify-content: center;
       font-size: $font-size-xx-small;
-      font-weight: bold;
       margin-top: 2px;
-      background-color: $gray-80;
+      border: 1px solid $gray-80;
       border-radius: 100%;
-      color: #fff;
+      color: $gray-80;
     }
   }
 }
@@ -684,6 +683,10 @@
 
 .typography--text-block {
   line-height: 1.3;
+
+  p {
+    color: $sk-blue;
+  }
 }
 
 .brand-example--emoji {
