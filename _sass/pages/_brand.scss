@@ -692,3 +692,13 @@
 .brand-example--emoji {
   max-width: 148px !important;
 }
+
+.gutters--sm {
+  &.row {
+    margin-inline: -8px;
+  }
+
+  [class^="col-"] {
+    padding-inline: 8px;
+  }
+}

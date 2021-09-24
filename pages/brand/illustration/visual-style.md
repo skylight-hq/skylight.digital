@@ -77,7 +77,7 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
   <div class="section__img p-5 flex-column">
     <div class="row">
       <div class="col-12 text-center">
-        <img class="" src="/img/brand/illustration/general-guidance.svg" alt="A caretaker with children sitting around a table and playing with blocks with a computer in the background. Gear technician helping a female pilot put on her helmet.">
+        <img class="" src="/img/brand/illustration/general-guidance.svg" alt="Two images: A caretaker with children sitting around a table and playing with blocks with a computer in the background. Gear technician helping a female pilot put on her helmet.">
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
 <div class="col-md-8 d-flex">
   <div class="section__container p-5 w-100">
     <figure class="text-center mb-0">
-      <img class="" src="/img/brand/illustration/graphic-elements.svg" alt="">
+      <img class="" src="/img/brand/illustration/graphic-elements.svg" alt="Geometric shapes and a website hero banner">
     </figure>
   </div>
 </div>

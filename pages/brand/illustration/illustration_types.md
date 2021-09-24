@@ -12,27 +12,26 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/illustration/featured-post.svg" alt="">
-  </figure>
-  <div class="row">
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
+  <div class="section__container p-5">
+    <div class="row gutters--sm">
+      <div class="col-md-6">
+        <img src="/img/projects/usaf_arms/arms.svg" alt="An Air Force parachutist jumping out of a plan, with digital components in the background.">
+      </div>
+      <div class="col-md-6 mt-3 mt-md-0">
+        <img src="/img/projects/cdc_simplereport/cdc-simplereport.svg" alt="A swab test being administered and recorded on a tablet.">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/projects/usaf_bespin_design_system/design-system.svg" alt="A pair of hands moving objects around to make a pattern.">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/projects/ct_oec_care4kids_auto_notifier/care4kids-auto-notifier.svg" alt="Family with young children sitting together with a mobile phone in the background showing a green status checkmark.">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/projects/uscis_everify_modernization/employment-eligibility-verification.svg" alt="A person using a punchcard to enter work.">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/projects/va_diffusion_marketplace/diffusion-marketplace.svg" alt="Doctors, administrators, and veteran patients interacting through digital panes.">
+      </div>
     </div>
   </div>
 </div>
@@ -47,27 +46,28 @@ These images are always full-bleed with a background color.
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/illustration/floating-1.svg" alt="">
-  </figure>
-  <div class="row">
-    <div class="col-md-4">
-      <img src="" alt="">
+  <div class="section__container p-5">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="/img/ditap/personalized-guidance.svg" alt="Woman walking with a book in front of a map pin.">
+      </div>
+      <div class="col-md-4">
+        <img src="/img/ditap/dynamic-learning.svg" alt="Man walking up an incline holding a laptop.">
+      </div>
+      <div class="col-md-4">
+        <img src="/img/ditap/expert-instructor.svg" alt="Woman teaching in front of a whiteboard.">
+      </div>
     </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-4">
-      <img src="" alt="">
+    <div class="row mt-md-5">
+      <div class="col-md-4">
+        <img src="/img/ditap_executive/expert-instructors.svg" alt="A teacher instructing in front of a white board.">
+      </div>
+      <div class="col-md-4">
+        <img src="/img/ditap_executive/focused-learning.svg" alt="A woman studying.">
+      </div>
+      <div class="col-md-4">
+        <img src="/img/ditap_executive/distilled-content.svg" alt="A man pouring the contents of the course into a funnel.">
+      </div>
     </div>
   </div>
 </div>
@@ -82,21 +82,20 @@ They’re monochromatic using a bold color from the illustration palette. Accent
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/illustration/floating-2.svg" alt="">
-  </figure>
-  <div class="row">
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
+  <div class="section__container p-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="px-2" src="/img/services-infographic.svg" alt="Illustration of a government building in a computer browser with a green checkmark, surrounded by icons that represent different service functions.">
+      </div>
+      <div class="col-md-6 mt-5 mt-md-0">
+        <img class="px-4" src="/img/culture-infographic.svg" alt="Illustration of various government workers with gears and light bulbs in the background.">
+      </div>
+      <div class="col-md-6 mt-5">
+        <img class="px-1" src="/img/about-infographic.svg" alt="Illustration of a government building, encircled by icons that represent important government functions.">
+      </div>
+      <div class="col-md-6 mt-5">
+        <img class="px-4" src="/img/experience-infographic.svg" alt="Illustration of a technology maze with an arrow representing how to navigate the complexity.">
+      </div>
     </div>
   </div>
 </div>
@@ -131,27 +130,26 @@ Hero banners are made of 2–4 illustration vingettes and the geometric shapes. 
 
 <div class="row brand__content-section">
 <div class="col-md-8">
-  <figure class="section__img p-5">
-    <img class="" src="/img/brand/illustration/portraits.svg" alt="">
-  </figure>
-  <div class="row">
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
-    </div>
-    <div class="col-md-6">
-      <img src="" alt="">
+  <div class="section__container p-5">
+    <div class="row gutters--sm">
+      <div class="col-md-6">
+        <img src="/img/people/tiffany-nieh.png" alt="Tiffany Nieh illustration">
+      </div>
+      <div class="col-md-6 mt-3 mt-md-0">
+        <img src="/img/people/becca-woodberry.png" alt="Becca Woodberry illustration">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/people/laura-kerry.png" alt="Laura Kerry illustration">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/people/andrew-lloyd.png" alt="Andrew Lloyd illustration">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/people/chun-yen.png" alt="Chun Yen illustration">
+      </div>
+      <div class="col-md-6 mt-3">
+        <img src="/img/people/ashton-tu.png" alt="Ashton Tu illustration">
+      </div>
     </div>
   </div>
 </div>
