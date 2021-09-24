@@ -14,10 +14,10 @@ class: brand
 <div class="col-md-8">
   <div class="section__container row no-gutters p-5">
     <div class="col-lg-6 text-center">
-      <img class="brand-example--emoji" src="/img/brand/identity/icons/intro.svg" alt="Skylight logo">
+      <img class="brand-example--emoji" src="/img/brand/identity/icons/intro.svg" alt="Skylight logomark">
     </div>
     <div class="col-lg-6 text-center mt-5 mt-lg-0">
-      <img class="brand-example--emoji" src="/img/brand/resources/skylight-heart.svg" alt="Heart logo">
+      <img class="brand-example--emoji" src="/img/brand/resources/skylight-heart.svg" alt="Skylight heart emoji">
     </div>
   </div>
 </div>

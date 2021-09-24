@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
   <figure class="section__img py-5 w-100">
-    <img class="w-25" src="/img/brand/identity/icons/intro.svg" alt="">
+    <img class="w-25" src="/img/brand/identity/icons/intro.svg" alt="Skylight icon">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -34,21 +34,21 @@ To highlight Skylight’s presence, we use our standard icon as an avatar in our
     <div class="d-flex justify-content-evenly">
       <figure class="brand--logo-variant d-flex flex-column mb-0">
         <figcaption class="caption">Standard</figcaption>
-        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo.svg" alt="Skylight logo inverse">
+        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo.svg" alt="Skylight icon">
       </figure>
       <figure class="brand--logo-variant d-flex flex-column mb-0">
         <figcaption class="caption">Grayscale</figcaption>
-        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-grayscale.svg" alt="Skylight logo">
+        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-grayscale.svg" alt="Skylight icon grayscale">
       </figure>
     </div>
     <div class="d-flex bg-gray-darker justify-content-evenly">
       <figure class="brand--logo-variant d-flex flex-column mb-0">
         <figcaption class="caption text-white">Inverse <br>color</figcaption>
-        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-inverse.svg" alt="Skylight logo inverse">
+        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-inverse.svg" alt="Skylight icon inverse">
       </figure>
       <figure class="brand--logo-variant d-flex flex-column mb-0">
         <figcaption class="caption text-white">Inverse <br>grayscale</figcaption>
-        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-grayscale-inverse.svg" alt="Skylight logo">
+        <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-grayscale-inverse.svg" alt="Skylight icon grayscale inverse">
       </figure>
     </div>
   </div>

@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
   <figure class="section__img w-100">
-    <img class="px-2 py-6 w-75" src="/img/logo.svg" alt="">
+    <img class="px-2 py-6 w-75" src="/img/logo.svg" alt="Skylight logo">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -31,7 +31,7 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
   <div class="section__container w-100">
-    <img class="" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="">
+    <img class="" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
   </div>
 </div>
 <div class="col-md-4" markdown="1">
@@ -51,7 +51,7 @@ The circular form symbolizes cycle (a feedback loop), inclusion (designing for e
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
   <div class="section__container w-100">
-    <img class="w-100" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="">
+    <img class="w-100" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="Skylight logotype">
   </div>
 </div>
 <div class="col-md-4" markdown="1">
@@ -99,10 +99,10 @@ Always aim to use one of these versions. The colors reinforce the brand identity
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex flex-column">
   <figure class="section__img w-100">
-    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale.svg" alt="Skylight logo">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale.svg" alt="Skylight logo grayscale">
   </figure>
   <figure class="section__img w-100 bg-gray-darker">
-    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale-inverse.svg" alt="Skylight logo inverse">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale-inverse.svg" alt="Skylight logo grayscale inverse">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -125,10 +125,10 @@ If a black and white version of the logo is required, use the standard grayscale
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex flex-column">
   <figure class="section__img w-100">
-    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-one-color.svg" alt="Skylight logo">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-one-color.svg" alt="Skylight logo one color">
   </figure>
   <figure class="section__img w-100 bg-gray-darker">
-    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-one-color-inverse.svg" alt="Skylight logo inverse">
+    <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-one-color-inverse.svg" alt="Skylight logo one color inverse">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -153,18 +153,18 @@ This version of the logo is for instances in which only one color is allowed. Th
   <div class="section__img d-flex flex-column">
     <div class="d-flex align-items-center justify-content-center">
       <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom.svg" alt="Skylight logo">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom.svg" alt="Skylight logo bar bottom">
       </figure>
       <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom-inverse.svg" alt="Skylight logo inverse">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom-inverse.svg" alt="Skylight logo bar bottom inverse">
       </figure>
     </div>
     <div class="d-flex align-items-center justify-content-center">
       <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top-inverse.svg" alt="Skylight logo inverse">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top-inverse.svg" alt="Skylight logo bar top inverse">
       </figure>
       <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top.svg" alt="Skylight logo">
+        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top.svg" alt="Skylight logo bar top">
       </figure>
     </div>
   </div>
@@ -199,7 +199,7 @@ This variation of the logo can be used in instances, such as templates, where th
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="w-75" src="/img/brand/identity/logos/spacing.svg" alt="">
+    <img class="w-75" src="/img/brand/identity/logos/spacing.svg" alt="Skylight logo spacing guidance">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -216,12 +216,12 @@ A clearspace of `2x` is recommended around the logo.
   <div class="section__img justify-content-evenly py-5">
     <div class="text-center">
       <p><b>Web</b></p>
-      <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="">
+      <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="Skylight logo with width indicator">
       <p class="text-brand-info mt-2 font-2xs">100 px</p>
     </div>
     <div class="text-center">
       <p><b>Print</b></p>
-      <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="">
+      <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="Skylight logo with width indicator">
       <p class="text-brand-info mt-2 font-2xs">1.375 IN</p>
     </div>
   </div>
@@ -238,7 +238,7 @@ Never scale the logo smaller than the sizes specified.
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/logos/general-positioning.svg" alt="">
+    <img class="" src="/img/brand/identity/logos/general-positioning.svg" alt="Skylight logo positioned in a grid">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
@@ -257,18 +257,18 @@ In some instances, the center or the upper or lower right-hand corners might mak
   <div class="section__container p-5">
     <div class="row">
       <div class="col-md-6 d-flex align-items-center justify-content-center">
-        <img src="/img/brand/identity/logos/positioning/top-left.svg" alt="">
+        <img src="/img/brand/identity/logos/positioning/top-left.svg" alt="Skylight logo at 0°">
       </div>
       <div class="col-md-6 text-center mt-5 mt-md-0">
-        <img src="/img/brand/identity/logos/positioning/top-right.svg" alt="">
+        <img src="/img/brand/identity/logos/positioning/top-right.svg" alt="Skylight logo at 0° in a grid">
       </div>
     </div>
     <div class="row mt-md-5">
       <div class="col-md-6 text-center mt-5 mt-md-0">
-        <img src="/img/brand/identity/logos/positioning/bottom-left.svg" alt="">
+        <img src="/img/brand/identity/logos/positioning/bottom-left.svg" alt="Skylight logo at 90°">
       </div>
       <div class="col-md-6 text-center mt-5 mt-md-0">
-        <img src="/img/brand/identity/logos/positioning/bottom-right.svg" alt="">
+        <img src="/img/brand/identity/logos/positioning/bottom-right.svg" alt="Skylight logo at 90° in a grid">
       </div>
     </div>
   </div>

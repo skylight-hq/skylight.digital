@@ -14,7 +14,7 @@ class: brand
 <div class="col-md-8">
   <div class="section__container p-5">
     <figure class="mb-0">
-      <img class="" src="/img/brand/outreach/" alt="Example ">
+      <img class="" src="/img/brand/outreach/" alt="Example outreach material">
     </figure>
   </div>
 </div>
