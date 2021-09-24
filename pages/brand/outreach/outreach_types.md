@@ -39,10 +39,10 @@ In online advertisements, we aim to clearly communicate our message and convince
 <div class="row brand__content-section">
 <div class="col-md-8">
   <div class="section__container p-5">
-    <figure class="mb-0 px-md-6">
+    <figure class="mb-0 px-md-4 px-lg-6">
       <img class="" src="/img/brand/outreach/internal-promotional-material/personal-growth-share-outs-flyer.jpg" alt="">
     </figure>
-    <figure class="mb-0 px-md-6">
+    <figure class="mb-0 px-md-4 px-lg-6">
       <img class="mt-5" src="/img/brand/outreach/internal-promotional-material/speaker-series-flyer.jpg" alt="">
     </figure>
   </div>
