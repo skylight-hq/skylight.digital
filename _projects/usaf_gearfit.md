@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 4000
 display: true
-tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, mical nobel, phoebe espiritu, lesley evans, adam weber, nick clyde, mitchell sipus, maya benari, kari hodges, eric richards, nicole campbell, andrew wagner, kenny nieh, nicole wright, taylor curtiss, gianna uson]
+tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, mical nobel, phoebe espiritu, lesley evans, adam weber, nick clyde, mitchell sipus, maya benari, kari hodges, eric richards, nicole campbell, andrew wagner, kenny nieh, nicole wright, taylor curtiss, gianna uson, sarah tress]
 excerpt: A digital platform for transforming how the U.S. Air Force manages personal protective equipment.
 project_members:
   - nicole-campbell
@@ -28,6 +28,7 @@ project_members:
   - nicole-wright
   - taylor-curtiss
   - gianna-uson
+  - sarah-tress
 technologies:
   - HTML / CSS / Sass
   - JavaScript / React
