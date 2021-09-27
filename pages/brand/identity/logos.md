@@ -30,8 +30,8 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 
 <div class="row brand__content-section">
 <div class="col-md-8 d-flex">
-  <div class="section__container w-100">
-    <img class="" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
+  <div class="section__container d-flex w-100">
+    <img class="w-75 py-6 mr-6" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
   </div>
 </div>
 <div class="col-md-4" markdown="1">
@@ -44,6 +44,8 @@ Behind the design
 The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
 
 The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
+
+Each of the four colors in our logo — blue, green, ochre, and red — has its own specific connotations that help evoke certain emotions in our audience. See the [colors page](/brand/identity/colors/) for more context around what each color means.
 {: .mb-0 }
 </div>
 </div>
@@ -61,9 +63,7 @@ Behind the design
 ## The type
 {: .mt-0 }
 
-The logotype uses a wide kerning to make our brand feel open and accessible.
-
-The four colors in our logo convey the diversity and inclusiveness of our team. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
+The logotype uses a wide kerning to make our brand feel open and accessible. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
 {: .mb-0 }
 </div>
 </div>
