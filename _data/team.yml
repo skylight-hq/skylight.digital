@@ -2240,3 +2240,66 @@
       link: https://www.linkedin.com/in/mina-c-2489979/
       link_description: Mina's LinkedIn Account
       fa_icon_name: linkedin
+- name: sarah-tress
+  fname: Sarah
+  lname: Tress
+  full_name: Sarah Tress
+  short_name: S. Tress
+  profile_path: /company/about/#sarah-tress
+  image: /img/people/sarah-tress.jpg
+  image_description: Photo of Sarah Tress
+  position:
+  bio: >
+    Sarah's an engineer and social scientist who loves to work at the intersection of technology and public service. She recently graduated from Oxford with a Master's in Development Studies as a Rhodes Scholar after studying Mechanical Engineering at MIT. Sarah lives in New York.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/sarahtress/
+      link_description: Sarah's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: http://sarahtress.me/
+      link_description: Sarah's Personal Website
+      fa_icon_name: home
+- name: gordon-farrell
+  fname: Gordon
+  lname: Farrell
+  full_name: Gordon Farrell
+  short_name: G. Farrell
+  profile_path: /company/about/#gordon-farrell
+  image: /img/people/gordon-farrell.jpg
+  image_description: Photo of Gordon Farrell
+  position:
+  bio: >
+    Gordon’s a software engineer specializing in government tech. He built his career in civil service with the Department of Defense, where he focused on software modernization in the U.S. Air Force's Kessel Run program. Gordon's a champion for automated testing, high cadence CI/CD, and working directly with users to provide great software. Gordon lives in Colorado.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/gordonfarrell/
+      link_description: Gordon's LinkedIn Account
+      fa_icon_name: linkedin
+- name: jennifer-herzberg
+  fname: Jennifer
+  lname: Herzberg
+  full_name: Jennifer Herzberg
+  short_name: S. Tress
+  profile_path: /company/about/#jennifer-herzberg
+  image: /img/people/jennifer-herzberg.jpg
+  image_description: Photo of Jennifer Herzberg
+  position:
+  bio: >
+    Jennifer’s a product designer who specializes in user-centered design. Previously, she led design at early- to mid-stage stage startups in the healthcare, education, and real estate industries. Jennifer studied Cognitive Science with a specialization in Human-Computer Interaction at UC San Diego. She lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jenniferherzberg/
+      link_description: Jennifer's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/jjherzberg
+      link_description: Jennifer's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: http://www.jenniferherzberg.com/
+      link_description: Jennifer's Personal Website
+      fa_icon_name: home
