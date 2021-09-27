@@ -3,7 +3,7 @@
     $('button.btn-copy-hex').click(function(){
 
       let btn = $(this)
-      let text = btn.siblings('.hex-val').text().toUpperCase();
+      let text = btn.siblings('.hex-val').text();
       let original_text = btn.attr('data-original-title')
 
       btn.attr('data-original-title', 'Copied!')
