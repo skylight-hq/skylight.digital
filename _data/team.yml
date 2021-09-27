@@ -2261,6 +2261,10 @@
       link: http://sarahtress.me/
       link_description: Sarah's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/sarah-tress/
+      link_description: Sarah's Project Work
+      fa_icon_name: wrench
 - name: gordon-farrell
   fname: Gordon
   lname: Farrell
@@ -2278,6 +2282,10 @@
       link: https://www.linkedin.com/in/gordonfarrell/
       link_description: Gordon's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/gordon-farrell/
+      link_description: Gordon's Project Work
+      fa_icon_name: wrench
 - name: jennifer-herzberg
   fname: Jennifer
   lname: Herzberg
@@ -2303,3 +2311,7 @@
       link: http://www.jenniferherzberg.com/
       link_description: Jennifer's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/jennifer-herzberg/
+      link_description: Jennifer's Project Work
+      fa_icon_name: wrench
