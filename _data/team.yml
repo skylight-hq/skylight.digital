@@ -2248,7 +2248,7 @@
   profile_path: /company/about/#sarah-tress
   image: /img/people/sarah-tress.jpg
   image_description: Photo of Sarah Tress
-  position:
+  position: Product Designer Apprentice
   bio: >
     Sarah's an engineer and social scientist who loves to work at the intersection of technology and public service. She recently graduated from Oxford with a Master's in Development Studies as a Rhodes Scholar after studying Mechanical Engineering at MIT. Sarah lives in New York.
   active: true
@@ -2273,7 +2273,7 @@
   profile_path: /company/about/#gordon-farrell
   image: /img/people/gordon-farrell.jpg
   image_description: Photo of Gordon Farrell
-  position:
+  position: Software Engineer
   bio: >
     Gordon’s a software engineer specializing in government tech. He built his career in civil service with the Department of Defense, where he focused on software modernization in the U.S. Air Force's Kessel Run program. Gordon's a champion for automated testing, high cadence CI/CD, and working directly with users to provide great software. Gordon lives in Colorado.
   active: true
@@ -2294,7 +2294,7 @@
   profile_path: /company/about/#jennifer-herzberg
   image: /img/people/jennifer-herzberg.jpg
   image_description: Photo of Jennifer Herzberg
-  position:
+  position: Product Designer
   bio: >
     Jennifer’s a product designer who specializes in user-centered design. Previously, she led design at early- to mid-stage stage startups in the healthcare, education, and real estate industries. Jennifer studied Cognitive Science with a specialization in Human-Computer Interaction at UC San Diego. She lives in California.
   active: true
