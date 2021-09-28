@@ -88,6 +88,37 @@
   img + .caption {
     margin-top: 0.25rem;
   }
+
+  @include media-breakpoint-up(md) {
+    .grid {
+      display: grid;
+      grid-column-gap: 2rem;
+      grid-template-columns: 1fr 31%;
+      grid-template-rows: min-content 1fr;
+      padding-inline: 0;
+    }
+
+    .grid__heading {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .grid__image {
+      grid-column: 1;
+      grid-row: 1/span 2;
+    }
+
+    .grid__content {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
+
+  .grid__content {
+    @include media-breakpoint-down(sm) {
+      margin-top: 1rem;
+    }
+  }
 }
 
 .brand {
