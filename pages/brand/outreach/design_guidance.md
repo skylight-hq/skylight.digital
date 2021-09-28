@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Design guidance
-description: We create a lot of promotional materials at Skylight, both for internal activities and to generate brand awareness externally. See how we’ve applied our design guidelines to a range of different assets.
+description: Whether designing a web page or a business card, we’ve developed some essential guidance that can be applied across Skylight’s marketing and communications materials.
 tags:
 permalink: /brand/outreach/design-guidance/
 sidenav: brand_outreach

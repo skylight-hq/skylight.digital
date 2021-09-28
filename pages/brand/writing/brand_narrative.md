@@ -37,7 +37,7 @@ Thinking and being digital requires fundamental practice, culture, and technolog
 <div class="col-md-9" markdown="1">
 ## The Skylight difference
 
-Why do customers choose to work with us?
+Customers choose to work with us not only because of our talented employees and deep expertise, but also our dedication to serving the public in an open and inclusive manner.
 </div>
 <div class="col-md-9">
 <div class="example" markdown="1">
