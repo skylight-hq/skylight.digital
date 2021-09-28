@@ -2315,3 +2315,20 @@
       link: /work/team-member/jennifer-herzberg/
       link_description: Jennifer's Project Work
       fa_icon_name: wrench
+- name: george-sarah-hager
+  fname: George
+  lname: Hager
+  full_name: George (Sarah) Hager
+  short_name: G. Hager
+  profile_path: /company/about/#george-sarah-hager
+  image: /img/people/george-sarah-hager.jpg
+  image_description: Photo of George (Sarah) Hager
+  position: Software Engineer
+  bio: >
+    George’s an engineer who enjoys building software that makes life easier, more equitable, and delightful. She specializes in full-stack software engineering and test-driven development, and loves developing best practices on engineering teams. George previously worked with the U.S. Air Force's Kessel Run program. She lives in Massachusetts.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: www.linkedin.com/in/sarah-george-software
+      link_description: George's LinkedIn Account
+      fa_icon_name: linkedin
