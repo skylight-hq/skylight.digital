@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Outreach types
-description: We create a lot of promotional materials at Skylight, both for internal activities and to generate brand awareness externally. To ensure consistency, we’ve developed guidance for creating materials that feature our brand identity.
+description: We create a lot of outreach materials at Skylight, both for internal activities and to generate brand awareness externally. See how we’ve applied our design guidelines to a range of different assets.
 tags:
 permalink: /brand/outreach/outreach-types/
 sidenav: brand_outreach
