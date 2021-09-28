@@ -10,9 +10,9 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Illustration</h2>
+  <div class="grid__image section__container p-5">
     <figure class="mb-0">
       <img class="w-100" src="/img/services-microconsulting.svg" alt="A few people collaborating on a large project (small people holding big pencils, filling out a larger than life chart)">
     </figure>
@@ -20,19 +20,16 @@ class: brand
       <img class="mt-5" src="/img/projects/va_diffusion_marketplace/diffusion-marketplace.svg" alt="Doctors, administrators, and veteran patients interacting through digital panes.">
     </figure>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Illustration
-
+  <div class="grid__content" markdown="1">
 We use illustration as our primary visual style. It makes us feel different and vibrant, and helps us tell better stories through art. Illustrations are a key part of Skylight’s brand.
 
 Creating new artwork? You should check out our [illustration brand guidelines](/brand/illustration/principles/).
-</div>
+  </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Photography</h2>
+  <div class="grid__image section__container p-5">
     <figure class="mb-0">
       <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="Two airmen sitting inside an aircraft">
     </figure>
@@ -40,10 +37,7 @@ Creating new artwork? You should check out our [illustration brand guidelines](/
       <img class="mt-5" src="/img/brand/identity/imagery/photography-2.jpg" alt="A woman pointing to Post-it Notes on a wall while people watch and listen">
     </figure>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Photography
-
+  <div class="grid__content" markdown="1">
 When sharing photos, we want to feature real people with real-life stories to tell. Capture a sense of place by showing activities with teammates, customers, and partners.
 
 Facial expressions, clothing, hair/makeup should look natural (not over-the-top stock).
@@ -58,9 +52,9 @@ Every image should tell a story. There are a few tricks we can use to make sure 
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Portraits</h2>
+  <div class="grid__image section__container p-5">
     <div class="row no-gutters mb-0">
       <div class="col-sm-6">
         <img class="" src="/img/people/gabriel-ramirez.jpg" alt="Gabriel Ramirez headshot">
@@ -70,10 +64,7 @@ Every image should tell a story. There are a few tricks we can use to make sure 
       </div>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Portraits
-
+  <div class="grid__content" markdown="1">
 We aim to take authentic portraits of people.
 
 Use a shallow depth of field in an outdoor setting.
@@ -81,7 +72,5 @@ Use a shallow depth of field in an outdoor setting.
 When possible, set up images to include an element of blue (in clothing or surroundings).
 
 The photo should be edited to use a realistic color balance.
+  </div>
 </div>
-</div>
-
-
