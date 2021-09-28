@@ -2332,3 +2332,7 @@
       link: www.linkedin.com/in/sarah-george-software
       link_description: George's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/sarah-george-hager/
+      link_description: George's Project Work
+      fa_icon_name: wrench
