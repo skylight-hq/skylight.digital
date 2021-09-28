@@ -255,34 +255,32 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
   </div>
 </div>
 
-<div class="brand__content-section grid">
+<div class="brand__content-section grid section__things-to-avoid">
   <h2 class="grid__heading">Things to avoid</h2>
-  <div class="grid__image section__img p-5">
-    <div class="row gutters--sm">
-      <div class="col-md-4 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/red-type.svg" alt="Skylight logo with red type with a crossed line through it">
-      </div>
-      <div class="col-md-4 mt-3 mt-md-0 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/squished-type.svg" alt="Skylight logo with vertically squished type with a crossed line through it">
-      </div>
-      <div class="col-md-4 mt-3 mt-md-0 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/mono-type.svg" alt="Skylight logo using mono font with a crossed line through it">
-      </div>
-      <div class="col-md-4 mt-3 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/outline-type.svg" alt="Skylight logo with outlined font with a crossed line through it">
-      </div>
-      <div class="col-md-4 mt-3 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/image-type.svg" alt="Skylight logo with a background image mask over the font with a crossed line through it">
-      </div>
-      <div class="col-md-4 mt-3 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/spaced-type.svg" alt="Skylight logo with extra space between letters with a crossed line through it">
-      </div>
-      <div class="col-md-4 mt-3 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/diagonal.svg" alt="Skylight logo on a diagonal with a crossed line through it">
-      </div>
-      <div class="col-md-4 mt-3 text-center">
-        <img src="/img/brand/identity/logos/things-to-avoid/bg-image.svg" alt="Skylight logo over a busy image with a crossed line through it">
-      </div>
+  <div class="grid__image section__img p-5" style="">
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/red-type.svg" alt="Skylight logo with red type with a crossed line through it">
+    </div>
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/squished-type.svg" alt="Skylight logo with vertically squished type with a crossed line through it">
+    </div>
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/mono-type.svg" alt="Skylight logo using mono font with a crossed line through it">
+    </div>
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/outline-type.svg" alt="Skylight logo with outlined font with a crossed line through it">
+    </div>
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/image-type.svg" alt="Skylight logo with a background image mask over the font with a crossed line through it">
+    </div>
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/spaced-type.svg" alt="Skylight logo with extra space between letters with a crossed line through it">
+    </div>
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/diagonal.svg" alt="Skylight logo on a diagonal with a crossed line through it">
+    </div>
+    <div class="grid-col">
+      <img src="/img/brand/identity/logos/things-to-avoid/bg-image.svg" alt="Skylight logo over a busy image with a crossed line through it">
     </div>
   </div>
   <div class="grid__content" markdown="1">
@@ -294,5 +292,5 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
 - Use the logo over a busy background
 - Rotate the logo to anything other than `0°` and `90°`
 - Change the logo’s proportions
-  </div>
+</div>
 </div>
