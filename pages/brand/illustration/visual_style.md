@@ -10,47 +10,41 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <figure class="section__img p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Palette</h2>
+  <figure class="grid__image section__img p-5">
     <img class="w-100" src="/img/brand/illustration/palette.svg" alt="Illustrations in the brand color palette">
   </figure>
-</div>
-<div class="col-md-4" markdown="1">
-## Palette
-
+  <div class="grid__content" markdown="1">
 To create unity and cohesion within the brand, we use color in a specific way.
 
 The limited color palette, combined with the offset outlines, creates a sophisticated, lighthearted, and positive tone.
 </div>
 </div>
 
-<div class="row brand__content-section">
-  <div class="col-md-8">
-    <div class="section__container p-5">
-      <div class="swatch__container brand-swatch row">
-      {% assign color = site.data.color %}
-        {% for item in color.primary_illustration %}
-          <div class="swatch-group col-6 col-md-4">
-            <div class="swatch bg-{{ item.token }}"></div>
-            <p>{{ item.token }}</p>
-            <p class='hex-val'>#{{ item.value }}</p>
-            {% include copy_hex_button.html %}
-          </div>
-        {% endfor %}
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Primary colors</h2>
+  <div class="grid__image section__container p-5">
+    <div class="swatch__container brand-swatch row">
+    {% assign color = site.data.color %}
+    {% for item in color.primary_illustration %}
+      <div class="swatch-group col-6 col-md-4">
+        <div class="swatch bg-{{ item.token }}"></div>
+        <p>{{ item.token }}</p>
+        <p class='hex-val'>#{{ item.value }}</p>
+        {% include copy_hex_button.html %}
       </div>
+    {% endfor %}
     </div>
   </div>
-<div class="col-md-4" markdown="1">
-## Primary colors
-
+  <div class="grid__content" markdown="1">
 Choose one bright primary color per illustration. Outlines should be black. Use light  gray minimally as needed.
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Skin and hair</h2>
+  <div class="grid__image section__container p-5">
     {% assign color = site.data.color %}
     <div class="row">
       {% for item in color.skin %}
@@ -64,56 +58,47 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
       {% endfor %}
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Skin and hair
-
+  <div class="grid__content" markdown="1">
 Use skin and hair colors as needed to reflect the diversity in the world around us. These colors serve as a base to get started — they can get adjusted slightly to ensure contrast with the other colors in the illustration.
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__img p-5 flex-column">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">General guidance</h2>
+  <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-12 text-center">
         <img class="" src="/img/brand/illustration/general-guidance.svg" alt="Two images: A caretaker with children sitting around a table and playing with blocks with a computer in the background. Gear technician helping a female pilot put on her helmet.">
       </div>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## General guidance
-
+  <div class="grid__content" markdown="1">
 To maintain consistency our illustrations use color, lines, and fills in a similar way.
 
 1. Use hair and skin colors, as needed, to represent the diverse world.
-1. Creating texture with patterns adds personality to the images.
-1. Accent minimally with light gray.
-1. Illustrations are crafted using offset outlines with selected fills.
-1. Organizational clothing (such as military uniforms) is an exception to the limited palette and should reflect real life.
+2. Creating texture with patterns adds personality to the images.
+3. Accent minimally with light gray.
+4. Illustrations are crafted using offset outlines with selected fills.
+5. Organizational clothing (such as military uniforms) is an exception to the limited palette and should reflect real life.
 {: .list--circle }
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8 d-flex">
-  <div class="section__container p-5 w-100">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Graphic elements</h2>
+  <div class="grid__image section__container p-5">
     <figure class="text-center mb-0">
       <img class="" src="/img/brand/illustration/graphic-elements.svg" alt="Geometric shapes and a website hero banner">
     </figure>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Graphic elements
-
+  <div class="grid__content" markdown="1">
 Geometric shapes (circle, triangle, square) are recurring graphic elements used in both layout design and illustration. Consider the following rules when using these elements:
 
 1. Always outline
-1. Rotate and scale as needed
-1. Direct focus to important copy (but don’t overpower it)
-1. Anchor to illustration vignette when possible
-1. Add texture to negative space
+2. Rotate and scale as needed
+3. Direct focus to important copy (but don’t overpower it)
+4. Anchor to illustration vignette when possible
+5. Add texture to negative space
 {: .list--circle .mb-0 }
 </div>
 </div>

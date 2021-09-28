@@ -12,9 +12,9 @@ class: brand
 
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5 typography-example-1">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Typefaces</h2>
+  <div class="grid__image section__img p-5 typography-example-1">
     <div class="typography--text-block">
       <div class="d-flex align-items-center text-primary">
         <img src="/img/brand/identity/typography/step-1.svg" alt="1">
@@ -37,31 +37,23 @@ class: brand
         <p class="fw-300 ml-1" style="font-size: 2rem;"><i>for the vast and endless sea.</i></p>
       </div>
     </div>
-    <div class="d-flex align-items-start mt-5">
-      <img class="mt-1" src="/img/brand/identity/typography/step-6.svg" alt="6">
-      <p class="font-mono fw-300 ml-1">Antoine de Saint-Exupéry,<br> The Little Prince</p>
-    </div>
-
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Typefaces
-
+  <div class="grid__content" markdown="1">
 [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?query=fran&preview.text_type=custom) is the primary typeface with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono&preview.text_type=custom) serving as a complementary typeface. Both are available from Google Fonts.
 
 1. Libre Franklin Bold 700
-1. Libre Franklin SemiBold 600
-1. Libre Franklin Medium 500
-1. Libre Franklin Regular 400
-1. Libre Franklin Light 300
-1. Roboto Mono Regular 400
+2. Libre Franklin SemiBold 600
+3. Libre Franklin Medium 500
+4. Libre Franklin Regular 400
+5. Libre Franklin Light 300
+6. Roboto Mono Regular 400
 {: .list--circle }
-</div>
+  </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Usage</h2>
+  <div class="grid__image section__container p-5">
     <div class="d-flex align-items-center">
       <img src="/img/brand/identity/typography/step-1.svg" alt="1">
       <p class="kicker mb-0 ml-1" style="font-weight: 400;">ABOUT US</p>
@@ -87,20 +79,17 @@ class: brand
       <p class="font-mono mb-0 ml-1">{{ site.employee_count }} people + 1 ferret make up the team.</p>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Usage
-
+  <div class="grid__content" markdown="1">
 We keep it simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. Roboto Mono comes in more sparingly.
 
 1. Roboto Mono Regular
-1. Franklin Libre Semibold
-1. Franklin Libre Light
-1. Franklin Libre SemiBold
-1. Franklin Libre Regular
-1. Roboto Mono Regular
+2. Franklin Libre Semibold
+3. Franklin Libre Light
+4. Franklin Libre SemiBold
+5. Franklin Libre Regular
+6. Roboto Mono Regular
 {: .list--circle }
 
 See our [document templates](/brand/resources/templates/) for more examples of the brand in use.
-</div>
+  </div>
 </div>

@@ -10,26 +10,24 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="row brand__content-section">
-<div class="col-md-8 d-flex">
-  <figure class="section__img py-5 w-100">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Standard icon</h2>
+  <div class="grid__image section__img p-5">
     <img class="w-25" src="/img/brand/identity/icons/intro.svg" alt="Skylight icon">
-  </figure>
-</div>
-<div class="col-md-4" markdown="1">
-## Standard icon
-
+  </div>
+  <div class="grid__content" markdown="1">
 To highlight Skylight’s presence, we use our standard icon as an avatar in our different online spaces and social accounts. It can be used at a variety of sizes, as small as 16px.
 
 {% include download_link.html
   text="icon"
   url="img/brand/identity/assets/icon/avatar/svg/halo.svg"
 %}{: .mb-0 }
-</div>
+  </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Variants</h2>
+  <div class="grid__image">
   <div class="section__img d-flex flex-column">
     <div class="d-flex justify-content-evenly">
       <figure class="brand--logo-variant d-flex flex-column mb-0">
@@ -52,10 +50,8 @@ To highlight Skylight’s presence, we use our standard icon as an avatar in our
       </figure>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Variants
-
+  </div>
+  <div class="grid__content" markdown="1">
 Use the icon on the top for light backgrounds and the icon on the bottom for dark (including the darker blue).
-</div>
+  </div>
 </div>

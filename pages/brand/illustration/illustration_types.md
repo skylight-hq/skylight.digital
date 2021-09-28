@@ -10,9 +10,9 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Featured post illustrations</h2>
+  <div class="grid__image section__container p-5">
     <div class="row gutters--sm">
       <div class="col-md-6">
         <img src="/img/projects/usaf_arms/arms.svg" alt="An Air Force parachutist jumping out of a plan, with digital components in the background.">
@@ -34,19 +34,16 @@ class: brand
       </div>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Featured post illustrations
-
+  <div class="grid__content" markdown="1">
 Illustrations for posts, such as a case study or blog article, use 1–2 (three if absolutely needed) bright colors from the illustration palette.
 
 These images are always full-bleed with a background color.
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Floating illustrations</h2>
+  <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-md-4">
         <img src="/img/ditap/personalized-guidance.svg" alt="Woman walking with a book in front of a map pin.">
@@ -70,19 +67,16 @@ These images are always full-bleed with a background color.
       </div>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Floating illustrations
-
+  <div class="grid__content" markdown="1">
 Floating images don’t have borders or any background color.
 
 They’re monochromatic using a bold color from the illustration palette. Accent with `gray-100` and sparingly with light gray.
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading"></h2>
+  <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-md-6">
         <img class="px-2" src="/img/services-infographic.svg" alt="Illustration of a government building in a computer browser with a green checkmark, surrounded by icons that represent different service functions.">
@@ -98,17 +92,16 @@ They’re monochromatic using a bold color from the illustration palette. Accent
       </div>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
+  <div class="grid__content" markdown="1">
 Even though illustrations are monochromatic, pages/layouts with many floating images should rotate through the different primary Skylight colors.
 
 This images are used primarily within pages on the website.
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <figure class="section__img p-5 flex-column">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Heroes</h2>
+  <figure class="grid__image section__container p-5">
     <img class="" src="/img/brand/illustration/heroes/contact-us-hero.png" alt="">
     <p class="caption">Standard hero banner</p>
     <img class="mt-5" src="/img/brand/illustration/heroes/service-design-hero.png" alt="">
@@ -116,10 +109,7 @@ This images are used primarily within pages on the website.
     <img class="mt-5 w-50" src="/img/brand/illustration/heroes/talks-hero.png" alt="">
     <p class="caption">Mobile hero banner</p>
   </figure>
-</div>
-<div class="col-md-4" markdown="1">
-## Heroes
-
+  <div class="grid__content" markdown="1">
 Hero banners are monochromatic.
 
 The base color uses a primary color and the rest of the illustration uses lighter/darker shades. Each section of the website uses one color.
@@ -128,9 +118,9 @@ Hero banners are made of 2–4 illustration vingettes and the geometric shapes. 
 </div>
 </div>
 
-<div class="row brand__content-section">
-<div class="col-md-8">
-  <div class="section__container p-5">
+<div class="brand__content-section grid">
+  <h2 class="grid__heading">Portraits</h2>
+  <div class="grid__image section__container p-5">
     <div class="row gutters--sm">
       <div class="col-md-6">
         <img src="/img/people/tiffany-nieh.png" alt="Tiffany Nieh illustration">
@@ -152,10 +142,7 @@ Hero banners are made of 2–4 illustration vingettes and the geometric shapes. 
       </div>
     </div>
   </div>
-</div>
-<div class="col-md-4" markdown="1">
-## Portraits
-
+  <div class="grid__content" markdown="1">
 Portraits use 1–2 primary colors, as well as any skin and hair color needed.
 
 These images are always full-bleed with a background color.
