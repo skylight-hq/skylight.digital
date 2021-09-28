@@ -48,7 +48,7 @@ Each of the four colors in our logo — blue, green, ochre, and red — has its 
     <p class="kicker">Behind the design</p>
     <h2 class="mt-0">The type</h2>
   </hgroup>
-  <div class="grid__image section__container w-100">
+  <div class="grid__image section__container w-100 d-flex">
     <img class="w-100" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="Skylight logotype">
   </div>
   <div class="grid__content" markdown="1">
@@ -136,22 +136,24 @@ This version of the logo is for instances in which only one color is allowed. Th
 
 <div class="brand__content-section grid">
   <h2 class="grid__heading">Variations</h2>
-  <div class="grid__image section__container">
-    <div class="d-flex align-items-center justify-content-center">
-      <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom.svg" alt="Skylight logo bar bottom">
-      </figure>
-      <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom-inverse.svg" alt="Skylight logo bar bottom inverse">
-      </figure>
-    </div>
-    <div class="d-flex align-items-center justify-content-center">
-      <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top-inverse.svg" alt="Skylight logo bar top inverse">
-      </figure>
-      <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
-        <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top.svg" alt="Skylight logo bar top">
-      </figure>
+  <div class="grid__image">
+    <div class="section__container">
+      <div class="d-flex align-items-center justify-content-center">
+        <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
+          <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom.svg" alt="Skylight logo bar bottom">
+        </figure>
+        <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
+          <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom-inverse.svg" alt="Skylight logo bar bottom inverse">
+        </figure>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
+          <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top-inverse.svg" alt="Skylight logo bar top inverse">
+        </figure>
+        <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
+          <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top.svg" alt="Skylight logo bar top">
+        </figure>
+      </div>
     </div>
   </div>
   <div class="grid__content" markdown="1">
@@ -257,7 +259,7 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
 
 <div class="brand__content-section grid section__things-to-avoid">
   <h2 class="grid__heading">Things to avoid</h2>
-  <div class="grid__image section__img p-5" style="">
+  <div class="grid__image section__img p-5">
     <div class="grid-col">
       <img src="/img/brand/identity/logos/things-to-avoid/red-type.svg" alt="Skylight logo with red type with a crossed line through it">
     </div>
