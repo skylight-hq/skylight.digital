@@ -13,7 +13,7 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8">
   <figure class="section__img p-5">
-    <img class="" src="/img/brand/identity/colors/intro.svg" alt="">
+    <img class="w-100" src="/img/brand/illustration/palette.svg" alt="Illustrations in the brand color palette">
   </figure>
 </div>
 <div class="col-md-4" markdown="1">
