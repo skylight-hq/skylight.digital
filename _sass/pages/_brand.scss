@@ -341,8 +341,7 @@
 
   @include media-breakpoint-up(md) {
     background-position: bottom right;
-    // background-size: initial;
-    background-size: contain;
+    background-size: auto 383px;
     height: 450px;
   }
 
@@ -418,7 +417,7 @@
 
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/identity.svg");
-      // background-size: initial;
+      // background-size: auto 383px;
     }
   }
 
@@ -437,11 +436,11 @@
 
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/writing.svg");
-      // background-size: 50%;
+      background-size: 50%;
     }
 
     @include media-breakpoint-up(lg) {
-      // background-size: initial;
+      background-size: auto 383px;
     }
   }
 
@@ -476,11 +475,11 @@
 
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/illustration.svg");
-      // background-size: 55%;
+      background-size: 53%;
     }
 
     @include media-breakpoint-up(lg) {
-      // background-size: initial;
+      background-size: auto 383px;
     }
   }
 
