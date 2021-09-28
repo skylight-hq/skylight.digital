@@ -417,7 +417,7 @@
     background-image: url("/img/hero-mobile-company.svg");
 
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/identity.png");
+      background-image: url("/img/brand/hero/identity.svg");
       // background-size: initial;
     }
   }
@@ -436,7 +436,7 @@
     background-image: url("/img/hero-mobile-work.svg");
 
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/writing.png");
+      background-image: url("/img/brand/hero/writing.svg");
       // background-size: 50%;
     }
 
@@ -475,7 +475,7 @@
     background-image: url("/img/hero-mobile-careers.svg");
 
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/illustration.png");
+      background-image: url("/img/brand/hero/illustration.svg");
       // background-size: 55%;
     }
 
@@ -517,7 +517,7 @@
 
     @include media-breakpoint-up(md) {
       background-image: none;
-      background-image: url("/img/brand/hero/outreach.png");
+      background-image: url("/img/brand/hero/outreach.svg");
     }
   }
 
@@ -545,7 +545,7 @@
     background-image: url("/img/hero-mobile-connect.svg");
 
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/resources.png");
+      background-image: url("/img/brand/hero/resources.svg");
       // background-size: 38.5%;
     }
   }
