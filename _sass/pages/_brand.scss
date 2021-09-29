@@ -253,6 +253,13 @@
     color: $blue-100-a;
   }
 
+  a {
+    &:hover,
+    &:focus {
+      color: $blue-200;
+    }
+  }
+
   .blog-post-footer {
     border-bottom-color: $sk-blue-light !important;
   }
@@ -267,7 +274,7 @@
     a {
       &:hover,
       &:focus {
-        color: $sk-blue;
+        color: $blue-300;
       }
     }
   }
@@ -287,7 +294,7 @@
     a {
       &:hover,
       &:focus {
-        color: $green-300-a;
+        color: $green-350;
       }
     }
   }
@@ -309,7 +316,7 @@
     a {
       &:hover,
       &:focus {
-        color: $red-200;
+        color: $red-300;
       }
     }
   }
@@ -329,7 +336,7 @@
     a {
       &:hover,
       &:focus {
-        color: $ochre-300;
+        color: $ochre-400;
       }
     }
   }
@@ -396,7 +403,7 @@
   color: $ochre-300;
 }
 
-@mixin theme-link($color) {
+@mixin theme-link($color, $hover) {
   .nav-link--current,
   .current,
   .pagination-alt__step,
@@ -404,10 +411,14 @@
   .subnav-col .nav-link:focus {
     color: $color !important;
   }
+
+  .pagination-alt__step:hover {
+    color: $hover !important;
+  }
 }
 
 .page--brand-identity {
-  @include theme-link($blue-100-a);
+  @include theme-link($blue-100-a, $blue-200);
 
   .hero-banner {
     background-color: $sk-blue-light;
@@ -423,10 +434,16 @@
 
   .pagination__step--last {
     color: $sk-blue !important;
+
+    &:hover {
+      color: $blue-300 !important;
+    }
   }
 }
 
 .page--brand-writing {
+  @include theme-link($blue-200, $blue-300);
+
   .hero-banner {
     background-color: $sk-blue;
   }
@@ -456,15 +473,23 @@
 
   .pagination__step--first {
     color: $blue-100-a !important;
+
+    &:hover {
+      color: $blue-200 !important;
+    }
   }
 
   .pagination__step--last {
     color: $green-300 !important;
+
+    &:hover {
+      color: $green-350 !important;
+    }
   }
 }
 
 .page--brand-illustration {
-  @include theme-link($green-300);
+  @include theme-link($green-300, $green-350);
 
   .hero-banner {
     background-color: $green-300;
@@ -489,10 +514,18 @@
 
   .pagination__step--first {
     color: $blue-200 !important;
+
+    &:hover {
+      color: $blue-300 !important;
+    }
   }
 
   .pagination__step--last {
     color: $red-200 !important;
+
+    &:hover {
+      color: $red-300 !important;
+    }
   }
 }
 
@@ -505,7 +538,7 @@
 }
 
 .page--brand-outreach {
-  @include theme-link($red-200);
+  @include theme-link($red-200, $red-300);
 
   .hero-banner {
     background-color: $red-200;
@@ -526,15 +559,23 @@
 
   .pagination__step--first {
     color: $green-300 !important;
+
+    &:hover {
+      color: $green-350 !important;
+    }
   }
 
   .pagination__step--last {
     color: $ochre-300 !important;
+
+    &:hover {
+      color: $ochre-400 !important;
+    }
   }
 }
 
 .page--brand-resources {
-  @include theme-link($ochre-300);
+  @include theme-link($ochre-300, $ochre-400);
 
   .hero-banner {
     background-color: $sk-yellow;
@@ -565,6 +606,10 @@
 
   .pagination__step--first {
     color: $red-200 !important;
+
+    &:hover {
+      color: $red-300 !important;
+    }
   }
 }
 
