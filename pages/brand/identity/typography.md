@@ -18,23 +18,27 @@ class: brand
     <div class="typography--text-block">
       <div class="d-flex align-items-center text-primary">
         <img src="/img/brand/identity/typography/step-1.svg" alt="1">
-        <p class="uppercase fw-700 ml-1" style="font-size: 1.7rem;">If you want to build a ship,</p>
+        <p class="uppercase fw-700 ml-1 text-primary" style="font-size: 1.7rem;">If you want to build a ship,</p>
       </div>
       <div class="d-flex align-items-start">
         <img class="mt-3" src="/img/brand/identity/typography/step-2.svg" alt="2">
-        <p class="ml-1" style="font-weight: 600; font-size: 2.15rem;">don’t drum up the people<br>to gather wood, divide the</p>
+        <p class="ml-1 text-primary" style="font-weight: 600; font-size: 2.15rem;">don’t drum up the people<br>to gather wood, divide the</p>
       </div>
       <div class="d-flex align-items-center">
         <img src="/img/brand/identity/typography/step-3.svg" alt="3">
-        <p class="fw-500 ml-1" style="font-size: 2.6rem;">work, and give orders.</p>
+        <p class="fw-500 ml-1 text-primary" style="font-size: 2.6rem;">work, and give orders.</p>
       </div>
       <div class="d-flex align-items-center">
         <img src="/img/brand/identity/typography/step-4.svg" alt="4">
-        <p class="ml-1" style="font-size: 2rem;">Instead, teach them to yearn</p>
+        <p class="ml-1 text-primary" style="font-size: 2rem;">Instead, teach them to yearn</p>
       </div>
       <div class="d-flex align-items-center">
         <img src="/img/brand/identity/typography/step-5.svg" alt="5">
-        <p class="fw-300 ml-1" style="font-size: 2rem;"><i>for the vast and endless sea.</i></p>
+        <p class="fw-300 ml-1 text-primary" style="font-size: 2rem;"><i>for the vast and endless sea.</i></p>
+      </div>
+      <div class="d-flex align-items-start mt-5">
+        <img src="/img/brand/identity/typography/step-6.svg" alt="6">
+        <p class="font-mono mb-0 ml-1 text-ink">Antoine de Saint-Exupéry, <br>The Little Prince</p>
       </div>
     </div>
   </div>
