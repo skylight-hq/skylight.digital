@@ -36,9 +36,6 @@ In online advertisements, we aim to clearly communicate our message and convince
     <figure class="mb-0 px-md-4 px-lg-6">
       <img class="" src="/img/brand/outreach/internal-promotional-material/personal-growth-share-outs-flyer.jpg" alt="Personal Growth Share Outs flyer">
     </figure>
-    <figure class="mb-0 px-md-4 px-lg-6">
-      <img class="mt-5" src="/img/brand/outreach/internal-promotional-material/speaker-series-flyer.jpg" alt="Speaker Series flyer">
-    </figure>
   </div>
   <div class="grid__content" markdown="1">
 From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a number of internal events. We want to create engaging internal communications — not only to ensure that team members know what to expect, but also to get them excited about attending!
