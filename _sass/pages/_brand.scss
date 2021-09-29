@@ -219,8 +219,8 @@
   .brand-hero__content {
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/landing.svg");
-      background-size: 740px;
-      background-position-y: top;
+      background-size: 370px;
+      background-position: top right 20px;
     }
   }
 
