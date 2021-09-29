@@ -27,8 +27,7 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 
 <div class="brand__content-section grid">
   <hgroup class="grid__heading">
-    <p class="kicker">Behind the design</p>
-    <h2 class="mt-0">The halo</h2>
+    <h2 class="mt-0">Behind the design: <br>The halo</h2>
   </hgroup>
   <div class="grid__image section__container d-flex w-100">
     <img class="w-75 py-6 mr-6" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
@@ -45,8 +44,7 @@ Each of the four colors in our logo — blue, green, ochre, and red — has its 
 
 <div class="brand__content-section grid">
   <hgroup class="grid__heading">
-    <p class="kicker">Behind the design</p>
-    <h2 class="mt-0">The type</h2>
+    <h2 class="mt-0">Behind the design: <br>The type</h2>
   </hgroup>
   <div class="grid__image section__container w-100 d-flex">
     <img class="w-100" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="Skylight logotype">
