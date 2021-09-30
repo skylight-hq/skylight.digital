@@ -37,7 +37,7 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 
 ## Discover
 
-### [Catalogue of documents]({{ template.catalogue_of_documents.url }})
+### [Catalog of documents]({{ template.catalog_of_documents.url }})
 
 **Method:** Desk review or secondary research
 <br>

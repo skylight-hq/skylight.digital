@@ -20,7 +20,7 @@ Compile and review information related to the project. This can include document
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Catalogue of documents]({{ site.data.service_design_templates.catalogue_of_documents.url }}) <span class="badge badge-sub">Google Sheet</span>
+[Catalog of documents]({{ site.data.service_design_templates.catalog_of_documents.url }}) <span class="badge badge-sub">Google Sheet</span>
 
 ## Who's involved
 The research team
@@ -48,7 +48,7 @@ For internal resources, request documents related to that topic or search for th
 
 ### 3. Review
 
-As systematically as possible, review each of the collected documents. Add them to your [catalog of documents]({{ site.data.service_design_templates.catalogue_of_documents.url }}), quickly summarizing their relevance to the project or quick insights gained from them.
+As systematically as possible, review each of the collected documents. Add them to your [catalog of documents]({{ site.data.service_design_templates.catalog_of_documents.url }}), quickly summarizing their relevance to the project or quick insights gained from them.
 
 ### 4. Share
 
