@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Palette</h2>
+  <header class="grid__heading" markdown="1">
+## Palette
+  </header>
   <figure class="grid__image section__img p-5">
     <img class="w-100" src="/img/brand/illustration/palette.svg" alt="Illustrations in the brand color palette">
   </figure>
@@ -23,7 +25,9 @@ The limited color palette, combined with the offset outlines, creates a sophisti
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Primary colors</h2>
+  <header class="grid__heading" markdown="1">
+## Primary colors
+  </header>
   <div class="grid__image section__container p-5">
     <div class="swatch__container brand-swatch row">
     {% assign color = site.data.color %}
@@ -43,7 +47,9 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Skin and hair</h2>
+  <header class="grid__heading" markdown="1">
+## Skin and hair
+  </header>
   <div class="grid__image section__container p-5">
     {% assign color = site.data.color %}
     <div class="row">
@@ -64,7 +70,9 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">General guidance</h2>
+  <header class="grid__heading" markdown="1">
+## General guidance
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-12 text-center">
@@ -85,7 +93,9 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Graphic elements</h2>
+  <header class="grid__heading" markdown="1">
+## Graphic elements
+  </header>
   <div class="grid__image section__container p-5">
     <figure class="text-center mb-0">
       <img class="" src="/img/brand/illustration/graphic-elements.svg" alt="Geometric shapes and a website hero banner">

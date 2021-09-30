@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Emoji</h2>
+  <header class="grid__heading" markdown="1">
+# Emoji
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row no-gutters">
       <div class="col-lg-6 text-center">

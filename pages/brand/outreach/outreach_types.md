@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Website hero banner</h2>
+  <header class="grid__heading" markdown="1">
+## Website hero banner
+  </header>
   <figure class="grid__image section__container p-5">
     <img class="" src="/img/brand/outreach/hero.png" alt="Skylight homepage hero">
   </figure>
@@ -21,7 +23,9 @@ Our hero banner helps present our overall mission and includes a call to action 
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Online advertisement</h2>
+  <header class="grid__heading" markdown="1">
+## Online advertisement
+  </header>
   <figure class="grid__image section__container p-5">
     <img class="" src="/img/brand/outreach/online-ad.svg" alt="Online advertisement for DITAP">
   </figure>
@@ -31,7 +35,9 @@ In online advertisements, we aim to clearly communicate our message and convince
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Internal promotional material</h2>
+  <header class="grid__heading" markdown="1">
+## Internal promotional material
+  </header>
   <div class="grid__image section__container p-5">
     <figure class="mb-0 px-md-4 px-lg-6">
       <img class="" src="/img/brand/outreach/internal-promotional-material/personal-growth-share-outs-flyer.jpg" alt="Personal Growth Share Outs flyer">
@@ -43,9 +49,11 @@ From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a numb
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">External promotional material</h2>
+  <header class="grid__heading" markdown="1">
+## External promotional material
+  </header>
   <figure class="grid__image section__container p-5">
-    <img class="" src="/img/brand/outreach/external-promotion-material.jpg" alt="Recruitment flyer">
+    <img class="" src="/img/brand/outreach/external-promotion-material.svg" alt="Hiring billboard">
   </figure>
   <div class="grid__content" markdown="1">
 We tailor our external promotional material to different audiences. For prospective employees, we want to provide a brief, clear header and an engaging visual element that interests our audience enough for them to find out more information.
@@ -53,7 +61,9 @@ We tailor our external promotional material to different audiences. For prospect
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Business card</h2>
+  <header class="grid__heading" markdown="1">
+## Business card
+  </header>
   <figure class="grid__image section__img p-5">
     <img class="px-lg-6" src="/img/brand/outreach/business-card.jpg" alt="Skylight business card">
   </figure>
@@ -63,7 +73,9 @@ Our business card communicates important information to the audience, emphasizin
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Swag</h2>
+  <header class="grid__heading" markdown="1">
+## Swag
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-md-6">

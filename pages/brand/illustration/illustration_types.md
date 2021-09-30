@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Featured post illustrations</h2>
+  <header class="grid__heading" markdown="1">
+## Featured post illustrations
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row gutters--sm">
       <div class="col-md-6">
@@ -42,7 +44,9 @@ These images are always full-bleed with a background color.
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Floating illustrations</h2>
+  <header class="grid__heading" markdown="1">
+## Floating illustrations
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-md-4">
@@ -75,7 +79,8 @@ They’re monochromatic using a bold color from the illustration palette. Accent
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading"></h2>
+  <div class="grid__heading" markdown="1">
+  </div>
   <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-md-6">
@@ -100,7 +105,9 @@ This images are used primarily within pages on the website.
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Heroes</h2>
+  <header class="grid__heading" markdown="1">
+## Heroes
+  </header>
   <figure class="grid__image section__container p-5">
     <img class="" src="/img/brand/illustration/heroes/contact-us-hero.png" alt="">
     <p class="caption">Standard hero banner</p>
@@ -119,7 +126,9 @@ Hero banners are made of 2–4 illustration vingettes and the geometric shapes. 
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Portraits</h2>
+  <header class="grid__heading" markdown="1">
+## Portraits
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row gutters--sm">
       <div class="col-md-6">

@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Illustration</h2>
+  <header class="grid__heading" markdown="1">
+## Illustration
+  </header>
   <div class="grid__image section__container p-5">
     <figure class="mb-0">
       <img class="w-100" src="/img/services-microconsulting.svg" alt="A few people collaborating on a large project (small people holding big pencils, filling out a larger than life chart)">
@@ -28,7 +30,9 @@ Creating new artwork? You should check out our [illustration brand guidelines](/
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Photography</h2>
+  <header class="grid__heading" markdown="1">
+## Photography
+  </header>
   <div class="grid__image section__container p-5">
     <figure class="mb-0">
       <img class="" src="/img/brand/identity/imagery/photography.jpg" alt="Two airmen sitting inside an aircraft">
@@ -53,7 +57,9 @@ Every image should tell a story. There are a few tricks we can use to make sure 
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Portraits</h2>
+  <header class="grid__heading" markdown="1">
+## Portraits
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row no-gutters mb-0">
       <div class="col-sm-6">
