@@ -35,18 +35,28 @@
   category: Product & Delivery
   location: Remote
   order: 50
+- title: Service Designer
+  url: https://apply.workable.com/skylight/j/E7B37CF8D2/
+  category: Research & Design
+  location: Remote
+  order: 60
 - title: User Researcher
   url: https://apply.workable.com/skylight/j/681D1CD9D5/
   category: Research & Design
   location: Remote
-  order: 60
-- title: VP of Training Services
-  url: https://apply.workable.com/skylight/j/FB764D28B5/
+  order: 70
+- title: Chief of Staff
+  url: https://apply.workable.com/skylight/j/E7AB0727B0/
   category: Business Strategy & Operations
   location: Remote
-  order: 70
+  order: 80
 - title: VP of Service Excellence
   url: https://apply.workable.com/skylight/j/2D3D1B7688/
   category: Business Strategy & Operations
   location: Remote
-  order: 80
+  order: 90
+- title: VP of Training Services
+  url: https://apply.workable.com/skylight/j/FB764D28B5/
+  category: Business Strategy & Operations
+  location: Remote
+  order: 100
