@@ -14,20 +14,19 @@ class: brand
 <div class="col-md-9" markdown="1">
 ## Voice qualities
 
-Our voice has five key qualities that are felt in both what we say and how we say it. Working together, these qualities make everything we write sound uniquely Skylight.
+Our voice helps us convey who we are to our audience and is defined by our values and goals as a company. Having a consistent voice is essential, regardless of who creates the content. Skylight’s voice has five key qualities that are felt in both what we say and how we say it:
+
+<div class="example" markdown="1">
+- Expressive
+- Smart
+- Lighthearted
+- Embracing
+- Worldly
 </div>
-<div class="col-md-9">
-<div class="example mb-0" markdown="1">
-**Expressive.** We use simple words and phrases to convey profound thoughts and big feelings.
+Working together, these qualities make everything we write sound uniquely Skylight.
 
-**Smart.** We bring unique knowledge and insights to the conversation.
-
-**Lighthearted.** The world is tough. The work we do is tough. We don't take ourselves too seriously, and we're easy to work with.
-
-**Embracing.** Whoever you are, we're your biggest supporter.
-
-**Worldly.** We’re interested, knowledgeable, and always learning. We have a broad worldview, but we’re not know-it-alls.
-</div>
+For further reference, Skylight’s [Content Guide](/work/toolkits/content-guide/voice-and-tone/) offers more context around each voice quality and provides examples of our voice qualities in practice.
+{: .callout--note }
 </div>
 </div>
 
@@ -37,7 +36,7 @@ Our voice has five key qualities that are felt in both what we say and how we sa
 
 Modulating tone helps us tailor our words to any specific audience. By keeping users and partners in mind, you allow yourself to see someone else’s perspective, helping you better understand their wants and needs, and speak to them in ways they can engage with.
 
-For further reference, [Skylight’s Content Guide](/work/toolkits/content-guide/voice-and-tone/) offers examples of our voice qualities in practice as well as examples of how we adapt our tone to different contexts.
+See our [Content Guide](/work/toolkits/content-guide/voice-and-tone/#skylights-tone) for examples of how we adapt our tone to different contexts.
 {: .callout--note }
 </div>
 </div>
