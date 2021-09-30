@@ -23,7 +23,7 @@ Our hero banner helps present our overall mission and includes a call to action 
 <div class="brand__content-section grid">
   <h2 class="grid__heading">Online advertisement</h2>
   <figure class="grid__image section__container p-5">
-    <img class="" src="/img/brand/outreach/web-advertisement.png" alt="Online advertisement for DITAP">
+    <img class="" src="/img/brand/outreach/online-ad.svg" alt="Online advertisement for DITAP">
   </figure>
   <div class="grid__content" markdown="1">
 In online advertisements, we aim to clearly communicate our message and convince our audience to interact further. We use minimal text, graphic elements, and a call to action in order to help create a visually balanced design.
