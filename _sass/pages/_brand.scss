@@ -294,7 +294,7 @@
     a {
       &:hover,
       &:focus {
-        color: $green-350;
+        color: $green-400;
       }
     }
   }
@@ -483,13 +483,13 @@
     color: $green-300 !important;
 
     &:hover {
-      color: $green-350 !important;
+      color: $green-400 !important;
     }
   }
 }
 
 .page--brand-illustration {
-  @include theme-link($green-300, $green-350);
+  @include theme-link($green-300, $green-400);
 
   .hero-banner {
     background-color: $green-300;
@@ -561,7 +561,7 @@
     color: $green-300 !important;
 
     &:hover {
-      color: $green-350 !important;
+      color: $green-400 !important;
     }
   }
 

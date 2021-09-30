@@ -28,7 +28,7 @@ green:
     value: 609c70
   - token: green-300
     value: 418152
-  - token: green-350
+  - token: green-400
     value: 295C30
 red:
   - token: red-20
@@ -43,6 +43,8 @@ red:
     value: df635c
   - token: red-200
     value: ba3932
+  - token: red-300
+    value: 961c0b
 ochre:
   - token: ochre-20
     value: fdf3de
@@ -58,6 +60,8 @@ ochre:
     value: e99821
   - token: ochre-300
     value: a66910
+  - token: ochre-400
+    value: 834e00
 gray:
   - token: gray-5
     value: f8f8f8
