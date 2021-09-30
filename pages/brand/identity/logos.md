@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Standard logo</h2>
+  <header class="grid__heading" markdown="1">
+## Standard logo
+  </header>
   <figure class="grid__image section__img w-100">
     <img class="px-2 py-6 w-75" src="/img/logo.svg" alt="Skylight logo">
   </figure>
@@ -26,9 +28,9 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 </div>
 
 <div class="brand__content-section grid">
-  <hgroup class="grid__heading">
-    <h2 class="mt-0">Behind the design: <br>The halo</h2>
-  </hgroup>
+  <header class="grid__heading" markdown="1">
+## Behind the design: <br>The halo
+  </header>
   <div class="grid__image section__container d-flex w-100">
     <img class="w-75 py-6 mr-6" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
   </div>
@@ -43,9 +45,9 @@ Each of the four colors in our logo — blue, green, ochre, and red — has its 
 </div>
 
 <div class="brand__content-section grid">
-  <hgroup class="grid__heading">
-    <h2 class="mt-0">Behind the design: <br>The type</h2>
-  </hgroup>
+  <header class="grid__heading" markdown="1">
+## Behind the design: <br>The type
+  </header>
   <div class="grid__image section__container w-100 d-flex">
     <img class="w-100" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="Skylight logotype">
   </div>
@@ -56,7 +58,9 @@ The logotype uses a wide kerning to make our brand feel open and accessible. We 
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Light and dark</h2>
+  <header class="grid__heading" markdown="1">
+## Light and dark
+  </header>
   <div class="grid__image">
     <figure class="section__img w-100">
       <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-logo.svg" alt="Skylight logo">
@@ -83,7 +87,9 @@ Always aim to use one of these versions. The colors reinforce the brand identity
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Grayscale</h2>
+  <header class="grid__heading" markdown="1">
+## Grayscale
+  </header>
   <div class="grid__image">
     <figure class="section__img w-100">
       <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale.svg" alt="Skylight logo grayscale">
@@ -108,7 +114,9 @@ If a black and white version of the logo is required, use the standard grayscale
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">One color</h2>
+  <header class="grid__heading" markdown="1">
+## One color
+  </header>
   <div class="grid__image">
     <figure class="section__img w-100">
       <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-one-color.svg" alt="Skylight logo one color">
@@ -133,7 +141,9 @@ This version of the logo is for instances in which only one color is allowed. Th
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Variations</h2>
+  <header class="grid__heading" markdown="1">
+## Variations
+  </header>
   <div class="grid__image">
     <div class="section__container">
       <div class="d-flex align-items-center justify-content-center">
@@ -180,7 +190,9 @@ This variation of the logo can be used in instances, such as templates, where th
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Spacing</h2>
+  <header class="grid__heading" markdown="1">
+## Spacing
+  </header>
   <div class="grid__image section__img p-5">
     <img class="w-75" src="/img/brand/identity/logos/spacing.svg" alt="Skylight logo spacing guidance">
   </div>
@@ -192,7 +204,9 @@ A clearspace of `2x` is recommended around the logo.
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Minimum sizes</h2>
+  <header class="grid__heading" markdown="1">
+## Minimum sizes
+  </header>
   <div class="grid__image">
     <div class="section__img justify-content-evenly py-5">
       <div class="text-center">
@@ -215,7 +229,9 @@ Never scale the logo smaller than the sizes specified.
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">General positioning</h2>
+  <header class="grid__heading" markdown="1">
+## General positioning
+  </header>
   <div class="grid__image section__img p-5">
     <img class="" src="/img/brand/identity/logos/general-positioning.svg" alt="Skylight logo positioned in a grid">
   </div>
@@ -229,7 +245,9 @@ In some instances, the center or the upper or lower right-hand corners might mak
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Rotation</h2>
+  <header class="grid__heading" markdown="1">
+## Rotation
+  </header>
   <div class="grid__image section__container p-5">
     <div class="row">
       <div class="col-md-6 d-flex align-items-center justify-content-center">
@@ -256,7 +274,9 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
 </div>
 
 <div class="brand__content-section grid section__things-to-avoid">
-  <h2 class="grid__heading">Things to avoid</h2>
+  <header class="grid__heading" markdown="1">
+## Things to avoid
+  </header>
   <div class="grid__image section__img p-5">
     <div class="grid-col">
       <img src="/img/brand/identity/logos/things-to-avoid/red-type.svg" alt="Skylight logo with red type with a crossed line through it">

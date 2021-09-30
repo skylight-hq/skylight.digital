@@ -13,7 +13,9 @@ class: brand
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Typefaces</h2>
+  <header class="grid__heading" markdown="1">
+## Typefaces
+  </header>
   <div class="grid__image section__img p-5 typography-example-1">
     <div class="typography--text-block">
       <div class="d-flex align-items-center text-primary">
@@ -56,7 +58,9 @@ class: brand
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Usage</h2>
+  <header class="grid__heading" markdown="1">
+## Usage
+  </header>
   <div class="grid__image section__container p-5">
     <div class="d-flex align-items-center">
       <img src="/img/brand/identity/typography/step-1.svg" alt="1">

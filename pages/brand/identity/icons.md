@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Standard icon</h2>
+  <header class="grid__heading" markdown="1">
+## Standard icon
+  </header>
   <div class="grid__image section__img p-5">
     <img class="w-25" src="/img/brand/identity/icons/intro.svg" alt="Skylight icon">
   </div>
@@ -26,7 +28,9 @@ To highlight Skylight’s presence, we use our standard icon as an avatar in our
 </div>
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Variants</h2>
+  <header class="grid__heading" markdown="1">
+## Variants
+  </header>
   <div class="grid__image">
   <div class="section__img d-flex flex-column">
     <div class="d-flex justify-content-evenly">

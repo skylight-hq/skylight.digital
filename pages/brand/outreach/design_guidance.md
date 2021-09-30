@@ -11,7 +11,9 @@ class: brand
 ---
 
 <div class="brand__content-section grid">
-  <h2 class="grid__heading">Guidelines</h2>
+  <header class="grid__heading" markdown="1">
+## Guidelines
+  </header>
   <div class="grid__image section__container p-5">
     <figure class="mb-0">
       <img class="" src="/img/brand/outreach/guidelines.svg" alt="Example outreach material">
