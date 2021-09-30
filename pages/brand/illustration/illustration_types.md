@@ -100,7 +100,7 @@ They’re monochromatic using a bold color from the illustration palette. Accent
   <div class="grid__content" markdown="1">
 Even though illustrations are monochromatic, pages/layouts with many floating images should rotate through the different primary Skylight colors.
 
-This images are used primarily within pages on the website.
+These images are used primarily within pages on the website.
 </div>
 </div>
 
@@ -121,7 +121,7 @@ Hero banners are monochromatic.
 
 The base color uses a primary color and the rest of the illustration uses lighter/darker shades. Each section of the website uses one color.
 
-Hero banners are made of 2–4 illustration vingettes and the geometric shapes. The shapes are achored to the vingettes and sprinkled throughout the layout to drive focus to the text.
+Hero banners are made of 2–4 illustration vignettes and the geometric shapes. The shapes are anchored to the vignettes and sprinkled throughout the layout to drive focus to the text.
 </div>
 </div>
 
