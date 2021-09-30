@@ -40,7 +40,7 @@ In online advertisements, we aim to clearly communicate our message and convince
   </header>
   <div class="grid__image section__container p-5">
     <figure class="mb-0 px-md-4 px-lg-6">
-      <img class="" src="/img/brand/outreach/internal-promotional-material/personal-growth-share-outs-flyer.jpg" alt="Personal Growth Share Outs flyer">
+      <img class="" src="/img/brand/outreach/personal-growth-share-outs-flyer.svg" alt="Personal Growth Share Outs flyer">
     </figure>
   </div>
   <div class="grid__content" markdown="1">
