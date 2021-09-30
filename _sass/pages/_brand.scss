@@ -650,8 +650,9 @@
 .btn-copy-hex {
   cursor: pointer;
   font-size: $font-size-xx-small;
+  line-height: 1;
+  margin-top: -2px;
   padding: 0;
-  margin-top: -4px;
 }
 
 .swatch {
@@ -660,9 +661,10 @@
 
 .swatch--long {
   height: 40px;
+  margin-bottom: 10px;
 
-  + p .btn-copy-hex {
-    margin-top: -3px;
+  + p {
+    margin-bottom: 20px;
   }
 }
 
@@ -711,8 +713,12 @@
   display: flex;
   margin-top: 1rem;
 
+  .brand__hex {
+    margin-top: 12px;
+  }
+
   .btn-copy-hex {
-    margin-top: -6px;
+    margin-top: -4px;
   }
 }
 
@@ -732,6 +738,7 @@
 
 .brand__hex {
   color: $gray-300;
+  line-height: 1;
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
