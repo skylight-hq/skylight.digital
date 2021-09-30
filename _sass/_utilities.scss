@@ -86,8 +86,8 @@
   background-color: $green-300;
 }
 
-.bg-green-350 {
-  background-color: $green-350;
+.bg-green-400 {
+  background-color: $green-400;
 }
 
 // Red
@@ -117,8 +117,11 @@
   background-color: $red-200;
 }
 
-// Yellow/Ochre
+.bg-red-300 {
+  background-color: $red-300;
+}
 
+// Yellow/Ochre
 
 .bg-ochre-20,
 .bg-ochre-lightest {
@@ -148,6 +151,10 @@
 
 .bg-ochre-300 {
   background-color: $ochre-300;
+}
+
+.bg-ochre-400 {
+  background-color: $ochre-400;
 }
 
 // Gray
