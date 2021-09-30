@@ -16,7 +16,7 @@ class: brand
 
 We’ve developed comprehensive guidelines for writing clear and consistent content across teams and channels. You’ll find our conventions around style and inclusive language, as well as best practices for web elements, accessibility, translation, and a range of other topics.
 
-See our [Content Guide](/work/toolkits/content-guide/) to learn how we talk to clients and partners, express ourselves online, and communicate about our work..
+See our [Content Guide](/work/toolkits/content-guide/) to learn how we talk to clients and partners, express ourselves online, and communicate about our work.
 {: .callout--note }
 </div>
 </div>
