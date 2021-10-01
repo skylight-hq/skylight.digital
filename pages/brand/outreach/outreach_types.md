@@ -14,7 +14,7 @@ class: brand
   <header class="grid__heading" markdown="1">
 ## Website hero banner
   </header>
-  <figure class="grid__image section__container p-5">
+  <figure class="grid__image section__container p-4 p-md-5">
     <img class="" src="/img/brand/outreach/hero.png" alt="Skylight homepage hero">
   </figure>
   <div class="grid__content" markdown="1">
@@ -26,7 +26,7 @@ Our hero banner helps present our overall mission and includes a call to action 
   <header class="grid__heading" markdown="1">
 ## Online advertisement
   </header>
-  <figure class="grid__image section__container p-5">
+  <figure class="grid__image section__container p-4 p-md-5">
     <img class="" src="/img/brand/outreach/online-ad.svg" alt="Online advertisement for DITAP">
   </figure>
   <div class="grid__content" markdown="1">
@@ -38,7 +38,7 @@ In online advertisements, we aim to clearly communicate our message and convince
   <header class="grid__heading" markdown="1">
 ## Internal promotional material
   </header>
-  <div class="grid__image section__container p-5">
+  <div class="grid__image section__container p-4 p-md-5">
     <figure class="mb-0 px-md-4 px-lg-6">
       <img class="" src="/img/brand/outreach/personal-growth-share-outs-flyer.svg" alt="Personal Growth Share Outs flyer">
     </figure>
@@ -52,7 +52,7 @@ From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a numb
   <header class="grid__heading" markdown="1">
 ## External promotional material
   </header>
-  <figure class="grid__image section__container p-5">
+  <figure class="grid__image section__container p-4 p-md-5">
     <img class="" src="/img/brand/outreach/external-promotion-material.svg" alt="Hiring billboard">
   </figure>
   <div class="grid__content" markdown="1">
@@ -64,7 +64,7 @@ We tailor our external promotional material to different audiences. For prospect
   <header class="grid__heading" markdown="1">
 ## Business card
   </header>
-  <figure class="grid__image section__img p-5">
+  <figure class="grid__image section__img p-4 p-md-5">
     <img class="px-lg-6" src="/img/brand/outreach/business-card.jpg" alt="Skylight business card">
   </figure>
   <div class="grid__content" markdown="1">
