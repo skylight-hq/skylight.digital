@@ -84,18 +84,18 @@ class: brand
     </div>
     <div class="d-flex align-items-center mt-5">
       <img src="/img/brand/identity/typography/step-6.svg" alt="6">
-      <p class="font-mono mb-0 ml-1">{{ site.employee_count }} people + 1 ferret make up the team.</p>
+      <p class="font-mono mb-0 ml-1">Drop us a message at <a href="mailto:admin@skylight.digital">admin@skylight.digital</a></p>
     </div>
   </div>
   <div class="grid__content" markdown="1">
 We keep it simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. Roboto Mono comes in more sparingly.
 
-1. Roboto Mono Regular
-2. Franklin Libre Semibold
-3. Franklin Libre Light
-4. Franklin Libre SemiBold
-5. Franklin Libre Regular
-6. Roboto Mono Regular
+1. Pre-headline: Roboto Mono Regular
+2. Page title: Franklin Libre Semibold
+3. Subheading: Franklin Libre Light
+4. Section heading: Franklin Libre Semibold
+5. Body text: Franklin Libre Regular
+6. Call-to-action: Roboto Mono Regular
 {: .list--circle }
 
 See our [document templates](/brand/resources/templates/) for more examples of the brand in use.
