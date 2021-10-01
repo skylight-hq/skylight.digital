@@ -40,7 +40,7 @@ These colors and their meanings help define the way that our audience perceives 
   <header class="grid__heading" markdown="1">
 ## Primary palette
   </header>
-  <div class="grid__image section__img p-4 p-md-5">
+  <div class="grid__image section__img section__img--palette">
     <div class="swatch__container brand-swatch row">
       {% assign color = site.data.color %}
       {% for item in color.primary %}
@@ -62,7 +62,7 @@ The Skylight brand mainly uses blue, gray, and light yellow. The blue is the acc
   <header class="grid__heading" markdown="1">
 ## Secondary palette
   </header>
-  <div class="grid__image section__img p-4 p-md-5">
+  <div class="grid__image section__img section__img--palette">
     <div class="swatch__container brand-swatch row">
       {% assign color = site.data.color %}
       {% for item in color.secondary %}
