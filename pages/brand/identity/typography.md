@@ -85,7 +85,7 @@ class: brand
     <div class="d-flex align-items-center mt-5">
       <img src="/img/brand/identity/typography/step-6.svg" alt="6">
       <p class="font-mono mb-0 ml-1">
-        <b>Drop us a message at <a href="mailto:admin@skylight.digital">admin@skylight.digital</a></b>
+        <b>Drop us a message at <a href="mailto:hello@skylight.digital">hello@skylight.digital</a></b>
       </p>
     </div>
   </div>
