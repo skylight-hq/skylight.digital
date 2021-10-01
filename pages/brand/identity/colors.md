@@ -20,7 +20,7 @@ families:
   <header class="grid__heading" markdown="1">
 ## Brand colors
   </header>
-  <div class="grid__image section__container p-5">
+  <div class="grid__image section__container p-4 p-md-5">
     <img class="" src="/img/brand/identity/colors/brand-colors.svg" alt="Skylight color palette brand colors">
   </div>
   <div class="grid__content" markdown="1">
@@ -40,7 +40,7 @@ These colors and their meanings help define the way that our audience perceives 
   <header class="grid__heading" markdown="1">
 ## Primary palette
   </header>
-  <div class="grid__image section__img p-5">
+  <div class="grid__image section__img p-4 p-md-5">
     <div class="swatch__container brand-swatch row">
       {% assign color = site.data.color %}
       {% for item in color.primary %}
@@ -62,7 +62,7 @@ The Skylight brand mainly uses blue, gray, and light yellow. The blue is the acc
   <header class="grid__heading" markdown="1">
 ## Secondary palette
   </header>
-  <div class="grid__image section__img p-5">
+  <div class="grid__image section__img p-4 p-md-5">
     <div class="swatch__container brand-swatch row">
       {% assign color = site.data.color %}
       {% for item in color.secondary %}
@@ -86,7 +86,7 @@ We use the gray colors for text, charts, etc.
   <header class="grid__heading" markdown="1">
 ## Tints
   </header>
-  <div class="grid__image section__img p-5">
+  <div class="grid__image section__img p-4 p-md-5">
     {% assign color = site.data.color %}
     <div class="row">
       {% for family in page.families %}

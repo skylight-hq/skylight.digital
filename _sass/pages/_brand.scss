@@ -691,6 +691,7 @@
 
 .swatch-group {
   flex: 1 1 auto;
+  margin-top: 0 !important;
   padding-inline: 0.5rem;
 
   &:nth-last-child(-n + 3) {

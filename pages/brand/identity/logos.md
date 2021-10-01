@@ -32,7 +32,7 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 ## Behind the design: <br>The halo
   </header>
   <div class="grid__image section__container d-flex w-100">
-    <img class="w-75 py-6 mr-6" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
+    <img class="w-75 py-4 py-md-6 mr-6" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
   </div>
   <div class="grid__content" markdown="1">
 The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
@@ -193,7 +193,7 @@ This variation of the logo can be used in instances, such as templates, where th
   <header class="grid__heading" markdown="1">
 ## Spacing
   </header>
-  <div class="grid__image section__img p-5">
+  <div class="grid__image section__img px-0 py-5 p-md-5">
     <img class="w-75" src="/img/brand/identity/logos/spacing.svg" alt="Skylight logo spacing guidance">
   </div>
   <div class="grid__content" markdown="1">

@@ -49,7 +49,7 @@ These images are always full-bleed with a background color.
   </header>
   <div class="grid__image section__container p-5">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 mt-0">
         <img src="/img/ditap/personalized-guidance.svg" alt="Woman walking with a book in front of a map pin.">
       </div>
       <div class="col-md-4">
@@ -108,7 +108,7 @@ These images are used primarily within pages on the website.
   <header class="grid__heading" markdown="1">
 ## Heroes
   </header>
-  <figure class="grid__image section__container p-5">
+  <figure class="grid__image section__container p-4 p-md-5">
     <img class="" src="/img/brand/illustration/heroes/contact-us-hero.png" alt="">
     <p class="caption">Standard hero banner</p>
     <img class="mt-5" src="/img/brand/illustration/heroes/service-design-hero.png" alt="">

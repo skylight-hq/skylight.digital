@@ -16,7 +16,7 @@ class: brand
   <header class="grid__heading" markdown="1">
 ## Typefaces
   </header>
-  <div class="grid__image section__img p-5 typography-example-1">
+  <div class="grid__image section__img p-3 py-4 p-md-5 typography-example-1">
     <div class="typography--text-block">
       <div class="d-flex align-items-center text-primary">
         <img src="/img/brand/identity/typography/step-1.svg" alt="1">
@@ -61,7 +61,7 @@ class: brand
   <header class="grid__heading" markdown="1">
 ## Usage
   </header>
-  <div class="grid__image section__container p-5">
+  <div class="grid__image section__container p-3 py-4 p-md-5">
     <div class="d-flex align-items-center">
       <img src="/img/brand/identity/typography/step-1.svg" alt="1">
       <p class="kicker mb-0 ml-1" style="font-weight: 400;">ABOUT US</p>
