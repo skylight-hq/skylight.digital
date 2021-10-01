@@ -121,6 +121,21 @@
   }
 }
 
+.section__img--palette {
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+
+  @include media-breakpoint-up(md) {
+    padding: 3rem;
+  }
+}
+
+.section__img--palette-alt {
+  @include media-breakpoint-down(sm) {
+    padding-inline: 2.25rem;
+  }
+}
+
 .brand {
   p,
   ul,

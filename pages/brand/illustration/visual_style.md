@@ -28,7 +28,7 @@ The limited color palette, combined with the offset outlines, creates a sophisti
   <header class="grid__heading" markdown="1">
 ## Primary colors
   </header>
-  <div class="grid__image section__container p-4 p-md-5">
+  <div class="grid__image section__container section__img--palette">
     <div class="swatch__container brand-swatch row">
     {% assign color = site.data.color %}
     {% for item in color.primary_illustration %}
@@ -50,7 +50,7 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
   <header class="grid__heading" markdown="1">
 ## Skin and hair
   </header>
-  <div class="grid__image section__container p-4 p-md-5">
+  <div class="grid__image section__container section__img--palette section__img--palette-alt">
     {% assign color = site.data.color %}
     <div class="row">
       {% for item in color.skin %}
