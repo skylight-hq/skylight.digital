@@ -14,7 +14,7 @@ class: brand
   <header class="grid__heading" markdown="1">
 ## Guidelines
   </header>
-  <div class="grid__image section__container py-4 px-3 p-md-5">
+  <div class="grid__image section__container py-5 px-3 p-md-5">
     <figure class="mb-0">
       <img class="w-100" src="/img/brand/outreach/guidelines.svg" alt="Example outreach material. A brief Pre-headline. Title Communicates Most Important Info. Intro text explains other useful information: Provide context to engage your audience, Outline what you’re trying to do, Explain why you’re doing it. Avoid too much text. Be clear and concise. Include a clear call to action! (You might provide a date/time.)">
     </figure>
