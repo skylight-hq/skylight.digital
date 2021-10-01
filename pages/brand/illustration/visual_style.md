@@ -73,7 +73,7 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
   <header class="grid__heading" markdown="1">
 ## General guidance
   </header>
-  <div class="grid__image section__container py-4 px-3 p-md-5">
+  <div class="grid__image section__container py-5 px-3 p-md-5">
     <div class="row">
       <div class="col-12 text-center">
         <img class="" src="/img/brand/illustration/general-guidance.svg" alt="Two images: A caretaker with children sitting around a table and playing with blocks with a computer in the background. Gear technician helping a female pilot put on her helmet.">
@@ -96,7 +96,7 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
   <header class="grid__heading" markdown="1">
 ## Graphic elements
   </header>
-  <div class="grid__image section__container py-4 px-3 p-md-5">
+  <div class="grid__image section__container py-5 px-3 p-md-5">
     <figure class="text-center mb-0">
       <img class="" src="/img/brand/illustration/graphic-elements.svg" alt="Geometric shapes and a website hero banner">
     </figure>
