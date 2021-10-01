@@ -84,7 +84,9 @@ class: brand
     </div>
     <div class="d-flex align-items-center mt-5">
       <img src="/img/brand/identity/typography/step-6.svg" alt="6">
-      <p class="font-mono mb-0 ml-1">Drop us a message at <a href="mailto:admin@skylight.digital">admin@skylight.digital</a></p>
+      <p class="font-mono mb-0 ml-1">
+        <b>Drop us a message at <a href="mailto:admin@skylight.digital">admin@skylight.digital</a></b>
+      </p>
     </div>
   </div>
   <div class="grid__content" markdown="1">
@@ -95,7 +97,7 @@ We keep it simple and easy to use. We primarily use Franklin Libre Semibold, Reg
 3. Subheading: Franklin Libre Light
 4. Section heading: Franklin Libre Semibold
 5. Body text: Franklin Libre Regular
-6. Call-to-action: Roboto Mono Regular
+6. Call-to-action: Roboto Mono Bold
 {: .list--circle }
 
 See our [document templates](/brand/resources/templates/) for more examples of the brand in use.
