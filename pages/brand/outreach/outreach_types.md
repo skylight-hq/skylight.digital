@@ -53,7 +53,7 @@ From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a numb
 ## External promotional material
   </header>
   <figure class="grid__image section__container p-4 p-md-5">
-    <img class="" src="/img/brand/outreach/external-promotion-material.svg" alt="Hiring billboard">
+    <img class="" src="/img/brand/outreach/external-promotion-material.svg" alt="Illustration of a billboard being painted by a construction worker that says 'We're Hiring JOIN US!' and the Skylight logo">
   </figure>
   <div class="grid__content" markdown="1">
 We tailor our external promotional material to different audiences. For prospective employees, we want to provide a brief, clear header and an engaging visual element that interests our audience enough for them to find out more information.
