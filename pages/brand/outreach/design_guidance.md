@@ -14,7 +14,7 @@ class: brand
   <header class="grid__heading" markdown="1">
 ## Guidelines
   </header>
-  <div class="grid__image section__container p-4 p-md-5">
+  <div class="grid__image section__container py-4 px-3 p-md-5">
     <figure class="mb-0">
       <img class="" src="/img/brand/outreach/guidelines.svg" alt="Example outreach material">
     </figure>
