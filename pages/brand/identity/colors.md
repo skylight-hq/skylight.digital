@@ -54,7 +54,7 @@ These colors and their meanings help define the way that our audience perceives 
     </div>
   </div>
   <div class="grid__content" markdown="1">
-The Skylight brand mainly uses blue, gray, and light yellow. The blue is the accent color for the gray text. The light ochre is a tertiary color used for backgrounds.
+The Skylight brand mainly uses blue, gray, and ochre. The blue is the accent color for the gray text. The light ochre is a tertiary color used for backgrounds.
   </div>
 </div>
 

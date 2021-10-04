@@ -91,7 +91,7 @@ Our writing is short and clear. We use words that everyone understands. It's how
 <div class="example" markdown="1">
 ### One-sentence description
 
-Skylight’s based out of sunny Sarasota, Florida, though we’re a distributed and remote-friendly team spread across {{ site. state_count }} different states.
+Skylight is a digital consultancy using design and technology to help agencies deliver better public services.
 
 ### Longer description
 

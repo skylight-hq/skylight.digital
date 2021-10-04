@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Logos
-description: Our logo is often the first introduction someone has to Skylight. It’s a powerful tool for representing ourselves to potential clients, partners, and prospective employees. We’ve provided some important rules for using our logo.
+description: Our logo is often the first introduction someone has to Skylight. It’s a powerful tool for representing ourselves to potential customers, partners, and prospective employees. We’ve provided some important rules for using our logo.
 tags:
 permalink: /brand/identity/logos/
 sidenav: brand_identity
