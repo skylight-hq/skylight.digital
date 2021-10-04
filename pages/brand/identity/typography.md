@@ -90,7 +90,7 @@ class: brand
     </div>
   </div>
   <div class="grid__content" markdown="1">
-We keep it simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. Roboto Mono comes in more sparingly.
+We keep our typography simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. Roboto Mono comes in more sparingly.
 
 1. Pre-headline: Roboto Mono Regular
 2. Page title: Franklin Libre Semibold

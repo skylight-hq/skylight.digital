@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Icons
-description: To best represent ourselves, it’s important for our icon to be accurately and consistently rendered. This ensures that our audience recognizes our brand across various contexts.
+description: Skylight’s brand primarily lives online, so it’s essential that our icon is depicted consistently and accurately to ensure our audience recognizes our brand across various contexts.
 tags:
 permalink: /brand/identity/icons/
 sidenav: brand_identity
