@@ -110,7 +110,7 @@ Because we engage with a number of different audiences our messaging has to be f
 <div class="example" markdown="1">
 ### Prospective customers, prospective teaming partners, academia, media
 
-See longer description under [Sample messaging](#sample-messaging).
+See longer description under [sample messaging](#sample-messaging).
 
 ### Prospective employees
 
