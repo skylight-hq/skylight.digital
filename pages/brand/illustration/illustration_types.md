@@ -39,7 +39,7 @@ class: brand
   <div class="grid__content" markdown="1">
 Illustrations for posts, such as a case study or blog article, use 1–2 (three if absolutely needed) bright colors from the illustration palette.
 
-These images are always full-bleed with a background color.
+These images are always full bleed with a background color.
 </div>
 </div>
 
@@ -154,6 +154,6 @@ Hero banners are made of 2–4 illustration vignettes and the geometric shapes. 
   <div class="grid__content" markdown="1">
 Portraits use 1–2 primary colors, as well as any skin and hair color needed.
 
-These images are always full-bleed with a background color.
+These images are always full bleed with a background color.
 </div>
 </div>
