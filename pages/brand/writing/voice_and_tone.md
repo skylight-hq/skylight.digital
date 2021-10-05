@@ -28,6 +28,7 @@ See Skylight's [Content Guide](/work/toolkits/content-guide/voice-and-tone/) for
 {: .callout--note }
 
 ## Tone qualities
+{: .mt-6 }
 
 Modulating tone helps us tailor our words to any specific audience. By keeping users and partners in mind, you allow yourself to see someone else’s perspective, helping you better understand their wants and needs, and speak to them in ways they can engage with.
 
