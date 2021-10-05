@@ -65,7 +65,7 @@ We tailor our external promotional material to different audiences. For prospect
 ## Business card
   </header>
   <figure class="grid__image section__img p-4 p-md-5">
-    <img class="px-lg-6" src="/img/brand/outreach/business-card.jpg" alt="Skylight business card">
+    <img class="px-lg-6" src="/img/brand/outreach/business-card.svg" alt="Skylight business card">
   </figure>
   <div class="grid__content" markdown="1">
 Our business card communicates important information to the audience, emphasizing Skylight’s logo and the employee’s name. We use Roboto Mono font for the email, telephone number, and our website.

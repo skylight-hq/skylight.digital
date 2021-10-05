@@ -18,7 +18,7 @@ class: brand
     <img class="w-25" src="/img/brand/identity/icons/intro.svg" alt="Skylight icon">
   </div>
   <div class="grid__content" markdown="1">
-To highlight Skylight’s presence, we use our standard icon as an avatar in our different online spaces and social accounts. It can be used at a variety of sizes, as small as 16px.
+To highlight Skylight’s presence, we use our standard icon as an avatar in our different online spaces and social accounts. It can be used in a variety of sizes, as small as 16px.
 
 {% include download_link.html
   text="icon"

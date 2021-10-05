@@ -36,7 +36,7 @@ Thinking and being digital requires fundamental practice, culture, and technolog
 Customers choose to work with us not only because of our talented employees and deep expertise, but also our dedication to serving the public in an open and inclusive manner.
 
 <div class="example" markdown="1">
-We’re the **most-talented group of digital professionals** within the government contracting industry.
+We’re the **most talented group of digital professionals** within the government contracting industry.
 
 We’re **public servants at heart** who understand and steward the critical missions of government.
 
