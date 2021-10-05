@@ -10,13 +10,12 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="row brand__content-section">
+<div class="row">
 <div class="col-md-9" markdown="1">
 ## Principles
 
 Our mission is to make government work in a digital world.
-</div>
-<div class="col-md-9">
+
 <div class="example" markdown="1">
 ### Why
 
@@ -30,16 +29,11 @@ We're public servants at heart who are driven to make government services work b
 
 Thinking and being digital requires fundamental practice, culture, and technology change. And that means institutionalizing modern disciplines such as human-centered design and lean-agile engineering. Everything we offer is designed to accelerate this process of change within government.
 </div>
-</div>
-</div>
 
-<div class="row brand__content-section">
-<div class="col-md-9" markdown="1">
 ## The Skylight difference
 
 Customers choose to work with us not only because of our talented employees and deep expertise, but also our dedication to serving the public in an open and inclusive manner.
-</div>
-<div class="col-md-9">
+
 <div class="example" markdown="1">
 We’re the **most-talented group of digital professionals** within the government contracting industry.
 
@@ -53,16 +47,11 @@ We believe in the importance of **capacity building**. Regardless of mission, al
 
 We strive to create a **diverse, equitable, and inclusive** environment for everyone.
 </div>
-</div>
-</div>
 
-<div class="row brand__content-section">
-<div class="col-md-9" markdown="1">
 ## Brand personality
 
 How we want the world to see us.
-</div>
-<div class="col-md-9">
+
 <div class="example" markdown="1">
 **Mission-oriented.** We’re driven by a burning passion to create better outcomes for the public through great government digital services.
 
@@ -78,16 +67,11 @@ How we want the world to see us.
 
 The byproduct of three companies, we’d be Google + McKinsey + ReadySet.
 </div>
-</div>
-</div>
 
-<div class="row brand__content-section">
-<div class="col-md-9" markdown="1">
 ## Sample messaging
 
 Our writing is short and clear. We use words that everyone understands. It's how we stay transparent with everyone.
-</div>
-<div class="col-md-9">
+
 <div class="example" markdown="1">
 ### One-sentence description
 
@@ -97,16 +81,11 @@ Skylight is a digital consultancy using design and technology to help agencies d
 
 Skylight is a digital consultancy using design and technology to help agencies deliver better public services. Our talented team consists of former Presidential Innovation Fellows, founders of 18F, and members of the U.S. Digital Service. Our areas of expertise include human-centered design, lean-agile engineering, DevSecOps, cloud computing, open-source software, APIs, legacy modernization, data management, digital transformation, digital procurement, and training. We team with a number of different clients, including the U.S. Air Force, Centers for Medicare & Medicaid Services, U.S. Department of Veterans Affairs, Connecticut Office of Early Childhood, and many others. Skylight’s sunnily based out of Sarasota, Florida, though we’re a distributed and remote-friendly team spread across {{ site. state_count }} different states.
 </div>
-</div>
-</div>
 
-<div class="row brand__content-section">
-<div class="col-md-9" markdown="1">
 ## Messaging by audience
 
 Because we engage with a number of different audiences our messaging has to be flexible. We always use the same Skylight voice, but make sure the message matches the audience and their motivations.
-</div>
-<div class="col-md-9">
+
 <div class="example" markdown="1">
 ### Prospective customers, prospective teaming partners, academia, media
 

@@ -10,7 +10,7 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="row brand__content-section">
+<div class="row">
 <div class="col-md-9" markdown="1">
 ## Content style guidelines
 

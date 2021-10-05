@@ -10,7 +10,7 @@ toolkit_name: brand
 class: brand
 ---
 
-<div class="row brand__content-section">
+<div class="row">
 <div class="col-md-9" markdown="1">
 ## Voice qualities
 
@@ -26,11 +26,7 @@ Working together, these qualities make everything we write sound uniquely Skylig
 
 See Skylight's [Content Guide](/work/toolkits/content-guide/voice-and-tone/) for more information on each of our voice qualities, including examples of how to use them in practice.
 {: .callout--note }
-</div>
-</div>
 
-<div class="row brand__content-section">
-<div class="col-md-9" markdown="1">
 ## Tone qualities
 
 Modulating tone helps us tailor our words to any specific audience. By keeping users and partners in mind, you allow yourself to see someone else’s perspective, helping you better understand their wants and needs, and speak to them in ways they can engage with.
