@@ -31,6 +31,7 @@ Thinking and being digital requires fundamental practice, culture, and technolog
 </div>
 
 ## The Skylight difference
+{: .mt-6 }
 
 Customers choose to work with us not only because of our talented employees and deep expertise, but also our dedication to serving the public in an open and inclusive manner.
 
@@ -49,6 +50,7 @@ We strive to create a **diverse, equitable, and inclusive** environment for ever
 </div>
 
 ## Brand personality
+{: .mt-6 }
 
 How we want the world to see us.
 
@@ -69,6 +71,7 @@ The byproduct of three companies, we’d be Google + McKinsey + ReadySet.
 </div>
 
 ## Sample messaging
+{: .mt-6 }
 
 Our writing is short and clear. We use words that everyone understands. It's how we stay transparent with everyone.
 
@@ -83,6 +86,7 @@ Skylight is a digital consultancy using design and technology to help agencies d
 </div>
 
 ## Messaging by audience
+{: .mt-6 }
 
 Because we engage with a number of different audiences our messaging has to be flexible. We always use the same Skylight voice, but make sure the message matches the audience and their motivations.
 
