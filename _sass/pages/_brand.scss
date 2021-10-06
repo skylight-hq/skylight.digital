@@ -155,6 +155,12 @@
     margin-bottom: 0;
   }
 
+  .section__img--no-border {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
   .section__container {
     border: 1px solid $gray-20;
     border-radius: 0.25rem;
@@ -839,7 +845,12 @@
   border-bottom-left-radius: 0.25rem;
 }
 
-.brand-icons-variants__bottom {
+.brand-icons-variants__bottom,
+.section__img--rounded-bottom {
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
+}
+
+.border-rounded {
+  border-radius: 0.25rem;;
 }

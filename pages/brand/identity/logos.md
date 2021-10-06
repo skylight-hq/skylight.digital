@@ -49,7 +49,7 @@ Each of the four colors in our logo — blue, green, ochre, and red — has its 
 ## Behind the design: <br>The type
   </header>
   <div class="grid__image section__container w-100 d-flex">
-    <img class="w-100" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="Skylight logotype">
+    <img class="w-100 border-rounded" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="Skylight logotype">
   </div>
   <div class="grid__content" markdown="1">
 The logotype uses a wide kerning to make our brand feel open and accessible. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
@@ -61,11 +61,11 @@ The logotype uses a wide kerning to make our brand feel open and accessible. We 
   <header class="grid__heading" markdown="1">
 ## Light and dark
   </header>
-  <div class="grid__image">
-    <figure class="section__img w-100">
+  <div class="grid__image section__container">
+    <figure class="section__img--no-border w-100">
       <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-logo.svg" alt="Skylight logo">
     </figure>
-    <figure class="section__img w-100 bg-gray-darker">
+    <figure class="section__img--no-border section__img--rounded-bottom w-100 bg-gray-darker">
       <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-inverse.svg" alt="Skylight logo inverse">
     </figure>
   </div>
@@ -90,11 +90,11 @@ Always aim to use one of these versions. The colors reinforce the brand identity
   <header class="grid__heading" markdown="1">
 ## Grayscale
   </header>
-  <div class="grid__image">
-    <figure class="section__img w-100">
+  <div class="grid__image section__container">
+    <figure class="section__img--no-border no-border w-100">
       <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale.svg" alt="Skylight logo grayscale">
     </figure>
-    <figure class="section__img w-100 bg-gray-darker">
+    <figure class="section__img--no-border section__img--rounded-bottom no-border w-100 bg-gray-darker">
       <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-grayscale-inverse.svg" alt="Skylight logo grayscale inverse">
     </figure>
   </div>
