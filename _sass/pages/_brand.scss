@@ -149,6 +149,7 @@
 
   .section__img {
     border: 1px solid $gray-20;
+    border-radius: 0.25rem;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
@@ -156,6 +157,7 @@
 
   .section__container {
     border: 1px solid $gray-20;
+    border-radius: 0.25rem;
   }
 
   .col-md-4 {
@@ -827,4 +829,17 @@
       grid-template-columns: repeat(3, 1fr);
     }
   }
+}
+
+.brand-variations__top-right {
+  border-top-right-radius: 0.25rem;
+}
+
+.brand-variations__bottom-left {
+  border-bottom-left-radius: 0.25rem;
+}
+
+.brand-icons-variants__bottom {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }

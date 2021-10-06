@@ -43,7 +43,7 @@ To highlight Skylight’s presence, we use our standard icon as an avatar in our
         <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-grayscale.svg" alt="Skylight icon grayscale">
       </figure>
     </div>
-    <div class="d-flex bg-gray-darker justify-content-evenly">
+    <div class="brand-icons-variants__bottom d-flex bg-gray-darker justify-content-evenly">
       <figure class="brand--logo-variant d-flex flex-column mb-0">
         <figcaption class="caption text-white">Inverse <br>color</figcaption>
         <img class="pt-5" src="/img/brand/identity/assets/icon/avatar/svg/halo-inverse.svg" alt="Skylight icon inverse">
