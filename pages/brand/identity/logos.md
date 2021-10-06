@@ -150,12 +150,12 @@ This version of the logo is for instances in which only one color is allowed. Th
         <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
           <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom.svg" alt="Skylight logo bar bottom">
         </figure>
-        <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
+        <figure class="brand-variations__top-right d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
           <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-bottom-inverse.svg" alt="Skylight logo bar bottom inverse">
         </figure>
       </div>
       <div class="d-flex align-items-center justify-content-center">
-        <figure class="d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
+        <figure class="brand-variations__bottom-left d-flex align-items-center justify-content-center w-100 bg-gray-darker mb-0">
           <img class="px-2 py-6 w-50" src="/img/brand/identity/assets/logos/svg/skylight-bar-top-inverse.svg" alt="Skylight logo bar top inverse">
         </figure>
         <figure class="d-flex align-items-center justify-content-center w-100 mb-0">
