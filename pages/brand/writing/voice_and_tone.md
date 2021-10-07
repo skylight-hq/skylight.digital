@@ -14,7 +14,7 @@ class: brand
 <div class="col-md-9" markdown="1">
 ## Voice qualities
 
-Our voice helps us convey who we are to our audience and is defined by our values and goals as a company. Having a consistent voice is essential, regardless of who creates the content. Skylight’s voice has five key qualities that reflect both what we say and how we say it:
+Our voice helps us convey who we are to our audience and is defined by our vision, mission, and values. Having a consistent voice is essential, regardless of who creates the content. Skylight’s voice has five key qualities that reflect both what we say and how we say it:
 
 - Expressive
 - Smart
