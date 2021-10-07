@@ -24,7 +24,7 @@ families:
     <img class="" src="/img/brand/identity/colors/brand-colors.svg" alt="Skylight color palette brand colors">
   </div>
   <div class="grid__content" markdown="1">
-Each individual color has its own meanings:
+Each individual color has its own meaning:
 
 1. **Blue:** sky, wisdom, dependable, committed
 2. **Green:** nature, balance, growth, compassion
@@ -32,7 +32,7 @@ Each individual color has its own meanings:
 4. **Red:** energy, passion, authority, confidence
 {: .list--circle }
 
-These colors and their meanings help define the way that our audience perceives Skylight’s brand. It also helps us create assets that reflect certain emotions that we want to evoke. Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
+These colors and their meanings help define the way our audience feels about Skylight’s brand. It also helps us create assets that reflect the emotions we want to evoke. Using primary colors demonstrates how we start with basic building blocks, and can combine them into anything.
   </div>
 </div>
 
@@ -111,7 +111,7 @@ We use the gray colors for text, charts, etc.
   <div class="grid__content" markdown="1">
 To provide a practical range of values for web/screen applications, we’ve extended the original base palette (indicated by the `-100` suffix).
 
-We also added labels to each swatch so you can check whether there’s sufficient contrast to meet WCAG AA standards.
+We also added labels to each swatch so you can check whether there’s sufficient contrast to meet [WCAG 2.0 Level AA guidelines](https://webaim.org/resources/contrastchecker/).
   </div>
 </div>
 

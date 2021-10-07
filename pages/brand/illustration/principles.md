@@ -29,7 +29,7 @@ Typically, illustrations with objects only are reserved for icons.
 
 ## 3. Digitize
 
-Show people interacting with technology, or at the intersection of where the physical world meets the digital world.
+Show people interacting with technology, ​​or in visual metaphors about the physical and digital world intersecting.
 
 In some cases, it might be more compelling to focus more on the ultimate outcomes of our work rather than the technology or methods that we use.
 
@@ -43,9 +43,9 @@ Reflect the diversity of the world that we live in — skin colors, body types, 
 
 ## 6. Contextualize
 
-Keep in mind the role/purpose that the illustration is intended to serve.
+Keep in mind the purpose that the illustration is intended to serve.
 
-For example, if the illustration will accompany a case study or blog post, reinforce what we’re trying to accomplish within the text (that is, what we’re trying to communicate to the target audience).
+For example, if the illustration will accompany a case study or blog post, reinforce what we’re trying to accomplish within the text — that is, what we’re trying to communicate to the target audience.
 </div>
 </div>
 </div>

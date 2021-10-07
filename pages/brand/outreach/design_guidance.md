@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Design guidance
-description: Whether designing a web page or a business card, we’ve developed some essential guidance that can be applied across Skylight’s marketing and communications materials.
+description: Whether designing a web page or a business card, we’ve developed essential guidance that we apply across Skylight’s marketing and communications materials.
 tags:
 permalink: /brand/outreach/design-guidance/
 sidenav: brand_outreach

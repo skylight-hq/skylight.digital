@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Logos
-description: Our logo is often the first introduction someone has to Skylight. It’s a powerful tool for representing ourselves to potential customers, partners, and prospective employees. We’ve provided some important rules for using our logo.
+description: Our logo is often the first thing you see. It’s a powerful tool for representing Skylight to potential customers, partners, and prospective employees. Here are some tips  for using our logo correctly.
 tags:
 permalink: /brand/identity/logos/
 sidenav: brand_identity
@@ -18,7 +18,7 @@ class: brand
     <img class="px-2 py-6 w-75" src="/img/logo.svg" alt="Skylight logo">
   </figure>
   <div class="grid__content" markdown="1">
-Our logo consists of two elements: the logotype and the “halo” — our logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon (see the [icons page](/brand/identity/icons/) for rules around usage). Our logo is typically used in customer-facing assets (e.g., presentation) and in spaces managed by other organizations (e.g., conference).
+Our logo consists of two elements: the logotype and the “halo” — our logomark or icon. The logotype should never appear without the logomark. The halo can be used separately from the logotype as an icon (see the [icons page](/brand/identity/icons/) for rules around usage). We typically use our logo in customer-facing assets (e.g., presentations) and at external events (e.g., conferences).
 
 {% include download_link.html
   text="logo"
@@ -29,7 +29,7 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
 
 <div class="brand__content-section grid">
   <header class="grid__heading" markdown="1">
-## Behind the design: <br>The halo
+## Behind the design: <br>the halo
   </header>
   <div class="grid__image section__container d-flex w-100">
     <img class="w-75 py-4 py-md-6 mr-6" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
@@ -39,20 +39,20 @@ The halo in its raised position after the logotype conveys enlightenment (facili
 
 The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
 
-Each of the four colors in our logo — blue, green, ochre, and red — has its own specific connotations that help evoke certain emotions in our audience. See the [colors page](/brand/identity/colors/) for more context around what each color means.
+Each of the four colors in our logo — blue, green, ochre, and red — has its own specific meaning  that helps bring out  certain emotions in our audience. See the [colors page](/brand/identity/colors/) for more context around what each color symbolizes.
 {: .mb-0 }
   </div>
 </div>
 
 <div class="brand__content-section grid">
   <header class="grid__heading" markdown="1">
-## Behind the design: <br>The type
+## Behind the design: <br>the type
   </header>
   <div class="grid__image section__container w-100 d-flex">
     <img class="w-100 border-rounded" src="/img/brand/identity/logos/behind-the-design--type.svg" alt="Skylight logotype">
   </div>
   <div class="grid__content" markdown="1">
-The logotype uses a wide kerning to make our brand feel open and accessible. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
+The logotype uses a wide kerning, or spacing, to make our brand feel open and accessible. We encourage diverse ideas from multiple perspectives (race, age, sexual and gender identity, life experiences, etc.).
 {: .mb-0 }
   </div>
 </div>
@@ -99,7 +99,7 @@ Always aim to use one of these versions. The colors reinforce the brand identity
     </figure>
   </div>
   <div class="grid__content" markdown="1">
-If a black and white version of the logo is required, use the standard grayscale logo in areas with a light background. Use the inverse grayscale logo in areas with a dark background. This logo should only be used when the color logo isn’t an option.
+If a black-and-white version of the logo is required, use the standard grayscale logo in areas with a light background. Use the inverse grayscale logo in areas with a dark background. This logo should only be used when the color logo isn’t an option.
 
 {% include download_link.html
   text="grayscale"
@@ -126,7 +126,7 @@ If a black and white version of the logo is required, use the standard grayscale
     </figure>
   </div>
   <div class="grid__content" markdown="1">
-This version of the logo is for instances in which only one color is allowed. This will most likely be for printing swag/merchandise — processes like etching need a silhouette version of a logo.
+Use this version of the logo when only one color is allowed. This could  be for printing swag or merchandise — processes like etching may need a silhouette version of a logo.
 
 {% include download_link.html
   text="one color"
@@ -165,7 +165,7 @@ This version of the logo is for instances in which only one color is allowed. Th
     </div>
   </div>
   <div class="grid__content" markdown="1">
-This variation of the logo can be used in instances, such as templates, where the logo needs a bit more separation from content.
+Use this variation of the logo in instances where the logo needs a bit more separation from content, such as a template.
 
 {% include download_link.html
   text="bar bottom"
@@ -224,7 +224,7 @@ A clear space of `2x` is recommended around the logo.
   <div class="grid__content" markdown="1">
 Legibility is critical for a logo — it should always be readable.
 
-Never scale the logo smaller than the sizes specified.
+Never scale the logo smaller than `100px` for the web and `1.375 inches` for print.
   </div>
 </div>
 
@@ -236,7 +236,7 @@ Never scale the logo smaller than the sizes specified.
     <img class="" src="/img/brand/identity/logos/general-positioning.svg" alt="Skylight logo positioned in a grid">
   </div>
   <div class="grid__content" markdown="1">
-The logo’s position in a print or digital piece should also be positioned.
+In a print or digital piece, the logo should also be positioned.
 
 The logo looks best positioned to the left, so try there first.
 
@@ -304,13 +304,13 @@ On special occasions, the logo can be turned on a `90°` angle. This is useful f
     </div>
   </div>
   <div class="grid__content" markdown="1">
-- Change the color of the logo
-- Skew the logo’s width or height
-- Recreate the logo in another font
-- Outline the logo
-- Place an image in the logo
-- Use the logo over a busy background
-- Rotate the logo to anything other than `0°` and `90°`
-- Change the logo’s proportions
+- Changing the color of the logo
+- Skewing the logo’s width or height
+- Recreating the logo in another font
+- Outlining the logo
+- Placing an image in the logo
+- Using the logo over a busy background
+- Rotating the logo to anything other than `0°` and `90°`
+- Changing the logo’s proportions
 </div>
 </div>

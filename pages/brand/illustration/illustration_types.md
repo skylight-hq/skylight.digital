@@ -37,7 +37,7 @@ class: brand
     </div>
   </div>
   <div class="grid__content" markdown="1">
-Illustrations for posts, such as a case study or blog article, use 1–2 (three if absolutely needed) bright colors from the illustration palette.
+Illustrations for posts, such as a case study or blog article, use one or two (three if absolutely needed) bright colors from the illustration palette.
 
 These images are always full bleed with a background color.
 </div>
@@ -98,7 +98,7 @@ They’re monochromatic using a bold color from the illustration palette. Accent
     </div>
   </div>
   <div class="grid__content" markdown="1">
-Even though illustrations are monochromatic, pages/layouts with many floating images should rotate through the different primary Skylight colors.
+Even though illustrations are monochromatic, pages or layouts with many floating images should rotate through the different primary Skylight colors.
 
 These images are used primarily within pages on the website.
 </div>
@@ -119,7 +119,7 @@ These images are used primarily within pages on the website.
   <div class="grid__content" markdown="1">
 Hero banners are monochromatic.
 
-The base color uses a primary color and the rest of the illustration uses lighter/darker shades. Each section of the website uses one color.
+The base color uses a primary color and the rest of the illustration uses lighter or darker shades. Each section of the website uses one color.
 
 Hero banners are made of 2–4 illustration vignettes and the geometric shapes. The shapes are anchored to the vignettes and sprinkled throughout the layout to drive focus to the text.
 </div>

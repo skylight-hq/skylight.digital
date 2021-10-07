@@ -14,7 +14,7 @@ class: brand
 <div class="col-md-9" markdown="1">
 ## Voice qualities
 
-Our voice helps us convey who we are to our audience and is defined by our vision, mission, and values. Having a consistent voice is essential, regardless of who creates the content. Skylight’s voice has five key qualities that are felt in both what we say and how we say it:
+Our voice helps us convey who we are to our audience and is defined by our values and goals as a company. Having a consistent voice is essential, regardless of who creates the content. Skylight’s voice has five key qualities that reflect both what we say and how we say it:
 
 - Expressive
 - Smart
@@ -30,7 +30,7 @@ See Skylight's [Content Guide](/work/toolkits/content-guide/voice-and-tone/) for
 ## Tone qualities
 {: .mt-6 }
 
-Modulating tone helps us tailor our words to any specific audience. By keeping users and partners in mind, you allow yourself to see someone else’s perspective, helping you better understand their wants and needs, and speak to them in ways they can engage with.
+Modulating tone helps us tailor our words to any specific audience. By keeping users and partners in mind, we can see someone else’s perspective, helping us better understand their wants and needs, and speak to them in ways they can engage with.
 
 See our [Content Guide](/work/toolkits/content-guide/voice-and-tone/#skylights-tone) for examples of how we adapt our tone to different contexts.
 {: .callout--note }

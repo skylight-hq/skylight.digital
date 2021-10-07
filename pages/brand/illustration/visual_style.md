@@ -81,13 +81,13 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
     </div>
   </div>
   <div class="grid__content" markdown="1">
-To maintain consistency our illustrations use color, lines, and fills in a similar way.
+To maintain consistency our illustrations use color, lines, and fills in a similar way:
 
-1. Use hair and skin colors, as needed, to represent the diverse world.
-2. Creating texture with patterns adds personality to the images.
-3. Accent minimally with light gray.
-4. Illustrations are crafted using offset outlines with selected fills.
-5. Organizational clothing (such as military uniforms) is an exception to the limited palette and should reflect real life.
+1. Use hair and skin colors, as needed, to represent the diverse world
+1. Create texture with patterns to add personality to the images
+1. Accent minimally with light gray
+1. Craft illustrations using offset outlines with selected fills
+1. Reflect real life with organizational clothing (such as military uniforms), an exception to the limited palette
 {: .list--circle }
 </div>
 </div>

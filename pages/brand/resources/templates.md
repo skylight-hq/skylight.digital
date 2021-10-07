@@ -19,7 +19,7 @@ class: brand
   url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
 %}{: .mb-1 }
 
-A guide to using the Skylight brand in Google Docs. Refer to this template for all internal documents.
+A guide to using the Skylight brand in Google Docs. We use this template for all internal documents.
 
 {% include lock_link.html
   text="Skylight Slides Deck Template"
@@ -40,7 +40,7 @@ A guide to formatting various kinds of tables, charts, invoices, and other forms
   url="https://docs.google.com/document/d/1hkzfTX6jPNfk2hrHJnK3ynhqQtyZO5Qf2ceV1bSqAbQ/edit?usp=sharing"
 %}{: .mb-1 }
 
-A guide for structuring external-facing research plans and reports. Includes guidance on using Skylight’s more formal stylings.
+A guide for structuring external-facing research plans,reports, and other more formal documents.
 
 {% include lock_link.html
   text="External Agenda Template"
