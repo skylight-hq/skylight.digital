@@ -14,7 +14,7 @@ class: brand
 <div class="col-md-8" markdown="1">
 # Downloads
 
-Download our brand assets to effectively represent Skylight. This includes our logo, icon, and a range of other useful resources.
+Download our brand assets. This includes our logo, icon, and a range of other useful resources.
 
 {% include download_link.html
   text="brand pack"

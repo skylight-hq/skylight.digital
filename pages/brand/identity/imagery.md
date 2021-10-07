@@ -44,9 +44,9 @@ Creating new artwork? You should check out our [illustration brand guidelines](/
   <div class="grid__content" markdown="1">
 When sharing photos, we want to feature real people with real-life stories to tell. Capture a sense of place by showing activities with teammates, customers, and partners.
 
-Facial expressions, clothing, hair/makeup should look natural (not over-the-top stock).
+Facial expressions, clothing, and hair/makeup should look natural (not over-the-top stock).
 
-Every image should tell a story. There are a few tricks we can use to make sure our message comes across to viewers:
+Every image should tell a story. There are a few tricks we can use to make sure your message comes across to viewers:
 
 - Figure out what you're trying to say with this photo
 - Capture all relevant objects, people, and background
@@ -77,6 +77,6 @@ Use a shallow depth of field in an outdoor setting.
 
 When possible, set up images to include an element of blue (in clothing or surroundings).
 
-The photo should be edited to use a realistic color balance.
+The photo should be edited using a realistic color balance.
   </div>
 </div>

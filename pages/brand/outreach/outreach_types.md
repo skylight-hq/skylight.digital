@@ -30,7 +30,7 @@ Our hero banner helps present our overall mission and includes a call to action 
     <img class="" src="/img/brand/outreach/online-ad.svg" alt="Online advertisement for DITAP">
   </figure>
   <div class="grid__content" markdown="1">
-In online advertisements, we aim to clearly communicate our message and convince our audience to interact further. We use minimal text, graphic elements, and a call to action in order to help create a visually balanced design.
+In online advertisements, we aim to clearly communicate our message and convince our audience to interact further. We use minimal text, graphic elements, and a call to action to help create a visually balanced design.
 </div>
 </div>
 
@@ -44,7 +44,7 @@ In online advertisements, we aim to clearly communicate our message and convince
     </figure>
   </div>
   <div class="grid__content" markdown="1">
-From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a number of internal events. We want to create engaging internal communications — not only to ensure that team members know what to expect, but also to get them excited about attending!
+From our Speaker Series to our Personal Growth Share Outs, Skylight hosts a number of internal events. We want to create engaging internal communications — not only to ensure that team members know what to expect, but also to get them excited about attending.
 </div>
 </div>
 

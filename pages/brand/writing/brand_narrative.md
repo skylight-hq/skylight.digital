@@ -23,7 +23,7 @@ Every day millions of people — from veterans to immigrants — depend on gover
 
 ### What
 
-We're public servants at heart who are driven to make government services work better in the internet era.
+We’re public servants at heart who are driven to make government services work better using design and technology.
 
 ### How
 
@@ -55,7 +55,7 @@ We strive to create a **diverse, equitable, and inclusive** environment for ever
 How we want the world to see us.
 
 <div class="example" markdown="1">
-**Mission-oriented.** We’re driven by a burning passion to create better outcomes for the public through great government digital services.
+**Mission oriented.** We’re driven by a burning passion to create better outcomes for the public through great government digital services.
 
 **Talented.** When you work with Skylight, you’re engaging with experts who are the best at what they do, and always deliver results — even when the going gets tough.
 
@@ -67,7 +67,7 @@ How we want the world to see us.
 
 **If Skylight were...**
 
-The byproduct of three companies, we’d be Google + McKinsey + ReadySet.
+The combination of three companies, we’d be Google + McKinsey + ReadySet.
 </div>
 
 ## Sample messaging
@@ -82,7 +82,9 @@ Skylight is a digital consultancy using design and technology to help agencies d
 
 ### Longer description
 
-Skylight is a digital consultancy using design and technology to help agencies deliver better public services. Our talented team consists of former Presidential Innovation Fellows, founders of 18F, and members of the U.S. Digital Service. Our areas of expertise include human-centered design, lean-agile engineering, DevSecOps, cloud computing, open-source software, APIs, legacy modernization, data management, digital transformation, digital procurement, and training. We partner with different clients from across government, including the U.S. Air Force, Centers for Medicare & Medicaid Services, U.S. Department of Veterans Affairs, Connecticut Office of Early Childhood, and many others. Skylight’s sunnily based out of Sarasota, Florida, though we’re a distributed and remote-friendly team spread across {{ site. state_count }} different states.
+Skylight is a digital consultancy using design and technology to help agencies deliver better public services. Our talented team consists of former Presidential Innovation Fellows, founders of 18F, and members of the U.S. Digital Service. Our areas of expertise include human-centered design, lean-agile engineering, DevSecOps, cloud computing, open-source software, APIs, legacy modernization, data management, digital transformation, digital procurement, and training.
+
+We partner with different clients from across government, including the U.S. Air Force, Centers for Medicare & Medicaid Services, U.S. Department of Veterans Affairs, Connecticut Office of Early Childhood, and many others. Skylight is based out of sunny Sarasota, Florida, though we’re a distributed and remote-friendly team spread across more than {{ site. state_count }} different states.
 </div>
 
 ## Messaging by audience
@@ -97,7 +99,13 @@ See longer description under [sample messaging](#sample-messaging).
 
 ### Prospective employees
 
-Skylight is more than a company. We represent a movement to reinvent how the government serves families, patients, veterans, immigrants, and many others in today's digital world. Everything about us — our structure, values, services, work, thoughts, and team — is designed with that purpose in mind. It's people like you — with talents in research, design, product, engineering, data, and more — who can make a difference. We've created an environment that empowers you to unleash your skills for public good, whether that's improving early childhood outcomes or helping to save veteran lives. You'll work alongside a team of extraordinarily-talented people who strive to bring out the best in you and each other. You'll also be taken care of with a well-thought-out compensation and benefits package. We want you to be happy, fulfilled, and well-supported. We're still in startup mode, and our future is bright. We're doing impactful work, building an amazing team, and improving every day. Everyone is given the opportunity to shape the company in some way. We'd love for you to join us in creating something special.
+Skylight is more than a company. We represent a movement to reinvent how the government serves families, patients, veterans, immigrants, and many others in today's digital world. Everything about us — our structure, values, services, work, thoughts, and team — is designed with that purpose in mind.
+
+It’s people like you — with talents in research, design, product, engineering, data, and more — who can make a difference. We’ve created an environment that empowers you to use your skills for public good, whether that’s improving early childhood outcomes, or helping to improve the lives of veterans. You’ll work alongside a team of extraordinarily talented people who strive to bring out the best in you and each other. You’ll also be taken care of with a well-thought-out compensation and benefits package.
+
+We want you to be happy, fulfilled, and well-supported. We’re still in startup mode, and our future is bright. We’re doing impactful work, building an amazing team, and improving every day. Everyone is given the opportunity to shape the company in some way.
+
+We’d love for you to join us in creating something special.
 </div>
 </div>
 </div>

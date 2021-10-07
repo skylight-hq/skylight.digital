@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Icons
-description: Skylight’s brand primarily lives online, so it’s essential that our icon is depicted consistently and accurately to ensure our audience recognizes our brand across various contexts.
+description: Skylight’s brand primarily lives online, so it’s essential that we use our icon consistently and accurately to ensure our audience recognizes our brand across various contexts.
 tags:
 permalink: /brand/identity/icons/
 sidenav: brand_identity
@@ -18,7 +18,7 @@ class: brand
     <img class="w-25" src="/img/brand/identity/icons/intro.svg" alt="Skylight icon">
   </div>
   <div class="grid__content" markdown="1">
-To highlight Skylight’s presence, we use our standard icon as an avatar in our different online spaces and social accounts. It can be used in a variety of sizes, as small as 16px.
+We use our standard icon as an avatar in our different online spaces and social accounts. It can be used in a variety of sizes, as small as `16px`.
 
 {% include download_link.html
   text="icon"
@@ -56,6 +56,6 @@ To highlight Skylight’s presence, we use our standard icon as an avatar in our
   </div>
   </div>
   <div class="grid__content" markdown="1">
-Use the icon on the top for light backgrounds and the icon on the bottom for dark (including the darker blue).
+Use the standard and grayscale icon on the top for light backgrounds and the inverse standard and grayscale icon on the bottom for dark (including the darker blue).
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Typography
-description: The way our words appear is a vital component of Skylight’s brand. Our typeface and its usage helps establish a strong visual identity, creates visual consistency across all mediums, and supports our brand’s overall tone.
+description: How our words appear is a vital component of Skylight’s brand. Our typeface and its usage helps establish a strong visual identity, creates visual consistency across all mediums, and supports our brand’s overall tone.
 tags:
 permalink: /brand/identity/typography/
 sidenav: brand_identity
@@ -90,7 +90,7 @@ class: brand
     </div>
   </div>
   <div class="grid__content" markdown="1">
-We keep our typography simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. Roboto Mono comes in more sparingly.
+We keep our typography simple and easy to use. We primarily use Franklin Libre Semibold, Regular, and Light. We also use Roboto Mono from time to time, as needed.
 
 1. Pre-headline: Roboto Mono Regular
 2. Page title: Franklin Libre Semibold
