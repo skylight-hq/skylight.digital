@@ -35,7 +35,7 @@ Our logo consists of two elements: the logotype and the “halo” — our logom
     <img class="w-75 py-4 py-md-6 mr-6" src="/img/brand/identity/logos/behind-the-design--halo.svg" alt="Skylight halo logomark">
   </div>
   <div class="grid__content" markdown="1">
-The halo in its raised position after the logotype conveys enlightenment (facilitating a deeper understanding) and hopefulness (something good is going to happen).
+The halo in its raised position after the logotype conveys wisdom (facilitating a deeper understanding) and hopefulness (something good is going to happen).
 
 The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
 
