@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Logos
-description: Our logo is often the first thing you see. It’s a powerful tool for representing Skylight to potential customers, partners, and prospective employees. Here are some tips  for using our logo correctly.
+description: Our logo is often the first thing you see. It’s a powerful tool for representing Skylight to potential customers, partners, and prospective employees. Here are some tips for using our logo correctly.
 tags:
 permalink: /brand/identity/logos/
 sidenav: brand_identity
@@ -39,7 +39,7 @@ The halo in its raised position after the logotype conveys wisdom (facilitating 
 
 The circular form symbolizes cycle (a feedback loop), inclusion (designing for everyone), and wholeness (such as addressing the whole user experience).
 
-Each of the four colors in our logo — blue, green, ochre, and red — has its own specific meaning  that helps bring out  certain emotions in our audience. See the [colors page](/brand/identity/colors/) for more context around what each color symbolizes.
+Each of the four colors in our logo — blue, green, ochre, and red — has its own specific meaning that helps bring out certain emotions in our audience. See the [colors page](/brand/identity/colors/) for more context around what each color symbolizes.
 {: .mb-0 }
   </div>
 </div>
@@ -126,7 +126,7 @@ If a black-and-white version of the logo is required, use the standard grayscale
     </figure>
   </div>
   <div class="grid__content" markdown="1">
-Use this version of the logo when only one color is allowed. This could  be for printing swag or merchandise — processes like etching may need a silhouette version of a logo.
+Use this version of the logo when only one color is allowed. This could be for printing swag or merchandise — processes like etching may need a silhouette version of a logo.
 
 {% include download_link.html
   text="one color"
@@ -224,7 +224,7 @@ A clear space of `2x` is recommended around the logo.
   <div class="grid__content" markdown="1">
 Legibility is critical for a logo — it should always be readable.
 
-Never scale the logo smaller than `100px` for the web and `1.375 inches` for print.
+Never scale the logo smaller than `100px` for the web and 1.375 inches for print.
   </div>
 </div>
 

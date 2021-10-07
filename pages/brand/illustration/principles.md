@@ -31,7 +31,7 @@ Typically, illustrations with objects only are reserved for icons.
 
 Show people interacting with technology, ​​or in visual metaphors about the physical and digital world intersecting.
 
-In some cases, it might be more compelling to focus more on the ultimate outcomes of our work rather than the technology or methods that we use.
+In some cases, it might be more compelling to focus on the ultimate outcomes of our work rather than the technology or methods that we use.
 
 ## 4. Simplify
 
