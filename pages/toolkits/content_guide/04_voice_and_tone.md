@@ -84,7 +84,31 @@ We’ve seen every type of digital challenge there is. In fact, we guarantee tha
 
 While our voice is constant, our tone should change depending on the emotional state of the person we’re addressing. We wouldn’t want to use the same tone of voice with someone who’s scared or upset as we would with someone who’s laughing. In other words, we choose our tone based on empathy and context.
 
-The way we speak encourages people to tell us more, and it invites people to get to know us. Because of this, we take a conversational tone with our writing: everyday talk that’s easy to understand and feels approachable.
+The way we speak encourages people to tell us more, and it invites people to get to know us. Because of this, we take a conversational tone with our writing: everyday talk that’s easy to understand and feels approachable. However, there are certain situations that call for a more formal tone and others that call for more exuberance.
+
+### Formal
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+With more and more public services powered by software, it’s imperative for government officials to understand technical debt and how to manage it effectively.
+
+#### No
+{: .fails }
+Attention clients! Do you know what technical debt is? If not, we can help! We’ve got some serious expertise when it comes to helping your agency manage it.
+</div>
+
+### Informal
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+Calling all students — it’s not too late to find a summer internship! We’re looking for product designers, content strategists, and software engineers, so act fast!
+
+#### No
+{: .fails }
+Skylight has a number of exciting positions open this summer for students, including internships in product design, content strategy, and software engineering.
+</div>
 
 ## How to become great at voice and tone
 

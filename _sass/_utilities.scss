@@ -19,33 +19,184 @@
   top: 1rem;
 }
 
-.bg-yellow {
-  background-color: $sk-yellow;
+// Blue
+
+.bg-blue-20 {
+  background-color: $blue-20;
 }
 
-.bg-red {
-  background-color: $red-200;
+.bg-blue-40 {
+  background-color: $blue-40;
 }
 
-.bg-green {
-  background-color: $green-300;
+.bg-blue-60 {
+  background-color: $blue-60;
 }
 
+.bg-blue-80 {
+  background-color: $blue-80;
+}
+
+.bg-blue-100 {
+  background-color: $blue-100;
+}
+
+.bg-blue-100,
+.bg-blue-light {
+  background-color: $sk-blue-light;
+}
+
+.bg-blue-200,
 .bg-blue {
   background-color: $sk-blue;
 }
 
-.bg-gray {
-  background-color: $gray-light;
+.bg-blue-300 {
+  background-color: $blue-300;
 }
 
-.bg-gray-light {
-  background-color: $brand-gray-light;
+// Green
+
+.bg-green-20 {
+  background-color: $green-20;
 }
 
+.bg-green-40 {
+  background-color: $green-40;
+}
+
+.bg-green-60 {
+  background-color: $green-60;
+}
+
+.bg-green-80 {
+  background-color: $green-80;
+}
+
+.bg-green-100 {
+  background-color: $green-100;
+}
+
+.bg-green-200 {
+  background-color: $green-200;
+}
+
+.bg-green-300,
+.bg-green {
+  background-color: $green-300;
+}
+
+.bg-green-400 {
+  background-color: $green-400;
+}
+
+// Red
+
+.bg-red-20 {
+  background-color: $red-20;
+}
+
+.bg-red-40 {
+  background-color: $red-40;
+}
+
+.bg-red-60 {
+  background-color: $red-60;
+}
+
+.bg-red-80 {
+  background-color: $red-80;
+}
+
+.bg-red-100 {
+  background-color: $red-100;
+}
+
+.bg-red-200,
+.bg-red {
+  background-color: $red-200;
+}
+
+.bg-red-300 {
+  background-color: $red-300;
+}
+
+// Yellow/Ochre
+
+.bg-ochre-20,
 .bg-ochre-lightest {
   background-color: $ochre-20;
 }
+
+.bg-ochre-40 {
+  background-color: $ochre-40;
+}
+
+.bg-ochre-60 {
+  background-color: $ochre-60;
+}
+
+.bg-ochre-80 {
+  background-color: $ochre-80;
+}
+
+.bg-ochre-100,
+.bg-yellow {
+  background-color: $ochre-100;
+}
+
+.bg-ochre-200 {
+  background-color: $ochre-200;
+}
+
+.bg-ochre-300 {
+  background-color: $ochre-300;
+}
+
+.bg-ochre-400 {
+  background-color: $ochre-400;
+}
+
+// Gray
+
+.bg-gray-5,
+.bg-gray-lightest {
+  background-color: $gray-5;
+}
+
+.bg-gray-20,
+.bg-gray-light {
+  background-color: $gray-20;
+}
+
+.bg-gray-40 {
+  background-color: $gray-40;
+}
+
+.bg-gray-60 {
+  background-color: $gray-60;
+}
+
+.bg-gray-80,
+.bg-gray {
+  background-color: $gray-80;
+}
+
+.bg-gray-100 {
+  background-color: $gray-100;
+}
+
+.bg-gray-200,
+.bg-gray-darker {
+  background-color: $gray-200;
+}
+
+.bg-gray-300,
+.bg-ink {
+  background-color: $gray-300;
+}
+
+// Text colors
 
 .text-ink {
   color: $black;
@@ -56,7 +207,11 @@
 }
 
 .text-gray-light {
-  color: $brand-gray-light;
+  color: $gray-light;
+}
+
+.text-primary {
+  color: $sk-blue;
 }
 
 .container-xxl {
@@ -124,4 +279,8 @@
 
 .grid-container {
   @include grid-container;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
 }

@@ -196,7 +196,7 @@ content_guide:
 
 service_design_framework:
   title: Service Design Framework
-  description: Practices and tools for delivering optimal <br class="linebreak">user experience journeys.
+  description: Practices and tools for delivering optimal user experience journeys.
   toc:
     - title: Service design overview
       url: /work/toolkits/service-design-framework/
@@ -218,3 +218,65 @@ service_design_framework:
       url: /work/toolkits/service-design-framework/appendix-b-templates/
     - title: "Appendix C: Glossary"
       url: /work/toolkits/service-design-framework/appendix-c-glossary/
+
+brand_identity:
+  title: Identity
+  description: Discover Skylight’s core brand elements and our rules for using them.
+  description_long: Discover Skylight’s core brand elements and our rules for using them. We’ve provided guidance for each element, including Skylight’s logo, icons, color, typography, and imagery. Learn how these elements work together to create Skyilght’s identity.
+  toc:
+    - title: Logos
+      url: /brand/identity/logos/
+    - title: Icons
+      url: /brand/identity/icons/
+    - title: Colors
+      url: /brand/identity/colors/
+    - title: Typography
+      url: /brand/identity/typography/
+    - title: Imagery
+      url: /brand/identity/imagery/
+
+brand_writing:
+  title: Writing
+  description: Craft clear and consistent content using our brand personality and style guide.
+  description_long: Craft clear and consistent content using Skylight’s voice and brand personality. You’ll find a breakdown of our brand narrative, sample messaging, and guidance around voice and tone, as well as other useful resources that we’ve developed to help you write in the Skylight style.
+  toc:
+    - title: Brand narrative
+      url: /brand/writing/brand-narrative/
+    - title: Voice and tone
+      url: /brand/writing/voice-and-tone/
+    - title: Style
+      url: /brand/writing/style/
+
+brand_illustration:
+  title: Illustration
+  description: Design images that represent Skylight’s principles and visual style.
+  description_long: Design images and visuals that align with the Skylight brand. Keep in mind our principles when developing illustrations to effectively highlight the value of working with us. This section also offers rules around our palette, style, and other illustration use cases.
+  toc:
+    - title: Principles
+      url: /brand/illustration/principles/
+    - title: Visual style
+      url: /brand/illustration/visual-style/
+    - title: Illustration types
+      url: /brand/illustration/illustration-types/
+
+brand_outreach:
+  title: Outreach
+  description: Develop marketing and communication materials using our design guidelines.
+  description_long: Develop materials using Skylight’s graphic elements and visual identity. In this section, we’ve provided examples of the graphic elements we use in layout design and illustration, as well as samples of Skylight’s brand in use, both for digital assets and Skylight swag.
+  toc:
+    - title: Design guidance
+      url: /brand/outreach/design-guidance/
+    - title: Outreach types
+      url: /brand/outreach/outreach-types/
+
+brand_resources:
+  title: Resources
+  description: Find the assets you need to share Skylight’s story.
+  description_long: Find the digital assets you need to share Skylight’s story. If you have questions or need additional resources, please <a href="mailto:admin@skylight.digital">contact us</a>.
+  toc:
+    - title: Emoji
+      url: /brand/resources/emoji/
+    - title: Templates
+      url: /brand/resources/templates/
+    - title: Downloads
+      url: /brand/resources/downloads/

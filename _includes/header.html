@@ -1,10 +1,18 @@
 <header class="header" role="banner">
-  <nav class="navbar">
+  <nav
+    class="
+    navbar
+    {% if page.toolkit_name == "brand" %}
+      navbar-toggleable-lg
+    {% else %}
+      navbar-toggleable-sm
+    {% endif %}
+  ">
     <div class="navbar-flex-container">
       {% if page.title == "Home" %}
-      <h1><a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a></h1>
+        <h1><a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a></h1>
       {% else %}
-      <a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a>
+        <a class="navbar-logo" href="{{site.baseurl}}/{% if page.toolkit_name == "brand" %}brand/{% endif %}">Skylight</a>
       {% endif %}
       <div
         class="navbar-toggler"
@@ -21,6 +29,9 @@
 
     <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
       <ul class="navbar-nav">
+        {% if page.toolkit_name == "brand" %}
+          {% include header_brand.html %}
+        {% else %}
         <li class="nav-item nav-item--company dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -36,6 +47,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{site.baseurl}}/company/about/">About us</a>
             <a class="dropdown-item" href="{{site.baseurl}}/company/values/">Our values</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/brand/">Brand</a>
             <a class="dropdown-item" href="{{site.baseurl}}/company/press/">Press</a>
             <a class="dropdown-item" href="https://skylight-swag.myshopify.com/">Store</a>
           </div>
@@ -110,6 +122,7 @@
             >
           </div>
         </li>
+        {% endif %}
       </ul>
     </div>
   </nav>

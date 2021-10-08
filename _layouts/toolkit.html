@@ -5,16 +5,33 @@ image: /img/toolkit-social.png
 image_description: Skylight toolkit banner showing a collection of different tools.
 ---
 
-{% include hero_banner.html
-  color = "blue"
-  image = "hero-toolkit.svg"
-  class = "hero--toolkits"
-%}
+{% if page.toolkit_name == "brand" %}
+  {% include hero_banner_brand.html
+    color = "blue"
+    class = "hero--toolkits"
+  %}
+{% else %}
+  {% include hero_banner.html
+    color = "blue"
+    image = "hero-toolkit.svg"
+    class = "hero--toolkits"
+  %}
+{% endif %}
 
 <div class="grid-container" id="main">
   <div class="row d-flex">
-    <div class="sidenav col-12 col-md-3 order-2 order-md-1">
-      <div class="">
+    <div class="sidenav order-2 order-md-1
+    {% if page.toolkit_name == "brand" %}
+    col-md-2
+    {% else %}
+    col-md-3
+    {% endif %}
+    ">
+      <div class="
+        {% if page.toolkit_name == "brand" %}
+          is-sticky
+        {% endif %}"
+      ">
         <nav class="subnav-col px-0 mt-5 mt-md-0" id="sidenav">
           <ul>
             {% for item in site.data.toolkits[page.sidenav].toc %}
@@ -26,52 +43,38 @@ image_description: Skylight toolkit banner showing a collection of different too
         </nav>
       </div>
     </div>
-    <section class="col-12 col-md-9 page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}} page--{{ page.sidenav | slugify }}">
-      {{ content }}
+    <div class="page--toolkit text prose order-1 order-md-2 {{page.toolkit_name}}
+    {% if page.toolkit_name == "brand" %}
+    col-md-10
+    {% else %}
+    col-md-9
+    {% endif %}
+    ">
+      <section class="text">
+        {{ content }}
+      </section>
 
-      {% assign items = site.data.toolkits[page.sidenav].toc %}
-      {% for item in items %}
-        {% if item.url == page.url %}
-          {% assign prev_i = forloop.index0 | minus: 1 %}
-          {% assign next_i = forloop.index0 | plus: 1 %}
-          <div class="pagination-alt text-primary mt-5">
-            <div>
-              {% unless page.url == items.first.url %}
-              <a class="pagination-alt__step pagination-alt__step--previous" href="{{ items[prev_i].url }}">
-                <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
-                <span>
-                  Previous<span class="d-none d-sm-inline"> section</span>
-                </span>
-              </a>
-              {% endunless %}
-            </div>
-            <div>
-              {% unless page.url == items.last.url %}
-                <a class="pagination-alt__step pagination-alt__step--next" href="{{ items[next_i].url }}">
-                  <span>
-                    Next<span class="d-none d-sm-inline"> section</span>
-                  </span>
-                  <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
-                </a>
-              {% endunless %}
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+      {% if page.toolkit_name == "brand" %}
+        {% include pagination_brand.html %}
+      {% else %}
+        {% include pagination_toolkit.html %}
+      {% endif %}
       <button class="btn btn-primary btn--scroll-to-top" onclick="topFunction()" id="btn--scroll-to-top">
         <i class="far fa-long-arrow-up" aria-hidden="true"></i>
         <span class="">
           <span class="btn--scroll-to-top__first-text">Scroll to </span><span class="btn--scroll-to-top__second-text">top</span>
         </span>
       </button>
-    </section>
+    </div>
   </div>
 </div>
 
 {% if page.sidenav == "service_design_framework" %}
   {% include service_design_framework_cta.html %}
 {% else %}
-  {% include get_expert_answers_cta.html %}
+  {% unless page.toolkit_name == "brand" %}
+    {% include get_expert_answers_cta.html %}
+  {% endunless %}
 {% endif %}
 
 <script>

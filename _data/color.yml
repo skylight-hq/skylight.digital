@@ -1,0 +1,135 @@
+blue:
+  - token: blue-20
+    value: dae9f1
+  - token: blue-40
+    value: b5d2e3
+  - token: blue-60
+    value: 90bcd6
+  - token: blue-80
+    value: 6ba5c8
+  - token: blue-100
+    value: 468fba
+  - token: blue-200
+    value: 1d5392
+  - token: blue-300
+    value: 031a54
+green:
+  - token: green-20
+    value: dae9f1
+  - token: green-40
+    value: b5d2e3
+  - token: green-60
+    value: 90bcd6
+  - token: green-80
+    value: 99c5a6
+  - token: green-100
+    value: 80b690
+  - token: green-200
+    value: 609c70
+  - token: green-300
+    value: 418152
+  - token: green-400
+    value: 295C30
+red:
+  - token: red-20
+    value: f9e0de
+  - token: red-40
+    value: f2c1be
+  - token: red-60
+    value: eca19d
+  - token: red-80
+    value: e5827d
+  - token: red-100
+    value: df635c
+  - token: red-200
+    value: ba3932
+  - token: red-300
+    value: 961c0b
+ochre:
+  - token: ochre-20
+    value: fdf3de
+  - token: ochre-40
+    value: fbe8be
+  - token: ochre-60
+    value: f8dc9d
+  - token: ochre-80
+    value: f6d17d
+  - token: ochre-100
+    value: f4c55c
+  - token: ochre-200
+    value: e99821
+  - token: ochre-300
+    value: a66910
+  - token: ochre-400
+    value: 834e00
+gray:
+  - token: gray-5
+    value: f8f8f8
+  - token: gray-20
+    value: ddddde
+  - token: gray-40
+    value: bbbbbd
+  - token: gray-60
+    value: 989a9c
+  - token: gray-80
+    value: 76767b
+  - token: gray-100
+    value: 54565a
+  - token: gray-200
+    value: 37383b
+  - token: gray-300
+    value: 1c1d20
+primary:
+  - token: blue-200
+    value: 1d5392
+  - token: blue-100
+    value: 468fba
+  - token: ochre-40
+    value: fbe8be
+  - token: gray-300
+    value: 1c1d20
+  - token: gray-200
+    value: 37383b
+  - token: gray-100
+    value: 54565a
+secondary:
+  - token: red-100
+    value: df635c
+  - token: ochre-100
+    value: f4c55c
+  - token: green-100
+    value: 80b690
+  - token: gray-80
+    value: 76767b
+  - token: gray-40
+    value: bbbbbd
+  - token: gray-20
+    value: ddddde
+primary_illustration:
+  - token: blue-100
+    value: 468fba
+  - token: green-100
+    value: 80b690
+  - token: red-100
+    value: df635c
+  - token: ochre-100
+    value: f4c55c
+  - token: gray-100
+    value: 54565a
+  - token: gray-20
+    value: ddddde
+skin:
+  - value: edc3a2
+  - value: ebb18b
+  - value: e29871
+  - value: de885a
+  - value: f0a871
+  - value: e6a96c
+  - value: d08d53
+  - value: ce8762
+  - value: b9663b
+  - value: ab592f
+  - value: 9c4e30
+  - value: e99821
+  - value: 54565a
+  - value: 5c5247
