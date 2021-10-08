@@ -1,0 +1,110 @@
+{% assign items = site.data.toolkits[page.sidenav].toc %}
+{% for item in items %}
+  {% if item.url == page.url %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    <nav class="pagination-alt text-primary mt-5">
+      <div>
+        {% unless page.url == "/brand/identity/logos/" %}
+          {% if page.url == "/brand/writing/brand-narrative/" %}
+            <a
+              class="pagination-alt__step pagination-alt__step--previous pagination__step--first"
+              href="/brand/identity/imagery/">
+              <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
+              <span>
+                Imagery
+              </span>
+            </a>
+            {% elsif page.url == "/brand/illustration/principles/" %}
+              <a
+                class="pagination-alt__step pagination-alt__step--previous pagination__step--first"
+                href="/brand/writing/style/">
+                <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
+                <span>
+                  Writing style
+                </span>
+              </a>
+            {% elsif page.url == "/brand/outreach/design-guidance/" %}
+              <a
+                class="pagination-alt__step pagination-alt__step--previous pagination__step--first"
+                href="/brand/illustration/illustration-types/">
+                <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
+                <span>
+                  Illustration types
+                </span>
+              </a>
+            {% elsif page.url == "/brand/resources/emoji/" %}
+              <a
+                class="pagination-alt__step pagination-alt__step--previous pagination__step--first"
+                href="/brand/outreach/outreach-types/">
+                <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
+                <span>
+                  Outreach types
+                </span>
+              </a>
+            {% else %}
+            <a
+              class="pagination-alt__step pagination-alt__step--previous"
+              href="{{ items[prev_i].url }}">
+              <span><i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i></span>
+              <span>
+                {{ items[prev_i].title }}
+              </span>
+            </a>
+          {% endif %}
+        {% endunless %}
+      </div>
+      <div>
+        {% unless page.url == "/brand/resources/downloads/" %}
+          {% if page.url == "/brand/identity/imagery/" %}
+            <a
+              class="pagination-alt__step pagination-alt__step--next pagination__step--last"
+              href="/brand/writing/brand-narrative/">
+              <span>
+                Brand narrative
+              </span>
+              <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
+            </a>
+          {% elsif page.url == "/brand/writing/style/" %}
+            <a
+              class="pagination-alt__step pagination-alt__step--next pagination__step--last"
+              href="/brand/illustration/principles/">
+              <span>
+                Illustration principles
+              </span>
+              <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
+            </a>
+          {% elsif page.url == "/brand/illustration/illustration-types/" %}
+            <a
+              class="pagination-alt__step pagination-alt__step--next pagination__step--last"
+              href="/brand/outreach/design-guidance/">
+              <span>
+                Outreach design guidance
+              </span>
+              <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
+            </a>
+          {% elsif page.url == "/brand/outreach/outreach-types/" %}
+            <a
+              class="pagination-alt__step pagination-alt__step--next pagination__step--last"
+              href="/brand/resources/emoji/">
+              <span>
+                Emoji
+              </span>
+              <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
+            </a>
+          {% else %}
+            <a
+              class="pagination-alt__step pagination-alt__step--next"
+              href="{{ items[next_i].url }}">
+              <span>
+                {{ items[next_i].title }}
+              </span>
+              <span><i class="fal fa-long-arrow-right ml-2" aria-hidden="true"></i></span>
+            </a>
+          {% endif %}
+        {% endunless %}
+      </div>
+    </nav>
+  {% endif %}
+{% endfor %}
+

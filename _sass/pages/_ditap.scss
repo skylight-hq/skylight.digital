@@ -81,7 +81,7 @@
 .quote-container {
   line-height: 1.5;
 
-  // Box shadow "hack" to add a full-bleed to the right side of quote box
+  // Box shadow "hack" to add a full bleed to the right side of quote box
   // Uses multiple breakpoints for different responsive sizes
   @include media-breakpoint-up(md) {
     box-shadow: 510px 0px $sk-yellow;

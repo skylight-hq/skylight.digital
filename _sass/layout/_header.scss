@@ -1,12 +1,11 @@
 .header {
   @include grid-container;
-  // transform: scale(1); What is this for?
   transition: 0.25s all ease;
 }
 
 .navbar {
-  @extend %navbar-toggleable-sm;
   @extend %py-3;
+  font-family: $font-family-mono;
   font-size: $font-size-small;
 }
 

@@ -76,20 +76,19 @@
       &:not(:last-of-type) {
         @extend %mb-2;
       }
-
-      a {
-        @include link-decoration(
-          $footer-link-color,
-          $footer-link-hover-color,
-          $footer-link-border,
-          $footer-link-border-hover
-        );
-      }
     }
   }
 
   li {
     line-height: 1.5;
+  }
+
+  a {
+    color: $gray-80;
+
+    &:hover {
+      color: $sk-blue;
+    }
   }
 }
 
