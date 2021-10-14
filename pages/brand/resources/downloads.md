@@ -1,7 +1,7 @@
 ---
 layout: toolkit
-title: Brand pack
-description:
+title: Downloads
+description: Download our brand assets. This includes our logo, icon, and a range of other useful resources.
 tags:
 permalink: /brand/resources/downloads/
 sidenav: brand_resources
@@ -12,10 +12,6 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-8" markdown="1">
-# Downloads
-
-Download our brand assets. This includes our logo, icon, and a range of other useful resources.
-
 {% include download_link.html
   text="brand pack"
   url="/img/brand/identity/assets/brand-pack.zip"
