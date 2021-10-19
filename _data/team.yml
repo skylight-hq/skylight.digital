@@ -2329,10 +2329,31 @@
   active: true
   socials:
     - name: LinkedIn
-      link: www.linkedin.com/in/sarah-george-software
+      link: https://www.linkedin.com/in/sarah-george-software
       link_description: George's LinkedIn Account
       fa_icon_name: linkedin
     - name: Projects
       link: /work/team-member/sarah-george-hager/
       link_description: George's Project Work
+      fa_icon_name: wrench
+- name: david-mcclatchey
+  fname: David
+  lname: McClatchey
+  full_name: David McClatchey
+  short_name: D. McClatchey
+  profile_path: /company/about/#david-mcclatchey
+  image: /img/people/david-mcclatchey.jpg
+  image_description: Photo of David McClatchey
+  position: Software Engineer
+  bio: >
+    David's a software engineer who strives to create simple and robust solutions to complex problems. He's most recently worked at Home Depot where he helped migrate its product data to the cloud and built highly-visible APIs from that data. David lives in Georgia.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/david-mcclatchey-819481132/
+      link_description: David's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/david-mcclatchey/
+      link_description: David's Project Work
       fa_icon_name: wrench
