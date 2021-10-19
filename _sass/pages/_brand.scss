@@ -490,7 +490,7 @@
   .brand-hero__content {
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/identity/colors.svg");
-      background-size: 100%;
+      background-size: 50%;
     }
 
     @include media-breakpoint-up(lg) {
@@ -511,7 +511,7 @@
   .brand-hero__content {
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/identity/imagery.svg");
-      background-size: 100%;
+      background-size: 50%;
     }
 
     @include media-breakpoint-up(lg) {
@@ -564,7 +564,7 @@
   .brand-hero__content {
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/writing/brand-narrative.svg");
-      background-size: 100%;
+      background-size: 50%;
     }
 
     @include media-breakpoint-up(lg) {
