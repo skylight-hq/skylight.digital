@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Templates
-description:
+description: Our content often follows standardized templates. These templates make both writing and reading easier. They also help future-proof our content, making the work reusable outside of where it was originally created.
 tags:
 permalink: /brand/resources/templates/
 sidenav: brand_resources
@@ -12,8 +12,6 @@ class: brand
 
 <div class="row brand__content-section">
 <div class="col-md-8" markdown="1">
-# Templates
-
 {% include lock_link.html
   text="Skylight Document Template"
   url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
