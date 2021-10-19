@@ -23,13 +23,12 @@ class: brand
     </div>
   </div>
 {% include download_link.html
-  text="Skylight Heart"
-  url="/img/brand/identity/assets/icon/avatar/svg/halo.svg"
-%}
-
-{% include download_link.html
   text="Skylight Halo"
   url="/img/brand/identity/assets/icon/avatar/svg/halo.svg"
+%}
+{% include download_link.html
+  text="Skylight Heart"
+  url="/img/brand/resources/assets/skylight-heart.svg"
 %}
 </div>
 </div>
