@@ -12,7 +12,7 @@ feature_image_description:
 feature_image_shadow:
 order: 3400
 display: true
-tags: [service delivery, research & design, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, zack gehin, josh dorothy, colin craig, laura king, andrew lloyd, chun yen, jennifer herzberg]
+tags: [service delivery, research & design, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, zack gehin, josh dorothy, colin craig, laura king, andrew lloyd, chun yen, jennifer herzberg, david mcclatchey]
 excerpt: A modernized system for the U.S. Air Force to better manage aviation resources and aircrew readiness.
 project_members:
   - zack-gehin
@@ -22,6 +22,7 @@ project_members:
   - andrew-lloyd
   - chun-yen
   - jennifer-herzberg
+  - david-mcclatchey
 technologies:
   - HTML / CSS
   - JavaScript / Vue.js
