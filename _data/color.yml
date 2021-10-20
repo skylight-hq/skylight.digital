@@ -15,11 +15,11 @@ blue:
     value: 031a54
 green:
   - token: green-20
-    value: dae9f1
+    value: dfede3
   - token: green-40
-    value: b5d2e3
+    value: bfdbc7
   - token: green-60
-    value: 90bcd6
+    value: b3d3bc
   - token: green-80
     value: 99c5a6
   - token: green-100
