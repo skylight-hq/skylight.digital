@@ -1224,7 +1224,7 @@
     tackling complex social challenges. He was a 2019 Civic Digital Fellow at
     18F and graduated from UC San Diego with degrees in Human-Computer Interaction
     and Design for Social Innovation. Eric lives in Massachusetts.
-  active: true
+  active: false
   order: 280
   socials:
     - name: Twitter
@@ -1301,7 +1301,7 @@
     that delight users. He's been coding since age 10 and specializes in fixing
     mystery bugs, integrating with legacy systems, and "just making stuff work."
     Adam lives in Oregon.
-  active: true
+  active: false
   order: 310
   socials:
     - name: LinkedIn
@@ -1838,7 +1838,7 @@
     the General Services Administration, where he worked on Vote.gov. He recently graduated
     with a degree in Systems Engineering from the University of Illinois at Urbana-Champaign.
     Derek lives in Massachusetts.
-  active: true
+  active: false
   order: 500
   socials:
     - name: LinkedIn
@@ -2248,7 +2248,7 @@
   profile_path: /company/about/#sarah-tress
   image: /img/people/sarah-tress.jpg
   image_description: Photo of Sarah Tress
-  position: Product Designer Apprentice
+  position: Product Designer
   bio: >
     Sarah's an engineer and social scientist who loves to work at the intersection of technology and public service. She recently graduated from Oxford with a Master's in Development Studies as a Rhodes Scholar after studying Mechanical Engineering at MIT. Sarah lives in New York.
   active: true
