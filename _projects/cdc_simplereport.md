@@ -36,8 +36,11 @@ technologies:
   - Chromatic
   - U.S. Web Design System
   - Figma
+  - MURAL
+  - Respondent
   - React in TypeScript with Apollo
   - Nightwatch
+  - Lighthouse
   - Java / Spring Boot
   - GraphQL
   - Liquibase
@@ -51,6 +54,7 @@ technologies:
   - Twilio
   - SendGrid
   - GitHub
+  - ZenHub
   - SonarCloud
 practices:
   - Product management
