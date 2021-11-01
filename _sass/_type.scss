@@ -276,3 +276,9 @@ blockquote {
     $text-link-border-hover
   );
 }
+
+.heading-mono {
+  font-family: $font-family-mono;
+  font-size: $font-size-small;
+  text-transform: uppercase;
+}
