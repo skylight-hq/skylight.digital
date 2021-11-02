@@ -13,7 +13,7 @@ preload: hero-join-us.svg
   image = "hero-join-us.svg"
 %}
 
-<div class="maxw-prose grid-container text page--join__textx">
+<div class="maxw-prose grid-container text">
   <div class="text prose" id="" markdown="1">
 Published: November 17, 2021
 {: .font-sm .mb-0 .text-gray-light }

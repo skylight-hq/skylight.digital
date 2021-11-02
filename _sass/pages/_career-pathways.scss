@@ -5,3 +5,21 @@
     }
   }
 }
+
+.page-career-pathways-role {
+  h4 {
+    font-size: $font-size-large;
+  }
+
+  h5 {
+    font-size: $font-size-medium;
+  }
+
+  .post-footer__see-all {
+    border-bottom: none;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
