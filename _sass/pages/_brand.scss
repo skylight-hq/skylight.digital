@@ -391,6 +391,10 @@
       }
     }
   }
+
+  .kicker {
+    color: white;
+  }
 }
 
 .brand__quick-links {
@@ -444,6 +448,8 @@
   }
 }
 
+// Identity
+
 .page--brand-identity {
   @include theme-link($blue-100-a, $blue-200);
 
@@ -453,10 +459,6 @@
 
   .brand-hero__content {
     background-image: url("/img/hero-mobile-company.svg");
-
-    @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/identity.svg");
-    }
   }
 
   .pagination__step--last {
@@ -468,6 +470,58 @@
   }
 }
 
+.page-brand-identity-logos {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/identity/logos.svg");
+    }
+  }
+}
+
+.page-brand-identity-icons {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/identity/icons.svg");
+    }
+  }
+}
+
+.page-brand-identity-colors {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/identity/colors.svg");
+      background-size: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: auto 383px;
+    }
+  }
+}
+
+.page-brand-identity-typography {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/identity/typography.svg");
+    }
+  }
+}
+
+.page-brand-identity-imagery {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/identity/imagery.svg");
+      background-size: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: auto 383px;
+    }
+  }
+}
+
+// Writing
+
 .page--brand-writing {
   @include theme-link($blue-200, $blue-300);
 
@@ -477,15 +531,6 @@
 
   .brand-hero__content {
     background-image: url("/img/hero-mobile-work.svg");
-
-    @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/writing.svg");
-      background-size: 50%;
-    }
-
-    @include media-breakpoint-up(lg) {
-      background-size: auto 383px;
-    }
   }
 
   .brand {
@@ -515,6 +560,42 @@
   }
 }
 
+.page-brand-writing-brand-narrative {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/writing/brand-narrative.svg");
+      background-size: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: auto 383px;
+    }
+  }
+}
+
+.page-brand-writing-voice-and-tone {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/writing/voice-and-tone.svg");
+    }
+  }
+}
+
+.page-brand-writing-style {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/writing/style.svg");
+      background-size: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: auto 383px;
+    }
+  }
+}
+
+// Illustration
+
 .page--brand-illustration {
   @include theme-link($green-300, $green-400);
 
@@ -524,15 +605,6 @@
 
   .brand-hero__content {
     background-image: url("/img/hero-mobile-careers.svg");
-
-    @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/illustration.svg");
-      background-size: 53%;
-    }
-
-    @include media-breakpoint-up(lg) {
-      background-size: auto 383px;
-    }
   }
 
   h1 {
@@ -564,6 +636,37 @@
   }
 }
 
+.page-brand-illustration-principles {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/illustration/principles.svg");
+      background-size: 53%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: auto 383px;
+    }
+  }
+}
+
+.page-brand-illustration-visual-style {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/illustration/visual-style.svg");
+    }
+  }
+}
+
+.page-brand-illustration-illustration-types {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/illustration/illustration-types.svg");
+    }
+  }
+}
+
+// Outreach
+
 .page--brand-outreach {
   @include theme-link($red-200, $red-300);
 
@@ -573,11 +676,6 @@
 
   .brand-hero__content {
     background-image: url("/img/hero-mobile-thoughts.svg");
-
-    @include media-breakpoint-up(md) {
-      background-image: none;
-      background-image: url("/img/brand/hero/outreach.svg");
-    }
   }
 
   h1 {
@@ -601,6 +699,24 @@
   }
 }
 
+.page-brand-outreach-design-guidance {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/outreach/design-guidance.svg");
+    }
+  }
+}
+
+.page-brand-outreach-outreach-types {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/outreach/outreach-types.svg");
+    }
+  }
+}
+
+// Resources
+
 .page--brand-resources {
   @include theme-link($ochre-300, $ochre-400);
 
@@ -613,7 +729,6 @@
 
     @include media-breakpoint-up(md) {
       background-image: url("/img/brand/hero/resources.svg");
-      // background-size: 38.5%;
     }
   }
 
@@ -636,6 +751,30 @@
 
     &:hover {
       color: $red-300 !important;
+    }
+  }
+}
+
+.page-brand-resources-emoji {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/resources/emoji.svg");
+    }
+  }
+}
+
+.page-brand-resources-templates {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/resources/templates.svg");
+    }
+  }
+}
+
+.page-brand-resources-downloads {
+  .brand-hero__content {
+    @include media-breakpoint-up(md) {
+      background-image: url("/img/brand/hero/resources/downloads.svg");
     }
   }
 }
