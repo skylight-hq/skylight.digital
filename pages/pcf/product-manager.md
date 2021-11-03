@@ -3,7 +3,6 @@ layout: default
 title: Product manager
 description: Find out what a product manager does and the skills you need to do the job.
 permalink: /careers/career-pathways/product-manager/
-hero_content: Find out what a product manager does and the skills you need to do the job.
 preload: hero-join-us.svg
 ---
 

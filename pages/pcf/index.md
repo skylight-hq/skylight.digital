@@ -3,7 +3,6 @@ layout: default
 title: Skylight Career Pathways
 description: Find descriptions of different roles within Skylight and the skills needed to do them.
 permalink: /careers/career-pathways/
-hero_content: Find descriptions of different roles within Skylight and the skills needed to do them.
 preload: hero-join-us.svg
 ---
 
