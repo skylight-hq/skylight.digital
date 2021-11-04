@@ -9,7 +9,7 @@ preload: hero-join-us.svg
 {% include hero_banner.html
   hero_content = 'Find descriptions of different roles within Skylight <br class="linebreak">and the skills needed to do them.'
   color = "green"
-  image = "hero-join-us.svg"
+  image = "career-pathways/landing.svg"
 %}
 
 <div class="maxw-prose grid-container text">

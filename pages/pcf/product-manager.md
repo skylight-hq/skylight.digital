@@ -10,7 +10,7 @@ class: career-pathways-role
 {% include hero_banner.html
   hero_content = 'Find out what a product manager does and the skills <br class="linebreak">you need to do the job.'
   color = "green"
-  image = "hero-join-us.svg"
+  image = "career-pathways/product-manager.svg"
 %}
 
 <div class="grid-container">
