@@ -34,7 +34,7 @@ class: career-pathways-role
     </div>
 
     <section class="col-12 col-md-9">
-      <div class="text prose" id="join" markdown="1">
+      <div class="text prose" markdown="1">
 Published: November 17, 2021
 {: .font-sm .text-gray-light }
 
@@ -101,7 +101,7 @@ A junior user researcher is embedded in a multidisciplinary team to carry out us
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
 - Work in combination with a more senior user researcher
 
-#### Skills needed for this role
+#### Skills needed for this level
 
 ##### Analysis and synthesis
 You understand how to apply basic techniques for the analysis of research data and synthesis of findings. You know how to involve your team in analysis and synthesis. You can present clear findings that colleagues can understand and use.
@@ -127,7 +127,7 @@ You have some understanding of user-centered service design and delivery practic
 ### User researcher
 A user researcher is usually embedded in a multidisciplinary team and responsible for planning and carrying out user research activities. At this level, you’ll be expected to work independently on a team.
 
-#### Skills needed for this role
+#### Skills needed for this level
 
 ##### Analysis and synthesis
 You understand how to apply basic techniques for the analysis of research data and synthesis of findings. You know how to involve your team in analysis and synthesis. You can present clear findings that colleagues can understand and use.
@@ -156,7 +156,7 @@ A senior user researcher is an experienced practitioner who’s able to plan and
 - Align user research activities with wider plans to inform a service proposition
 - Supervise and develop other user researchers to assure and improve research practice
 
-#### Skills needed for this role
+#### Skills needed for this level
 
 ##### Analysis and synthesis
 You understand and can help teams apply a range of methods to analyze research data and synthesise findings. You know how to engage skeptical colleagues and stakeholders in analysis and synthesis. You can advise on choice and application of techniques, and can critique colleagues’ findings to assure best practice.
@@ -184,7 +184,7 @@ A staff user researcher is an expert practitioner, leading and aligning user res
 - Ensure that teams take a user-centered, evidence-based approach to service design and delivery
 - Develop and assure good user research practice
 
-#### Skills needed for this role
+#### Skills needed for this level
 
 ##### Analysis and synthesis
 You can help an organization adopt a wide range of analysis and synthesis techniques. You know how to help an organization continually assure, improve, and innovate their practices to generate clear and valuable findings.
@@ -210,7 +210,7 @@ You have a deep understanding of user-centered service design and delivery pract
 ### Principal user researcher
 A principal user researcher leads user researchers in an organisation and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across government.
 
-#### Skills needed for this role
+#### Skills needed for this level
 
 ##### Analysis and synthesis
 You can help an organization adopt a wide range of analysis and synthesis techniques. You know how to help an organization continually assure, improve, and innovate their practices to generate clear and valuable findings.
