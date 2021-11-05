@@ -1,45 +1,22 @@
 ---
-layout: default
+layout: career_pathways_role
 title: Product manager
 description: Find out what a product manager does and the skills you need to do the job.
 permalink: /careers/career-pathways/product-manager/
 preload: hero-join-us.svg
 class: career-pathways-role
+toc:
+  - Introduction
+  - Associate product manager
+  - Junior product manager
+  - Product manager
+  - Senior product manager
+  - Staff product manager
+  - Principal product manager
+published_date: November 17, 2021
+hero_content: Find out what a user researcher does and the skills <br class="linebreak">you need to do the job.
+hero_image: career-pathways/product-manager.svg
 ---
-
-{% include hero_banner.html
-  hero_content = 'Find out what a product manager does and the skills <br class="linebreak">you need to do the job.'
-  color = "green"
-  image = "career-pathways/product-manager.svg"
-%}
-
-<div class="grid-container">
-  <div class="row">
-    <div class="sidenav col-12 col-md-3 d-none d-md-block">
-      <div class="is-sticky">
-        <nav class="subnav-col px-0" id="sidenav">
-          <ul>
-            <li class="current">
-              <a class="nav-link" href="#introduction" aria-current="location">Introduction</a>
-            </li>
-            <li><a class="nav-link" href="#associate-product-manager">Associate product manager</a></li>
-            <li><a class="nav-link" href="#junior-product-manager">Junior product manager</a></li>
-            <li><a class="nav-link" href="#product-manager">Product manager</a></li>
-            <li><a class="nav-link" href="#senior-product-manager">Senior product manager</a></li>
-            <li><a class="nav-link" href="#staff-product-manager">Staff product manager</a></li>
-            <li><a class="nav-link" href="#principal-product-manager">Principal product manager</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <section class="col-12 col-md-9">
-      <div class="text prose" markdown="1">
-Published: November 17, 2021
-{: .font-sm .text-gray-light }
-
-## Introduction to the role of product manager {#introduction}
-{: .mt-3 }
 
 A product manager (PM) at Skylight is responsible for strategy, planning, execution, stakeholder management, and team health. PMs partner with engineers, product designers, user researchers, and client stakeholders to inform their product decisions. A PM must have a clear understanding of users’ needs, the business objectives, and the stakeholders’ vision so they can quickly make feature decisions and determine priority. At a high level, it’s the PM’s job to figure out what to build next and why.
 
@@ -237,13 +214,3 @@ You’re a spokesperson that can represent Skylight in any client matter. You’
 
 ##### Team process / agile methodologies
 You can educate others on various agile methodologies and their strengths and weaknesses. You can apply agile process at the leadership level or to the business or org you’re working with. You can grow a community of agile practitioners.
-
-<a class="post-footer__see-all" href="/careers/career-pathways/">
-  <i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i>See all roles
-</a>
-</div>
-    </section>
-  </div>
-</div>
-
-{% include pcf_cta.html %}

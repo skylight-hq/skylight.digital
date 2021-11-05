@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% include hero_banner.html
+  hero_content = page.hero_content
+  color = "green"
+  image = page.hero_image
+%}
+
+<div class="grid-container">
+  <div class="row">
+    <div class="sidenav col-12 col-md-3 d-none d-md-block">
+      <div class="is-sticky">
+        <nav class="subnav-col px-0" id="sidenav">
+          <ul>
+            {% for item in page.toc %}
+              <li{% if item = "Introduction" %} class="current"{% endif %}>
+                <a
+                  class="nav-link"
+                  href="#{{ item | slugify }}"
+                  {% if item = "Introduction" %}
+                    aria-current="location"
+                  {% endif %}
+                >
+                  {{ item }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="col-12 col-md-9">
+      <div class="text prose" markdown="1">
+        <p class="font-sm text-gray-light">Published: {{ page.published_date }}</p>
+        <h2 class="mt-3" id="introduction">Introduction to the role of {{ page.title | downcase }}</h2>
+{{ content }}
+
+<a class="post-footer__see-all" href="/careers/career-pathways/">
+  <i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i>See all roles
+</a>
+</div>
+    </section>
+  </div>
+</div>
+
+{% include pcf_cta.html %}

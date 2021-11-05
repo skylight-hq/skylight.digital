@@ -1,45 +1,22 @@
 ---
-layout: default
+layout: career_pathways_role
 title: User researcher
 description: Find out what a user researcher does and the skills you need to do the job.
 permalink: /careers/career-pathways/user-researcher/
 preload: hero-join-us.svg
 class: career-pathways-role
+toc:
+  - Introduction
+  - Associate user researcher
+  - Junior user researcher
+  - User researcher
+  - Senior user researcher
+  - Staff user researcher
+  - Principal user researcher
+published_date: November 17, 2021
+hero_content: Find out what a user researcher does and the skills <br class="linebreak">you need to do the job.
+hero_image: career-pathways/user-researcher.svg
 ---
-
-{% include hero_banner.html
-  hero_content = 'Find out what a user researcher does and the skills <br class="linebreak">you need to do the job.'
-  color = "green"
-  image = "career-pathways/user-researcher.svg"
-%}
-
-<div class="grid-container">
-  <div class="row">
-    <div class="sidenav col-12 col-md-3 d-none d-md-block">
-      <div class="is-sticky">
-        <nav class="subnav-col px-0" id="sidenav">
-          <ul>
-            <li class="current">
-              <a class="nav-link" href="#introduction" aria-current="location">Introduction</a>
-            </li>
-            <li><a class="nav-link" href="#associate-user-researcher">Associate user researcher</a></li>
-            <li><a class="nav-link" href="#junior-user-researcher">Junior user researcher</a></li>
-            <li><a class="nav-link" href="#user-researcher">User researcher</a></li>
-            <li><a class="nav-link" href="#senior-user-researcher">Senior user researcher</a></li>
-            <li><a class="nav-link" href="#staff-user-researcher">Staff user researcher</a></li>
-            <li><a class="nav-link" href="#principal-user-researcher">Principal user researcher</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <section class="col-12 col-md-9">
-      <div class="text prose" markdown="1">
-Published: November 17, 2021
-{: .font-sm .text-gray-light }
-
-## Introduction to the role of user researcher {#introduction}
-{: .mt-3 }
 
 User researchers plan, design, and carry out research activities with users that help teams get a deep understanding of the people that use government services. This research informs policy, proposition, service, content, and interaction design so that services work well for users and achieves policy intent.
 
@@ -238,13 +215,3 @@ You understand and have extensive experience with a range of user-centered and a
 
 This content is based on GOV.UK’s Digital, Data and Technology Profession Capability Framework [user researcher role](https://www.gov.uk/guidance/user-researcher), which is licensed under the [Open Government License v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 </div>
-
-<a class="post-footer__see-all" href="/careers/career-pathways/">
-  <i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i>See all roles
-</a>
-</div>
-    </section>
-  </div>
-</div>
-
-{% include pcf_cta.html %}
