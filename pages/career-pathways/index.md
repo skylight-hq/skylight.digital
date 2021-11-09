@@ -39,12 +39,12 @@ You can use this framework to:
 Find out about different roles at Skylight. We’ll publish more roles as they become available.
 {: .text-intro }
 
-### Research and design
+### Research & design
 {: .heading-mono .mt-5 }
 [User researcher](/careers/career-pathways/user-researcher/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
-### Product and delivery
+### Product & delivery
 {: .heading-mono .mt-6 }
 [Product manager](/careers/career-pathways/product-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
