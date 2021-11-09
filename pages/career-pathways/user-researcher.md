@@ -13,7 +13,7 @@ toc:
   - Senior user researcher
   - Staff user researcher
   - Principal user researcher
-published_date: November 17, 2021
+updated_date: November 17, 2021
 hero_content: Find out what a user researcher does and the skills <br class="linebreak">you need to do the job.
 hero_image: career-pathways/user-researcher.svg
 ---

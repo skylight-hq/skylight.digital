@@ -4,8 +4,7 @@ title: Skylight Career Pathways
 description: Find descriptions of different roles within Skylight and the skills needed to do them.
 permalink: /careers/career-pathways/
 preload: hero-join-us.svg
-published_date: November 17, 2021
-updated_date: November 19, 2021
+updated_date: November 17, 2021
 ---
 
 {% include hero_banner.html
@@ -16,13 +15,11 @@ updated_date: November 19, 2021
 
 <div class="maxw-prose grid-container text">
   <div class="text prose" id="" markdown="1">
-Published: {{ page.published_date }}
-{: .font-sm .mb-0 .text-gray-light }
-Last updated: {{ page.updated_date }}
+Updated: {{ page.updated_date }}
 {: .font-sm .text-gray-light }
 
 ## About Skylight Career Pathways
-{: .mt-5 }
+{: .mt-3 }
 
 Our Career Pathways provide a framework for different roles you’ll find at Skylight and details about the skills needed to work at each level.
 {: .text-intro }
@@ -47,26 +44,15 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 [User researcher](/careers/career-pathways/user-researcher/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
-November 17, 2021
-{: .font-xs .text-gray-light }
-
 ### Product and delivery
 {: .heading-mono .mt-6 }
 [Product manager](/careers/career-pathways/product-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
-November 17, 2021
-{: .font-xs .text-gray-light }
-
 ## Attribution
 {: .mt-7 }
 Parts of this content are based on GOV.UK’s [Digital, Data and Technology Profession Capability Framework](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework), which is licensed under the [Open Government License v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 {: .mb-6 }
-
-Published: {{ page.published_date }}
-{: .font-sm .mb-0 .text-gray-light }
-Last updated: {{ page.updated_date }}
-{: .font-sm .text-gray-light }
   </div>
 </div>
 
