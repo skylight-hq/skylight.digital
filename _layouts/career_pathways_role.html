@@ -15,11 +15,11 @@ layout: default
         <nav class="subnav-col px-0" id="sidenav">
           <ul>
             {% for item in page.toc %}
-              <li{% if item = "Introduction" %} class="current"{% endif %}>
+              <li{% if item == "Introduction" %} class="current"{% endif %}>
                 <a
                   class="nav-link"
                   href="#{{ item | slugify }}"
-                  {% if item = "Introduction" %}
+                  {% if item == "Introduction" %}
                     aria-current="location"
                   {% endif %}
                 >
