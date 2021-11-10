@@ -25,25 +25,25 @@ Below you’ll find the full list of skills for becoming a product manager at Sk
 ### Required skills
 
 #### Lean product principles
-Comfortable building a greenfield product. Lean MVP. Risks. Learning. User Flow. Priorities. Validating Assumptions. Loosely defined requirements. Product Market Fit.
+You’re comfortable building a greenfield product. You define a lean MVP that gets to production and in the hands of users. You mitigate risks throughout the software development life cycle. Learning is at the center of everything you do. You’re able to take loosely defined requirements and build the right product for your specific user group and environment.
 
 #### Product strategy
-Identify the problem first. Outcome oriented over feature oriented. Roadmaps. Success Criteria. Metrics. OKRs. Can establish product direction.
+You identify the problem first without jumping to solutions. You prioritize outcomes over feature sets. You can build a roadmap that includes success criteria, metrics, and/or OKRs. You can establish direction for a product and get others to buy into the overall strategy.
 
 #### Product execution
-Breaks complex problems into small pieces. Story Writing. Backlog Management. Team Ceremonies. Retrospectives. Technical Feasibility. Prioritization.
+You’re constantly seeking to meet user, business, and technical goals. You break complex problems into small pieces. You can build a prioritized backlog with user stories that are validated. Team ceremonies are built into your daily, weekly, or monthly iterations. You have general knowledge around technical feasibility.
 
 #### Human-centered design
-Experience working with Product Designers. Researchers. Discovery. User Value. Feedback. Interviews. Prototypes. Personas. JTBD. User Pain Points. Identifies Assumptions.
+You have experience working directly with product designers, researchers and software engineers. You’ve participated in discovery in order to inform product direction. You find time to attend user interviews and get to know your users through various data points. You’re constantly identifying and validating assumptions.
 
 #### Cross-team collaboration
-Comfortable working with Devs, Designers and Researchers. Technical Appreciation. Removes silos. Wears many hats.
+You’re comfortable collaborating with designers, researchers, and software engineers. You have technical appreciation and are familiar with industry trends. You remove silos happening in the team when necessary. In general, you’re willing to wear multiple hats to get the job done.
 
 #### Client and stakeholder management
-Professional. Pushes back. Knows when to stop pushing back. Create consensus. Creates alignment. Project Management skills.
+You’re able to establish professional working relationships with clients and stakeholders. You understand when to push back, but also when to stop pushing back. You create consensus and alignment. Your communication skills are professional and polished.
 
 #### Team process / agile methodologies
-Opinions about different software methodologies. Creates Structure. Accountability. Repeatable methods. Resolves Conflict.
+You have strong opinions about different software methodologies. You can create structure in the absence of none. You’re able to hold yourself and your team accountable. You establish repeatable methods to optimize the workflow on your team. You’re able to resolve conflict when it arises.
 
 ## Product manager career pathway
 
@@ -65,7 +65,7 @@ You understand the product domain and the why’s behind all of the team ceremon
 You understand what user value means for your product. You’ve participated in activities that help define or better understand the user.
 
 ##### Cross-team collaboration
-You’ve had exposure to working with engineers, researchers and/or product designers.
+You’ve had exposure to working with engineers, researchers, and/or product designers.
 
 ##### Client and stakeholder management
 You’re presentable and polished in front of a client. You interact with clients on a regular basis and observe stakeholder best practices.
@@ -115,16 +115,16 @@ You’ve been through multiple iterations and stages within the software develop
 You always prioritize what problem the team is aiming to solve before jumping to solutions. You’ve built outcome-oriented roadmaps and successfully followed through on short-term and long-term product plans. You create success criteria and make sure success is being tracked and measured.
 
 ##### Product execution
-You write clear, concise user stories with acceptance criteria, and you regularly accept or reject stories. You lead planning meetings for every iteration or sprint. You ensure your team is having regular retros that are led by everyone on the team. You use prioritization frameworks to establish priority.
+Your product meets user, business, and technical expectations. You write clear, concise user stories with acceptance criteria, and you regularly accept or reject stories. You lead planning meetings for every iteration or sprint. You ensure your team is having regular retros that are led by everyone on the team. You use prioritization frameworks to establish priority.
 
 ##### Human-centered design
 You can lead user interviews and synthesis activities when necessary. You’re able to identify your own and other’s user assumptions and validate them. You prioritize the human element in all steps of the problem solving process.
 
 ##### Cross-team collaboration
-You can articulate the value of the other disciplines on your team. You regularly solve problems with engineers, research and/or product designers. You can speak other discipline’s “languages.”
+You can articulate the value of the other disciplines on your team. You regularly solve problems with engineers, researchers, and/or product designers. You can speak other discipline’s “languages.”
 
 ##### Client and stakeholder management
-You’ve demonstrated the ability to push back on stakeholders and say “no” when necessary. You’re able to convince or educate stakeholders on various topics. You could run an engagement with little support from Skylight leadership.
+You’ve demonstrated the ability to push back on stakeholders and say “no” when necessary. You’re able to convince or educate stakeholders on various topics. You could run an engagement with little support from Skylight leadership. You provide timely and effective updates to stakeholders to convey team progress.
 
 ##### Team process / agile methodologies
 You leverage agile principles in most everything your team does. You provide feedback to your team on which principles are working and seek to understand the why behind the process your team has in place.
@@ -145,7 +145,7 @@ You can create a lean MVP solution, which is aimed at learning to reduce risks a
 You’ve created a launch plan and launched a product into a production environment. You create outcome oriented roadmaps and can navigate many competing priorities.
 
 ##### Product execution
-You’re experienced in leading all team ceremonies and keeping the team on track to deliver features. You know the product inside and out and are regularly pushing new features to production. You can defend priority rationale to the team and to stakeholders.
+Your product meets or exceeds user, business, and technical expectations. You’re experienced in leading all team ceremonies and keeping the team on track to deliver features. You know the product inside and out and are regularly pushing new features to production. You can defend priority rationale to the team and to stakeholders.
 
 ##### Human-centered design
 You’re experienced in leading user interviews and guiding the team to better understand the needs of the user. You prioritize the human element in the software development process rather than approach it as a transactional activity. You collaborate with product design on wireframes or prototypes and give direction when necessary.
@@ -174,7 +174,7 @@ You have proven ability to create highly lean solutions, which delights stakehol
 You have proven ability to create outcome oriented roadmaps inclusive of learning milestones, each achieved by experimentation. You have experience planning for all types of products at different stages of software development. You can define strategy in a very ambiguous environment for the short term and long term.
 
 ##### Product execution
-You have proven ability to ship features for multiple types of products. You’re comfortable making prioritization decisions in the face of many competing priorities. You can seamlessly cater your backlog management process to the situation at hand. You’re able to create structure on a team in the absence of none.
+Your product meets or exceeds user, business, and technical expectations. You have proven ability to ship features for multiple types of products. You’re comfortable making prioritization decisions in the face of many competing priorities. You can seamlessly cater your backlog management process to the situation at hand. You’re able to create structure on a team in the absence of none.
 
 ##### Human-centered design
 Your solutions prioritize user value in addition to business or stakeholder needs. You plan for future user interviews and outline learning objectives on your own. You can direct the research team on what to focus on or do next. You’re able to measure user value at all stages of the software development life cycle.
@@ -201,7 +201,7 @@ You can enter any type of product environment, define the MVP and lead the produ
 You define strategy beyond just software products at the organizational level for Skylight or a client. You facilitate strategy workshops and/or build consensus among a group of leaders. You can teach others how to build product strategy.
 
 ##### Product execution
-You ensure multiple teams are delivering exceptional products. You create new processes for your team. You lead groups of stakeholders through the product delivery process and ensure they understand what healthy product execution looks like.
+You ensure multiple teams are delivering exceptional products, consistently exceeding user, business, and technical expectations. You create new processes for your team. You lead groups of stakeholders through the product delivery process and ensure they understand what healthy product execution looks like.
 
 ##### Human-centered design
 You’re able to lead a discovery phase of a project without a senior research or design counterpart. You’re able to provide transformational expertise to leaders by educating them on the value of human centered design.
