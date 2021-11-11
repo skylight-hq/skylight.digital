@@ -48,6 +48,46 @@ You have strong opinions about different software methodologies. You can create 
 ## Product manager career pathway
 
 ### Associate product manager
+
+<ul class="stepper-wrapper">
+  <li class="stepper-item active">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/current.svg" alt="current">
+    </div>
+    <div class="step-name">Associate</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Junior</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Mid-level</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Senior</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Staff</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Principal</div>
+  </li>
+</ul>
+
 As a trainee in an entry-level role, you’ll be working with a more experienced product manager. You’ll need to have an understanding of the role and show potential, although you’ll need guidance and training to produce good work and develop your skills.
 
 #### Skills needed for this level
@@ -74,6 +114,46 @@ You’re presentable and polished in front of a client. You interact with client
 You understand what agile software development is and can observe the differences between agile and waterfall.
 
 ### Junior product manager
+
+<ul class="stepper-wrapper">
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Associate</div>
+  </li>
+  <li class="stepper-item active">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/current.svg" alt="current">
+    </div>
+    <div class="step-name">Junior</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Mid-level</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Senior</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Staff</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Principal</div>
+  </li>
+</ul>
+
 A junior product manager is embedded on a multidisciplinary team. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
 - Work in combination with a more senior product manager
@@ -102,6 +182,46 @@ You can articulate and defend your opinions with a client. You’re aware of sta
 You can speak to the principles of agile methodologies. You’re aware of the agile best practices your team is following. You follow your team’s process and advocate for good process.
 
 ### Product manager
+
+<ul class="stepper-wrapper">
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Associate</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Junior</div>
+  </li>
+  <li class="stepper-item active">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/current.svg" alt="current">
+    </div>
+    <div class="step-name">Mid-level</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Senior</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Staff</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Principal</div>
+  </li>
+</ul>
+
 A product manager is usually leading and/or collaborating on a multidisciplinary team. At this level, you’ll be expected to work independently on a team.
 
 You’ve worked in most stages of the product development lifecycle.
@@ -130,6 +250,46 @@ You’ve demonstrated the ability to push back on stakeholders and say “no” 
 You leverage agile principles in most everything your team does. You provide feedback to your team on which principles are working and seek to understand the why behind the process your team has in place.
 
 ### Senior product manager
+
+<ul class="stepper-wrapper">
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Associate</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Junior</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Mid-level</div>
+  </li>
+  <li class="stepper-item active">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/current.svg" alt="current">
+    </div>
+    <div class="step-name">Senior</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Staff</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Principal</div>
+  </li>
+</ul>
+
 A senior product manager is an experienced practitioner who’s able to plan and build a product on larger teams and within a more complex problem space. At this level, you’ll be expected to:
 - Build best product practices and process within a team
 - Supervise and develop other members on your team or within the product practice
@@ -160,6 +320,46 @@ You’re an expert at establishing relationships with clients and stakeholders. 
 You’ve worked on three or more teams and can speak to which processes work and which don’t and why. You consistently help your team improve their process. You can speak to what makes a healthy team and push the team towards being their best.
 
 ### Staff product manager
+
+<ul class="stepper-wrapper">
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Associate</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Junior</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="current">
+    </div>
+    <div class="step-name">Mid-level</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Senior</div>
+  </li>
+  <li class="stepper-item active">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/current.svg" alt="current">
+    </div>
+    <div class="step-name">Staff</div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    </div>
+    <div class="step-name">Principal</div>
+  </li>
+</ul>
+
 A staff product manager is an expert practitioner, leading and building products across multiple teams within very complex problem spaces. At this level, you’ll be expected to:
 - Build best product practices and process within a team and share your knowledge internally at Skylight
 - Supervise and develop other members on your team
@@ -189,6 +389,46 @@ You serve as a role model for creating alignment between the team and the client
 Can establish processes from scratch and cater any process to the team, client and product environment. You’ve facilitated teams to define their team values and norms. You could establish team processes from scratch for any Skylight team.
 
 ### Principal product manager
+
+<ul class="stepper-wrapper">
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Associate</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Junior</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Mid-level</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Senior</div>
+  </li>
+  <li class="stepper-item completed">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+    </div>
+    <div class="step-name">Staff</div>
+  </li>
+  <li class="stepper-item active">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/current.svg" alt="current">
+    </div>
+    <div class="step-name">Principal</div>
+  </li>
+</ul>
+
 A principal product manager leads any other disciplines within the organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. At this level, you’ll be expected to:
 - Transform product practice at the leadership level within Skylight and across government organizations
 
