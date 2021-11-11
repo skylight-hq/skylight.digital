@@ -49,7 +49,7 @@ You have strong opinions about different software methodologies. You can create 
 
 ### Associate product manager
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item active">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="current">
@@ -86,7 +86,7 @@ You have strong opinions about different software methodologies. You can create 
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 As a trainee in an entry-level role, you’ll be working with a more experienced product manager. You’ll need to have an understanding of the role and show potential, although you’ll need guidance and training to produce good work and develop your skills.
 
@@ -115,7 +115,7 @@ You understand what agile software development is and can observe the difference
 
 ### Junior product manager
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -152,7 +152,7 @@ You understand what agile software development is and can observe the difference
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A junior product manager is embedded on a multidisciplinary team. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
@@ -183,7 +183,7 @@ You can speak to the principles of agile methodologies. You’re aware of the ag
 
 ### Product manager
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -220,7 +220,7 @@ You can speak to the principles of agile methodologies. You’re aware of the ag
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A product manager is usually leading and/or collaborating on a multidisciplinary team. At this level, you’ll be expected to work independently on a team.
 
@@ -251,7 +251,7 @@ You leverage agile principles in most everything your team does. You provide fee
 
 ### Senior product manager
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -288,7 +288,7 @@ You leverage agile principles in most everything your team does. You provide fee
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A senior product manager is an experienced practitioner who’s able to plan and build a product on larger teams and within a more complex problem space. At this level, you’ll be expected to:
 - Build best product practices and process within a team
@@ -321,7 +321,7 @@ You’ve worked on three or more teams and can speak to which processes work and
 
 ### Staff product manager
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -358,7 +358,7 @@ You’ve worked on three or more teams and can speak to which processes work and
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A staff product manager is an expert practitioner, leading and building products across multiple teams within very complex problem spaces. At this level, you’ll be expected to:
 - Build best product practices and process within a team and share your knowledge internally at Skylight
@@ -390,7 +390,7 @@ Can establish processes from scratch and cater any process to the team, client a
 
 ### Principal product manager
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -427,7 +427,7 @@ Can establish processes from scratch and cater any process to the team, client a
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A principal product manager leads any other disciplines within the organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. At this level, you’ll be expected to:
 - Transform product practice at the leadership level within Skylight and across government organizations

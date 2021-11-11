@@ -49,7 +49,7 @@ You understand user-centered design practices and know how to embed them into an
 
 ### Associate user researcher
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item active">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="current">
@@ -86,7 +86,7 @@ You understand user-centered design practices and know how to embed them into an
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 As a trainee in an entry-level role, working with more experienced user researchers, you'll need to have an understanding of the role and show potential, although you'll need guidance and training to produce good work and develop your skills.
 
@@ -115,7 +115,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### Junior user researcher
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -152,7 +152,7 @@ You have some understanding of user-centered service design and delivery practic
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A junior user researcher is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
@@ -183,7 +183,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### User researcher
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -220,7 +220,7 @@ You have some understanding of user-centered service design and delivery practic
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A user researcher is usually embedded in a multidisciplinary team and responsible for planning and carrying out user research activities. At this level, you’ll be expected to work independently on a team.
 
@@ -249,7 +249,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### Senior user researcher
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -286,7 +286,7 @@ You have some understanding of user-centered service design and delivery practic
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A senior user researcher is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
 - Build user-centered practices in new teams
@@ -318,7 +318,7 @@ You have a deep understanding of user-centered service design and delivery pract
 
 ### Staff user researcher
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -355,7 +355,7 @@ You have a deep understanding of user-centered service design and delivery pract
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A staff user researcher is an expert practitioner, leading and aligning user research activities across several teams. At this level, you’ll be expected to:
 - Ensure that teams take a user-centered, evidence-based approach to service design and delivery
@@ -386,7 +386,7 @@ You have a deep understanding of user-centered service design and delivery pract
 
 ### Principal user researcher
 
-<ul class="stepper-wrapper">
+<ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/complete.svg" alt="complete">
@@ -423,7 +423,7 @@ You have a deep understanding of user-centered service design and delivery pract
     </div>
     <div class="step-name">Principal</div>
   </li>
-</ul>
+</ol>
 
 A principal user researcher leads user researchers in an organisation and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across government.
 
