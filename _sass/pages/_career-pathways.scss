@@ -66,11 +66,15 @@
   }
 
   &.active {
-    color: $blue-200;
+    .step-name {
+      color: $blue-200;
+    }
   }
 
   &.completed {
-    color: $blue-100-a;
+    .step-name {
+      color: $blue-100-a;
+    }
 
     &::after {
       position: absolute;
@@ -107,6 +111,7 @@
 }
 
 .step-name {
+  color: $gray-80;
   font-family: $font-family-mono;
   font-size: $font-size-xx-small;
   font-weight: 500;
