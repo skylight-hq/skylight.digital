@@ -99,7 +99,7 @@ You’ve read about lean product principles but are at the early stages of seein
 You understand that outcomes are more important than features. You help create and follow up on success criteria and follow through on product direction.
 
 ##### Product execution
-You understand the product domain and the why’s behind all of the team ceremonies.
+You understand the product domain and the purpose behind all of the team ceremonies.
 
 ##### Human-centered design
 You understand what user value means for your product. You’ve participated in activities that help define or better understand the user.
