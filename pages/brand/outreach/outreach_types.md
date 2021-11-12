@@ -64,7 +64,7 @@ We tailor our external promotional material to different audiences. For prospect
   <header class="grid__heading" markdown="1">
 ## Business card
   </header>
-  <figure class="grid__image section__img p-4 p-md-5">
+  <figure class="grid__image section__container text-center p-4 p-md-5">
     <img class="img--business-card maxw-mobile" src="/img/brand/outreach/business-card.svg" alt="Skylight business card">
   </figure>
   <div class="grid__content" markdown="1">
@@ -76,7 +76,7 @@ Our business card communicates important information to our audience, emphasizin
   <header class="grid__heading" markdown="1">
 ## Email signature
   </header>
-  <figure class="grid__image section__img p-4 p-md-5">
+  <figure class="grid__image section__container text-center p-4 p-md-5">
     <img class="border maxw-card-lg" src="/img/brand/outreach/email-signature.jpg" alt="Skylight email signature">
   </figure>
   <div class="grid__content" markdown="1">
