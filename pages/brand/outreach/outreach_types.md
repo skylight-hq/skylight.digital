@@ -65,10 +65,29 @@ We tailor our external promotional material to different audiences. For prospect
 ## Business card
   </header>
   <figure class="grid__image section__img p-4 p-md-5">
-    <img class="img--business-card mx-lg-6" src="/img/brand/outreach/business-card.svg" alt="Skylight business card">
+    <img class="img--business-card w-75" src="/img/brand/outreach/business-card.svg" alt="Skylight business card">
   </figure>
   <div class="grid__content" markdown="1">
-Our business card communicates important information to the audience, emphasizing Skylight’s logo and the employee’s name. We use Roboto Mono font for the email, telephone number, and our website.
+Our business card communicates important information to our audience, emphasizing Skylight’s logo and the employee’s name. We use Roboto Mono font for the email, telephone number, and our website.
+</div>
+</div>
+
+<div class="brand__content-section grid">
+  <header class="grid__heading" markdown="1">
+## Email signature
+  </header>
+  <figure class="grid__image section__img p-4 p-md-5">
+    <img class="border w-50" src="/img/brand/outreach/email-signature.jpg" alt="Skylight email signature">
+  </figure>
+  <div class="grid__content" markdown="1">
+Our email signature is simple, informative, and reflects Skylight’s branding. We include only the most important pieces of information — name, job title, and our website.
+
+To use the email signature, copy and paste it into your email signature from this template:
+
+{% include lock_link.html
+  text="Skylight email signature template"
+  url="https://docs.google.com/document/d/15ASPs03Ny3e6-aarSuW9PsNTsY-10pnEVhUsgfHx5Sc/edit?usp=sharing"
+%}
 </div>
 </div>
 
