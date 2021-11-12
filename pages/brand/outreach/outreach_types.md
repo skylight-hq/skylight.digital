@@ -80,9 +80,9 @@ Our business card communicates important information to our audience, emphasizin
     <img class="border w-50" src="/img/brand/outreach/email-signature.jpg" alt="Skylight email signature">
   </figure>
   <div class="grid__content" markdown="1">
-Our email signature is simple, informative, and reflects Skylight’s branding. We include only the most important pieces of information — name, job title, and our website.
+Our email signature is simple, informative, and reflects Skylight’s branding. We include only the most important pieces of information — name, job title, our website, and our logo.
 
-To use the email signature, copy and paste it into your email signature from this template:
+To use the email signature, copy and paste it into your [Gmail email signature](https://support.google.com/mail/answer/8395?hl=en&co=GENIE.Platform%3DDesktop) from this template:
 
 {% include lock_link.html
   text="Skylight email signature template"
