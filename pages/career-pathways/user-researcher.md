@@ -18,7 +18,7 @@ hero_content: Find out what a user researcher does and the skills <br class="lin
 hero_image: career-pathways/user-researcher.svg
 ---
 
-User researchers plan, design, and carry out research activities with users that help teams get a deep understanding of the people that use government services. This research informs policy, proposition, service, content, and interaction design so that services work well for users and achieves policy intent.
+User researchers plan, design, and carry out research activities with users that help teams get a deep understanding of the people that use government services. This research informs policy, service, content, and interaction design so that services work well for users and achieve policy intent.
 
 Below you’ll find the full list of skills for becoming a user researcher at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
 
@@ -31,7 +31,7 @@ You can turn research data into clear findings that inform decisions. You create
 You understand the diversity of users of government services. You know how to include all kinds of users in appropriate research activities to help teams deliver accessible services.
 
 #### Research methods
-You understand and have experience with a range of user research methods. You can choose appropriate methods for different stages of the product life cycle and situations. You know how to apply methods correctly.
+You understand and have experience with a wide range of user research methods. You can choose appropriate methods for different stages of the product life cycle and situations. You know how to apply methods correctly.
 
 #### Society and technology
 You understand the social and technological context for government services. You can help colleagues understand how digital technology is changing user behavior, and the challenges and opportunities for government services.
@@ -105,7 +105,7 @@ You have some understanding of basic user research methods (e.g. user interviews
 You’re aware of the social and technological context for government services. You understand the importance of understanding users’ life and work for designing and delivering effective services.
 
 ##### Strategic insight
-You’re aware of the need to align user research with team goals to support decision-making and action.
+You’re aware of the need to align user research with business goals to support decision-making and action.
 
 ##### Technical understanding
 You have some knowledge of the technologies and roles within a multidisciplinary team that builds digital products.
@@ -296,13 +296,13 @@ A senior user researcher is an experienced practitioner who’s able to plan and
 #### Skills needed for this level
 
 ##### Analysis and synthesis
-You understand and can help teams apply a range of methods to analyze research data and synthesise findings. You know how to engage skeptical colleagues and stakeholders in analysis and synthesis. You can advise on choice and application of techniques, and can critique colleagues’ findings to assure best practice.
+You understand and can help teams apply a range of methods to analyze research data and synthesise findings. You know how to engage skeptical colleagues and stakeholders in analysis and synthesis. You can advise on choice and application of techniques, and can provide feedback on colleagues’ findings to assure best practice.
 
 ##### Inclusive research
 You can help teams understand the diversity of users of government services. You know how to include all kinds of users in appropriate research activities. You can advocate for inclusive practices and help teams design and deliver accessible services that work for all users.
 
 ##### Research methods
-You have experience of, and can help teams adopt, a wide range of user research methods. You can plan user research for services with challenging user needs and complex user journeys. You can advise colleagues on the choice and application of research methods to assure best practice.
+You can help teams adopt a wide range of user research methods. You can plan user research for services with challenging user needs and complex user journeys. You can advise colleagues on the choice and application of research methods to assure best practice.
 
 ##### Society and technology
 You understand the social and technological context for government services. You can align user research activities to help your team understand changing user behavior.
@@ -425,7 +425,7 @@ You have a deep understanding of user-centered service design and delivery pract
   </li>
 </ol>
 
-A principal user researcher leads user researchers in an organisation and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across government.
+A principal user researcher leads user researchers in an organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across government.
 
 #### Skills needed for this level
 
