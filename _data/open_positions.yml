@@ -1,4 +1,4 @@
-# Sample element:
+ Sample element:
 # - title: DevOps Engineer
 #   url: https://skylight.workable.com/jobs/604049
 #   category: Engineering
@@ -7,8 +7,8 @@
 #   order: 10
 
 # Categories:
-# Research & design, Product & delivery, Engineering, Data,
-# Procurement, Transformation, Business strategy & operations
+# Research & Design, Product & Delivery, Engineering, Data,
+# Procurement, Transformation, Business Strategy & Operations
 
 - title: Sofware Engineer
   url: https://skylight.workable.com/jobs/1083190
@@ -27,46 +27,46 @@
   order: 30
 - title: Product Designer
   url: https://skylight.workable.com/jobs/1128366
-  category: Research & design
+  category: Research & Design
   location: Remote
   order: 40
 - title: Product Manager
   url: https://skylight.workable.com/jobs/1083508
-  category: Product & delivery
+  category: Product & Delivery
   location: Remote
   order: 50
 - title: Service Designer
   url: https://apply.workable.com/skylight/j/E7B37CF8D2/
-  category: Research & design
+  category: Research & Design
   location: Remote
   order: 60
 - title: User Researcher
   url: https://apply.workable.com/skylight/j/681D1CD9D5/
-  category: Research & design
+  category: Research & Design
   location: Remote
   order: 70
 - title: Chief Operating Officer
   url: https://apply.workable.com/skylight/j/A744A85F49/
-  category: Business strategy & operations
+  category: Business Strategy & Operations
   location: Remote
   order: 80
 - title: Chief of Staff
   url: https://apply.workable.com/skylight/j/E7AB0727B0/
-  category: Business strategy & operations
+  category: Business Strategy & Operations
   location: Remote
   order: 90
 - title: VP of Service Excellence
   url: https://apply.workable.com/skylight/j/2D3D1B7688/
-  category: Business strategy & operations
+  category: Business Strategy & Operations
   location: Remote
   order: 100
 - title: VP of Training Services
   url: https://apply.workable.com/skylight/j/FB764D28B5/
-  category: Business strategy & operations
+  category: Business Strategy & Operations
   location: Remote
   order: 110
 - title: Talent Sourcer
   url: https://apply.workable.com/skylight/j/10A411E526/
-  category: Business strategy & operations
+  category: Business Strategy & Operations
   location: Remote
   order: 120
