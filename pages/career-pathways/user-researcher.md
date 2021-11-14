@@ -18,7 +18,7 @@ hero_content: Find out what a user researcher does and the skills <br class="lin
 hero_image: career-pathways/user-researcher.svg
 ---
 
-User researchers plan, design, and carry out research activities with users that help teams get a deep understanding of the people that use government services. This research informs policy, service, content, and interaction design so that services work well for users and achieve policy intent.
+User researchers plan, design, and carry out research activities with users that help teams gain a deep understanding of the people that use government services. This research informs policy, service, content, and interaction design so that services work well for users and achieve policy intent.
 
 Below you’ll find the full list of skills for becoming a user researcher at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
 
