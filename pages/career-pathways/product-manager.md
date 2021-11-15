@@ -37,7 +37,7 @@ You’re constantly seeking to meet user, business, and technical goals. You bre
 You have experience working directly with product designers, researchers, and software engineers. You’ve participated in discovery in order to inform product direction. You find time to attend user interviews and get to know your users through various data points and interactions. You’re constantly identifying and validating assumptions.
 
 #### Cross-team collaboration
-You’re comfortable collaborating with designers, researchers, and software engineers. You have technical appreciation and are familiar with industry trends. You eliminate silos to increase collaboration. In general, you’re willing to wear multiple hats to get the job done.
+You’re comfortable collaborating with designers, researchers, and software engineers. You are able to speak knowledgeably about technology and ask informed questions. You eliminate silos to increase collaboration. In general, you’re willing to wear multiple hats to get the job done.
 
 #### Client and stakeholder management
 You’re able to establish professional working relationships with clients and stakeholders. You understand when to push back, but also when to yield. You create consensus and alignment. Your communication skills are professional and polished.
@@ -93,7 +93,7 @@ As a trainee in an entry-level role, you’ll be working with a more experienced
 #### Skills needed for this level
 
 ##### Lean product principles
-You’ve read about lean product principles but are at the early stages of seeing them in practice. You understand the definition of an MVP, identifying risk and validating assumptions.
+You’ve read about lean product principles but are at the early stages of seeing them in practice. You understand the definition of an MVP, how to mitigate risk, and how to validate assumptions.
 
 ##### Product strategy
 You understand that outcomes are more important than features. You help create and follow up on success criteria and follow through on product direction.
