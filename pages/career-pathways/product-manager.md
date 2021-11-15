@@ -16,6 +16,13 @@ toc:
 updated_date: November 17, 2021
 hero_content: Find out what a product manager does and the skills <br class="linebreak">you need to do the job.
 hero_image: career-pathways/product-manager.svg
+roles: 
+ - Associate
+ - Junior
+ - "Mid-level"
+ - Senior
+ - Staff
+ - Principal
 ---
 
 A Product Manager (PM) at Skylight is responsible for strategy, planning, execution, stakeholder management, and team health. PMs partner with engineers, product designers, user researchers, and client stakeholders to inform their product decisions. A PM must have a clear understanding of users’ needs, the business objectives, and the stakeholders’ vision so they can quickly make feature decisions and determine priority. At a high level, it’s the PM’s job to figure out what to build next and why.
@@ -49,7 +56,7 @@ You understand the merits of different software development methodologies. You c
 
 ### Associate product manager
 
-{% include role/associate.html %}
+{% include role/role-track.html setrole='associate' %}
 
 As a trainee in an entry-level role, you’ll be working with a more experienced product manager. You’ll need to have an understanding of the role and show potential, although you’ll need guidance and training to produce good work and develop your skills.
 
@@ -78,7 +85,7 @@ You understand what agile software development is and can observe the difference
 
 ### Junior product manager
 
-{% include role/junior.html %}
+{% include role/role-track.html setrole='junior' %}
 
 A junior product manager is embedded on a multidisciplinary team. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
@@ -109,7 +116,7 @@ You can speak to the principles of agile methodologies. You’re aware of the ag
 
 ### Product manager
 
-{% include role/mid_level.html %}
+{% include role/role-track.html setrole='mid-level' %}
 
 A product manager is usually leading and/or collaborating on a multidisciplinary team. At this level, you’ll be expected to work independently on a team.
 
@@ -140,7 +147,7 @@ You leverage agile principles in most everything your team does. You provide fee
 
 ### Senior product manager
 
-{% include role/senior.html %}
+{% include role/role-track.html setrole='senior' %}
 
 A senior product manager is an experienced practitioner who’s able to plan and build a product on larger teams and within a more complex problem space. At this level, you’ll be expected to:
 - Build best product practices and process within a team
@@ -173,7 +180,7 @@ You’ve worked on three or more teams and can speak to which processes work, wh
 
 ### Staff product manager
 
-{% include role/staff.html %}
+{% include role/role-track.html setrole='staff' %}
 
 A staff product manager is an expert practitioner, leading and building products across multiple teams within complex problem spaces. At this level, you’ll be expected to:
 - Build best product practices and process within a team and share your knowledge internally at Skylight
@@ -205,7 +212,7 @@ Can establish processes from scratch and cater any process to the team, client, 
 
 ### Principal product manager
 
-{% include role/principal.html %}
+{% include role/role-track.html setrole='principal' %}
 
 A principal product manager leads other disciplines within the organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. At this level, you’ll be expected to:
 - Transform product practice at the leadership level across client organizations
