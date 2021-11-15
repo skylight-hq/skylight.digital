@@ -50,7 +50,7 @@ You understand user-centered design practices and know how to embed them into an
 ### Associate user researcher
 
 <ol class="stepper-wrapper">
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -142,7 +142,7 @@ You have some understanding of user-centered service design and delivery practic
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -236,7 +236,7 @@ You have some understanding of user-centered service design and delivery practic
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -328,7 +328,7 @@ You have some understanding of user-centered service design and delivery practic
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -423,7 +423,7 @@ You have a deep understanding of user-centered service design and delivery pract
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -517,7 +517,7 @@ You have a deep understanding of user-centered service design and delivery pract
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>

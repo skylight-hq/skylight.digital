@@ -50,7 +50,7 @@ You understand the merits of different software development methodologies. You c
 ### Associate product manager
 
 <ol class="stepper-wrapper">
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -142,7 +142,7 @@ You understand what agile software development is and can observe the difference
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -236,7 +236,7 @@ You can speak to the principles of agile methodologies. You’re aware of the ag
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -330,7 +330,7 @@ You leverage agile principles in most everything your team does. You provide fee
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -379,7 +379,7 @@ Your product meets or exceeds user, business, and technical expectations. You’
 You’re experienced in leading user interviews and guiding the team to better understand the needs of the user. You prioritize the human element in the software development process rather than approach it as a transactional activity. You collaborate with product designers on wireframes or prototypes and provide direction when necessary.
 
 ##### Cross-team collaboration
-You actively remove silos in your team. You’re experienced at adapting your work style when working with other disciplines. You have experience doing design, research, or engineering activities. You set up team process to enable cross-collaboration and create space for all voices.
+Youly remove silos in your team. You’re experienced at adapting your work style when working with other disciplines. You have experience doing design, research, or engineering activities. You set up team process to enable cross-collaboration and create space for all voices.
 
 ##### Client and stakeholder management
 You’re an expert at establishing relationships with clients and stakeholders. You’ve demonstrated the ability to educate and lead clients towards a solution. You know how to create alignment and consensus. You play a major role in maintaining the client relationship.
@@ -426,7 +426,7 @@ You’ve worked on three or more teams and can speak to which processes work, wh
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
@@ -521,7 +521,7 @@ Can establish processes from scratch and cater any process to the team, client, 
       <span class="sr-only">completed</span>
     </div>
   </li>
-  <li class="stepper-item active" aria-current="true">
+  <li class="stepper-item" aria-current="true">
     <div class="step-counter">
       <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
