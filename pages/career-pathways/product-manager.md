@@ -50,41 +50,58 @@ You understand the merits of different software development methodologies. You c
 ### Associate product manager
 
 <ol class="stepper-wrapper">
-  <li class="stepper-item active">
+  <li class="stepper-item active" aria-current="true">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="current">
+      <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
-    <div class="step-name">Associate</div>
+    <div class="step-name">
+      Associate
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Junior</div>
+    <div class="step-name">
+      Junior
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Mid-level</div>
+    <div class="step-name">
+      Mid-level
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Senior</div>
+    <div class="step-name">
+      Senior
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Staff</div>
+    <div class="step-name">
+      Staff
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Principal</div>
+    <div class="step-name">
+      Principal
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
 </ol>
 
@@ -118,39 +135,56 @@ You understand what agile software development is and can observe the difference
 <ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Associate</div>
+    <div class="step-name">
+      Associate
+      <span class="sr-only">completed</span>
+    </div>
   </li>
-  <li class="stepper-item active">
+  <li class="stepper-item active" aria-current="true">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="current">
+      <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
-    <div class="step-name">Junior</div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    <div class="step-name">
+      Junior
     </div>
-    <div class="step-name">Mid-level</div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
-    </div>
-    <div class="step-name">Senior</div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Staff</div>
+    <div class="step-name">
+      Mid-level
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Principal</div>
+    <div class="step-name">
+      Senior
+      <span class="sr-only">not completed</span>
+    </div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
+    </div>
+    <div class="step-name">
+        Staff
+      <span class="sr-only">not completed</span>
+    </div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
+    </div>
+    <div class="step-name">
+      Principal
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
 </ol>
 
@@ -186,39 +220,56 @@ You can speak to the principles of agile methodologies. You’re aware of the ag
 <ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Associate</div>
+    <div class="step-name">
+      Associate
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Junior</div>
+    <div class="step-name">
+      Junior
+      <span class="sr-only">completed</span>
+    </div>
   </li>
-  <li class="stepper-item active">
+  <li class="stepper-item active" aria-current="true">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="current">
+      <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
-    <div class="step-name">Mid-level</div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+    <div class="step-name">
+      Mid-level
     </div>
-    <div class="step-name">Senior</div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
-    </div>
-    <div class="step-name">Staff</div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Principal</div>
+    <div class="step-name">
+      Senior
+      <span class="sr-only">not completed</span>
+    </div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
+    </div>
+    <div class="step-name">
+      Staff
+      <span class="sr-only">not completed</span>
+    </div>
+  </li>
+  <li class="stepper-item">
+    <div class="step-counter">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
+    </div>
+    <div class="step-name">
+      Principal
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
 </ol>
 
@@ -254,39 +305,56 @@ You leverage agile principles in most everything your team does. You provide fee
 <ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Associate</div>
+    <div class="step-name">
+      Associate
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Junior</div>
+    <div class="step-name">
+      Junior
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Mid-level</div>
+    <div class="step-name">
+      Mid-level
+      <span class="sr-only">completed</span>
+    </div>
   </li>
-  <li class="stepper-item active">
+  <li class="stepper-item active" aria-current="true">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="current">
+      <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
-    <div class="step-name">Senior</div>
+    <div class="step-name">
+      Senior
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Staff</div>
+    <div class="step-name">
+      Staff
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Principal</div>
+    <div class="step-name">
+      Principal
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
 </ol>
 
@@ -324,39 +392,56 @@ You’ve worked on three or more teams and can speak to which processes work, wh
 <ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Associate</div>
+    <div class="step-name">
+      Associate
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Junior</div>
+    <div class="step-name">
+      Junior
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="current">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Mid-level</div>
+    <div class="step-name">
+      Mid-level
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Senior</div>
+    <div class="step-name">
+      Senior
+      <span class="sr-only">completed</span>
+    </div>
   </li>
-  <li class="stepper-item active">
+  <li class="stepper-item active" aria-current="true">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="current">
+      <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
-    <div class="step-name">Staff</div>
+    <div class="step-name">
+      Staff
+    </div>
   </li>
   <li class="stepper-item">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="innactive">
+      <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
-    <div class="step-name">Principal</div>
+    <div class="step-name">
+      Principal
+      <span class="sr-only">not completed</span>
+    </div>
   </li>
 </ol>
 
@@ -393,39 +478,56 @@ Can establish processes from scratch and cater any process to the team, client, 
 <ol class="stepper-wrapper">
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Associate</div>
+    <div class="step-name">
+      Associate
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Junior</div>
+    <div class="step-name">
+      Junior
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Mid-level</div>
+    <div class="step-name">
+      Mid-level
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Senior</div>
+    <div class="step-name">
+      Senior
+      <span class="sr-only">completed</span>
+    </div>
   </li>
   <li class="stepper-item completed">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="complete">
+      <img src="/img/career-pathways/icons/complete.svg" alt="">
     </div>
-    <div class="step-name">Staff</div>
+    <div class="step-name">
+      Staff
+      <span class="sr-only">completed</span>
+    </div>
   </li>
-  <li class="stepper-item active">
+  <li class="stepper-item active" aria-current="true">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="current">
+      <img src="/img/career-pathways/icons/current.svg" alt="">
     </div>
-    <div class="step-name">Principal</div>
+    <div class="step-name">
+      Principal
+    </div>
   </li>
 </ol>
 
