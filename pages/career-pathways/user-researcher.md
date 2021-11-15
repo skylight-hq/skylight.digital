@@ -49,61 +49,7 @@ You understand user-centered design practices and know how to embed them into an
 
 ### Associate user researcher
 
-<ol class="stepper-wrapper">
-  <li class="stepper-item" aria-current="true">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="">
-    </div>
-    <div class="step-name">
-      Associate
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Junior
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Mid-level
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Senior
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Staff
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Principal
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-</ol>
+{% include role/associate.html %}
 
 As a trainee in an entry-level role, working with more experienced user researchers, you'll need to have an understanding of the role and show potential, although you'll need guidance and training to produce good work and develop your skills.
 
@@ -132,61 +78,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### Junior user researcher
 
-<ol class="stepper-wrapper">
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Associate
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item" aria-current="true">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="">
-    </div>
-    <div class="step-name">
-      Junior
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Mid-level
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Senior
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Staff
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Principal
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-</ol>
+{% include role/junior.html %}
 
 A junior user researcher is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
@@ -217,61 +109,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### User researcher
 
-<ol class="stepper-wrapper">
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Associate
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Junior
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item" aria-current="true">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="">
-    </div>
-    <div class="step-name">
-      Mid-level
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Senior
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Staff
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Principal
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-</ol>
+{% include role/mid_level.html %}
 
 A user researcher is usually embedded in a multidisciplinary team and responsible for planning and carrying out user research activities. At this level, you’ll be expected to work independently on a team.
 
@@ -300,61 +138,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### Senior user researcher
 
-<ol class="stepper-wrapper">
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Associate
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Junior
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Mid-level
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item" aria-current="true">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="">
-    </div>
-    <div class="step-name">
-      Senior
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Staff
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Principal
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-</ol>
+{% include role/senior.html %}
 
 A senior user researcher is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
 - Build user-centered practices in new teams
@@ -386,61 +170,7 @@ You have a deep understanding of user-centered service design and delivery pract
 
 ### Staff user researcher
 
-<ol class="stepper-wrapper">
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Associate
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Junior
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Mid-level
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Senior
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item" aria-current="true">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="">
-    </div>
-    <div class="step-name">
-      Staff
-    </div>
-  </li>
-  <li class="stepper-item">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/innactive.svg" alt="">
-    </div>
-    <div class="step-name">
-      Principal
-      <span class="sr-only">not completed</span>
-    </div>
-  </li>
-</ol>
+{% include role/staff.html %}
 
 A staff user researcher is an expert practitioner, leading and aligning user research activities across several teams. At this level, you’ll be expected to:
 - Ensure that teams take a user-centered, evidence-based approach to service design and delivery
@@ -471,61 +201,7 @@ You have a deep understanding of user-centered service design and delivery pract
 
 ### Principal user researcher
 
-<ol class="stepper-wrapper">
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Associate
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Junior
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Mid-level
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Senior
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item completed">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/complete.svg" alt="">
-    </div>
-    <div class="step-name">
-      Staff
-      <span class="sr-only">completed</span>
-    </div>
-  </li>
-  <li class="stepper-item" aria-current="true">
-    <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="">
-    </div>
-    <div class="step-name">
-      Principal
-    </div>
-  </li>
-</ol>
+{% include role/principal.html %}
 
 A principal user researcher leads user researchers in an organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across government.
 
