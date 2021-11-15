@@ -173,7 +173,7 @@ You have some understanding of user-centered service design and delivery practic
       <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
     <div class="step-name">
-        Staff
+      Staff
       <span class="sr-only">not completed</span>
     </div>
   </li>

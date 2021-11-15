@@ -173,7 +173,7 @@ You understand what agile software development is and can observe the difference
       <img src="/img/career-pathways/icons/innactive.svg" alt="">
     </div>
     <div class="step-name">
-        Staff
+      Staff
       <span class="sr-only">not completed</span>
     </div>
   </li>
