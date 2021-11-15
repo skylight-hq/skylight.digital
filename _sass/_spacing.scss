@@ -93,6 +93,14 @@
   max-width: none !important;
 }
 
+.maxw-card-lg {
+  max-width: $size-card-lg !important;
+}
+
+.maxw-mobile {
+  max-width: $size-mobile !important;
+}
+
 .maxw-mobile-lg {
   max-width: 480px !important;
 }
