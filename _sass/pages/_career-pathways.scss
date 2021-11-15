@@ -40,14 +40,9 @@
   padding-bottom: 0 !important;
   padding-left: 0 !important;
 
-  // @media (max-width: 768px) {
-  //   font-size: 12px;
-  // }
-
   &::before {
     position: absolute;
     content: "" !important;
-    // border-bottom: 2px solid $gray-20;
     width: 100%;
     top: 20px;
     left: -50%;
@@ -132,7 +127,7 @@
     margin-bottom: 0;
   }
 
-  .stepper-item.active {
+  .stepper-item[aria-current="true"] {
     flex-direction: row;
     margin-left: 2%;
     margin-right: calc(2% + 3px);
