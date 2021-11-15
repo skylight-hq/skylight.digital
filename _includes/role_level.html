@@ -7,7 +7,7 @@
   {% if role_downcase == current %}
   <li class="stepper-item" aria-current="true">
     <div class="step-counter">
-      <img src="/img/career-pathways/icons/current.svg" alt="">
+      <img src="/img/career_pathways/icons/current.svg" alt="">
       {% assign found_current = true %}
     </div>
     <div class="step-name">
@@ -18,7 +18,7 @@
     {% if found_current %}
     <li class="stepper-item">
       <div class="step-counter">
-        <img src="/img/career-pathways/icons/innactive.svg" alt="">
+        <img src="/img/career_pathways/icons/innactive.svg" alt="">
       </div>
       <div class="step-name">
         {{ role }}
@@ -28,7 +28,7 @@
     {% else %}
     <li class="stepper-item completed">
       <div class="step-counter">
-        <img src="/img/career-pathways/icons/complete.svg" alt="">
+        <img src="/img/career_pathways/icons/complete.svg" alt="">
       </div>
       <div class="step-name">
         {{ role }}
