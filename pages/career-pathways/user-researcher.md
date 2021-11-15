@@ -16,7 +16,7 @@ toc:
 updated_date: November 17, 2021
 hero_content: Find out what a user researcher does and the skills <br class="linebreak">you need to do the job.
 hero_image: career-pathways/user-researcher.svg
-roles: 
+levels:
  - Associate
  - Junior
  - "Mid-level"
@@ -56,7 +56,7 @@ You understand user-centered design practices and know how to embed them into an
 
 ### Associate user researcher
 
-{% include role/role-track.html setrole='associate' %}
+{% include role_level.html level='associate' %}
 
 As a trainee in an entry-level role, working with more experienced user researchers, you'll need to have an understanding of the role and show potential, although you'll need guidance and training to produce good work and develop your skills.
 
@@ -85,7 +85,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### Junior user researcher
 
-{% include role/role-track.html setrole='junior' %}
+{% include role_level.html level='junior' %}
 
 A junior user researcher is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
@@ -116,7 +116,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### User researcher
 
-{% include role/role-track.html setrole='mid-level' %}
+{% include role_level.html level='mid-level' %}
 
 A user researcher is usually embedded in a multidisciplinary team and responsible for planning and carrying out user research activities. At this level, you’ll be expected to work independently on a team.
 
@@ -145,7 +145,7 @@ You have some understanding of user-centered service design and delivery practic
 
 ### Senior user researcher
 
-{% include role/role-track.html setrole='senior' %}
+{% include role_level.html level='senior' %}
 
 A senior user researcher is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
 - Build user-centered practices in new teams
@@ -177,7 +177,7 @@ You have a deep understanding of user-centered service design and delivery pract
 
 ### Staff user researcher
 
-{% include role/role-track.html setrole='staff' %}
+{% include role_level.html level='staff' %}
 
 A staff user researcher is an expert practitioner, leading and aligning user research activities across several teams. At this level, you’ll be expected to:
 - Ensure that teams take a user-centered, evidence-based approach to service design and delivery
@@ -208,7 +208,7 @@ You have a deep understanding of user-centered service design and delivery pract
 
 ### Principal user researcher
 
-{% include role/role-track.html setrole='principal' %}
+{% include role_level.html level='principal' %}
 
 A principal user researcher leads user researchers in an organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across government.
 
