@@ -122,9 +122,19 @@
   }
 }
 
+.step-counter--current-mobile {
+  @include media-breakpoint-up(sm) {
+    display: none;
+  }
+}
+
 @include media-breakpoint-down(xs) {
   .step-counter {
     margin-bottom: 0;
+  }
+
+  .step-counter--current {
+    display: none;
   }
 
   .stepper-item[aria-current="true"] {
@@ -152,9 +162,8 @@
       padding-right: 12px;
       align-self: stretch;
       border-left: none !important;
-      padding-left: 22px;
+      padding-left: 7px;
       background: $blue-40;
-      margin-left: -15px;
       border: 1px solid $blue-200;
       white-space: nowrap;
 
