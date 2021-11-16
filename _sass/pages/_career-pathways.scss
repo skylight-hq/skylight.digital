@@ -30,7 +30,7 @@
   margin-bottom: 24px;
   padding-left: 0 !important;
 
-  @media (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     display: none;
   }
 }
@@ -54,7 +54,7 @@
   }
 
   &::after {
-    @media (min-width: 410px) {
+    @media screen and (min-width: 410px) {
       position: absolute;
       content: "";
       border-bottom: 2px solid $gray-20;
@@ -77,7 +77,7 @@
     }
 
     &::after {
-      @media (min-width: 410px) {
+      @media screen and (min-width: 410px) {
         position: absolute;
         content: "";
         border-bottom: 2px solid $blue-40;
@@ -108,7 +108,7 @@
   margin-bottom: 6px;
   background-color: white;
 
-  @media (min-width: 410px) {
+  @media screen and (min-width: 410px) {
     padding-inline: 3px;
   }
 }
@@ -151,7 +151,7 @@
   .stepper-item[aria-current="true"] {
     flex-direction: row;
     margin-inline: 1.5%;
-    @media (min-width: 410px) {
+    @media screen and (min-width: 410px) {
       margin-right: calc(1.5% + 3px);
     }
 
