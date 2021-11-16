@@ -30,7 +30,7 @@
   margin-bottom: 24px;
   padding-left: 0 !important;
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 360px) {
     display: none;
   }
 }
@@ -41,7 +41,7 @@
   flex-direction: column;
   align-items: center;
   flex: 1;
-  margin-inline: 2px;
+  margin-inline: 1.5%;
   padding-bottom: 0 !important;
   padding-left: 0 !important;
 
