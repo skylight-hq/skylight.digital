@@ -214,8 +214,7 @@ Can establish processes from scratch and cater any process to the team, client, 
 
 {% include role_level.html level='principal' %}
 
-A principal product manager leads other disciplines within the organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure best practice, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. At this level, you’ll be expected to:
-- Transform product practice at the leadership level across client organizations
+A principal product manager leads other disciplines within the organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and assure leading practices, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. You also build Skylight's reputation for strong product management through channels such as public speaking, publications, workshops, or social media. At this level, you’ll be expected to transform product practice at the leadership level across client organizations
 
 #### Skills needed for this level
 
