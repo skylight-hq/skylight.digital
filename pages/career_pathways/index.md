@@ -10,7 +10,7 @@ updated_date: November 17, 2021
 {% include hero_banner.html
   hero_content = 'Find descriptions of different roles within Skylight <br class="linebreak">and the skills needed to do them.'
   color = "green"
-  image = "career-pathways/landing.svg"
+  image = "career_pathways/landing.svg"
 %}
 
 <div class="maxw-prose grid-container text">
