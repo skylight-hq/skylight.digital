@@ -25,48 +25,53 @@
   category: Data
   location: Remote
   order: 30
+- title: Data Scientist
+  url: https://apply.workable.com/skylight/j/75AE5D2A25/
+  category: Data
+  location: Remote
+  order: 40
 - title: Product Designer
   url: https://skylight.workable.com/jobs/1128366
   category: Research & Design
   location: Remote
-  order: 40
+  order: 50
 - title: Product Manager
   url: https://skylight.workable.com/jobs/1083508
   category: Product & Delivery
   location: Remote
-  order: 50
+  order: 60
 - title: Service Designer
   url: https://apply.workable.com/skylight/j/E7B37CF8D2/
   category: Research & Design
   location: Remote
-  order: 60
+  order: 70
 - title: User Researcher
   url: https://apply.workable.com/skylight/j/681D1CD9D5/
   category: Research & Design
   location: Remote
-  order: 70
+  order: 80
 - title: Chief Operating Officer
   url: https://apply.workable.com/skylight/j/A744A85F49/
   category: Business Strategy & Operations
   location: Remote
-  order: 80
+  order: 90
 - title: Chief of Staff
   url: https://apply.workable.com/skylight/j/E7AB0727B0/
   category: Business Strategy & Operations
   location: Remote
-  order: 90
+  order: 100
 - title: VP of Service Excellence
   url: https://apply.workable.com/skylight/j/2D3D1B7688/
   category: Business Strategy & Operations
   location: Remote
-  order: 100
+  order: 120
 - title: VP of Training Services
   url: https://apply.workable.com/skylight/j/FB764D28B5/
   category: Business Strategy & Operations
   location: Remote
-  order: 110
+  order: 130
 - title: Talent Sourcer
   url: https://apply.workable.com/skylight/j/10A411E526/
   category: Business Strategy & Operations
   location: Remote
-  order: 120
+  order: 140
