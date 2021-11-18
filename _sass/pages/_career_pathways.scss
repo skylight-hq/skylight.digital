@@ -7,9 +7,13 @@
 }
 
 .page-career-pathways-role {
-  h3 {
-    margin-top: -1em;
+  h3:not(#required-skills) {
+    margin-top: 0;
     padding-top: 1.5em;
+  }
+
+  h2 + h3 {
+    margin-top: -0.5em !important;
   }
 
   h4 {
