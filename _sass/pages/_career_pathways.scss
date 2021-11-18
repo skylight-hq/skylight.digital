@@ -31,7 +31,7 @@
 
 .stepper-wrapper {
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   margin-top: 27px;
   padding-left: 0 !important;
 
@@ -54,7 +54,7 @@
     position: absolute;
     content: "" !important;
     width: 100%;
-    top: 20px;
+    top: 1.25rem;
     left: -50%;
     z-index: 2;
   }
@@ -65,7 +65,7 @@
       content: "";
       border-bottom: 2px solid $gray-20;
       width: 100%;
-      top: 16px;
+      top: 1rem;
       left: 50%;
       z-index: 2;
     }
@@ -88,7 +88,7 @@
         content: "";
         border-bottom: 2px solid $blue-40;
         width: 100%;
-        top: 16px;
+        top: 1rem;
         left: 50%;
         z-index: 3;
       }
@@ -180,9 +180,9 @@
     .step-name {
       z-index: 3;
       padding-top: 3px;
-      border-top-right-radius: 16px;
-      border-bottom-right-radius: 16px;
-      padding-right: 12px;
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      padding-right: 0.75rem;
       align-self: stretch;
       border-left: none !important;
       padding-left: 7px;
