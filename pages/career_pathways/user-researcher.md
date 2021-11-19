@@ -14,7 +14,6 @@ toc:
   - Staff user researcher
   - Principal user researcher
 updated_date: November 17, 2021
-hero_content: Find out what a user researcher does and the skills <br class="linebreak">you need to do the job.
 hero_image: career_pathways/user-researcher.svg
 levels:
  - Associate
