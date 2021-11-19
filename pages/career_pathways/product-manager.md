@@ -14,7 +14,6 @@ toc:
   - Staff product manager
   - Principal product manager
 updated_date: November 17, 2021
-hero_image: career_pathways/product-manager.svg
 levels:
  - Associate
  - Junior
