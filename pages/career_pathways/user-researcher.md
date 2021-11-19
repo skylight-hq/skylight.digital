@@ -4,7 +4,6 @@ title: User researcher
 description: Find out what a user researcher does and the skills you need to do the job.
 permalink: /careers/career-pathways/user-researcher/
 preload: hero-join-us.svg
-class: career-pathways-role
 toc:
   - Introduction
   - Associate user researcher
