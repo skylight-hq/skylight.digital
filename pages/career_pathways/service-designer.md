@@ -3,7 +3,7 @@ layout: career_pathways_role
 title: Service designer
 description: Find out what a service designer does and the skills you need to do the job.
 permalink: /careers/career-pathways/service-designer/
-preload: hero-join-us.svg
+preload: career_pathways/service-designer.svg
 toc:
   - Introduction
   - Associate service designer

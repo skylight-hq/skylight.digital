@@ -3,7 +3,7 @@ layout: career_pathways_role
 title: Product manager
 description: Find out what a product manager does and the skills you need to do the job.
 permalink: /careers/career-pathways/product-manager/
-preload: hero-join-us.svg
+preload: career_pathways/product-manager.svg
 toc:
   - Introduction
   - Associate product manager
