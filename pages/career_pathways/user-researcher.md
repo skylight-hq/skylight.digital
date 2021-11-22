@@ -4,22 +4,22 @@ title: User researcher
 description: Find out what a user researcher does and the skills you need to do the job.
 permalink: /careers/career-pathways/user-researcher/
 preload: career_pathways/user-researcher.svg
+updated_date: November 17, 2021
 toc:
   - Introduction
   - Associate user researcher
-  - Junior user researcher
-  - User researcher
+  - User researcher I
+  - User researcher II
   - Senior user researcher
   - Staff user researcher
   - Principal user researcher
-updated_date: November 17, 2021
 levels:
- - Associate
- - Junior
- - "Mid-level"
- - Senior
- - Staff
- - Principal
+  - Associate
+  - I
+  - II
+  - Senior
+  - Staff
+  - Principal
 ---
 
 User researchers plan, design, and carry out research activities with users that help teams gain a deep understanding of the people that use government services. This research informs policy, service, content, and interaction design so that services work well for users and achieve policy intent.
@@ -80,9 +80,9 @@ You have some knowledge of the technologies and roles within a multidisciplinary
 ##### User-centered and agile practices
 You have some understanding of user-centered service design and delivery practices.
 
-### Junior user researcher
+### User researcher I
 
-{% include role_level.html level='junior' %}
+{% include role_level.html level='I' %}
 
 A junior user researcher is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
@@ -111,9 +111,9 @@ You have some knowledge of the technologies and roles within a digital team.
 ##### User-centred and agile practices
 You have some understanding of user-centered service design and delivery practices.
 
-### User researcher
+### User researcher II
 
-{% include role_level.html level='mid-level' %}
+{% include role_level.html level='II' %}
 
 A user researcher is usually embedded in a multidisciplinary team and responsible for planning and carrying out user research activities. At this level, you’ll be expected to work independently on a team.
 

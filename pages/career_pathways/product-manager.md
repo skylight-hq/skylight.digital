@@ -4,22 +4,22 @@ title: Product manager
 description: Find out what a product manager does and the skills you need to do the job.
 permalink: /careers/career-pathways/product-manager/
 preload: career_pathways/product-manager.svg
+updated_date: November 17, 2021
 toc:
   - Introduction
   - Associate product manager
-  - Junior product manager
-  - Product manager
+  - Product manager I
+  - Product manager II
   - Senior product manager
   - Staff product manager
   - Principal product manager
-updated_date: November 17, 2021
 levels:
- - Associate
- - Junior
- - "Mid-level"
- - Senior
- - Staff
- - Principal
+  - Associate
+  - I
+  - II
+  - Senior
+  - Staff
+  - Principal
 ---
 
 A Product Manager (PM) at Skylight is responsible for strategy, planning, execution, stakeholder management, and team health. PMs partner with engineers, product designers, user researchers, and client stakeholders to inform their product decisions. A PM must have a clear understanding of users’ needs, the business objectives, and the stakeholders’ vision so they can quickly make feature decisions and determine priority. At a high level, it’s the PM’s job to figure out what to build next and why.
@@ -80,9 +80,9 @@ You’re presentable and polished in front of a client. You interact with client
 ##### Team process / agile methodologies
 You understand what agile software development is and can observe the differences between agile and waterfall.
 
-### Junior product manager
+### Product manager I
 
-{% include role_level.html level='junior' %}
+{% include role_level.html level='I' %}
 
 A junior product manager is embedded on a multidisciplinary team. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
@@ -111,9 +111,9 @@ You can articulate and defend your opinions with a client. You’re aware of sta
 ##### Team process / agile methodologies
 You can speak to the principles of agile methodologies. You’re aware of the agile practices your team is following. You follow your team’s process and advocate for healthy team habits.
 
-### Product manager
+### Product manager II
 
-{% include role_level.html level='mid-level' %}
+{% include role_level.html level='II' %}
 
 A product manager is usually leading and/or collaborating on a multidisciplinary team. At this level, you’ll be expected to work independently on a team.
 
