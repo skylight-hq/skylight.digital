@@ -4,22 +4,22 @@ title: Devops engineer
 description: Find out what a devops engineer does and the skills you need to do the job.
 permalink: /careers/career-pathways/devops-engineer/
 preload: career_pathways/devops-engineer.svg
+updated_date: November 17, 2021
 toc:
   - Introduction
   - Associate devops engineer
-  - Junior devops engineer
-  - Devops engineer
+  - Devops engineer I
+  - Devops engineer II
   - Senior devops engineer
   - Staff devops engineer
   - Principal devops engineer
-updated_date: November 17, 2021
 levels:
- - Associate
- - Junior
- - "Mid-level"
- - Senior
- - Staff
- - Principal
+  - Associate
+  - I
+  - II
+  - Senior
+  - Staff
+  - Principal
 published: false
 ---
 

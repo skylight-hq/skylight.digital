@@ -4,22 +4,22 @@ title: Data engineer
 description: Find out what a data engineer does and the skills you need to do the job.
 permalink: /careers/career-pathways/data-engineer/
 preload: career_pathways/data-engineer.svg
+updated_date: November 17, 2021
 toc:
   - Introduction
   - Associate data engineer
-  - Junior data engineer
-  - Data engineer
+  - Data engineer I
+  - Data engineer II
   - Senior data engineer
   - Staff data engineer
   - Principal data engineer
-updated_date: November 17, 2021
 levels:
- - Associate
- - Junior
- - "Mid-level"
- - Senior
- - Staff
- - Principal
+  - Associate
+  - I
+  - II
+  - Senior
+  - Staff
+  - Principal
 published: false
 ---
 

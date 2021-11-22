@@ -4,22 +4,22 @@ title: Software engineer
 description: Find out what a software engineer does and the skills you need to do the job.
 permalink: /careers/career-pathways/software-engineer/
 preload: career_pathways/software-engineer.svg
+updated_date: November 17, 2021
 toc:
   - Introduction
   - Associate software engineer
-  - Junior software engineer
-  - Software engineer
+  - Software engineer I
+  - Software engineer II
   - Senior software engineer
   - Staff software engineer
   - Principal software engineer
-updated_date: November 17, 2021
 levels:
- - Associate
- - Junior
- - "Mid-level"
- - Senior
- - Staff
- - Principal
+  - Associate
+  - I
+  - II
+  - Senior
+  - Staff
+  - Principal
 published: false
 ---
 
