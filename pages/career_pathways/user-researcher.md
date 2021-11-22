@@ -84,7 +84,7 @@ You have some understanding of user-centered service design and delivery practic
 
 {% include role_level.html level='I' %}
 
-A junior user researcher is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
+A user researcher I is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
 - Work in combination with a more senior user researcher
 
@@ -144,7 +144,7 @@ You have some understanding of user-centered service design and delivery practic
 
 {% include role_level.html level='senior' %}
 
-A senior user researcher is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
+A user researcher II is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
 - Build user-centered practices in new teams
 - Align user research activities with wider plans to inform a service proposition
 - Supervise and develop other user researchers to assure and improve research practice

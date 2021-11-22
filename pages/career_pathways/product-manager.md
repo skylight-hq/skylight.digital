@@ -84,7 +84,7 @@ You understand what agile software development is and can observe the difference
 
 {% include role_level.html level='I' %}
 
-A junior product manager is embedded on a multidisciplinary team. At this level, you’ll be expected to:
+A product manager I is embedded on a multidisciplinary team. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
 - Work in combination with a more senior product manager
 
@@ -115,7 +115,7 @@ You can speak to the principles of agile methodologies. You’re aware of the ag
 
 {% include role_level.html level='II' %}
 
-A product manager is usually leading and/or collaborating on a multidisciplinary team. At this level, you’ll be expected to work independently on a team.
+A product manager II is usually leading and/or collaborating on a multidisciplinary team. At this level, you’ll be expected to work independently on a team.
 
 You’ve worked in most stages of the product development lifecycle.
 
