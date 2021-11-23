@@ -41,7 +41,7 @@ You understand and have experience with a wide range of user research methods. Y
 You understand the social and technological context for government services. You can help colleagues understand how digital technology is changing user behavior, and the challenges and opportunities for government services.
 
 #### Strategic insight
-You understand organizational strategy and objectives. You can align user research activities with objectives to create strategic insights that inform policy and proposition.
+You understand organizational strategy and objectives. You can align user research activities with objectives to create strategic insights that inform policy and program.
 
 #### Technical understanding
 You demonstrate knowledge of the technologies used to build and operate digital services. You understand the different technical roles in a multidisciplinary team.
@@ -66,7 +66,7 @@ You know about the need for careful analysis of data to produce clear findings.
 You have some awareness of the diversity of users of government services and the need to make government services useful, usable, and accessible for everyone.
 
 ##### Research methods
-You have some understanding of basic user research methods (e.g. user interviews, stakeholder interviews, journey mapping, card sorting, usability testing, competitive analysis, heuristic evaluations).
+You have some understanding of basic user research methods (e.g., user interviews, stakeholder interviews, journey mapping, card sorting, usability testing, competitive analysis, heuristic evaluations).
 
 ##### Society and technology
 You’re aware of the social and technological context for government services. You understand the importance of understanding users’ life and work for designing and delivering effective services.
@@ -86,7 +86,7 @@ You have some understanding of user-centered service design and delivery practic
 
 A user researcher I is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
-- Work in combination with a more senior user researcher
+- Work in combination with or under the guidance of a more senior user researcher
 
 #### Skills needed for this level
 
@@ -146,7 +146,7 @@ You have some understanding of user-centered service design and delivery practic
 
 A user researcher II is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
 - Build user-centered practices in new teams
-- Align user research activities with wider plans to inform a service proposition
+- Align user research activities with wider plans to inform service design
 - Supervise and develop other user researchers to assure and improve research practice
 
 #### Skills needed for this level
@@ -221,7 +221,7 @@ You can help organizations understand the diversity of users of government servi
 You can help an organization adopt a wide range of user research methods. You can lead a community of practice to help an organization continually assure, improve, and innovate their user research.
 
 ##### Society and technology
-You can align user research activities to help the organization understand changing user behavior, and the challenges and opportunities for government policy and service proposition.
+You can align user research activities to help the organization understand changing user behavior, and the challenges and opportunities for government policy and service design.
 
 ##### Strategic insight
 You understand organizational strategy and objectives. You can align research activities across the organization to create strategic insights. You can align wider research activities at departmental and cross-government level.

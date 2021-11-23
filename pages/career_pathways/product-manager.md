@@ -22,26 +22,26 @@ levels:
   - Principal
 ---
 
-A Product Manager (PM) at Skylight is responsible for strategy, planning, execution, stakeholder management, and team health. PMs partner with engineers, product designers, user researchers, and client stakeholders to inform their product decisions. A PM must have a clear understanding of users’ needs, the business objectives, and the stakeholders’ vision so they can quickly make feature decisions and determine priority. At a high level, it’s the PM’s job to figure out what to build next and why.
+A product manager (PM) at Skylight is responsible for strategy, planning, execution, stakeholder management, and team health. PMs partner with user researchers, product designers, engineers, client stakeholders, and others to inform their product decisions. A PM must have a clear understanding of users’ needs, the business objectives, and the stakeholders’ vision so they can quickly make feature decisions and determine priority. At a high level, it’s the PM’s job to figure out what to build next and why.
 
 Below you’ll find the full list of skills for becoming a product manager at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
 
 ### Required skills
 
 #### Lean product principles
-You’re comfortable building a greenfield product. You define a lean Minimum Viable Product (MVP) that is deployed to production and in the hands of users. You mitigate risks throughout the software development life cycle. Learning is at the center of everything you do. You’re able to take loosely defined requirements and build the right product for your specific user groups and environments.
+You’re comfortable building a greenfield product. You define a lean minimum viable product (MVP) that is deployed to production and in the hands of users. You mitigate risks throughout the software development life cycle. Learning is at the center of everything you do. You’re able to take loosely-defined requirements and build the right product for your specific user groups and environments.
 
 #### Product strategy
-You identify the problem first without jumping to solutions. You prioritize outcomes over feature sets. You can build a roadmap that includes success criteria, metrics, and Objectives and Key Results (OKRs). You can establish direction for a product and get others to buy into the overall strategy.
+You identify the problem first without jumping to solutions. You prioritize outcomes over feature sets. You can build a roadmap that includes success criteria, metrics, and objectives and key results (OKRs). You can establish direction for a product and get others to buy into the overall strategy.
 
 #### Product execution
-You’re constantly seeking to meet user, business, and technical goals. You break complex problems into small pieces. You can build a prioritized backlog with user stories that are validated. Team ceremonies are built into your daily, weekly, or monthly iterations. You have general knowledge around technical feasibility.
+You’re constantly seeking to meet user, business, and technical goals. You break complex problems into small pieces. You can facilitate discussions among the team to build a prioritized backlog with user stories that are validated. Team ceremonies are built into your daily, weekly, or monthly iterations. You have general knowledge around technical feasibility.
 
 #### Human-centered design
-You have experience working directly with product designers, researchers, and software engineers. You’ve participated in discovery in order to inform product direction. You find time to attend user interviews and get to know your users through various data points and interactions. You’re constantly identifying and validating assumptions.
+You have experience working directly researchers, designers, and engineers. You’ve participated in discovery in order to inform product direction. You find time to attend user interviews and get to know your users through various data points and interactions. You’re constantly identifying and validating assumptions.
 
 #### Cross-team collaboration
-You’re comfortable collaborating with designers, researchers, and software engineers. You're able to speak knowledgeably about technology and ask informed questions. You eliminate silos to increase collaboration. In general, you’re willing to wear multiple hats to get the job done.
+You’re comfortable collaborating with researchers, designers, and engineers. You're able to speak knowledgeably about technology and ask informed questions. You eliminate silos to increase collaboration. In general, you’re willing to wear multiple hats to get the job done.
 
 #### Client and stakeholder management
 You’re able to establish professional working relationships with clients and stakeholders. You understand when to push back, but also when to yield. You create consensus and alignment. Your communication skills are professional and polished.
@@ -66,7 +66,7 @@ You’ve read about lean product principles but are at the early stages of seein
 You understand that outcomes are more important than features. You help create and follow up on success criteria and follow through on product direction.
 
 ##### Product execution
-You understand the product domain and the purpose behind all of the team ceremonies.
+You understand the product domain and the purpose behind all of the team ceremonies (e.g., iteration planning, product backlog refinement, iteration retro).
 
 ##### Human-centered design
 You understand what user value means for your product. You’ve participated in activities that help define or better understand the user.
@@ -86,7 +86,7 @@ You understand what agile software development is and can observe the difference
 
 A product manager I is embedded on a multidisciplinary team. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
-- Work in combination with a more senior product manager
+- Work in combination with or under the guidance of a more senior product manager
 
 #### Skills needed for this level
 
@@ -97,7 +97,7 @@ You understand lean product principles and the importance of following a build, 
 You push to understand the why behind anything the team is focusing on. You’re able to define a north star and keep the team on track towards it.
 
 ##### Product execution
-You’re a champion for lean agile methodologies and ceremonies. You understand the basics of user story writing and can write most of the stories in the backlog.
+You’re a champion for lean agile methodologies and ceremonies. You understand the basics of user story writing and can write most of the stories in the backlog, although you may need help from a more senior PM with refining the backlog and working through questions from researchers, designers, and engineers.
 
 ##### Human-centered design
 You understand the difference between user value and business/stakeholder value. You’ve observed user interviews, taken notes, and been a part of the synthesis process. You can help the team validate any user or product assumptions.
@@ -187,7 +187,7 @@ A staff product manager is an expert practitioner, leading and building products
 #### Skills needed for this level
 
 ##### Lean product principles
-You have proven ability to create highly lean solutions, which delight stakeholders in addition to users. You run experiments in order to find product market fit. You know when to pivot. You’re an expert at navigating ambiguous problem spaces.
+You have proven ability to create highly lean solutions, which delight stakeholders in addition to users. You run experiments in order to find product market fit. You know when to pivot. You’re an expert at navigating ambiguous problem spaces. You can help a team navigate multiple iterations — specifically the iteration following a successful MVP.
 
 ##### Product strategy
 You have proven ability to create outcome-oriented roadmaps inclusive of learning milestones, each achieved by experimentation. You have experience planning for all types of products at different stages of software development. You can define short-term and long-term strategies in a very ambiguous environment.
