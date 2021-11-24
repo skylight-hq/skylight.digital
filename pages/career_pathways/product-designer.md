@@ -22,7 +22,7 @@ levels:
   - Principal
 ---
 
-Product designers are expected to understand the problem space, identify opportunities, and develop solutions using an iterative approach. Product designers are considered the “Empathizer in Chief.” They’re the primary user advocate and engage in continuous research throughout the product life cycle. As user advocates, product designers create tight feedback loops to make sure the user’s voice is incorporated throughout the decision-making process. They work closely with the product manager (PM) and client to balance business and user needs in order to influence the product vision. They work end-to-end from concept to implementation and beyond. They conduct research, facilitate design activities, and work closely with developers and PMs to ensure the product team is building the right thing.
+Product designers are expected to understand the problem space, identify opportunities, and develop solutions using an iterative approach. Product designers are considered the “Empathizer in Chief.” They’re the primary user advocate and engage in continuous research throughout the product life cycle. As user advocates, product designers create tight feedback loops to make sure the user’s voice is incorporated throughout the decision-making process. They work closely with the product manager (PM) and client to balance business and user needs in order to influence the product vision. Working end-to-end from concept to implementation, product designers conduct research, facilitate design activities, and ensure the product team is building the right thing.
 
 Below you’ll find the full list of skills for becoming a product designer at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
 
@@ -42,7 +42,7 @@ You create simple and elegant user interface designs. You know how to evolve exi
 
 #### Design process
 
-You gather feedback and iterate on design work early and often. You’re familiar with different design processes such as double diamond, design thinking, and equity-centered  design. You document your process through artifacts such as journey maps, service blueprints, and jobs-to-be done. Your documentation creates a compelling story to help your team and stakeholders empathize with the users.
+You gather feedback and iterate on design work early and often. You’re familiar with different design processes such as double diamond, design thinking, and equity-centered design. You document your process through artifacts such as journey maps, service blueprints, and jobs-to-be done. Your documentation creates a compelling story to help your team and stakeholders empathize with the users.
 
 #### Product strategy
 
@@ -88,7 +88,7 @@ You ask questions to clarify project objectives.
 
 ##### Facilitation and communication
 
-You’re able to set an agenda and handle the logistics. You’re able to ask questions to  keep the activity moving forward.
+You’re able to set an agenda and handle the logistics. You’re able to ask questions to keep the activity moving forward.
 
 ##### Leadership skills
 
@@ -157,7 +157,7 @@ You have a solid understanding of leading practices and know how to apply the ri
 
 ##### Design process
 
-You have a strong understanding of human-centered design. You’re able to lead a discovery phase of a project. You can explore multiple concepts and iterate effectively. You’re a systems thinker and can understand constraints in regards to the bigger picture. You know how to facilitate effective cross-functional collaboration.  You’re able to identify user assumptions to validate. You can adapt the design process and apply it to more challenging design spaces (e.g., API design, machine learning, and conversational design).
+You have a strong understanding of human-centered design. You’re able to lead a discovery phase of a project. You can explore multiple concepts and iterate effectively. You’re a systems thinker and can understand constraints in regards to the bigger picture. You know how to facilitate effective cross-functional collaboration. You’re able to identify user assumptions to validate. You can adapt the design process and apply it to more challenging design spaces (e.g., API design, machine learning, and conversational design).
 
 ##### Product strategy
 
@@ -175,9 +175,9 @@ You can lead processes and prioritization with your product team. You influence 
 
 {% include role_level.html level='senior' %}
 
-A senior product designer is an experienced practitioner who’s  able to plan and lead product discovery and influence product direction on large teams and within more complex problem spaces. At this level, you'll be expected to:
+A senior product designer is an experienced practitioner who’s able to plan and lead product discovery and influence product direction on large teams and within more complex problem spaces. At this level, you'll be expected to:
 
-* Build best product design  practices and processes within a team
+* Build best product design practices and processes within a team
 * Supervise and develop other members on your team or within the product design practice
 * Lead design activities
 
@@ -223,11 +223,11 @@ You’re confident in leading a project with no guidance and direction. You unde
 
 ##### Research
 
-You have experience with a wide range of research methods and know when to  apply the right approach to a situation. You can lead the synthesis of research with complex journeys, users and scenarios. You’re able to educate and lead colleagues on research methods and leading practices. You’re able to positively influence clients and turn them into champions of research.
+You have experience with a wide range of research methods and know when to apply the right approach to a situation. You can lead the synthesis of research with complex journeys, users and scenarios. You’re able to educate and lead colleagues on research methods and leading practices. You’re able to positively influence clients and turn them into champions of research.
 
 ##### Interaction design
 
-You demonstrate  and can articulate information architecture for multi-step, and cross-platform/product workflows. You lead design work within complex domains and systems. You set the quality bar for design work at an organization.
+You demonstrate and can articulate information architecture for multi-step, and cross-platform/product workflows. You lead design work within complex domains and systems. You set the quality bar for design work at an organization.
 
 ##### Visual design
 
@@ -259,7 +259,7 @@ A principal product designer leads other product designers within an organizatio
 
 ##### Research
 
-You’re able to positively impact research at an organizational level to  improve and innovate their user research.
+You’re able to positively impact research at an organizational level to improve and innovate their user research.
 
 ##### Interaction design
 
