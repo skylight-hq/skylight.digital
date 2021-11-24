@@ -3,6 +3,12 @@ layout: default
 class: career-pathways-role
 ---
 
+{% if page.title_caps == true %}
+  {% assign role = page.title %}
+{% else %}
+  {% assign role = page.title | downcase %}
+{% endif %}
+
 <div
   class="bg-green hero-banner"
   style="background-image: url(/img/career_pathways/{{ page.title | slugify }}.svg);"
@@ -11,7 +17,7 @@ class: career-pathways-role
     <div class="hero-container container-fluid text-center">
       <h1 class="hero-heading">{{ page.title }}</h1>
       <div class="hero-content">
-        Find out what a {{ page.title | downcase }} does and the skills <br class="linebreak">you need to do the job.
+        Find out what a {{ role }} does and the skills <br class="linebreak">you need to do the job.
       </div>
     </div>
   </header>
@@ -44,7 +50,7 @@ class: career-pathways-role
     <section class="col-12 col-md-9">
       <div class="text prose" markdown="1">
         <p class="font-sm text-gray-light mb-0">Updated: {{ page.updated_date }}</p>
-        <h2 class="mt-0 pt-3" id="introduction">Introduction to the role of {{ page.title | downcase }}</h2>
+        <h2 class="mt-0 pt-3" id="introduction">Introduction to the role of {{ role }}</h2>
 {{ content }}
 
 <a class="post-footer__see-all" href="/careers/career-pathways/">
