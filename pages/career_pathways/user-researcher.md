@@ -86,7 +86,7 @@ You have some understanding of user-centered service design and delivery practic
 
 A user researcher I is embedded in a multidisciplinary team to carry out user research activities. At this level, you’ll be expected to:
 - Have some practical experience but need regular guidance and training to produce your best work and develop your skills
-- Work in combination with or under the guidance of a more senior user researcher
+- Work under the guidance of a more senior user researcher
 
 #### Skills needed for this level
 

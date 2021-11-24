@@ -4,7 +4,7 @@ title: Product designer
 description: Find out what a product designer does and the skills you need to do the job.
 permalink: /careers/career-pathways/product-designer/
 preload: career_pathways/product-designer.svg
-updated_date: November 22, 2021
+updated_date: November 24, 2021
 toc:
   - Introduction
   - Associate product designer
