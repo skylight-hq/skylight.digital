@@ -5,7 +5,7 @@ title_caps: true
 description: Find out what a DevOps engineer does and the skills you need to do the job.
 permalink: /careers/career-pathways/devops-engineer/
 preload: career_pathways/devops-engineer.svg
-updated_date: November 17, 2021
+updated_date: November 24, 2021
 toc:
   - Introduction
   - Associate DevOps engineer
