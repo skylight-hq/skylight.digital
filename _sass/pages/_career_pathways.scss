@@ -77,20 +77,21 @@
 
   &[aria-current="true"] {
     .step-name {
-      color: $blue-200;
+      color: $green-300-a;
+      font-weight: bold;
     }
   }
 
   &.completed {
     .step-name {
-      color: $blue-100-a;
+      color: $green-300;
     }
 
     &::after {
       @media screen and (min-width: 410px) {
         position: absolute;
         content: "";
-        border-bottom: 2px solid $blue-40;
+        border-bottom: 2px solid $green-40;
         width: 100%;
         top: 1rem;
         left: 50%;
