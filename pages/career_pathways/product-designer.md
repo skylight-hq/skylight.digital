@@ -286,7 +286,8 @@ You can facilitate complex situations with competing priorities. You define new 
 You drive strategy and vision at the leadership level for your clients, Skylight, and the industry.
 
 <div class="callout--note" markdown='1'>
-## Attribution
+## References
 
-This content is adapted from [Career architecture for design teams](https://www.linkedin.com/pulse/career-architectures-design-teams-ryan-donahue/) and [Redesigning job levels for product designers](https://www.intercom.com/blog/product-design-job-levels/).
+- [Career architecture for design teams](https://www.linkedin.com/pulse/career-architectures-design-teams-ryan-donahue/)
+- [Redesigning job levels for product designers](https://www.intercom.com/blog/product-design-job-levels/)
 </div>
