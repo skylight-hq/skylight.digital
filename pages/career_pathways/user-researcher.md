@@ -115,7 +115,7 @@ You have some understanding of user-centered service design and delivery practic
 
 {% include role_level.html level='II' %}
 
-A user researcher is usually embedded in a multidisciplinary team and responsible for planning and carrying out user research activities. At this level, you’ll be expected to work independently on a team.
+A user researcher II is usually embedded in a multidisciplinary team and responsible for planning and carrying out user research activities. At this level, you’ll be expected to work independently on a team.
 
 #### Skills needed for this level
 
@@ -144,7 +144,7 @@ You have some understanding of user-centered service design and delivery practic
 
 {% include role_level.html level='senior' %}
 
-A user researcher II is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
+A senior user researcher is an experienced practitioner who’s able to plan and lead user research activities in larger teams and on more complex services. At this level, you’ll be expected to:
 - Build user-centered practices in new teams
 - Align user research activities with wider plans to inform service design
 - Supervise and develop other user researchers to assure and improve research practice
