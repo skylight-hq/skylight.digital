@@ -1,0 +1,42 @@
+{% assign current = include.level | downcase %}
+{% assign found_current = false %}
+
+<ol class="stepper-wrapper">
+{% for role in page.levels %}
+  {% assign role_downcase = role | downcase %}
+  {% if role_downcase == current %}
+  <li class="stepper-item" aria-current="true">
+    <div class="step-counter">
+      <img class="step-counter--current" src="/img/career_pathways/icons/current.svg" alt="">
+      <img class="step-counter--current-mobile" src="/img/career_pathways/icons/current-mobile.svg" alt="">
+      {% assign found_current = true %}
+    </div>
+    <div class="step-name">
+      {{ role }}
+    </div>
+  </li>
+  {% else %}
+    {% if found_current %}
+    <li class="stepper-item">
+      <div class="step-counter">
+        <img src="/img/career_pathways/icons/innactive.svg" alt="">
+      </div>
+      <div class="step-name">
+        {{ role }}
+        <span class="sr-only">not completed</span>
+      </div>
+    </li>
+    {% else %}
+    <li class="stepper-item completed">
+      <div class="step-counter">
+        <img src="/img/career_pathways/icons/complete.svg" alt="">
+      </div>
+      <div class="step-name">
+        {{ role }}
+        <span class="sr-only">completed</span>
+      </div>
+    </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ol>

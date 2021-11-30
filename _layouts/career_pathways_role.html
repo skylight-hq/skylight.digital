@@ -1,0 +1,64 @@
+---
+layout: default
+class: career-pathways-role
+---
+
+{% if page.title_caps == true %}
+  {% assign role = page.title %}
+{% else %}
+  {% assign role = page.title | downcase %}
+{% endif %}
+
+<div
+  class="bg-green hero-banner"
+  style="background-image: url(/img/career_pathways/{{ page.title | slugify }}.svg);"
+>
+  <header class="hero hero-banner mb-5">
+    <div class="hero-container container-fluid text-center">
+      <h1 class="hero-heading">{{ page.title }}</h1>
+      <div class="hero-content">
+        Find out what a {{ role }} does and the skills <br class="linebreak">you need to do the job.
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="grid-container">
+  <div class="row">
+    <div class="sidenav col-12 col-md-3 d-none d-md-block">
+      <div class="is-sticky">
+        <nav class="subnav-col px-0" id="sidenav">
+          <ul>
+            {% for item in page.toc %}
+              <li{% if item == "Introduction" %} class="current"{% endif %}>
+                <a
+                  class="nav-link"
+                  href="#{{ item | slugify }}"
+                  {% if item == "Introduction" %}
+                    aria-current="location"
+                  {% endif %}
+                >
+                  {{ item }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="col-12 col-md-9">
+      <div class="text prose" markdown="1">
+        <p class="font-sm text-gray-light mb-0">Updated: {{ page.updated_date }}</p>
+        <h2 class="mt-0 pt-3" id="introduction">Introduction to the role of {{ role }}</h2>
+{{ content }}
+
+<a class="post-footer__see-all" href="/careers/career-pathways/">
+  <i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i>See all roles
+</a>
+</div>
+    </section>
+  </div>
+</div>
+
+{% include career_pathways_cta.html %}

@@ -74,13 +74,13 @@
 
     li {
       &:not(:last-of-type) {
-        @extend %mb-2;
+        margin-bottom: 0.9rem;
       }
     }
   }
 
   li {
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   a {
