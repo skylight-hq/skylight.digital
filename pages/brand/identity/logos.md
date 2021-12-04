@@ -1,7 +1,7 @@
 ---
 layout: toolkit
 title: Logos
-description: Our logo is often the first thing you see. It’s a powerful tool for representing Skylight to potential customers, partners, and prospective employees. Here are some tips for using our logo correctly.
+description: Our logo is often the first thing you see. It’s a powerful tool for representing Skylight to our customers, partners, employees, and prospective hires. Here are some tips for using our logo correctly.
 tags:
 permalink: /brand/identity/logos/
 sidenav: brand_identity
