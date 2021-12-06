@@ -45,7 +45,7 @@ These images are always full bleed with a background color.
 
 <div class="brand__content-section grid">
   <header class="grid__heading" markdown="1">
-## Floating illustrations: monochromatic
+## Floating illustrations: <br>monochromatic
   </header>
   <div class="grid__image section__container p-5">
     <div class="row">
@@ -80,7 +80,7 @@ They’re monochromatic using a bold color from the illustration palette. Accent
 
 <div class="brand__content-section grid">
   <header class="grid__heading" markdown="1">
-## Floating illustrations: rotate colors
+## Floating illustrations: <br>rotate colors
   </header>
   <div class="grid__image section__container p-5">
     <div class="row">
