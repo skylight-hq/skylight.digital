@@ -38,7 +38,7 @@ You define end-to-end flows while taking into account edge cases, error states, 
 
 #### Visual design
 
-You create simple and elegant user interface designs. You know how to evolve existing visual systems (i.e., style, spacing, components) with clear rationale. You stay up-to-date with industry trends. You have skills in some other visual design areas, such as branding, illustration, iconography, typography, or microinteractions.
+You create simple and elegant user interface designs. You know how to evolve existing visual systems (e.g., style, spacing, components) with clear rationale. You stay up-to-date with industry trends. You have skills in some other visual design areas, such as branding, illustration, iconography, typography, or microinteractions.
 
 #### Design process
 
@@ -68,7 +68,7 @@ As a trainee in an entry-level role working with more experienced designers, you
 
 ##### Research
 
-You’re aware and have some understanding of research methods (i.e., interviews, surveys, experiments, contextual inquiry). You can support planning, synthesis, and take effective notes.
+You’re aware and have some understanding of research methods (e.g., interviews, surveys, experiments, contextual inquiry). You can support planning, synthesis, and take effective notes.
 
 ##### Interaction design
 
@@ -111,7 +111,7 @@ You have experience with basic user research methods. You understand why researc
 
 ##### Interaction design
 
-You have a foundational understanding of common design patterns in the field and the product. You have conceptual familiarity with information architecture, multi-step, and cross-platform workflows. You also consider different states in your work ( i.e., error, empty, success).
+You have a foundational understanding of common design patterns in the field and the product. You have conceptual familiarity with information architecture, multi-step, and cross-platform workflows. You also consider different states in your work ( e.g., error, empty, success).
 
 ##### Visual design
 
@@ -267,7 +267,7 @@ You consistently produce simple and elegant interfaces that set and raise the co
 
 ##### Visual design
 
-You can advocate for UI patterns, design system methods, and accessibility to people outside of your team. People recognize you as an expert on visual design. You're up to date or even defining the newest trends and can educate others on them.
+You can advocate for user interface patterns, design system methods, and accessibility to people outside of your team. People recognize you as an expert on visual design. You're up to date or even defining the newest trends and can educate others on them.
 
 ##### Design process
 
