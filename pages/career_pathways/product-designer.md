@@ -38,7 +38,7 @@ You define end-to-end flows while taking into account edge cases, error states, 
 
 #### Visual design
 
-You create simple and elegant user interface designs. You know how to evolve existing visual systems (i.e., style, spacing, components) with clear rationale. You stay up-to-date with industry trends. You have skills in some other visual design areas, such as branding, illustration, iconography, typography, or microinteractions.
+You create simple and elegant user interface designs. You know how to evolve existing visual systems (e.g., style, spacing, components) with clear rationale. You stay up-to-date with industry trends. You have skills in some other visual design areas, such as branding, illustration, iconography, typography, or microinteractions.
 
 #### Design process
 
@@ -52,7 +52,7 @@ You understand agile and lean methodology. As the primary voice of the user, you
 
 You can articulate design rationale to various groups (users, teammates, stakeholders). You’re adept at receiving and giving feedback constructively. You utilize design activities to gain alignment with cross-functional disciplines through knowledge sharing and convergent/divergent thinking. You know how to negotiate trade-offs when necessary. You know how to incorporate storytelling for effective and engaging communication.
 
-#### Leadership skills
+#### Leadership
 
 You drive excellence in your team's design execution. You know how to build positive influences in product direction, stakeholder relations, and organizational leadership. You can easily build and establish relationships with designers and non-designers.
 
@@ -68,7 +68,7 @@ As a trainee in an entry-level role working with more experienced designers, you
 
 ##### Research
 
-You’re aware and have some understanding of research methods (i.e., interviews, surveys, experiments, contextual inquiry). You can support planning, synthesis, and take effective notes.
+You’re aware and have some understanding of research methods (e.g., interviews, surveys, experiments, contextual inquiry). You can support planning, synthesis, and take effective notes.
 
 ##### Interaction design
 
@@ -90,7 +90,7 @@ You ask questions to clarify project objectives.
 
 You’re able to set an agenda and handle the logistics. You’re able to ask questions to keep the activity moving forward.
 
-##### Leadership skills
+##### Leadership
 
 You work collaboratively with project leads. You build rapport and trust with your team.
 
@@ -111,7 +111,7 @@ You have experience with basic user research methods. You understand why researc
 
 ##### Interaction design
 
-You have a foundational understanding of common design patterns in the field and the product. You have conceptual familiarity with information architecture, multi-step, and cross-platform workflows. You also consider different states in your work ( i.e., error, empty, success).
+You have a foundational understanding of common design patterns in the field and the product. You have conceptual familiarity with information architecture, multi-step, and cross-platform workflows. You also consider different states in your work ( e.g., error, empty, success).
 
 ##### Visual design
 
@@ -129,7 +129,7 @@ You partner with more senior leaders to ensure your work is aligned with the pro
 
 You’re able to ask insightful questions, actively listen, and effectively support a lead facilitator.
 
-##### Leadership skills
+##### Leadership
 
 You can effectively communicate within your team and actively work to improve collaboration. You take initiative on leading team meetings, such as stand ups and retros. You’re comfortable receiving and giving feedback.
 
@@ -167,7 +167,7 @@ You understand product scope and can explore multiple solution paths. You unders
 
 You can support structured workshops with a target audience. You're able to facilitate workshops well with some guidance. You’re able to effectively communicate with multidisciplinary teams to achieve the desired outcomes.
 
-##### Leadership skills
+##### Leadership
 
 You can lead processes and prioritization with your product team. You influence product direction. You're able to balance and properly scope shifts in the project. You’re comfortable explaining your design decisions.
 
@@ -209,7 +209,7 @@ You can handle complex, ambiguous product challenges. You understand the technic
 
 You’re able to plan and structure a workshop based upon the needs of the client and the product. You’re comfortable facilitating workshops and deviating from a fixed plan if needed.
 
-##### Leadership skills
+##### Leadership
 
 You’re adept with stakeholder management and relationship building. You initiate and lead strategic meetings with the team and stakeholders.
 
@@ -245,7 +245,7 @@ You actively build consensus amongst peers and stakeholders and play a major rol
 
 You can create novel workshops and handle various personality types. You're able to plan and structure a workshop based upon the needs of the client and the product. You're comfortable facilitating workshops, and deviating from a fixed plan if needed.
 
-##### Leadership skills
+##### Leadership
 
 You're able to persuade resistant clients to invest in user research, and teach them leading practices in product development. You mentor and influence your team, stakeholders, and clients on leading practices in product design.
 
@@ -267,7 +267,7 @@ You consistently produce simple and elegant interfaces that set and raise the co
 
 ##### Visual design
 
-You can advocate for UI patterns, design system methods, and accessibility to people outside of your team. People recognize you as an expert on visual design. You're up to date or even defining the newest trends and can educate others on them.
+You can advocate for user interface patterns, design system methods, and accessibility to people outside of your team. People recognize you as an expert on visual design. You're up to date or even defining the newest trends and can educate others on them.
 
 ##### Design process
 
@@ -281,7 +281,7 @@ You provide substantial input on product scope and direction. You provide strong
 
 You can facilitate complex situations with competing priorities. You define new methods of facilitation and communication. You're able to find new ways to extract and synthesize insights to reach alignment. People come to you for facilitation guidance.
 
-##### Leadership skills
+##### Leadership
 
 You drive strategy and vision at the leadership level for your clients, Skylight, and the industry.
 
