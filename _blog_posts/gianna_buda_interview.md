@@ -12,6 +12,7 @@ authors:
   - Ori Hoffer
 date_published: 2021-04-10
 date: 2021-04-10
+redirect_from: /thoughts/blog/gianna-uson-launching-a-civic-tech-career/
 ---
 
 *Gianna Buda joined Skylight in January 2021. She's a software engineer who's spent the past few years doing service-related work with mission-oriented organizations such as Coding it Forward and AmeriCorps. Gianna's passionate about using technology in partnership with communities to improve the lives of others.*
