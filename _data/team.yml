@@ -1743,14 +1743,14 @@
       link: https://www.linkedin.com/in/elyse-brumfield-572ab1150/
       link_description: Elye's LinkedIn Account
       fa_icon_name: linkedin
-- name: gianna-uson
+- name: gianna-buda
   fname: Gianna
   lname: Uson
-  full_name: Gianna Uson
+  full_name: Gianna Buda
   short_name: G. Uson
-  profile_path: /company/about/#gianna-uson
-  image: /img/people/gianna-uson.jpg
-  image_description: Photo of Gianna Uson
+  profile_path: /company/about/#gianna-buda
+  image: /img/people/gianna-buda.jpg
+  image_description: Photo of Gianna Buda
   position: Software Engineer
   bio: >
     Gianna's a software engineer who's passionate about leveraging technology
@@ -1765,7 +1765,7 @@
       link_description: Gianna's LinkedIn Account
       fa_icon_name: linkedin
     - name: Projects
-      link: /work/team-member/gianna-uson/
+      link: /work/team-member/gianna-buda/
       link_description: Gianna's Project Work
       fa_icon_name: wrench
 - name: alex-curtis
