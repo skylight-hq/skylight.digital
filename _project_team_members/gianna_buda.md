@@ -1,7 +1,7 @@
 ---
 layout: employee_filter
-title: Gianna Uson’s Project Work
+title: Gianna Buda’s Project Work
 filter_type: project
-name: gianna-uson
+name: gianna-buda
 skip_index: true
 ---
