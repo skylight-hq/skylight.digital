@@ -77,7 +77,7 @@ Our business card communicates important information to our audience, emphasizin
 ## Email signature
   </header>
   <figure class="grid__image section__container text-center p-4 p-md-5">
-    <img class="border maxw-card-lg w-100" src="/img/brand/outreach/email-signature.jpg" alt="Skylight email signature">
+    <img class="border maxw-mobile w-100" src="/img/brand/outreach/email-signature.jpg" alt="Skylight email signature">
   </figure>
   <div class="grid__content" markdown="1">
 Our email signature is simple, informative, and reflects Skylight’s branding. We include only the most important pieces of information — name, job title, our website, and our logo.
