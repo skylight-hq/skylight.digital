@@ -13,11 +13,18 @@ class: brand
 <div class="row brand__content-section">
 <div class="col-md-8" markdown="1">
 {% include lock_link.html
-  text="Skylight Document Template"
+  text="Skylight Document Style Guide"
   url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
 %}{: .mb-1 }
 
 A guide to using the Skylight brand in Google Docs. We use this template for all internal documents.
+
+{% include lock_link.html
+  text="Skylight Internal Document Template"
+  url="https://docs.google.com/document/d/1jsc1rfWV6ZFETv-CSVj218QDIMXNzTc1T-Of8sJ8Jys/edit?usp=sharing"
+%}{: .mb-1 }
+
+A simple template that can be used to format most internal documents.
 
 {% include lock_link.html
   text="Skylight Slides Deck Template"
