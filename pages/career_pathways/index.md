@@ -4,7 +4,7 @@ title: Skylight Career Pathways
 description: Find descriptions of different roles within Skylight and the skills needed to do them.
 permalink: /careers/career-pathways/
 preload: hero-join-us.svg
-updated_date: November 24, 2021
+updated_date: January 18, 2022
 ---
 
 {% include hero_banner.html
@@ -48,6 +48,8 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 
 ### Engineering
 {: .heading-mono .mt-6 }
+[Software engineer](/careers/career-pathways/software-engineer/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }
 [DevOps engineer](/careers/career-pathways/devops-engineer/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
