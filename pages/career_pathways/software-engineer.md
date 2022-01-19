@@ -58,6 +58,8 @@ You center the user in your work, always thinking through the impact and implica
 
 ### Associate software engineer
 
+{% include role_level.html level='associate' %}
+
 As an associate software engineer in an entry-level role, you'll need to have an understanding of the role and show potential. You'll need (and receive) guidance and training from more experienced software engineers to produce good work and develop your skills.
 
 #### Skills needed for this level
@@ -88,6 +90,8 @@ You understand the importance of considering user needs. You know how to read an
 
 ### Software engineer I
 
+{% include role_level.html level='I' %}
+
 As a software engineer I, you’ll regularly contribute code. At this level, you’ll be expected to have some practical experience but need regular guidance and training to produce your best work and develop your skills. You’ll work in combination with a more senior engineer.
 
 #### Skills needed for this level
@@ -117,6 +121,8 @@ You're aware of some design patterns and have a basic understanding of full-stac
 You ensure user needs are considered when implementing new features. You collaborate with user researchers and know how to read the outputs of user research.
 
 ### Software Engineer II
+
+{% include role_level.html level='II' %}
 
 At this level, you'll be expected to work independently on a team. You’re comfortable planning and implementing new features, solving complex bugs, and familiar with operating software in production.
 
@@ -151,6 +157,8 @@ You can build and test simple interfaces and APIs between systems or provide inp
 You collaborate closely with product managers, researchers, and product designers to ensure the product meets user and organizational needs. With some help, you can translate user research into an actionable technical plan. You’re able to consistently build accessible interfaces.
 
 ### Senior Software Engineer
+
+{% include role_level.html level='senior' %}
 
 A senior software engineer is an experienced practitioner. You're comfortable designing and implementing complex software systems. You’re constantly striving for industry-leading practices. You collaborate with the team to align engineering activities with the wider strategy to inform system design. At this level, you’ll be expected to supervise and develop other members on your team or within the software engineering practice.
 
@@ -196,6 +204,8 @@ You work to ensure others on your team are maintaining user focus. You regularly
 
 ### Staff Software Engineer
 
+{% include role_level.html level='staff' %}
+
 A staff software engineer is an expert practitioner who’s able to lead and direct engineering activities across multiple teams. At this level, you'll be expected to:
 
 * Develop and enforce good engineering practices
@@ -232,6 +242,8 @@ You're able to design large, complex systems and APIs that may span multiple pro
 You work across projects to ensure user focus and accessibility is maintained across the entire application or suite of applications.
 
 ### Principal Software Engineer
+
+{% include role_level.html level='principal' %}
 
 A principal software engineer leads other software engineers within the organization and attracts and builds talent. At this level, you'll be expected to be an expert practitioner who can define and enforce leading practices, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. You’ll also build Skylight’s reputation for strong software engineering through channels such as public speaking, publications, workships, or social media. At this level, you’ll be expected to transform software development practice at the leadership level across client organizations.
 
