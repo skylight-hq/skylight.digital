@@ -215,7 +215,7 @@ You write tests for all your code and proactively work to improve the code healt
 
 ##### Security, privacy, and compliance
 
-You have a deep understanding of potential security and privacy vulnerabilities and risks and take steps to mitigate them for your team. You build tools and processes to make compliance and auditing faster and easier.** **
+You have a deep understanding of potential security and privacy vulnerabilities and risks and take steps to mitigate them for your team. You build tools and processes to make compliance and auditing faster and easier.
 
 ##### Data engineering
 
