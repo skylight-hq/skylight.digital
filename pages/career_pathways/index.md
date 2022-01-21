@@ -45,6 +45,8 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 [Product designer](/careers/career-pathways/product-designer/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
+[Service designer](/careers/career-pathways/service-designer/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
 ### Engineering
 {: .heading-mono .mt-6 }
