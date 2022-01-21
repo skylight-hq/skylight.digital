@@ -276,3 +276,10 @@ You influence Skylight's organizational strategy around software architecture an
 ##### User focus
 
 You set company standards and priorities around user focus and accessible design. You can conduct user research when necessary.
+
+<div class="callout--note" markdown='1'>
+## References
+
+- GOV.UK Digital, Data and Technology Profession Capability Framework [software developer role](https://www.gov.uk/guidance/software-developer)
+- [CircleCI Engineering Competency Matrix](https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit#gid=0)
+</div>
