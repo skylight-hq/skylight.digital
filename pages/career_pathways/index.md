@@ -4,7 +4,7 @@ title: Skylight Career Pathways
 description: Find descriptions of different roles within Skylight and the skills needed to do them.
 permalink: /careers/career-pathways/
 preload: hero-join-us.svg
-updated_date: January 18, 2022
+updated_date: January 26, 2022
 ---
 
 {% include hero_banner.html
@@ -46,6 +46,8 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 [Product designer](/careers/career-pathways/product-designer/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 [Service designer](/careers/career-pathways/service-designer/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }
+[Content designer](/careers/career-pathways/content-designer/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
 ### Engineering
