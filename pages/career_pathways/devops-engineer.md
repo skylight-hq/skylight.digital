@@ -21,7 +21,6 @@ levels:
   - Senior
   - Staff
   - Principal
-# published: false
 ---
 
 DevOps engineers work with developers throughout the software development life cycle to ensure code can be reliably and repeatedly released on demand with a high degree of quality. They understand both software development and operations, with expertise in areas such as networking, security, test automation, and continuous integration/deployment.
