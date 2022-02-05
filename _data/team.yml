@@ -1332,7 +1332,7 @@
     she served as a member of 18F, taught MFA Design Entrepreneurship at Parsons
     Design and Technology, mentored dozens of startups, and led design at a number
     of technology companies.
-  active: true
+  active: false
   order: 320
   socials:
     - name: Twitter
@@ -1488,7 +1488,7 @@
     Jordan's devoted to building products and platforms that deliver great user
     experiences. He specializes in software engineering, data engineering, and
     DevOps. Jordan lives in Oregon.
-  active: true
+  active: false
   order: 370
   socials:
     - name: LinkedIn
@@ -1668,7 +1668,7 @@
   bio: >
     Chris' an experienced executive with nearly 20 years of leading technology
     consulting and delivery teams in support of government clients. He lives in Maryland.
-  active: true
+  active: false
   order: 430
   socials:
     - name: LinkedIn
@@ -1975,7 +1975,7 @@
   position: Head of Recruiting
   bio: >
     Becca's passionate about building great organizations by hiring and supporting great people. Previously, she supported staffing needs at Waymo, LinkedIn, and other high-tech companies in the Silicon Valley area. Becca specializes in staffing, onboarding, people leadership, and diversity, equity, and inclusion. She lives in Arizona.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
