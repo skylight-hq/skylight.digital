@@ -419,7 +419,7 @@
     including Director of cloud.gov. He's also a former Consumer Financial Protection
     Bureau Design+Tech fellow. Shashank specializes in digital leadership and transformation,
     digital procurement, software engineering, and cloud computing. He lives in Maryland.
-  active: true
+  active: false
   order: 50
   socials:
     - name: Twitter
@@ -1537,7 +1537,7 @@
   profile_path: /company/about/#nicole-campbell
   image: /img/people/nicole-campbell.jpg
   image_description: Photo of Nicole Campbell
-  position: VP of Defense Services
+  position: Chief Operating Officer
   bio: >
     Nicole's a product manager with a passion for building technology that
     solves complex user problems. Most recently she worked as a consultant at
@@ -1858,7 +1858,7 @@
   profile_path: /company/about/#leslie-garner-franklin
   image: /img/people/leslie-garner-franklin.jpg
   image_description: Photo of Leslie Garner Franklin
-  position: Product Manager
+  position: VP of Human Services
   bio: >
     Leslie's a product manager with nearly two decades of experience leading teams and
     change efforts across the non-profit and public sectors. She's passionate about the role
@@ -1950,7 +1950,7 @@
   profile_path: /company/about/#karthik-patil
   image: /img/people/karthik-patil.jpg
   image_description: Photo of Karthik Patil
-  position: Product Manager
+  position: VP of Defense Services
   bio: >
     Karthik's a product manager with several years of experience across a range of industries. Most recently, he worked at Pivotal Labs / VMware Tanzu. Karthik graduated from Creighton University with degrees in Economics and Business Intelligence and Analytics. He lives in Texas.
   active: true
