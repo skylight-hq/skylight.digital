@@ -3,7 +3,7 @@ layout: blog_post
 title: "Lean software development, part 2: Choosing agile or lean software development"
 permalink: /thoughts/blog/lean-software-development-part-2-choosing-agile-or-lean-software-development
 content_type: BlogPosting
-image: /img/blog/crossroads.svg
+image: /img/blog/lean_software_development/crossroads.svg
 image_description: Person standing at a crossroad.
 image_display: true
 tags: [engineering, product, sean johnson]
@@ -31,7 +31,7 @@ Before considering the choice between lean software development and agile, it’
 
 Waterfall is a descriptive name, given after the fact, to a whole family of software development methodologies derived from other engineering fields, namely construction, durable goods, hardware engineering, and so on. Waterfall methods break down project activities into a linear sequence. Each activity depends on the output of the prior activity and progress flows in largely one direction (downwards like a waterfall).
 
-![Waterfall develeopment process.](/img/blog/waterfall-development-process.svg)
+![Waterfall development process.](/img/blog/lean_software_development/waterfall-development-process.svg)
 
 This happens at the macro level, as in the above diagram, but also at the micro level in detailed [PERT or Gantt charts](https://www.lucidchart.com/blog/advantages-of-pert-charts-vs-gantt-charts). Waterfall methods focus on using detailed planning to manage the risk of budget and timeline overruns.
 
@@ -55,7 +55,7 @@ Agile software development attempts to unlock the team from rigid plans and inst
 
 The activities we do in waterfall methods — planning, requirements, design, implementation, validation — are still necessary. They don’t go away in agile, but the timeframe for these activities radically shrinks, and some steps collapse. Detailed requirements shrink to become sprint planning. The quality assurance step merges into development. We insert an important feedback step with external feedback from the customer using working software, and we add internal feedback from the team in a retrospective. Then the whole process becomes an iterative circle that’s repeated every sprint, usually two weeks.
 
-![Agile develeopment process.](/img/blog/agile-software-development-process.svg)
+![Agile development process.](/img/blog/lean_software_development/agile-software-development-process.svg)
 
 What does this shrinking and reflective iteration of the software development activities accomplish? **It reduces the risk that you waste time building the wrong thing.**
 
@@ -98,7 +98,7 @@ A focus on delivering value more quickly means you need to be precise about what
 
 Lean software development practitioners have identified the seven most common types of waste that occur in software development.
 
-![Seven wastes of software development.](/img/blog/software-dev-seven-wastes.svg)
+![Seven wastes of software development.](/img/blog/lean_software_development/software-dev-seven-wastes.svg)
 
 Why is limiting work in progress so important to the economics of creating software? Let’s use a simplified example. Suppose we have four new software capabilities our team needs to deliver to eager users. How should we think about delivering it? What are our options?
 
@@ -201,11 +201,11 @@ When the value stream is mapped and the worst inefficiencies are identified, you
 
 Now that you have a better sense of lean software development you’re probably still wondering if it’s better for your own projects. Agile and lean are siblings; both were born out of a rejection of waterfall, but they aren’t identical twins. They share some of the same principles and practices, so there’s a strong family resemblance, but they aren’t simply two names for the same thing. This short table summarizes some of the key differences between agile and lean software development that we’ve discussed.
 
-![Key differences between agile and lean software development.](/img/blog/lean-vs-agile.svg) 
+![Key differences between agile and lean software development.](/img/blog/lean_software_development/lean-vs-agile.svg) 
 
 When choosing which approach to apply, I urge you to focus on the key strength of agile and the key strength of lean, so you can choose the approach that best maps to the context of your project. The following chart can help you understand where your project fits.
 
-![Agile and lean software development matrix.](/img/blog/lean-agile-matrix.svg) 
+![Agile and lean software development matrix.](/img/blog/lean_software_development/lean-agile-matrix.svg) 
 
 While the real world often isn’t as clear cut as this chart depicts, finding where your own projects fit on this chart is helpful. Projects that face great uncertainty but fewer expectations about the amount of software to be delivered, often just an MVP, benefit most from agile. Projects most suitable to lean software development have a strong business imperative for delivering software into production but fewer questions about how to best solve the problem — a legacy modernization project is but one example.
 
