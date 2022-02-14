@@ -223,7 +223,7 @@ You’re confident in leading a project with no guidance and direction. You unde
 
 ##### Research
 
-You have experience with a wide range of research methods and know when to apply the right approach to a situation. You can lead the synthesis of research with complex journeys, users and scenarios. You’re able to educate and lead colleagues on research methods and leading practices. You’re able to positively influence clients and turn them into champions of research.
+You have experience with a wide range of research methods and know when to apply the right approach to a situation. You can lead the synthesis of research with complex journeys, users, and scenarios. You’re able to educate and lead colleagues on research methods and leading practices. You’re able to positively influence clients and turn them into champions of research.
 
 ##### Interaction design
 
