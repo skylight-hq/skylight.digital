@@ -2358,3 +2358,25 @@
       link: /work/team-member/david-mcclatchey/
       link_description: David's Project Work
       fa_icon_name: wrench
+
+- name: liz-fox
+  fname: Liz
+  lname: Fox
+  full_name: Liz Fox
+  short_name: L. Fox
+  profile_path: /company/about/#liz-fox
+  image: /img/people/liz-fox.jpg
+  image_description: Photo of Liz Fox
+  position: Product Designer
+  bio: >
+    Liz is a product designer and user researcher. Most recently, she worked on mobile products and design systems at Salesforce. She's passionate about building technology in service of the people who use it. Liz lives in Milwaukee, WI.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/elfoxart/
+      link_description: Liz's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://elfoxdesign.com
+      link_description: Liz's Personal Website
+      fa_icon_name: home
