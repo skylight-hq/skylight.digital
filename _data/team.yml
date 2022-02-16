@@ -1736,7 +1736,7 @@
   bio: >
     Elyse's our amazing administrative assistant. She recently graduated from
     Transylvania University and is seeking a degree in Clinical Mental Health
-    Counseling from Hodges University. Elyse lives in Florida.
+    Counseling from Hodges University. Elyse lives in Kentucky.
   active: true
   order: 460
   socials:
@@ -1891,7 +1891,7 @@
   position: DevOps Engineer
   bio: >
     Chun's passionate about automating everything and creating great experiences for other engineers. He specializes in DevOps engineering, cloud computing, and security. Chun lives in Maryland.
-  active: true
+  active: false
   order: 520
   socials:
     - name: LinkedIn
