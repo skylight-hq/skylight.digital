@@ -1,7 +1,7 @@
 ---
 layout: employee_filter
-title: Amelia Wellers’ Project Work
+title: Ryan Gaddis’ Project Work
 filter_type: project
-name: amelia-wellers
+name: ryan-gaddis
 skip_index: true
 ---
