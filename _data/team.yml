@@ -2379,3 +2379,133 @@
       link: https://elfoxdesign.com
       link_description: Liz's Personal Website
       fa_icon_name: home
+- name: rin-concordia
+  fname: Rin
+  lname: Concordia
+  full_name: Rin Concordia
+  short_name: R. Concordia
+  profile_path: /company/about/#rin-concordia
+  image: /img/people/rin-concordia.jpg
+  image_description: Photo of Rin Concordia
+  position: DevOps Engineer
+  bio: >
+    Rin's a software engineer-turned-SRE, with a penchant for public service. She's a former member of the United States Air Force Auxiliary — the Civil Air Patrol — where she served as a state-level IT director and rescue aircrew member. She's currently working on building out her own digital search and rescue system as an Auxiliarist with the United States Coast Guard. Rin lives in Georgia.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/corinneconcordia/
+      link_description: Rin's LinkedIn Account
+      fa_icon_name: linkedin
+- name: alis-akers
+  fname: Alis
+  lname: Akers
+  full_name: Alis Akers
+  short_name: A. Akers
+  profile_path: /company/about/#alis-akers
+  image: /img/people/alis-akers.jpg
+  image_description: Photo of Alis Akers
+  position: DevOps Engineer
+  bio: >
+    Alis is a DevOps engineer interested in building reliable products using the latest cloud technologies to improve the lives of users. They've established integrations for patient engagement and monitoring across several large health systems and led the development of infrastructure and software pipeline requirements and tooling. They live in Oregon.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/Alismxwll
+      link_description: Alis' Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/alismx/
+      link_description: Alis' LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/alismx
+      link_description: Alis' GitHub Account
+      fa_icon_name: github
+- name: priscilla-peralta
+  fname: Priscilla 
+  lname: Peralta
+  full_name: Priscilla Peralta
+  short_name: P. Peralta
+  profile_path: /company/about/#priscilla-peralta
+  image: /img/people/priscilla-peralta.jpg
+  image_description: Photo of Priscilla Peralta
+  position: Product Designer
+  bio: >
+    Priscilla's a product designer formerly from the entertainment industry. She's drawn to creating positive change through thoughtful design and championing the user's experience. Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. Priscilla lives in California. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/priscillatperalta/
+      link_description: Priscilla's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://theeucalyptusbaby.com/
+      link_description: Priscilla's Personal Website
+      fa_icon_name: home
+- name: ryan-gaddis
+  fname: Ryan
+  lname: Gaddis
+  full_name: Ryan Gaddis
+  short_name: R. Gaddis
+  profile_path: /company/about/#ryan-gaddis
+  image: /img/people/ryan-gaddis.jpg
+  image_description: Photo of Ryan Gaddis
+  position: Product Designer
+  bio: >
+    Ryan's a designer and researcher who's ready to apply his decade of industry expertise to civic tech. He strives to make thoughtful decisions and challenge assumptions. He's also a volunteer firefighter in his community. Ryan lives in Colorado.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/ryangaddis
+      link_description: Ryan's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/ryangaddis/
+      link_description: Ryan's LinkedIn Account
+      fa_icon_name: linkedin
+- name: bryan-britten
+  fname: Bryan
+  lname: Britten
+  full_name: Bryan Britten
+  short_name: B. Britten
+  profile_path: /company/about/#bryan-britten
+  image: /img/people/bryan-britten.jpg
+  image_description: Photo of Bryan Britten
+  position: Data Engineer
+  bio: >
+    Bryan's a data engineer with a drive to work on projects that have meaningful impact. He previously worked at Meta and has built data solutions to help address issues of money laundering, financial fraud, gun violence, and disinformation campaigns. Bryan lives in Washington.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/tblznbits
+      link_description: Bryan's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/bryanbritten/
+      link_description: Bryan's LinkedIn Account
+      fa_icon_name: linkedin  
+    - name: GitHub
+      link: https://github.com/tibblesnbits
+      link_description: Bryan's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://tibblesnbits.com
+      link_description: Bryan's Personal Website
+      fa_icon_name: home
+- name: kyle-planeaux
+  fname: Kyle
+  lname: Planeaux
+  full_name: Kyle Planeaux
+  short_name: K. Planeaux
+  profile_path: /company/about/#kyle-planeaux
+  image: /img/people/kyle-planeaux.jpg
+  image_description: Photo of Kyle Planeaux
+  position: Product Manager
+  bio: >
+    Kyle's a product manager with several years of experience in the government defense space. Previously, he was a civilian product manager working for the Space Force. Kyle studied chemical engineering at the University of Southern California and is working on a graduate degree in Computer Science from Georgia Tech. He lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kyle-planeaux/
+      link_description: Kyle's LinkedIn Account
+      fa_icon_name: linkedin  
