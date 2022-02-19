@@ -2396,13 +2396,17 @@
       link: https://www.linkedin.com/in/corinneconcordia/
       link_description: Rin's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/rin-concordia/
+      link_description: Rin's Project Work
+      fa_icon_name: wrench
 - name: alis-akers
   fname: Alis
   lname: Akers
   full_name: Alis Akers
   short_name: A. Akers
   profile_path: /company/about/#alis-akers
-  image: /img/people/alis-akers.jpg
+  image: /img/people/alis-akers.png
   image_description: Illustration of Alis Akers
   position: DevOps Engineer
   bio: >
@@ -2421,6 +2425,10 @@
       link: https://github.com/alismx
       link_description: Alis' GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/alis-akers/
+      link_description: Alis' Project Work
+      fa_icon_name: wrench
 - name: priscilla-peralta
   fname: Priscilla
   lname: Peralta
@@ -2442,6 +2450,10 @@
       link: https://theeucalyptusbaby.com/
       link_description: Priscilla's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/priscilla-peralta/
+      link_description: Priscilla's Project Work
+      fa_icon_name: wrench
 - name: ryan-gaddis
   fname: Ryan
   lname: Gaddis
