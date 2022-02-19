@@ -1,7 +1,7 @@
 ---
 layout: employee_filter
-title: Amelia Wellers’ Project Work
+title: Rin Concordia’s Project Work
 filter_type: project
-name: amelia-wellers
+name: rin-concordia
 skip_index: true
 ---
