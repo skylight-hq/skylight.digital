@@ -2403,7 +2403,7 @@
   short_name: A. Akers
   profile_path: /company/about/#alis-akers
   image: /img/people/alis-akers.jpg
-  image_description: Photo of Alis Akers
+  image_description: Illustration of Alis Akers
   position: DevOps Engineer
   bio: >
     Alis is a DevOps engineer interested in building reliable products using the latest cloud technologies to improve the lives of users. They've established integrations for patient engagement and monitoring across several large health systems and led the development of infrastructure and software pipeline requirements and tooling. They live in Oregon.
@@ -2422,7 +2422,7 @@
       link_description: Alis' GitHub Account
       fa_icon_name: github
 - name: priscilla-peralta
-  fname: Priscilla 
+  fname: Priscilla
   lname: Peralta
   full_name: Priscilla Peralta
   short_name: P. Peralta
@@ -2431,7 +2431,7 @@
   image_description: Photo of Priscilla Peralta
   position: Product Designer
   bio: >
-    Priscilla's a product designer formerly from the entertainment industry. She's drawn to creating positive change through thoughtful design and championing the user's experience. Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. Priscilla lives in California. 
+    Priscilla's a product designer formerly from the entertainment industry. She's drawn to creating positive change through thoughtful design and championing the user's experience. Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. Priscilla lives in California.
   active: true
   socials:
     - name: LinkedIn
@@ -2448,8 +2448,8 @@
   full_name: Ryan Gaddis
   short_name: R. Gaddis
   profile_path: /company/about/#ryan-gaddis
-  image: /img/people/ryan-gaddis.jpg
-  image_description: Photo of Ryan Gaddis
+  image: /img/people/ryan-gaddis.png
+  image_description: Illustration of Ryan Gaddis
   position: Product Designer
   bio: >
     Ryan's a designer and researcher who's ready to apply his decade of industry expertise to civic tech. He strives to make thoughtful decisions and challenge assumptions. He's also a volunteer firefighter in his community. Ryan lives in Colorado.
@@ -2469,8 +2469,8 @@
   full_name: Bryan Britten
   short_name: B. Britten
   profile_path: /company/about/#bryan-britten
-  image: /img/people/bryan-britten.jpg
-  image_description: Photo of Bryan Britten
+  image: /img/people/bryan-britten.png
+  image_description: Illustration of Bryan Britten
   position: Data Engineer
   bio: >
     Bryan's a data engineer with a drive to work on projects that have meaningful impact. He previously worked at Meta and has built data solutions to help address issues of money laundering, financial fraud, gun violence, and disinformation campaigns. Bryan lives in Washington.
@@ -2483,7 +2483,7 @@
     - name: LinkedIn
       link: https://www.linkedin.com/in/bryanbritten/
       link_description: Bryan's LinkedIn Account
-      fa_icon_name: linkedin  
+      fa_icon_name: linkedin
     - name: GitHub
       link: https://github.com/tibblesnbits
       link_description: Bryan's GitHub Account
@@ -2508,4 +2508,4 @@
     - name: LinkedIn
       link: https://www.linkedin.com/in/kyle-planeaux/
       link_description: Kyle's LinkedIn Account
-      fa_icon_name: linkedin  
+      fa_icon_name: linkedin
