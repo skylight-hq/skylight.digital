@@ -121,7 +121,7 @@ Our team focused on continually improving the tool by:
 - Developing a new patient experience feature for the product, allowing patients to complete their own pre-screening questions, thereby providing improved privacy for patients and more complete data for health departments
 - Building out the app's mobile experience
 - Redesigning the account creation, login, and password reset experience to massively speed up the onboarding process
-- Evolving the application to ease reporting that faciliites need to do beyond public health, including one-click results download and an analytics dashboard
+- Evolving the tool to ease reporting that faciliites need to do beyond public health, including one-click results download and an analytics dashboard
 - Providing research and content support to ReportStream, a cloud-based data routing and cleaning tool, to improve the experience onboarding new states to the product
 - Supporting PRIME-wide communications by creating messages and tools they can use to frame the problem and position their solutions with a broader audience
 
