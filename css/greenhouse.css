@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto+Mono&display=swap");
+
+html {
+  font-size: 16px;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h1,
+#board_title {
+  display: none;
+}
+
+section:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+#main,
+#wrapper {
+  padding-bottom: 0;
+}
+
+#wrapper {
+  padding: 0 !important;
+}
+.opening a {
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  color: #1d5392;
+  border-bottom: 1px dashed #1d5392;
+}
+
+.span.location::before {
+  content: url("https://github.com/skylight-hq/skylight.digital/blob/master/_includes/icons/join/globe-na.svg");
+  height: 25px;
+  width: 18px;
+}
+.location {
+  color: #54565a;
+  font-size: 0.95rem;
+}
