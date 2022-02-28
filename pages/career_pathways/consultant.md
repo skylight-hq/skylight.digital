@@ -72,7 +72,7 @@ You provide support and leadership for your client and your team. You inspire a 
 
 You understand that the most effective business development is to provide a good experience and do excellent client delivery. You ensure clients are heard and that their needs are met. You contribute to the bid and proposal process. You're a critical thinker and have an entrepreneurial mindset.
 
-## Content designer career pathway
+## Consultant career pathway
 
 ### Level I
 
