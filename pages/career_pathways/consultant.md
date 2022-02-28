@@ -16,7 +16,7 @@ levels:
  - III
 ---
 
-Skylight is a digital consultancy. As such, everyone is expected to have expertise in consulting in addition to their primary role (e.g., software engineer or product designer). You’ll progress from a Level I consultant to a Level III consultant, much like you progress from an associate to senior in your primary career field. 
+Skylight is a digital consultancy. As such, everyone is expected to have expertise in consulting in addition to their primary role (e.g., product designer, software engineer). You’ll progress from a Level I consultant to a Level III consultant, much like you progress from an associate to senior in your primary career field. 
 
 As a team member, you apply your unique skills to the problem your team is trying to solve. As a consultant, you make sure to build trust and credibility with your clients, so that you can get buy-in and enable them to do their best work. You’re knowledgeable about change management and digital transformation practices. 
 
