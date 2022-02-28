@@ -76,7 +76,7 @@ You understand that the most effective business development is to provide a good
 
 ### Level I
 
-{% include role_level.html level='level I' %}
+{% include role_level.html level='I' %}
 
 As a new consultant, you're professional and articulate. You prepare for client interactions, react professionally to changes, and adapt accordingly. You have demonstrated that you’re a problem solver and proficient communicator. You display empathy in the workplace. 
 
@@ -132,7 +132,7 @@ You deliver exceptional client experiences that establish Skylight as a trusted 
 
 ### Level II
 
-{% include role_level.html level='level II' %}
+{% include role_level.html level='II' %}
 
 You're an experienced consultant that has worked on multiple client engagements. You have a proven ability to build trust with clients and your teammates. You're proficient in mentoring others.
 
@@ -190,7 +190,7 @@ You're aware of a client's progress in their digital transformation and are able
 
 ### Level III
 
-{% include role_level.html level='level III' %}
+{% include role_level.html level='III' %}
 
 As an advanced consultant, you have provided transformational change at multiple levels of a client organization. You're a servant leader on your team and within the organization. You bring smart outside perspectives to offer strategic and tactical improvements to a client organization. 
 
