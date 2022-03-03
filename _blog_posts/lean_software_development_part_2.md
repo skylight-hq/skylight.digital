@@ -103,7 +103,7 @@ Lean software development practitioners have identified the seven most common ty
 Why is limiting work in progress so important to the economics of creating software? Let’s use a simplified example. Suppose we have four new software capabilities our team needs to deliver to eager users. How should we think about delivering it? What are our options? In the video below, we explain why lean software development focuses on limiting work in progress:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=PsG4V2n_yw4" 
-target="_blank"><img src="/img/blog/lean_software_development/lean-software-development-video.svg"
+target="_blank"><img src="/img/blog/lean_software_development/lean-software-development-video.png"
 alt="Limiting work in progress through lean software development" width="560" height="315" border="0" /></a>
 
 In my experience, work in progress is often the largest source of waste, but each team is going to create waste in these seven areas in different amounts and in different ways. Lean software teams are focused on continual improvement to eliminate waste, however and wherever it occurs. This focus on waste reduction and elimination isn’t a principal focus of most agile software teams.
