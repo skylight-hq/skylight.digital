@@ -39,6 +39,18 @@ If an acronym is necessary for future reference, spell the full word and follow 
 
 If the abbreviation or acronym is well known, like NASA, NAACP, or FBI, use it instead (and don’t worry about spelling it out).
 
+If abbreviating a term that’s possessive, don’t include the possessive _s_.
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+The U.S. Air Force's (USAF) Business Enterprise Systems Product INnovation (BESPIN)
+
+#### No
+{: .fails }
+The U.S. Air Force's (USAF’s) Business Enterprise Systems Product INnovation (BESPIN)
+</div>
+
 At the writer’s discretion, refer to organizations on second reference with a shortened name instead of an acronym. For example, use Labor in place of Department of Labor, rather than DOL.
 
 Don’t use periods between letters in an acronym (NOC instead of N.O.C.).
