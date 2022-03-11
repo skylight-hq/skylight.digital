@@ -38,9 +38,22 @@
   margin-bottom: 1.5rem;
   margin-top: 27px;
   padding-left: 0 !important;
+  position: relative;
 
   @media screen and (max-width: 360px) {
     display: none;
+  }
+
+  &::after {
+    @media screen and (min-width: 410px) {
+      position: absolute;
+      content: "";
+      border-bottom: 2px solid $gray-20;
+      width: 90%;
+      top: 1rem;
+      left: 5%;
+      z-index: 2;
+    }
   }
 }
 
@@ -54,6 +67,10 @@
   padding-bottom: 0 !important;
   padding-left: 0 !important;
 
+  &:first-of-type, &:last-of-type {
+    flex: 0 1 0%;
+  }
+
   &::before {
     position: absolute;
     content: "" !important;
@@ -61,18 +78,6 @@
     top: 1.25rem;
     left: -50%;
     z-index: 2;
-  }
-
-  &::after {
-    @media screen and (min-width: 410px) {
-      position: absolute;
-      content: "";
-      border-bottom: 2px solid $gray-20;
-      width: 100%;
-      top: 1rem;
-      left: 50%;
-      z-index: 2;
-    }
   }
 
   &[aria-current="true"] {
@@ -86,25 +91,9 @@
     .step-name {
       color: $green-300;
     }
-
-    &::after {
-      @media screen and (min-width: 410px) {
-        position: absolute;
-        content: "";
-        border-bottom: 2px solid $green-40;
-        width: 100%;
-        top: 1rem;
-        left: 50%;
-        z-index: 3;
-      }
-    }
   }
 
-  &:first-child::before {
-    content: none;
-  }
-
-  &:last-child::after {
+  &:first-child::before, &:last-child::after {
     content: none;
   }
 }
