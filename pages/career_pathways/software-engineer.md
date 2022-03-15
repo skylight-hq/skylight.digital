@@ -120,7 +120,7 @@ You're aware of some design patterns and have a basic understanding of full-stac
 
 You ensure user needs are considered when implementing new features. You collaborate with user researchers and know how to read the outputs of user research.
 
-### Software Engineer II
+### Software engineer II
 
 {% include role_level.html level='II' %}
 
@@ -156,7 +156,7 @@ You can build and test simple interfaces and APIs between systems or provide inp
 
 You collaborate closely with product managers, researchers, and product designers to ensure the product meets user and organizational needs. With some help, you can translate user research into an actionable technical plan. You’re able to consistently build accessible interfaces.
 
-### Senior Software Engineer
+### Senior software engineer
 
 {% include role_level.html level='senior' %}
 
@@ -202,7 +202,7 @@ You're beginning to design larger and more complex systems and application progr
 
 You work to ensure others on your team are maintaining user focus. You regularly provide feedback and call attention to user experience in code reviews.
 
-### Staff Software Engineer
+### Staff software engineer
 
 {% include role_level.html level='staff' %}
 
@@ -241,7 +241,7 @@ You're able to design large, complex systems and APIs that may span multiple pro
 
 You work across projects to ensure user focus and accessibility is maintained across the entire application or suite of applications.
 
-### Principal Software Engineer
+### Principal software engineer
 
 {% include role_level.html level='principal' %}
 

@@ -41,7 +41,7 @@ technologies:
   - MURAL
   - Respondent
   - React in TypeScript with Apollo
-  - Nightwatch
+  - Cypress
   - Lighthouse
   - Java / Spring Boot
   - GraphQL
