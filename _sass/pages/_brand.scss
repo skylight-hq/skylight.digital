@@ -230,7 +230,17 @@
   .burger span,
   .burger span:before,
   .burger span:after {
-    background: white;
+    background: white !important;
+  }
+
+  .navbar-toggler[aria-expanded="true"] {
+    .burger {
+      &:hover {
+        span {
+          background-color: transparent !important;
+        }
+      }
+    }
   }
 
   @include media-breakpoint-down(lg) {
