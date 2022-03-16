@@ -67,6 +67,11 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 [Product manager](/careers/career-pathways/product-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
     
+### General
+{: .heading-mono .mt-6 }
+[Consultant](/careers/career-pathways/consultant/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }    
+
 ## Attribution
 {: .mt-7 }
 Parts of this content are based on GOV.UK’s [Digital, Data and Technology Profession Capability Framework](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework), which is licensed under the [Open Government License v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
