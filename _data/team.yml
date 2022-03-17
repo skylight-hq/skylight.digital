@@ -51,7 +51,7 @@
   profile_path: /company/about/#sean-johnson
   image: /img/people/sean-johnson.jpg
   image_description: Photo of Sean Johnson
-  position: Software Engineer
+  position: Principal Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
     IBM. He's been programming since he was six years old, and specializes in
@@ -283,7 +283,7 @@
   profile_path: /company/about/#nick-bristow
   image: /img/people/nick-bristow.jpg
   image_description: Photo of Nick Bristow
-  position: Software Engineer
+  position: Staff Software Engineer
   bio: >
     Nick's a former member of 18F, who relentlessly pursues creating
     products that are fully accessible and meet the needs of all
@@ -316,7 +316,7 @@
   profile_path: /company/about/#victor-zapanta
   image: /img/people/victor-zapanta.jpg
   image_description: Photo of Victor Zapanta
-  position: Research & Design Practice Lead
+  position: Principal User Researcher
   bio: >
     Victor co-founded the Consumer Financial Protection Bureau's Design+Tech team,
     and served as a member of 18F. His design leadership spans multiple high-profile
@@ -509,7 +509,7 @@
   profile_path: /company/about/#andrew-wagner
   image: /img/people/andrew-wagner.jpg
   image_description: Photo of Andrew Wagner
-  position: Software Engineer
+  position: Staff Software Engineer
   bio: >
     Andrew's a polyglot software engineer, with a passion for delivering
     technical excellence. He's worked in the govtech space his entire career,
@@ -567,7 +567,7 @@
   profile_path: /company/about/#brandon-mader
   image: /img/people/brandon-mader.jpg
   image_description: Photo of Brandon Mader
-  position: Data Scientist
+  position: Data Scientist II
   bio: >
     Brandon loves using data for public good. He specializes in data science,
     data engineering, and software engineering. Brandon graduated from Dartmouth
@@ -592,7 +592,7 @@
   profile_path: /company/about/#becca-bartola
   image: /img/people/becca-bartola.jpg
   image_description: Photo of Becca Bartola
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Becca's a former Etsy designer, with a passion for creating positive change
     through great user experiences. She specializes in user research, user experience
@@ -620,7 +620,7 @@
   profile_path: /company/about/#laura-king
   image: /img/people/laura-king.jpg
   image_description: Photo of Laura King
-  position: Service Designer
+  position: Staff User Researcher
   bio: >
     Laura's a researcher, strategist, and designer. She loves to solve
     complex problems by empathizing with and understanding the needs of users.
@@ -1106,7 +1106,7 @@
   profile_path: /company/about/#peggy-chau
   image: /img/people/peggy-chau.jpg
   image_description: Photo of Peggy Chau
-  position: User Researcher
+  position: Senior User Researcher
   bio: >
     Peggy's a researcher and designer who transitioned from clinical
     neuroscience research. She's worked on various projects, from researching
@@ -1135,7 +1135,7 @@
   profile_path: /company/about/#zack-gehin
   image: /img/people/zack-gehin.jpg
   image_description: Photo of Zack Gehin
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Zack's certified in UX by the Nielsen Norman Group and specializes in complex
     application design. His entrepreneurial spirit adds a unique approach towards
@@ -1192,7 +1192,7 @@
   profile_path: /company/about/#nick-clyde
   image: /img/people/nick-clyde.jpg
   image_description: Photo of Nick Clyde
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Nick's a software engineer with a passion for using technology to solve the
     right kinds of problems. He especially enjoys building APIs, designing and
@@ -1247,7 +1247,7 @@
   profile_path: /company/about/#charlye-tran
   image: /img/people/charlye-tran.jpg
   image_description: Photo of Charlye Tran
-  position: Service Designer
+  position: Senior Product Manager
   bio: >
     Charlye loves to solve complex problems. As a former software and data engineer, she now
     specializes in service design and product management and is certified in UX by the Nielsen Norman
@@ -1271,7 +1271,7 @@
   profile_path: /company/about/#tomi-obikunle
   image: /img/people/tomi-obikunle.jpg
   image_description: Photo of Tomi Obikunle
-  position: User Researcher
+  position: User Researcher II
   bio: >
     Tomi’s a researcher who strives to meet and honor people where they are.
     Previously, she studied human development and led hands-on engineering
@@ -1363,7 +1363,7 @@
   profile_path: /company/about/#elisa-lee
   image: /img/people/elisa-lee.jpg
   image_description: Photo of Elisa Lee
-  position: Software Engineer
+  position: Software Engineer II
   bio: >
     Elisa's a software engineer with a desire to use technology to support positive
     change in communities. They previously worked in the developer tools,
@@ -1563,7 +1563,7 @@
   profile_path: /company/about/#lucas-newman
   image: /img/people/lucas-newman.png
   image_description: Illustration of Lucas Newman
-  position: Software Engineer
+  position: Software Engineer II
   bio: >
     Lucas is a software engineer with an unflinching faith in the ethical potential of
     technology to solve big societal problems. He specializes in mobile application
@@ -1591,7 +1591,7 @@
   profile_path: /company/about/#kenny-nieh
   image: /img/people/kenny-nieh.jpg
   image_description: Photo of Kenny Nieh
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Kenny's a product designer, inclusive systems thinker, and people person.
     They work through the whole gamut of product design to create experiences that
@@ -1635,7 +1635,7 @@
   profile_path: /company/about/#rebecca-lubitzmarchena
   image: /img/people/rebecca-lubitzmarchena.jpg
   image_description: Photo of Rebecca Lubitz-Marchena
-  position: Content Designer
+  position: Staff Content Designer
   bio: >
     Rebecca's a content designer with a background in product marketing,
     UX writing, and localization. She enjoys turning complex concepts into plain
@@ -1752,7 +1752,7 @@
   profile_path: /company/about/#gianna-buda
   image: /img/people/gianna-buda.jpg
   image_description: Photo of Gianna Buda
-  position: Software Engineer
+  position: Software Engineer I
   bio: >
     Gianna's a software engineer who's passionate about leveraging technology
     and partnering with communities to improve the lives of others. She was a 2018 Civic Digital
@@ -1803,7 +1803,7 @@
   profile_path: /company/about/#jesse-skeets
   image: /img/people/jesse-skeets.png
   image_description: Illustration of Jesse Skeets
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Jesse's a software engineer with a background in federal health. He enjoys all aspects of
     software development and loves solving inefficiencies while building secure and robust
@@ -1910,7 +1910,7 @@
   profile_path: /company/about/#nicole-wright
   image: /img/people/nicole-wright.jpg
   image_description: Photo of Nicole Wright
-  position: Product Manager
+  position: Senior Product Manager
   bio: >
     Nicole's a product manager, who's drawn to delivering products that help people. Most recently, she worked with the Air Force's Kessel Run program to modernize in-air refueling planning and platform development. Nicole lives in Washington.
   active: true
@@ -1932,7 +1932,7 @@
   profile_path: /company/about/#tiffany-nieh
   image: /img/people/tiffany-nieh.jpg
   image_description: Photo of Tiffany Nieh
-  position: Product Designer
+  position: Staff Product Designer
   bio: >
     Tiffany's a product designer who loves understanding people's needs and creating solutions that have a positive impact. Most recently, she worked at Pivotal Labs / VMware Tanzu where she helped startups, large enterprises, and government organizations build software using modern practices. Tiffany lives in California.
   active: true
@@ -1990,7 +1990,7 @@
   profile_path: /company/about/#nathan-carter
   image: /img/people/nathan-carter.jpg
   image_description: Photo of Nathan Carter
-  position: Software Engineer
+  position: Software Engineer II
   bio: >
     Nathan's a software engineer driven by building digital services for public good. Prior to becoming an engineer, he ran his own bakery. Nathan lives in North Carolina.
   active: true
@@ -2078,7 +2078,7 @@
   profile_path: /company/about/#ashton-tu
   image: /img/people/ashton-tu.jpg
   image_description: Photo of Ashton Tu
-  position: Product Designer Apprentice
+  position: Product Designer I
   bio: >
     Ashton's a product designer, who recently graduated from the University of Southern California. As a 2020 Civic Digital Fellow with the General Services Administration, she discovered her passion for civic tech. Ashton lives in California.
   active: true
@@ -2122,7 +2122,7 @@
   profile_path: /company/about/#tim-niehoff
   image: /img/people/tim-niehoff.jpg
   image_description: Photo of Tim Niehoff
-  position: Product Manager
+  position: Staff Product Manager
   bio: >
     Tim's a seasoned product manager with a passion for building small, releasing early, and iterating often. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped transform the way startups and large enterprises build software. Tim lives in Illinois.
   active: true
@@ -2140,7 +2140,7 @@
   profile_path: /company/about/#pri-kiser
   image: /img/people/pri-kiser.jpg
   image_description: Photo of Pri Kiser
-  position: Product Designer
+  position: Staff Product Designer
   bio: >
     Pri's a product designer who draws on her background in neuroscience and human-computer interaction to create delightful user experiences. She previously worked at Pivotal Labs / VMware Tanzu where she built high-impact products and scaled design practices across various types of organizations. Pri lives in Texas.
   active: true
@@ -2158,7 +2158,7 @@
   profile_path: /company/about/#taylor-curtiss
   image: /img/people/taylor-curtiss.jpg
   image_description: Photo of Taylor Curtiss
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Taylor's passionate about improving government services through user-centered design. She’s an Air Force veteran and most recently worked as a product designer at Kessel Run. Taylor specializes in research, design, strategic thinking, and building high-performing teams. She lives in Massachusetts.
   active: true
@@ -2184,7 +2184,7 @@
   profile_path: /company/about/#laura-kerry
   image: /img/people/laura-kerry.jpg
   image_description: Photo of Laura Kerry
-  position: Content Designer
+  position: Senior Content Designer
   bio: >
     Laura's a content designer who specializes in content strategy, design, operations, and governance. She loves distilling complex information into human-centered content, and enjoys empowering others to do the same. Most recently, Laura worked at the NYC Mayor's Office for Economic Opportunity. She lives in Hawaii.
   active: true
@@ -2206,7 +2206,7 @@
   profile_path: /company/about/#emma-stephenson
   image: /img/people/emma-stephenson.jpg
   image_description: Photo of Emma Stephenson
-  position: Software Engineer
+  position: Staff Software Engineer
   bio: >
     Emma's a software engineer with a passion for creating user-centered products. She previously worked at Google, and is experienced in a number of different technical areas, including APIs, microservices, and DevOps. Emma lives in California.
   active: true
@@ -2249,7 +2249,7 @@
   profile_path: /company/about/#sarah-tress
   image: /img/people/sarah-tress.jpg
   image_description: Photo of Sarah Tress
-  position: Product Designer
+  position: Product Designer I
   bio: >
     Sarah's an engineer and social scientist who loves to work at the intersection of technology and public service. She recently graduated from Oxford with a Master's in Development Studies as a Rhodes Scholar after studying Mechanical Engineering at MIT. Sarah lives in New York.
   active: true
@@ -2274,7 +2274,7 @@
   profile_path: /company/about/#gordon-farrell
   image: /img/people/gordon-farrell.jpg
   image_description: Photo of Gordon Farrell
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Gordon’s a software engineer specializing in government tech. He built his career in civil service with the Department of Defense, where he focused on software modernization in the U.S. Air Force's Kessel Run program. Gordon's a champion for automated testing, high cadence CI/CD, and working directly with users to provide great software. Gordon lives in Colorado.
   active: true
@@ -2295,7 +2295,7 @@
   profile_path: /company/about/#jennifer-herzberg
   image: /img/people/jennifer-herzberg.jpg
   image_description: Photo of Jennifer Herzberg
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Jennifer’s a product designer who specializes in user-centered design. Previously, she led design at early- to mid-stage stage startups in the healthcare, education, and real estate industries. Jennifer studied Cognitive Science with a specialization in Human-Computer Interaction at UC San Diego. She lives in California.
   active: true
@@ -2324,7 +2324,7 @@
   profile_path: /company/about/#sarah-george-hager
   image: /img/people/sarah-george-hager.jpg
   image_description: Photo of Sarah George Hager
-  position: Software Engineer
+  position: Software Engineer II
   bio: >
     George’s an engineer who enjoys building software that makes life easier, more equitable, and delightful. She specializes in full-stack software engineering and test-driven development, and loves developing best practices on engineering teams. George previously worked with the U.S. Air Force's Kessel Run program. She lives in Massachusetts.
   active: true
@@ -2345,7 +2345,7 @@
   profile_path: /company/about/#david-mcclatchey
   image: /img/people/david-mcclatchey.jpg
   image_description: Photo of David McClatchey
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     David's a software engineer who strives to create simple and robust solutions to complex problems. He's most recently worked at Home Depot where he helped migrate its product data to the cloud and built highly-visible APIs from that data. David lives in Georgia.
   active: true
@@ -2366,7 +2366,7 @@
   profile_path: /company/about/#liz-fox
   image: /img/people/liz-fox.jpg
   image_description: Photo of Liz Fox
-  position: Product Designer
+  position: Staff Product Designer
   bio: >
     Liz's a product designer and user researcher. Most recently, she worked on mobile products and design systems at Salesforce. She's passionate about building technology in service of the people who use it. Liz lives in Wisconsin.
   active: true
@@ -2387,7 +2387,7 @@
   profile_path: /company/about/#rin-concordia
   image: /img/people/rin-concordia.jpg
   image_description: Photo of Rin Concordia
-  position: DevOps Engineer
+  position: Staff DevOps Engineer
   bio: >
     Rin's a software engineer-turned-SRE, with a penchant for public service. She's a former member of the United States Air Force Auxiliary — the Civil Air Patrol — where she served as a state-level IT director and rescue aircrew member. She's currently working on building out her own digital search and rescue system as an Auxiliarist with the United States Coast Guard. Rin lives in Illinois.
   active: true
@@ -2408,7 +2408,7 @@
   profile_path: /company/about/#alis-akers
   image: /img/people/alis-akers.png
   image_description: Illustration of Alis Akers
-  position: DevOps Engineer
+  position: Senior DevOps Engineer
   bio: >
     Alis is a DevOps engineer interested in building reliable products using the latest cloud technologies to improve the lives of users. They've established integrations for patient engagement and monitoring across several large health systems and led the development of infrastructure and software pipeline requirements and tooling. They live in Oregon.
   active: true
@@ -2437,7 +2437,7 @@
   profile_path: /company/about/#priscilla-peralta
   image: /img/people/priscilla-peralta.jpg
   image_description: Photo of Priscilla Peralta
-  position: Product Designer
+  position: Product Designer I
   bio: >
     Priscilla's a product designer formerly from the entertainment industry. She's drawn to creating positive change through thoughtful design and championing the user's experience. Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. Priscilla lives in California.
   active: true
@@ -2462,7 +2462,7 @@
   profile_path: /company/about/#ryan-gaddis
   image: /img/people/ryan-gaddis.png
   image_description: Illustration of Ryan Gaddis
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Ryan's a designer and researcher who's ready to apply his decade of industry expertise to civic tech. He strives to make thoughtful decisions and challenge assumptions. He's also a volunteer firefighter in his community. Ryan lives in Colorado.
   active: true
@@ -2512,7 +2512,7 @@
   profile_path: /company/about/#kyle-planeaux
   image: /img/people/kyle-planeaux.jpg
   image_description: Photo of Kyle Planeaux
-  position: Product Manager
+  position: Senior Product Manager
   bio: >
     Kyle's a product manager with several years of experience in the government defense space. Previously, he was a civilian product manager working for the Space Force. Kyle studied chemical engineering at the University of Southern California and is working on a graduate degree in Computer Science from Georgia Tech. He lives in California.
   active: true
