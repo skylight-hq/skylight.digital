@@ -16,15 +16,15 @@ Adhering to certain rules of grammar and mechanics helps us keep our writing cle
 
 Here are some guiding principles:
 
-* **Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
+- **Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
 
-* **Focus your message.** Create a hierarchy of information. Lead with the main point or the most important content, in sentences, paragraphs, sections, and pages.
+- **Focus your message.** Create a hierarchy of information. Lead with the main point or the most important content, in sentences, paragraphs, sections, and pages.
 
-* **Be concise.** Use short words and sentences. Avoid unnecessary modifiers.
+- **Be concise.** Use short words and sentences. Avoid unnecessary modifiers.
 
-* **Be specific.** Avoid vague language. Cut the fluff.
+- **Be specific.** Avoid vague language. Cut the fluff.
 
-* **Be consistent.** Stick to the copy patterns and style points outlined in this guide.
+- **Be consistent.** Stick to the copy patterns and style points outlined in this guide.
 
 ## Abbreviations and acronyms
 
@@ -47,8 +47,10 @@ If abbreviating a term that’s possessive, don’t include the possessive _s_.
 The U.S. Air Force's (USAF) Business Enterprise Systems Product INnovation (BESPIN)
 
 #### No
+
 {: .fails }
 The U.S. Air Force's (USAF’s) Business Enterprise Systems Product INnovation (BESPIN)
+
 </div>
 
 At the writer’s discretion, refer to organizations on second reference with a shortened name instead of an acronym. For example, use Labor in place of Department of Labor, rather than DOL.
@@ -63,8 +65,10 @@ Don’t use the abbreviation “etc.” (etcetera) redundantly. If you are start
 There are many types of donuts (glazed, powder, chocolate, etc.).
 
 #### No
+
 {: .fails }
 There are many types of donuts (e.g., glazed, powder, chocolate, etc.).
+
 </div>
 
 ## Active voice
@@ -79,8 +83,10 @@ In active voice, the subject of the sentence does the action. In passive voice, 
 Marti logged into the account.
 
 #### No
+
 {: .fails }
 The account was logged into by Marti.
+
 </div>
 
 Words like “was” and “by” may indicate that you’re writing in a passive voice. Scan for these words and rework sentences where they appear.
@@ -107,11 +113,14 @@ Title case capitalizes the first letter of every word except articles, prepositi
 Skylight Content Guide
 
 #### No
+
 {: .fails }
 Skylight content guide
+
 </div>
 
 ### Sentence case
+
 In general, we use sentence case. Sentence case capitalizes the first letter of the first word. This includes headings and subheadings.
 
 <div class="example" markdown="1">
@@ -120,16 +129,18 @@ In general, we use sentence case. Sentence case capitalizes the first letter of 
 About this guide
 
 #### No
+
 {: .fails }
 About this Guide
+
 </div>
 
 Other capitalization guidelines:
 
-* Do capitalize proper nouns, including names of individuals, places, and agencies. The main feature of a proper noun is that it names a specific one-of-a-kind item. Use your discretion and context to determine whether to capitalize a word as a proper noun.
-* Don’t capitalize “agile,” unless it's the first word of a sentence.
-* Don’t capitalize “open source,” unless it's the first word of a sentence.
-* Don’t capitalize “federal” or “government.”
+- Do capitalize proper nouns, including names of individuals, places, and agencies. The main feature of a proper noun is that it names a specific one-of-a-kind item. Use your discretion and context to determine whether to capitalize a word as a proper noun.
+- Don’t capitalize “agile,” unless it's the first word of a sentence.
+- Don’t capitalize “open source,” unless it's the first word of a sentence.
+- Don’t capitalize “federal” or “government.”
 
 For more, see the [word list](/work/toolkits/content-guide/word-list/).
 
@@ -183,11 +194,12 @@ Numbers over three digits get commas.
 If you’re wrangling a lot of numbers, tables can help you visualize that content. Long paragraphs cluttered with numbers or dates are more difficult to scan than, for example:
 
 | Report type                | Dates covered         | Due        |
-|----------------------------|-----------------------|------------|
+| -------------------------- | --------------------- | ---------- |
 | Quarterly (Form 3, 3Z, 3L) | January 1–March 31    | April 15   |
 |                            | April 1–June 30       | July 15    |
 |                            | July 1–September 30   | October 15 |
 |                            | October 1–December 31 | January 31 |
+
 {: .post-table}
 
 ### Dates
@@ -211,8 +223,10 @@ Spell out fractions.
 two-thirds
 
 #### No
+
 {: .fails }
 2/3
+
 </div>
 
 Use decimal points when a number can’t be easily written out as a fraction.
@@ -250,9 +264,11 @@ When writing about other currencies, follow the same symbol-amount format.
 
 Generally, start numbering on the first page. On rare occasions, such as in a formal client report, you may choose to start numbering after the title page.
 
-See the {% include lock_link.html
+See the document here:
+{% include lock_link.html
   text="Skylight Document Style Guide"
-  url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"%} for direct guidance on how to style page numbers.
+  url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
+%} for direct guidance on how to style page numbers.
 
 ### Percentages
 
@@ -280,7 +296,6 @@ Use dashes without spaces between numbers. Use a country code if your reader is 
 * 555-867-5309
 * +1-404-123-4567
 </div>
-
 
 ### Temperature
 
@@ -382,7 +397,6 @@ Erin ordered three kinds of donuts: glazed, chocolate, and pumpkin.
 
 You can also use a colon to join two related phrases. If a complete sentence follows the colon, capitalize the first word.
 
-
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
@@ -399,8 +413,10 @@ When writing a list, use the serial comma (also known as the Oxford comma).
 David admires his parents, Oprah, and Justin Timberlake.
 
 #### No
+
 {: .fails }
 David admires his parents, Oprah and Justin Timberlake.
+
 </div>
 
 Otherwise, use common sense. If you’re unsure, read the sentence out loud. Where you find yourself taking a breath, use a comma.
@@ -415,8 +431,10 @@ Use a hyphen (-) to denote a compound adjective that comes before the noun it’
 Heavy-metal detector
 
 #### No
+
 {: .fails }
 Heavy metal detector
+
 </div>
 
 Hyphens join the relevant words into a single idea (for example, a “heavy-metal detector” detects heavy metals). By contrast, a “heavy metal detector” refers to a metal detector that is heavy.
@@ -529,8 +547,10 @@ If required in the body of the text, avoid spaces before or after slashes.
 and/or
 
 #### No
+
 {: .fails }
 and/ or
+
 </div>
 
 In titles, subheadings, tables, and interface labels, add a space before and after the slash. We do this to promote ease of reading and scannability.
@@ -541,8 +561,10 @@ In titles, subheadings, tables, and interface labels, add a space before and aft
 JavaScript / React
 
 #### No
+
 {: .fails }
 JavaScript/React
+
 </div>
 
 ## People, places, and things
@@ -584,7 +606,7 @@ Capitalize the names of departments and teams (but not the word "team" or "depar
 * Support department
 </div>
 
-Capitalize individual job titles when referencing a specific role used directly before an individual’s name.  Don't capitalize when referring to the role in general terms.
+Capitalize individual job titles when referencing a specific role used directly before an individual’s name. Don't capitalize when referring to the role in general terms.
 
 <div class="example" markdown="1">
 #### Yes
@@ -637,10 +659,12 @@ Avoid using formal or long words when easy or short ones will do.
 * about
 
 #### No
+
 {: .fails }
-* purchase
-* assist
-* approximately
+
+- purchase
+- assist
+- approximately
 </div>
 
 ### States, cities, and countries
@@ -682,8 +706,10 @@ Use positive language rather than negative language whenever possible. One way t
 To get a donut, stand in line.
 
 #### No
+
 {: .fails }
 You can’t get a donut if you don’t stand in line.
+
 </div>
 
 ### Writing about Skylight
@@ -706,10 +732,12 @@ Honor companies’ own names for themselves and their products. Go by what’s u
 * Yahoo!
 
 #### No
+
 {: .fails }
-* Ipad
-* Youtube
-* Yahoo
+
+- Ipad
+- Youtube
+- Yahoo
 </div>
 
 Refer to a company or product as “it” (not “they”).
