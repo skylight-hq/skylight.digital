@@ -258,3 +258,14 @@ We write for humans, not machines. We don't use gross SEO techniques like keywor
 * Use descriptive headings to structure your page and highlight important information.
 * Give every image descriptive `alt` text.
 * Make sure we have metadata for all the pages we’re creating.
+
+### Meta descriptions
+
+A meta description is an HTML element that gives a short summary of what a given page is about. Search engines will often use meta descriptions to generate search snippets in results pages, providing search engine users a preview of what they’ll find on your page.
+
+Search engines typically truncate meta descriptions that exceed 160 characters (including spaces). In other words, you have about two sentences worth of space to write your meta description. Keep your descriptions between 100 and 155 characters.
+
+### Meta keywords 
+
+Most major search engines don’t use meta keywords for SEO, so you don’t need to use them as part of our web content.
+
