@@ -149,6 +149,11 @@ Organize headings and subheadings hierarchically, with headings first, followed 
 * Headings (`H1`) give people a taste of what they’re about to read. Use them for page and blog titles.
 * Subheadings (`H2`, `H3`, etc.) break articles into smaller, more specific sections. They give readers avenues into your content and make it more scannable.
 
+Skylight has a {% include lock_link.html
+  text="Document Style Guide"
+  url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
+%} with our standard sizing and colors to use for headings and subheadings.
+
 ### Line breaks
 
 When inserting a line break, you’ll want to maintain a balance between appropriate line length and effectively communicating your idea. Generally, you should avoid breaking apart a linguistic "whole" or "unit," (e.g., splitting apart an adjective and the noun that it refers to), which can interfere with intended meaning.
