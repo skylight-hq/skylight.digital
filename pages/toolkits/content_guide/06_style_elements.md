@@ -250,10 +250,9 @@ When writing about other currencies, follow the same symbol-amount format.
 
 Generally, start numbering on the first page. On rare occasions, such as in a formal client report, you may choose to start numbering after the title page.
 
-See the <div class="row brand__content-section"> <div class="col-md-8" markdown="1">{% include lock_link.html
+See the {% include lock_link.html
   text="Skylight Document Style Guide"
-  url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
-%}{: .mb-1 } for direct guidance on how to style page numbers.
+  url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"%} for direct guidance on how to style page numbers.
 
 ### Percentages
 
