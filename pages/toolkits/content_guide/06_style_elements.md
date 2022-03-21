@@ -105,7 +105,7 @@ We use a few different forms of capitalization depending on the context. This in
 
 ### Title case
 
-Title case capitalizes the first letter of every word except articles, prepositions, and conjunctions. We use title case only in certain circumstances, such as the main title of a document or a file name.
+Title case capitalizes the first letter of every word except articles, prepositions, and conjunctions. We use title case only in certain circumstances, such as the main title of a document or a filename.
 
 <div class="example" markdown="1">
 #### Yes
