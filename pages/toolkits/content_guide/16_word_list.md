@@ -71,6 +71,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **federal government,** not Federal Government or Federal government.
 
+**filename,** not file name.
+
 **fiscal year** is lowercase. It’s okay to abbreviate as FY on the second reference.
 
 **front end,** when used as a noun.
@@ -95,6 +97,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **internet,** don’t capitalize unless it begins a sentence.
 
+**Internet of Things (IoT)** is considered a proper noun. Use **IoT** on subsequent references.
+
 ## J
 
 **JavaScript**
@@ -104,6 +108,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **kanban**
 
 ## L
+
+**life cycle,** not lifecycle. For example, “project life cycle.”
 
 **login** when used as a noun, for example, “I forgot my login name and password,” or when used as an adjective, for example “Make sure the login page is 508 complaint.”
 
