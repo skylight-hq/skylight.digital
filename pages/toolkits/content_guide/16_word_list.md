@@ -31,6 +31,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **back-end,** when used as an adjective. For example, “back-end development.”
 
+**bid & proposal,** when singular and **bids & proposals** when plural. It’s not bid & proposals when in the plural form.
+
 ## C
 
 **Congress** refers to the U.S. Senate and House of Representatives.
