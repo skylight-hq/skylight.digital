@@ -253,7 +253,7 @@ Generally, start numbering on the first page. On rare occasions, such as in a fo
 See the <div class="row brand__content-section"> <div class="col-md-8" markdown="1">{% include lock_link.html
   text="Skylight Document Style Guide"
   url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
-%} for direct guidance on how to style page numbers.
+%}{: .mb-1 } for direct guidance on how to style page numbers.
 
 ### Percentages
 
