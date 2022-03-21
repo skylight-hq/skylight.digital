@@ -264,7 +264,7 @@ When writing about other currencies, follow the same symbol-amount format.
 
 Generally, start numbering on the first page. On rare occasions, such as in a formal client report, you may choose to start numbering after the title page.
 
-See the document here:
+See the
 {% include lock_link.html
   text="Skylight Document Style Guide"
   url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
