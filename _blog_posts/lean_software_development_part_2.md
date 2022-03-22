@@ -7,12 +7,13 @@ image: /img/blog/lean_software_development/crossroads.svg
 image_description: Person standing at a crossroad.
 image_display: true
 tags: [engineering, product, sean johnson]
-excerpt: Agile software development has become the safe, default choice. However, there are contexts where lean software development can provide a decisive advantage over agile. Here we explore what to consider when choosing between each approach.  
+excerpt: Agile software development has become the safe, default choice. However, there are contexts where lean software development can provide a decisive advantage over agile. Here we explore what to consider when choosing between each approach.
 authors:
   - Sean Johnson
 date_published: 2022-01-11
 date: 2022-01-11
 ---
+
 _“Nobody ever got fired for buying IBM.”_ — 1980s
 
 If you’ve heard this saying about buying IBM, have you considered what it means?
@@ -43,9 +44,9 @@ Waterfall methods are a reasonable way to plan the upcoming hour or day, but the
 
 There are _two_ fatal flaws inherent in waterfall development that create this risk, and depending on which flaw you focus on, you arrive at a different alternative to waterfall. One of these flaws is best addressed by agile, and the other flaw by lean software development.
 
-**The first fatal flaw of waterfall is a hubris about what we know.** We now realize that developing software is a knowledge-creating process. Waterfall assumes we already know everything that’s important to developing the system, and we can capture this knowledge in the form of requirements. These requirements inform a design, which we can then build, test, and ship. 
+**The first fatal flaw of waterfall is a hubris about what we know.** We now realize that developing software is a knowledge-creating process. Waterfall assumes we already know everything that’s important to developing the system, and we can capture this knowledge in the form of requirements. These requirements inform a design, which we can then build, test, and ship.
 
-When we examine failed waterfall software projects, we usually find the source of the failure was everything the team didn’t know upfront. It doesn’t matter how detailed and rigorous the plan is if the plan is simply wrong. In fact, the more rigorous an incorrect plan, the worse it is, since we invested more time creating it and are less likely to tolerate big changes. 
+When we examine failed waterfall software projects, we usually find the source of the failure was everything the team didn’t know upfront. It doesn’t matter how detailed and rigorous the plan is if the plan is simply wrong. In fact, the more rigorous an incorrect plan, the worse it is, since we invested more time creating it and are less likely to tolerate big changes.
 
 Waterfall isn’t a process that accounts for uncertainty; it attempts to maximize learning to dissolve that uncertainty. But when we create software, we usually lack complete knowledge about the problem we’re solving, the context we’re solving it in, the constraints of the business and the technology, and the real needs of the various users. What we know is both flawed and limited. Plenty of what we think we know turns out to be wrong, and there are plenty of things we don’t yet know we don’t know. **Agile software development focuses on addressing this first fatal flaw of waterfall: incomplete knowledge.**
 
@@ -65,7 +66,7 @@ Great agile teams optimize their iterations for learning; they aggressively atta
 
 Learning isn’t free. It won’t happen without a source of corrective feedback, and time and space to synthesize and gel. Agile teams have a customer (or close surrogate to the customer) “in the room” to provide rapid feedback and course correction, and they set aside time during each iteration to reflect on new information available to the team, on newly-identified risks and knowledge gaps, and on how the team’s performing. Team-wide learning occurs through this process of deliberate knowledge consolidation, which then informs future iterations.
 
-The ceremony used by many agile teams has grown considerably, but as long as software’s  built in short, knowledge-creating iterations that are focused on the biggest risks, then none of these practices are specifically required to be agile. Agile teams will vary, but some common practices are:
+The ceremony used by many agile teams has grown considerably, but as long as software’s built in short, knowledge-creating iterations that are focused on the biggest risks, then none of these practices are specifically required to be agile. Agile teams will vary, but some common practices are:
 
 - Product backlogs
 - Sprint planning
@@ -76,7 +77,7 @@ The ceremony used by many agile teams has grown considerably, but as long as sof
 - Scrum
 - Extreme programming / pairing
 
-So agile helps us manage the risk that we spend lots of time building the wrong thing. But what about cases where that risk is low? Sometimes we do have verified knowledge about what we need to build. Some examples of this (admittedly more rare) context are with mature products with proven product-market fit, or technology modernization replacements of existing systems. Can waterfall be a good approach in these cases? 
+So agile helps us manage the risk that we spend lots of time building the wrong thing. But what about cases where that risk is low? Sometimes we do have verified knowledge about what we need to build. Some examples of this (admittedly more rare) context are with mature products with proven product-market fit, or technology modernization replacements of existing systems. Can waterfall be a good approach in these cases?
 
 ### So again, what’s wrong with waterfall?
 
@@ -98,13 +99,11 @@ A focus on delivering value more quickly means you need to be precise about what
 
 Lean software development practitioners have identified the seven most common types of waste that occur in software development.
 
-![Seven wastes of software development.](/img/blog/lean_software_development/software-dev-seven-wastes.svg)
+![Seven wastes of software development.](/img/blog/lean_software_development/software-dev-seven-wastes.png)
 
 Why is limiting work in progress so important to the economics of creating software? Let’s use a simplified example. Suppose we have four new software capabilities our team needs to deliver to eager users. How should we think about delivering it? What are our options? In the video below, we explain why lean software development focuses on limiting work in progress:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=PsG4V2n_yw4" 
-target="_blank"><img src="/img/blog/lean_software_development/lean-software-development-video.png"
-alt="Limiting work in progress through lean software development" width="560" height="315" border="0" /></a>
+<iframe title="Limiting work in progress through lean software development" class="embed-responsive-item" width="100%" height="409" src="http://www.youtube.com/watch?feature=player_embedded&v=PsG4V2n_yw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 In my experience, work in progress is often the largest source of waste, but each team is going to create waste in these seven areas in different amounts and in different ways. Lean software teams are focused on continual improvement to eliminate waste, however and wherever it occurs. This focus on waste reduction and elimination isn’t a principal focus of most agile software teams.
 
@@ -169,9 +168,9 @@ _Myth: Moving too fast is reckless._
 
 Everyone wants to complete projects faster…up to a point, and then people start to get uncomfortable. This is too fast. This is reckless!
 
-Let’s test your own instincts here. If I propose a waterfall development process that would work on a software release for a year, and then ship it, hopefully your warning alarms would be ringing loudly. If instead, I propose a two-week sprint, and that you ship whatever is built at the end of the two weeks, you might feel this to be aggressive (since most agile teams don’t ship every sprint), but maybe you think this is a healthy push that can enable your team to go faster. Now, what if I suggest you develop for just one day, and deploy that into production? How about you ship before lunch? And how about deploying whatever you can complete in an hour? 
+Let’s test your own instincts here. If I propose a waterfall development process that would work on a software release for a year, and then ship it, hopefully your warning alarms would be ringing loudly. If instead, I propose a two-week sprint, and that you ship whatever is built at the end of the two weeks, you might feel this to be aggressive (since most agile teams don’t ship every sprint), but maybe you think this is a healthy push that can enable your team to go faster. Now, what if I suggest you develop for just one day, and deploy that into production? How about you ship before lunch? And how about deploying whatever you can complete in an hour?
 
-Here again, your alarm bells are probably ringing. This is too far, too fast…too risky! But in fact, great lean software development teams regularly conceive of software changes and deploy them to production in hours. 
+Here again, your alarm bells are probably ringing. This is too far, too fast…too risky! But in fact, great lean software development teams regularly conceive of software changes and deploy them to production in hours.
 
 How can you be sure of anything in an hour? That’s not a lot of time to think things through or to verify them. What if it’s wrong? Well…if it’s wrong, you’ve only lost an hour, not a morning, or a day, or two weeks, or a year. If it’s wrong, you’ve risked less, not more.
 
@@ -183,7 +182,7 @@ _Myth: People follow the process._
 
 A key principle of lean software development is that people should be actively engaged and thinking critically at all times. Nothing encourages people to go on auto-pilot more than following a defined process they’re told is good. An important shortcoming of agile today, and of waterfall before it, was people blindly following a process and expecting it to produce the correct results.
 
-Lean software development intentionally defines principles and areas of focus, but not the processes, activities, and ceremonies to achieve these. Each team implementing lean software development needs to think critically about which areas of waste and principles they should focus on, and how to best implement processes for themselves. A self-defined process requires more active engagement than picking processes off-the-shelf because that’s what everyone else is doing. 
+Lean software development intentionally defines principles and areas of focus, but not the processes, activities, and ceremonies to achieve these. Each team implementing lean software development needs to think critically about which areas of waste and principles they should focus on, and how to best implement processes for themselves. A self-defined process requires more active engagement than picking processes off-the-shelf because that’s what everyone else is doing.
 
 An important benefit of teams defining their own activities is they recognize that they’re the inventors of the process they’re following — it’s not received wisdom from gurus. This self-authorship encourages thinking critically about what’s not working well and embracing continuous improvement. Many agile teams pay lip service to retrospectives and continuous improvement, but also don’t feel like they have much flexibility to veer away from agile orthodoxy.
 
@@ -199,17 +198,17 @@ Everyone operating efficiently isn’t a goal. If you choose to adopt lean softw
 
 Optimizing the value stream is going to require changes to how people work, and a lot of the push back on these changes is going to come from negative impacts to the local measurements currently being used to gauge the efficiency of people. Adopting lean software development means you stop using local measurements. Many people may need to reduce their own personal efficiency, as measured locally, to optimize the output of the whole system. That’s not going to feel OK…but it is.
 
-When the value stream is mapped and the worst inefficiencies are identified, you’ll notice a pattern. The inefficiencies will cluster around boundary crossings. Hand-offs between companies, departments, teams, systems, and individuals. These are where most delays happen, queues form, and work moves backwards in the stream for re-work. To be able to deliver software into production in just a few days, or a few hours, activities need to be re-imagined and reworked to optimize or eliminate these hand-offs. 
+When the value stream is mapped and the worst inefficiencies are identified, you’ll notice a pattern. The inefficiencies will cluster around boundary crossings. Hand-offs between companies, departments, teams, systems, and individuals. These are where most delays happen, queues form, and work moves backwards in the stream for re-work. To be able to deliver software into production in just a few days, or a few hours, activities need to be re-imagined and reworked to optimize or eliminate these hand-offs.
 
 ## Agile or lean — which to use?
 
 Now that you have a better sense of lean software development you’re probably still wondering if it’s better for your own projects. Agile and lean are siblings; both were born out of a rejection of waterfall, but they aren’t identical twins. They share some of the same principles and practices, so there’s a strong family resemblance, but they aren’t simply two names for the same thing. This short table summarizes some of the key differences between agile and lean software development that we’ve discussed.
 
-![Key differences between agile and lean software development.](/img/blog/lean_software_development/lean-vs-agile.svg) 
+![Key differences between agile and lean software development.](/img/blog/lean_software_development/lean-vs-agile.svg)
 
 When choosing which approach to apply, I urge you to focus on the key strength of agile and the key strength of lean, so you can choose the approach that best maps to the context of your project. The following chart can help you understand where your project fits.
 
-![Agile and lean software development matrix.](/img/blog/lean_software_development/lean-agile-matrix.svg) 
+![Agile and lean software development matrix.](/img/blog/lean_software_development/lean-agile-matrix.svg)
 
 While the real world often isn’t as clear cut as this chart depicts, finding where your own projects fit on this chart is helpful. Projects that face great uncertainty but fewer expectations about the amount of software to be delivered, often just an MVP, benefit most from agile. Projects most suitable to lean software development have a strong business imperative for delivering software into production but fewer questions about how to best solve the problem — a legacy modernization project is but one example.
 
