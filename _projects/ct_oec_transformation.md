@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 4300
 display: true
-tags: [service delivery, procurement, transformation, training, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, open government, security & privacy, coaching & training, early childhood, social safety net, healthcare, economic development, education, marvo dolor, amelia wellers, abby raskin, lara kohl, ashley treni, victoria suwardiman, chris given, julia hogan, gabriel ramirez, cailyn hansen, kyle magida, brandon mader, chris cairns, shashank khandelwal, colin craig, josh dorothy, sean johnson, nick bristow, brandon mader, derek tam, alex curtis, lucas newman]
+tags: [service delivery, procurement, transformation, training, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, open government, security & privacy, coaching & training, early childhood, social safety net, healthcare, economic development, education, marvo dolor, amelia wellers, abby raskin, lara kohl, ashley treni, victoria suwardiman, chris given, julia hogan, gabriel ramirez, cailyn hansen, kyle magida, brandon mader, chris cairns, shashank khandelwal, colin craig, josh dorothy, sean johnson, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell]
 excerpt: Partnering with the Connecticut Office of Early Childhood to help change how they deliver services to families with young children and the professionals who support them.
 project_members:
   - marvo-dolor
@@ -36,6 +36,9 @@ project_members:
   - derek-tam
   - jordan-guinn
   - lucas-newman
+  - becca bartola
+  - priscilla peralta
+  - gordon farrell
 technologies:
   - HTML / CSS / SVG
   - JavaScript / JSON / React

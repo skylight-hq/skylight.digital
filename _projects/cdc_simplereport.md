@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 4400
 display: true
-tags: [service delivery, research & design, software delivery, devops, cloud & platforms, data & analytics, apis, security & privacy, healthcare, leslie garner franklin, victor zapanta, laura king, rebecca lubitzmarchena, kenny nieh, maya benari, adam weber, emma stephenson, nathan carter, josh dorothy, jesse skeets, nick clyde, elisa lee, nick bristow, shashank khandelwal, chris cairns, phoebe espiritu]
+tags: [service delivery, research & design, software delivery, devops, cloud & platforms, data & analytics, apis, security & privacy, healthcare, leslie garner franklin, victor zapanta, laura king, rebecca lubitzmarchena, kenny nieh, maya benari, adam weber, emma stephenson, nathan carter, josh dorothy, jesse skeets, nick clyde, elisa lee, nick bristow, shashank khandelwal, chris cairns, phoebe espiritu, rin concordia, alis akers]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
   - leslie-garner-franklin
@@ -18,11 +18,11 @@ project_members:
   - laura-king
   - rebecca-lubitzmarchena
   - kenny-nieh
-  - maya-benari
-  - adam-weber
   - emma-stephenson
   - nathan-carter
   - josh-dorothy
+  - rin-concordia
+  - alis-akers
   - jesse-skeets
   - nick-clyde
   - elisa-lee
@@ -30,6 +30,8 @@ project_members:
   - shashank-khandelwal
   - chris-cairns
   - phoebe-espiritu
+  - maya-benari
+  - adam-weber
 technologies:
   - HTML / CSS
   - Storybook
@@ -39,7 +41,7 @@ technologies:
   - MURAL
   - Respondent
   - React in TypeScript with Apollo
-  - Nightwatch
+  - Cypress
   - Lighthouse
   - Java / Spring Boot
   - GraphQL
@@ -119,6 +121,7 @@ Our team focused on continually improving the tool by:
 - Developing a new patient experience feature for the product, allowing patients to complete their own pre-screening questions, thereby providing improved privacy for patients and more complete data for health departments
 - Building out the app's mobile experience
 - Redesigning the account creation, login, and password reset experience to massively speed up the onboarding process
+- Evolving the tool to ease reporting that faciliites need to do beyond public health, including one-click results download and an analytics dashboard
 - Providing research and content support to ReportStream, a cloud-based data routing and cleaning tool, to improve the experience onboarding new states to the product
 - Supporting PRIME-wide communications by creating messages and tools they can use to frame the problem and position their solutions with a broader audience
 
@@ -135,10 +138,9 @@ By building out and linking public health infrastructure where these connections
 {% endcapture %}
 
 {% capture results %}
-- Over 85,000 tests have been performed since launch (Jan–Jun 2021)
-- Over 400 organizations (supporting over 700 testing facilities)
-- Users describe how easy it is to use
-- Saves an estimated three minutes of manual reporting per test, which means results are getting reported more efficiently
+- Over 3.7M tests have been performed since launch (from Jan 2021 to Feb 2022)
+- Over 11,000 facilities are using SimpleReport, representing an adoption rate of 79% among the total population of facilities reporting tests
+- Given the success of the tool, the CDC is exploring other use cases where SimpleReport can be used to icnrease reporting from the field
 {% endcapture %}
 
 {% include project.html

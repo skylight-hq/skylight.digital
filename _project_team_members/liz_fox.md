@@ -1,7 +1,7 @@
 ---
 layout: employee_filter
-title: Amelia Wellers’ Project Work
+title: Liz Fox’s Project Work
 filter_type: project
-name: amelia-wellers
+name: liz-fox
 skip_index: true
 ---
