@@ -2534,7 +2534,7 @@
     Zedd’s a software engineer with several years of experience across a range of industries. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped companies of all sizes with their digital transformation journeys. Zedd has a masters degree in computer science from Georgia Tech. He lives in Texas.
   active: true
   socials:
-  - name: Twitter
+    - name: Twitter
       link: https://twitter.com/ZeddShmais
       link_description: Zedd's Twitter Account
       fa_icon_name: twitter
