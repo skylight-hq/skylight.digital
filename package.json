@@ -10,7 +10,7 @@
     "extend": ">=3.0.2",
     "grunt-cli": "^1.4.3",
     "kind-of": ">=6.0.3",
-    "minimist": ">=0.2.1"
+    "minimist": ">=1.2.6"
   },
   "engines": {
     "node": ">=7.10.0"
