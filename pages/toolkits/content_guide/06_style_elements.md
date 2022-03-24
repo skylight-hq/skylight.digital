@@ -505,6 +505,22 @@ Periods go inside quotation marks. They go outside parentheses when the parenthe
 
 Leave a single space between sentences.
 
+### Placeholder text
+
+Use placeholder text to indicate where new text will be added or modified. We often use placeholder text for templates or work-in-progress documents. 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+[text]
+
+#### No
+
+{: .fails }
+{text}
+
+</div>
+
 ### Question marks
 
 Question marks go inside quotation marks if they’re part of the quote. Like periods, they go outside parentheses when the parenthetical is part of a larger sentence, and inside parentheses when the parenthetical stands alone.
