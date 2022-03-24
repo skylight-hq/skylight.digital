@@ -507,7 +507,7 @@ Leave a single space between sentences.
 
 ### Placeholder text
 
-Use placeholder text to indicate where new text will be added or modified. We often use placeholder text for templates or work-in-progress documents. 
+Use square brackets to indicate placeholder text. Placeholder text lets us know where new text will be added or modified. We often use placeholder text for templates or work-in-progress documents. You don't need to highlight the content between the brackets.
 
 <div class="example" markdown="1">
 #### Yes
