@@ -56,11 +56,21 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 [DevOps engineer](/careers/career-pathways/devops-engineer/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
+    
+### Data
+{: .heading-mono .mt-6 }
+[Data scientist](/careers/career-pathways/data-scientist/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
 ### Product & delivery
 {: .heading-mono .mt-6 }
 [Product manager](/careers/career-pathways/product-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
+    
+### General
+{: .heading-mono .mt-6 }
+[Consultant](/careers/career-pathways/consultant/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }    
 
 ## Attribution
 {: .mt-7 }
