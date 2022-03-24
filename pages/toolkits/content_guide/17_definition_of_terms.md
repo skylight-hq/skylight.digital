@@ -13,6 +13,7 @@ toolkit_name: content-guide
 At Skylight, we use a number of specialized terms to describe our way of working. Refer to the below definitions whenever you come upon a term or phrase that’s new to you, but commonly used within Skylight.
 
 * **Admin operations:** refers to all the administrative activities (e.g., bookkeeping,  timekeeping, data management) that are part of the company’s business operations. Also known as “backoffice.”
+* **Applicant tracking system (ATS):** a software application designed to help teams organize recruitment and hiring data.
 * **Bid & proposal (B&P):** a plan (proposal) and proposed cost (bid) for fulfilling the conditions outlined in a solicitation, such as an RFP (request for proposal).
 * **Business development lead:** an individual responsible for developing and executing Skylight’s overall strategy for winning a strategic business opportunity.
 * **Business model:** describes the rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts.
@@ -31,10 +32,12 @@ At Skylight, we use a number of specialized terms to describe our way of working
 * **Individual contributor:** a professional with no direct reports and whose expertise and experience are central to the success of the company.
 * **Manager:** a type of people manager who oversees individual contributors, teams, and sometimes other managers. A manager is expected to drive results for the company with some support. Depending on the context of the term, “manager” may be in reference to someone’s level of responsibility (e.g., manager vs. executive) or to an employee’s direct manager, who could be at the executive, director, or manager level.
 * **Operating model:** describes how an organization delivers value and is a subset of the larger “business model” concept.
+* **Out of office (OOO):** indicates that someone isn’t available to work, especially at a time when they normally would be (e.g., taking paid time off). 
 * **Outreach:** an umbrella term that we sometimes use for brevity’s sake to refer to the business functions of marketing and communications, which are related, but different.
 * **People operations:** a strategic business function that focuses on creating great employee experiences. It’s an umbrella term that’s inclusive of HR and talent management. Sometimes referred to as “people management.”
 * **People manager:** an executive, director, or manager who provides leadership and personnel administration (e.g., performance evaluations) in support of the individuals and teams they oversee.
 * **Period of performance:** the time period during which the proposed work will be completed and the funds awarded are available for expenditure by the recipient. A number of government contracts are structured with a base period (e.g., 12 months) and one or more option periods. An option period gives the government a unilateral right to purchase additional services/supplies or to extend the contract for a specified period of time.
+* **Position description (PD):** a statement of the major duties, responsibilities, and supervisory relationships of a position. In its simplest form, a PD indicates the work to be performed by the position. Sometimes also referred to as a job description (JD), but at Skylight we prefer PD.
 * **Prime contractor:** a contractor who works directly with the customer. They manage any subcontractors, and are responsible for ensuring that the work is completed as defined in the contract.
 * **Proposal contributor:** broad term for anyone who participates in the creation of content for a proposal response or otherwise participates in the development or review of proposal content. Content types can vary (e.g., narrative, presentation materials, illustrations).
 * **Socioeconomic program:** refers to a special program set up by the government to limit competition to certain types of qualified small businesses. Example programs include 8(a), Woman-Owned Small Business Program, and Service-Disabled Veteran-Owned Small Business Program.
