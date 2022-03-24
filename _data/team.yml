@@ -2521,3 +2521,28 @@
       link: https://www.linkedin.com/in/kyle-planeaux/
       link_description: Kyle's LinkedIn Account
       fa_icon_name: linkedin
+- name: zedd-shmais
+  fname: Zedd
+  lname: Shmais
+  full_name: Zedd Shmais
+  short_name: Z. Shmais
+  profile_path: /company/about/#zedd-shmais
+  image: /img/people/zedd-shmais.png
+  image_description: Photo of Zedd Shmais
+  position: Staff Software Engineer
+  bio: >
+    Zedd’s a software engineer with several years of experience across a range of industries. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped companies of all sizes with their digital transformation journeys. Zedd has a masters degree in computer science from Georgia Tech. He lives in Texas.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/ZeddShmais
+      link_description: Zedd's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/zedd-shmais/
+      link_description: Zedd's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/zdeveloper
+      link_description: Zedd's GitHub Account
+      fa_icon_name: github
