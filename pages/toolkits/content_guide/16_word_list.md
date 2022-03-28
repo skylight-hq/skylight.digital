@@ -167,6 +167,9 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **U.S. Web Design System** on first use and **Design System** on subsequent references.
 
+## V
+**veteran,** when used for Skylight content (e.g., case studies, social media posts). However, when doing client-facing work (e.g. slide deck presentations), defer to the client’s conventions around capitalization (e.g. the VA capitalizes “Veteran”).
+
 ## W
 
 **WiFi,** not Wi-Fi.
