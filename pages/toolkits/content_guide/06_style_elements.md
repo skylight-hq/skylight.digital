@@ -622,13 +622,18 @@ Capitalize the names of departments and teams (but not the word "team" or "depar
 * Support department
 </div>
 
-Capitalize individual job titles when referencing a specific role used directly before an individual’s name. Don't capitalize when referring to the role in general terms.
+When you’re referring to an employee and their role or talking to a candidate about what their role would be, use title case (as the role becomes a proper noun).
+
+When generically referring to a role, use sentence case.
+
+We typically only refer to functional categories, such as Research & Design, when talking about job categories and communities of practice. The convention here is to use title case.
+
 
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
-* Please welcome Marketing Manager Susan James, who starts today.
-* Susan James, our marketing manager, starts today.
+* Please welcome Susan James, our Marketing Manager, who starts today.
+* We’re looking for a Marketing Manager to join our talented team.
 * All the marketing managers ate donuts.
 </div>
 
