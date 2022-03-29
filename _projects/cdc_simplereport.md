@@ -10,7 +10,38 @@ feature_image_description:
 feature_image_shadow:
 order: 4400
 display: true
-tags: [service delivery, research & design, software delivery, devops, cloud & platforms, data & analytics, apis, security & privacy, healthcare, leslie garner franklin, victor zapanta, laura king, rebecca lubitzmarchena, kenny nieh, maya benari, adam weber, emma stephenson, nathan carter, josh dorothy, jesse skeets, nick clyde, elisa lee, nick bristow, shashank khandelwal, chris cairns, phoebe espiritu, rin concordia, alis akers, zedd-shmais]
+tags:
+  [
+    service delivery,
+    research & design,
+    software delivery,
+    devops,
+    cloud & platforms,
+    data & analytics,
+    apis,
+    security & privacy,
+    healthcare,
+    leslie garner franklin,
+    victor zapanta,
+    laura king,
+    rebecca lubitzmarchena,
+    kenny nieh,
+    maya benari,
+    adam weber,
+    emma stephenson,
+    nathan carter,
+    josh dorothy,
+    jesse skeets,
+    nick clyde,
+    elisa lee,
+    nick bristow,
+    shashank khandelwal,
+    chris cairns,
+    phoebe espiritu,
+    rin concordia,
+    alis akers,
+    zedd-shmais,
+  ]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
   - leslie-garner-franklin
@@ -97,7 +128,7 @@ COVID-19 turned places like schools and nursing homes into testing sites. We wor
 {% capture challenge %}
 To respond quickly to COVID-19, public health departments need complete, reliable, and actionable disease incidence data. The COVID-19 positivity rate informs policy interventions, such as mask guidance, stay-at-home orders, limits on indoor activities, or the closures of non-essential businesses.
 
-The scope of the pandemic meant hospitals, clinics, and doctors offices were unable to handle all the necessary testing. Some of it needed to be moved to non-traditional point-of-care (POC) testing facilities, such as K-12 schools, retirement communities,  and correctional facilities. However, collecting and sending accurate testing data in these settings is often difficult. At these sites, reporting can be haphazard and labor-intensive — if it happens at all. Non-traditional POC testing facilities often lack IT infrastructure to send data to public health departments. Reporting is done on paper and then faxed to the appropriate department. The unconventional nature of these testing facilities can also create discomfort for people who are asked to share their demographic information, leading to incomplete and lower-quality data for health departments.
+The scope of the pandemic meant hospitals, clinics, and doctors offices were unable to handle all the necessary testing. Some of it needed to be moved to non-traditional point-of-care (POC) testing facilities, such as K-12 schools, retirement communities, and correctional facilities. However, collecting and sending accurate testing data in these settings is often difficult. At these sites, reporting can be haphazard and labor-intensive — if it happens at all. Non-traditional POC testing facilities often lack IT infrastructure to send data to public health departments. Reporting is done on paper and then faxed to the appropriate department. The unconventional nature of these testing facilities can also create discomfort for people who are asked to share their demographic information, leading to incomplete and lower-quality data for health departments.
 
 Even when using existing reporting tools (for example, the National Healthcare Safety Network), testing sites often manually track test results and later input them into the system for submission to public health departments.
 
@@ -139,10 +170,11 @@ By building out and linking public health infrastructure where these connections
 {% endcapture %}
 
 {% capture results %}
+
 - Over 3.7M tests have been performed since launch (from Jan 2021 to Feb 2022)
 - Over 11,000 facilities are using SimpleReport, representing an adoption rate of 79% among the total population of facilities reporting tests
-- Given the success of the tool, the CDC is exploring other use cases where SimpleReport can be used to icnrease reporting from the field
-{% endcapture %}
+- Given the success of the tool, the CDC is exploring other use cases where SimpleReport can be used to increase reporting from the field
+  {% endcapture %}
 
 {% include project.html
   summary = summary
