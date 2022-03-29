@@ -16,7 +16,7 @@ overviews of the principles that guide general agile procurement: [TechFAR Hub](
 - Buy digital service skillsets, not software
 - Embrace a [one-team, one-dream mindset](../standing-up-a-team-to-guide-the-procurement-process#working-together-building-an-agile-culture)
 
-USDS's principles of procurement are a [great launching point](https://playbook.cio.gov/#play5) for an agency contracting specialist who's rethinking traditional procurement approaches. The goal is to mirror the procurement process after the way software is delivered in an agile format. For contracting specialists, this means focusing on procuring skillsets that can build software.
+USDS' principles of procurement are a [great launching point](https://playbook.cio.gov/#play5) for an agency contracting specialist who's rethinking traditional procurement approaches. The goal is to mirror the procurement process after the way software is delivered in an agile format. For contracting specialists, this means focusing on procuring skillsets that can build software.
 
 ## How it differs from other procurements
 
