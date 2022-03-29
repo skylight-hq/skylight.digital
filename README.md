@@ -11,7 +11,7 @@ Setup
 ---
 1. If you’re using a Mac, install homebrew (see https://brew.sh/).
 2. After installing git (`brew install git`), `cd` to the directory where you want to check out the site, and then clone it (`git clone https://github.com/skylight-hq/skylight.digital.git`).
-3. Install rvm (`\curl -sSL https://get.rvm.io | bash -s stable`), and then install a new version of ruby (`rvm install 2.6.2`).
+3. Install rvm (`\curl -sSL https://get.rvm.io | bash -s stable`), and then install a new version of ruby (`rvm install 3.0.1`).
 4. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
 5. Install node (`brew install node -v7.10.0`), and then run `npm install` to install the local dependencies listed in `package.json`.
 
