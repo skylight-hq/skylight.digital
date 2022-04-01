@@ -1964,6 +1964,10 @@
       link: https://karthikpatil.com/
       link_description: Karthik's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/karthik-patil/
+      link_description: Karthik's Project Work
+      fa_icon_name: wrench
 - name: becca-woodberry
   fname: Becca
   lname: Woodberry
@@ -2092,6 +2096,10 @@
       link: https://www.linkedin.com/in/ashton-tu
       link_description: Ashton's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/ashton-tu/
+      link_description: Ashton's Project Work
+      fa_icon_name: wrench
 - name: andrew-lloyd
   fname: Andrew
   lname: Lloyd
