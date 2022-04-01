@@ -2070,6 +2070,10 @@
       link: https://github.com/fzhao99
       link_description: Bob's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/bob-zhao/
+      link_description: Bob's Project Work
+      fa_icon_name: wrench
 - name: ashton-tu
   fname: Ashton
   lname: Tu
