@@ -2383,6 +2383,10 @@
       link: https://elfoxdesign.com
       link_description: Liz's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/liz-fox/
+      link_description: Liz's Project Work
+      fa_icon_name: wrench
 - name: rin-concordia
   fname: Rin
   lname: Concordia
@@ -2525,6 +2529,10 @@
       link: https://www.linkedin.com/in/kyle-planeaux/
       link_description: Kyle's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kyle-planeaux/
+      link_description: Kyle's Project Work
+      fa_icon_name: wrench
 - name: zedd-shmais
   fname: Zedd
   lname: Shmais
@@ -2550,3 +2558,7 @@
       link: https://github.com/zdeveloper
       link_description: Zedd's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/zedd-shmais/
+      link_description: Zedd's Project Work
+      fa_icon_name: wrench
