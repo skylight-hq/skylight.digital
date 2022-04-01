@@ -40,8 +40,8 @@ tags:
     phoebe espiritu,
     rin concordia,
     alis akers,
-    zedd-shmais,
-    bob-zhao
+    zedd shmais,
+    bob zhao
   ]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
