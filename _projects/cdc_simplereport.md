@@ -41,7 +41,8 @@ tags:
     rin concordia,
     alis akers,
     zedd shmais,
-    bob zhao
+    bob zhao,
+    tim niehoff
   ]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
@@ -53,10 +54,11 @@ project_members:
   - rin-concordia
   - alis-akers
   - zedd-shmais
-  - jesse-skeets
   - nick-clyde
   - bob-zhao
   - elisa-lee
+  - tim-niehoff
+  - jesse-skeets
   - leslie-garner-franklin
   - josh-dorothy
   - nick-bristow
