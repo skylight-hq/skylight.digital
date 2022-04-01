@@ -2144,6 +2144,10 @@
       link: https://www.linkedin.com/in/timniehoff/
       link_description: Tim's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/tim-niehoff/
+      link_description: Tim's Project Work
+      fa_icon_name: wrench
 - name: pri-kiser
   fname: Pri
   lname: Kiser
