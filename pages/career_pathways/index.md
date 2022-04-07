@@ -56,6 +56,8 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 [DevOps engineer](/careers/career-pathways/devops-engineer/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
+[Security engineer](/careers/career-pathways/security-engineer/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }
     
 ### Data
 {: .heading-mono .mt-6 }
