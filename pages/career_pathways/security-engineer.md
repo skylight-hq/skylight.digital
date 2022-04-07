@@ -14,7 +14,7 @@ toc:
   - Staff security engineer
   - Principal security engineer
 levels:
- - Associate
+  - Associate
   - I
   - II
   - Senior
