@@ -50,6 +50,8 @@ Development needs security built in from the start, whether for an application o
 
 ### Associate security engineer
 
+{% include role_level.html level='associate' %}
+
 As a trainee in an entry-level role, you may have heard of many of these concepts and likely at least dabbled in them yourself. Compared to the more experienced engineers on the team, you'll need guidance and training to develop these skills and produce quality work.
 
 #### Skills needed for this level
@@ -76,6 +78,8 @@ You understand that the ability to deal with security issues is often distribute
 
 ### Security engineer I
 
+{% include role_level.html level='I' %}
+
 As a junior security engineer, you'll be expected to own and complete routine tasks with minimal oversight. For more advanced tasks, you'll need additional training and guidance from a more experienced engineer.
 
 #### Skills needed for this level
@@ -100,6 +104,8 @@ You’ve seen enough regulatory language to be able to translate it into basic t
 You've come up with some initial ways to effectively advocate for security best practices, although you're still not quite sure how to best do so. You’re aware of common security pitfalls and can help the team avoid them.
 
 ### Security engineer II
+
+{% include role_level.html level='II' %}
 
 With the experience you've acquired, you'll be trusted and expected to handle most tasks without much guidance or support — although it's there if you need it.
 
@@ -127,6 +133,8 @@ You know exactly where the team is falling short and you're able to effectively 
 
 ### Senior security engineer
 
+{% include role_level.html level='senior' %}
+
 A senior security engineer is a technical leader for the project. This means independently handling complex tasks, consistently striving for industry best practices, and serving as a mentor for more junior team members.
 
 #### Skills needed for this level
@@ -153,6 +161,8 @@ You’ve gotten the team to buy into cutting-edge DevOps principles, and the tea
 
 ### Staff security engineer
 
+{% include role_level.html level='staff' %}
+
 A staff software engineer takes the experience gained from previous project technical leadership and uses it to lead and align best practices and company initiatives across multiple teams.
 
 #### Skills needed for this level
@@ -178,6 +188,8 @@ You've taken a project to production and you understand what that process looks 
 You’re an advocate for security best practices company-wide. You’re helping multiple teams implement best practices and building a security-oriented development culture.
 
 ### Principal security engineer
+
+{% include role_level.html level='principal' %}
 
 A principal security engineer leads in researching industry best practices and implementing them across the entire organization. You're a technical leader in your field who helps Skylight recruit and retain amazing engineers. You're able to define and drive organizational priorities and work effectively with our government colleagues.
 
