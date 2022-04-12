@@ -20,7 +20,7 @@ This exercise can help you gain alignment across the team and stakeholders. It c
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Roadmap]({{ site.data.service_design_templates.roadmap.url }}) <span class="badge badge-sub">Mural</span>
+[High level roadmap]({{ site.data.service_design_templates.roadmap.url }}) <span class="badge badge-sub">Mural</span>
 
 ## Who's involved
 The product owner or project manager should create this artifact in consultation with stakeholders
