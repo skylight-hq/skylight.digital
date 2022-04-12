@@ -41,7 +41,7 @@ Using the existing research, collect ideas for each of these categories:
 * Need: What are they trying to accomplish with a service
 * Insight: Why your users need to meet this need
 
-Consult artifacts such as [affinity maps][(#affinity-mapping)]({{ site.data.service_design_templates.affinity_map.url }}), [personas]({{ site.data.service_design_templates.proto_personas.url }}), and [customer journey maps]({{ site.data.service_design_templates.customer_journey_map.url }}) to inform your ideas.
+Consult artifacts such as [affinity maps]({{ site.data.service_design_templates.affinity_map.url }}), [personas]({{ site.data.service_design_templates.proto_personas.url }}), and [customer journey maps]({{ site.data.service_design_templates.customer_journey_map.url }}) to inform your ideas.
 
 ### 2. Fill in the template
 
