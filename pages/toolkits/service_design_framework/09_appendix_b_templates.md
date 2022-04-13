@@ -17,12 +17,6 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 
 ## Initiate
 
-### [Kickoff workshop]({{ template.project_planning.url }})
-
-**Method:** Kickoff workshop / alignment
-<br>
-**Tool:** MURAL
-
 ### [Proto-personas]({{ template.proto_personas.url }})
 
 **Method:** Proto-personas
