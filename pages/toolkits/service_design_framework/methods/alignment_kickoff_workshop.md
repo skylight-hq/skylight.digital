@@ -20,7 +20,7 @@ During these workshops, align teams and stakeholders around a shared idea of the
 
 <div class="callout--tip callout--summary" markdown="1">
 ## Templates
-[Project planning]({{ site.data.service_design_templates.project_planning.url }}) <span class="badge badge-sub">Mural</span>
+No template needed
 
 ## Who's involved
 For internal workshops, include all team members. For external workshops, include all team members, stakeholders, and any third-party subcontractors
