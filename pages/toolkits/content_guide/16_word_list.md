@@ -35,6 +35,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## C
 
+**civic tech,** not civictech or CivicTech
+
 **Congress** refers to the U.S. Senate and House of Representatives.
 
 **congressional** is lowercase unless part of a proper name. For example, “Congressional Record.”
@@ -46,6 +48,10 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **DC,** not D.C.
 
 **decision-maker/decision-making**
+
+**Defense Services (DS)**
+
+**DE&I,** not DEI
 
 **DevOps**
 
@@ -60,6 +66,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **email,** not e-mail
 
 **executive branch**
+
+**Executive Office (EO)**
 
 **e.g.,** abbreviation for “exempli gratia.” If using, don’t end the sentence with “etc.”
 
@@ -87,11 +95,19 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **government,** unless part of a proper noun. For example, “Government Printing Office.”
 
+**govcon,** not gov con or GovCon
+
+**govtech,** not gov tech or GovTech
+
+**Guilds & Squads,** not guilds and squads. 
+
 ## H
 
 **homepage**
 
 **human-centered design,** often used interchangeably with user-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
+
+**Human Services (HS)**
 
 ## I
 
@@ -123,7 +139,11 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **Mini-Conference,** when referring to the Sweet Talks initiative.
 
+**Minimum viable product (MVP),** not Minimum Viable Product
+
 ## O
+
+**objectives and key results (OKRs),** not “objective and key results” or “objectives & key results.” Use **OKRs** on subsequent references.
 
 **online,** don’t capitalize unless it begins a sentence.
 
@@ -135,6 +155,10 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **pm,** not p.m.
 
+## Q
+
+**QB Time** is considered a proper noun. Refers to Quickbooks Time.
+
 ## R
 
 **README**
@@ -142,6 +166,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 ## S
 
 **Scrum** should be used to refer to the set of practices for the agile method. We don’t use that term for the daily meetings and instead use “daily standup.”
+
+**Service Excellence (SE)**
 
 **share out,** when referring to the Sweet Talks initiative — Personal Growth Share Outs.
 
@@ -157,6 +183,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **to do** (noun) and **to-do** (adjective). For example, “your to dos” or “your to-do list.”
 
+**Training Services (TS)**
+
 ## U
 
 **United States government** or **U.S. government,** not U.S. Government.
@@ -167,9 +195,13 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **U.S. Web Design System** on first use and **Design System** on subsequent references.
 
+**Utilization Dashboard,** not Utilization dashboard.
+
 ## V
 **veteran,** when used for Skylight content (e.g., case studies, social media posts). However, when doing client-facing work (e.g. slide deck presentations), defer to the client’s conventions around capitalization (e.g. the VA capitalizes “Veteran”).
 
 ## W
 
 **WiFi,** not Wi-Fi.
+
+**work-in-progress (WIP),** not “Work In Progress” or “Work in Progress” or “WiP.”
