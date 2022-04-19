@@ -238,6 +238,16 @@ Use decimal points when a number can’t be easily written out as a fraction.
 * 47.2
 </div>
 
+### Lists
+
+When using numbers to list items, use a single parenthesis. 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* This list of scary animals includes: 1) lions; 2) tigers; 3) bears.
+</div>
+
 ### Money
 
 When writing about U.S. currency, use the dollar sign before the amount. When referring to amounts of U.S. currency in cents or greater than $1 million, use numerals followed by words.
@@ -620,6 +630,15 @@ Capitalize the names of departments and teams (but not the word "team" or "depar
 {: .passes }
 * Marketing team
 * Support department
+</div>
+
+Sometimes we shorten a team name within the organization. The same rules as above apply. 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* Ops team
+* Comms team
 </div>
 
 When you’re referring to an employee and their role or talking to a candidate about what their role would be, use title case (as the role becomes a proper noun).
