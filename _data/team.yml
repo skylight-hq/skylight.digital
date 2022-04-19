@@ -567,7 +567,7 @@
   profile_path: /company/about/#brandon-mader
   image: /img/people/brandon-mader.jpg
   image_description: Photo of Brandon Mader
-  position: Data Scientist II
+  position: Data Scientist
   bio: >
     Brandon loves using data for public good. He specializes in data science,
     data engineering, and software engineering. Brandon graduated from Dartmouth
@@ -1271,7 +1271,7 @@
   profile_path: /company/about/#tomi-obikunle
   image: /img/people/tomi-obikunle.jpg
   image_description: Photo of Tomi Obikunle
-  position: User Researcher II
+  position: User Researcher
   bio: >
     Tomi’s a researcher who strives to meet and honor people where they are.
     Previously, she studied human development and led hands-on engineering
@@ -1363,7 +1363,7 @@
   profile_path: /company/about/#elisa-lee
   image: /img/people/elisa-lee.jpg
   image_description: Photo of Elisa Lee
-  position: Software Engineer II
+  position: Software Engineer
   bio: >
     Elisa's a software engineer with a desire to use technology to support positive
     change in communities. They previously worked in the developer tools,
@@ -1563,7 +1563,7 @@
   profile_path: /company/about/#lucas-newman
   image: /img/people/lucas-newman.png
   image_description: Illustration of Lucas Newman
-  position: Software Engineer II
+  position: Software Engineer
   bio: >
     Lucas is a software engineer with an unflinching faith in the ethical potential of
     technology to solve big societal problems. He specializes in mobile application
@@ -1752,7 +1752,7 @@
   profile_path: /company/about/#gianna-buda
   image: /img/people/gianna-buda.jpg
   image_description: Photo of Gianna Buda
-  position: Software Engineer I
+  position: Software Engineer
   bio: >
     Gianna's a software engineer who's passionate about leveraging technology
     and partnering with communities to improve the lives of others. She was a 2018 Civic Digital
@@ -1994,7 +1994,7 @@
   profile_path: /company/about/#nathan-carter
   image: /img/people/nathan-carter.jpg
   image_description: Photo of Nathan Carter
-  position: Software Engineer II
+  position: Software Engineer
   bio: >
     Nathan's a software engineer driven by building digital services for public good. Prior to becoming an engineer, he ran his own bakery. Nathan lives in North Carolina.
   active: true
@@ -2038,7 +2038,7 @@
   profile_path: /company/about/#nick-blake
   image: /img/people/nick-blake.jpg
   image_description: Photo of Nick Blake
-  position: Product Designer Apprentice
+  position: Product Designer
   bio: >
     Nick's a product designer, who's studying psychology and human-computer interaction at the Washington University in St. Louis. They most recently worked as a Civic Digital Fellow at the U.S. Citizenship and Immigration Services. Nick lives in Missouri.
   active: true
@@ -2060,7 +2060,7 @@
   profile_path: /company/about/#bob-zhao
   image: /img/people/bob-zhao.jpg
   image_description: Photo of Bob Zhao
-  position: Software Engineer I
+  position: Software Engineer
   bio: >
     Bob's a software engineer in pursuit of solving large-scale problems that matter. In 2020, he served as Civic Digital Fellow at the National Institutes of Health, and is currently pursuing a masters degree in computer science at  Washington University in St. Louis. He lives in Missouri.
   active: true
@@ -2086,7 +2086,7 @@
   profile_path: /company/about/#ashton-tu
   image: /img/people/ashton-tu.jpg
   image_description: Photo of Ashton Tu
-  position: Product Designer I
+  position: Product Designer
   bio: >
     Ashton's a product designer, who recently graduated from the University of Southern California. As a 2020 Civic Digital Fellow with the General Services Administration, she discovered her passion for civic tech. Ashton lives in California.
   active: true
@@ -2265,7 +2265,7 @@
   profile_path: /company/about/#sarah-tress
   image: /img/people/sarah-tress.jpg
   image_description: Photo of Sarah Tress
-  position: Product Designer I
+  position: Product Designer
   bio: >
     Sarah's an engineer and social scientist who loves to work at the intersection of technology and public service. She recently graduated from Oxford with a Master's in Development Studies as a Rhodes Scholar after studying Mechanical Engineering at MIT. Sarah lives in New York.
   active: true
@@ -2340,7 +2340,7 @@
   profile_path: /company/about/#sarah-george-hager
   image: /img/people/sarah-george-hager.jpg
   image_description: Photo of Sarah George Hager
-  position: Software Engineer II
+  position: Software Engineer
   bio: >
     George’s an engineer who enjoys building software that makes life easier, more equitable, and delightful. She specializes in full-stack software engineering and test-driven development, and loves developing best practices on engineering teams. George previously worked with the U.S. Air Force's Kessel Run program. She lives in Massachusetts.
   active: true
@@ -2457,7 +2457,7 @@
   profile_path: /company/about/#priscilla-peralta
   image: /img/people/priscilla-peralta.jpg
   image_description: Photo of Priscilla Peralta
-  position: Product Designer I
+  position: Product Designer
   bio: >
     Priscilla's a product designer formerly from the entertainment industry. She's drawn to creating positive change through thoughtful design and championing the user's experience. Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. Priscilla lives in California.
   active: true
