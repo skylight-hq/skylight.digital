@@ -595,6 +595,24 @@ JavaScript/React
 
 ## People, places, and things
 
+### Citations
+
+When we reference a source, we credit the author. We try to provide as much context as possible about the author, including their name, job title, and organization. 
+
+#### Yes
+{: .passes }
+* **Lisa Tepper Bates,** Co-chair, Governor's Task Force
+* **Captain Lauren Ellis,** U.S. Air Force
+</div>
+
+In contexts where the author may be unknown, (for instance, social media platforms), reference the username and platform where the information was found.  
+
+#### Yes
+{: .passes }
+* **@usairforce,** Twitter
+* **TheGainsWizard,** Reddit
+</div>
+
 ### File extensions
 
 When referring generally to a file extension type, use all uppercase without a period. Add a lowercase s to make plural.
