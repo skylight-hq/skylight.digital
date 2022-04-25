@@ -28,6 +28,8 @@ Here are some guiding principles:
 
 ## Abbreviations and acronyms
 
+Please find a comprehensive {% include lock_link.html text="list of acroynms" url="https://docs.google.com/document/d/1-QZssNt_TwFyB5ATPeS5gziwoKFuTUtAB8Xe-TZgndM/edit?usp=sharing" %} used at Skylight. 
+
 If an acronym is necessary for future reference, spell the full word and follow with the acronym in parentheses on the first reference.
 
 <div class="example" markdown="1">
