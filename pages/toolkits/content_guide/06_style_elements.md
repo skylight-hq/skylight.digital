@@ -49,10 +49,8 @@ If abbreviating a term that’s possessive, don’t include the possessive _s_.
 The U.S. Air Force's (USAF) Business Enterprise Systems Product INnovation (BESPIN)
 
 #### No
-
 {: .fails }
 The U.S. Air Force's (USAF’s) Business Enterprise Systems Product INnovation (BESPIN)
-
 </div>
 
 At the writer’s discretion, refer to organizations on second reference with a shortened name instead of an acronym. For example, use Labor in place of Department of Labor, rather than DOL.
@@ -67,10 +65,8 @@ Don’t use the abbreviation “etc.” (etcetera) redundantly. If you are start
 There are many types of donuts (glazed, powder, chocolate, etc.).
 
 #### No
-
 {: .fails }
 There are many types of donuts (e.g., glazed, powder, chocolate, etc.).
-
 </div>
 
 ## Active voice
@@ -85,10 +81,8 @@ In active voice, the subject of the sentence does the action. In passive voice, 
 Marti logged into the account.
 
 #### No
-
 {: .fails }
 The account was logged into by Marti.
-
 </div>
 
 Words like “was” and “by” may indicate that you’re writing in a passive voice. Scan for these words and rework sentences where they appear.
@@ -115,10 +109,8 @@ Title case capitalizes the first letter of every word except articles, prepositi
 Skylight Content Guide
 
 #### No
-
 {: .fails }
 Skylight content guide
-
 </div>
 
 ### Sentence case
@@ -131,10 +123,8 @@ In general, we use sentence case. Sentence case capitalizes the first letter of 
 About this guide
 
 #### No
-
 {: .fails }
 About this Guide
-
 </div>
 
 Other capitalization guidelines:
@@ -225,10 +215,8 @@ Spell out fractions.
 two-thirds
 
 #### No
-
 {: .fails }
 2/3
-
 </div>
 
 Use decimal points when a number can’t be easily written out as a fraction.
@@ -425,10 +413,8 @@ When writing a list, use the serial comma (also known as the Oxford comma).
 David admires his parents, Oprah, and Justin Timberlake.
 
 #### No
-
 {: .fails }
 David admires his parents, Oprah and Justin Timberlake.
-
 </div>
 
 Otherwise, use common sense. If you’re unsure, read the sentence out loud. Where you find yourself taking a breath, use a comma.
@@ -443,10 +429,8 @@ Use a hyphen (-) to denote a compound adjective that comes before the noun it’
 Heavy-metal detector
 
 #### No
-
 {: .fails }
 Heavy metal detector
-
 </div>
 
 Hyphens join the relevant words into a single idea (for example, a “heavy-metal detector” detects heavy metals). By contrast, a “heavy metal detector” refers to a metal detector that is heavy.
@@ -527,10 +511,8 @@ Use square brackets to indicate placeholder text. Placeholder text lets us know 
 [text]
 
 #### No
-
 {: .fails }
 {text}
-
 </div>
 
 ### Question marks
@@ -575,10 +557,8 @@ If required in the body of the text, avoid spaces before or after slashes.
 and/or
 
 #### No
-
 {: .fails }
 and/ or
-
 </div>
 
 In titles, subheadings, tables, and interface labels, add a space before and after the slash. We do this to promote ease of reading and scannability.
@@ -589,10 +569,8 @@ In titles, subheadings, tables, and interface labels, add a space before and aft
 JavaScript / React
 
 #### No
-
 {: .fails }
 JavaScript/React
-
 </div>
 
 ## People, places, and things
@@ -719,12 +697,10 @@ Avoid using formal or long words when easy or short ones will do.
 * about
 
 #### No
-
 {: .fails }
-
-- purchase
-- assist
-- approximately
+* purchase
+* assist
+* approximately
 </div>
 
 ### States, cities, and countries
@@ -766,10 +742,8 @@ Use positive language rather than negative language whenever possible. One way t
 To get a donut, stand in line.
 
 #### No
-
 {: .fails }
 You can’t get a donut if you don’t stand in line.
-
 </div>
 
 ### Writing about Skylight
@@ -792,12 +766,10 @@ Honor companies’ own names for themselves and their products. Go by what’s u
 * Yahoo!
 
 #### No
-
 {: .fails }
-
-- Ipad
-- Youtube
-- Yahoo
+* Ipad
+* Youtube
+* Yahoo
 </div>
 
 Refer to a company or product as “it” (not “they”).
