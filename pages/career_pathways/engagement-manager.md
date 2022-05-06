@@ -1,10 +1,10 @@
 ---
 layout: career_pathways_role
-title: Delivery manager
-description: Find out what a delivery manager does and the skills you need to do the job.
-permalink: /careers/career-pathways/delivery-manager/
+title: Engagement manager
+description: Find out what an engagement manager does and the skills you need to do the job.
+permalink: /careers/career-pathways/engagement-manager/
 preload: career_pathways/delivery-manager.svg
-updated_date: November 17, 2021
+updated_date: May 9, 2022
 toc:
   - Introduction
   - Associate delivery manager
@@ -20,6 +20,5 @@ levels:
   - Senior
   - Staff
   - Principal
-published: false
 ---
 
