@@ -149,6 +149,11 @@ Organize headings and subheadings hierarchically, with headings first, followed 
 * Headings (`H1`) give people a taste of what they’re about to read. Use them for page and blog titles.
 * Subheadings (`H2`, `H3`, etc.) break articles into smaller, more specific sections. They give readers avenues into your content and make it more scannable.
 
+Skylight has a {% include lock_link.html
+  text="Document Style Guide"
+  url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
+%} with our standard sizing and colors to use for headings and subheadings.
+
 ### Line breaks
 
 When inserting a line break, you’ll want to maintain a balance between appropriate line length and effectively communicating your idea. Generally, you should avoid breaking apart a linguistic "whole" or "unit," (e.g., splitting apart an adjective and the noun that it refers to), which can interfere with intended meaning.
@@ -253,3 +258,14 @@ We write for humans, not machines. We don't use gross SEO techniques like keywor
 * Use descriptive headings to structure your page and highlight important information.
 * Give every image descriptive `alt` text.
 * Make sure we have metadata for all the pages we’re creating.
+
+### Meta descriptions
+
+A meta description is an HTML element that gives a short summary of what a given page is about. Search engines will often use meta descriptions to generate search snippets in results pages, providing search engine users a preview of what they’ll find on your page.
+
+Search engines typically truncate meta descriptions that exceed 160 characters (including spaces). In other words, you have about two sentences worth of space to write your meta description. Keep your descriptions between 100 and 155 characters.
+
+### Meta keywords 
+
+Most major search engines don’t use meta keywords for SEO, so you don’t need to use them as part of our web content.
+
