@@ -579,6 +579,7 @@ JavaScript/React
 
 When we reference a source, we credit the author. We try to provide as much context as possible about the author, including their name, job title, and organization. 
 
+<div class="example" markdown="1">
 #### Yes
 {: .passes }
 * **Lisa Tepper Bates,** Co-chair, Governor's Task Force
@@ -587,6 +588,7 @@ When we reference a source, we credit the author. We try to provide as much cont
 
 In contexts where the author may be unknown, (for instance, social media platforms), reference the username and platform where the information was found.  
 
+<div class="example" markdown="1">
 #### Yes
 {: .passes }
 * **@usairforce,** Twitter
