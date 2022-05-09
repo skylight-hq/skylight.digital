@@ -24,6 +24,9 @@ levels:
 
 Content designers make things easier for people to understand and use. The work can range from a standalone piece of content, to supporting an end-to-end service journey. Content designers work on cross-functional teams to strategize and advocate for user-centered content practices, plain language, and inclusivity, all while delivering on business objectives. Content designers also help design content governance strategies and workflows in a user-centered context. They conduct research, facilitate design activities, and of course — write.
 
+Below you’ll find the full list of skills for becoming a content designer at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
+
+
 ### Required skills
 
 #### Content advocacy
