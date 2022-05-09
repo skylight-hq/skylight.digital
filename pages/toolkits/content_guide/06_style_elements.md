@@ -191,7 +191,6 @@ If you’re wrangling a lot of numbers, tables can help you visualize that conte
 |                            | April 1–June 30       | July 15    |
 |                            | July 1–September 30   | October 15 |
 |                            | October 1–December 31 | January 31 |
-
 {: .post-table}
 
 ### Dates
