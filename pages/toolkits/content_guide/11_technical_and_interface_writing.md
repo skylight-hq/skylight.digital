@@ -109,6 +109,8 @@ Use clear verbs to tell readers how to interact with interface elements.
 
 Tables are generally suitable only for data: two or more “objects” (rows) that share two or more “values” (columns). In tables, column widths are the same for all rows, which can make them easier to scan visually. Tables are [easily navigable for sightless users](http://webaim.org/techniques/tables/) so long as the content is organized in a logical way.
 
+At Skylight, we have set table styles that we use depending on the context. Please refer to the {% include lock_link.html text="Skylight Document Style Guide" url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing" %} for direct guidance on how to style tables.
+
 ### Links and additional resources
 
 It’s rare that a document lives on its own. Tell people where to go for help if they have questions.

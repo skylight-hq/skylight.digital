@@ -84,7 +84,7 @@ Airmen have responded well to the updated AFFMS II. As one airman noted:
 {% include callout.html
   type = "pullquote"
   content = "I saw it last week and it blew my mind. I wasn't even expecting it or knew it was launching. It's beautiful."
-  cite_name = "TheGainsWizard"
+  cite_name = "TheGainsWizard, Reddit"
   cite_url = "https://www.reddit.com/r/AirForce/"
 %}
 
