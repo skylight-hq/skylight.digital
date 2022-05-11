@@ -24,6 +24,8 @@ levels:
 
 At Skylight, a security engineer is both a researcher and a technical implementer. As a researcher, this person stays up to date with the cutting edge of security and helps Skylight implement new processes, tools, and remediations. As an implementer, this person’s familiar with modern software development and works in a cross-functional team to inform and guide security best practices at all stages of the software development life cycle.
 
+Below you’ll find the full list of skills for becoming a security engineer at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
+
 ### Required skills
 
 #### Risk detection 

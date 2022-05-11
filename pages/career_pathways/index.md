@@ -68,6 +68,8 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 {: .heading-mono .mt-6 }
 [Product manager](/careers/career-pathways/product-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
+[Engagement manager](/careers/career-pathways/engagement-manager/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }
     
 ### General
 {: .heading-mono .mt-6 }
