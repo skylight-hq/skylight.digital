@@ -17,29 +17,22 @@ project_members:
   - adam weber
   - gianna uson
 technologies:
-  - HTML / CSS
-  - U.S. Web Design System
-  - Sketch
+  - Flutter
+  - Node / Express
+  - React
+  - Keycloak
+  - AWS / Terraform
 practices:
   - User research
-  - Design workshops
   - User experience design
-  - Visual design
-  - Accessibility design
-  - Content design
   - Information architecture
   - Design system
   - Wireframing
-  - Prototyping
   - Agile development
-  - Pairing
+  - Pair programming
 news_posts:
-  - title: Chief Bass’ Instagram post (1,000+ likes)
-    url: https://www.instagram.com/p/CLVMxeJsH82/
-  - title: "Reddit thread: “Now if this isn’t a historic AF moment I don't know what is”"
-    url: https://www.reddit.com/r/AirForce/comments/kotxmh/we_did_it_affms_ii_has_been_updated/
   - title: BESPIN LinkedIn post
-    url: https://www.linkedin.com/posts/bespin_the-air-force-fitness-management-system-activity-6792794630925635584-HGLy
+    url: https://www.linkedin.com/posts/bespin_bespinaf-apps-softwaredevelopment-activity-6849312109856075776-Qog2/
 project_url:
 project_cta:
 source_code_url:
