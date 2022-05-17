@@ -1641,7 +1641,7 @@
     UX writing, and localization. She enjoys turning complex concepts into plain
     language and creating great experiences through human-centered content.
     Rebecca lives in Maryland.
-  active: true
+  active: false
   order: 420
   socials:
     - name: LinkedIn
@@ -1809,7 +1809,7 @@
     software development and loves solving inefficiencies while building secure and robust
     applications. He has a degree in Mechanical Engineering from The California Maritime Academy
     and is a Naval Reserve Officer. He lives in California.
-  active: true
+  active: false
   order: 490
   socials:
     - name: LinkedIn
