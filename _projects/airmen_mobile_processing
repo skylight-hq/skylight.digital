@@ -3,19 +3,19 @@ layout: default
 title_tag: U.S. Air Force
 title: Streamlining the Air Force’s base inprocessing
 permalink: /work/experience/airmen-mobile-processing/
-image: 
-image_description: 
-feature_image:
+image: /img/projects/airmen_mobile_processing/amp.svg
+image_description: A person filling out a checklist
+feature_image: 
 feature_image_description:
 order: 3500
 display: true
 tags: [service delivery, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna uson]
 excerpt: A digital application that simplifies and automates the process for transitioning to a new base, for both airmen and all who support them.
 project_members:
-  - lucas newman
-  - jesse skeets
-  - adam weber
-  - gianna uson
+  - lucas-newman
+  - jesse-skeets
+  - adam-weber
+  - gianna-uson
 technologies:
   - Flutter
   - Node / Express
