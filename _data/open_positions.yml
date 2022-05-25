@@ -25,14 +25,19 @@
   category: Data
   location: Remote
   order: 30
+- title: Product Manager
+  url: https://skylight.workable.com/jobs/1083508
+  category: Product & Delivery
+  location: Remote
+  order: 40
 - title: Product Designer
   url: https://skylight.workable.com/jobs/1128366
   category: Research & Design
   location: Remote
   order: 50
-- title: Product Manager
-  url: https://skylight.workable.com/jobs/1083508
-  category: Product & Delivery
+- title: Content Designer
+  url: https://apply.workable.com/skylight/j/ECC220A063/
+  category: Research & Design
   location: Remote
   order: 60
 - title: Service Designer
