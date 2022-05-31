@@ -9,13 +9,13 @@ feature_image:
 feature_image_description:
 order: 3500
 display: true
-tags: [service delivery, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna uson]
+tags: [service delivery, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
 excerpt: A digital application that simplifies and automates the process for transitioning to a new base, for both airmen and all who support them.
 project_members:
   - lucas-newman
   - jesse-skeets
   - adam-weber
-  - gianna-uson
+  - gianna-buda
 technologies:
   - Flutter
   - Node / Express
