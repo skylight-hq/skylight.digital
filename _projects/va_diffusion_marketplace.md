@@ -107,7 +107,7 @@ from VA leadership how proud they are to tell everyone about the Marketplace. As
 
 {% include callout.html
   type = "pullquote"
-  content = "I had no idea the VA had as many programs as they do. The Marketplace is a great resource for Veterans. VMET is a program that would have really helped a friend of mine’s son. He was a Iraq and Afghanistan war Veteran and ended up committing suicide by cop. The police are not always the best ones to deal with those issues. FLOW3 is a great program. Anything that can speed up the care and treatment is a definite need. Naloxone, while it shows is limited currently is one of those programs that hopefully spreads. A lot of Vets end up with addiction problems and this could really save lives. The stuff you all are working on can really make a difference."
+  content = "I had no idea the VA had as many programs as they do. The Marketplace is a great resource for Veterans. A lot of Vets end up with addiction problems and this could really save lives. The stuff you all are working on can really make a difference."
 %}
 {% endcapture %}
 
