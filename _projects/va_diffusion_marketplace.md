@@ -100,14 +100,15 @@ and the rate at which they're adopted
 their content directly and helps ensure the site has the most up-to-date information
 - Improved the home and search experience to balance the competing needs of targeted
 searches with exploratory browsing
+- Launched a public version of the site. 
 
-We have since launched a public version of the site. Our innovators are grateful 
-that they can now share their work with partners outside the VA, and we continue to hear 
-from VA leadership how proud they are to tell everyone about the Marketplace. As one veteran noted: 
+Our innovators are grateful that they can now share their work with partners outside the VA, and we continue to hear 
+from VA leadership how proud they are to tell everyone about the Marketplace. 
 
 {% include callout.html
   type = "pullquote"
   content = "I had no idea the VA had as many programs as they do. The Marketplace is a great resource for Veterans. A lot of Vets end up with addiction problems and this could really save lives. The stuff you all are working on can really make a difference."
+  cite_name = "U.S. Veteran"
 %}
 {% endcapture %}
 
