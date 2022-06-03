@@ -100,10 +100,7 @@ and the rate at which they're adopted
 their content directly and helps ensure the site has the most up-to-date information
 - Improved the home and search experience to balance the competing needs of targeted
 searches with exploratory browsing
-- Launched a public version of the site. 
-
-Our innovators are grateful that they can now share their work with partners outside the VA, and we continue to hear 
-from VA leadership how proud they are to tell everyone about the Marketplace. 
+- Launched a public version of the site
 
 {% include callout.html
   type = "pullquote"
@@ -111,6 +108,9 @@ from VA leadership how proud they are to tell everyone about the Marketplace.
   cite_name = "U.S. Veteran"
 %}
 {% endcapture %}
+
+Our innovators are grateful that they can now share their work with partners outside the VA, and we continue to hear 
+from VA leadership how proud they are to tell everyone about the Marketplace. 
 
 {% capture results %}
 - Delivered an alpha version of the platform within two months
