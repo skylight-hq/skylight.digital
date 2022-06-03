@@ -100,7 +100,7 @@ and the rate at which they're adopted
 their content directly and helps ensure the site has the most up-to-date information
 - Improving the home and search experience to balance the competing needs of targeted
 searches with exploratory browsing
-- Launching a public version of the site to share cutting edge VA innovations with the public.
+- Launching a public version of the site to share cutting edge VA innovations with the public
 
 {% include callout.html
   type = "pullquote"
