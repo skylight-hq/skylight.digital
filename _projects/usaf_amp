@@ -2,12 +2,12 @@
 layout: default
 title_tag: U.S. Air Force
 title: Streamlining the Air Force’s base inprocessing
-permalink: /work/experience/airmen-mobile-processing/
-image: /img/projects/airmen_mobile_processing/amp.svg
+permalink: /work/experience/usaf-amp/
+image: /img/projects/usaf_amp/amp.svg
 image_description: A person filling out a checklist
 feature_image: 
 feature_image_description:
-order: 3500
+order: 2550
 display: true
 tags: [service delivery, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
 excerpt: A digital application that simplifies and automates the process for transitioning to a new base, for both airmen and all who support them.
@@ -17,19 +17,24 @@ project_members:
   - adam-weber
   - gianna-buda
 technologies:
+  - HTML / CSS
+  - Material-UI
   - Flutter
-  - Node / Express
+  - Express
   - React
   - Keycloak
   - AWS / Terraform
 practices:
+  - Lean startup
   - User research
   - User experience design
-  - Information architecture
+  - Content design
   - Design system
   - Wireframing
   - Agile development
   - Pair programming
+  - DevSecOps
+  - Cloud hosting
 news_posts:
   - title: BESPIN LinkedIn post
     url: https://www.linkedin.com/posts/bespin_bespinaf-apps-softwaredevelopment-activity-6849312109856075776-Qog2/
@@ -52,7 +57,7 @@ Base inprocessing is also challenging for administrators — the Air Force staff
 {% endcapture %}
 
 {% capture solution %}
-In collaboration with Mo Studio and the USAF’s Business and Enterprise Systems Product INnovation (BESPIN) team, we helped build AMP, a digital application that streamlines and automates base inprocessing for airmen who are going through the PCS process and the staff tasked with processing them.
+In collaboration with Mo Studio and the USAF’s Business Enterprise Systems Product INnovation (BESPIN) team, we helped build AMP, a digital application that streamlines and automates base inprocessing for airmen who are going through the PCS process and the staff tasked with processing them.
 
 The AMP team, consisting of Skylight contractors and BESPIN airmen, conducted user research at six Air Force bases. We interviewed users outside the development team, including senior air force personnel and PCS administrators. We learned that administrators currently gather paper forms in stacks of binders. To put it mildly, these are not the most modern ways of working. 
 
