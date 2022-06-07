@@ -70,7 +70,7 @@ Based on this research, our team conducted the following activities:
 - Enabled administrators to quickly verify task completion
 - Developed a directory that could list out contact information for base personnel to improve ease of coordination
 
-Through our user-centered development process, we helped deliver a solution that eases the stress and complexity of the inprocessing experience — for both airmen and administrators. In addition to inprocessing, AMP’s feature set can also be used for ongoing task completion and monitoring at the base. Furthermore, AMP provides a proof of concept for using pre-screened and standardized components in the development process, which helps deliver on the broader work of BESPIN to deliver mobile applications quickly and cost effectively. AMP is able to work double duty — it’s a useful application that streamlines base transition, while demonstrating the USAF’s commitment to becoming a digitally-powered organization.
+Through our user-centered development process, we helped deliver a solution that eases the stress and complexity of the inprocessing experience — for both airmen and administrators. In addition to inprocessing, AMP’s feature set can be used for ongoing task completion and monitoring at the base. Furthermore, AMP provides a proof of concept for using pre-screened and standardized components in the development process, which helps BESPIN meet its broader goal of delivering mobile applications quickly and cost effectively. AMP is not only a useful application that streamlines base transition, it also demonstrates the USAF’s commitment to becoming a digitally-powered organization.
 {% endcapture %}
 
 {% capture results %}
