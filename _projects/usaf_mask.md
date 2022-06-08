@@ -44,39 +44,40 @@ source_code_url:
 ---
 
 {% capture summary %}
-As a subcontractor to Mo Studio, Skylight helped develop Airmen Mobile Processing (AMP), a digital application that streamlines and automates the U.S. Air Force’s base inprocessing. AMP replaces a cumbersome base inprocessing experience, allowing for more efficient task tracking and completion, while making base transition less stressful for airmen, their families, and the staff who support them.
+The U.S. Air Force (USAF) is using mobile applications to improve airmen’s quality of life, mission success, and safety. As a subcontractor to Mo Studio, and in collaboration with Business Enterprise Systems Product INnovation (BESPIN), we created a starter kit for future application teams entering the BESPIN ecosystem, streamlining the process for developing custom mobile and web applications for the USAF.  
 {% endcapture %}
 
 {% capture challenge %}
-Moving is stressful for anyone, but it can be a particular challenge in a complex organization like the U.S. Air Force (USAF). Airmen frequently move bases — sometimes every two years — a transition known as the permanent change of station (PCS) process. Air Force bases are basically self-contained cities, so transitioning to a new base can be a whirlwind experience. Ensuring a streamlined PCS process helps airmen hit the ground running with their duties, while reducing the administrative burden on the staff responsible for processing them.
+Digital transformation is critical to the USAF’s mission of modernizing its operations. That means being able to deliver digital solutions for airmen across multiple channels and platforms — particularly mobile. Airmen aren’t always sitting in front of a computer. They need mobile applications to accomplish life and mission tasks where they are: on the flight line, in base housing, or deployed on various bases around the globe. This need creates high demand for delivering production-quality mobile applications. BESPIN, a young software factory within the Air Force driving this shift toward mobile applications, is a key part of the USAF’s digital transformation. 
 
-Currently, the USAF handles base inprocessing using paper forms or PDFs, which are filled out and handed off to various base personnel. Now, imagine putting yourself in an airman's boots during the PCS process — not only do you have to get accustomed to your new base (perhaps while also helping to acclimate your spouse or children), you have to carry around paper forms and deliver them to the appropriate offices in an environment that you’re still learning to navigate. It can be disorienting, not to mention a little frustrating. 
+Getting a mobile or web application into production early and often is a primary goal for any software application team; however the path to production in a defense environment isn’t always easy, and it’s often different for each use case. At present, each team in BESPIN building a mobile application has to build all the parts from scratch. However, there are common application components that don’t need to be built by each new application team over and over again (e.g., authenticating, sending email or other notifications). This is especially important in a defense environment, since each component has to be vetted by security. If we can reduce the security burden by providing pre-vetted components, it makes the jobs of individual teams easier. 
 
-Base inprocessing is also challenging for administrators — the Air Force staff who are responsible for tracking the PCS process. Because inprocessing is managed via paper-based forms, administrators have a hard time knowing where airmen are in their processing status. The use of paper forms can also create bottlenecks in the pipeline — until a form is completed and handed off, it isn’t accessible to other personnel. The entire Air Force is affected by long processing timelines, along with their families. To reduce inefficiencies and make the lives of airmen and their families easier, it’s essential for base inprocessing to be as smooth and seamless as possible.
+Given that many of the airmen assigned to BESPIN application development teams are new to software engineering, 
+there’s not always a technical expert or resource to consult when teams are starting out. 
+A lack of institutional guidance results in slower development times and higher costs. 
+When kicking off a project, airmen need clear documentation and proven techniques to help speed up the development process.
+
+Since the future of BESPIN relies on airmen to deliver applications quickly and cost effectively, 
+they need clear pathways and standardization to reduce as much technical burden as possible.
 
 {% endcapture %}
 
 {% capture solution %}
-In collaboration with Mo Studio and the USAF’s Business Enterprise Systems Product INnovation (BESPIN) team, we helped build AMP, a digital application that streamlines and automates base inprocessing for airmen who are going through the PCS process and the staff tasked with processing them.
+To provide a clear production path for mobile applications within BESPIN, Mo Studio and Skylight created the Mobile Application Starter Kit (MASK). MASK is a resource for BESPIN that provides airmen with distinct project templates for mobile apps, APIs, and “admin” dashboards, and documentation on how to use these templates. MASK also offers necessary guidance on how to navigate the development and deployment of custom mobile applications within BESPIN. For example, MASK offers direction on key aspects of the development process, such as:
+- What teams do what 
+- Why you might need a team’s tooling 
+- How to connect with said team
+- The dependencies within the ecosystem
 
-The AMP team, consisting of Skylight contractors and BESPIN airmen, conducted user research at six Air Force bases. We interviewed users outside the development team, including senior air force personnel and PCS administrators. We learned that administrators currently gather paper forms in stacks of binders. To put it mildly, these are not the most modern ways of working. 
+MASK will greatly reduce the time mobile application teams need to develop high-quality software within BESPIN, cutting costs and improving outcomes. Through templating, documentation, and tooling, MASK will save teams months of time choosing appropriate and approved tech and completing security chores. In addition, by building mobile products in-house, BESPIN teams can focus on solving the right problem and improving the user experience for their fellow airmen, rather than worrying about tooling (and, to some extent, security for common components).  
 
-Even though the airmen on our team were regular users of AFFMS II, we wanted to take into account a diversity of user experiences. We conducted preliminary interviews with a variety of personnel at BESPIN, ensuring we covered a spectrum of ranks (officers and enlisted) and job functions. We also conducted desk research by looking at posts and comments on social media platforms like Reddit.
-
-Based on this research, our team conducted the following activities:
-- Designed an interface that allows airmen to see tasks in one centralized location and mark tasks in-progress or complete
-- Ensured administrators could create, update, and delete tasks 
-- Built a dashboard to provide real time visualization of airmen processing status for ease of tracking
-- Enabled administrators to quickly verify task completion
-- Developed a directory that could list out contact information for base personnel to improve ease of coordination
-
-Through our user-centered development process, we helped deliver a solution that eases the stress and complexity of the inprocessing experience — for both airmen and administrators. In addition to inprocessing, AMP’s feature set can be used for ongoing task completion and monitoring at the base. Furthermore, AMP provides a proof of concept for using pre-screened and standardized components in the development process, which helps BESPIN meet its broader goal of delivering mobile applications quickly and cost effectively. AMP is not only a useful application that streamlines base transition, it also demonstrates the USAF’s commitment to becoming a digitally-powered organization.
+Through MASK, we helped accelerate the future development and deployment of mobile applications through BESPIN, and, in turn, advanced broader digital transformation within the USAF.
 {% endcapture %}
 
 {% capture results %}
-- Delivered MVP to help airmen more seamlessly track and complete base inprocessing tasks
-- Selected as a winner of the Vice Chief of the Air Force (VCSAF) Innovation Challenge
-- Provided a proof point for the larger BESPIN goal of standardizing and templating mobile applications
+- Created three templates for mobile app, API, and web app to save teams months of time in choosing appropriate/approved tech and completing security chores
+- Provided guidance on how to use the templates, including documentation and a script to identify duplicate security chores, as well as infrastructure tooling to guide BESPIN teams through the development and deployment of custom mobile applications
+- Improved technical skill sets of airmen, allowing them to build mobile applications in-house and reduce development costs
 {% endcapture %}
 
 {% include project.html
