@@ -17,8 +17,6 @@ project_members:
   - adam-weber
   - gianna-buda
 technologies:
-  - HTML / CSS
-  - Material-UI
   - Flutter
   - Express
   - React
