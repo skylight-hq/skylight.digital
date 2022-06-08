@@ -4,7 +4,7 @@ title_tag: U.S. Air Force
 title: Accelerating mobile application development in the Air Force
 permalink: /work/experience/usaf-mask/
 image: /img/projects/usaf_mask/mask.svg
-image_description: An airman using a technology starter kit
+image_description: An airman using a technology starter kit.
 feature_image: 
 feature_image_description:
 order: 2575
