@@ -4,7 +4,7 @@ title_tag: U.S. Air Force
 title: Streamlining the Air Force’s base inprocessing
 permalink: /work/experience/usaf-amp/
 image: /img/projects/usaf_amp/amp.svg
-image_description: A person filling out a checklist
+image_description: A person filling out a checklist.
 feature_image: 
 feature_image_description:
 order: 2550
