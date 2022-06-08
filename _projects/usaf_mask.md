@@ -1,16 +1,16 @@
 ---
 layout: default
 title_tag: U.S. Air Force
-title: Streamlining the Air Force’s base inprocessing
-permalink: /work/experience/usaf-amp/
+title: Streamlining mobile application development in the Air Force
+permalink: /work/experience/usaf-mask/
 image: /img/projects/usaf_amp/amp.svg
-image_description: A person filling out a checklist
+image_description: An airman using a technology starter kit
 feature_image: 
 feature_image_description:
-order: 2550
+order: 2525
 display: true
-tags: [service delivery, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
-excerpt: A digital application that simplifies and automates the process for transitioning to a new base, for both airmen and all who support them.
+tags: [software delivery, devops, cloud & platforms, data & analytics, apis, security & privacy, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
+excerpt: By enabling airmen to rapidly build mobile products in-house, the USAF can accelerate the delivery of mission value, reduce application development costs, and grow the skill sets of its force.
 project_members:
   - lucas-newman
   - jesse-skeets
@@ -23,21 +23,16 @@ technologies:
   - Express
   - React
   - Keycloak
-  - AWS / Terraform
+  - Terraform
+  - AWS (Cloud One)
 practices:
   - Lean startup
   - User research
   - User experience design
-  - Content design
-  - Design system
-  - Wireframing
   - Agile development
-  - Pair programming
   - DevSecOps
   - Cloud hosting
 news_posts:
-  - title: BESPIN LinkedIn post
-    url: https://www.linkedin.com/posts/bespin_bespinaf-apps-softwaredevelopment-activity-6849312109856075776-Qog2/
 project_url:
 project_cta:
 source_code_url:
