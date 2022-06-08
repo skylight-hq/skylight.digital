@@ -72,11 +72,10 @@ MASK is a resource for BESPIN that provides airmen with distinct project templat
 mobile apps, APIs, and “admin” dashboards, and documentation on how to use these templates. 
 MASK also offers necessary guidance on how to navigate the development and deployment of custom mobile applications within BESPIN. 
 For example, MASK offers direction on key aspects of the development process, such as:
-
-  - What teams do what 
-  - Why you might need a team’s tooling 
-  - How to connect with said team
-  - The dependencies within the ecosystem
+- What teams do what 
+- Why you might need a team’s tooling 
+- How to connect with said team
+- The dependencies within the ecosystem
 
 MASK will greatly reduce the time mobile application teams need to develop high-quality software within BESPIN, cutting costs and improving outcomes. 
 Through templating, documentation, and tooling, MASK will save teams months of time choosing appropriate and approved tech and completing security chores. 
