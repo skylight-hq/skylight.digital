@@ -2641,3 +2641,46 @@
       link: http://jaynawallace.com/
       link_description: Jayna's Personal Website
       fa_icon_name: home
+- name: spencer-kathol
+  fname: Spencer
+  lname: Kathol
+  full_name: Spencer Kathol
+  short_name: S. Kathol
+  profile_path: /company/about/#spencer-kathol
+  image: /img/people/spencer-kathol.jpg
+  image_description: Photo of Spencer Kathol
+  position: Data Engineer
+  bio: >
+    Spencer's a data engineer with over 15 years of experience working in healthcare data and interoperability. Spencer has worked for and with electronic medical record vendors, health care providers, health plans, and regional health informational exchanges to share and report on complex health data to satisfy a multitude of needs. Spencer lives in Colorado.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/gskathol
+      link_description: Spencer's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/spencer-kathol-9573061/
+      link_description: Spencer's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/gskathol
+      link_description: Spencer's GitHub Account
+      fa_icon_name: github
+- name: dan-sass
+  fname: Dan
+  lname: Sass
+  full_name: Dan Sass
+  short_name: D. Sass
+  profile_path: /company/about/#dan-sass
+  image: /img/people/dan-sass.jpg
+  image_description: Photo of Dan Sass
+  position: Senior Software Engineer
+  bio: >
+    Dan's a software engineer with a background in FinTech. He's focused on system design, DevOps, and cloud native applications. Dan lives in Ohio.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/daniel-sass-34a79791/
+      link_description: Dan's LinkedIn Account
+      fa_icon_name: linkedin
+
