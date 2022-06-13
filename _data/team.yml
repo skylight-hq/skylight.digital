@@ -2574,3 +2574,45 @@
       link: /work/team-member/zedd-shmais/
       link_description: Zedd's Project Work
       fa_icon_name: wrench
+- name: mike-brown
+  fname: Mike
+  lname: Brown
+  full_name: Mike Brown
+  short_name: M. Brown
+  profile_path: /company/about/#mike-brown
+  image: /img/people/mike-brown.jpg
+  image_description: Photo of Mike Brown
+  position: Software Engineer
+  bio: >
+    Mike's a software engineer passionate about using technology for the public good. He worked on water affordability as a 2019 Code for America Fellow and has experience in the public and non-profit sectors. Mike graduated from the University at Buffalo with a degree in Computer Science and Political Science. He lives in New York.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/mpbrown716
+      link_description: Mike's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mpbrown15/
+      link_description: Mike's LinkedIn Account
+      fa_icon_name: linkedin
+- name: merethe-hansen
+  fname: Merethe
+  lname: Hansen
+  full_name: Merethe Hansen
+  short_name: M. Hansen
+  profile_path: /company/about/#merethe-hansen
+  image: /img/people/merethe-hansen.jpg
+  image_description: Photo of Merethe Hansen
+  position: Senior Software Engineer
+  bio: >
+    Merethe's a software engineer who gets most excited about solving puzzles and working on projects that bring about a positive impact. Merethe comes from the enterprise software industry, where she built analytics pipelines and reports. She lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/merethe-hansen-44153464
+      link_description: Merethe's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mehansen
+      link_description: Merethe's GitHub Account
+      fa_icon_name: github
