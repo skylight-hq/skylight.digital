@@ -2616,3 +2616,28 @@
       link: https://github.com/mehansen
       link_description: Merethe's GitHub Account
       fa_icon_name: github
+- name: jayna-wallace
+  fname: Jayna
+  lname: Wallace
+  full_name: Jayna Wallace
+  short_name: J. Wallace
+  profile_path: /company/about/#jayna-wallace
+  image: /img/people/jayna-wallace.png
+  image_description: Photo of Jayna Wallace
+  position: Staff Product Manager
+  bio: >
+    Jayna’s an outcomes-driven product manager who's spent the last two decades on distributed teams building social media and streaming platforms. She moved into the civic tech space to work on a project for the Department of Defense. Jayna lives in Ohio.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/jaynawallace
+      link_description: Jayna's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jaynawallace/
+      link_description: Jayna's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: http://jaynawallace.com/
+      link_description: Jayna's Personal Website
+      fa_icon_name: home
