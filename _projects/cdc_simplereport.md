@@ -43,6 +43,10 @@ tags:
     zedd shmais,
     bob zhao,
     tim niehoff
+    dan sass
+    jayna wallace
+    merethe hansen
+    charlye tran
   ]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
@@ -68,6 +72,10 @@ project_members:
   - phoebe-espiritu
   - maya-benari
   - adam-weber
+  - dan-sass
+  - jayna-wallace
+  - merethe-hansen
+  - charlye-tran
 technologies:
   - HTML / CSS
   - Storybook
