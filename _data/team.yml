@@ -2623,7 +2623,7 @@
   short_name: J. Wallace
   profile_path: /company/about/#jayna-wallace
   image: /img/people/jayna-wallace.png
-  image_description: Photo of Jayna Wallace
+  image_description: Illustration of Jayna Wallace
   position: Staff Product Manager
   bio: >
     Jayna’s an outcomes-driven product manager who's spent the last two decades on distributed teams building social media and streaming platforms. She moved into the civic tech space to work on a project for the Department of Defense. Jayna lives in Ohio.
@@ -2649,7 +2649,7 @@
   profile_path: /company/about/#spencer-kathol
   image: /img/people/spencer-kathol.jpg
   image_description: Photo of Spencer Kathol
-  position: Data Engineer
+  position: Staff Data Engineer
   bio: >
     Spencer's a data engineer with over 15 years of experience working in healthcare data and interoperability. Spencer has worked for and with electronic medical record vendors, healthcare providers, health plans, and regional health informational exchanges to share and report on complex health data to satisfy a multitude of needs. Spencer lives in Colorado.
   active: true
