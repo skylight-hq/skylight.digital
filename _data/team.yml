@@ -2595,6 +2595,10 @@
       link: https://www.linkedin.com/in/mpbrown15/
       link_description: Mike's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mike-brown/
+      link_description: Mike's Project Work
+      fa_icon_name: wrench
 - name: merethe-hansen
   fname: Merethe
   lname: Hansen
@@ -2616,6 +2620,10 @@
       link: https://github.com/mehansen
       link_description: Merethe's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/merethe-hansen/
+      link_description: Merethe's Project Work
+      fa_icon_name: wrench
 - name: jayna-wallace
   fname: Jayna
   lname: Wallace
@@ -2641,6 +2649,10 @@
       link: http://jaynawallace.com/
       link_description: Jayna's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/jayna-wallace/
+      link_description: Jayna's Project Work
+      fa_icon_name: wrench
 - name: spencer-kathol
   fname: Spencer
   lname: Kathol
@@ -2683,4 +2695,8 @@
       link: https://www.linkedin.com/in/daniel-sass-34a79791/
       link_description: Dan's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/dan-sass/
+      link_description: Dan's Project Work
+      fa_icon_name: wrench
 
