@@ -515,7 +515,7 @@
     technical excellence. He's worked in the govtech space his entire career,
     and specializes in software engineering, DevOps, microservices, APIs, and
     cloud computing. Andrew lives in Virginia.
-  active: true
+  active: false
   order: 180
   socials:
     - name: LinkedIn
