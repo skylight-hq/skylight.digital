@@ -9,7 +9,7 @@ feature_image:
 feature_image_description:
 order: 2700
 display: true
-tags: [chris cairns, procurement]
+tags: [procurement, chris cairns]
 excerpt: Advising the Government of Canada on proven principles and practices for using agile procurement to recover from a botched HR pay system rollout and to make more reliable technology acquisitions going forward.
 project_members:
   - chris-cairns
