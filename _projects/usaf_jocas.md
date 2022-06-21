@@ -10,7 +10,7 @@ image_description: An accounting professional using a modern tablet to perform a
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 3300
+order: 1200
 display: true
 tags: [service delivery, research & design, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, laura king, peggy chau, gabriel ramirez, ari perez, gordon farrell]
 excerpt: A modernized system for the U.S. Air Force to perform critical cost accounting functions.
