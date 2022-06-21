@@ -7,7 +7,7 @@ image: /img/projects/ct_oec_website_redesign/oec-website-redesign.svg
 image_description: A caretaker with children sitting around a table and playing with blocks with a computer in the background.
 feature_image:
 feature_image_description:
-order: 3800
+order: 700
 display: true
 tags: [service delivery, research & design, product management, early childhood, social safety net, ashley treni, victoria suwardiman, lara kohl, gabriel ramirez, marvo dolor, amelia wellers]
 excerpt: Redesigning the digital experience for childcare providers and families with young children across Connecticut.
