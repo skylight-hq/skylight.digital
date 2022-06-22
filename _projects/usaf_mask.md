@@ -7,7 +7,7 @@ image: /img/projects/usaf_mask/mask.svg
 image_description: An airman using a technology starter kit
 feature_image: 
 feature_image_description:
-order: 2575
+order: 2000
 display: true
 tags: [software delivery, devops, cloud & platforms, data & analytics, apis, security & privacy, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
 excerpt: By enabling airmen to rapidly build mobile products in-house, the USAF can accelerate the delivery of mission value, reduce application development costs, and grow the skill sets of its force.
