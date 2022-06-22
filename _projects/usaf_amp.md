@@ -7,7 +7,7 @@ image: /img/projects/usaf_amp/amp.svg
 image_description: A person filling out a checklist
 feature_image: 
 feature_image_description:
-order: 2550
+order: 2100
 display: true
 tags: [service delivery, research & design, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
 excerpt: A digital application that simplifies and automates the process for transitioning to a new base, for both airmen and all who support them.
