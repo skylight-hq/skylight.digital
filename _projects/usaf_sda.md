@@ -7,7 +7,7 @@ image: /img/projects/usaf_sda/service-design.svg
 image_description: A few people working on a kanban board on the wall.
 feature_image:
 feature_image_description:
-order: 3900
+order: 600
 display: true
 tags: [transformation, research & design, coaching & training, air force, charlye tran, laura kerry, olivia lucas, zoe do]
 excerpt: Embedding service design ways of thinking and working throughout the U.S. Air Force, starting with BESPIN and the Weather Systems Program Office.
