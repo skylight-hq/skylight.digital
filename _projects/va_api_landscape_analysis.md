@@ -9,7 +9,7 @@ image: /img/projects/va_api_landscape_analysis/api-machine.svg
 image_description: Two people operating a machine that turns data into APIs.
 feature_image:
 feature_image_description:
-order: 1200
+order: 3500
 display: true
 tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns, robert read]
 excerpt: Giving the Veterans Affairs insight into which of their vast collection of public datasets would be most valuable to the veteran community in the form of APIs.
