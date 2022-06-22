@@ -10,7 +10,7 @@ image_description: A person texting with a shopekeeper.
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 1900
+order: 2800
 display: true
 tags: [service delivery, research & design, software delivery, product management, sean johnson]
 excerpt: A messaging service that let consumers text any business, and receive an immediate response.
