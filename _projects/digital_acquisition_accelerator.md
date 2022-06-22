@@ -9,7 +9,7 @@ image: /img/projects/digital_acquisition_accelerator/digital-acquisition-acceler
 image_description: People engaging in conversation about digital acquisition subjects.
 feature_image:
 feature_image_description:
-order: 300
+order: 4400
 display: true
 tags: [procurement, training, coaching & training, chris cairns, shashank khandelwal]
 excerpt: A pilot training program designed to accelerate the development of digital acquisition experts across government.
