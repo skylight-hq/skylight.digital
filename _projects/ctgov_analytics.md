@@ -8,7 +8,7 @@ image_description: People standing around a big computer and looking at a screen
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 2400
+order: 2300
 display: true
 tags: [service delivery, data & analytics, open government, cailyn hansen, colin craig, gabriel ramirez]
 excerpt: Giving the State of Connecticut insight into website usage and trends to better serve the needs of their constituents.
