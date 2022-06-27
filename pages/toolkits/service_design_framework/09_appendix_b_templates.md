@@ -78,7 +78,7 @@ No templates needed.
 
 ## Implement
 
-### [High level roadmap]({{ template.roadmap.url }})
+### [High-level roadmap]({{ template.roadmap.url }})
 
 **Method:** Roadmap
 <br>
