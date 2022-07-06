@@ -7,9 +7,9 @@ image: /img/projects/goc_nextgen_hr_pay_system/nextgen-hr-system.svg
 image_description: Next-generation HR system.
 feature_image:
 feature_image_description:
-order: 2700
+order: 1800
 display: true
-tags: [chris cairns, procurement]
+tags: [procurement, chris cairns]
 excerpt: Advising the Government of Canada on proven principles and practices for using agile procurement to recover from a botched HR pay system rollout and to make more reliable technology acquisitions going forward.
 project_members:
   - chris-cairns

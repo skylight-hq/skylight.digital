@@ -10,7 +10,7 @@ image_description: An Air Force parachutist jumping out of a plan, with digital 
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 3400
+order: 1100
 display: true
 tags: [service delivery, research & design, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, zack gehin, josh dorothy, colin craig, laura king, andrew lloyd, chun yen, jennifer herzberg, david mcclatchey]
 excerpt: A modernized system for the U.S. Air Force to better manage aviation resources and aircrew readiness.

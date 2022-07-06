@@ -9,7 +9,7 @@ image: /img/projects/uscis_everify_modernization/employment-eligibility-verifica
 image_description: A person using a punchcard to enter work.
 feature_image:
 feature_image_description:
-order: 3000
+order: 1500
 display: true
 tags: [service delivery, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, homeland security, citizenship & immigration, josh dorothy, nick bristow, jay danielian]
 excerpt: A modernized digital service for employers to confirm the eligibility of their employees to work in the U.S.
