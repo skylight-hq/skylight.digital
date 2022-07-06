@@ -31,7 +31,11 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **back-end,** when used as an adjective. For example, “back-end development.”
 
+**bid & proposal,** when singular and **bids & proposals** when plural. It’s not bid & proposals when in the plural form.
+
 ## C
+
+**civic tech,** not civictech or CivicTech
 
 **Congress** refers to the U.S. Senate and House of Representatives.
 
@@ -44,6 +48,10 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **DC,** not D.C.
 
 **decision-maker/decision-making**
+
+**Defense Services (DS)**
+
+**DE&I,** not DEI
 
 **DevOps**
 
@@ -59,6 +67,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **executive branch**
 
+**Executive Office (EO)**
+
 **e.g.,** abbreviation for “exempli gratia.” If using, don’t end the sentence with “etc.”
 
 **etc.,** abbreviation for etcetera. Don’t use it redundantly. If you are starting a list with “for example,” you don’t need to add etc. to the end of the sentence.
@@ -70,6 +80,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **federal,** unless part of a proper noun. For example, “Federal Bureau of Investigation.”
 
 **federal government,** not Federal Government or Federal government.
+
+**filename,** not file name.
 
 **fiscal year** is lowercase. It’s okay to abbreviate as FY on the second reference.
 
@@ -83,17 +95,27 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **government,** unless part of a proper noun. For example, “Government Printing Office.”
 
+**govcon,** not gov con or GovCon
+
+**govtech,** not gov tech or GovTech
+
+**Guilds & Squads,** not guilds and squads. 
+
 ## H
 
 **homepage**
 
 **human-centered design,** often used interchangeably with user-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
 
+**Human Services (HS)**
+
 ## I
 
 **info** is an acceptable shortening of information. In formal situations, use the full word.
 
 **internet,** don’t capitalize unless it begins a sentence.
+
+**Internet of Things (IoT)** is considered a proper noun. Use **IoT** on subsequent references.
 
 ## J
 
@@ -105,6 +127,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 ## L
 
+**life cycle,** not lifecycle. For example, “project life cycle.”
+
 **login** when used as a noun, for example, “I forgot my login name and password,” or when used as an adjective, for example “Make sure the login page is 508 complaint.”
 
 **log in** when used as a verb, for example, “Log in to access your calendar.”
@@ -115,7 +139,11 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **Mini-Conference,** when referring to the Sweet Talks initiative.
 
+**Minimum viable product (MVP),** not Minimum Viable Product
+
 ## O
+
+**objectives and key results (OKRs),** not “objective and key results” or “objectives & key results.” Use **OKRs** on subsequent references.
 
 **online,** don’t capitalize unless it begins a sentence.
 
@@ -127,6 +155,10 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **pm,** not p.m.
 
+## Q
+
+**QB Time** is considered a proper noun. Refers to Quickbooks Time.
+
 ## R
 
 **README**
@@ -134,6 +166,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 ## S
 
 **Scrum** should be used to refer to the set of practices for the agile method. We don’t use that term for the daily meetings and instead use “daily standup.”
+
+**Service Excellence (SE)**
 
 **share out,** when referring to the Sweet Talks initiative — Personal Growth Share Outs.
 
@@ -149,6 +183,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **to do** (noun) and **to-do** (adjective). For example, “your to dos” or “your to-do list.”
 
+**Training Services (TS)**
+
 ## U
 
 **United States government** or **U.S. government,** not U.S. Government.
@@ -159,6 +195,13 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **U.S. Web Design System** on first use and **Design System** on subsequent references.
 
+**Utilization Dashboard,** not Utilization dashboard.
+
+## V
+**veteran,** when used for Skylight content (e.g., case studies, social media posts). However, when doing client-facing work (e.g. slide deck presentations), defer to the client’s conventions around capitalization (e.g. the VA capitalizes “Veteran”).
+
 ## W
 
 **WiFi,** not Wi-Fi.
+
+**work-in-progress (WIP),** not “Work In Progress” or “Work in Progress” or “WiP.”

@@ -16,17 +16,19 @@ Adhering to certain rules of grammar and mechanics helps us keep our writing cle
 
 Here are some guiding principles:
 
-* **Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
+- **Write for all readers.** Some people will read every word you write. Others will just skim. Help everyone read better by grouping related ideas together and using descriptive headers and subheaders.
 
-* **Focus your message.** Create a hierarchy of information. Lead with the main point or the most important content, in sentences, paragraphs, sections, and pages.
+- **Focus your message.** Create a hierarchy of information. Lead with the main point or the most important content, in sentences, paragraphs, sections, and pages.
 
-* **Be concise.** Use short words and sentences. Avoid unnecessary modifiers.
+- **Be concise.** Use short words and sentences. Avoid unnecessary modifiers.
 
-* **Be specific.** Avoid vague language. Cut the fluff.
+- **Be specific.** Avoid vague language. Cut the fluff.
 
-* **Be consistent.** Stick to the copy patterns and style points outlined in this guide.
+- **Be consistent.** Stick to the copy patterns and style points outlined in this guide.
 
 ## Abbreviations and acronyms
+
+Please find a comprehensive {% include lock_link.html text="list of acronyms" url="https://docs.google.com/document/d/1-QZssNt_TwFyB5ATPeS5gziwoKFuTUtAB8Xe-TZgndM/edit?usp=sharing" %} used at Skylight. 
 
 If an acronym is necessary for future reference, spell the full word and follow with the acronym in parentheses on the first reference.
 
@@ -38,6 +40,18 @@ If an acronym is necessary for future reference, spell the full word and follow 
 </div>
 
 If the abbreviation or acronym is well known, like NASA, NAACP, or FBI, use it instead (and don’t worry about spelling it out).
+
+If abbreviating a term that’s possessive, don’t include the possessive _s_.
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+The U.S. Air Force's (USAF) Business Enterprise Systems Product INnovation (BESPIN)
+
+#### No
+{: .fails }
+The U.S. Air Force's (USAF’s) Business Enterprise Systems Product INnovation (BESPIN)
+</div>
 
 At the writer’s discretion, refer to organizations on second reference with a shortened name instead of an acronym. For example, use Labor in place of Department of Labor, rather than DOL.
 
@@ -87,7 +101,7 @@ We use a few different forms of capitalization depending on the context. This in
 
 ### Title case
 
-Title case capitalizes the first letter of every word except articles, prepositions, and conjunctions. We use title case only in certain circumstances, such as the main title of a document or a file name.
+Title case capitalizes the first letter of every word except articles, prepositions, and conjunctions. We use title case only in certain circumstances, such as the main title of a document or a filename.
 
 <div class="example" markdown="1">
 #### Yes
@@ -100,6 +114,7 @@ Skylight content guide
 </div>
 
 ### Sentence case
+
 In general, we use sentence case. Sentence case capitalizes the first letter of the first word. This includes headings and subheadings.
 
 <div class="example" markdown="1">
@@ -114,10 +129,10 @@ About this Guide
 
 Other capitalization guidelines:
 
-* Do capitalize proper nouns, including names of individuals, places, and agencies. The main feature of a proper noun is that it names a specific one-of-a-kind item. Use your discretion and context to determine whether to capitalize a word as a proper noun.
-* Don’t capitalize “agile,” unless it's the first word of a sentence.
-* Don’t capitalize “open source,” unless it's the first word of a sentence.
-* Don’t capitalize “federal” or “government.”
+- Do capitalize proper nouns, including names of individuals, places, and agencies. The main feature of a proper noun is that it names a specific one-of-a-kind item. Use your discretion and context to determine whether to capitalize a word as a proper noun.
+- Don’t capitalize “agile,” unless it's the first word of a sentence.
+- Don’t capitalize “open source,” unless it's the first word of a sentence.
+- Don’t capitalize “federal” or “government.”
 
 For more, see the [word list](/work/toolkits/content-guide/word-list/).
 
@@ -171,7 +186,7 @@ Numbers over three digits get commas.
 If you’re wrangling a lot of numbers, tables can help you visualize that content. Long paragraphs cluttered with numbers or dates are more difficult to scan than, for example:
 
 | Report type                | Dates covered         | Due        |
-|----------------------------|-----------------------|------------|
+| -------------------------- | --------------------- | ---------- |
 | Quarterly (Form 3, 3Z, 3L) | January 1–March 31    | April 15   |
 |                            | April 1–June 30       | July 15    |
 |                            | July 1–September 30   | October 15 |
@@ -212,6 +227,16 @@ Use decimal points when a number can’t be easily written out as a fraction.
 * 47.2
 </div>
 
+### Lists
+
+When using numbers to list items, use a single parenthesis. 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* This list of scary animals includes: 1) lions; 2) tigers; 3) bears.
+</div>
+
 ### Money
 
 When writing about U.S. currency, use the dollar sign before the amount. When referring to amounts of U.S. currency in cents or greater than $1 million, use numerals followed by words.
@@ -237,6 +262,12 @@ When writing about other currencies, follow the same symbol-amount format.
 ### Page numbering
 
 Generally, start numbering on the first page. On rare occasions, such as in a formal client report, you may choose to start numbering after the title page.
+
+See the
+{% include lock_link.html
+  text="Skylight Document Style Guide"
+  url="https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic/edit?usp=sharing"
+%} for direct guidance on how to style page numbers.
 
 ### Percentages
 
@@ -264,7 +295,6 @@ Use dashes without spaces between numbers. Use a country code if your reader is 
 * 555-867-5309
 * +1-404-123-4567
 </div>
-
 
 ### Temperature
 
@@ -365,7 +395,6 @@ Erin ordered three kinds of donuts: glazed, chocolate, and pumpkin.
 </div>
 
 You can also use a colon to join two related phrases. If a complete sentence follows the colon, capitalize the first word.
-
 
 <div class="example" markdown="1">
 #### Yes
@@ -471,6 +500,20 @@ Periods go inside quotation marks. They go outside parentheses when the parenthe
 
 Leave a single space between sentences.
 
+### Placeholder text
+
+Use square brackets to indicate placeholder text. Placeholder text lets us know where new text will be added or modified. We often use placeholder text for templates or work-in-progress documents. You don't need to highlight the content between the brackets.
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+[text]
+
+#### No
+{: .fails }
+{text}
+</div>
+
 ### Question marks
 
 Question marks go inside quotation marks if they’re part of the quote. Like periods, they go outside parentheses when the parenthetical is part of a larger sentence, and inside parentheses when the parenthetical stands alone.
@@ -531,6 +574,26 @@ JavaScript/React
 
 ## People, places, and things
 
+### Citations
+
+When we reference a source, we credit the author. We try to provide as much context as possible about the author, including their name, job title, and organization. 
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* **Lisa Tepper Bates,** Co-chair, Governor's Task Force
+* **Captain Lauren Ellis,** U.S. Air Force
+</div>
+
+In contexts where the author may be unknown, (for instance, social media platforms), reference the username and platform where the information was found.  
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* **@usairforce,** Twitter
+* **TheGainsWizard,** Reddit
+</div>
+
 ### File extensions
 
 When referring generally to a file extension type, use all uppercase without a period. Add a lowercase s to make plural.
@@ -568,13 +631,27 @@ Capitalize the names of departments and teams (but not the word "team" or "depar
 * Support department
 </div>
 
-Capitalize individual job titles when referencing a specific role used directly before an individual’s name.  Don't capitalize when referring to the role in general terms.
+Sometimes we shorten a team name within the organization. The same rules as above apply. 
 
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
-* Please welcome Marketing Manager Susan James, who starts today.
-* Susan James, our marketing manager, starts today.
+* Ops team
+* Comms team
+</div>
+
+When you’re referring to an employee and their role or talking to a candidate about what their role would be, use title case (as the role becomes a proper noun).
+
+When generically referring to a role, use sentence case.
+
+We typically only refer to functional categories, such as Research & Design, when talking about job categories and communities of practice. The convention here is to use title case.
+
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+* Please welcome Susan James, our Marketing Manager, who starts today.
+* We’re looking for a Marketing Manager to join our talented team.
 * All the marketing managers ate donuts.
 </div>
 

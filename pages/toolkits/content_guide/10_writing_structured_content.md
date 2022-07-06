@@ -37,6 +37,10 @@ Blog posts are written by people, for people. Don’t be afraid to put yourself 
 
 No single post is going to cover the breadth of a topic or completely convince an agency to adopt our practices. **The goal of a blog post should be to communicate one idea clearly, and make it short and readable enough for your audience to read the whole thing**. It’s likely that as you’re writing a post, all kinds of details and new ideas will pop into your head. Consider breaking up your post into a series that will bring the reader along to learn a new skill or gain a deep understanding of how a product was built.
 
+### Template 
+
+Use the {% include lock_link.html text="Blog Post Template" url="https://docs.google.com/document/d/1qT9UN6zVYRdwa6sGYXTQ7B052FpkUoyzk-mZv1dmCOw/edit?usp=sharing" %} to help you craft your blog post.
+
 ### Authorship
 
 The authors listed on a blog post should be only the people who have actively contributed significant portions of text to the blog post. Generally, posts should only be written by one or two people. Limiting the number of people who write a post makes it feel more personal and less written by committee, allows for a stronger voice in the writing, and helps speed up the editing and approval process.
@@ -45,11 +49,19 @@ The authors listed on a blog post should be only the people who have actively co
 
 Case studies take a high-level look at a complete Skylight project. They’re generally more structured than blog posts. Case studies should convey big-picture details about a project, such as who the users are, what their problems are, and how Skylight helped solve their problems. At the end of the day, case studies are tools for demonstrating the value that we can provide to prospective clients and teaming partners. Therefore, we're aiming for compelling, "executive-level" narratives. For an example, see [Modernizing COVID-19 testing and reporting in non-traditional healthcare settings](https://skylight.digital/work/experience/cdc-simplereport/).
 
+### Template 
+
+Use the {% include lock_link.html text="Case Study Template" url="https://docs.google.com/document/d/16FCpdFwvwM6t3QOlRjDAM3Lpdxc9lxNNSuZaiKI9AAQ/edit?usp=sharing" %} to help you refine your case study narrative.
+
 ## Employee spotlight post
 
 As Skylight grows, it’s important for us to continue to recruit amazing people. It’s also important to us that we further your career by giving you opportunities to build your personal brand.
 
 An Employee Spotlight Blog Post is a great way to achieve both. By showing people a bit about who we are, what we do, and why we do it, we make what could seem wonky a bit more relatable. For an example, see [Gianna Buda: Launching a civic tech career](https://skylight.digital/thoughts/blog/gianna-buda-launching-a-civic-tech-career/).
+
+### Template 
+
+Use the {% include lock_link.html text="Employee Spotlight Blog Post Template" url="https://docs.google.com/document/d/1Kbik5rALnHiRpPNduFodqggqbWSfLXjRrzP8ggjdpCg/edit?usp=sharing" %} for drafting purposes.
 
 ## Style guides
 

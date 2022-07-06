@@ -15,16 +15,16 @@ display: true
 tags: [service delivery, research & design, devops, healthcare, suzanne chapman, abby raskin, victor zapanta, rebecca lubitzmarchena, nick bristow, lara kohl, ashley treni, maya benari, gabriel ramirez, chris cairns]
 excerpt: To help medical providers and the public navigate telehealth information and resources during the COVID-19 public health emergency and beyond, we launched a site to do just that.
 project_members:
+  - victor-zapanta
+  - nick-bristow
+  - chris-cairns
+  - rebecca-lubitzmarchena
   - suzanne-chapman
   - abby-raskin
-  - victor-zapanta
-  - rebecca-lubitzmarchena
-  - nick-bristow
   - lara-kohl
   - ashley-treni
   - maya-benari
   - gabriel-ramirez
-  - chris-cairns
 technologies:
   - HTML / CSS
   - U.S. Web Design System

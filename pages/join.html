@@ -9,11 +9,8 @@ hero_content: Help us change the way government works.
 preload: hero-join-us.svg
 ---
 
-{% include hero_banner.html
-  hero_content = "Help us change the way government works."
-  color = "green"
-  image = "hero-join-us.svg"
-%}
+{% include hero_banner.html hero_content = "Help us change the way government
+works." color = "green" image = "hero-join-us.svg" %}
 
 <div class="grid-container">
   <div class="row">
@@ -22,11 +19,19 @@ preload: hero-join-us.svg
         <nav class="subnav-col px-0" id="sidenav">
           <ul>
             <li class="current">
-              <a class="nav-link" href="#why-skylight" aria-current="location">Why Skylight?</a>
+              <a class="nav-link" href="#why-skylight" aria-current="location"
+                >Why Skylight?</a
+              >
             </li>
             <li><a class="nav-link" href="#care-package">Care package</a></li>
-            <li><a class="nav-link" href="#open-positions">Open positions</a></li>
-            <li><a class="nav-link" href="#interview-process">Interview process</a></li>
+            <li>
+              <a class="nav-link" href="#open-positions">Open positions</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#interview-process"
+                >Interview process</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -38,85 +43,119 @@ preload: hero-join-us.svg
         <h3>Our mission matters</h3>
         <p>
           We’re more than a company. We represent a movement to reinvent how the
-          government serves families, patients, veterans, immigrants, and many others
-          in today’s digital world. Everything about us — our structure,
-          <a href="/company/values/">values</a>, <a href="/work/services/">services</a>,
-          <a href="/work/experience/">work</a>, <a href="/thoughts/blog/">thoughts</a>,
-          and <a href="/company/about/">team</a> — is designed with that purpose in mind.
+          government serves families, patients, veterans, immigrants, and many
+          others in today’s digital world. Everything about us — our structure,
+          <a href="/company/values/">values</a>,
+          <a href="/work/services/">services</a>,
+          <a href="/work/experience/">work</a>,
+          <a href="/thoughts/blog/">thoughts</a>, and
+          <a href="/company/about/">team</a> — is designed with that purpose in
+          mind.
         </p>
 
         <h3>You matter</h3>
         <p>
-          It’s people like you — with talents in research, design, product, engineering, data, and more —
-          who can make a difference. We’ve created an environment that empowers you to unleash your skills
-          for public good, whether that’s improving
-          <a href="/work/experience/ct-ece-reporter/">early childhood outcomes</a>
-          or <a href="/work/experience/va-diffusion-marketplace/">helping to save veteran lives</a>.
-          You’ll work alongside a team of <a href="/company/about/#meet-the-team">extraordinarily-talented people</a>
-          who strive to bring out the best in you and each other. You’ll also be taken care of with a
-          well-thought-out <a href="#care-package">compensation and benefits package</a>.
-          We want you to be happy, fulfilled, and well-supported.
+          It’s people like you — with talents in research, design, product,
+          engineering, data, and more — who can make a difference. We’ve created
+          an environment that empowers you to unleash your skills for public
+          good, whether that’s improving
+          <a href="/work/experience/ct-ece-reporter/"
+            >early childhood outcomes</a
+          >
+          or
+          <a href="/work/experience/va-diffusion-marketplace/"
+            >helping to save veteran lives</a
+          >. You’ll work alongside a team of
+          <a href="/company/about/#meet-the-team"
+            >extraordinarily-talented people</a
+          >
+          who strive to bring out the best in you and each other. You’ll also be
+          taken care of with a well-thought-out
+          <a href="#care-package">compensation and benefits package</a>. We want
+          you to be happy, fulfilled, and well-supported.
         </p>
 
         <h3>We’re just getting started</h3>
         <p>
-          We’re still in startup mode, and our future is bright. We’re doing impactful work,
-          building an amazing team, and improving every day. Everyone is given the opportunity
-          to shape the company in some way. We’d love for you to join us in creating something special.
+          We’re still in startup mode, and our future is bright. We’re doing
+          impactful work, building an amazing team, and improving every day.
+          Everyone is given the opportunity to shape the company in some way.
+          We’d love for you to join us in creating something special.
         </p>
 
         <div class="image-list row">
           <div class="col-sm-4 col-lg-3">
             <div class="employee-gradient employee-gradient__img">
-              <img class="image-list__employee-img" src="{{ site.baseurl }}/img/people/charlye-tran.jpg" alt="Charlye Tran">
+              <img
+                class="image-list__employee-img"
+                src="{{ site.baseurl }}/img/people/charlye-tran.jpg"
+                alt="Charlye Tran"
+              />
             </div>
           </div>
           <div class="join__quote col-sm-8 col-lg-9">
             <p class="quote-text font-size-large">
-              “I love being able to work somewhere that empowers you to hone in on solving the
-              right problems in an increasingly complex environment, alongside some of the most
-              inspired and talented folks in the industry.”
+              “I love being able to work somewhere that empowers you to hone in
+              on solving the right problems in an increasingly complex
+              environment, alongside some of the most inspired and talented
+              folks in the industry.”
             </p>
-            <p class="join-quote__byline">– <b>Charlye Tran,</b> Service Designer</p>
+            <p class="join-quote__byline">
+              – <b>Charlye Tran,</b> Service Designer
+            </p>
           </div>
         </div>
 
         <div class="image-list row">
           <div class="col-sm-4 col-lg-3">
             <div class="employee-gradient employee-gradient__img">
-              <img class="image-list__employee-img" src="{{ site.baseurl }}/img/people/karthik-patil.jpg" alt="Karthik Patil">
+              <img
+                class="image-list__employee-img"
+                src="{{ site.baseurl }}/img/people/karthik-patil.jpg"
+                alt="Karthik Patil"
+              />
             </div>
           </div>
           <div class="join__quote col-sm-8 col-lg-9">
             <p class="quote-text font-size-large">
-              “I appreciate Skylight’s holistic approach to helping agencies achieve digital mastery,
-              which is what the government needs more of from industry.”
+              “I appreciate Skylight’s holistic approach to helping agencies
+              achieve digital mastery, which is what the government needs more
+              of from industry.”
             </p>
 
-            <p class="join-quote__byline">– <b>Karthik Patil,</b> VP of Defense Services</p>
+            <p class="join-quote__byline">
+              – <b>Karthik Patil,</b> VP of Defense Services
+            </p>
           </div>
         </div>
 
         <div class="image-list row">
           <div class="col-sm-4 col-lg-3">
             <div class="employee-gradient employee-gradient__img">
-              <img class="image-list__employee-img" src="{{ site.baseurl }}/img/people/laura-king.jpg" alt="Laura King">
+              <img
+                class="image-list__employee-img"
+                src="{{ site.baseurl }}/img/people/laura-king.jpg"
+                alt="Laura King"
+              />
             </div>
           </div>
           <div class="join__quote col-sm-8 col-lg-9">
             <p class="quote-text font-size-large">
-              “Skylight gives me ownership over my work and allows me to carve a path where I
-              can make the biggest impact.”
+              “Skylight gives me ownership over my work and allows me to carve a
+              path where I can make the biggest impact.”
             </p>
 
-            <p class="join-quote__byline">– <b>Laura King,</b> Service Designer</p>
+            <p class="join-quote__byline">
+              – <b>Laura King,</b> Service Designer
+            </p>
           </div>
         </div>
 
         <h2 id="care-package">Care package</h2>
         <p class="text-intro">
-          We hire good people and support them with the best compensation and benefits possible.
-          We keep an open dialog with everyone on the team to make what we offer even better.
+          We hire good people and support them with the best compensation and
+          benefits possible. We keep an open dialog with everyone on the team to
+          make what we offer even better.
         </p>
 
         <div class="text-grid row section__care-package">
@@ -124,8 +163,9 @@ preload: hero-join-us.svg
             {% include icons/join/compensation.svg %}
             <h3>Compensation</h3>
             <p>
-              We offer a competitive salary, opportunities for a stake in the company’s success with stock
-              options, performance rewards, referral bonuses, and a quick-pay program.
+              We offer a competitive salary, opportunities for a stake in the
+              company’s success with stock options, performance rewards,
+              referral bonuses, and a quick-pay program.
             </p>
           </div>
 
@@ -133,9 +173,10 @@ preload: hero-join-us.svg
             {% include icons/join/future.svg %}
             <h3>Future</h3>
             <p>
-              We match your 401(k) dollar-for-dollar up to 10% of your salary. We also offer a
-              budget of up to $2,000 per year for professional development, which includes
-              conferences, training, travel, and materials.
+              We match your 401(k) dollar-for-dollar up to 10% of your salary.
+              We also offer a budget of up to $2,000 per year for professional
+              development, which includes conferences, training, travel, and
+              materials.
             </p>
           </div>
 
@@ -143,10 +184,11 @@ preload: hero-join-us.svg
             {% include icons/join/health.svg %}
             <h3>Health</h3>
             <p>
-              We cover 90% of your medical premium, 99% of premiums for vision and dental,
-              and 50% of premiums for dependents. We also provide life insurance, short- and
-              long-term disability insurance, healthcare and dependent care flexible
-              spending accounts, and a health savings account.
+              We cover 90% of your medical premium, 99% of premiums for vision
+              and dental, and 50% of premiums for dependents. We also provide
+              life insurance, short- and long-term disability insurance,
+              healthcare and dependent care flexible spending accounts, and a
+              health savings account.
             </p>
           </div>
 
@@ -154,8 +196,8 @@ preload: hero-join-us.svg
             {% include icons/join/parental-leave.svg %}
             <h3>Parental leave</h3>
             <p>
-              We offer a minimum of 9 weeks paid time off for all eligible new birth,
-              adoption, or foster parents.
+              We offer a minimum of 9 weeks paid time off for all eligible new
+              birth, adoption, or foster parents.
             </p>
           </div>
 
@@ -163,8 +205,9 @@ preload: hero-join-us.svg
             {% include icons/join/time-off.svg %}
             <h3>Time off</h3>
             <p>
-              We offer 31 paid days off per year: 15 vacation days, 11 federal holidays, 
-              and 5 floating holidays. We also offer a flexible sick leave policy.
+              We offer 31 paid days off per year: 15 vacation days, 11 federal
+              holidays, and 5 floating holidays. We also offer a flexible sick
+              leave policy.
             </p>
           </div>
 
@@ -172,9 +215,9 @@ preload: hero-join-us.svg
             {% include icons/join/flexibility.svg %}
             <h3>Flexibility</h3>
             <p>
-              We give you maximum flexibility to decide when, where, and how to get your
-              work done. We’re a distributed and remote-friendly team, currently spread out across
-              {{site.state_count}} different states.
+              We give you maximum flexibility to decide when, where, and how to
+              get your work done. We’re a distributed and remote-friendly team,
+              currently spread out across {{site.state_count}} different states.
             </p>
           </div>
 
@@ -182,9 +225,12 @@ preload: hero-join-us.svg
             {% include icons/join/shopping-cart.svg %}
             <h3>Stuff</h3>
             <p>
-              We provide an annual tech budget of up to $750 for anything, such as a new computer,
-              that you think will help to do your job better. Most software that you need will be
-              provided by us. We also provide an annual <a href="https://skylight-swag.myshopify.com/">Skylight swag</a> budget of $100.
+              We provide an annual tech budget of up to $750 for anything, such
+              as a new computer, that you think will help to do your job better.
+              Most software that you need will be provided by us. We also
+              provide an annual
+              <a href="https://skylight-swag.myshopify.com/">Skylight swag</a>
+              budget of $100.
             </p>
           </div>
 
@@ -193,8 +239,9 @@ preload: hero-join-us.svg
             <h3>Code of conduct</h3>
             <p>
               Everyone deserves a safe, inclusive environment. We live by our
-              <a href="/company/policies/code-of-conduct/">Code of Conduct</a>, and actively look
-              for ways to make it even stronger, as well as reinforce expected behaviors.
+              <a href="/company/policies/code-of-conduct/">Code of Conduct</a>,
+              and actively look for ways to make it even stronger, as well as
+              reinforce expected behaviors.
             </p>
           </div>
 
@@ -202,10 +249,12 @@ preload: hero-join-us.svg
             {% include icons/join/community.svg %}
             <h3>Community</h3>
             <p>
-              We give you multiple pathways to engage with your community. We match 100% of
-              any charitable donations you make, up to $500 per year, and offer access to
-              community networks, such as the <a href="https://digitalservicescoalition.org/">Digital Services Coalition</a>,
-              which we co-founded.
+              We give you multiple pathways to engage with your community. We
+              match 100% of any charitable donations you make, up to $500 per
+              year, and offer access to community networks, such as the
+              <a href="https://digitalservicescoalition.org/"
+                >Digital Services Coalition</a
+              >, which we co-founded.
             </p>
           </div>
         </div>
@@ -214,57 +263,181 @@ preload: hero-join-us.svg
     <div id="grnhse_app"></div>
 
     <div id="interviewing">
+      <!-- {% include open_positions.html %} -->
+
+      <div class="callout--tip left-justified-list">
+        <p class="callout_title">Is an internship or apprenticeship right for me?</p>
+        <ul class="">
+          <li>
+            An internship is short term, generally lasting 2–3 months. An apprenticeship may last for 12 months or more. 
+            If you do an internship, there may be an option at the end to extend to an apprenticeship.
+          </li>
+          <li>
+            Whether you apply for an internship or apprenticeship, 
+            our goal is to help you build professional experience, mentor you, and give you exposure to real client projects. 
+            Both types of roles are paid and can lead to a full-time role if you’re a good fit for Skylight. 
+          </li>
+        </ul>
+      </div>
+      
+      <div id="interviewing">
         <h2 id="interview-process">Interview process</h2>
-        <p class="text-intro">If you apply for a position, here’s what you can expect in terms of the process:</p>
-
-        <h3>1. Application review</h3>
-        <p>
-          After you submit your application, we’ll evaluate your information against
-          the qualifications of our open positions and communicate next steps.
-          (We encourage you to include links to samples of your work, if you have any.)
-          If you look like a potential match, we’ll begin the live interview process.
+        <p class="text-intro">
+          If you apply for a position, here’s what you can expect in terms of
+          the process:
         </p>
 
-        <h3>2. Preliminary screening</h3>
-        <p>
-          The interview process begins with a 15-minute or 30-minute preliminary screening
-          call by phone or video. Plan to talk about your skills and experience, what
-          you’re passionate about, and what Skylight is like. The call will also cover
-          the interview process, structure, basic employment requirements, and
-          employee benefits. If the preliminary screening call goes well, we’ll
-          schedule you for a skills interview and a behavioral interview. Both interviews
-          are generally held by phone or video.
-         </p>
+        <div class="interview-explanation left-justified-list text">
+          <h3>Interview basics</h3>
+          <p>
+            We strongly prioritize the human element of the workplace, so the
+            goal of our interview process is to get to know you and how you
+            work. We don’t look for perfection; we look for a growth mindset,
+            excellent communication skills, ability to deal with ambiguity, and
+            capability to adapt. You won’t be penalized for taking time to think
+            before responding, asking to repeat a question, or correcting
+            yourself. With that in mind, please note:
+          </p>
 
-        <h3>3. Skills interview</h3>
-        <p>
-          The skills interview runs between 60 and 90 minutes. You’ll be asked a
-          variety of questions about your experience and skills, and how you’d apply
-          them within the context of Skylight’s work.
+          <ul>
+            <li>
+              All of our screenings and interviews occur via videoconference.
+            </li>
+            <li>
+              A Google Meet or Zoom link will be included in your calendar
+              invitation.
+            </li>
+            <li>
+              Dress in a way that makes you comfortable. No need for blazers or
+              button ups if you prefer a hoodie.
+            </li>
+            <li>
+              We're an equal opportunity employer. If you need reasonable
+              accommodations for a disability, please <a href="mailto:recruiting@skylight.digital">reach out to us</a> 
+              with your accommodation request.
+            </li>
+          </ul>
+          We use the interview process to not only evaluate whether you’re a
+          good fit for Skylight, but also to map you to a
+          <a  href="/careers/career-pathways/">career level</a>, which ultimately
+          determines your salary range.
+        </div>
+
+        <div class="interview-explanation">
+          <h3>Interview steps</h3>
+
+          <p>
+            After you submit your application, we’ll evaluate your information
+            against the qualifications of our open positions. If you look like a
+            potential match, we’ll begin the interview process and communicate
+            the next steps.
+          </p>
+
+          <h4>1. Preliminary screening</h4>
+          <p>
+            The interview process begins with a 15-minute preliminary screening.
+            We’ll send you an email beforehand with background information about
+            Skylight. Plan to talk about your skills and experience and what
+            you’re passionate about. The call will also cover the interview
+            process and basic employment requirements.
+          </p>
+          <p>
+            Hiring managers will review notes from the screening, your resume,
+            and portfolio (if applicable). If it’s a good fit, we’ll schedule
+            you for a skills interview.
+          </p>
+
+          <h4>2. Skills interview</h4>
+          <p>
+            The skills interview runs between 60 and 90 minutes. You’ll meet
+            with two interviewers with experience in your discipline. They’ll
+            ask a variety of questions about your experience and skills, and how
+            you’d apply them within the context of Skylight’s work. We’ll leave
+            you with 10–15 minutes at the end for your questions.
+          </p>
+        </div>
+      </div>
+
+      <div class="callout--tip left-justified-list">
+        <p class="callout_title">What to expect, by role:</p>
+        <ul class="">
+          <li>
+            <p class="callout_subtitle">Research or design</p>
+            45–60 minutes presenting one or two examples from your portfolio,
+            and 20–30 minutes answering questions
+          </li>
+          <li>
+            <p class="callout_subtitle">Software engineer or DevOps engineer</p>
+            A coding and coaching exercise for the majority of the interview
+          </li>
+          <li>
+            <p class="callout_subtitle">Business strategy and operations</p>
+            Meeting with people who may not have experience in your discipline,
+            but whose work will closely intersect with yours
+          </li>
+        </ul>
+      </div>
+      <p>
+            We’ll send you an email a few days prior to the interview with more details so you know how to prepare. 
+            Afterwards, your Skylight interviewers will share their notes with our hiring team. 
+            If you’re a good fit for our open roles, we’ll schedule you for a behavioral interview. 
         </p>
-
-        <h3>4. Behavioral interview</h3>
-        <p>
-          The behavioral interview lasts approximately one hour, and will assess how
-          you interact with colleagues and get work done.
-        </p>
-
-        <h3>5. Additional interviews (if needed)</h3>
-        <p>
-          In some cases, we’ll conduct additional interviews to evaluate areas
-          we’d like to know more about.
-        </p>
-
-        <h3>6. The offer</h3>
-        <p>
-          If all the interviews go well, you’ll receive a preliminary offer followed
-          by an official offer, including an agreed-upon start date!
-        </p>
-
-    </section>
-
+      
+      <div class="interview-explanation">
+          <h4>3. Behavioral interview</h4>
+          <p>
+            The behavioral interview lasts for one hour. The intent is to assess whether or not you’d be a good fit for Skylight’s values. 
+            You’ll meet with two interviewers who will ask questions about how you communicate, collaborate, and how you approach challenging situations at work. 
+            We’ll leave you with 10–15 minutes at the end for your questions. 
+          </p>
+          <p>
+            There’s no formal preparation needed for this interview, 
+            but we’ll send you an email a few days prior to the interview with more details so you know exactly what to expect. 
+          </p>
+      
+          <h4>4. Additional interviews (if needed)</h4>
+          <p>
+            In some cases, we’ll conduct additional interviews to evaluate areas we’d like to know more about. 
+            At this stage, we’ll also give you the opportunity to meet with potential teammates and ask additional questions, 
+            so you can make an informed decision on whether or not you’d like to move forward. 
+          </p>
+      
+          <h4>5. The offer</h4>
+          <p>
+            If all the interviews go well, you’ll receive a preliminary offer followed by an official offer, 
+            which will include an agreed-upon start date. Congratulations!
+          </p>
+        </div>
+   
+      
+        <div class="interview-explanation">
+          <h3>Internships and apprenticeships</h3>
+          
+           <p>
+            If you’re applying for an internship or apprenticeship, you’ll go through a shorter process. 
+          </p>
+           <p>
+            First, submit your application. If you’re applying for a research or design role, 
+            please include a portfolio of 1–2 showcase projects, if you have one. 
+            Your portfolio can be anything from a website to a slide deck (whatever works for you). 
+            Please ensure that you either remove the password to your portfolio or provide access details.
+          </p>
+          <p>
+            If you look like a potential match, we’ll do a preliminary screening. 
+            Plan to talk about your interests, experiences, and what you hope to get out of an internship or apprenticeship at Skylight. 
+          </p>
+           <p>
+            The next step is a 60-minute skills interview, where you’ll meet with one interviewer with experience in your discipline. 
+             They’ll ask a variety of questions about your experience and skills, 
+             and how you’d apply them within the context of an internship or apprenticeship at Skylight. 
+             We’ll leave you with 10–15 minutes at the end for your questions. 
+          </p>
+          <p>
+            Finally, if you’re selected for an internship or apprenticeship, you’ll receive an offer! 
+            We’ll decide on a start date based on when we're able to onboard a class of interns or apprentices together. 
+          </p>
+       </section>
   </div>
-
 </div>
 
 {% include intro_cta.html %}

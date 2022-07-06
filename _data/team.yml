@@ -51,7 +51,7 @@
   profile_path: /company/about/#sean-johnson
   image: /img/people/sean-johnson.jpg
   image_description: Photo of Sean Johnson
-  position: Software Engineer
+  position: Principal Software Engineer
   bio: >
     Sean's built and exited two tech startups, one of which was bought by
     IBM. He's been programming since he was six years old, and specializes in
@@ -92,7 +92,7 @@
   profile_path: /company/about/#robert-read
   image: /img/people/robert-read.jpg
   image_description: Photo of Robert Read
-  position: Software Engineer
+  position: Principal Software Engineer
   bio: >
     Robert served as a Presidential Innovation Fellow and co-founded 18F.
     He's been programming since he was 13 years old, and holds a PhD in computer science.
@@ -283,7 +283,7 @@
   profile_path: /company/about/#nick-bristow
   image: /img/people/nick-bristow.jpg
   image_description: Photo of Nick Bristow
-  position: Software Engineer
+  position: Staff Software Engineer
   bio: >
     Nick's a former member of 18F, who relentlessly pursues creating
     products that are fully accessible and meet the needs of all
@@ -316,7 +316,7 @@
   profile_path: /company/about/#victor-zapanta
   image: /img/people/victor-zapanta.jpg
   image_description: Photo of Victor Zapanta
-  position: Research & Design Practice Lead
+  position: Principal User Researcher
   bio: >
     Victor co-founded the Consumer Financial Protection Bureau's Design+Tech team,
     and served as a member of 18F. His design leadership spans multiple high-profile
@@ -509,7 +509,7 @@
   profile_path: /company/about/#andrew-wagner
   image: /img/people/andrew-wagner.jpg
   image_description: Photo of Andrew Wagner
-  position: Software Engineer
+  position: Staff Software Engineer
   bio: >
     Andrew's a polyglot software engineer, with a passion for delivering
     technical excellence. He's worked in the govtech space his entire career,
@@ -592,7 +592,7 @@
   profile_path: /company/about/#becca-bartola
   image: /img/people/becca-bartola.jpg
   image_description: Photo of Becca Bartola
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Becca's a former Etsy designer, with a passion for creating positive change
     through great user experiences. She specializes in user research, user experience
@@ -620,7 +620,7 @@
   profile_path: /company/about/#laura-king
   image: /img/people/laura-king.jpg
   image_description: Photo of Laura King
-  position: Service Designer
+  position: Staff User Researcher
   bio: >
     Laura's a researcher, strategist, and designer. She loves to solve
     complex problems by empathizing with and understanding the needs of users.
@@ -1106,7 +1106,7 @@
   profile_path: /company/about/#peggy-chau
   image: /img/people/peggy-chau.jpg
   image_description: Photo of Peggy Chau
-  position: User Researcher
+  position: Senior User Researcher
   bio: >
     Peggy's a researcher and designer who transitioned from clinical
     neuroscience research. She's worked on various projects, from researching
@@ -1135,7 +1135,7 @@
   profile_path: /company/about/#zack-gehin
   image: /img/people/zack-gehin.jpg
   image_description: Photo of Zack Gehin
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Zack's certified in UX by the Nielsen Norman Group and specializes in complex
     application design. His entrepreneurial spirit adds a unique approach towards
@@ -1192,7 +1192,7 @@
   profile_path: /company/about/#nick-clyde
   image: /img/people/nick-clyde.jpg
   image_description: Photo of Nick Clyde
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Nick's a software engineer with a passion for using technology to solve the
     right kinds of problems. He especially enjoys building APIs, designing and
@@ -1247,7 +1247,7 @@
   profile_path: /company/about/#charlye-tran
   image: /img/people/charlye-tran.jpg
   image_description: Photo of Charlye Tran
-  position: Service Designer
+  position: Senior Product Manager
   bio: >
     Charlye loves to solve complex problems. As a former software and data engineer, she now
     specializes in service design and product management and is certified in UX by the Nielsen Norman
@@ -1565,10 +1565,10 @@
   image_description: Illustration of Lucas Newman
   position: Software Engineer
   bio: >
-    Lucas's a software engineer with an unflinching faith in the ethical potential of
+    Lucas is a software engineer with an unflinching faith in the ethical potential of
     technology to solve big societal problems. He specializes in mobile application
     architecture and engineering. Lucas lives in Georgia.
-  active: true
+  active: false
   order: 390
   socials:
     - name: LinkedIn
@@ -1591,7 +1591,7 @@
   profile_path: /company/about/#kenny-nieh
   image: /img/people/kenny-nieh.jpg
   image_description: Photo of Kenny Nieh
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Kenny's a product designer, inclusive systems thinker, and people person.
     They work through the whole gamut of product design to create experiences that
@@ -1635,7 +1635,7 @@
   profile_path: /company/about/#rebecca-lubitzmarchena
   image: /img/people/rebecca-lubitzmarchena.jpg
   image_description: Photo of Rebecca Lubitz-Marchena
-  position: Content Designer
+  position: Staff Content Designer
   bio: >
     Rebecca's a content designer with a background in product marketing,
     UX writing, and localization. She enjoys turning complex concepts into plain
@@ -1687,7 +1687,7 @@
   profile_path: /company/about/#jamie-song
   image: /img/people/jamie-song.png
   image_description: Illustration of Jamie Song
-  position: Chief oF Staff
+  position: Chief of Staff
   bio: >
     Jamie's a product manager with a passion for good, clean product experiences.
     She excels at leading and managing cross-functional teams across the entire product
@@ -1803,7 +1803,7 @@
   profile_path: /company/about/#jesse-skeets
   image: /img/people/jesse-skeets.png
   image_description: Illustration of Jesse Skeets
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Jesse's a software engineer with a background in federal health. He enjoys all aspects of
     software development and loves solving inefficiencies while building secure and robust
@@ -1910,7 +1910,7 @@
   profile_path: /company/about/#nicole-wright
   image: /img/people/nicole-wright.jpg
   image_description: Photo of Nicole Wright
-  position: Product Manager
+  position: Senior Product Manager
   bio: >
     Nicole's a product manager, who's drawn to delivering products that help people. Most recently, she worked with the Air Force's Kessel Run program to modernize in-air refueling planning and platform development. Nicole lives in Washington.
   active: true
@@ -1932,7 +1932,7 @@
   profile_path: /company/about/#tiffany-nieh
   image: /img/people/tiffany-nieh.jpg
   image_description: Photo of Tiffany Nieh
-  position: Product Designer
+  position: Staff Product Designer
   bio: >
     Tiffany's a product designer who loves understanding people's needs and creating solutions that have a positive impact. Most recently, she worked at Pivotal Labs / VMware Tanzu where she helped startups, large enterprises, and government organizations build software using modern practices. Tiffany lives in California.
   active: true
@@ -1964,6 +1964,10 @@
       link: https://karthikpatil.com/
       link_description: Karthik's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/karthik-patil/
+      link_description: Karthik's Project Work
+      fa_icon_name: wrench
 - name: becca-woodberry
   fname: Becca
   lname: Woodberry
@@ -2034,7 +2038,7 @@
   profile_path: /company/about/#nick-blake
   image: /img/people/nick-blake.jpg
   image_description: Photo of Nick Blake
-  position: Product Designer Apprentice
+  position: Product Designer
   bio: >
     Nick's a product designer, who's studying psychology and human-computer interaction at the Washington University in St. Louis. They most recently worked as a Civic Digital Fellow at the U.S. Citizenship and Immigration Services. Nick lives in Missouri.
   active: true
@@ -2056,7 +2060,7 @@
   profile_path: /company/about/#bob-zhao
   image: /img/people/bob-zhao.jpg
   image_description: Photo of Bob Zhao
-  position: Software Engineer Intern
+  position: Software Engineer
   bio: >
     Bob's a software engineer in pursuit of solving large-scale problems that matter. In 2020, he served as Civic Digital Fellow at the National Institutes of Health, and is currently pursuing a masters degree in computer science at  Washington University in St. Louis. He lives in Missouri.
   active: true
@@ -2070,6 +2074,10 @@
       link: https://github.com/fzhao99
       link_description: Bob's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/bob-zhao/
+      link_description: Bob's Project Work
+      fa_icon_name: wrench
 - name: ashton-tu
   fname: Ashton
   lname: Tu
@@ -2078,7 +2086,7 @@
   profile_path: /company/about/#ashton-tu
   image: /img/people/ashton-tu.jpg
   image_description: Photo of Ashton Tu
-  position: Product Designer Apprentice
+  position: Product Designer
   bio: >
     Ashton's a product designer, who recently graduated from the University of Southern California. As a 2020 Civic Digital Fellow with the General Services Administration, she discovered her passion for civic tech. Ashton lives in California.
   active: true
@@ -2088,6 +2096,10 @@
       link: https://www.linkedin.com/in/ashton-tu
       link_description: Ashton's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/ashton-tu/
+      link_description: Ashton's Project Work
+      fa_icon_name: wrench
 - name: andrew-lloyd
   fname: Andrew
   lname: Lloyd
@@ -2122,7 +2134,7 @@
   profile_path: /company/about/#tim-niehoff
   image: /img/people/tim-niehoff.jpg
   image_description: Photo of Tim Niehoff
-  position: Product Manager
+  position: Staff Product Manager
   bio: >
     Tim's a seasoned product manager with a passion for building small, releasing early, and iterating often. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped transform the way startups and large enterprises build software. Tim lives in Illinois.
   active: true
@@ -2132,6 +2144,10 @@
       link: https://www.linkedin.com/in/timniehoff/
       link_description: Tim's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/tim-niehoff/
+      link_description: Tim's Project Work
+      fa_icon_name: wrench
 - name: pri-kiser
   fname: Pri
   lname: Kiser
@@ -2140,7 +2156,7 @@
   profile_path: /company/about/#pri-kiser
   image: /img/people/pri-kiser.jpg
   image_description: Photo of Pri Kiser
-  position: Product Designer
+  position: Staff Product Designer
   bio: >
     Pri's a product designer who draws on her background in neuroscience and human-computer interaction to create delightful user experiences. She previously worked at Pivotal Labs / VMware Tanzu where she built high-impact products and scaled design practices across various types of organizations. Pri lives in Texas.
   active: true
@@ -2158,7 +2174,7 @@
   profile_path: /company/about/#taylor-curtiss
   image: /img/people/taylor-curtiss.jpg
   image_description: Photo of Taylor Curtiss
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Taylor's passionate about improving government services through user-centered design. She’s an Air Force veteran and most recently worked as a product designer at Kessel Run. Taylor specializes in research, design, strategic thinking, and building high-performing teams. She lives in Massachusetts.
   active: true
@@ -2184,7 +2200,7 @@
   profile_path: /company/about/#laura-kerry
   image: /img/people/laura-kerry.jpg
   image_description: Photo of Laura Kerry
-  position: Content Designer
+  position: Senior Content Designer
   bio: >
     Laura's a content designer who specializes in content strategy, design, operations, and governance. She loves distilling complex information into human-centered content, and enjoys empowering others to do the same. Most recently, Laura worked at the NYC Mayor's Office for Economic Opportunity. She lives in Hawaii.
   active: true
@@ -2206,7 +2222,7 @@
   profile_path: /company/about/#emma-stephenson
   image: /img/people/emma-stephenson.jpg
   image_description: Photo of Emma Stephenson
-  position: Software Engineer
+  position: Staff Software Engineer
   bio: >
     Emma's a software engineer with a passion for creating user-centered products. She previously worked at Google, and is experienced in a number of different technical areas, including APIs, microservices, and DevOps. Emma lives in California.
   active: true
@@ -2274,7 +2290,7 @@
   profile_path: /company/about/#gordon-farrell
   image: /img/people/gordon-farrell.jpg
   image_description: Photo of Gordon Farrell
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Gordon’s a software engineer specializing in government tech. He built his career in civil service with the Department of Defense, where he focused on software modernization in the U.S. Air Force's Kessel Run program. Gordon's a champion for automated testing, high cadence CI/CD, and working directly with users to provide great software. Gordon lives in Colorado.
   active: true
@@ -2295,7 +2311,7 @@
   profile_path: /company/about/#jennifer-herzberg
   image: /img/people/jennifer-herzberg.jpg
   image_description: Photo of Jennifer Herzberg
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Jennifer’s a product designer who specializes in user-centered design. Previously, she led design at early- to mid-stage stage startups in the healthcare, education, and real estate industries. Jennifer studied Cognitive Science with a specialization in Human-Computer Interaction at UC San Diego. She lives in California.
   active: true
@@ -2345,7 +2361,7 @@
   profile_path: /company/about/#david-mcclatchey
   image: /img/people/david-mcclatchey.jpg
   image_description: Photo of David McClatchey
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     David's a software engineer who strives to create simple and robust solutions to complex problems. He's most recently worked at Home Depot where he helped migrate its product data to the cloud and built highly-visible APIs from that data. David lives in Georgia.
   active: true
@@ -2366,7 +2382,7 @@
   profile_path: /company/about/#liz-fox
   image: /img/people/liz-fox.jpg
   image_description: Photo of Liz Fox
-  position: Product Designer
+  position: Staff Product Designer
   bio: >
     Liz's a product designer and user researcher. Most recently, she worked on mobile products and design systems at Salesforce. She's passionate about building technology in service of the people who use it. Liz lives in Wisconsin.
   active: true
@@ -2379,3 +2395,182 @@
       link: https://elfoxdesign.com
       link_description: Liz's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/liz-fox/
+      link_description: Liz's Project Work
+      fa_icon_name: wrench
+- name: rin-concordia
+  fname: Rin
+  lname: Concordia
+  full_name: Rin Concordia
+  short_name: R. Concordia
+  profile_path: /company/about/#rin-concordia
+  image: /img/people/rin-concordia.jpg
+  image_description: Photo of Rin Concordia
+  position: Staff DevOps Engineer
+  bio: >
+    Rin's a software engineer-turned-SRE, with a penchant for public service. She's a former member of the United States Air Force Auxiliary — the Civil Air Patrol — where she served as a state-level IT director and rescue aircrew member. She's currently working on building out her own digital search and rescue system as an Auxiliarist with the United States Coast Guard. Rin lives in Illinois.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/corinneconcordia/
+      link_description: Rin's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/rin-concordia/
+      link_description: Rin's Project Work
+      fa_icon_name: wrench
+- name: alis-akers
+  fname: Alis
+  lname: Akers
+  full_name: Alis Akers
+  short_name: A. Akers
+  profile_path: /company/about/#alis-akers
+  image: /img/people/alis-akers.png
+  image_description: Illustration of Alis Akers
+  position: Senior DevOps Engineer
+  bio: >
+    Alis is a DevOps engineer interested in building reliable products using the latest cloud technologies to improve the lives of users. They've established integrations for patient engagement and monitoring across several large health systems and led the development of infrastructure and software pipeline requirements and tooling. They live in Oregon.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/Alismxwll
+      link_description: Alis' Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/alismx/
+      link_description: Alis' LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/alismx
+      link_description: Alis' GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/alis-akers/
+      link_description: Alis' Project Work
+      fa_icon_name: wrench
+- name: priscilla-peralta
+  fname: Priscilla
+  lname: Peralta
+  full_name: Priscilla Peralta
+  short_name: P. Peralta
+  profile_path: /company/about/#priscilla-peralta
+  image: /img/people/priscilla-peralta.jpg
+  image_description: Photo of Priscilla Peralta
+  position: Product Designer
+  bio: >
+    Priscilla's a product designer formerly from the entertainment industry. She's drawn to creating positive change through thoughtful design and championing the user's experience. Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. Priscilla lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/priscillatperalta/
+      link_description: Priscilla's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://theeucalyptusbaby.com/
+      link_description: Priscilla's Personal Website
+      fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/priscilla-peralta/
+      link_description: Priscilla's Project Work
+      fa_icon_name: wrench
+- name: ryan-gaddis
+  fname: Ryan
+  lname: Gaddis
+  full_name: Ryan Gaddis
+  short_name: R. Gaddis
+  profile_path: /company/about/#ryan-gaddis
+  image: /img/people/ryan-gaddis.png
+  image_description: Illustration of Ryan Gaddis
+  position: Senior Product Designer
+  bio: >
+    Ryan's a designer and researcher who's ready to apply his decade of industry expertise to civic tech. He strives to make thoughtful decisions and challenge assumptions. He's also a volunteer firefighter in his community. Ryan lives in Colorado.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/ryangaddis
+      link_description: Ryan's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/ryangaddis/
+      link_description: Ryan's LinkedIn Account
+      fa_icon_name: linkedin
+- name: bryan-britten
+  fname: Bryan
+  lname: Britten
+  full_name: Bryan Britten
+  short_name: B. Britten
+  profile_path: /company/about/#bryan-britten
+  image: /img/people/bryan-britten.png
+  image_description: Illustration of Bryan Britten
+  position: Staff Data Engineer
+  bio: >
+    Bryan's a data engineer with a drive to work on projects that have meaningful impact. He previously worked at Meta and has built data solutions to help address issues of money laundering, financial fraud, gun violence, and disinformation campaigns. Bryan lives in Washington.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/tblznbits
+      link_description: Bryan's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/bryanbritten/
+      link_description: Bryan's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/tibblesnbits
+      link_description: Bryan's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://tibblesnbits.com
+      link_description: Bryan's Personal Website
+      fa_icon_name: home
+- name: kyle-planeaux
+  fname: Kyle
+  lname: Planeaux
+  full_name: Kyle Planeaux
+  short_name: K. Planeaux
+  profile_path: /company/about/#kyle-planeaux
+  image: /img/people/kyle-planeaux.jpg
+  image_description: Photo of Kyle Planeaux
+  position: Senior Product Manager
+  bio: >
+    Kyle's a product manager with several years of experience in the government defense space. Previously, he was a civilian product manager working for the Space Force. Kyle studied chemical engineering at the University of Southern California and is working on a graduate degree in Computer Science from Georgia Tech. He lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kyle-planeaux/
+      link_description: Kyle's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kyle-planeaux/
+      link_description: Kyle's Project Work
+      fa_icon_name: wrench
+- name: zedd-shmais
+  fname: Zedd
+  lname: Shmais
+  full_name: Zedd Shmais
+  short_name: Z. Shmais
+  profile_path: /company/about/#zedd-shmais
+  image: /img/people/zedd-shmais.png
+  image_description: Photo of Zedd Shmais
+  position: Staff Software Engineer
+  bio: >
+    Zedd’s a software engineer with several years of experience across a range of industries. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped companies of all sizes with their digital transformation journeys. Zedd has a masters degree in computer science from Georgia Tech. He lives in Texas.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/ZeddShmais
+      link_description: Zedd's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/zedd-shmais/
+      link_description: Zedd's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/zdeveloper
+      link_description: Zedd's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/zedd-shmais/
+      link_description: Zedd's Project Work
+      fa_icon_name: wrench

@@ -38,7 +38,7 @@ Applying a service design lens to this project is crucial since there are so man
 
 **Charlye Tran:** Over the course of the next six months, I imagine the work with the WxPO will transition to further prototyping and testing of our solutions to address some of their biggest challenges with moving the cloud migration efforts forward.
 
-Separately, we’ve been working with faculty at the UC San Diego Design Lab on developing a curriculum to help teach service design to both students and Air Force service members. We’ll also be finalizing service design as a service within the BESPIN Design Lab and working in partnership with them as they take on their first clients.
+Separately, we’ve been working with faculty at the UC San Diego Design Lab on developing a curriculum to help teach service design to both students and Air Force service members. We’ll also be finalizing service design as a service within the BESPIN Design Studio and working in partnership with them as they take on their first clients.
 
 **Chris Cairns: What’s it like working with public-sector clients?**
 
