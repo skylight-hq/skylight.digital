@@ -241,6 +241,41 @@ $icon-size: 2rem;
   }
 }
 
+.interview-explanation {
+  p {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+    font-size: $font-size-medium;
+    line-height: 1.375;
+  }
+
+  h4 {
+    font-family: $font-family-mono;
+    font-size: $font-size-small;
+    letter-spacing: 0.05em;
+    line-height: 1.375;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+  }
+}
+
+.callout_item {
+  margin-bottom: 1rem;
+}
+.callout_subtitle {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.callout_title {
+  font-weight: bold;
+  margin-bottom: 1rem !important;
+}
+
 .callout--tip {
   @include alert;
   background-color: $ochre-20;
@@ -356,4 +391,10 @@ $icon-size: 2rem;
 .img--sd-discovery {
   background-color: $ochre-20;
   padding: 1.5rem;
+}
+
+.link--cta {
+  i {
+    margin-left: 0.5rem;
+  }
 }

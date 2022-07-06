@@ -10,9 +10,15 @@ feature_image_description:
 feature_image_shadow:
 order: 3100
 display: true
-tags: [service delivery, research & design, defense, air force, maya benari]
+tags: [service delivery, research & design, defense, air force, maya benari, zack gehin, liz fox, karthik patil, laura kerry, ashton tu, kyle planeaux]
 excerpt: A comprehensive design system enabling one of the U.S. Air Force's largest digital solution centers to ship products to users with greater speed and quality.
 project_members:
+  - zack-gehin
+  - liz-fox
+  - kyle-planeaux
+  - karthik-patil
+  - laura-kerry
+  - ashton-tu
   - maya-benari
 technologies:
   - U.S. Web Design System

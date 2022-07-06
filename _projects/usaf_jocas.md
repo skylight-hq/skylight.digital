@@ -17,9 +17,9 @@ excerpt: A modernized system for the U.S. Air Force to perform critical cost acc
 project_members:
   - laura-king
   - peggy-chau
+  - gordon-farrell
   - gabriel-ramirez
   - ari-perez
-  - gordon-farrell
 technologies:
   - HTML / CSS
   - JavaScript / React / TypeScript

@@ -22,8 +22,9 @@ We use our standard icon as an avatar in our different online spaces and social 
 
 {% include download_link.html
   text="icon"
-  url="img/brand/identity/assets/icon/avatar/svg/halo.svg"
+  url="/img/brand/identity/assets/icon/avatar/svg/halo.svg"
 %}{: .mb-0 }
+
   </div>
 </div>
 
