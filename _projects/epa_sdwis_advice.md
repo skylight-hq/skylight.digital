@@ -8,7 +8,7 @@ image_description: People standing around a really large glass and inspecting it
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 1000
+order: 3700
 display: true
 tags: [microconsulting, software delivery, devops, legacy modernization, procurement, environment, josh dorothy, chris given]
 excerpt: Advising the Environmental Protection Agency on how to proceed with an ailing system modernization effort.

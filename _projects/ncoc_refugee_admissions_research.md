@@ -8,7 +8,7 @@ image_description: A refugee journeying from Africa to the U.S.
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 2800
+order: 1700
 display: true
 tags:
   [
