@@ -1912,7 +1912,9 @@
   image_description: Photo of Nicole Wright
   position: Senior Product Manager
   bio: >
-    Nicole's a product manager, who's drawn to delivering products that help people. Most recently, she worked with the Air Force's Kessel Run program to modernize in-air refueling planning and platform development. Nicole lives in Washington.
+    Nicole's a product manager, who's drawn to delivering products that help people. 
+    Most recently, she worked with the Air Force's Kessel Run program 
+    to modernize in-air refueling planning and platform development. Nicole lives in Washington.
   active: true
   order: 530
   socials:
@@ -1934,7 +1936,9 @@
   image_description: Photo of Tiffany Nieh
   position: Staff Product Designer
   bio: >
-    Tiffany's a product designer who loves understanding people's needs and creating solutions that have a positive impact. Most recently, she worked at Pivotal Labs / VMware Tanzu where she helped startups, large enterprises, and government organizations build software using modern practices. Tiffany lives in California.
+    Tiffany's a product designer who loves understanding people's needs and creating solutions 
+    that have a positive impact. Most recently, she worked at Pivotal Labs / VMware Tanzu where 
+    she helped startups, large enterprises, and government organizations build software using modern practices. Tiffany lives in California.
   active: true
   order: 530
   socials:
@@ -2699,4 +2703,42 @@
       link: /work/team-member/dan-sass/
       link_description: Dan's Project Work
       fa_icon_name: wrench
+- name: johanna-delpino
+  fname: Johanna
+  lname: Del Pino
+  full_name: Johanna Del Pino
+  short_name: J. Del Pino
+  profile_path: /company/about/#johanna-delpino
+  image: /img/people/johanna-delpino.jpg
+  image_description: Photo of Johanna Del Pino
+  position: Software Engineer
+  bio: >
+    Johanna's a full-stack engineer with over 9 years of experience in the industry. Her main focus is on web applications and front-end technologies. Her exposure to leadership roles has given her the skills to successfully engage in design, planning, and delivery of highly collaborative projects. She has worked for different government entities like the U.S. Department of Veterans Affairs and Centers for Medicare & Medicaid Services. Johanna lives in Pennsylvania.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/johannadelpino/
+      link_description: Johanna's LinkedIn Account
+      fa_icon_name: linkedin
+- name: bobby-wells
+  fname: Bobby
+  lname: Wells
+  full_name: Bobby Wells
+  short_name: B. Wells
+  profile_path: /company/about/#bobby-wells
+  image: /img/people/bobby-wells.jpg
+  image_description: Photo of Bobby Wells
+  position: Data Engineering Apprentice
+  bio: >
+    Bobby's an engineer and data nerd who has a passion for working with tech that actively makes the world a better place. In 2021, he served as Civic Digital Fellow at the Census Bureau and graduated from Tufts University with a joint degree in Computer Science and Science, Technology & Society studies with a focus in mathematics and modeling. Bobby lives in Colorado.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: www.linkedin.com/in/bobby-wells-5b9a76225
+      link_description: Bobby's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/bobbywells52
+      link_description: Bobby's GitHub Account
+      fa_icon_name: github
 
