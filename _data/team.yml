@@ -2892,4 +2892,86 @@
       link: https://jnygaard.dev
       link_description: Josh's Personal Website
       fa_icon_name: home
+      - name: josh-nygaard
+  fname: Josh
+  lname: Nygaard
+  full_name: Josh Nygaard
+  short_name: J. Nygaard
+  profile_path: /company/about/#josh-nygaard
+  image: /img/people/josh-nygaard.png
+  image_description: Illustration of Josh Nygaard
+  position: Software Engineer
+  bio: >
+    Josh's a full-stack software engineer passionate about making tools, big and small, that can have a positive effect. He has over five years of experience working as a government contractor and values having a broad range of technical experiences and knowledge. Josh lives in Pennsylvania.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/J_Nygaard
+      link_description: Josh's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/joshnygaard
+      link_description: Josh's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/joshnygaard
+      link_description: Josh's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://jnygaard.dev
+      link_description: Josh's Personal Website
+      fa_icon_name: home
+- name: josh-nygaard
+  fname: Josh
+  lname: Nygaard
+  full_name: Josh Nygaard
+  short_name: J. Nygaard
+  profile_path: /company/about/#josh-nygaard
+  image: /img/people/josh-nygaard.png
+  image_description: Illustration of Josh Nygaard
+  position: Software Engineer
+  bio: >
+    Josh's a full-stack software engineer passionate about making tools, big and small, that can have a positive effect. He has over five years of experience working as a government contractor and values having a broad range of technical experiences and knowledge. Josh lives in Pennsylvania.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/J_Nygaard
+      link_description: Josh's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/joshnygaard
+      link_description: Josh's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/joshnygaard
+      link_description: Josh's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://jnygaard.dev
+      link_description: Josh's Personal Website
+      fa_icon_name: home
+- name: michelle-li
+  fname: Michelle
+  lname: Li
+  full_name: Michelle Li
+  short_name: M. Li
+  profile_path: /company/about/#michelle-li
+  image: /img/people/michelle-li.jpg
+  image_description: Photo of Michelle Li
+  position: Product Designer
+  bio: >
+    Michelle's a product designer originally from the San Francisco Bay Area. She cares deeply about building positive relationships between people and technology. Previously, she was a Civic Digital Fellow at the National Institutes of Health. Michelle lives in New York. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/michmli/
+      link_description: Michelle's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://michellemli.myportfolio.com/work
+      link_description: Michelle's Personal Website
+      fa_icon_name: home
+
+
+
 
