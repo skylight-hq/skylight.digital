@@ -2713,7 +2713,7 @@
   image_description: Photo of Johanna Del Pino
   position: Software Engineer
   bio: >
-    Johanna's a full-stack engineer with over 9 years of experience in the industry. Her main focus is on web applications and front-end technologies. Her exposure to leadership roles has given her the skills to successfully engage in design, planning, and delivery of highly collaborative projects. She has worked for different government entities like the U.S. Department of Veterans Affairs and Centers for Medicare & Medicaid Services. Johanna lives in Pennsylvania.
+    Johanna's a full-stack engineer with over nine years of experience in the industry. Her main focus is on web applications and front-end technologies. Her exposure to leadership roles has given her the skills to successfully engage in design, planning, and delivery of highly collaborative projects. She has worked for different government entities like the U.S. Department of Veterans Affairs and Centers for Medicare & Medicaid Services. Johanna lives in Pennsylvania.
   active: true
   socials:
     - name: LinkedIn
@@ -2726,8 +2726,8 @@
   full_name: Bobby Wells
   short_name: B. Wells
   profile_path: /company/about/#bobby-wells
-  image: /img/people/bobby-wells.jpg
-  image_description: Photo of Bobby Wells
+  image: /img/people/bobby-wells.png
+  image_description: Illustration of Bobby Wells
   position: Data Engineering Apprentice
   bio: >
     Bobby's an engineer and data nerd who has a passion for working with tech that actively makes the world a better place. In 2021, he served as Civic Digital Fellow at the Census Bureau and graduated from Tufts University with a joint degree in Computer Science and Science, Technology & Society studies with a focus in mathematics and modeling. Bobby lives in Colorado.
@@ -2741,4 +2741,155 @@
       link: https://github.com/bobbywells52
       link_description: Bobby's GitHub Account
       fa_icon_name: github
+- name: kenneth-chow
+  fname: Kenneth
+  lname: Chow
+  full_name: Kenneth Chow
+  short_name: K. Chow
+  profile_path: /company/about/#kenneth-chow
+  image: /img/people/kenneth-chow.png
+  image_description: Illustration of Kenneth Chow
+  position: Senior Software Engineer
+  bio: >
+    Kenneth's a software engineer who specializes in building cloud applications. He advocates for serverless design to help scale up systems while reducing costs. Kenneth lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kenneth-chow-it/
+      link_description: Kenneth's LinkedIn Account
+      fa_icon_name: linkedin
+- name: camille-villa
+  fname: Camille
+  lname: Villa
+  full_name: Camille Villa
+  short_name: C. Villa
+  profile_path: /company/about/#camille-villa
+  image: /img/people/camille-villa.png
+  image_description: Illustration of Camille Villa
+  position: Software Engineer
+  bio: >
+    Camille's a full-stack software engineer that loves working with collaborative and service-oriented teams. She previously built open source software and managed developer communities for libraries, archives, and museums at Stanford University. Camille lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/camillevilla/
+      link_description: Camille's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/camillevilla
+      link_description: Camille's GitHub Account
+      fa_icon_name: github
+- name: dan-paseltiner
+  fname: Dan
+  lname: Paseltiner
+  full_name: Dan Paseltiner
+  short_name: D. Paseltiner
+  profile_path: /company/about/#dan-paseltiner
+  image: /img/people/dan-paseltiner.jpg
+  image_description: Photo of Dan Paseltiner
+  position: Senior Data Engineer
+  bio: >
+    Dan's a data engineer passionate about helping others through a thoughtful understanding of data. After years working on physics and neuroscience research funded by NIST and the NSF, he's begun helping public health departments better utilize their data. Outside of work, Dan's an avid hiker and sailor. Dan lives in Maine.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/daniel-paseltiner-4487a1225/
+      link_description: Dan's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/DanielPaseltiner
+      link_description: Dan's GitHub Account
+      fa_icon_name: github
+- name: ann-millspaugh
+  fname: Ann
+  lname: Millspaugh
+  full_name: Ann Millspaugh
+  short_name: A. Millspaugh
+  profile_path: /company/about/#ann-millspaugh
+  image: /img/people/ann-millspaugh.jpg
+  image_description: Photo of Ann Millspaugh
+  position: Staff Product Manager
+  bio: >
+    Ann's a product manager who loves to solve customer problems. As a former engineer, she likes to understand the details of technical products and translate technical concepts to all stakeholders. Ann specializes in productizing and scaling APIs and data pipelines. Ann lives California. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/annmillspaugh/
+      link_description: Ann's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/millzpaugh
+      link_description: Ann's GitHub Account
+      fa_icon_name: github
+- name: steven-speck
+  fname: Steven
+  lname: Speck
+  full_name: Steven Speck
+  short_name: S. Speck
+  profile_path: /company/about/#steven-speck
+  image: /img/people/steven-speck.png
+  image_description: Illustration of Steven Speck
+  position: Software Engineering Apprentice
+  bio: >
+    Steven's a software engineering apprentice functioning who holds equal passions for machine learning and creating useful tools for others. Coming from Northeast Ohio, he attended MIT, where he majored in Computation and Cognition. Steven lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/steven-speck/
+      link_description: Steven's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/StevenSpeck
+      link_description: Steven's GitHub Account
+      fa_icon_name: github
+- name: lina-roth
+  fname: Lina
+  lname: Roth
+  full_name: Lina Roth
+  short_name: L. Roth
+  profile_path: /company/about/#lina-roth
+  image: /img/people/lina-roth.png
+  image_description: Illustration of Lina Roth
+  position: Staff Software Engineer
+  bio: >
+    Lina's a software engineer with experience in cloud computing and DevOps, along with building APIs and robust applications. For nearly seven years, she worked with the Department of Veterans Affairs developing benefit management software. She enjoys making the world a more inclusive space for everyone. Lina lives in South Carolina.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lina-roth/
+      link_description: Lina's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/lina-roth
+      link_description: Lina's GitHub Account
+      fa_icon_name: github
+- name: josh-nygaard
+  fname: Josh
+  lname: Nygaard
+  full_name: Josh Nygaard
+  short_name: J. Nygaard
+  profile_path: /company/about/#josh-nygaard
+  image: /img/people/josh-nygaard.png
+  image_description: Illustration of Josh Nygaard
+  position: Software Engineer
+  bio: >
+    Josh's a full-stack software engineer passionate about making tools, big and small, that can have a positive effect. He has over five years of experience working as a government contractor and values having a broad range of technical experiences and knowledge. Josh lives in Pennsylvania.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/J_Nygaard
+      link_description: Josh's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/joshnygaard
+      link_description: Josh's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/joshnygaard
+      link_description: Josh's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://jnygaard.dev
+      link_description: Josh's Personal Website
+      fa_icon_name: home
 
