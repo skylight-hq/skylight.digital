@@ -54,7 +54,7 @@ You're able to engage with stakeholders to identify appropriate and impactful qu
 
 ## Data engineer career pathway
 
-### Associate data scientist
+### Associate data engineer
 
 {% include role_level.html level='associate' %}
 
