@@ -61,10 +61,10 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
     
 ### Data
 {: .heading-mono .mt-6 }
-[Data scientist](/careers/career-pathways/data-scientist/)
+[Data engineer](/careers/career-pathways/data-engineer/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 {: .heading-mono .mt-6 }
-[Data engineer](/careers/career-pathways/data-engineer/)
+[Data scientist](/careers/career-pathways/data-scientist/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 
 ### Product & delivery
