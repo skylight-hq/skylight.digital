@@ -54,7 +54,7 @@ You know how to encourage organizations to change how they work. You listen firs
 
 You build empathy for your users and your clients through research. You're excited and curious about the problems you’ve been asked to solve and the client you’re supporting. You listen, reflect, and respond to constructive feedback. In turn, you provide useful feedback to others. 
 
-#### Comfortable with ambiguity
+#### Navigating ambiguity
 
 You're comfortable operating with little or no direction. You know how to use available resources to learn quickly. You document what you learn and help build shared understanding on your team. You push forward in areas of uncertainty and don't shy away from complex problems. 
 
@@ -112,7 +112,7 @@ You actively try to help others grow by sharing relevant knowledge and experienc
 
 You ask the client thoughtful questions. You're able to articulate areas of improvement for yourself and for your team. You learn from your mistakes, accept responsibility, and take action. You possess a positive attitude and high levels of empathy. You welcome feedback. 
 
-##### Comfortable with ambiguity
+##### Navigating ambiguity
 
 You're comfortable operating with little direction. You set aside your own judgments, question your assumptions and are open-minded when presented with a problem. You're able to take action with proper support and guidance. 
 
@@ -170,7 +170,7 @@ You know how to encourage organizations to change how they work. You help client
 
 You build empathy for your users and your clients through research. You adapt quickly to changes in situations and plans. You’re curious about the problems you’ve been asked to solve and the client you’re supporting. You're able to solve problems in ways that support diverse perspectives. You provide useful, actionable feedback. 
 
-##### Comfortable with ambiguity
+##### Navigating ambiguity
 
 You're able to succeed when presented with little or no direction. You see areas of opportunity within a vague problem space. You use the resources and opportunities in front of you to learn quickly. You're able to move a client project forward despite lack of clarity. You don’t shy away from complex problems. You reduce ambiguity for others on your team. 
 
@@ -226,7 +226,7 @@ You encourage organizations to change how they work and help them manage that pr
 
 You're able to examine client organizations and develop a keen understanding of what the organization needs. You have shown professional growth over an extended period of time. You challenge others to be better and develop deep interpersonal relationships 
 
-##### Comfortable with ambiguity
+##### Navigating ambiguity
 
 You can drive a client engagement forward with little information, guidelines, or direction. You embrace vague concepts and create structure to lead a team to deliver valuable outcomes. You’re comfortable with ambiguity in complex, heavily regulated environments. You share what you know to reduce uncertainty for others. 
 
