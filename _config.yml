@@ -26,8 +26,8 @@ hackerone_url: https://hackerone.com/skylight_qgvpb
 slack_invite_url: ""
 youtube_url: https://youtube.com/channel/UCbNzANEv5xYqfMbDrv8kcEw
 
-employee_count: 63
-state_count: 28
+employee_count: 71
+state_count: 29
 
 # Build settings
 incremental: true
