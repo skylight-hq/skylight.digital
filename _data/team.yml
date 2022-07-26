@@ -2711,7 +2711,7 @@
   profile_path: /company/about/#johanna-delpino
   image: /img/people/johanna-delpino.jpg
   image_description: Photo of Johanna Del Pino
-  position: Software Engineer
+  position: Staff Software Engineer
   bio: >
     Johanna's a full-stack engineer with over nine years of experience in the industry. Her main focus is on web applications and front-end technologies. She has worked for different government entities like the U.S. Department of Veterans Affairs and Centers for Medicare & Medicaid Services. Johanna lives in Pennsylvania.
   active: true
@@ -2728,7 +2728,7 @@
   profile_path: /company/about/#bobby-wells
   image: /img/people/bobby-wells.png
   image_description: Illustration of Bobby Wells
-  position: Data Engineering Apprentice
+  position: Software Engineer Apprentice
   bio: >
     Bobby's an engineer and data nerd who has a passion for working with tech that actively makes the world a better place. In 2021, he served as a Civic Digital Fellow at the Census Bureau and graduated from Tufts University. Bobby lives in Colorado.
   active: true
@@ -2829,9 +2829,9 @@
   profile_path: /company/about/#steven-speck
   image: /img/people/steven-speck.png
   image_description: Illustration of Steven Speck
-  position: Software Engineering Apprentice
+  position: Data Scientist Apprentice
   bio: >
-    Steven's a software engineering apprentice who holds equal passions for machine learning and creating useful tools for others. Coming from Northeast Ohio, he attended MIT, where he majored in Computation and Cognition. Steven lives in California.
+    Steven's a data scientist apprentice who holds equal passions for machine learning and creating useful tools for others. Coming from Northeast Ohio, he attended MIT, where he majored in Computation and Cognition. Steven lives in California.
   active: true
   socials:
     - name: LinkedIn
@@ -2871,7 +2871,7 @@
   profile_path: /company/about/#josh-nygaard
   image: /img/people/josh-nygaard.png
   image_description: Illustration of Josh Nygaard
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Josh's a full-stack software engineer passionate about making tools, big and small, that can have a positive effect. He has over five years of experience working as a government contractor and values having a broad range of technical experiences and knowledge. Josh lives in Pennsylvania.
   active: true
