@@ -45,11 +45,11 @@ Most government agencies are now technology organizations. They increasingly use
 
 Most digital teams should have at least one of each role described below.
 
-### Software developer
+### Software engineer
 
-Developers design, implement, and maintain software applications. Developers may do this for custom software applications or commercial off-the-shelf software (COTS).
+Software engineers design, implement, and maintain software applications. Software engineers may do this for custom software applications or commercial off-the-shelf software (COTS).
 
-**Front-end software developers** build user-facing components. They work with user experience (UX) and visual designers. **Back-end engineers** work with front-end engineers to build services that drive the interface. The software developers on your team:
+**Front-end engineers** build user-facing components. They work with closely with user researchers and product designers. **Back-end engineers** work with front-end engineers to build services that drive the interface. The software engineers on your team:
 
 - Write and maintain custom software applications
 - Configure and customize COTS applications
@@ -58,17 +58,17 @@ Developers design, implement, and maintain software applications. Developers may
 
 ### DevOps engineer
 
-DevOps engineers help product teams deploy code quickly, securely, and reliably. They work closely with software developers and:
+DevOps engineers help product teams deploy code quickly, securely, and reliably. They work closely with software engineers and:
 
 - Write code to solve problems with software infrastructure, deployment, and operations
 - Configure and maintain continuous integration and continuous deployment (CI/CD) pipelines to automatically build and test the software
 - Define, configure, and secure the application's hardware and software infrastructure
 - Configure and maintain the tools that monitor hardware and software
-- Help software developers architect and develop software that is scalable and reliable
+- Help software engineers architect and develop software that's scalable and reliable
 
 ### Security engineer
 
-Security engineers ensure the privacy of users by securing user data. This is essential, since many government systems deal with Personally Identifiable Information (PII) and Protected Health Information (PHI). Security engineers work closely with software developers and DevOps engineers. Their key tasks are to:
+Security engineers ensure the privacy of users by securing user data. This is essential, since many government systems deal with Personally Identifiable Information (PII) and Protected Health Information (PHI). Security engineers work closely with software engineers and DevOps engineers. Their key tasks are to:
 
 - Conduct regular security audits and scans
 - Work with DevOps engineers to patch systems against vulnerabilities
@@ -76,7 +76,7 @@ Security engineers ensure the privacy of users by securing user data. This is es
 
 ### Product manager
 
-Government services should be managed the same way a company manages a commercial product. Product managers help determine the roadmap for your service, and they establish a product-market fit. Product managers work closely with UX researchers and designers and:
+Government services should be managed the same way a company manages a commercial product. Product managers help determine the roadmap for your service, and they establish a product-market fit. Product managers work closely with user researchers and product designers and:
 
 - Guide the team in deciding how to iteratively build features for users
 - Define the product/service vision by describing future goals and features
@@ -85,9 +85,9 @@ Government services should be managed the same way a company manages a commercia
 - Create assets for users, stakeholders, and government officials with the communication team
 - Apply for grants and other funding
 
-### UX researcher
+### User researcher
 
-UX researchers learn about and empathize with the users of your service. They test the usability of each feature. UX researchers work closely with UX designers, content strategists, and product managers. UX researchers:
+User researchers learn about and empathize with the users of your service. They test the usability of each feature. User researchers work closely with product designers, content designers, and product managers. User researchers:
 
 - Understand who the users of the service are
 - Help the team understand what the users expect by conducting research
@@ -95,9 +95,9 @@ UX researchers learn about and empathize with the users of your service. They te
 - Conduct usability tests on features
 - Work with the product manager to define the next iterations
 
-### UX designer
+### Product designers
 
-UX designers turn user research into interactions and interfaces that work for everybody. They design how someone will interact with a service. UX designers work closely with UX researchers, visual designers, content strategists, and front-end engineers. Their key responsibilities are to:
+Product designers turn user research into interactions and interfaces that work for everybody. They design how someone will interact with a service. UX designers work closely with UX researchers, visual designers, content strategists, and front-end engineers. Their key responsibilities are to:
 
 - Generate low-fidelity prototypes
 - Work closely with visual designers to define the look and feel of applications
@@ -105,15 +105,15 @@ UX designers turn user research into interactions and interfaces that work for e
 
 ### Visual designer
 
-Visual designers build the look and feel of the service. They ensure that the design provides a consistent and accessible user experience. Good design reflects the purpose of the service. Veterans' benefits applications should look different from picnic table reservations. Visual designers work closely with UX designers, content strategists, and front-end developers. They:
+Visual designers build the look and feel of the service. Often times products designers also play the role of a visual designer. Visual designers ensure that the design provides a consistent and accessible user experience. Good design reflects the purpose of the service. Veterans' benefits applications should look different from picnic table reservations. Visual designers work closely with user researchers, product designers, and front-end engineers. They:
 
 - Build the visual style guide for the application
 - Design implementation-ready interfaces
 - Ensure accessibility throughout the design
 
-### Content strategist
+### Content designer
 
-Government services often have complex information to communicate to users. Examples include: eligibility rules for benefits, applicable laws and regulations, and complex data. Content strategists ensure that content is easy to read and presented where it's needed. Content strategists work closely with other designers to:
+Government services often have complex information to communicate to users. Examples include: eligibility rules for benefits, applicable laws and regulations, and complex data. Content designers ensure that content is easy to read and presented where it's needed. Content designers work closely with other researchers and designers to:
 
 - Develop user workflows and information architecture
 - Create and edit plain language content for the service and any related assets
@@ -130,7 +130,7 @@ Your digital teams need to be cross-functional. Structure teams so that most of 
 
 With commercial products, use these questions to help you identify the right team members:
 
-- Does the platform allow you to change the look and feel? If there's limited flexibility, the team won't need UX and visual designers.
+- Does the platform allow you to change the look and feel? If there's limited flexibility, the team won't need product and visual designers.
 - Do existing staff have experience with the platform? For example, for Salesforce, you'll need Salesforce developers. If you don't have the in-house experience, you'll need to bring on a new developer or allow time for training.
 - Who's responsible for the security of the system? With SaaS, the software company will ensure the system's security and you won't need a security engineer.
 
@@ -139,7 +139,7 @@ With commercial products, use these questions to help you identify the right tea
 Many governments contract out most of their software development. You'll still need a cross-functional digital team to manage their work. Creating mixed government and contractor teams is a good idea for knowledge transfer. Create a "one-badge" culture, and treat each member the same. Roles you'll need:
 
 - Senior software developer to review the code written by the contractors
-- UX researcher to work with the UX researchers on the contractor team and ensure that the government team builds institutional knowledge about its users
+- User researcher to work with the user researchers on the contractor team and ensure that the government team builds institutional knowledge about its users
 
 ### Custom software projects
 
@@ -167,7 +167,7 @@ When Nikhil Deshpande started the [Georgia Digital Service](https://digitalservi
 
 First, Deshpande needed to hire a team. He used his strong personal network to identify and hire an internal team of strategists. He started out by filling these strategic positions primarily with contractors. Over the next year, he worked with human resources to hire permanent staff. His internal team has now grown to a core team of 15.
 
-Deshpande and his core team then turned their attention to creating a multi-disciplinary vendor pool. To supplement their internal capacity, they needed additional expertise in UX, product management, content strategy, and development. After rigorous evaluations, GADS identified and retained multiple vendors in each area of expertise. Now they pull these vendors into projects as necessary.
+Deshpande and his core team then turned their attention to creating a multi-disciplinary vendor pool. To supplement their internal capacity, they needed additional expertise in user research, product design, content design, product management, and engineering. After rigorous evaluations, GADS identified and retained multiple vendors in each area of expertise. Now they pull these vendors into projects as necessary.
 
 The state and vendor teams work together to support GADS. Strong project management practices allow the vendors to work well with each other and the state team. Shared tools, like Slack and Jira, allow teams to collaborate without friction.
 
