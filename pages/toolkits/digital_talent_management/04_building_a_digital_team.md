@@ -47,7 +47,7 @@ Most digital teams should have at least one of each role described below.
 
 ### Software engineer
 
-Software engineers design, implement, and maintain software applications. Software engineers may do this for custom software applications or commercial off-the-shelf software (COTS).
+Software engineers, or software developers, design, implement, and maintain software applications. Software engineers may do this for custom software applications or commercial off-the-shelf software (COTS).
 
 **Front-end engineers** build user-facing components. They work with closely with user researchers and product designers. **Back-end engineers** work with front-end engineers to build services that drive the interface. The software engineers on your team:
 
@@ -87,7 +87,7 @@ Government services should be managed the same way a company manages a commercia
 
 ### User researcher
 
-User researchers learn about and empathize with the users of your service. They test the usability of each feature. User researchers work closely with product designers, content designers, and product managers. User researchers:
+User researchers, user experience (UX) researchers, learn about and empathize with the users of your service. They test the usability of each feature. User researchers work closely with product designers, content designers, and product managers. User researchers:
 
 - Understand who the users of the service are
 - Help the team understand what the users expect by conducting research
