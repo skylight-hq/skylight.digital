@@ -95,7 +95,7 @@ User researchers learn about and empathize with the users of your service. They 
 - Conduct usability tests on features
 - Work with the product manager to define the next iterations
 
-### Product designers
+### Product designer
 
 Product designers turn user research into interactions and interfaces that work for everybody. They design how someone will interact with a service. UX designers work closely with UX researchers, visual designers, content strategists, and front-end engineers. Their key responsibilities are to:
 
