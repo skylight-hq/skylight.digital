@@ -27,7 +27,7 @@ slack_invite_url: ""
 youtube_url: https://youtube.com/channel/UCbNzANEv5xYqfMbDrv8kcEw
 
 employee_count: 71
-state_count: 29
+state_count: 25
 
 # Build settings
 incremental: true
