@@ -2056,6 +2056,10 @@
       link: https://nickblake.myportfolio.com/
       link_description: Nick's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/nick-blake/
+      link_description: Nick's Project Work
+      fa_icon_name: wrench
 - name: bob-zhao
   fname: Bob
   lname: Zhao
@@ -2720,6 +2724,10 @@
       link: https://www.linkedin.com/in/johannadelpino/
       link_description: Johanna's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/johanna-delpino/
+      link_description: Johanna's Project Work
+      fa_icon_name: wrench
 - name: bobby-wells
   fname: Bobby
   lname: Wells
@@ -2779,6 +2787,10 @@
       link: https://github.com/camillevilla
       link_description: Camille's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/camille-villa/
+      link_description: Camille's Project Work
+      fa_icon_name: wrench
 - name: dan-paseltiner
   fname: Dan
   lname: Paseltiner
@@ -2863,6 +2875,10 @@
       link: https://github.com/lina-roth
       link_description: Lina's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/lina-roth/
+      link_description: Lina's Project Work
+      fa_icon_name: wrench
 - name: josh-nygaard
   fname: Josh
   lname: Nygaard
