@@ -46,7 +46,10 @@ tags:
     dan sass,
     jayna wallace,
     merethe hansen,
-    charlye tran
+    charlye tran,
+    laura kerry,
+    nick blake,
+    sarah george hager
   ]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
@@ -76,6 +79,9 @@ project_members:
   - jayna-wallace
   - merethe-hansen
   - charlye-tran
+  - laura-kerry
+  - sarah-george-hager
+  - nick-blake
 technologies:
   - HTML / CSS
   - Storybook
