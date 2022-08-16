@@ -13,8 +13,8 @@ display: true
 tags: [service delivery, procurement, transformation, training, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, open government, security & privacy, coaching & training, early childhood, social safety net, healthcare, economic development, education, marvo dolor, amelia wellers, abby raskin, lara kohl, ashley treni, victoria suwardiman, chris given, julia hogan, gabriel ramirez, cailyn hansen, kyle magida, brandon mader, chris cairns, shashank khandelwal, colin craig, josh dorothy, sean johnson, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy, johanna del pino]
 excerpt: Partnering with the Connecticut Office of Early Childhood to help change how they deliver services to families with young children and the professionals who support them.
 project_members:
-  - johanna-delpino
   - becca-bartola
+  - johanna-delpino
   - priscilla-peralta
   - gordon-farrell
   - nick-bristow
