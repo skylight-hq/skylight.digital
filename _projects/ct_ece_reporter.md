@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 400
 display: true
-tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, early childhood, social safety net, healthcare, education, chris given, julia hogan, cailyn hansen, victoria suwardiman, ashley treni, abby raskin, kyle magida, marvo dolor, amelia wellers, olivia lucas, jordan guinn, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy]
+tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, early childhood, social safety net, healthcare, education, chris given, julia hogan, cailyn hansen, victoria suwardiman, ashley treni, abby raskin, kyle magida, marvo dolor, amelia wellers, olivia lucas, jordan guinn, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy, johanna del pino]
 excerpt: A user-friendly data collection tool to get accurate information from early care and education providers about the children in their care in Connecticut.
 project_members:
   - becca-bartola
@@ -33,6 +33,7 @@ project_members:
   - jordan-guinn
   - julia-hogan
   - amelia-wellers
+  - johanna-delpino
 technologies:
   - HTML / CSS
   - JavaScript / React
