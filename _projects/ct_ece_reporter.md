@@ -18,6 +18,7 @@ project_members:
   - gordon-farrell
   - nick-bristow
   - josh-dorothy
+  - johanna-delpino
   - brandon-mader
   - lucas-newman
   - alex-curtis
@@ -33,7 +34,6 @@ project_members:
   - jordan-guinn
   - julia-hogan
   - amelia-wellers
-  - johanna-delpino
 technologies:
   - HTML / CSS
   - JavaScript / React
