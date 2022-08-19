@@ -49,7 +49,8 @@ tags:
     charlye tran,
     laura kerry,
     nick blake,
-    sarah george hager
+    sarah george hager,
+    johanna delpino
   ]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
@@ -64,6 +65,14 @@ project_members:
   - nick-clyde
   - bob-zhao
   - elisa-lee
+  - dan-sass
+  - jayna-wallace
+  - merethe-hansen
+  - charlye-tran
+  - laura-kerry
+  - sarah-george-hager
+  - nick-blake
+  - johanna-delpino
   - tim-niehoff
   - jesse-skeets
   - leslie-garner-franklin
@@ -75,13 +84,6 @@ project_members:
   - phoebe-espiritu
   - maya-benari
   - adam-weber
-  - dan-sass
-  - jayna-wallace
-  - merethe-hansen
-  - charlye-tran
-  - laura-kerry
-  - sarah-george-hager
-  - nick-blake
 technologies:
   - HTML / CSS
   - Storybook
