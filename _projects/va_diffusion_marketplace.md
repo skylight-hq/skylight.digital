@@ -11,9 +11,11 @@ feature_image:
 feature_image_description:
 order: 800
 display: true
-tags: [service delivery, research & design, software delivery, veterans, healthcare, becca bartola, lesley evans, tom black, aera hoffman, tomi obikunle, elisa lee]
+tags: [service delivery, research & design, software delivery, veterans, healthcare, becca bartola, lesley evans, tom black, aera hoffman, tomi obikunle, elisa lee, nick blake, camille villa]
 excerpt: A knowledge management platform for improving how the Veterans Affairs delivers healthcare to veterans through the dissemination of promising clinical and administrative innovations.
 project_members:
+  - camille-villa
+  - nick-blake
   - becca-bartola
   - tomi-obikunle
   - elisa-lee
