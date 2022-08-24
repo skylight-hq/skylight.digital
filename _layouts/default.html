@@ -12,19 +12,25 @@
       {{content}}
     </main>
     <svg> 
-  <circle class="target" style="fill: #69b3a2" stroke="black" cx=50 cy=50 r=40></circle>
-</svg>
+      <circle class="target" style="fill: #69b3a2" stroke="black" cx=50 cy=50 r=40></circle>
+    </svg>
 
+    <!-- DE&I DATA VIZ POC STARTS HERE -->
     <script>
-    console.log('hello')
-    let strokeWidth = 0;
-    d3.json("/data/circle.json", function(data) {
-      strokeWidth = data;
-      console.log(strokeWidth);
-    });
-    console.log(strokeWidth)
-    d3.select(".target").style("stroke-width", strokeWidth);
+      console.log('hello');
+      (async function() {
+        try {
+          const data = await d3.json("/data/circle.json")
+          const strokeWidth = data.width
+          console.log('data', strokeWidth)
+          d3.select(".target").style("stroke-width", strokeWidth);
+        } catch(error) {
+          console.log(error);
+        }
+      })();
     </script>
+    <!-- DE&I DATA VIZ POC ENDS HERE -->
+
 
     {% include footer.html %}
 
