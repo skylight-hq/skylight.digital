@@ -1,0 +1,8 @@
+---
+layout: none
+---
+[{% for stroke in site.data.circle %}
+  {
+    "width": "{{ stroke.width }}"
+  }{% if forloop.last == false %},{% endif %}
+{% endfor %}]

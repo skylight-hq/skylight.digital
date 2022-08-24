@@ -11,6 +11,20 @@
     <main id="content" tabindex="-1">
       {{content}}
     </main>
+    <svg> 
+  <circle class="target" style="fill: #69b3a2" stroke="black" cx=50 cy=50 r=40></circle>
+</svg>
+
+    <script>
+    console.log('hello')
+    let strokeWidth = 0;
+    d3.json("/data/circle.json", function(data) {
+      strokeWidth = data;
+      console.log(strokeWidth);
+    });
+    console.log(strokeWidth)
+    d3.select(".target").style("stroke-width", strokeWidth);
+    </script>
 
     {% include footer.html %}
 
