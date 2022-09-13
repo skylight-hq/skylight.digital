@@ -77,9 +77,11 @@ The Connecticut Office of Early Childhood (OEC) wanted to improve their existing
 so they could make data-driven decisions around early childhood education in their state. 
 Skylight built OEC a new and improved data collection tool to help gather high-quality data from early childcare and education providers 
 and to make it easier for those providers to report data.
+{% endcapture %}
 
 {% capture challenge %}
 Connecticut’s Office of Early Childhood (OEC) oversees and funds a network of more than 400 early childhood care and education providers in the state. The importance of high-quality care and education for children can’t be overstated — these services improve children’s lives by providing a strong foundation for lifelong learning and cognitive and social development. They offer safe, predictable, and consistent environments for children to learn in, while also providing their parents with childcare, which gives them stability to get and keep better jobs. 
+{% endcapture %}
 
 One of OEC’s primary roles within Connecticut’s early childcare and education ecosystem is to distribute funding to its network of providers. Maintaining accurate enrollment data from providers is key to OEC’s funding decisions. It allows OEC to know how many qualified children are under which provider’s care. Making the right funding decisions is crucial, since funding has a direct impact on the kinds of programs and services that providers are able to offer to the children they serve. However, OEC’s existing data collection tool wasn’t able to provide clear visibility into enrollment data. 
 
