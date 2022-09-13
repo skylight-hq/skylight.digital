@@ -125,7 +125,7 @@ With these systems in place, OEC is now better positioned to maintain the ECE Re
 - Brought on 508 users and 220 providers to ECE Reporter, who regularly update data on a monthly basis
 - Gathered high-quality data on 397 program sites (e.g., schools, learning centers), tracking over 14k enrollments
 - Resolved child record  and ID duplication issue to improve quality and accuracy of enrollment data
-- Enabling OEC to take over operation and maintenance of ECE Reporter in order to facilitate long term 
+- Enabling OEC to take over operation and maintenance of ECE Reporter in order to facilitate long term usage
 {% endcapture %}
 
 {% include project.html
