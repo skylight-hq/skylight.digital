@@ -9,9 +9,9 @@ content_type: Toolkit
 
 # Appendix A: Sample interview questions
 
-## UX designer
+## Product designer
 
-These are questions we've used in the past to evaluate UX designers.
+These are questions we've used in the past to evaluate product designers.
 
 ### Project walkthrough
 

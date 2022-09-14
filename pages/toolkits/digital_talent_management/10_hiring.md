@@ -122,7 +122,7 @@ Follow the same interview process for each candidate:
     - [DevOps/Site Reliability Engineer](https://eng-hiring.18f.gov/interviews/devops/)
     - [Information Security](https://eng-hiring.18f.gov/interviews/infosec/)
 - [Interview questions for UX researchers](https://medium.com/@eleonorazucconi/46-interview-questions-for-user-experience-researchers-at-google-amazon-microsoft-and-facebook-c582827267b9)
-- [Interview questions for UX designers](/work/toolkits/digital-talent-management/appendix-a-sample-interview-questions#ux-designer)
+- [Interview questions for product designers](/work/toolkits/digital-talent-management/appendix-a-sample-interview-questions#product-designer)
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/interviews/)
 - [Providing tools in one place (State of Oregon)](https://www.oregon.gov/das/HR/Pages/success-plan.aspx#)
 - [It's Better to Avoid a Toxic Employee than Hire a Superstar](https://hbr.org/2015/12/its-better-to-avoid-a-toxic-employee-than-hire-a-superstar)

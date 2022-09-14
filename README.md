@@ -8,11 +8,13 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 
 ## Setup
 
-1. If you’re using a Mac, install homebrew (see https://brew.sh/).
+1. If you’re using a Mac, install homebrew (see https://brew.sh/)
 2. After installing git (`brew install git`), `cd` to the directory where you want to check out the site, and then clone it (`git clone https://github.com/skylight-hq/skylight.digital.git`).
 3. Install rvm (`\curl -sSL https://get.rvm.io | bash -s stable`), and then install a new version of ruby (`rvm install 3.0.1`).
 4. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
 5. Install node (`brew install node -v7.10.0`), and then run `npm install` to install the local dependencies listed in `package.json`.
+
+***Mac users with an M1 chip should follow [these](https://github.com/skylight-hq/skylight.digital/edit/master/README.md#setup-for-mac-users-with-m1-chips) instructions instead***
 
 ## Running
 
@@ -32,3 +34,17 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 1. After installing git (`brew install git`), `cd` to the directory where you want to check out the site, and then clone it (`git clone https://github.com/skylight-hq/skylight.digital.git`).
 1. Enter the command `npm run docker-run` to start the server.
 1. Navigate to http://localhost:4000 in your browser.
+
+## Setup for Mac users with M1 chips
+
+1. Install homebrew (see https://brew.sh/)
+2. After installing git (`brew install git`), `cd` to the directory where you want to check out the site, and then clone it (`git clone https://github.com/skylight-hq/skylight.digital.git`).
+3. Install asdf (`brew install asdf`).
+4. Install ruby with asdf by follwoing the [asdf ruby installation guide](https://mac.install.guide/ruby/6.html).
+5. Revert the version of ruby running in your working directory to 2.7.2 first with `asdf install ruby 2.7.2` and then 
+`asdf local ruby 2.7.2`.
+6. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
+7. Install node (`brew install node -v7.10.0`), and then run `npm install` to install the local dependencies listed in `package.json`.
+
+
+

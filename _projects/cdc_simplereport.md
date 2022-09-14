@@ -46,7 +46,11 @@ tags:
     dan sass,
     jayna wallace,
     merethe hansen,
-    charlye tran
+    charlye tran,
+    laura kerry,
+    nick blake,
+    sarah george hager,
+    johanna delpino
   ]
 excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
 project_members:
@@ -61,6 +65,14 @@ project_members:
   - nick-clyde
   - bob-zhao
   - elisa-lee
+  - dan-sass
+  - jayna-wallace
+  - merethe-hansen
+  - charlye-tran
+  - laura-kerry
+  - sarah-george-hager
+  - nick-blake
+  - johanna-delpino
   - tim-niehoff
   - jesse-skeets
   - leslie-garner-franklin
@@ -72,10 +84,6 @@ project_members:
   - phoebe-espiritu
   - maya-benari
   - adam-weber
-  - dan-sass
-  - jayna-wallace
-  - merethe-hansen
-  - charlye-tran
 technologies:
   - HTML / CSS
   - Storybook
@@ -165,7 +173,7 @@ Our team focused on continually improving the tool by:
 - Developing a new patient experience feature for the product, allowing patients to complete their own pre-screening questions, thereby providing improved privacy for patients and more complete data for health departments
 - Building out the app's mobile experience
 - Redesigning the account creation, login, and password reset experience to massively speed up the onboarding process
-- Evolving the tool to ease reporting that faciliites need to do beyond public health, including one-click results download and an analytics dashboard
+- Evolving the tool to ease reporting that facilities need to do beyond public health, including one-click results download and an analytics dashboard
 - Providing research and content support to ReportStream, a cloud-based data routing and cleaning tool, to improve the experience onboarding new states to the product
 - Supporting PRIME-wide communications by creating messages and tools they can use to frame the problem and position their solutions with a broader audience
 

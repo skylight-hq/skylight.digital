@@ -34,7 +34,7 @@ Government is full of jargon. It's likely that candidates outside of government 
 
 ### Attract outside applicants
 
-Do your research to make sure that your job description will get in front of the right people. For example, use job titles like those found outside government. More job seekers are likely to understand a post for "Software Developer" more than one for an "IT Specialist APPSW."
+Do your research to make sure that your job description will get in front of the right people. For example, use job titles like those found outside government. More job seekers are likely to understand a post for "Software Engineer" more than one for an "IT Specialist APPSW."
 
 Look at job postings outside of government and write position descriptions that mirror them. Industry applicants will find these more familiar.
 
