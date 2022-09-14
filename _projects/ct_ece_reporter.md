@@ -43,6 +43,8 @@ technologies:
   - .NET Core
   - JSON API
   - Metabase
+  - Terraform
+  - Docker
   - IdentityServer
   - SQL Server
   - PostgreSQL
