@@ -10,16 +10,17 @@ feature_image_description:
 feature_image_shadow:
 order: 200
 display: true
-tags: [service delivery, procurement, transformation, training, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, open government, security & privacy, coaching & training, early childhood, social safety net, healthcare, economic development, education, marvo dolor, amelia wellers, abby raskin, lara kohl, ashley treni, victoria suwardiman, chris given, julia hogan, gabriel ramirez, cailyn hansen, kyle magida, brandon mader, chris cairns, shashank khandelwal, colin craig, josh dorothy, sean johnson, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy]
+tags: [service delivery, procurement, transformation, training, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, open government, security & privacy, coaching & training, early childhood, social safety net, healthcare, economic development, education, marvo dolor, amelia wellers, abby raskin, lara kohl, ashley treni, victoria suwardiman, chris given, julia hogan, gabriel ramirez, cailyn hansen, kyle magida, brandon mader, chris cairns, shashank khandelwal, colin craig, josh dorothy, sean johnson, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy, johanna delpino]
 excerpt: Partnering with the Connecticut Office of Early Childhood to help change how they deliver services to families with young children and the professionals who support them.
 project_members:
   - becca-bartola
   - priscilla-peralta
   - gordon-farrell
   - nick-bristow
+  - johanna-delpino
+  - josh-dorothy
   - brandon-mader
   - chris-cairns
-  - josh dorothy
   - sean-johnson
   - marvo-dolor
   - amelia-wellers
@@ -40,25 +41,31 @@ project_members:
   - lucas-newman
 technologies:
   - HTML / CSS / SVG
-  - JavaScript / JSON / React
+  - JavaScript / JSON / TypeScript / React
   - U.S. Web Design System
+  - Carbon Design System
   - MURAL
   - Sketch
   - InVision
   - Smartsheets
+  - Express
   - .NET Core
   - Ruby / Rails
   - JSON API
+  - Metabase
   - IdentityServer
   - SQL
   - SQL Server
   - MySQL
+  - PostgreSQL
   - Campaign Monitor
   - CircleCI
   - Docker
   - Amazon Web Services
   - Amazon S3
   - Amazon CloudFront
+  - Terraform
+  - Docker
   - Azure DevOps
   - Git / GitHub
   - Twilio
@@ -153,6 +160,8 @@ services. Thus far, our efforts have involved:
   to access affordable childcare
 - [Leveraging data and information](/work/experience/ct-families-experiencing-homelessness/)
   to better support families with young children experiencing homelessness
+- [Standing up a web traffic analytics system](/work/experience/ctgov-analytics/) that gives the entire state government
+  a more data-driven, holistic view of their web properties
 - Writing a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/)
   that provides guidance on how the organization can build up its internal
   digital talent capacity effectively
