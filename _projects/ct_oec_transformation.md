@@ -41,25 +41,31 @@ project_members:
   - lucas-newman
 technologies:
   - HTML / CSS / SVG
-  - JavaScript / JSON / React
+  - JavaScript / JSON / TypeScript / React
   - U.S. Web Design System
+  - Carbon Design System
   - MURAL
   - Sketch
   - InVision
   - Smartsheets
+  - Express
   - .NET Core
   - Ruby / Rails
   - JSON API
+  - Metabase
   - IdentityServer
   - SQL
   - SQL Server
   - MySQL
+  - PostgreSQL
   - Campaign Monitor
   - CircleCI
   - Docker
   - Amazon Web Services
   - Amazon S3
   - Amazon CloudFront
+  - Terraform
+  - Docker
   - Azure DevOps
   - Git / GitHub
   - Twilio
