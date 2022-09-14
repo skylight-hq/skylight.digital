@@ -19,8 +19,8 @@
     <!-- DE&I DATA VIZ POC STARTS HERE -->
     <script>
       var margin = {top: 20, right: 30, bottom: 40, left: 90},
-          width = 460 - margin.left - margin.right,
-          height = 400 - margin.top - margin.bottom;
+          width = 600 - margin.left - margin.right,
+          height = 300 - margin.top - margin.bottom;
       // append the svg object to the body of the page
       var svg = d3.select("#race-bar-graph")
         .append("svg")
@@ -34,12 +34,17 @@
         try {
           const data = await d3.json("/data/circle.json")
           const strokeWidth = data.width
+          let labels = [];
+          data.data.forEach(data => {
+            labels.push(data.race)
+          });
+          console.log('labels', labels)
           console.log('data', data)
           d3.select(".target").style("stroke-width", strokeWidth);
 
           var x = d3.scaleLinear()
-            .domain([0, 13000])
-            .range([ 0, width]);
+            .domain([0, 100]) //x
+            .range([ 0, 100]); //y
           svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x))
@@ -53,22 +58,45 @@
             .padding(.1);
           svg.append("g")
             .call(d3.axisLeft(y))
+          svg.selectAll('rect .background')
+            .data(data.data)
+            .enter()
+            .append('rect')
+            .classed('background', true)
+            .attr('y', function (d) { return y(d.race); })
+            .attr('x', x(0))
+            .attr('height', 87)
+            .attr('width', function (d) { return x(340); })
+            .attr('fill', '#DAE9F1')
           svg.selectAll("myRect")
             .data(data.data)
             .enter()
             .append("rect")
+            .style("margin-top", "10px")
             .attr("x", x(0) )
             .attr("y", function(d) { return y(d.race); })
-            .attr("width", function(d) { return x(d.percent); })
-            .attr("height", y.bandwidth() )
-            .attr("fill", "#69b3a2")
+            .attr("width", function(d) { return x(d.percent*340/100); })
+            .attr("height", 87)
+            .attr("fill", "#468FBA")
+          // This is not working currently. Trying to add text to bar graph.
+          svg.selectAll('text')
+            .data(labels)
+            .enter()
+            .append('text')
+            .text(function (d) { return d; })
+            .attr('y', 100)
+            .attr('x', 5)
+            .attr('font-family', 'sans-serif')
+            .attr('font-size', '13px')
+            .attr('font-weight', 900)
+            .attr('fill', 'black');
         } catch(error) {
           console.log(error);
         }
       })();
     </script>
     <!-- DE&I DATA VIZ POC ENDS HERE -->
-
+    <!-- https://codepen.io/anon/pen/JnlAE?editors=1010 -->
 
     {% include footer.html %}
 
