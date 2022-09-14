@@ -160,6 +160,8 @@ services. Thus far, our efforts have involved:
   to access affordable childcare
 - [Leveraging data and information](/work/experience/ct-families-experiencing-homelessness/)
   to better support families with young children experiencing homelessness
+- [Standing up a web traffic analytics system](/work/experience/ctgov-analytics/) that gives the entire state government
+  a more data-driven, holistic view of their web properties
 - Writing a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/)
   that provides guidance on how the organization can build up its internal
   digital talent capacity effectively
