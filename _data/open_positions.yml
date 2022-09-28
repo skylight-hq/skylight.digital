@@ -15,43 +15,18 @@
   category: Engineering
   location: Remote
   order: 10
-- title: DevOps Engineer
-  url: https://apply.workable.com/skylight/j/049D09E1D3/
-  category: Engineering
-  location: Remote
-  order: 20
 - title: Data Engineer
   url: https://apply.workable.com/skylight/j/C344212DDE/
   category: Data
   location: Remote
-  order: 30
+  order: 20
 - title: Product Manager
   url: https://skylight.workable.com/jobs/1083508
   category: Product & Delivery
   location: Remote
-  order: 40
+  order: 30
 - title: Product Designer
   url: https://skylight.workable.com/jobs/1128366
   category: Research & Design
   location: Remote
-  order: 50
-- title: Content Designer
-  url: https://apply.workable.com/skylight/j/ECC220A063/
-  category: Research & Design
-  location: Remote
-  order: 60
-- title: Service Designer
-  url: https://apply.workable.com/skylight/j/E7B37CF8D2/
-  category: Research & Design
-  location: Remote
-  order: 70
-- title: User Researcher
-  url: https://apply.workable.com/skylight/j/681D1CD9D5/
-  category: Research & Design
-  location: Remote
-  order: 80
-- title: Head of People Operations
-  url: https://apply.workable.com/skylight/j/025B6BC2CF/
-  category: Business Strategy & Operations
-  location: Remote
-  order: 90
+  order: 40
