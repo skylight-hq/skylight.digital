@@ -3,7 +3,7 @@ layout: career_pathways_role
 title: Digital transformer
 description: Find out what a digital transformer does and the skills you need to do the job.
 permalink: /careers/career-pathways/digital-transformer/
-preload: career_pathways/data-transformer.svg
+preload: career_pathways/digital-transformer.svg
 updated_date: Sep 29, 2022
 toc:
   - Introduction
@@ -24,7 +24,7 @@ levels:
 
 As a digital transformer, you guide organizations in implementing the systems and technologies they need to succeed in a digital world. You understand modern practices and can enable others to adopt them at scale. You're knowledgeable about change management, as well as a range of technology and design disciplines.
 
-Below you’ll find the full list of skills for becoming a data engineer at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
+Below you’ll find the full list of skills for becoming a digital transformer at Skylight and a description of the skills required for each level. These descriptions offer insight into the scope of work someone at each level should be capable of doing on a consistent basis. We use these role descriptions both as a guide during the hiring process and as a springboard for discussing career progression at Skylight.
 
 ### Required skills
 
