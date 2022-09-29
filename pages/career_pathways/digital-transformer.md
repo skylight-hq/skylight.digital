@@ -174,26 +174,18 @@ As a principal digital transformer, you drive change across all disciplines in a
 
 #### Skills needed for this level
 
-##### Data pipelines
+##### Digital delivery
 
-You work across teams to design and implement highly efficient data pipelines. You're well-versed in a broad spectrum of data pipeline tools, technologies, and strategies. You use this expertise to provide mentorship and guidance to the rest of Skylight.
+You can implement modern ways of working at multiple levels of an organization (e.g., delivery teams, leadership ranks) within a highly complex environment. You can rapidly spread knowledge of modern practices at scale by training others to be trainers.
 
-##### Data platforms
+##### Digital strategy
 
-You stay up to date with cutting edge data storage technologies and approaches. You develop these solutions across projects regardless of their technical composition. Your expertise helps the company and engineering teams make sound decisions regarding storage platforms and best practices. You can quickly identify performance bottlenecks and come up with options to remediate them. You're comfortable working with infrastructure both in and outside cloud environments. 
+You can lead the analysis of an organization's digital capability maturity and performance, within a highly complex environment, across all focus areas. You can also lead the formulation of a strategic plan for transforming organizational outcomes through the adoption of digital practices and technologies.
 
-##### Data analysis and visualization
+##### Digital management
 
-You demonstrate mastery over standard, advanced, and custom models. You know how to tailor any model to fit the problem, and you can explain the comparative advantages and disadvantages of choosing one model over another. You have mastered the technical and non-technical expression of modeling details. You can clearly communicate analytical problems and succinctly convey and deliver analytic recommendations within the context of client or policy outcomes. You establish best practices for data modeling, visualization, and communication approach, and encourage adherence across the company by working with individual team leads.
+You can guide senior leaders through the process of establishing and improving its digital management capacity within a highly complex organizational environment. You're able to recruit and/or train a diverse set of talent to fill essential roles at multiple levels of the organization (e.g., delivery teams, leadership ranks).
 
-##### Coding
+##### Culture and change
 
-You make sure that Skylight’s data engineers are aware of emerging and established practices and technologies. You can analyze tradeoffs and give sound guidance across Skylight teams to apply the most appropriate approach. You define organizational standards for code quality and best practices.
-
-##### Security, privacy, and compliance
-
-You're an expert in data engineering-related security best practices and keep up to date with current guidance and emerging vulnerabilities. You make sure that project teams across the organization are aware of critical security vulnerabilities and follow up with project leads and Skylight leadership as appropriate. 
-
-##### Strategic and policy thinking
-
-You use data to proactively ask meaningful questions to project leads and stakeholders across the company. You work with stakeholders to determine priorities, questions, and outcomes that can be addressed with data. You collaborate with leadership, strategists, and policymakers to incorporate data at every project stage. You identify, pursue, and deliver on new opportunities to leverage data-driven thinking to achieve mission outcomes.
+You're a thought leader in the industry, continuously redefining team and organizational health. Executives seek you out for your insight on their thorniest transformation challenges. You have expertise in several advanced practices (e.g., portfolio management, improvement kata, OKRs, beyond budgeting) and lead their implementation.
