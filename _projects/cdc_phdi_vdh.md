@@ -24,35 +24,9 @@ tags:
     security & privacy,
     open government,
     healthcare,
-    bryan britten,
-    peggy chau,
-    kenneth chow,
-    nick clyde,
-    brady fausett,
-    jill fromewick,
-    ryan gaddis,
-    marcelle goggins,
-    matt goldberg,
-    spencer kathol,
-    brandon mader,
-    ann milspaugh,
-    dan paseltiner
   ]
 excerpt: A prototype data ingestion pipeline that increases data processing speed, automates manual processes, and enables public health agencies to better analyze data and share findings to drive timely public health action and decision-making.
 project_members:
-  - bryan-britten
-  - peggy-chau
-  - kenneth-chow
-  - nick-clyde
-  - brady-fausett
-  - jill-fromewick
-  - ryan-gaddis
-  - marcelle-goggins 
-  - matt-goldberg
-  - spencer-kathol
-  - brandon-mader
-  - ann-milspaugh
-  - dan-paseltiner
 technologies:
   - Python
   - APIs
