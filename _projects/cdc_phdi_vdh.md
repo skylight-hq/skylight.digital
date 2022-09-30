@@ -52,7 +52,7 @@ project_members:
   - jill-fromewick
   - ryan-gaddis
   - matt-goldberg
-  - marcelle-goggins
+  - marcelle-goggins 
 technologies:
   - Python
   - APIs
