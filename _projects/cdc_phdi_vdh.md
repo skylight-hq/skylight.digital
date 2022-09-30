@@ -52,7 +52,7 @@ project_members:
   - spencer-kathol
   - brandon-mader
   - ann-milspaugh
-  - dan paseltiner
+  - dan-paseltiner
 technologies:
   - Python
   - APIs
