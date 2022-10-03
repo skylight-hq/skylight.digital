@@ -11,7 +11,30 @@ feature_image_shadow:
 order: 500
 display: true
 tags:
-  [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, open government, healthcare, bryan britten, peggy chau, kenneth chow, nick clyde, ryan gaddis, matt goldberg, spencer kathol, brandon mader, dan paseltiner, ann millspaugh, brady fausett, jill fromewick, marcelle goggins]
+  [service delivery,
+  research & design,
+  product management,
+  software delivery,
+  legacy modernization,
+  devops,
+  cloud & platforms,
+  data & analytics,
+  apis, security & privacy,
+  open government,
+  healthcare,
+  bryan britten,
+  peggy chau,
+  kenneth chow,
+  nick clyde,
+  ryan gaddis,
+  matt goldberg,
+  spencer kathol,
+  brandon mader,
+  dan paseltiner,
+  ann millspaugh,
+  brady fausett,
+  jill fromewick,
+  marcelle goggins]
 excerpt: A prototype data ingestion pipeline that increases data processing speed, automates manual processes, and enables public health agencies to better analyze data and share findings to drive timely public health action and decision-making.
 project_members:
   - bryan-britten
