@@ -2034,6 +2034,10 @@
       link: www.linkedin.com/in/matthew-goldberg-01586854
       link_description: Matt's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/matt-goldberg/
+      link_description: Matt's Project Work
+      fa_icon_name: wrench
 - name: nick-blake
   fname: Nick
   lname: Blake
@@ -2503,6 +2507,10 @@
       link: https://www.linkedin.com/in/ryangaddis/
       link_description: Ryan's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/ryan-gaddis/
+      link_description: Ryan's Project Work
+      fa_icon_name: wrench
 - name: bryan-britten
   fname: Bryan
   lname: Britten
@@ -2532,6 +2540,10 @@
       link: https://tibblesnbits.com
       link_description: Bryan's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/bryan-britten/
+      link_description: Bryan's Project Work
+      fa_icon_name: wrench
 - name: kyle-planeaux
   fname: Kyle
   lname: Planeaux
@@ -2686,6 +2698,10 @@
       link: https://github.com/gskathol
       link_description: Spencer's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/spencer-kathol/
+      link_description: Spencer's Project Work
+      fa_icon_name: wrench
 - name: dan-sass
   fname: Dan
   lname: Sass
@@ -2766,6 +2782,10 @@
       link: https://www.linkedin.com/in/kenneth-chow-it/
       link_description: Kenneth's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kenneth-chow/
+      link_description: Kenneth's Project Work
+      fa_icon_name: wrench
 - name: camille-villa
   fname: Camille
   lname: Villa
@@ -2812,6 +2832,10 @@
       link: https://github.com/DanielPaseltiner
       link_description: Dan's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/dan-paseltiner/
+      link_description: Dan's Project Work
+      fa_icon_name: wrench
 - name: ann-millspaugh
   fname: Ann
   lname: Millspaugh
@@ -2833,6 +2857,10 @@
       link: https://github.com/millzpaugh
       link_description: Ann's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/ann-millspaugh/
+      link_description: Ann's Project Work
+      fa_icon_name: wrench
 - name: steven-speck
   fname: Steven
   lname: Speck
