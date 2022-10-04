@@ -1,13 +1,12 @@
 {
   "data": [
     {
-      "race": "white",
+      "race": "White",
       "percent": 67
     },
     {
-      "race": "poc",
+      "race": "BIPOC",
       "percent": 33
-      
     }
   ],
   "width": 10

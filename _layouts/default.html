@@ -20,7 +20,7 @@
     <!-- DE&I DATA VIZ POC STARTS HERE -->
     <script>
       var margin = {top: 20, right: 30, bottom: 40, left: 90},
-          width = 600 - margin.left - margin.right,
+          width = 800 - margin.left - margin.right,
           height = 300 - margin.top - margin.bottom;
       // append the svg object to the body of the page
       var svg = d3.select("#race-bar-graph")
@@ -36,11 +36,14 @@
           const data = await d3.json("/data/dei-data.json")
           const strokeWidth = data.width
           let labels = [];
+          let values = [];
           data.data.forEach(data => {
             labels.push(data.race)
+            values.push(data.percent)
           });
+
           const h_line = 87; // the height of the line in pixels
-          const offset = 24; // vertical offset for the bar text
+          const offset = values.length; // vertical offset for the bar text
           console.log('labels', labels)
           console.log('data', data)
           d3.select(".target").style("stroke-width", strokeWidth);
@@ -75,18 +78,52 @@
             .attr("width", function(d) { return x(d.percent*340/100); })
             .attr("height", 87)
             .attr("fill", "#468FBA")
+
+          labels.forEach((label, index) => {
+            svg.append("text")
+              .text(label)
+              .attr('y', function () { return (((12 + 67) * (index + 1)) + ((30) * index)) })
+              .attr('x', 361)
+              .attr('font-family', 'Libre Franklin')
+              .attr('font-size', '20px')
+              .attr('font-weight', 400)
+              .attr('fill', '#1D5392');
+          })
+
+          values.forEach((value, index) => {
+            svg.append("text")
+              .text(value + '%')
+              .attr('y', function () { return (((55) * (index + 1)) + ((53) * index)) })
+              .attr('x', 361)
+              .attr('font-family', 'Libre Franklin')
+              .attr('font-family', 'Libre Franklin')
+              .attr('font-size', '32px')
+              .attr('font-weight', 600)
+              .attr('fill', '#1D5392');
+          })
           // Have to figure out styling and moving text to correct spot on graph
-          svg.selectAll('text')
-            .data(labels)
-            .enter()
-            .append('text')
-            .text(function (d) { return d; })
-            .attr('y', function (d, i) { return i * h_line + offset + 87; })
-            .attr('x', 5)
-            .attr('font-family', 'sans-serif')
-            .attr('font-size', '13px')
-            .attr('font-weight', 900)
-            .attr('fill', 'black');
+          // svg.selectAll('rect')
+          //   .data(labels)
+          //   .enter()
+          //   .append('text')
+          //   .text(function (d) { return d; })
+          //   .attr('y', function (d, i) { return i * (24 + 67) + offset * 67; })
+          //   .attr('x', 340 + 21)
+          //   .attr('font-family', 'Libre Franklin')
+          //   .attr('font-size', '20px')
+          //   .attr('font-weight', 400)
+          //   .attr('fill', '#1D5392');
+          // svg.selectAll('rect')
+          //   .data(values)
+          //   .enter()
+          //   .append('text')
+          //   .text(function (d) { return String(d); })
+          //   .attr('y', function (d, i) { return 200; })
+          //   .attr('x', 340 + 21)
+          //   .attr('font-family', 'Libre Franklin')
+          //   .attr('font-size', '32px')
+          //   .attr('font-weight', 600)
+          //   .attr('fill', '#1D5392');
         } catch(error) {
           console.log(error);
         }
