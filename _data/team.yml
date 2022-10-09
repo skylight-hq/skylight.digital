@@ -2149,7 +2149,7 @@
   position: Staff Product Manager
   bio: >
     Tim's a seasoned product manager with a passion for building small, releasing early, and iterating often. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped transform the way startups and large enterprises build software. Tim lives in Illinois.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
@@ -2947,7 +2947,7 @@
   position: Product Designer Intern
   bio: >
     Michelle's a product designer originally from the San Francisco Bay Area. She cares deeply about building positive relationships between people and technology. Previously, she was a Civic Digital Fellow at the National Institutes of Health. Michelle lives in New York. 
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/michmli/
