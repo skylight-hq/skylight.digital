@@ -77,6 +77,8 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 {: .heading-mono .mt-6 }
 [Consultant](/careers/career-pathways/consultant/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }   
+[Digital transformer](/careers/career-pathways/digital-transformer/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }  
 [People manager](/careers/career-pathways/people-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }    
 
