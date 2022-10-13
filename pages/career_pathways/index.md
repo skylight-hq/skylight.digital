@@ -4,7 +4,7 @@ title: Skylight Career Pathways
 description: Find descriptions of different roles within Skylight and the skills needed to do them.
 permalink: /careers/career-pathways/
 preload: hero-join-us.svg
-updated_date: January 26, 2022
+updated_date: October 13, 2022
 ---
 
 {% include hero_banner.html
@@ -72,13 +72,16 @@ Find out about different roles at Skylight. We’ll publish more roles as they b
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
 [Engagement manager](/careers/career-pathways/engagement-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }
+  
+### Transformation & procurement  
+{: .heading-mono .mt-6 }
+[Digital transformer](/careers/career-pathways/digital-transformer/)
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }  
     
 ### General
 {: .heading-mono .mt-6 }
 [Consultant](/careers/career-pathways/consultant/)
-{: .font-lg .font-weight-bold .mt-4 .mb-2 }   
-[Digital transformer](/careers/career-pathways/digital-transformer/)
-{: .font-lg .font-weight-bold .mt-4 .mb-2 }  
+{: .font-lg .font-weight-bold .mt-4 .mb-2 }     
 [People manager](/careers/career-pathways/people-manager/)
 {: .font-lg .font-weight-bold .mt-4 .mb-2 }    
 
