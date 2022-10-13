@@ -4,7 +4,7 @@ title: Digital transformer
 description: Find out what a digital transformer does and the skills you need to do the job.
 permalink: /careers/career-pathways/digital-transformer/
 preload: career_pathways/digital-transformer.svg
-updated_date: Sep 29, 2022
+updated_date: Oct 13, 2022
 toc:
   - Introduction
   - Associate digital transformer
