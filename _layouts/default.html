@@ -19,17 +19,7 @@
 
     <!-- DE&I DATA VIZ POC STARTS HERE -->
     <script>
-      var margin = {top: 20, right: 30, bottom: 40, left: 90},
-          width = 800 - margin.left - margin.right,
-          height = 300 - margin.top - margin.bottom;
-      // append the svg object to the body of the page
-      var svg = d3.select("#race-bar-graph")
-        .append("svg")
-          .attr("width", width)
-          .attr("height", height)
-        .append("g")
-          .attr("transform",
-                "translate(" + margin.left + "," + margin.top + ")")
+
       console.log('hello');
       (async function() {
         try {
@@ -41,8 +31,21 @@
             labels.push(data.race)
             values.push(data.percent)
           });
-
-          const h_line = 87; // the height of the line in pixels
+          const barHeight = 87;
+          var canvasHeight = (barHeight*values.length) + (24*(values.length -1))
+          var margin = {top: 20, right: 30, bottom: 40, left: 90},
+              // TODO: need to make width and height dynamic based on # of data points
+              width = 1000 - margin.left - margin.right,
+              height = canvasHeight + margin.top + margin.bottom;
+          // append the svg object to the body of the page
+          var svg = d3.select("#race-bar-graph")
+            .append("svg")
+              .attr("width", width)
+              .attr("height", height)
+            .append("g")
+              .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")")
+          const h_line = barHeight; // the height of the line in pixels
           const offset = values.length; // vertical offset for the bar text
           console.log('labels', labels)
           console.log('data', data)
@@ -82,7 +85,7 @@
           labels.forEach((label, index) => {
             svg.append("text")
               .text(label)
-              .attr('y', function () { return (((12 + 67) * (index + 1)) + ((30) * index)) })
+              .attr('y', function () { return (((76.5) * (index + 1)) + ((39) * index)) }) // TODO: dependent on canvas height line 25
               .attr('x', 361)
               .attr('font-family', 'Libre Franklin')
               .attr('font-size', '20px')
@@ -93,7 +96,7 @@
           values.forEach((value, index) => {
             svg.append("text")
               .text(value + '%')
-              .attr('y', function () { return (((55) * (index + 1)) + ((53) * index)) })
+              .attr('y', function () { return (((55) * (index + 1)) + ((60) * index)) }) // TODO: dependent on canvas height line 25
               .attr('x', 361)
               .attr('font-family', 'Libre Franklin')
               .attr('font-family', 'Libre Franklin')

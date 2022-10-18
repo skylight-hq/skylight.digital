@@ -2,11 +2,27 @@
   "data": [
     {
       "race": "White",
-      "percent": 67
+      "percent": 50
     },
     {
       "race": "BIPOC",
-      "percent": 33
+      "percent": 50
+    },
+    {
+      "race": "Test Race",
+      "percent": 20
+    },
+    {
+      "race": "Test Race B",
+      "percent": 99
+    },
+    {
+      "race": "Test Race C",
+      "percent": 50
+    },
+    {
+      "race": "Test Race D",
+      "percent": 50
     }
   ],
   "width": 10
