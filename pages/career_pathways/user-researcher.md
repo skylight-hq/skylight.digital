@@ -152,7 +152,7 @@ A senior user researcher is an experienced practitioner who’s able to plan and
 #### Skills needed for this level
 
 ##### Analysis and synthesis
-You understand and can help teams apply a range of methods to analyze research data and synthesise findings. You know how to engage colleagues and stakeholders in analysis and synthesis. You can advise on choice and application of techniques, and can provide feedback on colleagues’ findings to assure best practice.
+You understand and can help teams apply a range of methods to analyze research data and synthesize findings. You know how to engage colleagues and stakeholders in analysis and synthesis. You can advise on choice and application of techniques, and can provide feedback on colleagues’ findings to assure best practice.
 
 ##### Inclusive research
 You can help teams understand the diversity of users of government services. You know how to include all kinds of users in appropriate research activities. You can advocate for inclusive practices and help teams design and deliver accessible services that work for all users.

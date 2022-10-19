@@ -167,7 +167,7 @@ Your product meets or exceeds user, business, and technical expectations. You’
 You’re experienced in leading user interviews and guiding the team to better understand the needs of the user. You prioritize the human element in the software development process rather than approach it as a transactional activity. You collaborate with product designers on wireframes or prototypes and provide direction when necessary.
 
 ##### Cross-team collaboration
-Youly remove silos in your team. You’re experienced at adapting your work style when working with other disciplines. You have experience doing design, research, or engineering activities. You set up team process to enable cross-collaboration and create space for all voices.
+You remove silos in your team. You’re experienced at adapting your work style when working with other disciplines. You have experience doing design, research, or engineering activities. You set up team process to enable cross-collaboration and create space for all voices.
 
 ##### Client and stakeholder management
 You’re an expert at establishing relationships with clients and stakeholders. You’ve demonstrated the ability to educate and lead clients towards a solution. You know how to create alignment and consensus. You play a major role in maintaining the client relationship.
