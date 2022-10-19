@@ -245,7 +245,7 @@ You work across projects to ensure user focus and accessibility is maintained ac
 
 {% include role_level.html level='principal' %}
 
-A principal software engineer leads other software engineers within the organization and attracts and builds talent. At this level, you'll be expected to be an expert practitioner who can define and enforce leading practices, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. You’ll also build Skylight’s reputation for strong software engineering through channels such as public speaking, publications, workships, or social media. At this level, you’ll be expected to transform software development practice at the leadership level across client organizations.
+A principal software engineer leads other software engineers within the organization and attracts and builds talent. At this level, you'll be expected to be an expert practitioner who can define and enforce leading practices, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. You’ll also build Skylight’s reputation for strong software engineering through channels such as public speaking, publications, workshops, or social media. At this level, you’ll be expected to transform software development practice at the leadership level across client organizations.
 
 #### Skills needed for this level
 
