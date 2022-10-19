@@ -111,7 +111,7 @@ You have experience with basic user research methods. You understand why researc
 
 ##### Interaction design
 
-You have a foundational understanding of common design patterns in the field and the product. You have conceptual familiarity with information architecture, multi-step, and cross-platform workflows. You also consider different states in your work ( e.g., error, empty, success).
+You have a foundational understanding of common design patterns in the field and the product. You have conceptual familiarity with information architecture, multi-step, and cross-platform workflows. You also consider different states in your work (e.g., error, empty, success).
 
 ##### Visual design
 
