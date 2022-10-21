@@ -49,10 +49,10 @@ project_members:
   - spencer-kathol
   - ann-millspaugh
   - brandon-mader
-  - tomi-obikunle
-  - graham-smith
-  - jesse-skeets
   - dan-paseltiner
+  - tomi-obikunle
+  - jesse-skeets
+  - graham-smith
   - brady-fausett
   - jill-fromewick
   - marcelle-goggins
