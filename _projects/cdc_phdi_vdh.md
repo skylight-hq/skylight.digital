@@ -114,9 +114,9 @@ This project resulted in the creation of a working prototype — a cloud-based, 
 
 Based on this work, we’ve extended the pilot with VDH to develop analysis tools, and, ideally, implement the prototype pipeline in a live data environment. 
 
-Additionally, while the tools developed as part of the VDH prototype focus on data ingestion and processing, the learnings from this pilot project also help in the development of a comprehensive set of “building blocks,” (i.e., modular software services that STLTs can integrate into their current workflows, reducing the need for manual processes and creating more efficient access to better quality data).
+Additionally, while the tools developed as part of the VDH prototype focus on data ingestion and processing, the learnings from this pilot project also help in the development of a comprehensive set of “Building Blocks,” (i.e., modular software services that STLTs can integrate into their current workflows, reducing the need for manual processes and creating more efficient access to better quality data).
 
-The next phase of work for our team will be to apply the learnings from the VDH prototype to prioritize, develop, and scale modular “building blocks” with a wide range of STLT partners to solve other healthcare data-related challenges.
+The next phase of work for our team will be to apply the learnings from the VDH prototype to prioritize, develop, and scale modular Building Blocks with a wide range of STLT partners to solve other healthcare data-related challenges.
 {% endcapture %}
 
 {% capture results %}
@@ -125,7 +125,7 @@ The next phase of work for our team will be to apply the learnings from the VDH 
 - Reduced patient record duplication by 19% across data streams (lab reports, case reports, and vaccinations)
 - System went from being able to handle 5,800 incoming HL7 messages per hour, at peak, to 20,000 messages per hour
 - System generates a tabular, analysis-ready data mart for ~380,000 patient resources in under 15 minutes
-- Continuing to pilot prototype with near real-time data from VDH to test and iterate on the current building blocks
+- Continuing to pilot prototype with near real-time data from VDH to test and iterate on the current Building Blocks
   {% endcapture %}
 
 {% include project.html
