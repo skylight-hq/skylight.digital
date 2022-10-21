@@ -85,6 +85,8 @@ practices:
   - Cloud hosting
   - Hybrid-cloud architecture
   - Virtual collaboration
+project_url: https://cdcgov.github.io/phdi-site/ 
+project_cta: See the site
 source_code_url: https://github.com/CDCgov/phdi 
 ---
 
