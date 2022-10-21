@@ -38,7 +38,7 @@ tags:
   brady fausett,
   jill fromewick,
   marcelle goggins]
-excerpt: A prototype data ingestion pipeline that increases data processing speed, automates manual processes, and enables public health agencies to better analyze data and share findings to drive timely public health action and decision-making.
+excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data infrastructure.
 project_members:
   - bryan-britten
   - peggy-chau
@@ -101,7 +101,7 @@ The COVID-19 pandemic revealed that the U.S. needs to significantly improve the 
 {% endcapture %}
 
 {% capture solution %}
-In an effort to strengthen the U.S. public health data infrastructure, the CDC established the Data Modernization Initiative (DMI) as well as launched a multi-year collaboration with the USDS called the Pandemic-Ready Interoperability Modernization Effort (PRIME). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to open source, modular software and tooling, known as “Building Blocks,” for use by STLTs.
+In an effort to strengthen the U.S. public health data infrastructure, the CDC established the [Data Modernization Initiative (DMI)](https://www.cdc.gov/surveillance/data-modernization/index.html) as well as launched a multi-year collaboration with the USDS called the [Pandemic-Ready Interoperability Modernization Effort (PRIME)](https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to open source, modular software and tooling, known as “Building Blocks,” for use by STLTs.
 
 Building Blocks are a set of tools for data collection, processing, and analysis, encompassing all points of the data workflow, from systems and messaging support to deliverables for epidemiologists. They’re modular and independent, but when combined together can solve the bespoke data needs of any given STLT. Building Blocks can range in size — some are relatively small and only do one thing, like standardizing patient names, while others can be very big and perform more complex tasks, like standardizing an address while simultaneously fetching the associated census tract, FIPS code, and county. You can think of them like LEGO blocks. Each LEGO block is its own, independent piece, but can fit together to build entire structures. Similarly, while each Building Block targets one specific task, they can also be combined to create larger data ingestion, processing, and analysis pipelines. Importantly, Building Blocks are designed with common inputs and outputs making them composable across STLTs and enabling easy integration into existing workflows. 
 
@@ -117,7 +117,7 @@ These activities will help define, prioritize, pilot, and, ultimately, scale Bui
 
 {% capture results %}
 
-- Partnered with Virginia Health Department to build and pilot a cloud-based data pipeline “starter kit” with a quick start approach to solve some of the main challenges STLTs face, namely data ingestion, geocoding, and deduplication
+- [Partnered with Virginia Health Department](https://skylight.digital/cdc-public-health-data-infrastructure-pilot/) to build and pilot a cloud-based data pipeline “starter kit” with a quick start approach to solve some of the main challenges STLTs face, namely data ingestion, geocoding, and deduplication
 - Developed SDK toolkit and API documentation enabling STLTs to easily import and integrate modular Building Blocks into their existing data environments 
 - Working with Los Angeles County on piloting a Geocoding Building Block to automatically link patient data with standardized geolocation (e.g., census tract, county, address)
 - Gathered insights from public health department staff through user-centered focus groups to understand data-related frustrations and ideal outcomes 
