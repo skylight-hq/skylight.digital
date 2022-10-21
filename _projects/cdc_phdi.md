@@ -8,7 +8,7 @@ image_description: A person stacking blocks on a table.
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 210
+order: 120
 display: true
 tags:
   [service delivery,
@@ -38,7 +38,7 @@ tags:
   brady fausett,
   jill fromewick,
   marcelle goggins]
-excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data infrastructure.
+excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data system.
 project_members:
   - bryan-britten
   - peggy-chau
