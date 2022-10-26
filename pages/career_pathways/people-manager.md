@@ -17,7 +17,7 @@ levels:
   - III
 ---
 
-As a people manager at Skylight, you ensure your reports feel valued, celebrated, motivated, and heard. You’re their advocate and their support system. You help them achieve their goals and grow their careers. You ensure each report is delivering excellent client experiences and contributing to Skylight and our community. You’re a champion for Skylight’s values and foster a culture where everyone can thrive. 
+As a people manager at Skylight, you ensure your reports feel valued, celebrated, motivated, and heard. You’re their advocate and their support system. You help them achieve their goals and grow their careers. You ensure each report is delivering excellent client experiences and contributing to Skylight and our community. You’re a champion for Skylight’s values and foster a culture where everyone can thrive.
 
 ### Required skills
 
@@ -50,7 +50,7 @@ You help your reports grow by coaching and mentoring. You help them feel comfort
 
 #### Business acumen 
 
-You strive to gain comprehensive knowledge of the different aspects of how our business achieves its goals and objectives. You understand the context under which we operate. You keep up with civic technology news. You stay updated on government programs and policy changes that can affect our business. You seek to find out what motivates our clients. You know when to prioritize the needs of the client vs. the needs of the employee. You understand our strategic objectives and the part each of us has to play in achieving them. You're able to answer employees’ questions about time codes, staffing, benefits, and time off. 
+You strive to gain comprehensive knowledge of the different aspects of how our business achieves its goals and objectives. You understand the context under which we operate. You keep up with civic technology news. You stay updated on government programs and policy changes that can affect our business. You seek to find out what motivates our clients. You know when to prioritize the needs of the client vs. the needs of the employee. You understand our strategic objectives and the part each of us has to play in achieving them. You answer employees’ questions about time codes, staffing, benefits, and time off. 
 
 ## People manager career pathway
 
@@ -78,7 +78,7 @@ You build trusted, supportive relationships with your direct reports. You ensure
 
 ##### Organizational and administrative skills
 
-You're adept at time management and are productive under pressure. You can juggle multiple tasks, prioritizing between client work, people management, and administrative tasks. You ensure your reports complete their administrative duties on time (e.g. time cards, expense reports). 
+You're adept at time management and are productive under pressure. You juggle multiple tasks, prioritizing between client work, people management, and administrative tasks. You ensure your reports complete their administrative duties on time (e.g. time cards, expense reports). 
 
 ##### Representing Skylight’s values
 
@@ -96,7 +96,7 @@ You have some understanding of the different aspects of our business. You're lea
 
 {% include role_level.html level='II' %}
 
-You have enough experience managing people that you feel comfortable overseeing both people and project teams. You're able to quickly build relationships and quickly identify how you can best support people and teams that are experiencing unique challenges. 
+You have enough experience managing people that you feel comfortable overseeing both people and project teams. You quickly build relationships and quickly identify how to best support people and teams that are experiencing unique challenges. 
 
 #### Skills needed for this level
 
@@ -128,19 +128,19 @@ You use the Career Pathways to help your direct reports understand their role an
 
 ##### Business acumen
 
-You have a strong understanding of the different aspects of our business. You understand the context in which we operate. You keep up with civic technology news. You have an appreciation of how changes in government policy and programs can affect our business. You ensure your reports further our strategic goals and objectives. You know when to prioritize the needs of the client vs. the needs of the employee. You're able to answer employee questions about time codes, staffing, benefits, and time off. 
+You have a strong understanding of the different aspects of our business. You understand the context in which we operate. You keep up with civic technology news. You have an appreciation of how changes in government policy and programs can affect our business. You ensure your reports further our strategic goals and objectives. You know when to prioritize the needs of the client vs. the needs of the employee. You answer employee questions about time codes, staffing, benefits, and time off. 
 
 ### Level III
 
 {% include role_level.html level='III' %}
 
-You're a manager of managers. You're able to support and grow new managers in the organization. You're able to both manage a department of people that’s constantly evolving and adapt to the changing needs of the people in the company. 
+You're a manager of managers. You support and grow new managers in the organization. You both manage a department of people that’s constantly evolving and adapt to the changing needs of the people in the company. 
 
 #### Skills needed for this level
 
 ##### Empathy
 
-You can help teams create empathetic and supportive environments. You coach other people managers to be more empathetic leaders. 
+You help teams create empathetic and supportive environments. You coach other people managers to be more empathetic leaders. 
 
 ##### Delivering feedback
 
@@ -152,7 +152,7 @@ You build relationships with your direct reports, help them build relationships 
 
 ##### Organizational and administrative skills
 
-Not only are you good at organizational and administrative tasks, you also design and improve processes that help the company operate. You help others prioritize their tasks and coach them on time management. You can juggle multiple tasks, prioritizing between client work, people management, and administrative tasks. You ensure all your reports complete their administrative duties on time. You help others adapt to changes that require training or education. 
+Not only are you good at organizational and administrative tasks, you also design and improve processes that help the company operate. You help others prioritize their tasks and coach them on time management. You juggle multiple tasks, prioritizing between client work, people management, and administrative tasks. You ensure all your reports complete their administrative duties on time. You help others adapt to changes that require training or education. 
 
 ##### Representing Skylight’s values
 
@@ -164,4 +164,4 @@ You create mechanisms for everyone to learn and grow across the organization. Yo
 
 ##### Business acumen
 
-Based on what you hear from reports, you help identify ways to improve our business operations and policies. You suggest new service offerings to support changes in government focus. You ensure your direct reports understand the current business goals and objectives and their roles in helping achieve them. You're able to answer complex questions about time codes, staffing, benefits, and time off. You understand the importance of talent acquisition and how it helps the company grow. You help ensure new employees have the right skills, are well-supported, and otherwise set up for success. You help other managers achieve comprehensive knowledge of the different aspects of the business. 
+Based on what you hear from reports, you help identify ways to improve our business operations and policies. You suggest new service offerings to support changes in government focus. You ensure your direct reports understand the current business goals and objectives and their roles in helping achieve them. You answer complex questions about time codes, staffing, benefits, and time off. You understand the importance of talent acquisition and how it helps the company grow. You help ensure new employees have the right skills, are well-supported, and otherwise set up for success. You help other managers achieve comprehensive knowledge of the different aspects of the business. 
