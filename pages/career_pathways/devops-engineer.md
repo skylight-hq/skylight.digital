@@ -5,7 +5,7 @@ title_caps: true
 description: Find out what a DevOps engineer does and the skills you need to do the job.
 permalink: /careers/career-pathways/devops-engineer/
 preload: career_pathways/devops-engineer.svg
-updated_date: November 24, 2021
+updated_date: October 26, 2022
 toc:
   - Introduction
   - Associate DevOps engineer
@@ -35,15 +35,15 @@ You work closely with application developers. You understand general principles 
 
 #### Distributed systems
 
-You work in a cloud-centric world managing disparate interconnected systems. You know how to ensure the availability, reliability and resiliency of these systems. You help software engineers design scalable loosely-coupled systems.
+You work in a cloud-centric world managing disparate interconnected systems. You ensure the availability, reliability and resiliency of these systems. You help software engineers design scalable loosely-coupled systems.
 
 #### Continuous delivery
 
-You work with teams to improve the frequency of successful deployments. You understand how to build and maintain continuous integration/continuous deployment (CI/CD) pipelines that allow teams to maximize automation and confidently release to production on demand.
+You work with teams to improve the frequency of successful deployments. You build and maintain continuous integration/continuous deployment (CI/CD) pipelines that allow teams to maximize automation and confidently release to production on demand.
 
 #### Security, privacy, and compliance
 
-You guide the team towards shifting security left. You know how to build secure applications and defend against common security vulnerabilities. You understand that modern applications are always on, which means they’re always at risk. You know how to navigate complex government security and privacy compliance requirements.
+You guide the team towards shifting security left. You build secure applications and defend against common security vulnerabilities. You understand that modern applications are always on, which means they’re always at risk. You navigate complex government security and privacy compliance requirements.
 
 #### Production operations
 
@@ -51,7 +51,7 @@ You work with software engineers to instrument applications and configure infras
 
 #### Infrastructure standardization and automation
 
-You know how to create and maintain your infrastructure as code, so that it can be reviewed, tested, and audited. You standardize processes so that they are understandable and repeatable.
+You create and maintain your infrastructure as code, so that it can be reviewed, tested, and audited. You standardize processes so that they are understandable and repeatable.
 
 ## DevOps engineer career pathway
 
@@ -65,27 +65,27 @@ As an associate DevOps engineer in an entry-level role, you’ll need to have an
 
 ##### Modern software development
 
-You're familiar with basic principles of modern software development, such as version control, frameworks, and testing. You can perform basic tasks in at least one scripting language. You're capable of being given a narrowly-scoped task and translating its requirements into code.
+You're familiar with basic principles of modern software development, such as version control, frameworks, and testing. You perform basic tasks in at least one scripting language. You translate requirements into code for narrowly-scoped tasks.
 
 ##### Distributed systems
 
-You're familiar with the pros and cons of distributed systems. You can make narrowly-scoped changes to these systems.
+You're familiar with the pros and cons of distributed systems. You make narrowly-scoped changes to these systems.
 
 ##### Continuous delivery
 
-You can explain why CI and CD are important to releasing on demand. You're aware of the existence of government security and privacy compliance requirements.
+You explain why CI and CD are important to releasing on demand. You're aware of the existence of government security and privacy compliance requirements.
 
 ##### Security, privacy, and compliance
 
-You have some basic understanding of common security vulnerabilities and privacy concerns and can implement mitigations for them with guidance.
+You have some basic understanding of common security vulnerabilities and privacy concerns and implement mitigations for them with guidance.
 
 ##### Production operations
 
-You understand some of the activities that go into operating a system in production. You can understand application logs and monitoring data.
+You understand some of the activities that go into operating a system in production. You understand application logs and monitoring data.
 
 ##### Infrastructure standardization and automation
 
-You know why infrastructure standardization and automation are important and can identify common examples, such as infrastructure as code and containerization.
+You know why infrastructure standardization and automation are important and identify common examples, such as infrastructure as code and containerization.
 
 ### DevOps engineer I
 
@@ -105,7 +105,7 @@ You understand how user traffic flows through a system. You’re familiar with t
 
 ##### Continuous delivery
 
-You're capable of modifying existing CI/CD pipelines and understand how they’re triggered. You’re capable of troubleshooting common pipeline errors.
+You modify existing CI/CD pipelines and understand how they’re triggered. You troubleshoot common pipeline errors.
 
 ##### Security, privacy, and compliance
 
@@ -113,11 +113,11 @@ You proactively identify basic security and privacy issues. You work with your p
 
 ##### Production operations
 
-You understand how to configure application logging and metrics collection. You can navigate logs to help troubleshoot issues. You understand identity access management principles and can implement them with guidance. You understand how to restore data from backups, such as data snapshots.
+You understand how to configure application logging and metrics collection. You navigate logs to help troubleshoot issues. You understand identity access management principles and implement them with guidance. You understand how to restore data from backups, such as data snapshots.
 
 ##### Infrastructure standardization and automation
 
-You can describe system architectures using infrastructure as code. You understand how to configure and secure containers.
+You describe system architectures using infrastructure as code. You understand how to configure and secure containers.
 
 ### DevOps engineer II
 
@@ -133,7 +133,7 @@ You understand how architectural decisions made during application development w
 
 ##### Distributed systems
 
-You design and implement reliable and resilient distributed system architectures. You can create clean architecture diagrams for a variety of audiences. You're experienced in scaling applications and mitigating or avoiding common failure scenarios to maximize uptime.
+You design and implement reliable and resilient distributed system architectures. You create clean architecture diagrams for a variety of audiences. You're experienced in scaling applications and mitigating or avoiding common failure scenarios to maximize uptime.
 
 ##### Continuous delivery
 
@@ -141,11 +141,11 @@ You're adept at designing reliable build pipelines. You advocate for feedback lo
 
 ##### Security, privacy, and compliance
 
-You’re a strong individual contributor who needs little direction with security-focused work. You properly secure and encrypt network traffic and the underlying infrastructure. You implement access controls wherever possible. You can design systems to handle personal identifiable information (PII) and protected health information (PHI). You use a variety of tools and practices for scanning your code, images, and application.
+You’re a strong individual contributor who needs little direction with security-focused work. You properly secure and encrypt network traffic and the underlying infrastructure. You implement access controls wherever possible. You design systems to handle personal identifiable information (PII) and protected health information (PHI). You use a variety of tools and practices for scanning your code, images, and application.
 
 ##### Production operations
 
-You collect and centralize logs, build useful monitoring on top of your collected metrics, and ensure that issues are visible with well-crafted proactive notifications. You can create and execute plans for activities like disaster recovery, backups, and contingency planning. You’re familiar with systems that operate in highly-regulated environments.
+You collect and centralize logs, build useful monitoring on top of your collected metrics, and ensure that issues are visible with well-crafted proactive notifications. You create and execute plans for activities like disaster recovery, backups, and contingency planning. You’re familiar with systems that operate in highly-regulated environments.
 
 ##### Infrastructure standardization and automation
 
@@ -161,11 +161,11 @@ A senior DevOps engineer is an experienced practitioner. This means independentl
 
 ##### Modern software development
 
-You understand how application architecture decisions impact the underlying infrastructure. You work closely with application developers to inform the direction of the project. You’re comfortable navigating the complexities of dependency management, and you can advise the team on necessary changes to the application code.
+You understand how application architecture decisions impact the underlying infrastructure. You work closely with application developers to inform the direction of the project. You’re comfortable navigating the complexities of dependency management, and you advise the team on necessary changes to the application code.
 
 ##### Distributed systems
 
-You can design and implement reliable and resilient architectures while accounting for user needs and the client environment. You identify inefficiencies in a system and modify them to reduce cost and risk and increase developer productivity.
+You design and implement reliable and resilient architectures while accounting for user needs and the client environment. You identify inefficiencies in a system and modify them to reduce cost and risk and increase developer productivity.
 
 ##### Continuous delivery
 
@@ -181,7 +181,7 @@ You work with software engineers to instrument applications and configure infras
 
 ##### Infrastructure standardization and automation
 
-You’re the expert within your team for infrastructure as code and configuration management. You have comprehensive test suites to check your infrastructure and configuration before deployments. You work with technical leads to ensure future features have the infrastructure they need. The environments you manage can be rebuilt with the push of a button.
+You’re the expert within your team for infrastructure as code and configuration management. You have comprehensive test suites to check your infrastructure and configuration before deployments. You work with technical leads to ensure future features have the infrastructure they need. The environments you manage are rebuilt with the push of a button.
 
 ### Staff DevOps engineer
 
@@ -197,11 +197,11 @@ A staff DevOps engineer is an expert practitioner, leading DevOps efforts across
 
 ##### Modern software development
 
-You have proven ability with many different software application architecture patterns. You have experience working with multiple software frameworks and understand the advantages and disadvantages of different approaches. You're capable of leveraging those advantages in the design of the underlying application infrastructure.
+You have proven ability with many different software application architecture patterns. You have experience working with multiple software frameworks and understand the advantages and disadvantages of different approaches. You leverage those advantages in the design of the underlying application infrastructure.
 
 ##### Distributed systems
 
-You have experience with distributed systems shared and/or managed by multiple teams. You can identify when resources can be shared by teams and when they must be unique. You know how to increase efficiencies and decrease costs while maintaining system performance.
+You have experience with distributed systems shared and/or managed by multiple teams. You identify when resources can be shared by teams and when they must be unique. You increase efficiencies and decrease costs while maintaining system performance.
 
 ##### Continuous delivery
 
@@ -213,7 +213,7 @@ You build tools and processes to make compliance and auditing faster and easier.
 
 ##### Production operations
 
-You have experience defining and leading operations for critical applications. You understand the unique challenges that come with operating at scale. You know how to create cost-effective and efficient organizations and processes to conduct production operations. You know how to build systems that operate in highly-regulated environments.
+You have experience defining and leading operations for critical applications. You understand the unique challenges that come with operating at scale. You create cost-effective and efficient organizations and processes to conduct production operations. You build systems that operate in highly-regulated environments.
 
 ##### Infrastructure standardization and automation
 
@@ -223,13 +223,13 @@ You lead organizational change and ensure standardization across multiple teams.
 
 {% include role_level.html level='principal' %}
 
-A principal DevOps engineer leads other DevOps engineers within the organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who can define and ensure leading practices, influence organizational strategy and priorities, and collaborate with colleagues across all aspects of government. You’ll also build Skylight’s reputation for strong DevOps engineering through channels such as public speaking, publications, workshops, or social media. At this level, you’ll be expected to transform product practice at the leadership level across client organizations.
+A principal DevOps engineer leads other DevOps engineers within the organization and attracts and builds talent. At this level, you’ll be expected to be an expert practitioner who defines and ensures leading practices, influences organizational strategy and priorities, and collaborates with colleagues across all aspects of government. You’ll also build Skylight’s reputation for strong DevOps engineering through channels such as public speaking, publications, workshops, or social media. At this level, you’ll be expected to transform product practice at the leadership level across client organizations.
 
 #### Skills needed for this level
 
 ##### Modern software development
 
-You have an expert-level understanding of a wide variety of application architectures and are able to evaluate trade-offs between approaches, client needs, and team capabilities. You're capable of writing code or tooling to address any contingency. You possess a deep knowledge of open source software development.
+You have an expert-level understanding of a wide variety of application architectures and evaluate trade-offs between approaches, client needs, and team capabilities. You write code or tooling to address any contingency. You possess a deep knowledge of open source software development.
 
 ##### Distributed systems
 
@@ -237,7 +237,7 @@ You design systems that handle millions of users while maintaining acceptable pe
 
 ##### Continuous delivery
 
-You have experience with many different CI pipelines and are capable of recommending different approaches to various teams. You advise teams on how to successfully integrate a CI/CD pipeline into their application and achieve their deployment goals. You’re able to provide transformational expertise to leaders by educating them on the value of continuous delivery.
+You have experience with many different CI pipelines and are capable of recommending different approaches to various teams. You advise teams on how to successfully integrate a CI/CD pipeline into their application and achieve their deployment goals. You provide transformational expertise to leaders by educating them on the value of continuous delivery.
 
 ##### Security, privacy, and compliance
 
@@ -245,8 +245,8 @@ You help implement security policy for entire client organizations by understand
 
 ##### Production operations
 
-You're capable of crafting organization-wide technical direction from policy.
+You craft organization-wide technical direction from policy.
 
 ##### Infrastructure standardization and automation
 
-You can craft flexible organization-wide DevOps standardization policies and help team leads interpret those policies into technical requirements. You understand the relationship between standardization, cost savings, and project risk.
+You craft flexible organization-wide DevOps standardization policies and help team leads interpret those policies into technical requirements. You understand the relationship between standardization, cost savings, and project risk.
