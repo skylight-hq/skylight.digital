@@ -4,7 +4,7 @@ title: Security engineer
 description: Find out what a security engineer does and the skills you need to do the job.
 permalink: /careers/career-pathways/security-engineer/
 preload: career_pathways/security-engineer.svg
-updated_date: April 7, 2022
+updated_date: October 26, 2022
 toc:
   - Introduction
   - Associate security engineer
@@ -30,7 +30,7 @@ Below you’ll find the full list of skills for becoming a security engineer at 
 
 #### Risk detection 
 
-Part of a good security posture is remaining ever vigilant. Security engineers should be constantly reviewing all aspects of the application, deployed or not, for risks like security vulnerabilities and enumerating them — you can't mitigate what you can't see.
+Part of a good security posture is remaining ever vigilant. Security engineers constantly review all aspects of the application, deployed or not, for risks like security vulnerabilities and enumerating them — you can't mitigate what you can't see.
 
 #### Risk mitigation and prevention
 
@@ -88,18 +88,18 @@ As a junior security engineer, you'll be expected to own and complete routine ta
 
 ##### Risk detection 
 
-You're raising basic security concerns to the team during the development cycle and noting areas for improvement. With guidance, you're comfortable translating vulnerabilities and security review findings into actionable tasks. You can summarize and communicate security review findings.
+You raise basic security concerns to the team during the development cycle and note areas for improvement. With guidance, you're comfortable translating vulnerabilities and security review findings into actionable tasks. You summarize and communicate security review findings.
 
 ##### Risk mitigation and prevention
 
-You're able to mitigate most basic risks with minimal guidance. You have a general understanding of how to prevent these risks in the first place.
+You mitigate most basic risks with minimal guidance. You have a general understanding of how to prevent these risks in the first place.
 
 ##### Research
 
 You’re familiar with concepts like CVEs and NVDs and know how to track them. You know if a particular CVE affects the team and prioritize it accordingly.
 
 ##### Compliance
-You’ve seen enough regulatory language to be able to translate it into basic technical requirements. You can help your team comply with more complicated regulatory language with the help of an experienced translator.
+You’ve seen enough regulatory language to be able to translate it into basic technical requirements. You help your team comply with more complicated regulatory language with the help of an experienced translator.
 
 ##### Security advocacy
 
@@ -119,7 +119,7 @@ You're aware of a wide variety of potential project risks and detection methods,
 
 ##### Risk mitigation and prevention
 
-You've built mitigations into each stage of the software development life cycle to systematically and consistently address risks with minimal oversight, such as automated vulnerability scanning or process controls. You can be trusted to ensure that every piece of infrastructure is consistently patched and dependencies are always versioned.
+You've built mitigations into each stage of the software development life cycle to systematically and consistently address risks with minimal oversight, such as automated vulnerability scanning or process controls. You ensure that every piece of infrastructure is consistently patched and dependencies are always versioned.
 
 ##### Research
 
@@ -131,7 +131,7 @@ You're adept at translating regulatory language into technical tasks. You know w
 
 ##### Security advocacy
 
-You know exactly where the team is falling short and you're able to effectively advocate for best practices to address those shortcomings, such as "shifting left" on security tasks to build in security from the start. You're raising the team's overall security competency through both your words and actions.
+You know exactly where the team is falling short and you effectively advocate for best practices to address those shortcomings, such as "shifting left" on security tasks to build in security from the start. You raise the team's overall security competency through both your words and actions.
 
 ### Senior security engineer
 
@@ -143,11 +143,11 @@ A senior security engineer is a technical leader for the project. This means ind
 
 ##### Risk detection 
 
-You don't need to be told what's wrong — you proactively work with your team and stakeholders to surface project risk. You're summarizing both known and potential risks to the team and ensuring they're addressed.
+You don't need to be told what's wrong — you proactively work with your team and stakeholders to surface project risk. You summarize both known and potential risks to the team and ensure they're addressed.
 
 ##### Risk mitigation and prevention
 
-You work with your team and stakeholders to lead remediation efforts for your project. If your project has particular compliance requirements, you can translate them to technical requirements and make sure they get met. You take a failed security check personally.
+You work with your team and stakeholders to lead remediation efforts for your project. If your project has particular compliance requirements, you translate them to technical requirements and make sure they get met. You take a failed security check personally.
 
 ##### Research
 
@@ -155,7 +155,7 @@ You’re adept at immediately addressing new vulnerabilities and ensuring that y
 
 ##### Compliance
 
-You’re ensuring your project is compliant with any regulatory requirement. You’re the compliance language expert, and you can translate any requirement into a technical implementation that’s appropriate for the team and application.
+You ensure your project is compliant with any regulatory requirement. You’re the compliance language expert, and you translate any requirement into a technical implementation that’s appropriate for the team and application.
 
 ##### Security advocacy
 
@@ -171,23 +171,23 @@ A staff software engineer takes the experience gained from previous project tech
 
 ##### Risk detection 
 
-You've taken a project to production and you understand common and shared risks between projects. You're ensuring that multiple projects are detecting these risks in a repeatable systematic way.
+You've taken a project to production and you understand common and shared risks between projects. You ensure that multiple projects are detecting these risks in a repeatable systematic way.
 
 ##### Risk mitigation and prevention
 
-You've taken a project to production and you understand common mitigation and prevention techniques that can be shared between projects. You're ensuring that multiple projects are appropriately prioritizing and implementing remediations in a standard way, and that they're passing relevant security reviews.
+You've taken a project to production and you understand common mitigation and prevention techniques that can be shared between projects. You ensure that multiple projects are appropriately prioritizing and implementing remediations in a standard way, and that they're passing relevant security reviews.
 
 ##### Research
 
-You’re constantly sharing your findings with Skylight as a whole and improving our security posture. You’re able to translate vulnerability findings into technical mitigations and help teams apply them across a variety of tech stacks.
+You’re constantly sharing your findings with Skylight as a whole and improving our security posture. You translate vulnerability findings into technical mitigations and help teams apply them across a variety of tech stacks.
 
 ##### Compliance
 
-You've taken a project to production and you understand what that process looks like for other teams. You're ensuring that multiple projects are meeting our high bar for quality by helping teams prioritize and organize work to meet stakeholder requirements and deadlines. ATO, FISMA, HIPAA — these acronyms have become old friends.
+You've taken a project to production and you understand what that process looks like for other teams. You ensure that multiple projects meet our high bar for quality by helping teams prioritize and organize work to meet stakeholder requirements and deadlines. ATO, FISMA, HIPAA — these acronyms have become old friends.
 
 ##### Security advocacy
 
-You’re an advocate for security best practices company-wide. You’re helping multiple teams implement best practices and building a security-oriented development culture.
+You’re an advocate for security best practices company-wide. You help multiple teams implement best practices and build a security-oriented development culture.
 
 ### Principal security engineer
 
@@ -215,4 +215,4 @@ You’re a recognized expert on one or more regulatory frameworks. You draft Sky
 
 ##### Security advocacy
 
-You're a thought leader in the security field, and you've likely created or defined a best practice in the field. You're standardizing and advocating for best practices across Skylight.
+You're a thought leader in the security field, and you've likely created or defined a best practice in the field. You standardize and advocate for best practices across Skylight.
