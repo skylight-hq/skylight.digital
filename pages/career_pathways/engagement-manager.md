@@ -4,7 +4,7 @@ title: Engagement manager
 description: Find out what an engagement manager does and the skills you need to do the job.
 permalink: /careers/career-pathways/engagement-manager/
 preload: career_pathways/engagement-manager.svg
-updated_date: May 9, 2022
+updated_date: October 26, 2022
 toc:
   - Introduction
   - Associate engagement manager
@@ -30,15 +30,15 @@ Below you’ll find the full list of skills for becoming an engagement manager a
 
 #### Agile project and program management
 
-You understand agile project management in a government context and can manage a program of work holistically. You have strong organizational skills and attention to detail. You have the ability to manage change effectively and take a modern, flexible approach to project management.
+You understand agile project management in a government context and manage a program of work holistically. You have strong organizational skills and attention to detail. You manage change effectively and take a modern, flexible approach to project management.
 
 #### Client relationship management 
 
-You understand the client's needs and have the ability to build long-lasting, meaningful relationships with clients.
+You understand the client's needs and build long-lasting, meaningful relationships with clients.
 
 #### Business development 
 
-You have experience bringing in new work and finding the right opportunities. You may also help with contract development, contract renewal, and client strategy. You apply your skills to help Skylight grow our business.
+You have experience bringing in new work and finding the right opportunities. You help with contract development, contract renewal, and client strategy. You apply your skills to help Skylight grow our business.
 
 #### Team health 
 
@@ -46,7 +46,7 @@ You're skilled at building successful delivery teams that are iterative, collabo
 
 #### Staffing 
 
-You ensure each project is staffed with the necessary people and capacity. You're able to provide input and guidance around the staffing process for your engagement. You also actively participate in recruitment and retention activities.
+You ensure each project is staffed with the necessary people and capacity. You provide input and guidance around the staffing process for your engagement. You actively participate in recruitment and retention activities.
 
 #### Compliance 
 
@@ -68,7 +68,7 @@ You're familiar with the lifecycle of a typical Skylight project engagement. You
 
 ##### Client relationship management 
 
-You’ve demonstrated skills in team-building and relationship-building. You're able to work together with another team lead to manage the stakeholders and report on team status and team health.
+You’ve demonstrated skills in team-building and relationship-building. You work together with another team lead to manage the stakeholders and report on team status and team health.
 
 ##### Business development 
 
@@ -103,7 +103,7 @@ You pursue best practices when it comes to managing project strategy, such as en
 
 ##### Client relationship management
 
-You can articulate and defend your opinions with a client. You're aware of stakeholder needs and client initiatives. 
+You articulate and defend your opinions with a client. You're aware of stakeholder needs and client initiatives. 
 
 ##### Business development 
 
@@ -115,7 +115,7 @@ You ask for feedback from the client and facilitate feedback loops on the team, 
 
 ##### Staffing 
 
-You understand the importance of multi-disciplinary and diverse teams. You can explain the value of each discipline to the client.
+You understand the importance of multi-disciplinary and diverse teams. You explain the value of each discipline to the client.
 
 ##### Compliance 
 
@@ -134,15 +134,15 @@ An engagement manager II is usually overseeing 1–2 client engagements. At this
 
 ##### Agile project and program management
 
-You're comfortable managing multiple projects simultaneously and can effectively handle context-switching and time management. You can build strategy around a program of work. You regularly meet with client stakeholders and understand their unique needs. You're able to guide decisions around prioritization with both the team members and the client stakeholders.
+You're comfortable managing multiple projects simultaneously and effectively handle context-switching and time management. You build strategy around a program of work. You regularly meet with client stakeholders and understand their unique needs. You guide decisions around prioritization with both the team members and the client stakeholders.
 
 ##### Client relationship management 
 
-You’ve demonstrated the ability to gather client information to make an engagement successful. You're able to convince or educate stakeholders on various topics. You could run an engagement with little support from Skylight leadership or anyone else. You provide timely and effective updates to stakeholders to convey team progress.
+You gather client information to make an engagement successful. You convince or educate stakeholders on various topics. You could run an engagement with little support from Skylight leadership or anyone else. You provide timely and effective updates to stakeholders to convey team progress.
 
 ##### Business development 
 
-You have the ability to find, support, and prioritize impactful opportunities for Skylight that match Skylight's value proposition. You help Skylight compete by evaluating and analyzing similar companies in the government space. You understand Skylight's growth operations and keep our pipeline and supporting business development systems up to date. You nurture Skylight's existing partnerships.
+You find, support, and prioritize impactful opportunities for Skylight that match Skylight's value proposition. You help Skylight compete by evaluating and analyzing similar companies in the government space. You understand Skylight's growth operations and keep our pipeline and supporting business development systems up to date. You nurture Skylight's existing partnerships.
 
 ##### Team health 
 
@@ -150,7 +150,7 @@ You run health checks at a regular cadence in order to evaluate how the team is 
 
 ##### Staffing 
 
-When new work arises, you're able to assess the scope of work, what types of roles are needed, and how many people are needed to deliver on the stated outcomes. You work together with the client to develop a staffing plan and internally with the Skylight leadership team to staff the right people. You help facilitate roles and responsibilities with the team, so that everyone is aligned on who’ll be doing what.
+When new work arises, you assess the scope of work, what types of roles are needed, and how many people are needed to deliver on the stated outcomes. You work together with the client to develop a staffing plan and internally with the Skylight leadership team to staff the right people. You help facilitate roles and responsibilities with the team, so that everyone is aligned on who’ll be doing what.
 
 ##### Compliance 
 
@@ -170,28 +170,28 @@ A senior engagement manager has experience successfully overseeing more than two
 
 ##### Agile project and program management
 
-You're able to support multiple large-scale products, working closely with the team and client stakeholders to develop action plans. You help the team deliver successful outcomes under tight time constraints and ambiguous requirements. You set the pace of the engagement and implement repeatable processes to ensure successful delivery. You follow agile practices and help the client understand modern agile practices as well. 
+You support multiple large-scale products, working closely with the team and client stakeholders to develop action plans. You help the team deliver successful outcomes under tight time constraints and ambiguous requirements. You set the pace of the engagement and implement repeatable processes to ensure successful delivery. You follow agile practices and help the client understand modern agile practices as well. 
 
 ##### Client relationship management 
 
-You're an expert at establishing relationships with clients and stakeholders and have done so on multiple different engagements. You’ve demonstrated the ability to educate and lead clients to a solution. You know how to create consensus. You play a crucial role in maintaining the client relationship. You could manage the entire client relationship without any support from Skylight leadership.
+You're an expert at establishing relationships with clients and stakeholders and have done so on multiple different engagements. You educate and lead clients to a solution. You create consensus. You play a crucial role in maintaining the client relationship. You could manage the entire client relationship without any support from Skylight leadership.
 
 ##### Business development 
 
-You understand the art of balancing Skylight's business needs while also being able to keep teams happy and healthy.
+You understand the art of balancing Skylight's business needs while also keeping teams happy and healthy.
 You have experience researching, analyzing, and contributing to government procurement opportunities (RFPs, RFIs, etc.). You help improve Skylight's brand in the marketplace through activities such as networking, implementing social media strategy, and developing key brand assets. You’ve brought in new project work with an existing client.
 
 ##### Team health 
 
-You understand different team styles and how people work together. You can maintain, influence, and motivate a group of diverse teams with different needs and challenges. You know how to help teams maintain a focus on delivery while also having fun together. You think outside the box when it comes to creating a unique team culture that also complements the existing client culture.
+You understand different team styles and how people work together. You maintain, influence, and motivate a group of diverse teams with different needs and challenges. You help teams maintain a focus on delivery while also having fun together. You think outside the box when it comes to creating a unique team culture that also complements the existing client culture.
 
 ##### Staffing 
 
-You're able to assemble a multi-disciplinary team of experts from a variety of sources, including Skylight and other subcontractors, to deliver the engagement. You understand how Skylight employees work together, facilitating the best team make-up depending on the situation. You regularly participate in interviews and other recruiting activities. You can forecast staffing needs in advance in order to hire staff in a timely manner.
+You assemble a multi-disciplinary team of experts from a variety of sources, including Skylight and other subcontractors, to deliver the engagement. You understand how Skylight employees work together, facilitating the best team make-up depending on the situation. You regularly participate in interviews and other recruiting activities. You forecast staffing needs in advance in order to hire staff in a timely manner.
 
 ##### Compliance 
 
-You understand the different types of government contracts and the implications of different contract setups. You ensure internal compliance with multiple contract terms & conditions. You conduct internal team compliance such as facilitating travel reimbursements and supporting the invoicing process. You monitor utilization and timekeeping to make sure your team is on track. You understand cost versus value and can make decisions on tradeoffs.
+You understand the different types of government contracts and the implications of different contract setups. You ensure internal compliance with multiple contract terms & conditions. You conduct internal team compliance such as facilitating travel reimbursements and supporting the invoicing process. You monitor utilization and timekeeping to make sure your team is on track. You understand cost versus value and make decisions on tradeoffs.
 
 ### Staff engagement manager
 
@@ -207,23 +207,23 @@ A staff engagement manager is at an expert level. You have experience overseeing
 
 ##### Agile project and program management
 
-You're able to manage multiple projects aimed at delivering transformation. You break down barriers to make sure the team is successful. You have numerous tools to organize a portfolio of work and apply the tools most appropriate for the particular portfolio. You have multiple examples of engagements where you’ve delivered impactful results in collaboration with the team and customer.
+You manage multiple projects aimed at delivering transformation. You break down barriers to make sure the team is successful. You have numerous tools to organize a portfolio of work and apply the tools most appropriate for the particular portfolio. You have multiple examples of engagements where you’ve delivered impactful results in collaboration with the team and customer.
 
 ##### Client relationship management 
 
-You serve as a role model for creating alignment amongst the team and the client. You're seen as a trusted advisor to more than three clients and are always approachable. You're an expert negotiator. You can anticipate client issues and solve them based on the unique situation. You advise clients on the development of program-level practice strategies for larger, transformational clients.
+You serve as a role model for creating alignment amongst the team and the client. You're seen as a trusted advisor to more than three clients and are always approachable. You're an expert negotiator. You anticipate client issues and solve them based on the unique situation. You advise clients on the development of program-level practice strategies for larger, transformational clients.
 
 ##### Business development 
 
-Multiple Skylight engagements can be attributed to your work securing and participating in business development opportunities. You help Skylight stay up to date on new programs and policies that affect our delivery landscape. You’ve led multiple strategic business development activities resulting in Skylight securing new work with new clients.
+Multiple Skylight engagements are attributed to your work securing and participating in business development opportunities. You help Skylight stay up to date on new programs and policies that affect our delivery landscape. You’ve led multiple strategic business development activities resulting in Skylight securing new work with new clients.
 
 ##### Team health 
 
-You have a proven track record of coaching teams on how to become more collaborative and self-organizing. You enable your teams to find the right solution rather than imposing how it’s done. You're exceptional at identifying strengths of team members and putting those strengths to good use. You're able to build momentum and help individuals on the team grow without distracting them from client work.
+You coach teams to become more collaborative and self-organizing. You enable your teams to find the right solution rather than imposing how it’s done. You're exceptional at identifying strengths of team members and putting those strengths to good use. You build momentum and help individuals on the team grow without distracting them from client work.
 
 ##### Staffing 
 
-You partner with Skylight leadership and the recruiting team on building the hiring pipeline. You help shape Skylight's interview process based on your engagement expertise. You work to continuously improve the candidate experience when going through the hiring and onboarding process. You participate in leadership planning to devise strategy around headcount. You work with the client to help them understand the right staffing model, especially when we don't agree with the staff that they’ve requested.
+You partner with Skylight leadership and the recruiting team on building the hiring pipeline. You help shape Skylight's interview process based on your engagement expertise. You work to continuously improve the candidate experience when hiring and onboarding. You participate in leadership planning to devise strategy around headcount. You work with the client to help them understand the right staffing model, especially when we don't agree with the staff that they’ve requested.
 
 ##### Compliance 
 
@@ -243,11 +243,11 @@ A Principal engagement manager has at least 10 years of experience leading clien
 
 ##### Agile project and program management
 
-You have deep subject matter expertise around managing various types of government engagement. You’ve created your own agile framework for project or program management that’s being used by others. You're able to project manage or program manage any type of team at any level within an organization and guide them to success.
+You have deep subject matter expertise around managing various types of government engagement. You’ve created your own agile framework for project or program management that’s being used by others. You project manage or program manage any type of team at any level within an organization and guide them to success.
 
 ##### Client relationship management 
 
-You're a spokesperson that can represent Skylight in any client matter. You're highly visible and have established relationships with leadership groups within the client organization. You serve as a coach to others to help build their client relationship skills.
+You're a spokesperson representing Skylight in any client matter. You're highly visible and have established relationships with leadership groups within the client organization. You serve as a coach to others to help build their client relationship skills.
 
 ##### Business development 
 
@@ -255,7 +255,7 @@ You're an expert at expanding a company's presence specifically in the governmen
 
 ##### Team health 
 
-You're a thought leader in the industry who helps define what "good" team culture looks like. People from a variety of industries consult you on how to strengthen team culture. You're able to transform team culture at the organizational level and articulate how culture changes over time.
+You're a thought leader in the industry who helps define what "good" team culture looks like. People from a variety of industries consult you on how to strengthen team culture. You transform team culture at the organizational level and articulate how culture changes over time.
 
 ##### Staffing 
 
@@ -263,5 +263,5 @@ You're an expert in People Operations and Talent Management. You have years of e
 
 ##### Compliance 
 
-You're a government contract expert that’s able to provide guidance on any of Skylight's engagements. You’ve influenced how clients structure contracts and procurement strategy based on your engagement expertise. You build organizational-level compliance practices that can be adopted both internally and externally.
+You're a government contract expert providing guidance on any of Skylight's engagements. You influence how clients structure contracts and procurement strategy based on your engagement expertise. You build organizational-level compliance practices that are adopted both internally and externally.
 
