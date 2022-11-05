@@ -14,7 +14,7 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 4. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
 5. Install node (`brew install node -v7.10.0`), and then run `npm install` to install the local dependencies listed in `package.json`.
 
-***Mac users with an M1 chip should follow [these](https://github.com/skylight-hq/skylight.digital/edit/master/README.md#setup-for-mac-users-with-m1-chips) instructions instead.***
+***Mac users with an M1 chip should follow [these](https://github.com/skylight-hq/skylight.digital/#setup-for-mac-users-with-m1-chips) instructions instead.***
 
 ## Running
 
