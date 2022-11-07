@@ -196,6 +196,10 @@
       link: /thoughts/talks/speaker/geoff-mulligan/
       link_description: Geoff's Talks
       fa_icon_name: microphone
+    - name: Projects
+      link: /work/team-member/geoff-mulligan/
+      link_description: Geoff's Project Work
+      fa_icon_name: wrench
 - name: kin-lane
   fname: Kin
   lname: Lane
