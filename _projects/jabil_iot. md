@@ -1,0 +1,100 @@
+---
+layout: default
+title_tag: Centers for Disease Control and Prevention
+title: Developing future-proof IoT solutions
+permalink: /jabil-iot/
+image: /img/projects/jabil_iot/industrial-iot.svg
+image_description: A person tapping the screen of a tablet in front of a conveyor belt surrounded by robotic arms.
+feature_image:
+feature_image_description:
+feature_image_shadow:
+order: 700
+display: true
+tags:
+  [research & design,
+  product management,
+  software delivery,
+  cloud & platforms,
+  data & analytics,
+  apis, security & privacy,
+  geoff mulligan]
+excerpt: Helping the clients of a billion-dollar contract manufacturer develop IoT solutions faster, cheaper, and with more flexibility.
+project_members:
+  - geoff-mulligan
+technologies:
+  - Python
+  - APIs
+  - FHIR
+  - Microservices
+  - YAML
+  - Git / GitHub
+  - Terraform
+  - Microsoft Azure
+  - Azure DevOps
+  - Azure Managed FHIR Server
+  - MURAL
+  - Slack
+  - Zoom
+practices:
+  - Product management
+  - User research
+  - User experience design
+  - Agile development
+  - Rapid prototyping
+  - API-first development
+  - Data engineering
+  - Data management
+  - DevSecOps
+  - Security / privacy compliance
+  - Containerization
+  - Cloud hosting
+  - Hybrid-cloud architecture
+  - Virtual collaboration
+project_url: https://cdcgov.github.io/phdi-site/ 
+project_cta: See the site
+source_code_url: https://github.com/CDCgov/phdi 
+---
+
+{% capture summary %}
+Jabil, a billion-dollar contract manufacturer, engaged us to help them develop technology-agnostic, future-proof IoT solutions for their clients using a lean-agile development process.
+{% endcapture %}
+
+{% capture challenge %}
+Jabil, a $30B contract manufacturing business, builds products for 300 of the biggest brands in the world across a variety of industries — from healthcare, packaging, smartphones, and cloud equipment to automotive and home appliances. Beyond manufacturing, Jabil aims to provide additional value to its clients by leveraging technical expertise in a range of areas, including the Internet of Things (IoT). 
+
+IoT refers to the network of physical objects — things — that are embedded with sensors, software, and other technologies to connect with devices and systems over the internet. In other words, IoT products are where the digital and physical world meet. IoT enables companies to better analyze and act on data, providing timely and relevant insights about their business and customers — an enticing prospect for many of Jabil’s clients. Making the right choice when it comes to IoT technology is important, especially given the rapid pace of innovation in the sector. Companies choosing their IoT solutions today are at risk of buying into closed, proprietary IoT solutions that may result in vendor lock-in. For example, if a Jabil client buys into one aspect of a closed IoT product ecosystem, switching costs can be prohibitive when a better IoT solution comes along in the future. This client would be stuck building an inferior, more-expensive product. 
+
+Since Jabil is a manufacturing company and isn’t selling an IoT service, it’s in the unique position of being able to counsel clients on the best approach for their IoT needs without bias for any specific technology. Yet clients often think of Jabil simply as a manufacturer, rather than as a collaborator in innovation. As such, Jabil sought an outside partner that could change this perception among their clients — a partner with deep expertise in IoT as well as practical experience applying lean-agile methodologies to product development. 
+
+{% endcapture %}
+
+{% capture solution %}
+In an effort to strengthen the U.S. public health data infrastructure, the CDC established the [Data Modernization Initiative (DMI)](https://www.cdc.gov/surveillance/data-modernization/index.html) as well as launched a multi-year collaboration with the USDS called the [Pandemic-Ready Interoperability Modernization Effort (PRIME)](https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to open source, modular software and tooling, known as “Building Blocks,” for use by STLTs.
+
+Building Blocks are a set of tools for data collection, processing, and analysis, encompassing all points of the data workflow, from systems and messaging support to deliverables for epidemiologists. They’re modular and independent, but when combined together can solve the bespoke data needs of any given STLT. Building Blocks can range in size — some are relatively small and only do one thing, like standardizing patient names, while others can be very big and perform more complex tasks, like standardizing an address while simultaneously fetching the associated census tract, FIPS code, and county. You can think of them like LEGO blocks. Each LEGO block is its own, independent piece, but can fit together to build entire structures. Similarly, while each Building Block targets one specific task, they can also be combined to create larger data ingestion, processing, and analysis pipelines. Importantly, Building Blocks are designed with common inputs and outputs making them composable across STLTs and enabling easy integration into existing workflows. 
+
+Our team has partnered with a variety of STLTs to develop and iterate on Building Blocks that reduce manual processes and solve public health data-related challenges. Thus far, our efforts have involved:
+- Building a cloud-based data pipeline “starter kit” that comes with a core set of Building Blocks to quickly increase data processing speed, create a single source of truth for incoming data, and remove the need for duplicative processes 
+- Developing an SDK toolkit that includes the full range of Building Blocks that STLTs can import, experiment with, and integrate into their existing data pipelines
+- Setting up a beta program that enables STLTs to collaborate with our team on new or in-development Building Blocks to help improve a part of their data process 
+- Conducting focus groups with STLT staff who interact with condition-specific diseases along the data lifecycle (e.g., collection, ingestion, management, analysis, and visualization)
+- Establishing a Community of Practice to connect with STLTs interested in offering feedback on Building Blocks, contributing code, and helping govern an eventual open source community 
+
+These activities will help define, prioritize, pilot, and, ultimately, scale Building Blocks across a wide range of STLTs with various technical capabilities. By establishing a modular set of Building Blocks that STLTs can easily integrate into existing data systems, our work is helping to create modern public health data infrastructure that works for all diseases and conditions — a system that will enable public health agencies to deliver timely, relevant, and actionable data. 
+{% endcapture %}
+
+{% capture results %}
+
+- [Partnered with Virginia Health Department](https://skylight.digital/cdc-public-health-data-infrastructure-pilot/) to build and pilot a cloud-based data pipeline “starter kit” with a quick start approach to solve some of the main challenges STLTs face, namely data ingestion, geocoding, and deduplication
+- Developed SDK toolkit and API documentation enabling STLTs to easily import and integrate modular Building Blocks into their existing data environments 
+- Working with Los Angeles County on piloting a Geocoding Building Block to automatically link patient data with standardized geolocation (e.g., census tract, county, address)
+- Gathered insights from public health department staff through user-centered focus groups to understand data-related frustrations and ideal outcomes 
+
+  {% endcapture %}
+
+{% include project.html
+  summary = summary
+  challenge = challenge
+  solution = solution
+  results = results
+%}
