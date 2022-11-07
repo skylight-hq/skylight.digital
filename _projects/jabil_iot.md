@@ -8,7 +8,7 @@ image_description: A person tapping the screen of a tablet in front of a conveyo
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 700
+order: 2310
 display: true
 tags:
   [research & design,
