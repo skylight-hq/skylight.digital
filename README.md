@@ -44,7 +44,13 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 5. Revert the version of ruby running in your working directory to 2.7.2 first with `asdf install ruby 2.7.2` and then 
 `asdf local ruby 2.7.2`.
 6. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
-7. Install node (`brew install node -v7.10.0`), and then run `npm install` to install the local dependencies listed in `package.json`.
+7. Install NVM (`brew install nvm`) 
+8. Follow instructions and update .zshr or .bash_profile
+9. Restart terminal
+10. Install Node 7.10.0, `nvm install 7.10.0`
+11. Use Node 7.10.0, `nvm use 7.10.0`
+12. Install node pacakges, `npm install` to install the local dependencies listed in `package.json`.
+13. Run site, `jekyll serve`
 
 
 
