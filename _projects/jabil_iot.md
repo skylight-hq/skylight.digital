@@ -22,22 +22,167 @@ excerpt: Helping the clients of a billion-dollar contract manufacturer develop I
 project_members:
   - geoff-mulligan
 technologies:
-  - IoT
+  - .NET Core
+  - Amazon S3
+  - Amazon Web Services
+  - Apache
   - APIs
+  - Arch Linux
+  - Arduino
+  - AWS Lambda (Cloud One)
+  - AWS RDS Oracle (Cloud One)
+  - Azure DevOps
+  - BigQuery
+  - Chef
+  - Cumulocity
+  - Docker
+  - Elasticsearch
+  - Excel
+  - Existing technology stack
+  - Free RTOS
+  - Git / GitHub
+  - Git / GitLab
+  - GitHub Actions
+  - Github Pages
+  - Go
+  - Google Analytics
+  - Google Cloud
+  - Google Workspace
+  - HTML / CSS
+  - HTML / CSS / SVG
+  - Instructional media
+  - JavaScript
+  - JavaScript / HTML
+  - JavaScript / JSON
+  - JavaScript / JSON / React
+  - JavaScript / React
+  - JSON API
+  - Machine Learning
   - Microservices
+  - Microsoft Azure
+  - Microsoft Office
+  - MongoDB
+  - MySQL
+  - NGINX
+  - Node
+  - OAuth
+  - OpenAPI Specification
+  - Open Standard Protocols
+  - PlatformIO
+  - Podman
+  - PostgreSQL
+  - Python
+  - RaspberryPI
+  - SendGrid
+  - SQL
+  - SQL Server
+  - Temporary URLs
+  - Trello
+  - Twilio
+  - Ubuntu Server
+  - WebSockets
+  - WordPress
+  - Zoom
+  - Zypher
 practices:
-  - Consulting
-  - Product management
-  - Learn startup
-  - User research
+  - Agile cloud migration
   - Agile development
-  - Rapid prototyping
+  - Analysis and synthesis
+  - API deployment
+  - API design
+  - API encapsulation
+  - API governance
+  - API management
+  - API service composition
   - API-first development
-  - Microservices architecture
-  - Open-source development
-  - Artificial intelligence
-  - Machine learning
+  - Artificial data
   - Cloud hosting
+  - Collaborative design workshops
+  - Comparative analysis
+  - Consulting
+  - Containerization 
+  - Continuous improvement
+  - Continuous integration
+  - Customer and stakeholder interviews
+  - Customer research
+  - Data engineering
+  - Data management
+  - Deployment automation
+  - DevOps
+  - DevSecOps
+  - Documentation review
+  - Hybrid-cloud architecture
+  - Identity and access management
+  - Industry benchmarking
+  - Industry research
+  - Information gathering
+  - Infrastructure as code
+  - Instructional design
+  - Iterative and incremental development
+  - Journey mapping
+  - Knowledge management
+  - Lean product
+  - Lean startup
+  - Learning by doing
+  - Management by objectives
+  - Market research
+  - Microservices architecture
+  - Moderated user research
+  - Objectives and key results framework
+  - Observation
+  - Open innovation
+  - Open-source development
+  - Pairing
+  - Participatory design
+  - Performance profiles
+  - Prioritization workshops
+  - Product management
+  - Programmatic deployment scripts
+  - Prototyping
+  - Quantitative analysis
+  - Rapid prototyping
+  - Remote teams
+  - Research analysis and synthesis
+  - Responsive design
+  - Responsive web design
+  - REST API wrapper
+  - RESTful / SOAP API architecture
+  - RESTful API architecture
+  - Scrum framework
+  - Security / privacy compliance
+  - Security controls automation
+  - Semantic analysis
+  - Stakeholder interviews
+  - Stakeholder mapping
+  - Story estimation
+  - Story writing
+  - Surveys
+  - Team building
+  - Team of teams
+  - Technical discovery
+  - Testing
+  - Third-party integration
+  - Train the trainer
+  - Training
+  - Training and coaching
+  - Tree testing
+  - Unmoderated user research
+  - Usability testing
+  - User experience design
+  - User interface component inventory
+  - User interviews
+  - User research
+  - User test scenarios
+  - User testing
+  - User-centered design
+  - Velocity calculation
+  - Vendor outreach
+  - Virtual collaboration
+  - Virtual teams
+  - Visual design
+  - Visual design audit
+  - web and native apps
+  - Workshop facilitation
 project_url: https://demos.jabiliot.com
 project_cta: See the site
 ---
@@ -73,7 +218,9 @@ By decentralizing the product development process, Jabil’s clients avoid vendo
 
 {% capture results %}
 
-- Helped Jabil become a recognized industry leader in IoT manufacturing  
+- Built and demonstrated open-architecture prototypes for six Jabil clients
+- Implemented lean-agile processes for hardware development, reducing Jabil’s R&D cycle time from 18 months to six weeks and prototype cost from over $1M to under $100,000
+- Helped Jabil become a recognized industry leader in IoT manufacturing
 
   {% endcapture %}
 
