@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: U.S. Air Force
-title: Modernizing the management of personal protective equipment
+title: Modernizing equipment feedback loops
 permalink: /work/experience/usaf-gearfit/
 image: /img/projects/usaf_gearfit/gearfit.svg
 image_description: Gear technician helping a female pilot put on her helmet.
@@ -10,9 +10,11 @@ feature_image_description:
 feature_image_shadow:
 order: 110
 display: true
-tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, mical nobel, phoebe espiritu, lesley evans, adam weber, nick clyde, mitchell sipus, maya benari, kari hodges, eric richards, nicole campbell, andrew wagner, kenny nieh, nicole wright, taylor curtiss, gianna buda, sarah tress, sarah george hager, david mcclatchey, lina roth]
-excerpt: A digital platform for transforming how the U.S. Air Force manages personal protective equipment.
+tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, mical nobel, phoebe espiritu, lesley evans, adam weber, nick clyde, mitchell sipus, maya benari, kari hodges, eric richards, nicole campbell, andrew wagner, kenny nieh, nicole wright, taylor curtiss, gianna buda, sarah tress, sarah george hager, david mcclatchey, lina roth, nick blake, priscilla peralta]
+excerpt: Digital tools and modern processes that transform how the U.S. Air Force manages equipment.
 project_members:
+  - nick-blake
+  - priscilla-peralta
   - nicole-wright
   - taylor-curtiss
   - sarah-tress
@@ -75,26 +77,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-Providing better-fitting gear to aircrew, particularly female pilots, is one of
-the U.S. Air Force's (USAF's) top priorities. Their Human Systems Division (HSD) engaged us
-to build a platform for modernizing how they manage personal protective equipment (PPE).
+Providing better-fitting gear to underrepresented aircrew, such as female pilots, is one of the U.S. Air Force’s (USAF) top priorities. Their Human Systems Division (HSD) engaged us to modernize the processes and technologies that allow aircrew to get the equipment they need to perform their best.
 {% endcapture %}
 
 {% capture challenge %}
-Key personnel who work for organizations in the defense, security, safety, and
-healthcare fields often experience critical issues with ill-fitting gear
-that compromise their job performance, their personal safety, and the safety
-of others. These organizations generally don't have sufficient data and systems
-in place to meet the complex protective equipment needs of their diverse workforce.
-
-For the U.S. Air Force's Human Systems Division, solving this problem
-is a top priority that goes all the way up to the
-[Secretary](https://www.af.mil/News/Article-Display/Article/1801680/new-direction-for-female-specific-flight-equipment/),
-and [even Congress](https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795).
-
-Female pilots in particular lack consistent access to — or, at least,
-awareness of — properly-fitting tactical gear and equipment options, exposing
-them to serious injury or mission failure.
+Organizations in the defense, security, safety, and healthcare fields often lack the data and systems to meet the complex equipment needs of their diverse workforce. This can result in critical issues that compromise job performance and safety. For the U.S. Air Force’s Human Systems Division, solving this problem is a top priority that goes all the way up to the Secretary, and even Congress. 
 
 {% include callout.html
   type = "pullquote"
@@ -102,6 +89,15 @@ them to serious injury or mission failure.
   cite_name = "Captain Lauren Ellis"
   cite_title = "U.S. Air Force"
 %}
+
+To address this challenge, HSD engaged us to build a digital platform called GearFit. In 2020, we launched a minimum viable product (MVP) to gather gear-fitment feedback from aircrew, initially targeted at female pilots. After we relaunched on an Air Force-wide platform in 2022 and marketed it through channels such as the AF Portal, the platform received a spike in submissions. As a growing population of aircrew have used GearFit, we’ve shifted our focus to address the systems around equipment feedback. 
+
+Historically, the USAF hasn't had a defined method for gathering, routing, and responding to gear fitment issues. As a result, HSD has been unable to consolidate and analyze feedback, which has hampered their ability to make improvements. For aircrew, learning and communicating about equipment is also difficult. Aircrew often don’t have time to find the name of gear, let alone provide feedback about it. In addition, many avoid seeking help because of the “tough-it-out” culture of the military.
+
+To enable the USAF to successfully gather feedback about gear and respond by providing safe, suitable gear, we set out to tackle these challenges:
+- Flow of information: To make an impact, data submitted to GearFit needs to reach the people in the USAF who can enact the appropriate long-term changes. When proper gear is available, information about it must reach the aircrew who needs it.
+- Staffing: HSD needs real people to manage and respond to gear feedback, but has limited staffing and funding. 
+- Data analysis: To take informed action, HSD and other decision-makers need a way to view data holistically and find trends. 
 {% endcapture %}
 
 {% capture solution %}
