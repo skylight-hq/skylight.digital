@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: U.S. Air Force
-title: Modernizing equipment feedback loops
+title: Modernizing the management of personal protective equipment
 permalink: /work/experience/usaf-gearfit/
 image: /img/projects/usaf_gearfit/gearfit.svg
 image_description: Gear technician helping a female pilot put on her helmet.
@@ -10,11 +10,9 @@ feature_image_description:
 feature_image_shadow:
 order: 110
 display: true
-tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, mical nobel, phoebe espiritu, lesley evans, adam weber, nick clyde, mitchell sipus, maya benari, kari hodges, eric richards, nicole campbell, andrew wagner, kenny nieh, nicole wright, taylor curtiss, gianna buda, sarah tress, sarah george hager, david mcclatchey, lina roth, nick blake, priscilla peralta]
-excerpt: Digital tools and modern processes that transform how the U.S. Air Force manages equipment.
+tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, mical nobel, phoebe espiritu, lesley evans, adam weber, nick clyde, mitchell sipus, maya benari, kari hodges, eric richards, nicole campbell, andrew wagner, kenny nieh, nicole wright, taylor curtiss, gianna buda, sarah tress, sarah george hager, david mcclatchey, lina roth]
+excerpt: A digital platform for transforming how the U.S. Air Force manages personal protective equipment.
 project_members:
-  - priscilla-peralta
-  - nick-blake
   - nicole-wright
   - taylor-curtiss
   - sarah-tress
@@ -71,12 +69,6 @@ news_posts:
     url: https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795
   - title: AFLCMC division to launch new feedback App
     url: https://www.afmc.af.mil/News/Article-Display/Article/2203362/aflcmc-division-to-launch-new-feedback-app/
-  - title: Around the Air Force: next Chief of Space Operations, new COVID vaccine, GearFit 
-    url: https://youtu.be/65w9JbNWrOo?t=86
-  - title: New application lets airmen give feedback on their gear  
-    url: https://www.airandspaceforces.com/new-application-lets-airmen-give-feedback-on-their-gear/
-  - title: New application lets airmen give feedback on their gear  
-    url: https://www.youtube.com/watch?v=v4qIqrQZQkw
 project_url:
 project_cta:
 source_code_url:
