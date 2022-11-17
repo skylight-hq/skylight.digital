@@ -71,6 +71,12 @@ news_posts:
     url: https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795
   - title: AFLCMC division to launch new feedback App
     url: https://www.afmc.af.mil/News/Article-Display/Article/2203362/aflcmc-division-to-launch-new-feedback-app/
+  - title: Around the Air Force: next Chief of Space Operations, new COVID vaccine, GearFit 
+    url: https://youtu.be/65w9JbNWrOo?t=86
+  - title: New application lets airmen give feedback on their gear  
+    url: https://www.airandspaceforces.com/new-application-lets-airmen-give-feedback-on-their-gear/
+  - title: New application lets airmen give feedback on their gear  
+    url: https://www.youtube.com/watch?v=v4qIqrQZQkw
 project_url:
 project_cta:
 source_code_url:
@@ -95,6 +101,7 @@ To address this challenge, HSD engaged us to build a digital platform called Gea
 Historically, the USAF hasn't had a defined method for gathering, routing, and responding to gear fitment issues. As a result, HSD has been unable to consolidate and analyze feedback, which has hampered their ability to make improvements. For aircrew, learning and communicating about equipment is also difficult. Aircrew often don’t have time to find the name of gear, let alone provide feedback about it. In addition, many avoid seeking help because of the “tough-it-out” culture of the military.
 
 To enable the USAF to successfully gather feedback about gear and respond by providing safe, suitable gear, we set out to tackle these challenges:
+
 - Flow of information: To make an impact, data submitted to GearFit needs to reach the people in the USAF who can enact the appropriate long-term changes. When proper gear is available, information about it must reach the aircrew who needs it.
 - Staffing: HSD needs real people to manage and respond to gear feedback, but has limited staffing and funding. 
 - Data analysis: To take informed action, HSD and other decision-makers need a way to view data holistically and find trends. 
