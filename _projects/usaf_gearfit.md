@@ -22,11 +22,11 @@ project_members:
   - david-mcclatchey
   - gianna-buda
   - sarah-george-hager
-  - andrew-wagner
   - nicole-campbell
   - kenny-nieh
-  - eric-richards
   - nick-clyde
+  - eric-richards
+  - andrew-wagner
   - adam-weber
   - phoebe-espiritu
   - maya-benari
