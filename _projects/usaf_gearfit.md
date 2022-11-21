@@ -71,8 +71,10 @@ news_posts:
     url: https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795
   - title: AFLCMC division to launch new feedback App
     url: https://www.afmc.af.mil/News/Article-Display/Article/2203362/aflcmc-division-to-launch-new-feedback-app/
+  - title: [Around the Air Force: next Chief of Space Operations, new COVID vaccine, GearFit](https://youtu.be/65w9JbNWrOo?t=86)
   - title: New application lets airmen give feedback on their gear 
     url: https://www.airandspaceforces.com/new-application-lets-airmen-give-feedback-on-their-gear/
+  - title: [AFLCMC Leadership Log Episode 87: meet the GearFit team](https://www.youtube.com/watch?v=v4qIqrQZQkw)
 project_url:
 project_cta:
 source_code_url:
