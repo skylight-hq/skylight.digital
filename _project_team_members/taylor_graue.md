@@ -1,7 +1,7 @@
 ---
 layout: employee_filter
-title: Taylor Curtiss’ Project Work
+title: Taylor Graue’s Project Work
 filter_type: project
-name: taylor-curtiss
+name: taylor-graue
 skip_index: true
 ---
