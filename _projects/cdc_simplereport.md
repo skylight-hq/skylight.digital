@@ -93,6 +93,7 @@ technologies:
   - MURAL
   - Respondent
   - React in TypeScript with Apollo
+  - Nightwatch
   - Cypress
   - Lighthouse
   - Java / Spring Boot
@@ -110,6 +111,8 @@ technologies:
   - GitHub
   - ZenHub
   - SonarCloud
+  - Dependabot
+  - Synk
 practices:
   - Product management
   - Lean startup
