@@ -2182,14 +2182,14 @@
       link: https://www.linkedin.com/in/prikiser/
       link_description: Pri's LinkedIn Account
       fa_icon_name: linkedin
-- name: taylor-curtiss
+- name: taylor-graue
   fname: Taylor
-  lname: Curtiss
-  full_name: Taylor Curtiss
-  short_name: T. Curtiss
-  profile_path: /company/about/#taylor-curtiss
-  image: /img/people/taylor-curtiss.jpg
-  image_description: Photo of Taylor Curtiss
+  lname: Graue
+  full_name: Taylor Graue
+  short_name: T. Graue
+  profile_path: /company/about/#taylor-graue
+  image: /img/people/taylor-graue.jpg
+  image_description: Photo of Taylor Graue
   position: Senior Product Designer
   bio: >
     Taylor's passionate about improving government services through user-centered design. She’s an Air Force veteran and most recently worked as a product designer at Kessel Run. Taylor specializes in research, design, strategic thinking, and building high-performing teams. She lives in Massachusetts.
@@ -2201,11 +2201,11 @@
       link_description: Taylor's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
-      link: https://www.taylorcurtiss.com/
+      link: https://www.taylorgraue.com/
       link_description: Taylor's Personal Website
       fa_icon_name: home
     - name: Projects
-      link: /work/team-member/taylor-curtiss/
+      link: /work/team-member/taylor-graue/
       link_description: Taylor's Project Work
       fa_icon_name: wrench
 - name: laura-kerry
