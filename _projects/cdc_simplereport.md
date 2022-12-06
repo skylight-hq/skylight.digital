@@ -136,6 +136,8 @@ practices:
 news_posts:
   - title: New COVID-19 reporting tool is another patch for the US's rickety health data system
     url: https://www.theverge.com/22311478/rapid-covid-test-data-cdc-nursing-home-usds-arizona
+  - title: A Model for Participatory Public Digital Infrastructure
+    url: https://civicunrest.com/2022/08/10/model-for-participatory-tech
 project_url: https://simplereport.gov
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/prime-simplereport
