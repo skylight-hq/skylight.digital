@@ -1926,6 +1926,10 @@
       link: https://www.linkedin.com/in/nmwright/
       link_description: Nicole's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Talks
+      link: /thoughts/talks/speaker/nicole-wright/
+      link_description: Nicole's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/nicole-wright/
       link_description: Nicole's Project Work
@@ -2836,6 +2840,10 @@
       link: https://github.com/DanielPaseltiner
       link_description: Dan's GitHub Account
       fa_icon_name: github
+    - name: Talks
+      link: /thoughts/talks/speaker/dan-paseltiner/
+      link_description: Dan's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/dan-paseltiner/
       link_description: Dan's Project Work
