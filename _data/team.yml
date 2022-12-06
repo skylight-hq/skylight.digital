@@ -2688,7 +2688,7 @@
   position: Staff Data Engineer
   bio: >
     Spencer's a data engineer with over 15 years of experience working in healthcare data and interoperability. Spencer has worked for and with electronic medical record vendors, healthcare providers, health plans, and regional health informational exchanges to share and report on complex health data to satisfy a multitude of needs. Spencer lives in Colorado.
-  active: true
+  active: false
   socials:
     - name: Twitter
       link: https://twitter.com/gskathol
