@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: Centers for Disease Control and Prevention
-title: Modernizing COVID-19 testing and reporting in non-traditional healthcare settings
+title: Modernizing COVID-19 testing and reporting in non-traditional and under-resourced healthcare settings
 permalink: /work/experience/cdc-simplereport/
 image: /img/projects/cdc_simplereport/cdc-simplereport.svg
 image_description: A swab test being administered and recorded on a tablet.
@@ -52,7 +52,7 @@ tags:
     sarah george hager,
     johanna delpino
   ]
-excerpt: A free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report data to public health departments.
+excerpt: A free tool that makes it easy for under-resourced COVID-19 testing sites to record results for diagnostic tests and quickly report data to public health departments.
 project_members:
   - victor-zapanta
   - laura-king
@@ -142,59 +142,62 @@ source_code_url: https://github.com/CDCgov/prime-simplereport
 ---
 
 {% capture summary %}
-COVID-19 turned places like schools and nursing homes into testing sites. We worked with the CDC to launch a free, time-saving tool that makes it easy for these non-traditional sites to record results for rapid point-of-care tests and quickly report critical data to public health departments.
+COVID-19 turned places like schools and nursing homes into testing sites. We worked with the Centers for Disease Control and Prevention (CDC) to launch and scale a free, time-saving tool that makes it easy for under-resourced organizations to record results for diagnostic tests and quickly report critical data to public health departments.
 {% endcapture %}
 
 {% capture challenge %}
-To respond quickly to COVID-19, public health departments need complete, reliable, and actionable disease incidence data. The COVID-19 positivity rate informs policy interventions, such as mask guidance, stay-at-home orders, limits on indoor activities, or the closures of non-essential businesses.
+To respond to disease outbreaks quickly, public health departments need complete, reliable, and actionable disease incidence data. During the COVID-19 pandemic, the test positivity rate has informed policy interventions, such as mask guidance, stay-at-home orders, and limits on indoor activities. Simply put: Better data enables public health departments to make informed decisions quicker, which helps all of us.
 
-The scope of the pandemic meant hospitals, clinics, and doctors offices were unable to handle all the necessary testing. Some of it needed to be moved to non-traditional point-of-care (POC) testing facilities, such as K-12 schools, retirement communities, and correctional facilities. However, collecting and sending accurate testing data in these settings is often difficult. At these sites, reporting can be haphazard and labor-intensive — if it happens at all. Non-traditional POC testing facilities often lack IT infrastructure to send data to public health departments. Reporting is done on paper and then faxed to the appropriate department. The unconventional nature of these testing facilities can also create discomfort for people who are asked to share their demographic information, leading to incomplete and lower-quality data for health departments.
+The scale of the COVID-19 pandemic has required testing to expand outside of traditional health settings to facilities such as K-12 schools and retirement communities. However, collecting and sending accurate testing data in these settings is difficult — if it happens at all. Non-traditional point-of-care (POC) testing facilities typically lack IT infrastructure to send data to public health departments. Many record results on paper then fax them to the appropriate department, a time-consuming process that’s usually outside a test administrator’s primary job. Patients are also less likely to provide demographic information in these unconventional settings, leading to incomplete and lower-quality data for health departments.
 
-Even when using existing reporting tools (for example, the National Healthcare Safety Network), testing sites often manually track test results and later input them into the system for submission to public health departments.
-
-Existing tools in this space are typically built for medical professionals, whereas individuals who conduct POC, rapid COVID-19 testing aren't always familiar with the latest technologies, and testing isn't their primary job. As one interviewee noted:
+Adding to the complexity are health departments’ differing requirements. As one interviewee who reports to multiple jurisdictions noted:
 
 {% include callout.html
   type = "pullquote"
   content = "It's a challenge to do the test, put it on paper, then go back and enter it in both formats — for the county and state."
 %}
 
-On the receiving end, public health departments have to process manual reports sent from a variety of locations — a time-consuming and error-prone process. This can make it difficult to act fast, particularly in cases that require follow-up and contact tracing. Simply put: Better data enables public health departments to make informed decisions quicker, which helps all of us.
+Even when facilities do have tools to track patients and results, many lack the ability to automatically report to their jurisdictions, in the different formats that they require. 
+
+On the receiving end, public health departments have to process manual reports sent from a variety of locations, which takes time and can result in errors. This can make it difficult to act fast and stay informed.
 {% endcapture %}
 
 {% capture solution %}
-To strengthen COVID-19 testing data, the Centers for Disease Control and Prevention (CDC) and the U.S. Digital Service (USDS) launched a multi-year collaboration called the [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf) (PRIME). Skylight's been supporting this work in partnership with USDS by helping launch [SimpleReport]({{ page.project_url }}), a free tool that makes it easy for non-traditional COVID-19 testing sites, such as schools, jails, and nursing homes, to record results for rapid POC tests and quickly report data to public health departments.
+To strengthen COVID-19 testing data, the Centers for Disease Control and Prevention (CDC) and the U.S. Digital Service (USDS) launched a multi-year collaboration called the [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf) (PRIME). Skylight has supported this work by helping to launch and grow [SimpleReport]({{ page.project_url }}), a free tool that makes it easy to record results for rapid POC tests and quickly report data to public health departments.
 
-SimpleReport is designed to be used as both a workflow and reporting tool for any POC test, regardless of whether or not it has a digital connection. This eliminates the need for POC testing sites to invest in IT or systems that won't have broad, long-term use. SimpleReport results are automatically sent to public health departments via a single point of connection called ReportStream, which is also part of PRIME. SimpleReport results are delivered in the format, and at the cadence, of public health requests, leading to a more accurate data sample. Not only that, SimpleReport provides structured data to health departments, so they don't have to spend time on additional clean-up.
-
-Our team focused on continually improving the tool by:
-
-- Building, designing, and launching the app's landing page within weeks to make sure any testing site interested in SimpleReport had all the necessary info to sign up
-- Developing a new patient experience feature for the product, allowing patients to complete their own pre-screening questions, thereby providing improved privacy for patients and more complete data for health departments
-- Building out the app's mobile experience
-- Redesigning the account creation, login, and password reset experience to massively speed up the onboarding process
-- Evolving the tool to ease reporting that facilities need to do beyond public health, including one-click results download and an analytics dashboard
-- Providing research and content support to ReportStream, a cloud-based data routing and cleaning tool, to improve the experience onboarding new states to the product
-- Supporting PRIME-wide communications by creating messages and tools they can use to frame the problem and position their solutions with a broader audience
-
-We believe getting more organizations and facilities to use SimpleReport is critical to providing more timely, accurate, and automated COVID-19 data for public health action and emergency response. As one interviewee described it:
+SimpleReport is designed to be used as both a workflow and reporting tool for any POC test, regardless of whether or not it has a digital connection. SimpleReport results are automatically sent to public health departments via a single point of connection called ReportStream, which is also part of PRIME. As one interviewee described the reporting process:
 
 {% include callout.html
   type = "pullquote"
   content = "Going from what we were doing to this is awesome. It's very easy to use."
 %}
 
-SimpleReport also provides longer term opportunities for more equitable service by improving race, gender, and ethnicity standards in reporting. We're testing concepts intended to improve patient demographics data by having patients enter their own information rather than responding to a verbal questionnaire. In addition, all patient-facing content will be available in Spanish.
+SimpleReport results get to public health in the format and at the cadence that departments request. SimpleReport also provides structured data to health departments, so they don’t have to spend time on additional clean-up.
 
-By building out and linking public health infrastructure where these connections didn't exist before, SimpleReport and ReportStream are fundamentally changing how disease incidence reporting is happening in the U.S. These tools are laying the structural groundwork for efficient and effective responses to future health crises.
+After the Skylight team fully assumed SimpleReport management from our USDS partners, we’ve continued making the tool as easy to use as possible while expanding its functionality. Our team focused on continually improving and growing SimpleReport through:
+
+- Enabling scaling by redesigning the account creation, login, and password reset experiences, which sped up onboarding while maintaining security 
+- Focusing on health equity by providing patient-facing Spanish content and collecting better demographic data with tools for patients to self-register 
+- Proving the ability to support other diseases by adding test result recording for multiplex devices, which test for both COVID-19 and flu
+- Growing SimpleReport’s reporting capabilities by adding and iterating on a feature that allows users to upload test results in bulk using a CSV file 
+- Easing reporting that facilities need to do beyond public health, including adding one-click results download and an analytics dashboard
+- Maintaining high performance by implementing automated service monitoring; working closely with the CDC support team to resolve end-user issues; and providing 24/7 on-call engineering support  
+- Using continuous integration and continuous deployment (CI/CD) practices for secure and fast development — for example, when code is pushed to production, it’s merged in 20 minutes
+- Ensuring SimpleReport meets high accessibility standards by integrating reviews in design and engineering workflow 
+
+As we continue to support ongoing COVID-19 reporting, we’re also focusing on pandemic readiness and filling in gaps in other public health reporting. To further this goal, the team is conducting a pilot to explore using SimpleReport to report additional diseases beyond COVID-19 and flu.  
+
+By building out and linking public health infrastructure where these connections didn’t exist before, SimpleReport, along with the other PRIME projects, is fundamentally changing how disease incidence reporting is happening in the U.S. These tools are laying the structural groundwork for efficient and effective responses to future health crises.
 {% endcapture %}
 
 {% capture results %}
-
-- Over 3.7M tests have been performed since launch (from Jan 2021 to Feb 2022)
-- Over 11,000 facilities are using SimpleReport, representing an adoption rate of 79% among the total population of facilities reporting tests
+- Over 6.8M tests have been performed since launch (from Jan 2021 to Nov 2022)
+- Over 11,500 facilities are reporting tests through SimpleReport 
+- The tool has been used to test patients from all 50 states, as well as other U.S. territories and Canadian provinces 
+- More than 2.4M total text messages sent notifying patients of their test result
+- SimpleReport was used as an example of a Data Modernization Initiative (DMI) success story in a presentation to CDC Director Dr. Walensky for its “game-changing” work in Alaska  
 - Given the success of the tool, the CDC is exploring other use cases where SimpleReport can be used to increase reporting from the field
-  {% endcapture %}
+{% endcapture %}
 
 {% include project.html
   summary = summary
