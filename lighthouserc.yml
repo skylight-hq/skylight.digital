@@ -1,0 +1,12 @@
+ci:
+  collect:
+    staticDistDir: "./build"
+  assert:
+    assertions:
+      categories:accessibility: [error, {minScore: .9}]
+  upload:
+    # upload options here
+  server:
+    # server options here
+  wizard:
+    # wizard options here
