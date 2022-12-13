@@ -85,7 +85,9 @@ jobs:
         with:
           name: prodBuild
       - name: Unzip artifact
-        run: tar -xf artifact.tar
+        run: |
+          mkdir ./build
+          tar -xf artifact.tar -C ./build
       - name: debug
         run: ls -la
       - name: Audit URLs using Lighthouse
