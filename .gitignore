@@ -7,4 +7,3 @@ build/
 vendor/
 snippets/
 node_modules/
-Gemfile.lock
