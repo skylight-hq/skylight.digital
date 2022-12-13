@@ -57,7 +57,7 @@ jobs:
         with:
           # The path to the directory to upload
           path: ./build
-          name: build
+          name: prodBuild
 
   # Deployment job
   deploy:
@@ -70,6 +70,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          artifact_name: prodBuild
 
   # Validate site
   validate-site:
@@ -78,10 +80,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Download build
+      - name: Download prodBuild
         uses: actions/download-artifact@v3
         with:
-          name: build
+          name: prodBuild
+      - name: debug
+        run: ls -la
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v9
         with:
