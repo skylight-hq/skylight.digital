@@ -84,6 +84,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: prodBuild
+      - name: Unzip artifact
+        run: tar -xzf artifact.tar
       - name: debug
         run: ls -la
       - name: Audit URLs using Lighthouse
