@@ -88,13 +88,6 @@ jobs:
         run: |
           mkdir ./build
           tar -xf artifact.tar -C ./build
-      - name: debug
-        run: | 
-          ls -la
-          cd ./build
-          ls -la
-          cd ./blog
-          ls -la
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v9
         with:
