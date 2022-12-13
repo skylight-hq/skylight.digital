@@ -73,6 +73,7 @@ jobs:
   # Validate site
   validate-site:
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v9
