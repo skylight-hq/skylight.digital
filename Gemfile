@@ -8,7 +8,7 @@ gem "webrick"
 group :jekyll_plugins do
    gem 'jekyll-sitemap'
    gem 'jekyll-redirect-from'
-   gem 'jekyll-paginate-v2', '~> 3.0.0'
+   gem 'jekyll-paginate-v2', git: 'https://github.com/sverrirs/jekyll-paginate-v2', ref: 'e4e1d01cb6ca1c3f97c84fb8172d908ec5d85b65'
    gem 'octopress-debugger'
    gem "jekyll-image-size", "~> 1.2.1"
    gem 'jekyll-feed'
