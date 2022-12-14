@@ -77,6 +77,8 @@ news_posts:
     url: https://www.airandspaceforces.com/new-application-lets-airmen-give-feedback-on-their-gear/
   - title: "AFLCMC Leadership Log Episode 87: meet the GearFit team"
     url: https://www.youtube.com/watch?v=v4qIqrQZQkw
+  - title: "GearFit shortens feedback loop"
+    url: https://www.af.mil/News/Article-Display/Article/3102717/gearfit-shortens-feedback-loop/
 project_url:
 project_cta:
 source_code_url:
