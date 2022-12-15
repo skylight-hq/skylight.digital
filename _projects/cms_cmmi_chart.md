@@ -4,7 +4,7 @@ title_tag: Centers for Medicare & Medicaid Services
 title: Helping rural hospitals use data to improve financial stability and access to care
 permalink: /work/experience/cms-chart-model/
 image: /img/projects/cms_cmmi_chart/idos.svg
-image_description: 
+image_description: On the left, a doctor with a stethoscope checks a man's heartbeat. On the right, the same man walks a dog outside.
 feature_image:
 feature_image_description:
 feature_image_shadow:
