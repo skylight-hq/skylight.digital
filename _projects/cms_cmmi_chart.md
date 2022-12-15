@@ -8,10 +8,10 @@ image_description:
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 
+order: 1150
 display: true
 tags: [transformation, research & design, product management, data & analytics, healthcare]
-excerpt: A modernized system for evaluating and improving the quality of healthcare providers across the nation.
+excerpt: Using a research-driven data strategy to improve rural hospitals’ access to information so they can make better decisions related to financial stability and equitable access to healthcare.
 project_members:
   - jamie-song
 technologies:
