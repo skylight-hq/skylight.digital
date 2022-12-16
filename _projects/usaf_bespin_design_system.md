@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: U.S. Air Force
-title: Designing at scale through design systems
+title: Creating software products at scale with design systems
 permalink: /work/experience/usaf-bespin-design-system/
 image: /img/projects/usaf_bespin_design_system/design-system.svg
 image_description: A pair of hands moving objects around to make a pattern.
@@ -10,30 +10,65 @@ feature_image_description:
 feature_image_shadow:
 order: 1400
 display: true
-tags: [service delivery, research & design, defense, air force, maya benari, zack gehin, liz fox, karthik patil, laura kerry, ashton tu, kyle planeaux, mike brown]
-excerpt: A comprehensive design system enabling one of the U.S. Air Force's largest digital solution centers to ship products to users with greater speed and quality.
+tags: [service delivery, transformation, research & design, product management, software delivery, legacy modernization, defense, air force, maya benari, zack gehin, liz fox, karthik patil, laura kerry, ashton tu, kyle planeaux, mike brown]
+excerpt: Comprehensive design systems enabling the U.S. Air Force to ship software products to users with greater speed and quality.
 project_members:
   - zack-gehin
-  - liz-fox
-  - kyle-planeaux
-  - karthik-patil
-  - laura-kerry
-  - ashton-tu
-  - maya-benari
   - mike-brown
+  - liz-fox
+  - ashton-tu
+  - karthik-patil
+  - kyle-planeaux
+  - laura-kerry
+  - maya-benari
 technologies:
-  - U.S. Web Design System
-  - Google Workspace
+  - Carbon Design System
+  - Figma
+  - Flutter
   - Git / GitLab
+  - GitLab CI/CD
+  - HTML / CSS / Sass
+  - HTML / CSS / SVG
+  - JavaScript / HTML
+  - JavaScript / React / TypeScript
+  - Material-UI
+  - Sketch
+  - Stencil
+  - Storybook
+  - U.S. Web Design System
+  - Web Components
 practices:
-  - User research
-  - Visual design audit
-  - User interface component inventory
-  - Workshop facilitation
+  - Accessibility design
+  - Accessibility review
+  - Agile development
+  - Automated testing
+  - Branding design
+  - Card sorting
+  - Collaborative design workshops
+  - Design leadership
+  - Design pattern library
+  - Design studios
+  - Design system
+  - DevOps
   - Information gathering
-  - Analysis and synthesis
-  - Consulting
+  - Legacy reengineering / strangler pattern
+  - Pairing
+  - Primary research
+  - Product management
   - Prototyping
+  - Responsive design
+  - Usability testing
+  - User experience design
+  - User interface component inventory
+  - User interviews
+  - User-centered design
+  - Virtual collaboration
+  - Virtual teams
+  - Visual design
+  - Visual design audit
+  - WCAG 2.0
+  - Web and native apps
+  - Workshop facilitation
 news_posts:
 project_url:
 project_cta:
@@ -41,104 +76,47 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force's (USAF) Business Enterprise Systems Product INnovation (BESPIN)
-group needed help scaling their design capacity. We're working with them to implement
-a design system that'll enable their growing number of teams to achieve higher efficiency
-and quality when building digital products.
+The U.S. Air Force’s (USAF) needs a way to build higher quality software products faster. In partnership with the USAF Business Enterprise Systems Product INnovation (BESPIN)’s Design Studio, we’re building and implementing design systems to help scale the USAF’s design and engineering capacity.
 {% endcapture %}
 
 {% capture challenge %}
-BESPIN is one of the USAF's strategic digital solution centers, along with Kessel Run,
-SpaceCAMP, and others. BESPIN's mission is to deliver digital transformation outcomes
-for partner organizations throughout the USAF and the broader defense community —
-including the [Business Enterprise Systems Directorate](https://www.airforcebes.af.mil/),
-which manages a billion-dollar portfolio of IT systems supporting enterprise-wide
-functions such as finance, logistics, and human resources.
+BESPIN is one of the USAF’s strategic digital solution centers, along with Kessel Run, SpaceCAMP, and others. BESPIN’s mission is to deliver digital transformation outcomes for partner organizations throughout the USAF and broader defense community. This includes the [Business Enterprise Systems Directorate](https://www.airforcebes.af.mil/),
+which manages a billion-dollar portfolio of IT systems supporting enterprise-wide functions such as finance, logistics, and human resources.
 
-Since launching in early 2019, BESPIN has grown to over 200 military, civilian, and
-contractor personnel working together on 20+ products. Many of the products that
-BESPIN teams work on must support complex mobile use cases, such as unreliable
-network connections and pilots who wear a "knee board" with a device mounted to
-their leg (sometimes at odd angles).
+BESPIN advances its mission by managing a portfolio of 20+ products and supporting other USAF software through the Design Studio, a team that establishes design standards and provides product design services to the USAF.  While products across the BESPIN and USAF ecosystem vary, many share common pain points: The user experience (UX) and user interface (UI) often don’t meet the expectations of those who rely on them to accomplish critical tasks, and many are seen as outdated, overwhelming, or disjointed. 
 
-As BESPIN has grown, so has the need to improve the speed and quality at which their
-teams design products across web and mobile platforms.
+For the designers and engineers who build USAF products, lack of access to a unified system for design has led to a number of issues. Teams can experience unclear product direction, breakdowns in the handoff between design and engineering, redundant work, and difficulty maintaining quality while keeping to the pace of agile release cycles. While many teams look to existing design systems for inspiration, these don’t always work for the Air Force and require customization. 
 
-The problem of designing at scale isn't unique to BESPIN, and has driven high-tech
-organizations — from 18F to Google — to change the way they design products by
-incorporating design systems.
-
-The purpose of a design system is to equip teams with a shared library of reusable
-elements, guided by clear standards, so they can:
-
-- Develop products faster by leveraging pre-made elements, such as a
-visual style or web form, instead of repeatedly building similar ones
-from scratch
-- Create higher quality and cohesive user experiences across different
-products and platforms via consistent design guidance
-- Enhance cross-functional communication and collaboration between designers
-and developers through a shared design language
-- Level up abilities to ship meaningful products to users quickly through a
-system that explains how to do so
-- Waste less time on version control issues, such as incorporating bug fixes
-or enhancements — with a design system, updates are made once and populate
-all occurrences
-- Spend more time focusing on larger, more strategic user-experience problems
-
-In recognizing these benefits, BESPIN engaged us to implement a comprehensive
-design system tailored to the unique needs of their design environment.
+To improve the speed and quality with which USAF teams design web and mobile products, BESPIN engaged us to create comprehensive design systems tailored to the unique needs of the USAF design environment.
 {% endcapture %}
 
 {% capture solution %}
-To create an organizational-wide design system for BESPIN, we started off by
-conducting research to learn more about their designers' needs, pain points,
-workflow processes, and tools. From [our team's experience in building robust design systems](/thoughts/blog/maya-benari-accelerating-the-development-of-high-quality-products/),
-such as the U.S. Web Design System, we know that identifying
-common patterns in the current design environment is critical
-to pinpointing high-impact opportunities for improvement.
+As part of the BESPIN Design Studio team, we’re building out and implementing two design systems to support a range of software products across the USAF. Design systems are shared libraries of reusable design and code elements, guided by clear standards. Our design systems help teams:
+Develop products faster by leveraging pre-made elements, such as a visual style or web form, instead of repeatedly building similar ones from scratch
+Create higher quality and cohesive user experiences across different products and platforms with consistent design guidance
+Enhance cross-functional communication and collaboration between designers and developers through a shared design language
+Waste less time on version control issues — such as incorporating bug fixes and enhancements — since updates to components happen once and populate all occurrences
+Achieve a WCAG 2.0 accessibility standard with little effort, as accessibility is included in components from the start
+Spend more time focusing on larger, more strategic user-experience problems
 
-Our research process featured a number of techniques, including a visual design audit,
-a user interface component inventory, and several rounds of interviews.
+To create the design systems, we started by conducting research with BESPIN teams to learn more about design and engineering needs, pain points, workflow processes, and tools. The research process relied on a number of techniques, including a visual design audit, a user interface component inventory, and several rounds of interviews to identify common patterns in the current design and coding environment. 
 
-As a result of our research, we found that:
+Based on team needs and existing tech stacks, we proposed two different design systems to meet the varied use cases across the BESPIN and greater USAF ecosystems: Carbon Forge, built on IBM’s Carbon Design System, and Material Atlas, built on Google Material Design. The former is best suited to complex, data rich applications, while the latter supports simpler, user-friendly products. Through workshops and share-outs with the USAF Chief Experience Officer, USAF design community, and the BESPIN ecosystem, we received feedback and collaboratively adapted the design systems with colors, typography, accessibility standards, and other features to work with USAF visual identity and needs — such as a dark mode for legibility during nighttime operations.
 
-- Overall, current Air Force design doesn't meet the expectations of users and is
-often viewed as outdated, overwhelming, and disjointed.
-- Designers look toward existing design systems, such as Google's Material Design, for
-inspiration, but these systems can be opinionated and their patterns don't always work
-for Air Force projects, especially mobile use cases, and need to be modified.
-- In most cases, teams want something they can use out of the box with little change.
-Other teams that are more comfortable with making changes and have the resources to do so want a
-solid foundation that they can build upon and mold to fit their needs.
-- Lack of access to a unified system for design has led to a
-number of issues — such as breakdowns in product direction and difficulty maintaining
-design quality while trying to keep up with the pace of agile release cycles.
+The Design Studio has begun to leverage the design systems to improve applications within and beyond the BESPIN ecosystem. In our work with the Reliability and Maintenance Information System (REMIS), an application that manages maintenance on all aircraft and equipment, we’ve adapted Carbon Forge to design and implement UI/UX improvements within their legacy system. Proving out a different use case, we used Material Atlas to create a soon-to-be-released Electronic Flight Bag (EFB) calculator application requested by airmen who need to make in-flight calculations. We’re currently advising the team behind Digital University — a tech skills platform with more than 15,000 users — about how to incorporate our design systems. Speaking about another project that used the Material Atlas for a redesign, one stakeholder said:
 
-Based on these learnings, we recommended implementing a BESPIN design system with the
-following considerations:
+{% include callout.html type = "pullquote" content = "Air Force higher-ups have been so impressed with the MyPCS progress to date. Apparently, the original folks who worked MyPCS weren't able to do nearly as much in three years as BESPIN was able to in three months." cite_name = "James “Guideaux” Crocker" cite_title = "BESPIN Chief Technology Officer" %}
 
-- Leverages a proven design system, such as Carbon, as the foundation
-- Aligns with the Air Force brand
-- Sets reasonable defaults and enables the flexibility to adapt according
-to the needs of the project
-- Takes into account Air Force-specific design patterns, particularly complex
-mobile use cases
+The Design Studio team is also developing tools and processes to scale the design system across the USAF. Designers and developers can use the design systems on their own with design libraries in the common design tools Sketch and Figma; access code components that work with multiple tech stacks; read guidelines for using the design systems; and see the design systems in action on Storybook, an interactive demo site. We’ve also created a governance process for teams to request and develop new components, ensuring the design systems grow consistently, with high quality, and in response to user needs. 
 
-![Illustrates how a design system serves as for the foundation for a web design system and a mobile design system, from which project design systems can be created for specific auidences.](/img/projects/usaf_bespin_design_system/project-design-system.svg){: .mb-0 }
-
-Source: Modified from [Spotify](https://spotify.design/article/reimagining-design-systems-at-spotify)
-{: .caption }
-
-The next phase of our work will focus on creating a comprehensive design system
-with BESPIN based on the above considerations, enabling teams to build products
-with greater speed and quality.
+Going forward, we’ll continue to leverage the design systems in the Design Studio’s work to improve the USAF’s digital products through better design and code. We’ll also continue to build on the design systems, spread the word, and create tools that help boost their adoption, ultimately increasing the USAF digital capacity.
 {% endcapture %}
 
 {% capture results %}
-- Gained insights into BESPIN's needs for scaling design through designer-focused research
-- Recommended BESPIN-specific considerations for a design system and got buy-in
-from leadership and designers
-- Preparing to move into the implementation phase
+- Gained insights into BESPIN’s needs for scaling design through designer- and developer-focused research
+- Recommended USAF-specific considerations for two design systems and got buy-in from USAF Chief Experience Officer, BESPIN leadership, designers, and developers
+- Built out design libraries in Sketch and Figma, and code repos with Flutter, React, and Web Components
+- Three USAF product teams are currently using BESPIN design systems, and we continue to receive interest from additional product teams
 {% endcapture %}
 
 {% include project.html
