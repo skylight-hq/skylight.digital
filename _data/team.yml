@@ -2981,7 +2981,6 @@
   bio: >
     Amrita's a product manager who enjoys working with people and technology to create meaningful solutions. Previously, she was a product manager at McMaster-Carr and has experience as a software engineer. She lives in California.
   active: true
-  order: 
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/akbhatti
@@ -2999,7 +2998,6 @@
   bio: >
     Brady's a data engineer with a passion to improve healthcare data interoperability. Brady has almost 20 years of working in healthcare informatics, including clinical decision support applications, NHSN reporting, and consuming/creating FHIR and HL7 APIs. He previously worked with CMS as a FHIR specialist for the Blue Button API. Brady lives in Idaho.
   active: true
-  order: 
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/brady-fausett-20aa491
@@ -3021,7 +3019,6 @@
   bio: >
     Cheryl has 20+ years of experience as a software developer and technology leader in the private and public sectors, including more than ten years in consulting. She regularly speaks at and organizes conferences worldwide. Cheryl lives in Washington.
   active: true
-  order: 
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/bsktcase/
@@ -3047,7 +3044,6 @@
   bio: >
     Jina's a user researcher studying public health at Johns Hopkins University. She transitioned from academic research because she's passionate about translating research insights into solutions with positive impact. She lives in Maryland. 
   active: true
-  order: 
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/jina-ryu-682781aa/
@@ -3065,7 +3061,6 @@
   bio: >
     Marcelle is a data engineer with a background in applied statistics and public policy. Marcelle has previously worked as a data engineer/scientist at civic tech non-profits and academic institutions, focusing on workforce development and education research. She lives in Washington. 
   active: true
-  order: 
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/marcellegoggins/
