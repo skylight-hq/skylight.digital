@@ -3032,6 +3032,23 @@
       link: https://blog.bsktcase.com/
       link_description: Cheryl's Personal Website
       fa_icon_name: home
+- name: jill-fromewick
+  fname: Jill
+  lname: Fromewick
+  full_name: Jill Fromewick
+  short_name: J. Fromewick
+  profile_path: /company/about/#jill-fromewick
+  image: /img/people/jill-fromewick.png
+  image_description: Illustration of Jill Fromewick
+  position: Senior User Researcher
+  bio: >
+    Jill's a user researcher with 20+ years of experience at the intersection of outcomes-driven research, program evaluation, and user experience. She's passionate about conducting feasible, actionable research that will be used to improve outcomes and advance equity. Jill lives in North Carolina.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jfromewick/
+      link_description: Jill's LinkedIn Account
+      fa_icon_name: linkedin
 - name: jina-ryu
   fname: Jina
   lname: Ryu
