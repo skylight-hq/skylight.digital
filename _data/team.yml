@@ -2969,3 +2969,117 @@
       link: https://michellemli.myportfolio.com/work
       link_description: Michelle's Personal Website
       fa_icon_name: home
+- name: amrita-bhatti
+  fname: Amrita
+  lname: Bhatti
+  full_name: Amrita Kaur Bhatti
+  short_name: A. Bhatti
+  profile_path: /company/about/#amrita-bhatti
+  image: /img/people/amrita-bhatti.png
+  image_description: Illustration of Amrita Kaur Bhatti
+  position: Staff Product Manager
+  bio: >
+    Amrita's a product manager who enjoys working with people and technology to create meaningful solutions. Previously, she was a product manager at McMaster-Carr and has experience as a software engineer. She lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/akbhatti
+      link_description: Amrita's LinkedIn Account
+      fa_icon_name: linkedin
+- name: brady-fausett
+  fname: Brady
+  lname: Fausett
+  full_name: Brady Fausett
+  short_name: B. Fausett
+  profile_path: /company/about/#brady-fausett
+  image: /img/people/brady-fausett.png
+  image_description: Illustration of Brady Fausett
+  position: Staff Data Engineer
+  bio: >
+    Brady's a data engineer with a passion to improve healthcare data interoperability. Brady has almost 20 years of working in healthcare informatics, including clinical decision support applications, NHSN reporting, and consuming/creating FHIR and HL7 APIs. He previously worked with CMS as a FHIR specialist for the Blue Button API. Brady lives in Idaho.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brady-fausett-20aa491
+      link_description: Brady's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/BradySkylight
+      link_description: Brady's GitHub Account
+      fa_icon_name: github
+- name: cheryl-hammond
+  fname: Cheryl
+  lname: Hammond
+  full_name: Cheryl Hammond
+  short_name: C. Hammond
+  profile_path: /company/about/#cheryl-hammond
+  image: /img/people/cheryl-hammond.jpg
+  image_description: Photo of Cheryl Hammond
+  position: VP of Service Excellence
+  bio: >
+    Cheryl has 20+ years of experience as a software developer and technology leader in the private and public sectors, including more than ten years in consulting. She regularly speaks at and organizes conferences worldwide. Cheryl lives in Washington.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/bsktcase/
+      link_description: Cheryl's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/bsktcase
+      link_description: Cheryl's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://blog.bsktcase.com/
+      link_description: Cheryl's Personal Website
+      fa_icon_name: home
+- name: jill-fromewick
+  fname: Jill
+  lname: Fromewick
+  full_name: Jill Fromewick
+  short_name: J. Fromewick
+  profile_path: /company/about/#jill-fromewick
+  image: /img/people/jill-fromewick.png
+  image_description: Illustration of Jill Fromewick
+  position: Senior User Researcher
+  bio: >
+    Jill's a user researcher with 20+ years of experience at the intersection of outcomes-driven research, program evaluation, and user experience. She's passionate about conducting feasible, actionable research that will be used to improve outcomes and advance equity. Jill lives in North Carolina.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jfromewick/
+      link_description: Jill's LinkedIn Account
+      fa_icon_name: linkedin
+- name: jina-ryu
+  fname: Jina
+  lname: Ryu
+  full_name: Jina Ryu
+  short_name: J. Ryu
+  profile_path: /company/about/#jina-ryu
+  image: /img/people/jina-ryu.jpg
+  image_description: Photo of Jina Ryu
+  position: User Researcher Intern
+  bio: >
+    Jina's a user researcher studying public health at Johns Hopkins University. She transitioned from academic research because she's passionate about translating research insights into solutions with positive impact. She lives in Maryland. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jina-ryu-682781aa/
+      link_description: Jina's LinkedIn Account
+      fa_icon_name: linkedin
+- name: marcelle-goggins
+  fname: Marcelle
+  lname: Goggins
+  full_name: Marcelle Goggins
+  short_name: M. Goggins
+  profile_path: /company/about/#marcelle-goggins
+  image: /img/people/marcelle-goggins.jpg
+  image_description: Photo of Marcelle Goggins
+  position: Senior Data Engineer
+  bio: >
+    Marcelle is a data engineer with a background in applied statistics and public policy. Marcelle has previously worked as a data engineer/scientist at civic tech non-profits and academic institutions, focusing on workforce development and education research. She lives in Washington. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/marcellegoggins/
+      link_description: Marcelle's LinkedIn Account
+      fa_icon_name: linkedin
