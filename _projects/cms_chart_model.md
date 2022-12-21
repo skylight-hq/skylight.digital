@@ -2,7 +2,7 @@
 layout: default
 title_tag: Centers for Medicare & Medicaid Services
 title: Helping rural hospitals use data to improve financial stability and access to care
-permalink: /work/experience/cms-chart-model/
+permalink: /work/experience/cms_chart_model/
 image: /img/projects/cms_chart_model/idos.svg
 image_description: On the left, a doctor with a stethoscope checks a man's heartbeat. On the right, the same man walks a dog outside.
 feature_image:
@@ -47,7 +47,7 @@ We partnered with the Center for Medicare & Medicaid Innovation (CMMI) to provid
 {% capture challenge %}
 Throughout America, rural hospitals are at a critical juncture. Already under financial stress, the COVID pandemic amplified the [difficulties they face](https://bipartisanpolicy.org/report/the-impact-of-covid-19-on-the-rural-health-care-landscape/): “since 2005, at least [163 rural hospitals have closed](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention), more than 60% of them since 2012,” and a [record 19 in 2020](https://www.axios.com/2022/07/14/rural-hospitals-face-financial-jeopardy).
 
-![Map of rural hospital closures by state since 2005.](/img/projects/cms_cmmi_chart/rural-hospital-closures-map.svg){: .mb-0 }
+![Map of rural hospital closures by state since 2005.](/img/projects/cms_chart_model/rural-hospital-closures-map.svg){: .mb-0 }
 
 Source: Cecil G. Sheps Center for Health Services Research, University of North Carolina; image modified from [The Pew Charitable Trusts](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention).
 {: .caption }
