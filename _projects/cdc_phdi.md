@@ -47,7 +47,6 @@ project_members:
   - nick-clyde
   - ryan-gaddis
   - matt-goldberg
-  - spencer-kathol
   - ann-millspaugh
   - brandon-mader
   - dan-paseltiner
@@ -56,6 +55,7 @@ project_members:
   - jill-fromewick
   - marcelle-goggins
   - tomi-obikunle
+  - spencer-kathol
   - jesse-skeets
   - graham-smith
 technologies:
