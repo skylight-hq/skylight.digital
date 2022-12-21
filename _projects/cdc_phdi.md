@@ -35,6 +35,7 @@ tags:
   tomi obikunle,
   graham smith,
   jesse skeets,
+  amrita bhatti,
   brady fausett,
   jill fromewick,
   marcelle goggins]
@@ -46,16 +47,17 @@ project_members:
   - nick-clyde
   - ryan-gaddis
   - matt-goldberg
-  - spencer-kathol
   - ann-millspaugh
   - brandon-mader
   - dan-paseltiner
-  - tomi-obikunle
-  - jesse-skeets
-  - graham-smith
+  - amrita-bhatti
   - brady-fausett
   - jill-fromewick
   - marcelle-goggins
+  - tomi-obikunle
+  - spencer-kathol
+  - jesse-skeets
+  - graham-smith
 technologies:
   - Python
   - APIs
