@@ -32,6 +32,7 @@ tags:
   brandon mader,
   dan paseltiner,
   ann millspaugh,
+  amrita bhatti,
   brady fausett,
   jill fromewick,
   marcelle goggins]
@@ -43,13 +44,14 @@ project_members:
   - nick-clyde
   - ryan-gaddis
   - matt-goldberg
-  - spencer-kathol
   - ann-millspaugh
   - brandon-mader
   - dan-paseltiner
+  - amrita-bhatti
   - brady-fausett
   - jill-fromewick
   - marcelle-goggins
+  - spencer-kathol
 technologies:
   - Python
   - APIs

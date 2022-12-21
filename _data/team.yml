@@ -2990,6 +2990,10 @@
       link: https://www.linkedin.com/in/akbhatti
       link_description: Amrita's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/amrita-bhatti/
+      link_description: Amrita's Project Work
+      fa_icon_name: wrench
 - name: brady-fausett
   fname: Brady
   lname: Fausett
@@ -3011,6 +3015,10 @@
       link: https://github.com/BradySkylight
       link_description: Brady's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/brady-fausett/
+      link_description: Brady's Project Work
+      fa_icon_name: wrench
 - name: cheryl-hammond
   fname: Cheryl
   lname: Hammond
@@ -3053,6 +3061,10 @@
       link: https://www.linkedin.com/in/jfromewick/
       link_description: Jill's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/jill-fromewick/
+      link_description: Jill's Project Work
+      fa_icon_name: wrench
 - name: jina-ryu
   fname: Jina
   lname: Ryu
@@ -3087,3 +3099,7 @@
       link: https://www.linkedin.com/in/marcellegoggins/
       link_description: Marcelle's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/marcelle-goggins/
+      link_description: Marcelle's Project Work
+      fa_icon_name: wrench
