@@ -51,13 +51,13 @@ project_members:
   - ann-millspaugh
   - brandon-mader
   - dan-paseltiner
-  - tomi-obikunle
-  - jesse-skeets
-  - graham-smith
   - amrita-bhatti
   - brady-fausett
   - jill-fromewick
   - marcelle-goggins
+  - tomi-obikunle
+  - jesse-skeets
+  - graham-smith
 technologies:
   - Python
   - APIs
