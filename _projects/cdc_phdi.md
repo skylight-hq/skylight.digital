@@ -35,6 +35,7 @@ tags:
   tomi obikunle,
   graham smith,
   jesse skeets,
+  amrita bhatti,
   brady fausett,
   jill fromewick,
   marcelle goggins]
@@ -53,6 +54,7 @@ project_members:
   - tomi-obikunle
   - jesse-skeets
   - graham-smith
+  - amrita-bhatti
   - brady-fausett
   - jill-fromewick
   - marcelle-goggins
