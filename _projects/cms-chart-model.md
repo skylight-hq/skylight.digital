@@ -47,9 +47,9 @@ We partnered with the Center for Medicare & Medicaid Innovation (CMMI) to provid
 {% capture challenge %}
 Throughout America, rural hospitals are at a critical juncture. Already under financial stress, the COVID pandemic amplified the [difficulties they face](https://bipartisanpolicy.org/report/the-impact-of-covid-19-on-the-rural-health-care-landscape/): “since 2005, at least [163 rural hospitals have closed](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention), more than 60% of them since 2012,” and a [record 19 in 2020](https://www.axios.com/2022/07/14/rural-hospitals-face-financial-jeopardy).
 
-![Map of rural hospital closures by state since 2005.](/img/projects/cms_cmmi_chart/hospital-closures-map.svg){: .mb-0 }
+![Map of rural hospital closures by state since 2005.](/img/projects/cms_cmmi_chart/rural-hospital-closures-map.svg){: .mb-0 }
 
-Source: Modified from [Pew Trusts, “Rural America’s Health Crisis Seizes States’ Attention”](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention)
+Source: Cecil G. Sheps Center for Health Services Research, University of North Carolina; image modified from [The Pew Charitable Trusts](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention).
 {: .caption }
 
 From a policy perspective, rurality is an important health equity variable: with quality health services pushed further and further away from rural residents, fewer people are able to access the care they need. To address these disparities, and recognizing that many rural providers struggle with [unsustainable financial models](https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2019.01545), CMMI established a payment and service delivery model called Community Health Access and Rural Transformation (CHART). CHART provides funding to rural providers — such as hospitals, Medicaid state agencies, and local public health departments — to test new ways of delivering high-quality care to their communities, with the ultimate goal of increasing health access and improving health outcomes.
