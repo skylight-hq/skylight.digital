@@ -1701,8 +1701,12 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/jamie-song-a7198238/
-      link_description: Joe's LinkedIn Account
+      link_description: Jamie's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/jamie-song/
+      link_description: Jamie's Project Work
+      fa_icon_name: wrench
 - name: ori-hoffer
   fname: Ori
   lname: Hoffer
