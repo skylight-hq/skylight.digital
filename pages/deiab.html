@@ -1,0 +1,116 @@
+---
+layout: default
+title: DEIAB
+description: DEIAB test page
+permalink: /deiab/
+---
+
+{% include page_header.html
+  header_class = "page-header-2"
+%}
+
+<div id="race-bar-graph"></div>
+    <!-- DE&I DATA VIZ POC STARTS HERE -->
+    <script>
+      (async function() {
+        try {
+          const data = await d3.json("/data/dei-data.json")
+          let labels = [];
+          let values = [];
+          data.data.forEach(data => {
+            labels.push(data.race)
+            values.push(data.percent)
+          });
+          const barHeight = 87;
+          const barWidth = 340;
+          const barGraphColor = "#DAE9F1";
+          const barGraphFillColor = "#468FBA";
+          const labelColor = "#1D5392";
+          const fontFamily = 'Libre Franklin';
+          const paddingBetweenBars = 24;
+          const paddingForBarLabel = barWidth + 20;
+          var canvasHeight = (barHeight*values.length) + (paddingBetweenBars *(values.length - 1))
+          // TODO: make dimensions dynamic if possible (maybe? - https://d3-graph-gallery.com/graph/custom_responsive.html)
+          var marginOfEntireGraph = {top: 20, right: 0, bottom: 40, left: 90},
+              width = 1000 - marginOfEntireGraph.left - marginOfEntireGraph.right,
+              height = canvasHeight + marginOfEntireGraph.top + marginOfEntireGraph.bottom;
+          // append the svg object to the body of the page
+          var svg = d3.select("#race-bar-graph")
+            .append("svg")
+              .attr("width", width)
+              .attr("height", height)
+            .append("g")
+              .attr("transform",
+                    "translate(" + marginOfEntireGraph.left + "," + marginOfEntireGraph.top + ")")
+
+          // https://observablehq.com/@d3/d3-scalelinear
+          var x = d3.scaleLinear()
+            .domain([0, 100]) //x
+            .range([ 0, 100]); //y
+
+          // https://observablehq.com/@d3/d3-scaleband
+          var y = d3.scaleBand()
+            .range([ 0, height ])
+            .domain(data.data.map(function(d) { return d.race; }))
+            .padding(.1);
+
+          svg.selectAll('rect .background')
+            .data(data.data)
+            .enter()
+            .append('rect')
+            .classed('background', true)
+            .attr('y', function (d) { return y(d.race); })
+            .attr('x', x(0))
+            .attr('height', barHeight)
+            .attr('width', function (d) { return x(barWidth); })
+            .attr('fill', barGraphColor)
+          svg.selectAll("myRect")
+            .data(data.data)
+            .enter()
+            .append("rect")
+            .style("margin-top", "10px")
+            .attr("x", x(0) )
+            .attr("y", function(d) { return y(d.race); })
+            .attr("width", function(d) { return x(d.percent*barWidth/100); })
+            .attr("height", barHeight)
+            .attr("fill", barGraphFillColor)
+
+          // add text label
+          // TODO: break the whitespace into its own variable, as well as height of percentage text, and text label
+          const whitespaceAfterTextLabel = 39; // these may not be pixel perfect
+          const heightOfPercentageTextAndWhitespace = 76.5;
+          labels.forEach((label, index) => {
+            svg.append("text")
+              .text(label)
+              .attr('y', function () { return ((heightOfPercentageTextAndWhitespace * (index + 1)) + (whitespaceAfterTextLabel * index)) })
+              .attr('x', paddingForBarLabel)
+              .attr('font-family', fontFamily)
+              .attr('font-size', '20px') // part of variable??? check this
+              .attr('font-weight', 400)
+              .attr('fill', labelColor);
+          })
+
+          // add percentage label
+          // TODO: break the whitespace into its own variable, as well as height of percentage text, and text label
+          const whitespaceAfterPercentageText = 55; // these may not be pixel perfect
+          const heightOfLabelTextAndWhitespace = 60;
+          values.forEach((value, index) => {
+            svg.append("text")
+              .text(value + '%')
+              .attr('y', function () { return ((whitespaceAfterPercentageText * (index + 1)) + (heightOfLabelTextAndWhitespace * index)) })
+              .attr('x', paddingForBarLabel)
+              .attr('font-family', fontFamily)
+              .attr('font-size', '32px') // part of variable??? check this
+              .attr('font-weight', 600)
+              .attr('fill', labelColor);
+          })
+        } catch(error) {
+          console.log(error);
+        }
+      })();
+    </script>
+    <!-- DE&I DATA VIZ POC ENDS HERE -->
+    <!-- https://codepen.io/anon/pen/JnlAE?editors=1010 -->
+
+
+{% include join_us_cta.html %}
