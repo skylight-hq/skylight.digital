@@ -2,9 +2,9 @@
 layout: default
 title_tag: U.S. Air Force
 title: Helping transform the U.S. Air Force into a design-centric organization
-permalink: /work/experience//usaf-bespin-design-studio/
-image: /img/projects/usaf-bespin-design-studio.svg
-image_description: An airmen using the AFFMS app on her mobile device.
+permalink: /work/experience/usaf-bespin-design-studio/
+image: /img/projects/usaf_bespin_design_studio/bespin-design-studio.svg
+image_description: The palm of a hand supporting a fighter jet as it takes off into a blue sky.
 feature_image:
 feature_image_description:
 order: 350
