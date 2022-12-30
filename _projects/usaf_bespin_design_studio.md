@@ -12,13 +12,13 @@ display: true
 tags: [service delivery, research & design, defense, air force, karthik patil, kyle planeaux, laura kerry, zack gehin, liz fox, ashton tu, mike brown]
 excerpt: A center for design excellence within the Air Force that airmen can leverage to build useful, usable, and secure software quickly and cost-effectively.
 project_members:
-  - Karthik Patil
-  - Kyle Planeaux
-  - Laura Kerry
-  - Zack Gehin
-  - Liz Fox
-  - Ashton Tu
-  - Mike Brown
+  - karthik-patil
+  - kyle-planeaux
+  - laura-kerry
+  - zack-gehin
+  - liz-fox
+  - ashton-tu
+  - mike-brown
 technologies:
   - Adobe XD
   - Carbon Design System
