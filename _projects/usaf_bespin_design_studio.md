@@ -68,7 +68,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) is committed to transforming its portfolio of software products to ensure mission success and improve the quality of life for all airmen. In collaboration with Business Enterprise Systems Product INnovation (BESPIN), we’ve established the Design Studio, a design center of excellence whose mission is to deliver better airmen user experiences at scale.
+The U.S. Air Force (USAF) is committed to modernizing its portfolio of software products to ensure mission success and improve the quality of life for all airmen. In collaboration with Business Enterprise Systems Product INnovation (BESPIN), we’ve established the Design Studio, a design center of excellence whose mission is to deliver better airmen user experiences at scale.
 {% endcapture %}
 
 {% capture challenge %}
