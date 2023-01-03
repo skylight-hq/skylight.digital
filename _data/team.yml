@@ -196,6 +196,10 @@
       link: /thoughts/talks/speaker/geoff-mulligan/
       link_description: Geoff's Talks
       fa_icon_name: microphone
+    - name: Projects
+      link: /work/team-member/geoff-mulligan/
+      link_description: Geoff's Project Work
+      fa_icon_name: wrench
 - name: kin-lane
   fname: Kin
   lname: Lane
@@ -1252,7 +1256,7 @@
     Charlye loves to solve complex problems. As a former software and data engineer, she now
     specializes in service design and product management and is certified in UX by the Nielsen Norman
     Group. Charlye lives in Texas.
-  active: true
+  active: false
   order: 290
   socials:
     - name: LinkedIn
@@ -1697,8 +1701,12 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/jamie-song-a7198238/
-      link_description: Joe's LinkedIn Account
+      link_description: Jamie's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/jamie-song/
+      link_description: Jamie's Project Work
+      fa_icon_name: wrench
 - name: ori-hoffer
   fname: Ori
   lname: Hoffer
@@ -1922,6 +1930,10 @@
       link: https://www.linkedin.com/in/nmwright/
       link_description: Nicole's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Talks
+      link: /thoughts/talks/speaker/nicole-wright/
+      link_description: Nicole's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/nicole-wright/
       link_description: Nicole's Project Work
@@ -2034,6 +2046,10 @@
       link: www.linkedin.com/in/matthew-goldberg-01586854
       link_description: Matt's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/matt-goldberg/
+      link_description: Matt's Project Work
+      fa_icon_name: wrench
 - name: nick-blake
   fname: Nick
   lname: Blake
@@ -2044,7 +2060,7 @@
   image_description: Photo of Nick Blake
   position: Product Designer
   bio: >
-    Nick's a product designer, who's studying psychology and human-computer interaction at the Washington University in St. Louis. They most recently worked as a Civic Digital Fellow at the U.S. Citizenship and Immigration Services. Nick lives in Missouri.
+    Nick's a multidisciplinary designer and researcher. Nick’s process is informed by cross-functional collaboration and research. He's passionate about facilitating connections between and within communities. Nick recently graduated from Washington University in St. Louis. Nick lives in New York.
   active: true
   order: 530
   socials:
@@ -2145,7 +2161,7 @@
   position: Staff Product Manager
   bio: >
     Tim's a seasoned product manager with a passion for building small, releasing early, and iterating often. Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped transform the way startups and large enterprises build software. Tim lives in Illinois.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
@@ -2174,14 +2190,14 @@
       link: https://www.linkedin.com/in/prikiser/
       link_description: Pri's LinkedIn Account
       fa_icon_name: linkedin
-- name: taylor-curtiss
+- name: taylor-graue
   fname: Taylor
-  lname: Curtiss
-  full_name: Taylor Curtiss
-  short_name: T. Curtiss
-  profile_path: /company/about/#taylor-curtiss
-  image: /img/people/taylor-curtiss.jpg
-  image_description: Photo of Taylor Curtiss
+  lname: Graue
+  full_name: Taylor Graue
+  short_name: T. Graue
+  profile_path: /company/about/#taylor-graue
+  image: /img/people/taylor-graue.jpg
+  image_description: Photo of Taylor Graue
   position: Senior Product Designer
   bio: >
     Taylor's passionate about improving government services through user-centered design. She’s an Air Force veteran and most recently worked as a product designer at Kessel Run. Taylor specializes in research, design, strategic thinking, and building high-performing teams. She lives in Massachusetts.
@@ -2193,11 +2209,11 @@
       link_description: Taylor's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
-      link: https://www.taylorcurtiss.com/
+      link: https://www.taylorgraue.com/
       link_description: Taylor's Personal Website
       fa_icon_name: home
     - name: Projects
-      link: /work/team-member/taylor-curtiss/
+      link: /work/team-member/taylor-graue/
       link_description: Taylor's Project Work
       fa_icon_name: wrench
 - name: laura-kerry
@@ -2503,6 +2519,10 @@
       link: https://www.linkedin.com/in/ryangaddis/
       link_description: Ryan's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/ryan-gaddis/
+      link_description: Ryan's Project Work
+      fa_icon_name: wrench
 - name: bryan-britten
   fname: Bryan
   lname: Britten
@@ -2532,6 +2552,10 @@
       link: https://tibblesnbits.com
       link_description: Bryan's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/bryan-britten/
+      link_description: Bryan's Project Work
+      fa_icon_name: wrench
 - name: kyle-planeaux
   fname: Kyle
   lname: Planeaux
@@ -2672,7 +2696,7 @@
   position: Staff Data Engineer
   bio: >
     Spencer's a data engineer with over 15 years of experience working in healthcare data and interoperability. Spencer has worked for and with electronic medical record vendors, healthcare providers, health plans, and regional health informational exchanges to share and report on complex health data to satisfy a multitude of needs. Spencer lives in Colorado.
-  active: true
+  active: false
   socials:
     - name: Twitter
       link: https://twitter.com/gskathol
@@ -2686,6 +2710,10 @@
       link: https://github.com/gskathol
       link_description: Spencer's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/spencer-kathol/
+      link_description: Spencer's Project Work
+      fa_icon_name: wrench
 - name: dan-sass
   fname: Dan
   lname: Sass
@@ -2766,6 +2794,10 @@
       link: https://www.linkedin.com/in/kenneth-chow-it/
       link_description: Kenneth's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kenneth-chow/
+      link_description: Kenneth's Project Work
+      fa_icon_name: wrench
 - name: camille-villa
   fname: Camille
   lname: Villa
@@ -2812,6 +2844,14 @@
       link: https://github.com/DanielPaseltiner
       link_description: Dan's GitHub Account
       fa_icon_name: github
+    - name: Talks
+      link: /thoughts/talks/speaker/dan-paseltiner/
+      link_description: Dan's Talks
+      fa_icon_name: microphone
+    - name: Projects
+      link: /work/team-member/dan-paseltiner/
+      link_description: Dan's Project Work
+      fa_icon_name: wrench
 - name: ann-millspaugh
   fname: Ann
   lname: Millspaugh
@@ -2833,6 +2873,10 @@
       link: https://github.com/millzpaugh
       link_description: Ann's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/ann-millspaugh/
+      link_description: Ann's Project Work
+      fa_icon_name: wrench
 - name: steven-speck
   fname: Steven
   lname: Speck
@@ -2919,7 +2963,7 @@
   position: Product Designer Intern
   bio: >
     Michelle's a product designer originally from the San Francisco Bay Area. She cares deeply about building positive relationships between people and technology. Previously, she was a Civic Digital Fellow at the National Institutes of Health. Michelle lives in New York. 
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/michmli/
@@ -2929,3 +2973,133 @@
       link: https://michellemli.myportfolio.com/work
       link_description: Michelle's Personal Website
       fa_icon_name: home
+- name: amrita-bhatti
+  fname: Amrita
+  lname: Bhatti
+  full_name: Amrita Kaur Bhatti
+  short_name: A. Bhatti
+  profile_path: /company/about/#amrita-bhatti
+  image: /img/people/amrita-bhatti.png
+  image_description: Illustration of Amrita Kaur Bhatti
+  position: Staff Product Manager
+  bio: >
+    Amrita's a product manager who enjoys working with people and technology to create meaningful solutions. Previously, she was a product manager at McMaster-Carr and has experience as a software engineer. She lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/akbhatti
+      link_description: Amrita's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/amrita-bhatti/
+      link_description: Amrita's Project Work
+      fa_icon_name: wrench
+- name: brady-fausett
+  fname: Brady
+  lname: Fausett
+  full_name: Brady Fausett
+  short_name: B. Fausett
+  profile_path: /company/about/#brady-fausett
+  image: /img/people/brady-fausett.png
+  image_description: Illustration of Brady Fausett
+  position: Staff Data Engineer
+  bio: >
+    Brady's a data engineer with a passion to improve healthcare data interoperability. Brady has almost 20 years of working in healthcare informatics, including clinical decision support applications, NHSN reporting, and consuming/creating FHIR and HL7 APIs. He previously worked with CMS as a FHIR specialist for the Blue Button API. Brady lives in Idaho.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brady-fausett-20aa491
+      link_description: Brady's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/BradySkylight
+      link_description: Brady's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/brady-fausett/
+      link_description: Brady's Project Work
+      fa_icon_name: wrench
+- name: cheryl-hammond
+  fname: Cheryl
+  lname: Hammond
+  full_name: Cheryl Hammond
+  short_name: C. Hammond
+  profile_path: /company/about/#cheryl-hammond
+  image: /img/people/cheryl-hammond.jpg
+  image_description: Photo of Cheryl Hammond
+  position: VP of Service Excellence
+  bio: >
+    Cheryl has 20+ years of experience as a software developer and technology leader in the private and public sectors, including more than ten years in consulting. She regularly speaks at and organizes conferences worldwide. Cheryl lives in Washington.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/bsktcase/
+      link_description: Cheryl's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/bsktcase
+      link_description: Cheryl's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://blog.bsktcase.com/
+      link_description: Cheryl's Personal Website
+      fa_icon_name: home
+- name: jill-fromewick
+  fname: Jill
+  lname: Fromewick
+  full_name: Jill Fromewick
+  short_name: J. Fromewick
+  profile_path: /company/about/#jill-fromewick
+  image: /img/people/jill-fromewick.png
+  image_description: Illustration of Jill Fromewick
+  position: Senior User Researcher
+  bio: >
+    Jill's a user researcher with 20+ years of experience at the intersection of outcomes-driven research, program evaluation, and user experience. She's passionate about conducting feasible, actionable research that will be used to improve outcomes and advance equity. Jill lives in North Carolina.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jfromewick/
+      link_description: Jill's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/jill-fromewick/
+      link_description: Jill's Project Work
+      fa_icon_name: wrench
+- name: jina-ryu
+  fname: Jina
+  lname: Ryu
+  full_name: Jina Ryu
+  short_name: J. Ryu
+  profile_path: /company/about/#jina-ryu
+  image: /img/people/jina-ryu.jpg
+  image_description: Photo of Jina Ryu
+  position: User Researcher Intern
+  bio: >
+    Jina's a user researcher studying public health at Johns Hopkins University. She transitioned from academic research because she's passionate about translating research insights into solutions with positive impact. She lives in Maryland. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jina-ryu-682781aa/
+      link_description: Jina's LinkedIn Account
+      fa_icon_name: linkedin
+- name: marcelle-goggins
+  fname: Marcelle
+  lname: Goggins
+  full_name: Marcelle Goggins
+  short_name: M. Goggins
+  profile_path: /company/about/#marcelle-goggins
+  image: /img/people/marcelle-goggins.jpg
+  image_description: Photo of Marcelle Goggins
+  position: Senior Data Engineer
+  bio: >
+    Marcelle is a data engineer with a background in applied statistics and public policy. Marcelle has previously worked as a data engineer/scientist at civic tech non-profits and academic institutions, focusing on workforce development and education research. She lives in Washington. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/marcellegoggins/
+      link_description: Marcelle's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/marcelle-goggins/
+      link_description: Marcelle's Project Work
+      fa_icon_name: wrench
