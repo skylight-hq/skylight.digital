@@ -1,7 +1,7 @@
 ---
 layout: employee_filter
-title: Taylor Curtiss’ Project Work
+title: Jamie Song’s Project Work
 filter_type: project
-name: taylor-curtiss
+name: jamie-song
 skip_index: true
 ---

@@ -1,0 +1,13 @@
+ci:
+  collect:
+    staticDistDir: "./build"
+    maxAutodiscoverUrls: 20
+  assert:
+    assertions:
+      categories:accessibility: [error, {minScore: .9}]
+  upload:
+    # upload options here
+  server:
+    # server options here
+  wizard:
+    # wizard options here
