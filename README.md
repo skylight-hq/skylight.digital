@@ -1,6 +1,6 @@
 # The Skylight Website
 
-![Jekyll Deploy](https://github.com/skylight-hq/skylight.digital/workflows/main.yml/badge.svg)
+![Jekyll Deploy](https://github.com/skylight-hq/skylight.digital/.github/workflows/main.yml/badge.svg)
 
 This repo is for our public-facing site, which is hosted on [https://skylight.digital](https://skylight.digital).
 
