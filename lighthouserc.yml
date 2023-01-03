@@ -1,7 +1,7 @@
 ci:
   collect:
     staticDistDir: "./build"
-    maxAutodiscoverUrls: 0
+    maxAutodiscoverUrls: 20
   assert:
     assertions:
       categories:accessibility: [error, {minScore: .9}]
