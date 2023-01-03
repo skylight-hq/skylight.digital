@@ -2,7 +2,9 @@
 layout: default
 title_tag: Centers for Disease Control and Prevention
 title: Building a response-ready public health data system
-permalink: /cdc-public-health-data-infrastructure/
+permalink: /work/experience/cdc-public-health-data-infrastructure/
+redirect_from:
+  - /cdc-public-health-data-infrastructure/
 image: /img/projects/cdc_phdi/phdi.svg
 image_description: A person stacking blocks on a table.
 feature_image:
