@@ -2,7 +2,9 @@
 layout: default
 title_tag: Jabil
 title: Developing future-proof IoT solutions
-permalink: /jabil-iot/
+permalink: /work/experience/jabil-iot/
+redirect_from:
+  - /jabil-iot/
 image: /img/projects/jabil_iot/industrial-iot.svg
 image_description: A person tapping the screen of a tablet in front of a conveyor belt surrounded by robotic arms.
 feature_image:
