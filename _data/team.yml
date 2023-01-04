@@ -1750,13 +1750,13 @@
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/elyse-brumfield-572ab1150/
-      link_description: Elye's LinkedIn Account
+      link_description: Elyse's LinkedIn Account
       fa_icon_name: linkedin
 - name: gianna-buda
   fname: Gianna
-  lname: Uson
+  lname: Buda
   full_name: Gianna Buda
-  short_name: G. Uson
+  short_name: G. Buda
   profile_path: /company/about/#gianna-buda
   image: /img/people/gianna-buda.jpg
   image_description: Photo of Gianna Buda
@@ -1770,7 +1770,7 @@
   order: 470
   socials:
     - name: LinkedIn
-      link: https://www.linkedin.com/in/giannauson
+      link: https://www.linkedin.com/in/giannabuda
       link_description: Gianna's LinkedIn Account
       fa_icon_name: linkedin
     - name: Projects
