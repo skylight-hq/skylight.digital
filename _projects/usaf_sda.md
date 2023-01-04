@@ -31,6 +31,7 @@ practices:
   - Instructional design
   - Coaching & training
   - Pairing
+  - Capability development
 news_posts:
 project_url:
 project_cta:
