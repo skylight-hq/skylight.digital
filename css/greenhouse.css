@@ -41,6 +41,7 @@ body #wrapper {
   content: "Remote";
   font-size: 0.9375rem;
   color: #54565a;
+  margin-bottom: 0.25rem;
 }
 
 #main {
