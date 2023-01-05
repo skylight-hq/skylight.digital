@@ -8,7 +8,7 @@ image_description: Family with young children sitting together with a mobile pho
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 1300
+order: 1400
 display: true
 tags: [service delivery, research & design, product management, software delivery, early childhood, social safety net, economic development, abby raskin, ashley treni, victoria suwardiman, cailyn hansen, gabriel ramirez, marvo dolor, amelia wellers]
 excerpt: An SMS-based notification tool launched to better support the needs and understand the pain points of families seeking help to pay for child care in Connecticut.
