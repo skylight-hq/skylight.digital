@@ -1,3 +1,7 @@
+/* To update the styling on the greenhouse iframe, follow the instructions
+here:  https://support.greenhouse.io/hc/en-us/articles/360044871931
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&family=Nunito+Sans&family=Roboto+Mono:wght@400;500&display=swap");
 :root {
   /*
@@ -30,9 +34,17 @@ body #wrapper {
   padding: 0 !important;
 }
 
+.location {
+  display: none !important;
+}
+.opening:after {
+  content: "Remote";
+  font-size: 0.9375rem;
+  color: #54565a;
+}
+
 #main {
   padding-top: 0 !important;
-  padding-bottom: 80px;
 }
 
 /* Select Boxes */
@@ -74,6 +86,14 @@ section .opening a:hover {
   text-decoration: none;
 }
 
+#embedded_job_board_wrapper > h1 {
+  display: none;
+}
+
+#embedded_job_board_wrapper > h2 {
+  display: none;
+}
+
 /* Job Board Page */
 #main > h1:not(.app-title) {
   /* Hide the company name in favor of a Logo that includes it */
@@ -88,11 +108,11 @@ section .opening a:hover {
 }
 
 section {
-  margin-top: 4rem;
+  margin-bottom: 4em;
 }
 
 section > h3 {
-  margin-top: 32px;
+  margin-top: 1.5em;
 }
 
 #logo {
@@ -141,6 +161,12 @@ body #footer img {
 h3#filter-count {
   margin-top: 30px;
   margin-bottom: 0;
+}
+
+#embedded_job_board_wrapper {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 /* Job Post Page */
@@ -206,10 +232,6 @@ div#submit_buttons input#submit_app {
 div#app_body {
   max-width: none;
   padding-right: 20px;
-}
-
-div#content {
-  padding-bottom: 16px;
 }
 
 div#application hr:nth-last-of-type(1) {
