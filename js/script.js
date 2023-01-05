@@ -290,7 +290,6 @@ $(function() {
 
       window.localStorage.setItem('filters', filters.join(',').toLowerCase());
 
-
       //Disabled unused tags for the remaining posts
       var dataSource = $("article.filter-match");
       var usedTags = $.unique(
