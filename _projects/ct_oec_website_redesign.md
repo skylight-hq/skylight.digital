@@ -84,9 +84,13 @@ children across the state.
 {% endcapture %}
 
 {% capture solution %}
-To address this challenge, we engaged OEC in an agile, user-centered
-process to support the redesign of their website. This process involved
-collaborating with dozens of OEC users and stakeholders to create a solution that:
+To address this challenge, we engaged OEC in an agile, user-centered process to support the redesign of their website. 
+
+![Animation of navigating the new OEC website.](/img/projects/ct_oec_website_redesign/oec-website-animation.gif){: .mb-0 }
+The updated website features a modern and inviting design, with improved navigation based on user priorities.
+{: .caption }
+
+This process involved collaborating with dozens of OEC users and stakeholders to create a solution that:
 
 - Meets a diversity of complex user needs through extensive user research
 - Makes it easier to search, navigate, and access critical information and resources
@@ -98,11 +102,6 @@ collaborating with dozens of OEC users and stakeholders to create a solution tha
 - Can be maintained by internal staff through easy-to-use content management tools,
   [content guidelines](https://www.ctoec.org/oec-staff-website-support/style-guide/),
   and content design and management training
-
-![Animation of navigating the new OEC website.](/img/projects/ct_oec_website_redesign/oec-website-animation.gif){: .mb-0 }
-The updated website features a modern and inviting design, with improved navigation based on user priorities.
-{: .caption }
-
 {% endcapture %}
 
 {% capture results %}
