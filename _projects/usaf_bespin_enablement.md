@@ -142,7 +142,7 @@ In addition, Skylight product managers hosted regular CoP events, providing trai
 - Helped three airmen transition to more senior roles in BESPIN
 - Taught airmen how to capitalize on agile, stakeholder management, and product development skill sets to make a big impact within BESPIN ecosystem
 - Provided staffing continuity as military and civilian team members rotated on and off of BESPIN projects
-- Earned the highest rating for our project GearFit in the Program Executive Officer of the Business and Enterprise Systems Directorate’s annual agile assessment — based on the team’s agile processes, team activities, ceremonies, and user-centered practices
+- Earned the highest rating for our GearFit project in the Program Executive Officer of the Business and Enterprise Systems Directorate’s annual agile assessment — based on the team’s agile processes, team activities, ceremonies, and user-centered practices
 {% endcapture %}
 
 {% include project.html
