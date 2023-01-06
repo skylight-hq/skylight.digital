@@ -13,49 +13,49 @@ display: true
 tags: [transformation, training, coaching & training, defense, air force, adam weber, andrew lloyd, andrew wagner, ari perez, ashton tu, charlye tran, chun yen, colin craig, david mcclatchey, eric richards, gabriel ramirez, gianna buda, gordon farrell, jennifer herzberg, jesse skeets, josh dorothy, kari hodges, karthik patil, kenny nieh, kyle planeaux, laura kerry, laura king, lesley evans, lina roth, liz fox, lucas newman, maya benari, mical nobel, mike brown, mitchell sipus, nick blake, nick clyde, nicole campbell, nicole wright, olivia lucas, peggy chau, phoebe espiritu, priscilla peralta, sarah george hager, sarah tress, shashank khandelwal, taylor graue, zack gehin, zoe do]
 excerpt: Enabling advanced software delivery capabilities for Air Force technology teams and personnel.
 project_members:
-  - adam-weber
-  - andrew-lloyd
-  - andrew-wagner
-  - ari-perez
   - ashton-tu
-  - charlye-tran
-  - chun-yen
-  - colin-craig
   - david-mcclatchey
-  - eric-richards
-  - gabriel-ramirez
   - gianna-buda
   - gordon-farrell
   - jennifer-herzberg
-  - jesse-skeets
   - josh-dorothy
-  - kari-hodges
   - karthik-patil
   - kenny-nieh
   - kyle-planeaux
   - laura-kerry
   - laura-king
-  - lesley-evans
   - lina-roth
   - liz-fox
-  - lucas-newman
-  - maya-benari
-  - mical-nobel
   - mike-brown
-  - mitchell-sipus
   - nick-blake
   - nick-clyde
   - nicole-campbell
   - nicole-wright
-  - olivia-lucas
   - peggy-chau
-  - phoebe-espiritu
   - priscilla-peralta
   - sarah-george-hager
   - sarah-tress
-  - shashank-khandelwal
   - taylor-graue
   - zack-gehin
+  - adam-weber
+  - andrew-lloyd
+  - andrew-wagner
+  - ari-perez
+  - charlye-tran
+  - chun-yen
+  - colin-craig
+  - eric-richards
+  - gabriel-ramirez
+  - jesse-skeets
+  - kari-hodges
+  - lesley-evans
+  - lucas-newman
+  - maya-benari
+  - mical-nobel
+  - mitchell-sipus
+  - olivia-lucas
+  - phoebe-espiritu
+  - shashank-khandelwal
   - zoe-do
 technologies:
   - APIs
@@ -106,7 +106,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-We provided enablement support to Air Force teams and personnel across multiple, high-impact technology projects. As they paired with us, we helped them develop the skills they need to deliver modern software solutions.
+We provided enablement support to Air Force teams and personnel across multiple high-impact technology projects. As they paired with us, we helped them develop the skills they need to deliver modern software solutions.
 {% endcapture %}
 
 {% capture challenge %}
@@ -120,9 +120,10 @@ In 2019, the USAF launched Business Enterprise Systems Product INnovation (BESPI
 
 To support this mission, we designed a unique approach to staff enablement. Our efforts in this area have included: 
 
-Embedding BESPIN staff on Skylight’s project teams as designers, product managers, and engineers
-Coaching BESPIN staff to use modern delivery practices
-Working directly with BESPIN leadership to build out strategy and roadmaps for software development and product delivery 
+- Embedding BESPIN staff on Skylight’s project teams as designers, product managers, and engineers
+- Coaching BESPIN staff to use modern delivery practices
+- Working directly with BESPIN leadership to build out strategy and roadmaps for software development and product delivery 
+
 Using this approach, we’ve enabled airmen with no technology experience to contribute effectively as designers, product managers, and engineers on agile software teams in as little as six months.
 
 Partnering with Skylight, airmen such as Technical Sergeant (TSgt) Joseph “Joey” Mills have not only grown their skills but have also advanced their careers. TSgt Mills joined BESPIN as a software developer, starting on Skylight’s GearFit team. At the time, he had minimal experience writing code and none at all with Javascript or the React framework used by the project. His Skylight teammates provided mentoring and shadowing opportunities to grow his technical skills, and he quickly found that he was able to deliver stories autonomously.
