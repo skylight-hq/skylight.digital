@@ -74,7 +74,7 @@ From our service design activities, we formulated eight recommendations and bega
 - Create self-service artifacts
 - Build a shared migration vision and plan
 - Provide updated trainings
-- Improve Agile processes
+- Improve agile processes
 - Standardize and define roles 
 - Create uniform communication strategy
 - Continue discovery efforts
@@ -86,7 +86,7 @@ We also helped ensure the work would continue by identifying WxPO product champi
 {% capture results %}
 - Created and shared a human-centered design playbook, service blueprints, persona templates, user research plan and report templates, an assumptions tracker, and an outcome-oriented roadmap
 - Hosted a vision and strategy workshop
-- Hosted Agile and human-centered design trainings
+- Hosted agile and human-centered design trainings
 - Conducted user research and design systems trainings with application teams
 - Hosted team processes workshop with application teams
 - Embedded process consulting with individual application teams
