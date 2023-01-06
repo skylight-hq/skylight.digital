@@ -54,7 +54,7 @@ The existing on-premise solutions severely limit WxPO’s ability to improve or 
 
 However, the cloud migration initiative faced its own challenges. WxPO teams struggled to balance maintenance of legacy systems with planning and executing the migration of applications and data to the cloud. Initial efforts were not clearly defined under an overarching vision or plan, creating miscommunication which in turn caused confusion, rework, churn, and frustration. Teams were learning new technologies on the fly and felt like they were continuously “chasing down” answers to questions and updates to processes.
 
-{% include callout.html type = "pullquote" content = "I think it’s affected all of middle management because every day, we’re trying to put things together and every day, we’re in some form of lost and found." cite_name = "Weather Officer, Acquisitions Training" cite_title = "" %}
+{% include callout.html type = "pullquote" content = "I think it’s affected all of middle management because every day, we’re trying to put things together and every day, we’re in some form of lost and found." cite_name = "Weather Officer" cite_title = "Acquisitions Training" %}
 
 Limited user research has also hindered progress. Many of the existing applications were built without a solid understanding of users’ goals, needs, and workflows. The wide variety of end user roles and use cases has also made it difficult for teams to understand them all.
 
@@ -71,14 +71,14 @@ Through user research and service design interviews, we took a holistic look at 
 Service design helped us improve the developer onboarding experience, reducing multiple pain points for new team members. It also allowed us to address process barriers blocking digital transformation. We also documented specific opportunities to improve the customer experience with new capabilities enabled by the cloud.
 
 From our service design activities, we formulated eight recommendations and began implementing them:
-Create self-service artifacts
-Build a shared migration vision and plan
-Provide updated trainings
-Improve Agile processes
-Standardize and define roles 
-Create uniform communication strategy
-Continue discovery efforts
-Improve support services
+- Create self-service artifacts
+- Build a shared migration vision and plan
+- Provide updated trainings
+- Improve Agile processes
+- Standardize and define roles 
+- Create uniform communication strategy
+- Continue discovery efforts
+- Improve support services
 
 We also helped ensure the work would continue by identifying WxPO product champions and Skylight collaborators who can enable change to move away from legacy rules and toward a modern digital platform. Finally, we helped WxPO’s own teams develop and expand their own user research and service design capabilities, enabling them to maintain a greater awareness and focus on the needs of the DoD’s weather community.
 {% endcapture %}
