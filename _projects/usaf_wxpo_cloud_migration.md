@@ -18,7 +18,10 @@ project_members:
   - olivia-lucas
   - zoe-do
 technologies:
-  - 
+  - Google Workspace
+  - Mattermost
+  - MURAL
+  - Slack
 practices:
   - Agile cloud migration
   - Service design
