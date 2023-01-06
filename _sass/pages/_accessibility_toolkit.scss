@@ -21,7 +21,6 @@
 
   .e-h4 {
     font-size: 1.025rem;
-
   }
 
   .e-h5 {
@@ -43,15 +42,21 @@
   background-color: $gray-5 !important;
   font-family: $font-family-mono !important;
 
-  .nt, .nc {
+  .nt,
+  .nc {
     color: $blue-200 !important;
   }
 
-  .na, .m, .nb {
+  .na,
+  .m,
+  .nb {
     color: $green-300-a !important;
   }
 
-  .s, .sa, .dl, .nl {
+  .s,
+  .sa,
+  .dl,
+  .nl {
     color: $red-200 !important;
   }
 
@@ -94,9 +99,9 @@
     margin-top: 2rem;
   }
 
- + .language-html.highlighter-rouge {
-  border-top: none;
-  margin-top: calc(-1rem - 5px);
+  + .language-html.highlighter-rouge {
+    border-top: none;
+    margin-top: calc(-1rem - 5px);
 
     .highlight {
       border-top-left-radius: 0 !important;
@@ -114,7 +119,13 @@ code {
 }
 
 p code {
-  background-color: rgba(0,0,0,0.13) !important;
+  background-color: rgba(0, 0, 0, 0.13) !important;
+}
+
+#grnhse_app > iframe {
+  // greenhouse is adding 150px of space on the bottom of their job iframe
+  // and this is how we have to hack it. Sorry!
+  margin-bottom: -150px;
 }
 
 iframe {
