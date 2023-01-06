@@ -99,6 +99,10 @@ collaborating with dozens of OEC users and stakeholders to create a solution tha
   [content guidelines](https://www.ctoec.org/oec-staff-website-support/style-guide/),
   and content design and management training
 
+![Animation of navigating the new OEC website.](/img/projects/ct_oec_website_redesign/oec-website-animation.gif){: .mb-0 }
+The updated website features a modern and inviting design, with improved navigation based on user priorities.
+{: .caption }
+
 {% endcapture %}
 
 {% capture results %}
