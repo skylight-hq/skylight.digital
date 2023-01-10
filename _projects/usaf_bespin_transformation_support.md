@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 1150
 display: true
-tags: [transformation, training, research & design, product management, devops, coaching & training, air force, chris cairns, shashank khandelwal, nicole campbell, karthik patil, kyle planeaux, zack gehin, liz fox]
+tags: [transformation, coaching & training, defense, air force, chris cairns, shashank khandelwal, nicole campbell, karthik patil, kyle planeaux, zack gehin, liz fox]
 excerpt: An internal software factory that offers a new model for how the U.S. Air Force builds user-centered software and empowers airmen product teams.
 project_members:
   - chris-cairns
@@ -79,7 +79,7 @@ Slow software delivery and suboptimal outcomes for the Air Force creates serious
 - Reduced airmen engagement and productivity 
 - High costs after extensive rework to arrive at a usable solution that meets the needs of the mission
 
-In 2020, Business Enterprise Systems (BES) stood up the BESPIN software factory with seed funds from the Air Force Service Acquisition Executive, Dr. Will Roper, to drive digital transformation. The Air Force and BES Directorate leadership knew they needed to change the way the USAF developed and delivered software — but how? They’d seen success at organizations like Kessel Run and Kobayashi Maru, and believed those organizations were only scratching the surface of what was possible.
+In 2020, Business Enterprise Systems (BES) stood up the BESPIN software factory with seed funds from the Air Force Service Acquisition Executive, Dr. Will Roper, to drive digital transformation. The Air Force and BES Directorate leadership knew they needed to change the way the USAF developed and delivered software — but how? They’d seen success at organizations like Kessel Run, and believed those organizations were only scratching the surface of what was possible.
 
 To help build their organization as the leading software factory for the Air Force, BESPIN engaged us to create a modern services-based organization that operated differently compared to anything that had ever existed at the Air Force. As part of this engagement, we had to rethink how software gets built from first principles such as:
 
@@ -99,7 +99,7 @@ During the inception, planning, and initial growth stages of the BESPIN software
 - Supporting branding and communication activities targeted at driving culture change throughout BES and attracting new customers
 - Designing BESPIN’s customer intake process to ensure the projects that it takes on are set up for success
 - Supporting workforce enablement through coaching, training, and pair programming
-- Advising on new agile procurement methodologies and contract vehicles such as the Small Business Innovation Research (SBIR) program.
+- Advising on new agile procurement methodologies and contract vehicles such as the Small Business Innovation Research (SBIR) program
 
 In particular, Skylight helped BESPIN embrace the following core concepts as they built their organization:
 
