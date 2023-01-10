@@ -84,14 +84,9 @@ We also helped ensure the work would continue by identifying WxPO product champi
 {% endcapture %}
 
 {% capture results %}
-- Created and shared a human-centered design playbook, service blueprints, persona templates, user research plan and report templates, an assumptions tracker, and an outcome-oriented roadmap
-- Hosted a vision and strategy workshop
-- Hosted agile and human-centered design trainings
-- Conducted user research and design systems trainings with application teams
-- Hosted team processes workshop with application teams
-- Embedded process consulting with individual application teams
-- Conducted user research for application teams
-- Assisted application teams with user research
+- Helped build internal design capacity by hosting agile, user research, and human-centered design trainings
+- Created and shared self-service design tools, including a human-centered design playbook, service blueprints, persona templates, user research plan and report template, assumptions tracker, and outcome-oriented roadmap
+- Set them on a path to a successful cloud migration by embedding with individual application teams to improve team processes
 {% endcapture %}
 
 {% include project.html
