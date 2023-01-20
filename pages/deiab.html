@@ -8,9 +8,16 @@ permalink: /deiab/
 {% include page_header.html
   header_class = "page-header-2"
 %}
+<!--
+  Resources
+  - https://codepen.io/anon/pen/JnlAE?editors=1010
+  - figma: https://www.figma.com/file/424WVsCCxLZPtW9IWh7H3f/Skylight-DE%26I-Page?node-id=816%3A5715&t=E6zr0eNgA2nDVsyU-0
+  - data squad google drive: https://drive.google.com/drive/folders/1JqFyMdj_S8kNR2PXtlkSwfjqsH9cfyEG?usp=share_link
+  
+-->
+
 
 <div id="race-bar-graph"></div>
-    <!-- DE&I DATA VIZ POC STARTS HERE -->
     <script>
       (async function() {
         try {
@@ -34,7 +41,7 @@ permalink: /deiab/
           var marginOfEntireGraph = {top: 20, right: 0, bottom: 40, left: 90},
               width = 1000 - marginOfEntireGraph.left - marginOfEntireGraph.right,
               height = canvasHeight + marginOfEntireGraph.top + marginOfEntireGraph.bottom;
-          // append the svg object to the body of the page
+          // appends the svg object to the body of the page
           var svg = d3.select("#race-bar-graph")
             .append("svg")
               .attr("width", width)
@@ -75,8 +82,7 @@ permalink: /deiab/
             .attr("height", barHeight)
             .attr("fill", barGraphFillColor)
 
-          // add text label
-          // TODO: break the whitespace into its own variable, as well as height of percentage text, and text label
+          // generates text label
           const whitespaceAfterTextLabel = 39; // these may not be pixel perfect
           const heightOfPercentageTextAndWhitespace = 76.5;
           labels.forEach((label, index) => {
@@ -90,8 +96,7 @@ permalink: /deiab/
               .attr('fill', labelColor);
           })
 
-          // add percentage label
-          // TODO: break the whitespace into its own variable, as well as height of percentage text, and text label
+          // generates percentage label
           const whitespaceAfterPercentageText = 55; // these may not be pixel perfect
           const heightOfLabelTextAndWhitespace = 60;
           values.forEach((value, index) => {
@@ -109,8 +114,5 @@ permalink: /deiab/
         }
       })();
     </script>
-    <!-- DE&I DATA VIZ POC ENDS HERE -->
-    <!-- https://codepen.io/anon/pen/JnlAE?editors=1010 -->
-
 
 {% include join_us_cta.html %}
