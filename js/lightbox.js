@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var a = document.createElement('a');
       a.setAttribute('href', element.getAttribute('src'));
       a.setAttribute('class', 'lightbox-image');
-      element.parentElement.appendChild(a);
+      element.parentElement.insertBefore(a, element.nextSibling);
       a.appendChild(element);
     });
 
