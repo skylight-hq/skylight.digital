@@ -3076,7 +3076,7 @@
   position: User Researcher Intern
   bio: >
     Jina's a user researcher studying public health at Johns Hopkins University. She transitioned from academic research because she's passionate about translating research insights into solutions with positive impact. She lives in Maryland. 
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/jina-ryu-682781aa/
