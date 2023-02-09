@@ -13,7 +13,7 @@ display: true
 tags: [Service delivery, Research & design, Product management, Software delivery, Air Force, pri kiser, tiffany nieh]
 excerpt: We worked with the Air Force’s weather data analysis organization to transform how data flows into weather applications.
 project_members:
-  - priyanka-kiser
+  - pri-kiser
   - tiffany-nieh
 technologies:
   - Confluence
