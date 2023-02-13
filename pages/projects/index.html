@@ -50,12 +50,21 @@ pagination:
           data-href="{{item.permalink | prepend: site.baseurl }}"
           tabindex="-1"
         >
-          <div
-            role="img"
-            class="project-img"
-            style="background-image: url({{item.image | prepend: site.baseurl}});"
-            title="{{item.image_description}}"
-          ></div>
+          {% if item.image_summary %}
+            <div
+              role="img"
+              class="project-img"
+              style="background-image: url({{item.image_summary | prepend: site.baseurl}});"
+              title="{{item.image_summary_description}}"
+            ></div>
+          {% else %}
+            <div
+              role="img"
+              class="project-img"
+              style="background-image: url({{item.image | prepend: site.baseurl}});"
+              title="{{item.image_description}}"
+            ></div>
+          {% endif %}
           <div class="project-block">
             {% if item.title_tag %}
             <p class="project-title-tag">{{item.title_tag}}</p>
