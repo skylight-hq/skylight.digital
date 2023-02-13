@@ -3,7 +3,7 @@ layout: default
 title_tag: U.S. Air Force
 title: Creating software products at scale with design systems
 permalink: /work/experience/usaf-bespin-design-system/
-feature_image: /img/projects/usaf_bespin_design_system/BESPIN_Design_System.gif
+feature_image: /img/projects/usaf_bespin_design_system/bespin_design_system.gif
 feature_image_description: Using the BESPIN design system.
 image: /img/projects/usaf_bespin_design_system/design-system.svg
 image_description: A pair of hands moving objects around to make a pattern.

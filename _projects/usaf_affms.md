@@ -3,7 +3,7 @@ layout: default
 title_tag: U.S. Air Force
 title: Redesigning how the Air Force accesses their fitness reports
 permalink: /work/experience/air-force-fitness-management-system/
-feature_image: /img/projects/usaf_affms/AFFMS.gif
+feature_image: /img/projects/usaf_affms/affms.gif
 feature_image_description: Using the air force fitness access site.
 image: /img/projects/usaf_affms/air-force-fitness-management-system.svg
 image_description: An airmen using the AFFMS app on her mobile device.
