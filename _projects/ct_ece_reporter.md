@@ -3,13 +3,11 @@ layout: default
 title_tag: State of Connecticut
 title: Building an improved data collection tool for early childhood care and education
 permalink: /work/experience/ct-ece-reporter/
-image: /img/projects/ct_oec_transformation/ECDS.gif
-image_description: Shows the design of the ct oec site
-image_summary: /img/projects/ct_ece_reporter/ece-reporter.svg
-image_summary_description: A teacher sitting with a young child at a table and a computer screen in the background showing a green checkmark.
-feature_image:
-feature_image_description:
-feature_image_shadow:
+feature_image: /img/projects/ct_oec_transformation/ECDS.gif
+feature_image_description: Shows the design of the ct oec site
+image: /img/projects/ct_ece_reporter/ece-reporter.svg
+image_description: A teacher sitting with a young child at a table and a computer screen in the background showing a green checkmark.
+feature_image_shadow: true
 order: 400
 display: true
 tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, early childhood, social safety net, healthcare, education, chris given, julia hogan, cailyn hansen, victoria suwardiman, ashley treni, abby raskin, kyle magida, marvo dolor, amelia wellers, olivia lucas, jordan guinn, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy, johanna delpino]
