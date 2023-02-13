@@ -1958,6 +1958,10 @@
       link: https://www.linkedin.com/in/tiffanynieh
       link_description: Tiffany's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/tiffany-nieh/
+      link_description: Tiffany's Project Work
+      fa_icon_name: wrench
 - name: karthik-patil
   fname: Karthik
   lname: Patil
@@ -2190,6 +2194,10 @@
       link: https://www.linkedin.com/in/prikiser/
       link_description: Pri's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/pri-kiser/
+      link_description: Pri's Project Work
+      fa_icon_name: wrench
 - name: taylor-graue
   fname: Taylor
   lname: Graue
