@@ -3103,3 +3103,20 @@
       link: /work/team-member/marcelle-goggins/
       link_description: Marcelle's Project Work
       fa_icon_name: wrench
+- name: kelli-mason
+  fname: Kelli
+  lname: Mason
+  full_name: Kelli Mason
+  short_name: K. Mason
+  profile_path: /company/about/#kelli-mason
+  image: /img/people/kelli-mason.png
+  image_description: Photo of Kelli Mason
+  position: Head of People Operations
+  bio: >
+    Kelli’s a people-driven leader with a passion and knack for building inclusive teams. She’s been the first Head of People at two companies and advised dozens of startups on recruiting and retention in her most recent role as a partner at a venture investing firm. She’s a graduate of Rice University and Stanford Law School. Kelli lives in New Jersey.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kellinewmanmason/
+      link_description: Kelli's LinkedIn Account
+      fa_icon_name: linkedin
