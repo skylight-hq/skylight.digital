@@ -66,21 +66,14 @@
         {% for item in paginator.posts %}
           <article class="blog-post-col">
             <div class="blog-post-card card-link" data-href="{{item.permalink | prepend: site.baseurl}}" tabindex="-1">
-              {% if item.image_summary %}
-                <div
-                  role="img"
-                  class="project-img"
-                  style="background-image: url({{item.image_summary | prepend: site.baseurl}});"
-                  title="{{item.image_summary_description}}"
-                ></div>
-              {% else %}
-                <div 
-                  role="img"
-                  class="blog-post-img"
-                  style="background-image: url({{item.image | prepend: site.baseurl;}});"
-                  title="{{item.image_description | escape}}">
-                </div>
-              {% endif %}
+            
+              <div 
+                role="img"
+                class="blog-post-img"
+                style="background-image: url({{item.image | prepend: site.baseurl;}});"
+                title="{{item.image_description | escape}}">
+              </div>
+              
               <div class="blog-post-block">
                 {% if item.title_tag %}
                   <p class="blog-post-title-tag">{{item.title_tag}}</p>
