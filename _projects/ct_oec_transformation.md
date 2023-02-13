@@ -3,10 +3,8 @@ layout: default
 title_tag: State of Connecticut
 title: Helping transform early childhood services
 permalink: /work/experience/ct-oec-digital-transformation/
-image: /img/projects/ct_ece_reporter/OEC_Website.gif
-image_description: Navigating the OEC website.
-image_summary: /img/projects/ct_oec_transformation/early-childhood-services-transformation.svg
-image_summary_description: A digitized button icon with two hands reaching out to each other and another hand pressing the button icon.
+image: /img/projects/ct_oec_transformation/early-childhood-services-transformation.svg
+image_description: A digitized button icon with two hands reaching out to each other and another hand pressing the button icon.
 feature_image:
 feature_image_description:
 feature_image_shadow:
