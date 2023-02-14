@@ -3,7 +3,7 @@ layout: default
 title_tag: State of Connecticut
 title: Building an improved data collection tool for early childhood care and education
 permalink: /work/experience/ct-ece-reporter/
-feature_image: /img/projects/ct_ece_reporter/ece_reporter.gif
+feature_image: /img/projects/ct_ece_reporter/ece-reporter.gif
 feature_image_description: Shows the design of the ct oec site
 image: /img/projects/ct_ece_reporter/ece-reporter.svg
 image_description: A teacher sitting with a young child at a table and a computer screen in the background showing a green checkmark.
