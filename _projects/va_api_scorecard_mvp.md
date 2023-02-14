@@ -8,7 +8,7 @@ redirect_from:
 image: /img/projects/va_api_scorecard_mvp/api-scorecard.svg
 image_description: People working around a scorecard for APIs.
 feature_image:
-feature_image_description:
+feature_image_description: Walkthrough of the VA API Scorecard prototype.
 feature_image_shadow:
 order: 3000
 display: true
