@@ -43,7 +43,6 @@ tags:
   marcelle goggins]
 excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data system.
 project_members:
-  - bryan-britten
   - peggy-chau
   - kenneth-chow
   - nick-clyde
@@ -57,6 +56,7 @@ project_members:
   - jill-fromewick
   - marcelle-goggins
   - tomi-obikunle
+  - bryan-britten
   - spencer-kathol
   - jesse-skeets
   - graham-smith
