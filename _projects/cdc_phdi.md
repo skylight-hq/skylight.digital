@@ -35,7 +35,6 @@ tags:
   dan paseltiner,
   ann millspaugh,
   tomi obikunle,
-  graham smith,
   jesse skeets,
   amrita bhatti,
   brady fausett,
@@ -59,7 +58,6 @@ project_members:
   - bryan-britten
   - spencer-kathol
   - jesse-skeets
-  - graham-smith
 technologies:
   - Python
   - APIs
