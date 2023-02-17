@@ -3,10 +3,10 @@ layout: default
 title_tag: U.S. Air Force
 title: Redesigning how the Air Force accesses their fitness reports
 permalink: /work/experience/air-force-fitness-management-system/
+feature_image: /img/projects/usaf_affms/air-force-fitness-management-system.gif
+feature_image_description: Walkthrough of the redesigned Air Force Fitness Management System.
 image: /img/projects/usaf_affms/air-force-fitness-management-system.svg
 image_description: An airmen using the AFFMS app on her mobile device.
-feature_image:
-feature_image_description:
 order: 1000
 display: true
 tags: [service delivery, research & design, defense, air force, zack gehin, shashank khandewal, maya benari]

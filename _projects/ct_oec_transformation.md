@@ -5,9 +5,6 @@ title: Helping transform early childhood services
 permalink: /work/experience/ct-oec-digital-transformation/
 image: /img/projects/ct_oec_transformation/early-childhood-services-transformation.svg
 image_description: A digitized button icon with two hands reaching out to each other and another hand pressing the button icon.
-feature_image:
-feature_image_description:
-feature_image_shadow:
 order: 200
 display: true
 tags: [service delivery, procurement, transformation, training, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, open government, security & privacy, coaching & training, early childhood, social safety net, healthcare, economic development, education, marvo dolor, amelia wellers, abby raskin, lara kohl, ashley treni, victoria suwardiman, chris given, julia hogan, gabriel ramirez, cailyn hansen, kyle magida, brandon mader, chris cairns, shashank khandelwal, colin craig, josh dorothy, sean johnson, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy, johanna delpino]
