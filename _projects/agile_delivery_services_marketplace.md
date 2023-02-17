@@ -9,6 +9,7 @@ image: /img/projects/agile_delivery_services_marketplace/agile-delivery-services
 image_description: A person selecting a digitized-looking package for purchase from a store shelf.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 3200
 display: true
 tags: [procurement, chris cairns, robert read]
