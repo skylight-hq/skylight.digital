@@ -9,6 +9,7 @@ image: /img/projects/adopta_agency/api-launcher.svg
 image_description: A person using a catapult to launch a boulder inscribed with the acronym API.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 4500
 display: true
 tags: [service delivery, apis, open government, kin lane]
