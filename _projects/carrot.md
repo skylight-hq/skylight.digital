@@ -10,6 +10,7 @@ image: /img/projects/carrot/carrot.svg
 image_description: Multiple people together reading a page out of a huge newsletter.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 2400
 display: true
 tags: [service delivery, research & design, product management, software delivery, apis, sean johnson]
