@@ -7,6 +7,7 @@ image: /img/projects/ct_oec_website_redesign/oec-website-redesign.svg
 image_description: A caretaker with children sitting around a table and playing with blocks with a computer in the background.
 feature_image: /img/projects/ct_oec_website_redesign/oec-website-redesign.gif
 feature_image_description: Walkthrough of the modernized ECE Reporter system.
+feature_image_shadow: true
 order: 700
 display: true
 tags: [service delivery, research & design, product management, early childhood, social safety net, ashley treni, victoria suwardiman, lara kohl, gabriel ramirez, marvo dolor, amelia wellers]
