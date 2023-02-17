@@ -9,6 +9,7 @@ image: /img/projects/va_api_governance_research/api-governance.svg
 image_description: A forklift operator lifting API-labeled containers.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 3400
 display: true
 tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns]
