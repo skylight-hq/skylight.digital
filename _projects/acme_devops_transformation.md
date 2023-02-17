@@ -7,6 +7,7 @@ image: /img/projects/acme_devops_transformation/devops.svg
 image_description: People looking at a laptop displaying a process.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 1900
 display: true
 tags: [software delivery, devops, transformation, coaching & training, chris cairns, robert read, shashank khandelwal, josh dorothy]
