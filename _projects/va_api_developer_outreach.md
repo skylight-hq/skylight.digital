@@ -9,6 +9,7 @@ image: /img/projects/va_api_developer_outreach/api-developer-outreach.svg
 image_description: Someone using a megaphone to spread the word about APIs.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 3800
 display: true
 tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns]
