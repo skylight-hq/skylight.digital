@@ -7,6 +7,7 @@ image: /img/projects/usaf_logux/logux.svg
 image_description: Three aircraft mechanics looking at a jet.
 feature_image: 
 feature_image_description:
+feature_image_shadow:
 order: 2150
 display: true
 tags: [service delivery, research & design, legacy modernization, defense, air force, zack gehin, charlye tran]
