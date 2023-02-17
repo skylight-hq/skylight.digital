@@ -3100,7 +3100,7 @@
   image_description: Photo of Marcelle Goggins
   position: Senior Data Engineer
   bio: >
-    Marcelle is a data engineer with a background in applied statistics and public policy. Marcelle has previously worked as a data engineer/scientist at civic tech non-profits and academic institutions, focusing on workforce development and education research. She lives in Washington. 
+    Marcelle's a data engineer with a background in applied statistics and public policy. Marcelle has previously worked as a data engineer/scientist at civic tech non-profits and academic institutions, focusing on workforce development and education research. She lives in Washington. 
   active: true
   socials:
     - name: LinkedIn
@@ -3121,10 +3121,27 @@
   image_description: Photo of Kelli Mason
   position: Head of People Operations
   bio: >
-    Kelli’s a people-driven leader with a passion and knack for building inclusive teams. She’s been the first Head of People at two companies and advised dozens of startups on recruiting and retention in her most recent role as a partner at a venture investing firm. She’s a graduate of Rice University and Stanford Law School. Kelli lives in New Jersey.
+    Kelli's a people-driven leader with a passion and knack for building inclusive teams. She's been the first Head of People at two companies and advised dozens of startups on recruiting and retention in her most recent role as a partner at a venture investing firm. She's a graduate of Rice University and Stanford Law School. Kelli lives in New Jersey.
   active: true
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/kellinewmanmason/
       link_description: Kelli's LinkedIn Account
       fa_icon_name: linkedin
+- name: graham-smith
+  fname: Graham
+  lname: Smith
+  full_name: Graham Smith
+  short_name: G. Smith
+  profile_path: /company/about/#graham-smith
+  image: /img/people/graham-smith.png
+  image_description: Illustration of Graham Smith
+  position: Staff Software Engineer
+  bio: >
+    Graham's a software engineer, specializing in technical architecture and full-stack development. He lives in Pennsylvania.
+  active: false
+  socials:
+    - name: Projects
+      link: /work/team-member/graham-smith/
+      link_description: Graham's Project Work
+      fa_icon_name: wrench
