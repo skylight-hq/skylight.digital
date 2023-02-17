@@ -9,6 +9,7 @@ image: /img/projects/18f_consulting/digital-mastery.svg
 image_description: Quartet playing instruments with digital symbols coming off as sound waves.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 4300
 display: true
 tags: [transformation, chris cairns, robert read]
