@@ -9,6 +9,7 @@ image: /img/projects/va_diffusion_marketplace/diffusion-marketplace.svg
 image_description: Doctors, administrators, and veteran patients interacting through digital panes.
 feature_image: /img/projects/va_diffusion_marketplace/diffusion-marketplace.gif
 feature_image_description: Walkthrough of the VA Diffusion Marketplace product.
+feature_image_shadow: true
 order: 800
 display: true
 tags: [service delivery, research & design, software delivery, veterans, healthcare, becca bartola, lesley evans, tom black, aera hoffman, tomi obikunle, elisa lee, nick blake, camille villa]
