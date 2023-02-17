@@ -7,6 +7,7 @@ image: /img/projects/usaf_amp/amp.svg
 image_description: A person filling out a checklist.
 feature_image: 
 feature_image_description:
+feature_image_shadow:
 order: 2100
 display: true
 tags: [service delivery, research & design, software delivery, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
