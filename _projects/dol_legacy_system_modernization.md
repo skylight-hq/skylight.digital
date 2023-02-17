@@ -9,6 +9,7 @@ image: /img/projects/dol_legacy_system_modernization/legacy-system-modernization
 image_description: Someone operating a conveyor belt that's transforming old computers into modern tablets.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 3600
 display: true
 tags: [procurement, legacy modernization, labor, robert read, chris cairns]
