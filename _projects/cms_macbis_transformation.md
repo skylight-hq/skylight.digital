@@ -7,6 +7,7 @@ image: /img/projects/cms_macbis_transformation/macbis.svg
 image_description: A man being pushed in a wheelchair and an older lady with a young boy.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 900
 display: true
 tags: [transformation, data & analytics, coaching & training, healthcare, social safety net chris cairns, brandon mader, mical nobel, brandon kirby, ashley treni]
