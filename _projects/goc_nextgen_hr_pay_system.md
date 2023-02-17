@@ -7,6 +7,7 @@ image: /img/projects/goc_nextgen_hr_pay_system/nextgen-hr-system.svg
 image_description: Next-generation HR system.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 1800
 display: true
 tags: [procurement, chris cairns]
