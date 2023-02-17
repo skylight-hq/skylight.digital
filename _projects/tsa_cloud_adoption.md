@@ -9,6 +9,7 @@ image: /img/projects/tsa_cloud_adoption/cloud-jumpstarter.svg
 image_description: An engineer using jumper cables on a cloud.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 3300
 display: true
 tags: [transformation, devops, cloud & platforms, security & privacy, homeland security, chris cairns, shashank khandelwal]
