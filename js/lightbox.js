@@ -78,10 +78,11 @@ function setGallery(el) {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    var images = document.querySelectorAll('article img');
-    console.log(images)
-
+    var images = document.querySelectorAll("article img");
     images.forEach(element => {
+      if(!element.getAttribute("src").includes(".gif")){
+        return;
+      }
       var a = document.createElement('a');
       a.setAttribute('href', element.getAttribute('src'));
       a.setAttribute('class', 'lightbox-image');
