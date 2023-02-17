@@ -7,6 +7,7 @@ image: /img/projects/usaf_bespin_design_studio/bespin-design-studio.svg
 image_description: The palm of a hand supporting a fighter jet as it takes off into a blue sky.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 350
 display: true
 tags: [service delivery, research & design, defense, air force, karthik patil, kyle planeaux, laura kerry, zack gehin, liz fox, ashton tu, mike brown]
