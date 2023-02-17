@@ -7,9 +7,9 @@ redirect_from:
   - /work/va-api-scorecard-mvp/
 image: /img/projects/va_api_scorecard_mvp/api-scorecard.svg
 image_description: People working around a scorecard for APIs.
-feature_image:
+feature_image: /img/projects/va_api_scorecard_mvp/api-scorecard.gif
 feature_image_description: Walkthrough of the VA API Scorecard prototype.
-feature_image_shadow:
+feature_image_shadow: true
 order: 3000
 display: true
 tags: [microconsulting, apis, open government, victor zapanta, nick bristow, kin lane, robert read, chris cairns]
