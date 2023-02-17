@@ -7,6 +7,7 @@ image: /img/projects/usaf_mask/mask.svg
 image_description: An airman using a technology starter kit.
 feature_image: 
 feature_image_description:
+feature_image_shadow:
 order: 2000
 display: true
 tags: [research & design, software delivery, devops, cloud & platforms, security & privacy, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
