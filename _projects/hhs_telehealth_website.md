@@ -7,8 +7,8 @@ redirect_from:
   - /work/experience/hhs-telehealth/
 image: /img/projects/hhs_telehealth_website/telehealth.svg
 image_description: Phone screen with telehealth session underway.
-feature_image:
-feature_image_description:
+feature_image: /img/projects/hhs_telehealth_website/telehealth.gif
+feature_image_description: Walkthrough of the Telehealth.HHS.gov website.
 feature_image_shadow:
 order: 300
 display: true

@@ -5,8 +5,8 @@ title: Modernizing equipment feedback loops
 permalink: /work/experience/usaf-gearfit/
 image: /img/projects/usaf_gearfit/gearfit.svg
 image_description: Gear technician helping a female pilot put on her helmet.
-feature_image:
-feature_image_description:
+feature_image: /img/projects/usaf_gearfit/gearfit.gif
+feature_image_description: Walkthrough of the GearFit product.
 feature_image_shadow:
 order: 110
 display: true

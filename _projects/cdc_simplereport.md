@@ -5,9 +5,9 @@ title: Modernizing COVID-19 testing and reporting in non-traditional and under-r
 permalink: /work/experience/cdc-simplereport/
 image: /img/projects/cdc_simplereport/cdc-simplereport.svg
 image_description: A swab test being administered and recorded on a tablet.
-feature_image:
-feature_image_description:
-feature_image_shadow:
+feature_image: /img/projects/cdc_simplereport/cdc-simplereport.gif
+feature_image_description: Walkthrough of SimpleReport.
+feature_image_shadow: true
 order: 100
 display: true
 tags:
