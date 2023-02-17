@@ -39,7 +39,6 @@ tags:
   marcelle goggins]
 excerpt: A prototype data ingestion pipeline that increases data processing speed, automates manual processes, and enables public health agencies to better analyze data and share findings to drive timely public health action and decision-making.
 project_members:
-  - bryan-britten
   - peggy-chau
   - kenneth-chow
   - nick-clyde
@@ -51,6 +50,7 @@ project_members:
   - brady-fausett
   - jill-fromewick
   - marcelle-goggins
+  - bryan-britten
   - spencer-kathol
 technologies:
   - Python
