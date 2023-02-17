@@ -9,6 +9,7 @@ image: /img/projects/us_navy_protosketching/protosketching.svg
 image_description: Two people using brushes to draw a wireframe.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 4100
 display: true
 tags: [microconsulting, research & design, product management, defense, navy, robert read, tom black]
