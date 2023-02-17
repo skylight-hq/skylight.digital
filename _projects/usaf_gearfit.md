@@ -7,7 +7,7 @@ image: /img/projects/usaf_gearfit/gearfit.svg
 image_description: Gear technician helping a female pilot put on her helmet.
 feature_image: /img/projects/usaf_gearfit/gearfit.gif
 feature_image_description: Walkthrough of the GearFit product.
-feature_image_shadow:
+feature_image_shadow: true
 order: 110
 display: true
 tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, mical nobel, phoebe espiritu, lesley evans, adam weber, nick clyde, mitchell sipus, maya benari, kari hodges, eric richards, nicole campbell, andrew wagner, kenny nieh, nicole wright, taylor graue, gianna buda, sarah tress, sarah george hager, david mcclatchey, lina roth, nick blake, priscilla peralta]
