@@ -9,7 +9,7 @@ image: /img/projects/hhs_telehealth_website/telehealth.svg
 image_description: Phone screen with telehealth session underway.
 feature_image: /img/projects/hhs_telehealth_website/telehealth.gif
 feature_image_description: Walkthrough of the Telehealth.HHS.gov website.
-feature_image_shadow:
+feature_image_shadow: true
 order: 300
 display: true
 tags: [service delivery, research & design, devops, healthcare, suzanne chapman, abby raskin, victor zapanta, rebecca lubitzmarchena, nick bristow, lara kohl, ashley treni, maya benari, gabriel ramirez, chris cairns]
