@@ -9,6 +9,7 @@ image: /img/projects/va_mobile_product_strategy/va-flagship-mobile-app.svg
 image_description: A veteran using a VA flagship mobile app.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 2600
 display: true
 tags: [microconsulting, apis, veterans, healthcare, sean johnson, chris cairns]
