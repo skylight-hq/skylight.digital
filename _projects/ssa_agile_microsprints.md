@@ -9,6 +9,7 @@ image: /img/projects/ssa_agile_microsprints/agile-board.svg
 image_description: Two people interacting with cards on an agile board.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 4000
 display: true
 tags: [training, microconsulting, coaching & training, social safety net, robert read, chris cairns]
