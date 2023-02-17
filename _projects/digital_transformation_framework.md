@@ -9,6 +9,7 @@ image: /img/projects/digital_transformation_framework/digital-government-transfo
 image_description: Two people using old computers sitting across from someone using a modern computer.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 4200
 display: true
 tags: [transformation, chris cairns, shashank khandelwal]
