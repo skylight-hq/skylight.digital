@@ -9,6 +9,7 @@ image: /img/projects/digital_acquisition_accelerator/digital-acquisition-acceler
 image_description: People engaging in conversation about digital acquisition subjects.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 4400
 display: true
 tags: [procurement, training, coaching & training, chris cairns, shashank khandelwal]
