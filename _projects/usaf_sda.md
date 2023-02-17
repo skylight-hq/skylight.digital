@@ -7,6 +7,7 @@ image: /img/projects/usaf_sda/service-design.svg
 image_description: A few people working on a kanban board on the wall.
 feature_image:
 feature_image_description:
+feature_image_shadow:
 order: 600
 display: true
 tags: [transformation, research & design, coaching & training, air force, charlye tran, laura kerry, olivia lucas, zoe do]
