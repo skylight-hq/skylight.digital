@@ -1,5 +1,5 @@
 ---
-title: BESPIN Design Studio: Elevating the U.S. Air Force’s User Experience
+title: Elevating the U.S. Air Force’s User Experience
 event: Skylight Webinar Series
 type: video
 date: 2023-03-07
