@@ -1984,6 +1984,10 @@
       link: https://karthikpatil.com/
       link_description: Karthik's Personal Website
       fa_icon_name: home
+    - name: Talks
+      link: /thoughts/talks/speaker/karthik-patil/
+      link_description: Karthik's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/karthik-patil/
       link_description: Karthik's Project Work
@@ -2427,6 +2431,10 @@
       link: https://elfoxdesign.com
       link_description: Liz's Personal Website
       fa_icon_name: home
+    - name: Talks
+      link: /thoughts/talks/speaker/liz-fox/
+      link_description: Liz's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/liz-fox/
       link_description: Liz's Project Work
@@ -2581,6 +2589,10 @@
       link: https://www.linkedin.com/in/kyle-planeaux/
       link_description: Kyle's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Talks
+      link: /thoughts/talks/speaker/kyle-planeaux/
+      link_description: Kyle's Talks
+      fa_icon_name: microphone
     - name: Projects
       link: /work/team-member/kyle-planeaux/
       link_description: Kyle's Project Work
