@@ -112,7 +112,7 @@ As one user put it:
 
 By leveraging this improved enrollment data, OEC can now make funding decisions with more precision and identify where outlier issues, like fraud, may exist. This not only helps them be efficient stewards of taxpayer dollars, but also ensures that they’re funding qualified students in qualified programs. This improves the quality of education and outcomes for children in the care of providers. 
 
-To ensure long-term impact of the ECE Reporter, the Skylight team is also enabling OEC to take over operation and maintenance of the system. This process involves:
+To ensure long-term impact of the ECE Reporter, the Skylight team also enabled OEC to take over operation and maintenance of the system. This process involved:
 
 - Updating various scripts so OEC team members can manage different aspects of the project, such as data visualization and system maintenance 
 - Strengthening test coverage 
