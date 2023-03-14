@@ -171,11 +171,18 @@ h3#filter-count {
 }
 
 /* Job Post Page */
+
 div#main div#app_body {
-  padding-left: 0 !important;
-  padding-right: 0;
   background-color: var(--full-page-background-color);
 }
+
+@media (max-width: 640px) {
+  div#main:has(> div#app_body)  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }   
+}
+
 
 div#app_body #header {
   display: flex;
@@ -232,7 +239,6 @@ div#submit_buttons input#submit_app {
 
 div#app_body {
   max-width: none;
-  padding-right: 20px;
 }
 
 div#application hr:nth-last-of-type(1) {
