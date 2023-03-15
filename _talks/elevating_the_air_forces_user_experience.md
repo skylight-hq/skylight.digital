@@ -7,5 +7,5 @@ link: jnyrOFYtzXc
 description: Karthik Patil, Kyle Planeaux, Liz Fox, and Lt. Col. Tyler Hough talk about how the BESPIN Design Studio helps the Air Force deliver better user experiences.
 tags: [karthik patil, kyle planeaux, liz fox]
 order: 18
-featured: false
+featured: true
 ---
