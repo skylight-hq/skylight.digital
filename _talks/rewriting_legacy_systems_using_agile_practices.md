@@ -7,5 +7,5 @@ link: _eGtm66_X9E
 description: Robert Read discusses how to modernize legacy systems using modern agile software development practices.
 tags: [robert read]
 order: 10
-featured: true
+featured: false
 ---
