@@ -21,7 +21,6 @@ project_members:
   - lina-roth
   - david-mcclatchey
   - gianna-buda
-  - sarah-george-hager
   - nicole-campbell
   - kenny-nieh
   - nick-clyde
@@ -33,6 +32,7 @@ project_members:
   - mical-nobel
   - mitchell-sipus
   - lesley-evans
+  - sarah-george-hager
   - kari-hodges
 technologies:
   - HTML / CSS / Sass

@@ -70,7 +70,6 @@ project_members:
   - merethe-hansen
   - charlye-tran
   - laura-kerry
-  - sarah-george-hager
   - nick-blake
   - johanna-delpino
   - tim-niehoff
@@ -83,6 +82,7 @@ project_members:
   - shashank-khandelwal
   - phoebe-espiritu
   - maya-benari
+  - sarah-george-hager
   - adam-weber
 technologies:
   - HTML / CSS
