@@ -68,21 +68,21 @@ project_members:
   - dan-sass
   - jayna-wallace
   - merethe-hansen
-  - charlye-tran
   - laura-kerry
-  - sarah-george-hager
   - nick-blake
   - johanna-delpino
-  - tim-niehoff
-  - jesse-skeets
   - leslie-garner-franklin
   - josh-dorothy
   - nick-bristow
   - chris-cairns
-  - rebecca-lubitzmarchena
-  - shashank-khandelwal
-  - phoebe-espiritu
   - maya-benari
+  - phoebe-espiritu
+  - sarah-george-hager
+  - shashank-khandelwal
+  - rebecca-lubitzmarchena
+  - tim-niehoff
+  - jesse-skeets
+  - charlye-tran
   - adam-weber
 technologies:
   - HTML / CSS
