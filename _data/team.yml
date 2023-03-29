@@ -2379,7 +2379,7 @@
   position: Senior Software Engineer
   bio: >
     George’s an engineer who enjoys building software that makes life easier, more equitable, and delightful. She specializes in full-stack software engineering and test-driven development, and loves developing best practices on engineering teams. George previously worked with the U.S. Air Force's Kessel Run program. She lives in Massachusetts.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/sarah-george-software

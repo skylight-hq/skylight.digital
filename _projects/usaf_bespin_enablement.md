@@ -33,7 +33,6 @@ project_members:
   - nicole-wright
   - peggy-chau
   - priscilla-peralta
-  - sarah-george-hager
   - sarah-tress
   - taylor-graue
   - zack-gehin
@@ -55,6 +54,7 @@ project_members:
   - mitchell-sipus
   - olivia-lucas
   - phoebe-espiritu
+  - sarah-george-hager
   - shashank-khandelwal
   - zoe-do
 technologies:
