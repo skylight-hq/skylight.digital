@@ -1,6 +1,6 @@
 ---
 title:
-heading: Skylight awarded a task order to deliver design transformation support to the USAF's Weather Systems Program Office
+heading: Skylight awarded task order to deliver design transformation support to the USAF's Weather Systems Program Office
 source: Newsworthy
 date: 2022-09-30
 href:
