@@ -1,6 +1,6 @@
 ---
 title:
-heading: Skylight awarded a contract by the CDC to support the delivery of SimpleReport.gov
+heading: Skylight awarded contract by the CDC to support the delivery of SimpleReport.gov
 source: Newsworthy
 date: 2020-11-17
 href:
