@@ -1,6 +1,6 @@
 ---
 title:
-heading: Skylight awarded task order to onboard REMIS to the BESPIN Design Studio platform
+heading: Skylight awarded a task order to onboard REMIS to the BESPIN Design Studio platform
 source: Newsworthy
 date: 2023-01-09
 href:
