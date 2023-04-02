@@ -1,6 +1,6 @@
 ---
 title:
-heading: Skylight awarded a SBIR Sequential Phase II by the USAF to develop the BESPIN Design Studio
+heading: Skylight awarded SBIR Sequential Phase II by the USAF to develop the BESPIN Design Studio
 source: Newsworthy
 date: 2021-02-05
 href:
