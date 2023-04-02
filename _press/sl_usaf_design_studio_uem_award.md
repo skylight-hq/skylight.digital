@@ -1,6 +1,6 @@
 ---
 title:
-heading: Skylight awarded a task order to stand up a User Experience Monitoring platform for the U.S. Air Force
+heading: Skylight awarded task order to stand up a User Experience Monitoring platform for the U.S. Air Force
 source: Newsworthy
 date: 2022-09-30
 href:
