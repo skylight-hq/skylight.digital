@@ -40,7 +40,8 @@ tags:
   amrita bhatti,
   brady fausett,
   jill fromewick,
-  marcelle goggins]
+  marcelle goggins,
+  robert mitchell]
 excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data system.
 project_members:
   - peggy-chau
@@ -53,6 +54,7 @@ project_members:
   - dan-paseltiner
   - amrita-bhatti
   - brady-fausett
+  - robert-mitchell
   - jill-fromewick
   - marcelle-goggins
   - tomi-obikunle
