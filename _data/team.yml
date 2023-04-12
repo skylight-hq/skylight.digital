@@ -3157,3 +3157,36 @@
       link: /work/team-member/graham-smith/
       link_description: Graham's Project Work
       fa_icon_name: wrench
+- name: robert-mitchell
+  fname: Robert
+  lname: Mitchell
+  full_name: Robert Mitchell
+  short_name: R. Mitchell
+  profile_path: /company/about/#robert-mitchell
+  image: /img/people/robert-mitchell.jpg
+  image_description: Photo of Robert Mitchell
+  position: Senior Data Engineer
+  bio: >
+    Robert has spent his career in the nonprofit and government tech space bootstrapping analytics in under-resourced environments to bridge the gap between data and insight. Adhering to a data-for-good ethos, he centers the mission in orienting solutions to problems. Robert lives in California. 
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/RobertMitchellV
+      link_description: Robert’s Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://linkedin.com/in/robertmitchellv
+      link_description: Robert’s LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/robertmitchellv
+      link_description: Robert’s GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://robertmitchellv.com/
+      link_description: Robert’s Personal Website
+      fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/robert-mitchell/
+      link_description: Robert’s Project Work
+      fa_icon_name: wrench
