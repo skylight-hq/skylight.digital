@@ -25,7 +25,7 @@ Skylight team members have created a list of words and phrases that replicate hi
 
 We expect that you will not only remove offensive words and images from your communication patterns, but that you will also review existing documents, code, and other materials and replace any offensive words or images with suggested alternatives. To learn more about why these words and phrases are included, review the resources tab in the spreadsheet or consider doing your own research. The goal of this policy is to raise awareness for why we need to update our language, not to censor or monitor.
 
-This is a living document, so if you learn that a form of communication is offensive, **please add it as a suggestion **to the spreadsheet. If you’d like to add suggested replacements, a rationale, and/or resource link too, please do — but don’t feel obligated. The list is never exhaustive or complete, but is meant to serve as a guide to help all of us be more intentional with our words.
+This is a living document, so if you learn that a form of communication is offensive, **please add it as a suggestion** to the spreadsheet. If you’d like to add suggested replacements, a rationale, and/or resource link too, please do — but don’t feel obligated. The list is never exhaustive or complete, but is meant to serve as a guide to help all of us be more intentional with our words.
 
 
 ### Accept when you’ve made a mistake
@@ -39,7 +39,7 @@ When you make a mistake, we ask that you accept the impact and apologize without
 
 ### Speak up when you notice exclusionary communication
 
-_“In the end, we will remember not the words of our enemies, but the silence of our friends.” — Dr. Martin Luther King Jr. _
+*"In the end, we will remember not the words of our enemies, but the silence of our friends."* — Dr. Martin Luther King Jr.
 
 Skylight supports an inclusive culture, and we strongly encourage you to immediately speak up if you witness or become aware of exclusionary communication. We recognize that this can be uncomfortable for some people. Nonetheless, we ask you to take on that discomfort. 
 
