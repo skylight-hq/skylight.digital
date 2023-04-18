@@ -16,6 +16,10 @@ We expect everyone who works at Skylight, attends Skylight events and meetings, 
 
 With this in mind, we ask everyone to take the following three steps to support this policy and help create an environment of consideration and thoughtfulness in every interaction:
 
+- [Understand and replace offensive words and images](#understand-and-replace-offensive-words-and-images)
+- [Accept when you've made a mistake](#accept-when-youve-made-a-mistake)
+- [Speak up when you notice a violation](#speak-up-when-you-notice-exclusionary-communication)
+
 
 ### Understand and replace offensive words and images 
 
