@@ -53,4 +53,8 @@ When such a situation arises, you can use the buzz word “Ouch.” This word, s
 
 If you’re not comfortable using the buzz word, or have concerns about someone’s conduct, please reach out to the leadership team. This policy is intended to accompany Skylight’s [Code of Conduct Policy](/company/policies/code-of-conduct/).
 
+## Future changes
+
+If we decide to change this policy, we’ll update the modification date below.
+
 *Updated: April 18, 2023*
