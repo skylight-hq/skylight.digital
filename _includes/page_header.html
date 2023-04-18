@@ -1,28 +1,33 @@
 {% if include.header_class %}
-  {% assign header_class = include.header_class %}
+{% assign header_class = include.header_class %}
 {% else %}
-  {% assign header_class = 'page-header-1' %}
+{% assign header_class = 'page-header-1' %}
 {% endif %}
 
 {% if include.header_title_class %}
-  {% assign header_title_class = include.header_title_class %}
+{% assign header_title_class = include.header_title_class %}
 {% else %}
-  {% assign header_title_class = 'page-header-title-1' %}
+{% assign header_title_class = 'page-header-title-1' %}
 {% endif %}
 
 {% if include.header_title %}
-  {% assign header_title = include.header_title %}
+{% assign header_title = include.header_title %}
 {% else %}
-  {% assign header_title = page.title %}
+{% assign header_title = page.title %}
 {% endif %}
 
 {% if page.subtitle %}
-  {% assign header_content = page.subtitle %}
+{% assign header_content = page.subtitle %}
 {% else %}
-  {% assign header_content = include.header_content %}
+{% assign header_content = include.header_content %}
 {% endif %}
 
-<header class="{{header_class}} maxw-md">
+{% if page.layout =='policy' %}
+{% assign header_width = 'maxw-xlg' %}
+{% else %}
+{% assign header_width = 'maxw-md' %}
+{% endif %}
+<header class="{{header_class}} {{header_width}}">
   <div class="">
     <div class="{{header_title_class}}">
       <h1 class="header-display-1">{{header_title}}</h1>
@@ -30,14 +35,15 @@
   </div>
 
   {% if include.header_img_src %}
-    <img class="img-fluid my-3 border w-100 maxw-mobile-lg" src="{{ include.header_img_src }}" alt="{{ include.header_img_desc }}">
+  <img class="img-fluid my-3 border w-100 maxw-mobile-lg" src="{{ include.header_img_src }}"
+    alt="{{ include.header_img_desc }}">
   {% endif %}
 
   {% if include.header_content_class and header_content %}
-    <div class="">
-      <div class="{{include.header_content_class}}">
-        <p>{{header_content}}</p>
-      </div>
+  <div class="">
+    <div class="{{include.header_content_class}}">
+      <p>{{header_content}}</p>
     </div>
+  </div>
   {% endif %}
 </header>
