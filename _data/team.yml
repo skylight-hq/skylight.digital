@@ -1745,7 +1745,7 @@
     Elyse's our amazing administrative assistant. She recently graduated from
     Transylvania University and is seeking a degree in Clinical Mental Health
     Counseling from Hodges University. Elyse lives in Kentucky.
-  active: true
+  active: false
   order: 460
   socials:
     - name: LinkedIn
