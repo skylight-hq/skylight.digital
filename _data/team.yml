@@ -571,7 +571,7 @@
   profile_path: /company/about/#brandon-mader
   image: /img/people/brandon-mader.jpg
   image_description: Photo of Brandon Mader
-  position: Data Scientist
+  position: Senior Data Scientist
   bio: >
     Brandon loves using data for public good. He specializes in data science,
     data engineering, and software engineering. Brandon graduated from Dartmouth
@@ -1275,7 +1275,7 @@
   profile_path: /company/about/#tomi-obikunle
   image: /img/people/tomi-obikunle.jpg
   image_description: Photo of Tomi Obikunle
-  position: User Researcher
+  position: Senior User Researcher
   bio: >
     Tomi’s a researcher who strives to meet and honor people where they are.
     Previously, she studied human development and led hands-on engineering
@@ -2522,7 +2522,7 @@
   profile_path: /company/about/#ryan-gaddis
   image: /img/people/ryan-gaddis.png
   image_description: Illustration of Ryan Gaddis
-  position: Senior Product Designer
+  position: Staff Product Designer
   bio: >
     Ryan's a designer and researcher who's ready to apply his decade of industry expertise to civic tech. He strives to make thoughtful decisions and challenge assumptions. He's also a volunteer firefighter in his community. Ryan lives in Colorado.
   active: true
@@ -2634,7 +2634,7 @@
   profile_path: /company/about/#mike-brown
   image: /img/people/mike-brown.jpg
   image_description: Photo of Mike Brown
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Mike's a software engineer passionate about using technology for the public good. He worked on water affordability as a 2019 Code for America Fellow and has experience in the public and non-profit sectors. Mike graduated from the University at Buffalo with a degree in Computer Science and Political Science. He lives in New York.
   active: true
@@ -2851,7 +2851,7 @@
   profile_path: /company/about/#dan-paseltiner
   image: /img/people/dan-paseltiner.jpg
   image_description: Photo of Dan Paseltiner
-  position: Senior Data Engineer
+  position: Staff Data Engineer
   bio: >
     Dan's a data engineer passionate about helping others through a thoughtful understanding of data. After years working on physics and neuroscience research funded by NIST and the NSF, he's begun helping public health departments better utilize their data. Outside of work, Dan's an avid hiker and sailor. Dan lives in Maine.
   active: true
