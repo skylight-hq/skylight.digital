@@ -2421,7 +2421,7 @@
   position: Staff Product Designer
   bio: >
     Liz's a product designer and user researcher. Most recently, she worked on mobile products and design systems at Salesforce. She's passionate about building technology in service of the people who use it. Liz lives in Wisconsin.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/elfoxart/
