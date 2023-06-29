@@ -1,6 +1,6 @@
 ---
 title: Stakeholder and Customer Interviews
-event: Skylight Service Design Conference
+event: Skylight Webinar Series
 type: video
 date: 2023-01-05
 link: dUhsD2PYHeI
