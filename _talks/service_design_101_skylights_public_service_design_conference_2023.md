@@ -1,5 +1,5 @@
 ---
-title: Elevating the U.S. Air Force’s user experience
+title: Service Design 101
 event: Skylight Webinar Series
 type: video
 date: 2023-06-02
