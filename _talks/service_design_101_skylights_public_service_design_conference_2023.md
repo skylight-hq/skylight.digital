@@ -1,5 +1,5 @@
 ---
-title: Service Design 101 - Skylight's Public Service Design Conference 2023
+title: Service Design 101 
 event: Public Service Design Conference 2023
 type: video
 date: 2023-06-02
