@@ -1,11 +1,11 @@
 ---
-title: Service Design 101 
-event: Public Service Design Conference 2023
+title: Elevating the U.S. Air Force’s user experience
+event: Skylight Webinar Series
 type: video
-date: 2023-06-02
+date: 2023-02-16
 link: FxGEeE3XElU
-description: This opening presentation from our conference sets the stage for all things service design: what it is, what problems it solves, how to know when you need it, and a framework for putting it into practice.
-tags: [robert read]
+description: Karthik Patil, Kyle Planeaux, Liz Fox, and Lt. Col. Tyler Hough talk about how the BESPIN Design Studio helps the Air Force deliver better user experiences.
+tags: [karthik patil, kyle planeaux, liz fox]
 order: 18
-featured: false
+featured: true
 ---
