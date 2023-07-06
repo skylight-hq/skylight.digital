@@ -3050,7 +3050,7 @@
   position: VP of Service Excellence
   bio: >
     Cheryl has 20+ years of experience as a software developer and technology leader in the private and public sectors, including more than ten years in consulting. She regularly speaks at and organizes conferences worldwide. Cheryl lives in Washington.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/bsktcase/
@@ -3134,7 +3134,7 @@
   position: Head of People Operations
   bio: >
     Kelli's a people-driven leader with a passion and knack for building inclusive teams. She's been the first Head of People at two companies and advised dozens of startups on recruiting and retention in her most recent role as a partner at a venture investing firm. She's a graduate of Rice University and Stanford Law School. Kelli lives in New Jersey.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/kellinewmanmason/
