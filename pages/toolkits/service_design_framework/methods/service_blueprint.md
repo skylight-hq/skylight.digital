@@ -43,7 +43,7 @@ Customer actions are the sequence of activities they do in the course of a servi
 
 ### 3. Document employee actions
 
-Map the corresponding actions that employees take, both on the fronstage (what customers see) and the backstage (what happens behind the scenes).
+Map the corresponding actions that employees take, both on the frontstage (what customers see) and the backstage (what happens behind the scenes).
 
 ### 4. Document the support processes
 
