@@ -41,7 +41,7 @@ Before you conduct the interview, revisit the guide so you’re familiar with th
 
 Whether you’re meeting virtually or in person, find a focused environment. When you start the interview, introduce yourself and any co-interviewers or notetakers. Explain why you’re interviewing them, but try not to bias their responses.
 
-### 3. Create a guide
+### 3. Conduct the interview
 
 Adapt to where the participant takes the conversation. They’ll focus on their priorities, which can be telling. To keep from fully going off course, consult the interview guide to make sure you cover what’s important. Ask many “why is that” and “how do you do that” questions.
 
