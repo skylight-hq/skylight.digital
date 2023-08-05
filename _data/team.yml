@@ -216,7 +216,7 @@
     Kin also specializes in software engineering, microservices, data science
     and engineering, cloud computing, and enterprise software.
     He lives in California.
-  active: true
+  active: false
   order: 220
   socials:
     - name: Twitter
