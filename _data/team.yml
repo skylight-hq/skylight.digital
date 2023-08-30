@@ -3190,3 +3190,20 @@
       link: /work/team-member/robert-mitchell/
       link_description: Robert’s Project Work
       fa_icon_name: wrench
+- name: joe-reynolds
+  fname: Joe
+  lname: Reynolds
+  full_name: Joe Reynolds
+  short_name: J. Reynolds
+  profile_path: /company/about/#joe-reynolds
+  image: /img/people/joe-reynolds.jpg
+  image_description: Photo of Joe Reynolds
+  position: Operations Associate
+  bio: >
+    Joe's an operations associate with financial services, IT, mortgage, and fintech industry experience. He loves unlocking value for a business and its customers by striking a balance between profitability and operational excellence. Joe lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/joechoreo/
+      link_description: Joe's LinkedIn Account
+      fa_icon_name: linkedin
