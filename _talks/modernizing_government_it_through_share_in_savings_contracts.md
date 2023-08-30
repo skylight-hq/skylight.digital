@@ -8,4 +8,5 @@ description: Chris Cairns and Robert Read join a panel of experts to discuss how
 tags: [chris cairns, robert read]
 order: 20
 featured: false
+category: non_featured
 ---

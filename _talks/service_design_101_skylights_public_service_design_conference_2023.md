@@ -8,4 +8,5 @@ description: This opening presentation from our conference talks about what serv
 tags: [victor zapanta, liz fox]
 order: 18
 featured: true
+category: featured
 ---
