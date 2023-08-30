@@ -141,6 +141,8 @@ $(function() {
   }
 }); // Pre-populate date select on DITAP application
 
+
+
 $(function() {
   if (location.pathname == "/work/services/training/ditap/apply/") {
     var urlParams = new URLSearchParams(window.location.search);

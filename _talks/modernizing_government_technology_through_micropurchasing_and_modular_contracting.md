@@ -10,4 +10,5 @@ img: podcast-placeholder-02.svg
 img_description: Podcast icon.
 order: 30
 featured: false
+category: non_featured
 ---

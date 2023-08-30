@@ -8,4 +8,5 @@ description: Chris Cairns shares why government IT procurements fail and how to 
 tags: [chris cairns]
 order: 40
 featured: false
+category: non_featured
 ---

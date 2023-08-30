@@ -8,4 +8,5 @@ description: Geoff Mulligan talks about how to navigate the plethora of IT conne
 tags: [geoff mulligan]
 order: 70
 featured: false
+category: non_featured
 ---

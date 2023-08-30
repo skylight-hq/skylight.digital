@@ -8,4 +8,5 @@ description: Jennifer, a senior designer at Skylight, provides an overview of us
 tags: [jennifer herzberg]
 order: 16
 featured: false
+category: non_featured
 ---
