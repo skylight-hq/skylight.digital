@@ -7,7 +7,7 @@
   <meta name="versionNum" content="523">
 
   {% if page.skip_index %}
-  <meta name="robots" content="noindex, follow">
+    <meta name="robots" content="noindex, follow">
   {% endif %}
 
   {% assign site_url = site.url %}
@@ -30,69 +30,69 @@
   {% assign page_url = page.url %}
 
   {% if page.toolkit_name == "brand" %}
-  {% assign title = page.title | append: " | Skylight Brand Guidelines" %}
+    {% assign title = page.title | append: " | Skylight Brand Guidelines" %}
   {% elsif page.content_type == 'Toolkit' %}
-  {% assign title = page.title %}
+    {% assign title = page.title %}
   {% elsif page.title %}
-  {% assign title = site_title | append: ' | ' | append: (page.title | xml_escape) %}
+    {% assign title = site_title | append: ' | ' | append: (page.title | xml_escape) %}
   {% else %}
-  {% assign title = site_title %}
+    {% assign title = site_title %}
   {% endif %}
 
   {% if page.filter_type == "post" %}
-  {% assign blog_name = page.name | replace: "-", " " | capitalize_all %}
-  {% assign description = "The collection of blog posts authored by " | append: blog_name | append: "." %}
+    {% assign blog_name = page.name |  replace: "-", " " | capitalize_all %}
+    {% assign description = "The collection of blog posts authored by " | append: blog_name | append: "." %}
   {% elsif page.filter_type == "talk" %}
-  {% assign talk_name = page.name | replace: "-", " " | capitalize_all %}
-  {% assign description = "The collection of talks delivered by " | append: talk_name | append: "." %}
+    {% assign talk_name = page.name |  replace: "-", " " | capitalize_all %}
+    {% assign description = "The collection of talks delivered by " | append: talk_name | append: "." %}
   {% elsif page.filter_type == "project" %}
-  {% assign pn = page.name | replace: "-", " " | capitalize_all %}
-  {% assign description = "The projects " | append: pn | append: " has worked on." %}
+    {% assign pn = page.name |  replace: "-", " " | capitalize_all %}
+    {% assign description = "The projects " | append: pn | append: " has worked on." %}
 
   {% elsif page.layout == "tag_filter" %}
-  {% assign tf = page.slug | replace: '_', ' ' %}
-  {% assign description = "The collection of blog posts associated with the tag: " | append: tf | append: "." %}
+    {% assign tf = page.slug | replace: '_', ' ' %}
+    {% assign description = "The collection of blog posts associated with the tag: " | append: tf | append: "." %}
   {% elsif page.excerpt and page.layout != 'policy' %}
-  {% assign description = page.excerpt | strip_html | xml_escape %}
+    {% assign description = page.excerpt | strip_html | xml_escape %}
   {% elsif page.description %}
-  {% assign description = page.description | xml_escape %}
+    {% assign description = page.description | xml_escape %}
   {% else %}
-  {% assign description = site_description %}
+    {% assign description = site_description %}
   {% endif %}
 
   {% if page.image and page.image_description %}
-  {% assign image = site_url | append: page.image %}
-  {% assign image_description = page.image_description %}
+    {% assign image = site_url | append: page.image %}
+    {% assign image_description = page.image_description %}
   {% elsif layout.image and layout.image_description %}
-  {% assign image = site_url | append: layout.image %}
-  {% assign image_description = layout.image_description %}
+    {% assign image = site_url | append: layout.image %}
+    {% assign image_description = layout.image_description %}
   {% else %}
-  {% assign image = site_image %}
-  {% assign image_description = site_image_description %}
+    {% assign image = site_image %}
+    {% assign image_description = site_image_description %}
   {% endif %}
 
   {% if image contains ".svg" %}
-  {% assign image_test = image | replace: ".svg", ".png" %}
-  {% for static_file in site.static_files %}
-  {% assign static_path = site_url | append: static_file.path %}
-  {% if image_test == static_path %}
-  {% assign image = image_test %}
-  {% endif %}
-  {% endfor %}
+    {% assign image_test = image | replace: ".svg", ".png" %}
+    {% for static_file in site.static_files %}
+      {% assign static_path = site_url | append: static_file.path %}
+      {% if image_test == static_path  %}
+        {% assign image = image_test %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
 
   {% if page.authors.size > 0 %}
-  {% assign authors = page.authors %}
+    {% assign authors = page.authors %}
   {% else %}
-  {% assign authors = site_name %}
+    {% assign authors = site_name %}
   {% endif %}
 
   {% if page.date_published and page.date %}
-  {% assign date_published = page.date_published %}
-  {% assign date_modified = page.date | date: '%Y-%m-%d' %}
+    {% assign date_published = page.date_published %}
+    {% assign date_modified = page.date | date: '%Y-%m-%d' %}
   {% else %}
-  {% assign date_published = site_published %}
-  {% assign date_modified = site_modified %}
+    {% assign date_published = site_published %}
+    {% assign date_modified = site_modified %}
   {% endif %}
 
   {% assign content_type = page.content_type %}
@@ -103,9 +103,9 @@
   <meta name="image" content="{{image}}">
 
   {% if authors.first %}
-  <meta name="author" content="{{authors | array_to_sentence_string}}">
+    <meta name="author" content="{{authors | array_to_sentence_string}}">
   {% else %}
-  <meta name="author" content="{{authors}}">
+    <meta name="author" content="{{authors}}">
   {% endif %}
 
   <meta name="date" content="{{date_published}}">
@@ -177,11 +177,11 @@
   </script>
 
   {% if content_type == 'BlogPosting' %}
-  {% assign wordcount = page.content | number_of_words %}
-  {% assign body = page.content | xml_escape | strip_newlines %}
-  {% assign contributors = page.contributors %}
+    {% assign wordcount = page.content | number_of_words %}
+    {% assign body = page.content | xml_escape | strip_newlines %}
+    {% assign contributors = page.contributors %}
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
       { "@context": "http://schema.org",
         "@type": "{{content_type}}",
         "mainEntityOfPage": {
@@ -225,7 +225,7 @@
       }
     </script>
   {% else %}
-  <script type="application/ld+json">
+    <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "WebPage",
@@ -248,15 +248,15 @@
 
   <script src="https://kit.fontawesome.com/9942b8e4b9.js" crossorigin="anonymous"></script>
   <!-- hello -->
-  <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N' }}"
-    type="text/css">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" type="text/css">
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;1,400&family=Roboto+Mono:wght@400;500;700&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="/css/lightbox.css">
   {% if page.preload %}
-  <link rel="preload" href="{{site.baseurl}}/img/{{ page.preload }}" as="image">
+    <link rel="preload" href="{{site.baseurl}}/img/{{ page.preload }}" as="image">
   {% endif %}
   <script src="{{site.baseurl}}/js/jquery.slim.min.js"></script>
   <script src="{{site.baseurl}}/js/jquery.scrolldepth.min.js"></script>
@@ -271,11 +271,10 @@
   | push: page.scripts
   | uniq %}
   {% for _list in _scripts %}
-  {% for _script in _list %}
-  {% assign _src = _script.src | default: _script %}
-  <script src="{{ _src | replace: _async_marker, '' | relative_url }}" {% if _script.async or _src contains
-    _async_marker %} async{% endif %}></script>
-  {% endfor %}
+    {% for _script in _list %}
+      {% assign _src = _script.src | default: _script %}
+        <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
+    {% endfor %}
   {% endfor %}
 
   <!--[if lt IE 9]>
