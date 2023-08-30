@@ -8,4 +8,5 @@ description: Karthik Patil, Kyle Planeaux, Liz Fox, and Lt. Col. Tyler Hough tal
 tags: [karthik patil, kyle planeaux, liz fox]
 order: 18
 featured: false
+category: non_featured
 ---

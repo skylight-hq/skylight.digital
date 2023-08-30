@@ -10,4 +10,5 @@ img_description: Podcast icon.
 tags: [chris cairns]
 order: 80
 featured: false
+category: non_featured
 ---

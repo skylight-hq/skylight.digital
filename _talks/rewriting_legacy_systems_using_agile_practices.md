@@ -8,4 +8,5 @@ description: Robert Read discusses how to modernize legacy systems using modern 
 tags: [robert read]
 order: 10
 featured: false
+category: non_featured
 ---
