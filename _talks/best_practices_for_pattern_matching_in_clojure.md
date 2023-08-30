@@ -8,4 +8,5 @@ description: Sean Johnson shares his experience and best practices for simplifyi
 tags: [sean johnson]
 order: 50
 featured: false
+category: non_featured
 ---

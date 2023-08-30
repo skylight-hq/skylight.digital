@@ -8,4 +8,5 @@ description: Kin Lane discusses the current state of the API industry, his role 
 tags: [kin lane]
 order: 60
 featured: false
+category: non_featured
 ---
