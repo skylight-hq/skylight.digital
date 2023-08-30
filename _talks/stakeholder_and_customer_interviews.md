@@ -1,5 +1,5 @@
 ---
-title: Stakeholder and Customer Interviews
+title: Stakeholder and customer interviews
 event: Skylight Webinar Series
 type: video
 date: 2023-01-05
