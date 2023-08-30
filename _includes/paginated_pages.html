@@ -150,7 +150,7 @@ image = 'hero-talks.svg'
       {% for item in paginator.posts %}
       {% unless item.featured == true %}
       <article class="blog-post-col" id="{{ item.title | slugify }}">
-        <div class="blog-post-card card-link" data-href="{% if item.type == " video" %}https://youtube.com/watch?v={%
+        <div class="blog-post-card card-link" data-href="{% if item.type == "video" %}https://youtube.com/watch?v={%
           endif %}{{ item.link }}" data-target="_blank" tabindex="0" aria-label="
               {{ item.title }}
               {{ item.date | date: " %B %-d, %Y" }} {{ item.description }} Event: {{ item.event }} {% if
