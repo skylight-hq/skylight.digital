@@ -38,7 +38,7 @@ You identify the problem first without jumping to solutions. You prioritize outc
 You’re constantly seeking to meet user, business, and technical goals. You break complex problems into small pieces. You facilitate discussions among the team to build a prioritized backlog with user stories that are validated. Team ceremonies are built into your daily, weekly, or monthly iterations. You have general knowledge around technical feasibility.
 
 #### Human-centered design
-You have experience working directly researchers, designers, and engineers. You’ve participated in discovery in order to inform product direction. You find time to attend user interviews and get to know your users through various data points and interactions. You’re constantly identifying and validating assumptions.
+You have experience working directly with researchers, designers, and engineers. You’ve participated in discovery in order to inform product direction. You find time to attend user interviews and get to know your users through various data points and interactions. You’re constantly identifying and validating assumptions.
 
 #### Cross-team collaboration
 You’re comfortable collaborating with researchers, designers, and engineers. You speak knowledgeably about technology and ask informed questions. You eliminate silos to increase collaboration. In general, you’re willing to wear multiple hats to get the job done.
