@@ -3207,3 +3207,32 @@
       link: https://www.linkedin.com/in/joechoreo/
       link_description: Joe's LinkedIn Account
       fa_icon_name: linkedin
+- name: angela-the
+  fname: Angela
+  lname: The
+  full_name: Angela The
+  short_name: A. The
+  profile_path: /company/about/#angela-the
+  image: /img/people/angela-the.jpg
+  image_description: Photo of Angela The
+  position: Software Engineer Apprentice 
+  bio: >
+    Angela's a software engineer who's passionate about building human-centered tools that can improve access to public benefits and services. She pursued a master's degree in computer science and public policy and previously served as a Civic Innovation Corps Fellow for the City of San José. Angela lives in California.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/Angela__The
+      link_description: Angela's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://linkedin.com/in/angelathe
+      link_description: Angela's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/angelathe
+      link_description: Angela's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://linkedin.com/in/angelathe
+      link_description: Angela's Personal Website
+      fa_icon_name: home
