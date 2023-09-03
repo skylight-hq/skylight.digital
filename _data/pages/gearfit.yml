@@ -1,0 +1,71 @@
+section1:
+  - name: health
+    control: Health
+    heading: Long-term health issues
+    body: > 
+      <p>"The Joint Helmet Mounted Cueing System (JHMCS) has done irreparable damage to nearly every F-16 pilot I have flown with in my career. The price of addressing it will quickly be offset by
+                <b>preventing the loss of experienced pilots to neck issues</b>
+                and having to pay years of disability."</p>
+              <p class="quote-author">– F-16 Pilot</p>
+    image: '/img/projects/gearfit/health.png'
+  - name: safety
+    control: Safety
+    heading: Safety risks
+    body: >
+      <p>"Current Aircrew Eye and Respiratory Protection System (AERPS) gear poses a significant safety risk in the event of bailout and ejection via parachute. Even if the equipment is worn correctly, the straps can cover the parachute itself, preventing proper opening,
+                <b>which will almost certainly lead to death.</b>"</p>
+              <p class="quote-author">– AC-130 Aerial Gunner</p>
+    image: '/img/projects/gearfit/safety.png'
+  - name: mission
+    control: Mission effectiveness
+    heading: Decreased mission effectiveness
+    body: >
+      <p>"The standard ear-cups on my helmet are insufficient for me to accomplish my job effectively. They are uncomfortable, don't have a good enough seal on my ears so while performing duties on the tail of the aircraft, <b>I can't hear radio and communications transmissions.</b>"</p>
+              <p class="quote-author">– CV-22 Special Mission Aviator</p>
+    image: '/img/projects/gearfit/mission.png'
+  - name: quality
+    control: Quality of life
+    heading: Lower quality of life
+    body: >
+      <p>"The length and weight of the Eagle Combat Integrated Armor Carrier System (CIACS) vest is not conducive to my stature as a female in the pilot seat. The armor plate sits under my chin when I am seated due to my short torso, making mobility next to impossible.
+                <b>Moving the flight controls or accessing any equipment is incredibly difficult and unsafe.</b>"</p>
+              <p class="quote-author">– C-17 Pilot</p>
+    image: '/img/projects/gearfit/quality.png'
+  - name: money
+    control: Money
+    heading: Budget waste
+    body: >
+      <p>"The PACE ear protection system is very susceptible to damage.
+                <b>In just three months, I broke four of these externally-configured adaptors.</b>
+                I don't know one person who actively uses this product, which is not ideal because perception in the fighter cockpit is everything. The device must be reinforced or be capable of mounting in a different position to prevent such damage."</p>
+              <p class="quote-author">– B-2 Pilot</p>
+    image: '/img/projects/gearfit/money.png'
+section2:
+  - name: health
+    control: Health
+    heading: Surfacing critical female fitment issues
+    body: > 
+      <p>
+        A female pilot shared that she could not wear her parachute harness without significant pain and restriction of movement because the chest straps were cut too short by the manufacturer. A safe, short-term solution for a harness strap extender was crafted by MAJCOM gear reps while longer-term fixes are in progress.
+      </p>
+  - name: safety
+    control: Safety
+    heading: Improving safety and mobility for smaller-stature pilots
+    body: >
+      <p>Many aircrew, especially those with small stature, have submitted feedback in GearFit that their survival vests restrict mobility when flying, introducing significant safety concerns. Innovative pilots have contributed ideas within GearFit to make survival vests lighter, smaller, and more agile for when they're needed most.</p>
+  - name: mission
+    control: Mission effectiveness
+    heading: Reducing bulk of life-preserver unit to increase mobility
+    body: >
+      <p>Aircrew were experiencing restricted motion wearing their life-preserver unit (LPU), which prevented them from “checking their six” (looking behind them) in a dogfight. A gear technician at another base found a solution in packing the LPU to a certain thickness around the neck, a modification that’s being added to the Technical Order (TO) to address the issue for other aircrew.</p>
+  - name: quality
+    control: Quality of life
+    heading: Preventing bald spots for those with afro-textured hair
+    body: >
+      <p>Some aircrew shared experiences with helmets causing bald spots in their afro-textured hair due to a lack of flight-approved hair wraps. These submissions shed light on a problem previously unknown to AF gear officials, who shared that "this is exactly the type of feedback we need."</p>
+  - name: money
+    control: Money
+    heading: Ensuring proper ear protection installation
+    body: >
+      <p>New ear protection devices were breaking down, causing the local flight equipment shops to use their funds to frequently replace these devices. A GearFit submission highlighted the issue, and gear experts investigated and remedied a training gap for the shop.</p>
+  
