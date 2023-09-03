@@ -1,0 +1,51 @@
+---
+layout: default
+title: Our Solutions
+description: Skylight-built solutions for your specific mission needs.
+permalink: /work/solutions/
+preload: hero-solutions.svg
+image_description: Skylight training banner showing various educational-related objects such as a book.
+---
+
+{% include hero_banner.html
+ hero_content = 'Skylight-built solutions for your specific mission needs.'
+ color = "primary"
+ image = "hero-solutions.svg" %}
+
+<section class="mx-auto maxw-md">
+  <div class="grid-container prose">
+    <div>
+      <p class="text">
+        Explore innovative solutions you can leverage to solve your organization's unique challenges. To see all the ways Skylight has approached the toughest digital problems, see
+        <a href="/work/experience/">Our experience</a>.
+      </p>
+    </div>
+    <div class="blog-posts-row mt-5">
+      {% for solution in site.data.solutions %}
+        <article class="blog-post-col col-md-6">
+          <div
+            class="blog-post-card card-link"
+            data-href="{{ solution.url }}"
+            tabindex="-1">
+            <div class="blog-post-block">
+              <h2 class="blog-post-title">
+                {{ solution.name }}
+              </h2>
+              <p class="card-text blog-post-text">
+                {{ solution.description }}
+              </p>
+            </div>
+            <div class="blog-post-footer">
+              <a href="{{ solution.url }}" tabindex="0">
+                <span>View solution</span>
+                <i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include solve_with_us_cta.html %}

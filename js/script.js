@@ -412,3 +412,36 @@ $(function() {
     })
   }
 })
+
+
+//in-page-selection control script
+
+$(function(){
+  function show_hide(elem, parent){
+    var controls = elem.attr("data-controls");
+    parent.find(".controlled-item").each(function(){
+      $(this).hide();
+    })
+    $("[data-id='your-value']")
+    parent.find("[data-id='"+controls+"']").each(function(){
+      $(this).show()
+    })
+  }
+  $(".in-page-selection").each(function(){
+    var parent = $(this);
+    $(this).find(".control-list-item").each(function(){
+      var control_item = $(this);
+      control_item.click(function(){
+        show_hide(control_item, parent)
+      })
+      control_item.keypress(function (e) {
+      var key = e.which;
+      if(key == 13)  // the enter key code
+        {
+          show_hide(control_item, parent)
+          return false;  
+        }
+      });   
+    })
+  })
+})
