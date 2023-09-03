@@ -1,0 +1,77 @@
+.round-purple {
+  font-size: $font-size-medium;
+  font-weight: 100;
+  background-color: $brand-purple-lightest;
+  padding: .5rem;
+  border-radius: 1.5rem;
+}
+
+.callout--gear-fit {
+  background-color: $purple-60;
+  border-color: $purple-70;
+  h3 {
+    background-color: $purple-70;
+    color: $gray-200;
+    display: block;
+    margin: -1.5rem;
+    margin-bottom: 1.5rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+  }
+
+  h4 {
+    font-size: $font-size-small;
+  }
+  li::before{
+    content: "•" !important;
+  }
+}
+
+.in-page-selection{
+  .controlled-heading{
+    color: var(--Gray-300, #1C1D20);
+    font-family: Libre Franklin;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 1.95rem */
+  }
+  li::before{
+    content: "" !important;
+  }
+  li{
+    padding-left: 0 !important;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    color: var(--Gray-200, #37383B);
+    font-family: Libre Franklin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 1.9125rem */
+    svg{
+      margin-left: .5rem;
+      max-width: 100%;
+      max-height: 100%; 
+    }
+    &:hover{
+      color: $blue-200;
+      cursor: pointer;
+      svg{
+        path{
+          fill: $blue-200;
+        }
+      }
+    }
+  }
+}
+
+.quote-author{
+  color: var(--Gray-100, #54565A);
+  font-family: Roboto Mono;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 1.9125rem */
+}

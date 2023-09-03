@@ -78,6 +78,14 @@ fieldset[disabled] a.btn {
     $btn-secondary-border
   );
 }
+
+.btn-purple {
+  @include button-variant(
+    $btn-primary-color,
+    $btn-purple-bg,
+    $btn-primary-border
+  );
+}
 .btn-info {
   @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
 }
