@@ -426,6 +426,10 @@ $(function(){
     parent.find("[data-id='"+controls+"']").each(function(){
       $(this).show()
     })
+    parent.find(".control-list-item").each(function(){
+      $(this).removeClass("current")
+    })
+    elem.addClass("current")
   }
   $(".in-page-selection").each(function(){
     var parent = $(this);

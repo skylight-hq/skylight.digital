@@ -26,18 +26,27 @@
     content: "•" !important;
   }
 }
+.controlled-heading{
+  color: var(--Gray-300, #1C1D20);
+  font-family: Libre Franklin;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 1.95rem */
+}
 
 .in-page-selection{
-  .controlled-heading{
-    color: var(--Gray-300, #1C1D20);
-    font-family: Libre Franklin;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 130%; /* 1.95rem */
-  }
   li::before{
     content: "" !important;
+  }
+  li.current{
+    color: $blue-200;
+      cursor: pointer;
+      svg{
+        path{
+          fill: $blue-200;
+        }
+      }
   }
   li{
     padding-left: 0 !important;
@@ -78,4 +87,21 @@
 
 .mb--4{
   margin-bottom: -4rem;
+}
+
+@media (max-width: 768px) {
+  .in-page-selection {
+    display: none;
+  }
+  img{
+    max-width: 150px;
+  }
+}
+@media (min-width: 769px){
+  .accordion-card {
+    display: none;
+  }
+}
+.accordion-card {
+  background-color: $purple-60;
 }
