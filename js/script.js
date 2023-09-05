@@ -449,3 +449,24 @@ $(function(){
     })
   })
 })
+
+// Connect page prefill
+$(function() {
+  if (pathEndsWith("/connect/contact/")) {
+    var data = {
+      gearfit: {
+        field: "help-input",
+        text: "I would like to schedule a GearFit demo."
+      }
+    };
+    var queryString = window.location.search;
+
+    var params = new URLSearchParams(queryString);
+    for(var key in data){
+      if (params.get("page")==key){
+        var elem = data[key];
+        $("#"+ elem.field).val(elem.text)
+      }
+    }
+  }
+})
