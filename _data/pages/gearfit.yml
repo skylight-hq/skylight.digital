@@ -7,7 +7,7 @@ section1:
                 <b>preventing the loss of experienced pilots to neck issues</b>
                 and having to pay years of disability."</p>
               <p class="quote-author">– F-16 Pilot</p>
-    image: '/img/projects/gearfit/health.png'
+    image: '/img/projects/gearfit/svg/health-issues.svg'
   - name: safety
     control: Safety
     heading: Safety risks
@@ -15,14 +15,14 @@ section1:
       <p>"Current Aircrew Eye and Respiratory Protection System (AERPS) gear poses a significant safety risk in the event of bailout and ejection via parachute. Even if the equipment is worn correctly, the straps can cover the parachute itself, preventing proper opening,
                 <b>which will almost certainly lead to death.</b>"</p>
               <p class="quote-author">– AC-130 Aerial Gunner</p>
-    image: '/img/projects/gearfit/safety.png'
+    image: '/img/projects/gearfit/svg/safety-risks.svg'
   - name: mission
     control: Mission effectiveness
     heading: Decreased mission effectiveness
     body: >
       <p>"The standard ear-cups on my helmet are insufficient for me to accomplish my job effectively. They are uncomfortable, don't have a good enough seal on my ears so while performing duties on the tail of the aircraft, <b>I can't hear radio and communications transmissions.</b>"</p>
               <p class="quote-author">– CV-22 Special Mission Aviator</p>
-    image: '/img/projects/gearfit/mission.png'
+    image: '/img/projects/gearfit/svg/mission-effectiveness.svg'
   - name: quality
     control: Quality of life
     heading: Lower quality of life
@@ -30,7 +30,7 @@ section1:
       <p>"The length and weight of the Eagle Combat Integrated Armor Carrier System (CIACS) vest is not conducive to my stature as a female in the pilot seat. The armor plate sits under my chin when I am seated due to my short torso, making mobility next to impossible.
                 <b>Moving the flight controls or accessing any equipment is incredibly difficult and unsafe.</b>"</p>
               <p class="quote-author">– C-17 Pilot</p>
-    image: '/img/projects/gearfit/life-quality.png'
+    image: '/img/projects/gearfit/svg/quality-of-life.svg'
   - name: money
     control: Money
     heading: Budget waste
@@ -39,7 +39,7 @@ section1:
                 <b>In just three months, I broke four of these externally-configured adaptors.</b>
                 I don't know one person who actively uses this product, which is not ideal because perception in the fighter cockpit is everything. The device must be reinforced or be capable of mounting in a different position to prevent such damage."</p>
               <p class="quote-author">– B-2 Pilot</p>
-    image: '/img/projects/gearfit/money.png'
+    image: '/img/projects/gearfit/svg/budget-waste.svg'
 section2:
   - name: health
     control: Health
