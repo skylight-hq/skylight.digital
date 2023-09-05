@@ -32,7 +32,7 @@ cta: /connect/contact/?page=gearfit
           </p>
           <a class="btn btn-purple font-weight-bold" href="{{ page.cta }}">Request a demo</a>
         </div>
-        <div class="col-md-6 order-1 order-md-2">
+        <div class="col-md-6 order-1 order-md-2 image-div">
           <img src="{{ site.baseurl }}/img/projects/gearfit/svg/landing-page.svg" alt="" />
         </div>
       </div>
@@ -56,10 +56,12 @@ cta: /connect/contact/?page=gearfit
         {% capture a_body %}
           <h4 class="controlled-heading">{{ section.heading }}</h4>
           {% if section.image %}
-            <img
-              src="{{ site.baseurl }}{{section.image}}"
-              style="max-width: 150px;"
-              alt="" />
+            <div class="image-div">
+              <img
+                src="{{ site.baseurl }}{{section.image}}"
+                style="max-width: 150px;"
+                alt="" />
+            </div>
           {% endif %}
           {{ section.body }}
         {% endcapture %}
@@ -79,65 +81,78 @@ cta: /connect/contact/?page=gearfit
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 order-2 order-md-1 mt-4 mt-md-0">
-          <h3>Centralized feedback channel</h2>
-          <p>
-            Collect and keep track of feedback from the field, all in one tool. You can customize forms to collect the desired information — anonymously or not.
-          </p>
+        <div class="col-md-6 order-2 order-md-1 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Centralized feedback channel</h2>
+            <p>
+              Collect and keep track of feedback from the field, all in one tool. You can customize forms to collect the desired information — anonymously or not.
+            </p>
+          </div>
         </div>
-        <div class="col-md-6 order-1 order-md-2">
+        <div class="col-md-6 order-1 order-md-2 image-div">
           <img src="{{ site.baseurl }}/img/projects/gearfit/svg/centralized-feedback.svg" alt="" />
         </div>
       </div>
 
       <div class="row mt-4">
-        <div class="col-md-6 order-2 order-md-2 mt-4 mt-md-0">
-          <h3>Data analytics and AI
-            <span class='round-purple ml-2'>Coming soon!</span>
-          </h3>
-          <p>
-            Surface priority gear problems, identify trends, and make data-driven decisions with analytics tools. Easily manage feedback at scale by leveraging conversational AI, large language models, and natural language processing.
-          </p>
+        <div class="col-md-6 order-2 order-md-2 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Data analytics and AI
+              <span class='round-purple'>Coming soon!</span>
+            </h3>
+            <p>
+              Surface priority gear problems, identify trends, and make data-driven decisions with analytics tools. Easily manage feedback at scale by leveraging conversational AI, large language models, and natural language processing.
+            </p>
+          </div>
         </div>
-        <div class="col-md-6 order-1 order-md-1">
-          <img src="{{ site.baseurl }}/img/projects/gearfit/svg/data-analytics.svg" alt="" />
+        <div class="col-md-6 order-1 order-md-1 image-div">
+          <div>
+            <img src="{{ site.baseurl }}/img/projects/gearfit/svg/data-analytics.svg" alt="" />
+          </div>
         </div>
       </div>
 
       <div class="row mt-4">
-        <div class="col-md-6 order-1 order-md-1 mt-4 mt-md-0">
-          <h3>Workflow management</h3>
-          <p>
-            Access flexible support for your organization’s process and privacy needs with role-based access controls and customizable workflows.
-          </p>
-        </div>
-        <div class="col-md-6 order-2 order-md-2">
+        <div class="col-md-6 order-md-2 image-div">
           <img src="{{ site.baseurl }}/img/projects/gearfit/svg/workflow-mgmt.svg" alt="" />
         </div>
+        <div class="col-md-6 order-md-1 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Workflow management</h3>
+            <p>
+              Access flexible support for your organization’s process and privacy needs with role-based access controls and customizable workflows.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div class="row mt-4">
-        <div class="col-md-6 order-2 order-md-2 mt-4 mt-md-0">
-          <h3>Integrated resource and knowledge hub</h3>
-          <p>
-            Provide gear technicians and operators with access to an integrated content management system for gear information, resources, and training.
-          </p>
+        <div class="col-md-6 order-2 order-md-2 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Integrated resource and knowledge hub</h3>
+            <p>
+              Provide gear technicians and operators with access to an integrated content management system for gear information, resources, and training.
+            </p>
+          </div>
         </div>
-        <div class="col-md-6 order-1 order-md-1">
+        <div class="col-md-6 order-1 order-md-1 image-div">
           <img src="{{ site.baseurl }}/img/projects/gearfit/svg/gear-wiki.svg" alt="" />
         </div>
       </div>
 
       <div class="row mt-4">
-        <div class="col-md-6 order-1 order-md-1 mt-4 mt-md-0">
-          <h3>Flexible, secure platform</h3>
-          <p>
-            Leverage a modern architecture that enables flexible hosting, customization, and integration options to meet your organization's specific needs — such as Cloud One hosting for DoD customers.
-          </p>
+        <div class="col-md-6 order-md-2">
+          <img src="{{ site.baseurl }}/img/projects/gearfit/svg/secure-platform.svg" alt="" />
         </div>
-        <div class="col-md-6 order-2 order-md-2">
-          <img src="{{ site.baseurl }}/img/projects/gearfit/svg/flexible-platform.svg" alt="placeholder" />
+        <div class="col-md-6 order-md-1 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Flexible, secure platform</h3>
+            <p>
+              Leverage a modern architecture that enables flexible hosting, customization, and integration options to meet your organization's specific needs — such as Cloud One hosting for DoD customers.
+            </p>
+          </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -205,7 +220,7 @@ cta: /connect/contact/?page=gearfit
 
       <div class="row text">
         <div class="callout callout--gear-fit">
-          <h3>GearFit's impact</h3>
+          <h3 class="callout-heading">GearFit's impact</h3>
           <p>
             After receiving
             <b>~1,000 feedback submissions</b>, GearFit helped identify
@@ -213,23 +228,25 @@ cta: /connect/contact/?page=gearfit
             — including procurement actions, gear requirement changes, safety updates, and technician training — and collected innovative suggestions for improving gear throughout the acquisition life cycle.
           </p>
           {% include in_page_select.html sections=site.data.pages.gearfit.section2 %}
-          {% for section in site.data.pages.gearfit.section2 %}
-            {% capture a_body %}
-              <h4 class="controlled-heading">{{ section.heading }}</h4>
-              {% if section.image %}
-                <img
-                  src="{{ site.baseurl }}{{section.image}}"
-                  style="max-width: 150px;"
-                  alt="" />
+          {% for section2 in site.data.pages.gearfit.section2 %}
+            {% capture a_body2 %}
+              <h4 class="controlled-heading">{{ section2.heading }}</h4>
+              {% if section2.image %}
+                <div class="image-div">
+                  <img
+                    src="{{ site.baseurl }}{{section2.image}}"
+                    style="max-width: 150px;"
+                    alt="" />
+                </div>
               {% endif %}
-              {{ section.body }}
+              {{ section2.body }}
             {% endcapture %}
-            {% assign section_size = site.data.pages.gearfit.section1 | size %}
+            {% assign section_size = site.data.pages.gearfit.section2 | size %}
             {% assign loop_index = forloop.index | plus: section_size %}
             {% include accordion.html 
-             accordion_index= loop_index
-             accordion_header=section.control
-             accordion_body= a_body %}
+             accordion_index=loop_index
+             accordion_header=section2.control
+             accordion_body= a_body2 %}
           {% endfor %}
         </div>
       </div>
