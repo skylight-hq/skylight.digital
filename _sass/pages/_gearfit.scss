@@ -4,12 +4,14 @@
   background-color: $brand-purple-lightest;
   padding: .5rem;
   border-radius: 1.5rem;
+  margin-left: 1rem;
+  white-space: nowrap;
 }
 
 .callout--gear-fit {
   background-color: $purple-60;
   border-color: $purple-70;
-  h3 {
+  h3.callout-heading {
     background-color: $purple-70;
     color: $gray-200;
     display: block;
@@ -100,20 +102,52 @@
   margin-bottom: -4rem;
 }
 
-@media (max-width: 768px) {
-  .in-page-selection {
-    display: none;
+.gearfit-caption-text{
+  color: var(--Gray-100, #54565A);
+  font-family: Libre Franklin;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3rem; /* 1.3rem */
+}
+
+.page-work-solutions-gear-fit{
+  .page-subfooter{
+    background-color: $purple-100;
   }
-  img{
-    max-width: 80%;
+
+  .accordion-card {
+    background-color: $purple-60;
   }
-  img.mobile-width{
-    max-width: 150px !important;
+
+  .vertical-align{
+    display: flex;
+    align-items: center;
   }
-  .page-work-solutions-gear-fit{
-    .accordion-card [data-toggle="collapse"][aria-expanded="true"]{
-      h3{
-        color: #2F44B1;
+
+  @media (max-width: 768px) {
+    .callout{
+      margin-top: 1rem;
+    }
+    .in-page-selection {
+      display: none;
+    }
+    .image-div{
+      justify-content: center;
+      display: flex;
+    }
+    img{
+      max-width: 80% !important;
+    }
+    img.mobile-width{
+      max-width: 150px !important;
+    }
+    
+    .accordion-header {
+      a[data-toggle="collapse"][aria-expanded="true"]{
+        h3{
+          color: #2F44B1 !important;
+        }
       }
     }
     .accordion-card{
@@ -127,28 +161,11 @@
         font-family: Roboto Mono !important;
       }
     }
+    
   }
-}
-@media (min-width: 769px){
-  .accordion-card {
-    display: none;
-  }
-}
-.accordion-card {
-  background-color: $purple-60;
-}
-
-.gearfit-caption-text{
-  color: var(--Gray-100, #54565A);
-  font-family: Libre Franklin;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.3rem; /* 1.3rem */
-}
-
-.page-work-solutions-gear-fit{
-  .page-subfooter{
-    background-color: $purple-100;
+  @media (min-width: 769px){
+    .accordion-card {
+      display: none;
+    }
   }
 }
