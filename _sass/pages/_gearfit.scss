@@ -36,6 +36,22 @@
 }
 
 .in-page-selection{
+  p {
+    color: var(--Gray-200, #37383B);
+    font-family: Libre Franklin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 1.9125rem */
+  }
+  p.quote-author{
+    color: var(--Gray-100, #54565A);
+    font-family: Roboto Mono;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9125rem; /* 1.9125rem */
+  }
   li::before{
     content: "" !important;
   }
@@ -53,11 +69,11 @@
     justify-content: left;
     align-items: center;
     display: flex;
-    color: var(--Gray-200, #37383B);
-    font-family: Libre Franklin;
+    color: var(--Gray-80, #76767B);
+    font-family: Roboto Mono;
     font-size: 1.125rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 170%; /* 1.9125rem */
     svg{
       margin-left: .5rem;
@@ -74,15 +90,6 @@
       }
     }
   }
-}
-
-.quote-author{
-  color: var(--Gray-100, #54565A);
-  font-family: Roboto Mono;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 170%; /* 1.9125rem */
 }
 
 .mb--4{

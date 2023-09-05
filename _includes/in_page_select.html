@@ -1,6 +1,6 @@
-<div class="in-page-selection">
+<div class="in-page-selection mt-3">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
       <ul>
         {% for section in include.sections %}
           <li
@@ -20,8 +20,8 @@
       </ul>
     </div>
     {% for section in include.sections %}
-      <div class="{% if section.image %}col-md-6{% else %} col-md-9 {%endif%} controlled-item {% unless forloop.first%}hidden{% endunless %}" data-id="{{section.name}}">
-        <h4 class="controlled-heading">{{ section.heading }}{{ forloop.first == false }}</h4>
+      <div class="{% if section.image %}col-md-5{% else %} col-md-8 {%endif%} controlled-item {% unless forloop.first%}hidden{% endunless %}" data-id="{{section.name}}">
+        <h4 class="controlled-heading">{{ section.heading }}</h4>
         {{ section.body }}
       </div>
       {% if section.image %}
