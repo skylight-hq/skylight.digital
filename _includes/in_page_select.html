@@ -4,7 +4,7 @@
       <ul>
         {% for section in include.sections %}
           <li
-            class='control-list-item {% if forloop.first %}current{%endif%}'
+            class='mb-3 control-list-item {% if forloop.first %}current{%endif%}'
             tabindex="0"
             data-controls="{{section.name}}">{{ section.control }}
             <svg

@@ -112,3 +112,18 @@
 .accordion-card {
   background-color: $purple-60;
 }
+
+.gearfit-caption-text{
+  color: var(--Gray-100, #54565A);
+  font-family: Libre Franklin;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3rem; /* 1.3rem */
+}
+
+.page-work-solutions-gear-fit{
+  .page-subfooter{
+    background-color: $purple-100;
+  }
+}
