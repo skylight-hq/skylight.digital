@@ -51,16 +51,18 @@ cta: /connect/contact/?page=gearfit
         </div>
       </div>
 
-      {% include in_page_select.html sections=site.data.pages.gearfit.section1 %}
+      {% include in_page_select.html sections=site.data.pages.gearfit.section1 class_name = "gearfit-controlled" %}
       {% for section in site.data.pages.gearfit.section1 %}
         {% capture a_body %}
-          <h4 class="controlled-heading">{{ section.heading }}</h4>
-          {% if section.image %}
-            <div class="image-div">
-              <img
-                src="{{ site.baseurl }}{{section.image}}"
-                style="max-width: 150px;"
-                alt="" />
+          <div class="gearfit-controlled">
+            <h4 class="controlled-heading">{{ section.heading }}</h4>
+            {% if section.image %}
+              <div class="image-div">
+                <img
+                  src="{{ site.baseurl }}{{section.image}}"
+                  style="max-width: 150px;"
+                  alt="" />
+              </div>
             </div>
           {% endif %}
           {{ section.body }}
@@ -74,7 +76,7 @@ cta: /connect/contact/?page=gearfit
   </div>
 
   <div class="mt-6">
-    <div class="grid-container prose">
+    <div class="grid-container prose gearfit-offers">
       <div class="row">
         <div class="col-md-12 mt-4 mt-md-0 mb-4">
           <h2>What GearFit offers your organization</h2>
@@ -97,7 +99,8 @@ cta: /connect/contact/?page=gearfit
       <div class="row mt-4">
         <div class="col-md-6 order-2 order-md-2 mt-4 mt-md-0 vertical-align">
           <div>
-            <h3>Data analytics and AI
+            <h3>
+              <span style="margin-right: 1rem;">Data analytics and AI</span>
               <span class='round-purple'>Coming soon!</span>
             </h3>
             <p>
@@ -106,9 +109,7 @@ cta: /connect/contact/?page=gearfit
           </div>
         </div>
         <div class="col-md-6 order-1 order-md-1 image-div">
-          <div>
-            <img src="{{ site.baseurl }}/img/projects/gearfit/svg/data-analytics.svg" alt="" />
-          </div>
+          <img src="{{ site.baseurl }}/img/projects/gearfit/svg/data-analytics.svg" alt="" />
         </div>
       </div>
 
@@ -141,7 +142,7 @@ cta: /connect/contact/?page=gearfit
       </div>
 
       <div class="row mt-4">
-        <div class="col-md-6 order-md-2">
+        <div class="col-md-6 order-md-2 image-div">
           <img src="{{ site.baseurl }}/img/projects/gearfit/svg/secure-platform.svg" alt="" />
         </div>
         <div class="col-md-6 order-md-1 mt-4 mt-md-0 vertical-align">

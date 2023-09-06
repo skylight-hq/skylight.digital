@@ -4,7 +4,6 @@
   background-color: $brand-purple-lightest;
   padding: .5rem;
   border-radius: 1.5rem;
-  margin-left: 1rem;
   white-space: nowrap;
 }
 
@@ -96,6 +95,9 @@
       }
     }
   }
+  img{
+    max-width: 200px !important;
+  }
 }
 
 .mb--4{
@@ -135,6 +137,9 @@
     .image-div{
       justify-content: center;
       display: flex;
+      img{
+        max-width: 60% !important;
+      }
     }
     img{
       max-width: 80% !important;
@@ -154,9 +159,10 @@
       img{
         margin-bottom: 1em;
       }
+      padding: 1.25em 1em;
     }
     .accordion-header{
-      margin: .5em 0em !important;
+      margin: 0em;
       h3{
         font-family: Roboto Mono !important;
       }
@@ -167,5 +173,28 @@
     .accordion-card {
       display: none;
     }
+    .gearfit-offers{
+      p {
+        padding: 0;
+        margin: 0;
+      }
+      .mt-4{
+        margin-top: 2rem !important;
+      }
+    }
+  }
+  @media (min-width: 1200px) {
+    .services-content {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.gearfit-offers{
+  p {
+    padding: 0;
+    margin: 0;
   }
 }
