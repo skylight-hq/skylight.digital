@@ -189,6 +189,11 @@
       }
     }
   }
+  @media (max-width: 575px){
+    .services-content h3 {
+        margin-top: 0;
+    }
+  }
 }
 
 .gearfit-offers{
