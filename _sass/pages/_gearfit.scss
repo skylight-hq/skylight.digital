@@ -166,6 +166,9 @@
         font-family: Roboto Mono !important;
       }
     }
+    .callout--gearfit {
+      margin-top: 2rem;
+    }
     
   }
   @media (min-width: 769px){
@@ -192,6 +195,9 @@
   @media (max-width: 575px){
     .services-content h3 {
         margin-top: 0;
+    }
+    .callout--gearfit{
+      padding-top: 0;
     }
   }
   @media (min-width: 576px) {
