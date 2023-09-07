@@ -12,7 +12,7 @@ feature_image_description: Walkthrough of the VA Diffusion Marketplace product.
 feature_image_shadow: true
 order: 800
 display: true
-tags: [service delivery, research & design, software delivery, veterans, healthcare, becca bartola, lesley evans, tom black, aera hoffman, tomi obikunle, elisa lee, nick blake, camille villa]
+tags: [service delivery, research & design, software delivery, veterans, healthcare, becca bartola, lesley evans, tom black, aera hoffman, tomi obikunle, elisa lee, nick blake, camille villa, emmanuel nwakire]
 excerpt: A knowledge management platform for improving how the Veterans Affairs delivers healthcare to veterans through the dissemination of promising clinical and administrative innovations.
 project_members:
   - camille-villa
