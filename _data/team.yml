@@ -3236,3 +3236,26 @@
       link: https://www.angelathe.com/
       link_description: Angela's Personal Website
       fa_icon_name: home
+- name: emmanuel-nwakire
+  fname: Emmanuel
+  lname: Nwakire
+  full_name: Emmanuel Nwakire
+  short_name: E. Nwakire
+  profile_path: /company/about/#emmanuel-nwakire
+  image: /img/people/emmanuel-nwakire.jpg
+  image_description: Photo of Emmanuel Nwakire
+  position: DevOps Engineer 
+  bio: >
+    Emmanuel's a DevOps engineer with years of experience in the travel-tech, fintech, and lifestyle industries. 
+    He's also a certified Scrum Master, where he excels at understanding and addressing the needs of stakeholders and clients alike. 
+    Emmanuel lives in Maryland. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/c-e-nuel/
+      link_description: Emmanuel's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/nuel247
+      link_description: Emmanuel's GitHub Account
+      fa_icon_name: github
