@@ -7,7 +7,7 @@
   white-space: nowrap;
 }
 
-.callout--gear-fit {
+.callout--gearfit {
   background-color: $purple-60;
   border-color: $purple-70;
   h3.callout-heading {
@@ -192,6 +192,11 @@
   @media (max-width: 575px){
     .services-content h3 {
         margin-top: 0;
+    }
+  }
+  @media (min-width: 576px) {
+    .hero-heading {
+      font-size: 2.5rem;
     }
   }
 }
