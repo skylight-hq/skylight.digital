@@ -23,6 +23,7 @@ project_members:
   - lesley-evans
   - tom-black
   - aera-hoffman
+  - emmanuel-nwakire
 technologies:
   - Ruby / Rails
   - U.S. Web Design System
