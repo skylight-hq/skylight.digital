@@ -105,10 +105,10 @@ To date, the Design Studio has:
 Since launching in 2021, the Design Studio’s inter-agency model has found product-market fit and delivered on several high-profile wins for the Air Force. By creating a center for design excellence, we have created a rising tide that lifts all ships, driving digital transformation and improving the quality of design within the USAF as a whole.
 {% endcapture %}
 
-{% capture results %}
-- Reduces mobile application production time from 2–3 years to two months thanks to pre-approved design components, application infrastructure, and modern ways of working
-- Leverages reusable design templates to cut product development costs by up to 80%
-- Built eight software products and advised on several high-profile Air Force initiatives over the course of 2.5 years to drive digital transformation within the Air Force
+{% capture results %} 
+- Reduces application time-to-production from years to months through a robust design infrastructure and modern ways of working
+- Cuts product development costs by up to 80% in some cases through pre-built, pre-approved design components and templates 
+- Built eight software products, and advised several high-profile initiatives, over the course of 2.5 years to help drive broader digital transformation throughout the Air Force
 {% endcapture %}
 
 {% include project.html
