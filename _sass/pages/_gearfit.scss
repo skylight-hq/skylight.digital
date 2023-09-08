@@ -30,7 +30,7 @@
 .controlled-heading{
   color: var(--Gray-300, #1C1D20);
   font-family: Libre Franklin;
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 1.95rem */
@@ -126,7 +126,24 @@
     display: flex;
     align-items: center;
   }
+  .next-to-purple{
+    margin-right: 1rem;
+  }
 
+  //Mobile hero banner
+  @media (max-width: 767px){ 
+    .hero-banner {
+        background-image: url("/img/hero-mobile-gearfit.svg") !important;
+    }
+  }
+  @media (max-width: 424px) {
+    .purple-fix-mobile{
+      margin-top: .5rem !important;
+    }
+    .next-to-purple{
+      line-height: 3rem;
+    }
+  }
   @media (max-width: 768px) {
     .callout{
       margin-top: 1rem;
@@ -154,6 +171,9 @@
           color: #2F44B1 !important;
         }
       }
+    }
+    .accordion-card [data-toggle="collapse"]:hover h3 {
+        font-weight: normal;
     }
     .accordion-card{
       img{
