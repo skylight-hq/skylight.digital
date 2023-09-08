@@ -3259,3 +3259,7 @@
       link: https://github.com/nuel247
       link_description: Emmanuel's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/emmanuel-nwakire/
+      link_description: Emmanuel’s Project Work
+      fa_icon_name: wrench
