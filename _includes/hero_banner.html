@@ -1,28 +1,25 @@
 <div class="
   {% if include.color %}
     bg-{{ include.color }}
-  {% endif %} hero-banner"
-  {% if include.image %}
-    style="
-      background-image: url(/img/{{ include.image }});"
-  {% endif %}
->
+  {% endif %} hero-banner {{include.additional_class}}" {% if include.image %} style="
+      background-image: url(/img/{{ include.image }});" {% endif %}>
   <header class="hero hero-banner mb-5 {% if include.class %}{{ include.class }}{% endif %}">
     <div class="hero-container container-fluid text-center">
-      <{% if page.layout == "toolkit" %}p{% else %}h1{% endif %} class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %}">
+      <{% if page.layout=="toolkit" %}p{% else %}h1{% endif %}
+        class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %}">
         {% if include.hero_title %}
-          {{ include.hero_title }}
+        {{ include.hero_title }}
         {% elsif page.layout == "toolkit" %}
-          {{ site.data.toolkits[page.sidenav].title }}
+        {{ site.data.toolkits[page.sidenav].title }}
         {% else %}
-          {{ page.title }}
+        {{ page.title }}
         {% endif %}
-      </{% if page.layout == "toolkit" %}p{% else %}h1{% endif %}>
+      </{% if page.layout=="toolkit" %}p{% else %}h1{% endif %}>
       <div class="hero-content {% if include.text == 'dark' %}text-ink{% endif %}">
         {% if page.layout == "toolkit" %}
-          {{ site.data.toolkits[page.sidenav].description }}
+        {{ site.data.toolkits[page.sidenav].description }}
         {% else %}
-          {{ include.hero_content | markdownify }}
+        {{ include.hero_content | markdownify }}
         {% endif %}
       </div>
     </div>

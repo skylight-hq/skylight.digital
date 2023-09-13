@@ -50,6 +50,11 @@ $gray-100: #54565a;
 $gray-200: #37383b;
 $gray-300: #1c1d20;
 
+$purple-60: #E3E8FD;
+$purple-70: #C6CDF0;
+$purple-80: #A4AEED;
+$purple-100: #5C6BC4;
+
 $sk-red: darken($red-100, 0%);
 $sk-blue-light: darken($blue-100, 0%);
 $sk-blue: darken($blue-200, 0%);
@@ -103,6 +108,9 @@ $brand-primary-lightest: $blue-40;
 $brand-primary-light: $sk-blue-light;
 $brand-primary: $sk-blue;
 $brand-primary-dark: $sk-blue-dark;
+$brand-purple-lightest: $purple-60;
+$brand-pruple-lighter: $purple-80;
+$brand-purple: $purple-100;
 $brand-success: $sk-green;
 $brand-info: $sk-blue-light;
 $brand-warning: $sk-yellow;
@@ -176,6 +184,8 @@ $btn-primary-border: $brand-primary;
 $btn-secondary-color: $brand-primary;
 $btn-secondary-bg: $white;
 $btn-secondary-border: $brand-primary;
+
+$btn-purple-bg: $purple-100;
 
 // Jumbotron
 $jumbotron-bg: $brand-primary;

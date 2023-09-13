@@ -412,3 +412,61 @@ $(function() {
     })
   }
 })
+
+
+//in-page-selection control script
+
+$(function(){
+  function show_hide(elem, parent){
+    var controls = elem.attr("data-controls");
+    parent.find(".controlled-item").each(function(){
+      $(this).hide();
+    })
+    $("[data-id='your-value']")
+    parent.find("[data-id='"+controls+"']").each(function(){
+      $(this).show()
+    })
+    parent.find(".control-list-item").each(function(){
+      $(this).removeClass("current")
+    })
+    elem.addClass("current")
+  }
+  $(".in-page-selection").each(function(){
+    var parent = $(this);
+    $(this).find(".control-list-item").each(function(){
+      var control_item = $(this);
+      control_item.click(function(){
+        show_hide(control_item, parent)
+      })
+      control_item.keypress(function (e) {
+      var key = e.which;
+      if(key == 13)  // the enter key code
+        {
+          show_hide(control_item, parent)
+          return false;  
+        }
+      });   
+    })
+  })
+})
+
+// Connect page prefill
+$(function() {
+  if (pathEndsWith("/connect/contact/")) {
+    var data = {
+      gearfit: {
+        field: "help-input",
+        text: "I would like to schedule a GearFit demo."
+      }
+    };
+    var queryString = window.location.search;
+
+    var params = new URLSearchParams(queryString);
+    for(var key in data){
+      if (params.get("page")==key){
+        var elem = data[key];
+        $("#"+ elem.field).val(elem.text)
+      }
+    }
+  }
+})

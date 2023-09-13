@@ -1,47 +1,28 @@
 <header class="header" role="banner">
-  <nav
-    class="
+  <nav class="
     navbar
-    {% if page.toolkit_name == "brand" %}
-      navbar-toggleable-lg
+    {% if page.toolkit_name == " brand" %} navbar-toggleable-lg {% else %} navbar-toggleable-sm {% endif %} ">
+    <div class=" navbar-flex-container">
+    {% if page.title == "Home" %}
+    <h1><a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a></h1>
     {% else %}
-      navbar-toggleable-sm
+    <a class="navbar-logo" href="{{site.baseurl}}/{% if page.toolkit_name == " brand" %}brand/{% endif %}">Skylight</a>
     {% endif %}
-  ">
-    <div class="navbar-flex-container">
-      {% if page.title == "Home" %}
-        <h1><a class="navbar-logo" href="{{site.baseurl}}/">Skylight</a></h1>
-      {% else %}
-        <a class="navbar-logo" href="{{site.baseurl}}/{% if page.toolkit_name == "brand" %}brand/{% endif %}">Skylight</a>
-      {% endif %}
-      <div
-        class="navbar-toggler"
-        role="button"
-        data-toggle="collapse"
-        data-target="#navbar-nav-collapsible"
-        aria-controls="navbar-nav-collapsible"
-        aria-expanded="false"
-      >
-        <div class="burger"><span></span></div>
-        <span class="sr-only">Toggle Navigation</span>
-      </div>
+    <div class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbar-nav-collapsible"
+      aria-controls="navbar-nav-collapsible" aria-expanded="false">
+      <div class="burger"><span></span></div>
+      <span class="sr-only">Toggle Navigation</span>
+    </div>
     </div>
 
     <div id="navbar-nav-collapsible" class="collapse navbar-collapse">
       <ul class="navbar-nav">
         {% if page.toolkit_name == "brand" %}
-          {% include header_brand.html %}
+        {% include header_brand.html %}
         {% else %}
         <li class="nav-item nav-item--company dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdownCompany"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCompany" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             <span>Company</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -53,33 +34,20 @@
           </div>
         </li>
         <li class="nav-item nav-item--work dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdownWork"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWork" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             <span>Work</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{site.baseurl}}/work/services/">Our services</a>
             <a class="dropdown-item" href="{{site.baseurl}}/work/experience/">Our experience</a>
+            <a class="dropdown-item" href="{{site.baseurl}}/work/solutions/">Our solutions</a>
             <a class="dropdown-item" href="{{site.baseurl}}/work/toolkits/">Toolkits</a>
           </div>
         </li>
         <li class="nav-item nav-item--careers dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdownCareers"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             <span>Careers</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -88,15 +56,8 @@
           </div>
         </li>
         <li class="nav-item nav-item--thoughts dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdownThoughts"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThoughts" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             <span>Thoughts</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -105,22 +66,13 @@
           </div>
         </li>
         <li class="nav-item nav-item--connect dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdownConnect"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConnect" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             <span>Connect</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{site.baseurl}}/connect/contact/">Contact us</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/connect/contracting/"
-              >Contracting</a
-            >
+            <a class="dropdown-item" href="{{site.baseurl}}/connect/contracting/">Contracting</a>
           </div>
         </li>
         {% endif %}

@@ -8,6 +8,8 @@
 
 @include bg-variant('.bg-primary', $brand-primary);
 
+@include bg-variant('.bg-purple', $brand-purple);
+
 @include bg-variant('.bg-success', $brand-success);
 
 @include bg-variant('.bg-info', $brand-info);
@@ -17,3 +19,4 @@
 @include bg-variant('.bg-danger', $brand-danger);
 
 @include bg-variant('.bg-inverse', $brand-inverse);
+
