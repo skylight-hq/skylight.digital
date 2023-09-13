@@ -1,0 +1,268 @@
+---
+layout: default
+title: GearFit
+permalink: /work/solutions/gearfit/
+excerpt: Learn how GearFit can help you create a feedback loop between gear users and acquirers that enables you to make data-driven decisions about gear problems and priorities like never before.
+image_description: Banner of Skylight's GearFit.
+class: gearfit
+preload: hero-gearfit.svg
+class_1_spots:
+class_2_spots:
+cta: /connect/contact/?page=gearfit
+---
+
+{% include hero_banner.html
+ hero_content = "Shape the future of gear with feedback."
+ color = "purple"
+ image = "hero-gearfit.svg"
+ additional_class = "hero-banner-btm" %}
+
+<div class="services-content left-justified-list">
+  <div class="">
+    <div class="grid-container prose">
+      <div class="row pt-3">
+        <div class="col-md-6 order-2 order-md-1 mt-4 mt-md-0">
+          <h2 id='service-delivery'>What is GearFit?</h2>
+          <p>
+            GearFit creates a feedback loop between gear users and acquirers, enabling data-driven decisions about gear problems and priorities like never before.
+          </p>
+          <p>
+            With GearFit, you can truly empower your frontline personnel — from fighter pilots to firefighters — to perform their best in service to your organization's critical mission.
+          </p>
+          <a class="btn btn-purple font-weight-bold" href="{{ page.cta }}">Request a demo</a>
+        </div>
+        <div class="col-md-6 order-1 order-md-2 image-div">
+          <img src="{{ site.baseurl }}/img/projects/gearfit/svg/landing-page.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-purple-lightest py-6">
+    <div class="grid-container prose">
+      <div class="row">
+        <div class="col-md-12 order-2 order-md-1 mt-4 mt-md-0 maxw-md">
+          <h2 id="procurement" class="mb-4">Tackle your toughest gear challenges</h2>
+          <p>
+            Without the ability to collect, manage, and respond to feedback from the field well, your organization runs the risk of supplying gear that's ill-fitting, ineffective, and misused.
+          </p>
+          <p>GearFit allows you to avoid negative impacts to these critical areas:</p>
+        </div>
+      </div>
+
+      {% include in_page_select.html sections=site.data.pages.gearfit.section1 class_name = "gearfit-controlled" %}
+      {% for section in site.data.pages.gearfit.section1 %}
+        {% capture a_body %}
+          <div class="gearfit-controlled">
+            <h4 class="controlled-heading">{{ section.heading }}</h4>
+            {% if section.image %}
+              <div class="image-div">
+                <img
+                  src="{{ site.baseurl }}{{section.image}}"
+                  style="max-width: 150px;"
+                  alt="" />
+              </div>
+            </div>
+          {% endif %}
+          {{ section.body }}
+        {% endcapture %}
+        {% include accordion.html 
+         accordion_index=forloop.index
+         accordion_header=section.control
+         accordion_body= a_body %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="mt-6">
+    <div class="grid-container prose gearfit-offers">
+      <div class="row">
+        <div class="col-md-12 mt-4 mt-md-0 mb-4">
+          <h2>What GearFit offers your organization</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 order-2 order-md-1 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Centralized feedback channel</h2>
+            <p>
+              Collect and keep track of feedback from the field, all in one tool. You can customize forms to collect the desired information — anonymously or not.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 order-1 order-md-2 image-div">
+          <div class="m0 p0" style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
+            <img src="{{ site.baseurl }}/img/projects/gearfit/svg/centralized-feedback.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-6 order-2 order-md-2 mt-4 mt-md-0 vertical-align purple-fix-mobile">
+          <div>
+            <h3>
+              <span class="next-to-purple">Data analytics and AI</span>
+              <span class='round-purple'>Coming soon!</span>
+            </h3>
+            <p>
+              Surface priority gear problems, identify trends, and make data-driven decisions with analytics tools. Easily manage feedback at scale by leveraging conversational AI, large language models, and natural language processing.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 order-1 order-md-1 image-div">
+          <div class="m0 p0" style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
+            <img src="{{ site.baseurl }}/img/projects/gearfit/svg/data-analytics.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-6 order-md-2 image-div">
+          <div class="m0 p0" style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
+            <img src="{{ site.baseurl }}/img/projects/gearfit/svg/workflow-mgmt.svg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Workflow management</h3>
+            <p>
+              Access flexible support for your organization’s process and privacy needs with role-based access controls and customizable workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-6 order-2 order-md-2 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Integrated resource and knowledge hub</h3>
+            <p>
+              Provide gear technicians and operators with access to an integrated content management system for gear information, resources, and training.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 order-1 order-md-1 image-div">
+          <div class="m0 p0" style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
+            <img src="{{ site.baseurl }}/img/projects/gearfit/svg/gear-wiki.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-6 order-md-2 image-div">
+          <div class="m0 p0" style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;">
+            <img src="{{ site.baseurl }}/img/projects/gearfit/svg/secure-platform.svg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1 mt-4 mt-md-0 vertical-align">
+          <div>
+            <h3>Flexible, secure platform</h3>
+            <p>
+              Leverage a modern architecture that enables flexible hosting, customization, and integration options to meet your organization's specific needs — such as Cloud One hosting for DoD customers.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-purple-lightest py-6 mb--4">
+    <div class="grid-container prose">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="customer_spotlight">Customer spotlight</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 order-2 order-md-1 mt-4 mt-md-0">
+          <h3 id="human_systems_divisions">U.S. Air Force - Human Systems Division</h3>
+          <p class="gearfit-caption-text">
+            Agile Combat Support (ACS) Directorate, Air Force Life Cycle Management Center (AFLCMC)
+          </p>
+          <p>
+            The USAF Human Systems Division (HSD) mission is to acquire and support human systems to enhance warfighter performance, protection, and survivability. The GearFit program arose after a female fitment event in 2019, where women expressed a desire to provide feedback about their gear.
+          </p>
+        </div>
+        <div class="col-md-3 order-1 order-md-2">
+          <div class="m0 p0" style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: left;">
+            <img
+              class="mobile-width"
+              src="{{ site.baseurl }}/img/projects/gearfit/aflmc-logo.png"
+              alt="Air force life cycle management center seal" />
+          </div>
+        </div>
+      </div>
+      <div class="row text" style="display: flex; justify-content: center;">
+        <div class="callout callout--gearfit maxw-md">
+          <h3 class="callout-heading">Challenges</h3>
+          <ul>
+            <li>
+              <b>Limited support for female aviators.</b>
+              Much of today's gear was designed using data from the 1960s, when only men were in aviator roles. As a result, female pilots have faced unique issues with their gear. For HSD, providing better fitting gear to women was a top priority that went all the way up to Congress.</li>
+            <li>
+              <b>Limited pathways for feedback.</b>
+              Without a formal system for collecting and analyzing feedback from the field, feedback was disjointed and valuable insights were often missed. Also, the Air Force’s historical culture of “grin and bear it” suppressed the free flow of gear feedback.</li>
+            <li>
+              <b>Aviators are busy.</b>
+              Aircrew are constantly moving and focused on the mission, leaving little time for computer work. Even in uncomfortable or imperfect gear, they find ways to carry on. This makes it difficult to recall feedback on the spot.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row text" style="display: flex; justify-content: center;">
+        <div class="callout callout--gearfit maxw-md">
+          <h3 class="callout-heading">Solutions</h3>
+          <ul>
+            <li>
+              <b>Targeting female aircrew.</b>
+              After initially launching to 100+ female fighter pilots, GearFit opened to 3,500+ aircrew across 10 MAJCOMs to address the limited gear support for female aviators. Many female GearFit users have expressed gratitude to the Air Force for listening to their concerns and providing an avenue to submit feedback.
+            </li>
+            <li>
+              <b>New feedback pathways.</b>
+              After gear data and feedback is collected, we built a subject matter expert (SME) feedback-response workflow with an anonymous mode for submissions. The GearFit team also produced 75 pages of content on common gear solutions and information in order to arm aircrew and gear technicians with comprehensive knowledge.
+            </li>
+            <li>
+              <b>Clear and simple submit flow.</b>
+              GearFit's design is simple, accessible, and straight to the point. When aircrew have feedback, they select the gear they use and describe the problem in just a few clicks. GearFit can sort and display gear based on the impact it has on aircrew, making it easy for leaders to understand at a glance which gear needs attention the most.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row text" style="display: flex; justify-content: center;">
+        <div class="callout callout--gearfit maxw-md">
+          <h3 class="callout-heading">GearFit's impact</h3>
+          <p>
+            After receiving
+            <b>~1,000 feedback submissions</b>, GearFit helped identify
+            <b>50+ gear improvement opportunities</b>
+            — including procurement actions, gear requirement changes, safety updates, and technician training — and collected innovative suggestions for improving gear throughout the acquisition life cycle.
+          </p>
+          {% include in_page_select.html sections=site.data.pages.gearfit.section2 %}
+          {% for section2 in site.data.pages.gearfit.section2 %}
+            {% capture a_body2 %}
+              <h4 class="controlled-heading">{{ section2.heading }}</h4>
+              {% if section2.image %}
+                <div class="image-div">
+                  <img
+                    src="{{ site.baseurl }}{{section2.image}}"
+                    style="max-width: 150px;"
+                    alt="" />
+                </div>
+              {% endif %}
+              {{ section2.body }}
+            {% endcapture %}
+            {% assign section_size = site.data.pages.gearfit.section2 | size %}
+            {% assign loop_index = forloop.index | plus: section_size %}
+            {% include accordion.html 
+             accordion_index=loop_index
+             accordion_header=section2.control
+             accordion_body= a_body2 %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include gearfit_cta.html %}

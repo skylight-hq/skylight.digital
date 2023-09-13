@@ -1,0 +1,36 @@
+<div class="in-page-selection">
+  <div class="row">
+    <div class="{% if include.sections[0].image %}col-md-4{% else %} col-md-5 {%endif%}">
+      <ul>
+        {% for section in include.sections %}
+          <li
+            class='mb-3 control-list-item {% if forloop.first %}current{%endif%}'
+            tabindex="0"
+            data-controls="{{section.name}}">{{ section.control }}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="17"
+              viewBox="0 0 10 17"
+              fill="none">
+              <path d="M8.92105 9.03031L2.8478 15.1035C2.5549 15.3964 2.08002 15.3964 1.78715 15.1035L1.0788 14.3952C0.786397 14.1028 0.785835 13.6289 1.07755 13.3358L5.89071 8.49997L1.07755 3.66419C0.785835 3.37109 0.786397 2.89719 1.0788 2.60478L1.78715 1.89644C2.08005 1.60353 2.55493 1.60353 2.8478 1.89644L8.92102 7.96966C9.21393 8.26253 9.21393 8.73741 8.92105 9.03031Z" fill="#76767B" />
+            </svg>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% for section in include.sections %}
+      <div class="{% if section.image %}col-md-5{% else %} col-md-7 {%endif%} controlled-item {% unless forloop.first%}hidden{% endunless %}" data-id="{{section.name}}">
+        <h4 class="controlled-heading">{{ section.heading }}</h4>
+        {{ section.body }}
+      </div>
+      {% if section.image %}
+        <div class="col-md-3 controlled-item {% unless forloop.first%}hidden{% endunless %}" data-id="{{section.name}}">
+          <div class="m0 p0" style="display: flex; height: 100%; width: 100%;">
+            <img src="{{ site.baseurl }}{{section.image}}" alt="" />
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
