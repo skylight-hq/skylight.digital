@@ -3282,10 +3282,6 @@
       link: https://www.linkedin.com/in/kathryn-mullins-a6025563/
       link_description: Kathryn's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/kathryn-mullins/
-      link_description: Kathryns’s Project Work
-      fa_icon_name: wrench
 - name: ian-hancock
   fname: Ian
   lname: Hancock
