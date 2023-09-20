@@ -3263,3 +3263,47 @@
       link: /work/team-member/emmanuel-nwakire/
       link_description: Emmanuel’s Project Work
       fa_icon_name: wrench
+- name: kathryn-mullins
+  fname: Kathryn
+  lname: Mullins
+  full_name: Kathryn Mullins
+  short_name: K. Mullins
+  profile_path: /company/about/#kathryn-mullins
+  image: /img/people/kathryn-mullins.jpeg
+  image_description: Photo of Kathryn Mullins
+  position: VP of Growth 
+  bio: >
+    Kathryn's a cross-functional leader and builder who's passionate about helping organizations serve the public. 
+    Kathryn has served in procurement and technology policy leadership roles in the United States executive and legislative branches, and led procurement policy, strategic initiatives, and new public sector business development at Amazon. 
+    She lives in Virginia.  
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kathryn-mullins-a6025563/
+      link_description: Kathryn's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kathryn-mullins/
+      link_description: Kathryns’s Project Work
+      fa_icon_name: wrench
+- name: ian-hancock
+  fname: Ian
+  lname: Hancock
+  full_name: Ian Hancock
+  short_name: I. Hancock
+  profile_path: /company/about/#ian-hancock
+  image: /img/people/ian-hancock.jpg
+  image_description: Photo of Ian Hancock
+  position: Software Engineer Apprentice 
+  bio: >
+    Ian’s a software engineer who loves understanding problems and developing solutions that make an impact on people. 
+    He's also an Air Force veteran who previously worked for BESPIN as a software engineer mainly building web applications. 
+    Ian lives in Alabama.  
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://linkedin.com/in/ian-johnson-hancock
+      link_description: Ian's LinkedIn Account
+      fa_icon_name: linkedin
+      
+  
