@@ -3324,4 +3324,8 @@
       link: https://emilyralter.com/
       link_description: Emily's Personal Website
       fa_icon_name: home
+   - name: Projects
+      link: /work/team-member/emily-alter/
+      link_description: Emily’s Project Work
+      fa_icon_name: wrench
   
