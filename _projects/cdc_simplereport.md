@@ -50,7 +50,7 @@ tags:
     laura kerry,
     nick blake,
     sarah george hager,
-    johanna delpino, boban_ljuljdjurovic
+    johanna delpino, boban_ljuljdjurovic,
   ]
 excerpt: A free tool that makes it easy for under-resourced COVID-19 testing sites to record results for diagnostic tests and quickly report data to public health departments.
 project_members:
