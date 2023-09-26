@@ -3328,4 +3328,31 @@
       link: /work/team-member/emily-alter/
       link_description: Emily’s Project Work
       fa_icon_name: wrench
+- name: boban-ljuljdjurovic
+  fname: Boban
+  lname: Ljuljdjurovic
+  full_name: Boban Ljuljdjurovic
+  short_name: B. Ljuljdjurovic
+  profile_path: /company/about/#boban-ljuljdjurovic
+  image: /img/people/boban-ljuljdjurovic.jpg
+  image_description: Photo of Boban Ljuljdjurovic
+  position: Senior Software Engineer
+  bio: >
+    Boban's a software engineer who's always excited to work on new and challenging problems. 
+    He has a background in building scalable APIs and DevOps, and is expanding his front-end knowledge. 
+    Boban lives in Michigan.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/boban-ljuljdjurovic-4104a9105/
+      link_description: Boban's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/BobanL
+      link_description: Boban's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/boban-ljuljdjurovic/
+      link_description: Boban's Project Work
+      fa_icon_name: wrench
   
