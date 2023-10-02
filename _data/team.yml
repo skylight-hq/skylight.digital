@@ -327,7 +327,7 @@
     projects, including data.gov, foia.gov, my.uscis.gov, and cloud.gov. He specializes
     in design leadership, service design, user experience design, and design research.
     Victor resides in New York.
-  active: true
+  active: false
   order: 28
   socials:
     - name: Twitter
