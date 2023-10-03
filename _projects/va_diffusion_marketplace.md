@@ -20,10 +20,10 @@ project_members:
   - becca-bartola
   - tomi-obikunle
   - elisa-lee
+  - emmanuel-nwakire
   - lesley-evans
   - tom-black
   - aera-hoffman
-  - emmanuel-nwakire
 technologies:
   - Ruby / Rails
   - U.S. Web Design System
