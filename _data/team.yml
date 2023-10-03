@@ -327,7 +327,7 @@
     projects, including data.gov, foia.gov, my.uscis.gov, and cloud.gov. He specializes
     in design leadership, service design, user experience design, and design research.
     Victor resides in New York.
-  active: true
+  active: false
   order: 28
   socials:
     - name: Twitter
@@ -3190,3 +3190,169 @@
       link: /work/team-member/robert-mitchell/
       link_description: Robert’s Project Work
       fa_icon_name: wrench
+- name: joe-reynolds
+  fname: Joe
+  lname: Reynolds
+  full_name: Joe Reynolds
+  short_name: J. Reynolds
+  profile_path: /company/about/#joe-reynolds
+  image: /img/people/joe-reynolds.jpg
+  image_description: Photo of Joe Reynolds
+  position: Operations Associate
+  bio: >
+    Joe's an operations associate with financial services, IT, mortgage, and fintech industry experience. He loves unlocking value for a business and its customers by striking a balance between profitability and operational excellence. Joe lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/joechoreo/
+      link_description: Joe's LinkedIn Account
+      fa_icon_name: linkedin
+- name: angela-the
+  fname: Angela
+  lname: The
+  full_name: Angela The
+  short_name: A. The
+  profile_path: /company/about/#angela-the
+  image: /img/people/angela-the.png
+  image_description: Photo of Angela The
+  position: Software Engineer Apprentice 
+  bio: >
+    Angela's a software engineer who's passionate about building human-centered tools that can improve access to public benefits and services. She pursued a master's degree in computer science and public policy and previously served as a Civic Innovation Corps Fellow for the City of San José. Angela lives in California.
+  active: true
+  socials:
+    - name: Twitter
+      link: https://twitter.com/Angela__The
+      link_description: Angela's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://linkedin.com/in/angelathe
+      link_description: Angela's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/angelathe
+      link_description: Angela's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://www.angelathe.com/
+      link_description: Angela's Personal Website
+      fa_icon_name: home
+- name: emmanuel-nwakire
+  fname: Emmanuel
+  lname: Nwakire
+  full_name: Emmanuel Nwakire
+  short_name: E. Nwakire
+  profile_path: /company/about/#emmanuel-nwakire
+  image: /img/people/emmanuel-nwakire.jpg
+  image_description: Photo of Emmanuel Nwakire
+  position: DevOps Engineer 
+  bio: >
+    Emmanuel's a DevOps engineer with years of experience in the travel-tech, fintech, and lifestyle industries. 
+    He's also a certified Scrum Master, where he excels at understanding and addressing the needs of stakeholders and clients alike. 
+    Emmanuel lives in Maryland. 
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/c-e-nuel/
+      link_description: Emmanuel's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/nuel247
+      link_description: Emmanuel's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/emmanuel-nwakire/
+      link_description: Emmanuel’s Project Work
+      fa_icon_name: wrench
+- name: kathryn-mullins
+  fname: Kathryn
+  lname: Mullins
+  full_name: Kathryn Mullins
+  short_name: K. Mullins
+  profile_path: /company/about/#kathryn-mullins
+  image: /img/people/kathryn-mullins.jpg
+  image_description: Photo of Kathryn Mullins
+  position: VP of Growth 
+  bio: >
+    Kathryn's a cross-functional leader and builder who's passionate about helping organizations serve the public. 
+    Kathryn has served in procurement and technology policy leadership roles in the United States executive and legislative branches, and led procurement policy, strategic initiatives, and new public sector business development at Amazon. 
+    She lives in Virginia.  
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kathryn-mullins-a6025563/
+      link_description: Kathryn's LinkedIn Account
+      fa_icon_name: linkedin
+- name: ian-hancock
+  fname: Ian
+  lname: Hancock
+  full_name: Ian Hancock
+  short_name: I. Hancock
+  profile_path: /company/about/#ian-hancock
+  image: /img/people/ian-hancock.jpg
+  image_description: Photo of Ian Hancock
+  position: Software Engineer Apprentice 
+  bio: >
+    Ian’s a software engineer who loves understanding problems and developing solutions that make an impact on people. 
+    He's also an Air Force veteran who previously worked for BESPIN as a software engineer mainly building web applications. 
+    Ian lives in Alabama.  
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://linkedin.com/in/ian-johnson-hancock
+      link_description: Ian's LinkedIn Account
+      fa_icon_name: linkedin
+- name: emily-alter
+  fname: Emily
+  lname: Alter
+  full_name: Emily Alter
+  short_name: E. Alter
+  profile_path: /company/about/#emily-alter
+  image: /img/people/emily-alter.png
+  image_description: Photo of Emily Alter
+  position: Senior User Researcher 
+  bio: >
+    Emily's a user researcher with a decade of experience using research to convince product teams to make more user-friendly products. 
+    She has conducted user research for Cameo, Litmus, Facebook Messenger, Wells Fargo, and Chase. 
+    Emily lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/emilyalter1/
+      link_description: Emily's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://emilyralter.com/
+      link_description: Emily's Personal Website
+      fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/emily-alter/
+      link_description: Emily’s Project Work
+      fa_icon_name: wrench
+- name: boban-ljuljdjurovic
+  fname: Boban
+  lname: Ljuljdjurovic
+  full_name: Boban Ljuljdjurovic
+  short_name: B. Ljuljdjurovic
+  profile_path: /company/about/#boban-ljuljdjurovic
+  image: /img/people/boban-ljuljdjurovic.jpg
+  image_description: Photo of Boban Ljuljdjurovic
+  position: Senior Software Engineer
+  bio: >
+    Boban's a software engineer who's always excited to work on new and challenging problems. 
+    He has a background in building scalable APIs and DevOps, and is expanding his front-end knowledge. 
+    Boban lives in Michigan.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/boban-ljuljdjurovic-4104a9105/
+      link_description: Boban's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/BobanL
+      link_description: Boban's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/boban-ljuljdjurovic/
+      link_description: Boban's Project Work
+      fa_icon_name: wrench
+  
