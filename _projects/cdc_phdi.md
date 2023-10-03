@@ -42,7 +42,10 @@ tags:
   jill fromewick,
   marcelle goggins,
   robert mitchell,
-emily alter]
+  emily alter,
+  sarah tress,
+  nick bristow,
+  josh nygaard]
 excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data system.
 project_members:
   - peggy-chau
@@ -58,12 +61,15 @@ project_members:
   - robert-mitchell
   - jill-fromewick
   - marcelle-goggins
+  - emily-alter
+  - sarah-tress
+  - nick-bristow
+  - josh-nygaard
   - tomi-obikunle
   - bryan-britten
   - graham-smith
   - spencer-kathol
   - jesse-skeets
-  - emily-alter
 technologies:
   - Python
   - APIs
