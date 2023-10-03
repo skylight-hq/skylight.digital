@@ -51,7 +51,10 @@ tags:
     nick blake,
     sarah george hager,
     johanna delpino, 
-    boban ljuljdjurovic]
+    boban ljuljdjurovic,
+    ryan gaddis,
+    tomi obikunle,
+    mike brown]
 excerpt: A free tool that makes it easy for under-resourced COVID-19 testing sites to record results for diagnostic tests and quickly report data to public health departments.
 project_members:
   - victor-zapanta
@@ -71,6 +74,9 @@ project_members:
   - laura-kerry
   - nick-blake
   - johanna-delpino
+  - ryan-gaddis
+  - tomi-obikunle
+  - mike-brown
   - leslie-garner-franklin
   - josh-dorothy
   - nick-bristow
