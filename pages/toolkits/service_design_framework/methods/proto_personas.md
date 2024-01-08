@@ -26,7 +26,7 @@ Quickly build a lightweight representation of your customers to develop empathy 
 Service designer, core team, and close stakeholders
 
 ## Timeframe
-Create the stakeholder map in the very beginning stages of the Initiate phase to work towards stakeholder alignment and buy-in as early as possible
+Define proto-personas in the very beginning stages of the Initiate phase to gain a better understanding of your users
 </div>
 
 ## How to use this method
