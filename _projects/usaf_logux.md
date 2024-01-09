@@ -9,7 +9,7 @@ feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2150
-display: true
+display: false
 tags: [service delivery, research & design, legacy modernization, defense, air force, zack gehin, charlye tran]
 excerpt: A sustainable, cost-effective, comprehensive solution for aircraft mechanics to streamline their documentation process.
 project_members:
