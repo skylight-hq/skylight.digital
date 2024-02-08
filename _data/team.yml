@@ -3355,4 +3355,28 @@
       link: /work/team-member/boban-ljuljdjurovic/
       link_description: Boban's Project Work
       fa_icon_name: wrench
-  
+- name: mike-judd
+  fname: Mike
+  lname: Judd
+  full_name: Mike Judd
+  short_name: M. Judd
+  profile_path: /company/about/#mike-judd
+  image: /img/people/mike-judd.jpg
+  image_description: Photo of Mike Judd
+  position: Chief Operating Officer
+  bio: >
+    Mike's a technologist, community builder, and bureaucracy hacker with over 10 years of experience at the CDC. 
+    He's passionate about improving the ways that government interacts with and provides value to the American people. 
+    Mike lives in Atlanta.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/michaelcjudd/
+      link_description: Mike's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mike-judd/
+      link_description: Mike's Project Work
+      fa_icon_name: wrench
+   
