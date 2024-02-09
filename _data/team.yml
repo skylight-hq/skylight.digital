@@ -3361,7 +3361,7 @@
   full_name: Mike Judd
   short_name: M. Judd
   profile_path: /company/about/#mike-judd
-  image: /img/people/mike-judd.jpg
+  image: /img/people/mike-judd.png
   image_description: Photo of Mike Judd
   position: Chief Operating Officer
   bio: >
@@ -3379,4 +3379,32 @@
       link: /work/team-member/mike-judd/
       link_description: Mike's Project Work
       fa_icon_name: wrench
-   
+- name: mary-yeh
+  fname: Mary
+  lname: Yeh
+  full_name: Mary Yeh
+  short_name: M. Yeh
+  profile_path: /company/about/#mary-yeh
+  image: /img/people/mary-yeh.png
+  image_description: Photo of Mary Yeh
+  position: Senior User Researcher
+  bio: >
+    Mary's a researcher, strategic thinker, and user advocate who loves working collaboratively. 
+    She has experience as a research consultant, non-profit manager, and middle school science teacher. 
+    Mary lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: Personal Website
+      link: https://www.maryayeh.com/
+      link_description: Mary's Personal Website
+      fa_icon_name: home
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/maryayeh/
+      link_description: Mary's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mary-yeh/
+      link_description: Mary's Project Work
+      fa_icon_name: wrench
+      
