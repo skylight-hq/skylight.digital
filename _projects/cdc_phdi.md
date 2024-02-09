@@ -45,7 +45,8 @@ tags:
   emily alter,
   sarah tress,
   nick bristow,
-  josh nygaard]
+  josh nygaard,
+  mary yeh]
 excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data system.
 project_members:
   - peggy-chau
@@ -70,6 +71,7 @@ project_members:
   - graham-smith
   - spencer-kathol
   - jesse-skeets
+  - mary-yeh
 technologies:
   - Python
   - APIs
