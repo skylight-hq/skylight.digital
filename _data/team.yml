@@ -3405,4 +3405,31 @@
       link: /work/team-member/mary-yeh/
       link_description: Mary's Project Work
       fa_icon_name: wrench
+- name: arin-kulshi
+  fname: Arin
+  lname: Kulshi
+  full_name: Arin Kulshi
+  short_name: A. Kulshi
+  profile_path: /company/about/#arin-kulshi
+  image: /img/people/arin-kulshi.jpg
+  image_description: Photo of Arin Kulshi
+  position: Staf Data Engineer
+  bio: >
+    Arin's a data engineer who specializes in building applications focused on health technology. 
+    He has a background in improving healthcare interoperability and addressing diverse data needs. 
+    Arin lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/akulshi/
+      link_description: Arin's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/arinkulshi
+      link_description: Arin's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/arin-kulshi/
+      link_description: Arin's Project Work
+      fa_icon_name: wrench
       
