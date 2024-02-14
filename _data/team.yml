@@ -2208,16 +2208,18 @@
   full_name: Taylor Graue
   short_name: T. Graue
   profile_path: /company/about/#taylor-graue
-  image: /img/people/taylor-graue.jpg
+  image: /img/people/taylor-graue.png
   image_description: Photo of Taylor Graue
-  position: Senior Product Designer
+  position: Chief Operating Officer
   bio: >
-    Taylor's passionate about improving government services through user-centered design. She’s an Air Force veteran and most recently worked as a product designer at Kessel Run. Taylor specializes in research, design, strategic thinking, and building high-performing teams. She lives in Massachusetts.
+    Taylor’s an Air Force Veteran who's passionate about delivering value and bringing highly effective solutions to the DoD. 
+    She most recently worked as a product manager and designer at Kessel Run. She specializes in strategy, human-centered design (HCD), and building relationships. 
+    Taylor lives in Texas.
   active: true
   order: 530
   socials:
     - name: LinkedIn
-      link: https://www.linkedin.com/in/taylor--curtiss/
+      link: http://www.linkedin.com/in/taylorgraue
       link_description: Taylor's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
