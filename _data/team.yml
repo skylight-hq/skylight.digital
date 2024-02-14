@@ -3375,10 +3375,6 @@
       link: https://www.linkedin.com/in/michaelcjudd/
       link_description: Mike's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/mike-judd/
-      link_description: Mike's Project Work
-      fa_icon_name: wrench
 - name: mary-yeh
   fname: Mary
   lname: Yeh
