@@ -2208,16 +2208,18 @@
   full_name: Taylor Graue
   short_name: T. Graue
   profile_path: /company/about/#taylor-graue
-  image: /img/people/taylor-graue.jpg
+  image: /img/people/taylor-graue.png
   image_description: Photo of Taylor Graue
-  position: Senior Product Designer
+  position: VP of Defense Services
   bio: >
-    Taylor's passionate about improving government services through user-centered design. She’s an Air Force veteran and most recently worked as a product designer at Kessel Run. Taylor specializes in research, design, strategic thinking, and building high-performing teams. She lives in Massachusetts.
+    Taylor’s an Air Force Veteran who's passionate about delivering value and bringing highly effective solutions to the DoD. 
+    She most recently worked as a product manager and designer at Kessel Run. She specializes in strategy, human-centered design (HCD), and building relationships. 
+    Taylor lives in Texas.
   active: true
   order: 530
   socials:
     - name: LinkedIn
-      link: https://www.linkedin.com/in/taylor--curtiss/
+      link: http://www.linkedin.com/in/taylorgraue
       link_description: Taylor's LinkedIn Account
       fa_icon_name: linkedin
     - name: Personal Website
@@ -3355,4 +3357,79 @@
       link: /work/team-member/boban-ljuljdjurovic/
       link_description: Boban's Project Work
       fa_icon_name: wrench
-  
+- name: mike-judd
+  fname: Mike
+  lname: Judd
+  full_name: Mike Judd
+  short_name: M. Judd
+  profile_path: /company/about/#mike-judd
+  image: /img/people/mike-judd.png
+  image_description: Photo of Mike Judd
+  position: Chief Operating Officer
+  bio: >
+    Mike's a technologist, community builder, and bureaucracy hacker with over 10 years of experience at the CDC. 
+    He's passionate about improving the ways that government interacts with and provides value to the American people. 
+    Mike lives in Atlanta.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/michaelcjudd/
+      link_description: Mike's LinkedIn Account
+      fa_icon_name: linkedin
+- name: mary-yeh
+  fname: Mary
+  lname: Yeh
+  full_name: Mary Yeh
+  short_name: M. Yeh
+  profile_path: /company/about/#mary-yeh
+  image: /img/people/mary-yeh.png
+  image_description: Photo of Mary Yeh
+  position: Senior User Researcher
+  bio: >
+    Mary's a researcher, strategic thinker, and user advocate who loves working collaboratively. 
+    She has experience as a research consultant, non-profit manager, and middle school science teacher. 
+    Mary lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: Personal Website
+      link: https://www.maryayeh.com/
+      link_description: Mary's Personal Website
+      fa_icon_name: home
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/maryayeh/
+      link_description: Mary's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mary-yeh/
+      link_description: Mary's Project Work
+      fa_icon_name: wrench
+- name: arin-kulshi
+  fname: Arin
+  lname: Kulshi
+  full_name: Arin Kulshi
+  short_name: A. Kulshi
+  profile_path: /company/about/#arin-kulshi
+  image: /img/people/arindam-kulshi.jpg
+  image_description: Photo of Arin Kulshi
+  position: Staf Data Engineer
+  bio: >
+    Arin's a data engineer who specializes in building applications focused on health technology. 
+    He has a background in improving healthcare interoperability and addressing diverse data needs. 
+    Arin lives in California.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/akulshi/
+      link_description: Arin's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/arinkulshi
+      link_description: Arin's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/arin-kulshi/
+      link_description: Arin's Project Work
+      fa_icon_name: wrench
+      
