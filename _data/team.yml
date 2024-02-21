@@ -1923,7 +1923,7 @@
     Nicole's a product manager, who's drawn to delivering products that help people. 
     Most recently, she worked with the Air Force's Kessel Run program 
     to modernize in-air refueling planning and platform development. Nicole lives in Washington.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
@@ -1973,7 +1973,7 @@
   position: VP of Defense Services
   bio: >
     Karthik's a product manager with several years of experience across a range of industries. Most recently, he worked at Pivotal Labs / VMware Tanzu. Karthik graduated from Creighton University with degrees in Economics and Business Intelligence and Analytics. He lives in Texas.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
@@ -2910,7 +2910,7 @@
   position: Data Scientist Apprentice
   bio: >
     Steven's a data scientist apprentice who holds equal passions for machine learning and creating useful tools for others. Coming from Northeast Ohio, he attended MIT, where he majored in Computation and Cognition. Steven lives in California.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/steven-speck/
@@ -3206,9 +3206,13 @@
   active: true
   socials:
     - name: LinkedIn
-      link: https://www.linkedin.com/in/joechoreo/
+      link: https://www.linkedin.com/in/joeslnkdin/
       link_description: Joe's LinkedIn Account
       fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/joesghub
+      link_description: Joe's GitHub Account
+      fa_icon_name: github
 - name: angela-the
   fname: Angela
   lname: The
@@ -3297,7 +3301,7 @@
     Ian’s a software engineer who loves understanding problems and developing solutions that make an impact on people. 
     He's also an Air Force veteran who previously worked for BESPIN as a software engineer mainly building web applications. 
     Ian lives in Alabama.  
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://linkedin.com/in/ian-johnson-hancock
@@ -3316,7 +3320,7 @@
     Emily's a user researcher with a decade of experience using research to convince product teams to make more user-friendly products. 
     She has conducted user research for Cameo, Litmus, Facebook Messenger, Wells Fargo, and Chase. 
     Emily lives in California.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/emilyalter1/
@@ -3413,7 +3417,7 @@
   profile_path: /company/about/#arin-kulshi
   image: /img/people/arindam-kulshi.jpg
   image_description: Photo of Arin Kulshi
-  position: Staf Data Engineer
+  position: Staff Data Engineer
   bio: >
     Arin's a data engineer who specializes in building applications focused on health technology. 
     He has a background in improving healthcare interoperability and addressing diverse data needs. 
@@ -3428,8 +3432,66 @@
       link: https://github.com/arinkulshi
       link_description: Arin's GitHub Account
       fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/arin-kulshi/
-      link_description: Arin's Project Work
-      fa_icon_name: wrench
+- name: lainey-trahan
+  fname: Lainey
+  lname: Trahan
+  full_name: Lainey Trahan
+  short_name: L. Trahan
+  profile_path: /company/about/#lainey-trahan
+  image: /img/people/lainey-trahan.jpg
+  image_description: Photo of Lainey Trahan
+  position: Senior Product Manager
+  bio: >
+    Lainey's a public health professional turned product manager. 
+    She has a passion for solving public health problems by engaging people, process, and technology. 
+    Lainey lives in Louisiana.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laineytrahan/
+      link_description: Lainey's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/laineymajor
+      link_description: Lainey's GitHub Account
+      fa_icon_name: github
+- name: jonathan-chang
+  fname: Jonathan
+  lname: Chang
+  full_name: Jonathan Chang
+  short_name: J. Chang
+  profile_path: /company/about/#jonathan-chang
+  image: /img/people/jonathan-chang.jpg
+  image_description: Photo of Jonathan Chang
+  position: Staff Data Scientist
+  bio: >
+    Jonathan's a data scientist specializing in data engineering, software development, and engineering management. 
+    He uses tooling and automation to amplify the power of data science teams. 
+    Jonathan lives in California.
+  active: true
+- name: evan-bowers
+  fname: Evan
+  lname: Bowers
+  full_name: Evan Bowers
+  short_name: E. Bowers
+  profile_path: /company/about/#evan-bowers
+  image: /img/people/evan-bowers.png
+  image_description: Photo of Evan Bowers
+  position: Staff Product Designer
+  bio: >
+    Evan's a product designer who loves collaboration, understanding user needs, and solving tricky problems. 
+    Evan arrives from Zapier as a product design lead, where he made automation accessible to everyone. 
+    Evan lives in Oregon. 
+  active: true
+  order: 10
+  socials:
+    - name: Personal Website
+      link: https://www.evbowers.com
+      link_description: Evan's Personal Website
+      fa_icon_name: home
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/evbowers/
+      link_description: Evan's LinkedIn Account
+      fa_icon_name: linkedin
+
       
