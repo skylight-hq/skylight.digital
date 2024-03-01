@@ -3493,5 +3493,24 @@
       link: https://www.linkedin.com/in/evbowers/
       link_description: Evan's LinkedIn Account
       fa_icon_name: linkedin
-
+- name: bruce-jacobson
+  fname: Bruce
+  lname: Jacobson
+  full_name: Bruce Jacobson
+  short_name: B. Jacobson
+  profile_path: /company/about/#bruce-jacobson
+  image: /img/people/bruce-jacobson.jpg
+  image_description: Photo of Bruce Jacobson
+  position: Principal Engagement Manager
+  bio: >
+    Bruce is an engagement manager and software leader with deep product management expertise. 
+    He has a passion for fostering innovative cultures to create breakthrough products. 
+    Bruce lives in Illinois.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brucejacobsonjr/
+      link_description: Bruce's LinkedIn Account
+      fa_icon_name: linkedin
       
