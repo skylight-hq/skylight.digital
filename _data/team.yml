@@ -3513,4 +3513,43 @@
       link: https://www.linkedin.com/in/brucejacobsonjr/
       link_description: Bruce's LinkedIn Account
       fa_icon_name: linkedin
-      
+- name: miringu-kiarie
+  fname: Miringu
+  lname: Kiarie
+  full_name: Miringu Kiarie
+  short_name: M. Kiarie
+  profile_path: /company/about/#miringu-kiarie
+  image: /img/people/miringu-kiarie.png
+  image_description: Photo of Miringu Kiarie
+  position: Senior User Researcher
+  bio: >
+    Miringu's a researcher with a focus on the intersection of humans and technology. 
+    He specializes in user experience research, usability testing, and human-centered design principles. 
+    Miringu lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/miringu-kiarie-546311ba/
+      link_description: Miringu's LinkedIn Account
+      fa_icon_name: linkedin
+- name: alex-hayward
+  fname: Alex
+  lname: Hayward
+  full_name: Alex Hayward
+  short_name: A. Hayward
+  profile_path: /company/about/#alex-hayward
+  image: /img/people/alex-hayward.jpg
+  image_description: Photo of Alex Hayward
+  position: Data Scientist II
+  bio: >
+    Alex is data scientist who's passionate about using data to create more equitable public outcomes. 
+    Previously, they used machine learning to help public water systems identify and remove lead pipes at the National Institutes of Health. 
+    Alex lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/alex-hayward-830533156/
+      link_description: Alex's LinkedIn Account
+      fa_icon_name: linkedin
