@@ -104,7 +104,7 @@ their content directly and helps ensure the site has the most up-to-date informa
 - Improving the home and search experience to balance the competing needs of targeted
 searches with exploratory browsing
 - Launching a public version of the site to share cutting edge VA innovations to a wider audience
-- Launching a [community feature](https://marketplace.va.gov/communities/va-immersive) to highlight news, events, and publications related to virtual reality and augmented reality treatments in 2023
+- Launching a [community feature](https://marketplace.va.gov/communities/va-immersive) to highlight news, events, and publications related to virtual reality and augmented reality treatments
 
 {% include callout.html
   type = "pullquote"
