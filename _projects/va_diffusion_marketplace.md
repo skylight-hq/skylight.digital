@@ -104,6 +104,7 @@ their content directly and helps ensure the site has the most up-to-date informa
 - Improving the home and search experience to balance the competing needs of targeted
 searches with exploratory browsing
 - Launching a public version of the site to share cutting edge VA innovations to a wider audience
+- Launching a [community feature](https://marketplace.va.gov/communities/va-immersive) to highlight news, events, and publications related to virtual reality and augmented reality treatments in 2023
 
 {% include callout.html
   type = "pullquote"
@@ -119,8 +120,9 @@ from VA leadership how proud they are to tell everyone about the Marketplace.
 - Delivered an alpha version of the platform within two months
 - Launched a beta version with a small user base in the summer of 2019
 - Launched a public version of the platform in fall of 2021
-- Expanded the number of innovations to 177 in total
-- Facilitated the adoption of 158 innovations through the platform itself
+- From launch to 2021, facilitated the adoption of 158 innovations through the platform itself
+- Expanded the number of innovations to 262 in total on the platform
+- Observed 5,026 innovation adoptions across VA facilities since launch
 {% endcapture %}
 
 {% include project.html
