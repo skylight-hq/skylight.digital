@@ -3455,20 +3455,6 @@
       link: https://github.com/laineymajor
       link_description: Lainey's GitHub Account
       fa_icon_name: github
-- name: jonathan-chang
-  fname: Jonathan
-  lname: Chang
-  full_name: Jonathan Chang
-  short_name: J. Chang
-  profile_path: /company/about/#jonathan-chang
-  image: /img/people/jonathan-chang.jpg
-  image_description: Photo of Jonathan Chang
-  position: Staff Data Scientist
-  bio: >
-    Jonathan's a data scientist specializing in data engineering, software development, and engineering management. 
-    He uses tooling and automation to amplify the power of data science teams. 
-    Jonathan lives in California.
-  active: true
 - name: evan-bowers
   fname: Evan
   lname: Bowers
