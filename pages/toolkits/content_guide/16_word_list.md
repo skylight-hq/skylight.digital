@@ -57,6 +57,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **digital coalition**
 
+**Drive** when referring to a Google Drive.
+
 **drop down** when used as a noun. For example, “an option from the drop down.” Never dropdown.
 
 **drop-down** when used as an adjective. For example, “drop-down menu.”
