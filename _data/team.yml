@@ -3539,3 +3539,99 @@
       link: https://www.linkedin.com/in/alex-hayward-830533156/
       link_description: Alex's LinkedIn Account
       fa_icon_name: linkedin
+- name: mary-crawford
+  fname: Mary
+  lname: Crawford
+  full_name: Mary Crawford
+  short_name: M. Crawford
+  profile_path: /company/about/#mary-crawford
+  image: /img/people/mary-crawford.png
+  image_description: Photo of Mary Crawford
+  position: Senior DevOps Engineer
+  bio: >
+    Mary's a DevOps engineer who enjoys creating, monitoring, containerizing, and observing various technical processes. 
+    She takes pride in being an intricate part of securing applications. 
+    Mary lives in Washington.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/marycrawfordtechip
+      link_description: Mary's LinkedIn Account
+      fa_icon_name: linkedin
+- name: monica-qiu
+  fname: Monica
+  lname: Qiu
+  full_name: Monica Qiu
+  short_name: M. Qiu
+  profile_path: /company/about/#monica-qiu
+  image: /img/people/monica-qiu.png
+  image_description: Photo of Monica Qiu
+  position: Staff Product Manager
+  bio: >
+    Monica's a product manager who loves leveraging people's strengths to solve complex problems together. 
+    She previously worked at Amazon specializing in e-commerce. 
+    She lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/monicaqiu/
+      link_description: Monica's LinkedIn Account
+      fa_icon_name: linkedin
+- name: eileen-ruberto
+  fname: Eileen
+  lname: Ruberto
+  full_name: Eileen Ruberto
+  short_name: E. Ruberto
+  profile_path: /company/about/#eileen-ruberto
+  image: /img/people/eileen-ruberto.jpg
+  image_description: Photo of Eileen Ruberto
+  position: Senior User Researcher
+  bio: >
+   Eileen's a user researcher who loves collaborating on systems that solve real-world problems and reduce toil for the people they serve. 
+   She applies her expertise in qualitative research and library science to help teams make decisions grounded in empathy and evidence. 
+   Eileen lives in New York.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/eileenruberto
+      link_description: Eileen's LinkedIn Account
+      fa_icon_name: linkedin
+- name: rob-mitchell
+  fname: Rob
+  lname: Mitchell
+  full_name: Rob Mitchell
+  short_name: R. Mitchell
+  profile_path: /company/about/#rob-mitchell
+  image: /img/people/rob-mitchell.png
+  image_description: Photo of Rob Mitchell
+  position: Senior Data Engineer
+  bio: >
+   Rob's a data engineer with experience in the education and civic tech space. 
+   He uses his technical knowledge to help others, provide insight, and advance social good. 
+   Rob lives in Massachusetts. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/robert-mitchell-55050856/
+      link_description: Rob's LinkedIn Account
+      fa_icon_name: linkedin
+- name: janki-kaneria
+  fname: Janki
+  lname: Kaneria
+  full_name: Janki Kaneria
+  short_name: J. Kaneria
+  profile_path: /company/about/#janki-kaneria
+  image: /img/people/janki-kaneria.png
+  image_description: Photo of Janki Kaneria
+  position: Staff Product Manager
+  bio: >
+   Janki's a product manager with a passion for modernizing software to improve people's access to health services. 
+   She specializes in big data problems and genetics. 
+   Janki lives in Massachusetts. 
+  active: true
+  order: 10
+  socials:
