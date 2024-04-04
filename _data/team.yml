@@ -3569,9 +3569,9 @@
   image_description: Photo of Monica Qiu
   position: Staff Product Manager
   bio: >
-    Monica's a product manager who loves leveraging people's strengths to solve complex problems together. 
-    She previously worked at Amazon specializing in e-commerce. 
-    She lives in California. 
+    Monica's a product manager who loves leveraging people's strengths to solve complex problems. 
+    She previously worked at Amazon, where she specialized in e-commerce. 
+    Monica lives in California. 
   active: true
   order: 10
   socials:
@@ -3635,3 +3635,8 @@
   active: true
   order: 10
   socials:
+   - name: LinkedIn
+      link: https://www.linkedin.com/in/jankikaneria
+      link_description: Janki's LinkedIn Account
+      fa_icon_name: linkedin
+    
