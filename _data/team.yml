@@ -3635,5 +3635,10 @@
   active: true
   order: 10
   socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jankikaneria
+      link_description: Janki's LinkedIn Account
+      fa_icon_name: linkedin
+
 
     
