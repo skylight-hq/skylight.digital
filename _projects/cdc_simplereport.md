@@ -209,7 +209,7 @@ In addition to reducing the burden for non-traditional and  under-resourced faci
 {% endcapture %}
 
 {% capture results %}
-- Over 8.2M tests have been performed since launch (from Jan 2021 to Nov 2022)
+- Over 8.2M tests have been performed since launch (from Jan 2021 to April 2024)
 - Over 17,300 facilities are reporting tests through SimpleReport 
 - The tool has been used to test patients from all 50 states, as well as other U.S. territories and Canadian provinces 
 - More than 2.3M total text messages sent notifying patients of their test result
