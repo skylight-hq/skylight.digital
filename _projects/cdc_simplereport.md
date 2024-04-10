@@ -171,7 +171,7 @@ Adding to the complexity were health departments’ differing requirements. As o
   content = "It's a challenge to do the test, put it on paper, then go back and enter it in both formats — for the county and state."
 %}
 
-Even when facilities did have tools to track patients and results, many lacked the ability to automatically report to their jurisdictions, in the different formats that they require. 
+Even when facilities did have tools to track patients and results, many lacked the ability to automatically report to their jurisdictions in the different formats that they required. 
 
 On the receiving end, public health departments had to process manual reports sent from a variety of locations, which took time and resulted in errors. This manual and cumbersome process made it difficult to act fast and stay informed.
 {% endcapture %}
