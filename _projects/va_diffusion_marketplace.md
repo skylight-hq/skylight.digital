@@ -29,8 +29,7 @@ technologies:
   - U.S. Web Design System
   - HTML / CSS / Sass
   - JavaScript
-  - CircleCI
-  - Terraform
+  - GitHub Actions
   - Docker
   - Amazon Web Services
 practices:
@@ -42,7 +41,7 @@ practices:
   - Branding design
   - Visual design
   - Design system
-  - Accessibility design
+  - Accessible design
   - Responsive web design
   - Agile development
   - DevSecOps
@@ -93,7 +92,7 @@ proven to work at a small subset of the VHA's healthcare facilities.
 
 After validating our primary design solution through research and prototyping,
 we rapidly iterated toward the release of beta and production versions of the
-platform — with an initial collection of over 50 innovations.
+platform — with an initial collection of 50 innovations.
 
 Following production launch, our team has focused on continually improving the platform,
 including:
@@ -103,7 +102,7 @@ including:
 their content directly and helps ensure the site has the most up-to-date information
 - Improving the home and search experience to balance the competing needs of targeted
 searches with exploratory browsing
-- Launching a public version of the site to share cutting edge VA innovations to a wider audience
+- Launching a public version of the site to share cutting-edge VA innovations to a wider audience
 - Launching a [community feature](https://marketplace.va.gov/communities/va-immersive) to highlight news, events, and publications related to virtual reality and augmented reality treatments
 
 {% include callout.html
@@ -119,10 +118,9 @@ from VA leadership how proud they are to tell everyone about the Marketplace.
 {% capture results %}
 - Delivered an alpha version of the platform within two months
 - Launched a beta version with a small user base in the summer of 2019
-- Launched a public version of the platform in fall of 2021
-- From launch to 2021, facilitated the adoption of 158 innovations through the platform itself
-- Expanded the number of innovations to 262 in total on the platform
-- Observed 5,026 innovation adoptions across VA facilities since launch
+- Launched a public version of the platform in fall of 2021 with an initial collection of 50 innovations
+- Expanded the number of innovations accessible on the platform from 50 to 262 in total 
+- Facilitated 3,770 successful innovation adoptions across the VA health network
 {% endcapture %}
 
 {% include project.html
