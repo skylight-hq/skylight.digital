@@ -1923,7 +1923,7 @@
     Nicole's a product manager, who's drawn to delivering products that help people. 
     Most recently, she worked with the Air Force's Kessel Run program 
     to modernize in-air refueling planning and platform development. Nicole lives in Washington.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
@@ -1973,7 +1973,7 @@
   position: VP of Defense Services
   bio: >
     Karthik's a product manager with several years of experience across a range of industries. Most recently, he worked at Pivotal Labs / VMware Tanzu. Karthik graduated from Creighton University with degrees in Economics and Business Intelligence and Analytics. He lives in Texas.
-  active: true
+  active: false
   order: 530
   socials:
     - name: LinkedIn
@@ -2910,7 +2910,7 @@
   position: Data Scientist Apprentice
   bio: >
     Steven's a data scientist apprentice who holds equal passions for machine learning and creating useful tools for others. Coming from Northeast Ohio, he attended MIT, where he majored in Computation and Cognition. Steven lives in California.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/steven-speck/
@@ -3206,9 +3206,13 @@
   active: true
   socials:
     - name: LinkedIn
-      link: https://www.linkedin.com/in/joechoreo/
+      link: https://www.linkedin.com/in/joeslnkdin/
       link_description: Joe's LinkedIn Account
       fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/joesghub
+      link_description: Joe's GitHub Account
+      fa_icon_name: github
 - name: angela-the
   fname: Angela
   lname: The
@@ -3297,7 +3301,7 @@
     Ian’s a software engineer who loves understanding problems and developing solutions that make an impact on people. 
     He's also an Air Force veteran who previously worked for BESPIN as a software engineer mainly building web applications. 
     Ian lives in Alabama.  
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://linkedin.com/in/ian-johnson-hancock
@@ -3316,7 +3320,7 @@
     Emily's a user researcher with a decade of experience using research to convince product teams to make more user-friendly products. 
     She has conducted user research for Cameo, Litmus, Facebook Messenger, Wells Fargo, and Chase. 
     Emily lives in California.
-  active: true
+  active: false
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/emilyalter1/
@@ -3369,7 +3373,7 @@
   bio: >
     Mike's a technologist, community builder, and bureaucracy hacker with over 10 years of experience at the CDC. 
     He's passionate about improving the ways that government interacts with and provides value to the American people. 
-    Mike lives in Atlanta.
+    Mike lives in Georgia.
   active: true
   order: 10
   socials:
@@ -3428,4 +3432,211 @@
       link: https://github.com/arinkulshi
       link_description: Arin's GitHub Account
       fa_icon_name: github
-      
+- name: lainey-trahan
+  fname: Lainey
+  lname: Trahan
+  full_name: Lainey Trahan
+  short_name: L. Trahan
+  profile_path: /company/about/#lainey-trahan
+  image: /img/people/lainey-trahan.jpg
+  image_description: Photo of Lainey Trahan
+  position: Senior Product Manager
+  bio: >
+    Lainey's a public health professional turned product manager. 
+    She has a passion for solving public health problems by engaging people, process, and technology. 
+    Lainey lives in Louisiana.
+  active: true
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laineytrahan/
+      link_description: Lainey's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/laineymajor
+      link_description: Lainey's GitHub Account
+      fa_icon_name: github
+- name: evan-bowers
+  fname: Evan
+  lname: Bowers
+  full_name: Evan Bowers
+  short_name: E. Bowers
+  profile_path: /company/about/#evan-bowers
+  image: /img/people/evan-bowers.png
+  image_description: Photo of Evan Bowers
+  position: Staff Product Designer
+  bio: >
+    Evan's a product designer who loves collaboration, understanding user needs, and solving tricky problems. 
+    Evan arrives from Zapier as a product design lead, where he made automation accessible to everyone. 
+    Evan lives in Oregon. 
+  active: true
+  order: 10
+  socials:
+    - name: Personal Website
+      link: https://www.evbowers.com
+      link_description: Evan's Personal Website
+      fa_icon_name: home
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/evbowers/
+      link_description: Evan's LinkedIn Account
+      fa_icon_name: linkedin
+- name: bruce-jacobson
+  fname: Bruce
+  lname: Jacobson
+  full_name: Bruce Jacobson
+  short_name: B. Jacobson
+  profile_path: /company/about/#bruce-jacobson
+  image: /img/people/bruce-jacobson.jpg
+  image_description: Photo of Bruce Jacobson
+  position: Principal Engagement Manager
+  bio: >
+    Bruce is an engagement manager and software leader with deep product management expertise. 
+    He has a passion for fostering innovative cultures to create breakthrough products. 
+    Bruce lives in Illinois.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brucejacobsonjr/
+      link_description: Bruce's LinkedIn Account
+      fa_icon_name: linkedin
+- name: miringu-kiarie
+  fname: Miringu
+  lname: Kiarie
+  full_name: Miringu Kiarie
+  short_name: M. Kiarie
+  profile_path: /company/about/#miringu-kiarie
+  image: /img/people/miringu-kiarie.png
+  image_description: Photo of Miringu Kiarie
+  position: Senior User Researcher
+  bio: >
+    Miringu's a researcher with a focus on the intersection of humans and technology. 
+    He specializes in user experience research, usability testing, and human-centered design principles. 
+    Miringu lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/miringu-kiarie-546311ba/
+      link_description: Miringu's LinkedIn Account
+      fa_icon_name: linkedin
+- name: alex-hayward
+  fname: Alex
+  lname: Hayward
+  full_name: Alex Hayward
+  short_name: A. Hayward
+  profile_path: /company/about/#alex-hayward
+  image: /img/people/alex-hayward.jpg
+  image_description: Photo of Alex Hayward
+  position: Data Scientist
+  bio: >
+    Alex is a data scientist who's passionate about using data to create more equitable public outcomes. 
+    Previously, they used machine learning to help public water systems identify and remove lead pipes at the National Institutes of Health. 
+    Alex lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/alex-hayward-830533156/
+      link_description: Alex's LinkedIn Account
+      fa_icon_name: linkedin
+- name: mary-crawford
+  fname: Mary
+  lname: Crawford
+  full_name: Mary Crawford
+  short_name: M. Crawford
+  profile_path: /company/about/#mary-crawford
+  image: /img/people/mary-crawford.png
+  image_description: Photo of Mary Crawford
+  position: Senior DevOps Engineer
+  bio: >
+    Mary's a DevOps engineer who enjoys creating, monitoring, containerizing, and observing various technical processes. 
+    She takes pride in being an intricate part of securing applications. 
+    Mary lives in Washington.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/marycrawfordtechip
+      link_description: Mary's LinkedIn Account
+      fa_icon_name: linkedin
+- name: monica-qiu
+  fname: Monica
+  lname: Qiu
+  full_name: Monica Qiu
+  short_name: M. Qiu
+  profile_path: /company/about/#monica-qiu
+  image: /img/people/monica-qiu.png
+  image_description: Photo of Monica Qiu
+  position: Staff Product Manager
+  bio: >
+    Monica's a product manager who loves leveraging people's strengths to solve complex problems. 
+    She previously worked at Amazon, where she specialized in e-commerce. 
+    Monica lives in California. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/monicaqiu/
+      link_description: Monica's LinkedIn Account
+      fa_icon_name: linkedin
+- name: eileen-ruberto
+  fname: Eileen
+  lname: Ruberto
+  full_name: Eileen Ruberto
+  short_name: E. Ruberto
+  profile_path: /company/about/#eileen-ruberto
+  image: /img/people/eileen-ruberto.jpg
+  image_description: Photo of Eileen Ruberto
+  position: Senior User Researcher
+  bio: >
+   Eileen's a user researcher who loves collaborating on systems that solve real-world problems and reduce toil for the people they serve. 
+   She applies her expertise in qualitative research and library science to help teams make decisions grounded in empathy and evidence. 
+   Eileen lives in New York.
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/eileenruberto
+      link_description: Eileen's LinkedIn Account
+      fa_icon_name: linkedin
+- name: rob-mitchell
+  fname: Rob
+  lname: Mitchell
+  full_name: Rob Mitchell
+  short_name: R. Mitchell
+  profile_path: /company/about/#rob-mitchell
+  image: /img/people/rob-mitchell.png
+  image_description: Photo of Rob Mitchell
+  position: Senior Data Engineer
+  bio: >
+   Rob's a data engineer with experience in the education and civic tech space. 
+   He uses his technical knowledge to help others, provide insight, and advance social good. 
+   Rob lives in Massachusetts. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/robert-mitchell-55050856/
+      link_description: Rob's LinkedIn Account
+      fa_icon_name: linkedin
+- name: janki-kaneria
+  fname: Janki
+  lname: Kaneria
+  full_name: Janki Kaneria
+  short_name: J. Kaneria
+  profile_path: /company/about/#janki-kaneria
+  image: /img/people/janki-kaneria.png
+  image_description: Photo of Janki Kaneria
+  position: Staff Product Manager
+  bio: >
+   Janki's a product manager with a passion for modernizing software to improve people's access to health services. 
+   She specializes in big data problems and genetics. 
+   Janki lives in Massachusetts. 
+  active: true
+  order: 10
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jankikaneria
+      link_description: Janki's LinkedIn Account
+      fa_icon_name: linkedin
+ 
