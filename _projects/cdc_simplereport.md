@@ -177,7 +177,7 @@ On the receiving end, public health departments had to process manual reports se
 {% endcapture %}
 
 {% capture solution %}
-To strengthen the infrastructure of COVID-19 testing and reporting, the Centers for Disease Control and Prevention (CDC) and the U.S. Digital Service (USDS) launched a multi-year collaboration called the [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/pdfs/PRIME_1-sheet_single-page.pdf) (PRIME). Skylight has supported this work by helping to launch and grow [SimpleReport]({{ page.project_url }}), a free tool that makes it easy to record results for rapid disease testing and quickly report data to public health departments.
+To strengthen the infrastructure of COVID-19 testing and reporting, the Centers for Disease Control and Prevention (CDC) and the U.S. Digital Service (USDS) launched a multi-year collaboration called the [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME). Skylight has supported this work by helping to launch and grow [SimpleReport]({{ page.project_url }}), a free tool that makes it easy to record results for rapid disease testing and quickly report data to public health departments.
 
 SimpleReport is designed to be used as both a workflow and reporting tool for non-traditional and under-resourced test sites, regardless of whether or not they have a digital connection to a public health department’s disease surveillance system. SimpleReport results are automatically sent to public health departments via a single point of connection called ReportStream, which is also part of PRIME. As one interviewee described the reporting process:
 
