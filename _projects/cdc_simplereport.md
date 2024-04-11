@@ -186,7 +186,7 @@ SimpleReport is designed to be used as both a workflow and reporting tool for no
   content = "Going from what we were doing to this is awesome. It's very easy to use."
 %}
 
-SimpleReport results get to public health in the format and at the cadence that departments request. SimpleReport also provides structured data to health departments, so they don’t have to spend time on additional clean-up.
+SimpleReport sends test results to public health departments in the format and at the cadence that they request. SimpleReport also provides structured data to health departments, so they don’t have to spend time on additional clean-up.
 
 After the Skylight team fully assumed SimpleReport management from our USDS partners, we’ve continued making the tool as easy to use as possible while expanding its functionality. Our team focused on continually improving and growing SimpleReport through:
 
