@@ -3569,14 +3569,14 @@
   active: true
   order: 1260
   socials:
-    - name: Personal Website
-      link: https://www.maryayeh.com/
-      link_description: Mary's Personal Website
-      fa_icon_name: home
     - name: LinkedIn
       link: https://www.linkedin.com/in/maryayeh/
       link_description: Mary's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://www.maryayeh.com/
+      link_description: Mary's Personal Website
+      fa_icon_name: home
     - name: Projects
       link: /work/team-member/mary-yeh/
       link_description: Mary's Project Work
@@ -3645,14 +3645,14 @@
   active: true
   order: 1290
   socials:
-    - name: Personal Website
-      link: https://www.evbowers.com
-      link_description: Evan's Personal Website
-      fa_icon_name: home
     - name: LinkedIn
       link: https://www.linkedin.com/in/evbowers/
       link_description: Evan's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://www.evbowers.com
+      link_description: Evan's Personal Website
+      fa_icon_name: home
 - name: bruce-jacobson
   fname: Bruce
   lname: Jacobson
@@ -3813,4 +3813,3 @@
       link: https://www.linkedin.com/in/jankikaneria
       link_description: Janki's LinkedIn Account
       fa_icon_name: linkedin
- 
