@@ -49,7 +49,7 @@ Skylight supports an inclusive culture, and we strongly encourage you to immedia
 
 If you perceive a violation of Skylight's Code of Conduct or this Intentional Communications Policy, regardless of the speaker's intent, it’s important that you feel empowered to speak up in the moment, even if the violation doesn’t impact you directly. 
 
-When such a situation arises, you can use the buzz word “Ouch.” This word, spoken or written in chat, will flag the situation as something that should be stopped, and the conversation should immediately move on with no questions asked. If there’s time at the end of the meeting, the person who used the buzz word can opt to share why they buzzed. If there’s no time or inclination, they may share to the team later and/or reach out to Kelli Mason, Skylight's Head of People Operations. Kelli can help craft an explanation for the buzz or facilitate a larger conversation, if necessary.
+When such a situation arises, you can use the buzz word “Ouch.” This word, spoken or written in chat, will flag the situation as something that should be stopped, and the conversation should immediately move on with no questions asked. If there’s time at the end of the meeting, the person who used the buzz word can opt to share why they buzzed. If there’s no time or inclination, they may share to the team later and/or reach out to Skylight's Chief Operating Officer. They can help craft an explanation for the buzz or facilitate a larger conversation, if necessary.
 
 If you’re not comfortable using the buzz word, or have concerns about someone’s conduct, please reach out to the leadership team. This policy is intended to accompany Skylight’s [Code of Conduct Policy](/company/policies/code-of-conduct/).
 
