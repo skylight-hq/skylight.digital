@@ -46,15 +46,15 @@ tags:
   nick bristow,
   josh nygaard,
   mary yeh,
-  janki_kaneria,
-  rob_mitchell,
-  mary_crawford,
-  josh_nygaard,
-  angela_the,
-  lina_roth,
-  alis_akers,
-  kyle_planeaux,
-  david_mcclatchey]
+  janki kaneria,
+  rob mitchell,
+  mary crawford,
+  josh nygaard,
+  angela the,
+  lina roth,
+  alis akers,
+  kyle planeaux,
+  david mcclatchey,]
 excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data system.
 project_members:
   - peggy-chau
