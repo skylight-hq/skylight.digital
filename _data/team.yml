@@ -2904,6 +2904,10 @@
       link: https://github.com/bobbywells52
       link_description: Bobby's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/bobby-wells/
+      link_description: Bobby's Project Work
+      fa_icon_name: wrench
 - name: kenneth-chow
   fname: Kenneth
   lname: Chow
