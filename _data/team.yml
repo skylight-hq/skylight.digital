@@ -3409,6 +3409,10 @@
       link: https://www.angelathe.com/
       link_description: Angela's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/angela-the/
+      link_description: Angela’s Project Work
+      fa_icon_name: wrench
 - name: emmanuel-nwakire
   fname: Emmanuel
   lname: Nwakire
@@ -3457,6 +3461,10 @@
       link: https://www.linkedin.com/in/kathryn-mullins-a6025563/
       link_description: Kathryn's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kathryn-mullins/
+      link_description: Kathryn’s Project Work
+      fa_icon_name: wrench
 - name: ian-hancock
   fname: Ian
   lname: Hancock
@@ -3553,6 +3561,10 @@
       link: https://www.linkedin.com/in/michaelcjudd/
       link_description: Mike's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mike-judd/
+      link_description: Mike’s Project Work
+      fa_icon_name: wrench
 - name: mary-yeh
   fname: Mary
   lname: Yeh
@@ -3605,6 +3617,10 @@
       link: https://github.com/arinkulshi
       link_description: Arin's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/arin-kulshi/
+      link_description: Arin’s Project Work
+      fa_icon_name: wrench
 - name: lainey-trahan
   fname: Lainey
   lname: Trahan
@@ -3629,6 +3645,10 @@
       link: https://github.com/laineymajor
       link_description: Lainey's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/lainey-trahan/
+      link_description: Lainey’s Project Work
+      fa_icon_name: wrench
 - name: evan-bowers
   fname: Evan
   lname: Bowers
@@ -3653,6 +3673,10 @@
       link: https://www.evbowers.com
       link_description: Evan's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/evan-bowers/
+      link_description: Evan’s Project Work
+      fa_icon_name: wrench
 - name: bruce-jacobson
   fname: Bruce
   lname: Jacobson
@@ -3673,6 +3697,10 @@
       link: https://www.linkedin.com/in/brucejacobsonjr/
       link_description: Bruce's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/bruce-jacobson/
+      link_description: Bruce’s Project Work
+      fa_icon_name: wrench
 - name: miringu-kiarie
   fname: Miringu
   lname: Kiarie
@@ -3693,6 +3721,10 @@
       link: https://www.linkedin.com/in/miringu-kiarie-546311ba/
       link_description: Miringu's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/miringu-kiarie/
+      link_description: Miringu’s Project Work
+      fa_icon_name: wrench
 - name: alex-hayward
   fname: Alex
   lname: Hayward
@@ -3713,6 +3745,10 @@
       link: https://www.linkedin.com/in/alex-hayward-830533156/
       link_description: Alex's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/alex-haywrd/
+      link_description: Alex’s Project Work
+      fa_icon_name: wrench
 - name: mary-crawford
   fname: Mary
   lname: Crawford
@@ -3733,6 +3769,10 @@
       link: https://www.linkedin.com/in/marycrawfordtechip
       link_description: Mary's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mary-crawford/
+      link_description: Mary’s Project Work
+      fa_icon_name: wrench
 - name: monica-qiu
   fname: Monica
   lname: Qiu
@@ -3753,6 +3793,10 @@
       link: https://www.linkedin.com/in/monicaqiu/
       link_description: Monica's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/monica-qiu/
+      link_description: Monica’s Project Work
+      fa_icon_name: wrench
 - name: eileen-ruberto
   fname: Eileen
   lname: Ruberto
@@ -3773,6 +3817,10 @@
       link: https://www.linkedin.com/in/eileenruberto
       link_description: Eileen's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/eileen-ruberto/
+      link_description: Eileen’s Project Work
+      fa_icon_name: wrench
 - name: rob-mitchell
   fname: Rob
   lname: Mitchell
@@ -3793,6 +3841,10 @@
       link: https://www.linkedin.com/in/robert-mitchell-55050856/
       link_description: Rob's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/rob-mitchell/
+      link_description: Rob’s Project Work
+      fa_icon_name: wrench
 - name: janki-kaneria
   fname: Janki
   lname: Kaneria
@@ -3813,3 +3865,7 @@
       link: https://www.linkedin.com/in/jankikaneria
       link_description: Janki's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/janki-kaneria/
+      link_description: Janki’s Project Work
+      fa_icon_name: wrench
