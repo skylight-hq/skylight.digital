@@ -3107,6 +3107,10 @@
       link: https://jnygaard.dev
       link_description: Josh's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/josh-nygaard/
+      link_description: Josh's Project Work
+      fa_icon_name: wrench
 - name: michelle-li
   fname: Michelle
   lname: Li
