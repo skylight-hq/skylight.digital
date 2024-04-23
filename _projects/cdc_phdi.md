@@ -42,7 +42,6 @@ tags:
   jill fromewick,
   marcelle goggins,
   robert mitchell,
-  emily alter,
   sarah tress,
   nick bristow,
   josh nygaard,
@@ -71,7 +70,6 @@ project_members:
   - robert-mitchell
   - jill-fromewick
   - marcelle-goggins
-  - emily-alter
   - sarah-tress
   - nick-bristow
   - josh-nygaard
