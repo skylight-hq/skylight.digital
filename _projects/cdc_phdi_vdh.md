@@ -36,8 +36,7 @@ tags:
   dan paseltiner,
   ann millspaugh,
   brady fausett,
-  marcelle goggins,
-  robert mitchell]
+  robert mitchell,]
 excerpt: A prototype data ingestion pipeline that increases data processing speed, automates manual processes, and enables public health agencies to better analyze data and share findings to drive timely public health action and decision-making.
 project_members:
   - peggy-chau
@@ -50,7 +49,6 @@ project_members:
   - dan-paseltiner
   - brady-fausett
   - robert-mitchell
-  - marcelle-goggins
   - bryan-britten
   - graham-smith
   - spencer-kathol
