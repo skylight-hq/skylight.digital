@@ -44,7 +44,7 @@ You're organized and consistent at following through on administrative tasks. Yo
 
 You use Skylight’s values as a foundation to influence your reports in a positive way that encourages joyful client experiences and excellence in results. You use Skylight’s values to help you make decisions and hold yourself accountable for these decisions. You make suggestions to improve Skylight’s diversity, equity, and inclusion efforts. You ensure your reports understand Skylight’s values. You work towards building a culture of growth, empowerment, and integrity. You help your reports find ways to give back to the community through volunteering or sharing knowledge.
 
-#### Empowerment and helping others grow
+#### Empowering and helping others grow
 
 You help your reports grow by coaching and mentoring. You help them feel comfortable and confident in the work that they do and help them accomplish their goals. You ensure reports understand how their individual efforts contribute to high-level goals. You include others in your decision-making process, give them a role that capitalizes on their expertise and judgment. You care about the input of everyone on your team. Above all, you drive your reports forward with passion, enthusiasm, inspiration, and motivation. 
 
