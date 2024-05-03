@@ -75,9 +75,6 @@ project_members:
   - josh-nygaard
   - tomi-obikunle
   - bryan-britten
-  - graham-smith
-  - spencer-kathol
-  - jesse-skeets
   - mary-yeh
   - janki-kaneria
   - rob-mitchell
@@ -88,6 +85,10 @@ project_members:
   - alis-akers
   - kyle-planeaux
   - david-mcclatchey
+  - graham-smith
+  - spencer-kathol
+  - jesse-skeets
+ 
 technologies:
   - Python
   - APIs
