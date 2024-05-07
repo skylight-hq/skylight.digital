@@ -18,51 +18,52 @@
     page.image %} {% assign image_description = page.image_description %} {%
     assign image_class = 'project-feature-image' %} {% endif %}
 
-    <img
-      class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} "
-      src="{{site.baseurl}}{{image}}"
-      alt="{{image_description}}"
-      title="{{image_description}}"
-    />
+    <img class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} "
+      src="{{site.baseurl}}{{image}}" alt="{{image_description}}" title="{{image_description}}" />
 
     <h2>The challenge</h2>
     {{ include.challenge | markdownify }}
 
     <h2>The solution</h2>
-    {{ include.solution | markdownify }} {% capture accordion_body %}
+    {{ include.solution | markdownify }}
+    {% capture accordion_body %}
     <aside class="approach">
       {% assign member_count = page.project_members.size %}
+
+      {% assign project_members = "" | split: "," %}
+
+      {% for member in page.project_members %}
+      {% assign emp = site.data.team | where: 'name', member | first %}
+      {% assign project_members = project_members | push: emp %}
+      {% endfor %}
+
+      {% assign active_members = project_members | where: 'active', true | sort: 'lname' %}
+      {% assign inactive_members = project_members | where: 'active', false | sort: 'lname' %}
+      {% assign all_members = active_members | concat: inactive_members %}
+
       <ul class="has-col">
-        {% for member in page.project_members %} {% assign emp =
-        site.data.team | where: 'name', member | first %} {% capture height
-        %}{% imagesize {{emp.image}}:height %}{% endcapture %} {% capture
-        width %}{% imagesize {{emp.image}}:width %}{% endcapture %}
+        {% for emp in all_members %}
+        {% capture height%}
+        {% imagesize {{emp.image}}:height %}
+        {% endcapture %}
+        {% capture width %}
+        {% imagesize {{emp.image}}:width %}
+        {% endcapture %}
         <li>
           <span class="approach-item">
             {% if emp.active %}
-            <a
-              class="profile profile-link d-flex flex-row align-items-center"
-              href="{{emp.profile_path}}"
-            >
-              <div
-                class="employee-gradient{% if width != height %}-rect{% endif %}"
-              >
-                <img
-                  class="profile-img{% if width != height %}-rect{% endif %} employee-img"
-                  src="{{emp.image | prepend: site.baseurl}}"
-                  alt="{{emp.image_description}}"
-                />
+            <a class="profile profile-link d-flex flex-row align-items-center" href="{{emp.profile_path}}">
+              <div class="employee-gradient{% if width != height %}-rect{% endif %}">
+                <img class="profile-img{% if width != height %}-rect{% endif %} employee-img"
+                  src="{{emp.image | prepend: site.baseurl}}" alt="{{emp.image_description}}" />
               </div>
               <span>{{emp.short_name}}</span>
             </a>
             {% else %}
             <div class="profile d-flex flex-row align-items-center">
               <div class="employee-gradient{% if width != height %}-rect{% endif %}">
-                <img
-                  class="profile-img{% if width != height %}-rect{% endif %} employee-img"
-                  src="{{emp.image | prepend: site.baseurl}}"
-                  alt="{{emp.image_description}}"
-                />
+                <img class="profile-img{% if width != height %}-rect{% endif %} employee-img"
+                  src="{{emp.image | prepend: site.baseurl}}" alt="{{emp.image_description}}" />
               </div>
               <span>{{emp.short_name}}</span>
             </div>
@@ -74,62 +75,55 @@
     </aside>
     {% endcapture %}
     <div>
-    {% include accordion.html accordion_header = 'Team
-    members' accordion_body = accordion_body accordion_index = '0' %} {%
-    capture accordion_body %}
-    <aside class="approach">
-      <ul class="has-col">
-        {% for tech in page.technologies %}
-        <li><span class="approach-item">{{tech}}</span></li>
-        {% endfor %}
-      </ul>
-    </aside>
-    {% endcapture %} {% include accordion.html accordion_header =
-    'Technologies used' accordion_body = accordion_body accordion_index =
-    '1' %} {% capture accordion_body %}
-    <aside class="approach">
-      <ul class="has-col">
-        {% for practice in page.practices %}
-        <li><span class="approach-item">{{practice}}</span></li>
-        {% endfor %}
-      </ul>
-    </aside>
-    {% endcapture %} {% include accordion.html accordion_header = 'Practices
-    used' accordion_body = accordion_body accordion_index = '2' %}
+      {% include accordion.html accordion_header = 'Team
+      members' accordion_body = accordion_body accordion_index = '0' %}
+      {% capture accordion_body %}
+      <aside class="approach">
+        <ul class="has-col">
+          {% for tech in page.technologies %}
+          <li><span class="approach-item">{{tech}}</span></li>
+          {% endfor %}
+        </ul>
+      </aside>
+      {% endcapture %} {% include accordion.html accordion_header =
+      'Technologies used' accordion_body = accordion_body accordion_index =
+      '1' %} {% capture accordion_body %}
+      <aside class="approach">
+        <ul class="has-col">
+          {% for practice in page.practices %}
+          <li><span class="approach-item">{{practice}}</span></li>
+          {% endfor %}
+        </ul>
+      </aside>
+      {% endcapture %} {% include accordion.html accordion_header = 'Practices
+      used' accordion_body = accordion_body accordion_index = '2' %}
     </div>
 
     <h2>The results</h2>
     {{ include.results | markdownify }}
     {% if page.news_posts %}
-      {% capture news_body%}
-        <aside class="news-coverage callout">
-          <h2>News coverage</h2>
-          <ul>
-            {% for post in page.news_posts %}
-            <li>
-              <a href="{{post.url}}">{{post.title | markdownify }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </aside>
-      {% endcapture %}
-      {{ news_body }}
+    {% capture news_body%}
+    <aside class="news-coverage callout">
+      <h2>News coverage</h2>
+      <ul>
+        {% for post in page.news_posts %}
+        <li>
+          <a href="{{post.url}}">{{post.title | markdownify }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </aside>
+    {% endcapture %}
+    {{ news_body }}
     {% endif %}
   </div>
 
   {% if page.project_url or page.source_code_url %}
   <div class="project-case-study-footer">
     {% capture project_link_markup %}
-    <a class="work-example-cta" href="{{page.project_url}}" role="button"
-      >{{page.project_cta}}</a
-    >
+    <a class="work-example-cta" href="{{page.project_url}}" role="button">{{page.project_cta}}</a>
     {% endcapture %} {% capture source_code_link_markup %}
-    <a
-      class="work-example-cta"
-      href="{{page.source_code_url}}"
-      role="button"
-      >Read the code</a
-    >
+    <a class="work-example-cta" href="{{page.source_code_url}}" role="button">Read the code</a>
     {% endcapture %} {% if page.project_url and page.source_code_url %}
     <div class="work-example-cta-wrapper">{{project_link_markup}}</div>
     <div class="work-example-cta-wrapper">{{source_code_link_markup}}</div>
