@@ -42,36 +42,52 @@ tags:
   jill fromewick,
   marcelle goggins,
   robert mitchell,
-  emily alter,
   sarah tress,
   nick bristow,
   josh nygaard,
-  mary yeh]
+  mary yeh,
+  janki kaneria,
+  rob mitchell,
+  mary crawford,
+  josh nygaard,
+  angela the,
+  lina roth,
+  alis akers,
+  kyle planeaux,
+  david mcclatchey,]
 excerpt: An open-source, modular set of tools for collecting, processing, and analyzing public health data that can be combined to solve the bespoke data needs of public health department’s as part of a modern public health data system.
 project_members:
+  - alis-akers
+  - amrita-bhatti
+  - bryan-britten
+  - nick-bristow
   - peggy-chau
   - kenneth-chow
   - nick-clyde
-  - ryan-gaddis
-  - matt-goldberg
-  - ann-millspaugh
-  - brandon-mader
-  - dan-paseltiner
-  - amrita-bhatti
+  - mary-crawford
   - brady-fausett
-  - robert-mitchell
   - jill-fromewick
+  - ryan-gaddis
   - marcelle-goggins
-  - emily-alter
-  - sarah-tress
-  - nick-bristow
+  - matt-goldberg
+  - janki-kaneria
+  - brandon-mader
+  - david-mcclatchey
+  - ann-millspaugh
+  - rob-mitchell
+  - robert-mitchell
   - josh-nygaard
   - tomi-obikunle
-  - bryan-britten
-  - graham-smith
+  - dan-paseltiner
+  - kyle-planeaux
+  - lina-roth
+  - angela-the
+  - sarah-tress
+  - mary-yeh
   - spencer-kathol
   - jesse-skeets
-  - mary-yeh
+  - graham-smith
+ 
 technologies:
   - Python
   - APIs

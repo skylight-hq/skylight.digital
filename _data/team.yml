@@ -2236,7 +2236,7 @@
   full_name: Taylor Graue
   short_name: T. Graue
   profile_path: /company/about/#taylor-graue
-  image: /img/people/taylor-graue.png
+  image: /img/people/taylor-graue.jpg
   image_description: Photo of Taylor Graue
   position: Interim VP of Defense Services
   bio: >
@@ -2684,7 +2684,7 @@
   full_name: Zedd Shmais
   short_name: Z. Shmais
   profile_path: /company/about/#zedd-shmais
-  image: /img/people/zedd-shmais.png
+  image: /img/people/zedd-shmais.jpg
   image_description: Photo of Zedd Shmais
   position: Staff Software Engineer
   bio: >
@@ -2904,6 +2904,10 @@
       link: https://github.com/bobbywells52
       link_description: Bobby's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/bobby-wells/
+      link_description: Bobby's Project Work
+      fa_icon_name: wrench
 - name: kenneth-chow
   fname: Kenneth
   lname: Chow
@@ -3103,6 +3107,10 @@
       link: https://jnygaard.dev
       link_description: Josh's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/josh-nygaard/
+      link_description: Josh's Project Work
+      fa_icon_name: wrench
 - name: michelle-li
   fname: Michelle
   lname: Li
@@ -3283,7 +3291,7 @@
   full_name: Kelli Mason
   short_name: K. Mason
   profile_path: /company/about/#kelli-mason
-  image: /img/people/kelli-mason.png
+  image: /img/people/kelli-mason.jpg
   image_description: Photo of Kelli Mason
   position: Head of People Operations
   bio: >
@@ -3383,7 +3391,7 @@
   full_name: Angela The
   short_name: A. The
   profile_path: /company/about/#angela-the
-  image: /img/people/angela-the.png
+  image: /img/people/angela-the.jpg
   image_description: Photo of Angela The
   position: Software Engineer Apprentice 
   bio: >
@@ -3409,6 +3417,10 @@
       link: https://www.angelathe.com/
       link_description: Angela's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/angela-the/
+      link_description: Angela’s Project Work
+      fa_icon_name: wrench
 - name: emmanuel-nwakire
   fname: Emmanuel
   lname: Nwakire
@@ -3457,6 +3469,10 @@
       link: https://www.linkedin.com/in/kathryn-mullins-a6025563/
       link_description: Kathryn's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/kathryn-mullins/
+      link_description: Kathryn’s Project Work
+      fa_icon_name: wrench
 - name: ian-hancock
   fname: Ian
   lname: Hancock
@@ -3483,7 +3499,7 @@
   full_name: Emily Alter
   short_name: E. Alter
   profile_path: /company/about/#emily-alter
-  image: /img/people/emily-alter.png
+  image: /img/people/emily-alter.jpg
   image_description: Photo of Emily Alter
   position: Senior User Researcher 
   bio: >
@@ -3539,7 +3555,7 @@
   full_name: Mike Judd
   short_name: M. Judd
   profile_path: /company/about/#mike-judd
-  image: /img/people/mike-judd.png
+  image: /img/people/mike-judd.jpg
   image_description: Photo of Mike Judd
   position: Chief Operating Officer, Human Services
   bio: >
@@ -3553,6 +3569,10 @@
       link: https://www.linkedin.com/in/michaelcjudd/
       link_description: Mike's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mike-judd/
+      link_description: Mike’s Project Work
+      fa_icon_name: wrench
 - name: mary-yeh
   fname: Mary
   lname: Yeh
@@ -3605,6 +3625,10 @@
       link: https://github.com/arinkulshi
       link_description: Arin's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/arin-kulshi/
+      link_description: Arin’s Project Work
+      fa_icon_name: wrench
 - name: lainey-trahan
   fname: Lainey
   lname: Trahan
@@ -3629,13 +3653,17 @@
       link: https://github.com/laineymajor
       link_description: Lainey's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/lainey-trahan/
+      link_description: Lainey’s Project Work
+      fa_icon_name: wrench
 - name: evan-bowers
   fname: Evan
   lname: Bowers
   full_name: Evan Bowers
   short_name: E. Bowers
   profile_path: /company/about/#evan-bowers
-  image: /img/people/evan-bowers.png
+  image: /img/people/evan-bowers.jpg
   image_description: Photo of Evan Bowers
   position: Staff Product Designer
   bio: >
@@ -3653,6 +3681,10 @@
       link: https://www.evbowers.com
       link_description: Evan's Personal Website
       fa_icon_name: home
+    - name: Projects
+      link: /work/team-member/evan-bowers/
+      link_description: Evan’s Project Work
+      fa_icon_name: wrench
 - name: bruce-jacobson
   fname: Bruce
   lname: Jacobson
@@ -3673,13 +3705,17 @@
       link: https://www.linkedin.com/in/brucejacobsonjr/
       link_description: Bruce's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/bruce-jacobson/
+      link_description: Bruce’s Project Work
+      fa_icon_name: wrench
 - name: miringu-kiarie
   fname: Miringu
   lname: Kiarie
   full_name: Miringu Kiarie
   short_name: M. Kiarie
   profile_path: /company/about/#miringu-kiarie
-  image: /img/people/miringu-kiarie.png
+  image: /img/people/miringu-kiarie.jpg
   image_description: Photo of Miringu Kiarie
   position: Senior User Researcher
   bio: >
@@ -3693,6 +3729,10 @@
       link: https://www.linkedin.com/in/miringu-kiarie-546311ba/
       link_description: Miringu's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/miringu-kiarie/
+      link_description: Miringu’s Project Work
+      fa_icon_name: wrench
 - name: alex-hayward
   fname: Alex
   lname: Hayward
@@ -3713,6 +3753,10 @@
       link: https://www.linkedin.com/in/alex-hayward-830533156/
       link_description: Alex's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/alex-hayward/
+      link_description: Alex’s Project Work
+      fa_icon_name: wrench
 - name: mary-crawford
   fname: Mary
   lname: Crawford
@@ -3733,13 +3777,17 @@
       link: https://www.linkedin.com/in/marycrawfordtechip
       link_description: Mary's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/mary-crawford/
+      link_description: Mary’s Project Work
+      fa_icon_name: wrench
 - name: monica-qiu
   fname: Monica
   lname: Qiu
   full_name: Monica Qiu
   short_name: M. Qiu
   profile_path: /company/about/#monica-qiu
-  image: /img/people/monica-qiu.png
+  image: /img/people/monica-qiu.jpg
   image_description: Photo of Monica Qiu
   position: Staff Product Manager
   bio: >
@@ -3753,6 +3801,10 @@
       link: https://www.linkedin.com/in/monicaqiu/
       link_description: Monica's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/monica-qiu/
+      link_description: Monica’s Project Work
+      fa_icon_name: wrench
 - name: eileen-ruberto
   fname: Eileen
   lname: Ruberto
@@ -3773,6 +3825,10 @@
       link: https://www.linkedin.com/in/eileenruberto
       link_description: Eileen's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/eileen-ruberto/
+      link_description: Eileen’s Project Work
+      fa_icon_name: wrench
 - name: rob-mitchell
   fname: Rob
   lname: Mitchell
@@ -3793,6 +3849,10 @@
       link: https://www.linkedin.com/in/robert-mitchell-55050856/
       link_description: Rob's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/rob-mitchell/
+      link_description: Rob’s Project Work
+      fa_icon_name: wrench
 - name: janki-kaneria
   fname: Janki
   lname: Kaneria
@@ -3813,3 +3873,7 @@
       link: https://www.linkedin.com/in/jankikaneria
       link_description: Janki's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/janki-kaneria/
+      link_description: Janki’s Project Work
+      fa_icon_name: wrench
