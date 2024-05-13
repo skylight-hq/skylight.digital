@@ -54,7 +54,8 @@ tags:
     boban ljuljdjurovic,
     ryan gaddis,
     tomi obikunle,
-    mike brown]
+    mike brown,
+    bobby wells,]
 excerpt: A free tool that makes it easy for non-traditional and under-resourced disease testing sites to record results for diagnostic tests and quickly report data to public health departments.
 project_members:
   - laura-king
@@ -91,6 +92,7 @@ project_members:
   - charlye-tran
   - adam-weber
   - victor-zapanta
+  - bobby-wells
 technologies:
   - HTML / CSS
   - Storybook
