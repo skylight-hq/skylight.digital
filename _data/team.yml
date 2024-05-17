@@ -3721,10 +3721,10 @@
   active: true
   order: 1320
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/alex-hayward-830533156/
-      link_description: Alex's LinkedIn Account
-      fa_icon_name: linkedin
+    #- name: LinkedIn
+     # link: https://www.linkedin.com/in/alex-hayward-830533156/
+     # link_description: Alex's LinkedIn Account
+     # fa_icon_name: linkedin
 - name: mary-crawford
   fname: Mary
   lname: Crawford
@@ -3765,10 +3765,10 @@
   active: true
   order: 1340
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/monicaqiu/
-      link_description: Monica's LinkedIn Account
-      fa_icon_name: linkedin
+    #- name: LinkedIn
+     # link: https://www.linkedin.com/in/monicaqiu/
+     # link_description: Monica's LinkedIn Account
+     # fa_icon_name: linkedin
 - name: eileen-ruberto
   fname: Eileen
   lname: Ruberto
@@ -3785,10 +3785,10 @@
   active: true
   order: 1350
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/eileenruberto
-      link_description: Eileen's LinkedIn Account
-      fa_icon_name: linkedin
+    #- name: LinkedIn
+     # link: https://www.linkedin.com/in/eileenruberto
+     # link_description: Eileen's LinkedIn Account
+     # fa_icon_name: linkedin
 - name: rob-mitchell
   fname: Rob
   lname: Mitchell
@@ -3809,10 +3809,10 @@
       link: https://www.linkedin.com/in/robert-mitchell-55050856/
       link_description: Rob's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/rob-mitchell/
-      link_description: Rob’s Project Work
-      fa_icon_name: wrench
+    #- name: Projects
+     # link: /work/team-member/rob-mitchell/
+     # link_description: Rob’s Project Work
+     # fa_icon_name: wrench
 - name: janki-kaneria
   fname: Janki
   lname: Kaneria
@@ -3833,7 +3833,7 @@
       link: https://www.linkedin.com/in/jankikaneria
       link_description: Janki's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/janki-kaneria/
-      link_description: Janki’s Project Work
-      fa_icon_name: wrench
+    #- name: Projects
+     # link: /work/team-member/janki-kaneria/
+     # link_description: Janki’s Project Work
+     # fa_icon_name: wrench
