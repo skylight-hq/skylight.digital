@@ -2629,16 +2629,12 @@
   active: true
   order: 920
   socials:
-    - name: Twitter
-      link: https://twitter.com/tblznbits
-      link_description: Bryan's Twitter Account
-      fa_icon_name: twitter
     - name: LinkedIn
       link: https://www.linkedin.com/in/bryanbritten/
       link_description: Bryan's LinkedIn Account
       fa_icon_name: linkedin
     - name: GitHub
-      link: https://github.com/tibblesnbits
+      link: https://github.com/bryanbritten
       link_description: Bryan's GitHub Account
       fa_icon_name: github
     - name: Personal Website
