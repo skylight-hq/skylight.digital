@@ -126,8 +126,8 @@ The project team is applying learnings from this pilot to inform additional DIBB
 
 - Built a prototype DIBBs pipeline that significantly improved data processing speed and broke down silos between different streams
 - Reduced patient record duplication by 19% across data streams (lab reports, case reports, and vaccinations)
-- Using the prototype pipeline, VDH went from being able to handle 5,800 incoming HL7 messages per hour, at peak, to 20,000 messages per hour
-- DIBBs pipeline generates a tabular, analysis-ready data mart for ~380,000 patient resources in under 15 minutes
+- VDH went from being able to handle 5,800 incoming HL7 messages per hour, at peak, to 20,000 messages per hour
+- DIBBs pipeline can generate a tabular, analysis-ready data mart for ~380,000 patient resources in under 15 minutes
 - Continuing to pilot and iterate on the DIBBs pipeline with additional STLTs and disease surveillance systems
   {% endcapture %}
 
