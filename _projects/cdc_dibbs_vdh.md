@@ -2,7 +2,7 @@
 layout: default
 title_tag: Centers for Disease Control and Prevention
 title: Piloting a pipeline that improves public health data processing and analysis
-permalink: /work/experience/cdc-data-integration-building-blocks-vhd-pilot/
+permalink: /work/experience/cdc-data-integration-building-blocks-vdh-pilot/
 redirect_from:
   - /cdc-data-integration-building-blocks-vhd-pilot/
 image: /img/projects/cdc_phdi_vdh/phdi-vhd-prototype.svg
