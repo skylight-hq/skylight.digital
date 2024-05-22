@@ -99,7 +99,7 @@ Data coming into state, tribal, local, and territorial (STLT) public health agen
   content = "Our epidemiologists waste 80% of their time cleaning data and can't do useful analysis. The end goal…is to free up that 80% of their time to do actual public health work."
 %}
 
-The Virginia Department of Health experienced exactly this problem during the COVID-19 pandemic. Virginia’s public health disease surveillance system relied on time- and resource-intensive manual processes (involving multiple staff members, siloed systems, and an Excel spreadsheet that scheduled when different data streams could be processed to avoid overloading). As a result of these methods, along with the high volume and spikes in COVID-19 data throughout the pandemic, data processing was slow, systems timed out, and there was no single source of truth for incoming data.
+The Virginia Department of Health experienced exactly this problem during the COVID-19 pandemic. Virginia’s public health surveillance system relied on time- and resource-intensive manual processes (involving multiple staff members, siloed systems, and an Excel spreadsheet that scheduled when different data streams could be processed to avoid overloading). As a result of these methods, along with the high volume and spikes in COVID-19 data throughout the pandemic, data processing was slow, systems timed out, and there was no single source of truth for incoming data.
 
 VDH wanted to improve their processes for making incoming data from healthcare partners analysis-ready to more efficiently inform public health action. Specifically, they wanted to combine different data streams (electronic lab reports, electronic case reports, and vaccinations) into a single database, where they could then quickly and easily perform analyses with minimal manual effort. Additionally, local jurisdictions within Virginia wanted to geocode the data to identify gaps in vaccination and then perform targeted outreach, such as holding vaccination drives within schools or apartment complexes.
 
@@ -119,7 +119,7 @@ The prototype data processing pipeline that resulted from this work helped VDH u
 
 Our team constructed this prototype pipeline using a set of open-source, modular tools known as Data Integration Building Blocks (DIBBs). From a software deployment perspective, DIBBs are accessible via RESTful APIs. These services are containerized, so that all of their operating needs are defined and bundled into a single package, making them easy to deploy to cloud environments or on-premises if needed. When combined together, DIBBs create customisable pipelines that can increase data processing speed for incoming data across a wide range of data formats (e.g., eCR, ELR, VXU). 
 
-The project team is applying learnings from this pilot to inform additional DIBBs products that STLTs can use to modernize their data systems. During the next phase of work, our team is working to further test and iterate on DIBBs products with a wide range of public health departments to solve similar data challenges.
+The project team is applying learnings from this pilot to inform additional DIBBs products that STLTs can use to modernize their data systems. During the next phase of work, our team will continue to test and iterate on DIBBs products with a wide range of public health departments to solve similar data challenges.
 {% endcapture %}
 
 {% capture results %}
