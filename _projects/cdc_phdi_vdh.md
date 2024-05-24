@@ -5,6 +5,7 @@ title: Piloting a pipeline that improves public health data processing and analy
 permalink: /work/experience/cdc-public-health-data-infrastructure-pilot/
 redirect_from:
   - /cdc-public-health-data-infrastructure-pilot/
+  - /cdc-data-integration-building-blocks-vhd-pilot/
 image: /img/projects/cdc_phdi_vdh/phdi-vhd-prototype.svg
 image_description: Someone using a tablet with multiple items (vaccines, labs, patient records) flying in from all sides and being dropped into a single screen view.
 feature_image:
