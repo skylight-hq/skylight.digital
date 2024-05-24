@@ -2,10 +2,11 @@
 layout: default
 title_tag: Centers for Disease Control and Prevention
 title: Piloting a pipeline that improves public health data processing and analysis
-permalink: /work/experience/cdc-public-health-data-infrastructure-pilot/
+permalink: /work/experience/cdc-data-integration-building-blocks-vdh-pilot
 redirect_from:
   - /cdc-public-health-data-infrastructure-pilot/
   - /cdc-data-integration-building-blocks-vhd-pilot/
+  - /work/experience/cdc-public-health-data-infrastructure-pilot/
 image: /img/projects/cdc_phdi_vdh/phdi-vhd-prototype.svg
 image_description: Someone using a tablet with multiple items (vaccines, labs, patient records) flying in from all sides and being dropped into a single screen view.
 feature_image:
