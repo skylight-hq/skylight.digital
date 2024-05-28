@@ -17,8 +17,12 @@
 
   > * {
     @include grid-container;
-    max-width: $size-md !important;
+    max-width: $size-desktop !important;
   }
+}
+
+.page-subfooter-light-blue {
+  background: $page-cta-bg-color-alternate !important;
 }
 
 .page-company {

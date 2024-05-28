@@ -4,23 +4,23 @@ title: Our experience
 description: Explore a sampling of the types of experience that Skylight brings to your biggest digital challenges.
 permalink: /work/experience/
 redirect_from:
-  - /work/
-  - /work/energyos/
-  - /work/maalka/
-  - /work/people-power/
-  - /experience/
-  - /work/experience/usaf-logux/
+- /work/
+- /work/energyos/
+- /work/maalka/
+- /work/people-power/
+- /experience/
+- /work/experience/usaf-logux/
 pagination:
-  enabled: true
-  per_page: 10000
-  collection: projects
-  sort_field: "order"
-  sort_reverse: false
+	enabled: true
+	per_page: 10000
+	collection: projects
+	sort_field: "order"
+	sort_reverse: false
 ---
 
 {% capture header_content %}
-  Explore a sampling of the types of experience that
-  we can <br class="linebreak">bring to your biggest digital challenges.
+Explore a sampling of the types of experience that
+we can <br class="linebreak">bring to your biggest digital challenges.
 {% endcapture %}
 {% include page_header.html header_content_class = 'page-header-content-1' header_content = header_content %}
 {% include filter_component.html %}
@@ -30,9 +30,9 @@ pagination:
 {% assign context = include.context %}
 {% assign limit = include.limit %}
 {% if limit %}
-  {% assign collection_size = limit %}
+{% assign collection_size = limit %}
 {% else %}
-  {% assign collection_size = collection.size %}
+{% assign collection_size = collection.size %}
 {% endif %}
 {% include hanging_column_size.html collection_size = collection_size col_size = 3 %}
 
@@ -40,22 +40,10 @@ pagination:
   <div class="projects grid-container">
     <div class="projects-row">
       {% for item in paginator.posts %}
-      <article
-        class="project-col"
-        data-tags="{{item.tags | join: ', '}}"
-        data-display="{{item.display}}"
-      >
-        <div
-          class="project-card card-link"
-          data-href="{{item.permalink | prepend: site.baseurl }}"
-          tabindex="-1"
-        >
-          <div
-            role="img"
-            class="project-img"
-            style="background-image: url({{item.image | prepend: site.baseurl}});"
-            title="{{item.image_description}}"
-          ></div>
+      <article class="project-col" data-tags="{{item.tags | join: ', '}}" data-display="{{item.display}}">
+        <div class="project-card card-link" data-href="{{item.permalink | prepend: site.baseurl }}" tabindex="-1">
+          <div role="img" class="project-img" style="background-image: url({{item.image | prepend: site.baseurl}});"
+            title="{{item.image_description}}"></div>
           <div class="project-block">
             {% if item.title_tag %}
             <p class="project-title-tag">{{item.title_tag}}</p>
@@ -65,8 +53,7 @@ pagination:
           </div>
           <div class="project-footer">
             <a href="{{item.permalink | prepend: site.baseurl }}" tabindex="0">
-              <span>Read more</span
-              ><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+              <span>Read more</span><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
         </div>
