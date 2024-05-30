@@ -6,7 +6,7 @@
   <header class="hero hero-banner mb-5 {% if include.class %}{{ include.class }}{% endif %}">
     <div class="hero-container container-fluid text-center">
       <{% if page.layout=="toolkit" %}p{% else %}h1{% endif %}
-        class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %}">
+        class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %} mt-2">
         {% if include.hero_title %}
         {{ include.hero_title }}
         {% elsif page.layout == "toolkit" %}
@@ -23,7 +23,7 @@
         {% endif %}
       </div>
       {% if include.link_content %}
-      <div class="hero-content">
+      <div class="hero-content mb-2">
         <a href="{{include.link_href}}" class="{{include.link_class}}" {% if include.link_type
           %}type="{{include.link_type}}" {% endif %}>
           {{include.link_content}}
