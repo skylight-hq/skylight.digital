@@ -7,6 +7,14 @@
   white-space: nowrap;
 }
 
+.pxr-0{
+  padding-right: 0 !important;
+}
+
+.pxl-0{
+  padding-left: 0 !important;
+}
+
 .callout--public-health {
   background-color: $purple-60;
   border-color: $purple-70;
@@ -177,6 +185,11 @@
       display: flex;
       img{
         max-width: 60% !important;
+      }
+    }
+    .image-div-small{
+      img{
+        max-width: 45% !important;
       }
     }
     img{
