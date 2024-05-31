@@ -3833,3 +3833,191 @@
       link: /work/team-member/janki-kaneria/
       link_description: Janki’s Project Work
       fa_icon_name: wrench
+- name: eric-buckley
+  fname: Eric
+  lname: Buckley
+  full_name: Eric Buckley
+  short_name: E. Buckley
+  profile_path: /company/about/#eric-buckley
+  image: /img/people/eric-buckley.jpg
+  image_description: Photo of Eric Buckley
+  position: Staff Software Engineer
+  bio: >
+   Eric's a software engineer with 20+ years of experience in designing and building web applications and ETL pipelines. 
+   He's devoted to developing simple systems that are intuitive for users and easy for organizations to evolve. 
+   Eric lives in Oregon. 
+  active: true
+  order: 1370
+  socials:
+- name: roger-ruiz
+  fname: Roger
+  lname: Ruiz
+  full_name: Roger Ruiz
+  short_name: R. Ruiz
+  profile_path: /company/about/#roger-ruiz
+  image: /img/people/roger-steve-ruiz.jpg
+  image_description: Photo of Roger Ruiz
+  position: Staff Software Engineer
+  bio: >
+   Roger's a software engineer that specializes in full-stack web development, API design, and developer experience. 
+   Coming from private and public sector companies like 18F and HashiCorp, Roger loves approaching complex problems from a holistic perspective. 
+   He lives in Illinois. 
+  active: true
+  order: 1370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/rogeruiz
+      link_description: Roger's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://www.github.com/rogeruiz/
+      link_description: Roger's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://write.rog.gr/
+      link_description: Roger's Personal Website
+      fa_icon_name: home
+- name: dana-nelson
+  fname: Dana
+  lname: Nelson
+  full_name: Dana Nelson
+  short_name: D. Nelson
+  profile_path: /company/about/#dana-nelson
+  image: /img/people/dana-nelson.jpg
+  image_description: Photo of Dana Nelson
+  position: Staff User Researcher
+  bio: >
+   Dana's a user researcher dedicated to improving healthcare experiences. 
+   She's helped redesign electronic medical records, led product design teams, reimagined offerings for hospitals, and launched a brand new mental health app for teenagers. 
+   Dana lives in Oregon.
+  active: true
+  order: 1370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/isnodana/
+      link_description: Dana's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://isnodana.com/
+      link_description: Dana's Personal Website
+      fa_icon_name: home
+- name: karina-wernecke
+  fname: Karina
+  lname: Wernecke
+  full_name: Karina Wernecke
+  short_name: K. Wernecke
+  profile_path: /company/about/#karina-wernecke
+  image: /img/people/karina-wernecke.jpg
+  image_description: Photo of Karina Wernecke
+  position: Staff Product Manager
+  bio: >
+   Karina's a product manager who enjoys collaborating with others to solve challenging problems through delightful solutions. 
+   She received her MBA from Northwestern Kellogg and has previous experience in marketing and software development. 
+   Karina lives in Illinois.
+  active: true
+  order: 1370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/karinawernecke/
+      link_description: Karina's LinkedIn Account
+      fa_icon_name: linkedin
+- name: amy-kintner
+  fname: Amy
+  lname: Kintner
+  full_name: Amy Kintner
+  short_name: A. Kintner
+  profile_path: /company/about/#amy-kintner
+  image: /img/people/amy-kintner.jpg
+  image_description: Photo of Amy Kintner
+  position: Staff Software Engineer
+  bio: >
+   Amy's a software engineer with experience in software development and higher education. 
+   An academic at heart, Amy's passionate about pursuing knowledge of all types and levels. 
+   She lives in Oregon.
+  active: true
+  order: 1370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/amy-kintner/
+      link_description: Amy's LinkedIn Account
+      fa_icon_name: linkedin
+- name: brandon-sanchez
+  fname: Brandon
+  lname: Sanchez
+  full_name: Brandon Sanchez
+  short_name: B. Sanchez
+  profile_path: /company/about/#brandon-sanchez
+  image: /img/people/brandon-sanchez.jpg
+  image_description: Photo of Brandon Sanchez
+  position: Senior User Researcher
+  bio: >
+   Brandon's a researcher and product strategist with over eight years of experience driving accessibility and ethical practices in technology. 
+   At companies like Meta and Spotify, he shaped product development with user-centric design to ensure digital experiences are engaging and inclusive. 
+   Brandon lives in Texas.
+  active: true
+  order: 1370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brandonwsanchez/
+      link_description: Brandon's LinkedIn Account
+      fa_icon_name: linkedin
+- name: holly-dewolf
+  fname: Holly
+  lname: DeWolf
+  full_name: Holly DeWolf
+  short_name: H. DeWolf
+  profile_path: /company/about/#holly-dewolf
+  image: /img/people/holly-dewolf.jpg
+  image_description: Photo of Holly DeWolf
+  position: Staff Product Manager
+  bio: >
+   Holly's a product manager with a robust background in user experience research and design. 
+   She's dedicated to streamlining government services so teams can concentrate on their missions. 
+   Holly lives in Virginia.
+  active: true
+  order: 1370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/hmdewolf/
+      link_description: Holly's LinkedIn Account
+      fa_icon_name: linkedin
+- name: austin-brown
+  fname: Austin
+  lname: Brown
+  full_name: Austin Brown
+  short_name: A. Brown
+  profile_path: /company/about/#austin-brown
+  image: /img/people/austin-brown.jpg
+  image_description: Photo of Austin Brown
+  position: Staff Product Manager
+  bio: >
+  Austin's a product manager with a background in UX design and industrial design. 
+  He's passionate about helping organization's make good on their transformation and modernization efforts. He’s at his best when coaching cross-functional teams to be exceptional and representing complex technology in simple terms. 
+  Austin lives in New York.
+  active: true
+  order: 1370
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/austincbrown/
+      link_description: Austin's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/KeepAustinWired
+      link_description: Austin's GitHub Account
+      fa_icon_name: github
+- name: kallen-michaels
+  fname: Kallen
+  lname: Michaels
+  full_name: Kallen Michaels
+  short_name: K. Michaels
+  profile_path: /company/about/#kallen-michaels
+  image: /img/people/kallen-michaels.jpg
+  image_description: Photo of Kallen Michaels
+  position: Principal Product Designer
+  bio: >
+   Kallen's a designer and strategist who's motivated by interesting, meaningful work that tangibly solves critical pain points in the world. 
+   She has experience leading design, strategy, and people for projects that help users make important decisions. 
+   Kallen lives in Colorado. 
+  active: true
+  order: 1370
+  socials:
