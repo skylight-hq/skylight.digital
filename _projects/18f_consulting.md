@@ -22,7 +22,7 @@ technologies:
   - Google Workspace
   - Trello
   - Slack
-  - MURAL
+  - Mural
   - appear.in
   - cloud.gov / Amazon Web Services
   - Federalist / GitHub Pages

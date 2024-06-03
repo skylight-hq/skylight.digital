@@ -19,7 +19,7 @@ project_members:
   - zoe-do
 technologies:
   - Google Workspace
-  - MURAL
+  - Mural
   - Mattermost
   - Slack
 practices:

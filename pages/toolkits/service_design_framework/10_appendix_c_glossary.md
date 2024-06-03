@@ -68,7 +68,7 @@ content_type: Toolkit
 
 **Synthesis:** Analyzing qualitative and quantitative data to pull out patterns and form an understanding of the landscape.
 
-**Tool:** A technology product or other aid that helps you carry out a particular method — for example, Google Docs or MURAL.
+**Tool:** A technology product or other aid that helps you carry out a particular method — for example, Google Docs or Mural.
 
 **Templates:** The preformatted documents or tools that users of this guide can follow to help carry out a method.
 
