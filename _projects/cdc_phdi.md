@@ -6,7 +6,7 @@ permalink: /work/experience/cdc-public-health-data-infrastructure/
 redirect_from:
   - /cdc-public-health-data-infrastructure/
 image: /img/projects/cdc_phdi/phdi.svg
-image_description: A person stacking blocks on a table.
+image_description: A person stacking some blocks on a table.
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -87,7 +87,7 @@ project_members:
   - spencer-kathol
   - jesse-skeets
   - graham-smith
- 
+
 technologies:
   - Python
   - APIs
