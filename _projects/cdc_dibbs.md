@@ -88,7 +88,6 @@ project_members:
   - spencer-kathol
   - jesse-skeets
   - graham-smith
-
 technologies:
   - Python
   - APIs
