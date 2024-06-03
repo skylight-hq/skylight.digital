@@ -44,7 +44,7 @@ technologies:
   - JavaScript / JSON / TypeScript / React
   - U.S. Web Design System
   - Carbon Design System
-  - MURAL
+  - Mural
   - Sketch
   - InVision
   - Smartsheets

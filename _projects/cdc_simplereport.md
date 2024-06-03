@@ -99,7 +99,7 @@ technologies:
   - Chromatic
   - U.S. Web Design System
   - Figma
-  - MURAL
+  - Mural
   - Respondent
   - React in TypeScript with Apollo
   - Nightwatch

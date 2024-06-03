@@ -16,7 +16,7 @@ project_members:
   - lara-kohl
   - gabriel-ramirez
 technologies:
-  - MURAL
+  - Mural
   - Smartsheets
   - Caseworthy
   - SQL
