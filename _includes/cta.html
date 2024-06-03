@@ -1,4 +1,4 @@
-<section class="page-subfooter">
+<section class="page-subfooter {{include.section_class}}">
   <div class="page-subfooter-content">
     <div class="page-subfooter-header-row">
       <div class="page-subfooter-header-col">
@@ -16,7 +16,7 @@
     {% if ctaurl contains '://' %}
 
     {% else %}
-      {% assign ctaurl = include.cta_path | prepend: site.baseurl %}
+    {% assign ctaurl = include.cta_path | prepend: site.baseurl %}
     {% endif %}
 
     <div class="page-subfooter-cta-row">
