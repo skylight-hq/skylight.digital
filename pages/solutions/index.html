@@ -12,9 +12,9 @@ hero_content = 'Skylight-built solutions for your specific mission needs.'
 color = "primary"
 image = "hero-solutions.svg" %}
 
-<section class="mx-auto maxw-md">
+<section class="maxw-md grid-container prose">
   <div class="grid-container prose">
-    <div class="blog-posts-row mt-5">
+    <div class="blog-posts-row my-5 mb-md-0">
       {% for solution in site.data.solutions %}
       <article class="blog-post-col col-md-6">
         <div class="blog-post-card card-link" data-href="{{ solution.url }}" tabindex="-1">

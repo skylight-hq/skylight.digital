@@ -7,7 +7,15 @@
   white-space: nowrap;
 }
 
-.callout--gearfit {
+.pxr-0{
+  padding-right: 0 !important;
+}
+
+.pxl-0{
+  padding-left: 0 !important;
+}
+
+.callout--public-health {
   background-color: $purple-60;
   border-color: $purple-70;
   h3.callout-heading {
@@ -98,7 +106,7 @@
   margin-bottom: -4rem;
 }
 
-.gearfit-caption-text{
+.public-health-caption-text{
   color: var(--Gray-100, #54565A);
   font-family: Libre Franklin;
   font-size: 1rem;
@@ -107,7 +115,19 @@
   line-height: 1.3rem; /* 1.3rem */
 }
 
-.page-work-solutions-gearfit{
+.public-health-content {
+  .our-experience {
+    margin-top: 2rem !important;
+    h2 {
+      margin-bottom: 2rem !important;
+      text-align: left;
+    }
+  }
+}
+
+
+.page-work-solutions-public-health-index-html, .page-work-solutions-public-health{
+  
   .page-subfooter{
     background-color: $purple-100;
   }
@@ -119,6 +139,10 @@
   .vertical-align{
     display: flex;
     align-items: center;
+    height: 100%;
+    p {
+      margin-bottom: 0;
+    }
   }
   .next-to-purple{
     margin-right: 1rem;
@@ -127,7 +151,7 @@
   //Mobile hero banner
   @media (max-width: 767px){ 
     .hero-banner {
-        background-image: url("/img/hero-mobile-gearfit.svg") !important;
+        background-image: url("/img/hero-mobile-company.svg") !important;
     }
   }
   @media (max-width: 424px) {
@@ -150,6 +174,11 @@
       display: flex;
       img{
         max-width: 60% !important;
+      }
+    }
+    .image-div-small{
+      img{
+        max-width: 45% !important;
       }
     }
     img{
@@ -180,7 +209,7 @@
         font-family: Roboto Mono !important;
       }
     }
-    .callout--gearfit {
+    .callout--public-health {
       margin-top: 2rem;
     }
     
@@ -189,7 +218,7 @@
     .accordion-card {
       display: none;
     }
-    .gearfit-offers{
+    .public-health-offers{
       p {
         padding: 0;
         margin: 0;
@@ -210,7 +239,7 @@
     .services-content h3 {
         margin-top: 0;
     }
-    .callout--gearfit{
+    .callout--public-health{
       padding-top: 0;
     }
   }
@@ -219,11 +248,29 @@
       font-size: 2.5rem;
     }
   }
+  .white-callout-border{
+    border: 3px solid var(--Blue-40, #B5D2E3);
+    background: #FFF;
+    padding: 2rem;
+  }
 }
 
-.gearfit-offers{
+.public-health-offers{
   p {
     padding: 0;
     margin: 0;
   }
+}
+
+.img-bottom > img {
+  position: absolute;
+  bottom: 0;
+}
+
+.img-95 {
+  width: 95% !important;
+}
+
+.img-90 {
+  width: 90% !important;
 }
