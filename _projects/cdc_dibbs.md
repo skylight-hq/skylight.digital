@@ -2,10 +2,11 @@
 layout: default
 title_tag: Centers for Disease Control and Prevention
 title: Building a response-ready public health data system
-permalink: /work/experience/cdc-public-health-data-infrastructure/
+permalink: /work/experience/cdc-dibbs/
 redirect_from:
   - /cdc-public-health-data-infrastructure/
-image: /img/projects/cdc_phdi/phdi.svg
+  - /work/experience/cdc-public-health-data-infrastructure/
+image: /img/projects/cdc_dibbs/dibbs.svg
 image_description: A person stacking some blocks on a table.
 feature_image:
 feature_image_description:
@@ -151,7 +152,7 @@ These activities will help define, prioritize, pilot, and, ultimately, scale Bui
 
 {% capture results %}
 
-- [Partnered with Virginia Health Department](https://skylight.digital/cdc-public-health-data-infrastructure-pilot/) to build and pilot a cloud-based data pipeline “starter kit” with a quick start approach to solve some of the main challenges STLTs face, namely data ingestion, geocoding, and deduplication
+- [Partnered with Virginia Health Department](/work/experience/cdc-dibbs-vdh-pilot/) to build and pilot a cloud-based data pipeline “starter kit” with a quick start approach to solve some of the main challenges STLTs face, namely data ingestion, geocoding, and deduplication
 - Developed SDK toolkit and API documentation enabling STLTs to easily import and integrate modular Building Blocks into their existing data environments
 - Working with Los Angeles County on piloting a Geocoding Building Block to automatically link patient data with standardized geolocation (e.g., census tract, county, address)
 - Gathered insights from public health department staff through user-centered focus groups to understand data-related frustrations and ideal outcomes
