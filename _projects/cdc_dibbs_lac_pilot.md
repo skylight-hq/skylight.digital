@@ -21,7 +21,7 @@ tags:
   data & analytics,
   apis, security & privacy,
   open government,
-  healthcare,
+  public health,
   amrita bhatti,
   peggy chau,
   nick clyde,
