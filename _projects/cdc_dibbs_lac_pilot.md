@@ -3,7 +3,7 @@ layout: default
 title_tag: Centers for Disease Control and Prevention
 title: Streamlining data processing to drive timely public health action
 permalink: /work/experience/cdc-dibbs-lac-pilot/
-image: /img/projects/cdc_dibbs_lac/dibbs-pipeline.svg
+image: /img/projects/cdc_dibbs_lac_pilot/dibbs-pipeline.svg
 image_description: Two workers in yellow safety gear patching a pipe, which is connected to a computer atop a desk. A person is working at the computer. 
 feature_image:
 feature_image_description:
@@ -101,10 +101,7 @@ Better, more reliable data reduces the need for manual cleaning and makes downst
 
 {% capture solution %}
 As part of the wider CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME), 
-Skylight worked with LAC to improve its disease surveillance infrastructure. Building on a [previous pilot](/work/experience/cdc-dibbs-vdh-pilot/) with the 
-Virginia Department of Health, the Skylight team developed and deployed a cutting-edge, modular data pipeline to automatically process and enrich multiple data streams, 
-including COVID-19 eCR files and ELRs. This open-source, cloud-based pipeline — composed of modular software components referred to as [Data Integration Building Blocks](work/experience/cdc-dibbs/) (DIBBs) — significantly 
-reduces the time it takes for LAC’s disease surveillance teams to receive and act upon public health data, while also improving the quality of that data. 
+Skylight worked with LAC to improve its disease surveillance infrastructure. Building on a [previous pilot](/work/experience/cdc-dibbs-vdh-pilot/) with the Virginia Department of Health, the Skylight team developed and deployed a cutting-edge, modular data pipeline to automatically process and enrich multiple data streams, including COVID-19 eCR files and ELRs. This open-source, cloud-based pipeline — composed of modular software components referred to as [Data Integration Building Blocks](work/experience/cdc-dibbs/) (DIBBs) —  significantly reduces the time it takes for LAC’s disease surveillance teams to receive and act upon public health data, while also improving the quality of that data. 
 
 Over the course of the year-long pilot, the DIBBs team:
 
