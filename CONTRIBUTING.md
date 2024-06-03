@@ -6,11 +6,11 @@ Before contributing, we encourage you to read this project’s CONTRIBUTING poli
 
 ## Policies
 
-We want to ensure a welcoming environment for all of our projects. Our staff follow the [Skylight Code of Conduct](https://skylight.digital/company/policies/code-of-conduct/) and all contributors should do the same.
+We want to ensure a welcoming environment for all of our projects. Our staff follow the [Skylight Code of Conduct](/company/policies/code-of-conduct/) and all contributors should do the same.
 
-We adhere to the [Skylight Open Source Policy](https://skylight.digital/company/policies/open-source/). If you have any questions, just [shoot us an email](mailto:hello@skylight.digital).
+We adhere to the [Skylight Open Source Policy](/company/policies/open-source/). If you have any questions, just [shoot us an email](mailto:hello@skylight.digital).
 
-Skylight takes seriously our responsibility to protect sensitive information, including financial and personal information, from unwarranted disclosure. For more information about security and vulnerability disclosure for this project, please read our [Skylight Vulnerability Disclosure Policy](https://skylight.digital/company/policies/vulnerability-disclosure/).
+Skylight takes seriously our responsibility to protect sensitive information, including financial and personal information, from unwarranted disclosure. For more information about security and vulnerability disclosure for this project, please read our [Skylight Vulnerability Disclosure Policy](/company/policies/vulnerability-disclosure/).
 
 ## Copyright
 
