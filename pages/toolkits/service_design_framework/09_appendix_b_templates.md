@@ -13,7 +13,7 @@ content_type: Toolkit
 
 Skylight adapts these templates to use in the various methods we leverage in our service design projects. Some are our own, and others we’ve borrowed from practitioners we trust. Templates aren’t prescriptive or rigid; feel free to alter them to meet your specific project needs.
 
-The templates below are organized by phase. Most are in the tool MURAL, but can easily be done on a physical whiteboard, in Google Slides, or whatever tools you have at your disposal.
+The templates below are organized by phase. Most are in the tool Mural, but can easily be done on a physical whiteboard, in Google Slides, or whatever tools you have at your disposal.
 
 ## Initiate
 
@@ -21,13 +21,13 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 
 **Method:** Proto-personas
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ### [Stakeholder mapping]({{ template.stakeholder_mapping.url }})
 
 **Method:** Stakeholder mapping
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ## Discover
 
@@ -45,31 +45,31 @@ The templates below are organized by phase. Most are in the tool MURAL, but can 
 ### [Affinity map]({{ template.affinity_map.url }})
 **Method:** Affinity mapping
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ### [Customer journey map]({{ template.customer_journey_map.url }})
 
 **Method:** Customer journey mapping
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ### [Service blueprint]({{ template.service_blueprint.url }})
 **Method:** Service blueprint
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ## Strategize
 
 ### [Point of view (POV) statement]({{ template.pov_statement.url }})
 **Method:** POV statement
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ### [Impact / feasibility map]({{ template.impact_feasibility_map.url }})
 
 **Method:** Prioritization workshops
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ## Experiment
 
@@ -82,9 +82,9 @@ No templates needed.
 
 **Method:** Roadmap
 <br>
-**Tool:** MURAL
+**Tool:** Mural
 
 ### [Success metrics framework]({{ template.success_metrics_framework.url }})
 **Method:** Success metrics
 <br>
-**Tool:** MURAL
+**Tool:** Mural

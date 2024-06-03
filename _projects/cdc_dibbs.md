@@ -100,7 +100,7 @@ technologies:
   - Microsoft Azure
   - Azure DevOps
   - Azure Managed FHIR Server
-  - MURAL
+  - Mural
   - Slack
   - Zoom
 practices:

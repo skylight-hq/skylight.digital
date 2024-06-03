@@ -20,7 +20,7 @@ project_members:
 technologies:
   - Google Workspace
   - Mattermost
-  - MURAL
+  - Mural
   - Slack
 practices:
   - Agile cloud migration

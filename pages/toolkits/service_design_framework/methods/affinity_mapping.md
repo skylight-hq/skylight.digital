@@ -49,4 +49,4 @@ Once all sticky notes have been sorted into clusters, go through each group as a
 Once you document insights, problems, opportunities, and questions, sort them into next steps: do nothing, add to backlog, nice to have, and further research needed. Depending on the complexity of the insights and the voices in the room, you may want to run a [prioritization workshop](/work/toolkits/service-design-framework/methods/prioritization-workshop/) instead of this step.
 
 ### 6. Share
-The insights you gain from affinity mapping will guide many of your next steps. Share the MURAL board, photos of the in-person board, or a research report based on the exercise with stakeholders to foster alignment.
+The insights you gain from affinity mapping will guide many of your next steps. Share the Mural board, photos of the in-person board, or a research report based on the exercise with stakeholders to foster alignment.
