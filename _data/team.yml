@@ -3847,7 +3847,7 @@
    He's devoted to developing simple systems that are intuitive for users and easy for organizations to evolve. 
    Eric lives in Oregon. 
   active: true
-  order: 1370
+  order: 1380
   socials:
 - name: roger-ruiz
   fname: Roger
@@ -3863,7 +3863,7 @@
    Coming from private and public sector companies like 18F and HashiCorp, Roger loves approaching complex problems from a holistic perspective. 
    He lives in Illinois. 
   active: true
-  order: 1370
+  order: 1390
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/rogeruiz
@@ -3891,7 +3891,7 @@
    She's helped redesign electronic medical records, led product design teams, reimagined offerings for hospitals, and launched a brand new mental health app for teenagers. 
    Dana lives in Oregon.
   active: true
-  order: 1370
+  order: 1400
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/isnodana/
@@ -3915,7 +3915,7 @@
    She received her MBA from Northwestern Kellogg and has previous experience in marketing and software development. 
    Karina lives in Illinois.
   active: true
-  order: 1370
+  order: 1410
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/karinawernecke/
@@ -3935,7 +3935,7 @@
    An academic at heart, Amy's passionate about pursuing knowledge of all types and levels. 
    She lives in Oregon.
   active: true
-  order: 1370
+  order: 1420
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/amy-kintner/
@@ -3955,7 +3955,7 @@
    At companies like Meta and Spotify, he shaped product development with user-centric design to ensure digital experiences are engaging and inclusive. 
    Brandon lives in Texas.
   active: true
-  order: 1370
+  order: 1430
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/brandonwsanchez/
@@ -3972,10 +3972,10 @@
   position: Staff Product Manager
   bio: >
    Holly's a product manager with a robust background in user experience research and design. 
-   She's dedicated to streamlining government services so teams can concentrate on their missions. 
+   She's dedicated to streamlining government services so teams can focus on their missions. 
    Holly lives in Virginia.
   active: true
-  order: 1370
+  order: 1440
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/hmdewolf/
@@ -3992,10 +3992,11 @@
   position: Staff Product Manager
   bio: >
     Austin's a product manager with a background in UX design and industrial design. 
-    He's passionate about helping organization's make good on their transformation and modernization efforts. He’s at his best when coaching cross-functional teams to be exceptional and representing complex technology in simple terms. 
+    He's passionate about helping organization's make good on their transformation and modernization efforts. 
+    He’s at his best when coaching cross-functional teams to be exceptional and representing complex technology in simple terms. 
     Austin lives in New York.
   active: true
-  order: 1370
+  order: 1450
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/austincbrown/
@@ -4019,5 +4020,9 @@
    She has experience leading design, strategy, and people for projects that help users make important decisions. 
    Kallen lives in Colorado. 
   active: true
-  order: 1370
+  order: 1460
   socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kallenmichaels/
+      link_description: Kallen's LinkedIn Account
+      fa_icon_name: linkedin
