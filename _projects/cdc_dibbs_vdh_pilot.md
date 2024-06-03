@@ -22,7 +22,8 @@ tags:
   devops,
   cloud & platforms,
   data & analytics,
-  apis, security & privacy,
+  apis,
+  security & privacy,
   open government,
   public health,
   bryan britten,
@@ -118,7 +119,7 @@ In an effort to improve VDH’s disease surveillance infrastructure, our team:
 
 The prototype data processing pipeline that resulted from this work helped VDH use lab (ELR), case (eCR), and vaccine (VXU) data to answer urgent COVID-19 public health questions with less manual effort. The pipeline processed incoming data faster, created a source of truth, and removed the need for duplicative processes. Data that moved through this prototype pipeline was standardized, deduplicated, geocoded, and linked, and patient-level records were created to use for analysis. Additionally, the pipeline converted raw data into a tabular, human-readable format (e.g,. spreadsheet), enabling epidemiologists to quickly find data they needed.
 
-Our team constructed this prototype pipeline using a set of open-source, modular tools known as Data Integration Building Blocks (DIBBs). From a software deployment perspective, DIBBs are accessible via RESTful APIs. These services are containerized, so that all of their operating needs are defined and bundled into a single package, making them easy to deploy to cloud environments or on-premises if needed. When combined together, DIBBs create customisable pipelines that can increase data processing speed for incoming data across a wide range of data formats (e.g., eCR, ELR, VXU). 
+Our team constructed this prototype pipeline using a set of open-source, modular tools known as Data Integration Building Blocks (DIBBs). From a software deployment perspective, DIBBs are accessible via RESTful APIs. These services are containerized, so that all of their operating needs are defined and bundled into a single package, making them easy to deploy to cloud environments or on-premises if needed. When combined together, DIBBs create customisable pipelines that can increase data processing speed for incoming data across a wide range of data formats (e.g., eCR, ELR, VXU).
 
 The project team is applying learnings from this pilot to inform additional DIBBs products that STLTs can use to modernize their data systems. During the next phase of work, our team will continue to test and iterate on DIBBs products with a wide range of public health departments to solve similar data challenges.
 {% endcapture %}

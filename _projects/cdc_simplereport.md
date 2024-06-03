@@ -50,7 +50,7 @@ tags:
     laura kerry,
     nick blake,
     sarah george hager,
-    johanna delpino, 
+    johanna delpino,
     boban ljuljdjurovic,
     ryan gaddis,
     tomi obikunle,
@@ -173,7 +173,7 @@ Adding to the complexity were health departments’ differing requirements. As o
   content = "It's a challenge to do the test, put it on paper, then go back and enter it in both formats — for the county and state."
 %}
 
-Even when facilities did have tools to track patients and results, many lacked the ability to automatically report to their jurisdictions in the different formats that they required. 
+Even when facilities did have tools to track patients and results, many lacked the ability to automatically report to their jurisdictions in the different formats that they required.
 
 On the receiving end, public health departments had to process manual reports sent from a variety of locations, which took time and resulted in errors. This manual and cumbersome process made it difficult to act fast and stay informed.
 {% endcapture %}
@@ -192,14 +192,14 @@ SimpleReport sends test results to public health departments in the format and a
 
 After the Skylight team fully assumed SimpleReport management from our USDS partners, we’ve continued making the tool as easy to use as possible while expanding its functionality. Our team focused on continually improving and growing SimpleReport through:
 
-- Enabling scaling by redesigning the account creation, login, and password reset experiences, which sped up onboarding while maintaining security 
-- Focusing on health equity by providing patient-facing Spanish content and collecting better demographic data with tools for patients to self-register 
+- Enabling scaling by redesigning the account creation, login, and password reset experiences, which sped up onboarding while maintaining security
+- Focusing on health equity by providing patient-facing Spanish content and collecting better demographic data with tools for patients to self-register
 - Proving the ability to support other diseases by adding test result recording for multiplex devices, which test for both COVID-19 and flu
-- Growing SimpleReport’s reporting capabilities by adding and iterating on a feature that allows users to upload test results in bulk using a CSV file 
+- Growing SimpleReport’s reporting capabilities by adding and iterating on a feature that allows users to upload test results in bulk using a CSV file
 - Easing reporting that facilities need to do beyond public health, including adding one-click results download and an analytics dashboard
 - Maintaining high performance by implementing automated service monitoring; working closely with the CDC support team to resolve end-user issues; and providing 24/7 on-call engineering support  
 - Using continuous integration and continuous deployment (CI/CD) practices for secure and fast development — for example, when code is pushed to production, it’s merged in 20 minutes
-- Ensuring SimpleReport meets high accessibility standards by integrating reviews in design and engineering workflow 
+- Ensuring SimpleReport meets high accessibility standards by integrating reviews in design and engineering workflow
 
 As we continue to support ongoing COVID-19 reporting, we’re also focusing on pandemic readiness and filling in gaps in other public health reporting. To further this goal, the team has expanded SimpleReport for use with additional infectious diseases beyond COVID-19. To date, we have:
 
@@ -212,8 +212,8 @@ In addition to reducing the burden for non-traditional and  under-resourced faci
 
 {% capture results %}
 - Over 8.2M tests have been performed since launch (from Jan 2021 to April 2024)
-- Over 17,300 facilities are reporting tests through SimpleReport 
-- The tool has been used to test patients from all 50 states, as well as other U.S. territories and Canadian provinces 
+- Over 17,300 facilities are reporting tests through SimpleReport
+- The tool has been used to test patients from all 50 states, as well as other U.S. territories and Canadian provinces
 - More than 2.3M total text messages sent notifying patients of their test result
 - SimpleReport was used as an example of a Data Modernization Initiative (DMI) success story in a presentation to CDC Director Dr. Walensky for its “game-changing” work in Alaska  
 - Following a successful pilot with California, support for flu reporting launched in July 2023 and RSV reporting went live in January 2024
