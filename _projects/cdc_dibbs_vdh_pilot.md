@@ -24,7 +24,7 @@ tags:
   data & analytics,
   apis, security & privacy,
   open government,
-  healthcare,
+  public health,
   bryan britten,
   graham smith,
   peggy chau,
@@ -37,7 +37,7 @@ tags:
   dan paseltiner,
   ann millspaugh,
   brady fausett,
-  robert mitchell,]
+  robert mitchell]
 excerpt: A prototype data ingestion pipeline that increases data processing speed, automates manual processes, and enables public health agencies to better analyze data and share findings to drive timely public health action and decision-making.
 project_members:
   - bryan-britten
