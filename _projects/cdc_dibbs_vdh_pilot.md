@@ -82,6 +82,9 @@ practices:
   - Cloud hosting
   - Hybrid-cloud architecture
   - Virtual collaboration
+news_posts:
+  - title: Improving Public Health Data Pipelines
+    url: https://www.cdc.gov/surveillance/data-modernization/technologies/public-health-data-pipelines.html
 source_code_url: https://github.com/CDCgov/phdi
 ---
 
@@ -105,30 +108,28 @@ However, as it stood, VDH’s existing system introduced inefficiencies and unce
 {% endcapture %}
 
 {% capture solution %}
-In partnership with the CDC and USDS, Skylight was tasked with establishing a set of best practices for data processing, storage, and exchange, working with VDH as a pilot partner for experimentation.
+As part of the CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME), Skylight partnered with VDH to experiment with new approaches for storing, processing, and linking different incoming data streams.
 
-In an effort to improve VDH’s data infrastructure, our team:
+In an effort to improve VDH’s disease surveillance infrastructure, our team:
 
-- Engaged in discovery efforts to establish an understanding of the workflow at VDH, from the receipt of public health data through processing to analysis
-- Built a prototype for VDH that brought disparate data streams together into a single database with standardized data elements
-- Developed a white paper as a central reference point for learnings from the pilot project to apply to other STLTs
+- Engaged in discovery efforts to establish an understanding of the data workflow at VDH, from the receipt of public health data through processing to analysis
+- Built a cloud-based prototype data processing pipeline for VDH that brought disparate data streams together into a single database using the Fast Healthcare Interoperability Resources (FHIR) standard to standardize data elements
+- Developed a [white paper](https://github.com/CDCgov/phdi/blob/main/publications/DMI_VAWhitePaper_V3.pdf) as a central reference point for learnings from the pilot project to apply to other STLTs
 
-This project resulted in the creation of a working prototype — a cloud-based, off-the-shelf data pipeline where raw datasets (vaccines, case reports, and lab results) can be processed in a single place. Within this system, data is standardized, deduplicated, geocoded, and linked, and patient-level records are created to use for analysis. The prototype saves time and effort, increases data processing speed, creates a single source of truth for incoming data, and removes the need for duplicative processes.
+The prototype data processing pipeline that resulted from this work helped VDH use lab (ELR), case (eCR), and vaccine (VXU) data to answer urgent COVID-19 public health questions with less manual effort. The pipeline processed incoming data faster, created a source of truth, and removed the need for duplicative processes. Data that moved through this prototype pipeline was standardized, deduplicated, geocoded, and linked, and patient-level records were created to use for analysis. Additionally, the pipeline converted raw data into a tabular, human-readable format (e.g,. spreadsheet), enabling epidemiologists to quickly find data they needed.
 
-Based on this work, we’ve extended the pilot with VDH to develop analysis tools, and, ideally, implement the prototype pipeline in a live data environment.
+Our team constructed this prototype pipeline using a set of open-source, modular tools known as Data Integration Building Blocks (DIBBs). From a software deployment perspective, DIBBs are accessible via RESTful APIs. These services are containerized, so that all of their operating needs are defined and bundled into a single package, making them easy to deploy to cloud environments or on-premises if needed. When combined together, DIBBs create customisable pipelines that can increase data processing speed for incoming data across a wide range of data formats (e.g., eCR, ELR, VXU). 
 
-Additionally, while the tools developed as part of the VDH prototype focus on data ingestion and processing, the learnings from this pilot project also help in the development of a comprehensive set of “Building Blocks,” (i.e., modular software services that STLTs can integrate into their current workflows, reducing the need for manual processes and creating more efficient access to better quality data).
-
-The next phase of work for our team will be to apply the learnings from the VDH prototype to prioritize, develop, and scale modular Building Blocks with a wide range of STLT partners to solve other healthcare data-related challenges.
+The project team is applying learnings from this pilot to inform additional DIBBs products that STLTs can use to modernize their data systems. During the next phase of work, our team will continue to test and iterate on DIBBs products with a wide range of public health departments to solve similar data challenges.
 {% endcapture %}
 
 {% capture results %}
 
-- Built prototype data ingestion pipeline that significantly improved data processing speed, monitoring, and ease of use
+- Built a prototype DIBBs pipeline that significantly improved data processing speed and broke down silos between different streams
 - Reduced patient record duplication by 19% across data streams (lab reports, case reports, and vaccinations)
-- System went from being able to handle 5,800 incoming HL7 messages per hour, at peak, to 20,000 messages per hour
-- System generates a tabular, analysis-ready data mart for ~380,000 patient resources in under 15 minutes
-- Continuing to pilot prototype with near real-time data from VDH to test and iterate on the current Building Blocks
+- VDH went from being able to handle 5,800 incoming HL7 messages per hour, at peak, to 20,000 messages per hour
+- DIBBs pipeline can generate a tabular, analysis-ready data mart for ~380,000 patient resources in under 15 minutes
+- Continuing to pilot and iterate on the DIBBs pipeline with additional STLTs and disease surveillance systems
   {% endcapture %}
 
 {% include project.html
