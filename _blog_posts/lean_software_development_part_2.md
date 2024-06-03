@@ -24,7 +24,7 @@ _“Nobody ever got fired for using agile.”_ — 2020s
 Luckily for us, we’ve entered a similar period of ubiquity for agile software development. For the last twenty years the risk takers have done the hard work to create a safe, default choice for everyone creating software. The herd is now using agile. Our projects may still fail, but no one’s going to blame our choice to use agile as the cause.
 Should we go with the herd? We do want to avoid unnecessary risk, but not at the cost of making good choices for our projects. A “safe” choice can be risky if it’s not a good fit. Buying IBM wasn’t always the best option, and there are contexts where agile isn’t the best software development choice. You should understand when **lean software development** can provide a decisive advantage over agile.
 
-If you haven’t read [part 1 of this blog series](https://skylight.digital/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean), you may hear “lean” and be thinking about lean startups or lean product development. You should read part 1 to understand how lean software development differs from these other uses of “lean.”
+If you haven’t read [part 1 of this blog series](/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean), you may hear “lean” and be thinking about lean startups or lean product development. You should read part 1 to understand how lean software development differs from these other uses of “lean.”
 
 Before considering the choice between lean software development and agile, it’s helpful to understand the challenges of waterfall methods that led to the creation of both agile and lean. From there, we can best understand the common origin of agile and lean, and how they differ.
 
@@ -91,7 +91,7 @@ To justify the huge investment in detailed requirements gathering and enumeratio
 
 Lean software development attempts to reduce costs and speed up time to value by eliminating waste in the software development process.
 
-As was described in [part 1](https://skylight.digital/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean), lean software development is directly inspired by lean manufacturing. As a lean manufacturer, you know what you’re producing — for instance, a car, or a mobile phone, or a desk chair — but how will you improve as a manufacturer? By making more with less! More items produced, in less time, with less wasted product, less people, less inventory, and ultimately less investment required to capture more revenue.
+As was described in [part 1](/thoughts/blog/lean-software-development-part-1-the-three-instances-of-lean), lean software development is directly inspired by lean manufacturing. As a lean manufacturer, you know what you’re producing — for instance, a car, or a mobile phone, or a desk chair — but how will you improve as a manufacturer? By making more with less! More items produced, in less time, with less wasted product, less people, less inventory, and ultimately less investment required to capture more revenue.
 
 Let’s pause here briefly and compare lean manufacturing with agile software development. The key risk to be managed by agile is the risk of making the wrong thing. With lean manufacturing, the key risk to manage is the risk of not being as profitable as possible. When we apply the principles of lean manufacturing to software development, we do so to manage the risk of not delivering value quickly.
 
