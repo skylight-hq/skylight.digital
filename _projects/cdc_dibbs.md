@@ -24,7 +24,7 @@ tags:
   data & analytics,
   apis, security & privacy,
   open government,
-  healthcare,
+  public health,
   bryan britten,
   graham smith,
   peggy chau,
