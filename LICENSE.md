@@ -32,7 +32,7 @@ This site may include images that are under some form of copyright protection. L
 
 ### Skylight-produced content licensed under Creative Commons Attribution-Share Alike License
 
-All site content published by Skylight Inc. is licensed under the [Creative Commons Attribution-Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/). This includes [blog posts](https://skylight.digital/thoughts/blog/) and [toolkits](https://skylight.digital/work/toolkits/), unless otherwise noted below.
+All site content published by Skylight Inc. is licensed under the [Creative Commons Attribution-Share Alike License](https://creativecommons.org/licenses/by-sa/4.0/). This includes [blog posts](/thoughts/blog/) and [toolkits](/work/toolkits/), unless otherwise noted below.
 
 ## The rest of this project is in the worldwide public domain
 
@@ -40,11 +40,11 @@ All source code is licensed under the [Creative Commons Universal Public Domain 
 
 The following toolkits are also available under this license:
 
-- [Digital Talent Management Handbook](https://skylight.digital/work/toolkits/digital-talent-management/)
-- [Data Sharing Playbook](https://skylight.digital/work/toolkits/data-sharing-playbook/)
-- [Accessibility Guide](https://skylight.digital/work/toolkits/accessibility-guide/)
-- [Agile Procurement Playbook](https://skylight.digital/work/toolkits/agile-procurement-playbook/)
-- [Managing Technical Debt Guide](https://skylight.digital/work/toolkits/managing-technical-debt/)
+- [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/)
+- [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/)
+- [Accessibility Guide](/work/toolkits/accessibility-guide/)
+- [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/)
+- [Managing Technical Debt Guide](/work/toolkits/managing-technical-debt/)
 
 ### CC0 1.0 Universal Summary
 

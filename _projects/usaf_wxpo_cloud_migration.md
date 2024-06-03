@@ -62,7 +62,7 @@ Recognizing the need for a more user-centered approach, WxPO engaged with us thr
 {% endcapture %}
 
 {% capture solution %}
-Our [Service Design Accelerator](https://skylight.digital/work/toolkits/service-design-framework/) helps clients tackle major technology initiatives more quickly and with fewer roadblocks. For WxPO, we used it to quickly turn around their stalled cloud migration and get their critical infrastructure improvements back on track.
+Our [Service Design Accelerator](/work/toolkits/service-design-framework/) helps clients tackle major technology initiatives more quickly and with fewer roadblocks. For WxPO, we used it to quickly turn around their stalled cloud migration and get their critical infrastructure improvements back on track.
 
 We started by emphasizing team communication, forming and adhering to a shared vision and strategy and establishing more cohesive cross-team processes. We then took on the developer experience, fostering increased autonomy and implementing modern and ergonomic developer tools.
 
