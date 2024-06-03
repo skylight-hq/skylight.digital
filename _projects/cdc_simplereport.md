@@ -20,7 +20,7 @@ tags:
     data & analytics,
     apis,
     security & privacy,
-    healthcare,
+    public health,
     leslie garner franklin,
     victor zapanta,
     laura king,
@@ -55,7 +55,7 @@ tags:
     ryan gaddis,
     tomi obikunle,
     mike brown,
-    bobby wells,]
+    bobby wells]
 excerpt: A free tool that makes it easy for non-traditional and under-resourced disease testing sites to record results for diagnostic tests and quickly report data to public health departments.
 project_members:
   - laura-king
