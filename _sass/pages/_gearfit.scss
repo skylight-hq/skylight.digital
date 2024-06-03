@@ -23,9 +23,6 @@
   h4 {
     font-size: $font-size-small;
   }
-  li::before{
-    content: "•" !important;
-  }
 }
 .controlled-heading{
   color: var(--Gray-300, #1C1D20);
@@ -53,9 +50,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.9125rem; /* 1.9125rem */
-  }
-  li::before{
-    content: "" !important;
   }
   li.current{
     color: $blue-200 !important;
