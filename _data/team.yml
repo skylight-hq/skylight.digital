@@ -3387,7 +3387,7 @@
   full_name: Angela The
   short_name: A. The
   profile_path: /company/about/#angela-the
-  image: /img/people/angela-the.png
+  image: /img/people/angela-the.jpg
   image_description: Photo of Angela The
   position: Software Engineer Apprentice 
   bio: >
@@ -3567,7 +3567,7 @@
   full_name: Mary Yeh
   short_name: M. Yeh
   profile_path: /company/about/#mary-yeh
-  image: /img/people/mary-yeh.png
+  image: /img/people/mary-yeh.jpg
   image_description: Photo of Mary Yeh
   position: Senior User Researcher
   bio: >
@@ -3643,7 +3643,7 @@
   full_name: Evan Bowers
   short_name: E. Bowers
   profile_path: /company/about/#evan-bowers
-  image: /img/people/evan-bowers.png
+  image: /img/people/evan-bowers.jpg
   image_description: Photo of Evan Bowers
   position: Staff Product Designer
   bio: >
@@ -3687,7 +3687,7 @@
   full_name: Miringu Kiarie
   short_name: M. Kiarie
   profile_path: /company/about/#miringu-kiarie
-  image: /img/people/miringu-kiarie.png
+  image: /img/people/miringu-kiarie.jpg
   image_description: Photo of Miringu Kiarie
   position: Senior User Researcher
   bio: >
@@ -3751,7 +3751,7 @@
   full_name: Monica Qiu
   short_name: M. Qiu
   profile_path: /company/about/#monica-qiu
-  image: /img/people/monica-qiu.png
+  image: /img/people/monica-qiu.jpg
   image_description: Photo of Monica Qiu
   position: Staff Product Manager
   bio: >
