@@ -146,7 +146,7 @@ OEC sought a partner who could help them digitally transform their organization.
 {% capture solution %}
 To address this challenge, we designed an approach that focuses on building
 OEC's internal digital capacity while at the same time modernizing critical
-services. Thus far, our efforts have involved:
+services. Our efforts involved:
 
 - [Modernizing OEC's web presence](/work/experience/ct-oec-website-redesign/)
   to make it easier for families, childcare providers, and other users to access
