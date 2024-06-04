@@ -2,11 +2,11 @@
   {% if include.color %}
     bg-{{ include.color }}
   {% endif %} hero-banner {{include.additional_class}}" {% if include.image %} style="
-      background-image: url(/img/{{ include.image }}); background-size: 100% 100%" {% endif %}>
+      background-image: url(/img/{{ include.image }}); background-size: auto 100%" {% endif %}>
   <header class="hero hero-banner mb-5 {% if include.class %}{{ include.class }}{% endif %}">
     <div class="hero-container container-fluid text-center">
       <{% if page.layout=="toolkit" %}p{% else %}h1{% endif %}
-        class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %} mt-2">
+        class="hero-heading {% if include.text == 'dark' %}text-ink{% endif %} mt-3">
         {% if include.hero_title %}
         {{ include.hero_title }}
         {% elsif page.layout == "toolkit" %}
@@ -23,7 +23,7 @@
         {% endif %}
       </div>
       {% if include.link_content %}
-      <div class="hero-content mb-2">
+      <div class="hero-content mb-3">
         <a href="{{include.link_href}}" class="{{include.link_class}}" {% if include.link_type
           %}type="{{include.link_type}}" {% endif %}>
           {{include.link_content}}
