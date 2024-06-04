@@ -126,6 +126,7 @@ modernization approach, earning stakeholder buy-in
 - Developed a functional, modernized version of the Jumps Module
 - Initiated the process of modernizing the other modules of ARMS, 
 including user research and technical discovery
+- Successfully transitioned all work over to the ARMS PMO for ongoing modernization
 {% endcapture %}
 
 {% include project.html
