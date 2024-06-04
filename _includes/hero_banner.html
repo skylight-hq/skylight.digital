@@ -2,7 +2,7 @@
   {% if include.color %}
     bg-{{ include.color }}
   {% endif %} hero-banner {{include.additional_class}}" {% if include.image %} style="
-      background-image: url(/img/{{ include.image }}); background-size: 100% 100%" {% endif %}>
+      background-image: url(/img/{{ include.image }}); background-size: auto 100%" {% endif %}>
   <header class="hero hero-banner mb-5 {% if include.class %}{{ include.class }}{% endif %}">
     <div class="hero-container container-fluid text-center">
       <{% if page.layout=="toolkit" %}p{% else %}h1{% endif %}
