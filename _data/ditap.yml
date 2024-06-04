@@ -8,7 +8,7 @@ ditap:
       instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
       cost: $6,500
       registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-169731053149
-      spots_remaining: 30
+      spots_remaining: 0
 
 executive:
   primary_registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
@@ -20,7 +20,7 @@ executive:
       instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
       cost: $750
       registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
-      spots_remaining:
+      spots_remaining: 0
 
 instructors:
   - name: Chris Cairns
