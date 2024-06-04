@@ -69,7 +69,7 @@ source_code_url:
 {% capture summary %}
 The U.S. Air Force's (USAF) Aviation Resource Management System (ARMS) is a critical
 tool for collecting, managing, and reporting data about aviation resources and aircrew
-readiness. As a subcontractor to Fearless, we're helping to revamp the user experience,
+readiness. As a subcontractor to Fearless, we helped revamp the user experience,
 technical architecture, and technology stack of this complex legacy system.
 {% endcapture %}
 
@@ -100,9 +100,9 @@ continuity of mission operations.
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to [Fearless](https://fearless.tech/), we're working together
+As a subcontractor to [Fearless](https://fearless.tech/), we worked together
 with the ARMS program team to incrementally build out a new system alongside the old one,
-until all its key functionalities are replaced — a proven architectural approach known
+until all its key functionalities could eventually be replaced — a proven architectural approach known
 as the [strangler pattern](https://martinfowler.com/bliki/StranglerFigApplication.html).
 
 After conducting extensive user research and technical discovery, we decided that the best
@@ -113,19 +113,19 @@ re-engineered this functionality as a separate application, an effort which invo
 - Redesigning the user experience to better meet the needs of aviation resource managers
 - Rebuilding it using a modern technical architecture and technology stack
 - Interfacing with the old component to migrate and keep data synchronized until
-it's no longer needed and can be decommissioned
+it's no longer needed and could be decommissioned
 
-This new application serves as a resusable infrastructure for accelerating the
-modernization of the other six modules and eventually all of ARMS, so the old
-one can be retired.
+Our work to build out this new, loosely-coupled application provided a foundational and resusable 
+infrastructure for accelerating the modernization of the other six modules and eventually all of ARMS, 
+so the old one could be retired.
 {% endcapture %}
 
 {% capture results %}
-- Rapidly developed a prototype of the new Jumps Module to demonstrate the
-feasibility of our modernization approach, earning stakeholder buy-in
-- Preparing to launch a production version of the new application
-- Beginning the process of modernizing the other modules of ARMS,
-starting with user research and technical discovery
+- Rapidly developed a prototype of the new Jumps Module to demonstrate the feasibility of our 
+modernization approach, earning stakeholder buy-in
+- Developed a functional, modernized version of the Jumps Module
+- Initiated the process of modernizing the other modules of ARMS, 
+which included user research and technical discovery
 {% endcapture %}
 
 {% include project.html
