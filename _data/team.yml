@@ -1110,7 +1110,7 @@
   profile_path: /company/about/#peggy-chau
   image: /img/people/peggy-chau.jpg
   image_description: Photo of Peggy Chau
-  position: Senior User Researcher
+  position: Staff User Researcher
   bio: >
     Peggy's a researcher and designer who transitioned from clinical
     neuroscience research. She's worked on various projects, from researching
@@ -1196,7 +1196,7 @@
   profile_path: /company/about/#nick-clyde
   image: /img/people/nick-clyde.jpg
   image_description: Photo of Nick Clyde
-  position: Senior Software Engineer
+  position: Staff Software Engineer
   bio: >
     Nick's a software engineer with a passion for using technology to solve the
     right kinds of problems. He especially enjoys building APIs, designing and
@@ -1367,7 +1367,7 @@
   profile_path: /company/about/#elisa-lee
   image: /img/people/elisa-lee.jpg
   image_description: Photo of Elisa Lee
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Elisa's a software engineer with a desire to use technology to support positive
     change in communities. They previously worked in the developer tools,
@@ -2054,7 +2054,7 @@
   profile_path: /company/about/#matt-goldberg
   image: /img/people/matt-goldberg.jpg
   image_description: Photo of Matt Goldberg
-  position: Content Designer
+  position: Senior Content Designer
   bio: >
     Matt's a content designer and storyteller with a background in clean tech innovation. 
     He enjoys making complex information accessible to everyone. 
@@ -2267,7 +2267,7 @@
   profile_path: /company/about/#laura-kerry
   image: /img/people/laura-kerry.jpg
   image_description: Photo of Laura Kerry
-  position: Senior Content Designer
+  position: Staff Content Designer
   bio: >
     Laura's a content designer who specializes in content strategy, design, operations, and governance. 
     She loves distilling complex information into human-centered content, and enjoys empowering others to do the same. 
@@ -2340,7 +2340,7 @@
   profile_path: /company/about/#sarah-tress
   image: /img/people/sarah-tress.jpg
   image_description: Photo of Sarah Tress
-  position: Product Designer
+  position: Senior Product Designer
   bio: >
     Sarah's an engineer and social scientist who loves to work at the intersection of technology and public service. 
     She recently graduated from Oxford with a Master's in Development Studies as a Rhodes Scholar after studying Mechanical Engineering at MIT. 
@@ -2393,7 +2393,7 @@
   profile_path: /company/about/#jennifer-herzberg
   image: /img/people/jennifer-herzberg.jpg
   image_description: Photo of Jennifer Herzberg
-  position: Senior Product Designer
+  position: Staff Product Designer
   bio: >
     Jennifer’s a product designer who specializes in user-centered design. 
     Previously, she led design at early- to mid-stage stage startups in the healthcare, education, and real estate industries. 
@@ -2936,7 +2936,7 @@
   profile_path: /company/about/#camille-villa
   image: /img/people/camille-villa.png
   image_description: Illustration of Camille Villa
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: >
     Camille's a full-stack software engineer who loves working with collaborative and service-oriented teams. 
     She previously built open source software and managed developer communities for libraries, archives, and museums at Stanford University. 
@@ -3221,7 +3221,7 @@
   profile_path: /company/about/#jill-fromewick
   image: /img/people/jill-fromewick.png
   image_description: Illustration of Jill Fromewick
-  position: Senior User Researcher
+  position: Staff User Researcher
   bio: >
     Jill's a user researcher with 20+ years of experience at the intersection of outcomes-driven research, program evaluation, and user experience. 
     She's passionate about conducting feasible, actionable research that'll be used to improve outcomes and advance equity. 
@@ -3425,7 +3425,7 @@
   profile_path: /company/about/#emmanuel-nwakire
   image: /img/people/emmanuel-nwakire.jpg
   image_description: Photo of Emmanuel Nwakire
-  position: DevOps Engineer 
+  position: Senior DevOps Engineer 
   bio: >
     Emmanuel's a DevOps engineer with years of experience in the travel tech, fintech, and lifestyle industries. 
     He's also a certified Scrum Master, where he excels at understanding and addressing the needs of clients and stakeholders alike. 
@@ -3992,7 +3992,7 @@
   position: Staff Product Manager
   bio: >
     Austin's a product manager with a background in UX design and industrial design. 
-    He's passionate about helping organization's make good on their transformation and modernization efforts. 
+    He's passionate about helping organizations make good on their transformation and modernization efforts. 
     He’s at his best when coaching cross-functional teams to be exceptional and representing complex technology in simple terms. 
     Austin lives in New York.
   active: true
