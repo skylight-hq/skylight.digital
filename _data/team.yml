@@ -4066,7 +4066,7 @@
   active: true
   order: 1390
   socials:
-  - name: GitHub
+    - name: GitHub
       link: https://github.com/akasper
       link_description: Andrew's GitHub Account
       fa_icon_name: github
