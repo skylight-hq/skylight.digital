@@ -117,7 +117,7 @@ technologies:
   - Experian
   - Twilio
   - SendGrid
-  - GitHub
+  - Git / GitHub
   - ZenHub
   - SonarCloud
   - Dependabot
