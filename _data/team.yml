@@ -2570,7 +2570,7 @@
     She's drawn to creating positive change through thoughtful design and championing the user's experience. 
     Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. 
     Priscilla lives in California.
-  active: true
+  active: false
   order: 900
   socials:
     - name: LinkedIn
@@ -4026,3 +4026,47 @@
       link: https://www.linkedin.com/in/kallenmichaels/
       link_description: Kallen's LinkedIn Account
       fa_icon_name: linkedin
+- name: anke-stohlmann
+  fname: Anke
+  lname: Stohlmann
+  full_name: Anke Stohlmann
+  short_name: A. Stohlmann
+  profile_path: /company/about/#anke-stohlmann
+  image: /img/people/anke-stohlmann.png
+  image_description: Illustration of Anke Stohlmann
+  position: Principal User Researcher
+  bio: >
+   Anke's a design leader and educator, who uses a human-centered approach to design effective and equitable products and services. 
+   She's dedicated to using her design skills to effect positive change and is deeply committed to building partnerships and including users in the design process. 
+   Anke lives in New York.
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/ankestohlmann/
+      link_description: Anke's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://ankestohlmann.com/
+      link_description: Anke's Personal Website
+      fa_icon_name: home
+- name: andrew-kasper
+  fname: Andrew
+  lname: Kasper
+  full_name: Andrew Kasper
+  short_name: A. Kasper
+  profile_path: /company/about/#andrew-kasper
+  image: /img/people/andrew-kasper.png
+  image_description: Illustration of Andrew Kasper
+  position: Staff Data Engineer
+  bio: >
+   Andrew's a data engineer with wide-ranging industry experience. 
+   He has a background working with Silicon Valley startups, GIS, aerospace, and the Peace Corps. He's an expert at transforming customer pain points into technical requirements. 
+   Andrew lives in Georgia.
+  active: true
+  order: 1390
+  socials:
+    - name: GitHub
+      link: https://github.com/akasper
+      link_description: Andrew's GitHub Account
+      fa_icon_name: github
