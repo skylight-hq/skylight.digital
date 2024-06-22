@@ -50,15 +50,15 @@ The Department of Defense (DoD) relies on WxPO to deliver authoritative terrestr
 
 WxPO has access to massive amounts of valuable data that they could provide to the weather community, but it’s stuck behind dated, on-premise applications that can’t deliver or process even a fraction of what’s possible. These aging applications were designed without taking into account today’s wide variety of users and their weather data experience levels.
 
-The existing on-premise solutions severely limit WxPO’s ability to improve or extend their capabilities. Teams struggle to quickly deploy improvements, utilize modern developer tools, and understand the end users’ goals, needs, and workflows. To better support the massive amounts of data flowing through its systems and provide resilient access to end users, WxPO decided to modernize their technologies and move the on-premise infrastructure and applications to the cloud.
+The existing on-premise solutions severely limit WxPO’s ability to improve or extend their capabilities. Teams struggle to quickly deploy improvements, use modern developer tools, and understand the end users’ goals, needs, and workflows. To better support the massive amounts of data flowing through its systems and provide resilient access to end users, WxPO decided to modernize their technologies and move the on-premise infrastructure and applications to the cloud.
 
 However, the cloud migration initiative faced its own challenges. WxPO teams struggled to balance maintenance of legacy systems with planning and executing the migration of applications and data to the cloud. Initial efforts weren’t clearly defined under an overarching vision or plan, creating miscommunication which in turn caused confusion, rework, churn, and frustration. Teams were learning new technologies on the fly and felt like they were continuously “chasing down” answers to questions and updates to processes.
 
 {% include callout.html type = "pullquote" content = "I think it’s affected all of middle management because every day, we’re trying to put things together and every day, we’re in some form of lost and found." cite_name = "Weather Officer" cite_title = "Acquisitions Training" %}
 
-Limited user research has also hindered progress. Many of the existing applications were built without a solid understanding of users’ goals, needs, and workflows. The wide variety of end user roles and use cases has also made it difficult for teams to understand them all.
+Limited user research also hindered progress. Many of the existing applications were built without a solid understanding of users’ goals, needs, and workflows. The wide variety of end user roles and use cases has also made it difficult for teams to understand them all.
 
-Recognizing the need for a more user-centered approach, WxPO engaged with us through our Service Design Accelerator program to help unblock and accelerate their cloud migration efforts.
+Recognizing the need for a more user-centered approach, WxPO engaged with us through our [Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/) to help unblock and accelerate their cloud migration efforts.
 {% endcapture %}
 
 {% capture solution %}
@@ -66,7 +66,7 @@ Our [Service Design Accelerator](/work/toolkits/service-design-framework/) helps
 
 We started by emphasizing team communication, forming and adhering to a shared vision and strategy and establishing more cohesive cross-team processes. We then took on the developer experience, fostering increased autonomy and implementing modern and ergonomic developer tools.
 
-Through user research and service design interviews, we took a holistic look at the factors affecting WxPO’s ability to migrate their applications to the cloud. We then used our findings to craft targeted solutions around several aspects of WxPO operations. 
+Through the application of service design techniques, we took a holistic look at the factors affecting WxPO’s ability to migrate their applications to the cloud. We then used our findings to craft targeted solutions around several aspects of WxPO operations. 
 
 Service design helped us improve the developer onboarding experience, reducing multiple pain points for new team members. It also allowed us to address process barriers blocking digital transformation. We also documented specific opportunities to improve the customer experience with new capabilities enabled by the cloud.
 
