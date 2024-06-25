@@ -29,6 +29,8 @@ practices:
   - Responsive design
   - Accessibility
   - Virtual teams
+sitemap: false
+skip_index: true
 project_url:
 project_cta:
 source_code_url:
