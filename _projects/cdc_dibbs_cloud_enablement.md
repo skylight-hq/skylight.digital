@@ -27,7 +27,7 @@ tags:
   kyle planeaux,
   mary crawford,
   alis akers]
-excerpt: Enabling public health agencies with modern cloud hosting options so they can leverage Skylight’s portfolio of open-source, modular software solutions with fewer costs and maintenance burdens.
+excerpt: Enabling public health agencies with flexible cloud hosting options so they can leverage modern, cloud-based software solutions with fewer costs and maintenance burdens.
 project_members:
   - rin-concordia
   - kyle-planeaux
@@ -75,7 +75,7 @@ source_code_url: https://github.com/CDCgov/dibbs-cloud
 ---
 
 {% capture summary %}
-State, tribal, local, and territorial (STLT) public health agencies have struggled to handle the pace and volume of incoming case data when responding to disease outbreaks. We’re working with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS) to provide STLTs with flexible cloud hosting infrastructure that enables them to quickly upgrade and scale their data systems with Skylight’s suite of cloud-based software solutions, so they can meet the scope and scale of emerging public health threats.
+State, tribal, local, and territorial (STLT) public health agencies have struggled to handle the pace and volume of incoming case data when responding to disease outbreaks. We’re working with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS) to provide STLTs with flexible cloud hosting infrastructure that enables them to quickly upgrade and scale their data systems with modern, cloud-based software solutions, so they can meet the scope and scale of emerging public health threats.
 {% endcapture %}
 
 {% capture challenge %}
