@@ -3,8 +3,8 @@ layout: default
 title_tag: Centers for Disease Control and Prevention
 title: Improving public health data infrastructure through flexible, modern approaches to cloud services
 permalink: /work/experience/cdc-dibbs-cloud-enablement/
-image: /img/projects/cdc_dibbs_cloud_enablement/cloud-enablement.svg
-image_description:
+image: /img/projects/cdc_dibbs_cloud_enablement/dibbs-cloud-enablement.svg
+image_description: A woman climbing a step ladder to flip a light switch embedded in a cloud
 feature_image:
 feature_image_description:
 feature_image_shadow:
