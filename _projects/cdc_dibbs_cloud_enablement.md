@@ -82,9 +82,7 @@ State, tribal, local, and territorial (STLT) public health agencies have struggl
 The COVID-19 pandemic exposed significant gaps in our nation’s public health data infrastructure, revealing a widespread need to modernize antiquated, disconnected data systems. In particular, STLT public health agencies weren’t able to reliably process large influxes of COVID-19 case data, leading to issues with downstream disease detection, reporting, and investigation. 
 Emerging public health threats like mpox continue to test the limits of STLT public health data infrastructure, as many legacy systems simply can't scale fast enough to handle significant volumes of incoming case data.
 
-To adequately collect, process, and analyze a growing amount of data, STLTs need to integrate modern technologies into their environment like cloud hosting. 
-With cloud hosting, STLTs can more flexibly acquire the computing infrastructure they need to modernize aging data systems or add new data management capabilities as needs evolve. 
-It can also help them scale their infrastructure to handle the high volumes and intermittent flow of public health data, especially during a public health crisis. 
+To efficiently process ever-growing amounts of data, STLTs need to integrate modern digital services — like cloud hosting — into their data environment. With cloud hosting, STLTs can more flexibly acquire the computing infrastructure they need to modernize aging data systems or add new data management capabilities as needs evolve. It can also help them scale their infrastructure to handle the high volumes and intermittent flow of public health data, especially during a public health crisis. 
 
 While many STLTs recognize the need for transitioning to a robust and secure cloud environment, they often face obstacles to adoption. For example, they may lack the internal technical capacity to successfully migrate their data infrastructure to the cloud. 
 Not only that, hosting cloud infrastructure isn’t free. Neither is the cost of maintaining these systems. Maintenance requires dedicated IT personnel and consistent funding, which aren’t always available. 
