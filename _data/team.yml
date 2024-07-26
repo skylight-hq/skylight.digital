@@ -3650,7 +3650,7 @@
     Evan's a product designer who loves collaboration, understanding user needs, and solving tricky problems. 
     Evan arrives from Zapier as a product design lead, where he made automation accessible to everyone. 
     Evan lives in Oregon. 
-  active: true
+  active: false
   order: 1290
   socials:
     - name: LinkedIn
