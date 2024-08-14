@@ -2626,7 +2626,7 @@
     Bryan's a data engineer with a drive to work on projects that have meaningful impact. 
     He previously worked at Meta and has built data solutions to help address issues of money laundering, financial fraud, gun violence, and disinformation campaigns. 
     Bryan lives in Washington.
-  active: true
+  active: false
   order: 920
   socials:
     - name: LinkedIn
