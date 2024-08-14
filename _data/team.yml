@@ -4070,3 +4070,187 @@
       link: https://github.com/akasper
       link_description: Andrew's GitHub Account
       fa_icon_name: github
+- name: matt-declercq
+  fname: Matt
+  lname: deClercq
+  full_name: Matt deClercq
+  short_name: M. deClercq
+  profile_path: /company/about/#matt-declercq
+  image: /img/people/matt-declercq.jpg
+  image_description: Photo of Matt deClercq
+  position: Staff Software Engineer
+  bio: >
+   Matt's a software engineer with over 17 years of experience designing and building platforms across a myriad of verticals. 
+   He has a passion for big-picture strategic technical design, unlocking data through APIs, and using his skills for the greater good. 
+   Matt lives in Texas.
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mattdeclercq
+      link_description: Matt's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/decleezy
+      link_description: Matt's GitHub Account
+      fa_icon_name: github
+- name: katie-campbell-downie
+  fname: Katie
+  lname: Campbell-Downie
+  full_name: Katie Campbell-Downie
+  short_name: K. Campbell-Downie
+  profile_path: /company/about/#katie-campbell-downie
+  image: /img/people/katie-campbell-downie.jpg
+  image_description: Photo of Katie Campbell-Downie
+  position: Senior Software Engineer
+  bio: >
+   Katie's a software engineer who delights in building things that are both useful and beautiful. 
+   She most recently worked with the Centers for Medicare & Medicaid Services on web and API development, and was an arts administrator prior to her career in tech. 
+   Katie lives in Minnesota.
+  active: true
+  order: 1390
+  socials:
+     - name: LinkedIn
+      link: https://www.linkedin.com/in/katiecd
+      link_description: Katie's LinkedIn Account
+      fa_icon_name: linkedin
+- name: laura-janisse
+  fname: Laura
+  lname: Janisse
+  full_name: Laura Janisse
+  short_name: L. Janisse
+  profile_path: /company/about/#laura-janisse
+  image: /img/people/laura-janisse.jpg
+  image_description: Photo of Laura Janisse
+  position: Principal User Researcher 
+  bio: >
+   Laura's a results-driven user researcher with a passion for human-centered design. 
+   With expertise working at large, complex organizations, she’s helped lead and develop enterprise-wide digital experience design solutions. 
+   Laura lives in Oregon.
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laura-janisse/
+      link_description: Laura's LinkedIn Account
+      fa_icon_name: linkedin
+     - name: Personal Website
+      link: https://www.laurajanisse.com
+      link_description: Laura's Personal Website
+      fa_icon_name: home
+- name: mike-wales
+  fname: Mike
+  lname: Wales
+  full_name: Mike Wales
+  short_name: M. Wales
+  profile_path: /company/about/#mike-wales
+  image: /img/people/michael-wales.jpg
+  image_description: Photo of Mike Wales
+  position: Principal Digital Transformer
+  bio: >
+   Mike's a software engineering leader who loves to mentor and guide others in the field. 
+   He's a USAF Veteran and an entrepreneur at heart, building and selling his first company from his dorm room at Eielson Air Force Base, Alaska. 
+   Mike lives in Texas.
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/michaelwales/
+      link_description: Mikes's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/walesmd
+      link_description: Mike's GitHub Account
+      fa_icon_name: github
+- name: christopher-whitaker
+  fname: Christopher
+  lname: Whitaker
+  full_name: Christopher Whitaker
+  short_name: C. Whitaker
+  profile_path: /company/about/#christopher-whitaker
+  image: /img/people/christopher-whitaker.jpg
+  image_description: Photo of Christopher Whitaker
+  position: Staff Engagement Manager
+  bio: >
+   Christopher's a civic technologist with a background in public administration and product management. 
+   He's the co-founder of the Alliance of Civic Technologists and has served in both delivery and operations roles at the Defense Digital Service, U.S. Digital Service, and Code for America. Christopher is also a Veteran of the U.S. Army, seriving with the mechanized infantry in Iraq. 
+   He lives in Illinois. 
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/christopherwhitaker/
+      link_description: Christopher's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/govintrenches
+      link_description: Christopher's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://civicwhitaker.com/
+      link_description: Christopher's Personal Website
+      fa_icon_name: home
+- name: brandon-chanco
+  fname: Brandon
+  lname: Chanco
+  full_name: Brandon Chanco
+  short_name: B. Chanco
+  profile_path: /company/about/#brandon-chanco
+  image: /img/people/brandon-chanco.jpg
+  image_description: Photo of Brandon Chanco
+  position: Staff Security Engineer
+  bio: >
+   Chanco's a cybersecurity engineer and Marine Corps Veteran whose passion is to enable the warfighter. 
+   He's previously worked at Cisco and IBM to bring modern solutions and capabilities to assist DoD service members and other civil servants. Most recently, he was at Platform One, an Air Force software factory. 
+   Chanco lives in Alabama.
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/brandon-chanco/
+      link_description: Brandon's LinkedIn Account
+      fa_icon_name: linkedin
+- name: kyle-bond
+  fname: Kyle
+  lname: Bond
+  full_name: Kyle Bond
+  short_name: K. Bond
+  profile_path: /company/about/#kyle-bond
+  image: /img/people/kyle-bond.jpg
+  image_description: Photo of Kyle Bond
+  position: Staff Software Engineer
+  bio: >
+    Kyle's a software engineer with experience in the consumer goods and civic tech space, most recently serving as CTO in a health tech startup. 
+    He uses his skills to help benefit others, both in and outside of work. 
+    Kyle lives in Georgia.
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/anthonykbond/
+      link_description: Kyle's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/KyleBond
+      link_description: Kyle's GitHub Account
+      fa_icon_name: github
+- name: lauryn-claassen
+  fname: Lauryn
+  lname: Claassen
+  full_name: Lauryn Claassen
+  short_name: L. Claassen
+  profile_path: /company/about/#lauryn-claassen
+  image: /img/people/lauryn-claassen.jpg
+  image_description: Photo of Lauryn Claassen
+  position: Staff Content Designer 
+  bio: >
+   Lauryn is a content designer with a background in public health, human-centered design, and journalism. 
+   After years in both the non-profit and private sectors, she's excited to have made the move to civic tech to help make public services work for everyone. 
+   She lives in California.
+  active: true
+  order: 1390
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lauryn-claassen/
+      link_description: Lauryn's LinkedIn Account
+      fa_icon_name: linkedin
