@@ -4110,7 +4110,7 @@
   active: true
   order: 1390
   socials:
-     - name: LinkedIn
+    - name: LinkedIn
       link: https://www.linkedin.com/in/katiecd
       link_description: Katie's LinkedIn Account
       fa_icon_name: linkedin
