@@ -4096,12 +4096,12 @@
       fa_icon_name: github
 - name: katie-campbell-downie
   fname: Katie
-  lname: Campbell-Downie
-  full_name: Katie Campbell-Downie
-  short_name: K. Campbell-Downie
+  lname: Campbell Downie
+  full_name: Katie Campbell Downie
+  short_name: K. Campbell Downie
   profile_path: /company/about/#katie-campbell-downie
   image: /img/people/katie-campbell-downie.jpg
-  image_description: Photo of Katie Campbell-Downie
+  image_description: Photo of Katie Campbell Downie
   position: Senior Software Engineer
   bio: >
    Katie's a software engineer who delights in building things that are both useful and beautiful. 
