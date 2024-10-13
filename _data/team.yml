@@ -3626,7 +3626,7 @@
     Lainey's a public health professional turned product manager. 
     She has a passion for solving public health problems by engaging people, process, and technology. 
     Lainey lives in Louisiana.
-  active: true
+  active: false
   order: 1280
   socials:
     - name: LinkedIn
