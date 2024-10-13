@@ -4040,7 +4040,7 @@
    She's dedicated to using her design skills to effect positive change and is deeply committed to building partnerships and including users in the design process. 
    Anke lives in New York.
   active: true
-  order: 1390
+  order: 1470
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/ankestohlmann/
@@ -4064,7 +4064,7 @@
    He has a background working with Silicon Valley startups, GIS, aerospace, and the Peace Corps. He's an expert at transforming customer pain points into technical requirements. 
    Andrew lives in Georgia.
   active: true
-  order: 1390
+  order: 1480
   socials:
     - name: GitHub
       link: https://github.com/akasper
@@ -4080,11 +4080,11 @@
   image_description: Photo of Matt deClercq
   position: Staff Software Engineer
   bio: >
-   Matt's a software engineer with over 17 years of experience designing and building platforms across a myriad of verticals. 
+   Matt's a software engineer with nearly 20 years of experience designing and building platforms across a myriad of verticals. 
    He has a passion for big-picture strategic technical design, unlocking data through APIs, and using his skills for the greater good. 
    Matt lives in Texas.
   active: true
-  order: 1390
+  order: 1490
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/mattdeclercq
@@ -4108,7 +4108,7 @@
    She most recently worked with the Centers for Medicare & Medicaid Services on web and API development, and was an arts administrator prior to her career in tech. 
    Katie lives in Minnesota.
   active: true
-  order: 1390
+  order: 1500
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/katiecd
@@ -4128,7 +4128,7 @@
    With expertise working at large, complex organizations, she’s helped lead and develop enterprise-wide digital experience design solutions. 
    Laura lives in Oregon.
   active: true
-  order: 1390
+  order: 1510
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/laura-janisse/
@@ -4149,10 +4149,10 @@
   position: Principal Digital Transformer
   bio: >
    Mike's a software engineering leader who loves to mentor and guide others in the field. 
-   He's a USAF Veteran and an entrepreneur at heart, building and selling his first company from his dorm room at Eielson Air Force Base, Alaska. 
+   He's an U.S. Air Force Veteran and an entrepreneur at heart, building and selling his first company from his dorm room at Eielson Air Force Base, Alaska. 
    Mike lives in Texas.
   active: true
-  order: 1390
+  order: 1520
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/michaelwales/
@@ -4173,10 +4173,10 @@
   position: Staff Engagement Manager
   bio: >
    Christopher's a civic technologist with a background in public administration and product management. 
-   He's the co-founder of the Alliance of Civic Technologists and has served in both delivery and operations roles at the Defense Digital Service, U.S. Digital Service, and Code for America. Christopher is also a Veteran of the U.S. Army, seriving with the mechanized infantry in Iraq. 
+   He's the co-founder of the Alliance of Civic Technologists and has served in both delivery and operations roles at the Defense Digital Service, U.S. Digital Service, and Code for America. Christopher's also a Veteran of the U.S. Army, seriving with the mechanized infantry in Iraq. 
    He lives in Illinois. 
   active: true
-  order: 1390
+  order: 1530
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/christopherwhitaker/
@@ -4204,7 +4204,7 @@
    He's previously worked at Cisco and IBM to bring modern solutions and capabilities to assist DoD service members and other civil servants. Most recently, he was at Platform One, an Air Force software factory. 
    Chanco lives in Alabama.
   active: true
-  order: 1390
+  order: 1540
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/brandon-chanco/
@@ -4220,11 +4220,11 @@
   image_description: Photo of Kyle Bond
   position: Staff Software Engineer
   bio: >
-    Kyle's a software engineer with experience in the consumer goods and civic tech space, most recently serving as CTO in a health tech startup. 
-    He uses his skills to help benefit others, both in and outside of work. 
-    Kyle lives in Georgia.
+    Kyle is a software engineer with experience in both the consumer goods and civic tech sectors, most recently serving as CTO at a health tech startup. 
+    He leverages his skills to make a positive impact, both professionally and personally. 
+    Kyle is based in Georgia.
   active: true
-  order: 1390
+  order: 1550
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/anthonykbond/
@@ -4244,11 +4244,11 @@
   image_description: Photo of Lauryn Claassen
   position: Staff Content Designer 
   bio: >
-   Lauryn's a content designer with a background in public health, human-centered design, and journalism. 
-   After years in both the non-profit and private sectors, she's excited to have made the move to civic tech to help make public services work for everyone. 
-   She lives in California.
+   Lauryn is a content designer with a diverse background in public health, human-centered design, and journalism. 
+   After years working in both the non-profit and private sectors, she’s excited to have transitioned into civic tech, where she’s focused on making public services work for everyone. 
+   Lauryn lives in California."
   active: true
-  order: 1390
+  order: 1560
   socials:
     - name: LinkedIn
       link: https://www.linkedin.com/in/lauryn-claassen/
