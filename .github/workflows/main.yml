@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # The path to the directory to upload
-          path: ./_build
+          path: ./build
           name: prodBuild
 
   # Deployment job
