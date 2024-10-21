@@ -8,7 +8,7 @@ feature_image_description: Shows the design of the ct oec site
 image: /img/projects/ct_ece_reporter/ece-reporter.svg
 image_description: A teacher sitting with a young child at a table and a computer screen in the background showing a green checkmark.
 feature_image_shadow: true
-order: 400
+order: 210
 display: true
 tags: [service delivery, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, early childhood, social safety net, healthcare, education, chris given, julia hogan, cailyn hansen, victoria suwardiman, ashley treni, abby raskin, kyle magida, marvo dolor, amelia wellers, olivia lucas, jordan guinn, nick bristow, brandon mader, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, josh dorothy, johanna delpino]
 excerpt: A user-friendly data collection tool to get accurate information from early care and education providers about the children under their care in Connecticut.

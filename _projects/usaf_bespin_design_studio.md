@@ -8,7 +8,7 @@ image_description: The palm of a hand supporting a fighter jet as it takes off i
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 350
+order: 820
 display: true
 tags: [service delivery, research & design, defense, air force, karthik patil, kyle planeaux, laura kerry, zack gehin, liz fox, ashton tu, mike brown]
 excerpt: A center for design excellence within the Air Force that airmen can leverage to build useful, usable, and secure software quickly and cost-effectively.
