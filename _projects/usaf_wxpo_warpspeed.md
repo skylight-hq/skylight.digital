@@ -3,8 +3,8 @@ layout: default
 title_tag: U.S. Air Force
 title: Helping an Air Force organization modernize weather systems through design capacity building
 permalink: /work/experience/usaf-wxpo-warpspeed/
-image: /img/projects/usaf_wxpo_cloud_migration/wxpo-cloud-migration.png
-image_description: An airman removes traffic cones that were impeding the progress of a cloud.
+image: /img/projects/usaf_wxpo_warpspeed/wxpo-warpspeed.svg
+image_description: Back of heads of a designer and a WxPO person next to each other collaborating on a screen with some weather graphics. 
 feature_image:
 feature_image_description:
 feature_image_shadow:
