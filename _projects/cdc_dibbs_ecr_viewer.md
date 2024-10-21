@@ -8,7 +8,7 @@ image_description: Public health staff member viewing a stack of screens through
 feature_image: /img/projects/cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.gif
 feature_image_description: Walkthrough of eCR Viewer MVP
 feature_image_shadow: true
-order: 129
+order: 120
 display: true
 tags:
   [service delivery,
