@@ -11,7 +11,7 @@ image_description: Someone using a tablet with multiple items (vaccines, labs, p
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 500
+order: 132
 display: true
 tags:
   [service delivery,
