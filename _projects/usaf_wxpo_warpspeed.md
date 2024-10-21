@@ -38,6 +38,8 @@ practices:
   - Pairing
   - Capability development
 news_posts:
+  - title: BESPIN Awards Contracts with REMIS & WARPspeed for Design Studio Services
+    url: https://www.usds.gov/projects/cdc-simple-report
 project_url:
 project_cta:
 source_code_url:
