@@ -11,7 +11,7 @@ image_description: A person stacking some blocks on a table.
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 120
+order: 110
 display: true
 tags:
   [service delivery,
