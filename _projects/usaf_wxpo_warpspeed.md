@@ -10,12 +10,15 @@ feature_image_description:
 feature_image_shadow:
 order: 1180
 display: true
-tags: [transformation, research & design, cloud & platforms, coaching & training, defense, air force, taylor graue, holly dewolf, laura kerry]
+tags: [transformation, research & design, cloud & platforms, coaching & training, defense, air force, taylor graue, holly dewolf, laura kerry, kyle planeaux, jina ryu, michelle li]
 excerpt: Partnering with the U.S. Air Force Weather Systems Program Office to adopt human-centered design practices across their portfolio of systems.
 project_members:
   - taylor-graue
   - holly-dewolf
   - laura-kerry
+  - kyle-planeaux
+  - jina-ryu
+  - michelle-li
 technologies:
   - Google Workspace
   - Mattermost
