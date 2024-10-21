@@ -10,15 +10,12 @@ feature_image_description:
 feature_image_shadow:
 order: 1180
 display: true
-tags: [transformation, research & design, cloud & platforms, coaching & training, defense, air force, charlye tran, olivia lucas, zoe do, laura kerry]
+tags: [transformation, research & design, cloud & platforms, coaching & training, defense, air force, taylor graue, holly dewolf, laura kerry]
 excerpt: Partnering with the U.S. Air Force Weather Systems Program Office to adopt human-centered design practices across their portfolio of systems.
 project_members:
   - taylor-graue
   - holly-dewolf
   - laura-kerry
-  - charlye-tran
-  - olivia-lucas
-  - zoe-do
 technologies:
   - Google Workspace
   - Mattermost
