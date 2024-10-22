@@ -10,33 +10,47 @@ feature_image_description:
 feature_image_shadow:
 order: 1180
 display: true
-tags: [transformation, research & design, cloud & platforms, coaching & training, defense, air force, taylor graue, holly dewolf, laura kerry, kyle planeaux, jina ryu, michelle li]
+tags: [transformation, research & design, product management, legacy modernization, cloud & platforms, coaching & training, defense, air force, taylor graue, holly dewolf, jennifer herzberg, laura kerry, kyle planeaux, jina ryu, michelle li]
 excerpt: Partnering with the U.S. Air Force Weather Systems Program Office to adopt human-centered design practices across their portfolio of systems.
 project_members:
   - taylor-graue
   - holly-dewolf
+  - jennifer-herzberg
   - laura-kerry
   - kyle-planeaux
   - jina-ryu
   - michelle-li
 technologies:
-  - Google Workspace
-  - Mattermost
-  - Mural
-  - Slack
+  - Figma  
+  - FigJam  
+  - Material-UI  
+  - Colour Contrast Analyzer  
+  - Lighthouse  
+  - Mural  
+  - Matomo  
+  - Mattermost  
+  - Microsoft Teams  
+  - Google Workspace  
+  - Trello  
+  - Zoom  
+  - Confluence  
+  - Jira
 practices:
-  - Agile cloud migration
-  - Service design
-  - User research
-  - Stakeholder mapping
-  - Customer and stakeholder interviews
-  - Service blueprinting
-  - Prioritization workshops
-  - Consulting
-  - Instructional design
-  - Coaching & training
-  - Pairing
-  - Capability development
+  - User research  
+  - Product design  
+  - Content design  
+  - Visual design  
+  - Accessibility design  
+  - Branding design  
+  - Agile product management  
+  - Design system  
+  - Capability development  
+  - Design leadership  
+  - Consulting  
+  - Training and coaching  
+  - Pairing  
+  - Workshop facilitation  
+  - Virtual collaboration      
 news_posts:
   - title: BESPIN Awards Contracts with REMIS & WARPspeed for Design Studio Services
     url: https://www.airforcebes.af.mil/News/Display/Article/3342231/bespin-awards-contracts-with-remis-warpspeed-for-design-studio-services/
