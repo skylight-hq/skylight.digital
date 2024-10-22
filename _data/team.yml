@@ -3981,6 +3981,10 @@
       link: https://www.linkedin.com/in/hmdewolf/
       link_description: Holly's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/holly-dewolf/
+      link_description: Holly's Project Work
+      fa_icon_name: wrench
 - name: austin-brown
   fname: Austin
   lname: Brown
