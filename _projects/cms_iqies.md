@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 2900
 display: true
-tags: [service delivery, research & design, software delivery, legacy modernization, victor zapanta, nick bristow]
+tags: [service delivery, research & design, software delivery, legacy modernization, healthcare, victor zapanta, nick bristow]
 excerpt: A modernized system for evaluating and improving the quality of healthcare providers across the nation.
 project_members:
   - victor-zapanta
