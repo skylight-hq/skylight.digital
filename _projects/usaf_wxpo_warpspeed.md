@@ -46,52 +46,42 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) encountered roadblocks during its cloud migration process. We helped unblock and accelerate their efforts using a service design approach.
+The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) is transitioning all of its weather applications to the cloud. We’ve been working with the Weather Applications Rapid Production/Prototype (WARPspeed) group, which manages those applications, to adopt human-centered design (HCD) practices at scale as they both migrate and modernize their systems.
 {% endcapture %}
 
 {% capture challenge %}
-The Department of Defense (DoD) relies on WxPO to deliver authoritative terrestrial and space weather intelligence and information. DoD meteorologists, air traffic controllers, pilots, and the intelligence community leverage WxPO’s applications to predict weather patterns, prepare forecasts, and communicate weather information. WxPO’s applications support around-the-clock operations, supporting mission planning and execution.  
+WxPO’s mission is to enable weather and environmental operations across the Department of Defense (DoD) and beyond. DoD meteorologists, air traffic controllers, pilots, the intelligence community, and civilian forecasters leverage WxPO’s applications and data to predict weather patterns, prepare forecasts, and communicate weather information. To support these critical operations, WxPO needs to be able to deliver modern user experiences with speed and quality.
 
-WxPO has access to massive amounts of valuable data that they could provide to the weather community, but it’s stuck behind dated, on-premise applications that can’t deliver or process even a fraction of what’s possible. These aging applications were designed without taking into account today’s wide variety of users and their weather data experience levels.
+As part of the DoD’s modernization imperative, WxPO initiated a plan in 2017 to migrate more than 75 applications and services to the cloud. They aimed to complete the migration, deprecate on-prem servers, and create a single user interface — called BIFROST — for all of the applications and services by 2025. Along with the opportunity to leverage all of the benefits of operating in a cloud environment (e.g., enhanced scalability), the effort also prompted a push to reevaluate and improve how users experience WxPO’s portfolio of applications. 
 
-The existing on-premise solutions severely limit WxPO’s ability to improve or extend their capabilities. Teams struggle to quickly deploy improvements, use modern developer tools, and understand the end users’ goals, needs, and workflows. To better support the massive amounts of data flowing through its systems and provide resilient access to end users, WxPO decided to modernize their technologies and move the on-premise infrastructure and applications to the cloud.
+To manage the migration of applications to the cloud, WxPO established a software factory, WARPspeed. At its inception, though, WARPspeed lacked the internal design capacity, including design infrastructure (e.g., Figma), to deliver the modern, user-centered products that WxPO envisioned. With one designer for the six teams within the organization, design couldn’t keep pace with development cycles. For example, when mockups were provided, they were made in outdated tools like PowerPoint. This caused a number of issues, such as putting undue burden on developers to translate design direction into working software, which ultimately led to delays in delivery and an accumulation of design debt. 
 
-However, the cloud migration initiative faced its own challenges. WxPO teams struggled to balance maintenance of legacy systems with planning and executing the migration of applications and data to the cloud. Initial efforts weren’t clearly defined under an overarching vision or plan, creating miscommunication which in turn caused confusion, rework, churn, and frustration. Teams were learning new technologies on the fly and felt like they were continuously “chasing down” answers to questions and updates to processes.
-
-{% include callout.html type = "pullquote" content = "I think it’s affected all of middle management because every day, we’re trying to put things together and every day, we’re in some form of lost and found." cite_name = "Weather Officer" cite_title = "Acquisitions Training" %}
-
-Limited user research also hindered progress. Many of the existing applications were built without a solid understanding of users’ goals, needs, and workflows. The wide variety of end user roles and use cases has also made it difficult for teams to understand them all.
-
-Recognizing the need for a more user-centered approach, WxPO engaged with us through our [Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/) to help unblock and accelerate their cloud migration efforts.
+The six teams within WARPspeed were also siloed and hampered by outdated processes. Unreliable communication and a lack of shared workflows often resulted in rework, a failure to account for dependencies, and differences in user experiences between applications. 
 {% endcapture %}
 
 {% capture solution %}
-Our [Service Design Accelerator](/work/toolkits/service-design-framework/) helps clients tackle major technology initiatives more quickly and with fewer roadblocks. For WxPO, we used it to quickly turn around their stalled cloud migration and get their critical infrastructure improvements back on track.
+Building on our success in [accelerating WxPO’s cloud migration through service design](/work/experience/usaf-wxpo-cloud-migration/), the WARPspeed group engaged us to help develop the design capabilities necessary to deliver better user experiences across their portfolio of weather applications.
 
-We started by emphasizing team communication, forming and adhering to a shared vision and strategy and establishing more cohesive cross-team processes. We then took on the developer experience, fostering increased autonomy and implementing modern and ergonomic developer tools.
+To achieve this, we’ve implemented a “player-coach” model, embedding our experts within various WARPspeed teams while simultaneously building internal capacity. This dual approach enables us to deliver hands-on improvements to application user experiences and enhance the organization’s core practices, operations, and infrastructure in user research, product design, content design, and agile product management. Our efforts thus far have included:
 
-Through the application of service design techniques, we took a holistic look at the factors affecting WxPO’s ability to migrate their applications to the cloud. We then used our findings to craft targeted solutions around several aspects of WxPO operations. 
+- **Growing HCD skills in all phases of development** by pairing and collaborating with staff members on different WARPspeed teams, like BIFROST and Environmental Workflow Application
+- **Introducing new design and agile product practices** by publishing an HCD Playbook, offering “lunch-and-learns,” and sharing a series of “Tip Tuesday” lessons
+- **Scaling design** by developing a WxPO design system, fostering a design community of practice, and teaching design skills, such as prototyping and user research, across the organization
+- **Upgrading and streamlining tool usage** by recommending organization-level design tooling best practices, including  training designers and developers on Figma; cleaning up WxPO’s Confluence; and onboarding more staff to Jira
+- **Optimizing delivery team structures and processes** by recommending backlog management improvements, defining product manager and requirements manager roles and responsibilities, and suggesting improvements for integrated software testing
+- **Making organizational-level recommendations** to leadership to improve cross-team collaboration, such as conducting a workshop to map cross-team dependencies, introducing a strategy and integration role at the WARPspeed level, and facilitating new product management activities
 
-Service design helped us improve the developer onboarding experience, reducing multiple pain points for new team members. It also allowed us to address process barriers blocking digital transformation. We also documented specific opportunities to improve the customer experience with new capabilities enabled by the cloud.
+Through these comprehensive support activities, we’ve significantly improved the quality and efficiency with which WARPspeed teams deliver modern user experiences across their portfolio of applications. As a result, WxPO is better equipped to support critical weather operations across its community of users.
 
-From our service design activities, we formulated eight recommendations and began implementing them:
-- Create self-service artifacts
-- Build a shared migration vision and plan
-- Provide updated trainings
-- Improve agile processes
-- Standardize and define roles 
-- Create uniform communication strategy
-- Continue discovery efforts
-- Improve support services
-
-We also helped ensure the work would continue by identifying WxPO product champions and Skylight collaborators who can enable change to move away from legacy rules and toward a modern digital platform. Finally, we helped WxPO’s own teams develop and expand their own user research and service design capabilities, enabling them to maintain a greater awareness and focus on the needs of the DoD’s weather community.
+{% include callout.html type = "pullquote" content = "I’ve been in this business for a while, and this is the first time I’ve seen people advocating for users at this level, and also seeing stakeholders buy-in. We’re headed in the right direction and our users are seeing that." cite_name = "WxPO Leadership" %}
 {% endcapture %}
 
 {% capture results %}
-- Created and shared a human-centered design playbook, service blueprints, persona templates, user research plan and report templates, an assumptions tracker, and an outcome-oriented roadmap
-- Helped build internal design capacity by hosting agile, user research, and human-centered design trainings
-- Created and shared self-service design tools, including a human-centered design playbook, service blueprints, persona templates, user research plan and report template, assumptions tracker, and outcome-oriented roadmap
-- Set them on a path to a successful cloud migration by embedding with individual application teams to improve team processes
+- Strengthened HCD and agile product management capabilities within three WARPspeed teams, verified by a comprehensive maturity assessment
+- Introduced and trained staff on modern design tools, such as Figma, improving user testing and reducing design and technical debt
+- Improved backlog management processes, including writing detailed stories that allow developers to more easily implement features, increasing ticket status visibility across teams, and bringing user needs to the forefront
+- Facilitated organizational culture changes by educating staff members on user advocacy, how to positively receive and respond to user feedback, and the importance of incorporating user research early and often into the development process
+- Accelerated the developmental process by increasing cross-collaboration and integration, identifying dependencies, and fostering alignment on timeline
 {% endcapture %}
 
 {% include project.html
