@@ -8,7 +8,7 @@ image_description: Back of heads of a designer and a WxPO person next to each ot
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 1180
+order: 500
 display: true
 tags: [transformation, research & design, product management, legacy modernization, cloud & platforms, coaching & training, defense, air force, taylor graue, holly dewolf, jennifer herzberg, laura kerry, kyle planeaux, jina ryu, michelle li]
 excerpt: Partnering with the U.S. Air Force Weather Systems Program Office to adopt human-centered design practices across their portfolio of systems.
