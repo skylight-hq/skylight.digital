@@ -8,7 +8,7 @@ image_description: A pair of hands moving objects around to make a pattern.
 feature_image: /img/projects/usaf_bespin_design_system/bespin-design-system.gif
 feature_image_description: Walkthrough of the Material Atlas BESPIN Design System.
 feature_image_shadow: true
-order: 1300
+order: 1400
 display: true
 tags: [service delivery, transformation, research & design, product management, software delivery, legacy modernization, defense, air force, maya benari, zack gehin, liz fox, karthik patil, laura kerry, ashton tu, kyle planeaux, mike brown]
 excerpt: Comprehensive design systems enabling the U.S. Air Force to ship software products to users with greater speed and quality.
