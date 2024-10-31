@@ -26,37 +26,49 @@ tags:
   security & privacy,
   open government,
   public health,
-  bryan britten,
-  graham smith,
-  peggy chau,
-  kenneth chow,
-  nick clyde,
+  alis akers,
+  nick bristow,
+  eric buckley,
+  rin concordia,
+  mary crawford,
+  gordon farrell,
+  jill fromewick,
   ryan gaddis,
   matt goldberg,
-  spencer kathol,
-  brandon mader,
-  dan paseltiner,
-  ann millspaugh,
-  tomi obikunle,
-  jesse skeets,
-  amrita bhatti,
-  brady fausett,
-  jill fromewick,
   marcelle goggins,
-  robert mitchell,
-  sarah tress,
-  nick bristow,
-  josh nygaard,
-  mary yeh,
+  austin hall,
+  alex hayward,
   janki kaneria,
+  michelle kang,
+  andrew kasper,
+  laura king,
+  boban ljuljdjurovic,
+  brandon mader,
   rob mitchell,
-  mary crawford,
+  robert mitchell,
+  shanice musiitwa,
   josh nygaard,
-  angela the,
-  lina roth,
-  alis akers,
+  dan paseltiner,
   kyle planeaux,
-  david mcclatchey]
+  lina roth,
+  emma stephenson,
+  angela the,
+  sara tress,
+  ashton tu,
+  jake wheeler,
+  mary yeh,
+  bob zhao,
+  bryan britten,
+  kenneth chow,
+  nick clyde,
+  brady fausett,
+  spencer kathol,
+  ann milspaugh,
+  tim niehoff,
+  peggy chau,
+  tomi obikunle,
+  graham smith,
+  jesse skeets,]
 excerpt: An open-source, modular toolkit designed to automate data processing, reduce manual effort, and address critical data challenges within a modern public health data infrastructure.
 project_members:
   - alis-akers  
@@ -152,6 +164,11 @@ The COVID-19 pandemic revealed that the U.S. needs to significantly improve the 
 In an effort to strengthen the U.S. public health data infrastructure, the CDC has established a [Public Health Data Strategy](https://www.cdc.gov/ophdst/public-health-data-strategy/) through the Office of Public Health Data, Surveillance, and Technology (OPHDST), as well as launched a multi-year collaboration with the USDS called the [Pandemic-Ready Interoperability Modernization Effort (PRIME)](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to a set of open-source, modular tools, known as Data Integration Building Blocks (DIBBs), that public health departments can use to process and transform data. 
 
 DIBBs are modular tools designed for the collection, processing, and analysis of public health data, significantly reducing the time it takes for STLTs to act on critical information. Much like LEGO blocks that can be stacked to create different shapes, DIBBs can be combined in various configurations to form flexible and efficient data pipelines. These tools automate data processing, enhance data quality, and ensure completeness, enabling public health departments to better detect, investigate, and respond to health threats. Public health agencies can also tailor the system by selecting and deploying the specific DIBBs they need, creating a customized pipeline that suits their unique requirements.
+
+![Illustration showing several blocks, some of which are interconnected with pipelines.](/img/projects/cms_chart_model/rural-hospital-closures-map.svg){: .mb-0 }
+
+Different configurations of DIBBs depending on user needs
+{: .caption }
 
 Our current portfolio of DIBBs includes:
 - Validation
