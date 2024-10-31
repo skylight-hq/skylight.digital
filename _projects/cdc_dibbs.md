@@ -59,36 +59,49 @@ tags:
   david mcclatchey]
 excerpt: An open-source, modular toolkit designed to automate data processing, reduce manual effort, and address critical data challenges within a modern public health data infrastructure.
 project_members:
-  - alis-akers
-  - amrita-bhatti
-  - bryan-britten
-  - nick-bristow
-  - peggy-chau
-  - kenneth-chow
-  - nick-clyde
-  - mary-crawford
-  - brady-fausett
-  - jill-fromewick
-  - ryan-gaddis
-  - marcelle-goggins
-  - matt-goldberg
-  - janki-kaneria
-  - brandon-mader
-  - david-mcclatchey
-  - ann-millspaugh
-  - rob-mitchell
-  - robert-mitchell
-  - josh-nygaard
-  - tomi-obikunle
-  - dan-paseltiner
-  - kyle-planeaux
-  - lina-roth
-  - angela-the
-  - sarah-tress
-  - mary-yeh
-  - spencer-kathol
-  - jesse-skeets
-  - graham-smith
+  - alis-akers  
+  - nick-bristow  
+  - eric-buckley  
+  - rin-concordia  
+  - mary-crawford  
+  - gordon-farrell  
+  - jill-fromewick  
+  - ryan-gaddis  
+  - matt-goldberg  
+  - marcelle-goggins  
+  - austin-hall  
+  - alex-hayward  
+  - janki-kaneria  
+  - michelle-kang  
+  - andrew-kasper  
+  - laura-king  
+  - boban-ljuljdjurovic  
+  - brandon-mader  
+  - rob-mitchell  
+  - robert-mitchell  
+  - shanice-musiitwa  
+  - josh-nygaard  
+  - dan-paseltiner  
+  - kyle-planeaux  
+  - lina-roth  
+  - emma-stephenson  
+  - angela-the  
+  - sara-tress  
+  - ashton-tu  
+  - jake-wheeler  
+  - mary-yeh  
+  - bob-zhao  
+  - bryan-britten  
+  - kenneth-chow  
+  - nick-clyde  
+  - brady-fausett  
+  - spencer-kathol  
+  - ann-milspaugh  
+  - tim-niehoff  
+  - peggy-chau  
+  - tomi-obikunle  
+  - graham-smith  
+  - jesse-skeets  
 technologies:
   - Python
   - APIs
@@ -164,10 +177,12 @@ By piloting, developing, and scaling a modular set of tools that can be combined
 
 {% capture results %}
 
-- [Partnered with Virginia Health Department](/work/experience/cdc-dibbs-vdh-pilot/) to build and pilot a cloud-based data pipeline “starter kit” with a quick start approach to solve some of the main challenges STLTs face, namely data ingestion, geocoding, and deduplication
-- Developed SDK toolkit and API documentation enabling STLTs to easily import and integrate modular Building Blocks into their existing data environments
-- Working with Los Angeles County on piloting a Geocoding Building Block to automatically link patient data with standardized geolocation (e.g., census tract, county, address)
-- Gathered insights from public health department staff through user-centered focus groups to understand data-related frustrations and ideal outcomes
+- Developed and iterated on a set of modular DIBBs that can be combined together to improve the speed, accuracy, and completeness of public health data
+- Partnered with the Virginia Department of Health to build and pilot a cloud-based prototype DIBBs pipeline as a proof of concept for future DIBBs products
+- Developed API documentation enabling STLTs to explore how to integrate DIBBs products into their existing data environments
+- Worked with the Los Angeles County’s Department of Public Health to deploy a cutting edge, modular DIBBs pipeline that automates processes and enriches multiple data streams, including eCR and eLR data
+- Piloted a workflow optimization tool known as eCR Viewer with multiple STLTs to make eCR data more useful
+- Developed cloud infrastructure hosted by CDC to facilitate adoption and implementation of DIBBs by STLTs
 
   {% endcapture %}
 
