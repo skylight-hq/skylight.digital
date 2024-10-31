@@ -165,7 +165,7 @@ In an effort to strengthen the U.S. public health data infrastructure, the CDC h
 
 DIBBs are modular tools designed for the collection, processing, and analysis of public health data, significantly reducing the time it takes for STLTs to act on critical information. Much like LEGO blocks that can be stacked to create different shapes, DIBBs can be combined in various configurations to form flexible and efficient data pipelines. These tools automate data processing, enhance data quality, and ensure completeness, enabling public health departments to better detect, investigate, and respond to health threats. Public health agencies can also tailor the system by selecting and deploying the specific DIBBs they need, creating a customized pipeline that suits their unique requirements.
 
-![Illustration showing several blocks, some of which are interconnected with pipelines.](/img/projects/cms_chart_model/rural-hospital-closures-map.svg){: .mb-0 }
+![Illustration showing several blocks, some of which are interconnected with pipelines.](/img/projects/cdc_dibbs/dibbs-logo.svg){: .mb-0 }
 
 Different configurations of DIBBs depending on user needs
 {: .caption }
