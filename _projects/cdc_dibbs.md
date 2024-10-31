@@ -68,7 +68,7 @@ tags:
   peggy chau,
   tomi obikunle,
   graham smith,
-  jesse skeets,]
+  jesse skeets]
 excerpt: An open-source, modular toolkit designed to automate data processing, reduce manual effort, and address critical data challenges within a modern public health data infrastructure.
 project_members:
   - alis-akers  
