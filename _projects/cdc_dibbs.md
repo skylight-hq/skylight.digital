@@ -136,7 +136,7 @@ The COVID-19 pandemic revealed that the U.S. needs to significantly improve the 
 {% endcapture %}
 
 {% capture solution %}
-In an effort to strengthen the U.S. public health data infrastructure, the CDC has established a Public Health Data Strategy through the Office of Public Health Data, Surveillance, and Technology (OPHDST) , as well as launched a multi-year collaboration with the USDS called the Pandemic-Ready Interoperability Modernization Effort (PRIME). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to a set of open-source, modular tools, known as Data Integration Building Blocks (DIBBs), that public health departments can use to process and transform data. 
+In an effort to strengthen the U.S. public health data infrastructure, the CDC has established a [Public Health Data Strategy](https://www.cdc.gov/ophdst/public-health-data-strategy/) through the Office of Public Health Data, Surveillance, and Technology (OPHDST) , as well as launched a multi-year collaboration with the USDS called the [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to a set of open-source, modular tools, known as Data Integration Building Blocks (DIBBs), that public health departments can use to process and transform data. 
 
 DIBBs are modular tools designed for the collection, processing, and analysis of public health data, significantly reducing the time it takes for STLTs to act on critical information. Much like LEGO blocks that can be stacked to create different shapes, DIBBs can be combined in various configurations to form flexible and efficient data pipelines. These tools automate data processing, enhance data quality, and ensure completeness, enabling public health departments to better detect, investigate, and respond to health threats. Public health agencies can also tailor the system by selecting and deploying the specific DIBBs they need, creating a customized pipeline that suits their unique requirements.
 
@@ -156,11 +156,11 @@ Orchestration
 
 Our team has partnered with a variety of STLTs to develop and iterate on DIBBs products that reduce manual processes and solve public health data challenges. Thus far, we have:
 
-Conducted user research with STLT staff who interact with condition-specific diseases along the data lifecycle (e.g., collection, ingestion, management, analysis, and visualization)
-Built and piloted a prototype DIBBs pipeline with the Virginia Department of Health that processed incoming COVID-19 data faster, created a source of truth, and removed the need for duplicative processes 
-Deployed a cloud-based DIBBs pipeline with the Los Angeles County Department of Public Health to process and enrich multiple data streams, including electronic case reporting (eCR) data and electronic lab reports (ELR), improving downstream data analysis and case investigation
-Developed and piloted an intuitive interface that surfaces key information from eCR files to make them more useful for monitoring the spread of reportable conditions
-Provided flexible cloud hosting infrastructure that enables STLTs to quickly upgrade and scale their data systems with DIBBs to meet the scope and scale of emerging public health threats
+- Conducted user research with STLT staff who interact with condition-specific diseases along the data lifecycle (e.g., collection, ingestion, management, analysis, and visualization)
+- Built and piloted a [prototype DIBBs pipeline](https://skylight.digital/work/experience/cdc-dibbs-vdh-pilot/) with the Virginia Department of Health that processed incoming COVID-19 data faster, created a source of truth, and removed the need for duplicative processes
+- Deployed a [cloud-based DIBBs pipeline](https://skylight.digital/work/experience/cdc-dibbs-lac-pilot/) with the Los Angeles County Department of Public Health to process and enrich multiple data streams, including electronic case reporting (eCR) data and electronic lab reports (ELR), improving downstream data analysis and case investigation
+- Developed and piloted an [intuitive interface](https://skylight.digital/work/experience/cdc-dibbs-ecr-viewer/) that surfaces key information from eCR files to make them more useful for monitoring the spread of reportable conditions
+- Provided [flexible cloud hosting infrastructure](https://skylight.digital/work/experience/cdc-dibbs-cloud-enablement/) that enables STLTs to quickly upgrade and scale their data systems with DIBBs to meet the scope and scale of emerging public health threats
 
 By piloting, developing, and scaling a modular set of tools that can be combined into flexible, performant products for STLTs, our work is helping to create modern public health data infrastructure that works for all diseases and conditions — a system that will enable public health agencies to deliver timely, relevant, and actionable data.
 {% endcapture %}
