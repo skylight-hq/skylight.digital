@@ -59,7 +59,7 @@ tags:
   nick clyde,
   brady fausett,
   spencer kathol,
-  ann milspaugh,
+  ann millspaugh,
   tim niehoff,
   peggy chau,
   tomi obikunle,
@@ -100,7 +100,7 @@ project_members:
   - nick-clyde
   - brady-fausett
   - spencer-kathol
-  - ann-milspaugh
+  - ann-millspaugh
   - tim-niehoff
   - peggy-chau
   - tomi-obikunle
