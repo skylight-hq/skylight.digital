@@ -3721,6 +3721,10 @@
       link: https://www.linkedin.com/in/alex-hayward-830533156/
       link_description: Alex's LinkedIn Account
       fa_icon_name: linkedin
+    - name: Projects
+      link: /work/team-member/alex-hayward/
+      link_description: Alex's Project Work
+      fa_icon_name: wrench
 - name: mary-crawford
   fname: Mary
   lname: Crawford
@@ -3849,6 +3853,10 @@
   active: true
   order: 1380
   socials:
+    - name: Projects
+        link: /work/team-member/eric-buckley/
+        link_description: Eric's Project Work
+        fa_icon_name: wrench
 - name: roger-ruiz
   fname: Roger
   lname: Ruiz
@@ -4074,6 +4082,10 @@
       link: https://github.com/akasper
       link_description: Andrew's GitHub Account
       fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/andrew-kasper/
+      link_description: Andrew's Project Work
+      fa_icon_name: wrench
 - name: matt-declercq
   fname: Matt
   lname: deClercq
