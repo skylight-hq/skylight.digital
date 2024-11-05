@@ -162,8 +162,6 @@ DIBBs are modular tools designed for the collection, processing, and analysis of
 Different configurations of DIBBs depending on user needs
 {: .caption }
 
-Different configurations of DIBBs depending on user needs
-
 Our current portfolio of DIBBs includes:
 - Validation
 - FHIR Converter
