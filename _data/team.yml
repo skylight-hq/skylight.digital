@@ -3854,9 +3854,9 @@
   order: 1380
   socials:
     - name: Projects
-        link: /work/team-member/eric-buckley/
-        link_description: Eric's Project Work
-        fa_icon_name: wrench
+      link: /work/team-member/eric-buckley/
+      link_description: Eric's Project Work
+      fa_icon_name: wrench
 - name: roger-ruiz
   fname: Roger
   lname: Ruiz
