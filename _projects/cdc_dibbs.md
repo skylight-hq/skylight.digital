@@ -36,17 +36,14 @@ tags:
   ryan gaddis,
   matt goldberg,
   marcelle goggins,
-  austin hall,
   alex hayward,
   janki kaneria,
-  michelle kang,
   andrew kasper,
   laura king,
   boban ljuljdjurovic,
   brandon mader,
   rob mitchell,
   robert mitchell,
-  shanice musiitwa,
   josh nygaard,
   dan paseltiner,
   kyle planeaux,
@@ -55,7 +52,6 @@ tags:
   angela the,
   sarah tress,
   ashton tu,
-  jake wheeler,
   mary yeh,
   bob zhao,
   bryan britten,
@@ -81,17 +77,14 @@ project_members:
   - ryan-gaddis
   - matt-goldberg
   - marcelle-goggins
-  - austin-hall
   - alex-hayward
   - janki-kaneria
-  - michelle-kang
   - andrew-kasper
   - laura-king
   - boban-ljuljdjurovic
   - brandon-mader
   - rob-mitchell
   - robert-mitchell
-  - shanice-musiitwa
   - josh-nygaard
   - dan-paseltiner
   - kyle-planeaux
@@ -100,7 +93,6 @@ project_members:
   - angela-the
   - sarah-tress
   - ashton-tu
-  - jake-wheeler
   - mary-yeh
   - bob-zhao
   - bryan-britten
