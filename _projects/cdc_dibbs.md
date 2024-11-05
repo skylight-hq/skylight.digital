@@ -159,7 +159,7 @@ DIBBs are modular tools designed for the collection, processing, and analysis of
 
 ![Illustration showing several blocks, some of which are interconnected with pipelines.](/img/projects/cdc_dibbs/dibbs-logo.svg){: .mb-0 }
 
-Different configurations of DIBBs depending on user needs
+Different configurations of DIBBs depending on user needs.
 {: .caption }
 
 Our current portfolio of DIBBs includes:
