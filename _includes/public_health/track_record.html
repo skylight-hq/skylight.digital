@@ -1,0 +1,11 @@
+<div class="row mt-4">
+  <div class="col-md-12">
+    {{ include.section.content | markdownify }}
+
+    <ul class="capabilities-list">
+      {% for capability in include.section.capabilities %}
+      <li>{{ capability }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

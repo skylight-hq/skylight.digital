@@ -1,0 +1,13 @@
+<div class="row mt-4">
+  {% for item in include.section.items %}
+  <div class="col-md-6 mb-5">
+    <div class="service-detail">
+      {% if item.image %}
+      <img src="{{ item.image }}" alt="" class="img-fluid mb-4">
+      {% endif %}
+      <h3>{{ item.title }}</h3>
+      {{ item.description | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+</div>

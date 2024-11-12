@@ -1,0 +1,74 @@
+.public-health-content {
+  .help-list {
+    list-style: none;
+    padding-left: 0;
+    
+    li {
+      position: relative;
+      padding-left: 2rem;
+      margin-bottom: 1rem;
+      
+      &:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  .service-detail {
+    height: 100%;
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+    h3 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+  }
+
+  .capabilities-list {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    
+    li {
+      background: var(--white);
+      padding: 1rem;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+  }
+
+  .engagement-options {
+    list-style: none;
+    padding-left: 0;
+    
+    li {
+      margin-bottom: 1.5rem;
+      
+      ul {
+        margin-top: 0.5rem;
+        padding-left: 1.5rem;
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .public-health-content {
+    .capabilities-list {
+      grid-template-columns: 1fr;
+    }
+    
+    .service-detail {
+      margin-bottom: 1rem;
+    }
+  }
+} 

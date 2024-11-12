@@ -1,0 +1,27 @@
+<div class="row mt-4">
+  <div class="col-md-6">
+    {% if include.section.image %}
+    <img src="{{ include.section.image }}" alt="" class="img-fluid mb-4">
+    {% endif %}
+  </div>
+  <div class="col-md-6">
+    <ul class="engagement-options">
+      {% for option in include.section.options %}
+      <li>
+        {% if option.text %}
+        {{ option.text }}
+        {% if option.subitems %}
+        <ul>
+          {% for subitem in option.subitems %}
+          <li>{{ subitem | markdownify }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% else %}
+        {{ option }}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

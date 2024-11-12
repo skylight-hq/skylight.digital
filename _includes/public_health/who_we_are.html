@@ -1,0 +1,12 @@
+<div class="row mt-4">
+  {% for content in include.section.content %}
+  <div class="col-md-6">
+    {% if content.image %}
+    <img src="{{ content.image }}" alt="" class="img-fluid mb-4">
+    {% endif %}
+  </div>
+  <div class="col-md-6">
+    {{ content.text | markdownify }}
+  </div>
+  {% endfor %}
+</div>
