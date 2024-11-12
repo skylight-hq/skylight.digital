@@ -1,0 +1,21 @@
+<article class="project-col" data-tags="{{ include.project.tags | join: ', ' }}"
+  data-display="{{ include.project.display }}">
+  <div class="project-card card-link" data-href="{{ include.project.permalink | prepend: site.baseurl }}" tabindex="-1">
+    <div role="img" class="project-img"
+      style="background-image: url('{{ include.project.image | prepend: site.baseurl }}');"
+      title="{{ include.project.image_description }}">
+    </div>
+    <div class="project-block">
+      {% if include.project.title_tag %}
+      <p class="project-title-tag">{{ include.project.title_tag }}</p>
+      {% endif %}
+      <h2 class="project-title {{ include.context }}">{{ include.project.title }}</h2>
+      <div class="card-text project-text">{{ include.project.excerpt | markdownify }}</div>
+    </div>
+    <div class="project-footer">
+      <a href="{{ include.project.permalink | prepend: site.baseurl }}" tabindex="0">
+        <span>Read more</span><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</article>

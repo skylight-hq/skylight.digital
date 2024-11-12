@@ -1,0 +1,33 @@
+---
+# ... frontmatter remains unchanged ...
+---
+
+{% include hero_banner.html
+hero_content = "Learn how Skylight can empower your agency with cutting-edge tools so you make the most of your data."
+link_content = "Contact us"
+link_href = "/connect/contact/?page=public-health"
+link_class = "btn btn-lg btn-10 usa-button usa-button--outline usa-button--inverse"
+link_type = "button"
+color = "blue-100"
+image = "hero-public-health.svg"
+additional_class = "hero-banner-btm" %}
+
+<div class="services-content public-health-content left-justified-list">
+  {% for section in site.data.public_health.sections %}
+  {% include public_health/section.html section=section %}
+  {% endfor %}
+
+  <div class="our-experience">
+    <div class="projects grid-container">
+      <h2>Case studies</h2>
+      <div class="projects-row">
+        {% assign filtered_posts = paginator.posts | where_exp: "item", "case_studies_content contains item.title" %}
+        {% for item in filtered_posts %}
+        {% include project_card.html project=item %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include public_health_cta.html %}

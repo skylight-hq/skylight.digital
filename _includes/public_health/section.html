@@ -1,0 +1,28 @@
+<div class="{{ include.section.background }} {{ include.section.padding }}">
+  <div class="grid-container prose">
+    {% if include.section.title %}
+    <div class="row">
+      <div class="col-md-10 mt-md-4">
+        <h2 id="{{ include.section.id }}">{{ include.section.title }}</h2>
+        {% if include.section.intro %}
+        <p>{{ include.section.intro }}</p>
+        {% endif %}
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    {% endif %}
+
+    {% case include.section.id %}
+    {% when 'who-we-are' %}
+    {% include public_health/who_we_are.html section=include.section %}
+    {% when 'our-services' %}
+    {% include public_health/our_services.html section=include.section %}
+    {% when 'service-details' %}
+    {% include public_health/service_details.html section=include.section %}
+    {% when 'track-record' %}
+    {% include public_health/track_record.html section=include.section %}
+    {% when 'engagement' %}
+    {% include public_health/engagement.html section=include.section %}
+    {% endcase %}
+  </div>
+</div>

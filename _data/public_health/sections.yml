@@ -1,0 +1,83 @@
+- id: who-we-are
+  background: ""
+  padding: ""
+  title: Who is Skylight?
+  content:
+    - type: two-column
+      image: /img/public_health/landing-page.svg
+      text: |
+        We're an interdisciplinary team of researchers, designers, engineers, and data scientists with deep
+        experience in the public health data and digital services space.
+        
+        Our goal is to enable public health leaders with the tools and expertise they need to build flexible,
+        modern, and performant data systems.
+
+- id: our-services
+  background: bg-blue-20
+  padding: py-6
+  title: Our services
+  intro: |
+    At Skylight, our public health technologists combine a human-centered, research-based approach with lean and agile
+    principles and deep public health data expertise to deliver exceptional user experiences and enduring software
+    solutions.
+  help_list:
+    - Build modern digital infrastructure usable for both daily and emergent public health action
+    - Strengthen data systems and processes to enable timely, complete data sharing
+    - Break down siloes and connect data across person, place, and time
+    - Grow your team's technical capacity through tailored workforce support and training
+
+- id: service-details
+  items:
+    - title: Needs assessment
+      image: /img/public_health/whiteboard-public-health.svg
+      description: |
+        We'll perform an analysis of your current data systems, from hosting to end-user experience. Through this
+        analysis, you can learn how your users interact with every system and discover opportunities to accelerate the
+        adoption of modern digital and data practices.
+
+    - title: Data modernization strategy
+      image: /img/public_health/belt-public-health.svg
+      description: |
+        We'll design a strategy to meet your data modernization goals and maximize your dollars and time. You can
+        use this strategy to find out how to improve your organization's systems, processes, and technical capabilities.
+
+    - title: Implementation
+      image: /img/public_health/agile-public-health.svg
+      description: |
+        We'll use an agile, user-centered product development approach to develop custom software solutions. Our
+        flexible, sustainable software tools will help solve your jurisdiction's data challenges and modernize your data
+        workflows.
+
+    - title: Workforce enablement
+      image: /img/public_health/stairs-public-health.svg
+      description: |
+        We'll partner directly with your team to build their technical capacity through pairing, shadowing, and
+        regular product demonstrations. Through this tailored support and training, our experts can develop your team's internal
+        competencies.
+
+- id: track-record
+  title: Our track record
+  content: |
+    As a contractor to CDC and the Office of Public Health Data, Surveillance, and Technology (OPHDST), we're behind some
+    high priority improvements and innovations that directly benefit public health authorities at all levels of government,
+    including [SimpleReport](/work/experience/cdc-simplereport/) and [Data Integration Building Blocks](/work/experience/cdc-dibbs/).
+  capabilities:
+    - Identify diseases and conditions
+    - Detect emerging public health threats
+    - Conduct data analysis to derive insights
+    - Understand disease burden and severity across different populations
+    - Leverage data to take public health action
+
+- id: engagement
+  background: bg-blue-20
+  padding: py-6
+  title: How to engage with us
+  image: /img/public_health/people-high-fiving-1.svg
+  options:
+    - State and local contracting vehicles
+    - Microconsulting packages
+    - GSA Multiple Award Schedule (MAS)
+    - text: Accessible to all federal, state, and local governments
+      subitems:
+        - Partner with Skylight through Cooperative Purchasing Agreement or Disaster Relief Funding; Information Technology - IT Services SIN 54151S ([learn more](https://www.gsa.gov/resources/programs-for-state-and-local-governments))
+        - "[GSA resources to onboard and use MAS](https://www.youtube.com/playlist?list=PLvdwyPgXnxxU3O3f6kFoSVaTJ-c_mdQxj)" 
