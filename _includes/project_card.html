@@ -2,8 +2,8 @@
   data-display="{{ include.project.display }}">
   <div class="project-card card-link" data-href="{{ include.project.permalink | prepend: site.baseurl }}" tabindex="-1">
     <div role="img" class="project-img"
-      style="background-image: url('{{ include.project.image | prepend: site.baseurl }}');"
-      title="{{ include.project.image_description }}">
+      style="background-image: url('{{ include.project.image | prepend: site.baseurl | strip }}')"
+      aria-label="{{ include.project.image_description | strip }}">
     </div>
     <div class="project-block">
       {% if include.project.title_tag %}
