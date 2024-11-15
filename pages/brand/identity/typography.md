@@ -3,11 +3,13 @@ layout: toolkit
 title: Typography
 description: How our words appear is a vital component of Skylight’s brand. Our typeface and its usage helps establish a strong visual identity, creates visual consistency across all mediums, and supports our brand’s overall tone.
 tags:
-permalink: /brand/identity/typography/
+permalink: /company/brand/identity/typography/
 sidenav: brand_identity
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/identity/typography/
 ---
 
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">

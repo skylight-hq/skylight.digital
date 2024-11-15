@@ -3,11 +3,13 @@ layout: toolkit
 title: Design guidance
 description: Whether designing a web page or a business card, we’ve developed essential guidance that we apply across Skylight’s marketing and communications materials.
 tags:
-permalink: /brand/outreach/design-guidance/
+permalink: /company/brand/outreach/design-guidance/
 sidenav: brand_outreach
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/outreach/design-guidance/
 ---
 
 <div class="brand__content-section grid">

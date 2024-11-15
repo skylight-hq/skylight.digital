@@ -3,11 +3,13 @@ layout: toolkit
 title: Downloads
 description: Download our brand assets. This includes our logo, icon, and a range of other useful resources.
 tags:
-permalink: /brand/resources/downloads/
+permalink: /company/brand/resources/downloads/
 sidenav: brand_resources
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/resources/downloads/
 ---
 
 <div class="row brand__content-section">

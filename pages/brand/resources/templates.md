@@ -3,11 +3,13 @@ layout: toolkit
 title: Templates
 description: Our content often follows standardized templates. These templates make both writing and reading easier. They also help future-proof our content, making the work reusable outside of where it was originally created.
 tags:
-permalink: /brand/resources/templates/
+permalink: /company/brand/resources/templates/
 sidenav: brand_resources
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/resources/templates/
 ---
 
 <div class="row brand__content-section">

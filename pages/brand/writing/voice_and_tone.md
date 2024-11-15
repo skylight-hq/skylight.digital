@@ -3,11 +3,13 @@ layout: toolkit
 title: Voice and tone
 description: Skylight’s voice is our personality distilled into writing. It’s crucial for our audience to recognize us even if we don’t announce ourselves. While our voice is constant, we should adjust our tone depending on the context and the specific audience.
 tags:
-permalink: /brand/writing/voice-and-tone/
+permalink: /company/brand/writing/voice-and-tone/
 sidenav: brand_writing
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/writing/voice-and-tone/
 ---
 
 <div class="row">

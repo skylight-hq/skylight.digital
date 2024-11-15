@@ -3,7 +3,7 @@ layout: toolkit
 title: Colors
 description: The world is a diverse and wonderful place. We want to reflect that in how we work, whom we work with, and the colors we use — that’s why we’ve developed a bright and beautiful palette.
 tags:
-permalink: /brand/identity/colors/
+permalink: /company/brand/identity/colors/
 sidenav: brand_identity
 content_type: Toolkit
 toolkit_name: brand
@@ -14,6 +14,8 @@ families:
   - red
   - ochre
   - gray
+redirect_from:
+  - /brand/identity/colors/
 ---
 
 <div class="brand__content-section grid">
