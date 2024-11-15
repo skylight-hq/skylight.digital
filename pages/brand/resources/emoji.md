@@ -3,11 +3,13 @@ layout: toolkit
 title: Emoji
 description: This is a list of emoji that we've compiled thus far for use in electronic messages (such as Slack) and web pages.
 tags:
-permalink: /brand/resources/emoji/
+permalink: /company/brand/resources/emoji/
 sidenav: brand_resources
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/resources/emoji/
 ---
 
 <div class="row brand__content-section">

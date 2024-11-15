@@ -3,11 +3,13 @@ layout: toolkit
 title: Imagery
 description: Capturing Skylight’s work through imagery is essential to telling a compelling story about our impact on public services. We offer guidance around what makes our visual style distinctive and provide tips on what makes an effective visual.
 tags:
-permalink: /brand/identity/imagery/
+permalink: /company/brand/identity/imagery/
 sidenav: brand_identity
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/identity/imagery/
 ---
 
 <div class="brand__content-section grid">

@@ -14,7 +14,8 @@
   }
 }
 
-.page-brand {
+.page-brand,
+.page-company-brand {
   &:not(.page-brand-guidelines) {
     footer {
       border-top: 1px solid $gray-lightest;
@@ -224,7 +225,7 @@
   }
 
   .navbar-logo {
-    background-image: url("/img/logo-inverse.svg");
+    background-image: url('/img/logo-inverse.svg');
   }
 
   .burger span,
@@ -233,7 +234,7 @@
     background: white !important;
   }
 
-  .navbar-toggler[aria-expanded="true"] {
+  .navbar-toggler[aria-expanded='true'] {
     .burger {
       &:hover {
         span {
@@ -251,7 +252,7 @@
 
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/landing.svg");
+      background-image: url('/img/brand/hero/landing.svg');
       background-size: 370px;
       background-position: top right 20px;
     }
@@ -468,7 +469,7 @@
   }
 
   .brand-hero__content {
-    background-image: url("/img/hero-mobile-company.svg");
+    background-image: url('/img/hero-mobile-company.svg');
   }
 
   .pagination__step--last {
@@ -480,10 +481,10 @@
   }
 }
 
-.page-brand-identity-logos {
+.page-company-brand-identity-logos {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/identity/logos.svg");
+      background-image: url('/img/brand/hero/identity/logos.svg');
     }
   }
 }
@@ -491,7 +492,7 @@
 .page-brand-identity-icons {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/identity/icons.svg");
+      background-image: url('/img/brand/hero/identity/icons.svg');
     }
   }
 }
@@ -499,7 +500,7 @@
 .page-brand-identity-colors {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/identity/colors.svg");
+      background-image: url('/img/brand/hero/identity/colors.svg');
       background-size: 50%;
     }
 
@@ -512,7 +513,7 @@
 .page-brand-identity-typography {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/identity/typography.svg");
+      background-image: url('/img/brand/hero/identity/typography.svg');
     }
   }
 }
@@ -520,7 +521,7 @@
 .page-brand-identity-imagery {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/identity/imagery.svg");
+      background-image: url('/img/brand/hero/identity/imagery.svg');
       background-size: 50%;
     }
 
@@ -540,7 +541,7 @@
   }
 
   .brand-hero__content {
-    background-image: url("/img/hero-mobile-work.svg");
+    background-image: url('/img/hero-mobile-work.svg');
   }
 
   .brand {
@@ -573,7 +574,7 @@
 .page-brand-writing-brand-narrative {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/writing/brand-narrative.svg");
+      background-image: url('/img/brand/hero/writing/brand-narrative.svg');
       background-size: 50%;
     }
 
@@ -586,7 +587,7 @@
 .page-brand-writing-voice-and-tone {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/writing/voice-and-tone.svg");
+      background-image: url('/img/brand/hero/writing/voice-and-tone.svg');
     }
   }
 }
@@ -594,7 +595,7 @@
 .page-brand-writing-style {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/writing/style.svg");
+      background-image: url('/img/brand/hero/writing/style.svg');
       background-size: 50%;
     }
 
@@ -614,7 +615,7 @@
   }
 
   .brand-hero__content {
-    background-image: url("/img/hero-mobile-careers.svg");
+    background-image: url('/img/hero-mobile-careers.svg');
   }
 
   h1 {
@@ -649,7 +650,7 @@
 .page-brand-illustration-principles {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/illustration/principles.svg");
+      background-image: url('/img/brand/hero/illustration/principles.svg');
       background-size: 53%;
     }
 
@@ -662,7 +663,7 @@
 .page-brand-illustration-visual-style {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/illustration/visual-style.svg");
+      background-image: url('/img/brand/hero/illustration/visual-style.svg');
     }
   }
 }
@@ -670,7 +671,7 @@
 .page-brand-illustration-illustration-types {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/illustration/illustration-types.svg");
+      background-image: url('/img/brand/hero/illustration/illustration-types.svg');
     }
   }
 }
@@ -685,7 +686,7 @@
   }
 
   .brand-hero__content {
-    background-image: url("/img/hero-mobile-thoughts.svg");
+    background-image: url('/img/hero-mobile-thoughts.svg');
   }
 
   h1 {
@@ -712,7 +713,7 @@
 .page-brand-outreach-design-guidance {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/outreach/design-guidance.svg");
+      background-image: url('/img/brand/hero/outreach/design-guidance.svg');
     }
   }
 }
@@ -720,7 +721,7 @@
 .page-brand-outreach-outreach-types {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/outreach/outreach-types.svg");
+      background-image: url('/img/brand/hero/outreach/outreach-types.svg');
     }
   }
 }
@@ -735,10 +736,10 @@
   }
 
   .brand-hero__content {
-    background-image: url("/img/hero-mobile-connect.svg");
+    background-image: url('/img/hero-mobile-connect.svg');
 
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/resources.svg");
+      background-image: url('/img/brand/hero/resources.svg');
     }
   }
 
@@ -768,7 +769,7 @@
 .page-brand-resources-emoji {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/resources/emoji.svg");
+      background-image: url('/img/brand/hero/resources/emoji.svg');
     }
   }
 }
@@ -776,7 +777,7 @@
 .page-brand-resources-templates {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/resources/templates.svg");
+      background-image: url('/img/brand/hero/resources/templates.svg');
     }
   }
 }
@@ -784,7 +785,7 @@
 .page-brand-resources-downloads {
   .brand-hero__content {
     @include media-breakpoint-up(md) {
-      background-image: url("/img/brand/hero/resources/downloads.svg");
+      background-image: url('/img/brand/hero/resources/downloads.svg');
     }
   }
 }
@@ -963,7 +964,7 @@
     margin-inline: -8px;
   }
 
-  [class^="col-"] {
+  [class^='col-'] {
     padding-inline: 8px;
   }
 }

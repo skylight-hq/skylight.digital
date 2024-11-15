@@ -3,11 +3,13 @@ layout: toolkit
 title: Visual style
 description: We want our audience to immediately recognize a Skylight illustration. To do that, we follow a few simple guidelines to ensure consistency, from our color palette to our use of lines and fill. Use this guidance to create illustrations that are uniquely Skylight.
 tags:
-permalink: /brand/illustration/visual-style/
+permalink: /company/brand/illustration/visual-style/
 sidenav: brand_illustration
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/illustration/visual-style/
 ---
 
 <div class="brand__content-section grid">

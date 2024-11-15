@@ -3,11 +3,13 @@ layout: toolkit
 title: Style
 description: Our style guide helps define and inform the way we write. It strengthens our brand, gives us credibility, and ensures consistency. These guidelines are also a critical resource for anyone at Skylight who creates and edits content.
 tags:
-permalink: /brand/writing/style/
+permalink: /company/brand/writing/style/
 sidenav: brand_writing
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/writing/style/
 ---
 
 <div class="row">

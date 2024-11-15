@@ -3,11 +3,13 @@ layout: toolkit
 title: Icons
 description: Skylight’s brand primarily lives online, so it’s essential that we use our icon consistently and accurately to ensure our audience recognizes our brand across various contexts.
 tags:
-permalink: /brand/identity/icons/
+permalink: /company/brand/identity/icons/
 sidenav: brand_identity
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/identity/icons/
 ---
 
 <div class="brand__content-section grid">

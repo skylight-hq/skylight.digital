@@ -3,11 +3,13 @@ layout: toolkit
 title: Brand narrative
 description: Skylight’s story is central to the way we express ourselves. That means instilling a sense of our mission, values, and expertise into everything we write.
 tags:
-permalink: /brand/writing/brand-narrative/
+permalink: /company/brand/writing/brand-narrative/
 sidenav: brand_writing
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/writing/brand-narrative/
 ---
 
 <div class="row">

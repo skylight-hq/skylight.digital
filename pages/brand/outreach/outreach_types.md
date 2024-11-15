@@ -3,11 +3,13 @@ layout: toolkit
 title: Outreach types
 description: We create a lot of outreach materials at Skylight, both for internal activities and to generate brand awareness externally. See how we’ve applied our design guidelines to a range of different assets.
 tags:
-permalink: /brand/outreach/outreach-types/
+permalink: /company/brand/outreach/outreach-types/
 sidenav: brand_outreach
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/outreach/outreach-types/
 ---
 
 <div class="brand__content-section grid">

@@ -3,11 +3,13 @@ layout: toolkit
 title: Illustration types
 description: We use a number of different kinds of illustrations, each with their own distinct rules. Learn about when to use each illustration style and tips for creating them.
 tags:
-permalink: /brand/illustration/illustration-types/
+permalink: /company/brand/illustration/illustration-types/
 sidenav: brand_illustration
 content_type: Toolkit
 toolkit_name: brand
 class: brand
+redirect_from:
+  - /brand/illustration/illustration-types/
 ---
 
 <div class="brand__content-section grid">

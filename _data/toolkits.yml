@@ -32,7 +32,7 @@ digital_talent_management:
       url: /work/toolkits/digital-talent-management/building-a-movement-and-a-presence/
     - title: How we wrote this guide
       url: /work/toolkits/digital-talent-management/how-we-wrote-this-guide/
-    - title: "Appendix A: Sample interview questions"
+    - title: 'Appendix A: Sample interview questions'
       url: /work/toolkits/digital-talent-management/appendix-a-sample-interview-questions/
 
 data_sharing_playbook:
@@ -51,9 +51,9 @@ data_sharing_playbook:
       url: /work/toolkits/data-sharing-playbook/preparing-a-successful-data-request/
     - title: Transferring data
       url: /work/toolkits/data-sharing-playbook/transferring-data/
-    - title: "Appendix A: Setting SMART goals"
+    - title: 'Appendix A: Setting SMART goals'
       url: /work/toolkits/data-sharing-playbook/appendix-a-setting-smart-goals/
-    - title: "Appendix B: Linking datasets"
+    - title: 'Appendix B: Linking datasets'
       url: /work/toolkits/data-sharing-playbook/appendix-b-linking-datasets/
 
 accessibility_guide:
@@ -123,19 +123,19 @@ agile_procurement_playbook:
       url: /work/toolkits/agile-procurement-playbook/phases-of-an-agile-procurement/
     - title: Managing an agile project
       url: /work/toolkits/agile-procurement-playbook/managing-an-agile-project/
-    - title: "Appendix A: Case studies"
+    - title: 'Appendix A: Case studies'
       url: /work/toolkits/agile-procurement-playbook/appendix-a-case-studies/
-    - title: "Appendix B: Key concepts"
+    - title: 'Appendix B: Key concepts'
       url: /work/toolkits/agile-procurement-playbook/appendix-b-key-concepts/
-    - title: "Appendix C: Templates"
+    - title: 'Appendix C: Templates'
       url: /work/toolkits/agile-procurement-playbook/appendix-c-templates/
-    - title: "Appendix D: TEP rating system examples"
+    - title: 'Appendix D: TEP rating system examples'
       url: /work/toolkits/agile-procurement-playbook/appendix-d-tep-rating-system-examples/
-    - title: "Appendix E: Design challenge examples"
+    - title: 'Appendix E: Design challenge examples'
       url: /work/toolkits/agile-procurement-playbook/appendix-e-design-challenge-examples/
-    - title: "Appendix F: Procurement options analysis examples"
+    - title: 'Appendix F: Procurement options analysis examples'
       url: /work/toolkits/agile-procurement-playbook/appendix-f-procurement-options-analysis-examples/
-    - title: "Appendix G: Statement of Objectives examples"
+    - title: 'Appendix G: Statement of Objectives examples'
       url: /work/toolkits/agile-procurement-playbook/appendix-g-statement-of-objectives-examples/
 
 managing_technical_debt:
@@ -202,21 +202,21 @@ service_design_framework:
       url: /work/toolkits/service-design-framework/
     - title: The Skylight Service Design Framework
       url: /work/toolkits/service-design-framework/the-skylight-service-design-framework/
-    - title: "Phase 1: Initiate"
+    - title: 'Phase 1: Initiate'
       url: /work/toolkits/service-design-framework/phase-1-initiate/
-    - title: "Phase 2: Discover"
+    - title: 'Phase 2: Discover'
       url: /work/toolkits/service-design-framework/phase-2-discover/
-    - title: "Phase 3: Strategize"
+    - title: 'Phase 3: Strategize'
       url: /work/toolkits/service-design-framework/phase-3-strategize/
-    - title: "Phase 4: Experiment"
+    - title: 'Phase 4: Experiment'
       url: /work/toolkits/service-design-framework/phase-4-experiment/
-    - title: "Phase 5: Implement"
+    - title: 'Phase 5: Implement'
       url: /work/toolkits/service-design-framework/phase-5-implement/
-    - title: "Appendix A: Methods"
+    - title: 'Appendix A: Methods'
       url: /work/toolkits/service-design-framework/appendix-a-methods/
-    - title: "Appendix B: Templates"
+    - title: 'Appendix B: Templates'
       url: /work/toolkits/service-design-framework/appendix-b-templates/
-    - title: "Appendix C: Glossary"
+    - title: 'Appendix C: Glossary'
       url: /work/toolkits/service-design-framework/appendix-c-glossary/
 
 brand_identity:
@@ -225,15 +225,15 @@ brand_identity:
   description_long: Discover Skylight’s core brand elements and our rules for using them. We’ve provided guidance for each element, including Skylight’s logo, icons, color, typography, and imagery. Learn how these elements work together to create Skyilght’s identity.
   toc:
     - title: Logos
-      url: /brand/identity/logos/
+      url: /company/brand/identity/logos/
     - title: Icons
-      url: /brand/identity/icons/
+      url: /company/brand/identity/icons/
     - title: Colors
-      url: /brand/identity/colors/
+      url: /company/brand/identity/colors/
     - title: Typography
-      url: /brand/identity/typography/
+      url: /company/brand/identity/typography/
     - title: Imagery
-      url: /brand/identity/imagery/
+      url: /company/brand/identity/imagery/
 
 brand_writing:
   title: Writing
@@ -241,11 +241,11 @@ brand_writing:
   description_long: Craft clear and consistent content using Skylight’s voice and brand personality. You’ll find a breakdown of our brand narrative, sample messaging, and guidance around voice and tone, as well as other useful resources that we’ve developed to help you write in the Skylight style.
   toc:
     - title: Brand narrative
-      url: /brand/writing/brand-narrative/
+      url: /company/brand/writing/brand-narrative/
     - title: Voice and tone
-      url: /brand/writing/voice-and-tone/
+      url: /company/brand/writing/voice-and-tone/
     - title: Style
-      url: /brand/writing/style/
+      url: /company/brand/writing/style/
 
 brand_illustration:
   title: Illustration
@@ -253,11 +253,11 @@ brand_illustration:
   description_long: Design images and visuals that align with the Skylight brand. Keep in mind our principles when developing illustrations to effectively highlight the value of working with us. This section also offers rules around our palette, style, and other illustration use cases.
   toc:
     - title: Principles
-      url: /brand/illustration/principles/
+      url: /company/brand/illustration/principles/
     - title: Visual style
-      url: /brand/illustration/visual-style/
+      url: /company/brand/illustration/visual-style/
     - title: Illustration types
-      url: /brand/illustration/illustration-types/
+      url: /company/brand/illustration/illustration-types/
 
 brand_outreach:
   title: Outreach
@@ -265,9 +265,9 @@ brand_outreach:
   description_long: Develop materials using Skylight’s graphic elements and visual identity. In this section, we’ve provided examples of the graphic elements we use in layout design and illustration, as well as samples of Skylight’s brand in use, both for digital assets and Skylight swag.
   toc:
     - title: Design guidance
-      url: /brand/outreach/design-guidance/
+      url: /company/brand/outreach/design-guidance/
     - title: Outreach types
-      url: /brand/outreach/outreach-types/
+      url: /company/brand/outreach/outreach-types/
 
 brand_resources:
   title: Resources
@@ -275,8 +275,8 @@ brand_resources:
   description_long: Find the digital assets you need to share Skylight’s story. If you have questions or need additional resources, please <a href="mailto:admin@skylight.digital">contact us</a>.
   toc:
     - title: Emoji
-      url: /brand/resources/emoji/
+      url: /company/brand/resources/emoji/
     - title: Templates
-      url: /brand/resources/templates/
+      url: /company/brand/resources/templates/
     - title: Downloads
-      url: /brand/resources/downloads/
+      url: /company/brand/resources/downloads/
