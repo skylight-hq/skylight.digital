@@ -122,7 +122,7 @@ A welcoming and inclusive culture empowers people to provide outstanding public 
 
 A Code of Conduct puts into writing how you expect people to behave in the workplace and at work events. It codifies your commitment to an inclusive environment. Create a documented process for enforcing the Code of Conduct and an anonymous process for reporting violations of the Code.
 
-18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) that you can adopt and modify as necessary.
+18F has a [Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code_of_conduct.md) that you can adopt and modify as necessary.
 {: .callout--tip}
 
 ### Empower people to speak up

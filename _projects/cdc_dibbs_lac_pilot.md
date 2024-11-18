@@ -101,7 +101,7 @@ Better, more reliable data reduces the need for manual cleaning and makes downst
 {% endcapture %}
 
 {% capture solution %}
-As part of the wider CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME),
+As part of the wider CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds_innovation.html) (PRIME),
 Skylight worked with LAC to improve its disease surveillance infrastructure. Building on a [previous pilot](/work/experience/cdc-dibbs-vdh-pilot/) with the Virginia Department of Health, the Skylight team developed and deployed a cutting-edge, modular data pipeline to automatically process and enrich multiple data streams, including COVID-19 eCR files and ELRs. This open-source, cloud-based pipeline — composed of modular software components referred to as [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs) —  significantly reduces the time it takes for LAC’s disease surveillance teams to receive and act upon public health data, while also improving the quality of that data.
 
 Over the course of the year-long pilot, the DIBBs team:

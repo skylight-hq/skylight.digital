@@ -118,7 +118,7 @@ To fulfill the promise of eCR, public health staff need to be able to quickly fi
 {% endcapture %}
 
 {% capture solution %}
-Under the umbrella of the CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME),
+Under the umbrella of the CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds_innovation.html) (PRIME),
 Skylight aimed to make eCR data more usable for public health staff. To do this, we developed the eCR Viewer, an intuitive interface that surfaces a summary of condition-specific information in a more readable format at the top of the eCR file. 
 Using the eCR Viewer, public health staff can easily find data relevant to the reportable condition. The eCR Viewer also orders and organizes data consistently regardless of which electronic medical record system generated the eCR. Because the eCR Viewer makes it easier for public health staff to find clinical information for case investigation, eCR becomes a more useful data source, thereby reducing the need to manually contact healthcare providers.
 
