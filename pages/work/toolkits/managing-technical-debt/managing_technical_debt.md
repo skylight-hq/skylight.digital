@@ -58,7 +58,7 @@ Regardless of which approach you use to make technical debt visible to decision 
 
 ## Deciding what to do about technical debt
 
-After you've made your technical debt visible for all to see, the next step is to decide what to do about it. Frank Buschmann describes [three debt payment strategies](http://www.computer.org/csdl/mags/so/2011/06/mso2011060029-abs.html):
+After you've made your technical debt visible for all to see, the next step is to decide what to do about it. Frank Buschmann describes [three debt payment strategies](http://www.computer.org/csdl/mags/so/2011/06/mso2011060029_abs.html):
 
 * **Debt repayment**. Refactor or replace the code, framework, or platform that is considered technical debt and is giving you a headache. (For those unfamiliar with the technical jargon, refactoring is the process of improving or simplifying code without changing the functionality.)
 * **Debt conversion**. Replace the current solution with a "good, but not perfect" alternative. The new solution has a lower interest rate. This might be a good option if a perfect solution is exceedingly expensive to build.

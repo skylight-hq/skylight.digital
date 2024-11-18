@@ -34,7 +34,7 @@ For the WxPO and government organizations of all types, service design provides 
 
 As was the case for the WxPO, many projects don’t begin with a plan to use service design. Once you dig into a problem, though, the complexities start to emerge and the need for service design becomes clear.
 
-Recognizing from the outset what kinds of problems require service design isn’t always easy, but there are patterns to look out for. According to a [Deloitte study](https://www2.deloitte.com/us/en/insights/industry/public-sector/implementing-service-design-in-government.html) of government service design projects, each of these problems can present a good opportunity for service design:
+Recognizing from the outset what kinds of problems require service design isn’t always easy, but there are patterns to look out for. According to a [Deloitte study](https://www2.deloitte.com/us/en/insights/industry/public-sector/implementing_service_design_in_government.html) of government service design projects, each of these problems can present a good opportunity for service design:
 
 * Lack of knowledge about the customers you serve
 * Siloed communication, processes, and systems within an agency

@@ -11,7 +11,7 @@ content_type: Toolkit
 
 Technology evolves at a fast pace, and people are constantly inventing new ways to solve problems. Keeping up with this pace is important. Luckily, your employees are eager to do so as well. When asked why they might leave their current position, [professionals cite the ability to learn and grow on the job as being almost twice as important as salary](https://joshbersin.com/2018/11/corporate-learning-does-drive-happiness-productivity-too/).
 
-Make time for your team to learn and grow as part of their job. This means making time for longer, more time-intensive programs, but it also means [baking learning opportunities into everyday work](https://www2.deloitte.com/us/en/insights/industry/public-sector/future-of-work-in-government.html).
+Make time for your team to learn and grow as part of their job. This means making time for longer, more time-intensive programs, but it also means [baking learning opportunities into everyday work](https://www2.deloitte.com/us/en/insights/industry/public-sector/future_of_work_in_government.html).
 
 ## Offer opportunities for continual learning
 
