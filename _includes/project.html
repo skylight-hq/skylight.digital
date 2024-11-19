@@ -52,13 +52,15 @@
         <li>
           <span class="approach-item">
             {% if emp.active %}
-            <a class="profile profile-link d-flex flex-row align-items-center" href="{{emp.profile_path}}">
-              <div class="employee-gradient{% if width != height %}-rect{% endif %}">
-                <img class="profile-img{% if width != height %}-rect{% endif %} employee-img"
-                  src="{{emp.image | prepend: site.baseurl}}" alt="{{emp.image_description}}" />
-              </div>
-              <span>{{emp.short_name}}</span>
-            </a>
+            <div class="profile d-flex flex-row align-items-center">
+              <a class="profile profile-link d-flex align-items-center" href="{{emp.profile_path}}">
+                <div class="employee-gradient{% if width != height %}-rect{% endif %}">
+                  <img class="profile-img{% if width != height %}-rect{% endif %} employee-img"
+                    src="{{emp.image | prepend: site.baseurl}}" alt="{{emp.image_description}}" />
+                </div>
+                <span>{{emp.short_name}}</span>
+              </a>
+            </div>
             {% else %}
             <div class="profile d-flex flex-row align-items-center">
               <div class="employee-gradient{% if width != height %}-rect{% endif %}">
