@@ -6,6 +6,7 @@ permalink: /work/experience/cdc-dibbs/
 redirect_from:
   - /cdc-public-health-data-infrastructure/
   - /work/experience/cdc-public-health-data-infrastructure/
+  - /work/experience/cdc-dibbs-ecr-viewer/
 image: /img/projects/cdc_dibbs/dibbs.svg
 image_description: A person stacking some blocks on a table.
 feature_image:
