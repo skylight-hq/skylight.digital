@@ -40,24 +40,26 @@ we can <br class="linebreak">bring to your biggest digital challenges.
   <div class="projects grid-container">
     <div class="projects-row">
       {% for item in paginator.posts %}
-      <article class="project-col" data-tags="{{item.tags | join: ', '}}" data-display="{{item.display}}">
-        <div class="project-card card-link" data-href="{{item.permalink | prepend: site.baseurl }}" tabindex="-1">
-          <div role="img" class="project-img" style="background-image: url({{item.image | prepend: site.baseurl}});"
-            title="{{item.image_description}}"></div>
-          <div class="project-block">
-            {% if item.title_tag %}
-            <p class="project-title-tag">{{item.title_tag}}</p>
-            {% endif %}
-            <h2 class="project-title {{context}}">{{item.title}}</h2>
-            <div class="card-text project-text">{{item.excerpt | markdownify}}</div>
-          </div>
-          <div class="project-footer">
-            <a href="{{item.permalink | prepend: site.baseurl }}" tabindex="0">
-              <span>Read more</span><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </article>
+        {% unless item.skip_index %}
+          <article class="project-col" data-tags="{{item.tags | join: ', '}}" data-display="{{item.display}}">
+            <div class="project-card card-link" data-href="{{item.permalink | prepend: site.baseurl }}" tabindex="-1">
+              <div role="img" class="project-img" style="background-image: url({{item.image | prepend: site.baseurl}});"
+                title="{{item.image_description}}"></div>
+              <div class="project-block">
+                {% if item.title_tag %}
+                <p class="project-title-tag">{{item.title_tag}} </p>
+                {% endif %}
+                <h2 class="project-title {{context}}">{{item.title}}</h2>
+                <div class="card-text project-text">{{item.excerpt | markdownify}}</div>
+              </div>
+              <div class="project-footer">
+                <a href="{{item.permalink | prepend: site.baseurl }}" tabindex="0">
+                  <span>Read more</span><i class="fal fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        {% endunless %}
       {% endfor %}
     </div>
     {% unless context == 'related' %}
