@@ -6,6 +6,7 @@ permalink: /work/experience/cdc-dibbs/
 redirect_from:
   - /cdc-public-health-data-infrastructure/
   - /work/experience/cdc-public-health-data-infrastructure/
+  - /work/experience/cdc-dibbs-ecr-viewer/
 image: /img/projects/cdc_dibbs/dibbs.svg
 image_description: A person stacking some blocks on a table.
 feature_image:
@@ -153,7 +154,7 @@ The COVID-19 pandemic revealed that the U.S. needs to significantly improve the 
 {% endcapture %}
 
 {% capture solution %}
-In an effort to strengthen the U.S. public health data infrastructure, the CDC has established a [Public Health Data Strategy](https://www.cdc.gov/ophdst/public-health-data-strategy/) through the Office of Public Health Data, Surveillance, and Technology (OPHDST), as well as launched a multi-year collaboration with the USDS called the [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to a set of open-source, modular tools, known as Data Integration Building Blocks (DIBBs), that public health departments can use to process and transform data. 
+In an effort to strengthen the U.S. public health data infrastructure, the CDC has established a [Public Health Data Strategy](https://www.cdc.gov/ophdst/public-health-data-strategy/) through the Office of Public Health Data, Surveillance, and Technology (OPHDST), as well as launched a multi-year collaboration with the USDS called the [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds_innovation.html) (PRIME). Skylight supports this work in partnership with USDS, with a focus on developing and providing access to a set of open-source, modular tools, known as Data Integration Building Blocks (DIBBs), that public health departments can use to process and transform data. 
 
 DIBBs are modular tools designed for the collection, processing, and analysis of public health data, significantly reducing the time it takes for STLTs to act on critical information. Much like LEGO blocks that can be stacked to create different shapes, DIBBs can be combined in various configurations to form flexible and efficient data pipelines. These tools automate data processing, enhance data quality, and ensure completeness, enabling public health departments to better detect, investigate, and respond to health threats. Public health agencies can also tailor the system by selecting and deploying the specific DIBBs they need, creating a customized pipeline that suits their unique requirements.
 

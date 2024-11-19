@@ -1,0 +1,10 @@
+{
+  "prettier.requireConfig": true,
+  "editor.formatOnSave": false,
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  }
+}

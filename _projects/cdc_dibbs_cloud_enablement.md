@@ -90,7 +90,7 @@ As a result, STLTs that want to leverage cloud hosting to scale and upgrade thei
 {% endcapture %}
 
 {% capture solution %}
-In support of the CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME),
+In support of the CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds_innovation.html) (PRIME),
 Skylight is working to enable STLTs with modern cloud hosting infrastructure. Through CDC’s centrally-hosted Azure cloud environment, STLTs can access our portfolio of cloud-based [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs) to modernize their data systems without the cost and maintenance burdens of having to host their own cloud infrastructure locally. 
 CDC’s cloud environment follows the same security and privacy policies as other widely used, externally facing CDC applications like [SimpleReport](/work/experience/cdc-simplereport/) and ReportStream. Onboarding, updates, and scaling are quick and free.
 

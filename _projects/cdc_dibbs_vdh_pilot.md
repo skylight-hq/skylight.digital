@@ -109,7 +109,7 @@ However, as it stood, VDH’s existing system introduced inefficiencies and unce
 {% endcapture %}
 
 {% capture solution %}
-As part of the CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html) (PRIME), Skylight partnered with VDH to experiment with new approaches for storing, processing, and linking different incoming data streams.
+As part of the CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds_innovation.html) (PRIME), Skylight partnered with VDH to experiment with new approaches for storing, processing, and linking different incoming data streams.
 
 In an effort to improve VDH’s disease surveillance infrastructure, our team:
 
