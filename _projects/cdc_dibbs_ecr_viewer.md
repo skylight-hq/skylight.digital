@@ -92,7 +92,7 @@ project_cta: See the site
 source_code_url: https://github.com/CDCgov/phdi
 skip_index: true
 ---
-
+<script>location="https://skylight.digital/work/experience/cdc-dibbs/"</script>
 {% capture summary %}
 Public health departments currently struggle to use and sort through incoming electronic case reporting (eCR) data. As part of our work with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS), Skylight has built an intuitive interface that surfaces key information from eCR files to make them more useful for monitoring the spread of reportable conditions.
 {% endcapture %}
@@ -162,4 +162,3 @@ Together, these tools enable jurisdictions to build flexible, modern, and perfor
   solution = solution
   results = results
 %}
-<div class="sr-only">301</div>
