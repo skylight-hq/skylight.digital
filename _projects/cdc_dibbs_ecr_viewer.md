@@ -1,6 +1,5 @@
 ---
-layout: redirect
-redirect: https://skylight.digital/work/experience/cdc-dibbs/
+layout: default
 title_tag: Centers for Disease Control and Prevention
 title: Surfacing actionable insights from electronic case reporting data
 permalink: /work/experience/cdc-dibbs-ecr-viewer/
