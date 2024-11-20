@@ -91,7 +91,7 @@ The Los Angeles County (LAC) Department of Public Health needed timely access to
 Timely access to eCR data is critical for public health departments to respond swiftly to disease outbreaks, especially during a public health emergency.
 Public health departments receive an automated feed of eCR data from private healthcare organizations and use this data to find case report information from a patient’s electronic health records (EHRs).
 This can include a patient's demographics, diagnoses, comorbidities, occupation, travel history, immunizations, and medications — information that can help inform case investigation and public health data analysis.
-Unfortunately, not all public health jurisdiction’s can effectively manage the flow of incoming eCR data.
+Unfortunately, not all public health jurisdictions can effectively manage the flow of incoming eCR data.
 
 Due to technical limitations with their existing disease surveillance system, the LAC Department of Public Health faced challenges with processing eCR files, leaving this rich source of data largely inaccessible to their disease surveillance teams.
 Because LAC’s disease surveillance system couldn’t process eCR data fields, they set up a separate, patchwork data workflow to collect eCR data. As a result, LAC had siloed processing systems for different data types, conflicting data standards, record duplication, and poor record linkage.

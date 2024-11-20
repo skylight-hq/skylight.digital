@@ -28,7 +28,6 @@ tags:
   public health,
   alis akers,
   nick bristow,
-  eric buckley,
   rin concordia,
   mary crawford,
   gordon farrell,
@@ -36,7 +35,6 @@ tags:
   ryan gaddis,
   matt goldberg,
   marcelle goggins,
-  alex hayward,
   janki kaneria,
   andrew kasper,
   laura king,
@@ -69,7 +67,6 @@ excerpt: An open-source, modular toolkit designed to automate data processing, r
 project_members:
   - alis-akers
   - nick-bristow
-  - eric-buckley
   - rin-concordia
   - mary-crawford
   - gordon-farrell
@@ -77,7 +74,6 @@ project_members:
   - ryan-gaddis
   - matt-goldberg
   - marcelle-goggins
-  - alex-hayward
   - janki-kaneria
   - andrew-kasper
   - laura-king
