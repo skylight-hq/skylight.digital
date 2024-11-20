@@ -12,7 +12,7 @@ feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 132
-display: true
+display: false
 tags:
   [service delivery,
   research & design,
@@ -87,7 +87,9 @@ news_posts:
   - title: Improving Public Health Data Pipelines
     url: https://www.cdc.gov/surveillance/data-modernization/technologies/public-health-data-pipelines.html
 source_code_url: https://github.com/CDCgov/phdi
+skip_index: true
 ---
+<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 The Virginia Department of Health (VDH) needed to process high volumes of incoming COVID-19 data and turn it into meaningful intelligence. We worked with the CDC and U.S. Digital Service (USDS) to build a prototype data ingestion pipeline that improves data processing and analysis to more efficiently inform public health action.

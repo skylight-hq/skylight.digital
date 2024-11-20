@@ -12,7 +12,7 @@ feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 110
-display: true
+display: false
 tags:
   [service delivery,
   research & design,
@@ -138,7 +138,9 @@ practices:
 project_url: https://cdcgov.github.io/dibbs-site/
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/phdi
+skip_index: true
 ---
+<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 To effectively respond to public health threats, the U.S. needs a “public health data system” that can deliver timely, relevant, and actionable data. We’re working with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS) to develop a set of open-source, modular tools that enable public health agencies to improve the collection, analysis, and use of data, ultimately helping to build a modern public health data infrastructure that works for all diseases and conditions.

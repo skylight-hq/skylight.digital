@@ -9,7 +9,7 @@ feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2150
-display: true
+display: false
 tags: [service delivery, research & design, legacy modernization, defense, air force, zack gehin, charlye tran]
 excerpt: A sustainable, cost-effective, comprehensive solution for aircraft mechanics to streamline their documentation process.
 project_members:
@@ -30,11 +30,12 @@ practices:
   - Accessibility
   - Virtual teams
 sitemap: false
-skip_index: true
 project_url:
 project_cta:
 source_code_url:
+skip_index: true
 ---
+<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 The U.S. Air Force (USAF) set a goal to modernize aircraft maintenance operations through two applications: Battle Record Information Core Environment (BRICE) and Weapons/Armament Reporting Log and Control (WARLOC). We rebuilt these mission-critical systems as part of an initiative to create a sustainable, cost-effective, comprehensive solution for aircraft maintenance that eliminates the need for error-prone paper documentation, provides offline capabilities on the flightline, and, ultimately, keeps pilots safer.
