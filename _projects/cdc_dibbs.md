@@ -4,7 +4,6 @@ title_tag: Centers for Disease Control and Prevention
 title: Building a response-ready public health data system
 permalink: /work/experience/cdc-dibbs/
 redirect_from:
-  - /work/experience/cdc-dibbs-ecr-viewer/
   - /cdc-public-health-data-infrastructure/
   - /work/experience/cdc-public-health-data-infrastructure/
 image: /img/projects/cdc_dibbs/dibbs.svg
