@@ -9,7 +9,6 @@ feature_image: /img/projects/cdc_simplereport/cdc-simplereport.gif
 feature_image_description: Walkthrough of SimpleReport.
 feature_image_shadow: true
 order: 100
-display: true
 tags:
   [
     service delivery,
@@ -155,6 +154,7 @@ news_posts:
 project_url: https://simplereport.gov
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/prime-simplereport
+display: true
 ---
 
 {% capture summary %}
