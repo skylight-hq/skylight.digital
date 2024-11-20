@@ -154,8 +154,10 @@ news_posts:
 project_url: https://simplereport.gov
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/prime-simplereport
-display: true
+display: false
+skip_index: true
 ---
+<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 COVID-19 turned places like schools and nursing homes into testing sites. We worked with the Centers for Disease Control and Prevention (CDC) to launch and scale a free, time-saving tool that makes it easy for non-traditional and under-resourced organizations to record results for diagnostic tests and quickly report critical data to public health departments. As we continue to support ongoing COVID-19 reporting, we’re expanding this tool for use with additional infectious diseases.

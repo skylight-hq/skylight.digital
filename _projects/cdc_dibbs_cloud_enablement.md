@@ -9,7 +9,7 @@ feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 131
-display: true
+display: false
 tags:
   [service delivery,
   research & design,
@@ -72,7 +72,9 @@ practices:
 project_url: https://cdcgov.github.io/dibbs-site
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/dibbs-cloud
+skip_index: true
 ---
+<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 State, tribal, local, and territorial (STLT) public health agencies have struggled to handle the pace and volume of incoming case data when responding to disease outbreaks. We’re working with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS) to provide STLTs with flexible cloud hosting infrastructure that enables them to quickly upgrade and scale their data systems with modern, cloud-based software solutions, so they can meet the scope and scale of emerging public health threats.
