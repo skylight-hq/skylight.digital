@@ -71,9 +71,9 @@ Faced with these challenges, WxPO partnered with our team to reinvigorate their 
 Our [Service Design Accelerator](/work/toolkits/service-design-framework/) provided a structured approach to addressing WxPO’s challenges and creating momentum in their cloud migration efforts.
 
 We began by:
-- Establishing a shared vision and strategy to align teams, improve cross-team collaboration, and develop cohesive processes that reduced miscommunication.
-- Enhancing the developer experience by introducing modern tools, fostering increased autonomy, and facilitating smoother workflows.
-- Applying service design techniques to holistically analyze WxPO’s cloud migration challenges, identify root issues, and craft targeted solutions across key operational areas.
+- Establishing a shared vision and strategy to align teams, improve cross-team collaboration, and develop cohesive processes that reduced miscommunication
+- Enhancing the developer experience by introducing modern tools, fostering increased autonomy, and facilitating smoother workflows
+- Applying service design techniques to holistically analyze WxPO’s cloud migration challenges, identify root issues, and craft targeted solutions across key operational areas
 
 These foundational efforts led to critical insights into WxPO’s challenges, resulting in the identification and prioritization of eight key areas for improvement. These areas shaped our work for the remainder of the project, as we collaborated with WxPO to address immediate challenges and implement improvements:
 1. Create self-service artifacts
