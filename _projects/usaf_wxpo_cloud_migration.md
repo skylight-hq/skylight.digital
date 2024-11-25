@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 1180
 display: true
 tags: [transformation, research & design, cloud & platforms, coaching & training, defense, air force, charlye tran, olivia lucas, zoe do, laura kerry]
-excerpt: Helping the U.S. Air Force Weather Systems Program Office unblock and speed up its cloud migration by considering the effort’s systems and processes holistically.
+excerpt: Accelerating the U.S. Air Force Weather Systems Program Office's cloud migration by identifying key areas for improvement and fostering sustainable progress.
 project_members:
   - laura-kerry
   - charlye-tran
@@ -42,52 +42,58 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) encountered roadblocks during its cloud migration process. We helped unblock and accelerate their efforts using a service design approach.
+The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) faced significant roadblocks in its cloud migration efforts. Our team at Skylight helped unblock and accelerate their progress through a comprehensive service design approach, identifying and prioritizing key areas for improvement and creating the conditions for sustainable success.
 {% endcapture %}
 
 {% capture challenge %}
-The Department of Defense (DoD) relies on WxPO to deliver authoritative terrestrial and space weather intelligence and information. DoD meteorologists, air traffic controllers, pilots, and the intelligence community leverage WxPO’s applications to predict weather patterns, prepare forecasts, and communicate weather information. WxPO’s applications support around-the-clock operations, supporting mission planning and execution.  
+The Department of Defense (DoD) relies on WxPO to deliver critical terrestrial and space weather intelligence. Meteorologists, air traffic controllers, pilots, and intelligence professionals use WxPO’s applications to predict weather patterns, prepare forecasts, and communicate essential weather information. These tools operate 24/7, supporting mission planning and execution.
 
-WxPO has access to massive amounts of valuable data that they could provide to the weather community, but it’s stuck behind dated, on-premise applications that can’t deliver or process even a fraction of what’s possible. These aging applications were designed without taking into account today’s wide variety of users and their weather data experience levels.
+However, WxPO’s legacy environment — comprising aging, on-premise systems—presented significant challenges. These systems weren’t designed to accommodate today’s diverse user base or leverage modern tools and processes. As a result:
+- Teams struggled to deploy updates quickly and efficiently
+- The aging infrastructure limited scalability, resilience, and operational efficiency
+- The lack of integration across systems increased manual workloads and reduced data accessibility for users
 
-The existing on-premise solutions severely limit WxPO’s ability to improve or extend their capabilities. Teams struggle to quickly deploy improvements, use modern developer tools, and understand the end users’ goals, needs, and workflows. To better support the massive amounts of data flowing through its systems and provide resilient access to end users, WxPO decided to modernize their technologies and move the on-premise infrastructure and applications to the cloud.
+To overcome these challenges, WxPO launched an initiative to migrate its infrastructure and applications from this legacy environment to the cloud. The move promised to modernize operations, improve access, and streamline workflows for end users.
 
-However, the cloud migration initiative faced its own challenges. WxPO teams struggled to balance maintenance of legacy systems with planning and executing the migration of applications and data to the cloud. Initial efforts weren’t clearly defined under an overarching vision or plan, creating miscommunication which in turn caused confusion, rework, churn, and frustration. Teams were learning new technologies on the fly and felt like they were continuously “chasing down” answers to questions and updates to processes.
+However, the migration effort faced significant hurdles:
+- Balancing the maintenance of legacy systems with the planning and execution of cloud migrations created bottlenecks.
+- A lack of a clear vision or coordinated plan led to miscommunication, rework, and frustration.
+- Teams were overwhelmed by learning new technologies without sufficient guidance, creating a sense of constant uncertainty.
 
 {% include callout.html type = "pullquote" content = "I think it’s affected all of middle management because every day, we’re trying to put things together and every day, we’re in some form of lost and found." cite_name = "Weather Officer" cite_title = "Acquisitions Training" %}
 
-Limited user research also hindered progress. Many of the existing applications were built without a solid understanding of users’ goals, needs, and workflows. The wide variety of end user roles and use cases has also made it difficult for teams to understand them all.
+Limited engagement with end users added to these challenges. WxPO’s legacy applications were built without a clear understanding of the diverse goals, roles, and workflows of their users, leading to gaps in functionality and usability.
 
-Recognizing the need for a more user-centered approach, WxPO engaged with us through our [Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/) to help unblock and accelerate their cloud migration efforts.
+Faced with these challenges, WxPO partnered with our team to reinvigorate their cloud migration efforts. Leveraging our [Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/), we collaborated with WxPO to identify root issues, align teams, and establish priorities to move their migration forward.
 {% endcapture %}
 
 {% capture solution %}
-Our [Service Design Accelerator](/work/toolkits/service-design-framework/) helps clients tackle major technology initiatives more quickly and with fewer roadblocks. For WxPO, we used it to quickly turn around their stalled cloud migration and get their critical infrastructure improvements back on track.
+Our [Service Design Accelerator](/work/toolkits/service-design-framework/) provided a structured approach to addressing WxPO’s challenges and creating momentum in their cloud migration efforts.
 
-We started by emphasizing team communication, forming and adhering to a shared vision and strategy and establishing more cohesive cross-team processes. We then took on the developer experience, fostering increased autonomy and implementing modern and ergonomic developer tools.
+We began by:
+- Establishing a shared vision and strategy to align teams, improve cross-team collaboration, and develop cohesive processes that reduced miscommunication.
+- Enhancing the developer experience by introducing modern tools, fostering increased autonomy, and facilitating smoother workflows.
+- Applying service design techniques to holistically analyze WxPO’s cloud migration challenges, identify root issues, and craft targeted solutions across key operational areas.
 
-Through the application of service design techniques, we took a holistic look at the factors affecting WxPO’s ability to migrate their applications to the cloud. We then used our findings to craft targeted solutions around several aspects of WxPO operations. 
+These foundational efforts led to critical insights into WxPO’s challenges, resulting in the identification and prioritization of eight key areas for improvement. These areas shaped our work for the remainder of the project, as we collaborated with WxPO to address immediate challenges and implement improvements:
+1. Create self-service artifacts
+2. Build a shared migration vision and plan
+3. Provide updated training materials
+4. Improve agile processes
+5. Standardize and define roles
+6. Establish a uniform communication strategy
+8. Continue discovery efforts to identify emerging needs
+9. Enhance support services
 
-Service design helped us improve the developer onboarding experience, reducing multiple pain points for new team members. It also allowed us to address process barriers blocking digital transformation. We also documented specific opportunities to improve the customer experience with new capabilities enabled by the cloud.
+Our team worked alongside WxPO to address these areas while equipping their teams with the tools, processes, and knowledge needed to sustain progress and advance improvements.
 
-From our service design activities, we formulated eight recommendations and began implementing them:
-- Create self-service artifacts
-- Build a shared migration vision and plan
-- Provide updated trainings
-- Improve agile processes
-- Standardize and define roles 
-- Create uniform communication strategy
-- Continue discovery efforts
-- Improve support services
-
-We also helped ensure the work would continue by identifying WxPO product champions and Skylight collaborators who can enable change to move away from legacy rules and toward a modern digital platform. Finally, we helped WxPO’s own teams develop and expand their own user research and service design capabilities, enabling them to maintain a greater awareness and focus on the needs of the DoD’s weather community.
+By embedding with WxPO teams, we fostered the conditions necessary for a successful transition from legacy practices to a modern digital platform. This revitalized WxPO’s efforts, enabling them to confidently drive progress and better support the DoD weather community’s needs.
 {% endcapture %}
 
 {% capture results %}
-- Created and shared a human-centered design playbook, service blueprints, persona templates, user research plan and report templates, an assumptions tracker, and an outcome-oriented roadmap
-- Helped build internal design capacity by hosting agile, user research, and human-centered design trainings
-- Created and shared self-service design tools, including a human-centered design playbook, service blueprints, persona templates, user research plan and report template, assumptions tracker, and outcome-oriented roadmap
-- Set them on a path to a successful cloud migration by embedding with individual application teams to improve team processes
+- Delivered comprehensive tools and resources, including a human-centered design playbook, service blueprints, persona templates, user research plans, an assumptions tracker, and an outcome-oriented roadmap, empowering WxPO to advance their cloud migration efforts effectively
+- Conducted targeted trainings and embedded with application teams to streamline processes, improve workflows, and accelerate migration activities, fostering stronger alignment and reducing operational friction
+- Developed a sustainable framework for delivering modernized, user-centered solutions, setting the foundation for WxPO’s success in meeting mission-critical needs and supporting the DoD weather community
 {% endcapture %}
 
 {% include project.html
