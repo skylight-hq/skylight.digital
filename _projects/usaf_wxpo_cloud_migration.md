@@ -87,7 +87,7 @@ Through these efforts, we gained critical insights into areas WxPO needed to foc
 
 We worked alongside WxPO to tackle these areas while equipping their teams with the tools, processes, and knowledge needed to sustain progress and keep advancing improvements.
 
-By embedding with WxPO teams, we helped build the capacity needed for a successful transition from legacy practices to a modern digital platform. This revitalized WxPO’s efforts, letting them confidently drive progress and better support the DoD weather community’s needs.
+By embedding with WxPO teams, we helped build the capacity needed for a successful transition from legacy paradigms to a modern digital platform. This revitalized WxPO’s efforts, letting them confidently drive progress and better support the DoD weather community’s needs.
 {% endcapture %}
 
 {% capture results %}
