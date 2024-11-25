@@ -64,7 +64,7 @@ While the move to the cloud promised modernization and streamlined workflows, th
 
 Limited engagement with end users added to these challenges. WxPO’s legacy applications were built without a clear understanding of the diverse goals, roles, and workflows of their users, leading to gaps in functionality and usability.
 
-Faced with these challenges, WxPO partnered with our team to reinvigorate their cloud migration efforts. Leveraging our [Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/), we worked with WxPO to identify root issues, align teams, and establish priorities to move their migration forward.
+Faced with these challenges, WxPO partnered with our team to reinvigorate their cloud migration efforts. Leveraging our **[Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/)**, we worked with WxPO to identify root issues, align teams, and establish priorities to move their migration forward.
 {% endcapture %}
 
 {% capture solution %}
@@ -75,7 +75,7 @@ We started by:
 - **Enhancing the developer experience** by introducing modern tools, fostering increased autonomy, and facilitating smoother workflows
 - **Applying service design techniques** to holistically analyze WxPO’s cloud migration challenges, identify root issues, and craft targeted solutions across key operational areas
 
-Through these efforts, we gained critical insights into areas WxPO needed to focus on for their migration’s success. Based on these insights, we recommended eight key areas for improvement, which shaped our work for the remainder of the project:
+Through these efforts, we gained critical insights into areas WxPO needed to focus on for their migration’s success. Based on these insights, we recommended **eight key areas for improvement**, which shaped our work for the remainder of the project:
 1. **Build a shared migration vision and plan:** Establish a unified roadmap and goals to align teams and minimize miscommunication during the migration
 2. **Standardize and define roles:** Clearly define responsibilities for key roles to streamline decision-making and accountability
 3. **Establish a uniform communication strategy:** Implement consistent protocols to improve cross-team information sharing and reduce misunderstandings
