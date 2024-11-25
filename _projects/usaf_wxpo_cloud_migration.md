@@ -76,14 +76,14 @@ We started by:
 - **Applying service design techniques** to holistically analyze WxPO’s cloud migration challenges, identify root issues, and craft targeted solutions across key operational areas
 
 Through these efforts, we gained critical insights into areas WxPO needed to focus on for their migration’s success. Based on these insights, we recommended eight key areas for improvement, which shaped our work for the remainder of the project:
-1. **Build a shared migration vision and plan:** Establish a unified roadmap and goals to align teams and minimize miscommunication during the migration.
-2. **Standardize and define roles:** Clearly define responsibilities for key roles to streamline decision-making and accountability.
-3. **Establish a uniform communication strategy:** Implement consistent protocols to improve cross-team information sharing and reduce misunderstandings.
-4. **Improve agile processes:** Optimize workflows like backlog prioritization and sprint planning to boost productivity and project alignment.
-5. **Create self-service artifacts:** Develop tools and documentation that enable teams to independently handle tasks like troubleshooting or onboarding.
-6. **Provide updated training materials:** Modernize training guides to ensure team members can effectively use new tools and systems.
-7. **Enhance support services:** Strengthen technical and operational systems to efficiently address team and user needs during and after migration.
-8. **Continue discovery efforts to identify emerging needs:** Regularly engage users and stakeholders to uncover new requirements and adapt plans.
+1. **Build a shared migration vision and plan:** Establish a unified roadmap and goals to align teams and minimize miscommunication during the migration
+2. **Standardize and define roles:** Clearly define responsibilities for key roles to streamline decision-making and accountability
+3. **Establish a uniform communication strategy:** Implement consistent protocols to improve cross-team information sharing and reduce misunderstandings
+4. **Improve agile processes:** Optimize workflows like backlog prioritization and sprint planning to boost productivity and project alignment
+5. **Create self-service artifacts:** Develop tools and documentation that enable teams to independently handle tasks like troubleshooting or onboarding
+6. **Provide updated training materials:** Modernize training guides to ensure team members can effectively use new tools and systems
+7. **Enhance support services:** Strengthen technical and operational systems to efficiently address team and user needs during and after migration
+8. **Continue discovery efforts to identify emerging needs:** Regularly engage users and stakeholders to uncover new requirements and adapt plans
 
 We worked alongside WxPO to tackle these areas while equipping their teams with the tools, processes, and knowledge needed to sustain progress and keep advancing improvements.
 
