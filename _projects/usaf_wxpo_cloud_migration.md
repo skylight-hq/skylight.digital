@@ -64,7 +64,7 @@ While the move to the cloud promised modernization and streamlined workflows, th
 
 Limited engagement with end users added to these challenges. WxPO’s legacy applications were built without a clear understanding of the diverse goals, roles, and workflows of their users, leading to gaps in functionality and usability.
 
-Faced with these challenges, WxPO partnered with our team to reinvigorate their cloud migration efforts. Leveraging our **[Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/)**, we worked with WxPO to identify root issues, align teams, and establish priorities to move their migration forward.
+Faced with these challenges, WxPO partnered with our team to reinvigorate their cloud migration efforts. Leveraging our [Service Design Accelerator program](/work/experience/usaf-service-design-capacity-building/), we worked with WxPO to identify root issues, align teams, and establish priorities to move their migration forward.
 {% endcapture %}
 
 {% capture solution %}
