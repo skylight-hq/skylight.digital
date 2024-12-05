@@ -3370,7 +3370,7 @@
     Joe's an operations specialist with financial services, IT, mortgage, and fintech industry experience. 
     He loves unlocking value for businesses and their customers through operational excellence.
     Joe lives in California.
-  active: true
+  active: false
   order: 1190
   socials:
     - name: LinkedIn
