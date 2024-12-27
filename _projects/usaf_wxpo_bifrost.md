@@ -10,7 +10,7 @@ feature_image_description:
 feature_image_shadow:
 order: 500
 display: true
-tags: [transformation, research & design, product management, legacy modernization, cloud & platforms, coaching & training, defense, air force, taylor graue, holly dewolf, jennifer herzberg, laura kerry, kyle planeaux, jina ryu, michelle li]
+tags: [research & design, product management, legacy modernization, transformation, coaching & training, defense, air force, taylor graue, holly dewolf, jennifer herzberg, laura kerry, kyle planeaux, jina ryu, michelle li]
 excerpt: Using research and design to upgrade legacy tools and improve the processes the U.S. Air Force Weather Systems Program Office relies on to build them.
 project_members:
   - taylor-graue
@@ -21,36 +21,69 @@ project_members:
   - jina-ryu
   - michelle-li
 technologies:
-  - Figma  
-  - FigJam  
+  - Figma   
   - Material-UI  
   - Colour Contrast Analyzer  
   - Lighthouse  
-  - Mural  
   - Matomo  
   - Mattermost  
-  - Microsoft Teams  
-  - Google Workspace  
-  - Trello  
-  - Zoom  
+  - Microsoft Teams     
   - Confluence  
   - Jira
 practices:
-  - User research  
-  - Product design  
-  - Content design  
-  - Visual design  
-  - Accessibility design  
-  - Branding design  
-  - Agile product management  
-  - Design system  
-  - Capability development  
-  - Design leadership  
-  - Consulting  
-  - Training and coaching  
-  - Pairing  
-  - Workshop facilitation  
-  - Virtual collaboration      
+  - Accessibility design
+  - Accessibility review
+  - Agile cloud migration
+  - Agile development
+  - Agile workshop facilitation
+  - Analysis and synthesis
+  - Branding design
+  - Capability development
+  - Card sorting
+  - Coaching
+  - Collaborative design workshops
+  - Communications
+  - Comparative analysis
+  - Consulting
+  - Content design
+  - Customer and stakeholder interviews
+  - Customer research
+  - Design leadership
+  - Design pattern library
+  - Design studios
+  - Design system
+  - Design workshops
+  - Industry benchmarking
+  - Industry research
+  - Iterative and incremental development
+  - Journey mapping
+  - Knowledge management
+  - Learning by doing
+  - Moderated user research
+  - Pairing
+  - Participatory design
+  - Persona development
+  - Prioritization workshops
+  - Primary research
+  - Product management
+  - Prototyping
+  - Rapid prototyping
+  - Research analysis and synthesis
+  - Secondary research
+  - Service design
+  - Stakeholder interviews
+  - Stakeholder mapping
+  - Usability testing
+  - User experience design
+  - User interface component inventory
+  - User interviews
+  - User research
+  - User testing
+  - User-centered design
+  - Virtual collaboration
+  - Visual design
+  - Visual design audit
+  - Workshop facilitation     
 news_posts:
   - title: BESPIN Awards Contracts with REMIS & WARPspeed for Design Studio Services
     url: https://www.airforcebes.af.mil/News/Display/Article/3342231/bespin-awards-contracts-with-remis-warpspeed-for-design-studio-services/
@@ -96,11 +129,10 @@ With the changes we implemented, we helped the BIFROST team build trust with the
 {% endcapture %}
 
 {% capture results %}
-- Strengthened HCD and agile product management capabilities within three WARPspeed teams, verified by a comprehensive maturity assessment
-- Introduced and trained staff on modern design tools, such as Figma, improving user testing and reducing design and technical debt
-- Improved backlog management processes, including writing detailed stories that allow developers to more easily implement features, increasing ticket status visibility across teams, and bringing user needs to the forefront
-- Facilitated organizational culture changes by educating staff members on user advocacy, how to positively receive and respond to user feedback, and the importance of incorporating user research early and often into the development process
-- Accelerated the developmental process by increasing cross-collaboration and integration, identifying dependencies, and fostering alignment on timeline
+- Updated designs for legacy JET features, saving time for forecasters and other users by reducing the number of clicks to configure WWAs and automating data input in mission briefs
+- Implemented more regular touch points for user research, ensuring user needs inform every stage of development, from writing requirements to prioritizing enhancements
+- Facilitated a smoother handoff between design and development, saving time for developers and accelerating delivery
+- Updated almost 40 training guides to ensure users can complete self-service onboard and understand how to use BIFROST
 {% endcapture %}
 
 {% include project.html
