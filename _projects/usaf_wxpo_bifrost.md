@@ -8,7 +8,7 @@ image_description: Disjointed weather icons merging into a clean interface shown
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 500
+order: 550
 display: true
 tags: [research & design, product management, legacy modernization, transformation, coaching & training, defense, air force, taylor graue, holly dewolf, jennifer herzberg, laura kerry, kyle planeaux, jina ryu, michelle li]
 excerpt: Using research and design to upgrade legacy tools and improve the processes the U.S. Air Force Weather Systems Program Office relies on to build them.
