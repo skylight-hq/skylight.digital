@@ -130,7 +130,7 @@ With the changes we implemented, we helped the BIFROST team build trust with the
 - Updated designs for legacy JET features, saving time for forecasters and other users by reducing the number of clicks to configure WWAs and automating data input in mission briefs
 - Implemented more regular touch points for user research, ensuring user needs inform every stage of development, from writing requirements to prioritizing enhancements
 - Facilitated a smoother handoff between design and development, saving time for developers and accelerating delivery
-- Updated almost 40 training guides to ensure users can complete self-service onboard and understand how to use BIFROST
+- Updated almost 40 training guides to ensure users can complete self-service onboarding and understand how to use BIFROST
 {% endcapture %}
 
 {% include project.html
