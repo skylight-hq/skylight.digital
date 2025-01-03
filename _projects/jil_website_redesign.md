@@ -2,12 +2,12 @@
 layout: default
 title_tag: Justice Innovation Lab
 title: Revamping a nonprofit’s web presence to better highlight their justice-driven work
-permalink: /work/experience/usaf-bespin-design-studio/
-image: /img/projects/usaf_bespin_design_studio/bespin-design-studio.svg
-image_description: The palm of a hand supporting a fighter jet as it takes off into a blue sky.
-feature_image:
-feature_image_description:
-feature_image_shadow:
+permalink: /work/experience/jil-website-redesign/
+image: /img/projects/jil_website_redesign/jil-website-redesign.svg
+image_description: A lawyer presents evidence to the jury in a courtroom. A judge sits in the back while jurors in the foreground take notes.
+feature_image: /img/projects/jil_website_redesign/jil-website-redesign.gif
+feature_image_description: A slideshow presentation breaking down the design elements in the redesign.
+feature_image_shadow: true
 order: 950
 display: true
 tags: [service delivery, research & design, justice, becca-bartola]
