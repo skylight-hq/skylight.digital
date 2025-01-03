@@ -41,7 +41,7 @@ practices:
   - WCAG 2.0
 news_posts:
 project_url: https://www.justiceinnovationlab.org/
-project_cta:
+project_cta: See the site
 source_code_url:
 ---
 
@@ -68,7 +68,8 @@ Over the course of the project, the Skylight team:
 - Provided recommendations for improved data visualizations
 - Designed the knowledge hub as a dynamic webpage that was visually consistent, searchable, tagged by media type, and sortable by date
 - Created modular, re-usable templates for the knowledge hub that JIL’s development team could easily pull from
-- Drafted instructions and guidelines that non-designers could seamlessly follow when applying the updated JIL brand across multiple digital and print touchpoints 
+- Drafted instructions and guidelines that non-designers could seamlessly follow when applying the updated JIL brand across multiple digital and print touchpoints
+
 This work resulted in a refreshed web and brand presence that invited users to view JIL’s new knowledge hub and become involved in their mission as soon as possible. Within this knowledge hub, JIL was now able to share video posts, longer-form reports, and text-based non-profit updates. Furthermore, JIL’s overhauled homepage became a cornerstone example of the expression of the new brand, highlighting the updated color scheme, pattern motif, and stylized data illustrations. JIL’s updated branding now had a color palette that better reflected their impact-driven work, met accessibility requirements, followed a typographic scale, and offered instructions for generating high quality photography and digital components. 
 
 To ensure site maintainability over the long term, Skylight packaged up all files and guides, making sure JIL’s key team members had access to, and understood how to leverage, the new design components. Following the final handoff, JIL fully launched this work across their website, knowledge hub, and brand touchpoints. 
