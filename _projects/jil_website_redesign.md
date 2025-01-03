@@ -17,7 +17,6 @@ project_members:
 technologies:
   - Figma
   - Google Workspace
-  - HTML / CSS
   - HTML / CSS / SVG
   - Zoom
 practices:
@@ -58,7 +57,7 @@ With limited staff and a tight timeline, JIL sought an outside partner to refres
 {% endcapture %}
 
 {% capture solution %}
-Given the tight six-week-turnaround, the Skylight team used an agile approach to product development, organizing deliverables into discrete 2-week sprints. At the end of each sprint, Skylight delivered key artifacts to JIL, discussed feedback during regular product demonstrations, and iterated accordingly.
+Given the tight six-week turnaround, the Skylight team used an agile approach to product development, organizing deliverables into discrete two-week sprints. At the end of each sprint, Skylight delivered key artifacts to JIL, discussed feedback during regular product demonstrations, and iterated accordingly.
 
 Over the course of the project, the Skylight team:
 
