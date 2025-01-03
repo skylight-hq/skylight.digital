@@ -4,7 +4,7 @@ title_tag: U.S. Air Force
 title: Modernizing Air Force weather tools and design processes
 permalink: /work/experience/usaf-wxpo-bifrost/
 image: /img/projects/usaf_wxpo_bifrost/wxpo-bifrost.svg
-image_description: Disjointed weather icons merging into a clean interface shown on two computer screens. One screen should show a map with a flight route (origin, route line, and destination with a plane icon). The other screen should show a briefing form next to a map with "threat" blobs on it.
+image_description: Disjointed weather icons merging into a clean interface shown on two computer screens. One screen should show a map with a flight route (origin, route line, and destination with a plane icon). The other screen should show a briefing form next to a map with &quot;threat&quot; blobs on it.
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -85,8 +85,6 @@ practices:
   - Visual design audit
   - Workshop facilitation     
 news_posts:
-  - title: 
-    url: 
 project_url:
 project_cta:
 source_code_url:
