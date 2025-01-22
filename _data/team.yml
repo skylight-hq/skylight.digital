@@ -2086,7 +2086,7 @@
     He's passionate about facilitating connections between and within communities. 
     Nick recently graduated from Washington University in St. Louis. 
     Nick lives in New York.
-  active: true
+  active: false
   order: 720
   socials:
     - name: LinkedIn
