@@ -4270,3 +4270,16 @@
       link: https://www.linkedin.com/in/lauryn-claassen/
       link_description: Lauryn's LinkedIn Account
       fa_icon_name: linkedin
+- name: mai-thao
+  fname: Mai
+  lname: Thao
+  full_name: Mai Thao
+  short_name: M. Thao
+  profile_path: /company/about/#mai-thao
+  image: /img/people/mai-thao.jpg
+  image_description: Photo of Mai Thao
+  position: Ops Experience Design Lead 
+  bio: >
+   Mai is a designer on a mission to empower organizations to use design, technology, and creative problem solving to create a more kind and equitable world. She has spent most of her career helping social impact organizations and government agencies to build products and services to improve public outcomes. Mai lives in the Pacific Northwest.
+  active: true
+  order: 1560
