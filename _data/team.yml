@@ -1370,7 +1370,7 @@
   position: Senior Software Engineer
   bio: >
     Elisa's a software engineer with a desire to use technology to support positive
-    change in communities. They previously worked in the developer tools,
+    change in communities. Elisa previously worked in the developer tools,
     education technology, and non-profit spaces. Elisa lives in Minnesota.
   active: true
   order: 450
@@ -1598,7 +1598,7 @@
   position: Senior Product Designer
   bio: >
     Kenny's a product designer, inclusive systems thinker, and people person.
-    They work through the whole gamut of product design to create experiences that
+    Kenny work through the whole gamut of product design to create experiences that
     fit into people's lives. Kenny lives in California.
   active: true
   order: 530
@@ -2535,8 +2535,8 @@
   position: Senior DevOps Engineer
   bio: >
     Alis is a DevOps engineer interested in building reliable products using the latest cloud technologies to improve the lives of users. 
-    They've established integrations for patient engagement and monitoring across several large health systems and led the development of infrastructure and software pipeline requirements and tooling. 
-    They live in Oregon.
+    Alis established integrations for patient engagement and monitoring across several large health systems and led the development of infrastructure and software pipeline requirements and tooling. 
+    Alis lives in Oregon.
   active: true
   order: 890
   socials:
@@ -3712,7 +3712,7 @@
   position: Data Scientist
   bio: >
     Alex is a data scientist who's passionate about using data to create more equitable public outcomes. 
-    Previously, they used machine learning to help public water systems identify and remove lead pipes at the National Institutes of Health. 
+    Previously, Alex used machine learning to help public water systems identify and remove lead pipes at the National Institutes of Health. 
     Alex lives in California. 
   active: true
   order: 1320
