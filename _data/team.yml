@@ -8,13 +8,14 @@
   image_description: Photo of Chris Cairns
   position: Chief Executive Officer
   bio: >
-    Chris served as a Presidential Innovation Fellow, and co-founded 18F
-    and Technology Transformation Services, both housed within the General Services
-    Administration. He specializes in digital leadership and transformation,
+    Before Skylight, Chris led major government digital modernization initiatives
+    and spearheaded the creation of new technology capabilities that improved
+    public service delivery. He specializes in digital leadership and transformation,
     digital procurement, and product development and management. Chris lives in Florida.
   active: true
   order: 10
   socials:
+
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -32,30 +33,7 @@
   active: true
   order: 20
   socials:
-    - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/snootymonkey/
-      link_description: Sean's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/belucid
-      link_description: Sean's GitHub Account
-      fa_icon_name: github
-    - name: Blog Posts
-      link: /thoughts/blog/author/sean-johnson/
-      link_description: Sean's Blog Posts
-      fa_icon_name: pencil
-    - name: Talks
-      link: /thoughts/talks/speaker/sean-johnson/
-      link_description: Sean's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/sean-johnson/
-      link_description: Sean's Project Work
-      fa_icon_name: wrench
+
 - name: robert-read
   fname: Robert
   lname: Read
@@ -74,34 +52,7 @@
   active: true
   order: 30
   socials:
-    - name: Twitter
-      link: https://twitter.com/RobertLeeRead
-      link_description: Robert's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/robert-read-878987/
-      link_description: Robert's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/RobertLRead
-      link_description: Robert's GitHub Account
-      fa_icon_name: github
-    - name: Medium
-      link: https://medium.com/@RobertLeeRead
-      link_description: Robert's Medium Account
-      fa_icon_name: medium
-    - name: Blog Posts
-      link: /thoughts/blog/author/robert-read/
-      link_description: Robert's Blog Posts
-      fa_icon_name: pencil
-    - name: Talks
-      link: /thoughts/talks/speaker/robert-read/
-      link_description: Robert's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/robert-read/
-      link_description: Robert's Project Work
-      fa_icon_name: wrench
+
 - name: john-teeter
   fname: John
   lname: Teeter
@@ -119,22 +70,7 @@
   active: false
   order: 40
   socials:
-    - name: Twitter
-      link: https://twitter.com/NewEnergyShift
-      link_description: John's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/john-teeter-aa508545/
-      link_description: John's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/jateeter
-      link_description: John's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/john-teeter/
-      link_description: John's Project Work
-      fa_icon_name: wrench
+
 - name: geoff-mulligan
   fname: Geoff
   lname: Mulligan
@@ -152,26 +88,7 @@
   active: true
   order: 50
   socials:
-    - name: Twitter
-      link: https://twitter.com/GeoffCMulligan
-      link_description: Geoff's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/geoffmulligan/
-      link_description: Geoff's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Blog Posts
-      link: /thoughts/blog/author/geoff-mulligan/
-      link_description: Geoff's Blog Posts
-      fa_icon_name: pencil
-    - name: Talks
-      link: /thoughts/talks/speaker/geoff-mulligan/
-      link_description: Geoff's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/geoff-mulligan/
-      link_description: Geoff's Project Work
-      fa_icon_name: wrench
+
 - name: kin-lane
   fname: Kin
   lname: Lane
@@ -191,34 +108,7 @@
   active: false
   order: 60
   socials:
-    - name: Twitter
-      link: https://twitter.com/apievangelist
-      link_description: Kin's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kinlane/
-      link_description: Kin's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/kinlane
-      link_description: Kin's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://kinlane.com/
-      link_description: Kin's Personal Website
-      fa_icon_name: home
-    - name: Blog Posts
-      link: /thoughts/blog/author/kin-lane/
-      link_description: Kin's Blog Posts
-      fa_icon_name: pencil
-    - name: Talks
-      link: /thoughts/talks/speaker/kin-lane/
-      link_description: Kin's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/kin-lane/
-      link_description: Kin's Project Work
-      fa_icon_name: wrench
+
 - name: josh-dorothy
   fname: Josh
   lname: Dorothy
@@ -235,22 +125,7 @@
   active: true
   order: 70
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/joshdorothy/
-      link_description: Josh's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/jdorothy
-      link_description: Josh's GitHub Account
-      fa_icon_name: github
-    - name: Blog Posts
-      link: /thoughts/blog/author/josh-dorothy/
-      link_description: Josh's Blog Posts
-      fa_icon_name: pencil
-    - name: Projects
-      link: /work/team-member/josh-dorothy/
-      link_description: Josh's Project Work
-      fa_icon_name: wrench
+
 - name: nick-bristow
   fname: Nick
   lname: Bristow
@@ -268,22 +143,7 @@
   active: true
   order: 80
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/nick-bristow-5b983118/
-      link_description: Nick's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/nickbristow
-      link_description: Nick's GitHub Account
-      fa_icon_name: github
-    - name: Blog Posts
-      link: /thoughts/blog/author/nick-bristow/
-      link_description: Nick's Blog Posts
-      fa_icon_name: pencil
-    - name: Projects
-      link: /work/team-member/nick-bristow/
-      link_description: Nick's Project Work
-      fa_icon_name: wrench
+
 - name: victor-zapanta
   fname: Victor
   lname: Zapanta
@@ -300,28 +160,9 @@
     in design leadership, service design, user experience design, and design research.
     Victor resides in New York.
   active: false
-  order: 100
+  order: 90
   socials:
-    - name: Twitter
-      link: https://twitter.com/victorzapanta
-      link_description: Victor's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/victorzapanta/
-      link_description: Victor's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/vz3
-      link_description: Victor's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://vz3.co/
-      link_description: Victor's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/victor-zapanta/
-      link_description: Victor's Project Work
-      fa_icon_name: wrench
+
 - name: aera-hoffman
   fname: Aera
   lname: Hoffman
@@ -337,20 +178,9 @@
     and specializes in user research and information architecture. Aera lives in
     Maryland.
   active: false
-  order: 110
+  order: 100
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/hoffmaa/
-      link_description: Aera's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://ahoffman.co/
-      link_description: Aera's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/aera-hoffman/
-      link_description: Aera's Project Work
-      fa_icon_name: wrench
+
 - name: lara-kohl
   fname: Lara
   lname: Kohl
@@ -367,20 +197,9 @@
     Lara specializes in design leadership, design research, service design,
     and user experience design. Lara lives in New York.
   active: false
-  order: 120
+  order: 110
   socials:
-    - name: Twitter
-      link: https://twitter.com/lkohl
-      link_description: Lara's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lakohl/
-      link_description: Lara's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/lara-kohl/
-      link_description: Lara's Project Work
-      fa_icon_name: wrench
+
 - name: shashank-khandelwal
   fname: Shashank
   lname: Khandelwal
@@ -396,24 +215,9 @@
     Bureau Design+Tech fellow. Shashank specializes in digital leadership and transformation,
     digital procurement, software engineering, and cloud computing. He lives in Maryland.
   active: false
-  order: 130
+  order: 120
   socials:
-    - name: Twitter
-      link: https://twitter.com/gazeti
-      link_description: Shashank's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/shashankkhandelwal/
-      link_description: Shashank's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/khandelwal
-      link_description: Shashank's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/shashank-khandelwal/
-      link_description: Shashank's Project Work
-      fa_icon_name: wrench
+
 - name: lesley-evans
   fname: Lesley
   lname: Evans
@@ -429,16 +233,9 @@
     including user interviews, user modeling, usability testing, prototyping, and more.
     Lesley lives in Colorado.
   active: false
-  order: 140
+  order: 130
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lesley-evans-3b57b79b/
-      link_description: Lesley's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/lesley-evans/
-      link_description: Lesley's Project Work
-      fa_icon_name: wrench
+
 - name: tom-black
   fname: Tom
   lname: Black
@@ -455,28 +252,9 @@
     software engineering, product management, and identity management. Tom lives
     in Minnesota.
   active: false
-  order: 150
+  order: 140
   socials:
-    - name: Twitter
-      link: https://twitter.com/blacktm
-      link_description: Tom's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/blacktm/
-      link_description: Tom's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/blacktm
-      link_description: Tom's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://www.blacktm.com/
-      link_description: Tom's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/tom-black/
-      link_description: Tom's Project Work
-      fa_icon_name: wrench
+
 - name: andrew-wagner
   fname: Andrew
   lname: Wagner
@@ -492,20 +270,9 @@
     and specializes in software engineering, DevOps, microservices, APIs, and
     cloud computing. Andrew lives in Virginia.
   active: false
-  order: 160
+  order: 150
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/andrew-wagner-6675bb8/
-      link_description: Andrew's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/arwagner
-      link_description: Andrew's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/andrew-wagner/
-      link_description: Andrew's Project Work
-      fa_icon_name: wrench
+
 - name: jay-danielian
   fname: Jay
   lname: Danielian
@@ -521,20 +288,9 @@
     microservices, distributed search and analytics, and cloud computing.
     Jay resides in Maryland.
   active: false
-  order: 170
+  order: 160
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jaydanielian/
-      link_description: Jay's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/jdanielian
-      link_description: Jay's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/jay-danielian/
-      link_description: Jay's Project Work
-      fa_icon_name: wrench
+
 - name: brandon-mader
   fname: Brandon
   lname: Mader
@@ -550,16 +306,9 @@
     College, where he earned a double major in Math and Computer Science.
     He lives in Ohio.
   active: true
-  order: 180
+  order: 170
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/brandon-mader-5447aaa4/
-      link_description: Brandon's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/brandon-mader/
-      link_description: Brandon's Project Work
-      fa_icon_name: wrench
+
 - name: becca-bartola
   fname: Becca
   lname: Bartola
@@ -574,20 +323,9 @@
     through great user experiences. She specializes in user research, user experience
     design, and visual design. Becca lives in Pennsylvania.
   active: true
-  order: 190
+  order: 180
   socials:
-    - name: Twitter
-      link: https://twitter.com/rebeccabartola
-      link_description: Becca's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/rebecca-bartola/
-      link_description: Becca's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/becca-bartola/
-      link_description: Becca's Project Work
-      fa_icon_name: wrench
+
 - name: laura-king
   fname: Laura
   lname: King
@@ -602,24 +340,9 @@
     complex problems by empathizing with and understanding the needs of users.
     Laura lives in Colorado.
   active: true
-  order: 200
+  order: 190
   socials:
-    - name: Twitter
-      link: https://twitter.com/LauraKingUX
-      link_description: Laura's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lauragraceking/
-      link_description: Laura's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://laurakingux.com/
-      link_description: Laura's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/laura-king/
-      link_description: Laura's Project Work
-      fa_icon_name: wrench
+
 - name: victoria-suwardiman
   fname: Victoria
   lname: Suwardiman
@@ -635,16 +358,9 @@
     techniques, including usability testing, journey mapping, and wireframing.
     Victoria resides in Massachusetts.
   active: false
-  order: 210
+  order: 200
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/suwardimanvictoria/
-      link_description: Victoria's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/victoria-suwardiman/
-      link_description: Victoria's Project Work
-      fa_icon_name: wrench
+
 - name: abby-raskin
   fname: Abby
   lname: Raskin
@@ -659,20 +375,9 @@
     and passionate about improving the human experience of technology. She specializes in
     product management and UX research. Abby lives in Texas.
   active: false
-  order: 220
+  order: 210
   socials:
-    - name: Twitter
-      link: https://twitter.com/abbyraskin
-      link_description: Abby's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/abbyraskin/
-      link_description: Abby's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/abby-raskin/
-      link_description: Abby's Project Work
-      fa_icon_name: wrench
+
 - name: gabriel-ramirez
   fname: Gabriel
   lname: Ramirez
@@ -688,24 +393,9 @@
     APIs, DevSecOps, cloud computing, data engineering, and data science.
     Gabriel lives in Texas.
   active: false
-  order: 230
+  order: 220
   socials:
-    - name: Twitter
-      link: https://twitter.com/gramire1
-      link_description: Gabriel's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/gramire1/
-      link_description: Gabriel's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/geramirez
-      link_description: Gabriel's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/gabriel-ramirez/
-      link_description: Gabriel's Project Work
-      fa_icon_name: wrench
+
 - name: chris-given
   fname: Chris
   lname: Given
@@ -722,20 +412,9 @@
     data engineering, data science, and data analytics.
     He lives in Illinois.
   active: false
-  order: 240
+  order: 230
   socials:
-    - name: Twitter
-      link: https://twitter.com/cmgiven
-      link_description: Chris' Twitter Account
-      fa_icon_name: twitter
-    - name: GitHub
-      link: https://github.com/cmgiven
-      link_description: Chris' GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/chris-given/
-      link_description: Chris' Project Work
-      fa_icon_name: wrench
+
 - name: colin-craig
   fname: Colin
   lname: Craig
@@ -752,20 +431,9 @@
     He specializes in software engineering, APIs, DevOps, and data engineering.
     Colin lives in North Carolina.
   active: false
-  order: 250
+  order: 240
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/colin-craig-92426447/
-      link_description: Colin's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/cacraig
-      link_description: Colin's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/colin-craig/
-      link_description: Colin's Project Work
-      fa_icon_name: wrench
+
 - name: ashley-treni
   fname: Ashley
   lname: Treni
@@ -781,28 +449,9 @@
     impact incubator, Blue Ridge Labs, she launched and co-founded JustFix.nyc.
     Ashley currently teaches UX design at General Assembly. She lives in Rhode Island.
   active: false
-  order: 260
+  order: 250
   socials:
-    - name: Twitter
-      link: https://twitter.com/ashleytreni
-      link_description: Ashley's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/ashleytreni/
-      link_description: Ashley's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/atreni
-      link_description: Ashley's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://www.designtaxonomy.com/
-      link_description: Ashley's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/ashley-treni/
-      link_description: Ashley's Project Work
-      fa_icon_name: wrench
+
 - name: mitchell-sipus
   fname: Mitchell
   lname: Sipus
@@ -819,24 +468,9 @@
     and specializes in design-centric approaches to advanced technology fields such as
     artificial intelligence. Mitchell lives in Pennsylvania.
   active: false
-  order: 270
+  order: 260
   socials:
-    - name: Twitter
-      link: https://twitter.com/msipus
-      link_description: Mitchell's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/mitchellsipus/
-      link_description: Mitchell's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: http://www.sipusdesign.com/
-      link_description: Mitchell's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/mitchell-sipus/
-      link_description: Mitchell's Project Work
-      fa_icon_name: wrench
+
 - name: marvo-dolor
   fname: Marvo
   lname: Dolor
@@ -854,24 +488,9 @@
     digital strategy and leadership, operations, and product management.
     Marvo lives in Maryland.
   active: false
-  order: 280
+  order: 270
   socials:
-    - name: Twitter
-      link: https://twitter.com/marvokdolor
-      link_description: Marvo's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/marvokdolor/
-      link_description: Marvo's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/marvokdolor-gov
-      link_description: Marvo's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/marvo-dolor/
-      link_description: Marvo's Project Work
-      fa_icon_name: wrench
+
 - name: cailyn-hansen
   fname: Cailyn
   lname: Hansen
@@ -889,28 +508,9 @@
     Cailyn interned at Facebook and graduated from Brown.
     She lives in New York.
   active: false
-  order: 290
+  order: 280
   socials:
-    - name: Twitter
-      link: https://twitter.com/cailynhansen
-      link_description: Cailyn's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://linkedin.com/in/cailynhansen
-      link_description: Cailyn's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/cailyncodes
-      link_description: Cailyn's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://cailynhansen.com
-      link_description: Cailyn's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/cailyn-hansen/
-      link_description: Cailyn's Project Work
-      fa_icon_name: wrench
+
 - name: amelia-wellers
   fname: Amelia
   lname: Wellers
@@ -927,24 +527,9 @@
     Mayor's Office for Economic Opportunity and the Cambridge Innovation Center.
     She lives in New York.
   active: false
-  order: 300
+  order: 290
   socials:
-    - name: Twitter
-      link: https://twitter.com/Awellia
-      link_description: Amelia's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/ameliawellers/
-      link_description: Amelia's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://awellia.com/
-      link_description: Amelia's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/amelia-wellers/
-      link_description: Amelia's Project Work
-      fa_icon_name: wrench
+
 - name: maya-benari
   fname: Maya
   lname: Benari
@@ -961,32 +546,9 @@
     accessibility, and design systems. She's also a former
     Code for America fellow. Maya lives in California.
   active: false
-  order: 320
+  order: 300
   socials:
-    - name: Twitter
-      link: https://twitter.com/mayabenari
-      link_description: Maya's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/mayab/
-      link_description: Maya's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/maya
-      link_description: Maya's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://maya-benari.com/
-      link_description: Maya's Personal Website
-      fa_icon_name: home
-    - name: Blog Posts
-      link: /thoughts/blog/author/maya-benari/
-      link_description: Maya's Blog Posts
-      fa_icon_name: pencil
-    - name: Projects
-      link: /work/team-member/maya-benari/
-      link_description: Maya's Project Work
-      fa_icon_name: wrench
+
 - name: brandon-kirby
   fname: Brandon
   lname: Kirby
@@ -1003,20 +565,9 @@
     agile practices, strategy, and product management to help partners
     find the right path. He lives in Georgia.
   active: false
-  order: 330
+  order: 310
   socials:
-    - name: Twitter
-      link: https://twitter.com/BrandoKirby
-      link_description: Brandon's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/brandocalrissian/
-      link_description: Brandon's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/brandocalrissian
-      link_description: Brandon's GitHub Account
-      fa_icon_name: github
+
 - name: julia-hogan
   fname: Julia
   lname: Hogan
@@ -1033,20 +584,9 @@
     solutions. She most recently worked as an employee of NYC government,
     building sites and services to increase data access. She lives in New York.
   active: false
-  order: 340
+  order: 320
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/julialhogan/
-      link_description: Julia's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/jlhogan
-      link_description: Julia's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/julia-hogan/
-      link_description: Julia's Project Work
-      fa_icon_name: wrench
+
 - name: ari-perez
   fname: Ari
   lname: Perez
@@ -1064,16 +604,9 @@
     warnings of impending attacks. Ari specializes in software engineering,
     DevOps, and cloud computing. He lives in Arkansas.
   active: false
-  order: 350
+  order: 330
   socials:
-    - name: GitHub
-      link: https://github.com/ariperez
-      link_description: Ari's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/ari-perez/
-      link_description: Ari's Project Work
-      fa_icon_name: wrench
+
 - name: peggy-chau
   fname: Peggy
   lname: Chau
@@ -1089,20 +622,9 @@
     robot vacuums with Samsung to redesigning a pain communication app with UPMC.
     Peggy lives in Massachusetts.
   active: true
-  order: 360
+  order: 340
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/peggykychau/
-      link_description: Peggy's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/pkchau
-      link_description: Peggy's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/peggy-chau/
-      link_description: Peggy's Project Work
-      fa_icon_name: wrench
+
 - name: zack-gehin
   fname: Zack
   lname: Gehin
@@ -1119,20 +641,9 @@
     form design teams, and served as a design leader in the non-profit,
     financial investments, and healthcare industries. Zack lives in Florida.
   active: true
-  order: 370
+  order: 350
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/zackgehin/
-      link_description: Zack's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://zacksguide.com
-      link_description: Zack's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/zack-gehin/
-      link_description: Zack's Project Work
-      fa_icon_name: wrench
+
 - name: mical-nobel
   fname: Mical
   lname: Nobel
@@ -1150,16 +661,9 @@
     MBA at the University of Chicago Booth School of Business.
     Mical lives in Massachusetts.
   active: false
-  order: 380
+  order: 360
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/mical-nobel
-      link_description: Mical's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/mical-nobel/
-      link_description: Mical's Project Work
-      fa_icon_name: wrench
+
 - name: nick-clyde
   fname: Nick
   lname: Clyde
@@ -1176,16 +680,9 @@
     working on and improving high-traffic government digital services.
     Nick lives in California.
   active: true
-  order: 390
+  order: 370
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/nick-clyde-b80967b6/
-      link_description: Nick's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/nick-clyde/
-      link_description: Nick's Project Work
-      fa_icon_name: wrench
+
 - name: eric-richards
   fname: Eric
   lname: Richards
@@ -1201,20 +698,9 @@
     18F and graduated from UC San Diego with degrees in Human-Computer Interaction
     and Design for Social Innovation. Eric lives in Massachusetts.
   active: false
-  order: 400
+  order: 380
   socials:
-    - name: Twitter
-      link: https://twitter.com/ericorichards
-      link_description: Eric's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/eric-richards/
-      link_description: Eric's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/eric-richards/
-      link_description: Eric's Project Work
-      fa_icon_name: wrench
+
 - name: charlye-tran
   fname: Charlye
   lname: Tran
@@ -1229,16 +715,9 @@
     specializes in service design and product management and is certified in UX by the Nielsen Norman
     Group. Charlye lives in Texas.
   active: false
-  order: 410
+  order: 390
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/charlyetran/
-      link_description: Charlye's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/charlye-tran/
-      link_description: Charlye's Project Work
-      fa_icon_name: wrench
+
 - name: tomi-obikunle
   fname: Tomi
   lname: Obikunle
@@ -1254,16 +733,9 @@
     projects with kids. She now specializes in continuous discovery, usability
     testing, and human-centered design. Tomi lives in Illinois.
   active: true
-  order: 420
+  order: 400
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/tomiobikunle/
-      link_description: Tomi's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/tomi-obikunle/
-      link_description: Tomi's Project Work
-      fa_icon_name: wrench
+
 - name: adam-weber
   fname: Adam
   lname: Weber
@@ -1279,20 +751,9 @@
     mystery bugs, integrating with legacy systems, and "just making stuff work."
     Adam lives in Oregon.
   active: false
-  order: 430
+  order: 410
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/nullflux/
-      link_description: Adam's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/nullflux
-      link_description: Adam's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/adam-weber/
-      link_description: Adam's Project Work
-      fa_icon_name: wrench
+
 - name: phoebe-espiritu
   fname: Phoebe
   lname: Espiritu
@@ -1309,28 +770,9 @@
     Design and Technology, mentored dozens of startups, and led design at a number
     of technology companies.
   active: false
-  order: 440
+  order: 420
   socials:
-    - name: Twitter
-      link: https://twitter.com/femmebot
-      link_description: Phoebe's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/phoebeespiritu/
-      link_description: Phoebe's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/femmebot
-      link_description: Phoebe's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://simplifierlab.com/
-      link_description: Phoebe's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/phoebe-espiritu/
-      link_description: Phoebe's Project Work
-      fa_icon_name: wrench
+
 - name: elisa-lee
   fname: Elisa
   lname: Lee
@@ -1345,20 +787,9 @@
     change in communities. Elisa previously worked in the developer tools,
     education technology, and non-profit spaces. Elisa lives in Minnesota.
   active: true
-  order: 450
+  order: 430
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/emyl3/
-      link_description: Elisa's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/emyl3
-      link_description: Elisa's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/elisa-lee/
-      link_description: Elisa's Project Work
-      fa_icon_name: wrench
+
 - name: kyle-magida
   fname: Kyle
   lname: Magida
@@ -1375,24 +806,9 @@
     the University of Chicago's Computational Analysis & Public Policy program.
     Kyle lives in Massachusetts.
   active: false
-  order: 460
+  order: 440
   socials:
-    - name: Twitter
-      link: https://twitter.com/kmagida110
-      link_description: Kyle's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kmagida/
-      link_description: Kyle's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/kmagida110
-      link_description: Kyle's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/kyle-magida/
-      link_description: Kyle's Project Work
-      fa_icon_name: wrench
+
 - name: suzanne-chapman
   fname: Suzanne
   lname: Chapman
@@ -1409,24 +825,9 @@
     and elections and lead a team of designers at the U.S. Digital Service working
     with the Department of Veterans Affairs. Suzanne lives in Tennessee.
   active: false
-  order: 470
+  order: 450
   socials:
-    - name: Twitter
-      link: https://twitter.com/LibraryUX
-      link_description: Suzanne's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/suzannechapman/
-      link_description: Suzanne's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/suzchap
-      link_description: Suzanne's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/suzanne-chapman/
-      link_description: Suzanne's Project Work
-      fa_icon_name: wrench
+
 - name: olivia-lucas
   fname: Olivia
   lname: Lucas
@@ -1441,16 +842,9 @@
     passionate about combining qualitative and quantitative research methods to
     solve complex problems in a human-centered way. Olivia lives in Georgia.
   active: false
-  order: 480
+  order: 460
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lucasolivia/
-      link_description: Olivia's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/olivia-lucas/
-      link_description: Olivia's Project Work
-      fa_icon_name: wrench
+
 - name: jordan-guinn
   fname: Jordan
   lname: Guinn
@@ -1465,20 +859,9 @@
     experiences. He specializes in software engineering, data engineering, and
     DevOps. Jordan lives in Oregon.
   active: false
-  order: 490
+  order: 470
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jordanguinn/
-      link_description: Jordan's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/JordanGuinn
-      link_description: Jordan's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/jordan-guinn/
-      link_description: Jordan's Project Work
-      fa_icon_name: wrench
+
 - name: kari-hodges
   fname: Kari
   lname: Hodges
@@ -1495,16 +878,9 @@
     As an MBA from MIT, Kari leverages interdisciplinary collaboration and frameworks to
     create human-centered solutions. She lives in Rhode Island.
   active: false
-  order: 500
+  order: 480
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kariahodges/
-      link_description: Kari's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/kari-hodges/
-      link_description: Kari's Project Work
-      fa_icon_name: wrench
+
 - name: nicole-campbell
   fname: Nicole
   lname: Campbell
@@ -1521,16 +897,9 @@
     build software. She specializes in extreme programming, lean product management,
     and user-centered design. Nicole lives in Illinois.
   active: true
-  order: 510
+  order: 490
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/nncampbell/
-      link_description: Nicole's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/nicole-campbell/
-      link_description: Nicole's Project Work
-      fa_icon_name: wrench
+
 - name: lucas-newman
   fname: Lucas
   lname: Newman
@@ -1545,20 +914,9 @@
     technology to solve big societal problems. He specializes in mobile application
     architecture and engineering. Lucas lives in Georgia.
   active: false
-  order: 520
+  order: 500
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lucas-newman-5a683a8a/
-      link_description: Lucas' LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/lukenewman
-      link_description: Lucas' GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/lucas-newman/
-      link_description: Lucas' Project Work
-      fa_icon_name: wrench
+
 - name: kenny-nieh
   fname: Kenny
   lname: Nieh
@@ -1573,16 +931,9 @@
     Kenny work through the whole gamut of product design to create experiences that
     fit into people's lives. Kenny lives in California.
   active: true
-  order: 530
+  order: 510
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kenny-nieh-they-them-b091abbb/
-      link_description: Kenny's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/kenny-nieh/
-      link_description: Kenny's Project Work
-      fa_icon_name: wrench
+
 - name: zoe-do
   fname: Zoe
   lname: Do
@@ -1597,12 +948,9 @@
     career as a consultant with firms such as Pivotal Labs, and is eager to translate
     these experiences into transforming government services. Zoe resides in Colorado.
   active: false
-  order: 540
+  order: 520
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/tranbqdo/
-      link_description: Zoe's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: rebecca-lubitzmarchena
   fname: Rebecca
   lname: Lubitz-Marchena
@@ -1618,20 +966,9 @@
     language and creating great experiences through human-centered content.
     Rebecca lives in Maryland.
   active: false
-  order: 550
+  order: 530
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/rlubitzmarchena/
-      link_description: Rebecca's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/Rebecca-LM
-      link_description: Rebecca's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/rebecca-lubitzmarchena/
-      link_description: Rebecca's Project Work
-      fa_icon_name: wrench
+
 - name: chris-smith
   fname: Chris
   lname: Smith
@@ -1645,16 +982,9 @@
     Chris' an experienced executive with nearly 20 years of leading technology
     consulting and delivery teams in support of government clients. He lives in Maryland.
   active: false
-  order: 560
+  order: 540
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/christophersmith5/
-      link_description: Chris' LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/ChrisLSmith
-      link_description: Chris' GitHub Account
-      fa_icon_name: github
+
 - name: jamie-song
   fname: Jamie
   lname: Song
@@ -1669,16 +999,9 @@
     She excels at leading and managing cross-functional teams across the entire product
     lifecycle. Jamie lives in Washington DC.
   active: false
-  order: 570
+  order: 550
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jamie-song-a7198238/
-      link_description: Jamie's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/jamie-song/
-      link_description: Jamie's Project Work
-      fa_icon_name: wrench
+
 - name: ori-hoffer
   fname: Ori
   lname: Hoffer
@@ -1694,16 +1017,9 @@
     TV, radio, and digital media — on both the journalism and corporate communications
     sides. He lives in Virginia.
   active: false
-  order: 580
+  order: 560
   socials:
-    - name: Twitter
-      link: https://twitter.com/orihoffer
-      link_description: Ori's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/orihoffer/
-      link_description: Ori's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: elyse-brumfield
   fname: Elyse
   lname: Brumfield
@@ -1718,12 +1034,9 @@
     Transylvania University and is seeking a degree in Clinical Mental Health
     Counseling from Hodges University. Elyse lives in Kentucky.
   active: false
-  order: 590
+  order: 570
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/elyse-brumfield-572ab1150/
-      link_description: Elyse's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: gianna-buda
   fname: Gianna
   lname: Buda
@@ -1739,16 +1052,9 @@
     Fellow at the State Department and graduated from Brown University with a degree in Computer
     Science. Gianna lives in Indiana.
   active: true
-  order: 600
+  order: 580
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/giannabuda
-      link_description: Gianna's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/gianna-buda/
-      link_description: Gianna's Project Work
-      fa_icon_name: wrench
+
 - name: alex-curtis
   fname: Alex
   lname: Curtis
@@ -1765,16 +1071,9 @@
     Human Services. Alex graduated with degrees from Columbia University and
     New York University. He lives in Massachusetts.
   active: false
-  order: 610
+  order: 590
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/alexander-curtis-b3b4b766/
-      link_description: Alex's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/alex-curtis/
-      link_description: Alex's Project Work
-      fa_icon_name: wrench
+
 - name: jesse-skeets
   fname: Jesse
   lname: Skeets
@@ -1790,20 +1089,9 @@
     applications. He has a degree in Mechanical Engineering from The California Maritime Academy
     and is a Naval Reserve Officer. He lives in California.
   active: false
-  order: 620
+  order: 600
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jesse-skeets-74515298
-      link_description: Jesse's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/JSkeets
-      link_description: Jesse's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/jesse-skeets/
-      link_description: Jesse's Project Work
-      fa_icon_name: wrench
+
 - name: derek-tam
   fname: Derek
   lname: Tam
@@ -1820,16 +1108,9 @@
     with a degree in Systems Engineering from the University of Illinois at Urbana-Champaign.
     Derek lives in Massachusetts.
   active: false
-  order: 630
+  order: 610
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/derekhochuntam/
-      link_description: Derek's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/derek-tam/
-      link_description: Derek's Project Work
-      fa_icon_name: wrench
+
 - name: leslie-garner-franklin
   fname: Leslie
   lname: Garner Franklin
@@ -1846,20 +1127,9 @@
     cross-functional team leadership, user experience research, and service design.
     Leslie lives in North Carolina.
   active: true
-  order: 640
+  order: 620
   socials:
-    - name: Twitter
-      link: https://twitter.com/elgeefranklin
-      link_description: Leslie's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lesliegarnerfranklin/
-      link_description: Leslie's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/leslie-garner-franklin/
-      link_description: Leslie's Project Work
-      fa_icon_name: wrench
+
 - name: chun-yen
   fname: Chun
   lname: Yen
@@ -1873,16 +1143,9 @@
     Chun's passionate about automating everything and creating great experiences for other engineers. 
     He specializes in DevOps engineering, cloud computing, and security. Chun lives in Maryland.
   active: false
-  order: 650
+  order: 630
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/chun-yen-43192a4a
-      link_description: Chun's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/chun-yen/
-      link_description: Chun's Project Work
-      fa_icon_name: wrench
+
 - name: nicole-wright
   fname: Nicole
   lname: Wright
@@ -1897,20 +1160,9 @@
     Most recently, she worked with the Air Force's Kessel Run program 
     to modernize in-air refueling planning and platform development. Nicole lives in Washington.
   active: false
-  order: 660
+  order: 640
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/nmwright/
-      link_description: Nicole's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Talks
-      link: /thoughts/talks/speaker/nicole-wright/
-      link_description: Nicole's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/nicole-wright/
-      link_description: Nicole's Project Work
-      fa_icon_name: wrench
+
 - name: tiffany-nieh
   fname: Tiffany
   lname: Nieh
@@ -1926,16 +1178,9 @@
     she helped startups, large enterprises, and government organizations build software using modern practices. 
     Tiffany lives in California.
   active: true
-  order: 670
+  order: 650
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/tiffanynieh
-      link_description: Tiffany's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/tiffany-nieh/
-      link_description: Tiffany's Project Work
-      fa_icon_name: wrench
+
 - name: karthik-patil
   fname: Karthik
   lname: Patil
@@ -1951,24 +1196,9 @@
     Karthik graduated from Creighton University with degrees in Economics and Business Intelligence and Analytics. 
     He lives in Texas.
   active: false
-  order: 680
+  order: 660
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/karthikpatil/
-      link_description: Karthik's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://karthikpatil.com/
-      link_description: Karthik's Personal Website
-      fa_icon_name: home
-    - name: Talks
-      link: /thoughts/talks/speaker/karthik-patil/
-      link_description: Karthik's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/karthik-patil/
-      link_description: Karthik's Project Work
-      fa_icon_name: wrench
+
 - name: becca-woodberry
   fname: Becca
   lname: Woodberry
@@ -1984,12 +1214,9 @@
     Becca specializes in staffing, onboarding, people leadership, and diversity, equity, and inclusion. 
     She lives in Arizona.
   active: false
-  order: 690
+  order: 670
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/woodberry/
-      link_description: Becca's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: nathan-carter
   fname: Nathan
   lname: Carter
@@ -2004,20 +1231,9 @@
     Prior to becoming an engineer, he ran his own bakery. 
     Nathan lives in North Carolina.
   active: true
-  order: 700
+  order: 680
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/nathan-carter-202775141/
-      link_description: Nathan's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/nathancrtr
-      link_description: Nathan's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/nathan-carter/
-      link_description: Nathan's Project Work
-      fa_icon_name: wrench
+
 - name: matt-goldberg
   fname: Matt
   lname: Goldberg
@@ -2033,16 +1249,9 @@
     He also cares deeply about improving people's lives and livelihoods. 
     Matt lives in Pennsylvania.
   active: true
-  order: 710
+  order: 690
   socials:
-    - name: LinkedIn
-      link: www.linkedin.com/in/matthew-goldberg-01586854
-      link_description: Matt's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/matt-goldberg/
-      link_description: Matt's Project Work
-      fa_icon_name: wrench
+
 - name: nick-blake
   fname: Nick
   lname: Blake
@@ -2059,20 +1268,9 @@
     Nick recently graduated from Washington University in St. Louis. 
     Nick lives in New York.
   active: false
-  order: 720
+  order: 700
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/nicholas-blake-3aa402178
-      link_description: Nick's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://nickblake.myportfolio.com/
-      link_description: Nick's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/nick-blake/
-      link_description: Nick's Project Work
-      fa_icon_name: wrench
+
 - name: bob-zhao
   fname: Bob
   lname: Zhao
@@ -2087,20 +1285,9 @@
     In 2020, he served as Civic Digital Fellow at the National Institutes of Health, and is currently pursuing a masters degree in computer science at Washington University in St. Louis. 
     He lives in Missouri.
   active: true
-  order: 730
+  order: 710
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/bob-z-1901/
-      link_description: Bob's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/fzhao99
-      link_description: Bob's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/bob-zhao/
-      link_description: Bob's Project Work
-      fa_icon_name: wrench
+
 - name: ashton-tu
   fname: Ashton
   lname: Tu
@@ -2115,16 +1302,9 @@
     As a 2020 Civic Digital Fellow with the General Services Administration, she discovered her passion for civic tech. 
     Ashton lives in California.
   active: true
-  order: 740
+  order: 720
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/ashton-tu
-      link_description: Ashton's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/ashton-tu/
-      link_description: Ashton's Project Work
-      fa_icon_name: wrench
+
 - name: andrew-lloyd
   fname: Andrew
   lname: Lloyd
@@ -2140,20 +1320,9 @@
     Andrew specializes in DevOps engineering, software engineering, and cloud computing. 
     He lives in Washington.
   active: false
-  order: 750
+  order: 730
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/andrewmarklloyd/
-      link_description: Andrew's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/andrewmarklloyd
-      link_description: Andrew's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/andrew-lloyd/
-      link_description: Andrew's Project Work
-      fa_icon_name: wrench
+
 - name: tim-niehoff
   fname: Tim
   lname: Niehoff
@@ -2168,16 +1337,9 @@
     Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped transform the way startups and large enterprises build software. 
     Tim lives in Illinois.
   active: false
-  order: 760
+  order: 740
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/timniehoff/
-      link_description: Tim's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/tim-niehoff/
-      link_description: Tim's Project Work
-      fa_icon_name: wrench
+
 - name: pri-kiser
   fname: Pri
   lname: Kiser
@@ -2192,16 +1354,9 @@
     She previously worked at Pivotal Labs / VMware Tanzu where she built high-impact products and scaled design practices across various types of organizations. 
     Pri lives in Texas.
   active: true
-  order: 770
+  order: 750
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/prikiser/
-      link_description: Pri's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/pri-kiser/
-      link_description: Pri's Project Work
-      fa_icon_name: wrench
+
 - name: taylor-graue
   fname: Taylor
   lname: Graue
@@ -2217,20 +1372,9 @@
     She specializes in strategy, human-centered design, and building relationships. 
     Taylor lives in Texas.
   active: true
-  order: 780
+  order: 760
   socials:
-    - name: LinkedIn
-      link: http://www.linkedin.com/in/taylorgraue
-      link_description: Taylor's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.taylorgraue.com/
-      link_description: Taylor's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/taylor-graue/
-      link_description: Taylor's Project Work
-      fa_icon_name: wrench
+
 - name: laura-kerry
   fname: Laura
   lname: Kerry
@@ -2246,16 +1390,9 @@
     Most recently, Laura worked at the NYC Mayor's Office for Economic Opportunity. 
     She lives in Hawaii.
   active: true
-  order: 790
+  order: 770
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/laurawkerry/
-      link_description: Laura's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/laura-kerry/
-      link_description: Laura's Project Work
-      fa_icon_name: wrench
+
 - name: emma-stephenson
   fname: Emma
   lname: Stephenson
@@ -2270,20 +1407,9 @@
     She previously worked at Google, and is experienced in a number of different technical areas, including APIs, microservices, and DevOps. 
     Emma lives in California.
   active: true
-  order: 800
+  order: 780
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/emma-stephenson-85849bb9
-      link_description: Emma's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/emmastephenson
-      link_description: Emma's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/emma-stephenson/
-      link_description: Emma's Project Work
-      fa_icon_name: wrench
+
 - name: mina-cairns
   fname: Mina
   lname: Cairns
@@ -2298,12 +1424,9 @@
     She specializes in corporate strategy, corporate development, and large-scale program management. 
     Mina lives in Florida.
   active: true
-  order: 810
+  order: 790
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/mina-c-2489979/
-      link_description: Mina's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: sarah-tress
   fname: Sarah
   lname: Tress
@@ -2318,20 +1441,9 @@
     She recently graduated from Oxford with a Master's in Development Studies as a Rhodes Scholar after studying Mechanical Engineering at MIT. 
     Sarah lives in New York.
   active: true
-  order: 820
+  order: 800
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/sarahtress/
-      link_description: Sarah's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: http://sarahtress.me/
-      link_description: Sarah's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/sarah-tress/
-      link_description: Sarah's Project Work
-      fa_icon_name: wrench
+
 - name: gordon-farrell
   fname: Gordon
   lname: Farrell
@@ -2347,16 +1459,9 @@
     Gordon's a champion for automated testing, high cadence CI/CD, and working directly with users to provide great software. 
     Gordon lives in Colorado.
   active: true
-  order: 830
+  order: 810
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/gordonfarrell/
-      link_description: Gordon's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/gordon-farrell/
-      link_description: Gordon's Project Work
-      fa_icon_name: wrench
+
 - name: jennifer-herzberg
   fname: Jennifer
   lname: Herzberg
@@ -2372,24 +1477,9 @@
     Jennifer studied Cognitive Science with a specialization in Human-Computer Interaction at UC San Diego. 
     She lives in California.
   active: true
-  order: 840
+  order: 820
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jenniferherzberg/
-      link_description: Jennifer's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/jjherzberg
-      link_description: Jennifer's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: http://www.jenniferherzberg.com/
-      link_description: Jennifer's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/jennifer-herzberg/
-      link_description: Jennifer's Project Work
-      fa_icon_name: wrench
+
 - name: sarah-george-hager
   fname: George
   lname: Hager
@@ -2405,16 +1495,9 @@
     George previously worked with the U.S. Air Force's Kessel Run program. 
     She lives in Massachusetts.
   active: false
-  order: 850
+  order: 830
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/sarah-george-software
-      link_description: George's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/sarah-george-hager/
-      link_description: George's Project Work
-      fa_icon_name: wrench
+
 - name: david-mcclatchey
   fname: David
   lname: McClatchey
@@ -2429,16 +1512,9 @@
     He's most recently worked at Home Depot where he helped migrate its product data to the cloud and built highly-visible APIs from that data. 
     David lives in Georgia.
   active: true
-  order: 860
+  order: 840
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/david-mcclatchey-819481132/
-      link_description: David's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/david-mcclatchey/
-      link_description: David's Project Work
-      fa_icon_name: wrench
+
 - name: liz-fox
   fname: Liz
   lname: Fox
@@ -2453,24 +1529,9 @@
     She's passionate about building technology in service of the people who use it. 
     Liz lives in Wisconsin.
   active: false
-  order: 870
+  order: 850
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/elfoxart/
-      link_description: Liz's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://elfoxdesign.com
-      link_description: Liz's Personal Website
-      fa_icon_name: home
-    - name: Talks
-      link: /thoughts/talks/speaker/liz-fox/
-      link_description: Liz's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/liz-fox/
-      link_description: Liz's Project Work
-      fa_icon_name: wrench
+
 - name: rin-concordia
   fname: Rin
   lname: Concordia
@@ -2486,16 +1547,9 @@
     She previously served with the United States Coast Guard Auxiliary as its National Division Chief of Software Engineering. 
     Rin lives in Illinois.
   active: true
-  order: 880
+  order: 860
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/corinneconcordia/
-      link_description: Rin's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/rin-concordia/
-      link_description: Rin's Project Work
-      fa_icon_name: wrench
+
 - name: alis-akers
   fname: Alis
   lname: Akers
@@ -2510,24 +1564,9 @@
     Alis established integrations for patient engagement and monitoring across several large health systems and led the development of infrastructure and software pipeline requirements and tooling. 
     Alis lives in Oregon.
   active: true
-  order: 890
+  order: 870
   socials:
-    - name: Twitter
-      link: https://twitter.com/Alismxwll
-      link_description: Alis' Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/alismx/
-      link_description: Alis' LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/alismx
-      link_description: Alis' GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/alis-akers/
-      link_description: Alis' Project Work
-      fa_icon_name: wrench
+
 - name: priscilla-peralta
   fname: Priscilla
   lname: Peralta
@@ -2543,20 +1582,9 @@
     Most recently, she worked at a fin-tech startup where she helped develop an out-of-app feature to help improve account accessibility for users in Nigeria. 
     Priscilla lives in California.
   active: false
-  order: 900
+  order: 880
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/priscillatperalta/
-      link_description: Priscilla's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://theeucalyptusbaby.com/
-      link_description: Priscilla's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/priscilla-peralta/
-      link_description: Priscilla's Project Work
-      fa_icon_name: wrench
+
 - name: ryan-gaddis
   fname: Ryan
   lname: Gaddis
@@ -2571,20 +1599,9 @@
     He strives to make thoughtful decisions and challenge assumptions. He's also a volunteer firefighter in his community. 
     Ryan lives in Colorado.
   active: true
-  order: 910
+  order: 890
   socials:
-    - name: Twitter
-      link: https://twitter.com/ryangaddis
-      link_description: Ryan's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/ryangaddis/
-      link_description: Ryan's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/ryan-gaddis/
-      link_description: Ryan's Project Work
-      fa_icon_name: wrench
+
 - name: bryan-britten
   fname: Bryan
   lname: Britten
@@ -2599,24 +1616,9 @@
     He previously worked at Meta and has built data solutions to help address issues of money laundering, financial fraud, gun violence, and disinformation campaigns. 
     Bryan lives in Washington.
   active: false
-  order: 920
+  order: 900
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/bryanbritten/
-      link_description: Bryan's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/bryanbritten
-      link_description: Bryan's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://tibblesnbits.com
-      link_description: Bryan's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/bryan-britten/
-      link_description: Bryan's Project Work
-      fa_icon_name: wrench
+
 - name: kyle-planeaux
   fname: Kyle
   lname: Planeaux
@@ -2632,20 +1634,9 @@
     Kyle studied chemical engineering at the University of Southern California and is working on a graduate degree in Computer Science from Georgia Tech. 
     He lives in California.
   active: true
-  order: 930
+  order: 910
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kyle-planeaux/
-      link_description: Kyle's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Talks
-      link: /thoughts/talks/speaker/kyle-planeaux/
-      link_description: Kyle's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/kyle-planeaux/
-      link_description: Kyle's Project Work
-      fa_icon_name: wrench
+
 - name: zedd-shmais
   fname: Zedd
   lname: Shmais
@@ -2660,24 +1651,9 @@
     Most recently, he worked at Pivotal Labs / VMware Tanzu where he helped companies of all sizes with their digital transformation journeys. 
     Zedd has a masters degree in computer science from Georgia Tech. He lives in Texas.
   active: true
-  order: 940
+  order: 920
   socials:
-    - name: Twitter
-      link: https://twitter.com/ZeddShmais
-      link_description: Zedd's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/zedd-shmais/
-      link_description: Zedd's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/zdeveloper
-      link_description: Zedd's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/zedd-shmais/
-      link_description: Zedd's Project Work
-      fa_icon_name: wrench
+
 - name: mike-brown
   fname: Mike
   lname: Brown
@@ -2693,20 +1669,9 @@
     Mike graduated from the University at Buffalo with a degree in Computer Science and Political Science. 
     He lives in New York.
   active: true
-  order: 950
+  order: 930
   socials:
-    - name: Twitter
-      link: https://twitter.com/mpbrown716
-      link_description: Mike's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/mpbrown15/
-      link_description: Mike's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/mike-brown/
-      link_description: Mike's Project Work
-      fa_icon_name: wrench
+
 - name: merethe-hansen
   fname: Merethe
   lname: Hansen
@@ -2721,20 +1686,9 @@
     Merethe comes from the enterprise software industry, where she built analytics pipelines and reports. 
     She lives in California.
   active: true
-  order: 960
+  order: 940
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/merethe-hansen-44153464
-      link_description: Merethe's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/mehansen
-      link_description: Merethe's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/merethe-hansen/
-      link_description: Merethe's Project Work
-      fa_icon_name: wrench
+
 - name: jayna-wallace
   fname: Jayna
   lname: Wallace
@@ -2749,24 +1703,9 @@
     She moved into the civic tech space to work on a project for the Department of Defense. 
     Jayna lives in Ohio.
   active: true
-  order: 970
+  order: 950
   socials:
-    - name: Twitter
-      link: https://twitter.com/jaynawallace
-      link_description: Jayna's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jaynawallace/
-      link_description: Jayna's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: http://jaynawallace.com/
-      link_description: Jayna's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/jayna-wallace/
-      link_description: Jayna's Project Work
-      fa_icon_name: wrench
+
 - name: spencer-kathol
   fname: Spencer
   lname: Kathol
@@ -2781,24 +1720,9 @@
     Spencer has worked for and with electronic medical record vendors, healthcare providers, health plans, and regional health informational exchanges to share and report on complex health data to satisfy a multitude of needs. 
     Spencer lives in Colorado.
   active: false
-  order: 980
+  order: 960
   socials:
-    - name: Twitter
-      link: https://twitter.com/gskathol
-      link_description: Spencer's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/spencer-kathol-9573061/
-      link_description: Spencer's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/gskathol
-      link_description: Spencer's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/spencer-kathol/
-      link_description: Spencer's Project Work
-      fa_icon_name: wrench
+
 - name: dan-sass
   fname: Dan
   lname: Sass
@@ -2813,16 +1737,9 @@
     He's focused on system design, DevOps, and cloud native applications. 
     Dan lives in Ohio.
   active: true
-  order: 990
+  order: 970
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/daniel-sass-34a79791/
-      link_description: Dan's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/dan-sass/
-      link_description: Dan's Project Work
-      fa_icon_name: wrench
+
 - name: johanna-delpino
   fname: Johanna
   lname: Del Pino
@@ -2838,16 +1755,9 @@
     She has worked for different government entities like the Veterans Affairs and the Centers for Medicare & Medicaid Services. 
     Johanna lives in Pennsylvania.
   active: true
-  order: 1000
+  order: 980
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/johannadelpino/
-      link_description: Johanna's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/johanna-delpino/
-      link_description: Johanna's Project Work
-      fa_icon_name: wrench
+
 - name: bobby-wells
   fname: Bobby
   lname: Wells
@@ -2862,20 +1772,9 @@
     In 2021, he served as a Civic Digital Fellow at the Census Bureau and graduated from Tufts University. 
     Bobby lives in Colorado.
   active: true
-  order: 1010
+  order: 990
   socials:
-    - name: LinkedIn
-      link: www.linkedin.com/in/bobby-wells-5b9a76225
-      link_description: Bobby's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/bobbywells52
-      link_description: Bobby's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/bobby-wells/
-      link_description: Bobby's Project Work
-      fa_icon_name: wrench
+
 - name: kenneth-chow
   fname: Kenneth
   lname: Chow
@@ -2890,16 +1789,9 @@
     He advocates for serverless design to help scale up systems while reducing costs. 
     Kenneth lives in California.
   active: true
-  order: 1020
+  order: 1000
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kenneth-chow-it/
-      link_description: Kenneth's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/kenneth-chow/
-      link_description: Kenneth's Project Work
-      fa_icon_name: wrench
+
 - name: camille-villa
   fname: Camille
   lname: Villa
@@ -2914,20 +1806,9 @@
     She previously built open source software and managed developer communities for libraries, archives, and museums at Stanford University. 
     Camille lives in California.
   active: true
-  order: 1030
+  order: 1010
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/camillevilla/
-      link_description: Camille's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/camillevilla
-      link_description: Camille's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/camille-villa/
-      link_description: Camille's Project Work
-      fa_icon_name: wrench
+
 - name: dan-paseltiner
   fname: Dan
   lname: Paseltiner
@@ -2943,24 +1824,9 @@
     Outside of work, Dan's an avid hiker and sailor. 
     Dan lives in Maine.
   active: true
-  order: 1040
+  order: 1020
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/daniel-paseltiner-4487a1225/
-      link_description: Dan's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/DanielPaseltiner
-      link_description: Dan's GitHub Account
-      fa_icon_name: github
-    - name: Talks
-      link: /thoughts/talks/speaker/dan-paseltiner/
-      link_description: Dan's Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/dan-paseltiner/
-      link_description: Dan's Project Work
-      fa_icon_name: wrench
+
 - name: ann-millspaugh
   fname: Ann
   lname: Millspaugh
@@ -2976,20 +1842,9 @@
     Ann specializes in productizing and scaling APIs and data pipelines. 
     Ann lives in California. 
   active: true
-  order: 1050
+  order: 1030
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/annmillspaugh/
-      link_description: Ann's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/millzpaugh
-      link_description: Ann's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/ann-millspaugh/
-      link_description: Ann's Project Work
-      fa_icon_name: wrench
+
 - name: steven-speck
   fname: Steven
   lname: Speck
@@ -3004,16 +1859,9 @@
     Coming from Northeast Ohio, he attended MIT, where he majored in Computation and Cognition. 
     Steven lives in California.
   active: false
-  order: 1060
+  order: 1040
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/steven-speck/
-      link_description: Steven's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/StevenSpeck
-      link_description: Steven's GitHub Account
-      fa_icon_name: github
+
 - name: lina-roth
   fname: Lina
   lname: Roth
@@ -3029,20 +1877,9 @@
     She enjoys making the world a more inclusive space for everyone. 
     Lina lives in South Carolina.
   active: true
-  order: 1070
+  order: 1050
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lina-roth/
-      link_description: Lina's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/lina-roth
-      link_description: Lina's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/lina-roth/
-      link_description: Lina's Project Work
-      fa_icon_name: wrench
+
 - name: josh-nygaard
   fname: Josh
   lname: Nygaard
@@ -3057,28 +1894,9 @@
     He has several years of experience working in govtech, and values having a broad range of technical experiences and knowledge. 
     Josh lives in Pennsylvania.
   active: true
-  order: 1080
+  order: 1060
   socials:
-    - name: Twitter
-      link: https://twitter.com/J_Nygaard
-      link_description: Josh's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/joshnygaard
-      link_description: Josh's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/joshnygaard
-      link_description: Josh's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://jnygaard.dev
-      link_description: Josh's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/josh-nygaard/
-      link_description: Josh's Project Work
-      fa_icon_name: wrench
+
 - name: michelle-li
   fname: Michelle
   lname: Li
@@ -3094,16 +1912,9 @@
     Previously, she was a Civic Digital Fellow at the National Institutes of Health. 
     Michelle lives in New York. 
   active: false
-  order: 1090
+  order: 1070
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/michmli/
-      link_description: Michelle's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://michellemli.myportfolio.com/work
-      link_description: Michelle's Personal Website
-      fa_icon_name: home
+
 - name: amrita-bhatti
   fname: Amrita
   lname: Bhatti
@@ -3118,16 +1929,9 @@
     Previously, she was a product manager at McMaster-Carr and has experience as a software engineer. 
     She lives in California.
   active: true
-  order: 1100
+  order: 1080
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/akbhatti
-      link_description: Amrita's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/amrita-bhatti/
-      link_description: Amrita's Project Work
-      fa_icon_name: wrench
+
 - name: brady-fausett
   fname: Brady
   lname: Fausett
@@ -3143,20 +1947,9 @@
     He previously worked with the Centers for Medicare & Medicaid Services as a FHIR specialist for the Blue Button API. 
     Brady lives in Idaho.
   active: true
-  order: 1110
+  order: 1090
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/brady-fausett-20aa491
-      link_description: Brady's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/BradySkylight
-      link_description: Brady's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/brady-fausett/
-      link_description: Brady's Project Work
-      fa_icon_name: wrench
+
 - name: cheryl-hammond
   fname: Cheryl
   lname: Hammond
@@ -3171,20 +1964,9 @@
     She regularly speaks at and organizes conferences worldwide. 
     Cheryl lives in Washington.
   active: false
-  order: 1120
+  order: 1100
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/bsktcase/
-      link_description: Cheryl's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/bsktcase
-      link_description: Cheryl's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://blog.bsktcase.com/
-      link_description: Cheryl's Personal Website
-      fa_icon_name: home
+
 - name: jill-fromewick
   fname: Jill
   lname: Fromewick
@@ -3199,16 +1981,9 @@
     She's passionate about conducting feasible, actionable research that'll be used to improve outcomes and advance equity. 
     Jill lives in North Carolina.
   active: true
-  order: 1130
+  order: 1110
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jfromewick/
-      link_description: Jill's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/jill-fromewick/
-      link_description: Jill's Project Work
-      fa_icon_name: wrench
+
 - name: jina-ryu
   fname: Jina
   lname: Ryu
@@ -3223,12 +1998,9 @@
     She transitioned from academic research because she's passionate about translating research insights into solutions with positive impact. 
     She lives in Maryland. 
   active: false
-  order: 1140
+  order: 1120
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jina-ryu-682781aa/
-      link_description: Jina's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: marcelle-goggins
   fname: Marcelle
   lname: Goggins
@@ -3243,16 +2015,9 @@
     Marcelle's previously worked as a data engineer/scientist at civic tech non-profits and academic institutions, focusing on workforce development and education research. 
     She lives in Washington. 
   active: true
-  order: 1150
+  order: 1130
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/marcellegoggins/
-      link_description: Marcelle's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/marcelle-goggins/
-      link_description: Marcelle's Project Work
-      fa_icon_name: wrench
+
 - name: kelli-mason
   fname: Kelli
   lname: Mason
@@ -3268,12 +2033,9 @@
     She's a graduate of Rice University and Stanford Law School. 
     Kelli lives in New Jersey.
   active: false
-  order: 1160
+  order: 1140
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kellinewmanmason/
-      link_description: Kelli's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: graham-smith
   fname: Graham
   lname: Smith
@@ -3287,12 +2049,9 @@
     Graham's a software engineer, specializing in technical architecture and full-stack development. 
     He lives in Pennsylvania.
   active: false
-  order: 1170
+  order: 1150
   socials:
-    - name: Projects
-      link: /work/team-member/graham-smith/
-      link_description: Graham's Project Work
-      fa_icon_name: wrench
+
 - name: robert-mitchell
   fname: Robert
   lname: Mitchell
@@ -3307,28 +2066,9 @@
     Adhering to a data-for-good ethos, he centers the mission in orienting solutions to problems. 
     Robert lives in California. 
   active: true
-  order: 1180
+  order: 1160
   socials:
-    - name: Twitter
-      link: https://twitter.com/RobertMitchellV
-      link_description: Robert’s Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://linkedin.com/in/robertmitchellv
-      link_description: Robert’s LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/robertmitchellv
-      link_description: Robert’s GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://robertmitchellv.com/
-      link_description: Robert’s Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/robert-mitchell/
-      link_description: Robert’s Project Work
-      fa_icon_name: wrench
+
 - name: joe-reynolds
   fname: Joe
   lname: Reynolds
@@ -3343,16 +2083,9 @@
     He loves unlocking value for businesses and their customers through operational excellence.
     Joe lives in California.
   active: false
-  order: 1190
+  order: 1170
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/joeslnkdin/
-      link_description: Joe's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/joesghub
-      link_description: Joe's GitHub Account
-      fa_icon_name: github
+
 - name: angela-the
   fname: Angela
   lname: The
@@ -3367,28 +2100,9 @@
     She pursued a master's degree in computer science and public policy and previously served as a Civic Innovation Corps Fellow for the City of San José. 
     Angela lives in California.
   active: true
-  order: 1200
+  order: 1180
   socials:
-    - name: Twitter
-      link: https://twitter.com/Angela__The
-      link_description: Angela's Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://linkedin.com/in/angelathe
-      link_description: Angela's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/angelathe
-      link_description: Angela's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://www.angelathe.com/
-      link_description: Angela's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/angela-the/
-      link_description: Angela’s Project Work
-      fa_icon_name: wrench
+
 - name: emmanuel-nwakire
   fname: Emmanuel
   lname: Nwakire
@@ -3403,20 +2117,9 @@
     He's also a certified Scrum Master, where he excels at understanding and addressing the needs of clients and stakeholders alike. 
     Emmanuel lives in Maryland. 
   active: true
-  order: 1210
+  order: 1190
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/c-e-nuel/
-      link_description: Emmanuel's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/nuel247
-      link_description: Emmanuel's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/emmanuel-nwakire/
-      link_description: Emmanuel’s Project Work
-      fa_icon_name: wrench
+
 - name: kathryn-mullins
   fname: Kathryn
   lname: Mullins
@@ -3431,12 +2134,9 @@
     Kathryn's served in procurement and technology policy leadership roles in the U.S. executive and legislative branches, and led procurement policy, strategic initiatives, and new public sector business development at Amazon. 
     She lives in Virginia.  
   active: false
-  order: 1220
+  order: 1200
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kathryn-mullins-a6025563/
-      link_description: Kathryn's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: ian-hancock
   fname: Ian
   lname: Hancock
@@ -3451,12 +2151,9 @@
     He's also an Air Force veteran who previously worked for BESPIN as an engineer mainly building web applications. 
     Ian lives in Alabama.  
   active: false
-  order: 1230
+  order: 1210
   socials:
-    - name: LinkedIn
-      link: https://linkedin.com/in/ian-johnson-hancock
-      link_description: Ian's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: emily-alter
   fname: Emily
   lname: Alter
@@ -3471,20 +2168,9 @@
     She's conducted user research for Cameo, Litmus, Facebook Messenger, Wells Fargo, and Chase. 
     Emily lives in California.
   active: false
-  order: 1240
+  order: 1220
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/emilyalter1/
-      link_description: Emily's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://emilyralter.com/
-      link_description: Emily's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/emily-alter/
-      link_description: Emily’s Project Work
-      fa_icon_name: wrench
+
 - name: boban-ljuljdjurovic
   fname: Boban
   lname: Ljuljdjurovic
@@ -3499,20 +2185,9 @@
     He has experience with building scalable APIs and DevOps, and is actively expanding his front-end expertise. 
     Boban lives in Michigan.
   active: true
-  order: 1240
+  order: 1230
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/boban-ljuljdjurovic-4104a9105/
-      link_description: Boban's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/BobanL
-      link_description: Boban's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/boban-ljuljdjurovic/
-      link_description: Boban's Project Work
-      fa_icon_name: wrench
+
 - name: mike-judd
   fname: Mike
   lname: Judd
@@ -3527,12 +2202,9 @@
     He's passionate about improving the ways that government interacts with and provides value to the American people. 
     Mike lives in Georgia.
   active: true
-  order: 1250
+  order: 1240
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/michaelcjudd/
-      link_description: Mike's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: mary-yeh
   fname: Mary
   lname: Yeh
@@ -3547,20 +2219,9 @@
     She has experience as a research consultant, non-profit manager, and middle school science teacher. 
     Mary lives in California. 
   active: true
-  order: 1260
+  order: 1250
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/maryayeh/
-      link_description: Mary's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.maryayeh.com/
-      link_description: Mary's Personal Website
-      fa_icon_name: home
-    - name: Projects
-      link: /work/team-member/mary-yeh/
-      link_description: Mary's Project Work
-      fa_icon_name: wrench
+
 - name: arin-kulshi
   fname: Arin
   lname: Kulshi
@@ -3575,16 +2236,9 @@
     He has a background in improving healthcare interoperability and addressing diverse data needs. 
     Arin lives in California.
   active: true
-  order: 1270
+  order: 1260
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/akulshi/
-      link_description: Arin's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/arinkulshi
-      link_description: Arin's GitHub Account
-      fa_icon_name: github
+
 - name: lainey-trahan
   fname: Lainey
   lname: Trahan
@@ -3599,16 +2253,9 @@
     She has a passion for solving public health problems by engaging people, process, and technology. 
     Lainey lives in Louisiana.
   active: false
-  order: 1280
+  order: 1270
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/laineytrahan/
-      link_description: Lainey's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/laineymajor
-      link_description: Lainey's GitHub Account
-      fa_icon_name: github
+
 - name: evan-bowers
   fname: Evan
   lname: Bowers
@@ -3623,16 +2270,9 @@
     Evan arrives from Zapier as a product design lead, where he made automation accessible to everyone. 
     Evan lives in Oregon. 
   active: false
-  order: 1290
+  order: 1280
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/evbowers/
-      link_description: Evan's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.evbowers.com
-      link_description: Evan's Personal Website
-      fa_icon_name: home
+
 - name: bruce-jacobson
   fname: Bruce
   lname: Jacobson
@@ -3647,12 +2287,9 @@
     He has a passion for fostering innovative cultures to create breakthrough products. 
     Bruce lives in Illinois.
   active: true
-  order: 1300
+  order: 1290
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/brucejacobsonjr/
-      link_description: Bruce's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: miringu-kiarie
   fname: Miringu
   lname: Kiarie
@@ -3667,12 +2304,9 @@
     He specializes in human-centered design, including user experience research and usability testing.
     Miringu lives in California. 
   active: true
-  order: 1310
+  order: 1300
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/miringu-kiarie-546311ba/
-      link_description: Miringu's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: alex-hayward
   fname: Alex
   lname: Hayward
@@ -3687,16 +2321,9 @@
     Previously, Alex used machine learning to help public water systems identify and remove lead pipes at the National Institutes of Health. 
     Alex lives in California. 
   active: true
-  order: 1320
+  order: 1310
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/alex-hayward-830533156/
-      link_description: Alex's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/alex-hayward/
-      link_description: Alex's Project Work
-      fa_icon_name: wrench
+
 - name: mary-crawford
   fname: Mary
   lname: Crawford
@@ -3711,16 +2338,9 @@
     She takes pride in being an intricate part of securing applications. 
     Mary lives in Washington.
   active: true
-  order: 1330
+  order: 1320
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/marycrawfordtechip
-      link_description: Mary's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/mary-crawford/
-      link_description: Mary’s Project Work
-      fa_icon_name: wrench
+
 - name: monica-qiu
   fname: Monica
   lname: Qiu
@@ -3735,12 +2355,9 @@
     She previously worked at Amazon, where she specialized in ecommerce. 
     Monica lives in California. 
   active: true
-  order: 1340
+  order: 1330
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/monicaqiu/
-      link_description: Monica's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: eileen-ruberto
   fname: Eileen
   lname: Ruberto
@@ -3755,12 +2372,9 @@
    She applies her expertise in qualitative research and library science to help teams make decisions grounded in empathy and evidence. 
    Eileen lives in New York.
   active: true
-  order: 1350
+  order: 1340
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/eileenruberto
-      link_description: Eileen's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: rob-mitchell
   fname: Rob
   lname: Mitchell
@@ -3775,16 +2389,9 @@
    He uses his technical knowledge to help others, provide insight, and advance social good. 
    Rob lives in Massachusetts. 
   active: true
-  order: 1360
+  order: 1350
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/robert-mitchell-55050856/
-      link_description: Rob's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/rob-mitchell/
-      link_description: Rob’s Project Work
-      fa_icon_name: wrench
+
 - name: janki-kaneria
   fname: Janki
   lname: Kaneria
@@ -3799,16 +2406,9 @@
    She specializes in big data problems and genetics. 
    Janki lives in Massachusetts. 
   active: true
-  order: 1370
+  order: 1360
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/jankikaneria
-      link_description: Janki's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/janki-kaneria/
-      link_description: Janki’s Project Work
-      fa_icon_name: wrench
+
 - name: eric-buckley
   fname: Eric
   lname: Buckley
@@ -3823,12 +2423,9 @@
    He's devoted to developing simple systems that are intuitive for users and easy for organizations to evolve. 
    Eric lives in Oregon. 
   active: true
-  order: 1380
+  order: 1370
   socials:
-    - name: Projects
-      link: /work/team-member/eric-buckley/
-      link_description: Eric's Project Work
-      fa_icon_name: wrench
+
 - name: roger-ruiz
   fname: Roger
   lname: Ruiz
@@ -3843,20 +2440,9 @@
    Coming from private and public sector companies like 18F and HashiCorp, Roger loves approaching complex problems from a holistic perspective. 
    He lives in Illinois. 
   active: true
-  order: 1390
+  order: 1380
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/rogeruiz
-      link_description: Roger's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://www.github.com/rogeruiz/
-      link_description: Roger's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://write.rog.gr/
-      link_description: Roger's Personal Website
-      fa_icon_name: home
+
 - name: dana-nelson
   fname: Dana
   lname: Nelson
@@ -3871,16 +2457,9 @@
    She's helped redesign electronic medical records, led product design teams, reimagined offerings for hospitals, and launched a brand new mental health app for teenagers. 
    Dana lives in Oregon.
   active: true
-  order: 1400
+  order: 1390
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/isnodana/
-      link_description: Dana's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://isnodana.com/
-      link_description: Dana's Personal Website
-      fa_icon_name: home
+
 - name: karina-wernecke
   fname: Karina
   lname: Wernecke
@@ -3895,12 +2474,9 @@
    She received her MBA from Northwestern Kellogg and has previous experience in marketing and software development. 
    Karina lives in Illinois.
   active: true
-  order: 1410
+  order: 1400
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/karinawernecke/
-      link_description: Karina's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: amy-kintner
   fname: Amy
   lname: Kintner
@@ -3915,12 +2491,9 @@
    An academic at heart, Amy's passionate about pursuing knowledge of all types and levels. 
    She lives in Oregon.
   active: true
-  order: 1420
+  order: 1410
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/amy-kintner/
-      link_description: Amy's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: brandon-sanchez
   fname: Brandon
   lname: Sanchez
@@ -3935,12 +2508,9 @@
    At companies like Meta and Spotify, he shaped product development with user-centric design to ensure digital experiences are engaging and inclusive. 
    Brandon lives in Texas.
   active: false
-  order: 1430
+  order: 1420
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/brandonwsanchez/
-      link_description: Brandon's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: holly-dewolf
   fname: Holly
   lname: DeWolf
@@ -3955,16 +2525,9 @@
    She's dedicated to streamlining government services so teams can focus on their missions. 
    Holly lives in Virginia.
   active: true
-  order: 1440
+  order: 1430
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/hmdewolf/
-      link_description: Holly's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Projects
-      link: /work/team-member/holly-dewolf/
-      link_description: Holly's Project Work
-      fa_icon_name: wrench
+
 - name: austin-brown
   fname: Austin
   lname: Brown
@@ -3980,16 +2543,9 @@
     He’s at his best when coaching cross-functional teams to be exceptional and representing complex technology in simple terms. 
     Austin lives in New York.
   active: true
-  order: 1450
+  order: 1440
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/austincbrown/
-      link_description: Austin's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/KeepAustinWired
-      link_description: Austin's GitHub Account
-      fa_icon_name: github
+
 - name: kallen-michaels
   fname: Kallen
   lname: Michaels
@@ -4004,12 +2560,9 @@
    She has experience leading design, strategy, and people for projects that help users make important decisions. 
    Kallen lives in Colorado. 
   active: false
-  order: 1460
+  order: 1450
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/kallenmichaels/
-      link_description: Kallen's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: anke-stohlmann
   fname: Anke
   lname: Stohlmann
@@ -4024,16 +2577,9 @@
    She's dedicated to using her design skills to effect positive change and is deeply committed to building partnerships and including users in the design process. 
    Anke lives in New York.
   active: true
-  order: 1470
+  order: 1460
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/ankestohlmann/
-      link_description: Anke's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://ankestohlmann.com/
-      link_description: Anke's Personal Website
-      fa_icon_name: home
+
 - name: andrew-kasper
   fname: Andrew
   lname: Kasper
@@ -4048,16 +2594,9 @@
    He has a background working with Silicon Valley startups, GIS, aerospace, and the Peace Corps. He's an expert at transforming customer pain points into technical requirements. 
    Andrew lives in Georgia.
   active: true
-  order: 1480
+  order: 1470
   socials:
-    - name: GitHub
-      link: https://github.com/akasper
-      link_description: Andrew's GitHub Account
-      fa_icon_name: github
-    - name: Projects
-      link: /work/team-member/andrew-kasper/
-      link_description: Andrew's Project Work
-      fa_icon_name: wrench
+
 - name: matt-declercq
   fname: Matt
   lname: deClercq
@@ -4072,16 +2611,9 @@
    He has a passion for big-picture strategic technical design, unlocking data through APIs, and using his skills for the greater good. 
    Matt lives in Texas.
   active: true
-  order: 1490
+  order: 1480
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/mattdeclercq
-      link_description: Matt's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/decleezy
-      link_description: Matt's GitHub Account
-      fa_icon_name: github
+
 - name: katie-campbell-downie
   fname: Katie
   lname: Campbell Downie
@@ -4096,12 +2628,9 @@
    She most recently worked with the Centers for Medicare & Medicaid Services on web and API development, and was an arts administrator prior to her career in tech. 
    Katie lives in Minnesota.
   active: true
-  order: 1500
+  order: 1490
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/katiecd
-      link_description: Katie's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: laura-janisse
   fname: Laura
   lname: Janisse
@@ -4116,16 +2645,9 @@
    With expertise working at large, complex organizations, she’s helped lead and develop enterprise-wide digital experience design solutions. 
    Laura lives in Oregon.
   active: true
-  order: 1510
+  order: 1500
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/laura-janisse/
-      link_description: Laura's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.laurajanisse.com
-      link_description: Laura's Personal Website
-      fa_icon_name: home
+
 - name: mike-wales
   fname: Mike
   lname: Wales
@@ -4140,16 +2662,9 @@
    He's an U.S. Air Force Veteran and an entrepreneur at heart, building and selling his first company from his dorm room at Eielson Air Force Base, Alaska. 
    Mike lives in Texas.
   active: true
-  order: 1520
+  order: 1510
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/michaelwales/
-      link_description: Mikes's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/walesmd
-      link_description: Mike's GitHub Account
-      fa_icon_name: github
+
 - name: christopher-whitaker
   fname: Christopher
   lname: Whitaker
@@ -4164,20 +2679,9 @@
    He's the co-founder of the Alliance of Civic Technologists and has served in both delivery and operations roles at the Defense Digital Service, U.S. Digital Service, and Code for America. Christopher's also a Veteran of the U.S. Army, seriving with the mechanized infantry in Iraq. 
    He lives in Illinois. 
   active: true
-  order: 1530
+  order: 1520
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/christopherwhitaker/
-      link_description: Christopher's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/govintrenches
-      link_description: Christopher's GitHub Account
-      fa_icon_name: github
-    - name: Personal Website
-      link: https://civicwhitaker.com/
-      link_description: Christopher's Personal Website
-      fa_icon_name: home
+
 - name: brandon-chanco
   fname: Brandon
   lname: Chanco
@@ -4192,12 +2696,9 @@
    He's previously worked at Cisco and IBM to bring modern solutions and capabilities to assist DoD service members and other civil servants. Most recently, he was at Platform One, an Air Force software factory. 
    Chanco lives in Alabama.
   active: true
-  order: 1540
+  order: 1530
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/brandon-chanco/
-      link_description: Brandon's LinkedIn Account
-      fa_icon_name: linkedin
+
 - name: kyle-bond
   fname: Kyle
   lname: Bond
@@ -4212,16 +2713,9 @@
     He leverages his skills to make a positive impact, both professionally and personally. 
     Kyle is based in Georgia.
   active: true
-  order: 1550
+  order: 1540
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/anthonykbond/
-      link_description: Kyle's LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/KyleBond
-      link_description: Kyle's GitHub Account
-      fa_icon_name: github
+
 - name: lauryn-claassen
   fname: Lauryn
   lname: Claassen
@@ -4232,13 +2726,9 @@
   image_description: Photo of Lauryn Claassen
   position: Staff Content Designer 
   bio: >
-   Lauryn is a content designer with a diverse background in public health, human-centered design, and journalism. 
-   After years working in both the non-profit and private sectors, she’s excited to have transitioned into civic tech, where she’s focused on making public services work for everyone. 
-   Lauryn lives in California."
+    Lauryn is a content designer with a diverse background in public health, human-centered design, and journalism.
+    After years working in both the non-profit and private sectors, she’s excited to have transitioned into civic tech, where she’s focused on making public services work for everyone.
+    Lauryn lives in California.
   active: true
-  order: 1560
+  order: 1550
   socials:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/lauryn-claassen/
-      link_description: Lauryn's LinkedIn Account
-      fa_icon_name: linkedin
