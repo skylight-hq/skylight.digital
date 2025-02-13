@@ -15,34 +15,6 @@
   active: true
   order: 10
   socials:
-    - name: Twitter
-      link: https://twitter.com/cscairns
-      link_description: Chris' Twitter Account
-      fa_icon_name: twitter
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/chriscairns/
-      link_description: Chris' LinkedIn Account
-      fa_icon_name: linkedin
-    - name: GitHub
-      link: https://github.com/cscairns
-      link_description: Chris' GitHub Account
-      fa_icon_name: github
-    - name: Medium
-      link: https://medium.com/@ccairns
-      link_description: Chris' Medium Account
-      fa_icon_name: medium
-    - name: Blog Posts
-      link: /thoughts/blog/author/chris-cairns/
-      link_description: Chris' Blog Posts
-      fa_icon_name: pencil
-    - name: Talks
-      link: /thoughts/talks/speaker/chris-cairns/
-      link_description: Chris' Talks
-      fa_icon_name: microphone
-    - name: Projects
-      link: /work/team-member/chris-cairns/
-      link_description: Chris' Project Work
-      fa_icon_name: wrench
 - name: sean-johnson
   fname: Sean
   lname: Johnson
