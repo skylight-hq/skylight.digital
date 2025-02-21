@@ -1788,7 +1788,7 @@
     Kenneth's a software engineer who specializes in building cloud-based applications. 
     He advocates for serverless design to help scale up systems while reducing costs. 
     Kenneth lives in California.
-  active: true
+  active: false
   order: 1000
   socials:
 
@@ -2576,7 +2576,7 @@
    Anke's a design leader and educator, who uses a human-centered approach to design effective and equitable products and services. 
    She's dedicated to using her design skills to effect positive change and is deeply committed to building partnerships and including users in the design process. 
    Anke lives in New York.
-  active: true
+  active: false
   order: 1460
   socials:
 
