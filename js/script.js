@@ -415,7 +415,6 @@ $(function() {
 
 
 //in-page-selection control script
-
 $(function(){
   function show_hide(elem, parent){
     var controls = elem.attr("data-controls");
