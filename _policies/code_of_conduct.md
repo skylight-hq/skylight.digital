@@ -15,7 +15,7 @@ Skylight adheres to the following principles:
 * [Be empowering](../code-of-conduct#be-empowering)
 * [Set boundaries](../code-of-conduct#set-boundaries)
 
-As a baseline, we follow all [Equal Employment Opportunity (EEO) laws](https://www.eeoc.gov/sites/default/files/migrated_files/employers/eeoc_self_print_poster.pdf). We expect everyone who works at Skylight, attends Skylight events and meetings, or participates in online forums or other virtual collaboration to follow this code of conduct and the EEO laws. This applies to all of our methods of communication: office chat rooms, commit messages, email, and both formal and informal conversation. 
+As a baseline, we follow all [Equal Employment Opportunity (EEO) laws](https://www.eeoc.gov/equal-employment-opportunity-laws). We expect everyone who works at Skylight, attends Skylight events and meetings, or participates in online forums or other virtual collaboration to follow this code of conduct and the EEO laws. This applies to all of our methods of communication: office chat rooms, commit messages, email, and both formal and informal conversation. 
 
 We highly encourage you to read our Code of Conduct in its entirety and follow it in both spirit and letter. If you have a question or ever think that one of your colleagues or the company as a whole may be falling short of our commitment, don’t be silent. We want — and need — to hear from you. Please reach out to us at [admin@skylight.digital](mailto:admin@skylight.digital). 
 
@@ -70,9 +70,9 @@ Skylight has adapted this code of conduct using various publicly available refer
 
 Relevant legal considerations:
 
-* [Laws enforced by the Equal Employment Opportunity Commission](https://www.eeoc.gov/statutes/laws-enforced-eeoc)
-* [Types of discrimination prohibited by law](https://www.eeoc.gov/laws/types/)
-* [New and proposed regulations](https://www.eeoc.gov/laws/regulations/index.cfm)
+* [Laws enforced by the Equal Employment Opportunity Commission](https://www.eeoc.gov/equal-employment-opportunity-laws)
+* [Types of discrimination prohibited by law](https://www.eeoc.gov/fact-sheet/federal-laws-prohibiting-job-discrimination-questions-and-answers)
+* [New and proposed regulations](https://www.eeoc.gov/regulations-and-guidelines)
 
 ## Future changes
 
