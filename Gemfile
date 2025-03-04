@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '>=2.5.0'
+ruby '>=3.1.0'
 
-gem "nokogiri", ">= 1.11.6"
-gem "jekyll", "4.2.0"
+gem "nokogiri", ">= 1.18.3"
+gem "jekyll", "4.4.1"
 gem "webrick"
 
 group :jekyll_plugins do
