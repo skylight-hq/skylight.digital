@@ -22,7 +22,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     fastimage (2.4.0)
-    ffi (1.17.1-x86_64-darwin)
+    ffi (1.17.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.14.7)
@@ -70,7 +70,9 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     method_source (1.1.0)
-    nokogiri (1.18.3-x86_64-darwin)
+    mini_portile2 (2.8.8)
+    nokogiri (1.18.3)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     octopress-debugger (1.0.2)
       jekyll
@@ -106,7 +108,9 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
+  ruby
   x86_64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (= 4.4.1)
