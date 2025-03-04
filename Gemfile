@@ -4,6 +4,10 @@ ruby '>=3.1.0'
 gem "nokogiri", ">= 1.18.3"
 gem "jekyll", "4.4.1"
 gem "webrick"
+# Force older sass converter that doesn't use sass-embedded
+gem "jekyll-sass-converter", "2.2.0"
+# Add explicit sass dependency
+gem "sass", "~> 3.7.4"
 
 group :jekyll_plugins do
    gem 'jekyll-sitemap'
