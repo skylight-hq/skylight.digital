@@ -123,9 +123,7 @@ p code {
 }
 
 #grnhse_app > iframe {
-  // greenhouse is adding 150px of space on the bottom of their job iframe
-  // and this is how we have to hack it. Sorry!
-  margin-bottom: -150px;
+  margin-bottom: 0px;
 }
 
 iframe {
