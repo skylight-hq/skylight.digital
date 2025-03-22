@@ -9,3 +9,6 @@ snippets/
 node_modules/
 Gemfile.lock
 .tool-versions
+
+# Local Netlify folder
+.netlify
