@@ -11,17 +11,17 @@ The Skylight Code of Conduct is one of the ways we put Skylight’s values into 
 
 Skylight adheres to the following principles:
 
-* [Create an inclusive culture](../code-of-conduct#create-an-inclusive-culture)
-* [Be empowering](../code-of-conduct#be-empowering)
-* [Set boundaries](../code-of-conduct#set-boundaries)
+* [Foster a supportive culture](../code-of-conduct#foster-a-supportive-culture)  
+* [Be empowering](../code-of-conduct#be-empowering)  
+* [Set boundaries](../code-of-conduct#set-boundaries)  
 
-As a baseline, we follow all [Equal Employment Opportunity (EEO) laws](https://www.eeoc.gov/equal-employment-opportunity-laws). We expect everyone who works at Skylight, attends Skylight events and meetings, or participates in online forums or other virtual collaboration to follow this code of conduct and the EEO laws. This applies to all of our methods of communication: office chat rooms, commit messages, email, and both formal and informal conversation. 
+As a baseline, we follow all [Equal Employment Opportunity (EEO) laws](https://www.eeoc.gov/equal-employment-opportunity-laws). We expect everyone who works at Skylight, attends Skylight events and meetings, or participates in online forums or other virtual collaboration to follow this code of conduct and the EEO laws. This applies to all of our methods of communication: office chat rooms, commit messages, email, and both formal and informal conversation.
 
-We highly encourage you to read our Code of Conduct in its entirety and follow it in both spirit and letter. If you have a question or ever think that one of your colleagues or the company as a whole may be falling short of our commitment, don’t be silent. We want — and need — to hear from you. Please reach out to us at [admin@skylight.digital](mailto:admin@skylight.digital). 
+We highly encourage you to read our Code of Conduct in its entirety and follow it in both spirit and letter. If you have a question or ever think that one of your colleagues or the company as a whole may be falling short of our commitment, don’t be silent. We want — and need — to hear from you. Please reach out to us at [admin@skylight.digital](mailto:admin@skylight.digital).
 
-## Create an inclusive culture
+## Foster a supportive culture
 
-Skylight’s dedicated to creating an inclusive environment for everyone — not just classes protected by law. We ask that you hold yourself to the following standards:
+Skylight’s dedicated to fostering a welcoming environment for everyone — not just classes protected by law. We ask that you hold yourself to the following standards:
 
 * **Take responsibility** for what you can influence, like making sure people feel safe coming to work each day and have ways to grow in their careers.  
   *Example:* If you notice someone being overshadowed in a meeting, speak up or follow up to ensure they have space to share their perspective.
@@ -34,7 +34,7 @@ Skylight’s dedicated to creating an inclusive environment for everyone — not
 * **Set personal learning goals** and stay open to new viewpoints that can improve our collective work.  
   *Example:* Read articles or listen to podcasts from different industries or backgrounds to expand how you think about problem-solving in a team setting.
 
-To help create an inclusive culture, we’re also committed to a diverse team environment. We know that diversity fosters innovation. Diverse teams are creative teams. We need diversity to create meaningful solutions for our clients. While we acknowledge that diversity is not a cure all, it’s important that we prioritize making Skylight a workplace that reflects a wide array of people and perspectives. As a company working within the civic tech space, we commit to building a team and community that reflects the diversity of America.
+To help foster a supportive culture, we also strive for a team that reflects many perspectives. We believe a broad range of voices encourages innovation and creativity. We need this variety to create meaningful solutions for our clients. While we know that having different viewpoints isn’t a cure-all, we want Skylight to be a workplace that welcomes a wide array of perspectives. As a company working in the civic tech space, we commit to building a team and community that represents the breadth of America.
 
 ## Be empowering
 
@@ -78,4 +78,4 @@ Relevant legal considerations:
 
 If we decide to change this policy, we’ll update the modification date below.
 
-*Updated: February 13, 2025*
+*Updated: March 25, 2025*
