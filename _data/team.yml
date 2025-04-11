@@ -1701,7 +1701,7 @@
     Jayna’s an outcomes-driven product manager who's spent the last two decades on distributed teams building social media 
     and streaming platforms. Jayna moved into the civic tech space to work on a project for the Department of Defense. 
     Jayna lives in Ohio.
-  active: true
+  active: false
   order: 950
   socials:
 
@@ -1768,7 +1768,7 @@
     Bobby's an engineer and data nerd who has a passion for working with tech that actively makes the world a better place. 
     In 2021, Bobby served as a Civic Digital Fellow at the Census Bureau and graduated from Tufts University. 
     Bobby lives in Colorado.
-  active: true
+  active: false
   order: 990
   socials:
 
