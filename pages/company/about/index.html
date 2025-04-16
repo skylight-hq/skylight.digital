@@ -67,6 +67,7 @@ preload: hero-about-us.svg
                   <div class="card-text employee-text">{{emp.bio | markdownify }}</div>
                 </div>
                 <div class="employee-footer">
+                  {% if site.show_socials %}
                     {% for social in emp.socials %}
                       {% assign link_description = social.link_description | replace: "'", "&rsquo;" %}
                       <a href="{{social.link}}" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{link_description}}">
@@ -74,6 +75,7 @@ preload: hero-about-us.svg
                         <span class="sr-only">{{link_description}}</span>
                       </a>
                     {% endfor %}
+                  {% endif %}
                 </div>
               </div>
             </div>
