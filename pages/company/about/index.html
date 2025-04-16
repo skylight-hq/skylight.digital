@@ -49,6 +49,7 @@ preload: hero-about-us.svg
       <h2>Meet the team</h2>
 
       <div class="employees">
+
         {% assign employees = site.data.team | where: 'active', 'true' | sort: 'order' %}
 
         {% include hanging_column_size.html
@@ -67,7 +68,7 @@ preload: hero-about-us.svg
                   <div class="card-text employee-text">{{emp.bio | markdownify }}</div>
                 </div>
                 <div class="employee-footer">
-                  {% if site.show_socials %}
+                  {% if site.show_personal_socials %}
                     {% for social in emp.socials %}
                       {% assign link_description = social.link_description | replace: "'", "&rsquo;" %}
                       <a href="{{social.link}}" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{link_description}}">
