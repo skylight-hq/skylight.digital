@@ -127,6 +127,9 @@ feed:
     talks:
       path: "/talks.xml"
 
+show_personal_socials: true
+
+
 ################################
 # For batch conversion of svgs
 ################################
