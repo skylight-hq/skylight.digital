@@ -40,7 +40,6 @@
       link: /work/team-member/chris-cairns/
       link_description: Chris' Project Work
       fa_icon_name: wrench
-
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -79,7 +78,6 @@
       link: /work/team-member/sean-johnson/
       link_description: Sean's Project Work
       fa_icon_name: wrench
-
 - name: robert-read
   fname: Robert
   lname: Read
@@ -122,7 +120,6 @@
       link: /work/team-member/robert-read/
       link_description: Robert's Project Work
       fa_icon_name: wrench
-
 - name: john-teeter
   fname: John
   lname: Teeter
@@ -153,7 +150,6 @@
       link: /work/team-member/john-teeter/
       link_description: John's Project Work
       fa_icon_name: wrench
-
 - name: geoff-mulligan
   fname: Geoff
   lname: Mulligan
@@ -188,7 +184,6 @@
       link: /work/team-member/geoff-mulligan/
       link_description: Geoff's Project Work
       fa_icon_name: wrench
-
 - name: kin-lane
   fname: Kin
   lname: Lane
@@ -231,7 +226,6 @@
       link: /work/team-member/kin-lane/
       link_description: Kin's Project Work
       fa_icon_name: wrench
-
 - name: josh-dorothy
   fname: Josh
   lname: Dorothy
@@ -262,7 +256,6 @@
       link: /work/team-member/josh-dorothy/
       link_description: Josh's Project Work
       fa_icon_name: wrench
-
 - name: nick-bristow
   fname: Nick
   lname: Bristow
@@ -293,7 +286,6 @@
       link: /work/team-member/nick-bristow/
       link_description: Nick's Project Work
       fa_icon_name: wrench
-
 - name: victor-zapanta
   fname: Victor
   lname: Zapanta
@@ -308,7 +300,6 @@
   active: false
   order: 90
   socials:
-
 - name: eric-richards
   fname: Eric
   lname: Richards
@@ -335,7 +326,6 @@
       link: /work/team-member/eric-richards/
       link_description: Eric's Project Work
       fa_icon_name: wrench
-
 - name: charlye-tran
   fname: Charlye
   lname: Tran
@@ -358,7 +348,6 @@
       link: /work/team-member/charlye-tran/
       link_description: Charlye's Project Work
       fa_icon_name: wrench
-
 - name: tomi-obikunle
   fname: Tomi
   lname: Obikunle
@@ -381,7 +370,6 @@
       link: /work/team-member/tomi-obikunle/
       link_description: Tomi's Project Work
       fa_icon_name: wrench
-
 - name: adam-weber
   fname: Adam
   lname: Weber
@@ -408,7 +396,6 @@
       link: /work/team-member/adam-weber/
       link_description: Adam's Project Work
       fa_icon_name: wrench
-
 - name: phoebe-espiritu
   fname: Phoebe
   lname: Espiritu
@@ -443,7 +430,6 @@
       link: /work/team-member/phoebe-espiritu/
       link_description: Phoebe's Project Work
       fa_icon_name: wrench
-
 - name: elisa-lee
   fname: Elisa
   lname: Lee
@@ -470,7 +456,6 @@
       link: /work/team-member/elisa-lee/
       link_description: Elisa's Project Work
       fa_icon_name: wrench
-
 - name: kyle-magida
   fname: Kyle
   lname: Magida
@@ -501,7 +486,6 @@
       link: /work/team-member/kyle-magida/
       link_description: Kyle's Project Work
       fa_icon_name: wrench
-
 - name: suzanne-chapman
   fname: Suzanne
   lname: Chapman
@@ -532,7 +516,6 @@
       link: /work/team-member/suzanne-chapman/
       link_description: Suzanne's Project Work
       fa_icon_name: wrench
-
 - name: olivia-lucas
   fname: Olivia
   lname: Lucas
@@ -555,7 +538,6 @@
       link: /work/team-member/olivia-lucas/
       link_description: Olivia's Project Work
       fa_icon_name: wrench
-
 - name: jordan-guinn
   fname: Jordan
   lname: Guinn
@@ -582,7 +564,6 @@
       link: /work/team-member/jordan-guinn/
       link_description: Jordan's Project Work
       fa_icon_name: wrench
-
 - name: kari-hodges
   fname: Kari
   lname: Hodges
@@ -605,7 +586,6 @@
       link: /work/team-member/kari-hodges/
       link_description: Kari's Project Work
       fa_icon_name: wrench
-
 - name: nicole-campbell
   fname: Nicole
   lname: Campbell
@@ -628,7 +608,6 @@
       link: /work/team-member/nicole-campbell/
       link_description: Nicole's Project Work
       fa_icon_name: wrench
-
 - name: lucas-newman
   fname: Lucas
   lname: Newman
@@ -655,7 +634,6 @@
       link: /work/team-member/lucas-newman/
       link_description: Lucas' Project Work
       fa_icon_name: wrench
-
 - name: kenny-nieh
   fname: Kenny
   lname: Nieh
@@ -678,7 +656,6 @@
       link: /work/team-member/kenny-nieh/
       link_description: Kenny's Project Work
       fa_icon_name: wrench
-
 - name: zoe-do
   fname: Zoe
   lname: Do
@@ -697,7 +674,6 @@
       link: https://www.linkedin.com/in/tranbqdo/
       link_description: Zoe's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: rebecca-lubitzmarchena
   fname: Rebecca
   lname: Lubitz-Marchena
@@ -724,7 +700,6 @@
       link: /work/team-member/rebecca-lubitzmarchena/
       link_description: Rebecca's Project Work
       fa_icon_name: wrench
-
 - name: chris-smith
   fname: Chris
   lname: Smith
@@ -747,7 +722,6 @@
       link: https://github.com/ChrisLSmith
       link_description: Chris' GitHub Account
       fa_icon_name: github
-
 - name: jamie-song
   fname: Jamie
   lname: Song
@@ -770,7 +744,6 @@
       link: /work/team-member/jamie-song/
       link_description: Jamie's Project Work
       fa_icon_name: wrench
-
 - name: ori-hoffer
   fname: Ori
   lname: Hoffer
@@ -793,7 +766,6 @@
       link: https://www.linkedin.com/in/orihoffer/
       link_description: Ori's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: elyse-brumfield
   fname: Elyse
   lname: Brumfield
@@ -812,7 +784,6 @@
       link: https://www.linkedin.com/in/elyse-brumfield-572ab1150/
       link_description: Elyse's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: gianna-buda
   fname: Gianna
   lname: Buda
@@ -835,7 +806,6 @@
       link: /work/team-member/gianna-buda/
       link_description: Gianna's Project Work
       fa_icon_name: wrench
-
 - name: alex-curtis
   fname: Alex
   lname: Curtis
@@ -858,7 +828,6 @@
       link: /work/team-member/alex-curtis/
       link_description: Alex's Project Work
       fa_icon_name: wrench
-
 - name: jesse-skeets
   fname: Jesse
   lname: Skeets
@@ -885,7 +854,6 @@
       link: /work/team-member/jesse-skeets/
       link_description: Jesse's Project Work
       fa_icon_name: wrench
-
 - name: derek-tam
   fname: Derek
   lname: Tam
@@ -908,7 +876,6 @@
       link: /work/team-member/derek-tam/
       link_description: Derek's Project Work
       fa_icon_name: wrench
-
 - name: leslie-garner-franklin
   fname: Leslie
   lname: Garner Franklin
@@ -935,7 +902,6 @@
       link: /work/team-member/leslie-garner-franklin/
       link_description: Leslie's Project Work
       fa_icon_name: wrench
-
 - name: chun-yen
   fname: Chun
   lname: Yen
@@ -958,7 +924,6 @@
       link: /work/team-member/chun-yen/
       link_description: Chun's Project Work
       fa_icon_name: wrench
-
 - name: nicole-wright
   fname: Nicole
   lname: Wright
@@ -985,7 +950,6 @@
       link: /work/team-member/nicole-wright/
       link_description: Nicole's Project Work
       fa_icon_name: wrench
-
 - name: tiffany-nieh
   fname: Tiffany
   lname: Nieh
@@ -1008,7 +972,6 @@
       link: /work/team-member/tiffany-nieh/
       link_description: Tiffany's Project Work
       fa_icon_name: wrench
-
 - name: karthik-patil
   fname: Karthik
   lname: Patil
@@ -1039,7 +1002,6 @@
       link: /work/team-member/karthik-patil/
       link_description: Karthik's Project Work
       fa_icon_name: wrench
-
 - name: becca-woodberry
   fname: Becca
   lname: Woodberry
@@ -1058,7 +1020,6 @@
       link: https://www.linkedin.com/in/woodberry/
       link_description: Becca's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: nathan-carter
   fname: Nathan
   lname: Carter
@@ -1085,7 +1046,6 @@
       link: /work/team-member/nathan-carter/
       link_description: Nathan's Project Work
       fa_icon_name: wrench
-
 - name: matt-goldberg
   fname: Matt
   lname: Goldberg
@@ -1108,7 +1068,6 @@
       link: /work/team-member/matt-goldberg/
       link_description: Matt's Project Work
       fa_icon_name: wrench
-
 - name: nick-blake
   fname: Nick
   lname: Blake
@@ -1135,7 +1094,6 @@
       link: /work/team-member/nick-blake/
       link_description: Nick's Project Work
       fa_icon_name: wrench
-
 - name: bob-zhao
   fname: Bob
   lname: Zhao
@@ -1162,7 +1120,6 @@
       link: /work/team-member/bob-zhao/
       link_description: Bob's Project Work
       fa_icon_name: wrench
-
 - name: ashton-tu
   fname: Ashton
   lname: Tu
@@ -1185,7 +1142,6 @@
       link: /work/team-member/ashton-tu/
       link_description: Ashton's Project Work
       fa_icon_name: wrench
-
 - name: andrew-lloyd
   fname: Andrew
   lname: Lloyd
@@ -1212,7 +1168,6 @@
       link: /work/team-member/andrew-lloyd/
       link_description: Andrew's Project Work
       fa_icon_name: wrench
-
 - name: tim-niehoff
   fname: Tim
   lname: Niehoff
@@ -1235,7 +1190,6 @@
       link: /work/team-member/tim-niehoff/
       link_description: Tim's Project Work
       fa_icon_name: wrench
-
 - name: pri-kiser
   fname: Pri
   lname: Kiser
@@ -1258,7 +1212,6 @@
       link: /work/team-member/pri-kiser/
       link_description: Pri's Project Work
       fa_icon_name: wrench
-
 - name: taylor-graue
   fname: Taylor
   lname: Graue
@@ -1285,7 +1238,6 @@
       link: /work/team-member/taylor-graue/
       link_description: Taylor's Project Work
       fa_icon_name: wrench
-
 - name: laura-kerry
   fname: Laura
   lname: Kerry
@@ -1308,7 +1260,6 @@
       link: /work/team-member/laura-kerry/
       link_description: Laura's Project Work
       fa_icon_name: wrench
-
 - name: emma-stephenson
   fname: Emma
   lname: Stephenson
@@ -1335,7 +1286,6 @@
       link: /work/team-member/emma-stephenson/
       link_description: Emma's Project Work
       fa_icon_name: wrench
-
 - name: mina-cairns
   fname: Mina
   lname: Cairns
@@ -1354,7 +1304,6 @@
       link: https://www.linkedin.com/in/mina-c-2489979/
       link_description: Mina's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: sarah-tress
   fname: Sarah
   lname: Tress
@@ -1381,7 +1330,6 @@
       link: /work/team-member/sarah-tress/
       link_description: Sarah's Project Work
       fa_icon_name: wrench
-
 - name: gordon-farrell
   fname: Gordon
   lname: Farrell
@@ -1404,7 +1352,6 @@
       link: /work/team-member/gordon-farrell/
       link_description: Gordon's Project Work
       fa_icon_name: wrench
-
 - name: jennifer-herzberg
   fname: Jennifer
   lname: Herzberg
@@ -1435,7 +1382,6 @@
       link: /work/team-member/jennifer-herzberg/
       link_description: Jennifer's Project Work
       fa_icon_name: wrench
-
 - name: sarah-george-hager
   fname: George
   lname: Hager
@@ -1458,7 +1404,6 @@
       link: /work/team-member/sarah-george-hager/
       link_description: George's Project Work
       fa_icon_name: wrench
-
 - name: david-mcclatchey
   fname: David
   lname: McClatchey
@@ -1481,7 +1426,6 @@
       link: /work/team-member/david-mcclatchey/
       link_description: David's Project Work
       fa_icon_name: wrench
-
 - name: liz-fox
   fname: Liz
   lname: Fox
@@ -1512,7 +1456,6 @@
       link: /work/team-member/liz-fox/
       link_description: Liz's Project Work
       fa_icon_name: wrench
-
 - name: rin-concordia
   fname: Rin
   lname: Concordia
@@ -1535,7 +1478,6 @@
       link: /work/team-member/rin-concordia/
       link_description: Rin's Project Work
       fa_icon_name: wrench
-
 - name: alis-akers
   fname: Alis
   lname: Akers
@@ -1566,7 +1508,6 @@
       link: /work/team-member/alis-akers/
       link_description: Alis' Project Work
       fa_icon_name: wrench
-
 - name: priscilla-peralta
   fname: Priscilla
   lname: Peralta
@@ -1593,7 +1534,6 @@
       link: /work/team-member/priscilla-peralta/
       link_description: Priscilla's Project Work
       fa_icon_name: wrench
-
 - name: ryan-gaddis
   fname: Ryan
   lname: Gaddis
@@ -1620,7 +1560,6 @@
       link: /work/team-member/ryan-gaddis/
       link_description: Ryan's Project Work
       fa_icon_name: wrench
-
 - name: bryan-britten
   fname: Bryan
   lname: Britten
@@ -1651,7 +1590,6 @@
       link: /work/team-member/bryan-britten/
       link_description: Bryan's Project Work
       fa_icon_name: wrench
-
 - name: kyle-planeaux
   fname: Kyle
   lname: Planeaux
@@ -1678,7 +1616,6 @@
       link: /work/team-member/kyle-planeaux/
       link_description: Kyle's Project Work
       fa_icon_name: wrench
-
 - name: zedd-shmais
   fname: Zedd
   lname: Shmais
@@ -1709,7 +1646,6 @@
       link: /work/team-member/zedd-shmais/
       link_description: Zedd's Project Work
       fa_icon_name: wrench
-
 - name: mike-brown
   fname: Mike
   lname: Brown
@@ -1736,7 +1672,6 @@
       link: /work/team-member/mike-brown/
       link_description: Mike's Project Work
       fa_icon_name: wrench
-
 - name: merethe-hansen
   fname: Merethe
   lname: Hansen
@@ -1763,7 +1698,6 @@
       link: /work/team-member/merethe-hansen/
       link_description: Merethe's Project Work
       fa_icon_name: wrench
-
 - name: jayna-wallace
   fname: Jayna
   lname: Wallace
@@ -1794,7 +1728,6 @@
       link: /work/team-member/jayna-wallace/
       link_description: Jayna's Project Work
       fa_icon_name: wrench
-
 - name: spencer-kathol
   fname: Spencer
   lname: Kathol
@@ -1825,7 +1758,6 @@
       link: /work/team-member/spencer-kathol/
       link_description: Spencer's Project Work
       fa_icon_name: wrench
-
 - name: dan-sass
   fname: Dan
   lname: Sass
@@ -1848,7 +1780,6 @@
       link: /work/team-member/dan-sass/
       link_description: Dan's Project Work
       fa_icon_name: wrench
-
 - name: johanna-delpino
   fname: Johanna
   lname: Del Pino
@@ -1871,7 +1802,6 @@
       link: /work/team-member/johanna-delpino/
       link_description: Johanna's Project Work
       fa_icon_name: wrench
-
 - name: bobby-wells
   fname: Bobby
   lname: Wells
@@ -1898,7 +1828,6 @@
       link: /work/team-member/bobby-wells/
       link_description: Bobby's Project Work
       fa_icon_name: wrench
-
 - name: kenneth-chow
   fname: Kenneth
   lname: Chow
@@ -1921,7 +1850,6 @@
       link: /work/team-member/kenneth-chow/
       link_description: Kenneth's Project Work
       fa_icon_name: wrench
-
 - name: camille-villa
   fname: Camille
   lname: Villa
@@ -1948,7 +1876,6 @@
       link: /work/team-member/camille-villa/
       link_description: Camille's Project Work
       fa_icon_name: wrench
-
 - name: dan-paseltiner
   fname: Dan
   lname: Paseltiner
@@ -1979,7 +1906,6 @@
       link: /work/team-member/dan-paseltiner/
       link_description: Dan's Project Work
       fa_icon_name: wrench
-
 - name: ann-millspaugh
   fname: Ann
   lname: Millspaugh
@@ -2006,7 +1932,6 @@
       link: /work/team-member/ann-millspaugh/
       link_description: Ann's Project Work
       fa_icon_name: wrench
-
 - name: steven-speck
   fname: Steven
   lname: Speck
@@ -2029,7 +1954,6 @@
       link: https://github.com/StevenSpeck
       link_description: Steven's GitHub Account
       fa_icon_name: github
-
 - name: lina-roth
   fname: Lina
   lname: Roth
@@ -2056,7 +1980,6 @@
       link: /work/team-member/lina-roth/
       link_description: Lina's Project Work
       fa_icon_name: wrench
-
 - name: josh-nygaard
   fname: Josh
   lname: Nygaard
@@ -2091,7 +2014,6 @@
       link: /work/team-member/josh-nygaard/
       link_description: Josh's Project Work
       fa_icon_name: wrench
-
 - name: michelle-li
   fname: Michelle
   lname: Li
@@ -2113,7 +2035,6 @@
       link: https://michellemli.myportfolio.com/work
       link_description: Michelle's Personal Website
       fa_icon_name: home
-
 - name: amrita-bhatti
   fname: Amrita
   lname: Bhatti
@@ -2136,7 +2057,6 @@
       link: /work/team-member/amrita-bhatti/
       link_description: Amrita's Project Work
       fa_icon_name: wrench
-
 - name: brady-fausett
   fname: Brady
   lname: Fausett
@@ -2163,7 +2083,6 @@
       link: /work/team-member/brady-fausett/
       link_description: Brady's Project Work
       fa_icon_name: wrench
-
 - name: cheryl-hammond
   fname: Cheryl
   lname: Hammond
@@ -2190,7 +2109,6 @@
       link: https://blog.bsktcase.com/
       link_description: Cheryl's Personal Website
       fa_icon_name: home
-
 - name: jill-fromewick
   fname: Jill
   lname: Fromewick
@@ -2213,7 +2131,6 @@
       link: /work/team-member/jill-fromewick/
       link_description: Jill's Project Work
       fa_icon_name: wrench
-
 - name: jina-ryu
   fname: Jina
   lname: Ryu
@@ -2231,7 +2148,6 @@
       link: https://www.linkedin.com/in/jina-ryu-682781aa/
       link_description: Jina's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: marcelle-goggins
   fname: Marcelle
   lname: Goggins
@@ -2254,7 +2170,6 @@
       link: /work/team-member/marcelle-goggins/
       link_description: Marcelle's Project Work
       fa_icon_name: wrench
-
 - name: kelli-mason
   fname: Kelli
   lname: Mason
@@ -2273,7 +2188,6 @@
       link: https://www.linkedin.com/in/kellinewmanmason/
       link_description: Kelli's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: graham-smith
   fname: Graham
   lname: Smith
@@ -2292,7 +2206,6 @@
       link: /work/team-member/graham-smith/
       link_description: Graham's Project Work
       fa_icon_name: wrench
-
 - name: robert-mitchell
   fname: Robert
   lname: Mitchell
@@ -2327,7 +2240,6 @@
       link: /work/team-member/robert-mitchell/
       link_description: Robert’s Project Work
       fa_icon_name: wrench
-
 - name: joe-reynolds
   fname: Joe
   lname: Reynolds
@@ -2350,7 +2262,6 @@
       link: https://github.com/joesghub
       link_description: Joe's GitHub Account
       fa_icon_name: github
-
 - name: angela-the
   fname: Angela
   lname: The
@@ -2385,7 +2296,6 @@
       link: /work/team-member/angela-the/
       link_description: Angela’s Project Work
       fa_icon_name: wrench
-
 - name: emmanuel-nwakire
   fname: Emmanuel
   lname: Nwakire
@@ -2412,7 +2322,6 @@
       link: /work/team-member/emmanuel-nwakire/
       link_description: Emmanuel’s Project Work
       fa_icon_name: wrench
-
 - name: kathryn-mullins
   fname: Kathryn
   lname: Mullins
@@ -2431,7 +2340,6 @@
       link: https://www.linkedin.com/in/kathryn-mullins-a6025563/
       link_description: Kathryn's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: ian-hancock
   fname: Ian
   lname: Hancock
@@ -2449,7 +2357,6 @@
       link: https://linkedin.com/in/ian-johnson-hancock
       link_description: Ian's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: emily-alter
   fname: Emily
   lname: Alter
@@ -2476,7 +2383,6 @@
       link: /work/team-member/emily-alter/
       link_description: Emily’s Project Work
       fa_icon_name: wrench
-
 - name: boban-ljuljdjurovic
   fname: Boban
   lname: Ljuljdjurovic
@@ -2503,7 +2409,6 @@
       link: /work/team-member/boban-ljuljdjurovic/
       link_description: Boban's Project Work
       fa_icon_name: wrench
-
 - name: mike-judd
   fname: Mike
   lname: Judd
@@ -2522,7 +2427,6 @@
       link: https://www.linkedin.com/in/michaelcjudd/
       link_description: Mike's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: mary-yeh
   fname: Mary
   lname: Yeh
@@ -2549,7 +2453,6 @@
       link: /work/team-member/mary-yeh/
       link_description: Mary's Project Work
       fa_icon_name: wrench
-
 - name: arin-kulshi
   fname: Arin
   lname: Kulshi
@@ -2572,7 +2475,6 @@
       link: https://github.com/arinkulshi
       link_description: Arin's GitHub Account
       fa_icon_name: github
-
 - name: lainey-trahan
   fname: Lainey
   lname: Trahan
@@ -2595,7 +2497,6 @@
       link: https://github.com/laineymajor
       link_description: Lainey's GitHub Account
       fa_icon_name: github
-
 - name: evan-bowers
   fname: Evan
   lname: Bowers
@@ -2617,7 +2518,6 @@
       link: https://www.evbowers.com
       link_description: Evan's Personal Website
       fa_icon_name: home
-
 - name: bruce-jacobson
   fname: Bruce
   lname: Jacobson
@@ -2636,7 +2536,6 @@
       link: https://www.linkedin.com/in/brucejacobsonjr/
       link_description: Bruce's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: miringu-kiarie
   fname: Miringu
   lname: Kiarie
@@ -2655,7 +2554,6 @@
       link: https://www.linkedin.com/in/miringu-kiarie-546311ba/
       link_description: Miringu's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: alex-hayward
   fname: Alex
   lname: Hayward
@@ -2678,7 +2576,6 @@
       link: /work/team-member/alex-hayward/
       link_description: Alex's Project Work
       fa_icon_name: wrench
-
 - name: mary-crawford
   fname: Mary
   lname: Crawford
@@ -2701,7 +2598,6 @@
       link: /work/team-member/mary-crawford/
       link_description: Mary’s Project Work
       fa_icon_name: wrench
-
 - name: monica-qiu
   fname: Monica
   lname: Qiu
@@ -2720,7 +2616,6 @@
       link: https://www.linkedin.com/in/monicaqiu/
       link_description: Monica's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: eileen-ruberto
   fname: Eileen
   lname: Ruberto
@@ -2739,7 +2634,6 @@
       link: https://www.linkedin.com/in/eileenruberto
       link_description: Eileen's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: rob-mitchell
   fname: Rob
   lname: Mitchell
@@ -2762,7 +2656,6 @@
       link: /work/team-member/rob-mitchell/
       link_description: Rob’s Project Work
       fa_icon_name: wrench
-
 - name: janki-kaneria
   fname: Janki
   lname: Kaneria
@@ -2785,7 +2678,6 @@
       link: /work/team-member/janki-kaneria/
       link_description: Janki’s Project Work
       fa_icon_name: wrench
-
 - name: eric-buckley
   fname: Eric
   lname: Buckley
@@ -2804,7 +2696,6 @@
       link: /work/team-member/eric-buckley/
       link_description: Eric's Project Work
       fa_icon_name: wrench
-
 - name: roger-ruiz
   fname: Roger
   lname: Ruiz
@@ -2831,7 +2722,6 @@
       link: https://write.rog.gr/
       link_description: Roger's Personal Website
       fa_icon_name: home
-
 - name: dana-nelson
   fname: Dana
   lname: Nelson
@@ -2854,7 +2744,6 @@
       link: https://isnodana.com/
       link_description: Dana's Personal Website
       fa_icon_name: home
-
 - name: karina-wernecke
   fname: Karina
   lname: Wernecke
@@ -2873,7 +2762,6 @@
       link: https://www.linkedin.com/in/karinawernecke/
       link_description: Karina's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: amy-kintner
   fname: Amy
   lname: Kintner
@@ -2892,7 +2780,6 @@
       link: https://www.linkedin.com/in/amy-kintner/
       link_description: Amy's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: brandon-sanchez
   fname: Brandon
   lname: Sanchez
@@ -2911,7 +2798,6 @@
       link: https://www.linkedin.com/in/brandonwsanchez/
       link_description: Brandon's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: holly-dewolf
   fname: Holly
   lname: DeWolf
@@ -2934,7 +2820,6 @@
       link: /work/team-member/holly-dewolf/
       link_description: Holly's Project Work
       fa_icon_name: wrench
-
 - name: austin-brown
   fname: Austin
   lname: Brown
@@ -2957,7 +2842,6 @@
       link: https://github.com/KeepAustinWired
       link_description: Austin's GitHub Account
       fa_icon_name: github
-
 - name: kallen-michaels
   fname: Kallen
   lname: Michaels
@@ -2975,7 +2859,6 @@
       link: https://www.linkedin.com/in/kallenmichaels/
       link_description: Kallen's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: anke-stohlmann
   fname: Anke
   lname: Stohlmann
@@ -2998,7 +2881,6 @@
       link: https://ankestohlmann.com/
       link_description: Anke's Personal Website
       fa_icon_name: home
-
 - name: andrew-kasper
   fname: Andrew
   lname: Kasper
@@ -3021,7 +2903,6 @@
       link: /work/team-member/andrew-kasper/
       link_description: Andrew's Project Work
       fa_icon_name: wrench
-
 - name: matt-declercq
   fname: Matt
   lname: deClercq
@@ -3044,7 +2925,6 @@
       link: https://github.com/decleezy
       link_description: Matt's GitHub Account
       fa_icon_name: github
-
 - name: katie-campbell-downie
   fname: Katie
   lname: Campbell Downie
@@ -3063,7 +2943,6 @@
       link: https://www.linkedin.com/in/katiecd
       link_description: Katie's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: laura-janisse
   fname: Laura
   lname: Janisse
@@ -3086,7 +2965,6 @@
       link: https://www.laurajanisse.com
       link_description: Laura's Personal Website
       fa_icon_name: home
-
 - name: mike-wales
   fname: Mike
   lname: Wales
@@ -3109,7 +2987,6 @@
       link: https://github.com/walesmd
       link_description: Mike's GitHub Account
       fa_icon_name: github
-
 - name: christopher-whitaker
   fname: Christopher
   lname: Whitaker
@@ -3136,7 +3013,6 @@
       link: https://civicwhitaker.com/
       link_description: Christopher's Personal Website
       fa_icon_name: home
-
 - name: brandon-chanco
   fname: Brandon
   lname: Chanco
@@ -3155,7 +3031,6 @@
       link: https://www.linkedin.com/in/brandon-chanco/
       link_description: Brandon's LinkedIn Account
       fa_icon_name: linkedin
-
 - name: kyle-bond
   fname: Kyle
   lname: Bond
@@ -3178,7 +3053,6 @@
       link: https://github.com/KyleBond
       link_description: Kyle's GitHub Account
       fa_icon_name: github
-
 - name: lauryn-claassen
   fname: Lauryn
   lname: Claassen
@@ -3197,3 +3071,36 @@
       link: https://www.linkedin.com/in/lauryn-claassen/
       link_description: Lauryn's LinkedIn Account
       fa_icon_name: linkedin
+- name: shashank-khandelwal
+  fname: Shashank
+  lname: Khandelwal
+  full_name: Shashank Khandelwal
+  short_name: S. Khandelwal
+  profile_path: /company/about/#shashank-khandelwal
+  image: /img/people/shashank-khandelwal.jpg
+  image_description: Photo of Shashank Khandelwal
+  position: VP of Human Services
+  bio: |
+    Shashank's a former member of 18F, where he held multiple leadership positions,
+    including Director of cloud.gov. He's also a former Consumer Financial Protection
+    Bureau Design+Tech fellow. Shashank specializes in digital leadership and transformation,
+    digital procurement, software engineering, and cloud computing. He lives in Maryland.
+  active: false
+  order: 120
+  socials:
+    - name: Twitter
+      link: https://twitter.com/gazeti
+      link_description: Shashank's Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/shashankkhandelwal/
+      link_description: Shashank's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/khandelwal
+      link_description: Shashank's GitHub Account
+      fa_icon_name: github
+    - name: Projects
+      link: /work/team-member/shashank-khandelwal/
+      link_description: Shashank's Project Work
+      fa_icon_name: wrench
