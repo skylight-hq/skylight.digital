@@ -10,12 +10,38 @@
   bio: 'Chris served as a Presidential Innovation Fellow, and co-founded 18F and Technology
     Transformation Services,  both housed within the General Services Administration.
     Chris specializes in digital leadership and transformation,  digital procurement,
-    and product development and management. Chris lives in Florida.
-
-    '
+    and product development and management. Chris lives in Florida.'
   active: true
   order: 10
   socials:
+    - name: Twitter
+      link: https://twitter.com/cscairns
+      link_description: Chris' Twitter Account
+      fa_icon_name: twitter
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/chriscairns/
+      link_description: Chris' LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/cscairns
+      link_description: Chris' GitHub Account
+      fa_icon_name: github
+    - name: Medium
+      link: https://medium.com/@ccairns
+      link_description: Chris' Medium Account
+      fa_icon_name: medium
+    - name: Blog Posts
+      link: /thoughts/blog/author/chris-cairns/
+      link_description: Chris' Blog Posts
+      fa_icon_name: pencil
+    - name: Talks
+      link: /thoughts/talks/speaker/chris-cairns/
+      link_description: Chris' Talks
+      fa_icon_name: microphone
+    - name: Projects
+      link: /work/team-member/chris-cairns/
+      link_description: Chris' Project Work
+      fa_icon_name: wrench
 - name: sean-johnson
   fname: Sean
   lname: Johnson
@@ -27,9 +53,7 @@
   position: Principal Software Engineer
   bio: 'Sean''s built and exited two tech startups, one of which was bought by IBM.
     Sean''s been programming since age six  and specializes in software engineering,
-    product management, and cloud computing. Sean lives in South Carolina.
-
-    '
+    product management, and cloud computing. Sean lives in South Carolina.'
   active: true
   order: 20
   socials:
@@ -70,9 +94,7 @@
     been programming since age 13  and holds a PhD in computer science. Robert builds
     robots — among other things — for the public good,  specializing in software engineering,
     data science and engineering, engineering management, and agile practices.  Robert
-    lives in Texas.
-
-    '
+    lives in Texas.'
   active: true
   order: 30
   socials:
@@ -116,9 +138,7 @@
   bio: 'John served as a Presidential Innovation Fellow, and has held various senior
     technology executive positions over his career. He specializes in software engineering,
     distributed and embedded systems engineering, data science and engineering, cloud
-    computing, and engineering management. John lives in Idaho.
-
-    '
+    computing, and engineering management. John lives in Idaho.'
   active: false
   order: 40
   socials:
@@ -150,9 +170,7 @@
   bio: 'Geoff served as a Presidential Innovation Fellow, and has developed standards
     that power the internet, including IPv6 and 6LoWPAN. Geoff specializes in Internet
     of Things, distributed and embedded systems engineering, networking technologies,
-    and privacy and security. Geoff resides in Colorado.
-
-    '
+    and privacy and security. Geoff resides in Colorado.'
   active: true
   order: 50
   socials:
@@ -189,9 +207,7 @@
     expert in APIs. Since 2010, he has written over 3,000 articles and spoken at over
     50 events on API-related topics. Kin also specializes in software engineering,
     microservices, data science and engineering, cloud computing, and enterprise software.
-    He lives in California.
-
-    '
+    He lives in California.'
   active: false
   order: 60
   socials:
@@ -234,9 +250,7 @@
   position: Chief Information Officer
   bio: 'Josh''s a former member of the U.S. Digital Service, with an interest in building
     both great platforms and great products. Josh specializes in DevOps engineering,
-    cloud computing, and user-focused software development. Josh resides in Virginia.
-
-    '
+    cloud computing, and user-focused software development. Josh resides in Virginia.'
   active: true
   order: 70
   socials:
@@ -268,9 +282,7 @@
   bio: 'Nick''s a former member of 18F, who relentlessly pursues creating products
     that are fully accessible  and meet the needs of all users. Nick specializes in
     accessibility, software engineering,  frontend development, and cloud computing.
-    Nick resides in Virginia.
-
-    '
+    Nick resides in Virginia.'
   active: true
   order: 80
   socials:
@@ -303,9 +315,7 @@
     team, and served as a member of 18F. His design leadership spans multiple high-profile
     projects, including data.gov, foia.gov, my.uscis.gov, and cloud.gov. He specializes
     in design leadership, service design, user experience design, and design research.
-    Victor resides in New York.
-
-    '
+    Victor resides in New York.'
   active: false
   order: 90
   socials:
@@ -340,9 +350,7 @@
   position: UX Researcher
   bio: 'Aera formerly served as a UX researcher for the University of Maryland. She''s
     passionate about creating positive change through great user experiences, and
-    specializes in user research and information architecture. Aera lives in Maryland.
-
-    '
+    specializes in user research and information architecture. Aera lives in Maryland.'
   active: false
   order: 100
   socials:
@@ -371,9 +379,7 @@
     UX lead over the Veteran Appeals Modernization initiative. She''s also a former
     professor at NYU, SUNY, and Pratt Institute. Lara specializes in design leadership,
     design research, service design, and user experience design. Lara lives in New
-    York.
-
-    '
+    York.'
   active: false
   order: 110
   socials:
@@ -401,9 +407,7 @@
   bio: 'Shashank''s a former member of 18F, where he held multiple leadership positions,
     including Director of cloud.gov. He''s also a former Consumer Financial Protection
     Bureau Design+Tech fellow. Shashank specializes in digital leadership and transformation,
-    digital procurement, software engineering, and cloud computing. He lives in Maryland.
-
-    '
+    digital procurement, software engineering, and cloud computing. He lives in Maryland.'
   active: false
   order: 120
   socials:
@@ -435,9 +439,7 @@
   bio: 'Lesley''s a UX researcher, with a passion for creating delightful user experiences.
     She specializes in a variety of qualitative and quantitative research techniques,
     including user interviews, user modeling, usability testing, prototyping, and
-    more. Lesley lives in Colorado.
-
-    '
+    more. Lesley lives in Colorado.'
   active: false
   order: 130
   socials:
@@ -461,9 +463,7 @@
   bio: 'Tom''s a former Presidential Innovation Fellow and member of 18F. His product
     and technical leadership spans multiple high-profile projects, including the GI
     Bill Comparison Tool and login.gov. He specializes in software engineering, product
-    management, and identity management. Tom lives in Minnesota.
-
-    '
+    management, and identity management. Tom lives in Minnesota.'
   active: false
   order: 140
   socials:
@@ -499,9 +499,7 @@
   bio: 'Andrew''s a polyglot software engineer, with a passion for delivering technical
     excellence. He''s worked in the govtech space his entire career, and specializes
     in software engineering, DevOps, microservices, APIs, and cloud computing. Andrew
-    lives in Virginia.
-
-    '
+    lives in Virginia.'
   active: false
   order: 150
   socials:
@@ -528,9 +526,7 @@
   position: Software Engineer
   bio: 'Jay''s a polyglot software engineer, with a passion for tackling tough technical
     challenges. He specializes in software engineering, APIs, microservices, distributed
-    search and analytics, and cloud computing. Jay resides in Maryland.
-
-    '
+    search and analytics, and cloud computing. Jay resides in Maryland.'
   active: false
   order: 160
   socials:
@@ -557,9 +553,7 @@
   position: Senior Data Scientist
   bio: 'Brandon loves using data for public good, specializing in data science, data
     engineering,  and software engineering. Brandon graduated from Dartmouth College
-    with a double major  in Math and Computer Science and lives in Ohio.
-
-    '
+    with a double major  in Math and Computer Science and lives in Ohio.'
   active: true
   order: 170
   socials:
@@ -582,9 +576,7 @@
   position: Senior Product Designer
   bio: 'Becca''s a former Etsy designer with a passion for creating positive change
     through great user experiences.  Becca specializes in user research, user experience
-    design, and visual design. Becca lives in Pennsylvania.
-
-    '
+    design, and visual design. Becca lives in Pennsylvania.'
   active: true
   order: 180
   socials:
@@ -610,9 +602,7 @@
   image_description: Photo of Laura King
   position: Staff User Researcher
   bio: 'Laura''s a researcher, strategist, and designer who loves solving complex
-    problems by empathizing with  and understanding users. Laura lives in Colorado.
-
-    '
+    problems by empathizing with  and understanding users. Laura lives in Colorado.'
   active: true
   order: 190
   socials:
@@ -644,9 +634,7 @@
   bio: 'Victoria''s a UX researcher, who made the crossover from computer science.
     She specializes in a number of qualitative and quantitative research techniques,
     including usability testing, journey mapping, and wireframing. Victoria resides
-    in Massachusetts.
-
-    '
+    in Massachusetts.'
   active: false
   order: 200
   socials:
@@ -669,9 +657,7 @@
   position: Product Manager
   bio: 'Abby''s a former member of the U.S. Digital Service, who''s drawn to complex
     problems and passionate about improving the human experience of technology. She
-    specializes in product management and UX research. Abby lives in Texas.
-
-    '
+    specializes in product management and UX research. Abby lives in Texas.'
   active: false
   order: 210
   socials:
@@ -699,9 +685,7 @@
   bio: 'Gabriel''s a former member of 18F and Pivotal, who''s passionate about coaching,
     mentoring, and technical excellence. He specializes in software engineering, APIs,
     DevSecOps, cloud computing, data engineering, and data science. Gabriel lives
-    in Texas.
-
-    '
+    in Texas.'
   active: false
   order: 220
   socials:
@@ -733,9 +717,7 @@
   bio: 'Chris formerly served with the U.S. Digital Service. He loves untangling complex
     data and system problems, and making data accessible and useful to everyone. Chris
     specializes in data engineering, data science, and data analytics. He lives in
-    Illinois.
-
-    '
+    Illinois.'
   active: false
   order: 230
   socials:
@@ -764,9 +746,7 @@
     and leading. While at 18F, he served in technical leadership roles on products
     such as login.gov, analytics.usa.gov, everykidinapark.gov, and FBI Crime Data
     Explorer. He specializes in software engineering, APIs, DevOps, and data engineering.
-    Colin lives in North Carolina.
-
-    '
+    Colin lives in North Carolina.'
   active: false
   order: 240
   socials:
@@ -794,9 +774,7 @@
   bio: 'Ashley''s a UX researcher and designer, with a background in information design
     and data visualization. As a Design Fellow for the social impact incubator, Blue
     Ridge Labs, she launched and co-founded JustFix.nyc. Ashley currently teaches
-    UX design at General Assembly. She lives in Rhode Island.
-
-    '
+    UX design at General Assembly. She lives in Rhode Island.'
   active: false
   order: 250
   socials:
@@ -833,9 +811,7 @@
     designing and launching Africa''s first data-driven conflict reconstruction strategy
     in Mogadishu, Somalia. He''s currently completing a PhD in design at Carnegie
     Mellon, and specializes in design-centric approaches to advanced technology fields
-    such as artificial intelligence. Mitchell lives in Pennsylvania.
-
-    '
+    such as artificial intelligence. Mitchell lives in Pennsylvania.'
   active: false
   order: 260
   socials:
@@ -868,9 +844,7 @@
     leadership positions in support of major initiatives at the Department of Veterans
     Affairs, including Vets.gov (now VA.gov) and Appeals Modernization. She specializes
     in digital strategy and leadership, operations, and product management. Marvo
-    lives in Maryland.
-
-    '
+    lives in Maryland.'
   active: false
   order: 270
   socials:
@@ -902,9 +876,7 @@
   bio: 'Cailyn''s a data engineer and full-stack web developer, with a passion for
     making data open and accessible and unravelling legacy code. She specializes in
     human-centered data science & engineering, DevOps, and test-driven development.
-    Cailyn interned at Facebook and graduated from Brown. She lives in New York.
-
-    '
+    Cailyn interned at Facebook and graduated from Brown. She lives in New York.'
   active: false
   order: 280
   socials:
@@ -940,9 +912,7 @@
   bio: 'Amelia''s a builder at heart. A recent graduate of Cornell Tech''s MBA program,
     she has expertise in product management, digital strategy, and marketing. Amelia
     led digital transformation initiatives at the NYC Mayor''s Office for Economic
-    Opportunity and the Cambridge Innovation Center. She lives in New York.
-
-    '
+    Opportunity and the Cambridge Innovation Center. She lives in New York.'
   active: false
   order: 290
   socials:
@@ -974,9 +944,7 @@
   bio: 'Maya''s a former member of 18F where she worked on improving the user experience
     of government and developed the U.S. Web Design System. She specializes in front-end
     development, UX design, accessibility, and design systems. She''s also a former
-    Code for America fellow. Maya lives in California.
-
-    '
+    Code for America fellow. Maya lives in California.'
   active: false
   order: 300
   socials:
@@ -1016,9 +984,7 @@
   bio: 'Brandon''s a former member of 18F where he delivered strategy, software, and
     technology guidance to many government agencies. He''s a generalist who uses his
     experience in software development, agile practices, strategy, and product management
-    to help partners find the right path. He lives in Georgia.
-
-    '
+    to help partners find the right path. He lives in Georgia.'
   active: false
   order: 310
   socials:
@@ -1047,9 +1013,7 @@
     to help people. She''s committed to the challenge of improving government services
     through the integration of smart digital solutions. She most recently worked as
     an employee of NYC government, building sites and services to increase data access.
-    She lives in New York.
-
-    '
+    She lives in New York.'
   active: false
   order: 320
   socials:
@@ -1078,9 +1042,7 @@
     the veteran appeals process and the asylum seeker process. Ari also worked at
     Hala Systems, using tech to help civilians in Syria and other conflict zones receive
     advanced warnings of impending attacks. Ari specializes in software engineering,
-    DevOps, and cloud computing. He lives in Arkansas.
-
-    '
+    DevOps, and cloud computing. He lives in Arkansas.'
   active: false
   order: 330
   socials:
@@ -1103,9 +1065,7 @@
   position: Staff User Researcher
   bio: 'Peggy''s a researcher and designer who transitioned from clinical neuroscience
     research, having worked on projects  ranging from robot vacuums with Samsung to
-    redesigning a pain communication app with UPMC. Peggy lives in Massachusetts.
-
-    '
+    redesigning a pain communication app with UPMC. Peggy lives in Massachusetts.'
   active: true
   order: 340
   socials:
@@ -1134,9 +1094,7 @@
     application design.  Zack''s entrepreneurial spirit adds a unique approach toward
     empathizing with users and identifying  the right problems to solve. Zack has
     helped form design teams and served as a design leader in  the non-profit, financial
-    investments, and healthcare industries. Zack lives in Florida.
-
-    '
+    investments, and healthcare industries. Zack lives in Florida.'
   active: true
   order: 350
   socials:
@@ -1165,9 +1123,7 @@
     technical projects for four years as a full-stack engineer in the healthcare tech
     space. She also executed strategic and financial projects for the City of Chicago,
     where she worked while she pursued her MBA at the University of Chicago Booth
-    School of Business. Mical lives in Massachusetts.
-
-    '
+    School of Business. Mical lives in Massachusetts.'
   active: false
   order: 360
   socials:
@@ -1191,9 +1147,7 @@
   bio: 'Nick''s a software engineer with a passion for using technology to solve the
     right kinds of problems,  especially building APIs, designing databases, and crafting
     system architectures. Nick has experience  working on high-traffic government
-    digital services and lives in California.
-
-    '
+    digital services and lives in California.'
   active: true
   order: 370
   socials:
@@ -1218,9 +1172,7 @@
     team, and served as a member of 18F. His design leadership spans multiple high-profile
     projects, including data.gov, foia.gov, my.uscis.gov, and cloud.gov. He specializes
     in design leadership, service design, user experience design, and design research.
-    Victor resides in New York.
-
-    '
+    Victor resides in New York.'
   active: false
   order: 90
   socials:
@@ -1236,9 +1188,7 @@
   bio: 'Eric''s a researcher and designer, with a passion for co-creation and tackling
     complex social challenges. He was a 2019 Civic Digital Fellow at 18F and graduated
     from UC San Diego with degrees in Human-Computer Interaction and Design for Social
-    Innovation. Eric lives in Massachusetts.
-
-    '
+    Innovation. Eric lives in Massachusetts.'
   active: false
   order: 380
   socials:
@@ -1265,9 +1215,7 @@
   position: Senior Product Manager
   bio: 'Charlye loves to solve complex problems. As a former software and data engineer,
     she now specializes in service design and product management and is certified
-    in UX by the Nielsen Norman Group. Charlye lives in Texas.
-
-    '
+    in UX by the Nielsen Norman Group. Charlye lives in Texas.'
   active: false
   order: 390
   socials:
@@ -1291,9 +1239,7 @@
   bio: 'Tomi’s a researcher who strives to meet and honor people where they are. After
     studying human development  and leading hands-on engineering projects with kids,
     Tomi now specializes in continuous discovery,  usability testing, and human-centered
-    design. Tomi lives in Illinois.
-
-    '
+    design. Tomi lives in Illinois.'
   active: true
   order: 400
   socials:
@@ -1317,9 +1263,7 @@
   bio: 'Adam''s a software engineer who likes to solve hard problems and build products
     that delight users. He''s been coding since age 10 and specializes in fixing mystery
     bugs, integrating with legacy systems, and "just making stuff work." Adam lives
-    in Oregon.
-
-    '
+    in Oregon.'
   active: false
   order: 410
   socials:
@@ -1348,9 +1292,7 @@
     She was named among the 25 Women Driving New York''s Tech Scene. Previously, she
     served as a member of 18F, taught MFA Design Entrepreneurship at Parsons Design
     and Technology, mentored dozens of startups, and led design at a number of technology
-    companies.
-
-    '
+    companies.'
   active: false
   order: 420
   socials:
@@ -1385,9 +1327,7 @@
   position: Senior Software Engineer
   bio: 'Elisa''s a software engineer with a desire to use technology to support positive
     change in communities,  having previously worked in developer tools, education
-    technology, and non-profit spaces.  Elisa lives in Minnesota.
-
-    '
+    technology, and non-profit spaces.  Elisa lives in Minnesota.'
   active: true
   order: 430
   socials:
@@ -1416,9 +1356,7 @@
     people solving complex problems the right data at the right time. He formerly
     worked for the Massachusetts Data Office, and was in the inaugural class of the
     University of Chicago''s Computational Analysis & Public Policy program. Kyle
-    lives in Massachusetts.
-
-    '
+    lives in Massachusetts.'
   active: false
   order: 440
   socials:
@@ -1451,9 +1389,7 @@
     user research, service design, interaction design, and content strategy. Previously,
     she worked at the Center for Civic Design to help state agencies improve voting
     and elections and lead a team of designers at the U.S. Digital Service working
-    with the Department of Veterans Affairs. Suzanne lives in Tennessee.
-
-    '
+    with the Department of Veterans Affairs. Suzanne lives in Tennessee.'
   active: false
   order: 450
   socials:
@@ -1484,9 +1420,7 @@
   position: UX Researcher
   bio: 'Olivia''s a UX researcher and designer, who previously worked at Fjord. She''s
     passionate about combining qualitative and quantitative research methods to solve
-    complex problems in a human-centered way. Olivia lives in Georgia.
-
-    '
+    complex problems in a human-centered way. Olivia lives in Georgia.'
   active: false
   order: 460
   socials:
@@ -1509,9 +1443,7 @@
   position: Software Engineer
   bio: 'Jordan''s devoted to building products and platforms that deliver great user
     experiences. He specializes in software engineering, data engineering, and DevOps.
-    Jordan lives in Oregon.
-
-    '
+    Jordan lives in Oregon.'
   active: false
   order: 470
   socials:
@@ -1540,9 +1472,7 @@
     non-profit industries. Before Skylight, she was a UX research consultant and growth
     strategist for health-tech companies integrating AI into their service models.
     As an MBA from MIT, Kari leverages interdisciplinary collaboration and frameworks
-    to create human-centered solutions. She lives in Rhode Island.
-
-    '
+    to create human-centered solutions. She lives in Rhode Island.'
   active: false
   order: 480
   socials:
@@ -1567,9 +1497,7 @@
     complex user problems.  Most recently, Nicole worked as a consultant at Pivotal
     Labs/VMware to help transform how large enterprises  and startups build software.
     Nicole specializes in extreme programming, lean product management,  and user-centered
-    design. Nicole lives in Illinois.
-
-    '
+    design. Nicole lives in Illinois.'
   active: true
   order: 490
   socials:
@@ -1592,9 +1520,7 @@
   position: Software Engineer
   bio: 'Lucas is a software engineer with an unflinching faith in the ethical potential
     of technology to solve big societal problems. He specializes in mobile application
-    architecture and engineering. Lucas lives in Georgia.
-
-    '
+    architecture and engineering. Lucas lives in Georgia.'
   active: false
   order: 500
   socials:
@@ -1621,9 +1547,7 @@
   position: Senior Product Designer
   bio: 'Kenny''s a product designer, inclusive systems thinker, and people person
     who works through the entire gamut  of product design to create experiences that
-    fit into people''s lives. Kenny lives in California.
-
-    '
+    fit into people''s lives. Kenny lives in California.'
   active: true
   order: 510
   socials:
@@ -1647,9 +1571,7 @@
   bio: 'Zoe''s a product designer with nearly a decade of experience. She''s spent
     much of her career as a consultant with firms such as Pivotal Labs, and is eager
     to translate these experiences into transforming government services. Zoe resides
-    in Colorado.
-
-    '
+    in Colorado.'
   active: false
   order: 520
   socials:
@@ -1668,9 +1590,7 @@
   position: Staff Content Designer
   bio: 'Rebecca''s a content designer with a background in product marketing, UX writing,
     and localization. She enjoys turning complex concepts into plain language and
-    creating great experiences through human-centered content. Rebecca lives in Maryland.
-
-    '
+    creating great experiences through human-centered content. Rebecca lives in Maryland.'
   active: false
   order: 530
   socials:
@@ -1696,9 +1616,7 @@
   image_description: Illustration of Chris Smith
   position: Chief Operating Officer
   bio: 'Chris'' an experienced executive with nearly 20 years of leading technology
-    consulting and delivery teams in support of government clients. He lives in Maryland.
-
-    '
+    consulting and delivery teams in support of government clients. He lives in Maryland.'
   active: false
   order: 540
   socials:
@@ -1721,9 +1639,7 @@
   position: Chief of Staff
   bio: 'Jamie''s a product manager with a passion for good, clean product experiences.
     She excels at leading and managing cross-functional teams across the entire product
-    lifecycle. Jamie lives in Washington DC.
-
-    '
+    lifecycle. Jamie lives in Washington DC.'
   active: false
   order: 550
   socials:
@@ -1747,9 +1663,7 @@
   bio: 'Ori''s a marketing, communications, and content specialist, who formerly worked
     for 18F and the Beeck Center for Social Impact and Innovation. Ori''s also worked
     in TV, radio, and digital media — on both the journalism and corporate communications
-    sides. He lives in Virginia.
-
-    '
+    sides. He lives in Virginia.'
   active: false
   order: 560
   socials:
@@ -1772,9 +1686,7 @@
   position: Administrative Assistant
   bio: 'Elyse''s our amazing administrative assistant. She recently graduated from
     Transylvania University and is seeking a degree in Clinical Mental Health Counseling
-    from Hodges University. Elyse lives in Kentucky.
-
-    '
+    from Hodges University. Elyse lives in Kentucky.'
   active: false
   order: 570
   socials:
@@ -1794,9 +1706,7 @@
   bio: 'Gianna''s a software engineer who''s passionate about leveraging technology
     and partnering with communities to improve the lives of others. Gianna was a  2018
     Civic Digital Fellow at the State Department and graduated from Brown University  with
-    a degree in Computer Science. Gianna lives in Indiana.
-
-    '
+    a degree in Computer Science. Gianna lives in Indiana.'
   active: true
   order: 580
   socials:
@@ -1820,9 +1730,7 @@
   bio: 'Alex''s a data scientist and engineer who is thrilled about using his analytical
     and computational skills in the realm of public service. He was 2019 Civic Digital
     Fellow at the U.S. Department of Health and Human Services. Alex graduated with
-    degrees from Columbia University and New York University. He lives in Massachusetts.
-
-    '
+    degrees from Columbia University and New York University. He lives in Massachusetts.'
   active: false
   order: 590
   socials:
@@ -1846,9 +1754,7 @@
   bio: 'Jesse''s a software engineer with a background in federal health. He enjoys
     all aspects of software development and loves solving inefficiencies while building
     secure and robust applications. He has a degree in Mechanical Engineering from
-    The California Maritime Academy and is a Naval Reserve Officer. He lives in California.
-
-    '
+    The California Maritime Academy and is a Naval Reserve Officer. He lives in California.'
   active: false
   order: 600
   socials:
@@ -1877,9 +1783,7 @@
     practices in public-facing work. He was a 2020 Civic Digital Fellow with the General
     Services Administration, where he worked on Vote.gov. He recently graduated with
     a degree in Systems Engineering from the University of Illinois at Urbana-Champaign.
-    Derek lives in Massachusetts.
-
-    '
+    Derek lives in Massachusetts.'
   active: false
   order: 610
   socials:
@@ -1904,9 +1808,7 @@
     teams and  change efforts across the non-profit and public sectors. Leslie''s
     passionate about the role  technology and design play in delivering great services.
     Leslie specializes in cross-functional  team leadership, user experience research,
-    and service design. Leslie lives in North Carolina.
-
-    '
+    and service design. Leslie lives in North Carolina.'
   active: true
   order: 620
   socials:
@@ -1933,9 +1835,7 @@
   position: DevOps Engineer
   bio: 'Chun''s passionate about automating everything and creating great experiences
     for other engineers.  He specializes in DevOps engineering, cloud computing, and
-    security. Chun lives in Maryland.
-
-    '
+    security. Chun lives in Maryland.'
   active: false
   order: 630
   socials:
@@ -1959,9 +1859,7 @@
   bio: 'Nicole''s a product manager, who''s drawn to delivering products that help
     people.  Most recently, she worked with the Air Force''s Kessel Run program  to
     modernize in-air refueling planning and platform development. Nicole lives in
-    Washington.
-
-    '
+    Washington.'
   active: false
   order: 640
   socials:
@@ -1989,9 +1887,7 @@
   bio: 'Tiffany''s a product designer who loves understanding people''s needs and
     creating solutions  that have a positive impact. Most recently, Tiffany worked
     at Pivotal Labs / VMware Tanzu,  helping startups, large enterprises, and government
-    organizations build software using modern practices.  Tiffany lives in California.
-
-    '
+    organizations build software using modern practices.  Tiffany lives in California.'
   active: true
   order: 650
   socials:
@@ -2015,9 +1911,7 @@
   bio: 'Karthik''s a product manager with several years of experience across a range
     of industries.  Most recently, he worked at Pivotal Labs / VMware Tanzu.  Karthik
     graduated from Creighton University with degrees in Economics and Business Intelligence
-    and Analytics.  He lives in Texas.
-
-    '
+    and Analytics.  He lives in Texas.'
   active: false
   order: 660
   socials:
@@ -2050,9 +1944,7 @@
     great people.  Previously, she supported staffing needs at Waymo, LinkedIn, and
     other high-tech companies in the Silicon Valley area.  Becca specializes in staffing,
     onboarding, people leadership, and diversity, equity, and inclusion.  She lives
-    in Arizona.
-
-    '
+    in Arizona.'
   active: false
   order: 670
   socials:
@@ -2071,9 +1963,7 @@
   position: Senior Software Engineer
   bio: 'Nathan''s a software engineer driven by building digital services for public
     good. Prior to becoming an engineer,  Nathan ran a bakery. Nathan lives in North
-    Carolina.
-
-    '
+    Carolina.'
   active: true
   order: 680
   socials:
@@ -2100,9 +1990,7 @@
   position: Senior Content Designer
   bio: 'Matt''s a content designer and storyteller with a background in clean tech
     innovation,  enjoys making complex information accessible to everyone, and cares
-    deeply about improving people''s lives and livelihoods.  Matt lives in Pennsylvania.
-
-    '
+    deeply about improving people''s lives and livelihoods.  Matt lives in Pennsylvania.'
   active: true
   order: 690
   socials:
@@ -2126,9 +2014,7 @@
   bio: 'Nick''s a multidisciplinary designer and researcher.  Nick’s process is informed
     by cross-functional collaboration and research.  He''s passionate about facilitating
     connections between and within communities.  Nick recently graduated from Washington
-    University in St. Louis.  Nick lives in New York.
-
-    '
+    University in St. Louis.  Nick lives in New York.'
   active: false
   order: 700
   socials:
@@ -2156,9 +2042,7 @@
   bio: 'Bob''s a software engineer in pursuit of solving large-scale problems that
     matter. In 2020, Bob served as  a Civic Digital Fellow at the National Institutes
     of Health and is currently pursuing a master''s degree  in computer science at
-    Washington University in St. Louis. Bob lives in Missouri.
-
-    '
+    Washington University in St. Louis. Bob lives in Missouri.'
   active: true
   order: 710
   socials:
@@ -2185,9 +2069,7 @@
   position: Product Designer
   bio: 'Ashton''s a product designer who recently graduated from the University of
     Southern California.  As a 2020 Civic Digital Fellow with the General Services
-    Administration, Ashton discovered a passion for civic tech.  Ashton lives in California.
-
-    '
+    Administration, Ashton discovered a passion for civic tech.  Ashton lives in California.'
   active: true
   order: 720
   socials:
@@ -2211,9 +2093,7 @@
   bio: 'Andrew''s passionate about creating great developer experiences through DevOps.  He''s
     spent over 15 years with the Air Force as a service member.  Andrew specializes
     in DevOps engineering, software engineering, and cloud computing.  He lives in
-    Washington.
-
-    '
+    Washington.'
   active: false
   order: 730
   socials:
@@ -2241,9 +2121,7 @@
   bio: 'Tim''s a seasoned product manager with a passion for building small, releasing
     early, and iterating often.  Most recently, he worked at Pivotal Labs / VMware
     Tanzu where he helped transform the way startups and large enterprises build software.  Tim
-    lives in Illinois.
-
-    '
+    lives in Illinois.'
   active: false
   order: 740
   socials:
@@ -2267,9 +2145,7 @@
   bio: 'Pri''s a product designer who draws from a background in neuroscience and
     human-computer interaction  to create delightful user experiences. Pri previously
     worked at Pivotal Labs / VMware Tanzu, building  high-impact products and scaling
-    design practices across various types of organizations. Pri lives in Texas.
-
-    '
+    design practices across various types of organizations. Pri lives in Texas.'
   active: true
   order: 750
   socials:
@@ -2294,9 +2170,7 @@
     bringing highly effective solutions  to the Department of Defense. Taylor most
     recently worked as a product manager and designer at Kessel Run,  specializing
     in strategy, human-centered design, and building relationships. Taylor lives in
-    Texas.
-
-    '
+    Texas.'
   active: true
   order: 760
   socials:
@@ -2324,9 +2198,7 @@
   bio: 'Laura''s a content designer specializing in content strategy, design, operations,
     and governance. Laura loves  distilling complex information into human-centered
     content and empowering others to do the same.  Most recently, Laura worked at
-    the NYC Mayor''s Office for Economic Opportunity. Laura lives in Hawaii.
-
-    '
+    the NYC Mayor''s Office for Economic Opportunity. Laura lives in Hawaii.'
   active: true
   order: 770
   socials:
@@ -2349,9 +2221,7 @@
   position: Staff Software Engineer
   bio: 'Emma''s a software engineer with a passion for creating user-centered products,
     previously working at Google  and gaining experience in APIs, microservices, and
-    DevOps. Emma lives in California.
-
-    '
+    DevOps. Emma lives in California.'
   active: true
   order: 780
   socials:
@@ -2378,9 +2248,7 @@
   position: Head of Corporate Development
   bio: 'Mina possesses nearly 20 years of consulting, technology, and leadership experience
     in the public sector.  Mina specializes in corporate strategy, corporate development,
-    and large-scale program management.  Mina lives in Florida.
-
-    '
+    and large-scale program management.  Mina lives in Florida.'
   active: true
   order: 790
   socials:
@@ -2400,9 +2268,7 @@
   bio: 'Sarah''s an engineer and social scientist who loves working at the intersection
     of technology and public service.  Sarah recently graduated from Oxford with a
     Master''s in Development Studies as a Rhodes Scholar after studying  Mechanical
-    Engineering at MIT. Sarah lives in New York.
-
-    '
+    Engineering at MIT. Sarah lives in New York.'
   active: true
   order: 800
   socials:
@@ -2430,9 +2296,7 @@
   bio: 'Gordon’s a software engineer specializing in government tech. Gordon built
     a civil service career  with the Department of Defense, focusing on software modernization
     in the U.S. Air Force''s Kessel Run program.  A champion for automated testing,
-    high-cadence CI/CD, and direct user engagement, Gordon lives in Colorado.
-
-    '
+    high-cadence CI/CD, and direct user engagement, Gordon lives in Colorado.'
   active: true
   order: 810
   socials:
@@ -2456,9 +2320,7 @@
   bio: 'Jennifer’s a product designer who specializes in user-centered design.  Previously,
     she led design at early- to mid-stage stage startups in the healthcare, education,
     and real estate industries.  Jennifer studied Cognitive Science with a specialization
-    in Human-Computer Interaction at UC San Diego.  She lives in California.
-
-    '
+    in Human-Computer Interaction at UC San Diego.  She lives in California.'
   active: false
   order: 820
   socials:
@@ -2491,9 +2353,7 @@
     more equitable, and delightful.  She specializes in full-stack software engineering
     and test-driven development, and loves developing best practices on engineering
     teams.  George previously worked with the U.S. Air Force''s Kessel Run program.  She
-    lives in Massachusetts.
-
-    '
+    lives in Massachusetts.'
   active: false
   order: 830
   socials:
@@ -2516,9 +2376,7 @@
   position: Senior Software Engineer
   bio: 'David''s a software engineer who strives to create simple, robust solutions
     to complex problems. Most recently,  David worked at Home Depot, migrating product
-    data to the cloud and building highly visible APIs.  David lives in Georgia.
-
-    '
+    data to the cloud and building highly visible APIs.  David lives in Georgia.'
   active: true
   order: 840
   socials:
@@ -2541,9 +2399,7 @@
   position: Staff Product Designer
   bio: 'Liz''s a product designer and user researcher. Most recently, she worked on
     mobile products and design systems at Salesforce.  She''s passionate about building
-    technology in service of the people who use it.  Liz lives in Wisconsin.
-
-    '
+    technology in service of the people who use it.  Liz lives in Wisconsin.'
   active: false
   order: 850
   socials:
@@ -2576,9 +2432,7 @@
     Rin is an active member of the  United States Air Force Auxiliary — the Civil
     Air Patrol — serving as a search and rescue aircrew member  and command officer.
     Rin previously served with the United States Coast Guard Auxiliary as its  National
-    Division Chief of Software Engineering. Rin lives in Illinois.
-
-    '
+    Division Chief of Software Engineering. Rin lives in Illinois.'
   active: true
   order: 860
   socials:
@@ -2603,9 +2457,7 @@
     latest cloud technologies  to improve the lives of users. Alis established integrations
     for patient engagement and monitoring  across several large health systems and
     led the development of infrastructure and software pipeline requirements.  Alis
-    lives in Oregon.
-
-    '
+    lives in Oregon.'
   active: true
   order: 870
   socials:
@@ -2638,9 +2490,7 @@
     drawn to creating positive change through thoughtful design and championing the
     user''s experience.  Most recently, she worked at a fin-tech startup where she
     helped develop an out-of-app feature to help improve account accessibility for
-    users in Nigeria.  Priscilla lives in California.
-
-    '
+    users in Nigeria.  Priscilla lives in California.'
   active: false
   order: 880
   socials:
@@ -2668,9 +2518,7 @@
   bio: 'Ryan''s a designer and researcher with a decade of industry expertise, ready
     to apply that experience to civic tech.  Ryan strives to make thoughtful decisions,
     challenge assumptions, and volunteers as a firefighter in Ryan''s community.  Ryan
-    lives in Colorado.
-
-    '
+    lives in Colorado.'
   active: true
   order: 890
   socials:
@@ -2698,9 +2546,7 @@
   bio: 'Bryan''s a data engineer with a drive to work on projects that have meaningful
     impact.  He previously worked at Meta and has built data solutions to help address
     issues of money laundering, financial fraud, gun violence, and disinformation
-    campaigns.  Bryan lives in Washington.
-
-    '
+    campaigns.  Bryan lives in Washington.'
   active: false
   order: 900
   socials:
@@ -2733,9 +2579,7 @@
     defense space. Previously, Kyle served  as a civilian product manager for the
     Space Force. Kyle studied chemical engineering at the University of Southern California  and
     is working on a graduate degree in Computer Science from Georgia Tech. Kyle lives
-    in California.
-
-    '
+    in California.'
   active: true
   order: 910
   socials:
@@ -2763,9 +2607,7 @@
   bio: 'Zedd’s a software engineer with several years of experience across a range
     of industries.  Most recently, Zedd worked at Pivotal Labs / VMware Tanzu, helping
     companies of all sizes with their  digital transformation journeys. Zedd has a
-    master''s degree in computer science from Georgia Tech  and lives in Texas.
-
-    '
+    master''s degree in computer science from Georgia Tech  and lives in Texas.'
   active: true
   order: 920
   socials:
@@ -2798,9 +2640,7 @@
     good.  Mike worked on water affordability as a 2019 Code for America Fellow and
     has experience  in the public and non-profit sectors. Mike graduated from the
     University at Buffalo  with a degree in Computer Science and Political Science.
-    Mike lives in New York.
-
-    '
+    Mike lives in New York.'
   active: true
   order: 930
   socials:
@@ -2827,9 +2667,7 @@
   position: Senior Software Engineer
   bio: 'Merethe''s a software engineer excited by solving puzzles and working on projects
     that bring about positive impact.  Coming from the enterprise software industry,
-    Merethe built analytics pipelines and reports. Merethe lives in California.
-
-    '
+    Merethe built analytics pipelines and reports. Merethe lives in California.'
   active: true
   order: 940
   socials:
@@ -2857,9 +2695,7 @@
   bio: 'Jayna’s an outcomes-driven product manager who''s spent the last two decades
     on distributed teams building social media  and streaming platforms. Jayna moved
     into the civic tech space to work on a project for the Department of Defense.  Jayna
-    lives in Ohio.
-
-    '
+    lives in Ohio.'
   active: false
   order: 950
   socials:
@@ -2892,9 +2728,7 @@
     data and interoperability.  Spencer has worked for and with electronic medical
     record vendors, healthcare providers, health plans, and regional health informational
     exchanges to share and report on complex health data to satisfy a multitude of
-    needs.  Spencer lives in Colorado.
-
-    '
+    needs.  Spencer lives in Colorado.'
   active: false
   order: 960
   socials:
@@ -2924,9 +2758,7 @@
   image_description: Photo of Dan Sass
   position: Senior Software Engineer
   bio: 'Dan''s a software engineer with a background in FinTech, focused on system
-    design, DevOps,  and cloud native applications. Dan lives in Ohio.
-
-    '
+    design, DevOps,  and cloud native applications. Dan lives in Ohio.'
   active: true
   order: 970
   socials:
@@ -2950,9 +2782,7 @@
   bio: 'Johanna''s a full-stack engineer with over 10 years of experience in the industry,
     focusing on web applications  and front-end technologies. Johanna has worked for
     the Veterans Affairs and the Centers for Medicare & Medicaid Services.  Johanna
-    lives in Pennsylvania.
-
-    '
+    lives in Pennsylvania.'
   active: true
   order: 980
   socials:
@@ -2976,9 +2806,7 @@
   bio: 'Bobby''s an engineer and data nerd who has a passion for working with tech
     that actively makes the world a better place.  In 2021, Bobby served as a Civic
     Digital Fellow at the Census Bureau and graduated from Tufts University.  Bobby
-    lives in Colorado.
-
-    '
+    lives in Colorado.'
   active: false
   order: 990
   socials:
@@ -3005,9 +2833,7 @@
   position: Senior Software Engineer
   bio: 'Kenneth''s a software engineer who specializes in building cloud-based applications.  He
     advocates for serverless design to help scale up systems while reducing costs.  Kenneth
-    lives in California.
-
-    '
+    lives in California.'
   active: false
   order: 1000
   socials:
@@ -3031,9 +2857,7 @@
   bio: 'Camille''s a full-stack software engineer who loves working with collaborative
     and service-oriented teams.  Camille previously built open source software and
     managed developer communities for libraries, archives,  and museums at Stanford
-    University. Camille lives in California.
-
-    '
+    University. Camille lives in California.'
   active: true
   order: 1010
   socials:
@@ -3062,9 +2886,7 @@
     understanding of data.  After working on physics and neuroscience research funded
     by NIST and the NSF, Dan began helping  public health departments use their data
     more effectively. Outside of work, Dan''s an avid hiker and sailor.  Dan lives
-    in Maine.
-
-    '
+    in Maine.'
   active: true
   order: 1020
   socials:
@@ -3096,9 +2918,7 @@
   bio: 'Ann''s a product manager who loves to solve customer problems by understanding
     the details of technical products  and translating them for all stakeholders.
     Ann specializes in productizing and scaling APIs and data pipelines  and lives
-    in California.
-
-    '
+    in California.'
   active: true
   order: 1030
   socials:
@@ -3126,9 +2946,7 @@
   bio: 'Steven''s a data scientist apprentice who holds equal passions for machine
     learning and creating useful tools for others.  Coming from Northeast Ohio, he
     attended MIT, where he majored in Computation and Cognition.  Steven lives in
-    California.
-
-    '
+    California.'
   active: false
   order: 1040
   socials:
@@ -3152,9 +2970,7 @@
   bio: 'Lina''s a software engineer experienced in cloud computing, DevOps, building
     APIs, and robust applications.  For nearly seven years, Lina worked with the Veterans
     Affairs developing benefits management software  and enjoys making the world more
-    inclusive. Lina lives in South Carolina.
-
-    '
+    inclusive. Lina lives in South Carolina.'
   active: true
   order: 1050
   socials:
@@ -3182,9 +2998,7 @@
   bio: 'Josh''s a full-stack software engineer passionate about making tools, big
     and small, that can have a positive effect.  Josh has several years of experience
     working in govtech and values having a broad range of technical knowledge.  Josh
-    lives in Pennsylvania.
-
-    '
+    lives in Pennsylvania.'
   active: true
   order: 1060
   socials:
@@ -3243,9 +3057,7 @@
   position: Staff Product Manager
   bio: 'Amrita''s a product manager who enjoys working with people and technology
     to create meaningful solutions.  Previously, Amrita was a product manager at McMaster-Carr
-    and has experience as a software engineer.  Amrita lives in California.
-
-    '
+    and has experience as a software engineer.  Amrita lives in California.'
   active: true
   order: 1080
   socials:
@@ -3270,9 +3082,7 @@
     has 20+ years of experience in healthcare informatics, including clinical decision
     support applications,  NHSN reporting, and FHIR and HL7 APIs. Brady previously
     worked with the Centers for Medicare & Medicaid Services  as a FHIR specialist
-    for the Blue Button API. Brady lives in Idaho.
-
-    '
+    for the Blue Button API. Brady lives in Idaho.'
   active: true
   order: 1090
   socials:
@@ -3299,9 +3109,7 @@
   position: VP of Service Excellence
   bio: 'Cheryl has 20+ years of experience as a software developer and technology
     leader in the private and public sectors, including more than 10 years in consulting.  She
-    regularly speaks at and organizes conferences worldwide.  Cheryl lives in Washington.
-
-    '
+    regularly speaks at and organizes conferences worldwide.  Cheryl lives in Washington.'
   active: false
   order: 1100
   socials:
@@ -3329,9 +3137,7 @@
   bio: 'Jill''s a user researcher with 20+ years of experience at the intersection
     of outcomes-driven research,  program evaluation, and user experience. Jill''s
     passionate about conducting feasible, actionable research  that''ll be used to
-    improve outcomes and advance equity. Jill lives in North Carolina.
-
-    '
+    improve outcomes and advance equity. Jill lives in North Carolina.'
   active: true
   order: 1110
   socials:
@@ -3375,9 +3181,7 @@
   bio: 'Marcelle''s a data engineer with a background in applied statistics and public
     policy.  Marcelle''s worked as a data engineer/scientist at civic tech non-profits
     and academic institutions,  focusing on workforce development and education research.
-    Marcelle lives in Washington.
-
-    '
+    Marcelle lives in Washington.'
   active: true
   order: 1130
   socials:
@@ -3402,9 +3206,7 @@
     teams.  She''s been the first Head of People at two companies and advised dozens
     of startups on recruiting and retention in her most recent role as a partner at
     a venture investing firm.  She''s a graduate of Rice University and Stanford Law
-    School.  Kelli lives in New Jersey.
-
-    '
+    School.  Kelli lives in New Jersey.'
   active: false
   order: 1140
   socials:
@@ -3422,9 +3224,7 @@
   image_description: Illustration of Graham Smith
   position: Staff Software Engineer
   bio: 'Graham''s a software engineer, specializing in technical architecture and
-    full-stack development.  He lives in Pennsylvania.
-
-    '
+    full-stack development.  He lives in Pennsylvania.'
   active: false
   order: 1150
   socials:
@@ -3444,9 +3244,7 @@
   bio: 'Robert has spent a career in the non-profit and government tech space bootstrapping
     analytics  in under-resourced environments to bridge the gap between data and
     insight. Adhering to a data-for-good ethos,  Robert centers the mission in orienting
-    solutions to problems. Robert lives in California.
-
-    '
+    solutions to problems. Robert lives in California.'
   active: true
   order: 1160
   socials:
@@ -3481,9 +3279,7 @@
   position: Operations Associate
   bio: 'Joe''s an operations specialist with financial services, IT, mortgage, and
     fintech industry experience.  He loves unlocking value for businesses and their
-    customers through operational excellence. Joe lives in California.
-
-    '
+    customers through operational excellence. Joe lives in California.'
   active: false
   order: 1170
   socials:
@@ -3507,9 +3303,7 @@
   bio: 'Angela''s a software engineer who''s passionate about building human-centered
     tools that can improve access  to public benefits and services. Angela pursued
     a master''s degree in computer science and public policy  and previously served
-    as a Civic Innovation Corps Fellow for the City of San José. Angela lives in California.
-
-    '
+    as a Civic Innovation Corps Fellow for the City of San José. Angela lives in California.'
   active: true
   order: 1180
   socials:
@@ -3545,9 +3339,7 @@
   bio: 'Emmanuel''s a DevOps engineer with years of experience in the travel tech,
     fintech, and lifestyle industries.  Emmanuel''s also a certified Scrum Master,
     excelling at understanding and addressing the needs of clients and stakeholders
-    alike. Emmanuel lives in Maryland.
-
-    '
+    alike. Emmanuel lives in Maryland.'
   active: true
   order: 1190
   socials:
@@ -3616,9 +3408,7 @@
   bio: 'Emily''s a user researcher with a decade of experience using research to convince
     product teams to make more user-friendly products.  She''s conducted user research
     for Cameo, Litmus, Facebook Messenger, Wells Fargo, and Chase.  Emily lives in
-    California.
-
-    '
+    California.'
   active: false
   order: 1220
   socials:
@@ -3645,9 +3435,7 @@
   position: Senior Software Engineer
   bio: 'Boban''s a software engineer who''s always excited to work on new and challenging
     problems. Boban has experience  building scalable APIs and DevOps and is actively
-    expanding front-end expertise. Boban lives in Michigan.
-
-    '
+    expanding front-end expertise. Boban lives in Michigan.'
   active: true
   order: 1230
   socials:
@@ -3675,9 +3463,7 @@
   bio: 'Mike''s a technologist, community builder, and bureaucracy hacker with over
     10 years of experience  at the Centers for Disease Control and Prevention. Mike''s
     passionate about improving how government  interacts with and provides value to
-    the American people. Mike lives in Georgia.
-
-    '
+    the American people. Mike lives in Georgia.'
   active: true
   order: 1240
   socials:
@@ -3696,9 +3482,7 @@
   position: Senior User Researcher
   bio: 'Mary''s a researcher, strategic thinker, and user advocate who loves working
     collaboratively. Mary has experience  as a research consultant, non-profit manager,
-    and middle school science teacher. Mary lives in California.
-
-    '
+    and middle school science teacher. Mary lives in California.'
   active: true
   order: 1250
   socials:
@@ -3725,9 +3509,7 @@
   position: Staff Data Engineer
   bio: 'Arin''s a data engineer who specializes in building applications focused on
     health technology,  improving healthcare interoperability, and addressing diverse
-    data needs. Arin lives in California.
-
-    '
+    data needs. Arin lives in California.'
   active: true
   order: 1260
   socials:
@@ -3750,9 +3532,7 @@
   position: Senior Product Manager
   bio: 'Lainey''s a public health professional turned product manager.  She has a
     passion for solving public health problems by engaging people, process, and technology.  Lainey
-    lives in Louisiana.
-
-    '
+    lives in Louisiana.'
   active: false
   order: 1270
   socials:
@@ -3798,9 +3578,7 @@
   position: Principal Engagement Manager
   bio: 'Bruce is an engagement manager and software leader with deep product management
     expertise. Bruce has a passion  for fostering innovative cultures to create breakthrough
-    products. Bruce lives in Illinois.
-
-    '
+    products. Bruce lives in Illinois.'
   active: true
   order: 1290
   socials:
@@ -3819,9 +3597,7 @@
   position: Senior User Researcher
   bio: 'Miringu''s a researcher focused on the intersection of humans and technology.
     Miringu specializes in  human-centered design, including user experience research
-    and usability testing. Miringu lives in California.
-
-    '
+    and usability testing. Miringu lives in California.'
   active: true
   order: 1300
   socials:
@@ -3841,9 +3617,7 @@
   bio: 'Alex is a data scientist who''s passionate about using data to create more
     equitable public outcomes.  Previously, Alex used machine learning at the National
     Institutes of Health to help public water systems  identify and remove lead pipes.
-    Alex lives in California.
-
-    '
+    Alex lives in California.'
   active: true
   order: 1310
   socials:
@@ -3866,9 +3640,7 @@
   position: Senior DevOps Engineer
   bio: 'Mary''s a DevOps engineer who enjoys creating, monitoring, containerizing,
     and observing various technical processes.  Mary takes pride in securing applications.
-    Mary lives in Washington.
-
-    '
+    Mary lives in Washington.'
   active: true
   order: 1320
   socials:
@@ -3891,9 +3663,7 @@
   position: Staff Product Manager
   bio: 'Monica''s a product manager who loves leveraging people''s strengths to solve
     complex problems.  Monica previously worked at Amazon, specializing in ecommerce.
-    Monica lives in California.
-
-    '
+    Monica lives in California.'
   active: true
   order: 1330
   socials:
@@ -3913,9 +3683,7 @@
   bio: 'Eileen''s a user researcher who loves collaborating on systems that solve
     real-world problems and reduce toil  for the people they serve. Eileen applies
     expertise in qualitative research and library science to help  teams make decisions
-    grounded in empathy and evidence. Eileen lives in New York.
-
-    '
+    grounded in empathy and evidence. Eileen lives in New York.'
   active: true
   order: 1340
   socials:
@@ -3934,9 +3702,7 @@
   position: Senior Data Engineer
   bio: 'Rob''s a data engineer with experience in the education and civic tech space.
     Rob uses technical knowledge  to help others, provide insight, and advance social
-    good. Rob lives in Massachusetts.
-
-    '
+    good. Rob lives in Massachusetts.'
   active: true
   order: 1350
   socials:
@@ -3959,9 +3725,7 @@
   position: Staff Product Manager
   bio: 'Janki''s a product manager with a passion for modernizing software to improve
     people''s access to health services.  Janki specializes in big data problems and
-    genetics. Janki lives in Massachusetts.
-
-    '
+    genetics. Janki lives in Massachusetts.'
   active: true
   order: 1360
   socials:
@@ -3985,9 +3749,7 @@
   bio: 'Eric''s a software engineer with 20+ years of experience designing and building
     web applications  and ETL pipelines. Eric''s devoted to developing simple systems
     that are intuitive for users  and easy for organizations to evolve. Eric lives
-    in Oregon.
-
-    '
+    in Oregon.'
   active: true
   order: 1370
   socials:
@@ -4007,9 +3769,7 @@
   bio: 'Roger''s a software engineer specializing in full-stack web development, API
     design, and developer experience.  Coming from public and private sector roles
     at 18F and HashiCorp, Roger loves approaching complex problems  from a holistic
-    perspective. Roger lives in Illinois.
-
-    '
+    perspective. Roger lives in Illinois.'
   active: true
   order: 1380
   socials:
@@ -4037,9 +3797,7 @@
   bio: 'Dana''s a user researcher dedicated to improving healthcare experiences. Dana''s
     helped redesign electronic  medical records, led product design teams, reimagined
     hospital offerings, and launched a mental health app  for teenagers. Dana lives
-    in Oregon.
-
-    '
+    in Oregon.'
   active: true
   order: 1390
   socials:
@@ -4063,9 +3821,7 @@
   bio: 'Karina''s a product manager who enjoys collaborating with others to solve
     challenging problems  through delightful solutions. Karina received an MBA from
     Northwestern Kellogg and has previous  experience in marketing and software development.
-    Karina lives in Illinois.
-
-    '
+    Karina lives in Illinois.'
   active: true
   order: 1400
   socials:
@@ -4084,9 +3840,7 @@
   position: Staff Software Engineer
   bio: 'Amy''s a software engineer with experience in software development and higher
     education.  An academic at heart, Amy''s passionate about pursuing knowledge of
-    all types and levels.  Amy lives in Oregon.
-
-    '
+    all types and levels.  Amy lives in Oregon.'
   active: true
   order: 1410
   socials:
@@ -4106,9 +3860,7 @@
   bio: 'Brandon''s a researcher and product strategist with over eight years of experience
     driving accessibility and ethical practices in technology.  At companies like
     Meta and Spotify, he shaped product development with user-centric design to ensure
-    digital experiences are engaging and inclusive.  Brandon lives in Texas.
-
-    '
+    digital experiences are engaging and inclusive.  Brandon lives in Texas.'
   active: false
   order: 1420
   socials:
@@ -4127,9 +3879,7 @@
   position: Staff Product Manager
   bio: 'Holly''s a product manager with a robust background in user experience research
     and design,  dedicated to streamlining government services so teams can focus
-    on their missions. Holly lives in Virginia.
-
-    '
+    on their missions. Holly lives in Virginia.'
   active: true
   order: 1430
   socials:
@@ -4154,9 +3904,7 @@
     design, passionate  about helping organizations succeed with transformation and
     modernization. Austin’s at Austin''s best  when coaching cross-functional teams
     to excel and representing complex technology in simple terms.  Austin lives in
-    New York.
-
-    '
+    New York.'
   active: true
   order: 1440
   socials:
@@ -4200,9 +3948,7 @@
   bio: 'Anke''s a design leader and educator, who uses a human-centered approach to
     design effective and equitable products and services.  She''s dedicated to using
     her design skills to effect positive change and is deeply committed to building
-    partnerships and including users in the design process.  Anke lives in New York.
-
-    '
+    partnerships and including users in the design process.  Anke lives in New York.'
   active: false
   order: 1460
   socials:
@@ -4226,9 +3972,7 @@
   bio: 'Andrew''s a data engineer with wide-ranging industry experience, having worked
     with Silicon Valley startups,  GIS, aerospace, and the Peace Corps. Andrew''s
     an expert at transforming customer pain points into technical  requirements. Andrew
-    lives in Georgia.
-
-    '
+    lives in Georgia.'
   active: true
   order: 1470
   socials:
@@ -4252,9 +3996,7 @@
   bio: 'Matt''s a software engineer with nearly 20 years of experience designing and
     building platforms  across a myriad of verticals. Matt has a passion for big-picture
     strategic technical design, unlocking data  through APIs, and using skills for
-    the greater good. Matt lives in Texas.
-
-    '
+    the greater good. Matt lives in Texas.'
   active: true
   order: 1480
   socials:
@@ -4278,9 +4020,7 @@
   bio: 'Katie''s a software engineer who delights in building things that are both
     useful and beautiful.  Katie most recently worked with the Centers for Medicare
     & Medicaid Services on web and API development  and was an arts administrator
-    prior to a career in tech. Katie lives in Minnesota.
-
-    '
+    prior to a career in tech. Katie lives in Minnesota.'
   active: true
   order: 1490
   socials:
@@ -4299,9 +4039,7 @@
   position: Principal User Researcher
   bio: 'Laura''s a results-driven user researcher with a passion for human-centered
     design. With expertise  in large, complex organizations, Laura’s helped lead and
-    develop enterprise-wide digital experience solutions.  Laura lives in Oregon.
-
-    '
+    develop enterprise-wide digital experience solutions.  Laura lives in Oregon.'
   active: true
   order: 1500
   socials:
@@ -4325,9 +4063,7 @@
   bio: 'Mike''s a software engineering leader who loves mentoring and guiding others
     in the field. Mike''s a U.S. Air Force Veteran  and an entrepreneur at heart,
     having built and sold a first company from a dorm room at Eielson Air Force Base,
-    Alaska.  Mike lives in Texas.
-
-    '
+    Alaska.  Mike lives in Texas.'
   active: true
   order: 1510
   socials:
@@ -4353,9 +4089,7 @@
     Technologists and has served in both delivery  and operations roles at the Defense
     Digital Service, U.S. Digital Service, and Code for America.  Christopher''s also
     a Veteran of the U.S. Army — serving with the mechanized infantry in Iraq.  Christopher
-    lives in Illinois.
-
-    '
+    lives in Illinois.'
   active: true
   order: 1520
   socials:
@@ -4384,9 +4118,7 @@
     enabling the warfighter.  Brandon previously worked at Cisco and IBM to bring
     modern solutions and capabilities to DoD service members  and other civil servants.
     Most recently, Brandon was at Platform One, an Air Force software factory.  Brandon
-    lives in Alabama.
-
-    '
+    lives in Alabama.'
   active: true
   order: 1530
   socials:
@@ -4406,9 +4138,7 @@
   bio: 'Kyle is a software engineer with experience in both consumer goods and civic
     tech, most recently serving as CTO  at a health tech startup. Kyle leverages skills
     to make a positive impact, both professionally and personally.  Kyle is based
-    in Georgia.
-
-    '
+    in Georgia.'
   active: true
   order: 1540
   socials:
@@ -4432,9 +4162,7 @@
   bio: 'Lauryn is a content designer with a diverse background in public health, human-centered
     design, and journalism.  After years in both the non-profit and private sectors,
     Lauryn''s excited to have transitioned into civic tech,  focusing on making public
-    services work for everyone. Lauryn lives in California.
-
-    '
+    services work for everyone. Lauryn lives in California.'
   active: true
   order: 1550
   socials:
