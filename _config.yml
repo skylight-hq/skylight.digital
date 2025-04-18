@@ -1,22 +1,18 @@
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently. For technical reasons, this
-# file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
-
-# Site settings
+# Global site settings — set up once, rarely change. Restart server after editing.
 title: Skylight - Digital government consulting
 email: hello@skylight.digital
 description: Skylight is a digital consultancy using design and technology to help government agencies deliver better public services.
 published: 2017-06-18
 modified: 2020-05-29
-destination: ./build
 
-baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /:title/
+# URLs & paths
 url: https://skylight.digital
+baseurl: ""                # the subpath of your site — e.g. /blog
+destination: ./build
+permalink: /:title/
 localhost: localhost:4000
+
+# Social & integration links
 twitter_url: https://twitter.com/skylight_hq
 github_repo_url: https://github.com/skylight-hq
 github_issues_url: https://github.com/skylight-hq/skylight.digital/issues
@@ -26,13 +22,18 @@ hackerone_url: https://hackerone.com/skylight_qgvpb
 slack_invite_url: ""
 youtube_url: https://youtube.com/channel/UCbNzANEv5xYqfMbDrv8kcEw
 
+# Company data
 employee_count: 115
 state_count: 29
 
-# Build settings
+# Build & development
 incremental: true
 livereload: true
 
+# Feature flags
+show_personal_socials: true
+
+# Usernames (for Jekyll plugins/themes)
 twitter:
   username: skylight_hq
 github:
@@ -40,13 +41,16 @@ github:
 linkedin:
   username: skylight-hq
 
+# Analytics
 analytics:
   google:
-    code: "UA-93543424-1" # change this to your Google analytics code
+    code: "UA-93543424-1"
 
+# Related posts logic
 posts_max_related: 3
 posts_min_common_tags: 2
 
+# Collections
 collections:
   projects:
     output: true
@@ -77,7 +81,7 @@ collections:
     output: true
     permalink: /thoughts/talks/speaker/:name/
 
-# Pagination Settings
+# Pagination
 pagination:
   enabled: true
   debug: false
@@ -87,9 +91,11 @@ pagination:
   title: ":title"
   limit: 0
 
+# SASS
 sass:
   style: compressed
 
+# Exclude from build
 exclude:
   - .eslintrc
   - .gitignore
@@ -107,17 +113,17 @@ exclude:
   - docs
   - lighthouse
 
-# Jekyll plugins
+# Plugins & gems
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-paginate-v2
   - jekyll-image-size
   - jekyll-feed
-
 gems:
   - octopress-debugger
 
+# Atom/RSS feeds
 feed:
   collections:
     projects:
@@ -127,12 +133,7 @@ feed:
     talks:
       path: "/talks.xml"
 
-show_personal_socials: true
-
-
-################################
-# For batch conversion of svgs
-################################
+# SVG batch conversion — uncomment to enable
 # imagemagick:
 #   enabled: true
 #   widths:
@@ -142,4 +143,6 @@ show_personal_socials: true
 #   input_formats:
 #     - ".svg"
 #   output_formats:
-#     png: "-quality 100% -density 600 -background white  -flatten -verbose -fill 'rgba(255,0,0,0)'"
+#     png: >
+#       -quality 100% -density 600 -background white -flatten -verbose
+#       -fill 'rgba(255,0,0,0)'
