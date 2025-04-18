@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '>=3.1.0'
 
-gem "nokogiri", ">= 1.18.3"
+gem 'nokogiri', '~> 1.15'
 gem "jekyll", "4.4.1"
 gem "webrick"
 # Force older sass converter that doesn't use sass-embedded
