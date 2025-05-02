@@ -1077,11 +1077,7 @@
   image_description: Photo of Julia Hogan
   position: Software Engineer
   bio: |
-    Julia's a software engineer thrilled she's figured out how to use
-    technology to help people. Julia's committed to improving government
-    services through smart digital solutions. Julia most recently worked for
-    NYC government building sites and services to increase data access. Julia
-    lives in New York.
+    Julia is a software engineer thrilled to have found a way to use technology to help people. Julia is committed to improving government services through smart digital solutions. Most recently, Julia worked for NYC government building sites and services to increase data access. Julia lives in New York.
   active: false
   order: 320
   socials:
@@ -1224,10 +1220,7 @@
   image_description: Illustration of Nick Clyde
   position: Staff Software Engineer
   bio: |
-    Nick's a software engineer passionate about using technology to solve the
-    right problems. Nick enjoys building APIs, designing and optimizing
-    databases, and crafting system architectures. Nick has experience improving
-    high-traffic government digital services. Nick lives in California.
+    Nick's asoftware engineer passionate about building scalable, open-source tools that make public health data more accessible and useful. With nearly a decade of experience developing web applications and data pipelines, Nick has led technical efforts for government agencies like the CDC, modernizing critical systems with cloud-native technologies. Nick thrives at the intersection of infrastructure, health, and public service, and enjoys mentoring teammates and shipping code that solves real-world problems. Nick lives in Sacramento, California, with family and three cats.
   active: true
   order: 370
   socials:
@@ -1921,11 +1914,7 @@
   image_description: Illustration of Leslie Garner Franklin
   position: VP of Human Services
   bio: |
-    Leslie's a product manager with nearly two decades of experience leading
-    teams and change efforts across the non-profit and public sectors. Leslie's
-    passionate about the role technology and design play in delivering great
-    services. Leslie specializes in cross-functional team leadership, user
-    experience research, and service design. Leslie lives in North Carolina.
+    Leslie leads Skylight's Health + Civilian Services business unit as Vice President. With more than 20 years of experience spanning delivery, strategy, and team leadership, Leslie is passionate about building high-performing, human-centered teams that thrive in mission-driven environments. Based in Asheville, NC, Leslie is also a distance runner, aspiring pianist, and parent to two elementary-aged children and one spunky dog.
   active: true
   order: 620
   socials:
@@ -2176,10 +2165,7 @@
   image_description: Illustration of Bob Zhao
   position: Software Engineer
   bio: |
-    Bob's a software engineer pursuing solutions to large-scale problems that
-    matter. In 2020 Bob served as a Civic Digital Fellow at the National
-    Institutes of Health and is earning a master's degree in computer science
-    at Washington University in St. Louis. Bob lives in Missouri.
+    Bob's an engineer who loves bridging the gaps with design and product colleagues. Bob thrives in situations that allow cross-pollination of engineering training with approaches from other disciplines, believing this produces solutions that are more robust, delightful, and useful. Bob studied economics, computer science, and human-computer interaction at Washington University in St. Louis and lives in New York. 
   active: true
   order: 710
   socials:
@@ -2206,10 +2192,7 @@
   image_description: Illustration of Ashton Tu
   position: Product Designer
   bio: |
-    Ashton's a product designer who recently graduated from the University of
-    Southern California. As a 2020 Civic Digital Fellow with the General
-    Services Administration, Ashton discovered a passion for civic tech.
-    Ashton lives in California.
+    Ashton's a product designer motivated by systems thinking and storytelling to develop scalable solutions. Ashton deeply rooted in grassroots organizations, and co-creates with local communities—from streamlining food equity processes to directing volunteer initiatives. Ashton lives in New York.
   active: true
   order: 720
   socials:
@@ -2315,11 +2298,7 @@
   image_description: Photo of Taylor Graue
   position: VP of Defense Services
   bio: |
-    Taylor's an Air Force veteran passionate about delivering value and highly
-    effective solutions to the Department of Defense. Taylor most recently
-    worked as a product manager and designer at Kessel Run. Taylor specializes
-    in strategy, human-centered design, and relationship building. Taylor lives
-    in Texas.
+    Taylor's an Air Force veteran passionate about building user-friendly products, delivering value to government clients, and leading high-performing teams. Currently serving as VP of Defense Services, Taylor drives strategic growth, leads multidisciplinary teams, and ensures mission success across defense engagements. Taylor lives in Dallas.
   active: true
   order: 760
   socials:
@@ -2327,10 +2306,6 @@
       link: https://linkedin.com/in/taylorgraue
       link_description: Taylor's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.taylorgraue.com/
-      link_description: Taylor's Personal Website
-      fa_icon_name: home
     - name: Projects
       link: /work/team-member/taylor-graue/
       link_description: Taylor's Project Work
@@ -2346,11 +2321,7 @@
   image_description: Illustration of Laura Kerry
   position: Staff Content Designer
   bio: |
-    Laura's a content designer who specializes in content strategy, design,
-    operations, and governance. Laura loves distilling complex information into
-    human-centered content and enjoys empowering others to do the same. Laura
-    most recently worked at the NYC Mayor's Office for Economic Opportunity and
-    lives in Hawaii.
+    Laura’s a content designer who specializes in content strategy, design, operations, and governance. Laura loves distilling complex information into human-centered content that considers the whole system. Laura most recently worked at the NYC Mayor’s Office for Economic Opportunity and lives in Washington, DC.
   active: true
   order: 770
   socials:
@@ -2373,9 +2344,7 @@
   image_description: Illustration of Emma Stephenson
   position: Staff Software Engineer
   bio: |
-    Emma's a software engineer passionate about creating user-centered
-    products. Emma previously worked at Google and has deep experience with
-    APIs, microservices, and DevOps. Emma lives in California.
+    Emma's a product manager passionate about creating user-centered products that have real impact. Emma enjoys getting into the weeds of engineering, working with stakeholders, and creating happy, productive teams. Emma lives in California.
   active: true
   order: 780
   socials:
@@ -2761,10 +2730,7 @@
   image_description: Illustration of Kyle Planeaux
   position: Senior Product Manager
   bio: |
-    Kyle's a product manager with years of experience in the defense space.
-    Previously, Kyle was a civilian product manager for the Space Force. Kyle
-    studied chemical engineering at USC and is earning a graduate degree in
-    computer science from Georgia Tech. Kyle lives in California.
+    Kyle’s a product manager with years of experience in the defense and public health spaces. Previously, Kyle was a civilian product manager for the Space Force. Kyle studied chemical engineering at USC and has a graduate degree in computer science from Georgia Tech. Kyle lives in Los Angeles.
   active: true
   order: 910
   socials:
@@ -3273,10 +3239,7 @@
   image_description: Illustration of Amrita Kaur Bhatti
   position: Staff Product Manager
   bio: |
-    Amrita's a product manager who enjoys teaming up with people and technology
-    to create meaningful solutions. Amrita previously managed products at
-    McMaster-Carr and has experience as a software engineer. Amrita lives in
-    California.
+    Amrita's a product manager who loves sitting at the intersection of technology, people, and business. With over a decade of experience in software and product, an MBA from Chicago Booth, and background in education and neuroscience, Amrita works with users and stakeholders to bring meaningful products to life, all while having fun along the way. Amrita lives in California.
   active: true
   order: 1080
   socials:
@@ -3538,13 +3501,9 @@
   profile_path: /company/about/#angela-the
   image: /img/people/angela-the.svg
   image_description: Illustration of Angela The
-  position: Software Engineer Apprentice
+  position: Software Engineer
   bio: |
-    Angela's a software-engineer apprentice passionate about building
-    human-centered tools that improve access to public benefits and services.
-    Angela pursued a master's in computer science and public policy and
-    previously served as a Civic Innovation Corps Fellow for the City of San
-    José. Angela lives in California.
+    Angela's a software engineer passionate about building human-centered tools that improve access to public benefits and services. Angela pursued a master's in computer science and public policy and previously served as a Civic Innovation Corps Fellow for the City of San José. Angela lives in California.
   active: true
   order: 1180
   socials:
@@ -3713,10 +3672,7 @@
   image_description: Illustration of Mike Judd
   position: Chief Operating Officer, Human Services
   bio: |
-    Mike's a technologist, community builder, and bureaucracy hacker with
-    more than 10 years at the Centers for Disease Control and Prevention. Mike's
-    passionate about improving how government interacts with and provides value
-    to the American people. Mike lives in Georgia.
+    Mike's a technologist committed to modernizing how government serves the American people in the digital age. As Skylight’s COO for Federal Health & Civilian Services, Mike leads the growth and sustainability of Skylight's public health portfolio through strategic partnerships, thought leadership, and delivery excellence. Recognized by leaders across the public and private sectors, Mike excels at forging innovative partnerships around emerging technologies in times of national emergency and guiding products and cross-functional teams through launch, growth, change, and crisis. Based in Atlanta, GA, Mike enjoys playing Ultimate Frisbee and spending time with family and two dogs.
   active: true
   order: 1240
   socials:
@@ -3765,9 +3721,7 @@
   image_description: Illustration of Arin Kulshi
   position: Staff Data Engineer
   bio: |
-    Arin's a data engineer specializing in applications for health technology.
-    Arin has improved healthcare interoperability and addressed diverse data
-    needs. Arin lives in California.
+    Arin's an engineer with an expertise in backend systems, data pipelines, and healthcare IT, currently working on projects in the public health reporting space. With a background that spans software, data engineering, and product-focused innovation, Arin is especially interested in solving real-world problems at the intersection of AI, data infrastructure, and public health. Arin is based in Sunnyvale, California.
   active: true
   order: 1260
   socials:
