@@ -51,8 +51,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /company/about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.svg
+  image_description: Illustration of Sean Johnson
   position: Principal Software Engineer
   bio: |
     Sean's built and exited two tech startups — one of which IBM acquired.
@@ -85,8 +85,8 @@
   full_name: Robert Read
   short_name: R. Read
   profile_path: /company/about/#robert-read
-  image: /img/people/robert-read.jpg
-  image_description: Photo of Robert Read
+  image: /img/people/robert-read.svg
+  image_description: Illustration of Robert Read
   position: Principal Software Engineer
   bio: |
     Robert served as a Presidential Innovation Fellow and co-founded 18F.
@@ -166,8 +166,8 @@
   full_name: Geoff Mulligan
   short_name: G. Mulligan
   profile_path: /company/about/#geoff-mulligan
-  image: /img/people/geoff-mulligan.jpg
-  image_description: Photo of Geoff Mulligan
+  image: /img/people/geoff-mulligan.svg
+  image_description: Illustration of Geoff Mulligan
   position: IoT Practice Lead
   bio: |
     Geoff served as a Presidential Innovation Fellow and developed standards
