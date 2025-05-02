@@ -2889,7 +2889,7 @@
     distributed teams building social-media and streaming platforms. Jayna
     moved into civic tech to work on a Department of Defense project and now
     lives in Ohio.
-  active: true
+  active: false
   order: 950
   socials:
     - name: Twitter
@@ -3008,7 +3008,7 @@
     the world a better place. In 2021 Bobby served as a Civic Digital Fellow at
     the Census Bureau and graduated from Tufts University. Bobby lives in
     Colorado.
-  active: true
+  active: false
   order: 990
   socials:
     - name: LinkedIn
@@ -3037,7 +3037,7 @@
     Kenneth's a software engineer who specializes in building cloud-based
     applications. Kenneth advocates serverless design to scale systems while
     cutting costs. Kenneth lives in California.
-  active: true
+  active: false
   order: 1000
   socials:
     - name: LinkedIn
@@ -4248,7 +4248,7 @@
     craft effective, equitable products and services. Anke's committed to
     building partnerships and including users throughout the design process.
     Anke lives in New York.
-  active: true
+  active: false
   order: 1460
   socials:
     - name: LinkedIn
