@@ -2595,7 +2595,7 @@
   full_name: Alis Akers
   short_name: A. Akers
   profile_path: /company/about/#alis-akers
-  image: /img/people/alis-akers.png
+  image: /img/people/alis-akers.svg
   image_description: Illustration of Alis Akers
   position: Senior DevOps Engineer
   bio: |
@@ -2662,7 +2662,7 @@
   full_name: Ryan Gaddis
   short_name: R. Gaddis
   profile_path: /company/about/#ryan-gaddis
-  image: /img/people/ryan-gaddis.png
+  image: /img/people/ryan-gaddis.svg
   image_description: Illustration of Ryan Gaddis
   position: Staff Product Designer
   bio: |
@@ -3021,7 +3021,7 @@
   full_name: Camille Villa
   short_name: C. Villa
   profile_path: /company/about/#camille-villa
-  image: /img/people/camille-villa.png
+  image: /img/people/camille-villa.svg
   image_description: Illustration of Camille Villa
   position: Senior Software Engineer
   bio: |
@@ -3171,7 +3171,7 @@
   full_name: Josh Nygaard
   short_name: J. Nygaard
   profile_path: /company/about/#josh-nygaard
-  image: /img/people/josh-nygaard.png
+  image: /img/people/josh-nygaard.svg
   image_description: Illustration of Josh Nygaard
   position: Senior Software Engineer
   bio: |
@@ -3235,7 +3235,7 @@
   full_name: Amrita Kaur Bhatti
   short_name: A. Bhatti
   profile_path: /company/about/#amrita-bhatti
-  image: /img/people/amrita-bhatti.png
+  image: /img/people/amrita-bhatti.svg
   image_description: Illustration of Amrita Kaur Bhatti
   position: Staff Product Manager
   bio: |
@@ -3319,7 +3319,7 @@
   full_name: Jill Fromewick
   short_name: J. Fromewick
   profile_path: /company/about/#jill-fromewick
-  image: /img/people/jill-fromewick.png
+  image: /img/people/jill-fromewick.svg
   image_description: Illustration of Jill Fromewick
   position: Staff User Researcher
   bio: |
@@ -3928,7 +3928,7 @@
   full_name: Rob Mitchell
   short_name: R. Mitchell
   profile_path: /company/about/#rob-mitchell
-  image: /img/people/rob-mitchell.png
+  image: /img/people/rob-mitchell.svg
   image_description: Illustration of Rob Mitchell
   position: Senior Data Engineer
   bio: |
@@ -3953,7 +3953,7 @@
   full_name: Janki Kaneria
   short_name: J. Kaneria
   profile_path: /company/about/#janki-kaneria
-  image: /img/people/janki-kaneria.png
+  image: /img/people/janki-kaneria.svg
   image_description: Illustration of Janki Kaneria
   position: Staff Product Manager
   bio: |
