@@ -1167,7 +1167,7 @@
     solve. Zack has helped form design teams and served as a design leader in
     the non-profit, financial-investments, and healthcare industries. Zack
     lives in Florida.
-  active: true
+  active: false
   order: 350
   socials:
     - name: LinkedIn
@@ -1397,7 +1397,7 @@
     Elisa's a software engineer eager to use technology for positive change in
     communities. Elisa previously worked in developer tools, education-technology,
     and non-profit spaces. Elisa lives in Minnesota.
-  active: true
+  active: false
   order: 430
   socials:
     - name: LinkedIn
@@ -1632,7 +1632,7 @@
     Kenny's a product designer, inclusive-systems thinker, and people person who
     guides products through the entire design life cycle. Kenny lives in
     California.
-  active: true
+  active: false
   order: 510
   socials:
     - name: LinkedIn
@@ -2397,7 +2397,7 @@
     intersection of technology and public service. Sarah recently graduated
     from Oxford with a master's in Development Studies as a Rhodes Scholar
     after studying Mechanical Engineering at MIT. Sarah lives in New York.
-  active: true
+  active: false
   order: 800
   socials:
     - name: LinkedIn
@@ -2455,7 +2455,7 @@
     healthcare, education, and real-estate industries. Jennifer studied
     Cognitive Science with a specialization in Human-Computer Interaction at
     UC San Diego and lives in California.
-  active: true
+  active: false
   order: 820
   socials:
     - name: LinkedIn
@@ -2577,7 +2577,7 @@
     serving as a search-and-rescue aircrew member and command officer. Rin
     previously served with the United States Coast Guard Auxiliary as National
     Division Chief of Software Engineering. Rin lives in Illinois.
-  active: true
+  active: false
   order: 860
   socials:
     - name: LinkedIn
@@ -2662,7 +2662,7 @@
   full_name: Ryan Gaddis
   short_name: R. Gaddis
   profile_path: /company/about/#ryan-gaddis
-  image: /img/people/ryan-gaddis.svg
+  image: /img/people/ryan-gaddis.png
   image_description: Illustration of Ryan Gaddis
   position: Staff Product Designer
   bio: |
@@ -2948,7 +2948,7 @@
     Johanna focuses on web applications and front-end technologies and has
     built solutions for the Department of Veterans Affairs and the Centers for
     Medicare & Medicaid Services. Johanna lives in Pennsylvania.
-  active: true
+  active: false
   order: 980
   socials:
     - name: LinkedIn
@@ -3149,7 +3149,7 @@
     and in building APIs and robust applications. For nearly seven years Lina
     developed benefits-management software for Veterans Affairs. Lina enjoys
     making the world more inclusive and lives in South Carolina.
-  active: true
+  active: false
   order: 1050
   socials:
     - name: LinkedIn
@@ -3695,7 +3695,7 @@
     collaborating. Mary brings experience as a research consultant,
     non-profit manager, and middle-school science teacher. Mary lives in
     California.
-  active: true
+  active: false
   order: 1250
   socials:
     - name: LinkedIn
@@ -3892,7 +3892,7 @@
     Monica's a product manager who loves leveraging people's strengths to solve
     complex problems. Monica previously worked at Amazon, specializing in
     e-commerce. Monica lives in California.
-  active: true
+  active: false
   order: 1330
   socials:
     - name: LinkedIn
@@ -3914,7 +3914,7 @@
     real-world problems and reduce toil for the people they serve. Eileen
     applies expertise in qualitative research and library science to help teams
     make decisions grounded in empathy and evidence. Eileen lives in New York.
-  active: true
+  active: false
   order: 1340
   socials:
     - name: LinkedIn
@@ -4038,7 +4038,7 @@
     Dana redesigned electronic medical records, led product-design teams,
     reimagined hospital offerings, and launched a mental-health app for
     teenagers. Dana lives in Oregon.
-  active: true
+  active: false
   order: 1390
   socials:
     - name: LinkedIn
@@ -4280,7 +4280,7 @@
     useful and beautiful. Katie recently worked with CMS on web and API
     development and previously served as an arts administrator. Katie lives in
     Minnesota.
-  active: true
+  active: false
   order: 1490
   socials:
     - name: LinkedIn
@@ -4353,7 +4353,7 @@
     of Civic Technologists and served at the Defense Digital Service, U.S.
     Digital Service, and Code for America. A U.S. Army veteran, Christopher
     lives in Illinois.
-  active: true
+  active: false
   order: 1520
   socials:
     - name: LinkedIn
