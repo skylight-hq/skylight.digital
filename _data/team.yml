@@ -2701,7 +2701,7 @@
     expertise to civic tech. Ryan strives to make thoughtful decisions and
     challenge assumptions and also volunteers as a firefighter in the
     community. Ryan lives in Colorado.
-  active: true
+  active: false
   order: 890
   socials:
     - name: Twitter
@@ -3913,7 +3913,7 @@
     Mary's a DevOps engineer who enjoys creating, monitoring, containerizing,
     and observing technical processes. Mary takes pride in securing
     applications. Mary lives in Washington.
-  active: true
+  active: false
   order: 1320
   socials:
     - name: LinkedIn
