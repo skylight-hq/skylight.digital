@@ -3932,9 +3932,7 @@
   image_description: Illustration of Rob Mitchell
   position: Senior Data Engineer
   bio: |
-    Rob's a data engineer with experience in education and civic tech. Rob uses
-    technical knowledge to help others, provide insight, and advance social
-    good. Rob lives in Massachusetts.
+    Rob’s a data engineer with experience in education and civic tech. Rob uses technical knowledge to help others, provide insight, and advance social good. Rob lives in Pennsylvania.
   active: true
   order: 1350
   socials:
@@ -4438,3 +4436,393 @@
       link: https://www.linkedin.com/in/lauryn-claassen/
       link_description: Lauryn's LinkedIn Account
       fa_icon_name: linkedin
+
+- name: andrew-schreiber
+  fname: Andrew
+  lname: Schreiber
+  full_name: Andrew Schreiber
+  short_name: A. Schreiber
+  profile_path: /company/about/#andrew-schreiber
+  image: /img/people/andrew-schreiber.svg
+  image_description: Illustration of Andrew Schreiber
+  position: Staff Software Engineer
+  bio: |
+    Andrew's a software engineer with a long history of rapid prototyping to help explore a problem space. Andrew prides himself on reaching into an extensive bag of tricks and bringing solutions from a myriad of domains ranging from robotics to game design. Andrew believes that learning new things helps to find new ways to look at unrelated problems.
+  active: true
+  order: 1560
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/schreiaj
+      link_description: Andrew's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/schreiaj
+      link_description: Andrew's GitHub Account
+      fa_icon_name: github
+      
+- name: austin-hall
+  fname: Austin
+  lname: Hall
+  full_name: Austin Hall
+  short_name: A. Hall
+  profile_path: /company/about/#austin-hall
+  image: /img/people/austin-hall.svg
+  image_description: Illustration of Austin Hall
+  position: Staff Software Engineer
+  bio: |
+    Austin's a software engineer with experience in the healthcare and insurance industries. Austin is passionate about advancing healthcare data interoperability and democratization to drive better patient outcomes. Austin lives in Kentucky.
+  active: true
+  order: 1570
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/austin-c-hall/
+      link_description: Austin's LinkedIn Account
+      fa_icon_name: linkedin
+      
+- name: cara-pickett
+  fname: Cara
+  lname: Pickett
+  full_name: Cara Pickett
+  short_name: C. Pickett
+  profile_path: /company/about/#cara-pickett
+  image: /img/people/cara-pickett.svg
+  image_description: Illustration of Cara Pickett
+  position: Senior Content Designer
+  bio: |
+    Cara's a content designer and communications specialist who enjoys translating complex information into clear, accessible digital experiences. Cara's approach to strategy, design, and relationship-building centers empathy and a commitment to equity. Cara's previously worked in the tech, higher ed, and non-profit sectors. Cara lives in Ohio.
+  active: true
+  order: 1580
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/cara-pickett/
+      link_description: Cara's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: cheyenne-meredith
+  fname: Cheyenne
+  lname: Meredith
+  full_name: Cheyenne Meredith
+  short_name: C. Meredith
+  profile_path: /company/about/#cheyenne-meredith
+  image: /img/people/cheyenne-meredith.svg
+  image_description: Illustration of Cheyenne Meredith
+  position: Talent Acquisition Partner
+  bio: |
+    Cheyenne's a recruiter with 7+ years of experience in recruiting/talent acquisition and almost 3 years recruiting for digital service companies. Cheyenne is passionate about making the hiring process seamless and as comfortable as possible. Cheyenne lives in Illinois.
+  active: true
+  order: 1590
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/cheyenne-meredith-7b3469212/
+      link_description: Cheyenne's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: corinne-barker
+  fname: Corinne
+  lname: Barker
+  full_name: Corinne Barker
+  short_name: C. Barker
+  profile_path: /company/about/#corinne-barker
+  image: /img/people/corinne-barker.svg
+  image_description: Illustration of Corinne Barker
+  position: Talent Acquisition Partner
+  bio: |
+    Corinne's a Talent Acquisition Partner who specializes in sourcing top talent to establish and build diverse teams. Corinne focuses on designing creative recruitment strategies that are tailored for individual teams and business needs. Corinne loves partnering with stakeholders to create an inclusive interview process that not only fills positions but also enhances workplace culture.
+  active: true
+  order: 1600
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/corinne-barker/
+      link_description: Corinne's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: jackie-ostrowski
+  fname: Jackie
+  lname: Ostrowski
+  full_name: Jackie Ostrowski
+  short_name: J. Ostrowski
+  profile_path: /company/about/#jackie-ostrowski
+  image: /img/people/jackie-ostrowski.svg
+  image_description: Illustration of Jackie Ostrowski
+  position: Staff Content Designer
+  bio: |
+    Jackie's a content designer who specializes in transforming complex information into accessible, human-centered user experiences. Jackie has led content design and strategy for projects that improved patient experiences and access to care, as well as redesigned educational websites for more equitable access. Jackie lives in Chicago.
+  active: true
+  order: 1610
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jacquelineostrowski/
+      link_description: Jackie's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://jacquelineostrowski.com/
+      link_description: Jackie's Personal Website
+      fa_icon_name: home
+
+- name: jake-wheeler
+  fname: Jake
+  lname: Wheeler
+  full_name: Jake Wheeler
+  short_name: J. Wheeler
+  profile_path: /company/about/#jake-wheeler
+  image: /img/people/jake-wheeler.svg
+  image_description: Illustration of Jake Wheeler
+  position: Staff Software Engineer
+  bio: |
+    Jake's a software engineer dedicated to streamlining complex processes and enhancing user experiences. Jake has expertise in modernizing legacy systems, developing full-stack web applications, and leveraging cloud environments while adhering to DevOps best practices.
+  active: true
+  order: 1620
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jakewheeler17
+      link_description: Jake's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/jakewheeler
+      link_description: Jake's GitHub Account
+      fa_icon_name: github
+
+- name: jeff-johnson
+  fname: Jeff
+  lname: Johnson
+  full_name: Jeff Johnson
+  short_name: J. Johnson
+  profile_path: /company/about/#jeff-johnson
+  image: /img/people/jeff-johnson.svg
+  image_description: Illustration of Jeff Johnson
+  position: Principal Digital Transformer
+  bio: |
+    Jeff brings a unique blend of product strategy and learning strategy to learning experience design. With a Master’s Degree in Educational Technology, Jeff has been developing learning solutions and bringing learning products to market over the last 15 years. Jeff lives in Washington.
+  active: true
+  order: 1630
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jeffjohnson43/
+      link_description: Jeff's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://jeffjohnson-portfolio.com/
+      link_description: Jeff's Personal Website
+      fa_icon_name: home
+
+- name: jennifer-wilhelm
+  fname: Jennifer
+  lname: Wilhelm
+  full_name: Jennifer Wilhelm
+  short_name: J. Wilhelm
+  profile_path: /company/about/#jennifer-wilhelm
+  image: /img/people/jennifer-wilhelm.svg
+  image_description: Illustration of Jennifer Wilhelm
+  position: Operations Director
+  bio: |
+    Jennifer’s an operations leader passionate about building people-centered systems that make public services work better. Jennifer’s led civic innovation efforts in Pittsburgh and helped streamline government services to improve customer experience. Jennifer lives in Pennsylvania.
+  active: true
+  order: 1640
+  socials:
+    - name: LinkedIn
+      link: www.linkedin.com/in/jenniferbwilhelm
+      link_description: Jennifer's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: khayeni-sanders
+  fname: Khayeni
+  lname: Sanders
+  full_name: Khayeni Sanders
+  short_name: K. Sanders
+  profile_path: /company/about/#khayeni-sanders
+  image: /img/people/khayeni-sanders.svg
+  image_description: Illustration of Khayeni Sanders
+  position: Staff Product Designer
+  bio: |
+    Khayeni's a multidisciplinary designer with experience in the end-to-end UX process. Khayeni has worked as an integrative designer focusing closely on digital and interface design over the past 12+ years. Khayeni has developed a keen interest in product, emerging tech, and civil service. Khayeni is passionate about social justice, human rights, and travel.
+  active: true
+  order: 1650
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/khayeni-sanders/
+      link_description: Lauryn's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://khayeni.com/
+      link_description: Khayeni's Personal Website
+      fa_icon_name: home
+
+- name: kim-connelly
+  fname: Kim
+  lname: Connelly
+  full_name: Kim Connelly
+  short_name: K. Connelly
+  profile_path: /company/about/#kim-connelly
+  image: /img/people/kim-connelly.svg
+  image_description: Illustration of Kim Connelly
+  position: Staff Engagement Manager
+  bio: |
+    Kim has worked primarily in the startup industry for nearly a decade, with a passion for delivering seamless, intuitive experiences. A guiding belief that technology should make lives easier informs much of Kim’s approach. Kim loves diving into tough, messy problems to organize and make sense of things. Kim lives in Chicago.
+  active: true
+  order: 1660
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kimberlyconnelly/
+      link_description: Kim's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: laurel-lawrence
+  fname: Laurel
+  lname: Lawrence
+  full_name: Laurel Lawrence
+  short_name: L. Lawrence
+  profile_path: /company/about/#laurel-lawrence
+  image: /img/people/laurel-lawrence.svg
+  image_description: Illustration of Laurel Lawrence
+  position: Staff Product Designer
+  bio: |
+    Laurel's a product designer with a focus on design, front-end development, and content management support. Laurel’s led design delivery for major public sector platforms like VA.gov, HealthCare.gov, Medicare.gov, and Wisconsin.gov. Laurel's currently supporting the Air Force BESPIN team at Skylight. Laurel holds a BFA in Communication Design and a Master’s Capstone in User Research. Laurel lives in Wisconsin.
+  active: true
+  order: 1670
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laurellawrence/
+      link_description: Laurel's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: http://ninebarkcreative.com/
+      link_description: Laurel's Personal Website
+      fa_icon_name: home
+
+- name: lillian-tran
+  fname: Lillian
+  lname: Tran
+  full_name: Lillian Tran
+  short_name: L. Tran
+  profile_path: /company/about/#lillian-tran
+  image: /img/people/lillian-tran.svg
+  image_description: Illustration of Lillian Tran
+  position: Senior User Researcher
+  bio: |
+    Lillian's a researcher who has helped clients across private and public sectors make sense of challenges and navigate pathways forward. Lillian draws on a background in public health and crisis counseling to get to the heart of complex issues while understanding broader contexts. Lillian lives in New York.
+  active: true
+  order: 1680
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lillian-trann/
+      link_description: Lillian's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: mary-mcgrath
+  fname: Mary
+  lname: McGrath
+  full_name: Mary McGrath
+  short_name: M. McGrath
+  profile_path: /company/about/#mary-mcgrath
+  image: /img/people/mary-mcgrath.svg
+  image_description: Illustration of Mary McGrath
+  position: Staff Software Engineer
+  bio: |
+    Mary's a software engineer who loves learning and improving how systems work at both the human and technical levels. Mary has a wide-ranging background as a technology consultant, data scientist, research software engineer, and was most recently leading a team building a programming language. Mary lives in Rhode Island.
+  active: true
+  order: 1690
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mcmcgrath13/
+      link_description: Mary's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mcmcgrath13
+      link_description: Mary's GitHub Account
+      fa_icon_name: github
+
+- name: michelle-kang
+  fname: Michelle
+  lname: Kang
+  full_name: Michelle Kang
+  short_name: M. Kang
+  profile_path: /company/about/#michelle-kang
+  image: /img/people/michelle-kang.svg
+  image_description: Illustration of Michelle Kang
+  position: Staff Product Designer
+  bio: |
+    Michelle's a mission-driven product designer in New York City who brings clarity to complexity through fast, thoughtful iteration. Rooted in a background in Human Biology from Stanford and training from the d.school, Michelle has spent the last decade designing with empathy and precision for the public good. Michelle has also taught research and design at the Chan Zuckerberg Initiative, CivicActions, and Pivotal Labs — helping teams turn real-world challenges into actionable, human-centered solutions.
+  active: true
+  order: 1700
+  socials:
+    - name: LinkedIn
+      link: https://linkedin.com/in/mikang
+      link_description: Michelle's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mikang
+      link_description: Michelle's GitHub Account
+      fa_icon_name: github
+
+- name: mike-henderson
+  fname: Mike
+  lname: Henderson
+  full_name: Mike Henderson
+  short_name: M. Henderson
+  profile_path: /company/about/#mike-henderson
+  image: /img/people/mike-henderson.svg
+  image_description: Illustration of Mike Henderson
+  position: Senior Product Designer
+  bio: |
+    Mike’s a designer and strategist with over a decade of experience driving digital transformations for private, non-profit, and government clients. Most recently, Mike worked with the Centers for Medicare & Medicaid Services, improving the enrollment experience at HealthCare.gov.
+  active: true
+  order: 1710
+  socials:
+    - name: LinkedIn
+      link: https://linkedin.com/in/mike-henderson-ux
+      link_description: Mike's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://mathfordogs.com
+      link_description: Mike's Personal Website
+      fa_icon_name: home
+
+- name: mindy-huang
+  fname: Mindy
+  lname: Huang
+  full_name: Mindy Huang
+  short_name: M. Huang
+  profile_path: /company/about/#mindy-huang
+  image: /img/people/mindy-huang.svg
+  image_description: Illustration of Mindy Huang
+  position: Principal Product Manager
+  bio: |
+    Mindy's a product manager who specializes in early-stage product strategy. Previously, Mindy worked at Google as an engineer and internal founder before moving on to lead U.S. Digital Response's federal grants portfolio. Mindy is passionate about leveraging technology for the good of the community. Mindy lives in California.
+  active: true
+  order: 1720
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mindyhng/
+      link_description: Mindy's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mindyh
+      link_description: Michelle's GitHub Account
+      fa_icon_name: github
+
+- name: zach-thomas
+  fname: Zach
+  lname: Thomas
+  full_name: Zach Thomas
+  short_name: Z. Thomas
+  profile_path: /company/about/#zach-thomas
+  image: /img/people/zach-thomas.svg
+  image_description: Illustration of Zach Thomas
+  position: Principal Engagement Manager
+  bio: |
+    Zach's a design strategist dedicated to transforming organizations through innovative technology and human-centered design. Zach specializes in research and design operations, striving to create accessible solutions that promote equity and enhance user experiences.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/heyzach 
+      link_description: Zach's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://www.github.com/zachthomas
+      link_description: Zach's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://www.heyzt.com
+      link_description: Zach's Personal Website
+      fa_icon_name: home
