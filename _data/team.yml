@@ -4,8 +4,8 @@
   full_name: Chris Cairns
   short_name: C. Cairns
   profile_path: /company/about/#chris-cairns
-  image: /img/people/chris-cairns.jpg
-  image_description: Photo of Chris Cairns
+  image: /img/people/chris-cairns.svg
+  image_description: Illustration of Chris Cairns
   position: Chief Executive Officer
   bio: |
     Chris served as a Presidential Innovation Fellow — and co-founded 18F and
@@ -51,8 +51,8 @@
   full_name: Sean Johnson
   short_name: S. Johnson
   profile_path: /company/about/#sean-johnson
-  image: /img/people/sean-johnson.jpg
-  image_description: Photo of Sean Johnson
+  image: /img/people/sean-johnson.svg
+  image_description: Illustration of Sean Johnson
   position: Principal Software Engineer
   bio: |
     Sean's built and exited two tech startups — one of which IBM acquired.
@@ -85,8 +85,8 @@
   full_name: Robert Read
   short_name: R. Read
   profile_path: /company/about/#robert-read
-  image: /img/people/robert-read.jpg
-  image_description: Photo of Robert Read
+  image: /img/people/robert-read.svg
+  image_description: Illustration of Robert Read
   position: Principal Software Engineer
   bio: |
     Robert served as a Presidential Innovation Fellow and co-founded 18F.
@@ -166,8 +166,8 @@
   full_name: Geoff Mulligan
   short_name: G. Mulligan
   profile_path: /company/about/#geoff-mulligan
-  image: /img/people/geoff-mulligan.jpg
-  image_description: Photo of Geoff Mulligan
+  image: /img/people/geoff-mulligan.svg
+  image_description: Illustration of Geoff Mulligan
   position: IoT Practice Lead
   bio: |
     Geoff served as a Presidential Innovation Fellow and developed standards
@@ -252,8 +252,8 @@
   full_name: Josh Dorothy
   short_name: J. Dorothy
   profile_path: /company/about/#josh-dorothy
-  image: /img/people/josh-dorothy.jpg
-  image_description: Photo of Josh Dorothy
+  image: /img/people/josh-dorothy.svg
+  image_description: Illustration of Josh Dorothy
   position: Chief Information Officer
   bio: |
     Josh's a former member of the U.S. Digital Service with a passion for
@@ -286,8 +286,8 @@
   full_name: Nick Bristow
   short_name: N. Bristow
   profile_path: /company/about/#nick-bristow
-  image: /img/people/nick-bristow.jpg
-  image_description: Photo of Nick Bristow
+  image: /img/people/nick-bristow.svg
+  image_description: Illustration of Nick Bristow
   position: Staff Software Engineer
   bio: |
     Nick's a former member of 18F who relentlessly pursues creating products
@@ -580,8 +580,8 @@
   full_name: Brandon Mader
   short_name: B. Mader
   profile_path: /company/about/#brandon-mader
-  image: /img/people/brandon-mader.jpg
-  image_description: Photo of Brandon Mader
+  image: /img/people/brandon-mader.svg
+  image_description: Illustration of Brandon Mader
   position: Senior Data Scientist
   bio: |
     Brandon loves using data for public good. Brandon specializes in data
@@ -606,8 +606,8 @@
   full_name: Becca Bartola
   short_name: B. Bartola
   profile_path: /company/about/#becca-bartola
-  image: /img/people/becca-bartola.jpg
-  image_description: Photo of Becca Bartola
+  image: /img/people/becca-bartola.svg
+  image_description: Illustration of Becca Bartola
   position: Senior Product Designer
   bio: |
     Becca's a former Etsy designer with a passion for creating positive change
@@ -635,8 +635,8 @@
   full_name: Laura King
   short_name: L. King
   profile_path: /company/about/#laura-king
-  image: /img/people/laura-king.jpg
-  image_description: Photo of Laura King
+  image: /img/people/laura-king.svg
+  image_description: Illustration of Laura King
   position: Staff User Researcher
   bio: |
     Laura's a researcher, strategist, and designer who loves solving complex
@@ -1077,11 +1077,7 @@
   image_description: Photo of Julia Hogan
   position: Software Engineer
   bio: |
-    Julia's a software engineer thrilled she's figured out how to use
-    technology to help people. Julia's committed to improving government
-    services through smart digital solutions. Julia most recently worked for
-    NYC government building sites and services to increase data access. Julia
-    lives in New York.
+    Julia is a software engineer thrilled to have found a way to use technology to help people. Julia is committed to improving government services through smart digital solutions. Most recently, Julia worked for NYC government building sites and services to increase data access. Julia lives in New York.
   active: false
   order: 320
   socials:
@@ -1131,8 +1127,8 @@
   full_name: Peggy Chau
   short_name: P. Chau
   profile_path: /company/about/#peggy-chau
-  image: /img/people/peggy-chau.jpg
-  image_description: Photo of Peggy Chau
+  image: /img/people/peggy-chau.svg
+  image_description: Illustration of Peggy Chau
   position: Staff User Researcher
   bio: |
     Peggy's a researcher and designer who moved from clinical neuroscience
@@ -1171,7 +1167,7 @@
     solve. Zack has helped form design teams and served as a design leader in
     the non-profit, financial-investments, and healthcare industries. Zack
     lives in Florida.
-  active: true
+  active: false
   order: 350
   socials:
     - name: LinkedIn
@@ -1220,14 +1216,11 @@
   full_name: Nick Clyde
   short_name: N. Clyde
   profile_path: /company/about/#nick-clyde
-  image: /img/people/nick-clyde.jpg
-  image_description: Photo of Nick Clyde
+  image: /img/people/nick-clyde.svg
+  image_description: Illustration of Nick Clyde
   position: Staff Software Engineer
   bio: |
-    Nick's a software engineer passionate about using technology to solve the
-    right problems. Nick enjoys building APIs, designing and optimizing
-    databases, and crafting system architectures. Nick has experience improving
-    high-traffic government digital services. Nick lives in California.
+    Nick's asoftware engineer passionate about building scalable, open-source tools that make public health data more accessible and useful. With nearly a decade of experience developing web applications and data pipelines, Nick has led technical efforts for government agencies like the CDC, modernizing critical systems with cloud-native technologies. Nick thrives at the intersection of infrastructure, health, and public service, and enjoys mentoring teammates and shipping code that solves real-world problems. Nick lives in Sacramento, California, with family and three cats.
   active: true
   order: 370
   socials:
@@ -1301,8 +1294,8 @@
   full_name: Tomi Obikunle
   short_name: T. Obikunle
   profile_path: /company/about/#tomi-obikunle
-  image: /img/people/tomi-obikunle.jpg
-  image_description: Photo of Tomi Obikunle
+  image: /img/people/tomi-obikunle.svg
+  image_description: Illustration of Tomi Obikunle
   position: Senior User Researcher
   bio: |
     Tomi's a researcher who strives to meet — and honor — people where they
@@ -1404,7 +1397,7 @@
     Elisa's a software engineer eager to use technology for positive change in
     communities. Elisa previously worked in developer tools, education-technology,
     and non-profit spaces. Elisa lives in Minnesota.
-  active: true
+  active: false
   order: 430
   socials:
     - name: LinkedIn
@@ -1576,8 +1569,8 @@
   full_name: Nicole Campbell
   short_name: N. Campbell
   profile_path: /company/about/#nicole-campbell
-  image: /img/people/nicole-campbell.jpg
-  image_description: Photo of Nicole Campbell
+  image: /img/people/nicole-campbell.svg
+  image_description: Illustration of Nicole Campbell
   position: Chief Operating Officer
   bio: |
     Nicole's a product manager passionate about building technology that solves
@@ -1639,7 +1632,7 @@
     Kenny's a product designer, inclusive-systems thinker, and people person who
     guides products through the entire design life cycle. Kenny lives in
     California.
-  active: true
+  active: false
   order: 510
   socials:
     - name: LinkedIn
@@ -1806,8 +1799,8 @@
   full_name: Gianna Buda
   short_name: G. Buda
   profile_path: /company/about/#gianna-buda
-  image: /img/people/gianna-buda.jpg
-  image_description: Photo of Gianna Buda
+  image: /img/people/gianna-buda.svg
+  image_description: Illustration of Gianna Buda
   position: Software Engineer
   bio: |
     Gianna's a software engineer passionate about leveraging technology and
@@ -1917,15 +1910,11 @@
   full_name: Leslie Garner Franklin
   short_name: L. Garner Franklin
   profile_path: /company/about/#lesley-garner-franklin
-  image: /img/people/leslie-garner-franklin.jpg
-  image_description: Photo of Leslie Garner Franklin
+  image: /img/people/leslie-garner-franklin.svg
+  image_description: Illustration of Leslie Garner Franklin
   position: VP of Human Services
   bio: |
-    Leslie's a product manager with nearly two decades of experience leading
-    teams and change efforts across the non-profit and public sectors. Leslie's
-    passionate about the role technology and design play in delivering great
-    services. Leslie specializes in cross-functional team leadership, user
-    experience research, and service design. Leslie lives in North Carolina.
+    Leslie leads Skylight's Health + Civilian Services business unit as Vice President. With more than 20 years of experience spanning delivery, strategy, and team leadership, Leslie is passionate about building high-performing, human-centered teams that thrive in mission-driven environments. Based in Asheville, NC, Leslie is also a distance runner, aspiring pianist, and parent to two elementary-aged children and one spunky dog.
   active: true
   order: 620
   socials:
@@ -2003,8 +1992,8 @@
   full_name: Tiffany Nieh
   short_name: T. Nieh
   profile_path: /company/about/#tiffany-nieh
-  image: /img/people/tiffany-nieh.jpg
-  image_description: Photo of Tiffany Nieh
+  image: /img/people/tiffany-nieh.svg
+  image_description: Illustration of Tiffany Nieh
   position: Staff Product Designer
   bio: |
     Tiffany's a product designer who loves understanding people's needs and
@@ -2087,8 +2076,8 @@
   full_name: Nathan Carter
   short_name: N. Carter
   profile_path: /company/about/#nathan-carter
-  image: /img/people/nathan-carter.jpg
-  image_description: Photo of Nathan Carter
+  image: /img/people/nathan-carter.svg
+  image_description: Illustration of Nathan Carter
   position: Senior Software Engineer
   bio: |
     Nathan's a software engineer driven to build digital services for public
@@ -2116,8 +2105,8 @@
   full_name: Matt Goldberg
   short_name: M. Goldberg
   profile_path: /company/about/#matt-goldberg
-  image: /img/people/matt-goldberg.jpg
-  image_description: Photo of Matt Goldberg
+  image: /img/people/matt-goldberg.svg
+  image_description: Illustration of Matt Goldberg
   position: Senior Content Designer
   bio: |
     Matt's a content designer and storyteller with a background in clean-tech
@@ -2172,14 +2161,11 @@
   full_name: Bob Zhao
   short_name: B. Zhao
   profile_path: /company/about/#bob-zhao
-  image: /img/people/bob-zhao.jpg
-  image_description: Photo of Bob Zhao
+  image: /img/people/bob-zhao.svg
+  image_description: Illustration of Bob Zhao
   position: Software Engineer
   bio: |
-    Bob's a software engineer pursuing solutions to large-scale problems that
-    matter. In 2020 Bob served as a Civic Digital Fellow at the National
-    Institutes of Health and is earning a master's degree in computer science
-    at Washington University in St. Louis. Bob lives in Missouri.
+    Bob's an engineer who loves bridging the gaps with design and product colleagues. Bob thrives in situations that allow cross-pollination of engineering training with approaches from other disciplines, believing this produces solutions that are more robust, delightful, and useful. Bob studied economics, computer science, and human-computer interaction at Washington University in St. Louis and lives in New York. 
   active: true
   order: 710
   socials:
@@ -2202,14 +2188,11 @@
   full_name: Ashton Tu
   short_name: A. Tu
   profile_path: /company/about/#ashton-tu
-  image: /img/people/ashton-tu.jpg
-  image_description: Photo of Ashton Tu
+  image: /img/people/ashton-tu.svg
+  image_description: Illustration of Ashton Tu
   position: Product Designer
   bio: |
-    Ashton's a product designer who recently graduated from the University of
-    Southern California. As a 2020 Civic Digital Fellow with the General
-    Services Administration, Ashton discovered a passion for civic tech.
-    Ashton lives in California.
+    Ashton's a product designer motivated by systems thinking and storytelling to develop scalable solutions. Ashton deeply rooted in grassroots organizations, and co-creates with local communities—from streamlining food equity processes to directing volunteer initiatives. Ashton lives in New York.
   active: true
   order: 720
   socials:
@@ -2315,11 +2298,7 @@
   image_description: Photo of Taylor Graue
   position: VP of Defense Services
   bio: |
-    Taylor's an Air Force veteran passionate about delivering value and highly
-    effective solutions to the Department of Defense. Taylor most recently
-    worked as a product manager and designer at Kessel Run. Taylor specializes
-    in strategy, human-centered design, and relationship building. Taylor lives
-    in Texas.
+    Taylor's an Air Force veteran passionate about building user-friendly products, delivering value to government clients, and leading high-performing teams. Currently serving as VP of Defense Services, Taylor drives strategic growth, leads multidisciplinary teams, and ensures mission success across defense engagements. Taylor lives in Dallas.
   active: true
   order: 760
   socials:
@@ -2327,10 +2306,6 @@
       link: https://linkedin.com/in/taylorgraue
       link_description: Taylor's LinkedIn Account
       fa_icon_name: linkedin
-    - name: Personal Website
-      link: https://www.taylorgraue.com/
-      link_description: Taylor's Personal Website
-      fa_icon_name: home
     - name: Projects
       link: /work/team-member/taylor-graue/
       link_description: Taylor's Project Work
@@ -2342,15 +2317,11 @@
   full_name: Laura Kerry
   short_name: L. Kerry
   profile_path: /company/about/#laura-kerry
-  image: /img/people/laura-kerry.jpg
-  image_description: Photo of Laura Kerry
+  image: /img/people/laura-kerry.svg
+  image_description: Illustration of Laura Kerry
   position: Staff Content Designer
   bio: |
-    Laura's a content designer who specializes in content strategy, design,
-    operations, and governance. Laura loves distilling complex information into
-    human-centered content and enjoys empowering others to do the same. Laura
-    most recently worked at the NYC Mayor's Office for Economic Opportunity and
-    lives in Hawaii.
+    Laura’s a content designer who specializes in content strategy, design, operations, and governance. Laura loves distilling complex information into human-centered content that considers the whole system. Laura most recently worked at the NYC Mayor’s Office for Economic Opportunity and lives in Washington, DC.
   active: true
   order: 770
   socials:
@@ -2369,13 +2340,11 @@
   full_name: Emma Stephenson
   short_name: E. Stephenson
   profile_path: /company/about/#emma-stephenson
-  image: /img/people/emma-stephenson.jpg
-  image_description: Photo of Emma Stephenson
+  image: /img/people/emma-stephenson.svg
+  image_description: Illustration of Emma Stephenson
   position: Staff Software Engineer
   bio: |
-    Emma's a software engineer passionate about creating user-centered
-    products. Emma previously worked at Google and has deep experience with
-    APIs, microservices, and DevOps. Emma lives in California.
+    Emma's a product manager passionate about creating user-centered products that have real impact. Emma enjoys getting into the weeds of engineering, working with stakeholders, and creating happy, productive teams. Emma lives in California.
   active: true
   order: 780
   socials:
@@ -2398,8 +2367,8 @@
   full_name: Mina Cairns
   short_name: M. Cairns
   profile_path: /company/about/#mina-cairns
-  image: /img/people/mina-cairns.jpg
-  image_description: Photo of Mina Cairns
+  image: /img/people/mina-cairns.svg
+  image_description: Illustration of Mina Cairns
   position: Head of Corporate Development
   bio: |
     Mina's got nearly 20 years of consulting, technology, and leadership
@@ -2428,7 +2397,7 @@
     intersection of technology and public service. Sarah recently graduated
     from Oxford with a master's in Development Studies as a Rhodes Scholar
     after studying Mechanical Engineering at MIT. Sarah lives in New York.
-  active: true
+  active: false
   order: 800
   socials:
     - name: LinkedIn
@@ -2450,8 +2419,8 @@
   full_name: Gordon Farrell
   short_name: G. Farrell
   profile_path: /company/about/#gordon-farrell
-  image: /img/people/gordon-farrell.jpg
-  image_description: Photo of Gordon Farrell
+  image: /img/people/gordon-farrell.svg
+  image_description: Illustration of Gordon Farrell
   position: Senior Software Engineer
   bio: |
     Gordon's a software engineer specializing in government tech. Gordon built
@@ -2486,7 +2455,7 @@
     healthcare, education, and real-estate industries. Jennifer studied
     Cognitive Science with a specialization in Human-Computer Interaction at
     UC San Diego and lives in California.
-  active: true
+  active: false
   order: 820
   socials:
     - name: LinkedIn
@@ -2539,8 +2508,8 @@
   full_name: David McClatchey
   short_name: D. McClatchey
   profile_path: /company/about/#david-mcclatchey
-  image: /img/people/david-mcclatchey.jpg
-  image_description: Photo of David McClatchey
+  image: /img/people/david-mcclatchey.svg
+  image_description: Illustration of David McClatchey
   position: Senior Software Engineer
   bio: |
     David's a software engineer who strives to craft simple, robust solutions
@@ -2608,7 +2577,7 @@
     serving as a search-and-rescue aircrew member and command officer. Rin
     previously served with the United States Coast Guard Auxiliary as National
     Division Chief of Software Engineering. Rin lives in Illinois.
-  active: true
+  active: false
   order: 860
   socials:
     - name: LinkedIn
@@ -2626,7 +2595,7 @@
   full_name: Alis Akers
   short_name: A. Akers
   profile_path: /company/about/#alis-akers
-  image: /img/people/alis-akers.png
+  image: /img/people/alis-akers.svg
   image_description: Illustration of Alis Akers
   position: Senior DevOps Engineer
   bio: |
@@ -2701,7 +2670,7 @@
     expertise to civic tech. Ryan strives to make thoughtful decisions and
     challenge assumptions and also volunteers as a firefighter in the
     community. Ryan lives in Colorado.
-  active: true
+  active: false
   order: 890
   socials:
     - name: Twitter
@@ -2757,14 +2726,11 @@
   full_name: Kyle Planeaux
   short_name: K. Planeaux
   profile_path: /company/about/#kyle-planeaux
-  image: /img/people/kyle-planeaux.jpg
-  image_description: Photo of Kyle Planeaux
+  image: /img/people/kyle-planeaux.svg
+  image_description: Illustration of Kyle Planeaux
   position: Senior Product Manager
   bio: |
-    Kyle's a product manager with years of experience in the defense space.
-    Previously, Kyle was a civilian product manager for the Space Force. Kyle
-    studied chemical engineering at USC and is earning a graduate degree in
-    computer science from Georgia Tech. Kyle lives in California.
+    Kyle’s a product manager with years of experience in the defense and public health spaces. Previously, Kyle was a civilian product manager for the Space Force. Kyle studied chemical engineering at USC and has a graduate degree in computer science from Georgia Tech. Kyle lives in Los Angeles.
   active: true
   order: 910
   socials:
@@ -2787,8 +2753,8 @@
   full_name: Zedd Shmais
   short_name: Z. Shmais
   profile_path: /company/about/#zedd-shmais
-  image: /img/people/zedd-shmais.jpg
-  image_description: Photo of Zedd Shmais
+  image: /img/people/zedd-shmais.svg
+  image_description: Illustration of Zedd Shmais
   position: Staff Software Engineer
   bio: |
     Zedd's a software engineer with experience across a range of industries.
@@ -2821,8 +2787,8 @@
   full_name: Mike Brown
   short_name: M. Brown
   profile_path: /company/about/#mike-brown
-  image: /img/people/mike-brown.jpg
-  image_description: Photo of Mike Brown
+  image: /img/people/mike-brown.svg
+  image_description: Illustration of Mike Brown
   position: Senior Software Engineer
   bio: |
     Mike's a software engineer passionate about using technology for public
@@ -2852,8 +2818,8 @@
   full_name: Merethe Hansen
   short_name: M. Hansen
   profile_path: /company/about/#merethe-hansen
-  image: /img/people/merethe-hansen.jpg
-  image_description: Photo of Merethe Hansen
+  image: /img/people/merethe-hansen.svg
+  image_description: Illustration of Merethe Hansen
   position: Senior Software Engineer
   bio: |
     Merethe's a software engineer excited by puzzles and projects that create
@@ -2889,7 +2855,7 @@
     distributed teams building social-media and streaming platforms. Jayna
     moved into civic tech to work on a Department of Defense project and now
     lives in Ohio.
-  active: true
+  active: false
   order: 950
   socials:
     - name: Twitter
@@ -2950,8 +2916,8 @@
   full_name: Dan Sass
   short_name: D. Sass
   profile_path: /company/about/#dan-sass
-  image: /img/people/dan-sass.jpg
-  image_description: Photo of Dan Sass
+  image: /img/people/dan-sass.svg
+  image_description: Illustration of Dan Sass
   position: Senior Software Engineer
   bio: |
     Dan's a software engineer with a background in FinTech. Dan focuses on
@@ -2982,7 +2948,7 @@
     Johanna focuses on web applications and front-end technologies and has
     built solutions for the Department of Veterans Affairs and the Centers for
     Medicare & Medicaid Services. Johanna lives in Pennsylvania.
-  active: true
+  active: false
   order: 980
   socials:
     - name: LinkedIn
@@ -3008,7 +2974,7 @@
     the world a better place. In 2021 Bobby served as a Civic Digital Fellow at
     the Census Bureau and graduated from Tufts University. Bobby lives in
     Colorado.
-  active: true
+  active: false
   order: 990
   socials:
     - name: LinkedIn
@@ -3037,7 +3003,7 @@
     Kenneth's a software engineer who specializes in building cloud-based
     applications. Kenneth advocates serverless design to scale systems while
     cutting costs. Kenneth lives in California.
-  active: true
+  active: false
   order: 1000
   socials:
     - name: LinkedIn
@@ -3055,7 +3021,7 @@
   full_name: Camille Villa
   short_name: C. Villa
   profile_path: /company/about/#camille-villa
-  image: /img/people/camille-villa.png
+  image: /img/people/camille-villa.svg
   image_description: Illustration of Camille Villa
   position: Senior Software Engineer
   bio: |
@@ -3085,8 +3051,8 @@
   full_name: Dan Paseltiner
   short_name: D. Paseltiner
   profile_path: /company/about/#dan-paseltiner
-  image: /img/people/dan-paseltiner.jpg
-  image_description: Photo of Dan Paseltiner
+  image: /img/people/dan-paseltiner.svg
+  image_description: Illustration of Dan Paseltiner
   position: Staff Data Engineer
   bio: |
     Dan's a data engineer passionate about helping others through a thoughtful
@@ -3120,8 +3086,8 @@
   full_name: Ann Millspaugh
   short_name: A. Millspaugh
   profile_path: /company/about/#ann-millspaugh
-  image: /img/people/ann-millspaugh.jpg
-  image_description: Photo of Ann Millspaugh
+  image: /img/people/ann-millspaugh.svg
+  image_description: Illustration of Ann Millspaugh
   position: Staff Product Manager
   bio: |
     Ann's a product manager who loves solving customer problems. As a former
@@ -3183,7 +3149,7 @@
     and in building APIs and robust applications. For nearly seven years Lina
     developed benefits-management software for Veterans Affairs. Lina enjoys
     making the world more inclusive and lives in South Carolina.
-  active: true
+  active: false
   order: 1050
   socials:
     - name: LinkedIn
@@ -3205,7 +3171,7 @@
   full_name: Josh Nygaard
   short_name: J. Nygaard
   profile_path: /company/about/#josh-nygaard
-  image: /img/people/josh-nygaard.png
+  image: /img/people/josh-nygaard.svg
   image_description: Illustration of Josh Nygaard
   position: Senior Software Engineer
   bio: |
@@ -3269,14 +3235,11 @@
   full_name: Amrita Kaur Bhatti
   short_name: A. Bhatti
   profile_path: /company/about/#amrita-bhatti
-  image: /img/people/amrita-bhatti.png
+  image: /img/people/amrita-bhatti.svg
   image_description: Illustration of Amrita Kaur Bhatti
   position: Staff Product Manager
   bio: |
-    Amrita's a product manager who enjoys teaming up with people and technology
-    to create meaningful solutions. Amrita previously managed products at
-    McMaster-Carr and has experience as a software engineer. Amrita lives in
-    California.
+    Amrita's a product manager who loves sitting at the intersection of technology, people, and business. With over a decade of experience in software and product, an MBA from Chicago Booth, and background in education and neuroscience, Amrita works with users and stakeholders to bring meaningful products to life, all while having fun along the way. Amrita lives in California.
   active: true
   order: 1080
   socials:
@@ -3356,7 +3319,7 @@
   full_name: Jill Fromewick
   short_name: J. Fromewick
   profile_path: /company/about/#jill-fromewick
-  image: /img/people/jill-fromewick.png
+  image: /img/people/jill-fromewick.svg
   image_description: Illustration of Jill Fromewick
   position: Staff User Researcher
   bio: |
@@ -3404,8 +3367,8 @@
   full_name: Marcelle Goggins
   short_name: M. Goggins
   profile_path: /company/about/#marcelle-goggins
-  image: /img/people/marcelle-goggins.jpg
-  image_description: Photo of Marcelle Goggins
+  image: /img/people/marcelle-goggins.svg
+  image_description: Illustration of Marcelle Goggins
   position: Senior Data Engineer
   bio: |
     Marcelle's a data engineer with a background in applied statistics and
@@ -3473,8 +3436,8 @@
   full_name: Robert Mitchell
   short_name: R. Mitchell
   profile_path: /company/about/#robert-mitchell
-  image: /img/people/robert-mitchell.jpg
-  image_description: Photo of Robert Mitchell
+  image: /img/people/robert-mitchell.svg
+  image_description: Illustration of Robert Mitchell
   position: Senior Data Engineer
   bio: |
     Robert's spent a career in the non-profit and gov-tech space bootstrapping
@@ -3536,15 +3499,11 @@
   full_name: Angela The
   short_name: A. The
   profile_path: /company/about/#angela-the
-  image: /img/people/angela-the.jpg
-  image_description: Photo of Angela The
-  position: Software Engineer Apprentice
+  image: /img/people/angela-the.svg
+  image_description: Illustration of Angela The
+  position: Software Engineer
   bio: |
-    Angela's a software-engineer apprentice passionate about building
-    human-centered tools that improve access to public benefits and services.
-    Angela pursued a master's in computer science and public policy and
-    previously served as a Civic Innovation Corps Fellow for the City of San
-    José. Angela lives in California.
+    Angela's a software engineer passionate about building human-centered tools that improve access to public benefits and services. Angela pursued a master's in computer science and public policy and previously served as a Civic Innovation Corps Fellow for the City of San José. Angela lives in California.
   active: true
   order: 1180
   socials:
@@ -3575,8 +3534,8 @@
   full_name: Emmanuel Nwakire
   short_name: E. Nwakire
   profile_path: /company/about/#emmanuel-nwakire
-  image: /img/people/emmanuel-nwakire.jpg
-  image_description: Photo of Emmanuel Nwakire
+  image: /img/people/emmanuel-nwakire.svg
+  image_description: Illustration of Emmanuel Nwakire
   position: Senior DevOps Engineer
   bio: |
     Emmanuel's a DevOps engineer with years of experience in travel tech,
@@ -3680,8 +3639,8 @@
   full_name: Boban Ljuljdjurovic
   short_name: B. Ljuljdjurovic
   profile_path: /company/about/#boban-ljuljdjurovic
-  image: /img/people/boban-ljuljdjurovic.jpg
-  image_description: Photo of Boban Ljuljdjurovic
+  image: /img/people/boban-ljuljdjurovic.svg
+  image_description: Illustration of Boban Ljuljdjurovic
   position: Senior Software Engineer
   bio: |
     Boban's a software engineer always excited to tackle new and challenging
@@ -3709,14 +3668,11 @@
   full_name: Mike Judd
   short_name: M. Judd
   profile_path: /company/about/#mike-judd
-  image: /img/people/mike-judd.jpg
-  image_description: Photo of Mike Judd
+  image: /img/people/mike-judd.svg
+  image_description: Illustration of Mike Judd
   position: Chief Operating Officer, Human Services
   bio: |
-    Mike's a technologist, community builder, and bureaucracy hacker with
-    more than 10 years at the Centers for Disease Control and Prevention. Mike's
-    passionate about improving how government interacts with and provides value
-    to the American people. Mike lives in Georgia.
+    Mike's a technologist committed to modernizing how government serves the American people in the digital age. As Skylight’s COO for Federal Health & Civilian Services, Mike leads the growth and sustainability of Skylight's public health portfolio through strategic partnerships, thought leadership, and delivery excellence. Recognized by leaders across the public and private sectors, Mike excels at forging innovative partnerships around emerging technologies in times of national emergency and guiding products and cross-functional teams through launch, growth, change, and crisis. Based in Atlanta, GA, Mike enjoys playing Ultimate Frisbee and spending time with family and two dogs.
   active: true
   order: 1240
   socials:
@@ -3739,7 +3695,7 @@
     collaborating. Mary brings experience as a research consultant,
     non-profit manager, and middle-school science teacher. Mary lives in
     California.
-  active: true
+  active: false
   order: 1250
   socials:
     - name: LinkedIn
@@ -3761,13 +3717,11 @@
   full_name: Arin Kulshi
   short_name: A. Kulshi
   profile_path: /company/about/#arin-kulshi
-  image: /img/people/arindam-kulshi.jpg
-  image_description: Photo of Arin Kulshi
+  image: /img/people/arindam-kulshi.svg
+  image_description: Illustration of Arin Kulshi
   position: Staff Data Engineer
   bio: |
-    Arin's a data engineer specializing in applications for health technology.
-    Arin has improved healthcare interoperability and addressed diverse data
-    needs. Arin lives in California.
+    Arin's an engineer with an expertise in backend systems, data pipelines, and healthcare IT, currently working on projects in the public health reporting space. With a background that spans software, data engineering, and product-focused innovation, Arin is especially interested in solving real-world problems at the intersection of AI, data infrastructure, and public health. Arin is based in Sunnyvale, California.
   active: true
   order: 1260
   socials:
@@ -3837,8 +3791,8 @@
   full_name: Bruce Jacobson
   short_name: B. Jacobson
   profile_path: /company/about/#bruce-jacobson
-  image: /img/people/bruce-jacobson.jpg
-  image_description: Photo of Bruce Jacobson
+  image: /img/people/bruce-jacobson.svg
+  image_description: Illustration of Bruce Jacobson
   position: Principal Engagement Manager
   bio: |
     Bruce's an engagement manager and software leader with deep
@@ -3858,8 +3812,8 @@
   full_name: Miringu Kiarie
   short_name: M. Kiarie
   profile_path: /company/about/#miringu-kiarie
-  image: /img/people/miringu-kiarie.jpg
-  image_description: Photo of Miringu Kiarie
+  image: /img/people/miringu-kiarie.svg
+  image_description: Illustration of Miringu Kiarie
   position: Senior User Researcher
   bio: |
     Miringu's a researcher focused on the intersection of humans and
@@ -3880,8 +3834,8 @@
   full_name: Alex Hayward
   short_name: A. Hayward
   profile_path: /company/about/#alex-hayward
-  image: /img/people/alex-hayward.jpg
-  image_description: Photo of Alex Hayward
+  image: /img/people/alex-hayward.svg
+  image_description: Illustration of Alex Hayward
   position: Data Scientist
   bio: |
     Alex's a data scientist passionate about using data to create more
@@ -3913,7 +3867,7 @@
     Mary's a DevOps engineer who enjoys creating, monitoring, containerizing,
     and observing technical processes. Mary takes pride in securing
     applications. Mary lives in Washington.
-  active: true
+  active: false
   order: 1320
   socials:
     - name: LinkedIn
@@ -3938,7 +3892,7 @@
     Monica's a product manager who loves leveraging people's strengths to solve
     complex problems. Monica previously worked at Amazon, specializing in
     e-commerce. Monica lives in California.
-  active: true
+  active: false
   order: 1330
   socials:
     - name: LinkedIn
@@ -3960,7 +3914,7 @@
     real-world problems and reduce toil for the people they serve. Eileen
     applies expertise in qualitative research and library science to help teams
     make decisions grounded in empathy and evidence. Eileen lives in New York.
-  active: true
+  active: false
   order: 1340
   socials:
     - name: LinkedIn
@@ -3974,13 +3928,11 @@
   full_name: Rob Mitchell
   short_name: R. Mitchell
   profile_path: /company/about/#rob-mitchell
-  image: /img/people/rob-mitchell.png
+  image: /img/people/rob-mitchell.svg
   image_description: Illustration of Rob Mitchell
   position: Senior Data Engineer
   bio: |
-    Rob's a data engineer with experience in education and civic tech. Rob uses
-    technical knowledge to help others, provide insight, and advance social
-    good. Rob lives in Massachusetts.
+    Rob’s a data engineer with experience in education and civic tech. Rob uses technical knowledge to help others, provide insight, and advance social good. Rob lives in Pennsylvania.
   active: true
   order: 1350
   socials:
@@ -3999,7 +3951,7 @@
   full_name: Janki Kaneria
   short_name: J. Kaneria
   profile_path: /company/about/#janki-kaneria
-  image: /img/people/janki-kaneria.png
+  image: /img/people/janki-kaneria.svg
   image_description: Illustration of Janki Kaneria
   position: Staff Product Manager
   bio: |
@@ -4024,8 +3976,8 @@
   full_name: Eric Buckley
   short_name: E. Buckley
   profile_path: /company/about/#eric-buckley
-  image: /img/people/eric-buckley.jpg
-  image_description: Photo of Eric Buckley
+  image: /img/people/eric-buckley.svg
+  image_description: Illustration of Eric Buckley
   position: Staff Software Engineer
   bio: |
     Eric's a software engineer with more than 20 years designing and building
@@ -4046,8 +3998,8 @@
   full_name: Roger Ruiz
   short_name: R. Ruiz
   profile_path: /company/about/#roger-ruiz
-  image: /img/people/roger-ruiz.jpg
-  image_description: Photo of Roger Ruiz
+  image: /img/people/roger-ruiz.svg
+  image_description: Illustration of Roger Ruiz
   position: Staff Software Engineer
   bio: |
     Roger's a software engineer specializing in full-stack web development, API
@@ -4084,7 +4036,7 @@
     Dana redesigned electronic medical records, led product-design teams,
     reimagined hospital offerings, and launched a mental-health app for
     teenagers. Dana lives in Oregon.
-  active: true
+  active: false
   order: 1390
   socials:
     - name: LinkedIn
@@ -4102,8 +4054,8 @@
   full_name: Karina Wernecke
   short_name: K. Wernecke
   profile_path: /company/about/#karina-wernecke
-  image: /img/people/karina-wernecke.jpg
-  image_description: Photo of Karina Wernecke
+  image: /img/people/karina-wernecke.svg
+  image_description: Illustration of Karina Wernecke
   position: Staff Product Manager
   bio: |
     Karina's a product manager who loves collaborating to solve tough problems
@@ -4124,8 +4076,8 @@
   full_name: Amy Kintner
   short_name: A. Kintner
   profile_path: /company/about/#amy-kintner
-  image: /img/people/amy-kintner.jpg
-  image_description: Photo of Amy Kintner
+  image: /img/people/amy-kintner.svg
+  image_description: Illustration of Amy Kintner
   position: Staff Software Engineer
   bio: |
     Amy's a software engineer with experience in software development and
@@ -4167,8 +4119,8 @@
   full_name: Holly DeWolf
   short_name: H. DeWolf
   profile_path: /company/about/#holly-dewolf
-  image: /img/people/holly-dewolf.jpg
-  image_description: Photo of Holly DeWolf
+  image: /img/people/holly-dewolf.svg
+  image_description: Illustration of Holly DeWolf
   position: Staff Product Manager
   bio: |
     Holly's a product manager with a strong background in UX research and
@@ -4192,8 +4144,8 @@
   full_name: Austin Brown
   short_name: A. Brown
   profile_path: /company/about/#austin-brown
-  image: /img/people/austin-brown.jpg
-  image_description: Photo of Austin Brown
+  image: /img/people/austin-brown.svg
+  image_description: Illustration of Austin Brown
   position: Staff Product Manager
   bio: |
     Austin's a product manager with roots in UX and industrial design. Austin
@@ -4248,7 +4200,7 @@
     craft effective, equitable products and services. Anke's committed to
     building partnerships and including users throughout the design process.
     Anke lives in New York.
-  active: true
+  active: false
   order: 1460
   socials:
     - name: LinkedIn
@@ -4292,8 +4244,8 @@
   full_name: Matt deClercq
   short_name: M. deClercq
   profile_path: /company/about/#matt-declercq
-  image: /img/people/matt-declercq.jpg
-  image_description: Photo of Matt deClercq
+  image: /img/people/matt-declercq.svg
+  image_description: Illustration of Matt deClercq
   position: Staff Software Engineer
   bio: |
     Matt's a software engineer with nearly 20 years of experience designing and
@@ -4326,7 +4278,7 @@
     useful and beautiful. Katie recently worked with CMS on web and API
     development and previously served as an arts administrator. Katie lives in
     Minnesota.
-  active: true
+  active: false
   order: 1490
   socials:
     - name: LinkedIn
@@ -4340,8 +4292,8 @@
   full_name: Laura Janisse
   short_name: L. Janisse
   profile_path: /company/about/#laura-janisse
-  image: /img/people/laura-janisse.jpg
-  image_description: Photo of Laura Janisse
+  image: /img/people/laura-janisse.svg
+  image_description: Illustration of Laura Janisse
   position: Principal User Researcher
   bio: |
     Laura's a results-driven user researcher with a passion for human-centered
@@ -4365,8 +4317,8 @@
   full_name: Mike Wales
   short_name: M. Wales
   profile_path: /company/about/#mike-wales
-  image: /img/people/michael-wales.jpg
-  image_description: Photo of Mike Wales
+  image: /img/people/michael-wales.svg
+  image_description: Illustration of Mike Wales
   position: Principal Digital Transformer
   bio: |
     Mike's a software-engineering leader who loves mentoring others. A U.S. Air
@@ -4399,7 +4351,7 @@
     of Civic Technologists and served at the Defense Digital Service, U.S.
     Digital Service, and Code for America. A U.S. Army veteran, Christopher
     lives in Illinois.
-  active: true
+  active: false
   order: 1520
   socials:
     - name: LinkedIn
@@ -4421,8 +4373,8 @@
   full_name: Brandon Chanco
   short_name: B. Chanco
   profile_path: /company/about/#brandon-chanco
-  image: /img/people/brandon-chanco.jpg
-  image_description: Photo of Brandon Chanco
+  image: /img/people/brandon-chanco.svg
+  image_description: Illustration of Brandon Chanco
   position: Staff Security Engineer
   bio: |
     Brandon's a cybersecurity engineer and Marine Corps veteran whose passion
@@ -4443,8 +4395,8 @@
   full_name: Kyle Bond
   short_name: K. Bond
   profile_path: /company/about/#kyle-bond
-  image: /img/people/kyle-bond.jpg
-  image_description: Photo of Kyle Bond
+  image: /img/people/kyle-bond.svg
+  image_description: Illustration of Kyle Bond
   position: Staff Software Engineer
   bio: |
     Kyle's a software engineer with experience in the consumer-goods and
@@ -4469,8 +4421,8 @@
   full_name: Lauryn Claassen
   short_name: L. Claassen
   profile_path: /company/about/#lauryn-claassen
-  image: /img/people/lauryn-claassen.jpg
-  image_description: Photo of Lauryn Claassen
+  image: /img/people/lauryn-claassen.svg
+  image_description: Illustration of Lauryn Claassen
   position: Staff Content Designer
   bio: |
     Lauryn's a content designer with a background in public health,
@@ -4484,3 +4436,393 @@
       link: https://www.linkedin.com/in/lauryn-claassen/
       link_description: Lauryn's LinkedIn Account
       fa_icon_name: linkedin
+
+- name: andrew-schreiber
+  fname: Andrew
+  lname: Schreiber
+  full_name: Andrew Schreiber
+  short_name: A. Schreiber
+  profile_path: /company/about/#andrew-schreiber
+  image: /img/people/andrew-schreiber.svg
+  image_description: Illustration of Andrew Schreiber
+  position: Staff Software Engineer
+  bio: |
+    Andrew's a software engineer with a long history of rapid prototyping to help explore a problem space. Andrew prides himself on reaching into an extensive bag of tricks and bringing solutions from a myriad of domains ranging from robotics to game design. Andrew believes that learning new things helps to find new ways to look at unrelated problems.
+  active: true
+  order: 1560
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/schreiaj
+      link_description: Andrew's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/schreiaj
+      link_description: Andrew's GitHub Account
+      fa_icon_name: github
+      
+- name: austin-hall
+  fname: Austin
+  lname: Hall
+  full_name: Austin Hall
+  short_name: A. Hall
+  profile_path: /company/about/#austin-hall
+  image: /img/people/austin-hall.svg
+  image_description: Illustration of Austin Hall
+  position: Staff Software Engineer
+  bio: |
+    Austin's a software engineer with experience in the healthcare and insurance industries. Austin is passionate about advancing healthcare data interoperability and democratization to drive better patient outcomes. Austin lives in Kentucky.
+  active: true
+  order: 1570
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/austin-c-hall/
+      link_description: Austin's LinkedIn Account
+      fa_icon_name: linkedin
+      
+- name: cara-pickett
+  fname: Cara
+  lname: Pickett
+  full_name: Cara Pickett
+  short_name: C. Pickett
+  profile_path: /company/about/#cara-pickett
+  image: /img/people/cara-pickett.svg
+  image_description: Illustration of Cara Pickett
+  position: Senior Content Designer
+  bio: |
+    Cara's a content designer and communications specialist who enjoys translating complex information into clear, accessible digital experiences. Cara's approach to strategy, design, and relationship-building centers empathy and a commitment to equity. Cara's previously worked in the tech, higher ed, and non-profit sectors. Cara lives in Ohio.
+  active: true
+  order: 1580
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/cara-pickett/
+      link_description: Cara's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: cheyenne-meredith
+  fname: Cheyenne
+  lname: Meredith
+  full_name: Cheyenne Meredith
+  short_name: C. Meredith
+  profile_path: /company/about/#cheyenne-meredith
+  image: /img/people/cheyenne-meredith.svg
+  image_description: Illustration of Cheyenne Meredith
+  position: Talent Acquisition Partner
+  bio: |
+    Cheyenne's a recruiter with 7+ years of experience in recruiting/talent acquisition and almost 3 years recruiting for digital service companies. Cheyenne is passionate about making the hiring process seamless and as comfortable as possible. Cheyenne lives in Illinois.
+  active: true
+  order: 1590
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/cheyenne-meredith-7b3469212/
+      link_description: Cheyenne's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: corinne-barker
+  fname: Corinne
+  lname: Barker
+  full_name: Corinne Barker
+  short_name: C. Barker
+  profile_path: /company/about/#corinne-barker
+  image: /img/people/corinne-barker.svg
+  image_description: Illustration of Corinne Barker
+  position: Talent Acquisition Partner
+  bio: |
+    Corinne's a Talent Acquisition Partner who specializes in sourcing top talent to establish and build diverse teams. Corinne focuses on designing creative recruitment strategies that are tailored for individual teams and business needs. Corinne loves partnering with stakeholders to create an inclusive interview process that not only fills positions but also enhances workplace culture.
+  active: true
+  order: 1600
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/corinne-barker/
+      link_description: Corinne's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: jackie-ostrowski
+  fname: Jackie
+  lname: Ostrowski
+  full_name: Jackie Ostrowski
+  short_name: J. Ostrowski
+  profile_path: /company/about/#jackie-ostrowski
+  image: /img/people/jackie-ostrowski.svg
+  image_description: Illustration of Jackie Ostrowski
+  position: Staff Content Designer
+  bio: |
+    Jackie's a content designer who specializes in transforming complex information into accessible, human-centered user experiences. Jackie has led content design and strategy for projects that improved patient experiences and access to care, as well as redesigned educational websites for more equitable access. Jackie lives in Chicago.
+  active: true
+  order: 1610
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jacquelineostrowski/
+      link_description: Jackie's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://jacquelineostrowski.com/
+      link_description: Jackie's Personal Website
+      fa_icon_name: home
+
+- name: jake-wheeler
+  fname: Jake
+  lname: Wheeler
+  full_name: Jake Wheeler
+  short_name: J. Wheeler
+  profile_path: /company/about/#jake-wheeler
+  image: /img/people/jake-wheeler.svg
+  image_description: Illustration of Jake Wheeler
+  position: Staff Software Engineer
+  bio: |
+    Jake's a software engineer dedicated to streamlining complex processes and enhancing user experiences. Jake has expertise in modernizing legacy systems, developing full-stack web applications, and leveraging cloud environments while adhering to DevOps best practices.
+  active: true
+  order: 1620
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jakewheeler17
+      link_description: Jake's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/jakewheeler
+      link_description: Jake's GitHub Account
+      fa_icon_name: github
+
+- name: jeff-johnson
+  fname: Jeff
+  lname: Johnson
+  full_name: Jeff Johnson
+  short_name: J. Johnson
+  profile_path: /company/about/#jeff-johnson
+  image: /img/people/jeff-johnson.svg
+  image_description: Illustration of Jeff Johnson
+  position: Principal Digital Transformer
+  bio: |
+    Jeff brings a unique blend of product strategy and learning strategy to learning experience design. With a Master’s Degree in Educational Technology, Jeff has been developing learning solutions and bringing learning products to market over the last 15 years. Jeff lives in Washington.
+  active: true
+  order: 1630
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jeffjohnson43/
+      link_description: Jeff's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://jeffjohnson-portfolio.com/
+      link_description: Jeff's Personal Website
+      fa_icon_name: home
+
+- name: jennifer-wilhelm
+  fname: Jennifer
+  lname: Wilhelm
+  full_name: Jennifer Wilhelm
+  short_name: J. Wilhelm
+  profile_path: /company/about/#jennifer-wilhelm
+  image: /img/people/jennifer-wilhelm.svg
+  image_description: Illustration of Jennifer Wilhelm
+  position: Operations Director
+  bio: |
+    Jennifer’s an operations leader passionate about building people-centered systems that make public services work better. Jennifer’s led civic innovation efforts in Pittsburgh and helped streamline government services to improve customer experience. Jennifer lives in Pennsylvania.
+  active: true
+  order: 1640
+  socials:
+    - name: LinkedIn
+      link: www.linkedin.com/in/jenniferbwilhelm
+      link_description: Jennifer's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: khayeni-sanders
+  fname: Khayeni
+  lname: Sanders
+  full_name: Khayeni Sanders
+  short_name: K. Sanders
+  profile_path: /company/about/#khayeni-sanders
+  image: /img/people/khayeni-sanders.svg
+  image_description: Illustration of Khayeni Sanders
+  position: Staff Product Designer
+  bio: |
+    Khayeni's a multidisciplinary designer with experience in the end-to-end UX process. Khayeni has worked as an integrative designer focusing closely on digital and interface design over the past 12+ years. Khayeni has developed a keen interest in product, emerging tech, and civil service. Khayeni is passionate about social justice, human rights, and travel.
+  active: true
+  order: 1650
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/khayeni-sanders/
+      link_description: Lauryn's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://khayeni.com/
+      link_description: Khayeni's Personal Website
+      fa_icon_name: home
+
+- name: kim-connelly
+  fname: Kim
+  lname: Connelly
+  full_name: Kim Connelly
+  short_name: K. Connelly
+  profile_path: /company/about/#kim-connelly
+  image: /img/people/kim-connelly.svg
+  image_description: Illustration of Kim Connelly
+  position: Staff Engagement Manager
+  bio: |
+    Kim has worked primarily in the startup industry for nearly a decade, with a passion for delivering seamless, intuitive experiences. A guiding belief that technology should make lives easier informs much of Kim’s approach. Kim loves diving into tough, messy problems to organize and make sense of things. Kim lives in Chicago.
+  active: true
+  order: 1660
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kimberlyconnelly/
+      link_description: Kim's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: laurel-lawrence
+  fname: Laurel
+  lname: Lawrence
+  full_name: Laurel Lawrence
+  short_name: L. Lawrence
+  profile_path: /company/about/#laurel-lawrence
+  image: /img/people/laurel-lawrence.svg
+  image_description: Illustration of Laurel Lawrence
+  position: Staff Product Designer
+  bio: |
+    Laurel's a product designer with a focus on design, front-end development, and content management support. Laurel’s led design delivery for major public sector platforms like VA.gov, HealthCare.gov, Medicare.gov, and Wisconsin.gov. Laurel's currently supporting the Air Force BESPIN team at Skylight. Laurel holds a BFA in Communication Design and a Master’s Capstone in User Research. Laurel lives in Wisconsin.
+  active: true
+  order: 1670
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/laurellawrence/
+      link_description: Laurel's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: http://ninebarkcreative.com/
+      link_description: Laurel's Personal Website
+      fa_icon_name: home
+
+- name: lillian-tran
+  fname: Lillian
+  lname: Tran
+  full_name: Lillian Tran
+  short_name: L. Tran
+  profile_path: /company/about/#lillian-tran
+  image: /img/people/lillian-tran.svg
+  image_description: Illustration of Lillian Tran
+  position: Senior User Researcher
+  bio: |
+    Lillian's a researcher who has helped clients across private and public sectors make sense of challenges and navigate pathways forward. Lillian draws on a background in public health and crisis counseling to get to the heart of complex issues while understanding broader contexts. Lillian lives in New York.
+  active: true
+  order: 1680
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lillian-trann/
+      link_description: Lillian's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: mary-mcgrath
+  fname: Mary
+  lname: McGrath
+  full_name: Mary McGrath
+  short_name: M. McGrath
+  profile_path: /company/about/#mary-mcgrath
+  image: /img/people/mary-mcgrath.svg
+  image_description: Illustration of Mary McGrath
+  position: Staff Software Engineer
+  bio: |
+    Mary's a software engineer who loves learning and improving how systems work at both the human and technical levels. Mary has a wide-ranging background as a technology consultant, data scientist, research software engineer, and was most recently leading a team building a programming language. Mary lives in Rhode Island.
+  active: true
+  order: 1690
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mcmcgrath13/
+      link_description: Mary's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mcmcgrath13
+      link_description: Mary's GitHub Account
+      fa_icon_name: github
+
+- name: michelle-kang
+  fname: Michelle
+  lname: Kang
+  full_name: Michelle Kang
+  short_name: M. Kang
+  profile_path: /company/about/#michelle-kang
+  image: /img/people/michelle-kang.svg
+  image_description: Illustration of Michelle Kang
+  position: Staff Product Designer
+  bio: |
+    Michelle's a mission-driven product designer in New York City who brings clarity to complexity through fast, thoughtful iteration. Rooted in a background in Human Biology from Stanford and training from the d.school, Michelle has spent the last decade designing with empathy and precision for the public good. Michelle has also taught research and design at the Chan Zuckerberg Initiative, CivicActions, and Pivotal Labs — helping teams turn real-world challenges into actionable, human-centered solutions.
+  active: true
+  order: 1700
+  socials:
+    - name: LinkedIn
+      link: https://linkedin.com/in/mikang
+      link_description: Michelle's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mikang
+      link_description: Michelle's GitHub Account
+      fa_icon_name: github
+
+- name: mike-henderson
+  fname: Mike
+  lname: Henderson
+  full_name: Mike Henderson
+  short_name: M. Henderson
+  profile_path: /company/about/#mike-henderson
+  image: /img/people/mike-henderson.svg
+  image_description: Illustration of Mike Henderson
+  position: Senior Product Designer
+  bio: |
+    Mike’s a designer and strategist with over a decade of experience driving digital transformations for private, non-profit, and government clients. Most recently, Mike worked with the Centers for Medicare & Medicaid Services, improving the enrollment experience at HealthCare.gov.
+  active: true
+  order: 1710
+  socials:
+    - name: LinkedIn
+      link: https://linkedin.com/in/mike-henderson-ux
+      link_description: Mike's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://mathfordogs.com
+      link_description: Mike's Personal Website
+      fa_icon_name: home
+
+- name: mindy-huang
+  fname: Mindy
+  lname: Huang
+  full_name: Mindy Huang
+  short_name: M. Huang
+  profile_path: /company/about/#mindy-huang
+  image: /img/people/mindy-huang.svg
+  image_description: Illustration of Mindy Huang
+  position: Principal Product Manager
+  bio: |
+    Mindy's a product manager who specializes in early-stage product strategy. Previously, Mindy worked at Google as an engineer and internal founder before moving on to lead U.S. Digital Response's federal grants portfolio. Mindy is passionate about leveraging technology for the good of the community. Mindy lives in California.
+  active: true
+  order: 1720
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mindyhng/
+      link_description: Mindy's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mindyh
+      link_description: Michelle's GitHub Account
+      fa_icon_name: github
+
+- name: zach-thomas
+  fname: Zach
+  lname: Thomas
+  full_name: Zach Thomas
+  short_name: Z. Thomas
+  profile_path: /company/about/#zach-thomas
+  image: /img/people/zach-thomas.svg
+  image_description: Illustration of Zach Thomas
+  position: Principal Engagement Manager
+  bio: |
+    Zach's a design strategist dedicated to transforming organizations through innovative technology and human-centered design. Zach specializes in research and design operations, striving to create accessible solutions that promote equity and enhance user experiences.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/heyzach 
+      link_description: Zach's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://www.github.com/zachthomas
+      link_description: Zach's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://www.heyzt.com
+      link_description: Zach's Personal Website
+      fa_icon_name: home
