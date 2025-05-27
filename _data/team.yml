@@ -1220,7 +1220,7 @@
   image_description: Illustration of Nick Clyde
   position: Staff Software Engineer
   bio: |
-    Nick's asoftware engineer passionate about building scalable, open-source tools that make public health data more accessible and useful. With nearly a decade of experience developing web applications and data pipelines, Nick has led technical efforts for government agencies like the CDC, modernizing critical systems with cloud-native technologies. Nick thrives at the intersection of infrastructure, health, and public service, and enjoys mentoring teammates and shipping code that solves real-world problems. Nick lives in Sacramento, California, with family and three cats.
+    Nick's a software engineer passionate about building scalable, open-source tools that make public health data more accessible and useful. With nearly a decade of experience developing web applications and data pipelines, Nick has led technical efforts for government agencies like the CDC, modernizing critical systems with cloud-native technologies. Nick thrives at the intersection of infrastructure, health, and public service, and enjoys mentoring teammates and shipping code that solves real-world problems. Nick lives in Sacramento, California, with family and three cats.
   active: true
   order: 370
   socials:
@@ -2267,8 +2267,8 @@
   full_name: Pri Kiser
   short_name: P. Kiser
   profile_path: /company/about/#pri-kiser
-  image: /img/people/pri-kiser.jpg
-  image_description: Photo of Pri Kiser
+  image: /img/people/pri-kiser.svg
+  image_description: Illustration of Pri Kiser
   position: Staff Product Designer
   bio: |
     Pri's a product designer who draws on a background in neuroscience and
@@ -2294,8 +2294,8 @@
   full_name: Taylor Graue
   short_name: T. Graue
   profile_path: /company/about/#taylor-graue
-  image: /img/people/taylor-graue.jpg
-  image_description: Photo of Taylor Graue
+  image: /img/people/taylor-graue.svg
+  image_description: Illustration of Taylor Graue
   position: VP of Defense Services
   bio: |
     Taylor's an Air Force veteran passionate about building user-friendly products, delivering value to government clients, and leading high-performing teams. Currently serving as VP of Defense Services, Taylor drives strategic growth, leads multidisciplinary teams, and ensures mission success across defense engagements. Taylor lives in Dallas.
@@ -4826,3 +4826,247 @@
       link: https://www.heyzt.com
       link_description: Zach's Personal Website
       fa_icon_name: home
+
+- name: bora-fezga
+  fname: Bora
+  lname: Fezga
+  full_name: Bora Fezga
+  short_name: B. Fezga
+  profile_path: /company/about/#bora-fezga
+  image: /img/people/bora-fezga.svg
+  image_description: Illustration of Bora Fezga
+  position: Staff Product Manager
+  bio: |
+    Bora's a user-obsessed product manager with 10 years of experience developing software products in consumer tech and fintech. Bora's passionate about building products that elegantly solve problems and have measurable impact. Bora lives in California.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/borafezga/
+      link_description: Bora's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: stephen-morrison
+  fname: Stephen
+  lname: Morrison
+  full_name: Stephen Morrison
+  short_name: S. Morrison
+  profile_path: /company/about/#stephen-morrison
+  image: /img/people/stephen-morrison.svg
+  image_description: Illustration of Stephen Morrison
+  position: Staff Service Designer
+  bio: |
+    Stephen's a service designer, mixed methods researcher, and strategist. Stephen has worked in complex systems across finance, government, healthcare, tech, and global development. Stephen loves finding new ways to integrate participatory, community-based approaches to new product/service design. Stephen's done that at scales ranging from just a few people up to a couple billion.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/iamstephenvictor/
+      link_description: Stephen's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: alex-bornkessel
+  fname: Alex
+  lname: Bornkessel
+  full_name: Alex Bornkessel
+  short_name: A. Bornkessel
+  profile_path: /company/about/#alex-bornkessel
+  image: /img/people/alex-bornkessel.svg
+  image_description: Illustration of Alex Bornkessel
+  position: Principal Service Designer
+  bio: |
+    Alex's practice integrates participatory design, marketing communications, and behavioral science. Alex loves integrating storytelling with data-driven evidence to deliver impactful solutions, especially those that move women, families, and communities up and forward. Most recently, Alex served at the U.S. Digital Service working to improve the experience of families before, during, and after having a child as part of the White House's Birth–5 Life Experience team. Alex lives in Arkansas.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/abornkessel/
+      link_description: Alex's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://www.alexbornkessel.com/
+      link_description: Alex's Personal Website
+      fa_icon_name: home
+
+- name: caitlin-rinn
+  fname: Caitlin
+  lname: Rinn
+  full_name: Caitlin Rinn
+  short_name: C. Rinn
+  profile_path: /company/about/#caitlin-rinn
+  image: /img/people/caitlin-rinn.svg
+  image_description: Illustration of Caitlin Rinn
+  position: Staff User Researcher
+  bio: |
+    Caitlin's a user researcher who uses her expertise in qualitative and quantitative methodologies to create accessible, user-centered experiences. Caitlin is a lifelong learner, with master's degrees in Interaction Design and Information Architecture, and Marketing Research. Caitlin lives in California.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/caitlin-rinn
+      link_description: Caitlin's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: lauren-kieliszewski
+  fname: Lauren
+  lname: Kieliszewski
+  full_name: Lauren Kieliszewski
+  short_name: L. Kieliszewski
+  profile_path: /company/about/#lauren-kieliszewski
+  image: /img/people/lauren-kieliszewski.svg
+  image_description: Illustration of Lauren Kieliszewski
+  position: DevOps Engineer
+  bio: |
+    Lauren's a DevOps engineer with experience all over the infrastructure map. Passionate about improving the lives of others, whether through better deployment pipelines or work in the community, Lauren lives in Wisconsin.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lkski/
+      link_description: Lauren's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: kate-saul
+  fname: Kate
+  lname: Saul
+  full_name: Kate Saul
+  short_name: K. Saul
+  profile_path: /company/about/#kate-saul
+  image: /img/people/kate-saul.svg
+  image_description: Illustration of Kate Saul
+  position: Staff User Researcher
+  bio: |
+    Kate's a user researcher with deep expertise in human-centered design and content strategy. With more than a decade in the civic tech realm, Kate has helped dozens of agencies make their services friendlier, more accessible, and more useful to the public. Kate thrives on agile, cross-functional teams working in complex and highly regulated problem spaces. Based in Oregon, Kate brings a thoughtful and collaborative approach to every project.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/kate-garklavs-saul-8610a615/
+      link_description: Kate's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: www.kategarklavs.com
+      link_description: Kate's Personal Website
+      fa_icon_name: home
+
+- name: jenny-payne
+  fname: Jenny
+  lname: Payne
+  full_name: Jenny Payne
+  short_name: J. Payne
+  profile_path: /company/about/#jenny-payne
+  image: /img/people/jenny-payne.svg
+  image_description: Illustration of Jenny Payne
+  position: Head of People Operations
+  bio: |
+    Jenny's a seasoned People professional dedicated to creating positive, inclusive work environments that drive organizational growth. With a diverse HR background spanning both private industry and government, she excels at building strong, engaged teams and aligning HR strategies with business objectives. She is passionate about supporting people and helping organizations thrive. Jenny lives in Virginia.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: www.linkedin.com/in/jenny-p-a49724109
+      link_description: Jenny's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: kevin-fiol
+  fname: Kevin
+  lname: Fiol
+  full_name: Kevin Fiol
+  short_name: K. Fiol
+  profile_path: /company/about/#kevin-fiol
+  image: /img/people/kevin-fiol.svg
+  image_description: Illustration of Kevin Fiol
+  position: Software Engineer
+  bio: |
+    Kevin's a software engineer who enjoys building performant software that is simple to use and modify. Before Skylight, Kevin worked in civic tech, at a healthcare startup, and at the New York State Education Department. Kevin lives in South Florida.
+  active: true
+  order: 1730
+  socials:
+    - name: Personal Website
+      link: https://kevinfiol.com
+      link_description: Kevin's Personal Website
+      fa_icon_name: home
+
+- name: jeff-auser
+  fname: Jeff
+  lname: Auser
+  full_name: Jeff Auser
+  short_name: J. Auser
+  profile_path: /company/about/#jeff-auser
+  image: /img/peoplejeff-auser.svg
+  image_description: Illustration of Jeff Auser
+  position: Head of Contracts
+  bio: |
+    Jeff's a contracting professional who loves collaborating on building flexible contracts in service to achieving great outcomes. He has been in the federal procurement community for nearly 15 years and was last seen at the U.S. Digital Service. Jeff lives in the frozen tundra of upstate New York.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jeff-auser/
+      link_description: Jeff's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: lucian-snare
+  fname: Lucian
+  lname: Snare
+  full_name: Lucian Snare
+  short_name: L. Snare
+  profile_path: /company/about/#lucian-snare
+  image: /img/people/lucian-snare.svg
+  image_description: Illustration of Lucian Snare
+  position: Senior Software Engineer
+  bio: |
+    Lucian's a software engineer passionate about the intersection of technology and the greater good. Lucian has a background mainly focused on GovTech, most recently working with the VA to create APIs that millions of Veterans use to file for benefits. Lucian lives outside of Philadelphia, PA.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/lucian-snare-50215145/
+      link_description: Lucian's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/lsnare
+      link_description: Lucian's GitHub Account
+      fa_icon_name: github
+
+- name: allyn-charlefour
+  fname: Allyn
+  lname: Charlefour
+  full_name: Allyn Charlefour
+  short_name: A. Charlefour
+  profile_path: /company/about/#allyn-charlefour
+  image: /img/people/allyn-charlefour.svg
+  image_description: Illustration of Allyn Charlefour
+  position: Staff DevOps Engineer
+  bio: |
+    Allyn's someone who enjoys automating repetitive tasks and making systems easier to use. With nearly a decade of experience in cybersecurity at Mandiant and Google, Allyn has developed a strong sense of customer empathy, values fast delivery, and knows how to stay calm and focused when plans take an unexpected turn.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/charlefour/
+      link_description: Allyn's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: maurice-reeves
+  fname: Maurice
+  lname: Reeves
+  full_name: Maurice Reeves
+  short_name: M. Reeves
+  profile_path: /company/about/#maurice-reeves
+  image: /img/people/maurice-reeves.svg
+  image_description: Illustration of Maurice Reeves
+  position: Staff Software Engineer
+  bio: |
+    Mo's a former member of the U.S. Digital Service and technologist with 25 years of experience building tools to munge data. Mo is passionate about building powerful adaptable systems that give control to the users and promotes transparency. Mo has a degree in public policy and is studying for a Masters in Data Science and an MBA.
+  active: true
+  order: 1730
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/mauricereeves/
+      link_description: Maurice's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/mauricereeves
+      link_description: Maurice's GitHub Account
+      fa_icon_name: github
