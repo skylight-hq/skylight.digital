@@ -4838,7 +4838,7 @@
   position: Staff Product Manager
   bio: |
     Bora's a user-obsessed product manager with 10 years of experience developing software products in consumer tech and fintech. Bora's passionate about building products that elegantly solve problems and have measurable impact. Bora lives in California.
-  active: true
+  active: false
   order: 1730
   socials:
     - name: LinkedIn
