@@ -4788,7 +4788,7 @@
   position: Principal Product Manager
   bio: |
     Mindy's a product manager who specializes in early-stage product strategy. Previously, Mindy worked at Google as an engineer and internal founder before moving on to lead U.S. Digital Response's federal grants portfolio. Mindy is passionate about leveraging technology for the good of the community. Mindy lives in California.
-  active: true
+  active: false
   order: 1720
   socials:
     - name: LinkedIn
