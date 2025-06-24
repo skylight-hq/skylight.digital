@@ -23,8 +23,8 @@ slack_invite_url: ""
 youtube_url: https://youtube.com/channel/UCbNzANEv5xYqfMbDrv8kcEw
 
 # Company data
-employee_count: 115
-state_count: 29
+employee_count: 144
+state_count: 32
 
 # Build & development
 incremental: true
