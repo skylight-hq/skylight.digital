@@ -1627,7 +1627,7 @@
   profile_path: /company/about/#kenny-nieh
   image: /img/people/kenny-nieh.jpg
   image_description: Photo of Kenny Nieh
-  position: Senior Product Designer
+  position: Staff Product Designer
   bio: |
     Kenny's a product designer, inclusive-systems thinker, and people person who
     guides products through the entire design life cycle. Kenny lives in
@@ -2163,7 +2163,7 @@
   profile_path: /company/about/#bob-zhao
   image: /img/people/bob-zhao.svg
   image_description: Illustration of Bob Zhao
-  position: Software Engineer
+  position: Senior Software Engineer
   bio: |
     Bob's an engineer who loves bridging the gaps with design and product colleagues. Bob thrives in situations that allow cross-pollination of engineering training with approaches from other disciplines, believing this produces solutions that are more robust, delightful, and useful. Bob studied economics, computer science, and human-computer interaction at Washington University in St. Louis and lives in New York. 
   active: true
@@ -2190,7 +2190,7 @@
   profile_path: /company/about/#ashton-tu
   image: /img/people/ashton-tu.svg
   image_description: Illustration of Ashton Tu
-  position: Product Designer
+  position: Senior Product Designer
   bio: |
     Ashton's a product designer motivated by systems thinking and storytelling to develop scalable solutions. Ashton deeply rooted in grassroots organizations, and co-creates with local communities—from streamlining food equity processes to directing volunteer initiatives. Ashton lives in New York.
   active: true
@@ -2728,7 +2728,7 @@
   profile_path: /company/about/#kyle-planeaux
   image: /img/people/kyle-planeaux.svg
   image_description: Illustration of Kyle Planeaux
-  position: Senior Product Manager
+  position: Staff Product Manager
   bio: |
     Kyle’s a product manager with years of experience in the defense and public health spaces. Previously, Kyle was a civilian product manager for the Space Force. Kyle studied chemical engineering at USC and has a graduate degree in computer science from Georgia Tech. Kyle lives in Los Angeles.
   active: true
@@ -2755,7 +2755,7 @@
   profile_path: /company/about/#zedd-shmais
   image: /img/people/zedd-shmais.svg
   image_description: Illustration of Zedd Shmais
-  position: Staff Software Engineer
+  position: Principal Software Engineer
   bio: |
     Zedd's a software engineer with experience across a range of industries.
     Most recently, Zedd worked at Pivotal Labs / VMware Tanzu, helping companies
@@ -3369,7 +3369,7 @@
   profile_path: /company/about/#marcelle-goggins
   image: /img/people/marcelle-goggins.svg
   image_description: Illustration of Marcelle Goggins
-  position: Senior Data Engineer
+  position: Staff Data Engineer
   bio: |
     Marcelle's a data engineer with a background in applied statistics and
     public policy. Marcelle previously worked at civic-tech non-profits and
@@ -3689,7 +3689,7 @@
   profile_path: /company/about/#mary-yeh
   image: /img/people/mary-yeh.jpg
   image_description: Photo of Mary Yeh
-  position: Senior User Researcher
+  position: Staff User Researcher
   bio: |
     Mary's a researcher, strategic thinker, and user advocate who loves
     collaborating. Mary brings experience as a research consultant,
@@ -4762,7 +4762,7 @@
   profile_path: /company/about/#mike-henderson
   image: /img/people/mike-henderson.svg
   image_description: Illustration of Mike Henderson
-  position: Senior Product Designer
+  position: Staff Product Designer
   bio: |
     Mike’s a designer and strategist with over a decade of experience driving digital transformations for private, non-profit, and government clients. Most recently, Mike worked with the Centers for Medicare & Medicaid Services, improving the enrollment experience at HealthCare.gov.
   active: true
