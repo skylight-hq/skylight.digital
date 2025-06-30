@@ -3842,7 +3842,7 @@
     equitable public outcomes. Alex previously used machine-learning models at
     the National Institutes of Health to help public-water systems identify and
     remove lead pipes. Alex lives in California.
-  active: true
+  active: false
   order: 1310
   socials:
     - name: LinkedIn
