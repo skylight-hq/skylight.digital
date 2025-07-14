@@ -4381,7 +4381,7 @@
     is enabling the warfighter. Brandon worked at Cisco and IBM to deliver
     modern solutions for DoD service members and civil servants — most recently
     at Platform One, an Air Force software factory. Brandon lives in Alabama.
-  active: true
+  active: false
   order: 1530
   socials:
     - name: LinkedIn
