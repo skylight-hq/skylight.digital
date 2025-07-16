@@ -3267,7 +3267,7 @@
     informatics, including clinical decision support, NHSN reporting, and FHIR
     and HL7 APIs. Brady previously worked with CMS as a FHIR specialist for the
     Blue Button API. Brady lives in Idaho.
-  active: false
+  active: true
   order: 1090
   socials:
     - name: LinkedIn
