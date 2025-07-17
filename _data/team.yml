@@ -5070,3 +5070,101 @@
       link: https://github.com/mauricereeves
       link_description: Maurice's GitHub Account
       fa_icon_name: github
+
+- name: andrew-kramer
+  fname: Andrew
+  lname: Kramer
+  full_name: Andrew Kramer
+  short_name: A. Kramer
+  profile_path: /company/about/#andrew-kramer
+  image: /img/people/andrew-kramer.svg
+  image_description: Illustration of Andrew Kramer
+  position: Staff DevOps Engineer
+  bio: |
+    Andrew's a DevOps engineer with more than 15 years of experience delivering cost-effective solutions that are reliable at scale. Andrew is passionate about developing software that improves public services for everyone. Andrew lives in Florida.
+  active: true
+  order: 1750
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/andrew-d-kramer/
+      link_description: Andrews's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/andrew-kramer
+      link_description: Andrews's GitHub Account
+      fa_icon_name: github
+
+- name: jeff-bostick
+  fname: Jeff
+  lname: Bostick
+  full_name: Jeff Bostick
+  short_name: J. Bostick
+  profile_path: /company/about/#jeff-bostick
+  image: /img/people/jeff-bostick.svg
+  image_description: Illustration of Jeff Bostick
+  position: Staff Product Manager
+  bio: |
+    Jeff is a product manager who specializes in leading cross-functional teams through ambiguity, with a focus on public-sector and secure environments. Before joining Skylight, Jeff worked on mission-driven tools at AWS and helped support federal clients like the Department of Defense. Jeff lives in New York.
+  active: true
+  order: 1750
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/jcbostick/
+      link_description: Jeff's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: scott-hallman
+  fname: Scott
+  lname: Hallman
+  full_name: Scott Hallman
+  short_name: S. Hallman
+  profile_path: /company/about/#scott-hallman
+  image: /img/people/scott-hallman.svg
+  image_description: Illustration of Scott Hallman
+  position: DevOps Engineer
+  bio: |
+    Scott's a DevOps engineer with extensive experience leading high-performing DevOps teams. Working in government modernization, Scott played a key role in large-scale cloud migrations for the U.S. Department of Veterans Affairs, driving infrastructure modernization and automation efforts. Scott lives in South Carolina.
+  active: true
+  order: 1750
+
+- name: randall-rupp
+  fname: Randall
+  lname: Rupp
+  full_name: Randall Rupp
+  short_name: R. Rupp
+  profile_path: /company/about/#randall-rupp
+  image: /img/people/randall-rupp.svg
+  image_description: Illustration of Randall Rupp
+  position: Software Engineer
+  bio: |
+    Randall is a software engineer who has worked on a variety of projects in government, IoT, and financial services. Randall enjoys creating software components that integrate with and help modernize existing systems. If along the way there are opportunities to learn new tools and methods then all the better. Randall lives in North Carolina.
+  active: true
+  order: 1750
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/randall-rupp-26251282/
+      link_description: Randall's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/rcrupp
+      link_description: Randall's GitHub Account
+      fa_icon_name: github
+
+- name: chris-connolly
+  fname: Chris
+  lname: Connolly
+  full_name: Chris Connolly
+  short_name: C. Connolly
+  profile_path: /company/about/#chris-connolly
+  image: /img/people/chris-connolly.svg
+  image_description: Illustration of Chris Connolly
+  position: Product Manager
+  bio: |
+    Chris is a former member of the U.S. Digital Service with over a decade of experience in civic tech. Chris has worked with multiple federal agencies to help improve public services and make them more accessible and user-centered. Driven by a passion for designing services with users rather than for them, Chris brings a thoughtful, impact-focused approach to government digital services. Chris holds a degree in Philosophy and a Master's in Public Policy and lives in Illinois. 
+  active: true
+  order: 1750
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/chris-connolly-comms/
+      link_description: Chris's LinkedIn Account
+      fa_icon_name: linkedin
