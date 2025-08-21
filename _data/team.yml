@@ -4226,7 +4226,7 @@
     Silicon Valley startups to GIS, aerospace, and the Peace Corps. Andrew's
     an expert at turning customer pain points into technical requirements and
     lives in Georgia.
-  active: true
+  active: false
   order: 1470
   socials:
     - name: GitHub
