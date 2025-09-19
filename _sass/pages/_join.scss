@@ -12,6 +12,12 @@
   .quote-text {
     font-size: $font-size-x-large;
   }
+  .employee-gradient{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;}
 
   .image-list {
     margin-top: 1rem;
