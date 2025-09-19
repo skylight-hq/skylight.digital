@@ -13,10 +13,11 @@
     font-size: $font-size-x-large;
   }
   .employee-gradient{
-    object-fit: cover;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: no-repeat center;
+    background-size: cover;
   }
 
   .image-list {
