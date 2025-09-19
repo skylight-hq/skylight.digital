@@ -13,11 +13,11 @@
     font-size: $font-size-x-large;
   }
   .employee-gradient{
-    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
     height: 100px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;}
+    width: 100px;
+  }
 
   .image-list {
     margin-top: 1rem;
