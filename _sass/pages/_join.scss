@@ -12,12 +12,18 @@
   .quote-text {
     font-size: $font-size-x-large;
   }
-  .employee-gradient{
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    background: no-repeat center;
-    background-size: cover;
+  .employee-gradient {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .employee-gradient__img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    min-width: 100%;
   }
 
   .image-list {
