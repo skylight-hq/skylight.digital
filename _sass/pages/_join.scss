@@ -13,17 +13,11 @@
     font-size: $font-size-x-large;
   }
   .employee-gradient {
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+    clip-path: circle();
   }
 
   .image-list {
-    margin-top: 1rem;
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+
   }
 
   .image-list__employee-img {
