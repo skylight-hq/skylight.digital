@@ -2083,7 +2083,7 @@
     Nathan's a software engineer driven to build digital services for public
     good. Before becoming an engineer, Nathan ran a bakery. Nathan lives in
     North Carolina.
-  active: true
+  active: false
   order: 680
   socials:
     - name: LinkedIn
