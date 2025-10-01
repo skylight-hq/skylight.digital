@@ -23,7 +23,6 @@ GEM
     eventmachine (1.2.7)
     fastimage (2.4.0)
     ffi (1.17.2-x86_64-darwin)
-    ffi (1.17.2-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.14.7)
@@ -110,7 +109,6 @@ GEM
 
 PLATFORMS
   x86_64-darwin-24
-  x86_64-linux
 
 DEPENDENCIES
   jekyll (= 4.4.1)
