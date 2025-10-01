@@ -12,13 +12,17 @@
   .quote-text {
     font-size: $font-size-x-large;
   }
+  .make-circle-image {
+    clip-path: circle();
+    width: 150%;
+    margin-left: -25%;
+  }
 
   .image-list {
     margin-top: 1rem;
   }
 
   .image-list__employee-img {
-    border-radius: 100%;
   }
 
   svg {
