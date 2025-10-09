@@ -49,7 +49,7 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **decision-maker/decision-making**
 
-**Defense Services (DS)**
+**Defense & Security (DS)**
 
 **DE&I,** not DEI
 
@@ -83,6 +83,8 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **federal government,** not Federal Government or Federal government.
 
+**Federal Health & Civilian (FHC)**
+
 **filename,** not file name.
 
 **fiscal year** is lowercase. It’s okay to abbreviate as FY on the second reference.
@@ -108,8 +110,6 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 **homepage**
 
 **human-centered design,** often used interchangeably with user-centered design. We prefer user-centered design to emphasize our focus on those who are _using_ a service/product (rather than those making it or humans in general).
-
-**Human Services (HS)**
 
 ## I
 
