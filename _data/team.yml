@@ -4677,7 +4677,7 @@
   position: Staff Product Designer
   bio: |
     Laurel's a product designer with a focus on design, front-end development, and content management support. Laurel’s led design delivery for major public sector platforms like VA.gov, HealthCare.gov, Medicare.gov, and Wisconsin.gov. Laurel holds a BFA in Communication Design and a Master’s Capstone in User Research. Laurel lives in Wisconsin.
-  active: true
+  active: false
   order: 1670
   socials:
     - name: LinkedIn
