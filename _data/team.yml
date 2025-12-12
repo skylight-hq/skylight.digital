@@ -5168,3 +5168,163 @@
       link: https://www.linkedin.com/in/chris-connolly-comms/
       link_description: Chris's LinkedIn Account
       fa_icon_name: linkedin
+
+- name: katie-gwinn
+  fname: Katie
+  lname: Gwinn
+  full_name: Katie Gwinn
+  short_name: K. Gwinn
+  profile_path: /company/about/#katie-gwinn
+  image: /img/people/katie-gwinn.svg
+  image_description: Illustration of Katie Gwinn
+  position:  Chief Financial Officer
+  bio: |
+    Katie is a finance and operations leader with a passion for building smart, scalable systems that help teams thrive. She brings over a decade of experience in budgeting, financial reporting, and supporting growth at mission-driven organizations — especially those working with government. She lives in Omaha. 
+  active: true
+  order: 1750
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/katiemgwinn/
+      link_description: Katies's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: maya-mascarenhas
+  fname: Maya
+  lname: Mascarenhas
+  full_name: Maya Mascarenhas
+  short_name: M. Mascarenhas
+  profile_path: /company/about/#maya-mascarenhas
+  image: /img/people/maya-mascarenhas.svg
+  image_description: Photo of Maya Mascarenhas
+  position: Product Manager
+  bio: |
+    Maya's a product manager with a background in epidemiology and product. Maya loves working to create user-centered technology that improves public health. Previously, Maya founded a venture-backed health tech startup, and worked at CDC and the World Health Organization (WHO). Maya lives in New York.
+  active: true
+  order: 1100
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/maya-mascarenhas
+      link_description: Maya's's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://mayamascarenhas.com/
+      link_description: Maya's Personal Website
+      fa_icon_name: home
+
+- name: kate-green
+  fname: Kate
+  lname: Green
+  full_name: Kate Green
+  short_name: K. Green
+  profile_path: /company/about/#kate-green
+  image: /img/people/kate-green.svg
+  image_description: Illustration of Kate Green
+  position: Software Engineer
+  bio: |
+    Kate is a generalist who happens to be a software engineer. She cares deeply about helping people access services and information. Her work at the U.S. Digital Service has helped countless people, including two stints on Direct File and making it easier for disaster survivors register for assistance. Kate lives in Maryland.
+  active: true
+  order: 1750
+  socials:
+    - name: LinkedIn
+      link: linkedin.com/in/4kategreen
+      link_description: Kate's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: github.com/4kategreen
+      link_description: Kate's GitHub Account
+      fa_icon_name: github
+
+- name: matt-dobson
+  fname: Matt
+  lname: Dobson
+  full_name: Matt Dobson
+  short_name: M. Dobson
+  profile_path: /company/about/#matt-dobson
+  image: /img/people/matt-dobson.svg
+  image_description: Photo of Matt Dobson
+  position: Staff Product Manager
+  bio: |
+    Matt is a designer turned product manager with more than a decade of experience in public and private sector innovation and digital transformation. Prior to joining the team at Skylight, Matt was at 10x (a federal government venture studio) and part of the Public Benefits Portfolio at 18F. Matt lives in Kentucky.
+  active: true
+  order: 1100
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/themattdobson/
+      link_description: Matt's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: Personal Website
+      link: https://mattdobson.com/
+      link_description: Matt's Personal Website
+      fa_icon_name: home
+
+- name: will-conant
+  fname: Will
+  lname: Conant
+  full_name: Will Conant
+  short_name: W. Conant
+  profile_path: /company/about/#will-conant
+  image: /img/people/will-conant.svg
+  image_description: Photo of Will Conant
+  position: Staff Product Manager
+  bio: |
+    Will is an Air Force veteran and product leader passionate about bringing digital optimization to the DoD. He thrives on transforming complex challenges into streamlined, customer-centric solutions that elevate efficiency and deliver exceptional user experiences. Will lives in Arkansas.
+  active: true
+  order: 1100
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/williamconant/
+      link_description: Will's LinkedIn Account
+      fa_icon_name: linkedin
+
+- name: aimee-knight
+  fname: Aimee
+  lname: Knight
+  full_name: Aimee Knight
+  short_name: A. Knight
+  profile_path: /company/about/#aimee-knight
+  image: /img/people/aimee-knight.svg
+  image_description: Photo of Aimee Knight
+  position: Staff Software Engineer 
+  bio: |
+    Aimee is a software engineer with over a decade of experience spanning the full product delivery lifecycle. She works across both frontend and backend development as well as infrastructure, DevOps, site reliability, and platform engineering. Aimee is a military spouse who moves often but considers Nashville, Tennessee home.
+  active: true
+  order: 1100
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/aimeemarieknight/
+      link_description: Aimee's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/AimeeKnight
+      link_description: Aimee's GitHub Account
+      fa_icon_name: github
+    - name: Personal Website
+      link: https://www.aimeemarieknight.com/
+      link_description: Aimee's Personal Website
+      fa_icon_name: home
+
+- name: aaron-owens
+  fname: Aaron
+  lname: Owens
+  full_name: Aaron Owens
+  short_name: Aaron Owens
+  profile_path: /company/about/#aaron-owens
+  image: /img/people/aaron-owens.svg
+  image_description: Photo of Aaron Owens
+  position: Security Engineer 
+  bio: |
+    Aaron is a U.S. Air Force veteran with a combined 28 years of experience supporting the DoD — 25 of those focused on IT, networking, and cybersecurity. He was one of the first members in the DoD to manage a Continuous ATO (cATO). Aaron holds a Master of Business Administration (MBA) and a CISSP certification and lives in Kentucky.
+  active: true
+  order: 1100
+  socials:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/aaron-owens-b4645b84/
+      link_description: Aaron's LinkedIn Account
+      fa_icon_name: linkedin
+    - name: GitHub
+      link: https://github.com/aaronowens
+      link_description: Aaron's GitHub Account
+      fa_icon_name: github
+
+  
+
