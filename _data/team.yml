@@ -4509,7 +4509,7 @@
   position: Talent Acquisition Partner
   bio: |
     Cheyenne's a recruiter with 7+ years of experience in recruiting/talent acquisition and almost 3 years recruiting for digital service companies. Cheyenne is passionate about making the hiring process seamless and as comfortable as possible. Cheyenne lives in Illinois.
-  active: true
+  active: false
   order: 1590
   socials:
     - name: LinkedIn
