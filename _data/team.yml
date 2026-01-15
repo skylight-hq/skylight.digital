@@ -4528,7 +4528,7 @@
   position: Talent Acquisition Partner
   bio: |
     Corinne's a Talent Acquisition Partner who specializes in sourcing top talent to establish and build diverse teams. Corinne focuses on designing creative recruitment strategies that are tailored for individual teams and business needs. Corinne loves partnering with stakeholders to create an inclusive interview process that not only fills positions but also enhances workplace culture.
-  active: true
+  active: false
   order: 1600
   socials:
     - name: LinkedIn
