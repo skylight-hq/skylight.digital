@@ -3673,7 +3673,7 @@
   position: Public Health Strategist, Federal Health & Civilian
   bio: |
     Mike shapes Skylight’s direction in public health, connecting policy, funding, and infrastructure trends to actionable product and technology strategies. He focuses on growing internal capability, strengthening partnerships, and advancing thought leadership. Based in Atlanta, GA, Mike enjoys playing Ultimate Frisbee and spending time with his family and two dogs.
-  active: true
+  active: false
   order: 1240
   socials:
     - name: LinkedIn
