@@ -132,7 +132,7 @@ To address these gaps — and in alignment with the [Preschool Development Grant
 {% endcapture %}
 
 {% capture solution %}
-To address these challenges, we delivered a solution that combined immediate service modernization with long-term capability building inside the organization. The work focused on four core areas:
+To meet OEC’s critical needs, we combined immediate service modernization with long-term capability building inside the organization. The work focused on four core areas:
 
 **1. Modernizing public-facing services**
 
