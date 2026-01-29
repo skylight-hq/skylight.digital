@@ -149,8 +149,8 @@ To address these challenges, we delivered a solution that combined immediate ser
 **3. Building internal digital capacity**
 
 - Authored a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/) to guide recruiting, hiring, and retaining in-house digital professionals
-- Developed practical toolkits to support modern ways of working, including an [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/) and [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/), as well as Content Guidelines
 - Supported the structuring, recruiting, and onboarding of internal digital service experts
+- Developed practical toolkits to support modern ways of working, including an [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/) and [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/), as well as Content Guidelines
 - Trained nearly 20 procurement officials in modern acquisition practices through the [Digital IT Acquisition Professional Training — Executive Edition](/work/services/training/ditap-executive/)
 
 **4. Enabling resilient operations during COVID-19**
@@ -164,10 +164,10 @@ By modernizing technology while building internal digital capability, OEC streng
 
 {% capture results %}
 - Launched several modernized digital services, including OEC’s new online presence
+- Improved OEC’s ability to use data to inform policy, service design, and investment decisions
 - Established repeatable practices for hiring, training, and supporting internal digital talent
 - Accelerated the adoption of modern acquisition practices across the organization
 - Enabled more than 200 professionals to work effectively in a fully virtual environment
-- Improved OEC’s ability to use data to inform policy, service design, and investment decisions
 {% endcapture %}
 
 {% include project.html
