@@ -93,7 +93,7 @@ OEC needed a system that made accurate reporting the easiest path for providers,
 {% capture solution %}
 Skylight partnered with OEC to design and build a modern enrollment reporting system — the Early Childhood Education (ECE) Reporter — focused on usability, data quality, and long-term sustainability.
 
-The ECE Reporter consolidated monthly reporting into a single, user-friendly workflow that gave providers more control over their data. It made better use of existing information to link and reconcile records across reporting periods, reducing manual entry, minimizing errors, and eliminating the need for providers to create or manage unique child IDs.
+The ECE Reporter streamlined monthly reporting into a single, user-friendly workflow that gave providers more control over their data. It leveraged existing information to link and reconcile records across reporting periods, reducing manual entry, minimizing errors, and eliminating the need for providers to create or manage unique child IDs.
 
 To deliver this solution, the Skylight team:
 
@@ -103,7 +103,7 @@ To deliver this solution, the Skylight team:
 - Developed a probabilistic matching algorithm to identify and resolve duplicate child records
 - Used agile, iterative delivery practices aligned with the [U.S. Digital Services Playbook](https://playbook.cio.gov/#play4) to get working software into users’ hands early and often
 
-The outcome was a reporting experience that providers actually wanted to use. Providers could log in, upload current enrollment data, review site-level summaries, and continuously maintain accurate rosters without re-entering the same information month after month.
+The outcome was a reporting experience that providers chose to use. Providers could log in, upload current enrollment data, review site-level summaries, and maintain accurate rosters without re-entering the same information month after month.
 
 {% include callout.html
   type = "pullquote"
