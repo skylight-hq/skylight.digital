@@ -124,11 +124,11 @@ The Connecticut Office of Early Childhood (OEC) undertook a major effort to mode
 {% endcapture %}
 
 {% capture challenge %}
-At the time of the engagement, OEC was a $400M state agency responsible for a complex network of early-childhood programs, including child development services, family supports, and provider oversight. Central to this mission was supporting the educators, providers, and professionals who care for young children every day.
+At the time of the engagement, OEC was a $400M state agency responsible for a complex network of early-childhood programs, including child development services, family supports, and provider oversight. Central to this mission was supporting the educators, providers, and professionals who care for young children. Delivering on that mission depended on technology that could meet the needs of families, providers, and staff.
 
-Many of OEC’s technology systems and digital practices weren’t keeping pace with user needs. Families and providers needed clearer, easier digital paths to find resources and share information, but legacy tools and processes made those interactions harder than they should’ve been.
+Many of OEC’s technology systems and digital practices weren’t keeping pace with user needs. Families and providers needed clearer, easier digital pathways to find resources and share information, but legacy tools and processes made those interactions harder than they should’ve been.
 
-In alignment with the [Preschool Development Grant program](https://www.acf.hhs.gov/ecd/early-learning/preschool-development-grants), which was administered by the [Administration for Children and Families](https://www.acf.hhs.gov/), OEC sought a partner who could help modernize priority services while strengthening the internal capability needed to sustain the work.
+To address these gaps — and in alignment with the [Preschool Development Grant program](https://www.acf.hhs.gov/ecd/early-learning/preschool-development-grants) administered by the [Administration for Children and Families](https://www.acf.hhs.gov/) — OEC sought a partner who could help modernize priority services while strengthening the internal capability needed to sustain the work.
 {% endcapture %}
 
 {% capture solution %}
@@ -141,7 +141,7 @@ To address these challenges, we delivered a solution that combined immediate ser
 
 **2. Strengthening data and insight**
 
-- Built an accessible [data collection tool](/work/experience/ct-ece-reporter/) for early care and education providers to submit accurate information about the children in their care
+- Built a streamlined [data collection tool](/work/experience/ct-ece-reporter/) for early care and education providers to submit accurate information about the children in their care
 - [Piloted rapid, low-risk solutions](/work/experience/ct-oec-care4kids-auto-notifier/) to better understand barriers to accessing affordable childcare
 - [Leveraged data and information](/work/experience/ct-families-experiencing-homelessness/) to improve support for families with young children experiencing homelessness
 
