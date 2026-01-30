@@ -1,10 +1,10 @@
 ---
 layout: default
 title_tag: U.S. Air Force
-title: Helping an Air Force organization modernize weather systems by building design capacity
+title: Building design capability to modernize Air Force weather systems
 permalink: /work/experience/usaf-wxpo-warpspeed/
 image: /img/projects/usaf_wxpo_warpspeed/wxpo-warpspeed.svg
-image_description: Back of heads of a designer and a WxPO person next to each other collaborating on a screen with some weather graphics. 
+image_description: Two teammates — a designer and a WxPO staff member — collaborating at a screen with weather graphics.
 feature_image:
 feature_image_description:
 feature_image_shadow:
