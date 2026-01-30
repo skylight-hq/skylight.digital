@@ -107,7 +107,7 @@ Building on our [design transformation work with WARPspeed](/work/experience/usa
 {% endcapture %}
 
 {% capture solution %}
-At Skylight, we don’t just redesign interfaces — we help teams build the capabilities to deliver better experiences release after release. With WxPO, we combined hands-on redesign with capability building across research, design, content, and agile product management, focused on bringing JET into BIFROST.
+At Skylight, improving user experiences means more than redesigning features. We help teams build the practices and capabilities to sustain those improvements over time. With WxPO, we paired hands-on redesign with capability building across research, design, content, and agile product management, focusing on bringing JET into BIFROST.
 
 **Establish a baseline and standardize the foundation**  
 We started with a usability and accessibility audit of BIFROST to pinpoint friction points and compliance gaps. We documented issues, partnered with the product manager and developers to prioritize them, and supported implementation. To reduce inconsistency across the growing ecosystem, we created a WxPO design system and reusable templates in Figma, then trained designers on accessibility best practices, prototyping, and cleaner design handoffs.
