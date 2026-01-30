@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: U.S. Air Force
-title: Modernizing Air Force weather tools and design processes
+title: Unifying Air Force weather tools into a single, user-centered platform
 permalink: /work/experience/usaf-wxpo-bifrost/
 image: /img/projects/usaf_wxpo_bifrost/wxpo-bifrost.svg
 image_description: Disjointed weather icons merging into a clean interface shown on two computer screens. One screen should show a map with a flight route (origin, route line, and destination with a plane icon). The other screen should show a briefing form next to a map with &quot;threat&quot; blobs on it.
@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 550
 display: true
 tags: [research & design, product management, legacy modernization, transformation, coaching & training, defense, air force, taylor graue, holly dewolf, jennifer herzberg, laura kerry, kyle planeaux, jina ryu, michelle li]
-excerpt: Using research and design to upgrade legacy tools and improve the processes the U.S. Air Force Weather Systems Program Office relies on to build them.
+excerpt: Using research and design to streamline legacy weather workflows and help the U.S. Air Force Weather Systems Program Office ship improvements faster.
 project_members:
   - taylor-graue
   - holly-dewolf
@@ -91,46 +91,50 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) is migrating its portfolio of applications into one central hub called BIFROST. We worked with WxPO to redesign the applications, improving user experience while building human-centered design capacity on the BIFROST team.
+The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) is migrating its portfolio of applications into one central hub called BIFROST. We partnered with WxPO to redesign key workflows, improve usability and accessibility, and build human-centered design capacity within the BIFROST team.
 {% endcapture %}
 
 {% capture challenge %}
-Forecasters, pilots, air traffic controllers, and other DoD and civilian personnel need up-to-date weather information to assess mission impacts and make decisions. To support these operations, WxPO provides a suite of applications that enable customers to perform their critical tasks. Tools like JET (Joint Environmental Toolkit) enable resource protection and mission planning by allowing forecasters to issue Watches, Warnings, and Advisories (WWAs) for hazardous weather conditions and provide weather briefings before missions. 
+Forecasters, pilots, air traffic controllers, and other DoD and civilian personnel rely on timely, accurate weather information to assess mission impacts and make decisions. To support those operations, WxPO maintains a suite of applications that help users complete critical tasks. Tools like JET (Joint Environmental Toolkit) support resource protection and mission planning by enabling forecasters to issue Watches, Warnings, and Advisories (WWAs) for hazardous conditions and deliver pre-mission weather briefings.
 
-As part of their initiative to migrate to the cloud, WxPO is building replacements for legacy applications in one central hub, called BIFROST. This effort aims to streamline operations for users, who in the past needed to switch between applications to accomplish tasks, requiring extra time and effort. It also makes sharing data across roles easier and less manual, since different user groups previously used different tools. 
+As part of a broader cloud migration, WxPO is replacing legacy applications by consolidating them into a single hub: BIFROST. The goal is to reduce the time and effort users spend switching between tools, and to make it easier to share data across roles without manual workarounds that slowed teams down in the past.
 
-Consolidating tools under BIFROST, however, poses additional challenges for WxPO. The new application needs to maintain the critical functionality of legacy tools while streamlining, standardizing, and improving user experience. 
+But consolidation raises the bar. BIFROST has to preserve essential legacy functionality while also streamlining workflows, standardizing patterns, and improving the overall user experience.
 
-Previously, WxPO didn’t have the design capacity to meet such challenges. With outdated design tools, a single designer supporting a large development team, and inefficient workflows, the design process yielded inconsistent user experiences and delivery bottlenecks. Additionally, teams had limited capacity to collect user input throughout the process. For example, the JET team historically sought user feedback only after building features, which resulted in reactive, patchy fixes and mounting design debt. While BIFROST aimed to improve user experience of legacy tools, the limitations of WxPO’s design process meant that  the weather community was stuck using dated, non-intuitive applications. 
+At the same time, WxPO didn’t yet have the design capacity to meet that challenge. With outdated tooling, a single designer supporting a large development team, and inefficient workflows, the design process created inconsistent experiences and delivery bottlenecks. User feedback often came too late to shape requirements. For example, the JET team historically collected input after features shipped, which led to reactive fixes, patchwork improvements, and mounting design debt. While BIFROST aimed to improve legacy user experiences, those process constraints kept the weather community on dated, non-intuitive applications.
 
-As part of our [design transformation work with WARPspeed](/work/experience/usaf-wxpo-warpspeed/), the organization in charge of managing applications migrating to the cloud, WxPO engaged us to redesign the legacy tools in BIFROST.
+Building on our [design transformation work with WARPspeed](/work/experience/usaf-wxpo-warpspeed/) — the organization coordinating cloud migration — WxPO engaged us to help redesign legacy tools within BIFROST and strengthen the practices needed to sustain that work.
 {% endcapture %}
 
 {% capture solution %}
-At Skylight, improving user experiences goes beyond redesigning features — it involves fostering the organizational transformation needed to sustain those improvements over time. To help WxPO build a user-friendly tool that consolidates Air Force weather operations, we provided comprehensive research, design, and capability-building services. This included expertise in user research, product design, content design, and agile product management, all tailored to support the BIFROST team with a particular focus on the JET application migration.
+At Skylight, we don’t just redesign interfaces — we help teams build the capabilities to deliver better experiences release after release. With WxPO, we combined hands-on redesign with capability building across research, design, content, and agile product management, focused on bringing JET into BIFROST.
 
-To understand the current state of BIFROST, we first conducted a usability audit of the application. This allowed us to identify design and accessibility issues, which we documented and worked with the product manager and developers to prioritize and fix. We also worked to standardize components across BIFROST by building a WxPO design system and templates in Figma. We then trained other designers to use the state-of-the-art design tool, covering best practices in accessibility, design handoffs, and prototyping to collect user feedback.
+**Establish a baseline and standardize the foundation**  
+We started with a usability and accessibility audit of BIFROST to pinpoint friction points and compliance gaps. We documented issues, partnered with the product manager and developers to prioritize them, and supported implementation. To reduce inconsistency across the growing ecosystem, we created a WxPO design system and reusable templates in Figma, then trained designers on accessibility best practices, prototyping, and cleaner design handoffs.
 
-To ensure designs meet user needs, we established processes to gather user input at every phase of design and development. During a regular meeting with a volunteer group of users, in research sessions, and during on-site visits, we talked to users to understand use cases and help define feature requirements. We conducted usability testing on prototypes, modeling an iterative design process for both users, our clients, and the other designers supporting them. With these additional user touch points, we helped ensure that the BIFROST team builds the right features — and builds them in the right way, informed by weather expertise and user input. We also trained teammates in research methodologies, cultivating strong user advocates while speeding up the research and development process.  
+**Make user input continuous, not occasional**  
+To ensure designs reflected real operational needs, we introduced regular touch points for user feedback across discovery, design, and delivery. Through research sessions, a standing meeting with volunteer users, and on-site visits, we gathered use cases and helped shape feature requirements. We ran usability tests on prototypes and modeled iterative delivery for users and the BIFROST team. We also coached teammates in research methods so they could lead and scale this work independently, strengthening user advocacy while speeding up research and development.
 
-Designs are only successful if developers can successfully build them; during our WxPO engagement, we also worked on improving the handoff between design and development. During a bi-weekly meeting with developers, we facilitated conversations to understand technical considerations and the feasibility of designs. Our introduction of Figma enabled BIFROST designers to create more comprehensive prototypes, and we trained developers to use Figma dev tools for further clarity. We also introduced a Figma library for Material UI, a React component library, to simplify the transition from design to coding. Finally, we set standards for ticket writing in Jira, ensuring each issue had a link to a Figma design and enough detail to guide implementation — including USAF policy requirements, user requirements, acceptance criteria, and edge cases. Facilitating a smoother handoff to developers, we improved the developer experience, ultimately speeding up delivery. As the lead engineer on the JET migration said: 
+**Tighten the design-to-development loop**  
+Design only works if it’s buildable. We improved handoffs by establishing a bi-weekly design and engineering touch point to surface technical constraints early and align on feasibility. Adopting Figma enabled richer prototypes, and we trained developers to use Figma dev tools for faster implementation. We also introduced a Material UI component library in Figma to reduce translation work between design and React code. Finally, we set Jira ticket standards so each issue linked to the relevant Figma design and included the details needed to build with confidence — policy constraints, user requirements, acceptance criteria, and edge cases. As the lead engineer on the JET migration said:
 
 {% include callout.html type = "pullquote" content = "The designers are able to help align the requirements and user desires into a cohesive user interface design that makes the product look more polished and aids in the development process by bringing user needs and design to the front of the development effort." %}
 
-To further improve the usability of BIFROST, we created user-centered training and product guidance. After interviewing users to understand training needs, we identified opportunities to provide training in the formats most valuable to users — including videos and live, virtual trainings. We developed content guidelines that tailored best practices to the unique needs of the ecosystem, leveraging these to update a collection of written training guides. We also worked with other content creators to adopt best practices and standardize content.  
+**Support adoption with training and product guidance**  
+To improve usability beyond the UI, we created user-centered training and product guidance. After interviewing users about onboarding and learning needs, we identified the formats they valued most — including videos and live virtual trainings. We developed content guidelines tailored to the ecosystem and used them to update and standardize a large set of written training guides alongside other content creators.
 
-Leveraging the new WxPO design system, more touch points for user feedback, and a smoother development handoff process, we redesigned high-impact JET features, including WWAs and Mission Management (the application for requesting and completing mission briefings). Not only did we streamline important operations for the weather community, but we also made users feel more involved in the process. As one user said:
+**Redesign high-impact workflows in JET**  
+Using the new design system, more frequent user feedback, and a smoother handoff process, we redesigned high-impact JET workflows, including WWAs and Mission Management (the application for requesting and completing mission briefings). These updates streamlined core operations for the weather community and made users feel meaningfully involved in shaping the product. As one user shared:
 
 {% include callout.html type = "pullquote" content = "These sessions that you guys are doing are extremely valuable — giving everybody the time to give you guys feedback, making this thing certainly a lot better." %}
 
-With the changes we implemented, we helped the BIFROST team build trust with their users, setting up both users and our clients for long-term success. 
+Together, these changes helped the BIFROST team build trust with users and created a stronger foundation for long-term, continuous improvement.
 {% endcapture %}
 
 {% capture results %}
-- Updated designs for legacy JET features, saving time for forecasters and other users by reducing the number of clicks to configure WWAs and automating data input in mission briefs
-- Implemented more regular touch points for user research, ensuring user needs inform every stage of development, from writing requirements to prioritizing enhancements
-- Facilitated a smoother handoff between design and development, saving time for developers and accelerating delivery
-- Updated almost 40 training guides to ensure users can complete self-service onboarding and understand how to use BIFROST
+- Updated designs for high-impact legacy JET workflows, reducing clicks to configure WWAs and automating data input within mission briefs to save time for forecasters and other users
+- Implemented repeatable user research touch points and strengthened design-to-development handoffs, so user needs shaped requirements and prioritization while reducing rework and accelerating delivery
+- Updated nearly 40 training guides to support self-service onboarding and help users learn BIFROST faster
 {% endcapture %}
 
 {% include project.html
@@ -139,4 +143,3 @@ With the changes we implemented, we helped the BIFROST team build trust with the
   solution = solution
   results = results
 %}
-
