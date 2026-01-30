@@ -107,7 +107,7 @@ Building on our [design transformation work with WARPspeed](/work/experience/usa
 {% endcapture %}
 
 {% capture solution %}
-At Skylight, improving user experiences means more than redesigning features. We help teams build the practices and capabilities to sustain those improvements over time. With WxPO, we paired hands-on redesign with capability building across research, design, content, and agile product management, focusing on bringing JET into BIFROST.
+At Skylight, improving user experiences means more than redesigning features — it requires building the practices and capabilities that sustain improvement over time. With WxPO, we paired hands-on redesign with support across research, design, content, and agile product management. That work showed up in five ways:
 
 **Establish a baseline and standardize the foundation**  
 We started with a usability and accessibility audit of BIFROST to pinpoint friction points and compliance gaps. We documented issues, partnered with the product manager and developers to prioritize them, and supported implementation. To reduce inconsistency across the growing ecosystem, we created a WxPO design system and reusable templates in Figma, then trained designers on accessibility best practices, prototyping, and cleaner design handoffs.
@@ -121,7 +121,7 @@ Design only works if it’s buildable. We improved handoffs by establishing a bi
 {% include callout.html type = "pullquote" content = "The designers are able to help align the requirements and user desires into a cohesive user interface design that makes the product look more polished and aids in the development process by bringing user needs and design to the front of the development effort." %}
 
 **Support adoption with training and product guidance**  
-To improve usability beyond the UI, we created user-centered training and product guidance. After interviewing users about onboarding and learning needs, we identified the formats they valued most — including videos and live virtual trainings. We developed content guidelines tailored to the ecosystem and used them to update and standardize a large set of written training guides alongside other content creators.
+To improve usability beyond the UI, we created user-centered training and product guidance. After interviewing users about onboarding and learning needs, we identified the formats they valued most, including videos and live, virtual trainings. We developed content guidelines tailored to the ecosystem and used them to update and standardize a large set of written training guides alongside other content creators.
 
 **Redesign high-impact workflows in JET**  
 Using the new design system, more frequent user feedback, and a smoother handoff process, we redesigned high-impact JET workflows, including WWAs and Mission Management (the application for requesting and completing mission briefings). These updates streamlined core operations for the weather community and made users feel meaningfully involved in shaping the product. As one user shared:
