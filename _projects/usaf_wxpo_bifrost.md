@@ -99,23 +99,7 @@ Forecasters, pilots, air traffic controllers, and other DoD and civilian personn
 
 As part of a broader cloud migration, WxPO is consolidating legacy applications into a single hub, BIFROST. The goal is to reduce the time and effort users spend switching between tools and make it easier to share data across roles without manual workarounds that slowed teams down in the past.
 
-Consolidation raised the bar. BIFROST needed to preserve essential legacy functionality while streamlining workflows, standardizing patterns, and improving the overall user experience.
-
-At the same time, WxPO didn’t yet have the design capacity to meet that challenge. With outdated tooling, a single designer supporting a large development team, and inefficient workflows, the design process created inconsistent experiences and delivery bottlenecks. User feedback often came too late to shape requirements. For example, the JET team historically collected input after features shipped, which led to reactive fixes, patchwork improvements, and mounting design debt. While BIFROST aims to improve legacy user experiences, those process constraints kept the weather community on dated, non-intuitive applications.
-
-Building on our [design transformation work with WARPspeed](/work/experience/usaf-wxpo-warpspeed/), WxPO engaged us to redesign legacy tools within BIFROST and strengthen the practices needed to sustain that work.
-{% endcapture %}
-
-{% capture summary %}
-The U.S. Air Force Weather Systems Program Office (WxPO) is consolidating its portfolio of applications into one central hub called BIFROST. We partnered with WxPO to redesign key workflows, improve usability and accessibility, and build human-centered design capacity within the BIFROST team.
-{% endcapture %}
-
-{% capture challenge %}
-Forecasters, pilots, air traffic controllers, and other DoD and civilian personnel rely on timely, accurate weather information to assess mission impacts and make decisions. To support those operations, WxPO maintains a suite of applications that help users complete critical tasks. Tools like JET (Joint Environmental Toolkit) support resource protection and mission planning by enabling forecasters to issue Watches, Warnings, and Advisories (WWAs) for hazardous conditions and deliver pre-mission weather briefings.
-
-As part of a broader cloud migration, WxPO is consolidating legacy applications into a single hub, BIFROST. The goal is to reduce the time and effort users spend switching between tools and make it easier to share data across roles without manual workarounds that slowed teams down in the past.
-
-Consolidation raised the bar. BIFROST needed to preserve essential legacy functionality while streamlining workflows, standardizing patterns, and improving the overall user experience.
+Consolidation raised the bar. BIFROST has to preserve essential legacy functionality while streamlining workflows, standardizing patterns, and improving the overall user experience.
 
 At the same time, WxPO didn’t yet have the design capacity to meet that challenge. With outdated tooling, a single designer supporting a large development team, and inefficient workflows, the design process created inconsistent experiences and delivery bottlenecks. User feedback often came too late to shape requirements. For example, the JET team historically collected input after features shipped, which led to reactive fixes, patchwork improvements, and mounting design debt. While BIFROST aims to improve legacy user experiences, those process constraints kept the weather community on dated, non-intuitive applications.
 
@@ -129,7 +113,9 @@ For this engagement, improving user experiences required more than redesigning f
 We started with a usability and accessibility audit of BIFROST to pinpoint friction points and compliance gaps. We documented issues, partnered with the product manager and developers to prioritize them, and supported implementation. To reduce inconsistency across the growing ecosystem, we created a WxPO design system and reusable templates in Figma, then trained designers on accessibility best practices, prototyping, and cleaner design handoffs.
 
 **Making user input continuous, not occasional**  
-To ensure designs reflected real operational needs, we introduced regular touch points for user feedback across discovery, design, and delivery. During research sessions, standing meetings with volunteer users, and on-site visits, we gathered use cases and helped shape feature requirements. We conducted usability testing on prototypes and modeled iterative delivery for both users and the BIFROST team. We also coached teammates in research methods so they could lead and scale this work independently, strengthening user advocacy while speeding up research and development.
+To ensure designs reflected real operational needs, we introduced regular touch points for user feedback across discovery, design, and delivery. During research sessions, standing meetings with volunteer users, and on-site visits, we gathered use cases and helped shape feature requirements. We conducted usability testing on prototypes and modeled iterative delivery for both users and the BIFROST team. We also coached teammates in research methods so they could lead and scale this work independently, strengthening user advocacy while speeding up research and development. As one user shared:
+
+{% include callout.html type = "pullquote" content = "These sessions that you guys are doing are extremely valuable — giving everybody the time to give you guys feedback, making this thing certainly a lot better." %}
 
 **Tightening the design-to-development loop**  
 Design only works if it’s buildable. We improved handoffs by establishing a bi-weekly design and engineering touch point to surface technical constraints early and align on feasibility. Adopting Figma enabled richer prototypes, and we trained developers to use Figma dev tools for faster implementation. We also introduced a Material UI component library in Figma to reduce translation work between design and React code. Finally, we set Jira ticket standards so each issue linked to the relevant Figma design and included the detail needed to build with confidence, including policy constraints, user requirements, acceptance criteria, and edge cases. As the lead engineer on the JET migration said:
@@ -137,9 +123,7 @@ Design only works if it’s buildable. We improved handoffs by establishing a bi
 {% include callout.html type = "pullquote" content = "The designers are able to help align the requirements and user desires into a cohesive user interface design that makes the product look more polished and aids in the development process by bringing user needs and design to the front of the development effort." %}
 
 **Redesigning high-impact workflows in JET**  
-Using the new design system, more frequent user feedback, and a smoother handoff process, we redesigned high-impact JET workflows, including WWAs and Mission Management, the application for requesting and completing mission briefings. These updates streamlined core operations for the weather community and supported faster, more confident mission planning. As one user shared:
-
-{% include callout.html type = "pullquote" content = "These sessions that you guys are doing are extremely valuable — giving everybody the time to give you guys feedback, making this thing certainly a lot better." %}
+Using the new design system, more frequent user feedback, and a smoother handoff process, we redesigned high-impact JET workflows, including WWAs and Mission Management, the application for requesting and completing mission briefings. These updates streamlined core operations for the weather community and supported faster, more confident mission planning.
 
 **Supporting adoption with training and product guidance**  
 In addition to improving the interface, we created user-centered training and product guidance to support learning and adoption. After interviewing users about onboarding and learning needs, we identified opportunities to provide training in the formats most valuable to users, including videos and live virtual trainings. We developed content guidelines tailored to the ecosystem and used them to update and standardize a collection of written training guides. We also worked with other content creators to adopt best practices and standardize content.
