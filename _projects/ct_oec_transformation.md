@@ -132,30 +132,27 @@ To address these gaps — and in alignment with the [Preschool Development Grant
 {% endcapture %}
 
 {% capture solution %}
-To meet OEC’s critical needs, we combined immediate service modernization with long-term capability building inside the organization. The work focused on four core areas:
+We partnered with OEC to deliver a solution that combined immediate service modernization with long-term capability building inside the organization. The work focused on three core areas:
 
 **1. Modernizing public-facing services**
 
-- Redesigned and modernized [OEC’s web presence](/work/experience/ct-oec-website-redesign/) to make it easier for families, childcare providers, and partners to access essential early-childhood resources, including clearer paths to high-quality childcare and related supports
-- Established a statewide web analytics capability by [standing up a web traffic analytics system](/work/experience/ctgov-analytics/) that gave leadership better visibility into how users interacted with government digital properties
+- Redesigned and modernized [OEC’s web presence](/work/experience/ct-oec-website-redesign/) to make it easier for families, childcare providers, and partners to access essential early-childhood resources  
+- Improved how families located high-quality childcare and related supports  
+- Established a statewide web analytics capability by [standing up a web traffic analytics system](/work/experience/ctgov-analytics/) that gave leadership better visibility into how users interacted with government digital properties  
 
 **2. Strengthening data and insight**
 
-- Built a streamlined [data collection tool](/work/experience/ct-ece-reporter/) for early care and education providers to submit accurate information about the children in their care
-- [Piloted rapid, low-risk solutions](/work/experience/ct-oec-care4kids-auto-notifier/) to better understand barriers to accessing affordable childcare
-- [Leveraged data and information](/work/experience/ct-families-experiencing-homelessness/) to improve support for families with young children experiencing homelessness
+- Built a streamlined [data collection tool](/work/experience/ct-ece-reporter/) for early care and education providers to submit accurate information about the children in their care  
+- [Piloted rapid, low-risk solutions](/work/experience/ct-oec-care4kids-auto-notifier/) to better understand barriers to accessing affordable childcare  
+- [Leveraged data and information](/work/experience/ct-families-experiencing-homelessness/) to improve support for families with young children experiencing homelessness  
 
-**3. Building internal digital capacity**
+**3. Building internal digital capacity and resilient operations**
 
-- Supported the structuring, recruiting, and onboarding of internal digital service experts
-- Authored a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/) to guide recruiting, hiring, and retaining in-house digital professionals
-- Developed practical toolkits to support modern ways of working, including an [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/) and [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/), as well as Content Guidelines
-- Trained nearly 20 procurement officials in modern acquisition practices through the [Digital IT Acquisition Professional Training — Executive Edition](/work/services/training/ditap-executive/)
-
-**4. Enabling resilient operations during COVID-19**
-
-- Supported OEC’s transition to a virtual operating model during the COVID-19 pandemic
-- Set up digital collaboration tools and delivered training on effective remote-work best practices
+- Supported the structuring, recruiting, and onboarding of internal digital service experts  
+- Authored a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/) to guide recruiting, hiring, and retaining in-house digital professionals  
+- Developed practical toolkits to support modern ways of working, including an [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/) and [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/), as well as Content Guidelines  
+- Trained nearly 20 procurement officials in modern acquisition practices through the [Digital IT Acquisition Professional Training — Executive Edition](/work/services/training/ditap-executive/)  
+- Supported OEC’s transition to a virtual operating model during COVID-19 by setting up digital collaboration tools and training staff on remote-work best practices  
 
 Taken together, this work improved the experience for families and providers while building the internal capability needed to sustain modernization over time.
 {% endcapture %}
