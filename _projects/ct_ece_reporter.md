@@ -75,7 +75,7 @@ source_code_url: https://github.com/ctoec
 ---
 
 {% capture summary %}
-The Connecticut Office of Early Childhood (OEC) needed cleaner, more reliable enrollment data to support funding decisions — without adding work for providers. Skylight built the Early Childhood Education Reporter, a modern reporting portal and data platform that simplified monthly reporting and improved statewide visibility into enrollment.
+The Connecticut Office of Early Childhood (OEC) needed cleaner, more reliable enrollment data to support funding decisions — without adding work for early childhood care and education providers. Skylight built the Early Childhood Education (ECE) Reporter, a modern reporting portal and data platform that streamlined monthly reporting and improved statewide visibility into enrollment.
 {% endcapture %}
 
 {% capture challenge %}
