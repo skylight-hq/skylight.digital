@@ -101,7 +101,6 @@ To deliver this solution, the Skylight team:
 - Redesigned the reporting dashboard to simplify uploads, corrections, and ongoing maintenance
 - Added flexible data visualizations and filters to support analysis and decision-making
 - Developed a probabilistic matching algorithm to identify and resolve duplicate child records
-- Used agile, iterative delivery practices aligned with the [U.S. Digital Services Playbook](https://playbook.cio.gov/#play4) to get working software into users’ hands early and often
 
 The outcome was a reporting experience that providers chose to use. Providers could log in, upload current enrollment data, review site-level summaries, and maintain accurate rosters without re-entering the same information month after month.
 
