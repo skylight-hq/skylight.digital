@@ -124,9 +124,9 @@ The Connecticut Office of Early Childhood (OEC) undertook a major effort to mode
 {% endcapture %}
 
 {% capture challenge %}
-At the time of the engagement, OEC was a $400M state agency responsible for a complex network of early-childhood programs, including child development services, family supports, and provider oversight. Central to this mission was supporting the educators, providers, and professionals who care for young children. Delivering on that mission depended on technology that could meet the needs of families, providers, and staff.
+OEC is a $400M+ state agency responsible for a complex network of early-childhood programs, including child development services, family supports, and provider oversight. Central to this mission is supporting the educators, providers, and professionals who care for young children. Delivering on that mission requires technology that meets the needs of families, providers, and staff.
 
-Many of OEC’s technology systems and digital practices weren’t keeping pace with user needs. Families and providers needed clearer, easier digital pathways to find resources and share information, but legacy tools and processes made those interactions harder than they should’ve been.
+Prior to our engagement, many of OEC’s technology systems and digital practices weren’t keeping pace with user needs. Families and providers needed clearer, easier digital pathways to find resources and share information, but legacy tools and processes made those interactions harder than they should’ve been.
 
 To address these gaps — and in alignment with the [Preschool Development Grant program](https://www.acf.hhs.gov/ecd/early-learning/preschool-development-grants) administered by the [Administration for Children and Families](https://www.acf.hhs.gov/) — OEC sought a partner who could help modernize priority services while strengthening the internal capability needed to sustain the work.
 {% endcapture %}
