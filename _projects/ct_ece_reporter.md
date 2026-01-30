@@ -110,7 +110,7 @@ The outcome was a reporting experience that providers chose to use. Providers co
   content = "One of the easiest data portals ever — I entered 30 individual kids and it didn’t even take me 30 minutes. It was very quick."
 %}
 
-For OEC, the improved data foundation enabled more precise funding decisions and better visibility into outliers and potential issues. This strengthened stewardship of public funds while ensuring resources reached qualified children in qualified programs — ultimately supporting better outcomes across the early childhood system.
+For OEC, the improved data foundation enabled more precise funding decisions and better visibility into anomalies like duplicate records, unusual enrollment shifts, and reporting inconsistencies. This strengthened stewardship of public funds while ensuring resources reached qualified children in qualified programs — ultimately supporting better outcomes across the early childhood system.
 
 To ensure long-term impact, Skylight also supported OEC in taking full ownership of the platform. This transition included:
 
@@ -124,10 +124,11 @@ With these capabilities in place, OEC was well positioned to maintain and evolve
 {% endcapture %}
 
 {% capture results %}
-- Enabled 508 users across 220 providers to submit and maintain enrollment data on a monthly basis
-- Collected standardized enrollment data from 397 program sites, covering more than 14,000 enrollments
-- Reduced duplication of child records and IDs, improving accuracy and confidence in enrollment counts
-- Transitioned full operation and maintenance of the ECE Reporter to OEC to support long-term sustainability
+- Enabled 508 users across 220 providers to submit and maintain monthly enrollment data
+- Standardized enrollment reporting across 397 program sites
+- Covered 14,000+ enrollments with improved statewide visibility
+- Reduced duplicate child records and IDs to improve accuracy and confidence in counts
+- Transitioned full operation and maintenance of the ECE Reporter to OEC for long-term sustainability
 {% endcapture %}
 
 {% include project.html
