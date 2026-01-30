@@ -107,23 +107,23 @@ Building on our [design transformation work with WARPspeed](/work/experience/usa
 {% endcapture %}
 
 {% capture solution %}
-At Skylight, improving user experiences means more than redesigning features — it requires building the practices and capabilities that sustain improvement over time. With WxPO, we paired hands-on redesign with support across research, design, content, and agile product management. That work showed up in five ways:
+For this engagement, improving user experiences meant more than redesigning features — it required building the practices and capabilities needed to sustain improvement over time. With WxPO, we paired hands-on redesign with support across research, design, content, and agile product management. That work took shape in five areas:
 
-**Establish a baseline and standardize the foundation**  
+**Establishing a baseline and standardizing the foundation**  
 We started with a usability and accessibility audit of BIFROST to pinpoint friction points and compliance gaps. We documented issues, partnered with the product manager and developers to prioritize them, and supported implementation. To reduce inconsistency across the growing ecosystem, we created a WxPO design system and reusable templates in Figma, then trained designers on accessibility best practices, prototyping, and cleaner design handoffs.
 
-**Make user input continuous, not occasional**  
+**Making user input continuous, not occasional**  
 To ensure designs reflected real operational needs, we introduced regular touch points for user feedback across discovery, design, and delivery. Through research sessions, a standing meeting with volunteer users, and on-site visits, we gathered use cases and helped shape feature requirements. We ran usability tests on prototypes and modeled iterative delivery for users and the BIFROST team. We also coached teammates in research methods so they could lead and scale this work independently, strengthening user advocacy while speeding up research and development.
 
-**Tighten the design-to-development loop**  
-Design only works if it’s buildable. We improved handoffs by establishing a bi-weekly design and engineering touch point to surface technical constraints early and align on feasibility. Adopting Figma enabled richer prototypes, and we trained developers to use Figma dev tools for faster implementation. We also introduced a Material UI component library in Figma to reduce translation work between design and React code. Finally, we set Jira ticket standards so each issue linked to the relevant Figma design and included the details needed to build with confidence — policy constraints, user requirements, acceptance criteria, and edge cases. As the lead engineer on the JET migration said:
+**Tightening the design-to-development loop**  
+Design only works if it’s buildable. We improved handoffs by establishing a bi-weekly design and engineering touch point to surface technical constraints early and align on feasibility. Adopting Figma enabled richer prototypes, and we trained developers to use Figma dev tools for faster implementation. We also introduced a Material UI component library in Figma to reduce translation work between design and React code. Finally, we set Jira ticket standards so each issue linked to the relevant Figma design and included the details needed to build with confidence — including policy constraints, user requirements, acceptance criteria, and edge cases. As the lead engineer on the JET migration said:
 
 {% include callout.html type = "pullquote" content = "The designers are able to help align the requirements and user desires into a cohesive user interface design that makes the product look more polished and aids in the development process by bringing user needs and design to the front of the development effort." %}
 
-**Support adoption with training and product guidance**  
+**Supporting adoption with training and product guidance**  
 To improve usability beyond the UI, we created user-centered training and product guidance. After interviewing users about onboarding and learning needs, we identified the formats they valued most, including videos and live, virtual trainings. We developed content guidelines tailored to the ecosystem and used them to update and standardize a large set of written training guides alongside other content creators.
 
-**Redesign high-impact workflows in JET**  
+**Redesigning high-impact workflows in JET**  
 Using the new design system, more frequent user feedback, and a smoother handoff process, we redesigned high-impact JET workflows, including WWAs and Mission Management (the application for requesting and completing mission briefings). These updates streamlined core operations for the weather community and made users feel meaningfully involved in shaping the product. As one user shared:
 
 {% include callout.html type = "pullquote" content = "These sessions that you guys are doing are extremely valuable — giving everybody the time to give you guys feedback, making this thing certainly a lot better." %}
