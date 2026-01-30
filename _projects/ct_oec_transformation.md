@@ -132,12 +132,12 @@ To address these gaps — and in alignment with the [Preschool Development Grant
 {% endcapture %}
 
 {% capture solution %}
-We partnered with OEC to deliver a solution that combined immediate service modernization with long-term capability building inside the organization. The work focused on three core areas:
+We partnered with OEC to provide support that combined immediate service modernization with long-term capability building inside the organization. The work focused on three core areas:
 
 **1. Modernizing public-facing services**
 
 - Redesigned and modernized [OEC’s web presence](/work/experience/ct-oec-website-redesign/) to make it easier for families, childcare providers, and partners to access essential early-childhood resources  
-- Improved how families located high-quality childcare and related supports  
+- Improved how families located high-quality childcare and related services 
 - Established a statewide web analytics capability by [standing up a web traffic analytics system](/work/experience/ctgov-analytics/) that gave leadership better visibility into how users interacted with government digital properties  
 
 **2. Strengthening data and insight**
