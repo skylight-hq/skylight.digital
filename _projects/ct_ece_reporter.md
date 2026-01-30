@@ -111,13 +111,7 @@ The outcome was a reporting experience that providers chose to use. Providers co
 
 For OEC, the improved data foundation enabled more precise funding decisions and better visibility into anomalies like duplicate records, unusual enrollment shifts, and reporting inconsistencies. This strengthened stewardship of public funds while ensuring resources reached qualified children in qualified programs — ultimately supporting better outcomes across the early childhood system.
 
-To ensure long-term impact, Skylight also supported OEC in taking full ownership of the platform. This transition included:
-
-- Updating operational scripts to support internal data visualization and system management
-- Strengthening automated test coverage
-- Refactoring the codebase to improve readability and maintainability
-- Producing clear, accessible technical and operational documentation
-- Performing DevOps work to support a smooth handoff and ongoing operation
+To support long-term sustainability, Skylight helped OEC take full ownership of the platform by updating operational scripts, strengthening test coverage, refactoring the codebase for maintainability, delivering clear technical and operational documentation, and completing DevOps work to enable a smooth handoff and ongoing operation.
 
 With these capabilities in place, OEC was well positioned to maintain and evolve the ECE Reporter over time. The platform also served as a blueprint for modernizing data systems across other programs and agencies within the State of Connecticut.
 {% endcapture %}
