@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: 18F Consulting
-title: Helping agencies achieve digital mastery
+title: Building 18F Consulting to help agencies achieve digital mastery
 permalink: /work/experience/18f-consulting/
 redirect_from:
   - /work/18f-consulting/
@@ -13,7 +13,7 @@ feature_image_shadow:
 order: 4300
 display: true
 tags: [transformation, chris cairns, robert read]
-excerpt: A specialized team of digital experts within 18F focused on helping government agencies digitally transform.
+excerpt: A specialized consulting group within 18F that helped federal, state, and local agencies institutionalize modern digital practices through hands-on delivery, coaching, and organizational change.
 project_members:
   - chris-cairns
   - robert-read
@@ -87,7 +87,7 @@ client work and reshaped how GSA delivers technology services to the rest of gov
 {% capture results %}
 - Hired over 40 design, product, data, engineering, policy, and acquisition experts leveraging the Schedule A(r) hiring authority
 - Executed nearly 45 projects with federal, state, and local clients
-- Achieved near-perfect customer service ratings, as reported by Congress' Government Accountability Office
+- Reported strong client satisfaction (GAO survey: 23 of 26 respondents were very or moderately satisfied)
 - Ignited transformational change at multiple agencies, including the creation of agency-specific digital teams based on the 18F Consulting talent model
 - Influenced over $1 billion in IT acquisition spend
 - Enabled agencies to avoid hundreds of millions in unnecessary technology acquisition costs
