@@ -66,20 +66,22 @@ practices:
   - Cloud hosting
   - User growth marketing
 news_posts:
-  - title: New direction for female-specific flight equipment
+  - title: "New direction for female-specific flight equipment"
     url: https://www.af.mil/News/Article-Display/Article/1801680/new-direction-for-female-specific-flight-equipment/
-  - title: New bill aims to get better-fitting equipment to women in the military
+  - title: "New bill aims to get better-fitting equipment to women in the military"
     url: https://www.stripes.com/news/us/new-bill-aims-to-get-better-fitting-equipment-to-women-in-the-military-1.609795
-  - title: "Around the Air Force: next Chief of Space Operations, new COVID vaccine, GearFit"
-    url: https://youtu.be/65w9JbNWrOo?t=86
-  - title: AFLCMC division to launch new feedback App
+  - title: "AFLCMC division to launch new feedback App"
     url: https://www.afmc.af.mil/News/Article-Display/Article/2203362/aflcmc-division-to-launch-new-feedback-app/
-  - title: New application lets airmen give feedback on their gear 
-    url: https://www.airandspaceforces.com/new-application-lets-airmen-give-feedback-on-their-gear/
   - title: "AFLCMC Leadership Log Episode 87: meet the GearFit team"
     url: https://www.youtube.com/watch?v=v4qIqrQZQkw
   - title: "GearFit shortens feedback loop"
     url: https://www.af.mil/News/Article-Display/Article/3102717/gearfit-shortens-feedback-loop/
+  - title: "New application lets airmen give feedback on their gear"
+    url: https://www.airandspaceforces.com/new-application-lets-airmen-give-feedback-on-their-gear/
+  - title: "Around the Air Force: next Chief of Space Operations, new COVID vaccine, GearFit"
+    url: https://youtu.be/65w9JbNWrOo?t=86
+  - title: "Air Force Women Want One Thing: ‘Make Us More Lethal’"
+    url: https://www.airandspaceforces.com/athena-teams-female-airmen-lethal/
 project_url:
 project_cta:
 source_code_url:
