@@ -3060,7 +3060,7 @@
     research funded by NIST and the NSF, Dan's begun helping public-health
     departments use their data better. Outside work Dan's an avid hiker and
     sailor. Dan lives in Maine.
-  active: true
+  active: false
   order: 1020
   socials:
     - name: LinkedIn
