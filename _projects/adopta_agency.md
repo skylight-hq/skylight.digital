@@ -13,14 +13,14 @@ feature_image_shadow:
 order: 4500
 display: true
 tags: [service delivery, apis, open government, kin lane]
-excerpt: A civic movement designed to encourage people to "adopt" government's open datasets, and improve the way these datasets are shared with the public.
+excerpt: A civic movement designed to encourage people to "adopt" government open datasets and improve how those datasets are shared with the public.
 project_members:
   - kin-lane
 technologies:
   - APIs
   - OpenAPI Specification
   - Git / GitHub
-  - Github Pages
+  - GitHub Pages
   - Jekyll
   - YAML
 practices:
@@ -37,44 +37,23 @@ source_code_url:
 ---
 
 {% capture summary %}
-[Adopta.Agency](http://adopta.agency/) is a civic movement designed
-around an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/)
-that enables anyone to improve an open government dataset and move it one step forward by
-producing JSON or two steps forward by launching an open API.
+[Adopta.Agency](http://adopta.agency/) is a civic movement built around an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/) that enables anyone to improve an open government dataset and move it one step forward by producing JSON, or two steps forward by launching an open API.
 {% endcapture %}
 
 {% capture challenge %}
-Following the implementation of the White House's
-[Open Data Policy](https://project-open-data.cio.gov/policy-memo/),
-federal agencies produced thousands of open datasets, many of which needed
-cleaning-up and translation into a JSON format for reuse in other applications.
-Given the enormity of this undertaking, public stakeholders needed an innovative
-model for scaling the evolution of the government's open datasets.
+Following implementation of the White House's [Open Data Policy](https://project-open-data.cio.gov/policy-memo/), federal agencies produced thousands of open datasets, many of which needed cleanup and translation into JSON for reuse in other applications. Given the scale of that effort, public stakeholders needed an innovative model for improving and expanding the usability of government open data.
 {% endcapture %}
 
 {% capture solution %}
-To address this challenge, Kin Lane established
-[Adopta.Agency](http://adopta.agency/),
-a civic movement based upon a civic-crowdsourcing model for
-evolving the government's open data. Crowdsourcing is facilitated
-via an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/)
-that runs on GitHub and provides step-by-step guidance to anyone who
-wants to "adopt" and improve an open government dataset.
+To address this challenge, Kin Lane established [Adopta.Agency](http://adopta.agency/), a civic movement based on a civic crowdsourcing model for improving government open data. Participation is guided through an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/) that runs on GitHub and provides step-by-step instructions for anyone who wants to "adopt" and improve an open government dataset.
 
-
-As part of this work, Kin obtained grant funding from the Knight Foundation to create a prototype that focused on identifying, improving, and making datasets more accessible
-and shareable. The prototype was applied to five separate open
-government datasets that resulted in five blueprint patterns, all of
-which are available on GitHub for reuse in other open government
-dataset adoptions.
+As part of this work, Kin secured grant funding from the Knight Foundation to create a prototype focused on identifying, improving, and making datasets more accessible and shareable. The prototype was applied to five separate open government datasets, resulting in five reusable blueprint patterns that were published on GitHub for use in future dataset adoption efforts.
 {% endcapture %}
 
 {% capture results %}
-- Obtained grant funding from the Knight Foundation
+- Secured grant funding from the Knight Foundation
 - Developed the Adopta.Agency blueprint process
-- Applied the blueprint to five federal datasets, including U.S.
-  Federal Budget, Veterans Affairs Open Data Portal, Department
-  of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov
+- Applied the blueprint to five federal datasets, including the U.S. Federal Budget, Veterans Affairs Open Data Portal, Department of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov
 - Developed five reusable blueprint patterns from those adoptions
 {% endcapture %}
 
