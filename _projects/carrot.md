@@ -7,7 +7,7 @@ redirect_from:
   - /work/opencompany/
   - /work/carrot/
 image: /img/projects/carrot/carrot.svg
-image_description: Multiple people together reading a page out of a huge newsletter.
+image_description: Multiple people reading a page from a large newsletter together.
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -57,32 +57,21 @@ source_code_url: https://github.com/open-company
 ---
 
 {% capture summary %}
-Carrot is an asynchronous communication application that reduces the noise of chat and
-email so distributed teams can stay focused and informed with fewer interruptions.
+Carrot is an asynchronous communication application that reduces the noise of chat and email so distributed teams can stay focused and informed with fewer interruptions.
 {% endcapture %}
 
 {% capture challenge %}
-In the age of Slack and fast-moving chat conversations, the lack of focus
-and clarity is a huge problem in the workplace. Chat apps keep everyone
-connected throughout the day, yet it's more difficult for teams to stay
-aligned around the big picture of what's most important. The problem is
-the leadership signal is getting lost in all the noise.
+In the age of Slack and fast-moving chat conversations, lack of focus and clarity is a major problem in the workplace. Chat apps keep everyone connected throughout the day, yet they can make it harder for teams to stay aligned around the big picture and what matters most. The leadership signal often gets lost in the noise.
 {% endcapture %}
 
 {% capture solution %}
-To address this problem, Sean Johnson led the product development of Carrot,
-an asynchronous communication application for better team discussions.
-Realized as the open source [OpenCompany](https://github.com/open-company)
-platform, Carrot is designed to be as delightful and interactive as chat, but
-asynchronous so people can get caught up on their own time. This enables leaders
-to keep everyone focused on what matters most to build transparency, trust, and
-stronger distributed teams.
+To address this problem, Sean Johnson led the product development of Carrot, an asynchronous communication application designed to improve team discussions. Built as the open-source [OpenCompany](https://github.com/open-company) platform, Carrot was designed to be as delightful and interactive as chat, but asynchronous so people could catch up on their own time. This helped leaders keep teams focused on what matters most while building transparency, trust, and stronger distributed teams.
 {% endcapture %}
 
 {% capture results %}
-- Initially created a minimum viable product
-- Validated core hypotheses through extensive and iterative user testing
-- Steadily growing the user base
+- Created an initial minimum viable product
+- Validated core hypotheses through extensive, iterative user testing
+- Grew the user base steadily
 {% endcapture %}
 
 {% include project.html
