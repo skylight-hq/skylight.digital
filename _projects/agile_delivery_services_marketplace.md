@@ -6,7 +6,7 @@ permalink: /work/experience/agile-delivery-services-marketplace/
 redirect_from:
   - /work/agile-delivery-services-marketplace/
 image: /img/projects/agile_delivery_services_marketplace/agile-delivery-services-marketplace.svg
-image_description: A person selecting a digitized-looking package for purchase from a store shelf.
+image_description: A person selecting a digitized package from a store shelf.
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -60,53 +60,34 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Agile Delivery Services Marketplace was a federal-wide, pre-vetted pool of
-vendors who helped agencies use modern agile software development practices
-to build digital services.
+The Agile Delivery Services Marketplace was a federal-wide, pre-vetted pool of vendors who helped agencies use modern agile software development practices to build digital services.
 {% endcapture %}
 
 {% capture challenge %}
-Following the Healthcare.gov launch failure, federal agencies started looking
-more and more toward agile as an alternative method to waterfall for delivering
-digital services. Finding a vendor who excelled at agile, however, was
-difficult. And even if agencies could find one, traditional methods of contracting
-often fell short of: (a) revealing the makers from the fakers; (b) protecting the
-government's data and source-code ownership rights to prevent vendor lock-in; and
-(c) acquiring services at the speed of need.
+Following the Healthcare.gov launch failure, federal agencies increasingly looked to agile as an alternative to waterfall for delivering digital services. Finding a vendor who truly excelled at agile, however, was difficult. Even when agencies could identify strong vendors, traditional contracting methods often failed to:
+
+(a) reveal the makers from the fakers  
+(b) protect the government's data and source-code ownership rights to prevent vendor lock-in  
+(c) acquire services at the speed of need
 {% endcapture %}
 
 {% capture solution %}
-To address these challenges, Chris Cairns, Robert Read, and other team members
-within the General Services Administration created the first-ever, federal-wide
-contract vehicle of vendors who specialized in agile delivery services (for example,
-user-centered design, agile software development, and DevOps) using several groundbreaking
-approaches:
+To address these challenges, Chris Cairns, Robert Read, and other team members within the General Services Administration created the first-ever federal-wide contract vehicle for vendors specializing in agile delivery services (for example, user-centered design, agile software development, and DevOps) using several groundbreaking approaches:
 
-- A "show, don't tell" or "prototype-as-proposal" approach in which vendors
-  were required to submit working prototypes (over written narratives)
-  using [openFDA](https://open.fda.gov/) as the
-  basis for evaluating capabilities
-- A [robust contractual clause](/thoughts/blog/public-domain-procurement/)
-  that, by default, requires all vendors to agree to commit all data,
-  source code, and documentation produced for the government to the public domain
-- Combination of a blanket purchase agreement contract type under IT Schedule 70,
-  ready-made assets (for example, solicitation templates), performance work statements,
-  oral presentations, and other methods for rapidly issuing and awarding task/work orders
+- A "show, don't tell" or "prototype-as-proposal" approach in which vendors were required to submit working prototypes (instead of written narratives) using [openFDA](https://open.fda.gov/) as the basis for evaluating capabilities
+- A [robust contractual clause](/thoughts/blog/public-domain-procurement/) that, by default, requires all vendors to commit all data, source code, and documentation produced for the government to the public domain
+- A combination of a Blanket Purchase Agreement under IT Schedule 70, ready-made assets (for example, solicitation templates), performance work statements, oral presentations, and other methods for rapidly issuing and awarding task/work orders
 {% endcapture %}
 
 {% capture results %}
-- Attracted over 700 attendees to industry outreach events
-- Received over 200 proposal submissions, all delivered via public GitHub repos
-- Completed technical evaluation of all proposals within weeks with only three people
+- Attracted more than 700 attendees to industry outreach events
+- Received more than 200 proposal submissions, all delivered via public GitHub repositories
+- Completed technical evaluation of all proposals within weeks using a three-person team
 - Issued awards to 17 vendors
-- Soundness of evaluation methodology withstood eight protests
-- Lauded by industry, Congress, and the White House's Office of Management and Budget
-  as a model for agencies to follow
-- Inspired several federal, state, and local agencies (for example,
-  Department of Homeland Security, Environmental Protection Agency, State of
-  California, and State of Mississippi) to create a similar marketplace
-- Used by nearly a dozen federal agencies who experienced improved contractual
-  outcomes
+- Evaluation methodology successfully withstood eight protests
+- Lauded by industry, Congress, and the White House Office of Management and Budget as a model for agencies
+- Inspired several federal, state, and local agencies (for example, Department of Homeland Security, Environmental Protection Agency, State of California, and State of Mississippi) to create similar marketplaces
+- Used by nearly a dozen federal agencies who experienced improved contractual outcomes
 {% endcapture %}
 
 {% include project.html
