@@ -75,19 +75,19 @@ source_code_url: https://github.com/ctoec
 ---
 
 {% capture summary %}
-The Connecticut Office of Early Childhood (OEC) needed cleaner, more reliable enrollment data to support funding decisions — without increasing the reporting burden for early childhood care and education providers. Skylight built the Early Childhood Education (ECE) Reporter, a modern reporting portal and data platform that streamlined monthly reporting and improved statewide visibility into enrollment.
+The Connecticut Office of Early Childhood (OEC) needed cleaner, more reliable enrollment data to support funding decisions without increasing the reporting burden for early childhood care and education providers. Skylight built the Early Childhood Education (ECE) Reporter, a modern reporting portal and data platform that streamlined monthly reporting and improved statewide visibility into enrollment.
 {% endcapture %}
 
 {% capture challenge %}
 The Connecticut Office of Early Childhood (OEC) oversees and funds a statewide network of more than 400 early childhood care and education providers. These programs help set children up for long-term success, and they also give families dependable childcare that supports stability and workforce participation.
 
-Funding decisions depend on accurate enrollment information — specifically, knowing how many eligible children are enrolled at each provider site. When enrollment data is incomplete or inconsistent, it’s harder to allocate resources fairly and quickly, and it becomes difficult to understand what’s happening across the system.
+Funding decisions depend on accurate enrollment information — specifically, knowing how many eligible children are enrolled at each provider site. When enrollment data is incomplete or inconsistent, it becomes harder to allocate resources fairly and quickly, and more difficult to understand what is happening across the system.
 
-Before Skylight’s engagement, OEC’s existing data collection system made that difficult. Providers often couldn’t easily update or correct records, which led to duplicate child profiles and inconsistent identification numbers. Many providers opted out of the system altogether, instead tracking enrollment in disconnected tools like PowerSchool, QuickBooks, spreadsheets, or even paper files.
+Before Skylight’s engagement, OEC’s existing data collection system made that difficult. Providers often could not easily update or correct records, which led to duplicate child profiles and inconsistent identification numbers. Many providers opted out of the system altogether, instead tracking enrollment in disconnected tools like PowerSchool, QuickBooks, spreadsheets, or even paper files.
 
 The result was a fragmented, unreliable view of statewide enrollment. Data was hard to reconcile, often outdated, and difficult to trust — leaving OEC in the position of making high-impact funding decisions without the clarity needed to do so confidently.
 
-OEC needed a system that made accurate reporting the easiest path for providers, while giving the agency a consistent, high-quality data foundation.
+OEC needed a system that made accurate reporting the easiest path for providers while giving the agency a consistent, high-quality data foundation.
 {% endcapture %}
 
 {% capture solution %}
@@ -110,7 +110,7 @@ This approach produced a reporting experience that providers chose to use. Provi
   content = "One of the easiest data portals ever — I entered 30 individual kids and it didn’t even take me 30 minutes. It was very quick."
 %}
 
-For OEC, the improved data foundation enabled more precise funding decisions and better visibility into anomalies like duplicate records, unusual enrollment shifts, and reporting inconsistencies. This strengthened stewardship of public funds while ensuring resources reached qualified children in qualified programs — ultimately supporting better outcomes across the early childhood system.
+For OEC, the improved data foundation enabled more precise funding decisions and better visibility into anomalies like duplicate records, unusual enrollment shifts, and reporting inconsistencies. This strengthened stewardship of public funds while helping ensure resources reached qualified children in qualified programs — ultimately supporting better outcomes across the early childhood system.
 
 To support long-term sustainability, Skylight helped OEC take full ownership of the platform by updating operational scripts, strengthening test coverage, refactoring the codebase for maintainability, delivering clear technical and operational documentation, and completing DevOps work to enable a smooth handoff and ongoing operation.
 
@@ -120,7 +120,7 @@ With these capabilities in place, OEC was well positioned to maintain and evolve
 {% capture results %}
 - Enabled 508 users across 220 providers to submit and maintain monthly enrollment data
 - Standardized enrollment reporting across 397 program sites
-- Covered 14,000+ enrollments with improved statewide visibility
+- Covered more than 14,000 enrollments with improved statewide visibility
 - Reduced duplicate child records and IDs to improve accuracy and confidence in counts
 - Transitioned full operation and maintenance of the ECE Reporter to OEC for long-term sustainability
 {% endcapture %}
