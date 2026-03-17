@@ -4,7 +4,7 @@ title_tag: Centers for Medicare & Medicaid Services
 title: Improving the quality of healthcare providers
 permalink: /work/experience/cms-iqies/
 image: /img/projects/cms_iqies/iqies.svg
-image_description: Doctor taking the blood pressure of a woman.
+image_description: A doctor taking a woman's blood pressure.
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -40,38 +40,23 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Centers for Medicare & Medicaid Services (CMS) recently undertook an initiative
-called the Internet Quality Improvement and Evaluation System (iQIES). The purpose of
-iQIES is to replace the existing legacy, desktop-based system with a modernized,
-web-based version. The current legacy system is used by healthcare providers
-(such as nursing homes) to submit quality-of-care assessment information.
-That information is then used by state agencies and CMS to evaluate and improve
-the quality of those providers. In support of this modernization effort, we engaged
-as a subcontractor to Ventera and provided critical design and technical expertise.
+The Centers for Medicare & Medicaid Services (CMS) undertook an initiative called the Internet Quality Improvement and Evaluation System (iQIES). The purpose of iQIES was to replace an existing legacy desktop-based system with a modernized web-based version. The legacy system was used by healthcare providers, such as nursing homes, to submit quality-of-care assessment information. That information was then used by state agencies and CMS to evaluate and improve the quality of those providers. In support of this modernization effort, we engaged as a subcontractor to Ventera and provided critical design and technical expertise.
 {% endcapture %}
 
 {% capture challenge %}
-CMS' iQIES initiative is a complex, large-scale modernization effort aimed at
-replacing the existing legacy system. A major challenge with this initiative
-has been the need to maintain operational continuity while at the same time
-modernizing the user experience, the technical architecture, and the technology stack.
+CMS's iQIES initiative was a complex, large-scale modernization effort aimed at replacing an existing legacy system. A major challenge with this initiative was the need to maintain operational continuity while modernizing the user experience, technical architecture, and technology stack.
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to [Ventera](https://ventera.com/), we helped support the iQIES
-initiative in several key areas, including:
+As a subcontractor to [Ventera](https://ventera.com/), we supported the iQIES initiative in several key areas, including:
 
-- Provided design leadership to continually improve how user research, user
-  experience design, and engineering teams engaged in the process of
-  user-centered design
-- Established a collaborative design platform aimed at constantly reinforcing the
-  principles and practices of user-centered design
-- Engineered the front-end experience of the application
+- Providing design leadership to continually improve how user research, user experience design, and engineering teams worked together in the user-centered design process
+- Establishing a collaborative design platform aimed at reinforcing the principles and practices of user-centered design
+- Engineering the front-end experience of the application
 {% endcapture %}
 
 {% capture results %}
-- Injected user-centered design principles and practices into the overall delivery
-  process — without slowing down production
+- Injected user-centered design principles and practices into the overall delivery process without slowing production
 {% endcapture %}
 
 {% include project.html
