@@ -1,17 +1,17 @@
 ---
 layout: default
 title_tag: State of California
-title: Coaching agile through learning by doing
+title: Teaching agile by simulating real-world delivery
 permalink: /work/experience/ca-hhs-agile-training/
 image: /img/projects/ca_hhs_agile_training/agile-training.svg
-image_description: An instructor showing students sitting around a table how an agile board works.
+image_description: An instructor guiding participants around a table using an agile board.
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 3900
 display: true
 tags: [training, coaching & training, healthcare, robert read, josh dorothy]
-excerpt: An agile-intensive, two-day sprint microcosm to help the California Health and Human Services learn how to put agile principles into practice.
+excerpt: A hands-on agile training experience that helped teams move from understanding agile concepts to applying them in real delivery scenarios.
 project_members:
   - robert-read
   - josh-dorothy
@@ -37,20 +37,36 @@ source_code_url:
 ---
 
 {% capture summary %}
-The California Health and Human Services (CHHS) Office of Innovation needed help putting the principles of agile into practice. We were brought in to deliver a practical agile coaching experience that not only tied together the key principles of the Agile Manifesto, but also allowed the Office to apply those principles to a needed real-world project.
+The CHHS Office of Innovation needed to move beyond understanding agile concepts and start applying them in real work. We designed and delivered an intensive, hands-on training experience that simulated real-world delivery, helping teams build confidence and capability in agile practices.
 {% endcapture %}
 
 {% capture challenge %}
-For some time, the CHHS Office of Innovation had been working to shift its technical and organizational culture toward agile principles. As an organization, the Office is responsible for lean design thinking and delivering innovative solutions to important problems. So it was important for the Office to not only "do" agile, but also to "be" agile. However, the team was finding it difficult to connect the elements of agile together, such as planning, testing, and iteration.
+The CHHS Office of Innovation had been working to adopt agile principles, but struggled to translate those concepts into day-to-day practice.
+
+While teams understood individual elements of agile — such as planning, testing, and iteration — they found it difficult to connect them into a cohesive delivery approach. This gap made it harder to apply agile effectively to real projects and limited the organization’s ability to realize its full benefits.
+
+To succeed, the team needed more than instruction — they needed a way to experience agile as a complete, integrated system.
 {% endcapture %}
 
 {% capture solution %}
-As a partner to [CivicActions](https://civicactions.com/), we helped lead a two-day intensive training workshop that brought together every facet of agile in a personalized coaching environment for the CHHS Office of Innovation. To do that, we simulated five sprints in a microcosm within those two days, focusing on applying Scrum practices such as planning, story writing, story estimation, velocity calculation, and testing to the Office of Innovation's website, which was in need of substantial revision. We aimed not only to provide coaching in the Scrum framework, but also the energy to help participants ask the right questions about their agile process. In this way, we aimed to provide both a valuable learning experience and an improved real-world product.
+We partnered with [CivicActions](https://civicactions.com/) to design and deliver a two-day immersive training experience centered on learning by doing.
+
+Instead of relying on lectures, we simulated five full sprints within a compressed, two-day timeframe. Participants worked through a real-world scenario — improving the Office of Innovation’s website — and applied core Scrum practices, including planning, story writing, estimation, velocity tracking, and testing.
+
+This approach allowed participants to:
+
+- Experience how agile practices work together as a system  
+- Build intuition for decision-making in fast-moving delivery environments  
+- Identify gaps and opportunities in their own processes  
+- Apply what they learned immediately to a real product  
+
+By combining structured simulation with coaching, the workshop created both a meaningful learning experience and a tangible improvement to an existing product.
 {% endcapture %}
 
 {% capture results %}
-- Delivered comprehensive training on agile principles
-- Hands-on development of a new and improved website for the CHHS Office of Innovation
+- Enabled teams to confidently apply agile practices in real delivery scenarios  
+- Delivered a redesigned and improved version of the Office of Innovation’s website through hands-on sprint work  
+- Increased alignment and shared understanding of agile across participants  
 
 {% include callout.html
   type = "pullquote"
