@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: State of Connecticut
-title: Developing a smarter tool to support families experiencing homelessness
+title: Improving how Connecticut supports families with young children experiencing homelessness
 permalink: /work/experience/ct-families-experiencing-homelessness/
 image: /img/projects/ct_families_experiencing_homelessness/families-experiencing-homelessness.svg
 image_description: A social worker holding a device and discussing housing options with a family.
@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 2200
 display: true
 tags: [research & design, product management, early childhood, social safety net, data & analytics, lara kohl, gabriel ramirez]
-excerpt: Helping the State of Connecticut better leverage data and information to support families with young children experiencing homelessness.
+excerpt: Identified gaps in how Connecticut tracks and supports families experiencing homelessness and designed a more effective, data-driven approach to prioritizing services.
 project_members:
   - lara-kohl
   - gabriel-ramirez
@@ -36,11 +36,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of a statewide effort to better understand and support vulnerable populations experiencing homelessness in Connecticut, we were asked to gather specific research insights about families with young children and explore opportunities to address their complex challenges. In response, we conducted in-depth research and identified a targeted technical solution to help improve a critical tool used to connect families with housing solutions.
+Connecticut needed a clearer way to identify and support families with young children experiencing homelessness. We conducted in-depth research and designed a data-driven approach to improve how the state prioritizes families for housing and services, strengthening both coordination and decision-making.
 {% endcapture %}
 
 {% capture challenge %}
-In July 2019, [Connecticut Governor Ned Lamont](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2019/07-2019/Governor-Lamont-Creates-Task-Force-on-Housing-and-Supports-for-Vulnerable-Populations) announced a multi-agency effort to find ways to better support vulnerable populations facing or experiencing homelessness in the state.
+In 2019, Connecticut launched a multi-agency effort to better understand and support vulnerable populations experiencing homelessness.
 
 {% include callout.html
   type = "pullquote"
@@ -53,29 +53,42 @@ In July 2019, [Connecticut Governor Ned Lamont](https://portal.ct.gov/Office-of-
   cite_title = "Co-chair, Governor's Task Force"
 %}
 
-We were asked to support this effort by focusing on families with young children from birth to age five, in collaboration with Governor Lamont's Task Force, the Office of Early Childhood (OEC), and the Department of Housing.
+As part of this effort, we focused on families with children from birth to age five — a group with distinct and often overlooked needs.
+
+Research revealed several systemic challenges:
+
+- Families with young children were often underrepresented in official homelessness data  
+- Many were not identified as homeless when living with others or outside formal systems  
+- Early childhood needs — especially childcare — created additional barriers to employment and stability  
+- Agencies lacked shared tools and data systems to coordinate support effectively  
+
+As a result, decision-making was often fragmented, and it was difficult to identify which families should be prioritized for housing and services.
 {% endcapture %}
 
 {% capture solution %}
-Better understanding the needs and challenges families faced in seeking state services was the first step in our work to scope potential solutions.
+We focused on understanding how families and agencies interacted with existing systems and where breakdowns occurred.
 
-We conducted in-depth research that included interviews with government agencies, community partners, and families with young children experiencing homelessness.
+Through interviews with state agencies, community partners, and families, we mapped how data flowed across programs and identified key gaps in visibility, coordination, and usability.
 
-Through this research, we found that infants were the age group most likely to experience homelessness. Yet families with young children experiencing homelessness were often underrepresented in official counts for a variety of reasons, including not being officially counted as homeless while living with other people, having children who were too young to be tracked in the public school system, and not interfacing with support services that might identify homelessness. Significantly, a lack of steady and safe child care also made it difficult, and sometimes impossible, for families experiencing homelessness to seek employment or access support services.
+We found that a central tool — the family by-name list — was critical to how providers prioritized families for housing, but its design limited its effectiveness.
 
-Above all, agencies and programs working with families often did not have the tools or data systems required to collaborate or collect data on the complex, interrelated challenges facing these families, making it difficult for state agencies to choose interventions that best met their needs.
+To address this, we:
 
-From this research, we identified an opportunity to improve the usefulness and usability of a tool called the family by-name list. This tool was used by groups of providers coordinating efforts to end homelessness in communities across Connecticut. These groups were known as Coordinated Access Networks (CANs). CANs relied on the family by-name list to identify vulnerable families to prioritize for housing. Improving the family by-name list would make it easier for CANs to refer families to housing and other support services, while also streamlining data collection and analysis for program planning.
+- Identified opportunities to improve the usefulness and usability of the family by-name list  
+- Designed a more structured, data-driven approach to capturing and prioritizing family information  
+- Developed a working SQL-based prototype to demonstrate how improved data models could support better decision-making  
+- Created a data dictionary to align stakeholders on definitions and data usage  
+- Delivered design and technical prototypes to illustrate future system improvements  
 
-To show how these improvements could be made, we delivered detailed recommendations as part of our research report, as well as design and technical prototypes.
+This work provided a clearer, more actionable foundation for how Coordinated Access Networks (CANs) could identify and prioritize families in need, while also improving how data could be shared and used across agencies.
 {% endcapture %}
 
 {% capture results %}
-- Conducted three months of research and discovery that produced a better understanding of the complex needs of families experiencing homelessness
-- Using SQL, developed and delivered a prototype of an improved family by-name list to improve usefulness and usability
-- Created a data dictionary to accompany the prototype family by-name list and help providers understand and align data fields
-- Provided design prototypes for future user interfaces focused on better serving families
-- Provided guidance for future family by-name list fields and data to be developed based on our research, including a Family Data Handbook
+- Delivered three months of research and discovery that clarified how families with young children experience homelessness and interact with state systems  
+- Built a prototype of an improved family by-name list, demonstrating how better data structures could improve prioritization and coordination  
+- Established a shared data framework through a comprehensive data dictionary  
+- Provided actionable design and technical recommendations to guide future system improvements  
+- Informed how Connecticut could better align data, programs, and services to support vulnerable families  
 {% endcapture %}
 
 {% include project.html
