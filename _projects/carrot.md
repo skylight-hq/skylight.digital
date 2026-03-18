@@ -1,20 +1,20 @@
 ---
 layout: default
 title_tag: Carrot
-title: Building a communication application for remote teams
+title: Building an asynchronous communication platform for distributed teams
 permalink: /work/experience/carrot/
 redirect_from:
   - /work/opencompany/
   - /work/carrot/
 image: /img/projects/carrot/carrot.svg
-image_description: Multiple people reading a page from a large newsletter together.
+image_description: Multiple people reading a shared company update, representing asynchronous communication.
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2400
 display: true
 tags: [service delivery, research & design, product management, software delivery, apis, sean johnson]
-excerpt: An asynchronous communication solution for remote teams struggling to maintain focus on what matters most.
+excerpt: Designed and built an asynchronous communication platform that helped distributed teams stay aligned without the noise of real-time chat.
 project_members:
   - sean-johnson
 technologies:
@@ -57,21 +57,37 @@ source_code_url: https://github.com/open-company
 ---
 
 {% capture summary %}
-Carrot was an asynchronous communication application that reduced the noise of chat and email so distributed teams could stay focused and informed with fewer interruptions.
+Distributed teams struggled to stay aligned without being overwhelmed by constant chat and email. Carrot was built to solve this by introducing an asynchronous communication model that helped teams focus on what mattered most while staying informed.
 {% endcapture %}
 
 {% capture challenge %}
-In the age of Slack and fast-moving chat conversations, lack of focus and clarity was a major problem in the workplace. Chat apps kept everyone connected throughout the day, yet they could make it harder for teams to stay aligned around the big picture and what mattered most. The leadership signal often got lost in the noise.
+As real-time communication tools like Slack became dominant, teams were increasingly connected but less aligned. Important updates were buried in fast-moving conversations, and staying informed required constant attention.
+
+For leaders, this created a visibility problem — it was difficult to communicate priorities, share context, and ensure teams understood what mattered most. For individuals, it created cognitive overload, interrupting focus and reducing productivity.
+
+Teams needed a better way to share meaningful updates and discussions without requiring everyone to be constantly online.
 {% endcapture %}
 
 {% capture solution %}
-To address this problem, Sean Johnson led the product development of Carrot, an asynchronous communication application designed to improve team discussions. Built as the open-source [OpenCompany](https://github.com/open-company) platform, Carrot was designed to be as delightful and interactive as chat, but asynchronous so people could catch up on their own time. This helped leaders keep teams focused on what mattered most while building transparency, trust, and stronger distributed teams.
+Carrot introduced an asynchronous approach to team communication, designed to combine the clarity of long-form updates with the engagement of modern collaboration tools.
+
+Built as the open-source [OpenCompany](https://github.com/open-company) platform, Carrot enabled teams to publish structured updates that created focused, topic-based discussions. Instead of relying on real-time messaging, users could catch up on their own time while still participating in meaningful conversations.
+
+The product emphasized:
+
+- Structured, narrative-driven updates instead of fragmented chat threads  
+- Topic-based discussions that kept conversations focused and persistent  
+- A user experience that felt as interactive as chat, but without constant interruption  
+- A scalable, API-first architecture supporting web and mobile applications  
+
+This approach helped reduce noise, improve alignment, and support more intentional communication across distributed teams.
 {% endcapture %}
 
 {% capture results %}
-- Created an initial minimum viable product
-- Validated core hypotheses through extensive, iterative user testing
-- Grew the user base steadily
+- Built and launched an asynchronous communication platform for distributed teams  
+- Validated the product direction through iterative user research and testing  
+- Grew an early user base and established product-market fit signals  
+- Open-sourced the underlying OpenCompany platform to enable broader adoption and reuse  
 {% endcapture %}
 
 {% include project.html
