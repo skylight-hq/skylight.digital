@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: State of Connecticut
-title: Helping transform early childhood services
+title: Transforming how early childhood services are delivered in Connecticut
 permalink: /work/experience/ct-oec-digital-transformation/
 image: /img/projects/ct_oec_transformation/early-childhood-services-transformation.svg
 image_description: A digitized button icon with two hands reaching toward each other and another hand pressing the button.
@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 200
 display: true
 tags: [service delivery, procurement, transformation, training, research & design, product management, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, open government, security & privacy, coaching & training, early childhood, social safety net, healthcare, economic development, education, marvo dolor, amelia wellers, abby raskin, lara kohl, ashley treni, victoria suwardiman, chris given, julia hogan, gabriel ramirez, cailyn hansen, kyle magida, brandon mader, chris cairns, shashank khandelwal, colin craig, josh dorothy, sean johnson, nick bristow, derek tam, alex curtis, lucas newman, becca bartola, priscilla peralta, gordon farrell, johanna delpino]
-excerpt: Partnering with the Connecticut Office of Early Childhood to modernize how services are delivered to young children and families — and the professionals who support them.
+excerpt: A multi-year digital transformation effort that modernized services, data practices, and internal capabilities across the Connecticut Office of Early Childhood.
 project_members:
   - becca-bartola
   - priscilla-peralta
@@ -119,49 +119,50 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Connecticut Office of Early Childhood (OEC) undertook a major effort to modernize how technology supported young children, families, and early childhood providers across Connecticut. We partnered with OEC to strengthen its digital foundations while improving access to services relied on by more than 200,000 children and families statewide.
+The Connecticut Office of Early Childhood (OEC) needed to modernize how it delivered services, managed information, and supported the families, providers, and professionals who rely on it. We partnered with OEC on a broad digital transformation effort that improved public-facing services, strengthened data and decision-making, and built the internal capability needed to sustain modernization across the agency.
 {% endcapture %}
 
 {% capture challenge %}
-OEC is a $400M+ state agency responsible for a complex network of early childhood programs, including child development services, family supports, and provider oversight. Central to this mission is supporting the educators, providers, and professionals who care for young children. Delivering on that mission requires technology that meets the needs of families, providers, and staff.
+OEC is a $400M+ state agency responsible for a complex portfolio of early childhood programs, including child development services, family supports, provider oversight, and public information. Its work affects hundreds of thousands of children and families across Connecticut, as well as the providers and staff who support them.
 
-Prior to our engagement, many of OEC’s technology systems and digital practices were not keeping pace with user needs. Families and providers needed clearer, easier digital pathways to find resources and share information, but legacy tools and processes made those interactions harder than they should have been.
+But many of OEC’s systems, tools, and delivery practices were not keeping pace with user needs. Families and providers often faced fragmented digital experiences, outdated processes, and unclear pathways to information and services. Internally, the agency also needed stronger foundations for digital delivery, procurement, hiring, analytics, and long-term ownership of modern systems.
 
-To address these gaps — and in alignment with the [Preschool Development Grant program](https://www.acf.hhs.gov/ecd/early-learning/preschool-development-grants) administered by the [Administration for Children and Families](https://www.acf.hhs.gov/) — OEC sought a partner who could help modernize priority services while strengthening the internal capability needed to sustain the work.
+OEC needed more than a set of isolated improvements. It needed a partner that could help modernize priority services while also building the internal capabilities, operating practices, and digital foundations required to sustain change over time.
 {% endcapture %}
 
 {% capture solution %}
-We partnered with OEC to provide support that combined immediate service modernization with long-term capability building inside the organization. The work focused on three core areas:
+We partnered with OEC on a transformation effort that combined immediate service improvements with long-term capability building. The work focused on three connected areas:
 
 **1. Modernizing public-facing services**
 
-- Redesigned and modernized [OEC’s web presence](/work/experience/ct-oec-website-redesign/) to make it easier for families, childcare providers, and partners to access essential early childhood resources  
-- Improved how families located high-quality childcare and related services  
-- Established a statewide web analytics capability by [standing up a web traffic analytics system](/work/experience/ctgov-analytics/) that gave leadership better visibility into how users interacted with government digital properties  
+- Redesigned and modernized [OEC’s web presence](/work/experience/ct-oec-website-redesign/) to make it easier for families, childcare providers, and partners to access essential early childhood resources
+- Improved how families found high-quality childcare and related services
+- Established a statewide web analytics capability by [standing up a web traffic analytics system](/work/experience/ctgov-analytics/) that gave leadership better visibility into how users interacted with government digital properties
 
 **2. Strengthening data and insight**
 
-- Built a streamlined [data collection tool](/work/experience/ct-ece-reporter/) for early care and education providers to submit accurate information about the children in their care  
-- Piloted rapid, low-risk solutions to better understand barriers to accessing affordable childcare  
-- Leveraged data and information to improve support for families with young children experiencing homelessness  
+- Built a streamlined [data collection tool](/work/experience/ct-ece-reporter/) for early care and education providers to submit accurate information about the children in their care
+- Piloted rapid, low-risk solutions to better understand barriers to accessing affordable childcare
+- Leveraged data and information to improve support for families with young children experiencing homelessness
 
 **3. Building internal digital capacity and resilient operations**
 
-- Supported the structuring, recruiting, and onboarding of internal digital service experts  
-- Authored a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/) to guide recruiting, hiring, and retaining in-house digital professionals  
-- Developed practical toolkits to support modern ways of working, including an [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/) and [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/), as well as content guidelines  
-- Trained nearly 20 procurement officials in modern acquisition practices through the [Digital IT Acquisition Professional Training — Executive Edition](/work/services/training/ditap-executive/)  
-- Supported OEC’s transition to a virtual operating model during COVID-19 by setting up digital collaboration tools and training staff on remote-work best practices  
+- Supported the structuring, recruiting, and onboarding of internal digital service experts
+- Authored a [Digital Talent Management Handbook](/work/toolkits/digital-talent-management/) to guide recruiting, hiring, and retaining in-house digital professionals
+- Developed practical toolkits to support modern ways of working, including an [Agile Procurement Playbook](/work/toolkits/agile-procurement-playbook/) and [Data Sharing Playbook](/work/toolkits/data-sharing-playbook/), as well as content guidelines
+- Trained nearly 20 procurement officials in modern acquisition practices through the [Digital IT Acquisition Professional Training — Executive Edition](/work/services/training/ditap-executive/)
+- Supported OEC’s transition to a virtual operating model during COVID-19 by setting up digital collaboration tools and training staff on remote-work best practices
 
-Taken together, this work improved the experience for families and providers while building the internal capability needed to sustain modernization over time.
+Taken together, this work improved the experience for families and providers while giving OEC stronger systems, practices, and internal capacity to continue modernizing over time.
 {% endcapture %}
 
 {% capture results %}
-- Launched several modernized digital services, including OEC’s new online presence
+- Modernized multiple public-facing services, including OEC’s new online presence
 - Improved OEC’s ability to use data to inform policy, service design, and investment decisions
-- Established repeatable practices for hiring, training, and supporting internal digital talent
-- Accelerated the adoption of modern acquisition practices across the organization
-- Enabled more than 200 professionals to work effectively in a fully virtual environment
+- Strengthened the agency’s internal digital capability across hiring, training, and delivery practices
+- Accelerated adoption of modern procurement and acquisition practices
+- Enabled more than 200 professionals to work effectively in a fully virtual environment during COVID-19
+- Established a stronger foundation for sustained digital modernization across the agency
 {% endcapture %}
 
 {% include project.html
