@@ -42,7 +42,7 @@ source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
 ---
 
 {% capture summary %}
-The Care 4 Kids program, sponsored by the Office of Early Childhood (OEC) and administered by United Way, helps eligible families in Connecticut afford child care. To support efforts to improve the subsidy renewal experience, we partnered with OEC and United Way to design and test a lightweight SMS-based notification pilot. The pilot aimed to improve transparency, reduce uncertainty for families, and generate practical insight into how the broader application process could work better.
+Care 4 Kids helps eligible families in Connecticut afford child care, but the renewal experience had become confusing and stressful for many applicants. We partnered with the Office of Early Childhood (OEC) and United Way to design and test a lightweight SMS-based notification pilot that improved transparency for families while generating practical insight into how the broader renewal process could work better.
 {% endcapture %}
 
 {% capture challenge %}
@@ -72,10 +72,10 @@ This approach allowed us to test not only whether text-message updates improved 
 {% endcapture %}
 
 {% capture results %}
-- Launched a pilot project to build and test an SMS-based notification tool for Care 4 Kids renewal applicants
+- Launched and tested an SMS-based notification pilot for Care 4 Kids renewal applicants
 - Increased average satisfaction with Care 4 Kids communication among surveyed pilot participants
 - Increased parent confidence by 19% that documents were being received by United Way
-- Generated broader recommendations to address additional communication gaps, confusion, and service design issues in the application submission process
+- Generated broader recommendations to address communication gaps, confusion, and service design issues in the application submission process
 
 {% include callout.html
   type = "pullquote"
