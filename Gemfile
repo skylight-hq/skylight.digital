@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '>=3.1.0'
+ruby '>=3.2.6'
 
-gem 'nokogiri', '>= 1.18.9'
+gem 'nokogiri', '>= 1.19.2'
 gem 'rexml', '>= 3.4.2'
 gem "jekyll", "4.4.1"
 gem "webrick"
