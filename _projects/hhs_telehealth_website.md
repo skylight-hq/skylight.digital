@@ -1,19 +1,19 @@
 ---
 layout: default
 title_tag: U.S. Department of Health and Human Services
-title: Advancing nationwide adoption of telehealth in response to COVID-19
+title: Expanding access to telehealth information during COVID-19
 permalink: /work/experience/hhs-telehealth-website/
 redirect_from:
   - /work/experience/hhs-telehealth/
 image: /img/projects/hhs_telehealth_website/telehealth.svg
-image_description: Phone screen with telehealth session underway.
+image_description: A phone screen displaying a telehealth session in progress.
 feature_image: /img/projects/hhs_telehealth_website/telehealth.gif
 feature_image_description: Walkthrough of the Telehealth.HHS.gov website.
 feature_image_shadow: true
 order: 810
 display: true
 tags: [service delivery, research & design, devops, healthcare, suzanne chapman, abby raskin, victor zapanta, rebecca lubitzmarchena, nick bristow, lara kohl, ashley treni, maya benari, gabriel ramirez, chris cairns]
-excerpt: To help medical providers and the public navigate telehealth information and resources during the COVID-19 public health emergency and beyond, we launched a site to do just that.
+excerpt: A plain-language public website launched during the COVID-19 emergency to help providers and patients understand, access, and use telehealth.
 project_members:
   - victor-zapanta
   - nick-bristow
@@ -68,73 +68,42 @@ source_code_url:
 ---
 
 {% capture summary %}
-Under the nationwide COVID-19 emergency declaration, telehealth plays a significant
-role in the nation's healthcare system, allowing patients to access medical care from home.
-
-New and rapidly-evolving policies during the crisis expedited telehealth coverage and
-availability, along with the need for information about how to provide or use it.
-
-Our team worked with the Human Resources and Services Administration (HRSA),
-partners across the U.S. Department of Health and Human Services (HHS),
-and the Presidential Innovation Fellows, to translate the latest guidelines and best
-practices into plain-language content for the 1M+ healthcare providers and 300M+ patients
-across the U.S.
+During the COVID-19 public health emergency, providers and patients needed a clear, trustworthy way to understand rapidly changing telehealth options. We partnered with the Health Resources and Services Administration (HRSA), teams across the U.S. Department of Health and Human Services (HHS), and the Presidential Innovation Fellows to launch Telehealth.HHS.gov — a plain-language website that made telehealth guidance easier to find, understand, and use at national scale.
 {% endcapture %}
 
 {% capture challenge %}
-The pandemic has created an unprecedented strain on the country's medical system.
+COVID-19 placed extraordinary strain on the U.S. healthcare system and accelerated the need for remote care.
 
-Telehealth, medical care that doesn't require in-person contact between medical workers
-and patients, can protect healthcare providers and the public from unnecessary exposure
-to disease. Remote healthcare is a convenient option for many people even under ordinary
-circumstances, but it's an especially important tool during a public health crisis.
+Telehealth became an essential way for patients to access care while reducing unnecessary in-person exposure. At the same time, new federal policies and temporary flexibilities rapidly expanded telehealth coverage, availability, and eligible use cases. But this information was evolving quickly and was often difficult for providers and patients to find, interpret, and act on.
 
-New government policies and flexibilities broaden how telehealth is delivered and what's
-covered during the emergency period, but the information about these quickly-evolving
-options isn't always easy to find or understand.
-
-The urgent need to disseminate information during the public health emergency necessitated
-an unusually tight timeline for launching this work; our challenge was to quickly
-centralize the most relevant information so that providers and the public could
-understand whether telehealth meets their needs and how to take advantage of it.
+The challenge was twofold: centralize the most relevant telehealth information and deliver it in a way that people could understand and use immediately — all on an unusually compressed timeline during a public health emergency.
 {% endcapture %}
 
 {% capture solution %}
-Our team quickly moved from concept to working code. In just a few weeks, we launched
-[Telehealth.HHS.gov](https://telehealth.hhs.gov/) — a website to help medical
-providers and the public ("patients") navigate telehealth options in the midst of a peaking pandemic.
+We moved quickly from concept to launch. Within a few weeks, we designed and released [Telehealth.HHS.gov](https://telehealth.hhs.gov/), a website that helped providers and patients navigate telehealth during a rapidly escalating pandemic.
 
-Luckily, we weren't starting <em>completely</em> from scratch. We leveraged robust open-source tools
-(such as the U.S. Web Design System), proven digital delivery best practices like user-centered
-design, and our team's combined years of experience launching public digital services (and maybe
-a bit of adrenaline!).
+To deliver quickly without sacrificing quality, we built on proven foundations — including open-source tools such as the U.S. Web Design System, established digital delivery practices, and the team’s prior experience launching public digital services.
 
-To reach this solution we:
+Our approach included:
 
-- Interviewed physicians and members of the public (people who might use telehealth as patients)
-to understand their familiarity with telehealth, where they go for information today, and
-potential barriers to providing or using telehealth
-- Prioritized content, validated early prototypes, and defined an initial product direction in
-line with business needs
-- Consulted subject-matter experts for feedback and content reviews
-- Ran moderated and unmoderated user research studies to further validate and iterate on designs
-and content as we approached launch day
-- Drafted a content guide alongside the product itself to make sure we held ourselves to high-quality
-content standards, even at our rapid pace (and to guide future content development)
+- Interviewing physicians and members of the public to understand telehealth awareness, information needs, and barriers to use
+- Prioritizing content, validating early prototypes, and defining an initial product direction aligned to urgent user and business needs
+- Working closely with subject-matter experts to review content for accuracy and relevance
+- Running moderated and unmoderated research studies to refine designs and content ahead of launch
+- Developing a content guide alongside the product to maintain quality and consistency at speed and support future content development
 
-Following the initial launch, we revised and released new content, such as:
+After launch, we continued to expand the site with high-priority content, including:
 
-- Best-practice guides for providers on specialized topic areas, including telehealth in emergency
-departments and direct-to-consumer telehealth
-- Tips for finding free or low-cost telehealth services through a health center
-- Guidance on how to improve telehealth access, equity, and accessibility
+- Best-practice guidance for providers on specialized topics such as telehealth in emergency departments and direct-to-consumer telehealth
+- Tips for finding free or low-cost telehealth services through health centers
+- Guidance on improving telehealth access, equity, and accessibility
 {% endcapture %}
 
 {% capture results %}
-- Designed and built the first iteration of Telehealth.HHS.gov within a few weeks
-- Held interviews and unmoderated research studies with over 75 participants ahead of the first launch
-- 75% of all responses to "Is this page useful?" survey have been "yes"
-- Successfully transitioned the site and scope of our services to a large contractor
+- Designed and launched the first version of Telehealth.HHS.gov within a few weeks
+- Conducted interviews and unmoderated research studies with more than 75 participants before the initial launch
+- Achieved a 75% “yes” rate on the site’s “Is this page useful?” survey
+- Successfully transitioned the site and scope of services to a larger contractor for ongoing operation and growth
 {% endcapture %}
 
 {% include project.html
