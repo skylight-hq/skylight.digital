@@ -1,17 +1,17 @@
 ---
 layout: default
 title_tag: Centers for Medicare & Medicaid Services
-title: Improving the quality of healthcare providers
+title: Modernizing a national system for evaluating healthcare quality
 permalink: /work/experience/cms-iqies/
 image: /img/projects/cms_iqies/iqies.svg
-image_description: Doctor taking the blood pressure of a woman.
+image_description: A doctor taking a woman's blood pressure.
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2900
 display: true
 tags: [service delivery, research & design, software delivery, legacy modernization, healthcare, victor zapanta, nick bristow]
-excerpt: A modernized system for evaluating and improving the quality of healthcare providers across the nation.
+excerpt: Helped modernize a critical CMS system used nationwide by healthcare providers to report and evaluate quality-of-care data.
 project_members:
   - victor-zapanta
   - nick-bristow
@@ -40,38 +40,39 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Centers for Medicare & Medicaid Services (CMS) recently undertook an initiative
-called the Internet Quality Improvement and Evaluation System (iQIES). The purpose of
-iQIES is to replace the existing legacy, desktop-based system with a modernized,
-web-based version. The current legacy system is used by healthcare providers
-(such as nursing homes) to submit quality-of-care assessment information.
-That information is then used by state agencies and CMS to evaluate and improve
-the quality of those providers. In support of this modernization effort, we engaged
-as a subcontractor to Ventera and provided critical design and technical expertise.
+CMS needed to modernize a critical system used nationwide by healthcare providers to submit and evaluate quality-of-care data. We helped transform iQIES from a legacy desktop application into a modern, user-centered platform by improving the user experience, strengthening design practices, and enabling scalable front-end delivery.
 {% endcapture %}
 
 {% capture challenge %}
-CMS' iQIES initiative is a complex, large-scale modernization effort aimed at
-replacing the existing legacy system. A major challenge with this initiative
-has been the need to maintain operational continuity while at the same time
-modernizing the user experience, the technical architecture, and the technology stack.
+iQIES was a large-scale modernization effort aimed at replacing a legacy desktop system relied on by healthcare providers and regulators across the country.
+
+The challenge was not just rebuilding the system, but doing so while maintaining uninterrupted operations. CMS needed to modernize the user experience, technical architecture, and development practices without disrupting the ongoing submission and evaluation of critical healthcare data.
+
+At the same time, teams needed stronger alignment between design, research, and engineering to ensure the new system would meet user needs and scale effectively.
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to [Ventera](https://ventera.com/), we helped support the iQIES
-initiative in several key areas, including:
+As a subcontractor to [Ventera](https://ventera.com/), we supported the iQIES modernization by strengthening both the product experience and the way teams worked together.
 
-- Provided design leadership to continually improve how user research, user
-  experience design, and engineering teams engaged in the process of
-  user-centered design
-- Established a collaborative design platform aimed at constantly reinforcing the
-  principles and practices of user-centered design
-- Engineered the front-end experience of the application
+We focused on three key areas:
+
+- **Elevating user-centered design practices**  
+  Introduced stronger collaboration between user research, design, and engineering to ensure user needs were consistently reflected in product decisions  
+
+- **Establishing a scalable design approach**  
+  Built a collaborative design system and workflow that enabled teams to produce consistent, accessible, and maintainable interfaces  
+
+- **Delivering the modern front-end experience**  
+  Engineered key parts of the application’s front end using modern frameworks, improving usability and performance while supporting long-term scalability  
+
+This approach ensured that modernization efforts improved not only the system itself, but also the processes used to design and deliver it.
 {% endcapture %}
 
 {% capture results %}
-- Injected user-centered design principles and practices into the overall delivery
-  process — without slowing down production
+- Improved usability and consistency of a nationwide healthcare reporting system  
+- Strengthened collaboration between research, design, and engineering teams  
+- Established scalable design practices to support ongoing modernization  
+- Delivered a modern front-end experience aligned with user needs and accessibility standards  
 {% endcapture %}
 
 {% include project.html

@@ -1,17 +1,17 @@
 ---
 layout: default
 title_tag: A billion-dollar company
-title: Transforming software delivery with DevOps at a $1B+ enterprise
+title: Transforming software delivery at a $1B+ enterprise
 permalink: /work/experience/acme-devops-transformation/
 image: /img/projects/acme_devops_transformation/devops.svg
-image_description: People looking at a laptop displaying a process.
+image_description: People reviewing a laptop displaying a software delivery workflow.
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1900
 display: true
 tags: [software delivery, devops, transformation, coaching & training, chris cairns, robert read, shashank khandelwal, josh dorothy]
-excerpt: Helping a $1B+ enterprise transform software delivery culture and performance by building sustainable DevOps capability.
+excerpt: Built a sustainable DevOps operating model and internal capability that enabled a $1B+ enterprise to improve software delivery performance at scale.
 project_members:
   - chris-cairns
   - robert-read
@@ -41,55 +41,50 @@ source_code_url:
 ---
 
 {% capture summary %}
-A $1B+ enterprise, confidentially referred to here as “ACME Corporation,” engaged us to help them become a high-performing software delivery organization through DevOps.
+A $1B+ enterprise needed to improve software delivery speed, quality, and reliability — but prior DevOps efforts had stalled. We partnered with the CIO and leadership team to design and implement a scalable DevOps operating model, enabling the organization to build internal capability and sustain transformation independently.
 {% endcapture %}
 
 {% capture challenge %}
-As CIO of a 400+ person IT organization, ACME’s technology leader understood what modern DevOps practices — such as test automation and continuous integration — can unlock:
+ACME’s technology leadership understood the potential of modern DevOps practices — including faster delivery, higher quality, and better customer outcomes — but earlier efforts had produced limited results.
 
-- Faster delivery
-- Higher quality
-- Better customer experiences
-- Happier teams
-- Improved business performance
+Initial initiatives lacked the structure and leadership alignment required to scale across a 400+ person IT organization. As a result, progress was inconsistent, confidence in DevOps declined, and the organization lacked a clear path forward.
 
-Unfortunately, prior DevOps efforts produced only limited gains, didn’t fully prepare leaders for enterprise-scale adoption, and left many in the organization questioning DevOps’ value.
-
-ACME needed an outside partner to help reset the approach, rebuild confidence, and accelerate the transformation.
+ACME needed to reset its approach — not just by adopting new tools, but by building the operating model, talent strategy, and leadership alignment required to make DevOps work at enterprise scale.
 {% endcapture %}
 
 {% capture solution %}
-Our approach focused on building ACME’s internal DevOps capacity as quickly as possible so they could run the transformation sustainably and self-sufficiently over the long term.
+We focused on helping ACME build the internal capability needed to run its DevOps transformation sustainably.
 
-![Phases of the ACME engagement.](/img/blog/devops_transformation_proposal/acme-engagement-phases.svg){: .mb-0 }
-
-High-level phases of our engagement with ACME.
-{: .caption }
-
-We started with a current-state assessment of ACME’s DevOps culture and practices using [DORA](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/) (DevOps Research and Assessment) — an outcome-oriented, research-backed methodology that benchmarks software delivery performance against thousands of data points.
+We began with a current-state assessment using [DORA](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/) — a research-backed framework that benchmarks software delivery performance against industry data.
 
 ![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.svg){: .mb-0 }
 
 DORA assessment methodology.
 {: .caption }
 
-With those insights, we partnered with the CIO’s team to prepare the organization for the changes required to scale DevOps. This included:
+Using these insights, we partnered with leadership to define and launch a DevOps operating model centered on a dedicated DevOps Center of Excellence (CoE). Key elements included:
 
-- Sharing assessment results — including industry benchmark comparisons and prioritized capability gaps (for example, version control and test automation)
-- Establishing a DevOps center of excellence (CoE) model, similar to [Disney’s DevOps CoE](https://thenewstack.io/magic-behind-disney-devops-experience/), to drive coaching, hands-on support, and community building
-- Defining the talent model needed to run the DevOps CoE effectively based on ACME’s context and goals
-- Creating a DevOps transformation roadmap that sequenced the highest-leverage actions to improve capability and outcomes
-- Providing operating tools (including a health check model) to manage the transformation in an outcome-based, continuous-improvement way
+- Aligning leadership around a clear set of priorities based on benchmarked performance gaps  
+- Establishing a DevOps CoE to drive hands-on support, coaching, and capability building  
+- Defining the talent model required to staff and scale the CoE effectively  
+- Creating a transformation roadmap focused on the highest-leverage improvements  
+- Introducing an outcome-based operating model using health checks and continuous improvement  
 
-After aligning leaders and setting the operating model, we worked alongside ACME to jumpstart execution. We supported recruiting, interviewing, and onboarding for the DevOps CoE (including the group’s leader). We delivered coaching and training to accelerate priority capability improvements. We ran periodic health checks to identify course corrections and keep momentum. Finally, we transitioned day-to-day ownership to the DevOps CoE so the program could continue without external dependency.
+We then worked alongside ACME to operationalize the model:
 
-Through this partnership, we helped put ACME on a credible path toward becoming an industry model for delivering software with speed and stability.
+- Supported recruiting, interviewing, and onboarding for the DevOps CoE, including its leadership  
+- Delivered targeted coaching and training to accelerate capability development  
+- Conducted periodic health checks to track progress and guide course corrections  
+- Transitioned ownership of the transformation to the CoE to ensure long-term sustainability  
+
+This approach ensured that DevOps was not just implemented, but embedded — enabling ACME to continue improving without external dependency.
 {% endcapture %}
 
 {% capture results %}
-- Helped stand up ACME’s DevOps CoE within months, with an initial staff of 10+ people
-- Guided ACME as the DevOps CoE evolved into a broader digital CoE that eventually grew to 60+ people
-- Positioned ACME to become a recognized industry leader in DevOps and digital delivery
+- Established a DevOps Center of Excellence within months, initially staffed with more than 10 specialists  
+- Scaled the CoE into a broader digital capability organization of more than 60 people  
+- Improved the organization’s ability to deliver software with greater speed, stability, and confidence  
+- Positioned ACME as an emerging leader in enterprise DevOps and digital delivery  
 {% endcapture %}
 
 {% include project.html
