@@ -68,4 +68,4 @@ We translated those findings into a concise analytic and technical recommendatio
   challenge = challenge
   solution = solution
   results = results
-%
+%}
