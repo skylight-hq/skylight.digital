@@ -1,17 +1,17 @@
 ---
 layout: default
 title_tag: Government of Canada
-title: Helping turn around a disastrous system rollout through agile procurement
+title: Helping recover from a failed national pay system through agile procurement
 permalink: /work/experience/goc-nextgen-hr-and-pay-system-agile-procurement/
 image: /img/projects/goc_nextgen_hr_pay_system/nextgen-hr-system.svg
-image_description: Next-generation HR system.
+image_description: Illustration representing a next-generation HR and pay system.
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1800
 display: true
 tags: [procurement, chris cairns]
-excerpt: Advising the Government of Canada on proven principles and practices for using agile procurement to recover from a botched HR pay system rollout and to make more reliable technology acquisitions going forward.
+excerpt: Advised the Government of Canada on agile procurement practices to help recover from the failed Phoenix pay rollout and build a stronger model for future technology acquisitions.
 project_members:
   - chris-cairns
 technologies:
@@ -35,15 +35,21 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Government of Canada's catastrophic roll out of its Phoenix pay system affected hundreds of thousands of Canadian civil servants. Like HealthCare.gov in the U.S., this national IT disaster highlighted a broken system for procuring modern technology at the federal level. We provided agile procurement expertise to help address the lingering issues, while also setting up a strategic framework for conducting future technology acquisitions in a more agile way.
+After the failed rollout of the Government of Canada’s Phoenix pay system, the federal government needed a more reliable way to procure and implement a replacement. We advised the NextGen HR and Pay team on agile procurement practices, helping establish a structured framework for continuous improvement and more resilient enterprise technology acquisitions.
 {% endcapture %}
 
 {% capture challenge %}
-With the rollout of the Phoenix pay system, the Canadian government faced a technological debacle akin to the launch of HealthCare.gov in the U.S. By mid 2018, more than 80% of Canada's 290,000 federal workers experienced issues on payday, resulting in underpayments, overpayments, or no payments at all. These problems have taken years to resolve. In 2020, over 200,000 public servants still had at least one outstanding payment issue. In response, the Government of Canada established the [Next Generation Human Resources and Pay team](https://www.canada.ca/en/shared-services/corporate/next_generation_human_resources_pay_system.html) (NextGen HR and Pay team) to address the pay system disaster. More broadly, this team was chartered to help the government move away from Phoenix toward a more modern and integrated solution that not only resolved payment issues, but also addressed the wider HR needs of Canada's entire federal workforce. To support this goal, the NextGen HR and Pay team decided to use an agile approach to procuring a new enterprise software solution and needed help from outside experts to do so effectively.
+The rollout of the Phoenix pay system became a national public-sector technology failure, affecting hundreds of thousands of Canadian civil servants through underpayments, overpayments, and missed payments.
+
+Beyond the immediate operational damage, Phoenix exposed a deeper problem: the federal government needed a better way to procure large, complex technology systems. In response, the Government of Canada established the [Next Generation Human Resources and Pay team](https://www.canada.ca/en/shared-services/corporate/next_generation_human_resources_pay_system.html) to move away from Phoenix and toward a more modern, integrated HR and pay solution.
+
+The team chose to pursue an agile procurement approach, but needed outside expertise to assess whether that approach was strong enough to support a successful enterprise-scale acquisition.
 {% endcapture %}
 
 {% capture solution %}
-To best support the NextGen HR and Pay team, we leveraged our existing expertise and previous work on the [Agile Acquisition Framework]({{site.baseurl}}/work/experience/agile-acquisition-framework) to establish 13 criteria areas that represent leading principles for agile procurement:
+We drew on our prior work with the [Agile Acquisition Framework]({{site.baseurl}}/work/experience/agile-acquisition-framework) to create a practical assessment model for agile procurement.
+
+We established 13 criteria areas representing leading practices for complex software acquisitions:
 
 <table class="post-table">
   <thead>
@@ -55,100 +61,74 @@ To best support the NextGen HR and Pay team, we leveraged our existing expertise
   <tbody>
     <tr>
       <th scope="row">Sourcing strategy</th>
-      <td>
-        Validated through user research and technical experiments.
-      </td>
+      <td>Validated through user research and technical experiments.</td>
     </tr>
     <tr>
       <th scope="row">Procurement team</th>
-      <td>
-        Dedicated, diverse, multidisciplinary expertise, collaborative, and manageable size.
-      </td>
+      <td>Dedicated, diverse, multidisciplinary, collaborative, and manageable in size.</td>
     </tr>
     <tr>
       <th scope="row">Leadership</th>
-      <td>
-        Single leader who is dedicated, empowered, and held fully accountable.
-      </td>
+      <td>Single leader who is dedicated, empowered, and fully accountable.</td>
     </tr>
     <tr>
       <th scope="row">Evaluation approach</th>
-      <td>
-        Places a primacy on asking vendors to provide verifiable proof of their capabilities; evaluation criteria can be reliably assessed.
-      </td>
+      <td>Prioritizes verifiable proof of vendor capability and uses evaluation criteria that can be assessed reliably.</td>
     </tr>
     <tr>
       <th scope="row">Evaluation team</th>
-      <td>
-        Possess high levels of technical proficiency in the areas being evaluated; number of evaluators make reaching a consensus manageable.
-      </td>
+      <td>Possesses strong technical expertise in the areas being evaluated and is small enough to reach consensus effectively.</td>
     </tr>
     <tr>
       <th scope="row">Industry engagement</th>
-      <td>
-        Engagement activities solicit meaningful feedback from vendors and keep them well informed (e.g., timeline, problem space, solution space) throughout the process.
-      </td>
+      <td>Meaningfully engages vendors and keeps them well informed throughout the process about timeline, problem space, and solution space.</td>
     </tr>
     <tr>
       <th scope="row">Rapid continuous improvement</th>
-      <td>
-        Procurement is structured with rapid, built-in learning cycles in which learnings are captured and acted upon to improve the overall procurement approach. For example: procurement approach is designed to produce a minimum viable product as quickly as possible.
-      </td>
+      <td>Builds in fast learning cycles so the procurement approach can be improved continuously, including producing a minimum viable product as quickly as possible.</td>
     </tr>
     <tr>
       <th scope="row">Vendor lock-in mitigation</th>
-      <td>
-        Procurement approach mitigates risk of vendor lock-in (e.g., data rights, operational) throughout the lifecycle of the acquisition.
-      </td>
+      <td>Mitigates vendor lock-in risks across the full acquisition lifecycle, including data and operational risks.</td>
     </tr>
     <tr>
       <th scope="row">Healthy competition</th>
-      <td>
-        Procurement is designed to encourage best-value offers, highest levels of vendor performance, even after contract award, and productive collaboration between multiple vendors.
-      </td>
+      <td>Encourages best-value offers, sustained vendor performance, and productive collaboration across vendors.</td>
     </tr>
     <tr>
       <th scope="row">Requirements</th>
-      <td>
-        Contract is flexible enough to allow for requirements to emerge and evolve over time.
-      </td>
+      <td>Maintains enough flexibility for requirements to emerge and evolve over time.</td>
     </tr>
     <tr>
       <th scope="row">Modular contracting</th>
-      <td>
-        Overall procurement is segmented into smaller, shorter-duration chunks of work, thereby mitigating overall risk of failure through incremental and iterative delivery.
-      </td>
+      <td>Breaks the procurement into smaller, shorter-duration segments to reduce risk through incremental and iterative delivery.</td>
     </tr>
     <tr>
       <th scope="row">Pay for results</th>
-      <td>
-        Working solutions are the ultimate metric of success; payments are tied to results and continued investment is only made if value is demonstrated.
-      </td>
+      <td>Ties payment and continued investment to demonstrated value and working solutions.</td>
     </tr>
     <tr>
       <th scope="row">Implementation readiness</th>
-      <td>
-        Appropriate steps are being taken to prepare for the successful execution of the contract, including operating model and implementation team.
-      </td>
+      <td>Prepares the operating model and implementation team needed for successful execution after award.</td>
     </tr>
   </tbody>
 </table>
 
-We then conducted an in-depth assessment of the NextGen HR and Pay team's agile procurement approach against these 13 criteria areas in order to identify opportunities for improvement. This process involved:
+Using this framework, we conducted an in-depth assessment of the NextGen HR and Pay team’s procurement approach. This included:
 
-- Gathering information on existing practices through activities such as documentation review and stakeholder interviews
-- Comparing the team's current practices against the 13 criteria areas
-- Formulating concrete recommendations for improvement, supported by documented findings and observations
-- Creating a scorecard to help the team quickly visualize where and how they could improve
+- Reviewing documentation and interviewing stakeholders to understand current practices
+- Evaluating those practices against the 13 criteria areas
+- Producing a scorecard that highlighted strengths, gaps, and improvement opportunities
+- Recommending concrete actions to strengthen the procurement approach
 
-Our goal in presenting the scorecard wasn't to show failure — instead, we wanted to instill a mindset of continuous improvement and offer a tool that could challenge the team to go beyond the status quo throughout the procurement process. By revealing targeted opportunities for improvement and establishing a framework that could be used to self-assess and refine agile procurement practices, we helped set the NextGen HR and Pay team down a path to replacing the broken Phoenix pay system successfully.
+Rather than using the scorecard as a compliance exercise, we positioned it as a tool for continuous improvement. This helped the team identify targeted changes, challenge the status quo, and strengthen its ability to run an agile procurement capable of supporting a successful replacement for Phoenix.
 {% endcapture %}
 
 {% capture results %}
-- Established 13 criteria areas that represent leading principles for agile procurement, applicable to different types of software solution acquisitions (e.g., build, buy)
-- Made 15 concrete recommendations for improving the NextGen HR and Pay team's existing agile procurement practices
-- Created a framework that enabled the team to continually assess and improve their practices
-- Helped the team establish a path forward that led to the selection of vendors for replacing the broken Phoenix pay system with a modern, integrated HR system
+- Established a 13-part agile procurement framework applicable to major software acquisitions, including both build and buy approaches
+- Delivered 15 concrete recommendations to strengthen the NextGen HR and Pay team’s procurement approach
+- Created a scorecard and assessment model the team could reuse to evaluate and improve its practices over time
+- Helped establish a stronger path forward for procuring a modern, integrated replacement for the Phoenix pay system
 {% endcapture %}
 
 {% include project.html
