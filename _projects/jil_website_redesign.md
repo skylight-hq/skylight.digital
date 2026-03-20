@@ -10,7 +10,7 @@ feature_image_description: Walkthrough of the redesigned Justice Innovation Lab 
 feature_image_shadow: true
 order: 950
 display: true
-tags: [service delivery, research & design, justice, becca-bartola]
+tags: [service delivery, research & design, justice, becca bartola]
 excerpt: A redesigned website and brand system that made JIL’s work more accessible, cohesive, and engaging — while enabling a non-design team to sustain it over time.
 project_members:
   - becca-bartola
