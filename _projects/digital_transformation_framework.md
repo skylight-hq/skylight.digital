@@ -1,19 +1,19 @@
 ---
 layout: default
 title_tag: Digital Transformation Framework
-title: Digitally transforming government
+title: Building a framework for digital transformation in government
 permalink: /work/experience/digital-transformation-framework/
 redirect_from:
   - /work/digital-transformation-framework/
 image: /img/projects/digital_transformation_framework/digital-government-transformation.svg
-image_description: Two people using old computers sitting across from someone using a modern computer.
+image_description: Two people using older computers sit across from someone using a modern computer.
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 4200
 display: true
 tags: [transformation, chris cairns, shashank khandelwal]
-excerpt: A comprehensive framework designed to help government agencies transform into digitally-powered organizations.
+excerpt: A practical framework that helped government agencies modernize across talent, customer experience, procurement, cloud, data, agile delivery, and legacy systems.
 project_members:
   - chris-cairns
   - shashank-khandelwal
@@ -38,31 +38,25 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Digital Transformation Framework is a comprehensive framework designed
-to help agencies transform into digitally-powered organizations.
+Government agencies needed a practical way to understand and guide digital transformation across multiple interconnected areas. We developed the Digital Transformation Framework to help agencies modernize in a structured, sustainable, and incrementally valuable way.
 {% endcapture %}
 
 {% capture challenge %}
-To think and be more digital, government organizations need to mature along
-multiple, self-reinforcing dimensions — talent and empowerment, customer experience,
-digital procurement, cloud and DevOps, data management, enterprise agile, and legacy
-modernization. But how can they do so in a way that's manageable, sustainable,
-incrementally valuable, and ultimately independent of expensive consultancies?
+For government organizations, becoming more digital requires progress across multiple, mutually reinforcing dimensions — including talent and empowerment, customer experience, digital procurement, cloud and DevOps, data management, enterprise agile, and legacy modernization.
+
+The challenge was not simply knowing what to improve, but how to approach transformation in a way that was manageable, sustainable, and capable of delivering value incrementally. Agencies also needed a path that would build long-term internal capability rather than create dependence on expensive outside consultancies.
 {% endcapture %}
 
 {% capture solution %}
-To address this challenge, Chris Cairns and Shashank Khandelwal, as members of 18F and
-the Federal Chief Information Officer's Technology Transformation Task Force (the precursor
-to the American Technology Council), collaborated with multiple government technology executives
-and renowned transformation experts to develop a comprehensive framework for digital transformation. The framework
-incorporates lessons learned and best practices from multiple agencies with digital
-transformation experience, making it specifically designed to address the unique digital
-maturity needs of government organizations.
+To address this challenge, Chris Cairns and Shashank Khandelwal, as members of 18F and the Federal Chief Information Officer's Technology Transformation Task Force (the precursor to the American Technology Council), collaborated with government technology executives and recognized transformation experts to develop a comprehensive digital transformation framework for government.
+
+The framework synthesized lessons learned and best practices from agencies with real digital transformation experience. It was designed specifically for government contexts, giving agencies a structured way to assess their maturity, prioritize improvements, and sequence transformation efforts across multiple domains.
 {% endcapture %}
 
 {% capture results %}
 - Validated through feedback from nearly a dozen government technology executives
-- Adopted by multiple federal agencies as part of comprehensive engagements with 18F
+- Adopted by multiple federal agencies as part of broader transformation engagements with 18F
+- Provided a practical model for approaching digital transformation as a coordinated, long-term capability-building effort
 {% endcapture %}
 
 {% include project.html
