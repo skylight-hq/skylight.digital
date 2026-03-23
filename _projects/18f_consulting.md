@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: 18F Consulting
-title: Building a consulting practice to drive digital transformation across government
+title: Proving a new model for digital consulting inside government
 permalink: /work/experience/18f-consulting/
 redirect_from:
   - /work/18f-consulting/
@@ -13,7 +13,7 @@ feature_image_shadow:
 order: 4300
 display: true
 tags: [transformation, chris cairns, robert read]
-excerpt: Built and scaled a consulting practice within 18F that helped agencies adopt modern digital practices through hands-on delivery, coaching, and organizational change.
+excerpt: A multidisciplinary consulting practice within GSA's 18F that helped federal agencies build internal digital capability through hands-on delivery, coaching, and modern acquisition practices.
 project_members:
   - chris-cairns
   - robert-read
@@ -55,41 +55,35 @@ source_code_url:
 ---
 
 {% capture summary %}
-Federal agencies needed help adopting modern digital practices, but lacked internal capacity and practical models for change. We founded and scaled 18F Consulting — a multidisciplinary consulting practice within GSA — to deliver hands-on transformation, enabling agencies to build digital capability while improving how government delivers technology.
+Before founding Skylight, Chris Cairns and Robert Read built 18F Consulting — a multidisciplinary consulting practice within the General Services Administration's (GSA) 18F — from the ground up. They designed it to help federal agencies adopt modern digital practices not by outsourcing the work, but by building internal capability through hands-on delivery, coaching, and organizational change.
 {% endcapture %}
 
 {% capture challenge %}
-Agencies across government were under pressure to modernize how they delivered digital services, but most lacked the internal capability, operating models, and talent needed to do so effectively.
+Federal agencies manage billions of dollars in technology spending each year, yet most didn't have the internal capability to deliver digital services effectively. Outdated procurement practices, siloed teams, and a reliance on large contractors left agencies dependent on external vendors — not just for building technology, but for understanding what to build in the first place.
 
-Digital transformation in government requires more than new technology — it demands changes in culture, practices, procurement, and team structure. However, there was no established model within government for how to institutionalize these changes at scale.
+The problem wasn't simply technical. Agencies lacked the talent pipelines, operating models, and institutional knowledge needed to adopt practices like agile delivery, user-centered design, and product management. Previous reform efforts tended to focus on policy mandates rather than practical capability building, and there was no established model within government for how to institutionalize these changes at scale.
 
-The challenge was not just delivering better digital services, but building a sustainable capability within agencies to continue that work independently.
+What was missing wasn't another set of recommendations — it was a working proof of concept: a team inside government that could demonstrate modern digital practices through direct delivery while coaching agency partners to sustain the work independently.
 {% endcapture %}
 
 {% capture solution %}
-We founded and built 18F Consulting as a new model for delivering digital transformation inside government.
+Chris co-founded 18F Consulting and, along with Robert, designed it as a new model for delivering digital transformation inside government. Rather than importing a single methodology wholesale, they built an approach that combined modern digital practices with the expertise of career civil servants and federal contractors.
 
-Rather than attempting to import “Silicon Valley culture” wholesale, we designed an approach that combined modern digital practices with the expertise of career civil servants and federal contractors. This enabled agencies to adopt new ways of working in a way that fit their context.
+First, they built the team. Using the Schedule A(r) hiring authority, they recruited more than 40 multidisciplinary experts — spanning design, product, engineering, data, policy, and acquisition — bringing private-sector skills into public service.
 
-Over the course of a year, we:
+Next, they established a delivery model built on hands-on collaboration. Instead of handing agencies a report and walking away, their teams worked directly alongside agency partners, introducing practices like agile delivery, product management, and user-centered design through real projects with real outcomes.
 
-- Recruited and hired multidisciplinary teams across design, product, engineering, data, policy, and acquisition using the Schedule A(r) hiring authority  
-- Established a delivery model focused on hands-on collaboration, where teams worked directly alongside agency partners  
-- Introduced modern practices such as agile delivery, product management, and user-centered design  
-- Coached agency teams to build internal capability while delivering real projects  
-
-This approach ensured that transformation was not just delivered, but embedded — leaving agencies better equipped to sustain progress over time.
+Then, they scaled what worked. The success of 18F Consulting seeded multiple new organizations within GSA's Technology Transformation Services — including the Office of Acquisitions, 18F Transformation, and 18F Learn — and inspired other agencies to stand up their own digital teams modeled on the same principles.
 {% endcapture %}
 
 {% capture results %}
-- Hired more than 40 multidisciplinary experts across design, product, engineering, data, policy, and acquisition  
-- Delivered nearly 45 projects for federal, state, and local agencies  
-- Achieved strong client satisfaction (GAO survey: 23 of 26 respondents were very or moderately satisfied)  
-- Influenced more than $1 billion in IT acquisition decisions  
-- Helped agencies avoid hundreds of millions in unnecessary technology acquisition costs  
-- Catalyzed the creation of agency-specific digital teams modeled after 18F Consulting  
-- Produced and shared more than 35 public resources to scale knowledge across government  
-- Expanded into multiple new organizations within GSA’s Technology Transformation Services, including Office of Acquisitions, 18F Transformation, and 18F Learn  
+- Influenced more than $1 billion in IT acquisition decisions across government
+- Delivered nearly 45 projects for federal, state, and local agencies
+- Recruited and hired more than 40 multidisciplinary experts across design, product, engineering, data, policy, and acquisition
+- Achieved strong client satisfaction — a Government Accountability Office (GAO) survey found 23 of 26 respondents were very or moderately satisfied
+- Helped agencies avoid hundreds of millions of dollars in unnecessary technology acquisition costs
+- Catalyzed the creation of agency-specific digital teams modeled after 18F Consulting
+- Produced and shared more than 35 public resources to scale knowledge across government
 {% endcapture %}
 
 {% include project.html
