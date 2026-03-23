@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: 18F Consulting
-title: Proving a new model for digital consulting inside government
+title: Pioneering a model for digital transformation across government
 permalink: /work/experience/18f-consulting/
 redirect_from:
   - /work/18f-consulting/
