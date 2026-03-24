@@ -14,7 +14,7 @@ feature_image_shadow:
 order: 2400
 display: true
 tags: [service delivery, research & design, product management, software delivery, apis, sean johnson]
-excerpt: Designed and built an asynchronous communication platform that helped distributed teams stay aligned without the noise of real-time chat.
+excerpt: An open-source communication platform that helped distributed teams stay aligned through structured, long-form updates — without the noise of real-time chat.
 project_members:
   - sean-johnson
 technologies:
@@ -57,37 +57,32 @@ source_code_url: https://github.com/open-company
 ---
 
 {% capture summary %}
-Distributed teams struggled to stay aligned without being overwhelmed by constant chat and email. Carrot was built to solve this by introducing an asynchronous communication model that helped teams focus on what mattered most while staying informed.
+Skylight's Sean Johnson designed and built Carrot — an open-source, asynchronous communication platform for distributed teams. Where tools like Slack optimized for real-time conversation, Carrot optimized for clarity: structured updates, topic-based discussions, and a reading experience that didn't require everyone to be online at the same time.
 {% endcapture %}
 
 {% capture challenge %}
-As real-time communication tools like Slack became dominant, teams were increasingly connected but less aligned. Important updates were buried in fast-moving conversations, and staying informed required constant attention.
+By the mid-2010s, real-time chat tools had become the default communication layer for distributed teams. But the always-on model came with a cost. Important updates disappeared into fast-moving channels. Staying informed meant staying connected — constantly. And the more a team grew, the worse the signal-to-noise ratio became.
 
-For leaders, this created a visibility problem — it was difficult to communicate priorities, share context, and ensure teams understood what mattered most. For individuals, it created cognitive overload, interrupting focus and reducing productivity.
+The problem hit leaders and individual contributors differently but equally hard. For leaders, it was a visibility problem: there was no reliable way to communicate priorities, share context, or know whether the team had actually absorbed what mattered most. For individuals, it was a focus problem: every notification was an interruption, and the fear of missing something important kept people tethered to their screens.
 
-Teams needed a better way to share meaningful updates and discussions without requiring everyone to be constantly online.
+The underlying issue wasn't that teams needed less communication — it was that they needed a different kind. Real-time chat optimized for speed and presence. What distributed teams actually needed was a tool that optimized for clarity and asynchronous participation.
 {% endcapture %}
 
 {% capture solution %}
-Carrot introduced an asynchronous approach to team communication, designed to combine the clarity of long-form updates with the engagement of modern collaboration tools.
+Sean designed Carrot around a bet: that the best communication tool for distributed teams wouldn't look like chat at all. Instead of optimizing for real-time presence, he built a platform that optimized for thoughtful, structured communication people could engage with on their own schedule.
 
-Built as the open-source [OpenCompany](https://github.com/open-company) platform, Carrot enabled teams to publish structured updates that created focused, topic-based discussions. Instead of relying on real-time messaging, users could catch up on their own time while still participating in meaningful conversations.
+The core model centered on narrative-driven updates rather than fragmented chat threads. Leaders and team members published structured posts — context-rich, topic-specific — that created focused discussions underneath. Conversations stayed attached to the update that prompted them, so context was never lost in a scroll of unrelated messages.
 
-The product emphasized:
+Technically, he built Carrot as the open-source [OpenCompany](https://github.com/open-company) platform using an API-first, microservices architecture that supported web and mobile applications. The stack — ClojureScript and React on the front end, Clojure microservices on the back end, with WebSockets for real-time interaction where it mattered — was designed to feel as responsive as chat without demanding constant attention.
 
-- Structured, narrative-driven updates instead of fragmented chat threads  
-- Topic-based discussions that kept conversations focused and persistent  
-- A user experience that felt as interactive as chat, but without constant interruption  
-- A scalable, API-first architecture supporting web and mobile applications  
-
-This approach helped reduce noise, improve alignment, and support more intentional communication across distributed teams.
+The result was a product that let distributed teams stay aligned without being always-on — reducing noise while keeping the conversations that mattered visible and persistent.
 {% endcapture %}
 
 {% capture results %}
-- Built and launched an asynchronous communication platform for distributed teams  
-- Validated the product direction through iterative user research and testing  
-- Grew an early user base and established product-market fit signals  
-- Open-sourced the underlying OpenCompany platform to enable broader adoption and reuse  
+- Built and launched a full asynchronous communication platform spanning web, iOS, and Android
+- Named one of Inc. Magazine's biggest disruptors of 2019 and featured on Product Hunt's best digital products of 2019
+- Grew an early user base and validated product-market fit through iterative research and testing
+- Open-sourced the underlying OpenCompany platform to enable broader adoption and community contribution
 {% endcapture %}
 
 {% include project.html
