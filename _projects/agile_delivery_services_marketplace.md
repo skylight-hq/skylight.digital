@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: Agile Delivery Services Marketplace
-title: Reinventing how government procures software
+title: Creating a new model for procuring software development services
 permalink: /work/experience/agile-delivery-services-marketplace/
 redirect_from:
   - /work/agile-delivery-services-marketplace/
@@ -13,7 +13,7 @@ feature_image_shadow:
 order: 3200
 display: true
 tags: [procurement, chris cairns, robert read]
-excerpt: Designed and launched a new model for procuring digital services that enabled agencies to evaluate real capability, accelerate delivery, and reduce risk.
+excerpt: Designed and launched a new marketplace model for procuring software development services that enabled agencies to evaluate real capability, accelerate delivery, and reduce risk.
 project_members:
   - chris-cairns
   - robert-read
@@ -60,39 +60,34 @@ source_code_url:
 ---
 
 {% capture summary %}
-Federal agencies needed a better way to procure modern digital services — one that prioritized real capability over written proposals. We designed and launched the Agile Delivery Services Marketplace, a new procurement model that enabled agencies to evaluate vendors through working software, accelerate delivery, and reduce risk.
+Before founding Skylight, Chris Cairns and Robert Read designed and launched the Agile Delivery Services Marketplace — a new model for procuring software development services that replaced traditional written proposals with working prototypes. Built as a Blanket Purchase Agreement under GSA's IT Schedule 70, the marketplace gave agencies a pre-vetted pool of vendors who had proven they could deliver, not just describe it. The model was widely recognized and adopted by agencies and programs across government.
 {% endcapture %}
 
 {% capture challenge %}
-Following the Healthcare.gov launch failure, agencies increasingly looked to agile as a way to improve how digital services were delivered. However, existing procurement approaches made it difficult to identify vendors capable of delivering modern, user-centered software.
+In the wake of the Healthcare.gov launch failure, federal agencies increasingly recognized that agile delivery was the path forward for software. But recognizing the need and acting on it were two different things — existing procurement processes made it nearly impossible to identify vendors who could actually do the work.
 
-Traditional processes relied heavily on written proposals, which often failed to distinguish between vendors who could describe agile practices and those who could actually execute them. These approaches also introduced additional risks, including vendor lock-in, slow procurement timelines, and limited visibility into real delivery capability.
+The fundamental problem was how vendors were evaluated. Traditional procurement relied on written proposals — documents that rewarded strong writing and incumbency over real delivery capability. A vendor could describe agile practices fluently without ever having shipped working software using them. Agencies had no reliable way to tell the difference.
 
-As a result, agencies struggled to confidently select partners and deliver high-quality digital services at the speed required.
+The resulting risks compounded. Vendor lock-in limited agencies' ability to course-correct. Procurement timelines stretched for months or years. And when contracts were finally awarded, agencies often discovered too late that their vendor couldn't deliver. What was needed wasn't a better way to evaluate proposals — it was a way to evaluate actual work.
 {% endcapture %}
 
 {% capture solution %}
-We designed and launched a new model for procuring digital services — the Agile Delivery Services Marketplace — focused on evaluating real capability and accelerating delivery.
+Chris and Robert designed the marketplace around a single principle: make vendors prove they can do the work before they get the contract.
 
-At its core, the model replaced traditional proposal-heavy processes with hands-on evaluation and modern contracting approaches:
+First, they replaced written proposals with a prototype challenge. Instead of submitting documents, vendors built working software using [openFDA](https://open.fda.gov/) as the data source — giving evaluators direct evidence of each vendor's design, development, and delivery capability. This "show, don't tell" approach made it possible to distinguish between vendors who understood agile and those who could execute it.
 
-- Introduced a "show, don't tell" model where vendors demonstrated capability by building working prototypes (using [openFDA](https://open.fda.gov/)) instead of submitting written proposals  
-- Established a [public-domain contracting clause](/thoughts/blog/public-domain-procurement/) to ensure all deliverables — including data, code, and documentation — remained owned by the government, reducing vendor lock-in  
-- Combined a Blanket Purchase Agreement under IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluations to dramatically accelerate procurement timelines  
+Next, they tackled vendor lock-in. A [public-domain contracting clause](/thoughts/blog/public-domain-procurement/) ensured that all deliverables — code, data, and documentation — remained government-owned. This meant agencies could switch vendors or bring work in-house without losing access to what had already been built.
 
-This approach enabled agencies to evaluate vendors based on actual performance, not promises — fundamentally changing how digital services were procured.
-
+Then, they built the contracting infrastructure to make the marketplace usable at scale. The vehicle combined a Blanket Purchase Agreement under GSA's IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluation guides — giving agencies everything they needed to run a procurement in weeks rather than months.
 {% endcapture %}
 
 {% capture results %}
-- Attracted more than 700 participants to industry outreach events  
-- Received more than 200 prototype-based submissions via public GitHub repositories  
-- Evaluated all proposals within weeks using a three-person team  
-- Awarded contracts to 17 vendors through a streamlined process  
-- Successfully defended the evaluation approach through eight formal protests  
-- Recognized by industry, Congress, and the Office of Management and Budget as a model for modern procurement  
-- Influenced multiple federal, state, and local agencies to adopt similar approaches  
-- Enabled nearly a dozen agencies to achieve improved delivery outcomes through better vendor selection  
+- Attracted more than 700 participants to industry outreach events and received more than 200 prototype-based submissions via public GitHub repositories
+- Evaluated all submissions within weeks using a three-person team and awarded contracts to 17 vendors
+- Successfully defended the evaluation approach through 8 formal protests
+- Recognized by industry, Congress, and the Office of Management and Budget as a model for procuring software development services
+- Influenced multiple federal, state, and local agencies to adopt similar approaches
+- Enabled nearly a dozen agencies to achieve improved software delivery outcomes through better vendor selection
 {% endcapture %}
 
 {% include project.html
