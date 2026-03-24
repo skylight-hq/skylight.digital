@@ -5222,7 +5222,7 @@
   position: Software Engineer
   bio: |
     Kate is a generalist who happens to be a software engineer. She cares deeply about helping people access services and information. Her work at the U.S. Digital Service has helped countless people, including two stints on Direct File and making it easier for disaster survivors register for assistance. Kate lives in Maryland.
-  active: true
+  active: false
   order: 1750
   socials:
     - name: LinkedIn
