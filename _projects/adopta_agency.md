@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: Adopta.Agency
-title: Creating a scalable model to improve government open data
+title: Crowdsourcing improvements to government open data
 permalink: /work/experience/adopta-agency/
 redirect_from:
   - /work/adopta-agency/
@@ -13,7 +13,7 @@ feature_image_shadow:
 order: 4500
 display: true
 tags: [service delivery, apis, open government, kin lane]
-excerpt: Designed a civic crowdsourcing model that enabled developers and organizations to improve government datasets and turn them into usable APIs.
+excerpt: A civic crowdsourcing model that enabled developers and organizations to improve government datasets and transform them into usable APIs.
 project_members:
   - kin-lane
 technologies:
@@ -37,30 +37,32 @@ source_code_url:
 ---
 
 {% capture summary %}
-Government agencies released thousands of open datasets, but many remained difficult to use. Adopta.Agency created a scalable, open model that enabled anyone to improve datasets and transform them into usable APIs — making public data more accessible, reusable, and valuable.
+Before joining Skylight, Kin Lane created Adopta.Agency — a civic crowdsourcing model that enabled developers and organizations to improve government open datasets and transform them into usable APIs. Backed by the Knight Foundation, the project demonstrated that distributed contributors could systematically increase the quality and accessibility of public data at a scale no single agency could achieve alone.
 {% endcapture %}
 
 {% capture challenge %}
-Following implementation of the White House's [Open Data Policy](https://project-open-data.cio.gov/policy-memo/), federal agencies produced thousands of open datasets. However, many were incomplete, inconsistently formatted, or difficult to integrate into applications.
+Following implementation of the White House's [Open Data Policy](https://project-open-data.cio.gov/policy-memo/), federal agencies released thousands of datasets to the public. The mandate was a landmark step toward transparency — but releasing data and making it usable turned out to be two very different things.
 
-As a result, much of this data remained underutilized. Improving and maintaining datasets at scale exceeded the capacity of individual agencies, creating a need for a new model that could expand access and usability without relying solely on government resources.
+Many datasets were incomplete, inconsistently formatted, or missing the structure needed to integrate into applications. Developers who wanted to build on public data often spent more time cleaning and interpreting it than using it. As a result, much of the government's open data investment sat underutilized — technically available, but practically inaccessible.
+
+The core problem was one of scale. No single agency had the capacity to clean, structure, and maintain thousands of datasets on an ongoing basis. What was missing wasn't more policy — it was a model that could harness outside contributors to improve public data systematically, the way open-source communities improve software.
 {% endcapture %}
 
 {% capture solution %}
-Adopta.Agency introduced a civic crowdsourcing model for improving government open data.
+Kin designed Adopta.Agency around a simple insight: the same open-source collaboration model that works for software could work for data. Rather than asking agencies to fix everything themselves, he created a framework that enabled anyone — developers, civic technologists, organizations — to contribute structured improvements to public datasets.
 
-At the center of this model was an [open blueprint process](http://adopta-agency.github.io/adopta-blueprint/) that guided contributors through structured steps to improve a dataset. Participants could incrementally increase value — first by cleaning and structuring data into JSON, and then by transforming it into a fully functional API.
+First, he built the [blueprint process](http://adopta-agency.github.io/adopta-blueprint/) — an open, step-by-step guide that walked contributors through improving a dataset incrementally. Participants could start by cleaning and structuring raw data into JSON, then progress to transforming it into a fully functional API. Each step added value without requiring contributors to take on the entire dataset at once.
 
-The model leveraged GitHub as a collaboration platform, enabling distributed contributors to work transparently and iteratively on shared datasets.
+Next, he chose GitHub as the collaboration platform. This gave distributed contributors a transparent, version-controlled environment for working on shared datasets — the same workflow developers already used for code. The approach lowered the barrier to entry and made every improvement visible and reusable.
 
-With support from the Knight Foundation, a prototype was developed and applied to five federal datasets. This work produced a set of reusable blueprint patterns that others could follow to replicate and scale dataset improvements across government.
+Then, with grant funding from the Knight Foundation, he built a working prototype and applied it to five federal datasets spanning the U.S. Federal Budget, the Veterans Affairs Open Data Portal, Department of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov. Each dataset produced a reusable blueprint pattern that others could follow to replicate the approach across government.
 {% endcapture %}
 
 {% capture results %}
-- Secured grant funding from the Knight Foundation to support development and prototyping  
-- Designed and launched the Adopta.Agency blueprint process for improving open datasets  
-- Applied the model to five federal datasets, including the U.S. Federal Budget, Veterans Affairs Open Data Portal, Department of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov  
-- Created five reusable blueprint patterns that enabled others to replicate and scale dataset improvements  
+- Secured grant funding from the Knight Foundation to develop and prototype the model
+- Applied the approach to five federal datasets, producing a working proof of concept
+- Created five reusable blueprint patterns that enabled others to replicate dataset improvements independently
+- Demonstrated a scalable civic crowdsourcing model for improving government open data — without requiring additional agency resources
 {% endcapture %}
 
 {% include project.html
