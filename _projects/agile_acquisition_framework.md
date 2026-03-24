@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: Agile Acquisition Framework
-title: Redefining how government procures digital services
+title: Redefining how government procures software
 permalink: /work/experience/agile-acquisition-framework/
 redirect_from:
   - /work/agile-acquisition-framework/
@@ -13,7 +13,7 @@ feature_image_shadow:
 order: 3100
 display: true
 tags: [procurement, coaching & training, chris cairns, robert read]
-excerpt: Created and scaled a new acquisition model that enabled government agencies to procure and deliver digital services using agile practices.
+excerpt: A new acquisition model that redefined how government agencies procure software — adopted across more than a dozen programs and influencing procurement practices for years afterward.
 project_members:
   - chris-cairns
   - robert-read
@@ -44,42 +44,32 @@ source_code_url:
 ---
 
 {% capture summary %}
-Government agencies needed a way to procure digital services that matched how modern software is built. We created the Agile Acquisition Framework — a new model that enabled agencies to align procurement with agile delivery, resulting in faster outcomes, higher-quality products, and more effective use of public funds.
+Before founding Skylight, Chris Cairns and Robert Read created the Agile Acquisition Framework — a new model for aligning how government procures software with how modern software is actually built. Initially applied to more than a dozen federal, state, and local programs, the framework's influence extended well beyond those engagements, shaping how agencies across government approach software procurement to this day.
 {% endcapture %}
 
 {% capture challenge %}
-Traditional government procurement processes were designed for predictable, long-term projects — not modern, iterative software delivery.
+Traditional government procurement was designed for large, predictable projects — multiyear contracts scoped upfront, evaluated on the strength of written proposals. That worked when requirements were stable. It didn't work for software, where the most important decisions emerge through iteration and user feedback.
 
-As a result, agencies often struggled to:
-- Evaluate vendors based on real delivery capability  
-- Adapt requirements as user needs evolved  
-- Deliver working software quickly and incrementally  
+The mismatch showed up everywhere. Agencies couldn't evaluate whether a vendor could actually deliver agile software — only whether they could describe it convincingly in a proposal. Requirements locked in at the start of a contract couldn't adapt as user needs evolved. And by the time working software was delivered — if it was delivered — it often no longer matched what users needed.
 
-This mismatch between procurement and delivery led to delays, wasted resources, and systems that failed to meet user needs.
-
-At the time, there was no proven, end-to-end model for how to run agile acquisitions within government.
+The result was billions of dollars in failed or underperforming technology investments. But the problem wasn't that agencies wanted to keep doing things the old way. There was simply no proven, end-to-end model for how to run an agile acquisition within government — from market research through evaluation, award, and delivery.
 {% endcapture %}
 
 {% capture solution %}
-We designed and implemented the Agile Acquisition Framework as a new approach to procuring and delivering digital services in government.
+Chris and Robert designed the Agile Acquisition Framework as a complete operating model for software procurement — not just a set of principles, but a practical playbook agencies could follow from market research through delivery.
 
-Rather than treating procurement as a one-time transaction, the framework aligned acquisition with modern delivery practices across the full lifecycle. It introduced a model where agencies could evaluate vendors based on real work, iterate on requirements, and continuously improve outcomes.
+First, they established the core shift: evaluating vendors on demonstrated capability rather than written promises. The framework introduced a "show, don't tell" approach where vendors built working prototypes instead of submitting traditional proposals — giving agencies real evidence of delivery skill before awarding a contract.
 
-Key elements of the framework included:
+Next, they integrated the acquisition model with modern delivery practices. The framework combined user-centered design, agile development, and modular contracting into a single lifecycle — so the way agencies bought software aligned with the way it should be built. Evaluation criteria were tied to real user needs, and contracts were structured to allow requirements to evolve through iteration.
 
-- A “show, don’t tell” approach, where vendors demonstrated capability through working prototypes instead of written proposals  
-- Use of iterative, outcome-based evaluation criteria aligned to real user needs  
-- Integration of user-centered design, agile development, and modular contracting into a single operating model  
-- Practical guidance and playbooks to help agencies implement the approach in real procurements  
-
-We refined the framework through hands-on application across multiple programs, while training and coaching agency teams to adopt the model and run agile acquisitions independently.
+Then, they proved it worked. Chris and Robert refined the framework through hands-on application across more than a dozen programs — including Treasury's DATA Act, DoD's Military OneSource, SSA's Disability Claims Processing System, EPA's Electronic Manifest System, Navy's Ready-2-Serve, and California's Child Welfare System — while coaching agency teams to run agile acquisitions independently.
 {% endcapture %}
 
 {% capture results %}
-- Adopted by more than a dozen federal, state, and local programs  
-- Applied to major initiatives including Treasury’s DATA Act, DoD’s Military OneSource, SSA’s Disability Claims Processing System, EPA’s Electronic Manifest System, Navy’s Ready-2-Serve, and California’s Child Welfare System  
-- Helped agencies avoid hundreds of millions of dollars in unnecessary technology acquisition costs  
-- Established a new model for agile procurement that influenced how digital services are acquired across government  
+- Adopted by more than a dozen federal, state, and local programs
+- Helped agencies avoid hundreds of millions of dollars in unnecessary technology acquisition costs
+- Applied to major initiatives spanning Treasury, DoD, SSA, EPA, Navy, and California's Child Welfare System
+- Established a replicable model for agile procurement that continues to influence how software is acquired across government
 {% endcapture %}
 
 {% include project.html
