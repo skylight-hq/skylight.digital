@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 3900
 display: true
 tags: [training, coaching & training, healthcare, robert read, josh dorothy]
-excerpt: A hands-on agile training experience that helped teams move from understanding agile concepts to applying them in real delivery scenarios.
+excerpt: An immersive, sprint-based training workshop that helped California's Health and Human Services teams move from understanding agile concepts to applying them as a complete delivery system.
 project_members:
   - robert-read
   - josh-dorothy
@@ -37,36 +37,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-The CHHS Office of Innovation needed to move beyond understanding agile concepts and start applying them in real work. We designed and delivered an intensive, hands-on training experience that simulated real-world delivery, helping teams build confidence and capability in agile practices.
+The California Health and Human Services (CHHS) Office of Innovation understood the individual elements of agile but couldn't connect them into a working delivery approach. We designed and delivered an immersive, two-day training workshop — in partnership with CivicActions — that simulated five full sprints against a real product, helping teams experience agile as a complete system rather than a set of isolated practices.
 {% endcapture %}
 
 {% capture challenge %}
-The CHHS Office of Innovation had been working to adopt agile principles, but struggled to translate those concepts into day-to-day practice.
-
-While teams understood individual elements of agile — such as planning, testing, and iteration — they found it difficult to connect them into a cohesive delivery approach. This gap made it harder to apply agile effectively to real projects and limited the organization’s ability to realize its full benefits.
-
-To succeed, the team needed more than instruction — they needed a way to experience agile as a complete, integrated system.
-{% endcapture %}
-
-{% capture solution %}
-We partnered with [CivicActions](https://civicactions.com/) to design and deliver a two-day immersive training experience centered on learning by doing.
-
-Instead of relying on lectures, we simulated five full sprints within a compressed, two-day timeframe. Participants worked through a real-world scenario — improving the Office of Innovation’s website — and applied core Scrum practices, including planning, story writing, estimation, velocity tracking, and testing.
-
-This approach allowed participants to:
-
-- Experience how agile practices work together as a system  
-- Build intuition for decision-making in fast-moving delivery environments  
-- Identify gaps and opportunities in their own processes  
-- Apply what they learned immediately to a real product  
-
-By combining structured simulation with coaching, the workshop created both a meaningful learning experience and a tangible improvement to an existing product.
-{% endcapture %}
-
-{% capture results %}
-- Enabled teams to confidently apply agile practices in real delivery scenarios  
-- Delivered a redesigned and improved version of the Office of Innovation’s website through hands-on sprint work  
-- Increased alignment and shared understanding of agile across participants  
+The CHHS Office of Innovation had invested in agile training, and the team understood the individual pieces — planning, testing, iteration, estimation. But knowing the parts and knowing how they fit together in real delivery turned out to be two very different things.
 
 {% include callout.html
   type = "pullquote"
@@ -75,9 +50,28 @@ By combining structured simulation with coaching, the workshop created both a me
   cite_title = "Deputy Director, Office of Innovation at CHHS"
 %}
 
+The gap wasn't knowledge — it was experience. Without having worked through a full delivery cycle using agile practices end to end, teams struggled to apply what they'd learned to real projects. Previous trainings had taught concepts in isolation, but none had shown how planning, estimation, velocity tracking, and testing reinforce each other as a system. The Office of Innovation needed something fundamentally different: not another lecture, but a way to practice agile as it actually works.
+{% endcapture %}
+
+{% capture solution %}
+We partnered with [CivicActions](https://civicactions.com/) to design something most agile trainings don't attempt: a full delivery simulation against a real product.
+
+Over two days, participants worked through five compressed sprints — not on a hypothetical exercise, but on the Office of Innovation's actual website. Each sprint cycled through the complete Scrum workflow: story writing, estimation, planning, building, testing, and velocity tracking. By the third sprint, teams weren't just following instructions — they were making their own tradeoffs, adjusting estimates based on real velocity data, and experiencing the feedback loops that make agile work.
+
+The design was deliberate. Rather than teaching practices one at a time, we structured the workshop so participants experienced how each practice reinforced the others. Estimation became meaningful once teams could compare it against actual velocity. Testing felt purposeful once it was connected to a real user experience. And planning improved naturally as teams built intuition for what they could deliver in a sprint.
+
+The result was both a learning experience and a tangible product improvement — participants shipped a redesigned version of the Office of Innovation's website by the end of the second day.
+{% endcapture %}
+
+{% capture results %}
+- Delivered a redesigned version of the Office of Innovation's website through hands-on sprint work over 2 days
+- Simulated 5 full sprints covering the complete Scrum workflow — from story writing through testing and velocity tracking
+- Equipped teams to adapt agile practices to fit their own projects and departmental culture
+- Rated by participants as the most valuable and practical agile training they'd experienced
+
 {% include callout.html
   type = "pullquote"
-  content = "As people in the government realize the value and power of the agile process, it's important to understand that the principles of agile are key. This class teaches people how to get the benefits of agile without being dogmatic. My staff said they have been through multiple agile trainings, but none were as valuable and practical as this. They're now comfortable adjusting the process to fit their needs and the culture of the department they're helping."
+  content = "My staff said they have been through multiple agile trainings, but none were as valuable and practical as this. They're now comfortable adjusting the process to fit their needs and the culture of the department they're helping."
   cite_name = "Chaeny Emanavin"
   cite_title = "Director, Office of Innovation at CHHS"
 %}
