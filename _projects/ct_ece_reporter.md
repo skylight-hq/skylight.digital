@@ -75,7 +75,7 @@ source_code_url: https://github.com/ctoec
 ---
 
 {% capture summary %}
-OEC needed accurate, timely enrollment data to make fair funding decisions — but existing tools made reporting difficult for providers and unreliable for the state. We built the Early Childhood Education (ECE) Reporter, a modern reporting platform that improved data quality, reduced provider burden, and gave OEC a trusted, statewide view of enrollment.
+Connecticut's Office of Early Childhood (OEC) needed accurate, timely enrollment data to make fair funding decisions — but existing tools made reporting difficult for providers and unreliable for the state. We built the Early Childhood Education (ECE) Reporter, a modern reporting platform that improved data quality, reduced provider burden, and gave OEC a trusted, statewide view of enrollment.
 {% endcapture %}
 
 {% capture challenge %}
@@ -93,19 +93,13 @@ We partnered with OEC to design and build the ECE Reporter — a modern enrollme
 
 The platform simplified monthly reporting into a single, intuitive workflow that gave providers more control over their data while reducing effort and errors.
 
-We delivered this by:
-
-- Building a centralized, standardized data store for statewide enrollment data  
-- Redesigning the reporting experience to simplify uploads, corrections, and ongoing maintenance  
-- Adding flexible data visualizations and filters to support analysis and decision-making  
-- Developing a probabilistic matching algorithm to identify and resolve duplicate child records  
-- Using iterative delivery aligned with the [U.S. Digital Services Playbook](https://playbook.cio.gov/#play4) to get working software into users’ hands early  
+We delivered this through several key steps. First, we built a centralized, standardized data store for statewide enrollment data. Next, we redesigned the reporting experience to simplify uploads, corrections, and ongoing maintenance. Then, we added flexible data visualizations and filters to support analysis and decision-making. We also developed a probabilistic matching algorithm to identify and resolve duplicate child records. Finally, we used iterative delivery aligned with the [U.S. Digital Services Playbook](https://playbook.cio.gov/#play4) to get working software into users' hands early.
 
 This approach created a reporting experience that providers actively chose to use. They could upload data, review site-level summaries, and maintain accurate rosters without re-entering information month after month.
 
 {% include callout.html
   type = "pullquote"
-  content = "One of the easiest data portals ever — I entered 30 individual kids and it didn’t even take me 30 minutes. It was very quick."
+  content = "One of the easiest data portals ever — I entered 30 individual kids and it didn't even take me 30 minutes. It was very quick."
 %}
 
 For OEC, the improved data foundation enabled more precise funding decisions and greater visibility into anomalies such as duplicate records and unusual enrollment patterns. This strengthened stewardship of public funds while ensuring resources reached the children and programs that needed them most.
@@ -116,11 +110,11 @@ As a result, OEC gained not just a better system, but a durable foundation for m
 {% endcapture %}
 
 {% capture results %}
-- Enabled 508 users across 220 providers to submit and maintain monthly enrollment data  
-- Standardized reporting across 397 program sites  
-- Provided visibility into more than 14,000 enrollments statewide  
-- Reduced duplicate child records and improved confidence in enrollment counts  
-- Transitioned full ownership of the platform to OEC for long-term sustainability  
+- Enabled 508 users across 220 providers to submit and maintain monthly enrollment data
+- Standardized reporting across 397 program sites
+- Provided visibility into more than 14,000 enrollments statewide
+- Reduced duplicate child records and improved confidence in enrollment counts
+- Transitioned full ownership of the platform to OEC for long-term sustainability
 {% endcapture %}
 
 {% include project.html
