@@ -135,7 +135,7 @@ news_posts:
   - title: "CDC Data Modernization Efforts Accelerate Nation's Ability to Detect and Rapidly Respond to Health Threats"
     url: https://www.cdc.gov/media/releases/2024/p0411-CDC-data-modernization.html
   - title: "CDC and USDS: Innovation through Partnership"
-    url: https://www.cdc.gov/surveillance/data-modernization/partnerships/usds-innovation.html
+    url: https://www.cdc.gov/data-modernization/php/index.html
   - title: "CDC Advances Data Strategy to Speed Public Health Response"
     url: https://govciomedia.com/cdc-advances-data-strategy-to-speed-public-health-response/
 project_url: https://dibbs.tools
