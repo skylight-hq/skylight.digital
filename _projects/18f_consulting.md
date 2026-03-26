@@ -48,7 +48,7 @@ news_posts:
   - title: 18F expands efforts to state and local governments
     url: https://www.fedscoop.com/18f-expands-efforts-to-state-and-local-governments/
   - title: Feds Extend 18F's Silicon Valley Expertise to Cities, States
-    url: http://www.govtech.com/federal/feds-extend-18fs-silicon-valley-expertise-to-cities-states.html
+    url: https://www.govtech.com/federal/feds-extend-18fs-silicon-valley-expertise-to-cities-states.html
 project_url:
 project_cta:
 source_code_url:
@@ -80,7 +80,7 @@ Then, they scaled what worked. The success of 18F Consulting seeded multiple new
 - Influenced more than $1 billion in IT acquisition decisions across government
 - Delivered nearly 45 projects for federal, state, and local agencies
 - Recruited and hired more than 40 multidisciplinary experts across design, product, engineering, data, policy, and acquisition
-- Achieved strong client satisfaction — a Government Accountability Office (GAO) survey found 23 of 26 respondents were very or moderately satisfied
+- Achieved strong client satisfaction — a Government Accountability Office survey found 23 of 26 respondents were very or moderately satisfied
 - Helped agencies avoid hundreds of millions of dollars in unnecessary technology acquisition costs
 - Catalyzed the creation of agency-specific digital teams modeled after 18F Consulting
 - Produced and shared more than 35 public resources to scale knowledge across government
