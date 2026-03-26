@@ -75,44 +75,32 @@ news_posts:
 ---
 
 {% capture summary %}
-State, tribal, local, and territorial (STLT) public health agencies have struggled to handle the pace and volume of incoming case data when responding to disease outbreaks. We're working with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service) as part of a broader Data Integration Building Blocks (DIBBs) engagement to provide STLTs with flexible cloud hosting infrastructure that enables them to quickly upgrade and scale their data systems with modern, cloud-based software solutions, so they can meet the scope and scale of emerging public health threats.
+State, tribal, local, and territorial (STLT) public health agencies have struggled to handle the pace and volume of incoming case data when responding to disease outbreaks. As part of the [Data Integration Building Blocks (DIBBs)](/work/experience/cdc-dibbs/) engagement with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service), we're providing STLTs with flexible cloud hosting options that enable them to upgrade and scale their data systems with modern software — without the cost and maintenance burdens of building cloud infrastructure from scratch.
 {% endcapture %}
 
 {% capture challenge %}
-The COVID-19 pandemic exposed significant gaps in our nation's public health data infrastructure, revealing a widespread need to modernize antiquated, disconnected data systems. In particular, STLT public health agencies weren't able to reliably process large influxes of COVID-19 case data, leading to issues with downstream disease detection, reporting, and investigation.
+The COVID-19 pandemic exposed significant gaps in our nation's public health data infrastructure, revealing a widespread need to modernize antiquated, disconnected data systems. STLT public health agencies weren't able to reliably process large influxes of COVID-19 case data, leading to issues with downstream disease detection, reporting, and investigation. Emerging threats like mpox continue to test those limits, as many legacy systems simply can't scale fast enough to handle significant volumes of incoming case data.
 
-Emerging public health threats like mpox continue to test the limits of STLT public health data infrastructure, as many legacy systems simply can't scale fast enough to handle significant volumes of incoming case data.
+To efficiently process ever-growing amounts of data, STLTs need to integrate modern digital services — like cloud hosting — into their data environment. Cloud hosting gives STLTs the flexibility to acquire computing infrastructure as needs evolve, modernize aging data systems, and scale to handle the high volumes and intermittent flow of public health data — especially during a crisis.
 
-To efficiently process ever-growing amounts of data, STLTs need to integrate modern digital services — like cloud hosting — into their data environment. With cloud hosting, STLTs can more flexibly acquire the computing infrastructure they need to modernize aging data systems or add new data management capabilities as needs evolve. It can also help them scale their infrastructure to handle the high volumes and intermittent flow of public health data, especially during a public health crisis.
-
-While many STLTs recognize the need for transitioning to a robust and secure cloud environment, they often face obstacles to adoption. For example, they may lack the internal technical capacity to successfully migrate their data infrastructure to the cloud.
-
-Not only that, hosting cloud infrastructure isn't free. Neither is the cost of maintaining these systems. Maintenance requires dedicated IT personnel and consistent funding, which aren't always available.
-
-As a result, STLTs that want to leverage cloud hosting to scale and upgrade their data systems with modern software solutions are often stuck without the means to do so.
+While many STLTs recognize the need for cloud adoption, they often face real obstacles. Some lack the internal technical capacity to migrate their data infrastructure. Others face the cost of hosting and maintaining cloud systems, which requires dedicated IT personnel and consistent funding that aren't always available. As a result, STLTs that want to leverage cloud hosting are often stuck without the means to do so.
 {% endcapture %}
 
 {% capture solution %}
-**Meeting jurisdictions where they are.** In support of the CDC and USDS data modernization initiative, Skylight is working to enable STLTs with modern cloud hosting infrastructure. Through CDC's centrally-hosted Azure cloud environment, STLTs can access our portfolio of cloud-based [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs) to modernize their data systems without the cost and maintenance burdens of having to host their own cloud infrastructure locally.
+**CDC's centrally-hosted Azure environment removes the biggest barrier to adoption.** As part of a multi-year CDC and USDS [initiative focused on pandemic readiness and interoperability](https://www.cdc.gov/data-modernization/php/index.html), Skylight is enabling STLTs with modern cloud hosting infrastructure. Through CDC's Azure cloud environment, STLTs can access a portfolio of cloud-based [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs) to modernize their data systems without the cost and maintenance burdens of hosting their own infrastructure locally. CDC's cloud environment follows the same security and privacy policies as other widely used, externally facing CDC applications like [SimpleReport](/work/experience/cdc-simplereport/) and ReportStream. Onboarding, updates, and scaling are quick and free.
 
-CDC's cloud environment follows the same security and privacy policies as other widely used, externally facing CDC applications like [SimpleReport](/work/experience/cdc-simplereport/) and ReportStream. Onboarding, updates, and scaling are quick and free.
+**A hybrid model accommodates jurisdictions with stricter compliance requirements.** Some STLTs face regulatory or data security constraints that make full central hosting impractical. These jurisdictions may prefer a hybrid approach — leveraging CDC's centrally-hosted environment for processing while maintaining other parts of their data infrastructure locally, without CDC hosting or retaining the data. To support these flexible arrangements, we've leveraged Octopus Deploy, an industry-standard deployment tool that lets us treat each STLT with the individuality it needs. Software updates can go directly to STLTs with proper permissions and legal agreements, without their IT departments having to manually install anything.
 
-**Enabling hybrid infrastructure approaches.** While leveraging cloud infrastructure hosted by CDC offers a range of benefits (e.g., lower costs, fewer maintenance burdens), some jurisdictions face obstacles with regulatory compliance and data security. These STLTs may prefer a hybrid approach, leveraging aspects of a centrally-hosted cloud environment while maintaining other parts of their data infrastructure in a self-hosted environment.
+**Terraform templates give STLTs full self-hosted control.** For jurisdictions that want to host DIBBs services directly, we've created a series of open-source Terraform templates that allow DevOps personnel to rapidly assemble cloud infrastructure from prewritten modules. Searchable documentation makes the process even easier.
 
-With a hybrid approach, STLTs can choose to manage how their data is fed to the centrally-hosted environment for processing — without CDC hosting or retaining the data. To enable these more flexible, hybrid options for hosting DIBBs infrastructure, we've leveraged Octopus Deploy, an industry-renowned deployment tool, that allows us to treat each STLT with the individuality it needs.
-
-For example, our software can go directly to STLTs with the proper permission and legal agreements, without the need for their IT departments to manually install updates.
-
-**Providing self-hosted infrastructure options.** For STLTs who would like full control over their infrastructure and to host DIBBs services directly, we've also created a series of Terraform templates. These templates, which are available in our open-source repository, allow STLT DevOps personnel to rapidly assemble a fresh cloud infrastructure from prewritten modules. We've also provided searchable documentation to make the process even easier.
-
-**By meeting STLTs where they're at from a compliance and data security standpoint,** our hosting options move them a step closer to adopting cloud technology — whether in their own environment or in the centrally-hosted CDC environment. The goal is to enable resource-constrained STLTs with the tools to build modern, scalable disease surveillance infrastructure that works for both daily operations and emergent public health action.
+**These tiered hosting options move STLTs closer to cloud adoption regardless of their starting point** — whether in their own environment or CDC's centrally-hosted one. The goal is to equip resource-constrained jurisdictions with the tools to build modern, scalable disease surveillance infrastructure that works for both daily operations and emergent public health action.
 {% endcapture %}
 
 {% capture results %}
-- **Successfully deployed DIBBs infrastructure** to a centrally-hosted CDC cloud environment
-- **Working with CDC** to make centrally-hosted DIBBs products available to interested STLT pilot partners
-- **Onboarding four potential STLTs** (Alabama, Idaho, Dallas, and Chicago) to pilot centrally-hosted DIBBs infrastructure
-- **Rolled out a proof of concept deployment engine** that would facilitate updates and improvements to DIBBs hosted locally by STLTs to cut down effort on IT staff for maintenance
+- **Deployed DIBBs infrastructure** to a centrally-hosted CDC cloud environment, establishing the foundation for STLT adoption
+- **Onboarding four STLTs** — Alabama, Idaho, Dallas, and Chicago — to pilot centrally-hosted DIBBs infrastructure
+- **Rolled out a proof-of-concept deployment engine** that facilitates updates to locally-hosted DIBBs, reducing maintenance burden on STLT IT staff
+- **Making centrally-hosted DIBBs products available** to additional interested STLT pilot partners through ongoing CDC collaboration
 {% endcapture %}
 
 {% include project.html
