@@ -139,8 +139,8 @@ news_posts:
   - title: "CDC Advances Data Strategy to Speed Public Health Response"
     url: https://govciomedia.com/cdc-advances-data-strategy-to-speed-public-health-response/
 project_url: https://dibbs.tools
-project_cta: "See the site"
-source_code_url: https://github.com/CDCgov/dibbs-site
+project_cta: "See the tools"
+source_code_url:
 ---
 
 {% capture summary %}
