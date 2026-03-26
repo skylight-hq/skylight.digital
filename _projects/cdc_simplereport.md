@@ -161,9 +161,9 @@ During the COVID-19 pandemic, public health departments faced the challenge of c
 {% endcapture %}
 
 {% capture challenge %}
-To respond to disease outbreaks quickly, public health departments need complete, reliable, and actionable disease incidence data. For example, during the COVID-19 pandemic, the test positivity rate informed policy interventions, such as mask guidance, stay-at-home orders, and limits on indoor activities. Simply put—better data enables public health departments to make informed decisions quicker, which helps all of us.
+To respond to disease outbreaks quickly, public health departments need complete, reliable, and actionable disease incidence data. For example, during the COVID-19 pandemic, the test positivity rate informed policy interventions, such as mask guidance, stay-at-home orders, and limits on indoor activities. Simply put — better data enables public health departments to make informed decisions quicker, which helps all of us.
 
-At the height of the COVID-19 pandemic, testing expanded outside of traditional health settings to facilities such as K-12 schools and retirement communities. However, collecting and sending accurate testing data in these settings was difficult—if it happened at all. Non-traditional point-of-care testing facilities typically lacked IT infrastructure to send data to public health departments. Many recorded test results on paper then faxed them to the appropriate department, a time-consuming process that was usually outside a test administrator's primary job. Patients were also less likely to provide demographic information in these unconventional settings, leading to incomplete and lower-quality data for health departments.
+At the height of the COVID-19 pandemic, testing expanded outside of traditional health settings to facilities such as K-12 schools and retirement communities. However, collecting and sending accurate testing data in these settings was difficult — if it happened at all. Non-traditional point-of-care testing facilities typically lacked IT infrastructure to send data to public health departments. Many recorded test results on paper then faxed them to the appropriate department, a time-consuming process that was usually outside a test administrator's primary job. Patients were also less likely to provide demographic information in these unconventional settings, leading to incomplete and lower-quality data for health departments.
 
 Adding to the complexity were health departments' differing requirements. As one interviewee who reports to multiple jurisdictions noted:
 
@@ -178,7 +178,7 @@ On the receiving end, public health departments had to process manual reports se
 {% endcapture %}
 
 {% capture solution %}
-**We helped CDC and USDS launch and grow [SimpleReport]({{ page.project_url }}),** a free tool that makes it easy for non-traditional testing sites to record rapid test results and report them to public health departments. The tool serves as both a workflow and reporting platform — sites use it to manage patients and results, and SimpleReport automatically sends structured data to health departments via ReportStream in whatever format and cadence each jurisdiction requires. No fax machines, no manual data entry, no duplicate reporting.
+**We helped CDC and the U.S. Digital Service (USDS, now U.S. DOGE Service) launch and grow [SimpleReport]({{ page.project_url }}),** a free tool that makes it easy for non-traditional testing sites to record rapid test results and report them to public health departments. The tool serves as both a workflow and reporting platform — sites use it to manage patients and results, and SimpleReport automatically sends structured data to health departments via ReportStream in whatever format and cadence each jurisdiction requires. No fax machines, no manual data entry, no duplicate reporting.
 
 {% include callout.html
   type = "pullquote"
@@ -187,7 +187,7 @@ On the receiving end, public health departments had to process manual reports se
 
 **After assuming full management of SimpleReport from our USDS partners, we focused on making it easier to adopt at scale.** We redesigned the account creation, login, and password reset experiences to speed up onboarding while maintaining security. We added bulk CSV upload so facilities could report large volumes of results without entering them one at a time. And we built an analytics dashboard and one-click results download to reduce reporting burden beyond what goes to public health departments.
 
-**We kept the platform reliable through continuous deployment and 24/7 on-call support.** Automated service monitoring and close coordination with CDC's support team kept issues from reaching end users. When a feature's code passes testing, it's live for users within 20 minutes. We also integrated accessibility reviews into design and engineering workflows to maintain WCAG Level AA compliance throughout.
+**We kept the platform reliable through continuous deployment and 24/7 on-call support.** Automated service monitoring and close coordination with CDC's support team kept issues from reaching end users. When a feature's code passes testing, it's live for users within 20 minutes. We also integrated accessibility reviews into design and engineering workflows to maintain Web Content Accessibility Guidelines (WCAG) Level AA compliance throughout.
 
 **With the COVID-19 foundation in place, we expanded SimpleReport to cover additional infectious diseases.** We added support for multiplex devices that test for both COVID-19 and flu, then partnered with California's Department of Public Health to launch flu and respiratory syncytial virus (RSV) reporting for facilities that previously had no way to report electronically. We also established a pilot with the Los Angeles County Department of Public Health to support HIV and STI reporting — proving that the tool's modular design could adapt to new diseases without rebuilding the core platform.
 
@@ -195,13 +195,15 @@ On the receiving end, public health departments had to process manual reports se
 {% endcapture %}
 
 {% capture results %}
-- **Over 8.2 million tests** have been reported since launch (from January 2021 to April 2024)
-- **Over 17,300 facilities** have reported tests through SimpleReport
-- The tool has been used to test patients from **all 50 states**, as well as other U.S. territories and Canadian provinces
-- **More than 2.3 million text messages** sent notifying patients of their test result
-- SimpleReport was used as an example of a Data Modernization Initiative success story in a presentation to CDC Director Dr. Walensky for its "game-changing" work in Alaska
-- Following a successful pilot with California, support for flu reporting launched in July 2023 and RSV reporting went live in January 2024, with **more than 1,150 facilities in five states** reporting over 206,000 flu test results and over 20,000 RSV test results
-- **Support for HIV and STI reporting** is in pilot phase with the Los Angeles Community Health Project
+- **Over 8.2 million tests** reported since launch (from January 2021 to April 2024)
+- **Over 17,300 facilities** reporting tests through SimpleReport
+- **All 50 states represented,** as well as other U.S. territories and Canadian provinces
+- **More than 2.3 million text messages** sent notifying patients of their test results
+- **Cited as a Data Modernization Initiative (DMI) success story** in a presentation to CDC Director Dr. Walensky for its "game-changing" work in Alaska
+- **Support for flu reporting launched in July 2023** and RSV reporting went live in January 2024 following a successful pilot with California
+- **More than 1,150 facilities in five states** have joined the flu and RSV pilot
+- **Over 143,000 flu test results and over 4,200 RSV test results** reported through SimpleReport
+- **Support for HIV reporting** is scheduled to go live in April 2024 with the Los Angeles Community Health Project
 {% endcapture %}
 
 {% include project.html
