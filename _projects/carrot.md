@@ -1,55 +1,61 @@
 ---
 layout: default
-title_tag: Carrot
-title: Building an asynchronous communication platform for distributed teams
+title_tag: "Carrot"
+title: "Building an asynchronous communication platform for distributed teams"
 permalink: /work/experience/carrot/
 redirect_from:
   - /work/opencompany/
   - /work/carrot/
 image: /img/projects/carrot/carrot.svg
-image_description: Multiple people reading a shared company update, representing asynchronous communication.
+image_description: "Multiple people reading a shared company update, representing asynchronous communication."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2400
 display: true
-tags: [service delivery, research & design, product management, software delivery, apis, sean johnson]
-excerpt: An open-source communication platform that helped distributed teams stay aligned through structured, long-form updates — without the noise of real-time chat.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "product management"
+  - "software delivery"
+  - "APIs"
+  - "sean johnson"
+excerpt: "An open-source communication platform that helped distributed teams stay aligned through structured, long-form updates — without the noise of real-time chat."
 project_members:
   - sean-johnson
 technologies:
-  - HTML / CSS
-  - JavaScript / ClojureScript / React
-  - WebSockets
-  - Clojure
-  - APIs
-  - iOS SDK
-  - Android SDK
-  - Microservices
-  - RethinkDB
-  - Amazon Web Services
-  - Git / GitHub
+  - "HTML / CSS"
+  - "JavaScript / ClojureScript / React"
+  - "WebSockets"
+  - "Clojure"
+  - "APIs"
+  - "iOS SDK"
+  - "Android SDK"
+  - "Microservices"
+  - "RethinkDB"
+  - "Amazon Web Services"
+  - "Git / GitHub"
 practices:
-  - User research
-  - User experience design
-  - Lean startup
-  - User growth marketing
-  - Responsive web design
-  - Agile development
-  - DevSecOps
-  - API-first development
-  - RESTful, HATEOAS API architecture
-  - Microservices architecture
-  - Third-party integration
-  - Open-source development
-  - Web and native apps
-  - Cloud hosting
+  - "User research"
+  - "User experience design"
+  - "Lean startup"
+  - "User growth marketing"
+  - "Responsive web design"
+  - "Agile development"
+  - "DevSecOps"
+  - "API-first development"
+  - "RESTful, HATEOAS API architecture"
+  - "Microservices architecture"
+  - "Third-party integration"
+  - "Open-source development"
+  - "Web and native apps"
+  - "Cloud hosting"
 news_posts:
-  - title: Who Are The Biggest Disruptors of 2019? The Answer May Surprise You
+  - title: "Who Are The Biggest Disruptors of 2019? The Answer May Surprise You"
     url: https://www.inc.com/jonathan-steiman/five-innovative-startups-to-watch-in-2019.html
-  - title: Carrot - Leadership communication for growing and distributed teams
+  - title: "Carrot - Leadership communication for growing and distributed teams"
     url: https://www.producthunt.com/posts/carrot-3c283ae5-337a-409b-b48f-72f15dbcc454
-  - title: The best digital products 2019
+  - title: "The best digital products 2019"
     url: https://www.notion.so/The-best-digital-products-2019-177f19f9f8e448ffa4e605089a071935
 project_url:
 project_cta:
@@ -69,20 +75,20 @@ The underlying issue wasn't that teams needed less communication — it was that
 {% endcapture %}
 
 {% capture solution %}
-Sean designed Carrot around a bet: that the best communication tool for distributed teams wouldn't look like chat at all. Instead of optimizing for real-time presence, he built a platform that optimized for thoughtful, structured communication people could engage with on their own schedule.
+**Sean designed Carrot around a bet:** that the best communication tool for distributed teams wouldn't look like chat at all. Instead of optimizing for real-time presence, he built a platform that optimized for thoughtful, structured communication people could engage with on their own schedule.
 
-The core model centered on narrative-driven updates rather than fragmented chat threads. Leaders and team members published structured posts — context-rich, topic-specific — that created focused discussions underneath. Conversations stayed attached to the update that prompted them, so context was never lost in a scroll of unrelated messages.
+**The core model centered on narrative-driven updates** rather than fragmented chat threads. Leaders and team members published structured posts — context-rich, topic-specific — that created focused discussions underneath. Conversations stayed attached to the update that prompted them, so context was never lost in a scroll of unrelated messages.
 
-Technically, he built Carrot as the open-source [OpenCompany](https://github.com/open-company) platform using an API-first, microservices architecture that supported web and mobile applications. The stack — ClojureScript and React on the front end, Clojure microservices on the back end, with WebSockets for real-time interaction where it mattered — was designed to feel as responsive as chat without demanding constant attention.
+**Technically, he built Carrot as the open-source [OpenCompany](https://github.com/open-company) platform** using an API-first, microservices architecture that supported web and mobile applications. The stack — ClojureScript and React on the front end, Clojure microservices on the back end, with WebSockets for real-time interaction where it mattered — was designed to feel as responsive as chat without demanding constant attention.
 
-The result was a product that let distributed teams stay aligned without being always-on — reducing noise while keeping the conversations that mattered visible and persistent.
+**The result was a product** that let distributed teams stay aligned without being always-on — reducing noise while keeping the conversations that mattered visible and persistent.
 {% endcapture %}
 
 {% capture results %}
-- Built and launched a full asynchronous communication platform spanning web, iOS, and Android
-- Named one of Inc. Magazine's biggest disruptors of 2019 and featured on Product Hunt's best digital products of 2019
-- Grew an early user base and validated product-market fit through iterative research and testing
-- Open-sourced the underlying OpenCompany platform to enable broader adoption and community contribution
+- **Built and launched a full asynchronous communication platform** spanning web, iOS, and Android
+- **Named one of Inc. Magazine's biggest disruptors of 2019** and featured on Product Hunt's best digital products of 2019
+- **Grew an early user base and validated product-market fit** through iterative research and testing
+- **Open-sourced the underlying OpenCompany platform** to enable broader adoption and community contribution
 {% endcapture %}
 
 {% include project.html
