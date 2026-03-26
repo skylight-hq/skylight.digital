@@ -9,7 +9,7 @@ feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 130
-display: false
+display: true
 tags:
   [service delivery,
   research & design,
@@ -79,9 +79,8 @@ practices:
 project_url: https://cdcgov.github.io/dibbs-site
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/phdi
-skip_index: true
+skip_index: false
 ---
-<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 The Los Angeles County (LAC) Department of Public Health needed timely access to electronic case reporting (eCR) data to monitor and respond to disease outbreaks. We worked with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service) to develop a cutting-edge, modular data pipeline that enabled LAC to automatically process and enrich multiple data streams, including eCR data and electronic lab reports (ELR), to improve downstream data analysis and case investigation.
