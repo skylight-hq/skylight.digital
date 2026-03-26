@@ -136,7 +136,6 @@ project_cta: See the site
 source_code_url: https://github.com/CDCgov/phdi
 skip_index: false
 ---
-<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 To effectively respond to public health threats, the U.S. needs a "public health data system" that can deliver timely, relevant, and actionable data. We're working with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service) to develop a set of open-source, modular tools that enable public health agencies to improve the collection, analysis, and use of data, ultimately helping to build a modern public health data infrastructure that works for all diseases and conditions.
