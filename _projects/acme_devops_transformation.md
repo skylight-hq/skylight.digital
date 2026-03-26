@@ -67,7 +67,7 @@ By the time Skylight engaged, the organization needed more than a second attempt
 {% capture solution %}
 **We designed our approach around a core premise:** DevOps wouldn't stick unless ACME owned it. Every decision we made was aimed at building internal capability, not creating a dependency on external consultants.
 
-**First, we established a baseline.** Using [DORA](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/) — a research-backed framework that benchmarks software delivery performance against industry data — we assessed where ACME stood relative to its peers and identified the highest-leverage gaps.
+**First, we established a baseline.** Using [DevOps Research and Assessment (DORA)](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/) — a research-backed framework that benchmarks software delivery performance against industry data — we assessed where ACME stood relative to its peers and identified the highest-leverage gaps.
 
 ![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.svg){: .mb-0 }
 
