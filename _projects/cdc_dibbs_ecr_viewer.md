@@ -2,10 +2,10 @@
 layout: default
 title_tag: "Centers for Disease Control and Prevention"
 title: "Surfacing actionable insights from electronic case reporting data"
-permalink: "/work/experience/cdc-dibbs-ecr-viewer/"
-image: "/img/projects/cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.svg"
+permalink: /work/experience/cdc-dibbs-ecr-viewer/
+image: /img/projects/cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.svg
 image_description: "Public health staff member viewing a stack of screens through a magnifying glass."
-feature_image: "/img/projects/cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.gif"
+feature_image: /img/projects/cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.gif
 feature_image_description: "Walkthrough of eCR Viewer MVP."
 feature_image_shadow: true
 order: 120
@@ -93,7 +93,7 @@ news_posts:
 ---
 
 {% capture summary %}
-Public health departments struggle to use and sort through incoming electronic case reporting (eCR) data. As part of our Skylight engagement with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS), we built an intuitive interface that surfaces key information from eCR files to make them more useful for monitoring the spread of reportable conditions. The eCR Viewer is one component of a broader portfolio of [open-source tools](/work/experience/cdc-dibbs/) designed to modernize public health data infrastructure.
+Public health departments struggle to use and sort through incoming electronic case reporting (eCR) data. As part of our Skylight engagement with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service), we built an intuitive interface that surfaces key information from eCR files to make them more useful for monitoring the spread of reportable conditions. The eCR Viewer is one component of a broader portfolio of [open-source tools](/work/experience/cdc-dibbs/) designed to modernize public health data infrastructure.
 {% endcapture %}
 
 {% capture challenge %}
@@ -114,7 +114,7 @@ Finding critical information from eCR data can feel like looking for a needle in
 {% capture solution %}
 **Building an intuitive interface for public health data.** As part of the CDC and USDS partnership focused on modernizing pandemic preparedness and disease surveillance infrastructure, Skylight developed the eCR Viewer — an intuitive interface that surfaces a summary of condition-specific information in a more readable format at the top of the eCR file. Using the eCR Viewer, public health staff can easily find data relevant to the reportable condition. The tool orders and organizes data consistently regardless of which electronic medical record system generated the eCR, making it significantly easier for public health staff to find clinical information for case investigation and reducing the need to manually contact healthcare providers.
 
-**Conducting research and building the solution.** The Skylight team conducted generative research with staff at public health departments to understand how eCR fits into case ascertainment and case investigation workflows. We developed concept designs of the eCR Viewer and gathered feedback from users to develop a lightweight MVP. Building on this research foundation, we established a product vision and measurement plan to ensure the eCR Viewer would meet the intended impact for time savings and user adoption.
+**Conducting research and building the solution.** The Skylight team conducted generative research with staff at public health departments to understand how eCR fits into case ascertainment and case investigation workflows. We developed concept designs of the eCR Viewer and gathered feedback from users to develop a lightweight minimum viable product (MVP). Building on this research foundation, we established a product vision and measurement plan to ensure the eCR Viewer would meet the intended impact for time savings and user adoption.
 
 **Integrating with existing systems and piloting.** We partnered with the General Dynamics Information Technology (GDIT) team to integrate the eCR Viewer into the CDC's National Electronic Disease Surveillance System (NEDSS) Base System (NBS) with pilot jurisdictions. We identified pilot partners including the states of Maine and Tennessee to test and validate the eCR Viewer in their public health data workflows. Additionally, we established a separate pilot partnership with the city of Philadelphia to evaluate using the eCR Viewer outside of a surveillance system as a web-based tool hosted by CDC.
 
@@ -126,7 +126,7 @@ Initial results from our research efforts have been promising:
   cite_name = "Epidemiologist"
 %}
 
-Pilots commenced with jurisdictions in summer 2024 to test the eCR Viewer in a production data environment and further validate the tool's downstream public health impact. Our aim is to scale the eCR Viewer across a wide range of jurisdictions to turn eCR into the go-to data source for case ascertainment and investigation.
+**Pilots commenced with jurisdictions in summer 2024** to test the eCR Viewer in a production data environment and further validate the tool's downstream public health impact. Our aim is to scale the eCR Viewer across a wide range of jurisdictions to turn eCR into the go-to data source for case ascertainment and investigation.
 {% endcapture %}
 
 {% capture results %}
