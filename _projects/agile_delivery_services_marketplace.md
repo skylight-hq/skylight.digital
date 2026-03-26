@@ -63,7 +63,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-Before founding Skylight, Chris Cairns and Robert Read designed and launched the Agile Delivery Services Marketplace — a new model for procuring software development services that replaced traditional written proposals with working prototypes. Built as a Blanket Purchase Agreement under GSA's IT Schedule 70, the marketplace gave agencies a pre-vetted pool of vendors who had proven they could deliver, not just describe it. The model was widely recognized and adopted by agencies and programs across government.
+Before founding Skylight, Chris Cairns and Robert Read designed and launched the Agile Delivery Services Marketplace — a new model for procuring software development services that replaced traditional written proposals with working prototypes. Built as a Blanket Purchase Agreement (BPA) under the General Services Administration's (GSA's) IT Schedule 70, the marketplace gave agencies a pre-vetted pool of vendors who had proven they could deliver, not just describe it. The model was widely recognized and adopted by agencies and programs across government.
 {% endcapture %}
 
 {% capture challenge %}
