@@ -35,23 +35,23 @@ practices:
   - Oral presentations
 news_posts:
   - title: GSA's agile RFI beginning of 'systemic change' in IT acquisition
-    url: https://federalnewsnetwork.com/management/2015/01/gsas-agile-rfi-beginning-of-systemic-change-in-it-acquisition/
+    url: http://federalnewsradio.com/management/2015/01/gsas-agile-rfi-beginning-of-systemic-change-in-it-acquisition/
   - title: GSA's new contract to feed hunger for agile IT development services
-    url: https://federalnewsnetwork.com/technology/2015/02/gsas-new-contract-to-feed-hunger-for-agile-it-development-services/
+    url: http://federalnewsradio.com/technology/2015/02/gsas-new-contract-to-feed-hunger-for-agile-it-development-services/
   - title: Failure is an option for GSA's new 18F agile contract
-    url: https://federalnewsnetwork.com/technology/2015/06/failure-is-an-option-for-gsas-new-18f-agile-contract/
+    url: http://federalnewsradio.com/technology/2015/06/failure-is-an-option-for-gsas-new-18f-agile-contract/
   - title: GSA Developing Contract for Agile Delivery Services
-    url: https://www.fedweek.com/fedweek-information-technology/gsa-developing-contract-agile-delivery-services/
+    url: http://www.fedweek.com/fedweek-information-technology/gsa-developing-contract-agile-delivery-services/
   - title: GSA takes a big step towards baking agile into federal procurement
     url: https://govfresh.com/2015/01/gsa-takes-big-step-towards-baking-agile-federal-procurement/
   - title: Say goodbye to 100 page RFPs – 18F found another way
-    url: https://www.federaltimes.com/story/government/acquisition/2015/07/27/18f-show-dont-tell/30737575/
+    url: http://www.federaltimes.com/story/government/acquisition/2015/07/27/18f-show-dont-tell/30737575/
   - title: 18F awards 16 spots on new Agile BPA
-    url: https://www.federaltimes.com/story/government/acquisition/gsa-gwac/2015/08/28/agile-bpa-awards/71327396/
+    url: http://www.federaltimes.com/story/government/acquisition/gsa-gwac/2015/08/28/agile-bpa-awards/71327396/
   - title: 18F steps up its acquisition game
     url: https://washingtontechnology.com/articles/2015/08/14/insights-soloway-18f-progress.aspx
   - title: Ohio Launches Highly Anticipated 18F-Style RFP
-    url: https://www.govtech.com/data/Ohio-Launches-Highly-Anticipated-18F-Style-RFP.html
+    url: http://www.govtech.com/data/Ohio-Launches-Highly-Anticipated-18F-Style-RFP.html
   - title: Guidelines for Agile, Challenge-based Procurement
     url: https://hackernoon.com/guidelines-for-agile-challenge-based-procurement-4531ff335422
 project_url:
@@ -60,7 +60,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-Before founding Skylight, Chris Cairns and Robert Read designed and launched the Agile Delivery Services Marketplace — a new model for procuring software development services that replaced traditional written proposals with working prototypes. Built as a Blanket Purchase Agreement under the General Services Administration's (GSA) IT Schedule 70, the marketplace gave agencies a pre-vetted pool of vendors who had proven they could deliver, not just describe it. The model was widely recognized and adopted by agencies and programs across government.
+Before founding Skylight, Chris Cairns and Robert Read designed and launched the Agile Delivery Services Marketplace — a new model for procuring software development services that replaced traditional written proposals with working prototypes. Built as a Blanket Purchase Agreement under GSA's IT Schedule 70, the marketplace gave agencies a pre-vetted pool of vendors who had proven they could deliver, not just describe it. The model was widely recognized and adopted by agencies and programs across government.
 {% endcapture %}
 
 {% capture challenge %}

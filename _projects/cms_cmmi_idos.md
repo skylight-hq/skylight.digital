@@ -49,11 +49,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Center for Medicare & Medicaid Innovation (CMMI) needed to improve how its teams used technology to design, test, and scale healthcare innovations. We partnered with the Innovation Development and Operations Services (IDOS) program to introduce human-centered design and modern digital delivery practices, enabling teams to better understand users, improve systems, and make more informed, data-driven decisions.
+CMMI needed to improve how its teams used technology to design, test, and scale healthcare innovations. We partnered with the IDOS program to introduce human-centered design and modern digital delivery practices, enabling teams to better understand users, improve systems, and make more informed, data-driven decisions.
 {% endcapture %}
 
 {% capture challenge %}
-CMMI runs thousands of policy experiments ("models") to improve healthcare outcomes and reduce costs across the United States. These efforts rely heavily on technology systems to collect, analyze, and share data.
+CMMI runs thousands of policy experiments (“models”) to improve healthcare outcomes and reduce costs across the United States. These efforts rely heavily on technology systems to collect, analyze, and share data.
 
 However, many of these systems had evolved independently, resulting in fragmented user experiences, inconsistent data practices, and growing technical complexity. Teams often lacked the tools and practices needed to fully understand user needs or translate research into actionable system improvements.
 
@@ -63,26 +63,31 @@ As a result, CMMI faced increasing difficulty scaling innovation effectively —
 {% capture solution %}
 We partnered with CMMI to introduce a more modern, user-centered approach to how its technology systems were designed, improved, and managed.
 
-We began with a baseline assessment of CMMI's IT platforms, evaluating maturity across human-centered design, agile delivery, and DevSecOps practices. These assessments identified key gaps in usability, technical practices, and alignment with user needs, and provided a clear foundation for prioritizing improvements.
+We began with a baseline assessment of CMMI’s IT platforms, evaluating maturity across human-centered design, agile delivery, and DevSecOps practices. These assessments identified key gaps in usability, technical practices, and alignment with user needs, and provided a clear foundation for prioritizing improvements.
 
-Building on these insights, we took several key steps. First, we introduced human-centered design practices to better understand user needs and behaviors. Next, we facilitated workshops and coaching to help teams adopt modern digital delivery practices. Then, we developed user research plans and conducted interviews with stakeholders and end users. Finally, we translated research findings into actionable design and product improvements.
+Building on these insights, we worked directly with platform teams to:
+
+- Introduce human-centered design practices to better understand user needs and behaviors  
+- Facilitate workshops and coaching to help teams adopt modern digital delivery practices  
+- Develop user research plans and conduct interviews with stakeholders and end users  
+- Translate research findings into actionable design and product improvements  
 
 For example, we partnered with the Salesforce Connect team to design and execute a research plan that included interviews with healthcare providers, leading to a deeper understanding of how systems were actually used in practice.
 
-{% include callout.html type = "pullquote" content = "Model participation is largely voluntary, so the usability of our systems is important both for retaining users and establishing CMMI's reputation as an innovator… The Discovery team pierced through five layers of administration/relays; they revealed insights on what users actually want that CMMI had never considered, and had no structural incentive to find out." cite_name = "IT Advisor" cite_title = "CMMI" %}
+{% include callout.html type = "pullquote" content = "Model participation is largely voluntary, so the usability of our systems is important both for retaining users and establishing CMMI’s reputation as an innovator… The Discovery team pierced through five layers of administration/relays; they revealed insights on what users actually want that CMMI had never considered, and had no structural incentive to find out." cite_name = "IT Advisor" cite_title = "CMMI" %}
 
-We also conducted targeted research for the Enterprise Data Management Program, helping teams better understand engagement patterns and data needs across model participants.
+We also conducted targeted research for the Enterprise Data Management Program (EDMP), helping teams better understand engagement patterns and data needs across model participants.
 
-Our work led to redesigned user interfaces for key systems such as the Centralized Data Exchange, improving usability and enabling more effective data analysis. These improvements supported programs like the Emergency Triage, Treat, and Transport (ET3) model, helping teams make faster, more informed decisions.
+Our work led to redesigned user interfaces for key systems such as the Centralized Data Exchange (CDX), improving usability and enabling more effective data analysis. These improvements supported programs like the Emergency Triage, Treat, and Transport (ET3) model, helping teams make faster, more informed decisions.
 
 By embedding these practices directly into delivery teams, we helped CMMI move toward a more sustainable, user-centered approach to technology and innovation.
 {% endcapture %}
 
 {% capture results %}
-- Established a baseline understanding of platform maturity and prioritized modernization opportunities
-- Enabled multiple teams to adopt human-centered design and modern delivery practices
-- Delivered user research insights and design improvements that increased usability of key systems
-- Improved data-driven decision-making for programs such as ET3
+- Established a baseline understanding of platform maturity and prioritized modernization opportunities  
+- Enabled multiple teams to adopt human-centered design and modern delivery practices  
+- Delivered user research insights and design improvements that increased usability of key systems  
+- Improved data-driven decision-making for programs such as ET3  
 {% endcapture %}
 
 {% include project.html

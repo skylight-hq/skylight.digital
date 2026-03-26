@@ -4,7 +4,7 @@ title_tag: Centers for Medicare & Medicaid Services
 title: Helping rural hospitals use data to improve financial stability and access to care
 permalink: /work/experience/cms_chart_model/
 image: /img/projects/cms_chart_model/idos.svg
-image_description: On the left, a doctor checks a patient's heartbeat. On the right, the same person walks a dog outside.
+image_description: On the left, a doctor checks a patient’s heartbeat. On the right, the same person walks a dog outside.
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -41,7 +41,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-Rural hospitals needed better access to usable data to sustain operations and improve care — but existing systems made that difficult. We partnered with the Center for Medicare & Medicaid Innovation (CMMI) to develop a research-driven data strategy and prototype solutions that helped providers make more informed decisions while improving visibility into system-wide challenges.
+Rural hospitals needed better access to usable data to sustain operations and improve care — but existing systems made that difficult. We partnered with CMMI to develop a research-driven data strategy and prototype solutions that helped providers make more informed decisions while improving visibility into system-wide challenges.
 {% endcapture %}
 
 {% capture challenge %}
@@ -52,13 +52,13 @@ Rural hospitals across the United States were under significant financial and op
 Source: Cecil G. Sheps Center for Health Services Research, University of North Carolina; image modified from [The Pew Charitable Trusts](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention).
 {: .caption }
 
-To address these challenges, CMMI launched the Community Health Access and Rural Transformation (CHART) model. CHART aimed to improve outcomes and access to care by funding new approaches to service delivery.
+To address these challenges, the Center for Medicare & Medicaid Innovation (CMMI) launched the Community Health Access and Rural Transformation (CHART) model. CHART aimed to improve outcomes and access to care by funding new approaches to service delivery.
 
 However, many rural providers lacked the tools and infrastructure needed to use data effectively. Critical information about cost, performance, and regional dynamics was difficult to access, fragmented across systems, or required significant manual effort to analyze.
 
 {% include callout.html
   type = "pullquote"
-  content = "We send reports out to a third party to have them written. We don't have a lot of funds to do that. It's hard to get data out. We go with bare minimum reporting because system-generated reports aren't useful."
+  content = "We send reports out to a third party to have them written. We don’t have a lot of funds to do that. It’s hard to get data out. We go with bare minimum reporting because system-generated reports aren’t useful."
   cite_name = "Rural hospital executive"
 %}
 
@@ -68,17 +68,22 @@ CMMI needed a clearer understanding of these challenges — and a path toward ma
 {% endcapture %}
 
 {% capture solution %}
-We partnered with CMMI, the U.S. Digital Service (USDS), and Innovation Development and Operations Services (IDOS) vendors to develop a data strategy grounded in real user needs.
+We partnered with CMMI, the U.S. Digital Service (USDS), and IDOS vendors to develop a data strategy grounded in real user needs.
 
 We began with in-depth research across nearly a dozen hospitals, engaging executives, analysts, and frontline staff. Through interviews and service design mapping, we uncovered how data flowed across systems, where breakdowns occurred, and what information providers actually needed to make decisions.
 
 From these insights, we identified key data gaps and prioritized the types of information most valuable to providers — including disease prevalence, peer cost comparisons, and hospital quality metrics.
 
-We then translated these insights into tangible solutions. First, we prototyped dashboards using Centers for Medicare & Medicaid Services (CMS) financial and quality data. Next, we tested and iterated with users to refine usability and information hierarchy. Then, we identified opportunities to streamline access to high-value data and evaluated off-the-shelf tooling options aligned to user needs.
+We then translated these insights into tangible solutions by:
+
+- Prototyping dashboards using CMS financial and quality data  
+- Testing and iterating with users to refine usability and information hierarchy  
+- Identifying opportunities to streamline access to high-value data  
+- Evaluating off-the-shelf tooling options aligned to user needs  
 
 {% include callout.html
   type = "pullquote"
-  content = "We don't have access to this kind of data anywhere else right now. This is helpful for honing in on areas to improve care."
+  content = "We don’t have access to this kind of data anywhere else right now. This is helpful for honing in on areas to improve care."
   cite_name = "Rural hospital executive"
 %}
 
@@ -88,11 +93,11 @@ This approach not only improved immediate access to data, but also established a
 {% endcapture %}
 
 {% capture results %}
-- Gave rural providers access to peer cost comparisons, quality metrics, and disease prevalence data that were previously unavailable or inaccessible
-- Delivered tested dashboard prototypes that surfaced CMS financial and quality data tailored to rural hospital decision-makers
-- Produced a research-driven data strategy informed by insights from 11 provider interviews across hospital leadership and operational roles
-- Informed CMMI's approach to data tooling by evaluating off-the-shelf solutions against validated provider needs
-- Established user research as a sustained practice within the CHART model program
+- Led the CHART model team’s first discovery sprints with participating providers  
+- Conducted 11 in-depth interviews across hospital leadership and operational roles  
+- Developed and tested prototype dashboards based on real provider needs  
+- Identified critical data gaps and opportunities to improve decision-making  
+- Helped establish user research as a core practice within the program  
 {% endcapture %}
 
 {% include project.html

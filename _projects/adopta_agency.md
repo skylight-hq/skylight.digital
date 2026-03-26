@@ -51,7 +51,7 @@ The core problem was one of scale. No single agency had the capacity to clean, s
 {% capture solution %}
 Kin designed Adopta.Agency around a simple insight: the same open-source collaboration model that works for software could work for data. Rather than asking agencies to fix everything themselves, he created a framework that enabled anyone — developers, civic technologists, organizations — to contribute structured improvements to public datasets.
 
-First, he built the [blueprint process](https://adopta-agency.github.io/adopta-blueprint/) — an open, step-by-step guide that walked contributors through improving a dataset incrementally. Participants could start by cleaning and structuring raw data into JSON, then progress to transforming it into a fully functional API. Each step added value without requiring contributors to take on the entire dataset at once.
+First, he built the [blueprint process](http://adopta-agency.github.io/adopta-blueprint/) — an open, step-by-step guide that walked contributors through improving a dataset incrementally. Participants could start by cleaning and structuring raw data into JSON, then progress to transforming it into a fully functional API. Each step added value without requiring contributors to take on the entire dataset at once.
 
 Next, he chose GitHub as the collaboration platform. This gave distributed contributors a transparent, version-controlled environment for working on shared datasets — the same workflow developers already used for code. The approach lowered the barrier to entry and made every improvement visible and reusable.
 
