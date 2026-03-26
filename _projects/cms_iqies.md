@@ -40,7 +40,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Centers for Medicare & Medicaid Services (CMS) needed to modernize a critical system used nationwide by healthcare providers to submit and evaluate quality-of-care data. We helped transform the Internet Quality Improvement and Evaluation System (iQIES) from a legacy desktop application into a modern, user-centered platform by improving the user experience, strengthening design practices, and enabling scalable front-end delivery.
+CMS needed to modernize a critical system used nationwide by healthcare providers to submit and evaluate quality-of-care data. We helped transform iQIES from a legacy desktop application into a modern, user-centered platform by improving the user experience, strengthening design practices, and enabling scalable front-end delivery.
 {% endcapture %}
 
 {% capture challenge %}
