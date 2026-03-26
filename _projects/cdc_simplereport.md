@@ -199,7 +199,7 @@ On the receiving end, public health departments had to process manual reports se
 - **Over 17,300 facilities** reporting tests through SimpleReport
 - **All 50 states represented,** as well as other U.S. territories and Canadian provinces
 - **More than 2.3 million text messages** sent notifying patients of their test results
-- **Cited as a Data Modernization Initiative (DMI) success story** in a presentation to CDC Director Dr. Walensky for its "game-changing" work in Alaska
+- **Cited as a Data Modernization Initiative success story** in a presentation to CDC Director Dr. Walensky for its "game-changing" work in Alaska
 - **Support for flu reporting launched in July 2023** and RSV reporting went live in January 2024 following a successful pilot with California
 - **More than 1,150 facilities in five states** have joined the flu and RSV pilot
 - **Over 143,000 flu test results and over 4,200 RSV test results** reported through SimpleReport
