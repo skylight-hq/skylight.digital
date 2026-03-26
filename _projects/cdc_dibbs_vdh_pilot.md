@@ -85,14 +85,14 @@ practices:
   - "Virtual collaboration"
 news_posts:
   - title: "Improving Public Health Data Pipelines"
-    url: https://www.cdc.gov/surveillance/data-modernization/technologies/public-health-data-pipelines.html
+    url: https://archive.cdc.gov/www_cdc_gov/surveillance/data-modernization/technologies/public-health-data-pipelines.html
 project_url:
 project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-As part of our broader work building Data Integration Building Blocks (DIBBs) with the Centers for Disease Control and Prevention (CDC), we partnered with the Virginia Department of Health (VDH) to address critical challenges in processing high volumes of COVID-19 data. Working with the U.S. Digital Service, we built a prototype data ingestion pipeline that improves data processing speed, automates manual processes, and enables more efficient analysis to inform timely public health action.
+As part of our broader work building [Data Integration Building Blocks (DIBBs)](/work/experience/cdc-dibbs/) with the Centers for Disease Control and Prevention (CDC), we partnered with the Virginia Department of Health (VDH) to address critical challenges in processing high volumes of COVID-19 data. Working with the U.S. Digital Service (USDS, now U.S. DOGE Service), we built a prototype data ingestion pipeline that improves data processing speed, automates manual processes, and enables better analysis to inform timely public health action.
 {% endcapture %}
 
 {% capture challenge %}
@@ -105,25 +105,19 @@ Data coming into state, tribal, local, and territorial (STLT) public health agen
 
 The Virginia Department of Health experienced exactly this problem during the COVID-19 pandemic. Virginia's public health data surveillance system relied on time- and resource-intensive manual processes (involving multiple staff members, siloed systems, and an Excel spreadsheet that scheduled when different data streams could be processed to avoid overloading). As a result of these methods, along with the high volume and spikes in COVID-19 data throughout the pandemic, data processing was slow, systems timed out, and there was no single source of truth for incoming data.
 
-VDH wanted to improve their processes for making incoming data from healthcare partners analysis-ready to more efficiently inform public health action. Specifically, they wanted to combine different data streams (electronic lab reports, electronic case reports, and vaccinations) into a single database, where they could then quickly and easily perform analyses with minimal manual effort. Additionally, local jurisdictions within Virginia wanted to geocode the data to identify gaps in vaccination and then perform targeted outreach, such as holding vaccination drives within schools or apartment complexes.
-
-However, as it stood, VDH's existing system introduced inefficiencies and uncertainty into data processing, compromised their ability to share data analysis and findings to inform public health action, and ultimately reduced confidence in the integrity of the data itself.
+VDH needed a unified approach: combine lab reports, case reports, and vaccination records into a single database where epidemiologists could analyze data with minimal manual effort. Local jurisdictions also wanted to geocode the data to identify vaccination gaps and target outreach — holding drives at schools or apartment complexes, for example. But VDH's existing system couldn't support any of this. It introduced inefficiencies and uncertainty into data processing, compromised the ability to share findings, and ultimately eroded confidence in the integrity of the data itself.
 {% endcapture %}
 
 {% capture solution %}
-**As part of a multi-year modernization initiative with the U.S. Digital Service (USDS, now U.S. DOGE Service) focused on pandemic readiness and interoperability,** we partnered with VDH to experiment with new approaches for storing, processing, and linking different incoming data streams.
+**Skylight partnered with VDH as part of a multi-year CDC and USDS [initiative focused on pandemic readiness and interoperability](https://www.cdc.gov/data-modernization/php/index.html)** to experiment with new approaches for storing, processing, and linking different incoming data streams.
 
-**We began with discovery efforts** to establish a comprehensive understanding of the data workflow at VDH, from the receipt of public health data through processing to analysis.
+**The team mapped VDH's data workflow end-to-end** — from the receipt of public health data through processing to analysis — to understand where bottlenecks, manual handoffs, and data quality issues lived. That discovery work shaped the design of a cloud-based prototype pipeline that brought disparate data streams together into a single database, using the Fast Healthcare Interoperability Resources (FHIR) standard to normalize data elements. The team also developed a white paper capturing learnings from the pilot for other STLTs to apply to their own modernization efforts.
 
-**Next, we built a cloud-based prototype data processing pipeline** for VDH that brought disparate data streams together into a single database using the Fast Healthcare Interoperability Resources (FHIR) standard to standardize data elements.
+**The resulting pipeline transformed how VDH worked with COVID-19 data.** Lab reports (ELR), case reports (eCR), and vaccination records (VXU) could now answer urgent public health questions with far less manual effort. Data that moved through the pipeline was standardized, deduplicated, geocoded, and linked — and patient-level records were created automatically for analysis. The pipeline also converted raw data into a tabular, human-readable format, enabling epidemiologists to quickly find the information they needed without sifting through raw files.
 
-**We also developed a white paper** that served as a central reference point for learnings from the pilot project, providing guidance that other STLTs could apply to their own modernization efforts.
+**Modular, open-source building blocks made the pipeline reusable beyond Virginia.** The team built the prototype from a set of tools known as [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs) — containerized services accessible via RESTful APIs that can be combined into customizable pipelines for a wide range of public health data formats. Because each block is self-contained and cloud-deployable, STLTs can assemble pipelines that fit their specific infrastructure and data needs.
 
-**The resulting prototype pipeline helped VDH use lab (ELR), case (eCR), and vaccine (VXU) data** to answer urgent COVID-19 public health questions with less manual effort. The pipeline processed incoming data faster, created a source of truth, and removed the need for duplicative processes. Data that moved through this prototype pipeline was standardized, deduplicated, geocoded, and linked, and patient-level records were created to use for analysis. Additionally, the pipeline converted raw data into a tabular, human-readable format (e.g., spreadsheet), enabling epidemiologists to quickly find data they needed.
-
-**Our team constructed this prototype pipeline** using a set of open-source, modular tools known as [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs). From a software deployment perspective, DIBBs are accessible via RESTful APIs. These services are containerized, so that all of their operating needs are defined and bundled into a single package, making them easy to deploy to cloud environments or on-premises if needed. When combined together, DIBBs create customizable pipelines that can increase data processing speed for incoming public health data across a wide range of data formats (e.g., eCR, ELR, VXU).
-
-**The project team is applying learnings from this pilot** to inform additional DIBBs products that STLTs can use to modernize their data systems. During the next phase of work, our team will continue to test and iterate on DIBBs products with a wide range of public health departments to solve similar data challenges.
+**Lessons from the VDH pilot shaped the broader DIBBs portfolio,** informing additional products that STLTs can use to modernize their data systems. The team continues to test and iterate on DIBBs with a wider range of public health departments and disease surveillance systems.
 {% endcapture %}
 
 {% capture results %}
