@@ -1,35 +1,40 @@
 ---
 layout: default
-title_tag: State of California
-title: Teaching agile by simulating real-world delivery
+title_tag: "State of California"
+title: "Teaching agile by simulating real-world delivery"
 permalink: /work/experience/ca-hhs-agile-training/
 image: /img/projects/ca_hhs_agile_training/agile-training.svg
-image_description: An instructor guiding participants around a table using an agile board.
+image_description: "An instructor guiding participants around a table using an agile board."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 3900
 display: true
-tags: [training, coaching & training, healthcare, robert read, josh dorothy]
-excerpt: An immersive, sprint-based training workshop that helped California's Health and Human Services teams move from understanding agile concepts to applying them as a complete delivery system.
+tags:
+  - "training"
+  - "coaching & training"
+  - "healthcare"
+  - "robert read"
+  - "josh dorothy"
+excerpt: "An immersive, sprint-based training workshop that helped California's Health and Human Services teams move from understanding agile concepts to applying them as a complete delivery system."
 project_members:
   - robert-read
   - josh-dorothy
 technologies:
-  - HTML / CSS
-  - JavaScript
-  - Twitter Bootstrap
-  - Ruby
-  - Jekyll
-  - GitHub Pages
-  - Git / GitHub
+  - "HTML / CSS"
+  - "JavaScript"
+  - "Twitter Bootstrap"
+  - "Ruby"
+  - "Jekyll"
+  - "GitHub Pages"
+  - "Git / GitHub"
 practices:
-  - Learning by doing
-  - Scrum framework
-  - Story writing
-  - Story estimation
-  - Velocity calculation
-  - Testing
+  - "Learning by doing"
+  - "Scrum framework"
+  - "Story writing"
+  - "Story estimation"
+  - "Velocity calculation"
+  - "Testing"
 news_posts:
 project_url:
 project_cta:
@@ -50,24 +55,24 @@ The CHHS Office of Innovation had invested in agile training, and the team under
   cite_title = "Deputy Director, Office of Innovation at CHHS"
 %}
 
-The gap wasn't knowledge — it was experience. Without having worked through a full delivery cycle using agile practices end to end, teams struggled to apply what they'd learned to real projects. Previous trainings had taught concepts in isolation, but none had shown how planning, estimation, velocity tracking, and testing reinforce each other as a system. The Office of Innovation needed something fundamentally different: not another lecture, but a way to practice agile as it actually works.
+**The gap wasn't knowledge — it was experience.** Without having worked through a full delivery cycle using agile practices end to end, teams struggled to apply what they'd learned to real projects. Previous trainings had taught concepts in isolation, but none had shown how planning, estimation, velocity tracking, and testing reinforce each other as a system. The Office of Innovation needed something fundamentally different: not another lecture, but a way to practice agile as it actually works.
 {% endcapture %}
 
 {% capture solution %}
-We partnered with [CivicActions](https://civicactions.com/) to design something most agile trainings don't attempt: a full delivery simulation against a real product.
+**We partnered with [CivicActions](https://civicactions.com/) to design something most agile trainings don't attempt:** a full delivery simulation against a real product.
 
-Over two days, participants worked through five compressed sprints — not on a hypothetical exercise, but on the Office of Innovation's actual website. Each sprint cycled through the complete Scrum workflow: story writing, estimation, planning, building, testing, and velocity tracking. By the third sprint, teams weren't just following instructions — they were making their own tradeoffs, adjusting estimates based on real velocity data, and experiencing the feedback loops that make agile work.
+**Over two days, participants worked through five compressed sprints** — not on a hypothetical exercise, but on the Office of Innovation's actual website. Each sprint cycled through the complete Scrum workflow: story writing, estimation, planning, building, testing, and velocity tracking. By the third sprint, teams weren't just following instructions — they were making their own tradeoffs, adjusting estimates based on real velocity data, and experiencing the feedback loops that make agile work.
 
-The design was deliberate. Rather than teaching practices one at a time, we structured the workshop so participants experienced how each practice reinforced the others. Estimation became meaningful once teams could compare it against actual velocity. Testing felt purposeful once it was connected to a real user experience. And planning improved naturally as teams built intuition for what they could deliver in a sprint.
+**The design was deliberate.** Rather than teaching practices one at a time, we structured the workshop so participants experienced how each practice reinforced the others. Estimation became meaningful once teams could compare it against actual velocity. Testing felt purposeful once it was connected to a real user experience. And planning improved naturally as teams built intuition for what they could deliver in a sprint.
 
-The result was both a learning experience and a tangible product improvement — participants shipped a redesigned version of the Office of Innovation's website by the end of the second day.
+**The result was both a learning experience and a tangible product improvement** — participants shipped a redesigned version of the Office of Innovation's website by the end of the second day.
 {% endcapture %}
 
 {% capture results %}
-- Delivered a redesigned version of the Office of Innovation's website through hands-on sprint work over 2 days
-- Simulated 5 full sprints covering the complete Scrum workflow — from story writing through testing and velocity tracking
-- Equipped teams to adapt agile practices to fit their own projects and departmental culture
-- Rated by participants as the most valuable and practical agile training they'd experienced
+- **Delivered a redesigned version** of the Office of Innovation's website through hands-on sprint work over two days
+- **Simulated five full sprints** covering the complete Scrum workflow — from story writing through testing and velocity tracking
+- **Equipped teams** to adapt agile practices to fit their own projects and departmental culture
+- **Rated as the most valuable and practical agile training** participants had experienced
 
 {% include callout.html
   type = "pullquote"
