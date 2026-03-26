@@ -41,7 +41,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-Rural hospitals needed better access to usable data to sustain operations and improve care — but existing systems made that difficult. We partnered with the Center for Medicare & Medicaid Innovation (CMMI) to develop a research-driven data strategy and prototype solutions that helped providers make more informed decisions while improving visibility into system-wide challenges.
+Rural hospitals needed better access to usable data to sustain operations and improve care — but existing systems made that difficult. We partnered with CMMI to develop a research-driven data strategy and prototype solutions that helped providers make more informed decisions while improving visibility into system-wide challenges.
 {% endcapture %}
 
 {% capture challenge %}
@@ -52,7 +52,7 @@ Rural hospitals across the United States were under significant financial and op
 Source: Cecil G. Sheps Center for Health Services Research, University of North Carolina; image modified from [The Pew Charitable Trusts](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention).
 {: .caption }
 
-To address these challenges, CMMI launched the Community Health Access and Rural Transformation (CHART) model. CHART aimed to improve outcomes and access to care by funding new approaches to service delivery.
+To address these challenges, the Center for Medicare & Medicaid Innovation (CMMI) launched the Community Health Access and Rural Transformation (CHART) model. CHART aimed to improve outcomes and access to care by funding new approaches to service delivery.
 
 However, many rural providers lacked the tools and infrastructure needed to use data effectively. Critical information about cost, performance, and regional dynamics was difficult to access, fragmented across systems, or required significant manual effort to analyze.
 
@@ -68,7 +68,7 @@ CMMI needed a clearer understanding of these challenges — and a path toward ma
 {% endcapture %}
 
 {% capture solution %}
-We partnered with CMMI, the U.S. Digital Service (USDS), and Innovation Development and Operations Services (IDOS) vendors to develop a data strategy grounded in real user needs.
+We partnered with CMMI, the U.S. Digital Service (USDS), and IDOS vendors to develop a data strategy grounded in real user needs.
 
 We began with in-depth research across nearly a dozen hospitals, engaging executives, analysts, and frontline staff. Through interviews and service design mapping, we uncovered how data flowed across systems, where breakdowns occurred, and what information providers actually needed to make decisions.
 
