@@ -154,26 +154,18 @@ Breaking down silos, reducing STLT data collection and reporting burdens, and fo
 {% endcapture %}
 
 {% capture solution %}
-**In an effort to strengthen the U.S. public health data infrastructure,** the CDC has established a [Public Health Data Strategy](https://www.cdc.gov/public-health-data-strategy/php/index.html) through the Office of Public Health Data, Surveillance, and Technology, as well as launched a multi-year modernization initiative with USDS focused on pandemic readiness and interoperability. We support this work in partnership with CDC and USDS, applying agile principles and user-centered design methods to develop and support adoption of open-source, modular tools — DIBBs — that public health departments can use to process and transform data.
+**We partnered with CDC and USDS to design, build, and scale open-source tools** that help public health departments process and transform data. The work supports CDC's [Public Health Data Strategy](https://www.cdc.gov/public-health-data-strategy/php/index.html) and a broader multi-year modernization initiative focused on pandemic readiness and interoperability. We apply agile principles and user-centered design methods — conducting research with STLT staff across the data life cycle — to make sure the tools we build solve real problems in the field.
 
-**DIBBs are modular tools designed for the collection, processing, and analysis of public health data,** significantly reducing the time it takes for STLTs to act on critical information. Much like LEGO blocks that can be stacked to create different shapes, DIBBs can be combined in various configurations to form flexible and efficient data pipelines. These tools automate data processing, enhance data quality, and ensure completeness, enabling public health departments to better detect, investigate, and respond to health threats. Public health agencies can also tailor the system by selecting and deploying the specific DIBBs they need, creating a customized pipeline that suits their unique requirements.
+**The tools themselves are modular and composable,** much like building blocks that can be stacked in different configurations. Each DIBBs tool handles a specific function — ingesting data, standardizing formats, enriching records, or surfacing information — and agencies can select and combine the ones they need to create a pipeline tailored to their environment. This approach automates manual data processing, improves data quality, and gives public health departments the flexibility to adapt as requirements change.
 
 ![Illustration showing several blocks, some of which are interconnected with pipelines.](/img/projects/cdc_dibbs/dibbs-logo.svg){: .mb-0 }
 
 Different configurations of DIBBs depending on user needs.
 {: .caption }
 
-**We've partnered with a variety of STLTs** to develop and iterate on DIBBs products that reduce manual processes and solve public health data challenges. To date, we've conducted user research with STLT staff who interact with condition-specific diseases along the data life cycle (e.g., collection, ingestion, management, analysis, and visualization).
+**We developed and proved the approach through a series of pilots with real STLT partners.** We started by building and testing a [prototype pipeline with the Virginia Department of Health](/work/experience/cdc-dibbs-vdh-pilot/) that processed incoming COVID-19 data faster, created a single source of truth, and eliminated duplicative manual processes. We then expanded to a [production pipeline with Los Angeles County's Department of Public Health](/work/experience/cdc-dibbs-lac-pilot/) that processed and enriched multiple data streams — including electronic case reporting (eCR) data and electronic laboratory reporting (ELR) — improving downstream analysis and case investigation. Alongside the pipelines, we developed and piloted an [intuitive viewer interface](/work/experience/cdc-dibbs-ecr-viewer/) that surfaces key information from eCR files to make them more useful for monitoring reportable conditions. And to lower the barrier to adoption, we stood up [flexible cloud hosting infrastructure](/work/experience/cdc-dibbs-cloud-enablement/) that enables STLTs to deploy and scale DIBBs without building their own environments from scratch.
 
-**We built and piloted a [prototype DIBBs pipeline](/work/experience/cdc-dibbs-vdh-pilot/)** with the Virginia Department of Health that processed incoming COVID-19 data faster, created a source of truth, and removed the need for duplicative processes.
-
-**Next, we deployed a [cloud-based DIBBs pipeline](/work/experience/cdc-dibbs-lac-pilot/)** with the Los Angeles County Department of Public Health to process and enrich multiple data streams, including electronic case reporting (eCR) data and electronic laboratory reporting (ELR), improving downstream data analysis and case investigation.
-
-**We've also developed and piloted an [intuitive interface](/work/experience/cdc-dibbs-ecr-viewer/)** that surfaces key information from eCR files to make them more useful for monitoring the spread of reportable conditions.
-
-**Finally, we've provided [flexible cloud hosting infrastructure](/work/experience/cdc-dibbs-cloud-enablement/)** that enables STLTs to quickly upgrade and scale their data systems with DIBBs to meet the scope and scale of emerging public health threats.
-
-By piloting, developing, and scaling a modular set of tools that can be combined into flexible, performant products for STLTs, our work is helping to create modern public health data infrastructure that works for all diseases and conditions — a system that will enable public health agencies to receive timely, relevant, and actionable data.
+**Each pilot fed back into the product,** sharpening the tools and validating the modular approach at increasing scale. The result is a growing set of open-source building blocks that agencies can adopt independently — creating modern public health data infrastructure that works across diseases and conditions and delivers timely, actionable data to decision-makers at every level of government.
 {% endcapture %}
 
 {% capture results %}
