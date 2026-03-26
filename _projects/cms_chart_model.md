@@ -88,11 +88,11 @@ This approach not only improved immediate access to data, but also established a
 {% endcapture %}
 
 {% capture results %}
-- Gave rural providers access to peer cost comparisons, quality metrics, and disease prevalence data that were previously unavailable or inaccessible
-- Delivered tested dashboard prototypes that surfaced CMS financial and quality data tailored to rural hospital decision-makers
-- Produced a research-driven data strategy informed by insights from 11 provider interviews across hospital leadership and operational roles
-- Informed CMMI's approach to data tooling by evaluating off-the-shelf solutions against validated provider needs
-- Established user research as a sustained practice within the CHART model program
+- Led the CHART model team's first discovery sprints with participating providers
+- Conducted 11 in-depth interviews across hospital leadership and operational roles
+- Developed and tested prototype dashboards based on real provider needs
+- Identified critical data gaps and opportunities to improve decision-making
+- Helped establish user research as a core practice within the program
 {% endcapture %}
 
 {% include project.html
