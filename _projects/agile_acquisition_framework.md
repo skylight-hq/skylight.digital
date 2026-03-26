@@ -62,11 +62,11 @@ The result was billions of dollars in failed or underperforming technology inves
 {% capture solution %}
 **Chris and Robert designed the Agile Acquisition Framework** as a complete operating model for software procurement — not just a set of principles, but a practical playbook agencies could follow from market research through delivery.
 
-**First, they established the core shift:** evaluating vendors on demonstrated capability rather than written promises. The framework introduced a "show, don't tell" approach where vendors built working prototypes instead of submitting traditional proposals — giving agencies real evidence of delivery skill before awarding a contract.
+**The core shift was evaluating vendors on demonstrated capability rather than written promises.** The framework introduced a "show, don't tell" approach where vendors built working prototypes instead of submitting traditional proposals — giving agencies real evidence of delivery skill before awarding a contract.
 
-**Next, they integrated the acquisition model** with modern delivery practices. The framework combined user-centered design, agile development, and modular contracting into a single lifecycle — so the way agencies bought software aligned with the way it should be built. Evaluation criteria were tied to real user needs, and contracts were structured to allow requirements to evolve through iteration.
+**The acquisition model integrated tightly with modern delivery practices.** The framework combined user-centered design, agile development, and modular contracting into a single lifecycle — so the way agencies bought software aligned with the way it should be built. Evaluation criteria were tied to real user needs, and contracts were structured to allow requirements to evolve through iteration.
 
-**Then, they proved it worked.** Chris and Robert refined the framework through hands-on application across more than a dozen programs — including Treasury's DATA Act, DoD's Military OneSource, SSA's Disability Claims Processing System, EPA's Electronic Manifest System, Navy's Ready-2-Serve, and California's Child Welfare System — while coaching agency teams to run agile acquisitions independently.
+**Chris and Robert refined the framework through hands-on application** across more than a dozen programs — including Treasury's DATA Act, DoD's Military OneSource, SSA's Disability Claims Processing System, EPA's Electronic Manifest System, Navy's Ready-2-Serve, and California's Child Welfare System — coaching agency teams to run agile acquisitions independently.
 {% endcapture %}
 
 {% capture results %}
