@@ -150,7 +150,7 @@ Data Integration Building Blocks (DIBBs) are a set of open-source, modular tools
 {% capture challenge %}
 Public health authorities at all levels of government rely on data to understand and address public health challenges. This means that robust systems are critical at every step of the data journey — from patient to public health and back. However, outdated, siloed, and fragile systems often disrupt the flow of data, delaying detection and response. The COVID-19 pandemic exposed these weaknesses, highlighting the urgent need to improve the collection, analysis, and use of public health data. Many state, tribal, local, and territorial (STLT) health departments struggled to manage the overwhelming volume and variety of incoming healthcare data, with outdated tools buckling under pressure and failing to handle non-standard inputs, such as data from questions like, "Have you lost your sense of taste or smell?"
 
-Breaking down silos, reducing STLT data collection and reporting burdens, and fostering seamless collaboration are essential. In other words, the U.S. public health system must become "response-ready" to proactively address crises and mitigate harm when they occur.
+The stakes extend beyond any single outbreak. Without modern, interoperable data systems, the same bottlenecks that hampered the COVID-19 response will recur with the next public health crisis. The U.S. public health system needs to become "response-ready" — capable of proactively detecting and addressing threats rather than scrambling to catch up after they arrive.
 {% endcapture %}
 
 {% capture solution %}
@@ -169,12 +169,11 @@ Different configurations of DIBBs depending on user needs.
 {% endcapture %}
 
 {% capture results %}
-- **Developed and iterated on a set of modular DIBBs** that can be combined together to improve the speed, accuracy, and completeness of public health data
-- **Partnered with the Virginia Department of Health** to build and pilot a cloud-based prototype DIBBs pipeline as a proof of concept for future DIBBs products
+- **VDH increased data throughput from 5,800 to 20,000 HL7 messages per hour** and reduced patient record duplication by 19% through a [prototype DIBBs pipeline](/work/experience/cdc-dibbs-vdh-pilot/) that proved the modular approach
+- **LAC Hepatitis case investigators receive eCR data 95% faster** (from 20 hours to 1 hour) via a [production pipeline](/work/experience/cdc-dibbs-lac-pilot/) that processes and enriches multiple data streams, including eCR and ELR data
+- **eCR processing reduced from 25 clicks to 5 clicks** through an [intuitive viewer interface](/work/experience/cdc-dibbs-ecr-viewer/) piloted with multiple STLTs to make eCR data more useful for monitoring reportable conditions
+- **Deployed DIBBs to a centrally-hosted CDC cloud environment** and began [onboarding four STLTs](/work/experience/cdc-dibbs-cloud-enablement/) — Alabama, Idaho, Dallas, and Chicago — to pilot the infrastructure
 - **Developed API documentation** enabling STLTs to explore how to integrate DIBBs products into their existing data environments
-- **Deployed a modular DIBBs pipeline with Los Angeles County's Department of Public Health** that automates processes and enriches multiple data streams, including eCR and ELR data
-- **Piloted eCR Viewer with multiple STLTs** to make eCR data more useful for monitoring the spread of reportable conditions
-- **Developed cloud infrastructure hosted by CDC** to facilitate adoption and implementation of DIBBs by STLTs
 {% endcapture %}
 
 {% include project.html
