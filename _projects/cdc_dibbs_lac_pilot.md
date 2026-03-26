@@ -76,19 +76,19 @@ practices:
   - Cloud hosting
   - Hybrid-cloud architecture
   - Virtual collaboration
-project_url: https://dibbs.tools
+project_url: https://cdcgov.github.io/dibbs-site
 project_cta: See the site
-source_code_url:
+source_code_url: https://github.com/CDCgov/phdi
 skip_index: false
 ---
 
 {% capture summary %}
-The Los Angeles County (LAC) Department of Public Health needed timely access to electronic case reporting (eCR) data to monitor and respond to disease outbreaks. We worked with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service) to develop a cutting-edge, modular data pipeline that enabled LAC to automatically process and enrich multiple data streams, including eCR data and electronic laboratory reporting (ELR) data, to improve downstream data analysis and case investigation.
+The Los Angeles County (LAC) Department of Public Health needed timely access to electronic case reporting (eCR) data to monitor and respond to disease outbreaks. We worked with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service) to develop a cutting-edge, modular data pipeline that enabled LAC to automatically process and enrich multiple data streams, including eCR data and electronic lab reports (ELR), to improve downstream data analysis and case investigation.
 {% endcapture %}
 
 {% capture challenge %}
 Timely access to eCR data is critical for public health departments to respond swiftly to disease outbreaks, especially during a public health emergency.
-Public health departments receive an automated feed of eCR data from private healthcare organizations after passing through the Association of Public Health Laboratories AIMS platform and use this data to find case report information from a patient's electronic health records.
+Public health departments receive an automated feed of eCR data from private healthcare organizations and use this data to find case report information from a patient's electronic health records (EHRs).
 This can include a patient's demographics, diagnoses, comorbidities, occupation, travel history, immunizations, and medications — information that can help inform case investigation and public health data analysis.
 Unfortunately, not all public health jurisdictions can effectively manage the flow of incoming eCR data.
 
@@ -96,27 +96,17 @@ Due to technical limitations with their existing disease surveillance system, th
 Because LAC's disease surveillance system couldn't process eCR data fields, they set up a separate, patchwork data workflow to collect eCR data. As a result, LAC had siloed processing systems for different data types, conflicting data standards, record duplication, and poor record linkage.
 Epidemiologists at LAC also had to spend a considerable amount of time manually cleaning data after it was processed.
 
-Rather than this fragmented data infrastructure, LAC wanted to have a single, standard processing approach for a wide range of data types, including eCR and ELR.
+Rather than this fragmented data infrastructure, LAC wanted to have a single, standard processing approach for a wide range of data types, including eCR and electronic lab records (ELRs).
 To efficiently monitor and respond to disease outbreaks, LAC also needed to improve the overall quality of the data processed through its disease surveillance infrastructure.
 Better, more reliable data reduces the need for manual cleaning and makes downstream analysis and case investigation less onerous for epidemiologists and other public health staff.
 {% endcapture %}
 
 {% capture solution %}
-**As part of the wider CDC and USDS pandemic-readiness and interoperability initiative,** we worked with LAC to improve its disease surveillance infrastructure. Building on a [previous pilot](/work/experience/cdc-dibbs-vdh-pilot/) with the Virginia Department of Health, our team developed and deployed a cutting-edge, modular data pipeline to automatically process and enrich multiple data streams, including COVID-19 eCR files and ELRs. This open-source, cloud-based pipeline — composed of modular software components referred to as [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs) — can significantly reduce the time it takes for LAC's disease surveillance teams to receive and act upon public health data, while also improving the quality of that data.
+As part of the wider CDC and USDS [Pandemic-Ready Interoperability Modernization Effort](https://www.cdc.gov/surveillance/data-modernization/partnerships/usds_innovation.html) (PRIME), we worked with LAC to improve its disease surveillance infrastructure. Building on a [previous pilot](/work/experience/cdc-dibbs-vdh-pilot/) with the Virginia Department of Health, our team developed and deployed a cutting-edge, modular data pipeline to automatically process and enrich multiple data streams, including COVID-19 eCR files and ELRs. This open-source, cloud-based pipeline — composed of modular software components referred to as [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs) — significantly reduces the time it takes for LAC's disease surveillance teams to receive and act upon public health data, while also improving the quality of that data.
 
-**First, we conducted discovery activities** to understand eCR workflows, identify product support needs, and assess the value of processing eCR data for LAC disease surveillance teams.
+Over the course of the year-long pilot, our team took several key steps. First, we conducted discovery research to understand eCR workflows, identify product support needs, and assess the value of processing eCR data for LAC disease surveillance teams. Next, we engaged LAC staff in an iterative software development process with weekly agile ceremonies and regular product demonstrations to continuously refine the pipeline. Then, we performed user acceptance testing with LAC staff to identify and mitigate barriers to adoption for the DIBBs pipeline. We compared the performance of LAC's pre-pilot data processing to data processing after the DIBBs pipeline was deployed to test record linkage performance and measure data quality. We also evaluated how the DIBBs pipeline affected the experience of case investigators that monitor and report on Hepatitis A to assess the pipeline's public health impact. Finally, we developed a compendium of resources (i.e., Handoff Hub) for LAC staff to use post-pilot that enables them to independently operate and customize the pipeline.
 
-**Next, we engaged LAC staff in an iterative software development process** with weekly agile ceremonies and regular product demonstrations to continuously refine the pipeline.
-
-**Then, we performed user acceptance testing** with LAC staff to identify and mitigate barriers to adoption for the DIBBs pipeline.
-
-**We compared the performance of LAC's pre-pilot data processing** to data processing after the DIBBs pipeline was deployed to test record linkage performance and measure data quality.
-
-**We also evaluated how the DIBBs pipeline affected case investigators** that monitor and report on Hepatitis A to assess the pipeline's public health impact.
-
-**Finally, we developed a compendium of resources** (i.e., Handoff Hub) for LAC staff to use post-pilot that enables them to independently operate and customize the pipeline.
-
-Following the successful pilot, LAC now has access to an automated feed of analysis-ready eCR data with fields relevant to downstream disease teams. They also can use the pipeline to process ELR data, which makes it easier to perform analysis across data streams using a single source of truth. LAC can continue to leverage the DIBBs pipeline infrastructure to give additional disease teams access to processed eCR data, including the HIV and STD prevention team and the Community Outbreak Team (focused on viral respiratory pathogens).
+Following the successful pilot, LAC now has access to an automated feed of analysis-ready eCR data with fields relevant to downstream disease teams. They also can use the pipeline to process ELR data, which makes it easier to perform analysis across data streams using a single source of truth. LAC continues to leverage the DIBBs pipeline infrastructure to give additional disease teams access to processed eCR data, including the HIV and STD prevention team and the Community Outbreak Team (focused on viral respiratory pathogens).
 
 Many of the public health data issues present in LAC's disease surveillance infrastructure (e.g., siloed, low-quality data) are common across public health jurisdictions.
 Through the LAC pilot, our team gained insights on how to use and adapt our modular, open-source solutions to solve data challenges for multiple disease surveillance systems across public health jurisdictions.
