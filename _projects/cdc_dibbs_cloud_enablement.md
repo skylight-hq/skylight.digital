@@ -74,7 +74,6 @@ project_cta: See the site
 source_code_url: https://github.com/CDCgov/dibbs-cloud
 skip_index: false
 ---
-<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
 State, tribal, local, and territorial (STLT) public health agencies have struggled to handle the pace and volume of incoming case data when responding to disease outbreaks. We're working with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service) to provide STLTs with flexible cloud hosting infrastructure that enables them to quickly upgrade and scale their data systems with modern, cloud-based software solutions, so they can meet the scope and scale of emerging public health threats.
