@@ -66,7 +66,7 @@ The result was billions of dollars in failed or underperforming technology inves
 
 **The acquisition model integrated tightly with modern delivery practices.** The framework combined user-centered design, agile development, and modular contracting into a single lifecycle — so the way agencies bought software aligned with the way it should be built. Evaluation criteria were tied to real user needs, and contracts were structured to allow requirements to evolve through iteration.
 
-**Chris and Robert refined the framework through hands-on application** across more than a dozen programs — including Treasury's DATA Act, DoD's Military OneSource, SSA's Disability Claims Processing System, EPA's Electronic Manifest System, Navy's Ready-2-Serve, and California's Child Welfare System — coaching agency teams to run agile acquisitions independently.
+**Chris and Robert refined the framework through hands-on application** across more than a dozen programs — including Treasury's Digital Accountability and Transparency Act (DATA Act), the Department of Defense's (DoD's) Military OneSource, the Social Security Administration's (SSA's) Disability Claims Processing System, the Environmental Protection Agency's (EPA's) Electronic Manifest System, the Navy's Ready-2-Serve, and California's Child Welfare System — coaching agency teams to run agile acquisitions independently.
 {% endcapture %}
 
 {% capture results %}
