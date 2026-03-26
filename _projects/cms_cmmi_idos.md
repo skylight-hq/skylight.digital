@@ -1,98 +1,93 @@
 ---
 layout: default
 title_tag: Centers for Medicare & Medicaid Services
-title: Helping rural hospitals use data to improve financial stability and access to care
-permalink: /work/experience/cms_chart_model/
-image: /img/projects/cms_chart_model/idos.svg
-image_description: On the left, a doctor checks a patient's heartbeat. On the right, the same person walks a dog outside.
+title: Transforming how Medicare and Medicaid innovation teams deliver and use technology
+permalink: /work/experience/cms-cmmi-idos/
+image: /img/projects/cms_cmmi_idos/idos-transformation.svg
+image_description: A medical technician assists a patient in a home setting while a device transmits data for analysis.
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 1150
+order: 1125
 display: true
-tags: [transformation, research & design, product management, data & analytics, healthcare, jamie song]
-excerpt: A research-driven data strategy that helped rural hospitals better access and use critical information to make decisions about financial stability and care delivery.
+tags: [transformation, research & design, product management, healthcare, leslie garner franklin, victor zapanta, jamie song, shashank khandelwal]
+excerpt: Introduced human-centered design and modern digital practices to improve how CMMI teams research, analyze, and deliver healthcare policy innovations.
 project_members:
+  - leslie-garner-franklin
+  - victor-zapanta
   - jamie-song
+  - shashank-khandelwal
 technologies:
-  - Box
-  - Google Workspace
+  - Microsoft Office
   - Microsoft SharePoint
   - Microsoft Teams
-  - Zoom
+  - U.S. Web Design System
 practices:
-  - Data strategy
-  - Service design
-  - Stakeholder interviews
-  - User interviews
-  - User research
-  - Information gathering
-  - Primary research
-  - Secondary research
-  - Research analysis and synthesis
+  - Agile development
+  - Agile workshop facilitation
+  - Analysis and synthesis
+  - Consulting
+  - Continuous improvement
+  - Customer and stakeholder interviews
+  - Data management
+  - Design leadership
+  - Design system
+  - Design workshops
+  - DevSecOps
+  - Health checks
+  - Journey mapping
+  - Product management
   - Prototyping
-  - Rapid prototyping
-  - Usability testing
+  - Stakeholder mapping
+  - Technical discovery
+  - Training and coaching
   - User-centered design
-  - Analysis of alternatives
+  - Workshop facilitation
 project_url:
 project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-Rural hospitals needed better access to usable data to sustain operations and improve care — but existing systems made that difficult. We partnered with CMMI to develop a research-driven data strategy and prototype solutions that helped providers make more informed decisions while improving visibility into system-wide challenges.
+CMMI needed to improve how its teams used technology to design, test, and scale healthcare innovations. We partnered with the IDOS program to introduce human-centered design and modern digital delivery practices, enabling teams to better understand users, improve systems, and make more informed, data-driven decisions.
 {% endcapture %}
 
 {% capture challenge %}
-Rural hospitals across the United States were under significant financial and operational strain. The COVID-19 pandemic intensified these challenges, accelerating closures and increasing pressure on already fragile systems.
+CMMI runs thousands of policy experiments (“models”) to improve healthcare outcomes and reduce costs across the United States. These efforts rely heavily on technology systems to collect, analyze, and share data.
 
-![Map of rural hospital closures by state since 2005.](/img/projects/cms_chart_model/rural-hospital-closures-map.svg){: .mb-0 }
+However, many of these systems had evolved independently, resulting in fragmented user experiences, inconsistent data practices, and growing technical complexity. Teams often lacked the tools and practices needed to fully understand user needs or translate research into actionable system improvements.
 
-Source: Cecil G. Sheps Center for Health Services Research, University of North Carolina; image modified from [The Pew Charitable Trusts](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention).
-{: .caption }
-
-To address these challenges, the Center for Medicare & Medicaid Innovation (CMMI) launched the Community Health Access and Rural Transformation (CHART) model. CHART aimed to improve outcomes and access to care by funding new approaches to service delivery.
-
-However, many rural providers lacked the tools and infrastructure needed to use data effectively. Critical information about cost, performance, and regional dynamics was difficult to access, fragmented across systems, or required significant manual effort to analyze.
-
-{% include callout.html
-  type = "pullquote"
-  content = "We send reports out to a third party to have them written. We don't have a lot of funds to do that. It's hard to get data out. We go with bare minimum reporting because system-generated reports aren't useful."
-  cite_name = "Rural hospital executive"
-%}
-
-As a result, providers often relied on incomplete or anecdotal information when making high-stakes decisions about services, staffing, and financial sustainability.
-
-CMMI needed a clearer understanding of these challenges — and a path toward making data more accessible, actionable, and useful for rural providers.
+As a result, CMMI faced increasing difficulty scaling innovation effectively — limiting its ability to deliver timely insights and maximize the impact of its programs.
 {% endcapture %}
 
 {% capture solution %}
-We partnered with CMMI, the U.S. Digital Service (USDS), and IDOS vendors to develop a data strategy grounded in real user needs.
+We partnered with CMMI to introduce a more modern, user-centered approach to how its technology systems were designed, improved, and managed.
 
-We began with in-depth research across nearly a dozen hospitals, engaging executives, analysts, and frontline staff. Through interviews and service design mapping, we uncovered how data flowed across systems, where breakdowns occurred, and what information providers actually needed to make decisions.
+We began with a baseline assessment of CMMI’s IT platforms, evaluating maturity across human-centered design, agile delivery, and DevSecOps practices. These assessments identified key gaps in usability, technical practices, and alignment with user needs, and provided a clear foundation for prioritizing improvements.
 
-From these insights, we identified key data gaps and prioritized the types of information most valuable to providers — including disease prevalence, peer cost comparisons, and hospital quality metrics.
+Building on these insights, we worked directly with platform teams to:
 
-We then translated these insights into tangible solutions. First, we prototyped dashboards using Centers for Medicare & Medicaid Services (CMS) financial and quality data. Next, we tested and iterated with users to refine usability and information hierarchy. Then, we identified opportunities to streamline access to high-value data and evaluated off-the-shelf tooling options aligned to user needs.
+- Introduce human-centered design practices to better understand user needs and behaviors  
+- Facilitate workshops and coaching to help teams adopt modern digital delivery practices  
+- Develop user research plans and conduct interviews with stakeholders and end users  
+- Translate research findings into actionable design and product improvements  
 
-{% include callout.html
-  type = "pullquote"
-  content = "We don't have access to this kind of data anywhere else right now. This is helpful for honing in on areas to improve care."
-  cite_name = "Rural hospital executive"
-%}
+For example, we partnered with the Salesforce Connect team to design and execute a research plan that included interviews with healthcare providers, leading to a deeper understanding of how systems were actually used in practice.
 
-In parallel, we helped stakeholders adopt human-centered design practices — such as continuous user research and usability testing — to ensure future solutions remained grounded in real-world needs.
+{% include callout.html type = "pullquote" content = "Model participation is largely voluntary, so the usability of our systems is important both for retaining users and establishing CMMI’s reputation as an innovator… The Discovery team pierced through five layers of administration/relays; they revealed insights on what users actually want that CMMI had never considered, and had no structural incentive to find out." cite_name = "IT Advisor" cite_title = "CMMI" %}
 
-This approach not only improved immediate access to data, but also established a foundation for more sustainable, user-centered data strategy and decision-making.
+We also conducted targeted research for the Enterprise Data Management Program (EDMP), helping teams better understand engagement patterns and data needs across model participants.
+
+Our work led to redesigned user interfaces for key systems such as the Centralized Data Exchange (CDX), improving usability and enabling more effective data analysis. These improvements supported programs like the Emergency Triage, Treat, and Transport (ET3) model, helping teams make faster, more informed decisions.
+
+By embedding these practices directly into delivery teams, we helped CMMI move toward a more sustainable, user-centered approach to technology and innovation.
 {% endcapture %}
 
 {% capture results %}
-- Led the CHART model team's first discovery sprints with participating providers
-- Conducted 11 in-depth interviews across hospital leadership and operational roles
-- Developed and tested prototype dashboards based on real provider needs
-- Identified critical data gaps and opportunities to improve decision-making
-- Helped establish user research as a core practice within the program
+- Established a baseline understanding of platform maturity and prioritized modernization opportunities  
+- Enabled multiple teams to adopt human-centered design and modern delivery practices  
+- Delivered user research insights and design improvements that increased usability of key systems  
+- Improved data-driven decision-making for programs such as ET3  
 {% endcapture %}
 
 {% include project.html
