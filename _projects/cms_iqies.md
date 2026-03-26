@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 2900
 display: true
 tags: [service delivery, research & design, software delivery, legacy modernization, healthcare, victor zapanta, nick bristow]
-excerpt: Helped modernize a critical CMS system used nationwide by healthcare providers to report and evaluate quality-of-care data.
+excerpt: Helped modernize a critical Centers for Medicare & Medicaid Services (CMS) system used nationwide by healthcare providers to report and evaluate quality-of-care data.
 project_members:
   - victor-zapanta
   - nick-bristow
@@ -54,25 +54,16 @@ At the same time, teams needed stronger alignment between design, research, and 
 {% capture solution %}
 As a subcontractor to [Ventera](https://ventera.com/), we supported the iQIES modernization by strengthening both the product experience and the way teams worked together.
 
-We focused on three key areas:
-
-- **Elevating user-centered design practices**  
-  Introduced stronger collaboration between user research, design, and engineering to ensure user needs were consistently reflected in product decisions  
-
-- **Establishing a scalable design approach**  
-  Built a collaborative design system and workflow that enabled teams to produce consistent, accessible, and maintainable interfaces  
-
-- **Delivering the modern front-end experience**  
-  Engineered key parts of the application’s front end using modern frameworks, improving usability and performance while supporting long-term scalability  
+We focused on three key areas. First, we elevated user-centered design practices by introducing stronger collaboration between user research, design, and engineering to ensure user needs were consistently reflected in product decisions. Next, we established a scalable design approach by building a collaborative design system and workflow that enabled teams to produce consistent, accessible, and maintainable interfaces. Finally, we delivered the modern front-end experience by engineering key parts of the application's front end using modern frameworks, improving usability and performance while supporting long-term scalability.
 
 This approach ensured that modernization efforts improved not only the system itself, but also the processes used to design and deliver it.
 {% endcapture %}
 
 {% capture results %}
-- Improved usability and consistency of a nationwide healthcare reporting system  
-- Strengthened collaboration between research, design, and engineering teams  
-- Established scalable design practices to support ongoing modernization  
-- Delivered a modern front-end experience aligned with user needs and accessibility standards  
+- Improved usability and consistency of a nationwide healthcare reporting system
+- Strengthened collaboration between research, design, and engineering teams
+- Established scalable design practices to support ongoing modernization
+- Delivered a modern front-end experience aligned with user needs and accessibility standards
 {% endcapture %}
 
 {% include project.html
