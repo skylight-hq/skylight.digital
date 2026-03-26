@@ -77,11 +77,11 @@ The resulting risks compounded. Vendor lock-in limited agencies' ability to cour
 {% capture solution %}
 **Chris and Robert designed the marketplace around a single principle: make vendors prove they can do the work before they get the contract.**
 
-**First, they replaced written proposals with a prototype challenge.** Instead of submitting documents, vendors built working software using [openFDA](https://open.fda.gov/) as the data source — giving evaluators direct evidence of each vendor's design, development, and delivery capability. This "show, don't tell" approach made it possible to distinguish between vendors who understood agile and those who could execute it.
+**The prototype challenge replaced written proposals entirely.** Instead of submitting documents, vendors built working software using [openFDA](https://open.fda.gov/) as the data source — giving evaluators direct evidence of each vendor's design, development, and delivery capability. This "show, don't tell" approach made it possible to distinguish between vendors who understood agile and those who could execute it.
 
-**Next, they tackled vendor lock-in.** A [public-domain contracting clause](/thoughts/blog/public-domain-procurement/) ensured that all deliverables — code, data, and documentation — remained government-owned. This meant agencies could switch vendors or bring work in-house without losing access to what had already been built.
+**A public-domain contracting clause tackled vendor lock-in.** The [clause](/thoughts/blog/public-domain-procurement/) ensured that all deliverables — code, data, and documentation — remained government-owned. This meant agencies could switch vendors or bring work in-house without losing access to what had already been built.
 
-**Then, they built the contracting infrastructure to make the marketplace usable at scale.** The vehicle combined a Blanket Purchase Agreement under GSA's IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluation guides — giving agencies everything they needed to run a procurement in weeks rather than months.
+**The contracting infrastructure made the marketplace usable at scale.** The vehicle combined a Blanket Purchase Agreement under GSA's IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluation guides — giving agencies everything they needed to run a procurement in weeks rather than months.
 {% endcapture %}
 
 {% capture results %}
