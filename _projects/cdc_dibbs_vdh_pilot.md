@@ -92,7 +92,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our broader work building Data Integration Building Blocks (DIBBs) with the CDC, we partnered with the Virginia Department of Health (VDH) to address critical challenges in processing high volumes of COVID-19 data. Working with the U.S. Digital Service, we built a prototype data ingestion pipeline that improves data processing speed, automates manual processes, and enables more efficient analysis to inform timely public health action.
+As part of our broader work building Data Integration Building Blocks (DIBBs) with the Centers for Disease Control and Prevention (CDC), we partnered with the Virginia Department of Health (VDH) to address critical challenges in processing high volumes of COVID-19 data. Working with the U.S. Digital Service, we built a prototype data ingestion pipeline that improves data processing speed, automates manual processes, and enables more efficient analysis to inform timely public health action.
 {% endcapture %}
 
 {% capture challenge %}
@@ -111,7 +111,7 @@ However, as it stood, VDH's existing system introduced inefficiencies and uncert
 {% endcapture %}
 
 {% capture solution %}
-**As part of a multi-year modernization initiative with USDS focused on pandemic readiness and interoperability,** we partnered with VDH to experiment with new approaches for storing, processing, and linking different incoming data streams.
+**As part of a multi-year modernization initiative with the U.S. Digital Service (USDS, now U.S. DOGE Service) focused on pandemic readiness and interoperability,** we partnered with VDH to experiment with new approaches for storing, processing, and linking different incoming data streams.
 
 **We began with discovery efforts** to establish a comprehensive understanding of the data workflow at VDH, from the receipt of public health data through processing to analysis.
 
@@ -119,11 +119,11 @@ However, as it stood, VDH's existing system introduced inefficiencies and uncert
 
 **We also developed a white paper** that served as a central reference point for learnings from the pilot project, providing guidance that other STLTs could apply to their own modernization efforts.
 
-The prototype data processing pipeline that resulted from this work helped VDH use lab (ELR), case (eCR), and vaccine (VXU) data to answer urgent COVID-19 public health questions with less manual effort. The pipeline processed incoming data faster, created a source of truth, and removed the need for duplicative processes. Data that moved through this prototype pipeline was standardized, deduplicated, geocoded, and linked, and patient-level records were created to use for analysis. Additionally, the pipeline converted raw data into a tabular, human-readable format (e.g., spreadsheet), enabling epidemiologists to quickly find data they needed.
+**The resulting prototype pipeline helped VDH use lab (ELR), case (eCR), and vaccine (VXU) data** to answer urgent COVID-19 public health questions with less manual effort. The pipeline processed incoming data faster, created a source of truth, and removed the need for duplicative processes. Data that moved through this prototype pipeline was standardized, deduplicated, geocoded, and linked, and patient-level records were created to use for analysis. Additionally, the pipeline converted raw data into a tabular, human-readable format (e.g., spreadsheet), enabling epidemiologists to quickly find data they needed.
 
 **Our team constructed this prototype pipeline** using a set of open-source, modular tools known as [Data Integration Building Blocks](/work/experience/cdc-dibbs/) (DIBBs). From a software deployment perspective, DIBBs are accessible via RESTful APIs. These services are containerized, so that all of their operating needs are defined and bundled into a single package, making them easy to deploy to cloud environments or on-premises if needed. When combined together, DIBBs create customizable pipelines that can increase data processing speed for incoming public health data across a wide range of data formats (e.g., eCR, ELR, VXU).
 
-The project team is applying learnings from this pilot to inform additional DIBBs products that STLTs can use to modernize their data systems. During the next phase of work, our team will continue to test and iterate on DIBBs products with a wide range of public health departments to solve similar data challenges.
+**The project team is applying learnings from this pilot** to inform additional DIBBs products that STLTs can use to modernize their data systems. During the next phase of work, our team will continue to test and iterate on DIBBs products with a wide range of public health departments to solve similar data challenges.
 {% endcapture %}
 
 {% capture results %}
@@ -132,7 +132,7 @@ The project team is applying learnings from this pilot to inform additional DIBB
 - **Reduced patient record duplication by 19%** across data streams (lab reports, case reports, and vaccinations)
 - **VDH increased throughput from 5,800 to 20,000 incoming HL7 messages per hour** at peak capacity
 - **DIBBs pipeline generates a tabular, analysis-ready data mart for ~380,000 patient resources in under 15 minutes**
-
+- **Continuing to pilot and iterate** on the DIBBs pipeline with additional STLTs and disease surveillance systems
 {% endcapture %}
 
 {% include project.html
