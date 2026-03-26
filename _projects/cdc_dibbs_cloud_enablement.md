@@ -9,7 +9,7 @@ feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 131
-display: true
+display: false
 tags:
   [service delivery,
   research & design,
@@ -72,7 +72,7 @@ practices:
 project_url: https://cdcgov.github.io/dibbs-site
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/dibbs-cloud
-skip_index: false
+skip_index: true
 ---
 <script>location="https://skylight.digital/work/experience/"</script>
 
