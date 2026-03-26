@@ -78,7 +78,7 @@ practices:
   - "Virtual collaboration"
 news_posts:
 project_url: https://dibbs.tools
-project_cta: "See the site"
+project_cta: "See the tools"
 source_code_url:
 ---
 
