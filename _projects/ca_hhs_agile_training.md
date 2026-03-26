@@ -55,7 +55,7 @@ The CHHS Office of Innovation had invested in agile training, and the team under
   cite_title = "Deputy Director, Office of Innovation at CHHS"
 %}
 
-**The gap wasn't knowledge — it was experience.** Without having worked through a full delivery cycle using agile practices end to end, teams struggled to apply what they'd learned to real projects. Previous trainings had taught concepts in isolation, but none had shown how planning, estimation, velocity tracking, and testing reinforce each other as a system. The Office of Innovation needed something fundamentally different: not another lecture, but a way to practice agile as it actually works.
+The gap wasn't knowledge — it was experience. Without having worked through a full delivery cycle using agile practices end to end, teams struggled to apply what they'd learned to real projects. Previous trainings had taught concepts in isolation, but none had shown how planning, estimation, velocity tracking, and testing reinforce each other as a system. The Office of Innovation needed something fundamentally different: not another lecture, but a way to practice agile as it actually works.
 {% endcapture %}
 
 {% capture solution %}
