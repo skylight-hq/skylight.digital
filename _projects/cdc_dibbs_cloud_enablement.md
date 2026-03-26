@@ -69,7 +69,7 @@ practices:
   - "Virtual collaboration"
   - "Remote teams"
 project_url: https://dibbs.tools
-project_cta: "See the site"
+project_cta: "See the tools"
 source_code_url: https://github.com/CDCgov/dibbs-cloud
 news_posts:
 ---
