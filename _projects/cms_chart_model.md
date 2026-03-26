@@ -4,7 +4,7 @@ title_tag: Centers for Medicare & Medicaid Services
 title: Helping rural hospitals use data to improve financial stability and access to care
 permalink: /work/experience/cms_chart_model/
 image: /img/projects/cms_chart_model/idos.svg
-image_description: On the left, a doctor checks a patient's heartbeat. On the right, the same person walks a dog outside.
+image_description: On the left, a doctor checks a patient’s heartbeat. On the right, the same person walks a dog outside.
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -58,7 +58,7 @@ However, many rural providers lacked the tools and infrastructure needed to use 
 
 {% include callout.html
   type = "pullquote"
-  content = "We send reports out to a third party to have them written. We don't have a lot of funds to do that. It's hard to get data out. We go with bare minimum reporting because system-generated reports aren't useful."
+  content = "We send reports out to a third party to have them written. We don’t have a lot of funds to do that. It’s hard to get data out. We go with bare minimum reporting because system-generated reports aren’t useful."
   cite_name = "Rural hospital executive"
 %}
 
@@ -74,11 +74,16 @@ We began with in-depth research across nearly a dozen hospitals, engaging execut
 
 From these insights, we identified key data gaps and prioritized the types of information most valuable to providers — including disease prevalence, peer cost comparisons, and hospital quality metrics.
 
-We then translated these insights into tangible solutions. First, we prototyped dashboards using Centers for Medicare & Medicaid Services (CMS) financial and quality data. Next, we tested and iterated with users to refine usability and information hierarchy. Then, we identified opportunities to streamline access to high-value data and evaluated off-the-shelf tooling options aligned to user needs.
+We then translated these insights into tangible solutions by:
+
+- Prototyping dashboards using CMS financial and quality data  
+- Testing and iterating with users to refine usability and information hierarchy  
+- Identifying opportunities to streamline access to high-value data  
+- Evaluating off-the-shelf tooling options aligned to user needs  
 
 {% include callout.html
   type = "pullquote"
-  content = "We don't have access to this kind of data anywhere else right now. This is helpful for honing in on areas to improve care."
+  content = "We don’t have access to this kind of data anywhere else right now. This is helpful for honing in on areas to improve care."
   cite_name = "Rural hospital executive"
 %}
 
@@ -88,11 +93,11 @@ This approach not only improved immediate access to data, but also established a
 {% endcapture %}
 
 {% capture results %}
-- Led the CHART model team's first discovery sprints with participating providers
-- Conducted 11 in-depth interviews across hospital leadership and operational roles
-- Developed and tested prototype dashboards based on real provider needs
-- Identified critical data gaps and opportunities to improve decision-making
-- Helped establish user research as a core practice within the program
+- Led the CHART model team’s first discovery sprints with participating providers  
+- Conducted 11 in-depth interviews across hospital leadership and operational roles  
+- Developed and tested prototype dashboards based on real provider needs  
+- Identified critical data gaps and opportunities to improve decision-making  
+- Helped establish user research as a core practice within the program  
 {% endcapture %}
 
 {% include project.html
