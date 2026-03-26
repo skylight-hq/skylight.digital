@@ -9,7 +9,7 @@ feature_image: /img/projects/cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.gif
 feature_image_description: Walkthrough of eCR Viewer MVP
 feature_image_shadow: true
 order: 120
-display: true
+display: false
 tags: [
     service delivery,
     research & design,
@@ -90,9 +90,9 @@ practices:
 project_url: https://cdcgov.github.io/dibbs-site
 project_cta: See the site
 source_code_url: https://github.com/CDCgov/phdi
-skip_index: false
+skip_index: true
 ---
-
+<script>location="https://skylight.digital/work/experience/"</script>
 {% capture summary %}
 Public health departments currently struggle to use and sort through incoming electronic case reporting (eCR) data. As part of our work with the Centers for Disease Control and Prevention (CDC) and U.S. Digital Service (USDS, now U.S. DOGE Service), we've built an intuitive interface that surfaces key information from eCR files to make them more useful for monitoring the spread of reportable conditions.
 {% endcapture %}
