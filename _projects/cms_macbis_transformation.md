@@ -41,7 +41,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Center for Medicaid and Children's Health Insurance Program (CHIP) Services (CMCS) needed to better leverage Medicaid and CHIP data to improve decision-making and outcomes, but its systems and practices were fragmented and difficult to scale. We partnered with CMCS to introduce modern product, data, and delivery practices across the MACBIS portfolio, enabling the organization to operate more cohesively and use data more effectively.
+CMCS needed to better leverage Medicaid and CHIP data to improve decision-making and outcomes, but its systems and practices were fragmented and difficult to scale. We partnered with CMCS to introduce modern product, data, and delivery practices across the MACBIS portfolio, enabling the organization to operate more cohesively and use data more effectively.
 {% endcapture %}
 
 {% capture challenge %}
@@ -63,7 +63,7 @@ CMCS needed to move beyond isolated system improvements and adopt a more integra
 {% capture solution %}
 We partnered with CMCS to design and implement a transformation approach that combined immediate improvements with long-term capability building.
 
-Our work focused on establishing a more cohesive operating model across the MACBIS portfolio. First, we defined and introduced a product-based approach to managing systems, shifting from siloed projects to outcome-oriented product ownership. Next, we designed and conducted maturity assessments to benchmark current capabilities and prioritize the highest-impact improvements. Then, we facilitated the co-creation of a playbook that established shared principles for modern digital and data practices. We also conducted a service design engagement to map the full MACBIS ecosystem, revealing how users interacted across systems and where critical gaps existed. Finally, we introduced practices such as objectives and key results, product canvases, agile roadmaps, and product health checks to improve decision-making and execution.
+Our work focused on establishing a more cohesive operating model across the MACBIS portfolio. First, we defined and introduced a product-based approach to managing systems, shifting from siloed projects to outcome-oriented product ownership. Next, we designed and conducted maturity assessments to benchmark current capabilities and prioritize the highest-impact improvements. Then, we facilitated the co-creation of a playbook that established shared principles for modern digital and data practices. We also conducted a service design engagement to map the full MACBIS ecosystem, revealing how users interacted across systems and where critical gaps existed. Finally, we introduced practices such as OKRs (objectives and key results), product canvases, agile roadmaps, and product health checks to improve decision-making and execution.
 
 We complemented these changes with hands-on coaching, training, and capacity building across the organization to accelerate adoption and ensure sustainability.
 
