@@ -13,7 +13,7 @@ feature_image_shadow:
 order: 4300
 display: true
 tags: [transformation, chris cairns, robert read]
-excerpt: A consulting practice within GSA's 18F that helped federal agencies build digital capability through hands-on delivery, coaching, and organizational change.
+excerpt: A multidisciplinary consulting practice within GSA's 18F that helped federal agencies build internal digital capability through hands-on delivery, coaching, and modern acquisition practices.
 project_members:
   - chris-cairns
   - robert-read
@@ -43,8 +43,6 @@ practices:
   - Peer mentoring and coaching
   - Continuous improvement
 news_posts:
-  - title: At 10 years, GSA's tech consulting team (18F) celebrates over 450 projects to make government work better
-    url: https://www.gsa.gov/about-us/newsroom/news-releases/at-10-years-gsas-tech-consulting-team-18f-cele-03192024
   - title: 18F to launch consulting group and project dashboard
     url: https://fcw.com/articles/2014/10/27/18f-consulting-group.aspx
   - title: 18F expands efforts to state and local governments
@@ -69,23 +67,23 @@ What was missing wasn't another set of recommendations — it was a working proo
 {% endcapture %}
 
 {% capture solution %}
-**Chris co-founded 18F Consulting and, along with Robert, designed it as a new model for delivering digital transformation inside government.** Rather than importing a single methodology wholesale, they built an approach that combined modern digital practices with the expertise of career civil servants and federal contractors.
+Chris co-founded 18F Consulting and, along with Robert, designed it as a new model for delivering digital transformation inside government. Rather than importing a single methodology wholesale, they built an approach that combined modern digital practices with the expertise of career civil servants and federal contractors.
 
-**First, they built the team.** Using the Schedule A(r) hiring authority, they recruited more than 40 multidisciplinary experts — spanning design, product, engineering, data, policy, and acquisition — bringing private-sector skills into public service.
+First, they built the team. Using the Schedule A(r) hiring authority, they recruited more than 40 multidisciplinary experts — spanning design, product, engineering, data, policy, and acquisition — bringing private-sector skills into public service.
 
-**Next, they established a delivery model built on hands-on collaboration.** Instead of handing agencies a report and walking away, their teams worked directly alongside agency partners, introducing practices like agile delivery, product management, and user-centered design through real projects with real outcomes.
+Next, they established a delivery model built on hands-on collaboration. Instead of handing agencies a report and walking away, their teams worked directly alongside agency partners, introducing practices like agile delivery, product management, and user-centered design through real projects with real outcomes.
 
-**Then, they scaled what worked.** The success of 18F Consulting seeded multiple new organizations within GSA's Technology Transformation Services — including the Office of Acquisitions, 18F Transformation, and 18F Learn — and inspired other agencies to stand up their own digital teams modeled on the same principles.
+Then, they scaled what worked. The success of 18F Consulting seeded multiple new organizations within GSA's Technology Transformation Services — including the Office of Acquisitions, 18F Transformation, and 18F Learn — and inspired other agencies to stand up their own digital teams modeled on the same principles.
 {% endcapture %}
 
 {% capture results %}
-- **Influenced more than $1 billion** in IT acquisition decisions across government
-- **Delivered nearly 45 projects** for federal, state, and local agencies
-- **Recruited and hired more than 40 multidisciplinary experts** across design, product, engineering, data, policy, and acquisition
-- **Achieved strong client satisfaction** — a Government Accountability Office (GAO) survey found 23 of 26 respondents were very or moderately satisfied
-- **Helped agencies avoid hundreds of millions of dollars** in unnecessary technology acquisition costs
-- **Catalyzed the creation of agency-specific digital teams** modeled after 18F Consulting
-- **Produced and shared more than 35 public resources** to scale knowledge across government
+- Influenced more than $1 billion in IT acquisition decisions across government
+- Delivered nearly 45 projects for federal, state, and local agencies
+- Recruited and hired more than 40 multidisciplinary experts across design, product, engineering, data, policy, and acquisition
+- Achieved strong client satisfaction — a Government Accountability Office survey found 23 of 26 respondents were very or moderately satisfied
+- Helped agencies avoid hundreds of millions of dollars in unnecessary technology acquisition costs
+- Catalyzed the creation of agency-specific digital teams modeled after 18F Consulting
+- Produced and shared more than 35 public resources to scale knowledge across government
 {% endcapture %}
 
 {% include project.html
