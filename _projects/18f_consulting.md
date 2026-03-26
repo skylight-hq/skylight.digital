@@ -74,11 +74,11 @@ What was missing wasn't another set of recommendations — it was a working proo
 {% capture solution %}
 **Chris co-founded 18F Consulting and, along with Robert, designed it as a new model for delivering digital transformation inside government.** Rather than importing a single methodology wholesale, they built an approach that combined modern digital practices with the expertise of career civil servants and federal contractors.
 
-**First, they built the team.** Using the Schedule A(r) hiring authority, they recruited more than 40 multidisciplinary experts — spanning design, product, engineering, data, policy, and acquisition — bringing private-sector skills into public service.
+**They built the team using the Schedule A(r) hiring authority,** recruiting more than 40 multidisciplinary experts — spanning design, product, engineering, data, policy, and acquisition — bringing private-sector skills into public service.
 
-**Next, they established a delivery model built on hands-on collaboration.** Instead of handing agencies a report and walking away, their teams worked directly alongside agency partners, introducing practices like agile delivery, product management, and user-centered design through real projects with real outcomes.
+**The delivery model centered on hands-on collaboration.** Instead of handing agencies a report and walking away, their teams worked directly alongside agency partners, introducing practices like agile delivery, product management, and user-centered design through real projects with real outcomes.
 
-**Then, they scaled what worked.** The success of 18F Consulting seeded multiple new organizations within GSA's Technology Transformation Services — including the Office of Acquisitions, 18F Transformation, and 18F Learn — and inspired other agencies to stand up their own digital teams modeled on the same principles.
+**The success of 18F Consulting seeded growth across GSA** and beyond. It spawned multiple new organizations within GSA's Technology Transformation Services — including the Office of Acquisitions, 18F Transformation, and 18F Learn — and inspired other agencies to stand up their own digital teams modeled on the same principles.
 {% endcapture %}
 
 {% capture results %}
