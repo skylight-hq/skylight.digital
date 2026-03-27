@@ -107,11 +107,11 @@ The data challenges LAC faced — siloed systems, low-quality data, manual clean
 {% endcapture %}
 
 {% capture results %}
-- **LAC staff can create program-specific data marts in a few hours** rather than months, giving disease teams access to processed eCR data for case investigation and analysis
+- **Pipeline processes ELR data at a near 100% success rate** without requiring significant modifications, enabling LAC disease teams to access and analyze cleaned ELR data
 - **Case investigators on the Hepatitis team receive eCR data 95% faster** (from 20 hours to 1 hour)
 - **Case investigators can quickly and easily identify positive Hepatitis A cases** in an aggregated tabular format (versus sifting through individual HTML files) resulting in ~12 minutes of time savings per Hepatitis A case
 - **Pipeline saves LAC technical staff 6 hours a week** by eliminating the need to manually run data processing scripts
-- **Pipeline processes ELR data at a near 100% success rate** without requiring significant modifications, enabling LAC disease teams to access and analyze cleaned ELR data
+- **LAC staff can create program-specific data marts in a few hours** rather than months, giving disease teams access to processed eCR data for case investigation and analysis
 - **LAC staff can operate the pipeline independently** and continuously expand use of eCR data to new program areas
 {% endcapture %}
 
