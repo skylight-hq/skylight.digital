@@ -104,10 +104,10 @@ VA innovators could share their work with partners outside the VA for the first 
 {% endcapture %}
 
 {% capture results %}
-- **Facilitated 3,770 successful innovation adoptions** across the VA health network, turning isolated facility practices into shared, replicable solutions
-- **Expanded the platform from 50 to 262 innovations,** making proven practices from individual facilities discoverable system-wide
 - **Delivered an alpha within two months** and launched a beta with a small user base in summer 2019
 - **Launched a public version in fall 2021,** extending access beyond VA employees to external healthcare providers and the general public
+- **Expanded the platform from 50 to 262 innovations,** making proven practices from individual facilities discoverable system-wide
+- **Facilitated 3,770 successful innovation adoptions** across the VA health network, turning isolated facility practices into shared, replicable solutions
 {% endcapture %}
 
 {% include project.html
