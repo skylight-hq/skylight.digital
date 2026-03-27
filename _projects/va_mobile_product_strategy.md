@@ -1,33 +1,39 @@
 ---
 layout: default
-title_tag: Veterans Affairs
-title: Defining the VA's flagship mobile app strategy
+title_tag: "Veterans Affairs"
+title: "Defining the VA's flagship mobile app strategy"
 permalink: /work/experience/va-mobile-product-strategy/
 redirect_from:
   - /work/va-mobile-product-strategy/
 image: /img/projects/va_mobile_product_strategy/va-flagship-mobile-app.svg
-image_description: A veteran using a VA flagship mobile app.
+image_description: "A veteran using a VA flagship mobile app."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2600
 display: true
-tags: [microconsulting, apis, veterans, healthcare, sean johnson, chris cairns]
-excerpt: A mobile product strategy that gave the VA an evidence-based roadmap for delivering a flagship app to veterans.
+tags:
+  - "microconsulting"
+  - "apis"
+  - "veterans"
+  - "healthcare"
+  - "sean johnson"
+  - "chris cairns"
+excerpt: "A mobile product strategy that gave the VA an evidence-based roadmap for delivering a flagship app to veterans."
 project_members:
   - sean-johnson
   - chris-cairns
 technologies:
-  - Zoom
-  - Google Workspace
-  - Git / GitHub
+  - "Zoom"
+  - "Google Workspace"
+  - "Git / GitHub"
 practices:
-  - Primary research
-  - Secondary research
-  - Comparative analysis
-  - User interviews
-  - Lean startup
-  - Research analysis and synthesis
+  - "Primary research"
+  - "Secondary research"
+  - "Comparative analysis"
+  - "User interviews"
+  - "Lean startup"
+  - "Research analysis and synthesis"
 news_posts:
   - title: "VA health and benefits app reaches 3 million downloads"
     url: https://news.va.gov/press-room/va-health-and-benefits-app-reaches-3-million-downloads/
@@ -40,7 +46,7 @@ news_posts:
   - title: "Creating a flagship mobile app to meet Veterans' needs"
     url: https://adhoc.team/2022/01/26/creating-flagship-mobile-app-to-meet-veterans-needs/
 project_url: https://github.com/skylight-hq/VA-Micropurchase-Repo/blob/master/2018-13-2018_VA%20Flagship_Mobile_Application/Deliverables/Skylight%20Digital%20LLC/va_flagship_mobile_application_analysis_summary.md
-project_cta: See the report
+project_cta: "See the report"
 source_code_url:
 ---
 
