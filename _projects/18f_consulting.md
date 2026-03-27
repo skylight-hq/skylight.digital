@@ -80,11 +80,11 @@ The model proved transferable. **The success of 18F Consulting seeded growth acr
 {% endcapture %}
 
 {% capture results %}
-- **Influenced more than $1 billion** in IT acquisition decisions across government
-- **Delivered nearly 45 projects** for federal, state, and local agencies
 - **Recruited and hired more than 40 multidisciplinary experts** across design, product, engineering, data, policy, and acquisition
-- **Achieved strong client satisfaction** — a Government Accountability Office (GAO) survey found 23 of 26 respondents were very or moderately satisfied
+- **Delivered nearly 45 projects** for federal, state, and local agencies
+- **Influenced more than $1 billion** in IT acquisition decisions across government
 - **Helped agencies avoid hundreds of millions of dollars** in unnecessary technology acquisition costs
+- **Achieved strong client satisfaction** — a Government Accountability Office (GAO) survey found 23 of 26 respondents were very or moderately satisfied
 - **Catalyzed the creation of agency-specific digital teams** modeled after 18F Consulting
 - **Produced and shared more than 35 public resources** to scale knowledge across government
 {% endcapture %}
