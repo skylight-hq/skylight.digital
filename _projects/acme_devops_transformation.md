@@ -82,8 +82,8 @@ The goal was never to run ACME's DevOps transformation for them. **By the end of
 {% endcapture %}
 
 {% capture results %}
-- **Scaled the DevOps Center of Excellence** from an initial team of more than 10 specialists to a broader digital capability organization of more than 60 people
 - **Stood up the CoE** within months of engagement kickoff
+- **Scaled the DevOps Center of Excellence** from an initial team of more than 10 specialists to a broader digital capability organization of more than 60 people
 - **Improved software delivery speed, stability, and quality** across a 400+ person IT organization
 - **Established a sustainable, internally-owned operating model** using DORA benchmarking and continuous health checks
 - **Positioned ACME as an emerging leader** in enterprise DevOps and digital delivery
