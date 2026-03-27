@@ -114,9 +114,9 @@ Finding critical information from eCR data can feel like looking for a needle in
 {% capture solution %}
 **Skylight developed the eCR Viewer as part of a multi-year CDC and USDS [initiative focused on pandemic readiness and interoperability](https://www.cdc.gov/data-modernization/php/index.html)** to make eCR data more usable for public health staff. The tool surfaces a summary of condition-specific information in a readable format at the top of each eCR file, so staff can quickly find what's relevant to the reportable condition. It also orders and organizes data consistently regardless of which electronic medical record system generated the eCR — making it significantly easier to find clinical information for case investigation and reducing the need to manually contact healthcare providers.
 
-**User research revealed a clear design principle: surface the right information first.** The team conducted discovery with public health staff and found that the core problem wasn't the volume of eCR data itself — it was that condition-relevant information was buried deep inside each file with no consistent structure. That insight drove the eCR Viewer's central design decision: present a condition-specific summary at the top of every eCR in a readable, consistent format. The team tested concept designs with users, iterated toward a lightweight minimum viable product (MVP), and established a measurement plan to validate time savings and adoption impact.
+Discovery research with public health staff shaped a clear design principle: **surface the right information first.** The core problem wasn't the volume of eCR data itself — it was that condition-relevant information was buried deep inside each file with no consistent structure. That insight drove the eCR Viewer's central design decision: present a condition-specific summary at the top of every eCR in a readable, consistent format. The team tested concept designs with users, iterated toward a lightweight minimum viable product (MVP), and established a measurement plan to validate time savings and adoption impact.
 
-**The team embedded the eCR Viewer into CDC's existing surveillance infrastructure** rather than building a standalone tool. We partnered with General Dynamics Information Technology (GDIT) to integrate the eCR Viewer into CDC's National Electronic Disease Surveillance System (NEDSS) Base System (NBS) with pilot jurisdictions, including the states of Maine and Tennessee. We also established a separate pilot with the city of Philadelphia to evaluate the eCR Viewer as a web-based tool hosted by CDC outside of a surveillance system — testing whether the approach could work across different deployment models.
+Rather than building a standalone tool, **the team embedded the eCR Viewer into CDC's existing surveillance infrastructure.** We partnered with General Dynamics Information Technology (GDIT) to integrate the eCR Viewer into CDC's National Electronic Disease Surveillance System (NEDSS) Base System (NBS) with pilot jurisdictions, including the states of Maine and Tennessee. We also established a separate pilot with the city of Philadelphia to evaluate the eCR Viewer as a web-based tool hosted by CDC outside of a surveillance system — testing whether the approach could work across different deployment models.
 
 Initial results from our research efforts have been promising:
 
@@ -126,16 +126,14 @@ Initial results from our research efforts have been promising:
   cite_name = "Epidemiologist"
 %}
 
-**Pilots commenced in summer 2024** to test the eCR Viewer in production data environments and further validate the tool's downstream public health impact. The aim is to scale across a wide range of jurisdictions and turn eCR into the go-to data source for case ascertainment and investigation. Importantly, the eCR Viewer isn't a standalone product — it works in concert with a wider portfolio of [open-source, modular tools](/work/experience/cdc-dibbs/) that together enable jurisdictions to build flexible, modern data systems that improve the larger public health data infrastructure.
+Pilots commenced in summer 2024 to test the eCR Viewer in production data environments and further validate the tool's downstream public health impact. The aim is to scale across a wide range of jurisdictions and turn eCR into the go-to data source for case ascertainment and investigation. The eCR Viewer isn't a standalone product — it works in concert with a wider portfolio of [open-source, modular tools](/work/experience/cdc-dibbs/) that together enable jurisdictions to build **flexible, modern data systems that improve the larger public health data infrastructure.**
 {% endcapture %}
 
 {% capture results %}
-
 - **Completed design and development of an eCR Viewer MVP** and validated its potential time savings with public health staff
 - **eCR processing reduced from 25 clicks to 5 clicks** — based on user testing with a lightweight MVP, the eCR Viewer enables staff to process a singular eCR file for case ascertainment in five clicks rather than twenty-five clicks
 - **Queue processing time reduced from 4.5 months to one week** — based on user journey mapping in Maine, the eCR Viewer enables staff to process all eCR files in a queue (over 5,000) in just one week rather than 4.5 months
 - **Three pilot jurisdictions committed** to testing the eCR Viewer in production environments, with kickoff commencing in summer 2024
-
 {% endcapture %}
 
 {% include project.html
