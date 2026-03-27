@@ -172,9 +172,7 @@ Adding to the complexity were health departments' differing requirements. As one
   content = "It's a challenge to do the test, put it on paper, then go back and enter it in both formats — for the county and state."
 %}
 
-Even when facilities did have tools to track patients and results, many lacked the ability to automatically report to their jurisdictions in the different formats that they required.
-
-On the receiving end, public health departments had to process manual reports sent from a variety of locations, which took time and resulted in errors. This manual and cumbersome process made it difficult to act fast and stay informed.
+Even when facilities did have tools to track patients and results, many lacked the ability to automatically report to their jurisdictions in the different formats that they required. On the receiving end, public health departments had to process manual reports sent from a variety of locations, which took time and resulted in errors. This manual and cumbersome process made it difficult to act fast and stay informed.
 {% endcapture %}
 
 {% capture solution %}
@@ -185,24 +183,22 @@ On the receiving end, public health departments had to process manual reports se
   content = "Going from what we were doing to this is awesome. It's very easy to use."
 %}
 
-**After assuming full management of SimpleReport from our USDS partners, we focused on making it easier to adopt at scale.** We redesigned the account creation, login, and password reset experiences to speed up onboarding while maintaining security. We added bulk CSV upload so facilities could report large volumes of results without entering them one at a time. And we built an analytics dashboard and one-click results download to reduce reporting burden beyond what goes to public health departments.
+Once we assumed full management of SimpleReport from our USDS partners, the focus shifted to adoption at scale. **We redesigned the account creation, login, and password reset experiences** to speed up onboarding while maintaining security. We added bulk CSV upload so facilities could report large volumes of results without entering them one at a time. And we built an analytics dashboard and one-click results download to reduce reporting burden beyond what goes to public health departments.
 
-**We kept the platform reliable through continuous deployment and 24/7 on-call support.** Automated service monitoring and close coordination with CDC's support team kept issues from reaching end users. When a feature's code passes testing, it's live for users within 20 minutes. We also integrated accessibility reviews into design and engineering workflows to maintain Web Content Accessibility Guidelines (WCAG) Level AA compliance throughout.
+Scaling also meant keeping the platform reliable for a growing user base. **Automated service monitoring, continuous deployment, and 24/7 on-call support** kept issues from reaching end users — when a feature's code passes testing, it's live for users within 20 minutes. We also integrated accessibility reviews into design and engineering workflows to maintain Web Content Accessibility Guidelines (WCAG) Level AA compliance throughout.
 
-**With the COVID-19 foundation in place, we expanded SimpleReport to cover additional infectious diseases.** We added support for multiplex devices that test for both COVID-19 and flu, then partnered with California's Department of Public Health to launch flu and respiratory syncytial virus (RSV) reporting for facilities that previously had no way to report electronically. We also established a pilot with the Los Angeles County Department of Public Health to support HIV and STI reporting — proving that the tool's modular design could adapt to new diseases without rebuilding the core platform.
+With the COVID-19 foundation in place, the team turned to a bigger question: could SimpleReport work for other diseases? **We added support for multiplex devices** that test for both COVID-19 and flu, then partnered with California's Department of Public Health to launch flu and respiratory syncytial virus (RSV) reporting for facilities that previously had no way to report electronically. We also established a pilot with the Los Angeles County Department of Public Health to support HIV and STI reporting — proving that the tool's modular design could adapt to new diseases without rebuilding the core platform.
 
-**The result is public health reporting infrastructure that didn't exist before** — connecting thousands of facilities that were invisible to surveillance systems and giving them a path to report on whatever comes next. SimpleReport isn't just a COVID-era tool; it's the structural groundwork for faster, more complete responses to future health crises.
+The result is public health reporting infrastructure that didn't exist before — **connecting thousands of facilities that were invisible to surveillance systems** and giving them a path to report on whatever comes next. SimpleReport isn't just a COVID-era tool; it's the structural groundwork for faster, more complete responses to future health crises.
 {% endcapture %}
 
 {% capture results %}
 - **Over 8.2 million tests** reported since launch (from January 2021 to April 2024)
-- **Over 17,300 facilities** reporting tests through SimpleReport
-- **All 50 states represented,** as well as other U.S. territories and Canadian provinces
+- **Over 17,300 facilities** reporting tests through SimpleReport across **all 50 states,** as well as other U.S. territories and Canadian provinces
 - **More than 2.3 million text messages** sent notifying patients of their test results
 - **Cited as a Data Modernization Initiative (DMI) success story** in a presentation to CDC Director Dr. Walensky for its "game-changing" work in Alaska
 - **Support for flu reporting launched in July 2023** and RSV reporting went live in January 2024 following a successful pilot with California
-- **More than 1,150 facilities in five states** have joined the flu and RSV pilot
-- **Over 143,000 flu test results and over 4,200 RSV test results** reported through SimpleReport
+- **More than 1,150 facilities in five states** have joined the flu and RSV pilot, reporting **over 143,000 flu test results and over 4,200 RSV test results**
 - **Support for HIV reporting** is scheduled to go live in April 2024 with the Los Angeles Community Health Project
 {% endcapture %}
 
