@@ -1,94 +1,87 @@
 ---
 layout: default
-title_tag: "18F Consulting"
-title: "Pioneering a model for digital transformation across government"
-permalink: /work/experience/18f-consulting/
-redirect_from:
-  - /work/18f-consulting/
-image: /img/projects/18f_consulting/digital-mastery.svg
-image_description: "A quartet playing instruments, with digital symbols emerging as sound waves."
+title_tag: "State of Connecticut"
+title: "Improving how Connecticut supports families with young children experiencing homelessness"
+permalink: /work/experience/ct-families-experiencing-homelessness/
+image: /img/projects/ct_families_experiencing_homelessness/families-experiencing-homelessness.svg
+image_description: "A social worker holding a device and discussing housing options with a family."
 feature_image:
 feature_image_description:
 feature_image_shadow:
-order: 4300
+order: 2200
 display: true
 tags:
-  - "transformation"
-  - "chris cairns"
-  - "robert read"
-excerpt: "A consulting practice within GSA's 18F that helped federal agencies build digital capability through hands-on delivery, coaching, and organizational change."
+  - "research & design"
+  - "product management"
+  - "early childhood"
+  - "social safety net"
+  - "data & analytics"
+  - "lara kohl"
+  - "gabriel ramirez"
+excerpt: "Identified gaps in how Connecticut tracks and supports families experiencing homelessness and designed a more effective, data-driven approach to prioritizing services."
 project_members:
-  - chris-cairns
-  - robert-read
+  - lara-kohl
+  - gabriel-ramirez
 technologies:
-  - "Lever (recruiting software)"
-  - "Google Workspace"
-  - "Trello"
-  - "Slack"
   - "Mural"
-  - "appear.in"
-  - "cloud.gov / Amazon Web Services"
-  - "Federalist / GitHub Pages"
-  - "Jekyll"
-  - "Git / GitHub"
-  - "Apple"
+  - "Smartsheets"
+  - "Caseworthy"
+  - "SQL"
 practices:
-  - "Servant leadership"
-  - "Team of teams"
-  - "Management by objectives"
-  - "Schedule A(r) hiring authority"
-  - "Civic recruiting"
-  - "Performance profiles"
-  - "Google interview practices"
-  - "Open innovation"
-  - "Virtual collaboration"
-  - "Knowledge management"
-  - "Peer mentoring and coaching"
-  - "Continuous improvement"
+  - "User research"
+  - "Journey mapping"
+  - "Technical discovery"
+  - "User experience design"
+  - "Agile development"
+  - "Rapid prototyping"
 news_posts:
-  - title: "At 10 years, GSA's tech consulting team (18F) celebrates over 450 projects to make government work better"
-    url: https://www.gsa.gov/about-us/newsroom/news-releases/at-10-years-gsas-tech-consulting-team-18f-cele-03192024
-  - title: "18F to launch consulting group and project dashboard"
-    url: https://fcw.com/articles/2014/10/27/18f-consulting-group.aspx
-  - title: "18F expands efforts to state and local governments"
-    url: https://www.fedscoop.com/18f-expands-efforts-to-state-and-local-governments/
-  - title: "Feds Extend 18F's Silicon Valley Expertise to Cities, States"
-    url: https://www.govtech.com/federal/feds-extend-18fs-silicon-valley-expertise-to-cities-states.html
+  - title: "Governor Lamont Creates Task Force on Housing and Supports for Vulnerable Populations"
+    url: https://portal.ct.gov/governor/working-groups/task-force-on-housing-and-supports-for-vulnerable-populations
 project_url:
 project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-Before founding Skylight, Chris Cairns and Robert Read built 18F Consulting — a multidisciplinary consulting practice within the General Services Administration's (GSA) 18F — from the ground up. They designed it to help federal agencies adopt modern digital practices not by outsourcing the work, but by building internal capability through hands-on delivery, coaching, and organizational change.
+As part of our [digital transformation work with Connecticut's Office of Early Childhood](/work/experience/ct-oec-transformation/), we helped the state develop a clearer, data-driven approach to identifying and supporting families with young children experiencing homelessness — improving how providers prioritize families for housing and services.
 {% endcapture %}
 
 {% capture challenge %}
-Federal agencies manage billions of dollars in technology spending each year, yet most didn't have the internal capability to deliver digital services effectively. Outdated procurement practices, siloed teams, and a reliance on large contractors left agencies dependent on external vendors — not just for building technology, but for understanding what to build in the first place.
+In 2019, Connecticut launched a multi-agency effort to better understand and support vulnerable populations experiencing homelessness. The Governor's Task Force on Housing and Supports for Vulnerable Populations brought together state agencies, community organizations, and service providers to coordinate a response.
 
-The problem wasn't simply technical. Agencies lacked the talent pipelines, operating models, and institutional knowledge needed to adopt practices like agile delivery, user-centered design, and product management. Previous reform efforts tended to focus on policy mandates rather than practical capability building, and there was no established model within government for how to institutionalize these changes at scale.
+{% include callout.html
+  type = "pullquote"
+  content = "This task force will take a data-driven approach to seek a better understanding
+  of this population, and to pilot better ways to make sure we can quickly meet
+  all of a household's critical needs, stabilizing them more quickly, and achieving
+  better outcomes for these Connecticut residents as well as for our publicly
+  funded systems."
+  cite_name = "Lisa Tepper Bates"
+  cite_title = "Co-chair, Governor's Task Force"
+%}
 
-What was missing wasn't another set of recommendations — it was a working proof of concept: a team inside government that could demonstrate modern digital practices through direct delivery while coaching agency partners to sustain the work independently.
+As part of this effort, we focused on families with children from birth to age five — a group with distinct and often overlooked needs. Many of these families didn't appear in official homelessness data at all. When families doubled up with relatives or friends rather than entering the shelter system, they fell outside the definitions that triggered formal tracking. That meant the state couldn't see the full scope of the problem, let alone prioritize resources toward it.
+
+The challenges went beyond visibility. Early childhood needs — especially childcare — created additional barriers to employment and stability that older populations didn't face. And the agencies responsible for supporting these families lacked shared tools and data systems, so coordination happened informally and inconsistently. The central tool for prioritizing families for housing — the family by-name list — was difficult to use and limited in what it could capture, leaving decision-makers without the structured data they needed to act.
 {% endcapture %}
 
 {% capture solution %}
-**Chris co-founded 18F Consulting and, along with Robert, designed it as a new model for delivering digital transformation inside government.** Rather than importing a single methodology wholesale, they built an approach that combined modern digital practices with the expertise of career civil servants and federal contractors.
+We started with discovery research — **interviewing state agencies, community partners, and families themselves** to understand how people actually moved through existing systems and where breakdowns occurred. We mapped how data flowed across programs and found consistent gaps in visibility, coordination, and usability that prevented effective prioritization.
 
-**They built the team using the Schedule A(r) hiring authority,** recruiting more than 40 multidisciplinary experts — spanning design, product, engineering, data, policy, and acquisition — bringing private-sector skills into public service.
+One tool kept surfacing in those conversations: **the family by-name list, which Coordinated Access Networks relied on to prioritize families for housing.** But its design limited its effectiveness. The list couldn't capture the nuanced information providers needed to make good decisions — things like a family's childcare situation, employment barriers, or how long they'd been unstably housed. Improving this one tool could improve decision-making across the entire system.
 
-**The delivery model centered on hands-on collaboration.** Instead of handing agencies a report and walking away, their teams worked directly alongside agency partners, introducing practices like agile delivery, product management, and user-centered design through real projects with real outcomes.
+Rather than simply adding fields to the existing list, **we rethought what data the system needed to collect and how it should be organized to support prioritization decisions.** We developed a working SQL-based prototype to demonstrate how improved data models could drive better outcomes — showing providers and decision-makers what a more useful tool would look like in practice.
 
-**The success of 18F Consulting seeded growth across GSA** and beyond. It spawned multiple new organizations within GSA's Technology Transformation Services — including the Office of Acquisitions, 18F Transformation, and 18F Learn — and inspired other agencies to stand up their own digital teams modeled on the same principles.
+A related problem was that agencies had been interpreting key terms differently. What counted as "homeless" or "unstably housed" varied depending on who was collecting the data, which made cross-agency coordination unreliable. **We created a shared data dictionary** that established common definitions so that data meant the same thing regardless of which agency collected it.
+
+Together, the research, prototype, and data framework gave Connecticut's Coordinated Access Networks **a concrete foundation for identifying and prioritizing families in need** — along with design and technical recommendations to guide future system improvements.
 {% endcapture %}
 
 {% capture results %}
-- **Influenced more than $1 billion** in IT acquisition decisions across government
-- **Delivered nearly 45 projects** for federal, state, and local agencies
-- **Recruited and hired more than 40 multidisciplinary experts** across design, product, engineering, data, policy, and acquisition
-- **Achieved strong client satisfaction** — a Government Accountability Office (GAO) survey found 23 of 26 respondents were very or moderately satisfied
-- **Helped agencies avoid hundreds of millions of dollars** in unnecessary technology acquisition costs
-- **Catalyzed the creation of agency-specific digital teams** modeled after 18F Consulting
-- **Produced and shared more than 35 public resources** to scale knowledge across government
+- **Produced a comprehensive research foundation** that clarified how families with young children experience homelessness and interact with state systems, surfacing gaps invisible in existing data
+- **Built a working prototype of an improved family by-name list** demonstrating how better data structures could improve prioritization and coordination across Coordinated Access Networks
+- **Established a shared data framework** through a data dictionary that aligned multiple agencies on common definitions and data usage
+- **Delivered actionable design and technical recommendations** to guide future system improvements for identifying and supporting vulnerable families
 {% endcapture %}
 
 {% include project.html
