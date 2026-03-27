@@ -45,7 +45,7 @@ Before joining Skylight, Kin Lane created Adopta.Agency — a civic crowdsourcin
 {% endcapture %}
 
 {% capture challenge %}
-Following implementation of the White House's [Open Data Policy](https://project-open-data.cio.gov/policy-memo/), federal agencies released thousands of datasets to the public. The mandate was a landmark step toward transparency — but releasing data and making it usable turned out to be two very different things.
+Following implementation of the White House's [Open Data Policy](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf), federal agencies released thousands of datasets to the public. The mandate was a landmark step toward transparency — but releasing data and making it usable turned out to be two very different things.
 
 Many datasets were incomplete, inconsistently formatted, or missing the structure needed to integrate into applications. Developers who wanted to build on public data often spent more time cleaning and interpreting it than using it. As a result, much of the government's open data investment sat underutilized — technically available, but practically inaccessible.
 
@@ -53,18 +53,18 @@ The core problem was one of scale. No single agency had the capacity to clean, s
 {% endcapture %}
 
 {% capture solution %}
-**Kin designed Adopta.Agency around a simple insight:** the same open-source collaboration model that works for software could work for data. Rather than asking agencies to fix everything themselves, he created a framework that enabled anyone — developers, civic technologists, organizations — to contribute structured improvements to public datasets.
+Kin designed Adopta.Agency around a simple insight: **the same open-source collaboration model that works for software could work for data.** Rather than asking agencies to fix everything themselves, he created a framework that enabled anyone — developers, civic technologists, organizations — to contribute structured improvements to public datasets.
 
-**First, he built the** [blueprint process](http://adopta-agency.github.io/adopta-blueprint/) — an open, step-by-step guide that walked contributors through improving a dataset incrementally. Participants could start by cleaning and structuring raw data into JSON, then progress to transforming it into a fully functional API. Each step added value without requiring contributors to take on the entire dataset at once.
+The key design challenge was making contribution accessible. Most civic technologists were comfortable with code, but not with the messy work of cleaning and structuring government datasets. To bridge that gap, **Kin built the [blueprint process](https://adopta-agency.github.io/adopta-blueprint/) — an open, step-by-step guide** that walked contributors through improving a dataset incrementally. Participants could start by cleaning and structuring raw data into JSON, then progress to transforming it into a fully functional API. Each step added value on its own, so contributors didn't need to take on the entire dataset at once.
 
-**Next, he chose GitHub** as the collaboration platform. This gave distributed contributors a transparent, version-controlled environment for working on shared datasets — the same workflow developers already used for code. The approach lowered the barrier to entry and made every improvement visible and reusable.
+He chose GitHub as the collaboration platform for a deliberate reason: **it gave distributed contributors a transparent, version-controlled environment for working on shared datasets** — the same workflow developers already used for code. This meant the barrier to entry wasn't learning a new tool; it was just applying familiar skills to a new domain. Every improvement was visible, reviewable, and reusable.
 
-**Then, with grant funding from the Knight Foundation,** he built a working prototype and applied it to five federal datasets spanning the U.S. Federal Budget, the Veterans Affairs Open Data Portal, Department of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov. Each dataset produced a reusable blueprint pattern that others could follow to replicate the approach across government.
+With grant funding from the Knight Foundation, Kin built a working prototype and **applied it to five federal datasets** — the U.S. Federal Budget, the Veterans Affairs Open Data Portal, Department of Education Tech Data, My Brother's Keeper, and ClinicalTrials.gov. Each dataset produced a reusable blueprint pattern that others could follow, proving that the model was transferable across agencies and data types.
 {% endcapture %}
 
 {% capture results %}
 - **Secured grant funding from the Knight Foundation** to develop and prototype the model
-- **Applied the approach to five federal datasets,** producing a working proof of concept
+- **Applied the approach to five federal datasets,** producing a working proof of concept across diverse agencies and data types
 - **Created five reusable blueprint patterns** that enabled others to replicate dataset improvements independently
 - **Demonstrated a scalable civic crowdsourcing model** for improving government open data — without requiring additional agency resources
 {% endcapture %}
