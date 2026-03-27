@@ -73,10 +73,10 @@ We also defined an MVP roadmap covering nearly 30 user actions and features, fro
 {% endcapture %}
 
 {% capture results %}
-- **Delivered a comprehensive mobile product strategy** under the federal procurement micropurchase threshold of $10,000
 - **Analyzed 17 flagship mobile apps** across healthcare, banking, and insurance — including Bank of America, USAA, Capital One, Mayo Clinic, Zocdoc, and FollowMyHealth — to establish a private-sector benchmark
 - **Conducted a technical teardown of six iOS apps** to identify architecture patterns and inform the VA's build-versus-buy decision framework
 - **Defined an MVP roadmap of nearly 30 user actions and features,** categorized by launch priority and native-versus-web implementation
+- **Delivered a comprehensive mobile product strategy** under the federal procurement micropurchase threshold of $10,000
 - **Published the full report as open source** with no copyright restrictions, making it freely available for reuse
 {% endcapture %}
 
