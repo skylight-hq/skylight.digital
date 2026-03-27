@@ -1,44 +1,46 @@
 ---
 layout: default
-title_tag: Centers for Medicare & Medicaid Services
-title: Turning data into decisions for rural hospitals
+title_tag: "Centers for Medicare & Medicaid Services"
+title: "Turning data into decisions for rural hospitals"
 permalink: /work/experience/cms_chart_model/
 image: /img/projects/cms_chart_model/idos.svg
-image_description: On the left, a doctor checks a patient's heartbeat. On the right, the same person walks a dog outside.
+image_description: "On the left, a doctor checks a patient's heartbeat. On the right, the same person walks a dog outside."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1150
 display: true
-tags: [transformation, research & design, product management, data & analytics,
-  healthcare, jamie song]
-excerpt: A research-driven data strategy and prototype dashboards that helped rural hospitals make more informed decisions about financial stability and care delivery.
+tags:
+  - "transformation"
+  - "research & design"
+  - "product management"
+  - "data & analytics"
+  - "healthcare"
+  - "jamie song"
+excerpt: "A research-driven data strategy and prototype dashboards that helped rural hospitals make more informed decisions about financial stability and care delivery."
 project_members:
   - jamie-song
 technologies:
-  - Box
-  - Google Workspace
-  - Microsoft SharePoint
-  - Microsoft Teams
-  - Zoom
+  - "Box"
+  - "Google Workspace"
+  - "Microsoft SharePoint"
+  - "Microsoft Teams"
+  - "Zoom"
 practices:
-  - Data strategy
-  - Service design
-  - Stakeholder interviews
-  - User interviews
-  - User research
-  - Information gathering
-  - Primary research
-  - Secondary research
-  - Research analysis and synthesis
-  - Prototyping
-  - Rapid prototyping
-  - Usability testing
-  - User-centered design
-  - Analysis of alternatives
-project_url:
-project_cta:
-source_code_url:
+  - "Data strategy"
+  - "Service design"
+  - "Stakeholder interviews"
+  - "User interviews"
+  - "User research"
+  - "Information gathering"
+  - "Primary research"
+  - "Secondary research"
+  - "Research analysis and synthesis"
+  - "Prototyping"
+  - "Rapid prototyping"
+  - "Usability testing"
+  - "User-centered design"
+  - "Analysis of alternatives"
 news_posts:
   - title: "Trump Administration Announces Initiative to Transform Rural Health"
     url: https://www.cms.gov/newsroom/press-releases/trump-administration-announces-initiative-transform-rural-health
@@ -48,6 +50,9 @@ news_posts:
     url: https://www.fiercehealthcare.com/hospitals/cms-launches-new-payment-model-to-boost-funding-to-rural-healthcare-providers
   - title: "CMS announces a new value-based payment model for rural healthcare providers"
     url: https://www.healthcarefinancenews.com/news/cms-announces-new-value-based-payment-model-rural-healthcare-providers
+project_url:
+project_cta:
+source_code_url:
 ---
 
 {% capture summary %}
