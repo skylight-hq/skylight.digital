@@ -38,23 +38,27 @@ practices:
   - "Oral presentations"
 news_posts:
   - title: "GSA's agile RFI beginning of 'systemic change' in IT acquisition"
-    url: http://federalnewsradio.com/management/2015/01/gsas-agile-rfi-beginning-of-systemic-change-in-it-acquisition/
+    url: https://federalnewsnetwork.com/management/2015/01/gsas-agile-rfi-beginning-of-systemic-change-in-it-acquisition/
   - title: "GSA's new contract to feed hunger for agile IT development services"
-    url: http://federalnewsradio.com/technology/2015/02/gsas-new-contract-to-feed-hunger-for-agile-it-development-services/
+    url: https://federalnewsnetwork.com/technology-main/2015/02/gsas-new-contract-to-feed-hunger-for-agile-it-development-services/
   - title: "Failure is an option for GSA's new 18F agile contract"
-    url: http://federalnewsradio.com/technology/2015/06/failure-is-an-option-for-gsas-new-18f-agile-contract/
+    url: https://federalnewsnetwork.com/technology-main/2015/06/failure-is-an-option-for-gsas-new-18f-agile-contract/
   - title: "GSA Developing Contract for Agile Delivery Services"
-    url: http://www.fedweek.com/fedweek-information-technology/gsa-developing-contract-agile-delivery-services/
-  - title: "GSA takes a big step towards baking agile into federal procurement"
-    url: https://govfresh.com/2015/01/gsa-takes-big-step-towards-baking-agile-federal-procurement/
-  - title: "Say goodbye to 100 page RFPs – 18F found another way"
-    url: http://www.federaltimes.com/story/government/acquisition/2015/07/27/18f-show-dont-tell/30737575/
-  - title: "18F awards 16 spots on new Agile BPA"
-    url: http://www.federaltimes.com/story/government/acquisition/gsa-gwac/2015/08/28/agile-bpa-awards/71327396/
+    url: https://www.fedweek.com/fedweek-information-technology/gsa-developing-contract-agile-delivery-services/
+  - title: "GSA Debuts Plan for an Agile Delivery Services Contract"
+    url: https://fedtechmagazine.com/article/2015/01/gsa-debuts-plan-agile-delivery-services-contract
+  - title: "GSA gives agile development a shot in the arm with awards to 16 vendors"
+    url: https://federalnewsnetwork.com/acquisition/2015/08/gsa-gives-agile-development-shot-arm-awards-16-vendors/
+  - title: "GSA Wants to Make It Easier for Agencies to Buy Agile"
+    url: https://www.nextgov.com/digital-government/2015/01/gsa-wants-make-it-easier-agencies-buy-agile/102528/
+  - title: "18F Awards 16 Firms Spots on Agile BPA"
+    url: https://www.nextgov.com/digital-government/2015/08/18f-awards-16-companies-spots-agile-blanket-purchase-agreement/119807/
+  - title: "Behind the scenes of 18F's agile contract"
+    url: https://fedscoop.com/behind-the-scenes-of-18fs-agile-contract/
   - title: "18F steps up its acquisition game"
-    url: https://washingtontechnology.com/articles/2015/08/14/insights-soloway-18f-progress.aspx
+    url: https://www.washingtontechnology.com/opinion/2015/08/18f-steps-up-its-acquisition-game/341018/
   - title: "Ohio Launches Highly Anticipated 18F-Style RFP"
-    url: http://www.govtech.com/data/Ohio-Launches-Highly-Anticipated-18F-Style-RFP.html
+    url: https://www.govtech.com/data/ohio-launches-highly-anticipated-18f-style-rfp.html
   - title: "Guidelines for Agile, Challenge-based Procurement"
     url: https://hackernoon.com/guidelines-for-agile-challenge-based-procurement-4531ff335422
 project_url:
@@ -75,13 +79,11 @@ The resulting risks compounded. Vendor lock-in limited agencies' ability to cour
 {% endcapture %}
 
 {% capture solution %}
-**Chris and Robert designed the marketplace around a single principle: make vendors prove they can do the work before they get the contract.**
+Chris and Robert designed the marketplace around a single principle: **make vendors prove they can do the work before they get the contract.** Instead of submitting written proposals, vendors built working software using [openFDA](https://open.fda.gov/) as the data source — giving evaluators direct evidence of each vendor's design, development, and delivery capability. This "show, don't tell" approach made it possible to distinguish between vendors who understood agile and those who could actually execute it.
 
-**The prototype challenge replaced written proposals entirely.** Instead of submitting documents, vendors built working software using [openFDA](https://open.fda.gov/) as the data source — giving evaluators direct evidence of each vendor's design, development, and delivery capability. This "show, don't tell" approach made it possible to distinguish between vendors who understood agile and those who could execute it.
+The challenge also exposed how procurement rules had been playing into the vendor lock-in problem. **A [public-domain contracting clause](/thoughts/blog/public-domain-procurement/) ensured that all deliverables — code, data, and documentation — remained government-owned.** This meant agencies could switch vendors or bring work in-house without losing access to what had already been built — a deliberate structural safeguard against the lock-in dynamics the challenge section describes.
 
-**A public-domain contracting clause tackled vendor lock-in.** The [clause](/thoughts/blog/public-domain-procurement/) ensured that all deliverables — code, data, and documentation — remained government-owned. This meant agencies could switch vendors or bring work in-house without losing access to what had already been built.
-
-**The contracting infrastructure made the marketplace usable at scale.** The vehicle combined a Blanket Purchase Agreement under GSA's IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluation guides — giving agencies everything they needed to run a procurement in weeks rather than months.
+Making a better evaluation method wasn't enough if agencies couldn't actually use it. **The marketplace combined the BPA under GSA's IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluation guides** — giving agencies everything they needed to run a procurement in weeks rather than months. The contracting infrastructure turned a promising approach into something any agency could adopt without reinventing it from scratch.
 {% endcapture %}
 
 {% capture results %}
