@@ -193,8 +193,8 @@ The result is public health reporting infrastructure that didn't exist before â€
 {% endcapture %}
 
 {% capture results %}
-- **Over 8.2 million tests** reported since launch (from January 2021 to April 2024)
 - **Over 17,300 facilities** reporting tests through SimpleReport across **all 50 states,** as well as other U.S. territories and Canadian provinces
+- **Over 8.2 million tests** reported since launch (from January 2021 to April 2024)
 - **More than 2.3 million text messages** sent notifying patients of their test results
 - **Cited as a Data Modernization Initiative (DMI) success story** in a presentation to CDC Director Dr. Walensky for its "game-changing" work in Alaska
 - **Support for flu reporting launched in July 2023** and RSV reporting went live in January 2024 following a successful pilot with California
