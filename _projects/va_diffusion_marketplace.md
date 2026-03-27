@@ -1,19 +1,33 @@
 ---
 layout: default
-title_tag: Veterans Affairs
-title: Creating a knowledge platform for improving healthcare
+title_tag: "Veterans Affairs"
+title: "Spreading proven healthcare innovations across the VA"
 permalink: /work/experience/va-diffusion-marketplace/
 redirect_from:
   - /work/va-diffusion-marketplace/
 image: /img/projects/va_diffusion_marketplace/diffusion-marketplace.svg
-image_description: Doctors, administrators, and veteran patients interacting through digital panes.
+image_description: "Doctors, administrators, and veteran patients interacting through digital panes."
 feature_image: /img/projects/va_diffusion_marketplace/diffusion-marketplace.gif
-feature_image_description: Walkthrough of the VA Diffusion Marketplace product.
+feature_image_description: "Walkthrough of the VA Diffusion Marketplace product."
 feature_image_shadow: true
 order: 800
 display: true
-tags: [service delivery, research & design, software delivery, veterans, healthcare, becca bartola, lesley evans, tom black, aera hoffman, tomi obikunle, elisa lee, nick blake, camille villa, emmanuel nwakire]
-excerpt: A knowledge management platform for improving how the Veterans Affairs delivers healthcare to veterans through the dissemination of promising clinical and administrative innovations.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "software delivery"
+  - "veterans"
+  - "healthcare"
+  - "becca bartola"
+  - "lesley evans"
+  - "tom black"
+  - "aera hoffman"
+  - "tomi obikunle"
+  - "elisa lee"
+  - "nick blake"
+  - "camille villa"
+  - "emmanuel nwakire"
+excerpt: "A knowledge management platform that helped the VA identify and spread proven healthcare innovations across 150 medical centers and nearly 1,400 clinics."
 project_members:
   - camille-villa
   - nick-blake
@@ -25,85 +39,60 @@ project_members:
   - tom-black
   - aera-hoffman
 technologies:
-  - Ruby / Rails
-  - U.S. Web Design System
-  - HTML / CSS / Sass
-  - JavaScript
-  - GitHub Actions
-  - Docker
-  - Amazon Web Services
+  - "Ruby / Rails"
+  - "U.S. Web Design System"
+  - "HTML / CSS / Sass"
+  - "JavaScript"
+  - "GitHub Actions"
+  - "Docker"
+  - "Amazon Web Services"
 practices:
-  - User research
-  - Design studios
-  - Comparative analysis
-  - Technical discovery
-  - User experience design
-  - Branding design
-  - Visual design
-  - Design system
-  - Accessible design
-  - Responsive web design
-  - Agile development
-  - DevSecOps
-  - Open-source development
-  - Cloud hosting
+  - "User research"
+  - "Design studios"
+  - "Comparative analysis"
+  - "Technical discovery"
+  - "User experience design"
+  - "Branding design"
+  - "Visual design"
+  - "Design system"
+  - "Accessible design"
+  - "Responsive web design"
+  - "Agile development"
+  - "DevSecOps"
+  - "Open-source development"
+  - "Cloud hosting"
 news_posts:
-  - title: VA innovators see home-grown ideas spread far and wide across veterans health network
+  - title: "Sharing health care Innovation, VHA IE Diffusion Marketplace now open to the public"
+    url: https://news.va.gov/96270/sharing-health-care-innovation-vha-ie-diffusion-marketplace-now-open-to-the-public/
+  - title: "VA innovators see home-grown ideas spread far and wide across veterans health network"
     url: https://federalnewsnetwork.com/veterans-affairs/2019/10/va-innovators-see-home-grown-ideas-spread-far-and-wide-across-veterans-health-network/
-  - title: FedHealthIT 2020 Innovation Award Winners Announced
+  - title: "FedHealthIT 2020 Innovation Award Winners Announced"
     url: https://www.fedhealthit.com/2020/02/fedhealthit-2020-innovation-award-winners-announced/
-project_url:
-project_cta:
-source_code_url: https://github.com/agilesix/diffusion-marketplace
+project_url: https://marketplace.va.gov
+project_cta: "See the site"
+source_code_url: https://github.com/department-of-veterans-affairs/diffusion-marketplace
 ---
 
 {% capture summary %}
-The Veterans Affairs (VA) needs a way to systematically identify and spread the
-adoption of proven clinical and administrative innovations across its healthcare
-delivery network. We were brought in to build a knowledge management platform
-in order to achieve this important goal.
+In collaboration with [Agile Six](https://agile6.com/), we built the Diffusion Marketplace — a knowledge management platform that helped the Veterans Health Administration (VHA) identify, share, and spread proven clinical and administrative innovations across its healthcare delivery network. The platform houses 262 innovations and has facilitated 3,770 successful adoptions, turning individual facility breakthroughs into system-wide improvements.
 {% endcapture %}
 
 {% capture challenge %}
-The VA operates the nation's largest healthcare system, called
-the Veterans Healthcare Administration (VHA). It consists of 150 medical
-centers and nearly 1,400 community-based outpatient clinics, community
-living centers, Vet centers, and domiciliary. Together, these healthcare
-facilities, and the more than 53,000 licensed healthcare practitioners,
-provide comprehensive care to more than 8.3 million veterans each year.
+The VA operates the nation's largest healthcare system. The VHA consists of 150 medical centers and nearly 1,400 community-based outpatient clinics, community living centers, Vet centers, and domiciliary. Together, these facilities and more than 53,000 licensed healthcare practitioners provide comprehensive care to more than 8.3 million veterans each year.
 
-When proven healthcare innovations emerge in one or more of the VHA's operations,
-how do you systematically identify and spread their adoption across the
-VHA's healthcare delivery network? That's the challenge the VA has been facing,
-and it's an important one to solve given the life-saving implications.
+At that scale, innovation often stayed local. When a medical center developed a practice that improved outcomes — a faster naloxone delivery protocol, a better approach to chronic pain management — it typically remained within that facility. There was no systematic way for other VHA sites to discover what had been tried, what had worked, and how to replicate it.
+
+The result was a healthcare system where life-saving and cost-saving innovations went unshared, and practitioners across the country solved the same problems independently. The VHA needed a way to turn isolated successes into a shared body of knowledge.
 {% endcapture %}
 
 {% capture solution %}
-In collaboration with [Agile Six](https://agile6.com/), we've been
-working with the VHA to address this challenge through the delivery of a knowledge management
-platform called the Diffusion Marketplace. The purpose of this platform is to empower VHA
-practitioners and other employees to identify and disseminate promising healthcare innovations.
+In collaboration with [Agile Six](https://agile6.com/), **we built a knowledge management platform called the Diffusion Marketplace** to give VHA practitioners and employees a single place to discover, evaluate, and adopt proven healthcare innovations. We aligned the delivery to the [VA's Digital Service Handbook](https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards) and focused the initial product strategy on a concrete problem: how to accelerate adoption of three tried-and-tested innovations that had already proven effective at a small subset of VHA facilities.
 
-We aligned our delivery approach to the [VA's Digital Service Handbook](https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards)
-and focused our initial product strategy on figuring out how to design an
-experience that would lead to the wider adoption of three tried and tested life-saving and cost-saving
-innovations (e.g., rapid naloxone delivery). These innovations have already been
-proven to work at a small subset of the VHA's healthcare facilities.
+After validating the core experience through research and prototyping, we iterated rapidly toward beta and production releases — launching with an initial collection of 50 innovations. The design balanced two competing user needs that surfaced in research: **targeted searches for practitioners who knew what they were looking for, and exploratory browsing for those who didn't.** Getting that balance right was critical to driving adoption across a user base that ranged from frontline clinicians to administrators.
 
-After validating our primary design solution through research and prototyping,
-we rapidly iterated toward the release of beta and production versions of the
-platform — with an initial collection of 50 innovations.
+Growth and sustainability became the focus after launch. We built an innovation editor feature that let innovation owners update their own content directly, keeping the platform current without bottlenecking on a central team. **We also redesigned the home and search experience** as the innovation catalog grew, refining the information architecture to handle five times the content it launched with.
 
-Following production launch, our team has focused on continually improving the platform,
-including:
-
-- Expanding the number of innovations and the rate at which they're adopted
-- Developing a new innovation editor feature that empowers innovation editors to update
-their content directly and helps ensure the site has the most up-to-date information
-- Improving the home and search experience to balance the competing needs of targeted
-searches with exploratory browsing
-- Launching a public version of the site to share cutting-edge VA innovations to a wider audience
-- Launching a [community feature](https://marketplace.va.gov/communities/va-immersive) to highlight news, events, and publications related to virtual reality and augmented reality treatments
+The platform eventually expanded beyond internal VA use. We launched a public-facing version so that external healthcare providers could learn from VA innovations, and added a [community feature](https://marketplace.va.gov/communities/va-immersive) highlighting virtual reality and augmented reality treatments. The result was **a living knowledge base that turned individual facility breakthroughs into a system-wide resource for improving veteran care.**
 
 {% include callout.html
   type = "pullquote"
@@ -111,16 +100,14 @@ searches with exploratory browsing
   cite_name = "U.S. Veteran"
 %}
 
-Our innovators are grateful that they can now share their work with partners outside the VA, and we continue to hear 
-from VA leadership how proud they are to tell everyone about the Marketplace. 
+VA innovators could share their work with partners outside the VA for the first time, and VA leadership regularly cited the Marketplace as a point of pride.
 {% endcapture %}
 
 {% capture results %}
-- Delivered an alpha version of the platform within two months
-- Launched a beta version with a small user base in the summer of 2019
-- Launched a public version of the platform in fall of 2021 with an initial collection of 50 innovations
-- Expanded the number of innovations accessible on the platform from 50 to 262 in total 
-- Facilitated 3,770 successful innovation adoptions across the VA health network
+- **Facilitated 3,770 successful innovation adoptions** across the VA health network, turning isolated facility practices into shared, replicable solutions
+- **Expanded the platform from 50 to 262 innovations,** making proven practices from individual facilities discoverable system-wide
+- **Delivered an alpha within two months** and launched a beta with a small user base in summer 2019
+- **Launched a public version in fall 2021,** extending access beyond VA employees to external healthcare providers and the general public
 {% endcapture %}
 
 {% include project.html
