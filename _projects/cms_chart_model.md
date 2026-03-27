@@ -1,17 +1,18 @@
 ---
 layout: default
 title_tag: Centers for Medicare & Medicaid Services
-title: Helping rural hospitals use data to improve financial stability and access to care
+title: Turning data into decisions for rural hospitals
 permalink: /work/experience/cms_chart_model/
 image: /img/projects/cms_chart_model/idos.svg
-image_description: On the left, a doctor checks a patient’s heartbeat. On the right, the same person walks a dog outside.
+image_description: On the left, a doctor checks a patient's heartbeat. On the right, the same person walks a dog outside.
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1150
 display: true
-tags: [transformation, research & design, product management, data & analytics, healthcare, jamie song]
-excerpt: A research-driven data strategy that helped rural hospitals better access and use critical information to make decisions about financial stability and care delivery.
+tags: [transformation, research & design, product management, data & analytics,
+  healthcare, jamie song]
+excerpt: A research-driven data strategy and prototype dashboards that helped rural hospitals make more informed decisions about financial stability and care delivery.
 project_members:
   - jamie-song
 technologies:
@@ -38,66 +39,62 @@ practices:
 project_url:
 project_cta:
 source_code_url:
+news_posts:
+  - title: "Trump Administration Announces Initiative to Transform Rural Health"
+    url: https://www.cms.gov/newsroom/press-releases/trump-administration-announces-initiative-transform-rural-health
+  - title: "Community Health Access and Rural Transformation (CHART) Model Fact Sheet"
+    url: https://www.cms.gov/newsroom/fact-sheets/community-health-access-and-rural-transformation-chart-model-fact-sheet
+  - title: "CMS launches new alternative payment model for rural healthcare providers"
+    url: https://www.fiercehealthcare.com/hospitals/cms-launches-new-payment-model-to-boost-funding-to-rural-healthcare-providers
+  - title: "CMS announces a new value-based payment model for rural healthcare providers"
+    url: https://www.healthcarefinancenews.com/news/cms-announces-new-value-based-payment-model-rural-healthcare-providers
 ---
 
 {% capture summary %}
-Rural hospitals needed better access to usable data to sustain operations and improve care — but existing systems made that difficult. We partnered with CMMI to develop a research-driven data strategy and prototype solutions that helped providers make more informed decisions while improving visibility into system-wide challenges.
+We partnered with the Center for Medicare & Medicaid Innovation (CMMI) to develop a research-driven data strategy for rural hospitals participating in the Community Health Access and Rural Transformation (CHART) model. Through discovery research across nearly a dozen hospitals, we identified critical data gaps and prototyped dashboard solutions that helped providers make more informed decisions about financial stability and care delivery.
 {% endcapture %}
 
 {% capture challenge %}
-Rural hospitals across the United States were under significant financial and operational strain. The COVID-19 pandemic intensified these challenges, accelerating closures and increasing pressure on already fragile systems.
+Rural hospitals across the United States were under serious financial and operational strain. The COVID-19 pandemic intensified those pressures, accelerating closures and pushing already fragile systems closer to the breaking point.
 
 ![Map of rural hospital closures by state since 2005.](/img/projects/cms_chart_model/rural-hospital-closures-map.svg){: .mb-0 }
 
-Source: Cecil G. Sheps Center for Health Services Research, University of North Carolina; image modified from [The Pew Charitable Trusts](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/01/31/rural-americas-health-crisis-seizes-states-attention).
+Source: Cecil G. Sheps Center for Health Services Research, University of North Carolina; image modified from [The Pew Charitable Trusts](https://stateline.org/2020/01/31/rural-americas-health-crisis-seizes-states-attention/).
 {: .caption }
 
-To address these challenges, the Center for Medicare & Medicaid Innovation (CMMI) launched the Community Health Access and Rural Transformation (CHART) model. CHART aimed to improve outcomes and access to care by funding new approaches to service delivery.
+To address these challenges, CMMI launched the CHART model — a program designed to improve outcomes and expand access to care by funding new approaches to service delivery in rural communities.
 
-However, many rural providers lacked the tools and infrastructure needed to use data effectively. Critical information about cost, performance, and regional dynamics was difficult to access, fragmented across systems, or required significant manual effort to analyze.
+Many of the hospitals CHART aimed to help couldn't use data effectively, though. Critical information about cost, performance, and regional health dynamics was difficult to access, fragmented across systems, or required significant manual effort to analyze.
 
 {% include callout.html
   type = "pullquote"
-  content = "We send reports out to a third party to have them written. We don’t have a lot of funds to do that. It’s hard to get data out. We go with bare minimum reporting because system-generated reports aren’t useful."
+  content = "We send reports out to a third party to have them written. We don't have a lot of funds to do that. It's hard to get data out. We go with bare minimum reporting because system-generated reports aren't useful."
   cite_name = "Rural hospital executive"
 %}
 
-As a result, providers often relied on incomplete or anecdotal information when making high-stakes decisions about services, staffing, and financial sustainability.
-
-CMMI needed a clearer understanding of these challenges — and a path toward making data more accessible, actionable, and useful for rural providers.
+Providers often relied on incomplete or anecdotal information when making high-stakes decisions about services, staffing, and financial sustainability. CMMI needed to understand where those data breakdowns occurred — and find a path toward making information more accessible and actionable for rural providers.
 {% endcapture %}
 
 {% capture solution %}
-We partnered with CMMI, the U.S. Digital Service (USDS), and IDOS vendors to develop a data strategy grounded in real user needs.
+**We partnered with CMMI, the U.S. Digital Service (USDS), and Innovation Development and Operations Services vendors to develop a data strategy grounded in real user needs.** We conducted in-depth research across nearly a dozen hospitals, engaging executives, analysts, and frontline staff. Through interviews and service design mapping, we uncovered how data flowed across systems, where breakdowns occurred, and what information providers actually needed to make decisions.
 
-We began with in-depth research across nearly a dozen hospitals, engaging executives, analysts, and frontline staff. Through interviews and service design mapping, we uncovered how data flowed across systems, where breakdowns occurred, and what information providers actually needed to make decisions.
-
-From these insights, we identified key data gaps and prioritized the types of information most valuable to providers — including disease prevalence, peer cost comparisons, and hospital quality metrics.
-
-We then translated these insights into tangible solutions by:
-
-- Prototyping dashboards using CMS financial and quality data  
-- Testing and iterating with users to refine usability and information hierarchy  
-- Identifying opportunities to streamline access to high-value data  
-- Evaluating off-the-shelf tooling options aligned to user needs  
+The research surfaced a consistent pattern: the data rural providers needed most — disease prevalence, peer cost comparisons, and hospital quality metrics — was either inaccessible, fragmented, or too labor-intensive to extract. **We prioritized those gaps and prototyped dashboards using CMS financial and quality data,** then tested and iterated with users to refine both the information hierarchy and the usability of each view. We also evaluated off-the-shelf tooling options against the needs we'd documented, giving CMMI a grounded analysis of build-versus-buy alternatives.
 
 {% include callout.html
   type = "pullquote"
-  content = "We don’t have access to this kind of data anywhere else right now. This is helpful for honing in on areas to improve care."
+  content = "We don't have access to this kind of data anywhere else right now. This is helpful for honing in on areas to improve care."
   cite_name = "Rural hospital executive"
 %}
 
-In parallel, we helped stakeholders adopt human-centered design practices — such as continuous user research and usability testing — to ensure future solutions remained grounded in real-world needs.
-
-This approach not only improved immediate access to data, but also established a foundation for more sustainable, user-centered data strategy and decision-making.
+Beyond the dashboards themselves, we helped CMMI stakeholders adopt user-centered design practices — continuous user research, usability testing, and iterative prototyping — so that future data solutions would stay grounded in real provider needs. The work didn't just improve immediate access to data. It **established a repeatable, user-centered approach to evidence-based decision-making within the CHART program.**
 {% endcapture %}
 
 {% capture results %}
-- Led the CHART model team’s first discovery sprints with participating providers  
-- Conducted 11 in-depth interviews across hospital leadership and operational roles  
-- Developed and tested prototype dashboards based on real provider needs  
-- Identified critical data gaps and opportunities to improve decision-making  
-- Helped establish user research as a core practice within the program  
+- **Delivered the CHART model team's first discovery sprints,** conducting 11 in-depth interviews across hospital leadership and operational roles to map data flows, identify breakdowns, and establish a research-driven foundation for the program's data strategy
+- **Prototyped and user-tested dashboards** built on CMS financial and quality data, iterating on information hierarchy and usability with real providers
+- **Identified critical data gaps** — including disease prevalence, peer cost comparisons, and quality metrics — and prioritized opportunities to make high-value information accessible
+- **Evaluated off-the-shelf tooling options** against documented provider needs, giving CMMI a grounded analysis of alternatives
+- **Established user research as a core practice** within the CHART program, embedding user-centered design methods into CMMI's approach to data strategy
 {% endcapture %}
 
 {% include project.html
