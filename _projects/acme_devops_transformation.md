@@ -65,20 +65,20 @@ By the time Skylight engaged, the organization needed more than a second attempt
 {% endcapture %}
 
 {% capture solution %}
-**We designed our approach around a core premise:** DevOps wouldn't stick unless ACME owned it. Every decision we made was aimed at building internal capability, not creating a dependency on external consultants.
+We designed our approach around a core premise: **DevOps wouldn't stick unless ACME owned it.** Every decision we made — from how we structured the assessment to how we staffed the Center of Excellence — was aimed at building internal capability, not creating a dependency on external consultants.
 
-**First, we established a baseline.** Using [DevOps Research and Assessment (DORA)](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/) — a research-backed framework that benchmarks software delivery performance against industry data — we assessed where ACME stood relative to its peers and identified the highest-leverage gaps.
+The first step was understanding where ACME actually stood. **Using [DevOps Research and Assessment (DORA)](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/), we established an empirical baseline** — benchmarking the organization's software delivery performance against industry data to identify the highest-leverage gaps. DORA's research-backed framework gave leadership something previous initiatives had lacked: a shared, data-driven picture of what needed to change and why, grounded in how ACME compared to its peers rather than in opinions or best-practice checklists.
 
 ![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.svg){: .mb-0 }
 
 DORA assessment methodology.
 {: .caption }
 
-**Next, we used those insights to design a DevOps operating model** centered on a dedicated Center of Excellence (CoE). We partnered with leadership to align around a clear set of priorities based on the benchmarked gaps, defined the talent model needed to staff the CoE, and created a transformation roadmap focused on the improvements that would move the needle most.
+Those benchmarked gaps became the blueprint for what came next. **We designed a DevOps operating model centered on a dedicated Center of Excellence (CoE)** — not as an abstract strategy document, but as a staffed, funded organization with clear priorities. We partnered with leadership to align around the improvements that would move the needle most, defined the talent model needed to staff the CoE, and created a transformation roadmap that sequenced investments for maximum impact.
 
-**Then, we helped bring the model to life.** We supported recruiting, interviewing, and onboarding for the CoE — including its leadership — and delivered hands-on coaching and training to accelerate capability development. Periodic health checks kept the transformation on track, surfacing what was working and what needed course correction.
+Standing up the operating model required getting the right people in place quickly. We supported recruiting, interviewing, and onboarding for the CoE — including its leadership — and **delivered hands-on coaching and training to accelerate capability development.** Periodic health checks kept the transformation on track, surfacing what was working and what needed course correction before small problems became systemic ones.
 
-**Finally, we transitioned ownership to the CoE itself.** The goal was never to run ACME's DevOps transformation for them — it was to build a team and operating model that could run it without us. By the end of the engagement, the CoE had grown from its initial team into a broader digital capability organization driving change across the enterprise.
+The goal was never to run ACME's DevOps transformation for them. **By the end of the engagement, we'd transitioned full ownership to the CoE itself** — a team that had grown from its initial group of specialists into a broader digital capability organization driving change across the enterprise.
 {% endcapture %}
 
 {% capture results %}
