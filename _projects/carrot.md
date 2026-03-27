@@ -54,7 +54,7 @@ news_posts:
   - title: "Who Are The Biggest Disruptors of 2019? The Answer May Surprise You"
     url: https://www.inc.com/jonathan-steiman/five-innovative-startups-to-watch-in-2019.html
   - title: "Carrot - Leadership communication for growing and distributed teams"
-    url: https://www.producthunt.com/posts/carrot-3c283ae5-337a-409b-b48f-72f15dbcc454
+    url: https://www.producthunt.com/products/carrot?launch=carrot-3c283ae5-337a-409b-b48f-72f15dbcc454
   - title: "The best digital products 2019"
     url: https://www.notion.so/The-best-digital-products-2019-177f19f9f8e448ffa4e605089a071935
 project_url:
@@ -77,11 +77,11 @@ The underlying issue wasn't that teams needed less communication — it was that
 {% capture solution %}
 **Sean designed Carrot around a bet:** that the best communication tool for distributed teams wouldn't look like chat at all. Instead of optimizing for real-time presence, he built a platform that optimized for thoughtful, structured communication people could engage with on their own schedule.
 
-**The core model centered on narrative-driven updates** rather than fragmented chat threads. Leaders and team members published structured posts — context-rich, topic-specific — that created focused discussions underneath. Conversations stayed attached to the update that prompted them, so context was never lost in a scroll of unrelated messages.
+The core interaction model reflected that philosophy. Rather than fragmented chat threads, **Carrot centered on narrative-driven updates** — context-rich, topic-specific posts that leaders and team members published for the whole team. Discussions grew underneath each update, so conversations stayed attached to the context that prompted them instead of drifting through a scroll of unrelated messages.
 
-**Technically, he built Carrot as the open-source [OpenCompany](https://github.com/open-company) platform** using an API-first, microservices architecture that supported web and mobile applications. The stack — ClojureScript and React on the front end, Clojure microservices on the back end, with WebSockets for real-time interaction where it mattered — was designed to feel as responsive as chat without demanding constant attention.
+Under the hood, Sean built Carrot as the open-source [OpenCompany](https://github.com/open-company) platform using **an API-first, microservices architecture** that supported web and mobile applications. The stack — ClojureScript and React on the front end, Clojure microservices on the back end, with WebSockets for real-time interaction where it mattered — was designed to feel as responsive as chat without demanding constant attention.
 
-**The result was a product** that let distributed teams stay aligned without being always-on — reducing noise while keeping the conversations that mattered visible and persistent.
+The result was a product that let distributed teams stay aligned without being always-on — **reducing noise while keeping the conversations that mattered visible and persistent.**
 {% endcapture %}
 
 {% capture results %}
