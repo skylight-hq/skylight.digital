@@ -122,8 +122,8 @@ Lessons from the VDH pilot shaped the broader DIBBs portfolio, informing additio
 
 {% capture results %}
 - **Built a prototype DIBBs pipeline that significantly improved data processing speed** and broke down silos between different streams
-- **Reduced patient record duplication by 19%** across data streams (lab reports, case reports, and vaccinations)
 - **VDH increased throughput from 5,800 to 20,000 incoming HL7 messages per hour** at peak capacity
+- **Reduced patient record duplication by 19%** across data streams (lab reports, case reports, and vaccinations)
 - **DIBBs pipeline generates a tabular, analysis-ready data mart for ~380,000 patient resources in under 15 minutes**
 - **Continuing to pilot and iterate** on the DIBBs pipeline with additional STLTs and disease surveillance systems
 {% endcapture %}
