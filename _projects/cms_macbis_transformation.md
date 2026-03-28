@@ -1,17 +1,27 @@
 ---
 layout: default
-title_tag: Centers for Medicare & Medicaid Services
-title: Transforming how Medicaid and CHIP data were leveraged
+title_tag: "Centers for Medicare & Medicaid Services"
+title: "Bringing product thinking to Medicaid's data systems"
 permalink: /work/experience/cms-macbis-transformation/
 image: /img/projects/cms_macbis_transformation/macbis.svg
-image_description: A man being pushed in a wheelchair alongside an older woman and a young boy.
+image_description: "A man being pushed in a wheelchair alongside an older woman and a young boy."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 900
 display: true
-tags: [transformation, data & analytics, coaching & training, healthcare, social safety net, chris cairns, brandon mader, mical nobel, brandon kirby, ashley treni]
-excerpt: Enabled CMCS to unlock the value of Medicaid and CHIP data by introducing modern product, data, and delivery practices across a complex system portfolio.
+tags:
+  - "transformation"
+  - "data & analytics"
+  - "coaching & training"
+  - "healthcare"
+  - "social safety net"
+  - "chris cairns"
+  - "brandon mader"
+  - "mical nobel"
+  - "brandon kirby"
+  - "ashley treni"
+excerpt: "Helped the Center for Medicaid and CHIP Services shift from siloed system management to a product-driven operating model across a $100M+ data and technology portfolio."
 project_members:
   - chris-cairns
   - brandon-mader
@@ -19,21 +29,21 @@ project_members:
   - brandon-kirby
   - ashley-treni
 technologies:
-  - Microsoft Office
-  - Google Workspace
-  - SurveyMonkey
-  - Trello
-  - Mural
+  - "Microsoft Office"
+  - "Google Workspace"
+  - "SurveyMonkey"
+  - "Trello"
+  - "Mural"
 practices:
-  - Qualitative / quantitative research
-  - Consulting
-  - Coaching
-  - Training
-  - Workshop facilitation
-  - Service design
-  - Product management
-  - Performance management
-  - Objectives and key results framework
+  - "Qualitative / quantitative research"
+  - "Consulting"
+  - "Coaching"
+  - "Training"
+  - "Workshop facilitation"
+  - "Service design"
+  - "Product management"
+  - "Performance management"
+  - "Objectives and key results framework"
 news_posts:
 project_url:
 project_cta:
@@ -41,46 +51,33 @@ source_code_url:
 ---
 
 {% capture summary %}
-CMCS needed to better leverage Medicaid and CHIP data to improve decision-making and outcomes, but its systems and practices were fragmented and difficult to scale. We partnered with CMCS to introduce modern product, data, and delivery practices across the MACBIS portfolio, enabling the organization to operate more cohesively and use data more effectively.
+The Center for Medicaid and CHIP Services (CMCS) depends on a $100M+ portfolio of data and technology systems — known as Medicaid and Children's Health Insurance Program (CHIP) Business Information Systems (MACBIS) — to manage programs that serve more than 80 million people. We partnered with CMCS to shift the MACBIS portfolio from siloed system management to a cohesive, product-driven operating model by introducing modern product, data, and delivery practices across the organization.
 {% endcapture %}
 
 {% capture challenge %}
-CMCS is responsible for delivering and managing Medicaid and CHIP programs that serve more than 80 million people nationwide. This work depends on timely, reliable, and high-quality data.
+Medicaid and CHIP together form the largest source of health coverage in the United States, serving more than 80 million people. The Center for Medicaid and CHIP Services (CMCS) oversees these programs at the federal level, and its work depends on timely, reliable data — enrollment figures, claims, financial reports, drug pricing, and program compliance measures that shape policy decisions affecting millions of families.
 
-However, the systems supporting this work — the Medicaid and CHIP Business Information Systems (MACBIS) portfolio — had evolved in silos. Many systems served overlapping users and managed similar data, yet lacked coordination, shared standards, and a cohesive strategy.
+The systems supporting this work had evolved over many years, each built and maintained independently. The MACBIS portfolio included four major systems — Medicaid and CHIP Program (MACPro), the Transformed Medicaid Statistical Information System (T-MSIS), the Medicaid Drug Programs (MDP) system, and Medicaid and CHIP Financial (MACFin) — but despite serving overlapping users and managing similar data, they lacked coordination, shared standards, or a cohesive strategy. Product ownership was fragmented across teams. User experiences were disjointed from one system to the next. Significant [technical debt](/work/toolkits/managing-technical-debt/) had accumulated, slowing release cycles and limiting the organization's ability to adapt. Data quality suffered, and sharing data across systems was difficult.
 
-As a result, the organization struggled with:
-
-- Fragmented product strategy and ownership  
-- Disjointed user experiences across systems  
-- Low engineering quality and significant [technical debt](/work/toolkits/managing-technical-debt/)  
-- Slow release cycles and limited ability to adapt  
-- Poor data quality and limited data sharing across systems  
-
-CMCS needed to move beyond isolated system improvements and adopt a more integrated, modern approach to managing products, data, and delivery at scale.
+The deeper issue wasn't any single system's shortcomings. It was the absence of an integrated operating model — a way to manage the portfolio as a connected whole rather than a collection of independent projects. Without that model, CMCS couldn't fully use its data to inform policy, improve program design, or make operational decisions at the speed the programs demanded.
 {% endcapture %}
 
 {% capture solution %}
-We partnered with CMCS to design and implement a transformation approach that combined immediate improvements with long-term capability building.
+We designed a transformation approach that combined immediate diagnostic work with long-term capability building. **Starting with maturity assessments across the MACBIS portfolio,** we benchmarked each system's capabilities in product management, agile delivery, and data practices. The assessments gave CMCS leadership a clear picture of where each system stood relative to modern standards and identified the highest-leverage gaps to address first.
 
-Our work focused on establishing a more cohesive operating model across the MACBIS portfolio:
+With that baseline established, we tackled the portfolio's most fundamental structural problem. **We introduced a product-based approach to managing systems,** shifting teams from thinking in terms of siloed projects to owning outcomes. This meant defining product visions and strategies for individual systems, establishing objectives and key results (OKRs) tied to organizational goals, and introducing tools like product canvases, agile roadmaps, and product health checks so teams could manage their work with greater clarity and accountability.
 
-- Defined and introduced a product-based approach to managing systems, shifting from siloed projects to outcome-oriented product ownership  
-- Designed and conducted maturity assessments to benchmark current capabilities and prioritize the highest-impact improvements  
-- Facilitated the co-creation of a playbook that established shared principles for modern digital and data practices  
-- Conducted a service design engagement to map the full MACBIS ecosystem, revealing how users interacted across systems and where critical gaps existed  
-- Introduced practices such as OKRs, product canvases, agile roadmaps, and product health checks to improve decision-making and execution  
+To understand how the portfolio actually functioned as a whole, **we conducted a service design engagement that mapped the full MACBIS ecosystem** — revealing how users moved across systems, where handoffs broke down, and where critical gaps existed in the end-to-end experience. This mapping work surfaced integration opportunities that weren't visible when each system was managed in isolation.
 
-We complemented these changes with hands-on coaching, training, and capacity building across the organization to accelerate adoption and ensure sustainability.
-
-This approach helped shift CMCS from fragmented system management to a more integrated, product-driven model for delivering data and technology services.
+These diagnostic and structural changes were reinforced by a shared foundation for how teams worked. We facilitated the co-creation of a playbook that established shared principles for modern digital and data practices across CMCS. **We then invested heavily in coaching, training, and hands-on capacity building** — working directly with teams to adopt the new practices rather than handing them a document and walking away. The goal was to make the transformation self-sustaining: teams that could continue improving on their own, not teams dependent on external consultants.
 {% endcapture %}
 
 {% capture results %}
-- Jumpstarted large-scale digital and data transformation across the MACBIS ecosystem  
-- Established a product-based, outcome-oriented approach to managing systems and services  
-- Identified and prioritized strategic opportunities to improve end-to-end user experience and data integration  
-- Positioned CMCS to better leverage data to inform policy, program design, and operational decisions  
+- **Assessed maturity across the full MACBIS portfolio,** benchmarking product, delivery, and data capabilities to establish a prioritized modernization roadmap
+- **Mapped the MACBIS ecosystem end to end,** surfacing integration opportunities and user experience gaps that weren't visible when systems were managed in isolation
+- **Established a product-driven operating model** across CMCS, replacing siloed project management with outcome-oriented ownership, OKRs, and agile roadmaps
+- **Co-created a shared playbook** of modern digital and data practices, giving teams a common foundation for how systems were designed, built, and managed
+- **Built internal capacity through coaching and training,** equipping CMCS teams to sustain and extend the transformation independently
 {% endcapture %}
 
 {% include project.html
