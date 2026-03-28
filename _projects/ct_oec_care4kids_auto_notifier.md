@@ -1,17 +1,31 @@
 ---
 layout: default
-title_tag: State of Connecticut
-title: Piloting solutions that make it easier for families to access affordable child care
+title_tag: "State of Connecticut"
+title: "Testing a faster way to keep families informed about child care subsidies"
 permalink: /work/experience/ct-oec-care4kids-auto-notifier/
 image: /img/projects/ct_oec_care4kids_auto_notifier/care4kids-auto-notifier.svg
-image_description: A family with young children sitting together, with a mobile phone in the background showing a green status checkmark.
+image_description: "A family with young children sitting together, with a mobile phone in the background showing a green status checkmark."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1300
 display: true
-tags: [service delivery, research & design, product management, software delivery, early childhood, social safety net, economic development, abby raskin, ashley treni, victoria suwardiman, cailyn hansen, gabriel ramirez, marvo dolor, amelia wellers]
-excerpt: An SMS-based pilot that helped families better understand their Care 4 Kids renewal status while revealing broader opportunities to improve the child care subsidy experience in Connecticut.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "product management"
+  - "software delivery"
+  - "early childhood"
+  - "social safety net"
+  - "economic development"
+  - "abby raskin"
+  - "ashley treni"
+  - "victoria suwardiman"
+  - "cailyn hansen"
+  - "gabriel ramirez"
+  - "marvo dolor"
+  - "amelia wellers"
+excerpt: "An SMS-based pilot that helped families understand their Care 4 Kids renewal status while revealing broader opportunities to improve the child care subsidy experience in Connecticut."
 project_members:
   - abby-raskin
   - ashley-treni
@@ -21,36 +35,36 @@ project_members:
   - marvo-dolor
   - amelia-wellers
 technologies:
-  - Twilio
-  - Ruby / Rails
-  - MySQL
-  - Git / GitHub
+  - "Twilio"
+  - "Ruby / Rails"
+  - "MySQL"
+  - "Git / GitHub"
 practices:
-  - Product management
-  - User research
-  - Collaborative design workshops
-  - Surveys
-  - Agile development
-  - Rapid prototyping
-  - DevSecOps
+  - "Product management"
+  - "User research"
+  - "Collaborative design workshops"
+  - "Surveys"
+  - "Agile development"
+  - "Rapid prototyping"
+  - "DevSecOps"
 news_posts:
-  - title: CT child care subsidy backlog slowly getting paid
+  - title: "Child Care Providers Wait for Payments as State Transitions to New Care4Kids Computer System"
+    url: https://ctnewsjunkie.com/2019/01/18/20190118_child_care_providers_wait_for_payments_as_state_transitions_to/
+  - title: "CT child care subsidy backlog slowly getting paid"
     url: https://www.ctpost.com/local/article/CT-child-care-subsidy-backlog-slowly-getting-paid-13734815.php
 project_url:
 project_cta:
-source_code_url: https://github.com/ctoec/care-4-kids-auto-notifier
+source_code_url:
 ---
 
 {% capture summary %}
-Care 4 Kids helps eligible families in Connecticut afford child care, but the renewal experience had become confusing and stressful for many applicants. We partnered with the Office of Early Childhood (OEC) and United Way to design and test a lightweight SMS-based notification pilot that improved transparency for families while generating practical insight into how the broader renewal process could work better.
+As part of our [digital transformation work](/work/experience/ct-oec-digital-transformation/) with the Connecticut Office of Early Childhood (OEC), we designed and tested a lightweight SMS-based pilot that helped families track the status of their Care 4 Kids child care subsidy renewals. Co-created with OEC and United Way, the pilot improved transparency for nearly 180 families while generating practical insight into how the broader renewal process could work better.
 {% endcapture %}
 
 {% capture challenge %}
-Care 4 Kids plays an important role in helping low- to moderate-income families pay for child care, but renewing benefits had become frustrating and difficult for many applicants.
+Care 4 Kids helps low- to moderate-income families in Connecticut pay for child care, but the renewal experience had become frustrating and opaque for many applicants. A combination of factors — including the rollout of a new case management system, a 20% increase in new applications, and thousands of reauthorizations coming due simultaneously — contributed to a growing backlog, a high volume of incomplete applications, and widespread confusion about application status.
 
-A combination of factors — including the rollout of a new case management system — contributed to a growing application backlog, a high volume of incomplete applications, and confusion about application status. Families often had little visibility into whether their renewal materials had been received or what would happen next. Providers were also affected, since delays and uncertainty in the subsidy process created stress for the families they served.
-
-After conducting user research and interviews, we found that communication was one of the clearest pain points in the renewal experience. Families were often asked to resend materials, use multiple submission methods, or wait long periods without confirmation that anything had been received.
+For families, the problem was fundamentally about uncertainty. After submitting renewal materials, applicants often had no way to confirm whether their documents had been received or what would happen next. Many were asked to resend materials, use multiple submission methods, or wait for long periods without any acknowledgment. Providers were affected too — delays in the subsidy process created financial stress for child care workers who depended on timely payments.
 
 {% include callout.html
   type = "pullquote"
@@ -58,24 +72,24 @@ After conducting user research and interviews, we found that communication was o
   cite_name = "Parent"
 %}
 
-OEC and United Way were open to testing practical, low-risk improvements that could reduce uncertainty for families while also helping the program learn where communication and process design needed to improve.
+After conducting user research and interviews, we found that communication was the clearest pain point in the renewal experience. OEC and United Way were open to testing a practical, low-risk improvement that could reduce uncertainty for families while also helping the program learn where its communication and process design needed to change.
 {% endcapture %}
 
 {% capture solution %}
-We focused on identifying a solution that could be designed, tested, and refined quickly while addressing one of the most immediate needs families described: knowing whether their renewal documents had been received and what to expect next.
+The most immediate need families described was simple: knowing whether their renewal documents had been received and what to expect next. **We designed a pilot centered on that single, high-value interaction** — an SMS-based notification tool that alerted parents when United Way received documents related to their Care 4 Kids application. Participants could also text at any time to request information about processing timelines.
 
-In response, we designed and launched a pilot centered on application renewal status updates. Co-designed with OEC and United Way, the pilot used an SMS-based notification tool to alert parents when United Way received documents related to their Care 4 Kids application. Participants could also request and receive information about processing timelines by text at any time.
+Co-designed with OEC and United Way, the pilot was deliberately lightweight. **We built the minimum viable product in four weeks** using Twilio and Ruby on Rails, then launched and live-tested it with nearly 180 participants over a three-month period. The rapid timeline reflected a deliberate strategy: rather than building a comprehensive system, we tested whether a focused communication intervention could meaningfully improve the applicant experience.
 
-We built the minimum viable product in four weeks, then launched and live-tested the pilot with nearly 180 participants over a three-month period. Throughout the intervention, we used phone, text, and online surveys to collect feedback before, during, and after the pilot.
+Throughout the pilot, we collected structured feedback to measure impact. **We used phone, text, and online surveys to gather data before, during, and after the intervention** — tracking not just whether families found the texts helpful, but whether the pilot revealed broader patterns in how the renewal process broke down.
 
-This approach allowed us to test not only whether text-message updates improved the applicant experience, but also whether a lightweight communication intervention could reveal broader opportunities to improve trust, clarity, and service delivery across the renewal process.
+The approach tested two hypotheses at once. The first was whether text-message updates could reduce uncertainty and improve satisfaction for individual families. The second was whether a lightweight intervention could **surface systemic opportunities to improve trust, clarity, and service delivery** across the entire renewal process — insights that would be harder to uncover through research alone.
 {% endcapture %}
 
 {% capture results %}
-- Launched and tested an SMS-based notification pilot for Care 4 Kids renewal applicants
-- Increased average satisfaction with Care 4 Kids communication among surveyed pilot participants
-- Increased parent confidence by 19% that documents were being received by United Way
-- Generated broader recommendations to address communication gaps, confusion, and service design issues in the application submission process
+- **Built and launched an SMS notification pilot in four weeks,** testing a low-risk approach to improving communication for Care 4 Kids renewal applicants
+- **Increased parent confidence by 19%** that renewal documents were being received by United Way
+- **Improved average satisfaction** with Care 4 Kids communication among surveyed pilot participants
+- **Generated actionable recommendations** to address communication gaps, process confusion, and service design issues in the broader application submission workflow
 
 {% include callout.html
   type = "pullquote"
