@@ -1,33 +1,39 @@
 ---
 layout: default
-title_tag: Government of Canada
-title: Helping recover from a failed national pay system through agile procurement
+title_tag: "Government of Canada"
+title: "Strengthening agile procurement for a national pay system"
 permalink: /work/experience/goc-nextgen-hr-and-pay-system-agile-procurement/
 image: /img/projects/goc_nextgen_hr_pay_system/nextgen-hr-system.svg
-image_description: Illustration representing a next-generation HR and pay system.
+image_description: "Illustration representing a next-generation HR and pay system."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1800
 display: true
-tags: [procurement, chris cairns]
-excerpt: Advised the Government of Canada on agile procurement practices to help recover from the failed Phoenix pay rollout and build a stronger model for future technology acquisitions.
+tags:
+  - "procurement"
+  - "chris cairns"
+excerpt: "We advised the Government of Canada's NextGen HR and Pay team on agile procurement practices, developing a reusable assessment framework to strengthen the team's approach to replacing the failed Phoenix pay system."
 project_members:
   - chris-cairns
 technologies:
-  - Google Workspace
-  - Microsoft Office
+  - "Google Workspace"
+  - "Microsoft Office"
 practices:
-  - Consulting
-  - Coaching
-  - Documentation review
-  - Stakeholder interviews
-  - Observation
-  - Analysis and synthesis
+  - "Consulting"
+  - "Coaching"
+  - "Documentation review"
+  - "Stakeholder interviews"
+  - "Observation"
+  - "Analysis and synthesis"
 news_posts:
-  - title: Feds inch closer to Phoenix replacement as Heritage Canada tapped for exploratory phase of Next Generation HR and pay system
-    url: https://www.hilltimes.com/2020/10/26/feds-inch-closer-to-phoenix-replacement-as-heritage-canada-tapped-for-exploratory-phase-of-next-generation-hr-and-pay-system/269095
-  - title: Canada appoints partners to replace Phoenix pay
+  - title: "The Government of Canada provides update on progress toward a new human resources and pay solution to replace the Phoenix pay system"
+    url: https://www.canada.ca/en/public-services-procurement/news/2024/07/the-government-of-canada-provides-update-on-progress-toward-a-new-human-resources-and-pay-solution-to-replace-the-phoenix-pay-system-and-its-human-.html
+  - title: "Government of Canada Moves Forward with HR and Pay Transformation Through Dayforce"
+    url: https://www.canada.ca/en/public-services-procurement/news/2025/06/government-of-canada-moves-forward-with-hr-and-pay-transformation-through-dayforce.html
+  - title: "Feds inch closer to Phoenix replacement as Heritage Canada tapped for exploratory phase of Next Generation HR and pay system"
+    url: https://www.hilltimes.com/story/2020/10/26/feds-inch-closer-to-phoenix-replacement-as-heritage-canada-tapped-for-exploratory-phase-of-next-generation-hr-and-pay-system/228796/
+  - title: "Canada appoints partners to replace Phoenix pay"
     url: https://www.globalgovernmentforum.com/canada-appoints-partners-to-replace-phoenix-pay-system/
 project_url:
 project_cta:
@@ -35,21 +41,21 @@ source_code_url:
 ---
 
 {% capture summary %}
-After the failed rollout of the Government of Canada’s Phoenix pay system, the federal government needed a more reliable way to procure and implement a replacement. We advised the NextGen HR and Pay team on agile procurement practices, helping establish a structured framework for continuous improvement and more resilient enterprise technology acquisitions.
+We advised the Government of Canada's NextGen HR and Pay team on agile procurement practices, developing a 13-criteria assessment framework to evaluate and strengthen its approach to replacing the failed Phoenix pay system. The framework gave the team a structured, reusable tool for identifying gaps, tracking improvement, and building confidence in an enterprise-scale technology acquisition.
 {% endcapture %}
 
 {% capture challenge %}
-The rollout of the Phoenix pay system became a national public-sector technology failure, affecting hundreds of thousands of Canadian civil servants through underpayments, overpayments, and missed payments.
+The rollout of the Phoenix pay system became one of Canada's most prominent public-sector technology failures, affecting hundreds of thousands of federal civil servants through underpayments, overpayments, and missed payments. The system — intended to modernize payroll for the entire federal workforce — instead created widespread financial hardship and eroded trust in the government's ability to deliver large technology programs.
 
-Beyond the immediate operational damage, Phoenix exposed a deeper problem: the federal government needed a better way to procure large, complex technology systems. In response, the Government of Canada established the [Next Generation Human Resources and Pay team](https://www.canada.ca/en/shared-services/corporate/next_generation_human_resources_pay_system.html) to move away from Phoenix and toward a more modern, integrated HR and pay solution.
+Beyond the immediate operational damage, Phoenix exposed a deeper problem: the Government of Canada needed a fundamentally better way to procure and implement complex technology systems. Previous approaches had relied on traditional, large-scale contracting methods that concentrated risk, limited flexibility, and left little room for course correction once a vendor was selected. In response, the government established the [Next Generation Human Resources and Pay team](https://www.canada.ca/en/shared-services/corporate/next-generation-human-resources-pay-system.html) to move away from Phoenix and toward a more modern, integrated HR and pay solution.
 
-The team chose to pursue an agile procurement approach, but needed outside expertise to assess whether that approach was strong enough to support a successful enterprise-scale acquisition.
+The NextGen team chose to pursue an agile procurement approach, but needed outside expertise to assess whether that approach was robust enough to support a successful enterprise-scale acquisition — one that wouldn't repeat the mistakes of Phoenix.
 {% endcapture %}
 
 {% capture solution %}
-We drew on our prior work with the [Agile Acquisition Framework]({{site.baseurl}}/work/experience/agile-acquisition-framework) to create a practical assessment model for agile procurement.
+**Prior work with the [Agile Acquisition Framework](/work/experience/agile-acquisition-framework/) gave us a foundation to build on.** Rather than starting from scratch, we adapted proven principles from complex software acquisitions into a structured evaluation tool the NextGen team could use immediately and reuse over time.
 
-We established 13 criteria areas representing leading practices for complex software acquisitions:
+The framework organized around **13 criteria areas representing leading practices** for complex software acquisitions, covering the full procurement life cycle from sourcing strategy through implementation readiness:
 
 <table class="post-table">
   <thead>
@@ -89,7 +95,7 @@ We established 13 criteria areas representing leading practices for complex soft
     </tr>
     <tr>
       <th scope="row">Vendor lock-in mitigation</th>
-      <td>Mitigates vendor lock-in risks across the full acquisition lifecycle, including data and operational risks.</td>
+      <td>Mitigates vendor lock-in risks across the full acquisition life cycle, including data and operational risks.</td>
     </tr>
     <tr>
       <th scope="row">Healthy competition</th>
@@ -114,21 +120,16 @@ We established 13 criteria areas representing leading practices for complex soft
   </tbody>
 </table>
 
-Using this framework, we conducted an in-depth assessment of the NextGen HR and Pay team’s procurement approach. This included:
+Documentation review and stakeholder interviews **revealed where the team's practices aligned with leading agile procurement principles and where gaps remained.** We assessed the NextGen team's approach against all 13 criteria areas to build a detailed picture of strengths, risks, and the highest-leverage opportunities for improvement.
 
-- Reviewing documentation and interviewing stakeholders to understand current practices
-- Evaluating those practices against the 13 criteria areas
-- Producing a scorecard that highlighted strengths, gaps, and improvement opportunities
-- Recommending concrete actions to strengthen the procurement approach
-
-Rather than using the scorecard as a compliance exercise, we positioned it as a tool for continuous improvement. This helped the team identify targeted changes, challenge the status quo, and strengthen its ability to run an agile procurement capable of supporting a successful replacement for Phoenix.
+The resulting scorecard wasn't designed as a one-time compliance exercise. **We positioned it as a tool for continuous improvement** — something the team could revisit as its approach matured. This helped the team identify targeted changes, challenge the status quo, and build the procurement discipline needed to support a successful replacement for Phoenix.
 {% endcapture %}
 
 {% capture results %}
-- Established a 13-part agile procurement framework applicable to major software acquisitions, including both build and buy approaches
-- Delivered 15 concrete recommendations to strengthen the NextGen HR and Pay team’s procurement approach
-- Created a scorecard and assessment model the team could reuse to evaluate and improve its practices over time
-- Helped establish a stronger path forward for procuring a modern, integrated replacement for the Phoenix pay system
+- **Established a 13-criteria agile procurement framework** applicable to major software acquisitions, covering both build and buy approaches across the full acquisition life cycle
+- **Delivered 15 concrete recommendations** to strengthen the NextGen HR and Pay team's procurement approach, prioritized by impact and implementation feasibility
+- **Created a reusable scorecard and assessment model** the team could apply repeatedly to evaluate and improve its procurement practices over time
+- **Provided a stronger procurement foundation** for acquiring a modern, integrated replacement for the Phoenix pay system — an effort that has since advanced through vendor selection and pilot phases
 {% endcapture %}
 
 {% include project.html
