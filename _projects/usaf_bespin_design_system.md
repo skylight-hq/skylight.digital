@@ -1,17 +1,33 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Creating software products at scale with design systems
+title_tag: "U.S. Air Force"
+title: "Scaling software quality through shared design systems"
 permalink: /work/experience/usaf-bespin-design-system/
 image: /img/projects/usaf_bespin_design_system/design-system.svg
-image_description: A pair of hands moving objects around to make a pattern.
+image_description: "A pair of hands moving objects around to make a pattern."
 feature_image: /img/projects/usaf_bespin_design_system/bespin-design-system.gif
-feature_image_description: Walkthrough of the Material Atlas BESPIN Design System.
+feature_image_description: "Walkthrough of the Material Atlas BESPIN Design System."
 feature_image_shadow: true
 order: 1400
 display: true
-tags: [service delivery, transformation, research & design, product management, software delivery, legacy modernization, defense, air force, maya benari, zack gehin, liz fox, karthik patil, laura kerry, ashton tu, kyle planeaux, mike brown]
-excerpt: Comprehensive design systems enabling the U.S. Air Force to ship software products to users with greater speed and quality.
+tags:
+  - "service delivery"
+  - "transformation"
+  - "research & design"
+  - "product management"
+  - "software delivery"
+  - "legacy modernization"
+  - "defense"
+  - "air force"
+  - "maya benari"
+  - "zack gehin"
+  - "liz fox"
+  - "karthik patil"
+  - "laura kerry"
+  - "ashton tu"
+  - "kyle planeaux"
+  - "mike brown"
+excerpt: "Two comprehensive design systems — Carbon Forge and Material Atlas — that helped U.S. Air Force product teams ship higher-quality software faster through reusable, accessible, USAF-branded components."
 project_members:
   - zack-gehin
   - mike-brown
@@ -22,101 +38,99 @@ project_members:
   - laura-kerry
   - maya-benari
 technologies:
-  - Carbon Design System
-  - Figma
-  - Flutter
-  - Git / GitLab
-  - GitLab CI/CD
-  - HTML / CSS / Sass
-  - HTML / CSS / SVG
-  - JavaScript / HTML
-  - JavaScript / React / TypeScript
-  - Material-UI
-  - Sketch
-  - Stencil
-  - Storybook
-  - U.S. Web Design System
-  - Web Components
+  - "Carbon Design System"
+  - "Figma"
+  - "Flutter"
+  - "Git / GitLab"
+  - "GitLab CI/CD"
+  - "HTML / CSS / Sass"
+  - "HTML / CSS / SVG"
+  - "JavaScript / HTML"
+  - "JavaScript / React / TypeScript"
+  - "Material-UI"
+  - "Sketch"
+  - "Stencil"
+  - "Storybook"
+  - "U.S. Web Design System"
+  - "Web Components"
 practices:
-  - Accessibility design
-  - Accessibility review
-  - Agile development
-  - Automated testing
-  - Branding design
-  - Card sorting
-  - Collaborative design workshops
-  - Design leadership
-  - Design pattern library
-  - Design studios
-  - Design system
-  - DevOps
-  - Information gathering
-  - Legacy reengineering / strangler pattern
-  - Pairing
-  - Primary research
-  - Product management
-  - Prototyping
-  - Responsive design
-  - Usability testing
-  - User experience design
-  - User interface component inventory
-  - User interviews
-  - User-centered design
-  - Virtual collaboration
-  - Virtual teams
-  - Visual design
-  - Visual design audit
-  - WCAG 2.0
-  - Web and native apps
-  - Workshop facilitation
+  - "Accessibility design"
+  - "Accessibility review"
+  - "Agile development"
+  - "Automated testing"
+  - "Branding design"
+  - "Card sorting"
+  - "Collaborative design workshops"
+  - "Design leadership"
+  - "Design pattern library"
+  - "Design studios"
+  - "Design system"
+  - "DevOps"
+  - "Information gathering"
+  - "Legacy reengineering / strangler pattern"
+  - "Pairing"
+  - "Primary research"
+  - "Product management"
+  - "Prototyping"
+  - "Responsive design"
+  - "Usability testing"
+  - "User experience design"
+  - "User interface component inventory"
+  - "User interviews"
+  - "User-centered design"
+  - "Virtual collaboration"
+  - "Virtual teams"
+  - "Visual design"
+  - "Visual design audit"
+  - "WCAG 2.0"
+  - "Web and native apps"
+  - "Workshop facilitation"
 news_posts:
+  - title: "BESPIN awards contracts with REMIS & WARPspeed for Design Studio services"
+    url: https://www.airforcebes.af.mil/News/Display/Article/3342231/bespin-awards-contracts-with-remis-warpspeed-for-design-studio-services/
+  - title: "BESPIN's Design Studio hosts intensive design workshop"
+    url: https://www.aflcmc.af.mil/NEWS/Article/3891127/bespins-design-studio-hosts-intensive-design-workshop/
 project_url:
 project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force’s (USAF) needs a way to build higher quality software products faster. In partnership with the USAF Business Enterprise Systems Product INnovation (BESPIN)’s Design Studio, we’re building and implementing design systems to help scale the USAF’s design and engineering capacity.
+As part of our broader work [building the BESPIN Design Studio](/work/experience/usaf-bespin-design-studio/) for the U.S. Air Force (USAF), we created two comprehensive design systems — Carbon Forge and Material Atlas — that gave product teams reusable, accessible, USAF-branded components for building web and mobile applications. The design systems helped the Air Force ship higher-quality software faster by replacing redundant, from-scratch design and engineering work with a shared library of pre-built elements.
 {% endcapture %}
 
 {% capture challenge %}
-BESPIN is one of the USAF’s strategic digital solution centers, along with Kessel Run, SpaceCAMP, and others. BESPIN’s mission is to deliver digital transformation outcomes for partner organizations throughout the USAF and broader defense community. This includes the [Business Enterprise Systems Directorate](https://www.airforcebes.af.mil/),
-which manages a billion-dollar portfolio of IT systems supporting enterprise-wide functions such as finance, logistics, and human resources.
+The USAF's Business Enterprise Systems Product INnovation (BESPIN) organization manages a portfolio of 20+ software products and supports additional applications across the Air Force and broader defense community. Many of these products share a common problem: the user experience doesn't meet the expectations of the airmen who rely on them for critical tasks. Applications are often outdated, overwhelming, or visually disjointed — the result of years of siloed development without shared design standards.
 
-BESPIN advances its mission by managing a portfolio of 20+ products and supporting other USAF software through the Design Studio, a team that establishes design standards and provides product design services to the USAF.  While products across the BESPIN and USAF ecosystem vary, many share common pain points: The user experience (UX) and user interface (UI) often don’t meet the expectations of those who rely on them to accomplish critical tasks, and many are seen as outdated, overwhelming, or disjointed. 
+For the designers and engineers building these products, the absence of a unified design system created compounding inefficiencies. Teams experienced unclear product direction, breakdowns in the handoff between design and engineering, and redundant work as each team built similar components from scratch. Maintaining quality while keeping pace with agile release cycles was difficult when every product reinvented its own buttons, forms, and navigation patterns.
 
-For the designers and engineers who build USAF products, lack of access to a unified system for design has led to a number of issues. Teams can experience unclear product direction, breakdowns in the handoff between design and engineering, redundant work, and difficulty maintaining quality while keeping to the pace of agile release cycles. While many teams look to existing design systems for inspiration, these don’t always work for the Air Force and require customization. 
+Existing open source design systems offered a starting point, but they didn't work out of the box for the Air Force. USAF products had unique requirements — including dark mode for nighttime operations, specific accessibility standards, and alignment with Air Force visual identity — that demanded significant customization. Without that customization, teams either adopted off-the-shelf systems that didn't quite fit or built bespoke solutions that couldn't be reused.
 
-To improve the speed and quality with which USAF teams design web and mobile products, BESPIN engaged us to create comprehensive design systems tailored to the unique needs of the USAF design environment.
+The result was a growing gap between the quality airmen expected and what teams could deliver — and no clear path to closing it at the pace and scale BESPIN's portfolio demanded.
 {% endcapture %}
 
 {% capture solution %}
-As part of the BESPIN Design Studio team, we’re building out and implementing two design systems to support a range of software products across the USAF. Design systems are shared libraries of reusable design and code elements, guided by clear standards. Our design systems help teams:
-Develop products faster by leveraging pre-made elements, such as a visual style or web form, instead of repeatedly building similar ones from scratch
-Create higher quality and cohesive user experiences across different products and platforms with consistent design guidance
-Enhance cross-functional communication and collaboration between designers and developers through a shared design language
-Waste less time on version control issues — such as incorporating bug fixes and enhancements — since updates to components happen once and populate all occurrences
-Achieve a WCAG 2.0 accessibility standard with little effort, as accessibility is included in components from the start
-Spend more time focusing on larger, more strategic user-experience problems
+Visual design audits, component inventories, and interviews with designers and developers **revealed which problems to solve first.** Teams were rebuilding the same components from scratch, handoffs between design and engineering broke down regularly, and tool constraints shaped daily work more than user needs did. These findings gave us a clear picture of what a shared design system needed to address.
 
-To create the design systems, we started by conducting research with BESPIN teams to learn more about design and engineering needs, pain points, workflow processes, and tools. The research process relied on a number of techniques, including a visual design audit, a user interface component inventory, and several rounds of interviews to identify common patterns in the current design and coding environment. 
+**Rather than forcing every product into a single framework, we proposed two design systems.** Carbon Forge, built on IBM's Carbon Design System, was best suited to complex, data-rich applications like enterprise resource planning tools. Material Atlas, built on Google Material Design, supported simpler, more user-friendly products like mobile utilities.
 
-Based on team needs and existing tech stacks, we proposed two different design systems to meet the varied use cases across the BESPIN and greater USAF ecosystems: Carbon Forge, built on IBM’s Carbon Design System, and Material Atlas, built on Google Material Design. The former is best suited to complex, data rich applications, while the latter supports simpler, user-friendly products. Through workshops and share-outs with the USAF Chief Experience Officer, USAF design community, and the BESPIN ecosystem, we received feedback and collaboratively adapted the design systems with colors, typography, accessibility standards, and other features to work with USAF visual identity and needs — such as a dark mode for legibility during nighttime operations.
+Two systems addressed a reality that a single one couldn't: BESPIN's product portfolio spans a wide range of complexity, platforms, and tech stacks. Forcing everything into one framework would've created more friction than it resolved.
 
-The Design Studio has begun to leverage the design systems to improve applications within and beyond the BESPIN ecosystem. In our work with the Reliability and Maintenance Information System (REMIS), an application that manages maintenance on all aircraft and equipment, we’ve adapted Carbon Forge to design and implement UI/UX improvements within their legacy system. Proving out a different use case, we used Material Atlas to create a soon-to-be-released Electronic Flight Bag (EFB) calculator application requested by airmen who need to make in-flight calculations. We’re currently advising the team behind Digital University — a tech skills platform with more than 15,000 users — about how to incorporate our design systems. Speaking about another project that used the Material Atlas for a redesign, one stakeholder said:
+**Collaborative workshops with the USAF Chief Experience Officer, the USAF design community, and BESPIN leadership shaped both systems' visual identity and operational features.** We customized colors, typography, accessibility standards, and interaction patterns. The design systems included capabilities specific to military use cases — such as a dark mode for legibility during nighttime operations — and met Web Content Accessibility Guidelines (WCAG) 2.0 standards with accessibility built into components from the start.
 
-{% include callout.html type = "pullquote" content = "Air Force higher-ups have been so impressed with the MyPCS progress to date. Apparently, the original folks who worked MyPCS weren't able to do nearly as much in three years as BESPIN was able to in three months." cite_name = "James “Guideaux” Crocker" cite_title = "BESPIN Chief Technology Officer" %}
+Real products proved the design systems' value. **We adapted Carbon Forge for the Reliability and Maintenance Information System (REMIS),** an application that manages maintenance on all aircraft and equipment, designing and implementing user experience improvements within the legacy system. We used Material Atlas to create an Electronic Flight Bag calculator application requested by airmen who needed to make in-flight calculations, and advised the team behind Digital University — a tech skills platform serving more than 15,000 users — on incorporating the design systems into their product.
 
-The Design Studio team is also developing tools and processes to scale the design system across the USAF. Designers and developers can use the design systems on their own with design libraries in the common design tools Sketch and Figma; access code components that work with multiple tech stacks; read guidelines for using the design systems; and see the design systems in action on Storybook, an interactive demo site. We’ve also created a governance process for teams to request and develop new components, ensuring the design systems grow consistently, with high quality, and in response to user needs. 
+{% include callout.html type = "pullquote" content = "Air Force higher-ups have been so impressed with the MyPCS progress to date. Apparently, the original folks who worked MyPCS weren't able to do nearly as much in three years as BESPIN was able to in three months." cite_name = "James "Guideaux" Crocker" cite_title = "BESPIN Chief Technology Officer" %}
 
-Going forward, we’ll continue to leverage the design systems in the Design Studio’s work to improve the USAF’s digital products through better design and code. We’ll also continue to build on the design systems, spread the word, and create tools that help boost their adoption, ultimately increasing the USAF digital capacity.
+**To enable self-service adoption, we built tooling and governance processes alongside the component libraries.** Designers could access the design systems through libraries in Sketch and Figma. Developers could pull code components compatible with Flutter, React, and Web Components. An interactive Storybook demo site showed the design systems in action, and written guidelines helped teams apply them consistently. We also created a governance process for requesting and developing new components, ensuring the systems grew in response to real user needs rather than ad hoc additions.
 {% endcapture %}
 
 {% capture results %}
-- Gained insights into BESPIN’s needs for scaling design through designer- and developer-focused research
-- Recommended USAF-specific considerations for two design systems and got buy-in from USAF Chief Experience Officer, BESPIN leadership, designers, and developers
-- Built out design libraries in Sketch and Figma, and code repos with Flutter, React, and Web Components
-- Three USAF product teams are currently using BESPIN design systems, and we continue to receive interest from additional product teams
+- **Delivered two USAF-tailored design systems** — Carbon Forge for complex, data-rich applications and Material Atlas for simpler, user-friendly products — covering the full range of BESPIN's product portfolio
+- **Three USAF product teams adopted the design systems** within the initial engagement, including REMIS, the Electronic Flight Bag calculator, and MyPCS, with additional teams expressing interest
+- **Built design libraries in Sketch and Figma, and code repositories in Flutter, React, and Web Components**, enabling designers and developers to use the systems independently
+- **Established a component governance process** that gave teams a structured way to request and develop new components, ensuring the design systems grew consistently and in response to user needs
+- **Reduced redundant design and engineering work** by replacing from-scratch component development with pre-built, pre-approved, WCAG 2.0-accessible elements that teams could reuse across products
 {% endcapture %}
 
 {% include project.html
