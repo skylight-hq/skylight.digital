@@ -1,72 +1,73 @@
 ---
 layout: default
-title_tag: State of Connecticut
-title: Making government web analytics accessible and actionable
+title_tag: "State of Connecticut"
+title: "Making government web analytics accessible and actionable"
 permalink: /work/experience/ctgov-analytics/
 image: /img/projects/ctgov_analytics/gov-analytics.svg
-image_description: People gathered around a large screen displaying web analytics data and trends.
+image_description: "People gathered around a large screen displaying web analytics data and trends."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2300
 display: true
-tags: [service delivery, data & analytics, open government, cailyn hansen, colin craig, gabriel ramirez]
-excerpt: A centralized analytics dashboard that gave Connecticut agencies and the public clear, real-time insight into how government websites are used.
+tags:
+  - "service delivery"
+  - "data & analytics"
+  - "open government"
+  - "cailyn hansen"
+  - "colin craig"
+  - "gabriel ramirez"
+excerpt: "A centralized, open-source analytics dashboard that gives Connecticut agencies and the public real-time insight into how government websites are used."
 project_members:
   - cailyn-hansen
   - colin-craig
   - gabriel-ramirez
 technologies:
-  - HTML / CSS / SVG
-  - JavaScript / JSON
-  - Amazon S3
-  - Amazon CloudFront
-  - Google Analytics
+  - "HTML / CSS / SVG"
+  - "JavaScript / JSON"
+  - "Amazon S3"
+  - "Amazon CloudFront"
+  - "Google Analytics"
 practices:
-  - User research
-  - Agile development
-  - Open-source development
-  - Cloud hosting
-  - Third-party integration
+  - "User research"
+  - "Agile development"
+  - "Open-source development"
+  - "Cloud hosting"
+  - "Third-party integration"
+news_posts:
 project_url: https://analytics.ct.gov/
-project_cta: See the site
+project_cta: "See the site"
 source_code_url: https://github.com/CTOpenData/analytics.ct.gov
 ---
 
 {% capture summary %}
-Connecticut needed a simpler way to understand how residents were using its digital services. We built a centralized, open-source analytics dashboard that unified data across websites, improved trust in analytics, and enabled both agencies and the public to make more informed decisions.
+Analytics.ct.gov is a centralized, open-source dashboard that gives Connecticut state agencies and the public real-time insight into how government websites are used. Built by adapting a proven federal open-source codebase, the platform unified fragmented analytics data and empowered state teams to own and sustain the solution themselves.
 {% endcapture %}
 
 {% capture challenge %}
-The State of Connecticut managed multiple websites and analytics accounts, making it difficult to get a clear, unified view of how people were using its digital services.
+The State of Connecticut operated dozens of websites, each with its own analytics account. Getting a unified picture of how residents interacted with government digital services meant navigating fragmented systems — and even then, employees often didn't trust the numbers they found. Without reliable data, analytics rarely informed decisions about which services to improve or expand.
 
-Accessing analytics required navigating fragmented systems, and employees lacked confidence in the data they were seeing. Previous solutions had been developed by external vendors and handed off without sufficient knowledge transfer, leaving internal teams unsure how to maintain or improve them.
+The roots ran deeper than technology. External vendors had built previous analytics tools and handed them off without adequate knowledge transfer, leaving internal teams unsure how the systems worked. Maintenance became uncertain. Improvements stalled. Over time, staff stopped relying on analytics altogether, and the state lost a critical feedback loop between resident behavior and service delivery.
 
-As a result, analytics were underutilized, limiting the state's ability to make data-informed decisions about digital services.
+Agencies couldn't tell which digital services needed attention, and the public had no window into how their government's online presence was performing.
 {% endcapture %}
 
 {% capture solution %}
-We identified an opportunity to build on proven open-source work and deliver a solution that the state could fully own and sustain.
+**Rather than building from scratch, we adapted a proven federal codebase.** Our team had helped develop [analytics.usa.gov](https://analytics.usa.gov/), so we drew on that experience and its [open-source code](https://github.com/18F/analytics.usa.gov) to create a Connecticut-specific dashboard. Starting from a validated foundation cut development time and gave the state a platform architecture already tested at scale.
 
-Drawing on our experience developing [analytics.usa.gov](https://analytics.usa.gov/), we adapted its [open-source codebase](https://github.com/18F/analytics.usa.gov) to create a similar analytics dashboard for Connecticut. We customized the tool to meet the state's needs and ensured it worked within its technical environment.
+**User research shaped what the dashboard showed and how it showed it.** Interviews with agency staff revealed gaps in how they accessed and interpreted analytics — many didn't know where to find the data they needed, and those who did often questioned its accuracy. The redesigned dashboard surfaced key metrics like real-time visitors, top pages, traffic sources, and device breakdowns in a format readable at a glance.
 
-Equally important, we partnered closely with the state team throughout the process. Rather than delivering a finished product and handing it off, we worked side by side to:
+**Capacity-building ran parallel to development.** Instead of handing off a finished product, we worked side by side with state staff, coaching them on modern development practices so they could maintain, extend, and improve the platform on their own. The goal was a solution that would outlast the engagement.
 
-- Conduct user research to understand analytics needs and gaps  
-- Design a dashboard that made data easier to access and interpret  
-- Customize and extend the open-source solution  
-- Coach the team on modern software development practices  
-
-This approach ensured the solution was not only effective, but also maintainable by the state’s internal team.
-
-The resulting platform provided real-time insight into how government websites were being used. Agencies could better understand user behavior and prioritize improvements, while the public gained transparent access to usage data and an open-source foundation for further analysis.
+**The resulting platform opened up web traffic data to both agencies and the public.** Agency teams could now see which services residents used most and prioritize improvements accordingly. The public gained the same access — along with the underlying open-source code for independent analysis.
 {% endcapture %}
 
 {% capture results %}
-- Delivered a centralized analytics dashboard using customized open-source code  
-- Enabled internal teams to confidently maintain and extend the platform using modern development practices  
-- Increased visibility into how residents use government websites, improving decision-making across agencies  
-- Expanded public access to government data through an open, transparent analytics platform  
+- **Launched a centralized analytics dashboard** that unified web traffic data across Connecticut state government websites into a single, publicly accessible view
+- **Adapted a federally validated open-source codebase** from analytics.usa.gov, reducing development time while delivering a proven platform architecture
+- **Built internal capacity for long-term ownership** by coaching state staff on modern development practices, enabling them to maintain and extend the platform independently
+- **Improved agency decision-making** by giving teams real-time insight into how residents interact with government digital services
+- **Expanded public transparency** by making government web traffic data openly accessible alongside the platform's open-source code
 {% endcapture %}
 
 {% include project.html
