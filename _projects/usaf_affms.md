@@ -1,86 +1,82 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Redesigning how the Air Force accesses their fitness reports
+title_tag: "U.S. Air Force"
+title: "Redesigning how the Air Force accesses fitness reports"
 permalink: /work/experience/air-force-fitness-management-system/
 image: /img/projects/usaf_affms/air-force-fitness-management-system.svg
-image_description: An airmen using the AFFMS app on her mobile device.
+image_description: "An airman using the AFFMS app on her mobile device."
 feature_image: /img/projects/usaf_affms/air-force-fitness-management-system.gif
-feature_image_description: Walkthrough of the redesigned Air Force Fitness Management System.
+feature_image_description: "Walkthrough of the redesigned Air Force Fitness Management System."
 feature_image_shadow: true
 order: 1000
 display: true
-tags: [service delivery, research & design, defense, air force, zack gehin, shashank khandewal, maya benari]
-excerpt: A redesigned interface for accessing fitness reports, improving one of the most frustrating user experiences for over half-a-million airmen.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "defense"
+  - "air force"
+  - "zack gehin"
+  - "shashank khandelwal"
+  - "maya benari"
+excerpt: "A redesigned interface for accessing fitness reports, improving one of the most frustrating user experiences for over 500,000 airmen."
 project_members:
   - zack-gehin
   - shashank-khandelwal
   - maya-benari
 technologies:
-  - HTML / CSS
-  - U.S. Web Design System
-  - Sketch
+  - "HTML / CSS"
+  - "U.S. Web Design System"
+  - "Sketch"
 practices:
-  - User research
-  - Design workshops
-  - User experience design
-  - Visual design
-  - Accessibility design
-  - Content design
-  - Information architecture
-  - Design system
-  - Wireframing
-  - Prototyping
-  - Agile development
-  - Pairing
+  - "User research"
+  - "Design workshops"
+  - "User experience design"
+  - "Visual design"
+  - "Accessibility design"
+  - "Content design"
+  - "Information architecture"
+  - "Design system"
+  - "Wireframing"
+  - "Prototyping"
+  - "Agile development"
+  - "Pairing"
 news_posts:
-  - title: Chief Bass’ Instagram post (1,000+ likes)
+  - title: "Chief Bass' Instagram post (1,000+ likes)"
     url: https://www.instagram.com/p/CLVMxeJsH82/
-  - title: "Reddit thread: “Now if this isn’t a historic AF moment I don't know what is”"
-    url: https://www.reddit.com/r/AirForce/comments/kotxmh/we_did_it_affms_ii_has_been_updated/
-  - title: BESPIN LinkedIn post
+  - title: "BESPIN LinkedIn post"
     url: https://www.linkedin.com/posts/bespin_the-air-force-fitness-management-system-activity-6792794630925635584-HGLy
+  - title: "Reddit thread: Now if this isn't a historic AF moment I don't know what is"
+    url: https://www.reddit.com/r/AirForce/comments/kotxmh/we_did_it_affms_ii_has_been_updated/
 project_url:
 project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-The Air Force Fitness Management System II (AFFMS II) is a tool used by every uniformed airman that generates fitness reports necessary for a variety of critical functions. Skylight, in close collaboration with BESPIN (Business Enterprise Systems Product INnovation), redesigned one of the most frustrating and most used AFFMS II pages to make it easier for airmen to access fitness reports.
+As part of our [digital transformation work with BESPIN](/work/experience/usaf-bespin-transformation-support/), we redesigned the Air Force Fitness Management System II (AFFMS II) — the tool every uniformed airman uses to generate fitness reports for promotions, deployments, and performance reviews. The project replaced one of the most notoriously frustrating user experiences in the Air Force with a streamlined single-page interface that over 500,000 airmen now use to view and download their reports.
 {% endcapture %}
 
 {% capture challenge %}
-AFFMS II, used by every uniformed airman, records fitness assessment results to ensure that  airmen are fit for duty. At any moment, airmen need to be able to perform physically-demanding activities, from hasty vehicle recoveries to casualty evacuations. AFFMS II generates reports that airmen can view and download to include as supporting documentation for requests, award packages, etc. Most of the 500,000+ airmen need to access this site 3–5 times a year.
-
-As the Air Force Manual 36-2905 states:
+AFFMS II records fitness assessment results to ensure that airmen are fit for duty. At any moment, airmen need to be able to perform physically demanding activities, from hasty vehicle recoveries to casualty evacuations. Most of the 500,000+ airmen who rely on the system need to access it three to five times a year.
 
 {% include callout.html
   type = "pullquote"
   content = "Every uniformed airman should be physically fit, regardless of age, gender, or duty assignment. Physical fitness directly and positively impacts health, general fitness, duty performance, and mission readiness."
 %}
 
-The physical fitness assessment results generated by AFFMS II are used for a variety of critical functions. They’re referenced when airmen are considered for certain awards or promotions, and are routinely included in Officer and Enlisted Performance Reviews (OPRs, EPRs). Airmen who get “unsatisfactory” scores on their fitness assessments can’t be deployed. Some base commanders even ask for assessment reports before granting leave. In sum: It’s essential that airmen are able to effectively use AFFMS II on a regular basis.
+The fitness reports AFFMS II generates carry real consequences. They're referenced when airmen are considered for awards or promotions and are routinely included in Officer and Enlisted Performance Reviews. Airmen who receive "unsatisfactory" scores can't be deployed. Some base commanders ask for assessment reports before granting leave. In short, it's essential that airmen can effectively use AFFMS II on a regular basis.
 
-However, usability of the site left much to be desired. To get a simple report downloaded, airmen had to make multiple frustrating attempts, wasting huge amounts of their time. The link to access their fitness reports was buried six tabs deep into a menu that would disappear if you accidentally moved your cursor off one of the tabs. The user experience of AFFMS II was so bad that airmen vented their frustration by creating memes on social media. Airmen joked that using the menu was proof they had hands steady enough to be a surgeon. To put it mildly, airmen had to exercise a little patience using AFFMS II. While airmen shared work-arounds to access their reports online, including using specific browsers or browser developer tools to access hidden links, this wasn’t sustainable by any means.
+However, the site's usability was so poor that it had become a punchline across the Air Force. The link to access fitness reports was buried six tabs deep in a menu that disappeared if you accidentally moved your cursor off one of the tabs. Airmen joked that navigating the menu was proof they had hands steady enough to be a surgeon. Others shared workarounds involving specific browsers or browser developer tools to reach hidden links — none of which were sustainable. To download a simple report, airmen had to make multiple frustrating attempts, wasting time they didn't have.
 {% endcapture %}
 
 {% capture solution %}
-The effort to improve the user experience of AFFMS II began after  complaints and frustrations from airmen caught the attention of the Chief Master Sergeant of the Air Force (the highest enlisted level of leadership in the Air Force).
+The redesign effort began after complaints from airmen caught the attention of the Chief Master Sergeant of the Air Force — the highest enlisted level of leadership. The Air Force engaged us to improve the experience, a natural fit given our ongoing work establishing a [Design Studio for BESPIN](/work/experience/usaf-bespin-design-studio/).
 
-The U.S Air Force engaged Skylight to assist with improving the user experience of AFFMS II — a natural fit given our ongoing experience working with and establishing a Design Studio for BESPIN.
+Even though our own team members were regular AFFMS II users, we started by **gathering a broader range of perspectives.** Interviews with personnel across a spectrum of ranks and job functions at BESPIN, combined with desk research into social media posts and Reddit threads, gave us a clear picture of both the systemic pain points and the workarounds airmen had improvised.
 
-Even though the airmen on our team were regular users of AFFMS II, we wanted to take into account a diversity of user experiences. We conducted preliminary interviews with a variety of personnel at BESPIN, ensuring we covered a spectrum of ranks (officers and enlisted) and job functions. We also conducted desk research by looking at posts and comments on social media platforms like Reddit.
+**Rapid prototyping and testing with airmen drove every design decision.** We created wireframes, tested content and layouts with users, iterated based on their feedback, and used the U.S. Web Design System to accelerate front-end development and ensure accessible, browser-compatible components. Airmen from BESPIN led the effort, with our team providing user experience design, front-end development, and delivery management support.
 
-Based on this research, our team conducted the following activities:
-- Quickly created wireframes
-- Tested different content and layouts with airmen, and iterated as necessary
-- Used the wireframes to start learning the code base, surfacing the data necessary to implement the wireframes, and got familiar with existing deployment processes
-- Once the wireframes were finalized, created and tested visual designs with a diverse group of airmen
-- Leveraged the U.S. Web Design System to accelerate front-end development, ensure browser compatibility, and use accessible components
-
-Our user-centered and iterative process allowed us to deliver an improved AFFMS II, featuring a single page with clear data and most-used actions to help airmen seamlessly view and download fitness reports. This new interface saves airmen time, eliminates frustration, and offers an informative and beautiful experience.
-
-Airmen have responded well to the updated AFFMS II. As one airman noted:
+The result was a **streamlined single-page interface with clear data and the most-used actions front and center.** Airmen could now view and download fitness reports without fighting through nested menus. As one airman put it:
 
 {% include callout.html
   type = "pullquote"
@@ -89,19 +85,15 @@ Airmen have responded well to the updated AFFMS II. As one airman noted:
   cite_url = "https://www.reddit.com/r/AirForce/"
 %}
 
-This project was also successful from an airman-enablement perspective. The team and effort was led by airmen from BESPIN, with the Skylight team providing UX design, front-end development, and delivery management support.
-
-Given that 500,000+ airmen use AFFMS II, this project had high visibility in the Air Force all the way up to top leadership. In December 2020, Air Force Chief of Staff Gen. Charles Q Brown Jr released the “CSAF Action Orders to Accelerate Change Across the Air Force.” Action Order A describes a people-first approach, which means identifying airmen needs and reviewing personnel and talent management systems to meet the identified needs. Changes to the usability of AFFMS II help deliver on that process, and signal to the troops that Air Force leadership cares about the airman experience.
-
-Until the redesign of AFFMS II, the entire Air Force struggled for years to access critical fitness assessment reports. With the new AFFMS II, they now have an easy-to-use tool that improves their quality of life so they can focus on the hard work of keeping our nation secure.
+The project's visibility reached the highest levels of Air Force leadership. In December 2020, Air Force Chief of Staff Gen. Charles Q. Brown Jr. released action orders describing a people-first approach to reviewing personnel and talent management systems. The AFFMS II redesign delivered on that vision — and signaled to the force that leadership takes the **airman experience seriously.**
 {% endcapture %}
 
 {% capture results %}
-- Delivered a single-page application with clear, useful data and most-used actions to help airmen seamlessly view and download fitness reports
-- Improved AFFMS II user experience for over 500,000 airmen
-- Demonstrated the value of user-centered design at all levels of the USAF
-- Used as a case study by the USAF’s Chief Experience Officer to advance the adoption of human-centered design
-- Led to the establishment of a new BESPIN Design Studio service focused on providing rapid-response solutions to critical design challenges
+- **Delivered a single-page application** that replaced a notoriously frustrating six-tab-deep navigation with a streamlined interface for viewing and downloading fitness reports
+- **Improved the AFFMS II experience for over 500,000 airmen**, eliminating a pain point that had persisted for years across the entire Air Force
+- **Earned recognition from the Chief Master Sergeant of the Air Force**, who promoted the redesign to airmen via social media to over 1,000 likes
+- **Adopted as a case study by the Air Force's Chief Experience Officer** to advance user-centered design adoption across the service
+- **Led to the establishment of a new BESPIN [Design Studio](/work/experience/usaf-bespin-design-studio/) service** focused on providing rapid-response solutions to critical design challenges
 {% endcapture %}
 
 {% include project.html
