@@ -85,7 +85,7 @@ The result was a **streamlined single-page interface with clear data and the mos
   cite_url = "https://www.reddit.com/r/AirForce/"
 %}
 
-The project's visibility reached the highest levels of Air Force leadership. In December 2020, Air Force Chief of Staff Gen. Charles Q. Brown Jr. released action orders describing a people-first approach to reviewing personnel and talent management systems. The AFFMS II redesign delivered on that vision — and signaled to the force that leadership takes the **airman experience seriously.**
+Visibility reached the highest levels of Air Force leadership. In December 2020, Air Force Chief of Staff Gen. Charles Q. Brown Jr. released action orders describing a people-first approach to reviewing personnel and talent management systems. The AFFMS II redesign delivered on that vision — and signaled to the force that leadership takes the **airman experience seriously.**
 {% endcapture %}
 
 {% capture results %}
