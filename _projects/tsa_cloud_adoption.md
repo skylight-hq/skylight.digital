@@ -20,7 +20,7 @@ tags:
   - "homeland security"
   - "chris cairns"
   - "shashank khandelwal"
-excerpt: "Before founding Skylight, Chris Cairns and Shashank Khandelwal helped the Transportation Security Administration accelerate its transition to a cloud-based operating model."
+excerpt: "Before strarting Skylight, Chris Cairns and Shashank Khandelwal helped the Transportation Security Administration accelerate its transition to a cloud-based operating model."
 project_members:
   - chris-cairns
   - shashank-khandelwal
