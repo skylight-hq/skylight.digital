@@ -1,128 +1,203 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Accelerating the Air Force’s digital transformation journey through the BESPIN software factory
+title_tag: "U.S. Air Force"
+title: "Transforming how the Air Force builds software"
 permalink: /work/experience/usaf-bespin-transformation-support/
-image: /img/projects/usaf_bespin_transformation_support/bespin-transformation-support.png
-image_description: A uniformed crew work on a scaffold to build a giant mobile application.
+image: /img/projects/usaf_bespin_transformation_support/bespin-transformation-support.svg
+image_description: "A uniformed crew work on a scaffold to build a giant mobile application."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1150
 display: true
-tags: [transformation, coaching & training, defense, air force, chris cairns, shashank khandelwal, nicole campbell, karthik patil, kyle planeaux, zack gehin, liz fox]
-excerpt: An internal software factory that offers a new model for how the U.S. Air Force builds user-centered software and empowers airmen product teams.
+tags:
+  - "transformation"
+  - "coaching & training"
+  - "defense"
+  - "air force"
+  - "chris cairns"
+  - "shashank khandelwal"
+  - "nicole campbell"
+  - "karthik patil"
+  - "kyle planeaux"
+  - "zack gehin"
+  - "liz fox"
+  - "adam weber"
+  - "andrew lloyd"
+  - "andrew wagner"
+  - "ari perez"
+  - "ashton tu"
+  - "charlye tran"
+  - "chun yen"
+  - "colin craig"
+  - "david mcclatchey"
+  - "eric richards"
+  - "gabriel ramirez"
+  - "gianna buda"
+  - "gordon farrell"
+  - "holly dewolf"
+  - "jennifer herzberg"
+  - "jesse skeets"
+  - "jina ryu"
+  - "josh dorothy"
+  - "josh nygaard"
+  - "kari hodges"
+  - "kenny nieh"
+  - "laura kerry"
+  - "laura king"
+  - "lesley evans"
+  - "lina roth"
+  - "lucas newman"
+  - "maya benari"
+  - "michelle li"
+  - "mical nobel"
+  - "mike brown"
+  - "mitchell sipus"
+  - "nick blake"
+  - "nick clyde"
+  - "nicole wright"
+  - "olivia lucas"
+  - "peggy chau"
+  - "phoebe espiritu"
+  - "priscilla peralta"
+  - "sarah george-hager"
+  - "sarah tress"
+  - "taylor graue"
+  - "zoe do"
+excerpt: "An internal software factory that gives the U.S. Air Force a new model for building user-centered software and empowering airmen product teams."
 project_members:
   - chris-cairns
+  - shashank-khandelwal
   - nicole-campbell
   - karthik-patil
-  - kyle-planeaux 
+  - kyle-planeaux
   - zack-gehin
   - liz-fox
-  - shashank-khandelwal
+  - adam-weber
+  - andrew-lloyd
+  - andrew-wagner
+  - ari-perez
+  - ashton-tu
+  - charlye-tran
+  - chun-yen
+  - colin-craig
+  - david-mcclatchey
+  - eric-richards
+  - gabriel-ramirez
+  - gianna-buda
+  - gordon-farrell
+  - holly-dewolf
+  - jennifer-herzberg
+  - jesse-skeets
+  - jina-ryu
+  - josh-dorothy
+  - josh-nygaard
+  - kari-hodges
+  - kenny-nieh
+  - laura-kerry
+  - laura-king
+  - lesley-evans
+  - lina-roth
+  - lucas-newman
+  - maya-benari
+  - michelle-li
+  - mical-nobel
+  - mike-brown
+  - mitchell-sipus
+  - nick-blake
+  - nick-clyde
+  - nicole-wright
+  - olivia-lucas
+  - peggy-chau
+  - phoebe-espiritu
+  - priscilla-peralta
+  - sarah-george-hager
+  - sarah-tress
+  - taylor-graue
+  - zoe-do
 technologies:
-  - Figma
-  - Git / GitLab
-  - Google Workspace
-  - Mattermost
-  - Microservices
-  - Sketch
-  - Trello
-  - Zoom
+  - "Figma"
+  - "Carbon Design System"
+  - "Material-UI"
+  - "U.S. Web Design System"
+  - "Flutter"
+  - "HTML / CSS"
+  - "JavaScript / React / TypeScript"
+  - "APIs"
+  - "Microservices"
+  - "Git / GitLab"
+  - "Amazon Web Services"
+  - "Terraform"
+  - "Docker"
+  - "Google Workspace"
+  - "Mattermost"
 practices:
-  - Coaching
-  - Consulting
-  - Training
-  - Pairing
-  - Agile development
-  - Iterative and incremental development
-  - Design leadership
-  - Service design
-  - User-centered design
-  - Mobile-first design
-  - Content strategy
-  - Lean product
-  - Product management
-  - Objectives and key results framework
-  - Continuous improvement
-  - Continuous integration
-  - DevSecOps
-  - Agile / digital acquisition
-  - Branding design
-  - Capability development
-  - Cloud hosting
-  - Knowledge management
-  - Talent management
-  - Vendor outreach
+  - "Coaching & training"
+  - "Consulting"
+  - "Pairing"
+  - "Agile development"
+  - "Service design"
+  - "User-centered design"
+  - "User research"
+  - "User experience design"
+  - "Content design"
+  - "Accessibility design"
+  - "Design system"
+  - "Lean product"
+  - "Product management"
+  - "DevSecOps"
+  - "Cloud hosting"
+  - "Agile / digital acquisition"
+  - "Capability development"
+  - "Knowledge management"
 news_posts:
-  - title: The Air Force Software Revolution
+  - title: "BESPIN advances web app development and delivery with newly integrated pipeline"
+    url: https://www.airforcebes.af.mil/News/Display/Article/3681362/bespin-advances-web-app-development-and-delivery-with-newly-integrated-pipeline/
+  - title: "The Air Force software revolution"
     url: https://www.airandspaceforces.com/article/the-air-force-software-revolution/
-  - title: The internal Air Force startup trying to drive mobile computing
+  - title: "Meet BESPIN, the Air Force startup driving the switch to mobile"
+    url: https://www.defenseone.com/defense-systems/2020/06/meet-bespin-the-air-force-startup-driving-the-switch-to-mobile/195045/
+  - title: "The internal Air Force startup trying to drive mobile computing"
     url: https://fcw.com/it-modernization/2020/05/the-internal-air-force-startup-trying-to-drive-mobile-computing/257958/
-project_url: https://teambespin.us
-project_cta: See the site
+project_url:
+project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-Business Enterprise Systems Product INnovation (BESPIN) leadership partnered with Skylight to determine the right strategy, organizational structure, operations, technologies, and practices required to create a software factory within the U.S. Air Force (USAF). Leveraging our expertise, BESPIN is now positioned as an Air Force-wide software factory that drives digital transformation, empowers airmen product teams to build user-centered software, and creates a culture of continuous learning and improvement.
+Business Enterprise Systems Product INnovation (BESPIN) is the U.S. Air Force's (USAF) internal software factory — built to give airmen product teams the tools, practices, and support to deliver user-centered software. We've partnered with BESPIN leadership to stand up the factory and grow it into a mature delivery organization: defining the organizational model, building [workforce](/work/experience/usaf-bespin-enablement/) and [service design](/work/experience/usaf-service-design-capacity-building/) capacity, establishing a [design studio](/work/experience/usaf-bespin-design-studio/) and [shared design systems](/work/experience/usaf-bespin-design-system/), and shipping products across domains from [equipment feedback](/work/experience/usaf-gearfit/) to [aircraft maintenance](/work/experience/usaf-logux/). The work extends to the [Weather Systems Program Office](/work/experience/usaf-wxpo-weather-modernization/), which engages us through BESPIN to modernize 75+ weather applications.
 {% endcapture %}
 
 {% capture challenge %}
-The Air Force is responsible for overseeing over 659,000 personnel and a multi-billion dollar portfolio of technologies to support them. They create software to ensure that operations run smoothly — from everyday business processes to mission-critical warfighting capabilities, such as aircraft inventory maintenance and military personnel career management.
+The USAF oversees more than 659,000 personnel and a multi-billion dollar portfolio of technologies to support them. Software touches nearly every part of the force — from everyday business processes like personnel career management to mission-critical capabilities like aircraft inventory maintenance. When that software doesn't work well, the consequences ripple across readiness, productivity, and retention.
 
-Historically, software delivery within the Air Force suffered from the same problems experienced elsewhere in the government and defense spaces, including elongated delivery timelines without incremental releases, resulting in software that was not only built without the user in mind but also frequently outdated by the time it reached production.
+Software delivery within the Air Force had long suffered from the same problems found across government and defense: multi-year timelines without incremental releases, minimal user involvement, and products that were frequently outdated by the time they reached production. The result was software built for compliance checkboxes rather than the airmen who had to use it every day — and a cycle of rework and rising costs that eroded confidence in the process itself.
 
-Slow software delivery and suboptimal outcomes for the Air Force creates serious risks, including:
+In 2020, the Business Enterprise Systems (BES) directorate stood up BESPIN with seed funding from Air Force Service Acquisition Executive Dr. Will Roper. BES leadership had seen what organizations like Kessel Run could accomplish and believed the same model could work for enterprise business systems. But building that factory — defining its organizational model, team structures, delivery practices, procurement approach, and culture — required expertise that didn't yet exist within BES.
 
-- Outdated processes that limit innovation
-- Reduced airmen engagement and productivity 
-- High costs after extensive rework to arrive at a usable solution that meets the needs of the mission
-
-In 2020, Business Enterprise Systems (BES) stood up the BESPIN software factory with seed funds from the Air Force Service Acquisition Executive, Dr. Will Roper, to drive digital transformation. The Air Force and BES Directorate leadership knew they needed to change the way the USAF developed and delivered software — but how? They’d seen success at organizations like Kessel Run, and believed those organizations were only scratching the surface of what was possible.
-
-To help build their organization as the leading software factory for the Air Force, BESPIN engaged us to create a modern services-based organization that operated differently compared to anything that had ever existed at the Air Force. As part of this engagement, we had to rethink how software gets built from first principles such as:
-
-- How can we provide **cohesive user experiences** to airmen across all the software they use?
-- How can we improve **software delivery performance** (e.g., [DORA](https://www.devops-research.com/research.html) metrics) in a highly secure compliance environment?
-- How do we **structure teams** so they are autonomous and empowered? 
-- What **training** is needed? Tooling? Other enablers?
-- What team **cadences, ceremonies, and practices** should we implement?
-- How can we develop **communities of practice**?
+BESPIN engaged us to help design and stand up this new kind of organization. The challenge went beyond technology: every process change touched security review, authority to operate, and acquisition regulation. Nothing about this could be imported wholesale from the commercial world. It had to be adapted for the Air Force's specific constraints.
 {% endcapture %}
 
 {% capture solution %}
-During the inception, planning, and initial growth stages of the BESPIN software factory, Skylight provided strategic enablement services that focused on helping them build an organization that could offer software delivery as a service. Our contributions included:
+Before BESPIN could ship a single product, it needed an operating model. We started by coaching executives on what a modern software factory looks like inside the Air Force — helping leadership define BESPIN's mission, articulate its value proposition, and internalize the shift from one-off projects to software delivered as a continuous service.
 
-- Coaching executives on how to build a digitally-powered organization 
-- Designing and supporting the implementation of BESPIN’s organizational model, including its delivery teams (organized into portfolios) and community of practice groups
-- Supporting branding and communication activities targeted at driving culture change throughout BES and attracting new customers
-- Designing BESPIN’s customer intake process to ensure the projects that it takes on are set up for success
-- Supporting workforce enablement through coaching, training, and pair programming
-- Advising on new agile procurement methodologies and contract vehicles such as the Small Business Innovation Research (SBIR) program
+**The organizational structure came first.** We organized delivery teams into portfolios, stood up community of practice groups that cut across teams, and designed a customer intake process that ensured incoming projects were scoped for success. To establish a distinct identity within BES, we also supported BESPIN's branding and communications — signaling a fundamentally different way of working that attracted both internal customers and talent.
 
-In particular, Skylight helped BESPIN embrace the following core concepts as they built their organization:
+Scaling required more than structure — it required **people with new skills.** Our [workforce enablement](/work/experience/usaf-bespin-enablement/) work grew 19 personnel into skilled practitioners across design, development, and product management through hands-on coaching, training, and pairing. Separately, we built [service design capacity](/work/experience/usaf-service-design-capacity-building/) that helped teams connect product decisions to larger organizational outcomes across the Air Force.
 
-- **Service design**: By taking into account overall needs and making sure that changes are compatible from an operational and cultural perspective, BESPIN product teams can deliver transformational changes that directly connect to larger outcomes. Through a service design approach, everyone is brought in at all levels of the organization, from stakeholders to the core delivery teams. 
-- **Empowered teams**: Teams are encouraged to work collaboratively and horizontally to get help with issues and see how others have solved similar issues. This prevents bottlenecks and creates a culture of continuous learning and improvement.
-- **Balanced teams**: Teams are staffed to have product, design, and development practitioners each step of the way to prevent knowledge silos and ensure that each practice area is represented. This makes sure that each team has someone who represents the business (e.g., what we build connects to larger outcomes), represents the user (e.g., what we build will actually solve user problems), and represents the technical capabilities (e.g., how we can build it).
-- **User-centered design**: Teams include users in the design and development process to make sure that software is intuitive, seamless, and enables airmen to do their jobs at the highest efficiency.
-- **Lean product**: Teams integrate lean product development practices to avoid scope creep. Once one problem is solved, teams revisit the user landscape to understand what else they can build. This approach ensures that teams only build what’s necessary and don’t create waste/overhead. 
-- **I do, we do, you do**: Pairing is encouraged to teach best practices by example. New team members are empowered to adopt these best practices and utilize them with oversight and feedback. Finally, team members take a hands-off approach to allow their newer counterparts to take the lead and become self-sufficient.
-- **Build, measure, learn**: Teams work in short iterations to reduce risk, building lean prototypes and solutions quickly so that they can measure their impact and learn how to adjust if necessary. This helps ensure that software creates value before it’s moved to production.
+Quality and consistency couldn't depend on individual expertise alone, so we built **two reusable infrastructure layers.** A [design studio](/work/experience/usaf-bespin-design-studio/) gave teams on-demand access to design, product, and engineering support — compressing the path from idea to production to as few as 10 weeks. Two [shared design systems](/work/experience/usaf-bespin-design-system/) — Carbon Forge for complex enterprise applications and Material Atlas for simpler mobile utilities — provided pre-built, accessible components so teams could ship faster without sacrificing usability.
 
-By integrating these core concepts, BES and other Air Force organizations have experienced the benefits of having a dedicated software delivery service provider. As a resource for the Air Force, BESPIN has catalyzed a virtuous cycle. BESPIN enables airmen to build software with speed and quality at lower costs, while also increasing airmen’s ability to continuously learn and improve. As a result, airmen get to use better software sooner, which creates more efficient processes, increases airmen satisfaction, and, in turn, improves overall productivity and retention within the Air Force.
+The model has held up across a widening range of domains. BESPIN teams have shipped products spanning [equipment feedback](/work/experience/usaf-gearfit/), [fitness management](/work/experience/air-force-fitness-management-system/), [base inprocessing](/work/experience/usaf-amp/), [aviation resource management](/work/experience/usaf-arms/), [cost accounting](/work/experience/usaf-jocas/), [aircraft maintenance documentation](/work/experience/usaf-logux/), and [mobile app development](/work/experience/usaf-mask/) — each in a different corner of the Air Force, each validating that the structure, practices, and tooling work beyond the first few teams. The [Weather Systems Program Office](/work/experience/usaf-wxpo-weather-modernization/) engages us through BESPIN to modernize 75+ weather applications — an effort that has grown into its own multi-year transformation.
+
+Agile delivery means little if teams still wait years for a contract to procure the help they need. BESPIN had already tapped the Small Business Innovation Research program to reach innovative vendors, but that approach served a handful of teams — not a factory. We advised on how to expand **acquisition practices that matched the speed of delivery** so more teams could move through shorter procurement cycles instead of defaulting to the multi-year vehicles that would have negated the speed gains everywhere else.
 {% endcapture %}
 
 {% capture results %}
-- Airmen product teams can develop user-centered software that’s intuitive and doesn’t require significant training to use
-- Delivery teams can quickly respond to changing needs in an agile manner
-- Software delivery is now a core internal capability within the Air Force
-- Software developed by BESPIN directly addresses user pain points, delivers on business outcomes, and has real impact on the overall mission
-- Airmen product teams can go from idea to production in under 10 weeks
-- Airmen product teams have documentation and comprehensive resources to help navigate the Air Force’s security and compliance requirements 
-- Airmen product teams are able to release to production continuously 
-- The Air Force is able to maximize the value of each dollar invested into software delivery
+- **Stood up BESPIN as the Air Force's dedicated software factory**, establishing software delivery as a core internal capability rather than an outsourced function
+- **Cleared the compliance bottleneck** by documenting reusable pathways through the Air Force's security and authority-to-operate requirements, so new product teams didn't have to reinvent the process each time
+- **Compressed idea-to-production timelines to as few as 10 weeks** and enabled continuous production releases through DevSecOps practices, replacing the multi-year delivery cycles and infrequent batch deployments that had been the norm
+- **Grew 19 personnel into skilled practitioners** across design, development, and product management through hands-on coaching, training, and pairing — building the internal capacity BESPIN needed to operate independently
+- **BESPIN teams now lead practices they initially learned through pairing**, with community of practice groups, balanced team structures, and progressive coaching producing new practitioners who sustain and extend the model independently
 {% endcapture %}
 
 {% include project.html
