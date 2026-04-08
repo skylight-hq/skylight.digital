@@ -3,7 +3,7 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Transforming how the Air Force builds software"
 permalink: /work/experience/usaf-bespin-transformation-support/
-image: /img/projects/usaf_bespin_transformation_support/bespin-transformation-support.svg
+image: /img/projects/usaf_bespin_transformation_support/bespin-transformation-support.png
 image_description: "A uniformed crew work on a scaffold to build a giant mobile application."
 feature_image:
 feature_image_description:
@@ -183,7 +183,7 @@ Before BESPIN could ship a single product, it needed an operating model. We star
 
 **The organizational structure came first.** We organized delivery teams into portfolios, stood up community of practice groups that cut across teams, and designed a customer intake process that ensured incoming projects were scoped for success. To establish a distinct identity within BES, we also supported BESPIN's branding and communications — signaling a fundamentally different way of working that attracted both internal customers and talent.
 
-Scaling required more than structure — it required **people with new skills.** Our [workforce enablement](/work/experience/usaf-bespin-enablement/) work grew 19 personnel into skilled practitioners across design, development, and product management through hands-on coaching, training, and pairing. Separately, we built [service design capacity](/work/experience/usaf-service-design-capacity-building/) that helped teams connect product decisions to larger organizational outcomes across the Air Force.
+Scaling required more than structure — it required **people with new skills.** Our [workforce enablement](/work/experience/usaf-bespin-enablement/) work grew dozens of personnel into skilled practitioners across design, development, and product management through hands-on coaching, training, and pairing. Separately, we built [service design capacity](/work/experience/usaf-service-design-capacity-building/) that helped teams connect product decisions to larger organizational outcomes across the Air Force.
 
 Quality and consistency couldn't depend on individual expertise alone, so we built **two reusable infrastructure layers.** A [design studio](/work/experience/usaf-bespin-design-studio/) gave teams on-demand access to design, product, and engineering support — compressing the path from idea to production to as few as 10 weeks. Two [shared design systems](/work/experience/usaf-bespin-design-system/) — Carbon Forge for complex enterprise applications and Material Atlas for simpler mobile utilities — provided pre-built, accessible components so teams could ship faster without sacrificing usability.
 
@@ -196,7 +196,7 @@ Agile delivery means little if teams still wait years for a contract to procure 
 - **Stood up BESPIN as the Air Force's dedicated software factory**, establishing software delivery as a core internal capability rather than an outsourced function
 - **Cleared the compliance bottleneck** by documenting reusable pathways through the Air Force's security and authority-to-operate requirements, so new product teams didn't have to reinvent the process each time
 - **Compressed idea-to-production timelines to as few as 10 weeks** and enabled continuous production releases through DevSecOps practices, replacing the multi-year delivery cycles and infrequent batch deployments that had been the norm
-- **Grew 19 personnel into skilled practitioners** across design, development, and product management through hands-on coaching, training, and pairing — building the internal capacity BESPIN needed to operate independently
+- **Grew dozens of personnel into skilled practitioners** across design, development, and product management through hands-on coaching, training, and pairing — building the internal capacity BESPIN needed to operate independently
 - **BESPIN teams now lead practices they initially learned through pairing**, with community of practice groups, balanced team structures, and progressive coaching producing new practitioners who sustain and extend the model independently
 {% endcapture %}
 
