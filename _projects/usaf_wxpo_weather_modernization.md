@@ -3,8 +3,8 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Modernizing how the Air Force delivers weather intelligence"
 permalink: /work/experience/usaf-wxpo-weather-modernization/
-image:
-image_description:
+image: /img/projects/usaf_wxpo_warpspeed/wxpo-warpspeed.svg
+image_description: "Two teammates — a designer and a WxPO staff member — collaborating at a screen with weather graphics."
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -100,7 +100,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) delivers critical weather intelligence to meteorologists, pilots, air traffic controllers, and mission planners across the Department of Defense (DoD). We're partnering with WxPO to modernize how that intelligence reaches its users — migrating a portfolio of more than 75 legacy applications to the cloud, building the design and delivery capabilities needed to sustain the transformation, and consolidating fragmented tools into a unified platform. Our engagement spans [service design to accelerate the migration](/work/experience/usaf-wxpo-cloud-migration/), [building design capability within WxPO's WARPspeed software factory](/work/experience/usaf-wxpo-warpspeed/), [redesigning key workflows in the BIFROST platform](/work/experience/usaf-wxpo-bifrost/), and [replacing manual data processes with a searchable catalog](/work/experience/usaf-wxpo-data-catalog/).
+We're partnering with the U.S. Air Force (USAF) Weather Systems Program Office (WxPO) to modernize how the Department of Defense (DoD) delivers weather intelligence — migrating more than 75 applications to the cloud while building the design and delivery capabilities to sustain the transformation. Our engagement spans [cloud migration](/work/experience/usaf-wxpo-cloud-migration/), [design capability building](/work/experience/usaf-wxpo-warpspeed/), [platform redesign](/work/experience/usaf-wxpo-bifrost/), and [data management](/work/experience/usaf-wxpo-data-catalog/).
 {% endcapture %}
 
 {% capture challenge %}
