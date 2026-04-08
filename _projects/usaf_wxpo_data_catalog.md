@@ -1,50 +1,55 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Bringing user-centered design to the Air Force’s weather data infrastructure
+title_tag: "U.S. Air Force"
+title: "Modernizing weather data delivery for the Air Force"
 permalink: /work/experience/usaf-wxpo-data-catalog/
 image: /img/projects/usaf_wxpo_data_catalog/wxpo-weather-data-catalog.png
-image_description: An airman stands under an umbrella while weather data rains down around them.
+image_description: "An airman stands under an umbrella while weather data rains down around them."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1250
 display: true
-tags: [Service delivery, Research & design, Product management, Software delivery, Air Force, pri kiser, tiffany nieh, ashton tu]
-excerpt: We worked with the Air Force’s weather data analysis organization to transform how data flows into weather applications.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "product management"
+  - "software delivery"
+  - "defense"
+  - "air force"
+  - "pri kiser"
+  - "tiffany nieh"
+  - "ashton tu"
+excerpt: "A searchable data catalog that replaced manual spreadsheets and gave the U.S. Air Force Weather Systems Program Office visibility into how weather data flows to customers."
 project_members:
   - pri-kiser
   - tiffany-nieh
   - ashton-tu
 technologies:
-  - Confluence
-  - Elasticsearch
-  - Figma
-  - HTML / CSS
-  - JavaScript / React
-  - Jira
-  - Mattermost
-  - Material-UI
-  - Microsoft Teams
-  - Slack
-  - Splunk
-  - Trello
-  - Zoom
+  - "Confluence"
+  - "Elasticsearch"
+  - "Figma"
+  - "HTML / CSS"
+  - "JavaScript / React"
+  - "Jira"
+  - "Material-UI"
+  - "Mattermost"
+  - "Microsoft Teams"
+  - "Slack"
+  - "Splunk"
+  - "Trello"
 practices:
-  - Accessibility design
-  - Agile development
-  - Collaborative design workshops
-  - Consulting
-  - Design pattern library
-  - Lean product
-  - Participatory design
-  - Persona development
-  - Product management
-  - Prototyping
-  - Service design
-  - User research
-  - User-centered design
-  - Workshop facilitation
+  - "Accessibility design"
+  - "Agile development"
+  - "Consulting"
+  - "Design system"
+  - "Lean product"
+  - "Product management"
+  - "Prototyping"
+  - "Service design"
+  - "User research"
+  - "User-centered design"
+  - "Workshop facilitation"
 news_posts:
 project_url:
 project_cta:
@@ -52,39 +57,35 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) Weather Systems Program Office (WxPO) wanted to modernize their systems and processes to make critical weather data more available to a wide range of consumers. We used human-centered design (HCD) to create a robust and intuitive data product.
+As part of our [work modernizing weather intelligence delivery for the Air Force](/work/experience/usaf-wxpo-weather-modernization/), we built a searchable data catalog that replaced fragmented manual processes with an intuitive application for managing weather data across the Department of Defense. The catalog gives Weather Systems Program Office (WxPO) staff full visibility into the data life cycle — from ingestion to customer subscription — for the first time.
 {% endcapture %}
 
 {% capture challenge %}
-Many customers depend on WxPO weather data to perform their day-to-day operations. Air traffic controllers, pilots, civilian weather forecasters and others in the Department of Defense (DoD) and beyond use WxPO products to inform decisions and execute important tasks. To support their customers’ critical work, WxPO needs to ensure they deliver accurate and timely weather data.
+While most of our WxPO work focused on user-facing applications, a parallel problem sat underneath: WxPO had no reliable way to manage and track the weather data that powered everything else.
 
-Historically, though, the office has relied on manual, slow, and outdated processes. Their data systems contain disparate, archaic data products that don’t work well together. This prevents WxPO from tracking data throughout the process, from ingestion to customer subscription and beyond.
+Staff searched for available data products in Excel spreadsheets with more than 100,000 rows — a slow, error-prone process that made it nearly impossible to discover what data was available or who was receiving it. Data systems contained disparate, archaic products that didn't work well together. WxPO couldn't track data from ingestion to customer delivery, so problems went undetected until they surfaced in operations.
 
-Saddled with these workflows and systems, WxPO faces challenges such as:
-- Inability to efficiently and effectively support customers, since WxPO lacks visibility into the data flow and can’t easily  identify where and how problems arise
-- Unnecessary time and errors resulting from manual processes and systems that don’t integrate (for example, WxPO users searched for available data products in Excel spreadsheets with more than 100,000 rows)
-- Lack of awareness into available data products, as products are cataloged in Excel and not easily searchable
-
-WxPO needs a robust data product and modern, responsive approaches to managing and serving data.
+The manual workarounds compounded the issue. Even routine tasks required toggling between disconnected tools and reconciling information by hand. Without a structured approach to data management, every question about what was available, who was subscribed, and where problems originated required someone who'd been around long enough to know the answer from memory.
 {% endcapture %}
 
 {% capture solution %}
-To solve these challenges, we used human-centered design principles to build an application that makes it easier for WxPO to get their customers the weather data they need.
+**We applied user-centered design principles from the start,** engaging users, developers, and stakeholders on a regular basis to validate assumptions and ensure the product reflected how people actually worked — not just how existing systems assumed they did.
 
-We engaged with users, developers, and stakeholders on a regular basis, conducting research, gathering feedback, and validating assumptions throughout the entire development process. We then turned this rigorous research into useful documentation about workflows and data journeys — an important foundation for addressing issues with WxPO processes (many of which had never been documented). Our activities such as prioritizing product initiatives, organizing data structures (through the creation of a data tree and data labeling taxonomy), and outcome-oriented roadmaps then helped the team focus on a viable path forward. 
+Research uncovered **workflows that had never been documented.** We turned discovery findings into detailed maps of data journeys and internal processes, making visible the institutional knowledge that had previously lived only in individuals' heads. Many of these workflows were invisible to anyone trying to diagnose problems or plan improvements.
 
-Armed with extensive research and a clear sense of priorities, we built an intuitive application that streamlines the complexities of weather data delivery. The application is a searchable catalog consisting of several types of weather data. Once they locate the data they need, WxPO users can subscribe products to their customers, view details about the data, and add additional data. 
+A new data taxonomy **brought structure to previously unorganized information.** We created a data tree and labeling system that gave current and future users a common vocabulary for describing data products — a prerequisite for any searchable system. Outcome-oriented roadmaps helped the team focus on a viable path forward.
 
-The application allows more visibility into where data comes from, whether certain types of data are available, and who the data is going to. This empowers users to be more proactive about potential issues and gives them more information to solve problems when they do arise. It also saves time searching for data.
+Armed with this research, we **built a searchable catalog application** that replaced the unwieldy spreadsheets. The application lets WxPO users locate data by type, subscribe products to their customers, view details about each data set, and add additional data — all in one place instead of scattered across disconnected tools.
 
-Our initial versions of the application have already begun to improve the efficiency and effectiveness of the weather data analysis process as a whole. The application has also received interest from other parts of the Air Force, and we’ve started to plan for the shift from being a single product to a platform that supports many types of users with different data needs.
+The catalog gave WxPO **visibility it had never had before:** where data comes from, which products are available, and who's receiving them. That visibility empowered staff to be proactive about potential issues and gave them better information for troubleshooting. Early versions generated interest beyond the original team, prompting planning to expand from a single product into a platform for different data needs across the Air Force.
 {% endcapture %}
 
 {% capture results %}
-- Facilitated workshops with stakeholders to drive strategy and product priorities
-- Used HCD practices to create a data taxonomy, enabling mutual intelligibility for current and future users
-- Bridged communication gap and tightened feedback loops between product teams and users, enabling greater responsiveness
-- Successfully incorporated HCD and agile methodologies into the development process, generating interest from other product teams
+- **Replaced 100,000+ row Excel spreadsheets** with a searchable, intuitive catalog application for weather data discovery and subscription
+- **Documented previously unmapped data workflows** and delivery processes, creating a shared foundation for diagnosing issues and planning improvements
+- **Created a data taxonomy and labeling system** that established a common vocabulary for current and future users across WxPO
+- **Gave staff end-to-end visibility** into data sources, availability, and customer subscriptions — reducing time spent searching for information and enabling proactive issue detection
+- **Generated interest from other Air Force organizations**, prompting planning to expand from a single product to a multi-user platform
 {% endcapture %}
 
 {% include project.html
