@@ -1,7 +1,7 @@
 ---
 layout: default
 title_tag: "U.S. Air Force"
-title: "Scaling software quality through shared design systems"
+title: "Giving Air Force teams a common design language"
 permalink: /work/experience/usaf-bespin-design-system/
 image: /img/projects/usaf_bespin_design_system/design-system.svg
 image_description: "A pair of hands moving objects around to make a pattern."
@@ -27,7 +27,7 @@ tags:
   - "ashton tu"
   - "kyle planeaux"
   - "mike brown"
-excerpt: "Two comprehensive design systems — Carbon Forge and Material Atlas — that helped U.S. Air Force product teams ship higher-quality software faster through reusable, accessible, USAF-branded components."
+excerpt: "Two design systems — Carbon Forge and Material Atlas — that give Air Force product teams reusable, accessible components for shipping higher-quality web and mobile applications."
 project_members:
   - zack-gehin
   - mike-brown
@@ -96,41 +96,35 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our broader work [building the BESPIN Design Studio](/work/experience/usaf-bespin-design-studio/) for the U.S. Air Force (USAF), we created two comprehensive design systems — Carbon Forge and Material Atlas — that gave product teams reusable, accessible, USAF-branded components for building web and mobile applications. The design systems helped the Air Force ship higher-quality software faster by replacing redundant, from-scratch design and engineering work with a shared library of pre-built elements.
+As part of the [Design Studio](/work/experience/usaf-bespin-design-studio/) we established through BESPIN (Business Enterprise Systems Product INnovation), we created two design systems — Carbon Forge and Material Atlas — that give U.S. Air Force (USAF) product teams reusable, accessible components for building web and mobile applications. Carbon Forge serves complex, data-rich applications; Material Atlas serves mobile-friendly products — together covering the range of software the Air Force builds.
 {% endcapture %}
 
 {% capture challenge %}
-The USAF's Business Enterprise Systems Product INnovation (BESPIN) organization manages a portfolio of 20+ software products and supports additional applications across the Air Force and broader defense community. Many of these products share a common problem: the user experience doesn't meet the expectations of the airmen who rely on them for critical tasks. Applications are often outdated, overwhelming, or visually disjointed — the result of years of siloed development without shared design standards.
+Designers and engineers across the Air Force's software portfolio had no shared component language. Each product team built its own buttons, forms, and navigation from scratch — choosing different frameworks, different accessibility approaches, and different visual styles. When a designer handed a mockup to an engineer, there was no common reference to anchor the conversation, so the final build rarely matched the intent. Airmen felt the consequences: interfaces that looked and behaved differently from one application to the next, with no consistency in how they completed similar tasks.
 
-For the designers and engineers building these products, the absence of a unified design system created compounding inefficiencies. Teams experienced unclear product direction, breakdowns in the handoff between design and engineering, and redundant work as each team built similar components from scratch. Maintaining quality while keeping pace with agile release cycles was difficult when every product reinvented its own buttons, forms, and navigation patterns.
-
-Existing open source design systems offered a starting point, but they didn't work out of the box for the Air Force. USAF products had unique requirements — including dark mode for nighttime operations, specific accessibility standards, and alignment with Air Force visual identity — that demanded significant customization. Without that customization, teams either adopted off-the-shelf systems that didn't quite fit or built bespoke solutions that couldn't be reused.
-
-The result was a growing gap between the quality airmen expected and what teams could deliver — and no clear path to closing it at the pace and scale BESPIN's portfolio demanded.
+Off-the-shelf design systems offered a starting point but didn't work for the Air Force without significant customization. Without dark mode for nighttime operations, compliance with Web Content Accessibility Guidelines (WCAG) 2.0, and alignment with Air Force visual identity, no open source framework worked as-is. Teams either adopted something that didn't quite fit or built bespoke solutions that couldn't be reused — and neither path closed the gap at the scale the portfolio demanded.
 {% endcapture %}
 
 {% capture solution %}
-Visual design audits, component inventories, and interviews with designers and developers **revealed which problems to solve first.** Teams were rebuilding the same components from scratch, handoffs between design and engineering broke down regularly, and tool constraints shaped daily work more than user needs did. These findings gave us a clear picture of what a shared design system needed to address.
+**Audits and interviews revealed that the portfolio's diversity demanded two design systems, not one.** Component inventories showed dozens of redundant implementations of the same elements — buttons, date pickers, data tables — built in different frameworks with different accessibility standards. But the products themselves ranged from dense enterprise tools to lightweight mobile utilities, running on different tech stacks with fundamentally different interaction needs. A single design system wouldn't serve both ends.
 
-**Rather than forcing every product into a single framework, we proposed two design systems.** Carbon Forge, built on IBM's Carbon Design System, was best suited to complex, data-rich applications like enterprise resource planning tools. Material Atlas, built on Google Material Design, supported simpler, more user-friendly products like mobile utilities.
+**Rather than forcing every product into a single framework, we built two design systems.** Carbon Forge — built on IBM's Carbon Design System — suited complex, data-rich applications like enterprise resource planning tools. Material Atlas — built on Google's Material Design — provided a lighter foundation for mobile-friendly products.
 
-Two systems addressed a reality that a single one couldn't: BESPIN's product portfolio spans a wide range of complexity, platforms, and tech stacks. Forcing everything into one framework would've created more friction than it resolved.
+Collaborative workshops with the USAF Chief Experience Officer, the Air Force design community, and BESPIN leadership shaped both systems' visual identity — ensuring the systems felt like Air Force products, not reskinned open source templates. We customized colors, typography, and interaction patterns to meet operational requirements: a dark mode for legibility during nighttime operations, WCAG 2.0 compliance built into every component, and visual consistency that gave airmen a recognizable experience across applications.
 
-**Collaborative workshops with the USAF Chief Experience Officer, the USAF design community, and BESPIN leadership shaped both systems' visual identity and operational features.** We customized colors, typography, accessibility standards, and interaction patterns. The design systems included capabilities specific to military use cases — such as a dark mode for legibility during nighttime operations — and met Web Content Accessibility Guidelines (WCAG) 2.0 standards with accessibility built into components from the start.
-
-Real products proved the design systems' value. **We adapted Carbon Forge for the Reliability and Maintenance Information System (REMIS),** an application that manages maintenance on all aircraft and equipment, designing and implementing user experience improvements within the legacy system. We used Material Atlas to create an Electronic Flight Bag calculator application requested by airmen who needed to make in-flight calculations, and advised the team behind Digital University — a tech skills platform serving more than 15,000 users — on incorporating the design systems into their product.
+**We rolled the design systems into real products to validate them under pressure.** For the Reliability and Maintenance Information System (REMIS) — the application that manages maintenance records on all aircraft and equipment — we adapted Carbon Forge so the team could redesign complex data views without rebuilding each element from scratch. Material Atlas powered an Electronic Flight Bag calculator for in-flight use and anchored MyPCS, the permanent change of station tool — where shared components helped the team ship in months what had previously stalled for years.
 
 {% include callout.html type = "pullquote" content = "Air Force higher-ups have been so impressed with the MyPCS progress to date. Apparently, the original folks who worked MyPCS weren't able to do nearly as much in three years as BESPIN was able to in three months." cite_name = "James 'Guideaux' Crocker" cite_title = "BESPIN Chief Technology Officer" %}
 
-**To enable self-service adoption, we built tooling and governance processes alongside the component libraries.** Designers could access the design systems through libraries in Sketch and Figma. Developers could pull code components compatible with Flutter, React, and Web Components. An interactive Storybook demo site showed the design systems in action, and written guidelines helped teams apply them consistently. We also created a governance process for requesting and developing new components, ensuring the systems grew in response to real user needs rather than ad hoc additions.
+**To enable self-service adoption, we built tooling and governance alongside the component libraries.** Designers access the systems through libraries in Sketch and Figma; developers pull code components compatible with Flutter, React, and Web Components. An interactive Storybook demo site shows both systems in action, with written guidelines that help teams apply them consistently. To keep the systems growing in the right direction, we established a governance process for requesting and developing new components — ensuring additions respond to real product needs rather than accumulate ad hoc.
 {% endcapture %}
 
 {% capture results %}
-- **Delivered two USAF-tailored design systems** — Carbon Forge for complex, data-rich applications and Material Atlas for simpler, user-friendly products — covering the full range of BESPIN's product portfolio
-- **Three USAF product teams adopted the design systems** within the initial engagement, including REMIS, the Electronic Flight Bag calculator, and MyPCS, with additional teams expressing interest
-- **Built design libraries in Sketch and Figma, and code repositories in Flutter, React, and Web Components**, enabling designers and developers to use the systems independently
-- **Established a component governance process** that gave teams a structured way to request and develop new components, ensuring the design systems grew consistently and in response to user needs
-- **Reduced redundant design and engineering work** by replacing from-scratch component development with pre-built, pre-approved, WCAG 2.0-accessible elements that teams could reuse across products
+- **Adopted by three product teams within the initial engagement** — REMIS, the Electronic Flight Bag, and MyPCS — with Digital University and additional teams also drawing from the systems
+- **Compressed MyPCS delivery from years to months** by giving the team pre-built, pre-approved components instead of building from scratch — a speed gain BESPIN's Chief Technology Officer highlighted publicly
+- **Gave designers and developers a shared language across five frameworks** — Sketch, Figma, Flutter, React, and Web Components — so handoffs that previously broke down now reference the same components
+- **Built WCAG 2.0 compliance into every component**, eliminating the need for teams to solve accessibility independently on each product
+- **Established a governance process for growing the systems** so new components are requested, reviewed, and built in response to real product needs rather than ad hoc additions
 {% endcapture %}
 
 {% include project.html
