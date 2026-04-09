@@ -153,12 +153,24 @@ practices:
 news_posts:
   - title: "BESPIN advances web app development and delivery with newly integrated pipeline"
     url: https://www.airforcebes.af.mil/News/Display/Article/3681362/bespin-advances-web-app-development-and-delivery-with-newly-integrated-pipeline/
+  - title: "BESPIN launches Lowdown app to streamline aircrew mission prep and debriefing"
+    url: https://www.airforcebes.af.mil/News/Display/Article/4296663/bespin-launches-lowdown-app-to-streamline-aircrew-mission-prep-and-debriefing/
+  - title: "BESPIN strengthens software innovation partnership with Republic of Singapore Air Force"
+    url: https://www.airforcebes.af.mil/News/Display/Article/3846739/bespin-strengthens-software-innovation-partnership-with-republic-of-singapore-a/
+  - title: "BESPIN's UEM service will soon be available to Air Force Enterprise"
+    url: https://www.eglin.af.mil/News/Article-Display/Article/3437142/bespins-uem-service-will-soon-be-available-to-air-force-enterprise/
+  - title: "AFIMSC-BESPIN alliance improves mission support capabilities"
+    url: https://www.jbsa.mil/News/News/Article/1942413/afimsc-bespin-alliance-improves-mission-support-capabilities/
   - title: "The Air Force software revolution"
     url: https://www.airandspaceforces.com/article/the-air-force-software-revolution/
   - title: "Meet BESPIN, the Air Force startup driving the switch to mobile"
     url: https://www.defenseone.com/defense-systems/2020/06/meet-bespin-the-air-force-startup-driving-the-switch-to-mobile/195045/
   - title: "The internal Air Force startup trying to drive mobile computing"
     url: https://fcw.com/it-modernization/2020/05/the-internal-air-force-startup-trying-to-drive-mobile-computing/257958/
+  - title: "BESPIN Software Factory tips for secure mobile app development"
+    url: https://govciomedia.com/bespin-software-factory-tips-for-secure-mobile-app-development/
+  - title: "Air Force's software factory debuts user experience monitoring service"
+    url: https://www.executivegov.com/articles/air-forces-software-factory-unveils-user-experience-monitoring-service
 project_url:
 project_cta:
 source_code_url:
