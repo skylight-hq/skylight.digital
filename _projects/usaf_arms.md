@@ -1,19 +1,39 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Modernizing the information management of aviation resources
+title_tag: "U.S. Air Force"
+title: "Modernizing the information management of aviation resources"
 permalink: /work/experience/usaf-arms/
 redirect_from:
   - /work/experience/usaf_arms/
 image: /img/projects/usaf_arms/arms.svg
-image_description: An Air Force parachutist jumping out of a plan, with digital components in the background.
+image_description: "An Air Force parachutist jumping out of a plane, with digital components in the background."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 1100
 display: true
-tags: [service delivery, research & design, software delivery, legacy modernization, devops, cloud & platforms, data & analytics, apis, security & privacy, defense, air force, zack gehin, josh dorothy, colin craig, laura king, andrew lloyd, chun yen, jennifer herzberg, david mcclatchey, josh nygaard]
-excerpt: A modernized system for the U.S. Air Force to better manage aviation resources and aircrew readiness.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "software delivery"
+  - "legacy modernization"
+  - "devops"
+  - "cloud & platforms"
+  - "data & analytics"
+  - "apis"
+  - "security & privacy"
+  - "defense"
+  - "air force"
+  - "zack gehin"
+  - "josh dorothy"
+  - "colin craig"
+  - "laura king"
+  - "andrew lloyd"
+  - "chun yen"
+  - "jennifer herzberg"
+  - "david mcclatchey"
+  - "josh nygaard"
+excerpt: "A modernized aviation resource management system that helps the U.S. Air Force track flight data, training records, and aircrew readiness more reliably."
 project_members:
   - jennifer-herzberg
   - david-mcclatchey
@@ -25,108 +45,80 @@ project_members:
   - chun-yen
   - josh-nygaard
 technologies:
-  - HTML / CSS
-  - JavaScript / Vue.js
-  - Tailwind UI
-  - Go
-  - APIs
-  - Microservices
-  - Swagger
-  - GitLab CI/CD
-  - Terraform
-  - Docker
-  - Jenkins
-  - Groovy
-  - PostgreSQL
-  - Amazon Web Services
-  - Git / GitLab
+  - "HTML / CSS"
+  - "JavaScript / Vue.js"
+  - "Tailwind UI"
+  - "Go"
+  - "APIs"
+  - "Microservices"
+  - "Swagger"
+  - "GitLab CI/CD"
+  - "Terraform"
+  - "Docker"
+  - "Jenkins"
+  - "Groovy"
+  - "PostgreSQL"
+  - "Amazon Web Services"
+  - "Git / GitLab"
 practices:
-  - User research
-  - Technical discovery
-  - User experience design
-  - Lean startup
-  - Design system
-  - Responsive design
-  - Accessibility design
-  - Agile development
-  - API-first development
-  - Microservices architecture
-  - RESTful / SOAP API architecture
-  - Legacy reengineering / strangler pattern
-  - Data management
-  - DevSecOps
-  - Security / privacy compliance
-  - Containerization
-  - Cloud hosting
-  - Automated documentation
-  - Remote teams
+  - "User research"
+  - "Technical discovery"
+  - "User experience design"
+  - "Lean startup"
+  - "Design system"
+  - "Responsive design"
+  - "Accessibility design"
+  - "Agile development"
+  - "API-first development"
+  - "Microservices architecture"
+  - "RESTful / SOAP API architecture"
+  - "Legacy reengineering / strangler pattern"
+  - "Data management"
+  - "DevSecOps"
+  - "Security / privacy compliance"
+  - "Containerization"
+  - "Cloud hosting"
+  - "Automated documentation"
+  - "Remote teams"
 news_posts:
+  - title: "BESPIN advances web app development and delivery with newly integrated pipeline"
+    url: https://www.airforcebes.af.mil/News/Display/Article/3681362/bespin-advances-web-app-development-and-delivery-with-newly-integrated-pipeline/
+  - title: "Air Force rolling out ARTEMIS to modernize aviation resource management"
+    url: https://federalnewsnetwork.com/air-force/2024/12/air-force-rolling-out-artemis-to-modernize-aviation-resource-management/
 project_url:
 project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force's (USAF) Aviation Resource Management System (ARMS) is a critical
-tool for collecting, managing, and reporting data about aviation resources and aircrew
-readiness. As a subcontractor to Fearless, we helped revamp the user experience,
-technical architecture, and technology stack of this complex legacy system.
+As part of our [digital transformation work with BESPIN](/work/experience/usaf-bespin-transformation-support/), we modernized the U.S. Air Force's (USAF) Aviation Resource Management System (ARMS) — the system that tracks flight data, training records, and readiness for roughly 65,000 aircrew members and parachutists. Working as a subcontractor to [Fearless](https://fearless.tech/), we replaced fragmented per-base databases with a centralized, real-time architecture — starting with the highest-stakes module and establishing reusable patterns for the remaining six.
 {% endcapture %}
 
 {% capture challenge %}
-ARMS is a mission-critical application that the USAF uses to track and manage flight
-data for about 65,000 aircrew and parachutists — including flying hours, flight and
-jump schedules, readiness information, and training and evaluation. It consists of
-seven different functional modules, such as Jumps (jump training records management)
-and Training (student profile management and accomplishments).
+ARMS is a mission-critical application that about 2,800 aviation resource managers rely on to perform over two million transactions per week. The system spans seven functional modules — including Jumps (jump training records) and Training (student profiles and accomplishments) — and touches everything from flying hours and jump schedules to go-no-go readiness determinations.
 
-About 2,800 aviation resource managers rely on ARMS to perform over two million transactions
-per week. These users experience multiple pain points because of how the existing system
-was originally built, including:
+The system's original architecture created problems at every level. Fragmented databases meant each Air Force base operated its own instance, so an individual's training data didn't transfer when they moved to a new installation. Parts of the system didn't sync in real time, which undermined the accuracy of safety-critical decisions like whether a parachutist was cleared to jump. When aging servers couldn't handle current transaction volumes, crashes forced managers back to pen-and-paper forms.
 
-- The information architecture and interaction design make it difficult to complete
-tasks efficiently and effectively
-- Each Air Force base has a separate database, so individuals' training data doesn't
-transfer when they go to a new base
-- Parts of the system don't sync in real time, creating a problem for go-no-go
-determinations (such as whether it's safe for a parachutist to jump)
-- Older servers weren't designed for current loads, and crashes require going back to
-pen-and-paper forms
-- The slow speed of running reports eats up a lot of valuable time
-
-Because of these issues, the USAF decided to modernize ARMS and sought an experienced
-digital team who could help do so in a way that delivers immediate value and safeguards
-continuity of mission operations.
+Day-to-day usability compounded the technical debt. The information architecture and interaction design made routine tasks slow and error-prone, and running reports consumed time that aviation resource managers couldn't afford to lose. These issues threatened both operational readiness and the safety of the aircrew ARMS was built to support.
 {% endcapture %}
 
 {% capture solution %}
-As a subcontractor to [Fearless](https://fearless.tech/), we worked together
-with the ARMS program team to incrementally build out a new system alongside the old one,
-until all its key functionalities could eventually be replaced — a proven architectural approach known
-as the [strangler pattern](https://martinfowler.com/bliki/StranglerFigApplication.html).
+Replacing a system that 2,800 people depend on for two million weekly transactions isn't something you can do in a single cut. As a subcontractor to [Fearless](https://fearless.tech/), we partnered with the ARMS program team and adopted the [strangler pattern](https://martinfowler.com/bliki/StranglerFigApplication.html) — building the new system alongside the old one and replacing functionality module by module, so the Air Force never lost access to a tool it used every day.
 
-After conducting extensive user research and technical discovery, we decided that the best
-place to start the modernization process was with the Jumps Module. Aviation resource
-managers use this module to manage the jump training records of parachutists. We
-re-engineered this functionality as a separate application, an effort which involved:
+**We started with the highest-stakes module.** Through user research and technical discovery, we identified the Jumps Module — which tracks jump training records for parachutists — as the right entry point. Outdated data in this module could affect safety decisions about whether someone was cleared to jump. The pain was acute, the user base was well-defined, and a visible win here would build confidence in the broader modernization.
 
-- Redesigning the user experience to better meet the needs of aviation resource managers
-- Rebuilding it using a modern technical architecture and technology stack
-- Interfacing with the old component to migrate and keep data synchronized until
-it's no longer needed and could be decommissioned
+**A centralized, real-time data layer replaced the fragmented per-base databases.** The re-engineered Jumps Module ran on a modern stack — Vue.js, Go, microservices, and PostgreSQL on AWS — that eliminated the data-doesn't-transfer problem airmen had lived with for years. To keep records synchronized during the transition, we built interfaces with the legacy system — so managers never lost access to historical data while the new architecture proved itself.
 
-Our work to build out this new, loosely-coupled application provided a foundational and resusable 
-infrastructure for accelerating the modernization of the other six modules and eventually all of ARMS, 
-so the old one could be retired.
+The new architecture was only half the problem. Rather than replicating the old interface on new technology, we rethought the information architecture and interaction design around the tasks managers performed most often. Routine workflows got faster, reporting became less painful, and error-prone steps were simplified or eliminated.
+
+**With the Jumps Module complete, the reusable infrastructure it established became the blueprint for the remaining six.** Shared patterns for authentication, data synchronization, and deployment meant subsequent modules wouldn't start from scratch. Once the approach proved out, we transitioned all work to the ARMS Program Management Office for ongoing execution.
 {% endcapture %}
 
 {% capture results %}
-- Rapidly developed a prototype of the new Jumps Module to demonstrate the feasibility of our 
-modernization approach, earning stakeholder buy-in
-- Developed a functional, modernized version of the Jumps Module
-- Initiated the process of modernizing the other modules of ARMS, 
-including user research and technical discovery
-- Successfully transitioned all work over to the ARMS PMO for ongoing modernization
+- **Launched a modernized Jumps Module** with a redesigned user experience, centralized data architecture, and real-time synchronization — replacing the fragmented per-base database model
+- **Eliminated stale data from safety-critical decisions** by giving aviation resource managers a single, real-time source of truth for jump training records across installations
+- **Established reusable infrastructure and shared patterns** — including authentication, data sync, and deployment pipelines — to accelerate modernization of the remaining six ARMS modules
+- **Transitioned all work to the ARMS Program Management Office**, enabling the Air Force to continue the modernization effort independently with the architecture and patterns in place
 {% endcapture %}
 
 {% include project.html
