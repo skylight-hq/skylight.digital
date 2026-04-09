@@ -70,7 +70,7 @@ However, the site's usability was so poor that it had become a punchline across 
 {% endcapture %}
 
 {% capture solution %}
-The redesign started after complaints from airmen reached the Chief Master Sergeant of the Air Force — the highest enlisted level of leadership. Our existing work establishing a [Design Studio for BESPIN](/work/experience/usaf-bespin-design-studio/) meant we already had a team embedded in the environment and ready to move.
+The redesign started after complaints from airmen reached the Chief Master Sergeant of the Air Force — the highest enlisted level of leadership. Our existing work establishing a [Design Studio](/work/experience/usaf-bespin-design-studio/) through BESPIN meant we already had a team embedded in the environment and ready to move.
 
 Airmen on our team used AFFMS II regularly themselves, but personal frustration isn't the same as research. **Interviews across ranks and desk research into Reddit threads and social media revealed a consistent pattern:** the pain wasn't about one broken feature — it was about a simple task buried under layers of navigation. Every airman needed the same thing (view and download a fitness report), and the interface made that one action unreasonably hard.
 
