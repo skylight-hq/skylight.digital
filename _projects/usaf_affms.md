@@ -53,7 +53,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [digital transformation work with BESPIN](/work/experience/usaf-bespin-transformation-support/), we redesigned the Air Force Fitness Management System II (AFFMS II) — the tool every uniformed airman uses to generate fitness reports for promotions, deployments, and performance reviews. The project replaced one of the most notoriously frustrating user experiences in the Air Force with a streamlined single-page interface that over 500,000 airmen now use to view and download their reports.
+As part of our [digital transformation work with BESPIN](/work/experience/usaf-bespin-transformation-support/), we redesigned the Air Force Fitness Management System II (AFFMS II) — the tool every uniformed airman uses to generate fitness reports for promotions, deployments, and performance reviews. The redesign replaced one of the most notoriously frustrating user experiences in the Air Force with a streamlined single-page interface that over 500,000 airmen now use to view and download their reports.
 {% endcapture %}
 
 {% capture challenge %}
@@ -70,13 +70,13 @@ However, the site's usability was so poor that it had become a punchline across 
 {% endcapture %}
 
 {% capture solution %}
-The redesign effort began after complaints from airmen caught the attention of the Chief Master Sergeant of the Air Force — the highest enlisted level of leadership. The Air Force engaged us to improve the experience, a natural fit given our ongoing work establishing a [Design Studio for BESPIN](/work/experience/usaf-bespin-design-studio/).
+The redesign started after complaints from airmen reached the Chief Master Sergeant of the Air Force — the highest enlisted level of leadership. Our existing work establishing a [Design Studio for BESPIN](/work/experience/usaf-bespin-design-studio/) meant we already had a team embedded in the environment and ready to move.
 
-Even though our own team members were regular AFFMS II users, we started by **gathering a broader range of perspectives.** Interviews with personnel across a spectrum of ranks and job functions at BESPIN, combined with desk research into social media posts and Reddit threads, gave us a clear picture of both the systemic pain points and the workarounds airmen had improvised.
+Airmen on our team used AFFMS II regularly themselves, but personal frustration isn't the same as research. **Interviews across ranks and desk research into Reddit threads and social media revealed a consistent pattern:** the pain wasn't about one broken feature — it was about a simple task buried under layers of navigation. Every airman needed the same thing (view and download a fitness report), and the interface made that one action unreasonably hard.
 
-**Rapid prototyping and testing with airmen drove every design decision.** We created wireframes, tested content and layouts with users, iterated based on their feedback, and used the U.S. Web Design System to accelerate front-end development and ensure accessible, browser-compatible components. Airmen from BESPIN led the effort, with our team providing user experience design, front-end development, and delivery management support.
+**A single-page interface replaced the entire multi-tab navigation.** The most-used actions — viewing and downloading fitness reports — went front and center, eliminating the six-tab journey airmen had been fighting through. Prototyping rapidly and testing layouts with airmen at each stage, we built on the U.S. Web Design System for accessible, browser-compatible components. Airmen from BESPIN led the implementation while we provided design, front-end, and delivery management support.
 
-The result was a **streamlined single-page interface with clear data and the most-used actions front and center.** Airmen could now view and download fitness reports without fighting through nested menus. As one airman put it:
+The reaction was immediate:
 
 {% include callout.html
   type = "pullquote"
@@ -85,15 +85,15 @@ The result was a **streamlined single-page interface with clear data and the mos
   cite_url = "https://www.reddit.com/r/AirForce/"
 %}
 
-Visibility reached the highest levels of Air Force leadership. In December 2020, Air Force Chief of Staff Gen. Charles Q. Brown Jr. released action orders describing a people-first approach to reviewing personnel and talent management systems. The AFFMS II redesign delivered on that vision — and signaled to the force that leadership takes the **airman experience seriously.**
+In December 2020 — the same month Air Force Chief of Staff Gen. Charles Q. Brown Jr. released action orders calling for a people-first approach to personnel systems — the redesign went live. It became a visible proof point that **the airman experience could change quickly when the right team focused on it.**
 {% endcapture %}
 
 {% capture results %}
-- **Delivered a single-page application** that replaced a notoriously frustrating six-tab-deep navigation with a streamlined interface for viewing and downloading fitness reports
-- **Improved the AFFMS II experience for over 500,000 airmen**, eliminating a pain point that had persisted for years across the entire Air Force
-- **Earned recognition from the Chief Master Sergeant of the Air Force**, who promoted the redesign to airmen via social media to over 1,000 likes
-- **Adopted as a case study by the Air Force's Chief Experience Officer** to advance user-centered design adoption across the service
-- **Led to the establishment of a new BESPIN [Design Studio](/work/experience/usaf-bespin-design-studio/) service** focused on providing rapid-response solutions to critical design challenges
+- **Replaced a notoriously frustrating six-tab-deep navigation** with a single-page interface for viewing and downloading fitness reports
+- **Improved the AFFMS II experience for over 500,000 airmen**, eliminating a pain point that had persisted for years across the entire force
+- **Earned promotion from the Chief Master Sergeant of the Air Force**, who shared the redesign with airmen across social media
+- **Adopted as a model by the Air Force's Chief Experience Officer** for advancing user-centered design across the service
+- **Helped establish the BESPIN [Design Studio](/work/experience/usaf-bespin-design-studio/)** as a rapid-response design service, demonstrating the value of focused design expertise for airman-facing systems
 {% endcapture %}
 
 {% include project.html
