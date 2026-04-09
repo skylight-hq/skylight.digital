@@ -1,17 +1,28 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Helping transform the U.S. Air Force into a design-centric organization
+title_tag: "U.S. Air Force"
+title: "Scaling design capacity across the Air Force"
 permalink: /work/experience/usaf-bespin-design-studio/
 image: /img/projects/usaf_bespin_design_studio/bespin-design-studio.svg
-image_description: The palm of a hand supporting a fighter jet as it takes off into a blue sky.
+image_description: "The palm of a hand supporting a fighter jet as it takes off into a blue sky."
 feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 820
 display: true
-tags: [service delivery, research & design, defense, air force, karthik patil, kyle planeaux, laura kerry, zack gehin, liz fox, ashton tu, mike brown]
-excerpt: A center for design excellence within the Air Force that airmen can leverage to build useful, usable, and secure software quickly and cost-effectively.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "defense"
+  - "air force"
+  - "karthik patil"
+  - "kyle planeaux"
+  - "laura kerry"
+  - "zack gehin"
+  - "liz fox"
+  - "ashton tu"
+  - "mike brown"
+excerpt: "A standing capability inside the Air Force that gives product teams shared design infrastructure, embedded expertise, and coaching to ship user-centered software — now adopted by agencies beyond the DoD."
 project_members:
   - karthik-patil
   - kyle-planeaux
@@ -21,47 +32,51 @@ project_members:
   - ashton-tu
   - mike-brown
 technologies:
-  - Adobe XD
-  - Carbon Design System
-  - Figma
-  - Flutter
-  - Git / GitLab
-  - GitLab CI/CD
-  - Google Workspace
-  - HTML / CSS / Sass / SVG
-  - JavaScript / TypeScript
-  - Lucidchart
-  - Mattermost
-  - Material-UI
-  - Node
-  - React
-  - Sketch
-  - Stencil
-  - Storybook
-  - Trello
-  - Web components
+  - "Adobe XD"
+  - "Carbon Design System"
+  - "Figma"
+  - "Flutter"
+  - "Git / GitLab"
+  - "GitLab CI/CD"
+  - "Google Workspace"
+  - "HTML / CSS / Sass / SVG"
+  - "JavaScript / TypeScript"
+  - "Lucidchart"
+  - "Mattermost"
+  - "Material-UI"
+  - "Node"
+  - "React"
+  - "Sketch"
+  - "Stencil"
+  - "Storybook"
+  - "Trello"
+  - "Web components"
 practices:
-  - Agile 
-  - Branding design
-  - Consulting
-  - Content design
-  - Design system
-  - Iterative and incremental development
-  - Knowledge management
-  - Lean product
-  - Pairing
-  - Product management
-  - Prototyping
-  - Service design
-  - Training and coaching
-  - User research
-  - User-centered design
-  - Web and native apps
-  - Workshop facilitation
+  - "Agile"
+  - "Branding design"
+  - "Consulting"
+  - "Content design"
+  - "Design system"
+  - "Iterative and incremental development"
+  - "Knowledge management"
+  - "Lean product"
+  - "Pairing"
+  - "Product management"
+  - "Prototyping"
+  - "Service design"
+  - "Training and coaching"
+  - "User research"
+  - "User-centered design"
+  - "Web and native apps"
+  - "Workshop facilitation"
 news_posts:
-  - title: Colt Whittall’s LinkedIn post
+  - title: "BESPIN awards contracts with REMIS & WARPspeed for Design Studio services"
+    url: https://www.airforcebes.af.mil/News/Display/Article/3342231/bespin-awards-contracts-with-remis-warpspeed-for-design-studio-services/
+  - title: "BESPIN's Design Studio hosts intensive design workshop"
+    url: https://www.aflcmc.af.mil/NEWS/Article/3891127/bespins-design-studio-hosts-intensive-design-workshop/
+  - title: "Colt Whittall's LinkedIn post"
     url: https://www.linkedin.com/posts/whittall_bespins-design-studio-activity-6971094854336471040-tZBP/
-  - title: BESPIN Facebook post
+  - title: "BESPIN Facebook post"
     url: https://www.facebook.com/BESPIN.AF/posts/pfbid02cDHoBimbz63AMZopeVys67YGiT91cwfDC2QTxvq8cWKtm3sj1TZx9N7p2Xsq7F3rl
 project_url:
 project_cta:
@@ -69,46 +84,30 @@ source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) is committed to modernizing its portfolio of software products to ensure mission success and improve the quality of life for all airmen. In collaboration with Business Enterprise Systems Product INnovation (BESPIN), we’ve established the Design Studio, a design center of excellence whose mission is to deliver better airmen user experiences at scale.
+As part of our [digital transformation work with BESPIN](/work/experience/usaf-bespin-transformation-support/), we established the Design Studio — a standing capability inside the U.S. Air Force (USAF) that gives product teams shared design infrastructure, embedded expertise, and coaching to ship user-centered software. Across 20+ programs, the Design Studio has trained dozens of practitioners, compressed scoping-to-production timelines from years to weeks, and produced a model that agencies beyond the DoD have since adopted.
 {% endcapture %}
 
 {% capture challenge %}
-To digitally transform its organization, the USAF needs to quickly deliver software that, in turn, delivers great user experiences. However, designing and building software products in the USAF rarely works out that way. At present, the experience for internal Air Force product teams looks like:
-- **Understanding the problem.** Requirements are often shaped by stakeholders who don’t possess a deep understanding of everything associated with the problem, including business drivers and actual user needs. If any discovery is conducted at this stage, conducting user research can take months, especially for less experienced teams. As a result, teams start developing solutions with incomplete or uncertain information.
-- **Procuring vendor support.** The procurement process to contract with a vendor is — by default — complex and time-intensive. Teams and vendors have to align to funding cycles, which can take anywhere from a few months to a year.
-- **Building the software solution.** This step requires coordination across the core team, users, and stakeholders. Depending on the tech stack and complexity of the application, development can take anywhere from several months to multiple years. USAF teams are also new to the process of taking a human-centered design approach to software development, which is now required by laws and executive orders such as [21st Century Integrated Digital Experience Act](https://digital.gov/resources/21st-century-integrated-digital-experience-act/) and [Executive Order on Transforming Federal Customer Experience and Service Delivery to Rebuild Trust in Government](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/).
-- **Passing security and compliance checks.** Most teams wait until the end of the software development cycle to ensure their software meets security and compliance requirements. In addition, they lack access to pre-authorized, reusable software components that meet such requirements out of the box. Therefore, the time required to obtain an “authority to operate” can take up to several additional months.
-- **Deploying to production.** Due to the drawn-out experience of getting to this point, most teams aim for a “big bang” release, where everything is released at once. Some applications also need to align to certain deployment windows, which can be as small as once or twice per year. Releasing infrequently impairs the ability of teams to respond to changing user or business needs.
+Air Force product teams were building software, but each one absorbed the full cost of getting to production alone. A team that wanted to redesign an airman-facing tool had to find its own design expertise, run its own procurement, build its own infrastructure, and navigate security reviews from scratch — even if the team down the hall had just done the same thing. Most teams didn't have designers, researchers, or product managers at all.
 
-Given all the challenges associated with delivering modern digital experiences in today’s current operating environment, not to mention limited budgets, airmen aren’t getting the solutions they need and deserve to ensure the USAF succeeds with its mission in the 21st century.
-
-In recognition of this problem, the USAF sought out a better solution for delivering human-centered software to airmen rapidly, cost-effectively, and at scale.
+The result was predictable. Discovery stretched for months. Procurement cycles delayed vendor support before work even started. Security and compliance reviews added months. By the time a product reached airmen, the original need had often shifted — and the budget was spent.
 {% endcapture %}
 
 {% capture solution %}
-In collaboration with the USAF’s Business Enterprise Systems Product INnovation (BESPIN), Skylight has established the BESPIN Design Studio, a center for design excellence within the USAF that airmen product teams can leverage to build software with speed and quality. To this end, the Design Studio offers several critical features:
-- **A team of cross-functional experts** that provide comprehensive product, design, and engineering support at every stage of the software development life cycle
-- **Enablement-focused support**, such as coaching, training, and pairing, aimed at giving airmen the skills they to build human-centered products independently
-- **A flexible, multi-stage engagement approach** that’s designed to ensure day-to-day activities are directly connected to high-level transformational outcomes, enabling the Design Studio to understand the goals of airmen product teams and design a unique approach for their specific needs 
-- **A rapid acquisition pathway** through BESPIN’s Design Studio IDIQ contract vehicle, which allows projects to go from initial scoping to contract execution in three to four weeks; once the contract is executed, the Design Studio can take a user or business problem from idea to production in under 12 weeks
-- **A reusable, pre-authorized experience design infrastructure**, which includes the [Service Design Accelerator framework](/work/experience/usaf-service-design-capacity-building/), [modern design systems](/work/experience/usaf-bespin-design-system/), and user experience monitoring tools, that enable Air Force product teams to accelerate the delivery of human-centered software solutions
+**We built the Design Studio as a permanent capability — hosted by BESPIN but designed to serve the Air Force and beyond.** A core team builds USAF-wide design infrastructure: shared systems, toolkits, and frameworks that every engagement draws from. When specific programs need hands-on help, we scale additional capacity through task orders for embedded delivery, enablement, or both. The goal in every engagement: leave the team stronger than we found it.
 
-To date, the Design Studio has:
-- **[Redesigned the Air Force Fitness Management System II (AFFMS II)](/work/experience/air-force-fitness-management-system/)**, a fitness management tool used by every uniformed airmen, leveraging a user-centered and iterative process that resulted in an improved user interface where airmen could seamlessly view and download fitness reports
-- **Transformed how the Weather Systems Program Office (WxPO) designed and delivered products** across a portfolio of 14 product teams, demonstrating new ways of working, providing hands-on support to product teams, and creating practice resources for user-centered design and product management 
-- **Improved the user experience of the Reliability and Maintenance Information System (REMIS)**, a legacy application that manages maintenance on all aircraft and equipment
-- **Advised Digital University on how to apply a design system and a user experience monitoring infrastructure**, which provides advanced analytics and insights into the performance of their digital applications
-- **Automated workflows for the USAF’s Office of Special Investigations (OSI)** to get them caught up on processing a backlog of 100k criminal records through service mapping, user research, and interface improvements
-- Worked with the COVID-19 Task Force to **process reasonable accommodations requests by automating workflows** and creating one point of access for submission requests, thereby enabling efficient administrative review and reporting
-- **Developed an Electronic Flight Bag (EFB) calculator application** for airmen who need to do calculations on the flight line using iPads that didn’t have pre-installed calculators
+**Shared infrastructure is what makes the model compound.** Every engagement draws from a growing suite of pre-authorized capabilities: a [service design framework](/work/experience/usaf-service-design-capacity-building/) for structured discovery, two [design systems](/work/experience/usaf-bespin-design-system/) — Carbon Forge for complex data-rich applications and Material Atlas for mobile-friendly products — and 10+ reusable toolkits that cut team ramp-up time. Because these assets are already security-cleared, teams skip months of compliance work that used to block every project independently. And because the core team maintains them between engagements, they appreciate over time.
 
-Since launching in 2021, the Design Studio’s inter-agency model has found product-market fit and delivered on several high-profile wins for the Air Force. By creating a center for design excellence, we have created a rising tide that lifts all ships, driving digital transformation and improving the quality of design within the USAF as a whole.
+The capability grew out of R&D originally designed to scale service design across government. A [Phase I STTR](/work/experience/usaf-service-design-capacity-building/) with Carnegie Mellon's Human-Computer Interaction Institute in 2020 tested whether the discipline could take root in defense contexts. A Phase II with UC San Diego's Design Lab validated the approach further. BESPIN sponsored the research and became the first internal consumer. Those phases matured into a Phase III IDIQ — with a $100M ceiling — that gave the Design Studio a fast, flexible acquisition pathway: task orders issued in weeks rather than months, primarily for Air Force programs, with civilian agencies like the CDC also leveraging the vehicle.
+
+[AFFMS II](/work/experience/air-force-fitness-management-system/) — the fitness tool every uniformed airman uses — got a full redesign. The [Weather Systems Program Office](/work/experience/usaf-wxpo-weather-modernization/) transformed how multiple teams designed and delivered weather applications. The Office of Special Investigations automated workflows to clear a backlog of 100,000 criminal records. That track record drew interest from beyond the Air Force, with the CDC and others adopting the Design Studio's capabilities for their own programs.
 {% endcapture %}
 
-{% capture results %} 
-- Reduces application time-to-production from years to months through a robust design infrastructure and modern ways of working
-- Cuts product development costs by up to 80% in some cases through pre-built, pre-approved design components and templates 
-- Built eight software products, and advised several high-profile initiatives, over the course of 2.5 years to help drive broader digital transformation throughout the Air Force
+{% capture results %}
+- **Compressed scoping-to-production timelines from years to under 12 weeks**, with task orders issued in as few as three to four weeks through the SBIR Phase III acquisition pathway
+- **Trained dozens of practitioners in user-centered design** through coaching, pairing, and a structured training program — building lasting internal capacity across the Air Force
+- **Established shared design infrastructure used by 12+ DAF customers**, including two design systems (Carbon Forge and Material Atlas), a service design framework, and 10+ reusable toolkits that eliminate redundant work across engagements
+- **Served 20+ programs spanning fitness management, weather systems, aircraft maintenance, and criminal investigations** — with civilian agencies like the CDC also adopting the capability
 {% endcapture %}
 
 {% include project.html
