@@ -74,7 +74,7 @@ Working as a subcontractor to Mo Studio, we partnered with BESPIN to tackle a pr
 
 **For administrators, AMP solved the visibility problem that paper couldn't.** A real-time dashboard showed each airman's processing status at a glance — no waiting for physical handoffs, no guessing which office had the paperwork. Administrators could create, update, and delete tasks directly, and downstream offices no longer sat idle waiting for upstream forms to arrive.
 
-**A built-in base personnel directory addressed the other half of the PCS experience.** Airmen transferring to an unfamiliar installation could find contact information and office locations for every step in their checklist, reducing the disorientation that came with navigating a new base.
+The directory rounded out the airman-facing experience. Airmen transferring to an unfamiliar installation could find contact information and office locations for every step in their checklist, reducing the disorientation that came with navigating a new base.
 
 **AMP also proved that BESPIN could ship mobile applications quickly using standardized components.** By using pre-screened, reusable building blocks, the team shortened the development cycle and gave BESPIN a template it could apply to future mobile projects across the Air Force. That template became the foundation for the [Mobile Application Starter Kit (MASK)](/work/experience/usaf-mask/) — turning a single inprocessing tool into a reusable model for the factory's mobile pipeline.
 {% endcapture %}
