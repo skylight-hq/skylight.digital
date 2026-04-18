@@ -4324,7 +4324,7 @@
     Mike's a software-engineering leader who loves mentoring others. A U.S. Air
     Force veteran and entrepreneur at heart, Mike built and sold a company from
     a dorm room at Eielson AFB, Alaska. Mike lives in Texas.
-  active: true
+  active: false
   order: 1510
   socials:
     - name: LinkedIn
