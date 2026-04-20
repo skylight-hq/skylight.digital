@@ -84,15 +84,19 @@ We use a player-coach model — embedding our experts within WARPspeed delivery 
 
 **On multiple WARPspeed teams — including [BIFROST](/work/experience/usaf-wxpo-bifrost/) and Environmental Workflow Application — we paired directly with staff** to build user-centered design skills across the delivery life cycle. Rather than handing off recommendations, our designers and product managers worked shoulder-to-shoulder with government counterparts on live projects, coaching through practice so skills transferred through real work rather than theory alone.
 
-Shared practices and a common design language **replaced the siloed approaches** that had led to inconsistent experiences. We developed a user-centered design playbook, ran lunch-and-learns, and launched a recurring "Tip Tuesday" series to make design thinking accessible across the organization. To scale consistency further, we built a WxPO design system, supported a design community of practice, and taught core skills like prototyping and user research.
+**Shared practices and a common design language replaced the siloed approaches** that had led to inconsistent experiences. We developed a user-centered design playbook, ran lunch-and-learns, and launched a recurring "Tip Tuesday" series to make design thinking accessible across the organization. To scale consistency further, we built a WxPO design system, supported a design community of practice, and taught core skills like prototyping and user research.
 
 Fragmented tools had been part of the problem, so **modern tooling became part of the fix.** We recommended organization-level tooling standards, trained designers and developers on Figma, cleaned up Confluence spaces, and onboarded more staff to Jira. Replacing fragmented, outdated tools with a common stack reduced handoff friction and freed teams to focus on design quality rather than tool workarounds.
 
-Delivery structures improved alongside design practices. We **strengthened backlog management, clarified roles and responsibilities**, and recommended improvements for integrated software testing. These operational changes helped teams move faster without sacrificing quality or losing sight of user needs.
+**Delivery structures improved alongside design practices.** We strengthened backlog management, clarified roles and responsibilities, and recommended improvements for integrated software testing. These operational changes helped teams move faster without sacrificing quality or losing sight of user needs.
 
-At the leadership level, we facilitated **alignment across WARPspeed's teams** with org-level recommendations to improve cross-team collaboration — workshops to map dependencies, a new strategy and integration role at the WARPspeed level, and new product management activities that gave leadership the visibility needed to coordinate across a complex, multi-team portfolio.
+**At the leadership level, cross-team alignment became a priority.** We facilitated workshops to map dependencies, recommended a new strategy and integration role at the WARPspeed level, and introduced product management activities that gave leadership the visibility needed to coordinate across a complex, multi-team portfolio.
 
-{% include callout.html type = "pullquote" content = "I've been in this business for a while, and this is the first time I've seen people advocating for users at this level, and also seeing stakeholders buy-in. We're headed in the right direction and our users are seeing that." cite_name = "WxPO Leadership" %}
+{% include callout.html
+  type = "pullquote"
+  content = "I've been in this business for a while, and this is the first time I've seen people advocating for users at this level, and also seeing stakeholders buy-in. We're headed in the right direction and our users are seeing that."
+  cite_name = "WxPO Leadership"
+%}
 {% endcapture %}
 
 {% capture results %}
