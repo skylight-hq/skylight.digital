@@ -61,7 +61,7 @@ As part of our [digital transformation work with BESPIN (Business Enterprise Sys
 {% endcapture %}
 
 {% capture challenge %}
-The USAF has embraced mobile applications as a way to improve airmen's quality of life, mission success, and safety. Airmen aren't always in front of a computer — they need mobile tools that work on the flight line, in base housing, and at bases around the globe. That demand has made delivering production-quality mobile applications a priority for the Air Force's digital transformation.
+Across the Air Force, mobile applications have become essential to improving airmen's quality of life, mission success, and safety. Airmen aren't always in front of a computer — they need tools that work on the flight line, in base housing, and at bases around the globe. That demand has made delivering production-quality mobile applications a priority for the USAF's digital transformation.
 
 BESPIN, the USAF software factory driving this shift, stood at the center of the mobile push. Getting mobile and web applications into production was BESPIN's core mission, but the path to production in a defense environment wasn't easy — and it looked different for each use case. Every team building a new mobile application had to start from scratch, assembling the same foundational components that previous teams had already built. Building [AMP](/work/experience/usaf-amp/) — a mobile inprocessing tool — had demonstrated what was possible, but the authentication, infrastructure, and deployment work that made it production-ready couldn't easily transfer to the next project.
 
