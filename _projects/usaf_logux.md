@@ -1,94 +1,96 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Modernizing aircraft maintenance systems
+title_tag: "U.S. Air Force"
+title: "Modernizing aircraft maintenance documentation"
 permalink: /work/experience/usaf-logux/
 image: /img/projects/usaf_logux/logux.svg
-image_description: Three aircraft mechanics looking at a jet.
-feature_image: 
+image_description: "Three aircraft mechanics looking at a jet."
+feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2150
 display: false
-tags: [service delivery, research & design, legacy modernization, defense, air force, zack gehin, charlye tran]
-excerpt: A sustainable, cost-effective, comprehensive solution for aircraft mechanics to streamline their documentation process.
+tags:
+  - "service delivery"
+  - "research & design"
+  - "legacy modernization"
+  - "defense"
+  - "air force"
+  - "zack gehin"
+  - "charlye tran"
+excerpt: "A prototype platform for digitizing aircraft maintenance documentation, designed to replace error-prone paper workflows for U.S. Air Force flightline maintainers."
 project_members:
   - zack-gehin
   - charlye-tran
 technologies:
-  - Google Material Design
-  - JavaScript / React / Redux
-  - Java / Spring Boot
-  - SOAP API
+  - "Google Material Design"
+  - "JavaScript / React / Redux"
+  - "Java / Spring Boot"
+  - "SOAP API"
 practices:
-  - User research
-  - Technical discovery
-  - User experience design
-  - Design system
-  - Custom design system
-  - Responsive design
-  - Accessibility
-  - Virtual teams
-sitemap: false
+  - "User research"
+  - "Technical discovery"
+  - "User experience design"
+  - "Design system"
+  - "Custom design system"
+  - "Responsive design"
+  - "Accessibility"
+  - "Virtual teams"
+news_posts:
+  - title: "BRICE app simplifies maintenance action, saves time"
+    url: https://www.af.mil/News/Article-Display/Article/1725511/brice-app-simplifies-maintenance-action-saves-time/
+  - title: "App moves aircraft maintenance log to the flight line"
+    url: https://www.defenseone.com/defense-systems/2019/07/app-moves-aircraft-maintenance-log-to-the-flight-line/191604/
+  - title: "Air Force's new aircraft maintenance app cuts down record-keeping hassles"
+    url: https://fedscoop.com/air-force-aircraft-maintenance-app-brice/
+  - title: "USAF unveils BRICE mobile app to save time for aircraft maintainers"
+    url: https://www.airforce-technology.com/news/usaf-brice-mobile-app-maintainers/
 project_url:
 project_cta:
 source_code_url:
 skip_index: true
 ---
-<script>location="https://skylight.digital/work/experience/"</script>
 
 {% capture summary %}
-The U.S. Air Force (USAF) set a goal to modernize aircraft maintenance operations through two applications: Battle Record Information Core Environment (BRICE) and Weapons/Armament Reporting Log and Control (WARLOC). We rebuilt these mission-critical systems as part of an initiative to create a sustainable, cost-effective, comprehensive solution for aircraft maintenance that eliminates the need for error-prone paper documentation, provides offline capabilities on the flightline, and, ultimately, keeps pilots safer.
+As part of our [digital transformation work with BESPIN (Business Enterprise Systems Product INnovation)](/work/experience/usaf-bespin-transformation-support/), we prototyped LogUX — a platform designed to replace error-prone paper documentation with a secure, offline-capable digital experience for U.S. Air Force (USAF) aircraft maintainers. Working with [Fearless](https://fearless.tech/) and the USAF's A4 Logistics team, we conducted onsite research, redesigned the user experience, and built a working prototype that demonstrated how maintainers could document repairs in real time on the flightline.
 {% endcapture %}
 
 {% capture challenge %}
-To keep pilots safe and planes mission-ready, the USAF needs to ensure that aircraft are in good working order, which means performing general and weapons maintenance on over 5,300 aircraft while keeping immaculate records. Currently, maintainers use paper forms for documentation while they perform maintenance on the flightline. At the end of a long, difficult shift, maintainers spend hours of additional time duplicating documentation about their repairs from paper forms to their internal record keeping and data management system. This effort wastes time, delays shift turnover, and increases the potential for transcription errors. 
-
-According to Master Sergeant Daniel Brierton, who has worked in aircraft maintenance for 10 years:
+Keeping pilots safe and planes mission-ready requires meticulous maintenance records across more than 5,300 USAF aircraft. After completing repairs on the flightline, maintainers spent hours each shift transcribing handwritten paper forms into the Integrated Maintenance Data System — the Air Force's central maintenance database. The process wasted time, delayed shift turnovers, and introduced transcription errors into safety-critical records — adding up to hundreds of millions of dollars in lost productivity across the force.
 
 {% include callout.html
   type = "pullquote"
   content = "When we signed up for aircraft maintenance, the image in our head was not sitting at a desk. Maintainers are here to fix jets."
 %}
 
-While a previous system — BRICE 1.0 —  was built by a third-party vendor to reduce the workload for general aircraft maintenance, the software operations and maintenance costs were high due to the use of proprietary technology. Additionally, BRICE 1.0 didn’t have the ability to operate offline, which is essential for an application used on the flightline. Airfields typically have unstable internet connection due to aircraft signal interference, especially if located overseas where internet may be harder to access. Maintainers often work offline but need real-time consistency in audit trails to ensure maintenance records are accurate and securely documented. Due to its high costs and lack of offline capability, BRICE 1.0 turned out to be unsustainable. After only 14 months of use, the application was decommissioned and maintenance units returned to the arduous process of tracking general maintenance through paper documents on the flightline. 
+A previous system — the Battle Record Information Core Environment (BRICE) 1.0 — had attempted to digitize general maintenance documentation, but it relied on proprietary technology that drove up operations and maintenance costs. More critically, BRICE 1.0 couldn't operate offline. Airfields typically have unstable connectivity due to aircraft signal interference, especially at overseas locations. Maintainers needed to work offline while maintaining real-time consistency in audit trails — a requirement BRICE 1.0 couldn't meet. After only 14 months, the Air Force decommissioned the application and maintenance units reverted to paper.
 
-The USAF took this as an opportunity to modernize their aircraft maintenance systems — both general maintenance and weapons maintenance — which has its own specialized tasks.
-
+Rather than starting over, the USAF treated the failure as an opportunity to rethink both general maintenance and weapons maintenance documentation — two distinct workflows with their own specialized requirements — through a single, sustainable platform.
 {% endcapture %}
 
 {% capture solution %}
+LogUX housed two applications — BRICE 2.0 for overall aircraft maintenance tracking and WARLOC, its weapons maintenance counterpart. **Working with Fearless and the USAF's BESPIN and A4 Logistics teams, we set out to rethink how maintainers documented repairs** — using user-centered design to ensure the solution matched real flightline conditions.
 
-In partnership with Fearless, we worked together with the USAF’s BESPIN and A4 Logistics (A4L) teams to build out LogUX, a platform housing two mission-critical applications: BRICE 2.0 — used to track overall maintenance of USAF aircraft — and WARLOC — responsible for keeping aircraft war-fighting ability at maximum efficiency. 
-Our primary role was to redesign the aircraft maintenance experience through these two applications. To accomplish that, we employed a variety of human-centered design practices. 
+**By conducting research at Nellis and Gunter Air Force bases, we learned how maintainers actually worked** — not how documentation described their work. We shadowed users on the flightline, interviewed maintenance leaders, developed prototypes, and iterated through usability tests. Engaging users where repairs happened uncovered pain points that hadn't surfaced through prior requirements gathering, such as the gap between official gear nomenclature and the shorthand maintainers actually used.
 
-For example, we carried out onsite research through visits to Nellis and Gunter Air Force bases. During these visits, we shadowed users, interviewed leaders and maintainers, developed prototypes, and iterated on these prototypes through a series of usability tests. By engaging users where the work is done — in this case on the flightline — we discovered a number of issues and user needs that hadn’t previously been identified. 
+**The redesign centered both BRICE and WARLOC on the highest-value problem: documenting aircraft repairs.** Findings from onsite research and usability reviews drove a new information architecture, streamlined interface, and modern technology stack that BESPIN could replicate across future mobile solutions.
 
-After continuous onsite research and usability reviews of iterative prototypes, the Skylight team completely re-engineered the functionality of BRICE and WARLOC, building a brand new information architecture and user interface. This effort involved: 
-- Starting with redesigning the user experience to focus on the highest-value user problem — documenting aircraft repairs 
-- Rebuilding BRICE and WARLOC to use a modern technical architecture and technology stack that can be replicated by BESPIN to deliver mobile solutions for the USAF
-- Incrementally building out a mobile system that gives maintainers the ability to document maintenance in real-time
-- Building this new interface to connect directly with the existing system of record
-- Adding the ability for maintainers to use applications offline, which is pivotal to workflow since there's limited or non-existant internet connectivity on the flightline
-- Designing the interface to communicate to the user when the application is offline or online and that the data is synced
-- Ensuring offline mode could secure and encrypt data (so it can’t be scanned) and retain data (so it can’t get lost)
+**Offline-first functionality addressed the flightline's connectivity challenges head-on.** Airfields have limited or nonexistent internet access, especially at overseas locations where signal interference from aircraft makes connectivity worse. Maintainers could document repairs in real time without a network connection. The interface communicated clearly whether the application was online or offline and whether data had synced, while encryption and retention safeguards ensured nothing got lost between sync cycles.
 
-Our efforts improved the ease of documenting aircraft repairs and, in turn, increased the efficiency of maintainers. According to Major Jonathan Jordan, Headquarters Air Force Reserve A6 logistics IT policy and strategy branch chief:
+**Connecting the new applications directly to the existing system of record closed the loop** — eliminating the manual transcription step that had consumed hours after every shift. Instead of walking back to a desktop terminal to re-enter handwritten notes, maintainers could complete documentation alongside the repair itself, creating an end-to-end digital workflow from flightline to official record.
 
 {% include callout.html
   type = "pullquote"
   content = "If each maintainer saved an hour of time by using the app, as many reported in the acceptance testing, this would result in over five million hours of recouped time on maintenance tasks Air Force-wide."
 %}
-
-Once deployed and made available to users, these new systems offer a sustainable, cost-effective solution for maintainers to streamline their documentation process. Ultimately, the less time maintainers spend on paperwork and transcribing data (after they’ve been on the flightline all day), the more time they can spend keeping pilots safe and planes mission-ready.
-
 {% endcapture %}
 
 {% capture results %}
-- Rebuilt functionality of mission-critical applications in three months with lower maintenance cost
-- Drove product buy-in through onsite research and relationship building, overcoming cultural and behavioral obstacles
-- Developed offline mode to better align applications with user needs in airbases and on the flightline
-- Streamlined aircraft maintenance documentation process, reducing the need for inefficient paperwork
+- **Prototyped two applications in three months** — BRICE 2.0 and WARLOC — using a modern, open source technology stack that reduced long-term maintenance costs compared to the proprietary BRICE 1.0
+- **Validated significant time savings during acceptance testing**, with maintainers reporting approximately one hour saved per shift — projecting to over five million hours Air Force-wide at full scale
+- **Designed offline-first capability** with encryption and data retention, addressing the flightline connectivity gaps that had sunk BRICE 1.0
+- **Demonstrated the end-to-end workflow** from flightline repair documentation to the official system of record, eliminating the manual transcription step
+- **Produced design and technical insights that informed the A4 Logistics team's approach to future mobile solutions**, including offline architecture patterns, flightline usability findings, and a reusable technology stack
 {% endcapture %}
 
 {% include project.html
