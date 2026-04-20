@@ -173,7 +173,12 @@ Short-term rotations compound the problem. Airmen cycle through product teams on
 
 **Growth couldn't stay confined to individual project teams.** Communities of practice (CoP) extended the culture across BESPIN: a messaging channel launched by our engineers became a hub for asynchronous collaboration on technical challenges, while regular events hosted by our product managers provided training in advanced techniques. Because these communities cut across teams, learning survived even when team composition changed. Coaching executives alongside practitioners reinforced the model further — when leadership saw what modern product development looked like at the team level, they invested more in the approach, giving teams the runway to keep growing.
 
-{% include callout.html type = "pullquote" content = "The Skylight team's willingness to help guide, mentor, and teach was super helpful. They really took me under their wing and I learned a lot. In just one year as a developer on GearFit I went from zero — on my way — to hero." cite_name = "Technical Sergeant Joseph "Joey" Mills" cite_title = "Enterprise Services Noncommissioned Officer In Charge (NCOIC)" %}
+{% include callout.html
+  type = "pullquote"
+  content = "The Skylight team's willingness to help guide, mentor, and teach was super helpful. They really took me under their wing and I learned a lot. In just one year as a developer on GearFit I went from zero — on my way — to hero."
+  cite_name = "Technical Sergeant Joseph 'Joey' Mills"
+  cite_title = "Enterprise Services Noncommissioned Officer In Charge (NCOIC)"
+%}
 
 Technical Sergeant Joseph "Joey" Mills joined BESPIN as a developer on GearFit with no JavaScript or React experience. Through pairing, engineering syncs, and CoP participation, TSgt Mills went from needing help on every story to delivering independently — then moved into a product manager role and ultimately advanced to delivery manager for his own BESPIN team. His trajectory wasn't an outlier; it was the model working as designed. And when trained airmen eventually rotate out, they carry those skills to their next assignment — while the communities of practice, shared processes, and documentation they helped build remain for the next group coming in.
 {% endcapture %}
