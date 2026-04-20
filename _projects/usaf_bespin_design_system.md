@@ -114,7 +114,12 @@ Collaborative workshops with the USAF Chief Experience Officer, the Air Force de
 
 **We rolled the design systems into real products to validate them under pressure.** For the Reliability and Maintenance Information System (REMIS) — the application that manages maintenance records on all aircraft and equipment — we adapted Carbon Forge so the team could redesign complex data views without rebuilding each element from scratch. Material Atlas powered an Electronic Flight Bag calculator for in-flight use and anchored MyPCS, the permanent change of station tool — where shared components helped the team ship in months what had previously stalled for years.
 
-{% include callout.html type = "pullquote" content = "Air Force higher-ups have been so impressed with the MyPCS progress to date. Apparently, the original folks who worked MyPCS weren't able to do nearly as much in three years as BESPIN was able to in three months." cite_name = "James 'Guideaux' Crocker" cite_title = "BESPIN Chief Technology Officer" %}
+{% include callout.html
+  type = "pullquote"
+  content = "Air Force higher-ups have been so impressed with the MyPCS progress to date. Apparently, the original folks who worked MyPCS weren't able to do nearly as much in three years as BESPIN was able to in three months."
+  cite_name = "James 'Guideaux' Crocker"
+  cite_title = "BESPIN Chief Technology Officer"
+%}
 
 **To enable self-service adoption, we built tooling and governance alongside the component libraries.** Designers access the systems through libraries in Sketch and Figma; developers pull code components compatible with Flutter, React, and Web Components. An interactive Storybook demo site shows both systems in action, with written guidelines that help teams apply them consistently. To keep the systems growing in the right direction, we established a governance process for requesting and developing new components — ensuring additions respond to real product needs rather than accumulate ad hoc.
 {% endcapture %}
