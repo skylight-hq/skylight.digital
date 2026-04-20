@@ -61,7 +61,12 @@ WxPO's cloud migration had the right mandate but couldn't gain traction. The pla
 
 Without a shared migration vision, teams pulled in different directions. Miscommunication and rework became routine. Staff were expected to adopt new technologies without adequate guidance, leaving middle management in a constant state of improvisation.
 
-{% include callout.html type = "pullquote" content = "I think it's affected all of middle management because every day, we're trying to put things together and every day, we're in some form of lost and found." cite_name = "Weather Officer" cite_title = "Acquisitions Training" %}
+{% include callout.html
+  type = "pullquote"
+  content = "I think it's affected all of middle management because every day, we're trying to put things together and every day, we're in some form of lost and found."
+  cite_name = "Weather Officer"
+  cite_title = "Acquisitions Training"
+%}
 
 The disconnect extended to end users. Legacy applications had been built without meaningful input from the forecasters, pilots, and controllers who depended on them — leading to gaps in functionality and usability that a lift-and-shift migration would only carry forward. WxPO needed a way to address the organizational problems before the technical ones could succeed.
 {% endcapture %}
@@ -71,7 +76,7 @@ Our [Service Design Accelerator](/work/toolkits/service-design-framework/) gave 
 
 **We worked on three fronts simultaneously.** The first was strategic: creating an overarching vision that aligned teams around shared goals so every migration effort pulled in the same direction. The second was operational: enhancing the developer experience by introducing modern tools and fostering greater autonomy. The third was diagnostic: applying service design techniques to identify root causes rather than surface symptoms.
 
-Those three workstreams converged on **eight priority areas for improvement:**
+**Eight priority areas for improvement** emerged from those three workstreams:
 
 1. Build a shared migration vision and plan
 2. Standardize and define roles
@@ -82,7 +87,7 @@ Those three workstreams converged on **eight priority areas for improvement:**
 7. Enhance support services
 8. Continue discovery efforts to identify emerging needs
 
-Rather than delivering recommendations and stepping back, we **embedded with WxPO teams to tackle each area directly.** We worked alongside staff to implement changes — equipping them with the tools, processes, and knowledge needed to sustain progress independently. This hands-on approach built internal capacity rather than external dependencies, positioning WxPO to drive the migration forward on its own.
+**We embedded with WxPO teams to tackle each area directly** rather than delivering recommendations and stepping back. The hands-on approach — working alongside staff to implement changes and equipping them with the tools, processes, and knowledge needed to sustain progress — built internal capacity rather than external dependencies, positioning WxPO to drive the migration forward on its own.
 {% endcapture %}
 
 {% capture results %}
