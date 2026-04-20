@@ -3,8 +3,8 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Modernizing how the Air Force delivers weather intelligence"
 permalink: /work/experience/usaf-wxpo-weather-modernization/
-image:
-image_description:
+image: /img/projects/usaf_wxpo_warpspeed/wxpo-warpspeed.svg
+image_description: "Two teammates — a designer and a WxPO staff member — collaborating at a screen with weather graphics."
 feature_image:
 feature_image_description:
 feature_image_shadow:
@@ -116,7 +116,7 @@ WxPO didn't yet have the internal capacity for that kind of transformation. Desi
 {% capture solution %}
 WxPO engaged us through [BESPIN](/work/experience/usaf-bespin-transformation-support/) to bring user-centered design and delivery expertise to the modernization effort. We've worked with WxPO across multiple workstreams over several years — each one building on the last to address a different dimension of the challenge.
 
-**We started with [service design to diagnose what was stalling the migration](/work/experience/usaf-wxpo-cloud-migration/).** Rather than jumping to technical solutions, we applied our Service Design Accelerator to understand the organizational dynamics holding teams back — identifying eight priority areas and embedding alongside WxPO staff to tackle each one while building their capacity to sustain progress independently.
+**We started with [service design to diagnose what was stalling the migration](/work/experience/usaf-wxpo-cloud-migration/).** Rather than jumping to technical solutions, we applied our [Service Design Accelerator](/work/experience/usaf-service-design-capacity-building/) to understand the organizational dynamics holding teams back — identifying eight priority areas and embedding alongside WxPO staff to tackle each one while building their capacity to sustain progress independently.
 
 With the migration unblocked, we turned to **[building the design capability](/work/experience/usaf-wxpo-warpspeed/) WxPO needed to deliver modern user experiences.** Using a player-coach model within WARPspeed — WxPO's software factory — we embedded designers and product managers on delivery teams, introduced modern tooling and a shared design system, and strengthened delivery operations across the organization.
 
