@@ -1,77 +1,93 @@
 ---
 layout: default
-title_tag: U.S. Air Force
-title: Accelerating mobile application development in the Air Force
+title_tag: "U.S. Air Force"
+title: "Accelerating mobile application development in the Air Force"
 permalink: /work/experience/usaf-mask/
 image: /img/projects/usaf_mask/mask.svg
-image_description: An airman using a technology starter kit.
-feature_image: 
+image_description: "An airman using a technology starter kit."
+feature_image:
 feature_image_description:
 feature_image_shadow:
 order: 2000
 display: true
-tags: [research & design, software delivery, devops, cloud & platforms, security & privacy, defense, air force, lucas newman, jesse skeets, adam weber, gianna buda]
-excerpt: By enabling airmen to rapidly build mobile products in-house, the U.S. Air Force can accelerate the delivery of mission value, reduce application development costs, and grow the skill sets of its force.
+tags:
+  - "research & design"
+  - "software delivery"
+  - "devops"
+  - "cloud & platforms"
+  - "security & privacy"
+  - "defense"
+  - "air force"
+  - "lucas newman"
+  - "jesse skeets"
+  - "adam weber"
+  - "gianna buda"
+excerpt: "A mobile application starter kit that gave U.S. Air Force software teams pre-vetted templates, tooling, and documentation to ship production-quality apps faster."
 project_members:
   - lucas-newman
   - jesse-skeets
   - adam-weber
   - gianna-buda
 technologies:
-  - Flutter
-  - Express
-  - React
-  - Keycloak
-  - Terraform
-  - AWS (Cloud One)
+  - "Flutter"
+  - "Express"
+  - "React"
+  - "Keycloak"
+  - "Terraform"
+  - "AWS (Cloud One)"
 practices:
-  - Lean startup
-  - User research
-  - User experience design
-  - Agile development
-  - DevSecOps
-  - Cloud hosting
+  - "Lean startup"
+  - "User research"
+  - "User experience design"
+  - "Agile development"
+  - "DevSecOps"
+  - "Cloud hosting"
 news_posts:
+  - title: "BESPIN Advances Web App Development and Delivery with Newly Integrated Pipeline"
+    url: https://www.airforcebes.af.mil/News/Display/Article/3681362/bespin-advances-web-app-development-and-delivery-with-newly-integrated-pipeline/
+  - title: "Meet BESPIN, the Air Force startup driving the switch to mobile"
+    url: https://www.defenseone.com/defense-systems/2020/06/meet-bespin-the-air-force-startup-driving-the-switch-to-mobile/195045/
+  - title: "Transforming Into a Mobile-First Military"
+    url: https://www.afcea.org/signal-media/transforming-mobile-first-military
+  - title: "BESPIN Software Factory Tips For Secure Mobile App Development"
+    url: https://govciomedia.com/bespin-software-factory-tips-for-secure-mobile-app-development/
 project_url:
 project_cta:
 source_code_url:
 ---
 
 {% capture summary %}
-The U.S. Air Force (USAF) is using mobile applications to improve airmen’s quality of life, mission success, and safety. As a subcontractor to Mo Studio, and in collaboration with Business Enterprise Systems Product INnovation (BESPIN), we created a starter kit for future application teams entering the BESPIN ecosystem, streamlining the process for developing custom mobile and web applications for the USAF.  
+As part of our [digital transformation work with BESPIN (Business Enterprise Systems Product INnovation)](/work/experience/usaf-bespin-transformation-support/), we created the Mobile Application Starter Kit (MASK) — a set of pre-vetted templates, tooling, and documentation that gave U.S. Air Force (USAF) software teams a clear, repeatable path from project kickoff to production. Working with Mo Studio, we delivered MASK to cut months of setup time and reduce redundant security work across BESPIN's growing portfolio of mobile products.
 {% endcapture %}
 
 {% capture challenge %}
-Digital transformation is critical to the USAF’s mission of modernizing its operations. That means being able to deliver digital solutions for airmen across multiple channels and platforms — particularly mobile. Airmen aren’t always sitting in front of a computer. They need mobile applications to accomplish life and mission tasks where they are: on the flight line, in base housing, or deployed on various bases around the globe. This need creates high demand for delivering production-quality mobile applications. BESPIN, a young software factory within the Air Force driving this shift toward mobile applications, is a key part of the USAF’s digital transformation. 
+The USAF has embraced mobile applications as a way to improve airmen's quality of life, mission success, and safety. Airmen aren't always in front of a computer — they need mobile tools that work on the flight line, in base housing, and at bases around the globe. That demand has made delivering production-quality mobile applications a priority for the Air Force's digital transformation.
 
-Getting a mobile or web application into production early and often is a primary goal for any software application team; however the path to production in a defense environment isn’t always easy, and it’s often different for each use case. At present, each team in BESPIN building a mobile application has to build all the parts from scratch. However, there are common application components that don’t need to be built by each new application team over and over again (e.g., authenticating, sending email or other notifications). This is especially important in a defense environment, since each component has to be vetted by security. If we can reduce the security burden by providing pre-vetted components, it makes the jobs of individual teams easier. 
+BESPIN, the USAF software factory driving this shift, stood at the center of the mobile push. Getting mobile and web applications into production was BESPIN's core mission, but the path to production in a defense environment wasn't easy — and it looked different for each use case. Every team building a new mobile application had to start from scratch, assembling the same foundational components that previous teams had already built. Building [AMP](/work/experience/usaf-amp/) — a mobile inprocessing tool — had demonstrated what was possible, but the authentication, infrastructure, and deployment work that made it production-ready couldn't easily transfer to the next project.
 
-Given that many of the airmen assigned to BESPIN application development teams are new to software engineering, 
-there’s not always a technical expert or resource to consult when teams are starting out. 
-A lack of institutional guidance results in slower development times and higher costs. 
-When kicking off a project, airmen need clear documentation and proven techniques to help speed up the development process.
+The duplication wasn't just inefficient — it compounded the security burden. In a defense environment, every component has to be vetted through cybersecurity review. Common building blocks that could've been reviewed once were instead being reviewed repeatedly by different teams, slowing delivery and consuming scarce security resources.
 
-Since the future of BESPIN relies on airmen to deliver applications quickly and cost effectively, 
-they need clear pathways and standardization to reduce as much technical burden as possible.
-
+Many of the airmen assigned to BESPIN application teams were early in their software engineering careers. Without institutional guidance on approved technologies, ecosystem dependencies, or deployment processes, teams spent weeks navigating decisions that more experienced engineers would've resolved quickly. The lack of standardized documentation and tooling meant slower development cycles, higher costs, and inconsistent technical approaches across the portfolio.
 {% endcapture %}
 
 {% capture solution %}
-To provide a clear production path for mobile applications within BESPIN, Mo Studio and Skylight created the Mobile Application Starter Kit (MASK). MASK is a resource for BESPIN that provides airmen with distinct project templates for mobile apps, APIs, and “admin” dashboards, and documentation on how to use these templates. MASK also offers necessary guidance on how to navigate the development and deployment of custom mobile applications within BESPIN. For example, MASK offers direction on key aspects of the development process, such as:
-- What teams do what 
-- Why you might need a team’s tooling 
-- How to connect with said team
-- The dependencies within the ecosystem
+**We designed MASK to give BESPIN teams a clear production path from day one.** Working with Mo Studio, we paired project templates with the documentation and tooling airmen need to navigate BESPIN's development and deployment ecosystem.
 
-MASK will greatly reduce the time mobile application teams need to develop high-quality software within BESPIN, cutting costs and improving outcomes. Through templating, documentation, and tooling, MASK will save teams months of time choosing appropriate and approved tech and completing security chores. In addition, by building mobile products in-house, BESPIN teams can focus on solving the right problem and improving the user experience for their fellow airmen, rather than worrying about tooling (and, to some extent, security for common components).  
+**MASK included three distinct starter templates — for mobile apps, APIs, and web dashboards — each built on BESPIN-approved technology stacks.** Rather than forcing each new team to research, select, and get approval for their own tooling, MASK bundled pre-vetted choices into ready-to-use project scaffolds. Teams could clone a template and start building application logic immediately instead of spending weeks on infrastructure decisions.
 
-Through MASK, we helped accelerate the future development and deployment of mobile applications through BESPIN, and, in turn, advanced broader digital transformation within the USAF.
+**Ecosystem documentation addressed the onboarding gap that templates alone couldn't solve.** Teams also needed to know how BESPIN's internal ecosystem fit together — which teams owned which capabilities, why a team might need a particular service, how to connect with them, and how dependencies flowed. For airmen new to software development, these guides removed the guesswork that had previously slowed project kickoffs.
+
+Duplicated security work was another drag on velocity. **A duplicate-detection script identified security chores already completed by other teams,** so new projects didn't have to repeat reviews unnecessarily. Combined with pre-vetted infrastructure configurations built on Terraform and AWS (Cloud One), MASK significantly lightened the security burden for new applications entering BESPIN's pipeline.
+
+**By standardizing the path to production, MASK gave BESPIN teams the foundation to focus on solving the right problem for their fellow airmen** — building user-centered features rather than wrestling with tooling and security processes.
 {% endcapture %}
 
 {% capture results %}
-- Created three templates for mobile app, API, and web app to save teams months of time in choosing appropriate/approved tech and completing security chores
-- Provided guidance on how to use the templates, including documentation and a script to identify duplicate security chores, as well as infrastructure tooling to guide BESPIN teams through the development and deployment of custom mobile applications
-- Improved technical skill sets of airmen, allowing them to build mobile applications in-house and reduce development costs
+- **Created three production-ready templates** for mobile apps, APIs, and web dashboards, saving teams months of time selecting approved technologies and completing baseline security chores
+- **Built ecosystem documentation and onboarding guides** that map BESPIN's internal teams, tooling dependencies, and deployment processes for airmen new to software development
+- **Developed a duplicate-detection script** that identifies previously completed security chores, eliminating redundant cybersecurity reviews across BESPIN's application portfolio
+- **Delivered pre-vetted infrastructure tooling** built on Terraform and AWS (Cloud One) to guide teams through deployment without starting from scratch
+- **Equipped airmen to build mobile applications in-house** by providing standardized resources that reduced the technical barrier to entry for BESPIN teams new to software development
 {% endcapture %}
 
 {% include project.html
