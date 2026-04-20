@@ -85,17 +85,23 @@ Improving user experiences requires more than redesigning features. It means hel
 
 **A usability and accessibility audit established the baseline.** We audited BIFROST to pinpoint friction points and compliance gaps, documented the issues, and partnered with the product manager and developers to prioritize and address them. To reduce inconsistency across the growing ecosystem, we extended the WxPO design system with reusable templates in Figma, then trained designers on accessibility best practices, prototyping, and cleaner design handoffs.
 
-Regular touch points **replaced the old pattern of occasional feedback cycles.** We introduced continuous user engagement across discovery, design, and delivery — research sessions, standing meetings with volunteer users, and on-site visits that surfaced real use cases and shaped feature requirements. We conducted usability testing on prototypes and modeled iterative delivery for both users and the BIFROST team. We also coached teammates in research methods so they could lead sessions independently.
+**Regular touch points replaced the old pattern of occasional feedback cycles.** Continuous user engagement now spans discovery, design, and delivery — research sessions, standing meetings with volunteer users, and on-site visits that surface real use cases and shape feature requirements. Usability testing on prototypes modeled iterative delivery for both users and the BIFROST team. Coaching in research methods gave teammates the confidence to lead sessions independently.
 
-{% include callout.html type = "pullquote" content = "These sessions that you guys are doing are extremely valuable — giving everybody the time to give you guys feedback, making this thing certainly a lot better." %}
+{% include callout.html
+  type = "pullquote"
+  content = "These sessions that you guys are doing are extremely valuable — giving everybody the time to give you guys feedback, making this thing certainly a lot better."
+%}
 
-Design-to-development handoffs had been a consistent source of rework. We **established a bi-weekly alignment between design and engineering** to surface technical constraints early. Figma enabled richer prototypes, and we trained developers to use Figma dev tools for faster implementation. A Material UI component library in Figma reduced translation work between design and React code. Jira ticket standards ensured each issue linked to the relevant Figma design and included the detail needed to build with confidence — policy constraints, user requirements, acceptance criteria, and edge cases.
+**Tighter design-to-development handoffs reduced a consistent source of rework.** We established a bi-weekly alignment between design and engineering to surface technical constraints early. Figma enabled richer prototypes, and we trained developers to use Figma dev tools for faster implementation. A Material UI component library in Figma reduced translation work between design and React code. Jira ticket standards ensured each issue linked to the relevant Figma design and included the detail needed to build with confidence — policy constraints, user requirements, acceptance criteria, and edge cases.
 
-{% include callout.html type = "pullquote" content = "The designers are able to help align the requirements and user desires into a cohesive user interface design that makes the product look more polished and aids in the development process by bringing user needs and design to the front of the development effort." %}
+{% include callout.html
+  type = "pullquote"
+  content = "The designers are able to help align the requirements and user desires into a cohesive user interface design that makes the product look more polished and aids in the development process by bringing user needs and design to the front of the development effort."
+%}
 
 **With these foundations in place, we redesigned BIFROST's highest-impact workflows.** Watches, Warnings, and Advisories and Mission Management — the application for requesting and completing mission briefings — both got end-to-end redesigns that streamlined core operations for the weather community and supported faster, more confident mission planning.
 
-User-centered training and product guidance **supported adoption across the user base.** After interviewing users about onboarding and learning needs, we developed content guidelines tailored to the ecosystem, used them to update and standardize nearly 40 written training guides, and provided training in the formats most valuable to users — including videos and live virtual sessions.
+**User-centered training and product guidance supported adoption across the user base.** After interviewing users about onboarding and learning needs, we developed content guidelines tailored to the ecosystem, used them to update and standardize nearly 40 written training guides, and provided training in the formats most valuable to users — including videos and live virtual sessions.
 {% endcapture %}
 
 {% capture results %}
