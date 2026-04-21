@@ -2,7 +2,9 @@
 layout: default
 title_tag: "Centers for Medicare & Medicaid Services"
 title: "Turning data into decisions for rural hospitals"
-permalink: /work/experience/cms_chart_model/
+permalink: /work/experience/cms-chart-model/
+redirect_from:
+  - /work/experience/cms_chart_model/
 image: /img/projects/cms_chart_model/idos.svg
 image_description: "On the left, a doctor checks a patient's heartbeat. On the right, the same person walks a dog outside."
 feature_image:
