@@ -265,13 +265,17 @@
   }
 }
 
-// Restore dropdown focus browser default style
 .dropdown-toggle {
   border-radius: 0.25rem;
   font-family: $font-family-mono;
 
   &:focus {
-    outline: 5px auto -webkit-focus-ring-color;
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $brand-primary;
+    outline-offset: 3px;
   }
 
   &::after {
