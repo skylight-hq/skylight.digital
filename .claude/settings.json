@@ -1,0 +1,17 @@
+{
+  "extraKnownMarketplaces": {
+    "skylight-hub": {
+      "source": {
+        "source": "github",
+        "repo": "skylight-hq/skylight-hub"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "website-case-study@skylight-hub": true,
+    "content-style-linters@skylight-hub": true,
+    "content-respectful-language@skylight-hub": true,
+    "content-voice-and-tone@skylight-hub": true,
+    "content-channel-writers@skylight-hub": true
+  }
+}
