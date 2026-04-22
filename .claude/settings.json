@@ -8,7 +8,7 @@
     }
   },
   "enabledPlugins": {
-    "website-case-study-writer@skylight-hub": true,
+    "website-case-study@skylight-hub": true,
     "content-style-linters@skylight-hub": true,
     "content-respectful-language@skylight-hub": true,
     "content-voice-and-tone@skylight-hub": true,
