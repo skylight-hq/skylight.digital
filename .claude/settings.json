@@ -8,10 +8,10 @@
     }
   },
   "enabledPlugins": {
-    "website-case-study@skylight-hub": true,
+    "skylight-website-case-study@skylight-hub": true,
     "content-style-linters@skylight-hub": true,
-    "content-respectful-language@skylight-hub": true,
-    "content-voice-and-tone@skylight-hub": true,
-    "content-channel-writers@skylight-hub": true
+    "skylight-respectful-language@skylight-hub": true,
+    "skylight-voice-and-tone@skylight-hub": true,
+    "skylight-channel-writers@skylight-hub": true
   }
 }
