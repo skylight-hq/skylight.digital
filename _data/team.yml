@@ -6,7 +6,7 @@
   profile_path: /company/about/#chris-cairns
   image: /img/people/chris-cairns.svg
   image_description: Illustration of Chris Cairns
-  position: Chief Executive Officer
+  position: President
   bio: |
     Chris served as a Presidential Innovation Fellow — and co-founded 18F and
     Technology Transformation Services, both housed within the General Services
@@ -5307,7 +5307,7 @@
   fname: Aaron
   lname: Owens
   full_name: Aaron Owens
-  short_name: Aaron Owens
+  short_name: A. Owens
   profile_path: /company/about/#aaron-owens
   image: /img/people/aaron-owens.svg
   image_description: Photo of Aaron Owens
@@ -5326,5 +5326,23 @@
       link_description: Aaron's GitHub Account
       fa_icon_name: github
 
+- name: eleanor-hyman
+  fname: Eleanor
+  lname: Hyman
+  full_name: Eleanor Hyman
+  short_name: Eleanor Hyman
+  profile_path: /company/about/#eleanor-hyman
+  image: /img/people/eleanor-hyman.svg
+  image_description: Photo of Eleanor Hyman
+  position: Chief Executive Officer 
+  bio: |
+    Eleanor has spent her career building dynamic teams in the GovCon and civic tech space, and has founded tech start-ups in the federal civilian and defense & security markets. She specializes in balancing strategy, operational execution, and innovation to scale impact, and she loves creating an environment for people to thrive. Eleanor lives in South Carolina.
+  active: true
+  order: 1100
+  socials:
+    - name: LinkedIn
+      link: http://www.linkedin.com/in/eleanorhyman
+      link_description: Eleanor's LinkedIn Account
+      fa_icon_name: linkedin
   
 
