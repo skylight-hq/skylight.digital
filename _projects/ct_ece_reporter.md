@@ -3,10 +3,10 @@ layout: default
 title_tag: "State of Connecticut"
 title: "Building a trusted enrollment data foundation for early childhood programs"
 permalink: /work/experience/ct-ece-reporter/
-feature_image: /img/projects/ct_ece_reporter/ece-reporter.gif
-feature_image_description: "Animated view of the ECE Reporter dashboard and monthly reporting workflow."
 image: /img/projects/ct_ece_reporter/ece-reporter.svg
 image_description: "A teacher sitting with a young child at a table and a computer screen in the background showing a green checkmark."
+feature_image: /img/projects/ct_ece_reporter/ece-reporter.gif
+feature_image_description: "Animated view of the ECE Reporter dashboard and monthly reporting workflow."
 feature_image_shadow: true
 order: 210
 display: true
