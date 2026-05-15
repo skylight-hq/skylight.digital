@@ -52,9 +52,9 @@ Prioritization couldn't run on supply or demand alone. Looking only at what data
 {% capture solution %}
 To map both sides at once, we built a workflow that paired a custom data crawl with user research. The two views together surfaced prioritized recommendations.
 
-**First, we crawled the VA's public web surface.** A custom spidering script walked every VA web property. For every machine-readable file it found — spreadsheets, tables, forms, and other open formats — it ran a weighted semantic analysis. The crawl built the supply-side map: which datasets exist, where, and in what condition.
+**On the supply side, we crawled the VA's public web surface.** A custom spidering script walked every VA web property. For every machine-readable file it found — spreadsheets, tables, forms, and other open formats — it ran a weighted semantic analysis. The result: a map of which datasets exist, where, and in what condition.
 
-**Next, we ran structured user research with veterans and their supporters.** Using affinity mapping — a method for ranking ideas in workshops — we asked which data resources mattered most across web, mobile, and other platforms. That built the demand-side map.
+**On the demand side, we ran structured user research with veterans and their supporters.** Using affinity mapping — a method for ranking ideas in workshops — we asked which data resources mattered most across web, mobile, and other platforms. That built the other half of the map.
 
 We then merged the two views. Resources that scored high on both axes — machine-readable on the supply side, high-value on the demand side — became the strongest API candidates. The report documented our method, the ranking, and the specific resources we recommended for the near-term roadmap.
 
