@@ -68,10 +68,10 @@ practices:
   - "Hybrid-cloud architecture"
   - "Virtual collaboration"
   - "Remote teams"
+news_posts:
 project_url: https://dibbs.tools
 project_cta: "See the tools"
 source_code_url: https://github.com/CDCgov/dibbs-cloud
-news_posts:
 ---
 
 {% capture summary %}
