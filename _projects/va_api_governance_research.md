@@ -13,7 +13,7 @@ feature_image_shadow:
 order: 3400
 display: true
 tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns]
-excerpt: Giving the Veterans Affairs insight into current best practices for governing APIs across the enterprise.
+excerpt: A practical API governance playbook for the VA's API platform, drawn from a decade of API research and interviews with seven leading public- and private-sector teams — and published in the open for any agency to reuse.
 project_members:
   - kin-lane
   - chris-cairns
@@ -32,39 +32,38 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Veterans Affairs' (VA) API Platform Management team needed insight
-into current best practices for API governance. So we built them a
-comprehensive research report that drew on a combination of our own
-expertise and information gathered from interviewing
-leading organizations.
+We delivered an API governance playbook for the U.S. Department of Veterans Affairs (VA) API platform team — part of our broader VA API engagement. The team was about to scale up the number of APIs across the enterprise and needed a way to manage them as a whole. The report drew on a decade of Skylight research plus interviews with seven leading teams. We published it openly so any agency facing the same challenge could reuse it.
 {% endcapture %}
 
 {% capture challenge %}
-In preparation for gearing up the number of APIs delivered across the
-enterprise, the VA's API Platform Management team needed to better
-understand best practices for governing APIs, particularly given the
-lack of formal research in this area.
+The VA's API Platform Management team was about to scale up. The portfolio already covered benefits, claims, health, and facilities data — and the roadmap called for many more APIs across the enterprise. Without a clear way to govern that portfolio, each new API would land with its own ownership model and standards. The cost of that mismatch would grow with every release.
+
+API governance is real work. Assigning ownership, setting standards, managing versions, and aligning across business units add up to a discipline of their own. But it's barely written about in public. Teams running effective programs have mostly figured it out through trial and error. The VA team needed practical guidance from people who had already done that work, not abstract frameworks.
+
+The engagement had to fit a federal micropurchase: under $10,000, delivered fast. That ruled out original primary research at scale. We needed to draw on what already existed and go directly to teams running effective governance programs.
 {% endcapture %}
 
 {% capture solution %}
-To address this challenge, we conducted a research process that involved:
+With the budget and timeline fixed, the question was how to produce something the VA could use right away. The answer: synthesize what already worked elsewhere rather than invent it. We organized the work around four moves.
 
-- Mining information related to API governance from our decade's worth of
-existing primary and secondary research, which amounts to over 3,000
-API-related articles
-- Augmenting this research by interviewing key people responsible for
-API governance at a diverse number of public- and private-sector organizations
-- Analyzing and synthesizing our research information into a comprehensive
-report on API governance best practices, covering topic areas such as
-organizational models and standards
+**First, we mined a decade of existing API research.** Skylight had built up more than 3,000 articles on API design, governance, and adoption from years of primary and secondary research. Starting from that base, the VA team got the benefit of years of work in days, not months. The playbook stood on a foundation broader than any single engagement could produce alone.
+
+**Next, we went directly to teams running effective governance programs.** We interviewed seven public- and private-sector organizations about how they assigned ownership, set standards, and managed APIs at scale. The set spanned both sectors and countries, including the UK's Government Digital Service, HM Revenue & Customs, and Capital One.
+
+**Then we synthesized the research into a practical playbook.** It covered the governance dimensions that show up consistently in effective programs:
+
+- **Organizational models** for where API governance lives and who owns it
+- **Standards and design conventions** that make APIs feel consistent across teams
+- **Operational practices** like versioning and the routines that keep governance working as the portfolio grows
+
+**Finally, we published the report in the open under no copyright.** The VA's challenge isn't unique to the VA. Any federal agency or large organization scaling an API program faces the same governance questions. So the playbook ships as a reusable artifact, not a one-client deliverable.
 {% endcapture %}
 
 {% capture results %}
-- Delivered the project under the federal procurement micropurchase threshold of $10,000
-- Interviewed seven different organizations, including the Government Digital
-Service (UK), HM Revenue & Customs (UK), Capital One, and more
-- Published the report in the open and with no copyright, making it free to anyone
-who wants to learn from and reuse the content
+- **Delivered a complete API governance playbook under the $10,000 federal micropurchase threshold**, showing that high-impact research can fit a fast, low-friction procurement vehicle
+- **Drew on a decade of API research and seven interviewed organizations**, including the UK's Government Digital Service, HM Revenue & Customs, and Capital One, to give the VA a synthesis far broader than a single engagement could produce
+- **Built the playbook around clear governance dimensions** — organizational models, standards, and operational practices — specific enough for the VA team to use directly
+- **Published the report in the open with no copyright**, making it a reusable artifact for any agency facing the same scaling challenge
 {% endcapture %}
 
 {% include project.html
