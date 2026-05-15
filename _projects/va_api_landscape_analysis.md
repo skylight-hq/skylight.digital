@@ -12,7 +12,7 @@ feature_image_description:
 order: 3500
 display: true
 tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns, robert read]
-excerpt: Giving the Veterans Affairs insight into which of their vast collection of public datasets would be most valuable to the veteran community in the form of APIs.
+excerpt: A two-sided map of the VA's public data surface and what veterans actually need — and a prioritized list of which datasets would be most valuable to turn into APIs.
 project_members:
   - kin-lane
   - chris-cairns
@@ -40,46 +40,32 @@ source_code_url: https://github.com/skylight-hq/va-api-landscape
 ---
 
 {% capture summary %}
-The Veterans Affairs' (VA) API Platform Management team needed help
-developing a near-term roadmap of APIs to deliver. So we provided an
-analysis of the VA's millions of public datasets and recommended which
-of these resources would be good candidates for turning into APIs, based
-on potential value to the veteran community.
+We mapped the U.S. Department of Veterans Affairs (VA) data landscape to find which public datasets would be most valuable as APIs. The work was part of our broader VA API engagement. By pairing a custom spidering analysis with user research, we built a ranked list. The VA's API Platform Management team folded it into their near-term roadmap.
 {% endcapture %}
 
 {% capture challenge %}
-The VA has produced millions of public datasets over the
-years in support of the veteran community. These resources tell a story
-about how much demand there is for accessing them. The VA's API Platform
-Management team needed that insight in order to help formulate a near-term
-roadmap of valuable APIs to deliver.
+The VA has produced millions of public datasets over the years to support veterans and the people who serve them. Turning even a fraction of those into APIs would unlock real value. The use cases are everywhere — benefits eligibility checks, mobile apps, and third-party tools that touch veterans' lives every day. But the API Platform Management team couldn't ship them all at once. They needed a way to prioritize.
+
+Prioritization couldn't run on supply or demand alone. Looking only at what data was already machine-readable would skew toward engineering convenience. Looking only at what veterans wanted would miss whether the data existed in usable form. The team needed both views at once. And the lift to assemble them was bigger than the platform team's bandwidth.
 {% endcapture %}
 
 {% capture solution %}
-To address this challenge, we conducted an API landscape analysis that involved:
+To map both sides at once, we built a workflow that paired a custom data crawl with user research. The two views together surfaced prioritized recommendations.
 
-- Developing and running a spidering script that crawled all the VA web
-properties and performed a weighted semantic analysis on resources such
-XML files, CSV files, HTML tables, HTML forms, XLS/XLSX files, and other
-machine-readable formats
-- Conducting user research with veterans and their supporters to learn more about
-what types of data resources would be most valuable to them if made more available
-and accessible on the web, mobile devices, and other platforms
-- Analyzing and synthesizing the results of the spidering process and the user research
-- Preparing a report that detailed our methodology, analysis results, and
-recommendations for resources to prioritize as APIs
+**On the supply side, we crawled the VA's public web surface.** A custom spidering script walked every VA web property. For every machine-readable file it found — spreadsheets, tables, forms, and other open formats — it ran a weighted semantic analysis. The result: a map of which datasets exist, where, and in what condition.
 
-In our report, we also made recommendations for how the VA can improve the
-quality of their analytical information so that resource ranking can be done more efficiently and effectively in the future.
+**On the demand side, we ran structured user research with veterans and their supporters.** Using affinity mapping — a method for ranking ideas in workshops — we asked which data resources mattered most across web, mobile, and other platforms. That built the other half of the map.
+
+We then merged the two views. Resources that scored high on both axes — machine-readable on the supply side, high-value on the demand side — became the strongest API candidates. The report documented our method, the ranking, and the specific resources we recommended for the near-term roadmap.
+
+**We also wrote a section on how the VA could keep doing this themselves.** Better metadata on the data side would make future ranking faster and more accurate. The report included steps for improving the VA's own data infrastructure so the platform team could rank new resources without outside help each time.
 {% endcapture %}
 
 {% capture results %}
-- Delivered the project under the federal procurement micropurchase threshold of $10,000
-- Crawled over 1 million URLs and evaluated over 20,000 data files
-- Informed the VA's near-term API roadmap, which incorporated many of the
-APIs we recommended for delivery
-- Published the report in the open and with no copyright, making it free to
-anyone who wants to learn from and reuse the content
+- **Crawled more than 1 million URLs and evaluated over 20,000 data files**, building the most complete map of the VA's public data surface that existed at the time
+- **Informed the VA's near-term API roadmap**, which adopted many of the resources we recommended for delivery
+- **Delivered everything under the $10,000 federal micropurchase threshold**, showing that high-impact data analysis can fit a fast, low-friction procurement vehicle
+- **Published the report and source code in the open**, making both the recommendations and the spidering tools reusable for any agency facing the same prioritization question
 {% endcapture %}
 
 {% include project.html
