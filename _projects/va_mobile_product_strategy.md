@@ -19,7 +19,7 @@ tags:
   - "healthcare"
   - "sean johnson"
   - "chris cairns"
-excerpt: "A mobile product strategy that gave the VA an evidence-based roadmap for delivering a flagship app to veterans."
+excerpt: "A mobile product strategy that gave the VA an evidence-based roadmap, decision framework, and architecture for delivering a flagship app to veterans."
 project_members:
   - sean-johnson
   - chris-cairns
@@ -51,33 +51,42 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our microconsulting work with the VA's API platform, we developed a mobile product strategy for the Department of Veterans Affairs (VA). The report gave the VA an MVP roadmap, a decision framework for choosing among mobile development approaches, and a recommended architecture for delivering a flagship mobile app to veterans, service members, caregivers, and dependents.
+We developed a mobile product strategy for the U.S. Department of Veterans Affairs (VA) — part of our microconsulting work with the VA's API platform. The report had three parts: a roadmap for a Minimum Viable Product (MVP), a decision framework, and a recommended architecture. Together, they gave the VA an evidence-based foundation for delivering a flagship mobile app to veterans, service members, caregivers, and dependents.
 {% endcapture %}
 
 {% capture challenge %}
-The VA serves millions of veterans through hundreds of online services, but those services were scattered across dozens of standalone mobile apps and a responsive website that wasn't optimized for mobile use. Veterans navigating prescriptions, claims, appointments, and secure messaging had to move between multiple tools with inconsistent experiences.
+The VA serves millions of veterans through hundreds of online services. Those services lived across dozens of standalone mobile apps and a responsive website not built for mobile. Veterans switching between prescriptions, claims, appointments, and secure messaging had to move between multiple tools with inconsistent experiences.
 
-Large consumer-facing organizations — banks, insurers, healthcare systems — had already consolidated their mobile presence into flagship apps: single, comprehensive applications that serve as the primary mobile touchpoint for a brand. The VA recognized this trend and saw an opportunity to improve how veterans interacted with its digital services.
+Large consumer-facing organizations — banks, insurers, healthcare systems — had already consolidated their mobile presence into flagship apps. These single applications serve as the primary mobile touchpoint for a brand. The VA recognized this trend and saw an opportunity to improve how veterans interacted with its digital services.
 
-The path forward wasn't obvious, though. The VA needed to understand which features belonged in a native app versus the mobile web, what technical approach to use, and how to sequence an MVP that served the most common veteran needs first. They sought an outside perspective grounded in industry research and direct veteran input.
+The path forward wasn't obvious. The VA had three questions to answer. Which features belonged in a native app versus the mobile web? What technical approach to use? And how to sequence an MVP starting with the most common veteran needs? They wanted an outside perspective grounded in industry research and direct veteran input.
 {% endcapture %}
 
 {% capture solution %}
-**We combined our own mobile delivery expertise with extensive design and technical research to build a strategy grounded in evidence, not assumptions.** The work spanned a comparative analysis of 17 flagship mobile apps across healthcare, banking, and insurance; a technical teardown of six iOS apps to understand real-world architecture decisions; interviews with product teams at organizations like Mayo Clinic and USAA; and conversations with veterans to understand their mobile needs and constraints.
+We approached the work as a research engagement, using four methods:
 
-The research revealed patterns that shaped every recommendation in the report. Comparable flagship apps in the private sector were built natively, made extensive use of device-specific capabilities, and invested in the open source development ecosystem. But the VA had constraints the private sector didn't face — accessibility requirements, spotty rural connectivity, older devices, and federal identity authentication standards. **We designed our recommendations to account for those realities,** proposing a "thin client, thick API architecture" that separated the mobile experience from the backend services.
+- A comparative analysis of 17 flagship mobile apps across healthcare, banking, and insurance
+- A technical teardown of six iOS apps
+- Interviews with product teams at organizations like Mayo Clinic and USAA
+- Conversations with veterans about their mobile needs and constraints
 
-From the technical analysis, we built a decision framework for choosing among mobile development approaches — mobile web, progressive web application, hybrid, cross-platform native, or full native. Rather than prescribing a single answer, **the framework gave VA leadership a structured way to weigh tradeoffs** between user experience, development speed, accessibility, and long-term maintenance.
+The findings shaped three deliverables.
 
-We also defined an MVP roadmap covering nearly 30 user actions and features, from biometric login and prescription refill to claims status and secure messaging. Each feature was categorized by launch priority and whether it required native implementation or could fall back to a responsive web experience. The result was **a complete strategic foundation — from architecture to feature sequencing — that helped pave the way for the VA's flagship mobile app.** The VA launched VA: Health and Benefits in 2021, and it has since surpassed three million downloads.
+**The architecture: thin client, thick API.** The research revealed clear patterns. Companies in the private sector built their flagship apps natively, used device-specific features, and invested in open source ecosystems. But the VA had constraints those companies didn't — accessibility requirements, spotty rural connectivity, older devices, and federal authentication standards. We proposed a "thin client, thick API" architecture that separated the mobile experience from backend services. The split let the VA borrow the private-sector patterns while still meeting its own constraints.
+
+**The decision framework: weighing tradeoffs across mobile approaches.** We built a way for the VA to choose among five development paths: mobile web, progressive web application, hybrid, cross-platform native, or full native. The framework didn't prescribe a single answer. It compared each path across user experience, development speed, accessibility, and long-term maintenance.
+
+**The MVP roadmap: sequencing nearly 30 features.** The roadmap covered user actions like biometric login, prescription refill, claims status, and secure messaging. We tagged each by launch priority and by whether it needed to be native or could fall back to a responsive web experience.
+
+The three pieces together gave the VA a strategic foundation that covered architecture through feature sequencing. The flagship mobile app launched from that foundation. The VA launched VA: Health and Benefits in 2021. It has since surpassed three million downloads.
 {% endcapture %}
 
 {% capture results %}
 - **Analyzed 17 flagship mobile apps** across healthcare, banking, and insurance — including Bank of America, USAA, Capital One, Mayo Clinic, Zocdoc, and FollowMyHealth — to establish a private-sector benchmark
 - **Conducted a technical teardown of six iOS apps** to identify architecture patterns and inform the VA's build-versus-buy decision framework
-- **Defined an MVP roadmap of nearly 30 user actions and features,** categorized by launch priority and native-versus-web implementation
-- **Delivered a comprehensive mobile product strategy** under the federal procurement micropurchase threshold of $10,000
-- **Published the full report as open source** with no copyright restrictions, making it freely available for reuse
+- **Defined an MVP roadmap of nearly 30 user actions and features**, categorized by launch priority and native-versus-web implementation
+- **Delivered a mobile product strategy under the $10,000 federal micropurchase threshold**, showing that strategic foundation work can fit a fast, low-friction procurement vehicle
+- **Published the full report as open source** with no copyright restrictions, making it reusable for any agency facing the same questions
 {% endcapture %}
 
 {% include project.html
