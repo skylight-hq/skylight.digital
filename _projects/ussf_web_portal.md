@@ -11,7 +11,7 @@ feature_image_shadow:
 order: 1600
 display: true
 tags: [service delivery, research & design, defense, space force, shashank khandelwal, maya benari, zoe do]
-excerpt: A modern portal enabling the United States Space Force to share critical information with a growing organization of over 15,000 service members.
+excerpt: A modern portal giving the U.S. Space Force one place to share announcements, resources, and day-to-day tools with more than 15,000 Guardians.
 project_members:
   - shashank-khandelwal
   - maya-benari
@@ -47,75 +47,39 @@ source_code_url:
 ---
 
 {% capture summary %}
-We quickly launched a minimum viable portal to help the United States Space Force (USSF)
-better disseminate mission-critical information to service members.
+We helped the United States Space Force (USSF) launch its first central digital portal — a minimum viable product that gave more than 15,000 Guardians one place to find announcements, resources, and the tools they use every day. The launch landed on USSF's first anniversary, eight weeks after kickoff.
 {% endcapture %}
 
 {% capture challenge %}
-The United States Space Force, the U.S. Armed Forces' newest branch, was created with the
-mission of protecting American interests in space and developing a variety of space
-capabilities.
+The United States Space Force is the U.S. military's newest branch, created to protect American interests in space. With more than 15,000 Guardians and growing, the organization lacked a central place to share announcements, resources, and the information service members need to do their jobs.
 
-With over 15,000 service members (also called Guardians) and growing, the USFF lacked a
-central place to share announcements, resources, and other mission-critical information
-with personnel.
+In the absence of a portal, Guardians relied on easily missed emails and newsletters to learn what was happening across the service. Day-to-day work required jumping between disjointed tools — milConnect for health insurance, the BAH calculator for housing — with no single front door. Remembering which tool to use, and where to find it, was its own job.
 
-Instead, service members had to rely on easily-missed emails or newsletters to disseminate
-information. They had to use an array of disjointed tools to get help on essential topics
-such as health insurance information (milConnect) and basic allowance for housing (the BAH calculator).
-The diffuse nature of these tools made it cumbersome for service members to manage their lives and careers.
-Remembering what tool to use, and where to access it, presented a major pain point.
-
-To commemorate their first anniversary, USSF set out  to address this gap by working with
-Skylight and partners at Alaska Northstar Resources to build a modern portal supporting
-the needs of the growing organization. The team targeted launching a live portal within
-eight weeks, by January 1, 2021, to provide Space Force personnel with immediate access
-to resources and information that would allow them to be more effective Guardians.
+To coincide with its one-year anniversary, USSF set out to close the gap by partnering with Skylight and Alaska Northstar Resources to build a modern portal. The team gave itself eight weeks: a live site by January 1, 2021.
 {% endcapture %}
 
 {% capture solution %}
-To address this challenge, our team partnered with Space Force leadership to design and
-develop a minimum viable product (MVP). We worked quickly to meet the deadline,
-building the site in under two months.
+We partnered with Space Force leadership to design and ship a minimum viable product (MVP) within the eight-week window.
 
-Even with the short deadline, we incorporated research activities to test content and design
-with users. For example, interviews with high-ranking military officials, such as a four-star
-general, provided the opportunity to understand what leadership needed in a portal from an
-organizational perspective.
+**Even with the deadline, we made room for user research.** We interviewed Guardians and high-ranking officials — including a four-star general — to learn what each audience actually needed from a portal, not just at the rank-and-file level but at command levels too. That research shaped both content priorities and design decisions.
 
-While putting a satellite into orbit requires everything to eventually be perfect at launch,
-software, on the other hand, is never really done. Therefore, it was important to introduce
-USSF to an agile process that involves continually iterating to improve on the initial MVP,
-even after launch. Additionally, because we had a mandate to reinvent the traditional portal,
-we implemented user-centered processes along the way — to show them how to build software
-<em>with</em> not <em>for</em> users.
-
-Rather than cluttering the portal with links, the team identified the highest priority
-content needs, starting with announcements, human resources information, and career
-opportunities. Incorporating best-practice design patterns from the U.S. Web Design
-System helped accelerate the process.
-
-The MVP marked a significant departure from the status quo. As one service member
-described it during a usability testing session:
+**Rather than dumping links onto the page, we picked the content the portal needed most:** announcements, human resources information, and career opportunities. Borrowing patterns from the U.S. Web Design System let us assemble a clean, accessible interface fast, without reinventing components for navigation, layout, or forms. The restraint paid off in usability testing:
 
 {% include callout.html
   type = "pullquote"
   content = "I don't like most military pages, tiny hyperlinks because the page is so full. This is different to what I'm used to seeing, for ease of use, the cleanliness is nice. This is the cleanest thing I've seen."
 %}
 
-Space Force leadership similarly celebrated what we built.
+**We also used the project to model an agile, user-centered way of working for the Space Force.** A portal is software, not a satellite — it doesn't have to be perfect at launch, and it's never really done. We showed USSF how to ship a viable product, gather feedback, and iterate, building software collaboratively with users rather than handing it to them as a finished thing.
 
-Coinciding with the organization's one-year anniversary, the launch symbolized a new approach
-to digital for the USSF — one that's not only modern at its core, but also human-centered and
-accessible, meeting the everyday needs of an important new branch of the U.S. military.
+Coinciding with USSF's one-year anniversary, the launch marked a new approach to digital for the service — modern, human-centered, and accessible from day one.
 {% endcapture %}
 
 {% capture results %}
-- Launched an MVP portal in under two months to share critical information organization-wide
-- Partnered with Space Force to design an intuitive user experience, modern look and feel,
-and easy-to-find content
-- Laid the groundwork for a broader portal buildout in the future
-- Received positive feedback and recognition from Space Force service members and leadership
+- **Shipped a working portal in eight weeks**, in time for USSF's one-year anniversary on January 1, 2021
+- **Replaced a scatter of emails, newsletters, and disjointed apps** with a single, accessible front door for more than 15,000 Guardians
+- **Anchored the design in the U.S. Web Design System**, giving Space Force an accessible, mobile-friendly foundation it could extend without starting over
+- **Modeled an agile, user-centered way of working** that USSF could carry forward beyond the MVP, validated by positive feedback from service members and leadership
 {% endcapture %}
 
 {% include project.html
