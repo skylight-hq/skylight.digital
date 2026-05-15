@@ -19,14 +19,12 @@ tags:
   - "air force"
   - "charlye tran"
   - "olivia lucas"
-  - "zoe do"
   - "laura kerry"
 excerpt: "Using service design to diagnose why the U.S. Air Force Weather Systems Program Office's cloud migration had stalled — and building the organizational capacity to get it moving again."
 project_members:
   - laura-kerry
   - charlye-tran
   - olivia-lucas
-  - zoe-do
 technologies:
   - "Google Workspace"
   - "Mattermost"
