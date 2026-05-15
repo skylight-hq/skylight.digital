@@ -50,7 +50,7 @@ With the budget and timeline fixed, the question was how to produce something th
 
 **Next, we went directly to teams running effective governance programs.** We interviewed seven public- and private-sector organizations about how they assigned ownership, set standards, and managed APIs at scale. The set spanned both sectors and countries, including the UK's Government Digital Service, HM Revenue & Customs, and Capital One.
 
-**Then we synthesized the research into a practical playbook.** It covered the governance dimensions that show up consistently in effective programs:
+We then synthesized the research into a practical playbook. It covered the governance dimensions that show up consistently in effective programs:
 
 - **Organizational models** for where API governance lives and who owns it
 - **Standards and design conventions** that make APIs feel consistent across teams
