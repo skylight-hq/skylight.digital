@@ -59,7 +59,6 @@ tags:
   - "shashank khandelwal"
   - "taylor graue"
   - "zack gehin"
-  - "zoe do"
 excerpt: "An embedded enablement model that grew Air Force personnel into skilled designers, product managers, and engineers — through real delivery, not classroom training."
 project_members:
   - ashton-tu
@@ -105,7 +104,6 @@ project_members:
   - phoebe-espiritu
   - sarah-george-hager
   - shashank-khandelwal
-  - zoe-do
 technologies:
   - "APIs"
   - "Amazon Web Services"
