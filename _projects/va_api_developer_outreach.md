@@ -32,11 +32,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our broader work supporting the U.S. Department of Veterans Affairs (VA) API platform, we delivered a developer-outreach playbook for the team responsible for getting agencies, vendors, and third-party developers building on the VA's APIs. Drawing on a decade of Skylight's primary and secondary API research — plus interviews with seven public- and private-sector teams running effective programs — the report turned what works into something the VA could put into practice immediately. We published it in the open with no copyright, so any agency facing the same challenge could reuse it.
+We delivered a developer-outreach playbook for the U.S. Department of Veterans Affairs (VA) API platform team — part of our broader VA API engagement. The team's job is to help agencies, vendors, and third-party developers build on the VA's APIs. The report drew on a decade of Skylight research plus interviews with seven leading teams. We published it openly so any agency facing the same challenge could reuse it.
 {% endcapture %}
 
 {% capture challenge %}
-The VA's API Platform Management team had been steadily publishing APIs that exposed benefits, claims, health, and facilities data — the digital surface area through which veterans, family members, and the organizations that serve them interact with the agency. Each new API was a chance to extend that surface, but only if external developers actually built on it.
+The VA's API Platform Management team had been steadily publishing APIs that exposed benefits, claims, health, and facilities data. Together those APIs formed the digital surface area through which veterans, family members, and the organizations that serve them interact with the agency. Each new API was a chance to extend that surface — but only if external developers actually built on it.
 
 The team knew that shipping APIs and waiting wouldn't be enough. Effective developer outreach is its own discipline — funnel metrics, sandbox environments, documentation patterns, ongoing engagement — and most federal agencies don't have a playbook for it. The VA team needed practical guidance from teams that had already worked through the problem, not abstract theory.
 
@@ -44,15 +44,20 @@ The engagement had to fit a federal micropurchase: under $10,000, delivered fast
 {% endcapture %}
 
 {% capture solution %}
-With the budget and timeline fixed, the question was how to produce something the VA could use right away. The answer was to synthesize what already worked elsewhere rather than invent it — and to organize the work around four moves built to maximize depth of insight per dollar.
+With the budget and timeline fixed, the question was how to produce something the VA could use right away. The answer: synthesize what already worked elsewhere rather than invent it. We organized the work around four moves, each built to maximize depth of insight per dollar.
 
-**First, we mined a decade of existing API research.** Skylight had accumulated more than 3,000 articles on API design, governance, and adoption from a decade of primary and secondary research. Starting from that base meant the VA team got the benefit of years of accumulated knowledge in days, not months — and the playbook stood on a foundation broader than any single engagement could produce on its own.
+**First, we mined a decade of existing API research.** Skylight had accumulated more than 3,000 articles on API design, governance, and adoption from years of primary and secondary research. Starting from that base, the VA team got the benefit of accumulated knowledge in days, not months. The playbook stood on a foundation broader than any single engagement could produce alone.
 
-**Next, we went directly to teams running effective outreach programs.** We interviewed seven public- and private-sector organizations — including the Centers for Medicare & Medicaid Services' Blue Button API program, the U.S. Census Bureau, and OpenFEC — about how they attracted, supported, and retained developers. Each interview surfaced concrete practices the VA could borrow rather than reinvent.
+**Next, we went directly to teams running effective outreach programs.** We interviewed seven public- and private-sector organizations about how they attracted, supported, and retained developers, including the Centers for Medicare & Medicaid Services (CMS) Blue Button API program, the U.S. Census Bureau, and OpenFEC. Each interview surfaced concrete practices the VA could borrow rather than reinvent.
 
-**Then we synthesized the research into a practical playbook**, organized by topic area: funnel metrics that tell a team whether outreach is working, developer sandbox environments that lower the cost of trying an API, documentation patterns that get developers from sign-up to first successful call, and the engagement rhythms that turn first calls into sustained adoption. Each section was specific enough to act on.
+**Then we synthesized the research into a practical playbook.** It covered four topic areas, each specific enough to act on:
 
-**Finally, we published the report in the open under no copyright.** The VA's challenge isn't unique to the VA. Any agency standing up an API program faces the same question of how to drive adoption — so the playbook ships as a reusable artifact, not a one-client deliverable.
+- **Funnel metrics** that tell a team whether outreach is working
+- **Developer sandbox environments** that lower the cost of trying an API
+- **Documentation patterns** that get developers from sign-up to first successful call
+- **Engagement rhythms** that turn first calls into sustained adoption
+
+**Finally, we published the report in the open under no copyright.** The VA's challenge isn't unique to the VA. Any agency standing up an API program faces the same question of how to drive adoption. So the playbook ships as a reusable artifact, not a one-client deliverable.
 {% endcapture %}
 
 {% capture results %}
