@@ -48,7 +48,7 @@ With the budget and timeline fixed, the question was how to produce something th
 
 **First, we mined a decade of existing API research.** Skylight had built up more than 3,000 articles on API design, governance, and adoption from years of primary and secondary research. Starting from that base, the VA team got the benefit of years of work in days, not months. The playbook stood on a foundation broader than any single engagement could produce alone.
 
-**Next, we went directly to teams running effective governance programs.** We interviewed seven public- and private-sector organizations about how they assigned ownership, set standards, and managed APIs at scale. The set spanned both sectors and countries, including the UK's Government Digital Service, HM Revenue & Customs, and Capital One.
+**Direct interviews built on the research.** We talked with seven public- and private-sector organizations about how they assigned ownership, set standards, and managed APIs at scale. The set spanned both sectors and countries, including the UK's Government Digital Service, HM Revenue & Customs, and Capital One.
 
 We then synthesized the research into a practical playbook. It covered the governance dimensions that show up consistently in effective programs:
 
@@ -56,7 +56,7 @@ We then synthesized the research into a practical playbook. It covered the gover
 - **Standards and design conventions** that make APIs feel consistent across teams
 - **Operational practices** like versioning and the routines that keep governance working as the portfolio grows
 
-**Finally, we published the report in the open under no copyright.** The VA's challenge isn't unique to the VA. Any federal agency or large organization scaling an API program faces the same governance questions. So the playbook ships as a reusable artifact, not a one-client deliverable.
+**We published the report in the open under no copyright.** The VA's challenge isn't unique to the VA. Any federal agency or large organization scaling an API program faces the same governance questions. So the playbook ships as a reusable artifact, not a one-client deliverable.
 {% endcapture %}
 
 {% capture results %}
