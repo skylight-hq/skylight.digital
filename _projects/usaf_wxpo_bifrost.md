@@ -23,8 +23,6 @@ tags:
   - "jennifer herzberg"
   - "laura kerry"
   - "kyle planeaux"
-  - "jina ryu"
-  - "michelle li"
 excerpt: "Redesigning critical weather workflows within BIFROST — the Air Force's consolidated weather platform — while embedding the research and design practices needed to sustain the work."
 project_members:
   - taylor-graue
@@ -32,8 +30,6 @@ project_members:
   - jennifer-herzberg
   - laura-kerry
   - kyle-planeaux
-  - jina-ryu
-  - michelle-li
 technologies:
   - "Figma"
   - "Material-UI"

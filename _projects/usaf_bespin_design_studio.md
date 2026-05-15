@@ -22,6 +22,8 @@ tags:
   - "liz fox"
   - "ashton tu"
   - "mike brown"
+  - "jina ryu"
+  - "michelle li"
 excerpt: "A standing capability inside the Air Force that gives product teams shared design infrastructure, embedded expertise, and coaching to ship user-centered software — now adopted by agencies beyond the Defense Department."
 project_members:
   - karthik-patil
@@ -31,6 +33,8 @@ project_members:
   - liz-fox
   - ashton-tu
   - mike-brown
+  - jina-ryu
+  - michelle-li
 technologies:
   - "Adobe XD"
   - "Carbon Design System"

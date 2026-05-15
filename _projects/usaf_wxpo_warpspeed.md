@@ -24,8 +24,6 @@ tags:
   - "jennifer herzberg"
   - "laura kerry"
   - "kyle planeaux"
-  - "jina ryu"
-  - "michelle li"
 excerpt: "Embedding designers and product managers within the U.S. Air Force's WARPspeed software factory to build the internal design capability needed for modern weather applications."
 project_members:
   - taylor-graue
@@ -33,8 +31,6 @@ project_members:
   - jennifer-herzberg
   - laura-kerry
   - kyle-planeaux
-  - jina-ryu
-  - michelle-li
 technologies:
   - "Figma"
   - "FigJam"
