@@ -12,3 +12,8 @@ Gemfile.lock
 
 # Local Netlify folder
 .netlify
+
+# Claude Code local files
+.claude/launch.json
+.claude/worktrees/
+.claude/settings.local.json
