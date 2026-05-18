@@ -76,11 +76,6 @@ Data visualization guidance rounded out the engagement. Clear standards for char
 - **Established a WCAG-compliant brand system** with accessible color palettes, typography, and design patterns that eliminated unintended bias signaling
 - **Created reusable templates and brand guidelines** that enabled non-design staff to independently create and maintain content
 - **Delivered the full redesign in six weeks,** with JIL launching the new experience across its website and brand touchpoints shortly after the engagement concluded
-
-{% include callout.html
-  type = "pullquote"
-  content = "The redesign made it significantly easier to understand and engage with JIL's work."
-%}
 {% endcapture %}
 
 {% include project.html
