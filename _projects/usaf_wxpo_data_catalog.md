@@ -57,27 +57,27 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [work modernizing weather intelligence delivery for the Air Force](/work/experience/usaf-wxpo-weather-modernization/), we built a searchable data catalog that replaced fragmented manual processes with an intuitive application for managing weather data across the Department of Defense. The catalog gives Weather Systems Program Office (WxPO) staff full visibility into the data life cycle — from ingestion to customer subscription — for the first time.
+As part of our [work modernizing weather intelligence delivery for the Air Force](/work/experience/usaf-wxpo-weather-modernization/), we built a searchable data catalog. The catalog replaced fragmented manual processes with an intuitive application for managing weather data across the Department of Defense. It gives Weather Systems Program Office (WxPO) staff full visibility into the data life cycle — from ingestion to customer subscription — for the first time.
 {% endcapture %}
 
 {% capture challenge %}
-While most of our WxPO work focused on user-facing applications, a parallel problem sat underneath: WxPO had no reliable way to manage and track the weather data that powered everything else.
+While most of our WxPO work focused on user-facing applications, a parallel problem sat underneath. WxPO had no reliable way to manage and track the weather data that powered everything else.
 
-Staff searched for available data products in Excel spreadsheets with more than 100,000 rows — a slow, error-prone process that made it nearly impossible to discover what data was available or who was receiving it. Data systems contained disparate, archaic products that didn't work well together. WxPO couldn't track data from ingestion to customer delivery, so problems went undetected until they surfaced in operations.
+Staff searched for available data products in Excel spreadsheets with more than 100,000 rows. The slow, error-prone process made it nearly impossible to discover what data was available or who was receiving it. Data systems contained disparate, archaic products that didn’t work well together. WxPO couldn’t track data from ingestion to customer delivery, so problems went undetected until they surfaced in operations.
 
-The manual workarounds compounded the issue. Even routine tasks required toggling between disconnected tools and reconciling information by hand. Without a structured approach to data management, every question about what was available, who was subscribed, and where problems originated required someone who'd been around long enough to know the answer from memory.
+The manual workarounds compounded the issue. Even routine tasks required toggling between disconnected tools and reconciling information by hand. Without a structured approach to data management, every question about what was available, who was subscribed, and where problems originated required someone who’d been around long enough to know the answer from memory.
 {% endcapture %}
 
 {% capture solution %}
-**We applied user-centered design principles from the start,** engaging users, developers, and stakeholders on a regular basis to validate assumptions and ensure the product reflected how people actually worked — not just how existing systems assumed they did.
+**We applied user-centered design principles from the start,** engaging users, developers, and stakeholders on a regular basis. The work validated assumptions and ensured the product reflected how people actually worked — not just how existing systems assumed they did.
 
-Research uncovered **workflows that had never been documented.** We turned discovery findings into detailed maps of data journeys and internal processes, making visible the institutional knowledge that had previously lived only in individuals' heads. Many of these workflows were invisible to anyone trying to diagnose problems or plan improvements.
+**Research uncovered workflows that had never been documented.** We turned discovery findings into detailed maps of data journeys and internal processes, making visible the institutional knowledge that had previously lived only in individuals’ heads. Many of these workflows were invisible to anyone trying to diagnose problems or plan improvements.
 
-A new data taxonomy **brought structure to previously unorganized information.** We created a data tree and labeling system that gave current and future users a common vocabulary for describing data products — a prerequisite for any searchable system. Outcome-oriented roadmaps helped the team focus on a viable path forward.
+**A new data taxonomy brought structure to previously unorganized information.** We created a data tree and labeling system that gave current and future users a common vocabulary for describing data products — a prerequisite for any searchable system. Outcome-oriented roadmaps helped the team focus on a viable path forward.
 
-Armed with this research, we **built a searchable catalog application** that replaced the unwieldy spreadsheets. The application lets WxPO users locate data by type, subscribe products to their customers, view details about each data set, and add additional data — all in one place instead of scattered across disconnected tools.
+Armed with this research, **we built a searchable catalog application** that replaced the unwieldy spreadsheets. The application lets WxPO users locate data by type, subscribe products to their customers, view details about each data set, and add additional data — all in one place instead of scattered across disconnected tools.
 
-The catalog gave WxPO **visibility it had never had before:** where data comes from, which products are available, and who's receiving them. That visibility empowered staff to be proactive about potential issues and gave them better information for troubleshooting. Early versions generated interest beyond the original team, prompting planning to expand from a single product into a platform for different data needs across the Air Force.
+The catalog gave WxPO **visibility it had never had before:** where data comes from, which products are available, and who’s receiving them. Staff could now be proactive about potential issues and had better information for troubleshooting. Early versions generated interest beyond the original team, prompting planning to expand from a single product into a platform for different data needs across the Air Force.
 {% endcapture %}
 
 {% capture results %}
