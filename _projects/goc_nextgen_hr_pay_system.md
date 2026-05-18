@@ -41,19 +41,19 @@ source_code_url:
 ---
 
 {% capture summary %}
-We advised the Government of Canada's NextGen HR and Pay team on agile procurement practices, developing a 13-criteria assessment framework to evaluate and strengthen its approach to replacing the failed Phoenix pay system. The framework gave the team a structured, reusable tool for identifying gaps, tracking improvement, and building confidence in an enterprise-scale technology acquisition.
+We advised the Government of Canada’s NextGen HR and Pay team on agile procurement practices. The work developed a 13-criteria assessment framework to evaluate and strengthen its approach to replacing the failed Phoenix pay system. The framework gave the team a structured, reusable tool for identifying gaps, tracking improvement, and building confidence in an enterprise-scale technology acquisition.
 {% endcapture %}
 
 {% capture challenge %}
-The rollout of the Phoenix pay system became one of Canada's most prominent public-sector technology failures, affecting hundreds of thousands of federal civil servants through underpayments, overpayments, and missed payments. The system — intended to modernize payroll for the entire federal workforce — instead created widespread financial hardship and eroded trust in the government's ability to deliver large technology programs.
+The rollout of the Phoenix pay system became one of Canada’s most prominent public-sector technology failures. It affected hundreds of thousands of federal civil servants through underpayments, overpayments, and missed payments. The system was intended to modernize payroll for the entire federal workforce. Instead it created widespread financial hardship and eroded trust in the government’s ability to deliver large technology programs.
 
-Beyond the immediate operational damage, Phoenix exposed a deeper problem: the Government of Canada needed a fundamentally better way to procure and implement complex technology systems. Previous approaches had relied on traditional, large-scale contracting methods that concentrated risk, limited flexibility, and left little room for course correction once a vendor was selected. In response, the government established the [Next Generation Human Resources and Pay team](https://www.canada.ca/en/shared-services/corporate/next-generation-human-resources-pay-system.html) to move away from Phoenix and toward a more modern, integrated HR and pay solution.
+Beyond the immediate operational damage, Phoenix exposed a deeper problem. The Government of Canada needed a fundamentally better way to procure and implement complex technology systems. Previous approaches had relied on traditional, large-scale contracting methods that concentrated risk, limited flexibility, and left little room for course correction once a vendor was selected. In response, the government established the [Next Generation Human Resources and Pay team](https://www.canada.ca/en/shared-services/corporate/next-generation-human-resources-pay-system.html) to move away from Phoenix toward a more modern, integrated HR and pay solution.
 
-The NextGen team chose to pursue an agile procurement approach, but needed outside expertise to assess whether that approach was robust enough to support a successful enterprise-scale acquisition — one that wouldn't repeat the mistakes of Phoenix.
+The NextGen team chose to pursue an agile procurement approach. But it needed outside expertise to assess whether that approach was robust enough to support a successful enterprise-scale acquisition — one that wouldn’t repeat the mistakes of Phoenix.
 {% endcapture %}
 
 {% capture solution %}
-**Prior work with the [Agile Acquisition Framework](/work/experience/agile-acquisition-framework/) gave us a foundation to build on.** Rather than starting from scratch, we adapted proven principles from complex software acquisitions into a structured evaluation tool the NextGen team could use immediately and reuse over time.
+**Prior work with the [Agile Acquisition Framework](/work/experience/agile-acquisition-framework/) gave us a foundation to build on.** Rather than starting from scratch, we adapted proven principles from complex software acquisitions into a structured evaluation tool. The NextGen team could use it immediately and reuse it over time.
 
 The framework organized around **13 criteria areas representing leading practices** for complex software acquisitions, covering the full procurement life cycle from sourcing strategy through implementation readiness:
 
@@ -120,9 +120,9 @@ The framework organized around **13 criteria areas representing leading practice
   </tbody>
 </table>
 
-Documentation review and stakeholder interviews **revealed where the team's practices aligned with leading agile procurement principles and where gaps remained.** We assessed the NextGen team's approach against all 13 criteria areas to build a detailed picture of strengths, risks, and the highest-leverage opportunities for improvement.
+**Documentation review and stakeholder interviews revealed where the team’s practices aligned with leading agile procurement principles and where gaps remained.** We assessed the NextGen team’s approach against all 13 criteria areas. The result was a detailed picture of strengths, risks, and the highest-leverage opportunities for improvement.
 
-The resulting scorecard wasn't designed as a one-time compliance exercise. **We positioned it as a tool for continuous improvement** — something the team could revisit as its approach matured. This helped the team identify targeted changes, challenge the status quo, and build the procurement discipline needed to support a successful replacement for Phoenix.
+The resulting scorecard wasn’t designed as a one-time compliance exercise. **We positioned it as a tool for continuous improvement** — something the team could revisit as its approach matured. The scorecard helped the team identify targeted changes, challenge the status quo, and build the procurement discipline needed to support a successful replacement for Phoenix.
 {% endcapture %}
 
 {% capture results %}
