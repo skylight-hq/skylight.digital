@@ -56,35 +56,35 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [digital transformation work with BESPIN](/work/experience/usaf-bespin-transformation-support/), we built Airmen Mobile Processing (AMP) — a digital application that replaced the U.S. Air Force's (USAF) paper-based inprocessing workflow with centralized task tracking for service members going through a permanent change of station (PCS). Working as a subcontractor to Mo Studio, the team delivered a mobile-friendly tool that won the Vice Chief of the Air Force Innovation Challenge and established a reusable component model for BESPIN's mobile development pipeline.
+As part of our [digital transformation work with Business Enterprise Systems Product INnovation (BESPIN)](/work/experience/usaf-bespin-transformation-support/), we built Airmen Mobile Processing (AMP). The application replaced the U.S. Air Force’s (USAF) paper-based inprocessing workflow with centralized task tracking for service members going through a permanent change of station (PCS). Working as a subcontractor to Mo Studio, the team delivered a mobile-friendly tool that won the Vice Chief of the Air Force Innovation Challenge. AMP also established a reusable component model for BESPIN’s mobile development pipeline.
 {% endcapture %}
 
 {% capture challenge %}
 Airmen frequently move bases — sometimes every two years — through the PCS process. Air Force bases function as self-contained cities, so transitioning to a new installation means navigating unfamiliar surroundings while completing a stack of administrative tasks. A streamlined inprocessing experience helps airmen hit the ground running and reduces the burden on the staff responsible for processing them.
 
-At the time, inprocessing ran on paper forms and PDFs that airmen filled out and hand-delivered to offices across the base. For someone adjusting to a new environment — sometimes while helping a spouse or children settle in — carrying forms to offices they'd never visited was disorienting and frustrating.
+At the time, inprocessing ran on paper forms and PDFs that airmen filled out and hand-delivered to offices across the base. For someone adjusting to a new environment — sometimes while helping a spouse or children settle in — carrying forms to offices they’d never visited was disorienting and frustrating.
 
-The paper-based system was equally painful for administrators. Because forms moved physically from person to person, administrators had no way to see where an airman stood until paperwork arrived on their desk. Incomplete forms created bottlenecks: until one office finished its portion and handed off, downstream personnel couldn't begin theirs. Long processing timelines rippled across the entire base community.
+The paper-based system was equally painful for administrators. Because forms moved physically from person to person, administrators had no way to see where an airman stood until paperwork arrived on their desk. Incomplete forms created bottlenecks: until one office finished its portion and handed off, downstream personnel couldn’t begin theirs. Long processing timelines rippled across the entire base community.
 {% endcapture %}
 
 {% capture solution %}
-Working as a subcontractor to Mo Studio, we partnered with BESPIN to tackle a problem that touched every airman who moved bases. Research at six Air Force installations — interviews with senior personnel, PCS administrators, and service members across ranks — confirmed what the complaints suggested: a workflow built on paper binders with no way to track progress.
+Working as a subcontractor to Mo Studio, we partnered with BESPIN to tackle a problem that touched every airman who moved bases. Research at six Air Force installations — interviews with senior personnel, PCS administrators, and service members across ranks — confirmed what the complaints suggested. The workflow ran on paper binders with no way to track progress.
 
-**A single digital interface replaced the entire paper workflow.** AMP gave airmen a centralized view of every inprocessing task — what's done, what's in progress, what's next — accessible from any authorized device on base. Airmen didn't need a complex system; they needed one place that showed them everything, instead of a stack of forms carried to offices they'd never visited.
+**A single digital interface replaced the entire paper workflow.** AMP gave airmen a centralized view of every inprocessing task — what’s done, what’s in progress, what’s next — accessible from any authorized device on base. Airmen didn’t need a complex system. They needed one place that showed them everything, instead of a stack of forms carried to offices they’d never visited.
 
-**For administrators, AMP solved the visibility problem that paper couldn't.** A real-time dashboard showed each airman's processing status at a glance — no waiting for physical handoffs, no guessing which office had the paperwork. Administrators could create, update, and delete tasks directly, and downstream offices no longer sat idle waiting for upstream forms to arrive.
+**For administrators, AMP solved the visibility problem that paper couldn’t.** A real-time dashboard showed each airman’s processing status at a glance — no waiting for physical handoffs, no guessing which office had the paperwork. Administrators could create, update, and delete tasks directly. Downstream offices no longer sat idle waiting for upstream forms to arrive.
 
-The directory rounded out the airman-facing experience. Airmen transferring to an unfamiliar installation could find contact information and office locations for every step in their checklist, reducing the disorientation that came with navigating a new base.
+The directory rounded out the airman-facing experience. Airmen transferring to an unfamiliar installation could find contact information and office locations for every step in their checklist. That reduced the disorientation that came with navigating a new base.
 
-**AMP also proved that BESPIN could ship mobile applications quickly using standardized components.** By using pre-screened, reusable building blocks, the team shortened the development cycle and gave BESPIN a template it could apply to future mobile projects across the Air Force. That template became the foundation for the [Mobile Application Starter Kit (MASK)](/work/experience/usaf-mask/) — turning a single inprocessing tool into a reusable model for the factory's mobile pipeline.
+**Beyond the product itself, AMP proved BESPIN could ship mobile applications quickly using standardized components.** Pre-screened, reusable building blocks shortened the development cycle and gave BESPIN a template it could apply to future mobile projects across the Air Force. That template became the foundation for the [Mobile Application Starter Kit (MASK)](/work/experience/usaf-mask/) — turning a single inprocessing tool into a reusable model for the factory’s mobile pipeline.
 {% endcapture %}
 
 {% capture results %}
-- **Won the Vice Chief of the Air Force Innovation Challenge**, validating AMP's approach to modernizing base operations
+- **Won the Vice Chief of the Air Force Innovation Challenge**, validating AMP’s approach to modernizing base operations
 - **Replaced the paper-based inprocessing workflow** with a centralized digital interface that let airmen track and complete tasks from a single screen
-- **Gave administrators real-time visibility** into every airman's processing status, eliminating the blind spots and bottlenecks caused by sequential paper handoffs
-- **Established a reusable component model** for BESPIN's mobile application pipeline, providing standardized building blocks for future projects across the Air Force
-- **Extended AMP's functionality beyond inprocessing** to support ongoing task management at the base level
+- **Gave administrators real-time visibility** into every airman’s processing status, eliminating the blind spots and bottlenecks caused by sequential paper handoffs
+- **Established a reusable component model** for BESPIN’s mobile application pipeline, providing standardized building blocks for future projects across the Air Force
+- **Extended AMP’s functionality beyond inprocessing** to support ongoing task management at the base level
 {% endcapture %}
 
 {% include project.html
