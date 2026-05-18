@@ -20,7 +20,7 @@ tags:
   - "charlye tran"
   - "olivia lucas"
   - "laura kerry"
-excerpt: "Using service design to diagnose why the U.S. Air Force Weather Systems Program Office's cloud migration had stalled — and building the organizational capacity to get it moving again."
+excerpt: "Using service design to diagnose why the U.S. Air Force Weather Systems Program Office’s cloud migration had stalled — and building the organizational capacity to get it moving again."
 project_members:
   - laura-kerry
   - charlye-tran
@@ -51,11 +51,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [work modernizing weather intelligence delivery for the Air Force](/work/experience/usaf-wxpo-weather-modernization/), we applied a service design approach to accelerate the Weather Systems Program Office (WxPO)'s stalled cloud migration. By diagnosing root issues, aligning teams, and prioritizing eight key areas for improvement, we helped WxPO build the organizational capacity to move forward.
+As part of our [work modernizing weather intelligence delivery for the Air Force](/work/experience/usaf-wxpo-weather-modernization/), we applied a service design approach to accelerate the Weather Systems Program Office (WxPO)’s stalled cloud migration. By diagnosing root issues, aligning teams, and prioritizing eight key areas for improvement, we helped WxPO build the organizational capacity to move forward.
 {% endcapture %}
 
 {% capture challenge %}
-WxPO's cloud migration had the right mandate but couldn't gain traction. The plan — migrating more than 75 applications to the cloud and consolidating them into a single platform called [BIFROST](/work/experience/usaf-wxpo-bifrost/) — was ambitious, and the technical path was clear enough. What stalled the effort was everything around the technology.
+WxPO’s cloud migration had the right mandate but couldn’t gain traction. The plan was ambitious: migrating more than 75 applications to the cloud and consolidating them into a single platform called [BIFROST](/work/experience/usaf-wxpo-bifrost/). The technical path was clear enough. What stalled the effort was everything around the technology.
 
 Without a shared migration vision, teams pulled in different directions. Miscommunication and rework became routine. Staff were expected to adopt new technologies without adequate guidance, leaving middle management in a constant state of improvisation.
 
@@ -66,13 +66,13 @@ Without a shared migration vision, teams pulled in different directions. Miscomm
   cite_title = "Acquisitions Training"
 %}
 
-The disconnect extended to end users. Legacy applications had been built without meaningful input from the forecasters, pilots, and controllers who depended on them — leading to gaps in functionality and usability that a lift-and-shift migration would only carry forward. WxPO needed a way to address the organizational problems before the technical ones could succeed.
+The disconnect extended to end users. Legacy applications had been built without meaningful input from the forecasters, pilots, and controllers who depended on them. The result was gaps in functionality and usability that a lift-and-shift migration would only carry forward. WxPO needed a way to address the organizational problems before the technical ones could succeed.
 {% endcapture %}
 
 {% capture solution %}
 Our [Service Design Accelerator](/work/toolkits/service-design-framework/) gave WxPO a structured approach to diagnose what was holding the migration back. Rather than jumping to technical solutions, we started by understanding the organizational dynamics — the misalignments, the communication gaps, the missing feedback loops — that were keeping teams stuck.
 
-**We worked on three fronts simultaneously.** The first was strategic: creating an overarching vision that aligned teams around shared goals so every migration effort pulled in the same direction. The second was operational: enhancing the developer experience by introducing modern tools and fostering greater autonomy. The third was diagnostic: applying service design techniques to identify root causes rather than surface symptoms.
+**We worked on three fronts simultaneously.** The first was strategic: create an overarching vision that aligned teams around shared goals so every migration effort pulled in the same direction. The second was operational: enhance the developer experience by introducing modern tools and fostering greater autonomy. The third was diagnostic: apply service design techniques to identify root causes rather than surface symptoms.
 
 **Eight priority areas for improvement** emerged from those three workstreams:
 
@@ -85,7 +85,7 @@ Our [Service Design Accelerator](/work/toolkits/service-design-framework/) gave 
 7. Enhance support services
 8. Continue discovery efforts to identify emerging needs
 
-**We embedded with WxPO teams to tackle each area directly** rather than delivering recommendations and stepping back. The hands-on approach — working alongside staff to implement changes and equipping them with the tools, processes, and knowledge needed to sustain progress — built internal capacity rather than external dependencies, positioning WxPO to drive the migration forward on its own.
+**We embedded with WxPO teams to tackle each area directly** rather than delivering recommendations and stepping back. The hands-on approach worked alongside staff to implement changes, equipping them with the tools, processes, and knowledge to sustain progress. The result built internal capacity rather than external dependencies — positioning WxPO to drive the migration forward on its own.
 {% endcapture %}
 
 {% capture results %}
