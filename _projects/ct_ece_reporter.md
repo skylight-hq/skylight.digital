@@ -112,19 +112,19 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [digital transformation work](/work/experience/ct-oec-digital-transformation/) with the Connecticut Office of Early Childhood (OEC), we built the Early Childhood Education (ECE) Reporter — a modern platform that streamlined how more than 200 providers submit enrollment data for state-funded programs. ECE Reporter replaced a fragmented data collection process with an intuitive reporting workflow, giving OEC a trusted, statewide view of enrollment to inform fair funding decisions.
+As part of our [digital transformation work](/work/experience/ct-oec-digital-transformation/) with the Connecticut Office of Early Childhood (OEC), we built the Early Childhood Education (ECE) Reporter. The platform streamlined how more than 200 providers submit enrollment data for state-funded programs. ECE Reporter replaced a fragmented data collection process with an intuitive reporting workflow, giving OEC a trusted, statewide view of enrollment to inform fair funding decisions.
 {% endcapture %}
 
 {% capture challenge %}
-OEC funds a statewide network of more than 400 early childhood providers through programs like Child Day Care, School Readiness, Smart Start, and State Head Start. Fair distribution of those funds depends on knowing how many eligible children are enrolled at each site — but the existing data collection system made accurate reporting difficult for the providers responsible for submitting it.
+OEC funds a statewide network of more than 400 early childhood providers through programs like Child Day Care, School Readiness, Smart Start, and State Head Start. Fair distribution of those funds depends on knowing how many eligible children are enrolled at each site. But the existing data collection system made accurate reporting difficult for the providers responsible for submitting it.
 
-The tools available to providers were cumbersome and inflexible. Updating or correcting records was error-prone, leading to duplicate child profiles and inconsistent identifiers across the system. Many providers opted out of the state's data tools entirely, instead tracking enrollment in spreadsheets, accounting software, or paper records. This meant OEC was collecting data from some providers through the official system and getting nothing — or unreliable information — from others.
+The tools available to providers were cumbersome and inflexible. Updating or correcting records was error-prone, leading to duplicate child profiles and inconsistent identifiers across the system. Many providers opted out of the state’s data tools entirely, instead tracking enrollment in spreadsheets, accounting software, or paper records. OEC was collecting data from some providers through the official system and getting nothing — or unreliable information — from others.
 
 The consequences went beyond data quality. OEC was making high-impact funding decisions without a reliable understanding of enrollment across the system. Duplicate records inflated counts, missing providers created blind spots, and there was no consistent way to identify anomalies or trends. OEC needed a solution that made accurate reporting the easiest path for providers while building a data foundation the state could trust.
 {% endcapture %}
 
 {% capture solution %}
-**We designed and built ECE Reporter as a modern enrollment reporting system** focused on three goals: making reporting easy for providers, improving the quality of the underlying data, and ensuring the platform could be sustained by OEC long-term. Following the [U.S. Digital Services Playbook](https://playbook.usds.gov/#play4), we used iterative delivery to get working software into providers' hands early and adjusted based on real feedback.
+**We designed and built ECE Reporter as a modern enrollment reporting system** focused on three goals: make reporting easy for providers, improve the quality of the underlying data, and ensure OEC could sustain the platform long-term. Following the [U.S. Digital Services Playbook](https://playbook.usds.gov/#play4), we used iterative delivery to get working software into providers’ hands early and adjusted based on real feedback.
 
 The platform centered on a single, intuitive monthly reporting workflow. Providers could upload enrollment data, review site-level summaries, and maintain accurate rosters without re-entering the same information month after month. **Behind that simple interface, we built a centralized, standardized data store** that replaced the patchwork of disconnected spreadsheets and legacy systems with a single source of truth for statewide enrollment data.
 
@@ -133,9 +133,9 @@ The platform centered on a single, intuitive monthly reporting workflow. Provide
   content = "One of the easiest data portals ever — I entered 30 individual kids and it didn't even take me 30 minutes. It was very quick."
 %}
 
-Data quality was a core design challenge, not an afterthought. **We developed a probabilistic matching algorithm to identify and resolve duplicate child records** — a problem that had inflated enrollment counts and eroded trust in the data. We also added flexible data visualizations and filters that gave OEC staff the ability to spot anomalies, track enrollment patterns, and conduct analysis that had previously required manual effort.
+Data quality was a core design challenge, not an afterthought. **We developed a probabilistic matching algorithm to identify and resolve duplicate child records** — a problem that had inflated enrollment counts and eroded trust in the data. We also added flexible data visualizations and filters. OEC staff could now spot anomalies, track enrollment patterns, and conduct analysis that had previously required manual effort.
 
-To ensure OEC could own and evolve the platform independently, **we invested in long-term sustainability throughout the engagement** — improving code quality, strengthening test coverage, documenting operations, and enabling a smooth DevOps handoff. OEC gained not just a better reporting system but a durable foundation for managing its data infrastructure over time.
+To ensure OEC could own and evolve the platform independently, **we invested in long-term sustainability throughout the engagement.** We improved code quality, strengthened test coverage, documented operations, and enabled a smooth DevOps handoff. OEC gained not just a better reporting system but a durable foundation for managing its data infrastructure over time.
 {% endcapture %}
 
 {% capture results %}
