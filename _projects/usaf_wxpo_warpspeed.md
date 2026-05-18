@@ -24,7 +24,7 @@ tags:
   - "jennifer herzberg"
   - "laura kerry"
   - "kyle planeaux"
-excerpt: "Embedding designers and product managers within the U.S. Air Force's WARPspeed software factory to build the internal design capability needed for modern weather applications."
+excerpt: "Embedding designers and product managers within the U.S. Air Force’s WARPspeed software factory to build the internal design capability needed for modern weather applications."
 project_members:
   - taylor-graue
   - holly-dewolf
@@ -64,29 +64,29 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [work modernizing weather intelligence delivery for the Air Force](/work/experience/usaf-wxpo-weather-modernization/), we're embedding designers and product managers within the Weather Applications Rapid Production/Prototype (WARPspeed) software factory to build the internal capability needed for modern, consistent weather application experiences. By pairing directly with delivery teams, we've helped WARPspeed grow from a development-only operation into an organization with real design and product management capacity.
+As part of our [work modernizing weather intelligence delivery for the Air Force](/work/experience/usaf-wxpo-weather-modernization/), we’re embedding designers and product managers within the Weather Applications Rapid Production/Prototype (WARPspeed) software factory. The goal: build the internal capability needed for modern, consistent weather application experiences. By pairing directly with delivery teams, we’ve helped WARPspeed grow from a development-only operation into an organization with real design and product management capacity.
 {% endcapture %}
 
 {% capture challenge %}
-Our [service design work](/work/experience/usaf-wxpo-cloud-migration/) had unblocked WxPO's cloud migration and identified the organizational changes needed to move forward. But as teams began delivering products through WARPspeed — WxPO's software factory — a new gap emerged: the organization could build software, but it couldn't design it well.
+Our [service design work](/work/experience/usaf-wxpo-cloud-migration/) had unblocked WxPO’s cloud migration and identified the organizational changes needed to move forward. But as teams began delivering products through WARPspeed — WxPO’s software factory — a new gap emerged. The organization could build software, but it couldn’t design it well.
 
 WARPspeed had one designer supporting six teams. Mockups were created in PowerPoint, which put extra burden on developers to interpret intent, slowed delivery, and contributed to growing design debt. There was no shared design language, no component library, and no consistent process for incorporating user feedback. Each team made its own decisions about how applications should look and behave, producing inconsistent experiences across the portfolio.
 
-The siloed working patterns made things worse. Unreliable communication and a lack of shared workflows led to rework, missed dependencies, and duplicated effort. WARPspeed had the development capacity to ship — but without design infrastructure, the products it shipped weren't meeting the needs of the forecasters, pilots, and controllers who depended on them.
+The siloed working patterns made things worse. Unreliable communication and a lack of shared workflows led to rework, missed dependencies, and duplicated effort. WARPspeed had the development capacity to ship. But without design infrastructure, the products it shipped weren’t meeting the needs of the forecasters, pilots, and controllers who depended on them.
 {% endcapture %}
 
 {% capture solution %}
 We use a player-coach model — embedding our experts within WARPspeed delivery teams while building organization-wide capacity in user research, product design, content design, and agile product management. This approach lets us improve real products in flight while strengthening the practices that make high-quality delivery repeatable.
 
-**On multiple WARPspeed teams — including [BIFROST](/work/experience/usaf-wxpo-bifrost/) and Environmental Workflow Application — we paired directly with staff** to build user-centered design skills across the delivery life cycle. Rather than handing off recommendations, our designers and product managers worked shoulder-to-shoulder with government counterparts on live projects, coaching through practice so skills transferred through real work rather than theory alone.
+**On multiple WARPspeed teams — including [BIFROST](/work/experience/usaf-wxpo-bifrost/) and Environmental Workflow Application — we paired directly with staff** to build user-centered design skills across the delivery life cycle. Rather than handing off recommendations, our designers and product managers worked shoulder-to-shoulder with government counterparts on live projects. Coaching through practice let skills transfer through real work rather than theory alone.
 
-**Shared practices and a common design language replaced the siloed approaches** that had led to inconsistent experiences. We developed a user-centered design playbook, ran lunch-and-learns, and launched a recurring "Tip Tuesday" series to make design thinking accessible across the organization. To scale consistency further, we built a WxPO design system, supported a design community of practice, and taught core skills like prototyping and user research.
+**Shared practices and a common design language replaced the siloed approaches** that had led to inconsistent experiences. We developed a user-centered design playbook, ran lunch-and-learns, and launched a recurring “Tip Tuesday” series to make design thinking accessible across the organization. To scale consistency further, we built a WxPO design system, supported a design community of practice, and taught core skills like prototyping and user research.
 
-Fragmented tools had been part of the problem, so **modern tooling became part of the fix.** We recommended organization-level tooling standards, trained designers and developers on Figma, cleaned up Confluence spaces, and onboarded more staff to Jira. Replacing fragmented, outdated tools with a common stack reduced handoff friction and freed teams to focus on design quality rather than tool workarounds.
+Fragmented tools had been part of the problem, so **modern tooling became part of the fix.** We recommended organization-level tooling standards, trained designers and developers on Figma, cleaned up Confluence spaces, and onboarded more staff to Jira. A common stack replaced fragmented, outdated tools. That cut handoff friction and freed teams to focus on design quality rather than tool workarounds.
 
 **Delivery structures improved alongside design practices.** We strengthened backlog management, clarified roles and responsibilities, and recommended improvements for integrated software testing. These operational changes helped teams move faster without sacrificing quality or losing sight of user needs.
 
-**At the leadership level, cross-team alignment became a priority.** We facilitated workshops to map dependencies, recommended a new strategy and integration role at the WARPspeed level, and introduced product management activities that gave leadership the visibility needed to coordinate across a complex, multi-team portfolio.
+**At the leadership level, cross-team alignment became a priority.** We ran workshops to map dependencies, recommended a new strategy and integration role at the WARPspeed level, and introduced product management activities. Leadership now had the visibility needed to coordinate across a complex, multi-team portfolio.
 
 {% include callout.html
   type = "pullquote"
