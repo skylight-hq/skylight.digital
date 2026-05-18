@@ -25,7 +25,7 @@ tags:
   - "gabriel ramirez"
   - "marvo dolor"
   - "amelia wellers"
-excerpt: "An SMS-based pilot that helped families understand their Care 4 Kids renewal status while revealing broader opportunities to improve the child care subsidy experience in Connecticut."
+excerpt: "A text-message pilot that helped families understand their Care 4 Kids renewal status, while revealing broader opportunities to improve the child care subsidy experience in Connecticut."
 project_members:
   - abby-raskin
   - ashley-treni
@@ -58,13 +58,13 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [digital transformation work](/work/experience/ct-oec-digital-transformation/) with the Connecticut Office of Early Childhood (OEC), we designed and tested a lightweight SMS-based pilot that helped families track the status of their Care 4 Kids child care subsidy renewals. Co-created with OEC and United Way, the pilot improved transparency for nearly 180 families while generating practical insight into how the broader renewal process could work better.
+As part of our [digital transformation work](/work/experience/ct-oec-digital-transformation/) with the Connecticut Office of Early Childhood (OEC), we designed and tested a text-message pilot. The pilot helped families track the status of their Care 4 Kids child care subsidy renewals. Co-created with OEC and United Way, it improved transparency for nearly 180 families and surfaced practical ways the broader renewal process could work better.
 {% endcapture %}
 
 {% capture challenge %}
-Care 4 Kids helps low- to moderate-income families in Connecticut pay for child care, but the renewal experience had become frustrating and opaque for many applicants. A combination of factors — including the rollout of a new case management system, a 20% increase in new applications, and thousands of reauthorizations coming due simultaneously — contributed to a growing backlog, a high volume of incomplete applications, and widespread confusion about application status.
+Care 4 Kids helps low- and moderate-income families in Connecticut pay for child care. But the renewal experience had become frustrating and opaque. A new case management system, a 20% surge in new applications, and thousands of reauthorizations coming due at once created a growing backlog. Incomplete applications piled up, and confusion about application status spread.
 
-For families, the problem was fundamentally about uncertainty. After submitting renewal materials, applicants often had no way to confirm whether their documents had been received or what would happen next. Many were asked to resend materials, use multiple submission methods, or wait for long periods without any acknowledgment. Providers were affected too — delays in the subsidy process created financial stress for child care workers who depended on timely payments.
+For families, the core problem was uncertainty. After submitting renewal materials, applicants often had no way to know whether their documents had been received or what would happen next. Many were asked to resend materials, use multiple submission methods, or wait for long stretches with no acknowledgment. Providers felt it too — delays in the subsidy process created financial stress for child care workers waiting on timely payments.
 
 {% include callout.html
   type = "pullquote"
@@ -72,24 +72,24 @@ For families, the problem was fundamentally about uncertainty. After submitting 
   cite_name = "Parent"
 %}
 
-After conducting user research and interviews, we found that communication was the clearest pain point in the renewal experience. OEC and United Way were open to testing a practical, low-risk improvement that could reduce uncertainty for families while also helping the program learn where its communication and process design needed to change.
+After user research and interviews, communication emerged as the clearest pain point. OEC and United Way were open to testing a practical, low-risk improvement. The goal: reduce uncertainty for families and help the program learn where its communication and process design needed to change.
 {% endcapture %}
 
 {% capture solution %}
-The most immediate need families described was simple: knowing whether their renewal documents had been received and what to expect next. **We designed a pilot centered on that single, high-value interaction** — an SMS-based notification tool that alerted parents when United Way received documents related to their Care 4 Kids application. Participants could also text at any time to request information about processing timelines.
+The most immediate need families described was simple. They wanted to know whether their renewal documents had been received and what to expect next. **We designed a pilot centered on that single, high-value moment** — a text-message tool that alerted parents when United Way received their Care 4 Kids documents. Participants could also text back at any time to ask about processing timelines.
 
-Co-designed with OEC and United Way, the pilot was deliberately lightweight. **We built the minimum viable product in four weeks** using Twilio and Ruby on Rails, then launched and live-tested it with nearly 180 participants over a three-month period. The rapid timeline reflected a deliberate strategy: rather than building a comprehensive system, we tested whether a focused communication intervention could meaningfully improve the applicant experience.
+Co-designed with OEC and United Way, the pilot was deliberately lightweight. **We built the minimum viable product in four weeks** using Twilio and Ruby on Rails. Then we launched and live-tested it with nearly 180 participants over three months. The rapid timeline was deliberate: rather than building a comprehensive system, we tested whether a focused communication intervention could meaningfully improve the applicant experience.
 
-Throughout the pilot, we collected structured feedback to measure impact. **We used phone, text, and online surveys to gather data before, during, and after the intervention** — tracking not just whether families found the texts helpful, but whether the pilot revealed broader patterns in how the renewal process broke down.
+Throughout the pilot, we measured impact. **Phone, text, and online surveys captured how families felt before, during, and after the intervention** — tracking not just whether the texts helped, but whether the pilot revealed broader patterns in how the renewal process broke down.
 
-The approach tested two hypotheses at once. The first was whether text-message updates could reduce uncertainty and improve satisfaction for individual families. The second was whether a lightweight intervention could **surface systemic opportunities to improve trust, clarity, and service delivery** across the entire renewal process — insights that would be harder to uncover through research alone.
+The approach tested two hypotheses at once. First: could text-message updates reduce uncertainty and improve satisfaction for individual families? Second: could a lightweight intervention **surface systemic opportunities to improve trust, clarity, and service delivery** across the entire renewal process? Those broader insights would be hard to find through research alone.
 {% endcapture %}
 
 {% capture results %}
-- **Built and launched an SMS notification pilot in four weeks,** testing a low-risk approach to improving communication for Care 4 Kids renewal applicants
+- **Built and launched a text-message pilot in four weeks,** testing a low-risk way to improve communication for Care 4 Kids renewal applicants
 - **Increased parent confidence by 19%** that renewal documents were being received by United Way
 - **Improved average satisfaction** with Care 4 Kids communication among surveyed pilot participants
-- **Generated actionable recommendations** to address communication gaps, process confusion, and service design issues in the broader application submission workflow
+- **Generated actionable recommendations** to address communication gaps, process confusion, and service design issues across the broader application workflow
 
 {% include callout.html
   type = "pullquote"
