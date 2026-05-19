@@ -3,7 +3,7 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Transforming how the Air Force builds software"
 permalink: /work/experience/usaf-bespin-transformation-support/
-image: /img/projects/usaf_bespin_transformation_support/bespin-transformation-support.png
+image: /img/projects/usaf_bespin_transformation_support/bespin-transformation-support.svg
 image_description: "A uniformed crew work on a scaffold to build a giant mobile application."
 feature_image:
 feature_image_description:
