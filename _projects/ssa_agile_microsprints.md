@@ -48,9 +48,9 @@ Oversight bodies were increasing pressure on the program to course-correct. SSA 
 {% endcapture %}
 
 {% capture solution %}
-**Robert and Chris designed a hands-on agile workshop tailored to DCPS’s specific challenges.** Rather than lecturing about methodology, they structured the workshop around six formal sprints compressed into three days — “micro-sprints” based on the Scrum framework. Participants experienced agile firsthand.
+**Rather than generic agile training, the workshop ran six compressed sprints against DCPS itself.** Robert and Chris structured the three-day workshop around “micro-sprints” based on the Scrum framework. Participants experienced agile firsthand.
 
-**Participants worked through the full Scrum cycle on their own system.** They wrote user stories, prioritized and groomed a product backlog, and implemented the highest-priority stories in the system’s actual development environment — not a sandbox or simulation. They experienced standard Scrum ceremonies — sprint reviews and retrospectives — building familiarity with practices the broader program would eventually adopt.
+The Scrum cycle ran against the actual DCPS code — not a sandbox or simulation. Participants wrote user stories, prioritized and groomed a product backlog, and implemented the highest-priority stories in the system's real development environment. They experienced standard Scrum ceremonies — sprint reviews and retrospectives — building familiarity with practices the broader program would eventually adopt.
 
 **For the first time, the workshop brought users and developers into the same room.** That broke the separation that had plagued the program. Users could see their feedback translated into working software within hours rather than months. Developers could observe firsthand how people actually interacted with the system. The collaboration produced tangible results that neither group could have achieved alone.
 {% endcapture %}

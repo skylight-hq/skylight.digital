@@ -70,9 +70,9 @@ The deeper problem was structural. Teams lacked the methods and practices to sur
 {% endcapture %}
 
 {% capture solution %}
-Rather than starting with specific system fixes, **we began with a baseline assessment of CMMI’s IT platforms** — evaluating maturity across user-centered design, agile delivery, and DevSecOps practices. The assessments gave CMMI a clear picture of where each platform stood. They identified the highest-leverage gaps in usability and technical practices, and established a prioritized foundation for improvement.
+**Before fixing any one system, we measured all of them.** A baseline assessment of CMMI's IT platforms evaluated maturity across user-centered design, agile delivery, and DevSecOps practices. The assessments gave CMMI a clear picture of where each platform stood. They identified the highest-leverage gaps in usability and technical practices, and established a prioritized foundation for improvement.
 
-With that diagnostic in hand, we embedded directly into platform teams. **Working alongside the Salesforce Connect team, we designed and ran a user research plan** that included interviews with healthcare providers. The research reached past layers of program administration to uncover how systems were actually used in practice. It surfaced insights about provider needs that CMMI had never had the structural incentive or method to discover.
+With that diagnostic in hand, we embedded directly into platform teams. **Research reached past five layers of administrators to the providers actually using the systems.** Working alongside the Salesforce Connect team, we designed and ran a user research plan that included interviews with healthcare providers. The work surfaced insights about provider needs that CMMI had never had the structural incentive or method to discover.
 
 {% include callout.html
   type = "pullquote"
@@ -83,7 +83,7 @@ With that diagnostic in hand, we embedded directly into platform teams. **Workin
 
 We ran similar targeted research for the Enterprise Data Management Program (EDMP), helping teams understand engagement patterns and data needs across model participants. These findings **informed redesigned user interfaces for key systems such as the Centralized Data Exchange (CDX),** improving usability and enabling more effective data analysis. The improvements supported programs like the Emergency Triage, Treat, and Transport (ET3) model, where faster access to cleaner data helped teams make more timely decisions.
 
-Throughout the engagement, we focused on building capability — not just delivering artifacts. **We coached teams on user research methods, ran design workshops, and embedded iterative practices** — user interviews, usability testing, and prototype-and-test cycles. The goal was a sustainable shift: from technology decisions driven by assumptions to decisions grounded in evidence from real users.
+Throughout the engagement, we focused on building capability — not just delivering artifacts. **User research practices outlasted any single redesign — built into how teams work, not handed off as a deliverable.** We coached teams on user research methods, ran design workshops, and embedded iterative practices (user interviews, usability testing, and prototype-and-test cycles). The goal was a sustainable shift: from technology decisions driven by assumptions to decisions grounded in evidence from real users.
 {% endcapture %}
 
 {% capture results %}

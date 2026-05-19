@@ -91,7 +91,7 @@ The modernization couldn’t start clean. A web of legacy services, databases, a
 {% capture solution %}
 Working with Excella, we helped USCIS modernize E-Verify’s architecture and relaunch the system using a strangler pattern. The team replaced legacy components incrementally rather than attempting a high-risk, all-at-once migration. Each new service went live alongside the old one, absorbing traffic gradually until the legacy component could be retired.
 
-**We replaced aging services with modern, cloud-deployed frameworks** hosted on Amazon Web Services. Rewriting these services in current languages and deploying them as microservices let the team update individual components without destabilizing the broader system — a critical requirement given E-Verify’s uptime demands.
+**Microservices architecture let the team update individual components without destabilizing the broader system.** Aging services were replaced with modern, cloud-deployed frameworks hosted on Amazon Web Services. The decomposition was a critical requirement given E-Verify's uptime demands — no agency could afford the system going down during a re-architecture.
 
 **The data-retrieval layer received a full rewrite to eliminate query bottlenecks.** The existing object-relational mapping code created performance chokepoints that slowed verification lookups, especially under heavy concurrent load. Reengineering this layer reduced the time employers spent waiting for results. The system’s capacity to handle traffic spikes improved as well — a benefit that proved its value when a post-government-shutdown surge hit in early 2019.
 

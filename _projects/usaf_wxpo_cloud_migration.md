@@ -72,9 +72,9 @@ The disconnect extended to end users. Legacy applications had been built without
 {% capture solution %}
 Our [Service Design Accelerator](/work/toolkits/service-design-framework/) gave WxPO a structured approach to diagnose what was holding the migration back. Rather than jumping to technical solutions, we started by understanding the organizational dynamics — the misalignments, the communication gaps, the missing feedback loops — that were keeping teams stuck.
 
-**We worked on three fronts simultaneously.** The first was strategic: create an overarching vision that aligned teams around shared goals so every migration effort pulled in the same direction. The second was operational: enhance the developer experience by introducing modern tools and fostering greater autonomy. The third was diagnostic: apply service design techniques to identify root causes rather than surface symptoms.
+**The three fronts had to advance simultaneously — none would unblock the migration alone.** The first was strategic: create an overarching vision that aligned teams around shared goals so every migration effort pulled in the same direction. The second was operational: enhance the developer experience by introducing modern tools and fostering greater autonomy. The third was diagnostic: apply service design techniques to identify root causes rather than surface symptoms.
 
-**Eight priority areas for improvement** emerged from those three workstreams:
+Eight priority areas for improvement emerged from those three workstreams:
 
 1. Build a shared migration vision and plan
 2. Standardize and define roles

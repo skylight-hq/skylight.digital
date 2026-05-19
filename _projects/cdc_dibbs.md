@@ -155,7 +155,7 @@ The stakes extend beyond any single outbreak. Without modern, interoperable data
 {% endcapture %}
 
 {% capture solution %}
-**We partnered with CDC and USDS to design, build, and scale open-source tools** that help public health departments process and transform data. The work supports CDC's [Public Health Data Strategy](https://www.cdc.gov/public-health-data-strategy/php/index.html) and a broader multi-year modernization initiative focused on pandemic readiness and interoperability. We apply agile principles and user-centered design, conducting research with STLT staff across the data life cycle so the tools solve real problems.
+**Open source wasn't a license choice — it was an adoption strategy. Any STLT could pick up a tool without asking permission.** Working with CDC and USDS, we built DIBBs in the open to support CDC's [Public Health Data Strategy](https://www.cdc.gov/public-health-data-strategy/php/index.html) and a broader multi-year modernization initiative focused on pandemic readiness and interoperability. We apply agile principles and user-centered design, conducting research with STLT staff across the data life cycle so the tools solve real problems.
 
 The design philosophy behind DIBBs is modularity. **The tools are composable, much like building blocks that can be stacked in different configurations.** Each DIBBs tool handles a specific function — ingesting data, standardizing formats, enriching records, or surfacing information. Agencies select and combine the ones they need to fit their environment. This approach automates manual data processing, improves data quality, and gives public health departments room to adapt as requirements change.
 

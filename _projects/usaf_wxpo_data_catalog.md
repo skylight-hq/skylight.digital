@@ -69,15 +69,15 @@ The manual workarounds compounded the issue. Even routine tasks required togglin
 {% endcapture %}
 
 {% capture solution %}
-**We applied user-centered design principles from the start,** engaging users, developers, and stakeholders on a regular basis. The work validated assumptions and ensured the product reflected how people actually worked — not just how existing systems assumed they did.
+We applied user-centered design principles from the start, engaging users, developers, and stakeholders on a regular basis. The work validated assumptions and ensured the product reflected how people actually worked — not just how existing systems assumed they did.
 
-**Research uncovered workflows that had never been documented.** We turned discovery findings into detailed maps of data journeys and internal processes, making visible the institutional knowledge that had previously lived only in individuals’ heads. Many of these workflows were invisible to anyone trying to diagnose problems or plan improvements.
+**Research uncovered workflows that had never been documented.** We turned discovery findings into detailed maps of data journeys and internal processes, making visible the institutional knowledge that had previously lived only in individuals' heads. Many of these workflows were invisible to anyone trying to diagnose problems or plan improvements.
 
 **A new data taxonomy brought structure to previously unorganized information.** We created a data tree and labeling system that gave current and future users a common vocabulary for describing data products — a prerequisite for any searchable system. Outcome-oriented roadmaps helped the team focus on a viable path forward.
 
-Armed with this research, **we built a searchable catalog application** that replaced the unwieldy spreadsheets. The application lets WxPO users locate data by type, subscribe products to their customers, view details about each data set, and add additional data — all in one place instead of scattered across disconnected tools.
+**The searchable catalog application replaced the unwieldy spreadsheets WxPO had relied on for years.** The application lets WxPO users locate data by type, subscribe products to their customers, view details about each data set, and add additional data — all in one place instead of scattered across disconnected tools.
 
-The catalog gave WxPO **visibility it had never had before:** where data comes from, which products are available, and who’s receiving them. Staff could now be proactive about potential issues and had better information for troubleshooting. Early versions generated interest beyond the original team, prompting planning to expand from a single product into a platform for different data needs across the Air Force.
+**The catalog gave WxPO visibility it had never had: where data comes from, which products are available, and who's receiving them.** Staff could now be proactive about potential issues and had better information for troubleshooting. Early versions generated interest beyond the original team, prompting planning to expand from a single product into a platform for different data needs across the Air Force.
 {% endcapture %}
 
 {% capture results %}

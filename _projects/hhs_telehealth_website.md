@@ -100,15 +100,15 @@ The challenge was twofold: centralize the most relevant telehealth information f
 {% capture solution %}
 **The timeline demanded emergency speed — less than two weeks from concept to production.** Leaders and subject-matter experts from HHS, HRSA, the Office of Science and Technology Policy, FEMA, and the Assistant Secretary for Preparedness and Response came together to define the vision. Our team designed and built [Telehealth.HHS.gov](https://telehealth.hhs.gov/) to meet that deadline.
 
-Before writing a single line of content, **we talked to the people on the front lines.** Interviews with physicians and members of the public revealed gaps in telehealth awareness, confusion about rapidly changing policies, and uncertainty about how to get started. These conversations shaped the site’s content priorities and validated a core hypothesis: providers and patients needed a single, centralized place for plain-language telehealth guidance — not another policy portal.
+Before writing a single line of content, we talked to the people on the front lines. Interviews with physicians and members of the public revealed gaps in telehealth awareness, confusion about rapidly changing policies, and uncertainty about how to get started. These conversations shaped the site’s content priorities and validated a core hypothesis: providers and patients needed a single, centralized place for plain-language telehealth guidance — not another policy portal.
 
 **Rapid research cycles validated designs and content before launch.** Moderated and unmoderated usability studies with more than 75 participants tested early prototypes and refined the information architecture, content tone, and navigation. Working closely with subject-matter experts across HHS ensured the content was both accurate and understandable.
 
-Proven open-source foundations — the U.S. Web Design System, Jekyll, and GitHub Actions — **let the team move fast without sacrificing quality.** Touchpoints and Google Analytics provided immediate feedback loops so the team could measure usefulness and iterate after launch.
+**Proven open-source foundations let the team move at emergency speed without giving up production-grade quality.** The U.S. Web Design System, Jekyll, and GitHub Actions provided a battle-tested stack. Touchpoints and Google Analytics provided immediate feedback loops so the team could measure usefulness and iterate after launch.
 
 **A content guide developed alongside the product maintained quality at speed.** The guide established plain-language standards, editorial conventions, and review workflows. Content from multiple contributors stayed consistent, and future content development wouldn’t require the original team’s direct involvement.
 
-**After launch, we expanded the site with high-priority guidance.** New content addressed specialized topics such as telehealth in emergency departments, direct-to-consumer telehealth, and best practices for providers. We added tips for finding free or low-cost telehealth services through health centers, along with guidance on improving telehealth access, equity, and accessibility.
+After launch, we expanded the site with high-priority guidance. New content addressed specialized topics such as telehealth in emergency departments, direct-to-consumer telehealth, and best practices for providers. We added tips for finding free or low-cost telehealth services through health centers, along with guidance on improving telehealth access, equity, and accessibility.
 {% endcapture %}
 
 {% capture results %}
