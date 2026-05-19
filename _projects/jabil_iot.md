@@ -41,28 +41,28 @@ Jabil wanted to help its clients bring Internet of Things (IoT)-enabled products
 {% endcapture %}
 
 {% capture challenge %}
-Jabil, a $30 billion contract manufacturing business, builds products for hundreds of major brands across industries including healthcare, packaging, smartphones, cloud equipment, automotive, and home appliances. As clients increasingly explored IoT products, Jabil saw an opportunity to provide value beyond manufacturing.
+Jabil, a $30 billion contract manufacturing business, builds products for hundreds of major brands across industries. The portfolio spans healthcare, packaging, smartphones, cloud equipment, automotive, and home appliances. As clients increasingly explored IoT products, Jabil saw an opportunity to provide value beyond manufacturing.
 
-For many companies, however, IoT adoption came with significant risk. Closed, proprietary platforms could speed up initial implementation, but they often created long-term vendor lock-in, limited flexibility, and made it expensive to adopt better technologies later. Choosing the wrong architecture could leave a client stuck with an inferior and more costly product.
+For many companies, however, IoT adoption came with significant risk. Closed, proprietary platforms could speed up initial implementation. But they often created long-term vendor lock-in, limited flexibility, and made it expensive to adopt better technologies later. Choosing the wrong architecture could leave a client stuck with an inferior and more costly product.
 
-Jabil was in a unique position to advise clients without bias toward any one IoT platform, but many clients still viewed the company primarily as a manufacturer rather than as a strategic innovation partner. Jabil needed a practical way to demonstrate a different model — one that showed clients how to build IoT products faster, more affordably, and with greater long-term flexibility.
+Jabil was in a unique position to advise clients without bias toward any one IoT platform. But many clients still viewed the company primarily as a manufacturer rather than as a strategic innovation partner. Jabil needed a practical way to demonstrate a different model — one that showed clients how to build IoT products faster, more affordably, and with greater long-term flexibility.
 {% endcapture %}
 
 {% capture solution %}
-The core problem wasn't technical complexity — it was lock-in risk. Jabil's clients needed IoT capabilities without committing to a single proprietary ecosystem that would limit their options later. We designed a lean, open-architecture approach that let clients pick only the capabilities they needed and swap them out as better options emerged.
+**The core problem wasn’t technical complexity — it was lock-in risk.** Jabil’s clients needed IoT capabilities without committing to a single proprietary ecosystem that would limit their options later. We designed a lean, open-architecture approach that let clients pick only the capabilities they needed and swap them out as better options emerged.
 
-**The architecture broke IoT capabilities into 21 modular microservices** built around well-defined APIs. These services covered a wide range of use cases, from digital product registration and QR-based workflows to predictive maintenance, artificial intelligence, and machine learning. Because each microservice was independent, clients could select only the services that matched their product and business needs rather than buying into an entire platform.
+**The architecture broke IoT capabilities into 21 modular microservices** built around well-defined APIs. These services covered a wide range of use cases — digital product registration, QR-based workflows, predictive maintenance, artificial intelligence, and machine learning. Because each microservice was independent, clients could select only the services that matched their product and business needs rather than buying into an entire platform.
 
-Each client engagement followed a **lean discovery-to-prototype cycle.** We identified where IoT could create value within a client's product portfolio, determined which microservices best supported those business needs, developed proof-of-concept prototypes quickly, and refined them based on user feedback. This approach enabled much faster experimentation than traditional enterprise IoT programs.
+**Every engagement started with business value, not architecture.** We identified where IoT could create value within a client’s product portfolio, then determined which microservices supported those business needs. Proof-of-concept prototypes came together quickly and got refined through user feedback. The approach enabled much faster experimentation than traditional enterprise IoT programs, where teams typically spec the platform before knowing what it’s supposed to do.
 
-**Rather than waiting 18–24 months for a first working product, Jabil's clients could see a minimum viable product in as little as two to three weeks.** The modular architecture made this possible — because every service was built on open standards, clients could evolve their products over time without waiting on a single platform vendor to extend its ecosystem. That combination of speed, lower costs, and greater flexibility helped Jabil strengthen its position as a strategic innovation partner in the IoT market.
+**Speed was the second win after flexibility.** Rather than waiting 18–24 months for a first working product, Jabil’s clients could see a minimum viable product in as little as two to three weeks. The modular architecture made this possible. Because every service was built on open standards, clients could evolve their products over time without waiting on a single platform vendor to extend its ecosystem. That combination of speed, lower costs, and greater flexibility helped Jabil strengthen its position as a strategic innovation partner.
 {% endcapture %}
 
 {% capture results %}
 - **Built and demonstrated open-architecture IoT prototypes for six Jabil clients,** proving the viability of a modular, vendor-neutral approach to IoT product development
-- **Reduced Jabil's R&D cycle time from 18 months to six weeks** by introducing lean-agile hardware development practices
+- **Reduced Jabil’s R&D cycle time from 18 months to six weeks** by introducing lean-agile hardware development practices
 - **Cut prototype costs from more than $1 million to less than $100,000,** making IoT experimentation accessible to a broader range of clients
-- **Shifted Jabil's client relationships from contract manufacturing to strategic IoT partnership,** with six engagements proving the model across different industries and product types
+- **Shifted Jabil’s client relationships from contract manufacturing to strategic IoT partnership,** with six engagements proving the model across different industries and product types
 {% endcapture %}
 
 {% include project.html
