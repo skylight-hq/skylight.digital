@@ -67,23 +67,23 @@ source_code_url:
 ---
 
 {% capture summary %}
-Before founding Skylight, Chris Cairns and Robert Read designed and launched the Agile Delivery Services Marketplace — a new model for procuring software development services that replaced traditional written proposals with working prototypes. Built as a Blanket Purchase Agreement (BPA) under the General Services Administration's (GSA's) IT Schedule 70, the marketplace gave agencies a pre-vetted pool of vendors who had proven they could deliver, not just describe it. The model was widely recognized and adopted by agencies and programs across government.
+Before founding Skylight, Chris Cairns and Robert Read designed and launched the Agile Delivery Services Marketplace. The model replaced traditional written proposals with working prototypes — built as a Blanket Purchase Agreement (BPA) under the General Services Administration’s (GSA’s) IT Schedule 70. The marketplace gave agencies a pre-vetted pool of vendors who had proven they could deliver, not just describe it. The model was widely recognized and adopted by agencies and programs across government.
 {% endcapture %}
 
 {% capture challenge %}
-In the wake of the Healthcare.gov launch failure, federal agencies increasingly recognized that agile delivery was the path forward for software. But recognizing the need and acting on it were two different things — existing procurement processes made it nearly impossible to identify vendors who could actually do the work.
+In the wake of the Healthcare.gov launch failure, federal agencies increasingly recognized that agile delivery was the path forward for software. But recognizing the need and acting on it were two different things. Existing procurement processes made it nearly impossible to identify vendors who could actually do the work.
 
 The fundamental problem was how vendors were evaluated. Traditional procurement relied on written proposals — documents that rewarded strong writing and incumbency over real delivery capability. A vendor could describe agile practices fluently without ever having shipped working software using them. Agencies had no reliable way to tell the difference.
 
-The resulting risks compounded. Vendor lock-in limited agencies' ability to course-correct. Procurement timelines stretched for months or years. And when contracts were finally awarded, agencies often discovered too late that their vendor couldn't deliver. What was needed wasn't a better way to evaluate proposals — it was a way to evaluate actual work.
+The resulting risks compounded. Vendor lock-in limited agencies’ ability to course-correct. Procurement timelines stretched for months or years. And when contracts were finally awarded, agencies often discovered too late that their vendor couldn’t deliver. What was needed wasn’t a better way to evaluate proposals — it was a way to evaluate actual work.
 {% endcapture %}
 
 {% capture solution %}
-Chris and Robert designed the marketplace around a single principle: **make vendors prove they can do the work before they get the contract.** Instead of submitting written proposals, vendors built working software using [openFDA](https://open.fda.gov/) as the data source — giving evaluators direct evidence of each vendor's design, development, and delivery capability. This "show, don't tell" approach made it possible to distinguish between vendors who understood agile and those who could actually execute it.
+**Chris and Robert designed the marketplace around a single principle: make vendors prove they can do the work before they get the contract.** Instead of submitting written proposals, vendors built working software using [openFDA](https://open.fda.gov/) as the data source. Evaluators saw direct evidence of each vendor’s design, development, and delivery capability. The “show, don’t tell” approach made it possible to distinguish between vendors who understood agile and those who could actually execute it.
 
-**A [public-domain contracting clause](/thoughts/blog/public-domain-procurement/) closed the lock-in trap that procurement rules had quietly enabled.** All deliverables — code, data, and documentation — remained government-owned. Agencies could switch vendors or bring work in-house without losing access to what had already been built.
+**A [public-domain contracting clause](/thoughts/blog/public-domain-procurement/) closed the lock-in trap that procurement rules had quietly enabled.** All deliverables — code, data, and documentation — remained government-owned. Agencies could switch vendors or bring work in-house without losing access to what had already been built. The clause was a deliberate structural safeguard against the lock-in dynamics the challenge section describes.
 
-**A better evaluation method only mattered if agencies could actually use it.** The marketplace combined the BPA under GSA's IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluation guides — giving agencies everything they needed to run a procurement in weeks rather than months. The contracting infrastructure turned a promising approach into something any agency could adopt without reinventing it from scratch.
+**A better evaluation method only mattered if agencies could actually use it.** The marketplace combined the BPA under GSA’s IT Schedule 70 with ready-to-use solicitation templates, performance work statements, and oral evaluation guides. Any agency could now run a procurement in weeks rather than months. The contracting infrastructure turned a promising approach into something any agency could adopt without reinventing it from scratch.
 {% endcapture %}
 
 {% capture results %}
