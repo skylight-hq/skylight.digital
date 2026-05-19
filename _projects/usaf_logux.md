@@ -71,7 +71,7 @@ Rather than starting over, the USAF treated the failure as an opportunity. The g
 {% capture solution %}
 LogUX housed two applications: BRICE 2.0 for overall aircraft maintenance tracking, and WARLOC, its weapons maintenance counterpart. We worked with Fearless and the USAF's BESPIN and A4 Logistics teams, applying user-centered design so the solution matched real flightline conditions.
 
-**Research at Nellis and Gunter Air Force bases showed how maintainers actually worked** — not how documentation described their work. We shadowed users on the flightline, interviewed maintenance leaders, developed prototypes, and iterated through usability tests. Engaging users where repairs happened uncovered pain points that hadn't surfaced through prior requirements gathering, like the gap between official gear nomenclature and the shorthand maintainers actually used.
+**Onsite research surfaced the gap between how maintainers actually worked and how documentation described them working.** We shadowed users on the flightline at Nellis and Gunter Air Force bases, interviewed maintenance leaders, developed prototypes, and iterated through usability tests. Engaging users where repairs happened uncovered pain points that hadn't surfaced through prior requirements gathering, like the gap between official gear nomenclature and the shorthand maintainers actually used.
 
 **The redesign focused both BRICE and WARLOC on the highest-value problem: documenting aircraft repairs.** Findings from onsite research and usability reviews drove a new information architecture, streamlined interface, and modern technology stack that BESPIN could replicate across future mobile solutions.
 

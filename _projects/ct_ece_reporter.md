@@ -124,7 +124,7 @@ The consequences went beyond data quality. OEC was making high-impact funding de
 {% endcapture %}
 
 {% capture solution %}
-**We designed and built ECE Reporter as a modern enrollment reporting system** focused on three goals: make reporting easy for providers, improve the quality of the underlying data, and ensure OEC could sustain the platform long-term. Following the [U.S. Digital Services Playbook](https://playbook.usds.gov/#play4), we used iterative delivery to get working software into providers’ hands early and adjusted based on real feedback.
+We designed and built ECE Reporter as a modern enrollment reporting system focused on three goals: make reporting easy for providers, improve the quality of the underlying data, and ensure OEC could sustain the platform long-term. Following the [U.S. Digital Services Playbook](https://playbook.usds.gov/#play4), we used iterative delivery to get working software into providers’ hands early and adjusted based on real feedback.
 
 The platform centered on a single, intuitive monthly reporting workflow. Providers could upload enrollment data, review site-level summaries, and maintain accurate rosters without re-entering the same information month after month. **Behind that simple interface, we built a centralized, standardized data store** that replaced the patchwork of disconnected spreadsheets and legacy systems with a single source of truth for statewide enrollment data.
 
@@ -135,7 +135,7 @@ The platform centered on a single, intuitive monthly reporting workflow. Provide
 
 Data quality was a core design challenge, not an afterthought. **We developed a probabilistic matching algorithm to identify and resolve duplicate child records** — a problem that had inflated enrollment counts and eroded trust in the data. We also added flexible data visualizations and filters. OEC staff could now spot anomalies, track enrollment patterns, and conduct analysis that had previously required manual effort.
 
-To ensure OEC could own and evolve the platform independently, **we invested in long-term sustainability throughout the engagement.** We improved code quality, strengthened test coverage, documented operations, and enabled a smooth DevOps handoff. OEC gained not just a better reporting system but a durable foundation for managing its data infrastructure over time.
+**OEC needed to own the platform, not depend on us to run it.** We improved code quality, strengthened test coverage, documented operations, and enabled a smooth DevOps handoff. OEC gained not just a better reporting system but a durable foundation for managing its data infrastructure over time.
 {% endcapture %}
 
 {% capture results %}

@@ -85,13 +85,13 @@ The experience was desktop-only, shutting out the many families and providers wh
 {% endcapture %}
 
 {% capture solution %}
-**We started with extensive user research** to understand how families, child care providers, and OEC staff actually used the site — and where it fell short. Card sorting, tree testing, persona development, and usability testing revealed that the site’s information architecture didn’t match how any of its core audiences thought about early childhood services.
+**The site's structure didn't match how any of its audiences thought.** Card sorting, tree testing, persona development, and usability testing with families, child care providers, and OEC staff revealed that the site's information architecture mapped to the agency's org chart rather than to anyone's actual task.
 
-**Those research findings shaped every design decision that followed.** We simplified navigation, rewrote content in plain language, and organized the site around the tasks users came to accomplish — finding a child care provider, applying for a license, or accessing program resources. The result was a single, user-focused homepage with clear pathways for each key audience, built to work across both mobile and desktop.
+Those research findings shaped every design decision that followed. We simplified navigation, rewrote content in plain language, and organized the site around the tasks users came to accomplish — finding a child care provider, applying for a license, or accessing program resources. The result was a single, user-focused homepage with clear pathways for each key audience, built to work across both mobile and desktop.
 
-Rather than a big-bang launch, **we delivered the site in incremental content releases** so families and providers could start benefiting from improvements sooner. The approach also let the team test assumptions, gather feedback, and adjust the design in response to real usage patterns.
+**A big-bang relaunch would have delayed the help families actually needed.** We delivered the site in incremental content releases so families and providers could start benefiting from improvements sooner. The approach also let the team test assumptions, gather feedback, and adjust the design in response to real usage patterns.
 
-**To ensure OEC could sustain the site independently,** we equipped internal staff with a content management system, published [content guidelines](https://www.ctoec.org/oec-staff-website-support/style-guide/), and provided hands-on training. The agency gained the tools and confidence to manage, update, and evolve the site on its own — without relying on outside support for routine changes.
+**OEC had to own the site, not depend on a vendor for every update.** We equipped internal staff with a content management system, published [content guidelines](https://www.ctoec.org/oec-staff-website-support/style-guide/), and provided hands-on training. The agency gained the tools and confidence to manage, update, and evolve the site on its own.
 {% endcapture %}
 
 {% capture results %}

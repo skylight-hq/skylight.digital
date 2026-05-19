@@ -70,13 +70,13 @@ What was missing wasn't another set of recommendations. It was a working proof o
 {% endcapture %}
 
 {% capture solution %}
-Chris co-founded 18F Consulting and, with Robert, **designed it as a new model for delivering digital transformation inside government.** The core insight was simple: agencies didn't need more reports telling them to "go agile." They needed to experience modern practices firsthand on real projects, with a team that could coach them through the transition. Rather than importing a single methodology wholesale, Chris and Robert combined modern digital practices with the expertise of career civil servants and federal contractors.
+**Rather than hire another consulting firm, GSA built one inside the government itself.** Chris co-founded 18F Consulting with Robert on a simple insight: agencies didn't need more reports telling them to "go agile." They needed to experience modern practices firsthand on real projects, with a team that could coach them through the transition. Rather than importing a single methodology wholesale, Chris and Robert combined modern digital practices with the expertise of career civil servants and federal contractors.
 
 Getting the right people into government was the first challenge. **They used the Schedule A(r) hiring authority to recruit more than 40 multidisciplinary experts** — spanning design, product, engineering, data, policy, and acquisition. The hiring approach was unconventional for government. Performance profiles replaced traditional job descriptions. Structured interviews drew on private-sector practices. The focus was on mission-driven technologists who wanted to work inside the system, not around it.
 
 The delivery model set 18F Consulting apart from typical government reform. **Instead of handing agencies a report and walking away, their teams worked directly alongside agency partners.** They introduced practices like agile delivery, product management, and user-centered design through real projects. Agency staff didn't just hear about modern practices. They practiced them, building the muscle memory needed to keep going after the engagement ended.
 
-The model proved transferable. **The success of 18F Consulting seeded growth across GSA and beyond.** It spawned multiple new organizations within GSA's Technology Transformation Services, including the Office of Acquisitions, 18F Transformation, and 18F Learn. Other agencies began standing up their own digital teams modeled on the same principles. The impact extended well beyond what a single practice could deliver directly.
+The model proved transferable. The success of 18F Consulting seeded growth across GSA and beyond. It spawned multiple new organizations within GSA's Technology Transformation Services, including the Office of Acquisitions, 18F Transformation, and 18F Learn. Other agencies began standing up their own digital teams modeled on the same principles. The impact extended well beyond what a single practice could deliver directly.
 {% endcapture %}
 
 {% capture results %}
