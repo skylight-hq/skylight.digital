@@ -49,7 +49,7 @@ With the conference just weeks away, the UN Office for Disaster Risk Reduction�
 {% capture solution %}
 **The two-week deadline forced a different approach: fix the live site, don't stage changes.** Using [Skylight’s Accessibility Guide](/work/toolkits/accessibility-guide/) as the framework, we opened with a comprehensive audit that systematically evaluated images, color contrast ratios, keyboard navigation, outlines, and other content against WCAG 2.0 criteria. Every deficiency went into a prioritized report so the UN’s technology team could see the full scope of work ahead.
 
-**Fixes happened directly in the live codebase.** We rewrote the underlying HTML and JavaScript to add proper alternative text to images, correct contrast ratios, restore keyboard-accessible outlines, and restructure navigation elements for screen reader compatibility. Compliance had to be in place before the first attendees arrived.
+Fixes happened directly in the live codebase. We rewrote the underlying HTML and JavaScript to add proper alternative text to images, correct contrast ratios, restore keyboard-accessible outlines, and restructure navigation elements for screen reader compatibility. Compliance had to be in place before the first attendees arrived.
 
 **Automated checks alone couldn’t confirm real usability.** We validated the fixes by testing with persons with disabilities who use screen readers and keyboard-only navigation, confirming the technical changes translated into genuine accessibility improvements.
 

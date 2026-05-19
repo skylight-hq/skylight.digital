@@ -55,7 +55,7 @@ The NextGen team chose to pursue an agile procurement approach. But it needed ou
 {% capture solution %}
 **Prior work with the [Agile Acquisition Framework](/work/experience/agile-acquisition-framework/) gave us a foundation to build on.** Rather than starting from scratch, we adapted proven principles from complex software acquisitions into a structured evaluation tool. The NextGen team could use it immediately and reuse it over time.
 
-The framework organized around **13 criteria areas representing leading practices** for complex software acquisitions, covering the full procurement life cycle from sourcing strategy through implementation readiness:
+The framework organized around 13 criteria areas representing leading practices for complex software acquisitions, covering the full procurement life cycle from sourcing strategy through implementation readiness:
 
 <table class="post-table">
   <thead>
@@ -122,7 +122,7 @@ The framework organized around **13 criteria areas representing leading practice
 
 **Documentation review and stakeholder interviews revealed where the team’s practices aligned with leading agile procurement principles and where gaps remained.** We assessed the NextGen team’s approach against all 13 criteria areas. The result was a detailed picture of strengths, risks, and the highest-leverage opportunities for improvement.
 
-The resulting scorecard wasn’t designed as a one-time compliance exercise. **We positioned it as a tool for continuous improvement** — something the team could revisit as its approach matured. The scorecard helped the team identify targeted changes, challenge the status quo, and build the procurement discipline needed to support a successful replacement for Phoenix.
+**The scorecard wasn't a one-time compliance exercise — it was a tool the team could revisit as practices matured.** The scorecard helped the team identify targeted changes, challenge the status quo, and build the procurement discipline needed to support a successful replacement for Phoenix.
 {% endcapture %}
 
 {% capture results %}

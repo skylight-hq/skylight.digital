@@ -67,9 +67,9 @@ At the same time, many policymakers lacked a full picture of the end-to-end refu
 {% capture solution %}
 Rebuilding a program that had processed tens of thousands of cases per year couldn’t start with policy levers alone. It had to start with the people the system was supposed to serve. Led by Ariana Berengaut of the Penn Biden Center and Eric Hysen of NCoC, our team took a user-centered approach to developing recommendations that could support the goal of admitting 125,000 refugees in FY2022, up from roughly 15,000 in 2020.
 
-**The research began with dozens of trauma-informed interviews.** Across video calls, we spoke with people involved in refugee policy, operations, advocacy, and implementation. We also spoke with refugees who had personally experienced the admissions and resettlement journey. Trauma-informed interviewing techniques helped us gather candid insight into what made the process difficult, where it broke down, and what changes could most improve outcomes for refugees and their families.
+**Trauma-informed interviewing surfaced candor that traditional policy interviews never would.** Across video calls, we spoke with people involved in refugee policy, operations, advocacy, and implementation. We also spoke with refugees who had personally experienced the admissions and resettlement journey. The interview techniques helped us gather candid insight into what made the process difficult, where it broke down, and what changes could most improve outcomes for refugees and their families.
 
-Publicly available data provided the quantitative complement. It helped us identify refugee populations, understand processing barriers, and **model the potential impact of proposed recommendations.** Combining the two approaches grounded our recommendations in both human experience and operational reality.
+Publicly available data provided the quantitative complement. It helped us identify refugee populations, understand processing barriers, and model the potential impact of proposed recommendations. Combining the two approaches grounded our recommendations in both human experience and operational reality.
 
 The research produced **concrete action plans organized into 100-day, one-year, and two-to-four-year strategies.** Recommendations included:
 
@@ -80,7 +80,7 @@ The research produced **concrete action plans organized into 100-day, one-year, 
 - Guaranteeing six months of housing support for all refugees, rather than limiting support based on employability or health conditions
 - Giving resettlement agencies and states greater flexibility in how funding could be used to meet diverse refugee needs
 
-Because policymakers often worked on only one part of the system, we also created a **journey map showing the full refugee admissions and resettlement experience from the perspective of a refugee.** This artifact made the end-to-end process — and its pain points — visible in a way many stakeholders had never seen before. It became a tool for building shared understanding across agencies and advocacy organizations.
+**A journey map made the full refugee experience visible to policymakers who'd only seen their own slice.** Most stakeholders had worked on one part of the system. The journey map — showing the full admissions and resettlement experience from the perspective of a refugee — made the end-to-end process and its pain points visible in a way many had never seen before. It became a tool for building shared understanding across agencies and advocacy organizations.
 
 ![A journey map of the refugee admission experience.](/img/projects/ncoc_refugee_admissions_research/refugee-admission-journey-map.png){: .my-0 }
 {: .border .p-3 }

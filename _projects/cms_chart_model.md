@@ -83,7 +83,7 @@ Providers often relied on incomplete or anecdotal information when making high-s
 {% endcapture %}
 
 {% capture solution %}
-**We partnered with CMMI, the U.S. Digital Service (USDS), and Innovation Development and Operations Services vendors to develop a data strategy grounded in real user needs.** We ran in-depth research across nearly a dozen hospitals, engaging executives, analysts, and frontline staff. Interviews and service design mapping uncovered how data flowed across systems, where breakdowns occurred, and what information providers actually needed to make decisions.
+**Before strategy, the team interviewed the rural hospitals CHART aimed to help.** Working with CMMI, the U.S. Digital Service (USDS), and Innovation Development and Operations Services vendors, we ran in-depth research across nearly a dozen hospitals, engaging executives, analysts, and frontline staff. Interviews and service design mapping uncovered how data flowed across systems, where breakdowns occurred, and what information providers actually needed to make decisions.
 
 The research surfaced a consistent pattern. The data rural providers needed most — disease prevalence, peer cost comparisons, and hospital quality metrics — was either inaccessible, fragmented, or too labor-intensive to extract. **We prioritized those gaps and prototyped dashboards using Centers for Medicare & Medicaid Services (CMS) financial and quality data.** We then tested and iterated with users to refine both the information hierarchy and the usability of each view. We also evaluated off-the-shelf tooling options against the needs we’d documented, giving CMMI a grounded analysis of build-versus-buy alternatives.
 
@@ -93,7 +93,7 @@ The research surfaced a consistent pattern. The data rural providers needed most
   cite_name = "Rural hospital executive"
 %}
 
-Beyond the dashboards themselves, we helped CMMI stakeholders adopt user-centered design practices — continuous user research, usability testing, and iterative prototyping. Future data solutions could stay grounded in real provider needs. The work didn’t just improve immediate access to data. It **established a repeatable, user-centered approach to evidence-based decision-making within the CHART program.**
+Beyond the dashboards themselves, we helped CMMI stakeholders adopt user-centered design practices — continuous user research, usability testing, and iterative prototyping. Future data solutions could stay grounded in real provider needs. The work didn’t just improve immediate access to data. It established a repeatable, user-centered approach to evidence-based decision-making within the CHART program.
 {% endcapture %}
 
 {% capture results %}
