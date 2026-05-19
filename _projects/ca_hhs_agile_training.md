@@ -59,7 +59,7 @@ The gap wasn’t knowledge — it was experience. Without having worked through 
 {% endcapture %}
 
 {% capture solution %}
-The team had learned the individual practices, but no previous training had asked them to use those practices together in a real delivery cycle. **We partnered with [CivicActions](https://civicactions.com/) to design something different:** a full delivery simulation against a real product, where every practice reinforced the others inside a working sprint cycle.
+The team had learned the individual practices, but no previous training had asked them to use those practices together in a real delivery cycle. **You can't lecture someone into agile fluency — only sprints can.** Working with [CivicActions](https://civicactions.com/), we designed a full delivery simulation against a real product, where every practice reinforced the others inside a working sprint cycle.
 
 Over two days, participants worked through five compressed sprints — not on a hypothetical exercise, but on the Office of Innovation’s actual website. Each sprint cycled through the complete Scrum workflow: story writing, estimation, planning, building, testing, and velocity tracking. **By the third sprint, teams weren’t just following instructions — they were making their own tradeoffs, adjusting estimates based on real velocity data, and experiencing the feedback loops that make agile work.**
 

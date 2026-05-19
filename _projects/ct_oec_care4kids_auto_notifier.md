@@ -82,7 +82,7 @@ Co-designed with OEC and United Way, the pilot was deliberately lightweight. **W
 
 Throughout the pilot, we measured impact. **Phone, text, and online surveys captured how families felt before, during, and after the intervention** — tracking not just whether the texts helped, but whether the pilot revealed broader patterns in how the renewal process broke down.
 
-The approach tested two hypotheses at once. First: could text-message updates reduce uncertainty and improve satisfaction for individual families? Second: could a lightweight intervention **surface systemic opportunities to improve trust, clarity, and service delivery** across the entire renewal process? Those broader insights would be hard to find through research alone.
+The approach tested two hypotheses at once. First: could text-message updates reduce uncertainty and improve satisfaction for individual families? Second: could a lightweight intervention surface systemic opportunities to improve trust, clarity, and service delivery across the entire renewal process? Those broader insights would be hard to find through research alone.
 {% endcapture %}
 
 {% capture results %}

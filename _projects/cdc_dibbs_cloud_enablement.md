@@ -91,9 +91,9 @@ While many STLTs recognize the need for cloud adoption, they often face real obs
 
 Not every jurisdiction can fully centralize. Some STLTs face regulatory or data security constraints that make full central hosting impractical. They may need to keep certain data local while still leveraging CDC’s infrastructure for processing. **A hybrid model accommodates these stricter compliance requirements.** To support flexible arrangements, we leveraged Octopus Deploy, an industry-standard deployment tool that lets us treat each STLT with the individuality it needs. Software updates can go directly to STLTs with proper permissions and legal agreements, without their IT departments having to manually install anything.
 
-**For jurisdictions that want to host DIBBs services entirely on their own, we created a series of open-source Terraform templates.** DevOps personnel can rapidly assemble cloud infrastructure from prewritten modules. Searchable documentation makes the process even easier.
+**Self-hosting shouldn't mean starting from scratch.** For jurisdictions that want to host DIBBs services entirely on their own, we created a series of open-source Terraform templates. DevOps personnel can rapidly assemble cloud infrastructure from prewritten modules. Searchable documentation makes the process even easier.
 
-Together, these tiered hosting options move STLTs closer to cloud adoption regardless of their starting point — whether in their own environment or CDC’s centrally-hosted one. The goal is **equipping resource-constrained jurisdictions with the tools to build modern, scalable disease surveillance infrastructure** that works for both daily operations and emergent public health action.
+Together, these tiered hosting options move STLTs closer to cloud adoption regardless of their starting point — whether in their own environment or CDC’s centrally-hosted one. The goal is equipping resource-constrained jurisdictions with the tools to build modern, scalable disease surveillance infrastructure that works for both daily operations and emergent public health action.
 {% endcapture %}
 
 {% capture results %}

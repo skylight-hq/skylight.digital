@@ -53,7 +53,7 @@ Beyond the data architecture, the program faced delivery obstacles. DevOps pract
 
 **The challenges weren't just technical — they were compounding.** Data migration issues, inconsistent environments, and missing test coverage were reinforcing one another. Isolating any single root cause was difficult. We mapped the interdependencies so EPA could see which problems to address first and which would resolve as a consequence.
 
-**Two days after the workshop, we delivered a four-page recommendation report** with analytic and technical guidance for redirecting effort and resources toward a more viable path. The report was deliberately concise. EPA needed actionable direction, not another lengthy analysis document to add to the pile.
+Four pages, two days — actionable direction, not another analysis to add to the pile. The recommendation report delivered analytic and technical guidance for redirecting effort and resources toward a more viable path. EPA needed direction, not exhaustive documentation.
 {% endcapture %}
 
 {% capture results %}

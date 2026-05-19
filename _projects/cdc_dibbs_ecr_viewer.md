@@ -112,7 +112,7 @@ Finding critical information from eCR data can feel like looking for a needle in
 {% endcapture %}
 
 {% capture solution %}
-**Skylight developed the eCR Viewer as part of a multi-year CDC and USDS [initiative focused on pandemic readiness and interoperability](https://www.cdc.gov/data-modernization/php/index.html).** The tool surfaces a summary of condition-specific information in a readable format at the top of each eCR file, so staff can quickly find what’s relevant to the reportable condition. It also orders and organizes data consistently regardless of which electronic medical record system generated the eCR. The result: clinical information for case investigation becomes much easier to find, reducing the need to manually contact healthcare providers.
+Skylight developed the eCR Viewer as part of a multi-year CDC and USDS [initiative focused on pandemic readiness and interoperability](https://www.cdc.gov/data-modernization/php/index.html). The tool surfaces a summary of condition-specific information in a readable format at the top of each eCR file, so staff can quickly find what’s relevant to the reportable condition. It also orders and organizes data consistently regardless of which electronic medical record system generated the eCR. The result: clinical information for case investigation becomes much easier to find, reducing the need to manually contact healthcare providers.
 
 **Discovery research with public health staff produced a clear design principle: surface the right information first.** The core problem wasn’t the volume of eCR data itself. It was that condition-relevant information was buried deep inside each file with no consistent structure. That insight drove the eCR Viewer’s central design decision: present a condition-specific summary at the top of every eCR in a readable, consistent format. The team tested concept designs with users, iterated toward a lightweight minimum viable product (MVP), and established a measurement plan to validate time savings and adoption impact.
 
@@ -126,7 +126,7 @@ Initial results from our research efforts have been promising:
   cite_name = "Epidemiologist"
 %}
 
-Pilots started in summer 2024 to test the eCR Viewer in production data environments and further validate downstream public health impact. The aim is to scale across a wide range of jurisdictions and turn eCR into the go-to data source for case ascertainment and investigation. The eCR Viewer isn’t a standalone product. It works in concert with a wider portfolio of [open-source, modular tools](/work/experience/cdc-dibbs/) that together enable jurisdictions to build **flexible, modern data systems that improve the larger public health data infrastructure.**
+Pilots started in summer 2024 to test the eCR Viewer in production data environments and further validate downstream public health impact. The aim is to scale across a wide range of jurisdictions and turn eCR into the go-to data source for case ascertainment and investigation. The eCR Viewer isn’t a standalone product. It works in concert with a wider portfolio of [open-source, modular tools](/work/experience/cdc-dibbs/) that together enable jurisdictions to build flexible, modern data systems.
 {% endcapture %}
 
 {% capture results %}

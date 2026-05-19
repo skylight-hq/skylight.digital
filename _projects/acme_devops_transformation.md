@@ -67,16 +67,16 @@ By the time Skylight engaged, the organization needed more than a second attempt
 {% capture solution %}
 We designed our approach around a core premise: **DevOps wouldn’t stick unless ACME owned it.** Every decision we made — from how we structured the assessment to how we staffed the Center of Excellence — was aimed at building internal capability, not creating a dependency on external consultants.
 
-The first step was understanding where ACME actually stood. **Using [DevOps Research and Assessment (DORA)](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/), we established an empirical baseline.** We benchmarked the organization’s software delivery performance against industry data to identify the highest-leverage gaps. DORA’s research-backed framework gave leadership something previous initiatives had lacked: a shared, data-driven picture of what needed to change and why, grounded in how ACME compared to its peers rather than in opinions or best-practice checklists.
+The first step was understanding where ACME actually stood. Using [DevOps Research and Assessment (DORA)](/thoughts/blog/achieve-devops-transformation-with-skylight-and-dora/), we benchmarked the organization’s software delivery performance against industry data to identify the highest-leverage gaps. **DORA gave leadership what previous initiatives had lacked: data, not opinions.** A shared, peer-benchmarked picture of what needed to change and why — grounded in how ACME compared to its peers rather than in best-practice checklists.
 
 ![Infographic outlining how the DORA assessment methodology works.](/img/blog/dora/dora-infographic.svg){: .mb-0 }
 
 DORA assessment methodology.
 {: .caption }
 
-Those benchmarked gaps became the blueprint for what came next. **We designed a DevOps operating model centered on a dedicated Center of Excellence (CoE).** Not an abstract strategy document — a staffed, funded organization with clear priorities. We partnered with leadership to align around the improvements that would move the needle most, defined the talent model needed to staff the CoE, and created a transformation roadmap that sequenced investments for maximum impact.
+Those benchmarked gaps became the blueprint for what came next. **A funded, staffed CoE — not another strategy document.** We partnered with leadership to align around the improvements that would move the needle most, defined the talent model needed to staff the CoE, and created a transformation roadmap that sequenced investments for maximum impact.
 
-Standing up the operating model required getting the right people in place quickly. We supported recruiting, interviewing, and onboarding for the CoE — including its leadership. **Hands-on coaching and training accelerated capability development.** Periodic health checks kept the transformation on track, surfacing what was working and what needed course correction before small problems became systemic ones.
+Standing up the operating model required getting the right people in place quickly. We supported recruiting, interviewing, and onboarding for the CoE — including its leadership. Hands-on coaching and training accelerated capability development. Periodic health checks kept the transformation on track, surfacing what was working and what needed course correction before small problems became systemic ones.
 
 The goal was never to run ACME’s DevOps transformation for them. **By the end of the engagement, we had transitioned full ownership to the CoE itself** — a team that had grown from its initial group of specialists into a broader digital capability organization driving change across the enterprise.
 {% endcapture %}

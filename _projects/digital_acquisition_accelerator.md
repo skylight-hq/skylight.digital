@@ -64,13 +64,13 @@ The challenge wasn’t simply introducing new acquisition techniques through a o
 {% endcapture %}
 
 {% capture solution %}
-**Chris and Shashank designed the Digital Acquisition Accelerator as a "train-the-trainer" program.** The structure wasn’t to hand agencies a playbook and walk away. It was to build multidisciplinary teams of digital acquisition experts within each participating organization. Operating under OMB’s Acquisition Innovation Labs initiative, the program carried executive-level visibility and cross-government reach from the start.
+**A one-time training wouldn't scale — but a train-the-trainer program could.** Chris and Shashank designed the Digital Acquisition Accelerator to build multidisciplinary teams of digital acquisition experts within each participating organization, rather than hand agencies a playbook and walk away. Operating under OMB's Acquisition Innovation Labs initiative, the program carried executive-level visibility and cross-government reach from the start.
 
 **No cross-government program like it had existed before.** Expert practitioners from 18F, the Presidential Innovation Fellows, and USDS served as coaches — combining deep technical knowledge with hands-on federal procurement experience. Participating agencies learned from people who had already navigated the same regulatory environment they were trying to change.
 
 **Rather than teaching concepts in the abstract, the program put teams to work on live procurement scenarios** within their own organizations. The curriculum covered agile development, user-centered design, modular contracting, and open innovation. Each topic was reinforced through coaching and mentorship, so learning stuck beyond the classroom.
 
-**The work didn’t end with the cohort.** The team documented lessons learned and reusable frameworks so agencies could scale what they’d built internally and share approaches across government. That effort culminated in the Digital Acquisition Playbook — the first government-wide guidance on modern digital procurement practices.
+The work didn’t end with the cohort. The team documented lessons learned and reusable frameworks so agencies could scale what they’d built internally and share approaches across government. **That effort culminated in the Digital Acquisition Playbook — the first government-wide guidance on modern digital procurement practices.**
 {% endcapture %}
 
 {% capture results %}

@@ -59,15 +59,15 @@ Adding urgency, JIL needed to launch a new “knowledge hub” — a centralized
 {% capture solution %}
 The engagement ran six weeks, structured as three two-week sprints. We audited and redesigned JIL’s entire web presence using an agile, user-centered approach. JIL’s team had regular opportunities to review progress and shape the direction of the work.
 
-**The first priority was the site’s information architecture.** The original structure buried key resources behind unclear labels and inconsistent page layouts. Reorganizing the hierarchy made it possible for visitors to reach JIL’s most important research and insights in fewer clicks.
+**Visitors couldn't find research because the labels matched JIL's org chart, not the resources they were looking for.** Reorganizing the hierarchy made it possible for visitors to reach JIL's most important research and insights in fewer clicks.
 
-A new knowledge hub gave JIL a **centralized destination for reports, blog posts, and multimedia.** Search, tagging, and filtering let audiences explore the full body of work rather than hunting across scattered pages.
+A new knowledge hub gave JIL a centralized destination for reports, blog posts, and multimedia. Search, tagging, and filtering let audiences explore the full body of work rather than hunting across scattered pages.
 
 **Addressing the accessibility and bias risks required a full visual identity refresh.** New color palettes, typography, and design patterns improved readability and contrast while eliminating elements that could signal unintended political alignment. The updated brand system gave JIL a more cohesive, professional presence across all touchpoints.
 
-Long-term sustainability shaped every design decision. We created **modular, reusable templates and clear brand guidelines** so non-designers on JIL’s team could confidently create new pages, reports, and content without compromising the system’s integrity. The system needed to work without a designer in the room.
+Long-term sustainability shaped every design decision. We created modular, reusable templates and clear brand guidelines so non-designers on JIL's team could confidently create new pages, reports, and content without compromising the system's integrity. The system needed to work without a designer in the room.
 
-Data visualization guidance rounded out the engagement. Clear standards for charts, graphs, and data presentation ensured JIL’s research findings would be both **visually compelling and accessible to all audiences.**
+Data visualization guidance rounded out the engagement. Clear standards for charts, graphs, and data presentation ensured JIL's research findings would be both visually compelling and accessible to all audiences.
 {% endcapture %}
 
 {% capture results %}

@@ -67,9 +67,9 @@ DOL needed a way to test modernization assumptions early, before committing to a
 
 **Because WHISARD’s documentation was sparse, the code itself was the only reliable source of truth.** Robert and Chris recreated a working DB2 environment using entirely artificial data. Extensive analysis of the system’s stored procedures and business rules mapped the logic that any modernization effort would need to preserve.
 
-**A lightweight Python-based web service layer interfaced directly with the legacy database** and exposed key functionality through APIs. This API-encapsulation approach made it possible to create a browser-based demonstration. The new interface could operate while still relying on existing in-place business rules.
+**API encapsulation let a modern interface ride on legacy logic — without rewriting decades of business rules.** A lightweight Python-based web service layer interfaced directly with the legacy database and exposed key functionality through APIs. The approach made it possible to create a browser-based demonstration that operated while still relying on existing in-place business rules.
 
-**The spike gave DOL something most legacy modernizations lack at the outset: concrete evidence that the approach would work.** Instead of speculating about feasibility, the agency could see a working example of how the legacy system and a future modernized experience could coexist — and use it as a basis for scoping, budgeting, and planning the broader rewrite.
+The spike gave DOL something most legacy modernizations lack at the outset: concrete evidence that the approach would work. Instead of speculating about feasibility, the agency could see a working example of how the legacy system and a future modernized experience could coexist — and use it as a basis for scoping, budgeting, and planning the broader rewrite.
 {% endcapture %}
 
 {% capture results %}

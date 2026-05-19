@@ -71,13 +71,13 @@ Many of the airmen assigned to BESPIN application teams were early in their soft
 {% endcapture %}
 
 {% capture solution %}
-**We designed MASK to give BESPIN teams a clear production path from day one.** Working with Mo Studio, we paired project templates with the documentation and tooling airmen need to navigate BESPIN’s development and deployment ecosystem.
+We designed MASK to give BESPIN teams a clear production path from day one. Working with Mo Studio, we paired project templates with the documentation and tooling airmen need to navigate BESPIN’s development and deployment ecosystem.
 
 **MASK included three distinct starter templates — for mobile apps, APIs, and web dashboards — each built on BESPIN-approved technology stacks.** Rather than forcing each new team to research, select, and get approval for their own tooling, MASK bundled pre-vetted choices into ready-to-use project scaffolds. Teams could clone a template and start building application logic immediately instead of spending weeks on infrastructure decisions.
 
 **Ecosystem documentation addressed the onboarding gap that templates alone couldn’t solve.** Teams also needed to know how BESPIN’s internal ecosystem fit together. The guides explained which teams owned which capabilities, why a team might need a particular service, how to connect with them, and how dependencies flowed. For airmen new to software development, the guides removed the guesswork that had previously slowed project kickoffs.
 
-Duplicated security work was another drag on velocity. **A duplicate-detection script identified security chores already completed by other teams,** so new projects didn’t have to repeat reviews unnecessarily. Combined with pre-vetted infrastructure configurations built on Terraform and AWS (Cloud One), MASK significantly lightened the security burden for new applications entering BESPIN’s pipeline.
+Duplicated security work was another drag on velocity. **Pre-vetted infrastructure and a duplicate-detection script meant new projects didn't have to redo security reviews other teams had already passed.** Combined with pre-vetted infrastructure configurations built on Terraform and AWS (Cloud One), MASK significantly lightened the security burden for new applications entering BESPIN’s pipeline.
 
 **By standardizing the path to production, MASK gave BESPIN teams the foundation to focus on the right problem for their fellow airmen** — building user-centered features rather than wrestling with tooling and security processes.
 {% endcapture %}

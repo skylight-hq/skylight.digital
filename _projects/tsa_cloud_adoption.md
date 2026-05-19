@@ -61,7 +61,7 @@ The gap wasn’t just technical. TSA’s existing teams didn’t have deep exper
 {% capture solution %}
 **A wholesale migration would have replicated the same big-bang risk that plagued waterfall software projects — what Chris and Shashank called “cloudfall.”** As members of 18F, they designed a phased approach instead, pairing TSA with an expert team of site reliability engineers to build momentum through manageable, iterative steps.
 
-**The first move was migrating two low-risk applications within a few months.** These early migrations gave leadership immediate, concrete insight into the organizational changes the shift would require — spanning structure, culture, talent, practices, tooling, and vendor relationships. Starting small reduced risk while producing tangible evidence that the cloud model could work for TSA.
+**Starting small produced concrete evidence the cloud model could work for TSA — and surfaced organizational changes needed before scaling.** Migrating two low-risk applications within a few months gave leadership immediate insight into what the shift would require — spanning structure, culture, talent, practices, tooling, and vendor relationships.
 
 **Each migration also served as a proving ground for DevSecOps practices TSA hadn’t used before.** Infrastructure as code, continuous integration, and automated security controls demonstrated how cloud-native approaches could improve both speed and reliability. These weren’t abstract concepts — they were working patterns the team applied to real TSA applications.
 

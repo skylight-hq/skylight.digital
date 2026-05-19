@@ -90,7 +90,7 @@ The result was a healthcare system where life-saving and cost-saving innovations
 
 After validating the core experience through research and prototyping, we moved quickly through beta to production. We launched with an initial collection of 50 innovations. The design balanced two competing user needs that surfaced in research: **targeted searches for practitioners who knew what they were looking for, and exploratory browsing for those who didn't.** Getting that balance right was critical to driving adoption across a user base that ranged from frontline clinicians to administrators.
 
-Growth and sustainability became the focus after launch. We built an innovation editor feature so innovation owners could update their own content directly. That kept the platform current without bottlenecking on a central team. **We also redesigned the home and search experience** as the catalog grew, refining the navigation to handle five times the content it launched with.
+Growth and sustainability became the focus after launch. **The innovation editor let owners update their own content — no central bottleneck.** That kept the platform current as the catalog grew, and we redesigned the home and search experience to handle five times the content it launched with.
 
 The platform eventually expanded beyond internal VA use. We launched a public-facing version so external healthcare providers could learn from VA innovations. We also added a [community feature](https://marketplace.va.gov/communities/va-immersive) highlighting virtual reality and augmented reality treatments. The result: **a living knowledge base that turned individual facility breakthroughs into a system-wide resource for improving veteran care.**
 

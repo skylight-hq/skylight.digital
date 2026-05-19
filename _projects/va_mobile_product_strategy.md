@@ -74,7 +74,7 @@ The findings shaped three deliverables.
 
 **The architecture: thin client, thick API.** The research revealed clear patterns. Companies in the private sector built their flagship apps natively, used device-specific features, and invested in open source ecosystems. But the VA had constraints those companies didn't — accessibility requirements, spotty rural connectivity, older devices, and federal authentication standards. We proposed a "thin client, thick API" architecture that separated the mobile experience from backend services. The split let the VA borrow the private-sector patterns while still meeting its own constraints.
 
-**The decision framework: weighing tradeoffs across mobile approaches.** We built a way for the VA to choose among five development paths: mobile web, progressive web application, hybrid, cross-platform native, or full native. The framework didn't prescribe a single answer. It compared each path across user experience, development speed, accessibility, and long-term maintenance.
+**The decision framework: a way to weigh native vs. web vs. hybrid for any VA app, not a single prescription.** We built a way for the VA to choose among five development paths: mobile web, progressive web application, hybrid, cross-platform native, or full native. The framework compared each path across user experience, development speed, accessibility, and long-term maintenance.
 
 **The MVP roadmap: sequencing nearly 30 features.** The roadmap covered user actions like biometric login, prescription refill, claims status, and secure messaging. We tagged each by launch priority and by whether it needed to be native or could fall back to a responsive web experience.
 
