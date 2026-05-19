@@ -3,7 +3,7 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Modernizing weather data delivery for the Air Force"
 permalink: /work/experience/usaf-wxpo-data-catalog/
-image: /img/projects/usaf_wxpo_data_catalog/wxpo-weather-data-catalog.png
+image: /img/projects/usaf_wxpo_data_catalog/wxpo-weather-data-catalog.svg
 image_description: "An airman stands under an umbrella while weather data rains down around them."
 feature_image:
 feature_image_description:
