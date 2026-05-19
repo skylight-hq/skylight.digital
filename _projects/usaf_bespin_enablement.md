@@ -3,7 +3,7 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Growing Air Force personnel into skilled technology practitioners"
 permalink: /work/experience/usaf-bespin-enablement/
-image: /img/projects/usaf_bespin_enablement/bespin-airmen-enablement.png
+image: /img/projects/usaf_bespin_enablement/bespin-airmen-enablement.svg
 image_description: "An airman and a civilian collaborate at a workstation."
 feature_image:
 feature_image_description:

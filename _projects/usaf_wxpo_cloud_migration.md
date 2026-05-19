@@ -3,7 +3,7 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Accelerating cloud migration through service design"
 permalink: /work/experience/usaf-wxpo-cloud-migration/
-image: /img/projects/usaf_wxpo_cloud_migration/wxpo-cloud-migration.png
+image: /img/projects/usaf_wxpo_cloud_migration/wxpo-cloud-migration.svg
 image_description: "An airman removes traffic cones that were impeding the progress of a cloud."
 feature_image:
 feature_image_description:
