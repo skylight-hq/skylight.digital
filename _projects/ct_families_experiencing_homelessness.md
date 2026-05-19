@@ -43,11 +43,11 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [digital transformation work with Connecticut's Office of Early Childhood](/work/experience/ct-oec-transformation/), we helped the state develop a clearer, data-driven approach to identifying and supporting families with young children experiencing homelessness — improving how providers prioritize families for housing and services.
+As part of our [digital transformation work with Connecticut’s Office of Early Childhood](/work/experience/ct-oec-transformation/), we helped the state develop a clearer, data-driven approach to identifying and supporting families with young children experiencing homelessness. The work improved how providers prioritize families for housing and services.
 {% endcapture %}
 
 {% capture challenge %}
-In 2019, Connecticut launched a multi-agency effort to better understand and support vulnerable populations experiencing homelessness. The Governor's Task Force on Housing and Supports for Vulnerable Populations brought together state agencies, community organizations, and service providers to coordinate a response.
+In 2019, Connecticut launched a multi-agency effort to better understand and support vulnerable populations experiencing homelessness. The Governor’s Task Force on Housing and Supports for Vulnerable Populations brought together state agencies, community organizations, and service providers to coordinate a response.
 
 {% include callout.html
   type = "pullquote"
@@ -60,21 +60,21 @@ In 2019, Connecticut launched a multi-agency effort to better understand and sup
   cite_title = "Co-chair, Governor's Task Force"
 %}
 
-As part of this effort, we focused on families with children from birth to age five — a group with distinct and often overlooked needs. Many of these families didn't appear in official homelessness data at all. When families doubled up with relatives or friends rather than entering the shelter system, they fell outside the definitions that triggered formal tracking. That meant the state couldn't see the full scope of the problem, let alone prioritize resources toward it.
+As part of this effort, we focused on families with children from birth to age five — a group with distinct and often overlooked needs. Many of these families didn’t appear in official homelessness data at all. When families doubled up with relatives or friends rather than entering the shelter system, they fell outside the definitions that triggered formal tracking. The state couldn’t see the full scope of the problem, let alone prioritize resources toward it.
 
-The challenges went beyond visibility. Early childhood needs — especially childcare — created additional barriers to employment and stability that older populations didn't face. And the agencies responsible for supporting these families lacked shared tools and data systems, so coordination happened informally and inconsistently. The central tool for prioritizing families for housing — the family by-name list — was difficult to use and limited in what it could capture, leaving decision-makers without the structured data they needed to act.
+The challenges went beyond visibility. Early childhood needs — especially childcare — created additional barriers to employment and stability that older populations didn’t face. The agencies responsible for supporting these families lacked shared tools and data systems, so coordination happened informally and inconsistently. The central tool for prioritizing families for housing — the family by-name list — was difficult to use and limited in what it could capture, leaving decision-makers without the structured data they needed to act.
 {% endcapture %}
 
 {% capture solution %}
-We started with discovery research — **interviewing state agencies, community partners, and families themselves** to understand how people actually moved through existing systems and where breakdowns occurred. We mapped how data flowed across programs and found consistent gaps in visibility, coordination, and usability that prevented effective prioritization.
+**The first finding flipped the framing: the families most in need were the ones the data couldn’t see.** Discovery interviews with state agencies, community partners, and families themselves revealed how people moved through existing systems and where breakdowns occurred. Families doubled up with relatives didn’t hit the definitions that triggered formal tracking — so the state was prioritizing against an incomplete picture.
 
-One tool kept surfacing in those conversations: **the family by-name list, which Coordinated Access Networks relied on to prioritize families for housing.** But its design limited its effectiveness. The list couldn't capture the nuanced information providers needed to make good decisions — things like a family's childcare situation, employment barriers, or how long they'd been unstably housed. Improving this one tool could improve decision-making across the entire system.
+**One tool kept surfacing as the highest-leverage place to act: the family by-name list.** Coordinated Access Networks relied on it to prioritize families for housing, but its design limited its effectiveness. The list couldn’t capture the nuanced information providers needed — a family’s childcare situation, employment barriers, or how long they’d been unstably housed. Fixing this one tool could improve decision-making across the entire system.
 
-Rather than simply adding fields to the existing list, **we rethought what data the system needed to collect and how it should be organized to support prioritization decisions.** We developed a working SQL-based prototype to demonstrate how improved data models could drive better outcomes — showing providers and decision-makers what a more useful tool would look like in practice.
+**The right move wasn’t to add fields. It was to rethink the model.** We reconsidered what data the system needed to collect and how it should be organized to support prioritization decisions. A working SQL-based prototype showed providers and decision-makers what a more useful tool would look like in practice — not as a spec on paper but as something they could click through.
 
-A related problem was that agencies had been interpreting key terms differently. What counted as "homeless" or "unstably housed" varied depending on who was collecting the data, which made cross-agency coordination unreliable. **We created a shared data dictionary** that established common definitions so that data meant the same thing regardless of which agency collected it.
+**Without a shared vocabulary, agencies couldn’t coordinate even with better data.** What counted as “homeless” or “unstably housed” varied depending on who was collecting the data, which made cross-agency coordination unreliable. We created a shared data dictionary that established common definitions — so a record meant the same thing regardless of which agency captured it.
 
-Together, the research, prototype, and data framework gave Connecticut's Coordinated Access Networks **a concrete foundation for identifying and prioritizing families in need** — along with design and technical recommendations to guide future system improvements.
+Together, the research, prototype, and data framework gave Connecticut’s Coordinated Access Networks a concrete foundation for identifying and prioritizing families in need, along with design and technical recommendations to guide future system improvements.
 {% endcapture %}
 
 {% capture results %}
