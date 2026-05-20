@@ -48,16 +48,16 @@ With the budget and timeline fixed, the question was how to produce something th
 
 **First, we mined a decade of existing API research.** Skylight had accumulated more than 3,000 articles on API design, governance, and adoption from years of primary and secondary research. Starting from that base, the VA team got the benefit of accumulated knowledge in days, not months. The playbook stood on a foundation broader than any single engagement could produce alone.
 
-**Next, we went directly to teams running effective outreach programs.** We interviewed seven public- and private-sector organizations about how they attracted, supported, and retained developers, including the Centers for Medicare & Medicaid Services (CMS) Blue Button API program, the U.S. Census Bureau, and OpenFEC. Each interview surfaced concrete practices the VA could borrow rather than reinvent.
+**Direct interviews filled in what the research couldn't.** We talked with seven public- and private-sector organizations about how they attracted, supported, and retained developers, including the Centers for Medicare & Medicaid Services (CMS) Blue Button API program, the U.S. Census Bureau, and OpenFEC. Each interview surfaced concrete practices the VA could borrow rather than reinvent.
 
-**Then we synthesized the research into a practical playbook.** It covered four topic areas, each specific enough to act on:
+We then synthesized the research into a practical playbook. It covered four topic areas, each specific enough to act on:
 
 - **Funnel metrics** that tell a team whether outreach is working
 - **Developer sandbox environments** that lower the cost of trying an API
 - **Documentation patterns** that get developers from sign-up to first successful call
 - **Engagement rhythms** that turn first calls into sustained adoption
 
-**Finally, we published the report in the open under no copyright.** The VA's challenge isn't unique to the VA. Any agency standing up an API program faces the same question of how to drive adoption. So the playbook ships as a reusable artifact, not a one-client deliverable.
+**We published the report in the open under no copyright.** The VA's challenge isn't unique to the VA. Any agency standing up an API program faces the same question of how to drive adoption. So the playbook ships as a reusable artifact, not a one-client deliverable.
 {% endcapture %}
 
 {% capture results %}
