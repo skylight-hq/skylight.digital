@@ -1,0 +1,51 @@
+# skylight.digital CODEOWNERS
+# Public marketing site (Jekyll). Consumes the writer plugins from skylight-hub.
+# Per proposals/active/federation-evolution.md Decision #7 (adapted for a
+# content-consumer rather than a federation spoke).
+#
+# CODEOWNERS uses LAST-MATCH-WINS ordering.
+#
+# ⚠ PREREQUISITE: the following teams must exist in skylight-hq org:
+#   - @skylight-hq/comms                | publication, marketing comms (default for content paths)
+#   - @skylight-hq/content-design       | voice review on published content
+#   - @skylight-hq/brand-design         | visual assets, layouts
+#   - @skylight-hq/engineering-platform | site infra, build/deploy, workspace settings
+#
+# As of 2026-05-19 none of these exist — creating them is master plan Phase 0 M0.3.
+#
+# Verify after pushing:
+#   gh api repos/skylight-hq/skylight.digital/codeowners/errors --jq '.errors'
+
+# ─── Default: comms owns the marketing site overall ─────────────────────
+*                                            @skylight-hq/comms
+
+# ─── Site content (writer-plugin output; comms publishes, content-design owns voice) ──
+_posts/**                                    @skylight-hq/comms @skylight-hq/content-design
+_projects/**                                 @skylight-hq/comms @skylight-hq/content-design
+_pages/**                                    @skylight-hq/comms @skylight-hq/content-design
+
+# Jekyll templating: includes have prose snippets (comms-relevant); layouts are visual structure (brand-design)
+_includes/**                                 @skylight-hq/engineering-platform @skylight-hq/comms
+_layouts/**                                  @skylight-hq/engineering-platform @skylight-hq/brand-design
+
+# Data files (people, projects metadata — editorial)
+_data/**                                     @skylight-hq/comms
+
+# ─── Brand + visual assets ──────────────────────────────────────────────
+assets/**                                    @skylight-hq/brand-design
+
+# ─── Site infrastructure (engineering-platform) ─────────────────────────
+_config.yml                                  @skylight-hq/engineering-platform
+Gemfile                                      @skylight-hq/engineering-platform
+Gemfile.lock                                 @skylight-hq/engineering-platform
+.github/workflows/**                         @skylight-hq/engineering-platform
+.ruby-version                                @skylight-hq/engineering-platform
+package.json                                 @skylight-hq/engineering-platform
+package-lock.json                            @skylight-hq/engineering-platform
+
+# ─── Claude Code workspace (which skylight-hub plugins are enabled — joint review) ──
+.claude/settings.json                        @skylight-hq/engineering-platform @skylight-hq/comms
+.claude/**                                   @skylight-hq/engineering-platform
+
+# ─── CODEOWNERS itself ──────────────────────────────────────────────────
+.github/CODEOWNERS                           @skylight-hq/engineering-platform
