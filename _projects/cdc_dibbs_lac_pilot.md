@@ -34,7 +34,7 @@ tags:
   - "ann millspaugh"
   - "brady fausett"
   - "robert mitchell"
-excerpt: "A modular data pipeline that automatically processes and enriches electronic case reporting and electronic laboratory reporting data to improve data quality, disease monitoring, and case investigation."
+excerpt: "A modular data pipeline that gave the Los Angeles County Department of Public Health automated, analysis-ready electronic case reporting data — cutting case investigator wait times from 20 hours to one."
 project_members:
   - amrita-bhatti
   - peggy-chau
@@ -83,36 +83,38 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Los Angeles County (LAC) Department of Public Health needed timely access to electronic case reporting (eCR) data to monitor and respond to disease outbreaks. As part of the [Data Integration Building Blocks (DIBBs)](/work/experience/cdc-dibbs/) engagement with the Centers for Disease Control and Prevention (CDC), we worked with LAC to develop a modular data pipeline that automatically processes and enriches multiple data streams — including eCR and electronic laboratory reporting (ELR) data — to improve data quality, case investigation, and downstream analysis.
+The Los Angeles County (LAC) Department of Public Health needed timely access to electronic case reporting (eCR) data to track disease outbreaks. As part of the [Data Integration Building Blocks (DIBBs)](/work/experience/cdc-dibbs/) engagement with the Centers for Disease Control and Prevention (CDC), we deployed a modular data pipeline with LAC. The pipeline now automatically processes and enriches both eCR and electronic laboratory reporting (ELR) data, improving data quality, case investigation, and downstream analysis.
 {% endcapture %}
 
 {% capture challenge %}
-Timely access to eCR data is critical for public health departments to respond swiftly to disease outbreaks, especially during a public health emergency. Public health departments receive an automated feed of eCR data from private healthcare organizations and use this data to find case report information from a patient's electronic health records (EHRs). This can include a patient's demographics, diagnoses, comorbidities, occupation, travel history, immunizations, and medications — information that can help inform case investigation and public health data analysis.
+Public health departments need fast access to eCR data to respond to disease outbreaks. Healthcare organizations send an automated feed of eCR files containing rich patient context — demographics, diagnoses, comorbidities, occupation, travel history, immunizations, and medications. That context can drive case investigation and analysis.
 
-Unfortunately, not all public health jurisdictions can effectively manage the flow of incoming eCR data. Due to technical limitations with their existing disease surveillance system, the LAC Department of Public Health faced challenges with processing eCR files, leaving this rich source of data largely inaccessible to their disease surveillance teams. Because LAC's disease surveillance system couldn't process eCR data fields, they set up a separate, patchwork data workflow to collect eCR data. As a result, LAC had siloed processing systems for different data types, conflicting data standards, record duplication, and poor record linkage. Epidemiologists at LAC also had to spend a considerable amount of time manually cleaning data after it was processed.
+But not all jurisdictions can process the feed. LAC's disease surveillance system couldn't handle eCR data fields, so the team had set up a separate, patchwork workflow to collect them. The result was siloed processing for different data types, conflicting standards, duplicate records, and weak record linkage. Epidemiologists spent significant time cleaning the data by hand after it landed.
 
-Rather than this fragmented data infrastructure, LAC wanted to have a single, standard processing approach for a wide range of data types, including eCR and ELR. To efficiently monitor and respond to disease outbreaks, LAC also needed to improve the overall quality of the data processed through its disease surveillance infrastructure. Better, more reliable data reduces the need for manual cleaning and makes downstream analysis and case investigation less onerous for epidemiologists and other public health staff.
+LAC wanted one standard processing approach across data types, including eCR and ELR. They also needed the underlying data quality to improve, so case investigation and analysis would stop being so manual.
 {% endcapture %}
 
 {% capture solution %}
-**Building on a [previous pilot](/work/experience/cdc-dibbs-vdh-pilot/) with the Virginia Department of Health,** Skylight worked with LAC as part of a multi-year CDC and U.S. Digital Service (USDS, now U.S. DOGE Service) [initiative focused on pandemic readiness and interoperability](https://www.cdc.gov/data-modernization/php/index.html). The team developed and deployed an open-source, cloud-based pipeline — composed of modular software components known as [Data Integration Building Blocks (DIBBs)](/work/experience/cdc-dibbs/) — that significantly reduces the time it takes for LAC's disease surveillance teams to receive and act upon public health data while improving its quality.
+We worked with LAC as part of a multi-year CDC and U.S. Digital Service (USDS, now U.S. DOGE Service) [initiative on pandemic readiness and interoperability](https://www.cdc.gov/data-modernization/php/index.html). Building on a [previous pilot with the Virginia Department of Health](/work/experience/cdc-dibbs-vdh-pilot/), we organized the work around four phases.
 
-The pipeline needed to reflect how LAC's teams actually worked, not just how data flowed on a diagram. **Discovery research grounded the design in LAC's operational reality** — the team mapped eCR workflows, identified product support needs, and assessed which eCR data fields were most valuable to LAC's disease surveillance teams. Those insights determined which DIBBs modules to deploy and how to configure them. Because the data challenges were intertwined with workflow changes, the team ran a year-long iterative development process with weekly agile ceremonies and regular product demonstrations, refining the pipeline alongside the staff who would use it.
+**We started where most pipeline projects skip: the existing workflow.** The team mapped eCR workflows with LAC staff, identified product-support needs, and ranked which eCR data fields mattered most to LAC's disease surveillance teams. Those insights determined which DIBBs modules to deploy and how to configure them. The pipeline needed to reflect how LAC's teams actually worked, not just how data flowed on a diagram.
 
-Validating the approach meant testing it against real-world workflows, not just synthetic data. **The team compared pre-pilot and post-pilot data processing** to measure record linkage performance and data quality, and chose Hepatitis A case investigators as the test case for evaluating public health impact — a disease team with clear, measurable workflows. User acceptance testing with LAC staff surfaced adoption barriers early enough to address them before rollout. And to ensure LAC wouldn't depend on Skylight long-term, the team built a Handoff Hub — a compendium of resources enabling LAC staff to run and customize the pipeline on their own.
+**Modular meant LAC could swap any block without rebuilding the pipeline.** The team developed and deployed a cloud-based pipeline composed of modular software components — the Data Integration Building Blocks. Because the data challenges were intertwined with workflow changes, we ran a year-long iterative process with weekly agile ceremonies and regular product demos, refining the pipeline alongside the staff who would use it.
 
-LAC now has access to an automated feed of analysis-ready eCR data with fields relevant to downstream disease teams. The pipeline also processes ELR data, making it easier to analyze across data streams using **a single source of truth.** LAC continues to expand access to processed eCR data for additional teams, including the HIV and STD prevention team and the Community Outbreak Team focused on viral respiratory pathogens.
+**Validation testing ran against real disease workflows, not synthetic data.** The team compared pre-pilot and post-pilot processing to measure record linkage and data quality. We picked the Hepatitis A case investigators as the test case for public health impact — a disease team with clear, measurable workflows. User acceptance testing with LAC staff surfaced adoption barriers early enough to address them before rollout.
 
-The data challenges LAC faced — siloed systems, low-quality data, manual cleaning — are common across public health jurisdictions. Through this work, the DIBBs team gained insights on **how to adapt modular, open-source solutions for disease surveillance systems nationwide.**
+**Independence wasn't documentation — it was a working operations playbook LAC ran themselves.** To ensure LAC wouldn't depend on us long-term, the team built a Handoff Hub — a compendium of resources letting LAC staff run and customize the pipeline on their own. LAC now has an automated feed of analysis-ready eCR data with fields routed to the right disease teams. The pipeline also processes ELR data, giving LAC a single source of truth across data streams. The HIV and STD prevention team and the Community Outbreak Team focused on viral respiratory pathogens are next.
+
+The challenges LAC faced — siloed systems, low-quality data, manual cleaning — are common across public health jurisdictions. Through this work, the DIBBs team learned how to adapt modular, open-source solutions for disease surveillance nationwide.
 {% endcapture %}
 
 {% capture results %}
-- **Pipeline processes ELR data at a near 100% success rate** without requiring significant modifications, enabling LAC disease teams to access and analyze cleaned ELR data
-- **Case investigators on the Hepatitis team receive eCR data 95% faster** (from 20 hours to 1 hour)
-- **Case investigators can quickly and easily identify positive Hepatitis A cases** in an aggregated tabular format (versus sifting through individual HTML files) resulting in ~12 minutes of time savings per Hepatitis A case
-- **Pipeline saves LAC technical staff 6 hours a week** by eliminating the need to manually run data processing scripts
-- **LAC staff can create program-specific data marts in a few hours** rather than months, giving disease teams access to processed eCR data for case investigation and analysis
-- **LAC staff can operate the pipeline independently** and continuously expand use of eCR data to new program areas
+- **Cut case investigator wait time by 95%** — Hepatitis A case investigators now receive eCR data in one hour instead of 20
+- **Processes ELR data at near 100% success rate** without significant modifications, giving disease teams cleaned ELR data alongside eCR
+- **Saves ~12 minutes per Hepatitis A case** by giving investigators an aggregated tabular view instead of individual HTML files
+- **Frees 6 hours of technical staff time per week** by eliminating manual data-processing scripts
+- **Reduces program-specific data mart creation from months to hours**, expanding eCR access to new disease teams without an engineering project
+- **Transferred operational ownership to LAC**, so the agency runs the pipeline itself and continues to expand eCR use across disease programs
 {% endcapture %}
 
 {% include project.html

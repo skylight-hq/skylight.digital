@@ -41,25 +41,25 @@ The Environmental Protection Agency (EPA) needed an independent assessment of it
 {% endcapture %}
 
 {% capture challenge %}
-EPA's Safe Drinking Water Information System tracks data about public water systems and violations of federal drinking water regulations. In 2017, EPA launched SDWIS Prime to modernize the system's data architecture by moving from state-managed, distributed tracking systems to a centralized platform maintained by the agency.
+EPA’s Safe Drinking Water Information System tracks data about public water systems and violations of federal drinking water regulations. In 2017, EPA launched SDWIS Prime to modernize the system’s data architecture. The plan moved from state-managed, distributed tracking systems to a centralized platform maintained by the agency.
 
-As the effort progressed, EPA grew concerned about the program's overall trajectory — particularly the feasibility of migrating large volumes of historical data into the new system. High complexity from state reliance on data tables, limited transactional history that made auditing difficult, an unfamiliar data schema that complicated imports and exports, and repeated data transformations required to ingest and then re-export information all compounded the challenge.
+As the effort progressed, EPA grew concerned about the program’s trajectory — particularly the feasibility of migrating large volumes of historical data into the new system. Several factors compounded the challenge: high complexity from state reliance on data tables, limited transactional history that made auditing difficult, an unfamiliar data schema that complicated imports and exports, and repeated data transformations required to ingest and then re-export information.
 
-Beyond the data architecture, the program faced delivery obstacles: uneven DevOps practices, inconsistent environments, and no comprehensive testing strategy. Together, these issues slowed progress and raised uncertainty about whether the modernization could succeed on its current path.
+Beyond the data architecture, the program faced delivery obstacles. DevOps practices were uneven. Environments were inconsistent. There was no comprehensive testing strategy. Together, these issues slowed progress and raised uncertainty about whether the modernization could succeed on its current path.
 {% endcapture %}
 
 {% capture solution %}
-**We led a four-hour assessment workshop with EPA technical staff** to get an unfiltered view of where the SDWIS Prime initiative stood — its technical practices, delivery approach, and the specific risks threatening the program's success. The workshop format mattered because scattered status reports hadn't given leadership a clear picture; bringing the right people into the same room surfaced problems that written updates had obscured.
+**A four-hour assessment workshop with EPA technical staff did what status reports couldn't: it gave leadership an unfiltered view of where SDWIS Prime stood.** The workshop format mattered because scattered written updates had obscured the picture. Bringing the right people into the same room surfaced technical practices, delivery approach, and specific risks threatening the program’s success.
 
-During the session, a pattern emerged: the program's challenges weren't just technical — they were compounding. **Data migration issues, inconsistent environments, and missing test coverage were reinforcing one another,** making it difficult to isolate any single root cause. We mapped these interdependencies so EPA could see which problems to address first and which would resolve as a consequence.
+**The challenges weren't just technical — they were compounding.** Data migration issues, inconsistent environments, and missing test coverage were reinforcing one another. Isolating any single root cause was difficult. We mapped the interdependencies so EPA could see which problems to address first and which would resolve as a consequence.
 
-**Two days after the workshop, we delivered a four-page recommendation report** with analytic and technical guidance for redirecting effort and resources toward a more viable path. The report was deliberately concise — EPA needed actionable direction, not another lengthy analysis document to add to the pile.
+Four pages, two days — actionable direction, not another analysis to add to the pile. The recommendation report delivered analytic and technical guidance for redirecting effort and resources toward a more viable path. EPA needed direction, not exhaustive documentation.
 {% endcapture %}
 
 {% capture results %}
 - **Delivered a four-page assessment report within two days** of the consultation, giving EPA actionable guidance for redirecting the SDWIS Prime effort
 - **Surfaced compounding risks that status reports had missed** — including the interdependencies between data migration complexity, inconsistent environments, and missing test coverage
-- **Gave leadership a clearer basis for contract decisions,** connecting technical findings to the program's broader trajectory and investment calculus
+- **Gave leadership a clearer basis for contract decisions,** connecting technical findings to the program’s broader trajectory and investment calculus
 - **Provided a prioritized path forward** that helped EPA distinguish between root causes requiring immediate action and downstream symptoms that would resolve as a consequence
 {% endcapture %}
 

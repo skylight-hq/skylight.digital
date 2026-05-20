@@ -22,6 +22,8 @@ tags:
   - "liz fox"
   - "ashton tu"
   - "mike brown"
+  - "jina ryu"
+  - "michelle li"
 excerpt: "A standing capability inside the Air Force that gives product teams shared design infrastructure, embedded expertise, and coaching to ship user-centered software — now adopted by agencies beyond the Defense Department."
 project_members:
   - karthik-patil
@@ -31,6 +33,8 @@ project_members:
   - liz-fox
   - ashton-tu
   - mike-brown
+  - jina-ryu
+  - michelle-li
 technologies:
   - "Adobe XD"
   - "Carbon Design System"
@@ -84,23 +88,23 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [digital transformation work with BESPIN (Business Enterprise Systems Product INnovation)](/work/experience/usaf-bespin-transformation-support/), we established the Design Studio — a standing capability inside the U.S. Air Force (USAF) that gives product teams shared design infrastructure, embedded expertise, and coaching to ship user-centered software. Across 20+ programs, the Design Studio has trained dozens of practitioners, compressed scoping-to-production timelines from years to weeks, and produced a model that agencies beyond the Department of Defense (DoD) have since adopted.
+As part of our [digital transformation work with BESPIN (Business Enterprise Systems Product INnovation)](/work/experience/usaf-bespin-transformation-support/), we established the Design Studio. It’s a standing capability inside the U.S. Air Force (USAF) that gives product teams shared design infrastructure, embedded expertise, and coaching to ship user-centered software. Across 20+ programs, the Design Studio has trained dozens of practitioners, compressed scoping-to-production timelines from years to weeks, and produced a model that agencies beyond the Department of Defense (DoD) have since adopted.
 {% endcapture %}
 
 {% capture challenge %}
-Air Force product teams were building software, but each one absorbed the full cost of getting to production alone. A team that wanted to redesign an airman-facing tool had to find its own design expertise, run its own procurement, build its own infrastructure, and navigate security reviews from scratch — even if the team down the hall had just done the same thing. Most teams didn't have designers, researchers, or product managers at all.
+Air Force product teams were building software, but each one absorbed the full cost of getting to production alone. A team that wanted to redesign an airman-facing tool had to find its own design expertise, run its own procurement, build its own infrastructure, and navigate security reviews from scratch — even if the team down the hall had just done the same thing. Most teams didn’t have designers, researchers, or product managers at all.
 
 The result was predictable. Discovery stretched for months. Procurement cycles delayed vendor support before work even started. Security and compliance reviews added months. By the time a product reached airmen, the original need had often shifted — and the budget was spent.
 {% endcapture %}
 
 {% capture solution %}
-**We built the Design Studio as a permanent capability — hosted by BESPIN but designed to serve the Air Force and beyond.** A core team builds USAF-wide design infrastructure: shared systems, toolkits, and frameworks that every engagement draws from. When specific programs need hands-on help, we scale additional capacity through task orders for embedded delivery, enablement, or both. The goal in every engagement: leave the team stronger than we found it.
+**The Design Studio wasn't a project — it was a permanent capability that compounded across engagements.** Hosted by BESPIN but designed to serve the Air Force and beyond, a core team builds USAF-wide design infrastructure: shared systems, toolkits, and frameworks that every engagement draws from. When specific programs need hands-on help, we scale additional capacity through task orders for embedded delivery, enablement, or both. The goal in every engagement: leave the team stronger than we found it.
 
-**Shared infrastructure is what makes the model compound.** Every engagement draws from a growing suite of pre-authorized capabilities: a [service design framework](/work/experience/usaf-service-design-framework/) for structured discovery, two [design systems](/work/experience/usaf-bespin-design-system/) — Carbon Forge for complex data-rich applications and Material Atlas for mobile-friendly products — and 10+ reusable toolkits that cut team ramp-up time. Because these assets are already security-cleared, teams skip months of compliance work that used to block every project independently. And because the core team maintains them between engagements, they appreciate over time.
+**Shared infrastructure is what makes the model compound.** Every engagement draws from a growing suite of pre-authorized capabilities. A [service design framework](/work/experience/usaf-service-design-framework/) supports structured discovery. Two [design systems](/work/experience/usaf-bespin-design-system/) — Carbon Forge for complex data-rich applications and Material Atlas for mobile-friendly products — anchor the visual layer. And 10+ reusable toolkits cut team ramp-up time. Because these assets are already security-cleared, teams skip months of compliance work that used to block every project. The core team maintains them between engagements, so they appreciate over time.
 
-The capability grew out of [R&D we conducted through AFWERX](/work/experience/usaf-service-design-framework/) to develop a scalable service design framework for government. That work — validated through two STTR phases and a partnership with UC San Diego's Design Lab — matured into a Phase III indefinite-delivery/indefinite-quantity contract with a $100M ceiling, giving the Design Studio a fast, flexible acquisition pathway: task orders issued in weeks rather than months, primarily for Air Force programs, with civilian agencies like the CDC also leveraging the vehicle.
+The capability grew out of [R&D we ran through the Air Force Werx (AFWERX) innovation hub](/work/experience/usaf-service-design-framework/) to develop a scalable service design framework for government. Two Small Business Technology Transfer (STTR) phases and a partnership with UC San Diego’s Design Lab validated the work. It matured into a Phase III indefinite-delivery/indefinite-quantity contract with a $100M ceiling. The Design Studio now has a fast, flexible acquisition pathway: task orders issued in weeks rather than months, primarily for Air Force programs. Civilian agencies like the CDC also leverage the vehicle.
 
-**[AFFMS II](/work/experience/air-force-fitness-management-system/) — the fitness tool every uniformed airman uses — got a full redesign.** The [Weather Systems Program Office](/work/experience/usaf-wxpo-weather-modernization/) transformed how multiple teams designed and delivered weather applications. The Office of Special Investigations automated workflows to clear a backlog of 100,000 criminal records. That track record drew interest from beyond the Air Force, with the CDC and others adopting the Design Studio's capabilities for their own programs.
+**The [Air Force Fitness Management System II (AFFMS II)](/work/experience/air-force-fitness-management-system/) — the fitness tool every uniformed airman uses — got a full redesign.** The [Weather Systems Program Office](/work/experience/usaf-wxpo-weather-modernization/) transformed how multiple teams designed and delivered weather applications. The Office of Special Investigations automated workflows to clear a backlog of 100,000 criminal records. That track record drew interest from beyond the Air Force, with the CDC and others adopting the Design Studio’s capabilities for their own programs.
 {% endcapture %}
 
 {% capture results %}

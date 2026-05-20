@@ -63,30 +63,30 @@ source_code_url: https://github.com/open-company
 ---
 
 {% capture summary %}
-Skylight's Sean Johnson designed and built Carrot — an open-source, asynchronous communication platform for distributed teams. Where tools like Slack optimized for real-time conversation, Carrot optimized for clarity: structured updates, topic-based discussions, and a reading experience that didn't require everyone to be online at the same time.
+Skylight’s Sean Johnson designed and built Carrot — an open-source, asynchronous communication platform for distributed teams. Where tools like Slack optimized for real-time conversation, Carrot optimized for clarity. Structured updates, topic-based discussions, and a reading experience that didn’t require everyone to be online at the same time.
 {% endcapture %}
 
 {% capture challenge %}
-By the mid-2010s, real-time chat tools had become the default communication layer for distributed teams. But the always-on model came with a cost. Important updates disappeared into fast-moving channels. Staying informed meant staying connected — constantly. And the more a team grew, the worse the signal-to-noise ratio became.
+By the mid-2010s, real-time chat tools had become the default communication layer for distributed teams. But the always-on model came with a cost. Important updates disappeared into fast-moving channels. Staying informed meant staying connected — constantly. The more a team grew, the worse the signal-to-noise ratio became.
 
-The problem hit leaders and individual contributors differently but equally hard. For leaders, it was a visibility problem: there was no reliable way to communicate priorities, share context, or know whether the team had actually absorbed what mattered most. For individuals, it was a focus problem: every notification was an interruption, and the fear of missing something important kept people tethered to their screens.
+The problem hit leaders and individual contributors differently but equally hard. For leaders, it was a visibility problem. There was no reliable way to communicate priorities, share context, or know whether the team had actually absorbed what mattered most. For individuals, it was a focus problem. Every notification was an interruption, and the fear of missing something important kept people tethered to their screens.
 
-The underlying issue wasn't that teams needed less communication — it was that they needed a different kind. Real-time chat optimized for speed and presence. What distributed teams actually needed was a tool that optimized for clarity and asynchronous participation.
+The underlying issue wasn’t that teams needed less communication. It was that they needed a different kind. Real-time chat optimized for speed and presence. What distributed teams actually needed was a tool that optimized for clarity and asynchronous participation.
 {% endcapture %}
 
 {% capture solution %}
-**Sean designed Carrot around a bet:** that the best communication tool for distributed teams wouldn't look like chat at all. Instead of optimizing for real-time presence, he built a platform that optimized for thoughtful, structured communication people could engage with on their own schedule.
+**Sean made a contrarian bet: the best communication tool for distributed teams wouldn’t look like chat at all.** Instead of optimizing for real-time presence, he built a platform that optimized for thoughtful, structured communication people could engage with on their own schedule.
 
-The core interaction model reflected that philosophy. Rather than fragmented chat threads, **Carrot centered on narrative-driven updates** — context-rich, topic-specific posts that leaders and team members published for the whole team. Discussions grew underneath each update, so conversations stayed attached to the context that prompted them instead of drifting through a scroll of unrelated messages.
+**The core interaction model put narrative ahead of stream.** Rather than fragmented chat threads, Carrot centered on context-rich, topic-specific posts that leaders and team members published for the whole team. Discussions grew underneath each update, so conversations stayed attached to the context that prompted them — not drifting through a scroll of unrelated messages.
 
-Under the hood, Sean built Carrot as the open-source [OpenCompany](https://github.com/open-company) platform using **an API-first, microservices architecture** that supported web and mobile applications. The stack — ClojureScript and React on the front end, Clojure microservices on the back end, with WebSockets for real-time interaction where it mattered — was designed to feel as responsive as chat without demanding constant attention.
+Under the hood, Sean built Carrot as the open-source [OpenCompany](https://github.com/open-company) platform using an API-first, microservices architecture that supported web and mobile applications. The stack — ClojureScript and React on the front end, Clojure microservices on the back end, with WebSockets for real-time interaction where it mattered — was designed to feel as responsive as chat without demanding constant attention.
 
-The result was a product that let distributed teams stay aligned without being always-on — **reducing noise while keeping the conversations that mattered visible and persistent.**
+**The result was a product that let distributed teams stay aligned without being always-on** — reducing noise while keeping the conversations that mattered visible and persistent.
 {% endcapture %}
 
 {% capture results %}
 - **Built and launched a full asynchronous communication platform** spanning web, iOS, and Android
-- **Named one of Inc. Magazine's biggest disruptors of 2019** and featured on Product Hunt's best digital products of 2019
+- **Named one of Inc. Magazine’s biggest disruptors of 2019** and featured on Product Hunt’s best digital products of 2019
 - **Grew an early user base and validated product-market fit** through iterative research and testing
 - **Open-sourced the underlying OpenCompany platform** to enable broader adoption and community contribution
 {% endcapture %}

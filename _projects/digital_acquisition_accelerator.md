@@ -52,25 +52,25 @@ source_code_url:
 ---
 
 {% capture summary %}
-The Digital Acquisition Accelerator was a pilot program that helped federal agencies build in-house capability to procure modern digital services using agile, user-centered, and cloud-based approaches. Before starting Skylight, Chris Cairns and Shashank Khandelwal designed and led this initiative as part of the Office of Management and Budget's (OMB's) Acquisition Innovation Labs, bringing together practitioners from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service (USDS).
+The Digital Acquisition Accelerator was a pilot program that helped federal agencies build in-house capability to procure modern digital services using agile, user-centered, and cloud-based approaches. Before starting Skylight, Chris Cairns and Shashank Khandelwal designed and led the initiative as part of the Office of Management and Budget’s (OMB’s) Acquisition Innovation Labs. The program brought together practitioners from 18F, the Presidential Innovation Fellows, and the U.S. Digital Service (USDS).
 {% endcapture %}
 
 {% capture challenge %}
-Federal acquisition practices were built around traditional, long-cycle IT delivery models — waterfall timelines, rigid requirements documents, and vendor evaluation criteria that rewarded lowest-price bids over technical quality. Modern digital services demand fundamentally different approaches: iterative development, user-centered design, and continuous delivery. The gap between how government bought technology and how effective technology gets built had widened for years.
+Federal acquisition practices were built around traditional, long-cycle IT delivery models — waterfall timelines, rigid requirements documents, and vendor evaluation criteria that rewarded lowest-price bids over technical quality. Modern digital services demand fundamentally different approaches: iterative development, user-centered design, and continuous delivery. The gap between how government bought technology and how effective technology actually gets built had widened for years.
 
 Most agencies lacked the internal expertise to bridge that gap. Even when organizations recognized the need to modernize, they struggled to write solicitations that attracted the right vendors, evaluate proposals based on demonstrated capability rather than compliance paperwork, and manage delivery in ways that kept pace with agile teams. Procurement officers and program managers had deep knowledge of the Federal Acquisition Regulation but little exposure to modern software practices.
 
-The challenge wasn't simply introducing new acquisition techniques through a one-time training event. Agencies needed sustainable, cross-functional teams who could apply modern digital procurement practices consistently — and who could train others to do the same.
+The challenge wasn’t simply introducing new acquisition techniques through a one-time training event. Agencies needed sustainable, cross-functional teams who could apply modern digital procurement practices consistently — and who could train others to do the same.
 {% endcapture %}
 
 {% capture solution %}
-**Chris and Shashank designed the Digital Acquisition Accelerator as a "train-the-trainer" program** — structured not to hand agencies a playbook and walk away, but to build multidisciplinary teams of digital acquisition experts within each participating organization. Operating under OMB's Acquisition Innovation Labs initiative, the program carried executive-level visibility and cross-government reach from the start.
+**A one-time training wouldn't scale — but a train-the-trainer program could.** Chris and Shashank designed the Digital Acquisition Accelerator to build multidisciplinary teams of digital acquisition experts within each participating organization, rather than hand agencies a playbook and walk away. Operating under OMB's Acquisition Innovation Labs initiative, the program carried executive-level visibility and cross-government reach from the start.
 
-No cross-government program like it had existed before. Expert practitioners from 18F, the Presidential Innovation Fellows, and USDS served as coaches — combining deep technical knowledge with hands-on federal procurement experience. Participating agencies learned from people who'd already navigated the same regulatory environment they were trying to change.
+**No cross-government program like it had existed before.** Expert practitioners from 18F, the Presidential Innovation Fellows, and USDS served as coaches — combining deep technical knowledge with hands-on federal procurement experience. Participating agencies learned from people who had already navigated the same regulatory environment they were trying to change.
 
 **Rather than teaching concepts in the abstract, the program put teams to work on live procurement scenarios** within their own organizations. The curriculum covered agile development, user-centered design, modular contracting, and open innovation. Each topic was reinforced through coaching and mentorship, so learning stuck beyond the classroom.
 
-**The work didn't end with the cohort.** The team documented lessons learned and reusable frameworks so agencies could scale what they'd built internally and share approaches across government. That effort culminated in the Digital Acquisition Playbook — the first government-wide guidance on modern digital procurement practices.
+The work didn’t end with the cohort. The team documented lessons learned and reusable frameworks so agencies could scale what they’d built internally and share approaches across government. **That effort culminated in the Digital Acquisition Playbook — the first government-wide guidance on modern digital procurement practices.**
 {% endcapture %}
 
 {% capture results %}
