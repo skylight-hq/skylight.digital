@@ -1,0 +1,190 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/logo-rules.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/logo-rules.yml
+# source_branch: main
+# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
+# synced_at: 2026-05-23T22:18:50Z
+---
+# Skylight logo rules — canonical data.
+#
+# Sourced from skylight.digital/pages/company/brand/identity/logos.md
+# and the Skylight Brand Guidelines (Version 5).
+#
+# SVG sources for each variant ship alongside this file at
+# `../assets/logos/`.
+
+meta:
+  schema_version: 1
+  source: skylight.digital/pages/company/brand/identity/logos.md
+  synced_at: "2026-05-23"
+  assets_at: plugins/skylight-brand-pack/assets/logos/
+
+# -- Variants -----------------------------------------------------------------
+
+variants:
+
+  - id: standard
+    name: Standard logo (color, light background)
+    file: assets/logos/skylight-logo.svg
+    use_when: "Light backgrounds (white, ochre-40, gray-5)."
+    do_not_use_when: "Dark backgrounds (use `standard-inverse` instead)."
+
+  - id: standard-inverse
+    name: Inverse (color, dark background)
+    file: assets/logos/skylight-inverse.svg
+    use_when: "Dark backgrounds (gray-300, red-200, blue-300, green-300)."
+
+  - id: grayscale
+    name: Grayscale (light background)
+    file: assets/logos/skylight-grayscale.svg
+    use_when: "Black-and-white reproductions on light backgrounds — only when color is unavailable."
+
+  - id: grayscale-inverse
+    name: Grayscale inverse (dark background)
+    file: assets/logos/skylight-grayscale-inverse.svg
+    use_when: "Black-and-white reproductions on dark backgrounds — only when color is unavailable."
+
+  - id: one-color
+    name: One-color (light background)
+    file: assets/logos/skylight-one-color.svg
+    use_when: "Single-color print constraints; embroidery; etched signage."
+    do_not_use_when: "Digital surfaces where standard logo can render."
+
+  - id: one-color-inverse
+    name: One-color inverse (dark background)
+    file: assets/logos/skylight-one-color-inverse.svg
+    use_when: "Single-color reproductions on dark backgrounds."
+
+  - id: hubzone
+    name: Skylight + HUBZone certification
+    file: assets/logos/skylight-hubzone.svg
+    use_when: "Government-contracting surfaces where HUBZone certification matters."
+    notes: |
+      HUBZone is a Small Business Administration certification. Pair only
+      where the audience cares about set-aside status — most external
+      surfaces use the standard logo without the HUBZone mark.
+
+# -- Composition --------------------------------------------------------------
+
+composition:
+  logotype: |
+    The wordmark "Skylight" set in a custom typeface with wide kerning.
+  logomark: |
+    The "halo" — a circular form in the four brand colors (blue, green,
+    ochre, red), positioned just after the logotype.
+  pairing_rule: |
+    The logotype should never appear without the logomark. The logomark
+    (halo) CAN appear alone as an icon — see icon-usage rules in the
+    icons section of the brand-identity pages.
+
+# -- Spacing ------------------------------------------------------------------
+
+spacing:
+  clear_space:
+    rule: "2x the height of the logomark on all sides."
+    rationale: |
+      Clear space ensures the logo never feels cramped against headlines,
+      borders, or other graphic elements. 2x the halo height is the minimum;
+      more is fine.
+
+  diagram_reference: skylight.digital/img/brand/identity/logos/spacing.svg
+
+# -- Minimum sizes ------------------------------------------------------------
+
+minimum_sizes:
+  digital:
+    width_px: 100
+    rationale: "Below 100px the logotype's letterforms break down."
+  print:
+    width_inches: 1.375
+    rationale: "Below 1.375in (35mm) the halo's color separation collapses."
+
+# -- Rotation -----------------------------------------------------------------
+
+rotation:
+  allowed:
+    - 0    # standard orientation
+    - 90   # rotated 90° clockwise (vertical signage, etc.)
+  forbidden:
+    - 45   # diagonal
+    - 180  # upside down
+    - 270  # rotated 270° (read as upside-down 90)
+  notes: |
+    Only 0° (standard) and 90° (clockwise vertical) are sanctioned. Any
+    other rotation breaks the logo's visual integrity.
+
+# -- Things to avoid (forbidden modifications) --------------------------------
+#
+# The "Things to avoid" page on skylight.digital is the canonical
+# enumeration. Codifying here so the future `brand.logo_modification_warning`
+# linter can flag known violations in committed assets.
+
+forbidden_modifications:
+  - id: no-recolor
+    rule: "Do not recolor the logo outside the sanctioned variants."
+    why: "Color carries brand meaning; arbitrary recoloring breaks the system."
+
+  - id: no-stretch
+    rule: "Do not stretch, skew, or otherwise distort the proportions."
+    why: "Wordmark + halo proportions are designed; distortion breaks them."
+
+  - id: no-effects
+    rule: "Do not apply drop shadows, glows, bevels, or other effects."
+    why: "The logo is a flat mark by design."
+
+  - id: no-outline
+    rule: "Do not add an outline or stroke around the logo."
+    why: "Same as effects — the mark is solid fills."
+
+  - id: no-pattern-fill
+    rule: "Do not fill the logo with a pattern, gradient, or texture."
+    why: "Brand colors are solid; patterns/gradients break the system."
+
+  - id: no-photo-bg
+    rule: "Do not place the logo over a busy photographic background."
+    why: |
+      Without clear background contrast, the logo loses legibility. Use a
+      solid panel underneath, or pick a different variant (inverse,
+      one-color) appropriate for the surface.
+
+  - id: no-bg-recolor
+    rule: "Do not place the inverse logo over a non-sanctioned dark color."
+    why: "Inverse is designed for gray-300 / red-200 / blue-300 / green-300."
+
+  - id: no-rearrange
+    rule: "Do not move the halo relative to the logotype, or rearrange the elements."
+    why: |
+      The mark is composed; the relationship between wordmark and halo is
+      part of the design. Treat the logo as an atomic unit.
+
+  - id: no-typesub
+    rule: "Do not substitute the logotype font."
+    why: |
+      The logotype is set in a custom typeface (not the brand body font).
+      Substituting it removes the distinct visual identity.
+
+  - id: no-trademark-removal
+    rule: "Do not remove ®/™ marks on official surfaces."
+    why: "Trademark indicators are required on first-mention surfaces."
+
+# -- Download convenience -----------------------------------------------------
+#
+# The website embeds download links for each logo variant. Convenience
+# pointers here for channel writers + agents that need to suggest a
+# download URL alongside a logo mention.
+
+downloads:
+  standard: /img/logo.svg
+  inverse: /img/brand/identity/assets/logos/svg/skylight-inverse.svg
+  grayscale: /img/brand/identity/assets/logos/svg/skylight-grayscale.svg
+  grayscale_inverse: /img/brand/identity/assets/logos/svg/skylight-grayscale-inverse.svg
+  one_color: /img/brand/identity/assets/logos/svg/skylight-one-color.svg
+  one_color_inverse: /img/brand/identity/assets/logos/svg/skylight-one-color-inverse.svg
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/logo-rules.md
+  template: brand_logo_usage

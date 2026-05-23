@@ -1,0 +1,141 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/illustration.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/illustration.yml
+# source_branch: main
+# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
+# synced_at: 2026-05-23T22:18:50Z
+---
+# Skylight illustration principles + visual style — canonical data.
+#
+# Sourced from skylight.digital/pages/company/brand/illustration/
+# principles.md + visual_style.md + illustration_types.md, and the
+# Skylight Brand Guidelines (Version 5).
+
+meta:
+  schema_version: 1
+  source:
+    - skylight.digital/pages/company/brand/illustration/principles.md
+    - skylight.digital/pages/company/brand/illustration/visual_style.md
+    - skylight.digital/pages/company/brand/illustration/illustration_types.md
+  synced_at: "2026-05-23"
+
+# -- Six core illustration principles -----------------------------------------
+
+principles:
+  - id: highlight-impact
+    name: Highlight impact
+    description: |
+      Demonstrate the impact of our mission and the work that we do. We
+      want people to understand why working with us benefits them and
+      society.
+
+  - id: humanize
+    name: Humanize
+    description: |
+      People are at the center of our work. Embody this by incorporating
+      human elements such as a person's full body, face, or hands.
+      Typically, illustrations with objects only are reserved for icons.
+
+  - id: digitize
+    name: Digitize
+    description: |
+      Show people interacting with technology, or in visual metaphors
+      about the physical and digital world intersecting. In some cases,
+      it might be more compelling to focus on the ultimate outcomes of
+      our work rather than the technology or methods that we use.
+
+  - id: simplify
+    name: Simplify
+    description: |
+      As a company, we aim to turn complex problems into the simplest
+      solutions possible. Employ metaphors to translate the complexity of
+      the problem and solution spaces in which we operate into widely
+      understandable visuals. Because this method tends to be more
+      accessible and memorable, avoid literal drawings.
+
+  - id: diversify
+    name: Diversify
+    description: |
+      Reflect the diversity of the world that we live in — skin colors,
+      body types, facial features (such as hair), age, abilities, style
+      (such as clothing).
+
+  - id: contextualize
+    name: Contextualize
+    description: |
+      Keep in mind the purpose that the illustration is intended to serve.
+      For example, if the illustration will accompany a case study or blog
+      post, reinforce what we're trying to accomplish within the text —
+      that is, what we're trying to communicate to the target audience.
+
+# -- Visual-style constraints -------------------------------------------------
+
+visual_style:
+  palette:
+    rule: "Use the limited brand palette (primary + secondary in colors.yml). No off-palette hues."
+    accent_colors:
+      - ochre-100  # the warm accent
+      - red-100    # the energetic accent
+    line_color: gray-300
+
+  outlines:
+    style: "Offset outlines"
+    notes: |
+      Illustrations use offset (not centered) outline strokes — outlines
+      sit just off the fill edge, giving Skylight illustrations their
+      distinctive slightly-hand-drawn feel. See the visual-style page on
+      skylight.digital for examples.
+
+  faces_and_hands:
+    rule: "Simplified, not photo-realistic."
+    notes: |
+      Faces should be inclusive (see principle 5 — Diversify) but not
+      identifiable. Hands appear when they're meaningful to the action;
+      avoid floating-hand cliches.
+
+# -- Illustration types -------------------------------------------------------
+#
+# Different illustration use cases get different treatments. The
+# illustration_types.md source page documents these in full; this file
+# carries the type taxonomy + the rule each type follows.
+
+types:
+  - id: hero
+    name: Hero illustrations
+    use_when: "Lead image for case studies, blog posts, marketing pages."
+    constraints:
+      - "Includes one or more people."
+      - "Full color palette acceptable."
+      - "Composed for landscape aspect ratios (16:9 or wider)."
+
+  - id: spot
+    name: Spot illustrations
+    use_when: "Inline illustrations that punctuate a longer narrative."
+    constraints:
+      - "Single subject or interaction."
+      - "Reduced palette (2-3 colors)."
+      - "Composed for portrait or square."
+
+  - id: icon
+    name: Icons
+    use_when: "Single concept, single shape — UI affordances, navigation."
+    constraints:
+      - "Objects only (no people — see principle 2 carve-out)."
+      - "Single color (gray-300 or a single brand accent)."
+      - "Consistent stroke width across an icon set."
+
+  - id: diagram
+    name: Diagrams
+    use_when: "Process flows, system architectures, before/after comparisons."
+    constraints:
+      - "Geometry over expression — clarity is the brief."
+      - "Limited palette (primary + 1-2 accents)."
+      - "Annotations in Libre Franklin."
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/illustration.md
+  template: brand_illustration

@@ -1,0 +1,171 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/brand-narrative.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/brand-narrative.yml
+# source_branch: main
+# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
+# synced_at: 2026-05-23T22:18:50Z
+---
+# Skylight brand narrative — canonical data.
+#
+# Mission, the "Skylight difference", brand personality, sample messaging.
+# Sourced from skylight.digital/pages/company/brand/writing/brand_narrative.md
+# and the Skylight Brand Guidelines (Version 5).
+
+meta:
+  schema_version: 1
+  source: skylight.digital/pages/company/brand/writing/brand_narrative.md
+  synced_at: "2026-05-23"
+
+# -- Mission ------------------------------------------------------------------
+
+mission:
+  one_sentence: "We make government work in a digital world."
+  why: |
+    Every day millions of people — from veterans to immigrants — depend on
+    government services to fulfill their needs. But too often these
+    services are delivered using outmoded policies, practices, and
+    technologies.
+  what: |
+    We're public servants at heart who are driven to make government
+    services work better using design and technology.
+  how: |
+    Thinking and being digital requires fundamental practice, culture, and
+    technology change. And that means institutionalizing modern disciplines
+    such as human-centered design and lean-agile engineering. Everything we
+    offer is designed to accelerate this process of change within
+    government.
+
+# -- The Skylight difference --------------------------------------------------
+#
+# Why customers choose Skylight. The brand-narrative page presents these
+# as a single block of prose; here they're individually addressable so
+# channel writers can pull a single line for a specific post context.
+
+difference:
+  - id: most-talented
+    short: "Most talented group of digital professionals in government contracting."
+    long: |
+      The most talented group of digital professionals within the
+      government contracting industry.
+
+  - id: public-servants
+    short: "Public servants at heart."
+    long: |
+      Public servants at heart who understand and steward the critical
+      missions of government.
+
+  - id: government-and-commercial
+    short: "Unique blend of government and commercial know-how."
+    long: |
+      A unique blend of government and commercial know-how to solving our
+      customer's biggest digital challenges.
+
+  - id: modern-ways
+    short: "Pursue modern ways of working."
+    long: |
+      We pursue modern ways of working. New trends and technologies are
+      constantly on the horizon. We embrace — even pioneer — new
+      developments, go deep to understand their viability and impact, and
+      harness those with the greatest promise to the benefit of our
+      customers.
+
+  - id: capacity-building
+    short: "Believe in capacity building."
+    long: |
+      We believe in the importance of capacity building. Regardless of
+      mission, all government agencies are now technology organizations,
+      which means they need to master disciplines such as human-centered
+      design. Everything about us is designed to help our customers achieve
+      such mastery.
+
+  - id: diverse-equitable-inclusive
+    short: "Diverse, equitable, and inclusive."
+    long: |
+      We strive to create a diverse, equitable, and inclusive environment
+      for everyone.
+
+# -- Brand personality --------------------------------------------------------
+
+personality:
+  - id: mission-oriented
+    name: Mission oriented
+    description: |
+      Driven by a burning passion to create better outcomes for the public
+      through great government digital services.
+
+  - id: talented
+    name: Talented
+    description: |
+      When you work with Skylight, you're engaging with experts who are
+      the best at what they do, and always deliver results — even when
+      the going gets tough.
+
+  - id: modern
+    name: Modern
+    description: |
+      Skylight possesses know-how in the latest, most-proven practices and
+      technologies.
+
+  - id: lighthearted
+    name: Lighthearted
+    description: "Approachable and easy to work with."
+
+  - id: welcoming
+    name: Welcoming
+    description: |
+      We strive to create a diverse, equitable, and inclusive environment
+      that's welcoming to people of all identities and backgrounds.
+
+# -- Audience messaging -------------------------------------------------------
+#
+# Variants of the core narrative tuned for specific audiences. Channel
+# writers query these when drafting recruiting posts, partner outreach,
+# etc.
+
+messaging:
+  prospective_customers: |
+    Skylight helps government agencies modernize the digital services they
+    deliver to the public. We combine human-centered design with lean-agile
+    engineering to ship services that work — and to build the internal
+    capacity that keeps them working after we leave.
+
+  prospective_employees: |
+    Skylight is a place to do the best work of your career, alongside
+    people who care about the same things you do. We work on government
+    services that matter. We hire experts and trust them. We're remote-
+    first, distributed, and serious about doing the work without
+    pretending we have it all figured out.
+
+  partners: |
+    Skylight partners with organizations across government services
+    delivery — system integrators, design firms, research shops, civic-tech
+    coalitions. We bring digital-service practice expertise; partners
+    bring sector depth or specialized capability. Engagements range from
+    single-workstream collaborations to multi-year delivery teams.
+
+  public_audiences: |
+    Skylight is a digital services firm that works exclusively in
+    government. We help agencies deliver better services to the public
+    using the same modern practices found in the best private-sector
+    technology companies — adapted for the realities of government.
+
+# -- Three-companies framing --------------------------------------------------
+#
+# A standard analogy from the brand guidelines. Useful when an audience
+# asks "what kind of company is Skylight?"
+
+analogy:
+  three_companies: "Google + McKinsey + ReadySet"
+  reading: |
+    Engineering depth (Google) + strategic-advisory experience (McKinsey)
+    + government-services credibility (ReadySet). The combination is the
+    point — neither pure tech firm nor pure consultancy nor pure gov-services
+    shop.
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/brand-narrative.md
+  template: brand_narrative

@@ -1,0 +1,171 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/colors.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/colors.yml
+# source_branch: main
+# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
+# synced_at: 2026-05-23T22:18:50Z
+---
+# Skylight brand colors — canonical data.
+#
+# Mirrors skylight.digital/_data/color.yml. The website's brand-identity
+# page (pages/company/brand/identity/colors.md) already renders from
+# its local copy of this data; this file is the federation-wide canon
+# that channel-writer plugins, linters, and the eventual MCP server
+# consume.
+#
+# Sync convention: vendored copy. See `meta.source_*` below. The
+# website's local copy may lag this file briefly during a brand
+# update — Phase 7 of the brand-guidelines migration plan (in
+# follow-up) wires up a periodic PR-based sync workflow.
+#
+# Color meanings sourced from skylight.digital/pages/company/brand/
+# identity/colors.md and the Skylight Brand Guidelines (Version 5).
+
+meta:
+  schema_version: 1
+  source_repo: skylight-hq/skylight.digital
+  source_path: _data/color.yml
+  source_branch: master
+  synced_at: "2026-05-23T00:00:00Z"
+  source_migration: skylight-hub/migrations/archive/2026-05-23-brand-guidelines.md
+
+# -- Color meanings -----------------------------------------------------------
+#
+# Each primary color carries a brand meaning that channel writers can
+# query when deciding which color anchors a specific surface.
+
+meanings:
+  blue:   "sky, wisdom, dependable, committed"
+  green:  "nature, balance, growth, compassion"
+  ochre:  "sun/light, optimism, creativity, clarity"
+  red:    "energy, passion, authority, confidence"
+  gray:   "neutral; primary text + chart color"
+
+# -- Tints (full scale per family) --------------------------------------------
+#
+# Each family carries a tint scale. Token names match the production
+# CSS class names on skylight.digital (`.bg-blue-100`, `.bg-ochre-40`,
+# etc.). Hex values are exact; no rounding.
+
+blue:
+  - { token: blue-20,  value: dae9f1 }
+  - { token: blue-40,  value: b5d2e3 }
+  - { token: blue-60,  value: 90bcd6 }
+  - { token: blue-80,  value: 6ba5c8 }
+  - { token: blue-100, value: 468fba }
+  - { token: blue-200, value: 1d5392 }
+  - { token: blue-300, value: 031a54 }
+
+green:
+  - { token: green-20,  value: dfede3 }
+  - { token: green-40,  value: bfdbc7 }
+  - { token: green-60,  value: b3d3bc }
+  - { token: green-80,  value: 99c5a6 }
+  - { token: green-100, value: 80b690 }
+  - { token: green-200, value: 609c70 }
+  - { token: green-300, value: 418152 }
+  - { token: green-400, value: 295C30 }
+
+red:
+  - { token: red-20,  value: f9e0de }
+  - { token: red-40,  value: f2c1be }
+  - { token: red-60,  value: eca19d }
+  - { token: red-80,  value: e5827d }
+  - { token: red-100, value: df635c }
+  - { token: red-200, value: ba3932 }
+  - { token: red-300, value: 961c0b }
+
+ochre:
+  - { token: ochre-20,  value: fdf3de }
+  - { token: ochre-40,  value: fbe8be }
+  - { token: ochre-60,  value: f8dc9d }
+  - { token: ochre-80,  value: f6d17d }
+  - { token: ochre-100, value: f4c55c }
+  - { token: ochre-200, value: e99821 }
+  - { token: ochre-300, value: a66910 }
+  - { token: ochre-400, value: 834e00 }
+
+gray:
+  - { token: gray-5,   value: f8f8f8 }
+  - { token: gray-20,  value: ddddde }
+  - { token: gray-40,  value: bbbbbd }
+  - { token: gray-60,  value: 989a9c }
+  - { token: gray-80,  value: 76767b }
+  - { token: gray-100, value: 54565a }
+  - { token: gray-200, value: 37383b }
+  - { token: gray-300, value: 1c1d20 }
+
+# -- Composed palettes --------------------------------------------------------
+#
+# Curated subsets the website renders as "primary palette" + "secondary
+# palette" on the brand-identity colors page. Mirror those exactly.
+
+primary:
+  - { token: blue-200,  value: 1d5392 }
+  - { token: blue-100,  value: 468fba }
+  - { token: ochre-40,  value: fbe8be }
+  - { token: gray-300,  value: 1c1d20 }
+  - { token: gray-200,  value: 37383b }
+  - { token: gray-100,  value: 54565a }
+
+secondary:
+  - { token: red-100,    value: df635c }
+  - { token: ochre-100,  value: f4c55c }
+  - { token: green-100,  value: 80b690 }
+
+# -- Allowed-color set for linter rules ---------------------------------------
+#
+# Flattened list of every approved hex (token-less). The forthcoming
+# `brand.unauthorized_color` linter rule (deferred to a follow-up)
+# checks document hex references against this list; anything not in
+# here triggers a warning with the closest approved color.
+
+allowed_hex:
+  - dae9f1   # blue-20
+  - b5d2e3   # blue-40
+  - 90bcd6   # blue-60
+  - 6ba5c8   # blue-80
+  - 468fba   # blue-100
+  - 1d5392   # blue-200
+  - 031a54   # blue-300
+  - dfede3   # green-20
+  - bfdbc7   # green-40
+  - b3d3bc   # green-60
+  - 99c5a6   # green-80
+  - 80b690   # green-100
+  - 609c70   # green-200
+  - 418152   # green-300
+  - 295C30   # green-400
+  - f9e0de   # red-20
+  - f2c1be   # red-40
+  - eca19d   # red-60
+  - e5827d   # red-80
+  - df635c   # red-100
+  - ba3932   # red-200
+  - 961c0b   # red-300
+  - fdf3de   # ochre-20
+  - fbe8be   # ochre-40
+  - f8dc9d   # ochre-60
+  - f6d17d   # ochre-80
+  - f4c55c   # ochre-100
+  - e99821   # ochre-200
+  - a66910   # ochre-300
+  - 834e00   # ochre-400
+  - f8f8f8   # gray-5
+  - ddddde   # gray-20
+  - bbbbbd   # gray-40
+  - 989a9c   # gray-60
+  - 76767b   # gray-80
+  - 54565a   # gray-100
+  - 37383b   # gray-200
+  - 1c1d20   # gray-300
+  - ffffff   # white (always allowed)
+  - 000000   # black (always allowed)
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/colors.md
+  template: brand_colors

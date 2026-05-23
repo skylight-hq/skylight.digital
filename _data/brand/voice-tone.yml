@@ -1,0 +1,102 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/voice-tone.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/voice-tone.yml
+# source_branch: main
+# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
+# synced_at: 2026-05-23T22:18:50Z
+---
+# Skylight voice + tone qualities — canonical data.
+#
+# This file lists *what* the voice qualities are (5 names + one-line
+# descriptions). The Skylight Content Guide (skylight-hub/standards/
+# content-guide.md, also rendered as skylight.digital/work/toolkits/
+# content-guide/voice-and-tone/) carries the *examples* of each in
+# practice.
+#
+# Decision committed: brand-pack lists qualities; content-guide has
+# examples. Cross-linked, no duplication. See migration plan
+# `Resolved decisions` section.
+#
+# Sourced from skylight.digital/pages/company/brand/writing/
+# voice_and_tone.md and the Skylight Brand Guidelines (Version 5).
+
+meta:
+  schema_version: 1
+  source: skylight.digital/pages/company/brand/writing/voice_and_tone.md
+  synced_at: "2026-05-23"
+  examples_in: skylight-hub/standards/content-guide.md
+  examples_rendered_at: https://skylight.digital/work/toolkits/content-guide/voice-and-tone/
+
+# -- Voice qualities (constant — same across audiences) -----------------------
+
+voice_qualities:
+  - id: expressive
+    name: Expressive
+    one_line: |
+      We say what we mean, with feeling. Skylight prose has a point of view —
+      we don't hedge into corporate neutrality.
+
+  - id: smart
+    name: Smart
+    one_line: |
+      We earn our seat at the table with substance. Specific over generic,
+      concrete over aspirational, named over vague.
+
+  - id: lighthearted
+    name: Lighthearted
+    one_line: |
+      We don't take ourselves too seriously, even when the work is serious.
+      Warmth shows up in how we talk about hard problems.
+
+  - id: embracing
+    name: Embracing
+    one_line: |
+      We welcome the people we work with and the audiences we serve. Plain
+      language, inclusive framing, never punching down.
+
+  - id: worldly
+    name: Worldly
+    one_line: |
+      We know our domain (civic tech, government services, modern engineering
+      practice) and we know its history. References + context land naturally.
+
+# -- Tone modulation (varies by audience) -------------------------------------
+#
+# Voice is constant; tone shifts with audience. The content guide has
+# concrete examples for each axis below. Channel writers query the
+# guide for "how do I write a contract-win post in Skylight voice for
+# a federal-agency audience?"
+
+tone_axes:
+  - id: audience-formality
+    name: Audience formality
+    values:
+      casual:     "Slack channel, internal newsletter, recruiting Tweet"
+      neutral:    "Public LinkedIn post, blog post, case study"
+      formal:     "Contract response, executive summary, congressional report"
+
+  - id: emotional-stakes
+    name: Emotional stakes
+    values:
+      celebratory:  "Contract win, milestone, partner-highlight, new hire"
+      informative:  "News, evergreen, methodology post"
+      somber:       "Memorial, retraction, post-incident learning"
+
+# -- Cross-references ---------------------------------------------------------
+
+cross_references:
+  content_guide: skylight-hub/standards/content-guide.md
+  content_guide_section: voice-and-tone
+  rendered_url: https://skylight.digital/work/toolkits/content-guide/voice-and-tone/
+  channel_writer_consumers:
+    - skylight-marcom/plugins/skylight-case-study-writer
+    - skylight-marcom/plugins/skylight-spotlight-writer
+    - skylight-marcom/plugins/skylight-social-post-writer
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/voice-tone.md
+  template: brand_voice_tone

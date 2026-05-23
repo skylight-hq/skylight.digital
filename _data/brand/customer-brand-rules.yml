@@ -1,0 +1,133 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/customer-brand-rules.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/customer-brand-rules.yml
+# source_branch: main
+# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
+# synced_at: 2026-05-23T22:18:50Z
+---
+# Customer brand handling — meta rules + per-client status registry.
+#
+# The Skylight Brand Guidelines (Version 5) appendices carry ~30-40 pages
+# of brand specifics per customer/partner — DoD, USAF, CMS, VA, CDC, and
+# others. Per-client packs live in their respective per-client marketplaces
+# (skylight-hub-<client>); this file in the hub-resident brand-pack holds
+# only the *meta* rules for handling customer brand + a registry of
+# per-client extraction status.
+#
+# Per-client appendix extraction is a follow-up backlog tracked as one
+# migration per client. The first per-client extraction becomes the
+# template for the rest.
+
+meta:
+  schema_version: 1
+  source: "Skylight Brand Guidelines (Version 5), Appendices section"
+  synced_at: "2026-05-23"
+
+# -- Meta rules for customer brand handling -----------------------------------
+
+meta_rules:
+
+  - id: defer-to-client-brand
+    rule: |
+      When producing artifacts that ship under a customer's brand, defer
+      to the customer's brand guidelines. Skylight branding appears only
+      where Skylight is named as a vendor / partner / source.
+    examples:
+      - "USAF-branded landing pages → USAF brand applies; Skylight credit is a small footer."
+      - "CDC research-summary deliverable → CDC brand applies; Skylight authored-by-line."
+
+  - id: co-branding-allowed
+    rule: |
+      Co-branding (Skylight logo + customer logo side-by-side) is
+      acceptable on:
+        - Case studies on skylight.digital (Skylight-owned surface)
+        - Joint announcements where both parties have approved the framing
+        - Trade-show booths / event presence where Skylight is named as a
+          named partner
+    not_allowed: |
+      Co-branding is NOT acceptable on customer-owned surfaces (customer
+      websites, customer-branded deliverables) without explicit written
+      approval from the customer's brand owner.
+
+  - id: trademarks-honored
+    rule: |
+      All customer trademarks (™, ®) are honored on first mention. If a
+      customer's brand guide specifies particular trademark indicators
+      on subsequent mentions, follow that.
+
+  - id: escalation-path
+    rule: |
+      When customer brand requirements conflict with Skylight brand
+      requirements (e.g., customer requires unauthorized colors), escalate
+      to the engagement lead + Skylight brand lead before producing the
+      artifact. Document the resolution in the engagement's brand-decisions
+      log.
+
+# -- Per-client extraction status registry ------------------------------------
+#
+# Status values:
+#   not-yet-extracted   The customer's appendix has not been moved out of the PDF.
+#   stub                A minimal placeholder exists in the per-client pack.
+#   partial             Some rules extracted; others still in PDF.
+#   complete            Full extraction; per-client pack is canon.
+#
+# Use this list to answer "which customers have full brand packs?"
+
+per_client_pack_status:
+  - id: usaf
+    name: U.S. Air Force
+    status: not-yet-extracted
+    per_client_marketplace: skylight-hub-usaf
+    appendix_pages_estimated: 35
+    extraction_migration: skylight-hub/migrations/usaf-brand-pack-extraction.md
+    notes: "First extraction; establishes the per-client template."
+
+  - id: cms
+    name: Centers for Medicare & Medicaid Services
+    status: not-yet-extracted
+    per_client_marketplace: skylight-hub-cms
+    appendix_pages_estimated: 30
+    extraction_migration: null
+    notes: "Marketplace doesn't exist yet — extraction blocked on marketplace spawn."
+
+  - id: va
+    name: Department of Veterans Affairs
+    status: not-yet-extracted
+    per_client_marketplace: skylight-hub-va
+    appendix_pages_estimated: 40
+    extraction_migration: null
+    notes: "Marketplace doesn't exist yet."
+
+  - id: cdc
+    name: Centers for Disease Control and Prevention
+    status: not-yet-extracted
+    per_client_marketplace: skylight-hub-cdc
+    appendix_pages_estimated: 35
+    extraction_migration: null
+    notes: "Marketplace doesn't exist yet."
+
+  - id: dod
+    name: U.S. Department of Defense
+    status: not-yet-extracted
+    per_client_marketplace: skylight-hub-dod
+    appendix_pages_estimated: 25
+    extraction_migration: null
+    notes: |
+      Marketplace doesn't exist yet. DoD overlap with USAF appendix —
+      USAF extraction may resolve some shared rules; remaining specifics
+      go to DoD's own pack when its marketplace spawns.
+
+# -- Cross-references ---------------------------------------------------------
+
+cross_references:
+  proposal: skylight-hub/proposals/active/skylight-marcom-spoke.md
+  per_client_marketplace_naming: skylight-hub/standards/naming-conventions.md
+  brand_canon: skylight-hub/plugins/skylight-brand-pack/
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/customer-brand-rules.md
+  template: brand_customer_rules

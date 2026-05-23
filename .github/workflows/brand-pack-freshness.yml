@@ -1,0 +1,78 @@
+name: brand-pack-freshness
+
+# Fails the build if any vendored `_data/brand/*.yml` file's `synced_at`
+# header is more than 30 days old. Forces sync attention; prevents silent
+# drift between the brand-pack canon in skylight-hub and this repo's
+# vendored copy.
+#
+# Threshold: 30 days. Same convention applied across the federation for
+# vendored-copy sync (filters-pack uses the same on the hub side).
+
+on:
+  pull_request:
+    paths:
+      - '_data/brand/**'
+      - '.github/workflows/brand-pack-freshness.yml'
+      - '.github/workflows/sync-brand-pack.yml'
+  push:
+    branches: [master]
+    paths:
+      - '_data/brand/**'
+  schedule:
+    # Daily 02:00 UTC — catches the case where the weekly sync workflow
+    # hasn't run (e.g., GH Actions outage) and the vendored copy is aging.
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    env:
+      MAX_AGE_DAYS: 30
+      DATA_DIR: _data/brand
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check synced_at across vendored brand-pack files
+        run: |
+          set -euo pipefail
+          now=$(date -u +%s)
+          max_age_seconds=$((MAX_AGE_DAYS * 24 * 60 * 60))
+          stale=0
+          for f in "$DATA_DIR"/*.yml; do
+            synced=$(grep -E '^# synced_at:' "$f" | head -1 | sed -E 's/^# synced_at:[[:space:]]*//')
+            if [ -z "$synced" ]; then
+              echo "FAIL $f — no `# synced_at:` header found"
+              stale=$((stale + 1))
+              continue
+            fi
+            synced_seconds=$(date -u -d "$synced" +%s 2>/dev/null || true)
+            if [ -z "$synced_seconds" ]; then
+              # macOS-style fallback (rare on ubuntu-latest but defensive)
+              synced_seconds=$(date -u -j -f "%Y-%m-%dT%H:%M:%SZ" "$synced" +%s 2>/dev/null || echo 0)
+            fi
+            if [ "$synced_seconds" = "0" ]; then
+              echo "FAIL $f — unparseable synced_at: $synced"
+              stale=$((stale + 1))
+              continue
+            fi
+            age=$((now - synced_seconds))
+            age_days=$((age / 86400))
+            if [ "$age" -gt "$max_age_seconds" ]; then
+              echo "STALE $f — synced_at=$synced (${age_days} days ago, > ${MAX_AGE_DAYS}d threshold)"
+              stale=$((stale + 1))
+            else
+              echo "ok    $f — synced_at=$synced (${age_days} days ago)"
+            fi
+          done
+          if [ "$stale" -gt 0 ]; then
+            echo ""
+            echo "${stale} file(s) stale or unparseable."
+            echo "Run the 'sync-brand-pack' workflow (Actions → sync-brand-pack → Run workflow)"
+            echo "to pull the latest from skylight-hub."
+            exit 1
+          fi
+          echo ""
+          echo "all _data/brand/ files within ${MAX_AGE_DAYS}-day freshness threshold."

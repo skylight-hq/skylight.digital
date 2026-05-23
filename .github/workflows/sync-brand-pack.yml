@@ -1,0 +1,142 @@
+name: sync-brand-pack
+
+# Keeps _data/brand/*.yml in sync with the canonical
+# skylight-hub/plugins/skylight-brand-pack/config/*.yml. If contents diverge,
+# opens a single PR with the changed files and refreshed sync headers. If
+# nothing changed, the run is a no-op.
+#
+# Mirrors the sync-website-filters.yml pattern in skylight-hub, with the
+# direction reversed (this repo fetches FROM hub instead of being fetched BY
+# hub).
+#
+# Source repo is public — no token beyond the default GITHUB_TOKEN needed.
+
+on:
+  schedule:
+    # Mondays at 14:00 UTC (~10am ET) — brand changes are quarterly at most;
+    # weekly polling is overkill but matches the filters-pack cadence for
+    # operator-familiarity.
+    - cron: '0 14 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      SOURCE_REPO: skylight-hq/skylight-hub
+      DEST_DIR: _data/brand
+      SOURCE_DIR: plugins/skylight-brand-pack/config
+      FILES: colors.yml typography.yml logo-rules.yml voice-tone.yml brand-narrative.yml illustration.yml customer-brand-rules.yml
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve source default branch + SHA
+        id: src
+        run: |
+          BRANCH=$(gh api repos/${SOURCE_REPO} --jq '.default_branch')
+          SHA=$(gh api repos/${SOURCE_REPO}/branches/${BRANCH} --jq '.commit.sha')
+          echo "branch=${BRANCH}" >> "$GITHUB_OUTPUT"
+          echo "sha=${SHA}"       >> "$GITHUB_OUTPUT"
+          echo "Source: ${SOURCE_REPO}@${BRANCH} (${SHA})"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch + rewrite each mirrored file
+        id: fetch
+        run: |
+          set -euo pipefail
+          BRANCH="${{ steps.src.outputs.branch }}"
+          SHA="${{ steps.src.outputs.sha }}"
+          SYNCED_AT=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
+          mkdir -p "$DEST_DIR"
+          changed_files=()
+          skipped_files=()
+          for f in $FILES; do
+            URL="https://raw.githubusercontent.com/${SOURCE_REPO}/${SHA}/${SOURCE_DIR}/${f}"
+            echo "Fetching $URL"
+            http_code=$(curl -s -o "/tmp/${f}.body" -w '%{http_code}' "$URL")
+            if [ "$http_code" = "404" ]; then
+              echo "  -> 404; skipping (upstream file not yet present)"
+              skipped_files+=("$f")
+              continue
+            fi
+            if [ "$http_code" != "200" ]; then
+              echo "  -> HTTP $http_code; aborting"
+              exit 1
+            fi
+            BODY=$(cat "/tmp/${f}.body")
+            DEST="${DEST_DIR}/${f}"
+            {
+              echo "# This file is a mirror of skylight-hub/${SOURCE_DIR}/${f}."
+              echo "# Synced via .github/workflows/sync-brand-pack.yml."
+              echo "# Do not edit by hand — edits get clobbered on next sync."
+              echo "# source_repo: ${SOURCE_REPO}"
+              echo "# source_path: ${SOURCE_DIR}/${f}"
+              echo "# source_branch: ${BRANCH}"
+              echo "# source_sha: ${SHA}"
+              echo "# synced_at: ${SYNCED_AT}"
+              echo "---"
+              printf '%s\n' "$BODY"
+            } > "/tmp/${f}.new"
+
+            # Body-only diff so synced_at changes don't generate PRs.
+            if [ -f "$DEST" ]; then
+              OLD_BODY=$(awk 'BEGIN{drop=1} /^---$/ && drop {drop=0; next} !drop' "$DEST")
+              NEW_BODY="$BODY"
+              if [ "$OLD_BODY" = "$NEW_BODY" ]; then
+                echo "  -> body unchanged; not rewriting (preserves existing synced_at)"
+                continue
+              fi
+            fi
+
+            mv "/tmp/${f}.new" "$DEST"
+            changed_files+=("$f")
+            echo "  -> updated $DEST"
+          done
+
+          if [ ${#changed_files[@]} -eq 0 ]; then
+            echo "any_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "any_changed=true" >> "$GITHUB_OUTPUT"
+            printf '%s\n' "${changed_files[@]}" > /tmp/changed.txt
+          fi
+          if [ ${#skipped_files[@]} -ne 0 ]; then
+            printf '%s\n' "${skipped_files[@]}" > /tmp/skipped.txt
+          fi
+
+      - name: Open / update PR with changes
+        if: steps.fetch.outputs.any_changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: sync/brand-pack
+          commit-message: |
+            chore(brand-pack): sync from skylight-hub@${{ steps.src.outputs.sha }}
+          title: "chore: sync brand-pack from skylight-hub"
+          body: |
+            Automated sync of `_data/brand/*.yml` from
+            `${{ env.SOURCE_REPO }}@${{ steps.src.outputs.branch }}`
+            (`${{ steps.src.outputs.sha }}`).
+
+            Review the diff to confirm the brand change is intentional. If
+            the source change is wrong, fix it upstream — this PR will pick
+            up the corrected version on the next sync.
+
+            See [`_data/brand/README.md`](https://github.com/skylight-hq/skylight.digital/blob/master/_data/brand/README.md)
+            for the sync convention.
+          labels: |
+            sync
+            brand-pack
+
+      - name: No-op summary
+        if: steps.fetch.outputs.any_changed != 'true'
+        run: |
+          echo "No diff in brand-pack content; nothing to PR."
+          if [ -f /tmp/skipped.txt ]; then
+            echo "Skipped (upstream 404):"
+            cat /tmp/skipped.txt
+          fi
