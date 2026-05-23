@@ -4448,7 +4448,7 @@
   position: Staff Software Engineer
   bio: |
     Andrew's a software engineer with a long history of rapid prototyping to help explore a problem space. Andrew prides himself on reaching into an extensive bag of tricks and bringing solutions from a myriad of domains ranging from robotics to game design. Andrew believes that learning new things helps to find new ways to look at unrelated problems.
-  active: true
+  active: false
   order: 1560
   socials:
     - name: LinkedIn
