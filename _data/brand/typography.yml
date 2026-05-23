@@ -1,0 +1,96 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/typography.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/typography.yml
+# source_branch: main
+# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
+# synced_at: 2026-05-23T22:18:50Z
+---
+# Skylight brand typography — canonical data.
+#
+# Sourced from skylight.digital/pages/company/brand/identity/typography.md
+# and the Skylight Brand Guidelines (Version 5).
+
+meta:
+  schema_version: 1
+  source: skylight.digital/pages/company/brand/identity/typography.md
+  synced_at: "2026-05-23"
+
+# -- Type families ------------------------------------------------------------
+
+families:
+
+  primary:
+    name: Libre Franklin
+    role: Primary brand typeface
+    source: https://fonts.google.com/specimen/Libre+Franklin
+    license: SIL Open Font License 1.1
+    fallback_stack: |
+      "Libre Franklin", "Helvetica Neue", Arial, sans-serif
+    weights:
+      - { weight: 300, name: Light }
+      - { weight: 400, name: Regular }
+      - { weight: 500, name: Medium }
+      - { weight: 600, name: SemiBold }
+      - { weight: 700, name: Bold }
+    italics:
+      - { weight: 300, name: "Light Italic" }
+    use_for:
+      - Headings (all levels)
+      - Body copy
+      - UI text
+      - Captions
+
+  monospace:
+    name: Roboto Mono
+    role: Complementary mono typeface
+    source: https://fonts.google.com/specimen/Roboto+Mono
+    license: Apache License 2.0
+    fallback_stack: |
+      "Roboto Mono", Menlo, Monaco, "Courier New", monospace
+    weights:
+      - { weight: 400, name: Regular }
+    use_for:
+      - Code samples
+      - Attribution / metadata lines
+      - Technical specs
+
+# -- Scale recommendations ----------------------------------------------------
+#
+# These are recommendations not absolutes — the website's stylesheet has
+# the production values; this list is what channel writers reference when
+# they need to know what type sizes Skylight uses.
+
+scale:
+  display:    { rem: 4.0, weight: 500, line_height: 1.1 }
+  heading_1:  { rem: 2.6, weight: 500, line_height: 1.2 }
+  heading_2:  { rem: 2.15, weight: 600, line_height: 1.25 }
+  heading_3:  { rem: 1.7, weight: 700, line_height: 1.3 }
+  body:       { rem: 1.0, weight: 400, line_height: 1.6 }
+  small:      { rem: 0.875, weight: 400, line_height: 1.5 }
+  kicker:     { rem: 1.0, weight: 400, line_height: 1.4, transform: uppercase, tracking: 0.05 }
+
+# -- Acquisition --------------------------------------------------------------
+#
+# Both fonts are open-licensed and available from Google Fonts. No
+# font binaries are committed to this repo; the website loads them
+# from the Google Fonts CDN at build time. See assets/fonts/README.md
+# for details.
+
+acquisition:
+  primary:
+    - "Google Fonts: https://fonts.google.com/specimen/Libre+Franklin"
+  monospace:
+    - "Google Fonts: https://fonts.google.com/specimen/Roboto+Mono"
+  notes: |
+    Skylight does NOT commit licensed font binaries to any repo. Both
+    Libre Franklin and Roboto Mono are open-licensed (OFL 1.1 and
+    Apache 2.0 respectively) but the canonical acquisition path is
+    Google Fonts. The website CSS loads them via the Google Fonts API.
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/typography.md
+  template: brand_typography
