@@ -17,29 +17,28 @@ project_members:
   - maya-benari
   - zoe-do
 technologies:
-  - HTML / CSS
-  - JavaScript
-  - Jekyll
-  - U.S. Web Design System
-  - Sketch
-  - Figma
-  - Trello
+  - "HTML"
+  - "CSS"
+  - "JavaScript"
+  - "Jekyll"
+  - "U.S. Web Design System"
+  - "Sketch"
+  - "Figma"
+  - "Trello"
 practices:
-  - Product management
-  - Lean startup
-  - User research
-  - User experience design
-  - Visual design
-  - Design system
-  - Content strategy
-  - Content design
-  - Plain-language writing
-  - Persona development
-  - Usability testing
-  - Responsive web design
-  - Accessibility design
-  - Agile development
-  - Rapid prototyping
+  - "Product management"
+  - "Lean startup"
+  - "User research"
+  - "User experience design"
+  - "Visual design"
+  - "Design system"
+  - "Content design"
+  - "Persona development"
+  - "Usability testing"
+  - "Responsive design"
+  - "Accessibility design"
+  - "Agile development"
+  - "Rapid prototyping"
 news_posts:
 project_url:
 project_cta:

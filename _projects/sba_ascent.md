@@ -11,33 +11,36 @@ feature_image_shadow:
 order: 2700
 display: true
 tags:
-  - "service delivery"
-  - "devops"
-  - "cloud & platforms"
-  - "apis"
-  - "economic development"
-  - "andrew wagner"
+  - "Service delivery"
+  - "DevOps"
+  - "Cloud & platforms"
+  - "APIs"
+  - "Economic development"
 excerpt: "A digital learning platform that gives female entrepreneurs free, self-paced access to business growth resources backed by research."
 project_members:
   - andrew-wagner
 technologies:
-  - "HTML / CSS"
+  - "HTML"
+  - "CSS"
   - "Brightspot CMS"
-  - "Ruby / Rails"
-  - "JavaScript / React / Redux"
+  - "Ruby"
+  - "Ruby on Rails"
+  - "JavaScript"
+  - "React"
+  - "Redux"
   - "Semantic UI"
-  - "APIs"
   - "Amazon Web Services"
   - "Docker"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
   - "Lean startup"
   - "Agile development"
-  - "REST API wrapper"
+  - "API design"
   - "DevOps"
   - "Open-source development"
   - "Cloud hosting"
-  - "Virtual teams"
+  - "Virtual collaboration"
 news_posts:
   - title: "SBA Launches New, Free Online Digital Learning Platform"
     url: https://www.sba.gov/article/2021/jan/11/sba-launches-new-free-online-digital-learning-platform

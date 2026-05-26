@@ -13,24 +13,21 @@ feature_image_shadow:
 order: 4000
 display: true
 tags:
-  - "training"
-  - "microconsulting"
-  - "coaching & training"
-  - "social safety net"
-  - "robert read"
-  - "chris cairns"
+  - "Training"
+  - "Microconsulting"
+  - "Coaching & training"
+  - "Social safety net"
 excerpt: "Before founding Skylight, Robert Read and Chris Cairns helped turn around a troubled Social Security Administration modernization program through an intensive agile micro-sprint workshop."
 project_members:
   - robert-read
   - chris-cairns
-technologies:
-  - "Existing technology stack"
+technologies: []
 practices:
-  - "Agile workshop facilitation"
-  - "User-centered design"
+  - "Agile development"
+  - "User experience design"
   - "Scrum framework"
   - "Team building"
-  - "Training and coaching"
+  - "Coaching and training"
 news_posts:
 project_url:
 project_cta:

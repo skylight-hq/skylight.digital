@@ -21,25 +21,28 @@ project_members:
   - robert-read
   - chris-cairns
 technologies:
-  - HTML / CSS / Sass
-  - JavaScript
-  - U.S. Web Design System
-  - Balsamiq
-  - YAML
-  - GitHub Pages
-  - Jekyll
-  - Git / GitHub
-  - OAuth
+  - "HTML"
+  - "CSS"
+  - "Sass"
+  - "JavaScript"
+  - "U.S. Web Design System"
+  - "Balsamiq"
+  - "YAML"
+  - "GitHub Pages"
+  - "Jekyll"
+  - "Git"
+  - "GitHub"
+  - "OAuth"
 practices:
-  - User research
-  - User experience design
-  - Design system
-  - Lean startup
-  - Agile development
-  - Rapid prototyping
-  - Open-source development
-  - Identity and access management
-  - API governance
+  - "User research"
+  - "User experience design"
+  - "Design system"
+  - "Lean startup"
+  - "Agile development"
+  - "Rapid prototyping"
+  - "Open-source development"
+  - "Identity and access management"
+  - "API design"
 news_posts:
 project_url: https://skylight-hq.github.io/va-api-scorecard/
 project_cta: See the site

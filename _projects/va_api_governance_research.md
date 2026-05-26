@@ -18,13 +18,14 @@ project_members:
   - kin-lane
   - chris-cairns
 technologies:
-  - Zoom
-  - Google Workspace
-  - Git / GitHub
+  - "Zoom"
+  - "Google Workspace"
+  - "Git"
+  - "GitHub"
 practices:
-  - Primary research
-  - Secondary research
-  - Research analysis and synthesis
+  - "Primary research"
+  - "Secondary research"
+  - "Research analysis and synthesis"
 news_posts:
 project_url: https://github.com/skylight-hq/VA-Micropurchase-Repo/blob/master/2018-06-06_Governance_%20Models_in_Public_and_Private_Sector/Deliverables/Skylight/skylight_api_governance_research_report.md
 project_cta: See the report

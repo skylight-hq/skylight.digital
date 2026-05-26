@@ -11,14 +11,12 @@ feature_image_shadow:
 order: 3700
 display: true
 tags:
-  - "microconsulting"
-  - "software delivery"
-  - "devops"
-  - "legacy modernization"
-  - "procurement"
-  - "environment"
-  - "josh dorothy"
-  - "chris given"
+  - "Microconsulting"
+  - "Software delivery"
+  - "DevOps"
+  - "Legacy modernization"
+  - "Procurement"
+  - "Environment"
 excerpt: "Helped the Environmental Protection Agency assess an at-risk modernization effort and identify a clearer path forward."
 project_members:
   - josh-dorothy
@@ -27,8 +25,7 @@ technologies:
   - "Google Workspace"
 practices:
   - "Workshop facilitation"
-  - "Information gathering"
-  - "Analysis and synthesis"
+  - "Research analysis and synthesis"
   - "Consulting"
 news_posts:
 project_url:

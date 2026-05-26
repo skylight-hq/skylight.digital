@@ -13,13 +13,11 @@ feature_image_shadow:
 order: 3300
 display: true
 tags:
-  - "transformation"
-  - "devops"
-  - "cloud & platforms"
-  - "security & privacy"
-  - "homeland security"
-  - "chris cairns"
-  - "shashank khandelwal"
+  - "Transformation"
+  - "DevOps"
+  - "Cloud & platforms"
+  - "Security & privacy"
+  - "Homeland security"
 excerpt: "Before starting Skylight, Chris Cairns and Shashank Khandelwal helped the Transportation Security Administration accelerate its transition to a cloud-based operating model."
 project_members:
   - chris-cairns
@@ -30,15 +28,16 @@ technologies:
   - "Octopus Deploy"
   - "Jenkins"
   - "Splunk"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
-  - "Agile cloud migration"
+  - "Agile development"
   - "Hybrid-cloud architecture"
   - "Infrastructure as code"
   - "Continuous integration"
   - "Deployment automation"
   - "Security controls automation"
-  - "Training and coaching"
+  - "Coaching and training"
   - "Civic recruiting"
 news_posts:
   - title: "A Culture of Innovation Is Key to TSA's Cloud Strategy"
