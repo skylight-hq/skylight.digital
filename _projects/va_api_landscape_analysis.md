@@ -11,7 +11,11 @@ feature_image:
 feature_image_description:
 order: 3500
 display: true
-tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns, robert read]
+tags:
+  - "Microconsulting"
+  - "APIs"
+  - "Open government"
+  - "Veterans"
 excerpt: A two-sided map of the VA's public data surface and what veterans actually need — and a prioritized list of which datasets would be most valuable to turn into APIs.
 project_members:
   - kin-lane

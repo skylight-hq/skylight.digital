@@ -12,7 +12,11 @@ feature_image_description: Walkthrough of the VA API Scorecard prototype.
 feature_image_shadow: true
 order: 3000
 display: true
-tags: [microconsulting, apis, open government, veterans, victor zapanta, nick bristow, kin lane, robert read, chris cairns]
+tags:
+  - "Microconsulting"
+  - "APIs"
+  - "Open government"
+  - "Veterans"
 excerpt: A minimum viable product the VA could use to start running real governance conversations across its growing API portfolio.
 project_members:
   - victor-zapanta
