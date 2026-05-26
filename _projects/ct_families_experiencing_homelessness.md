@@ -11,13 +11,11 @@ feature_image_shadow:
 order: 2200
 display: true
 tags:
-  - "research & design"
-  - "product management"
-  - "early childhood"
-  - "social safety net"
-  - "data & analytics"
-  - "lara kohl"
-  - "gabriel ramirez"
+  - "Research & design"
+  - "Product management"
+  - "Early childhood"
+  - "Social safety net"
+  - "Data & analytics"
 excerpt: "Identified gaps in how Connecticut tracks and supports families experiencing homelessness and designed a more effective, data-driven approach to prioritizing services."
 project_members:
   - lara-kohl

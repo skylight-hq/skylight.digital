@@ -11,20 +11,19 @@ feature_image_shadow:
 order: 2300
 display: true
 tags:
-  - "service delivery"
-  - "data & analytics"
-  - "open government"
-  - "cailyn hansen"
-  - "colin craig"
-  - "gabriel ramirez"
+  - "Service delivery"
+  - "Data & analytics"
+  - "Open government"
 excerpt: "A centralized, open-source analytics dashboard that gives Connecticut agencies and the public real-time insight into how government websites are used."
 project_members:
   - cailyn-hansen
   - colin-craig
   - gabriel-ramirez
 technologies:
-  - "HTML / CSS / SVG"
-  - "JavaScript / JSON"
+  - "HTML"
+  - "CSS"
+  - "SVG"
+  - "JavaScript"
   - "Amazon S3"
   - "Amazon CloudFront"
   - "Google Analytics"
@@ -33,7 +32,6 @@ practices:
   - "Agile development"
   - "Open-source development"
   - "Cloud hosting"
-  - "Third-party integration"
 news_posts:
 project_url: https://analytics.ct.gov/
 project_cta: "See the site"
