@@ -11,15 +11,12 @@ feature_image_shadow:
 order: 1180
 display: true
 tags:
-  - "transformation"
-  - "research & design"
-  - "cloud & platforms"
-  - "coaching & training"
-  - "defense"
-  - "air force"
-  - "charlye tran"
-  - "olivia lucas"
-  - "laura kerry"
+  - "Transformation"
+  - "Research & design"
+  - "Cloud & platforms"
+  - "Coaching & training"
+  - "Defense"
+  - "Air Force"
 excerpt: "Using service design to diagnose why the U.S. Air Force Weather Systems Program Office’s cloud migration had stalled — and building the organizational capacity to get it moving again."
 project_members:
   - laura-kerry
@@ -35,8 +32,8 @@ practices:
   - "User research"
   - "Service blueprinting"
   - "Consulting"
-  - "Coaching & training"
-  - "Pairing"
+  - "Coaching and training"
+  - "Pair programming"
   - "Capability development"
 news_posts:
   - title: "Hanscom team to launch new DOD weather portal"

@@ -11,17 +11,13 @@ feature_image_shadow:
 order: 2000
 display: true
 tags:
-  - "research & design"
-  - "software delivery"
-  - "devops"
-  - "cloud & platforms"
-  - "security & privacy"
-  - "defense"
-  - "air force"
-  - "lucas newman"
-  - "jesse skeets"
-  - "adam weber"
-  - "gianna buda"
+  - "Research & design"
+  - "Software delivery"
+  - "DevOps"
+  - "Cloud & platforms"
+  - "Security & privacy"
+  - "Defense"
+  - "Air Force"
 excerpt: "A mobile application starter kit that gave U.S. Air Force software teams pre-vetted templates, tooling, and documentation to ship production-quality apps faster."
 project_members:
   - lucas-newman
@@ -30,11 +26,11 @@ project_members:
   - gianna-buda
 technologies:
   - "Flutter"
-  - "Express"
+  - "Express.js"
   - "React"
   - "Keycloak"
   - "Terraform"
-  - "AWS (Cloud One)"
+  - "Amazon Web Services"
 practices:
   - "Lean startup"
   - "User research"

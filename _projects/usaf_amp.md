@@ -11,15 +11,11 @@ feature_image_shadow:
 order: 2100
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "software delivery"
-  - "defense"
-  - "air force"
-  - "lucas newman"
-  - "jesse skeets"
-  - "adam weber"
-  - "gianna buda"
+  - "Service delivery"
+  - "Research & design"
+  - "Software delivery"
+  - "Defense"
+  - "Air Force"
 excerpt: "A digital application that simplifies and automates base inprocessing for airmen and the staff who support them."
 project_members:
   - lucas-newman
@@ -27,13 +23,15 @@ project_members:
   - adam-weber
   - gianna-buda
 technologies:
-  - "HTML / CSS"
+  - "HTML"
+  - "CSS"
   - "Material-UI"
   - "Flutter"
-  - "Express"
+  - "Express.js"
   - "React"
   - "Keycloak"
-  - "AWS / Terraform"
+  - "Amazon Web Services"
+  - "Terraform"
 practices:
   - "Lean startup"
   - "User research"

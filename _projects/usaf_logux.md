@@ -11,31 +11,31 @@ feature_image_shadow:
 order: 2150
 display: false
 tags:
-  - "service delivery"
-  - "research & design"
-  - "legacy modernization"
-  - "defense"
-  - "air force"
-  - "zack gehin"
-  - "charlye tran"
+  - "Service delivery"
+  - "Research & design"
+  - "Legacy modernization"
+  - "Defense"
+  - "Air Force"
 excerpt: "A prototype platform for digitizing aircraft maintenance documentation, designed to replace error-prone paper workflows for U.S. Air Force flightline maintainers."
 project_members:
   - zack-gehin
   - charlye-tran
 technologies:
-  - "Google Material Design"
-  - "JavaScript / React / Redux"
-  - "Java / Spring Boot"
-  - "SOAP API"
+  - "Material Design"
+  - "JavaScript"
+  - "React"
+  - "Redux"
+  - "Java"
+  - "Spring Boot"
+  - "SOAP"
 practices:
   - "User research"
   - "Technical discovery"
   - "User experience design"
   - "Design system"
-  - "Custom design system"
   - "Responsive design"
-  - "Accessibility"
-  - "Virtual teams"
+  - "Accessibility design"
+  - "Virtual collaboration"
 news_posts:
   - title: "BRICE app simplifies maintenance action, saves time"
     url: https://www.af.mil/News/Article-Display/Article/1725511/brice-app-simplifies-maintenance-action-saves-time/

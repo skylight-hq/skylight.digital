@@ -11,19 +11,14 @@ feature_image_shadow:
 order: 500
 display: true
 tags:
-  - "transformation"
-  - "research & design"
-  - "product management"
-  - "legacy modernization"
-  - "cloud & platforms"
-  - "coaching & training"
-  - "defense"
-  - "air force"
-  - "taylor graue"
-  - "holly dewolf"
-  - "jennifer herzberg"
-  - "laura kerry"
-  - "kyle planeaux"
+  - "Transformation"
+  - "Research & design"
+  - "Product management"
+  - "Legacy modernization"
+  - "Cloud & platforms"
+  - "Coaching & training"
+  - "Defense"
+  - "Air Force"
 excerpt: "Embedding designers and product managers within the U.S. Air Force’s WARPspeed software factory to build the internal design capability needed for modern weather applications."
 project_members:
   - taylor-graue
@@ -44,16 +39,15 @@ technologies:
   - "Jira"
 practices:
   - "User research"
-  - "Product design"
-  - "Content design"
   - "Visual design"
+  - "Content design"
   - "Accessibility design"
-  - "Agile product management"
+  - "Agile development"
   - "Design system"
   - "Capability development"
   - "Consulting"
-  - "Coaching & training"
-  - "Pairing"
+  - "Coaching and training"
+  - "Pair programming"
   - "Workshop facilitation"
 news_posts:
   - title: "BESPIN awards contracts with REMIS, WARPspeed for design studio services"
