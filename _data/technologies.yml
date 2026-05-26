@@ -389,6 +389,11 @@ technologies:
     display_name: Liquibase
     category: data
 
+  - id: metabase
+    display_name: Metabase
+    category: data
+    notes: Open-source BI / data-analytics tool.
+
   # ============================================================
   # API tools + protocols
   # ============================================================
@@ -419,6 +424,18 @@ technologies:
   - id: websockets
     display_name: WebSockets
     category: api
+
+  - id: xmpp
+    display_name: XMPP
+    category: api
+    notes: Extensible Messaging and Presence Protocol (XML-based chat).
+
+  - id: api-umbrella
+    display_name: API Umbrella
+    category: api
+    notes: |
+      API management platform originating with USDS. Used in case studies
+      that fronted federal APIs (e.g., NASA Open Data, VA APIs).
 
   # ============================================================
   # Identity + auth
@@ -509,6 +526,22 @@ technologies:
     display_name: Chromatic
     category: testing
 
+  - id: jasmine
+    display_name: Jasmine
+    category: testing
+
+  - id: karma
+    display_name: Karma
+    category: testing
+    notes: |
+      JavaScript test runner. Distinct from the unrelated Apache Karma
+      project; in case studies, refers to the JS test runner.
+
+  - id: supertest
+    display_name: Supertest
+    category: testing
+    aliases: [SuperTest]
+
   # ============================================================
   # Security + observability
   # ============================================================
@@ -524,6 +557,12 @@ technologies:
   - id: dependabot
     display_name: Dependabot
     category: security
+
+  - id: tfsec
+    display_name: tfsec
+    category: security
+    aliases: [TfSec]
+    notes: Terraform configuration security scanner.
 
   - id: splunk
     display_name: Splunk
@@ -666,6 +705,15 @@ technologies:
     category: mobile
 
   # ============================================================
+  # Web servers + reverse proxies
+  # ============================================================
+
+  - id: nginx
+    display_name: NGINX
+    category: web-server
+    aliases: [nginx, Nginx]
+
+  # ============================================================
   # Specialized / domain
   # ============================================================
 
@@ -678,6 +726,16 @@ technologies:
     display_name: MEMS
     category: domain-standard
     notes: Microelectromechanical systems; IoT hardware context.
+
+  - id: caseworthy
+    display_name: Caseworthy
+    category: domain-vendor
+    notes: Case-management software for social-services delivery.
+
+  - id: rhapsody
+    display_name: Rhapsody
+    category: domain-vendor
+    notes: Orion Health healthcare-integration platform (HL7 / FHIR routing).
 
 # ============================================================
 # Migration notes — entries from case studies on `main` (2026-05-20)
