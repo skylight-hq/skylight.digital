@@ -13,25 +13,22 @@ feature_image_shadow:
 order: 4500
 display: true
 tags:
-  - "service delivery"
-  - "apis"
-  - "open government"
-  - "kin lane"
+  - "Service delivery"
+  - "APIs"
+  - "Open government"
 excerpt: "A civic crowdsourcing model that enabled developers and organizations to improve government datasets and transform them into usable APIs."
 project_members:
   - kin-lane
 technologies:
-  - "APIs"
   - "OpenAPI Specification"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
   - "GitHub Pages"
   - "Jekyll"
   - "YAML"
 practices:
   - "API design"
   - "API deployment"
-  - "API management"
-  - "Civic crowdsourcing"
 news_posts:
   - title: "Federal Agency Dataset Adoption"
     url: https://www.knightfoundation.org/grants/201551217/

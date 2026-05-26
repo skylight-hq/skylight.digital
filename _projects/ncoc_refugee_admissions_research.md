@@ -11,11 +11,10 @@ feature_image_shadow:
 order: 1700
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "homeland security"
-  - "citizenship & immigration"
-  - "lara kohl"
+  - "Service delivery"
+  - "Research & design"
+  - "Homeland security"
+  - "Citizenship & immigration"
 excerpt: "A user-centered research effort that produced a concrete roadmap — spanning policy, operations, and service design — for rebuilding the U.S. Refugee Admissions Program."
 project_members:
   - lara-kohl
@@ -24,14 +23,11 @@ technologies:
   - "Mural"
   - "Airtable"
   - "Zoom"
-  - "Excel"
 practices:
-  - "Policy research"
+  - "Secondary research"
   - "Service design"
   - "User research"
-  - "Trauma-informed interviewing"
-  - "Stakeholder interviews"
-  - "Quantitative analysis"
+  - "User interviews"
 news_posts:
   - title: "A human-centered approach to rebuilding the U.S. Refugee Admission Program"
     url: https://skylight.digital/thoughts/blog/a-human-centered-approach-to-rebuilding-the-us-refugee-admission-program

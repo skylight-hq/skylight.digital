@@ -11,23 +11,19 @@ feature_image_shadow:
 order: 2500
 display: true
 tags:
-  - "microconsulting"
-  - "research & design"
-  - "nick bristow"
+  - "Microconsulting"
+  - "Research & design"
 excerpt: "Applied Web Content Accessibility Guidelines 2.0 to make the United Nations' 2019 Global Platform for Disaster Risk Reduction conference website accessible to persons with disabilities."
 project_members:
   - nick-bristow
 technologies:
-  - "Chrome Web Developer Toolkit"
-  - "Colour Contrast Analyzer"
-  - "Google Accessibility Audit Tools"
-  - "JavaScript / HTML"
-  - "Wave"
+  - "JavaScript"
+  - "HTML"
 practices:
-  - "WCAG 2.0"
-  - "Live redevelopment"
-  - "User testing"
-  - "User test scenarios"
+  - "Accessibility design"
+  - "Legacy modernization"
+  - "Usability testing"
+  - "User research"
 news_posts:
 project_url: https://www.unisdr.org/conference/2019/globalplatform/home
 project_cta: "See the site"

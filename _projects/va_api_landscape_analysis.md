@@ -18,21 +18,22 @@ project_members:
   - chris-cairns
   - robert-read
 technologies:
-  - Custom spidering script
-  - HTML / CSS / Sass
-  - JavaScript
-  - Twitter Bootstrap
-  - GitHub Pages / Jekyll
-  - Git / GitHub
-  - Amazon Web Services
-  - Mural
+  - "HTML"
+  - "CSS"
+  - "Sass"
+  - "JavaScript"
+  - "Bootstrap"
+  - "GitHub Pages"
+  - "Jekyll"
+  - "Git"
+  - "GitHub"
+  - "Amazon Web Services"
+  - "Mural"
 practices:
-  - Spidering
-  - Semantic analysis
-  - User research / KJ technique
-  - Workshop facilitation
-  - Research analysis and synthesis
-  - Design system
+  - "Research analysis and synthesis"
+  - "User research"
+  - "Workshop facilitation"
+  - "Design system"
 news_posts:
 project_url: https://skylight-hq.github.io/va-api-landscape/
 project_cta: See the report

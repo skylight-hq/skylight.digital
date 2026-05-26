@@ -13,12 +13,11 @@ feature_image_shadow:
 order: 4600
 display: true
 tags:
-  - "procurement"
-  - "microconsulting"
-  - "apis"
-  - "open government"
-  - "agriculture"
-  - "kin lane"
+  - "Procurement"
+  - "Microconsulting"
+  - "APIs"
+  - "Open government"
+  - "Agriculture"
 excerpt: "An advocacy effort that reshaped a USDA solicitation so the rebuilt Recreation.gov would expose its data through a public API — opening federal recreation data to mobile apps and third-party developers."
 project_members:
   - kin-lane
@@ -27,8 +26,6 @@ technologies:
   - "API Umbrella"
 practices:
   - "API design"
-  - "API management"
-  - "API service composition"
 news_posts:
   - title: "Advocates Call for Open Data in Outdoor Recreation"
     url: https://www.govtech.com/opinion/advocates-call-for-open-data-in-outdoor-recreation.html

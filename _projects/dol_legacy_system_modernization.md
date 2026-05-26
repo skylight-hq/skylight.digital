@@ -13,35 +13,31 @@ feature_image_shadow:
 order: 3600
 display: true
 tags:
-  - "procurement"
-  - "legacy modernization"
-  - "labor"
-  - "robert read"
-  - "chris cairns"
+  - "Procurement"
+  - "Legacy modernization"
+  - "Labor"
 excerpt: "Used code forensics and API prototyping to reduce risk and improve planning for a high-stakes legacy modernization at the Department of Labor."
 project_members:
   - robert-read
   - chris-cairns
 technologies:
-  - "HTML / CSS"
+  - "HTML"
+  - "CSS"
   - "JavaScript"
-  - "Twitter Bootstrap"
+  - "Bootstrap"
   - "Python"
-  - "APIs"
-  - "AJAX"
   - "SQLAlchemy"
-  - "DB2 / DB2 stored procedures"
+  - "DB2"
   - "Puppet"
-  - "Automated testing frameworks"
   - "Amazon Web Services"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
   - "Spike solutions"
   - "Rapid prototyping"
-  - "API encapsulation"
+  - "API design"
   - "Automated testing"
-  - "Artificial data"
-  - "Programmatic deployment scripts"
+  - "Deployment automation"
   - "Cloud hosting"
   - "Virtual collaboration"
 news_posts:

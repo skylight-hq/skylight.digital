@@ -11,8 +11,7 @@ feature_image_shadow:
 order: 1800
 display: true
 tags:
-  - "procurement"
-  - "chris cairns"
+  - "Procurement"
 excerpt: "We advised the Government of Canada's NextGen HR and Pay team on agile procurement practices, developing a reusable assessment framework to strengthen the team's approach to replacing the failed Phoenix pay system."
 project_members:
   - chris-cairns
@@ -21,11 +20,10 @@ technologies:
   - "Microsoft Office"
 practices:
   - "Consulting"
-  - "Coaching"
-  - "Documentation review"
-  - "Stakeholder interviews"
-  - "Observation"
-  - "Analysis and synthesis"
+  - "Coaching and training"
+  - "User research"
+  - "User interviews"
+  - "Research analysis and synthesis"
 news_posts:
   - title: "The Government of Canada provides update on progress toward a new human resources and pay solution to replace the Phoenix pay system"
     url: https://www.canada.ca/en/public-services-procurement/news/2024/07/the-government-of-canada-provides-update-on-progress-toward-a-new-human-resources-and-pay-solution-to-replace-the-phoenix-pay-system-and-its-human-.html

@@ -13,12 +13,10 @@ feature_image_shadow:
 order: 2600
 display: true
 tags:
-  - "microconsulting"
-  - "apis"
-  - "veterans"
-  - "healthcare"
-  - "sean johnson"
-  - "chris cairns"
+  - "Microconsulting"
+  - "APIs"
+  - "Veterans"
+  - "Healthcare"
 excerpt: "A mobile product strategy that gave the VA an evidence-based roadmap, decision framework, and architecture for delivering a flagship app to veterans."
 project_members:
   - sean-johnson
@@ -26,11 +24,11 @@ project_members:
 technologies:
   - "Zoom"
   - "Google Workspace"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
   - "Primary research"
   - "Secondary research"
-  - "Comparative analysis"
   - "User interviews"
   - "Lean startup"
   - "Research analysis and synthesis"

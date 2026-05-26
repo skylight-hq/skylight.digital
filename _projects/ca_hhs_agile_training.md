@@ -11,30 +11,27 @@ feature_image_shadow:
 order: 3900
 display: true
 tags:
-  - "training"
-  - "coaching & training"
-  - "healthcare"
-  - "robert read"
-  - "josh dorothy"
+  - "Training"
+  - "Coaching & training"
+  - "Healthcare"
 excerpt: "An immersive, sprint-based training workshop that helped California's Health and Human Services teams move from understanding agile concepts to applying them as a complete delivery system."
 project_members:
   - robert-read
   - josh-dorothy
 technologies:
-  - "HTML / CSS"
+  - "HTML"
+  - "CSS"
   - "JavaScript"
-  - "Twitter Bootstrap"
+  - "Bootstrap"
   - "Ruby"
   - "Jekyll"
   - "GitHub Pages"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
   - "Learning by doing"
   - "Scrum framework"
-  - "Story writing"
-  - "Story estimation"
-  - "Velocity calculation"
-  - "Testing"
+  - "User story writing and estimation"
 news_posts:
 project_url:
 project_cta:
