@@ -13,21 +13,20 @@ feature_image_shadow:
 order: 4200
 display: true
 tags:
-  - "transformation"
-  - "chris cairns"
-  - "shashank khandelwal"
+  - "Transformation"
 excerpt: "A comprehensive framework that helped federal agencies approach digital transformation as a coordinated, incremental capability-building effort across seven critical dimensions."
 project_members:
   - chris-cairns
   - shashank-khandelwal
 technologies:
   - "Google Workspace"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
   - "GitHub Pages"
   - "Jekyll"
 practices:
-  - "Customer research"
-  - "Industry research"
+  - "User research"
+  - "Secondary research"
   - "Lean startup"
   - "Participatory design"
 news_posts:

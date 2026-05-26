@@ -11,14 +11,10 @@ feature_image_shadow:
 order: 1900
 display: true
 tags:
-  - "software delivery"
-  - "devops"
-  - "transformation"
-  - "coaching & training"
-  - "chris cairns"
-  - "robert read"
-  - "shashank khandelwal"
-  - "josh dorothy"
+  - "Software delivery"
+  - "DevOps"
+  - "Transformation"
+  - "Coaching & training"
 excerpt: "A DevOps operating model and Center of Excellence that enabled a $1B+ enterprise to improve software delivery performance and build lasting internal capability."
 project_members:
   - chris-cairns
@@ -29,17 +25,14 @@ technologies:
   - "Google Workspace"
   - "Zoom"
   - "Slack"
-  - "Workable (recruiting software)"
   - "Trello"
 practices:
   - "Consulting"
-  - "Information gathering"
-  - "Industry benchmarking"
-  - "Analysis and synthesis"
+  - "Research analysis and synthesis"
+  - "Secondary research"
   - "Objectives and key results framework"
   - "Talent management"
-  - "Coaching"
-  - "Training"
+  - "Coaching and training"
   - "Workshop facilitation"
   - "Health checks"
 news_posts:

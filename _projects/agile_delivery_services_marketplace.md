@@ -13,29 +13,26 @@ feature_image_shadow:
 order: 3200
 display: true
 tags:
-  - "procurement"
-  - "chris cairns"
-  - "robert read"
+  - "Procurement"
 excerpt: "Designed and launched a new marketplace model for procuring software development services that enabled agencies to evaluate real capability, accelerate delivery, and reduce risk."
 project_members:
   - chris-cairns
   - robert-read
 technologies:
   - "Google Workspace"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
   - "GitHub Pages"
   - "Jekyll"
-  - "Adobe Connect"
 practices:
   - "Lean startup"
-  - "Market research"
-  - "Customer research"
+  - "Secondary research"
+  - "User research"
   - "Acquisition planning"
   - "Vendor outreach"
   - "Challenge-based acquisition"
   - "Best-value contracting"
   - "Public-domain contracting"
-  - "Oral presentations"
 news_posts:
   - title: "GSA's agile RFI beginning of 'systemic change' in IT acquisition"
     url: https://federalnewsnetwork.com/management/2015/01/gsas-agile-rfi-beginning-of-systemic-change-in-it-acquisition/

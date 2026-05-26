@@ -13,19 +13,17 @@ feature_image_shadow:
 order: 4400
 display: true
 tags:
-  - "procurement"
-  - "training"
-  - "coaching & training"
-  - "chris cairns"
-  - "shashank khandelwal"
+  - "Procurement"
+  - "Training"
+  - "Coaching & training"
 excerpt: "A pilot training program that helped federal agencies build internal expertise to procure modern digital services using agile, user-centered, and cloud-based approaches."
 project_members:
   - chris-cairns
   - shashank-khandelwal
 technologies:
-  - "Instructional media"
   - "Google Workspace"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
   - "GitHub Pages"
   - "Jekyll"
 practices:
@@ -33,7 +31,7 @@ practices:
   - "Classroom training"
   - "Train the trainer"
   - "Learning by doing"
-  - "Coaching"
+  - "Coaching and training"
   - "Knowledge management"
 news_posts:
   - title: "Fostering a Culture of Innovation Across Government through Acquisition Innovation Labs"

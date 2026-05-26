@@ -11,33 +11,29 @@ feature_image_shadow: true
 order: 950
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "justice"
-  - "becca bartola"
+  - "Service delivery"
+  - "Research & design"
+  - "Justice"
 excerpt: "A redesigned website and brand system that made Justice Innovation Lab's work more accessible, cohesive, and engaging — while enabling a non-design team to sustain it over time."
 project_members:
   - becca-bartola
 technologies:
   - "Figma"
   - "Google Workspace"
-  - "HTML / CSS / SVG"
+  - "HTML"
+  - "CSS"
+  - "SVG"
   - "Zoom"
 practices:
   - "Accessibility design"
-  - "Accessibility review"
-  - "Branding design"
-  - "Consulting"
-  - "Customer and stakeholder interviews"
-  - "Design system"
-  - "Mobile-first design"
-  - "Rapid prototyping"
-  - "Responsive design"
-  - "User experience design"
-  - "User-centered design"
   - "Visual design"
+  - "Consulting"
+  - "User interviews"
+  - "Design system"
+  - "Responsive design"
+  - "Rapid prototyping"
+  - "User experience design"
   - "Visual design audit"
-  - "WCAG 2.0"
 news_posts:
 project_url: https://www.justiceinnovationlab.org/
 project_cta: "See the site"
