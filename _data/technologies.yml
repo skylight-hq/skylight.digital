@@ -1,0 +1,704 @@
+# Canonical technology taxonomy for case studies.
+#
+# Source of truth for `technologies:` values in `_projects/*.md` frontmatter.
+# The website-case-study-linter (in skylight-hub) validates that every
+# `technologies:` value either matches a canonical `display_name` here or
+# matches one of an entry's `aliases:`.
+#
+# Conventions:
+#   - Atomic, not composite. "JavaScript / React / TypeScript" is three entries.
+#   - Vendor-product disambiguated. AWS is the vendor; Lambda/S3/RDS are products.
+#   - Context noise stripped. No "(Cloud One)", "(recruiting software)" parentheticals.
+#   - Display name = how it shows in case-study frontmatter and on the website.
+#   - id = kebab-case canonical identifier (stable; never renamed).
+#   - aliases = alternate spellings recognized during migration/validation.
+#
+# Adding a new entry: open a PR. Reviewers: case-study portfolio owner (TBD).
+
+technologies:
+
+  # ============================================================
+  # Programming languages
+  # ============================================================
+
+  - id: javascript
+    display_name: JavaScript
+    category: language
+    aliases: [JS]
+
+  - id: typescript
+    display_name: TypeScript
+    category: language
+    aliases: [TS]
+
+  - id: python
+    display_name: Python
+    category: language
+
+  - id: ruby
+    display_name: Ruby
+    category: language
+
+  - id: java
+    display_name: Java
+    category: language
+
+  - id: dotnet
+    display_name: .NET
+    category: language
+    aliases: [.NET Core]
+
+  - id: go
+    display_name: Go
+    category: language
+    aliases: [Golang]
+
+  - id: clojure
+    display_name: Clojure
+    category: language
+
+  - id: clojurescript
+    display_name: ClojureScript
+    category: language
+
+  - id: erlang
+    display_name: Erlang
+    category: language
+
+  - id: groovy
+    display_name: Groovy
+    category: language
+
+  - id: html
+    display_name: HTML
+    category: language
+
+  - id: css
+    display_name: CSS
+    category: language
+
+  - id: sass
+    display_name: Sass
+    category: language
+
+  - id: svg
+    display_name: SVG
+    category: language
+
+  - id: yaml
+    display_name: YAML
+    category: language
+
+  - id: sql
+    display_name: SQL
+    category: language
+
+  # ============================================================
+  # Frontend frameworks + libraries
+  # ============================================================
+
+  - id: react
+    display_name: React
+    category: frontend
+    aliases: [React.js, ReactJS]
+
+  - id: vue
+    display_name: Vue.js
+    category: frontend
+    aliases: [Vue]
+
+  - id: backbone
+    display_name: Backbone.js
+    category: frontend
+    aliases: [Backbone]
+
+  - id: stencil
+    display_name: Stencil
+    category: frontend
+
+  - id: web-components
+    display_name: Web Components
+    category: frontend
+    aliases: [Web components]
+
+  - id: redux
+    display_name: Redux
+    category: frontend
+
+  - id: apollo
+    display_name: Apollo
+    category: frontend
+
+  # ============================================================
+  # Design systems
+  # ============================================================
+
+  - id: uswds
+    display_name: U.S. Web Design System
+    category: design-system
+    aliases: [USWDS]
+
+  - id: carbon-design-system
+    display_name: Carbon Design System
+    category: design-system
+
+  - id: material-ui
+    display_name: Material-UI
+    category: design-system
+
+  - id: material-design
+    display_name: Material Design
+    category: design-system
+    aliases: [Google Material Design]
+
+  - id: bootstrap
+    display_name: Bootstrap
+    category: design-system
+    aliases: [Twitter Bootstrap]
+
+  - id: polaris
+    display_name: Polaris Design System
+    category: design-system
+
+  - id: semantic-ui
+    display_name: Semantic UI
+    category: design-system
+
+  - id: tailwind-ui
+    display_name: Tailwind UI
+    category: design-system
+
+  # ============================================================
+  # Backend frameworks + runtimes
+  # ============================================================
+
+  - id: rails
+    display_name: Ruby on Rails
+    category: backend
+    aliases: [Rails, "Ruby / Rails"]
+
+  - id: spring-boot
+    display_name: Spring Boot
+    category: backend
+    aliases: ["Java / Spring Boot"]
+
+  - id: django
+    display_name: Django
+    category: backend
+    aliases: ["Python / Django"]
+
+  - id: express
+    display_name: Express.js
+    category: backend
+    aliases: [Express]
+
+  - id: node
+    display_name: Node.js
+    category: backend
+    aliases: [Node, NodeJS]
+
+  # ============================================================
+  # Cloud platforms
+  # ============================================================
+
+  - id: aws
+    display_name: Amazon Web Services
+    category: cloud-platform
+    aliases: [AWS, "AWS (Cloud One)", "cloud.gov / Amazon Web Services"]
+    notes: |
+      Use this for the platform reference. AWS services (Lambda, S3, etc.)
+      get their own entries below.
+
+  - id: azure
+    display_name: Microsoft Azure
+    category: cloud-platform
+    aliases: [Azure]
+
+  - id: azure-iot
+    display_name: Azure IoT
+    category: cloud-platform
+
+  - id: cloud-gov
+    display_name: cloud.gov
+    category: cloud-platform
+
+  - id: heroku
+    display_name: Heroku
+    category: cloud-platform
+
+  # ============================================================
+  # AWS services
+  # ============================================================
+
+  - id: aws-lambda
+    display_name: AWS Lambda
+    category: cloud-service
+    aliases: ["AWS Lambda (Cloud One)"]
+
+  - id: aws-rds
+    display_name: Amazon RDS
+    category: cloud-service
+    aliases: ["Amazon RDS for PostgreSQL", "AWS RDS Oracle (Cloud One)"]
+
+  - id: aws-s3
+    display_name: Amazon S3
+    category: cloud-service
+    aliases: [S3, "S3 Bucket"]
+
+  - id: aws-cloudfront
+    display_name: Amazon CloudFront
+    category: cloud-service
+
+  - id: aws-fargate
+    display_name: AWS Fargate
+    category: cloud-service
+
+  - id: aws-elastic-beanstalk
+    display_name: AWS Elastic Beanstalk
+    category: cloud-service
+    aliases: ["AWS Elastic Beanstalk (Cloud One)"]
+
+  - id: aws-emr
+    display_name: Amazon EMR
+    category: cloud-service
+
+  # ============================================================
+  # Containers + orchestration
+  # ============================================================
+
+  - id: docker
+    display_name: Docker
+    category: containers
+
+  - id: microservices
+    display_name: Microservices
+    category: architecture-pattern
+    notes: |
+      Pattern, not a specific tool. Some case studies may better categorize
+      as `practices: microservices-architecture`; consider during migration.
+
+  # ============================================================
+  # Infrastructure as code
+  # ============================================================
+
+  - id: terraform
+    display_name: Terraform
+    category: infrastructure-as-code
+
+  - id: puppet
+    display_name: Puppet
+    category: infrastructure-as-code
+
+  - id: chef
+    display_name: Chef
+    category: infrastructure-as-code
+
+  - id: packer
+    display_name: Packer
+    category: infrastructure-as-code
+
+  # ============================================================
+  # CI/CD
+  # ============================================================
+
+  - id: github-actions
+    display_name: GitHub Actions
+    category: ci-cd
+
+  - id: gitlab-ci
+    display_name: GitLab CI/CD
+    category: ci-cd
+
+  - id: jenkins
+    display_name: Jenkins
+    category: ci-cd
+
+  - id: circleci
+    display_name: CircleCI
+    category: ci-cd
+
+  - id: azure-devops
+    display_name: Azure DevOps
+    category: ci-cd
+
+  - id: octopus-deploy
+    display_name: Octopus Deploy
+    category: ci-cd
+
+  # ============================================================
+  # Version control + repo hosting
+  # ============================================================
+
+  - id: git
+    display_name: Git
+    category: version-control
+
+  - id: github
+    display_name: GitHub
+    category: version-control
+    aliases: ["Git / GitHub"]
+
+  - id: gitlab
+    display_name: GitLab
+    category: version-control
+    aliases: ["Git / GitLab"]
+
+  - id: github-pages
+    display_name: GitHub Pages
+    category: version-control
+    aliases: [Federalist, "Federalist / GitHub Pages", "GitHub Pages / Jekyll"]
+
+  # ============================================================
+  # Databases + search
+  # ============================================================
+
+  - id: postgresql
+    display_name: PostgreSQL
+    category: data
+
+  - id: mysql
+    display_name: MySQL
+    category: data
+
+  - id: sql-server
+    display_name: SQL Server
+    category: data
+
+  - id: db2
+    display_name: DB2
+    category: data
+    aliases: ["DB2 / DB2 stored procedures"]
+
+  - id: rethinkdb
+    display_name: RethinkDB
+    category: data
+
+  - id: elasticsearch
+    display_name: Elasticsearch
+    category: data
+
+  - id: sqlalchemy
+    display_name: SQLAlchemy
+    category: data
+
+  - id: sequel
+    display_name: Sequel
+    category: data
+
+  - id: liquibase
+    display_name: Liquibase
+    category: data
+
+  # ============================================================
+  # API tools + protocols
+  # ============================================================
+
+  - id: graphql
+    display_name: GraphQL
+    category: api
+
+  - id: openapi
+    display_name: OpenAPI Specification
+    category: api
+    aliases: [Swagger]
+
+  - id: rest
+    display_name: REST
+    category: api
+
+  - id: soap
+    display_name: SOAP
+    category: api
+    aliases: ["SOAP API"]
+
+  - id: json-api
+    display_name: JSON:API
+    category: api
+    aliases: ["JSON API"]
+
+  - id: websockets
+    display_name: WebSockets
+    category: api
+
+  # ============================================================
+  # Identity + auth
+  # ============================================================
+
+  - id: oauth
+    display_name: OAuth
+    category: identity
+
+  - id: keycloak
+    display_name: Keycloak
+    category: identity
+
+  - id: okta
+    display_name: Okta
+    category: identity
+
+  - id: identityserver
+    display_name: IdentityServer
+    category: identity
+
+  # ============================================================
+  # Static site + CMS
+  # ============================================================
+
+  - id: jekyll
+    display_name: Jekyll
+    category: cms
+
+  - id: mkdocs
+    display_name: MkDocs
+    category: cms
+
+  - id: brightspot
+    display_name: Brightspot CMS
+    category: cms
+
+  - id: wordpress
+    display_name: WordPress
+    category: cms
+
+  - id: sitecore
+    display_name: Sitecore
+    category: cms
+
+  # ============================================================
+  # Healthcare / domain standards
+  # ============================================================
+
+  - id: fhir
+    display_name: FHIR
+    category: domain-standard
+    aliases: ["Azure Managed FHIR Server"]
+
+  - id: hl7
+    display_name: HL7
+    category: domain-standard
+
+  # ============================================================
+  # Testing
+  # ============================================================
+
+  - id: jest
+    display_name: Jest
+    category: testing
+
+  - id: mocha
+    display_name: Mocha
+    category: testing
+
+  - id: cypress
+    display_name: Cypress
+    category: testing
+
+  - id: nightwatch
+    display_name: Nightwatch
+    category: testing
+
+  - id: jmeter
+    display_name: JMeter
+    category: testing
+
+  - id: storybook
+    display_name: Storybook
+    category: testing
+
+  - id: chromatic
+    display_name: Chromatic
+    category: testing
+
+  # ============================================================
+  # Security + observability
+  # ============================================================
+
+  - id: sonarcloud
+    display_name: SonarCloud
+    category: security
+
+  - id: snyk
+    display_name: Snyk
+    category: security
+
+  - id: dependabot
+    display_name: Dependabot
+    category: security
+
+  - id: splunk
+    display_name: Splunk
+    category: observability
+
+  - id: lighthouse
+    display_name: Lighthouse
+    category: observability
+
+  - id: google-analytics
+    display_name: Google Analytics
+    category: observability
+
+  # ============================================================
+  # Design tools
+  # ============================================================
+
+  - id: figma
+    display_name: Figma
+    category: design-tool
+
+  - id: figjam
+    display_name: FigJam
+    category: design-tool
+
+  - id: sketch
+    display_name: Sketch
+    category: design-tool
+
+  - id: invision
+    display_name: InVision
+    category: design-tool
+
+  - id: adobe-xd
+    display_name: Adobe XD
+    category: design-tool
+
+  - id: balsamiq
+    display_name: Balsamiq
+    category: design-tool
+
+  - id: lucidchart
+    display_name: Lucidchart
+    category: design-tool
+
+  - id: mural
+    display_name: Mural
+    category: design-tool
+
+  # ============================================================
+  # Collaboration + productivity
+  # ============================================================
+
+  - id: slack
+    display_name: Slack
+    category: collaboration
+
+  - id: mattermost
+    display_name: Mattermost
+    category: collaboration
+
+  - id: teams
+    display_name: Microsoft Teams
+    category: collaboration
+
+  - id: zoom
+    display_name: Zoom
+    category: collaboration
+
+  - id: google-workspace
+    display_name: Google Workspace
+    category: collaboration
+
+  - id: microsoft-office
+    display_name: Microsoft Office
+    category: collaboration
+
+  - id: confluence
+    display_name: Confluence
+    category: collaboration
+
+  - id: trello
+    display_name: Trello
+    category: collaboration
+
+  - id: jira
+    display_name: Jira
+    category: collaboration
+
+  - id: zenhub
+    display_name: ZenHub
+    category: collaboration
+
+  - id: smartsheets
+    display_name: Smartsheets
+    category: collaboration
+
+  - id: airtable
+    display_name: Airtable
+    category: collaboration
+
+  - id: box
+    display_name: Box
+    category: collaboration
+
+  - id: sharepoint
+    display_name: Microsoft SharePoint
+    category: collaboration
+
+  # ============================================================
+  # Communications (email + SMS)
+  # ============================================================
+
+  - id: twilio
+    display_name: Twilio
+    category: communications
+
+  - id: sendgrid
+    display_name: SendGrid
+    category: communications
+
+  - id: campaign-monitor
+    display_name: Campaign Monitor
+    category: communications
+
+  # ============================================================
+  # Mobile
+  # ============================================================
+
+  - id: flutter
+    display_name: Flutter
+    category: mobile
+
+  - id: ios-sdk
+    display_name: iOS SDK
+    category: mobile
+
+  - id: android-sdk
+    display_name: Android SDK
+    category: mobile
+
+  # ============================================================
+  # Specialized / domain
+  # ============================================================
+
+  - id: 6lowpan
+    display_name: 6LoWPAN
+    category: domain-standard
+    notes: IoT-specific protocol; used in case studies involving sensor networks.
+
+  - id: mems
+    display_name: MEMS
+    category: domain-standard
+    notes: Microelectromechanical systems; IoT hardware context.
+
+# ============================================================
+# Migration notes — entries from case studies on `main` (2026-05-20)
+# that do NOT migrate cleanly to a canonical entry above:
+#
+#   - "Apple" (vendor name as tech; drop)
+#   - "Existing technology stack" (non-answer; drop)
+#   - "Custom spidering script" (described, not a technology; drop)
+#   - "Temporary URLs" (concept, not technology; drop)
+#   - "Instructional media" (category, not technology; drop)
+#   - "Spidering" (likely a practice; reclassify or drop)
+#   - "appear.in" (dead product; drop)
+#   - "Lever (recruiting software)" / "Workable (recruiting software)" (HR
+#     tooling, not engagement tech; drop unless case study is HR-specific)
+#   - "Adobe Connect" (legacy product; drop unless case study is from that era)
+#   - "Excel" (consider whether worth tagging; lean drop)
+#   - "Microsoft Office" (vague; keep as `microsoft-office` if appropriate)
+#   - "AWS / Terraform" (composite; split into aws + terraform)
+#   - "Jest / Mocha / Karma / Jasmine / Supertest" (composite; split into
+#     individual entries; karma/jasmine/supertest may be too long-tail to keep)
+#   - "JavaScript / React / TypeScript" and 6 other React composites (split)
+#   - "HTML / CSS / Sass / SVG" and other style composites (split)
+#
+# Per-case-study migration tracked in skylight-hub/migrations/case-study-taxonomy-rationalization.md.

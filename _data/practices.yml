@@ -1,0 +1,532 @@
+# Canonical practice taxonomy for case studies.
+#
+# Source of truth for `practices:` values in `_projects/*.md` frontmatter.
+# The website-case-study-linter (in skylight-hub) validates that every
+# `practices:` value either matches a canonical `display_name` here or
+# matches one of an entry's `aliases:`.
+#
+# Conventions:
+#   - One practice per entry. "Coaching & training" is two entries (coaching,
+#     training) or one consolidated entry if they're rarely separable in
+#     Skylight's work.
+#   - Consolidate near-duplicates aggressively. "Accessibility" / "Accessibility
+#     design" / "Accessibility review" / "Accessible design" are one canonical
+#     with multiple aliases.
+#   - Drop unhelpful over-specializations. "Agile cloud migration" is "agile"
+#     applied to a cloud-migration engagement; tag both `agile` and the
+#     migration type separately rather than coining a new practice.
+#
+# Adding a new entry: open a PR. Reviewers: case-study portfolio owner (TBD).
+
+practices:
+
+  # ============================================================
+  # Delivery process + methodology
+  # ============================================================
+
+  - id: agile
+    display_name: Agile development
+    category: delivery
+    aliases:
+      - Agile
+      - Agile / digital acquisition
+      - Agile cloud migration
+      - Agile product management
+      - Agile workshop facilitation
+    notes: |
+      Consolidates over-specialized Agile variants. Specific applications
+      (e.g., agile coaching, agile workshop facilitation) should tag both
+      `agile` and the specific practice (coaching, workshop-facilitation).
+
+  - id: scrum
+    display_name: Scrum framework
+    category: delivery
+
+  - id: lean-startup
+    display_name: Lean startup
+    category: delivery
+
+  - id: lean-product
+    display_name: Lean product
+    category: delivery
+
+  - id: okr
+    display_name: Objectives and key results framework
+    category: delivery
+    aliases: [OKRs, OKR]
+
+  - id: iterative-incremental-development
+    display_name: Iterative and incremental development
+    category: delivery
+
+  - id: continuous-improvement
+    display_name: Continuous improvement
+    category: delivery
+
+  - id: management-by-objectives
+    display_name: Management by objectives
+    category: delivery
+
+  - id: rapid-prototyping
+    display_name: Rapid prototyping
+    category: delivery
+
+  - id: prototyping
+    display_name: Prototyping
+    category: delivery
+
+  - id: pairing
+    display_name: Pair programming
+    category: delivery
+    aliases: [Pairing]
+
+  - id: spike-solutions
+    display_name: Spike solutions
+    category: delivery
+
+  - id: user-story-writing
+    display_name: User story writing and estimation
+    category: delivery
+    aliases:
+      - Story writing
+      - Story estimation
+      - Velocity calculation
+
+  # ============================================================
+  # Research
+  # ============================================================
+
+  - id: user-research
+    display_name: User research
+    category: research
+    aliases:
+      - Customer research
+      - Generative user research
+      - Evaluative user research
+      - Moderated user research
+      - Unmoderated user research
+    notes: |
+      Umbrella for user-facing research. Specific methods get their own
+      entries (interviews, surveys, usability-testing) and a case study
+      can tag both `user-research` and the specific method.
+
+  - id: user-interviews
+    display_name: User interviews
+    category: research
+    aliases:
+      - Stakeholder interviews
+      - Customer and stakeholder interviews
+      - Trauma-informed interviewing
+
+  - id: usability-testing
+    display_name: Usability testing
+    category: research
+    aliases: [User testing]
+
+  - id: primary-research
+    display_name: Primary research
+    category: research
+
+  - id: secondary-research
+    display_name: Secondary research
+    category: research
+    aliases:
+      - Industry research
+      - Market research
+      - Policy research
+      - Comparative analysis
+      - Industry benchmarking
+
+  - id: research-analysis
+    display_name: Research analysis and synthesis
+    category: research
+    aliases:
+      - Analysis and synthesis
+      - Information gathering
+      - Semantic analysis
+
+  - id: surveys
+    display_name: Surveys
+    category: research
+
+  - id: card-sorting
+    display_name: Card sorting
+    category: research
+
+  - id: tree-testing
+    display_name: Tree testing
+    category: research
+
+  - id: journey-mapping
+    display_name: Journey mapping
+    category: research
+
+  - id: persona-development
+    display_name: Persona development
+    category: research
+
+  - id: stakeholder-mapping
+    display_name: Stakeholder mapping
+    category: research
+
+  # ============================================================
+  # Design
+  # ============================================================
+
+  - id: ux-design
+    display_name: User experience design
+    category: design
+    aliases:
+      - UX design
+      - User-centered design
+      - User centered design
+
+  - id: visual-design
+    display_name: Visual design
+    category: design
+    aliases: [Branding design, Product design]
+
+  - id: visual-design-audit
+    display_name: Visual design audit
+    category: design
+
+  - id: content-design
+    display_name: Content design
+    category: design
+    aliases:
+      - Content strategy
+      - Content guidelines
+      - Plain-language writing
+
+  - id: information-architecture
+    display_name: Information architecture
+    category: design
+
+  - id: service-design
+    display_name: Service design
+    category: design
+
+  - id: service-blueprinting
+    display_name: Service blueprinting
+    category: design
+
+  - id: design-system
+    display_name: Design system
+    category: design
+    aliases: [Custom design system, Design pattern library]
+
+  - id: accessibility-design
+    display_name: Accessibility design
+    category: design
+    aliases:
+      - Accessibility
+      - Accessibility review
+      - Accessible design
+      - WCAG 2.0
+
+  - id: responsive-design
+    display_name: Responsive design
+    category: design
+    aliases: [Responsive web design, Mobile-first design]
+
+  - id: design-workshops
+    display_name: Design workshops
+    category: design
+    aliases: [Design studios, Collaborative design workshops, Prioritization workshops]
+
+  - id: wireframing
+    display_name: Wireframing
+    category: design
+
+  - id: participatory-design
+    display_name: Participatory design
+    category: design
+
+  - id: design-leadership
+    display_name: Design leadership
+    category: design
+
+  # ============================================================
+  # Engineering + ops
+  # ============================================================
+
+  - id: api-first-development
+    display_name: API-first development
+    category: engineering
+
+  - id: api-design
+    display_name: API design
+    category: engineering
+    aliases:
+      - API governance
+      - API management
+      - RESTful API architecture
+      - "RESTful / SOAP API architecture"
+      - "RESTful, HATEOAS API architecture"
+      - API encapsulation
+      - API service composition
+      - REST API wrapper
+
+  - id: api-deployment
+    display_name: API deployment
+    category: engineering
+
+  - id: microservices-architecture
+    display_name: Microservices architecture
+    category: engineering
+    notes: |
+      Some case studies tag this as a `technology: microservices`. Prefer
+      the practices entry when describing the architectural choice; use
+      the technology tag only when a specific microservices framework is
+      named.
+
+  - id: containerization
+    display_name: Containerization
+    category: engineering
+
+  - id: cloud-hosting
+    display_name: Cloud hosting
+    category: engineering
+
+  - id: hybrid-cloud
+    display_name: Hybrid-cloud architecture
+    category: engineering
+
+  - id: legacy-modernization
+    display_name: Legacy modernization
+    category: engineering
+    aliases:
+      - Legacy reengineering / strangler pattern
+      - Live redevelopment
+
+  - id: devsecops
+    display_name: DevSecOps
+    category: ops
+
+  - id: devops
+    display_name: DevOps
+    category: ops
+
+  - id: continuous-integration
+    display_name: Continuous integration
+    category: ops
+
+  - id: deployment-automation
+    display_name: Deployment automation
+    category: ops
+    aliases: [Programmatic deployment scripts]
+
+  - id: infrastructure-as-code
+    display_name: Infrastructure as code
+    category: ops
+
+  - id: automated-testing
+    display_name: Automated testing
+    category: ops
+
+  - id: automated-documentation
+    display_name: Automated documentation
+    category: ops
+
+  - id: health-checks
+    display_name: Health checks
+    category: ops
+
+  - id: security-privacy-compliance
+    display_name: Security and privacy compliance
+    category: ops
+    aliases: ["Security / privacy compliance"]
+
+  - id: identity-access-management
+    display_name: Identity and access management
+    category: ops
+
+  - id: security-controls-automation
+    display_name: Security controls automation
+    category: ops
+
+  # ============================================================
+  # Product + strategy
+  # ============================================================
+
+  - id: product-management
+    display_name: Product management
+    category: product
+
+  - id: data-strategy
+    display_name: Data strategy
+    category: product
+
+  - id: data-management
+    display_name: Data management
+    category: product
+
+  - id: data-engineering
+    display_name: Data engineering
+    category: product
+
+  # ============================================================
+  # Coaching, training, capability
+  # ============================================================
+
+  - id: coaching-training
+    display_name: Coaching and training
+    category: coaching-training
+    aliases:
+      - Coaching
+      - Training
+      - Coaching & training
+      - Training and coaching
+      - Peer mentoring and coaching
+
+  - id: capability-development
+    display_name: Capability development
+    category: coaching-training
+
+  - id: classroom-training
+    display_name: Classroom training
+    category: coaching-training
+
+  - id: instructional-design
+    display_name: Instructional design
+    category: coaching-training
+
+  - id: learning-by-doing
+    display_name: Learning by doing
+    category: coaching-training
+
+  - id: train-the-trainer
+    display_name: Train the trainer
+    category: coaching-training
+
+  - id: communities-of-practice
+    display_name: Communities of practice
+    category: coaching-training
+    aliases: ["Communities of Practice (CoP)", CoP]
+
+  - id: knowledge-management
+    display_name: Knowledge management
+    category: coaching-training
+
+  # ============================================================
+  # Facilitation + collaboration
+  # ============================================================
+
+  - id: workshop-facilitation
+    display_name: Workshop facilitation
+    category: facilitation
+
+  - id: virtual-collaboration
+    display_name: Virtual collaboration
+    category: facilitation
+    aliases: [Virtual teams, Remote teams]
+
+  - id: co-located-teams
+    display_name: Co-located teams
+    category: facilitation
+
+  - id: team-building
+    display_name: Team building
+    category: facilitation
+
+  # ============================================================
+  # Acquisition + procurement
+  # ============================================================
+
+  - id: digital-acquisition
+    display_name: Digital acquisition
+    category: acquisition
+
+  - id: acquisition-planning
+    display_name: Acquisition planning
+    category: acquisition
+
+  - id: challenge-based-acquisition
+    display_name: Challenge-based acquisition
+    category: acquisition
+
+  - id: best-value-contracting
+    display_name: Best-value contracting
+    category: acquisition
+
+  - id: public-domain-contracting
+    display_name: Public-domain contracting
+    category: acquisition
+
+  - id: vendor-outreach
+    display_name: Vendor outreach
+    category: acquisition
+
+  - id: analysis-of-alternatives
+    display_name: Analysis of alternatives
+    category: acquisition
+
+  # ============================================================
+  # Consulting + leadership
+  # ============================================================
+
+  - id: consulting
+    display_name: Consulting
+    category: consulting
+
+  - id: technical-discovery
+    display_name: Technical discovery
+    category: consulting
+
+  - id: servant-leadership
+    display_name: Servant leadership
+    category: consulting
+
+  - id: team-of-teams
+    display_name: Team of teams
+    category: consulting
+
+  - id: open-source-development
+    display_name: Open-source development
+    category: engineering
+    aliases: [Open innovation]
+
+  - id: user-growth-marketing
+    display_name: User growth marketing
+    category: product
+
+  # ============================================================
+  # Recruiting (rare; for spotlight-adjacent case studies)
+  # ============================================================
+
+  - id: civic-recruiting
+    display_name: Civic recruiting
+    category: recruiting
+
+  - id: schedule-a-hiring
+    display_name: Schedule A(r) hiring authority
+    category: recruiting
+
+  - id: talent-management
+    display_name: Talent management
+    category: recruiting
+
+  - id: performance-management
+    display_name: Performance management
+    category: recruiting
+
+# ============================================================
+# Migration notes — entries from case studies on `main` (2026-05-20)
+# that need explicit handling during the rationalization migration:
+#
+#   - "Web and native apps" — too broad to be a practice; drop, or split
+#     into individual technologies tagged elsewhere
+#   - "Spidering" — describes a one-off implementation detail; drop
+#   - "Touchpoints" — proper noun (a federal tool); should be a technology
+#   - "Existing technology stack" — non-answer; drop
+#   - "Google interview practices" — vague; drop unless the case study
+#     is specifically about Google-style interviewing
+#   - "Trauma-informed interviewing" — niche but real; kept as aliased
+#     under user-interviews
+#   - "Plain-language writing" — kept as aliased under content-design;
+#     case studies about plain-language coaching should also tag
+#     coaching-training
+#   - "Live redevelopment" — captured under legacy-modernization
+#   - Several over-specialized API entries — consolidated under api-design
+#
+# Per-case-study migration tracked in skylight-hub/migrations/case-study-taxonomy-rationalization.md.
