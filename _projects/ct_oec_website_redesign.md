@@ -11,17 +11,11 @@ feature_image_shadow: true
 order: 700
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "product management"
-  - "early childhood"
-  - "social safety net"
-  - "ashley treni"
-  - "victoria suwardiman"
-  - "lara kohl"
-  - "gabriel ramirez"
-  - "marvo dolor"
-  - "amelia wellers"
+  - "Service delivery"
+  - "Research & design"
+  - "Product management"
+  - "Early childhood"
+  - "Social safety net"
 excerpt: "A redesigned digital experience that made it easier for families and child care providers across Connecticut to find and access critical early childhood services."
 project_members:
   - ashley-treni
@@ -30,7 +24,8 @@ project_members:
   - marvo-dolor
   - amelia-wellers
 technologies:
-  - "HTML / CSS"
+  - "HTML"
+  - "CSS"
   - "JavaScript"
   - "WordPress"
   - "Sitecore"
@@ -46,22 +41,19 @@ practices:
   - "User experience design"
   - "Visual design"
   - "Design system"
-  - "Content strategy"
   - "Content design"
-  - "Plain-language writing"
-  - "Content guidelines"
   - "Card sorting"
   - "Tree testing"
   - "Persona development"
   - "Usability testing"
-  - "Responsive web design"
+  - "Responsive design"
   - "Accessibility design"
   - "Agile development"
   - "Rapid prototyping"
   - "DevSecOps"
   - "Containerization"
-  - "Training"
-  - "Pairing"
+  - "Coaching and training"
+  - "Pair programming"
 news_posts:
 project_url: https://www.ctoec.org/
 project_cta: "See the site"

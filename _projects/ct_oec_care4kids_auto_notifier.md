@@ -11,20 +11,13 @@ feature_image_shadow:
 order: 1300
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "product management"
-  - "software delivery"
-  - "early childhood"
-  - "social safety net"
-  - "economic development"
-  - "abby raskin"
-  - "ashley treni"
-  - "victoria suwardiman"
-  - "cailyn hansen"
-  - "gabriel ramirez"
-  - "marvo dolor"
-  - "amelia wellers"
+  - "Service delivery"
+  - "Research & design"
+  - "Product management"
+  - "Software delivery"
+  - "Early childhood"
+  - "Social safety net"
+  - "Economic development"
 excerpt: "A text-message pilot that helped families understand their Care 4 Kids renewal status, while revealing broader opportunities to improve the child care subsidy experience in Connecticut."
 project_members:
   - abby-raskin
@@ -36,13 +29,15 @@ project_members:
   - amelia-wellers
 technologies:
   - "Twilio"
-  - "Ruby / Rails"
+  - "Ruby"
+  - "Ruby on Rails"
   - "MySQL"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
   - "Product management"
   - "User research"
-  - "Collaborative design workshops"
+  - "Design workshops"
   - "Surveys"
   - "Agile development"
   - "Rapid prototyping"
