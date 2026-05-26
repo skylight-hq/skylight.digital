@@ -11,27 +11,33 @@ feature_image_shadow:
 order: 2900
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "software delivery"
-  - "legacy modernization"
-  - "healthcare"
-  - "victor zapanta"
-  - "nick bristow"
+  - "Service delivery"
+  - "Research & design"
+  - "Software delivery"
+  - "Legacy modernization"
+  - "Healthcare"
 excerpt: "Helped modernize a critical CMS system used by thousands of healthcare providers and surveyors nationwide to submit and evaluate quality-of-care data."
 project_members:
   - victor-zapanta
   - nick-bristow
 technologies:
-  - "HTML / CSS"
-  - "JavaScript / React / Redux"
-  - "Jest / Mocha / Karma / Jasmine / Supertest"
+  - "HTML"
+  - "CSS"
+  - "JavaScript"
+  - "React"
+  - "Redux"
+  - "Jest"
+  - "Mocha"
+  - "Karma"
+  - "Jasmine"
+  - "Supertest"
   - "U.S. Web Design System"
   - "Adobe XD"
   - "Balsamiq"
   - "InVision"
   - "Amazon Web Services"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
   - "User research"
   - "User experience design"

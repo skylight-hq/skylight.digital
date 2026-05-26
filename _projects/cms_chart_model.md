@@ -13,12 +13,11 @@ feature_image_shadow:
 order: 1150
 display: true
 tags:
-  - "transformation"
-  - "research & design"
-  - "product management"
-  - "data & analytics"
-  - "healthcare"
-  - "jamie song"
+  - "Transformation"
+  - "Research & design"
+  - "Product management"
+  - "Data & analytics"
+  - "Healthcare"
 excerpt: "A research-driven data strategy and prototype dashboards that helped rural hospitals make more informed decisions about financial stability and care delivery."
 project_members:
   - jamie-song
@@ -31,17 +30,15 @@ technologies:
 practices:
   - "Data strategy"
   - "Service design"
-  - "Stakeholder interviews"
   - "User interviews"
   - "User research"
-  - "Information gathering"
+  - "Research analysis and synthesis"
   - "Primary research"
   - "Secondary research"
-  - "Research analysis and synthesis"
   - "Prototyping"
   - "Rapid prototyping"
   - "Usability testing"
-  - "User-centered design"
+  - "User experience design"
   - "Analysis of alternatives"
 news_posts:
   - title: "Trump Administration Announces Initiative to Transform Rural Health"

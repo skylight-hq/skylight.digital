@@ -11,16 +11,11 @@ feature_image_shadow:
 order: 900
 display: true
 tags:
-  - "transformation"
-  - "data & analytics"
-  - "coaching & training"
-  - "healthcare"
-  - "social safety net"
-  - "chris cairns"
-  - "brandon mader"
-  - "mical nobel"
-  - "brandon kirby"
-  - "ashley treni"
+  - "Transformation"
+  - "Data & analytics"
+  - "Coaching & training"
+  - "Healthcare"
+  - "Social safety net"
 excerpt: "Helped the Center for Medicaid and CHIP Services shift from siloed system management to a product-driven operating model across a $100M+ data and technology portfolio."
 project_members:
   - chris-cairns
@@ -31,14 +26,12 @@ project_members:
 technologies:
   - "Microsoft Office"
   - "Google Workspace"
-  - "SurveyMonkey"
   - "Trello"
   - "Mural"
 practices:
-  - "Qualitative / quantitative research"
+  - "User research"
   - "Consulting"
-  - "Coaching"
-  - "Training"
+  - "Coaching and training"
   - "Workshop facilitation"
   - "Service design"
   - "Product management"

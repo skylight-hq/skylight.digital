@@ -11,14 +11,10 @@ feature_image_shadow:
 order: 1125
 display: true
 tags:
-  - "transformation"
-  - "research & design"
-  - "product management"
-  - "healthcare"
-  - "leslie garner franklin"
-  - "victor zapanta"
-  - "jamie song"
-  - "shashank khandelwal"
+  - "Transformation"
+  - "Research & design"
+  - "Product management"
+  - "Healthcare"
 excerpt: "Brought user-centered design and modern delivery practices to the technology systems that support CMS healthcare payment and delivery model experiments."
 project_members:
   - leslie-garner-franklin
@@ -32,11 +28,10 @@ technologies:
   - "U.S. Web Design System"
 practices:
   - "Agile development"
-  - "Agile workshop facilitation"
-  - "Analysis and synthesis"
+  - "Research analysis and synthesis"
   - "Consulting"
   - "Continuous improvement"
-  - "Customer and stakeholder interviews"
+  - "User interviews"
   - "Data management"
   - "Design leadership"
   - "Design system"
@@ -48,8 +43,8 @@ practices:
   - "Prototyping"
   - "Stakeholder mapping"
   - "Technical discovery"
-  - "Training and coaching"
-  - "User-centered design"
+  - "Coaching and training"
+  - "User experience design"
   - "Workshop facilitation"
 news_posts:
 project_url:
