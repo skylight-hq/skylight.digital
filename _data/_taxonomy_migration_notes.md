@@ -22,6 +22,56 @@ The full per-case-study migration is tracked in [`skylight-hub/migrations/case-s
 | Drop person names already in project_members | If "chris-cairns" is in `project_members:`, "chris cairns" gets dropped from `tags:` |
 | Tags should be topic-only | After migration, `tags:` contains capability / mission / topic — no person names |
 
+## Known drops — values to remove during Phase 3 migration
+
+Triaged from the full-corpus run of `scripts/map_case_study_taxonomies.rb` (skylight-hub) on 2026-05-26. These specific values do **not** map to any canonical and should be dropped from the case study's frontmatter rather than kept as free-text. Phase 3 reviewers can apply these decisions in bulk without per-case-study judgment:
+
+### Drop from `technologies:`
+
+| Value | Reason |
+|---|---|
+| `"APIs"` (×18) | Capability tag misfield'd into technologies. Already covered by the `apis` tag from `filters.yml`; drop from `technologies:`. |
+| `"Apple"` | Vendor name as tech; not a technology. |
+| `"Existing technology stack"` | Non-answer. |
+| `"Temporary URLs"` | Concept, not a technology. |
+| `"Custom spidering script"` | Description, not a technology. |
+| `"Instructional media"` | Category, not a technology. |
+| `"Automated testing frameworks"` | Category, not a specific framework. |
+| `"appear.in"` | Dead product (shut down 2022). |
+| `"Lever (recruiting software)"`, `"Workable (recruiting software)"` | HR tooling. Drop unless the case study is HR-specific. |
+| `"Respondent"` | User-research recruiting service. Utility-style; not engagement tech. |
+| `"SmartyStreets"`, `"Experian"` | Third-party utility services (address-verification, identity). Drop unless the case study foregrounds them. |
+| `"SurveyMonkey"`, `"Adobe Connect"`, `"Chrome Web Developer Toolkit"`, `"Colour Contrast Analyzer"`, `"Google Accessibility Audit Tools"`, `"Wave"` | Generic utility/diagnostic tools, not engagement-defining tech. |
+| `"Excel"` | Tooling noise unless Excel was the actual engagement deliverable (rare). |
+| `"AJAX"`, `"JSON"`, `"IoT"` | Categories/patterns, not specific technologies. (Capabilities like "apis" / "data & analytics" cover the same ground.) |
+| `"Touchpoints"` | Generic; not a specific tool. |
+| `"Microsoft Azure (Key Vault, Container Apps, WAF, Gateways, App Service)"` | Composite-with-parenthetical. Keep `Microsoft Azure`; drop the parenthetical service list. |
+| `"React in TypeScript with Apollo"` | Prose composite. Split into `React`, `TypeScript`, `Apollo` per the composite→atomic rule. |
+
+### Drop from `practices:`
+
+| Value | Reason |
+|---|---|
+| `"Web and native apps"` (×5) | Deliverable type, not a practice. |
+| `"Third-party integration"` | Engineering concept, not a Skylight practice. |
+| `"Google interview practices"` | Vague + Google-specific; not a practice we own. |
+| `"Civic crowdsourcing"` | Project-specific phrasing; not a generalizable practice. |
+| `"Oral presentations"` | Generic activity, not a practice. |
+| `"Testing"` | Too generic. Specific testing types (load testing, QA testing) get their own entries if needed. |
+| `"Intelligent protocol system development"` | Project-specific phrasing; not a generalizable practice. |
+| `"Artificial data"` | Means synthetic data; too narrow to be a practice. |
+| `"Spidering"` | Engineering technique, not a Skylight practice. |
+
+### Aliases added 2026-05-26 (no longer surface as unknown after this PR)
+
+- `User research` gains aliases for: `Qualitative research`, `Qualitative`, `Quantitative research` (mixed-case), `Quantitative analysis`, `Observation`, `Documentation review`, `User test scenarios`, `KJ technique` — all generic-method labels for what user-research already covers.
+- `Design system` gains alias: `User interface component inventory`.
+- `Performance management` gains alias: `Performance profiles`.
+
+### Tech entries added 2026-05-26 (no longer surface as unknown after this PR)
+
+`NGINX`, `Metabase`, `Jasmine`, `Karma`, `Supertest`, `tfsec`, `XMPP`, `API Umbrella`, `Caseworthy`, `Rhapsody`.
+
 ## Sample 1 — `_projects/18f_consulting.md`
 
 Most problematic case study: ancient, full of person names in tags, "Apple" as a tech, dead products.

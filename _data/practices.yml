@@ -105,10 +105,23 @@ practices:
       - Evaluative user research
       - Moderated user research
       - Unmoderated user research
+      - Qualitative research
+      - Qualitative
+      - Quantitative research
+      - quantitative research
+      - Quantitative analysis
+      - Observation
+      - Documentation review
+      - User test scenarios
+      - KJ technique
     notes: |
       Umbrella for user-facing research. Specific methods get their own
       entries (interviews, surveys, usability-testing) and a case study
-      can tag both `user-research` and the specific method.
+      can tag both `user-research` and the specific method. Aliases roll
+      up: generic qualitative/quantitative labels, method-only labels
+      (KJ technique, observation, documentation review), and artifact-
+      only labels (user test scenarios) — all map back to user-research
+      since the underlying activity is the same.
 
   - id: user-interviews
     display_name: User interviews
@@ -213,7 +226,7 @@ practices:
   - id: design-system
     display_name: Design system
     category: design
-    aliases: [Custom design system, Design pattern library]
+    aliases: [Custom design system, Design pattern library, User interface component inventory]
 
   - id: accessibility-design
     display_name: Accessibility design
@@ -509,6 +522,7 @@ practices:
   - id: performance-management
     display_name: Performance management
     category: recruiting
+    aliases: [Performance profiles]
 
 # ============================================================
 # Migration notes — entries from case studies on `main` (2026-05-20)
