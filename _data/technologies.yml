@@ -175,17 +175,25 @@ technologies:
   - id: rails
     display_name: Ruby on Rails
     category: backend
-    aliases: [Rails, "Ruby / Rails"]
+    aliases: [Rails]
+    notes: |
+      "Ruby / Rails" is a composite; the mapping script splits it into
+      Ruby + Ruby on Rails atomically rather than aliasing one to the other.
 
   - id: spring-boot
     display_name: Spring Boot
     category: backend
-    aliases: ["Java / Spring Boot"]
+    notes: |
+      "Java / Spring Boot" is a composite; the mapping script splits it
+      into Java + Spring Boot atomically rather than aliasing one to the
+      other.
 
   - id: django
     display_name: Django
     category: backend
-    aliases: ["Python / Django"]
+    notes: |
+      "Python / Django" is a composite; the mapping script splits it
+      into Python + Django atomically rather than aliasing one to the other.
 
   - id: express
     display_name: Express.js
@@ -204,7 +212,7 @@ technologies:
   - id: aws
     display_name: Amazon Web Services
     category: cloud-platform
-    aliases: [AWS, "AWS (Cloud One)", "cloud.gov / Amazon Web Services"]
+    aliases: [AWS, "AWS (Cloud One)"]
     notes: |
       Use this for the platform reference. AWS services (Lambda, S3, etc.)
       get their own entries below.
@@ -336,17 +344,26 @@ technologies:
   - id: github
     display_name: GitHub
     category: version-control
-    aliases: ["Git / GitHub"]
+    notes: |
+      "Git / GitHub" is a composite; the mapping script splits it into
+      Git + GitHub atomically rather than aliasing one to the other.
 
   - id: gitlab
     display_name: GitLab
     category: version-control
-    aliases: ["Git / GitLab"]
+    notes: |
+      "Git / GitLab" is a composite; the mapping script splits it into
+      Git + GitLab atomically rather than aliasing one to the other.
 
   - id: github-pages
     display_name: GitHub Pages
     category: version-control
-    aliases: [Federalist, "Federalist / GitHub Pages", "GitHub Pages / Jekyll"]
+    aliases: [Federalist, "Federalist / GitHub Pages"]
+    notes: |
+      Federalist was rebranded to GitHub Pages, so both names map to the
+      same canonical (rename, not composite). "GitHub Pages / Jekyll" is
+      a true composite — the mapping script splits it into GitHub Pages
+      + Jekyll atomically.
 
   # ============================================================
   # Databases + search
