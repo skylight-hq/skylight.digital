@@ -12,7 +12,11 @@ feature_image_description:
 feature_image_shadow:
 order: 3400
 display: true
-tags: [microconsulting, apis, open government, veterans, kin lane, chris cairns]
+tags:
+  - "Microconsulting"
+  - "APIs"
+  - "Open government"
+  - "Veterans"
 excerpt: A practical API governance playbook for the VA's API platform, drawn from a decade of API research and interviews with seven leading public- and private-sector teams — and published in the open for any agency to reuse.
 project_members:
   - kin-lane

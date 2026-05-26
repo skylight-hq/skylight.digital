@@ -10,7 +10,11 @@ feature_image_description:
 feature_image_shadow:
 order: 1600
 display: true
-tags: [service delivery, research & design, defense, space force, shashank khandelwal, maya benari, zoe do]
+tags:
+  - "Service delivery"
+  - "Research & design"
+  - "Defense"
+  - "Space Force"
 excerpt: A modern portal giving the U.S. Space Force one place to share announcements, resources, and day-to-day tools with more than 15,000 Guardians.
 project_members:
   - shashank-khandelwal
