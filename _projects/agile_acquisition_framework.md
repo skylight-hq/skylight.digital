@@ -13,22 +13,21 @@ feature_image_shadow:
 order: 3100
 display: true
 tags:
-  - "procurement"
-  - "coaching & training"
-  - "chris cairns"
-  - "robert read"
+  - "Procurement"
+  - "Coaching & training"
 excerpt: "A new acquisition model that redefined how government agencies procure software — adopted across more than a dozen programs and influencing procurement practices for years afterward."
 project_members:
   - chris-cairns
   - robert-read
 technologies:
   - "Google Workspace"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
   - "GitHub Pages"
   - "Jekyll"
 practices:
-  - "Customer research"
-  - "Industry research"
+  - "User research"
+  - "Secondary research"
   - "Lean startup"
   - "Iterative and incremental development"
 news_posts:

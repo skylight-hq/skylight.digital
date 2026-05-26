@@ -13,23 +13,19 @@ feature_image_shadow:
 order: 2310
 display: true
 tags:
-  - "internet of things"
-  - "geoff mulligan"
+  - "Internet of Things"
 excerpt: "Helping Jabil's clients develop IoT products faster, at lower cost, and with less risk of vendor lock-in."
 project_members:
   - geoff-mulligan
 technologies:
-  - "IoT"
   - "Azure IoT"
-  - "APIs"
   - "Microservices"
   - "6LoWPAN"
   - "MEMS"
 practices:
   - "Agile development"
   - "API-first development"
-  - "Open innovation"
-  - "Intelligent protocol system development"
+  - "Open-source development"
   - "Cloud hosting"
 project_url:
 project_cta:

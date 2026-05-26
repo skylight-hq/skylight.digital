@@ -13,37 +13,33 @@ feature_image_shadow:
 order: 4300
 display: true
 tags:
-  - "transformation"
-  - "chris cairns"
-  - "robert read"
+  - "Transformation"
 excerpt: "A consulting practice within GSA's 18F that helped federal agencies build digital capability through hands-on delivery, coaching, and organizational change."
 project_members:
   - chris-cairns
   - robert-read
 technologies:
-  - "Lever (recruiting software)"
   - "Google Workspace"
   - "Trello"
   - "Slack"
   - "Mural"
-  - "appear.in"
-  - "cloud.gov / Amazon Web Services"
-  - "Federalist / GitHub Pages"
+  - "cloud.gov"
+  - "Amazon Web Services"
+  - "GitHub Pages"
   - "Jekyll"
-  - "Git / GitHub"
-  - "Apple"
+  - "Git"
+  - "GitHub"
 practices:
   - "Servant leadership"
   - "Team of teams"
   - "Management by objectives"
   - "Schedule A(r) hiring authority"
   - "Civic recruiting"
-  - "Performance profiles"
-  - "Google interview practices"
-  - "Open innovation"
+  - "Performance management"
+  - "Open-source development"
   - "Virtual collaboration"
   - "Knowledge management"
-  - "Peer mentoring and coaching"
+  - "Coaching and training"
   - "Continuous improvement"
 news_posts:
   - title: "At 10 years, GSA's tech consulting team (18F) celebrates over 450 projects to make government work better"
