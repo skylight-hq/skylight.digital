@@ -13,22 +13,17 @@ feature_image_shadow:
 order: 1200
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "software delivery"
-  - "legacy modernization"
-  - "devops"
-  - "cloud & platforms"
-  - "data & analytics"
-  - "apis"
-  - "security & privacy"
-  - "defense"
-  - "air force"
-  - "laura king"
-  - "peggy chau"
-  - "gabriel ramirez"
-  - "ari perez"
-  - "gordon farrell"
+  - "Service delivery"
+  - "Research & design"
+  - "Software delivery"
+  - "Legacy modernization"
+  - "DevOps"
+  - "Cloud & platforms"
+  - "Data & analytics"
+  - "APIs"
+  - "Security & privacy"
+  - "Defense"
+  - "Air Force"
 excerpt: "An incremental modernization of the Air Force's 30-year-old cost accounting system, starting with the component serving over 12,000 users."
 project_members:
   - laura-king
@@ -37,39 +32,42 @@ project_members:
   - gabriel-ramirez
   - ari-perez
 technologies:
-  - HTML / CSS
-  - JavaScript / React / TypeScript
-  - Carbon Design System
-  - Node
-  - APIs
-  - GraphQL
-  - GitLab CI/CD
-  - Terraform
-  - Docker
-  - NGINX
-  - AWS (Cloud One)
-  - AWS Elastic Beanstalk (Cloud One)
-  - AWS Lambda (Cloud One)
-  - AWS RDS Oracle (Cloud One)
-  - Git / GitLab
+  - "HTML"
+  - "CSS"
+  - "JavaScript"
+  - "React"
+  - "TypeScript"
+  - "Carbon Design System"
+  - "Node.js"
+  - "GraphQL"
+  - "GitLab CI/CD"
+  - "Terraform"
+  - "Docker"
+  - "NGINX"
+  - "Amazon Web Services"
+  - "AWS Elastic Beanstalk"
+  - "AWS Lambda"
+  - "Amazon RDS"
+  - "Git"
+  - "GitLab"
 practices:
-  - User research
-  - Technical discovery
-  - User experience design
-  - Lean startup
-  - Design system
-  - Responsive design
-  - Accessibility
-  - Agile development
-  - API-first development
-  - Legacy reengineering / strangler pattern
-  - Data management
-  - DevSecOps
-  - Security / privacy compliance
-  - Containerization
-  - Cloud hosting
-  - Automated documentation
-  - Remote teams
+  - "User research"
+  - "Technical discovery"
+  - "User experience design"
+  - "Lean startup"
+  - "Design system"
+  - "Responsive design"
+  - "Accessibility design"
+  - "Agile development"
+  - "API-first development"
+  - "Legacy modernization"
+  - "Data management"
+  - "DevSecOps"
+  - "Security and privacy compliance"
+  - "Containerization"
+  - "Cloud hosting"
+  - "Automated documentation"
+  - "Virtual collaboration"
 news_posts:
   - title: "JOCAS II v7.0 Oracle upgrade and hardware refresh"
     url: https://www.afmc.af.mil/News/Article-Display/Article/3059199/jocas-ii-v70-oracle-upgrade-and-hardware-refresh/

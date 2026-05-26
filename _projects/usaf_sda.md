@@ -13,15 +13,11 @@ feature_image_shadow:
 order: 600
 display: true
 tags:
-  - "transformation"
-  - "research & design"
-  - "coaching & training"
-  - "defense"
-  - "air force"
-  - "charlye tran"
-  - "laura kerry"
-  - "olivia lucas"
-  - "zoe do"
+  - "Transformation"
+  - "Research & design"
+  - "Coaching & training"
+  - "Defense"
+  - "Air Force"
 excerpt: "An R&D effort that produced the Service Design Accelerator — a framework for embedding service design in how the Air Force delivers technology. The work later became the foundation for BESPIN's Design Studio, now serving 20+ programs."
 project_members:
   - charlye-tran
@@ -36,13 +32,13 @@ technologies:
 practices:
   - "Service design"
   - "Stakeholder mapping"
-  - "Customer and stakeholder interviews"
+  - "User interviews"
   - "Service blueprinting"
-  - "Prioritization workshops"
+  - "Design workshops"
   - "Consulting"
   - "Instructional design"
-  - "Coaching & training"
-  - "Pairing"
+  - "Coaching and training"
+  - "Pair programming"
   - "Capability development"
 news_posts:
   - title: "Skylight, Polydelta and the BESPIN Design Studio awarded U.S. Air Force critical technologies through service design"

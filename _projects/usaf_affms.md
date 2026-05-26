@@ -11,20 +11,18 @@ feature_image_shadow: true
 order: 1000
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "defense"
-  - "air force"
-  - "zack gehin"
-  - "shashank khandelwal"
-  - "maya benari"
+  - "Service delivery"
+  - "Research & design"
+  - "Defense"
+  - "Air Force"
 excerpt: "A redesigned interface for accessing fitness reports, improving one of the most frustrating user experiences for over 500,000 airmen."
 project_members:
   - zack-gehin
   - shashank-khandelwal
   - maya-benari
 technologies:
-  - "HTML / CSS"
+  - "HTML"
+  - "CSS"
   - "U.S. Web Design System"
   - "Sketch"
 practices:
@@ -39,7 +37,7 @@ practices:
   - "Wireframing"
   - "Prototyping"
   - "Agile development"
-  - "Pairing"
+  - "Pair programming"
 news_posts:
   - title: "Chief Bass' Instagram post (1,000+ likes)"
     url: https://www.instagram.com/p/CLVMxeJsH82/

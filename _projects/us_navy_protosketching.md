@@ -13,30 +13,29 @@ feature_image_shadow:
 order: 4100
 display: true
 tags:
-  - "microconsulting"
-  - "research & design"
-  - "product management"
-  - "defense"
-  - "navy"
-  - "robert read"
-  - "tom black"
+  - "Microconsulting"
+  - "Research & design"
+  - "Product management"
+  - "Defense"
+  - "Navy"
 excerpt: "A rapid protosketching session helped the Navy Reserve make a critical mobile product strategy decision for Ready-2-Serve in a single afternoon."
 project_members:
   - robert-read
   - tom-black
 technologies:
-  - "HTML / CSS"
+  - "HTML"
+  - "CSS"
   - "JavaScript"
-  - "Twitter Bootstrap"
-  - "Temporary URLs"
+  - "Bootstrap"
   - "Heroku"
-  - "Git / GitHub"
+  - "Git"
+  - "GitHub"
 practices:
-  - "Design pattern library"
+  - "Design system"
   - "Rapid prototyping"
   - "User story writing and estimation"
-  - "User testing"
-  - "Responsive web design"
+  - "Usability testing"
+  - "Responsive design"
   - "Open-source development"
   - "Cloud hosting"
 news_posts:

@@ -11,15 +11,12 @@ feature_image_shadow:
 order: 1250
 display: true
 tags:
-  - "service delivery"
-  - "research & design"
-  - "product management"
-  - "software delivery"
-  - "defense"
-  - "air force"
-  - "pri kiser"
-  - "tiffany nieh"
-  - "ashton tu"
+  - "Service delivery"
+  - "Research & design"
+  - "Product management"
+  - "Software delivery"
+  - "Defense"
+  - "Air Force"
 excerpt: "A searchable data catalog that replaced manual spreadsheets and gave the U.S. Air Force Weather Systems Program Office visibility into how weather data flows to customers."
 project_members:
   - pri-kiser
@@ -29,8 +26,10 @@ technologies:
   - "Confluence"
   - "Elasticsearch"
   - "Figma"
-  - "HTML / CSS"
-  - "JavaScript / React"
+  - "HTML"
+  - "CSS"
+  - "JavaScript"
+  - "React"
   - "Jira"
   - "Material-UI"
   - "Mattermost"
@@ -48,7 +47,7 @@ practices:
   - "Prototyping"
   - "Service design"
   - "User research"
-  - "User-centered design"
+  - "User experience design"
   - "Workshop facilitation"
 news_posts:
 project_url:

@@ -11,18 +11,13 @@ feature_image_shadow:
 order: 550
 display: true
 tags:
-  - "research & design"
-  - "product management"
-  - "legacy modernization"
-  - "transformation"
-  - "coaching & training"
-  - "defense"
-  - "air force"
-  - "taylor graue"
-  - "holly dewolf"
-  - "jennifer herzberg"
-  - "laura kerry"
-  - "kyle planeaux"
+  - "Research & design"
+  - "Product management"
+  - "Legacy modernization"
+  - "Transformation"
+  - "Coaching & training"
+  - "Defense"
+  - "Air Force"
 excerpt: "Redesigning critical weather workflows within BIFROST — the Air Force’s consolidated weather platform — while embedding the research and design practices needed to sustain the work."
 project_members:
   - taylor-graue
@@ -44,14 +39,13 @@ practices:
   - "Content design"
   - "Consulting"
   - "Design system"
-  - "Pairing"
+  - "Pair programming"
   - "Product management"
   - "Prototyping"
   - "Service design"
   - "Usability testing"
   - "User experience design"
   - "User research"
-  - "User-centered design"
   - "Visual design"
   - "Workshop facilitation"
 news_posts:
