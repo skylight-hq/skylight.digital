@@ -1,0 +1,127 @@
+name: case-study-lint
+
+# Runs the canonical-quality case-study linter
+# (skylight-hub/plugins/skylight-website-case-study-linter) against
+# _projects/*.md. This is the regression gate for the case-study taxonomy
+# rationalization: every tags / technologies / practices value must match a
+# canonical entry in this repo's _data/{filters,technologies,practices}.yml.
+#
+# The linter is federation canon and lives in skylight-hub (a PRIVATE repo).
+# This public repo can't read it with the default GITHUB_TOKEN, so the gate
+# checks out the hub linter using a HUB_READ_TOKEN secret (a fine-grained PAT
+# with read access to skylight-hq/skylight-hub, contents:read).
+#
+#   *** ACTIVATION ***
+#   Until HUB_READ_TOKEN is added to this repo's Actions secrets, the gate
+#   SKIPS with a warning (so this workflow merges cleanly and self-activates).
+#   To activate: create a fine-grained PAT (read-only, contents, on
+#   skylight-hq/skylight-hub) and add it as the HUB_READ_TOKEN repo secret.
+#
+# Once the federation resolves hub access (e.g., hub goes public, or a shared
+# org token lands), this workflow needs no change — it already prefers the
+# secret and falls back to skipping.
+
+on:
+  pull_request:
+    paths:
+      - '_projects/**'
+      - '_data/filters.yml'
+      - '_data/technologies.yml'
+      - '_data/practices.yml'
+      - '.github/workflows/case-study-lint.yml'
+  push:
+    branches: [master]
+    paths:
+      - '_projects/**'
+      - '_data/filters.yml'
+      - '_data/technologies.yml'
+      - '_data/practices.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout skylight.digital
+        uses: actions/checkout@v4
+
+      - name: Detect hub-access token
+        id: cfg
+        env:
+          HUB_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
+        run: |
+          if [ -n "$HUB_TOKEN" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Gate inactive notice
+        if: steps.cfg.outputs.ok != 'true'
+        run: |
+          echo "::warning title=case-study-lint inactive::No HUB_READ_TOKEN secret found. " \
+               "The case-study taxonomy gate is not enforcing. Add a fine-grained PAT " \
+               "(read-only, contents, on skylight-hq/skylight-hub) as the HUB_READ_TOKEN " \
+               "repo secret to activate. Skipping for now (non-blocking)."
+          echo "Gate skipped — see warning above."
+
+      - name: Checkout skylight-hub linter (canon)
+        if: steps.cfg.outputs.ok == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: skylight-hq/skylight-hub
+          token: ${{ secrets.HUB_READ_TOKEN }}
+          path: .hub
+          sparse-checkout: |
+            plugins/skylight-website-case-study-linter
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Ruby
+        if: steps.cfg.outputs.ok == 'true'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Lint all case studies against canonical taxonomy
+        if: steps.cfg.outputs.ok == 'true'
+        run: |
+          set -uo pipefail
+          LINTER=".hub/plugins/skylight-website-case-study-linter/skills/website-case-study-linter/scripts/lint_case_study.rb"
+          if [ ! -f "$LINTER" ]; then
+            echo "::error::Linter not found at $LINTER — hub layout may have changed."
+            exit 1
+          fi
+
+          failed=0
+          shopt -s nullglob
+          for f in _projects/*.md; do
+            out=$(ruby "$LINTER" "$f" --json 2>/dev/null) || true
+            # Count blocking findings via stdlib JSON.
+            blocking=$(printf '%s' "$out" | ruby -rjson -e '
+              begin
+                d = JSON.parse(STDIN.read)
+                puts(d["blocking"] || [])
+                  .map { |b| b["code"] }
+                  .join(",")
+              rescue
+                puts ""
+              end' 2>/dev/null)
+            if [ -n "$blocking" ]; then
+              echo "FAIL  $f — blocking: $blocking"
+              # Print the human-readable messages for the failing file.
+              ruby "$LINTER" "$f" 2>/dev/null | grep -E '^BLOCK' || true
+              failed=$((failed + 1))
+            fi
+          done
+
+          echo ""
+          if [ "$failed" -gt 0 ]; then
+            echo "$failed case study file(s) have blocking findings. See above."
+            echo "For taxonomy_invalid: use a canonical value, or add the new value to the"
+            echo "relevant _data/ list (filters.yml / technologies.yml / practices.yml) in a PR."
+            exit 1
+          fi
+          echo "All case studies pass the canonical-quality linter."
