@@ -9,7 +9,19 @@ name: sync-brand-pack
 # direction reversed (this repo fetches FROM hub instead of being fetched BY
 # hub).
 #
-# Source repo is public — no token beyond the default GITHUB_TOKEN needed.
+#   *** AUTH ***
+#   skylight-hub is PRIVATE. The default GITHUB_TOKEN (scoped to this repo)
+#   cannot read it, and unauthenticated raw.githubusercontent fetches 404.
+#   So this sync fetches via the GitHub contents API using a HUB_READ_TOKEN
+#   secret (a fine-grained PAT with contents:read on skylight-hq/skylight-hub).
+#   Until that secret is added, the sync SKIPS with a warning (non-blocking)
+#   so the workflow stays mergeable and self-activates once the secret lands.
+#   The same secret activates the case-study-lint gate.
+#
+#   NOTE: the companion brand-pack-freshness.yml job fails when a vendored
+#   file's synced_at is >30 days old. If this sync stays inactive (no token),
+#   the brand files will eventually trip that freshness gate — adding the
+#   secret resolves both.
 
 on:
   schedule:
@@ -34,21 +46,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Detect hub-access token
+        id: cfg
+        env:
+          HUB_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
+        run: |
+          if [ -n "$HUB_TOKEN" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sync inactive notice
+        if: steps.cfg.outputs.ok != 'true'
+        run: |
+          echo "::warning title=sync-brand-pack inactive::skylight-hub is private; this sync needs a HUB_READ_TOKEN secret (fine-grained PAT, contents:read on skylight-hq/skylight-hub) to fetch the brand-pack canon. Skipping (non-blocking) until it's added. The same secret activates the case-study-lint gate."
+          echo "Sync skipped — see warning above."
+
       - name: Resolve source default branch + SHA
+        if: steps.cfg.outputs.ok == 'true'
         id: src
+        env:
+          GH_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
         run: |
           BRANCH=$(gh api repos/${SOURCE_REPO} --jq '.default_branch')
           SHA=$(gh api repos/${SOURCE_REPO}/branches/${BRANCH} --jq '.commit.sha')
           echo "branch=${BRANCH}" >> "$GITHUB_OUTPUT"
           echo "sha=${SHA}"       >> "$GITHUB_OUTPUT"
           echo "Source: ${SOURCE_REPO}@${BRANCH} (${SHA})"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch + rewrite each mirrored file
+        if: steps.cfg.outputs.ok == 'true'
         id: fetch
+        env:
+          GH_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
           BRANCH="${{ steps.src.outputs.branch }}"
           SHA="${{ steps.src.outputs.sha }}"
           SYNCED_AT=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
@@ -56,17 +89,14 @@ jobs:
           changed_files=()
           skipped_files=()
           for f in $FILES; do
-            URL="https://raw.githubusercontent.com/${SOURCE_REPO}/${SHA}/${SOURCE_DIR}/${f}"
-            echo "Fetching $URL"
-            http_code=$(curl -s -o "/tmp/${f}.body" -w '%{http_code}' "$URL")
-            if [ "$http_code" = "404" ]; then
-              echo "  -> 404; skipping (upstream file not yet present)"
+            # Authenticated fetch via the contents API (works for private repos;
+            # `Accept: ...raw` streams the file bytes). Pinned to the resolved SHA.
+            echo "Fetching ${SOURCE_DIR}/${f} @ ${SHA}"
+            if ! gh api "repos/${SOURCE_REPO}/contents/${SOURCE_DIR}/${f}?ref=${SHA}" \
+                   -H "Accept: application/vnd.github.raw" > "/tmp/${f}.body" 2>/tmp/${f}.err; then
+              echo "  -> not retrievable (missing on source, or token lacks access); skipping"
               skipped_files+=("$f")
               continue
-            fi
-            if [ "$http_code" != "200" ]; then
-              echo "  -> HTTP $http_code; aborting"
-              exit 1
             fi
             BODY=$(cat "/tmp/${f}.body")
             DEST="${DEST_DIR}/${f}"
@@ -109,7 +139,7 @@ jobs:
           fi
 
       - name: Open / update PR with changes
-        if: steps.fetch.outputs.any_changed == 'true'
+        if: steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -133,10 +163,10 @@ jobs:
             brand-pack
 
       - name: No-op summary
-        if: steps.fetch.outputs.any_changed != 'true'
+        if: steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed != 'true'
         run: |
           echo "No diff in brand-pack content; nothing to PR."
           if [ -f /tmp/skipped.txt ]; then
-            echo "Skipped (upstream 404):"
+            echo "Skipped (not retrievable from source):"
             cat /tmp/skipped.txt
           fi
