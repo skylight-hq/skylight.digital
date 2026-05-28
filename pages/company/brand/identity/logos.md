@@ -209,24 +209,26 @@ A clear space of `2x` is recommended around the logo.
   <header class="grid__heading" markdown="1">
 ## Minimum sizes
   </header>
+  {%- assign logo_rules = site.data.brand["logo-rules"] -%}
+  {%- assign minsize = logo_rules.minimum_sizes -%}
   <div class="grid__image">
     <div class="section__img justify-content-evenly py-5">
       <div class="text-center">
         <p><b>Web</b></p>
         <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="Skylight logo with width indicator">
-        <p class="text-brand-info mt-2 font-2xs">100 px</p>
+        <p class="text-brand-info mt-2 font-2xs">{{ minsize.digital.width_px }} px</p>
       </div>
       <div class="text-center">
         <p><b>Print</b></p>
         <img class="img--min-size" src="/img/brand/identity/logos/minimum-sizes.svg" alt="Skylight logo with width indicator">
-        <p class="text-brand-info mt-2 font-2xs">1.375 IN</p>
+        <p class="text-brand-info mt-2 font-2xs">{{ minsize.print.width_inches }} IN</p>
       </div>
     </div>
   </div>
   <div class="grid__content" markdown="1">
 Legibility is critical for a logo — it should always be readable.
 
-Never scale the logo smaller than `100px` for the web and 1.375 inches for print.
+Never scale the logo smaller than `{{ minsize.digital.width_px }}px` for the web and {{ minsize.print.width_inches }} inches for print.
   </div>
 </div>
 
