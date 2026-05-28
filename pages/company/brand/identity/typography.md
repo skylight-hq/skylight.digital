@@ -49,12 +49,14 @@ redirect_from:
   <div class="grid__content" markdown="1">
 [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?query=fran&preview.text_type=custom) is the primary typeface with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono&preview.text_type=custom) serving as a complementary typeface. Both are available from Google Fonts.
 
-1. Libre Franklin Bold 700
-2. Libre Franklin SemiBold 600
-3. Libre Franklin Medium 500
-4. Libre Franklin Regular 400
-5. Libre Franklin Light 300
-6. Roboto Mono Regular 400
+{%- assign typography = site.data.brand.typography -%}
+{%- assign primary_weights_desc = typography.families.primary.weights | reverse -%}
+{%- for w in primary_weights_desc %}
+1. {{ typography.families.primary.name }} {{ w.name }} {{ w.weight }}
+{%- endfor -%}
+{%- for w in typography.families.monospace.weights %}
+1. {{ typography.families.monospace.name }} {{ w.name }} {{ w.weight }}
+{%- endfor %}
 {: .list--circle }
   </div>
 </div>
