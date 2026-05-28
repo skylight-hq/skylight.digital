@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/customer-brand-rules.yml
 # source_branch: main
-# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
-# synced_at: 2026-05-23T22:18:50Z
+# source_sha: 3fbdd2eeb6e364b947c5607bc6059f89811c308e
+# synced_at: 2026-05-28T14:23:09Z
 ---
 # Customer brand handling — meta rules + per-client status registry.
 #
@@ -122,7 +122,7 @@ per_client_pack_status:
 # -- Cross-references ---------------------------------------------------------
 
 cross_references:
-  proposal: skylight-hub/proposals/active/skylight-marcom-spoke.md
+  proposal: skylight-hub/plans/active/skylight-marcom-spoke.md
   per_client_marketplace_naming: skylight-hub/standards/naming-conventions.md
   brand_canon: skylight-hub/plugins/skylight-brand-pack/
 
