@@ -18,11 +18,10 @@ redirect_from:
 
 Our voice helps us convey who we are to our audience and is defined by our vision, mission, and values. Having a consistent voice is essential, regardless of who creates the content. Skylight’s voice has five key qualities that reflect both what we say and how we say it:
 
-- Expressive
-- Smart
-- Lighthearted
-- Embracing
-- Worldly
+{%- assign voice_tone = site.data.brand["voice-tone"] -%}
+{%- for q in voice_tone.voice_qualities %}
+- {{ q.name }}
+{%- endfor %}
 
 Working together, these qualities make everything we write sound uniquely Skylight.
 
