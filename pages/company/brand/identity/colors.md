@@ -44,7 +44,7 @@ These colors and their meanings help define the way our audience feels about Sky
   </header>
   <div class="grid__image section__img section__img--palette">
     <div class="swatch__container brand-swatch row">
-      {% assign color = site.data.color %}
+      {% assign color = site.data.brand.colors %}
       {% for item in color.primary %}
         <div class="swatch-group col-6 col-md-4">
           <div class="swatch bg-{{ item.token }}"></div>
@@ -66,7 +66,7 @@ The Skylight brand mainly uses blue, gray, and ochre. The blue is the accent col
   </header>
   <div class="grid__image section__img section__img--palette">
     <div class="swatch__container brand-swatch row">
-      {% assign color = site.data.color %}
+      {% assign color = site.data.brand.colors %}
       {% for item in color.secondary %}
         <div class="swatch-group col-6 col-md-4">
           <div class="swatch bg-{{ item.token }}"></div>
@@ -89,7 +89,7 @@ We use the gray colors for text, charts, etc.
 ## Tints
   </header>
   <div class="grid__image section__img p-4 p-md-5">
-    {% assign color = site.data.color %}
+    {% assign color = site.data.brand.colors %}
     <div class="row">
       {% for family in page.families %}
         <div class="swatch__col col-md-6">
