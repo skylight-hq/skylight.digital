@@ -4,24 +4,32 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/brand-narrative.yml
 # source_branch: main
-# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
-# synced_at: 2026-05-23T22:18:50Z
+# source_sha: b6b1c16e7db72a7ef6ddc1b45d085a01ddbeeefa
+# synced_at: 2026-05-28T20:16:28Z
 ---
 # Skylight brand narrative — canonical data.
 #
-# Mission, the "Skylight difference", brand personality, sample messaging.
-# Sourced from skylight.digital/pages/company/brand/writing/brand_narrative.md
-# and the Skylight Brand Guidelines (Version 5).
+# Source of truth: Skylight Brand Guidelines (Version 5), pp. 26–30.
+# The website page (skylight.digital/pages/company/brand/writing/
+# brand_narrative.md) faithfully mirrors that PDF.
+#
+# Fields marked "PDF-canon" carry prose lifted verbatim from the PDF/page;
+# do not paraphrase on sync. Fields marked "internal-extension" are
+# Skylight-derived for channel-writer convenience and are NOT in the PDF —
+# treat as editorial, not as canon.
 
 meta:
-  schema_version: 1
-  source: skylight.digital/pages/company/brand/writing/brand_narrative.md
-  synced_at: "2026-05-23"
+  schema_version: 2
+  source_canon: "Skylight Brand Guidelines (Version 5), pp. 26–30"
+  source_mirror: skylight.digital/pages/company/brand/writing/brand_narrative.md
+  synced_at: "2026-05-28"
+  # schema_version bumped from 1 to 2 in PR fixing prose-canon drift
+  # (the v1 strings were paraphrases, not verbatim mirrors).
 
-# -- Mission ------------------------------------------------------------------
+# -- Mission (PDF-canon) ------------------------------------------------------
 
 mission:
-  one_sentence: "We make government work in a digital world."
+  one_sentence: "Our mission is to make government work in a digital world."
   why: |
     Every day millions of people — from veterans to immigrants — depend on
     government services to fulfill their needs. But too often these
@@ -39,31 +47,32 @@ mission:
 
 # -- The Skylight difference --------------------------------------------------
 #
-# Why customers choose Skylight. The brand-narrative page presents these
-# as a single block of prose; here they're individually addressable so
-# channel writers can pull a single line for a specific post context.
+# Six differentiators, presented as a single block of prose on the brand-
+# narrative page. `long:` is PDF-canon (verbatim). `short:` is
+# internal-extension — a channel-writer-friendly truncation derived from
+# the canon sentence, not from the PDF.
 
 difference:
   - id: most-talented
-    short: "Most talented group of digital professionals in government contracting."
+    short: "Most talented group of digital professionals in government contracting."  # internal-extension
     long: |
-      The most talented group of digital professionals within the
+      We're the most-talented group of digital professionals within the
       government contracting industry.
 
   - id: public-servants
-    short: "Public servants at heart."
+    short: "Public servants at heart."  # internal-extension
     long: |
-      Public servants at heart who understand and steward the critical
-      missions of government.
+      We're public servants at heart who understand and steward the
+      critical missions of government.
 
   - id: government-and-commercial
-    short: "Unique blend of government and commercial know-how."
+    short: "Unique blend of government and commercial know-how."  # internal-extension
     long: |
-      A unique blend of government and commercial know-how to solving our
-      customer's biggest digital challenges.
+      We bring a unique blend of government and commercial know-how to
+      solving our customer's biggest digital challenges.
 
   - id: modern-ways
-    short: "Pursue modern ways of working."
+    short: "Pursue modern ways of working."  # internal-extension
     long: |
       We pursue modern ways of working. New trends and technologies are
       constantly on the horizon. We embrace — even pioneer — new
@@ -72,7 +81,7 @@ difference:
       customers.
 
   - id: capacity-building
-    short: "Believe in capacity building."
+    short: "Believe in capacity building."  # internal-extension
     long: |
       We believe in the importance of capacity building. Regardless of
       mission, all government agencies are now technology organizations,
@@ -81,19 +90,21 @@ difference:
       such mastery.
 
   - id: diverse-equitable-inclusive
-    short: "Diverse, equitable, and inclusive."
+    short: "Diverse, equitable, and inclusive."  # internal-extension
     long: |
       We strive to create a diverse, equitable, and inclusive environment
       for everyone.
 
-# -- Brand personality --------------------------------------------------------
+# -- Brand personality (PDF-canon) --------------------------------------------
+#
+# Five traits. `name` + `description` lifted verbatim from PDF/page.
 
 personality:
   - id: mission-oriented
     name: Mission oriented
     description: |
-      Driven by a burning passion to create better outcomes for the public
-      through great government digital services.
+      We're driven by a burning passion to create better outcomes for the
+      public through great government digital services.
 
   - id: talented
     name: Talented
@@ -110,7 +121,7 @@ personality:
 
   - id: lighthearted
     name: Lighthearted
-    description: "Approachable and easy to work with."
+    description: "We're approachable and easy to work with."
 
   - id: welcoming
     name: Welcoming
@@ -118,26 +129,74 @@ personality:
       We strive to create a diverse, equitable, and inclusive environment
       that's welcoming to people of all identities and backgrounds.
 
-# -- Audience messaging -------------------------------------------------------
+# -- Sample messaging (PDF-canon) ---------------------------------------------
 #
-# Variants of the core narrative tuned for specific audiences. Channel
-# writers query these when drafting recruiting posts, partner outreach,
-# etc.
+# Note: `longer_description` contains the Liquid placeholder
+# `{{ site.state_count }}` to match the website page exactly. When this
+# YAML is consumed by the Jekyll site, that placeholder resolves to the
+# dynamic value. Consumers outside the website should treat it as a
+# literal placeholder (the printed PDF shows "24").
+
+sample_messaging:
+  one_sentence_description: |
+    Skylight is a digital consultancy using design and technology to help
+    government agencies deliver better public services.
+  longer_description: |
+    Skylight is a digital consultancy using design and technology to help
+    government agencies deliver better public services. Our talented team
+    consists of former Presidential Innovation Fellows, founders of 18F,
+    and members of the U.S. Digital Service. Our areas of expertise
+    include human-centered design, lean-agile engineering, DevSecOps,
+    cloud computing, open-source software, APIs, legacy modernization,
+    data management, digital transformation, digital procurement, and
+    training.
+
+    We partner with different clients from across government, including
+    the U.S. Air Force, Centers for Medicare & Medicaid Services, U.S.
+    Department of Veterans Affairs, Connecticut Office of Early
+    Childhood, and many others. Skylight is based out of sunny Sarasota,
+    Florida, though we're a distributed and remote-friendly team spread
+    across more than {{ site.state_count }} different states.
+
+# -- Messaging by audience ----------------------------------------------------
+#
+# `prospective_employees` is PDF-canon (verbatim).
+# `prospective_customers` is PDF-canon — the PDF says "See longer
+# description under sample messaging" for this audience pool (which also
+# covers prospective teaming partners, academia, media).
+# `partners` and `public_audiences` are internal-extension — not in the
+# PDF, retained as channel-writer convenience.
 
 messaging:
   prospective_customers: |
-    Skylight helps government agencies modernize the digital services they
-    deliver to the public. We combine human-centered design with lean-agile
-    engineering to ship services that work — and to build the internal
-    capacity that keeps them working after we leave.
+    See longer description under sample_messaging.
+    (Same audience pool also covers prospective teaming partners,
+    academia, and media per the brand guidelines.)
 
   prospective_employees: |
-    Skylight is a place to do the best work of your career, alongside
-    people who care about the same things you do. We work on government
-    services that matter. We hire experts and trust them. We're remote-
-    first, distributed, and serious about doing the work without
-    pretending we have it all figured out.
+    Skylight is more than a company. We represent a movement to reinvent
+    how the government serves families, patients, veterans, immigrants,
+    and many others in today's digital world. Everything about us — our
+    structure, values, services, work, thoughts, and team — is designed
+    with that purpose in mind.
 
+    It's people like you — with talents in research, design, product,
+    engineering, data, and more — who can make a difference. We've
+    created an environment that empowers you to use your skills for
+    public good, whether that's improving early childhood outcomes, or
+    helping to improve the lives of veterans. You'll work alongside a
+    team of extraordinarily talented people who strive to bring out the
+    best in you and each other. You'll also be taken care of with a
+    well-thought-out compensation and benefits package.
+
+    We want you to be happy, fulfilled, and well-supported. We're still
+    in startup mode, and our future is bright. We're doing impactful
+    work, building an amazing team, and improving every day. Everyone is
+    given the opportunity to shape the company in some way.
+
+    We'd love for you to join us in creating something special.
+
+  # internal-extension below — not in PDF
   partners: |
     Skylight partners with organizations across government services
     delivery — system integrators, design firms, research shops, civic-tech
@@ -153,11 +212,12 @@ messaging:
 
 # -- Three-companies framing --------------------------------------------------
 #
-# A standard analogy from the brand guidelines. Useful when an audience
-# asks "what kind of company is Skylight?"
+# `three_companies` is PDF-canon. `reading:` is internal-extension —
+# editorial gloss for channel writers, not in the PDF.
 
 analogy:
   three_companies: "Google + McKinsey + ReadySet"
+  intro: "If Skylight were the combination of three companies, we'd be..."
   reading: |
     Engineering depth (Google) + strategic-advisory experience (McKinsey)
     + government-services credibility (ReadySet). The combination is the

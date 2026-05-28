@@ -4,29 +4,46 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/typography.yml
 # source_branch: main
-# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
-# synced_at: 2026-05-23T22:18:50Z
+# source_sha: b6b1c16e7db72a7ef6ddc1b45d085a01ddbeeefa
+# synced_at: 2026-05-28T20:16:28Z
 ---
 # Skylight brand typography — canonical data.
 #
-# Sourced from skylight.digital/pages/company/brand/identity/typography.md
-# and the Skylight Brand Guidelines (Version 5).
+# Source of truth: Skylight Brand Guidelines (Version 5), p. 19 — typeface
+# names + 5 Libre Franklin weights (Bold 700 / SemiBold 600 / Medium 500 /
+# Regular 400 / Light 300) and Roboto Mono Regular 400. The website page
+# (skylight.digital/pages/company/brand/identity/typography.md) faithfully
+# mirrors that PDF.
+#
+# Fields below carry inline annotations: PDF-canon (verbatim) vs
+# internal-extension (Skylight-derived, not in PDF). Channel-writer
+# consumers should treat internal-extension fields as editorial guidance,
+# not as canon.
 
 meta:
-  schema_version: 1
-  source: skylight.digital/pages/company/brand/identity/typography.md
-  synced_at: "2026-05-23"
+  schema_version: 2
+  source_canon: "Skylight Brand Guidelines (Version 5), p. 19"
+  source_mirror: skylight.digital/pages/company/brand/identity/typography.md
+  synced_at: "2026-05-28"
+  # schema_version bumped from 1 to 2 in PR annotating canon vs
+  # internal-extension fields (scale, fallback_stack, license, use_for
+  # were all internal — labeling makes consumers aware).
 
 # -- Type families ------------------------------------------------------------
+#
+# PDF-canon (verbatim from p. 19):
+#   - `name`, `role`, `weights[]` (weight number + name), `italics[]`
+# INTERNAL-EXTENSION (Skylight-derived, not in PDF):
+#   - `source` (Google Fonts URL), `license`, `fallback_stack`, `use_for`
 
 families:
 
   primary:
     name: Libre Franklin
     role: Primary brand typeface
-    source: https://fonts.google.com/specimen/Libre+Franklin
-    license: SIL Open Font License 1.1
-    fallback_stack: |
+    source: https://fonts.google.com/specimen/Libre+Franklin  # internal-extension
+    license: SIL Open Font License 1.1  # internal-extension
+    fallback_stack: |  # internal-extension
       "Libre Franklin", "Helvetica Neue", Arial, sans-serif
     weights:
       - { weight: 300, name: Light }
@@ -35,8 +52,10 @@ families:
       - { weight: 600, name: SemiBold }
       - { weight: 700, name: Bold }
     italics:
-      - { weight: 300, name: "Light Italic" }
-    use_for:
+      - { weight: 300, name: "Light Italic" }  # PDF p. 19 shows italic in
+                                               # the "vast and endless sea"
+                                               # specimen line
+    use_for:  # internal-extension
       - Headings (all levels)
       - Body copy
       - UI text
@@ -45,22 +64,24 @@ families:
   monospace:
     name: Roboto Mono
     role: Complementary mono typeface
-    source: https://fonts.google.com/specimen/Roboto+Mono
-    license: Apache License 2.0
-    fallback_stack: |
+    source: https://fonts.google.com/specimen/Roboto+Mono  # internal-extension
+    license: Apache License 2.0  # internal-extension
+    fallback_stack: |  # internal-extension
       "Roboto Mono", Menlo, Monaco, "Courier New", monospace
     weights:
       - { weight: 400, name: Regular }
-    use_for:
+    use_for:  # internal-extension
       - Code samples
       - Attribution / metadata lines
       - Technical specs
 
 # -- Scale recommendations ----------------------------------------------------
 #
-# These are recommendations not absolutes — the website's stylesheet has
-# the production values; this list is what channel writers reference when
-# they need to know what type sizes Skylight uses.
+# INTERNAL-EXTENSION (not in PDF): the PDF does not publish a type scale
+# table. Values below are my rough mapping of skylight.digital's current
+# CSS rendering — useful as channel-writer reference but NOT canon.
+# Treat as informational only; the production CSS in skylight.digital is
+# the actual source of truth for site type sizes.
 
 scale:
   display:    { rem: 4.0, weight: 500, line_height: 1.1 }
