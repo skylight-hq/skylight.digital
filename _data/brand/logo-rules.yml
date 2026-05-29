@@ -4,22 +4,29 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/logo-rules.yml
 # source_branch: main
-# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
-# synced_at: 2026-05-23T22:18:50Z
+# source_sha: b6b1c16e7db72a7ef6ddc1b45d085a01ddbeeefa
+# synced_at: 2026-05-28T20:16:28Z
 ---
 # Skylight logo rules — canonical data.
 #
-# Sourced from skylight.digital/pages/company/brand/identity/logos.md
-# and the Skylight Brand Guidelines (Version 5).
+# Source of truth: Skylight Brand Guidelines (Version 5), pp. 2–12 +
+# p. 13 (Icons). The website page (skylight.digital/pages/company/brand/
+# identity/logos.md) faithfully mirrors that PDF.
 #
-# SVG sources for each variant ship alongside this file at
-# `../assets/logos/`.
+# Fields below carry inline annotations: PDF-canon (verbatim) vs
+# internal-extension (Skylight-derived, not in PDF). SVG sources for
+# each variant ship alongside this file at `../assets/logos/`.
 
 meta:
-  schema_version: 1
-  source: skylight.digital/pages/company/brand/identity/logos.md
-  synced_at: "2026-05-23"
+  schema_version: 2
+  source_canon: "Skylight Brand Guidelines (Version 5), pp. 2–12"
+  source_mirror: skylight.digital/pages/company/brand/identity/logos.md
+  synced_at: "2026-05-28"
   assets_at: plugins/skylight-brand-pack/assets/logos/
+  # schema_version bumped from 1 to 2 in PR fixing canon drift:
+  # added missing "image in logo" forbidden modification (PDF p. 12 #5);
+  # added halo placement detail in composition; annotated invented
+  # internal-extension fields.
 
 # -- Variants -----------------------------------------------------------------
 
@@ -57,6 +64,8 @@ variants:
     file: assets/logos/skylight-one-color-inverse.svg
     use_when: "Single-color reproductions on dark backgrounds."
 
+  # internal-extension below — HUBZone variant is not in PDF pp. 2-13;
+  # may appear in appendices. Retained as a real variant Skylight uses.
   - id: hubzone
     name: Skylight + HUBZone certification
     file: assets/logos/skylight-hubzone.svg
@@ -66,7 +75,7 @@ variants:
       where the audience cares about set-aside status — most external
       surfaces use the standard logo without the HUBZone mark.
 
-# -- Composition --------------------------------------------------------------
+# -- Composition (PDF-canon, p. 3 + p. 8) -------------------------------------
 
 composition:
   logotype: |
@@ -78,13 +87,17 @@ composition:
     The logotype should never appear without the logomark. The logomark
     (halo) CAN appear alone as an icon — see icon-usage rules in the
     icons section of the brand-identity pages.
+  halo_placement: |
+    The halo is positioned after the logotype at a distance of `x` to the
+    right and `2x` above the baseline, where `x` is the thickness of the
+    halo band. (PDF p. 8.)
 
-# -- Spacing ------------------------------------------------------------------
+# -- Spacing (PDF-canon, p. 8) ------------------------------------------------
 
 spacing:
   clear_space:
-    rule: "2x the height of the logomark on all sides."
-    rationale: |
+    rule: "A clear space of `2x` is recommended around the logo."
+    rationale: |  # internal-extension
       Clear space ensures the logo never feels cramped against headlines,
       borders, or other graphic elements. 2x the halo height is the minimum;
       more is fine.
@@ -117,31 +130,34 @@ rotation:
 
 # -- Things to avoid (forbidden modifications) --------------------------------
 #
-# The "Things to avoid" page on skylight.digital is the canonical
-# enumeration. Codifying here so the future `brand.logo_modification_warning`
-# linter can flag known violations in committed assets.
+# PDF p. 12 enumerates 8 "Things to avoid". Items marked PDF-canon below
+# map 1:1 to that list (sometimes with rule text expanded for linter use).
+# Items marked internal-extension are useful additions not in the PDF —
+# retained for the future `brand.logo_modification_warning` linter.
 
 forbidden_modifications:
+  # PDF p. 12 #1: "Changing the color of the logo"
   - id: no-recolor
     rule: "Do not recolor the logo outside the sanctioned variants."
     why: "Color carries brand meaning; arbitrary recoloring breaks the system."
 
+  # PDF p. 12 #2 + #8: "Skewing the logo's width or height" + "Changing the
+  # logo's proportions"
   - id: no-stretch
     rule: "Do not stretch, skew, or otherwise distort the proportions."
     why: "Wordmark + halo proportions are designed; distortion breaks them."
 
-  - id: no-effects
-    rule: "Do not apply drop shadows, glows, bevels, or other effects."
-    why: "The logo is a flat mark by design."
-
+  # PDF p. 12 #4: "Outlining the logo"
   - id: no-outline
     rule: "Do not add an outline or stroke around the logo."
-    why: "Same as effects — the mark is solid fills."
+    why: "The logo is a flat mark; outlines break the design."
 
-  - id: no-pattern-fill
-    rule: "Do not fill the logo with a pattern, gradient, or texture."
-    why: "Brand colors are solid; patterns/gradients break the system."
+  # PDF p. 12 #5: "Placing an image in the logo"
+  - id: no-image-in-logo
+    rule: "Do not place an image (photo, illustration, screenshot) inside the logo or its halo."
+    why: "The logo is a solid mark; image-fills break the visual identity."
 
+  # PDF p. 12 #6: "Using the logo over a busy background"
   - id: no-photo-bg
     rule: "Do not place the logo over a busy photographic background."
     why: |
@@ -149,23 +165,39 @@ forbidden_modifications:
       solid panel underneath, or pick a different variant (inverse,
       one-color) appropriate for the surface.
 
-  - id: no-bg-recolor
-    rule: "Do not place the inverse logo over a non-sanctioned dark color."
-    why: "Inverse is designed for gray-300 / red-200 / blue-300 / green-300."
+  # PDF p. 12 #7 — also enforced via `rotation.forbidden` above
+  - id: no-bad-rotation
+    rule: "Do not rotate the logo to anything other than 0° or 90°."
+    why: "Only standard (0°) and clockwise-vertical (90°) are sanctioned."
 
-  - id: no-rearrange
-    rule: "Do not move the halo relative to the logotype, or rearrange the elements."
-    why: |
-      The mark is composed; the relationship between wordmark and halo is
-      part of the design. Treat the logo as an atomic unit.
-
+  # PDF p. 12 #3: "Recreating the logo in another font"
   - id: no-typesub
     rule: "Do not substitute the logotype font."
     why: |
       The logotype is set in a custom typeface (not the brand body font).
       Substituting it removes the distinct visual identity.
 
-  - id: no-trademark-removal
+  # internal-extension below — not in PDF p. 12 list, but useful
+  # constraints the linter should flag
+  - id: no-effects  # internal-extension
+    rule: "Do not apply drop shadows, glows, bevels, or other effects."
+    why: "The logo is a flat mark by design; effects break the system."
+
+  - id: no-pattern-fill  # internal-extension
+    rule: "Do not fill the logo with a pattern, gradient, or texture."
+    why: "Brand colors are solid; patterns/gradients break the system."
+
+  - id: no-bg-recolor  # internal-extension
+    rule: "Do not place the inverse logo over a non-sanctioned dark color."
+    why: "Inverse is designed for gray-300 / red-200 / blue-300 / green-300."
+
+  - id: no-rearrange  # internal-extension
+    rule: "Do not move the halo relative to the logotype, or rearrange the elements."
+    why: |
+      The mark is composed; the relationship between wordmark and halo is
+      part of the design. Treat the logo as an atomic unit.
+
+  - id: no-trademark-removal  # internal-extension
     rule: "Do not remove ®/™ marks on official surfaces."
     why: "Trademark indicators are required on first-mention surfaces."
 

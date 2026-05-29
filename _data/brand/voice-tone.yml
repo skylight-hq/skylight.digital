@@ -4,70 +4,77 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/voice-tone.yml
 # source_branch: main
-# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
-# synced_at: 2026-05-23T22:18:50Z
+# source_sha: b6b1c16e7db72a7ef6ddc1b45d085a01ddbeeefa
+# synced_at: 2026-05-28T20:16:28Z
 ---
 # Skylight voice + tone qualities — canonical data.
 #
 # This file lists *what* the voice qualities are (5 names + one-line
-# descriptions). The Skylight Content Guide (skylight-hub/standards/
-# content-guide.md, also rendered as skylight.digital/work/toolkits/
-# content-guide/voice-and-tone/) carries the *examples* of each in
-# practice.
+# descriptions). The Skylight Content Guide carries the *examples* of
+# each in practice.
 #
 # Decision committed: brand-pack lists qualities; content-guide has
-# examples. Cross-linked, no duplication. See migration plan
-# `Resolved decisions` section.
+# examples. Cross-linked, no duplication.
 #
-# Sourced from skylight.digital/pages/company/brand/writing/
-# voice_and_tone.md and the Skylight Brand Guidelines (Version 5).
+# Source of truth: Skylight Brand Guidelines (Version 5), p. 31 names
+# the 5 qualities; the Content Guide (skylight-hub/standards/
+# content-guide.md §Voice qualities) carries the one-line descriptions
+# verbatim from there. Both are PDF-blessed canon.
 
 meta:
-  schema_version: 1
-  source: skylight.digital/pages/company/brand/writing/voice_and_tone.md
-  synced_at: "2026-05-23"
+  schema_version: 2
+  source_canon:
+    - "Skylight Brand Guidelines (Version 5), p. 31 — quality names"
+    - "skylight-hub/standards/content-guide.md §Voice qualities — one-line descriptions"
+  source_mirror: skylight.digital/pages/company/brand/writing/voice_and_tone.md
+  synced_at: "2026-05-28"
   examples_in: skylight-hub/standards/content-guide.md
   examples_rendered_at: https://skylight.digital/work/toolkits/content-guide/voice-and-tone/
+  # schema_version bumped from 1 to 2 in PR fixing voice-quality one-liners
+  # (v1 one_line values were paraphrases I drafted; v2 lifts them verbatim
+  # from the content guide, which is itself PDF-blessed canon).
 
 # -- Voice qualities (constant — same across audiences) -----------------------
+#
+# All five `one_line:` strings are verbatim from the Content Guide's
+# voice-quality section intros. Do not paraphrase on sync — if the
+# Content Guide updates, mirror the change here.
 
 voice_qualities:
   - id: expressive
     name: Expressive
     one_line: |
-      We say what we mean, with feeling. Skylight prose has a point of view —
-      we don't hedge into corporate neutrality.
+      We use simple words and phrases to convey profound thoughts and big
+      feelings.
 
   - id: smart
     name: Smart
     one_line: |
-      We earn our seat at the table with substance. Specific over generic,
-      concrete over aspirational, named over vague.
+      We bring unique knowledge and insights to the conversation.
 
   - id: lighthearted
     name: Lighthearted
     one_line: |
-      We don't take ourselves too seriously, even when the work is serious.
-      Warmth shows up in how we talk about hard problems.
+      The world is tough. The work we do is tough. We don't take ourselves
+      too seriously, and we're easy to work with.
 
   - id: embracing
     name: Embracing
     one_line: |
-      We welcome the people we work with and the audiences we serve. Plain
-      language, inclusive framing, never punching down.
+      Whoever you are, we're your biggest supporter.
 
   - id: worldly
     name: Worldly
     one_line: |
-      We know our domain (civic tech, government services, modern engineering
-      practice) and we know its history. References + context land naturally.
+      We're interested, knowledgeable, and always learning. We have a broad
+      worldview, but we're not know-it-alls.
 
 # -- Tone modulation (varies by audience) -------------------------------------
 #
-# Voice is constant; tone shifts with audience. The content guide has
-# concrete examples for each axis below. Channel writers query the
-# guide for "how do I write a contract-win post in Skylight voice for
-# a federal-agency audience?"
+# INTERNAL-EXTENSION (not in PDF): tone axes + values below are
+# Skylight-internal scaffolding for channel writers. The PDF says only
+# "modulate tone based on audience" and points to the Content Guide for
+# examples. The axes/values here are useful editorial structure, retained.
 
 tone_axes:
   - id: audience-formality

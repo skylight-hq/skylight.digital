@@ -4,24 +4,33 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/illustration.yml
 # source_branch: main
-# source_sha: 332f9d61c6fe3cd5251e791571efe8280f908585
-# synced_at: 2026-05-23T22:18:50Z
+# source_sha: b6b1c16e7db72a7ef6ddc1b45d085a01ddbeeefa
+# synced_at: 2026-05-28T20:16:28Z
 ---
 # Skylight illustration principles + visual style — canonical data.
 #
-# Sourced from skylight.digital/pages/company/brand/illustration/
-# principles.md + visual_style.md + illustration_types.md, and the
-# Skylight Brand Guidelines (Version 5).
+# Source of truth: Skylight Brand Guidelines (Version 5), pp. 33–42.
+# The website pages (skylight.digital/pages/company/brand/illustration/
+# {principles,visual_style,illustration_types}.md) faithfully mirror that
+# PDF. All prose strings below are lifted verbatim from PDF/page — do
+# not paraphrase on sync.
 
 meta:
-  schema_version: 1
-  source:
+  schema_version: 2
+  source_canon: "Skylight Brand Guidelines (Version 5), pp. 33–42"
+  source_mirror:
     - skylight.digital/pages/company/brand/illustration/principles.md
     - skylight.digital/pages/company/brand/illustration/visual_style.md
     - skylight.digital/pages/company/brand/illustration/illustration_types.md
-  synced_at: "2026-05-23"
+  synced_at: "2026-05-28"
+  # schema_version bumped from 1 to 2 in PR fixing visual_style + types
+  # (v1 had paraphrased visual_style rules, an invented faces_and_hands
+  # section, and a wrong types taxonomy — hero/spot/icon/diagram, none of
+  # which appear in the PDF or website pages).
 
-# -- Six core illustration principles -----------------------------------------
+# -- Six core illustration principles (PDF-canon) -----------------------------
+#
+# Names + descriptions verbatim from PDF p. 34.
 
 principles:
   - id: highlight-impact
@@ -36,15 +45,18 @@ principles:
     description: |
       People are at the center of our work. Embody this by incorporating
       human elements such as a person's full body, face, or hands.
+
       Typically, illustrations with objects only are reserved for icons.
 
   - id: digitize
     name: Digitize
     description: |
       Show people interacting with technology, or in visual metaphors
-      about the physical and digital world intersecting. In some cases,
-      it might be more compelling to focus on the ultimate outcomes of
-      our work rather than the technology or methods that we use.
+      about the physical and digital world intersecting.
+
+      In some cases, it might be more compelling to focus on the ultimate
+      outcomes of our work rather than the technology or methods that we
+      use.
 
   - id: simplify
     name: Simplify
@@ -66,73 +78,115 @@ principles:
     name: Contextualize
     description: |
       Keep in mind the purpose that the illustration is intended to serve.
+
       For example, if the illustration will accompany a case study or blog
       post, reinforce what we're trying to accomplish within the text —
       that is, what we're trying to communicate to the target audience.
 
-# -- Visual-style constraints -------------------------------------------------
+# -- Visual style (PDF-canon) -------------------------------------------------
+#
+# Structured to match the website page's section breakdown:
+# Palette → Primary colors → Skin and hair → General guidance → Graphic
+# elements. Prose lifted verbatim.
 
 visual_style:
   palette:
-    rule: "Use the limited brand palette (primary + secondary in colors.yml). No off-palette hues."
-    accent_colors:
-      - ochre-100  # the warm accent
-      - red-100    # the energetic accent
-    line_color: gray-300
+    intro: |
+      To create unity and cohesion within the brand, we use color in a
+      specific way. The limited color palette, combined with the offset
+      outlines, creates a sophisticated, lighthearted, and positive tone.
 
-  outlines:
-    style: "Offset outlines"
-    notes: |
-      Illustrations use offset (not centered) outline strokes — outlines
-      sit just off the fill edge, giving Skylight illustrations their
-      distinctive slightly-hand-drawn feel. See the visual-style page on
-      skylight.digital for examples.
+  primary_colors:
+    rule: |
+      Choose one bright primary color per illustration. Outlines should
+      be black. Use light gray minimally as needed.
+    palette_ref: ../config/colors.yml  # primary_illustration block
 
-  faces_and_hands:
-    rule: "Simplified, not photo-realistic."
-    notes: |
-      Faces should be inclusive (see principle 5 — Diversify) but not
-      identifiable. Hands appear when they're meaningful to the action;
-      avoid floating-hand cliches.
+  skin_and_hair:
+    rule: |
+      Use skin and hair colors as needed to reflect the diversity in the
+      world around us. These colors serve as a base to get started —
+      they can get adjusted slightly to ensure contrast with the other
+      colors in the illustration.
+    palette_ref: ../config/colors.yml  # skin block
 
-# -- Illustration types -------------------------------------------------------
+  general_guidance:
+    intro: |
+      To maintain consistency our illustrations use color, lines, and
+      fills in a similar way:
+    rules:
+      - "Use hair and skin colors, as needed, to represent the diverse world"
+      - "Create texture with patterns to add personality to the images"
+      - "Accent minimally with light gray"
+      - "Craft illustrations using offset outlines with selected fills"
+      - "Reflect real life with organizational clothing (such as military uniforms), an exception to the limited palette"
+
+  graphic_elements:
+    intro: |
+      Geometric shapes (circle, triangle, square) are recurring graphic
+      elements used in both layout design and illustration. Consider the
+      following rules when using these elements:
+    rules:
+      - "Always outline"
+      - "Rotate and scale as needed"
+      - "Direct focus to important copy (but don't overpower it)"
+      - "Anchor to illustration vignette when possible"
+      - "Add texture to negative space"
+
+# -- Illustration types (PDF-canon + page-canon) ------------------------------
 #
-# Different illustration use cases get different treatments. The
-# illustration_types.md source page documents these in full; this file
-# carries the type taxonomy + the rule each type follows.
+# Five types, lifted from the website's illustration_types.md (which
+# matches PDF pp. 38–39 for the first two and extends to Heroes and
+# Portraits per the page). Each `description:` is verbatim from the
+# corresponding page section.
 
 types:
-  - id: hero
-    name: Hero illustrations
-    use_when: "Lead image for case studies, blog posts, marketing pages."
-    constraints:
-      - "Includes one or more people."
-      - "Full color palette acceptable."
-      - "Composed for landscape aspect ratios (16:9 or wider)."
+  - id: featured-post
+    name: Featured post illustrations
+    description: |
+      Illustrations for posts, such as a case study or blog article, use
+      one or two (three if absolutely needed) bright colors from the
+      illustration palette.
 
-  - id: spot
-    name: Spot illustrations
-    use_when: "Inline illustrations that punctuate a longer narrative."
-    constraints:
-      - "Single subject or interaction."
-      - "Reduced palette (2-3 colors)."
-      - "Composed for portrait or square."
+      These images are always full bleed with a background color.
 
-  - id: icon
-    name: Icons
-    use_when: "Single concept, single shape — UI affordances, navigation."
-    constraints:
-      - "Objects only (no people — see principle 2 carve-out)."
-      - "Single color (gray-300 or a single brand accent)."
-      - "Consistent stroke width across an icon set."
+  - id: floating-monochromatic
+    name: "Floating illustrations: monochromatic"
+    description: |
+      Floating images don't have borders or any background color.
 
-  - id: diagram
-    name: Diagrams
-    use_when: "Process flows, system architectures, before/after comparisons."
-    constraints:
-      - "Geometry over expression — clarity is the brief."
-      - "Limited palette (primary + 1-2 accents)."
-      - "Annotations in Libre Franklin."
+      They're monochromatic using a bold color from the illustration
+      palette. Accent with `gray-100` and sparingly with light gray.
+
+  - id: floating-rotate-colors
+    name: "Floating illustrations: rotate colors"
+    description: |
+      Even though illustrations are monochromatic, pages or layouts with
+      many floating images should rotate through the different primary
+      Skylight colors.
+
+      These images are used primarily within pages on the website.
+
+  - id: heroes
+    name: Heroes
+    description: |
+      Hero banners are monochromatic.
+
+      The base color uses a primary color and the rest of the
+      illustration uses lighter or darker shades. Each section of the
+      website uses one color.
+
+      Hero banners are made of 2–4 illustration vignettes and the
+      geometric shapes. The shapes are anchored to the vignettes and
+      sprinkled throughout the layout to drive focus to the text.
+
+  - id: portraits
+    name: Portraits
+    description: |
+      Portraits use 1–2 primary colors, as well as any skin and hair
+      color needed.
+
+      These images are always full bleed with a background color.
 
 # -- Renderer output ----------------------------------------------------------
 
