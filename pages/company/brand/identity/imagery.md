@@ -50,11 +50,10 @@ Facial expressions, clothing, and hair/makeup should look natural (not over-the-
 
 Every image should tell a story. There are a few tricks we can use to make sure your message comes across to viewers:
 
-- Figure out what you're trying to say with this photo
-- Capture all relevant objects, people, and background
-- Focus your image on people in action, facial expressions, and body language
-- Consider the composition of your image
-- Take a moment to remove any distractions from the scene
+{%- assign imagery = site.data.brand.imagery -%}
+{%- for trick in imagery.photography.story_tricks.rules %}
+- {{ trick }}
+{%- endfor %}
 </div>
 </div>
 
@@ -73,12 +72,6 @@ Every image should tell a story. There are a few tricks we can use to make sure 
     </div>
   </div>
   <div class="grid__content" markdown="1">
-We aim to take authentic portraits of people.
-
-Use a shallow depth of field in an outdoor setting.
-
-When possible, set up images to include an element of blue (in clothing or surroundings).
-
-The photo should be edited using a realistic color balance.
+{{ site.data.brand.imagery.portraits.description | strip }}
   </div>
 </div>

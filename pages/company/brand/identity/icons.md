@@ -59,6 +59,6 @@ We use our standard icon as an avatar in our different online spaces and social 
   </div>
   </div>
   <div class="grid__content" markdown="1">
-Use the standard and grayscale icon on the top for light backgrounds and the inverse standard and grayscale icon on the bottom for dark (including the darker blue).
+{{ site.data.brand.icons.variants_usage_rule | strip }}
   </div>
 </div>
