@@ -42,7 +42,7 @@ jobs:
       SOURCE_REPO: skylight-hq/skylight-hub
       DEST_DIR: _data/brand
       SOURCE_DIR: plugins/skylight-brand-pack/config
-      FILES: colors.yml typography.yml logo-rules.yml voice-tone.yml brand-narrative.yml illustration.yml customer-brand-rules.yml
+      FILES: colors.yml typography.yml logo-rules.yml voice-tone.yml brand-narrative.yml illustration.yml customer-brand-rules.yml icons.yml imagery.yml
     steps:
       - uses: actions/checkout@v4
 
