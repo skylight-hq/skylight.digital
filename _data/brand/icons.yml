@@ -1,0 +1,88 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/icons.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/icons.yml
+# source_branch: main
+# source_sha: 24b19a8498a1a1f76348c436180c2c632e5f31bc
+# synced_at: 2026-05-29T15:18:00Z
+---
+# Skylight icon usage — canonical data.
+#
+# Source of truth: Skylight Brand Guidelines (Version 5), pp. 13–14.
+# The website page (skylight.digital/pages/company/brand/identity/icons.md)
+# faithfully mirrors that PDF. All prose strings below are lifted verbatim
+# from the PDF / page — do not paraphrase on sync.
+#
+# Fields marked "internal-extension" are Skylight-derived (not in the PDF)
+# — useful structure for channel writers / linters, flagged so consumers
+# know the provenance.
+#
+# The icon IS the "halo" logomark. See logo-rules.yml composition for the
+# wordmark+halo pairing rule: the halo can appear alone as an icon, but the
+# wordmark can never appear without the halo.
+
+meta:
+  schema_version: 1
+  source_canon: "Skylight Brand Guidelines (Version 5), pp. 13–14"
+  source_mirror: skylight.digital/pages/company/brand/identity/icons.md
+  synced_at: "2026-05-28"
+  assets_at: plugins/skylight-brand-pack/assets/icons/
+
+# -- Standard icon (PDF p. 13) ------------------------------------------------
+
+standard_icon:
+  description: |
+    Skylight's brand primarily lives online, so it's essential that we use
+    our icon consistently and accurately to ensure our audience recognizes
+    our brand across various contexts.
+
+    We use our standard icon as an avatar in our different online spaces
+    and social accounts. It can be used in a variety of sizes, as small as
+    16px.
+  minimum_size_px: 16  # PDF p. 13 explicit value
+  default_use: "Avatar in online spaces and social accounts."
+  file: assets/icons/halo.svg
+
+# -- Variants (PDF p. 14) -----------------------------------------------------
+#
+# Four variants. Usage rule (verbatim, PDF p. 14): "Use the standard and
+# grayscale icon on the top for light backgrounds and the inverse standard
+# and grayscale icon on the bottom for dark (including the darker blue)."
+
+variants_usage_rule: |
+  Use the standard and grayscale icon for light backgrounds, and the
+  inverse standard and grayscale icon for dark backgrounds (including the
+  darker blue).
+
+variants:
+  - id: standard
+    name: Standard
+    use_when: "Light backgrounds."          # internal-extension (PDF groups standard+grayscale as "light")
+    file: assets/icons/halo.svg
+
+  - id: grayscale
+    name: Grayscale
+    use_when: "Light backgrounds; black-and-white reproduction."  # internal-extension
+    file: assets/icons/halo-grayscale.svg
+
+  - id: inverse-color
+    name: Inverse color
+    use_when: "Dark backgrounds (including the darker blue)."      # PDF p. 14 verbatim phrase
+    file: assets/icons/halo-inverse.svg
+
+  - id: inverse-grayscale
+    name: Inverse grayscale
+    use_when: "Dark backgrounds; black-and-white reproduction."   # internal-extension
+    file: assets/icons/halo-grayscale-inverse.svg
+
+# -- Cross-references ---------------------------------------------------------
+
+cross_references:
+  composition: ../config/logo-rules.yml  # composition.pairing_rule — halo-alone-as-icon rule
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/icons.md
+  template: brand_icons
