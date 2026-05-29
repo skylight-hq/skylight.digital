@@ -1,0 +1,84 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/imagery.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/imagery.yml
+# source_branch: main
+# source_sha: 24b19a8498a1a1f76348c436180c2c632e5f31bc
+# synced_at: 2026-05-29T15:18:00Z
+---
+# Skylight imagery (photography + portraits) — canonical data.
+#
+# Source of truth: Skylight Brand Guidelines (Version 5), pp. 22–25.
+# The website page (skylight.digital/pages/company/brand/identity/imagery.md)
+# faithfully mirrors that PDF. All prose strings below are lifted verbatim
+# from the PDF / page — do not paraphrase on sync.
+#
+# This file covers Photography + Portraits. Illustration guidance lives in
+# illustration.yml — the imagery page's Illustration section is a one-
+# paragraph pointer at the illustration brand guidelines, not duplicated
+# here.
+#
+# Fields marked "internal-extension" are Skylight-derived (not in the PDF).
+
+meta:
+  schema_version: 1
+  source_canon: "Skylight Brand Guidelines (Version 5), pp. 22–25"
+  source_mirror: skylight.digital/pages/company/brand/identity/imagery.md
+  synced_at: "2026-05-28"
+
+# -- Photography (PDF p. 23) --------------------------------------------------
+
+photography:
+  goals: |
+    When sharing photos, we want to feature real people with real-life
+    stories to tell. Capture a sense of place by showing activities with
+    teammates, customers, and partners.
+
+    Facial expressions, clothing, and hair/makeup should look natural (not
+    over-the-top stock).
+
+    Every image should tell a story.
+
+  story_tricks:
+    intro: |
+      There are a few tricks we can use to make sure your message comes
+      across to viewers:
+    rules:
+      - "Figure out what you're trying to say with this photo"
+      - "Capture all relevant objects, people, and background"
+      - "Focus your image on people in action, facial expressions, and body language"
+      - "Consider the composition of your image"
+      - "Take a moment to remove any distractions from the scene"
+
+# -- Portraits (PDF p. 24) ----------------------------------------------------
+
+portraits:
+  description: |
+    We aim to take authentic portraits of people.
+
+    Use a shallow depth of field in an outdoor setting.
+
+    When possible, set up images to include an element of blue (in clothing
+    or surroundings).
+
+    The photo should be edited using a realistic color balance.
+
+  # internal-extension: the PDF presents portrait guidance as prose; this
+  # array form lets a future `brand.photography_violation` linter check
+  # committed portraits against the rules individually.
+  rules:
+    - id: shallow-depth-of-field
+      rule: "Use a shallow depth of field."
+    - id: outdoor-setting
+      rule: "Set portraits in an outdoor setting."
+    - id: element-of-blue
+      rule: "When possible, include an element of blue in clothing or surroundings."
+    - id: realistic-color-balance
+      rule: "Edit the photo using a realistic color balance."
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/imagery.md
+  template: brand_imagery
