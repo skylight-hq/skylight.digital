@@ -112,6 +112,7 @@ exclude:
   - npm-debug.log
   - docs
   - lighthouse
+  - scripts
 
 # Plugins & gems
 plugins:
