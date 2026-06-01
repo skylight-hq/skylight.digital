@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/brand-narrative.yml
 # source_branch: main
-# source_sha: b6b1c16e7db72a7ef6ddc1b45d085a01ddbeeefa
-# synced_at: 2026-05-28T20:16:28Z
+# source_sha: 1de13b5ef97f472620130c0a5651626fc904a72b
+# synced_at: 2026-06-01T16:02:23Z
 ---
 # Skylight brand narrative — canonical data.
 #
@@ -89,11 +89,11 @@ difference:
       design. Everything about us is designed to help our customers achieve
       such mastery.
 
-  - id: diverse-equitable-inclusive
-    short: "Diverse, equitable, and inclusive."  # internal-extension
+  - id: fairness-belonging-accessibility
+    short: "Fairness, belonging, and accessibility."  # internal-extension
     long: |
-      We strive to create a diverse, equitable, and inclusive environment
-      for everyone.
+      We strive to create an environment of fairness, belonging, and
+      accessibility for everyone.
 
 # -- Brand personality (PDF-canon) --------------------------------------------
 #
@@ -125,9 +125,12 @@ personality:
 
   - id: welcoming
     name: Welcoming
+    # Updated from the PDF's "diverse, equitable, and inclusive" wording to
+    # Skylight's current umbrella ("fairness, belonging, and accessibility")
+    # per the content-guide standard. Deliberate internal update, not verbatim PDF.
     description: |
-      We strive to create a diverse, equitable, and inclusive environment
-      that's welcoming to people of all identities and backgrounds.
+      We strive to create an environment of fairness, belonging, and
+      accessibility — welcoming to people of all identities and backgrounds.
 
 # -- Sample messaging (PDF-canon) ---------------------------------------------
 #
