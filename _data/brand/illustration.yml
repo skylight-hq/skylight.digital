@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/illustration.yml
 # source_branch: main
-# source_sha: b6b1c16e7db72a7ef6ddc1b45d085a01ddbeeefa
-# synced_at: 2026-05-28T20:16:28Z
+# source_sha: 1de13b5ef97f472620130c0a5651626fc904a72b
+# synced_at: 2026-06-01T16:02:23Z
 ---
 # Skylight illustration principles + visual style — canonical data.
 #
@@ -67,12 +67,12 @@ principles:
       understandable visuals. Because this method tends to be more
       accessible and memorable, avoid literal drawings.
 
-  - id: diversify
-    name: Diversify
+  - id: represent-everyone
+    name: Represent everyone
     description: |
-      Reflect the diversity of the world that we live in — skin colors,
-      body types, facial features (such as hair), age, abilities, style
-      (such as clothing).
+      Reflect the full range of people in the world that we live in — skin
+      colors, body types, facial features (such as hair), age, abilities,
+      style (such as clothing).
 
   - id: contextualize
     name: Contextualize
@@ -104,8 +104,8 @@ visual_style:
 
   skin_and_hair:
     rule: |
-      Use skin and hair colors as needed to reflect the diversity in the
-      world around us. These colors serve as a base to get started —
+      Use skin and hair colors as needed to reflect the full range of people
+      in the world around us. These colors serve as a base to get started —
       they can get adjusted slightly to ensure contrast with the other
       colors in the illustration.
     palette_ref: ../config/colors.yml  # skin block
@@ -115,7 +115,7 @@ visual_style:
       To maintain consistency our illustrations use color, lines, and
       fills in a similar way:
     rules:
-      - "Use hair and skin colors, as needed, to represent the diverse world"
+      - "Use hair and skin colors, as needed, to represent the full range of people in the world"
       - "Create texture with patterns to add personality to the images"
       - "Accent minimally with light gray"
       - "Craft illustrations using offset outlines with selected fills"
