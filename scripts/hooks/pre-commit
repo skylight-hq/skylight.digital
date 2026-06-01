@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# Asset-manifest pre-commit check for this clone.
+#
+# Runs scripts/check_asset_manifests.rb on any staged asset manifest
+# (federation asset registry Phase A.2.4). WARN-ONLY during bootstrap; never
+# blocks unless ASSET_MANIFEST_STRICT=1. Self-skips when the validator isn't
+# present (repo not yet bootstrapped for the asset registry).
+#
+# This is the asset-manifest portion of the skylight-hub hooks canon. This
+# repo intentionally omits the hub's author-identity guard (it has many
+# contributors, so an allowlist isn't appropriate here).
+#
+# Install per-clone via `scripts/install-hooks.sh` (or copy to
+# .git/hooks/pre-commit + chmod +x).
+
+set -e
+
+repo_root=$(git rev-parse --show-toplevel)
+
+# Warn-only during bootstrap: surface schema/vocab findings on staged manifests
+# but never block the commit. Set ASSET_MANIFEST_STRICT=1 (Phase F.5) to make
+# this hook block locally too — that mode adds --warn-as-error and propagates
+# the validator's non-zero exit.
+strict="${ASSET_MANIFEST_STRICT:-0}"
+
+# Staged manifests (added/copied/modified), matching the validator's discovery
+# globs (assets-manifest.yml + image-library.yml). `|| true` keeps a no-match
+# grep from tripping `set -e`.
+staged_manifests=$(git diff --cached --name-only --diff-filter=ACM \
+  | grep -E '(^|/)(assets-manifest|image-library)\.yml$' || true)
+
+if [ -n "$staged_manifests" ]; then
+  validator="$repo_root/scripts/check_asset_manifests.rb"
+  if [ ! -f "$validator" ]; then
+    # Portable across the federation: self-skips until this repo bootstraps the
+    # asset registry (validator/schema/vocab), then auto-activates.
+    echo "WARN: $validator not present; skipping asset-manifest check (repo not yet bootstrapped for the asset registry)." >&2
+  elif ! command -v ruby >/dev/null 2>&1; then
+    echo "WARN: ruby not found; skipping asset-manifest check." >&2
+  else
+    echo "Validating staged asset manifest(s):" >&2
+    rc=0
+    while IFS= read -r manifest; do
+      [ -n "$manifest" ] || continue
+      if [ "$strict" = "1" ]; then
+        ruby "$validator" --warn-as-error --manifest "$manifest" || rc=$?
+      else
+        ruby "$validator" --manifest "$manifest" || rc=$?
+      fi
+    done <<EOF
+$staged_manifests
+EOF
+
+    if [ "$rc" -ne 0 ]; then
+      if [ "$strict" = "1" ]; then
+        echo "" >&2
+        echo "ERROR: asset-manifest validation failed (strict mode)." >&2
+        echo "Fix the findings above, or unset ASSET_MANIFEST_STRICT to bypass during bootstrap." >&2
+        exit 1
+      fi
+      echo "" >&2
+      echo "WARN: asset-manifest validation found issues (warn-only during bootstrap; commit allowed)." >&2
+    fi
+  fi
+fi

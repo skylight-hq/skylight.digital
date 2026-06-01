@@ -1,0 +1,4 @@
+# Git hook scripts must keep LF line endings — CRLF breaks the bash shebang
+# when a hook is run on a clone configured with core.autocrlf=true.
+scripts/hooks/pre-commit text eol=lf
+scripts/install-hooks.sh text eol=lf
