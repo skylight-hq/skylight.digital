@@ -1,0 +1,34 @@
+# Federation asset registry — per-repo manifest validation (Phase C).
+# Mirrors skylight-hub's validate-asset-manifests job. Validates every
+# asset manifest in this repo against the canon schema + vocab copied from
+# the hub (standards/asset-*.yml). See standards/asset-manifests via the hub.
+name: Asset manifests
+
+on:
+  pull_request:
+    paths:
+      - '**/assets-manifest.yml'
+      - '**/image-library.yml'
+      - 'scripts/check_asset_manifests.rb'
+      - 'standards/asset-manifest-schema.yml'
+      - 'standards/asset-vocabulary.yml'
+  push:
+    branches: [master]
+    paths:
+      - '**/assets-manifest.yml'
+      - '**/image-library.yml'
+      - 'scripts/check_asset_manifests.rb'
+      - 'standards/asset-manifest-schema.yml'
+      - 'standards/asset-vocabulary.yml'
+
+jobs:
+  validate-asset-manifests:
+    name: Validate asset manifests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+      - name: Validate every asset manifest in the repo
+        run: ruby scripts/check_asset_manifests.rb

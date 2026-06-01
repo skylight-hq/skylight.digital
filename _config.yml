@@ -113,6 +113,7 @@ exclude:
   - docs
   - lighthouse
   - scripts
+  - standards
 
 # Plugins & gems
 plugins:

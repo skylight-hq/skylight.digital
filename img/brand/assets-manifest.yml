@@ -1,0 +1,1648 @@
+# Federation asset manifest -- skylight.digital img/brand (Phase C.1).
+#
+# Catalogs the Skylight brand identity asset set served on skylight.digital's
+# brand-guide pages. All entries are Skylight's own marks/illustrations on the
+# public site -> permissions: skylight-owned, classification: public.
+# ids are path-based (unique within the repo + distinct from the hub's
+# brand-pack manifest, which vendors a subset of these same logos).
+# Schema: standards/asset-manifest-schema.yml; validate: ruby scripts/check_asset_manifests.rb
+- id: hero-identity-colors
+  path: hero/identity/colors.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Identity Colors'
+  description: Page-header (hero) illustration for the brand-guide Identity Colors
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-identity-icons
+  path: hero/identity/icons.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Identity Icons'
+  description: Page-header (hero) illustration for the brand-guide Identity Icons
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-identity-imagery
+  path: hero/identity/imagery.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Identity Imagery'
+  description: Page-header (hero) illustration for the brand-guide Identity Imagery
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-identity-logos
+  path: hero/identity/logos.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Identity Logos'
+  description: Page-header (hero) illustration for the brand-guide Identity Logos
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-identity-typography
+  path: hero/identity/typography.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Identity Typography'
+  description: Page-header (hero) illustration for the brand-guide Identity Typography
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-illustration-illustration-types
+  path: hero/illustration/illustration-types.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Illustration Illustration Types'
+  description: Page-header (hero) illustration for the brand-guide Illustration Illustration
+    Types page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-illustration-principles
+  path: hero/illustration/principles.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Illustration Principles'
+  description: Page-header (hero) illustration for the brand-guide Illustration Principles
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-illustration-visual-style
+  path: hero/illustration/visual-style.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Illustration Visual Style'
+  description: Page-header (hero) illustration for the brand-guide Illustration Visual
+    Style page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-landing
+  path: hero/landing.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Landing'
+  description: Page-header (hero) illustration for the brand-guide Landing page on
+    skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-outreach-design-guidance
+  path: hero/outreach/design-guidance.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Outreach Design Guidance'
+  description: Page-header (hero) illustration for the brand-guide Outreach Design
+    Guidance page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-outreach-outreach-types
+  path: hero/outreach/outreach-types.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Outreach Outreach Types'
+  description: Page-header (hero) illustration for the brand-guide Outreach Outreach
+    Types page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-resources-downloads
+  path: hero/resources/downloads.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Resources Downloads'
+  description: Page-header (hero) illustration for the brand-guide Resources Downloads
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-resources-emoji
+  path: hero/resources/emoji.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Resources Emoji'
+  description: Page-header (hero) illustration for the brand-guide Resources Emoji
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-resources-templates
+  path: hero/resources/templates.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Resources Templates'
+  description: Page-header (hero) illustration for the brand-guide Resources Templates
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-writing-brand-narrative
+  path: hero/writing/brand-narrative.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Writing Brand Narrative'
+  description: Page-header (hero) illustration for the brand-guide Writing Brand Narrative
+    page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-writing-style
+  path: hero/writing/style.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Writing Style'
+  description: Page-header (hero) illustration for the brand-guide Writing Style page
+    on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: hero-writing-voice-and-tone
+  path: hero/writing/voice-and-tone.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide page-header illustration: Writing Voice And Tone'
+  description: Page-header (hero) illustration for the brand-guide Writing Voice And
+    Tone page on skylight.digital.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-icon-avatar-svg-halo-grayscale-inverse
+  path: identity/assets/icon/avatar/svg/halo-grayscale-inverse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Skylight halo icon in grayscale, reversed for dark backgrounds
+  description: Grayscale Skylight halo logomark for dark backgrounds.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-icon-avatar-svg-halo-grayscale
+  path: identity/assets/icon/avatar/svg/halo-grayscale.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Skylight halo icon in grayscale, for light backgrounds
+  description: Grayscale Skylight halo logomark for light backgrounds.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-icon-avatar-svg-halo-inverse
+  path: identity/assets/icon/avatar/svg/halo-inverse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Skylight halo icon, reversed for dark backgrounds
+  description: The Skylight halo logomark (color) in its dark-background inverse treatment.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-icon-avatar-svg-halo
+  path: identity/assets/icon/avatar/svg/halo.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight halo icon: a circular mark in the four brand colors'
+  description: The Skylight halo logomark alone, a circular form in the four brand
+    colors; used as a standalone icon. Full color, light backgrounds.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-bar-bottom-inverse
+  path: identity/assets/logos/svg/skylight-bar-bottom-inverse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Skylight Bar Bottom Inverse'
+  description: Skylight logo variant (Skylight Bar Bottom Inverse) from the brand
+    identity asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-bar-bottom
+  path: identity/assets/logos/svg/skylight-bar-bottom.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Skylight Bar Bottom'
+  description: Skylight logo variant (Skylight Bar Bottom) from the brand identity
+    asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-bar-top-inverse
+  path: identity/assets/logos/svg/skylight-bar-top-inverse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Skylight Bar Top Inverse'
+  description: Skylight logo variant (Skylight Bar Top Inverse) from the brand identity
+    asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-bar-top
+  path: identity/assets/logos/svg/skylight-bar-top.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Skylight Bar Top'
+  description: Skylight logo variant (Skylight Bar Top) from the brand identity asset
+    set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-grayscale-inverse
+  path: identity/assets/logos/svg/skylight-grayscale-inverse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Skylight logo in grayscale, reversed for dark backgrounds
+  description: Grayscale Skylight logo for dark backgrounds; used only when color
+    is unavailable.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-grayscale
+  path: identity/assets/logos/svg/skylight-grayscale.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Skylight logo in grayscale, for light backgrounds
+  description: Grayscale Skylight logo for light backgrounds; used only when color
+    is unavailable.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-hubzone
+  path: identity/assets/logos/svg/skylight-hubzone.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Skylight logo paired with the HUBZone certification mark
+  description: Skylight logo with the SBA HUBZone certification mark, for government-contracting
+    surfaces.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-inverse
+  path: identity/assets/logos/svg/skylight-inverse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Skylight color logo reversed for dark backgrounds
+  description: Standard Skylight logo in its dark-background inverse treatment.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-logo
+  path: identity/assets/logos/svg/skylight-logo.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo: the wordmark with the multicolor halo, full color'
+  description: Standard Skylight logo (wordmark + multicolor halo) for light backgrounds;
+    the canonical brand mark.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-one-color-inverse
+  path: identity/assets/logos/svg/skylight-one-color-inverse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Single-color Skylight logo, reversed for dark backgrounds
+  description: One-color Skylight logo for single-color reproduction on dark backgrounds.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-assets-logos-svg-skylight-one-color
+  path: identity/assets/logos/svg/skylight-one-color.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: Single-color Skylight logo, for light backgrounds
+  description: One-color Skylight logo for single-color reproduction (embroidery,
+    etched signage, single-color print) on light backgrounds.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-colors-brand-colors
+  path: identity/colors/brand-colors.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand color sample: Brand Colors'
+  description: Brand color palette sample/swatch (Brand Colors).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-colors-primary-palette
+  path: identity/colors/primary-palette.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand color sample: Primary Palette'
+  description: Brand color palette sample/swatch (Primary Palette).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-colors-secondary-palette
+  path: identity/colors/secondary-palette.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand color sample: Secondary Palette'
+  description: Brand color palette sample/swatch (Secondary Palette).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-colors-tints
+  path: identity/colors/tints.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand color sample: Tints'
+  description: Brand color palette sample/swatch (Tints).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-colors-tints-2
+  path: identity/colors/tints.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand color sample: Tints'
+  description: Brand color palette sample/swatch (Tints).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-icons-avatars
+  path: identity/icons/avatars.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight brand icon: Avatars'
+  description: Brand icon from the identity icon set (Avatars).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-icons-avatars-2
+  path: identity/icons/avatars.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight brand icon: Avatars'
+  description: Brand icon from the identity icon set (Avatars).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-icons-intro
+  path: identity/icons/intro.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight brand icon: Intro'
+  description: Brand icon from the identity icon set (Intro).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-icons-variants
+  path: identity/icons/variants.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight brand icon: Variants'
+  description: Brand icon from the identity icon set (Variants).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-icons-variants-2
+  path: identity/icons/variants.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight brand icon: Variants'
+  description: Brand icon from the identity icon set (Variants).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-imagery-illustration
+  path: identity/imagery/illustration.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand imagery example: Illustration'
+  description: Photography / imagery example from the brand identity guide (Illustration).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-imagery-photography-2
+  path: identity/imagery/photography-2.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand imagery example: Photography 2'
+  description: Photography / imagery example from the brand identity guide (Photography
+    2).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-imagery-photography
+  path: identity/imagery/photography.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand imagery example: Photography'
+  description: Photography / imagery example from the brand identity guide (Photography).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-imagery-portraits
+  path: identity/imagery/portraits.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand imagery example: Portraits'
+  description: Photography / imagery example from the brand identity guide (Portraits).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-behind-the-design-halo
+  path: identity/logos/behind-the-design--halo.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Behind The Design Halo'
+  description: Skylight logo variant (Behind The Design Halo) from the brand identity
+    asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-behind-the-design-type
+  path: identity/logos/behind-the-design--type.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Behind The Design Type'
+  description: Skylight logo variant (Behind The Design Type) from the brand identity
+    asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-general-positioning
+  path: identity/logos/general-positioning.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: General Positioning'
+  description: Skylight logo variant (General Positioning) from the brand identity
+    asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-list-indicator-1
+  path: identity/logos/list-indicator--1.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: List Indicator 1'
+  description: Skylight logo variant (List Indicator 1) from the brand identity asset
+    set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-list-indicator-2
+  path: identity/logos/list-indicator--2.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: List Indicator 2'
+  description: Skylight logo variant (List Indicator 2) from the brand identity asset
+    set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-list-indicator-3
+  path: identity/logos/list-indicator--3.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: List Indicator 3'
+  description: Skylight logo variant (List Indicator 3) from the brand identity asset
+    set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-logotype
+  path: identity/logos/logotype.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Logotype'
+  description: Skylight logo variant (Logotype) from the brand identity asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-minimum-sizes
+  path: identity/logos/minimum-sizes.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Minimum Sizes'
+  description: Skylight logo variant (Minimum Sizes) from the brand identity asset
+    set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-positioning-bottom-left
+  path: identity/logos/positioning/bottom-left.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo positioning diagram: Bottom Left'
+  description: Brand-guide logo positioning / clear-space diagram (Bottom Left).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-positioning-bottom-right
+  path: identity/logos/positioning/bottom-right.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo positioning diagram: Bottom Right'
+  description: Brand-guide logo positioning / clear-space diagram (Bottom Right).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-positioning-top-left
+  path: identity/logos/positioning/top-left.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo positioning diagram: Top Left'
+  description: Brand-guide logo positioning / clear-space diagram (Top Left).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-positioning-top-right
+  path: identity/logos/positioning/top-right.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo positioning diagram: Top Right'
+  description: Brand-guide logo positioning / clear-space diagram (Top Right).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-rotation
+  path: identity/logos/rotation.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Rotation'
+  description: Skylight logo variant (Rotation) from the brand identity asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-spacing
+  path: identity/logos/spacing.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Spacing'
+  description: Skylight logo variant (Spacing) from the brand identity asset set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid
+  path: identity/logos/things-to-avoid.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo variant: Things To Avoid'
+  description: Skylight logo variant (Things To Avoid) from the brand identity asset
+    set.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-bg-image
+  path: identity/logos/things-to-avoid/bg-image.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Bg Image'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Bg Image).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-diagonal
+  path: identity/logos/things-to-avoid/diagonal.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Diagonal'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Diagonal).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-image-type
+  path: identity/logos/things-to-avoid/image-type.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Image Type'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Image Type).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-mono-type
+  path: identity/logos/things-to-avoid/mono-type.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Mono Type'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Mono Type).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-outline-type
+  path: identity/logos/things-to-avoid/outline-type.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Outline Type'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Outline Type).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-red-type
+  path: identity/logos/things-to-avoid/red-type.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Red Type'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Red Type).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-spaced-type
+  path: identity/logos/things-to-avoid/spaced-type.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Spaced Type'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Spaced Type).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-logos-things-to-avoid-squished-type
+  path: identity/logos/things-to-avoid/squished-type.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: logo
+  themes:
+  - brand
+  tags: []
+  alt: 'Skylight logo misuse example: Squished Type'
+  description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
+    (Squished Type).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-step-1
+  path: identity/typography/step-1.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Step 1'
+  description: Typography specimen from the brand identity guide (Step 1).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-step-2
+  path: identity/typography/step-2.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Step 2'
+  description: Typography specimen from the brand identity guide (Step 2).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-step-3
+  path: identity/typography/step-3.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Step 3'
+  description: Typography specimen from the brand identity guide (Step 3).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-step-4
+  path: identity/typography/step-4.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Step 4'
+  description: Typography specimen from the brand identity guide (Step 4).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-step-5
+  path: identity/typography/step-5.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Step 5'
+  description: Typography specimen from the brand identity guide (Step 5).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-step-6
+  path: identity/typography/step-6.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Step 6'
+  description: Typography specimen from the brand identity guide (Step 6).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-typefaces
+  path: identity/typography/typefaces.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Typefaces'
+  description: Typography specimen from the brand identity guide (Typefaces).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-typefaces-2
+  path: identity/typography/typefaces.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Typefaces'
+  description: Typography specimen from the brand identity guide (Typefaces).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-usage
+  path: identity/typography/usage.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Usage'
+  description: Typography specimen from the brand identity guide (Usage).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: identity-typography-usage-2
+  path: identity/typography/usage.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand typography specimen: Usage'
+  description: Typography specimen from the brand identity guide (Usage).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-featured-post
+  path: illustration/featured-post.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Featured Post'
+  description: Illustration example from the brand-guide illustration section (Featured
+    Post).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-floating-1
+  path: illustration/floating-1.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Floating 1'
+  description: Illustration example from the brand-guide illustration section (Floating
+    1).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-floating-2
+  path: illustration/floating-2.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Floating 2'
+  description: Illustration example from the brand-guide illustration section (Floating
+    2).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-general-guidance
+  path: illustration/general-guidance.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: General Guidance'
+  description: Illustration example from the brand-guide illustration section (General
+    Guidance).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-graphic-elements
+  path: illustration/graphic-elements.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Graphic Elements'
+  description: Illustration example from the brand-guide illustration section (Graphic
+    Elements).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-heroes-contact-us-hero
+  path: illustration/heroes/contact-us-hero.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Contact Us Hero'
+  description: Illustration example from the brand-guide illustration section (Contact
+    Us Hero).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-heroes-service-design-hero
+  path: illustration/heroes/service-design-hero.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Service Design Hero'
+  description: Illustration example from the brand-guide illustration section (Service
+    Design Hero).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-heroes-talks-hero
+  path: illustration/heroes/talks-hero.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Talks Hero'
+  description: Illustration example from the brand-guide illustration section (Talks
+    Hero).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-palette
+  path: illustration/palette.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Palette'
+  description: Illustration example from the brand-guide illustration section (Palette).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-portraits
+  path: illustration/portraits.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Portraits'
+  description: Illustration example from the brand-guide illustration section (Portraits).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-primary-colors
+  path: illustration/primary-colors.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Primary Colors'
+  description: Illustration example from the brand-guide illustration section (Primary
+    Colors).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-skin-and-hair
+  path: illustration/skin-and-hair.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Skin And Hair'
+  description: Illustration example from the brand-guide illustration section (Skin
+    And Hair).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-style-1
+  path: illustration/style-1.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Style 1'
+  description: Illustration example from the brand-guide illustration section (Style
+    1).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: illustration-style-2
+  path: illustration/style-2.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand illustration example: Style 2'
+  description: Illustration example from the brand-guide illustration section (Style
+    2).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: landing-identity
+  path: landing/identity.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide landing illustration: Identity'
+  description: Illustration from the brand-guide landing page (Identity).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: landing-illustration
+  path: landing/illustration.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide landing illustration: Illustration'
+  description: Illustration from the brand-guide landing page (Illustration).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: landing-outreach
+  path: landing/outreach.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide landing illustration: Outreach'
+  description: Illustration from the brand-guide landing page (Outreach).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: landing-resources
+  path: landing/resources.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide landing illustration: Resources'
+  description: Illustration from the brand-guide landing page (Resources).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: landing-writing
+  path: landing/writing.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand-guide landing illustration: Writing'
+  description: Illustration from the brand-guide landing page (Writing).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-business-card
+  path: outreach/business-card.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Business Card'
+  description: Outreach / swag design example from the brand guide (Business Card).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-email-signature
+  path: outreach/email-signature.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Email Signature'
+  description: Outreach / swag design example from the brand guide (Email Signature).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-external-promotion-material
+  path: outreach/external-promotion-material.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: External Promotion Material'
+  description: Outreach / swag design example from the brand guide (External Promotion
+    Material).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-guidelines
+  path: outreach/guidelines.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Guidelines'
+  description: Outreach / swag design example from the brand guide (Guidelines).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-hero
+  path: outreach/hero.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Hero'
+  description: Outreach / swag design example from the brand guide (Hero).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-online-ad
+  path: outreach/online-ad.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Online Ad'
+  description: Outreach / swag design example from the brand guide (Online Ad).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-personal-growth-share-outs-flyer
+  path: outreach/personal-growth-share-outs-flyer.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Personal Growth Share Outs Flyer'
+  description: Outreach / swag design example from the brand guide (Personal Growth
+    Share Outs Flyer).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-swag
+  path: outreach/swag.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Swag'
+  description: Outreach / swag design example from the brand guide (Swag).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-swag-bottle
+  path: outreach/swag/bottle.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Bottle'
+  description: Outreach / swag design example from the brand guide (Bottle).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-swag-hoodie
+  path: outreach/swag/hoodie.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Hoodie'
+  description: Outreach / swag design example from the brand guide (Hoodie).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-swag-shirt
+  path: outreach/swag/shirt.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Shirt'
+  description: Outreach / swag design example from the brand guide (Shirt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: outreach-swag-sweatshirt
+  path: outreach/swag/sweatshirt.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: photo
+  themes:
+  - brand
+  tags: []
+  alt: 'Outreach design example: Sweatshirt'
+  description: Outreach / swag design example from the brand guide (Sweatshirt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: resources-assets-skylight-heart
+  path: resources/assets/skylight-heart.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand resources graphic: Skylight Heart'
+  description: Graphic from the brand-guide resources section (Skylight Heart).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: resources-emoji
+  path: resources/emoji.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand resources graphic: Emoji'
+  description: Graphic from the brand-guide resources section (Emoji).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: resources-skylight-heart
+  path: resources/skylight-heart.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - brand
+  tags: []
+  alt: 'Brand resources graphic: Skylight Heart'
+  description: Graphic from the brand-guide resources section (Skylight Heart).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
