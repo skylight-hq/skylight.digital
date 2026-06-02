@@ -5,6 +5,8 @@
 # public site -> permissions: skylight-owned, classification: public.
 # ids are path-based (unique within the repo + distinct from the hub's
 # brand-pack manifest, which vendors a subset of these same logos).
+# type logo = actual logo files (identity/assets/logos + icon/avatar); the
+# identity/logos/** guide section is diagrams/examples about logo usage.
 # Schema: standards/asset-manifest-schema.yml; validate: ruby scripts/check_asset_manifests.rb
 - id: hero-identity-colors
   path: hero/identity/colors.svg
@@ -680,13 +682,12 @@
   path: identity/logos/behind-the-design--halo.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Behind The Design Halo'
-  description: Skylight logo variant (Behind The Design Halo) from the brand identity
-    asset set.
+  alt: "'Behind the design' explainer: the halo"
+  description: Brand-guide explainer of how the halo logomark is constructed.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -695,13 +696,12 @@
   path: identity/logos/behind-the-design--type.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Behind The Design Type'
-  description: Skylight logo variant (Behind The Design Type) from the brand identity
-    asset set.
+  alt: "'Behind the design' explainer: the logotype"
+  description: Brand-guide explainer of how the Skylight logotype is constructed.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -710,13 +710,12 @@
   path: identity/logos/general-positioning.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: General Positioning'
-  description: Skylight logo variant (General Positioning) from the brand identity
-    asset set.
+  alt: Logo positioning guidance diagram
+  description: Brand-guide diagram showing general logo positioning guidance.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -725,13 +724,12 @@
   path: identity/logos/list-indicator--1.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: List Indicator 1'
-  description: Skylight logo variant (List Indicator 1) from the brand identity asset
-    set.
+  alt: 'Logo brand-element graphic: List Indicator 1'
+  description: Brand-guide logo-section graphic element (List Indicator 1).
   permissions: skylight-owned
   classification: public
   archived: false
@@ -740,13 +738,12 @@
   path: identity/logos/list-indicator--2.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: List Indicator 2'
-  description: Skylight logo variant (List Indicator 2) from the brand identity asset
-    set.
+  alt: 'Logo brand-element graphic: List Indicator 2'
+  description: Brand-guide logo-section graphic element (List Indicator 2).
   permissions: skylight-owned
   classification: public
   archived: false
@@ -755,13 +752,12 @@
   path: identity/logos/list-indicator--3.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: List Indicator 3'
-  description: Skylight logo variant (List Indicator 3) from the brand identity asset
-    set.
+  alt: 'Logo brand-element graphic: List Indicator 3'
+  description: Brand-guide logo-section graphic element (List Indicator 3).
   permissions: skylight-owned
   classification: public
   archived: false
@@ -774,8 +770,9 @@
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Logotype'
-  description: Skylight logo variant (Logotype) from the brand identity asset set.
+  alt: Skylight logotype (wordmark) without the halo
+  description: 'The Skylight logotype: the ''Skylight'' wordmark on its own, without
+    the halo logomark.'
   permissions: skylight-owned
   classification: public
   archived: false
@@ -784,13 +781,13 @@
   path: identity/logos/minimum-sizes.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Minimum Sizes'
-  description: Skylight logo variant (Minimum Sizes) from the brand identity asset
-    set.
+  alt: Logo minimum-size diagram
+  description: Brand-guide diagram showing the logo's minimum sizes for digital and
+    print.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -799,12 +796,12 @@
   path: identity/logos/positioning/bottom-left.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo positioning diagram: Bottom Left'
-  description: Brand-guide logo positioning / clear-space diagram (Bottom Left).
+  alt: 'Logo positioning diagram: Bottom Left'
+  description: Brand-guide logo positioning diagram (Bottom Left placement).
   permissions: skylight-owned
   classification: public
   archived: false
@@ -813,12 +810,12 @@
   path: identity/logos/positioning/bottom-right.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo positioning diagram: Bottom Right'
-  description: Brand-guide logo positioning / clear-space diagram (Bottom Right).
+  alt: 'Logo positioning diagram: Bottom Right'
+  description: Brand-guide logo positioning diagram (Bottom Right placement).
   permissions: skylight-owned
   classification: public
   archived: false
@@ -827,12 +824,12 @@
   path: identity/logos/positioning/top-left.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo positioning diagram: Top Left'
-  description: Brand-guide logo positioning / clear-space diagram (Top Left).
+  alt: 'Logo positioning diagram: Top Left'
+  description: Brand-guide logo positioning diagram (Top Left placement).
   permissions: skylight-owned
   classification: public
   archived: false
@@ -841,12 +838,12 @@
   path: identity/logos/positioning/top-right.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo positioning diagram: Top Right'
-  description: Brand-guide logo positioning / clear-space diagram (Top Right).
+  alt: 'Logo positioning diagram: Top Right'
+  description: Brand-guide logo positioning diagram (Top Right placement).
   permissions: skylight-owned
   classification: public
   archived: false
@@ -855,12 +852,12 @@
   path: identity/logos/rotation.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Rotation'
-  description: Skylight logo variant (Rotation) from the brand identity asset set.
+  alt: Logo rotation rules diagram
+  description: Brand-guide diagram showing sanctioned vs. forbidden logo rotations.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -869,12 +866,12 @@
   path: identity/logos/spacing.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Spacing'
-  description: Skylight logo variant (Spacing) from the brand identity asset set.
+  alt: Logo clear-space diagram
+  description: Brand-guide diagram showing the required clear space around the logo.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -883,13 +880,12 @@
   path: identity/logos/things-to-avoid.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Things To Avoid'
-  description: Skylight logo variant (Things To Avoid) from the brand identity asset
-    set.
+  alt: Logo misuse overview
+  description: Brand-guide overview of logo treatments to avoid.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -898,11 +894,11 @@
   path: identity/logos/things-to-avoid/bg-image.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Bg Image'
+  alt: 'Logo misuse example: Bg Image'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Bg Image).
   permissions: skylight-owned
@@ -913,11 +909,11 @@
   path: identity/logos/things-to-avoid/diagonal.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Diagonal'
+  alt: 'Logo misuse example: Diagonal'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Diagonal).
   permissions: skylight-owned
@@ -928,11 +924,11 @@
   path: identity/logos/things-to-avoid/image-type.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Image Type'
+  alt: 'Logo misuse example: Image Type'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Image Type).
   permissions: skylight-owned
@@ -943,11 +939,11 @@
   path: identity/logos/things-to-avoid/mono-type.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Mono Type'
+  alt: 'Logo misuse example: Mono Type'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Mono Type).
   permissions: skylight-owned
@@ -958,11 +954,11 @@
   path: identity/logos/things-to-avoid/outline-type.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Outline Type'
+  alt: 'Logo misuse example: Outline Type'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Outline Type).
   permissions: skylight-owned
@@ -973,11 +969,11 @@
   path: identity/logos/things-to-avoid/red-type.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Red Type'
+  alt: 'Logo misuse example: Red Type'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Red Type).
   permissions: skylight-owned
@@ -988,11 +984,11 @@
   path: identity/logos/things-to-avoid/spaced-type.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Spaced Type'
+  alt: 'Logo misuse example: Spaced Type'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Spaced Type).
   permissions: skylight-owned
@@ -1003,11 +999,11 @@
   path: identity/logos/things-to-avoid/squished-type.svg
   repo: skylight.digital
   date: '2026-03-26'
-  type: logo
+  type: diagram
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo misuse example: Squished Type'
+  alt: 'Logo misuse example: Squished Type'
   description: Brand-guide 'things to avoid' example showing an incorrect logo treatment
     (Squished Type).
   permissions: skylight-owned
