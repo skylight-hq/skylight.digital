@@ -1,0 +1,222 @@
+# Federation asset registry — manifest schema.
+#
+# Machine-parseable schema for per-repo asset manifests
+# (assets-manifest.yml, image-library.yml, etc.) across the Skylight
+# federation. Consumed by scripts/check_asset_manifests.rb (per-repo
+# validator) and scripts/render_asset_index.rb (federation aggregator).
+#
+# This is JSON Schema (draft-07) expressed as YAML. The validator
+# hand-rolls the checks for clearer error messages but reads required-
+# field + enum + pattern constraints from here so they stay co-located
+# with the schema spec.
+#
+# Source proposal: plans/active/federation-asset-registry.md
+# Source migration: migrations/federation-asset-registry-bootstrap.md
+# Narrative explainer: standards/asset-manifests.md
+
+$schema: https://json-schema.org/draft-07/schema#
+title: Asset manifest entry
+description: |
+  One entry in a federation asset manifest. Storage stays local to the
+  repo holding the asset; this schema enforces that every committed
+  image has a manifest row and that vocab fields reference the
+  controlled vocabulary in standards/asset-vocabulary.yml.
+
+type: object
+
+required:
+  - id
+  - path
+  - repo
+  - date
+  - type
+  - permissions
+  - classification
+  - archived
+  - pending_classification
+
+properties:
+
+  id:
+    type: string
+    description: Stable kebab-case identifier; unique within its manifest.
+    pattern: "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+
+  path:
+    type: string
+    description: Repo-relative path to the asset file.
+    pattern: "^[^/].*[^/]$"
+
+  repo:
+    type: string
+    description: Federation member that holds the asset.
+    enum:
+      - skylight-hub
+      - skylight.digital
+      - skylight-marcom
+      - skylight-people-ops
+      - skylight-hub-proposals-resolve
+
+  date:
+    type: string
+    description: Capture date (EXIF or human-known), ISO YYYY-MM-DD.
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+
+  type:
+    type: string
+    description: Asset kind. Controlled by standards/asset-vocabulary.yml.
+    # Enum mirrored from asset-vocabulary.yml `type:` key.
+    enum:
+      - photo
+      - screenshot
+      - diagram
+      - logo
+      - headshot
+      - hero
+      - gif
+      - video
+      - pdf
+      - illustration
+      - composite
+
+  themes:
+    type: array
+    items:
+      type: string
+    description: |
+      References standards/asset-vocabulary.yml `themes:` top-level key.
+      Validated for vocab compliance by check_asset_manifests.rb.
+
+  tags:
+    type: array
+    items:
+      type: string
+    description: |
+      References standards/asset-vocabulary.yml `tags:` top-level key.
+      Open-ended; validator warns on unknown tags rather than fails so
+      vocab evolves naturally.
+
+  people:
+    type: array
+    items:
+      type: string
+    description: |
+      Canonical skylighter slugs. Cross-referenced against
+      skylight.digital/_data/team.yml (or equivalent) when available.
+
+  event:
+    type: ["string", "null"]
+    description: Event slug or null. Free-form initially; may graduate to enum.
+
+  alt:
+    type: string
+    description: |
+      Screen-reader-optimized alt text. ≤125 chars recommended.
+      Mandatory for non-decorative images. Animated content describes
+      what changes, not what's there.
+    maxLength: 250
+
+  description:
+    type: string
+    description: |
+      Discovery + search prose. Free-form paragraph(s) covering:
+      (1) visible content, (2) context (when/where/why), (3) use
+      suggestions. Drives both human browsing and asset-finder
+      agent queries.
+
+  permissions:
+    type: string
+    description: |
+      Rights tier. Controls which surfaces an image can ship to.
+    enum:
+      - skylight-owned
+      - partner-owned
+      - nda-bound
+      - public-domain
+      - review-needed
+
+  classification:
+    type: string
+    description: |
+      Access tier. Public images can ship to public posts; client-
+      confidential ones cannot.
+    enum:
+      - public
+      - internal
+      - client-confidential
+
+  set_id:
+    type: ["string", "null"]
+    description: |
+      Groups multiple shots of the same subject. Agents pick a
+      representative when surfacing image suggestions. Must be null
+      while pending_classification: true.
+
+  used_in:
+    type: array
+    items:
+      type: string
+    description: |
+      Cross-references — post IDs, case-study slugs, doc slugs,
+      proposal slugs. Resolution checked by the federation aggregator.
+
+  archived:
+    type: boolean
+    description: |
+      True if retired from active use. Archived assets stay queryable
+      with --include-archived but are excluded from default agent
+      suggestions. See archive lifecycle in proposal.
+
+  archived_at:
+    type: ["string", "null"]
+    description: |
+      Required when archived: true. ISO YYYY-MM-DD.
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+
+  archived_reason:
+    type: ["string", "null"]
+    description: |
+      Required when archived: true. References asset-vocabulary.yml
+      `archive_reasons:` key.
+
+  pending_classification:
+    type: boolean
+    description: |
+      True while staged in _incoming/ awaiting triage. Excludes from
+      agent suggestions. Mutually exclusive with archived: true.
+
+  landed_at:
+    type: ["string", "null"]
+    description: |
+      Required when pending_classification: true. ISO YYYY-MM-DD.
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+
+  landed_via:
+    type: ["string", "null"]
+    description: |
+      Required when pending_classification: true. References
+      asset-vocabulary.yml `landed_via:` key.
+
+  moved_to:
+    type: ["string", "null"]
+    description: |
+      Pointer to destination after cross-repo route: <repo>/<path>.
+      Set on the source-repo row; the destination repo gets a new
+      active row. Validator checks for matching destination.
+
+  notes:
+    type: ["string", "null"]
+    description: Free-text notes.
+
+# -- Cross-field rules (enforced by validator, not pure JSON Schema)
+#
+# 1. archived: true ⟹ archived_at + archived_reason both present
+# 2. pending_classification: true ⟹ landed_at + landed_via both present
+# 3. pending_classification: true ⟹ set_id: null AND used_in: []
+# 4. archived: true AND pending_classification: true ⟹ ERROR (mutually exclusive)
+# 5. moved_to is set ⟹ archived: true (the source row archives when routed away)
+# 6. permissions: review-needed AND archived: false ⟹ WARN (long-pending review-needed
+#    rows should be downgraded or archived)
+#
+# These are documented here for spec completeness; check_asset_manifests.rb
+# implements them.

@@ -1,0 +1,160 @@
+# Federation asset registry — controlled vocabulary.
+#
+# Canonical lists for the fields in asset manifests across the Skylight
+# federation. Per-repo manifests (assets-manifest.yml, image-library.yml)
+# reference these lists; the validator (scripts/check_asset_manifests.rb)
+# enforces compliance.
+#
+# Vocab evolves through hub PRs:
+#   1. Open PR adding a new entry here with rationale in the PR description
+#   2. Linter rule lands the new entry in any per-repo manifest using it
+#   3. Aggregator picks up the change on next run
+#
+# Source proposal: plans/active/federation-asset-registry.md
+# Source migration: migrations/federation-asset-registry-bootstrap.md
+
+# -- Asset types (enum; validator fails on unknown values) --------------------
+
+type:
+  - photo
+  - screenshot
+  - diagram
+  - logo
+  - headshot
+  - hero
+  - gif
+  - video
+  - pdf
+  - illustration
+  - composite
+
+# -- Permissions tier (enum) --------------------------------------------------
+
+permissions:
+  - skylight-owned         # Captured by Skylight or work-for-hire; Skylight has full rights.
+  - partner-owned          # Partner-provided; usage governed by partner's terms.
+  - nda-bound              # Restricted access; cannot ship to public surfaces.
+  - public-domain          # Truly public (Creative Commons CC0, US gov work, etc.).
+  - review-needed          # Rights situation unclear; review before reuse. Long-pending
+                           # rows should be downgraded or archived; aggregator warns.
+
+# -- Classification tier (enum) -----------------------------------------------
+
+classification:
+  - public                 # OK on public surfaces (LinkedIn, public website, public docs).
+  - internal               # Internal-only — Skylighter Slack, internal wiki, but not public.
+  - client-confidential    # Client-NDA-bound; only routable within per-client marketplace.
+
+# -- Archive reasons (enum; required when archived: true) ---------------------
+
+archive_reasons:
+  - outdated-branding              # Old logo / visual identity / color palette
+  - person-no-longer-at-skylight   # Subject left the company
+  - partner-relationship-ended     # Partner org no longer engaged
+  - event-canceled-or-retracted    # Event we promoted no longer worth referencing
+  - legal-or-permissions-issue     # Rights problem; cannot be re-used
+  - low-quality                    # Better alternatives exist; redundant or technically poor
+  - superseded-by-better-shot      # Used to be canonical; better image now is (link via set_id)
+  - content-no-longer-accurate     # Documents something that's changed (org, product UI, etc.)
+  - dedup-loser                    # Identified as near-duplicate; canonical version won
+  - routed-out                     # Source-repo marker after cross-repo route_asset move
+
+# -- Incoming landed_via codes (enum; required when pending_classification: true) ---
+
+landed_via:
+  - ad-hoc-upload          # Dropped in directly without a destination call
+  - gdrive-import          # Pulled via import_gdrive_assets.rb; auto-classification failed
+  - screenshot-collection  # Swept from a contributor's screenshot folder
+  - external-receipt       # Received from partner / client / event organizer
+  - unknown                # No provenance data
+
+# -- Themes (open vocab; validator warns on unknown values) -------------------
+#
+# Themes describe the post / doc / channel context the asset fits — what
+# kind of surface it's used on. Drawn from the channel-writer plugins'
+# post-themes / content-themes vocabs. Open-ended so new themes can land
+# in per-channel overlays without a hub PR; validator warns rather than
+# fails on unknown values.
+
+themes:
+  # -- Social post themes (mirror skylight-marcom/plugins/skylight-social-post-content-overlay/content/post-themes.yml)
+  - contract-win
+  - recruiting
+  - news
+  - new-hire-spotlight
+  - case-study
+  - partner-highlight
+  - company-culture-highlight
+  - delivery-highlight
+  - evergreen
+  - content-farming
+  # -- Documentation themes
+  - methodology            # Diagrams in standards / methodology docs
+  - architecture           # Architecture diagrams in proposals / specs
+  - process-illustration   # Workflow diagrams in policies / playbooks
+  - brand                  # Logo, color palette, brand-guidelines artifacts
+  - team                   # Team photos, headshots, group shots
+  - office                 # Workspace / event venue / location photos
+  - product                # Product UI screenshots, GIFs, hero shots
+
+# -- Tags (open vocab; validator warns on unknown values) ---------------------
+#
+# Tags describe the asset's subject — what's in it. Free-form by design,
+# but common tags should be reused. Validator warns on unknown values
+# so the vocab evolves naturally.
+
+tags:
+  # -- Customer / partner names (controlled — these get social mentions)
+  - cdc
+  - va
+  - usaf
+  - hhs
+  - cms
+  - ct                     # Connecticut state-level engagements
+  - 18f
+  - platform-one
+  # -- Mission areas (mirror skylight-website-filters-pack:filters.yml mission_areas)
+  - public-health
+  - healthcare
+  - early-childhood
+  - veterans
+  - social-safety-net
+  - economic-development
+  - defense
+  - air-force
+  - space-force
+  - navy
+  - homeland-security
+  - citizenship-and-immigration
+  - labor
+  - agriculture
+  - education
+  - environment
+  - justice
+  # -- Capability tags (mirror filters.yml capabilities; kebab-case)
+  - research-and-design
+  - product-management
+  - software-delivery
+  - legacy-modernization
+  - devops
+  - cloud-and-platforms
+  - data-and-analytics
+  - apis
+  - open-government
+  - security-and-privacy
+  - internet-of-things
+  - procurement
+  - transformation
+  - coaching-and-training
+  # -- Project / engagement codenames (extend as case studies land)
+  - gearfit
+  - bespin
+  - dibbs
+  - simplereport
+  - diffusion-marketplace
+  - oec-website-redesign
+  - ece-reporter
+  # -- Event / venue tags
+  - bes-agile-crosstalk
+  - civic-tech-week
+  - code-for-america-summit
