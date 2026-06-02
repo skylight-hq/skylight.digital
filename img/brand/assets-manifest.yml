@@ -326,9 +326,9 @@
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Skylight Bar Bottom Inverse'
-  description: Skylight logo variant (Skylight Bar Bottom Inverse) from the brand
-    identity asset set.
+  alt: 'Skylight logo variant: Bar Bottom Inverse'
+  description: Skylight logo variant (Bar Bottom Inverse) from the brand identity
+    asset set.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -341,9 +341,8 @@
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Skylight Bar Bottom'
-  description: Skylight logo variant (Skylight Bar Bottom) from the brand identity
-    asset set.
+  alt: 'Skylight logo variant: Bar Bottom'
+  description: Skylight logo variant (Bar Bottom) from the brand identity asset set.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -356,9 +355,9 @@
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Skylight Bar Top Inverse'
-  description: Skylight logo variant (Skylight Bar Top Inverse) from the brand identity
-    asset set.
+  alt: 'Skylight logo variant: Bar Top Inverse'
+  description: Skylight logo variant (Bar Top Inverse) from the brand identity asset
+    set.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -371,9 +370,8 @@
   themes:
   - brand
   tags: []
-  alt: 'Skylight logo variant: Skylight Bar Top'
-  description: Skylight logo variant (Skylight Bar Top) from the brand identity asset
-    set.
+  alt: 'Skylight logo variant: Bar Top'
+  description: Skylight logo variant (Bar Top) from the brand identity asset set.
   permissions: skylight-owned
   classification: public
   archived: false
@@ -499,7 +497,7 @@
   path: identity/colors/primary-palette.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: diagram
   themes:
   - brand
   tags: []
@@ -513,7 +511,7 @@
   path: identity/colors/secondary-palette.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: diagram
   themes:
   - brand
   tags: []
@@ -527,7 +525,7 @@
   path: identity/colors/tints.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: diagram
   themes:
   - brand
   tags: []
@@ -555,7 +553,7 @@
   path: identity/icons/avatars.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: illustration
   themes:
   - brand
   tags: []
@@ -597,7 +595,7 @@
   path: identity/icons/variants.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: illustration
   themes:
   - brand
   tags: []
@@ -1104,7 +1102,7 @@
   path: identity/typography/typefaces.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: diagram
   themes:
   - brand
   tags: []
@@ -1132,7 +1130,7 @@
   path: identity/typography/usage.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: diagram
   themes:
   - brand
   tags: []
@@ -1308,7 +1306,7 @@
   path: illustration/primary-colors.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: illustration
   themes:
   - brand
   tags: []
@@ -1323,7 +1321,7 @@
   path: illustration/skin-and-hair.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: illustration
   themes:
   - brand
   tags: []
@@ -1338,7 +1336,7 @@
   path: illustration/style-1.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: illustration
   themes:
   - brand
   tags: []
@@ -1353,7 +1351,7 @@
   path: illustration/style-2.jpg
   repo: skylight.digital
   date: '2026-03-26'
-  type: photo
+  type: illustration
   themes:
   - brand
   tags: []
