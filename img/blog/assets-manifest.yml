@@ -1,0 +1,2341 @@
+# Federation asset manifest -- skylight.digital img/blog (Phase C.2).
+# Path-derived enrichment; all assets are Skylight's own on the public site
+# -> permissions: skylight-owned, classification: public. ids are path-based.
+# NOTE: judgment fields the team should refine -- which people are current vs.
+# former (archive those), client/mission tags per project, and richer alt text.
+- id: blog-agile-share-in-savings-creative-commons-public-domain
+  path: agile_share_in_savings/creative-commons-public-domain.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - agile-share-in-savings
+  alt: 'Agile Share In Savings blog post: Creative Commons Public Domain'
+  description: Blog graphic for the 'Agile Share In Savings' post (Creative Commons
+    Public Domain).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-agile-share-in-savings-creative-commons-public-domain-2
+  path: agile_share_in_savings/creative-commons-public-domain.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - agile-share-in-savings
+  alt: 'Agile Share In Savings blog post: Creative Commons Public Domain'
+  description: Blog graphic for the 'Agile Share In Savings' post (Creative Commons
+    Public Domain).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-api-enablement-api-enablement
+  path: api_enablement/api-enablement.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - api-enablement
+  alt: 'Api Enablement blog post: Api Enablement'
+  description: Blog graphic for the 'Api Enablement' post (Api Enablement).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-api-enablement-api-enablement-2
+  path: api_enablement/api-enablement.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - api-enablement
+  alt: 'Api Enablement blog post: Api Enablement'
+  description: Blog graphic for the 'Api Enablement' post (Api Enablement).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-bug-bounty-solution-announcement-bug-bounty-services
+  path: bug_bounty_solution_announcement/bug-bounty-services.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - bug-bounty-solution-announcement
+  alt: 'Bug Bounty Solution Announcement blog post: Bug Bounty Services'
+  description: Blog graphic for the 'Bug Bounty Solution Announcement' post (Bug Bounty
+    Services).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-bug-bounty-solution-announcement-bug-bounty-services-2
+  path: bug_bounty_solution_announcement/bug-bounty-services.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - bug-bounty-solution-announcement
+  alt: 'Bug Bounty Solution Announcement blog post: Bug Bounty Services'
+  description: Blog graphic for the 'Bug Bounty Solution Announcement' post (Bug Bounty
+    Services).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-bug-bounty-solution-announcement-bugs-eating-computer
+  path: bug_bounty_solution_announcement/bugs-eating-computer.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - bug-bounty-solution-announcement
+  alt: 'Bug Bounty Solution Announcement blog post: Bugs Eating Computer'
+  description: Blog graphic for the 'Bug Bounty Solution Announcement' post (Bugs
+    Eating Computer).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-bug-bounty-solution-announcement-bugs-eating-computer-2
+  path: bug_bounty_solution_announcement/bugs-eating-computer.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - bug-bounty-solution-announcement
+  alt: 'Bug Bounty Solution Announcement blog post: Bugs Eating Computer'
+  description: Blog graphic for the 'Bug Bounty Solution Announcement' post (Bugs
+    Eating Computer).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-case-management-case-management-system-diagram
+  path: case_management/case-management-system-diagram.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - case-management
+  alt: 'Case Management blog post: Case Management System Diagram'
+  description: Blog graphic for the 'Case Management' post (Case Management System
+    Diagram).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-case-management-case-management-system-diagram-2
+  path: case_management/case-management-system-diagram.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - case-management
+  alt: 'Case Management blog post: Case Management System Diagram'
+  description: Blog graphic for the 'Case Management' post (Case Management System
+    Diagram).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-case-management-paper-case-files-pile
+  path: case_management/paper-case-files-pile.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - case-management
+  alt: 'Case Management blog post: Paper Case Files Pile'
+  description: Blog graphic for the 'Case Management' post (Paper Case Files Pile).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-case-management-paper-case-files-pile-2
+  path: case_management/paper-case-files-pile.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - case-management
+  alt: 'Case Management blog post: Paper Case Files Pile'
+  description: Blog graphic for the 'Case Management' post (Paper Case Files Pile).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-charlye-tran-interview-charlye-tran
+  path: charlye_tran_interview/charlye-tran.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - charlye-tran-interview
+  alt: 'Charlye Tran Interview blog post: Charlye Tran'
+  description: Blog graphic for the 'Charlye Tran Interview' post (Charlye Tran).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-charlye-tran-interview-charlye-tran-2
+  path: charlye_tran_interview/charlye-tran.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - charlye-tran-interview
+  alt: 'Charlye Tran Interview blog post: Charlye Tran'
+  description: Blog graphic for the 'Charlye Tran Interview' post (Charlye Tran).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-containers-thinking-inside-the-box-containers
+  path: containers_thinking_inside_the_box/containers.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - containers-thinking-inside-the-box
+  alt: 'Containers Thinking Inside The Box blog post: Containers'
+  description: Blog graphic for the 'Containers Thinking Inside The Box' post (Containers).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-containers-thinking-inside-the-box-containers-2
+  path: containers_thinking_inside_the_box/containers.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - containers-thinking-inside-the-box
+  alt: 'Containers Thinking Inside The Box blog post: Containers'
+  description: Blog graphic for the 'Containers Thinking Inside The Box' post (Containers).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-containers-thinking-inside-the-box-virtual-machines-vs-containers
+  path: containers_thinking_inside_the_box/virtual-machines-vs-containers.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - containers-thinking-inside-the-box
+  alt: 'Containers Thinking Inside The Box blog post: Virtual Machines Vs Containers'
+  description: Blog graphic for the 'Containers Thinking Inside The Box' post (Virtual
+    Machines Vs Containers).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-containers-thinking-inside-the-box-virtual-machines-vs-containers-2
+  path: containers_thinking_inside_the_box/virtual-machines-vs-containers.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - containers-thinking-inside-the-box
+  alt: 'Containers Thinking Inside The Box blog post: Virtual Machines Vs Containers'
+  description: Blog graphic for the 'Containers Thinking Inside The Box' post (Virtual
+    Machines Vs Containers).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-cool-kids-cool-person
+  path: cool_kids/cool-person.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - cool-kids
+  alt: 'Cool Kids blog post: Cool Person'
+  description: Blog graphic for the 'Cool Kids' post (Cool Person).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-cool-kids-cool-person-2
+  path: cool_kids/cool-person.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - cool-kids
+  alt: 'Cool Kids blog post: Cool Person'
+  description: Blog graphic for the 'Cool Kids' post (Cool Person).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-darpa-proposal-story-dense-sense-infographic
+  path: darpa_proposal_story/dense-sense-infographic.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - darpa-proposal-story
+  alt: 'Darpa Proposal Story blog post: Dense Sense Infographic'
+  description: Blog graphic for the 'Darpa Proposal Story' post (Dense Sense Infographic).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-darpa-proposal-story-dense-sense-infographic-2
+  path: darpa_proposal_story/dense-sense-infographic.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - darpa-proposal-story
+  alt: 'Darpa Proposal Story blog post: Dense Sense Infographic'
+  description: Blog graphic for the 'Darpa Proposal Story' post (Dense Sense Infographic).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-darpa-proposal-story-dense-sense
+  path: darpa_proposal_story/dense-sense.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - darpa-proposal-story
+  alt: 'Darpa Proposal Story blog post: Dense Sense'
+  description: Blog graphic for the 'Darpa Proposal Story' post (Dense Sense).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-darpa-proposal-story-dense-sense-2
+  path: darpa_proposal_story/dense-sense.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - darpa-proposal-story
+  alt: 'Darpa Proposal Story blog post: Dense Sense'
+  description: Blog graphic for the 'Darpa Proposal Story' post (Dense Sense).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-devops-transformation-proposal-acme-engagement-phases
+  path: devops_transformation_proposal/acme-engagement-phases.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - devops-transformation-proposal
+  alt: 'Devops Transformation Proposal blog post: Acme Engagement Phases'
+  description: Blog graphic for the 'Devops Transformation Proposal' post (Acme Engagement
+    Phases).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-devops-transformation-proposal-acme-engagement-phases-2
+  path: devops_transformation_proposal/acme-engagement-phases.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - devops-transformation-proposal
+  alt: 'Devops Transformation Proposal blog post: Acme Engagement Phases'
+  description: Blog graphic for the 'Devops Transformation Proposal' post (Acme Engagement
+    Phases).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-devops-transformation-proposal-devops-contract
+  path: devops_transformation_proposal/devops-contract.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - devops-transformation-proposal
+  alt: 'Devops Transformation Proposal blog post: Devops Contract'
+  description: Blog graphic for the 'Devops Transformation Proposal' post (Devops
+    Contract).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-devops-transformation-proposal-devops-contract-2
+  path: devops_transformation_proposal/devops-contract.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - devops-transformation-proposal
+  alt: 'Devops Transformation Proposal blog post: Devops Contract'
+  description: Blog graphic for the 'Devops Transformation Proposal' post (Devops
+    Contract).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-dora-devops
+  path: dora/devops.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - dora
+  alt: 'Dora blog post: Devops'
+  description: Blog graphic for the 'Dora' post (Devops).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-dora-devops-2
+  path: dora/devops.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - dora
+  alt: 'Dora blog post: Devops'
+  description: Blog graphic for the 'Dora' post (Devops).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-dora-dora-infographic
+  path: dora/dora-infographic.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - dora
+  alt: 'Dora blog post: Dora Infographic'
+  description: Blog graphic for the 'Dora' post (Dora Infographic).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-dora-dora-infographic-2
+  path: dora/dora-infographic.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - dora
+  alt: 'Dora blog post: Dora Infographic'
+  description: Blog graphic for the 'Dora' post (Dora Infographic).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-early-childhood-info-systems-insights-early-care-and-education-service-delivery-flow
+  path: early_childhood_info_systems_insights/early-care-and-education-service-delivery-flow.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - early-childhood-info-systems-insights
+  alt: 'Early Childhood Info Systems Insights blog post: Early Care And Education
+    Service Delivery Flow'
+  description: Blog graphic for the 'Early Childhood Info Systems Insights' post (Early
+    Care And Education Service Delivery Flow).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-early-childhood-info-systems-insights-early-care-and-education-service-delivery-flow-2
+  path: early_childhood_info_systems_insights/early-care-and-education-service-delivery-flow.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - early-childhood-info-systems-insights
+  alt: 'Early Childhood Info Systems Insights blog post: Early Care And Education
+    Service Delivery Flow'
+  description: Blog graphic for the 'Early Childhood Info Systems Insights' post (Early
+    Care And Education Service Delivery Flow).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-early-childhood-info-systems-insights-families-with-young-children-map
+  path: early_childhood_info_systems_insights/families-with-young-children-map.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - early-childhood-info-systems-insights
+  alt: 'Early Childhood Info Systems Insights blog post: Families With Young Children
+    Map'
+  description: Blog graphic for the 'Early Childhood Info Systems Insights' post (Families
+    With Young Children Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-early-childhood-info-systems-insights-families-with-young-children-map-2
+  path: early_childhood_info_systems_insights/families-with-young-children-map.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - early-childhood-info-systems-insights
+  alt: 'Early Childhood Info Systems Insights blog post: Families With Young Children
+    Map'
+  description: Blog graphic for the 'Early Childhood Info Systems Insights' post (Families
+    With Young Children Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-federal-cio-digital-transformation-principles-cio-digital-world
+  path: federal_cio_digital_transformation_principles/cio-digital-world.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - federal-cio-digital-transformation-principles
+  alt: 'Federal Cio Digital Transformation Principles blog post: Cio Digital World'
+  description: Blog graphic for the 'Federal Cio Digital Transformation Principles'
+    post (Cio Digital World).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-federal-cio-digital-transformation-principles-cio-digital-world-2
+  path: federal_cio_digital_transformation_principles/cio-digital-world.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - federal-cio-digital-transformation-principles
+  alt: 'Federal Cio Digital Transformation Principles blog post: Cio Digital World'
+  description: Blog graphic for the 'Federal Cio Digital Transformation Principles'
+    post (Cio Digital World).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-federal-cio-digital-transformation-principles-digital-transformation-framework
+  path: federal_cio_digital_transformation_principles/digital-transformation-framework.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - federal-cio-digital-transformation-principles
+  alt: 'Federal Cio Digital Transformation Principles blog post: Digital Transformation
+    Framework'
+  description: Blog graphic for the 'Federal Cio Digital Transformation Principles'
+    post (Digital Transformation Framework).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-federal-cio-digital-transformation-principles-digital-transformation-framework-2
+  path: federal_cio_digital_transformation_principles/digital-transformation-framework.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - federal-cio-digital-transformation-principles
+  alt: 'Federal Cio Digital Transformation Principles blog post: Digital Transformation
+    Framework'
+  description: Blog graphic for the 'Federal Cio Digital Transformation Principles'
+    post (Digital Transformation Framework).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-five-pifs-join-welcome
+  path: five_pifs_join/welcome.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - five-pifs-join
+  alt: 'Five Pifs Join blog post: Welcome'
+  description: Blog graphic for the 'Five Pifs Join' post (Welcome).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-five-pifs-join-welcome-2
+  path: five_pifs_join/welcome.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - five-pifs-join
+  alt: 'Five Pifs Join blog post: Welcome'
+  description: Blog graphic for the 'Five Pifs Join' post (Welcome).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-geoff-mulligan-interview-geoff-mulligan
+  path: geoff_mulligan_interview/geoff-mulligan.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - geoff-mulligan-interview
+  alt: 'Geoff Mulligan Interview blog post: Geoff Mulligan'
+  description: Blog graphic for the 'Geoff Mulligan Interview' post (Geoff Mulligan).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-geoff-mulligan-interview-geoff-mulligan-2
+  path: geoff_mulligan_interview/geoff-mulligan.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - geoff-mulligan-interview
+  alt: 'Geoff Mulligan Interview blog post: Geoff Mulligan'
+  description: Blog graphic for the 'Geoff Mulligan Interview' post (Geoff Mulligan).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-gianna-buda-interview-gianna-buda
+  path: gianna_buda_interview/gianna-buda.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - gianna-buda-interview
+  alt: 'Gianna Buda Interview blog post: Gianna Buda'
+  description: Blog graphic for the 'Gianna Buda Interview' post (Gianna Buda).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-gianna-buda-interview-gianna-buda-2
+  path: gianna_buda_interview/gianna-buda.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - gianna-buda-interview
+  alt: 'Gianna Buda Interview blog post: Gianna Buda'
+  description: Blog graphic for the 'Gianna Buda Interview' post (Gianna Buda).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-jordan-guinn-interview-jordan-guinn
+  path: jordan_guinn_interview/jordan-guinn.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - jordan-guinn-interview
+  alt: 'Jordan Guinn Interview blog post: Jordan Guinn'
+  description: Blog graphic for the 'Jordan Guinn Interview' post (Jordan Guinn).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-jordan-guinn-interview-jordan-guinn-2
+  path: jordan_guinn_interview/jordan-guinn.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - jordan-guinn-interview
+  alt: 'Jordan Guinn Interview blog post: Jordan Guinn'
+  description: Blog graphic for the 'Jordan Guinn Interview' post (Jordan Guinn).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-josh-dorothy-interview-josh-dorothy
+  path: josh_dorothy_interview/josh-dorothy.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - josh-dorothy-interview
+  alt: 'Josh Dorothy Interview blog post: Josh Dorothy'
+  description: Blog graphic for the 'Josh Dorothy Interview' post (Josh Dorothy).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-josh-dorothy-interview-josh-dorothy-2
+  path: josh_dorothy_interview/josh-dorothy.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - josh-dorothy-interview
+  alt: 'Josh Dorothy Interview blog post: Josh Dorothy'
+  description: Blog graphic for the 'Josh Dorothy Interview' post (Josh Dorothy).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-kin-lane-interview-kin-lane
+  path: kin_lane_interview/kin-lane.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - kin-lane-interview
+  alt: 'Kin Lane Interview blog post: Kin Lane'
+  description: Blog graphic for the 'Kin Lane Interview' post (Kin Lane).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-kin-lane-interview-kin-lane-2
+  path: kin_lane_interview/kin-lane.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - kin-lane-interview
+  alt: 'Kin Lane Interview blog post: Kin Lane'
+  description: Blog graphic for the 'Kin Lane Interview' post (Kin Lane).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-agile-software-development-process
+  path: lean_software_development/agile-software-development-process.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Agile Software Development Process'
+  description: Blog graphic for the 'Lean Software Development' post (Agile Software
+    Development Process).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-agile-software-development-process-2
+  path: lean_software_development/agile-software-development-process.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Agile Software Development Process'
+  description: Blog graphic for the 'Lean Software Development' post (Agile Software
+    Development Process).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-crossroads
+  path: lean_software_development/crossroads.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Crossroads'
+  description: Blog graphic for the 'Lean Software Development' post (Crossroads).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-crossroads-2
+  path: lean_software_development/crossroads.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Crossroads'
+  description: Blog graphic for the 'Lean Software Development' post (Crossroads).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-lean-agile-matrix
+  path: lean_software_development/lean-agile-matrix.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Lean Agile Matrix'
+  description: Blog graphic for the 'Lean Software Development' post (Lean Agile Matrix).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-lean-agile-matrix-2
+  path: lean_software_development/lean-agile-matrix.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Lean Agile Matrix'
+  description: Blog graphic for the 'Lean Software Development' post (Lean Agile Matrix).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-lean-agile-spectrum
+  path: lean_software_development/lean-agile-spectrum.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Lean Agile Spectrum'
+  description: Blog graphic for the 'Lean Software Development' post (Lean Agile Spectrum).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-lean-agile-spectrum-2
+  path: lean_software_development/lean-agile-spectrum.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Lean Agile Spectrum'
+  description: Blog graphic for the 'Lean Software Development' post (Lean Agile Spectrum).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-lean-software-development-video
+  path: lean_software_development/lean-software-development-video.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Lean Software Development Video'
+  description: Blog graphic for the 'Lean Software Development' post (Lean Software
+    Development Video).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-lean-vs-agile
+  path: lean_software_development/lean-vs-agile.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Lean Vs Agile'
+  description: Blog graphic for the 'Lean Software Development' post (Lean Vs Agile).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-lean-vs-agile-2
+  path: lean_software_development/lean-vs-agile.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Lean Vs Agile'
+  description: Blog graphic for the 'Lean Software Development' post (Lean Vs Agile).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-mobile-phone-map-navigation
+  path: lean_software_development/mobile-phone-map-navigation.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Mobile Phone Map Navigation'
+  description: Blog graphic for the 'Lean Software Development' post (Mobile Phone
+    Map Navigation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-mobile-phone-map-navigation-2
+  path: lean_software_development/mobile-phone-map-navigation.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Mobile Phone Map Navigation'
+  description: Blog graphic for the 'Lean Software Development' post (Mobile Phone
+    Map Navigation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-software-dev-seven-wastes
+  path: lean_software_development/software-dev-seven-wastes.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Software Dev Seven Wastes'
+  description: Blog graphic for the 'Lean Software Development' post (Software Dev
+    Seven Wastes).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-software-dev-seven-wastes-2
+  path: lean_software_development/software-dev-seven-wastes.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Software Dev Seven Wastes'
+  description: Blog graphic for the 'Lean Software Development' post (Software Dev
+    Seven Wastes).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-starting-point
+  path: lean_software_development/starting-point.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Starting Point'
+  description: Blog graphic for the 'Lean Software Development' post (Starting Point).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-starting-point-2
+  path: lean_software_development/starting-point.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Starting Point'
+  description: Blog graphic for the 'Lean Software Development' post (Starting Point).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-waterfall-development-process
+  path: lean_software_development/waterfall-development-process.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Waterfall Development Process'
+  description: Blog graphic for the 'Lean Software Development' post (Waterfall Development
+    Process).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-waterfall-development-process-2
+  path: lean_software_development/waterfall-development-process.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Waterfall Development Process'
+  description: Blog graphic for the 'Lean Software Development' post (Waterfall Development
+    Process).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-wip-restriction-illustrated
+  path: lean_software_development/wip-restriction-illustrated.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Wip Restriction Illustrated'
+  description: Blog graphic for the 'Lean Software Development' post (Wip Restriction
+    Illustrated).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-lean-software-development-wip-restriction-illustrated-2
+  path: lean_software_development/wip-restriction-illustrated.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - lean-software-development
+  alt: 'Lean Software Development blog post: Wip Restriction Illustrated'
+  description: Blog graphic for the 'Lean Software Development' post (Wip Restriction
+    Illustrated).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-maya-benari-interview-maya-benari
+  path: maya_benari_interview/maya-benari.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - maya-benari-interview
+  alt: 'Maya Benari Interview blog post: Maya Benari'
+  description: Blog graphic for the 'Maya Benari Interview' post (Maya Benari).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-maya-benari-interview-maya-benari-2
+  path: maya_benari_interview/maya-benari.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - maya-benari-interview
+  alt: 'Maya Benari Interview blog post: Maya Benari'
+  description: Blog graphic for the 'Maya Benari Interview' post (Maya Benari).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-meet-ten-newest-team-members-team-member-welcome
+  path: meet_ten_newest_team_members/team-member-welcome.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - meet-ten-newest-team-members
+  alt: 'Meet Ten Newest Team Members blog post: Team Member Welcome'
+  description: Blog graphic for the 'Meet Ten Newest Team Members' post (Team Member
+    Welcome).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-meet-ten-newest-team-members-team-member-welcome-2
+  path: meet_ten_newest_team_members/team-member-welcome.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - meet-ten-newest-team-members
+  alt: 'Meet Ten Newest Team Members blog post: Team Member Welcome'
+  description: Blog graphic for the 'Meet Ten Newest Team Members' post (Team Member
+    Welcome).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mentor-protege-search-mentor-protege
+  path: mentor_protege_search/mentor-protege.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mentor-protege-search
+  alt: 'Mentor Protege Search blog post: Mentor Protege'
+  description: Blog graphic for the 'Mentor Protege Search' post (Mentor Protege).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mentor-protege-search-mentor-protege-2
+  path: mentor_protege_search/mentor-protege.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mentor-protege-search
+  alt: 'Mentor Protege Search blog post: Mentor Protege'
+  description: Blog graphic for the 'Mentor Protege Search' post (Mentor Protege).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-microconsulting-services-microconsulting
+  path: microconsulting_services/microconsulting.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - microconsulting-services
+  alt: 'Microconsulting Services blog post: Microconsulting'
+  description: Blog graphic for the 'Microconsulting Services' post (Microconsulting).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-microconsulting-services-microconsulting-2
+  path: microconsulting_services/microconsulting.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - microconsulting-services
+  alt: 'Microconsulting Services blog post: Microconsulting'
+  description: Blog graphic for the 'Microconsulting Services' post (Microconsulting).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-microconsulting-unsolicited-proposal-18f-micropurchase-platform-screenshot
+  path: microconsulting_unsolicited_proposal/18f-micropurchase-platform-screenshot.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - microconsulting-unsolicited-proposal
+  alt: 'Microconsulting Unsolicited Proposal blog post: 18f Micropurchase Platform
+    Screenshot'
+  description: Blog graphic for the 'Microconsulting Unsolicited Proposal' post (18f
+    Micropurchase Platform Screenshot).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-microconsulting-unsolicited-proposal-codementor-screenshot
+  path: microconsulting_unsolicited_proposal/codementor-screenshot.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - microconsulting-unsolicited-proposal
+  alt: 'Microconsulting Unsolicited Proposal blog post: Codementor Screenshot'
+  description: Blog graphic for the 'Microconsulting Unsolicited Proposal' post (Codementor
+    Screenshot).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-microconsulting-unsolicited-proposal-microconsulting-services-marketplace-platform-storyboard
+  path: microconsulting_unsolicited_proposal/microconsulting-services-marketplace-platform-storyboard.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - microconsulting-unsolicited-proposal
+  alt: 'Microconsulting Unsolicited Proposal blog post: Microconsulting Services Marketplace
+    Platform Storyboard'
+  description: Blog graphic for the 'Microconsulting Unsolicited Proposal' post (Microconsulting
+    Services Marketplace Platform Storyboard).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-microconsulting-unsolicited-proposal-microconsulting-services-marketplace
+  path: microconsulting_unsolicited_proposal/microconsulting-services-marketplace.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - microconsulting-unsolicited-proposal
+  alt: 'Microconsulting Unsolicited Proposal blog post: Microconsulting Services Marketplace'
+  description: Blog graphic for the 'Microconsulting Unsolicited Proposal' post (Microconsulting
+    Services Marketplace).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-microconsulting-unsolicited-proposal-microconsulting-services-marketplace-2
+  path: microconsulting_unsolicited_proposal/microconsulting-services-marketplace.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - microconsulting-unsolicited-proposal
+  alt: 'Microconsulting Unsolicited Proposal blog post: Microconsulting Services Marketplace'
+  description: Blog graphic for the 'Microconsulting Unsolicited Proposal' post (Microconsulting
+    Services Marketplace).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-mobile-app-dev-trends-1
+  path: mobile_app_dev_trends/mobile-app-dev-trends-1.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Mobile App Dev Trends 1'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Mobile App Dev Trends
+    1).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-mobile-app-dev-trends-1-2
+  path: mobile_app_dev_trends/mobile-app-dev-trends-1.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Mobile App Dev Trends 1'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Mobile App Dev Trends
+    1).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-mobile-app-dev-trends-2
+  path: mobile_app_dev_trends/mobile-app-dev-trends-2.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Mobile App Dev Trends 2'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Mobile App Dev Trends
+    2).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-mobile-app-dev-trends-2-2
+  path: mobile_app_dev_trends/mobile-app-dev-trends-2.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Mobile App Dev Trends 2'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Mobile App Dev Trends
+    2).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-new-multi-mobile-options
+  path: mobile_app_dev_trends/new-multi-mobile-options.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: New Multi Mobile Options'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (New Multi Mobile
+    Options).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-new-multi-mobile-options-2
+  path: mobile_app_dev_trends/new-multi-mobile-options.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: New Multi Mobile Options'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (New Multi Mobile
+    Options).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-old-binary-mobile-options
+  path: mobile_app_dev_trends/old-binary-mobile-options.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Old Binary Mobile Options'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Old Binary Mobile
+    Options).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-old-binary-mobile-options-2
+  path: mobile_app_dev_trends/old-binary-mobile-options.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Old Binary Mobile Options'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Old Binary Mobile
+    Options).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-thin-client-thick-api-architecture
+  path: mobile_app_dev_trends/thin-client-thick-api-architecture.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Thin Client Thick Api Architecture'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Thin Client Thick
+    Api Architecture).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-thin-client-thick-api-architecture-2
+  path: mobile_app_dev_trends/thin-client-thick-api-architecture.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Thin Client Thick Api Architecture'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Thin Client Thick
+    Api Architecture).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-traditional-mobile-architecture
+  path: mobile_app_dev_trends/traditional-mobile-architecture.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Traditional Mobile Architecture'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Traditional Mobile
+    Architecture).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-mobile-app-dev-trends-traditional-mobile-architecture-2
+  path: mobile_app_dev_trends/traditional-mobile-architecture.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes: []
+  tags: []
+  used_in:
+  - mobile-app-dev-trends
+  alt: 'Mobile App Dev Trends blog post: Traditional Mobile Architecture'
+  description: Blog graphic for the 'Mobile App Dev Trends' post (Traditional Mobile
+    Architecture).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-nick-bristow-interview-nick-bristow
+  path: nick_bristow_interview/nick-bristow.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - nick-bristow-interview
+  alt: 'Nick Bristow Interview blog post: Nick Bristow'
+  description: Blog graphic for the 'Nick Bristow Interview' post (Nick Bristow).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-nick-bristow-interview-nick-bristow-2
+  path: nick_bristow_interview/nick-bristow.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - nick-bristow-interview
+  alt: 'Nick Bristow Interview blog post: Nick Bristow'
+  description: Blog graphic for the 'Nick Bristow Interview' post (Nick Bristow).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-plain-language-policies-telehealth-plain-language
+  path: plain_language_policies_telehealth/plain-language.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - plain-language-policies-telehealth
+  alt: 'Plain Language Policies Telehealth blog post: Plain Language'
+  description: Blog graphic for the 'Plain Language Policies Telehealth' post (Plain
+    Language).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-plain-language-policies-telehealth-plain-language-2
+  path: plain_language_policies_telehealth/plain-language.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - plain-language-policies-telehealth
+  alt: 'Plain Language Policies Telehealth blog post: Plain Language'
+  description: Blog graphic for the 'Plain Language Policies Telehealth' post (Plain
+    Language).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-plain-language-policies-telehealth-telehealth-billing-codes-prototype
+  path: plain_language_policies_telehealth/telehealth-billing-codes-prototype.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - plain-language-policies-telehealth
+  alt: 'Plain Language Policies Telehealth blog post: Telehealth Billing Codes Prototype'
+  description: Blog graphic for the 'Plain Language Policies Telehealth' post (Telehealth
+    Billing Codes Prototype).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-plain-language-policies-telehealth-telehealth-billing-codes
+  path: plain_language_policies_telehealth/telehealth-billing-codes.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - plain-language-policies-telehealth
+  alt: 'Plain Language Policies Telehealth blog post: Telehealth Billing Codes'
+  description: Blog graphic for the 'Plain Language Policies Telehealth' post (Telehealth
+    Billing Codes).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-power-of-apis-power-of-apis
+  path: power_of_apis/power-of-apis.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - power-of-apis
+  alt: 'Power Of Apis blog post: Power Of Apis'
+  description: Blog graphic for the 'Power Of Apis' post (Power Of Apis).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-power-of-apis-power-of-apis-2
+  path: power_of_apis/power-of-apis.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - power-of-apis
+  alt: 'Power Of Apis blog post: Power Of Apis'
+  description: Blog graphic for the 'Power Of Apis' post (Power Of Apis).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-power-of-apis-risk-utility-graph-with-api
+  path: power_of_apis/risk-utility-graph-with-api.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - power-of-apis
+  alt: 'Power Of Apis blog post: Risk Utility Graph With Api'
+  description: Blog graphic for the 'Power Of Apis' post (Risk Utility Graph With
+    Api).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-power-of-apis-risk-utility-graph-with-api-2
+  path: power_of_apis/risk-utility-graph-with-api.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - power-of-apis
+  alt: 'Power Of Apis blog post: Risk Utility Graph With Api'
+  description: Blog graphic for the 'Power Of Apis' post (Risk Utility Graph With
+    Api).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-power-of-apis-risk-utility-graph-without-api
+  path: power_of_apis/risk-utility-graph-without-api.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - power-of-apis
+  alt: 'Power Of Apis blog post: Risk Utility Graph Without Api'
+  description: Blog graphic for the 'Power Of Apis' post (Risk Utility Graph Without
+    Api).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-power-of-apis-risk-utility-graph-without-api-2
+  path: power_of_apis/risk-utility-graph-without-api.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - power-of-apis
+  alt: 'Power Of Apis blog post: Risk Utility Graph Without Api'
+  description: Blog graphic for the 'Power Of Apis' post (Risk Utility Graph Without
+    Api).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-public-domain-procurement-creative-commons-public-domain
+  path: public_domain_procurement/creative-commons-public-domain.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - public-domain-procurement
+  alt: 'Public Domain Procurement blog post: Creative Commons Public Domain'
+  description: Blog graphic for the 'Public Domain Procurement' post (Creative Commons
+    Public Domain).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-public-domain-procurement-creative-commons-public-domain-2
+  path: public_domain_procurement/creative-commons-public-domain.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - public-domain-procurement
+  alt: 'Public Domain Procurement blog post: Creative Commons Public Domain'
+  description: Blog graphic for the 'Public Domain Procurement' post (Creative Commons
+    Public Domain).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-public-servant-learning-techniques-learning-techniques
+  path: public_servant_learning_techniques/learning-techniques.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - public-servant-learning-techniques
+  alt: 'Public Servant Learning Techniques blog post: Learning Techniques'
+  description: Blog graphic for the 'Public Servant Learning Techniques' post (Learning
+    Techniques).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-public-servant-learning-techniques-learning-techniques-2
+  path: public_servant_learning_techniques/learning-techniques.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - public-servant-learning-techniques
+  alt: 'Public Servant Learning Techniques blog post: Learning Techniques'
+  description: Blog graphic for the 'Public Servant Learning Techniques' post (Learning
+    Techniques).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-downed-powerline
+  path: puerto_rico_disaster_lab/downed-powerline.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Downed Powerline'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Downed Powerline).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-downed-powerline-2
+  path: puerto_rico_disaster_lab/downed-powerline.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Downed Powerline'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Downed Powerline).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-fast-map
+  path: puerto_rico_disaster_lab/fast-map.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Fast Map'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Fast Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-fast-map-2
+  path: puerto_rico_disaster_lab/fast-map.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Fast Map'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Fast Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-hurricane-maria
+  path: puerto_rico_disaster_lab/hurricane-maria.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Hurricane Maria'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Hurricane Maria).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-hurricane-maria-2
+  path: puerto_rico_disaster_lab/hurricane-maria.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Hurricane Maria'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Hurricane Maria).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-landslide
+  path: puerto_rico_disaster_lab/landslide.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Landslide'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Landslide).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-landslide-2
+  path: puerto_rico_disaster_lab/landslide.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Landslide'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Landslide).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-map-terrain
+  path: puerto_rico_disaster_lab/map-terrain.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Map Terrain'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Map Terrain).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-map-terrain-2
+  path: puerto_rico_disaster_lab/map-terrain.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Map Terrain'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Map Terrain).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-municipalities
+  path: puerto_rico_disaster_lab/municipalities.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Municipalities'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Municipalities).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-municipalities-2
+  path: puerto_rico_disaster_lab/municipalities.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Municipalities'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Municipalities).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-scribing
+  path: puerto_rico_disaster_lab/scribing.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Scribing'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Scribing).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-scribing-2
+  path: puerto_rico_disaster_lab/scribing.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Scribing'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Scribing).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-snake-road
+  path: puerto_rico_disaster_lab/snake-road.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Snake Road'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Snake Road).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-snake-road-2
+  path: puerto_rico_disaster_lab/snake-road.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Snake Road'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Snake Road).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-woman-tanager
+  path: puerto_rico_disaster_lab/woman-tanager.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Woman Tanager'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Woman Tanager).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-puerto-rico-disaster-lab-woman-tanager-2
+  path: puerto_rico_disaster_lab/woman-tanager.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - puerto-rico-disaster-lab
+  alt: 'Puerto Rico Disaster Lab blog post: Woman Tanager'
+  description: Blog graphic for the 'Puerto Rico Disaster Lab' post (Woman Tanager).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-refugee-admissions-research-refugee-admission-journey-map
+  path: refugee_admissions_research/refugee-admission-journey-map.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - refugee-admissions-research
+  alt: 'Refugee Admissions Research blog post: Refugee Admission Journey Map'
+  description: Blog graphic for the 'Refugee Admissions Research' post (Refugee Admission
+    Journey Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-refugee-admissions-research-refugee-admission-journey-map-2
+  path: refugee_admissions_research/refugee-admission-journey-map.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - refugee-admissions-research
+  alt: 'Refugee Admissions Research blog post: Refugee Admission Journey Map'
+  description: Blog graphic for the 'Refugee Admissions Research' post (Refugee Admission
+    Journey Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-refugee-admissions-research-refugee-kids-eating
+  path: refugee_admissions_research/refugee-kids-eating.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - refugee-admissions-research
+  alt: 'Refugee Admissions Research blog post: Refugee Kids Eating'
+  description: Blog graphic for the 'Refugee Admissions Research' post (Refugee Kids
+    Eating).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-refugee-admissions-research-refugee-kids-eating-2
+  path: refugee_admissions_research/refugee-kids-eating.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - refugee-admissions-research
+  alt: 'Refugee Admissions Research blog post: Refugee Kids Eating'
+  description: Blog graphic for the 'Refugee Admissions Research' post (Refugee Kids
+    Eating).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-refugee-admissions-research-refugee-kids
+  path: refugee_admissions_research/refugee-kids.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - refugee-admissions-research
+  alt: 'Refugee Admissions Research blog post: Refugee Kids'
+  description: Blog graphic for the 'Refugee Admissions Research' post (Refugee Kids).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-refugee-admissions-research-refugee-kids-2
+  path: refugee_admissions_research/refugee-kids.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - refugee-admissions-research
+  alt: 'Refugee Admissions Research blog post: Refugee Kids'
+  description: Blog graphic for the 'Refugee Admissions Research' post (Refugee Kids).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-rescue-failing-programs-rescue
+  path: rescue_failing_programs/rescue.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - rescue-failing-programs
+  alt: 'Rescue Failing Programs blog post: Rescue'
+  description: Blog graphic for the 'Rescue Failing Programs' post (Rescue).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-rescue-failing-programs-rescue-2
+  path: rescue_failing_programs/rescue.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - rescue-failing-programs
+  alt: 'Rescue Failing Programs blog post: Rescue'
+  description: Blog graphic for the 'Rescue Failing Programs' post (Rescue).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-smarter-way-to-build-smart-cities-smart-city
+  path: smarter_way_to_build_smart_cities/smart-city.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - smarter-way-to-build-smart-cities
+  alt: 'Smarter Way To Build Smart Cities blog post: Smart City'
+  description: Blog graphic for the 'Smarter Way To Build Smart Cities' post (Smart
+    City).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-smarter-way-to-build-smart-cities-smart-city-2
+  path: smarter_way_to_build_smart_cities/smart-city.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - smarter-way-to-build-smart-cities
+  alt: 'Smarter Way To Build Smart Cities blog post: Smart City'
+  description: Blog graphic for the 'Smarter Way To Build Smart Cities' post (Smart
+    City).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-software-badness-quantified-bad-code-quantified
+  path: software_badness_quantified/bad-code-quantified.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - software-badness-quantified
+  alt: 'Software Badness Quantified blog post: Bad Code Quantified'
+  description: Blog graphic for the 'Software Badness Quantified' post (Bad Code Quantified).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-software-badness-quantified-bad-code-quantified-2
+  path: software_badness_quantified/bad-code-quantified.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - software-badness-quantified
+  alt: 'Software Badness Quantified blog post: Bad Code Quantified'
+  description: Blog graphic for the 'Software Badness Quantified' post (Bad Code Quantified).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-software-badness-quantified-software-badness-quantified-graph
+  path: software_badness_quantified/software-badness-quantified-graph.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - software-badness-quantified
+  alt: 'Software Badness Quantified blog post: Software Badness Quantified Graph'
+  description: Blog graphic for the 'Software Badness Quantified' post (Software Badness
+    Quantified Graph).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-software-badness-quantified-software-badness-quantified-graph-2
+  path: software_badness_quantified/software-badness-quantified-graph.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - software-badness-quantified
+  alt: 'Software Badness Quantified blog post: Software Badness Quantified Graph'
+  description: Blog graphic for the 'Software Badness Quantified' post (Software Badness
+    Quantified Graph).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-tech-challenge-thoughts-tech-challenge-laptops-boxing
+  path: tech_challenge_thoughts/tech-challenge-laptops-boxing.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - tech-challenge-thoughts
+  alt: 'Tech Challenge Thoughts blog post: Tech Challenge Laptops Boxing'
+  description: Blog graphic for the 'Tech Challenge Thoughts' post (Tech Challenge
+    Laptops Boxing).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-tech-challenge-thoughts-tech-challenge-laptops-boxing-2
+  path: tech_challenge_thoughts/tech-challenge-laptops-boxing.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - tech-challenge-thoughts
+  alt: 'Tech Challenge Thoughts blog post: Tech Challenge Laptops Boxing'
+  description: Blog graphic for the 'Tech Challenge Thoughts' post (Tech Challenge
+    Laptops Boxing).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-tech-challenge-thoughts-vendor-procurement-pursuit-cost-benefit-decision-matrix
+  path: tech_challenge_thoughts/vendor-procurement-pursuit-cost-benefit-decision-matrix.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - tech-challenge-thoughts
+  alt: 'Tech Challenge Thoughts blog post: Vendor Procurement Pursuit Cost Benefit
+    Decision Matrix'
+  description: Blog graphic for the 'Tech Challenge Thoughts' post (Vendor Procurement
+    Pursuit Cost Benefit Decision Matrix).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: blog-tech-challenge-thoughts-vendor-procurement-pursuit-cost-benefit-decision-matrix-2
+  path: tech_challenge_thoughts/vendor-procurement-pursuit-cost-benefit-decision-matrix.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes: []
+  tags: []
+  used_in:
+  - tech-challenge-thoughts
+  alt: 'Tech Challenge Thoughts blog post: Vendor Procurement Pursuit Cost Benefit
+    Decision Matrix'
+  description: Blog graphic for the 'Tech Challenge Thoughts' post (Vendor Procurement
+    Pursuit Cost Benefit Decision Matrix).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
