@@ -1,0 +1,2984 @@
+# Federation asset manifest -- skylight.digital img/projects (Phase C.2).
+# Path-derived enrichment; all assets are Skylight's own on the public site
+# -> permissions: skylight-owned, classification: public. ids are path-based.
+# NOTE: judgment fields the team should refine -- which people are current vs.
+# former (archive those), client/mission tags per project, and richer alt text.
+- id: project-18f-consulting-digital-mastery
+  path: 18f_consulting/digital-mastery.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - 18f-consulting
+  alt: '18f Consulting case study: Digital Mastery'
+  description: Case-study graphic for the 18f Consulting project (Digital Mastery).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-18f-consulting-digital-mastery-2
+  path: 18f_consulting/digital-mastery.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - 18f-consulting
+  alt: '18f Consulting case study: Digital Mastery'
+  description: Case-study graphic for the 18f Consulting project (Digital Mastery).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-acme-devops-transformation-devops
+  path: acme_devops_transformation/devops.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - acme-devops-transformation
+  alt: 'Acme Devops Transformation case study: Devops'
+  description: Case-study graphic for the Acme Devops Transformation project (Devops).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-acme-devops-transformation-devops-2
+  path: acme_devops_transformation/devops.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - acme-devops-transformation
+  alt: 'Acme Devops Transformation case study: Devops'
+  description: Case-study graphic for the Acme Devops Transformation project (Devops).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-adopta-agency-api-launcher
+  path: adopta_agency/api-launcher.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - adopta-agency
+  alt: 'Adopta Agency case study: Api Launcher'
+  description: Case-study graphic for the Adopta Agency project (Api Launcher).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-adopta-agency-api-launcher-2
+  path: adopta_agency/api-launcher.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - adopta-agency
+  alt: 'Adopta Agency case study: Api Launcher'
+  description: Case-study graphic for the Adopta Agency project (Api Launcher).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-agile-acquisition-framework-agile-acquisition-framework
+  path: agile_acquisition_framework/agile-acquisition-framework.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - agile-acquisition-framework
+  alt: 'Agile Acquisition Framework case study: Agile Acquisition Framework'
+  description: Case-study graphic for the Agile Acquisition Framework project (Agile
+    Acquisition Framework).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-agile-acquisition-framework-agile-acquisition-framework-2
+  path: agile_acquisition_framework/agile-acquisition-framework.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - agile-acquisition-framework
+  alt: 'Agile Acquisition Framework case study: Agile Acquisition Framework'
+  description: Case-study graphic for the Agile Acquisition Framework project (Agile
+    Acquisition Framework).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-agile-delivery-services-marketplace-agile-delivery-services-marketplace
+  path: agile_delivery_services_marketplace/agile-delivery-services-marketplace.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - agile-delivery-services-marketplace
+  alt: 'Agile Delivery Services Marketplace case study: Agile Delivery Services Marketplace'
+  description: Case-study graphic for the Agile Delivery Services Marketplace project
+    (Agile Delivery Services Marketplace).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-agile-delivery-services-marketplace-agile-delivery-services-marketplace-2
+  path: agile_delivery_services_marketplace/agile-delivery-services-marketplace.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - agile-delivery-services-marketplace
+  alt: 'Agile Delivery Services Marketplace case study: Agile Delivery Services Marketplace'
+  description: Case-study graphic for the Agile Delivery Services Marketplace project
+    (Agile Delivery Services Marketplace).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ca-hhs-agile-training-agile-training
+  path: ca_hhs_agile_training/agile-training.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ca-hhs-agile-training
+  alt: 'Ca Hhs Agile Training case study: Agile Training'
+  description: Case-study graphic for the Ca Hhs Agile Training project (Agile Training).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ca-hhs-agile-training-agile-training-2
+  path: ca_hhs_agile_training/agile-training.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ca-hhs-agile-training
+  alt: 'Ca Hhs Agile Training case study: Agile Training'
+  description: Case-study graphic for the Ca Hhs Agile Training project (Agile Training).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-carrot-carrot-demo-page
+  path: carrot/carrot-demo-page.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - carrot
+  alt: 'Carrot case study: Carrot Demo Page'
+  description: Case-study graphic for the Carrot project (Carrot Demo Page).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-carrot-carrot
+  path: carrot/carrot.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - carrot
+  alt: 'Carrot case study: Carrot'
+  description: Case-study graphic for the Carrot project (Carrot).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-carrot-carrot-2
+  path: carrot/carrot.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - carrot
+  alt: 'Carrot case study: Carrot'
+  description: Case-study graphic for the Carrot project (Carrot).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-dibbs-logo
+  path: cdc_dibbs/dibbs-logo.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs
+  alt: 'Cdc Dibbs case study: Dibbs Logo'
+  description: Case-study graphic for the Cdc Dibbs project (Dibbs Logo).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-dibbs-logo-2
+  path: cdc_dibbs/dibbs-logo.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs
+  alt: 'Cdc Dibbs case study: Dibbs Logo'
+  description: Case-study graphic for the Cdc Dibbs project (Dibbs Logo).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-dibbs
+  path: cdc_dibbs/dibbs.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs
+  alt: 'Cdc Dibbs case study: Dibbs'
+  description: Case-study graphic for the Cdc Dibbs project (Dibbs).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-dibbs-2
+  path: cdc_dibbs/dibbs.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs
+  alt: 'Cdc Dibbs case study: Dibbs'
+  description: Case-study graphic for the Cdc Dibbs project (Dibbs).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-cloud-enablement-dibbs-cloud-enablement
+  path: cdc_dibbs_cloud_enablement/dibbs-cloud-enablement.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-cloud-enablement
+  alt: 'Cdc Dibbs Cloud Enablement case study: Dibbs Cloud Enablement'
+  description: Case-study graphic for the Cdc Dibbs Cloud Enablement project (Dibbs
+    Cloud Enablement).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-cloud-enablement-dibbs-cloud-enablement-2
+  path: cdc_dibbs_cloud_enablement/dibbs-cloud-enablement.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-cloud-enablement
+  alt: 'Cdc Dibbs Cloud Enablement case study: Dibbs Cloud Enablement'
+  description: Case-study graphic for the Cdc Dibbs Cloud Enablement project (Dibbs
+    Cloud Enablement).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-ecr-viewer-dibbs-ecr-viewer
+  path: cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-ecr-viewer
+  alt: 'Cdc Dibbs Ecr Viewer case study: Dibbs Ecr Viewer'
+  description: Case-study graphic for the Cdc Dibbs Ecr Viewer project (Dibbs Ecr
+    Viewer).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-ecr-viewer-dibbs-ecr-viewer-2
+  path: cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-ecr-viewer
+  alt: 'Cdc Dibbs Ecr Viewer case study: Dibbs Ecr Viewer'
+  description: Case-study graphic for the Cdc Dibbs Ecr Viewer project (Dibbs Ecr
+    Viewer).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-ecr-viewer-dibbs-ecr-viewer-3
+  path: cdc_dibbs_ecr_viewer/dibbs-ecr-viewer.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-ecr-viewer
+  alt: 'Cdc Dibbs Ecr Viewer case study: Dibbs Ecr Viewer'
+  description: Case-study graphic for the Cdc Dibbs Ecr Viewer project (Dibbs Ecr
+    Viewer).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-lac-pilot-dibbs-pipeline
+  path: cdc_dibbs_lac_pilot/dibbs-pipeline.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-lac-pilot
+  alt: 'Cdc Dibbs Lac Pilot case study: Dibbs Pipeline'
+  description: Case-study graphic for the Cdc Dibbs Lac Pilot project (Dibbs Pipeline).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-lac-pilot-dibbs-pipeline-2
+  path: cdc_dibbs_lac_pilot/dibbs-pipeline.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-lac-pilot
+  alt: 'Cdc Dibbs Lac Pilot case study: Dibbs Pipeline'
+  description: Case-study graphic for the Cdc Dibbs Lac Pilot project (Dibbs Pipeline).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-vdh-pilot-dibbs-vdh-prototype
+  path: cdc_dibbs_vdh_pilot/dibbs-vdh-prototype.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-vdh-pilot
+  alt: 'Cdc Dibbs Vdh Pilot case study: Dibbs Vdh Prototype'
+  description: Case-study graphic for the Cdc Dibbs Vdh Pilot project (Dibbs Vdh Prototype).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-dibbs-vdh-pilot-dibbs-vdh-prototype-2
+  path: cdc_dibbs_vdh_pilot/dibbs-vdh-prototype.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-dibbs-vdh-pilot
+  alt: 'Cdc Dibbs Vdh Pilot case study: Dibbs Vdh Prototype'
+  description: Case-study graphic for the Cdc Dibbs Vdh Pilot project (Dibbs Vdh Prototype).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-simplereport-cdc-simplereport-alt
+  path: cdc_simplereport/cdc-simplereport-alt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-simplereport
+  alt: 'Cdc Simplereport case study: Cdc Simplereport Alt'
+  description: Case-study graphic for the Cdc Simplereport project (Cdc Simplereport
+    Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-simplereport-cdc-simplereport-alt-2
+  path: cdc_simplereport/cdc-simplereport-alt.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-simplereport
+  alt: 'Cdc Simplereport case study: Cdc Simplereport Alt'
+  description: Case-study graphic for the Cdc Simplereport project (Cdc Simplereport
+    Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-simplereport-cdc-simplereport
+  path: cdc_simplereport/cdc-simplereport.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-simplereport
+  alt: 'Cdc Simplereport case study: Cdc Simplereport'
+  description: Case-study graphic for the Cdc Simplereport project (Cdc Simplereport).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-simplereport-cdc-simplereport-2
+  path: cdc_simplereport/cdc-simplereport.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-simplereport
+  alt: 'Cdc Simplereport case study: Cdc Simplereport'
+  description: Case-study graphic for the Cdc Simplereport project (Cdc Simplereport).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cdc-simplereport-cdc-simplereport-3
+  path: cdc_simplereport/cdc-simplereport.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cdc-simplereport
+  alt: 'Cdc Simplereport case study: Cdc Simplereport'
+  description: Case-study graphic for the Cdc Simplereport project (Cdc Simplereport).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-chart-model-idos
+  path: cms_chart_model/idos.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-chart-model
+  alt: 'Cms Chart Model case study: Idos'
+  description: Case-study graphic for the Cms Chart Model project (Idos).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-chart-model-idos-2
+  path: cms_chart_model/idos.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-chart-model
+  alt: 'Cms Chart Model case study: Idos'
+  description: Case-study graphic for the Cms Chart Model project (Idos).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-chart-model-rural-hospital-closures-map
+  path: cms_chart_model/rural-hospital-closures-map.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-chart-model
+  alt: 'Cms Chart Model case study: Rural Hospital Closures Map'
+  description: Case-study graphic for the Cms Chart Model project (Rural Hospital
+    Closures Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-chart-model-rural-hospital-closures-map-2
+  path: cms_chart_model/rural-hospital-closures-map.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-chart-model
+  alt: 'Cms Chart Model case study: Rural Hospital Closures Map'
+  description: Case-study graphic for the Cms Chart Model project (Rural Hospital
+    Closures Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-cmmi-idos-idos-tranformation
+  path: cms_cmmi_idos/idos-tranformation.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-cmmi-idos
+  alt: 'Cms Cmmi Idos case study: Idos Tranformation'
+  description: Case-study graphic for the Cms Cmmi Idos project (Idos Tranformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-cmmi-idos-idos-transformation
+  path: cms_cmmi_idos/idos-transformation.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-cmmi-idos
+  alt: 'Cms Cmmi Idos case study: Idos Transformation'
+  description: Case-study graphic for the Cms Cmmi Idos project (Idos Transformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-iqies-iqies
+  path: cms_iqies/iqies.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-iqies
+  alt: 'Cms Iqies case study: Iqies'
+  description: Case-study graphic for the Cms Iqies project (Iqies).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-iqies-iqies-2
+  path: cms_iqies/iqies.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-iqies
+  alt: 'Cms Iqies case study: Iqies'
+  description: Case-study graphic for the Cms Iqies project (Iqies).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-macbis-transformation-macbis
+  path: cms_macbis_transformation/macbis.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-macbis-transformation
+  alt: 'Cms Macbis Transformation case study: Macbis'
+  description: Case-study graphic for the Cms Macbis Transformation project (Macbis).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-cms-macbis-transformation-macbis-2
+  path: cms_macbis_transformation/macbis.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - cms-macbis-transformation
+  alt: 'Cms Macbis Transformation case study: Macbis'
+  description: Case-study graphic for the Cms Macbis Transformation project (Macbis).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-ece-reporter-ece-reporter-alt
+  path: ct_ece_reporter/ece-reporter-alt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-ece-reporter
+  alt: 'Ct Ece Reporter case study: Ece Reporter Alt'
+  description: Case-study graphic for the Ct Ece Reporter project (Ece Reporter Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-ece-reporter-ece-reporter-alt-2
+  path: ct_ece_reporter/ece-reporter-alt.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-ece-reporter
+  alt: 'Ct Ece Reporter case study: Ece Reporter Alt'
+  description: Case-study graphic for the Ct Ece Reporter project (Ece Reporter Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-ece-reporter-ece-reporter
+  path: ct_ece_reporter/ece-reporter.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-ece-reporter
+  alt: 'Ct Ece Reporter case study: Ece Reporter'
+  description: Case-study graphic for the Ct Ece Reporter project (Ece Reporter).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-ece-reporter-ece-reporter-2
+  path: ct_ece_reporter/ece-reporter.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-ece-reporter
+  alt: 'Ct Ece Reporter case study: Ece Reporter'
+  description: Case-study graphic for the Ct Ece Reporter project (Ece Reporter).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-ece-reporter-ece-reporter-3
+  path: ct_ece_reporter/ece-reporter.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-ece-reporter
+  alt: 'Ct Ece Reporter case study: Ece Reporter'
+  description: Case-study graphic for the Ct Ece Reporter project (Ece Reporter).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-families-experiencing-homelessness-families-experiencing-homelessness
+  path: ct_families_experiencing_homelessness/families-experiencing-homelessness.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-families-experiencing-homelessness
+  alt: 'Ct Families Experiencing Homelessness case study: Families Experiencing Homelessness'
+  description: Case-study graphic for the Ct Families Experiencing Homelessness project
+    (Families Experiencing Homelessness).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-families-experiencing-homelessness-families-experiencing-homelessness-2
+  path: ct_families_experiencing_homelessness/families-experiencing-homelessness.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-families-experiencing-homelessness
+  alt: 'Ct Families Experiencing Homelessness case study: Families Experiencing Homelessness'
+  description: Case-study graphic for the Ct Families Experiencing Homelessness project
+    (Families Experiencing Homelessness).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-care4kids-auto-notifier-care4kids-auto-notifier-alt-01
+  path: ct_oec_care4kids_auto_notifier/care4kids-auto-notifier-alt-01.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-care4kids-auto-notifier
+  alt: 'Ct Oec Care4kids Auto Notifier case study: Care4kids Auto Notifier Alt 01'
+  description: Case-study graphic for the Ct Oec Care4kids Auto Notifier project (Care4kids
+    Auto Notifier Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-care4kids-auto-notifier-care4kids-auto-notifier-alt-01-2
+  path: ct_oec_care4kids_auto_notifier/care4kids-auto-notifier-alt-01.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-care4kids-auto-notifier
+  alt: 'Ct Oec Care4kids Auto Notifier case study: Care4kids Auto Notifier Alt 01'
+  description: Case-study graphic for the Ct Oec Care4kids Auto Notifier project (Care4kids
+    Auto Notifier Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-care4kids-auto-notifier-care4kids-auto-notifier-alt-02
+  path: ct_oec_care4kids_auto_notifier/care4kids-auto-notifier-alt-02.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-care4kids-auto-notifier
+  alt: 'Ct Oec Care4kids Auto Notifier case study: Care4kids Auto Notifier Alt 02'
+  description: Case-study graphic for the Ct Oec Care4kids Auto Notifier project (Care4kids
+    Auto Notifier Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-care4kids-auto-notifier-care4kids-auto-notifier-alt-02-2
+  path: ct_oec_care4kids_auto_notifier/care4kids-auto-notifier-alt-02.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-care4kids-auto-notifier
+  alt: 'Ct Oec Care4kids Auto Notifier case study: Care4kids Auto Notifier Alt 02'
+  description: Case-study graphic for the Ct Oec Care4kids Auto Notifier project (Care4kids
+    Auto Notifier Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-care4kids-auto-notifier-care4kids-auto-notifier
+  path: ct_oec_care4kids_auto_notifier/care4kids-auto-notifier.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-care4kids-auto-notifier
+  alt: 'Ct Oec Care4kids Auto Notifier case study: Care4kids Auto Notifier'
+  description: Case-study graphic for the Ct Oec Care4kids Auto Notifier project (Care4kids
+    Auto Notifier).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-care4kids-auto-notifier-care4kids-auto-notifier-2
+  path: ct_oec_care4kids_auto_notifier/care4kids-auto-notifier.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-care4kids-auto-notifier
+  alt: 'Ct Oec Care4kids Auto Notifier case study: Care4kids Auto Notifier'
+  description: Case-study graphic for the Ct Oec Care4kids Auto Notifier project (Care4kids
+    Auto Notifier).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-early-childhood-services-transformation-alt-01
+  path: ct_oec_transformation/early-childhood-services-transformation-alt-01.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Early Childhood Services Transformation
+    Alt 01'
+  description: Case-study graphic for the Ct Oec Transformation project (Early Childhood
+    Services Transformation Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-early-childhood-services-transformation-alt-01-2
+  path: ct_oec_transformation/early-childhood-services-transformation-alt-01.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Early Childhood Services Transformation
+    Alt 01'
+  description: Case-study graphic for the Ct Oec Transformation project (Early Childhood
+    Services Transformation Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-early-childhood-services-transformation-alt-02
+  path: ct_oec_transformation/early-childhood-services-transformation-alt-02.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Early Childhood Services Transformation
+    Alt 02'
+  description: Case-study graphic for the Ct Oec Transformation project (Early Childhood
+    Services Transformation Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-early-childhood-services-transformation-alt-02-2
+  path: ct_oec_transformation/early-childhood-services-transformation-alt-02.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Early Childhood Services Transformation
+    Alt 02'
+  description: Case-study graphic for the Ct Oec Transformation project (Early Childhood
+    Services Transformation Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-early-childhood-services-transformation
+  path: ct_oec_transformation/early-childhood-services-transformation.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Early Childhood Services Transformation'
+  description: Case-study graphic for the Ct Oec Transformation project (Early Childhood
+    Services Transformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-early-childhood-services-transformation-2
+  path: ct_oec_transformation/early-childhood-services-transformation.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Early Childhood Services Transformation'
+  description: Case-study graphic for the Ct Oec Transformation project (Early Childhood
+    Services Transformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-oec-digital-transformation
+  path: ct_oec_transformation/oec-digital-transformation.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Oec Digital Transformation'
+  description: Case-study graphic for the Ct Oec Transformation project (Oec Digital
+    Transformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-transformation-oec-digital-transformation-2
+  path: ct_oec_transformation/oec-digital-transformation.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-transformation
+  alt: 'Ct Oec Transformation case study: Oec Digital Transformation'
+  description: Case-study graphic for the Ct Oec Transformation project (Oec Digital
+    Transformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-website-redesign-oec-website-redesign-alt
+  path: ct_oec_website_redesign/oec-website-redesign-alt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-website-redesign
+  alt: 'Ct Oec Website Redesign case study: Oec Website Redesign Alt'
+  description: Case-study graphic for the Ct Oec Website Redesign project (Oec Website
+    Redesign Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-website-redesign-oec-website-redesign-alt-2
+  path: ct_oec_website_redesign/oec-website-redesign-alt.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-website-redesign
+  alt: 'Ct Oec Website Redesign case study: Oec Website Redesign Alt'
+  description: Case-study graphic for the Ct Oec Website Redesign project (Oec Website
+    Redesign Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-website-redesign-oec-website-redesign
+  path: ct_oec_website_redesign/oec-website-redesign.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-website-redesign
+  alt: 'Ct Oec Website Redesign case study: Oec Website Redesign'
+  description: Case-study graphic for the Ct Oec Website Redesign project (Oec Website
+    Redesign).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-website-redesign-oec-website-redesign-2
+  path: ct_oec_website_redesign/oec-website-redesign.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-website-redesign
+  alt: 'Ct Oec Website Redesign case study: Oec Website Redesign'
+  description: Case-study graphic for the Ct Oec Website Redesign project (Oec Website
+    Redesign).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ct-oec-website-redesign-oec-website-redesign-3
+  path: ct_oec_website_redesign/oec-website-redesign.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ct-oec-website-redesign
+  alt: 'Ct Oec Website Redesign case study: Oec Website Redesign'
+  description: Case-study graphic for the Ct Oec Website Redesign project (Oec Website
+    Redesign).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ctgov-analytics-gov-analytics
+  path: ctgov_analytics/gov-analytics.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ctgov-analytics
+  alt: 'Ctgov Analytics case study: Gov Analytics'
+  description: Case-study graphic for the Ctgov Analytics project (Gov Analytics).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ctgov-analytics-gov-analytics-2
+  path: ctgov_analytics/gov-analytics.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ctgov-analytics
+  alt: 'Ctgov Analytics case study: Gov Analytics'
+  description: Case-study graphic for the Ctgov Analytics project (Gov Analytics).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-digital-acquisition-accelerator-digital-acquisition-accelerator
+  path: digital_acquisition_accelerator/digital-acquisition-accelerator.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - digital-acquisition-accelerator
+  alt: 'Digital Acquisition Accelerator case study: Digital Acquisition Accelerator'
+  description: Case-study graphic for the Digital Acquisition Accelerator project
+    (Digital Acquisition Accelerator).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-digital-acquisition-accelerator-digital-acquisition-accelerator-2
+  path: digital_acquisition_accelerator/digital-acquisition-accelerator.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - digital-acquisition-accelerator
+  alt: 'Digital Acquisition Accelerator case study: Digital Acquisition Accelerator'
+  description: Case-study graphic for the Digital Acquisition Accelerator project
+    (Digital Acquisition Accelerator).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-digital-transformation-framework-digital-government-transformation
+  path: digital_transformation_framework/digital-government-transformation.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - digital-transformation-framework
+  alt: 'Digital Transformation Framework case study: Digital Government Transformation'
+  description: Case-study graphic for the Digital Transformation Framework project
+    (Digital Government Transformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-digital-transformation-framework-digital-government-transformation-2
+  path: digital_transformation_framework/digital-government-transformation.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - digital-transformation-framework
+  alt: 'Digital Transformation Framework case study: Digital Government Transformation'
+  description: Case-study graphic for the Digital Transformation Framework project
+    (Digital Government Transformation).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-dol-legacy-system-modernization-legacy-system-modernization
+  path: dol_legacy_system_modernization/legacy-system-modernization.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - dol-legacy-system-modernization
+  alt: 'Dol Legacy System Modernization case study: Legacy System Modernization'
+  description: Case-study graphic for the Dol Legacy System Modernization project
+    (Legacy System Modernization).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-dol-legacy-system-modernization-legacy-system-modernization-2
+  path: dol_legacy_system_modernization/legacy-system-modernization.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - dol-legacy-system-modernization
+  alt: 'Dol Legacy System Modernization case study: Legacy System Modernization'
+  description: Case-study graphic for the Dol Legacy System Modernization project
+    (Legacy System Modernization).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-epa-sdwis-advice-epa-sdwis-advice
+  path: epa_sdwis_advice/epa-sdwis-advice.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - epa-sdwis-advice
+  alt: 'Epa Sdwis Advice case study: Epa Sdwis Advice'
+  description: Case-study graphic for the Epa Sdwis Advice project (Epa Sdwis Advice).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-epa-sdwis-advice-epa-sdwis-advice-2
+  path: epa_sdwis_advice/epa-sdwis-advice.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - epa-sdwis-advice
+  alt: 'Epa Sdwis Advice case study: Epa Sdwis Advice'
+  description: Case-study graphic for the Epa Sdwis Advice project (Epa Sdwis Advice).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-goc-nextgen-hr-pay-system-nextgen-hr-system
+  path: goc_nextgen_hr_pay_system/nextgen-hr-system.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - goc-nextgen-hr-pay-system
+  alt: 'Goc Nextgen Hr Pay System case study: Nextgen Hr System'
+  description: Case-study graphic for the Goc Nextgen Hr Pay System project (Nextgen
+    Hr System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-goc-nextgen-hr-pay-system-nextgen-hr-system-2
+  path: goc_nextgen_hr_pay_system/nextgen-hr-system.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - goc-nextgen-hr-pay-system
+  alt: 'Goc Nextgen Hr Pay System case study: Nextgen Hr System'
+  description: Case-study graphic for the Goc Nextgen Hr Pay System project (Nextgen
+    Hr System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-hhs-telehealth-website-telehealth-alt-01
+  path: hhs_telehealth_website/telehealth-alt-01.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - hhs-telehealth-website
+  alt: 'Hhs Telehealth Website case study: Telehealth Alt 01'
+  description: Case-study graphic for the Hhs Telehealth Website project (Telehealth
+    Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-hhs-telehealth-website-telehealth-alt-01-2
+  path: hhs_telehealth_website/telehealth-alt-01.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - hhs-telehealth-website
+  alt: 'Hhs Telehealth Website case study: Telehealth Alt 01'
+  description: Case-study graphic for the Hhs Telehealth Website project (Telehealth
+    Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-hhs-telehealth-website-telehealth-alt-02
+  path: hhs_telehealth_website/telehealth-alt-02.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - hhs-telehealth-website
+  alt: 'Hhs Telehealth Website case study: Telehealth Alt 02'
+  description: Case-study graphic for the Hhs Telehealth Website project (Telehealth
+    Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-hhs-telehealth-website-telehealth-alt-02-2
+  path: hhs_telehealth_website/telehealth-alt-02.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - hhs-telehealth-website
+  alt: 'Hhs Telehealth Website case study: Telehealth Alt 02'
+  description: Case-study graphic for the Hhs Telehealth Website project (Telehealth
+    Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-hhs-telehealth-website-telehealth
+  path: hhs_telehealth_website/telehealth.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - hhs-telehealth-website
+  alt: 'Hhs Telehealth Website case study: Telehealth'
+  description: Case-study graphic for the Hhs Telehealth Website project (Telehealth).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-hhs-telehealth-website-telehealth-2
+  path: hhs_telehealth_website/telehealth.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - hhs-telehealth-website
+  alt: 'Hhs Telehealth Website case study: Telehealth'
+  description: Case-study graphic for the Hhs Telehealth Website project (Telehealth).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-hhs-telehealth-website-telehealth-3
+  path: hhs_telehealth_website/telehealth.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - hhs-telehealth-website
+  alt: 'Hhs Telehealth Website case study: Telehealth'
+  description: Case-study graphic for the Hhs Telehealth Website project (Telehealth).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-jabil-iot-industrial-iot
+  path: jabil_iot/industrial-iot.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - jabil-iot
+  alt: 'Jabil Iot case study: Industrial Iot'
+  description: Case-study graphic for the Jabil Iot project (Industrial Iot).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-jabil-iot-industrial-iot-2
+  path: jabil_iot/industrial-iot.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - jabil-iot
+  alt: 'Jabil Iot case study: Industrial Iot'
+  description: Case-study graphic for the Jabil Iot project (Industrial Iot).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-jil-website-redesign-jil-website-redesign
+  path: jil_website_redesign/jil-website-redesign.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - jil-website-redesign
+  alt: 'Jil Website Redesign case study: Jil Website Redesign'
+  description: Case-study graphic for the Jil Website Redesign project (Jil Website
+    Redesign).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-jil-website-redesign-jil-website-redesign-2
+  path: jil_website_redesign/jil-website-redesign.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - jil-website-redesign
+  alt: 'Jil Website Redesign case study: Jil Website Redesign'
+  description: Case-study graphic for the Jil Website Redesign project (Jil Website
+    Redesign).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-jil-website-redesign-jil-website-redesign-3
+  path: jil_website_redesign/jil-website-redesign.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - jil-website-redesign
+  alt: 'Jil Website Redesign case study: Jil Website Redesign'
+  description: Case-study graphic for the Jil Website Redesign project (Jil Website
+    Redesign).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ncoc-refugee-admissions-research-refugee-admission-journey-map
+  path: ncoc_refugee_admissions_research/refugee-admission-journey-map.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ncoc-refugee-admissions-research
+  alt: 'Ncoc Refugee Admissions Research case study: Refugee Admission Journey Map'
+  description: Case-study graphic for the Ncoc Refugee Admissions Research project
+    (Refugee Admission Journey Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ncoc-refugee-admissions-research-refugee-admission-journey-map-2
+  path: ncoc_refugee_admissions_research/refugee-admission-journey-map.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ncoc-refugee-admissions-research
+  alt: 'Ncoc Refugee Admissions Research case study: Refugee Admission Journey Map'
+  description: Case-study graphic for the Ncoc Refugee Admissions Research project
+    (Refugee Admission Journey Map).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ncoc-refugee-admissions-research-refugee-admissions
+  path: ncoc_refugee_admissions_research/refugee-admissions.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ncoc-refugee-admissions-research
+  alt: 'Ncoc Refugee Admissions Research case study: Refugee Admissions'
+  description: Case-study graphic for the Ncoc Refugee Admissions Research project
+    (Refugee Admissions).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ncoc-refugee-admissions-research-refugee-admissions-2
+  path: ncoc_refugee_admissions_research/refugee-admissions.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ncoc-refugee-admissions-research
+  alt: 'Ncoc Refugee Admissions Research case study: Refugee Admissions'
+  description: Case-study graphic for the Ncoc Refugee Admissions Research project
+    (Refugee Admissions).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-sba-ascent-sba-ascent
+  path: sba_ascent/sba-ascent.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - sba-ascent
+  alt: 'Sba Ascent case study: Sba Ascent'
+  description: Case-study graphic for the Sba Ascent project (Sba Ascent).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-sba-ascent-sba-ascent-2
+  path: sba_ascent/sba-ascent.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - sba-ascent
+  alt: 'Sba Ascent case study: Sba Ascent'
+  description: Case-study graphic for the Sba Ascent project (Sba Ascent).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ssa-agile-microsprints-agile-board
+  path: ssa_agile_microsprints/agile-board.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ssa-agile-microsprints
+  alt: 'Ssa Agile Microsprints case study: Agile Board'
+  description: Case-study graphic for the Ssa Agile Microsprints project (Agile Board).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ssa-agile-microsprints-agile-board-2
+  path: ssa_agile_microsprints/agile-board.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ssa-agile-microsprints
+  alt: 'Ssa Agile Microsprints case study: Agile Board'
+  description: Case-study graphic for the Ssa Agile Microsprints project (Agile Board).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-talkto-talkto-demo-page
+  path: talkto/talkto-demo-page.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - talkto
+  alt: 'Talkto case study: Talkto Demo Page'
+  description: Case-study graphic for the Talkto project (Talkto Demo Page).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-talkto-talkto
+  path: talkto/talkto.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - talkto
+  alt: 'Talkto case study: Talkto'
+  description: Case-study graphic for the Talkto project (Talkto).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-talkto-talkto-2
+  path: talkto/talkto.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - talkto
+  alt: 'Talkto case study: Talkto'
+  description: Case-study graphic for the Talkto project (Talkto).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-tsa-cloud-adoption-cloud-jumpstarter
+  path: tsa_cloud_adoption/cloud-jumpstarter.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - tsa-cloud-adoption
+  alt: 'Tsa Cloud Adoption case study: Cloud Jumpstarter'
+  description: Case-study graphic for the Tsa Cloud Adoption project (Cloud Jumpstarter).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-tsa-cloud-adoption-cloud-jumpstarter-2
+  path: tsa_cloud_adoption/cloud-jumpstarter.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - tsa-cloud-adoption
+  alt: 'Tsa Cloud Adoption case study: Cloud Jumpstarter'
+  description: Case-study graphic for the Tsa Cloud Adoption project (Cloud Jumpstarter).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-united-nations-accessibility-accessibility
+  path: united_nations_accessibility/accessibility.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - united-nations-accessibility
+  alt: 'United Nations Accessibility case study: Accessibility'
+  description: Case-study graphic for the United Nations Accessibility project (Accessibility).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-united-nations-accessibility-accessibility-2
+  path: united_nations_accessibility/accessibility.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - united-nations-accessibility
+  alt: 'United Nations Accessibility case study: Accessibility'
+  description: Case-study graphic for the United Nations Accessibility project (Accessibility).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-us-navy-protosketching-protosketching
+  path: us_navy_protosketching/protosketching.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - us-navy-protosketching
+  alt: 'Us Navy Protosketching case study: Protosketching'
+  description: Case-study graphic for the Us Navy Protosketching project (Protosketching).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-us-navy-protosketching-protosketching-2
+  path: us_navy_protosketching/protosketching.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - us-navy-protosketching
+  alt: 'Us Navy Protosketching case study: Protosketching'
+  description: Case-study graphic for the Us Navy Protosketching project (Protosketching).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-affms-air-force-fitness-management-system
+  path: usaf_affms/air-force-fitness-management-system.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-affms
+  alt: 'Usaf Affms case study: Air Force Fitness Management System'
+  description: Case-study graphic for the Usaf Affms project (Air Force Fitness Management
+    System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-affms-air-force-fitness-management-system-2
+  path: usaf_affms/air-force-fitness-management-system.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-affms
+  alt: 'Usaf Affms case study: Air Force Fitness Management System'
+  description: Case-study graphic for the Usaf Affms project (Air Force Fitness Management
+    System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-affms-air-force-fitness-management-system-3
+  path: usaf_affms/air-force-fitness-management-system.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-affms
+  alt: 'Usaf Affms case study: Air Force Fitness Management System'
+  description: Case-study graphic for the Usaf Affms project (Air Force Fitness Management
+    System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-amp-amp
+  path: usaf_amp/amp.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-amp
+  alt: 'Usaf Amp case study: Amp'
+  description: Case-study graphic for the Usaf Amp project (Amp).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-amp-amp-2
+  path: usaf_amp/amp.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-amp
+  alt: 'Usaf Amp case study: Amp'
+  description: Case-study graphic for the Usaf Amp project (Amp).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-arms-arms
+  path: usaf_arms/arms.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-arms
+  alt: 'Usaf Arms case study: Arms'
+  description: Case-study graphic for the Usaf Arms project (Arms).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-arms-arms-2
+  path: usaf_arms/arms.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-arms
+  alt: 'Usaf Arms case study: Arms'
+  description: Case-study graphic for the Usaf Arms project (Arms).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-studio-bespin-design-studio
+  path: usaf_bespin_design_studio/bespin-design-studio.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-studio
+  alt: 'Usaf Bespin Design Studio case study: Bespin Design Studio'
+  description: Case-study graphic for the Usaf Bespin Design Studio project (Bespin
+    Design Studio).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-studio-bespin-design-studio-2
+  path: usaf_bespin_design_studio/bespin-design-studio.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-studio
+  alt: 'Usaf Bespin Design Studio case study: Bespin Design Studio'
+  description: Case-study graphic for the Usaf Bespin Design Studio project (Bespin
+    Design Studio).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-system-bespin-design-system
+  path: usaf_bespin_design_system/bespin-design-system.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-system
+  alt: 'Usaf Bespin Design System case study: Bespin Design System'
+  description: Case-study graphic for the Usaf Bespin Design System project (Bespin
+    Design System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-system-design-system-alt
+  path: usaf_bespin_design_system/design-system-alt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-system
+  alt: 'Usaf Bespin Design System case study: Design System Alt'
+  description: Case-study graphic for the Usaf Bespin Design System project (Design
+    System Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-system-design-system-alt-2
+  path: usaf_bespin_design_system/design-system-alt.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-system
+  alt: 'Usaf Bespin Design System case study: Design System Alt'
+  description: Case-study graphic for the Usaf Bespin Design System project (Design
+    System Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-system-design-system
+  path: usaf_bespin_design_system/design-system.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-system
+  alt: 'Usaf Bespin Design System case study: Design System'
+  description: Case-study graphic for the Usaf Bespin Design System project (Design
+    System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-system-design-system-2
+  path: usaf_bespin_design_system/design-system.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-system
+  alt: 'Usaf Bespin Design System case study: Design System'
+  description: Case-study graphic for the Usaf Bespin Design System project (Design
+    System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-system-project-design-system
+  path: usaf_bespin_design_system/project-design-system.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-system
+  alt: 'Usaf Bespin Design System case study: Project Design System'
+  description: Case-study graphic for the Usaf Bespin Design System project (Project
+    Design System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-design-system-project-design-system-2
+  path: usaf_bespin_design_system/project-design-system.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: diagram
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-design-system
+  alt: 'Usaf Bespin Design System case study: Project Design System'
+  description: Case-study graphic for the Usaf Bespin Design System project (Project
+    Design System).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-enablement-bespin-airmen-enablement
+  path: usaf_bespin_enablement/bespin-airmen-enablement.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-enablement
+  alt: 'Usaf Bespin Enablement case study: Bespin Airmen Enablement'
+  description: Case-study graphic for the Usaf Bespin Enablement project (Bespin Airmen
+    Enablement).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-enablement-bespin-airmen-enablement-2
+  path: usaf_bespin_enablement/bespin-airmen-enablement.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-enablement
+  alt: 'Usaf Bespin Enablement case study: Bespin Airmen Enablement'
+  description: Case-study graphic for the Usaf Bespin Enablement project (Bespin Airmen
+    Enablement).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-transformation-support-bespin-transformation-support
+  path: usaf_bespin_transformation_support/bespin-transformation-support.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-transformation-support
+  alt: 'Usaf Bespin Transformation Support case study: Bespin Transformation Support'
+  description: Case-study graphic for the Usaf Bespin Transformation Support project
+    (Bespin Transformation Support).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-bespin-transformation-support-bespin-transformation-support-2
+  path: usaf_bespin_transformation_support/bespin-transformation-support.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-bespin-transformation-support
+  alt: 'Usaf Bespin Transformation Support case study: Bespin Transformation Support'
+  description: Case-study graphic for the Usaf Bespin Transformation Support project
+    (Bespin Transformation Support).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-gearfit-gearfit-alt
+  path: usaf_gearfit/gearfit-alt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-gearfit
+  alt: 'Usaf Gearfit case study: Gearfit Alt'
+  description: Case-study graphic for the Usaf Gearfit project (Gearfit Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-gearfit-gearfit-alt-2
+  path: usaf_gearfit/gearfit-alt.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-gearfit
+  alt: 'Usaf Gearfit case study: Gearfit Alt'
+  description: Case-study graphic for the Usaf Gearfit project (Gearfit Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-gearfit-gearfit
+  path: usaf_gearfit/gearfit.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-gearfit
+  alt: 'Usaf Gearfit case study: Gearfit'
+  description: Case-study graphic for the Usaf Gearfit project (Gearfit).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-gearfit-gearfit-2
+  path: usaf_gearfit/gearfit.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-gearfit
+  alt: 'Usaf Gearfit case study: Gearfit'
+  description: Case-study graphic for the Usaf Gearfit project (Gearfit).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-gearfit-gearfit-3
+  path: usaf_gearfit/gearfit.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-gearfit
+  alt: 'Usaf Gearfit case study: Gearfit'
+  description: Case-study graphic for the Usaf Gearfit project (Gearfit).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-jocas-jocas-alt
+  path: usaf_jocas/jocas-alt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-jocas
+  alt: 'Usaf Jocas case study: Jocas Alt'
+  description: Case-study graphic for the Usaf Jocas project (Jocas Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-jocas-jocas-alt-2
+  path: usaf_jocas/jocas-alt.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-jocas
+  alt: 'Usaf Jocas case study: Jocas Alt'
+  description: Case-study graphic for the Usaf Jocas project (Jocas Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-jocas-jocas
+  path: usaf_jocas/jocas.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-jocas
+  alt: 'Usaf Jocas case study: Jocas'
+  description: Case-study graphic for the Usaf Jocas project (Jocas).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-jocas-jocas-2
+  path: usaf_jocas/jocas.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-jocas
+  alt: 'Usaf Jocas case study: Jocas'
+  description: Case-study graphic for the Usaf Jocas project (Jocas).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-logux-logux
+  path: usaf_logux/logux.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-logux
+  alt: 'Usaf Logux case study: Logux'
+  description: Case-study graphic for the Usaf Logux project (Logux).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-logux-logux-2
+  path: usaf_logux/logux.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-logux
+  alt: 'Usaf Logux case study: Logux'
+  description: Case-study graphic for the Usaf Logux project (Logux).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-mask-mask-alt
+  path: usaf_mask/mask-alt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-mask
+  alt: 'Usaf Mask case study: Mask Alt'
+  description: Case-study graphic for the Usaf Mask project (Mask Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-mask-mask-alt-2
+  path: usaf_mask/mask-alt.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-mask
+  alt: 'Usaf Mask case study: Mask Alt'
+  description: Case-study graphic for the Usaf Mask project (Mask Alt).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-mask-mask
+  path: usaf_mask/mask.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-mask
+  alt: 'Usaf Mask case study: Mask'
+  description: Case-study graphic for the Usaf Mask project (Mask).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-mask-mask-2
+  path: usaf_mask/mask.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-mask
+  alt: 'Usaf Mask case study: Mask'
+  description: Case-study graphic for the Usaf Mask project (Mask).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-sda-service-design
+  path: usaf_sda/service-design.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-sda
+  alt: 'Usaf Sda case study: Service Design'
+  description: Case-study graphic for the Usaf Sda project (Service Design).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-sda-service-design-2
+  path: usaf_sda/service-design.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-sda
+  alt: 'Usaf Sda case study: Service Design'
+  description: Case-study graphic for the Usaf Sda project (Service Design).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-bifrost-wxpo-bifrost
+  path: usaf_wxpo_bifrost/wxpo-bifrost.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-bifrost
+  alt: 'Usaf Wxpo Bifrost case study: Wxpo Bifrost'
+  description: Case-study graphic for the Usaf Wxpo Bifrost project (Wxpo Bifrost).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-bifrost-wxpo-bifrost-2
+  path: usaf_wxpo_bifrost/wxpo-bifrost.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-bifrost
+  alt: 'Usaf Wxpo Bifrost case study: Wxpo Bifrost'
+  description: Case-study graphic for the Usaf Wxpo Bifrost project (Wxpo Bifrost).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-cloud-migration-wxpo-cloud-migration
+  path: usaf_wxpo_cloud_migration/wxpo-cloud-migration.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-cloud-migration
+  alt: 'Usaf Wxpo Cloud Migration case study: Wxpo Cloud Migration'
+  description: Case-study graphic for the Usaf Wxpo Cloud Migration project (Wxpo
+    Cloud Migration).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-cloud-migration-wxpo-cloud-migration-2
+  path: usaf_wxpo_cloud_migration/wxpo-cloud-migration.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-cloud-migration
+  alt: 'Usaf Wxpo Cloud Migration case study: Wxpo Cloud Migration'
+  description: Case-study graphic for the Usaf Wxpo Cloud Migration project (Wxpo
+    Cloud Migration).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-data-catalog-wxpo-weather-data-catalog
+  path: usaf_wxpo_data_catalog/wxpo-weather-data-catalog.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-data-catalog
+  alt: 'Usaf Wxpo Data Catalog case study: Wxpo Weather Data Catalog'
+  description: Case-study graphic for the Usaf Wxpo Data Catalog project (Wxpo Weather
+    Data Catalog).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-data-catalog-wxpo-weather-data-catalog-2
+  path: usaf_wxpo_data_catalog/wxpo-weather-data-catalog.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-data-catalog
+  alt: 'Usaf Wxpo Data Catalog case study: Wxpo Weather Data Catalog'
+  description: Case-study graphic for the Usaf Wxpo Data Catalog project (Wxpo Weather
+    Data Catalog).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-warpspeed-wxpo-warpspeed
+  path: usaf_wxpo_warpspeed/wxpo-warpspeed.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-warpspeed
+  alt: 'Usaf Wxpo Warpspeed case study: Wxpo Warpspeed'
+  description: Case-study graphic for the Usaf Wxpo Warpspeed project (Wxpo Warpspeed).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usaf-wxpo-warpspeed-wxpo-warpspeed-2
+  path: usaf_wxpo_warpspeed/wxpo-warpspeed.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-warpspeed
+  alt: 'Usaf Wxpo Warpspeed case study: Wxpo Warpspeed'
+  description: Case-study graphic for the Usaf Wxpo Warpspeed project (Wxpo Warpspeed).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-uscis-everify-modernization-employment-eligibility-verification-alt-01
+  path: uscis_everify_modernization/employment-eligibility-verification-alt-01.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - uscis-everify-modernization
+  alt: 'Uscis Everify Modernization case study: Employment Eligibility Verification
+    Alt 01'
+  description: Case-study graphic for the Uscis Everify Modernization project (Employment
+    Eligibility Verification Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-uscis-everify-modernization-employment-eligibility-verification-alt-01-2
+  path: uscis_everify_modernization/employment-eligibility-verification-alt-01.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - uscis-everify-modernization
+  alt: 'Uscis Everify Modernization case study: Employment Eligibility Verification
+    Alt 01'
+  description: Case-study graphic for the Uscis Everify Modernization project (Employment
+    Eligibility Verification Alt 01).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-uscis-everify-modernization-employment-eligibility-verification-alt-02
+  path: uscis_everify_modernization/employment-eligibility-verification-alt-02.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - uscis-everify-modernization
+  alt: 'Uscis Everify Modernization case study: Employment Eligibility Verification
+    Alt 02'
+  description: Case-study graphic for the Uscis Everify Modernization project (Employment
+    Eligibility Verification Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-uscis-everify-modernization-employment-eligibility-verification-alt-02-2
+  path: uscis_everify_modernization/employment-eligibility-verification-alt-02.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - uscis-everify-modernization
+  alt: 'Uscis Everify Modernization case study: Employment Eligibility Verification
+    Alt 02'
+  description: Case-study graphic for the Uscis Everify Modernization project (Employment
+    Eligibility Verification Alt 02).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-uscis-everify-modernization-employment-eligibility-verification
+  path: uscis_everify_modernization/employment-eligibility-verification.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - uscis-everify-modernization
+  alt: 'Uscis Everify Modernization case study: Employment Eligibility Verification'
+  description: Case-study graphic for the Uscis Everify Modernization project (Employment
+    Eligibility Verification).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-uscis-everify-modernization-employment-eligibility-verification-2
+  path: uscis_everify_modernization/employment-eligibility-verification.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - uscis-everify-modernization
+  alt: 'Uscis Everify Modernization case study: Employment Eligibility Verification'
+  description: Case-study graphic for the Uscis Everify Modernization project (Employment
+    Eligibility Verification).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usda-recreation-information-database-api-recreation-api
+  path: usda_recreation_information_database_api/recreation-api.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usda-recreation-information-database-api
+  alt: 'Usda Recreation Information Database Api case study: Recreation Api'
+  description: Case-study graphic for the Usda Recreation Information Database Api
+    project (Recreation Api).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-usda-recreation-information-database-api-recreation-api-2
+  path: usda_recreation_information_database_api/recreation-api.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usda-recreation-information-database-api
+  alt: 'Usda Recreation Information Database Api case study: Recreation Api'
+  description: Case-study graphic for the Usda Recreation Information Database Api
+    project (Recreation Api).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ussf-web-portal-ussf-web-portal
+  path: ussf_web_portal/ussf-web-portal.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ussf-web-portal
+  alt: 'Ussf Web Portal case study: Ussf Web Portal'
+  description: Case-study graphic for the Ussf Web Portal project (Ussf Web Portal).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-ussf-web-portal-ussf-web-portal-2
+  path: ussf_web_portal/ussf-web-portal.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - ussf-web-portal
+  alt: 'Ussf Web Portal case study: Ussf Web Portal'
+  description: Case-study graphic for the Ussf Web Portal project (Ussf Web Portal).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-developer-outreach-api-developer-outreach
+  path: va_api_developer_outreach/api-developer-outreach.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-developer-outreach
+  alt: 'Va Api Developer Outreach case study: Api Developer Outreach'
+  description: Case-study graphic for the Va Api Developer Outreach project (Api Developer
+    Outreach).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-developer-outreach-api-developer-outreach-2
+  path: va_api_developer_outreach/api-developer-outreach.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-developer-outreach
+  alt: 'Va Api Developer Outreach case study: Api Developer Outreach'
+  description: Case-study graphic for the Va Api Developer Outreach project (Api Developer
+    Outreach).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-governance-research-api-governance
+  path: va_api_governance_research/api-governance.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-governance-research
+  alt: 'Va Api Governance Research case study: Api Governance'
+  description: Case-study graphic for the Va Api Governance Research project (Api
+    Governance).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-governance-research-api-governance-2
+  path: va_api_governance_research/api-governance.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-governance-research
+  alt: 'Va Api Governance Research case study: Api Governance'
+  description: Case-study graphic for the Va Api Governance Research project (Api
+    Governance).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-landscape-analysis-api-machine
+  path: va_api_landscape_analysis/api-machine.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-landscape-analysis
+  alt: 'Va Api Landscape Analysis case study: Api Machine'
+  description: Case-study graphic for the Va Api Landscape Analysis project (Api Machine).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-landscape-analysis-api-machine-2
+  path: va_api_landscape_analysis/api-machine.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-landscape-analysis
+  alt: 'Va Api Landscape Analysis case study: Api Machine'
+  description: Case-study graphic for the Va Api Landscape Analysis project (Api Machine).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-scorecard-mvp-api-scorecard-screenshot
+  path: va_api_scorecard_mvp/api-scorecard-screenshot.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-scorecard-mvp
+  alt: 'Va Api Scorecard Mvp case study: Api Scorecard Screenshot'
+  description: Case-study graphic for the Va Api Scorecard Mvp project (Api Scorecard
+    Screenshot).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-scorecard-mvp-api-scorecard
+  path: va_api_scorecard_mvp/api-scorecard.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-scorecard-mvp
+  alt: 'Va Api Scorecard Mvp case study: Api Scorecard'
+  description: Case-study graphic for the Va Api Scorecard Mvp project (Api Scorecard).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-scorecard-mvp-api-scorecard-2
+  path: va_api_scorecard_mvp/api-scorecard.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-scorecard-mvp
+  alt: 'Va Api Scorecard Mvp case study: Api Scorecard'
+  description: Case-study graphic for the Va Api Scorecard Mvp project (Api Scorecard).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-api-scorecard-mvp-api-scorecard-3
+  path: va_api_scorecard_mvp/api-scorecard.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-api-scorecard-mvp
+  alt: 'Va Api Scorecard Mvp case study: Api Scorecard'
+  description: Case-study graphic for the Va Api Scorecard Mvp project (Api Scorecard).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-diffusion-marketplace-diffusion-marketplace
+  path: va_diffusion_marketplace/diffusion-marketplace.gif
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-diffusion-marketplace
+  alt: 'Va Diffusion Marketplace case study: Diffusion Marketplace'
+  description: Case-study graphic for the Va Diffusion Marketplace project (Diffusion
+    Marketplace).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-diffusion-marketplace-diffusion-marketplace-2
+  path: va_diffusion_marketplace/diffusion-marketplace.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-diffusion-marketplace
+  alt: 'Va Diffusion Marketplace case study: Diffusion Marketplace'
+  description: Case-study graphic for the Va Diffusion Marketplace project (Diffusion
+    Marketplace).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-diffusion-marketplace-diffusion-marketplace-3
+  path: va_diffusion_marketplace/diffusion-marketplace.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-diffusion-marketplace
+  alt: 'Va Diffusion Marketplace case study: Diffusion Marketplace'
+  description: Case-study graphic for the Va Diffusion Marketplace project (Diffusion
+    Marketplace).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-mobile-product-strategy-va-flagship-mobile-app
+  path: va_mobile_product_strategy/va-flagship-mobile-app.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-mobile-product-strategy
+  alt: 'Va Mobile Product Strategy case study: Va Flagship Mobile App'
+  description: Case-study graphic for the Va Mobile Product Strategy project (Va Flagship
+    Mobile App).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: project-va-mobile-product-strategy-va-flagship-mobile-app-2
+  path: va_mobile_product_strategy/va-flagship-mobile-app.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - va-mobile-product-strategy
+  alt: 'Va Mobile Product Strategy case study: Va Flagship Mobile App'
+  description: Case-study graphic for the Va Mobile Product Strategy project (Va Flagship
+    Mobile App).
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false

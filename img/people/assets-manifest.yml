@@ -1,0 +1,6845 @@
+# Federation asset manifest -- skylight.digital img/people (Phase C.2).
+# Path-derived enrichment; all assets are Skylight's own on the public site
+# -> permissions: skylight-owned, classification: public. ids are path-based.
+# NOTE: judgment fields the team should refine -- which people are current vs.
+# former (archive those), client/mission tags per project, and richer alt text.
+- id: person-aaron-owens
+  path: aaron-owens.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - aaron-owens
+  alt: Headshot of Aaron Owens
+  description: Team headshot of Aaron Owens, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-aaron-owens-2
+  path: aaron-owens.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - aaron-owens
+  alt: Headshot of Aaron Owens
+  description: Team headshot of Aaron Owens, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-abby-raskin
+  path: abby-raskin.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - abby-raskin
+  alt: Headshot of Abby Raskin
+  description: Team headshot of Abby Raskin, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-abraham-lincoln
+  path: abraham-lincoln.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - abraham-lincoln
+  alt: Headshot of Abraham Lincoln
+  description: Team headshot of Abraham Lincoln, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-adam-weber
+  path: adam-weber.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - adam-weber
+  alt: Headshot of Adam Weber
+  description: Team headshot of Adam Weber, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-aera-hoffman
+  path: aera-hoffman.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - aera-hoffman
+  alt: Headshot of Aera Hoffman
+  description: Team headshot of Aera Hoffman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-aimee-knight
+  path: aimee-knight.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - aimee-knight
+  alt: Headshot of Aimee Knight
+  description: Team headshot of Aimee Knight, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-aimee-knight-2
+  path: aimee-knight.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - aimee-knight
+  alt: Headshot of Aimee Knight
+  description: Team headshot of Aimee Knight, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alex-bornkessel
+  path: alex-bornkessel.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alex-bornkessel
+  alt: Headshot of Alex Bornkessel
+  description: Team headshot of Alex Bornkessel, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alex-bornkessel-2
+  path: alex-bornkessel.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alex-bornkessel
+  alt: Headshot of Alex Bornkessel
+  description: Team headshot of Alex Bornkessel, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alex-hayward
+  path: alex-hayward.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alex-hayward
+  alt: Headshot of Alex Hayward
+  description: Team headshot of Alex Hayward, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alex-hayward-2
+  path: alex-hayward.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alex-hayward
+  alt: Headshot of Alex Hayward
+  description: Team headshot of Alex Hayward, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alex-hayward-3
+  path: alex-hayward.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alex-hayward
+  alt: Headshot of Alex Hayward
+  description: Team headshot of Alex Hayward, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alexander-curtis
+  path: alexander-curtis.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alexander-curtis
+  alt: Headshot of Alexander Curtis
+  description: Team headshot of Alexander Curtis, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alis-akers
+  path: alis-akers.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alis-akers
+  alt: Headshot of Alis Akers
+  description: Team headshot of Alis Akers, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-alis-akers-2
+  path: alis-akers.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - alis-akers
+  alt: Headshot of Alis Akers
+  description: Team headshot of Alis Akers, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-allyn-charlefour
+  path: allyn-charlefour.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - allyn-charlefour
+  alt: Headshot of Allyn Charlefour
+  description: Team headshot of Allyn Charlefour, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-allyn-charlefour-2
+  path: allyn-charlefour.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - allyn-charlefour
+  alt: Headshot of Allyn Charlefour
+  description: Team headshot of Allyn Charlefour, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-amelia-wellers
+  path: amelia-wellers.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - amelia-wellers
+  alt: Headshot of Amelia Wellers
+  description: Team headshot of Amelia Wellers, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-amrita-bhatti
+  path: amrita-bhatti.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - amrita-bhatti
+  alt: Headshot of Amrita Bhatti
+  description: Team headshot of Amrita Bhatti, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-amrita-bhatti-2
+  path: amrita-bhatti.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - amrita-bhatti
+  alt: Headshot of Amrita Bhatti
+  description: Team headshot of Amrita Bhatti, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-amy-kintner
+  path: amy-kintner.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - amy-kintner
+  alt: Headshot of Amy Kintner
+  description: Team headshot of Amy Kintner, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-amy-kintner-2
+  path: amy-kintner.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - amy-kintner
+  alt: Headshot of Amy Kintner
+  description: Team headshot of Amy Kintner, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-amy-kintner-3
+  path: amy-kintner.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - amy-kintner
+  alt: Headshot of Amy Kintner
+  description: Team headshot of Amy Kintner, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-kasper
+  path: andrew-kasper.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-kasper
+  alt: Headshot of Andrew Kasper
+  description: Team headshot of Andrew Kasper, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-kasper-2
+  path: andrew-kasper.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-kasper
+  alt: Headshot of Andrew Kasper
+  description: Team headshot of Andrew Kasper, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-kramer
+  path: andrew-kramer.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-kramer
+  alt: Headshot of Andrew Kramer
+  description: Team headshot of Andrew Kramer, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-kramer-2
+  path: andrew-kramer.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-kramer
+  alt: Headshot of Andrew Kramer
+  description: Team headshot of Andrew Kramer, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-lloyd
+  path: andrew-lloyd.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-lloyd
+  alt: Headshot of Andrew Lloyd
+  description: Team headshot of Andrew Lloyd, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-schreiber
+  path: andrew-schreiber.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-schreiber
+  alt: Headshot of Andrew Schreiber
+  description: Team headshot of Andrew Schreiber, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-schreiber-2
+  path: andrew-schreiber.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-schreiber
+  alt: Headshot of Andrew Schreiber
+  description: Team headshot of Andrew Schreiber, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-andrew-wagner
+  path: andrew-wagner.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - andrew-wagner
+  alt: Headshot of Andrew Wagner
+  description: Team headshot of Andrew Wagner, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-angela-the
+  path: angela-the.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - angela-the
+  alt: Headshot of Angela The
+  description: Team headshot of Angela The, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-angela-the-2
+  path: angela-the.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - angela-the
+  alt: Headshot of Angela The
+  description: Team headshot of Angela The, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-angela-the-3
+  path: angela-the.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - angela-the
+  alt: Headshot of Angela The
+  description: Team headshot of Angela The, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-anke-stohlmann
+  path: anke-stohlmann.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - anke-stohlmann
+  alt: Headshot of Anke Stohlmann
+  description: Team headshot of Anke Stohlmann, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-anke-stohlmann-2
+  path: anke-stohlmann.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - anke-stohlmann
+  alt: Headshot of Anke Stohlmann
+  description: Team headshot of Anke Stohlmann, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ann-millspaugh
+  path: ann-millspaugh.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ann-millspaugh
+  alt: Headshot of Ann Millspaugh
+  description: Team headshot of Ann Millspaugh, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ann-millspaugh-2
+  path: ann-millspaugh.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ann-millspaugh
+  alt: Headshot of Ann Millspaugh
+  description: Team headshot of Ann Millspaugh, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ann-millspaugh-3
+  path: ann-millspaugh.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ann-millspaugh
+  alt: Headshot of Ann Millspaugh
+  description: Team headshot of Ann Millspaugh, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ari-perez
+  path: ari-perez.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ari-perez
+  alt: Headshot of Ari Perez
+  description: Team headshot of Ari Perez, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-arindam-kulshi
+  path: arindam-kulshi.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - arindam-kulshi
+  alt: Headshot of Arindam Kulshi
+  description: Team headshot of Arindam Kulshi, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-arindam-kulshi-2
+  path: arindam-kulshi.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - arindam-kulshi
+  alt: Headshot of Arindam Kulshi
+  description: Team headshot of Arindam Kulshi, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-arindam-kulshi-3
+  path: arindam-kulshi.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - arindam-kulshi
+  alt: Headshot of Arindam Kulshi
+  description: Team headshot of Arindam Kulshi, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ashley-treni
+  path: ashley-treni.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ashley-treni
+  alt: Headshot of Ashley Treni
+  description: Team headshot of Ashley Treni, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ashton-tu
+  path: ashton-tu.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ashton-tu
+  alt: Headshot of Ashton Tu
+  description: Team headshot of Ashton Tu, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ashton-tu-2
+  path: ashton-tu.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ashton-tu
+  alt: Headshot of Ashton Tu
+  description: Team headshot of Ashton Tu, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ashton-tu-3
+  path: ashton-tu.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ashton-tu
+  alt: Headshot of Ashton Tu
+  description: Team headshot of Ashton Tu, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-audrey-ross
+  path: audrey-ross.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - audrey-ross
+  alt: Headshot of Audrey Ross
+  description: Team headshot of Audrey Ross, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-audrey-ross-2
+  path: audrey-ross.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - audrey-ross
+  alt: Headshot of Audrey Ross
+  description: Team headshot of Audrey Ross, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-austin-brown
+  path: austin-brown.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - austin-brown
+  alt: Headshot of Austin Brown
+  description: Team headshot of Austin Brown, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-austin-brown-2
+  path: austin-brown.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - austin-brown
+  alt: Headshot of Austin Brown
+  description: Team headshot of Austin Brown, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-austin-brown-3
+  path: austin-brown.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - austin-brown
+  alt: Headshot of Austin Brown
+  description: Team headshot of Austin Brown, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-austin-hall
+  path: austin-hall.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - austin-hall
+  alt: Headshot of Austin Hall
+  description: Team headshot of Austin Hall, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-austin-hall-2
+  path: austin-hall.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - austin-hall
+  alt: Headshot of Austin Hall
+  description: Team headshot of Austin Hall, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-becca-bartola
+  path: becca-bartola.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - becca-bartola
+  alt: Headshot of Becca Bartola
+  description: Team headshot of Becca Bartola, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-becca-bartola-2
+  path: becca-bartola.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - becca-bartola
+  alt: Headshot of Becca Bartola
+  description: Team headshot of Becca Bartola, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-becca-bartola-3
+  path: becca-bartola.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - becca-bartola
+  alt: Headshot of Becca Bartola
+  description: Team headshot of Becca Bartola, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-becca-woodberry
+  path: becca-woodberry.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - becca-woodberry
+  alt: Headshot of Becca Woodberry
+  description: Team headshot of Becca Woodberry, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-becca-woodberry-2
+  path: becca-woodberry.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - becca-woodberry
+  alt: Headshot of Becca Woodberry
+  description: Team headshot of Becca Woodberry, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bob-zhao
+  path: bob-zhao.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bob-zhao
+  alt: Headshot of Bob Zhao
+  description: Team headshot of Bob Zhao, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bob-zhao-2
+  path: bob-zhao.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bob-zhao
+  alt: Headshot of Bob Zhao
+  description: Team headshot of Bob Zhao, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bob-zhao-3
+  path: bob-zhao.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bob-zhao
+  alt: Headshot of Bob Zhao
+  description: Team headshot of Bob Zhao, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-boban-ljuljdjurovic
+  path: boban-ljuljdjurovic.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - boban-ljuljdjurovic
+  alt: Headshot of Boban Ljuljdjurovic
+  description: Team headshot of Boban Ljuljdjurovic, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-boban-ljuljdjurovic-2
+  path: boban-ljuljdjurovic.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - boban-ljuljdjurovic
+  alt: Headshot of Boban Ljuljdjurovic
+  description: Team headshot of Boban Ljuljdjurovic, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-boban-ljuljdjurovic-3
+  path: boban-ljuljdjurovic.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - boban-ljuljdjurovic
+  alt: Headshot of Boban Ljuljdjurovic
+  description: Team headshot of Boban Ljuljdjurovic, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bobby-wells
+  path: bobby-wells.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bobby-wells
+  alt: Headshot of Bobby Wells
+  description: Team headshot of Bobby Wells, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brady-fausett
+  path: brady-fausett.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brady-fausett
+  alt: Headshot of Brady Fausett
+  description: Team headshot of Brady Fausett, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brady-fausett-2
+  path: brady-fausett.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brady-fausett
+  alt: Headshot of Brady Fausett
+  description: Team headshot of Brady Fausett, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-chanco
+  path: brandon-chanco.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-chanco
+  alt: Headshot of Brandon Chanco
+  description: Team headshot of Brandon Chanco, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-chanco-2
+  path: brandon-chanco.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-chanco
+  alt: Headshot of Brandon Chanco
+  description: Team headshot of Brandon Chanco, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-chanco-3
+  path: brandon-chanco.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-chanco
+  alt: Headshot of Brandon Chanco
+  description: Team headshot of Brandon Chanco, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-kirby
+  path: brandon-kirby.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-kirby
+  alt: Headshot of Brandon Kirby
+  description: Team headshot of Brandon Kirby, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-mader
+  path: brandon-mader.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-mader
+  alt: Headshot of Brandon Mader
+  description: Team headshot of Brandon Mader, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-mader-2
+  path: brandon-mader.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-mader
+  alt: Headshot of Brandon Mader
+  description: Team headshot of Brandon Mader, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-mader-3
+  path: brandon-mader.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-mader
+  alt: Headshot of Brandon Mader
+  description: Team headshot of Brandon Mader, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-brandon-sanchez
+  path: brandon-sanchez.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - brandon-sanchez
+  alt: Headshot of Brandon Sanchez
+  description: Team headshot of Brandon Sanchez, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bruce-jacobson
+  path: bruce-jacobson.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bruce-jacobson
+  alt: Headshot of Bruce Jacobson
+  description: Team headshot of Bruce Jacobson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bruce-jacobson-2
+  path: bruce-jacobson.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bruce-jacobson
+  alt: Headshot of Bruce Jacobson
+  description: Team headshot of Bruce Jacobson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bruce-jacobson-3
+  path: bruce-jacobson.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bruce-jacobson
+  alt: Headshot of Bruce Jacobson
+  description: Team headshot of Bruce Jacobson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-bryan-britten
+  path: bryan-britten.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - bryan-britten
+  alt: Headshot of Bryan Britten
+  description: Team headshot of Bryan Britten, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-cailyn-hansen
+  path: cailyn-hansen.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - cailyn-hansen
+  alt: Headshot of Cailyn Hansen
+  description: Team headshot of Cailyn Hansen, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-caitlin-rinn
+  path: caitlin-rinn.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - caitlin-rinn
+  alt: Headshot of Caitlin Rinn
+  description: Team headshot of Caitlin Rinn, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-caitlin-rinn-2
+  path: caitlin-rinn.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - caitlin-rinn
+  alt: Headshot of Caitlin Rinn
+  description: Team headshot of Caitlin Rinn, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-camille-villa
+  path: camille-villa.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - camille-villa
+  alt: Headshot of Camille Villa
+  description: Team headshot of Camille Villa, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-camille-villa-2
+  path: camille-villa.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - camille-villa
+  alt: Headshot of Camille Villa
+  description: Team headshot of Camille Villa, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-cara-pickett
+  path: cara-pickett.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - cara-pickett
+  alt: Headshot of Cara Pickett
+  description: Team headshot of Cara Pickett, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-cara-pickett-2
+  path: cara-pickett.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - cara-pickett
+  alt: Headshot of Cara Pickett
+  description: Team headshot of Cara Pickett, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-carla-chapa
+  path: carla-chapa.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - carla-chapa
+  alt: Headshot of Carla Chapa
+  description: Team headshot of Carla Chapa, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-carla-chapa-2
+  path: carla-chapa.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - carla-chapa
+  alt: Headshot of Carla Chapa
+  description: Team headshot of Carla Chapa, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-charlye-tran
+  path: charlye-tran.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - charlye-tran
+  alt: Headshot of Charlye Tran
+  description: Team headshot of Charlye Tran, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-cheryl-hammond
+  path: cheryl-hammond.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - cheryl-hammond
+  alt: Headshot of Cheryl Hammond
+  description: Team headshot of Cheryl Hammond, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-cheyenne-meredith
+  path: cheyenne-meredith.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - cheyenne-meredith
+  alt: Headshot of Cheyenne Meredith
+  description: Team headshot of Cheyenne Meredith, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-cheyenne-meredith-2
+  path: cheyenne-meredith.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - cheyenne-meredith
+  alt: Headshot of Cheyenne Meredith
+  description: Team headshot of Cheyenne Meredith, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chinelo-ikejimba
+  path: chinelo-ikejimba.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chinelo-ikejimba
+  alt: Headshot of Chinelo Ikejimba
+  description: Team headshot of Chinelo Ikejimba, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chinelo-ikejimba-2
+  path: chinelo-ikejimba.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chinelo-ikejimba
+  alt: Headshot of Chinelo Ikejimba
+  description: Team headshot of Chinelo Ikejimba, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chris-cairns
+  path: chris-cairns.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chris-cairns
+  alt: Headshot of Chris Cairns
+  description: Team headshot of Chris Cairns, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chris-cairns-2
+  path: chris-cairns.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chris-cairns
+  alt: Headshot of Chris Cairns
+  description: Team headshot of Chris Cairns, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chris-cairns-3
+  path: chris-cairns.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chris-cairns
+  alt: Headshot of Chris Cairns
+  description: Team headshot of Chris Cairns, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chris-connolly
+  path: chris-connolly.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chris-connolly
+  alt: Headshot of Chris Connolly
+  description: Team headshot of Chris Connolly, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chris-connolly-2
+  path: chris-connolly.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chris-connolly
+  alt: Headshot of Chris Connolly
+  description: Team headshot of Chris Connolly, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chris-given
+  path: chris-given.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chris-given
+  alt: Headshot of Chris Given
+  description: Team headshot of Chris Given, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chris-smith
+  path: chris-smith.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chris-smith
+  alt: Headshot of Chris Smith
+  description: Team headshot of Chris Smith, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-christopher-whitaker
+  path: christopher-whitaker.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - christopher-whitaker
+  alt: Headshot of Christopher Whitaker
+  description: Team headshot of Christopher Whitaker, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-christopher-whitaker-2
+  path: christopher-whitaker.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - christopher-whitaker
+  alt: Headshot of Christopher Whitaker
+  description: Team headshot of Christopher Whitaker, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-christopher-whitaker-3
+  path: christopher-whitaker.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - christopher-whitaker
+  alt: Headshot of Christopher Whitaker
+  description: Team headshot of Christopher Whitaker, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-chun-yen
+  path: chun-yen.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - chun-yen
+  alt: Headshot of Chun Yen
+  description: Team headshot of Chun Yen, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-colin-craig
+  path: colin-craig.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - colin-craig
+  alt: Headshot of Colin Craig
+  description: Team headshot of Colin Craig, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-corinne-barker
+  path: corinne-barker.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - corinne-barker
+  alt: Headshot of Corinne Barker
+  description: Team headshot of Corinne Barker, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-corinne-barker-2
+  path: corinne-barker.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - corinne-barker
+  alt: Headshot of Corinne Barker
+  description: Team headshot of Corinne Barker, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dan-levenson
+  path: dan-levenson.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dan-levenson
+  alt: Headshot of Dan Levenson
+  description: Team headshot of Dan Levenson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dan-paseltiner
+  path: dan-paseltiner.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dan-paseltiner
+  alt: Headshot of Dan Paseltiner
+  description: Team headshot of Dan Paseltiner, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dan-paseltiner-2
+  path: dan-paseltiner.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dan-paseltiner
+  alt: Headshot of Dan Paseltiner
+  description: Team headshot of Dan Paseltiner, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dan-paseltiner-3
+  path: dan-paseltiner.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dan-paseltiner
+  alt: Headshot of Dan Paseltiner
+  description: Team headshot of Dan Paseltiner, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dan-sass
+  path: dan-sass.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dan-sass
+  alt: Headshot of Dan Sass
+  description: Team headshot of Dan Sass, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dan-sass-2
+  path: dan-sass.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dan-sass
+  alt: Headshot of Dan Sass
+  description: Team headshot of Dan Sass, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dan-sass-3
+  path: dan-sass.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dan-sass
+  alt: Headshot of Dan Sass
+  description: Team headshot of Dan Sass, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dana-nelson
+  path: dana-nelson.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dana-nelson
+  alt: Headshot of Dana Nelson
+  description: Team headshot of Dana Nelson, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dana-nelson-2
+  path: dana-nelson.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dana-nelson
+  alt: Headshot of Dana Nelson
+  description: Team headshot of Dana Nelson, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-dana-nelson-3
+  path: dana-nelson.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - dana-nelson
+  alt: Headshot of Dana Nelson
+  description: Team headshot of Dana Nelson, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-david-mcclatchey
+  path: david-mcclatchey.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - david-mcclatchey
+  alt: Headshot of David Mcclatchey
+  description: Team headshot of David Mcclatchey, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-david-mcclatchey-2
+  path: david-mcclatchey.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - david-mcclatchey
+  alt: Headshot of David Mcclatchey
+  description: Team headshot of David Mcclatchey, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-david-mcclatchey-3
+  path: david-mcclatchey.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - david-mcclatchey
+  alt: Headshot of David Mcclatchey
+  description: Team headshot of David Mcclatchey, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-derek-tam
+  path: derek-tam.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - derek-tam
+  alt: Headshot of Derek Tam
+  description: Team headshot of Derek Tam, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eileen-ruberto
+  path: eileen-ruberto.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eileen-ruberto
+  alt: Headshot of Eileen Ruberto
+  description: Team headshot of Eileen Ruberto, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eileen-ruberto-2
+  path: eileen-ruberto.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eileen-ruberto
+  alt: Headshot of Eileen Ruberto
+  description: Team headshot of Eileen Ruberto, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eileen-ruberto-3
+  path: eileen-ruberto.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eileen-ruberto
+  alt: Headshot of Eileen Ruberto
+  description: Team headshot of Eileen Ruberto, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eleanor-hyman
+  path: eleanor-hyman.png
+  repo: skylight.digital
+  date: '2026-05-15'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eleanor-hyman
+  alt: Headshot of Eleanor Hyman
+  description: Team headshot of Eleanor Hyman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eleanor-hyman-2
+  path: eleanor-hyman.svg
+  repo: skylight.digital
+  date: '2026-05-15'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eleanor-hyman
+  alt: Headshot of Eleanor Hyman
+  description: Team headshot of Eleanor Hyman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eleanor-roosevelt
+  path: eleanor-roosevelt.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eleanor-roosevelt
+  alt: Headshot of Eleanor Roosevelt
+  description: Team headshot of Eleanor Roosevelt, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-elisa-lee
+  path: elisa-lee.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - elisa-lee
+  alt: Headshot of Elisa Lee
+  description: Team headshot of Elisa Lee, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-elisa-lee-2
+  path: elisa-lee.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - elisa-lee
+  alt: Headshot of Elisa Lee
+  description: Team headshot of Elisa Lee, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-elisa-lee-3
+  path: elisa-lee.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - elisa-lee
+  alt: Headshot of Elisa Lee
+  description: Team headshot of Elisa Lee, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-elyse-brumfield
+  path: elyse-brumfield.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - elyse-brumfield
+  alt: Headshot of Elyse Brumfield
+  description: Team headshot of Elyse Brumfield, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-emily-alter
+  path: emily-alter.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - emily-alter
+  alt: Headshot of Emily Alter
+  description: Team headshot of Emily Alter, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-emma-stephenson
+  path: emma-stephenson.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - emma-stephenson
+  alt: Headshot of Emma Stephenson
+  description: Team headshot of Emma Stephenson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-emma-stephenson-2
+  path: emma-stephenson.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - emma-stephenson
+  alt: Headshot of Emma Stephenson
+  description: Team headshot of Emma Stephenson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-emma-stephenson-3
+  path: emma-stephenson.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - emma-stephenson
+  alt: Headshot of Emma Stephenson
+  description: Team headshot of Emma Stephenson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-emmanuel-nwakire
+  path: emmanuel-nwakire.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - emmanuel-nwakire
+  alt: Headshot of Emmanuel Nwakire
+  description: Team headshot of Emmanuel Nwakire, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-emmanuel-nwakire-2
+  path: emmanuel-nwakire.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - emmanuel-nwakire
+  alt: Headshot of Emmanuel Nwakire
+  description: Team headshot of Emmanuel Nwakire, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-emmanuel-nwakire-3
+  path: emmanuel-nwakire.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - emmanuel-nwakire
+  alt: Headshot of Emmanuel Nwakire
+  description: Team headshot of Emmanuel Nwakire, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eric-buckley
+  path: eric-buckley.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eric-buckley
+  alt: Headshot of Eric Buckley
+  description: Team headshot of Eric Buckley, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eric-buckley-2
+  path: eric-buckley.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eric-buckley
+  alt: Headshot of Eric Buckley
+  description: Team headshot of Eric Buckley, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eric-buckley-3
+  path: eric-buckley.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eric-buckley
+  alt: Headshot of Eric Buckley
+  description: Team headshot of Eric Buckley, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-eric-richards
+  path: eric-richards.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - eric-richards
+  alt: Headshot of Eric Richards
+  description: Team headshot of Eric Richards, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-evan-bowers
+  path: evan-bowers.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - evan-bowers
+  alt: Headshot of Evan Bowers
+  description: Team headshot of Evan Bowers, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-gabriel-ramirez
+  path: gabriel-ramirez.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - gabriel-ramirez
+  alt: Headshot of Gabriel Ramirez
+  description: Team headshot of Gabriel Ramirez, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-geoff-mulligan
+  path: geoff-mulligan.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - geoff-mulligan
+  alt: Headshot of Geoff Mulligan
+  description: Team headshot of Geoff Mulligan, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-geoff-mulligan-2
+  path: geoff-mulligan.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - geoff-mulligan
+  alt: Headshot of Geoff Mulligan
+  description: Team headshot of Geoff Mulligan, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-geoff-mulligan-3
+  path: geoff-mulligan.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - geoff-mulligan
+  alt: Headshot of Geoff Mulligan
+  description: Team headshot of Geoff Mulligan, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-gianna-buda
+  path: gianna-buda.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - gianna-buda
+  alt: Headshot of Gianna Buda
+  description: Team headshot of Gianna Buda, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-gianna-buda-2
+  path: gianna-buda.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - gianna-buda
+  alt: Headshot of Gianna Buda
+  description: Team headshot of Gianna Buda, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-gianna-buda-3
+  path: gianna-buda.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - gianna-buda
+  alt: Headshot of Gianna Buda
+  description: Team headshot of Gianna Buda, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-gordon-farrell
+  path: gordon-farrell.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - gordon-farrell
+  alt: Headshot of Gordon Farrell
+  description: Team headshot of Gordon Farrell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-gordon-farrell-2
+  path: gordon-farrell.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - gordon-farrell
+  alt: Headshot of Gordon Farrell
+  description: Team headshot of Gordon Farrell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-gordon-farrell-3
+  path: gordon-farrell.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - gordon-farrell
+  alt: Headshot of Gordon Farrell
+  description: Team headshot of Gordon Farrell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-grace-zhou
+  path: grace-zhou.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - grace-zhou
+  alt: Headshot of Grace Zhou
+  description: Team headshot of Grace Zhou, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-grace-zhou-2
+  path: grace-zhou.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - grace-zhou
+  alt: Headshot of Grace Zhou
+  description: Team headshot of Grace Zhou, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-graham-smith
+  path: graham-smith.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - graham-smith
+  alt: Headshot of Graham Smith
+  description: Team headshot of Graham Smith, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-holly-dewolf
+  path: holly-dewolf.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - holly-dewolf
+  alt: Headshot of Holly Dewolf
+  description: Team headshot of Holly Dewolf, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-holly-dewolf-2
+  path: holly-dewolf.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - holly-dewolf
+  alt: Headshot of Holly Dewolf
+  description: Team headshot of Holly Dewolf, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-holly-dewolf-3
+  path: holly-dewolf.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - holly-dewolf
+  alt: Headshot of Holly Dewolf
+  description: Team headshot of Holly Dewolf, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ian-hancock
+  path: ian-hancock.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ian-hancock
+  alt: Headshot of Ian Hancock
+  description: Team headshot of Ian Hancock, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jackie-ostrowski
+  path: jackie-ostrowski.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jackie-ostrowski
+  alt: Headshot of Jackie Ostrowski
+  description: Team headshot of Jackie Ostrowski, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jackie-ostrowski-2
+  path: jackie-ostrowski.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jackie-ostrowski
+  alt: Headshot of Jackie Ostrowski
+  description: Team headshot of Jackie Ostrowski, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jake-wheeler
+  path: jake-wheeler.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jake-wheeler
+  alt: Headshot of Jake Wheeler
+  description: Team headshot of Jake Wheeler, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jake-wheeler-2
+  path: jake-wheeler.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jake-wheeler
+  alt: Headshot of Jake Wheeler
+  description: Team headshot of Jake Wheeler, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jamie-song
+  path: jamie-song.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jamie-song
+  alt: Headshot of Jamie Song
+  description: Team headshot of Jamie Song, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-janki-kaneria
+  path: janki-kaneria.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - janki-kaneria
+  alt: Headshot of Janki Kaneria
+  description: Team headshot of Janki Kaneria, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-janki-kaneria-2
+  path: janki-kaneria.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - janki-kaneria
+  alt: Headshot of Janki Kaneria
+  description: Team headshot of Janki Kaneria, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jay-danielian
+  path: jay-danielian.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jay-danielian
+  alt: Headshot of Jay Danielian
+  description: Team headshot of Jay Danielian, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jayna-wallace
+  path: jayna-wallace.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jayna-wallace
+  alt: Headshot of Jayna Wallace
+  description: Team headshot of Jayna Wallace, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jeff-auser
+  path: jeff-auser.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jeff-auser
+  alt: Headshot of Jeff Auser
+  description: Team headshot of Jeff Auser, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jeff-auser-2
+  path: jeff-auser.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jeff-auser
+  alt: Headshot of Jeff Auser
+  description: Team headshot of Jeff Auser, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jeff-bostick
+  path: jeff-bostick.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jeff-bostick
+  alt: Headshot of Jeff Bostick
+  description: Team headshot of Jeff Bostick, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jeff-bostick-2
+  path: jeff-bostick.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jeff-bostick
+  alt: Headshot of Jeff Bostick
+  description: Team headshot of Jeff Bostick, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jeff-johnson
+  path: jeff-johnson.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jeff-johnson
+  alt: Headshot of Jeff Johnson
+  description: Team headshot of Jeff Johnson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jeff-johnson-2
+  path: jeff-johnson.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jeff-johnson
+  alt: Headshot of Jeff Johnson
+  description: Team headshot of Jeff Johnson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jennifer-herzberg
+  path: jennifer-herzberg.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jennifer-herzberg
+  alt: Headshot of Jennifer Herzberg
+  description: Team headshot of Jennifer Herzberg, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jennifer-herzberg-2
+  path: jennifer-herzberg.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jennifer-herzberg
+  alt: Headshot of Jennifer Herzberg
+  description: Team headshot of Jennifer Herzberg, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jennifer-herzberg-3
+  path: jennifer-herzberg.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jennifer-herzberg
+  alt: Headshot of Jennifer Herzberg
+  description: Team headshot of Jennifer Herzberg, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jennifer-wilhelm
+  path: jennifer-wilhelm.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jennifer-wilhelm
+  alt: Headshot of Jennifer Wilhelm
+  description: Team headshot of Jennifer Wilhelm, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jennifer-wilhelm-2
+  path: jennifer-wilhelm.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jennifer-wilhelm
+  alt: Headshot of Jennifer Wilhelm
+  description: Team headshot of Jennifer Wilhelm, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jenny-payne
+  path: jenny-payne.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jenny-payne
+  alt: Headshot of Jenny Payne
+  description: Team headshot of Jenny Payne, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jenny-payne-2
+  path: jenny-payne.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jenny-payne
+  alt: Headshot of Jenny Payne
+  description: Team headshot of Jenny Payne, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jesse-skeets
+  path: jesse-skeets.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jesse-skeets
+  alt: Headshot of Jesse Skeets
+  description: Team headshot of Jesse Skeets, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jill-fromewick
+  path: jill-fromewick.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jill-fromewick
+  alt: Headshot of Jill Fromewick
+  description: Team headshot of Jill Fromewick, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jill-fromewick-2
+  path: jill-fromewick.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jill-fromewick
+  alt: Headshot of Jill Fromewick
+  description: Team headshot of Jill Fromewick, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jina-ryu
+  path: jina-ryu.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jina-ryu
+  alt: Headshot of Jina Ryu
+  description: Team headshot of Jina Ryu, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-joe-reynolds
+  path: joe-reynolds.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - joe-reynolds
+  alt: Headshot of Joe Reynolds
+  description: Team headshot of Joe Reynolds, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-johanna-del-pino
+  path: johanna-del-pino.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - johanna-del-pino
+  alt: Headshot of Johanna Del Pino
+  description: Team headshot of Johanna Del Pino, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-johanna-del-pino-2
+  path: johanna-del-pino.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - johanna-del-pino
+  alt: Headshot of Johanna Del Pino
+  description: Team headshot of Johanna Del Pino, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-johanna-delpino
+  path: johanna-delpino.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - johanna-delpino
+  alt: Headshot of Johanna Delpino
+  description: Team headshot of Johanna Delpino, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-john-teeter
+  path: john-teeter.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - john-teeter
+  alt: Headshot of John Teeter
+  description: Team headshot of John Teeter, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jonathan-chang
+  path: jonathan-chang.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jonathan-chang
+  alt: Headshot of Jonathan Chang
+  description: Team headshot of Jonathan Chang, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jordan-guinn
+  path: jordan-guinn.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jordan-guinn
+  alt: Headshot of Jordan Guinn
+  description: Team headshot of Jordan Guinn, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-jordan-guinn-2
+  path: jordan-guinn.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - jordan-guinn
+  alt: Headshot of Jordan Guinn
+  description: Team headshot of Jordan Guinn, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-josh-dorothy
+  path: josh-dorothy.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - josh-dorothy
+  alt: Headshot of Josh Dorothy
+  description: Team headshot of Josh Dorothy, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-josh-dorothy-2
+  path: josh-dorothy.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - josh-dorothy
+  alt: Headshot of Josh Dorothy
+  description: Team headshot of Josh Dorothy, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-josh-dorothy-3
+  path: josh-dorothy.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - josh-dorothy
+  alt: Headshot of Josh Dorothy
+  description: Team headshot of Josh Dorothy, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-josh-nygaard
+  path: josh-nygaard.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - josh-nygaard
+  alt: Headshot of Josh Nygaard
+  description: Team headshot of Josh Nygaard, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-josh-nygaard-2
+  path: josh-nygaard.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - josh-nygaard
+  alt: Headshot of Josh Nygaard
+  description: Team headshot of Josh Nygaard, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-julia-hogan
+  path: julia-hogan.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - julia-hogan
+  alt: Headshot of Julia Hogan
+  description: Team headshot of Julia Hogan, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kallen-michaels
+  path: kallen-michaels.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kallen-michaels
+  alt: Headshot of Kallen Michaels
+  description: Team headshot of Kallen Michaels, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kari-hodges
+  path: kari-hodges.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kari-hodges
+  alt: Headshot of Kari Hodges
+  description: Team headshot of Kari Hodges, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-karina-wernecke
+  path: karina-wernecke.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - karina-wernecke
+  alt: Headshot of Karina Wernecke
+  description: Team headshot of Karina Wernecke, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-karina-wernecke-2
+  path: karina-wernecke.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - karina-wernecke
+  alt: Headshot of Karina Wernecke
+  description: Team headshot of Karina Wernecke, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-karina-wernecke-3
+  path: karina-wernecke.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - karina-wernecke
+  alt: Headshot of Karina Wernecke
+  description: Team headshot of Karina Wernecke, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-karthik-patil
+  path: karthik-patil.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - karthik-patil
+  alt: Headshot of Karthik Patil
+  description: Team headshot of Karthik Patil, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kate-green
+  path: kate-green.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kate-green
+  alt: Headshot of Kate Green
+  description: Team headshot of Kate Green, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kate-green-2
+  path: kate-green.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kate-green
+  alt: Headshot of Kate Green
+  description: Team headshot of Kate Green, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kate-saul
+  path: kate-saul.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kate-saul
+  alt: Headshot of Kate Saul
+  description: Team headshot of Kate Saul, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kate-saul-2
+  path: kate-saul.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kate-saul
+  alt: Headshot of Kate Saul
+  description: Team headshot of Kate Saul, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kathryn-mullins
+  path: kathryn-mullins.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kathryn-mullins
+  alt: Headshot of Kathryn Mullins
+  description: Team headshot of Kathryn Mullins, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-katie-campbell-downie
+  path: katie-campbell-downie.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - katie-campbell-downie
+  alt: Headshot of Katie Campbell Downie
+  description: Team headshot of Katie Campbell Downie, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-katie-campbell-downie-2
+  path: katie-campbell-downie.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - katie-campbell-downie
+  alt: Headshot of Katie Campbell Downie
+  description: Team headshot of Katie Campbell Downie, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-katie-campbell-downie-3
+  path: katie-campbell-downie.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - katie-campbell-downie
+  alt: Headshot of Katie Campbell Downie
+  description: Team headshot of Katie Campbell Downie, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-katie-gwinn
+  path: katie-gwinn.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - katie-gwinn
+  alt: Headshot of Katie Gwinn
+  description: Team headshot of Katie Gwinn, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-katie-gwinn-2
+  path: katie-gwinn.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - katie-gwinn
+  alt: Headshot of Katie Gwinn
+  description: Team headshot of Katie Gwinn, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kelli-mason
+  path: kelli-mason.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kelli-mason
+  alt: Headshot of Kelli Mason
+  description: Team headshot of Kelli Mason, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kenneth-chow
+  path: kenneth-chow.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kenneth-chow
+  alt: Headshot of Kenneth Chow
+  description: Team headshot of Kenneth Chow, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kenneth-nieh
+  path: kenneth-nieh.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kenneth-nieh
+  alt: Headshot of Kenneth Nieh
+  description: Team headshot of Kenneth Nieh, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kenny-nieh
+  path: kenny-nieh.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kenny-nieh
+  alt: Headshot of Kenny Nieh
+  description: Team headshot of Kenny Nieh, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kevin-fiol
+  path: kevin-fiol.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kevin-fiol
+  alt: Headshot of Kevin Fiol
+  description: Team headshot of Kevin Fiol, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kevin-fiol-2
+  path: kevin-fiol.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kevin-fiol
+  alt: Headshot of Kevin Fiol
+  description: Team headshot of Kevin Fiol, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-khayeni-sanders
+  path: khayeni-sanders.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - khayeni-sanders
+  alt: Headshot of Khayeni Sanders
+  description: Team headshot of Khayeni Sanders, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-khayeni-sanders-2
+  path: khayeni-sanders.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - khayeni-sanders
+  alt: Headshot of Khayeni Sanders
+  description: Team headshot of Khayeni Sanders, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kim-connelly
+  path: kim-connelly.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kim-connelly
+  alt: Headshot of Kim Connelly
+  description: Team headshot of Kim Connelly, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kim-connelly-2
+  path: kim-connelly.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kim-connelly
+  alt: Headshot of Kim Connelly
+  description: Team headshot of Kim Connelly, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kin-lane
+  path: kin-lane.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kin-lane
+  alt: Headshot of Kin Lane
+  description: Team headshot of Kin Lane, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kyle-bond
+  path: kyle-bond.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kyle-bond
+  alt: Headshot of Kyle Bond
+  description: Team headshot of Kyle Bond, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kyle-bond-2
+  path: kyle-bond.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kyle-bond
+  alt: Headshot of Kyle Bond
+  description: Team headshot of Kyle Bond, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kyle-bond-3
+  path: kyle-bond.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kyle-bond
+  alt: Headshot of Kyle Bond
+  description: Team headshot of Kyle Bond, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kyle-magida
+  path: kyle-magida.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kyle-magida
+  alt: Headshot of Kyle Magida
+  description: Team headshot of Kyle Magida, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kyle-planeaux
+  path: kyle-planeaux.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kyle-planeaux
+  alt: Headshot of Kyle Planeaux
+  description: Team headshot of Kyle Planeaux, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kyle-planeaux-2
+  path: kyle-planeaux.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kyle-planeaux
+  alt: Headshot of Kyle Planeaux
+  description: Team headshot of Kyle Planeaux, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-kyle-planeaux-3
+  path: kyle-planeaux.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - kyle-planeaux
+  alt: Headshot of Kyle Planeaux
+  description: Team headshot of Kyle Planeaux, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lainey-trahan
+  path: lainey-trahan.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lainey-trahan
+  alt: Headshot of Lainey Trahan
+  description: Team headshot of Lainey Trahan, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lara-kohl
+  path: lara-kohl.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lara-kohl
+  alt: Headshot of Lara Kohl
+  description: Team headshot of Lara Kohl, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-janisse
+  path: laura-janisse.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-janisse
+  alt: Headshot of Laura Janisse
+  description: Team headshot of Laura Janisse, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-janisse-2
+  path: laura-janisse.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-janisse
+  alt: Headshot of Laura Janisse
+  description: Team headshot of Laura Janisse, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-janisse-3
+  path: laura-janisse.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-janisse
+  alt: Headshot of Laura Janisse
+  description: Team headshot of Laura Janisse, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-kerry
+  path: laura-kerry.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-kerry
+  alt: Headshot of Laura Kerry
+  description: Team headshot of Laura Kerry, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-kerry-2
+  path: laura-kerry.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-kerry
+  alt: Headshot of Laura Kerry
+  description: Team headshot of Laura Kerry, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-kerry-3
+  path: laura-kerry.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-kerry
+  alt: Headshot of Laura Kerry
+  description: Team headshot of Laura Kerry, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-king
+  path: laura-king.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-king
+  alt: Headshot of Laura King
+  description: Team headshot of Laura King, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-king-2
+  path: laura-king.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-king
+  alt: Headshot of Laura King
+  description: Team headshot of Laura King, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laura-king-3
+  path: laura-king.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laura-king
+  alt: Headshot of Laura King
+  description: Team headshot of Laura King, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laurel-lawrence
+  path: laurel-lawrence.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laurel-lawrence
+  alt: Headshot of Laurel Lawrence
+  description: Team headshot of Laurel Lawrence, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-laurel-lawrence-2
+  path: laurel-lawrence.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - laurel-lawrence
+  alt: Headshot of Laurel Lawrence
+  description: Team headshot of Laurel Lawrence, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lauren-kieliszewski
+  path: lauren-kieliszewski.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lauren-kieliszewski
+  alt: Headshot of Lauren Kieliszewski
+  description: Team headshot of Lauren Kieliszewski, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lauren-kieliszewski-2
+  path: lauren-kieliszewski.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lauren-kieliszewski
+  alt: Headshot of Lauren Kieliszewski
+  description: Team headshot of Lauren Kieliszewski, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lauryn-claassen
+  path: lauryn-claassen.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lauryn-claassen
+  alt: Headshot of Lauryn Claassen
+  description: Team headshot of Lauryn Claassen, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lauryn-claassen-2
+  path: lauryn-claassen.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lauryn-claassen
+  alt: Headshot of Lauryn Claassen
+  description: Team headshot of Lauryn Claassen, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lauryn-claassen-3
+  path: lauryn-claassen.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lauryn-claassen
+  alt: Headshot of Lauryn Claassen
+  description: Team headshot of Lauryn Claassen, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-leila-rassi
+  path: leila-rassi.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - leila-rassi
+  alt: Headshot of Leila Rassi
+  description: Team headshot of Leila Rassi, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-leila-rassi-2
+  path: leila-rassi.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - leila-rassi
+  alt: Headshot of Leila Rassi
+  description: Team headshot of Leila Rassi, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lesley-evans
+  path: lesley-evans.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lesley-evans
+  alt: Headshot of Lesley Evans
+  description: Team headshot of Lesley Evans, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-leslie-garner-franklin
+  path: leslie-garner-franklin.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - leslie-garner-franklin
+  alt: Headshot of Leslie Garner Franklin
+  description: Team headshot of Leslie Garner Franklin, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-leslie-garner-franklin-2
+  path: leslie-garner-franklin.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - leslie-garner-franklin
+  alt: Headshot of Leslie Garner Franklin
+  description: Team headshot of Leslie Garner Franklin, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-leslie-garner-franklin-3
+  path: leslie-garner-franklin.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - leslie-garner-franklin
+  alt: Headshot of Leslie Garner Franklin
+  description: Team headshot of Leslie Garner Franklin, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lillian-tran
+  path: lillian-tran.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lillian-tran
+  alt: Headshot of Lillian Tran
+  description: Team headshot of Lillian Tran, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lillian-tran-2
+  path: lillian-tran.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lillian-tran
+  alt: Headshot of Lillian Tran
+  description: Team headshot of Lillian Tran, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lina-roth
+  path: lina-roth.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lina-roth
+  alt: Headshot of Lina Roth
+  description: Team headshot of Lina Roth, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lina-roth-2
+  path: lina-roth.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lina-roth
+  alt: Headshot of Lina Roth
+  description: Team headshot of Lina Roth, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-liz-fox
+  path: liz-fox.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - liz-fox
+  alt: Headshot of Liz Fox
+  description: Team headshot of Liz Fox, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lucas-newman
+  path: lucas-newman.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lucas-newman
+  alt: Headshot of Lucas Newman
+  description: Team headshot of Lucas Newman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lucian-snare
+  path: lucian-snare.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lucian-snare
+  alt: Headshot of Lucian Snare
+  description: Team headshot of Lucian Snare, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-lucian-snare-2
+  path: lucian-snare.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - lucian-snare
+  alt: Headshot of Lucian Snare
+  description: Team headshot of Lucian Snare, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mai-thao
+  path: mai-thao.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mai-thao
+  alt: Headshot of Mai Thao
+  description: Team headshot of Mai Thao, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mai-thao-2
+  path: mai-thao.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mai-thao
+  alt: Headshot of Mai Thao
+  description: Team headshot of Mai Thao, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-marcelle-goggins
+  path: marcelle-goggins.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - marcelle-goggins
+  alt: Headshot of Marcelle Goggins
+  description: Team headshot of Marcelle Goggins, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-marcelle-goggins-2
+  path: marcelle-goggins.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - marcelle-goggins
+  alt: Headshot of Marcelle Goggins
+  description: Team headshot of Marcelle Goggins, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-marcelle-goggins-3
+  path: marcelle-goggins.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - marcelle-goggins
+  alt: Headshot of Marcelle Goggins
+  description: Team headshot of Marcelle Goggins, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-marvo-dolor
+  path: marvo-dolor.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - marvo-dolor
+  alt: Headshot of Marvo Dolor
+  description: Team headshot of Marvo Dolor, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mary-crawford
+  path: mary-crawford.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mary-crawford
+  alt: Headshot of Mary Crawford
+  description: Team headshot of Mary Crawford, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mary-mcgrath
+  path: mary-mcgrath.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mary-mcgrath
+  alt: Headshot of Mary Mcgrath
+  description: Team headshot of Mary Mcgrath, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mary-mcgrath-2
+  path: mary-mcgrath.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mary-mcgrath
+  alt: Headshot of Mary Mcgrath
+  description: Team headshot of Mary Mcgrath, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mary-yeh
+  path: mary-yeh.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mary-yeh
+  alt: Headshot of Mary Yeh
+  description: Team headshot of Mary Yeh, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mary-yeh-2
+  path: mary-yeh.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mary-yeh
+  alt: Headshot of Mary Yeh
+  description: Team headshot of Mary Yeh, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mary-yeh-3
+  path: mary-yeh.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mary-yeh
+  alt: Headshot of Mary Yeh
+  description: Team headshot of Mary Yeh, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-declercq
+  path: matt-declercq.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-declercq
+  alt: Headshot of Matt Declercq
+  description: Team headshot of Matt Declercq, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-declercq-2
+  path: matt-declercq.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-declercq
+  alt: Headshot of Matt Declercq
+  description: Team headshot of Matt Declercq, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-declercq-3
+  path: matt-declercq.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-declercq
+  alt: Headshot of Matt Declercq
+  description: Team headshot of Matt Declercq, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-dobson
+  path: matt-dobson.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-dobson
+  alt: Headshot of Matt Dobson
+  description: Team headshot of Matt Dobson, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-dobson-2
+  path: matt-dobson.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-dobson
+  alt: Headshot of Matt Dobson
+  description: Team headshot of Matt Dobson, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-goldberg
+  path: matt-goldberg.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-goldberg
+  alt: Headshot of Matt Goldberg
+  description: Team headshot of Matt Goldberg, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-goldberg-2
+  path: matt-goldberg.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-goldberg
+  alt: Headshot of Matt Goldberg
+  description: Team headshot of Matt Goldberg, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-matt-goldberg-3
+  path: matt-goldberg.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - matt-goldberg
+  alt: Headshot of Matt Goldberg
+  description: Team headshot of Matt Goldberg, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-maurice-reeves
+  path: maurice-reeves.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - maurice-reeves
+  alt: Headshot of Maurice Reeves
+  description: Team headshot of Maurice Reeves, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-maurice-reeves-2
+  path: maurice-reeves.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - maurice-reeves
+  alt: Headshot of Maurice Reeves
+  description: Team headshot of Maurice Reeves, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-maya-benari
+  path: maya-benari.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - maya-benari
+  alt: Headshot of Maya Benari
+  description: Team headshot of Maya Benari, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-maya-mascarenhas
+  path: maya-mascarenhas.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - maya-mascarenhas
+  alt: Headshot of Maya Mascarenhas
+  description: Team headshot of Maya Mascarenhas, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-maya-mascarenhas-2
+  path: maya-mascarenhas.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - maya-mascarenhas
+  alt: Headshot of Maya Mascarenhas
+  description: Team headshot of Maya Mascarenhas, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-merethe-hansen
+  path: merethe-hansen.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - merethe-hansen
+  alt: Headshot of Merethe Hansen
+  description: Team headshot of Merethe Hansen, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-merethe-hansen-2
+  path: merethe-hansen.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - merethe-hansen
+  alt: Headshot of Merethe Hansen
+  description: Team headshot of Merethe Hansen, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-merethe-hansen-3
+  path: merethe-hansen.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - merethe-hansen
+  alt: Headshot of Merethe Hansen
+  description: Team headshot of Merethe Hansen, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mical-nobel
+  path: mical-nobel.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mical-nobel
+  alt: Headshot of Mical Nobel
+  description: Team headshot of Mical Nobel, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-michael-wales
+  path: michael-wales.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - michael-wales
+  alt: Headshot of Michael Wales
+  description: Team headshot of Michael Wales, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-michael-wales-2
+  path: michael-wales.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - michael-wales
+  alt: Headshot of Michael Wales
+  description: Team headshot of Michael Wales, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-michael-wales-3
+  path: michael-wales.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - michael-wales
+  alt: Headshot of Michael Wales
+  description: Team headshot of Michael Wales, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-michelle-kang
+  path: michelle-kang.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - michelle-kang
+  alt: Headshot of Michelle Kang
+  description: Team headshot of Michelle Kang, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-michelle-kang-2
+  path: michelle-kang.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - michelle-kang
+  alt: Headshot of Michelle Kang
+  description: Team headshot of Michelle Kang, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-michelle-li
+  path: michelle-li.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - michelle-li
+  alt: Headshot of Michelle Li
+  description: Team headshot of Michelle Li, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-brown
+  path: mike-brown.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-brown
+  alt: Headshot of Mike Brown
+  description: Team headshot of Mike Brown, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-brown-2
+  path: mike-brown.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-brown
+  alt: Headshot of Mike Brown
+  description: Team headshot of Mike Brown, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-brown-3
+  path: mike-brown.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-brown
+  alt: Headshot of Mike Brown
+  description: Team headshot of Mike Brown, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-henderson
+  path: mike-henderson.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-henderson
+  alt: Headshot of Mike Henderson
+  description: Team headshot of Mike Henderson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-henderson-2
+  path: mike-henderson.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-henderson
+  alt: Headshot of Mike Henderson
+  description: Team headshot of Mike Henderson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-judd
+  path: mike-judd.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-judd
+  alt: Headshot of Mike Judd
+  description: Team headshot of Mike Judd, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-judd-2
+  path: mike-judd.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-judd
+  alt: Headshot of Mike Judd
+  description: Team headshot of Mike Judd, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mike-judd-3
+  path: mike-judd.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mike-judd
+  alt: Headshot of Mike Judd
+  description: Team headshot of Mike Judd, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mina-cairns
+  path: mina-cairns.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mina-cairns
+  alt: Headshot of Mina Cairns
+  description: Team headshot of Mina Cairns, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mina-cairns-2
+  path: mina-cairns.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mina-cairns
+  alt: Headshot of Mina Cairns
+  description: Team headshot of Mina Cairns, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mina-cairns-3
+  path: mina-cairns.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mina-cairns
+  alt: Headshot of Mina Cairns
+  description: Team headshot of Mina Cairns, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mindy-huang
+  path: mindy-huang.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mindy-huang
+  alt: Headshot of Mindy Huang
+  description: Team headshot of Mindy Huang, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mindy-huang-2
+  path: mindy-huang.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mindy-huang
+  alt: Headshot of Mindy Huang
+  description: Team headshot of Mindy Huang, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-miringu-kiarie
+  path: miringu-kiarie.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - miringu-kiarie
+  alt: Headshot of Miringu Kiarie
+  description: Team headshot of Miringu Kiarie, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-miringu-kiarie-2
+  path: miringu-kiarie.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - miringu-kiarie
+  alt: Headshot of Miringu Kiarie
+  description: Team headshot of Miringu Kiarie, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-miringu-kiarie-3
+  path: miringu-kiarie.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - miringu-kiarie
+  alt: Headshot of Miringu Kiarie
+  description: Team headshot of Miringu Kiarie, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-mitchell-sipus
+  path: mitchell-sipus.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - mitchell-sipus
+  alt: Headshot of Mitchell Sipus
+  description: Team headshot of Mitchell Sipus, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-monica-qiu
+  path: monica-qiu.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - monica-qiu
+  alt: Headshot of Monica Qiu
+  description: Team headshot of Monica Qiu, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-monica-qiu-2
+  path: monica-qiu.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - monica-qiu
+  alt: Headshot of Monica Qiu
+  description: Team headshot of Monica Qiu, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-monica-qiu-3
+  path: monica-qiu.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - monica-qiu
+  alt: Headshot of Monica Qiu
+  description: Team headshot of Monica Qiu, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nathan-carter
+  path: nathan-carter.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nathan-carter
+  alt: Headshot of Nathan Carter
+  description: Team headshot of Nathan Carter, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nathan-carter-2
+  path: nathan-carter.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nathan-carter
+  alt: Headshot of Nathan Carter
+  description: Team headshot of Nathan Carter, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nathan-carter-3
+  path: nathan-carter.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nathan-carter
+  alt: Headshot of Nathan Carter
+  description: Team headshot of Nathan Carter, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-blake
+  path: nick-blake.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-blake
+  alt: Headshot of Nick Blake
+  description: Team headshot of Nick Blake, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-blake-2
+  path: nick-blake.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-blake
+  alt: Headshot of Nick Blake
+  description: Team headshot of Nick Blake, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-blake-3
+  path: nick-blake.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-blake
+  alt: Headshot of Nick Blake
+  description: Team headshot of Nick Blake, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-bristow
+  path: nick-bristow.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-bristow
+  alt: Headshot of Nick Bristow
+  description: Team headshot of Nick Bristow, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-bristow-2
+  path: nick-bristow.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-bristow
+  alt: Headshot of Nick Bristow
+  description: Team headshot of Nick Bristow, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-bristow-3
+  path: nick-bristow.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-bristow
+  alt: Headshot of Nick Bristow
+  description: Team headshot of Nick Bristow, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-clyde
+  path: nick-clyde.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-clyde
+  alt: Headshot of Nick Clyde
+  description: Team headshot of Nick Clyde, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-clyde-2
+  path: nick-clyde.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-clyde
+  alt: Headshot of Nick Clyde
+  description: Team headshot of Nick Clyde, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-clyde-3
+  path: nick-clyde.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-clyde
+  alt: Headshot of Nick Clyde
+  description: Team headshot of Nick Clyde, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-raeon
+  path: nick-raeon.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-raeon
+  alt: Headshot of Nick Raeon
+  description: Team headshot of Nick Raeon, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nick-raeon-2
+  path: nick-raeon.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nick-raeon
+  alt: Headshot of Nick Raeon
+  description: Team headshot of Nick Raeon, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nicole-campbell
+  path: nicole-campbell.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nicole-campbell
+  alt: Headshot of Nicole Campbell
+  description: Team headshot of Nicole Campbell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nicole-campbell-2
+  path: nicole-campbell.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nicole-campbell
+  alt: Headshot of Nicole Campbell
+  description: Team headshot of Nicole Campbell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nicole-campbell-3
+  path: nicole-campbell.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nicole-campbell
+  alt: Headshot of Nicole Campbell
+  description: Team headshot of Nicole Campbell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-nicole-wright
+  path: nicole-wright.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - nicole-wright
+  alt: Headshot of Nicole Wright
+  description: Team headshot of Nicole Wright, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-olivia-lucas
+  path: olivia-lucas.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - olivia-lucas
+  alt: Headshot of Olivia Lucas
+  description: Team headshot of Olivia Lucas, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ori-hoffer
+  path: ori-hoffer.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ori-hoffer
+  alt: Headshot of Ori Hoffer
+  description: Team headshot of Ori Hoffer, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-peggy-chau
+  path: peggy-chau.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - peggy-chau
+  alt: Headshot of Peggy Chau
+  description: Team headshot of Peggy Chau, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-peggy-chau-2
+  path: peggy-chau.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - peggy-chau
+  alt: Headshot of Peggy Chau
+  description: Team headshot of Peggy Chau, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-peggy-chau-3
+  path: peggy-chau.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - peggy-chau
+  alt: Headshot of Peggy Chau
+  description: Team headshot of Peggy Chau, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-phoebe-espiritu
+  path: phoebe-espiritu.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - phoebe-espiritu
+  alt: Headshot of Phoebe Espiritu
+  description: Team headshot of Phoebe Espiritu, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-pri-kiser
+  path: pri-kiser.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - pri-kiser
+  alt: Headshot of Pri Kiser
+  description: Team headshot of Pri Kiser, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-pri-kiser-2
+  path: pri-kiser.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - pri-kiser
+  alt: Headshot of Pri Kiser
+  description: Team headshot of Pri Kiser, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-pri-kiser-3
+  path: pri-kiser.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - pri-kiser
+  alt: Headshot of Pri Kiser
+  description: Team headshot of Pri Kiser, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-priscilla-peralta
+  path: priscilla-peralta.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - priscilla-peralta
+  alt: Headshot of Priscilla Peralta
+  description: Team headshot of Priscilla Peralta, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-randall-rupp
+  path: randall-rupp.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - randall-rupp
+  alt: Headshot of Randall Rupp
+  description: Team headshot of Randall Rupp, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-randall-rupp-2
+  path: randall-rupp.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - randall-rupp
+  alt: Headshot of Randall Rupp
+  description: Team headshot of Randall Rupp, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-rebecca-lubitzmarchena
+  path: rebecca-lubitzmarchena.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - rebecca-lubitzmarchena
+  alt: Headshot of Rebecca Lubitzmarchena
+  description: Team headshot of Rebecca Lubitzmarchena, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-rebecca-lubitzmarchena-2
+  path: rebecca-lubitzmarchena.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - rebecca-lubitzmarchena
+  alt: Headshot of Rebecca Lubitzmarchena
+  description: Team headshot of Rebecca Lubitzmarchena, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-rin-concordia
+  path: rin-concordia.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - rin-concordia
+  alt: Headshot of Rin Concordia
+  description: Team headshot of Rin Concordia, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-rob-mitchell
+  path: rob-mitchell.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - rob-mitchell
+  alt: Headshot of Rob Mitchell
+  description: Team headshot of Rob Mitchell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-rob-mitchell-2
+  path: rob-mitchell.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - rob-mitchell
+  alt: Headshot of Rob Mitchell
+  description: Team headshot of Rob Mitchell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-robert-mitchell
+  path: robert-mitchell.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - robert-mitchell
+  alt: Headshot of Robert Mitchell
+  description: Team headshot of Robert Mitchell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-robert-mitchell-2
+  path: robert-mitchell.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - robert-mitchell
+  alt: Headshot of Robert Mitchell
+  description: Team headshot of Robert Mitchell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-robert-mitchell-3
+  path: robert-mitchell.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - robert-mitchell
+  alt: Headshot of Robert Mitchell
+  description: Team headshot of Robert Mitchell, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-robert-read
+  path: robert-read.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - robert-read
+  alt: Headshot of Robert Read
+  description: Team headshot of Robert Read, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-robert-read-2
+  path: robert-read.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - robert-read
+  alt: Headshot of Robert Read
+  description: Team headshot of Robert Read, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-robert-read-3
+  path: robert-read.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - robert-read
+  alt: Headshot of Robert Read
+  description: Team headshot of Robert Read, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-roger-ruiz
+  path: roger-ruiz.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - roger-ruiz
+  alt: Headshot of Roger Ruiz
+  description: Team headshot of Roger Ruiz, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-roger-ruiz-2
+  path: roger-ruiz.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - roger-ruiz
+  alt: Headshot of Roger Ruiz
+  description: Team headshot of Roger Ruiz, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-roger-ruiz-3
+  path: roger-ruiz.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - roger-ruiz
+  alt: Headshot of Roger Ruiz
+  description: Team headshot of Roger Ruiz, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ruby-mccafferty
+  path: ruby-mccafferty.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ruby-mccafferty
+  alt: Headshot of Ruby Mccafferty
+  description: Team headshot of Ruby Mccafferty, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ruby-mccafferty-2
+  path: ruby-mccafferty.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ruby-mccafferty
+  alt: Headshot of Ruby Mccafferty
+  description: Team headshot of Ruby Mccafferty, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-ryan-gaddis
+  path: ryan-gaddis.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - ryan-gaddis
+  alt: Headshot of Ryan Gaddis
+  description: Team headshot of Ryan Gaddis, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-sarah-george-hager
+  path: sarah-george-hager.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - sarah-george-hager
+  alt: Headshot of Sarah George Hager
+  description: Team headshot of Sarah George Hager, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-sarah-tress
+  path: sarah-tress.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - sarah-tress
+  alt: Headshot of Sarah Tress
+  description: Team headshot of Sarah Tress, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-sarah-tress-2
+  path: sarah-tress.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - sarah-tress
+  alt: Headshot of Sarah Tress
+  description: Team headshot of Sarah Tress, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-sarah-tress-3
+  path: sarah-tress.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - sarah-tress
+  alt: Headshot of Sarah Tress
+  description: Team headshot of Sarah Tress, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-scott-hallman
+  path: scott-hallman.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - scott-hallman
+  alt: Headshot of Scott Hallman
+  description: Team headshot of Scott Hallman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-scott-hallman-2
+  path: scott-hallman.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - scott-hallman
+  alt: Headshot of Scott Hallman
+  description: Team headshot of Scott Hallman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-sean-johnson
+  path: sean-johnson.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - sean-johnson
+  alt: Headshot of Sean Johnson
+  description: Team headshot of Sean Johnson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-sean-johnson-2
+  path: sean-johnson.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - sean-johnson
+  alt: Headshot of Sean Johnson
+  description: Team headshot of Sean Johnson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-sean-johnson-3
+  path: sean-johnson.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - sean-johnson
+  alt: Headshot of Sean Johnson
+  description: Team headshot of Sean Johnson, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-shashank-khandelwal
+  path: shashank-khandelwal.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - shashank-khandelwal
+  alt: Headshot of Shashank Khandelwal
+  description: Team headshot of Shashank Khandelwal, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-spencer-kathol
+  path: spencer-kathol.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - spencer-kathol
+  alt: Headshot of Spencer Kathol
+  description: Team headshot of Spencer Kathol, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-stephen-chow
+  path: stephen-chow.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - stephen-chow
+  alt: Headshot of Stephen Chow
+  description: Team headshot of Stephen Chow, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-stephen-morrison
+  path: stephen-morrison.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - stephen-morrison
+  alt: Headshot of Stephen Morrison
+  description: Team headshot of Stephen Morrison, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-stephen-morrison-2
+  path: stephen-morrison.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - stephen-morrison
+  alt: Headshot of Stephen Morrison
+  description: Team headshot of Stephen Morrison, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-steven-speck
+  path: steven-speck.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - steven-speck
+  alt: Headshot of Steven Speck
+  description: Team headshot of Steven Speck, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-suzanne-chapman
+  path: suzanne-chapman.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - suzanne-chapman
+  alt: Headshot of Suzanne Chapman
+  description: Team headshot of Suzanne Chapman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-taylor-graue
+  path: taylor-graue.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - taylor-graue
+  alt: Headshot of Taylor Graue
+  description: Team headshot of Taylor Graue, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-taylor-graue-2
+  path: taylor-graue.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - taylor-graue
+  alt: Headshot of Taylor Graue
+  description: Team headshot of Taylor Graue, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-taylor-graue-3
+  path: taylor-graue.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - taylor-graue
+  alt: Headshot of Taylor Graue
+  description: Team headshot of Taylor Graue, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tiffany-nieh
+  path: tiffany-nieh.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tiffany-nieh
+  alt: Headshot of Tiffany Nieh
+  description: Team headshot of Tiffany Nieh, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tiffany-nieh-2
+  path: tiffany-nieh.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tiffany-nieh
+  alt: Headshot of Tiffany Nieh
+  description: Team headshot of Tiffany Nieh, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tiffany-nieh-3
+  path: tiffany-nieh.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tiffany-nieh
+  alt: Headshot of Tiffany Nieh
+  description: Team headshot of Tiffany Nieh, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tim-niehoff
+  path: tim-niehoff.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tim-niehoff
+  alt: Headshot of Tim Niehoff
+  description: Team headshot of Tim Niehoff, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tom-black
+  path: tom-black.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tom-black
+  alt: Headshot of Tom Black
+  description: Team headshot of Tom Black, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tomi-obikunle
+  path: tomi-obikunle.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tomi-obikunle
+  alt: Headshot of Tomi Obikunle
+  description: Team headshot of Tomi Obikunle, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tomi-obikunle-2
+  path: tomi-obikunle.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tomi-obikunle
+  alt: Headshot of Tomi Obikunle
+  description: Team headshot of Tomi Obikunle, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-tomi-obikunle-3
+  path: tomi-obikunle.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - tomi-obikunle
+  alt: Headshot of Tomi Obikunle
+  description: Team headshot of Tomi Obikunle, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-victor-zapanta
+  path: victor-zapanta.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - victor-zapanta
+  alt: Headshot of Victor Zapanta
+  description: Team headshot of Victor Zapanta, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-victoria-suwardiman
+  path: victoria-suwardiman.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - victoria-suwardiman
+  alt: Headshot of Victoria Suwardiman
+  description: Team headshot of Victoria Suwardiman, from skylight.digital's people/team
+    pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-will-conant
+  path: will-conant.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - will-conant
+  alt: Headshot of Will Conant
+  description: Team headshot of Will Conant, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-will-conant-2
+  path: will-conant.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - will-conant
+  alt: Headshot of Will Conant
+  description: Team headshot of Will Conant, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zach-thomas
+  path: zach-thomas.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zach-thomas
+  alt: Headshot of Zach Thomas
+  description: Team headshot of Zach Thomas, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zach-thomas-2
+  path: zach-thomas.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zach-thomas
+  alt: Headshot of Zach Thomas
+  description: Team headshot of Zach Thomas, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zack-gehin
+  path: zack-gehin.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zack-gehin
+  alt: Headshot of Zack Gehin
+  description: Team headshot of Zack Gehin, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zack-gehin-2
+  path: zack-gehin.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zack-gehin
+  alt: Headshot of Zack Gehin
+  description: Team headshot of Zack Gehin, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zack-gehin-3
+  path: zack-gehin.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zack-gehin
+  alt: Headshot of Zack Gehin
+  description: Team headshot of Zack Gehin, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zedd-shmais
+  path: zedd-shmais.jpg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zedd-shmais
+  alt: Headshot of Zedd Shmais
+  description: Team headshot of Zedd Shmais, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zedd-shmais-2
+  path: zedd-shmais.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zedd-shmais
+  alt: Headshot of Zedd Shmais
+  description: Team headshot of Zedd Shmais, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zedd-shmais-3
+  path: zedd-shmais.svg
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zedd-shmais
+  alt: Headshot of Zedd Shmais
+  description: Team headshot of Zedd Shmais, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
+- id: person-zoe-do
+  path: zoe-do.png
+  repo: skylight.digital
+  date: '2026-03-26'
+  type: headshot
+  themes:
+  - team
+  tags: []
+  people:
+  - zoe-do
+  alt: Headshot of Zoe Do
+  description: Team headshot of Zoe Do, from skylight.digital's people/team pages.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
