@@ -114,6 +114,9 @@ exclude:
   - lighthouse
   - scripts
   - standards
+  # Federation asset-registry manifests — internal metadata, not site content
+  - "**/assets-manifest.yml"
+  - "**/image-library.yml"
 
 # Plugins & gems
 plugins:
