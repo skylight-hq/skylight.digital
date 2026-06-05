@@ -12,16 +12,18 @@ name: sync-brand-pack
 #   *** AUTH ***
 #   skylight-hub is PRIVATE. The default GITHUB_TOKEN (scoped to this repo)
 #   cannot read it, and unauthenticated raw.githubusercontent fetches 404.
-#   So this sync fetches via the GitHub contents API using a HUB_READ_TOKEN
-#   secret (a fine-grained PAT with contents:read on skylight-hq/skylight-hub).
-#   Until that secret is added, the sync SKIPS with a warning (non-blocking)
-#   so the workflow stays mergeable and self-activates once the secret lands.
-#   The same secret activates the case-study-lint gate.
+#   So this sync fetches via the GitHub contents API using a short-lived token
+#   minted from the federation GitHub App (Contents:Read, scoped to
+#   skylight-hub, ~1h TTL) — no long-lived PAT. Until the App is configured
+#   (FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, App
+#   installed on skylight-hq/skylight-hub), the sync SKIPS with a warning
+#   (non-blocking) so the workflow stays mergeable and self-activates. The
+#   same App config activates the case-study-lint gate.
 #
 #   NOTE: the companion brand-pack-freshness.yml job fails when a vendored
-#   file's synced_at is >30 days old. If this sync stays inactive (no token),
-#   the brand files will eventually trip that freshness gate — adding the
-#   secret resolves both.
+#   file's synced_at is >30 days old. If this sync stays inactive (no App),
+#   the brand files will eventually trip that freshness gate — configuring the
+#   App resolves both.
 
 on:
   schedule:
@@ -46,10 +48,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Mint a short-lived token from the federation GitHub App to read the
+      # brand-pack canon out of the private skylight-hub repo. Guarded so the
+      # sync self-skips until the App is configured.
+      - name: Mint hub-read App token
+        id: app-token
+        if: ${{ vars.FEDERATION_APP_ID != '' }}
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.FEDERATION_APP_ID }}
+          private-key: ${{ secrets.FEDERATION_APP_PRIVATE_KEY }}
+          owner: skylight-hq
+          repositories: skylight-hub
+
       - name: Detect hub-access token
         id: cfg
         env:
-          HUB_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
+          HUB_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           if [ -n "$HUB_TOKEN" ]; then
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -60,14 +75,14 @@ jobs:
       - name: Sync inactive notice
         if: steps.cfg.outputs.ok != 'true'
         run: |
-          echo "::warning title=sync-brand-pack inactive::skylight-hub is private; this sync needs a HUB_READ_TOKEN secret (fine-grained PAT, contents:read on skylight-hq/skylight-hub) to fetch the brand-pack canon. Skipping (non-blocking) until it's added. The same secret activates the case-study-lint gate."
+          echo "::warning title=sync-brand-pack inactive::skylight-hub is private; this sync needs the federation GitHub App configured (FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, App installed on skylight-hq/skylight-hub) to fetch the brand-pack canon. Skipping (non-blocking) until then. The same App config activates the case-study-lint gate."
           echo "Sync skipped — see warning above."
 
       - name: Resolve source default branch + SHA
         if: steps.cfg.outputs.ok == 'true'
         id: src
         env:
-          GH_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           BRANCH=$(gh api repos/${SOURCE_REPO} --jq '.default_branch')
           SHA=$(gh api repos/${SOURCE_REPO}/branches/${BRANCH} --jq '.commit.sha')
@@ -79,7 +94,7 @@ jobs:
         if: steps.cfg.outputs.ok == 'true'
         id: fetch
         env:
-          GH_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           set -uo pipefail
           BRANCH="${{ steps.src.outputs.branch }}"

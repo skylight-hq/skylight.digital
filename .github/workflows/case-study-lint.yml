@@ -8,18 +8,16 @@ name: case-study-lint
 #
 # The linter is federation canon and lives in skylight-hub (a PRIVATE repo).
 # This public repo can't read it with the default GITHUB_TOKEN, so the gate
-# checks out the hub linter using a HUB_READ_TOKEN secret (a fine-grained PAT
-# with read access to skylight-hq/skylight-hub, contents:read).
+# checks out the hub linter using a short-lived token minted from the
+# federation GitHub App (Contents:Read, scoped to skylight-hub, ~1h TTL) —
+# the org-owned, ephemeral mechanism the whole federation shares. No
+# long-lived PAT.
 #
 #   *** ACTIVATION ***
-#   Until HUB_READ_TOKEN is added to this repo's Actions secrets, the gate
-#   SKIPS with a warning (so this workflow merges cleanly and self-activates).
-#   To activate: create a fine-grained PAT (read-only, contents, on
-#   skylight-hq/skylight-hub) and add it as the HUB_READ_TOKEN repo secret.
-#
-# Once the federation resolves hub access (e.g., hub goes public, or a shared
-# org token lands), this workflow needs no change — it already prefers the
-# secret and falls back to skipping.
+#   The gate self-activates when the App is configured for this repo: the
+#   FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, with the
+#   App installed on skylight-hq/skylight-hub. Until then the token step is
+#   skipped and the gate SKIPS with a warning, so this workflow merges cleanly.
 
 on:
   pull_request:
@@ -48,10 +46,23 @@ jobs:
       - name: Checkout skylight.digital
         uses: actions/checkout@v4
 
+      # Mint a short-lived token from the federation GitHub App to read the
+      # canonical linter out of the private skylight-hub repo. Guarded so the
+      # gate self-skips until the App is configured.
+      - name: Mint hub-read App token
+        id: app-token
+        if: ${{ vars.FEDERATION_APP_ID != '' }}
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.FEDERATION_APP_ID }}
+          private-key: ${{ secrets.FEDERATION_APP_PRIVATE_KEY }}
+          owner: skylight-hq
+          repositories: skylight-hub
+
       - name: Detect hub-access token
         id: cfg
         env:
-          HUB_TOKEN: ${{ secrets.HUB_READ_TOKEN }}
+          HUB_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           if [ -n "$HUB_TOKEN" ]; then
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -62,10 +73,10 @@ jobs:
       - name: Gate inactive notice
         if: steps.cfg.outputs.ok != 'true'
         run: |
-          echo "::warning title=case-study-lint inactive::No HUB_READ_TOKEN secret found. " \
-               "The case-study taxonomy gate is not enforcing. Add a fine-grained PAT " \
-               "(read-only, contents, on skylight-hq/skylight-hub) as the HUB_READ_TOKEN " \
-               "repo secret to activate. Skipping for now (non-blocking)."
+          echo "::warning title=case-study-lint inactive::Federation GitHub App not configured " \
+               "(needs the FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, with the " \
+               "App installed on skylight-hq/skylight-hub). The case-study taxonomy gate is not " \
+               "enforcing. Skipping for now (non-blocking)."
           echo "Gate skipped — see warning above."
 
       - name: Checkout skylight-hub linter (canon)
@@ -73,7 +84,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: skylight-hq/skylight-hub
-          token: ${{ secrets.HUB_READ_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           path: .hub
           sparse-checkout: |
             plugins/skylight-website-case-study-linter
