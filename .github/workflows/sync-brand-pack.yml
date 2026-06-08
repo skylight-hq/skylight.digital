@@ -15,7 +15,7 @@ name: sync-brand-pack
 #   So this sync fetches via the GitHub contents API using a short-lived token
 #   minted from the federation GitHub App (Contents:Read, scoped to
 #   skylight-hub, ~1h TTL) — no long-lived PAT. Until the App is configured
-#   (FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, App
+#   (FEDERATION_APP_CLIENT_ID variable + FEDERATION_APP_PRIVATE_KEY secret, App
 #   installed on skylight-hq/skylight-hub), the sync SKIPS with a warning
 #   (non-blocking) so the workflow stays mergeable and self-activates. The
 #   same App config activates the case-study-lint gate.
@@ -53,10 +53,10 @@ jobs:
       # sync self-skips until the App is configured.
       - name: Mint hub-read App token
         id: app-token
-        if: ${{ vars.FEDERATION_APP_ID != '' }}
-        uses: actions/create-github-app-token@v1
+        if: ${{ vars.FEDERATION_APP_CLIENT_ID != '' }}
+        uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ vars.FEDERATION_APP_ID }}
+          client-id: ${{ vars.FEDERATION_APP_CLIENT_ID }}
           private-key: ${{ secrets.FEDERATION_APP_PRIVATE_KEY }}
           owner: skylight-hq
           repositories: skylight-hub
@@ -75,7 +75,7 @@ jobs:
       - name: Sync inactive notice
         if: steps.cfg.outputs.ok != 'true'
         run: |
-          echo "::warning title=sync-brand-pack inactive::skylight-hub is private; this sync needs the federation GitHub App configured (FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, App installed on skylight-hq/skylight-hub) to fetch the brand-pack canon. Skipping (non-blocking) until then. The same App config activates the case-study-lint gate."
+          echo "::warning title=sync-brand-pack inactive::skylight-hub is private; this sync needs the federation GitHub App configured (FEDERATION_APP_CLIENT_ID variable + FEDERATION_APP_PRIVATE_KEY secret, App installed on skylight-hq/skylight-hub) to fetch the brand-pack canon. Skipping (non-blocking) until then. The same App config activates the case-study-lint gate."
           echo "Sync skipped — see warning above."
 
       - name: Resolve source default branch + SHA
