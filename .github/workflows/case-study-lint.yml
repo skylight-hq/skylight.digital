@@ -15,7 +15,7 @@ name: case-study-lint
 #
 #   *** ACTIVATION ***
 #   The gate self-activates when the App is configured for this repo: the
-#   FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, with the
+#   FEDERATION_APP_CLIENT_ID variable + FEDERATION_APP_PRIVATE_KEY secret, with the
 #   App installed on skylight-hq/skylight-hub. Until then the token step is
 #   skipped and the gate SKIPS with a warning, so this workflow merges cleanly.
 
@@ -51,10 +51,14 @@ jobs:
       # gate self-skips until the App is configured.
       - name: Mint hub-read App token
         id: app-token
-        if: ${{ vars.FEDERATION_APP_ID != '' }}
-        uses: actions/create-github-app-token@v1
+        # Skipped on Dependabot PRs (their runs can't read the App private-key
+        # secret); continue-on-error covers fork PRs. The gate then self-skips
+        # below (cfg.ok=false → "gate inactive" notice), keeping the check green.
+        if: ${{ vars.FEDERATION_APP_CLIENT_ID != '' && github.actor != 'dependabot[bot]' }}
+        continue-on-error: true
+        uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ vars.FEDERATION_APP_ID }}
+          client-id: ${{ vars.FEDERATION_APP_CLIENT_ID }}
           private-key: ${{ secrets.FEDERATION_APP_PRIVATE_KEY }}
           owner: skylight-hq
           repositories: skylight-hub
@@ -74,7 +78,7 @@ jobs:
         if: steps.cfg.outputs.ok != 'true'
         run: |
           echo "::warning title=case-study-lint inactive::Federation GitHub App not configured " \
-               "(needs the FEDERATION_APP_ID variable + FEDERATION_APP_PRIVATE_KEY secret, with the " \
+               "(needs the FEDERATION_APP_CLIENT_ID variable + FEDERATION_APP_PRIVATE_KEY secret, with the " \
                "App installed on skylight-hq/skylight-hub). The case-study taxonomy gate is not " \
                "enforcing. Skipping for now (non-blocking)."
           echo "Gate skipped — see warning above."
