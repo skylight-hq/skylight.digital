@@ -6363,23 +6363,6 @@
   classification: public
   archived: false
   pending_classification: false
-- id: person-stephen-chow
-  path: stephen-chow.png
-  repo: skylight.digital
-  date: '2026-03-26'
-  type: headshot
-  themes:
-  - team
-  tags: []
-  people:
-  - stephen-chow
-  alt: Headshot of Stephen Chow
-  description: Team headshot of Stephen Chow, from skylight.digital's people/team
-    pages.
-  permissions: skylight-owned
-  classification: public
-  archived: false
-  pending_classification: false
 - id: person-stephen-morrison
   path: stephen-morrison.png
   repo: skylight.digital
