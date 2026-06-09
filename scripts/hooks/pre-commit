@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Asset-manifest pre-commit check for this clone.
 #
-# Runs scripts/check_asset_manifests.rb on any staged asset manifest
-# (federation asset registry Phase A.2.4). WARN-ONLY during bootstrap; never
-# blocks unless ASSET_MANIFEST_STRICT=1. Self-skips when the validator isn't
-# present (repo not yet bootstrapped for the asset registry).
+# Runs scripts/check_asset_manifests.rb on any staged asset manifest.
+# BLOCKS on findings (strict, Phase F.5 — the registry is bootstrapped + clean).
+# Set ASSET_MANIFEST_STRICT=0 to bypass for local WIP. Self-skips when the
+# validator isn't present (repo not yet bootstrapped for the asset registry).
 #
 # This is the asset-manifest portion of the skylight-hub hooks canon. This
 # repo intentionally omits the hub's author-identity guard (it has many
@@ -17,11 +17,11 @@ set -e
 
 repo_root=$(git rev-parse --show-toplevel)
 
-# Warn-only during bootstrap: surface schema/vocab findings on staged manifests
-# but never block the commit. Set ASSET_MANIFEST_STRICT=1 (Phase F.5) to make
-# this hook block locally too — that mode adds --warn-as-error and propagates
-# the validator's non-zero exit.
-strict="${ASSET_MANIFEST_STRICT:-0}"
+# Strict by default (Phase F.5 — the asset registry is bootstrapped + clean):
+# validate staged manifests with --warn-as-error and block on any finding. The
+# asset-manifests CI job enforces the same server-side. Set
+# ASSET_MANIFEST_STRICT=0 to drop to warn-only for local work-in-progress.
+strict="${ASSET_MANIFEST_STRICT:-1}"
 
 # Staged manifests (added/copied/modified), matching the validator's discovery
 # globs (assets-manifest.yml + image-library.yml). `|| true` keeps a no-match
@@ -55,7 +55,7 @@ EOF
       if [ "$strict" = "1" ]; then
         echo "" >&2
         echo "ERROR: asset-manifest validation failed (strict mode)." >&2
-        echo "Fix the findings above, or unset ASSET_MANIFEST_STRICT to bypass during bootstrap." >&2
+        echo "Fix the findings above, or set ASSET_MANIFEST_STRICT=0 to bypass for local WIP." >&2
         exit 1
       fi
       echo "" >&2

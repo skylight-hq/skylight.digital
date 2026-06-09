@@ -31,4 +31,5 @@ jobs:
         with:
           ruby-version: '3.2'
       - name: Validate every asset manifest in the repo
-        run: ruby scripts/check_asset_manifests.rb
+        # Strict (Phase F.5 — warnings block too, now the registry is bootstrapped + clean).
+        run: ruby scripts/check_asset_manifests.rb --warn-as-error
