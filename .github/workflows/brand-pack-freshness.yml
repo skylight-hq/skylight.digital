@@ -34,7 +34,7 @@ jobs:
       MAX_AGE_DAYS: 30
       DATA_DIR: _data/brand
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Check synced_at across vendored brand-pack files
         run: |
           set -euo pipefail
