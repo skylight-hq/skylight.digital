@@ -44,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout skylight.digital
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       # Mint a short-lived token from the federation GitHub App to read the
       # canonical linter out of the private skylight-hub repo. Guarded so the
@@ -56,7 +56,7 @@ jobs:
         # below (cfg.ok=false → "gate inactive" notice), keeping the check green.
         if: ${{ vars.FEDERATION_APP_CLIENT_ID != '' && github.actor != 'dependabot[bot]' }}
         continue-on-error: true
-        uses: actions/create-github-app-token@v3
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
         with:
           client-id: ${{ vars.FEDERATION_APP_CLIENT_ID }}
           private-key: ${{ secrets.FEDERATION_APP_PRIVATE_KEY }}
@@ -85,7 +85,7 @@ jobs:
 
       - name: Checkout skylight-hub linter (canon)
         if: steps.cfg.outputs.ok == 'true'
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           repository: skylight-hq/skylight-hub
           token: ${{ steps.app-token.outputs.token }}
@@ -96,7 +96,7 @@ jobs:
 
       - name: Set up Ruby
         if: steps.cfg.outputs.ok == 'true'
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@d45b1a4e94b71acab930e56e79c6aa188764e7f9 # v1
         with:
           ruby-version: '3.2'
 

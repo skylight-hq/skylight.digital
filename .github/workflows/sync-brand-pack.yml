@@ -46,7 +46,7 @@ jobs:
       SOURCE_DIR: plugins/skylight-brand-pack/config
       FILES: colors.yml typography.yml logo-rules.yml voice-tone.yml brand-narrative.yml illustration.yml customer-brand-rules.yml icons.yml imagery.yml
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       # Mint a short-lived token from the federation GitHub App to read the
       # brand-pack canon out of the private skylight-hub repo. Guarded so the
@@ -54,7 +54,7 @@ jobs:
       - name: Mint hub-read App token
         id: app-token
         if: ${{ vars.FEDERATION_APP_CLIENT_ID != '' }}
-        uses: actions/create-github-app-token@v3
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
         with:
           client-id: ${{ vars.FEDERATION_APP_CLIENT_ID }}
           private-key: ${{ secrets.FEDERATION_APP_PRIVATE_KEY }}
@@ -155,7 +155,7 @@ jobs:
 
       - name: Open / update PR with changes
         if: steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: sync/brand-pack

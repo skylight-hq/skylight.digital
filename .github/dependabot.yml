@@ -1,0 +1,11 @@
+# Dependabot keeps the SHA-pinned GitHub Actions fresh: it understands
+# commit-SHA pins and opens bump PRs (updating the trailing version comment)
+# that land through the normal required-check gates.
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
