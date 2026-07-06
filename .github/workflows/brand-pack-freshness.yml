@@ -26,6 +26,7 @@ on:
 
 permissions:
   contents: read
+  issues: write  # failure alerting (ops-alert issue)
 
 jobs:
   freshness:
@@ -76,3 +77,19 @@ jobs:
           fi
           echo ""
           echo "all _data/brand/ files within ${MAX_AGE_DAYS}-day freshness threshold."
+
+      # PR/push failures are visible on the PR/commit; schedule failures
+      # previously vanished — this check was red for 3+ days unseen in 2026-07.
+      - name: Alert on failure
+        if: ${{ failure() && github.event_name != 'pull_request' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title="Scheduled run failed: brand-pack-freshness"
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          existing=$(gh issue list --repo "${{ github.repository }}" --label ops-alert --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ] && [ "$existing" != "null" ]; then
+            gh issue comment "$existing" --repo "${{ github.repository }}" --body "Failed again: $run_url"
+          else
+            gh issue create --repo "${{ github.repository }}" --label ops-alert --title "$title" --body "The scheduled run failed: $run_url — likely the vendored brand-pack aged past the 30-day gate; dispatch sync-brand-pack and merge its PR. This issue collects repeat failures; close it when the job is green again."
+          fi
