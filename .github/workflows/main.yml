@@ -51,13 +51,19 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Package site artifact (Pages tar)
+        # Inlined from actions/upload-pages-artifact: that composite action
+        # references actions/upload-artifact@v4 by TAG internally, which the
+        # require-SHA-pinning policy rejects at job setup ("The action
+        # actions/upload-artifact@v4 is not allowed... must be pinned to a
+        # full-length commit SHA"). Same tar semantics as the composite.
+        run: tar --dereference --hard-dereference --directory ./build -cf "$RUNNER_TEMP/artifact.tar" .
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          # The path to the directory to upload
-          path: ./build
+          path: ${{ runner.temp }}/artifact.tar
           name: prodBuild
+          retention-days: 1
 
   # Deployment job
   deploy:
