@@ -36,6 +36,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write  # failure alerting (ops-alert issue)
 
 jobs:
   sync:
@@ -44,6 +45,12 @@ jobs:
       SOURCE_REPO: skylight-hq/skylight-hub
       DEST_DIR: _data/brand
       SOURCE_DIR: plugins/skylight-brand-pack/config
+      # Refresh a file's sync header even when its body is unchanged once the
+      # header is this old — safely under brand-pack-freshness.yml's 30-day
+      # gate. Without this, a stable canon deadlocks the freshness check red
+      # (root cause of the 2026-07 HUB-A-019 failure). Mirrors the hub's
+      # sync-website-filters.yml.
+      REFRESH_AGE_DAYS: 21
       FILES: colors.yml typography.yml logo-rules.yml voice-tone.yml brand-narrative.yml illustration.yml customer-brand-rules.yml icons.yml imagery.yml
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
@@ -128,13 +135,22 @@ jobs:
               printf '%s\n' "$BODY"
             } > "/tmp/${f}.new"
 
-            # Body-only diff so synced_at changes don't generate PRs.
+            # Body-only diff so synced_at changes don't generate PRs — EXCEPT
+            # when the existing header is aging toward the freshness gate, in
+            # which case the header refreshes even with an unchanged body.
             if [ -f "$DEST" ]; then
               OLD_BODY=$(awk 'BEGIN{drop=1} /^---$/ && drop {drop=0; next} !drop' "$DEST")
               NEW_BODY="$BODY"
               if [ "$OLD_BODY" = "$NEW_BODY" ]; then
-                echo "  -> body unchanged; not rewriting (preserves existing synced_at)"
-                continue
+                old_synced=$(grep -E '^# synced_at:' "$DEST" | head -1 | sed -E 's/^# synced_at:[[:space:]]*//')
+                old_seconds=$(date -u -d "$old_synced" +%s 2>/dev/null || echo 0)
+                now_seconds=$(date -u +%s)
+                age_days=$(( (now_seconds - old_seconds) / 86400 ))
+                if [ "$old_seconds" != "0" ] && [ "$age_days" -lt "$REFRESH_AGE_DAYS" ]; then
+                  echo "  -> body unchanged; synced_at ${age_days}d old (< ${REFRESH_AGE_DAYS}d); not rewriting"
+                  continue
+                fi
+                echo "  -> body unchanged but synced_at is ${age_days}d old (or unparseable); refreshing header"
               fi
             fi
 
@@ -184,4 +200,18 @@ jobs:
           if [ -f /tmp/skipped.txt ]; then
             echo "Skipped (not retrievable from source):"
             cat /tmp/skipped.txt
+          fi
+
+      - name: Alert on failure
+        if: ${{ failure() }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title="Scheduled run failed: sync-brand-pack"
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          existing=$(gh issue list --repo "${{ github.repository }}" --label ops-alert --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ] && [ "$existing" != "null" ]; then
+            gh issue comment "$existing" --repo "${{ github.repository }}" --body "Failed again: $run_url"
+          else
+            gh issue create --repo "${{ github.repository }}" --label ops-alert --title "$title" --body "The scheduled run failed: $run_url — investigate and re-run (workflow_dispatch). This issue collects repeat failures; close it when the job is green again."
           fi
