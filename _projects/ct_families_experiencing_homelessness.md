@@ -41,7 +41,7 @@ source_code_url:
 ---
 
 {% capture summary %}
-As part of our [digital transformation work with Connecticut’s Office of Early Childhood](/work/experience/ct-oec-transformation/), we helped the state develop a clearer, data-driven approach to identifying and supporting families with young children experiencing homelessness. The work improved how providers prioritize families for housing and services.
+As part of our [digital transformation work with Connecticut’s Office of Early Childhood](/work/experience/ct-oec-digital-transformation/), we helped the state develop a clearer, data-driven approach to identifying and supporting families with young children experiencing homelessness. The work improved how providers prioritize families for housing and services.
 {% endcapture %}
 
 {% capture challenge %}
