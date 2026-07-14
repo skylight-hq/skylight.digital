@@ -8,6 +8,16 @@ content_type: Toolkit
 toolkit_name: content-guide
 ---
 
+<!--
+  CANONICAL BASE: skylight-hub -> standards/content-guide.md
+  These pages are a hand-maintained SIBLING of that base, not a generated
+  render. Nothing syncs the two and no check catches drift, so a ruling
+  changed here must also be changed there (and vice versa). They diverged
+  for six weeks in 2026 over DEI / DE&I -> "fairness, belonging, and
+  accessibility" (hub #111, reconciled in #593).
+  HUB-A-025 tracks making this published form generated from the base.
+-->
+
 # About this guide
 
 This is our company content style guide. It helps us write clear, consistent, and accessible content across teams and channels. Please use it as a reference when you’re writing for Skylight. We hope that by using this guide, you learn how we talk to clients and partners, express ourselves online, and communicate about our work. This guide is here when you’re wondering whether to capitalize the word agile, for instance, or when you’re wondering how to create a friendly, informational tone.
