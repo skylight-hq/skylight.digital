@@ -48,7 +48,7 @@ We pursue **modern ways of working**. New trends and technologies are constantly
 
 We believe in the importance of **capacity building**. Regardless of mission, all government agencies are now technology organizations, which means they need to master disciplines such as human-centered design. Everything about us is designed to help our customers achieve such mastery.
 
-We strive to create a **diverse, equitable, and inclusive** environment for everyone.
+We strive to create an environment of **fairness, belonging, and accessibility** for everyone.
 </div>
 
 ## Brand personality
@@ -57,15 +57,10 @@ We strive to create a **diverse, equitable, and inclusive** environment for ever
 How we want the world to see us.
 
 <div class="example" markdown="1">
-**Mission oriented.** We’re driven by a burning passion to create better outcomes for the public through great government digital services.
-
-**Talented.** When you work with Skylight, you’re engaging with experts who are the best at what they do, and always deliver results — even when the going gets tough.
-
-**Modern.** Skylight possesses know-how in the latest, most-proven practices and technologies.
-
-**Lighthearted.** We’re approachable and easy to work with.
-
-**Welcoming.** We strive to create a diverse, equitable, and inclusive environment that’s welcoming to people of all identities and backgrounds.
+{%- assign narrative = site.data.brand["brand-narrative"] -%}
+{%- for trait in narrative.personality %}
+**{{ trait.name }}.** {{ trait.description }}
+{% endfor -%}
 
 **If Skylight were...**
 
