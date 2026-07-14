@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/illustration.yml
 # source_branch: main
-# source_sha: f6bce6320fd0e2515e866eef4a6a240b2e30f69b
-# synced_at: 2026-07-06T18:59:22Z
+# source_sha: 3937eec5a4e93c617841a9c5e5ef30b9d5fefa83
+# synced_at: 2026-07-14T21:30:37Z
 ---
 # Skylight illustration principles + visual style — canonical data.
 #
@@ -93,8 +93,10 @@ visual_style:
   palette:
     intro: |
       To create unity and cohesion within the brand, we use color in a
-      specific way. The limited color palette, combined with the offset
-      outlines, creates a sophisticated, lighthearted, and positive tone.
+      specific way.
+
+      The limited color palette, combined with the offset outlines, creates
+      a sophisticated, lighthearted, and positive tone.
 
   primary_colors:
     rule: |
