@@ -68,6 +68,32 @@ jobs:
           owner: skylight-hq
           repositories: skylight-hub
 
+      # A second, separately-scoped token — this one WRITES, and only to this
+      # repo. It exists because a PR authored via the default GITHUB_TOKEN does
+      # not trigger workflows (GitHub's loop prevention), so the sync PR would
+      # arrive with no `Build the site` check. That check is now a required
+      # status check on master, so such a PR is unmergeable without an admin
+      # override. An App-authored PR triggers workflows normally and merges on
+      # its own merits.
+      #
+      # continue-on-error + the GITHUB_TOKEN fallback below mean this can only
+      # improve on the status quo: if the App lacks write on this repo the mint
+      # fails, the sync still opens its PR exactly as it does today, and the
+      # step starts working the moment the permission is granted. Mirrors the
+      # pr-token pattern in skylight-hub's vendored-content-sync.yml.
+      - name: Mint federation App token (PR authoring — write, this repo only)
+        id: pr-token
+        if: ${{ vars.FEDERATION_APP_CLIENT_ID != '' }}
+        continue-on-error: true
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
+        with:
+          client-id: ${{ vars.FEDERATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.FEDERATION_APP_PRIVATE_KEY }}
+          owner: skylight-hq
+          repositories: skylight.digital
+          permission-contents: write
+          permission-pull-requests: write
+
       - name: Detect hub-access token
         id: cfg
         env:
@@ -173,7 +199,7 @@ jobs:
         if: steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed == 'true'
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.pr-token.outputs.token || secrets.GITHUB_TOKEN }}
           branch: sync/brand-pack
           commit-message: |
             chore(brand-pack): sync from skylight-hub@${{ steps.src.outputs.sha }}
