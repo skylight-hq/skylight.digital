@@ -366,7 +366,7 @@ Use ampersands only if it's convention or if it's part of a company or brand nam
 #### Yes
 {: .passes }
 * Company: Ben & Jerry’s, AT&T
-* Convention: DE&I, R&D
+* Convention: R&D, Research & Design, Defense & Security
 </div>
 
 In all other cases, use “and” instead of an ampersand.

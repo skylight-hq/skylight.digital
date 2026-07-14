@@ -51,7 +51,7 @@ If you don’t see a word here and aren’t sure what to do, check [AP style](ht
 
 **Defense & Security (DS)**
 
-**DE&I,** not DEI
+**DEI / DE&I / DEIAB.** Avoid. Skylight's substitute umbrella is “fairness, belonging, and accessibility,” spelled out rather than initialized. The concrete categories (age, disability, gender, race, religion, and so on) are covered in [writing inclusively](/work/toolkits/content-guide/writing-inclusively/).
 
 **DevOps**
 
