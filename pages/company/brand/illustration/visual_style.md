@@ -12,6 +12,8 @@ redirect_from:
   - /brand/illustration/visual-style/
 ---
 
+{%- assign visual_style = site.data.brand.illustration.visual_style -%}
+
 <div class="brand__content-section grid">
   <header class="grid__heading" markdown="1">
 ## Palette
@@ -20,9 +22,7 @@ redirect_from:
     <img class="w-100" src="/img/brand/illustration/palette.svg" alt="Illustrations in the brand color palette">
   </figure>
   <div class="grid__content" markdown="1">
-To create unity and cohesion within the brand, we use color in a specific way.
-
-The limited color palette, combined with the offset outlines, creates a sophisticated, lighthearted, and positive tone.
+{{ visual_style.palette.intro }}
 </div>
 </div>
 
@@ -44,7 +44,7 @@ The limited color palette, combined with the offset outlines, creates a sophisti
     </div>
   </div>
   <div class="grid__content" markdown="1">
-Choose one bright primary color per illustration. Outlines should be black. Use light  gray minimally as needed.
+{{ visual_style.primary_colors.rule }}
 </div>
 </div>
 
@@ -67,7 +67,7 @@ Choose one bright primary color per illustration. Outlines should be black. Use 
     </div>
   </div>
   <div class="grid__content" markdown="1">
-Use skin and hair colors as needed to reflect the diversity in the world around us. These colors serve as a base to get started — they can get adjusted slightly to ensure contrast with the other colors in the illustration.
+{{ visual_style.skin_and_hair.rule }}
 </div>
 </div>
 
@@ -83,13 +83,10 @@ Use skin and hair colors as needed to reflect the diversity in the world around 
     </div>
   </div>
   <div class="grid__content" markdown="1">
-To maintain consistency our illustrations use color, lines, and fills in a similar way:
-
-1. Use hair and skin colors, as needed, to represent the diverse world
-1. Create texture with patterns to add personality to the images
-1. Accent minimally with light gray
-1. Craft illustrations using offset outlines with selected fills
-1. Reflect real life with organizational clothing (such as military uniforms), an exception to the limited palette
+{{ visual_style.general_guidance.intro }}
+{% for rule in visual_style.general_guidance.rules %}
+1. {{ rule }}
+{%- endfor %}
 {: .list--circle }
 </div>
 </div>
@@ -104,13 +101,10 @@ To maintain consistency our illustrations use color, lines, and fills in a simil
     </figure>
   </div>
   <div class="grid__content" markdown="1">
-Geometric shapes (circle, triangle, square) are recurring graphic elements used in both layout design and illustration. Consider the following rules when using these elements:
-
-1. Always outline
-2. Rotate and scale as needed
-3. Direct focus to important copy (but don’t overpower it)
-4. Anchor to illustration vignette when possible
-5. Add texture to negative space
+{{ visual_style.graphic_elements.intro }}
+{% for rule in visual_style.graphic_elements.rules %}
+1. {{ rule }}
+{%- endfor %}
 {: .list--circle .mb-0 }
 </div>
 </div>
