@@ -1,0 +1,80 @@
+# PR-time build gate.
+#
+# main.yml builds only on push to master, so until this existed the first
+# execution of `jekyll build` against a PR's changes WAS the deploy. A PR that
+# broke the build merged green; `deploy` (needs: build) then published nothing
+# and the live site silently stayed at the last good deploy while master moved
+# on. Nobody watches a push-triggered workflow.
+#
+# This runs the same command main.yml's build job runs, just earlier. Red here
+# means the deploy was already broken — so it can never be a check worth
+# ignoring.
+#
+# Deliberately NOT here:
+#   - Lighthouse. It lives post-deploy in main.yml's validate-site job (~4m45s
+#     vs ~40s for a build). Bundling it would make the merge gate 7x slower and
+#     turn a weighted category score sampled from a handful of pages into a
+#     merge blocker.
+#   - npm. package-lock.json carries no dependencies; main.yml's npm layer is
+#     vestigial (see #579, which retired the package.json side of it).
+#   - A paths filter. A Gemfile.lock bump or an _includes/ edit matches none of
+#     the other workflows' filters, and those are exactly the changes that break
+#     a build.
+name: PR build
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+# A new push to a PR makes the in-flight run irrelevant.
+concurrency:
+  group: pr-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr-build:
+    name: Build the site
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - uses: ruby/setup-ruby@d45b1a4e94b71acab930e56e79c6aa188764e7f9 # v1
+        with:
+          bundler-cache: true
+          cache-version: 0
+
+      # Two greps, because a green build is weaker than it looks: Liquid runs in
+      # its default error_mode, where a *syntax* error logs a warning and renders
+      # the page anyway rather than raising — so `jekyll build` alone exits 0 on
+      # a broken template.
+      #
+      #   "Liquid Warning:" (stderr)  -> parse-time. e.g. `{{ x | }}` silently
+      #                                  drops the filter.
+      #   "Liquid error:"   (in HTML) -> render-time. e.g. `{% if a = 'b' %}`
+      #                                  ships the literal text
+      #                                  "Liquid error: Unknown operator =" into
+      #                                  the published page, build still green.
+      #
+      # Neither grep catches a *missing data key* — `site.data.brand.typo`
+      # renders "" with no error and no warning. Nothing short of diffing the
+      # rendered output catches that one; don't assume this gate does.
+      - name: Build with Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: |
+          set -o pipefail
+          bundle exec jekyll build --trace 2>&1 | tee build.log
+
+          if grep -q "Liquid Warning:" build.log; then
+            echo "::error title=Liquid warning::Template parse warning — the page still rendered, but a tag or filter was dropped."
+            grep "Liquid Warning:" build.log
+            exit 1
+          fi
+
+          if grep -rq "Liquid error:" build/; then
+            echo "::error title=Liquid error in output::A Liquid error was rendered into the published HTML."
+            grep -rl "Liquid error:" build/
+            exit 1
+          fi
