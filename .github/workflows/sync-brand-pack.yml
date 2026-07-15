@@ -51,7 +51,18 @@ jobs:
       # (root cause of the 2026-07 HUB-A-019 failure). Mirrors the hub's
       # sync-website-filters.yml.
       REFRESH_AGE_DAYS: 21
-      FILES: colors.yml typography.yml logo-rules.yml voice-tone.yml brand-narrative.yml illustration.yml customer-brand-rules.yml icons.yml imagery.yml
+      # Canon we deliberately do NOT mirror to the public website. One
+      # `filename.yml  # reason` per line — an entry with no stated reason is
+      # not a decision, it's the silent drift this file just deleted, coming
+      # back. Empty today: every brand-pack config file is public-safe, so the
+      # website carries all of them.
+      #
+      # Adding an entry here does NOT remove an already-mirrored file from
+      # _data/brand/ — that orphan would then age past brand-pack-freshness's
+      # 30-day gate and fail CI with no sync able to refresh it. Delete the
+      # mirrored file in the same PR that adds the deny entry.
+      DENY_LIST: |
+        # (no exclusions)
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
@@ -123,11 +134,67 @@ jobs:
           echo "sha=${SHA}"       >> "$GITHUB_OUTPUT"
           echo "Source: ${SOURCE_REPO}@${BRANCH} (${SHA})"
 
+      # The hub's config directory IS the list of what to carry, so ask it.
+      # This used to be a hard-coded FILES variable — a second copy of that
+      # directory listing, maintained by hand, which drifted silently:
+      # emoji-vocabulary.yml was canon for ~2 months while this sync mirrored
+      # 9 of 10 files and reported success every week. Nothing was red, because
+      # a list can't notice what it's missing. Adding a file to the hub config
+      # dir must cost zero edits here — that's the constraint this step exists
+      # to hold.
+      #
+      # Listed at the resolved SHA rather than the branch so the listing and
+      # the fetches below can't straddle a mid-run push.
+      - name: Derive the mirrored file list from hub canon
+        if: steps.cfg.outputs.ok == 'true'
+        id: files
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          SHA="${{ steps.src.outputs.sha }}"
+
+          # .yml only — the destination is a Jekyll _data dir, so YAML is the
+          # contract. A README or subdirectory in the canon dir isn't data.
+          if ! gh api "repos/${SOURCE_REPO}/contents/${SOURCE_DIR}?ref=${SHA}" \
+                 --jq '.[] | select(.type == "file") | .name | select(endswith(".yml"))' \
+                 | sort > /tmp/canon.txt; then
+            echo "::error title=sync-brand-pack: canon listing failed::Could not list ${SOURCE_REPO}/${SOURCE_DIR} at ${SHA}. Refusing to continue — an unreadable canon looks exactly like an empty one, and syncing nothing while reporting success is the failure this derivation exists to prevent."
+            exit 1
+          fi
+          if [ ! -s /tmp/canon.txt ]; then
+            echo "::error title=sync-brand-pack: canon listing empty::${SOURCE_REPO}/${SOURCE_DIR} at ${SHA} lists no .yml files. Refusing to mirror nothing and call it a clean run."
+            exit 1
+          fi
+
+          # Deny-list -> bare filenames (drop the `# reason` text and blanks).
+          printf '%s\n' "${DENY_LIST}" \
+            | sed -E 's/#.*//; s/[[:space:]]//g' \
+            | grep -v '^$' \
+            | sort > /tmp/deny.txt || true
+
+          # A deny entry naming a file that isn't in canon is the same
+          # hand-typed drift wearing a different hat — say so out loud.
+          while read -r d; do
+            echo "::warning title=sync-brand-pack: stale deny entry::'${d}' is denied but no longer exists in ${SOURCE_DIR} — drop it from DENY_LIST."
+          done < <(comm -13 /tmp/canon.txt /tmp/deny.txt)
+
+          comm -23 /tmp/canon.txt /tmp/deny.txt > /tmp/files.txt
+          if [ ! -s /tmp/files.txt ]; then
+            echo "::error title=sync-brand-pack: everything denied::DENY_LIST excluded every file in canon, leaving nothing to sync. That is a config mistake, not a no-op."
+            exit 1
+          fi
+
+          echo "Carrying $(wc -l < /tmp/files.txt) of $(wc -l < /tmp/canon.txt) canon file(s):"
+          sed 's/^/  /' /tmp/files.txt
+          echo "list=$(tr '\n' ' ' < /tmp/files.txt)" >> "$GITHUB_OUTPUT"
+
       - name: Fetch + rewrite each mirrored file
         if: steps.cfg.outputs.ok == 'true'
         id: fetch
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          FILES: ${{ steps.files.outputs.list }}
         run: |
           set -uo pipefail
           BRANCH="${{ steps.src.outputs.branch }}"
@@ -142,7 +209,10 @@ jobs:
             echo "Fetching ${SOURCE_DIR}/${f} @ ${SHA}"
             if ! gh api "repos/${SOURCE_REPO}/contents/${SOURCE_DIR}/${f}?ref=${SHA}" \
                    -H "Accept: application/vnd.github.raw" > "/tmp/${f}.body" 2>/tmp/${f}.err; then
-              echo "  -> not retrievable (missing on source, or token lacks access); skipping"
+              # The list came from the directory at this same SHA, so the file
+              # exists by construction — a failure here is the API or the token,
+              # not a typo'd name. Skip it, but never quietly (see below).
+              echo "  -> not retrievable (API error, or token lacks access); skipping"
               skipped_files+=("$f")
               continue
             fi
@@ -193,6 +263,10 @@ jobs:
           fi
           if [ ${#skipped_files[@]} -ne 0 ]; then
             printf '%s\n' "${skipped_files[@]}" > /tmp/skipped.txt
+            # Warn on every run, not just no-op ones: the summary step below is
+            # gated on any_changed != true, so a partial sync that opened a PR
+            # used to carry its gaps to master unmentioned.
+            echo "::warning title=sync-brand-pack: files not retrieved::${skipped_files[*]} — in canon at ${SHA} but not fetched; the mirror is incomplete."
           fi
 
       - name: Open / update PR with changes
