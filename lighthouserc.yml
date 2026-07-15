@@ -1,10 +1,100 @@
+# Lighthouse CI — accessibility audit for the built site.
+#
+# ADVISORY BY DESIGN. Every assertion below is `warn`, so this job reports and
+# never blocks. Two reasons. The site is being replaced by the skylight-web
+# rebuild, so a hard gate on the legacy site buys a fight rather than a fix. And
+# `validate-site` is a SIBLING of `deploy` (both `needs: build`), so it runs
+# alongside the deploy rather than in front of it — it could not gate a release
+# even if set to `error`. Reporting is the honest contract.
+#
+# -- Why explicit URLs ---------------------------------------------------------
+#
+# This previously ran `maxAutodiscoverUrls: 20` over the build directory, which
+# is walked ALPHABETICALLY. In practice that audited the homepage, /about/,
+# /alliances/, the blog index and ~16 blog posts — it never reached /company/ or
+# /work/ at all. It covered ~3.4% of the site's 591 built pages and, more to the
+# point, ZERO of the 67 pages carrying an accordion, including all 64 case
+# studies. The accordion is the most a11y-sensitive component on the site and it
+# was the one thing never audited.
+#
+# The list below is one page per layout plus deliberate accordion coverage.
+# Every URL was verified 200 against production (2026-07-14), and the accordion
+# pages confirmed to carry the markup (18 / 8 / 81 references respectively).
+#
+# If you add a URL, verify it resolves in the BUILD. A typo'd path scores ~0 and
+# reads as a real regression.
+
 ci:
   collect:
     staticDistDir: "./build"
-    maxAutodiscoverUrls: 20
+    # Explicit list — do not reintroduce maxAutodiscoverUrls. Alphabetical
+    # truncation is what produced the blind spot described above.
+    url:
+      # -- one page per layout --
+      - "http://localhost/index.html"                                                                # default (homepage)
+      - "http://localhost/company/brand/identity/colors/index.html"                                  # toolkit
+      - "http://localhost/thoughts/blog/reactions-to-our-agile-share-in-savings-model/index.html"    # blog_post
+      - "http://localhost/company/policies/code-of-conduct/index.html"                               # policy
+      - "http://localhost/careers/career-pathways/consultant/index.html"                             # career_pathways_role
+      - "http://localhost/thoughts/blog/tag/accessibility/index.html"                                # tag_filter
+      - "http://localhost/thoughts/blog/author/abby-raskin/index.html"                               # employee_filter
+      # -- accordion coverage: the 67-page blind spot --
+      - "http://localhost/work/experience/18f-consulting/index.html"                                 # case study (1 of 64)
+      - "http://localhost/work/experience/index.html"                                                # filter_component
+      - "http://localhost/work/services/training/ditap/index.html"                                   # accordion-heavy
+      # -- index pages --
+      - "http://localhost/thoughts/blog/index.html"
+      - "http://localhost/thoughts/talks/index.html"
+
   assert:
     assertions:
-      categories:accessibility: [error, {minScore: .9}]
+      # -- Per-audit assertions ------------------------------------------------
+      #
+      # These matter more than the category score. The weighted accessibility
+      # category is near-unfailable: a TOTAL colour-contrast failure still
+      # scores ~95 — comfortably over the 0.9 bar the old config asserted. The
+      # old gate could pass a page whose contrast was entirely broken. Naming
+      # audits individually is what actually surfaces a regression.
+      #
+      # Every id below is a real, automatically-scored Lighthouse a11y audit
+      # (checked against lighthouse/core/config/default-config.js). Manual-only
+      # audits — logical-tab-order, use-landmarks, focusable-controls and the
+      # rest — are deliberately absent: they are never scored, so asserting on
+      # them would be noise.
+      color-contrast: [warn]
+      image-alt: [warn]
+      link-name: [warn]
+      button-name: [warn]
+      label: [warn]
+      document-title: [warn]
+      html-has-lang: [warn]
+      html-lang-valid: [warn]
+      valid-lang: [warn]
+      heading-order: [warn]
+      list: [warn]
+      listitem: [warn]
+      meta-viewport: [warn]
+      bypass: [warn]
+      tabindex: [warn]
+      frame-title: [warn]
+      object-alt: [warn]
+      # ARIA — the accordion's correctness lives here, which is the whole reason
+      # for the URL list above. aria-toggle-field-name is the accordion-specific
+      # one: an expand/collapse control with no accessible name.
+      aria-toggle-field-name: [warn]
+      aria-allowed-attr: [warn]
+      aria-required-attr: [warn]
+      aria-required-children: [warn]
+      aria-required-parent: [warn]
+      aria-roles: [warn]
+      aria-valid-attr: [warn]
+      aria-valid-attr-value: [warn]
+      aria-hidden-focus: [warn]
+
+      # Category rollup — kept as a trend signal, not a gate. See the note above
+      # on why this number alone is not trustworthy.
+      categories:accessibility: [warn, {minScore: 0.9}]
+
   upload:
     # upload options here
   server:
