@@ -1,0 +1,161 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/emoji-vocabulary.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/emoji-vocabulary.yml
+# source_branch: main
+# source_sha: 3164a538978e46af5e4caa5887a1ca67038e156f
+# synced_at: 2026-07-15T16:07:27Z
+---
+# Skylight brand pack — approved emoji vocabulary.
+#
+# STARTER LIST (advisory-only). This list is intentionally narrow. Per the
+# social-post writing-tips, "Most Skylight social posts ship without emoji.
+# Emojis aren't forbidden; they're just not the leading move."
+#
+# Comms team refines via PR. The brand-emoji-linter consumes this file
+# (reads `approved:` + `forbidden:`); additions don't require a code change,
+# only a list edit + a fresh CI run.
+#
+# Provenance: see meta below. Per standards/canon-extraction.md, this file's
+# authoritative canon is the Brand Guidelines PDF p. 56 (Resources → Emoji),
+# which carries a visual "compiled thus far" emoji grid. That grid has NOT
+# yet been reconciled into this file — the current entries are derived from
+# Skylight working material (sources below), not lifted from the PDF. The
+# comms refinement pass should reconcile against p. 56 (see open questions
+# at the bottom). The PDF grid is image-based and was not text-extractable
+# during the initial scaffold.
+
+meta:
+  schema_version: 1
+  status: advisory  # promotes to "blocking" after a tuning pass on existing content
+  source_canon: "Skylight Brand Guidelines (Version 5), p. 56 (Resources → Emoji) — NOT YET reconciled into this file; see reconciliation note above + open questions below."
+  sources:
+    - "skylight-marcom/plugins/skylight-social-post-writer/.../reference/writing-tips.md (Emoji conventions — approved-with-context + forbidden examples)"
+    - "skylight-hub/standards/content-guide.md (mid-sentence + end-of-sentence punctuation examples)"
+  synced_at: "2026-05-28"
+
+# -- Approved -----------------------------------------------------------------
+#
+# Each entry: the emoji glyph + the contexts it's approved for + sample
+# usage. The linter flags any emoji NOT in this list (or in the explicitly
+# forbidden list below).
+
+approved:
+  - emoji: "🎉"
+    name: party-popper
+    contexts: [contract-win, milestone, celebration]
+    sparing: true
+    sample: "We're proud to be part of this work. 🎉"
+
+  - emoji: "🚀"
+    name: rocket
+    contexts: [launch]
+    sparing: true
+    notes: "Approved only when the post is literally about a launch (product launch, mission launch, etc.). Not for generic 'we're moving fast' energy."
+    sample: "Today we launched the new GearFit pilot with the BES team. 🚀"
+
+  - emoji: "💼"
+    name: briefcase
+    contexts: [recruiting]
+    sparing: true
+    sample: "We're hiring senior delivery managers. 💼"
+
+  - emoji: "📍"
+    name: location-pin
+    contexts: [recruiting, event-geography]
+    sparing: true
+    notes: "Approved when geography matters — a remote-but-DC-tagged role, an in-person event location."
+    sample: "Hiring senior engineers — 📍 DC/remote."
+
+  - emoji: "☕"
+    name: coffee
+    contexts: [conversational-mid-sentence]
+    sparing: true
+    notes: "Content-guide example of mid-sentence emoji emphasis. Casual conversational tone only."
+    sample: "Meet me for ☕ later?"
+
+  # -- Icon-marker emoji (documentation conventions) -----------------------
+  #
+  # The content-guide + markdown-conventions establish these as link-prefix
+  # icons for specific file types (Google Doc, Sheet, Slides, Figma, etc.).
+  # Approved for documentation contexts; off-brand in social posts.
+
+  - emoji: "📄"
+    name: page-facing-up
+    contexts: [icon-marker]
+    notes: "Prefix for Google Doc links per content-guide convention."
+
+  - emoji: "📊"
+    name: bar-chart
+    contexts: [icon-marker]
+    notes: "Prefix for Google Sheets links per content-guide convention."
+
+  - emoji: "🖼️"
+    name: framed-picture
+    contexts: [icon-marker]
+    notes: "Prefix for Google Slides / image-deck links per content-guide convention."
+
+  - emoji: "📁"
+    name: file-folder
+    contexts: [icon-marker]
+    notes: "Prefix for Google Drive folder links per content-guide convention."
+
+  - emoji: "🎨"
+    name: artist-palette
+    contexts: [icon-marker]
+    notes: "Prefix for Figma file links per content-guide convention."
+
+  - emoji: "💬"
+    name: speech-balloon
+    contexts: [icon-marker]
+    notes: "Prefix for Slack channel links per content-guide convention."
+
+  - emoji: "📝"
+    name: memo
+    contexts: [icon-marker]
+    notes: "Prefix for Notion page links per content-guide convention."
+
+  - emoji: "🎥"
+    name: movie-camera
+    contexts: [icon-marker]
+    notes: "Prefix for Loom recording links per content-guide convention."
+
+  - emoji: "🗓️"
+    name: spiral-calendar
+    contexts: [icon-marker]
+    notes: "Prefix for Calendly / scheduling links per content-guide convention."
+
+# -- Forbidden ---------------------------------------------------------------
+#
+# Explicit anti-patterns called out in the writing-tips. Stronger advisory
+# message than a merely-unknown emoji: the finding cites WHY it's blocked.
+
+forbidden:
+  - emoji: "👏"
+    name: clapping-hands
+    reason: "Ovation / clap-back energy is off-brand. Don't use as 'every', 'other', 'word' decoration."
+
+  - emoji: "👉"
+    name: finger-pointing
+    reason: "Substituting a finger-point for a verb (👉 read more, 👉 learn) is off-brand and reduces accessibility."
+
+# -- Open questions for the comms refinement pass ---------------------------
+#
+# The first comms-team review should resolve:
+#
+# - National flags (🇺🇸 🇬🇧 etc.) for government-agency-partnered posts.
+#   Currently neither approved nor forbidden; flags carry political
+#   weight that a starter list shouldn't pre-decide.
+# - Calendar / clock glyphs (📅 ⏰) for event posts.
+# - "Lightbulb idea" 💡 for product / research posts.
+# - Sector glyphs (✈️ 🏛️ 🚂) for partner-domain context.
+# - Tone signals (😊 🙃) — likely off-brand but should be explicit.
+#
+# Resolution: add to `approved:` or `forbidden:` with rationale.
+
+# -- View output -------------------------------------------------------------
+
+output:
+  view: ../views/emoji-vocabulary.md
+  template: brand_emoji

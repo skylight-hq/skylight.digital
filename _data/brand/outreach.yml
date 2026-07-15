@@ -1,0 +1,146 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/outreach.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/outreach.yml
+# source_branch: main
+# source_sha: 3164a538978e46af5e4caa5887a1ca67038e156f
+# synced_at: 2026-07-15T16:07:27Z
+---
+# Skylight outreach (design guidance + outreach types) — canonical data.
+#
+# Source of truth: the published brand guidelines on skylight.digital
+# (/company/brand/outreach/). Unlike the rest of brand-pack, the canon here is
+# the PAGE, not the Brand Guidelines PDF v5 — the outreach section has no PDF
+# counterpart, so the published page is the only authority. All prose strings
+# below are lifted verbatim from it; do not paraphrase on sync.
+#
+# status: draft — the extraction is faithful, but the brand team has not yet
+# reviewed it as canon. Consumers may read it; the website should not be
+# repointed at it until the status clears.
+#
+# Fields marked "internal-extension" are Skylight-derived (not on the page).
+
+meta:
+  schema_version: 1
+  status: draft
+  source_canon: skylight.digital /company/brand/outreach/ (published brand guidelines)
+  source_mirror: skylight.digital/pages/company/brand/outreach/
+  synced_at: "2026-07-14"
+
+# -- Design guidance ----------------------------------------------------------
+#
+# Mirrors pages/company/brand/outreach/design_guidance.md.
+
+design_guidance:
+  summary: |
+    Whether designing a web page or a business card, we've developed essential
+    guidance that we apply across Skylight's marketing and communications
+    materials.
+
+  intro: |
+    When creating Skylight assets for marketing and communications purposes, we
+    have a few guidelines that we'd like you to follow:
+
+  # internal-extension: the page renders these as a numbered list. The `id`s let
+  # a future linter or channel-writer plugin cite a specific guideline.
+  guidelines:
+    - id: order-content-by-importance
+      rule: |
+        Effectively order your content so the audience knows the most important
+        information. Headings use a bold Libre Franklin font.
+    - id: clear-call-to-action
+      rule: |
+        Ensure you've included a clear call to action. To add contrast with our
+        primary sans serif font, we use Roboto Mono for certain text elements
+        (e.g., call to action, navigation, pre-headline kicker).
+    - id: white-space
+      rule: |
+        White space is important. It allows the audience to focus on key
+        details, visually highlights your content, and adds balance to your
+        design.
+    - id: images-and-text-complement
+      rule: |
+        Images and text should complement each other. The text should be clear,
+        easy to read, and minimal. Images should relate to the topic and help
+        you use fewer words.
+
+# -- Outreach types -----------------------------------------------------------
+#
+# Mirrors pages/company/brand/outreach/outreach_types.md. The page is largely an
+# example gallery: each type pairs a worked example image with a short rule.
+# Only the prose is canon here — the images stay on the website, since they
+# illustrate the rule rather than define it.
+
+outreach_types:
+  summary: |
+    We create a lot of outreach materials at Skylight, both for internal
+    activities and to generate brand awareness externally. See how we've applied
+    our design guidelines to a range of different assets.
+
+  types:
+    - id: website-hero-banner
+      name: Website hero banner
+      guidance: |
+        Our hero banner helps present our overall mission and includes a call to
+        action in order to engage our audience. It contains a large background
+        image with text and a button. For digital formats, we typically use
+        sentence case for capitalizing headings.
+
+    - id: online-advertisement
+      name: Online advertisement
+      guidance: |
+        In online advertisements, we aim to clearly communicate our message and
+        convince our audience to interact further. We use minimal text, graphic
+        elements, and a call to action to help create a visually balanced
+        design.
+
+    - id: internal-promotional-material
+      name: Internal promotional material
+      guidance: |
+        From our Speaker Series to our Personal Growth Share Outs, Skylight
+        hosts a number of internal events. We want to create engaging internal
+        communications — not only to ensure that team members know what to
+        expect, but also to get them excited about attending.
+
+    - id: external-promotional-material
+      name: External promotional material
+      guidance: |
+        We tailor our external promotional material to different audiences. For
+        prospective employees, we want to provide a brief, clear header and an
+        engaging visual element that interests our audience enough for them to
+        find out more information.
+
+    - id: business-card
+      name: Business card
+      guidance: |
+        Our business card communicates important information to our audience,
+        emphasizing Skylight's logo and the employee's name. We use Roboto Mono
+        font for the email, telephone number, and our website.
+
+    - id: email-signature
+      name: Email signature
+      guidance: |
+        Our email signature is simple, informative, and reflects Skylight's
+        branding. We include only the most important pieces of information —
+        name, job title, our website, and our logo.
+      # The page ships a copy-paste template alongside this rule. Registered as
+      # EXT-048; see templates.yml for the doc-template set generally.
+      template_ref: skylight-email-signature
+
+    - id: swag
+      name: Swag
+      guidance: |
+        We love creativity when it comes to helping people display their
+        Skylight pride through merchandise. Just make sure you keep the logo
+        as-is and maintain the brand voice with any custom graphics.
+
+        There'll be some instances where the full five-color version of the
+        lockup can't be printed (e.g., engraving). In these cases, use the
+        one-color logo.
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/outreach.md
+  template: brand_outreach
