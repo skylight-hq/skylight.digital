@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/colors.yml
 # source_branch: main
-# source_sha: f6bce6320fd0e2515e866eef4a6a240b2e30f69b
-# synced_at: 2026-07-06T18:59:22Z
+# source_sha: 3164a538978e46af5e4caa5887a1ca67038e156f
+# synced_at: 2026-07-15T16:07:27Z
 ---
 # Skylight brand colors — canonical data.
 #
@@ -114,6 +114,51 @@ secondary:
   - { token: red-100,    value: df635c }
   - { token: ochre-100,  value: f4c55c }
   - { token: green-100,  value: 80b690 }
+  - { token: gray-80,    value: 76767b }
+  - { token: gray-40,    value: bbbbbd }
+  - { token: gray-20,    value: ddddde }
+
+# -- Illustration palettes ----------------------------------------------------
+#
+# Referenced by illustration.yml's visual_style.primary_colors.palette_ref and
+# visual_style.skin_and_hair.palette_ref. Those rules pointed here from the
+# 2026-05 extraction; the swatches themselves were never lifted, leaving the
+# refs dangling until 2026-07-14.
+
+# The bright colors approved for illustration. A SELECTION of existing ramp
+# tokens, not new colors — every value below is identical to its ramp entry
+# above, verified 2026-07-14. Kept as tokens so it cannot drift from the ramps.
+# Rule (illustration.yml): one bright primary per illustration; outlines black;
+# light gray minimally as needed.
+primary_illustration:
+  - { token: blue-100,   value: 468fba }
+  - { token: green-100,  value: 80b690 }
+  - { token: red-100,    value: df635c }
+  - { token: ochre-100,  value: f4c55c }
+  - { token: gray-100,   value: 54565a }
+  - { token: gray-20,    value: ddddde }
+
+# Skin and hair tones for illustrating people. Token-less by design: these are
+# a base set to start from, and the guideline explicitly allows adjusting them
+# for contrast within an illustration — so they are not fixed brand tokens the
+# way the ramps are. Ordering is the published order.
+# Rule (illustration.yml): use as needed to reflect the full range of people in
+# the world around us.
+skin:
+  - { value: edc3a2 }
+  - { value: ebb18b }
+  - { value: e29871 }
+  - { value: de885a }
+  - { value: f0a871 }
+  - { value: e6a96c }
+  - { value: d08d53 }
+  - { value: ce8762 }
+  - { value: b9663b }
+  - { value: ab592f }
+  - { value: 9c4e30 }
+  - { value: e99821 }
+  - { value: 54565a }
+  - { value: 5c5247 }
 
 # -- Allowed-color set for linter rules ---------------------------------------
 #
@@ -162,7 +207,25 @@ allowed_hex:
   - 37383b   # gray-200
   - 1c1d20   # gray-300
   - ffffff   # white (always allowed)
-  - 000000   # black (always allowed)
+  - "000000" # black (always allowed) — quoted: unquoted YAML reads it as the
+             # integer 0, which normalizes to "0" and gets dropped, so black
+             # (the required illustration outline color) read as unauthorized.
+  # Skin and hair tones (illustration). Added 2026-07-14 — these were absent,
+  # so brand.unauthorized_color would flag the brand's own skin palette as
+  # off-brand and suggest a "nearest brand color" for each. See `skin:` above.
+  # e99821 (ochre-200) and 54565a (gray-100) are already listed above.
+  - edc3a2   # skin
+  - ebb18b   # skin
+  - e29871   # skin
+  - de885a   # skin
+  - f0a871   # skin
+  - e6a96c   # skin
+  - d08d53   # skin
+  - ce8762   # skin
+  - b9663b   # skin
+  - ab592f   # skin
+  - 9c4e30   # skin
+  - 5c5247   # skin
 
 # -- Renderer output ----------------------------------------------------------
 

@@ -1,0 +1,123 @@
+# This file is a mirror of skylight-hub/plugins/skylight-brand-pack/config/templates.yml.
+# Synced via .github/workflows/sync-brand-pack.yml.
+# Do not edit by hand — edits get clobbered on next sync.
+# source_repo: skylight-hq/skylight-hub
+# source_path: plugins/skylight-brand-pack/config/templates.yml
+# source_branch: main
+# source_sha: 3164a538978e46af5e4caa5887a1ca67038e156f
+# synced_at: 2026-07-15T16:07:27Z
+---
+# Skylight doc templates — canonical register.
+#
+# Source of truth: the published brand guidelines on skylight.digital
+# (/company/brand/resources/templates/ plus the email-signature template on
+# /company/brand/outreach/outreach-types/). Prose lifted verbatim.
+#
+# status: draft — extraction is faithful; not yet reviewed as canon.
+#
+# SCAFFOLDING, DELIBERATELY. This registers WHICH templates exist, what each is
+# for, and where it currently lives. It does not attempt to canonise their
+# CONTENTS — a formatted document is not obviously data, and the decision about
+# what these should become has not been made (see HUB-A-026).
+#
+# Format-agnostic by design. Every template happens to be a Google Workspace doc
+# today, but that is recorded as a `format` VALUE rather than assumed by the
+# schema: the intent is a template set that can render to Google, Microsoft, or
+# whatever comes next. Consumers should read `format` and branch, never assume
+# Google. Adding a Word or Markdown rendering of an existing template means
+# adding a `renderings` entry, not a new file.
+
+meta:
+  schema_version: 1
+  status: draft
+  source_canon: skylight.digital /company/brand/resources/templates/ (published brand guidelines)
+  source_mirror: skylight.digital/pages/company/brand/resources/templates.md
+  synced_at: "2026-07-14"
+
+summary: |
+  Our content often follows standardized templates. These templates make both
+  writing and reading easier. They also help future-proof our content, making
+  the work reusable outside of where it was originally created.
+
+# `format` is the rendering the `url` points at, not a property of the template
+# itself. Access: all are Skylight-internal (the site gates them behind a
+# lock_link). `external_source` is the external-sources.yml id tracking the URL.
+
+templates:
+  - id: skylight-document-style-guide
+    name: Skylight Document Style Guide
+    purpose: |
+      A guide to using the Skylight brand in Google Docs. We use this template
+      for all internal documents.
+    audience: internal
+    format: google-doc
+    url: https://docs.google.com/document/d/1pmlEQcpt7kbaYvzP65SnYERp_MUlHkKtoHmQN9sufic
+    external_source: EXT-048
+
+  - id: skylight-internal-document-template
+    name: Skylight Internal Document Template
+    purpose: |
+      A simple template that can be used to format most internal documents.
+    audience: internal
+    format: google-doc
+    url: https://docs.google.com/document/d/1jsc1rfWV6ZFETv-CSVj218QDIMXNzTc1T-Of8sJ8Jys
+    external_source: EXT-049
+
+  - id: skylight-slides-deck-template
+    name: Skylight Slides Deck Template
+    purpose: |
+      A guide to using the Skylight brand for both internal and external
+      presentations.
+    audience: internal-and-external
+    format: google-slides
+    url: https://docs.google.com/presentation/d/1ChVoz-h7YpRYhb8VLR-4z_K6DP59cu6IUDuda16p5Q0
+    external_source: EXT-050
+
+  - id: skylight-sheets-styles
+    name: Skylight Sheets Styles
+    purpose: |
+      A guide to formatting various kinds of tables, charts, invoices, and other
+      forms of spreadsheets you might encounter at Skylight.
+    audience: internal
+    format: google-sheet
+    url: https://docs.google.com/spreadsheets/d/1e-fzgCCTGDP9Ob5IdwUA02UsEs2Puc_z9CFaydqNPnc
+    external_source: EXT-051
+
+  - id: skylight-research-plan-and-report-template
+    name: Skylight Research Plan & Report Template
+    purpose: |
+      A guide for structuring external-facing research plans, reports, and other
+      more formal documents.
+    audience: external
+    format: google-doc
+    url: https://docs.google.com/document/d/1hkzfTX6jPNfk2hrHJnK3ynhqQtyZO5Qf2ceV1bSqAbQ
+    external_source: EXT-052
+
+  - id: external-agenda-template
+    name: External Agenda Template
+    purpose: |
+      Provides structure for workshops and trainings with external stakeholders.
+      Can be modified as needed.
+    audience: external
+    format: google-doc
+    url: https://docs.google.com/document/d/1PHczBguCBOrVHpmw3swAZqh5Bhudikikwp4UPTbH0JQ
+    external_source: EXT-053
+
+  # Lives on the outreach-types page rather than the templates page, but it is
+  # the same kind of artifact and belongs in the same register.
+  # outreach.yml's email-signature type points here via template_ref.
+  - id: skylight-email-signature
+    name: Skylight email signature template
+    purpose: |
+      Copy and paste it into your Gmail email signature from this template.
+    audience: internal
+    format: google-doc
+    url: https://docs.google.com/document/d/15ASPs03Ny3e6-aarSuW9PsNTsY-10pnEVhUsgfHx5Sc
+    external_source: EXT-054
+    source_page: skylight.digital/pages/company/brand/outreach/outreach_types.md
+
+# -- Renderer output ----------------------------------------------------------
+
+output:
+  view: ../views/templates.md
+  template: brand_templates
