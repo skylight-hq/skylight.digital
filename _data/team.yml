@@ -4960,7 +4960,7 @@
   position: Head of People Operations
   bio: |
     Jenny's a seasoned People professional dedicated to creating positive, inclusive work environments that drive organizational growth. With a diverse HR background spanning both private industry and government, she excels at building strong, engaged teams and aligning HR strategies with business objectives. She is passionate about supporting people and helping organizations thrive. Jenny lives in Virginia.
-  active: true
+  active: false
   order: 1730
   socials:
     - name: LinkedIn
