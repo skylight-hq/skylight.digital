@@ -6,7 +6,7 @@ This file accompanies the new `_data/technologies.yml` and `_data/practices.yml`
 2. **General mapping rules** that apply to the full 64-case-study migration.
 3. **Known ambiguities** that need editorial review.
 
-The full per-case-study migration is tracked in [`skylight-hub/migrations/case-study-taxonomy-rationalization.md`](https://github.com/skylight-hq/skylight-hub/blob/main/migrations/case-study-taxonomy-rationalization.md).
+The full per-case-study migration is tracked in [`skylight-hub/migrations/archive/2026-05-27-case-study-taxonomy-rationalization.md`](https://github.com/skylight-hq/skylight-hub/blob/main/migrations/archive/2026-05-27-case-study-taxonomy-rationalization.md).
 
 ## General rules
 
@@ -314,6 +314,6 @@ Unknown values become blocking linter findings, forcing a deliberate canonical-l
 
 ## Cross-references
 
-- Strategic proposal: [`skylight-hub-proposals-resolve/proposals/active/website-filter-rationalization.md`](https://github.com/skylight-hq/skylight-hub/blob/main/skylight-hub-proposals-resolve/proposals/active/website-filter-rationalization.md)
-- Operational migration plan: [`skylight-hub/migrations/case-study-taxonomy-rationalization.md`](https://github.com/skylight-hq/skylight-hub/blob/main/migrations/case-study-taxonomy-rationalization.md)
-- Filters pack plan: [`skylight-hub/migrations/website-filters-pack.md`](https://github.com/skylight-hq/skylight-hub/blob/main/migrations/website-filters-pack.md)
+- Strategic proposal: [`skylight-hub/plans/archived/adopted/0005-website-filter-rationalization.md`](https://github.com/skylight-hq/skylight-hub/blob/main/plans/archived/adopted/0005-website-filter-rationalization.md)
+- Operational migration plan: [`skylight-hub/migrations/archive/2026-05-27-case-study-taxonomy-rationalization.md`](https://github.com/skylight-hq/skylight-hub/blob/main/migrations/archive/2026-05-27-case-study-taxonomy-rationalization.md)
+- Filters pack plan: [`skylight-hub/migrations/archive/2026-05-22-website-filters-pack.md`](https://github.com/skylight-hq/skylight-hub/blob/main/migrations/archive/2026-05-22-website-filters-pack.md)
