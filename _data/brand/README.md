@@ -29,14 +29,16 @@ Mirrors the [`sync-website-filters.yml` pattern in skylight-hub](https://github.
 - **Offline build:** the website builds from local files; no external dependency at build time.
 - **Same pattern as `_data/filters.yml`** — but in this case the canonical source is `skylight-hub` (filters.yml is the inverse — `skylight.digital` is canon, hub mirrors).
 
-## Relationship to existing `_data/color.yml`
+## The retired `_data/color.yml`
 
-The pre-existing `_data/color.yml` was the canonical color source until the brand-pack scaffold landed in `skylight-hub`. They now hold the same data; the vendored `_data/brand/colors.yml` is the future source of truth. The transition plan:
+`_data/color.yml` was the canonical color source until the brand-pack scaffold landed in `skylight-hub`. It is **gone** — `_data/brand/colors.yml` is the sole source of truth for palette data, and `site.data.color` no longer resolves to anything.
 
-1. **Now (this PR):** both files coexist; existing brand pages keep reading `_data/color.yml`. New consumers (and new brand pages) should read from `_data/brand/`.
-2. **Future (Phase 7.5):** migrate existing brand pages to read from `_data/brand/colors.yml` (and the other 6 YAMLs for typography, voice, illustration, etc.). At that point `_data/color.yml` retires.
+The migration ran in two steps:
 
-The migration plan for the page-rewriting work isn't in scope here. Phase 7 of [`brand-pack-followups.md`](https://github.com/skylight-hq/skylight-hub/blob/main/migrations/brand-pack-followups.md) lands the sync + the vendored data; the page-rewrite is its own follow-up (Phase 7.5 or similar — track when picked up).
+1. `pages/company/brand/identity/colors.md` moved to `site.data.brand.colors` when the vendored data landed.
+2. `pages/company/brand/illustration/visual_style.md` (the last consumer) followed, and the duplicate file was deleted. Both files held identical data at the point of deletion, so the rendered output is unchanged.
+
+Read palette data as `site.data.brand.colors`. The keys the brand pages consume — `primary_illustration` and `skin`, alongside the `blue`/`green`/`red`/`ochre`/`gray` families and `primary`/`secondary` — all live there, plus `meanings` and `allowed_hex`, which the retired file never carried.
 
 ## Freshness check
 

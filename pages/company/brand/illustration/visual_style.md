@@ -32,7 +32,7 @@ redirect_from:
   </header>
   <div class="grid__image section__container section__img--palette">
     <div class="swatch__container brand-swatch row">
-    {% assign color = site.data.color %}
+    {% assign color = site.data.brand.colors %}
     {% for item in color.primary_illustration %}
       <div class="swatch-group col-6 col-md-4">
         <div class="swatch bg-{{ item.token }}"></div>
@@ -53,7 +53,7 @@ redirect_from:
 ## Skin and hair
   </header>
   <div class="grid__image section__container section__img--palette section__img--palette-alt">
-    {% assign color = site.data.color %}
+    {% assign color = site.data.brand.colors %}
     <div class="row">
       {% for item in color.skin %}
         <div class="swatch__container col-4 col-lg-2 px-1">
