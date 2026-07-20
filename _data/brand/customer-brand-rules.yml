@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/customer-brand-rules.yml
 # source_branch: main
-# source_sha: f6bce6320fd0e2515e866eef4a6a240b2e30f69b
-# synced_at: 2026-07-06T18:59:22Z
+# source_sha: b582969cbbabbe1ead0583faba032f26dfb1548a
+# synced_at: 2026-07-20T14:43:51Z
 ---
 # Customer brand handling — meta rules + per-client status registry.
 #
@@ -83,6 +83,14 @@ per_client_pack_status:
     appendix_pages_estimated: 35
     extraction_migration: skylight-hub/migrations/usaf-brand-pack-extraction.md
     notes: "First extraction; establishes the per-client template."
+    # Known artifact to capture when this extraction happens (recorded
+    # 2026-07-15 so the finding is not lost): the GearFit engagement ships a
+    # purple accent — purple-100 #5c6bc4 with tints #a4aeed / #c6cdf0 /
+    # #e3e8fd — live in skylight.digital/_sass and on
+    # /work/solutions/gearfit/ (the demo CTA + a section background). Owner
+    # ruling 2026-07-15: it is Air-Force-specific work, NOT Skylight brand,
+    # so it does not belong in this pack's palette. It surfaced because the
+    # legacy stylesheet declares it `$brand-purple`, which is a misnomer.
 
   - id: cms
     name: Centers for Medicare & Medicaid Services
