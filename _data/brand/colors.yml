@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/colors.yml
 # source_branch: main
-# source_sha: 3164a538978e46af5e4caa5887a1ca67038e156f
-# synced_at: 2026-07-15T16:07:27Z
+# source_sha: b582969cbbabbe1ead0583faba032f26dfb1548a
+# synced_at: 2026-07-20T14:43:51Z
 ---
 # Skylight brand colors — canonical data.
 #
@@ -160,6 +160,53 @@ skin:
   - { value: 54565a }
   - { value: 5c5247 }
 
+# -- Accessible variants ------------------------------------------------------
+#
+# Contrast-corrected twins of ramp tokens, for when the colour carries TEXT.
+# These are canon (owner ruling, 2026-07-15) — they were live on skylight.digital
+# for years while this file knew nothing about them.
+#
+# WHY THIS BLOCK EXISTS AT ALL, and the lesson worth keeping: the hex sat in
+# canon while the CONSTRAINT that makes it usable lived only in
+# skylight.digital/_sass. On 2026-07-15 an audit read blue-100a as brand drift
+# and it was slated for deletion — which would have made link text fail WCAG AA
+# on a site whose company sells accessible digital services to the federal
+# government. A value without its rule is not canon; it is a number.
+#
+# Rule for consumers: when a ramp token here has a variant, the VARIANT is the
+# one that may carry text. The base tint may not.
+#
+# `contrast_on_white` is measured (WCAG 2.x relative luminance vs #ffffff).
+# AA requires 4.5:1 for body text, 3:1 for large text / UI.
+
+accessible_variants:
+  - token: blue-100a
+    value: 277db0
+    variant_of: blue-100
+    contrast_on_white: 4.52
+    base_contrast_on_white: 3.56    # blue-100 FAILS AA as text on white
+    rule: |
+      Use for links and text on white. blue-100 (#468fba) scores 3.56:1 and
+      fails WCAG AA — it must not carry body text on white.
+    used_for: "link hover ($link-hover-color)"
+    legacy_var: "$blue-100-a"
+
+  - token: green-300a
+    value: 407f51
+    variant_of: green-300
+    contrast_on_white: 4.80
+    base_contrast_on_white: 4.68    # green-300 already passes on white
+    # internal-extension: unlike blue-100a, the base green PASSES on white, so
+    # this variant is not a white-background fix. Both its uses are text over a
+    # NON-white surface — an illustration-backed card on the brand landing page,
+    # and syntax highlighting in the accessibility toolkit. The exact target
+    # contrast was not recoverable from the stylesheet; do not invent one.
+    rule: |
+      Use for text over non-white surfaces (illustration cards, code blocks).
+      Prefer green-300 for text on plain white — it already passes AA there.
+    used_for: "brand landing illustration card; accessibility-toolkit syntax highlighting"
+    legacy_var: "$green-300-a"
+
 # -- Allowed-color set for linter rules ---------------------------------------
 #
 # Flattened list of every approved hex (token-less). The forthcoming
@@ -226,6 +273,12 @@ allowed_hex:
   - ab592f   # skin
   - 9c4e30   # skin
   - 5c5247   # skin
+  # Accessible variants (see `accessible_variants:` above). Listed for the same
+  # reason the skin tones are: canon that the linter does not know about reads
+  # as unauthorized, and the linter would flag the very colour our links depend
+  # on to pass WCAG.
+  - 277db0   # blue-100a
+  - 407f51   # green-300a
 
 # -- Renderer output ----------------------------------------------------------
 
