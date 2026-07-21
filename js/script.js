@@ -176,7 +176,7 @@ $(function() {
     var usedTags = $.unique(
       Object.values(
         posts.map(function() {
-          return $(this).attr("data-tags").split(", ");
+          return $(this).attr("data-tags").toLowerCase().split(", ");
         })
       )
     );
@@ -272,7 +272,7 @@ $(function() {
     var filterPosts = function filterPosts() {
       if (filters.length) {
         posts.each(function() {
-          var tags = $(this).attr("data-tags").split(", ");
+          var tags = $(this).attr("data-tags").toLowerCase().split(", ");
           if (
             tags &&
             tags.filter(function(tag) {
@@ -295,7 +295,7 @@ $(function() {
       var usedTags = $.unique(
         Object.values(
           dataSource.map(function() {
-            return $(this).attr("data-tags").split(", ");
+            return $(this).attr("data-tags").toLowerCase().split(", ");
           })
         )
       );
