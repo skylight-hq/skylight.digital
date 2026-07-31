@@ -302,8 +302,16 @@ jobs:
             cat /tmp/skipped.txt
           fi
 
-      - name: Alert on failure
-        if: ${{ failure() }}
+      # ASSIGNED and SELF-CLOSING (federation-ci-operability.md W1/W2, ported here as W5b). An
+      # unassigned labelled issue sends no notification; and without the close step, an OPEN
+      # ops-alert meant "was red at some point", not "is red now" — the body used to ask a human to
+      # close it, which is the append-only list of stale rows W2 exists to prevent.
+      #
+      # NO `!= 'pull_request'` guard, unlike brand-pack-freshness.yml: this workflow declares only
+      # `schedule` and `workflow_dispatch`, so a PR run cannot occur and a guard against one would
+      # imply a PR path exists.
+      - name: Close the ops-alert issue when the job is green again
+        if: ${{ success() }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -311,7 +319,21 @@ jobs:
           run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           existing=$(gh issue list --repo "${{ github.repository }}" --label ops-alert --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
           if [ -n "$existing" ] && [ "$existing" != "null" ]; then
+            gh issue close "$existing" --repo "${{ github.repository }}" --comment "Green again: $run_url"
+          fi
+
+      - name: Alert on failure
+        if: ${{ failure() }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ASSIGNEE: ${{ vars.OPS_ALERT_ASSIGNEE || 'cscairns' }}
+        run: |
+          title="Scheduled run failed: sync-brand-pack"
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          existing=$(gh issue list --repo "${{ github.repository }}" --label ops-alert --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ] && [ "$existing" != "null" ]; then
             gh issue comment "$existing" --repo "${{ github.repository }}" --body "Failed again: $run_url"
           else
-            gh issue create --repo "${{ github.repository }}" --label ops-alert --title "$title" --body "The scheduled run failed: $run_url — investigate and re-run (workflow_dispatch). This issue collects repeat failures; close it when the job is green again."
+            gh issue create --repo "${{ github.repository }}" --label ops-alert --assignee "$ASSIGNEE" --title "$title" --body "The scheduled run failed: $run_url — investigate and re-run (workflow_dispatch). This issue collects repeat failures and closes itself when the job is green again." \
+              || gh issue create --repo "${{ github.repository }}" --label ops-alert --title "$title" --body "The scheduled run failed: $run_url — investigate and re-run (workflow_dispatch). This issue collects repeat failures and closes itself when the job is green again."
           fi
