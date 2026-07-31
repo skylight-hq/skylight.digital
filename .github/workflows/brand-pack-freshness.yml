@@ -80,8 +80,17 @@ jobs:
 
       # PR/push failures are visible on the PR/commit; schedule failures
       # previously vanished — this check was red for 3+ days unseen in 2026-07.
-      - name: Alert on failure
-        if: ${{ failure() && github.event_name != 'pull_request' }}
+      #
+      # ASSIGNED and SELF-CLOSING (federation-ci-operability.md W1/W2, ported here as W5b). An
+      # unassigned labelled issue sends no notification, so the issue this job raised could sit unread
+      # for exactly the reason the job was added. And without the close step below, an OPEN ops-alert
+      # meant "was red at some point", not "is red now" — the body used to ask a human to close it,
+      # which is the append-only list of indistinguishable stale rows W2 exists to prevent.
+      #
+      # Both halves carry the `!= 'pull_request'` guard: PR results are visible on the PR itself, and
+      # a green PR run must not close an alert raised by a red run on master.
+      - name: Close the ops-alert issue when the job is green again
+        if: ${{ success() && github.event_name != 'pull_request' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -89,7 +98,21 @@ jobs:
           run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           existing=$(gh issue list --repo "${{ github.repository }}" --label ops-alert --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
           if [ -n "$existing" ] && [ "$existing" != "null" ]; then
+            gh issue close "$existing" --repo "${{ github.repository }}" --comment "Green again: $run_url"
+          fi
+
+      - name: Alert on failure
+        if: ${{ failure() && github.event_name != 'pull_request' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ASSIGNEE: ${{ vars.OPS_ALERT_ASSIGNEE || 'cscairns' }}
+        run: |
+          title="Scheduled run failed: brand-pack-freshness"
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          existing=$(gh issue list --repo "${{ github.repository }}" --label ops-alert --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ] && [ "$existing" != "null" ]; then
             gh issue comment "$existing" --repo "${{ github.repository }}" --body "Failed again: $run_url"
           else
-            gh issue create --repo "${{ github.repository }}" --label ops-alert --title "$title" --body "The scheduled run failed: $run_url — likely the vendored brand-pack aged past the 30-day gate; dispatch sync-brand-pack and merge its PR. This issue collects repeat failures; close it when the job is green again."
+            gh issue create --repo "${{ github.repository }}" --label ops-alert --assignee "$ASSIGNEE" --title "$title" --body "The scheduled run failed: $run_url — likely the vendored brand-pack aged past the 30-day gate; dispatch sync-brand-pack and merge its PR. This issue collects repeat failures and closes itself when the job is green again." \
+              || gh issue create --repo "${{ github.repository }}" --label ops-alert --title "$title" --body "The scheduled run failed: $run_url — likely the vendored brand-pack aged past the 30-day gate; dispatch sync-brand-pack and merge its PR. This issue collects repeat failures and closes itself when the job is green again."
           fi
