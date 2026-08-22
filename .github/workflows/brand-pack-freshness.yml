@@ -43,9 +43,16 @@ jobs:
           max_age_seconds=$((MAX_AGE_DAYS * 24 * 60 * 60))
           stale=0
           for f in "$DATA_DIR"/*.yml; do
-            synced=$(grep -E '^# synced_at:' "$f" | head -1 | sed -E 's/^# synced_at:[[:space:]]*//')
+            # `|| true` is load-bearing under `set -euo pipefail`: grep exits 1
+            # when a file has no synced_at header, pipefail propagates that, and
+            # the assignment then takes the whole step down BEFORE the branch
+            # below can name the file. That made the header-missing case exit 1
+            # with an entirely blank log — the branch was unreachable, so fixing
+            # only its quoting (#611) would have fixed a line that never ran.
+            # The two `date` calls below already guard themselves this way.
+            synced=$(grep -E '^# synced_at:' "$f" | head -1 | sed -E 's/^# synced_at:[[:space:]]*//' || true)
             if [ -z "$synced" ]; then
-              echo "FAIL $f — no `# synced_at:` header found"
+              echo "FAIL $f — no '# synced_at:' header found"
               stale=$((stale + 1))
               continue
             fi

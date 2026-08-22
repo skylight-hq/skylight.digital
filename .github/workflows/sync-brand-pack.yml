@@ -48,9 +48,30 @@ jobs:
       # Refresh a file's sync header even when its body is unchanged once the
       # header is this old — safely under brand-pack-freshness.yml's 30-day
       # gate. Without this, a stable canon deadlocks the freshness check red
-      # (root cause of the 2026-07 HUB-A-019 failure). Mirrors the hub's
-      # sync-website-filters.yml.
-      REFRESH_AGE_DAYS: 21
+      # (root cause of the 2026-07 HUB-A-019 failure).
+      #
+      # Why 15 rather than the 21 this used to carry (and that the hub's
+      # sync-website-filters.yml still carries): 21 is an exact multiple of the
+      # 7-day cron, so which weekly run performs the refresh is decided by
+      # scheduler jitter rather than by the threshold. The age comparison below
+      # floors to whole days, so a run that starts even a minute earlier in the
+      # day than the last sync reads 20d23h as "20 days" and skips.
+      #
+      # That is not hypothetical. On 2026-08-10 colors.yml and
+      # customer-brand-rules.yml were 20d23h41m old, floored to 20, and were not
+      # refreshed — stretching their cycle to 28 days and leaving 2 days of slack
+      # against the 30-day gate. The next weekly run, the only one that could
+      # still have saved them, failed (#616). They crossed 30 days and
+      # brand-pack-freshness went red on 2026-08-20 (#617). Neither fault alone
+      # would have done it; the thin margin is what coupled them.
+      #
+      # 15 is not a multiple of 7, so the refresh lands deterministically on the
+      # third weekly run (age 20 or 21 days, both >= 15) with no coin flip — the
+      # 3-week cadence this was always meant to have. That leaves ~9 days of
+      # slack: one missed or failed weekly sync refreshes at 28 days and stays
+      # green, while two consecutive failures still go red, which is the correct
+      # outcome rather than an accident of rounding.
+      REFRESH_AGE_DAYS: 15
       # Canon we deliberately do NOT mirror to the public website. One
       # `filename.yml  # reason` per line — an entry with no stated reason is
       # not a decision, it's the silent drift this file just deleted, coming
@@ -122,14 +143,42 @@ jobs:
           echo "::warning title=sync-brand-pack inactive::skylight-hub is private; this sync needs the federation GitHub App configured (FEDERATION_APP_CLIENT_ID variable + FEDERATION_APP_PRIVATE_KEY secret, App installed on skylight-hq/skylight-hub) to fetch the brand-pack canon. Skipping (non-blocking) until then. The same App config activates the case-study-lint gate."
           echo "Sync skipped — see warning above."
 
+      # Retried, because a transient failure HERE costs a whole weekly cycle and
+      # the next attempt is seven days away. The 2026-08-17 run (#616) died on
+      # this step with a one-off `403 Resource not accessible by integration`
+      # from an App token that had just been minted successfully — same
+      # workflow, same secrets, same installation as the green run the week
+      # before and the green re-dispatch afterwards, with no config change on
+      # either side. Nothing was misconfigured; the call failed once.
+      #
+      # The per-file fetch loop below already tolerates an API blip (skip +
+      # warn). This step, which is the first thing to touch a token that is
+      # seconds old, did not — and `bash -e` takes the run down on the first
+      # non-zero exit.
       - name: Resolve source default branch + SHA
         if: steps.cfg.outputs.ok == 'true'
         id: src
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
-          BRANCH=$(gh api repos/${SOURCE_REPO} --jq '.default_branch')
-          SHA=$(gh api repos/${SOURCE_REPO}/branches/${BRANCH} --jq '.commit.sha')
+          set -uo pipefail
+          BRANCH=""
+          SHA=""
+          for attempt in 1 2 3; do
+            BRANCH=$(gh api "repos/${SOURCE_REPO}" --jq '.default_branch') || BRANCH=""
+            if [ -n "$BRANCH" ]; then
+              SHA=$(gh api "repos/${SOURCE_REPO}/branches/${BRANCH}" --jq '.commit.sha') || SHA=""
+            fi
+            if [ -n "$BRANCH" ] && [ -n "$SHA" ]; then break; fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "::warning title=sync-brand-pack: hub resolve attempt ${attempt} of 3 failed::Retrying."
+              sleep $((attempt * 5))
+            fi
+          done
+          if [ -z "$BRANCH" ] || [ -z "$SHA" ]; then
+            echo "::error title=sync-brand-pack: cannot resolve hub canon::Three attempts to read ${SOURCE_REPO} with the federation App token all failed. A PERSISTENT 'Resource not accessible by integration' is not a blip: it means the App is no longer installed on skylight-hq with skylight-hub in its repository selection, or has lost Contents:Read. That needs someone with org-admin rights on skylight-hq, not another re-run."
+            exit 1
+          fi
           echo "branch=${BRANCH}" >> "$GITHUB_OUTPUT"
           echo "sha=${SHA}"       >> "$GITHUB_OUTPUT"
           echo "Source: ${SOURCE_REPO}@${BRANCH} (${SHA})"
