@@ -3,8 +3,8 @@ layout: default
 title_tag: "U.S. Air Force"
 title: "Modernizing how the Air Force delivers weather intelligence"
 permalink: /work/experience/usaf-wxpo-weather-modernization/
-image: /img/projects/usaf_wxpo_warpspeed/wxpo-warpspeed.svg
-image_description: "Two teammates — a designer and a WxPO staff member — collaborating at a screen with weather graphics."
+image: /img/projects/default-card.svg
+image_description: "Gray placeholder card"
 feature_image:
 feature_image_description:
 feature_image_shadow:

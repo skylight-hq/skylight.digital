@@ -18,8 +18,11 @@
     page.image %} {% assign image_description = page.image_description %} {%
     assign image_class = 'project-feature-image' %} {% endif %}
 
+    {% comment %} The default card (a plain gray placeholder) shows only on listings, never on the case study page. {% endcomment %}
+    {% if image and image != "" and image != "/img/projects/default-card.svg" %}
     <img class="{{image_class}} {% if page.feature_image_shadow == true %}shadow{% endif %} "
       src="{{site.baseurl}}{{image}}" alt="{{image_description}}" title="{{image_description}}" />
+    {% endif %}
 
     <h2>The challenge</h2>
     {{ include.challenge | markdownify }}

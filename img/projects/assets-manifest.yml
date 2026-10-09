@@ -2982,3 +2982,19 @@
   classification: public
   archived: false
   pending_classification: false
+- id: project-default-card
+  path: default-card.svg
+  repo: skylight.digital
+  date: '2026-10-09'
+  type: illustration
+  themes:
+  - case-study
+  tags: []
+  used_in:
+  - usaf-wxpo-weather-modernization
+  alt: 'Gray placeholder card'
+  description: Default case-study card, plain brand gray-40, for a case study with no illustration yet. Shown on listings only, never on the case study page or as a social image.
+  permissions: skylight-owned
+  classification: public
+  archived: false
+  pending_classification: false
