@@ -60,7 +60,7 @@
     {% assign description = site_description %}
   {% endif %}
 
-  {% if page.image and page.image_description %}
+  {% if page.image and page.image_description and page.image != "/img/projects/default-card.svg" %}
     {% assign image = site_url | append: page.image %}
     {% assign image_description = page.image_description %}
   {% elsif layout.image and layout.image_description %}
