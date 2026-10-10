@@ -108,11 +108,10 @@ jobs:
       # override. An App-authored PR triggers workflows normally and merges on
       # its own merits.
       #
-      # continue-on-error + the GITHUB_TOKEN fallback below mean this can only
-      # improve on the status quo: if the App lacks write on this repo the mint
-      # fails, the sync still opens its PR exactly as it does today, and the
-      # step starts working the moment the permission is granted. Mirrors the
-      # pr-token pattern in skylight-hub's vendored-content-sync.yml.
+      # There is no GITHUB_TOKEN fallback: a PR it opened would get no checks
+      # and could never merge under the federation's `checks` ruleset
+      # (skylight-hub HUB-D-179), so a missing token fails the job instead.
+      # Mirrors the pr-token pattern in skylight-hub's vendored-content-sync.yml.
       - name: Mint federation App token (PR authoring — write, this repo only)
         id: pr-token
         if: ${{ vars.FEDERATION_APP_CLIENT_ID != '' }}
@@ -318,11 +317,17 @@ jobs:
             echo "::warning title=sync-brand-pack: files not retrieved::${skipped_files[*]} — in canon at ${SHA} but not fetched; the mirror is incomplete."
           fi
 
+      - name: Require the federation App token to open the PR
+        if: ${{ steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed == 'true' && steps.pr-token.outputs.token == '' }}
+        run: |
+          echo "::error title=No federation App token::A PR opened with GITHUB_TOKEN gets no checks and can't merge. Check FEDERATION_APP_CLIENT_ID and FEDERATION_APP_PRIVATE_KEY, and that the App has Contents and Pull requests write on this repo."
+          exit 1
+
       - name: Open / update PR with changes
         if: steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed == 'true'
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
-          token: ${{ steps.pr-token.outputs.token || secrets.GITHUB_TOKEN }}
+          token: ${{ steps.pr-token.outputs.token }}
           branch: sync/brand-pack
           commit-message: |
             chore(brand-pack): sync from skylight-hub@${{ steps.src.outputs.sha }}
