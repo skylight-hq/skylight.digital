@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/colors.yml
 # source_branch: main
-# source_sha: cffae7633d6df443a1c8b47ebe33d9d83d4917ff
-# synced_at: 2026-09-28T14:06:36Z
+# source_sha: deed445dd8a09b3b961a01d908e5bf01fcbb2319
+# synced_at: 2026-10-12T14:12:03Z
 ---
 # Skylight brand colors — canonical data.
 #
@@ -206,6 +206,69 @@ accessible_variants:
       Prefer green-300 for text on plain white — it already passes AA there.
     used_for: "brand landing illustration card; accessibility-toolkit syntax highlighting"
     legacy_var: "$green-300-a"
+
+# -- Dark theme ---------------------------------------------------------------
+#
+# The semantic mapping for dark surfaces. Owner ruling, 2026-10-08: ratifies
+# the starting mapping measured 2026-08-01 for skylight.digital's dark mode
+# (skylight-web ADR-0018), which put the canon first: the website's tokens may
+# not gain a dark theme until this block exists.
+#
+# NO NEW COLORS. Every role is an existing ramp token, so `allowed_hex` is
+# unchanged. Light stays the default theme everywhere.
+#
+# THE RULE THAT MAKES IT USABLE (same lesson as `accessible_variants`):
+# an accent that passes on the canvas can fail one elevation up, so every
+# accent role names the token for each surface. Rule for consumers: on an
+# elevated surface, use `on_elevated`; never reuse the canvas token there.
+#
+# Contrast is measured (WCAG 2.x relative luminance). AA requires 4.5:1 for
+# body text, 3:1 for large text / UI.
+
+dark_theme:
+  surfaces:
+    - { role: background, token: gray-300, value: 1c1d20 }
+    - { role: elevated,   token: gray-200, value: 37383b, use_for: "cards, panels, raised surfaces" }
+  text:
+    - role: body
+      token: white
+      value: ffffff
+      contrast: { on_background: 16.85, on_elevated: 11.72 }
+    - role: muted
+      token: gray-40
+      value: bbbbbd
+      contrast: { on_background: 8.79, on_elevated: 6.12 }
+    - role: link
+      token: blue-80
+      value: 6ba5c8
+      contrast: { on_background: 6.29 }
+      on_elevated: { token: blue-60, value: 90bcd6, contrast: 5.78 }
+      rule: |
+        blue-80 scores 4.38:1 on gray-200 and fails AA as body text there, so
+        links on elevated surfaces step lighter to blue-60. blue-100, the
+        brand blue, is large-text only on gray-200 (3.29:1).
+    - role: warning
+      token: ochre-100
+      value: f4c55c
+      contrast: { on_background: 10.42, on_elevated: 7.25 }
+    - role: success
+      token: green-100
+      value: 80b690
+      contrast: { on_background: 7.23, on_elevated: 5.03 }
+    - role: danger
+      token: red-80
+      value: e5827d
+      contrast: { on_background: 6.28 }
+      on_elevated: { token: red-60, value: eca19d, contrast: 5.67 }
+      rule: |
+        red-80 scores 4.37:1 on gray-200 and fails AA as body text there, so
+        danger text on elevated surfaces steps lighter to red-60, by the same
+        rule as links.
+  imagery: |
+    Illustrations are drawn for white backgrounds. The owner has ruled
+    (2026-10-08) that all illustration will be redrawn, and the redraw covers
+    dark surfaces. How imagery is treated on dark surfaces before then is not
+    yet ruled.
 
 # -- Allowed-color set for linter rules ---------------------------------------
 #
