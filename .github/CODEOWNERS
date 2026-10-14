@@ -1,17 +1,15 @@
 # skylight.digital CODEOWNERS
 # Public marketing site (Jekyll). Consumes the writer plugins from skylight-hub.
-# Per proposals/active/federation-evolution.md Decision #7 (adapted for a
-# content-consumer rather than a federation spoke).
+# Per skylight-hub plans/archived/adopted/0001-federation-evolution.md Decision #7
+# (adapted for a content-consumer rather than a federation spoke).
 #
 # CODEOWNERS uses LAST-MATCH-WINS ordering.
 #
-# ⚠ PREREQUISITE: the following teams must exist in skylight-hq org:
+# These teams exist in the skylight-hq org (checked 2026-10-14; codeowners/errors reports none):
 #   - @skylight-hq/comms                | publication, marketing comms (default for content paths)
 #   - @skylight-hq/content-design       | voice review on published content
 #   - @skylight-hq/brand-design         | visual assets, layouts
 #   - @skylight-hq/engineering-platform | site infra, build/deploy, workspace settings
-#
-# As of 2026-05-19 none of these exist — creating them is master plan Phase 0 M0.3.
 #
 # Verify after pushing:
 #   gh api repos/skylight-hq/skylight.digital/codeowners/errors --jq '.errors'

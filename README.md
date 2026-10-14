@@ -6,25 +6,34 @@ This repo is for our public-facing site, which is hosted on [https://skylight.di
 
 The site is built with the [Twitter Bootstrap front-end framework](http://getbootstrap.com/) (for now), and uses [Jekyll](https://jekyllrb.com/) to generate static pages, which are served through [GitHub Pages](https://pages.github.com/).
 
+## How changes reach the live site
+
+- **Every merge to `master` rebuilds and redeploys the live site.** The `Deploy Jekyll site to Pages` workflow (`.github/workflows/main.yml`) runs on every push to `master`, whatever the change, and runs Lighthouse on the built pages.
+- **Pull requests are checked before merge:** the site must build with no Liquid warnings or errors (`pr-build.yml`), and the secret scan runs on every pull request. Asset manifests and case studies have their own checks when those files change.
+- **A weekly pull request syncs the brand pack.** Every Monday, `sync-brand-pack.yml` opens or updates a pull request that copies the brand pack's data from skylight-hub into `_data/brand/`. The brand pages read some of those files, so review what changes before merging.
+- **Files Jekyll doesn't publish** are listed under `exclude:` in `_config.yml` (this README, `CONTRIBUTING.md`, `scripts/`, `standards/` and others). A change to only those files still redeploys the site, but no page changes.
+
+Open work and what's held on purpose are in [the status issue](https://github.com/skylight-hq/skylight.digital/issues/639).
+
 ## Setup
 
 1. If you’re using a Mac, install homebrew (see https://brew.sh/)
 2. After installing git (`brew install git`), `cd` to the directory where you want to check out the site, and then clone it (`git clone https://github.com/skylight-hq/skylight.digital.git`).
-3. Install rvm (`\curl -sSL https://get.rvm.io | bash -s stable`), and then install a new version of ruby (`rvm install 3.0.1`).
+3. Install the Ruby version in `.ruby-version` (3.2.6) with a version manager such as asdf (`asdf install ruby 3.2.6`) or rvm (`rvm install 3.2.6`).
 4. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
-5. Install node (`brew install node -v7.10.0`), and then run `npm install` to install the local dependencies listed in `package.json`.
 
-***Mac users with an M1 chip should follow [these](https://github.com/skylight-hq/skylight.digital/#setup-for-mac-users-with-m1-chips) instructions instead.***
+Node isn't needed to build the site: `package.json` lists no dependencies.
 
 ## Running
 
-1. In the directory you checked out the website into, run `jekyll serve` to start the web server.
+1. In the directory you checked out the website into, run `bundle exec jekyll serve` to start the web server.
 2. Navigate to http://localhost:4000 in your browser to see your changes.
 
 ## Testing
 
-1. To execute lint tests, run the `npm run-script <script>` command in the console. Available scripts include: `scss-lint`, `html-lint`, and `js-lint`.
-2. To check test for accessibility, HTML structure, and valid links, we use HTMLProofer. To run that, execute `rake test` in your local terminal.
+1. To check that the site builds the way the pull-request check does, run `JEKYLL_ENV=production bundle exec jekyll build` and look for `Liquid Warning:` in the output.
+2. To lint the stylesheets, run `npm run-script scss-lint`.
+3. `rake test` and `npm run-script html-lint` run HTMLProofer, which isn't in the `Gemfile`; add the `html-proofer` gem locally to use them.
 
 ## Setup using Docker
 
@@ -35,22 +44,4 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 1. Enter the command `npm run docker-run` to start the server.
 1. Navigate to http://localhost:4000 in your browser.
 
-## Setup for Mac users with M1 chips
-
-1. Install homebrew (see https://brew.sh/).
-2. After installing git (`brew install git`), `cd` to the directory where you want to check out the site, and then clone it (`git clone https://github.com/skylight-hq/skylight.digital.git`).
-3. Install asdf (`brew install asdf`).
-4. Install ruby with asdf by following the [asdf ruby installation guide](https://mac.install.guide/ruby/6.html).
-5. Revert the version of ruby running in your working directory to 2.7.2 first with `asdf install ruby 2.7.2` and then 
-`asdf local ruby 2.7.2`.
-6. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
-7. Install NVM (`brew install nvm`). 
-8. Follow instructions and update .zshr or .bash_profile.
-9. Restart terminal.
-10. Install Node 7.10.0, `nvm install 7.10.0`.
-11. Use Node 7.10.0, `nvm use 7.10.0`.
-12. Install node pacakges, `npm install` to install the local dependencies listed in `package.json`.
-13. Run site, `jekyll serve`.
-
-
-
+The Docker image (`jekyll/jekyll:3.8`) is older than the site's Jekyll (4.4.1) and Ruby (3.2.6), so this path may not build the current site.
