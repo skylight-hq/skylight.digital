@@ -4616,7 +4616,7 @@
   position: Operations Director
   bio: |
     Jennifer’s an operations leader passionate about building people-centered systems that make public services work better. Jennifer’s led civic innovation efforts in Pittsburgh and helped streamline government services to improve customer experience. Jennifer lives in Pennsylvania.
-  active: true
+  active: false
   order: 1640
   socials:
     - name: LinkedIn
