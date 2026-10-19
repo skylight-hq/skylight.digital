@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/brand-narrative.yml
 # source_branch: main
-# source_sha: cffae7633d6df443a1c8b47ebe33d9d83d4917ff
-# synced_at: 2026-09-28T14:06:36Z
+# source_sha: 9264a2076db80b4ee97a525ac5ceb3f41a04e83d
+# synced_at: 2026-10-19T14:06:21Z
 ---
 # Skylight brand narrative — canonical data.
 #
@@ -176,6 +176,8 @@ messaging:
     (Same audience pool also covers prospective teaming partners,
     academia, and media per the brand guidelines.)
 
+  # Owner-approved departure from the PDF, 2026-10-12 (content guide
+  # 'Items in a list'); PDF to be updated at its next revision.
   prospective_employees: |
     Skylight is more than a company. We represent a movement to reinvent
     how the government serves families, patients, veterans, immigrants,
@@ -183,9 +185,9 @@ messaging:
     structure, values, services, work, thoughts, and team — is designed
     with that purpose in mind.
 
-    It's people like you — with talents in research, design, product,
-    engineering, data, and more — who can make a difference. We've
-    created an environment that empowers you to use your skills for
+    It's people like you — with talents in fields such as research,
+    design, product, engineering, and data — who can make a difference.
+    We've created an environment that empowers you to use your skills for
     public good, whether that's improving early childhood outcomes, or
     helping to improve the lives of veterans. You'll work alongside a
     team of extraordinarily talented people who strive to bring out the
