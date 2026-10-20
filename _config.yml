@@ -114,6 +114,7 @@ exclude:
   - lighthouse
   - scripts
   - standards
+  - ai-call-sites.yml
   # Federation asset-registry manifests — internal metadata, not site content
   - "**/assets-manifest.yml"
   - "**/image-library.yml"
