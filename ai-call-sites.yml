@@ -1,0 +1,22 @@
+# AI call-site registry — every file in this repo that sends content to Claude, whether through the
+# Anthropic API, an Anthropic SDK, the Claude Code CLI or GitHub Action, or Claude on Amazon Bedrock or
+# Google Vertex (skylight-hub standards/context-boundary.md, "Three checkpoints"). A new AI feature
+# cannot merge until someone records here what its prompts carry.
+#
+# scripts/check_ai_call_sites.rb (CI: "AI call-site registry") fails on any code file that matches a
+# call pattern and has no row here, and on any row or exemption whose file no longer matches.
+#
+#   sites     one row per calling file:
+#               path         repo-relative path of the file that makes the call
+#               owner        the steward who answers for what it sends (skylight-hub standards/owners.yml id)
+#               sends        what content goes into the prompt, in plain words, and where it comes from
+#               reviewed_on  when someone last checked `sends` against the file (YYYY-MM-DD)
+#   exempt    files that match a pattern without calling Claude (a test that reads a workflow, say):
+#               path, reason
+#
+# Changing what a registered file sends? Update its `sends` and `reviewed_on` in the same PR.
+schema_version: 1
+
+sites: []
+
+exempt: []

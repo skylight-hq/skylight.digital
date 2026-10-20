@@ -1,0 +1,27 @@
+name: AI call-site registry
+
+# Every file in this repo that sends content to Claude has a row in ai-call-sites.yml saying what its
+# prompts carry (skylight-hub standards/context-boundary.md, "Three checkpoints"). The check is a
+# verbatim copy of skylight-hub/scripts/check_ai_call_sites.rb; this workflow is the spoke CI kit's
+# (skylight-hub/templates/spoke-ci/ai-call-sites.yml). Copy both unchanged; the registry is this repo's own.
+
+on:
+  # Unfiltered on purpose: a required check must run on every PR, and a paths: filter would leave
+  # non-matching PRs with a permanently-pending required context. A clean PR is a fast pass.
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ai-call-sites:
+    name: AI call-site registry
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ruby/setup-ruby@651ff0d62c5c79bed6d53ec518387aae20e72c1a # v1
+        with:
+          ruby-version: '3.2'
+      - name: Every file that calls Claude has a row in ai-call-sites.yml
+        run: ruby scripts/check_ai_call_sites.rb
