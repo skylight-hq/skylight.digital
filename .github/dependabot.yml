@@ -9,3 +9,7 @@ updates:
     schedule:
       interval: weekly
       day: monday
+    # A release must be public for 7 days before Dependabot proposes it (the federation repo baseline).
+    # Security updates are not delayed by this setting.
+    cooldown:
+      default-days: 7
