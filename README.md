@@ -15,6 +15,14 @@ The site is built with the [Twitter Bootstrap front-end framework](http://getboo
 
 Open work and what's held on purpose are in [the status issue](https://github.com/skylight-hq/skylight.digital/issues/639).
 
+## Where work is tracked
+
+This repo is frozen until cutover 1 replaces it with the rebuilt site, and it keeps no work register of its own.
+
+- **Planned work is in [skylight-web](https://github.com/skylight-hq/skylight-web)'s registers**, on its `main` branch: `ACTIONS.md` (stories), `epics.yml`, `risks.yml` and `DECISIONS.md`, all with `WEB-` IDs. That includes this repo's remaining work: copying each change here into the rebuilt site until cutover, moving the hub workflows and the case-study linter that read this repo by name, and archiving it after the two-week soak.
+- **Issues here are intake.** One worth keeping becomes a `WEB-` story there, with the issue linked.
+- **The priority labels are intake triage, not planned priority.** `priority:high`, `priority:mid`, `priority:low`, `future` and `icebox` say how urgent an incoming issue looked when it was triaged. Planned priority comes from the epic a story belongs to in skylight-web.
+
 ## Setup
 
 1. If you’re using a Mac, install homebrew (see https://brew.sh/)
