@@ -43,7 +43,7 @@ Your audience is unlikely to visit your agency or government website regularly t
 Here are some popular channels to consider:
 
 - [Medium](https://medium.com/) is a great place for blog posts and articles if you don't already have a blogging platform set up. Medium is also a useful platform if you're not posting long-form articles regularly, and it makes it easy to share on other social media platforms. Examples include: [Massachusetts Digital Service](https://medium.com/massgovdigital), [City of Austin Texas](https://medium.com/civiqueso), and [NYC Planning Labs](https://medium.com/nyc-planning-digital).
-- The [Twitter](https://twitter.com/) format is ideal for promoting blog posts, events, and hiring calls. Also use Twitter to engage in conversations with the community. Examples include: [Georgia Digital Service](https://twitter.com/georgiagovteam), [Canadian Digital Service](https://twitter.com/cds_gc?lang=en), and [Massachusetts Digital Service](https://twitter.com/massgovdigital?lang=en).
+- The [X](https://x.com/) format is ideal for promoting blog posts, events, and hiring calls. Also use X to engage in conversations with the community. Examples include: [Georgia Digital Service](https://x.com/georgiagovteam), [Canadian Digital Service](https://x.com/cds_gc?lang=en), and [Massachusetts Digital Service](https://x.com/massgovdigital?lang=en).
 - It's not a public forum, but [Slack](https://slack.com/) gives you the opportunity to engage in a bidirectional way with your audience through Slack communities for civic technology and related interest groups within your state.
 - Other social media platforms such as [Instagram](https://www.instagram.com/) or [YouTube](https://youtube.com/) can be used to share photos or videos of events you host or participate in. Examples include: [DigitalGov's Youtube Channel](https://youtube.com/channel/UC5V8jrK77-8gsa9RL_taG9A).
 
@@ -97,17 +97,17 @@ When you share your work techniques in blogs or in workshops, this helps:
 
 On a broader scale, writing about your work helps other digital services teams get started too. For example, 18F learned a lot from the Government Digital Service as it was being stood up.
 
-Sharing your work doesn't always have to be long-form articles. Embrace the conventional and unconventional. For example, you can share work effectively through threads and posts on Twitter. We've included some examples below.
+Sharing your work doesn't always have to be long-form articles. Embrace the conventional and unconventional. For example, you can share work effectively through threads and posts on X. We've included some examples below.
 
 ![]({{ site.baseurl }}/img/toolkits/talent/waldo-jaquith.png){:class="w-100 mw-mobile-lg border p-3"}
 {: .mb-0"}
 
-[Tweet source](https://twitter.com/waldojaquith/status/1190300713676611585)
+[Tweet source](https://x.com/waldojaquith/status/1190300713676611585)
 {: .caption .mb-5}
 
 ![]({{ site.baseurl }}/img/toolkits/talent/matt-cutts.png){:class="w-100 mw-mobile-lg border p-3" :alt="matt cutts"}
 
-[Tweet source](https://twitter.com/mattcutts/status/1195524566602395649)
+[Tweet source](https://x.com/mattcutts/status/1195524566602395649)
 {: .caption .mb-5}
 
 ## Participate in meetups and conferences
@@ -157,11 +157,11 @@ Send your team to national conferences that are aligned with the work. They'll m
 <div class="callout callout--case-study" markdown="1">
 ## Case study: Bloomberg Cities
 
-Mayor Michael Bloomberg's [American Cities Initiative](https://www.bloomberg.org/program/founders-projects/american-cities-initiative/) promotes bold leadership and effective decision making, supports critical policy actions, and encourages residents, entrepreneurs, and more to uplift cities and solve problems. Through active [Twitter](https://twitter.com/BloombergCities) and [Medium](https://medium.com/@BloombergCities) accounts, Bloomberg Cities tells engaging stories of local change.
+Mayor Michael Bloomberg's [American Cities Initiative](https://www.bloomberg.org/program/founders-projects/american-cities-initiative/) promotes bold leadership and effective decision making, supports critical policy actions, and encourages residents, entrepreneurs, and more to uplift cities and solve problems. Through active [X](https://x.com/BloombergCities) and [Medium](https://medium.com/@BloombergCities) accounts, Bloomberg Cities tells engaging stories of local change.
 
 They use Medium extremely effectively, writing interesting, concise, and clear stories that [describe inspirational leadership](https://medium.com/@BloombergCities/mayors-how-executive-training-helped-me-innovate-in-city-hall-fffbbb8afecd), [outline how cities are doing things differently](https://medium.com/@BloombergCities/innovation-in-the-heartland-how-sioux-falls-is-turning-public-problem-solving-on-its-head-1fc843a9f12f), or [provide specific steps to facilitate change](https://medium.com/@BloombergCities/7-ways-to-build-a-culture-of-innovation-in-city-hall-aa18b41b307). These articles are an example of how to develop a digital storytelling presence that motivates the public to get involved and take ownership to change their communities.
 
-It's not enough to simply post great stories — you have to make sure people will find and read them. In order to spread a mission or develop a brand, stories must be shared through the civic tech and larger government community. Share articles with relevant local groups, ask influential colleagues to tweet them out, and send them to civic tech mailing lists.
+It's not enough to simply post great stories — you have to make sure people will find and read them. In order to spread a mission or develop a brand, stories must be shared through the civic tech and larger government community. Share articles with relevant local groups, ask influential colleagues to post them out, and send them to civic tech mailing lists.
 
 If your network is limited, you can start by publishing articles through existing platforms that already reach your audience. As you build momentum, you'll also build your network and reach.
 </div>

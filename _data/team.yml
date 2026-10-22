@@ -16,9 +16,9 @@
   active: true
   order: 10
   socials:
-    - name: Twitter
-      link: https://twitter.com/cscairns
-      link_description: Chris' Twitter Account
+    - name: X
+      link: https://x.com/cscairns
+      link_description: Chris' X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/chriscairns/
@@ -62,9 +62,9 @@
   active: true
   order: 20
   socials:
-    - name: Twitter
-      link: https://twitter.com/BeLucid
-      link_description: Sean's Twitter Account
+    - name: X
+      link: https://x.com/BeLucid
+      link_description: Sean's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/snootymonkey/
@@ -97,9 +97,9 @@
   active: true
   order: 30
   socials:
-    - name: Twitter
-      link: https://twitter.com/RobertLeeRead
-      link_description: Robert's Twitter Account
+    - name: X
+      link: https://x.com/RobertLeeRead
+      link_description: Robert's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/robert-read-878987/
@@ -143,9 +143,9 @@
   active: false
   order: 40
   socials:
-    - name: Twitter
-      link: https://twitter.com/NewEnergyShift
-      link_description: John's Twitter Account
+    - name: X
+      link: https://x.com/NewEnergyShift
+      link_description: John's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/john-teeter-aa508545/
@@ -178,9 +178,9 @@
   active: true
   order: 50
   socials:
-    - name: Twitter
-      link: https://twitter.com/GeoffCMulligan
-      link_description: Geoff's Twitter Account
+    - name: X
+      link: https://x.com/GeoffCMulligan
+      link_description: Geoff's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/geoffmulligan/
@@ -217,9 +217,9 @@
   active: false
   order: 60
   socials:
-    - name: Twitter
-      link: https://twitter.com/apievangelist
-      link_description: Kin's Twitter Account
+    - name: X
+      link: https://x.com/apievangelist
+      link_description: Kin's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/kinlane/
@@ -332,9 +332,9 @@
   active: false
   order: 90
   socials:
-    - name: Twitter
-      link: https://twitter.com/victorzapanta
-      link_description: Victor's Twitter Account
+    - name: X
+      link: https://x.com/victorzapanta
+      link_description: Victor's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/victorzapanta/
@@ -401,9 +401,9 @@
   active: false
   order: 110
   socials:
-    - name: Twitter
-      link: https://twitter.com/lkohl
-      link_description: Lara's Twitter Account
+    - name: X
+      link: https://x.com/lkohl
+      link_description: Lara's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/lakohl/
@@ -432,9 +432,9 @@
   active: false
   order: 120
   socials:
-    - name: Twitter
-      link: https://twitter.com/gazeti
-      link_description: Shashank's Twitter Account
+    - name: X
+      link: https://x.com/gazeti
+      link_description: Shashank's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/shashankkhandelwal/
@@ -493,9 +493,9 @@
   active: false
   order: 140
   socials:
-    - name: Twitter
-      link: https://twitter.com/blacktm
-      link_description: Tom's Twitter Account
+    - name: X
+      link: https://x.com/blacktm
+      link_description: Tom's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/blacktm/
@@ -616,9 +616,9 @@
   active: true
   order: 180
   socials:
-    - name: Twitter
-      link: https://twitter.com/rebeccabartola
-      link_description: Becca's Twitter Account
+    - name: X
+      link: https://x.com/rebeccabartola
+      link_description: Becca's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/rebecca-bartola/
@@ -645,9 +645,9 @@
   active: true
   order: 190
   socials:
-    - name: Twitter
-      link: https://twitter.com/LauraKingUX
-      link_description: Laura's Twitter Account
+    - name: X
+      link: https://x.com/LauraKingUX
+      link_description: Laura's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/lauragraceking/
@@ -704,9 +704,9 @@
   active: false
   order: 210
   socials:
-    - name: Twitter
-      link: https://twitter.com/abbyraskin
-      link_description: Abby's Twitter Account
+    - name: X
+      link: https://x.com/abbyraskin
+      link_description: Abby's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/abbyraskin/
@@ -734,9 +734,9 @@
   active: false
   order: 220
   socials:
-    - name: Twitter
-      link: https://twitter.com/gramire1
-      link_description: Gabriel's Twitter Account
+    - name: X
+      link: https://x.com/gramire1
+      link_description: Gabriel's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/gramire1/
@@ -768,9 +768,9 @@
   active: false
   order: 230
   socials:
-    - name: Twitter
-      link: https://twitter.com/cmgiven
-      link_description: Chris' Twitter Account
+    - name: X
+      link: https://x.com/cmgiven
+      link_description: Chris' X Account
       fa_icon_name: twitter
     - name: GitHub
       link: https://github.com/cmgiven
@@ -830,9 +830,9 @@
   active: false
   order: 250
   socials:
-    - name: Twitter
-      link: https://twitter.com/ashleytreni
-      link_description: Ashley's Twitter Account
+    - name: X
+      link: https://x.com/ashleytreni
+      link_description: Ashley's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/ashleytreni/
@@ -869,9 +869,9 @@
   active: false
   order: 260
   socials:
-    - name: Twitter
-      link: https://twitter.com/msipus
-      link_description: Mitchell's Twitter Account
+    - name: X
+      link: https://x.com/msipus
+      link_description: Mitchell's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/mitchellsipus/
@@ -903,9 +903,9 @@
   active: false
   order: 270
   socials:
-    - name: Twitter
-      link: https://twitter.com/marvokdolor
-      link_description: Marvo's Twitter Account
+    - name: X
+      link: https://x.com/marvokdolor
+      link_description: Marvo's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/marvokdolor/
@@ -938,9 +938,9 @@
   active: false
   order: 280
   socials:
-    - name: Twitter
-      link: https://twitter.com/cailynhansen
-      link_description: Cailyn's Twitter Account
+    - name: X
+      link: https://x.com/cailynhansen
+      link_description: Cailyn's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/cailynhansen
@@ -977,9 +977,9 @@
   active: false
   order: 290
   socials:
-    - name: Twitter
-      link: https://twitter.com/Awellia
-      link_description: Amelia's Twitter Account
+    - name: X
+      link: https://x.com/Awellia
+      link_description: Amelia's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/ameliawellers/
@@ -1011,9 +1011,9 @@
   active: false
   order: 300
   socials:
-    - name: Twitter
-      link: https://twitter.com/mayabenari
-      link_description: Maya's Twitter Account
+    - name: X
+      link: https://x.com/mayabenari
+      link_description: Maya's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/mayab/
@@ -1054,9 +1054,9 @@
   active: false
   order: 310
   socials:
-    - name: Twitter
-      link: https://twitter.com/BrandoKirby
-      link_description: Brandon's Twitter Account
+    - name: X
+      link: https://x.com/BrandoKirby
+      link_description: Brandon's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/brandocalrissian/
@@ -1250,9 +1250,9 @@
   active: false
   order: 380
   socials:
-    - name: Twitter
-      link: https://twitter.com/ericorichards
-      link_description: Eric's Twitter Account
+    - name: X
+      link: https://x.com/ericorichards
+      link_description: Eric's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/eric-richards/
@@ -1363,9 +1363,9 @@
   active: false
   order: 420
   socials:
-    - name: Twitter
-      link: https://twitter.com/femmebot
-      link_description: Phoebe's Twitter Account
+    - name: X
+      link: https://x.com/femmebot
+      link_description: Phoebe's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/phoebeespiritu/
@@ -1431,9 +1431,9 @@
   active: false
   order: 440
   socials:
-    - name: Twitter
-      link: https://twitter.com/kmagida110
-      link_description: Kyle's Twitter Account
+    - name: X
+      link: https://x.com/kmagida110
+      link_description: Kyle's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/kmagida/
@@ -1466,9 +1466,9 @@
   active: false
   order: 450
   socials:
-    - name: Twitter
-      link: https://twitter.com/LibraryUX
-      link_description: Suzanne's Twitter Account
+    - name: X
+      link: https://x.com/LibraryUX
+      link_description: Suzanne's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/suzannechapman/
@@ -1763,9 +1763,9 @@
   active: false
   order: 560
   socials:
-    - name: Twitter
-      link: https://twitter.com/orihoffer
-      link_description: Ori's Twitter Account
+    - name: X
+      link: https://x.com/orihoffer
+      link_description: Ori's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/orihoffer/
@@ -1918,9 +1918,9 @@
   active: true
   order: 620
   socials:
-    - name: Twitter
-      link: https://twitter.com/elgeefranklin
-      link_description: Leslie's Twitter Account
+    - name: X
+      link: https://x.com/elgeefranklin
+      link_description: Leslie's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/lesliegarnerfranklin/
@@ -2607,9 +2607,9 @@
   active: true
   order: 870
   socials:
-    - name: Twitter
-      link: https://twitter.com/Alismxwll
-      link_description: Alis' Twitter Account
+    - name: X
+      link: https://x.com/Alismxwll
+      link_description: Alis' X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/alismx/
@@ -2673,9 +2673,9 @@
   active: false
   order: 890
   socials:
-    - name: Twitter
-      link: https://twitter.com/ryangaddis
-      link_description: Ryan's Twitter Account
+    - name: X
+      link: https://x.com/ryangaddis
+      link_description: Ryan's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/ryangaddis/
@@ -2764,9 +2764,9 @@
   active: true
   order: 920
   socials:
-    - name: Twitter
-      link: https://twitter.com/ZeddShmais
-      link_description: Zedd's Twitter Account
+    - name: X
+      link: https://x.com/ZeddShmais
+      link_description: Zedd's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/zedd-shmais/
@@ -2799,9 +2799,9 @@
   active: true
   order: 930
   socials:
-    - name: Twitter
-      link: https://twitter.com/mpbrown716
-      link_description: Mike's Twitter Account
+    - name: X
+      link: https://x.com/mpbrown716
+      link_description: Mike's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/mpbrown15/
@@ -2858,9 +2858,9 @@
   active: false
   order: 950
   socials:
-    - name: Twitter
-      link: https://twitter.com/jaynawallace
-      link_description: Jayna's Twitter Account
+    - name: X
+      link: https://x.com/jaynawallace
+      link_description: Jayna's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/jaynawallace/
@@ -2893,9 +2893,9 @@
   active: false
   order: 960
   socials:
-    - name: Twitter
-      link: https://twitter.com/gskathol
-      link_description: Spencer's Twitter Account
+    - name: X
+      link: https://x.com/gskathol
+      link_description: Spencer's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/spencer-kathol-9573061/
@@ -3182,9 +3182,9 @@
   active: true
   order: 1060
   socials:
-    - name: Twitter
-      link: https://twitter.com/J_Nygaard
-      link_description: Josh's Twitter Account
+    - name: X
+      link: https://x.com/J_Nygaard
+      link_description: Josh's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/joshnygaard
@@ -3447,9 +3447,9 @@
   active: true
   order: 1160
   socials:
-    - name: Twitter
-      link: https://twitter.com/RobertMitchellV
-      link_description: Robert's Twitter Account
+    - name: X
+      link: https://x.com/RobertMitchellV
+      link_description: Robert's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/robertmitchellv
@@ -3507,9 +3507,9 @@
   active: true
   order: 1180
   socials:
-    - name: Twitter
-      link: https://twitter.com/Angela__The
-      link_description: Angela's Twitter Account
+    - name: X
+      link: https://x.com/Angela__The
+      link_description: Angela's X Account
       fa_icon_name: twitter
     - name: LinkedIn
       link: https://linkedin.com/in/angelathe

@@ -6,6 +6,7 @@ task :test do
     :assume_extension => true,
     :url_ignore => [
       /twitter.com/,
+      /x.com/,
       /linkedin.com/,
       /\/company\/about\//,
       /https:\/\/skylight.digital\//,
