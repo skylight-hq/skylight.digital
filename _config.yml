@@ -115,6 +115,8 @@ exclude:
   - scripts
   - standards
   - ai-call-sites.yml
+  # Vendored-copy drift manifest — CI metadata, and nothing to publish
+  - verbatim-copies.yml
   # Federation asset-registry manifests — internal metadata, not site content
   - "**/assets-manifest.yml"
   - "**/image-library.yml"

@@ -1,0 +1,136 @@
+# verbatim-copies.yml — the files in this repo that are COPIES of a federation original, and the
+# hash each was last synced at.
+#
+# WHY THIS FILE EXISTS HERE. `_data/brand/*.yml` is a mirror of skylight-hub's brand-pack canon
+# (`plugins/skylight-brand-pack/config/`). Every one of those files says "Do not edit by hand" in its
+# own header, and until this manifest landed nothing enforced it: `brand-pack-freshness.yml` reads
+# each file's `synced_at` header and fails when it is more than 30 days old, which asks "was this
+# synced recently?" — never "is this still what the sync wrote?". A hand edit to a mirrored body,
+# header left intact, passed every check in the repo and shipped to the live site.
+#
+# That is not a theoretical hole. The hub's HUB-A-170 found both cross-repo copies of the brand emoji
+# register sitting behind canon with nothing able to say so, and the hub-side check that was supposed
+# to cover them (`check_brand_coverage.rb`) proves only that a published page CLAIMS a canon file and
+# that the keys it claims exist — it cannot see a downstream repo at all.
+#
+# WHAT THIS PROVES, precisely — and it is narrower than it looks:
+#   IT DOES     catch a local edit to a file this repo has declared it does not own.
+#   IT DOES NOT see the canonical source moving ahead. Nothing in this repo can, offline. That is
+#               `sync-brand-pack.yml` (weekly, Mondays 14:00 UTC, federation App token) opening a PR
+#               when canon moves, with `brand-pack-freshness.yml` as the backstop that goes red if the
+#               sync stops running at all.
+# A green run here means "unchanged since we last said it was in sync", NOT "in sync". Conflating the
+# two is how a drift gate gives false comfort.
+#
+# NORMALIZATION IS LOAD-BEARING. Hashes are over CRLF-stripped content. The hub stores LF and the
+# Windows checkouts this repo is edited from store CRLF; a raw byte compare reports a whole-file diff
+# on identical content, so the gate would be red on day one, get dismissed as broken, and then be
+# ignored when it found something real. Declared here rather than buried in the script.
+#
+# TO RE-SYNC after an intentional update: `ruby scripts/check_verbatim_copies.rb --update`.
+# `sync-brand-pack.yml` runs exactly that and carries the result in its own PR, so an automated sync
+# never needs a hand edit here — and a hand edit without one fails.
+
+schema_version: 1
+normalize: line-endings
+
+copies:
+  # -- The gate itself --------------------------------------------------------
+  - path: scripts/check_verbatim_copies.rb
+    source: skylight-hub/templates/spoke-ci/check_verbatim_copies.rb
+    sha256: 4b6af1716cb4e54e95e5987281b231322f9e7764dcab26eaeca4c853a16882e3
+    divergence: >-
+      The drift gate guards ITSELF. A gate exempt from its own rule is the first file that will
+      drift, and this script is copied into every spoke, so a local edit here silently changes what
+      every other repo is being held to.
+
+  # -- The vendored brand-pack mirror ----------------------------------------
+  #
+  # Each entry's hash covers the WHOLE file, provenance header included. That is deliberate: the
+  # header is where `source_sha` and `synced_at` live, so hashing it means a hand-edited `synced_at`
+  # — the one edit that would buy silence from brand-pack-freshness.yml — fails here instead.
+  - path: _data/brand/brand-narrative.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/brand-narrative.yml
+    sha256: ebd4b3eb1a8852e6286af33373ae07e95e5cf0e4db23383e88e0be53eb6aa687
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/colors.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/colors.yml
+    sha256: c0c076b4e8975876032e5abe80375e519172588b9924bcf67c4dc9aee6155814
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/customer-brand-rules.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/customer-brand-rules.yml
+    sha256: 75bd0bbb7e6944f986b0e92417a68575e6587b95ac163fd595eff1c98a6d2d83
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/emoji-vocabulary.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/emoji-vocabulary.yml
+    sha256: 932c05225fbb1ed0953857e683a6b3d5dbef10d4225124187cfa9822626e3d36
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim. This is the file HUB-A-170
+      was opened about: its icon-marker rows are typed-resource markers, and per HUB-D-213 an icon
+      makes no claim about who can open the thing it marks.
+
+  - path: _data/brand/icons.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/icons.yml
+    sha256: 84f6e477f25f6e566181cd265df7456edb122819726a31a08f3006a35c52f468
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/illustration.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/illustration.yml
+    sha256: 09e33a4266a0d22637032fedeb4eeb1181af0eb8e0318b57b6339e55b5ec37dd
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/imagery.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/imagery.yml
+    sha256: eddc98fe08a660dde94fd3ae36cd697365d5834f35a251721f22d214bed8b97f
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/logo-rules.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/logo-rules.yml
+    sha256: ed2e07fa3d9887c44398aa857804aca418f3a870a4ebde38cf494e8a3c006cd1
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/outreach.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/outreach.yml
+    sha256: cf220a18809013cdc058f3cd8e81934359356433d466fa1061c63c6037c5fdc3
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/templates.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/templates.yml
+    sha256: 98d4dbddce8e8879bdffff730560d4351e21d5f5847a69ee8bb67d67393b348c
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/typography.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/typography.yml
+    sha256: 7c946f3325e7d7fe1d767a996f4f2504aa5cd2aa483c2a88b47e4dbdb9754a1e
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.
+
+  - path: _data/brand/voice-tone.yml
+    source: skylight-hub/plugins/skylight-brand-pack/config/voice-tone.yml
+    sha256: f7ab96472f10d4dad92d4f8851aca68273e251308b5fc307f4f64d09582799b9
+    divergence: >-
+      Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
+      separator. Everything below the separator is the hub file verbatim.

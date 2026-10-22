@@ -1,0 +1,61 @@
+# Vendored-copy drift gate (skylight-hub HUB-A-170).
+#
+# `_data/brand/*.yml` is a mirror of skylight-hub's brand-pack canon, fetched by
+# sync-brand-pack.yml. Every one of those files carries "Do not edit by hand" in its own header and
+# nothing enforced it: brand-pack-freshness.yml reads each file's `synced_at` and fails when it is
+# over 30 days old, which asks "was this synced recently?" and never "is this still what the sync
+# wrote?". A hand edit to a mirrored body, header left intact, passed CI and shipped to the live
+# site. The hub-side check that looked like it covered this (check_brand_coverage.rb) proves only
+# that a published page CLAIMS a canon file and that the keys it claims exist — it cannot read this
+# repo at all.
+#
+# Two scripts, two different questions, both offline:
+#   check_verbatim_copies.rb         — is every declared copy byte-identical (modulo line endings)
+#                                      to the hash recorded at its last sync?
+#   check_brand_mirror_registered.rb — is every file in _data/brand/ actually declared? The gate
+#                                      above walks a hand-written list, so it is silent about a file
+#                                      nobody listed; without this, a new canon file lands ungated
+#                                      while the gate keeps printing OK.
+#
+# WHAT THIS CANNOT SEE: the hub moving ahead. Nothing in this repo can, offline. That is
+# sync-brand-pack.yml (weekly) opening a PR when canon moves, with brand-pack-freshness.yml as the
+# backstop that goes red if the sync stops running. A green run here means "unchanged since we last
+# said it was in sync", not "in sync".
+#
+# NO PATHS FILTER, deliberately — the same reasoning as pr-build.yml. The things this gate must
+# catch include a PR that DELETES verbatim-copies.yml or a mirrored file, and a paths filter is
+# evaluated against the changed files, so the narrower the filter the easier the gate is to walk
+# around. It is two Ruby scripts over 13 files; it costs seconds.
+name: Verbatim copies
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verbatim-copies-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verbatim-copies:
+    name: Vendored copies match their recorded hashes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ruby/setup-ruby@651ff0d62c5c79bed6d53ec518387aae20e72c1a # v1
+        with:
+          ruby-version: '3.2'
+
+      # Order matters: the registration check runs FIRST so that a PR which adds an unguarded
+      # mirrored file fails on the specific, actionable message rather than passing the hash gate
+      # and leaving the reader to notice an absence.
+      - name: Every vendored brand file is registered with the gate
+        run: ruby scripts/check_brand_mirror_registered.rb
+
+      - name: Declared copies are unchanged since their last sync
+        run: ruby scripts/check_verbatim_copies.rb
