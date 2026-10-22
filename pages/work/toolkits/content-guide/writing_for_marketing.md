@@ -35,7 +35,7 @@ There’s no such thing as a subject line that’s too long. Ideally, you’d te
 
 ## Social media
 
-Much of what we’ve shared so far applies to social content, both what we post from our own Twitter and LinkedIn accounts, but also some things to consider when posting about our work from your personal channels.
+Much of what we’ve shared so far applies to social content, both what we post from our own X and LinkedIn accounts, but also some things to consider when posting about our work from your personal channels.
 
 We use social media to build relationships with Skylight partners, recruit great talent, and share all the cool stuff we do. But it also creates opportunities to say the wrong thing, put off future partners, and damage our brand. So we’re careful and deliberate in what we post to our social channels. Here’s how to strike that delicate balance.
 
@@ -67,7 +67,7 @@ Don’t forget to celebrate! 🎉
 
 Do your best to adhere to Skylight style guidelines when you’re using Skylight’s social media channels to correspond with users. Use correct grammar and punctuation — and avoid excessive exclamation points.
 
-When appropriate, you can tag the subject of your post on Twitter or LinkedIn. But avoid directly tweeting at or otherwise publicly tagging a post subject with messages like, “Hey, we wrote about you!” Never ask for retweets, likes, or favorites.
+When appropriate, you can tag the subject of your post on X or LinkedIn. But avoid directly posting at or otherwise publicly tagging a post subject with messages like, “Hey, we wrote about you!” Never ask for reposts, likes, or favorites.
 
 <div class="example" markdown="1">
 #### Yes

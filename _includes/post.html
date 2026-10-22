@@ -45,13 +45,13 @@
       {% assign post_url = site.url | append: page.url %}
       {% assign tweet_source = site.twitter.username %}
 
-      {% capture tweet_url %} https://twitter.com/intent/tweet?url={{post_url}}&text={{post_title}}&via={{tweet_source}} {% endcapture %}
+      {% capture tweet_url %} https://x.com/intent/post?url={{post_url}}&text={{post_title}}&via={{tweet_source}} {% endcapture %}
       {% capture linkedin_url %} https://www.linkedin.com/shareArticle?mini=true&url={{post_url}} {% endcapture %}
 
       <div>
         <a href="{{tweet_url}}" role="button">
-          <i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i
-            >Share on Twitter
+          <i class="fa fa-twitter" aria-hidden="true" title="X"></i
+            >Share on X
         </a>
       </div>
 

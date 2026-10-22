@@ -123,7 +123,7 @@ You've built mitigations into each stage of the software development life cycle 
 
 ##### Research
 
-You're tapped in to multiple sources and you're tracking all of the new CVEs — whether it's GitHub issues, blogs, or Twitter, you're there. You're constantly evaluating anything that poses a project risk and informing the team accordingly.
+You're tapped in to multiple sources and you're tracking all of the new CVEs — whether it's GitHub issues, blogs, or X, you're there. You're constantly evaluating anything that poses a project risk and informing the team accordingly.
 
 ##### Compliance
 

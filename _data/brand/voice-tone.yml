@@ -80,7 +80,7 @@ tone_axes:
   - id: audience-formality
     name: Audience formality
     values:
-      casual:     "Slack channel, internal newsletter, recruiting Tweet"
+      casual:     "Slack channel, internal newsletter, recruiting post"
       neutral:    "Public LinkedIn post, blog post, case study"
       formal:     "Contract response, executive summary, congressional report"
 

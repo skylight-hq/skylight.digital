@@ -16,7 +16,7 @@ Building a reputation as an organization committed to digital talent takes time.
 **Maintain an online presence.** Talk about the work you do. You can do this through:
 
 - [Medium](https://medium.com/) articles
-- [Twitter](https://twitter.com/) posts
+- [X](https://x.com/) posts
 - [LinkedIn](https://linkedin.com/) articles and profiles of your team members
 - [Slack](https://slack.com/) communities
 
@@ -127,21 +127,21 @@ The following boards help reach candidates who are often under-represented in te
 - [People of Color in Tech](https://www.pocitjobs.com/)
 - [Remote Woman](https://remotewoman.com/)
 
-Get everyone you know to use their social media channels to spread the word about your job opening on Twitter, LinkedIn, and Facebook. You can help by providing text people can copy and paste. These messages can be simple, like the examples below:
+Get everyone you know to use their social media channels to spread the word about your job opening on X, LinkedIn, and Facebook. You can help by providing text people can copy and paste. These messages can be simple, like the examples below:
 
 ![]({{ site.baseurl }}/img/toolkits/talent/massachussetts-digital-service.png){:class="w-100 mw-mobile-lg border p-3"}
 
-[Tweet source](https://twitter.com/MassGovDigital/status/1055878033415041024)
+[Tweet source](https://x.com/MassGovDigital/status/1055878033415041024)
 {: .caption .mb-5}
 
 ![]({{ site.baseurl }}/img/toolkits/talent/city-of-la-jobs.png){:class="w-100 mw-mobile-lg border p-3"}
 
-[Tweet source](https://twitter.com/Citylajobs/status/954084813790728193)
+[Tweet source](https://x.com/Citylajobs/status/954084813790728193)
 {: .caption .mb-5}
 
 ![]({{ site.baseurl }}/img/toolkits/talent/laura-beaufort.png){:class="w-100 mw-mobile-lg border p-3"}
 
-[Tweet source](https://twitter.com/laurabeaufort/status/1192079706423746560)
+[Tweet source](https://x.com/laurabeaufort/status/1192079706423746560)
 {: .caption .mb-5}
 
 ### Attend meetups and other events
