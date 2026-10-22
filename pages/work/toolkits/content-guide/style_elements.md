@@ -458,6 +458,18 @@ Use a true em dash, not hyphens (- or --).
 * Austin thought Brad was the donut thief, but he was wrong — it was Lain.
 </div>
 
+Don’t use an em dash to join a label to its value, or a condition to the thing it governs. Use a colon.
+
+<div class="example" markdown="1">
+#### Yes
+{: .passes }
+If only people from their own discipline appear in the story: who else was in the room?
+
+#### No
+{: .fails }
+If only people from their own discipline appear in the story — who else was in the room?
+</div>
+
 To add an em dash, input `shift-option-[hyphen]` on Mac or `alt-fn-mjij` on PC. You can also insert it as a special character on Google Docs.
 
 ### Ellipses
