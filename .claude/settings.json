@@ -6,22 +6,28 @@
         "source": "github",
         "repo": "skylight-hq/skylight-hub"
       }
+    },
+    "skylight-marcom": {
+      "source": {
+        "source": "github",
+        "repo": "skylight-hq/skylight-marcom"
+      }
     }
   },
   "enabledPlugins": {
-    "skylight-website-case-study@skylight-hub": true,
+    "skylight-website-case-study-linter@skylight-hub": true,
     "content-style-linters@skylight-hub": true,
     "skylight-respectful-language@skylight-hub": true,
     "skylight-voice-and-tone@skylight-hub": true,
-    "skylight-blog-writer@skylight-hub": true,
+    "skylight-blog-writer@skylight-marcom": true,
     "skylight-microcopy-writer@skylight-hub": true,
     "skylight-alt-text-writer@skylight-hub": true,
-    "skylight-spotlight-writer@skylight-hub": true,
-    "skylight-blog-content-overlay@skylight-hub": true,
+    "skylight-spotlight-writer@skylight-marcom": true,
+    "skylight-blog-content-overlay@skylight-marcom": true,
     "skylight-microcopy-content-overlay@skylight-hub": true,
     "skylight-alt-text-content-overlay@skylight-hub": true,
     "skylight-proposal-content-overlay@skylight-hub": true,
-    "skylight-case-study-content-overlay@skylight-hub": true,
-    "skylight-spotlight-content-overlay@skylight-hub": true
+    "skylight-case-study-content-overlay@skylight-marcom": true,
+    "skylight-spotlight-content-overlay@skylight-marcom": true
   }
 }
