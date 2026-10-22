@@ -10,6 +10,10 @@ The Font Awesome files in `src/fonts` are from [Font Awesome](http://fontawesome
 
 Libre Franklin is from [Google Fonts](https://fonts.google.com/specimen/Libre+Franklin) by Impallari Type under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
 
+### Icons licensed under Creative Commons Attribution 4.0
+
+The X mark in `_includes/icon_x.html` is the `x-twitter` icon from [Font Awesome 6 Free](https://fontawesome.com/) by Fonticons, Inc., under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ### Fonts licensed under the Apache License
 
 Roboto Mono is from [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono) by Christian Robertson under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).

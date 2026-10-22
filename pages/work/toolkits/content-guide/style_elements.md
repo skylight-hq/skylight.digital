@@ -590,7 +590,7 @@ In contexts where the author may be unknown, (for instance, social media platfor
 <div class="example" markdown="1">
 #### Yes
 {: .passes }
-* **@usairforce,** Twitter
+* **@usairforce,** X
 * **TheGainsWizard,** Reddit
 </div>
 

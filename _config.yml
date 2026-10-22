@@ -13,7 +13,7 @@ permalink: /:title/
 localhost: localhost:4000
 
 # Social & integration links
-twitter_url: https://twitter.com/skylight_hq
+twitter_url: https://x.com/skylight_hq
 github_repo_url: https://github.com/skylight-hq
 github_issues_url: https://github.com/skylight-hq/skylight.digital/issues
 linkedin_url: https://www.linkedin.com/company/skylight-hq
