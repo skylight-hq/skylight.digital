@@ -73,7 +73,7 @@ preload: hero-about-us.svg
                     {% for social in emp.socials %}
                       {% assign link_description = social.link_description | replace: "'", "&rsquo;" %}
                       <a href="{{social.link}}" data-toggle="tooltip" data-placement="top" data-animation="false" title="{{link_description}}">
-                        <i class="fa fa-{{social.fa_icon_name}}" aria-hidden="true" title="{{social.name}}"></i>
+                        {% if social.fa_icon_name == "twitter" %}{% include icon_x.html %}{% else %}<i class="fa fa-{{social.fa_icon_name}}" aria-hidden="true" title="{{social.name}}"></i>{% endif %}
                         <span class="sr-only">{{link_description}}</span>
                       </a>
                     {% endfor %}

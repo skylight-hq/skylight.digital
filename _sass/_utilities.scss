@@ -300,3 +300,18 @@
 .mt-7 {
   margin-top: 5rem !important;
 }
+
+// Inline X mark (_includes/icon_x.html). Sized and aligned like Font Awesome's
+// own inline SVG icons so it sits on the same baseline as its neighbours.
+.icon-x {
+  font-style: normal;
+
+  svg {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: currentColor;
+    overflow: visible;
+  }
+}
