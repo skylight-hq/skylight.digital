@@ -4,8 +4,8 @@
 # source_repo: skylight-hq/skylight-hub
 # source_path: plugins/skylight-brand-pack/config/emoji-vocabulary.yml
 # source_branch: main
-# source_sha: 9264a2076db80b4ee97a525ac5ceb3f41a04e83d
-# synced_at: 2026-10-19T14:06:21Z
+# source_sha: 558badab1cd7a6351056cfba75f41a22e6bb7bfa
+# synced_at: 2026-10-26T14:54:40Z
 ---
 # Skylight brand pack — approved emoji vocabulary.
 #
@@ -79,6 +79,8 @@ approved:
   #
   # The content-guide + markdown-conventions establish these as link-prefix
   # icons for specific file types (Google Doc, Sheet, Slides, Figma, etc.).
+  # They type the resource; they say nothing about who can open it
+  # (standards/linked-resource-conventions.md, R1).
   # Approved for documentation contexts; off-brand in social posts.
 
   - emoji: "📄"
@@ -99,12 +101,22 @@ approved:
   - emoji: "📁"
     name: file-folder
     contexts: [icon-marker]
-    notes: "Prefix for Google Drive folder links per content-guide convention."
+    notes: "Prefix for Google Drive FOLDER links. A Drive file takes 📄 — standards/content-guide-rules/external-doc-conventions.yml splits them by path."
+
+  - emoji: "🧾"
+    name: receipt
+    contexts: [icon-marker]
+    notes: "Prefix for Google Form links (docs.google.com/forms, forms.gle). Added 2026-10-21; the class was already owned by the external-source register (HUB-D-068) but had no icon."
 
   - emoji: "🎨"
     name: artist-palette
     contexts: [icon-marker]
     notes: "Prefix for Figma file links per content-guide convention."
+
+  - emoji: "📌"
+    name: pushpin
+    contexts: [icon-marker]
+    notes: "Prefix for Mural board links. Added 2026-10-21; the external-source register already claimed app.mural.co while nothing could type it."
 
   - emoji: "💬"
     name: speech-balloon
