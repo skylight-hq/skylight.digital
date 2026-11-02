@@ -58,7 +58,7 @@ copies:
 
   - path: _data/brand/colors.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/colors.yml
-    sha256: c0c076b4e8975876032e5abe80375e519172588b9924bcf67c4dc9aee6155814
+    sha256: 668735a71d7325fb077f6da439470f0650b3e4ec70ccb44a8acdb0c02e177eb1
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
@@ -72,7 +72,7 @@ copies:
 
   - path: _data/brand/emoji-vocabulary.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/emoji-vocabulary.yml
-    sha256: 932c05225fbb1ed0953857e683a6b3d5dbef10d4225124187cfa9822626e3d36
+    sha256: 775a874e361e24337937179a905da7b882a388516d8994b0ced86dec8f76b7a6
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim. This is the file HUB-A-170
@@ -130,7 +130,7 @@ copies:
 
   - path: _data/brand/voice-tone.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/voice-tone.yml
-    sha256: f7ab96472f10d4dad92d4f8851aca68273e251308b5fc307f4f64d09582799b9
+    sha256: 4610b6e4abe9d15072928b152b8d0007e7588e779e50c497334d5fb4bf9c7f2c
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
