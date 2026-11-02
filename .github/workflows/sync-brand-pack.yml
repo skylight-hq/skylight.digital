@@ -87,6 +87,13 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
+      # Pinned rather than leaning on the runner image's system Ruby: the two drift-gate scripts
+      # below decide whether this PR can merge, so the interpreter they run on should not change
+      # under us when the image rolls.
+      - uses: ruby/setup-ruby@651ff0d62c5c79bed6d53ec518387aae20e72c1a # v1
+        with:
+          ruby-version: '3.2'
+
       # Mint a short-lived token from the federation GitHub App to read the
       # brand-pack canon out of the private skylight-hub repo. Guarded so the
       # sync self-skips until the App is configured.
@@ -316,6 +323,21 @@ jobs:
             # used to carry its gaps to master unmentioned.
             echo "::warning title=sync-brand-pack: files not retrieved::${skipped_files[*]} — in canon at ${SHA} but not fetched; the mirror is incomplete."
           fi
+
+      # The sync owns the mirror, so the sync owns the hashes that hold the mirror in place. Without
+      # this step every sync PR would arrive red on the Verbatim copies gate and the only way to
+      # green it would be a hand edit to verbatim-copies.yml — which is exactly the act that gate
+      # exists to refuse. Running --update here keeps the manifest a record of what the SYNC wrote,
+      # and leaves a hand edit with nowhere to hide.
+      #
+      # A file the sync newly mirrored has no entry yet, so this also fails loudly (unregistered
+      # mirror) instead of carrying an ungated file to master — one entry in verbatim-copies.yml and
+      # a re-dispatch resolves it.
+      - name: Re-record the vendored-copy hashes
+        if: steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed == 'true'
+        run: |
+          ruby scripts/check_brand_mirror_registered.rb
+          ruby scripts/check_verbatim_copies.rb --update
 
       - name: Require the federation App token to open the PR
         if: ${{ steps.cfg.outputs.ok == 'true' && steps.fetch.outputs.any_changed == 'true' && steps.pr-token.outputs.token == '' }}
