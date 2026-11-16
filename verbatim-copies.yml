@@ -51,7 +51,7 @@ copies:
   # — the one edit that would buy silence from brand-pack-freshness.yml — fails here instead.
   - path: _data/brand/brand-narrative.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/brand-narrative.yml
-    sha256: ebd4b3eb1a8852e6286af33373ae07e95e5cf0e4db23383e88e0be53eb6aa687
+    sha256: b9811da572fb65994610111e6afb33f77a8e9af07398a740c4b0415a4e63d3d7
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
@@ -65,7 +65,7 @@ copies:
 
   - path: _data/brand/customer-brand-rules.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/customer-brand-rules.yml
-    sha256: 75bd0bbb7e6944f986b0e92417a68575e6587b95ac163fd595eff1c98a6d2d83
+    sha256: 8dd316a5cf8868655bfced6f52e3380958c3586bd81bbb3f40e0c03b89d54642
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
@@ -81,49 +81,49 @@ copies:
 
   - path: _data/brand/icons.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/icons.yml
-    sha256: 84f6e477f25f6e566181cd265df7456edb122819726a31a08f3006a35c52f468
+    sha256: cde354e478e54bf8fe51c22385f1db8aded7518d2fef6d6259cd345778d295a0
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
 
   - path: _data/brand/illustration.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/illustration.yml
-    sha256: 09e33a4266a0d22637032fedeb4eeb1181af0eb8e0318b57b6339e55b5ec37dd
+    sha256: 8b50d02a1964960f24bea7b1309829edf6b905663a4bd9a9c1338ba287d8bc43
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
 
   - path: _data/brand/imagery.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/imagery.yml
-    sha256: eddc98fe08a660dde94fd3ae36cd697365d5834f35a251721f22d214bed8b97f
+    sha256: d7a8e3d18c3d431769ac376f4b2e0fb70dd94fc8d4a90df974895a89b0d8b186
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
 
   - path: _data/brand/logo-rules.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/logo-rules.yml
-    sha256: ed2e07fa3d9887c44398aa857804aca418f3a870a4ebde38cf494e8a3c006cd1
+    sha256: b684a7970783c3a03d48cb3db4fbaf8a434719db26a4a55d7a5ec8ea25517e6c
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
 
   - path: _data/brand/outreach.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/outreach.yml
-    sha256: cf220a18809013cdc058f3cd8e81934359356433d466fa1061c63c6037c5fdc3
+    sha256: af7ddb6bb6aa09a9083855ffc0074a8d2e2b727958f9942d0c25485a2ba894e9
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
 
   - path: _data/brand/templates.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/templates.yml
-    sha256: 98d4dbddce8e8879bdffff730560d4351e21d5f5847a69ee8bb67d67393b348c
+    sha256: 2518901b87ff471bb02e0fa1206f482511ee4d05f125e093203bad272ccb07f7
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
 
   - path: _data/brand/typography.yml
     source: skylight-hub/plugins/skylight-brand-pack/config/typography.yml
-    sha256: 7c946f3325e7d7fe1d767a996f4f2504aa5cd2aa483c2a88b47e4dbdb9754a1e
+    sha256: 90c374cea465d34671fe32008ebc80a85c49b6848e05dae81873f498acd6e350
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
