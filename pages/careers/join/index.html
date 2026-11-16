@@ -174,8 +174,8 @@ works." color = "green" image = "hero-join-us.svg" %}
             {% include icons/join/future.svg %}
             <h3>Future</h3>
             <p>
-              We match your 401(k) dollar-for-dollar up to 10% of your salary.
-              We also offer a budget of up to $2,000 per year for professional
+              We match your 401(k) dollar-for-dollar up to {% include benefit.html id="401K_MATCH" %} of your salary.
+              We also offer a budget of up to {% include benefit.html id="PRODEV_ALLOWANCE" %} per year for professional
               development, which includes conferences, training, travel, and
               materials.
             </p>
@@ -195,7 +195,7 @@ works." color = "green" image = "hero-join-us.svg" %}
             {% include icons/join/parental-leave.svg %}
             <h3>Parental leave</h3>
             <p>
-              We offer up to 12 weeks paid time off for all eligible 
+              We offer up to {% include benefit.html id="PARENTAL_LEAVE_TOTAL_WEEKS" %} weeks paid time off for all eligible 
               new birth, adoption, or foster parents. 
             </p>
           </div>
@@ -205,7 +205,7 @@ works." color = "green" image = "hero-join-us.svg" %}
             <h3>Time off</h3>
             <p>
               We offer a flexible paid-time-off policy (generally around 25 days per year), 
-              plus 11 paid federal holidays.
+              plus {% include benefit.html id="FEDERAL_HOLIDAYS" %} paid federal holidays.
             </p>
           </div>
 
@@ -223,12 +223,12 @@ works." color = "green" image = "hero-join-us.svg" %}
             {% include icons/join/shopping-cart.svg %}
             <h3>Stuff</h3>
             <p>
-              We provide an annual tech budget of up to $750 for anything, such
+              We provide an annual tech budget of up to {% include benefit.html id="TECH_ALLOWANCE" %} for anything, such
               as a new computer, that you think will help to do your job better.
               Most software that you need will be provided by us. We also
               provide an annual
               <a href="https://skylight-swag.myshopify.com/">Skylight swag</a>
-              budget of $100.
+              budget of {% include benefit.html id="SWAG_BUDGET" %}.
             </p>
           </div>
 

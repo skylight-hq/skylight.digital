@@ -5,7 +5,6 @@ ditap:
       run_date: Nov 4, 2024 to Apr 23, 2025
       description: In-person classroom sessions will be held on Nov 4–6, Jan 13–16, Mar 3–5, and Apr 21–23.
       location: Online + Washington DC
-      instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
       cost: $6,500
       registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-tickets-169731053149
       spots_remaining: 0
@@ -17,7 +16,6 @@ executive:
       run_date: Thu, Nov 7, 2024, 9:00 am – 5:00 pm ET
       description:
       location: Online
-      instructors: Chris Cairns, Dan Levenson, Robert Read, and Leslie Garner Franklin
       cost: $750
       registration_link: https://www.eventbrite.com/e/digital-it-acquisition-professional-ditap-training-executive-edition-tickets-105264284308
       spots_remaining: 0
@@ -48,6 +46,7 @@ instructors:
       contract vehicle, which supports programs such as the Quality
       Payment Program.
   - name: Robert Read, PhD
+    short_name: Robert Read
     photo: img/people/robert-read.jpg
     description: |
       Robert served as a White House Presidential Innovation Fellow, and

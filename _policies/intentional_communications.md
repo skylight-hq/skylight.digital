@@ -1,5 +1,6 @@
 ---
 layout: policy
+index_order: 7
 title: Intentional Communications Policy
 description: Skylight’s expectations for how people should communicate.
 permalink: /company/policies/intentional-communications/
