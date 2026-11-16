@@ -1,0 +1,70 @@
+// The SBIR/STTR Phase III page (pages/connect/contracting/sbir-phase-iii/). Its text is rendered by
+// skylight-marcom; these rules style the classes that render uses (phases, steps, sample, note,
+// regulation, glossary, mark).
+
+.sbir-guide {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 2rem 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+  @media (max-width: 860px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.sbir-guide__intro { grid-column: 1; }
+.sbir-guide__crumb { font-size: 0.875rem; color: $gray-200; }
+.sbir-guide__lede { font-size: 1.15rem; max-width: 40rem; }
+.sbir-guide__caveat { font-size: 0.875rem; color: $gray-200; max-width: 40rem; }
+
+.sbir-guide__download {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+  background: $blue-20;
+  border-radius: 8px;
+  padding: 1.25rem;
+
+  h2 { font-size: 1.15rem; margin-top: 0; }
+
+  @media (max-width: 860px) {
+    grid-column: 1;
+    grid-row: auto;
+    position: static;
+  }
+}
+
+.sbir-guide__contact { font-size: 0.875rem; margin-top: 1rem; }
+
+.sbir-guide__body {
+  grid-column: 1;
+  min-width: 0;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin: 0.5rem 0 1.5rem;
+    display: block;
+    overflow-x: auto;
+  }
+  th { text-align: left; border-bottom: 2px solid $gray-300; padding: 0.4rem 0.6rem 0.4rem 0; }
+  td { vertical-align: top; border-bottom: 1px dotted $gray-80; padding: 0.5rem 0.6rem 0.5rem 0; }
+
+  .phases th:last-child { background: $blue-200; color: #fff; padding-left: 0.6rem; }
+  .phases td:last-child { background: $blue-20; padding-left: 0.6rem; }
+  .label { font-family: "Roboto Mono", monospace; font-size: 0.75rem; text-transform: uppercase; }
+  .steps td:first-child { font-weight: 700; font-size: 1.25rem; color: $blue-200; }
+  .steps td:last-child { background: $blue-20; padding-left: 0.6rem; }
+
+  .sample { background: $blue-20; padding: 1rem 1.25rem; margin: 0.5rem 0 1.5rem; }
+  .note { background: $gray-5; border-left: 4px solid $blue-100; padding: 0.75rem 1rem; margin: 0.5rem 0 1rem; }
+  .regulation { font-size: 0.9rem; }
+  .glossary dt { font-weight: 700; margin-top: 0.5rem; }
+  .glossary dd { margin-left: 0; }
+  mark, .mark { background: $ochre-40; }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "How to engage Skylight using the federal SBIR/STTR program. 2026 edition, version 5, law current as of October 19, 2026.",
+  "facts": {
+    "company.cage": "7QNG6",
+    "company.gsa_mas": "47QTCA18D00D0",
+    "company.uei": "F1QZXZNLZJF2",
+    "contact.email": "hello@skylight.digital",
+    "edition.law_as_of": "October 19, 2026",
+    "edition.name": "2026 edition, version 5",
+    "prior_awards.sbir_sequential_phase_2": "FA877124C0005",
+    "prior_awards.sttr_phase_1": "FA864920P0634",
+    "prior_awards.sttr_phase_2": "FA864920P0995",
+    "prior_awards.topic": "AF20A-TCSO1"
+  },
+  "pdf": "skylight-sbir-sttr-procurement-guide-2026-v5.pdf",
+  "pdf_url": "https://assets.skylight.digital/skylight-sbir-sttr-procurement-guide-2026-v5.pdf",
+  "title": "How to Engage Skylight Using the Federal SBIR/STTR Program"
+}
