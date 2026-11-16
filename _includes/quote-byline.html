@@ -1,0 +1,4 @@
+{%- comment -%} A quote byline: the person's name and today's title, read from the roster _data/team.yml (WEB-A-158), so a
+title change on the roster reaches the quote. scripts/check_site_data.rb fails on a person the roster lacks. Usage: include quote-byline.html person="nicole-campbell". {%- endcomment -%}
+{%- assign person = site.data.team | where: "name", include.person | first -%}
+<b>{{ person.full_name }},</b> {{ person.position }}

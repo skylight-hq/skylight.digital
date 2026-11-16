@@ -1,0 +1,4 @@
+{%- comment -%} One line of the care package, worded exactly as every job posting words it, from the pinned People Ops export
+_data/upstream/public-benefits.yml items (WEB-A-154). `has` is a phrase only that line contains; scripts/check_site_data.rb fails unless it matches exactly one. Usage: include benefit-line.html has="401(k)". {%- endcomment -%}
+{%- assign line = site.data.upstream.public-benefits.items | where_exp: "item", "item contains include.has" | first -%}
+{{ line }}

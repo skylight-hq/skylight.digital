@@ -150,7 +150,7 @@ copies:
     sha256: e816f3ea2aedbe863378a99a68c8f75fcf59778abd2b23862e454dbcbf0a1adf
     divergence: null
 
-  # -- People Ops public exports (skylight-web WEB-A-154, WEB-A-157) ----------
+  # -- People Ops public exports (skylight-web WEB-A-154, 156, 157) ----------
   #
   # Generated in skylight-people-ops from the care package and the company facts. The join page's
   # benefit figures, the contracting page's company data and head.html's Organization node render
@@ -163,6 +163,13 @@ copies:
   - path: _data/upstream/public-company-facts.yml
     source: skylight-people-ops/plugins/skylight-company-facts/content/public-company-facts.yml
     sha256: 7487307a419a932290a05334596423ff3547ba96c0ad14caaeaa36fecc08dd11
+    divergence: null
+
+  # The career pathway pages (pages/careers/pathways/, WEB-A-156) render from this export of the
+  # People Ops career framework: one page per practice with a pathway.
+  - path: _data/upstream/public-career-pathways.yml
+    source: skylight-people-ops/plugins/skylight-career-pathways/content/public-career-pathways.yml
+    sha256: 5e5381afa94b4193f15454caaeb3b5cc22ee38eecac59deff22170ba59552502
     divergence: null
 
   # -- The brand pack download (skylight-web WEB-A-159) ------------------------

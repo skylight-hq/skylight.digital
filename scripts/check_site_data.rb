@@ -12,6 +12,13 @@
 # 3. Every project-work stub in _project_team_members/ is for a person in _data/team.yml, the one
 #    roster (by its file name, which is what the layout reads; its name: must match), except the two
 #    below with their reason.
+# 4. Every `{% include benefit-line.html has="..." %}` matches exactly one line of the export's
+#    items, the care package's wording that every job posting uses (the join page, WEB-A-154).
+# 5. Every `{% include quote-byline.html person="..." %}` names a roster person with a full_name and
+#    a position, so a quote byline shows the title the roster holds today (WEB-A-158).
+# 6. pages/careers/pathways/ has one stub per practice with a career pathway in the pinned export
+#    _data/upstream/public-career-pathways.yml, no more and no fewer, and each stub's title is the
+#    practice's name and its description the first sentence of the practice's mission (WEB-A-156).
 #
 # employee_count in _config.yml has no upstream source yet: it is checked for its as-of date only.
 require "yaml"
@@ -30,10 +37,45 @@ errors = []
 benefits = load("_data/upstream/public-benefits.yml")
 figure_ids = benefits.fetch("figures").map { |f| f["id"] }
 
+items = benefits.fetch("items")
+team = load("_data/team.yml")
+
 Dir.glob("{pages,_includes,_layouts}/**/*.{html,md}", base: ROOT).sort.each do |rel|
-  File.read(File.join(ROOT, rel), encoding: "UTF-8").scan(/\{%-?\s*include\s+benefit\.html\s+id="([^"]+)"/).flatten.each do |id|
+  text = File.read(File.join(ROOT, rel), encoding: "UTF-8")
+  text.scan(/\{%-?\s*include\s+benefit\.html\s+id="([^"]+)"/).flatten.each do |id|
     errors << "#{rel}: benefit.html id #{id} is not a figure in _data/upstream/public-benefits.yml" unless figure_ids.include?(id)
   end
+  text.scan(/\{%-?\s*include\s+benefit-line\.html\s+has="([^"]+)"/).flatten.each do |has|
+    hits = items.count { |i| i.include?(has) }
+    errors << "#{rel}: benefit-line.html has=#{has.inspect} matches #{hits} care-package lines, not exactly one" unless hits == 1
+  end
+  text.scan(/\{%-?\s*include\s+quote-byline\.html\s+person="([^"]+)"/).flatten.each do |slug|
+    person = team.find { |p| p["name"] == slug }
+    next if person && !person["full_name"].to_s.empty? && !person["position"].to_s.empty?
+
+    errors << "#{rel}: quote-byline.html person #{slug} is not in _data/team.yml with a full_name and position"
+  end
+end
+
+pathways = load("_data/upstream/public-career-pathways.yml")
+ported = pathways.fetch("pillars").flat_map { |p| p["practice_areas"] }.select { |a| a["pathway_status"] == "ported" }
+stubs = Dir.glob("pages/careers/pathways/*.md", base: ROOT).sort.to_h do |rel|
+  [rel, YAML.safe_load(File.read(File.join(ROOT, rel), encoding: "UTF-8")[/\A---
+(.*?)
+---/m, 1].to_s)]
+end
+ported.each do |area|
+  rel = "pages/careers/pathways/#{area['id']}.md"
+  fm = stubs[rel]
+  next errors << "#{rel} is missing: #{area['name']} has a career pathway in the export" unless fm
+
+  errors << "#{rel}: practice: is #{fm['practice'].inspect}, not #{area['id']}" unless fm["practice"] == area["id"]
+  errors << "#{rel}: title is #{fm['title'].inspect}, not the practice name #{area['name'].inspect}" unless fm["title"] == area["name"]
+  sentence = area["mission"].to_s[/\A.+?\.(?=\s|\z)/m].to_s
+  errors << "#{rel}: description is not the first sentence of the practice's mission" unless fm["description"] == sentence
+end
+(stubs.keys - ported.map { |a| "pages/careers/pathways/#{a['id']}.md" }).each do |rel|
+  errors << "#{rel}: no practice with a career pathway in the export has this id: remove the stub"
 end
 
 config = load("_config.yml")
@@ -43,7 +85,7 @@ unless config["state_count"] == states
 end
 errors << "_config.yml employee_count_as_of is missing" unless config["employee_count_as_of"].to_s.match?(/\A\d{4}-\d{2}-\d{2}\z/)
 
-roster = load("_data/team.yml").map { |p| p["name"] }
+roster = team.map { |p| p["name"] }
 Dir.glob("_project_team_members/*.md", base: ROOT).sort.each do |rel|
   # The layout (employee_filter.html) finds the person by the file name, so that is what must match.
   slug = File.basename(rel, ".md").tr("_", "-")
@@ -58,7 +100,7 @@ NOT_ON_ROSTER.each_key do |name|
 end
 
 if errors.empty?
-  puts "check_site_data: OK (#{figure_ids.size} benefit figures, state_count #{states}, roster stubs conform)"
+  puts "check_site_data: OK (#{figure_ids.size} benefit figures, state_count #{states}, roster stubs conform, #{ported.size} career pathways)"
 else
   warn errors.map { |e| "  - #{e}" }.join("\n")
   abort "check_site_data: #{errors.size} problem(s)"
