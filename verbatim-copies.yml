@@ -134,3 +134,18 @@ copies:
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
+
+  # -- The SBIR/STTR procurement guide's web render ---------------------------
+  #
+  # Rendered by skylight-marcom scripts/render_document.py from the same source as the guide's PDF,
+  # so this page and the PDF can't say different things (HUB-D-286). To change the text, change the
+  # source there, render, and copy both files here; then update these hashes.
+  - path: _includes/vendored/sbir-sttr-procurement-guide.html
+    source: skylight-marcom/collateral/sbir-sttr-procurement-guide/web/skylight-sbir-sttr-procurement-guide.html
+    sha256: c1fbf2034a965ac43364e2e4c05aacb8f015da4145117604815c13ff9743b45b
+    divergence: null
+
+  - path: _data/sbir_sttr_guide.json
+    source: skylight-marcom/collateral/sbir-sttr-procurement-guide/web/skylight-sbir-sttr-procurement-guide.json
+    sha256: e816f3ea2aedbe863378a99a68c8f75fcf59778abd2b23862e454dbcbf0a1adf
+    divergence: null
