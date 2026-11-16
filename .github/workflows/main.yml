@@ -36,6 +36,9 @@ jobs:
         uses: ruby/setup-ruby@7f797815d8adceb1c412e7abefdd1ab4abc47a5f # v1
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          # .ruby-version pins 3.2.6, which the ubuntu-latest image (26.04) no longer offers; the Gemfile
+          # accepts any 3.2.6 or later, and the site's other workflows already use '3.2'.
+          ruby-version: '3.2'
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
