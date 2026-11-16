@@ -1,0 +1,8 @@
+{%- comment -%} The instructor line on the DITAP cohort cards, from site.data.ditap.instructors (WEB-A-160).
+An instructor's short_name, when set, is the name used here. {%- endcomment -%}
+{%- assign names = "" | split: "" -%}
+{%- for instructor in site.data.ditap.instructors -%}
+{%- assign name = instructor.short_name | default: instructor.name -%}
+{%- assign names = names | push: name -%}
+{%- endfor -%}
+{{ names | array_to_sentence_string }}

@@ -143,7 +143,8 @@
     { "@context": "http://schema.org",
      "@type": "Organization",
      "name": "{{site_name}}",
-     "legalName": "Skylight Inc.",
+     {%- assign org = site.data.upstream.public-company-facts %}
+     "legalName": "{{ org.facts.legal_name.value }}",
      "url": "{{site_url}}",
      "logo": {
        "@type": "ImageObject",
@@ -151,21 +152,21 @@
        "height": "{{site_logo_height}}",
        "width": "{{site_logo_width}}"
      },
-     "foundingDate": "2017",
+     "foundingDate": "{{ org.launch_year }}",
      "founders": [
         { "@type": "Person", "name": "Chris Cairns" }
       ],
      "address": {
        "@type": "PostalAddress",
-       "addressLocality": "Sarasota",
-       "addressRegion": "FL",
-       "postalCode": "34236",
-       "addressCountry": "USA"
+       "addressLocality": "{{ org.address_parts.locality }}",
+       "addressRegion": "{{ org.address_parts.region }}",
+       "postalCode": "{{ org.address_parts.postal_code }}",
+       "addressCountry": "{{ org.address_parts.country }}"
      },
      "contactPoint": {
        "@type": "ContactPoint",
        "contactType": "sales",
-       "telephone": "267-228-1390",
+       "telephone": "{{ org.facts.main_phone.value }}",
        "email": "{{ site.email }}"
      },
      "sameAs": [

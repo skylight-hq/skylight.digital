@@ -1,0 +1,4 @@
+{%- comment -%} A care-package figure, as a job posting displays it, from the pinned People Ops export
+_data/upstream/public-benefits.yml (WEB-A-154); scripts/check_site_data.rb fails on an id the file lacks. Usage: include benefit.html with id set to a figure id. {%- endcomment -%}
+{%- assign figure = site.data.upstream.public-benefits.figures | where: "id", include.id | first -%}
+{{ figure.display }}

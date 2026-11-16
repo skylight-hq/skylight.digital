@@ -59,3 +59,7 @@ jobs:
 
       - name: Declared copies are unchanged since their last sync
         run: ruby scripts/check_verbatim_copies.rb
+
+      # The pages that render the pinned People Ops exports and the roster (WEB-A-154, WEB-A-158).
+      - name: Pages render site data that exists
+        run: ruby scripts/check_site_data.rb
