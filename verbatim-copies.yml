@@ -169,7 +169,7 @@ copies:
   # People Ops career framework: one page per practice with a pathway.
   - path: _data/upstream/public-career-pathways.yml
     source: skylight-people-ops/plugins/skylight-career-pathways/content/public-career-pathways.yml
-    sha256: 4d106cac7c86e24a33b90fb11249528b8317289ec94b9d5917ebefd5abd2b51c
+    sha256: 5e5381afa94b4193f15454caaeb3b5cc22ee38eecac59deff22170ba59552502
     divergence: null
 
   # -- The brand pack download (skylight-web WEB-A-159) ------------------------
