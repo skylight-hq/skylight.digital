@@ -1,0 +1,41 @@
+---
+layout: default
+title: Career pathways
+description: Find out what each practice at Skylight does, and the skills you need at each level.
+permalink: /careers/pathways/
+preload: hero-join-us.svg
+redirect_from:
+  - /careers/career-pathways/
+  - /careers/career-pathways/consultant/
+  - /careers/career-pathways/people-manager/
+---
+{%- comment -%} Career pathways, one per practice, rendered from the pinned People Ops export
+_data/upstream/public-career-pathways.yml (skylight-web WEB-A-156, approved 2026-11-16). Each practice
+page is a stub in this folder that names its practice; scripts/check_site_data.rb holds the stubs to
+the export. The 14 role pages this replaced redirect here or to their role's practice. {%- endcomment -%}
+{%- assign framework = site.data.upstream.public-career-pathways -%}
+{%- assign first_level = framework.ladder | first -%}
+{%- assign last_level = framework.ladder | last -%}
+{% capture hero %}Find out what each practice at Skylight does, and the skills you need at each level, <br class="linebreak">from {{ first_level.display_name }} to {{ last_level.display_name }}.{% endcapture %}
+{% include hero_banner.html
+  hero_content = hero
+  color = "green"
+  image = "career_pathways/landing.svg"
+%}
+
+<div class="maxw-prose grid-container text">
+  <div class="text prose">
+    {%- for pillar in framework.pillars -%}
+      {%- assign areas = pillar.practice_areas | where: "pathway_status", "ported" -%}
+      {%- if areas.size > 0 %}
+    <h2 class="heading-mono mt-6">{{ pillar.name }}</h2>
+        {%- for area in areas %}
+    <p class="font-lg font-weight-bold mt-4 mb-2"><a href="/careers/pathways/{{ area.id }}/">{{ area.name }}</a></p>
+    <p>{{ area.public_headline }}</p>
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor %}
+  </div>
+</div>
+
+{% include career_pathways_cta.html %}

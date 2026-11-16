@@ -35,7 +35,7 @@ ci:
       - "http://localhost/company/brand/identity/colors/index.html"                                  # toolkit
       - "http://localhost/thoughts/blog/reactions-to-our-agile-share-in-savings-model/index.html"    # blog_post
       - "http://localhost/company/policies/code-of-conduct/index.html"                               # policy
-      - "http://localhost/careers/career-pathways/consultant/index.html"                             # career_pathways_role
+      - "http://localhost/careers/pathways/engineering/index.html"                                      # career_pathway_practice
       - "http://localhost/thoughts/blog/tag/accessibility/index.html"                                # tag_filter
       - "http://localhost/thoughts/blog/author/abby-raskin/index.html"                               # employee_filter
       # -- accordion coverage: the 67-page blind spot --

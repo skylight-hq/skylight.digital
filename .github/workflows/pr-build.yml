@@ -40,9 +40,12 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: ruby/setup-ruby@7f797815d8adceb1c412e7abefdd1ab4abc47a5f # v1
+      - uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1
         with:
           bundler-cache: true
+          # .ruby-version pins 3.2.6, which the ubuntu-latest image (26.04) no longer offers; the Gemfile
+          # accepts any 3.2.6 or later, and the site's other workflows already use '3.2'.
+          ruby-version: '3.2'
           cache-version: 0
 
       # Two greps, because a green build is weaker than it looks: Liquid runs in

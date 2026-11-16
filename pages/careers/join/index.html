@@ -102,7 +102,7 @@ works." color = "green" image = "hero-join-us.svg" %}
               which allows space for me to create products that both clients and users love.”
             </p>
             <p class="join-quote__byline">
-              – <b>Miringu Kiarie,</b> User Researcher
+              – {% include quote-byline.html person="miringu-kiarie" %}
             </p>
           </div>
         </div>
@@ -125,7 +125,7 @@ works." color = "green" image = "hero-join-us.svg" %}
             </p>
 
             <p class="join-quote__byline">
-              – <b>Nicole Campbell,</b> Chief Operating Officer
+              – {% include quote-byline.html person="nicole-campbell" %}
             </p>
           </div>
         </div>
@@ -147,7 +147,7 @@ works." color = "green" image = "hero-join-us.svg" %}
             </p>
 
             <p class="join-quote__byline">
-              – <b>Alex Bornkessel,</b> Service Designer
+              – {% include quote-byline.html person="alex-bornkessel" %}
             </p>
           </div>
         </div>
@@ -163,19 +163,20 @@ works." color = "green" image = "hero-join-us.svg" %}
           <div class="col-12 col-lg-4">
             {% include icons/join/compensation.svg %}
             <h3>Compensation</h3>
-            <p>
-              We offer a competitive salary, opportunities for a stake in the
-              company’s success with stock options, performance rewards,
-              referral bonuses, and a quick-pay program.
-            </p>
+            <ul>
+              <li>{% include benefit-line.html has="Annual compensation" %}</li>
+              <li>{% include benefit-line.html has="Referral bonuses" %}</li>
+            </ul>
           </div>
 
           <div class="col-12 col-lg-4">
             {% include icons/join/future.svg %}
             <h3>Future</h3>
+            <ul>
+              <li>{% include benefit-line.html has="401(k)" %}</li>
+            </ul>
             <p>
-              We match your 401(k) dollar-for-dollar up to 10% of your salary.
-              We also offer a budget of up to $2,000 per year for professional
+              We also offer a budget of up to {% include benefit.html id="PRODEV_ALLOWANCE" %} per year for professional
               development, which includes conferences, training, travel, and
               materials.
             </p>
@@ -194,19 +195,17 @@ works." color = "green" image = "hero-join-us.svg" %}
           <div class="col-12 col-lg-4">
             {% include icons/join/parental-leave.svg %}
             <h3>Parental leave</h3>
-            <p>
-              We offer up to 12 weeks paid time off for all eligible 
-              new birth, adoption, or foster parents. 
-            </p>
+            <ul>
+              <li>{% include benefit-line.html has="parental" %}</li>
+            </ul>
           </div>
 
           <div class="col-12 col-lg-4">
             {% include icons/join/time-off.svg %}
             <h3>Time off</h3>
-            <p>
-              We offer a flexible paid-time-off policy (generally around 25 days per year), 
-              plus 11 paid federal holidays.
-            </p>
+            <ul>
+              <li>{% include benefit-line.html has="paid time off" %}</li>
+            </ul>
           </div>
 
           <div class="col-12 col-lg-4">
@@ -223,12 +222,12 @@ works." color = "green" image = "hero-join-us.svg" %}
             {% include icons/join/shopping-cart.svg %}
             <h3>Stuff</h3>
             <p>
-              We provide an annual tech budget of up to $750 for anything, such
+              We provide an annual tech budget of up to {% include benefit.html id="TECH_ALLOWANCE" %} for anything, such
               as a new computer, that you think will help to do your job better.
               Most software that you need will be provided by us. We also
               provide an annual
               <a href="https://skylight-swag.myshopify.com/">Skylight swag</a>
-              budget of $100.
+              budget of {% include benefit.html id="SWAG_BUDGET" %}.
             </p>
           </div>
 
@@ -253,6 +252,17 @@ works." color = "green" image = "hero-join-us.svg" %}
                 >Digital Services Coalition</a
               >, which we co-founded.
             </p>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            {% include icons/join/tools.svg %}
+            <h3>More benefits</h3>
+            <ul>
+              <li>{% include benefit-line.html has="Employee Assistance" %}</li>
+              <li>{% include benefit-line.html has="military leave" %}</li>
+              <li>{% include benefit-line.html has="charity" %}</li>
+              <li>{% include benefit-line.html has="voluntary" %}</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -310,7 +320,7 @@ works." color = "green" image = "hero-join-us.svg" %}
             </li>
           </ul>
           We use the interview process not only to evaluate whether you’re a good fit for Skylight 
-          but also to determine the most appropriate <a href="/careers/career-pathways/">career level</a>, which will inform your salary range.
+          but also to determine the most appropriate <a href="/careers/pathways/">career level</a>, which will inform your salary range.
         </div>
 
         <div class="interview-explanation">

@@ -23,7 +23,11 @@ slack_invite_url: ""
 youtube_url: https://youtube.com/channel/UCbNzANEv5xYqfMbDrv8kcEw
 
 # Company data
+# employee_count has no upstream source yet; it is the headcount as of employee_count_as_of.
+# state_count must equal work_locations.states in _data/upstream/public-benefits.yml (the care
+# package owns it); scripts/check_site_data.rb fails when they differ.
 employee_count: 164
+employee_count_as_of: "2025-11-21"
 state_count: 34
 
 # Build & development

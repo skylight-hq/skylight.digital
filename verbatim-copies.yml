@@ -134,3 +134,49 @@ copies:
     divergence: >-
       Mirror, not a byte copy: sync-brand-pack.yml prepends an 8-line provenance header and a `---`
       separator. Everything below the separator is the hub file verbatim.
+
+  # -- The SBIR/STTR procurement guide's web render ---------------------------
+  #
+  # Rendered by skylight-marcom scripts/render_document.py from the same source as the guide's PDF,
+  # so this page and the PDF can't say different things (HUB-D-286). To change the text, change the
+  # source there, render, and copy both files here; then update these hashes.
+  - path: _includes/vendored/sbir-sttr-procurement-guide.html
+    source: skylight-marcom/collateral/sbir-sttr-procurement-guide/web/skylight-sbir-sttr-procurement-guide.html
+    sha256: c1fbf2034a965ac43364e2e4c05aacb8f015da4145117604815c13ff9743b45b
+    divergence: null
+
+  - path: _data/sbir_sttr_guide.json
+    source: skylight-marcom/collateral/sbir-sttr-procurement-guide/web/skylight-sbir-sttr-procurement-guide.json
+    sha256: e816f3ea2aedbe863378a99a68c8f75fcf59778abd2b23862e454dbcbf0a1adf
+    divergence: null
+
+  # -- People Ops public exports (skylight-web WEB-A-154, 156, 157) ----------
+  #
+  # Generated in skylight-people-ops from the care package and the company facts. The join page's
+  # benefit figures, the contracting page's company data and head.html's Organization node render
+  # from these. To change a figure, change it there, regenerate, copy here and run --update.
+  - path: _data/upstream/public-benefits.yml
+    source: skylight-people-ops/plugins/skylight-care-package/content/public-benefits.yml
+    sha256: 4b96ac4dc00eda2ab69a9534e4939530a56331bb7ab224b35227263c80d40738
+    divergence: null
+
+  - path: _data/upstream/public-company-facts.yml
+    source: skylight-people-ops/plugins/skylight-company-facts/content/public-company-facts.yml
+    sha256: 7487307a419a932290a05334596423ff3547ba96c0ad14caaeaa36fecc08dd11
+    divergence: null
+
+  # The career pathway pages (pages/careers/pathways/, WEB-A-156) render from this export of the
+  # People Ops career framework: one page per practice with a pathway.
+  - path: _data/upstream/public-career-pathways.yml
+    source: skylight-people-ops/plugins/skylight-career-pathways/content/public-career-pathways.yml
+    sha256: 5e5381afa94b4193f15454caaeb3b5cc22ee38eecac59deff22170ba59552502
+    divergence: null
+
+  # -- The brand pack download (skylight-web WEB-A-159) ------------------------
+  #
+  # Built by skylight-hub scripts/render_brand_pack_zip.rb from the brand-pack asset manifest. The
+  # skylight-web redesign pins the same file.
+  - path: img/brand/identity/assets/brand-pack.zip
+    source: skylight-hub/plugins/skylight-brand-pack/dist/brand-pack.zip
+    sha256: ee45257db8d11b4fb57519d81114d5b4d3831e1da717e266214072b26a45ea5e
+    divergence: null

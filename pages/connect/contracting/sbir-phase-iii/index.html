@@ -1,0 +1,36 @@
+---
+layout: default
+title: SBIR/STTR Phase III
+description: How a contracting officer can award Skylight an SBIR/STTR Phase III contract, with the authority, the steps, and sample language for the contract file.
+permalink: /connect/contracting/sbir-phase-iii/
+---
+{% comment %}
+  The guide's text is not written here. It is rendered by skylight-marcom from the same source as the
+  downloadable PDF (collateral/sbir-sttr-procurement-guide/) and copied in as two files, checked by
+  verbatim-copies.yml: _includes/vendored/sbir-sttr-procurement-guide.html (the text) and
+  _data/sbir_sttr_guide.json (the title, PDF address and facts). To change what the page says, change
+  the source in skylight-marcom and copy the new render here.
+{% endcomment %}
+{% assign guide = site.data.sbir_sttr_guide %}
+
+<section class="grid-container sbir-guide">
+  <div class="sbir-guide__intro">
+    <p class="sbir-guide__crumb"><a href="/connect/contracting/">Contracting</a> / SBIR/STTR Phase III</p>
+    <h1>{{ guide.title }}</h1>
+    <p class="sbir-guide__lede">A guide for contracting officers and contract specialists making a Phase III award. Skylight’s service design work was competed and won under U.S. Air Force SBIR and STTR awards, so any federal agency can award follow-on work to Skylight as a Phase III, with no dollar ceiling.</p>
+    <p class="sbir-guide__caveat">This guide summarizes federal law and policy as of {{ guide.facts["edition.law_as_of"] }}. It is not legal advice. Follow your agency’s acquisition supplement and class deviations.</p>
+  </div>
+
+  <aside class="sbir-guide__download" aria-label="Download the guide">
+    <h2>Download the guide</h2>
+    <p>{{ guide.facts["edition.name"] }}, as a PDF to print or attach to a contract file. It says the same as this page.</p>
+    <a class="link--cta" href="{{ guide.pdf_url }}">
+      <span class="link__text--cta">Download the PDF</span><i class="fal fa-arrow-to-bottom" aria-hidden="true"></i>
+    </a>
+    <p class="sbir-guide__contact">Questions about a Phase III award? <a href="mailto:{{ guide.facts['contact.email'] }}">{{ guide.facts["contact.email"] }}</a></p>
+  </aside>
+
+  <div class="text prose sbir-guide__body">
+    {% include vendored/sbir-sttr-procurement-guide.html %}
+  </div>
+</section>

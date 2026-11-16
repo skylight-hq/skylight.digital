@@ -1,0 +1,93 @@
+---
+layout: default
+class: career-pathways-role
+---
+{%- comment -%} One practice's career pathway, rendered from the pinned People Ops export
+_data/upstream/public-career-pathways.yml (skylight-web WEB-A-156). The page's stub in
+pages/careers/pathways/ names the practice; every word below the hero's title comes from the export.
+{%- endcomment -%}
+{%- assign framework = site.data.upstream.public-career-pathways -%}
+{%- assign area = nil -%}
+{%- for pillar in framework.pillars -%}
+  {%- assign hit = pillar.practice_areas | where: "id", page.practice | first -%}
+  {%- if hit -%}{%- assign area = hit -%}{%- endif -%}
+{%- endfor -%}
+{%- assign labels = framework.ladder_labels -%}
+
+<div
+  class="bg-green hero-banner"
+  style="background-image: url(/img/career_pathways/landing.svg);"
+>
+  <header class="hero hero-banner mb-5">
+    <div class="hero-container container-fluid text-center">
+      <h1 class="hero-heading">{{ area.name }}</h1>
+      <div class="hero-content">{{ area.public_headline }}</div>
+    </div>
+  </header>
+</div>
+
+<div class="grid-container">
+  <div class="row">
+    <div class="sidenav col-12 col-md-3 d-none d-md-block">
+      <div class="is-sticky">
+        <nav class="subnav-col px-0" id="sidenav">
+          <ul>
+            <li class="current"><a class="nav-link" href="#introduction" aria-current="location">Introduction</a></li>
+            <li><a class="nav-link" href="#core-craft">Core craft</a></li>
+            {%- for id in area.applies_levels -%}
+              {%- assign rung = framework.ladder | where: "id", id | first %}
+            <li><a class="nav-link" href="#{{ rung.display_name | slugify }}">{{ rung.display_name }}</a></li>
+            {%- endfor %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="col-12 col-md-9">
+      <div class="text prose">
+        <h2 class="mt-0 pt-3" id="introduction">Introduction</h2>
+        <p>{{ area.mission }}</p>
+
+        <h2 id="core-craft">Core craft</h2>
+        {%- for craft in area.core_craft %}
+        <h4>{{ craft.area }}</h4>
+        <p>{{ craft.description }}</p>
+        {%- endfor %}
+
+        {%- for level in area.levels -%}
+          {%- assign rung = framework.ladder | where: "id", level.level | first %}
+        <h3 id="{{ rung.display_name | slugify }}">{{ rung.display_name }}</h3>
+        <p>{{ level.mission }}</p>
+        <dl>
+          <dt>{{ labels.decisions_ownership }}</dt>
+          <dd>{{ level.decisions_ownership }}</dd>
+          <dt>{{ labels.consulting_scope }}</dt>
+          <dd>{{ level.consulting_scope }}</dd>
+          <dt>{{ labels.impact }}</dt>
+          <dd>{{ level.impact }}</dd>
+          <dt>{{ labels.calibration_question }}</dt>
+          <dd>{{ level.calibration_question }}</dd>
+        </dl>
+        <h5>What success looks like</h5>
+        <ul>
+          {%- for item in level.success_looks_like %}
+          <li>{{ item }}</li>
+          {%- endfor %}
+        </ul>
+        <h5>Example outcomes</h5>
+        <ul>
+          {%- for item in level.example_outcomes %}
+          <li>{{ item }}</li>
+          {%- endfor %}
+        </ul>
+        {%- endfor %}
+
+        <a class="post-footer__see-all" href="/careers/pathways/">
+          <i class="fal fa-long-arrow-left mr-2" aria-hidden="true"></i>See all career pathways
+        </a>
+      </div>
+    </section>
+  </div>
+</div>
+
+{% include career_pathways_cta.html %}

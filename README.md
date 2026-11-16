@@ -27,7 +27,7 @@ This repo is frozen until cutover 1 replaces it with the rebuilt site, and it ke
 
 1. If you’re using a Mac, install homebrew (see https://brew.sh/)
 2. After installing git (`brew install git`), `cd` to the directory where you want to check out the site, and then clone it (`git clone https://github.com/skylight-hq/skylight.digital.git`).
-3. Install the Ruby version in `.ruby-version` (3.2.6) with a version manager such as asdf (`asdf install ruby 3.2.6`) or rvm (`rvm install 3.2.6`).
+3. Install the Ruby version in `.ruby-version` (3.2.11) with a version manager such as asdf (`asdf install ruby 3.2.11`) or rvm (`rvm install 3.2.11`).
 4. Install the `bundler` gem, then use bundler to install other project dependencies (`gem install bundler && bundle install`).
 
 Node isn't needed to build the site: `package.json` lists no dependencies.
@@ -52,4 +52,4 @@ Node isn't needed to build the site: `package.json` lists no dependencies.
 1. Enter the command `npm run docker-run` to start the server.
 1. Navigate to http://localhost:4000 in your browser.
 
-The Docker image (`jekyll/jekyll:3.8`) is older than the site's Jekyll (4.4.1) and Ruby (3.2.6), so this path may not build the current site.
+The Docker image (`jekyll/jekyll:3.8`) is older than the site's Jekyll (4.4.1) and Ruby (3.2.11), so this path may not build the current site.

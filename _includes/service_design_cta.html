@@ -1,8 +1,9 @@
+{% capture contact_mailto %}mailto:{{ site.email }}{% endcapture %}
 {% include cta.html
   header = "Deliver better services."
   text = 'Ready to create transformative user experiences <br class="linebreak"> through service design? Let’s get to work.'
   text_css_class = "page-subfooter-text-col"
-  cta_path = "mailto:hello@skylight.digital"
+  cta_path = contact_mailto
   cta = "Contact us"
   icon_css_class = "fa fa-at"
 %}
